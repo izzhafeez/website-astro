@@ -1,0 +1,220 @@
+{
+  "admin-support": {
+    "title": "Admin Support Course",
+    "imgPath": "scdf.png",
+    "level": "Best Trainee",
+    "description": [
+      {
+        "title": "background",
+        "text": "During the training period at the start of my National Service, I underwent training for my vocation. The training mainly consisted of basic Microsoft Office skills, as well as routine orders, and included multiple test components. Amongst the 50+ trainees during the programme, I managed to achieve the best results."
+      }
+    ]
+  },
+  "amc": {
+    "title": "Australian Mathematics Competition",
+    "imgPath": "australianmc.png",
+    "level": "High Distinction"
+  },
+  "dean-list-y1s2": {
+    "title": "Dean's List",
+    "imgPath": "nus.png",
+    "importance": 9,
+    "date": "AY21/22 Sem 2",
+    "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
+    "description": [
+      {
+        "title": "description",
+        "text": "Owing to my efforts during the second semester of my first year in NUS, I received a **4.92** SAP. As a result, I obtained the coveted Dean's List, which is awarded to the top 5-10% of each cohort."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2030s",
+          "cs2040s",
+          "gea1000",
+          "gec1030",
+          "is1103",
+          "st2334"
+        ]
+      }
+    ]
+  },
+  "dean-list-y2s2": {
+    "title": "Dean's List",
+    "imgPath": "nus.png",
+    "importance": 10,
+    "date": "AY22/23 Sem 2",
+    "link": "https://credentials.nus.edu.sg/8ecf4cd4-3603-465a-baea-7c3bafd5c377",
+    "description": [
+      {
+        "title": "description",
+        "text": "Owing to my efforts during the second semester of my second year in NUS, I received a **5.0** SAP. As a result, I obtained the coveted Dean's List, which is awarded to the top 5-10% of each cohort."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2101",
+          "cs2103t",
+          "cs2108",
+          "cs2109s",
+          "ma2104",
+          "ma3252"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "edumate"
+        ]
+      }
+    ]
+  },
+  "euclid": {
+    "title": "Euclid Contest",
+    "imgPath": "euclid.png",
+    "importance": 5,
+    "level": "Distinction"
+  },
+  "noi": {
+    "title": "National Olympiad in Informatics",
+    "imgPath": "nus.png",
+    "level": "Participation"
+  },
+  "seamo": {
+    "title": "Southeast Asian Math Olympiad",
+    "imgPath": "seamo.png",
+    "level": "Bronze"
+  },
+  "simc": {
+    "title": "SIMC",
+    "imgPath": "nus.png",
+    "level": "Participation",
+    "description": [
+      {
+        "title": "background",
+        "text": "Along with two classmates, I represented the school for the Singapore International Maths Challenge (SIMC). The competition was a 5-day long event, where teams from all over the world try to solve and present their solutions to difficult maths problems. Our team didn't receive much training for the competition, so we were outmatched by schools with a lot more support from the teachers. However, I did find it to be a good learning experience for us, as we slugged through night after night of problem-solving."
+      }
+    ]
+  },
+  "smo-2013": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "date": 2013,
+    "level": "Bronze"
+  },
+  "smo-2014": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "importance": 5,
+    "date": 2014,
+    "level": "Silver",
+    "description": [
+      {
+        "title": "background",
+        "text": "I frequented the Singapore Mathematical Olympiad (SMO) for many years during my time in school, and I made it to the second round almost every time. But while a Silver Award is a good enough achievement, it was still unfortunate that I didn't manage to obtain any Gold Award in the end."
+      }
+    ]
+  },
+  "smo-2015": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "date": 2015,
+    "level": "Bronze"
+  },
+  "smo-2016": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "importance": 5,
+    "date": 2016,
+    "level": "Silver",
+    "description": [
+      {
+        "title": "background",
+        "text": "I frequented the Singapore Mathematical Olympiad (SMO) for many years during my time in school, and I made it to the second round almost every time. But while a Silver Award is a good enough achievement, it was still unfortunate that I didn't manage to obtain any Gold Award in the end."
+      }
+    ]
+  },
+  "smo-2017": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "importance": 5,
+    "date": 2017,
+    "level": "Silver",
+    "description": [
+      {
+        "title": "background",
+        "text": "I frequented the Singapore Mathematical Olympiad (SMO) for many years during my time in school, and I made it to the second round almost every time. But while a Silver Award is a good enough achievement, it was still unfortunate that I didn't manage to obtain any Gold Award in the end."
+      }
+    ]
+  },
+  "smo-2018": {
+    "title": "Singapore Mathematical Olympiad",
+    "imgPath": "sms.png",
+    "importance": 8,
+    "date": 2018,
+    "level": "Silver",
+    "description": [
+      {
+        "title": "background",
+        "text": "I frequented the Singapore Mathematical Olympiad (SMO) for many years during my time in school, and I made it to the second round almost every time. But while a Silver Award is a good enough achievement, it was still unfortunate that I didn't manage to obtain any Gold Award in the end."
+      }
+    ]
+  },
+  "spho": {
+    "title": "Singapore Physics Olympiad",
+    "imgPath": "nus.png",
+    "level": "Participation"
+  },
+  "ti-graphing": {
+    "title": "TI Graphing Competition",
+    "imgPath": "ti.png",
+    "importance": 7,
+    "date": 2018,
+    "level": "Gold",
+    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY",
+    "description": [
+      {
+        "title": "background",
+        "text": "In 2017 and 2018, my favourite past time was creating math art using the Desmos graphing calculator. This eventually led me to participating in design competitions, like this one by Texas Instruments (TI). In the 2018 rendition, the theme was 'Towards a Smart Nation', where I created an <<https://www.desmos.com/calculator/o6ioqimvq6>>AI-inspired design</> that eventually led me to win the Gold Award. It is to be noted that I also participated in the 2017 competition, where I obtained the Silver Award."
+      }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "graphs",
+        "items": [
+          "ti-competition"
+        ]
+      }
+    ]
+  },
+  "top-students-ethics": {
+    "title": "Ethics in Computing",
+    "imgPath": "nus.png",
+    "importance": 6,
+    "date": "AY21/22 Sem 2",
+    "link": "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a",
+    "description": [
+      {
+        "title": "description",
+        "text": "Obtained the subject award for IS1103: Ethics in Computing during the second semester of my first year in NUS."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "is1103"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,997 @@
+{
+  "auto-gitter": {
+    "title": "Auto-Gitter",
+    "imgPath": "github.svg",
+    "importance": 1,
+    "date": "Sep'22",
+    "repo": "https://github.com/mynameizzhafeez/bash-projects",
+    "overview": "Individually commits every file changed within a directory",
+    "description": [
+      {
+        "title": "description",
+        "text": "This was practice in developing using bash script, so the functionality isn't that wild. Basically, for any directory to be gitted, the script recursively enters the subdirectories and once it cannot enter further, it will git add and git commit the file. In this way, the number of commits can effortlessly increase."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "github"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "bash",
+          "github"
+        ]
+      }
+    ]
+  },
+  "bus-routes-optimiser": {
+    "title": "Bus Route Optimiser (Web)",
+    "imgPath": "qi.png",
+    "importance": 6,
+    "date": "May'23",
+    "overview": "Recommends the optimal routes for buses to pick up passengers",
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jest",
+          "postman",
+          "react-js",
+          "ruby-on-rails"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "bootstrap",
+          "css",
+          "frontend-development",
+          "fullstack-intern",
+          "geospatial-analytics",
+          "javascript",
+          "jest",
+          "postman",
+          "react-js",
+          "ruby",
+          "ruby-on-rails",
+          "software-testing",
+          "web-development"
+        ]
+      }
+    ]
+  },
+  "chords-search-engine": {
+    "title": "Chords Search Engine",
+    "imgPath": "music.svg",
+    "importance": 6,
+    "date": "Feb'20",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
+    "overview": "Finds, standardises and analyses the chord progression of any song",
+    "description": [
+      {
+        "title": "description",
+        "text": "In short, this module allows the user to find out the chords used in a particular song. Given the song title and song artist as parameters, the module will scrape the web for existing transcriptions for the song. Afterwards, using a series of pattern matches, the module standardises the chord progressions into the same key and further segments them into manageable sections. Finally, the data is compiled based on popularity, outputting the most accurate result. Using this standardised data, I am able to advance my development of my RNN model, which tries to predict chords based on lyrics."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "flask"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "css",
+          "flask",
+          "python",
+          "web-development",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "spiderman-web-scraper"
+        ]
+      }
+    ]
+  },
+  "dynamic-resource-optimiser": {
+    "title": "Dynamic Resource Optimiser",
+    "imgPath": "scdf.png",
+    "importance": 10,
+    "date": "Feb'19",
+    "overview": "Recommends the optimal placement of emergency vehicles",
+    "description": [
+      {
+        "title": "description",
+        "text": "Dynamic Resource Optimisation is a simulation and optimisation platform that recommends the optimal placement of emergency appliances to minimise overall response time in attending to emergency incidents. Although I mainly use it for producing analytics reports and predictions, I was also involved in the development of the project. In particular, my experience as an end user allowed me to implement many of my own improvements to the model. For instance, the entire analytics process was originally a six-stepped one, but I managed to drop it down to a more intuitive two steps.\nNot only that, but I was also responsible for developing the master file for the project, which meant compiling information from over a dozen sources and file formats, all the while ensuring the data's accuracy. I was also responsible for generating predicted data to account for population trends. I took this project seriously, as it had tangible impact on Singapore's emergency medical response times."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "flask",
+          "pandas",
+          "ruby-on-rails",
+          "tableau"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-analytics",
+          "data-cleaning",
+          "data-science",
+          "data-visualisation",
+          "flask",
+          "geospatial-analytics",
+          "operational-analysis",
+          "pandas",
+          "python",
+          "ruby",
+          "ruby-on-rails",
+          "software-engineering",
+          "tableau",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-extraction"
+        ]
+      }
+    ]
+  },
+  "edumate": {
+    "title": "EduMate",
+    "imgPath": "nus.png",
+    "importance": 8,
+    "date": "Feb'23",
+    "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
+    "overview": "Desktop app designed for NUS students to manage their contacts",
+    "description": [
+      {
+        "title": "description",
+        "text": "EduMate is a desktop app designed for NUS students to manage their academic and social lives. It works as an address book but has other interesting features as well. It works mostly by commands and can behave like a Command Line Interface (CLI).\nRead more on <<https://ay2223s2-cs2103t-w14-2.github.io/tp/UserGuide.html>>the User Guide</>."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "junit",
+          "plant-uml"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "cs2103t",
+          "dean-list-y2s2",
+          "documentation",
+          "java",
+          "junit",
+          "plant-uml",
+          "software-engineering",
+          "software-testing"
+        ]
+      }
+    ]
+  },
+  "geospatial-extraction": {
+    "title": "Geo Extraction Framework",
+    "imgPath": "geospatial.svg",
+    "importance": 6,
+    "date": "May'19",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/geo.py",
+    "overview": "Web scraping tool for extracting geospatial data",
+    "description": [
+      {
+        "title": "description",
+        "text": "This web scraping tool extracts data from numerous sources pertaining to locations in Singapore. Its main function is to process Singapore's MRT, Bus and Road network, but also offers queries on empty parking lots and elevation. I heavily leveraged the use of Geopandas and Shapely when compiling this data, as they are helpful in dealing with such data.\nThe data extracted using this script has since been uploaded onto Google Sheets."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-cleaning",
+          "geospatial-analytics",
+          "pandas",
+          "python",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser",
+          "geospatial-management",
+          "halal-recommender",
+          "malls-of-singapore"
+        ]
+      }
+    ]
+  },
+  "geospatial-management": {
+    "title": "Geo Management Framework",
+    "imgPath": "geospatial.svg",
+    "importance": 8,
+    "date": "Feb'22",
+    "repo": "https://github.com/mynameizzhafeez/geo",
+    "overview": "A Python package to process and manage geospatial data in Singapore",
+    "description": [
+      {
+        "title": "description",
+        "text": "This Python package processes and manages data about various geospatial features in Singapore, including the planning areas, malls, schools, MRT system and bus services.\nApart from that, I practiced strong type annotations and programming practices. I also implemented quite a lot of useful data structures, such as the KDTree, AVLTree, Priority Queue and my own BoundsTree."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-structures",
+          "geospatial-analytics",
+          "pandas",
+          "python"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-extraction",
+          "malls-of-singapore",
+          "meetup-maker",
+          "mrt-paths-analysis",
+          "sz-matrix"
+        ]
+      }
+    ]
+  },
+  "halal-recommender": {
+    "title": "Halal Recommender",
+    "imgPath": "halal.png",
+    "importance": 5,
+    "date": "Jun'20",
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/geo.js",
+    "overview": "Telegram Bot that recommends halal food based on location and preferences",
+    "description": [
+      {
+        "title": "description",
+        "text": "This Telegram Bot @HalfGeoBot allows users to search for Halal food around a specified location. It is powered by Google Apps Script, and houses its data on Google Sheets. Through the bot, users can input their preferred location, as well as provide additional search parameters for the cuisine and restaurant name. Afterwards, the bot will spit out the list of Halal food places that fit the criteria, sorted by distance. Ever since created, the bot has been used by over a dozen people."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "gcp",
+          "telegram-bots"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling",
+          "gcp",
+          "geospatial-analytics",
+          "javascript",
+          "telegram-bots",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-extraction"
+        ]
+      }
+    ]
+  },
+  "jap-vocab-trainer": {
+    "title": "Japanese Vocab Trainer",
+    "imgPath": "japanese.svg",
+    "importance": 2,
+    "date": "May'22",
+    "repo": "https://github.com/mynameizzhafeez/jap-vocab-trainer",
+    "overview": "Anki-like Rust CLI application for practicing Japanese Kanji",
+    "description": [
+      {
+        "title": "description",
+        "text": "This Rust CLI application works like Anki in that I can review my vocabulary list for Japanese. Specifically, the application tests my knowledge of kanji pronunciation, and if I get it wrong, the application will bump up that word's difficulty. It would then appear more often until I get it right."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "japanese",
+          "rust"
+        ]
+      }
+    ]
+  },
+  "malls-of-singapore": {
+    "title": "Malls of Singapore",
+    "imgPath": "malls.jpeg",
+    "importance": 9,
+    "date": "Mar'21",
+    "repo": "https://github.com/mynameizzhafeez/malls",
+    "overview": "A statistics-driven card game based on the shopping malls of Singapore",
+    "description": [
+      {
+        "title": "description",
+        "text": "I love learning about Singapore's urban environment, including its <<../blog/malls>>shopping malls</>. As my interest grew, I began researching specific statistics for each mall, creating scripts to scrape the web and process the data.\nThe game I've created is a statistics-driven card game centred around risk-taking and sacrifice. The cards have eight statistics each, which may include Latitude, Longitude, Nearby Bus Services, Number of Stores, Retail Area etc. Each statistic is treated as a separate battle and each round, players will fight four battles at once. As such, players choose which of their cards will fight which battle."
+      },
+      {
+        "title": "development",
+        "text": "After gathering all the data, I went on with experimenting with different technologies to develop the game further. I first tried Unity, and then Angular with a Flask backend, and currently experimenting with Gin."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c-sharp",
+          "css",
+          "go",
+          "html",
+          "javascript",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "angular-js",
+          "flask",
+          "pandas",
+          "unity"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "angular-js",
+          "c-sharp",
+          "css",
+          "data-cleaning",
+          "data-mining",
+          "data-science",
+          "flask",
+          "game-development",
+          "geospatial-analytics",
+          "go",
+          "html",
+          "javascript",
+          "machine-learning",
+          "pandas",
+          "python",
+          "selenium",
+          "unity",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-extraction",
+          "geospatial-management"
+        ]
+      }
+    ]
+  },
+  "meetup-maker": {
+    "title": "MeetupMaker",
+    "imgPath": "geospatial.svg",
+    "importance": 8,
+    "date": "Jun'22",
+    "repo": "https://github.com/mynameizzhafeez/MeetupMaker",
+    "overview": "A geospatial app that recommends meetup locations based on user positions",
+    "description": [
+      {
+        "title": "description",
+        "text": "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria.\nI use this quite often, though I mostly use the Jupyter version of this for convenience."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "django",
+          "heroku",
+          "postgresql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "css",
+          "data-modeling",
+          "django",
+          "geospatial-analytics",
+          "heroku",
+          "postgresql",
+          "python",
+          "sql",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-management",
+          "sz-matrix"
+        ]
+      }
+    ]
+  },
+  "mrt-paths-analysis": {
+    "title": "MRT Paths Analysis",
+    "imgPath": "mrt.svg",
+    "importance": 3,
+    "date": "Sep'21",
+    "repo": "https://github.com/mynameizzhafeez/MRT-puzzle",
+    "overview": "Analysis of Hamiltonian Paths in Singapore's MRT Network",
+    "description": [
+      {
+        "title": "description",
+        "text": "As part of the Mathematical Society's Weekly Puzzle Challenge, I've made this graph theory question regarding Singapore's MRT network. The question reads:\n\u201cYour train-loving friend is travelling to Singapore for the first time and wants to visit all the MRT interchanges (shown in the picture). However, he does not want to visit or pass through any station more than once. Furthermore, he wants to take each non-LRT (non-grey) train line exactly 3 distinct times during the journey. Can you help plan his route?\u201d\nIt turns out, there are 46 possible solutions to this puzzle, and this projects details the methodology I used when extracting, parsing, solving and visualising the problem. Do forgive my code formatting; it was done in a hurry and didn't use knowledge from my CS2040S DSA course."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jupyter"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-visualisation",
+          "geospatial-analytics",
+          "jupyter",
+          "python"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-management"
+        ]
+      }
+    ]
+  },
+  "neothesia": {
+    "title": "Neothesia",
+    "imgPath": "music.svg",
+    "importance": 2,
+    "date": "May'23",
+    "repo": "https://github.com/mynameizzhafeez/Neothesia",
+    "overview": "Flashy Synthesia-like software",
+    "description": [
+      {
+        "title": "description",
+        "text": "Neothesia is an open-source software that renders midi music in an easy-to-follow piano tutorial. It presents itself as the free version of Synthesia, which is a software that I use on a regular basis to produce my YouTube videos. Upon learning of Neothesia, and the fact that it is written in Rust, I was quite intrigued and immediately cloned the repo. Afterwards, I adapted the application to suit my needs, and I have pipelines set up to convert my music automatically into videos."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "rust"
+        ]
+      }
+    ]
+  },
+  "note-together": {
+    "title": "NoteTogether",
+    "imgPath": "notetogether.png",
+    "importance": 8,
+    "date": "Mar'22",
+    "repo": "https://github.com/shotnothing/NoteTogether",
+    "overview": "A note-sharing platform with Reddit and GitHub-like functionalities",
+    "description": [
+      {
+        "title": "description",
+        "text": "NoteTogether is a note-sharing platform that incorporates Reddit and GitHub-like features. In essences, users can create and format their notes using our custom markdown editor, edit them, and publish them for others to see. Users can also search for notes created by others, with the option to upvote, downvote or favourite the note. If users want to make their own small edits to notes creatd by others, they can 'fork' from them, similar to GitHUb's system. Finally, this is surrounded by a credit system which encourages users to actively contribute to the platform."
+      },
+      {
+        "title": "development",
+        "text": "Along with my partner, we developed NoteTogether using the MEVN tech stack, which included <<../merits/technologies/mongo-db>>MongoDB</>, <<../merits/technologies/express-js>>Express</>, <<../merits/technologies/vue-js>>Vue</> and <<../merits/technologies/node-js>>Node</>."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "typescript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "express-js",
+          "github",
+          "heroku",
+          "mongo-db",
+          "node-js",
+          "postman",
+          "selenium",
+          "vue-js"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "frontend-development",
+          "software-testing",
+          "web-development"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "api-development",
+          "cp2106",
+          "css",
+          "express-js",
+          "frontend-development",
+          "github",
+          "heroku",
+          "javascript",
+          "mongo-db",
+          "node-js",
+          "postman",
+          "selenium",
+          "software-testing",
+          "typescript",
+          "vue-js",
+          "web-development"
+        ]
+      }
+    ]
+  },
+  "notes-telegram-bot": {
+    "title": "Notes Telegram Bot",
+    "imgPath": "telegram.svg",
+    "importance": 5,
+    "date": "Jul'21",
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
+    "overview": "Telegram Bot that lets users review notes on the go",
+    "description": [
+      {
+        "title": "description",
+        "text": "This Telegram bot @HalfCSBot allows users to access the notes created by me for my modules and extra-curricular learning. It uses a custom markdown style that renders into Telegram redirect links, and is stored within Google Sheets.\nApart from redirects that lead to further notes, this Telegram bot also features a search function, that returns a list of topics ranked by a metric of importance. It is also capable of rendering cheatsheets, for use in examinations.\nClose to a dozen people have used this bot ever since it was created, and hopefully it managed to help them even a little."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "gcp",
+          "telegram-bots"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling",
+          "gcp",
+          "javascript",
+          "telegram-bots"
+        ]
+      }
+    ]
+  },
+  "programming-lines-counter": {
+    "title": "Programming Lines Counter",
+    "imgPath": "c.svg",
+    "importance": 1,
+    "date": "Aug'22",
+    "repo": "https://github.com/mynameizzhafeez/website-react/tree/master/src/data/coding-languages",
+    "overview": "For a selection of languages, count the number of lines of code written across multiple files",
+    "description": [
+      {
+        "title": "description",
+        "text": "I made this project as a practice for C programming, which I took that semester. It basically counts the number of lines of code that I wrote in each language, scraping each folder in my directory.\nWhile the script largely has no bugs, due to Apple's auto upload to iCloud, many of the script folders are made unavailable to scrapers. As such, many of the numbers are under-represented.\nAlso, it was difficult to map all my Python and JavaScript codes, as they could be hidden within ipynb files or vue or tsx files. So some complex regex searches were needed for those cases."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c"
+        ]
+      }
+    ]
+  },
+  "sentence-searcher": {
+    "title": "Sentence Searcher",
+    "imgPath": "languages.svg",
+    "importance": 4,
+    "date": "May'20",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/language.py",
+    "overview": "Extracts vocabulary and sample sentences for Chinese, Japanese and Korean words",
+    "description": [
+      {
+        "title": "description",
+        "text": "I have a deep passion for learning foreign languages and as such, I have made several scripts that improve my learning journey. In this module, I detail the scripts I've made to help me improve my Chinese, Japanese and Korean; they offer the following functionality:\n- Compile vocabulary words required for HSK, JLPT and TOPIK tests\n- Compile grammar lessons from free sources\n- Search for sample sentences based on any given word\nI've also implemented the same features for French and Spanish, but they are not included as they don't align with my current language goals."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "chinese",
+          "japanese",
+          "korean",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "selenium"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "chinese",
+          "data-cleaning",
+          "data-mining",
+          "japanese",
+          "korean",
+          "python",
+          "selenium",
+          "web-scraping"
+        ]
+      }
+    ]
+  },
+  "spiderman-web-scraper": {
+    "title": "Spiderman Web Scraper",
+    "imgPath": "spiderman.png",
+    "importance": 5,
+    "date": "Jul'19",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
+    "overview": "Enhanced web-scraping tool that simplifies the process by providing shortcuts",
+    "description": [
+      {
+        "title": "description",
+        "text": "After reading through the BeautifulSoup documentation, I realised that many common operations are not in the module. As such, I filled in as many holes as I possibly can, applying OOP principles to boost the extensibility of my web scraper. Among its features are the following:\n- Extract all tables from a particular webpage and merge them based on whichever tables have the same column names\n- Extract hrefs and insert them into the text itself using delimiters like brackets (same can be done for tables and lists)\n- Standardises all hrefs to be complete links, rather than relational ones\nI use this module most frequently, so I feel that it is the most impactful out of my earlier projects (to me, at least)."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-mining",
+          "python",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "chords-search-engine"
+        ]
+      }
+    ]
+  },
+  "svg-converter": {
+    "title": "SVG Converter",
+    "imgPath": "geospatial.svg",
+    "importance": 2,
+    "date": "Jun'23",
+    "repo": "https://github.com/mynameizzhafeez/svg-converter",
+    "overview": "Converts GeoJson objects into SVG format",
+    "description": [
+      {
+        "title": "description",
+        "text": "I wanted to create quizzes on popular quiz platform Jetpunk. But to create geography-related quizzes, I needed to learn how to work with SVG. As such, I created this library to facilitate the process, so that I can easily convert the data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-cleaning"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "data-cleaning",
+          "pandas",
+          "python"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "quizzes",
+        "items": [
+          "subzones-jetpunk"
+        ]
+      }
+    ]
+  },
+  "sz-matrix": {
+    "title": "Self-Zooming Matrix",
+    "imgPath": "cpp.svg",
+    "importance": 2,
+    "date": "Apr'22",
+    "repo": "https://github.com/mynameizzhafeez/SZMatrix",
+    "overview": "Space-partitioning data structure to improve queries for clustered points in 2D space",
+    "description": [
+      {
+        "title": "description",
+        "text": "I created this library because I wanted an easy way to query geospatial information. For example, I want to be able to know, in O(log n) time, what the n closest points are for a given point. As such, this self-balancing data structure aids in that process."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "cpp"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "cpp",
+          "data-structures"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "geospatial-management",
+          "meetup-maker"
+        ]
+      }
+    ]
+  },
+  "website-react": {
+    "title": "Personal React Website",
+    "imgPath": "react.svg",
+    "importance": 8,
+    "date": "Jul'23",
+    "repo": "https://github.com/mynameizzhafeez/website-react",
+    "overview": "Responsive personal website created using the React.js library",
+    "description": [
+      {
+        "title": "description",
+        "text": "This is the current version of my website, using the React library as my frontend. It features some of the works I've done, the merits I've attained, and a blog where I share some of my experiences.\nIt contains many other projects within it, accessed through different subpages in the site. Some preprocessing of the JS Scripts and data were done in Rust, Python and Ruby.\nDeployment is done through automatic CI/CD into GitHub and then Netlify."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "bash",
+          "c",
+          "css",
+          "html",
+          "javascript",
+          "python",
+          "ruby",
+          "rust"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "react-js"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "bash",
+          "bootstrap",
+          "c",
+          "css",
+          "frontend-development",
+          "html",
+          "javascript",
+          "python",
+          "react-js",
+          "ruby",
+          "rust",
+          "web-development"
+        ]
+      }
+    ]
+  }
+}

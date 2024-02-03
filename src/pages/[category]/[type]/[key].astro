@@ -1,0 +1,22 @@
+---
+import { allItems } from '@items/item';
+import ItemPreview from '../../../components/ItemPreview';
+
+export const getStaticPaths = (() => {
+  return allItems.map(item => ({
+    params: {
+      category: item.category,
+      type: item.type,
+      key: item.key,
+    },
+    props: { item }
+  }))
+});
+
+export const prerender = true;
+const { item } = Astro.props;
+---
+
+<>
+  <ItemPreview item={item}/>
+</>

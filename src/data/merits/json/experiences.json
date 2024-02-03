@@ -1,0 +1,229 @@
+{
+  "data-analytics": {
+    "title": "Data Analytics",
+    "imgPath": "scdf.png",
+    "importance": 9,
+    "organisation": "Singapore Civil Defence Force",
+    "startDate": "Feb'19",
+    "endDate": "Jan'21",
+    "overview": "Developed and operated models to optimise the placement of ambulances",
+    "description": [
+      {
+        "title": "key achievements",
+        "text": "I worked on and operated a data science model that optimised the placement of SCDF appliances; I proposed and implemented pipelines that reduced workflow by 67%. I further used it to produce analytics reports and predictions to assist in the decision-making process.\nI further conducted operational analysis on over a dozen projects from the 6 departments (Medical, Technology, Operations, Finance, Training, Logistics).\nI also supervised and trained a team of 4 juniors in the creation of Tableau dashboards and data science models."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r",
+          "ruby",
+          "vba"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "anaconda",
+          "excel",
+          "flask",
+          "gcp",
+          "jupyter",
+          "pandas",
+          "qgis",
+          "ruby-on-rails",
+          "sublime",
+          "tableau",
+          "telegram-bots",
+          "tensorflow"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "anaconda",
+          "api-development",
+          "data-cleaning",
+          "data-mining",
+          "data-science",
+          "data-visualisation",
+          "excel",
+          "flask",
+          "frontend-development",
+          "gcp",
+          "geospatial-analytics",
+          "machine-learning",
+          "operational-analysis",
+          "pandas",
+          "problem-solving",
+          "python",
+          "qgis",
+          "ruby",
+          "ruby-on-rails",
+          "software-testing",
+          "sublime",
+          "tableau",
+          "vba",
+          "web-development",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser"
+        ]
+      }
+    ]
+  },
+  "data-management": {
+    "title": "Data Management",
+    "imgPath": "mom.png",
+    "importance": 4,
+    "organisation": "Ministry of Manpower",
+    "startDate": "Feb'21",
+    "endDate": "Jul'21",
+    "overview": "Designed data pipelines and dashboards to facilitate analytics",
+    "description": [
+      {
+        "title": "key achievements",
+        "text": "I created Power BI dashboards and ER Studio data models to facilitate analytics. I also designed an organisation-wide Data Governance Portal in an effort to enforce good data management practices in the ministry. I further worked on managing user permissions data, implementing scripts to reduce the workflow by over 80%."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c-sharp",
+          "css",
+          "html",
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "aws",
+          "er-studio",
+          "excel",
+          "power-bi",
+          "ssms"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "aws",
+          "data-cleaning",
+          "data-management",
+          "data-modeling",
+          "data-visualisation",
+          "er-studio",
+          "excel",
+          "frontend-development",
+          "operational-analysis",
+          "postgresql",
+          "power-bi",
+          "sql",
+          "ssms"
+        ]
+      }
+    ]
+  },
+  "fullstack-intern": {
+    "title": "Full-Stack Intern",
+    "imgPath": "qi.png",
+    "importance": 7,
+    "organisation": "Quantum Inventions",
+    "startDate": "May'23",
+    "endDate": "Aug'23",
+    "overview": "Designed a web app that showcases the company's geospatial APIs",
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "react-js",
+          "ruby-on-rails",
+          "vscode"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "bootstrap",
+          "cp3200",
+          "documentation",
+          "frontend-development",
+          "jest",
+          "postman",
+          "react-js",
+          "ruby",
+          "ruby-on-rails",
+          "software-testing",
+          "vscode",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser"
+        ]
+      }
+    ]
+  },
+  "robotics": {
+    "title": "Programming Head",
+    "imgPath": "vrmc.png",
+    "importance": 3,
+    "organisation": "Victoria Robotics-Makers Club",
+    "startDate": "Jun'17",
+    "endDate": "May'18",
+    "overview": "Taught and facilitated programming at Victoria Junior College",
+    "description": [
+      {
+        "title": "key achievements",
+        "text": "As a speciality head, I organised training sessions to impart relevant coding knowledge upon other club-members, guiding them to win competitions. I also developed robotics programs using Python and C, participating in various robotics competitions. Besides that, as an executive committee member, I played a role in organising events such as camps and other club activities."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "python",
+          "vex"
+        ]
+      }
+    ]
+  }
+}

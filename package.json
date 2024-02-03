@@ -1,0 +1,32 @@
+{
+  "name": "website-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/prism": "^3.0.0",
+    "@astrojs/react": "^3.0.9",
+    "@astrojs/sitemap": "^3.0.5",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrolib/seo": "^1.0.0-beta.5",
+    "@sentry/astro": "^7.99.0",
+    "@spotlightjs/astro": "^1.0.14",
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "astro": "^4.3.1",
+    "astro-google-fonts-optimizer": "^0.2.2",
+    "astro-meta-tags": "^0.2.1",
+    "astro-navbar": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}

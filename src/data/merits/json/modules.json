@@ -1,0 +1,791 @@
+{
+  "cfg1002": {
+    "title": "CFG1002",
+    "name": "Career Catalyst",
+    "semester": "AY22/23 S2",
+    "grade": "CS",
+    "description": [
+      {
+        "title": "content",
+        "text": "It's a career preparation module, so they give tips for creating resumes and attending interviews, with lots of emphasis on self-reflection. Free mod, so just take for the Module Feedback points."
+      }
+    ]
+  },
+  "cp2106": {
+    "title": "CP2106",
+    "name": "Independent Software Development Project",
+    "importance": 6,
+    "semester": "Y1 Summer Break",
+    "grade": "Artemis",
+    "description": [
+      {
+        "title": "content",
+        "text": "Over the course of my first year semester break, my partner and I created a note-sharing platform that combined the features of Reddit and GitHub. We used the MongoDB-Express-Vue-Node (MEVN) tech stack to build it, which might've been a bad choice. Main reason being, we didn't manage to get a mentor for a project, unlike most other Artemis groups. But nonetheless, we managed to resolve our own issues and retain our highest level of achievement."
+      },
+      {
+        "title": "tips",
+        "text": "We didn't get a mentor for our project, which had led to several hiccups when initialising and deploying our project. But we ultimately found it unnecessary as we could eventually solve those issues. So even without a mentor, it is not the end of the world."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "express-js",
+          "heroku",
+          "javascript",
+          "mongo-db",
+          "node-js",
+          "postman",
+          "python",
+          "selenium",
+          "software-testing",
+          "vscode",
+          "vue-js"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together"
+        ]
+      }
+    ]
+  },
+  "cp3200": {
+    "title": "CP3200",
+    "name": "Student Internship Programme I",
+    "semester": "Y2 Summer Break",
+    "grade": "CS",
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      }
+    ]
+  },
+  "cs1010r": {
+    "title": "CS1010R",
+    "name": "Programming Methodology",
+    "semester": "AY21/22 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "This 1MC module was given for free after reaching a certain EXP threshold in Source Academy for <<../merits/modules/cs1101s>>CS1101S</>."
+      }
+    ]
+  },
+  "cs1101s": {
+    "title": "CS1101S",
+    "name": "Programming Methodology I",
+    "importance": 3,
+    "semester": "AY21/22 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module used the Source Academy platform, a derivative of JavaScript that focusses on teaching programming concepts, rather than the language itself. I quite enjoyed the module, due to the highly gamified nature of this platform. I also participated in most of the optional competitions and did most of the optional practices as well."
+      },
+      {
+        "title": "tips",
+        "text": "Be prepared to spend a lot of time on this module. But unless you\u2019re aiming for bonus points in CS1010R, there\u2019s no need to complete EVERY optional task. Some of them are really difficult, and you may take a lot of time to even get something working. But when you do get it working, it is quite satisfying."
+      }
+    ]
+  },
+  "cs1231s": {
+    "title": "CS1231S",
+    "name": "Discrete Structures",
+    "importance": 4,
+    "semester": "AY21/22 S1",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is math-intensive and usually is the first hurdle for CS students in the world of math. Like most other students, I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality.\nThat aside, this module exposes students to quite a lot of topics in discrete math, so it serves as a good foundation for future topics in such fields. In addition, the proving techniques learnt here are super useful in many other later modules, like <<../merits/modules/cs2040s>>CS2040S</> which is usually taken the semester after."
+      },
+      {
+        "title": "tips",
+        "text": "Proofs are the most painful part of this module and the first taste of university-level mathematical rigour. As such, it is very important to read the solutions to the proving questions, and identify patterns to help you remember. Especially for the middle topics, as those are the killer topics for this module. Get your arsenal of proofs ready in your cheatsheet, and you should be fine for most proving questions. Really helped me a lot."
+      }
+    ]
+  },
+  "cs2030s": {
+    "title": "CS2030S",
+    "name": "Programming Methodology II",
+    "importance": 4,
+    "semester": "AY21/22 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches programming practices, and core concepts in object-oriented programming, asynchronous programming and functional programming. These topics were not very interconnected, so you could focus on certain topics and be relatively fine (as compared to other mods). But do note that some questions may be absolutely painful in the Midterms and Finals, so putting all your eggs in one basket may not work out.\nThat semester, the infamous practical examination was handled very poorly, as students had to wait over 2 hours for the test to start, only to be struck with an unfair time limit and grading system. I got lucky for this practical, as I managed to complete everything within the time limit.\nBut otherwise, though the professor stumbled a bit with his words, the concepts were quite easy to understand, and I managed to get my A+ (despite scoring below average for Midterms)."
+      },
+      {
+        "title": "tips",
+        "text": "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. So for labs, make sure you handle null cases properly, as they often use this as a trick to catch us.\nIf you're like me and you're struggling with diagrams (like the Stack Heap diagram), then rewrite the instructions in your own terms. Do also cross check against your tutor so that there are no conceptual errors."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "dean-list-y1s2",
+          "java"
+        ]
+      }
+    ]
+  },
+  "cs2040s": {
+    "title": "CS2040S",
+    "name": "Data Structures and Algorithms",
+    "importance": 5,
+    "semester": "AY21/22 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module introduces us to the world of algorithms and problem-solving, and is super useful for coding interviews. From arrays, to trees, to graphs and more, this module has definitely helped me develop my projects. Among the data structures taught in the module, I found the AVL Tree, Priority Queue and the KD Tree to be the most useful to me, having used them to develop my <<../projects/coding/geospatial-management>>Geospatial Management Framework</>. I even implemented my own Bounds Tree, which was heavily inspired by the KD Tree.\nIn terms of tutorials, my tutor was super nice and encourages everyone to participate. I went for a couple of one-on-one consults to clarify some concepts. I also asked him for advice on how to proceed with my Geospatial Mangement Tool, and he was willing to help. Such a nice tutor!"
+      },
+      {
+        "title": "tips",
+        "text": "Many of the optional practices were way too time-consuming to be worth the tiny amount of EXP on Coursemology. One notable one would be the implementation of the AVL Tree in Java. So unless you want to pursue Java all the way, it's just not worth it. It might've been better if they gave us the implementation, and ask us to improve upon it; much less pain and much more rewarding.\nOverall, this module is all about problem-solving, so the best way to do well is to expose yourself to a healthy assortment of programming problems. More importantly, examine the solutions to those problems and convince yourself why they work. Leetcode it if you want, but I think tutorials and consults are good enough.\nIf you want to be extra spicy, then you can code up your own personal projects like what I did. In that way, you can practice concepts from both <<../merits/modules/cs2030s>>CS2030S</> and CS2040S, so it's quite effective."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-structures"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "data-structures",
+          "dean-list-y1s2",
+          "intellij",
+          "java"
+        ]
+      }
+    ]
+  },
+  "cs2100": {
+    "title": "CS2100",
+    "name": "Computer Organisation",
+    "importance": 3,
+    "semester": "AY22/23 S1",
+    "grade": "A-",
+    "description": [
+      {
+        "title": "content",
+        "text": "Out of the CS holy trinity, this module is well-known to have the most content. It starts off with the high levels of abstraction with the C programming language. It taught us basic memory management, and the functionalities of pointers. The lectures then moved onto teaching the MIPS Assembly language, and how to decode/encode it into binary form.\nThe second half of the module dealt with boolean algebra, and worked our way into building more complex circuit components. But the most difficult part comes in the final 2 lectures, where we were taught pipelining (time taken to run code), and caching."
+      },
+      {
+        "title": "tips",
+        "text": "Too many topics, and not enough time to revise for all of them. Prepare for the tutorials, as they can help you rectify your understanding of the topics."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c"
+        ]
+      }
+    ]
+  },
+  "cs2101": {
+    "title": "CS2101",
+    "name": "Effective Communication for Computing Students",
+    "importance": 2,
+    "semester": "AY22/23 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is a good starter pack for excelling in the workforce. It teaches many soft skills, such as giving presentations, writing technical documents and crafting exciting user guides. Skills that are duh to non-STEM people, but mostly new to CS students.\nThe module encourages us to actively participate in lessons. For example, for each lesson, there would be a shared word doc that everyone can contribute to. Afterwards, the tutor would ask us to share our answers. No wrong answers, but just don't give irrelevant ones."
+      },
+      {
+        "title": "tips",
+        "text": "Just try to start participating in class as soon as you're comfortable. It will get easier the more you do it. Nobody's gonna judge you."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y2s2"
+        ]
+      }
+    ]
+  },
+  "cs2102": {
+    "title": "CS2102",
+    "name": "Database Systems",
+    "importance": 7,
+    "semester": "AY22/23 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "The first half of the module teaches about SQL queries and schema, including the ER diagram. It goes from regular select statements, to CTEs, subqueries and views. The midterms was partly a practical test for SQL statements, and partly algebraic manipulation (which is very confusing).\nThe second half of the module deals with designing our databases, to support basic statements like deletions, insertions and updates. It introduces us to triggers and functions, which act as automatic processes when someone interacts with the database. But the most important part of the module is normalisation, which breaks tables down into smaller ones that makes maintenance much easier."
+      },
+      {
+        "title": "tips",
+        "text": "Get good groupmates for the project section. And also, be sure to practice normalisation as much as possible, to remove any careless mistakes along the way."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "postgresql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling",
+          "data-science",
+          "postgresql",
+          "sql"
+        ]
+      }
+    ]
+  },
+  "cs2103t": {
+    "title": "CS2103T",
+    "name": "Software Engineering",
+    "importance": 9,
+    "semester": "AY22/23 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches proper techniques and methodologies to develop software.\nFirstly, it teaches various diagrams such as Sequence Diagrams, Class Diagrams, Object Diagrams and Activity Diagrams. These diagrams help to communicate the functionality of your code to the other developers in the team. These diagrams are written in <<../merits/technologies/plant-uml>>PlantUML</>, which is relatively easy to use, considering that they handle most of the formatting for you.\nSecondly, it teaches you proper project management and version control using <<../merits/technologies/github>>Git</>. For example, how to use the Issue Tracker, as well as how to create, review and merge a Pull Request.\nThroughout the semester, the module admins track your individual and team's progress through the code. It checks for deliverables, as well as certain milestones. **Try to clear them as quickly as possible**, lest you get swamped in your other modules.\nThe first half of the module involves creating a simple chatbot in <<../merits/languages/java>>Java</>, which gets us comfortable with the language, so that we are more prepared for the team project. Every week, there will be a set of features that you will have to implement, so they will check whether these features have been completed by the end of each week. Don't worry too much about this mini-project, though, as most people will get full marks anyway.\nThe main bulk of the workload comes in the second half of the semester. This is when hell breaks loose in the form of the team project (tP). Teams would need to work with an existing codebase (of around 10k lines). The existing code is for a simple AddressBook application that stores your contact list. Your job is to improve upon the application by making modifications of your own, or repurposing it entirely.\nThere is also the Practical Examination (PE), which has the most gruesome format imaginable. Essentially, for the PE, you are given a random group's project. And you are supposed to **find bugs** in that project. Whatever bugs you find adds to your PE score, whilst also subtracting from that team's project score. I was a little too nice with my rating of the other team's project, but I think everything turned out fine.\nFinals, though, was brutal, as we were tested on software engineering principles, but in a very confusing way. Basically, the lecture notes usually explain a certain way of doing things (like whether to draw an arrowed or non-arrowed line when connecting two objects in an Object Diagram). However, the finals blurs the line and **tests us on the minute details**, which often come across as painfully cryptic. They trap and trick us with **confusing questions** that don't really serve a purpose in the real world. I guess that's my biggest gripe with this module, and where I lost most of my marks."
+      },
+      {
+        "title": "tips",
+        "text": "For the team project, team mates are key, as I've heard quite a number of horror stories with groupmates either not contributing at all, or even worse, delete or misappropriate the work of other people. These people are the worst, and it is hard to find out the true nature of these people until it is too late. As such, make it your best effort to **do this module with friends** and people you know well. Doesn't matter if you get an 8AM slot, just do it together. Apes together **strong**."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "github",
+          "intellij",
+          "junit",
+          "plant-uml"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "dean-list-y2s2",
+          "github",
+          "java",
+          "junit",
+          "plant-uml",
+          "software-engineering",
+          "software-testing"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "edumate"
+        ]
+      }
+    ]
+  },
+  "cs2106": {
+    "title": "CS2106",
+    "name": "Introduction to Operating Systems",
+    "semester": "AY23/24 S1",
+    "grade": "A-",
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "bash",
+          "c"
+        ]
+      }
+    ]
+  },
+  "cs2108": {
+    "title": "CS2108",
+    "name": "Introduction to Media Computing",
+    "importance": 3,
+    "semester": "AY22/23 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "The module talks a lot about signal processing, and how to compress data. This is crucial in the real world, because most of the files we work with, and most of the internet uses these concepts very frequently. Starting with Fourier Transform, the module teaches us that higher frequencies are harder to detect, which means we can easily remove them and not lose that much information. We later moved on to sampling, convolution and correlation, which were not explained very well, so I ended up skipping most of the later lectures.\nLater on, we moved on to image processing, which means removing as much detail from images as possible, without destroying too much of the quality. We can do this because the human eye is not very perceptive to small changes in color, giving rise to the JPEG compression algorithm, which was a big topic in this module. There was a whole section for string compression, where we learnt the inner workings of algorithms such as LZW, Run Length Encoding (RLE) and the famous Huffman Coding, which all have their strength and weaknesses.\nFor homework, we were given MatLab assignments, where we had to implement these algorithms from scratch. I think they were okay, but we had to do a lot of Googling to learn MatLab on our own. 6 MatLab worksheets in total.\nThere was also a project, where we had to implement the JPEG compression algorithm in MatLab. However, there was a twist. Normally, the algorithm uses a certain Discrete Cosine Transform (DCT) function to convert the pixel data into frequencies. This led to real numbers for the frequencies, so they can easily be encoded. For the project, however, we had to use the Fast Fourier Transform (FFT), which gives rise to complex frequencies. This made it considerably more difficult to encode and decode the image, as we had to keep track of both the real and imaginary components of the frequencies. In conjunction with MatLab's poor debugging tools, this project was rather difficult."
+      },
+      {
+        "title": "tips",
+        "text": "The finals were nonsense, just the typical questions you'd find on a Physics paper. Lots of signal reading, and lots of simple calculations. Sure, they tested us on string compression algorithms, but the entire paper was kind of weird for a CS paper. Prof said no point studying, so okay.\nBut I guess the advice I could give for the project would be that the Prof cares most about the students' learning. As such, you need to prove to him that you put in the effort. The project doesn't need to be the best quality. So whatever you've tried, put it in a backup file or something. He will read through it and give due credit. At least, that's what I interpret from his words."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "dean-list-y2s2",
+          "matlab"
+        ]
+      }
+    ]
+  },
+  "cs2109s": {
+    "title": "CS2109S",
+    "name": "Introduction to AI and ML",
+    "importance": 8,
+    "semester": "AY22/23 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "Some past students complained that this module had too much math, while some of them complained that there was too little math. After these complaints, I think the module ended up in a good balance.\nThroughout the module, we used Coursemology to submit our assignments. They were completely Python-based, so be sure to brush up on your Python skills, or else the homework assignments will be quite long.\nThe first half of the module talks about classic AI topics. One of the more important ones is the introduction of **informed search algorithms**, where you can direct your search algorithm to your destination. A thorough understanding is important, as it will be heavily tested during the Midterms. Also in that half of the semester, we were taught about **decision trees** and **information entropy**, which is essentially how much information is contained in a set of data, representing the uncertainty or randomness within that data. Of course, you will have to implement these algorithms in Python to submit as your assignments.\nThe second half of the module teaches us about Pytorch and machine learning principles. Basically, supervised learning (you tell the model what is right or wrong), unsupervised learning (the model finds patterns in the data) and neural networks (the model can learn and make predictions after multiple failures). The homework for this part of the module were not so straightforward, as we often had to do up visualisations for how good the model is etc.\nThe finals for the module was a **28-hour Kaggle-like competition**, where we had to compete against one another to produce the best-performing model. The dataset we were given was not based on any real-life data, so we couldn't use any prior knowledge to help us create our model. As such, we had to explore the data on our own and find our own insights and conclusions. Fair game."
+      },
+      {
+        "title": "tips",
+        "text": "Learn Python early if you haven't, and maybe some Pytorch if you're new to AI. It is definitely easier to learn than Tensorflow, but it gets quite messy at times.\nAs for the learning aspect, just know that the math is there to appreciate what happens behind the scenes for each of our functions like backpropagation. No worries if you don't get it, but just try to participate a bit in the tutorials, as that's where most of the math is discussed."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jupyter",
+          "pytorch"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "anaconda",
+          "data-science",
+          "data-visualisation",
+          "dean-list-y2s2",
+          "machine-learning",
+          "pandas",
+          "python",
+          "pytorch"
+        ]
+      }
+    ]
+  },
+  "cs3216": {
+    "title": "CS3216",
+    "name": "Software Product Engineering for Digital Markets",
+    "semester": "AY23/24 S1",
+    "grade": "B",
+    "importance": 4,
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is not your typical CS module. Instead of teaching CS, this module teaches the product development process. The prof doesn't teach much, but instead invites external speakers to share their journeys and lessons learnt. The first few lessons focussed primarily on UX Design, and how to have a user-centric approach. Some lessons were about idea-generation, understanding team dynamics, how to raise money, scaling up and generative AI development.\nAssignment 1 required us to produce a mockup of our solution to a problem. This involves the entire design iteration process, with interviews and design reviews. Then for Assignment 2, we were tasked with researching on a real-world Generative AI product and present it to the class, along with our evaluation of it. Afterwards, Assignment 3 was about creating an application surrounding a certain Generative AI model. Finally, the Final Project is about creating a product that addresses the problems of a user."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "postman",
+          "react-js",
+          "vue-js"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend-development",
+          "javascript",
+          "software-engineering",
+          "web-development"
+        ]
+      }
+    ]
+  },
+  "cs3230": {
+    "title": "CS3230",
+    "name": "Design and Analysis of Algorithms",
+    "importance": 8,
+    "semester": "AY22/23 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "overview",
+        "text": "This module is well-known to be one of the toughest core modules for NUS CS students. Pretty much no coding is involved; the entire module is full of proofs and pseudocode. We need to prove why a certain algorithm works, and modify algorithms to solve the problem at hand."
+      },
+      {
+        "title": "content",
+        "text": "The first half of the module goes through different methods of analysing an algorithm, from asymptotic to probabilistic. It also goes through different levels of hashing (universal, uniform etc..), all of which was tested for the midterms.\nThe second half of the module introduces us to new styles of algorithms, starting with Dynamic to Greedy to Incremental and finally Linear Algorithms. The emphasis for these lectures was to transform well-known algorithms to suit our needs. The last few lectures goes through reducibility and NP-completeness (basically testing whether a problem is considered computationally hard)."
+      },
+      {
+        "title": "tips",
+        "text": "One of the biggest problems with this module is the lack of feedback for our solutions. The feedback for our assignments come very late, and pretty much half the feedback was returned to us after our finals. Your tutor is your best bet for getting guidance.\nBesides that, I'd say to practice analysing the runtime of algorithms using the recursive strategy. After getting used to it, future ones are a piece of cake."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      }
+    ]
+  },
+  "cs4243": {
+    "title": "CS4243",
+    "name": "Computer Vision and Pattern Recognition",
+    "semester": "AY23/24 S1",
+    "grade": "B+",
+    "importance": 5,
+    "description": []
+  },
+  "gea1000": {
+    "title": "GEA1000",
+    "name": "Quantitative Reasoning with Data",
+    "semester": "AY21/22 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "Made the mistake of taking this module over the more useful ST1131. But while this module doesn't progress far in terms of technical knowledge, it does make it manageable for non-STEM students. The lessons on Excel and visualization software (Radiant) I guess were important for people who haven't any experience in them. But since many of us are already familiar with Excel, it merely serves as a refresher course.\nThe project can be done within a weekend, so naturally, that's when all the work happens."
+      },
+      {
+        "title": "tips",
+        "text": "Be good at CTRL-F for the notes that they give. But if it's in-person for future finals, then just try to remember the nitty-gritty of the important concepts. There's not much content anyway."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "dean-list-y1s2",
+          "excel"
+        ]
+      }
+    ]
+  },
+  "gec1030": {
+    "title": "GEC1030",
+    "name": "Metropolis: City in World History",
+    "importance": 2,
+    "semester": "AY21/22 S2",
+    "grade": "A-",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches about the evolution of cities throughout history. Coupled with loads of case studies like Istanbul, Manchester and Edo, the module details the common trends for why cities succeed, be it as a city of power, commerce, transformation etc..\nThe module basically had no lectures, so that's a massive plus. So no need to do => don't do."
+      },
+      {
+        "title": "tips",
+        "text": "Ugh I suck at essays..."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y1s2"
+        ]
+      }
+    ]
+  },
+  "gen2002x": {
+    "title": "GEN2002X",
+    "name": "Total Defence Project",
+    "semester": "AY23/24 S1",
+    "grade": "IP",
+    "description": []
+  },
+  "gess1019": {
+    "title": "GESS1019",
+    "name": "Urban Planning in Singapore",
+    "semester": "AY21/22 S1",
+    "grade": "A-",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches about Singapore\u2019s urban history and the policy process for urban development. While I found the middle topics of policy frameworks and development plans to be quite dry, I did appreciate the efforts of the professor to make them interesting."
+      },
+      {
+        "title": "tips",
+        "text": "There was not much studying to be done for the finals, as it was open book. In addition, a lot of the examples I gave were from general knowledge anyway, just shoehorning whatever I can think of to bolster my arguments in the essay questions. Otherwise, just keep a list of master plans and concept plans handy, and should be fine."
+      }
+    ]
+  },
+  "is1103": {
+    "title": "IS1103",
+    "name": "Ethics in Computing",
+    "semester": "AY21/22 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "Absolute waste of time. Take if you want to pull your hair out for no reason whatsoever. Everyone ages 20 years when taking this module.\nThat aside, the content is common sense, but the questions are designed to make you question your sanity every week. Be prepared to examine all interpretations of every question, only to get the question wrong in the end.\nAnd I absolutely learned nothing from this, as I, until now, still don't know WTF a negative and positive right is.\nDon't take this if you don't need to."
+      },
+      {
+        "title": "tips",
+        "text": "Just SU bro... It's not worth the mental torture."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y1s2",
+          "top-students-ethics"
+        ]
+      }
+    ]
+  },
+  "ma1521": {
+    "title": "MA1521",
+    "name": "Calculus for Computing",
+    "semester": "AY21/22 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is mainly a refresher course for calculus so naturally, the bell curve is highly skewed, and any loss of marks could just send you back a grade. I think this module was a little poorly executed, because of the lack of anti-cheat measures. But it really feels like the professor cares about his students, so he really did try his best.\nFor my semester at least, there were only 3 graded tests. And no finals or midterms. As such, it was a very light module, and minimal studying is needed (due to the heavy overlap with JC topics). The main issue was that the lectures took place at the awful 6-8pm timeslot on both Wednesdays and Fridays, so eventually everyone ended up not attending them anyway."
+      },
+      {
+        "title": "content",
+        "text": "This module does introduce some new concepts in multi variate calculus and convergence tests. Figure out which weeks those fall on, and make sure you do not miss them. They are new topics not covered in JC or whatever."
+      }
+    ]
+  },
+  "ma2001": {
+    "title": "MA2001",
+    "name": "Linear Algebra I",
+    "importance": 2,
+    "semester": "AY21/22 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches about linear spaces and matrices and is a good foundational module for AI modules in CS.\nFor me, the greatest setback I faced was the constant construction happening around me throughout the semester; it was especially bad during the final exam as the lift was being renovated on my level throughout that week."
+      },
+      {
+        "title": "tips",
+        "text": "The concepts in this module accumulate over time, and if you get lost at one point, then you\u2019ll likely be lost for the rest. Can\u2019t anyhow skip lectures and try to backtrack. But as long as you can keep up, should be all good to go. A flowchart of concepts works very well here, and do maintain key identities such as that for rank and invertible matrices."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "matlab"
+        ]
+      }
+    ]
+  },
+  "ma2101": {
+    "title": "MA2101",
+    "name": "Linear Algebra II",
+    "importance": 3,
+    "semester": "AY22/23 S1",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "There was a way-too-long revision period for the topics of MA2001, but after that, the difficulty ramped up significantly. The first new thing we were taught was quotient spaces and isomorphism. Then, we moved onto Linear Transformations and Transition Matrices. All were quite manageable in terms of the content we were required to understand. However, the last 3 topics were undoubtedly the most difficult. They were Chapter 9: Eigenvalues, Chapter 10: Jordan Canonical Form, and Chapter 11: Inner Products.\nIf I were to describe them, I would say the topics are very abstract, with alot of simple yet powerful theorems strewn all over the place. Notation is also all over the place, and can get very confusing all the time."
+      },
+      {
+        "title": "tips",
+        "text": "Proofs take center stage in this module, as basically anything can become a proving question. It would be wise to understand the patterns in proving, instead of simply memorising every proof for every theorem.\nThe other important tip is to prepare your cheatsheet early. There are WAY too many theorems that you have to understand and apply, so please please please try your best to condense them into readable cheatsheets."
+      }
+    ]
+  },
+  "ma2104": {
+    "title": "MA2104",
+    "name": "Multivariate Calculus",
+    "importance": 4,
+    "semester": "AY22/23 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches the fundamentals of working in higher dimensions. In particular, this module extends calculus concepts into their 2D and 3D equivalents. Think integrals, differentiation, min/max values and continuity. It also introduces vector fields, where we have to analyse the interaction of the field with certain surfaces, using techniques such as Green's Theorem, Stokes' Theorem and Gauss' Theorem."
+      },
+      {
+        "title": "tips",
+        "text": "Lots of drawing is necessary to be able to visualise what's going on (a lot of it is in 3D). So I guess the most impactful way to improve at this module is to learn how to draw such diagrams, learning from the prof, or just watching YouTube videos on the subject. There's a LOT of them."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y2s2"
+        ]
+      }
+    ]
+  },
+  "ma2108": {
+    "title": "MA2108",
+    "name": "Mathematical Analysis I",
+    "importance": 2,
+    "semester": "AY22/23 S1",
+    "grade": "B+",
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is basically proving stupidly obvious things, and coming up with overly complicated solutions to simple problems. Like proving there is a positive solution for x^2 = 3 (easily a one page solution involving supremums).\nAt first, the theorems are quite difficult to understand and apply, but they slowly get more intuitive as the same proofs are used in different contexts. It becomes quite elegant eventually.\nI got rekt by the bell curve, getting my first ever non-A for math in my life. But yeah, kind of expected, seeing as though the midterms and finals were both brutally easy and careless-prone."
+      },
+      {
+        "title": "tips",
+        "text": "The key to this module is making sure every step you take is valid and does not make any assumptions. Everything you do must follow either an axiom or theorem, and not just take O-level knowledge for granted.\nOther than that, just do lots of practice papers and mark them to know where you went wrong."
+      }
+    ]
+  },
+  "ma3236": {
+    "title": "MA3236",
+    "name": "Non-Linear Programming",
+    "semester": "AY23/24 S1",
+    "grade": "A",
+    "importance": 5,
+    "description": []
+  },
+  "ma3238": {
+    "title": "MA3238",
+    "name": "Stochastic Processes I",
+    "semester": "AY23/24 S1",
+    "grade": "A-",
+    "importance": 6,
+    "description": []
+  },
+  "ma3252": {
+    "title": "MA3252",
+    "name": "Linear and Network Optimisation",
+    "importance": 6,
+    "semester": "AY22/23 S2",
+    "grade": "A",
+    "description": [
+      {
+        "title": "content",
+        "text": "The module teaches how to solve optimisation problems with linear constraints and objective functions. That is, we are trying to find the best combination of variables such that they satisfy the constraints and give the best cost. Such a problem would be maximising profit for a factory that produces several items at different capacities. We learn the different ways to formulate such problems in a standardised way, so that the same algorithm can be applied to all the problems. This is the Simplex Method.\nWe also learn the Dual Simplex Method, which solves the same problem but approaching it from a different angle.\nWe also went through Sensitivity Analysis, which is how we can predict how the costs and capacities would change relative to each other. In other words, if the production capacity of a certain item is increased, how much would the total cost change?\nThe last topic involves network optimisation, where we can solve graph optimisation problems such as shortest path, maximal flow, minimum cost flow, salesman and minimal spanning tree problems. I found this part interesting because all these very different graph problems can be solved in the same way. It's just that the formulation of the problem can differ slightly."
+      },
+      {
+        "title": "tips",
+        "text": "This module has a lot of computation problems that needs a lot of mental arithmetic. For example, when conducting the Simplex method, we will often have to do arithmetic on several rows at a time (think row reduction), which can generate a lot of errors. So pay attention when doing the algorithms.\nAs for the proving questions, don't be scared off by the excessive notation used. Just be sure to get a nice, VISUAL cheatsheet that tells you what variabes belong where."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y2s2"
+        ]
+      }
+    ]
+  },
+  "st2334": {
+    "title": "ST2334",
+    "name": "Probability and Statistics",
+    "semester": "AY21/22 S2",
+    "grade": "A+",
+    "description": [
+      {
+        "title": "content",
+        "text": "The first half of this module is basically revision for topics taught in JC; it focusses on the fundamentals of probability and basic combinatorics. However, at the middle of the module, the difficulty ramps up quite drastically. They were manageable topics, but can get lost if you don't follow the lecture; it goes into the various hypothesis tests and integration techniques.\nHowever, the most frightening thing about this module was the format of the final exam. It prevented backtracking, so we couldn't return to a previous question once past it. This led to absurd time management tactics, leaving me with 30 minutes to solve the last 2 questions (out of 35)."
+      },
+      {
+        "title": "tips",
+        "text": "If coding scripts are available for future exams, then be sure to abuse them as much as possible. For my finals, I prepared my Python script to answer basically any question they throw at me, so all I needed to do was use the right one for the job.\nOtherwise, figure out which topics are new to you, and you can safely skip the lectures for the rest of them."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "dean-list-y1s2"
+        ]
+      }
+    ]
+  }
+}

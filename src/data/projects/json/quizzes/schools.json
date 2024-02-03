@@ -1,0 +1,2246 @@
+{
+  "Admiralty Primary School": {
+    "title": "Admiralty Primary School",
+    "latitude": 1.442635,
+    "longitude": 103.80004,
+    "level": "Primary"
+  },
+  "Admiralty Secondary School": {
+    "title": "Admiralty Secondary School",
+    "latitude": 1.445891,
+    "longitude": 103.802398,
+    "level": "Secondary"
+  },
+  "Ahmad Ibrahim Primary School": {
+    "title": "Ahmad Ibrahim Primary School",
+    "latitude": 1.433153,
+    "longitude": 103.832942,
+    "level": "Primary"
+  },
+  "Ahmad Ibrahim Secondary School": {
+    "title": "Ahmad Ibrahim Secondary School",
+    "latitude": 1.43606,
+    "longitude": 103.829719,
+    "level": "Secondary"
+  },
+  "Ai Tong School": {
+    "title": "Ai Tong School",
+    "latitude": 1.360583,
+    "longitude": 103.83302,
+    "level": "Primary"
+  },
+  "Alexandra Primary School": {
+    "title": "Alexandra Primary School",
+    "latitude": 1.291384,
+    "longitude": 103.823857,
+    "level": "Primary"
+  },
+  "Anchor Green Primary School": {
+    "title": "Anchor Green Primary School",
+    "latitude": 1.390807,
+    "longitude": 103.887107,
+    "level": "Primary"
+  },
+  "Anderson Primary School": {
+    "title": "Anderson Primary School",
+    "latitude": 1.384,
+    "longitude": 103.8414,
+    "level": "Primary"
+  },
+  "Anderson Secondary School": {
+    "title": "Anderson Secondary School",
+    "latitude": 1.37434,
+    "longitude": 103.851554,
+    "level": "Secondary"
+  },
+  "Ang Mo Kio Primary School": {
+    "title": "Ang Mo Kio Primary School",
+    "latitude": 1.369322,
+    "longitude": 103.839631,
+    "level": "Primary"
+  },
+  "Ang Mo Kio Secondary School": {
+    "title": "Ang Mo Kio Secondary School",
+    "latitude": 1.367447,
+    "longitude": 103.842488,
+    "level": "Secondary"
+  },
+  "Anglican High School": {
+    "title": "Anglican High School",
+    "latitude": 1.330327,
+    "longitude": 103.942366,
+    "level": "Secondary"
+  },
+  "Anglo-Chinese School": {
+    "title": "Anglo-Chinese School",
+    "latitude": 1.318371,
+    "longitude": 103.83561,
+    "level": "Primary"
+  },
+  "Anglo-Chinese School (Barker Road)": {
+    "title": "Anglo-Chinese School (Barker Road)",
+    "latitude": 1.319616,
+    "longitude": 103.835773,
+    "level": "Secondary"
+  },
+  "Anglo-Chinese School (Independent)": {
+    "title": "Anglo-Chinese School (Independent)",
+    "latitude": 1.302499,
+    "longitude": 103.780447,
+    "level": "Secondary"
+  },
+  "Anglo-Chinese School (Junior)": {
+    "title": "Anglo-Chinese School (Junior)",
+    "latitude": 1.309351,
+    "longitude": 103.840955,
+    "level": "Primary"
+  },
+  "Angsana Primary School": {
+    "title": "Angsana Primary School",
+    "latitude": 1.3629,
+    "longitude": 103.939,
+    "level": "Primary"
+  },
+  "Assumption English School": {
+    "title": "Assumption English School",
+    "latitude": 1.369231,
+    "longitude": 103.766387,
+    "level": "Secondary"
+  },
+  "Bartley Secondary School": {
+    "title": "Bartley Secondary School",
+    "latitude": 1.340243,
+    "longitude": 103.88284,
+    "level": "Secondary"
+  },
+  "Beacon Primary School": {
+    "title": "Beacon Primary School",
+    "latitude": 1.383949,
+    "longitude": 103.773632,
+    "level": "Primary"
+  },
+  "Beatty Secondary School": {
+    "title": "Beatty Secondary School",
+    "latitude": 1.341771,
+    "longitude": 103.852286,
+    "level": "Secondary"
+  },
+  "Bedok Green Primary School": {
+    "title": "Bedok Green Primary School",
+    "latitude": 1.323446,
+    "longitude": 103.937879,
+    "level": "Primary"
+  },
+  "Bedok Green Secondary School": {
+    "title": "Bedok Green Secondary School",
+    "latitude": 1.334519,
+    "longitude": 103.935028,
+    "level": "Secondary"
+  },
+  "Bedok South Secondary School": {
+    "title": "Bedok South Secondary School",
+    "latitude": 1.325137,
+    "longitude": 103.950989,
+    "level": "Secondary"
+  },
+  "Bedok View Secondary School": {
+    "title": "Bedok View Secondary School",
+    "latitude": 1.324489,
+    "longitude": 103.943499,
+    "level": "Secondary"
+  },
+  "Bendemeer Primary School": {
+    "title": "Bendemeer Primary School",
+    "latitude": 1.322182,
+    "longitude": 103.865127,
+    "level": "Primary"
+  },
+  "Bendemeer Secondary School": {
+    "title": "Bendemeer Secondary School",
+    "latitude": 1.324623,
+    "longitude": 103.860685,
+    "level": "Secondary"
+  },
+  "Blangah Rise Primary School": {
+    "title": "Blangah Rise Primary School",
+    "latitude": 1.27612,
+    "longitude": 103.808628,
+    "level": "Primary"
+  },
+  "Boon Lay Garden Primary School": {
+    "title": "Boon Lay Garden Primary School",
+    "latitude": 1.342987,
+    "longitude": 103.713032,
+    "level": "Primary"
+  },
+  "Boon Lay Secondary School": {
+    "title": "Boon Lay Secondary School",
+    "latitude": 1.342722,
+    "longitude": 103.701892,
+    "level": "Secondary"
+  },
+  "Bowen Secondary School": {
+    "title": "Bowen Secondary School",
+    "latitude": 1.37036,
+    "longitude": 103.87766,
+    "level": "Secondary"
+  },
+  "Broadrick Secondary School": {
+    "title": "Broadrick Secondary School",
+    "latitude": 1.307051,
+    "longitude": 103.886918,
+    "level": "Secondary"
+  },
+  "Bukit Batok Secondary School": {
+    "title": "Bukit Batok Secondary School",
+    "latitude": 1.348223,
+    "longitude": 103.740733,
+    "level": "Secondary"
+  },
+  "Bukit Merah Secondary School": {
+    "title": "Bukit Merah Secondary School",
+    "latitude": 1.285693,
+    "longitude": 103.813439,
+    "level": "Secondary"
+  },
+  "Bukit Panjang Government High School": {
+    "title": "Bukit Panjang Government High School",
+    "latitude": 1.381906,
+    "longitude": 103.738484,
+    "level": "Secondary"
+  },
+  "Bukit Panjang Primary School": {
+    "title": "Bukit Panjang Primary School",
+    "latitude": 1.373622,
+    "longitude": 103.769375,
+    "level": "Primary"
+  },
+  "Bukit Timah Primary School": {
+    "title": "Bukit Timah Primary School",
+    "latitude": 1.337519,
+    "longitude": 103.767243,
+    "level": "Primary"
+  },
+  "Bukit View Primary School": {
+    "title": "Bukit View Primary School",
+    "latitude": 1.345861,
+    "longitude": 103.753666,
+    "level": "Primary"
+  },
+  "Bukit View Secondary School": {
+    "title": "Bukit View Secondary School",
+    "latitude": 1.345733,
+    "longitude": 103.752227,
+    "level": "Secondary"
+  },
+  "Canberra Primary School": {
+    "title": "Canberra Primary School",
+    "latitude": 1.45095,
+    "longitude": 103.815698,
+    "level": "Primary"
+  },
+  "Canberra Secondary School": {
+    "title": "Canberra Secondary School",
+    "latitude": 1.453663,
+    "longitude": 103.814446,
+    "level": "Secondary"
+  },
+  "Canossa Catholic Primary School": {
+    "title": "Canossa Catholic Primary School",
+    "latitude": 1.326644,
+    "longitude": 103.882228,
+    "level": "Primary"
+  },
+  "Cantonment Primary School": {
+    "title": "Cantonment Primary School",
+    "latitude": 1.275473,
+    "longitude": 103.839963,
+    "level": "Primary"
+  },
+  "Casuarina Primary School": {
+    "title": "Casuarina Primary School",
+    "latitude": 1.372461,
+    "longitude": 103.95702,
+    "level": "Primary"
+  },
+  "Catholic High School__P": {
+    "title": "Catholic High School__P",
+    "latitude": 1.354582,
+    "longitude": 103.845149,
+    "level": "Primary"
+  },
+  "Catholic High School__S": {
+    "title": "Catholic High School__S",
+    "latitude": 1.354582,
+    "longitude": 103.845149,
+    "level": "Secondary"
+  },
+  "Cedar Girls' Secondary School": {
+    "title": "Cedar Girls' Secondary School",
+    "latitude": 1.333758,
+    "longitude": 103.873933,
+    "level": "Secondary"
+  },
+  "Cedar Primary School": {
+    "title": "Cedar Primary School",
+    "latitude": 1.33419,
+    "longitude": 103.874235,
+    "level": "Primary"
+  },
+  "Changkat Changi Secondary School": {
+    "title": "Changkat Changi Secondary School",
+    "latitude": 1.34089,
+    "longitude": 103.95271,
+    "level": "Secondary"
+  },
+  "Changkat Primary School": {
+    "title": "Changkat Primary School",
+    "latitude": 1.340232,
+    "longitude": 103.95208,
+    "level": "Primary"
+  },
+  "CHIJ (Katong) Primary": {
+    "title": "CHIJ (Katong) Primary",
+    "latitude": 1.306485,
+    "longitude": 103.911106,
+    "level": "Primary"
+  },
+  "CHIJ (Kellock)": {
+    "title": "CHIJ (Kellock)",
+    "latitude": 1.275023,
+    "longitude": 103.828158,
+    "level": "Primary"
+  },
+  "CHIJ Katong Convent": {
+    "title": "CHIJ Katong Convent",
+    "latitude": 1.306443,
+    "longitude": 103.917144,
+    "level": "Secondary"
+  },
+  "CHIJ Our Lady of Good Counsel": {
+    "title": "CHIJ Our Lady of Good Counsel",
+    "latitude": 1.35743,
+    "longitude": 103.864009,
+    "level": "Primary"
+  },
+  "CHIJ Our Lady of the Nativity": {
+    "title": "CHIJ Our Lady of the Nativity",
+    "latitude": 1.373303,
+    "longitude": 103.897576,
+    "level": "Primary"
+  },
+  "CHIJ Our Lady Queen of Peace": {
+    "title": "CHIJ Our Lady Queen of Peace",
+    "latitude": 1.366604,
+    "longitude": 103.767412,
+    "level": "Primary"
+  },
+  "CHIJ Primary (Toa Payoh)": {
+    "title": "CHIJ Primary (Toa Payoh)",
+    "latitude": 1.332753,
+    "longitude": 103.841847,
+    "level": "Primary"
+  },
+  "CHIJ Secondary (Toa Payoh)": {
+    "title": "CHIJ Secondary (Toa Payoh)",
+    "latitude": 1.332461,
+    "longitude": 103.843272,
+    "level": "Secondary"
+  },
+  "CHIJ St. Joseph's Convent": {
+    "title": "CHIJ St. Joseph's Convent",
+    "latitude": 1.391752,
+    "longitude": 103.902465,
+    "level": "Secondary"
+  },
+  "CHIJ St. Nicholas Girls' School__S": {
+    "title": "CHIJ St. Nicholas Girls' School__S",
+    "latitude": 1.373477,
+    "longitude": 103.834253,
+    "level": "Secondary"
+  },
+  "CHIJ St. Nicholas Girls' School__P": {
+    "title": "CHIJ St. Nicholas Girls' School__P",
+    "latitude": 1.373477,
+    "longitude": 103.834253,
+    "level": "Primary"
+  },
+  "CHIJ St. Theresa's Convent": {
+    "title": "CHIJ St. Theresa's Convent",
+    "latitude": 1.275352,
+    "longitude": 103.822441,
+    "level": "Secondary"
+  },
+  "Chongfu School": {
+    "title": "Chongfu School",
+    "latitude": 1.438396,
+    "longitude": 103.839309,
+    "level": "Primary"
+  },
+  "Chongzheng Primary School": {
+    "title": "Chongzheng Primary School",
+    "latitude": 1.350707,
+    "longitude": 103.951399,
+    "level": "Primary"
+  },
+  "Christ Church Secondary School": {
+    "title": "Christ Church Secondary School",
+    "latitude": 1.426568,
+    "longitude": 103.793451,
+    "level": "Secondary"
+  },
+  "Chua Chu Kang Primary School": {
+    "title": "Chua Chu Kang Primary School",
+    "latitude": 1.377759,
+    "longitude": 103.741833,
+    "level": "Primary"
+  },
+  "Chua Chu Kang Secondary School": {
+    "title": "Chua Chu Kang Secondary School",
+    "latitude": 1.38319,
+    "longitude": 103.751878,
+    "level": "Secondary"
+  },
+  "Chung Cheng High School (Main)": {
+    "title": "Chung Cheng High School (Main)",
+    "latitude": 1.305494,
+    "longitude": 103.891593,
+    "level": "Secondary"
+  },
+  "Chung Cheng High School (Yishun)": {
+    "title": "Chung Cheng High School (Yishun)",
+    "latitude": 1.419226,
+    "longitude": 103.837391,
+    "level": "Secondary"
+  },
+  "Clementi Primary School": {
+    "title": "Clementi Primary School",
+    "latitude": 1.315063,
+    "longitude": 103.763144,
+    "level": "Primary"
+  },
+  "Clementi Town Secondary School": {
+    "title": "Clementi Town Secondary School",
+    "latitude": 1.315539,
+    "longitude": 103.762021,
+    "level": "Secondary"
+  },
+  "Commonwealth Secondary School": {
+    "title": "Commonwealth Secondary School",
+    "latitude": 1.319204,
+    "longitude": 103.745637,
+    "level": "Secondary"
+  },
+  "Compassvale Primary School": {
+    "title": "Compassvale Primary School",
+    "latitude": 1.394445,
+    "longitude": 103.897812,
+    "level": "Primary"
+  },
+  "Compassvale Secondary School": {
+    "title": "Compassvale Secondary School",
+    "latitude": 1.396141,
+    "longitude": 103.899847,
+    "level": "Secondary"
+  },
+  "Concord Primary School": {
+    "title": "Concord Primary School",
+    "latitude": 1.380008,
+    "longitude": 103.736225,
+    "level": "Primary"
+  },
+  "Corporation Primary School": {
+    "title": "Corporation Primary School",
+    "latitude": 1.350998,
+    "longitude": 103.707594,
+    "level": "Primary"
+  },
+  "Crescent Girls' School": {
+    "title": "Crescent Girls' School",
+    "latitude": 1.293319,
+    "longitude": 103.817544,
+    "level": "Secondary"
+  },
+  "Crest Secondary School": {
+    "title": "Crest Secondary School",
+    "latitude": 1.3434,
+    "longitude": 103.7429,
+    "level": "Secondary"
+  },
+  "Damai Primary School": {
+    "title": "Damai Primary School",
+    "latitude": 1.335461,
+    "longitude": 103.92127,
+    "level": "Primary"
+  },
+  "Damai Secondary School": {
+    "title": "Damai Secondary School",
+    "latitude": 1.336928,
+    "longitude": 103.927092,
+    "level": "Secondary"
+  },
+  "Dazhong Primary School": {
+    "title": "Dazhong Primary School",
+    "latitude": 1.35918,
+    "longitude": 103.748472,
+    "level": "Primary"
+  },
+  "De La Salle School": {
+    "title": "De La Salle School",
+    "latitude": 1.394708,
+    "longitude": 103.743202,
+    "level": "Primary"
+  },
+  "Deyi Secondary School": {
+    "title": "Deyi Secondary School",
+    "latitude": 1.365997,
+    "longitude": 103.852546,
+    "level": "Secondary"
+  },
+  "Dunearn Secondary School": {
+    "title": "Dunearn Secondary School",
+    "latitude": 1.363579,
+    "longitude": 103.744721,
+    "level": "Secondary"
+  },
+  "Dunman High School__S": {
+    "title": "Dunman High School__S",
+    "latitude": 1.299962,
+    "longitude": 103.882942,
+    "level": "Secondary"
+  },
+  "Dunman Secondary School": {
+    "title": "Dunman Secondary School",
+    "latitude": 1.360653,
+    "longitude": 103.956214,
+    "level": "Secondary"
+  },
+  "East Spring Primary School": {
+    "title": "East Spring Primary School",
+    "latitude": 1.352684,
+    "longitude": 103.961677,
+    "level": "Primary"
+  },
+  "East Spring Secondary School": {
+    "title": "East Spring Secondary School",
+    "latitude": 1.356225,
+    "longitude": 103.960641,
+    "level": "Secondary"
+  },
+  "Edgefield Primary School": {
+    "title": "Edgefield Primary School",
+    "latitude": 1.400091,
+    "longitude": 103.907848,
+    "level": "Primary"
+  },
+  "Edgefield Secondary School": {
+    "title": "Edgefield Secondary School",
+    "latitude": 1.400593,
+    "longitude": 103.902687,
+    "level": "Secondary"
+  },
+  "Elias Park Primary School": {
+    "title": "Elias Park Primary School",
+    "latitude": 1.374513,
+    "longitude": 103.945128,
+    "level": "Primary"
+  },
+  "Endeavour Primary School": {
+    "title": "Endeavour Primary School",
+    "latitude": 1.454038,
+    "longitude": 103.817436,
+    "level": "Primary"
+  },
+  "Eunos Primary School": {
+    "title": "Eunos Primary School",
+    "latitude": 1.324476,
+    "longitude": 103.904541,
+    "level": "Primary"
+  },
+  "Evergreen Primary School": {
+    "title": "Evergreen Primary School",
+    "latitude": 1.444153,
+    "longitude": 103.794578,
+    "level": "Primary"
+  },
+  "Evergreen Secondary School": {
+    "title": "Evergreen Secondary School",
+    "latitude": 1.441491,
+    "longitude": 103.794138,
+    "level": "Secondary"
+  },
+  "Fairfield Methodist School": {
+    "title": "Fairfield Methodist School",
+    "latitude": 1.300541,
+    "longitude": 103.785438,
+    "level": "Primary"
+  },
+  "Fairfield Methodist Secondary School": {
+    "title": "Fairfield Methodist Secondary School",
+    "latitude": 1.301634,
+    "longitude": 103.7841,
+    "level": "Secondary"
+  },
+  "Fajar Secondary School": {
+    "title": "Fajar Secondary School",
+    "latitude": 1.3756,
+    "longitude": 103.763999,
+    "level": "Secondary"
+  },
+  "Farrer Park Primary School": {
+    "title": "Farrer Park Primary School",
+    "latitude": 1.312369,
+    "longitude": 103.850766,
+    "level": "Primary"
+  },
+  "Fengshan Primary School": {
+    "title": "Fengshan Primary School",
+    "latitude": 1.329806,
+    "longitude": 103.93171,
+    "level": "Primary"
+  },
+  "Fernvale Primary School": {
+    "title": "Fernvale Primary School",
+    "latitude": 1.390302,
+    "longitude": 103.874445,
+    "level": "Primary"
+  },
+  "Fern Green Primary School": {
+    "title": "Fern Green Primary School",
+    "latitude": 1.39764,
+    "longitude": 103.88002,
+    "level": "Primary"
+  },
+  "First Toa Payoh Primary School": {
+    "title": "First Toa Payoh Primary School",
+    "latitude": 1.340323,
+    "longitude": 103.85553,
+    "level": "Primary"
+  },
+  "Frontier Primary School": {
+    "title": "Frontier Primary School",
+    "latitude": 1.336413,
+    "longitude": 103.699702,
+    "level": "Primary"
+  },
+  "Fuchun Primary School": {
+    "title": "Fuchun Primary School",
+    "latitude": 1.43048,
+    "longitude": 103.778193,
+    "level": "Primary"
+  },
+  "Fuchun Secondary School": {
+    "title": "Fuchun Secondary School",
+    "latitude": 1.430705,
+    "longitude": 103.777626,
+    "level": "Secondary"
+  },
+  "Fuhua Primary School": {
+    "title": "Fuhua Primary School",
+    "latitude": 1.336504,
+    "longitude": 103.736104,
+    "level": "Primary"
+  },
+  "Fuhua Secondary School": {
+    "title": "Fuhua Secondary School",
+    "latitude": 1.347014,
+    "longitude": 103.726521,
+    "level": "Secondary"
+  },
+  "Gan Eng Seng Primary School": {
+    "title": "Gan Eng Seng Primary School",
+    "latitude": 1.285595,
+    "longitude": 103.815547,
+    "level": "Primary"
+  },
+  "Gan Eng Seng School": {
+    "title": "Gan Eng Seng School",
+    "latitude": 1.289071,
+    "longitude": 103.823734,
+    "level": "Secondary"
+  },
+  "Geylang Methodist School__P": {
+    "title": "Geylang Methodist School__P",
+    "latitude": 1.317591,
+    "longitude": 103.883846,
+    "level": "Primary"
+  },
+  "Geylang Methodist School__S": {
+    "title": "Geylang Methodist School__S",
+    "latitude": 1.317649,
+    "longitude": 103.882661,
+    "level": "Secondary"
+  },
+  "Gongshang Primary School": {
+    "title": "Gongshang Primary School",
+    "latitude": 1.357237,
+    "longitude": 103.949115,
+    "level": "Primary"
+  },
+  "Greendale Primary School": {
+    "title": "Greendale Primary School",
+    "latitude": 1.396482,
+    "longitude": 103.912335,
+    "level": "Primary"
+  },
+  "Greendale Secondary School": {
+    "title": "Greendale Secondary School",
+    "latitude": 1.39696,
+    "longitude": 103.9117,
+    "level": "Secondary"
+  },
+  "Greenridge Primary School": {
+    "title": "Greenridge Primary School",
+    "latitude": 1.385889,
+    "longitude": 103.767794,
+    "level": "Primary"
+  },
+  "Greenridge Secondary School": {
+    "title": "Greenridge Secondary School",
+    "latitude": 1.381864,
+    "longitude": 103.773828,
+    "level": "Secondary"
+  },
+  "Greenwood Primary School": {
+    "title": "Greenwood Primary School",
+    "latitude": 1.4399,
+    "longitude": 103.804726,
+    "level": "Primary"
+  },
+  "Guangyang Primary School": {
+    "title": "Guangyang Primary School",
+    "latitude": 1.34569,
+    "longitude": 103.849453,
+    "level": "Primary"
+  },
+  "Guangyang Secondary School": {
+    "title": "Guangyang Secondary School",
+    "latitude": 1.344409,
+    "longitude": 103.850209,
+    "level": "Secondary"
+  },
+  "Hai Sing Catholic School": {
+    "title": "Hai Sing Catholic School",
+    "latitude": 1.374346,
+    "longitude": 103.954958,
+    "level": "Secondary"
+  },
+  "Haig Girls' School": {
+    "title": "Haig Girls' School",
+    "latitude": 1.311943,
+    "longitude": 103.902903,
+    "level": "Primary"
+  },
+  "Henderson Secondary School": {
+    "title": "Henderson Secondary School",
+    "latitude": 1.28481,
+    "longitude": 103.81986,
+    "level": "Secondary"
+  },
+  "Henry Park Primary School": {
+    "title": "Henry Park Primary School",
+    "latitude": 1.316676,
+    "longitude": 103.784296,
+    "level": "Primary"
+  },
+  "Hillgrove Secondary School": {
+    "title": "Hillgrove Secondary School",
+    "latitude": 1.352736,
+    "longitude": 103.752987,
+    "level": "Secondary"
+  },
+  "Holy Innocents' High School": {
+    "title": "Holy Innocents' High School",
+    "latitude": 1.371545,
+    "longitude": 103.896399,
+    "level": "Secondary"
+  },
+  "Holy Innocents' Primary School": {
+    "title": "Holy Innocents' Primary School",
+    "latitude": 1.366938,
+    "longitude": 103.894115,
+    "level": "Primary"
+  },
+  "Hong Kah Secondary School": {
+    "title": "Hong Kah Secondary School",
+    "latitude": 1.351667,
+    "longitude": 103.727084,
+    "level": "Secondary"
+  },
+  "Hong Wen School": {
+    "title": "Hong Wen School",
+    "latitude": 1.32176,
+    "longitude": 103.857629,
+    "level": "Primary"
+  },
+  "Horizon Primary School": {
+    "title": "Horizon Primary School",
+    "latitude": 1.39955,
+    "longitude": 103.913405,
+    "level": "Primary"
+  },
+  "Hougang Primary School": {
+    "title": "Hougang Primary School",
+    "latitude": 1.377382,
+    "longitude": 103.880805,
+    "level": "Primary"
+  },
+  "Hougang Secondary School": {
+    "title": "Hougang Secondary School",
+    "latitude": 1.37764,
+    "longitude": 103.882534,
+    "level": "Secondary"
+  },
+  "Hua Yi Secondary School": {
+    "title": "Hua Yi Secondary School",
+    "latitude": 1.352344,
+    "longitude": 103.721832,
+    "level": "Secondary"
+  },
+  "Huamin Primary School": {
+    "title": "Huamin Primary School",
+    "latitude": 1.426973,
+    "longitude": 103.84424,
+    "level": "Primary"
+  },
+  "Hwa Chong Institution__S": {
+    "title": "Hwa Chong Institution__S",
+    "latitude": 1.325889,
+    "longitude": 103.800747,
+    "level": "Secondary"
+  },
+  "Innova Primary School": {
+    "title": "Innova Primary School",
+    "latitude": 1.428967,
+    "longitude": 103.790607,
+    "level": "Primary"
+  },
+  "Jiemin Primary School": {
+    "title": "Jiemin Primary School",
+    "latitude": 1.427688,
+    "longitude": 103.830426,
+    "level": "Primary"
+  },
+  "Jing Shan Primary School": {
+    "title": "Jing Shan Primary School",
+    "latitude": 1.372233,
+    "longitude": 103.852132,
+    "level": "Primary"
+  },
+  "Junyuan Primary School": {
+    "title": "Junyuan Primary School",
+    "latitude": 1.347871,
+    "longitude": 103.939221,
+    "level": "Primary"
+  },
+  "Junyuan Secondary School": {
+    "title": "Junyuan Secondary School",
+    "latitude": 1.353613,
+    "longitude": 103.933886,
+    "level": "Secondary"
+  },
+  "Jurong Primary School": {
+    "title": "Jurong Primary School",
+    "latitude": 1.3486,
+    "longitude": 103.733157,
+    "level": "Primary"
+  },
+  "Jurong Secondary School": {
+    "title": "Jurong Secondary School",
+    "latitude": 1.33002,
+    "longitude": 103.723953,
+    "level": "Secondary"
+  },
+  "Jurong West Primary School": {
+    "title": "Jurong West Primary School",
+    "latitude": 1.339175,
+    "longitude": 103.698804,
+    "level": "Primary"
+  },
+  "Jurong West Secondary School": {
+    "title": "Jurong West Secondary School",
+    "latitude": 1.335256,
+    "longitude": 103.702099,
+    "level": "Secondary"
+  },
+  "Jurongville Secondary School": {
+    "title": "Jurongville Secondary School",
+    "latitude": 1.351289,
+    "longitude": 103.728908,
+    "level": "Secondary"
+  },
+  "Juying Secondary School": {
+    "title": "Juying Secondary School",
+    "latitude": 1.338723,
+    "longitude": 103.68731,
+    "level": "Secondary"
+  },
+  "Keming Primary School": {
+    "title": "Keming Primary School",
+    "latitude": 1.345528,
+    "longitude": 103.756449,
+    "level": "Primary"
+  },
+  "Kent Ridge Secondary School": {
+    "title": "Kent Ridge Secondary School",
+    "latitude": 1.301228,
+    "longitude": 103.76489,
+    "level": "Secondary"
+  },
+  "Kheng Cheng School": {
+    "title": "Kheng Cheng School",
+    "latitude": 1.337338,
+    "longitude": 103.847149,
+    "level": "Primary"
+  },
+  "Kong Hwa School": {
+    "title": "Kong Hwa School",
+    "latitude": 1.310997,
+    "longitude": 103.888352,
+    "level": "Primary"
+  },
+  "Kranji Primary School": {
+    "title": "Kranji Primary School",
+    "latitude": 1.393561,
+    "longitude": 103.747363,
+    "level": "Primary"
+  },
+  "Kranji Secondary School": {
+    "title": "Kranji Secondary School",
+    "latitude": 1.390051,
+    "longitude": 103.741191,
+    "level": "Secondary"
+  },
+  "Kuo Chuan Presbyterian Primary School": {
+    "title": "Kuo Chuan Presbyterian Primary School",
+    "latitude": 1.349398,
+    "longitude": 103.855018,
+    "level": "Primary"
+  },
+  "Kuo Chuan Presbyterian Secondary School": {
+    "title": "Kuo Chuan Presbyterian Secondary School",
+    "latitude": 1.350076,
+    "longitude": 103.855365,
+    "level": "Secondary"
+  },
+  "Lakeside Primary School": {
+    "title": "Lakeside Primary School",
+    "latitude": 1.338204,
+    "longitude": 103.71809,
+    "level": "Primary"
+  },
+  "Lianhua Primary School": {
+    "title": "Lianhua Primary School",
+    "latitude": 1.354242,
+    "longitude": 103.754166,
+    "level": "Primary"
+  },
+  "Loyang View Secondary School": {
+    "title": "Loyang View Secondary School",
+    "latitude": 1.366584,
+    "longitude": 103.956945,
+    "level": "Secondary"
+  },
+  "Maha Bodhi School": {
+    "title": "Maha Bodhi School",
+    "latitude": 1.328471,
+    "longitude": 103.901299,
+    "level": "Primary"
+  },
+  "Manjusri Secondary School": {
+    "title": "Manjusri Secondary School",
+    "latitude": 1.327471,
+    "longitude": 103.90172,
+    "level": "Secondary"
+  },
+  "Maris Stella High School__P": {
+    "title": "Maris Stella High School__P",
+    "latitude": 1.341395,
+    "longitude": 103.877853,
+    "level": "Primary"
+  },
+  "Maris Stella High School__S": {
+    "title": "Maris Stella High School__S",
+    "latitude": 1.341395,
+    "longitude": 103.877853,
+    "level": "Secondary"
+  },
+  "Marsiling Primary School": {
+    "title": "Marsiling Primary School",
+    "latitude": 1.433839,
+    "longitude": 103.773643,
+    "level": "Primary"
+  },
+  "Marsiling Secondary School": {
+    "title": "Marsiling Secondary School",
+    "latitude": 1.436644,
+    "longitude": 103.776008,
+    "level": "Secondary"
+  },
+  "Marymount Convent School": {
+    "title": "Marymount Convent School",
+    "latitude": 1.340367,
+    "longitude": 103.840021,
+    "level": "Primary"
+  },
+  "Mayflower Primary School": {
+    "title": "Mayflower Primary School",
+    "latitude": 1.3772,
+    "longitude": 103.8431,
+    "level": "Primary"
+  },
+  "Mayflower Secondary School": {
+    "title": "Mayflower Secondary School",
+    "latitude": 1.368273,
+    "longitude": 103.835361,
+    "level": "Secondary"
+  },
+  "Mee Toh School": {
+    "title": "Mee Toh School",
+    "latitude": 1.394618,
+    "longitude": 103.90859,
+    "level": "Primary"
+  },
+  "Meridian Primary School": {
+    "title": "Meridian Primary School",
+    "latitude": 1.375528,
+    "longitude": 103.934889,
+    "level": "Primary"
+  },
+  "Meridian Secondary School": {
+    "title": "Meridian Secondary School",
+    "latitude": 1.367247,
+    "longitude": 103.948972,
+    "level": "Secondary"
+  },
+  "Methodist Girls' School__P": {
+    "title": "Methodist Girls' School__P",
+    "latitude": 1.349473,
+    "longitude": 103.884971,
+    "level": "Primary"
+  },
+  "Methodist Girls' School__S": {
+    "title": "Methodist Girls' School__S",
+    "latitude": 1.350968,
+    "longitude": 103.88512,
+    "level": "Secondary"
+  },
+  "Montfort Junior School": {
+    "title": "Montfort Junior School",
+    "latitude": 1.373824,
+    "longitude": 103.889308,
+    "level": "Primary"
+  },
+  "Montfort Secondary School": {
+    "title": "Montfort Secondary School",
+    "latitude": 1.373961,
+    "longitude": 103.888929,
+    "level": "Secondary"
+  },
+  "Nan Chiau High School": {
+    "title": "Nan Chiau High School",
+    "latitude": 1.388796,
+    "longitude": 103.890004,
+    "level": "Secondary"
+  },
+  "Nan Chiau Primary School": {
+    "title": "Nan Chiau Primary School",
+    "latitude": 1.392211,
+    "longitude": 103.891181,
+    "level": "Primary"
+  },
+  "Nan Hua High School": {
+    "title": "Nan Hua High School",
+    "latitude": 1.308095,
+    "longitude": 103.768561,
+    "level": "Secondary"
+  },
+  "Nan Hua Primary School": {
+    "title": "Nan Hua Primary School",
+    "latitude": 1.319202,
+    "longitude": 103.761095,
+    "level": "Primary"
+  },
+  "Nanyang Girls' High School": {
+    "title": "Nanyang Girls' High School",
+    "latitude": 1.330583,
+    "longitude": 103.802421,
+    "level": "Secondary"
+  },
+  "Nanyang Primary School": {
+    "title": "Nanyang Primary School",
+    "latitude": 1.320847,
+    "longitude": 103.80775,
+    "level": "Primary"
+  },
+  "National Junior College__S": {
+    "title": "National Junior College__S",
+    "latitude": 1.330481,
+    "longitude": 103.802311,
+    "level": "Secondary"
+  },
+  "Naval Base Primary School": {
+    "title": "Naval Base Primary School",
+    "latitude": 1.416307,
+    "longitude": 103.838794,
+    "level": "Primary"
+  },
+  "Naval Base Secondary School": {
+    "title": "Naval Base Secondary School",
+    "latitude": 1.419379,
+    "longitude": 103.83105,
+    "level": "Secondary"
+  },
+  "New Town Primary School": {
+    "title": "New Town Primary School",
+    "latitude": 1.299642,
+    "longitude": 103.800102,
+    "level": "Primary"
+  },
+  "New Town Secondary School": {
+    "title": "New Town Secondary School",
+    "latitude": 1.309776,
+    "longitude": 103.773189,
+    "level": "Secondary"
+  },
+  "Ngee Ann Primary School": {
+    "title": "Ngee Ann Primary School",
+    "latitude": 1.305525,
+    "longitude": 103.917463,
+    "level": "Primary"
+  },
+  "Ngee Ann Secondary School": {
+    "title": "Ngee Ann Secondary School",
+    "latitude": 1.354475,
+    "longitude": 103.956747,
+    "level": "Secondary"
+  },
+  "North Spring Primary School": {
+    "title": "North Spring Primary School",
+    "latitude": 1.387061,
+    "longitude": 103.903203,
+    "level": "Primary"
+  },
+  "North View Primary School": {
+    "title": "North View Primary School",
+    "latitude": 1.427523,
+    "longitude": 103.848191,
+    "level": "Primary"
+  },
+  "North View Secondary School": {
+    "title": "North View Secondary School",
+    "latitude": 1.38121,
+    "longitude": 103.899075,
+    "level": "Secondary"
+  },
+  "North Vista Primary School": {
+    "title": "North Vista Primary School",
+    "latitude": 1.382822,
+    "longitude": 103.895962,
+    "level": "Primary"
+  },
+  "North Vista Secondary School": {
+    "title": "North Vista Secondary School",
+    "latitude": 1.381131,
+    "longitude": 103.899189,
+    "level": "Secondary"
+  },
+  "Northbrooks Secondary School": {
+    "title": "Northbrooks Secondary School",
+    "latitude": 1.420813,
+    "longitude": 103.845147,
+    "level": "Secondary"
+  },
+  "Northland Primary School": {
+    "title": "Northland Primary School",
+    "latitude": 1.42097,
+    "longitude": 103.840928,
+    "level": "Primary"
+  },
+  "Northland Secondary School": {
+    "title": "Northland Secondary School",
+    "latitude": 1.435802,
+    "longitude": 103.840105,
+    "level": "Secondary"
+  },
+  "Northoaks Primary School": {
+    "title": "Northoaks Primary School",
+    "latitude": 1.456608,
+    "longitude": 103.814197,
+    "level": "Primary"
+  },
+  "Northshore Primary School": {
+    "title": "Northshore Primary School",
+    "latitude": 1.418094,
+    "longitude": 103.904667,
+    "level": "Primary"
+  },
+  "NUS High School of Mathematics and Science": {
+    "title": "NUS High School of Mathematics and Science",
+    "latitude": 1.306157,
+    "longitude": 103.770148,
+    "level": "Secondary"
+  },
+  "Oasis Primary School": {
+    "title": "Oasis Primary School",
+    "latitude": 1.404624,
+    "longitude": 103.911121,
+    "level": "Primary"
+  },
+  "Opera Estate Primary School": {
+    "title": "Opera Estate Primary School",
+    "latitude": 1.319319,
+    "longitude": 103.923788,
+    "level": "Primary"
+  },
+  "Orchid Park Secondary School": {
+    "title": "Orchid Park Secondary School",
+    "latitude": 1.41532,
+    "longitude": 103.837859,
+    "level": "Secondary"
+  },
+  "Outram Secondary School": {
+    "title": "Outram Secondary School",
+    "latitude": 1.286514,
+    "longitude": 103.837127,
+    "level": "Secondary"
+  },
+  "Palm View Primary School": {
+    "title": "Palm View Primary School",
+    "latitude": 1.383769,
+    "longitude": 103.891355,
+    "level": "Primary"
+  },
+  "Park View Primary School": {
+    "title": "Park View Primary School",
+    "latitude": 1.377381,
+    "longitude": 103.939542,
+    "level": "Primary"
+  },
+  "Pasir Ris Crest Secondary School": {
+    "title": "Pasir Ris Crest Secondary School",
+    "latitude": 1.372841,
+    "longitude": 103.959728,
+    "level": "Secondary"
+  },
+  "Pasir Ris Primary School": {
+    "title": "Pasir Ris Primary School",
+    "latitude": 1.372419,
+    "longitude": 103.962807,
+    "level": "Primary"
+  },
+  "Pasir Ris Secondary School": {
+    "title": "Pasir Ris Secondary School",
+    "latitude": 1.354227,
+    "longitude": 103.948963,
+    "level": "Secondary"
+  },
+  "Paya Lebar Methodist Girls' School__P": {
+    "title": "Paya Lebar Methodist Girls' School__P",
+    "latitude": 1.349473,
+    "longitude": 103.884971,
+    "level": "Primary"
+  },
+  "Paya Lebar Methodist Girls' School__S": {
+    "title": "Paya Lebar Methodist Girls' School__S",
+    "latitude": 1.350968,
+    "longitude": 103.88512,
+    "level": "Secondary"
+  },
+  "Pei Chun Public School": {
+    "title": "Pei Chun Public School",
+    "latitude": 1.337374,
+    "longitude": 103.855586,
+    "level": "Primary"
+  },
+  "Pei Hwa Presbyterian Primary School": {
+    "title": "Pei Hwa Presbyterian Primary School",
+    "latitude": 1.338056,
+    "longitude": 103.776106,
+    "level": "Primary"
+  },
+  "Pei Hwa Secondary School": {
+    "title": "Pei Hwa Secondary School",
+    "latitude": 1.390375,
+    "longitude": 103.878462,
+    "level": "Secondary"
+  },
+  "Pei Tong Primary School": {
+    "title": "Pei Tong Primary School",
+    "latitude": 1.316198,
+    "longitude": 103.7676,
+    "level": "Primary"
+  },
+  "Peicai Secondary School": {
+    "title": "Peicai Secondary School",
+    "latitude": 1.359516,
+    "longitude": 103.870011,
+    "level": "Secondary"
+  },
+  "Peirce Secondary School": {
+    "title": "Peirce Secondary School",
+    "latitude": 1.366659,
+    "longitude": 103.830216,
+    "level": "Secondary"
+  },
+  "Peiying Primary School": {
+    "title": "Peiying Primary School",
+    "latitude": 1.417233,
+    "longitude": 103.830417,
+    "level": "Primary"
+  },
+  "Ping Yi Secondary School": {
+    "title": "Ping Yi Secondary School",
+    "latitude": 1.327017,
+    "longitude": 103.920701,
+    "level": "Secondary"
+  },
+  "Pioneer Primary School": {
+    "title": "Pioneer Primary School",
+    "latitude": 1.339023,
+    "longitude": 103.68777,
+    "level": "Primary"
+  },
+  "Poi Ching School": {
+    "title": "Poi Ching School",
+    "latitude": 1.357651,
+    "longitude": 103.935247,
+    "level": "Primary"
+  },
+  "Presbyterian High School": {
+    "title": "Presbyterian High School",
+    "latitude": 1.382012,
+    "longitude": 103.843149,
+    "level": "Secondary"
+  },
+  "Princess Elizabeth Primary School": {
+    "title": "Princess Elizabeth Primary School",
+    "latitude": 1.349204,
+    "longitude": 103.74102,
+    "level": "Primary"
+  },
+  "Punggol Cove Primary School": {
+    "title": "Punggol Cove Primary School",
+    "latitude": 1.411599,
+    "longitude": 103.898805,
+    "level": "Primary"
+  },
+  "Punggol Green Primary School": {
+    "title": "Punggol Green Primary School",
+    "latitude": 1.401872,
+    "longitude": 103.898801,
+    "level": "Primary"
+  },
+  "Punggol Primary School": {
+    "title": "Punggol Primary School",
+    "latitude": 1.377795,
+    "longitude": 103.894507,
+    "level": "Primary"
+  },
+  "Punggol Secondary School": {
+    "title": "Punggol Secondary School",
+    "latitude": 1.402057,
+    "longitude": 103.909214,
+    "level": "Secondary"
+  },
+  "Punggol View Primary School": {
+    "title": "Punggol View Primary School",
+    "latitude": 1.405146,
+    "longitude": 103.905156,
+    "level": "Primary"
+  },
+  "Qifa Primary School": {
+    "title": "Qifa Primary School",
+    "latitude": 1.313251,
+    "longitude": 103.756743,
+    "level": "Primary"
+  },
+  "Qihua Primary School": {
+    "title": "Qihua Primary School",
+    "latitude": 1.442036,
+    "longitude": 103.78834,
+    "level": "Primary"
+  },
+  "Queenstown Primary School": {
+    "title": "Queenstown Primary School",
+    "latitude": 1.295594,
+    "longitude": 103.807549,
+    "level": "Primary"
+  },
+  "Queenstown Secondary School": {
+    "title": "Queenstown Secondary School",
+    "latitude": 1.293521,
+    "longitude": 103.813191,
+    "level": "Secondary"
+  },
+  "Queensway Secondary School": {
+    "title": "Queensway Secondary School",
+    "latitude": 1.300223,
+    "longitude": 103.802207,
+    "level": "Secondary"
+  },
+  "Radin Mas Primary School": {
+    "title": "Radin Mas Primary School",
+    "latitude": 1.274958,
+    "longitude": 103.824188,
+    "level": "Primary"
+  },
+  "Raffles Girls' Primary School": {
+    "title": "Raffles Girls' Primary School",
+    "latitude": 1.329404,
+    "longitude": 103.806443,
+    "level": "Primary"
+  },
+  "Raffles Girls' School": {
+    "title": "Raffles Girls' School",
+    "latitude": 1.342175,
+    "longitude": 103.843134,
+    "level": "Secondary"
+  },
+  "Raffles Institution__S": {
+    "title": "Raffles Institution__S",
+    "latitude": 1.346188,
+    "longitude": 103.845875,
+    "level": "Secondary"
+  },
+  "Red Swastika School": {
+    "title": "Red Swastika School",
+    "latitude": 1.333243,
+    "longitude": 103.934332,
+    "level": "Primary"
+  },
+  "Regent Secondary School": {
+    "title": "Regent Secondary School",
+    "latitude": 1.393279,
+    "longitude": 103.751034,
+    "level": "Secondary"
+  },
+  "River Valley High School": {
+    "title": "River Valley High School",
+    "latitude": 1.344078,
+    "longitude": 103.709022,
+    "level": "Secondary"
+  },
+  "River Valley Primary School": {
+    "title": "River Valley Primary School",
+    "latitude": 1.294223,
+    "longitude": 103.835815,
+    "level": "Primary"
+  },
+  "Riverside Primary School": {
+    "title": "Riverside Primary School",
+    "latitude": 1.447047,
+    "longitude": 103.801832,
+    "level": "Primary"
+  },
+  "Riverside Secondary School": {
+    "title": "Riverside Secondary School",
+    "latitude": 1.441102,
+    "longitude": 103.788308,
+    "level": "Secondary"
+  },
+  "Rivervale Primary School": {
+    "title": "Rivervale Primary School",
+    "latitude": 1.39341,
+    "longitude": 103.90456,
+    "level": "Primary"
+  },
+  "Rosyth School": {
+    "title": "Rosyth School",
+    "latitude": 1.372891,
+    "longitude": 103.875001,
+    "level": "Primary"
+  },
+  "Rulang Primary School": {
+    "title": "Rulang Primary School",
+    "latitude": 1.346739,
+    "longitude": 103.718458,
+    "level": "Primary"
+  },
+  "School of Science and Technology, Singapore": {
+    "title": "School of Science and Technology, Singapore",
+    "latitude": 1.312928,
+    "longitude": 103.774012,
+    "level": "Secondary"
+  },
+  "School of the Arts, Singapore": {
+    "title": "School of the Arts, Singapore",
+    "latitude": 1.2994,
+    "longitude": 103.8465,
+    "level": "Secondary"
+  },
+  "Sembawang Primary School": {
+    "title": "Sembawang Primary School",
+    "latitude": 1.445074,
+    "longitude": 103.821042,
+    "level": "Primary"
+  },
+  "Sembawang Secondary School": {
+    "title": "Sembawang Secondary School",
+    "latitude": 1.445315,
+    "longitude": 103.816843,
+    "level": "Secondary"
+  },
+  "Seng Kang Primary School": {
+    "title": "Seng Kang Primary School",
+    "latitude": 1.389497,
+    "longitude": 103.899767,
+    "level": "Primary"
+  },
+  "Seng Kang Secondary School": {
+    "title": "Seng Kang Secondary School",
+    "latitude": 1.386597,
+    "longitude": 103.898365,
+    "level": "Secondary"
+  },
+  "Sengkang Green Primary School": {
+    "title": "Sengkang Green Primary School",
+    "latitude": 1.392846,
+    "longitude": 103.875218,
+    "level": "Primary"
+  },
+  "Serangoon Garden Secondary School": {
+    "title": "Serangoon Garden Secondary School",
+    "latitude": 1.369326,
+    "longitude": 103.86927,
+    "level": "Secondary"
+  },
+  "Serangoon Secondary School": {
+    "title": "Serangoon Secondary School",
+    "latitude": 1.374655,
+    "longitude": 103.902139,
+    "level": "Secondary"
+  },
+  "Shuqun Primary School": {
+    "title": "Shuqun Primary School",
+    "latitude": 1.347653,
+    "longitude": 103.721524,
+    "level": "Primary"
+  },
+  "Si Ling Primary School": {
+    "title": "Si Ling Primary School",
+    "latitude": 1.432409,
+    "longitude": 103.786035,
+    "level": "Primary"
+  },
+  "Si Ling Secondary School": {
+    "title": "Si Ling Secondary School",
+    "latitude": 1.4448,
+    "longitude": 103.7746,
+    "level": "Secondary"
+  },
+  "Singapore Chinese Girls' School": {
+    "title": "Singapore Chinese Girls' School",
+    "latitude": 1.320634,
+    "longitude": 103.828165,
+    "level": "Secondary"
+  },
+  "Singapore Chinese Girls\u2019 School": {
+    "title": "Singapore Chinese Girls\u2019 School",
+    "latitude": 1.320634,
+    "longitude": 103.828165,
+    "level": "Primary"
+  },
+  "Singapore Sports School": {
+    "title": "Singapore Sports School",
+    "latitude": 1.426411,
+    "longitude": 103.789445,
+    "level": "Secondary"
+  },
+  "South View Primary School": {
+    "title": "South View Primary School",
+    "latitude": 1.381667,
+    "longitude": 103.746276,
+    "level": "Primary"
+  },
+  "Spectra Secondary School": {
+    "title": "Spectra Secondary School",
+    "latitude": 1.4365,
+    "longitude": 103.80434,
+    "level": "Secondary"
+  },
+  "Springdale Primary School": {
+    "title": "Springdale Primary School",
+    "latitude": 1.39467,
+    "longitude": 103.889926,
+    "level": "Primary"
+  },
+  "Springfield Secondary School": {
+    "title": "Springfield Secondary School",
+    "latitude": 1.349573,
+    "longitude": 103.930355,
+    "level": "Secondary"
+  },
+  "St. Andrew's Junior School": {
+    "title": "St. Andrew's Junior School",
+    "latitude": 1.331403,
+    "longitude": 103.865117,
+    "level": "Primary"
+  },
+  "St. Andrew's Secondary School": {
+    "title": "St. Andrew's Secondary School",
+    "latitude": 1.330694,
+    "longitude": 103.866249,
+    "level": "Secondary"
+  },
+  "St. Anthony's Canossian Primary School": {
+    "title": "St. Anthony's Canossian Primary School",
+    "latitude": 1.334725,
+    "longitude": 103.941235,
+    "level": "Primary"
+  },
+  "St. Anthony's Canossian Secondary School": {
+    "title": "St. Anthony's Canossian Secondary School",
+    "latitude": 1.334663,
+    "longitude": 103.941977,
+    "level": "Secondary"
+  },
+  "St. Anthony's Primary School": {
+    "title": "St. Anthony's Primary School",
+    "latitude": 1.364119,
+    "longitude": 103.749252,
+    "level": "Primary"
+  },
+  "St. Gabriel's Primary School": {
+    "title": "St. Gabriel's Primary School",
+    "latitude": 1.349472,
+    "longitude": 103.862561,
+    "level": "Primary"
+  },
+  "St. Gabriel's Secondary School": {
+    "title": "St. Gabriel's Secondary School",
+    "latitude": 1.346383,
+    "longitude": 103.875808,
+    "level": "Secondary"
+  },
+  "St. Hilda's Primary School": {
+    "title": "St. Hilda's Primary School",
+    "latitude": 1.34935,
+    "longitude": 103.937921,
+    "level": "Primary"
+  },
+  "St. Hilda's Secondary School": {
+    "title": "St. Hilda's Secondary School",
+    "latitude": 1.349739,
+    "longitude": 103.937608,
+    "level": "Secondary"
+  },
+  "St. Joseph's Institution__S": {
+    "title": "St. Joseph's Institution__S",
+    "latitude": 1.33278,
+    "longitude": 103.841203,
+    "level": "Secondary"
+  },
+  "St. Joseph's Institution Junior": {
+    "title": "St. Joseph's Institution Junior",
+    "latitude": 1.317729,
+    "longitude": 103.845612,
+    "level": "Primary"
+  },
+  "St. Margaret's Primary School": {
+    "title": "St. Margaret's Primary School",
+    "latitude": 1.303759,
+    "longitude": 103.846193,
+    "level": "Primary"
+  },
+  "St. Margaret's Secondary School": {
+    "title": "St. Margaret's Secondary School",
+    "latitude": 1.320068,
+    "longitude": 103.809951,
+    "level": "Secondary"
+  },
+  "St. Patrick's School": {
+    "title": "St. Patrick's School",
+    "latitude": 1.307684,
+    "longitude": 103.916768,
+    "level": "Secondary"
+  },
+  "St. Stephen's School": {
+    "title": "St. Stephen's School",
+    "latitude": 1.31879,
+    "longitude": 103.917258,
+    "level": "Primary"
+  },
+  "Stamford Primary School": {
+    "title": "Stamford Primary School",
+    "latitude": 1.303456,
+    "longitude": 103.857454,
+    "level": "Primary"
+  },
+  "Swiss Cottage Secondary School": {
+    "title": "Swiss Cottage Secondary School",
+    "latitude": 1.364717,
+    "longitude": 103.750396,
+    "level": "Secondary"
+  },
+  "Tampines North Primary School": {
+    "title": "Tampines North Primary School",
+    "latitude": 1.360476,
+    "longitude": 103.948726,
+    "level": "Primary"
+  },
+  "Tampines Primary School": {
+    "title": "Tampines Primary School",
+    "latitude": 1.349779,
+    "longitude": 103.944005,
+    "level": "Primary"
+  },
+  "Tampines Secondary School": {
+    "title": "Tampines Secondary School",
+    "latitude": 1.349261,
+    "longitude": 103.944264,
+    "level": "Secondary"
+  },
+  "Tanglin Secondary School": {
+    "title": "Tanglin Secondary School",
+    "latitude": 1.309702,
+    "longitude": 103.758158,
+    "level": "Secondary"
+  },
+  "Tanjong Katong Girls' School": {
+    "title": "Tanjong Katong Girls' School",
+    "latitude": 1.308213,
+    "longitude": 103.89582,
+    "level": "Secondary"
+  },
+  "Tanjong Katong Primary School": {
+    "title": "Tanjong Katong Primary School",
+    "latitude": 1.305241,
+    "longitude": 103.900093,
+    "level": "Primary"
+  },
+  "Tanjong Katong Secondary School": {
+    "title": "Tanjong Katong Secondary School",
+    "latitude": 1.308735,
+    "longitude": 103.897225,
+    "level": "Secondary"
+  },
+  "Tao Nan School": {
+    "title": "Tao Nan School",
+    "latitude": 1.305285,
+    "longitude": 103.911553,
+    "level": "Primary"
+  },
+  "Teck Ghee Primary School": {
+    "title": "Teck Ghee Primary School",
+    "latitude": 1.365588,
+    "longitude": 103.850957,
+    "level": "Primary"
+  },
+  "Teck Whye Primary School": {
+    "title": "Teck Whye Primary School",
+    "latitude": 1.38365,
+    "longitude": 103.753292,
+    "level": "Primary"
+  },
+  "Teck Whye Secondary School": {
+    "title": "Teck Whye Secondary School",
+    "latitude": 1.383334,
+    "longitude": 103.755103,
+    "level": "Secondary"
+  },
+  "Telok Kurau Primary School": {
+    "title": "Telok Kurau Primary School",
+    "latitude": 1.331046,
+    "longitude": 103.910934,
+    "level": "Primary"
+  },
+  "Temasek Junior College__S": {
+    "title": "Temasek Junior College__S",
+    "latitude": 1.319011,
+    "longitude": 103.933075,
+    "level": "Secondary"
+  },
+  "Temasek Primary School": {
+    "title": "Temasek Primary School",
+    "latitude": 1.317707,
+    "longitude": 103.945591,
+    "level": "Primary"
+  },
+  "Temasek Secondary School": {
+    "title": "Temasek Secondary School",
+    "latitude": 1.315917,
+    "longitude": 103.947564,
+    "level": "Secondary"
+  },
+  "Townsville Primary School": {
+    "title": "Townsville Primary School",
+    "latitude": 1.360033,
+    "longitude": 103.853826,
+    "level": "Primary"
+  },
+  "Unity Primary School": {
+    "title": "Unity Primary School",
+    "latitude": 1.402855,
+    "longitude": 103.746823,
+    "level": "Primary"
+  },
+  "Unity Secondary School": {
+    "title": "Unity Secondary School",
+    "latitude": 1.400029,
+    "longitude": 103.746026,
+    "level": "Secondary"
+  },
+  "Valour Primary School": {
+    "title": "Valour Primary School",
+    "latitude": 1.406836,
+    "longitude": 103.899078,
+    "level": "Primary"
+  },
+  "Victoria School": {
+    "title": "Victoria School",
+    "latitude": 1.308713,
+    "longitude": 103.927981,
+    "level": "Secondary"
+  },
+  "Waterway Primary School": {
+    "title": "Waterway Primary School",
+    "latitude": 1.398828,
+    "longitude": 103.918622,
+    "level": "Primary"
+  },
+  "Wellington Primary School": {
+    "title": "Wellington Primary School",
+    "latitude": 1.45192,
+    "longitude": 103.822304,
+    "level": "Primary"
+  },
+  "West Grove Primary School": {
+    "title": "West Grove Primary School",
+    "latitude": 1.344879,
+    "longitude": 103.699286,
+    "level": "Primary"
+  },
+  "West Spring Primary School": {
+    "title": "West Spring Primary School",
+    "latitude": 1.389441,
+    "longitude": 103.766196,
+    "level": "Primary"
+  },
+  "West Spring Secondary School": {
+    "title": "West Spring Secondary School",
+    "latitude": 1.387823,
+    "longitude": 103.760129,
+    "level": "Secondary"
+  },
+  "West View Primary School": {
+    "title": "West View Primary School",
+    "latitude": 1.383676,
+    "longitude": 103.76024,
+    "level": "Primary"
+  },
+  "Westwood Primary School": {
+    "title": "Westwood Primary School",
+    "latitude": 1.347185,
+    "longitude": 103.700534,
+    "level": "Primary"
+  },
+  "Westwood Secondary School": {
+    "title": "Westwood Secondary School",
+    "latitude": 1.353737,
+    "longitude": 103.701772,
+    "level": "Secondary"
+  },
+  "White Sands Primary School": {
+    "title": "White Sands Primary School",
+    "latitude": 1.365557,
+    "longitude": 103.960919,
+    "level": "Primary"
+  },
+  "Whitley Secondary School": {
+    "title": "Whitley Secondary School",
+    "latitude": 1.355052,
+    "longitude": 103.842552,
+    "level": "Secondary"
+  },
+  "Woodgrove Primary School": {
+    "title": "Woodgrove Primary School",
+    "latitude": 1.433103,
+    "longitude": 103.790604,
+    "level": "Primary"
+  },
+  "Woodgrove Secondary School": {
+    "title": "Woodgrove Secondary School",
+    "latitude": 1.428318,
+    "longitude": 103.796048,
+    "level": "Secondary"
+  },
+  "Woodlands Primary School": {
+    "title": "Woodlands Primary School",
+    "latitude": 1.4368,
+    "longitude": 103.7918,
+    "level": "Primary"
+  },
+  "Woodlands Ring Primary School": {
+    "title": "Woodlands Ring Primary School",
+    "latitude": 1.434952,
+    "longitude": 103.797436,
+    "level": "Primary"
+  },
+  "Woodlands Ring Secondary School": {
+    "title": "Woodlands Ring Secondary School",
+    "latitude": 1.436489,
+    "longitude": 103.800149,
+    "level": "Secondary"
+  },
+  "Woodlands Secondary School": {
+    "title": "Woodlands Secondary School",
+    "latitude": 1.439125,
+    "longitude": 103.774586,
+    "level": "Secondary"
+  },
+  "Xinghua Primary School": {
+    "title": "Xinghua Primary School",
+    "latitude": 1.357909,
+    "longitude": 103.890473,
+    "level": "Primary"
+  },
+  "Xingnan Primary School": {
+    "title": "Xingnan Primary School",
+    "latitude": 1.342547,
+    "longitude": 103.68795,
+    "level": "Primary"
+  },
+  "Xinmin Primary School": {
+    "title": "Xinmin Primary School",
+    "latitude": 1.371395,
+    "longitude": 103.883081,
+    "level": "Primary"
+  },
+  "Xinmin Secondary School": {
+    "title": "Xinmin Secondary School",
+    "latitude": 1.372559,
+    "longitude": 103.883052,
+    "level": "Secondary"
+  },
+  "Xishan Primary School": {
+    "title": "Xishan Primary School",
+    "latitude": 1.433472,
+    "longitude": 103.837755,
+    "level": "Primary"
+  },
+  "Yangzheng Primary School": {
+    "title": "Yangzheng Primary School",
+    "latitude": 1.348646,
+    "longitude": 103.868595,
+    "level": "Primary"
+  },
+  "Yew Tee Primary School": {
+    "title": "Yew Tee Primary School",
+    "latitude": 1.396766,
+    "longitude": 103.750986,
+    "level": "Primary"
+  },
+  "Yio Chu Kang Primary School": {
+    "title": "Yio Chu Kang Primary School",
+    "latitude": 1.377933,
+    "longitude": 103.885644,
+    "level": "Primary"
+  },
+  "Yio Chu Kang Secondary School": {
+    "title": "Yio Chu Kang Secondary School",
+    "latitude": 1.377976,
+    "longitude": 103.842137,
+    "level": "Secondary"
+  },
+  "Yishun Primary School": {
+    "title": "Yishun Primary School",
+    "latitude": 1.433386,
+    "longitude": 103.834087,
+    "level": "Primary"
+  },
+  "Yishun Secondary School": {
+    "title": "Yishun Secondary School",
+    "latitude": 1.428133,
+    "longitude": 103.828764,
+    "level": "Secondary"
+  },
+  "Yishun Town Secondary School": {
+    "title": "Yishun Town Secondary School",
+    "latitude": 1.432322,
+    "longitude": 103.838094,
+    "level": "Secondary"
+  },
+  "Yu Neng Primary School": {
+    "title": "Yu Neng Primary School",
+    "latitude": 1.333889,
+    "longitude": 103.932145,
+    "level": "Primary"
+  },
+  "Yuan Ching Secondary School": {
+    "title": "Yuan Ching Secondary School",
+    "latitude": 1.342006,
+    "longitude": 103.720899,
+    "level": "Secondary"
+  },
+  "Yuhua Primary School": {
+    "title": "Yuhua Primary School",
+    "latitude": 1.342802,
+    "longitude": 103.741106,
+    "level": "Primary"
+  },
+  "Yuhua Secondary School": {
+    "title": "Yuhua Secondary School",
+    "latitude": 1.347186,
+    "longitude": 103.722687,
+    "level": "Secondary"
+  },
+  "Yumin Primary School": {
+    "title": "Yumin Primary School",
+    "latitude": 1.351292,
+    "longitude": 103.950462,
+    "level": "Primary"
+  },
+  "Yusof Ishak Secondary School": {
+    "title": "Yusof Ishak Secondary School",
+    "latitude": 1.406937,
+    "longitude": 103.896275,
+    "level": "Secondary"
+  },
+  "Yuying Secondary School": {
+    "title": "Yuying Secondary School",
+    "latitude": 1.357136,
+    "longitude": 103.890195,
+    "level": "Secondary"
+  },
+  "Zhangde Primary School": {
+    "title": "Zhangde Primary School",
+    "latitude": 1.284212,
+    "longitude": 103.825952,
+    "level": "Primary"
+  },
+  "Zhenghua Primary School": {
+    "title": "Zhenghua Primary School",
+    "latitude": 1.379549,
+    "longitude": 103.769313,
+    "level": "Primary"
+  },
+  "Zhenghua Secondary School": {
+    "title": "Zhenghua Secondary School",
+    "latitude": 1.388366,
+    "longitude": 103.765511,
+    "level": "Secondary"
+  },
+  "Zhonghua Primary School": {
+    "title": "Zhonghua Primary School",
+    "latitude": 1.360203,
+    "longitude": 103.869762,
+    "level": "Primary"
+  },
+  "Zhonghua Secondary School": {
+    "title": "Zhonghua Secondary School",
+    "latitude": 1.348407,
+    "longitude": 103.869431,
+    "level": "Secondary"
+  },
+  "Anderson Serangoon Junior College": {
+    "title": "Anderson Serangoon Junior College",
+    "latitude": 1.378397,
+    "longitude": 103.845886,
+    "level": "Tertiary"
+  },
+  "Anglo-Chinese Junior College": {
+    "title": "Anglo-Chinese Junior College",
+    "latitude": 1.303288,
+    "longitude": 103.785263,
+    "level": "Tertiary"
+  },
+  "Anglo-Chinese IB Junior College": {
+    "title": "Anglo-Chinese IB Junior College",
+    "latitude": 1.303704,
+    "longitude": 103.780363,
+    "level": "Tertiary"
+  },
+  "Catholic Junior College": {
+    "title": "Catholic Junior College",
+    "latitude": 1.324556,
+    "longitude": 103.835029,
+    "level": "Tertiary"
+  },
+  "Dunman High School__T": {
+    "title": "Dunman High School__T",
+    "latitude": 1.299125,
+    "longitude": 103.882862,
+    "level": "Tertiary"
+  },
+  "Eunoia Junior College": {
+    "title": "Eunoia Junior College",
+    "latitude": 1.362454,
+    "longitude": 103.840484,
+    "level": "Tertiary"
+  },
+  "Hwa Chong Institution__T": {
+    "title": "Hwa Chong Institution__T",
+    "latitude": 1.324893,
+    "longitude": 103.805729,
+    "level": "Tertiary"
+  },
+  "Jurong Pioneer Junior College": {
+    "title": "Jurong Pioneer Junior College",
+    "latitude": 1.384609,
+    "longitude": 103.753933,
+    "level": "Tertiary"
+  },
+  "Nanyang Junior College": {
+    "title": "Nanyang Junior College",
+    "latitude": 1.350283,
+    "longitude": 103.866499,
+    "level": "Tertiary"
+  },
+  "National Junior College__T": {
+    "title": "National Junior College__T",
+    "latitude": 1.33043,
+    "longitude": 103.804459,
+    "level": "Tertiary"
+  },
+  "Raffles Institution__T": {
+    "title": "Raffles Institution__T",
+    "latitude": 1.345761,
+    "longitude": 103.845983,
+    "level": "Tertiary"
+  },
+  "River Valley Junior College": {
+    "title": "River Valley Junior College",
+    "latitude": 1.344073,
+    "longitude": 103.706725,
+    "level": "Tertiary"
+  },
+  "Saint Andrew's Junior College": {
+    "title": "Saint Andrew's Junior College",
+    "latitude": 1.332789,
+    "longitude": 103.863481,
+    "level": "Tertiary"
+  },
+  "St. Joseph's Institution__T": {
+    "title": "St. Joseph's Institution__T",
+    "latitude": 1.3236,
+    "longitude": 103.8273,
+    "level": "Tertiary"
+  },
+  "Tampines Meridian Junior College": {
+    "title": "Tampines Meridian Junior College",
+    "latitude": 1.376742,
+    "longitude": 103.937553,
+    "level": "Tertiary"
+  },
+  "Temasek Junior College__T": {
+    "title": "Temasek Junior College__T",
+    "latitude": 1.318462,
+    "longitude": 103.935598,
+    "level": "Tertiary"
+  },
+  "Victoria Junior College": {
+    "title": "Victoria Junior College",
+    "latitude": 1.305718,
+    "longitude": 103.919531,
+    "level": "Tertiary"
+  },
+  "Yishun Innova Junior College": {
+    "title": "Yishun Innova Junior College",
+    "latitude": 1.424619,
+    "longitude": 103.829634,
+    "level": "Tertiary"
+  },
+  "Nanyang Polytechnic": {
+    "title": "Nanyang Polytechnic",
+    "latitude": 1.381119,
+    "longitude": 103.849736,
+    "level": "Tertiary"
+  },
+  "Singapore Polytechnic": {
+    "title": "Singapore Polytechnic",
+    "latitude": 1.309174,
+    "longitude": 103.781095,
+    "level": "Tertiary"
+  },
+  "Ngee Ann Polytechnic": {
+    "title": "Ngee Ann Polytechnic",
+    "latitude": 1.332481,
+    "longitude": 103.773306,
+    "level": "Tertiary"
+  },
+  "Temasek Polytechnic": {
+    "title": "Temasek Polytechnic",
+    "latitude": 1.346756,
+    "longitude": 103.929082,
+    "level": "Tertiary"
+  },
+  "Republic Polytechnic": {
+    "title": "Republic Polytechnic",
+    "latitude": 1.444968,
+    "longitude": 103.785362,
+    "level": "Tertiary"
+  },
+  "ITE College Central": {
+    "title": "ITE College Central",
+    "latitude": 1.378209,
+    "longitude": 103.856473,
+    "level": "Tertiary"
+  },
+  "ITE College West": {
+    "title": "ITE College West",
+    "latitude": 1.375054,
+    "longitude": 103.75222,
+    "level": "Tertiary"
+  },
+  "ITE College East": {
+    "title": "ITE College East",
+    "latitude": 1.334554,
+    "longitude": 103.954985,
+    "level": "Tertiary"
+  },
+  "Nanyang Academy of Fine Arts": {
+    "title": "Nanyang Academy of Fine Arts",
+    "latitude": 1.300031,
+    "longitude": 103.851653,
+    "level": "Tertiary"
+  },
+  "Lasalle College of the Arts": {
+    "title": "Lasalle College of the Arts",
+    "latitude": 1.302855,
+    "longitude": 103.851555,
+    "level": "Tertiary"
+  },
+  "National University of Singapore": {
+    "title": "National University of Singapore",
+    "latitude": 1.294966,
+    "longitude": 103.771222,
+    "level": "Tertiary"
+  },
+  "Nanyang Technological University": {
+    "title": "Nanyang Technological University",
+    "latitude": 1.344635,
+    "longitude": 103.680706,
+    "level": "Tertiary"
+  },
+  "Singapore Management University": {
+    "title": "Singapore Management University",
+    "latitude": 1.296847,
+    "longitude": 103.852208,
+    "level": "Tertiary"
+  },
+  "Singapore University of Technology and Design": {
+    "title": "Singapore University of Technology and Design",
+    "latitude": 1.340172,
+    "longitude": 103.96286,
+    "level": "Tertiary"
+  },
+  "Singapore Institute of Technology": {
+    "title": "Singapore Institute of Technology",
+    "latitude": 1.414089,
+    "longitude": 103.910689,
+    "level": "Tertiary"
+  },
+  "Singapore University of Social Sciences": {
+    "title": "Singapore University of Social Sciences",
+    "latitude": 1.328814,
+    "longitude": 103.775709,
+    "level": "Tertiary"
+  },
+  "Millenia Institute": {
+    "title": "Millenia Institute",
+    "latitude": 1.3508,
+    "longitude": 103.7414,
+    "level": "Tertiary"
+  }
+}
