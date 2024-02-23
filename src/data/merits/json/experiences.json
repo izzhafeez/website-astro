@@ -14,72 +14,36 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r",
-          "ruby",
-          "vba"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "anaconda",
-          "excel",
-          "flask",
-          "gcp",
-          "jupyter",
-          "pandas",
-          "qgis",
-          "ruby-on-rails",
-          "sublime",
-          "tableau",
-          "telegram-bots",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "anaconda",
-          "api-development",
-          "data-cleaning",
-          "data-mining",
-          "data-science",
-          "data-visualisation",
-          "excel",
-          "flask",
-          "frontend-development",
-          "gcp",
-          "geospatial-analytics",
-          "machine-learning",
-          "operational-analysis",
-          "pandas",
-          "problem-solving",
-          "python",
-          "qgis",
-          "ruby",
-          "ruby-on-rails",
-          "software-testing",
-          "sublime",
-          "tableau",
-          "vba",
-          "web-development",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/languages/ruby",
+      "merits/languages/vba",
+      "merits/technologies/anaconda",
+      "merits/technologies/excel",
+      "merits/technologies/flask",
+      "merits/technologies/gcp",
+      "merits/technologies/jupyter",
+      "merits/technologies/pandas",
+      "merits/technologies/qgis",
+      "merits/technologies/ruby-on-rails",
+      "merits/technologies/sublime",
+      "merits/technologies/tableau",
+      "merits/technologies/telegram-bots",
+      "merits/technologies/tensorflow",
+      "merits/skills/api-development",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/frontend-development",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/machine-learning",
+      "merits/skills/operational-analysis",
+      "merits/skills/problem-solving",
+      "merits/skills/software-testing",
+      "merits/skills/web-development",
+      "merits/skills/web-scraping",
+      "projects/coding/dynamic-resource-optimiser"
     ]
   },
   "data-management": {
@@ -97,46 +61,21 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c-sharp",
-          "css",
-          "html",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "aws",
-          "er-studio",
-          "excel",
-          "power-bi",
-          "ssms"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "aws",
-          "data-cleaning",
-          "data-management",
-          "data-modeling",
-          "data-visualisation",
-          "er-studio",
-          "excel",
-          "frontend-development",
-          "operational-analysis",
-          "postgresql",
-          "power-bi",
-          "sql",
-          "ssms"
-        ]
-      }
+      "merits/languages/c-sharp",
+      "merits/languages/css",
+      "merits/languages/html",
+      "merits/languages/sql",
+      "merits/technologies/aws",
+      "merits/technologies/er-studio",
+      "merits/technologies/excel",
+      "merits/technologies/power-bi",
+      "merits/technologies/ssms",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-management",
+      "merits/skills/data-modeling",
+      "merits/skills/data-visualisation",
+      "merits/skills/frontend-development",
+      "merits/skills/operational-analysis"
     ]
   },
   "fullstack-intern": {
@@ -149,49 +88,17 @@
     "overview": "Designed a web app that showcases the company's geospatial APIs",
     "description": [],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "react-js",
-          "ruby-on-rails",
-          "vscode"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "bootstrap",
-          "cp3200",
-          "documentation",
-          "frontend-development",
-          "jest",
-          "postman",
-          "react-js",
-          "ruby",
-          "ruby-on-rails",
-          "software-testing",
-          "vscode",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/languages/ruby",
+      "merits/technologies/react-js",
+      "merits/technologies/ruby-on-rails",
+      "merits/technologies/vscode",
+      "merits/skills/api-development",
+      "merits/skills/documentation",
+      "merits/skills/frontend-development",
+      "merits/skills/software-testing",
+      "merits/skills/web-development",
+      "projects/coding/bus-routes-optimiser"
     ]
   },
   "robotics": {
@@ -209,21 +116,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "python",
-          "vex"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/vex"
     ]
   }
 }

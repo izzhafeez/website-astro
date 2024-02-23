@@ -13,21 +13,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "github"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "bash",
-          "github"
-        ]
-      }
+      "merits/technologies/github",
+      "merits/languages/bash"
     ]
   },
   "bus-routes-optimiser": {
@@ -37,51 +24,18 @@
     "date": "May'23",
     "overview": "Recommends the optimal routes for buses to pick up passengers",
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jest",
-          "postman",
-          "react-js",
-          "ruby-on-rails"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "bootstrap",
-          "css",
-          "frontend-development",
-          "fullstack-intern",
-          "geospatial-analytics",
-          "javascript",
-          "jest",
-          "postman",
-          "react-js",
-          "ruby",
-          "ruby-on-rails",
-          "software-testing",
-          "web-development"
-        ]
-      }
+      "merits/experiences/fullstack-intern",
+      "merits/languages/javascript",
+      "merits/languages/ruby",
+      "merits/technologies/jest",
+      "merits/technologies/postman",
+      "merits/technologies/react-js",
+      "merits/technologies/ruby-on-rails",
+      "merits/skills/api-development",
+      "merits/skills/frontend-development",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/software-testing",
+      "merits/skills/web-development"
     ]
   },
   "chords-search-engine": {
@@ -98,39 +52,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "flask"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "css",
-          "flask",
-          "python",
-          "web-development",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "spiderman-web-scraper"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/flask",
+      "merits/skills/api-development",
+      "merits/skills/web-development",
+      "merits/skills/web-scraping",
+      "projects/coding/spiderman-web-scraper"
     ]
   },
   "dynamic-resource-optimiser": {
@@ -146,58 +73,21 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "flask",
-          "pandas",
-          "ruby-on-rails",
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "data-cleaning",
-          "data-science",
-          "data-visualisation",
-          "flask",
-          "geospatial-analytics",
-          "operational-analysis",
-          "pandas",
-          "python",
-          "ruby",
-          "ruby-on-rails",
-          "software-engineering",
-          "tableau",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-extraction"
-        ]
-      }
+      "merits/experiences/data-analytics",
+      "merits/languages/python",
+      "merits/languages/ruby",
+      "merits/technologies/flask",
+      "merits/technologies/pandas",
+      "merits/technologies/ruby-on-rails",
+      "merits/technologies/tableau",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/operational-analysis",
+      "merits/skills/software-engineering",
+      "merits/skills/web-development",
+      "projects/coding/geospatial-extraction"
     ]
   },
   "edumate": {
@@ -214,42 +104,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2103t"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "junit",
-          "plant-uml"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2103t",
-          "dean-list-y2s2",
-          "documentation",
-          "java",
-          "junit",
-          "plant-uml",
-          "software-engineering",
-          "software-testing"
-        ]
-      }
+      "merits/modules/cs2103t",
+      "merits/languages/java",
+      "merits/technologies/junit",
+      "merits/technologies/plant-uml",
+      "merits/skills/documentation",
+      "merits/skills/software-engineering",
+      "merits/skills/software-testing"
     ]
   },
   "geospatial-extraction": {
@@ -266,41 +127,15 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "pandas"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "geospatial-analytics",
-          "pandas",
-          "python",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "geospatial-management",
-          "halal-recommender",
-          "malls-of-singapore"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/pandas",
+      "merits/skills/data-cleaning",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/web-scraping",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/geospatial-management",
+      "projects/coding/halal-recommender",
+      "projects/coding/malls-of-singapore"
     ]
   },
   "geospatial-management": {
@@ -317,41 +152,15 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "pandas"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-structures",
-          "geospatial-analytics",
-          "pandas",
-          "python"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-extraction",
-          "malls-of-singapore",
-          "meetup-maker",
-          "mrt-paths-analysis",
-          "sz-matrix"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/pandas",
+      "merits/skills/data-structures",
+      "merits/skills/geospatial-analytics",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/meetup-maker",
+      "projects/coding/mrt-paths-analysis",
+      "projects/coding/sz-matrix"
     ]
   },
   "halal-recommender": {
@@ -368,40 +177,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp",
-          "telegram-bots"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-modeling",
-          "gcp",
-          "geospatial-analytics",
-          "javascript",
-          "telegram-bots",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-extraction"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/technologies/gcp",
+      "merits/technologies/telegram-bots",
+      "merits/skills/data-modeling",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/web-scraping",
+      "projects/coding/geospatial-extraction"
     ]
   },
   "jap-vocab-trainer": {
@@ -418,14 +200,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "japanese",
-          "rust"
-        ]
-      }
+      "merits/languages/japanese",
+      "merits/languages/rust"
     ]
   },
   "malls-of-singapore": {
@@ -446,60 +222,25 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c-sharp",
-          "css",
-          "go",
-          "html",
-          "javascript",
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "angular-js",
-          "flask",
-          "pandas",
-          "unity"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "angular-js",
-          "c-sharp",
-          "css",
-          "data-cleaning",
-          "data-mining",
-          "data-science",
-          "flask",
-          "game-development",
-          "geospatial-analytics",
-          "go",
-          "html",
-          "javascript",
-          "machine-learning",
-          "pandas",
-          "python",
-          "selenium",
-          "unity",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-extraction",
-          "geospatial-management"
-        ]
-      }
+      "merits/languages/c-sharp",
+      "merits/languages/css",
+      "merits/languages/go",
+      "merits/languages/html",
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/technologies/angular-js",
+      "merits/technologies/flask",
+      "merits/technologies/pandas",
+      "merits/technologies/unity",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/game-development",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/machine-learning",
+      "merits/skills/web-scraping",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/geospatial-management"
     ]
   },
   "meetup-maker": {
@@ -516,47 +257,17 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "django",
-          "heroku",
-          "postgresql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "css",
-          "data-modeling",
-          "django",
-          "geospatial-analytics",
-          "heroku",
-          "postgresql",
-          "python",
-          "sql",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-management",
-          "sz-matrix"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/sql",
+      "merits/technologies/django",
+      "merits/technologies/heroku",
+      "merits/technologies/postgresql",
+      "merits/skills/api-development",
+      "merits/skills/data-modeling",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/web-development",
+      "projects/coding/geospatial-management",
+      "projects/coding/sz-matrix"
     ]
   },
   "mrt-paths-analysis": {
@@ -573,38 +284,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jupyter"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-science",
-          "data-visualisation",
-          "geospatial-analytics",
-          "jupyter",
-          "python"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-management"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/jupyter",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/geospatial-analytics",
+      "projects/coding/geospatial-management"
     ]
   },
   "neothesia": {
@@ -621,13 +306,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "rust"
-        ]
-      }
+      "merits/languages/rust"
     ]
   },
   "note-together": {
@@ -648,60 +327,21 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "typescript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "express-js",
-          "github",
-          "heroku",
-          "mongo-db",
-          "node-js",
-          "postman",
-          "selenium",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "frontend-development",
-          "software-testing",
-          "web-development"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "api-development",
-          "cp2106",
-          "css",
-          "express-js",
-          "frontend-development",
-          "github",
-          "heroku",
-          "javascript",
-          "mongo-db",
-          "node-js",
-          "postman",
-          "selenium",
-          "software-testing",
-          "typescript",
-          "vue-js",
-          "web-development"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/languages/typescript",
+      "merits/technologies/express-js",
+      "merits/technologies/github",
+      "merits/technologies/heroku",
+      "merits/technologies/mongo-db",
+      "merits/technologies/node-js",
+      "merits/technologies/postman",
+      "merits/technologies/selenium",
+      "merits/technologies/vue-js",
+      "merits/skills/api-development",
+      "merits/skills/frontend-development",
+      "merits/skills/software-testing",
+      "merits/skills/web-development",
+      "merits/modules/cp2106"
     ]
   },
   "notes-telegram-bot": {
@@ -718,31 +358,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp",
-          "telegram-bots"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-modeling",
-          "gcp",
-          "javascript",
-          "telegram-bots"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/technologies/gcp",
+      "merits/technologies/telegram-bots",
+      "merits/skills/data-modeling"
     ]
   },
   "programming-lines-counter": {
@@ -759,13 +378,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      }
+      "merits/languages/c"
     ]
   },
   "sentence-searcher": {
@@ -782,37 +395,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "chinese",
-          "japanese",
-          "korean",
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "selenium"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "chinese",
-          "data-cleaning",
-          "data-mining",
-          "japanese",
-          "korean",
-          "python",
-          "selenium",
-          "web-scraping"
-        ]
-      }
+      "merits/languages/chinese",
+      "merits/languages/japanese",
+      "merits/languages/korean",
+      "merits/languages/python",
+      "merits/technologies/selenium",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/web-scraping"
     ]
   },
   "spiderman-web-scraper": {
@@ -829,29 +419,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-mining",
-          "python",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "chords-search-engine"
-        ]
-      }
+      "merits/languages/python",
+      "merits/skills/data-mining",
+      "merits/skills/web-scraping",
+      "projects/coding/chords-search-engine"
     ]
   },
   "svg-converter": {
@@ -868,36 +439,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "data-cleaning",
-          "pandas",
-          "python"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "quizzes",
-        "items": [
-          "subzones-jetpunk"
-        ]
-      }
+      "merits/languages/python",
+      "merits/skills/data-cleaning",
+      "merits/technologies/pandas",
+      "projects/quizzes/subzones-jetpunk"
     ]
   },
   "sz-matrix": {
@@ -914,29 +459,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "cpp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cpp",
-          "data-structures"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-management",
-          "meetup-maker"
-        ]
-      }
+      "merits/languages/cpp",
+      "merits/skills/data-structures",
+      "projects/coding/geospatial-management",
+      "projects/coding/meetup-maker"
     ]
   },
   "website-react": {
@@ -953,45 +479,17 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "bash",
-          "c",
-          "css",
-          "html",
-          "javascript",
-          "python",
-          "ruby",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "react-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "bash",
-          "bootstrap",
-          "c",
-          "css",
-          "frontend-development",
-          "html",
-          "javascript",
-          "python",
-          "react-js",
-          "ruby",
-          "rust",
-          "web-development"
-        ]
-      }
+      "merits/languages/bash",
+      "merits/languages/c",
+      "merits/languages/css",
+      "merits/languages/html",
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/languages/ruby",
+      "merits/languages/rust",
+      "merits/technologies/react-js",
+      "merits/skills/frontend-development",
+      "merits/skills/web-development"
     ]
   }
 }

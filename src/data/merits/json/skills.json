@@ -15,71 +15,27 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "go",
-          "java",
-          "javascript",
-          "python",
-          "ruby",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "django",
-          "express-js",
-          "flask",
-          "node-js",
-          "rocket-rs",
-          "ruby-on-rails",
-          "spring"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "chords-search-engine",
-          "meetup-maker",
-          "note-together"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "django",
-          "flask",
-          "frontend-development",
-          "fullstack-intern",
-          "go",
-          "java",
-          "javascript",
-          "node-js",
-          "postman",
-          "python",
-          "rocket-rs",
-          "ruby",
-          "rust",
-          "software-engineering",
-          "spring",
-          "web-development"
-        ]
-      }
+      "merits/languages/go",
+      "merits/languages/java",
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/languages/ruby",
+      "merits/languages/rust",
+      "merits/technologies/django",
+      "merits/technologies/express-js",
+      "merits/technologies/flask",
+      "merits/technologies/node-js",
+      "merits/technologies/rocket-rs",
+      "merits/technologies/ruby-on-rails",
+      "merits/technologies/spring",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/chords-search-engine",
+      "projects/coding/meetup-maker",
+      "projects/coding/note-together",
+      "merits/experiences/fullstack-intern",
+      "merits/skills/frontend-development",
+      "merits/skills/software-engineering",
+      "merits/skills/web-development"
     ]
   },
   "artificial-intelligence": {
@@ -91,20 +47,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-introduction",
-          "generative-ai-prompt-engineering",
-          "ibm-generative-ai-data-science"
-        ]
-      }
+      "merits/courses/generative-ai-introduction",
+      "merits/courses/generative-ai-prompt-engineering"
     ]
   },
   "business-intelligence": {
@@ -115,20 +59,7 @@
         "text": "Business intelligence (BI) is a technology-driven process for analyzing data and delivering actionable information that helps executives, managers and workers make informed business decisions."
       }
     ],
-    "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-business-intelligence"
-        ]
-      }
-    ]
+    "related": []
   },
   "business-requirements": {
     "title": "Business Requirements",
@@ -139,18 +70,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "foundations-of-business-intelligence"
-        ]
-      }
+      "merits/courses/foundations-of-business-intelligence"
     ]
   },
   "communication": {
@@ -162,23 +82,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dashboards-reports",
-          "foundations-of-data-science",
-          "go-beyond-the-numbers",
-          "regression-analysis",
-          "the-nuts-and-bolts-of-machine-learning",
-          "the-power-of-statistics"
-        ]
-      }
+      "merits/courses/dashboards-reports",
+      "merits/courses/foundations-of-data-science",
+      "merits/courses/go-beyond-the-numbers",
+      "merits/courses/regression-analysis",
+      "merits/courses/the-nuts-and-bolts-of-machine-learning",
+      "merits/courses/the-power-of-statistics"
     ]
   },
   "cross-functional": {
@@ -190,18 +99,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "foundations-of-business-intelligence"
-        ]
-      }
+      "merits/courses/foundations-of-business-intelligence"
     ]
   },
   "dashboarding": {
@@ -213,19 +111,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dashboards-reports",
-          "google-business-intelligence"
-        ]
-      }
+      "merits/courses/dashboards-reports"
     ]
   },
   "data-aggregation": {
@@ -237,19 +123,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "analyze-data-to-answer-questions",
-          "google-data-analytics"
-        ]
-      }
+      "merits/courses/analyze-data-to-answer-questions"
     ]
   },
   "data-analysis": {
@@ -261,31 +135,16 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "analyze-data-to-answer-questions",
-          "ask-questions-to-make-data-driven-decisions",
-          "chat-gpt-advanced-data-analysis",
-          "data-analysis-with-r",
-          "foundations-data-data-everywhere",
-          "generative-ai-elevate",
-          "go-beyond-the-numbers",
-          "google-advanced-data-analytics",
-          "google-advanced-data-analytics-capstone",
-          "google-business-intelligence",
-          "google-data-analytics",
-          "google-data-analytics-capstone",
-          "prompt-engineering",
-          "share-data-through-the-art-of-visualization"
-        ]
-      }
+      "merits/courses/analyze-data-to-answer-questions",
+      "merits/courses/ask-questions-to-make-data-driven-decisions",
+      "merits/courses/chat-gpt-advanced-data-analysis",
+      "merits/courses/data-analysis-with-r",
+      "merits/courses/foundations-data-data-everywhere",
+      "merits/courses/generative-ai-elevate",
+      "merits/courses/go-beyond-the-numbers",
+      "merits/courses/google-advanced-data-analytics-capstone",
+      "merits/courses/google-data-analytics-capstone",
+      "merits/courses/share-data-through-the-art-of-visualization"
     ]
   },
   "data-cleaning": {
@@ -304,60 +163,21 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "pandas"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics",
-          "data-management"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "geospatial-extraction",
-          "malls-of-singapore",
-          "sentence-searcher",
-          "svg-converter"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "data-management",
-          "data-mining",
-          "data-science",
-          "foundations-data-data-everywhere",
-          "google-data-analytics",
-          "google-data-analytics-capstone",
-          "harvardx-data-science",
-          "pandas",
-          "process-data-from-dirty-to-clean",
-          "python",
-          "r",
-          "web-scraping"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/languages/sql",
+      "merits/technologies/pandas",
+      "merits/experiences/data-analytics",
+      "merits/experiences/data-management",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/sentence-searcher",
+      "projects/coding/svg-converter",
+      "merits/skills/data-management",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/web-scraping"
     ]
   },
   "data-collection": {
@@ -369,19 +189,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-data-analytics",
-          "prepare-data-for-exploration"
-        ]
-      }
+      "merits/courses/prepare-data-for-exploration"
     ]
   },
   "data-engineering": {
@@ -393,19 +201,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "data-engineering-with-rust",
-          "rust-programming"
-        ]
-      }
+      "merits/courses/data-engineering-with-rust"
     ]
   },
   "data-ethics": {
@@ -417,19 +213,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-data-analytics",
-          "prepare-data-for-exploration"
-        ]
-      }
+      "merits/courses/prepare-data-for-exploration"
     ]
   },
   "data-generation": {
@@ -441,18 +225,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-elevate"
-        ]
-      }
+      "merits/courses/generative-ai-elevate"
     ]
   },
   "data-integrity": {
@@ -464,19 +237,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-data-analytics",
-          "process-data-from-dirty-to-clean"
-        ]
-      }
+      "merits/courses/process-data-from-dirty-to-clean"
     ]
   },
   "data-management": {
@@ -495,50 +256,16 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-management"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "ssms"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "aws",
-          "c-sharp",
-          "css",
-          "data-cleaning",
-          "data-management",
-          "data-modeling",
-          "data-science",
-          "data-visualisation",
-          "er-studio",
-          "excel",
-          "frontend-development",
-          "html",
-          "operational-analysis",
-          "power-bi",
-          "rust-programming",
-          "ssms",
-          "the-path-to-insights"
-        ]
-      }
+      "merits/languages/sql",
+      "merits/experiences/data-management",
+      "merits/technologies/ssms",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-management",
+      "merits/skills/data-modeling",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/frontend-development",
+      "merits/skills/operational-analysis"
     ]
   },
   "data-mining": {
@@ -557,49 +284,15 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "pandas"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "data-cleaning",
-          "data-science",
-          "harvardx-data-science",
-          "python",
-          "rust-programming",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore",
-          "sentence-searcher",
-          "spiderman-web-scraper"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/pandas",
+      "merits/experiences/data-analytics",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-science",
+      "merits/skills/web-scraping",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/sentence-searcher",
+      "projects/coding/spiderman-web-scraper"
     ]
   },
   "data-modeling": {
@@ -618,61 +311,18 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-management"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "er-studio",
-          "mongo-db",
-          "postgresql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2102"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2102",
-          "data-management",
-          "data-science",
-          "er-studio",
-          "google-business-intelligence",
-          "mongo-data-modeling",
-          "mongo-db",
-          "python-for-everybody",
-          "ssms"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "halal-recommender",
-          "meetup-maker",
-          "notes-telegram-bot"
-        ]
-      }
+      "merits/experiences/data-management",
+      "merits/technologies/er-studio",
+      "merits/technologies/mongo-db",
+      "merits/technologies/postgresql",
+      "merits/languages/javascript",
+      "merits/languages/sql",
+      "merits/modules/cs2102",
+      "merits/skills/data-management",
+      "merits/skills/data-science",
+      "projects/coding/halal-recommender",
+      "projects/coding/meetup-maker",
+      "projects/coding/notes-telegram-bot"
     ]
   },
   "data-science": {
@@ -691,85 +341,30 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "deep-learning-tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "excel",
-          "pandas",
-          "power-bi",
-          "pytorch",
-          "qgis",
-          "tableau",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "malls-of-singapore",
-          "mrt-paths-analysis"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2102",
-          "cs2109s"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2102",
-          "cs2109s",
-          "data-analytics",
-          "data-cleaning",
-          "data-management",
-          "data-mining",
-          "data-modeling",
-          "data-visualisation",
-          "deep-learning-tensorflow",
-          "excel",
-          "generative-ai-elevate",
-          "geospatial-analytics",
-          "google-advanced-data-analytics",
-          "harvardx-data-science",
-          "ibm-generative-ai-data-science",
-          "jupyter",
-          "machine-learning",
-          "operational-analysis",
-          "pandas",
-          "power-bi",
-          "python",
-          "pytorch",
-          "qgis",
-          "r",
-          "rust-programming",
-          "tableau",
-          "tensorflow",
-          "web-scraping"
-        ]
-      }
+      "merits/certificates/deep-learning-tensorflow",
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/technologies/excel",
+      "merits/technologies/pandas",
+      "merits/technologies/power-bi",
+      "merits/technologies/pytorch",
+      "merits/technologies/qgis",
+      "merits/technologies/tableau",
+      "merits/technologies/tensorflow",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/mrt-paths-analysis",
+      "merits/modules/cs2102",
+      "merits/modules/cs2109s",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-management",
+      "merits/skills/data-mining",
+      "merits/skills/data-modeling",
+      "merits/skills/data-visualisation",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/machine-learning",
+      "merits/skills/operational-analysis",
+      "merits/skills/web-scraping"
     ]
   },
   "data-structures": {
@@ -788,32 +383,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2040s"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "cpp",
-          "cs2040s",
-          "data-structures-in-c",
-          "python",
-          "rust"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "geospatial-management",
-          "sz-matrix"
-        ]
-      }
+      "merits/modules/cs2040s",
+      "merits/languages/cpp",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "projects/coding/geospatial-management",
+      "projects/coding/sz-matrix"
     ]
   },
   "data-transformation": {
@@ -825,18 +400,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "the-path-to-insights"
-        ]
-      }
+      "merits/courses/the-path-to-insights"
     ]
   },
   "data-visualisation": {
@@ -855,65 +419,20 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "excel",
-          "pandas",
-          "power-bi",
-          "qgis",
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2109s",
-          "dashboards-reports",
-          "data-analysis-with-r",
-          "data-analytics",
-          "data-management",
-          "data-science",
-          "deep-learning-tensorflow",
-          "excel",
-          "foundations-data-data-everywhere",
-          "geospatial-analytics",
-          "getting-started-with-python",
-          "go-beyond-the-numbers",
-          "google-business-intelligence",
-          "google-data-analytics",
-          "google-data-analytics-capstone",
-          "harvardx-data-science",
-          "jupyter",
-          "machine-learning",
-          "operational-analysis",
-          "pandas",
-          "power-bi",
-          "qgis",
-          "r",
-          "share-data-through-the-art-of-visualization",
-          "tableau",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "mrt-paths-analysis"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/technologies/excel",
+      "merits/technologies/pandas",
+      "merits/technologies/power-bi",
+      "merits/technologies/qgis",
+      "merits/technologies/tableau",
+      "merits/skills/data-management",
+      "merits/skills/data-science",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/machine-learning",
+      "merits/skills/operational-analysis",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/mrt-paths-analysis"
     ]
   },
   "database-optimisation": {
@@ -925,18 +444,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "the-path-to-insights"
-        ]
-      }
+      "merits/courses/the-path-to-insights"
     ]
   },
   "decision-making": {
@@ -948,19 +456,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "ask-questions-to-make-data-driven-decisions",
-          "google-data-analytics"
-        ]
-      }
+      "merits/courses/ask-questions-to-make-data-driven-decisions"
     ]
   },
   "dev-ops": {
@@ -972,19 +468,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "rust-for-dev-ops",
-          "rust-programming"
-        ]
-      }
+      "merits/courses/rust-for-dev-ops"
     ]
   },
   "documentation": {
@@ -1003,30 +487,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "fullstack-intern",
-          "getting-started-with-python",
-          "plant-uml",
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "edumate"
-        ]
-      }
+      "merits/experiences/fullstack-intern",
+      "merits/technologies/plant-uml",
+      "projects/coding/edumate"
     ]
   },
   "executive-summaries": {
@@ -1038,18 +501,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-advanced-data-analytics-capstone"
-        ]
-      }
+      "merits/courses/google-advanced-data-analytics-capstone"
     ]
   },
   "exploratory-data-analysis": {
@@ -1061,19 +513,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "go-beyond-the-numbers",
-          "google-advanced-data-analytics"
-        ]
-      }
+      "merits/courses/go-beyond-the-numbers"
     ]
   },
   "extraction-transformation-loading": {
@@ -1085,19 +525,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-business-intelligence",
-          "the-path-to-insights"
-        ]
-      }
+      "merits/courses/the-path-to-insights"
     ]
   },
   "frontend-development": {
@@ -1116,65 +544,22 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "angular-js",
-          "react-js",
-          "svelte-js",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "css",
-          "html",
-          "javascript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics",
-          "data-management",
-          "fullstack-intern"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "angular-js",
-          "api-development",
-          "bootstrap",
-          "cs3216",
-          "css",
-          "data-analytics",
-          "data-management",
-          "fullstack-intern",
-          "google-ux-design",
-          "html",
-          "javascript",
-          "react-js",
-          "svelte-js",
-          "vue-js",
-          "web-developer-udemy",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "note-together",
-          "website-react"
-        ]
-      }
+      "merits/technologies/angular-js",
+      "merits/technologies/react-js",
+      "merits/technologies/svelte-js",
+      "merits/technologies/vue-js",
+      "merits/languages/css",
+      "merits/languages/html",
+      "merits/languages/javascript",
+      "merits/experiences/data-analytics",
+      "merits/experiences/data-management",
+      "merits/experiences/fullstack-intern",
+      "merits/skills/api-development",
+      "merits/skills/data-management",
+      "merits/skills/web-development",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/note-together",
+      "projects/coding/website-react"
     ]
   },
   "game-development": {
@@ -1193,28 +578,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c-sharp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "c-sharp",
-          "unity"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore"
-        ]
-      }
+      "merits/languages/c-sharp",
+      "merits/technologies/unity",
+      "projects/coding/malls-of-singapore"
     ]
   },
   "generative-ai": {
@@ -1226,23 +592,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-elevate",
-          "generative-ai-introduction",
-          "generative-ai-prompt-engineering",
-          "ibm-generative-ai-data-science",
-          "prompt-engineering",
-          "trustworthy-generative-ai"
-        ]
-      }
+      "merits/courses/generative-ai-elevate",
+      "merits/courses/generative-ai-introduction",
+      "merits/courses/generative-ai-prompt-engineering",
+      "merits/courses/trustworthy-generative-ai"
     ]
   },
   "geospatial-analytics": {
@@ -1261,49 +614,21 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "excel",
-          "pandas",
-          "qgis"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "dynamic-resource-optimiser",
-          "geospatial-extraction",
-          "geospatial-management",
-          "halal-recommender",
-          "malls-of-singapore",
-          "meetup-maker",
-          "mrt-paths-analysis"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "data-science",
-          "data-visualisation",
-          "excel",
-          "operational-analysis",
-          "python",
-          "qgis"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/excel",
+      "merits/technologies/pandas",
+      "merits/technologies/qgis",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/geospatial-management",
+      "projects/coding/halal-recommender",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/meetup-maker",
+      "projects/coding/mrt-paths-analysis",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/operational-analysis"
     ]
   },
   "hypothesis-testing": {
@@ -1315,18 +640,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "the-power-of-statistics"
-        ]
-      }
+      "merits/courses/the-power-of-statistics"
     ]
   },
   "large-language-models": {
@@ -1338,20 +652,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-introduction",
-          "prompt-engineering-for-chat-gpt",
-          "rust-llmops"
-        ]
-      }
+      "merits/courses/generative-ai-introduction",
+      "merits/courses/prompt-engineering-for-chat-gpt",
+      "merits/courses/rust-llmops"
     ]
   },
   "machine-learning": {
@@ -1370,63 +673,16 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2109s"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "pandas",
-          "pytorch",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2109s",
-          "data-analytics",
-          "data-science",
-          "data-visualisation",
-          "deep-learning-tensorflow",
-          "google-advanced-data-analytics",
-          "google-advanced-data-analytics-capstone",
-          "harvardx-data-science",
-          "ibm-generative-ai-data-science",
-          "pytorch",
-          "r",
-          "rust-llmops",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore"
-        ]
-      }
+      "merits/modules/cs2109s",
+      "merits/experiences/data-analytics",
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/technologies/pandas",
+      "merits/technologies/pytorch",
+      "merits/technologies/tensorflow",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "projects/coding/malls-of-singapore"
     ]
   },
   "metadata": {
@@ -1438,19 +694,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-data-analytics",
-          "prepare-data-for-exploration"
-        ]
-      }
+      "merits/courses/prepare-data-for-exploration"
     ]
   },
   "natural-language-processing": {
@@ -1462,19 +706,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-introduction",
-          "rust-programming"
-        ]
-      }
+      "merits/courses/generative-ai-introduction"
     ]
   },
   "object-oriented-programming": {
@@ -1486,19 +718,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "building-objects-in-c",
-          "c-programming-for-everybody"
-        ]
-      }
+      "merits/courses/building-objects-in-c"
     ]
   },
   "operational-analysis": {
@@ -1517,56 +737,19 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "excel",
-          "pandas",
-          "power-bi",
-          "qgis",
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analytics",
-          "data-management",
-          "data-science",
-          "data-visualisation",
-          "excel",
-          "geospatial-analytics",
-          "pandas",
-          "power-bi",
-          "python",
-          "qgis",
-          "tableau"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/technologies/excel",
+      "merits/technologies/pandas",
+      "merits/technologies/power-bi",
+      "merits/technologies/qgis",
+      "merits/technologies/tableau",
+      "merits/experiences/data-analytics",
+      "projects/coding/dynamic-resource-optimiser",
+      "merits/skills/data-management",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/geospatial-analytics"
     ]
   },
   "predictive-modeling": {
@@ -1578,20 +761,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-advanced-data-analytics",
-          "regression-analysis",
-          "the-nuts-and-bolts-of-machine-learning"
-        ]
-      }
+      "merits/courses/regression-analysis",
+      "merits/courses/the-nuts-and-bolts-of-machine-learning"
     ]
   },
   "probability": {
@@ -1603,18 +774,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "the-power-of-statistics"
-        ]
-      }
+      "merits/courses/the-power-of-statistics"
     ]
   },
   "problem-formulation": {
@@ -1626,18 +786,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "trustworthy-generative-ai"
-        ]
-      }
+      "merits/courses/trustworthy-generative-ai"
     ]
   },
   "problem-solving": {
@@ -1656,16 +805,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "ask-questions-to-make-data-driven-decisions",
-          "data-analytics",
-          "google-data-analytics",
-          "google-ux-design"
-        ]
-      }
+      "merits/experiences/data-analytics"
     ]
   },
   "project-management": {
@@ -1677,18 +817,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "foundations-of-data-science"
-        ]
-      }
+      "merits/courses/foundations-of-data-science"
     ]
   },
   "prompt-engineering": {
@@ -1700,23 +829,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "chat-gpt-advanced-data-analysis",
-          "generative-ai-prompt-engineering",
-          "ibm-generative-ai-data-science",
-          "prompt-engineering",
-          "prompt-engineering-for-chat-gpt",
-          "trustworthy-generative-ai"
-        ]
-      }
+      "merits/courses/chat-gpt-advanced-data-analysis",
+      "merits/courses/generative-ai-prompt-engineering",
+      "merits/courses/prompt-engineering-for-chat-gpt",
+      "merits/courses/trustworthy-generative-ai"
     ]
   },
   "regression-analysis": {
@@ -1728,19 +844,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-advanced-data-analytics",
-          "regression-analysis"
-        ]
-      }
+      "merits/courses/regression-analysis"
     ]
   },
   "reporting": {
@@ -1752,19 +856,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dashboards-reports",
-          "google-business-intelligence"
-        ]
-      }
+      "merits/courses/dashboards-reports"
     ]
   },
   "sharing-insights": {
@@ -1776,20 +868,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dashboards-reports",
-          "foundations-of-business-intelligence",
-          "foundations-of-data-science"
-        ]
-      }
+      "merits/courses/dashboards-reports",
+      "merits/courses/foundations-of-business-intelligence",
+      "merits/courses/foundations-of-data-science"
     ]
   },
   "software-engineering": {
@@ -1808,52 +889,18 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2103t",
-          "cs3216"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java",
-          "python",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "intellij",
-          "junit",
-          "vscode"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "cs2103t",
-          "cs3216",
-          "java",
-          "rust",
-          "software-testing"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "edumate"
-        ]
-      }
+      "merits/modules/cs2103t",
+      "merits/modules/cs3216",
+      "merits/languages/java",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/technologies/intellij",
+      "merits/technologies/junit",
+      "merits/technologies/vscode",
+      "merits/skills/api-development",
+      "merits/skills/software-testing",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/edumate"
     ]
   },
   "software-testing": {
@@ -1872,70 +919,22 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cp2106",
-          "cs2103t"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java",
-          "javascript",
-          "python",
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jest",
-          "junit",
-          "postman",
-          "selenium"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "edumate",
-          "note-together"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cs2103t",
-          "data-analytics",
-          "data-engineering-with-rust",
-          "fullstack-intern",
-          "java",
-          "javascript",
-          "postman",
-          "python-rust-linux",
-          "ruby",
-          "rust-for-dev-ops",
-          "rust-fundamentals",
-          "selenium",
-          "software-engineering",
-          "web-development"
-        ]
-      }
+      "merits/modules/cp2106",
+      "merits/modules/cs2103t",
+      "merits/languages/java",
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/languages/ruby",
+      "merits/technologies/jest",
+      "merits/technologies/junit",
+      "merits/technologies/postman",
+      "merits/technologies/selenium",
+      "merits/experiences/fullstack-intern",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/edumate",
+      "projects/coding/note-together",
+      "merits/skills/software-engineering",
+      "merits/skills/web-development"
     ]
   },
   "statistical-analysis": {
@@ -1947,20 +946,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-advanced-data-analytics",
-          "regression-analysis",
-          "the-power-of-statistics"
-        ]
-      }
+      "merits/courses/regression-analysis",
+      "merits/courses/the-power-of-statistics"
     ]
   },
   "system-programming": {
@@ -1972,21 +959,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "data-engineering-with-rust",
-          "python-rust-linux",
-          "rust-for-dev-ops",
-          "rust-fundamentals"
-        ]
-      }
+      "merits/courses/data-engineering-with-rust",
+      "merits/courses/python-rust-linux",
+      "merits/courses/rust-for-dev-ops",
+      "merits/courses/rust-fundamentals"
     ]
   },
   "team-dynamics": {
@@ -1998,18 +974,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "foundations-of-data-science"
-        ]
-      }
+      "merits/courses/foundations-of-data-science"
     ]
   },
   "usability-testing": {
@@ -2021,21 +986,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dynamic-user-interfaces",
-          "google-ux-design",
-          "ux-for-social-good",
-          "ux-research"
-        ]
-      }
+      "merits/courses/dynamic-user-interfaces",
+      "merits/courses/ux-for-social-good",
+      "merits/courses/ux-research"
     ]
   },
   "user-experience": {
@@ -2047,25 +1000,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dynamic-user-interfaces",
-          "empathize-define-ideate",
-          "foundations-of-ux",
-          "google-ux-design",
-          "high-fidelity-designs-in-figma",
-          "ux-for-social-good",
-          "ux-research",
-          "wireframes-low-fidelity-prototypes"
-        ]
-      }
+      "merits/courses/dynamic-user-interfaces",
+      "merits/courses/empathize-define-ideate",
+      "merits/courses/foundations-of-ux",
+      "merits/courses/high-fidelity-designs-in-figma",
+      "merits/courses/ux-for-social-good",
+      "merits/courses/ux-research",
+      "merits/courses/wireframes-low-fidelity-prototypes"
     ]
   },
   "ux-design": {
@@ -2084,28 +1025,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "dynamic-user-interfaces",
-          "empathize-define-ideate",
-          "figma",
-          "foundations-of-ux",
-          "google-ux-design",
-          "high-fidelity-designs-in-figma",
-          "ux-for-social-good",
-          "ux-research",
-          "wireframes-low-fidelity-prototypes"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/technologies/figma"
     ]
   },
   "ux-research": {
@@ -2117,22 +1038,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "empathize-define-ideate",
-          "foundations-of-ux",
-          "google-ux-design",
-          "ux-research",
-          "wireframes-low-fidelity-prototypes"
-        ]
-      }
+      "merits/courses/empathize-define-ideate",
+      "merits/courses/foundations-of-ux",
+      "merits/courses/ux-research",
+      "merits/courses/wireframes-low-fidelity-prototypes"
     ]
   },
   "web-development": {
@@ -2151,100 +1060,45 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "frontend-development",
-          "software-testing"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "css",
-          "go",
-          "html",
-          "java",
-          "javascript",
-          "php",
-          "python",
-          "rust",
-          "typescript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "angular-js",
-          "bootstrap",
-          "django",
-          "express-js",
-          "flask",
-          "gcp",
-          "heroku",
-          "junit",
-          "mongo-db",
-          "node-js",
-          "postgresql",
-          "postman",
-          "react-js",
-          "rocket-rs",
-          "ruby-on-rails",
-          "selenium",
-          "spring",
-          "svelte-js",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "angular-js",
-          "api-development",
-          "aws",
-          "bootstrap",
-          "cs3216",
-          "css",
-          "data-analytics",
-          "django",
-          "flask",
-          "frontend-development",
-          "fullstack-intern",
-          "gcp",
-          "go",
-          "html",
-          "java",
-          "javascript",
-          "node-js",
-          "postman",
-          "python",
-          "react-js",
-          "rocket-rs",
-          "rust",
-          "software-testing",
-          "spring",
-          "svelte-js",
-          "vue-js",
-          "web-developer-udemy"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "chords-search-engine",
-          "dynamic-resource-optimiser",
-          "meetup-maker",
-          "note-together",
-          "website-react"
-        ]
-      }
+      "merits/skills/api-development",
+      "merits/skills/frontend-development",
+      "merits/skills/software-testing",
+      "merits/languages/css",
+      "merits/languages/go",
+      "merits/languages/html",
+      "merits/languages/java",
+      "merits/languages/javascript",
+      "merits/languages/php",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/languages/typescript",
+      "merits/technologies/angular-js",
+      "merits/technologies/bootstrap",
+      "merits/technologies/django",
+      "merits/technologies/express-js",
+      "merits/technologies/flask",
+      "merits/technologies/gcp",
+      "merits/technologies/heroku",
+      "merits/technologies/junit",
+      "merits/technologies/mongo-db",
+      "merits/technologies/node-js",
+      "merits/technologies/postgresql",
+      "merits/technologies/postman",
+      "merits/technologies/react-js",
+      "merits/technologies/rocket-rs",
+      "merits/technologies/ruby-on-rails",
+      "merits/technologies/selenium",
+      "merits/technologies/spring",
+      "merits/technologies/svelte-js",
+      "merits/technologies/vue-js",
+      "merits/experiences/data-analytics",
+      "merits/experiences/fullstack-intern",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/chords-search-engine",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/meetup-maker",
+      "projects/coding/note-together",
+      "projects/coding/website-react"
     ]
   },
   "web-scraping": {
@@ -2263,59 +1117,22 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp",
-          "jupyter",
-          "pandas",
-          "selenium"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "data-mining",
-          "data-science"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "chords-search-engine",
-          "geospatial-extraction",
-          "halal-recommender",
-          "malls-of-singapore",
-          "sentence-searcher",
-          "spiderman-web-scraper"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics",
-          "data-cleaning",
-          "data-mining",
-          "data-science",
-          "jupyter",
-          "python",
-          "python-for-everybody",
-          "selenium"
-        ]
-      }
+      "merits/languages/python",
+      "merits/languages/r",
+      "merits/technologies/gcp",
+      "merits/technologies/jupyter",
+      "merits/technologies/pandas",
+      "merits/technologies/selenium",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "projects/coding/chords-search-engine",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/halal-recommender",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/sentence-searcher",
+      "projects/coding/spiderman-web-scraper",
+      "merits/experiences/data-analytics"
     ]
   }
 }

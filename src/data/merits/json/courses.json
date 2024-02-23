@@ -1,0 +1,907 @@
+{
+  "analyze-data-to-answer-questions": {
+    "title": "Analyze Data to Answer Questions",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/RZE83RLSFGXZ",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained insights into the importance of organizing data before analysis through the use of sorts and filters. I learned how to convert and format data effectively for analytical purposes. The course equipped me with the skills to apply functions and SQL query syntax to combine data from multiple database tables, facilitating a comprehensive analysis. Additionally, I developed an understanding of using functions for conducting basic calculations on data within spreadsheets, enhancing my ability to derive meaningful insights and perform analytical tasks efficiently."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-aggregation",
+      "merits/skills/data-analysis"
+    ]
+  },
+  "ask-questions-to-make-data-driven-decisions": {
+    "title": "Ask Questions to Make Data-Driven Decisions",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/LK2PGY44XQJ2",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a comprehensive understanding of the problem-solving roadmap and its applicability to typical analysis scenarios. I learned to articulate the role of data in the decision-making process, recognizing its significance in deriving informed conclusions. Through practical application, I demonstrated proficiency in using spreadsheets to perform fundamental tasks crucial to a data analyst, such as data entry and organization. Additionally, I acquired a deep understanding of structured thinking, encompassing key ideas essential for approaching and solving complex problems in a systematic and organized manner."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/skills/data-analysis",
+      "merits/skills/decision-making",
+      "merits/skills/problem-solving"
+    ]
+  },
+  "building-objects-in-c": {
+    "title": "Building Objects in C",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/L4SYER3A3UM8",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the ability to create data structures in C, allowing me to organize and manage complex sets of data within the language. I learned to discern the differences in structure between C and Python, understanding the unique features and syntax that each language employs for data structuring. Additionally, the course covered potential security vulnerabilities associated with C programming, providing insights into common pitfalls and best practices to address and mitigate security risks. This knowledge equips me to design efficient data structures in C, make informed comparisons with Python, and navigate potential security concerns associated with C programming to ensure robust and secure code."
+      }
+    ],
+    "related": [
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c",
+      "merits/skills/object-oriented-programming"
+    ]
+  },
+  "chat-gpt-advanced-data-analysis": {
+    "title": "ChatGPT Advanced Data Analysis",
+    "imgPath": "vanderbilt.png",
+    "issuer": "Vanderbilt University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/TPXUJBPCFJJG",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired the skills to automate tasks efficiently using the ChatGPT Code Interpreter. I learned to automate various functions, including reading and creating PDFs, PowerPoint presentations, Excel spreadsheets, working with images, videos, and more. This newfound knowledge enables me to streamline and optimize tasks in both professional and personal contexts, enhancing productivity by leveraging the capabilities of ChatGPT Code Interpreter for automation purposes."
+      }
+    ],
+    "related": [
+      "merits/certificates/prompt-engineering",
+      "merits/skills/data-analysis",
+      "merits/skills/prompt-engineering"
+    ]
+  },
+  "dashboards-reports": {
+    "title": "Dashboards and Reports",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/MK5RZ5WTRGDZ",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I developed the skills to design Business Intelligence (BI) visualizations, creating meaningful and impactful representations of data. I gained practical experience in using BI reporting and dashboard tools, allowing me to effectively communicate insights from data analysis. Additionally, the course provided guidance on creating presentations to share key BI insights with stakeholders, honing my ability to convey complex information in a clear and compelling manner. Moreover, I acquired the skills to develop professional materials for job searches, enabling me to showcase my BI expertise effectively in professional settings. This comprehensive training equips me to design effective BI visualizations, utilize reporting tools, communicate insights, and present my skills professionally in the context of job searches and career development."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-business-intelligence",
+      "merits/technologies/tableau",
+      "merits/skills/communication",
+      "merits/skills/dashboarding",
+      "merits/skills/data-visualisation",
+      "merits/skills/reporting",
+      "merits/skills/sharing-insights"
+    ]
+  },
+  "data-analysis-with-r": {
+    "title": "Data Analysis with R Programming",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/HQ9JCYZYAH7Y",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a comprehensive understanding of the R programming language and its environment, including its fundamental concepts such as functions, variables, data types, pipes, and vectors. I learned about the various options available for generating visualizations in R, enabling me to effectively represent data graphically. Additionally, I acquired skills in using R Markdown for basic formatting, allowing me to create structured and visually emphasized content efficiently. This knowledge equipped me to work proficiently in R, leveraging its capabilities for data analysis and visualization while effectively documenting and presenting findings using R Markdown."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/languages/r",
+      "merits/technologies/r-markdown",
+      "merits/technologies/r-studio",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation"
+    ]
+  },
+  "data-engineering-with-rust": {
+    "title": "Data Engineering with Rust",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/XE95KSC3ZNF8",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Data Engineering"
+      }
+    ],
+    "related": [
+      "merits/certificates/rust-programming",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/skills/data-engineering",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
+    ]
+  },
+  "data-structures-in-c": {
+    "title": "Data Structures in C",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/78S79CM4E9HH",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired the skills to create data structures in C, understanding how to define and manipulate structured collections of data within the language. I learned to differentiate between data structures in C and Python, recognizing the unique syntax and features each language offers for organizing and managing data. Additionally, the course covered potential security vulnerabilities associated with C programming, providing insights into common pitfalls and best practices to mitigate security risks. This knowledge equips me to design and implement efficient data structures in C, make informed comparisons with Python, and navigate potential security concerns associated with C programming."
+      }
+    ],
+    "related": [
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c",
+      "merits/skills/data-structures"
+    ]
+  },
+  "dynamic-user-interfaces": {
+    "title": "Dynamic User Interfaces for Websites",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/YF4NSPSQDMJT",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned to systematically apply each step of the UX design thinking framework \u2013 empathize, define, ideate, prototype, and test \u2013 to create a dynamic and user-centered website. The curriculum provided practical insights and hands-on experience in understanding user needs, defining design problems, generating creative ideas, prototyping solutions, and iteratively testing and refining the website design.\n\nA significant aspect of the learning process involved planning information architecture and creating sitemaps for effective website designs. I gained skills in organizing content, defining user journeys, and ensuring a logical and intuitive structure for seamless user navigation.\n\nThe course also covered the application of common layouts for web pages. I learned about design principles specific to web interfaces, including the arrangement of elements, visual hierarchy, and responsive design considerations to ensure an optimal user experience across various devices and screen sizes.\n\nA hands-on design project was a key component of the course, providing an opportunity to apply the acquired knowledge and skills to create a complete website design. This project was intended to be included in my professional UX portfolio, showcasing my ability to conceptualize, design, and implement user-centered web experiences.\n\nIn summary, the course equipped me with a practical understanding of applying the UX design thinking framework to web design, planning information architecture, implementing common web page layouts, and completing a comprehensive design project for inclusion in my professional portfolio. This holistic approach ensures that I am well-prepared to create dynamic and user-friendly websites with a strong foundation in UX design principles."
+      }
+    ],
+    "related": [
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
+    ]
+  },
+  "empathize-define-ideate": {
+    "title": "Empathize, Define and Ideate",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/99RTPJGE4WBL",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "This course provided me with foundational skills in the initial stages of UX design, emphasizing the importance of empathizing with users to understand their needs and challenges. I learned to articulate clear problem statements that define user requirements and subsequently generate creative ideas as potential solutions. These skills lay the groundwork for a user-centered design approach, ensuring that the subsequent stages of the UX design process are informed by a deep understanding of user needs and effective problem definition."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
+    ]
+  },
+  "exploring-c": {
+    "title": "Exploring C",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/XE67AHE2UDM2",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a foundational understanding of C syntax, learning the basics of this programming language. I developed the ability to identify both the similarities and differences between C and Python, allowing me to leverage my existing knowledge in Python when transitioning to C. Additionally, the course provided insights into the impact of C on modern programming, highlighting its historical significance and continued relevance in shaping the field. This knowledge equips me with a solid foundation in C, enabling me to appreciate its syntax, draw comparisons with Python, and understand its broader implications in the context of modern programming."
+      }
+    ],
+    "related": [
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c"
+    ]
+  },
+  "foundations-data-data-everywhere": {
+    "title": "Foundations: Data, Data, Everywhere",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/ZPGPTBSVW54V",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired a solid understanding of key concepts in data analytics, including the definition and explanation of terms such as data, data analysis, and data ecosystems. Through a self-assessment, I developed analytical thinking skills, providing specific examples of how to apply this type of thinking in practical scenarios. The course also delved into the crucial roles of spreadsheets, query languages, and data visualization tools in the field of data analytics, enhancing my proficiency in utilizing these tools. Additionally, I gained insights into the specific responsibilities and roles of a data analyst within the job market, gaining a clear understanding of the expectations and contributions associated with this profession."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-analysis",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-visualisation"
+    ]
+  },
+  "foundations-of-business-intelligence": {
+    "title": "Foundations of Business Intelligence",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/account/accomplishments/verify/24Q273LV9K2K",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained insights into common careers and industries that leverage Business Intelligence (BI), understanding its widespread applications. I explored the significant impact that data can have on business decision-making processes, recognizing its role as a crucial asset. The course provided a comprehensive understanding of the important role BI professionals play in businesses, emphasizing their contribution to informed decision-making through data analysis and interpretation. Additionally, I acquired skills in developing a BI project plan, enabling me to strategically outline and execute BI initiatives within a business context. This knowledge equips me to navigate the landscape of BI, contribute meaningfully to decision-making processes, and effectively plan and execute BI projects in various professional settings."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-business-intelligence",
+      "merits/skills/business-requirements",
+      "merits/skills/cross-functional",
+      "merits/skills/sharing-insights"
+    ]
+  },
+  "foundations-of-data-science": {
+    "title": "Foundations of Data Science",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/5db6d74462a3fbcddc478954909a668c",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In the course, I gained insights into various careers and industries that leverage advanced data analytics. I learned to explore the profound impact data analysis can have on decision-making processes. Additionally, I acquired knowledge about how data professionals uphold data privacy and ethical considerations in their work. Furthermore, the course equipped me with the skills to develop comprehensive project plans, taking into account the various roles and responsibilities of team members involved in data analytics projects."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/skills/communication",
+      "merits/skills/project-management",
+      "merits/skills/sharing-insights",
+      "merits/skills/team-dynamics"
+    ]
+  },
+  "foundations-of-ux": {
+    "title": "Foundations of User Experience Design",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/ACP4FT98BFUC",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained valuable insights into the role of entry-level UX designers and their collaboration with other teams. Key takeaways include identifying common job responsibilities, understanding foundational concepts in UX design like user-centered design, the design process, accessibility, and equity-focused design. Additionally, I learned the significance of design sprints in a UX designer's work, appreciating their importance as an efficient and impactful component of the design process. This knowledge provides a comprehensive understanding of the core responsibilities and principles in UX design, setting the stage for effective collaboration and application of design methodologies."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
+    ]
+  },
+  "generative-ai-elevate": {
+    "title": "Generative AI: Elevate Your Data Science Career",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/86Q7YDC82T94",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained proficiency in leveraging generative AI tools such as GPT-3.5, ChatCSV, and tomat.ai for querying and preparing data, enhancing my abilities as a Data Scientist. I explored real-world scenarios where generative AI can improve and streamline data science workflows, recognizing its practical applications. Through hands-on labs and projects, I practiced generative AI skills, generating and augmenting datasets for specific use cases, thereby developing practical experience. Additionally, the course equipped me with the knowledge and techniques to apply generative AI in the development and refinement of machine learning models, providing me with a versatile skill set in the realm of data science and artificial intelligence."
+      }
+    ],
+    "related": [
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/data-analysis",
+      "merits/skills/data-generation",
+      "merits/skills/data-science",
+      "merits/skills/generative-ai"
+    ]
+  },
+  "generative-ai-introduction": {
+    "title": "Generative AI: Introduction and Applications",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/86WLKP9HCM4V",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the ability to describe generative AI and distinguish it from discriminative AI, understanding the fundamental differences in their approaches to learning and problem-solving. I learned about the capabilities of generative AI and explored its real-world use cases, recognizing its potential for creative tasks and content generation. Additionally, I identified the diverse applications of generative AI across various sectors and industries, appreciating its versatility. The course covered common generative AI models and tools, providing insights into text, code, image, audio, and video generation, enabling me to comprehend the breadth of generative AI applications and the tools available for different types of content generation. This knowledge equips me to understand, appreciate, and potentially apply generative AI in diverse contexts."
+      }
+    ],
+    "related": [
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/artificial-intelligence",
+      "merits/skills/generative-ai",
+      "merits/skills/large-language-models",
+      "merits/skills/natural-language-processing"
+    ]
+  },
+  "generative-ai-prompt-engineering": {
+    "title": "Generative AI: Prompt Engineering",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/CJUPJZ34U3JE",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a comprehensive understanding of the concept and relevance of prompt engineering in generative AI models. I learned to explain the significance of prompt engineering and its impact on shaping the output of these models. The course provided insights into best practices for creating prompts and explored examples of impactful prompts, allowing me to craft effective inputs for generative AI. Additionally, I practiced common prompt engineering techniques and approaches, honing my skills in optimizing prompts for desired outcomes. The course also delved into commonly used tools for prompt engineering, providing practical resources to aid in the prompt creation process. This knowledge equips me to navigate and leverage prompt engineering effectively in the context of generative AI models, ensuring more controlled and meaningful outputs."
+      }
+    ],
+    "related": [
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/artificial-intelligence",
+      "merits/skills/generative-ai",
+      "merits/skills/prompt-engineering"
+    ]
+  },
+  "getting-started-with-python": {
+    "title": "Getting Started with Python",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/V6VMUFQ2745V",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Through the course, I acquired a solid understanding of Python's practical applications in the realm of data analysis. I delved into the fundamentals, exploring the basic building blocks of Python, including syntax and semantics. The course provided insights into essential programming concepts such as loops, control statements, and string manipulation in Python. Additionally, I gained proficiency in utilizing various data structures to effectively store and organize data, enhancing my overall competence in leveraging Python for data-related tasks."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/technologies/jupyter",
+      "merits/skills/data-visualisation",
+      "merits/skills/documentation"
+    ]
+  },
+  "go-beyond-the-numbers": {
+    "title": "Go Beyond the Numbers: Translate Data into Insights",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/UZX72BZ8K5UM",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout the course, I acquired the ability to apply the exploratory data analysis (EDA) process effectively. I learned to recognize and appreciate the advantages of structuring and cleaning data for meaningful insights. Using Python, I gained hands-on experience in investigating raw data, honing my skills in extracting valuable information. Furthermore, the course equipped me with the knowledge and techniques to create compelling data visualizations using Tableau, enhancing my ability to communicate and interpret data in a meaningful way."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/technologies/tableau",
+      "merits/skills/communication",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation",
+      "merits/skills/exploratory-data-analysis"
+    ]
+  },
+  "google-advanced-data-analytics-capstone": {
+    "title": "Google Advanced Data Analytics Capstone",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/HHJ24A6YURQ6",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In the course, I honed my skills in examining data to discern patterns and trends, developing a keen ability to derive meaningful insights from diverse datasets. I gained practical experience in building models using various machine learning techniques, expanding my capability to make informed predictions and decisions. Additionally, the course equipped me with the knowledge and tools to create impactful data visualizations, enhancing my communication of complex information. Moreover, I explored valuable career resources, providing me with insights and guidance to navigate and excel in the field."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/data-analysis",
+      "merits/skills/executive-summaries",
+      "merits/skills/machine-learning"
+    ]
+  },
+  "google-data-analytics-capstone": {
+    "title": "Google Data Analytics Capstone",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/U5W6P7Z7NM7S",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the ability to distinguish between a capstone project, a case study, and a portfolio, understanding their unique characteristics and purposes. I developed the skills to identify key features and attributes integral to a well-executed case study. Through practical application, I learned to apply practices and procedures associated with the data analysis process to effectively analyze a given dataset. Furthermore, the course provided insights into the strategic use of case studies and portfolios in communication with recruiters and potential employers, emphasizing their role in showcasing analytical capabilities and accomplishments in the field of data analysis."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/skills/data-analysis",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-visualisation"
+    ]
+  },
+  "google-workspace-deployment": {
+    "title": "Planning for a Google Workspace Deployment",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/LBGFG68WG3Y4",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a comprehensive understanding of Google's 3-phase deployment methodology for Google Workspace. I learned how domains, users, groups, and other objects are provisioned within the Google Workspace environment. The course covered mail routing types and provided insights into how routing should be configured during each phase of a Google Workspace deployment.\n\nAdditionally, I explored migration options and the challenges of coexistence that can be encountered during a Google Workspace deployment. The importance of change management was emphasized, and I learned about the top reasons why projects might fail when change management is not adequately considered. Overall, this course equipped me with the knowledge and skills necessary for successful planning and deployment of Google Workspace, considering various technical and organizational aspects."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
+    ]
+  },
+  "google-workspace-mail-management": {
+    "title": "Google Workspace Main Management",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/BZ3YV2HZ2ACR",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned to protect users from inbound phishing attacks and harmful software (malware) within the Google Workspace environment. I gained knowledge on controlling end user access features, allowing administrators to manage the availability of specific features for users. The course covered the application of various compliance features provided in Google Workspace, ensuring adherence to regulatory requirements and organizational policies.\n\nAdditionally, I acquired skills in using the mail routing options available to Google Workspace administrators, enabling effective management of email flow and routing configurations. This comprehensive training equipped me with the tools and techniques necessary to enhance security, control user access, ensure compliance, and manage email routing effectively within Google Workspace."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
+    ]
+  },
+  "google-workspace-security": {
+    "title": "Google Workspace Security",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/LF4ANVVRJRFK",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the knowledge and skills to configure essential settings, including password policies and recovery options, and implement best practices for 2-step verification within Google Workspace. I learned about the Single Sign-On (SSO) options available and distinguished between using Google as an Identity Provider and utilizing a third-party provider.\n\nAdditionally, the course covered the management of the Google Workspace Marketplace, ensuring that only trusted applications can be installed on organizational devices. I acquired the ability to use the security and alert centers effectively, allowing me to identify, triage, and take action on security and privacy issues within the organization.\n\nOverall, this training provided a comprehensive understanding of security configurations and practices within Google Workspace, enabling me to implement robust security measures, manage app installations, and effectively address security and privacy concerns."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
+    ]
+  },
+  "high-fidelity-designs-in-figma": {
+    "title": "Create High-Fidelity Designs in Figma",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/5ENAQLB9VAPZ",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired comprehensive skills in designing user interfaces by learning to build mockups and high-fidelity prototypes using the design tool Figma. The curriculum provided hands-on experience in creating visually appealing and functional designs, ensuring a seamless user experience.\n\nA key aspect of the learning process was understanding and applying common visual design elements and principles. I gained proficiency in selecting and utilizing typography, color schemes, spacing, and other elements to create designs that are not only aesthetically pleasing but also adhere to established design principles for effective communication.\n\nThe course introduced the concept of design systems and their role in organizing, standardizing, and enhancing designs. I learned how to create and leverage design systems to maintain consistency across different elements of a design, streamlining the design process and ensuring a cohesive user experience.\n\nAnother crucial skill developed was the ability to engage in design critique sessions and effectively incorporate feedback during the iterative design process. I gained insights into the collaborative nature of design, learning how to receive and provide constructive criticism to enhance the quality of designs.\n\nIn summary, the course equipped me with practical skills in using Figma to build mockups and high-fidelity prototypes, applying visual design principles, understanding the significance of design systems, and participating in design critique sessions for iterative improvements. This well-rounded skill set is essential for creating user interfaces that are not only visually appealing but also functional and user-friendly."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/technologies/figma",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
+    ]
+  },
+  "introduction-to-google-workspace-administration": {
+    "title": "Introduction to Google Workspace Administration",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/NA5ABEYXDG9D",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the skills to set up a Google Workspace account, access, and navigate the admin console effectively. I learned how to manage key properties of the Google Workspace directory, ensuring accurate and organized user information.\n\nThe course covered the provisioning of users, groups, and calendar resources in Google Workspace, along with performing common user management tasks to streamline account administration. Additionally, I acquired the ability to create an organizational structure within Google Workspace, simplifying user and service management, and assigning pre-defined and custom admin roles to ensure appropriate access and permissions.\n\nOverall, this training equipped me with the foundational knowledge and practical skills needed to efficiently set up and manage a Google Workspace account, ensuring smooth user provisioning, effective organization management, and streamlined administrative tasks."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
+    ]
+  },
+  "managing-google-workspace": {
+    "title": "Managing Google Workspace",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/772VH24ETEAP",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained the knowledge and skills to manage and configure Google Workspace services for an organization, ensuring optimal setup and functionality. I learned how to effectively manage mobile devices within the Google Workspace environment, providing secure access and control.\n\nThe course covered the use of Google Vault for retaining, searching, and exporting organization data, enhancing data management and compliance capabilities. Additionally, I acquired the ability to navigate Google Workspace admin reports, gaining insights into the organization's usage patterns, and set up administrator alerts to proactively monitor and respond to critical events.\n\nOverall, this training equipped me with the tools and techniques necessary to efficiently administer and optimize Google Workspace services, manage mobile devices, ensure data compliance, and stay informed through admin reports and alerts."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
+    ]
+  },
+  "prepare-data-for-exploration": {
+    "title": "Prepare Data for Exploration",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/9KMUUTVUUGBA",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a thorough understanding of the factors to consider when making decisions about data collection, ensuring a thoughtful and strategic approach to gathering information. I learned to discern between biased and unbiased data, recognizing the impact of data quality on decision-making processes. Additionally, the course covered databases comprehensively, providing insights into their functions and components. I also acquired knowledge about best practices for organizing data, enabling me to implement efficient and effective data management strategies in various contexts. This course equipped me with the skills to make informed decisions about data collection, recognize and address biases, understand databases, and implement best practices for organizing data."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-collection",
+      "merits/skills/data-ethics",
+      "merits/skills/metadata"
+    ]
+  },
+  "process-data-from-dirty-to-clean": {
+    "title": "Process Data from Dirty to Clean",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/T56P92UYUPE6",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout this course, I gained knowledge about different types of data integrity and developed the ability to identify risks to data integrity. I acquired practical skills in using basic SQL functions to clean string variables within a database, and I can now proficiently develop basic SQL queries for database manipulation. Additionally, I learned the essential process of verifying the results of data cleaning, ensuring accuracy and reliability in the analysis process. This course equipped me with the necessary tools to maintain and enhance data integrity through effective SQL-based cleaning and verification techniques."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-integrity"
+    ]
+  },
+  "programming-in-c": {
+    "title": "Programming in C",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/RBNFPNQZLRT2",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a solid understanding of C variables and types, including the principles governing their declaration and usage within the language. I learned about control flow in C, allowing me to structure the execution of code through conditional statements and loops. Additionally, I acquired the skills to write recursive functions, mastering the concept of functions calling themselves to solve problems in an iterative manner. This knowledge equips me with the foundational elements of C programming, encompassing variables, control flow, and recursive functions, providing a well-rounded understanding of the language's capabilities."
+      }
+    ],
+    "related": [
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c"
+    ]
+  },
+  "prompt-engineering-for-chat-gpt": {
+    "title": "Prompt Enginering for ChatGPT",
+    "imgPath": "vanderbilt.png",
+    "issuer": "Vanderbilt University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/TS9SM2Z8FKJ3",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I mastered the art of prompt engineering, acquiring the skills to effectively work with large language models, such as ChatGPT. I gained proficiency in utilizing prompt patterns to unlock powerful capabilities within these models, enabling me to harness their full potential. The course equipped me with the knowledge and techniques to create sophisticated prompt-based applications tailored for various purposes, be it personal, business, or educational. This newfound expertise allows me to leverage large language models like ChatGPT to address complex tasks and challenges in innovative ways."
+      }
+    ],
+    "related": [
+      "merits/certificates/prompt-engineering",
+      "merits/skills/large-language-models",
+      "merits/skills/prompt-engineering"
+    ]
+  },
+  "python-rust-linux": {
+    "title": "Python and Rust with Linux Command Line Tools",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/39KXQQAM7ZA9",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I will learn how to build powerful command line tools using both Rust and Python. The course will cover the skills needed to create robust and efficient command line utilities in Rust, a systems programming language known for its performance and safety features. Additionally, I will explore the integration of Python with Rust, leveraging the strengths of both languages to build versatile and effective tools. The goal is to equip me with the knowledge and practical skills to develop command line applications that are not only powerful but also take advantage of the strengths of Rust and Python in combination."
+      }
+    ],
+    "related": [
+      "merits/certificates/rust-programming",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
+    ]
+  },
+  "regression-analysis": {
+    "title": "Regression Analysis: Simplify Complex Data Relationships",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/XE84UQ3SVLKL",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In the course, I developed the ability to thoroughly investigate relationships within datasets, uncovering valuable insights from various data patterns. I learned to identify and understand the assumptions underlying regression models, particularly in the context of linear and logistic regression. Through practical application using Python, I gained hands-on experience in performing both linear and logistic regression, further enhancing my analytical capabilities. Additionally, the course emphasized the importance of model evaluation and interpretation, allowing me to confidently assess and derive meaningful insights from the models I create."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/predictive-modeling",
+      "merits/skills/regression-analysis",
+      "merits/skills/statistical-analysis"
+    ]
+  },
+  "rust-for-dev-ops": {
+    "title": "Rust for DevOps",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/DWRDSKSTY77L",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout the course, I acquired a comprehensive understanding of how to apply DevOps principles and workflows in the development, deployment, and operation of applications. The curriculum emphasized the integration of various technologies, including Rust and containerization, to facilitate a seamless and efficient DevOps lifecycle.\n\nA significant aspect of the learning process involved gaining proficiency in instrumenting applications with logging and monitoring capabilities. The course introduced frameworks like the ELK stack and Prometheus, enabling me to implement effective logging and monitoring solutions. This emphasis on observability provides essential insights into system behavior, aiding in timely issue detection and optimization efforts.\n\nA key skill acquired was the automation of system administration tasks using Rust. This involved tasks such as file parsing, command execution, and managing cron jobs. The automation aspect aimed to improve overall operational efficiency by reducing manual intervention and enhancing the reliability of routine tasks.\n\nIn summary, the course equipped me with the knowledge and practical skills needed to effectively apply DevOps principles, leverage technologies like Rust and containers, implement logging and monitoring solutions, and automate system administration tasks. This holistic approach prepares me to contribute to the development and operation of robust and efficient applications within a DevOps framework."
+      }
+    ],
+    "related": [
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/dev-ops",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
+    ]
+  },
+  "rust-fundamentals": {
+    "title": "Rust Fundamentals",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/NWRUPTQGL634",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned to apply Rust's core concepts such as ownership, borrowing, and lifetimes to write code that is efficient, reliable, and safe. The course covered the utilization of Rust's advanced features, including enums, structs, traits, and generics, providing the knowledge and skills needed to build robust applications.\n\nAdditionally, I developed the ability to create, document, test, and debug Rust projects using essential tools in the Rust ecosystem, including Cargo and Rust Analyzer. This training equipped me with a comprehensive understanding of Rust's key concepts and advanced features, enabling me to develop high-quality applications with a focus on efficiency, reliability, and safety."
+      }
+    ],
+    "related": [
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
+    ]
+  },
+  "rust-llmops": {
+    "title": "Rust for LLMOps",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/2DQ8CL58GAG7",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned how to master deploying Rust for intricate Low-Level Management Operations (LLMOps) workflows. The focus was on developing expertise in using Rust, a systems programming language known for its performance and reliability, within the context of complex LLMOps processes. This course equipped me with advanced knowledge and skills, enabling me to leverage Rust effectively in deploying and managing intricate LLMOps workflows, ensuring optimal performance and reliability in low-level system operations."
+      }
+    ],
+    "related": [
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/large-language-models",
+      "merits/skills/machine-learning"
+    ]
+  },
+  "share-data-through-the-art-of-visualization": {
+    "title": "Share Data Through the Art of Visualization",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/LNZHZZ3SKJ9L",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout this course, I gained a comprehensive understanding of the significance of data visualizations in communicating data and analysis results effectively. I learned to utilize Tableau as a powerful data visualization tool, comprehending its functionalities and applications in presenting data visually. Additionally, I grasped the concept of data-driven stories, recognizing their importance in conveying insights and findings coherently, along with understanding their essential attributes. Furthermore, the course covered principles and practices related to delivering impactful presentations, equipping me with the skills to create and deliver compelling presentations that effectively convey data-driven insights to diverse audiences. This knowledge empowered me to leverage data visualizations, Tableau, data-driven storytelling, and effective presentation techniques to communicate data analysis findings convincingly and engagingly."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-data-analytics",
+      "merits/technologies/tableau",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation"
+    ]
+  },
+  "the-nuts-and-bolts-of-machine-learning": {
+    "title": "The Nuts and Bolts of Machine Learning",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/7V9N8U2CYZ46",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout the course, I developed a comprehensive understanding of the distinct characteristics of various types of machine learning. I gained practical skills in preparing data effectively to optimize machine learning models. Using Python, I acquired hands-on experience in both building and evaluating supervised and unsupervised learning models, enhancing my proficiency in implementing these techniques. The course also equipped me with the knowledge to carefully select appropriate models and metrics for machine learning algorithms, ensuring a thoughtful and effective approach in solving diverse problems."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/predictive-modeling"
+    ]
+  },
+  "the-path-to-insights": {
+    "title": "The Path to Insights: Data Models and Pipelines",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/7D4MDN672WAA",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout this course, I developed the ability to build data models that effectively address business questions, enabling me to derive valuable insights from diverse datasets. I gained practical experience in applying the Extract, Transform, Load (ETL) process to real workplace scenarios, understanding its significance in preparing and organizing data for analysis. The course also provided insights into various ETL tools, enhancing my proficiency in leveraging technology for efficient data processing. Additionally, I acquired the skills to construct pipelines that deliver necessary data, streamlining the flow of information and ensuring that relevant insights are readily available for decision-making processes in a business context. This course equipped me with the knowledge and practical skills to navigate the ETL process, build meaningful data models, and construct pipelines for efficient data delivery in real-world scenarios."
+      }
+    ],
+    "related": [
+      "merits/skills/data-management",
+      "merits/skills/data-transformation",
+      "merits/skills/database-optimisation",
+      "merits/skills/extraction-transformation-loading"
+    ]
+  },
+  "the-power-of-statistics": {
+    "title": "The Power of Statistics",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/Q8VBDCVSDR4Z",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In the course, I acquired skills to proficiently explore and summarize datasets, extracting meaningful information and patterns. I learned to employ probability distributions as effective models for data representation. Through the application of hypothesis tests, I gained the ability to derive valuable insights about data, making informed decisions based on statistical analysis. Using Python, I honed my practical skills in conducting various statistical analyses, empowering me to analyze data sets with a rigorous and data-driven approach."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/hypothesis-testing",
+      "merits/skills/probability",
+      "merits/skills/statistical-analysis"
+    ]
+  },
+  "trustworthy-generative-ai": {
+    "title": "Trustworthy Generative AI",
+    "imgPath": "vanderbilt.png",
+    "issuer": "Vanderbilt University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/GWF56C43KPUQ",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained insights into identifying problems that are well-suited for solving with Generative AI. I learned to effectively frame problems and apply prompt engineering techniques, enabling me to produce more trustworthy results from Generative AI models. This knowledge equips me with the ability to strategically approach and address various challenges, ensuring reliable and meaningful outcomes when utilizing Generative AI in problem-solving scenarios."
+      }
+    ],
+    "related": [
+      "merits/certificates/prompt-engineering",
+      "merits/skills/generative-ai",
+      "merits/skills/problem-formulation",
+      "merits/skills/prompt-engineering"
+    ]
+  },
+  "ux-for-social-good": {
+    "title": "User Experience for Social Good",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/X2ZL7NX6W49R",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned to apply the entire UX design thinking framework, encompassing empathizing, defining, ideating, prototyping, and testing, to create a project with a focus on social good. The curriculum provided a structured approach to understanding user needs, defining problem statements, generating ideas, and iteratively testing and refining solutions to ensure a user-centered design.\n\nA significant part of the learning experience involved hands-on practice in building wireframes, mockups, and both low-fidelity and high-fidelity prototypes. This practical application extended to the creation of a dedicated mobile app and a responsive website, ensuring proficiency in designing for different platforms and screen sizes.\n\nThe course also prepared me for successful entry-level UX design job interviews. I gained insights into common interview questions, best practices for presenting design portfolios, and strategies for showcasing my skills and experiences effectively to potential employers.\n\nFurthermore, the curriculum provided valuable guidance in determining if freelance design work is a suitable career path. I learned about the challenges and opportunities associated with freelancing in the UX design field, allowing me to make informed decisions about pursuing freelance opportunities.\n\nIn summary, the course equipped me with a holistic understanding of the UX design process, from ideation to testing, with a specific focus on creating projects for social good. The hands-on experience in building prototypes for diverse platforms, coupled with interview preparation and insights into freelance design, provided a well-rounded skill set and knowledge base for entering the field of UX design."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
+    ]
+  },
+  "ux-research": {
+    "title": "Conduct UX Research",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/verify/J2S2W7NT6Y8E",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned how to plan and execute both moderated and unmoderated usability studies effectively. The curriculum provided insights into the intricacies of conducting user research, including choosing the right methodology, creating study plans, and interacting with participants in a way that elicits meaningful feedback.\n\nA significant focus was on synthesizing observations gathered from usability studies to derive actionable insights. I gained skills in analyzing user behavior, identifying pain points, and translating raw data into meaningful conclusions that inform design decisions.\n\nMoreover, the course equipped me with persuasive presentation skills to effectively communicate research methodologies and insights. I learned to convey complex information in a compelling and accessible manner, ensuring that key findings resonate with stakeholders and facilitate informed decision-making in the design process.\n\nA practical aspect of the learning involved modifying low-fidelity designs based on insights derived from usability studies. This hands-on experience allowed me to iteratively refine design prototypes, incorporating user feedback to enhance the overall user experience.\n\nIn summary, the course provided a holistic understanding of planning and conducting usability studies, synthesizing research observations into actionable insights, and effectively communicating findings through persuasive presentations. The emphasis on hands-on application, particularly in modifying designs based on user feedback, ensured a well-rounded skill set in the field of usability research and design."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
+    ]
+  },
+  "wireframes-low-fidelity-prototypes": {
+    "title": "Wireframes and Low-Fidelity Prototypes",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/7NR34XMA33N9",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "This course provided me with essential skills in the UX design process, focusing on idea generation and prototyping. I learned to create storyboards for brainstorming solutions to user needs, generate wireframes both on paper and digitally using Figma, construct interactive paper prototypes for tangible testing, and design low-fidelity prototypes in Figma for early-stage user feedback. These versatile skills in ideation and prototyping empower me to effectively explore and visualize design solutions, ensuring a comprehensive understanding of the UX design workflow."
+      }
+    ],
+    "related": [
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
+    ]
+  }
+}

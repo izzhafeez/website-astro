@@ -1,8 +1,6 @@
-import allData from "@data/data";
-import type { IAward, IItem } from "../types/item";
-import Award from "./merits/award";
+import type { IItem } from "../types/item";
 
-export class Item implements IItem {
+class Item implements IItem {
   category: string;
   type: string;
   key: string;
@@ -25,34 +23,34 @@ export class Item implements IItem {
 
   getSubtitle(): string {
     return '';
+  };
+
+  getOverview(): string {
+    return '';
   }
 
-  getLink(): string {
-    return `/${this.category}/${this.type}/${this.key}`;
+  getBracketed(): string {
+    return '';
   }
 
-  getBackLink(): string {
-    return `/${this.category}/${this.type}`;
+  getBracketedColor(): string {
+    return '';
   }
 
   isStarred(): boolean {
     return this.importance >= 8;
   }
 
-  isLarge(): boolean {
-    return false;
+  getSize(): string {
+    return 'MEDIUM';
   }
 
-  getClassNames(): string {
-    // class names for the preview element.
-    let classNames = this.category + ' container row align-items-center preview';
-    if (this.isLarge()) {
-      classNames += '-lg';
-    }
-    if (this.isStarred()) {
-      classNames += ' starred';
-    }
-    return classNames;
+  getStarScale(value: number): string {
+    const emptyStar = '☆';
+    const fullStar = '★';
+    const fullStarCount = Math.ceil(value / 2);
+    const emptyStarCount = 5 - fullStarCount;
+    return fullStar.repeat(fullStarCount) + emptyStar.repeat(emptyStarCount);
   }
 
   getHeaderText(): string {
@@ -63,29 +61,11 @@ export class Item implements IItem {
     return [];
   }
 
-  hasMap(): boolean {
-    return false;
+  getColor(): string {
+    return 'black';
   }
 }
 
-export function createItem(iitem: IItem): Item {
-  switch (iitem.type) {
-    case 'award':
-      return new Award(iitem as IAward);
-    default:
-      return new Award(iitem as IAward);
-  }
-}
+export const ItemType = typeof Item;
 
-export const allItems: Item[] = [];
-for (const [category, v] of Object.entries(allData)) {
-  if (category === 'home') continue;
-  const categoryData: Object = v.data;
-  for (const [type, v] of Object.entries(categoryData)) {
-    const typeData: Object = v.data;
-    for (const [key, v] of Object.entries(typeData)) {
-      const item: Item = createItem({ category, type, key, ...v });
-      allItems.push(item);
-    }
-  }
-}
+export default Item;

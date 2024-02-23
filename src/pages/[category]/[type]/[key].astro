@@ -1,6 +1,6 @@
 ---
-import { allItems } from '@items/item';
-import ItemPreview from '../../../components/ItemPreview';
+import { allItems } from '@items/getItems';
+import BreadCrumbs from '../../../components/nav/BreadCrumbs.astro';
 
 export const getStaticPaths = (() => {
   return allItems.map(item => ({
@@ -14,9 +14,9 @@ export const getStaticPaths = (() => {
 });
 
 export const prerender = true;
-const { item } = Astro.props;
+const { category, type } = Astro.props.item;
 ---
 
 <>
-  <ItemPreview item={item}/>
+  <BreadCrumbs category={category} type={type}/>
 </>

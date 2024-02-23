@@ -1,0 +1,44 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style is:global>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:400,300,700");
+      @import url("https://fonts.googleapis.com/css?family=Raleway:400,300,700");
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      body {
+        margin: 0;
+        line-height: 1.2;
+        font-family: 'Poppins', 'Raleway', 'Ubuntu', 'Fira Sans';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+          monospace;
+      }
+
+      @layer utilities {
+        .animation-delay-2000 {
+          animation-delay: 2s;
+        }
+        .animation-delay-4000 {
+          animation-delay: 4s;
+        }
+      }
+    </style>
+  </head>
+  <body class="text-white bg-black overflow-x-hidden">
+    <article>
+      <slot/>
+    </article>
+  </body>
+</html>

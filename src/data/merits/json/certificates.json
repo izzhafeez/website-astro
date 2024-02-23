@@ -13,35 +13,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "building-objects-in-c",
-          "data-structures-in-c",
-          "exploring-c",
-          "programming-in-c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "building-objects-in-c",
-          "computer-architecture",
-          "data-structures-in-c",
-          "exploring-c",
-          "object-oriented-programming",
-          "programming-in-c"
-        ]
-      }
+      "merits/courses/building-objects-in-c",
+      "merits/courses/data-structures-in-c",
+      "merits/courses/exploring-c",
+      "merits/courses/programming-in-c",
+      "merits/languages/c",
+      "merits/skills/object-oriented-programming"
     ]
   },
   "deep-learning-tensorflow": {
@@ -58,31 +35,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-science",
-          "data-visualisation",
-          "machine-learning",
-          "python",
-          "tensorflow"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/tensorflow",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/machine-learning"
     ]
   },
   "google-advanced-data-analytics": {
@@ -99,55 +56,25 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "foundations-of-data-science",
-          "getting-started-with-python",
-          "go-beyond-the-numbers",
-          "google-advanced-data-analytics-capstone",
-          "regression-analysis",
-          "the-nuts-and-bolts-of-machine-learning",
-          "the-power-of-statistics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jupyter",
-          "pandas",
-          "tableau",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-science",
-          "exploratory-data-analysis",
-          "foundations-of-data-science",
-          "getting-started-with-python",
-          "go-beyond-the-numbers",
-          "google-advanced-data-analytics-capstone",
-          "machine-learning",
-          "predictive-modeling",
-          "regression-analysis",
-          "statistical-analysis",
-          "the-nuts-and-bolts-of-machine-learning",
-          "the-power-of-statistics"
-        ]
-      }
+      "merits/courses/foundations-of-data-science",
+      "merits/courses/getting-started-with-python",
+      "merits/courses/go-beyond-the-numbers",
+      "merits/courses/google-advanced-data-analytics-capstone",
+      "merits/courses/regression-analysis",
+      "merits/courses/the-nuts-and-bolts-of-machine-learning",
+      "merits/courses/the-power-of-statistics",
+      "merits/languages/python",
+      "merits/technologies/jupyter",
+      "merits/technologies/pandas",
+      "merits/technologies/tableau",
+      "merits/technologies/tensorflow",
+      "merits/skills/data-analysis",
+      "merits/skills/data-science",
+      "merits/skills/exploratory-data-analysis",
+      "merits/skills/machine-learning",
+      "merits/skills/predictive-modeling",
+      "merits/skills/regression-analysis",
+      "merits/skills/statistical-analysis"
     ]
   },
   "google-business-intelligence": {
@@ -164,47 +91,18 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dashboards-reports",
-          "foundations-of-business-intelligence",
-          "the-path-to-insights"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "big-query",
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "business-analysis",
-          "business-intelligence",
-          "business-process",
-          "dashboarding",
-          "dashboards-reports",
-          "data-analysis",
-          "data-modeling",
-          "data-visualisation",
-          "extraction-transformation-loading",
-          "foundations-of-business-intelligence",
-          "reporting"
-        ]
-      }
+      "merits/courses/dashboards-reports",
+      "merits/courses/foundations-of-business-intelligence",
+      "merits/courses/the-path-to-insights",
+      "merits/languages/sql",
+      "merits/technologies/tableau",
+      "merits/skills/business-intelligence",
+      "merits/skills/dashboarding",
+      "merits/skills/data-analysis",
+      "merits/skills/data-modeling",
+      "merits/skills/data-visualisation",
+      "merits/skills/extraction-transformation-loading",
+      "merits/skills/reporting"
     ]
   },
   "google-data-analytics": {
@@ -221,61 +119,27 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "analyze-data-to-answer-questions",
-          "ask-questions-to-make-data-driven-decisions",
-          "data-analysis-with-r",
-          "foundations-data-data-everywhere",
-          "google-data-analytics-capstone",
-          "prepare-data-for-exploration",
-          "process-data-from-dirty-to-clean",
-          "share-data-through-the-art-of-visualization"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "r",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "analyze-data-to-answer-questions",
-          "ask-questions-to-make-data-driven-decisions",
-          "data-aggregation",
-          "data-analysis",
-          "data-analysis-with-r",
-          "data-calculation",
-          "data-cleaning",
-          "data-collection",
-          "data-ethics",
-          "data-integrity",
-          "data-visualisation",
-          "decision-making",
-          "foundations-data-data-everywhere",
-          "google-data-analytics-capstone",
-          "metadata",
-          "prepare-data-for-exploration",
-          "problem-solving",
-          "process-data-from-dirty-to-clean",
-          "r",
-          "share-data-through-the-art-of-visualization"
-        ]
-      }
+      "merits/courses/analyze-data-to-answer-questions",
+      "merits/courses/ask-questions-to-make-data-driven-decisions",
+      "merits/courses/data-analysis-with-r",
+      "merits/courses/foundations-data-data-everywhere",
+      "merits/courses/google-data-analytics-capstone",
+      "merits/courses/prepare-data-for-exploration",
+      "merits/courses/process-data-from-dirty-to-clean",
+      "merits/courses/share-data-through-the-art-of-visualization",
+      "merits/languages/r",
+      "merits/languages/sql",
+      "merits/technologies/tableau",
+      "merits/skills/data-aggregation",
+      "merits/skills/data-analysis",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-collection",
+      "merits/skills/data-ethics",
+      "merits/skills/data-integrity",
+      "merits/skills/data-visualisation",
+      "merits/skills/decision-making",
+      "merits/skills/metadata",
+      "merits/skills/problem-solving"
     ]
   },
   "google-professional-workspace": {
@@ -292,29 +156,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "google-workspace-deployment",
-          "google-workspace-mail-management",
-          "google-workspace-security",
-          "introduction-to-google-workspace-administration",
-          "managing-google-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp",
-          "google-workspace-deployment",
-          "google-workspace-mail-management",
-          "google-workspace-security",
-          "introduction-to-google-workspace-administration",
-          "managing-google-workspace"
-        ]
-      }
+      "merits/courses/google-workspace-deployment",
+      "merits/courses/google-workspace-mail-management",
+      "merits/courses/google-workspace-security",
+      "merits/courses/introduction-to-google-workspace-administration",
+      "merits/courses/managing-google-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "google-ux-design": {
@@ -331,47 +178,20 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "dynamic-user-interfaces",
-          "empathize-define-ideate",
-          "foundations-of-ux",
-          "high-fidelity-designs-in-figma",
-          "ux-for-social-good",
-          "ux-research",
-          "wireframes-low-fidelity-prototypes"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "figma"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "empathize-define-ideate",
-          "figma",
-          "foundations-of-ux",
-          "frontend-development",
-          "high-fidelity-designs-in-figma",
-          "mockup",
-          "problem-solving",
-          "prototype",
-          "usability-testing",
-          "user-experience",
-          "ux-design",
-          "ux-for-social-good",
-          "ux-research",
-          "wireframe",
-          "wireframes-low-fidelity-prototypes"
-        ]
-      }
+      "merits/courses/dynamic-user-interfaces",
+      "merits/courses/empathize-define-ideate",
+      "merits/courses/foundations-of-ux",
+      "merits/courses/high-fidelity-designs-in-figma",
+      "merits/courses/ux-for-social-good",
+      "merits/courses/ux-research",
+      "merits/courses/wireframes-low-fidelity-prototypes",
+      "merits/technologies/figma",
+      "merits/skills/frontend-development",
+      "merits/skills/problem-solving",
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
     ]
   },
   "harvardx-data-science": {
@@ -388,25 +208,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "data-mining",
-          "data-science",
-          "data-visualisation",
-          "machine-learning",
-          "r"
-        ]
-      }
+      "merits/languages/r",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/machine-learning"
     ]
   },
   "hsk-5": {
@@ -423,13 +230,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "chinese"
-        ]
-      }
+      "merits/languages/chinese"
     ]
   },
   "hsk-6": {
@@ -446,13 +247,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "chinese"
-        ]
-      }
+      "merits/languages/chinese"
     ]
   },
   "ibm-generative-ai-data-science": {
@@ -469,29 +264,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "generative-ai-elevate",
-          "generative-ai-introduction",
-          "generative-ai-prompt-engineering"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "artificial-intelligence",
-          "data-science",
-          "generative-ai",
-          "generative-ai-elevate",
-          "generative-ai-introduction",
-          "generative-ai-prompt-engineering",
-          "machine-learning",
-          "prompt-engineering"
-        ]
-      }
+      "merits/courses/generative-ai-elevate",
+      "merits/courses/generative-ai-introduction",
+      "merits/courses/generative-ai-prompt-engineering",
+      "merits/skills/artificial-intelligence",
+      "merits/skills/data-science",
+      "merits/skills/generative-ai",
+      "merits/skills/machine-learning",
+      "merits/skills/prompt-engineering"
     ]
   },
   "java-udemy": {
@@ -508,13 +288,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java"
-        ]
-      }
+      "merits/languages/java"
     ]
   },
   "jlpt-n3": {
@@ -530,13 +304,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "japanese"
-        ]
-      }
+      "merits/languages/japanese"
     ]
   },
   "mongo-data-modeling": {
@@ -553,21 +321,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "mongo-db"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-modeling",
-          "mongo-db"
-        ]
-      }
+      "merits/technologies/mongo-db",
+      "merits/skills/data-modeling"
     ]
   },
   "prompt-engineering": {
@@ -584,34 +339,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "chat-gpt-advanced-data-analysis",
-          "prompt-engineering-for-chat-gpt",
-          "trustworthy-generative-ai"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "chat-gpt"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "chat-gpt-advanced-data-analysis",
-          "data-analysis",
-          "generative-ai",
-          "prompt-engineering",
-          "prompt-engineering-for-chat-gpt",
-          "trustworthy-generative-ai"
-        ]
-      }
+      "merits/courses/chat-gpt-advanced-data-analysis",
+      "merits/courses/prompt-engineering-for-chat-gpt",
+      "merits/courses/trustworthy-generative-ai",
+      "merits/skills/data-analysis",
+      "merits/skills/generative-ai",
+      "merits/skills/prompt-engineering"
     ]
   },
   "python-for-everybody": {
@@ -632,24 +365,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "html",
-          "python",
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-modeling",
-          "python",
-          "web-scraping"
-        ]
-      }
+      "merits/languages/html",
+      "merits/languages/python",
+      "merits/languages/sql",
+      "merits/skills/data-modeling",
+      "merits/skills/web-scraping"
     ]
   },
   "rust-programming": {
@@ -666,59 +386,25 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "courses",
-        "items": [
-          "data-engineering-with-rust",
-          "python-rust-linux",
-          "rust-for-dev-ops",
-          "rust-fundamentals",
-          "rust-llmops"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "aws",
-          "aws",
-          "cargo",
-          "gcp",
-          "pandas",
-          "polars",
-          "pytorch"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "cloud-computing",
-          "computer-programming",
-          "data-engineering",
-          "data-engineering-with-rust",
-          "data-management",
-          "data-mining",
-          "data-science",
-          "dev-ops",
-          "documentation",
-          "information-engineering",
-          "natural-language-processing",
-          "python-rust-linux",
-          "rust-for-dev-ops",
-          "rust-fundamentals",
-          "rust-llmops"
-        ]
-      }
+      "merits/courses/data-engineering-with-rust",
+      "merits/courses/python-rust-linux",
+      "merits/courses/rust-for-dev-ops",
+      "merits/courses/rust-fundamentals",
+      "merits/courses/rust-llmops",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/technologies/aws",
+      "merits/technologies/aws",
+      "merits/technologies/gcp",
+      "merits/technologies/pandas",
+      "merits/technologies/pytorch",
+      "merits/skills/data-engineering",
+      "merits/skills/data-management",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/dev-ops",
+      "merits/skills/documentation",
+      "merits/skills/natural-language-processing"
     ]
   },
   "web-developer-udemy": {
@@ -735,26 +421,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "css",
-          "html",
-          "javascript",
-          "php"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "frontend-development",
-          "javascript",
-          "php",
-          "web-development"
-        ]
-      }
+      "merits/languages/css",
+      "merits/languages/html",
+      "merits/languages/javascript",
+      "merits/languages/php",
+      "merits/skills/frontend-development",
+      "merits/skills/web-development"
     ]
   }
 }

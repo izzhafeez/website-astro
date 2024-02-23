@@ -58,17 +58,11 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "aperia",
-          "city-square-mall",
-          "hdb-hub",
-          "junction-8",
-          "zhongshan-mall"
-        ]
-      }
+      "blog/malls/aperia",
+      "blog/malls/city-square-mall",
+      "blog/malls/hdb-hub",
+      "blog/malls/junction-8",
+      "blog/malls/zhongshan-mall"
     ]
   },
   "bedok-reservoir": {
@@ -171,22 +165,16 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "century-square",
-          "kallang-wave-mall",
-          "our-tampines-hub",
-          "paya-lebar-quarter",
-          "paya-lebar-square",
-          "singpost-centre",
-          "suntec-city",
-          "tampines-1",
-          "tampines-mall",
-          "white-sands"
-        ]
-      }
+      "blog/malls/century-square",
+      "blog/malls/kallang-wave-mall",
+      "blog/malls/our-tampines-hub",
+      "blog/malls/paya-lebar-quarter",
+      "blog/malls/paya-lebar-square",
+      "blog/malls/singpost-centre",
+      "blog/malls/suntec-city",
+      "blog/malls/tampines-1",
+      "blog/malls/tampines-mall",
+      "blog/malls/white-sands"
     ]
   },
   "bukit-panjang-malls": {
@@ -229,19 +217,13 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "bukit-panjang-plaza",
-          "hill-v2",
-          "hillion-mall",
-          "junction-10",
-          "lot-one",
-          "rail-mall",
-          "yew-tee-point"
-        ]
-      }
+      "blog/malls/bukit-panjang-plaza",
+      "blog/malls/hill-v2",
+      "blog/malls/hillion-mall",
+      "blog/malls/junction-10",
+      "blog/malls/lot-one",
+      "blog/malls/rail-mall",
+      "blog/malls/yew-tee-point"
     ]
   },
   "coast-2-coast": {
@@ -327,23 +309,17 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "amk-hub",
-          "bukit-timah-plaza",
-          "bukit-timah-shopping-centre",
-          "djitsun-mall",
-          "grandstand",
-          "hill-v2",
-          "jubilee-square",
-          "le-quest",
-          "northshore-plaza",
-          "rail-mall",
-          "west-mall"
-        ]
-      }
+      "blog/malls/amk-hub",
+      "blog/malls/bukit-timah-plaza",
+      "blog/malls/bukit-timah-shopping-centre",
+      "blog/malls/djitsun-mall",
+      "blog/malls/grandstand",
+      "blog/malls/hill-v2",
+      "blog/malls/jubilee-square",
+      "blog/malls/le-quest",
+      "blog/malls/northshore-plaza",
+      "blog/malls/rail-mall",
+      "blog/malls/west-mall"
     ]
   },
   "deez-nutz": {
@@ -414,31 +390,25 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "bedok-mall",
-          "bedok-point",
-          "djitsun-mall-bedok",
-          "golden-mile-complex",
-          "i12-katong",
-          "kallang-wave-mall",
-          "katong-shopping-centre",
-          "katong-v",
-          "marina-square",
-          "millenia-walk",
-          "one-fullerton",
-          "one-raffles-place",
-          "parkway-parade",
-          "paya-lebar-quarter",
-          "paya-lebar-square",
-          "raffles-city",
-          "roxy-square",
-          "singpost-centre",
-          "suntec-city"
-        ]
-      }
+      "blog/malls/bedok-mall",
+      "blog/malls/bedok-point",
+      "blog/malls/djitsun-mall-bedok",
+      "blog/malls/golden-mile-complex",
+      "blog/malls/i12-katong",
+      "blog/malls/kallang-wave-mall",
+      "blog/malls/katong-shopping-centre",
+      "blog/malls/katong-v",
+      "blog/malls/marina-square",
+      "blog/malls/millenia-walk",
+      "blog/malls/one-fullerton",
+      "blog/malls/one-raffles-place",
+      "blog/malls/parkway-parade",
+      "blog/malls/paya-lebar-quarter",
+      "blog/malls/paya-lebar-square",
+      "blog/malls/raffles-city",
+      "blog/malls/roxy-square",
+      "blog/malls/singpost-centre",
+      "blog/malls/suntec-city"
     ]
   },
   "eastern-malls": {
@@ -476,19 +446,13 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "century-square",
-          "east-village",
-          "eastpoint-mall",
-          "our-tampines-hub",
-          "tampines-1",
-          "tampines-mall",
-          "white-sands"
-        ]
-      }
+      "blog/malls/century-square",
+      "blog/malls/east-village",
+      "blog/malls/eastpoint-mall",
+      "blog/malls/our-tampines-hub",
+      "blog/malls/tampines-1",
+      "blog/malls/tampines-mall",
+      "blog/malls/white-sands"
     ]
   },
   "gangsters-paradise": {
@@ -538,13 +502,7 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "harbourfront-centre"
-        ]
-      }
+      "blog/malls/harbourfront-centre"
     ]
   },
   "journey-to-the-north-east": {
@@ -586,28 +544,22 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "chinatown-point",
-          "city-square-mall",
-          "clarke-quay-central",
-          "compass-one",
-          "funan",
-          "heartland-mall",
-          "hougang-mall",
-          "mustafa-centre",
-          "nex",
-          "plaza-singapura",
-          "sengkang-grand-mall",
-          "tekka-place",
-          "the-poiz",
-          "vivo-city",
-          "waterway-point",
-          "woodleigh-mall"
-        ]
-      }
+      "blog/malls/chinatown-point",
+      "blog/malls/city-square-mall",
+      "blog/malls/clarke-quay-central",
+      "blog/malls/compass-one",
+      "blog/malls/funan",
+      "blog/malls/heartland-mall",
+      "blog/malls/hougang-mall",
+      "blog/malls/mustafa-centre",
+      "blog/malls/nex",
+      "blog/malls/plaza-singapura",
+      "blog/malls/sengkang-grand-mall",
+      "blog/malls/tekka-place",
+      "blog/malls/the-poiz",
+      "blog/malls/vivo-city",
+      "blog/malls/waterway-point",
+      "blog/malls/woodleigh-mall"
     ]
   },
   "journey-to-the-west": {
@@ -658,20 +610,14 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "canberra-plaza",
-          "causeway-point",
-          "junction-9",
-          "northpoint-city",
-          "sembawang-shopping-centre",
-          "sun-plaza",
-          "wisteria-mall",
-          "woods-square"
-        ]
-      }
+      "blog/malls/canberra-plaza",
+      "blog/malls/causeway-point",
+      "blog/malls/junction-9",
+      "blog/malls/northpoint-city",
+      "blog/malls/sembawang-shopping-centre",
+      "blog/malls/sun-plaza",
+      "blog/malls/wisteria-mall",
+      "blog/malls/woods-square"
     ]
   },
   "ntu-nus": {
@@ -723,15 +669,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "rochester-mall",
-          "the-centrepoint",
-          "the-star-vista"
-        ]
-      }
+      "blog/malls/rochester-mall",
+      "blog/malls/the-centrepoint",
+      "blog/malls/the-star-vista"
     ]
   },
   "orchard-malls": {
@@ -760,30 +700,24 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "313-somerset",
-          "cathay-cineleisure-orchard",
-          "far-east-plaza",
-          "ion-orchard",
-          "knightsbridge",
-          "lucky-plaza",
-          "mandarin-gallery",
-          "midpoint-orchard",
-          "ngee-ann-city",
-          "orchard-central",
-          "orchard-gateway",
-          "plaza-singapura",
-          "scotts-square",
-          "shaw-house-and-centre",
-          "the-centrepoint",
-          "the-paragon",
-          "wheelock-place",
-          "wisma-atria"
-        ]
-      }
+      "blog/malls/313-somerset",
+      "blog/malls/cathay-cineleisure-orchard",
+      "blog/malls/far-east-plaza",
+      "blog/malls/ion-orchard",
+      "blog/malls/knightsbridge",
+      "blog/malls/lucky-plaza",
+      "blog/malls/mandarin-gallery",
+      "blog/malls/midpoint-orchard",
+      "blog/malls/ngee-ann-city",
+      "blog/malls/orchard-central",
+      "blog/malls/orchard-gateway",
+      "blog/malls/plaza-singapura",
+      "blog/malls/scotts-square",
+      "blog/malls/shaw-house-and-centre",
+      "blog/malls/the-centrepoint",
+      "blog/malls/the-paragon",
+      "blog/malls/wheelock-place",
+      "blog/malls/wisma-atria"
     ]
   },
   "pasir-ris-park": {
@@ -839,14 +773,8 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "bedok-mall",
-          "suntec-city"
-        ]
-      }
+      "blog/malls/bedok-mall",
+      "blog/malls/suntec-city"
     ]
   },
   "plan-for-the-west-coast": {
@@ -894,15 +822,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "321-clementi",
-          "clementi-mall",
-          "west-coast-plaza"
-        ]
-      }
+      "blog/malls/321-clementi",
+      "blog/malls/clementi-mall",
+      "blog/malls/west-coast-plaza"
     ]
   },
   "rifle-range": {
@@ -964,15 +886,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "junction-8",
-          "suntec-city",
-          "the-poiz"
-        ]
-      }
+      "blog/malls/junction-8",
+      "blog/malls/suntec-city",
+      "blog/malls/the-poiz"
     ]
   },
   "romance-of-three-kingdoms": {
@@ -1015,29 +931,12 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "bukit-panjang-plaza",
-          "bukit-timah-plaza",
-          "hillion-mall",
-          "the-star-vista",
-          "vivo-city"
-        ]
-      },
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-plaza",
-          "bukit-timah-plaza",
-          "hillion-mall",
-          "romance-of-two-kingdoms",
-          "the-star-vista",
-          "vivo-city"
-        ]
-      }
+      "blog/malls/bukit-panjang-plaza",
+      "blog/malls/bukit-timah-plaza",
+      "blog/malls/hillion-mall",
+      "blog/malls/the-star-vista",
+      "blog/malls/vivo-city",
+      "blog/hikes/romance-of-two-kingdoms"
     ]
   },
   "romance-of-two-kingdoms": {
@@ -1075,26 +974,11 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "bukit-panjang-plaza",
-          "bukit-timah-plaza",
-          "hillion-mall"
-        ]
-      },
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-plaza",
-          "bukit-timah-plaza",
-          "hillion-mall",
-          "romance-of-three-kingdoms",
-          "romance-of-two-kingdoms"
-        ]
-      }
+      "blog/malls/bukit-panjang-plaza",
+      "blog/malls/bukit-timah-plaza",
+      "blog/malls/hillion-mall",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/romance-of-two-kingdoms"
     ]
   },
   "sengkang-malls": {
@@ -1127,23 +1011,17 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "greenwich-v",
-          "heartland-mall",
-          "hougang-1",
-          "hougang-mall",
-          "northshore-plaza",
-          "oasis-terraces",
-          "punggol-plaza",
-          "rivervale-mall",
-          "rivervale-plaza",
-          "seletar-mall",
-          "waterway-point"
-        ]
-      }
+      "blog/malls/greenwich-v",
+      "blog/malls/heartland-mall",
+      "blog/malls/hougang-1",
+      "blog/malls/hougang-mall",
+      "blog/malls/northshore-plaza",
+      "blog/malls/oasis-terraces",
+      "blog/malls/punggol-plaza",
+      "blog/malls/rivervale-mall",
+      "blog/malls/rivervale-plaza",
+      "blog/malls/seletar-mall",
+      "blog/malls/waterway-point"
     ]
   },
   "singapura-very-strong": {
@@ -1183,28 +1061,22 @@
     ],
     "stops": [],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "100-am",
-          "alexandra-retail-centre",
-          "chinatown-point",
-          "city-square-mall",
-          "clarke-quay-central",
-          "funan",
-          "harbourfront-centre",
-          "icon-village",
-          "peoples-park-centre",
-          "peoples-park-complex",
-          "plaza-singapura",
-          "raffles-city",
-          "sim-lim-square",
-          "tanjong-pagar-centre",
-          "tekka-place",
-          "vivo-city"
-        ]
-      }
+      "blog/malls/100-am",
+      "blog/malls/alexandra-retail-centre",
+      "blog/malls/chinatown-point",
+      "blog/malls/city-square-mall",
+      "blog/malls/clarke-quay-central",
+      "blog/malls/funan",
+      "blog/malls/harbourfront-centre",
+      "blog/malls/icon-village",
+      "blog/malls/peoples-park-centre",
+      "blog/malls/peoples-park-complex",
+      "blog/malls/plaza-singapura",
+      "blog/malls/raffles-city",
+      "blog/malls/sim-lim-square",
+      "blog/malls/tanjong-pagar-centre",
+      "blog/malls/tekka-place",
+      "blog/malls/vivo-city"
     ]
   },
   "spring-2-leaf-3": {
@@ -1284,20 +1156,14 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "clarke-quay-central",
-          "great-world-city",
-          "imm",
-          "j-cube",
-          "jem",
-          "suntec-city",
-          "the-star-vista",
-          "westgate"
-        ]
-      }
+      "blog/malls/clarke-quay-central",
+      "blog/malls/great-world-city",
+      "blog/malls/imm",
+      "blog/malls/j-cube",
+      "blog/malls/jem",
+      "blog/malls/suntec-city",
+      "blog/malls/the-star-vista",
+      "blog/malls/westgate"
     ]
   },
   "tel-3": {
@@ -1334,16 +1200,10 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "great-world-city",
-          "ion-orchard",
-          "marina-one",
-          "tanglin-mall"
-        ]
-      }
+      "blog/malls/great-world-city",
+      "blog/malls/ion-orchard",
+      "blog/malls/marina-one",
+      "blog/malls/tanglin-mall"
     ]
   },
   "tel-4": {
@@ -1384,22 +1244,16 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "harbourfront-centre",
-          "junction-8",
-          "kallang-wave-mall",
-          "nex",
-          "paya-lebar-quarter",
-          "paya-lebar-square",
-          "singpost-centre",
-          "suntec-city",
-          "the-star-vista",
-          "vivo-city"
-        ]
-      }
+      "blog/malls/harbourfront-centre",
+      "blog/malls/junction-8",
+      "blog/malls/kallang-wave-mall",
+      "blog/malls/nex",
+      "blog/malls/paya-lebar-quarter",
+      "blog/malls/paya-lebar-square",
+      "blog/malls/singpost-centre",
+      "blog/malls/suntec-city",
+      "blog/malls/the-star-vista",
+      "blog/malls/vivo-city"
     ]
   },
   "the-forgotten-airport": {
@@ -1482,15 +1336,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "northpoint-city",
-          "waterway-point",
-          "white-sands"
-        ]
-      }
+      "blog/malls/northpoint-city",
+      "blog/malls/waterway-point",
+      "blog/malls/white-sands"
     ]
   },
   "the-ghettos": {
@@ -1586,48 +1434,10 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "hougang-mall",
-          "northshore-plaza",
-          "rivervale-plaza",
-          "sengkang-grand-mall"
-        ]
-      }
-    ]
-  },
-  "thomson-malls": {
-    "title": "Thomson Malls",
-    "imgPath": "thomson-plaza.jpg",
-    "date": "05/05/22",
-    "start": "Ang Mo Kio MRT",
-    "end": "Upper Thomson MRT",
-    "color": "MALLS",
-    "description": [
-      {
-        "title": "experience",
-        "text": "This was a pretty short walk from AMK, down to Bishan and Upper Thomson. On that day, I had lunch with my friend, and then I left and went on this journey on my own. The walk through the park was great!, but the rest was just normal."
-      }
-    ],
-    "stops": [
-      {
-        "name": "Bishan-AMK Park",
-        "lat": 1.36182,
-        "lng": 103.84708
-      }
-    ],
-    "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "amk-hub",
-          "junction-8",
-          "thomson-plaza"
-        ]
-      }
+      "blog/malls/hougang-mall",
+      "blog/malls/northshore-plaza",
+      "blog/malls/rivervale-plaza",
+      "blog/malls/sengkang-grand-mall"
     ]
   },
   "thomson-and-jerry": {
@@ -1679,25 +1489,36 @@
       }
     ],
     "related": [
+      "blog/malls/broadway-plaza",
+      "blog/malls/thomson-plaza",
+      "blog/malls/zhongshan-mall",
+      "blog/hikes/what-defu"
+    ]
+  },
+  "thomson-malls": {
+    "title": "Thomson Malls",
+    "imgPath": "thomson-plaza.jpg",
+    "date": "05/05/22",
+    "start": "Ang Mo Kio MRT",
+    "end": "Upper Thomson MRT",
+    "color": "MALLS",
+    "description": [
       {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "broadway-plaza",
-          "thomson-plaza",
-          "zhongshan-mall"
-        ]
-      },
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "broadway-plaza",
-          "thomson-plaza",
-          "what-defu",
-          "zhongshan-mall"
-        ]
+        "title": "experience",
+        "text": "This was a pretty short walk from AMK, down to Bishan and Upper Thomson. On that day, I had lunch with my friend, and then I left and went on this journey on my own. The walk through the park was great!, but the rest was just normal."
       }
+    ],
+    "stops": [
+      {
+        "name": "Bishan-AMK Park",
+        "lat": 1.36182,
+        "lng": 103.84708
+      }
+    ],
+    "related": [
+      "blog/malls/amk-hub",
+      "blog/malls/junction-8",
+      "blog/malls/thomson-plaza"
     ]
   },
   "tiong-bahru-malls": {
@@ -1715,19 +1536,13 @@
     ],
     "stops": [],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "alexandra-central",
-          "anchorpoint",
-          "great-world-city",
-          "ikea-alexandra",
-          "ion-orchard",
-          "queensway-shopping-centre",
-          "tiong-bahru-plaza"
-        ]
-      }
+      "blog/malls/alexandra-central",
+      "blog/malls/anchorpoint",
+      "blog/malls/great-world-city",
+      "blog/malls/ikea-alexandra",
+      "blog/malls/ion-orchard",
+      "blog/malls/queensway-shopping-centre",
+      "blog/malls/tiong-bahru-plaza"
     ]
   },
   "upper-echelon": {
@@ -1818,13 +1633,7 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "thomson-plaza"
-        ]
-      }
+      "blog/malls/thomson-plaza"
     ]
   },
   "west-coast-malls": {
@@ -1842,15 +1651,9 @@
     ],
     "stops": [],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "321-clementi",
-          "clementi-mall",
-          "west-coast-plaza"
-        ]
-      }
+      "blog/malls/321-clementi",
+      "blog/malls/clementi-mall",
+      "blog/malls/west-coast-plaza"
     ]
   },
   "what-defu": {
@@ -1912,21 +1715,8 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "hougang-green-shopping-mall"
-        ]
-      },
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "hougang-green-shopping-mall",
-          "thomson-whampoa"
-        ]
-      }
+      "blog/malls/hougang-green-shopping-mall",
+      "blog/hikes/thomson-and-jerry"
     ]
   },
   "wheres-my-shelter": {
@@ -1988,20 +1778,14 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "downtown-east",
-          "i12-katong",
-          "kallang-wave-mall",
-          "katong-shopping-centre",
-          "katong-v",
-          "roxy-square",
-          "suntec-city",
-          "white-sands"
-        ]
-      }
+      "blog/malls/downtown-east",
+      "blog/malls/i12-katong",
+      "blog/malls/kallang-wave-mall",
+      "blog/malls/katong-shopping-centre",
+      "blog/malls/katong-v",
+      "blog/malls/roxy-square",
+      "blog/malls/suntec-city",
+      "blog/malls/white-sands"
     ]
   }
 }

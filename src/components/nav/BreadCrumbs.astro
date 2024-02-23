@@ -1,0 +1,15 @@
+---
+import * as Icon from '@astropub/icons';
+import Link from './Link';
+
+const { category, type } = Astro.props;
+---
+<p class="flex items-center space-x-2">
+  <Link link="/" text="HOME" category="other"/>
+  <Icon.CaretRight size="20"/>
+  <Link link={`/${category}`} text={category.toUpperCase()} category={category}/>
+  {type && <>
+    <Icon.CaretRight size="20"/>
+    <Link link={`/${category}/${type}`} text={type.toUpperCase()} category={category}/>
+  </>}
+</p>

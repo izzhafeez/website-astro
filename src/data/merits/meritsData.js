@@ -1,5 +1,6 @@
 import awardsData from './json/awards.json';
 import certificatesData from './json/certificates.json';
+import coursesData from './json/courses.json';
 import experiencesData from './json/experiences.json';
 import languagesData from './json/languages.json';
 import modulesData from './json/modules.json';
@@ -16,6 +17,11 @@ const meritsData = {
     data: certificatesData,
     limit: 5,
     description: "These are some of the certificates and tests that I have taken over the years. I took quite a few programming-related courses before entering university, which gave me a decent foundation coming into Computer Science. Besides those, I have also taken quite a few language tests, which are the HSK and JLPT tests. For the HSK, I've managed to pass the <<../merits/certificates/hsk-5>>HSK 5</> test with a decent score. However, I failed the <<../merits/certificates/hsk-6>>HSK 6</> test, as well as the <<../merits/certificates/jlpt-n3>>JLPT N3</> test. Now, I don't think I have the time to revise for the tests, so these pursuits are put on hold."
+  },
+  courses: {
+    data: coursesData,
+    limit: 5,
+    description: "These are the individual courses that I've taken as part of my pursuit of <<../merits/certificates>>certificates</>."
   },
   experiences: {
     data: experiencesData,

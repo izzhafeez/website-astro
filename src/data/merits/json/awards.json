@@ -28,18 +28,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2030s",
-          "cs2040s",
-          "gea1000",
-          "gec1030",
-          "is1103",
-          "st2334"
-        ]
-      }
+      "merits/modules/cs2030s",
+      "merits/modules/cs2040s",
+      "merits/modules/gea1000",
+      "merits/modules/gec1030",
+      "merits/modules/is1103",
+      "merits/modules/st2334"
     ]
   },
   "dean-list-y2s2": {
@@ -55,25 +49,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2101",
-          "cs2103t",
-          "cs2108",
-          "cs2109s",
-          "ma2104",
-          "ma3252"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "edumate"
-        ]
-      }
+      "merits/modules/cs2101",
+      "merits/modules/cs2103t",
+      "merits/modules/cs2108",
+      "merits/modules/cs2109s",
+      "merits/modules/ma2104",
+      "merits/modules/ma3252",
+      "projects/coding/edumate"
     ]
   },
   "euclid": {
@@ -186,13 +168,7 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "graphs",
-        "items": [
-          "ti-competition"
-        ]
-      }
+      "projects/graphs/ti-competition"
     ]
   },
   "top-students-ethics": {
@@ -208,13 +184,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "is1103"
-        ]
-      }
+      "merits/modules/is1103"
     ]
   }
 }

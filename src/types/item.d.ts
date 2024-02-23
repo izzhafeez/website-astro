@@ -65,13 +65,13 @@ export interface IQuiz extends IItem {
   link: string;
 }
 
-export interface IHikePost extends IItem {
+export interface IHike extends IItem {
   date: string;
   start: string;
   end: string;
   color: string;
 }
 
-export interface IMallPost extends IItem {
+export interface IMall extends IItem {
   
 }

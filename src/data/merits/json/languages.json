@@ -16,21 +16,9 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "auto-gitter",
-          "website-react"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2106"
-        ]
-      }
+      "projects/coding/auto-gitter",
+      "projects/coding/website-react",
+      "merits/modules/cs2106"
     ]
   },
   "c": {
@@ -50,27 +38,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "building-objects-in-c",
-          "c-programming-for-everybody",
-          "cs2100",
-          "cs2106",
-          "data-structures-in-c",
-          "exploring-c",
-          "programming-in-c"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "programming-lines-counter",
-          "website-react"
-        ]
-      }
+      "merits/modules/cs2100",
+      "merits/modules/cs2106",
+      "projects/coding/programming-lines-counter",
+      "projects/coding/website-react"
     ]
   },
   "c-sharp": {
@@ -90,29 +61,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "unity"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-management",
-          "game-development",
-          "unity"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore"
-        ]
-      }
+      "merits/technologies/unity",
+      "merits/skills/data-management",
+      "merits/skills/game-development",
+      "projects/coding/malls-of-singapore"
     ]
   },
   "chinese": {
@@ -128,21 +80,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "hsk-5",
-          "hsk-6"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "sentence-searcher"
-        ]
-      }
+      "merits/certificates/hsk-5",
+      "merits/certificates/hsk-6",
+      "projects/coding/sentence-searcher"
     ]
   },
   "cpp": {
@@ -162,20 +102,8 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "sz-matrix"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-structures"
-        ]
-      }
+      "projects/coding/sz-matrix",
+      "merits/skills/data-structures"
     ]
   },
   "css": {
@@ -195,36 +123,16 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "bootstrap"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "bootstrap",
-          "data-management",
-          "frontend-development",
-          "web-developer-udemy",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "chords-search-engine",
-          "malls-of-singapore",
-          "meetup-maker",
-          "note-together",
-          "website-react"
-        ]
-      }
+      "merits/technologies/bootstrap",
+      "merits/skills/data-management",
+      "merits/skills/frontend-development",
+      "merits/skills/web-development",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/chords-search-engine",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/meetup-maker",
+      "projects/coding/note-together",
+      "projects/coding/website-react"
     ]
   },
   "english": {
@@ -263,21 +171,9 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "web-development"
-        ]
-      }
+      "projects/coding/malls-of-singapore",
+      "merits/skills/api-development",
+      "merits/skills/web-development"
     ]
   },
   "haskell": {
@@ -314,25 +210,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-management",
-          "frontend-development",
-          "python-for-everybody",
-          "web-developer-udemy",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "malls-of-singapore",
-          "website-react"
-        ]
-      }
+      "merits/skills/data-management",
+      "merits/skills/frontend-development",
+      "merits/skills/web-development",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/website-react"
     ]
   },
   "japanese": {
@@ -348,21 +230,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "jlpt-n3"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "jap-vocab-trainer",
-          "sentence-searcher"
-        ]
-      }
+      "merits/certificates/jlpt-n3",
+      "projects/coding/jap-vocab-trainer",
+      "projects/coding/sentence-searcher"
     ]
   },
   "java": {
@@ -382,55 +252,17 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2030s",
-          "cs2040s",
-          "cs2103t",
-          "cs3230"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "spring"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "java-udemy"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "edumate"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "cs2030s",
-          "cs2040s",
-          "cs2103t",
-          "cs3230",
-          "intellij",
-          "java-udemy",
-          "junit",
-          "software-engineering",
-          "software-testing",
-          "spring",
-          "web-development"
-        ]
-      }
+      "merits/modules/cs2030s",
+      "merits/modules/cs2040s",
+      "merits/modules/cs2103t",
+      "merits/modules/cs3230",
+      "merits/technologies/spring",
+      "merits/certificates/java-udemy",
+      "projects/coding/edumate",
+      "merits/skills/api-development",
+      "merits/skills/software-engineering",
+      "merits/skills/software-testing",
+      "merits/skills/web-development"
     ]
   },
   "javascript": {
@@ -458,83 +290,28 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "typescript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "web-developer-udemy"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "angular-js",
-          "express-js",
-          "jest",
-          "node-js",
-          "react-js",
-          "svelte-js",
-          "telegram-bots",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "frontend-development",
-          "software-testing",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "halal-recommender",
-          "malls-of-singapore",
-          "note-together",
-          "notes-telegram-bot",
-          "website-react"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "angular-js",
-          "api-development",
-          "bootstrap",
-          "cp2106",
-          "cs3216",
-          "data-modeling",
-          "express-js",
-          "frontend-development",
-          "fullstack-intern",
-          "gcp",
-          "jest",
-          "mongo-db",
-          "node-js",
-          "react-js",
-          "software-testing",
-          "svelte-js",
-          "telegram-bots",
-          "typescript",
-          "vue-js",
-          "web-developer-udemy",
-          "web-development"
-        ]
-      }
+      "merits/languages/typescript",
+      "merits/certificates/web-developer-udemy",
+      "merits/technologies/angular-js",
+      "merits/technologies/express-js",
+      "merits/technologies/jest",
+      "merits/technologies/node-js",
+      "merits/technologies/react-js",
+      "merits/technologies/svelte-js",
+      "merits/technologies/telegram-bots",
+      "merits/technologies/vue-js",
+      "merits/skills/api-development",
+      "merits/skills/frontend-development",
+      "merits/skills/software-testing",
+      "merits/skills/web-development",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/halal-recommender",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/note-together",
+      "projects/coding/notes-telegram-bot",
+      "projects/coding/website-react",
+      "merits/modules/cp2106",
+      "merits/modules/cs3216"
     ]
   },
   "korean": {
@@ -550,13 +327,7 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "sentence-searcher"
-        ]
-      }
+      "projects/coding/sentence-searcher"
     ]
   },
   "latex": {
@@ -599,14 +370,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs2108",
-          "ma2001"
-        ]
-      }
+      "merits/modules/cs2108",
+      "merits/modules/ma2001"
     ]
   },
   "php": {
@@ -626,14 +391,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "web-developer-udemy",
-          "web-development"
-        ]
-      }
+      "merits/certificates/web-developer-udemy"
     ]
   },
   "python": {
@@ -661,110 +419,38 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "django",
-          "flask",
-          "pandas",
-          "pytorch",
-          "selenium",
-          "tensorflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "data-cleaning",
-          "data-mining",
-          "data-science",
-          "data-structures",
-          "geospatial-analytics",
-          "operational-analysis",
-          "web-development",
-          "web-scraping"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "chords-search-engine",
-          "dynamic-resource-optimiser",
-          "geospatial-extraction",
-          "geospatial-management",
-          "malls-of-singapore",
-          "meetup-maker",
-          "mrt-paths-analysis",
-          "sentence-searcher",
-          "spiderman-web-scraper",
-          "svg-converter",
-          "website-react"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cp2106",
-          "cs2109s"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "deep-learning-tensorflow",
-          "python-for-everybody"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "anaconda",
-          "api-development",
-          "cp2106",
-          "cs2109s",
-          "cs3216",
-          "data-analytics",
-          "data-cleaning",
-          "data-engineering-with-rust",
-          "data-mining",
-          "data-science",
-          "data-structures",
-          "data-visualisation",
-          "deep-learning-tensorflow",
-          "django",
-          "flask",
-          "geospatial-analytics",
-          "getting-started-with-python",
-          "go-beyond-the-numbers",
-          "google-advanced-data-analytics",
-          "google-advanced-data-analytics-capstone",
-          "jupyter",
-          "machine-learning",
-          "operational-analysis",
-          "pandas",
-          "python-for-everybody",
-          "python-rust-linux",
-          "pytorch",
-          "regression-analysis",
-          "robotics",
-          "rust-programming",
-          "selenium",
-          "software-engineering",
-          "software-testing",
-          "tensorflow",
-          "the-nuts-and-bolts-of-machine-learning",
-          "the-power-of-statistics",
-          "web-development",
-          "web-scraping"
-        ]
-      }
+      "merits/technologies/django",
+      "merits/technologies/flask",
+      "merits/technologies/pandas",
+      "merits/technologies/pytorch",
+      "merits/technologies/selenium",
+      "merits/technologies/tensorflow",
+      "merits/skills/api-development",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-mining",
+      "merits/skills/data-science",
+      "merits/skills/data-structures",
+      "merits/skills/geospatial-analytics",
+      "merits/skills/operational-analysis",
+      "merits/skills/web-development",
+      "merits/skills/web-scraping",
+      "projects/coding/chords-search-engine",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/geospatial-extraction",
+      "projects/coding/geospatial-management",
+      "projects/coding/malls-of-singapore",
+      "projects/coding/meetup-maker",
+      "projects/coding/mrt-paths-analysis",
+      "projects/coding/sentence-searcher",
+      "projects/coding/spiderman-web-scraper",
+      "projects/coding/svg-converter",
+      "projects/coding/website-react",
+      "merits/modules/cp2106",
+      "merits/modules/cs2109s",
+      "merits/certificates/deep-learning-tensorflow",
+      "merits/certificates/python-for-everybody",
+      "merits/experiences/data-analytics",
+      "merits/experiences/robotics"
     ]
   },
   "r": {
@@ -784,34 +470,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "data-science",
-          "data-visualisation",
-          "machine-learning"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "anaconda",
-          "data-analysis-with-r",
-          "data-analytics",
-          "data-cleaning",
-          "data-science",
-          "data-visualisation",
-          "google-data-analytics",
-          "harvardx-data-science",
-          "jupyter",
-          "machine-learning",
-          "operational-analysis",
-          "web-scraping"
-        ]
-      }
+      "merits/skills/data-cleaning",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/machine-learning",
+      "merits/certificates/google-data-analytics",
+      "merits/certificates/harvardx-data-science"
     ]
   },
   "ruby": {
@@ -835,41 +499,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "ruby-on-rails"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "software-testing"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "api-development",
-          "data-analytics",
-          "fullstack-intern",
-          "ruby-on-rails",
-          "software-testing"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser",
-          "dynamic-resource-optimiser",
-          "website-react"
-        ]
-      }
+      "merits/technologies/ruby-on-rails",
+      "merits/skills/api-development",
+      "merits/skills/software-testing",
+      "merits/experiences/data-analytics",
+      "merits/experiences/fullstack-intern",
+      "projects/coding/bus-routes-optimiser",
+      "projects/coding/dynamic-resource-optimiser",
+      "projects/coding/website-react"
     ]
   },
   "rust": {
@@ -889,40 +526,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "rocket-rs"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "api-development",
-          "data-engineering-with-rust",
-          "data-structures",
-          "intellij",
-          "python-rust-linux",
-          "rocket-rs",
-          "rust-for-dev-ops",
-          "rust-fundamentals",
-          "rust-llmops",
-          "rust-programming",
-          "software-engineering",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "jap-vocab-trainer",
-          "neothesia",
-          "website-react"
-        ]
-      }
+      "merits/technologies/rocket-rs",
+      "merits/skills/api-development",
+      "merits/skills/data-structures",
+      "merits/skills/software-engineering",
+      "merits/skills/web-development",
+      "projects/coding/jap-vocab-trainer",
+      "projects/coding/neothesia",
+      "projects/coding/website-react"
     ]
   },
   "scala": {
@@ -941,15 +552,7 @@
         "text": "I started learning Scala for use in my big data module."
       }
     ],
-    "related": [
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "cs4225"
-        ]
-      }
-    ]
+    "related": []
   },
   "spanish": {
     "title": "Spanish",
@@ -985,46 +588,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-management"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "postgresql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "modules",
-        "items": [
-          "analyze-data-to-answer-questions",
-          "cs2102",
-          "data-cleaning",
-          "data-management",
-          "data-modeling",
-          "foundations-data-data-everywhere",
-          "google-business-intelligence",
-          "google-data-analytics",
-          "postgresql",
-          "prepare-data-for-exploration",
-          "process-data-from-dirty-to-clean",
-          "python-for-everybody",
-          "ssms"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "meetup-maker"
-        ]
-      }
+      "merits/experiences/data-management",
+      "merits/technologies/postgresql",
+      "merits/modules/cs2102",
+      "projects/coding/meetup-maker"
     ]
   },
   "swift": {
@@ -1061,23 +628,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "angular-js",
-          "cp2106",
-          "javascript",
-          "web-development"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "note-together"
-        ]
-      }
+      "merits/languages/javascript",
+      "projects/coding/note-together"
     ]
   },
   "vba": {
@@ -1097,13 +649,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "data-analytics"
-        ]
-      }
+      "merits/experiences/data-analytics"
     ]
   },
   "zig": {

@@ -28,39 +28,18 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "python",
-          "typescript"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "express-js",
-          "heroku",
-          "javascript",
-          "mongo-db",
-          "node-js",
-          "postman",
-          "python",
-          "selenium",
-          "software-testing",
-          "vscode",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "note-together"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/languages/typescript",
+      "merits/technologies/express-js",
+      "merits/technologies/heroku",
+      "merits/technologies/mongo-db",
+      "merits/technologies/node-js",
+      "merits/technologies/postman",
+      "merits/technologies/selenium",
+      "merits/technologies/vscode",
+      "merits/technologies/vue-js",
+      "projects/coding/note-together"
     ]
   },
   "cp3200": {
@@ -70,13 +49,7 @@
     "grade": "CS",
     "description": [],
     "related": [
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern"
-        ]
-      }
+      "merits/experiences/fullstack-intern"
     ]
   },
   "cs1010r": {
@@ -142,14 +115,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "dean-list-y1s2",
-          "java"
-        ]
-      }
+      "merits/languages/java"
     ]
   },
   "cs2040s": {
@@ -169,30 +135,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-structures"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "data-structures",
-          "dean-list-y1s2",
-          "intellij",
-          "java"
-        ]
-      }
+      "merits/languages/java",
+      "merits/skills/data-structures",
+      "merits/technologies/intellij"
     ]
   },
   "cs2100": {
@@ -212,13 +157,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      }
+      "merits/languages/c"
     ]
   },
   "cs2101": {
@@ -238,13 +177,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y2s2"
-        ]
-      }
+      "merits/awards/dean-list-y2s2"
     ]
   },
   "cs2102": {
@@ -264,30 +197,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "postgresql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-modeling",
-          "data-science",
-          "postgresql",
-          "sql"
-        ]
-      }
+      "merits/languages/sql",
+      "merits/technologies/postgresql",
+      "merits/skills/data-modeling",
+      "merits/skills/data-science"
     ]
   },
   "cs2103t": {
@@ -307,43 +220,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "github",
-          "intellij",
-          "junit",
-          "plant-uml"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "dean-list-y2s2",
-          "github",
-          "java",
-          "junit",
-          "plant-uml",
-          "software-engineering",
-          "software-testing"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "edumate"
-        ]
-      }
+      "merits/languages/java",
+      "merits/technologies/github",
+      "merits/technologies/intellij",
+      "merits/technologies/junit",
+      "merits/technologies/plant-uml",
+      "merits/skills/software-engineering",
+      "merits/skills/software-testing",
+      "projects/coding/edumate"
     ]
   },
   "cs2106": {
@@ -353,14 +237,8 @@
     "grade": "A-",
     "description": [],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "bash",
-          "c"
-        ]
-      }
+      "merits/languages/bash",
+      "merits/languages/c"
     ]
   },
   "cs2108": {
@@ -380,14 +258,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "dean-list-y2s2",
-          "matlab"
-        ]
-      }
+      "merits/languages/matlab"
     ]
   },
   "cs2109s": {
@@ -407,35 +278,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jupyter",
-          "pytorch"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "anaconda",
-          "data-science",
-          "data-visualisation",
-          "dean-list-y2s2",
-          "machine-learning",
-          "pandas",
-          "python",
-          "pytorch"
-        ]
-      }
+      "merits/languages/python",
+      "merits/technologies/jupyter",
+      "merits/technologies/pytorch",
+      "merits/skills/data-science",
+      "merits/skills/data-visualisation",
+      "merits/skills/machine-learning"
     ]
   },
   "cs3216": {
@@ -451,33 +299,14 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "postman",
-          "react-js",
-          "vue-js"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "frontend-development",
-          "javascript",
-          "software-engineering",
-          "web-development"
-        ]
-      }
+      "merits/languages/javascript",
+      "merits/languages/python",
+      "merits/technologies/postman",
+      "merits/technologies/react-js",
+      "merits/technologies/vue-js",
+      "merits/skills/frontend-development",
+      "merits/skills/software-engineering",
+      "merits/skills/web-development"
     ]
   },
   "cs3230": {
@@ -501,13 +330,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "java"
-        ]
-      }
+      "merits/languages/java"
     ]
   },
   "cs4243": {
@@ -534,14 +357,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "dean-list-y1s2",
-          "excel"
-        ]
-      }
+      "merits/technologies/excel"
     ]
   },
   "gec1030": {
@@ -561,13 +377,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y1s2"
-        ]
-      }
+      "merits/awards/dean-list-y1s2"
     ]
   },
   "gen2002x": {
@@ -609,14 +419,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y1s2",
-          "top-students-ethics"
-        ]
-      }
+      "merits/awards/dean-list-y1s2",
+      "merits/awards/top-students-ethics"
     ]
   },
   "ma1521": {
@@ -652,13 +456,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "matlab"
-        ]
-      }
+      "merits/languages/matlab"
     ]
   },
   "ma2101": {
@@ -695,13 +493,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y2s2"
-        ]
-      }
+      "merits/awards/dean-list-y2s2"
     ]
   },
   "ma2108": {
@@ -754,13 +546,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y2s2"
-        ]
-      }
+      "merits/awards/dean-list-y2s2"
     ]
   },
   "st2334": {
@@ -779,13 +565,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "dean-list-y1s2"
-        ]
-      }
+      "merits/awards/dean-list-y1s2"
     ]
   }
 }

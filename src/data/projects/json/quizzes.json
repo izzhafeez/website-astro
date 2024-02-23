@@ -1,4 +1,16 @@
 {
+  "aws-products": {
+    "title": "AWS Products (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 6,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Guess the AWS product name given the description."
+      }
+    ]
+  },
   "bus-routes": {
     "title": "Bus Routes of Singapore (Live Quiz)",
     "isLive": true,
@@ -61,7 +73,7 @@
     "description": [
       {
         "title": "instructions",
-        "text": "TBW"
+        "text": "What's the module code?"
       }
     ]
   },
@@ -70,6 +82,18 @@
     "imgPath": "geoguessr.svg",
     "importance": 3,
     "link": "https://www.geoguessr.com/maps/62c1a42a5133ade63da10858/play"
+  },
+  "place-names": {
+    "title": "Place Names (Live Quiz)",
+    "imgPath": "openlayers.svg",
+    "isLive": true,
+    "importance": 8,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Guess the place."
+      }
+    ]
   },
   "roads": {
     "title": "Roads of Singapore (Live Quiz)",
@@ -113,6 +137,18 @@
     "importance": 9,
     "link": "https://www.geoguessr.com/maps/62c1a29ef9387d8276d465da/play"
   },
+  "status-codes": {
+    "title": "Status Codes (Live Quiz)",
+    "imgPath": "openlayers.svg",
+    "isLive": true,
+    "importance": 4,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "What's the status code?"
+      }
+    ]
+  },
   "subzones-jetpunk": {
     "title": "Subzones of Singapore (Jetpunk)",
     "imgPath": "jetpunk.png",
@@ -125,13 +161,7 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "svg-converter"
-        ]
-      }
+      "projects/coding/svg-converter"
     ]
   }
 }

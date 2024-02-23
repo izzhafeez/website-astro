@@ -1,4 +1,4 @@
-import { Item } from "@items/item";
+import Item from "../item";
 import type { IAward } from "../../types/item";
 
 class Award extends Item implements IAward {
@@ -11,6 +11,12 @@ class Award extends Item implements IAward {
     this.date = iAward.date;
     this.level = iAward.level;
     this.link = iAward.link;
+  }
+
+  override getSubtitle(): string {
+    return [this.date, this.level]
+      .filter(info => !!info)
+      .join(' | ');
   }
 }
 

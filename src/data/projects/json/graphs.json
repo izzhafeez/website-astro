@@ -333,13 +333,7 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "awards",
-        "items": [
-          "ti-graphing"
-        ]
-      }
+      "merits/awards/ti-graphing"
     ]
   }
 }

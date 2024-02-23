@@ -10,13 +10,7 @@
     "area": 121000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "111-somerset": {
@@ -36,13 +30,7 @@
     "area": 288277,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "321-clementi": {
@@ -56,14 +44,8 @@
     "area": 191000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "plan-for-the-west-coast",
-          "west-coast-malls"
-        ]
-      }
+      "blog/hikes/plan-for-the-west-coast",
+      "blog/hikes/west-coast-malls"
     ]
   },
   "888-plaza": {
@@ -83,13 +65,7 @@
     "longitude": 103.80528,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "alexandra-retail-centre": {
@@ -103,13 +79,7 @@
     "area": 89652,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "amk-hub": {
@@ -123,14 +93,8 @@
     "area": 320000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast",
-          "thomson-malls"
-        ]
-      }
+      "blog/hikes/coast-2-coast",
+      "blog/hikes/thomson-malls"
     ]
   },
   "anchorpoint": {
@@ -144,13 +108,7 @@
     "area": 70988,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "aperia": {
@@ -164,13 +122,7 @@
     "area": 105733,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "balestier-malls"
-        ]
-      }
+      "blog/hikes/balestier-malls"
     ]
   },
   "balestier-hill-shopping-centre": {
@@ -199,14 +151,8 @@
     "area": 220000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "plan-for-the-east-coast"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/plan-for-the-east-coast"
     ]
   },
   "bedok-point": {
@@ -220,13 +166,7 @@
     "area": 82713,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "bedok-town-center": {
@@ -245,13 +185,7 @@
     "latitude": 1.37193646369426,
     "longitude": 103.845973776855,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "thomson-whampoa"
-        ]
-      }
+      "blog/hikes/thomson-and-jerry"
     ]
   },
   "buangkok-square": {
@@ -315,15 +249,9 @@
     "area": 152306,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls",
-          "romance-of-three-kingdoms",
-          "romance-of-two-kingdoms"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/romance-of-two-kingdoms"
     ]
   },
   "bukit-timah-plaza": {
@@ -334,15 +262,9 @@
     "floors": 4.0,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast",
-          "romance-of-three-kingdoms",
-          "romance-of-two-kingdoms"
-        ]
-      }
+      "blog/hikes/coast-2-coast",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/romance-of-two-kingdoms"
     ]
   },
   "bukit-timah-shopping-centre": {
@@ -354,13 +276,7 @@
     "year": 1981.0,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "canberra-plaza": {
@@ -374,13 +290,7 @@
     "area": 88000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "capitol-singapore": {
@@ -405,13 +315,7 @@
     "area": 169897,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "causeway-point": {
@@ -425,13 +329,7 @@
     "area": 416301,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "century-square": {
@@ -445,14 +343,8 @@
     "area": 205000,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/eastern-malls"
     ]
   },
   "changi-airport-t3": {
@@ -495,14 +387,8 @@
     "area": 207726,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "city-gate-mall": {
@@ -530,15 +416,9 @@
     "area": 450000,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "balestier-malls",
-          "journey-to-the-north-east",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/balestier-malls",
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "citylink-mall": {
@@ -563,15 +443,9 @@
     "area": 201546,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "south-coast-malls",
-          "tale-of-two-rivers"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/south-coast-malls",
+      "blog/hikes/tale-of-two-rivers"
     ]
   },
   "clementi-mall": {
@@ -585,14 +459,8 @@
     "area": 192460,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "plan-for-the-west-coast",
-          "west-coast-malls"
-        ]
-      }
+      "blog/hikes/plan-for-the-west-coast",
+      "blog/hikes/west-coast-malls"
     ]
   },
   "compass-one": {
@@ -606,13 +474,7 @@
     "area": 272881,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east"
     ]
   },
   "djitsun-mall": {
@@ -622,13 +484,7 @@
     "longitude": 103.84765,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "djitsun-mall-bedok": {
@@ -640,13 +496,7 @@
     "area": 48000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "downtown-east": {
@@ -660,13 +510,7 @@
     "area": 130000,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "duo": {
@@ -679,13 +523,7 @@
     "latitude": 1.3317758150305,
     "longitude": 103.946201241591,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/eastern-malls"
     ]
   },
   "eastpoint-mall": {
@@ -699,13 +537,7 @@
     "area": 207806,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/eastern-malls"
     ]
   },
   "elias-mall": {
@@ -750,13 +582,7 @@
     "area": 292160,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "funan": {
@@ -776,14 +602,8 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "galaxis": {
@@ -809,13 +629,7 @@
     "area": 127961,
     "aesthetics": 1,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "grandstand": {
@@ -829,13 +643,7 @@
     "area": 450000,
     "aesthetics": 1,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "grantral-mall": {
@@ -856,15 +664,9 @@
     "area": 420000,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tale-of-two-rivers",
-          "tel-3",
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tale-of-two-rivers",
+      "blog/hikes/tel-3",
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "greenridge-shopping-centre": {
@@ -883,13 +685,7 @@
     "area": 43724,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "harbourfront-centre": {
@@ -903,15 +699,9 @@
     "area": 100000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "hortridge-park",
-          "south-coast-malls",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/hortridge-park",
+      "blog/hikes/south-coast-malls",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "hdb-hub": {
@@ -922,13 +712,7 @@
     "area": 186000,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "balestier-malls"
-        ]
-      }
+      "blog/hikes/balestier-malls"
     ]
   },
   "heartland-mall": {
@@ -942,14 +726,8 @@
     "area": 86000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/sengkang-malls"
     ]
   },
   "hill-v2": {
@@ -963,14 +741,8 @@
     "area": 53149,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls",
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls",
+      "blog/hikes/coast-2-coast"
     ]
   },
   "hillion-mall": {
@@ -984,15 +756,9 @@
     "area": 174730,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls",
-          "romance-of-three-kingdoms",
-          "romance-of-two-kingdoms"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/romance-of-two-kingdoms"
     ]
   },
   "holland-road-shopping-centre": {
@@ -1017,13 +783,7 @@
     "area": 85915,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "hougang-green-shopping-mall": {
@@ -1033,13 +793,7 @@
     "longitude": 103.887847089168,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "what-defu"
-        ]
-      }
+      "blog/hikes/what-defu"
     ]
   },
   "hougang-mall": {
@@ -1053,15 +807,9 @@
     "area": 166361,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "sengkang-malls",
-          "the-way-of-water"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/sengkang-malls",
+      "blog/hikes/the-way-of-water"
     ]
   },
   "i-mall": {
@@ -1081,14 +829,8 @@
     "area": 207160,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "icon-village": {
@@ -1102,13 +844,7 @@
     "area": 29838,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "ikea-alexandra": {
@@ -1121,13 +857,7 @@
     "area": 400000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "ikea-tampines": {
@@ -1152,13 +882,7 @@
     "area": 953002,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tale-of-two-rivers"
-        ]
-      }
+      "blog/hikes/tale-of-two-rivers"
     ]
   },
   "ion-orchard": {
@@ -1178,15 +902,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls",
-          "tel-3",
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls",
+      "blog/hikes/tel-3",
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "j-cube": {
@@ -1200,13 +918,7 @@
     "area": 210036,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tale-of-two-rivers"
-        ]
-      }
+      "blog/hikes/tale-of-two-rivers"
     ]
   },
   "jem": {
@@ -1220,13 +932,7 @@
     "area": 892000,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tale-of-two-rivers"
-        ]
-      }
+      "blog/hikes/tale-of-two-rivers"
     ]
   },
   "jewel-changi-airport": {
@@ -1257,13 +963,7 @@
     "area": 30000,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "junction-10": {
@@ -1277,13 +977,7 @@
     "area": 90879,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls"
     ]
   },
   "junction-8": {
@@ -1297,16 +991,10 @@
     "area": 252383,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "balestier-malls",
-          "river-flows-in-you",
-          "the-circle-of-life",
-          "thomson-malls"
-        ]
-      }
+      "blog/hikes/balestier-malls",
+      "blog/hikes/river-flows-in-you",
+      "blog/hikes/the-circle-of-life",
+      "blog/hikes/thomson-malls"
     ]
   },
   "junction-9": {
@@ -1320,13 +1008,7 @@
     "area": 95351,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "jurong-point": {
@@ -1351,16 +1033,10 @@
     "area": 441320,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "east-coast-malls",
-          "the-circle-of-life",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/the-circle-of-life",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "katong-shopping-centre": {
@@ -1374,14 +1050,8 @@
     "area": 90000,
     "aesthetics": 1,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "katong-square": {
@@ -1400,14 +1070,8 @@
     "area": 47184,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "keat-hong-shopping-centre": {
@@ -1431,13 +1095,7 @@
     "latitude": 1.3029831225958,
     "longitude": 103.836283923443,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "le-quest": {
@@ -1451,13 +1109,7 @@
     "area": 45000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "leisure-park-kallang": {
@@ -1487,13 +1139,7 @@
     "area": 219836,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls"
     ]
   },
   "loyang-point": {
@@ -1518,13 +1164,7 @@
     "area": 175200,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "mandarin-gallery": {
@@ -1538,13 +1178,7 @@
     "area": 126282,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "marina-bay-link-mall": {
@@ -1590,13 +1224,7 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tel-3"
-        ]
-      }
+      "blog/hikes/tel-3"
     ]
   },
   "marina-square": {
@@ -1610,13 +1238,7 @@
     "area": 780000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "marsiling-mall": {
@@ -1634,13 +1256,7 @@
     "latitude": 1.30178378195546,
     "longitude": 103.838660627347,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "millenia-walk": {
@@ -1654,13 +1270,7 @@
     "area": 322917,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "mustafa-centre": {
@@ -1674,13 +1284,7 @@
     "area": 400000,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east"
     ]
   },
   "nex": {
@@ -1694,14 +1298,8 @@
     "area": 616000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "ngee-ann-city": {
@@ -1715,13 +1313,7 @@
     "area": 255021,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "northpoint-city": {
@@ -1735,14 +1327,8 @@
     "area": 500000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls",
-          "the-forgotten-airport"
-        ]
-      }
+      "blog/hikes/north-coast-malls",
+      "blog/hikes/the-forgotten-airport"
     ]
   },
   "northshore-plaza": {
@@ -1756,15 +1342,9 @@
     "area": 62200,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast",
-          "sengkang-malls",
-          "the-way-of-water"
-        ]
-      }
+      "blog/hikes/coast-2-coast",
+      "blog/hikes/sengkang-malls",
+      "blog/hikes/the-way-of-water"
     ]
   },
   "oasis-terraces": {
@@ -1778,13 +1358,7 @@
     "area": 193750,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "one-fullerton": {
@@ -1798,13 +1372,7 @@
     "area": 60314,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "one-holland-village": {
@@ -1831,13 +1399,7 @@
     "area": 100000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "orchard-central": {
@@ -1851,13 +1413,7 @@
     "area": 258912,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "orchard-gateway": {
@@ -1871,13 +1427,7 @@
     "area": 170000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "orchard-plaza": {
@@ -1901,14 +1451,8 @@
     "area": 300000,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/eastern-malls"
     ]
   },
   "palais-renaissance": {
@@ -1927,13 +1471,7 @@
     "area": 576000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls"
     ]
   },
   "paya-lebar-quarter": {
@@ -1947,15 +1485,9 @@
     "area": 340000,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "east-coast-malls",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "paya-lebar-square": {
@@ -1969,15 +1501,9 @@
     "area": 95475,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "east-coast-malls",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "peninsula-plaza": {
@@ -1993,13 +1519,7 @@
     "longitude": 103.843865,
     "year": 1973.0,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "peoples-park-complex": {
@@ -2010,13 +1530,7 @@
     "floors": 4.0,
     "area": 845000,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "pioneer-mall": {
@@ -2040,15 +1554,9 @@
     "area": 619023,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "orchard-malls",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/orchard-malls",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "punggol-plaza": {
@@ -2062,13 +1570,7 @@
     "area": 370000,
     "aesthetics": 1,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "queensway-shopping-centre": {
@@ -2082,13 +1584,7 @@
     "area": 66320,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "raffles-city": {
@@ -2102,14 +1598,8 @@
     "area": 426830,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "rail-mall": {
@@ -2123,14 +1613,8 @@
     "area": 50000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls",
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls",
+      "blog/hikes/coast-2-coast"
     ]
   },
   "resorts-world-sentosa": {
@@ -2153,13 +1637,7 @@
     "area": 81160,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "rivervale-plaza": {
@@ -2169,14 +1647,8 @@
     "longitude": 103.901849634797,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls",
-          "the-way-of-water"
-        ]
-      }
+      "blog/hikes/sengkang-malls",
+      "blog/hikes/the-way-of-water"
     ]
   },
   "rochester-mall": {
@@ -2184,13 +1656,7 @@
     "latitude": 1.30540765569962,
     "longitude": 103.788446680148,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "nus-smu"
-        ]
-      }
+      "blog/hikes/nus-smu"
     ]
   },
   "roxy-square": {
@@ -2203,14 +1669,8 @@
     "area": 36425,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "east-coast-malls",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "scotts-square": {
@@ -2220,13 +1680,7 @@
     "longitude": 103.83308338186,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "seletar-mall": {
@@ -2240,13 +1694,7 @@
     "area": 188000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "sengkang-malls"
-        ]
-      }
+      "blog/hikes/sengkang-malls"
     ]
   },
   "sembawang-shopping-centre": {
@@ -2260,13 +1708,7 @@
     "area": 143631,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "sengkang-grand-mall": {
@@ -2276,14 +1718,8 @@
     "longitude": 103.89242,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "the-way-of-water"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/the-way-of-water"
     ]
   },
   "serangoon-plaza": {
@@ -2310,13 +1746,7 @@
     "floors": 22.0,
     "year": 1993.0,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "sim-lim-square": {
@@ -2330,13 +1760,7 @@
     "area": 236881,
     "aesthetics": 2,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "singapore-shopping-centre": {
@@ -2355,15 +1779,9 @@
     "area": 175000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "east-coast-malls",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "south-beach": {
@@ -2394,13 +1812,7 @@
     "area": 158000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "sunshine-place": {
@@ -2433,19 +1845,13 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "east-coast-malls",
-          "plan-for-the-east-coast",
-          "river-flows-in-you",
-          "tale-of-two-rivers",
-          "the-circle-of-life",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/east-coast-malls",
+      "blog/hikes/plan-for-the-east-coast",
+      "blog/hikes/river-flows-in-you",
+      "blog/hikes/tale-of-two-rivers",
+      "blog/hikes/the-circle-of-life",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "taman-jurong-shopping-centre": {
@@ -2468,14 +1874,8 @@
     "area": 260000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/eastern-malls"
     ]
   },
   "tampines-mall": {
@@ -2489,14 +1889,8 @@
     "area": 377437,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "eastern-malls"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/eastern-malls"
     ]
   },
   "tampines-mart": {
@@ -2515,13 +1909,7 @@
     "stores": 90.0,
     "floors": 4.0,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tel-3"
-        ]
-      }
+      "blog/hikes/tel-3"
     ]
   },
   "tanjong-pagar-centre": {
@@ -2535,13 +1923,7 @@
     "area": 100000,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/south-coast-malls"
     ]
   },
   "teck-whye-shopping-centre": {
@@ -2565,14 +1947,8 @@
     "area": 70000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "south-coast-malls"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/south-coast-malls"
     ]
   },
   "the-cathay": {
@@ -2593,14 +1969,8 @@
     "area": 371300,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "nus-smu",
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/nus-smu",
+      "blog/hikes/orchard-malls"
     ]
   },
   "the-flow": {
@@ -2632,13 +2002,7 @@
     "area": 484840,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "the-poiz": {
@@ -2648,14 +2012,8 @@
     "longitude": 103.868076452861,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "river-flows-in-you"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/river-flows-in-you"
     ]
   },
   "the-star-vista": {
@@ -2675,16 +2033,10 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "nus-smu",
-          "romance-of-three-kingdoms",
-          "tale-of-two-rivers",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/nus-smu",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/tale-of-two-rivers",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "thomson-plaza": {
@@ -2698,15 +2050,9 @@
     "area": 239316,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "navi",
-          "thomson-malls",
-          "thomson-whampoa"
-        ]
-      }
+      "blog/hikes/thomson-and-jerry",
+      "blog/hikes/thomson-malls",
+      "blog/hikes/very-itchy"
     ]
   },
   "tiong-bahru-plaza": {
@@ -2720,13 +2066,7 @@
     "area": 209000,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tiong-bahru-malls"
-        ]
-      }
+      "blog/hikes/tiong-bahru-malls"
     ]
   },
   "united-square": {
@@ -2783,16 +2123,10 @@
     "area": 1076251,
     "aesthetics": 9,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "romance-of-three-kingdoms",
-          "south-coast-malls",
-          "the-circle-of-life"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/romance-of-three-kingdoms",
+      "blog/hikes/south-coast-malls",
+      "blog/hikes/the-circle-of-life"
     ]
   },
   "waterway-point": {
@@ -2812,15 +2146,9 @@
       }
     ],
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east",
-          "sengkang-malls",
-          "the-forgotten-airport"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east",
+      "blog/hikes/sengkang-malls",
+      "blog/hikes/the-forgotten-airport"
     ]
   },
   "west-coast-plaza": {
@@ -2834,14 +2162,8 @@
     "area": 151137,
     "aesthetics": 4,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "plan-for-the-west-coast",
-          "west-coast-malls"
-        ]
-      }
+      "blog/hikes/plan-for-the-west-coast",
+      "blog/hikes/west-coast-malls"
     ]
   },
   "west-mall": {
@@ -2855,13 +2177,7 @@
     "area": 183000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "coast-2-coast"
-        ]
-      }
+      "blog/hikes/coast-2-coast"
     ]
   },
   "westgate": {
@@ -2875,13 +2191,7 @@
     "area": 411272,
     "aesthetics": 8,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "tale-of-two-rivers"
-        ]
-      }
+      "blog/hikes/tale-of-two-rivers"
     ]
   },
   "wheelock-place": {
@@ -2895,13 +2205,7 @@
     "area": 153258,
     "aesthetics": 5,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "white-sands": {
@@ -2915,16 +2219,10 @@
     "area": 148000,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bedok-reservoir",
-          "eastern-malls",
-          "the-forgotten-airport",
-          "wheres-my-shelter"
-        ]
-      }
+      "blog/hikes/bedok-reservoir",
+      "blog/hikes/eastern-malls",
+      "blog/hikes/the-forgotten-airport",
+      "blog/hikes/wheres-my-shelter"
     ]
   },
   "wisma-atria": {
@@ -2938,13 +2236,7 @@
     "area": 127000,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "orchard-malls"
-        ]
-      }
+      "blog/hikes/orchard-malls"
     ]
   },
   "wisteria-mall": {
@@ -2958,13 +2250,7 @@
     "area": 83361,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "woodlands-civic-centre": {
@@ -2992,13 +2278,7 @@
     "area": 96800,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "journey-to-the-north-east"
-        ]
-      }
+      "blog/hikes/journey-to-the-north-east"
     ]
   },
   "woods-square": {
@@ -3012,13 +2292,7 @@
     "area": 39264,
     "aesthetics": 3,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "north-coast-malls"
-        ]
-      }
+      "blog/hikes/north-coast-malls"
     ]
   },
   "yew-tee-point": {
@@ -3032,13 +2306,7 @@
     "area": 73699,
     "aesthetics": 7,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "bukit-panjang-malls"
-        ]
-      }
+      "blog/hikes/bukit-panjang-malls"
     ]
   },
   "yew-tee-square": {
@@ -3053,14 +2321,8 @@
     "longitude": 103.846554377679,
     "aesthetics": 6,
     "related": [
-      {
-        "category": "blog",
-        "type": "hikes",
-        "items": [
-          "balestier-malls",
-          "thomson-whampoa"
-        ]
-      }
+      "blog/hikes/balestier-malls",
+      "blog/hikes/thomson-and-jerry"
     ]
   }
 }
