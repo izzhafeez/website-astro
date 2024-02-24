@@ -11,11 +11,14 @@ const currentPath = Astro.url.pathname;
     <style is:global>
       @import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900");
       @import url("https://fonts.googleapis.com/css?family=Raleway:400,300,700");
-      
+
+      html {
+        overflow-y: scroll;
+      }
+
       body {
         margin: 0;
         line-height: 1.2;
-        background-color: #FFF;
         font-family: 'Inter', 'Raleway', 'Ubuntu', 'Fira Sans';
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -33,11 +36,16 @@ const currentPath = Astro.url.pathname;
     <script is:inline>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          document.querySelector('html')?.classList.add('dark');
+        document.querySelector('html')?.classList.add('dark');
+        document.documentElement.style.scrollbarColor = '#374151 #111827';
       } else {
-          document.querySelector('html')?.classList.remove('dark')
+        document.querySelector('html')?.classList.remove('dark');
+        document.documentElement.style.scrollbarColor = '';
       }
-
+    </script>
+  </head>
+  <body class="overflow-x-hidden dark:bg-gray-900 w-screen">
+    <script>
       var themeToggleBtn = document.getElementById('theme-toggle');
 
       themeToggleBtn?.addEventListener('click', function() {
@@ -46,9 +54,11 @@ const currentPath = Astro.url.pathname;
           if (localStorage.getItem('color-theme') === 'light') {
             document.querySelector('html')?.classList.add('dark');
             localStorage.setItem('color-theme', 'dark');
+            document.documentElement.style.setProperty('scrollbar-color', '#374151 #111827');
           } else {
             document.querySelector('html')?.classList.remove('dark');
             localStorage.setItem('color-theme', 'light');
+            document.documentElement.style.setProperty('scrollbar-color', '');
           }
 
         // if NOT set via local storage previously
@@ -56,18 +66,18 @@ const currentPath = Astro.url.pathname;
           if (document.querySelector('html')?.classList.contains('dark')) {
             document.querySelector('html')?.classList.remove('dark');
             localStorage.setItem('color-theme', 'light');
+            document.documentElement.style.setProperty('scrollbar-color', '');
           } else {
             document.querySelector('html')?.classList.add('dark');
             localStorage.setItem('color-theme', 'dark');
+            document.documentElement.style.setProperty('scrollbar-color', '#374151 #111827');
           }
         }
           
       });
     </script>
-  </head>
-  <body class="overflow-x-hidden dark:bg-gray-900 transition-colors">
     <NavBar currentPath={currentPath}/>
-    <article class="p-2">
+    <article class="px-4">
       <slot name="main"/>
     </article>
     <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>

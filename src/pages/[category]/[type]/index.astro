@@ -1,7 +1,5 @@
 ---
-import SmallItemPreviews from '@components/SmallItemPreviews';
-import MediumItemPreviews from '@components/MediumItemPreviews';
-import LargeItemPreviews from '@components/LargeItemPreviews';
+import ItemPreviews from '@components/ItemPreviews';
 import { allItems } from '@items/getItems';
 import Layout from '../../../layouts/Layout.astro';
 
@@ -23,11 +21,7 @@ const items = allItems.filter(item => item.category === category && item.type ==
 
 <Layout>
   <div slot="main">
-  {items[0] && items[0].getSize() === 'SMALL' && <SmallItemPreviews items={allItems
-    .filter(item => item.category === category && item.type === type)}/>}
-  {items[0] && items[0].getSize() === 'MEDIUM' && <MediumItemPreviews items={allItems
-    .filter(item => item.category === category && item.type === type)}/>}
-  {items[0] && items[0].getSize() === 'LARGE' && <LargeItemPreviews items={allItems
+  {items[0] && <ItemPreviews size={items[0].getSize()} items={allItems
     .filter(item => item.category === category && item.type === type)}/>}
   </div>
 <Layout/>

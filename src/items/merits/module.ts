@@ -13,22 +13,8 @@ class Module extends Item implements IModule {
     this.grade = iModule.grade;
   }
 
-  override getBracketed(): string {
-    return this.grade;
-  }
-
-  override getBracketedColor(): string {
-    switch (this.grade) {
-      case 'A+':
-      case 'A':
-        return 'ew';
-      case 'A-':
-        return 'cc';
-      case 'B+':
-        return 'ns';
-      default:
-        return 'black';
-    }
+  override getTitle(): string {
+    return `${this.key.toUpperCase()} (${this.grade})`;
   }
 
   override getSubtitle(): string {

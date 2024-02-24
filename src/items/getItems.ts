@@ -5,6 +5,7 @@ import allData from "@data/data";
 import Certificate from "./merits/certificate";
 import Experience from "./merits/experience";
 import Language from "./merits/language";
+import Module from "./merits/module";
 import Skill from "./merits/skill";
 import Technology from "./merits/technology";
 import Coding from "./projects/coding";
@@ -24,6 +25,8 @@ export function createItem(iitem: IItem): Item {
       return new Experience(iitem as IExperience);
     case 'languages':
       return new Language(iitem as ILanguage);
+    case 'modules':
+      return new Module(iitem as IModule);
     case 'skills':
       return new Skill(iitem as ISkill);
     case 'technologies':

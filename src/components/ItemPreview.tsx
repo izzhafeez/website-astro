@@ -2,11 +2,14 @@ import type Item from '@items/item';
 import React from 'react';
 import GoldStar from './utils/GoldStar.tsx';
 
-class SmallItemPreview extends React.Component<{ item: Item }> {
+class ItemPreview extends React.Component<{ item: Item, size: string }> {
   render() {
     const item = this.props.item;
 
-    const shapeClasses = 'h-[5rem] border-[1px] flex items-center overflow-hidden';
+    var shapeClasses = `border-[1px] flex items-center overflow-hidden`;
+    if (this.props.size === 'LARGE') shapeClasses += ' h-[7rem]';
+    else shapeClasses += ' h-[5rem]';
+    
     var colorClasses = `border-gray-200 bg-gray-100/50 dark:border-gray-700 dark:bg-gray-800/50`;
     var spanBorder = 'ease absolute size-0 transition-all duration-200';
 
@@ -32,10 +35,11 @@ class SmallItemPreview extends React.Component<{ item: Item }> {
       {<img src={imgSrc} className={imgClasses}/>}
       <div className='flex-grow text-left px-2'>
         <span className='line-clamp-1 overflow-hidden'><a href={linkSrc} className={linkClasses}>{item.getTitle()}</a> {item.isStarred() && <GoldStar/>}</span>
-        <span className='text-gray-500 dark:text-gray-400'>{item.getSubtitle()}</span>
+        <div className='text-gray-500 dark:text-gray-400 leading-5'>{item.getSubtitle()}</div>
+        {this.props.size === 'LARGE' && <><span className='text-gray-500 dark:text-gray-400 line-clamp-2 overflow-hidden leading-5'>{item.getOverview()}</span></>}
       </div>
     </article>;
   }
 }
 
-export default SmallItemPreview;
+export default ItemPreview;
