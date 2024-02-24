@@ -12,6 +12,18 @@ class Coding extends Item implements ICoding {
     this.overview = iCoding.overview;
     this.repo = iCoding.repo;
   }
+
+  override getSize(): string {
+    return 'LARGE';
+  }
+
+  override getSubtitle(): string {
+    return this.date;
+  }
+
+  override getOverview(): string {
+    return this.overview;
+  }
 }
 
 export default Coding;

@@ -5,7 +5,7 @@ class Link extends React.Component<{ link: string, text: string, category?: stri
     const { link, text, category } = this.props;
 
     return <a href={link}
-      className={`underline text-${category}-500`}>{text}</a>;
+      className={`underline font-medium`}>{text}</a>;
   }
 }
 

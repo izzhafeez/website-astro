@@ -10,6 +10,14 @@ class Music extends Item implements IMusic {
     this.artist = iMusic.artist;
     this.link = iMusic.link;
   }
+
+  override getSize(): string {
+    return 'SMALL';
+  }
+
+  override getSubtitle(): string {
+    return this.artist;
+  }
 }
 
 export default Music;

@@ -10,6 +10,14 @@ class Graph extends Item implements IGraph {
     this.complexity = iGraph.complexity;
     this.link = iGraph.link;
   }
+
+  override getSize(): string {
+    return 'SMALL';
+  }
+
+  override getSubtitle(): string {
+    return super.getStarScale(this.complexity);
+  }
 }
 
 export default Graph;

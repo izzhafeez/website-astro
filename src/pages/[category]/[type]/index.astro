@@ -1,9 +1,9 @@
 ---
 import SmallItemPreviews from '@components/SmallItemPreviews';
 import MediumItemPreviews from '@components/MediumItemPreviews';
-import BreadCrumbs from '@components/nav/BreadCrumbs.astro';
+import LargeItemPreviews from '@components/LargeItemPreviews';
 import { allItems } from '@items/getItems';
-import DefaultLayout from '../../../layouts/Layout.astro';
+import Layout from '../../../layouts/Layout.astro';
 
 export const getStaticPaths = () => allItems.map(item => ({
   params: {
@@ -21,17 +21,13 @@ const { category, type } = Astro.params;
 const items = allItems.filter(item => item.category === category && item.type === type);
 ---
 
-<DefaultLayout>
-  <div class="size-5">
-    <div class="absolute -z-10 top-0 -left-4 w-72 h-72 bg-ne-300 rounded-full mix-blend-lighten filter blur-xl opacity-70 animate-blob"></div>
-    <div class="absolute -z-10 top-0 -right-4 w-72 h-72 bg-cc-300 rounded-full mix-blend-lighten filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-    <div class="absolute -z-10 -bottom-8 left-20 w-72 h-72 bg-mp-300 rounded-full mix-blend-lighten filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-  </div>
-  <BreadCrumbs category={category} type=""/>
+<Layout>
+  <div slot="main">
   {items[0] && items[0].getSize() === 'SMALL' && <SmallItemPreviews items={allItems
     .filter(item => item.category === category && item.type === type)}/>}
   {items[0] && items[0].getSize() === 'MEDIUM' && <MediumItemPreviews items={allItems
     .filter(item => item.category === category && item.type === type)}/>}
-  {items[0] && items[0].getSize() === 'LARGE' && <MediumItemPreviews items={allItems
+  {items[0] && items[0].getSize() === 'LARGE' && <LargeItemPreviews items={allItems
     .filter(item => item.category === category && item.type === type)}/>}
-<DefaultLayout/>
+  </div>
+<Layout/>

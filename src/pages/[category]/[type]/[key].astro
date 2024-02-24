@@ -1,6 +1,5 @@
 ---
 import { allItems } from '@items/getItems';
-import BreadCrumbs from '../../../components/nav/BreadCrumbs.astro';
 
 export const getStaticPaths = (() => {
   return allItems.map(item => ({
@@ -14,9 +13,7 @@ export const getStaticPaths = (() => {
 });
 
 export const prerender = true;
-const { category, type } = Astro.props.item;
 ---
 
 <>
-  <BreadCrumbs category={category} type={type}/>
 </>

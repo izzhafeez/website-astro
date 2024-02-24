@@ -1,5 +1,7 @@
 ---
+import NavBar from '../components/nav/NavBar';
 
+const currentPath = Astro.url.pathname;
 ---
 
 <html lang="en">
@@ -7,16 +9,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style is:global>
-      @import url("https://fonts.googleapis.com/css?family=Poppins:400,300,700");
+      @import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900");
       @import url("https://fonts.googleapis.com/css?family=Raleway:400,300,700");
-      @tailwind base;
-      @tailwind components;
-      @tailwind utilities;
-
+      
       body {
         margin: 0;
         line-height: 1.2;
-        font-family: 'Poppins', 'Raleway', 'Ubuntu', 'Fira Sans';
+        background-color: #FFF;
+        font-family: 'Inter', 'Raleway', 'Ubuntu', 'Fira Sans';
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -26,19 +26,50 @@
           monospace;
       }
 
-      @layer utilities {
-        .animation-delay-2000 {
-          animation-delay: 2s;
-        }
-        .animation-delay-4000 {
-          animation-delay: 4s;
-        }
-      }
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
     </style>
+    <script is:inline>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.querySelector('html')?.classList.add('dark');
+      } else {
+          document.querySelector('html')?.classList.remove('dark')
+      }
+
+      var themeToggleBtn = document.getElementById('theme-toggle');
+
+      themeToggleBtn?.addEventListener('click', function() {
+        // if set via local storage previously
+        if (localStorage.getItem('color-theme')) {
+          if (localStorage.getItem('color-theme') === 'light') {
+            document.querySelector('html')?.classList.add('dark');
+            localStorage.setItem('color-theme', 'dark');
+          } else {
+            document.querySelector('html')?.classList.remove('dark');
+            localStorage.setItem('color-theme', 'light');
+          }
+
+        // if NOT set via local storage previously
+        } else {
+          if (document.querySelector('html')?.classList.contains('dark')) {
+            document.querySelector('html')?.classList.remove('dark');
+            localStorage.setItem('color-theme', 'light');
+          } else {
+            document.querySelector('html')?.classList.add('dark');
+            localStorage.setItem('color-theme', 'dark');
+          }
+        }
+          
+      });
+    </script>
   </head>
-  <body class="text-white bg-black overflow-x-hidden">
-    <article>
-      <slot/>
+  <body class="overflow-x-hidden dark:bg-gray-900 transition-colors">
+    <NavBar currentPath={currentPath}/>
+    <article class="p-2">
+      <slot name="main"/>
     </article>
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
   </body>
 </html>

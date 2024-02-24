@@ -45,7 +45,7 @@ export function createItem(iitem: IItem): Item {
   }
 }
 
-export const allItems: Item[] = [];
+export var allItems: Item[] = [];
 for (const [category, v] of Object.entries(allData)) {
   if (category === 'home') continue;
   const categoryData: Object = v.data;
@@ -58,3 +58,5 @@ for (const [category, v] of Object.entries(allData)) {
     }
   }
 }
+
+allItems = allItems.sort((a, b) => b.importance - a.importance);
