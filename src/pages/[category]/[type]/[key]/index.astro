@@ -1,5 +1,6 @@
 ---
-import { allItems } from '@items/getItems';
+import { allItems } from '../../../../items/getItems';
+import Layout from '../../../../layouts/Layout.astro';
 
 export const getStaticPaths = (() => {
   return allItems.map(item => ({
@@ -15,5 +16,6 @@ export const getStaticPaths = (() => {
 export const prerender = true;
 ---
 
-<>
-</>
+<Layout>
+  
+</Layout>

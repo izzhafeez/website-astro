@@ -2,7 +2,7 @@ import type Item from '@items/item';
 import React from 'react';
 import ItemPreview from './ItemPreview';
 
-class ItemPreviews extends React.Component<{ items: Item[], size: string }> {
+class ItemPreviews extends React.Component<{ items: Item[], size: string, defaultHeader?: string }> {
   render() {
     const categories = new Set();
     const types = new Set();
@@ -19,6 +19,7 @@ class ItemPreviews extends React.Component<{ items: Item[], size: string }> {
     } else if (categories.size <= 2) {
       header = Array.from(categories).join(" AND ").toUpperCase();
     }
+    header = this.props.defaultHeader || header;
 
     var className = '';
     switch (this.props.size) {
@@ -36,7 +37,7 @@ class ItemPreviews extends React.Component<{ items: Item[], size: string }> {
     return <>
       <h1 className='font-extrabold text-3xl text-black dark:text-white'>{header}</h1>
       <ul className={className}>
-        {this.props.items.map(item => <ItemPreview item={item} size={this.props.size}/>)}
+        {this.props.items.map(item => <li key={item.key}><ItemPreview item={item} size={this.props.size}/></li>)}
       </ul>
     </>
   }

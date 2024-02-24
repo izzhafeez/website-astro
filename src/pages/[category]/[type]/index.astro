@@ -21,7 +21,7 @@ const items = allItems.filter(item => item.category === category && item.type ==
 
 <Layout>
   <div slot="main">
-  {items[0] && <ItemPreviews size={items[0].getSize()} items={allItems
-    .filter(item => item.category === category && item.type === type)}/>}
+    {items[0] && <ItemPreviews size={items[0].getSize()} items={allItems
+      .filter(item => item.category === category && item.type === type)}/>}
   </div>
 <Layout/>

@@ -27,11 +27,11 @@ class ItemPreview extends React.Component<{ item: Item, size: string }> {
     const imgSrc = !!item.imgPath ? `/img/${item.category}/${item.type}/${item.imgPath}` : '/img/desmosito-black.png';
     const imgClasses = `object-cover size-[4.5rem] p-[0.25rem] ms-1 bg-white rounded-full border-[3px] dark:border-gray-700`;
 
-    return <article className={`${shapeClasses} ${colorClasses} relative group`} key={item.key}>
-      <span class={`${spanBorder} left-0 top-0 border-t-2 group-hover:w-full`}></span>
-      <span class={`${spanBorder} right-0 top-0 border-r-2 group-hover:h-full`}></span>
-      <span class={`${spanBorder} bottom-0 right-0 border-b-2 group-hover:w-full`}></span>
-      <span class={`${spanBorder} bottom-0 left-0 border-l-2 group-hover:h-full`}></span>
+    return <article className={`${shapeClasses} ${colorClasses} relative group`}>
+      <span className={`${spanBorder} left-0 top-0 border-t-2 group-hover:w-full`}></span>
+      <span className={`${spanBorder} right-0 top-0 border-r-2 group-hover:h-full`}></span>
+      <span className={`${spanBorder} bottom-0 right-0 border-b-2 group-hover:w-full`}></span>
+      <span className={`${spanBorder} bottom-0 left-0 border-l-2 group-hover:h-full`}></span>
       {<img src={imgSrc} className={imgClasses}/>}
       <div className='flex-grow text-left px-2'>
         <span className='line-clamp-1 overflow-hidden'><a href={linkSrc} className={linkClasses}>{item.getTitle()}</a> {item.isStarred() && <GoldStar/>}</span>
