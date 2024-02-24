@@ -32,10 +32,13 @@ class ItemPreviews extends React.Component<{ items: Item[], size: string, defaul
       case 'LARGE':
         className = "grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-flow-row gap-2";
         break;
+      case 'TWIN':
+        className = "grid grid-cols-1 xl:grid-cols-2 grid-flow-row gap-2";
+        break;
     }
 
     return <>
-      <h1 className='font-extrabold text-3xl text-black dark:text-white'>{header}</h1>
+      {!!this.props.items.length && <h1 className='font-extrabold mb-2 text-3xl text-black dark:text-white'>{header}</h1>}
       <ul className={className}>
         {this.props.items.map(item => <li key={item.key}><ItemPreview item={item} size={this.props.size}/></li>)}
       </ul>

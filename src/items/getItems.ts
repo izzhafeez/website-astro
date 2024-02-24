@@ -48,7 +48,7 @@ export function createItem(iitem: IItem): Item {
   }
 }
 
-export var allItems: Item[] = [];
+var unsortedItems: Item[] = [];
 for (const [category, v] of Object.entries(allData)) {
   if (category === 'home') continue;
   const categoryData: Object = v.data;
@@ -57,9 +57,10 @@ for (const [category, v] of Object.entries(allData)) {
     for (const [key, v] of Object.entries(typeData)) {
       const item = createItem({
         category, type, key, ...v });
-      allItems.push(item);
+      unsortedItems.push(item);
     }
   }
 }
 
-allItems = allItems.sort((a, b) => b.importance - a.importance);
+unsortedItems.sort((a, b) => (b.importance || 0) - (a.importance || 0));
+export const allItems = unsortedItems;
