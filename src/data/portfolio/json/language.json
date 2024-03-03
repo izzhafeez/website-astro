@@ -1,0 +1,672 @@
+{
+  "bash": {
+    "title": "Bash",
+    "imgPath": "bash.svg",
+    "importance": 2,
+    "date": 2019,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "description",
+        "text": "Bash (Bourne Again SHell) is a widely-used command-line interpreter and scripting language in Unix-like operating systems, offering powerful features for automating tasks, managing files and directories, and executing system commands."
+      },
+      {
+        "title": "background",
+        "text": "Besides schoolwork, I've done a couple of automation scripts in Bash, including an <</portfolio/coding/auto-gitter>>auto-gitter</>, which commits individual files in a directory individually."
+      }
+    ],
+    "related": [
+      "portfolio/coding/auto-gitter",
+      "portfolio/coding/website-react",
+      "portfolio/module/cs2106"
+    ]
+  },
+  "c": {
+    "title": "C Language",
+    "imgPath": "c.svg",
+    "importance": 3,
+    "date": 2021,
+    "proficiency": 2,
+    "description": [
+      {
+        "title": "description",
+        "text": "C is a versatile and efficient programming language known for its low-level control, strong performance, and widespread usage in system programming, embedded systems, and application development."
+      },
+      {
+        "title": "background",
+        "text": "Apart from course work, the only time I've used C was in the form of RobotC, which was used to code up robots during my time in <</portfolio/experience/robotics>>Robotics Club</>."
+      }
+    ],
+    "related": [
+      "portfolio/module/cs2100",
+      "portfolio/module/cs2106",
+      "portfolio/coding/programming-lines-counter",
+      "portfolio/coding/website-react"
+    ]
+  },
+  "c-sharp": {
+    "title": "C#",
+    "imgPath": "c-sharp.svg",
+    "importance": 3,
+    "date": 2021,
+    "proficiency": 3,
+    "description": [
+      {
+        "title": "description",
+        "text": "C# is a versatile and modern programming language developed by Microsoft, known for its strong type-safety, extensive library support, and seamless integration with the .NET framework, making it ideal for building robust and scalable software applications."
+      },
+      {
+        "title": "background",
+        "text": "I first learned C# in 2021, when I was preparing for my work in <</portfolio/experience/data-management>>Enterprise Information Management</>. It was mainly basic OOP principles at first, but I ended up not using it anyway.\nShortly after entering NUS, I joined the Games Development Group, where I learnt how work with the Unity Game Engine. Through the club sessions, I got to learn how to write game scripts in C#, though I am far from proficient at it.\nI also tried my hand at learning the ASP.NET framework, though I didn't manage to get far other than a simple CRUD application."
+      }
+    ],
+    "related": [
+      "portfolio/technology/unity",
+      "portfolio/skill/data-management",
+      "portfolio/skill/game-development",
+      "portfolio/coding/malls-of-singapore"
+    ]
+  },
+  "chinese": {
+    "title": "Chinese",
+    "imgPath": "chinese.svg",
+    "importance": 8,
+    "date": 2018,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "background",
+        "text": "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the \u6c49\u8bed\u6c34\u5e73\u8003\u8bd5, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range.\nApart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my <</portfolio/coding/sentence-searcher>>language extraction package</> allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
+      }
+    ],
+    "related": [
+      "portfolio/certificate/hsk-5",
+      "portfolio/certificate/hsk-6",
+      "portfolio/coding/sentence-searcher"
+    ]
+  },
+  "cpp": {
+    "title": "C++",
+    "imgPath": "cpp.svg",
+    "importance": 2,
+    "date": 2017,
+    "proficiency": 2,
+    "description": [
+      {
+        "title": "description",
+        "text": "C++ is a powerful object-oriented programming language that extends the capabilities of C with features such as classes, templates, and dynamic memory management, making it suitable for a wide range of applications including game development, high-performance computing, and system-level programming."
+      },
+      {
+        "title": "background",
+        "text": "I first learned C++ in 2017, where I was getting to know the basics of programming. Along with <</portfolio/language/python>>Python</>, C++ was one of my first languages. Despite having early exposure to the language, I didn't explore C++ any further, and chose to focus on Python for my regular programming tasks.\nIn 2022, after learning the <</portfolio/language/c>>C language</>, I started creating my own projects in C++. I mainly did projects that allowed me to practice both my <</portfolio/skill/data-structures>>Data Structures</> and OOP. For example, I created a <</portfolio/coding/sz-matrix>>self-zooming matrix</> that allows me to store geospatial points and perform distance queries more easily."
+      }
+    ],
+    "related": [
+      "portfolio/coding/sz-matrix",
+      "portfolio/skill/data-structures"
+    ]
+  },
+  "css": {
+    "title": "CSS",
+    "imgPath": "css.svg",
+    "importance": 2,
+    "date": 2013,
+    "proficiency": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "CSS (Cascading Style Sheets) is a stylesheet language used for describing the visual presentation of web pages, allowing developers to define colors, layouts, fonts, and other visual aspects to create visually appealing and responsive websites."
+      },
+      {
+        "title": "background",
+        "text": "Despite being a simple language at first glance, CSS actually has a very high skill ceiling. It seems that no matter how much is learned about CSS, there will be always some new technique to learn. Over the years, I got to know more and more CSS tricks that helped me achieve certain designs."
+      }
+    ],
+    "related": [
+      "portfolio/technology/bootstrap",
+      "portfolio/skill/data-management",
+      "portfolio/skill/frontend-development",
+      "portfolio/skill/web-development",
+      "portfolio/coding/bus-routes-optimiser",
+      "portfolio/coding/chords-search-engine",
+      "portfolio/coding/malls-of-singapore",
+      "portfolio/coding/meetup-maker",
+      "portfolio/coding/note-together",
+      "portfolio/coding/website-react"
+    ]
+  },
+  "english": {
+    "title": "English",
+    "imgPath": "english.svg",
+    "importance": 3,
+    "proficiency": 10
+  },
+  "french": {
+    "title": "French",
+    "imgPath": "french.svg",
+    "importance": 3,
+    "date": 2015,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "background",
+        "text": "I started learning French in 2015, because my friend had introduced me to Duolingo. Despite finding the vocabulary relatively easy, I fumbled over the pronunciation and grammar during the early stages.\nIn 2019, I returned to learning French, seeing as though I had much more time during my NS. I worked hard and studied for the B2 language exam. I managed to learn the grammar that I had been lacking till then, and managed to score well for most of the practice papers that I had access to. I also communicated with native speakers via HelloTalk, where I was able to have decent conversations in French. However, I still had issues with speaking, as I have no frequent exposure to the language in my daily life. Besides listening to French songs and watching French content creators, I don't hear much spoken French around me, which makes me unable to have a chance at conquering the DELF B2 exam."
+      }
+    ]
+  },
+  "go": {
+    "title": "Go",
+    "imgPath": "go.svg",
+    "importance": 3,
+    "date": 2022,
+    "proficiency": 3,
+    "description": [
+      {
+        "title": "description",
+        "text": "Go, also known as Golang, is a statically typed and compiled programming language developed by Google, characterised by its simplicity, efficiency, and built-in support for concurrency, making it well-suited for scalable and performant applications, including web servers, networked services, and distributed systems."
+      },
+      {
+        "title": "background",
+        "text": "Most of my Go knowledge comes from learning and developing API using the Gin framework. It isn't much, but it's a good enough foundation. My current work in Go is creating the backend for my <</portfolio/coding/malls-of-singapore>>Malls Card Game</>, and I model the backend design from the CodeNames codebase, which is a text-based multiplayer game written in Go. This reference material definitely helped me in getting started with the backend."
+      }
+    ],
+    "related": [
+      "portfolio/coding/malls-of-singapore",
+      "portfolio/skill/api-development",
+      "portfolio/skill/web-development"
+    ]
+  },
+  "haskell": {
+    "title": "Haskell",
+    "imgPath": "haskell.svg",
+    "importance": 2,
+    "date": 2022,
+    "proficiency": 1,
+    "description": [
+      {
+        "title": "description",
+        "text": "Haskell is a purely functional programming language known for its strong type system, lazy evaluation, and elegant syntax, making it suitable for high-level abstractions, mathematical modeling, and building reliable and robust software applications."
+      },
+      {
+        "title": "background",
+        "text": "Haskell has got to have one of the highest skill floors I've ever seen. Taking away luxuries like loops and mutability, Haskell programming has been pain. As such, I have been relegated to only developing simple math algorithms.\nMy plans to practice Haskell include a JPEG compression algorithm, which was taught in my <</portfolio/module/cs2108>>CS2108</> module. Another alternative would be to implement the simplex algorithm, which was taught in my <</portfolio/module/ma3252>>MA3252</> module."
+      }
+    ]
+  },
+  "html": {
+    "title": "HTML",
+    "imgPath": "html.svg",
+    "importance": 2,
+    "date": 2013,
+    "proficiency": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "HTML (HyperText Markup Language) is the standard markup language for creating web pages and applications, providing the structure and content of a webpage by using tags and elements to define the layout, text, images, links, and other components that are rendered in a web browser."
+      },
+      {
+        "title": "background",
+        "text": "After a lot of practice in developing the previous versions of my website, I can safely say that I've used every single HTML5 element at least once. Whether it is properly or not, I think I at least know where to look to know how to use a particular HTML element. But either way, I mostly use frameworks, so the elements are a little different."
+      }
+    ],
+    "related": [
+      "portfolio/skill/data-management",
+      "portfolio/skill/frontend-development",
+      "portfolio/skill/web-development",
+      "portfolio/coding/malls-of-singapore",
+      "portfolio/coding/website-react"
+    ]
+  },
+  "japanese": {
+    "title": "Japanese",
+    "imgPath": "japanese.svg",
+    "importance": 6,
+    "date": 2019,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "background",
+        "text": "After Chinese, the logical progression would be to study Japanese, which turned out to be quite fun, as the grammar was interesting and very different from English. Coupled with my newfound enjoyment of anime, I learned Japanese intensely during the initial stages, as well as during the weeks leading up to my JLPT test in 2022."
+      }
+    ],
+    "related": [
+      "portfolio/certificate/jlpt-n3",
+      "portfolio/coding/jap-vocab-trainer",
+      "portfolio/coding/sentence-searcher"
+    ]
+  },
+  "java": {
+    "title": "Java",
+    "imgPath": "java.svg",
+    "importance": 9,
+    "date": 2019,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "Java is a versatile and widely-used programming language known for its platform independence, object-oriented approach, extensive library support, and strong community, making it ideal for developing scalable and cross-platform applications, ranging from desktop software to mobile apps and enterprise systems."
+      },
+      {
+        "title": "background",
+        "text": "Before starting my university, I enrolled in a Java course, which taught me the basics of Java programming, as well as OOP concepts. I must admit that I was quite lazy during this part of my learning. However, I did complete the course, and scored quite high for the tested components.\nI learned most of my Java knowledge in university, though, as there were copious amounts of lecture material as well as programming assignments to practice the language. First, it was <</portfolio/module/cs2030s>>CS2030S</>, which taught programming paradigms, including more advanced topics such as multi-threading and calling APIs. At the same time, <</portfolio/module/cs2040s>>CS2040S</> taught me how to work with more advanced data structures, and how to apply complex algorithms to solve difficult problems.\nUndoubtedly, however, I learn best when creating projects, and not when completing assignments. As such, I found my <</portfolio/module/cs2103t>>CS2103T</> module to be my most fruitful. In essence, our team had to improve an existing codebase, which was a simple address book, and build something new with it (see <</portfolio/coding/edumate>>EduMate</>). I think I went a little overboard, as I wrote over 18,000 lines of Java code, which was far above the expected of 2,000 per student. I think through this experience, I got to learn the different quirks of Java programming, including technologies such as <</portfolio/technology/junit>>JUnit</> and JavaFX. After facing lots of debugging challenges, I think I am well-equipped in dealing with difficult Java development problems.\nI also worked with <</portfolio/technology/spring-boot>>Spring Boot</>, though I haven't done anything special with it yet."
+      }
+    ],
+    "related": [
+      "portfolio/module/cs2030s",
+      "portfolio/module/cs2040s",
+      "portfolio/module/cs2103t",
+      "portfolio/module/cs3230",
+      "portfolio/technology/spring",
+      "portfolio/certificate/java-udemy",
+      "portfolio/coding/edumate",
+      "portfolio/skill/api-development",
+      "portfolio/skill/software-engineering",
+      "portfolio/skill/software-testing",
+      "portfolio/skill/web-development"
+    ]
+  },
+  "javascript": {
+    "title": "JavaScript",
+    "imgPath": "javascript.svg",
+    "importance": 8,
+    "date": 2017,
+    "proficiency": 10,
+    "description": [
+      {
+        "title": "description",
+        "text": "JavaScript is a dynamic and versatile programming language primarily used for client-side <</portfolio/skill/web-development>>web development</>, allowing developers to add interactivity, validate input, manipulate the DOM, handle events, and create dynamic web experiences, while also being used for server-side development with <</portfolio/technology/node-js>>Node.js</>."
+      },
+      {
+        "title": "background",
+        "text": "JavaScript is one of the languages that nobody can avoid, as it is essential for every single aspect of the web. As such, I had an early start in JavaScript, with lots of coding practices to learn the syntax.\nEarly development in JavaScript involved static pages for my websites. In those, JavaScript work simply meant animations and basic functionality (like search bars).\nI also developed numerous Telegram Bots written in Google Apps Script, a form of JavaScript code. These bots were deployed on the <</portfolio/technology/gcp>>Google Cloud Platform (GCP)</> and help me pursue my other hobbies."
+      },
+      {
+        "title": "frontend development",
+        "text": "However, all that changed in 2021-2022, when I began to massively expand upon my <</portfolio/skill/web-development>>Web Development</> knowledge. I quickly picked up <</portfolio/technology/vue-js>>Vue.js</> for use in my <</portfolio/coding/note-together>>NoteTogether</> Orbital project, where I got the feel for API development and working with frontend components. I also experimented with <</portfolio/technology/angular-js>>Angular.js</> to develop my <</portfolio/coding/malls-of-singapore>>Malls Card Game</>; I didn't make it far into the frontend part of the game because Angular became too bloated to continue development. I also played around with <</portfolio/technology/svelte-js>>Svelte.js</>, where, I only built simple web apps like calculators and to-do lists.\nHowever, the main frontend framework that I actively use is <</portfolio/technology/react-js>>React.js</>. Firstly, I built both this website, as well as a previous iteration of it using React. Through my React experience, I get a deeper understanding of the functional and OOP paradigms associated with frontend development. I also appreciate that JavaScript, and also React, has a very healthy ecosystem of libraries and tools that are highly supported in whatever projects I am attempting to create. Secondly, my internship during my 2023 summer break widely worked with React, where I developed a web app for interacting with geospatial APIs. This meant working with the **OpenLayers** API, which sought to interact with a map display."
+      },
+      {
+        "title": "backend development",
+        "text": "As for the backend development, I think all I've done is <</portfolio/technology/node-js>>Node.js</> and <</portfolio/technology/express-js>>Express</> server, with a <</portfolio/technology/mongo-db>>MongoDB</> database, which meant interacting with the database using **Mongoose**. Besides that, I mainly use other languages to develop the API and backend services."
+      }
+    ],
+    "related": [
+      "portfolio/language/typescript",
+      "portfolio/certificate/web-developer-udemy",
+      "portfolio/technology/angular-js",
+      "portfolio/technology/express-js",
+      "portfolio/technology/jest",
+      "portfolio/technology/node-js",
+      "portfolio/technology/react-js",
+      "portfolio/technology/svelte-js",
+      "portfolio/technology/telegram-bots",
+      "portfolio/technology/vue-js",
+      "portfolio/skill/api-development",
+      "portfolio/skill/frontend-development",
+      "portfolio/skill/software-testing",
+      "portfolio/skill/web-development",
+      "portfolio/coding/bus-routes-optimiser",
+      "portfolio/coding/halal-recommender",
+      "portfolio/coding/malls-of-singapore",
+      "portfolio/coding/note-together",
+      "portfolio/coding/notes-telegram-bot",
+      "portfolio/coding/website-react",
+      "portfolio/module/cp2106",
+      "portfolio/module/cs3216"
+    ]
+  },
+  "korean": {
+    "title": "Korean",
+    "imgPath": "korean.svg",
+    "importance": 2,
+    "date": 2020,
+    "proficiency": 1,
+    "description": [
+      {
+        "title": "background",
+        "text": "I started learning Korean in 2020, just before COVID struck. At that time, I took a Korean course in person with my friend, where I learnt some of the basics. But the lessons moved so slowly that I gave up attending them. To illustrate, the class size was around 30, and each lesson item required everyone to individually repeat a sentence or something. Overall, the lessons were not effective.\nI quickly defaulted to learning Korean on my trusted companion, Duolingo. I also found multiple websites with tonnes of free lesson material that helps to supplement my learning. To practice, I also use HelloTalk to speak to native Korean speakers, though I must say my experience in using Korean HelloTalk was not as extensive as that for French or Spanish. Overall, I think I'm completely lost for Korean, as the vocab is harder for me to remember that that of Chinese or Japanese."
+      }
+    ],
+    "related": [
+      "portfolio/coding/sentence-searcher"
+    ]
+  },
+  "latex": {
+    "title": "LaTeX",
+    "imgPath": "latex.svg",
+    "importance": 7,
+    "date": 2021,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "LaTeX is a typesetting system and markup language widely used for creating high-quality documents, particularly in academia and scientific fields, offering extensive support for mathematical equations, complex layouts, bibliographies, and automated formatting, resulting in professional-looking documents."
+      },
+      {
+        "title": "background",
+        "text": "LaTeX has its own syntax and quirks that make it interesting to use as a notes editor. I have used it persistently in my studies, as I do almost all my homework (including CS homework) using LaTeX. In addition, all my cheatsheets and personal notes are created using LaTeX and TexShop. There is nothing else I'd rather use, as I'm already familiar with most of the fundamentals, as well as some advanced techniques as well."
+      }
+    ]
+  },
+  "malay": {
+    "title": "Malay",
+    "imgPath": "malay.svg",
+    "importance": 2,
+    "proficiency": 8
+  },
+  "matlab": {
+    "title": "MatLab",
+    "imgPath": "matlab.svg",
+    "importance": 5,
+    "date": 2021,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "MatLab is a high-level programming language and computing environment widely used for numerical analysis, data visualisation, and algorithm development, providing a comprehensive set of tools and functions for scientific and engineering applications."
+      },
+      {
+        "title": "background",
+        "text": "I hate MatLab. It causes my laptop to heat up, uses 1-indexing and very difficult to debug at times. But I can't escape MatLab, since it is used quite frequently in my modules. <</portfolio/module/ma2001>>Linear Algebra I</> and <</portfolio/module/ma2101>>II</> were my first introductions to MatLab, where I explored not only the world of matrix manipulation, but also the world of linear spaces and transformations.\nBut I think the bulk of my experience came from <</portfolio/module/cs2108>>CS2108 Introduction to Media Computing</>. This module places heavy emphasis on understanding signals and how to process them. It features weekly programming assignments in MatLab, where we have to implement certain algorithms, and compute certain signal values all in MatLab. These were quite tedious, since the lecturer didn't give us any guidance on how to use the language. Instead, we were left to self-learn the language in order to complete the assignments. They weren't hard. Just tedious. There was also the pair project, where we had to implement the JPEG compression algorithm using Fast Fourier Transform (FFT), instead of Discrete Cosine Transform (DCT). This meant our implementation was bound to be less powerful than the actual JPEG compression, so my partner and I found it quite challenging.\nBut I think this experience has definitely built up my confidence in developing algorithms in MatLab, but unless I'm forced to, I won't use it."
+      }
+    ],
+    "related": [
+      "portfolio/module/cs2108",
+      "portfolio/module/ma2001"
+    ]
+  },
+  "php": {
+    "title": "PHP",
+    "imgPath": "php.svg",
+    "importance": 2,
+    "date": 2020,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "description",
+        "text": "PHP is a popular server-side scripting language widely used for web development, allowing developers to create dynamic web pages, handle form submissions, interact with databases, and perform various server-side tasks, making it a fundamental tool for building dynamic and interactive websites."
+      },
+      {
+        "title": "background",
+        "text": "I took a frontend course in 2020, and it heavily used PHP to develop the backend. That was where I first learnt the language. I found it the easiest to pickup for both frontend and backend, as it is relatively easy to set up a project in PHP. But the drawbacks of using a simple language really starts to show when trying to develop larger projects. It simply doesn't have the capability to develop anything major. As such, I've only ever created 1 other project outside of the frontend course. I'd rather use more sophisticated languages and technologies."
+      }
+    ],
+    "related": [
+      "portfolio/certificate/web-developer-udemy"
+    ]
+  },
+  "python": {
+    "title": "Python",
+    "imgPath": "python.svg",
+    "importance": 10,
+    "date": 2016,
+    "proficiency": 10,
+    "description": [
+      {
+        "title": "description",
+        "text": "Python is a versatile and powerful programming language known for its simplicity, readability, and vast ecosystem of libraries and frameworks, making it suitable for a wide range of applications such as web development, data analysis, machine learning, and automation, while also being beginner-friendly."
+      },
+      {
+        "title": "background",
+        "text": "Python is my favourite language for all sorts of development. Mainly because of the enriched ecosystem; basically everything has a comprehensive library for it.\nMy first exposure to Python was the <</portfolio/certificate/python-for-everybody>>Coursera course by the University of Michigan</>, where I learned all sorts of Python development, from <</portfolio/skill/web-scraping>>web scraping</>, to <</portfolio/skill/data-cleaning>>data cleaning</>, to <</portfolio/language/sql>>SQL</> queries. Due to this prior experience, I was selected to become the <</portfolio/experience/robotics>>Programming Head</> of my school's Robotics Club. In July that year, I organized training sessions to teach Python to the other members of the club (even if it didn't go that well). I further used Python to participate in the National Olympiad for Informatics."
+      },
+      {
+        "title": "national service",
+        "text": "I was also selected for the Data Analytics position during my National Service, where 95% of the work was Python-based. Coupled with <</portfolio/technology/pandas>>Pandas</>, I used Python to perform <</portfolio/skill/operational-analysis>>Operational Analysis</> and <</portfolio/skill/data-cleaning>>Data Cleaning</> for several projects. But my proudest achievement in Python during this period of time was my development work on the <</portfolio/coding/dynamic-resource-optimiser>>DRO project</>, where I managed to greatly streamline and optimise workflows."
+      },
+      {
+        "title": "personal projects",
+        "text": "Outside of that, I've developed quite a lot of Python projects; Some were for <</portfolio/skill/data-science>>data science</>, some were Python packages. Among them, I think my geospatial projects are the most prominent, as they all build upon each other, eventually leading up to my <</portfolio/coding/malls-of-singapore>>Malls Card Game</>."
+      }
+    ],
+    "related": [
+      "portfolio/technology/django",
+      "portfolio/technology/flask",
+      "portfolio/technology/pandas",
+      "portfolio/technology/pytorch",
+      "portfolio/technology/selenium",
+      "portfolio/technology/tensorflow",
+      "portfolio/skill/api-development",
+      "portfolio/skill/data-cleaning",
+      "portfolio/skill/data-mining",
+      "portfolio/skill/data-science",
+      "portfolio/skill/data-structures",
+      "portfolio/skill/geospatial-analytics",
+      "portfolio/skill/operational-analysis",
+      "portfolio/skill/web-development",
+      "portfolio/skill/web-scraping",
+      "portfolio/coding/chords-search-engine",
+      "portfolio/coding/dynamic-resource-optimiser",
+      "portfolio/coding/geospatial-extraction",
+      "portfolio/coding/geospatial-management",
+      "portfolio/coding/malls-of-singapore",
+      "portfolio/coding/meetup-maker",
+      "portfolio/coding/mrt-paths-analysis",
+      "portfolio/coding/sentence-searcher",
+      "portfolio/coding/spiderman-web-scraper",
+      "portfolio/coding/svg-converter",
+      "portfolio/coding/website-react",
+      "portfolio/module/cp2106",
+      "portfolio/module/cs2109s",
+      "portfolio/certificate/deep-learning-tensorflow",
+      "portfolio/certificate/python-for-everybody",
+      "portfolio/experience/data-analytics",
+      "portfolio/experience/robotics"
+    ]
+  },
+  "r": {
+    "title": "R Language",
+    "imgPath": "r.svg",
+    "importance": 5,
+    "date": 2019,
+    "proficiency": 5,
+    "description": [
+      {
+        "title": "description",
+        "text": "R is a statistical programming language and environment that is widely used for data analysis, statistical modeling, and graphical visualisation, providing a rich set of built-in functions and packages for exploratory data analysis, statistical inference, and advanced statistical techniques."
+      },
+      {
+        "title": "background",
+        "text": "R is also another language that I loved using, mainly because of its %>% pipeline operator, which makes the data science process very enjoyable. Firstly, I learned R programming mostly from <</portfolio/certificate/harvardx-data-science>>EDX, under the HarvardX course on Data Science</>. I then quickly applied it to my work in <</portfolio/experience/data-analytics>>National Service</>, where I developed and maintained <</portfolio/skill/data-cleaning>>data cleaning</> processes in R. I also was involved in the mass-migration of R scripts into <</portfolio/language/python>>Python</>, which meant proficiency in both languages.\nHowever, R's capabilities pretty much stop at <</portfolio/skill/data-science>>data science</>, as it is not at all optimised for any kind of development. As such, nowadays, I rarely use it at all."
+      }
+    ],
+    "related": [
+      "portfolio/skill/data-cleaning",
+      "portfolio/skill/data-science",
+      "portfolio/skill/data-visualisation",
+      "portfolio/skill/machine-learning",
+      "portfolio/certificate/google-data-analytics",
+      "portfolio/certificate/harvardx-data-science"
+    ]
+  },
+  "ruby": {
+    "title": "Ruby",
+    "imgPath": "ruby.svg",
+    "importance": 7,
+    "date": 2019,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Ruby is a dynamic and elegant programming language known for its simplicity and productivity, emphasising readability and flexibility, making it a popular choice for <</portfolio/skill/web-development>>web development</>, scripting, and automation, with a focus on developer happiness and code readability."
+      },
+      {
+        "title": "background",
+        "text": "During my <</portfolio/experience/data-analytics>>National Service</>, I maintained and made minor modifications to quite a lot of Ruby scripts. This involved a lot of stack tracing, and making sense of Ruby's object system and weird abstractions, but I managed to get it done.\nAt the same time, I managed to learn <</portfolio/technology/ruby-on-rails>>Ruby on Rails</>, and managed to create a simple web app."
+      },
+      {
+        "title": "internship",
+        "text": "I think my most valuable experience in Ruby development comes from my <</portfolio/experience/fullstack-intern>>internship</>. During my internship, I was tasked with developing a web application that showcases the company's geospatial APIs. As such, I used a Rails backend and a React frontend to accomplish this task. The Ruby side required me to develop APIs, with validation and databases, and ample API testing using Rswag. I was also required to write code documentation for the project, which was quite a hassle. I think the project turned out fine, though it doesn't fully meet my expectations. Nonetheless, it was a good experience in Ruby."
+      }
+    ],
+    "related": [
+      "portfolio/technology/ruby-on-rails",
+      "portfolio/skill/api-development",
+      "portfolio/skill/software-testing",
+      "portfolio/experience/data-analytics",
+      "portfolio/experience/fullstack-intern",
+      "portfolio/coding/bus-routes-optimiser",
+      "portfolio/coding/dynamic-resource-optimiser",
+      "portfolio/coding/website-react"
+    ]
+  },
+  "rust": {
+    "title": "Rust",
+    "imgPath": "rust.svg",
+    "importance": 8,
+    "date": 2022,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "description",
+        "text": "Rust is a modern systems programming language designed for safety, concurrency, and performance, offering strong memory safety guarantees, zero-cost abstractions, and a powerful type system, making it ideal for building reliable and efficient software, ranging from low-level systems to high-level applications."
+      },
+      {
+        "title": "background",
+        "text": "Although Rust introduces additional complexity to <</portfolio/language/cpp>>C++</>, I find it quite enjoyable to code in Rust, and I've been using it for all sorts of things. Firstly, to practice my <</portfolio/skill/data-structures>>Data Structures</>, I used Rust to find optimal routes for navigating Singapore. This includes working with <</portfolio/technology/rocket-rs>>Rocket</> (the Rust backend framework), Diesel (the Rust database interactor), as well as Yew (the Rust frontend framework). Secondly, I used Rust to create a <</portfolio/coding/jap-vocab-trainer>>CLI for practicing languages</>, which I sometimes use."
+      }
+    ],
+    "related": [
+      "portfolio/technology/rocket-rs",
+      "portfolio/skill/api-development",
+      "portfolio/skill/data-structures",
+      "portfolio/skill/software-engineering",
+      "portfolio/skill/web-development",
+      "portfolio/coding/jap-vocab-trainer",
+      "portfolio/coding/neothesia",
+      "portfolio/coding/website-react"
+    ]
+  },
+  "scala": {
+    "title": "Scala",
+    "imgPath": "scala.svg",
+    "importance": 1,
+    "date": 2022,
+    "proficiency": 1,
+    "description": [
+      {
+        "title": "description",
+        "text": "Scala is a statically typed programming language that combines object-oriented and functional programming paradigms, offering concise syntax, strong type inference, and a rich set of features for building scalable and high-performance applications on the Java Virtual Machine (JVM), making it well-suited for both backend development and data processing tasks."
+      },
+      {
+        "title": "background",
+        "text": "I started learning Scala for use in my big data module."
+      }
+    ],
+    "related": []
+  },
+  "spanish": {
+    "title": "Spanish",
+    "imgPath": "spanish.svg",
+    "importance": 3,
+    "date": 2018,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "background",
+        "text": "I started learning Spanigh in 2018 on Duolingo, where I quickly completed lesson after lesson. But similar to French, I didn't take the learning seriously, and I only sought to learn the vocabulary without paying attention to the grammar. However, that changed in 2019, when I finally had the time to slowly go through the grammar lessons on other websites, and managed to reach a B1 level (based on the practice papers I've done). But yet again, due to my lack of experience in speaking the language, I found it difficult to get past the oral component of the DELE test."
+      }
+    ]
+  },
+  "sql": {
+    "title": "SQL",
+    "imgPath": "sql.svg",
+    "importance": 7,
+    "date": 2016,
+    "proficiency": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "SQL (Structured Query Language) is a standard programming language used for managing relational databases, allowing users to store, retrieve, manipulate, and analyse data, perform complex queries, and define the structure and relationships of database tables, providing a powerful tool for <</portfolio/skill/data-management>>data management</> and interaction with database systems."
+      },
+      {
+        "title": "background",
+        "text": "I think the main bulk of my SQL knowledge comes from my time at the <</portfolio/experience/data-management>>Enterprise Information Management</>. In that role, I used SQL to extract and transform data for use in <</portfolio/technology/power-bi>>Power BI</> dashboards. I also used SQL to create scripts in <</portfolio/technology/ssms>>SQL Server Management Studio (SSMS)</> as part of data pipeline development."
+      },
+      {
+        "title": "coursework",
+        "text": "Besides my work experience, I also took the <</portfolio/module/cs2102>>CS2102 Database Systems</> module, which deepened my technical expertise in the language. It taught new techniques such as recursive calls and Common Table Expressions (CTE) to call more complex queries. It also taught the normalisation process, where databases are simplified and optimised to reduce conflicts and facilitate queries."
+      }
+    ],
+    "related": [
+      "portfolio/experience/data-management",
+      "portfolio/technology/postgresql",
+      "portfolio/module/cs2102",
+      "portfolio/coding/meetup-maker"
+    ]
+  },
+  "swift": {
+    "title": "Swift",
+    "imgPath": "swift.svg",
+    "importance": 2,
+    "date": 2019,
+    "proficiency": 2,
+    "description": [
+      {
+        "title": "description",
+        "text": "Swift is a powerful and intuitive programming language developed by Apple for building applications across iOS, macOS, watchOS, and tvOS, known for its safety, performance, and modern syntax, making it an excellent choice for developing mobile and desktop applications with a seamless user experience."
+      },
+      {
+        "title": "background",
+        "text": "My Swift experience was very swift, as I only managed to create one or two widgets on my MacBook, mainly to show the progress of a particular piece of code. But other than that, XCode was getting too big to remain on my laptop, so I ended up deleting it."
+      }
+    ]
+  },
+  "typescript": {
+    "title": "TypeScript",
+    "imgPath": "typescript.svg",
+    "importance": 5,
+    "date": 2021,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "description",
+        "text": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations, improved tooling, and modern language features, providing a more robust and scalable development experience, enhancing code quality, and enabling easier maintenance and collaboration in large-scale <</portfolio/language/javascript>>JavaScript</> projects."
+      },
+      {
+        "title": "background",
+        "text": "To put it simply, it is very easy to develop in TypeScript, but very difficult to deploy it. It seems that for many of the JavaScripts I've developed, I started them in TypeScript. It just seemed like the right choice, as the rigid type system made it easy to develop on. However, I ALWAYS get stuck on deploying the project and setting up the configuration files. I never knew how to properly do the deployment, which is why I avoid using it. However, I think I've used it enough to get comfortable with the other aspects of developing in TypeScript."
+      }
+    ],
+    "related": [
+      "portfolio/language/javascript",
+      "portfolio/coding/note-together"
+    ]
+  },
+  "vba": {
+    "title": "VBA",
+    "imgPath": "vba.svg",
+    "importance": 1,
+    "date": 2019,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "description",
+        "text": "VBA (Visual Basic for Applications) is a programming language integrated into Microsoft Office applications, allowing users to automate repetitive tasks, create custom macros, and extend the functionality of Office programs, enabling efficient data manipulation and workflow automation."
+      },
+      {
+        "title": "background",
+        "text": "I was sometimes forced to use Visual Basic for Applications (VBA), when Python was not available during my time in NS. But other than a couple of automation scripts, I haven't done much using the language, nor do I want to try to use it again."
+      }
+    ],
+    "related": [
+      "portfolio/experience/data-analytics"
+    ]
+  },
+  "zig": {
+    "title": "Zig",
+    "imgPath": "zig.svg",
+    "importance": 1,
+    "date": 2023,
+    "proficiency": 1,
+    "description": [
+      {
+        "title": "description",
+        "text": "Zig is a modern and pragmatic programming language designed for performance, safety, and simplicity, offering a focus on low-level programming with minimal abstractions, compile-time safety checks, and efficient code generation, making it suitable for systems programming and building high-performance applications."
+      },
+      {
+        "title": "background",
+        "text": "Learning Zig was just for fun, and I didn't create anything substantial using it. I'll have to wait a little longer for more libraries to be supported."
+      }
+    ]
+  }
+}

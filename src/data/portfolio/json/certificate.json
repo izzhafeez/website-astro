@@ -1,0 +1,432 @@
+{
+  "c-programming-for-everybody": {
+    "title": "C Programming for Everybody",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/XH3HQG934HHJ",
+    "importance": 2,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The course teaches:\n1. Exploring C\n2. Programming in C\n3. Data Structures in C\n4. Building Objects in C"
+      }
+    ],
+    "related": [
+      "portfolio/course/building-objects-in-c",
+      "portfolio/course/data-structures-in-c",
+      "portfolio/course/exploring-c",
+      "portfolio/course/programming-in-c",
+      "portfolio/language/c",
+      "portfolio/skill/object-oriented-programming"
+    ]
+  },
+  "deep-learning-tensorflow": {
+    "title": "Deep Learning with Tensorflow",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Oct'20",
+    "link": "https://courses.edx.org/certificates/06e2f6469b7f48eca94f244e3ed0de42",
+    "importance": 6,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The course taught execution pipelines, curve fitting, regression, classification, CNNs, RNNs, autoencoders and backpropogation."
+      }
+    ],
+    "related": [
+      "portfolio/language/python",
+      "portfolio/technology/tensorflow",
+      "portfolio/skill/data-science",
+      "portfolio/skill/data-visualisation",
+      "portfolio/skill/machine-learning"
+    ]
+  },
+  "google-advanced-data-analytics": {
+    "title": "Advanced Data Analytics Professional Certificate",
+    "imgPath": "google.svg",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.credly.com/badges/9efde45d-8331-4ca7-90d4-ff98f1bde544/public_url",
+    "importance": 9,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Throughout the course, I delved into the diverse roles of data professionals within organizational structures, gaining a comprehensive understanding of their functions and contributions. I developed practical skills in creating compelling data visualizations and applying statistical methods to explore and interpret data effectively. Additionally, the course equipped me with the ability to build regression and machine learning models, providing me with powerful tools to analyze and derive insights from complex datasets. Importantly, I honed my communication skills, learning to effectively convey findings and insights from data analysis to stakeholders, bridging the gap between technical analysis and practical decision-making within an organization."
+      }
+    ],
+    "related": [
+      "portfolio/course/foundations-of-data-science",
+      "portfolio/course/getting-started-with-python",
+      "portfolio/course/go-beyond-the-numbers",
+      "portfolio/course/google-advanced-data-analytics-capstone",
+      "portfolio/course/regression-analysis",
+      "portfolio/course/the-nuts-and-bolts-of-machine-learning",
+      "portfolio/course/the-power-of-statistics",
+      "portfolio/language/python",
+      "portfolio/technology/jupyter",
+      "portfolio/technology/pandas",
+      "portfolio/technology/tableau",
+      "portfolio/technology/tensorflow",
+      "portfolio/skill/data-analysis",
+      "portfolio/skill/data-science",
+      "portfolio/skill/exploratory-data-analysis",
+      "portfolio/skill/machine-learning",
+      "portfolio/skill/predictive-modeling",
+      "portfolio/skill/regression-analysis",
+      "portfolio/skill/statistical-analysis"
+    ]
+  },
+  "google-business-intelligence": {
+    "title": "Business Intelligence Professional Certificate",
+    "imgPath": "google.svg",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.credly.com/badges/ba69c2f0-3d08-4700-9b2a-791b67f0dfb3/public_url",
+    "importance": 6,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained a deep understanding of the roles played by Business Intelligence (BI) professionals within organizational structures. I practiced data modeling and honed my skills in Extract, Transform, Load (ETL) processes, ensuring alignment with organizational goals and objectives. Additionally, I developed proficiency in designing data visualizations that effectively address business questions, providing meaningful insights. The course equipped me with the knowledge and tools to create dashboards that communicate data insights to stakeholders in a clear and impactful manner. Overall, this training has prepared me to contribute effectively to BI initiatives within organizations, from modeling and ETL processes to designing visualizations and dashboards that drive informed decision-making."
+      }
+    ],
+    "related": [
+      "portfolio/course/dashboards-reports",
+      "portfolio/course/foundations-of-business-intelligence",
+      "portfolio/course/the-path-to-insights",
+      "portfolio/language/sql",
+      "portfolio/technology/tableau",
+      "portfolio/skill/business-intelligence",
+      "portfolio/skill/dashboarding",
+      "portfolio/skill/data-analysis",
+      "portfolio/skill/data-modeling",
+      "portfolio/skill/data-visualisation",
+      "portfolio/skill/extraction-transformation-loading",
+      "portfolio/skill/reporting"
+    ]
+  },
+  "google-data-analytics": {
+    "title": "Data Analytics Professional Certificate",
+    "imgPath": "google.svg",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://www.credly.com/badges/114285c0-e052-421b-a302-7bfd5ffc3a62/public_url",
+    "importance": 7,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I gained an immersive understanding of the practices and processes employed by junior or associate data analysts in their daily roles. I acquired key analytical skills, including data cleaning, analysis, and visualization, using essential tools such as spreadsheets, SQL, R programming, and Tableau. The course provided comprehensive knowledge on cleaning and organizing data for analysis, and performing analysis and calculations using spreadsheets, SQL, and R programming. Moreover, I learned how to effectively visualize and present data findings through dashboards, presentations, and various visualization platforms. This holistic training has equipped me with the skills and knowledge necessary to function confidently and proficiently in the role of a junior or associate data analyst."
+      }
+    ],
+    "related": [
+      "portfolio/course/analyze-data-to-answer-questions",
+      "portfolio/course/ask-questions-to-make-data-driven-decisions",
+      "portfolio/course/data-analysis-with-r",
+      "portfolio/course/foundations-data-data-everywhere",
+      "portfolio/course/google-data-analytics-capstone",
+      "portfolio/course/prepare-data-for-exploration",
+      "portfolio/course/process-data-from-dirty-to-clean",
+      "portfolio/course/share-data-through-the-art-of-visualization",
+      "portfolio/language/r",
+      "portfolio/language/sql",
+      "portfolio/technology/tableau",
+      "portfolio/skill/data-aggregation",
+      "portfolio/skill/data-analysis",
+      "portfolio/skill/data-cleaning",
+      "portfolio/skill/data-collection",
+      "portfolio/skill/data-ethics",
+      "portfolio/skill/data-integrity",
+      "portfolio/skill/data-visualisation",
+      "portfolio/skill/decision-making",
+      "portfolio/skill/metadata",
+      "portfolio/skill/problem-solving"
+    ]
+  },
+  "google-professional-workspace": {
+    "title": "Google Professional Workspace Administrator",
+    "imgPath": "google.svg",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/66456a66d108c935f37e6fcaef6c3ec3",
+    "importance": 4,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "This Professional Certificate, encompassing a 5-course series, has empowered me as an administrator to master the foundational aspects of establishing and managing Google Workspace for my organization. Throughout the series, I set up a new Google Workspace account, explored provisioning options, managed users, understood organizational structures, and configured core services to meet specific organizational needs.\n\nThe applied learning project was a hands-on experience where I created a Google Workspace account. Through a series of exercises, I built an organizational structure, added users, and became familiar with the admin console and administrator features. This involved configuring groups, calendar resources, and implementing core services like Gmail and Calendar for different organizational segments.\n\nIn subsequent courses, I delved into user and application security, implementing best practices to protect both users and data. I explored Single Sign-On options and used tools to identify security events and mitigate potential problems. Email compliance and security measures were covered, including configuring email compliance, protecting against spam, spoofing, phishing, and malware attacks, and exploring mail routing options.\n\nThe series concluded with a focus on deploying Google Workspace best practices. I gained an understanding of the trial account setup process, providing credit card details for the free trial. I was required to purchase or use an existing domain for Google Workspace (not included in the trial) and utilize the Chrome web browser for an optimal learning experience. Overall, this certification has equipped me with the knowledge and skills needed for successful Google Workspace deployment, adhering to best practices in administration, security, and compliance."
+      }
+    ],
+    "related": [
+      "portfolio/course/google-workspace-deployment",
+      "portfolio/course/google-workspace-mail-management",
+      "portfolio/course/google-workspace-security",
+      "portfolio/course/introduction-to-google-workspace-administration",
+      "portfolio/course/managing-google-workspace",
+      "portfolio/technology/gcp"
+    ]
+  },
+  "google-ux-design": {
+    "title": "UX Design Professional Certificate",
+    "imgPath": "google.svg",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/fd93dbe21a1be3fc20e6aae265f7ef81",
+    "importance": 9,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired a comprehensive set of skills essential for a UX designer. I learned to follow the design process, beginning with empathizing with users, defining pain points, ideating solutions, and creating wireframes and prototypes. The course covered the basics of UX research, including planning studies, conducting interviews and usability studies, and synthesizing research results. Additionally, foundational UX concepts such as user-centered design, accessibility, and equity-focused design were explored. A practical aspect involved creating a professional UX portfolio showcasing three end-to-end projects: a mobile app, a responsive website, and a cross-platform experience. This holistic learning experience equipped me with the skills and knowledge needed for effective UX design, from research and ideation to prototyping and portfolio creation."
+      }
+    ],
+    "related": [
+      "portfolio/course/dynamic-user-interfaces",
+      "portfolio/course/empathize-define-ideate",
+      "portfolio/course/foundations-of-ux",
+      "portfolio/course/high-fidelity-designs-in-figma",
+      "portfolio/course/ux-for-social-good",
+      "portfolio/course/ux-research",
+      "portfolio/course/wireframes-low-fidelity-prototypes",
+      "portfolio/technology/figma",
+      "portfolio/skill/frontend-development",
+      "portfolio/skill/problem-solving",
+      "portfolio/skill/usability-testing",
+      "portfolio/skill/user-experience",
+      "portfolio/skill/ux-design",
+      "portfolio/skill/ux-research"
+    ]
+  },
+  "harvardx-data-science": {
+    "title": "Data Science Professional Certificate",
+    "imgPath": "harvardx.png",
+    "issuer": "HarvardX",
+    "date": "Feb'20",
+    "link": "https://credentials.edx.org/credentials/ed430b9eb6d3496fb6fc8257b0e2a90a/",
+    "importance": 9,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The course teaches:\n1. Fundamental R programming skills\n2. Statistical concepts such as probability, inference, and modeling and how to apply them in practice\n3. Gain experience with the tidyverse, including data visualization with ggplot2 and data wrangling with dplyr\n4. Become familiar with essential tools for practicing data scientists such as Unix/Linux, git and GitHub, and RStudio\n5. Implement machine learning algorithms\n6. In-depth knowledge of fundamental data science concepts through motivating real-world case studies"
+      }
+    ],
+    "related": [
+      "portfolio/language/r",
+      "portfolio/skill/data-cleaning",
+      "portfolio/skill/data-mining",
+      "portfolio/skill/data-science",
+      "portfolio/skill/data-visualisation",
+      "portfolio/skill/machine-learning"
+    ]
+  },
+  "hsk-5": {
+    "title": "HSK 5 (211/300)",
+    "imgPath": "confucius.png",
+    "issuer": "\u6c49\u8bed\u6c34\u5e73\u8003\u8bd5",
+    "date": "Mar'21",
+    "link": "http://www.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%27d1ab44da677955ce3b5c9231ff65ea765c6b8d2a3849b500%2724d7sWsQ5nVUQSwD",
+    "importance": 8,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The Hanyu Shuiping Kaoshi, translated as the Chinese Proficiency Test, is the standardised test of Standard Chinese language proficiency of Mainland China for non-native speakers such as foreign students and overseas Chinese."
+      }
+    ],
+    "related": [
+      "portfolio/language/chinese"
+    ]
+  },
+  "hsk-6": {
+    "title": "HSK 6 (157/300)",
+    "imgPath": "confucius.png",
+    "issuer": "\u6c49\u8bed\u6c34\u5e73\u8003\u8bd5",
+    "date": "Jun'22",
+    "link": "http://www.chinesetest.cn/searchChengJi.do",
+    "importance": 6,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The Hanyu Shuiping Kaoshi, translated as the Chinese Proficiency Test, is the standardised test of Standard Chinese language proficiency of Mainland China for non-native speakers such as foreign students and overseas Chinese."
+      }
+    ],
+    "related": [
+      "portfolio/language/chinese"
+    ]
+  },
+  "ibm-generative-ai-data-science": {
+    "title": "Generative AI for Data Scientists",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/aa6cf88e9c84f46f18af8c231bf5f82f",
+    "importance": 7,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I acquired the skills to recognize real-world applications of generative AI and identified popular models and tools for various types of content generation such as text, code, image, audio, and video. I gained a comprehensive understanding of generative AI prompt engineering concepts, including examples and common tools, and learned techniques to create effective and impactful prompts. The course provided knowledge on selecting appropriate generative AI tools for specific data science use cases. Through practical application, I developed the ability to apply generative AI prompt techniques to generate and augment datasets, as well as to contribute to the development and refinement of machine learning models. This course equipped me with a versatile skill set to leverage generative AI in diverse data science applications."
+      }
+    ],
+    "related": [
+      "portfolio/course/generative-ai-elevate",
+      "portfolio/course/generative-ai-introduction",
+      "portfolio/course/generative-ai-prompt-engineering",
+      "portfolio/skill/artificial-intelligence",
+      "portfolio/skill/data-science",
+      "portfolio/skill/generative-ai",
+      "portfolio/skill/machine-learning",
+      "portfolio/skill/prompt-engineering"
+    ]
+  },
+  "java-udemy": {
+    "title": "Java Certification",
+    "imgPath": "udemy.svg",
+    "issuer": "Udemy",
+    "date": "Mar'22",
+    "link": "https://www.udemy.com/certificate/UC-ea3408de-bd00-4eba-96bf-3ab78ac4bda8/",
+    "importance": 5,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The topics covered include Object Orientation, with practice in writing classes and interfaces. The course also gave countless practice problems for methods with loops and if else statements, exception handling and file processing as well as how to debug software using Eclipse. The course also taught the collections framework and dived deep into java generics. Furthermore, it taught multi-threading and the JDBC API for working with a MySQL database. There are also practical projects scattered throughout the course to practice the concepts. For example one of the projects is related to a car dealership management system and another assignment involves processing files with stock market data."
+      }
+    ],
+    "related": [
+      "portfolio/language/java"
+    ]
+  },
+  "jlpt-n3": {
+    "title": "JLPT N3 (86/180)",
+    "imgPath": "jlpt.png",
+    "date": "Jul'22",
+    "link": "https://www.jlpt-overseas.jp/onlineresults/search.do?id1=2030101&id2=30068&password=80286002&image_bottun.x=77&image_bottun.y=33&image_bottun=send",
+    "importance": 5,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The Japanese-Language Proficiency Test, or JLPT, is a standardised criterion-referenced test to evaluate and certify Japanese language proficiency for non-native speakers, covering language knowledge, reading ability, and listening ability."
+      }
+    ],
+    "related": [
+      "portfolio/language/japanese"
+    ]
+  },
+  "mongo-data-modeling": {
+    "title": "M320 Data Modeling",
+    "imgPath": "mongo.svg",
+    "issuer": "Mongo University",
+    "date": "Jul'22",
+    "link": "https://university.mongodb.com/course_completion/df998645-f68a-4957-931e-1c8f3ffa2ac4",
+    "importance": 5,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "I learnt how to create data models for MongoDB. The course went through a few techniques, from a very simple process for simple schemas to more complex ones for large teams and large projects."
+      }
+    ],
+    "related": [
+      "portfolio/technology/mongo-db",
+      "portfolio/skill/data-modeling"
+    ]
+  },
+  "prompt-engineering": {
+    "title": "Prompt Engineering",
+    "imgPath": "vanderbilt.png",
+    "issuer": "Vanderbilt University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/EGMQFSJ33N3U",
+    "importance": 4,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Through the Prompt Engineering Specialization, I achieved expertise in the art of prompt engineering. I mastered various prompt engineering patterns, techniques, and approaches, gaining the skills to effectively harness the power of Generative AI. This specialization equipped me with the knowledge needed to strategically design and formulate prompts, ensuring optimal results and reliable outcomes in diverse applications of Generative AI. As a Prompt Engineering Expert, I am well-versed in leveraging Generative AI to address complex challenges and create innovative solutions."
+      }
+    ],
+    "related": [
+      "portfolio/course/chat-gpt-advanced-data-analysis",
+      "portfolio/course/prompt-engineering-for-chat-gpt",
+      "portfolio/course/trustworthy-generative-ai",
+      "portfolio/skill/data-analysis",
+      "portfolio/skill/generative-ai",
+      "portfolio/skill/prompt-engineering"
+    ]
+  },
+  "python-for-everybody": {
+    "title": "Python for Everybody",
+    "imgPath": "uom.png",
+    "issuer": "University of Michigan",
+    "date": "Jan'17",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/B4URY8QXHQRW",
+    "importance": 6,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The course teaches:\n1. Fundamentals of Python\n2. Data Structures\n3. Web scraping with HTML, XML and JSON\n4. Database interaction, data processing and data visualisation"
+      },
+      {
+        "title": "background",
+        "text": "I took this course after my O levels, before entering my JC. I finished it quite quickly, taking about one week to complete the entire course. Afterwards, I continued learning Python and creating some simple projects of my own."
+      }
+    ],
+    "related": [
+      "portfolio/language/html",
+      "portfolio/language/python",
+      "portfolio/language/sql",
+      "portfolio/skill/data-modeling",
+      "portfolio/skill/web-scraping"
+    ]
+  },
+  "rust-programming": {
+    "title": "Rust Programming",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/422b55cee858e7554c665cd5f7dd6220",
+    "importance": 6,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "Embarking on the comprehensive Rust Specialization offered by Coursera in collaboration with Duke University has been a transformative journey for me as a software engineer. This five-course series, emanating from a top-tier Data Science and AI program, has provided me with practical skills to effectively harness Rust's speed, safety, and versatility in robust systems programming.\n\nFrom laying the foundation with foundational syntax to delving into advanced machine learning integrations, the specialization has been a hands-on experience. With over 20 coding projects woven into the curriculum, I've had the opportunity to apply my Rust skills to real-world scenarios. Projects like building a Rust chatbot, containerizing a web service, developing a Linux automation script, and optimizing a machine learning pipeline have not only enriched my understanding but have also equipped me with portfolio-ready experience.\n\nThe real-world challenges presented in the courses, such as constructing a database migration tool or optimizing an ML pipeline, have stretched my capabilities and deepened my expertise. This specialization has gone beyond theoretical knowledge, emphasizing applied learning to ensure that I not only comprehend Rust's intricacies but can also adeptly navigate real-world systems programming problems.\n\nAs I near the completion of this specialization, I find myself armed with portfolio-ready Rust abilities, poised to explore roles such as Platform Engineer, MLOps Engineer, Data Engineer, Embedded Engineer, or Backend Developer. The meticulous design of the specialization, combined with the hands-on coding projects, has been instrumental in shaping me into a proficient Rust programmer, ready to tackle complex challenges in the field of systems programming."
+      }
+    ],
+    "related": [
+      "portfolio/course/data-engineering-with-rust",
+      "portfolio/course/python-rust-linux",
+      "portfolio/course/rust-for-dev-ops",
+      "portfolio/course/rust-fundamentals",
+      "portfolio/course/rust-llmops",
+      "portfolio/language/python",
+      "portfolio/language/rust",
+      "portfolio/technology/aws",
+      "portfolio/technology/aws",
+      "portfolio/technology/gcp",
+      "portfolio/technology/pandas",
+      "portfolio/technology/pytorch",
+      "portfolio/skill/data-engineering",
+      "portfolio/skill/data-management",
+      "portfolio/skill/data-mining",
+      "portfolio/skill/data-science",
+      "portfolio/skill/dev-ops",
+      "portfolio/skill/documentation",
+      "portfolio/skill/natural-language-processing"
+    ]
+  },
+  "web-developer-udemy": {
+    "title": "Web Developer",
+    "imgPath": "udemy.svg",
+    "issuer": "Udemy",
+    "date": "Sep'21",
+    "link": "https://www.udemy.com/certificate/UC-edbe5bd6-e40e-4227-9449-7d161eade40e/",
+    "importance": 5,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "The course taught fundamentals in frontend design, including using technologies such as **Tailwind.css** and <</portfolio/language/php>>PHP</>."
+      }
+    ],
+    "related": [
+      "portfolio/language/css",
+      "portfolio/language/html",
+      "portfolio/language/javascript",
+      "portfolio/language/php",
+      "portfolio/skill/frontend-development",
+      "portfolio/skill/web-development"
+    ]
+  }
+}

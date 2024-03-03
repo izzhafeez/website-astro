@@ -1,4 +1,27 @@
 ---
+import ItemPreviews from "@components/ItemPreviews";
+import { allItems } from "@items/getItems";
+import type Item from "@items/item";
+import Layout from "layouts/Layout.astro";
+import Description from "components/utils/Description";
+import allData from "@data/data";
 
+export const prerender = true;
+const itemsDict: {[key: string]: Item[]} = {};
+for (const item of allItems) {
+  const category = item.category;
+  if (!itemsDict[category]) itemsDict[category] = [];
+  itemsDict[category].push(item);
+}
+const imgPath = `/img/izzhafeez.png`;
+const overview = "I'm a passionate third-year student at NUS pursuing a double major in <<../portfolio/modules>>Computer Science and Maths</>. Along my journey, I've been fortunate to hold various <<../portfolio/experiences>>tech-related positions</>, where I've learned many <<../portfolio/languages>>languages</>, <<../portfolio/technologies>>technologies</> and <<../portfolio/skills>>skills</>, and gained a couple of <<../portfolio/awards>>awards</> and <<../portfolio/certificates>>certificates</>. Beyond academics, my free time is devoted to working on personal projects that involve creating <<../portfolio/music>>music</>, <<../portfolio/graphs>>art</> and <<../quiz>>quizzes</>. Additionally, my fascination with geography has brought me on numerous <<../blog/hikes>>hikes</>, visiting many <<../blog/malls>>malls</> along the way.\nI'm on the lookout for opportunities that empower people like me to learn, create, and innovate through user-friendly applications.\nInterested? Do contact me on any one of my platforms: <<https://www.linkedin.com/in/izzhafeez/>>LinkedIn</> | <<izzhafeez@gmail.com>>Email</> | <<https://www.youtube.com/c/izzhafeez>>YouTube</> | <<https://www.instagram.com/mynameizzhafeez/?hl=en>>Instagram</> | <<https://github.com/mynameizzhafeez>>GitHub</>";
 ---
-<div class="neon-merits">hello</div>
+<Layout>
+  <div slot="main">
+    <img class={`mx-auto size-[15rem] bg-white rounded-full border-[5px] my-4 p-4 border-${Astro.params.category}-500 dark:border-${Astro.params.category}-300`} src={imgPath}/>
+    <div class="grid gap-2">
+    <h1 class={`font-extrabold text-3xl text-black dark:text-white`}>HI, MY NAME IZZ HAFEEZ</h1>
+    <Description description={[{text: overview}]} category="no-category"/>
+    {Object.entries(itemsDict).map(([k, v]) => <ItemPreviews items={v} size={v[0].getSize()} category={v[0].category} toLimit={true} overview={allData[v[0].category].description}/>)}</div>
+  </div>
+</Layout>

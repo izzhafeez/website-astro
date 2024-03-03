@@ -1,54 +1,55 @@
-import type { IAward, ICertificate, ICoding, IExperience, IGraph, IHike, IItem, ILanguage, IMall, IMusic, IQuiz, ISkill, ITechnology } from "../types/item";
+import type { IAward, ICertificate, IExperience, IArtwork, IHike, IItem, ILanguage, IMall, IModule, IMusic, ISkill, ITechnology, IMapQuiz, IGuessQuiz } from "../types/item";
 import Item from "./item";
-import Award from "./merits/award";
+import Award from "./portfolio/award";
 import allData from "@data/data";
-import Certificate from "./merits/certificate";
-import Experience from "./merits/experience";
-import Language from "./merits/language";
-import Module from "./merits/module";
-import Skill from "./merits/skill";
-import Technology from "./merits/technology";
-import Coding from "./projects/coding";
-import Graph from "./projects/graph";
-import Music from "./projects/music";
-import Quiz from "./projects/quiz";
+import Certificate from "./portfolio/certificate";
+import Experience from "./portfolio/experience";
+import Language from "./portfolio/language";
+import Module from "./portfolio/module";
+import Skill from "./portfolio/skill";
+import Technology from "./portfolio/technology";
+import Artwork from "./portfolio/artwork";
+import Music from "./portfolio/music";
 import Hike from "./blog/hike";
 import Mall from "./blog/mall";
+import MapQuiz from "./quizzes/mapQuiz";
+import GuessQuiz from "./quizzes/guessQuiz";
 
 export function createItem(iitem: IItem): Item {
   switch (iitem.type) {
-    case 'awards':
+    case 'artwork':
+      return new Artwork(iitem as IArtwork);
+    case 'award':
       return new Award(iitem as IAward);
-    case 'certificates':
+    case 'certificate':
       return new Certificate(iitem as ICertificate);
-    case 'experiences': 
+    case 'experience': 
       return new Experience(iitem as IExperience);
-    case 'languages':
+    case 'language':
       return new Language(iitem as ILanguage);
-    case 'modules':
+    case 'module':
       return new Module(iitem as IModule);
-    case 'skills':
+    case 'skill':
       return new Skill(iitem as ISkill);
-    case 'technologies':
+    case 'technology':
       return new Technology(iitem as ITechnology);
-    case 'coding':
-      return new Coding(iitem as ICoding);
-    case 'graphs':
-      return new Graph(iitem as IGraph);
     case 'music':
       return new Music(iitem as IMusic);
-    case 'quizzes':
-      return new Quiz(iitem as IQuiz);
-    case 'hikes':
+    case 'hike':
       return new Hike(iitem as IHike);
-    case 'malls':
+    case 'mall':
       return new Mall(iitem as IMall);
+    case 'map':
+      return new MapQuiz(iitem as IMapQuiz);
+    case 'guess':
+      return new GuessQuiz(iitem as IGuessQuiz);
     default:
       return new Item(iitem as IItem);
   }
 }
 
 var unsortedItems: Item[] = [];
+export const allItemsDict: { [category: string]: { [type: string]: { [key: string]: Item } } } = {};
 for (const [category, v] of Object.entries(allData)) {
   if (category === 'home') continue;
   const categoryData: Object = v.data;
@@ -58,6 +59,9 @@ for (const [category, v] of Object.entries(allData)) {
       const item = createItem({
         category, type, key, ...v });
       unsortedItems.push(item);
+      if (!allItemsDict[category]) allItemsDict[category] = {};
+      if (!allItemsDict[category][type]) allItemsDict[category][type] = {};
+      allItemsDict[category][type][key] = item;
     }
   }
 }

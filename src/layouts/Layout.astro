@@ -1,5 +1,4 @@
 ---
-import { allItems } from '@items/getItems';
 import NavBar from '../components/nav/NavBar';
 
 const currentPath = Astro.url.pathname;
@@ -31,10 +30,44 @@ const currentPath = Astro.url.pathname;
           monospace;
       }
 
+      .portfolio {
+        color: #D42E12;
+      }
+
+      .projects {
+        color: #009645;
+      }
+
+      .blog {
+        color: #9900AA;
+      }
+
       @tailwind base;
       @tailwind components;
       @tailwind utilities;
+
+      .link-underline {
+        border-bottom-width: 0;
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#6b7280, #6b7280);
+        background-size: 0 2px;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size .5s ease-in-out;
+      }
+
+      .link-underline:hover {
+        background-size: 100% 2px;
+        background-position: 0 100%
+      }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+      <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
     <script is:inline>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -79,7 +112,7 @@ const currentPath = Astro.url.pathname;
       });
     </script>
     <NavBar currentPath={currentPath} client:load/>
-    <article class="px-4">
+    <article class="ps-6 max-w-5xl mx-auto">
       <slot name="main"/>
     </article>
     <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>

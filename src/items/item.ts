@@ -1,4 +1,6 @@
-import type { IItem } from "../types/item";
+import type Line from "@components/map/Line";
+import type { IItem, TDescription } from "../types/item";
+import Location from "@components/map/Location";
 
 class Item implements IItem {
   category: string;
@@ -7,6 +9,8 @@ class Item implements IItem {
   title: string;
   imgPath: string;
   importance: number;
+  description: TDescription;
+  related: string[]
 
   constructor(iItem: IItem) {
     this.category = iItem.category;
@@ -15,6 +19,12 @@ class Item implements IItem {
     this.title = iItem.title;
     this.imgPath = iItem.imgPath;
     this.importance = iItem.importance;
+    this.description = typeof iItem.description === 'string'
+      ? [{ text: iItem.description }]
+      : iItem.description === undefined
+      ? []
+      : iItem.description;
+    this.related = iItem.related;
   }
 
   getTitle(): string {
@@ -29,14 +39,6 @@ class Item implements IItem {
     return '';
   }
 
-  getBracketed(): string {
-    return '';
-  }
-
-  getBracketedColor(): string {
-    return '';
-  }
-
   isStarred(): boolean {
     return this.importance >= 8;
   }
@@ -45,24 +47,36 @@ class Item implements IItem {
     return 'MEDIUM';
   }
 
-  getStarScale(value: number): string {
-    const emptyStar = '☆';
-    const fullStar = '★';
-    const fullStarCount = Math.ceil(value / 2);
-    const emptyStarCount = 5 - fullStarCount;
-    return fullStar.repeat(fullStarCount) + emptyStar.repeat(emptyStarCount);
-  }
-
   getHeaderText(): string {
     return this.getTitle().toUpperCase();
   }
 
-  getFields(): string[] {
+  getFields(): TDescription {
     return [];
   }
 
   getColor(): string {
     return 'black';
+  }
+
+  getPluralType(): string {
+    return this.type;
+  }
+
+  isBigImage(): boolean {
+    return false;
+  }
+
+  hasMap(): boolean {
+    return false;
+  }
+
+  getLocations(): Location[] {
+    return [];
+  }
+
+  getLines(): Line[] {
+    return [];
   }
 }
 

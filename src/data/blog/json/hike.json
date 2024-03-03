@@ -1,0 +1,1791 @@
+{
+  "aint-no-bukit-high-enough": {
+    "title": "Ain't No Bukit High Enough",
+    "date": "TBC",
+    "start": "Beauty World MRT",
+    "end": "Hillview MRT",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "airplanes": {
+    "title": "Airplanes",
+    "date": "TBC",
+    "start": "Changi Airport T4",
+    "end": "Paya Lebar Air Base",
+    "color": "jr-500",
+    "stops": [],
+    "related": []
+  },
+  "balestier-malls": {
+    "title": "Balestier Malls",
+    "imgPath": "zhongshan-mall.jpg",
+    "date": "04/08/22",
+    "start": "Lavender MRT",
+    "end": "Bishan MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take picture of the malls in Lavender, Balestier, Toa Payoh and Bishan. Nothing really special about the roads themselves, as they are not PCNs. But the heritage walk at Balestier was worth checking. And so was the peaceful Zhongshan and Toa Payoh Town Parks."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Balestier Road",
+        "lat": 1.31997,
+        "lng": 103.85302
+      },
+      {
+        "name": "Zhongshan Park",
+        "lat": 1.32701,
+        "lng": 103.84704
+      },
+      {
+        "name": "Toa Payoh Town Park",
+        "lat": 1.33064,
+        "lng": 103.84721
+      },
+      {
+        "name": "Toa Payoh Public Library",
+        "lat": 1.33358,
+        "lng": 103.85029
+      },
+      {
+        "name": "Bishan CC",
+        "lat": 1.3496,
+        "lng": 103.85077
+      }
+    ],
+    "related": [
+      "blog/mall/aperia",
+      "blog/mall/city-square-mall",
+      "blog/mall/hdb-hub",
+      "blog/mall/junction-8",
+      "blog/mall/zhongshan-mall"
+    ]
+  },
+  "bedok-reservoir": {
+    "title": "Bedok Reservoir",
+    "date": "03/01/23",
+    "start": "Pasir Ris MRT",
+    "end": "Suntec City",
+    "color": "cr-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made a conscious effort to connect as many park connectors as I could in the East of Singapore. As such, the route became very nature based, with the most jungled area being the Tampines Eco Green. Though we were surrounded by nature, it was pretty safe, as it was all on level ground and we were not too far away from shelter in case of rain."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought drinks at <</blog/mall/white-sands>>White Sands</>, bought lunch at a McDonalds near Bedok North MRT, and dinner was at <</blog/mall/suntec-city>>Suntec</>. But of course, there were other places to fill up on drinks and such, like <</blog/mall/our-tampines-hub>>Our Tampines Hub</>, <</blog/mall/singpost-centre>>Singpost Centre</> and <</blog/mall/kallang-wave-mall>>Kallang Wave Mall</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Pasir Ris Park",
+        "lat": 1.38048,
+        "lng": 103.95058
+      },
+      {
+        "name": "Pasir Ris Park Mangrove Boardwalk",
+        "lat": 1.37756,
+        "lng": 103.95235
+      },
+      {
+        "name": "Pasir Ris Sports Centre",
+        "lat": 1.371419,
+        "lng": 103.95189,
+        "types": [
+          "restock"
+        ]
+      },
+      {
+        "name": "Pasir Ris Town Park",
+        "lat": 1.37176,
+        "lng": 103.95246
+      },
+      {
+        "name": "Tampines Eco Green",
+        "lat": 1.36503,
+        "lng": 103.94824
+      },
+      {
+        "name": "Sun Plaza Park",
+        "lat": 1.35886,
+        "lng": 103.94333
+      },
+      {
+        "name": "Tampines Central Park",
+        "lat": 1.35387,
+        "lng": 103.93718
+      },
+      {
+        "name": "Bedok Reservoir",
+        "lat": 1.34332,
+        "lng": 103.92751
+      },
+      {
+        "name": "Bedok Town Park",
+        "lat": 1.33608,
+        "lng": 103.93009
+      },
+      {
+        "name": "McDonald's Bedok Reservoir",
+        "lat": 1.3323,
+        "lng": 103.91389,
+        "types": [
+          "food"
+        ]
+      },
+      {
+        "name": "Siglap PC",
+        "lat": 1.32888,
+        "lng": 103.91096
+      },
+      {
+        "name": "Sims Ave PC",
+        "lat": 1.32039,
+        "lng": 103.90997
+      },
+      {
+        "name": "Geylang River/PC",
+        "lat": 1.31349,
+        "lng": 103.88946
+      },
+      {
+        "name": "Tanjong Rhu Sus Bridge",
+        "lat": 1.29918,
+        "lng": 103.87378
+      },
+      {
+        "name": "Merdeka Bridge",
+        "lat": 1.30431,
+        "lng": 103.86849
+      }
+    ],
+    "related": [
+      "blog/mall/century-square",
+      "blog/mall/kallang-wave-mall",
+      "blog/mall/our-tampines-hub",
+      "blog/mall/paya-lebar-quarter",
+      "blog/mall/paya-lebar-square",
+      "blog/mall/singpost-centre",
+      "blog/mall/suntec-city",
+      "blog/mall/tampines-1",
+      "blog/mall/tampines-mall",
+      "blog/mall/white-sands"
+    ]
+  },
+  "bukit-panjang-malls": {
+    "title": "Bukit Panjang Malls",
+    "imgPath": "bukit-panjang-plaza.jpg",
+    "date": "23/09/21",
+    "start": "Choa Chu Kang MRT",
+    "end": "Hillview MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take picture of the malls in Choa Chu Kang and Bukit Panjang. But apart from the malls, this is just a walk through the HDB estates, so the route isn't anything too special. These malls look great though! Especially Bukit Panjang Plaza."
+      },
+      {
+        "title": "refreshments",
+        "text": "I bought a drink at <</blog/mall/bukit-panjang-plaza>>Bukit Panjang Plaza</> and <</blog/mall/rail-mall>>Rail Mall</>. They were REFRESHING. The ILT I bought at Rail Mall's Toast Box especially, as that day was HOT."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Limbang Park",
+        "lat": 1.39017,
+        "lng": 103.74469
+      },
+      {
+        "name": "Choa Chu Kang Park",
+        "lat": 1.38819,
+        "lng": 103.74649
+      },
+      {
+        "name": "Choa Chu Kang CC",
+        "lat": 1.38121,
+        "lng": 103.75167
+      },
+      {
+        "name": "Hazel Park",
+        "lat": 1.37071,
+        "lng": 103.76438
+      }
+    ],
+    "related": [
+      "blog/mall/bukit-panjang-plaza",
+      "blog/mall/hill-v2",
+      "blog/mall/hillion-mall",
+      "blog/mall/junction-10",
+      "blog/mall/lot-one",
+      "blog/mall/rail-mall",
+      "blog/mall/yew-tee-point"
+    ]
+  },
+  "coast-2-coast": {
+    "title": "Coast-2-Coast+",
+    "date": "01/08/22",
+    "start": "Bukit Batok MRT",
+    "end": "Samudera LRT",
+    "color": "cr-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This is currently my longest walk to date, and one of the first proper hikes I've done. The intended route for the Coast to Coast Route set by NEA has us start at Jurong Lake Gardens, and travel to Coney Island. However, there were malls I needed to take picture of in Bukit Batok, Hillview and Bukit Timah. As such, I decided to start the route at Bukit Batok, since we would be making lots of detours anyway. This included the detour up to Hillview, where we walked along the rail corridor from there to Bukit Timah. This part was not as secluded as I had initially thought, as we saw many people walking there even on a Monday morning. After reaching Beauty World, the rest of our journey mostly followed the intended route."
+      },
+      {
+        "title": "refreshments",
+        "text": "As for refreshments, we bought ILT at <</blog/mall/rail-mall>>Rail Mall</>'s Toast Box, ate at Subway at <</blog/mall/bukit-timah-plaza>>Bukit Timah Plaza</>, sat down for a drink at Adam Food Centre, and had dinner at A&W at <</blog/mall/northshore-plaza>>Northshore Plaza</>. We also had quite a few rest stops at the railway station, a bus stop at Lornie Road, beside the water cooler at AMK Linear Park, and a bus stop in Sumang."
+      },
+      {
+        "title": "advice",
+        "text": "Please make sure that you have lots of drinks when you leave AMK. AMK Avenue 5 is a very long stretch of road with no places to buy food or drinks. The ONLY water cooler in that vicinity is at the END of the AMK Linear Park. It felt like a quest to make it there and reach the holy water cooler."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Rail Corridor Central",
+        "lat": 1.35111,
+        "lng": 103.77116
+      },
+      {
+        "name": "Bukit Timah Railway Station",
+        "lat": 1.33455,
+        "lng": 103.78113
+      },
+      {
+        "name": "Adam Food Centre",
+        "lat": 1.32409,
+        "lng": 103.81413
+      },
+      {
+        "name": "Lornie Bus Stop",
+        "lat": 1.33549,
+        "lng": 103.8184
+      },
+      {
+        "name": "Lornie Nature Corridor",
+        "lat": 1.33605,
+        "lng": 103.8186
+      },
+      {
+        "name": "Bishan-AMK Park",
+        "lat": 1.36331,
+        "lng": 103.84422
+      },
+      {
+        "name": "AMK Linear Park",
+        "lat": 1.37936,
+        "lng": 103.87175
+      },
+      {
+        "name": "AMK Linear Park Water Cooler",
+        "lat": 1.37942,
+        "lng": 103.8731
+      },
+      {
+        "name": "Luxus Hills Park",
+        "lat": 1.37947,
+        "lng": 103.87458
+      },
+      {
+        "name": "Punggol PC",
+        "lat": 1.3886,
+        "lng": 103.8814
+      },
+      {
+        "name": "Sungei Punggol",
+        "lat": 1.38936,
+        "lng": 103.88155
+      },
+      {
+        "name": "Holy Sumang Bus Stop",
+        "lat": 1.40236,
+        "lng": 103.89361
+      }
+    ],
+    "related": [
+      "blog/mall/amk-hub",
+      "blog/mall/bukit-timah-plaza",
+      "blog/mall/bukit-timah-shopping-centre",
+      "blog/mall/djitsun-mall",
+      "blog/mall/grandstand",
+      "blog/mall/hill-v2",
+      "blog/mall/jubilee-square",
+      "blog/mall/le-quest",
+      "blog/mall/northshore-plaza",
+      "blog/mall/rail-mall",
+      "blog/mall/west-mall"
+    ]
+  },
+  "deez-nutz": {
+    "title": "Deez Nutz",
+    "date": "TBC",
+    "start": "Hillview MRT",
+    "end": "Bukit Panjang MRT",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "dream-of-red-line": {
+    "title": "\u7ea2\u7ebf\u68a6\u524d\u6bb5",
+    "date": "TBC",
+    "start": "Marsiling MRT",
+    "end": "Bukit Batok MRT",
+    "color": "ns-500",
+    "stops": [],
+    "related": []
+  },
+  "east-coast-malls": {
+    "title": "East Coast Malls",
+    "imgPath": "katong-shopping-centre.jpg",
+    "date": "30/12/21",
+    "start": "Raffles Place MRT",
+    "end": "Bedok MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take pictures of the malls in the Marina Bay, Paya Lebar, Katong and Bedok. Overall, it was quite a boring walk, apart from the Merdeka bridge, where we had a good view of the Kallang and Rochor Rivers. Marine Parade area was also full of construction, so it was difficult to walk around."
+      },
+      {
+        "title": "refreshments",
+        "text": "We ate lunch at the food court at <</blog/mall/kallang-wave-mall>>Kallang Wave Mall</>. Then bought drinks at <</blog/mall/i12-katong>>i12 Katong</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Jubilee Bridge",
+        "lat": 1.28788,
+        "lng": 103.85431
+      },
+      {
+        "name": "Esplanade",
+        "lat": 1.28968,
+        "lng": 103.85579
+      },
+      {
+        "name": "Merdeka Bridge",
+        "lat": 1.30437,
+        "lng": 103.86842
+      },
+      {
+        "name": "Stadium",
+        "lat": 1.3045,
+        "lng": 103.8741
+      },
+      {
+        "name": "Geylang River/PC",
+        "lat": 1.31036,
+        "lng": 103.88931
+      },
+      {
+        "name": "Siglap PC",
+        "lat": 1.31173,
+        "lng": 103.91649
+      }
+    ],
+    "related": [
+      "blog/mall/bedok-mall",
+      "blog/mall/bedok-point",
+      "blog/mall/djitsun-mall-bedok",
+      "blog/mall/golden-mile-complex",
+      "blog/mall/i12-katong",
+      "blog/mall/kallang-wave-mall",
+      "blog/mall/katong-shopping-centre",
+      "blog/mall/katong-v",
+      "blog/mall/marina-square",
+      "blog/mall/millenia-walk",
+      "blog/mall/one-fullerton",
+      "blog/mall/one-raffles-place",
+      "blog/mall/parkway-parade",
+      "blog/mall/paya-lebar-quarter",
+      "blog/mall/paya-lebar-square",
+      "blog/mall/raffles-city",
+      "blog/mall/roxy-square",
+      "blog/mall/singpost-centre",
+      "blog/mall/suntec-city"
+    ]
+  },
+  "eastern-malls": {
+    "title": "Eastern Malls",
+    "imgPath": "century-square.jpg",
+    "date": "17/05/22",
+    "start": "Tanah Merah MRT",
+    "end": "Pasir Ris MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take pictures of the malls in the far east of Singapore. From Tanah Merah to Pasir Ris. However, unlike the other malls walks, this walk goes through quite a number of Park Connectors, especially in Tampines. Overall, it was worth exploring, but not worth to do it again."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought drinks at <</blog/mall/eastpoint-mall>>Eastpoint mall</> and that's it."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Simpang Bedok",
+        "lat": 1.33189,
+        "lng": 103.94808
+      },
+      {
+        "name": "Simei PC",
+        "lat": 1.34064,
+        "lng": 103.95535
+      },
+      {
+        "name": "Tampines PC",
+        "lat": 1.34728,
+        "lng": 103.94998
+      }
+    ],
+    "related": [
+      "blog/mall/century-square",
+      "blog/mall/east-village",
+      "blog/mall/eastpoint-mall",
+      "blog/mall/our-tampines-hub",
+      "blog/mall/tampines-1",
+      "blog/mall/tampines-mall",
+      "blog/mall/white-sands"
+    ]
+  },
+  "gangsters-paradise": {
+    "title": "Gangsters' Paradise",
+    "date": "TBC",
+    "start": "Serangoon MRT",
+    "end": "Thanggam LRT",
+    "color": "jr-500",
+    "stops": [],
+    "related": []
+  },
+  "hawkerman": {
+    "title": "Hawkerman",
+    "date": "26/12/23",
+    "start": "Mayflower MRT",
+    "end": "Bishan MRT",
+    "color": "tw-500",
+    "stops": [],
+    "related": []
+  },
+  "hortridge-park": {
+    "title": "HortRidge Park",
+    "date": "22/12/20",
+    "start": "Buona Vista MRT",
+    "end": "HarbourFront MRT",
+    "color": "ew-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "We were meant to go all the way to Mount Faber, but got too tired near the end. Do keep in mind that we had our masks on outside, and it was one of the earliest walks I ever did."
+      },
+      {
+        "title": "refreshments",
+        "text": "Lunch was at Pizza Hut at <</blog/mall/harbourfront-centre>>HarbourFront Centre</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Kent Ridge Park",
+        "lat": 1.28514,
+        "lng": 103.79043
+      },
+      {
+        "name": "Hort Park",
+        "lat": 1.279,
+        "lng": 103.79943
+      }
+    ],
+    "related": [
+      "blog/mall/harbourfront-centre"
+    ]
+  },
+  "journey-to-the-north-east": {
+    "title": "\u4e1c\u5317\u6e38\u8bb0",
+    "imgPath": "journey-to-the-west.jpg",
+    "date": "29/12/22",
+    "start": "HarbourFront MRT",
+    "end": "Punggol MRT",
+    "color": "ne-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This was a walk I planned to explore all the stations along the North-East line. Being the shortest MRT line, I found this walk to be quite easy. However, it did rain while we were at Kovan and Sengkang, so we had to waste a lot of time at those places whilst waiting for the rain to stop. We did not use Google Maps throughout the journey, as it was quite easy to navigate (except the first part). Overall, this route was quite fun, as we could treat the stations as more manageable checkpoints."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had brunch at Food Junction at <</blog/mall/city-square-mall>>City Square Mall</>, so it was quite early on in the trip. We also had a drink at Burger King at <</blog/mall/heartland-mall>>Heartland Mall</> while waiting for the rain to stop. Other than that, we didn't stop to buy anything else."
+      },
+      {
+        "title": "advice",
+        "text": "Try not to get lost between HarbourFront and Outram, as that area is full of roads. We ended up taking a longer way past Spottiswoode Park, instead of going towards SGH. Don't look at the route for that section; we went all the way until Cantonment Link before turning left."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Spottiswoode Park",
+        "lat": 1.27396,
+        "lng": 103.83833
+      },
+      {
+        "name": "Fort Canning",
+        "lat": 1.29257,
+        "lng": 103.84646
+      },
+      {
+        "name": "Sengkang Sculpture Park",
+        "lat": 1.39496,
+        "lng": 103.8968
+      }
+    ],
+    "related": [
+      "blog/mall/chinatown-point",
+      "blog/mall/city-square-mall",
+      "blog/mall/clarke-quay-central",
+      "blog/mall/compass-one",
+      "blog/mall/funan",
+      "blog/mall/heartland-mall",
+      "blog/mall/hougang-mall",
+      "blog/mall/mustafa-centre",
+      "blog/mall/nex",
+      "blog/mall/plaza-singapura",
+      "blog/mall/sengkang-grand-mall",
+      "blog/mall/tekka-place",
+      "blog/mall/the-poiz",
+      "blog/mall/vivo-city",
+      "blog/mall/waterway-point",
+      "blog/mall/woodleigh-mall"
+    ]
+  },
+  "journey-to-the-west": {
+    "title": "\u897f\u6e38\u8bb0",
+    "date": "TBC",
+    "start": "Tuas Link",
+    "end": "Boon Lay MRT",
+    "color": "ew-500",
+    "stops": [],
+    "related": []
+  },
+  "jurong-lake": {
+    "title": "Jurong Lake",
+    "date": "TBC",
+    "start": "Boon Lay MRT",
+    "end": "Bukit Batok MRT",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "north-coast-malls": {
+    "title": "North Coast Malls",
+    "imgPath": "sun-plaza.jpg",
+    "date": "28/03/22",
+    "start": "Woodlands MRT",
+    "end": "Khatib MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take pictures of malls in the north of Singapore, including Woodlands, Sembawang and Yishun. Part of the route coincides with a Park Connector, but otherwise, enjoy the beautiful sights of Woodlands HDB estates."
+      },
+      {
+        "title": "refreshments",
+        "text": "The most important drink that I bought was a fruit juice in the basement of <</blog/mall/sembawang-shopping-centre>>Sembawang Shopping Centre</>. That was VERY REFRESHING, as it was a hot day outside. 10/10 would go there again just for the fruit juice. I also bought a drink from a BBT shop in <</blog/mall/junction-9>>Junction Nine</>, and it was pretty worth the money as well."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Woodlands PCN",
+        "lat": 1.43866,
+        "lng": 103.79198
+      },
+      {
+        "name": "Jalan Sendudok Park",
+        "lat": 1.44382,
+        "lng": 103.82716
+      }
+    ],
+    "related": [
+      "blog/mall/canberra-plaza",
+      "blog/mall/causeway-point",
+      "blog/mall/junction-9",
+      "blog/mall/northpoint-city",
+      "blog/mall/sembawang-shopping-centre",
+      "blog/mall/sun-plaza",
+      "blog/mall/wisteria-mall",
+      "blog/mall/woods-square"
+    ]
+  },
+  "ntu-nus": {
+    "title": "NTU - NUS",
+    "date": "TBC",
+    "start": "Pioneer MRT",
+    "end": "Kent Ridge MRT",
+    "color": "sl-500",
+    "stops": [],
+    "related": []
+  },
+  "nus-smu": {
+    "title": "NUS-SMU",
+    "imgPath": "smu.jpg",
+    "date": "23/07/23",
+    "start": "Kent Ridge MRT",
+    "end": "Bencoolen MRT",
+    "color": "sl-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route is part of the larger 4 University Walks. This is the shortest portion of it, starting in NUS and ending in SMU, via the Botanic Gardens. I wanted to bring someone who goes to NUS LAW and SMU, but they sadly couldn't make it on the day itself. So will have to settle for another day in the area."
+      },
+      {
+        "title": "refreshments",
+        "text": "It started raining by the time we reached <</blog/mall/the-star-vista>>The Star Vista</>, so we had to make a rest stop there.Apart from that, we ate lunch at Monster Planet at <</blog/mall/the-centrepoint>>The CentrePoint</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "NUS Faculty of Science",
+        "lat": 1.29695,
+        "lng": 103.78053
+      },
+      {
+        "name": "Dempsey Hill",
+        "lat": 1.30456,
+        "lng": 103.81069
+      },
+      {
+        "name": "Botanic Gardens",
+        "lat": 1.31125,
+        "lng": 103.81515
+      },
+      {
+        "name": "SMU",
+        "lat": 1.29858,
+        "lng": 103.8493
+      }
+    ],
+    "related": [
+      "blog/mall/rochester-mall",
+      "blog/mall/the-centrepoint",
+      "blog/mall/the-star-vista"
+    ]
+  },
+  "orchard-malls": {
+    "title": "Orchard Malls",
+    "imgPath": "313-somerset.jpg",
+    "date": "05/09/21",
+    "start": "Stevens MRT",
+    "end": "Somerset MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I did this route after I went for my HSK 6 exam. It was at RELC, so that's where the journey began. My mind was already pretty exhausted, but I still managed to make my way down Orchard Road, where I met my family for dinner."
+      }
+    ],
+    "stops": [
+      {
+        "name": "RELC International",
+        "lat": 1.31295,
+        "lng": 103.82562
+      },
+      {
+        "name": "Orchard Road",
+        "lat": 1.30502,
+        "lng": 103.83194
+      }
+    ],
+    "related": [
+      "blog/mall/313-somerset",
+      "blog/mall/cathay-cineleisure-orchard",
+      "blog/mall/far-east-plaza",
+      "blog/mall/ion-orchard",
+      "blog/mall/knightsbridge",
+      "blog/mall/lucky-plaza",
+      "blog/mall/mandarin-gallery",
+      "blog/mall/midpoint-orchard",
+      "blog/mall/ngee-ann-city",
+      "blog/mall/orchard-central",
+      "blog/mall/orchard-gateway",
+      "blog/mall/plaza-singapura",
+      "blog/mall/scotts-square",
+      "blog/mall/shaw-house-and-centre",
+      "blog/mall/the-centrepoint",
+      "blog/mall/the-paragon",
+      "blog/mall/wheelock-place",
+      "blog/mall/wisma-atria"
+    ]
+  },
+  "pasir-ris-park": {
+    "title": "Pasir Ris Park",
+    "date": "27/09/23",
+    "start": "Pasir Ris MRT",
+    "end": "Pasir Ris MRT",
+    "color": "ew-300",
+    "stops": [],
+    "related": []
+  },
+  "plan-for-the-east-coast": {
+    "title": "Plan for the East Coast",
+    "imgPath": "plan-for-the-east-coast.jpeg",
+    "date": "26/12/22",
+    "start": "Bedok MRT",
+    "end": "Suntec City",
+    "color": "ew-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I think my friends and I have done many similar routes throughout our time in ECP. But I think this is the most complete one that we've done. It goes from Bedok to Suntec, through most of the ECP. Being one of the biggest and best parks in Singapore, it was bound to be a good walk. Very busy too."
+      },
+      {
+        "title": "refreshments",
+        "text": "Dinner was at <</blog/mall/suntec-city>>Suntec</>, and that's pretty much it."
+      },
+      {
+        "title": "advice",
+        "text": "Don't go on grass unnecessarily. It may be wet, causing your shoes to be very dirty. Also, the staircase up to the bridge itself is tiring, so legs cannot be too tired at that point."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Siglap Linear Park",
+        "lat": 1.31652,
+        "lng": 103.92644
+      },
+      {
+        "name": "East Coast Park",
+        "lat": 1.30352,
+        "lng": 103.92161
+      },
+      {
+        "name": "Marina Desalination Plant",
+        "lat": 1.29398,
+        "lng": 103.87708
+      },
+      {
+        "name": "Benjamin Sheares Bridge",
+        "lat": 1.29415,
+        "lng": 103.86539
+      }
+    ],
+    "related": [
+      "blog/mall/bedok-mall",
+      "blog/mall/suntec-city"
+    ]
+  },
+  "plan-for-the-west-coast": {
+    "title": "Plan for the West Coast",
+    "imgPath": "nus.jpg",
+    "date": "11/08/23",
+    "start": "Clementi MRT",
+    "end": "Clementi MRT",
+    "color": "sl-500",
+    "stops": [
+      {
+        "name": "UTown",
+        "lat": 1.305803,
+        "lng": 103.772516
+      },
+      {
+        "name": "NUS Museum",
+        "lat": 1.301772,
+        "lng": 103.772402
+      },
+      {
+        "name": "NUS Central Library",
+        "lat": 1.296208,
+        "lng": 103.772994
+      },
+      {
+        "name": "NUS School of Computing",
+        "lat": 1.294482,
+        "lng": 103.7733
+      },
+      {
+        "name": "NUS Faculty of Science",
+        "lat": 1.296184,
+        "lng": 103.781015
+      },
+      {
+        "name": "West Coast Park",
+        "lat": 1.288017,
+        "lng": 103.774366
+      },
+      {
+        "name": "Ayer Rajah Food Centre",
+        "lat": 1.311534,
+        "lng": 103.759023
+      }
+    ],
+    "related": [
+      "blog/mall/321-clementi",
+      "blog/mall/clementi-mall",
+      "blog/mall/west-coast-plaza"
+    ]
+  },
+  "rifle-range": {
+    "title": "Rifle Range",
+    "date": "TBC",
+    "start": "Bright Hill MR",
+    "end": "Bukit Batok MRT",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "river-flows-in-you": {
+    "title": "River Flows in You",
+    "imgPath": "river-flows-in-you.jpeg",
+    "date": "07/12/22",
+    "start": "Khatib MRT",
+    "end": "Suntec City",
+    "color": "te-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route mostly follows the course of the Kallang River, from its start in BAMK Park, to its end near Stadium. However, since we were already in the area, I planned the route to visit the Thomson East Coast Line stations, from Springleaf to Bright Hill. I think the hybrid nature was quite varied, and we managed to see quite a lot of things."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had McDonald's lunch at <</blog/mall/junction-8>>Junction 8</>, and a quick stop for drinks at <</blog/mall/the-poiz>>The Poiz</> because it was raining."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Lower Seletar Reservoir Park",
+        "lat": 1.40931,
+        "lng": 103.82993
+      },
+      {
+        "name": "Springleaf PCN/Nature Park",
+        "lat": 1.40191,
+        "lng": 103.8236
+      },
+      {
+        "name": "Thomson Nature Park",
+        "lat": 1.38364,
+        "lng": 103.82236
+      },
+      {
+        "name": "Bishan-AMK Park",
+        "lat": 1.367,
+        "lng": 103.83202
+      },
+      {
+        "name": "Kallang River/PCN",
+        "lat": 1.34362,
+        "lng": 103.85742
+      },
+      {
+        "name": "Kallang Riverside Park",
+        "lat": 1.30683,
+        "lng": 103.87036
+      }
+    ],
+    "related": [
+      "blog/mall/junction-8",
+      "blog/mall/suntec-city",
+      "blog/mall/the-poiz"
+    ]
+  },
+  "romance-of-three-kingdoms": {
+    "title": "\u4e09\u56fd\u6f14\u4e49",
+    "imgPath": "romance-of-three-kingdoms.jpg",
+    "date": "08/08/23",
+    "start": "Woodlands North MRT",
+    "end": "HarbourFront MRT",
+    "color": "ns-300",
+    "stops": [
+      {
+        "name": "Woodlands Waterfront Park",
+        "lat": 1.452571,
+        "lng": 103.778683
+      },
+      {
+        "name": "Marsiling Park",
+        "lat": 1.436686,
+        "lng": 103.770192
+      },
+      {
+        "name": "Rail Corridor North",
+        "lat": 1.422475,
+        "lng": 103.754022
+      },
+      {
+        "name": "Rail Corridor Central",
+        "lat": 1.35124,
+        "lng": 103.7712
+      },
+      {
+        "name": "Bukit Timah Railway Station",
+        "lat": 1.333942,
+        "lng": 103.781243
+      },
+      {
+        "name": "Rail Corridor South",
+        "lat": 1.284089,
+        "lng": 103.806013
+      }
+    ],
+    "related": [
+      "blog/mall/bukit-panjang-plaza",
+      "blog/mall/bukit-timah-plaza",
+      "blog/mall/hillion-mall",
+      "blog/mall/the-star-vista",
+      "blog/mall/vivo-city",
+      "blog/hike/romance-of-two-kingdoms"
+    ]
+  },
+  "romance-of-two-kingdoms": {
+    "title": "\u4e24\u56fd\u6f14\u4e49",
+    "imgPath": "romance-of-three-kingdoms.jpg",
+    "date": "29/09/22",
+    "start": "Woodlands MRT",
+    "end": "Bangkit LRT",
+    "color": "cr-500",
+    "stops": [
+      {
+        "name": "Admiralty Park",
+        "lat": 1.44474381760186,
+        "lng": 103.78073158061967
+      },
+      {
+        "name": "Woodlands Waterfront Park",
+        "lat": 1.452571,
+        "lng": 103.778683
+      },
+      {
+        "name": "Marsiling Market",
+        "lat": 1.4438933370613418,
+        "lng": 103.77701941295275
+      },
+      {
+        "name": "Marsiling Park",
+        "lat": 1.436686,
+        "lng": 103.770192
+      },
+      {
+        "name": "Bukit Panjang Hawker Centre",
+        "lat": 1.3775850443900561,
+        "lng": 103.7723231982469
+      }
+    ],
+    "related": [
+      "blog/mall/bukit-panjang-plaza",
+      "blog/mall/bukit-timah-plaza",
+      "blog/mall/hillion-mall",
+      "blog/hike/romance-of-three-kingdoms",
+      "blog/hike/romance-of-two-kingdoms"
+    ]
+  },
+  "sengkang-malls": {
+    "title": "Sengkang Malls",
+    "imgPath": "northshore-plaza.jpg",
+    "date": "14/07/22",
+    "start": "Punggol MRT",
+    "end": "Kovan MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I made this route to take pictures of malls in Sengkang, Punggol and Hougang. After departing from Punggol, we headed north to the <</blog/mall/northshore-plaza>>Northshore Plaza</>, then we headed along the Punggol Waterway, and made a few turns to capture all the malls in the area. I think with the exception of <</blog/mall/punggol-plaza>>Punggol Plaza</> and <</blog/mall/compass-one>>Compass One</>, all the malls were very much worth visiting and very nice overall. Even <</blog/mall/greenwich-v>>Greenwich V</> looks good, though the location is horrible."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had lunch at McDonald's at <</blog/mall/rivervale-mall>>Rivervale Mall</>, and dinner at Burger King at <</blog/mall/heartland-mall>>Heartland Mall</> in Kovan. We also had a break from the rain at <</blog/mall/seletar-mall>>Seletar Mall</>, where we ate at Ya Kun."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Punggol Waterway Park",
+        "lat": 1.41119,
+        "lng": 103.90471
+      },
+      {
+        "name": "Punggol Waterway",
+        "lat": 1.40642,
+        "lng": 103.91029
+      }
+    ],
+    "related": [
+      "blog/mall/greenwich-v",
+      "blog/mall/heartland-mall",
+      "blog/mall/hougang-1",
+      "blog/mall/hougang-mall",
+      "blog/mall/northshore-plaza",
+      "blog/mall/oasis-terraces",
+      "blog/mall/punggol-plaza",
+      "blog/mall/rivervale-mall",
+      "blog/mall/rivervale-plaza",
+      "blog/mall/seletar-mall",
+      "blog/mall/waterway-point"
+    ]
+  },
+  "singapura-very-strong": {
+    "title": "Singapura Very Strong",
+    "date": "13/01/24",
+    "start": "Labrador Park MRT",
+    "end": "Imbiah Lookout",
+    "color": "cr-500",
+    "stops": [],
+    "related": []
+  },
+  "smu-sutd": {
+    "title": "SMU - SUTD",
+    "date": "TBC",
+    "start": "Bencoolen MRT",
+    "end": "Upper Changi MRT",
+    "color": "dt-500",
+    "stops": [],
+    "related": []
+  },
+  "south-coast-malls": {
+    "title": "South Coast Malls",
+    "imgPath": "vivo-city.jpg",
+    "date": "27/10/21",
+    "start": "Pasir Panjang MRT",
+    "end": "Farrer Park MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This was the longest walk I've done WHILE LISTENING TO LECTURE. So this was my first semester in NUS, and lectures were all over the place. I decided to spend two of my lectures for the day taking pictures of malls. I covered quite a lot that day."
+      },
+      {
+        "title": "refreshments",
+        "text": "I bought a drink at <</blog/mall/vivo-city>>VivoCity</>, and that's pretty much it."
+      }
+    ],
+    "stops": [],
+    "related": [
+      "blog/mall/100-am",
+      "blog/mall/alexandra-retail-centre",
+      "blog/mall/chinatown-point",
+      "blog/mall/city-square-mall",
+      "blog/mall/clarke-quay-central",
+      "blog/mall/funan",
+      "blog/mall/harbourfront-centre",
+      "blog/mall/icon-village",
+      "blog/mall/peoples-park-centre",
+      "blog/mall/peoples-park-complex",
+      "blog/mall/plaza-singapura",
+      "blog/mall/raffles-city",
+      "blog/mall/sim-lim-square",
+      "blog/mall/tanjong-pagar-centre",
+      "blog/mall/tekka-place",
+      "blog/mall/vivo-city"
+    ]
+  },
+  "spring-2-leaf-3": {
+    "title": "Spr\u00edngl\u011baf",
+    "date": "TBC",
+    "start": "Springleaf MRT",
+    "end": "Bright Hill MRT",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "sungei-buloh": {
+    "title": "Sungei Buloh",
+    "date": "TBC",
+    "start": "Sungei Buloh",
+    "end": "Sungei Buloh",
+    "color": "ew-700",
+    "stops": [],
+    "related": []
+  },
+  "tale-of-two-rivers": {
+    "title": "Tale of Two Rivers",
+    "imgPath": "tale-of-two-rivers.jpg",
+    "date": "04/12/22",
+    "start": "Jurong East MRT",
+    "end": "Suntec City",
+    "color": "ew-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route is part of the Mega Loop route I have planned. It follows the courses of two rivers: the Ulu Pandan and Singapore Rivers. They surprisingly take us all the way from Jurong East to Suntec, so that was a good distance travelled. We also managed to squeeze in the Rail Corridor in between the rivers."
+      },
+      {
+        "title": "refreshments",
+        "text": "When we were at Dover, it started to rain heavily, so we skipped ahead to <</blog/mall/the-star-vista>>The Star Vista</>, where we had Eighteen Chefs. After that, we skipped back to Dover and resumed our journey. We had drinks at <</blog/mall/great-world-city>>Great World City</>, and dinner at <</blog/mall/suntec-city>>Suntec</>."
+      },
+      {
+        "title": "advice",
+        "text": "Please be sure to check the NEA website for updates on PCN closures. When we went, the section under Commonwealth Ave W was closed, so we had to make a MASSVE detour. The route below kind of shows the detour, but I'm sure it was longer than that. There was also the detour into the Sunset neighbourhood, and it was difficult to come back after that."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Pandan River",
+        "lat": 1.3266,
+        "lng": 103.75013
+      },
+      {
+        "name": "Ulu Pandan River/PC",
+        "lat": 1.32423,
+        "lng": 103.75473
+      },
+      {
+        "name": "Rail Corridor Greenway",
+        "lat": 1.30319,
+        "lng": 103.79385
+      },
+      {
+        "name": "Alexandra Canal Linear Park",
+        "lat": 1.29603,
+        "lng": 103.80629
+      },
+      {
+        "name": "Alexandra Canal/PC",
+        "lat": 1.29247,
+        "lng": 103.81773
+      },
+      {
+        "name": "Singapore River",
+        "lat": 1.29229,
+        "lng": 103.82562
+      },
+      {
+        "name": "Esplanade Park",
+        "lat": 1.28939,
+        "lng": 103.85373
+      }
+    ],
+    "related": [
+      "blog/mall/clarke-quay-central",
+      "blog/mall/great-world-city",
+      "blog/mall/imm",
+      "blog/mall/j-cube",
+      "blog/mall/jem",
+      "blog/mall/suntec-city",
+      "blog/mall/the-star-vista",
+      "blog/mall/westgate"
+    ]
+  },
+  "tel-3": {
+    "title": "TEL 3",
+    "date": "30/11/22",
+    "start": "Stevens MRT",
+    "end": "Gardens By The Bay MRT",
+    "color": "te-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "Starts at Stevens, and visits every TEL station until Gardens by the Bay. The station designs were very modern, and there were not many people using the stations at the time. Overall a good walk through the south of Singapore. We even visited Marina South MRT, which has NOTHING around it."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had lunch at Food Republic at <</blog/mall/great-world-city>>Great World City</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Botanic Gardens",
+        "lat": 1.31123,
+        "lng": 103.81518
+      },
+      {
+        "name": "Duxton Plain Park",
+        "lat": 1.28145,
+        "lng": 103.84142
+      },
+      {
+        "name": "Gardens by the Bay",
+        "lat": 1.28113,
+        "lng": 103.8645
+      }
+    ],
+    "related": [
+      "blog/mall/great-world-city",
+      "blog/mall/ion-orchard",
+      "blog/mall/marina-one",
+      "blog/mall/tanglin-mall"
+    ]
+  },
+  "tel-4": {
+    "title": "TEL 4",
+    "date": "TBC",
+    "start": "Gardens by the Bay MRT",
+    "end": "Sungei Bedok MRT",
+    "color": "te-500",
+    "stops": [],
+    "related": []
+  },
+  "the-circle-of-life": {
+    "title": "The Circle of Life",
+    "imgPath": "the-circle-of-life.jpeg",
+    "date": "05/05/23",
+    "start": "HarbourFront MRT",
+    "end": "Nicoll Highway MRT",
+    "color": "cc-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route tries to visit all the Circle Line stations in Singapore. We managed to make it quite far, but we stopped at Nicoll Highway because it was very dark outside. We also skipped the section between Botanic Gardens and Caldecott, as it was too dangerous to go in on a quiet day. Overall, it was a one time thing, and I don't think I want to do that again. Do once and once only."
+      },
+      {
+        "title": "refreshments",
+        "text": "When we arrived at Farrer Road, it started to rain, so we had to head back to <</blog/mall/the-star-vista>>The Star Vista</> and have something to drink. We properly had lunch at Food Republic at <</blog/mall/junction-8>>Junction 8</>, had drinks at <</blog/mall/nex>>NEX</>, ice cream and drinks at <</blog/mall/paya-lebar-square>>Paya Lebar Square</>, and finally dinner at <</blog/mall/suntec-city>>Suntec</>."
+      },
+      {
+        "title": "advice",
+        "text": "We underestimated how much time we would spend on the second half of the journey. Indeed, with tired legs and everything, we went much slower in the second half. By the time we reached Mountbatten, it was getting pretty dark outside, which made the dimly-lit Nicoll Highway section quite dangerous."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Geylang River/PC",
+        "lat": 1.3137,
+        "lng": 103.89104
+      }
+    ],
+    "related": [
+      "blog/mall/harbourfront-centre",
+      "blog/mall/junction-8",
+      "blog/mall/kallang-wave-mall",
+      "blog/mall/nex",
+      "blog/mall/paya-lebar-quarter",
+      "blog/mall/paya-lebar-square",
+      "blog/mall/singpost-centre",
+      "blog/mall/suntec-city",
+      "blog/mall/the-star-vista",
+      "blog/mall/vivo-city"
+    ]
+  },
+  "the-forgotten-airport": {
+    "title": "The Forgotten Airport",
+    "date": "13/08/23",
+    "start": "Pasir Ris MRT",
+    "end": "Yishun MRT",
+    "color": "ns-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk brings us to Seletar Airport, Lower Seletar Reservoir, and Yishun."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Punggol Waterway",
+        "lat": 1.4046680777417886,
+        "lng": 103.91229417075307
+      },
+      {
+        "name": "Jewel Bridge",
+        "lat": 1.4095433163734645,
+        "lng": 103.89587385886162
+      },
+      {
+        "name": "Punggol Timor Island Bridge",
+        "lat": 1.4231815880384895,
+        "lng": 103.88659370727169
+      },
+      {
+        "name": "Seletar Airport",
+        "lat": 1.4143156920639055,
+        "lng": 103.87177838815037
+      },
+      {
+        "name": "Hampstead Wetlands Park",
+        "lat": 1.4089257508625121,
+        "lng": 103.8692506901618
+      },
+      {
+        "name": "Seletar Airport Boardwalk",
+        "lat": 1.4097362749551363,
+        "lng": 103.86644302593318
+      },
+      {
+        "name": "The Oval",
+        "lat": 1.4079951487554452,
+        "lng": 103.86768920844263
+      },
+      {
+        "name": "Round Island Heritage Trees",
+        "lat": 1.4062904098266593,
+        "lng": 103.86689634668669
+      },
+      {
+        "name": "Seletar Fishing Village View",
+        "lat": 1.4237555967119182,
+        "lng": 103.86588948947963
+      },
+      {
+        "name": "Yishun Dam",
+        "lat": 1.4235050360905097,
+        "lng": 103.86104680554762
+      },
+      {
+        "name": "Nee Soon East Park",
+        "lat": 1.4253106603520347,
+        "lng": 103.84861904919501
+      },
+      {
+        "name": "Yishun Park",
+        "lat": 1.424153023422289,
+        "lng": 103.84298609084419
+      },
+      {
+        "name": "Yishun Pond Park",
+        "lat": 1.4263309500443342,
+        "lng": 103.8397083763736
+      }
+    ],
+    "related": [
+      "blog/mall/northpoint-city",
+      "blog/mall/waterway-point",
+      "blog/mall/white-sands"
+    ]
+  },
+  "the-ghettos": {
+    "title": "The Ghettos",
+    "date": "TBC",
+    "start": "Sembawang MRT",
+    "end": "Springleaf MRT",
+    "color": "ns-500",
+    "stops": [],
+    "related": []
+  },
+  "the-way-of-water": {
+    "title": "The Way of Water",
+    "imgPath": "the-way-of-water.jpeg",
+    "date": "03/06/23",
+    "start": "Buangkok MRT",
+    "end": "Hougang MRT",
+    "color": "ew-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk brings us to the Punggol Waterfront and Coney Island. Though it seemed like a good idea to go the entire stretch of the water's edge, it got boring pretty quick, especially near the Serangoon River area. The first part was amazing, though, as the Sengkang Wetland has a great view and atmosphere."
+      },
+      {
+        "title": "refreshments",
+        "text": "We first bought our supplies at Buangkok, at the <</blog/mall/sengkang-grand-mall>>Sengkang Grand Mall</>. We then bought drinks at Cheers at <</blog/mall/northshore-plaza>>Northshore Plaza</>, as well as some cup drinks at Cantine at the same place. Then it's a bunch of nothingness until we reached <</blog/mall/rivervale-plaza>>Rivervale Plaza</>, where we ate at McDonald's. That day, we also watched Spiderman Across the Spiderverse, but that was after we took MRT to Dhoby Ghaut, so that doesn't count."
+      },
+      {
+        "title": "advice",
+        "text": "It started raining when we were in the middle of Coney Island, so the road and everything became very wet. We ended up doing hopscotch across all the 'dry' portions of the road before escaping back into Punggol. So pray it doesn't rain lol."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Kampong Lorong Buangkok",
+        "lat": 1.38332,
+        "lng": 103.87808
+      },
+      {
+        "name": "Punggol River/PC",
+        "lat": 1.38472,
+        "lng": 103.87828
+      },
+      {
+        "name": "Sengkang Floating Wetland",
+        "lat": 1.39613,
+        "lng": 103.88485
+      },
+      {
+        "name": "Sengkang Riverside Park",
+        "lat": 1.39947,
+        "lng": 103.88417
+      },
+      {
+        "name": "Jewel Bridge",
+        "lat": 1.40959,
+        "lng": 103.89587
+      },
+      {
+        "name": "Punggol Promenade",
+        "lat": 1.41915,
+        "lng": 103.90207
+      },
+      {
+        "name": "Punggol Point Jetty",
+        "lat": 1.42153,
+        "lng": 103.91077
+      },
+      {
+        "name": "Coney Island",
+        "lat": 1.41169,
+        "lng": 103.92081
+      },
+      {
+        "name": "Sunrise Gateway",
+        "lat": 1.39761,
+        "lng": 103.92178
+      },
+      {
+        "name": "Riverside Walk",
+        "lat": 1.39222,
+        "lng": 103.91715
+      },
+      {
+        "name": "Serangoon River PC",
+        "lat": 1.3855,
+        "lng": 103.90649
+      },
+      {
+        "name": "Punggol Park",
+        "lat": 1.37667,
+        "lng": 103.89744
+      }
+    ],
+    "related": [
+      "blog/mall/hougang-mall",
+      "blog/mall/northshore-plaza",
+      "blog/mall/rivervale-plaza",
+      "blog/mall/sengkang-grand-mall"
+    ]
+  },
+  "thomson-and-jerry": {
+    "title": "Thomson and Jerry",
+    "date": "07/08/23",
+    "start": "Yio Chu Kang MRT",
+    "end": "Boon Keng MRT",
+    "color": "tw-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route explores part of Thomson Road and Whampoa River, as part of an extended Central Urban Loop. I think the main highlight of this walk was the Birdsinging Club near the start of the walk. The rest of the walk was ok, since we didn't get to explore some of the parks."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought drinks at the 7-eleven near Mayflower MRT, and lunch was at McDonalds at <</blog/mall/zhongshan-mall>>Zhongshan Mall</>."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Ang Mo Kio Town Garden West",
+        "lat": 1.374529,
+        "lng": 103.842336
+      },
+      {
+        "name": "Mayflower Market",
+        "lat": 1.374513,
+        "lng": 103.838449
+      },
+      {
+        "name": "Lower Peirce Reservoir Park",
+        "lat": 1.373762,
+        "lng": 103.824874
+      },
+      {
+        "name": "Windsor Nature Park",
+        "lat": 1.360621,
+        "lng": 103.826053
+      },
+      {
+        "name": "Toa Payoh Town Park",
+        "lat": 1.330477,
+        "lng": 103.8485
+      },
+      {
+        "name": "Whampoa",
+        "lat": 1.323142,
+        "lng": 103.858688
+      }
+    ],
+    "related": [
+      "blog/mall/broadway-plaza",
+      "blog/mall/thomson-plaza",
+      "blog/mall/zhongshan-mall",
+      "blog/hike/what-defu"
+    ]
+  },
+  "thomson-malls": {
+    "title": "Thomson Malls",
+    "imgPath": "thomson-plaza.jpg",
+    "date": "05/05/22",
+    "start": "Ang Mo Kio MRT",
+    "end": "Upper Thomson MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This was a pretty short walk from AMK, down to Bishan and Upper Thomson. On that day, I had lunch with my friend, and then I left and went on this journey on my own. The walk through the park was great!, but the rest was just normal."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Bishan-AMK Park",
+        "lat": 1.36182,
+        "lng": 103.84708
+      }
+    ],
+    "related": [
+      "blog/mall/amk-hub",
+      "blog/mall/junction-8",
+      "blog/mall/thomson-plaza"
+    ]
+  },
+  "tiong-bahru-malls": {
+    "title": "Tiong Bahru Malls",
+    "imgPath": "great-world-city.jpg",
+    "date": "25/09/21",
+    "start": "Queenstown MRT",
+    "end": "Orchard MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk covers the malls in the Tiong Bahru and Queenstown areas. It wasn't that far, but because I was carrying my full school bag, it became very tiring and hot. Would not do that again."
+      }
+    ],
+    "stops": [],
+    "related": [
+      "blog/mall/alexandra-central",
+      "blog/mall/anchorpoint",
+      "blog/mall/great-world-city",
+      "blog/mall/ikea-alexandra",
+      "blog/mall/ion-orchard",
+      "blog/mall/queensway-shopping-centre",
+      "blog/mall/tiong-bahru-plaza"
+    ]
+  },
+  "upper-echelon": {
+    "title": "Upper Echelon",
+    "date": "TBC",
+    "start": "Bukit Panjang MRT",
+    "end": "Bencoolen MRT",
+    "color": "dt-500",
+    "stops": [],
+    "related": []
+  },
+  "vanda-miss-joaquim": {
+    "title": "Vanda Miss Joaquim",
+    "date": "19/12/23",
+    "start": "Stevens MRT",
+    "end": "Labrador Park MRT",
+    "color": "cr-500",
+    "stops": [
+      {
+        "name": "Botanic Gardens",
+        "lat": 1.32205,
+        "lng": 103.81511
+      },
+      {
+        "name": "NUS Law",
+        "lat": 1.31912,
+        "lng": 103.81699
+      },
+      {
+        "name": "National Orchid Garden",
+        "lat": 1.31156,
+        "lng": 103.81487
+      },
+      {
+        "name": "Dawson Place",
+        "lat": 1.29275,
+        "lng": 103.81062
+      }
+    ],
+    "related": []
+  },
+  "very-itchy": {
+    "title": "Very Itchy",
+    "date": "10/08/23",
+    "start": "Marymount MRT",
+    "end": "Upper Thomson MRT",
+    "color": "ew-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk takes us through MacRitchie and the TreeTop Walk. It is pretty much a standard nature trail in Singapore, and one of the nicest as well. MacRitchie has beautiful views all around, yet never gets stale. The boardwalk, especially, gives us a great view of the reservoir. Not to mention the TreeTop Walk itself, which makes us feel like the Na'vi of Pandora."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had snacks atop the Jelutong Tower, and lunch at Thomson Plaza."
+      }
+    ],
+    "stops": [
+      {
+        "name": "MacRitchie Boardwalk",
+        "lat": 1.3417962327074286,
+        "lng": 103.83189330055102
+      },
+      {
+        "name": "Lornie Trail",
+        "lat": 1.3420013554498391,
+        "lng": 103.82870162703499
+      },
+      {
+        "name": "Chemperai Trail",
+        "lat": 1.3435283797631135,
+        "lng": 103.82109860454602
+      },
+      {
+        "name": "Jelutong Tower",
+        "lat": 1.3512546524918378,
+        "lng": 103.80632571533579
+      },
+      {
+        "name": "TreeTop Walk",
+        "lat": 1.360358690227217,
+        "lng": 103.81195504910106
+      },
+      {
+        "name": "Windsor Nature Park",
+        "lat": 1.3603394671316629,
+        "lng": 103.82306911635315
+      }
+    ],
+    "related": [
+      "blog/mall/thomson-plaza"
+    ]
+  },
+  "west-coast-malls": {
+    "title": "West Coast Malls",
+    "imgPath": "321-clementi.jpg",
+    "date": "14/08/21",
+    "start": "NUS School of Computing",
+    "end": "Clementi MRT",
+    "color": "lrt-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "I did this walk on the first day I came to NUS for school. After finishing my class, I just started walking. And walking. Until I reached Clementi. What a way to start the school year."
+      }
+    ],
+    "stops": [],
+    "related": [
+      "blog/mall/321-clementi",
+      "blog/mall/clementi-mall",
+      "blog/mall/west-coast-plaza"
+    ]
+  },
+  "what-defu": {
+    "title": "What Defu?",
+    "imgPath": "what-defu.jpg",
+    "date": "13/05/23",
+    "start": "Yio Chu Kang MRT",
+    "end": "Boon Keng MRT",
+    "color": "tw-500",
+    "description": [
+      {
+        "title": "experience",
+        "text": "If you aren't familiar with the date 13/05/23, it is the day the HOTTEST temperature was ever recorded in Singapore. It definitely felt that way, as the stretch along the Serangoon River was awfully hot. Sure the morning period from 8am to 10:30am was fine. But after that, the heat was incredible. Eventually, we had to stop at Boon Keng because I had plans after that, but if we had continued on, we would have been at AMK at the time of the hottest recorded temperature."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought lots of drinks at Yio Chu Kang MRT, before making our way along AMK Ave 5, that long stretch of nothingness. Besides that, we ate at Subway near Tai Seng. And after ending the journey at Boon Keng, we took the MRT to <</blog/mall/woodleigh-mall>>Woodleigh Mall</>, where we explored the place and had something to drink."
+      },
+      {
+        "title": "advice",
+        "text": "Umbrellas are super important in such hot weather. They protect against direct exposure from the sun, which definitely helped cool us down."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Ang Mo Kio Linear Park",
+        "lat": 1.37939,
+        "lng": 103.87177
+      },
+      {
+        "name": "Punggol Park",
+        "lat": 1.37707,
+        "lng": 103.89737
+      },
+      {
+        "name": "Serangoon River PC",
+        "lat": 1.37085,
+        "lng": 103.90147
+      },
+      {
+        "name": "Defu",
+        "lat": 1.35556,
+        "lng": 103.89428
+      },
+      {
+        "name": "Pelton Canal PC",
+        "lat": 1.3258,
+        "lng": 103.88463
+      },
+      {
+        "name": "Kallang PC",
+        "lat": 1.31724,
+        "lng": 103.86847
+      },
+      {
+        "name": "34 Whampoa West",
+        "lat": 1.32042,
+        "lng": 103.86324
+      }
+    ],
+    "related": [
+      "blog/mall/hougang-green-shopping-mall",
+      "blog/hike/thomson-and-jerry"
+    ]
+  },
+  "wheres-my-shelter": {
+    "title": "Where's My Shelter",
+    "imgPath": "wheres-my-shelter.jpeg",
+    "date": "01/07/23",
+    "start": "Pasir Ris MRT",
+    "end": "Stadium MRT",
+    "color": "ns-300",
+    "description": [
+      {
+        "title": "experience",
+        "text": "My friend insisted on going along the Tanah Merah Coastal Expressway so I planned this route as part of the Mega Loop around Singapore. Do keep in mind that we did a major skip from Changi Air Base to Siglap CC because we had to meet our friends there in time for lunch. That section will be done some other day. But other than that, the weather was VERY KIND to us on that that, as it was cloudy yet didn't rain. Perfect weather for walking, and very much needed for us to survive the long and arduous walk along the coast."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought drinks at <</blog/mall/white-sands>>White Sands</> and at Changi Village. Then it's a bunch of nothing until we reached Siglap CC, where we ate at McDonald's. Then it's just drinks at <</blog/mall/i12-katong>>i12 Katong</>, and dinner at <</blog/mall/suntec-city>>Suntec</>."
+      },
+      {
+        "title": "advice",
+        "text": "Very dangerous route with nowhere you can get any water or food. Just hope you get good weather if you do decide to walk there. Otherwise, just cycle lol."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Changi Village",
+        "lat": 1.38921,
+        "lng": 103.9872
+      },
+      {
+        "name": "Changi Beach Park",
+        "lat": 1.39105,
+        "lng": 103.99189
+      },
+      {
+        "name": "Changi Coast Track",
+        "lat": 1.37893,
+        "lng": 104.00334
+      },
+      {
+        "name": "Changi Bay Point",
+        "lat": 1.36967,
+        "lng": 104.01377
+      },
+      {
+        "name": "Tanah Merah Coast Rd",
+        "lat": 1.34064,
+        "lng": 104.02497
+      },
+      {
+        "name": "Siglap CC",
+        "lat": 1.31722,
+        "lng": 103.94699
+      },
+      {
+        "name": "Tanjong Rhu Sus Bridge",
+        "lat": 1.29917,
+        "lng": 103.87378
+      }
+    ],
+    "related": [
+      "blog/mall/downtown-east",
+      "blog/mall/i12-katong",
+      "blog/mall/kallang-wave-mall",
+      "blog/mall/katong-shopping-centre",
+      "blog/mall/katong-v",
+      "blog/mall/roxy-square",
+      "blog/mall/suntec-city",
+      "blog/mall/white-sands"
+    ]
+  }
+}
