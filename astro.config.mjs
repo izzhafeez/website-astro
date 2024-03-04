@@ -14,5 +14,7 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte()],
   output: "hybrid",
-  adapter: netlify()
+  adapter: netlify(),
+  site: "https://izzhafeez.github.io",
+  base: "/website-astro"
 });
