@@ -6,7 +6,7 @@ import Description from 'components/utils/Description';
 import ItemPreviews from 'components/ItemPreviews';
 import LLMap from 'components/map/LLMap.svelte';
 
-export const getStaticPaths = (() => {
+export async function getStaticPaths() {
   return allItems.map(item => ({
     params: {
       category: item.category,
@@ -15,7 +15,7 @@ export const getStaticPaths = (() => {
     },
     props: { item }
   }))
-});
+};
 
 const item: Item = Astro.props.item;
 const related: Item[] = (item.related || []).map(r => {

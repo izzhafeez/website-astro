@@ -5,16 +5,18 @@ import Layout from 'layouts/Layout.astro';
 import LLMap from 'components/map/LLMap.svelte';
 import allData from '@data/data';
 
-export const getStaticPaths = () => allItems.map(item => ({
-  params: {
-    category: item.category,
-    type: item.type,
-  },
-  props: {
-    category: item.category,
-    type: item.type
-  }
-}));
+export async function getStaticPaths() {
+  return allItems.map(item => ({
+    params: {
+      category: item.category,
+      type: item.type,
+    },
+    props: {
+      category: item.category,
+      type: item.type
+    }
+  }));
+}
 
 export const prerender = true;
 const { category, type } = Astro.params;

@@ -20,7 +20,7 @@ class Skill extends Item implements ISkill {
 
   override getFields(): TDescription {
     return [
-      { title: 'proficiency', text: this.proficiency.toString() }
+      { title: 'proficiency', text: (this.proficiency || "").toString() }
     ]
   }
 

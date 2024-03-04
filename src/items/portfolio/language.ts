@@ -22,7 +22,7 @@ class Language extends Item implements ILanguage {
 
   override getFields(): TDescription {
     return [
-      { title: 'proficiency', text: this.proficiency.toString() }
+      { title: 'proficiency', text: (this.proficiency || "").toString() }
     ]
   }
 

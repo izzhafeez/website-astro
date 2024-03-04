@@ -20,7 +20,7 @@ class Technology extends Item implements ITechnology {
 
   override getFields(): TDescription {
     return [
-      { title: 'proficiency', text: this.proficiency.toString() }
+      { title: 'proficiency', text: (this.proficiency || "").toString() }
     ]
   }
 

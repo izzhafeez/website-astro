@@ -4,14 +4,16 @@ import Item from "../../items/item";
 import { allItems } from "../../items/getItems";
 import ItemPreviews from "../../components/ItemPreviews";
 
-export const getStaticPaths = () => allItems.map(item => ({
-  params: {
-    category: item.category
-  },
-  props: {
-    category: item.category
-  }
-}));
+export async function getStaticPaths() {
+  return allItems.map(item => ({
+    params: {
+      category: item.category
+    },
+    props: {
+      category: item.category
+    }
+  }));
+}
 
 export const prerender = true;
 const { category } = Astro.params;
