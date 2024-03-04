@@ -22,6 +22,6 @@ const overview = "I'm a passionate third-year student at NUS pursuing a double m
     <div class="grid gap-2">
     <h1 class={`font-extrabold text-3xl text-black dark:text-white`}>HI, MY NAME IZZ HAFEEZ</h1>
     <Description description={[{text: overview}]} category="no-category"/>
-    {Object.entries(itemsDict).map(([k, v]) => <ItemPreviews items={v} size={v[0].getSize()} category={v[0].category} toLimit={true} overview={allData[v[0].category].description}/>)}</div>
+    {Object.entries(itemsDict).map(([_, v]) => <ItemPreviews items={v} size={v[0].getSize()} category={v[0].category} toLimit={true} overview={allData[v[0].category].description}/>)}</div>
   </div>
 </Layout>

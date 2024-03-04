@@ -37,7 +37,7 @@ const overview = allData[category].data[type].description;
 ---
 
 <Layout>
-  <div slot="main">
+  <div slot="main" class="grid gap-2">
     {(!locations.length && !lines.length) && <img class={`mx-auto size-[15rem] bg-white rounded-full border-[5px] my-4 p-4 border-${Astro.params.category}-500 dark:border-${Astro.params.category}-300`} src={imgPath}/>}
     {(!!locations.length || !!lines.length) && <LLMap client:only="svelte" locations={locations} lines={lines}/>}
     {items[0] && <ItemPreviews category={Astro.params.category} size={items[0].getSize()} items={items} overview={overview}/>}

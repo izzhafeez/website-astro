@@ -28,6 +28,6 @@ const imgPath = `/img/types/${category}.svg`;
 <Layout>
   <div slot="main">
     <img class={`mx-auto size-[15rem] bg-white rounded-full border-[5px] my-4 p-4 border-${Astro.params.category}-500 dark:border-${Astro.params.category}-300`} src={imgPath}/>
-    {Object.entries(itemsDict).map(([k, v]) => <ItemPreviews items={v} size={v[0].getSize()} category={category} toLimit={true}/>)}
+    {Object.entries(itemsDict).map(([_, v]) => <ItemPreviews items={v} size={v[0].getSize()} category={category} toLimit={true}/>)}
   </div>
 </Layout>

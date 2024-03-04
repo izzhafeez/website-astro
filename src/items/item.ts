@@ -10,7 +10,8 @@ class Item implements IItem {
   imgPath: string;
   importance: number;
   description: TDescription;
-  related: string[]
+  related: string[];
+  data?: any;
 
   constructor(iItem: IItem) {
     this.category = iItem.category;

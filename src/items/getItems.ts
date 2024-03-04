@@ -12,8 +12,8 @@ import Artwork from "./portfolio/artwork";
 import Music from "./portfolio/music";
 import Hike from "./blog/hike";
 import Mall from "./blog/mall";
-import MapQuiz from "./quizzes/mapQuiz";
-import GuessQuiz from "./quizzes/guessQuiz";
+import MapQuiz from "./quiz/mapQuiz";
+import GuessQuiz from "./quiz/guessQuiz";
 
 export function createItem(iitem: IItem): Item {
   switch (iitem.type) {

@@ -1,7 +1,6 @@
 import React from 'react';
 import type { TDescription, TDescriptionBlock } from "../../types/item";
 import getStarScale from './StarScale';
-import { capitalise } from 'utils/string';
 import Link from './Link';
 
 const LINK_REGEX = /<<(.*?)<\/>/ig;
@@ -24,7 +23,7 @@ function parseBlock(block: TDescriptionBlock, category: string) {
 
 function parseLinkSection(link: string, text: string) {
   return <section key={link} className='mb-3'>
-    hello
+    {text}
   </section>;
 };
 
@@ -35,7 +34,7 @@ function parseProficiency(block: TDescriptionBlock, category: string) {
   </section>
 };
 
-function parseRaw(text: string) {
+export function parseRaw(text: string) {
   const paragraphs = text.toString().split('\n');
   return paragraphs.map(removeFormatting).join('\n');
 }
@@ -70,9 +69,11 @@ function parseLinks(text: string) {
       quiz: 'text-quiz-500 dark:text-quiz-300',
       "no-category": 'text-black dark:text-white'
     }
+
+    const className = `group transition duration-300 link-underline ${categoryMatching[category]}`
     
     return <>
-      <Link category={category} className={categoryMatching[category]} text={label} href={link} key={link}/>
+      <Link category={category} className={className} text={label} href={link} key={link}/>
     </>;
   });
 }
