@@ -1,98 +1,111 @@
 {
-  "scdf-admin-support": {
-    "title": "Admin Support Course",
-    "level": "Best Trainee"
+  "scdf-admin-support-course": {
+    "level": "Best Trainee",
+    "issuer": "Singapore Civil Defence Force"
   },
-  "amc": {
-    "title": "Australian Mathematics Competition",
-    "level": "High Distinction"
+  "amc-australian-mathematics-competition": { 
+    "level": "High Distinction",
+    "issuer": "Australian Maths Trust"
   },
-  "nus-dean-list-y1s2": {
-    "title": "Dean's List AY21/22 S2",
-    "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
+  "confucius-hsk-5": {
+    "level": "211/300",
+    "issuer": "Confucius Institute",
     "rank": 2,
     "related": [
-      "portfolio/courses/cs2030s",
-      "portfolio/courses/cs2040s",
-      "portfolio/courses/gea1000",
-      "portfolio/courses/gec1030",
-      "portfolio/courses/is1103",
-      "portfolio/courses/st2334"
+      "portfolio/skills#chinese"
     ]
   },
-  "nus-dean-list-y2s2": {
+  "nus-deans-list-y1s2": {
+    "title": "Dean's List AY21/22 S2",
+    "issuer": "National University of Singapore",
+    "rank": 2,
+    "related": [
+      "portfolio/courses#cs2030s",
+      "portfolio/courses#cs2040s",
+      "portfolio/courses#gea1000",
+      "portfolio/courses#gec1030",
+      "portfolio/courses#is1103",
+      "portfolio/courses#st2334"
+    ]
+  },
+  "nus-deans-list-y2s2": {
     "title": "Dean's List AY22/23 S2",
-    "link": "https://credentials.nus.edu.sg/8ecf4cd4-3603-465a-baea-7c3bafd5c377",
+    "issuer": "National University of Singapore",
     "rank": 3,
     "related": [
-      "portfolio/module/cs2101",
-      "portfolio/module/cs2103t",
-      "portfolio/module/cs2108",
-      "portfolio/module/cs2109s",
-      "portfolio/module/ma2104",
-      "portfolio/module/ma3252",
-      "portfolio/projects/edumate"
+      "portfolio/courses#cs2101",
+      "portfolio/courses#cs2103t",
+      "portfolio/courses#cs2108",
+      "portfolio/courses#cs2109s",
+      "portfolio/courses#ma2104",
+      "portfolio/courses#ma3252",
+      "portfolio/projects#edu-mate"
     ]
   },
-  "euclid": {
-    "title": "Euclid Contest",
+  "waterloo-euclid-contest": {
+    "issuer": "University of Waterloo",
     "level": "Distinction"
   },
-  "nus-noi": {
-    "title": "National Olympiad in Informatics",
-    "level": "Participation"
+  "nus-national-olympiad-in-informatics": {
+    "level": "Participation",
+    "issuer": "National University of Singapore"
   },
-  "seamo": {
-    "title": "Southeast Asian Math Olympiad",
+  "seamo-southeast-asian-math-olympiad": {
+    "issuer": "SEAMO",
     "level": "Bronze"
   },
   "nus-simc": {
-    "title": "SIMC",
+    "title": "Singapore International Mathematics Competition",
+    "issuer": "National University of Singapore",
     "level": "Participation"
   },
-  "smo-2013": {
-    "title": "Singapore Mathematical Olympiad 2013",
+  "sms-singapore-mathematical-olympiad-2013": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Bronze"
   },
-  "smo-2014": {
-    "title": "Singapore Mathematical Olympiad 2014",
+  "sms-singapore-mathematical-olympiad-2014": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Silver"
   },
-  "smo-2015": {
-    "title": "Singapore Mathematical Olympiad 2015",
+  "sms-singapore-mathematical-olympiad-2015": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Bronze"
   },
-  "smo-2016": {
-    "title": "Singapore Mathematical Olympiad 2016",
+  "sms-singapore-mathematical-olympiad-2016": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Silver"
   },
-  "smo-2017": {
-    "title": "Singapore Mathematical Olympiad 2017",
+  "sms-singapore-mathematical-olympiad-2017": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Silver"
   },
-  "smo-2018": {
-    "title": "Singapore Mathematical Olympiad 2018",
+  "sms-singapore-mathematical-olympiad-2018": {
+    "issuer": "Singapore Mathematical Society",
     "level": "Silver"
   },
-  "nus-spho": {
-    "title": "Singapore Physics Olympiad",
-    "level": "Participation"
+  "nus-singapore-physics-olympiad": {
+    "level": "Participation",
+    "issuer": "National University of Singapore"
   },
-  "ti-graphing": {
-    "title": "TI Graphing Competition 2018",
+  "ti-graphing-competition-2017": {
+    "level": "Silver",
+    "issuer": "Texas Instruments",
+    "rank": 2
+  },
+  "ti-graphing-competition-2018": {
     "level": "Gold",
+    "issuer": "Texas Instruments",
     "rank": 3,
-    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY",
     "related": [
-      "portfolio/art/ti-competition"
+      "portfolio/art#ti-competition"
     ]
   },
   "nus-top-students-ethics": {
     "title": "Ethics in Computing",
+    "issuer": "National University of Singapore",
     "level": "Top Student",
-    "link": "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a",
     "related": [
-      "portfolio/courses/is1103"
+      "portfolio/courses#is1103"
     ]
   }
 }

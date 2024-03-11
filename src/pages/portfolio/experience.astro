@@ -3,7 +3,6 @@ import Layout from '../../layouts/Layout.astro';
 import NavBar from '../../components/common/NavBar.astro';
 import Hero from '../../components/common/Hero.astro';
 import experienceData from '../../data/portfolio/experience.json';
-import { capitalise, toName } from '../../utils/string';
 import ExperiencePreview from '../../components/portfolio/ExperiencePreview.astro';
 import Footer from '../../components/common/Footer.astro';
 
@@ -36,7 +35,7 @@ const heroText = "Here are some of the invaluable experiences I've gained throug
   <div slot="main" class="">
     <NavBar transition:persist label="Portfolio"/>
     <Hero label="EXPERIENCE" text={heroText}/>
-    <section class="grid grid-cols-1 gap-4 relative p-2 max-w-6xl mx-auto">
+    <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto">
       {experiences.map(experience => <ExperiencePreview experience={experience}/>)}
     </section>
     <Footer color="ew"/>

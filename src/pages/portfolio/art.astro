@@ -32,7 +32,7 @@ const heroText = "Check out some of the art I've created using Desmos!";
   <div slot="main" class="">
     <NavBar transition:persist label="Portfolio"/>
     <Hero label="ARTWORK" text={heroText}/>
-    <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto">
+    <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto mt-4">
       {artworks.map(artwork => <ArtPreview artwork={artwork}/>)}
     </section>
     <Footer color="ew"/>

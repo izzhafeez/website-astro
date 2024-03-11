@@ -1,0 +1,15 @@
+---
+import { toName } from '../../utils/string';
+
+const { text } = Astro.props;
+const color = 'bg-ew-300/20 dark:bg-ew-300/20 text-ew-600 dark:text-ew-100 hover:bg-ew-300/50 dark:hover:bg-ew-300/50';
+
+let transitionName;
+const splitted = text.split('/');
+let label = toName(splitted[1].split('#')[1]);
+let link = '/' + text;
+---
+
+<div transition:name={transitionName}>
+  <a href={link} class={`button text-xs py-1 px-2 rounded-xl ${color}`}>{ label }</a>
+</div>

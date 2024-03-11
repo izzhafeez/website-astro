@@ -58,6 +58,7 @@
 
   document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
   document.addEventListener('astro:before-swap', ev => {
+    ev.newDocument.getElementById("themeToggle").addEventListener("click", handleToggleClick);
     const theme = localStorage.getItem('theme');
     if (theme === 'dark') handleDark(ev.newDocument);
     else handleLight(ev.newDocument);

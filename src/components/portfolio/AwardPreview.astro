@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import Related from "./Related.astro";
+
+const { award } = Astro.props;
+const imgPath = `/img/portfolio/awards/${award.key.split('-')[0]}.png`;
+---
+<div id={award.key} class="rounded-lg p-4 flex group hover:neon-ew">
+  <div class="text-left py-2">
+    <h2 transition:name={award.key} class="dark:text-white group-hover:text-ew-600 group-hover:dark:text-ew-300 font-medium">{ award.title }</h2>
+    <p class="text-gray-500 text-sm leading-tight">{ award.issuer }</p>
+    <div class="flex flex-wrap gap-1 mt-1">{award.related?.map((r: string) => <Related text={r}/>)}</div>
+  </div>
+  <div class="ms-auto grid place-items-center my-auto">
+    <Image src={imgPath} alt={award.title} width="50" height="50" class="aspect-square object-contain bg-white ms-6"/>
+  </div>
+</div>

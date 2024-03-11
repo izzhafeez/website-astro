@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Hero from '../../components/common/Hero.astro';
+import awardsData from '../../data/portfolio/awards.json';
+import { toName } from '../../utils/string';
+import AwardPreview from '../../components/portfolio/AwardPreview.astro';
+import Footer from '../../components/common/Footer.astro';
+
+interface AwardData {
+  title?: string,
+  related?: string[],
+  rank?: number,
+  level?: string,
+  issuer?: string
+}
+
+type AwardJson = {[key: string]: AwardData };
+
+const awards = Object.entries(awardsData as AwardJson).map(([key, value]) => {
+  const [issuer, ...rest] = key.split('-');
+  return {
+    key,
+    issuer: value.issuer ?? issuer,
+    title: value.title ?? toName(rest.join('-')),
+    level: value.level,
+    rank: value.rank ?? 0,
+    related: value.related
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = "Here are some of the awards I've gained over the years."
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar transition:persist label="Portfolio"/>
+    <Hero label="AWARDS" text={heroText}/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 relative p-2 max-w-6xl mx-auto">
+      {awards.map(award => <AwardPreview award={award}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>
