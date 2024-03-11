@@ -1,0 +1,23 @@
+---
+let bgColor;
+switch (Astro.props.color) {
+  case 'ew': {
+    bgColor = 'bg-ew-700';
+    break;
+  }
+}
+---
+<footer class={`h-20 mt-12 w-screen border-t-[1px] border-gray-500/50 flex items-center p-4 ${bgColor}`}>
+  <p class="text-white">Izz Hafeez, 2024</p>
+  <div class="ms-auto flex gap-4">
+    <a href="https://www.linkedin.com/in/izzhafeez/">
+      <img src="/img/logos/linkedin.svg" class="h-5 brightness-0 invert hover:brightness-100 hover:invert-0"/>
+    </a>
+    <a href="https://github.com/izzhafeez">
+      <img src="/img/logos/github.svg" class="h-5 brightness-0 invert hover:brightness-100 hover:invert-0"/>
+    </a>
+    <a href="https://www.youtube.com/c/izzhafeez">
+      <img src="/img/logos/youtube.svg" class="h-5 brightness-0 invert hover:brightness-100 hover:invert-0"/>
+    </a>
+  </div>
+</footer>

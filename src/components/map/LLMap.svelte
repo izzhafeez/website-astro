@@ -1,10 +1,13 @@
 <script>
 import L from "leaflet";
 import getColor from "../../utils/color";
+import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
 let map;
 export let locations;
 export let lines;
-let features;
+let featureList = [];
+let featureGroup;
+let tooltips = [];
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -45,7 +48,7 @@ function resizeMap() {
 
 function markerIcon(colorCode) {
   const color = getColor(colorCode);
-  const size = 20;
+  const size = 12;
   return L.divIcon({
     html: svg(size, size, color),
     className: '',
@@ -57,6 +60,7 @@ function createMarker(location) {
   let icon = markerIcon(location.color);
   let marker = L.marker([location.latitude, location.longitude], {icon});
   marker.bindTooltip(location.label, {direction: 'top', sticky: true});
+  tooltips.push(marker.getTooltip());
   if (!!location.link) {
     marker.on('click', function() {
       window.open(location.link, '_self');
@@ -93,23 +97,31 @@ function createLineFeature(line) {
   return lineFeature;
 }
 
-function mapAction(container) {
-  map = createMap(container);
-
-  features = L.featureGroup();
+function createFeatures() {
+  featureGroup = L.featureGroup();
   for (const line of lines) {
-    features.addLayer(createLineFeature(line));
+    if (line === null) continue;
+    const feature = createLineFeature(line);
+    featureList.push(feature);
+    feature.addTo(map);
+    featureGroup.addLayer(feature);
   }
 
   if (lines.length < 10) {
     for (const location of locations) {
-      features.addLayer(createMarker(location));
+      if (location === null) continue;
+      const feature = createMarker(location);
+      featureList.push(feature);
+      feature.addTo(map);
+      featureGroup.addLayer(feature);
     }
   }
+}
 
-  features.addTo(map);
-  map.fitBounds(features.getBounds());
-
+function mapAction(container) {
+  map = createMap(container);
+  createFeatures();
+  map.fitBounds(featureGroup.getBounds());
   return {
     destroy: () => {
       map.remove();
@@ -118,9 +130,40 @@ function mapAction(container) {
   }
 }
 
-$: if (features && map) {
-  features.addTo(map);
-}
+toRemove.subscribe(value => {
+  if (value === null) return;
+  const feature = featureList[value];
+  if (!!map) {
+    map.removeLayer(feature);
+  }
+})
+
+toAdd.subscribe(value => {
+  if (value == null) return;
+  const feature = featureList[value];
+  if (!!map) {
+    map.addLayer(feature);
+  }
+})
+
+toHideTooltip.subscribe(value => {
+  if (value == null) return;
+  const feature = featureList[value];
+  if (!!map) {
+    feature.unbindTooltip();
+  }
+})
+
+toShowTooltip.subscribe(value => {
+  if (value == null) return;
+  const feature = featureList[value];
+  if (!!map) {
+    const tooltip = tooltips[value];
+    feature.bindTooltip(tooltip, {
+      permanent: false
+    });
+  }
+})
 
 </script>
 <svelte:window on:resize={resizeMap}/>

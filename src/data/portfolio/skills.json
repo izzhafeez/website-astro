@@ -1,0 +1,240 @@
+{
+  "agile": {},
+  "ai": {
+    "rank": 2
+  },
+  "anaconda": {},
+  "angular": {},
+  "api-dev": {
+    "rank": 1
+  },
+  "astro": {
+    "rank": 2
+  },
+  "aws": {
+    "title": "AWS",
+    "rank": 2
+  },
+  "azure": {
+    "rank": 1
+  },
+  "bash": {},
+  "blender": {},
+  "bootstrap": {
+    "rank": 1
+  },
+  "c": {},
+  "c-sharp": {
+    "title": "C#"
+  },
+  "chinese": {
+    "rank": 3
+  },
+  "cloud-computing": {
+    "rank": 1
+  },
+  "computer-vision": {},
+  "cpp": {
+    "title": "C++"
+  },
+  "css": {},
+  "data-analytics": {
+    "rank": 2
+  },
+  "data-engineering": {
+    "rank": 1
+  },
+  "data-mining": {
+    "rank": 1
+  },
+  "data-science": {
+    "rank": 3
+  },
+  "data-visualisation": {
+    "rank": 1
+  },
+  "deep-learning": {},
+  "django": {
+    "rank": 2
+  },
+  "english": {},
+  "er-studio": {
+    "title": "ER Studio"
+  },
+  "excel": {},
+  "express": {},
+  "figma": {
+    "rank": 1
+  },
+  "flask": {
+    "rank": 1
+  },
+  "french": {},
+  "frontend-dev": {},
+  "gcp": {
+    "title": "GCP",
+    "rank": 2
+  },
+  "generative-ai": {
+    "title": "Generative AI"
+  },
+  "geospatial-analytics": {
+    "rank": 2
+  },
+  "github": {
+    "title": "GitHub",
+    "rank": 1
+  },
+  "go": {
+    "rank": 1
+  },
+  "haskell": {},
+  "heroku": {},
+  "html": {},
+  "intellij": {},
+  "japanese": {
+    "rank": 1
+  },
+  "java": {
+    "rank": 2
+  },
+  "javascript": {
+    "title": "JavaScript",
+    "rank": 2
+  },
+  "jest": {},
+  "junit": {},
+  "jupyter": {
+    "rank": 1
+  },
+  "korean": {},
+  "latex": {
+    "title": "LaTeX"
+  },
+  "ml": {
+    "title": "ML",
+    "rank": 2
+  },
+  "malay": {},
+  "matlab": {
+    "title": "MATLAB",
+    "rank": 1
+  },
+  "mongo-db": {
+    "title": "MongoDB",
+    "rank": 2
+  },
+  "musescore": {},
+  "nlp": {
+    "title": "NLP"
+  },
+  "node": {
+    "title": "NodeJS",
+    "rank": 1
+  },
+  "openlayers": {
+    "rank": 2
+  },
+  "operational-analysis": {},
+  "pandas": {
+    "rank": 3
+  },
+  "php": {
+    "title": "PHP"
+  },
+  "plant-uml": {
+    "title": "PlantUML"
+  },
+  "postgresql": {
+    "title": "PostgreSQL",
+    "rank": 2
+  },
+  "postman": {
+    "rank": 1
+  },
+  "power-bi": {
+    "title": "PowerBI",
+    "rank": 1
+  },
+  "python": {
+    "rank": 3
+  },
+  "pytorch": {
+    "title": "PyTorch",
+    "rank": 1
+  },
+  "qgis": {
+    "title": "QGIS"
+  },
+  "r": {},
+  "r-markdown": {},
+  "r-studio": {},
+  "react": {
+    "rank": 3
+  },
+  "rocket": {},
+  "ruby": {
+    "rank": 2
+  },
+  "ruby-on-rails": {
+    "title": "Ruby on Rails",
+    "rank": 1
+  },
+  "rust": {
+    "rank": 3
+  },
+  "scala": {},
+  "selenium": {
+    "rank": 1
+  },
+  "software-engineering": {
+    "rank": 3
+  },
+  "software-testing": {},
+  "spanish": {},
+  "spring": {},
+  "sql": {
+    "title": "SQL",
+    "rank": 2
+  },
+  "ssms": {
+    "title": "SSMS"
+  },
+  "statistics": {},
+  "sublime": {},
+  "swift": {},
+  "svelte": {
+    "rank": 2
+  },
+  "tableau": {
+    "rank": 2
+  },
+  "telegram-bots": {},
+  "tensorflow": {
+    "title": "TensorFlow",
+    "rank": 3
+  },
+  "typescript": {
+    "title": "TypeScript"
+  },
+  "unity": {},
+  "ux-design": {
+    "title": "UX Design",
+    "rank": 3
+  },
+  "vba": {},
+  "vex": {
+    "title": "VEX"
+  },
+  "vs-code": {
+    "title": "VS Code",
+    "rank": 1
+  },
+  "vue": {
+    "rank": 2
+  },
+  "web-dev": {
+    "rank": 3
+  },
+  "web-scraping": {}
+}

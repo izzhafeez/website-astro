@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Hero from '../../components/common/Hero.astro';
+import courseData from '../../data/portfolio/courses.json';
+import { capitalise, toName } from '../../utils/string';
+import CoursePreview from '../../components/portfolio/CoursePreview.astro';
+import Footer from '../../components/common/Footer.astro';
+
+interface CourseData {
+  title?: string,
+  issuer?: string,
+  link?: string,
+  name?: string,
+  grade?: string,
+  rank?: number,
+  related?: string[]
+}
+
+type CourseJson = {[key: string]: CourseData };
+
+const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
+  let title = value.title;
+  let issuer = value.issuer;
+  let type = '';
+  let imgPath = '';
+  const splitKey = key.split('-');
+  if (splitKey.length === 1) {
+    title = title ?? key.toUpperCase();
+    imgPath = '/img/portfolio/courses/nus.png'
+  } else {
+    let [issuerRaw, ...rest] = splitKey;
+    type = rest.pop() ?? '';
+    issuer = issuer ?? capitalise(issuerRaw);
+    title = title ?? toName(rest.join('-'));
+    imgPath = `/img/portfolio/courses/${issuerRaw}.png`
+  }
+
+  return {
+    key,
+    title,
+    issuer,
+    type,
+    imgPath,
+    grade: value.grade,
+    name: value.name,
+    link: value.link ?? `https://nusmods.com/courses/${title}`,
+    rank: value.rank ?? 0,
+    related: value.related
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = "Here are some of the courses I've taken in NUS and beyond."
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar transition:persist label="Portfolio"/>
+    <Hero label="COURSES" text={heroText}/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative p-2 max-w-6xl mx-auto">
+      {courses.map(course => <CoursePreview course={course}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>

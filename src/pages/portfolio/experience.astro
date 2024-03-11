@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Hero from '../../components/common/Hero.astro';
+import experienceData from '../../data/portfolio/experience.json';
+import { capitalise, toName } from '../../utils/string';
+import ExperiencePreview from '../../components/portfolio/ExperiencePreview.astro';
+import Footer from '../../components/common/Footer.astro';
+
+interface ExperienceData {
+  title: string,
+  organisation: string,
+  duration: string,
+  overview: string,
+  related: string[],
+  rank?: number
+}
+
+type ExperienceJson = {[key: string]: ExperienceData };
+
+const experiences = Object.entries(experienceData as ExperienceJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title,
+    organisation: value.organisation,
+    duration: value.duration,
+    overview: value.overview,
+    rank: value.rank ?? 0,
+    related: value.related
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = "Here are some of the invaluable experiences I've gained through internships, work and beyond."
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar transition:persist label="Portfolio"/>
+    <Hero label="EXPERIENCE" text={heroText}/>
+    <section class="grid grid-cols-1 gap-4 relative p-2 max-w-6xl mx-auto">
+      {experiences.map(experience => <ExperiencePreview experience={experience}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>

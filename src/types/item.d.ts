@@ -91,11 +91,13 @@ export interface IMall extends IItem {
 }
 
 export interface IMapQuiz extends IItem {
-  data: {[key: string]: number[][]}
+  data: {[key: string]: number[][]};
+  defaultRegex: string;
 }
 
 export interface IGuessQuiz extends IItem {
-  data: {[key: string]: string}
+  data: {[key: string]: string};
+  defaultRegex: string;
 }
 
 export type TDescriptionBlock = {

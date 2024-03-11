@@ -1,4 +1,4 @@
-import placeNames from "./guess/place-names.json";
+import placeNames from "./place-names.json";
 
 const guessData = {
   "place-names": {

@@ -1,0 +1,98 @@
+{
+  "scdf-admin-support": {
+    "title": "Admin Support Course",
+    "level": "Best Trainee"
+  },
+  "amc": {
+    "title": "Australian Mathematics Competition",
+    "level": "High Distinction"
+  },
+  "nus-dean-list-y1s2": {
+    "title": "Dean's List AY21/22 S2",
+    "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
+    "rank": 2,
+    "related": [
+      "portfolio/courses/cs2030s",
+      "portfolio/courses/cs2040s",
+      "portfolio/courses/gea1000",
+      "portfolio/courses/gec1030",
+      "portfolio/courses/is1103",
+      "portfolio/courses/st2334"
+    ]
+  },
+  "nus-dean-list-y2s2": {
+    "title": "Dean's List AY22/23 S2",
+    "link": "https://credentials.nus.edu.sg/8ecf4cd4-3603-465a-baea-7c3bafd5c377",
+    "rank": 3,
+    "related": [
+      "portfolio/module/cs2101",
+      "portfolio/module/cs2103t",
+      "portfolio/module/cs2108",
+      "portfolio/module/cs2109s",
+      "portfolio/module/ma2104",
+      "portfolio/module/ma3252",
+      "portfolio/projects/edumate"
+    ]
+  },
+  "euclid": {
+    "title": "Euclid Contest",
+    "level": "Distinction"
+  },
+  "nus-noi": {
+    "title": "National Olympiad in Informatics",
+    "level": "Participation"
+  },
+  "seamo": {
+    "title": "Southeast Asian Math Olympiad",
+    "level": "Bronze"
+  },
+  "nus-simc": {
+    "title": "SIMC",
+    "level": "Participation"
+  },
+  "smo-2013": {
+    "title": "Singapore Mathematical Olympiad 2013",
+    "level": "Bronze"
+  },
+  "smo-2014": {
+    "title": "Singapore Mathematical Olympiad 2014",
+    "level": "Silver"
+  },
+  "smo-2015": {
+    "title": "Singapore Mathematical Olympiad 2015",
+    "level": "Bronze"
+  },
+  "smo-2016": {
+    "title": "Singapore Mathematical Olympiad 2016",
+    "level": "Silver"
+  },
+  "smo-2017": {
+    "title": "Singapore Mathematical Olympiad 2017",
+    "level": "Silver"
+  },
+  "smo-2018": {
+    "title": "Singapore Mathematical Olympiad 2018",
+    "level": "Silver"
+  },
+  "nus-spho": {
+    "title": "Singapore Physics Olympiad",
+    "level": "Participation"
+  },
+  "ti-graphing": {
+    "title": "TI Graphing Competition 2018",
+    "level": "Gold",
+    "rank": 3,
+    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY",
+    "related": [
+      "portfolio/art/ti-competition"
+    ]
+  },
+  "nus-top-students-ethics": {
+    "title": "Ethics in Computing",
+    "level": "Top Student",
+    "link": "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a",
+    "related": [
+      "portfolio/courses/is1103"
+    ]
+  }
+}

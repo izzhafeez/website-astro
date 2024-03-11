@@ -1,0 +1,1486 @@
+{
+  "Admiralty Primary School (Primary)": [
+    103.80004,
+    1.442635
+  ],
+  "Admiralty Secondary School (Secondary)": [
+    103.802398,
+    1.445891
+  ],
+  "Ahmad Ibrahim Primary School (Primary)": [
+    103.832942,
+    1.433153
+  ],
+  "Ahmad Ibrahim Secondary School (Secondary)": [
+    103.829719,
+    1.43606
+  ],
+  "Ai Tong School (Primary)": [
+    103.83302,
+    1.360583
+  ],
+  "Alexandra Primary School (Primary)": [
+    103.823857,
+    1.291384
+  ],
+  "Anchor Green Primary School (Primary)": [
+    103.887107,
+    1.390807
+  ],
+  "Anderson Primary School (Primary)": [
+    103.8414,
+    1.384
+  ],
+  "Anderson Secondary School (Secondary)": [
+    103.851554,
+    1.37434
+  ],
+  "Ang Mo Kio Primary School (Primary)": [
+    103.839631,
+    1.369322
+  ],
+  "Ang Mo Kio Secondary School (Secondary)": [
+    103.842488,
+    1.367447
+  ],
+  "Anglican High School (Secondary)": [
+    103.942366,
+    1.330327
+  ],
+  "Anglo-Chinese School (Primary)": [
+    103.840955,
+    1.309351
+  ],
+  "Anglo-Chinese School (Secondary)": [
+    103.780447,
+    1.302499
+  ],
+  "Angsana Primary School (Primary)": [
+    103.939,
+    1.3629
+  ],
+  "Assumption English School (Secondary)": [
+    103.766387,
+    1.369231
+  ],
+  "Bartley Secondary School (Secondary)": [
+    103.88284,
+    1.340243
+  ],
+  "Beacon Primary School (Primary)": [
+    103.773632,
+    1.383949
+  ],
+  "Beatty Secondary School (Secondary)": [
+    103.852286,
+    1.341771
+  ],
+  "Bedok Green Primary School (Primary)": [
+    103.937879,
+    1.323446
+  ],
+  "Bedok Green Secondary School (Secondary)": [
+    103.935028,
+    1.334519
+  ],
+  "Bedok South Secondary School (Secondary)": [
+    103.950989,
+    1.325137
+  ],
+  "Bedok View Secondary School (Secondary)": [
+    103.943499,
+    1.324489
+  ],
+  "Bendemeer Primary School (Primary)": [
+    103.865127,
+    1.322182
+  ],
+  "Bendemeer Secondary School (Secondary)": [
+    103.860685,
+    1.324623
+  ],
+  "Blangah Rise Primary School (Primary)": [
+    103.808628,
+    1.27612
+  ],
+  "Boon Lay Garden Primary School (Primary)": [
+    103.713032,
+    1.342987
+  ],
+  "Boon Lay Secondary School (Secondary)": [
+    103.701892,
+    1.342722
+  ],
+  "Bowen Secondary School (Secondary)": [
+    103.87766,
+    1.37036
+  ],
+  "Broadrick Secondary School (Secondary)": [
+    103.886918,
+    1.307051
+  ],
+  "Bukit Batok Secondary School (Secondary)": [
+    103.740733,
+    1.348223
+  ],
+  "Bukit Merah Secondary School (Secondary)": [
+    103.813439,
+    1.285693
+  ],
+  "Bukit Panjang Government High School (Secondary)": [
+    103.738484,
+    1.381906
+  ],
+  "Bukit Panjang Primary School (Primary)": [
+    103.769375,
+    1.373622
+  ],
+  "Bukit Timah Primary School (Primary)": [
+    103.767243,
+    1.337519
+  ],
+  "Bukit View Primary School (Primary)": [
+    103.753666,
+    1.345861
+  ],
+  "Bukit View Secondary School (Secondary)": [
+    103.752227,
+    1.345733
+  ],
+  "Canberra Primary School (Primary)": [
+    103.815698,
+    1.45095
+  ],
+  "Canberra Secondary School (Secondary)": [
+    103.814446,
+    1.453663
+  ],
+  "Canossa Catholic Primary School (Primary)": [
+    103.882228,
+    1.326644
+  ],
+  "Cantonment Primary School (Primary)": [
+    103.839963,
+    1.275473
+  ],
+  "Casuarina Primary School (Primary)": [
+    103.95702,
+    1.372461
+  ],
+  "Catholic High School (Primary)": [
+    103.845149,
+    1.354582
+  ],
+  "Catholic High School (Secondary)": [
+    103.845149,
+    1.354582
+  ],
+  "Cedar Girls' Secondary School (Secondary)": [
+    103.873933,
+    1.333758
+  ],
+  "Cedar Primary School (Primary)": [
+    103.874235,
+    1.33419
+  ],
+  "Changkat Changi Secondary School (Secondary)": [
+    103.95271,
+    1.34089
+  ],
+  "Changkat Primary School (Primary)": [
+    103.95208,
+    1.340232
+  ],
+  "CHIJ  Primary (Primary)": [
+    103.911106,
+    1.306485
+  ],
+  "CHIJ (Primary)": [
+    103.828158,
+    1.275023
+  ],
+  "CHIJ Katong Convent (Secondary)": [
+    103.917144,
+    1.306443
+  ],
+  "CHIJ Our Lady of Good Counsel (Primary)": [
+    103.864009,
+    1.35743
+  ],
+  "CHIJ Our Lady of the Nativity (Primary)": [
+    103.897576,
+    1.373303
+  ],
+  "CHIJ Our Lady Queen of Peace (Primary)": [
+    103.767412,
+    1.366604
+  ],
+  "CHIJ Primary (Primary)": [
+    103.841847,
+    1.332753
+  ],
+  "CHIJ Secondary (Secondary)": [
+    103.843272,
+    1.332461
+  ],
+  "CHIJ St. Joseph's Convent (Secondary)": [
+    103.902465,
+    1.391752
+  ],
+  "CHIJ St. Nicholas Girls' School (Secondary)": [
+    103.834253,
+    1.373477
+  ],
+  "CHIJ St. Nicholas Girls' School (Primary)": [
+    103.834253,
+    1.373477
+  ],
+  "CHIJ St. Theresa's Convent (Secondary)": [
+    103.822441,
+    1.275352
+  ],
+  "Chongfu School (Primary)": [
+    103.839309,
+    1.438396
+  ],
+  "Chongzheng Primary School (Primary)": [
+    103.951399,
+    1.350707
+  ],
+  "Christ Church Secondary School (Secondary)": [
+    103.793451,
+    1.426568
+  ],
+  "Chua Chu Kang Primary School (Primary)": [
+    103.741833,
+    1.377759
+  ],
+  "Chua Chu Kang Secondary School (Secondary)": [
+    103.751878,
+    1.38319
+  ],
+  "Chung Cheng High School (Secondary)": [
+    103.837391,
+    1.419226
+  ],
+  "Clementi Primary School (Primary)": [
+    103.763144,
+    1.315063
+  ],
+  "Clementi Town Secondary School (Secondary)": [
+    103.762021,
+    1.315539
+  ],
+  "Commonwealth Secondary School (Secondary)": [
+    103.745637,
+    1.319204
+  ],
+  "Compassvale Primary School (Primary)": [
+    103.897812,
+    1.394445
+  ],
+  "Compassvale Secondary School (Secondary)": [
+    103.899847,
+    1.396141
+  ],
+  "Concord Primary School (Primary)": [
+    103.736225,
+    1.380008
+  ],
+  "Corporation Primary School (Primary)": [
+    103.707594,
+    1.350998
+  ],
+  "Crescent Girls' School (Secondary)": [
+    103.817544,
+    1.293319
+  ],
+  "Crest Secondary School (Secondary)": [
+    103.7429,
+    1.3434
+  ],
+  "Damai Primary School (Primary)": [
+    103.92127,
+    1.335461
+  ],
+  "Damai Secondary School (Secondary)": [
+    103.927092,
+    1.336928
+  ],
+  "Dazhong Primary School (Primary)": [
+    103.748472,
+    1.35918
+  ],
+  "De La Salle School (Primary)": [
+    103.743202,
+    1.394708
+  ],
+  "Deyi Secondary School (Secondary)": [
+    103.852546,
+    1.365997
+  ],
+  "Dunearn Secondary School (Secondary)": [
+    103.744721,
+    1.363579
+  ],
+  "Dunman High School (Secondary)": [
+    103.882942,
+    1.299962
+  ],
+  "Dunman Secondary School (Secondary)": [
+    103.956214,
+    1.360653
+  ],
+  "East Spring Primary School (Primary)": [
+    103.961677,
+    1.352684
+  ],
+  "East Spring Secondary School (Secondary)": [
+    103.960641,
+    1.356225
+  ],
+  "Edgefield Primary School (Primary)": [
+    103.907848,
+    1.400091
+  ],
+  "Edgefield Secondary School (Secondary)": [
+    103.902687,
+    1.400593
+  ],
+  "Elias Park Primary School (Primary)": [
+    103.945128,
+    1.374513
+  ],
+  "Endeavour Primary School (Primary)": [
+    103.817436,
+    1.454038
+  ],
+  "Eunos Primary School (Primary)": [
+    103.904541,
+    1.324476
+  ],
+  "Evergreen Primary School (Primary)": [
+    103.794578,
+    1.444153
+  ],
+  "Evergreen Secondary School (Secondary)": [
+    103.794138,
+    1.441491
+  ],
+  "Fairfield Methodist School (Primary)": [
+    103.785438,
+    1.300541
+  ],
+  "Fairfield Methodist Secondary School (Secondary)": [
+    103.7841,
+    1.301634
+  ],
+  "Fajar Secondary School (Secondary)": [
+    103.763999,
+    1.3756
+  ],
+  "Farrer Park Primary School (Primary)": [
+    103.850766,
+    1.312369
+  ],
+  "Fengshan Primary School (Primary)": [
+    103.93171,
+    1.329806
+  ],
+  "Fernvale Primary School (Primary)": [
+    103.874445,
+    1.390302
+  ],
+  "Fern Green Primary School (Primary)": [
+    103.88002,
+    1.39764
+  ],
+  "First Toa Payoh Primary School (Primary)": [
+    103.85553,
+    1.340323
+  ],
+  "Frontier Primary School (Primary)": [
+    103.699702,
+    1.336413
+  ],
+  "Fuchun Primary School (Primary)": [
+    103.778193,
+    1.43048
+  ],
+  "Fuchun Secondary School (Secondary)": [
+    103.777626,
+    1.430705
+  ],
+  "Fuhua Primary School (Primary)": [
+    103.736104,
+    1.336504
+  ],
+  "Fuhua Secondary School (Secondary)": [
+    103.726521,
+    1.347014
+  ],
+  "Gan Eng Seng Primary School (Primary)": [
+    103.815547,
+    1.285595
+  ],
+  "Gan Eng Seng School (Secondary)": [
+    103.823734,
+    1.289071
+  ],
+  "Geylang Methodist School (Primary)": [
+    103.883846,
+    1.317591
+  ],
+  "Geylang Methodist School (Secondary)": [
+    103.882661,
+    1.317649
+  ],
+  "Gongshang Primary School (Primary)": [
+    103.949115,
+    1.357237
+  ],
+  "Greendale Primary School (Primary)": [
+    103.912335,
+    1.396482
+  ],
+  "Greendale Secondary School (Secondary)": [
+    103.9117,
+    1.39696
+  ],
+  "Greenridge Primary School (Primary)": [
+    103.767794,
+    1.385889
+  ],
+  "Greenridge Secondary School (Secondary)": [
+    103.773828,
+    1.381864
+  ],
+  "Greenwood Primary School (Primary)": [
+    103.804726,
+    1.4399
+  ],
+  "Guangyang Primary School (Primary)": [
+    103.849453,
+    1.34569
+  ],
+  "Guangyang Secondary School (Secondary)": [
+    103.850209,
+    1.344409
+  ],
+  "Hai Sing Catholic School (Secondary)": [
+    103.954958,
+    1.374346
+  ],
+  "Haig Girls' School (Primary)": [
+    103.902903,
+    1.311943
+  ],
+  "Henderson Secondary School (Secondary)": [
+    103.81986,
+    1.28481
+  ],
+  "Henry Park Primary School (Primary)": [
+    103.784296,
+    1.316676
+  ],
+  "Hillgrove Secondary School (Secondary)": [
+    103.752987,
+    1.352736
+  ],
+  "Holy Innocents' High School (Secondary)": [
+    103.896399,
+    1.371545
+  ],
+  "Holy Innocents' Primary School (Primary)": [
+    103.894115,
+    1.366938
+  ],
+  "Hong Kah Secondary School (Secondary)": [
+    103.727084,
+    1.351667
+  ],
+  "Hong Wen School (Primary)": [
+    103.857629,
+    1.32176
+  ],
+  "Horizon Primary School (Primary)": [
+    103.913405,
+    1.39955
+  ],
+  "Hougang Primary School (Primary)": [
+    103.880805,
+    1.377382
+  ],
+  "Hougang Secondary School (Secondary)": [
+    103.882534,
+    1.37764
+  ],
+  "Hua Yi Secondary School (Secondary)": [
+    103.721832,
+    1.352344
+  ],
+  "Huamin Primary School (Primary)": [
+    103.84424,
+    1.426973
+  ],
+  "Hwa Chong Institution (Secondary)": [
+    103.800747,
+    1.325889
+  ],
+  "Innova Primary School (Primary)": [
+    103.790607,
+    1.428967
+  ],
+  "Jiemin Primary School (Primary)": [
+    103.830426,
+    1.427688
+  ],
+  "Jing Shan Primary School (Primary)": [
+    103.852132,
+    1.372233
+  ],
+  "Junyuan Primary School (Primary)": [
+    103.939221,
+    1.347871
+  ],
+  "Junyuan Secondary School (Secondary)": [
+    103.933886,
+    1.353613
+  ],
+  "Jurong Primary School (Primary)": [
+    103.733157,
+    1.3486
+  ],
+  "Jurong Secondary School (Secondary)": [
+    103.723953,
+    1.33002
+  ],
+  "Jurong West Primary School (Primary)": [
+    103.698804,
+    1.339175
+  ],
+  "Jurong West Secondary School (Secondary)": [
+    103.702099,
+    1.335256
+  ],
+  "Jurongville Secondary School (Secondary)": [
+    103.728908,
+    1.351289
+  ],
+  "Juying Secondary School (Secondary)": [
+    103.68731,
+    1.338723
+  ],
+  "Keming Primary School (Primary)": [
+    103.756449,
+    1.345528
+  ],
+  "Kent Ridge Secondary School (Secondary)": [
+    103.76489,
+    1.301228
+  ],
+  "Kheng Cheng School (Primary)": [
+    103.847149,
+    1.337338
+  ],
+  "Kong Hwa School (Primary)": [
+    103.888352,
+    1.310997
+  ],
+  "Kranji Primary School (Primary)": [
+    103.747363,
+    1.393561
+  ],
+  "Kranji Secondary School (Secondary)": [
+    103.741191,
+    1.390051
+  ],
+  "Kuo Chuan Presbyterian Primary School (Primary)": [
+    103.855018,
+    1.349398
+  ],
+  "Kuo Chuan Presbyterian Secondary School (Secondary)": [
+    103.855365,
+    1.350076
+  ],
+  "Lakeside Primary School (Primary)": [
+    103.71809,
+    1.338204
+  ],
+  "Lianhua Primary School (Primary)": [
+    103.754166,
+    1.354242
+  ],
+  "Loyang View Secondary School (Secondary)": [
+    103.956945,
+    1.366584
+  ],
+  "Maha Bodhi School (Primary)": [
+    103.901299,
+    1.328471
+  ],
+  "Manjusri Secondary School (Secondary)": [
+    103.90172,
+    1.327471
+  ],
+  "Maris Stella High School (Primary)": [
+    103.877853,
+    1.341395
+  ],
+  "Maris Stella High School (Secondary)": [
+    103.877853,
+    1.341395
+  ],
+  "Marsiling Primary School (Primary)": [
+    103.773643,
+    1.433839
+  ],
+  "Marsiling Secondary School (Secondary)": [
+    103.776008,
+    1.436644
+  ],
+  "Marymount Convent School (Primary)": [
+    103.840021,
+    1.340367
+  ],
+  "Mayflower Primary School (Primary)": [
+    103.8431,
+    1.3772
+  ],
+  "Mayflower Secondary School (Secondary)": [
+    103.835361,
+    1.368273
+  ],
+  "Mee Toh School (Primary)": [
+    103.90859,
+    1.394618
+  ],
+  "Meridian Primary School (Primary)": [
+    103.934889,
+    1.375528
+  ],
+  "Meridian Secondary School (Secondary)": [
+    103.948972,
+    1.367247
+  ],
+  "Methodist Girls' School (Primary)": [
+    103.884971,
+    1.349473
+  ],
+  "Methodist Girls' School (Secondary)": [
+    103.88512,
+    1.350968
+  ],
+  "Montfort Junior School (Primary)": [
+    103.889308,
+    1.373824
+  ],
+  "Montfort Secondary School (Secondary)": [
+    103.888929,
+    1.373961
+  ],
+  "Nan Chiau High School (Secondary)": [
+    103.890004,
+    1.388796
+  ],
+  "Nan Chiau Primary School (Primary)": [
+    103.891181,
+    1.392211
+  ],
+  "Nan Hua High School (Secondary)": [
+    103.768561,
+    1.308095
+  ],
+  "Nan Hua Primary School (Primary)": [
+    103.761095,
+    1.319202
+  ],
+  "Nanyang Girls' High School (Secondary)": [
+    103.802421,
+    1.330583
+  ],
+  "Nanyang Primary School (Primary)": [
+    103.80775,
+    1.320847
+  ],
+  "National Junior College (Secondary)": [
+    103.802311,
+    1.330481
+  ],
+  "Naval Base Primary School (Primary)": [
+    103.838794,
+    1.416307
+  ],
+  "Naval Base Secondary School (Secondary)": [
+    103.83105,
+    1.419379
+  ],
+  "New Town Primary School (Primary)": [
+    103.800102,
+    1.299642
+  ],
+  "New Town Secondary School (Secondary)": [
+    103.773189,
+    1.309776
+  ],
+  "Ngee Ann Primary School (Primary)": [
+    103.917463,
+    1.305525
+  ],
+  "Ngee Ann Secondary School (Secondary)": [
+    103.956747,
+    1.354475
+  ],
+  "North Spring Primary School (Primary)": [
+    103.903203,
+    1.387061
+  ],
+  "North View Primary School (Primary)": [
+    103.848191,
+    1.427523
+  ],
+  "North View Secondary School (Secondary)": [
+    103.899075,
+    1.38121
+  ],
+  "North Vista Primary School (Primary)": [
+    103.895962,
+    1.382822
+  ],
+  "North Vista Secondary School (Secondary)": [
+    103.899189,
+    1.381131
+  ],
+  "Northbrooks Secondary School (Secondary)": [
+    103.845147,
+    1.420813
+  ],
+  "Northland Primary School (Primary)": [
+    103.840928,
+    1.42097
+  ],
+  "Northland Secondary School (Secondary)": [
+    103.840105,
+    1.435802
+  ],
+  "Northoaks Primary School (Primary)": [
+    103.814197,
+    1.456608
+  ],
+  "Northshore Primary School (Primary)": [
+    103.904667,
+    1.418094
+  ],
+  "NUS High School of Mathematics and Science (Secondary)": [
+    103.770148,
+    1.306157
+  ],
+  "Oasis Primary School (Primary)": [
+    103.911121,
+    1.404624
+  ],
+  "Opera Estate Primary School (Primary)": [
+    103.923788,
+    1.319319
+  ],
+  "Orchid Park Secondary School (Secondary)": [
+    103.837859,
+    1.41532
+  ],
+  "Outram Secondary School (Secondary)": [
+    103.837127,
+    1.286514
+  ],
+  "Palm View Primary School (Primary)": [
+    103.891355,
+    1.383769
+  ],
+  "Park View Primary School (Primary)": [
+    103.939542,
+    1.377381
+  ],
+  "Pasir Ris Crest Secondary School (Secondary)": [
+    103.959728,
+    1.372841
+  ],
+  "Pasir Ris Primary School (Primary)": [
+    103.962807,
+    1.372419
+  ],
+  "Pasir Ris Secondary School (Secondary)": [
+    103.948963,
+    1.354227
+  ],
+  "Paya Lebar Methodist Girls' School (Primary)": [
+    103.884971,
+    1.349473
+  ],
+  "Paya Lebar Methodist Girls' School (Secondary)": [
+    103.88512,
+    1.350968
+  ],
+  "Pei Chun Public School (Primary)": [
+    103.855586,
+    1.337374
+  ],
+  "Pei Hwa Presbyterian Primary School (Primary)": [
+    103.776106,
+    1.338056
+  ],
+  "Pei Hwa Secondary School (Secondary)": [
+    103.878462,
+    1.390375
+  ],
+  "Pei Tong Primary School (Primary)": [
+    103.7676,
+    1.316198
+  ],
+  "Peicai Secondary School (Secondary)": [
+    103.870011,
+    1.359516
+  ],
+  "Peirce Secondary School (Secondary)": [
+    103.830216,
+    1.366659
+  ],
+  "Peiying Primary School (Primary)": [
+    103.830417,
+    1.417233
+  ],
+  "Ping Yi Secondary School (Secondary)": [
+    103.920701,
+    1.327017
+  ],
+  "Pioneer Primary School (Primary)": [
+    103.68777,
+    1.339023
+  ],
+  "Poi Ching School (Primary)": [
+    103.935247,
+    1.357651
+  ],
+  "Presbyterian High School (Secondary)": [
+    103.843149,
+    1.382012
+  ],
+  "Princess Elizabeth Primary School (Primary)": [
+    103.74102,
+    1.349204
+  ],
+  "Punggol Cove Primary School (Primary)": [
+    103.898805,
+    1.411599
+  ],
+  "Punggol Green Primary School (Primary)": [
+    103.898801,
+    1.401872
+  ],
+  "Punggol Primary School (Primary)": [
+    103.894507,
+    1.377795
+  ],
+  "Punggol Secondary School (Secondary)": [
+    103.909214,
+    1.402057
+  ],
+  "Punggol View Primary School (Primary)": [
+    103.905156,
+    1.405146
+  ],
+  "Qifa Primary School (Primary)": [
+    103.756743,
+    1.313251
+  ],
+  "Qihua Primary School (Primary)": [
+    103.78834,
+    1.442036
+  ],
+  "Queenstown Primary School (Primary)": [
+    103.807549,
+    1.295594
+  ],
+  "Queenstown Secondary School (Secondary)": [
+    103.813191,
+    1.293521
+  ],
+  "Queensway Secondary School (Secondary)": [
+    103.802207,
+    1.300223
+  ],
+  "Radin Mas Primary School (Primary)": [
+    103.824188,
+    1.274958
+  ],
+  "Raffles Girls' Primary School (Primary)": [
+    103.806443,
+    1.329404
+  ],
+  "Raffles Girls' School (Secondary)": [
+    103.843134,
+    1.342175
+  ],
+  "Raffles Institution (Secondary)": [
+    103.845875,
+    1.346188
+  ],
+  "Red Swastika School (Primary)": [
+    103.934332,
+    1.333243
+  ],
+  "Regent Secondary School (Secondary)": [
+    103.751034,
+    1.393279
+  ],
+  "River Valley High School (Secondary)": [
+    103.709022,
+    1.344078
+  ],
+  "River Valley Primary School (Primary)": [
+    103.835815,
+    1.294223
+  ],
+  "Riverside Primary School (Primary)": [
+    103.801832,
+    1.447047
+  ],
+  "Riverside Secondary School (Secondary)": [
+    103.788308,
+    1.441102
+  ],
+  "Rivervale Primary School (Primary)": [
+    103.90456,
+    1.39341
+  ],
+  "Rosyth School (Primary)": [
+    103.875001,
+    1.372891
+  ],
+  "Rulang Primary School (Primary)": [
+    103.718458,
+    1.346739
+  ],
+  "School of Science and Technology, Singapore (Secondary)": [
+    103.774012,
+    1.312928
+  ],
+  "School of the Arts, Singapore (Secondary)": [
+    103.8465,
+    1.2994
+  ],
+  "Sembawang Primary School (Primary)": [
+    103.821042,
+    1.445074
+  ],
+  "Sembawang Secondary School (Secondary)": [
+    103.816843,
+    1.445315
+  ],
+  "Seng Kang Primary School (Primary)": [
+    103.899767,
+    1.389497
+  ],
+  "Seng Kang Secondary School (Secondary)": [
+    103.898365,
+    1.386597
+  ],
+  "Sengkang Green Primary School (Primary)": [
+    103.875218,
+    1.392846
+  ],
+  "Serangoon Garden Secondary School (Secondary)": [
+    103.86927,
+    1.369326
+  ],
+  "Serangoon Secondary School (Secondary)": [
+    103.902139,
+    1.374655
+  ],
+  "Shuqun Primary School (Primary)": [
+    103.721524,
+    1.347653
+  ],
+  "Si Ling Primary School (Primary)": [
+    103.786035,
+    1.432409
+  ],
+  "Si Ling Secondary School (Secondary)": [
+    103.7746,
+    1.4448
+  ],
+  "Singapore Chinese Girls' School (Secondary)": [
+    103.828165,
+    1.320634
+  ],
+  "Singapore Chinese Girls\u2019 School (Primary)": [
+    103.828165,
+    1.320634
+  ],
+  "Singapore Sports School (Secondary)": [
+    103.789445,
+    1.426411
+  ],
+  "South View Primary School (Primary)": [
+    103.746276,
+    1.381667
+  ],
+  "Spectra Secondary School (Secondary)": [
+    103.80434,
+    1.4365
+  ],
+  "Springdale Primary School (Primary)": [
+    103.889926,
+    1.39467
+  ],
+  "Springfield Secondary School (Secondary)": [
+    103.930355,
+    1.349573
+  ],
+  "St. Andrew's Junior School (Primary)": [
+    103.865117,
+    1.331403
+  ],
+  "St. Andrew's Secondary School (Secondary)": [
+    103.866249,
+    1.330694
+  ],
+  "St. Anthony's Canossian Primary School (Primary)": [
+    103.941235,
+    1.334725
+  ],
+  "St. Anthony's Canossian Secondary School (Secondary)": [
+    103.941977,
+    1.334663
+  ],
+  "St. Anthony's Primary School (Primary)": [
+    103.749252,
+    1.364119
+  ],
+  "St. Gabriel's Primary School (Primary)": [
+    103.862561,
+    1.349472
+  ],
+  "St. Gabriel's Secondary School (Secondary)": [
+    103.875808,
+    1.346383
+  ],
+  "St. Hilda's Primary School (Primary)": [
+    103.937921,
+    1.34935
+  ],
+  "St. Hilda's Secondary School (Secondary)": [
+    103.937608,
+    1.349739
+  ],
+  "St. Joseph's Institution (Secondary)": [
+    103.841203,
+    1.33278
+  ],
+  "St. Joseph's Institution Junior (Primary)": [
+    103.845612,
+    1.317729
+  ],
+  "St. Margaret's Primary School (Primary)": [
+    103.846193,
+    1.303759
+  ],
+  "St. Margaret's Secondary School (Secondary)": [
+    103.809951,
+    1.320068
+  ],
+  "St. Patrick's School (Secondary)": [
+    103.916768,
+    1.307684
+  ],
+  "St. Stephen's School (Primary)": [
+    103.917258,
+    1.31879
+  ],
+  "Stamford Primary School (Primary)": [
+    103.857454,
+    1.303456
+  ],
+  "Swiss Cottage Secondary School (Secondary)": [
+    103.750396,
+    1.364717
+  ],
+  "Tampines North Primary School (Primary)": [
+    103.948726,
+    1.360476
+  ],
+  "Tampines Primary School (Primary)": [
+    103.944005,
+    1.349779
+  ],
+  "Tampines Secondary School (Secondary)": [
+    103.944264,
+    1.349261
+  ],
+  "Tanglin Secondary School (Secondary)": [
+    103.758158,
+    1.309702
+  ],
+  "Tanjong Katong Girls' School (Secondary)": [
+    103.89582,
+    1.308213
+  ],
+  "Tanjong Katong Primary School (Primary)": [
+    103.900093,
+    1.305241
+  ],
+  "Tanjong Katong Secondary School (Secondary)": [
+    103.897225,
+    1.308735
+  ],
+  "Tao Nan School (Primary)": [
+    103.911553,
+    1.305285
+  ],
+  "Teck Ghee Primary School (Primary)": [
+    103.850957,
+    1.365588
+  ],
+  "Teck Whye Primary School (Primary)": [
+    103.753292,
+    1.38365
+  ],
+  "Teck Whye Secondary School (Secondary)": [
+    103.755103,
+    1.383334
+  ],
+  "Telok Kurau Primary School (Primary)": [
+    103.910934,
+    1.331046
+  ],
+  "Temasek Junior College (Secondary)": [
+    103.933075,
+    1.319011
+  ],
+  "Temasek Primary School (Primary)": [
+    103.945591,
+    1.317707
+  ],
+  "Temasek Secondary School (Secondary)": [
+    103.947564,
+    1.315917
+  ],
+  "Townsville Primary School (Primary)": [
+    103.853826,
+    1.360033
+  ],
+  "Unity Primary School (Primary)": [
+    103.746823,
+    1.402855
+  ],
+  "Unity Secondary School (Secondary)": [
+    103.746026,
+    1.400029
+  ],
+  "Valour Primary School (Primary)": [
+    103.899078,
+    1.406836
+  ],
+  "Victoria School (Secondary)": [
+    103.927981,
+    1.308713
+  ],
+  "Waterway Primary School (Primary)": [
+    103.918622,
+    1.398828
+  ],
+  "Wellington Primary School (Primary)": [
+    103.822304,
+    1.45192
+  ],
+  "West Grove Primary School (Primary)": [
+    103.699286,
+    1.344879
+  ],
+  "West Spring Primary School (Primary)": [
+    103.766196,
+    1.389441
+  ],
+  "West Spring Secondary School (Secondary)": [
+    103.760129,
+    1.387823
+  ],
+  "West View Primary School (Primary)": [
+    103.76024,
+    1.383676
+  ],
+  "Westwood Primary School (Primary)": [
+    103.700534,
+    1.347185
+  ],
+  "Westwood Secondary School (Secondary)": [
+    103.701772,
+    1.353737
+  ],
+  "White Sands Primary School (Primary)": [
+    103.960919,
+    1.365557
+  ],
+  "Whitley Secondary School (Secondary)": [
+    103.842552,
+    1.355052
+  ],
+  "Woodgrove Primary School (Primary)": [
+    103.790604,
+    1.433103
+  ],
+  "Woodgrove Secondary School (Secondary)": [
+    103.796048,
+    1.428318
+  ],
+  "Woodlands Primary School (Primary)": [
+    103.7918,
+    1.4368
+  ],
+  "Woodlands Ring Primary School (Primary)": [
+    103.797436,
+    1.434952
+  ],
+  "Woodlands Ring Secondary School (Secondary)": [
+    103.800149,
+    1.436489
+  ],
+  "Woodlands Secondary School (Secondary)": [
+    103.774586,
+    1.439125
+  ],
+  "Xinghua Primary School (Primary)": [
+    103.890473,
+    1.357909
+  ],
+  "Xingnan Primary School (Primary)": [
+    103.68795,
+    1.342547
+  ],
+  "Xinmin Primary School (Primary)": [
+    103.883081,
+    1.371395
+  ],
+  "Xinmin Secondary School (Secondary)": [
+    103.883052,
+    1.372559
+  ],
+  "Xishan Primary School (Primary)": [
+    103.837755,
+    1.433472
+  ],
+  "Yangzheng Primary School (Primary)": [
+    103.868595,
+    1.348646
+  ],
+  "Yew Tee Primary School (Primary)": [
+    103.750986,
+    1.396766
+  ],
+  "Yio Chu Kang Primary School (Primary)": [
+    103.885644,
+    1.377933
+  ],
+  "Yio Chu Kang Secondary School (Secondary)": [
+    103.842137,
+    1.377976
+  ],
+  "Yishun Primary School (Primary)": [
+    103.834087,
+    1.433386
+  ],
+  "Yishun Secondary School (Secondary)": [
+    103.828764,
+    1.428133
+  ],
+  "Yishun Town Secondary School (Secondary)": [
+    103.838094,
+    1.432322
+  ],
+  "Yu Neng Primary School (Primary)": [
+    103.932145,
+    1.333889
+  ],
+  "Yuan Ching Secondary School (Secondary)": [
+    103.720899,
+    1.342006
+  ],
+  "Yuhua Primary School (Primary)": [
+    103.741106,
+    1.342802
+  ],
+  "Yuhua Secondary School (Secondary)": [
+    103.722687,
+    1.347186
+  ],
+  "Yumin Primary School (Primary)": [
+    103.950462,
+    1.351292
+  ],
+  "Yusof Ishak Secondary School (Secondary)": [
+    103.896275,
+    1.406937
+  ],
+  "Yuying Secondary School (Secondary)": [
+    103.890195,
+    1.357136
+  ],
+  "Zhangde Primary School (Primary)": [
+    103.825952,
+    1.284212
+  ],
+  "Zhenghua Primary School (Primary)": [
+    103.769313,
+    1.379549
+  ],
+  "Zhenghua Secondary School (Secondary)": [
+    103.765511,
+    1.388366
+  ],
+  "Zhonghua Primary School (Primary)": [
+    103.869762,
+    1.360203
+  ],
+  "Zhonghua Secondary School (Secondary)": [
+    103.869431,
+    1.348407
+  ],
+  "Anderson Serangoon Junior College (Tertiary)": [
+    103.845886,
+    1.378397
+  ],
+  "Anglo-Chinese Junior College (Tertiary)": [
+    103.785263,
+    1.303288
+  ],
+  "Anglo-Chinese IB Junior College (Tertiary)": [
+    103.780363,
+    1.303704
+  ],
+  "Catholic Junior College (Tertiary)": [
+    103.835029,
+    1.324556
+  ],
+  "Dunman High School (Tertiary)": [
+    103.882862,
+    1.299125
+  ],
+  "Eunoia Junior College (Tertiary)": [
+    103.840484,
+    1.362454
+  ],
+  "Hwa Chong Institution (Tertiary)": [
+    103.805729,
+    1.324893
+  ],
+  "Jurong Pioneer Junior College (Tertiary)": [
+    103.753933,
+    1.384609
+  ],
+  "Nanyang Junior College (Tertiary)": [
+    103.866499,
+    1.350283
+  ],
+  "National Junior College (Tertiary)": [
+    103.804459,
+    1.33043
+  ],
+  "Raffles Institution (Tertiary)": [
+    103.845983,
+    1.345761
+  ],
+  "River Valley Junior College (Tertiary)": [
+    103.706725,
+    1.344073
+  ],
+  "Saint Andrew's Junior College (Tertiary)": [
+    103.863481,
+    1.332789
+  ],
+  "St. Joseph's Institution (Tertiary)": [
+    103.8273,
+    1.3236
+  ],
+  "Tampines Meridian Junior College (Tertiary)": [
+    103.937553,
+    1.376742
+  ],
+  "Temasek Junior College (Tertiary)": [
+    103.935598,
+    1.318462
+  ],
+  "Victoria Junior College (Tertiary)": [
+    103.919531,
+    1.305718
+  ],
+  "Yishun Innova Junior College (Tertiary)": [
+    103.829634,
+    1.424619
+  ],
+  "Nanyang Polytechnic (Tertiary)": [
+    103.849736,
+    1.381119
+  ],
+  "Singapore Polytechnic (Tertiary)": [
+    103.781095,
+    1.309174
+  ],
+  "Ngee Ann Polytechnic (Tertiary)": [
+    103.773306,
+    1.332481
+  ],
+  "Temasek Polytechnic (Tertiary)": [
+    103.929082,
+    1.346756
+  ],
+  "Republic Polytechnic (Tertiary)": [
+    103.785362,
+    1.444968
+  ],
+  "ITE College Central (Tertiary)": [
+    103.856473,
+    1.378209
+  ],
+  "ITE College West (Tertiary)": [
+    103.75222,
+    1.375054
+  ],
+  "ITE College East (Tertiary)": [
+    103.954985,
+    1.334554
+  ],
+  "Nanyang Academy of Fine Arts (Tertiary)": [
+    103.851653,
+    1.300031
+  ],
+  "Lasalle College of the Arts (Tertiary)": [
+    103.851555,
+    1.302855
+  ],
+  "National University of Singapore (Tertiary)": [
+    103.771222,
+    1.294966
+  ],
+  "Nanyang Technological University (Tertiary)": [
+    103.680706,
+    1.344635
+  ],
+  "Singapore Management University (Tertiary)": [
+    103.852208,
+    1.296847
+  ],
+  "Singapore University of Technology and Design (Tertiary)": [
+    103.96286,
+    1.340172
+  ],
+  "Singapore Institute of Technology (Tertiary)": [
+    103.910689,
+    1.414089
+  ],
+  "Singapore University of Social Sciences (Tertiary)": [
+    103.775709,
+    1.328814
+  ],
+  "Millenia Institute (Tertiary)": [
+    103.7414,
+    1.3508
+  ]
+}

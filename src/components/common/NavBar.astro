@@ -1,0 +1,16 @@
+---
+import ThemeIcon from './ThemeIcon.astro';
+---
+<nav class="backdrop-blur-xl border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen" transition:name="nav-bar">
+  <div class="text-white p-4">
+    <a href="/" class="flex items-center gap-4">
+      <img src="/img/desmosito-black-trans.png" class="h-10 dark:invert"/>
+      <h1 class="text-black dark:text-white font-extrabold text-3xl">{Astro.props.label}</h1>
+    </a>
+  </div>
+  <div class="ms-auto flex items-center float-right gap-4 h-20 p-4">
+    <a href='/portfolio' class="p-2 rounded-lg text-black dark:text-white bg-li-bg dark:bg-da-bg hover:bg-ew-500/50 dark:hover:bg-ew-300/50 dark:hover:text-white">Portfolio</a>
+    <a href='/gqmaster' class="p-2 rounded-lg text-black dark:text-white bg-li-bg dark:bg-da-bg hover:bg-ns-500/50 dark:hover:bg-ns-300/50 dark:hover:text-white">GQMaster</a>
+    <ThemeIcon/>
+  </div>
+</nav>

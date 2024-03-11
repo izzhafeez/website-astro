@@ -1,0 +1,117 @@
+{
+  "ammonite": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/evzsdmshug"
+  },
+  "bezier": {
+    "link": "https://www.desmos.com/calculator/bgb6rp6cth"
+  },
+  "bladed-flower": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/l2kslce1ry"
+  },
+  "circle-noise": {
+    "link": "https://www.desmos.com/calculator/qdmpazraj2"
+  },
+  "coloured-dots": {
+    "link": "https://www.desmos.com/calculator/vqqdnvka3q"
+  },
+  "coloured-spiral": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/bep7jkfyyi"
+  },
+  "continuous-shader": {
+    "link": "https://www.desmos.com/calculator/ngzlgzelu3"
+  },
+  "desmosito": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/cnxln1josq"
+  },
+  "econs": {
+    "link": "https://www.desmos.com/calculator/tqpi8bxzz2"
+  },
+  "electric-islands": {
+    "rank": 2,
+    "link": "https://www.desmos.com/calculator/xorqhvopxq"
+  },
+  "grid": {
+    "link": "https://www.desmos.com/calculator/0hm5page65"
+  },
+  "island-panels": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/9vcdc67jr7"
+  },
+  "life-bubble": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/ezamwwbjle"
+  },
+  "non-linear-rotation": {
+    "link": "https://www.desmos.com/calculator/4kc09fofq9"
+  },
+  "octa-flower": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/o7zphhefty"
+  },
+  "octa-noise": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/ewtfzl9fvi"
+  },
+  "pink-butterfly": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/v2tnu5bww1"
+  },
+  "plaid": {
+    "link": "https://www.desmos.com/calculator/v4x9mjxbsk"
+  },
+  "random-walks-square": {
+    "link": "https://www.desmos.com/calculator/fxwigy6ppr"
+  },
+  "ripple": {
+    "link": "https://www.desmos.com/calculator/o0pnkg8mlh"
+  },
+  "seahorse": {
+    "link": "https://www.desmos.com/calculator/q9qcobuic7"
+  },
+  "self-intersection": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/dzgrbdr6uc"
+  },
+  "shaded-circles": {
+    "rank": 1,
+    "link": "https://www.desmos.com/calculator/weymv5ku9e"
+  },
+  "snowball": {
+    "link": "https://www.desmos.com/calculator/hvqilehgks"
+  },
+  "sphere-rotation": {
+    "rank": 2,
+    "link": "https://www.desmos.com/calculator/frcglv3gkh"
+  },
+  "spiral-logo": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/c1qdnrl5rm"
+  },
+  "spiral-music": {
+    "rank": 3,
+    "link": "https://www.desmos.com/calculator/ebotdmdz3n"
+  },
+  "spiral-vines": {
+    "rank": 2,
+    "link": "https://www.desmos.com/calculator/v20kg8wtvi"
+  },
+  "square-noise": {
+    "link": "https://www.desmos.com/calculator/2rfkjjc4v6"
+  },
+  "star-destroyer": {
+    "link": "https://www.desmos.com/calculator/19seon2zpf"
+  },
+  "taegeuk": {
+    "link": "https://www.desmos.com/calculator/mwn7ju2inp"
+  },
+  "ti-competition": {
+    "link": "https://www.desmos.com/calculator/ec8iue2omr",
+    "related": [
+      "portfolio/award/ti-graphing"
+    ]
+  }
+}

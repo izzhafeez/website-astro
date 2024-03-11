@@ -1,0 +1,40 @@
+---
+import Layout from 'layouts/Layout.astro';
+import artData from '../../data/portfolio/art.json';
+import { toName } from 'utils/string';
+import ArtPreview from '@components/portfolio/ArtPreview.astro';
+import Hero from '@components/common/Hero.astro';
+import NavBar from '@components/common/NavBar.astro';
+import Footer from '@components/common/Footer.astro';
+
+export interface ArtData {
+  link: string,
+  rank?: number
+}
+
+type ArtJson = {[key: string]: ArtData};
+
+const artworks = Object.entries(artData as ArtJson).map(([key, value]) => {
+  return {
+    key,
+    imgPath: `/img/portfolio/art/${key}.png`,
+    name: toName(key),
+    link: value.link,
+    rank: value.rank ?? 0
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = "Check out some of the art I've created using Desmos!";
+//<h1 class="font-extrabold text-transparent bg-clip-text text-5xl mt-20 bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-white my-4 inline-block">ARTWORK</h1>
+---
+
+<Layout>
+  <div slot="main" class="">
+    <NavBar transition:persist label="Portfolio"/>
+    <Hero label="ARTWORK" text={heroText}/>
+    <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto">
+      {artworks.map(artwork => <ArtPreview artwork={artwork}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>

@@ -1,0 +1,93 @@
+{
+  "alone-part-ii": {
+    "title": "Alone Part II",
+    "artist": "Alan Walker",
+    "link": "https://www.youtube.com/watch?v=vpc8njKxAKM"
+  },
+  "bad-liar": {
+    "artist": "Imagine Dragons",
+    "link": "https://www.youtube.com/watch?v=UNK6bLcbynA"
+  },
+  "down": {
+    "artist": "Jay Sean",
+    "link": "https://www.youtube.com/watch?v=uJFLbX_tDOE"
+  },
+  "eight": {
+    "title": "eight \u110b\u1166\u110b\u1175\u11ba",
+    "artist": "IU",
+    "link": "https://www.youtube.com/watch?v=gn7FoUIMuxA"
+  },
+  "everything-i-wanted": {
+    "artist": "Billie Eilish",
+    "link": "https://www.youtube.com/watch?v=i5XZWNFnQlU"
+  },
+  "fanfare": {
+    "artist": "TWICE",
+    "link": "https://www.youtube.com/watch?v=etty9klPYOU"
+  },
+  "i-know-what-you-did-last-summer": {
+    "artist": "Shawn Mendes",
+    "link": "https://www.youtube.com/watch?v=vdJh5rvhT04"
+  },
+  "innocence": {
+    "artist": "Avril Lavigne",
+    "link": "https://www.youtube.com/watch?v=329TFWcp9JI"
+  },
+  "me": {
+    "title": "ME!",
+    "artist": "Taylor Swift",
+    "link": "https://www.youtube.com/watch?v=W_atD66m7FY"
+  },
+  "50-meme-mashup": {
+    "artist": "Singapore",
+    "link": "https://www.youtube.com/watch?v=5vf2LWzwAUY"
+  },
+  "ndp-piano-medley": {
+    "title": "NDP Piano Medley",
+    "artist": "Singapore",
+    "link": "https://www.youtube.com/watch?v=4WWADSU9240"
+  },
+  "senorita": {
+    "title": "Se\u00f1orita",
+    "artist": "Shawn Mendes / Camilla Cabello",
+    "imgPath": "shawn-mendes-camilla-cabello.jpeg",
+    "link": "https://www.youtube.com/watch?v=EI30ZmLLp_0"
+  },
+  "shine-your-light": {
+    "artist": "NDP 2023",
+    "imgPath": "singapore.svg",
+    "link": "https://www.youtube.com/watch?v=n0UXn86-Nuc"
+  },
+  "so-am-i": {
+    "artist": "Ava Max",
+    "link": "https://www.youtube.com/watch?v=-Fs_Hoi9qZ4"
+  },
+  "speechless": {
+    "title": "Speechless",
+    "artist": "Alan Menken / Naomi Scott",
+    "imgPath": "naomi-scott.jpeg",
+    "link": "https://www.youtube.com/watch?v=r7WJBaBQYrQ"
+  },
+  "stronger-together": {
+    "title": "Stronger Together",
+    "artist": "NDP 2022",
+    "imgPath": "singapore.svg",
+    "link": "https://www.youtube.com/watch?v=r62CPbFxPHc"
+  },
+  "the-last-time": {
+    "artist": "The Script",
+    "link": "https://www.youtube.com/watch?v=JGePErnf3jU"
+  },
+  "the-road-ahead": {
+    "artist": "Singapore",
+    "link": "https://www.youtube.com/watch?v=Ysz_bKoUplQ"
+  },
+  "unity": {
+    "artist": "Alan Walker",
+    "link": "https://www.youtube.com/watch?v=L0cRQSmNYls"
+  },
+  "what-ive-done": {
+    "title": "What I've Done",
+    "artist": "Linkin Park"
+  }
+}

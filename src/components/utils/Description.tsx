@@ -29,8 +29,8 @@ function parseLinkSection(link: string, text: string) {
 
 function parseProficiency(block: TDescriptionBlock, category: string) {
   return <section key='proficiency'>
-    <h3 className={`font-extrabold my-2 text-3xl text-${category}-500 dark:text-${category}-300`}>{block.title?.toUpperCase()}</h3>
-    <h3 className={'text-gray-700 dark:text-gray-300'}>{getStarScale(parseInt(block.text))}</h3>
+    <h3 className={`font-extrabold my-2 text-3xl text-${category}-500`}>{block.title?.toUpperCase()}</h3>
+    <h3 className={'text-gray-300'}>{getStarScale(parseInt(block.text))}</h3>
   </section>
 };
 
@@ -43,13 +43,13 @@ function parseParagraphSection(block: TDescriptionBlock, category: string) {
   const paragraphs = block.text.toString().split('\n');
 
   return <section className='text-start grid gap-2' key={block.title || block.text}>
-    {block.title && block.title !== "description" && <h3 className={`font-extrabold text-3xl text-${category}-500 dark:text-${category}-300`}>{block.title.toUpperCase()}</h3>}
+    {block.title && block.title !== "description" && <h3 className={`font-extrabold text-3xl text-${category}-500 text-${category}-300`}>{block.title.toUpperCase()}</h3>}
     <div className='grid gap-2'>{paragraphs.map((x, i) => parseText(x, i))}</div>
   </section>;
 };
 
 function parseText(text: string, index: number) {
-  return <><p key={index} className='text-gray-600 dark:text-gray-400'>{parseLinks(text)}</p></>;
+  return <><p key={index} className='text-gray-400'>{parseLinks(text)}</p></>;
 }
 
 function removeFormatting(text: string) {
@@ -64,10 +64,10 @@ function parseLinks(text: string) {
     const [link, label] = segment.split(">>");
     const category = getCategoryFromLink(link);
     const categoryMatching: { [key: string]: string } = {
-      portfolio: 'text-portfolio-500 dark:text-portfolio-300',
-      blog: 'text-blog-500 dark:text-blog-300',
-      quiz: 'text-quiz-500 dark:text-quiz-300',
-      "no-category": 'text-black dark:text-white'
+      portfolio: 'text-portfolio-500 text-portfolio-300',
+      blog: 'text-blog-500 text-blog-300',
+      quiz: 'text-quiz-500 text-quiz-300',
+      "no-category": 'text-black text-white'
     }
 
     const className = `group transition duration-300 link-underline ${categoryMatching[category]}`
@@ -94,7 +94,7 @@ function parseBold(text: string) {
     if (index % 2 === 0) {
       return <span key={index}>{segment}</span>;
     }
-    return <b key={index} className='font-extrabold text-black dark:text-white'>{segment}</b>;
+    return <b key={index} className='font-extrabold text-white'>{segment}</b>;
   });
 }
 

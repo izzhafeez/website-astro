@@ -1,0 +1,545 @@
+{
+  "aws-app-spec": {
+    "title": "Developing Applications on AWS",
+    "rank": 2,
+    "issuer": "AWS",
+    "link": "https://coursera.org/verify/specialization/XWCAG7EZTXFR",
+    "related": [
+      "aws",
+      "cloud-computing"
+    ]
+  },
+  "aws-cloud-solutions-pc": {
+    "title": "AWS Cloud Solutions Architect",
+    "rank": 3,
+    "issuer": "AWS",
+    "link": "https://coursera.org/verify/professional-cert/TJTY9VACM8K6",
+    "related": [
+      "aws",
+      "data-engineering",
+      "cloud-computing"
+    ]
+  },
+  "aws-devops-spec": {
+    "title": "DevOps on AWS",
+    "issuer": "AWS",
+    "link": "https://coursera.org/verify/specialization/DWYMG289JBH2",
+    "related": [
+      "aws",
+      "cloud-computing"
+    ]
+  },
+  "board-aspnet-spec": {
+    "title": "ASP.NET for Experienced Developers",
+    "issuer": "Board Infinity",
+    "link": "https://coursera.org/verify/specialization/LFNFRJM7HLG3",
+    "related": [
+      "c-sharp"
+    ]
+  },
+  "cfg1002": {
+    "name": "Career Catalyst",
+    "grade": "CS"
+  },
+  "codio-web-technologies-and-security-spec": {
+    "link": "https://coursera.org/verify/specialization/UAR9G9SZLHQ5",
+    "related": [
+      "python",
+      "javascript",
+      "web-dev"
+    ]
+  },
+  "cp2106": {
+    "name": "Orbital",
+    "grade": "Artemis",
+    "rank": 1,
+    "related": [
+      "portfolio/projects#note-together"
+    ]
+  },
+  "cp3200": {
+    "name": "Student Internship Programme I",
+    "grade": "CS",
+    "related": [
+      "portfolio/experience#qi-software-engineering"
+    ]
+  },
+  "cs1010r": {
+    "name": "Programming Methodology",
+    "grade": "A+"
+  },
+  "cs1101s": {
+    "name": "Programming Methodology I",
+    "grade": "A"
+  },
+  "cs1231s": {
+    "name": "Discrete Structures",
+    "grade": "A+"
+  },
+  "cs2030s": {
+    "name": "Programming Methodology II",
+    "grade": "A+",
+    "related": [
+      "java"
+    ]
+  },
+  "cs2040s": {
+    "name": "Data Structures and Algorithms",
+    "grade": "A",
+    "related": [
+      "java"
+    ]
+  },
+  "cs2100": {
+    "name": "Computer Organisation",
+    "grade": "A-",
+    "related": [
+      "c"
+    ]
+  },
+  "cs2101": {
+    "name": "Effective Communication for Computing Students",
+    "grade": "A"
+  },
+  "cs2102": {
+    "name": "Database Systems",
+    "grade": "A",
+    "related": [
+      "sql",
+      "postgresql"
+    ]
+  },
+  "cs2103t": {
+    "name": "Software Engineering",
+    "grade": "A+",
+    "rank": 3,
+    "related": [
+      "java",
+      "github",
+      "junit",
+      "software-engineering",
+      "portfolio/projects#edu-mate"
+    ]
+  },
+  "cs2106": {
+    "name": "Operating Systems",
+    "grade": "A-",
+    "related": [
+      "c",
+      "bash"
+    ]
+  },
+  "cs2108": {
+    "name": "Media Computing",
+    "grade": "A",
+    "related": [
+      "matlab"
+    ]
+  },
+  "cs2109s": {
+    "name": "AI and ML",
+    "grade": "A+",
+    "rank": 1,
+    "related": [
+      "pytorch",
+      "python",
+      "ml",
+      "data-science",
+      "data-visualisation"
+    ]
+  },
+  "cs3216": {
+    "name": "Software Product Engineering for Digital Markets",
+    "grade": "B",
+    "rank": 1,
+    "related": [
+      "portfolio/projects#chit-chat-champion",
+      "portfolio/projects#builder-pal",
+      "react",
+      "vue"
+    ]
+  },
+  "cs3230": {
+    "name": "Design and Analysis of Algorithms",
+    "grade": "A",
+    "rank": 1,
+    "related": [
+      "java"
+    ] 
+  },
+  "cs4243": {
+    "name": "Computer Vision and Pattern Recognition",
+    "grade": "B+",
+    "rank": 1,
+    "related": [
+      "computer-vision",
+      "deep-learning",
+      "ml"
+    ]
+  },
+  "duke-rust-programming-spec": {
+    "rank": 2,
+    "link": "https://coursera.org/share/422b55cee858e7554c665cd5f7dd6220",
+    "related": [
+      "rust",
+      "aws",
+      "gcp",
+      "data-engineering",
+      "data-science"
+    ]
+  },
+  "dla-machine-learning-spec": {
+    "issuer": "DeepLearning.AI",
+    "link": "https://coursera.org/verify/specialization/W64WX87H59SH",
+    "rank": 2,
+    "related": [
+      "computer-vision",
+      "tensorflow",
+      "ml",
+      "deep-learning"
+    ]
+  },
+  "dla-tensorflow-developer-pc": {
+    "issuer": "DeepLearning.AI",
+    "link": "https://coursera.org/verify/professional-cert/WQBXNV7VAXWC",
+    "rank": 3,
+    "related": [
+      "tensorflow",
+      "computer-vision",
+      "nlp",
+      "deep-learning",
+      "ml"
+    ]
+  },
+  "educba-dotnet-core-spec": {
+    "title": ".NET Core Mastery",
+    "issuer": "EDUCBA",
+    "link": "https://coursera.org/verify/specialization/C2VQQT7KYNVB",
+    "related": [
+      "c-sharp",
+      "web-dev"
+    ]
+  },
+  "educba-mean-spec": {
+    "title": "MEAN Stack Developer",
+    "issuer": "EDUCBA",
+    "link": "https://coursera.org/verify/specialization/DDCU88EVA2QF",
+    "related": [
+      "angular",
+      "mongo-db",
+      "typescript",
+      "node",
+      "express"
+    ]
+  },
+  "gea1000": {
+    "name": "Quantitative Reasoning with Data",
+    "grade": "A",
+    "related": [
+      "excel"
+    ]
+  },
+  "gec1030": {
+    "name": "Metropolis: City in World History",
+    "grade": "A-"
+  },
+  "gen2002x": {
+    "name": "Total Defence Project",
+    "grade": "IP",
+    "related": [
+      "figma"
+    ]
+  },
+  "gess1019": {
+    "name": "Urban Planning in Singapore",
+    "grade": "A-"
+  },
+  "google-advanced-data-analytics-pc": {
+    "link": "https://www.credly.com/badges/9efde45d-8331-4ca7-90d4-ff98f1bde544/public_url",
+    "rank": 3,
+    "related": [
+      "tableau",
+      "python",
+      "pandas",
+      "data-science",
+      "ml"
+    ]
+  },
+  "google-app-spec": {
+    "title": "Developing Applications with Google Cloud",
+    "link": "https://coursera.org/verify/specialization/47XSWHWV7KTX",
+    "related": [
+      "gcp",
+      "cloud-computing"
+    ]
+  },
+  "google-business-intelligence-pc": {
+    "rank": 2,
+    "link": "https://www.credly.com/badges/ba69c2f0-3d08-4700-9b2a-791b67f0dfb3/public_url",
+    "related": [
+      "sql",
+      "tableau",
+      "data-visualisation",
+      "data-analytics"
+    ]
+  },
+  "google-data-analytics-pc": {
+    "link": "https://www.credly.com/badges/114285c0-e052-421b-a302-7bfd5ffc3a62/public_url",
+    "related": [
+      "r",
+      "sql",
+      "tableau",
+      "data-visualisation"
+    ]
+  },
+  "google-database-engineer-spec": {
+    "rank": 3,
+    "title": "Google Cloud Database Engineer",
+    "link": "https://coursera.org/verify/specialization/T33PPYYDUQ9S",
+    "related": [
+      "gcp",
+      "data-engineering",
+      "cloud-computing"
+    ]
+  },
+  "google-digital-leader-pc": {
+    "title": "Google Cloud Digital Leader Training",
+    "link": "https://coursera.org/verify/professional-cert/E3YQ4XPXSUW4",
+    "related": [
+      "gcp"
+    ]
+  },
+  "google-professional-workspace-administrator-pc": {
+    "link": "https://coursera.org/share/66456a66d108c935f37e6fcaef6c3ec3"
+  },
+  "google-ux-design-pc": {
+    "title": "UX Design",
+    "link": "https://coursera.org/share/fd93dbe21a1be3fc20e6aae265f7ef81",
+    "rank": 3,
+    "related": [
+      "ux-design",
+      "figma",
+      "frontend-dev"
+    ]
+  },
+  "harvardx-data-science-pc": {
+    "issuer": "HarvardX",
+    "link": "https://credentials.edx.org/credentials/ed430b9eb6d3496fb6fc8257b0e2a90a/",
+    "rank": 1,
+    "related": [
+      "r",
+      "data-science",
+      "ml",
+      "data-visualisation",
+      "data-mining"
+    ]
+  },
+  "hku-software-engineering-spec": {
+    "issuer": "Hong Kong University of Science and Technology",
+    "link": "https://coursera.org/verify/specialization/V754QYTPL26U",
+    "related": [
+      "software-engineering",
+      "software-testing"
+    ]
+  },
+  "ibm-deep-learning-spec": {
+    "issuer": "IBM",
+    "link": "https://courses.edx.org/certificates/06e2f6469b7f48eca94f244e3ed0de42",
+    "related": [
+      "tensorflow",
+      "data-science",
+      "ml",
+      "data-visualisation"
+    ]
+  },
+  "ibm-ai-foundations-for-business-spec": {
+    "issuer": "IBM",
+    "link": "https://coursera.org/verify/specialization/NLQ595BD7UEG",
+    "related": [
+      "ai"
+    ]
+  },
+  "ibm-generative-ai-for-data-analysts-spec": {
+    "issuer": "IBM",
+    "link": "https://coursera.org/verify/specialization/A7DBBPZLP4BE",
+    "related": [
+      "generative-ai",
+      "data-analytics"
+    ]
+  },
+  "ibm-generative-ai-for-data-scientists-spec": {
+    "issuer": "IBM",
+    "link": "https://coursera.org/share/aa6cf88e9c84f46f18af8c231bf5f82f",
+    "related": [
+      "generative-ai",
+      "data-science"
+    ]
+  },
+  "ibm-generative-ai-for-software-developers-spec": {
+    "issuer": "IBM",
+    "link": "https://coursera.org/verify/specialization/XGJDPGMMCNGU",
+    "related": [
+      "generative-ai",
+      "software-engineering"
+    ]
+  },
+  "infosec-secure-coding-in-laravel-spec": {
+    "link": "https://coursera.org/verify/specialization/UGT2GB3WBFV6",
+    "related": [
+      "php",
+      "web-dev"
+    ]
+  },
+  "is1103": {
+    "name": "Ethics in Computing",
+    "grade": "A+"
+  },
+  "ku-arabic-for-beginners-cert": {
+    "issuer": "Khalifa University",
+    "link": "https://coursera.org/verify/specialization/Q4U5KQXZBGSX"
+  },
+  "learn-java-testing-spec": {
+    "issuer": "LearnQuest",
+    "link": "https://coursera.org/verify/specialization/RUFUK73XBJ6D",
+    "related": [
+      "java",
+      "software-testing"
+    ]
+  },
+  "learn-scrum-master-cert": {
+    "issuer": "LearnQuest",
+    "link": "https://coursera.org/verify/specialization/AJG6E57YCTUS",
+    "related": [
+      "agile"
+    ]
+  },
+  "ma1521": {
+    "name": "Calculus for Computing",
+    "grade": "A"
+  },
+  "ma2001": {
+    "name": "Linear Algebra I",
+    "grade": "A-",
+    "related": [
+      "matlab"
+    ]
+  },
+  "ma2101": {
+    "name": "Linear Algebra II",
+    "grade": "A"
+  },
+  "ma2104": {
+    "name": "Multivariate Calculus",
+    "grade": "A"
+  },
+  "ma2108": {
+    "name": "Mathematical Analysis I",
+    "grade": "B+"
+  },
+  "ma3236": {
+    "name": "Non-Linear Programming",
+    "grade": "A",
+    "related": [
+      "matlab"
+    ]
+  },
+  "ma3238": {
+    "name": "Stochastic Processes I",
+    "grade": "A-",
+    "rank": 1,
+    "related": [
+      "statistics"
+    ]
+  },
+  "ma3252": {
+    "name": "Linear and Network Optimisation",
+    "grade": "A",
+    "related": [
+      "matlab"
+    ]
+  },
+  "microsoft-data-engineering-pc": {
+    "title": "Azure Data Engineering Associate",
+    "rank": 2,
+    "link": "https://coursera.org/verify/professional-cert/3Z276QU4BE89",
+    "related": [
+      "azure",
+      "data-engineering",
+      "cloud-computing"
+    ]
+  },
+  "mongo-data-modeling-cert": {
+    "issuer": "Mongo University",
+    "link": "https://university.mongodb.com/course_completion/df998645-f68a-4957-931e-1c8f3ffa2ac4",
+    "related": [
+      "mongo-db"
+    ]
+  },
+  "peking-os-cert": {
+    "title": "操作系统与虚拟化安全",
+    "issuer": "Peking University",
+    "link": "https://coursera.org/verify/6WRPDVYSKMRV"
+  },
+  "scrimba-ai-engineering-spec": {
+    "link": "https://coursera.org/verify/specialization/3PPJUL9TK68C",
+    "related": [
+      "ai",
+      "data-science",
+      "ml"
+    ]
+  },
+  "st2334": {
+    "name": "Probability and Statistics",
+    "grade": "A+",
+    "related": [
+      "statistics"
+    ]
+  },
+  "udemy-java-developer-course-cert": {
+    "link": "https://www.udemy.com/certificate/UC-ea3408de-bd00-4eba-96bf-3ab78ac4bda8/",
+    "related": [
+      "java"
+    ]
+  },
+  "udemy-web-developer-cert": {
+    "link": "https://www.udemy.com/certificate/UC-edbe5bd6-e40e-4227-9449-7d161eade40e/",
+    "related": [
+      "web-dev",
+      "php",
+      "javascript"
+    ]
+  },
+  "uom-c-programming-for-everybody-spec": {
+    "issuer": "University of Michigan",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/XH3HQG934HHJ",
+    "related": [
+      "c"
+    ]
+  },
+  "uom-python-for-everybody-spec": {
+    "issuer": "University of Michigan",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/B4URY8QXHQRW",
+    "related": [
+      "python",
+      "sql"
+    ]
+  },
+  "vanderbilt-scalable-microservices-for-developers-spec": {
+    "issuer": "Vanderbilt University",
+    "rank": 1,
+    "link": "https://coursera.org/verify/specialization/2XHE6NQX5437",
+    "related": [
+      "software-engineering",
+      "java",
+      "web-dev"
+    ]
+  },
+  "vanderbilt-prompt-engineering-spec": {
+    "issuer": "Vanderbilt University",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/EGMQFSJ33N3U",
+    "related": [
+      "generative-ai",
+      "data-analytics"
+    ]
+  }
+}

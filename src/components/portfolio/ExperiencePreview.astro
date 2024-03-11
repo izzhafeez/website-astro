@@ -1,0 +1,13 @@
+---
+import Related from './Related.vue';
+
+const { experience } = Astro.props;
+---
+<div id={experience.key} class="group w-full hover:neon-ew p-2 rounded-lg">
+  <h2 class="group-hover:text-ew-500 dark:group-hover:text-ew-300 font-medium dark:text-white">{experience.title} · {experience.organisation}</h2>
+  <div class="mb-2">
+    <p class="text-gray-500 text-sm">{experience.duration}</p>
+  </div>
+  <p class="text-gray-500 text-sm my-2">{experience.overview}</p>
+  <div class="flex flex-wrap gap-1 my-2">{experience.related.map((related: string) => <Related text={related}/>)}</div>
+</div>

@@ -1,17 +1,12 @@
 <script>
   import LLMap from "./LLMap.svelte";
-  import Location from "./Location";
+  import InputBox from "./InputBox.svelte";
   export let locationDict;
   export let locationList;
-  // $: locations = locationList.map(([lat, lng]) => new Location({
-  //   latitude: lat,
-  //   longitude: lng,
-  //   label: "hello",
-  //   color: "ns-500"
-  // }));
-  let locations = [];
+  export let defaultRegex;
 </script>
 
 <div>
+  <InputBox answers={locationDict} defaultRegex={defaultRegex}/>
   <LLMap locations={locationList} lines={[]}/>
 </div>

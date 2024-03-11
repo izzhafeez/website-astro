@@ -7,12 +7,12 @@ export const addEllipsis = (text: string, length: number) => {
 
 export const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 
-export const sanitise = (text: string) => {
-  const unascii = slug(text);
-  const searchTermsMatches = /\[(.*?)\]/gi.exec(unascii);
-  var searchTerms: string[] = [];
-  if (!!searchTermsMatches) searchTerms = searchTermsMatches[0].split(",").map(term => term.trim().replace(/\[|\]/g, ''))
+export const toName = (key: string) => key.split('-').map(capitalise).join(' ');
 
+export const sanitise = (text: string) => {
+  const searchTermsMatches = /\[[^\]]*\]/gi.exec(text);
+  var searchTerms: string = '';
+  if (!!searchTermsMatches) searchTerms = searchTermsMatches[0];
   return {
     searchTerms,
     cleanText: text.replace(/\[.*?\]/g, '')
@@ -25,9 +25,9 @@ export const fullSanitise = (text: string) => {
   return {
     searchTerms,
     cleanText,
-    key: cleanText
+    key: slug(text
       .replace(/\[.*?\]/g, '')
-      .replace(/\([^)]*\)/g, '')
+      .replace(/\([^)]*\)/g, ''))
       .replaceAll(' ', '')
       .toLowerCase()
       .replace(/[^0-9a-z]/gi, '')

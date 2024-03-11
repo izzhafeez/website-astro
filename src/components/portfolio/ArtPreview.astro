@@ -1,0 +1,16 @@
+---
+import { Image } from "astro:assets";
+
+const { artwork } = Astro.props;
+---
+
+<div class="group rounded-lg relative block aspect-square border-2 border-white/0 dark:border-black/0 hover:border-ew-300 hover:neon-ew">
+  <Image src={artwork.imgPath} alt={artwork.name} height="10" width="10" class="absolute inset-0 rounded-lg object-cover w-full h-full group-hover:brightness-[0.2] duration-300 transition-brightness"/>
+  <a href={artwork.link}>
+    <div class="relative w-full h-full grid place-items-center opacity-0 group-hover:opacity-100 duration-300 transition-opacity">
+      <div class="text-center">
+        <h2 class="text-ew-300 text-3xl font-extrabold">{ artwork.name }</h2>
+      </div>
+    </div>
+  </a>
+</div>

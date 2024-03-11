@@ -1,20 +1,18 @@
 ---
-import NavBar from '../components/nav/NavBar';
-
-const currentPath = Astro.url.pathname;
+import { ViewTransitions } from 'astro:transitions';
 ---
 
 <html lang="en">
   <head>
+    <ViewTransitions/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style is:global>
       @import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900");
-      @import url("https://fonts.googleapis.com/css?family=Raleway:400,300,700");
-
+      @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+      
       html {
-        overflow-y: scroll;
-        overflow-x: hidden;
+        padding: 0
       }
 
       body {
@@ -23,23 +21,13 @@ const currentPath = Astro.url.pathname;
         font-family: 'Inter', 'Raleway', 'Ubuntu', 'Fira Sans';
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        background-attachment: fixed;
+        /* background: radial-gradient(50rem 50rem at var(--glow-x) var(--glow-y), #F0F0F0, #FFF); */
       }
 
       code {
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
           monospace;
-      }
-
-      .portfolio {
-        color: #D42E12;
-      }
-
-      .projects {
-        color: #009645;
-      }
-
-      .blog {
-        color: #9900AA;
       }
 
       @tailwind base;
@@ -60,61 +48,21 @@ const currentPath = Astro.url.pathname;
         background-position: 0 100%
       }
     </style>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""></script>
-      <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
-    <script is:inline>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.querySelector('html')?.classList.add('dark');
-        document.documentElement.style.scrollbarColor = '#374151 #111827';
-      } else {
-        document.querySelector('html')?.classList.remove('dark');
-        document.documentElement.style.scrollbarColor = '';
-      }
-    </script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' /> -->
   </head>
-  <body class="overflow-x-hidden dark:bg-gray-900 w-screen">
-    <script>
-      var themeToggleBtn = document.getElementById('theme-toggle');
-
-      themeToggleBtn?.addEventListener('click', function() {
-        // if set via local storage previously
-        if (localStorage.getItem('color-theme')) {
-          if (localStorage.getItem('color-theme') === 'light') {
-            document.querySelector('html')?.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-            document.documentElement.style.setProperty('scrollbar-color', '#374151 #111827');
-          } else {
-            document.querySelector('html')?.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-            document.documentElement.style.setProperty('scrollbar-color', '');
-          }
-
-        // if NOT set via local storage previously
-        } else {
-          if (document.querySelector('html')?.classList.contains('dark')) {
-            document.querySelector('html')?.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-            document.documentElement.style.setProperty('scrollbar-color', '');
-          } else {
-            document.querySelector('html')?.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-            document.documentElement.style.setProperty('scrollbar-color', '#374151 #111827');
-          }
-        }
-          
-      });
-    </script>
-    <NavBar currentPath={currentPath} client:load/>
-    <article class="ps-6 max-w-5xl mx-auto">
-      <slot name="main"/>
-    </article>
+  <body id='body' class="overflow-x-hidden overflow-y-scroll">
+    <div id="bg" class="fixed w-screen h-screen top-0 left-0 -z-10 bg-li-bg dark:bg-da-bg transition-colors duration-200"></div>
+    <slot name="main"/>
     <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script> -->
+    <script is:inline src="https://kit.fontawesome.com/a05d281c15.js" crossorigin="anonymous"></script>
   </body>
 </html>

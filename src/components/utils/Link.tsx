@@ -17,7 +17,7 @@ class Link extends React.Component<{ category: string, className: string, text: 
         bgColor = "bg-quiz-500";
         break;
       default:
-        bgColor = "bg-black dark:bg-white dark:text-black"
+        bgColor = "bg-white text-black"
     }
 
     return <>

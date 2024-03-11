@@ -1,0 +1,182 @@
+{
+  "auto-gitter": {
+    "repo": "https://github.com/mynameizzhafeez/bash-projects",
+    "overview": "Automation tool to individually commit every file changed within a directory",
+    "related": [
+      "portfolio/skills/github",
+      "portfolio/skills/bash"
+    ]
+  },
+  "bus-routes-optimiser": {
+    "overview": "B2B optimisation model that recommends the best routes for buses to pick up workers",
+    "related": [
+      "portfolio/experience/qi-software-engineering",
+      "portfolio/skills/react",
+      "portfolio/skills/typescript",
+      "portfolio/skills/ruby-on-rails",
+      "portfolio/skills/jest"
+    ]
+  },
+  "chords-search-engine": {
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
+    "overview": "Web scraper that finds, standardises and analyses the chord progression of any song",
+    "related": [
+      "portfolio/skills/python",
+      "portfolio/skills/data-science",
+      "portfolio/skills/flask",
+      "portfolio/projects/spiderman-web-scraper"
+    ]
+  },
+  "dynamic-resource-optimiser": {
+    "overview": "Machine learning model that recommends the optimal placement of emergency vehicles and fire bases in Singapore",
+    "related": [
+      "portfolio/experience/scdf-data-analytics",
+      "portfolio/skills/flask",
+      "portfolio/skills/tableau",
+      "portfolio/skills/geospatial-analytics",
+      "portfolio/skills/operational-analysis"
+    ]
+  },
+  "edumate": {
+    "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
+    "overview": "Address book that facilitates scheduling meetups with friends based on location and availability",
+    "related": [
+      "portfolio/courses/cs2103t",
+      "portfolio/skills/java",
+      "portfolio/skills/plant-uml",
+      "portfolio/skills/software-engineering",
+      "portfolio/skills/software-testing"
+    ]
+  },
+  "geospatial-extraction-framework": {
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/geo.py",
+    "overview": "Web scraping tool for extracting, parsing and harmonising geospatial data from the various sources",
+    "related": [
+      "portfolio/skills/python",
+      "portfolio/skills/pandas",
+      "portfolio/skills/data-mining"
+    ]
+  },
+  "geospatial-management-framework": {
+    "repo": "https://github.com/mynameizzhafeez/geo",
+    "overview": "Python library containing data structures and algorithms that facilitate the processing and management of geospatial data in Singapore",
+    "related": [
+      "portfolio/skills/python",
+      "portfolio/skills/pandas",
+      "portfolio/skills/geospatial-analytics"
+    ]
+  },
+  "halal-food-recommender": {
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/geo.js",
+    "overview": "Telegram Bot that recommends halal food options based on location and cuisine",
+    "related": [
+      "portfolio/skills/javascript",
+      "portfolio/skills/gcp",
+      "portfolio/skills/data-mining"
+    ]
+  },
+  "japanese-vocab-trainer": {
+    "repo": "https://github.com/mynameizzhafeez/jap-vocab-trainer",
+    "overview": "Anki-like Rust CLI application for practicing Japanese Kanji",
+    "related": [
+      "portfolio/skills/rust",
+      "portfolio/skills/japanese"
+    ]
+  },
+  "malls-of-singapore": {
+    "rank": 3,
+    "repo": "https://github.com/mynameizzhafeez/malls",
+    "overview": "Statistics-driven card game based on the shopping malls of Singapore",
+    "related": [
+      "portfolio/skills/data-mining",
+      "portfolio/skills/data-science",
+      "portfolio/skills/go"
+    ]
+  },
+  "meetup-maker": {
+    "rank": 1,
+    "repo": "https://github.com/mynameizzhafeez/MeetupMaker",
+    "overview": "Geospatial app that recommends meetup locations based on user positions",
+    "related": [
+      "portfolio/skills/python",
+      "portfolio/skills/django",
+      "portfolio/skills/postgresql",
+      "portfolio/skills/web-dev"
+    ]
+  },
+  "mrt-paths-analysis": {
+    "repo": "https://github.com/mynameizzhafeez/MRT-puzzle",
+    "overview": "Analysis of Hamiltonian Paths in Singapore's MRT network as part of a weekly puzzle challenge",
+    "related": [
+      "portoflio/skills/python",
+      "portfolio/skills/data-visualisation"
+    ]
+  },
+  "note-together": {
+    "repo": "https://github.com/shotnothing/NoteTogether",
+    "overview": "Note-sharing platform that incorporates Reddit and GitHub-like features",
+    "related": [
+      "portfolio/skills/javascript",
+      "portfolio/skills/vue",
+      "portfolio/skills/express",
+      "portfolio/skills/mongo-db",
+      "portfolio/skills/postman"
+    ]
+  },
+  "notes-telegram-bot": {
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
+    "overview": "Telegram Bot that lets users review notes on the go, featuring search and quiz functionality",
+    "related": [
+      "portfolio/skills/javascript",
+      "portfolio/skills/gcp"
+    ]
+  },
+  "programming-lines-counter": {
+    "repo": "https://github.com/mynameizzhafeez/website-react/tree/master/src/data/coding-languages",
+    "overview": "Automation tool that counts the number of lines of code for each programming language",
+    "related": [
+      "portfolio/skills/c"
+    ]
+  },
+  "sentence-searcher": {
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/language.py",
+    "overview": "Web scraper that extracts vocabulary and sample sentences for Chinese, Japanese and Korean words",
+    "related": [
+      "portfolio/skills/chinese",
+      "portfolio/skills/japanese",
+      "portfolio/skills/korean",
+      "portfolio/skills/python",
+      "portfolio/skills/selenium"
+    ]
+  },
+  "spiderman-web-scraper": {
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
+    "overview": "Quality of life tool that simplifies the web scraping process by providing shortcuts to common workflows",
+    "related": [
+      "portfolio/skills/python",
+      "portfolio/skills/data-mining"
+    ]
+  },
+  "website-astro": {
+    "rank": 3,
+    "repo": "https://github.com/mynameizzhafeez/website-astro",
+    "overview": "Personal website featuring map integration, quizzes and games",
+    "related": [
+      "portfolio/skills/typescript",
+      "portfolio/skills/astro",
+      "portfolio/skills/react",
+      "portfolio/skills/vue",
+      "portfolio/skills/svelte"
+    ]
+  },
+  "website-react": {
+    "rank": 2,
+    "repo": "https://github.com/mynameizzhafeez/website-react",
+    "overview": "Personal website featuring map integration, quizzes and games",
+    "related": [
+      "portfolio/skills/openlayers",
+      "portfolio/skills/react",
+      "portfolio/skills/javascript"
+    ]
+  }
+}
