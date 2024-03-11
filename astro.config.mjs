@@ -16,5 +16,5 @@ export default defineConfig({
   output: "hybrid",
   adapter: netlify(),
   site: "https://izzhafeez.github.io",
-  base: "/website-astro"
+  // base: "/website-astro"
 });
