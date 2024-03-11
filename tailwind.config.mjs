@@ -5,16 +5,29 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		colors: {
+			da: {
+				bg: '#000',
+				glow: '#101010'
+			},
+			li: {
+				bg: '#FFF',
+				glow: '#F0F0F0'
+			},
+			bc: {
+				bg: '#0F172A',
+				light: '#E2E8F0',
+				dark: '#64748B'
+			},
 			ew: {
-				100: '#D2F2E2',
-				200: '#A6E5C5',
-				300: '#78D8A7',
-				400: '#4DCB8A',
+				100: '#0AFF7C',
+				200: '#00F572',
+				300: '#00E069',
+				400: '#00B856',
 				500: '#009645',
-				600: '#008238',
-				700: '#006D2A',
-				800: '#00581D',
-				900: '#003C0F',
+				600: '#007A39',
+				700: '#005226',
+				800: '#002913',
+				900: '#00140A',
 			},
 			ns: {
 				100: '#FFC1B2',
@@ -236,6 +249,7 @@ export default {
 			}
 			addUtilities(neonUtilities);
 		}),
-		require('flowbite/plugin')
+		require('flowbite/plugin'),
+		require('tailwind-scrollbar')
 	],
 }

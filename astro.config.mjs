@@ -7,14 +7,14 @@ import sitemap from "@astrojs/sitemap";
 import sentry from "@sentry/astro";
 import spotlightjs from "@spotlightjs/astro";
 import svelte from "@astrojs/svelte";
-
 import netlify from "@astrojs/netlify";
+import alpine from "@astrojs/alpinejs";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte()],
+  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine()],
   output: "hybrid",
   adapter: netlify(),
-  site: "https://izzhafeez.github.io",
-  base: "/website-astro"
+  site: "https://izzhafeez.github.io"
+  // base: "/website-astro"
 });

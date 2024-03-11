@@ -1,15 +1,27 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "jsxImportSource": "react",
-    "baseUrl": "./src",
+    "baseUrl": "/Users/izzhafeez/Documents/website-astro/src",
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
     "paths": {
-      "@data/*": ["data/*"],
-      "@types/*": ["types/*"],
-      "@components/*": ["components/*"],
-      "@items/*": ["items/*"]
+      "@data/*": [
+        "data/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@items/*": [
+        "items/*"
+      ]
     },
-    "typeRoots": [".src/types"]
+    "typeRoots": [
+      ".src/types"
+    ]
   }
 }
