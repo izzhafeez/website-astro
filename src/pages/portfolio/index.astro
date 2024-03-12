@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Footer from '../../components/common/Footer.astro';
+import portfolioData from '../../data/portfolio/portfolio.json';
+import Hero from '../../components/common/Hero.astro';
+import homeJson from '../../data/home.json';
+import SmallCard from '../../components/common/SmallCard.astro';
+
+const heroText = homeJson.portfolio.heroText;
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar client:load transition:persist/>
+    <Hero label="PORTFOLIO" text={heroText} site="portfolio"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(portfolioData).map(([key, value]) => <SmallCard key={key} value={value} site="portfolio"/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>
