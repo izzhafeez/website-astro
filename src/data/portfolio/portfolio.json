@@ -1,0 +1,23 @@
+{
+  "art": {
+    "heroText": "Check out some of the art I've created using Desmos!"
+  },
+  "awards": {
+    "heroText": "Here are some of the awards I've gained over the years."
+  },
+  "courses": {
+    "heroText": "Here are some of the courses I've taken in NUS, on Coursera, and more."
+  },
+  "experience": {
+    "heroText": "Here are some of the invaluable experiences I've gained through internships, work and beyond."
+  },
+  "music": {
+    "heroText": "Here are some of my transcriptions, medleys and original songs I've made using MuseScore."
+  },
+  "projects": {
+    "heroText": "I've built quite a lot of projects using all kinds of technologies. Here are some of the bigger ones."
+  },
+  "skills": {
+    "heroText": "Here are some of my more important languages and technologies that I've picked up over the years"
+  }
+}
