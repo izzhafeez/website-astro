@@ -6,6 +6,7 @@ import awardsData from '../../data/portfolio/awards.json';
 import { toName } from '../../utils/string';
 import AwardPreview from '../../components/portfolio/AwardPreview.astro';
 import Footer from '../../components/common/Footer.astro';
+import portfolioData from '../../data/portfolio/portfolio.json';
 
 interface AwardData {
   title?: string,
@@ -29,14 +30,14 @@ const awards = Object.entries(awardsData as AwardJson).map(([key, value]) => {
   }
 }).sort((a,b) => -a.rank + b.rank);
 
-const heroText = "Here are some of the awards I've gained over the years."
+const heroText = portfolioData.awards.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar transition:persist label="Portfolio"/>
-    <Hero label="AWARDS" text={heroText}/>
+    <NavBar client:load transition:persist/>
+    <Hero label="AWARDS" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 relative p-2 max-w-6xl mx-auto">
-      {awards.map(award => <AwardPreview award={award}/>)}
+      {awards.map(award => <AwardPreview client:visible award={award}/>)}
     </section>
     <Footer color="ew"/>
   </div>
