@@ -1,7 +1,6 @@
 {
   "scdf-data-analytics": {
     "title": "Data Analytics",
-    "rank": 3,
     "organisation": "Singapore Civil Defence Force",
     "duration": "Feb 2019 - Jan 2021",
     "overview": "Leveraged an emergency vehicle placement machine learning application to recommend effective placement of 8 fire bases and 35 ambulances over a 13-year period. Led a cross-functional team of 4 in utilising Tableau and TensorFlow to uncover trends in false fire alarm reports. Devised a recommendation engine detecting 43 anomalies in call centre system triaging processes. Executed exploratory data analysis for 12 projects across 6 departments, enabling data-driven decision-making to improve operational efficiency.",
@@ -16,7 +15,6 @@
   },
   "mom-data-management": {
     "title": "Data Management",
-    "rank": 2,
     "organisation": "Ministry of Manpower",
     "duration": "Feb 2021 - Jul 2021",
     "overview": "Developed data architecture models, PostgreSQL data pipelines and Power BI dashboards to enable manpower analysis. Published an organisation-wide SharePoint portal to effectively communicate data governance policies.",
@@ -30,7 +28,6 @@
   },
   "qi-software-engineering": {
     "title": "Software Engineering Intern",
-    "rank": 2,
     "organisation": "Quantum Inventions",
     "duration": "May 2023 - Aug 2023",
     "overview": "Designed and built a web application using React and Ruby on Rails to feature company optimisation models, using Postman and Selenium to create comprehensive test suites. Created and deployed a tailored map solution with OpenLayers and React to effectively communicate model outputs, enhancing the interactive experience for potential clients.",
@@ -44,7 +41,6 @@
   },
   "vrmc-robotics": {
     "title": "Programming Head",
-    "rank": 1,
     "organisation": "Victoria Robotics-Makers Club",
     "duration": "Jun 2017 - May 2018",
     "overview": "Organised and conducted training sessions on programming in Python and C, preparing club members to participate in various robotics and programming competitions. Played a pivotal role in planning and executing an annual club orientation camp, showcasing quick-thinking skills by improvising and implementing backup activities.",
