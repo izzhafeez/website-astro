@@ -1,4 +1,8 @@
 {
+  "背の子": {
+    "title": "背の子",
+    "artist": "Izz Hafeez"
+  },
   "alone-part-ii": {
     "title": "Alone Part II",
     "artist": "Alan Walker",
@@ -13,7 +17,7 @@
     "link": "https://www.youtube.com/watch?v=uJFLbX_tDOE"
   },
   "eight": {
-    "title": "eight \u110b\u1166\u110b\u1175\u11ba",
+    "title": "eight 에잇",
     "artist": "IU",
     "link": "https://www.youtube.com/watch?v=gn7FoUIMuxA"
   },
@@ -39,7 +43,7 @@
     "link": "https://www.youtube.com/watch?v=W_atD66m7FY"
   },
   "50-meme-mashup": {
-    "artist": "Singapore",
+    "artist": "Izz Hafeez",
     "link": "https://www.youtube.com/watch?v=5vf2LWzwAUY"
   },
   "ndp-piano-medley": {
@@ -65,13 +69,11 @@
   "speechless": {
     "title": "Speechless",
     "artist": "Alan Menken / Naomi Scott",
-    "imgPath": "naomi-scott.jpeg",
     "link": "https://www.youtube.com/watch?v=r7WJBaBQYrQ"
   },
   "stronger-together": {
     "title": "Stronger Together",
     "artist": "NDP 2022",
-    "imgPath": "singapore.svg",
     "link": "https://www.youtube.com/watch?v=r62CPbFxPHc"
   },
   "the-last-time": {
