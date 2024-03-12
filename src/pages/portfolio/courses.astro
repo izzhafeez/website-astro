@@ -6,6 +6,7 @@ import courseData from '../../data/portfolio/courses.json';
 import { capitalise, toName } from '../../utils/string';
 import CoursePreview from '../../components/portfolio/CoursePreview.astro';
 import Footer from '../../components/common/Footer.astro';
+import portfolioData from '../../data/portfolio/portfolio.json';
 
 interface CourseData {
   title?: string,
@@ -50,14 +51,14 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
   }
 }).sort((a,b) => -a.rank + b.rank);
 
-const heroText = "Here are some of the courses I've taken in NUS and beyond."
+const heroText = portfolioData.courses.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar transition:persist label="Portfolio"/>
-    <Hero label="COURSES" text={heroText}/>
+    <NavBar client:load transition:persist/>
+    <Hero label="COURSES" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative p-2 max-w-6xl mx-auto">
-      {courses.map(course => <CoursePreview course={course}/>)}
+      {courses.map(course => <CoursePreview client:visible course={course}/>)}
     </section>
     <Footer color="ew"/>
   </div>
