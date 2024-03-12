@@ -1,9 +1,8 @@
 ---
 const { skill } = Astro.props;
-const starString = '★'.repeat(skill.level) + '☆'.repeat(5-skill.level);
 const imgPath = `/img/portfolio/skills/${skill.key}.svg`;
 ---
 <div id={skill.key} class='grid gap-3 justify-items-center text-center'>
   <img class="h-20 aspect-square object-cover bg-white rounded-xl p-2" src={imgPath}/>
-  <h2 class="text-ew-500 dark:text-ew-300 text-lg font-medium">{skill.title}</h2>
+  <h2 transition:name={skill.key} class="text-ew-500 dark:text-ew-300 text-lg font-medium">{skill.title}</h2>
 </div>
