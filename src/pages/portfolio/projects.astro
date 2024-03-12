@@ -1,0 +1,47 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Hero from '../../components/common/Hero.astro';
+import projectsData from '../../data/portfolio/projects.json';
+import ProjectPreview from '../../components/portfolio/ProjectPreview.astro';
+import Footer from '../../components/common/Footer.astro';
+import { toName } from '../../utils/string';
+import portfolioData from '../../data/portfolio/portfolio.json';
+
+interface ProjectData {
+  title?: string,
+  repo?: string,
+  overview?: string,
+  related?: string[],
+  imgPath?: string,
+  link?: string,
+  rank?: number
+}
+
+type ProjectJson = {[key: string]: ProjectData };
+
+const projects = Object.entries(projectsData as ProjectJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    repo: value.repo,
+    link: value.link,
+    overview: value.overview,
+    imgPath: value.imgPath,
+    rank: value.rank ?? 0,
+    related: value.related ?? []
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = portfolioData.projects.heroText;
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar client:load transition:persist/>
+    <Hero label="PROJECTS" text={heroText} site="portfolio"/>
+    <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto">
+      {projects.map(project => <ProjectPreview client:visible project={project}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>
