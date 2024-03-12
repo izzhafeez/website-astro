@@ -1,0 +1,39 @@
+---
+import MusicPreview from '../../components/portfolio/MusicPreview.astro';
+import musicData from '../../data/portfolio/music.json';
+import { toName } from '../../utils/string';
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Hero from '../../components/common/Hero.astro';
+import Footer from '../../components/common/Footer.astro';
+import portfolioData from '../../data/portfolio/portfolio.json';
+
+interface MusicData {
+  title?: string,
+  artist?: string,
+  link?: string
+}
+
+type MusicJson = {[k: string]: MusicData};
+
+const music = Object.entries(musicData as MusicJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    artist: value.artist,
+    link: value.link
+  }
+})
+
+const heroText = portfolioData.music.heroText;
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar client:load transition:persist/>
+    <Hero label="MUSIC" text={heroText} site="portfolio"/>
+    <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto">
+      {music.map(m => <MusicPreview client:visible music={m}/>)}
+    </section>
+    <Footer color="ew"/>
+  </div>
+</Layout>
