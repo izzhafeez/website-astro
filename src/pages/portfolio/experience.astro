@@ -33,10 +33,10 @@ const heroText = "Here are some of the invaluable experiences I've gained throug
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar transition:persist label="Portfolio"/>
-    <Hero label="EXPERIENCE" text={heroText}/>
+    <NavBar client:load transition:persist/>
+    <Hero label="EXPERIENCE" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto">
-      {experiences.map(experience => <ExperiencePreview experience={experience}/>)}
+      {experiences.map(experience => <ExperiencePreview client:visible experience={experience}/>)}
     </section>
     <Footer color="ew"/>
   </div>
