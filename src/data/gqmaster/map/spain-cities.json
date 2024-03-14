@@ -1,0 +1,3014 @@
+{
+  "Madrid (Spain) [1M]": [
+    -3.7033,
+    40.4169
+  ],
+  "Barcelona (Spain) [1M]": [
+    2.1769,
+    41.3825
+  ],
+  "Sevilla (Spain) [1M]": [
+    -5.99,
+    37.24
+  ],
+  "Malaga (Spain) [100K]": [
+    -4.42,
+    36.7194
+  ],
+  "Valencia (Spain) [100K]": [
+    -0.3764,
+    39.47
+  ],
+  "Bilbao (Spain) [100K]": [
+    -2.9236,
+    43.2569
+  ],
+  "Zaragoza (Spain) [100K]": [
+    -0.8833,
+    41.65
+  ],
+  "Murcia (Spain) [100K]": [
+    -1.1303,
+    37.9861
+  ],
+  "Palma (Spain) [100K]": [
+    2.65,
+    39.5667
+  ],
+  "Las Palmas (Spain) [100K]": [
+    -15.4314,
+    28.1272
+  ],
+  "Alicante (Spain) [100K]": [
+    -0.4831,
+    38.3453
+  ],
+  "Cordoba (Spain) [100K]": [
+    -4.7796,
+    37.8845
+  ],
+  "Valladolid (Spain) [100K]": [
+    -4.7236,
+    41.6528
+  ],
+  "Vigo (Spain) [100K]": [
+    -8.7124,
+    42.2314
+  ],
+  "Gijon (Spain) [100K]": [
+    -5.7,
+    43.5333
+  ],
+  "Vitoria-Gasteiz (Spain) [100K]": [
+    -2.6833,
+    42.85
+  ],
+  "A Coruna (Spain) [100K]": [
+    -8.3833,
+    43.3667
+  ],
+  "Elche (Spain) [100K]": [
+    -0.6983,
+    38.2669
+  ],
+  "Granada (Spain) [100K]": [
+    -3.6008,
+    37.1781
+  ],
+  "Badalona (Spain) [100K]": [
+    2.2333,
+    41.4333
+  ],
+  "Tarrasa (Spain) [100K]": [
+    2.0081,
+    41.5611
+  ],
+  "Sabadell (Spain) [100K]": [
+    2.1075,
+    41.5483
+  ],
+  "Petrel (Spain) [100K]": [
+    -0.7967,
+    38.4789
+  ],
+  "Oviedo (Spain) [100K]": [
+    -5.845,
+    43.36
+  ],
+  "Cartagena (Spain) [100K]": [
+    -0.9819,
+    37.6
+  ],
+  "Mostoles (Spain) [100K]": [
+    -3.8667,
+    40.3333
+  ],
+  "Jerez de la Frontera (Spain) [100K]": [
+    -6.1378,
+    36.6817
+  ],
+  "Pamplona (Spain) [100K]": [
+    -1.65,
+    42.8167
+  ],
+  "Santa Cruz (Spain) [100K]": [
+    -16.25,
+    28.4667
+  ],
+  "Almeria (Spain) [100K]": [
+    -2.4681,
+    36.8403
+  ],
+  "Alcala de Henares (Spain) [100K]": [
+    -3.3643,
+    40.4818
+  ],
+  "Fuenlabrada (Spain) [100K]": [
+    -3.8,
+    40.2833
+  ],
+  "Leganes (Spain) [100K]": [
+    -3.7644,
+    40.3281
+  ],
+  "Donostia (Spain) [100K]": [
+    -1.98,
+    43.32
+  ],
+  "Getafe (Spain) [100K]": [
+    -3.7311,
+    40.3047
+  ],
+  "Santander (Spain) [100K]": [
+    -3.805,
+    43.4628
+  ],
+  "Burgos (Spain) [100K]": [
+    -3.6997,
+    42.3408
+  ],
+  "Alcorcon (Spain) [100K]": [
+    -3.8333,
+    40.35
+  ],
+  "Castellon de la Plana (Spain) [100K]": [
+    -0.0331,
+    39.9831
+  ],
+  "Albacete (Spain) [100K]": [
+    -1.8558,
+    38.9956
+  ],
+  "Guadalajara (Spain) [100K]": [
+    -3.1674,
+    40.6337
+  ],
+  "La Laguna (Spain) [100K]": [
+    -16.3167,
+    28.4853
+  ],
+  "Logrono (Spain) [100K]": [
+    -2.4456,
+    42.465
+  ],
+  "Marbella (Spain) [100K]": [
+    -4.8833,
+    36.5167
+  ],
+  "Badajoz (Spain) [100K]": [
+    -6.9753,
+    38.8803
+  ],
+  "Salamanca (Spain) [100K]": [
+    -5.6642,
+    40.965
+  ],
+  "Huelva (Spain) [100K]": [
+    -6.95,
+    37.25
+  ],
+  "Lleida (Spain) [100K]": [
+    0.6333,
+    41.6167
+  ],
+  "Dos Hermanas (Spain) [100K]": [
+    -5.9222,
+    37.2836
+  ],
+  "Tarragona (Spain) [100K]": [
+    1.2453,
+    41.1187
+  ],
+  "Parla (Spain) [100K]": [
+    -3.7742,
+    40.2372
+  ],
+  "Torrejon de Ardoz (Spain) [100K]": [
+    -3.4978,
+    40.4614
+  ],
+  "Mataro (Spain) [100K]": [
+    2.45,
+    41.5333
+  ],
+  "Leon (Spain) [100K]": [
+    -5.57,
+    42.6056
+  ],
+  "Algeciras (Spain) [100K]": [
+    -5.4539,
+    36.1275
+  ],
+  "Cadiz (Spain) [100K]": [
+    -6.2975,
+    36.535
+  ],
+  "Alcobendas (Spain) [100K]": [
+    -3.6333,
+    40.5333
+  ],
+  "Jaen (Spain) [100K]": [
+    -3.7711,
+    37.7667
+  ],
+  "Reus (Spain) [100K]": [
+    1.1087,
+    41.1549
+  ],
+  "Ourense (Spain) [100K]": [
+    -7.8633,
+    42.3364
+  ],
+  "Girona (Spain) [100K]": [
+    2.8167,
+    41.9833
+  ],
+  "Roquetas de Mar (Spain) [100K]": [
+    -2.6147,
+    36.7642
+  ],
+  "San Vicente de Baracaldo (Spain) [100K]": [
+    -2.9917,
+    43.2972
+  ],
+  "Telde (Spain) [100K]": [
+    -15.4167,
+    27.9985
+  ],
+  "Santiago de Compostela (Spain) [10K]": [
+    -8.5444,
+    42.8778
+  ],
+  "San Fernando (Spain) [10K]": [
+    -6.2,
+    36.4667
+  ],
+  "Ciudad de Melilla (Spain) [10K]": [
+    -2.9475,
+    35.2825
+  ],
+  "Fuengirola (Spain) [10K]": [
+    -4.625,
+    36.5417
+  ],
+  "Ciudad de Ceuta (Spain) [10K]": [
+    -5.3,
+    35.8867
+  ],
+  "San Baudilio de Llobregat (Spain) [10K]": [
+    2.0417,
+    41.3458
+  ],
+  "Toledo (Spain) [10K]": [
+    -4.0244,
+    39.8567
+  ],
+  "Rubi (Spain) [10K]": [
+    2.0325,
+    41.4933
+  ],
+  "Aviles (Spain) [10K]": [
+    -5.9083,
+    43.5561
+  ],
+  "Benalmadena (Spain) [10K]": [
+    -4.5167,
+    36.6
+  ],
+  "Castelldefels (Spain) [10K]": [
+    1.9767,
+    41.28
+  ],
+  "Torremolinos (Spain) [10K]": [
+    -4.5003,
+    36.6218
+  ],
+  "Villanueva y Geltru (Spain) [10K]": [
+    1.7259,
+    41.2243
+  ],
+  "Viladecans (Spain) [10K]": [
+    2.0194,
+    41.3158
+  ],
+  "El Prat de Llobregat (Spain) [10K]": [
+    2.0953,
+    41.3246
+  ],
+  "Arrecife (Spain) [10K]": [
+    -13.5506,
+    28.9625
+  ],
+  "Collado-Villalba (Spain) [10K]": [
+    -4.0083,
+    40.6333
+  ],
+  "Granollers (Spain) [10K]": [
+    2.2889,
+    41.6083
+  ],
+  "La Linea de la Concepcion (Spain) [10K]": [
+    -5.3486,
+    36.1611
+  ],
+  "Portugalete (Spain) [10K]": [
+    -3.0194,
+    43.3194
+  ],
+  "Mislata (Spain) [10K]": [
+    -0.4156,
+    39.475
+  ],
+  "Merida (Spain) [10K]": [
+    -6.3333,
+    38.9
+  ],
+  "Esplugas de Llobregat (Spain) [10K]": [
+    2.0858,
+    41.3767
+  ],
+  "Mollet (Spain) [10K]": [
+    2.2107,
+    41.5356
+  ],
+  "Ibiza (Spain) [10K]": [
+    1.4328,
+    38.9089
+  ],
+  "Santurce-Antiguo (Spain) [10K]": [
+    -3.0314,
+    43.3303
+  ],
+  "Mairena del Aljarafe (Spain) [10K]": [
+    -6.0667,
+    37.3333
+  ],
+  "Figueras (Spain) [10K]": [
+    2.965,
+    42.2667
+  ],
+  "San Feliu de Llobregat (Spain) [10K]": [
+    2.0439,
+    41.3833
+  ],
+  "Ripollet (Spain) [10K]": [
+    2.1574,
+    41.4969
+  ],
+  "San Adrian de Besos (Spain) [10K]": [
+    2.2183,
+    41.4305
+  ],
+  "Igualada (Spain) [10K]": [
+    1.6208,
+    41.5814
+  ],
+  "Alcantarilla (Spain) [10K]": [
+    -1.2094,
+    37.9722
+  ],
+  "Blanes (Spain) [10K]": [
+    2.7921,
+    41.674
+  ],
+  "Villafranca del Panades (Spain) [10K]": [
+    1.6994,
+    41.3447
+  ],
+  "Burjasot (Spain) [10K]": [
+    -0.4067,
+    39.5064
+  ],
+  "San Juan Despi (Spain) [10K]": [
+    2.057,
+    41.3668
+  ],
+  "Premia de Mar (Spain) [10K]": [
+    2.362,
+    41.492
+  ],
+  "Salt (Spain) [10K]": [
+    2.7881,
+    41.9761
+  ],
+  "Alacuas (Spain) [10K]": [
+    -0.4628,
+    39.4583
+  ],
+  "Sestao (Spain) [10K]": [
+    -3.0056,
+    43.3108
+  ],
+  "Aldaya (Spain) [10K]": [
+    -0.4628,
+    39.4639
+  ],
+  "Paiporta (Spain) [10K]": [
+    -0.4183,
+    39.4278
+  ],
+  "Baranain (Spain) [10K]": [
+    -1.6667,
+    42.8
+  ],
+  "Durango (Spain) [10K]": [
+    -2.63,
+    43.1689
+  ],
+  "San Andres de la Barca (Spain) [10K]": [
+    1.9769,
+    41.4478
+  ],
+  "Benetuser (Spain) [10K]": [
+    -0.3961,
+    39.425
+  ],
+  "San Vicente dels Horts (Spain) [10K]": [
+    2.0097,
+    41.3932
+  ],
+  "Martorell (Spain) [10K]": [
+    1.9305,
+    41.4744
+  ],
+  "Catarroja (Spain) [10K]": [
+    -0.4044,
+    39.4028
+  ],
+  "Tomares (Spain) [10K]": [
+    -6.0458,
+    37.3764
+  ],
+  "Armilla (Spain) [10K]": [
+    -3.6167,
+    37.15
+  ],
+  "Camas (Spain) [10K]": [
+    -6.0332,
+    37.402
+  ],
+  "Alboraya (Spain) [10K]": [
+    -0.3522,
+    39.5
+  ],
+  "San Juan de Aznalfarache (Spain) [10K]": [
+    -6.0167,
+    37.3667
+  ],
+  "San Juan de Alicante (Spain) [10K]": [
+    -0.4367,
+    38.4014
+  ],
+  "Maracena (Spain) [10K]": [
+    -3.6333,
+    37.2
+  ],
+  "San Juan de Vilasar (Spain) [10K]": [
+    2.3928,
+    41.5053
+  ],
+  "Castilleja de la Cuesta (Spain) [10K]": [
+    -6.05,
+    37.3833
+  ],
+  "Alfafar (Spain) [10K]": [
+    -0.3906,
+    39.4222
+  ],
+  "Sant Just Desvern (Spain) [10K]": [
+    2.075,
+    41.3833
+  ],
+  "Calella (Spain) [10K]": [
+    2.6642,
+    41.6169
+  ],
+  "Malgrat de Mar (Spain) [10K]": [
+    2.7428,
+    41.6456
+  ],
+  "El Astillero (Spain) [10K]": [
+    -3.8194,
+    43.4017
+  ],
+  "Canovellas (Spain) [10K]": [
+    2.2814,
+    41.6176
+  ],
+  "Albal (Spain) [10K]": [
+    -0.4156,
+    39.3972
+  ],
+  "Masamagrell (Spain) [10K]": [
+    -0.33,
+    39.5703
+  ],
+  "Arenys de Mar (Spain) [10K]": [
+    2.5503,
+    41.5819
+  ],
+  "Ermua (Spain) [10K]": [
+    -2.5008,
+    43.1875
+  ],
+  "Churriana de la Vega (Spain) [10K]": [
+    -3.65,
+    37.15
+  ],
+  "Gines (Spain) [10K]": [
+    -6.0781,
+    37.3875
+  ],
+  "Tabernes Blanques (Spain) [1K]": [
+    -0.3626,
+    39.5064
+  ],
+  "La Llagosta (Spain) [10K]": [
+    2.1928,
+    41.5156
+  ],
+  "Canet de Mar (Spain) [10K]": [
+    2.5828,
+    41.5911
+  ],
+  "Mollerusa (Spain) [10K]": [
+    0.8961,
+    41.6317
+  ],
+  "Ogijares (Spain) [10K]": [
+    -3.6,
+    37.1167
+  ],
+  "Mongat (Spain) [10K]": [
+    2.279,
+    41.4667
+  ],
+  "Sedavi (Spain) [10K]": [
+    -0.3849,
+    39.4271
+  ],
+  "Huetor Vega (Spain) [10K]": [
+    -3.5667,
+    37.15
+  ],
+  "Berriozar (Spain) [10K]": [
+    -1.6714,
+    42.8361
+  ],
+  "Meliana (Spain) [10K]": [
+    -0.3492,
+    39.5272
+  ],
+  "Montmelo (Spain) [1K]": [
+    2.25,
+    41.5547
+  ],
+  "Reinosa (Spain) [1K]": [
+    -4.1378,
+    43.0019
+  ],
+  "Lugo (Spain) [10K]": [
+    -7.55,
+    43.0167
+  ],
+  "San Cugat del Valles (Spain) [10K]": [
+    2.0852,
+    41.4735
+  ],
+  "Las Rozas de Madrid (Spain) [10K]": [
+    -3.8733,
+    40.4917
+  ],
+  "Lorca (Spain) [10K]": [
+    -1.6944,
+    37.6798
+  ],
+  "Caceres (Spain) [10K]": [
+    -6.3667,
+    39.4833
+  ],
+  "San Sebastian de los Reyes (Spain) [10K]": [
+    -3.6258,
+    40.5469
+  ],
+  "Mijas (Spain) [10K]": [
+    -4.6333,
+    36.6
+  ],
+  "El Puerto de Santa Maria (Spain) [10K]": [
+    -6.2167,
+    36.6
+  ],
+  "Chiclana de la Frontera (Spain) [10K]": [
+    -6.15,
+    36.4167
+  ],
+  "El Ejido (Spain) [10K]": [
+    -2.8167,
+    36.7831
+  ],
+  "Torrente (Spain) [10K]": [
+    -0.4679,
+    39.4365
+  ],
+  "Torrevieja (Spain) [10K]": [
+    -0.6833,
+    37.9778
+  ],
+  "Velez-Malaga (Spain) [10K]": [
+    -4.1,
+    36.7833
+  ],
+  "Talavera de la Reina (Spain) [10K]": [
+    -4.8328,
+    39.9583
+  ],
+  "Arona (Spain) [10K]": [
+    -16.6809,
+    28.0996
+  ],
+  "Pontevedra (Spain) [10K]": [
+    -8.6333,
+    42.4333
+  ],
+  "Orihuela (Spain) [10K]": [
+    -0.9469,
+    38.0856
+  ],
+  "Valdemoro (Spain) [10K]": [
+    -3.6742,
+    40.1908
+  ],
+  "Manresa (Spain) [10K]": [
+    1.8292,
+    41.7264
+  ],
+  "Palencia (Spain) [10K]": [
+    -4.5333,
+    42.0167
+  ],
+  "Gandia (Spain) [10K]": [
+    -0.1833,
+    38.9667
+  ],
+  "Alcala de Guadaira (Spain) [10K]": [
+    -5.85,
+    37.3333
+  ],
+  "Ciudad Real (Spain) [10K]": [
+    -3.9167,
+    38.9833
+  ],
+  "Molina de Segura (Spain) [10K]": [
+    -1.2131,
+    38.0548
+  ],
+  "Estepona (Spain) [10K]": [
+    -5.1472,
+    36.4264
+  ],
+  "Majadahonda (Spain) [10K]": [
+    -3.8722,
+    40.4728
+  ],
+  "Paterna (Spain) [10K]": [
+    -0.4406,
+    39.5028
+  ],
+  "Benidorm (Spain) [10K]": [
+    -0.1314,
+    38.5342
+  ],
+  "Sanlucar de Barrameda (Spain) [10K]": [
+    -6.35,
+    36.7667
+  ],
+  "Sagunto (Spain) [10K]": [
+    -0.2733,
+    39.6764
+  ],
+  "Ferrol (Spain) [10K]": [
+    -8.2328,
+    43.4844
+  ],
+  "Irun (Spain) [10K]": [
+    -1.7888,
+    43.3378
+  ],
+  "Ponferrada (Spain) [10K]": [
+    -6.5908,
+    42.5461
+  ],
+  "Boadilla del Monte (Spain) [10K]": [
+    -3.875,
+    40.4069
+  ],
+  "Zamora (Spain) [10K]": [
+    -5.7556,
+    41.5033
+  ],
+  "San Vicente del Raspeig (Spain) [10K]": [
+    -0.5253,
+    38.3964
+  ],
+  "Aranjuez (Spain) [10K]": [
+    -3.6028,
+    40.0333
+  ],
+  "Alcoy (Spain) [10K]": [
+    -0.4736,
+    38.6983
+  ],
+  "Motril (Spain) [10K]": [
+    -3.5167,
+    36.75
+  ],
+  "Avila (Spain) [10K]": [
+    -4.6833,
+    40.65
+  ],
+  "Linares (Spain) [10K]": [
+    -3.6333,
+    38.0833
+  ],
+  "Pinto (Spain) [10K]": [
+    -3.7,
+    40.25
+  ],
+  "Cuenca (Spain) [10K]": [
+    -2.15,
+    40.0667
+  ],
+  "Huesca (Spain) [10K]": [
+    -0.4167,
+    42.1333
+  ],
+  "Elda (Spain) [10K]": [
+    -0.7967,
+    38.4789
+  ],
+  "Colmenar Viejo (Spain) [10K]": [
+    -3.7658,
+    40.6589
+  ],
+  "San Bartolome (Spain) [10K]": [
+    -15.5726,
+    27.9254
+  ],
+  "Granadilla de Abona (Spain) [10K]": [
+    -16.5833,
+    28.1167
+  ],
+  "Torrelavega (Spain) [10K]": [
+    -4.0458,
+    43.3531
+  ],
+  "Rincon de la Victoria (Spain) [10K]": [
+    -4.2833,
+    36.7167
+  ],
+  "Villareal (Spain) [10K]": [
+    -0.1014,
+    39.9378
+  ],
+  "Pola de Siero (Spain) [10K]": [
+    -5.65,
+    43.3833
+  ],
+  "Calvia (Spain) [10K]": [
+    2.5056,
+    39.5656
+  ],
+  "Utrera (Spain) [10K]": [
+    -5.767,
+    37.183
+  ],
+  "Segovia (Spain) [10K]": [
+    -4.1183,
+    40.9481
+  ],
+  "Adeje (Spain) [10K]": [
+    -16.7167,
+    28.1167
+  ],
+  "Vich (Spain) [10K]": [
+    2.2546,
+    41.9304
+  ],
+  "Gava (Spain) [10K]": [
+    2.0039,
+    41.3072
+  ],
+  "Puertollano (Spain) [10K]": [
+    -4.1167,
+    38.6833
+  ],
+  "Alcira (Spain) [10K]": [
+    -0.435,
+    39.15
+  ],
+  "Manacor (Spain) [10K]": [
+    3.2089,
+    39.57
+  ],
+  "Denia (Spain) [10K]": [
+    0.1111,
+    38.8444
+  ],
+  "Alhaurin de la Torre (Spain) [10K]": [
+    -4.55,
+    36.6667
+  ],
+  "Lucena (Spain) [10K]": [
+    -4.4833,
+    37.4
+  ],
+  "La Orotava (Spain) [10K]": [
+    -16.5167,
+    28.3667
+  ],
+  "Puerto Real (Spain) [10K]": [
+    -6.1919,
+    36.5292
+  ],
+  "Puerto del Rosario (Spain) [10K]": [
+    -13.8667,
+    28.5
+  ],
+  "Antequera (Spain) [10K]": [
+    -4.5597,
+    37.0183
+  ],
+  "Santa Eulalia del Rio (Spain) [10K]": [
+    1.5336,
+    38.9847
+  ],
+  "San Fernando de Henares (Spain) [10K]": [
+    -3.5353,
+    40.4256
+  ],
+  "Vendrell (Spain) [10K]": [
+    1.5348,
+    41.2201
+  ],
+  "Ecija (Spain) [10K]": [
+    -5.0833,
+    37.5333
+  ],
+  "Soria (Spain) [10K]": [
+    -2.4667,
+    41.7667
+  ],
+  "La Rinconada (Spain) [10K]": [
+    -5.9667,
+    37.4833
+  ],
+  "Lloret de Mar (Spain) [10K]": [
+    2.8333,
+    41.7
+  ],
+  "Plasencia (Spain) [10K]": [
+    -6.0908,
+    40.0275
+  ],
+  "Arucas (Spain) [10K]": [
+    -15.5232,
+    28.1184
+  ],
+  "Marratxi (Spain) [10K]": [
+    2.7527,
+    39.6421
+  ],
+  "Naron (Spain) [10K]": [
+    -8.15,
+    43.55
+  ],
+  "Sama (Spain) [10K]": [
+    -5.6833,
+    43.3
+  ],
+  "Los Palacios y Villafranca (Spain) [10K]": [
+    -5.9242,
+    37.1625
+  ],
+  "Lluchmayor (Spain) [10K]": [
+    2.8898,
+    39.49
+  ],
+  "Villagarcia de Arosa (Spain) [10K]": [
+    -8.7632,
+    42.5977
+  ],
+  "Moncada (Spain) [10K]": [
+    -0.3956,
+    39.5456
+  ],
+  "Torre-Pacheco (Spain) [10K]": [
+    -0.95,
+    37.7333
+  ],
+  "Oleiros (Spain) [10K]": [
+    -8.3166,
+    43.3333
+  ],
+  "Olot (Spain) [10K]": [
+    2.489,
+    42.1822
+  ],
+  "Tudela (Spain) [10K]": [
+    -1.6067,
+    42.0653
+  ],
+  "Don Benito (Spain) [10K]": [
+    -5.8617,
+    38.9545
+  ],
+  "Mieres (Spain) [10K]": [
+    -5.7767,
+    43.2508
+  ],
+  "Azuqueca de Henares (Spain) [10K]": [
+    -3.2681,
+    40.5647
+  ],
+  "Santa Pola (Spain) [10K]": [
+    -0.5556,
+    38.1897
+  ],
+  "Cambrils (Spain) [10K]": [
+    1.0564,
+    41.067
+  ],
+  "Aguilas (Spain) [10K]": [
+    -1.5819,
+    37.4042
+  ],
+  "Villajoyosa (Spain) [10K]": [
+    -0.2328,
+    38.5053
+  ],
+  "Arroyomolinos (Spain) [10K]": [
+    -3.9,
+    40.2667
+  ],
+  "Andujar (Spain) [10K]": [
+    -4.0506,
+    38.0392
+  ],
+  "Onteniente (Spain) [10K]": [
+    -0.6072,
+    38.8222
+  ],
+  "Tomelloso (Spain) [10K]": [
+    -3.0208,
+    39.1578
+  ],
+  "Miranda de Ebro (Spain) [10K]": [
+    -2.9333,
+    42.6833
+  ],
+  "Teruel (Spain) [10K]": [
+    -1.1065,
+    40.3456
+  ],
+  "Burriana (Spain) [10K]": [
+    -0.0925,
+    39.8894
+  ],
+  "Cieza (Spain) [10K]": [
+    -1.4189,
+    38.2392
+  ],
+  "Galapagar (Spain) [10K]": [
+    -4.0019,
+    40.5764
+  ],
+  "Yecla (Spain) [10K]": [
+    -1.1167,
+    38.6167
+  ],
+  "San Javier (Spain) [10K]": [
+    -0.8343,
+    37.8037
+  ],
+  "Inca (Spain) [10K]": [
+    2.9167,
+    39.7167
+  ],
+  "Ubeda (Spain) [10K]": [
+    -3.3717,
+    38.0117
+  ],
+  "Villena (Spain) [10K]": [
+    -0.8658,
+    38.635
+  ],
+  "Tortosa (Spain) [10K]": [
+    0.5211,
+    40.8125
+  ],
+  "Almendralejo (Spain) [10K]": [
+    -6.4167,
+    38.6833
+  ],
+  "Mazarron (Spain) [10K]": [
+    -1.3139,
+    37.5983
+  ],
+  "Ronda (Spain) [10K]": [
+    -5.1647,
+    36.7372
+  ],
+  "Castro-Urdiales (Spain) [10K]": [
+    -3.215,
+    43.3844
+  ],
+  "Aranda de Duero (Spain) [10K]": [
+    -3.6833,
+    41.6833
+  ],
+  "Arteijo (Spain) [10K]": [
+    -8.5114,
+    43.3044
+  ],
+  "San Roque (Spain) [10K]": [
+    -5.3844,
+    36.2097
+  ],
+  "Manises (Spain) [10K]": [
+    -0.45,
+    39.4833
+  ],
+  "Ingenio (Spain) [10K]": [
+    -15.4324,
+    27.9214
+  ],
+  "Ames (Spain) [10K]": [
+    -8.6333,
+    42.9
+  ],
+  "San Pedro de Ribas (Spain) [10K]": [
+    1.773,
+    41.2592
+  ],
+  "Totana (Spain) [10K]": [
+    -1.5003,
+    37.7711
+  ],
+  "Sitges (Spain) [10K]": [
+    1.8042,
+    41.2339
+  ],
+  "Nijar (Spain) [10K]": [
+    -2.2,
+    36.9667
+  ],
+  "Navalcarnero (Spain) [10K]": [
+    -4.0136,
+    40.2847
+  ],
+  "Carballo (Spain) [10K]": [
+    -8.6833,
+    43.2167
+  ],
+  "Culleredo (Spain) [10K]": [
+    -8.3894,
+    43.2883
+  ],
+  "Coria del Rio (Spain) [10K]": [
+    -6.05,
+    37.2833
+  ],
+  "Illescas (Spain) [10K]": [
+    -3.8333,
+    40.1167
+  ],
+  "Arcos de la Frontera (Spain) [10K]": [
+    -5.8,
+    36.75
+  ],
+  "Salou (Spain) [10K]": [
+    1.1316,
+    41.0796
+  ],
+  "San Andres del Rabanedo (Spain) [10K]": [
+    -5.6,
+    42.6167
+  ],
+  "Alcazar de San Juan (Spain) [10K]": [
+    -3.2056,
+    39.4056
+  ],
+  "Puerto de la Cruz (Spain) [10K]": [
+    -16.55,
+    28.4167
+  ],
+  "Hellin (Spain) [10K]": [
+    -1.6833,
+    38.5167
+  ],
+  "Calafell (Spain) [10K]": [
+    1.5693,
+    41.2004
+  ],
+  "Galdacano (Spain) [10K]": [
+    -2.8458,
+    43.2306
+  ],
+  "Valdepenas (Spain) [10K]": [
+    -3.4,
+    38.7667
+  ],
+  "Crevillente (Spain) [10K]": [
+    -0.8089,
+    38.2486
+  ],
+  "Puente-Genil (Spain) [10K]": [
+    -4.7667,
+    37.3833
+  ],
+  "Rota (Spain) [10K]": [
+    -6.35,
+    36.6167
+  ],
+  "Mahon (Spain) [10K]": [
+    4.2642,
+    39.8894
+  ],
+  "Redondela (Spain) [10K]": [
+    -8.6167,
+    42.2833
+  ],
+  "Vinaroz (Spain) [10K]": [
+    0.4736,
+    40.4686
+  ],
+  "Carmona (Spain) [10K]": [
+    -5.6333,
+    37.4667
+  ],
+  "Candelaria (Spain) [10K]": [
+    -16.371,
+    28.3547
+  ],
+  "Lepe (Spain) [10K]": [
+    -7.2033,
+    37.2542
+  ],
+  "Villaviciosa de Odon (Spain) [10K]": [
+    -3.9033,
+    40.3583
+  ],
+  "Sesena (Spain) [10K]": [
+    -3.6981,
+    40.1036
+  ],
+  "Benicarlo (Spain) [10K]": [
+    0.4167,
+    40.4167
+  ],
+  "Almazora (Spain) [10K]": [
+    -0.0625,
+    39.9403
+  ],
+  "Vicar (Spain) [10K]": [
+    -2.6431,
+    36.8317
+  ],
+  "Sueca (Spain) [10K]": [
+    -0.3112,
+    39.2026
+  ],
+  "San Pedro del Pinatar (Spain) [10K]": [
+    -0.75,
+    37.8167
+  ],
+  "La Oliva (Spain) [10K]": [
+    -13.9333,
+    28.6167
+  ],
+  "Algemesi (Spain) [10K]": [
+    -0.4378,
+    39.1897
+  ],
+  "Cartama (Spain) [10K]": [
+    -4.6306,
+    36.7114
+  ],
+  "Molins de Rey (Spain) [10K]": [
+    2.0158,
+    41.4139
+  ],
+  "Lebrija (Spain) [10K]": [
+    -6.0781,
+    36.9194
+  ],
+  "Santa Perpetua de Moguda (Spain) [10K]": [
+    2.1819,
+    41.5375
+  ],
+  "Moron de la Frontera (Spain) [10K]": [
+    -5.4517,
+    37.1222
+  ],
+  "Cangas (Spain) [10K]": [
+    -8.7819,
+    42.2642
+  ],
+  "Santa Eugenia (Spain) [10K]": [
+    -8.9833,
+    42.5667
+  ],
+  "Almunecar (Spain) [10K]": [
+    -3.6911,
+    36.7339
+  ],
+  "Paracuellos de Jarama (Spain) [10K]": [
+    -3.5167,
+    40.55
+  ],
+  "Alhaurin el Grande (Spain) [10K]": [
+    -4.6831,
+    36.6331
+  ],
+  "Muchamiel (Spain) [10K]": [
+    -0.4456,
+    38.4136
+  ],
+  "Betera (Spain) [10K]": [
+    -0.4625,
+    39.5922
+  ],
+  "Jumilla (Spain) [10K]": [
+    -1.325,
+    38.4792
+  ],
+  "Villanueva de la Serena (Spain) [10K]": [
+    -5.8,
+    38.9667
+  ],
+  "Torrelodones (Spain) [10K]": [
+    -3.9292,
+    40.5756
+  ],
+  "Novelda (Spain) [10K]": [
+    -0.768,
+    38.385
+  ],
+  "Ciempozuelos (Spain) [10K]": [
+    -3.6183,
+    40.1592
+  ],
+  "Erandio (Spain) [10K]": [
+    -2.9731,
+    43.3047
+  ],
+  "Adra (Spain) [10K]": [
+    -3.0161,
+    36.7478
+  ],
+  "Olesa de Montserrat (Spain) [10K]": [
+    1.8944,
+    41.545
+  ],
+  "Oliva (Spain) [10K]": [
+    -0.1211,
+    38.9194
+  ],
+  "Almonte (Spain) [10K]": [
+    -6.5167,
+    37.2667
+  ],
+  "Onda (Spain) [10K]": [
+    -0.2639,
+    39.9625
+  ],
+  "Mejorada del Campo (Spain) [10K]": [
+    -3.3858,
+    40.3967
+  ],
+  "Cambre (Spain) [10K]": [
+    -8.333,
+    43.283
+  ],
+  "Valls (Spain) [10K]": [
+    1.2508,
+    41.2883
+  ],
+  "Calpe (Spain) [10K]": [
+    0.0442,
+    38.645
+  ],
+  "Villarrobledo (Spain) [10K]": [
+    -2.6,
+    39.2667
+  ],
+  "Marin (Spain) [10K]": [
+    -8.7,
+    42.3933
+  ],
+  "Calahorra (Spain) [10K]": [
+    -1.9667,
+    42.3
+  ],
+  "Zarautz (Spain) [10K]": [
+    -2.1667,
+    43.2833
+  ],
+  "Coin (Spain) [10K]": [
+    -4.75,
+    36.6667
+  ],
+  "Almansa (Spain) [10K]": [
+    -1.0979,
+    38.8682
+  ],
+  "Martos (Spain) [10K]": [
+    -3.9667,
+    37.7167
+  ],
+  "Bormujos (Spain) [10K]": [
+    -6.0667,
+    37.3667
+  ],
+  "Mairena del Alcor (Spain) [10K]": [
+    -5.7333,
+    37.3667
+  ],
+  "Los Barrios (Spain) [10K]": [
+    -5.4833,
+    36.1833
+  ],
+  "Liria (Spain) [10K]": [
+    -0.5961,
+    39.6258
+  ],
+  "Ibi (Spain) [10K]": [
+    -0.5753,
+    38.6272
+  ],
+  "Conil de la Frontera (Spain) [10K]": [
+    -6.0833,
+    36.2667
+  ],
+  "Icod de los Vinos (Spain) [10K]": [
+    -16.7,
+    28.35
+  ],
+  "Vilaseca de Solcina (Spain) [10K]": [
+    1.145,
+    41.111
+  ],
+  "Altea (Spain) [10K]": [
+    -0.0519,
+    38.5986
+  ],
+  "San Feliu de Guixols (Spain) [10K]": [
+    3.0306,
+    41.7806
+  ],
+  "Villanueva de la Canada (Spain) [10K]": [
+    -3.9833,
+    40.45
+  ],
+  "Teguise (Spain) [10K]": [
+    -13.5597,
+    29.0611
+  ],
+  "Laguna de Duero (Spain) [10K]": [
+    -4.7167,
+    41.5833
+  ],
+  "Torre del Mar (Spain) [10K]": [
+    -4.1,
+    36.75
+  ],
+  "Cullera (Spain) [10K]": [
+    -0.2517,
+    39.1639
+  ],
+  "Pilar de la Horadada (Spain) [10K]": [
+    -0.7833,
+    37.8667
+  ],
+  "Puenteareas (Spain) [10K]": [
+    -8.5,
+    42.1667
+  ],
+  "Esparraguera (Spain) [10K]": [
+    1.8692,
+    41.5381
+  ],
+  "Barbate de Franco (Spain) [10K]": [
+    -5.9167,
+    36.1833
+  ],
+  "Montilla (Spain) [10K]": [
+    -4.6333,
+    37.5833
+  ],
+  "Alhama de Murcia (Spain) [10K]": [
+    -1.4264,
+    37.8514
+  ],
+  "Moguer (Spain) [10K]": [
+    -6.8386,
+    37.2747
+  ],
+  "Aljaraque (Spain) [10K]": [
+    -7.0167,
+    37.2667
+  ],
+  "Las Torres de Cotillas (Spain) [10K]": [
+    -1.2436,
+    38.0264
+  ],
+  "Priego de Cordoba (Spain) [10K]": [
+    -4.1833,
+    37.4333
+  ],
+  "Palafrugell (Spain) [10K]": [
+    3.1631,
+    41.9174
+  ],
+  "Manlleu (Spain) [10K]": [
+    2.2836,
+    42.0
+  ],
+  "Picasent (Spain) [10K]": [
+    -0.46,
+    39.3611
+  ],
+  "Banolas (Spain) [10K]": [
+    2.7664,
+    42.1194
+  ],
+  "Guia de Isora (Spain) [10K]": [
+    -16.7784,
+    28.211
+  ],
+  "Amposta (Spain) [10K]": [
+    0.5808,
+    40.7106
+  ],
+  "Isla-Cristina (Spain) [10K]": [
+    -7.3214,
+    37.1992
+  ],
+  "Almoradi (Spain) [10K]": [
+    -0.7894,
+    38.1097
+  ],
+  "Ayamonte (Spain) [10K]": [
+    -7.4,
+    37.2
+  ],
+  "Alcala la Real (Spain) [10K]": [
+    -3.9167,
+    37.45
+  ],
+  "Nerja (Spain) [10K]": [
+    -3.879,
+    36.7469
+  ],
+  "Aspe (Spain) [10K]": [
+    -0.7689,
+    38.3456
+  ],
+  "La Union (Spain) [10K]": [
+    -0.8756,
+    37.6192
+  ],
+  "Guimar (Spain) [10K]": [
+    -16.41,
+    28.315
+  ],
+  "Algete (Spain) [10K]": [
+    -3.5003,
+    40.5978
+  ],
+  "Puzol (Spain) [10K]": [
+    -0.3011,
+    39.6167
+  ],
+  "Los Llanos de Aridane (Spain) [10K]": [
+    -17.9,
+    28.65
+  ],
+  "Pajara (Spain) [10K]": [
+    -14.1,
+    28.35
+  ],
+  "Alcudia (Spain) [10K]": [
+    3.1192,
+    39.8525
+  ],
+  "Palma del Rio (Spain) [10K]": [
+    -5.2833,
+    37.7
+  ],
+  "Carcagente (Spain) [10K]": [
+    -0.4489,
+    39.1222
+  ],
+  "Humanes de Madrid (Spain) [10K]": [
+    -3.8278,
+    40.2539
+  ],
+  "Archena (Spain) [10K]": [
+    -1.2992,
+    38.115
+  ],
+  "Hernani (Spain) [10K]": [
+    -1.9667,
+    43.2667
+  ],
+  "Cartaya (Spain) [10K]": [
+    -7.15,
+    37.2833
+  ],
+  "Loja (Spain) [10K]": [
+    -4.15,
+    37.1667
+  ],
+  "Tolosa (Spain) [10K]": [
+    -2.0833,
+    43.1333
+  ],
+  "Baza (Spain) [10K]": [
+    -2.7667,
+    37.4833
+  ],
+  "La Corredoria (Spain) [10K]": [
+    -5.8208,
+    43.3853
+  ],
+  "Medina del Campo (Spain) [10K]": [
+    -4.9167,
+    41.3
+  ],
+  "Torrox (Spain) [10K]": [
+    -3.95,
+    36.75
+  ],
+  "Rosas (Spain) [10K]": [
+    3.175,
+    42.2633
+  ],
+  "Cardedeu (Spain) [10K]": [
+    2.3594,
+    41.6406
+  ],
+  "Cabra (Spain) [10K]": [
+    -4.4333,
+    37.4667
+  ],
+  "Lalin (Spain) [10K]": [
+    -8.1167,
+    42.65
+  ],
+  "Requena (Spain) [10K]": [
+    -1.1017,
+    39.4861
+  ],
+  "El Viso del Alcor (Spain) [10K]": [
+    -5.7167,
+    37.3833
+  ],
+  "Chipiona (Spain) [10K]": [
+    -6.4333,
+    36.7333
+  ],
+  "Huercal-Overa (Spain) [10K]": [
+    -1.9333,
+    37.3833
+  ],
+  "San Martin de la Vega (Spain) [10K]": [
+    -3.5722,
+    40.2094
+  ],
+  "Moana (Spain) [10K]": [
+    -8.75,
+    42.2833
+  ],
+  "Callosa de Segura (Spain) [10K]": [
+    -0.8797,
+    38.1225
+  ],
+  "Silla (Spain) [10K]": [
+    -0.4103,
+    39.3618
+  ],
+  "Benicasim (Spain) [10K]": [
+    0.0642,
+    40.0553
+  ],
+  "Calatayud (Spain) [10K]": [
+    -1.6333,
+    41.35
+  ],
+  "Utebo (Spain) [10K]": [
+    -0.9944,
+    41.7141
+  ],
+  "Amorebieta (Spain) [10K]": [
+    -2.7342,
+    43.2192
+  ],
+  "Atarfe (Spain) [10K]": [
+    -3.6899,
+    37.2229
+  ],
+  "El Arahal (Spain) [10K]": [
+    -5.55,
+    37.2667
+  ],
+  "La Nucia (Spain) [10K]": [
+    -0.1231,
+    38.6172
+  ],
+  "Palamos (Spain) [10K]": [
+    3.1289,
+    41.8458
+  ],
+  "Albolote (Spain) [10K]": [
+    -3.6569,
+    37.2306
+  ],
+  "Marchena (Spain) [10K]": [
+    -5.4167,
+    37.3333
+  ],
+  "Huercal de Almeria (Spain) [10K]": [
+    -2.4333,
+    36.8833
+  ],
+  "Torredembarra (Spain) [10K]": [
+    1.3957,
+    41.1457
+  ],
+  "La Eliana (Spain) [10K]": [
+    -0.5281,
+    39.5661
+  ],
+  "Boiro (Spain) [10K]": [
+    -8.9,
+    42.65
+  ],
+  "Guernica y Luno (Spain) [10K]": [
+    -2.6667,
+    43.3167
+  ],
+  "Villaquilambre (Spain) [10K]": [
+    -5.6,
+    42.6167
+  ],
+  "Baena (Spain) [10K]": [
+    -4.3167,
+    37.6167
+  ],
+  "San Lorenzo de El Escorial (Spain) [10K]": [
+    -4.1428,
+    40.5936
+  ],
+  "Lora del Rio (Spain) [10K]": [
+    -5.5167,
+    37.65
+  ],
+  "Tarifa (Spain) [10K]": [
+    -5.606,
+    36.014
+  ],
+  "Nigran (Spain) [10K]": [
+    -8.8056,
+    42.1419
+  ],
+  "San Celoni (Spain) [10K]": [
+    2.4897,
+    41.6895
+  ],
+  "Guadix (Spain) [10K]": [
+    -3.1333,
+    37.3
+  ],
+  "Vera (Spain) [10K]": [
+    -1.8667,
+    37.25
+  ],
+  "Los Alcazares (Spain) [10K]": [
+    -0.8497,
+    37.7436
+  ],
+  "Felanitx (Spain) [10K]": [
+    3.1481,
+    39.4692
+  ],
+  "Montornes del Valles (Spain) [10K]": [
+    2.267,
+    41.5444
+  ],
+  "Caldas de Montbuy (Spain) [10K]": [
+    2.1675,
+    41.6328
+  ],
+  "Monforte de Lemos (Spain) [10K]": [
+    -7.5161,
+    42.5164
+  ],
+  "Tordera (Spain) [10K]": [
+    2.72,
+    41.7008
+  ],
+  "Sangenjo (Spain) [10K]": [
+    -8.8067,
+    42.4017
+  ],
+  "Villanueva del Pardillo (Spain) [10K]": [
+    -3.9667,
+    40.4833
+  ],
+  "Fuente-Alamo de Murcia (Spain) [10K]": [
+    -1.1881,
+    37.7394
+  ],
+  "Munguia (Spain) [10K]": [
+    -2.8472,
+    43.3547
+  ],
+  "Tarrega (Spain) [10K]": [
+    1.1394,
+    41.6464
+  ],
+  "Benavente (Spain) [10K]": [
+    -5.6742,
+    42.0031
+  ],
+  "Manzanares (Spain) [10K]": [
+    -3.3731,
+    38.9964
+  ],
+  "Daimiel (Spain) [10K]": [
+    -3.6167,
+    39.0833
+  ],
+  "Poyo (Spain) [10K]": [
+    -8.6667,
+    42.4333
+  ],
+  "Balaguer (Spain) [10K]": [
+    0.8056,
+    41.7904
+  ],
+  "Monzon (Spain) [10K]": [
+    0.19,
+    41.91
+  ],
+  "La Garriga (Spain) [10K]": [
+    2.2833,
+    41.6804
+  ],
+  "Manilva (Spain) [10K]": [
+    -5.25,
+    36.3833
+  ],
+  "Bailen (Spain) [10K]": [
+    -3.7667,
+    38.0833
+  ],
+  "Cubellas (Spain) [10K]": [
+    1.6736,
+    41.21
+  ],
+  "Tabernes de Valldigna (Spain) [10K]": [
+    -0.2658,
+    39.0722
+  ],
+  "Rojales (Spain) [10K]": [
+    -0.7236,
+    38.0886
+  ],
+  "Berga (Spain) [10K]": [
+    1.8456,
+    42.1
+  ],
+  "Osuna (Spain) [10K]": [
+    -5.1,
+    37.2333
+  ],
+  "La Algaba (Spain) [10K]": [
+    -6.0,
+    37.45
+  ],
+  "Barbastro (Spain) [10K]": [
+    0.1264,
+    42.0361
+  ],
+  "Bermeo (Spain) [10K]": [
+    -2.7264,
+    43.42
+  ],
+  "Mula (Spain) [10K]": [
+    -1.4906,
+    38.0419
+  ],
+  "Pollensa (Spain) [10K]": [
+    3.0164,
+    39.8772
+  ],
+  "Sada (Spain) [10K]": [
+    -8.25,
+    43.35
+  ],
+  "Guadarrama (Spain) [10K]": [
+    -4.0889,
+    40.6728
+  ],
+  "Pozoblanco (Spain) [10K]": [
+    -4.85,
+    38.3833
+  ],
+  "Ejea de los Caballeros (Spain) [10K]": [
+    -1.1372,
+    42.1292
+  ],
+  "Navalmoral de la Mata (Spain) [10K]": [
+    -5.5403,
+    39.8983
+  ],
+  "Espartinas (Spain) [10K]": [
+    -6.1167,
+    37.3833
+  ],
+  "Piera (Spain) [10K]": [
+    1.7494,
+    41.5222
+  ],
+  "Zafra (Spain) [10K]": [
+    -6.4167,
+    38.4167
+  ],
+  "El Escorial (Spain) [10K]": [
+    -4.1258,
+    40.5817
+  ],
+  "Ubrique (Spain) [10K]": [
+    -5.45,
+    36.6833
+  ],
+  "Lumbreras (Spain) [10K]": [
+    -1.8072,
+    37.5633
+  ],
+  "Punta Umbria (Spain) [10K]": [
+    -6.95,
+    37.1667
+  ],
+  "Guardamar del Segura (Spain) [10K]": [
+    -0.655,
+    38.0897
+  ],
+  "Santomera (Spain) [10K]": [
+    -1.0492,
+    38.0617
+  ],
+  "Las Cabezas de San Juan (Spain) [10K]": [
+    -5.9406,
+    36.9817
+  ],
+  "Sopelana (Spain) [10K]": [
+    -2.9792,
+    43.3814
+  ],
+  "Chiva (Spain) [10K]": [
+    -0.7197,
+    39.4714
+  ],
+  "Villalbilla (Spain) [10K]": [
+    -3.2989,
+    40.4339
+  ],
+  "Vallirana (Spain) [10K]": [
+    1.9321,
+    41.3878
+  ],
+  "Carlet (Spain) [10K]": [
+    -0.5211,
+    39.2264
+  ],
+  "Alpedrete (Spain) [10K]": [
+    -4.0322,
+    40.6583
+  ],
+  "Cunit (Spain) [10K]": [
+    1.6345,
+    41.1976
+  ],
+  "Santa Marta de Tormes (Spain) [10K]": [
+    -5.6325,
+    40.9494
+  ],
+  "Alcaniz (Spain) [10K]": [
+    -0.1336,
+    41.0511
+  ],
+  "Corbera de Llobregat (Spain) [10K]": [
+    1.9314,
+    41.4169
+  ],
+  "Tarancon (Spain) [10K]": [
+    -3.0,
+    40.0167
+  ],
+  "Miguelturra (Spain) [10K]": [
+    -3.95,
+    38.9667
+  ],
+  "Baeza (Spain) [10K]": [
+    -3.4667,
+    37.9833
+  ],
+  "Torello (Spain) [10K]": [
+    2.2629,
+    42.0492
+  ],
+  "Santa Cruz de la Palma (Spain) [10K]": [
+    -17.765,
+    28.6825
+  ],
+  "Santa Ursula (Spain) [10K]": [
+    -16.4917,
+    28.4253
+  ],
+  "Cuarte de Huerva (Spain) [10K]": [
+    -0.9167,
+    41.5833
+  ],
+  "Tuineje (Spain) [10K]": [
+    -14.05,
+    28.3167
+  ],
+  "Montijo (Spain) [10K]": [
+    -6.6175,
+    38.91
+  ],
+  "Meco (Spain) [10K]": [
+    -3.3261,
+    40.5539
+  ],
+  "La Roda (Spain) [10K]": [
+    -2.1604,
+    39.207
+  ],
+  "La Solana (Spain) [10K]": [
+    -3.2394,
+    38.9414
+  ],
+  "Vieiro (Spain) [10K]": [
+    -7.59,
+    43.6481
+  ],
+  "Azpeitia (Spain) [10K]": [
+    -2.2653,
+    43.1819
+  ],
+  "Fraga (Spain) [10K]": [
+    0.35,
+    41.52
+  ],
+  "Arnedo (Spain) [10K]": [
+    -2.1,
+    42.2167
+  ],
+  "Gondomar (Spain) [10K]": [
+    -8.7611,
+    42.1111
+  ],
+  "Andoain (Spain) [10K]": [
+    -2.0167,
+    43.2167
+  ],
+  "La Carolina (Spain) [10K]": [
+    -3.6167,
+    38.2667
+  ],
+  "Villaviciosa (Spain) [10K]": [
+    -5.4333,
+    43.4833
+  ],
+  "Cehegin (Spain) [10K]": [
+    -1.7989,
+    38.0925
+  ],
+  "Cuevas del Almanzora (Spain) [10K]": [
+    -1.8667,
+    37.3
+  ],
+  "Alginet (Spain) [10K]": [
+    -0.4683,
+    39.2625
+  ],
+  "Bollullos par del Condado (Spain) [10K]": [
+    -6.5364,
+    37.3358
+  ],
+  "Godella (Spain) [10K]": [
+    -0.4114,
+    39.52
+  ],
+  "Noya (Spain) [10K]": [
+    -8.8833,
+    42.7833
+  ],
+  "La Carlota (Spain) [10K]": [
+    -4.9333,
+    37.6667
+  ],
+  "Torrijos (Spain) [10K]": [
+    -4.2814,
+    39.9833
+  ],
+  "Beasain (Spain) [10K]": [
+    -2.1894,
+    43.0458
+  ],
+  "Pilas (Spain) [10K]": [
+    -6.2986,
+    37.3017
+  ],
+  "Santa Cruz de Bezana (Spain) [10K]": [
+    -3.9031,
+    43.4442
+  ],
+  "Cambados (Spain) [10K]": [
+    -8.8,
+    42.5
+  ],
+  "Sanlucar la Mayor (Spain) [10K]": [
+    -6.2,
+    37.3831
+  ],
+  "Torre del Campo (Spain) [10K]": [
+    -3.8833,
+    37.7667
+  ],
+  "Villalba (Spain) [10K]": [
+    -7.6833,
+    43.3
+  ],
+  "Vilanova del Cami (Spain) [10K]": [
+    1.6381,
+    41.5733
+  ],
+  "San Agustin de Guadalix (Spain) [10K]": [
+    -3.615,
+    40.6781
+  ],
+  "Moralzarzal (Spain) [10K]": [
+    -3.9694,
+    40.675
+  ],
+  "Llanera (Spain) [10K]": [
+    -5.9333,
+    43.4667
+  ],
+  "Tomino (Spain) [10K]": [
+    -8.7167,
+    41.9833
+  ],
+  "Canals (Spain) [10K]": [
+    -0.585,
+    38.9611
+  ],
+  "Soller (Spain) [10K]": [
+    2.7,
+    39.7667
+  ],
+  "Verin (Spain) [10K]": [
+    -7.4358,
+    41.9408
+  ],
+  "Santa Coloma de Farnes (Spain) [10K]": [
+    2.6654,
+    41.8624
+  ],
+  "Nules (Spain) [10K]": [
+    -0.1506,
+    39.8525
+  ],
+  "Llanes (Spain) [10K]": [
+    -4.7564,
+    43.4214
+  ],
+  "Velilla de San Antonio (Spain) [10K]": [
+    -3.4833,
+    40.3667
+  ],
+  "Torredonjimeno (Spain) [10K]": [
+    -3.95,
+    37.7667
+  ],
+  "Betanzos (Spain) [10K]": [
+    -8.2106,
+    43.2792
+  ],
+  "Ceuti (Spain) [10K]": [
+    -1.2722,
+    38.0789
+  ],
+  "Valdemorillo (Spain) [10K]": [
+    -4.0667,
+    40.5017
+  ],
+  "Sant Sadurni d'Anoia (Spain) [10K]": [
+    1.785,
+    41.4261
+  ],
+  "Aguilar (Spain) [10K]": [
+    -4.65,
+    37.5167
+  ],
+  "Jaca (Spain) [10K]": [
+    -0.55,
+    42.55
+  ],
+  "Guillena (Spain) [10K]": [
+    -6.05,
+    37.5333
+  ],
+  "Abrera (Spain) [10K]": [
+    1.9024,
+    41.5165
+  ],
+  "Picana (Spain) [10K]": [
+    -0.435,
+    39.4361
+  ],
+  "Fene (Spain) [10K]": [
+    -8.1667,
+    43.4667
+  ],
+  "Ocana (Spain) [10K]": [
+    -3.4967,
+    39.9569
+  ],
+  "Campo de Criptana (Spain) [10K]": [
+    -3.1167,
+    39.4
+  ],
+  "Sarria (Spain) [10K]": [
+    -7.4167,
+    42.7833
+  ],
+  "Argentona (Spain) [10K]": [
+    2.4025,
+    41.5558
+  ],
+  "Brenes (Spain) [10K]": [
+    -5.8667,
+    37.55
+  ],
+  "Abaran (Spain) [10K]": [
+    -1.4003,
+    38.2031
+  ],
+  "Teror (Spain) [10K]": [
+    -15.5476,
+    28.059
+  ],
+  "Alovera (Spain) [10K]": [
+    -3.2481,
+    40.5967
+  ],
+  "Castellbisbal (Spain) [10K]": [
+    1.9822,
+    41.4767
+  ],
+  "Albatera (Spain) [10K]": [
+    -0.8681,
+    38.1786
+  ],
+  "Palleja (Spain) [10K]": [
+    1.9978,
+    41.4242
+  ],
+  "Antigua (Spain) [10K]": [
+    -14.0118,
+    28.416
+  ],
+  "Gibraleon (Spain) [10K]": [
+    -6.9694,
+    37.3753
+  ],
+  "Santa Margarita (Spain) [10K]": [
+    3.1036,
+    39.7033
+  ],
+  "Peligros (Spain) [10K]": [
+    -3.6333,
+    37.2333
+  ],
+  "Arrigorriaga (Spain) [10K]": [
+    -2.8861,
+    43.2078
+  ],
+  "Berja (Spain) [10K]": [
+    -2.9469,
+    36.8453
+  ],
+  "Pola de Laviana (Spain) [10K]": [
+    -5.5563,
+    43.2358
+  ],
+  "Salobrena (Spain) [10K]": [
+    -3.5869,
+    36.7467
+  ],
+  "Valverde del Camino (Spain) [10K]": [
+    -6.75,
+    37.5667
+  ],
+  "Palos de la Frontera (Spain) [10K]": [
+    -6.8944,
+    37.2283
+  ],
+  "Beniel (Spain) [10K]": [
+    -1.0014,
+    38.0464
+  ],
+  "Vejer de la Frontera (Spain) [10K]": [
+    -5.9667,
+    36.25
+  ],
+  "Bayona (Spain) [10K]": [
+    -8.8506,
+    42.1178
+  ],
+  "Villafranca de los Barros (Spain) [10K]": [
+    -6.3333,
+    38.5667
+  ],
+  "San Andres de Llevaneras (Spain) [10K]": [
+    2.4828,
+    41.5733
+  ],
+  "Benifayo (Spain) [10K]": [
+    -0.4281,
+    39.2847
+  ],
+  "Bejar (Spain) [10K]": [
+    -5.7667,
+    40.3833
+  ],
+  "Estepa (Spain) [10K]": [
+    -4.8792,
+    37.2917
+  ],
+  "Monovar (Spain) [10K]": [
+    -0.8381,
+    38.4369
+  ],
+  "Acala del Rio (Spain) [10K]": [
+    -5.9667,
+    37.5167
+  ],
+  "Santany (Spain) [10K]": [
+    3.1283,
+    39.3542
+  ],
+  "Bueu (Spain) [10K]": [
+    -8.7833,
+    42.3167
+  ],
+  "Teulada (Spain) [10K]": [
+    0.1019,
+    38.7292
+  ],
+  "Capdepera (Spain) [10K]": [
+    3.4333,
+    39.7
+  ],
+  "Torroella de Montgri (Spain) [10K]": [
+    3.1286,
+    42.0439
+  ],
+  "Villamartin (Spain) [10K]": [
+    -5.65,
+    36.8667
+  ],
+  "Fuensalida (Spain) [10K]": [
+    -4.2,
+    40.05
+  ],
+  "Albox (Spain) [10K]": [
+    -2.1333,
+    37.3833
+  ],
+  "Socuellamos (Spain) [10K]": [
+    -2.7942,
+    39.2933
+  ],
+  "Bolanos de Calatrava (Spain) [10K]": [
+    -3.7167,
+    38.8831
+  ],
+  "Ciudad-Rodrigo (Spain) [10K]": [
+    -6.5392,
+    40.5969
+  ],
+  "Son Servera (Spain) [10K]": [
+    3.36,
+    39.6208
+  ],
+  "Benisa (Spain) [10K]": [
+    0.0527,
+    38.7145
+  ],
+  "Beniajan (Spain) [10K]": [
+    -1.0667,
+    37.9833
+  ],
+  "Benaguacil (Spain) [10K]": [
+    -0.5864,
+    39.5933
+  ],
+  "Cangas de Narcea (Spain) [10K]": [
+    -6.5389,
+    43.1714
+  ],
+  "Santona (Spain) [10K]": [
+    -3.4575,
+    43.4414
+  ],
+  "La Puebla del Rio (Spain) [10K]": [
+    -6.05,
+    37.2667
+  ],
+  "Olivenza (Spain) [10K]": [
+    -7.1008,
+    38.6858
+  ],
+  "Castello de Ampurias (Spain) [10K]": [
+    3.0747,
+    42.2582
+  ],
+  "Andraitx (Spain) [10K]": [
+    2.4206,
+    39.5746
+  ],
+  "Azcoitia (Spain) [10K]": [
+    -2.3106,
+    43.1792
+  ],
+  "Medina Sidonia (Spain) [10K]": [
+    -5.9167,
+    36.4667
+  ],
+  "Tegueste (Spain) [10K]": [
+    -16.3408,
+    28.5233
+  ],
+  "Elgoibar (Spain) [10K]": [
+    -2.4169,
+    43.2142
+  ],
+  "Bullas (Spain) [10K]": [
+    -1.6706,
+    38.0497
+  ],
+  "Masanasa (Spain) [1K]": [
+    -0.3989,
+    39.4083
+  ],
+  "Campos del Puerto (Spain) [10K]": [
+    3.0194,
+    39.4306
+  ],
+  "Laredo (Spain) [10K]": [
+    -3.41,
+    43.4144
+  ],
+  "Cocentaina (Spain) [10K]": [
+    -0.4406,
+    38.745
+  ],
+  "Jodar (Spain) [10K]": [
+    -3.35,
+    37.8333
+  ],
+  "Lardero (Spain) [10K]": [
+    -2.4614,
+    42.4261
+  ],
+  "Onate (Spain) [10K]": [
+    -2.4167,
+    43.0333
+  ],
+  "Gelves (Spain) [10K]": [
+    -6.0167,
+    37.3333
+  ],
+  "Sant Joan de Vilatorrada (Spain) [10K]": [
+    1.8056,
+    41.7456
+  ],
+  "Utiel (Spain) [10K]": [
+    -1.2067,
+    39.5672
+  ],
+  "Yuncos (Spain) [10K]": [
+    -3.8667,
+    40.0833
+  ],
+  "Mancha Real (Spain) [10K]": [
+    -3.6125,
+    37.7864
+  ],
+  "Barbadanes (Spain) [10K]": [
+    -7.9064,
+    42.3003
+  ],
+  "Santiago del Teide (Spain) [10K]": [
+    -16.8145,
+    28.2957
+  ],
+  "Bollullos de la Mitacion (Spain) [10K]": [
+    -6.1333,
+    37.3333
+  ],
+  "Cabanillas del Campo (Spain) [10K]": [
+    -3.2353,
+    40.6383
+  ],
+  "Garrucha (Spain) [10K]": [
+    -1.8214,
+    37.1842
+  ],
+  "Sonseca (Spain) [10K]": [
+    -3.95,
+    39.7
+  ],
+  "Quintanar de la Orden (Spain) [10K]": [
+    -3.0428,
+    39.5906
+  ],
+  "Castalla (Spain) [10K]": [
+    -0.6708,
+    38.5967
+  ],
+  "Rianxo (Spain) [10K]": [
+    -8.8167,
+    42.65
+  ],
+  "La Escala (Spain) [10K]": [
+    3.135,
+    42.1136
+  ],
+  "Alella (Spain) [10K]": [
+    2.2958,
+    41.4953
+  ],
+  "Alberique (Spain) [10K]": [
+    -0.5211,
+    39.1167
+  ],
+  "Grinon (Spain) [10K]": [
+    -3.85,
+    40.2167
+  ],
+  "Brunete (Spain) [10K]": [
+    -3.9936,
+    40.4
+  ],
+  "Zumaia (Spain) [10K]": [
+    -2.2569,
+    43.2972
+  ],
+  "Torrejon de la Calzada (Spain) [1K]": [
+    -3.8,
+    40.2
+  ],
+  "Los Corrales de Buelna (Spain) [10K]": [
+    -4.0653,
+    43.2617
+  ],
+  "La Palma del Condado (Spain) [10K]": [
+    -6.5517,
+    37.3842
+  ],
+  "La Puebla de Cazalla (Spain) [10K]": [
+    -5.3125,
+    37.2222
+  ],
+  "Bargas (Spain) [10K]": [
+    -4.0194,
+    39.94
+  ],
+  "Cassa de la Selva (Spain) [10K]": [
+    2.8742,
+    41.8893
+  ],
+  "Fortuna (Spain) [10K]": [
+    -1.1233,
+    38.1789
+  ],
+  "Daganzo de Arriba (Spain) [10K]": [
+    -3.4572,
+    40.5433
+  ],
+  "Ripoll (Spain) [10K]": [
+    2.1903,
+    42.2011
+  ],
+  "Cantillana (Spain) [10K]": [
+    -5.8167,
+    37.6
+  ],
+  "Huetor-Tajar (Spain) [10K]": [
+    -4.0464,
+    37.1947
+  ],
+  "Astorga (Spain) [10K]": [
+    -6.0633,
+    42.4589
+  ],
+  "Tafalla (Spain) [10K]": [
+    -1.7047,
+    42.5132
+  ],
+  "Penarroya-Pueblonuevo (Spain) [10K]": [
+    -5.2667,
+    38.3
+  ],
+  "Santa Margarita de Mombuy (Spain) [10K]": [
+    1.6092,
+    41.5756
+  ],
+  "Pola de Lena (Spain) [10K]": [
+    -5.8292,
+    43.1583
+  ],
+  "Canteras (Spain) [10K]": [
+    -1.0438,
+    37.6122
+  ],
+  "Tarazona de Aragon (Spain) [10K]": [
+    -1.7225,
+    41.9044
+  ],
+  "Pulpi (Spain) [10K]": [
+    -1.7508,
+    37.4019
+  ],
+  "Villanueva de Arosa (Spain) [10K]": [
+    -8.8278,
+    42.5628
+  ],
+  "Alcora (Spain) [10K]": [
+    -0.2,
+    40.0667
+  ],
+  "El Alamo (Spain) [10K]": [
+    -3.9944,
+    40.2306
+  ],
+  "La Baneza (Spain) [10K]": [
+    -5.9017,
+    42.2975
+  ],
+  "Luanco (Spain) [10K]": [
+    -5.79,
+    43.61
+  ],
+  "Villacarrillo (Spain) [10K]": [
+    -3.0833,
+    38.1
+  ],
+  "San Vicente de Castellet (Spain) [1K]": [
+    1.8641,
+    41.6655
+  ],
+  "Villamarchante (Spain) [10K]": [
+    -0.6225,
+    39.5678
+  ],
+  "Alcaudete (Spain) [10K]": [
+    -4.1,
+    37.5833
+  ],
+  "Amurrio (Spain) [10K]": [
+    -3.0014,
+    43.0528
+  ],
+  "Alguazas (Spain) [1K]": [
+    -1.2414,
+    38.0514
+  ],
+  "Cabanaquinta (Spain) [10K]": [
+    -5.5833,
+    43.1
+  ],
+  "Santa Maria de Palautordera (Spain) [1K]": [
+    2.4458,
+    41.6953
+  ],
+  "Binefar (Spain) [1K]": [
+    0.3,
+    41.85
+  ],
+  "Masquefa (Spain) [1K]": [
+    1.8136,
+    41.5036
+  ],
+  "Madridejos (Spain) [10K]": [
+    -3.5333,
+    39.4667
+  ],
+  "Tiana (Spain) [1K]": [
+    2.2697,
+    41.4831
+  ],
+  "Palafolls (Spain) [1K]": [
+    2.7506,
+    41.6692
+  ],
+  "Salvatierra de Mino (Spain) [10K]": [
+    -8.5,
+    42.0833
+  ],
+  "Caspe (Spain) [10K]": [
+    -0.0333,
+    41.2333
+  ],
+  "Foz (Spain) [10K]": [
+    -7.2583,
+    43.5694
+  ],
+  "Calasparra (Spain) [10K]": [
+    -1.7,
+    38.2306
+  ],
+  "Caudete (Spain) [10K]": [
+    -0.9881,
+    38.7044
+  ],
+  "Tocina (Spain) [1K]": [
+    -5.7333,
+    37.6
+  ],
+  "Zumarraga (Spain) [1K]": [
+    -2.3167,
+    43.0831
+  ],
+  "Matadepera (Spain) [1K]": [
+    2.0244,
+    41.6036
+  ],
+  "Alhendin (Spain) [1K]": [
+    -3.65,
+    37.1167
+  ],
+  "Mengibar (Spain) [1K]": [
+    -3.8089,
+    37.9683
+  ],
+  "Umbrete (Spain) [1K]": [
+    -6.15,
+    37.3667
+  ],
+  "Puigcerda (Spain) [1K]": [
+    1.9283,
+    42.4317
+  ],
+  "Fuente Palmera (Spain) [1K]": [
+    -5.1,
+    37.7
+  ],
+  "Fernan-Nunez (Spain) [1K]": [
+    -4.7167,
+    37.6667
+  ],
+  "Consuegra (Spain) [1K]": [
+    -3.6064,
+    39.4619
+  ],
+  "Ribadeo (Spain) [1K]": [
+    -7.0403,
+    43.5336
+  ],
+  "Pinos Puente (Spain) [1K]": [
+    -3.75,
+    37.25
+  ],
+  "Piedras Blancas (Spain) [1K]": [
+    -5.976,
+    43.56
+  ],
+  "Colindres (Spain) [1K]": [
+    -3.4483,
+    43.3967
+  ],
+  "Caldas de Reyes (Spain) [1K]": [
+    -8.6383,
+    42.6028
+  ],
+  "Rute (Spain) [1K]": [
+    -4.3667,
+    37.3167
+  ],
+  "Mora (Spain) [1K]": [
+    -3.777,
+    39.684
+  ],
+  "Alcanar (Spain) [1K]": [
+    0.4808,
+    40.543
+  ],
+  "Almusafes (Spain) [1K]": [
+    -0.4147,
+    39.2903
+  ],
+  "Pizarra (Spain) [1K]": [
+    -4.7,
+    36.7667
+  ],
+  "Palomares del Rio (Spain) [1K]": [
+    -6.05,
+    37.3167
+  ],
+  "Alfaro (Spain) [1K]": [
+    -1.7492,
+    42.1783
+  ],
+  "Colmenarejo (Spain) [1K]": [
+    -4.0169,
+    40.5608
+  ],
+  "Alcarraz (Spain) [1K]": [
+    0.5241,
+    41.5638
+  ],
+  "Villarrubia de los Ojos (Spain) [1K]": [
+    -3.6,
+    39.2167
+  ],
+  "La Matanza de Acentejo (Spain) [1K]": [
+    -16.4389,
+    28.4403
+  ],
+  "San Fausto de Campcentellas (Spain) [1K]": [
+    2.24,
+    41.5061
+  ],
+  "Senmanat (Spain) [1K]": [
+    2.1358,
+    41.6086
+  ],
+  "San Juan del Puerto (Spain) [1K]": [
+    -6.8333,
+    37.3167
+  ],
+  "Sevilla La Nueva (Spain) [1K]": [
+    -4.0286,
+    40.3475
+  ],
+  "Valsequillo de Gran Canaria (Spain) [1K]": [
+    -15.4989,
+    27.9808
+  ],
+  "Arenys de Munt (Spain) [1K]": [
+    2.5403,
+    41.6128
+  ],
+  "El Espinar (Spain) [1K]": [
+    -4.2478,
+    40.7186
+  ],
+  "Alayor (Spain) [1K]": [
+    4.14,
+    39.9342
+  ],
+  "Cervello (Spain) [1K]": [
+    1.9589,
+    41.3962
+  ],
+  "Solsona (Spain) [1K]": [
+    1.5178,
+    41.9944
+  ],
+  "Grado (Spain) [1K]": [
+    -6.0736,
+    43.3881
+  ],
+  "La Victoria de Acentejo (Spain) [1K]": [
+    -16.4682,
+    28.4348
+  ],
+  "Cuellar (Spain) [1K]": [
+    -4.3136,
+    41.4009
+  ],
+  "Olivares (Spain) [1K]": [
+    -6.15,
+    37.4167
+  ],
+  "El Molar (Spain) [1K]": [
+    -3.5814,
+    40.7336
+  ],
+  "Rafelbunol (Spain) [1K]": [
+    -0.3342,
+    39.5922
+  ],
+  "Bunol (Spain) [1K]": [
+    -0.7906,
+    39.4194
+  ],
+  "Miajadas (Spain) [1K]": [
+    -6.0667,
+    39.15
+  ],
+  "Santiponce (Spain) [1K]": [
+    -6.0433,
+    37.4353
+  ],
+  "Cervera (Spain) [1K]": [
+    1.271,
+    41.6657
+  ],
+  "Sauzal (Spain) [1K]": [
+    -16.4357,
+    28.4799
+  ],
+  "Burela de Cabo (Spain) [1K]": [
+    -7.4,
+    43.65
+  ],
+  "Suances (Spain) [1K]": [
+    -4.05,
+    43.4333
+  ],
+  "Villacanas (Spain) [1K]": [
+    -3.3333,
+    39.6333
+  ],
+  "La Mujer (Spain) [1K]": [
+    -2.6838,
+    36.7523
+  ],
+  "San Fructuoso de Bages (Spain) [1K]": [
+    1.8727,
+    41.7507
+  ],
+  "Catral (Spain) [1K]": [
+    -0.805,
+    38.1594
+  ],
+  "San Sebastian de la Gomera (Spain) [1K]": [
+    -17.11,
+    28.0922
+  ],
+  "Cisterniga (Spain) [1K]": [
+    -4.6833,
+    41.6167
+  ],
+  "Santa Comba (Spain) [1K]": [
+    -8.8142,
+    43.0383
+  ],
+  "Muro del Alcoy (Spain) [1K]": [
+    -0.4361,
+    38.7797
+  ],
+  "Santa Maria de Cayon (Spain) [1K]": [
+    -3.8525,
+    43.3114
+  ],
+  "Sabinanigo (Spain) [1K]": [
+    -0.3643,
+    42.5186
+  ],
+  "Binisalem (Spain) [1K]": [
+    2.8333,
+    39.6831
+  ],
+  "Manzanares el Real (Spain) [1K]": [
+    -3.8611,
+    40.7272
+  ],
+  "Montoro (Spain) [1K]": [
+    -4.3833,
+    38.0167
+  ],
+  "Segorbe (Spain) [1K]": [
+    -0.4896,
+    39.8519
+  ],
+  "Monserrat (Spain) [1K]": [
+    -0.6031,
+    39.3575
+  ],
+  "Jerez de los Caballeros (Spain) [1K]": [
+    -6.7714,
+    38.3203
+  ],
+  "Villamediana de Iregua (Spain) [1K]": [
+    -2.4181,
+    42.4264
+  ],
+  "Loeches (Spain) [1K]": [
+    -3.4,
+    40.3833
+  ],
+  "San Lorenzo de Descardazar (Spain) [1K]": [
+    3.2853,
+    39.609
+  ],
+  "Llagostera (Spain) [1K]": [
+    2.8933,
+    41.8292
+  ],
+  "Tineo (Spain) [1K]": [
+    -6.4922,
+    43.3095
+  ],
+  "Cheste (Spain) [1K]": [
+    -0.6844,
+    39.4797
+  ],
+  "Hoyo de Manzanares (Spain) [1K]": [
+    -3.8833,
+    40.6333
+  ],
+  "Almagro (Spain) [1K]": [
+    -3.7122,
+    38.8878
+  ],
+  "Silleda (Spain) [1K]": [
+    -8.2333,
+    42.7
+  ],
+  "San Martin de Valdeiglesias (Spain) [1K]": [
+    -4.401,
+    40.364
+  ],
+  "Trujillo (Spain) [1K]": [
+    -5.8789,
+    39.4653
+  ],
+  "Benahavis (Spain) [1K]": [
+    -5.0454,
+    36.519
+  ],
+  "Tordesillas (Spain) [1K]": [
+    -5.0,
+    41.5
+  ],
+  "Arico el Nuevo (Spain) [1K]": [
+    -16.4977,
+    28.1904
+  ],
+  "Tudela de Duero (Spain) [1K]": [
+    -4.58,
+    41.5842
+  ],
+  "Monforte del Cid (Spain) [1K]": [
+    -0.7303,
+    38.3792
+  ],
+  "Villanueva de Cordoba (Spain) [1K]": [
+    -4.6167,
+    38.3167
+  ],
+  "Zuera (Spain) [1K]": [
+    -0.7881,
+    41.8692
+  ],
+  "Toro (Spain) [1K]": [
+    -5.3947,
+    41.52
+  ],
+  "Herencia (Spain) [1K]": [
+    -3.355,
+    39.3669
+  ]
+}
