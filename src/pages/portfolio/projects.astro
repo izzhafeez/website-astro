@@ -37,9 +37,9 @@ const heroText = portfolioData.projects.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar client:load transition:persist/>
+    <NavBar client:load/>
     <Hero label="PROJECTS" text={heroText} site="portfolio"/>
-    <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto">
+    <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
       {projects.map(project => <ProjectPreview client:visible project={project}/>)}
     </section>
     <Footer color="ew"/>
