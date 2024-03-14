@@ -8,9 +8,13 @@ switch (site) {
     bg = "bg-ew-700/50 group-hover:bg-ew-700/80 hover:border-ew-300";
     textColor = "group-hover:text-ew-300";
     break;
+  case 'gqmaster':
+    bg = "bg-ns-700/50 group-hover:bg-ns-700/80 hover:border-ns-300";
+    textColor = "group-hover:text-ns-300";
+    break;
 }
 ---
-<a href={`/${site}/${key}`} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key.toUpperCase()}.jpg');`}>
+<a transition:name={key} href={`/${site}/${key}`} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key.toUpperCase()}.jpg');`}>
   <div class={`${bg} border-[1px] border-white/0 h-80 overflow-clip grid content-center text-center p-8`}>
     <h1 class={`font-extrabold text-5xl text-white ${textColor}`}>{key.toUpperCase()}</h1>
     <p class="text-white max-w-lg mx-auto">{value.heroText}</p>
