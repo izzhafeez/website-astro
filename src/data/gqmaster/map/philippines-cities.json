@@ -1,0 +1,5370 @@
+{
+  "Manila (Philippines) [10M]": [
+    120.9772,
+    14.5958
+  ],
+  "Quezon City (Philippines) [1M]": [
+    121.03,
+    14.63
+  ],
+  "Davao (Philippines) [1M]": [
+    125.6,
+    7.0667
+  ],
+  "Caloocan City (Philippines) [1M]": [
+    120.97,
+    14.65
+  ],
+  "Canagatan (Philippines) [1M]": [
+    121.8,
+    18.0
+  ],
+  "Zamboanga City (Philippines) [100K]": [
+    122.0761,
+    6.9042
+  ],
+  "Cebu City (Philippines) [100K]": [
+    123.75,
+    10.32
+  ],
+  "Taguig City (Philippines) [100K]": [
+    121.05,
+    14.52
+  ],
+  "Antipolo (Philippines) [100K]": [
+    121.1763,
+    14.5842
+  ],
+  "Pasig City (Philippines) [100K]": [
+    121.0833,
+    14.575
+  ],
+  "Valenzuela (Philippines) [100K]": [
+    120.98,
+    14.7
+  ],
+  "Cagayan de Oro (Philippines) [100K]": [
+    124.65,
+    8.4833
+  ],
+  "Tondo (Philippines) [100K]": [
+    120.967,
+    14.617
+  ],
+  "City of Paranaque (Philippines) [100K]": [
+    121.02,
+    14.47
+  ],
+  "Dasmarinas (Philippines) [100K]": [
+    120.9367,
+    14.3294
+  ],
+  "General Santos (Philippines) [100K]": [
+    125.1667,
+    6.1167
+  ],
+  "Bacoor (Philippines) [100K]": [
+    120.9645,
+    14.4624
+  ],
+  "San Jose del Monte (Philippines) [100K]": [
+    121.0453,
+    14.8139
+  ],
+  "Makati City (Philippines) [100K]": [
+    121.0214,
+    14.5567
+  ],
+  "Las Pinas City (Philippines) [100K]": [
+    120.98,
+    14.45
+  ],
+  "Bacolod (Philippines) [10K]": [
+    124.0238,
+    8.1892
+  ],
+  "Muntinlupa City (Philippines) [100K]": [
+    121.05,
+    14.38
+  ],
+  "City of Calamba (Philippines) [100K]": [
+    121.1667,
+    14.2167
+  ],
+  "Lapu-Lapu City (Philippines) [100K]": [
+    123.9488,
+    10.3127
+  ],
+  "Imus (Philippines) [100K]": [
+    120.9367,
+    14.4297
+  ],
+  "Mandaluyong City (Philippines) [100K]": [
+    121.03,
+    14.58
+  ],
+  "Angeles City (Philippines) [100K]": [
+    120.5847,
+    15.1472
+  ],
+  "Pasay City (Philippines) [100K]": [
+    121.0,
+    14.55
+  ],
+  "Marikina City (Philippines) [100K]": [
+    121.1,
+    14.65
+  ],
+  "Iloilo (Philippines) [100K]": [
+    122.5667,
+    10.7167
+  ],
+  "General Trias (Philippines) [100K]": [
+    120.8833,
+    14.3833
+  ],
+  "Rodriguez (Philippines) [100K]": [
+    121.1167,
+    14.7167
+  ],
+  "Santa Rosa (Philippines) [10K]": [
+    120.9389,
+    15.4239
+  ],
+  "Binan (Philippines) [100K]": [
+    121.0833,
+    14.3333
+  ],
+  "Taytay (Philippines) [10K]": [
+    119.5167,
+    10.8167
+  ],
+  "Malabon (Philippines) [100K]": [
+    120.96,
+    14.66
+  ],
+  "Tarlac City (Philippines) [100K]": [
+    120.59,
+    15.4869
+  ],
+  "Cainta (Philippines) [100K]": [
+    121.1167,
+    14.5667
+  ],
+  "Lipa City (Philippines) [100K]": [
+    121.1622,
+    13.9411
+  ],
+  "Mandaue City (Philippines) [100K]": [
+    123.9333,
+    10.3333
+  ],
+  "Butuan (Philippines) [100K]": [
+    125.5288,
+    8.9534
+  ],
+  "Baguio City (Philippines) [100K]": [
+    120.5933,
+    16.4119
+  ],
+  "Iligan (Philippines) [100K]": [
+    124.25,
+    8.23
+  ],
+  "Cabuyao (Philippines) [100K]": [
+    121.125,
+    14.275
+  ],
+  "San Fernando (Philippines) [10K]": [
+    123.7628,
+    12.4858
+  ],
+  "San Pedro (Philippines) [100K]": [
+    121.0583,
+    14.3583
+  ],
+  "Batangas (Philippines) [100K]": [
+    121.0,
+    13.83
+  ],
+  "Cabanatuan City (Philippines) [100K]": [
+    120.9678,
+    15.4908
+  ],
+  "Cotabato (Philippines) [100K]": [
+    124.25,
+    7.22
+  ],
+  "Binangonan (Philippines) [100K]": [
+    121.1919,
+    14.4514
+  ],
+  "Tanza (Philippines) [100K]": [
+    120.8531,
+    14.3944
+  ],
+  "Puerto Princesa (Philippines) [100K]": [
+    118.75,
+    9.75
+  ],
+  "Navotas (Philippines) [100K]": [
+    120.9417,
+    14.6667
+  ],
+  "Tagum (Philippines) [100K]": [
+    125.8078,
+    7.4478
+  ],
+  "Silang (Philippines) [100K]": [
+    120.975,
+    14.2306
+  ],
+  "Mabalacat (Philippines) [100K]": [
+    120.5833,
+    15.2167
+  ],
+  "Santa Maria (Philippines) [10K]": [
+    121.75,
+    17.4667
+  ],
+  "San Pablo (Philippines) [10K]": [
+    121.795,
+    17.4478
+  ],
+  "Lucena (Philippines) [10K]": [
+    122.6,
+    10.8833
+  ],
+  "San Mateo (Philippines) [10K]": [
+    121.5833,
+    16.8833
+  ],
+  "Talisay (Philippines) [10K]": [
+    122.9244,
+    14.1356
+  ],
+  "Malolos (Philippines) [100K]": [
+    120.8114,
+    14.8433
+  ],
+  "Marilao (Philippines) [100K]": [
+    120.9481,
+    14.7581
+  ],
+  "Olongapo (Philippines) [100K]": [
+    120.28,
+    14.83
+  ],
+  "Tacloban (Philippines) [100K]": [
+    125.0039,
+    11.2444
+  ],
+  "Meycauayan (Philippines) [100K]": [
+    120.95,
+    14.7333
+  ],
+  "Santa Ana (Philippines) [10K]": [
+    122.1419,
+    18.4589
+  ],
+  "Ormoc (Philippines) [100K]": [
+    124.6075,
+    11.0106
+  ],
+  "Santo Tomas (Philippines) [10K]": [
+    121.7667,
+    17.4
+  ],
+  "Valencia (Philippines) [10K]": [
+    124.208,
+    9.6097
+  ],
+  "Trece Martires City (Philippines) [100K]": [
+    120.8667,
+    14.2833
+  ],
+  "Naga City (Philippines) [100K]": [
+    123.1864,
+    13.6244
+  ],
+  "Pagadian (Philippines) [100K]": [
+    123.4364,
+    7.8272
+  ],
+  "Legazpi City (Philippines) [100K]": [
+    123.7333,
+    13.1333
+  ],
+  "Panabo (Philippines) [100K]": [
+    125.6833,
+    7.3
+  ],
+  "Marawi City (Philippines) [100K]": [
+    124.3,
+    8.0
+  ],
+  "Toledo (Philippines) [100K]": [
+    123.65,
+    10.3833
+  ],
+  "San Carlos City (Philippines) [100K]": [
+    120.3489,
+    15.9281
+  ],
+  "Kabankalan (Philippines) [100K]": [
+    122.8167,
+    9.9833
+  ],
+  "Koronadal (Philippines) [100K]": [
+    124.85,
+    6.5
+  ],
+  "Tanauan (Philippines) [10K]": [
+    125.0167,
+    11.1167
+  ],
+  "General Mariano Alvarez (Philippines) [100K]": [
+    121.0,
+    14.3
+  ],
+  "Bago (Philippines) [100K]": [
+    122.8384,
+    10.5388
+  ],
+  "Malaybalay (Philippines) [100K]": [
+    125.1333,
+    8.1564
+  ],
+  "Digos (Philippines) [100K]": [
+    125.35,
+    6.75
+  ],
+  "Calbayog City (Philippines) [100K]": [
+    124.6,
+    12.0667
+  ],
+  "Sorsogon (Philippines) [100K]": [
+    124.0058,
+    12.9742
+  ],
+  "Roxas City (Philippines) [100K]": [
+    122.7511,
+    11.5894
+  ],
+  "Dagupan City (Philippines) [100K]": [
+    120.334,
+    16.043
+  ],
+  "Santa Cruz (Philippines) [10K]": [
+    120.4553,
+    17.0853
+  ],
+  "Mexico (Philippines) [100K]": [
+    120.7167,
+    15.0667
+  ],
+  "Lubao (Philippines) [100K]": [
+    120.6,
+    14.9333
+  ],
+  "Polomolok (Philippines) [100K]": [
+    125.0667,
+    6.2167
+  ],
+  "San Miguel (Philippines) [10K]": [
+    124.3008,
+    13.6411
+  ],
+  "Baliuag (Philippines) [100K]": [
+    120.901,
+    14.954
+  ],
+  "Surigao (Philippines) [100K]": [
+    125.4958,
+    9.7897
+  ],
+  "Concepcion (Philippines) [1K]": [
+    123.6,
+    8.4167
+  ],
+  "Tuguegarao (Philippines) [100K]": [
+    121.7303,
+    17.6133
+  ],
+  "Midsayap (Philippines) [100K]": [
+    124.5333,
+    7.1917
+  ],
+  "Pikit (Philippines) [100K]": [
+    124.6667,
+    7.05
+  ],
+  "Naic (Philippines) [100K]": [
+    120.7667,
+    14.3167
+  ],
+  "Sariaya (Philippines) [100K]": [
+    121.5333,
+    13.9667
+  ],
+  "Kidapawan (Philippines) [100K]": [
+    125.0894,
+    7.0083
+  ],
+  "Pandi (Philippines) [100K]": [
+    120.95,
+    14.8667
+  ],
+  "Cadiz (Philippines) [100K]": [
+    123.3,
+    10.95
+  ],
+  "Ilagan (Philippines) [100K]": [
+    121.8894,
+    17.1489
+  ],
+  "Danao (Philippines) [10K]": [
+    124.2667,
+    10.0167
+  ],
+  "Poblacion (Philippines) [10K]": [
+    125.1303,
+    10.1614
+  ],
+  "Capas (Philippines) [100K]": [
+    120.59,
+    15.3372
+  ],
+  "San Juan (Philippines) [10K]": [
+    120.732,
+    17.6834
+  ],
+  "San Jose (Philippines) [10K]": [
+    124.487,
+    12.531
+  ],
+  "Minglanilla (Philippines) [100K]": [
+    123.7964,
+    10.245
+  ],
+  "San Andres (Philippines) [10K]": [
+    122.6761,
+    13.3231
+  ],
+  "Consolacion (Philippines) [100K]": [
+    123.95,
+    10.4
+  ],
+  "Mariveles (Philippines) [100K]": [
+    120.4833,
+    14.4333
+  ],
+  "Sagay (Philippines) [10K]": [
+    124.7167,
+    9.1167
+  ],
+  "Santiago (Philippines) [10K]": [
+    120.4453,
+    17.2947
+  ],
+  "Mati (Philippines) [100K]": [
+    126.2272,
+    6.9483
+  ],
+  "Payatas (Philippines) [100K]": [
+    121.0997,
+    14.7099
+  ],
+  "Calapan (Philippines) [100K]": [
+    121.18,
+    13.414
+  ],
+  "Urdaneta (Philippines) [100K]": [
+    120.5711,
+    15.9761
+  ],
+  "Arayat (Philippines) [100K]": [
+    120.7692,
+    15.1493
+  ],
+  "Bocaue (Philippines) [100K]": [
+    120.9333,
+    14.8
+  ],
+  "Santamesa (Philippines) [100K]": [
+    121.0167,
+    14.6
+  ],
+  "Malasiqui (Philippines) [100K]": [
+    120.4167,
+    15.9167
+  ],
+  "Calabayan (Philippines) [100K]": [
+    121.7833,
+    16.7667
+  ],
+  "Tabaco (Philippines) [100K]": [
+    123.7333,
+    13.35
+  ],
+  "Porac (Philippines) [100K]": [
+    120.5419,
+    15.0719
+  ],
+  "Ozamiz City (Philippines) [100K]": [
+    123.85,
+    8.15
+  ],
+  "Tanay (Philippines) [100K]": [
+    121.2864,
+    14.4972
+  ],
+  "La Trinidad (Philippines) [100K]": [
+    120.5877,
+    16.4621
+  ],
+  "Candelaria (Philippines) [10K]": [
+    119.9333,
+    15.6333
+  ],
+  "Dipolog (Philippines) [100K]": [
+    123.3408,
+    8.5872
+  ],
+  "Jolo (Philippines) [100K]": [
+    121.0,
+    6.0
+  ],
+  "Dumaguete City (Philippines) [100K]": [
+    123.3081,
+    9.3103
+  ],
+  "Carcar (Philippines) [100K]": [
+    123.6333,
+    10.1167
+  ],
+  "Nasugbu (Philippines) [100K]": [
+    120.6333,
+    14.0667
+  ],
+  "Gingoog (Philippines) [100K]": [
+    125.1,
+    8.8167
+  ],
+  "Norzagaray (Philippines) [100K]": [
+    121.05,
+    14.9167
+  ],
+  "Floridablanca (Philippines) [100K]": [
+    120.5,
+    14.9333
+  ],
+  "Angono (Philippines) [100K]": [
+    121.1536,
+    14.5234
+  ],
+  "Paco (Philippines) [10K]": [
+    120.983,
+    14.583
+  ],
+  "Daraga (Philippines) [100K]": [
+    123.6939,
+    13.1619
+  ],
+  "Hagonoy (Philippines) [10K]": [
+    125.3,
+    6.6833
+  ],
+  "Naga (Philippines) [10K]": [
+    122.6944,
+    7.7978
+  ],
+  "Talavera (Philippines) [100K]": [
+    120.9189,
+    15.5839
+  ],
+  "San Carlos (Philippines) [100K]": [
+    123.4095,
+    10.4929
+  ],
+  "Guagua (Philippines) [100K]": [
+    120.6333,
+    14.9667
+  ],
+  "Silay (Philippines) [100K]": [
+    122.9667,
+    10.8
+  ],
+  "City of Isabela (Philippines) [100K]": [
+    121.9667,
+    6.7
+  ],
+  "Rosario (Philippines) [10K]": [
+    124.4167,
+    12.5167
+  ],
+  "Guimba (Philippines) [100K]": [
+    120.765,
+    15.6606
+  ],
+  "Bagong Silangan (Philippines) [100K]": [
+    121.1,
+    14.7094
+  ],
+  "Western Bicutan (Philippines) [10K]": [
+    121.0381,
+    14.5094
+  ],
+  "Magalang (Philippines) [100K]": [
+    120.6667,
+    15.2167
+  ],
+  "Central Signal Village (Philippines) [10K]": [
+    121.0576,
+    14.5106
+  ],
+  "Gapan (Philippines) [100K]": [
+    120.9489,
+    15.3122
+  ],
+  "Bayawan (Philippines) [100K]": [
+    122.8,
+    9.3667
+  ],
+  "Tabuk (Philippines) [100K]": [
+    121.4425,
+    17.4069
+  ],
+  "Calumpit (Philippines) [100K]": [
+    120.7667,
+    14.9167
+  ],
+  "Candaba (Philippines) [100K]": [
+    120.8283,
+    15.0933
+  ],
+  "Dinalupihan (Philippines) [100K]": [
+    120.4667,
+    14.8833
+  ],
+  "Banco Filipino International Village (Philippines) [10K]": [
+    120.9996,
+    14.4499
+  ],
+  "Apalit (Philippines) [100K]": [
+    120.7587,
+    14.9496
+  ],
+  "Pandacan (Philippines) [10K]": [
+    121.007,
+    14.594
+  ],
+  "Ligao (Philippines) [100K]": [
+    123.5167,
+    13.2167
+  ],
+  "Malita (Philippines) [100K]": [
+    125.6,
+    6.4
+  ],
+  "Plaridel (Philippines) [10K]": [
+    122.0203,
+    13.9511
+  ],
+  "Guiguinto (Philippines) [100K]": [
+    120.8833,
+    14.8333
+  ],
+  "Los Banos (Philippines) [100K]": [
+    121.2167,
+    14.1667
+  ],
+  "Samal (Philippines) [10K]": [
+    120.5431,
+    14.7678
+  ],
+  "Himamaylan (Philippines) [100K]": [
+    122.8667,
+    10.1
+  ],
+  "Bongao (Philippines) [100K]": [
+    119.7731,
+    5.0292
+  ],
+  "San Ildefonso (Philippines) [100K]": [
+    120.9419,
+    15.0789
+  ],
+  "Mangaldan (Philippines) [100K]": [
+    120.4025,
+    16.07
+  ],
+  "Iriga City (Philippines) [100K]": [
+    123.4122,
+    13.4231
+  ],
+  "Putatan (Philippines) [10K]": [
+    121.0364,
+    14.3984
+  ],
+  "Daet (Philippines) [100K]": [
+    122.9564,
+    14.1142
+  ],
+  "Manolo Fortich (Philippines) [100K]": [
+    124.8656,
+    8.3675
+  ],
+  "Libmanan (Philippines) [100K]": [
+    123.06,
+    13.6964
+  ],
+  "Tayabas (Philippines) [100K]": [
+    121.5833,
+    14.0167
+  ],
+  "Laoag (Philippines) [100K]": [
+    120.5936,
+    18.1978
+  ],
+  "Subic (Philippines) [100K]": [
+    120.2328,
+    14.8769
+  ],
+  "Kawit (Philippines) [100K]": [
+    120.9,
+    14.4333
+  ],
+  "Baybay (Philippines) [100K]": [
+    124.8,
+    10.6833
+  ],
+  "Tatalon (Philippines) [10K]": [
+    121.0153,
+    14.6242
+  ],
+  "Pulilan (Philippines) [100K]": [
+    120.849,
+    14.902
+  ],
+  "Tacurong (Philippines) [100K]": [
+    124.67,
+    6.68
+  ],
+  "Cavite City (Philippines) [100K]": [
+    120.9,
+    14.4833
+  ],
+  "Naujan (Philippines) [100K]": [
+    121.3028,
+    13.3233
+  ],
+  "Quezon (Philippines) [10K]": [
+    122.1333,
+    14.05
+  ],
+  "Glan (Philippines) [100K]": [
+    125.2,
+    5.8167
+  ],
+  "Carmona (Philippines) [100K]": [
+    121.05,
+    14.3167
+  ],
+  "Bayugan (Philippines) [100K]": [
+    125.75,
+    8.71
+  ],
+  "Lingayen (Philippines) [100K]": [
+    120.2333,
+    16.0167
+  ],
+  "Labo (Philippines) [100K]": [
+    122.8294,
+    14.1561
+  ],
+  "Cawayan (Philippines) [10K]": [
+    123.7689,
+    11.9303
+  ],
+  "Maramag (Philippines) [100K]": [
+    125.005,
+    7.7631
+  ],
+  "Malate (Philippines) [10K]": [
+    120.9913,
+    14.5642
+  ],
+  "Tagbilaran City (Philippines) [100K]": [
+    123.85,
+    9.65
+  ],
+  "Pateros (Philippines) [10K]": [
+    121.0667,
+    14.5417
+  ],
+  "Carmen (Philippines) [10K]": [
+    126.0167,
+    9.2289
+  ],
+  "Tiaong (Philippines) [100K]": [
+    121.3167,
+    13.95
+  ],
+  "Catbalogan (Philippines) [100K]": [
+    124.8833,
+    11.7833
+  ],
+  "Bulan (Philippines) [100K]": [
+    123.8758,
+    12.6697
+  ],
+  "Malungun (Philippines) [100K]": [
+    125.2833,
+    6.2667
+  ],
+  "Sultan Kudarat (Philippines) [100K]": [
+    124.25,
+    7.2333
+  ],
+  "Balanga (Philippines) [100K]": [
+    120.53,
+    14.68
+  ],
+  "Masbate (Philippines) [100K]": [
+    123.58,
+    12.27
+  ],
+  "Sindangan (Philippines) [100K]": [
+    122.9986,
+    8.2386
+  ],
+  "Paniqui (Philippines) [100K]": [
+    120.5789,
+    15.6681
+  ],
+  "San Rafael (Philippines) [10K]": [
+    122.8267,
+    11.1728
+  ],
+  "Parang (Philippines) [10K]": [
+    120.9167,
+    5.9167
+  ],
+  "Guihulngan (Philippines) [100K]": [
+    123.2667,
+    10.1167
+  ],
+  "Calasiao (Philippines) [100K]": [
+    120.3667,
+    16.0167
+  ],
+  "Lamitan (Philippines) [100K]": [
+    122.1333,
+    6.65
+  ],
+  "Talipao (Philippines) [100K]": [
+    121.1087,
+    5.976
+  ],
+  "Catarman (Philippines) [10K]": [
+    124.6833,
+    9.1333
+  ],
+  "Isulan (Philippines) [10K]": [
+    124.6,
+    6.6333
+  ],
+  "San Isidro (Philippines) [1K]": [
+    126.0886,
+    9.9369
+  ],
+  "Upper Bicutan (Philippines) [10K]": [
+    121.0503,
+    14.4873
+  ],
+  "Kalibo (Philippines) [10K]": [
+    122.37,
+    11.7072
+  ],
+  "San Antonio (Philippines) [1K]": [
+    124.279,
+    12.414
+  ],
+  "Ipil (Philippines) [10K]": [
+    122.5867,
+    7.7822
+  ],
+  "Bayanan (Philippines) [10K]": [
+    121.05,
+    14.4078
+  ],
+  "Prosperidad (Philippines) [10K]": [
+    125.9153,
+    8.6057
+  ],
+  "Alabel (Philippines) [10K]": [
+    125.2868,
+    6.1023
+  ],
+  "Lower Bicutan (Philippines) [10K]": [
+    121.0642,
+    14.5033
+  ],
+  "Maasin (Philippines) [10K]": [
+    122.4333,
+    10.8833
+  ],
+  "Nabunturan (Philippines) [10K]": [
+    125.9656,
+    7.6008
+  ],
+  "West Rembo (Philippines) [10K]": [
+    121.0667,
+    14.5667
+  ],
+  "Bel-Air (Philippines) [10K]": [
+    121.0263,
+    14.5639
+  ],
+  "Cabadbaran (Philippines) [10K]": [
+    125.5346,
+    9.1228
+  ],
+  "Alabang (Philippines) [10K]": [
+    121.0385,
+    14.4184
+  ],
+  "Balagtas (Philippines) [10K]": [
+    120.9085,
+    14.8145
+  ],
+  "Sucat (Philippines) [10K]": [
+    121.05,
+    14.46
+  ],
+  "Virac (Philippines) [10K]": [
+    124.2333,
+    13.5833
+  ],
+  "Bagumbayan (Philippines) [10K]": [
+    124.5633,
+    6.5339
+  ],
+  "Maharlika Village (Philippines) [10K]": [
+    121.0533,
+    14.4989
+  ],
+  "San Dionisio (Philippines) [10K]": [
+    123.0948,
+    11.2711
+  ],
+  "Pavia (Philippines) [10K]": [
+    122.5417,
+    10.775
+  ],
+  "Oroquieta (Philippines) [10K]": [
+    123.8,
+    8.4833
+  ],
+  "Borongan (Philippines) [10K]": [
+    125.4361,
+    11.6094
+  ],
+  "Bayombong (Philippines) [10K]": [
+    121.15,
+    16.4833
+  ],
+  "Bignay (Philippines) [10K]": [
+    120.9961,
+    14.7456
+  ],
+  "Cupang (Philippines) [10K]": [
+    121.0486,
+    14.4315
+  ],
+  "Tunasan (Philippines) [10K]": [
+    121.0364,
+    14.3725
+  ],
+  "Teresa (Philippines) [10K]": [
+    121.2083,
+    14.5586
+  ],
+  "Don Bosco (Philippines) [10K]": [
+    121.0258,
+    14.4817
+  ],
+  "Taal (Philippines) [10K]": [
+    120.9333,
+    13.8833
+  ],
+  "Tandag (Philippines) [10K]": [
+    126.1986,
+    9.0789
+  ],
+  "Don Galo (Philippines) [10K]": [
+    120.9844,
+    14.5072
+  ],
+  "Pinagkaisahan (Philippines) [10K]": [
+    121.0555,
+    14.5229
+  ],
+  "Naval (Philippines) [10K]": [
+    124.45,
+    11.5833
+  ],
+  "Caridad (Philippines) [10K]": [
+    120.8958,
+    14.4828
+  ],
+  "Karuhatan (Philippines) [10K]": [
+    120.9761,
+    14.6883
+  ],
+  "Boac (Philippines) [10K]": [
+    121.8333,
+    13.45
+  ],
+  "Pansol (Philippines) [10K]": [
+    121.08,
+    14.6514
+  ],
+  "Bagong Pag-Asa (Philippines) [10K]": [
+    121.0331,
+    14.6622
+  ],
+  "Quiapo (Philippines) [10K]": [
+    120.983,
+    14.6
+  ],
+  "Vigan (Philippines) [10K]": [
+    120.3869,
+    17.5747
+  ],
+  "Iba (Philippines) [10K]": [
+    119.9833,
+    15.3333
+  ],
+  "Marikina Heights (Philippines) [10K]": [
+    121.1187,
+    14.6534
+  ],
+  "Santo Cristo (Philippines) [10K]": [
+    121.03,
+    14.6603
+  ],
+  "Noveleta (Philippines) [10K]": [
+    120.8833,
+    14.4333
+  ],
+  "Binondo (Philippines) [10K]": [
+    120.967,
+    14.6
+  ],
+  "Plainview (Philippines) [10K]": [
+    121.0337,
+    14.5777
+  ],
+  "Bangued (Philippines) [10K]": [
+    120.6179,
+    17.5965
+  ],
+  "Guadalupe Nuevo (Philippines) [10K]": [
+    121.0446,
+    14.5587
+  ],
+  "Tubod (Philippines) [10K]": [
+    125.5697,
+    9.5547
+  ],
+  "Santo Nino (Philippines) [10K]": [
+    124.4492,
+    11.9263
+  ],
+  "Mamburao (Philippines) [10K]": [
+    120.596,
+    13.2233
+  ],
+  "Palayan City (Philippines) [10K]": [
+    121.0844,
+    15.5422
+  ],
+  "Baclaran (Philippines) [10K]": [
+    120.9942,
+    14.5319
+  ],
+  "Pinyahan (Philippines) [10K]": [
+    121.0461,
+    14.64
+  ],
+  "Baler (Philippines) [10K]": [
+    121.5625,
+    15.7583
+  ],
+  "Krus na Ligas (Philippines) [10K]": [
+    121.0636,
+    14.6442
+  ],
+  "Buli (Philippines) [10K]": [
+    121.051,
+    14.443
+  ],
+  "Balintawak (Philippines) [10K]": [
+    121.0014,
+    14.6506
+  ],
+  "Mambajao (Philippines) [10K]": [
+    124.7167,
+    9.25
+  ],
+  "Romblon (Philippines) [10K]": [
+    122.28,
+    12.55
+  ],
+  "Soccorro (Philippines) [10K]": [
+    121.0558,
+    14.6179
+  ],
+  "Jordan (Philippines) [10K]": [
+    122.6,
+    10.6
+  ],
+  "San Roque (Philippines) [10K]": [
+    124.867,
+    12.533
+  ],
+  "Calumpang (Philippines) [10K]": [
+    121.0865,
+    14.6249
+  ],
+  "Project Six (Philippines) [10K]": [
+    121.0408,
+    14.6561
+  ],
+  "Barangka (Philippines) [10K]": [
+    121.0803,
+    14.6297
+  ],
+  "San Martin De Porres (Philippines) [10K]": [
+    121.0425,
+    14.4817
+  ],
+  "Shariff Aguak (Philippines) [10K]": [
+    124.4417,
+    6.8647
+  ],
+  "Tambo (Philippines) [10K]": [
+    120.9889,
+    14.5164
+  ],
+  "Balangkas (Philippines) [10K]": [
+    120.9978,
+    14.7381
+  ],
+  "Cabarroguis (Philippines) [10K]": [
+    121.5222,
+    16.5103
+  ],
+  "Camaligan (Philippines) [10K]": [
+    123.1656,
+    13.6208
+  ],
+  "Siquijor (Philippines) [10K]": [
+    123.58,
+    9.18
+  ],
+  "Loyola Heights (Philippines) [10K]": [
+    121.0744,
+    14.6403
+  ],
+  "La Huerta (Philippines) [1K]": [
+    120.9953,
+    14.4972
+  ],
+  "General Emilio Aguinaldo (Philippines) [10K]": [
+    120.8,
+    14.1833
+  ],
+  "Napindan (Philippines) [10K]": [
+    121.0966,
+    14.5398
+  ],
+  "Bambang (Philippines) [10K]": [
+    121.1075,
+    16.3872
+  ],
+  "Tuktukan (Philippines) [10K]": [
+    121.0718,
+    14.528
+  ],
+  "Bontoc (Philippines) [10K]": [
+    124.9667,
+    10.35
+  ],
+  "Mariana (Philippines) [10K]": [
+    121.0347,
+    14.6194
+  ],
+  "Lagawe (Philippines) [10K]": [
+    121.1228,
+    16.7975
+  ],
+  "Ermita (Philippines) [10K]": [
+    120.983,
+    14.583
+  ],
+  "Fort Bonifacio (Philippines) [10K]": [
+    121.0478,
+    14.5311
+  ],
+  "Kabugao (Philippines) [10K]": [
+    121.1833,
+    18.0239
+  ],
+  "Magugpo Poblacion (Philippines) [1K]": [
+    125.8017,
+    7.3821
+  ],
+  "Basco (Philippines) [1K]": [
+    121.9667,
+    20.45
+  ],
+  "Alaminos (Philippines) [10K]": [
+    121.2451,
+    14.0635
+  ],
+  "Pili (Philippines) [10K]": [
+    123.2756,
+    13.5561
+  ],
+  "Oton (Philippines) [10K]": [
+    122.4736,
+    10.6931
+  ],
+  "Bislig (Philippines) [10K]": [
+    126.3161,
+    8.2133
+  ],
+  "M'lang (Philippines) [10K]": [
+    124.8833,
+    6.95
+  ],
+  "Balayan (Philippines) [10K]": [
+    120.7333,
+    13.9333
+  ],
+  "Escalante (Philippines) [10K]": [
+    123.5,
+    10.8333
+  ],
+  "Balamban (Philippines) [10K]": [
+    123.7833,
+    10.4667
+  ],
+  "Gerona (Philippines) [10K]": [
+    120.5986,
+    15.6069
+  ],
+  "Lopez (Philippines) [10K]": [
+    122.2604,
+    13.884
+  ],
+  "Daanbantayan (Philippines) [10K]": [
+    124.0,
+    11.25
+  ],
+  "Monkayo (Philippines) [10K]": [
+    126.0536,
+    7.8239
+  ],
+  "Lemery (Philippines) [10K]": [
+    122.9333,
+    11.2333
+  ],
+  "Kabacan (Philippines) [10K]": [
+    124.8167,
+    7.1167
+  ],
+  "Indanan (Philippines) [10K]": [
+    120.9667,
+    6.0
+  ],
+  "Santa Barbara (Philippines) [10K]": [
+    122.5344,
+    10.8231
+  ],
+  "Palimbang (Philippines) [10K]": [
+    124.2,
+    6.2167
+  ],
+  "Sablayan (Philippines) [10K]": [
+    120.775,
+    12.8428
+  ],
+  "Bauan (Philippines) [10K]": [
+    121.0085,
+    13.7917
+  ],
+  "Salaman (Philippines) [10K]": [
+    124.0667,
+    6.6333
+  ],
+  "Pongotan (Philippines) [10K]": [
+    125.8975,
+    7.1269
+  ],
+  "Victorias (Philippines) [10K]": [
+    123.0833,
+    10.9
+  ],
+  "Pinamalayan (Philippines) [10K]": [
+    121.4889,
+    13.0364
+  ],
+  "Compostela (Philippines) [10K]": [
+    126.0833,
+    7.6667
+  ],
+  "Polangui (Philippines) [10K]": [
+    123.4856,
+    13.2922
+  ],
+  "Bogo (Philippines) [10K]": [
+    124.0,
+    11.0167
+  ],
+  "Banga (Philippines) [10K]": [
+    122.3331,
+    11.6389
+  ],
+  "Surallah (Philippines) [10K]": [
+    124.7333,
+    6.3667
+  ],
+  "Hinigaran (Philippines) [10K]": [
+    122.85,
+    10.2667
+  ],
+  "Calabanga (Philippines) [10K]": [
+    123.2161,
+    13.7089
+  ],
+  "Passi (Philippines) [10K]": [
+    122.6333,
+    11.1
+  ],
+  "Murcia (Philippines) [10K]": [
+    123.0333,
+    10.6
+  ],
+  "Calauan (Philippines) [10K]": [
+    121.3167,
+    14.15
+  ],
+  "Solana (Philippines) [10K]": [
+    121.6914,
+    17.6522
+  ],
+  "Baras (Philippines) [10K]": [
+    124.3667,
+    13.6667
+  ],
+  "Aroroy (Philippines) [10K]": [
+    123.3989,
+    12.5125
+  ],
+  "Echague (Philippines) [10K]": [
+    121.6761,
+    16.7056
+  ],
+  "San Fabian (Philippines) [10K]": [
+    120.45,
+    16.15
+  ],
+  "Makilala (Philippines) [10K]": [
+    125.0833,
+    6.9667
+  ],
+  "Calaca (Philippines) [10K]": [
+    120.8131,
+    13.93
+  ],
+  "Camiling (Philippines) [10K]": [
+    120.4131,
+    15.6867
+  ],
+  "Baggao (Philippines) [10K]": [
+    121.7733,
+    17.9347
+  ],
+  "Binmaley (Philippines) [10K]": [
+    120.269,
+    16.0323
+  ],
+  "Nabua (Philippines) [10K]": [
+    123.375,
+    13.4083
+  ],
+  "Bantayan (Philippines) [10K]": [
+    123.7333,
+    11.2
+  ],
+  "Tagaytay (Philippines) [10K]": [
+    120.9333,
+    14.1
+  ],
+  "Cabiao (Philippines) [10K]": [
+    120.8575,
+    15.2522
+  ],
+  "Guinobatan (Philippines) [10K]": [
+    123.6,
+    13.1833
+  ],
+  "Batarasa (Philippines) [10K]": [
+    117.62,
+    8.67
+  ],
+  "Dapitan (Philippines) [10K]": [
+    123.4243,
+    8.6549
+  ],
+  "Science City of Munoz (Philippines) [10K]": [
+    120.9039,
+    15.7153
+  ],
+  "Bais (Philippines) [10K]": [
+    123.1213,
+    9.5907
+  ],
+  "Bolinao (Philippines) [10K]": [
+    119.8947,
+    16.3881
+  ],
+  "Maco (Philippines) [10K]": [
+    125.8553,
+    7.3619
+  ],
+  "Siaton (Philippines) [10K]": [
+    123.0333,
+    9.0667
+  ],
+  "Mabinay (Philippines) [10K]": [
+    122.9167,
+    9.7333
+  ],
+  "Tanjay (Philippines) [10K]": [
+    123.1583,
+    9.5167
+  ],
+  "Calatrava (Philippines) [10K]": [
+    122.0708,
+    12.6167
+  ],
+  "Bulacan (Philippines) [10K]": [
+    120.8789,
+    14.7928
+  ],
+  "Siasi (Philippines) [10K]": [
+    120.8145,
+    5.5462
+  ],
+  "Ubay (Philippines) [10K]": [
+    124.4729,
+    10.056
+  ],
+  "Buhi (Philippines) [10K]": [
+    123.5167,
+    13.4347
+  ],
+  "Matalam (Philippines) [10K]": [
+    124.9,
+    7.0833
+  ],
+  "Lambunao (Philippines) [10K]": [
+    122.4833,
+    11.05
+  ],
+  "Barili (Philippines) [10K]": [
+    123.5333,
+    10.1167
+  ],
+  "Kapalong (Philippines) [10K]": [
+    125.7052,
+    7.5854
+  ],
+  "Tagoloan (Philippines) [10K]": [
+    124.4392,
+    8.1092
+  ],
+  "San Francisco (Philippines) [10K]": [
+    124.35,
+    10.65
+  ],
+  "Malapatan (Philippines) [10K]": [
+    125.2833,
+    5.9667
+  ],
+  "Jaen (Philippines) [10K]": [
+    120.9069,
+    15.3392
+  ],
+  "Robles (Philippines) [10K]": [
+    123.0667,
+    10.35
+  ],
+  "Patikul (Philippines) [10K]": [
+    121.1,
+    6.0667
+  ],
+  "Mangatarem (Philippines) [10K]": [
+    120.2921,
+    15.7874
+  ],
+  "Bauang (Philippines) [10K]": [
+    120.3333,
+    16.5333
+  ],
+  "Pagbilao (Philippines) [10K]": [
+    121.687,
+    13.972
+  ],
+  "Pototan (Philippines) [10K]": [
+    122.6333,
+    10.95
+  ],
+  "Limay (Philippines) [10K]": [
+    120.5983,
+    14.5619
+  ],
+  "Macabebe (Philippines) [10K]": [
+    120.7156,
+    14.9081
+  ],
+  "Argao (Philippines) [10K]": [
+    123.6,
+    9.8833
+  ],
+  "Bamban (Philippines) [10K]": [
+    120.5669,
+    15.2742
+  ],
+  "Bustos (Philippines) [10K]": [
+    120.9167,
+    14.95
+  ],
+  "Narra (Philippines) [10K]": [
+    118.4167,
+    9.2833
+  ],
+  "Hermosa (Philippines) [10K]": [
+    120.5,
+    14.8333
+  ],
+  "Santa Catalina (Philippines) [10K]": [
+    120.3644,
+    17.5917
+  ],
+  "Manaoag (Philippines) [10K]": [
+    120.4856,
+    16.0439
+  ],
+  "Umingan (Philippines) [10K]": [
+    120.8419,
+    15.9289
+  ],
+  "Bongabong (Philippines) [10K]": [
+    121.4881,
+    12.7469
+  ],
+  "Talakag (Philippines) [10K]": [
+    124.6025,
+    8.2319
+  ],
+  "Palo (Philippines) [10K]": [
+    124.9917,
+    11.1583
+  ],
+  "Infanta (Philippines) [10K]": [
+    119.9083,
+    15.8208
+  ],
+  "Pilar (Philippines) [10K]": [
+    120.5954,
+    17.4168
+  ],
+  "Pinamungahan (Philippines) [10K]": [
+    123.5833,
+    10.2667
+  ],
+  "Libon (Philippines) [10K]": [
+    123.4333,
+    13.3
+  ],
+  "Bugallon (Philippines) [10K]": [
+    120.1833,
+    15.9167
+  ],
+  "Pozorrubio (Philippines) [10K]": [
+    120.55,
+    16.1167
+  ],
+  "Dalaguete (Philippines) [10K]": [
+    123.5349,
+    9.7612
+  ],
+  "Esperanza (Philippines) [10K]": [
+    124.0417,
+    11.7369
+  ],
+  "Balingasag (Philippines) [10K]": [
+    124.7833,
+    8.75
+  ],
+  "Dumangas (Philippines) [10K]": [
+    122.7167,
+    10.8333
+  ],
+  "Alicia (Philippines) [10K]": [
+    124.4415,
+    9.8957
+  ],
+  "Brookes Point (Philippines) [10K]": [
+    117.8333,
+    8.7833
+  ],
+  "Lala (Philippines) [10K]": [
+    123.75,
+    7.9667
+  ],
+  "Tupi (Philippines) [10K]": [
+    124.95,
+    6.3333
+  ],
+  "Bula (Philippines) [10K]": [
+    123.2775,
+    13.4694
+  ],
+  "Jose Abad Santos (Philippines) [10K]": [
+    125.65,
+    5.9167
+  ],
+  "Carles (Philippines) [10K]": [
+    123.1333,
+    11.5667
+  ],
+  "Bacacay (Philippines) [10K]": [
+    123.7917,
+    13.2925
+  ],
+  "Morong (Philippines) [10K]": [
+    120.2683,
+    14.68
+  ],
+  "Catanauan (Philippines) [10K]": [
+    122.325,
+    13.5917
+  ],
+  "Sipalay (Philippines) [10K]": [
+    122.4,
+    9.75
+  ],
+  "Camalig (Philippines) [10K]": [
+    123.6667,
+    13.1333
+  ],
+  "Pililla (Philippines) [10K]": [
+    121.3,
+    14.4833
+  ],
+  "Pigcawayan (Philippines) [10K]": [
+    124.4333,
+    7.2833
+  ],
+  "Gumaca (Philippines) [10K]": [
+    122.1002,
+    13.921
+  ],
+  "Calauag (Philippines) [10K]": [
+    122.2875,
+    13.9575
+  ],
+  "Binalbagan (Philippines) [10K]": [
+    122.8667,
+    10.2
+  ],
+  "Talibon (Philippines) [10K]": [
+    124.2833,
+    10.1167
+  ],
+  "Goa (Philippines) [10K]": [
+    123.4889,
+    13.6983
+  ],
+  "Orani (Philippines) [10K]": [
+    120.5333,
+    14.8
+  ],
+  "Mauban (Philippines) [10K]": [
+    121.7308,
+    14.1911
+  ],
+  "Aliaga (Philippines) [10K]": [
+    120.845,
+    15.5036
+  ],
+  "Tumauini (Philippines) [10K]": [
+    121.8,
+    17.2667
+  ],
+  "Rizal (Philippines) [10K]": [
+    123.5517,
+    8.5272
+  ],
+  "Tinambac (Philippines) [10K]": [
+    123.3244,
+    13.8183
+  ],
+  "San Pascual (Philippines) [10K]": [
+    122.9775,
+    13.1286
+  ],
+  "Victoria (Philippines) [10K]": [
+    124.3167,
+    12.45
+  ],
+  "Roxas (Philippines) [10K]": [
+    121.5,
+    12.5833
+  ],
+  "Indang (Philippines) [10K]": [
+    120.8833,
+    14.2
+  ],
+  "Don Carlos (Philippines) [10K]": [
+    124.9953,
+    7.6808
+  ],
+  "La Paz (Philippines) [10K]": [
+    120.6847,
+    17.6739
+  ],
+  "Mamungan (Philippines) [10K]": [
+    124.2167,
+    8.1167
+  ],
+  "Aparri (Philippines) [10K]": [
+    121.6372,
+    18.3575
+  ],
+  "Buenavista (Philippines) [10K]": [
+    121.95,
+    13.25
+  ],
+  "San Leonardo (Philippines) [10K]": [
+    120.9622,
+    15.3611
+  ],
+  "Tangub (Philippines) [10K]": [
+    123.75,
+    8.0667
+  ],
+  "Bay (Philippines) [10K]": [
+    121.2833,
+    14.1833
+  ],
+  "Alamada (Philippines) [10K]": [
+    124.5534,
+    7.3868
+  ],
+  "Castillejos (Philippines) [10K]": [
+    120.2,
+    14.9333
+  ],
+  "Miagao (Philippines) [10K]": [
+    122.2352,
+    10.6442
+  ],
+  "Tuburan (Philippines) [10K]": [
+    122.2,
+    6.6
+  ],
+  "Sipocot (Philippines) [10K]": [
+    122.9783,
+    13.7675
+  ],
+  "Cuyapo (Philippines) [10K]": [
+    120.6608,
+    15.7778
+  ],
+  "Rosales (Philippines) [10K]": [
+    120.6328,
+    15.8944
+  ],
+  "Agoo (Philippines) [10K]": [
+    120.3647,
+    16.322
+  ],
+  "Janiuay (Philippines) [10K]": [
+    122.5,
+    10.95
+  ],
+  "La Carlota (Philippines) [10K]": [
+    122.9167,
+    10.4167
+  ],
+  "Bongabon (Philippines) [10K]": [
+    121.1448,
+    15.6321
+  ],
+  "Lupon (Philippines) [10K]": [
+    126.0117,
+    6.8969
+  ],
+  "Botolan (Philippines) [10K]": [
+    120.0245,
+    15.2896
+  ],
+  "Opol (Philippines) [10K]": [
+    124.5667,
+    8.5167
+  ],
+  "Angat (Philippines) [10K]": [
+    121.0293,
+    14.9281
+  ],
+  "San Remigio (Philippines) [10K]": [
+    122.0875,
+    10.8331
+  ],
+  "Oas (Philippines) [10K]": [
+    123.4953,
+    13.2589
+  ],
+  "Malvar (Philippines) [10K]": [
+    121.1583,
+    14.0417
+  ],
+  "Lantapan (Philippines) [10K]": [
+    125.0233,
+    8.0
+  ],
+  "Tigbauan (Philippines) [10K]": [
+    122.3776,
+    10.6747
+  ],
+  "Kiamba (Philippines) [10K]": [
+    124.6167,
+    5.9833
+  ],
+  "Coron (Philippines) [10K]": [
+    120.2,
+    12.0
+  ],
+  "Villasis (Philippines) [10K]": [
+    120.5833,
+    15.9
+  ],
+  "Lutayan (Philippines) [10K]": [
+    124.85,
+    6.6
+  ],
+  "Solano (Philippines) [10K]": [
+    121.1811,
+    16.5183
+  ],
+  "Nagcarlan (Philippines) [10K]": [
+    121.4165,
+    14.1364
+  ],
+  "Isabela (Philippines) [10K]": [
+    122.9833,
+    10.2
+  ],
+  "Saravia (Philippines) [10K]": [
+    122.9667,
+    10.8833
+  ],
+  "Hilongos (Philippines) [10K]": [
+    124.75,
+    10.3667
+  ],
+  "Sibulan (Philippines) [10K]": [
+    123.2833,
+    9.35
+  ],
+  "Atimonan (Philippines) [10K]": [
+    121.9199,
+    14.0036
+  ],
+  "Tuao (Philippines) [10K]": [
+    121.4553,
+    17.735
+  ],
+  "Sibalom (Philippines) [10K]": [
+    122.0175,
+    10.7883
+  ],
+  "Jose Panganiban (Philippines) [10K]": [
+    122.6928,
+    14.2922
+  ],
+  "Moncada (Philippines) [10K]": [
+    120.5725,
+    15.7331
+  ],
+  "Bansalan (Philippines) [10K]": [
+    125.2167,
+    6.7833
+  ],
+  "Calinog (Philippines) [10K]": [
+    122.5,
+    11.1333
+  ],
+  "Kapatagan (Philippines) [10K]": [
+    123.7667,
+    7.9
+  ],
+  "Aurora (Philippines) [10K]": [
+    121.6357,
+    16.9918
+  ],
+  "Cambanugoy (Philippines) [10K]": [
+    125.7508,
+    7.5386
+  ],
+  "Baao (Philippines) [10K]": [
+    123.3654,
+    13.4535
+  ],
+  "Candon (Philippines) [10K]": [
+    120.4489,
+    17.1958
+  ],
+  "Santo Domingo (Philippines) [10K]": [
+    120.4108,
+    17.6414
+  ],
+  "Orion (Philippines) [10K]": [
+    120.5817,
+    14.6206
+  ],
+  "Cabatuan (Philippines) [10K]": [
+    121.6692,
+    16.9589
+  ],
+  "Itogon (Philippines) [10K]": [
+    120.67,
+    16.37
+  ],
+  "Tigaon (Philippines) [10K]": [
+    123.4975,
+    13.6319
+  ],
+  "Abuyog (Philippines) [10K]": [
+    125.0122,
+    10.7458
+  ],
+  "Tulunan (Philippines) [10K]": [
+    124.8833,
+    6.8333
+  ],
+  "Obando (Philippines) [10K]": [
+    120.9375,
+    14.7083
+  ],
+  "Jinoba-an (Philippines) [10K]": [
+    122.4668,
+    9.6018
+  ],
+  "Malay (Philippines) [10K]": [
+    121.9094,
+    11.8997
+  ],
+  "Castilla (Philippines) [10K]": [
+    123.8764,
+    12.9553
+  ],
+  "Laoang (Philippines) [10K]": [
+    125.0167,
+    12.5667
+  ],
+  "Matanao (Philippines) [10K]": [
+    125.2333,
+    6.75
+  ],
+  "Gubat (Philippines) [10K]": [
+    124.1231,
+    12.9189
+  ],
+  "Paracale (Philippines) [10K]": [
+    122.7869,
+    14.2797
+  ],
+  "Medellin (Philippines) [10K]": [
+    123.9622,
+    11.1286
+  ],
+  "Maimbung (Philippines) [10K]": [
+    121.0333,
+    5.9333
+  ],
+  "San Simon (Philippines) [10K]": [
+    120.78,
+    14.998
+  ],
+  "Alfonso (Philippines) [10K]": [
+    120.8552,
+    14.1379
+  ],
+  "San Mariano (Philippines) [10K]": [
+    122.0167,
+    16.9833
+  ],
+  "Kananya (Philippines) [10K]": [
+    124.5597,
+    11.1856
+  ],
+  "Ilog (Philippines) [10K]": [
+    122.7667,
+    10.0333
+  ],
+  "Sigaboy (Philippines) [10K]": [
+    126.0717,
+    6.6536
+  ],
+  "Ragay (Philippines) [10K]": [
+    122.7897,
+    13.8217
+  ],
+  "Irosin (Philippines) [10K]": [
+    124.0319,
+    12.705
+  ],
+  "San Luis (Philippines) [10K]": [
+    121.5167,
+    15.7167
+  ],
+  "Ibaan (Philippines) [10K]": [
+    121.133,
+    13.8176
+  ],
+  "El Salvador (Philippines) [10K]": [
+    124.5167,
+    8.5667
+  ],
+  "Mansalay (Philippines) [10K]": [
+    121.4385,
+    12.5204
+  ],
+  "Calatagan (Philippines) [10K]": [
+    120.6322,
+    13.8322
+  ],
+  "Masantol (Philippines) [10K]": [
+    120.7167,
+    14.9
+  ],
+  "Canlaon (Philippines) [10K]": [
+    123.2,
+    10.3833
+  ],
+  "Upi (Philippines) [10K]": [
+    124.1629,
+    7.0106
+  ],
+  "Gattaran (Philippines) [10K]": [
+    121.6453,
+    18.0611
+  ],
+  "Barotac Nuevo (Philippines) [10K]": [
+    122.7,
+    10.9
+  ],
+  "Baganga (Philippines) [10K]": [
+    126.5585,
+    7.5752
+  ],
+  "Palompon (Philippines) [10K]": [
+    124.3833,
+    11.05
+  ],
+  "Asingan (Philippines) [10K]": [
+    120.6695,
+    16.0023
+  ],
+  "Cogan (Philippines) [10K]": [
+    123.9667,
+    10.5833
+  ],
+  "Dumanjog (Philippines) [10K]": [
+    123.4833,
+    10.05
+  ],
+  "New Corella (Philippines) [10K]": [
+    125.8237,
+    7.5866
+  ],
+  "Jasaan (Philippines) [10K]": [
+    124.75,
+    8.65
+  ],
+  "Milagros (Philippines) [10K]": [
+    123.5089,
+    12.2192
+  ],
+  "Binalonan (Philippines) [10K]": [
+    120.6,
+    16.05
+  ],
+  "Alangalang (Philippines) [10K]": [
+    124.8478,
+    11.2061
+  ],
+  "Uson (Philippines) [10K]": [
+    123.7834,
+    12.2253
+  ],
+  "Buluan (Philippines) [10K]": [
+    124.7854,
+    6.7154
+  ],
+  "Lian (Philippines) [10K]": [
+    120.65,
+    14.0333
+  ],
+  "Tiwi (Philippines) [10K]": [
+    123.6805,
+    13.4585
+  ],
+  "Ramon (Philippines) [10K]": [
+    121.5333,
+    16.7833
+  ],
+  "Paombong (Philippines) [10K]": [
+    120.7892,
+    14.8311
+  ],
+  "Lagonoy (Philippines) [10K]": [
+    123.5208,
+    13.7353
+  ],
+  "Basey (Philippines) [10K]": [
+    125.0683,
+    11.2817
+  ],
+  "Pangantocan (Philippines) [10K]": [
+    124.8294,
+    7.8331
+  ],
+  "Placer (Philippines) [10K]": [
+    125.6016,
+    9.657
+  ],
+  "Libungan (Philippines) [10K]": [
+    124.5167,
+    7.25
+  ],
+  "Magsaysay (Philippines) [10K]": [
+    121.05,
+    10.8667
+  ],
+  "Pila (Philippines) [10K]": [
+    121.3667,
+    14.2333
+  ],
+  "Diffun (Philippines) [10K]": [
+    121.5025,
+    16.5936
+  ],
+  "Urbiztondo (Philippines) [10K]": [
+    120.3295,
+    15.8227
+  ],
+  "General Tinio (Philippines) [10K]": [
+    121.05,
+    15.35
+  ],
+  "Batac (Philippines) [10K]": [
+    120.5649,
+    18.0554
+  ],
+  "Mulanay (Philippines) [10K]": [
+    122.4042,
+    13.5222
+  ],
+  "Asturias (Philippines) [10K]": [
+    123.7172,
+    10.5679
+  ],
+  "Mercedes (Philippines) [10K]": [
+    123.0109,
+    14.1093
+  ],
+  "Manapla (Philippines) [10K]": [
+    123.123,
+    10.958
+  ],
+  "Carigara (Philippines) [10K]": [
+    124.6833,
+    11.3
+  ],
+  "Estancia (Philippines) [10K]": [
+    123.15,
+    11.45
+  ],
+  "Pontevedra (Philippines) [10K]": [
+    122.8333,
+    11.4833
+  ],
+  "Sara (Philippines) [10K]": [
+    123.0167,
+    11.25
+  ],
+  "Masinloc (Philippines) [10K]": [
+    119.95,
+    15.5333
+  ],
+  "San Manuel (Philippines) [10K]": [
+    120.6072,
+    15.7975
+  ],
+  "Trento (Philippines) [10K]": [
+    126.0614,
+    8.0459
+  ],
+  "Tapas (Philippines) [10K]": [
+    122.5369,
+    11.2622
+  ],
+  "Minalabac (Philippines) [10K]": [
+    123.1844,
+    13.57
+  ],
+  "Titay (Philippines) [10K]": [
+    122.5594,
+    7.8703
+  ],
+  "Tagkawayan (Philippines) [10K]": [
+    122.5333,
+    13.9667
+  ],
+  "Cabagan (Philippines) [10K]": [
+    121.7667,
+    17.4333
+  ],
+  "Impasugong (Philippines) [10K]": [
+    125.0014,
+    8.3028
+  ],
+  "Magpet (Philippines) [10K]": [
+    125.1167,
+    7.1167
+  ],
+  "Kitaotao (Philippines) [10K]": [
+    125.0086,
+    7.6406
+  ],
+  "Zaragoza (Philippines) [10K]": [
+    120.7933,
+    15.4492
+  ],
+  "Sibonga (Philippines) [10K]": [
+    123.5667,
+    10.0333
+  ],
+  "Pasacao (Philippines) [10K]": [
+    123.0419,
+    13.5103
+  ],
+  "Ajuy (Philippines) [10K]": [
+    123.0196,
+    11.1725
+  ],
+  "Dauis (Philippines) [10K]": [
+    123.865,
+    9.625
+  ],
+  "Guiuan (Philippines) [10K]": [
+    125.73,
+    11.03
+  ],
+  "Lucban (Philippines) [10K]": [
+    121.5569,
+    14.1133
+  ],
+  "Barobo (Philippines) [10K]": [
+    126.1217,
+    8.5292
+  ],
+  "Molave (Philippines) [10K]": [
+    123.485,
+    8.0933
+  ],
+  "Hamtic (Philippines) [10K]": [
+    121.9833,
+    10.7
+  ],
+  "Padre Garcia (Philippines) [10K]": [
+    121.2167,
+    13.8833
+  ],
+  "Sison (Philippines) [10K]": [
+    125.5272,
+    9.6592
+  ],
+  "Bani (Philippines) [10K]": [
+    119.8592,
+    16.1869
+  ],
+  "San Joaquin (Philippines) [10K]": [
+    122.0833,
+    10.6
+  ],
+  "Burauen (Philippines) [10K]": [
+    124.9,
+    10.9833
+  ],
+  "Ibajay (Philippines) [10K]": [
+    122.1617,
+    11.8211
+  ],
+  "Naguilian (Philippines) [10K]": [
+    121.85,
+    17.0167
+  ],
+  "Bato (Philippines) [10K]": [
+    124.3,
+    13.6
+  ],
+  "President Roxas (Philippines) [10K]": [
+    122.9247,
+    11.4297
+  ],
+  "Claveria (Philippines) [10K]": [
+    121.0822,
+    18.6061
+  ],
+  "Leon (Philippines) [10K]": [
+    122.3894,
+    10.7808
+  ],
+  "Mabini (Philippines) [10K]": [
+    119.94,
+    16.0697
+  ],
+  "Santa Ignacia (Philippines) [10K]": [
+    120.4333,
+    15.6167
+  ],
+  "Caramoan (Philippines) [10K]": [
+    123.8631,
+    13.7707
+  ],
+  "Cardona (Philippines) [10K]": [
+    121.2289,
+    14.4861
+  ],
+  "Bantacan (Philippines) [10K]": [
+    126.1381,
+    7.5483
+  ],
+  "Ocampo (Philippines) [10K]": [
+    123.3761,
+    13.5594
+  ],
+  "San Narciso (Philippines) [10K]": [
+    120.0833,
+    15.0167
+  ],
+  "Aringay (Philippines) [10K]": [
+    120.3555,
+    16.3982
+  ],
+  "Kalamansig (Philippines) [10K]": [
+    124.05,
+    6.5667
+  ],
+  "Cataingan (Philippines) [10K]": [
+    123.9944,
+    12.0028
+  ],
+  "Gloria (Philippines) [10K]": [
+    121.4778,
+    12.9722
+  ],
+  "Donsol (Philippines) [10K]": [
+    123.5981,
+    12.9083
+  ],
+  "El Nido (Philippines) [10K]": [
+    119.4075,
+    11.1956
+  ],
+  "Amulung (Philippines) [10K]": [
+    121.7235,
+    17.8387
+  ],
+  "Wao (Philippines) [10K]": [
+    124.7257,
+    7.6404
+  ],
+  "Penablanca (Philippines) [10K]": [
+    121.7853,
+    17.6258
+  ],
+  "Pananaw (Philippines) [10K]": [
+    121.25,
+    5.9833
+  ],
+  "Alcala (Philippines) [10K]": [
+    121.6556,
+    17.9031
+  ],
+  "Santa Rita (Philippines) [10K]": [
+    124.9408,
+    11.4522
+  ],
+  "Dumarao (Philippines) [10K]": [
+    122.6878,
+    11.2631
+  ],
+  "Odiongan (Philippines) [10K]": [
+    122.0,
+    12.4
+  ],
+  "Kiblawan (Philippines) [10K]": [
+    125.2167,
+    6.6167
+  ],
+  "Pio Duran (Philippines) [10K]": [
+    123.45,
+    13.0333
+  ],
+  "Dulag (Philippines) [10K]": [
+    125.0317,
+    10.9525
+  ],
+  "Vinzons (Philippines) [10K]": [
+    122.9081,
+    14.1739
+  ],
+  "Minalin (Philippines) [10K]": [
+    120.6833,
+    14.9667
+  ],
+  "Malabang (Philippines) [10K]": [
+    124.0703,
+    7.5903
+  ],
+  "Panay (Philippines) [10K]": [
+    122.7931,
+    11.5553
+  ],
+  "Libona (Philippines) [10K]": [
+    124.7433,
+    8.3333
+  ],
+  "Dumingag (Philippines) [10K]": [
+    123.345,
+    8.155
+  ],
+  "Inabanga (Philippines) [10K]": [
+    124.0667,
+    10.0333
+  ],
+  "Barotac Viejo (Philippines) [10K]": [
+    122.85,
+    11.05
+  ],
+  "Lal-lo (Philippines) [10K]": [
+    121.6622,
+    18.2
+  ],
+  "Bacolor (Philippines) [10K]": [
+    120.6526,
+    14.9984
+  ],
+  "New Washington (Philippines) [10K]": [
+    122.4339,
+    11.6483
+  ],
+  "Siocon (Philippines) [10K]": [
+    122.1361,
+    7.7067
+  ],
+  "Mahayag (Philippines) [10K]": [
+    123.4383,
+    8.1297
+  ],
+  "Tuba (Philippines) [10K]": [
+    120.5603,
+    16.3928
+  ],
+  "Tibigan (Philippines) [10K]": [
+    123.9667,
+    9.95
+  ],
+  "Balimbing (Philippines) [10K]": [
+    123.85,
+    7.9
+  ],
+  "Malinao (Philippines) [10K]": [
+    122.3072,
+    11.6431
+  ],
+  "Sogod (Philippines) [10K]": [
+    124.0,
+    10.75
+  ],
+  "Bunawan (Philippines) [10K]": [
+    125.9935,
+    8.1781
+  ],
+  "Isabel (Philippines) [10K]": [
+    124.43,
+    10.93
+  ],
+  "Sumisip (Philippines) [10K]": [
+    121.9833,
+    6.4167
+  ],
+  "Albuera (Philippines) [10K]": [
+    124.6923,
+    10.9186
+  ],
+  "Ayungon (Philippines) [10K]": [
+    123.1468,
+    9.8584
+  ],
+  "Banisilan (Philippines) [10K]": [
+    124.7,
+    7.5
+  ],
+  "Norala (Philippines) [10K]": [
+    124.6667,
+    6.55
+  ],
+  "Kabasalan (Philippines) [10K]": [
+    122.7627,
+    7.7968
+  ],
+  "Tuy (Philippines) [10K]": [
+    120.7333,
+    14.0167
+  ],
+  "Cordon (Philippines) [10K]": [
+    121.45,
+    16.6667
+  ],
+  "Montevista (Philippines) [10K]": [
+    125.9903,
+    7.7053
+  ],
+  "Narvacan (Philippines) [10K]": [
+    120.4756,
+    17.4192
+  ],
+  "Lower Tungawan (Philippines) [10K]": [
+    122.4228,
+    7.6047
+  ],
+  "Dingle (Philippines) [10K]": [
+    122.6667,
+    11.05
+  ],
+  "Pagalungan (Philippines) [10K]": [
+    124.6987,
+    7.0592
+  ],
+  "Lupao (Philippines) [10K]": [
+    120.8994,
+    15.8794
+  ],
+  "Tayug (Philippines) [10K]": [
+    120.7478,
+    16.0267
+  ],
+  "Pagsanjan (Philippines) [10K]": [
+    121.45,
+    14.2667
+  ],
+  "Maluso (Philippines) [10K]": [
+    121.8833,
+    6.55
+  ],
+  "Lumba-a-Bayabao (Philippines) [10K]": [
+    124.3833,
+    7.8833
+  ],
+  "Tantangan (Philippines) [10K]": [
+    124.75,
+    6.6167
+  ],
+  "Jones (Philippines) [10K]": [
+    121.7,
+    16.5583
+  ],
+  "Talagutong (Philippines) [10K]": [
+    125.6667,
+    6.2667
+  ],
+  "San Jacinto (Philippines) [10K]": [
+    123.7336,
+    12.5683
+  ],
+  "Aguilar (Philippines) [10K]": [
+    120.2379,
+    15.8899
+  ],
+  "Basud (Philippines) [10K]": [
+    122.9667,
+    14.0667
+  ],
+  "Angadanan (Philippines) [10K]": [
+    121.7479,
+    16.7571
+  ],
+  "Buguias (Philippines) [10K]": [
+    120.8211,
+    16.8033
+  ],
+  "Maria Aurora (Philippines) [10K]": [
+    121.4737,
+    15.7967
+  ],
+  "Manjuyod (Philippines) [10K]": [
+    123.15,
+    9.6833
+  ],
+  "Bacnotan (Philippines) [10K]": [
+    120.3481,
+    16.7197
+  ],
+  "Nasipit (Philippines) [10K]": [
+    125.3408,
+    8.9884
+  ],
+  "Katipunan (Philippines) [10K]": [
+    123.2847,
+    8.5134
+  ],
+  "Dolores (Philippines) [10K]": [
+    120.7103,
+    17.649
+  ],
+  "Culasi (Philippines) [10K]": [
+    122.056,
+    11.4272
+  ],
+  "Loon (Philippines) [10K]": [
+    123.8,
+    9.8
+  ],
+  "Banaybanay (Philippines) [10K]": [
+    126.0114,
+    6.9664
+  ],
+  "Labangan (Philippines) [10K]": [
+    123.5167,
+    7.8667
+  ],
+  "Bulalacao (Philippines) [10K]": [
+    121.35,
+    12.3333
+  ],
+  "General Mamerto Natividad (Philippines) [10K]": [
+    121.051,
+    15.603
+  ],
+  "Maitum (Philippines) [10K]": [
+    124.4833,
+    6.0333
+  ],
+  "Cateel (Philippines) [10K]": [
+    126.4531,
+    7.79
+  ],
+  "Mandaon (Philippines) [10K]": [
+    123.2842,
+    12.2259
+  ],
+  "Guinayangan (Philippines) [10K]": [
+    122.45,
+    13.9
+  ],
+  "Labason (Philippines) [10K]": [
+    122.52,
+    8.0647
+  ],
+  "Badian (Philippines) [10K]": [
+    123.3959,
+    9.8694
+  ],
+  "Hinatuan (Philippines) [10K]": [
+    126.3361,
+    8.3661
+  ],
+  "Jaro (Philippines) [10K]": [
+    124.7853,
+    11.1894
+  ],
+  "Loreto (Philippines) [1K]": [
+    125.5816,
+    10.3586
+  ],
+  "Kalilangan (Philippines) [10K]": [
+    124.7475,
+    7.7464
+  ],
+  "Laurel (Philippines) [10K]": [
+    120.9,
+    14.05
+  ],
+  "Toboso (Philippines) [10K]": [
+    123.5167,
+    10.7167
+  ],
+  "Santa Elena (Philippines) [10K]": [
+    122.3919,
+    14.1797
+  ],
+  "Madridejos (Philippines) [10K]": [
+    123.7333,
+    11.2667
+  ],
+  "Moises Padilla (Philippines) [10K]": [
+    123.0833,
+    10.2667
+  ],
+  "Roseller Lim (Philippines) [10K]": [
+    122.4639,
+    7.6583
+  ],
+  "Guambog (Philippines) [10K]": [
+    125.8556,
+    7.3092
+  ],
+  "Abucay (Philippines) [10K]": [
+    120.5354,
+    14.7222
+  ],
+  "South Upi (Philippines) [10K]": [
+    124.1443,
+    6.8548
+  ],
+  "Villaba (Philippines) [10K]": [
+    124.4,
+    11.2167
+  ],
+  "Nueva Valencia (Philippines) [10K]": [
+    122.5398,
+    10.5259
+  ],
+  "Panitan (Philippines) [10K]": [
+    122.7694,
+    11.4639
+  ],
+  "Amadeo (Philippines) [10K]": [
+    120.9277,
+    14.1728
+  ],
+  "Proper Bansud (Philippines) [10K]": [
+    121.4567,
+    12.8594
+  ],
+  "Tucuran (Philippines) [10K]": [
+    123.5783,
+    7.8547
+  ],
+  "Llanera (Philippines) [10K]": [
+    121.0197,
+    15.6625
+  ],
+  "Balabac (Philippines) [10K]": [
+    117.05,
+    7.9833
+  ],
+  "Liloy (Philippines) [10K]": [
+    122.6736,
+    8.1228
+  ],
+  "Carranglan (Philippines) [10K]": [
+    121.0631,
+    15.9608
+  ],
+  "Polanco (Philippines) [10K]": [
+    123.3631,
+    8.5319
+  ],
+  "President Quirino (Philippines) [10K]": [
+    124.7333,
+    6.7
+  ],
+  "Aritao (Philippines) [10K]": [
+    121.0338,
+    16.2973
+  ],
+  "Matnog (Philippines) [10K]": [
+    124.0856,
+    12.5856
+  ],
+  "Bacong (Philippines) [10K]": [
+    123.2948,
+    9.2464
+  ],
+  "Puerto Galera (Philippines) [10K]": [
+    120.9542,
+    13.5
+  ],
+  "Anda (Philippines) [10K]": [
+    124.576,
+    9.744
+  ],
+  "Kibawe (Philippines) [10K]": [
+    124.9903,
+    7.5678
+  ],
+  "Kasibu (Philippines) [10K]": [
+    121.2958,
+    16.3181
+  ],
+  "Daram (Philippines) [10K]": [
+    124.7947,
+    11.6341
+  ],
+  "Socorro (Philippines) [10K]": [
+    125.9661,
+    9.6181
+  ],
+  "Tabogon (Philippines) [10K]": [
+    124.0333,
+    10.9333
+  ],
+  "Tagudin (Philippines) [10K]": [
+    120.4464,
+    16.9361
+  ],
+  "Malilipot (Philippines) [10K]": [
+    123.7333,
+    13.3167
+  ],
+  "Gonzaga (Philippines) [10K]": [
+    121.9969,
+    18.2614
+  ],
+  "Mondragon (Philippines) [10K]": [
+    124.75,
+    12.5167
+  ],
+  "Maayon (Philippines) [10K]": [
+    122.7828,
+    11.3903
+  ],
+  "Lasam (Philippines) [10K]": [
+    121.6,
+    18.0667
+  ],
+  "La Libertad (Philippines) [10K]": [
+    123.2167,
+    10.0333
+  ],
+  "San Jose de Urquico (Philippines) [10K]": [
+    120.4639,
+    15.4781
+  ],
+  "Villanueva (Philippines) [10K]": [
+    124.7833,
+    8.5833
+  ],
+  "Vallehermoso (Philippines) [10K]": [
+    123.3167,
+    10.3333
+  ],
+  "Tagbina (Philippines) [10K]": [
+    126.1578,
+    8.4578
+  ],
+  "Tampakan (Philippines) [10K]": [
+    124.9333,
+    6.45
+  ],
+  "Mobo (Philippines) [10K]": [
+    123.6581,
+    12.3372
+  ],
+  "Nabas (Philippines) [10K]": [
+    122.0939,
+    11.8278
+  ],
+  "Maddela (Philippines) [10K]": [
+    121.6833,
+    16.3411
+  ],
+  "Mambusao (Philippines) [10K]": [
+    122.5953,
+    11.43
+  ],
+  "Lobo (Philippines) [10K]": [
+    121.25,
+    13.65
+  ],
+  "Maragondon (Philippines) [10K]": [
+    120.7333,
+    14.2667
+  ],
+  "Balaoan (Philippines) [10K]": [
+    120.4,
+    16.8167
+  ],
+  "Valladolid (Philippines) [10K]": [
+    122.8333,
+    10.4667
+  ],
+  "Siay (Philippines) [10K]": [
+    122.8641,
+    7.7056
+  ],
+  "Leyte (Philippines) [10K]": [
+    124.4833,
+    11.3667
+  ],
+  "Panglao (Philippines) [10K]": [
+    123.75,
+    9.5833
+  ],
+  "Taysan (Philippines) [10K]": [
+    121.2,
+    13.7833
+  ],
+  "Dingras (Philippines) [10K]": [
+    120.6975,
+    18.1036
+  ],
+  "Payabon (Philippines) [10K]": [
+    123.1333,
+    9.7667
+  ],
+  "Lilio (Philippines) [10K]": [
+    121.436,
+    14.13
+  ],
+  "Malalag (Philippines) [10K]": [
+    125.4,
+    6.6
+  ],
+  "Balud (Philippines) [10K]": [
+    123.1935,
+    12.0369
+  ],
+  "Siniloan (Philippines) [10K]": [
+    121.45,
+    14.4167
+  ],
+  "Pamplona (Philippines) [10K]": [
+    121.3425,
+    18.4661
+  ],
+  "Baco (Philippines) [10K]": [
+    121.0977,
+    13.3584
+  ],
+  "Alimodian (Philippines) [10K]": [
+    122.4322,
+    10.8196
+  ],
+  "Tago (Philippines) [10K]": [
+    126.2333,
+    9.0192
+  ],
+  "San Nicolas (Philippines) [10K]": [
+    120.951,
+    13.9283
+  ],
+  "Palauig (Philippines) [10K]": [
+    119.9083,
+    15.4336
+  ],
+  "Agoncillo (Philippines) [10K]": [
+    120.9285,
+    13.9334
+  ],
+  "Clarin (Philippines) [10K]": [
+    124.0167,
+    9.9667
+  ],
+  "Veruela (Philippines) [10K]": [
+    125.9554,
+    8.0698
+  ],
+  "Kalingalan Caluang (Philippines) [10K]": [
+    121.2667,
+    5.8833
+  ],
+  "Buldon (Philippines) [10K]": [
+    124.3667,
+    7.5167
+  ],
+  "Talacogon (Philippines) [10K]": [
+    125.7869,
+    8.4488
+  ],
+  "Caraga (Philippines) [10K]": [
+    126.5658,
+    7.3283
+  ],
+  "Manay (Philippines) [10K]": [
+    126.5328,
+    7.2108
+  ],
+  "Damulog (Philippines) [10K]": [
+    124.9411,
+    7.4853
+  ],
+  "Sual (Philippines) [10K]": [
+    120.0958,
+    16.0661
+  ],
+  "Mapandan (Philippines) [10K]": [
+    120.454,
+    16.026
+  ],
+  "Cabugao (Philippines) [10K]": [
+    120.4556,
+    17.7947
+  ],
+  "Basista (Philippines) [10K]": [
+    120.3976,
+    15.8524
+  ],
+  "Caluya (Philippines) [10K]": [
+    121.548,
+    11.932
+  ],
+  "Gabaldon (Philippines) [10K]": [
+    121.3378,
+    15.4506
+  ],
+  "Bangar (Philippines) [10K]": [
+    120.4167,
+    16.9
+  ],
+  "Margosatubig (Philippines) [10K]": [
+    123.1659,
+    7.5783
+  ],
+  "Aborlan (Philippines) [10K]": [
+    118.5481,
+    9.4386
+  ],
+  "Olutanga (Philippines) [10K]": [
+    122.8464,
+    7.3106
+  ],
+  "Jamindan (Philippines) [10K]": [
+    122.5103,
+    11.4094
+  ],
+  "Real (Philippines) [10K]": [
+    121.6,
+    14.6667
+  ],
+  "Buug (Philippines) [10K]": [
+    123.0608,
+    7.7286
+  ],
+  "Patnongon (Philippines) [10K]": [
+    121.9947,
+    10.9142
+  ],
+  "Borbon (Philippines) [10K]": [
+    124.0,
+    10.8333
+  ],
+  "Tayasan (Philippines) [10K]": [
+    123.15,
+    9.9167
+  ],
+  "Laur (Philippines) [10K]": [
+    121.1864,
+    15.5797
+  ],
+  "Bagabag (Philippines) [10K]": [
+    121.2521,
+    16.6044
+  ],
+  "Luna (Philippines) [10K]": [
+    121.7333,
+    16.9667
+  ],
+  "Luuk (Philippines) [10K]": [
+    121.3133,
+    5.9676
+  ],
+  "Mabuhay (Philippines) [10K]": [
+    122.837,
+    7.4176
+  ],
+  "Marantao (Philippines) [10K]": [
+    124.233,
+    7.95
+  ],
+  "San Marcelino (Philippines) [10K]": [
+    120.1573,
+    14.9742
+  ],
+  "Tambulig (Philippines) [10K]": [
+    123.5372,
+    8.07
+  ],
+  "Magallanes (Philippines) [10K]": [
+    125.5179,
+    9.0225
+  ],
+  "Oras (Philippines) [10K]": [
+    125.4392,
+    12.1414
+  ],
+  "Bantay (Philippines) [10K]": [
+    120.3908,
+    17.5839
+  ],
+  "Mankayan (Philippines) [10K]": [
+    120.7933,
+    16.8567
+  ],
+  "Sitangkai (Philippines) [10K]": [
+    119.3919,
+    4.6615
+  ],
+  "Basilisa (Philippines) [10K]": [
+    125.5968,
+    10.0654
+  ],
+  "San Enrique (Philippines) [10K]": [
+    122.85,
+    10.4167
+  ],
+  "Moalboal (Philippines) [10K]": [
+    123.4,
+    9.95
+  ],
+  "Imbatug (Philippines) [10K]": [
+    124.6873,
+    8.3128
+  ],
+  "Languyan (Philippines) [10K]": [
+    120.0833,
+    5.2667
+  ],
+  "Sagnay (Philippines) [10K]": [
+    123.5233,
+    13.6039
+  ],
+  "Canaman (Philippines) [10K]": [
+    123.1711,
+    13.6481
+  ],
+  "Manucan (Philippines) [10K]": [
+    123.0917,
+    8.5161
+  ],
+  "Numancia (Philippines) [10K]": [
+    122.3289,
+    11.7042
+  ],
+  "Enrile (Philippines) [10K]": [
+    121.7011,
+    17.5622
+  ],
+  "Cuenca (Philippines) [10K]": [
+    121.05,
+    13.9167
+  ],
+  "Las Navas (Philippines) [10K]": [
+    125.032,
+    12.34
+  ],
+  "Dinas (Philippines) [10K]": [
+    123.3378,
+    7.6161
+  ],
+  "Gasan (Philippines) [10K]": [
+    121.85,
+    13.3167
+  ],
+  "Simbahan (Philippines) [10K]": [
+    120.5833,
+    6.3
+  ],
+  "Cabanglasan (Philippines) [10K]": [
+    125.2992,
+    8.0772
+  ],
+  "Dagami (Philippines) [10K]": [
+    124.9031,
+    11.0611
+  ],
+  "Rapu-Rapu (Philippines) [10K]": [
+    124.1333,
+    13.1833
+  ],
+  "Capalonga (Philippines) [10K]": [
+    122.4928,
+    14.3314
+  ],
+  "Siayan (Philippines) [10K]": [
+    123.1144,
+    8.2517
+  ],
+  "Pandan (Philippines) [10K]": [
+    124.1667,
+    14.05
+  ],
+  "Barira (Philippines) [10K]": [
+    124.3561,
+    7.4706
+  ],
+  "Gutalac (Philippines) [10K]": [
+    122.4,
+    7.9833
+  ],
+  "Bautista (Philippines) [10K]": [
+    120.4756,
+    15.8103
+  ],
+  "Sibuco (Philippines) [10K]": [
+    122.0669,
+    7.2928
+  ],
+  "Matanog (Philippines) [10K]": [
+    124.25,
+    7.4667
+  ],
+  "Jagna (Philippines) [10K]": [
+    124.3667,
+    9.65
+  ],
+  "Casiguran (Philippines) [10K]": [
+    122.1167,
+    16.2833
+  ],
+  "Medina (Philippines) [10K]": [
+    125.0167,
+    8.9167
+  ],
+  "Guimbal (Philippines) [10K]": [
+    122.3167,
+    10.6667
+  ],
+  "Leganes (Philippines) [10K]": [
+    122.5833,
+    10.7833
+  ],
+  "Pambujan (Philippines) [10K]": [
+    124.9333,
+    12.5667
+  ],
+  "Balasan (Philippines) [10K]": [
+    123.0878,
+    11.4728
+  ],
+  "Santa Fe (Philippines) [10K]": [
+    122.0,
+    12.15
+  ],
+  "Mendez-Nunez (Philippines) [10K]": [
+    120.9058,
+    14.1286
+  ],
+  "Pola (Philippines) [10K]": [
+    121.44,
+    13.1439
+  ],
+  "Juban (Philippines) [10K]": [
+    123.9894,
+    12.8478
+  ],
+  "Sulop (Philippines) [10K]": [
+    125.3436,
+    6.5986
+  ],
+  "Allacapan (Philippines) [10K]": [
+    121.5556,
+    18.227
+  ],
+  "Gandara (Philippines) [10K]": [
+    124.8118,
+    12.013
+  ],
+  "Trinidad (Philippines) [10K]": [
+    124.3432,
+    10.0795
+  ],
+  "Lingig (Philippines) [10K]": [
+    126.4127,
+    8.0381
+  ],
+  "Abra de Ilog (Philippines) [10K]": [
+    120.726,
+    13.4448
+  ],
+  "Munai (Philippines) [10K]": [
+    124.0636,
+    7.9758
+  ],
+  "Payao (Philippines) [10K]": [
+    122.8022,
+    7.5857
+  ],
+  "Aloguinsan (Philippines) [10K]": [
+    123.5491,
+    10.2229
+  ],
+  "Duenas (Philippines) [10K]": [
+    122.6167,
+    11.0667
+  ],
+  "Milaor (Philippines) [10K]": [
+    123.1781,
+    13.5956
+  ],
+  "Laoac East (Philippines) [10K]": [
+    120.55,
+    16.0333
+  ],
+  "Barugo (Philippines) [10K]": [
+    124.7333,
+    11.3167
+  ],
+  "Bugasong (Philippines) [10K]": [
+    122.0647,
+    11.0447
+  ],
+  "Mogpog (Philippines) [10K]": [
+    121.8667,
+    13.4833
+  ],
+  "Abulug (Philippines) [10K]": [
+    121.4576,
+    18.4441
+  ],
+  "Jalajala (Philippines) [10K]": [
+    121.3233,
+    14.3557
+  ],
+  "Bonifacio (Philippines) [10K]": [
+    123.6136,
+    8.0527
+  ],
+  "Ballesteros (Philippines) [10K]": [
+    121.5169,
+    18.4108
+  ],
+  "Bayog (Philippines) [10K]": [
+    123.0423,
+    7.8474
+  ],
+  "New Panamao (Philippines) [10K]": [
+    121.2,
+    5.9667
+  ],
+  "Simunul (Philippines) [10K]": [
+    119.8213,
+    4.898
+  ],
+  "Talayan (Philippines) [10K]": [
+    124.3564,
+    6.9844
+  ],
+  "Tandubas (Philippines) [10K]": [
+    120.3461,
+    5.134
+  ],
+  "Sibutu (Philippines) [10K]": [
+    119.4667,
+    4.85
+  ],
+  "Pinukpuk (Philippines) [10K]": [
+    121.3653,
+    17.5731
+  ],
+  "Guindulman (Philippines) [10K]": [
+    124.488,
+    9.762
+  ],
+  "San Quintin (Philippines) [10K]": [
+    120.815,
+    15.9844
+  ],
+  "General Nakar (Philippines) [10K]": [
+    121.635,
+    14.7631
+  ],
+  "Dao (Philippines) [10K]": [
+    122.63,
+    11.38
+  ],
+  "Palapag (Philippines) [10K]": [
+    125.116,
+    12.547
+  ],
+  "Tabango (Philippines) [10K]": [
+    124.3714,
+    11.3067
+  ],
+  "Initao (Philippines) [10K]": [
+    124.3167,
+    8.5
+  ],
+  "Cantilan (Philippines) [10K]": [
+    125.9769,
+    9.3356
+  ],
+  "Tobias Fornier (Philippines) [10K]": [
+    121.945,
+    10.5178
+  ],
+  "Lianga (Philippines) [10K]": [
+    126.0932,
+    8.633
+  ],
+  "Lupi Viejo (Philippines) [10K]": [
+    122.9092,
+    13.7908
+  ],
+  "Catmon (Philippines) [10K]": [
+    123.95,
+    10.6667
+  ],
+  "Sibagat (Philippines) [10K]": [
+    125.6938,
+    8.8219
+  ],
+  "Bacarra (Philippines) [10K]": [
+    120.6107,
+    18.2519
+  ],
+  "Datu Paglas (Philippines) [10K]": [
+    124.85,
+    6.7669
+  ],
+  "Kadingilan (Philippines) [10K]": [
+    124.9097,
+    7.6003
+  ],
+  "Batan (Philippines) [10K]": [
+    122.4981,
+    11.5853
+  ],
+  "Capoocan (Philippines) [10K]": [
+    124.6419,
+    11.2944
+  ],
+  "Batobato (Philippines) [10K]": [
+    126.0889,
+    6.8361
+  ],
+  "Masiu (Philippines) [10K]": [
+    124.3167,
+    7.8167
+  ],
+  "Midsalip (Philippines) [10K]": [
+    123.3147,
+    8.0328
+  ],
+  "Sapa Sapa (Philippines) [10K]": [
+    120.2729,
+    5.0899
+  ],
+  "Banate (Philippines) [10K]": [
+    122.7833,
+    11.05
+  ],
+  "Getafe (Philippines) [10K]": [
+    124.15,
+    10.15
+  ],
+  "Columbio (Philippines) [10K]": [
+    124.9333,
+    6.7
+  ],
+  "San Vicente (Philippines) [10K]": [
+    122.8733,
+    14.1061
+  ],
+  "Calape (Philippines) [10K]": [
+    123.8833,
+    9.8833
+  ],
+  "Vintar (Philippines) [10K]": [
+    120.6489,
+    18.2306
+  ],
+  "Dupax Del Norte (Philippines) [10K]": [
+    121.1019,
+    16.3075
+  ],
+  "Pandami (Philippines) [10K]": [
+    120.75,
+    5.5333
+  ],
+  "Dipaculao (Philippines) [10K]": [
+    121.6333,
+    15.9833
+  ],
+  "Dumalinao (Philippines) [10K]": [
+    123.3667,
+    7.8167
+  ],
+  "Lumbang (Philippines) [10K]": [
+    121.459,
+    14.297
+  ],
+  "Badoc (Philippines) [10K]": [
+    120.4754,
+    17.9267
+  ],
+  "Matalom (Philippines) [10K]": [
+    124.8,
+    10.2833
+  ],
+  "Diplahan (Philippines) [10K]": [
+    122.9853,
+    7.6911
+  ],
+  "Mayantoc (Philippines) [10K]": [
+    120.3775,
+    15.6203
+  ],
+  "Balindong (Philippines) [10K]": [
+    124.2,
+    7.9167
+  ],
+  "Penaranda (Philippines) [10K]": [
+    121.0017,
+    15.3531
+  ],
+  "Alubijid (Philippines) [10K]": [
+    124.4751,
+    8.5714
+  ],
+  "Jimalalud (Philippines) [10K]": [
+    123.1999,
+    9.9797
+  ],
+  "Mallig (Philippines) [10K]": [
+    121.6106,
+    17.2086
+  ],
+  "Igbaras (Philippines) [10K]": [
+    122.2667,
+    10.7167
+  ],
+  "Tubao (Philippines) [10K]": [
+    120.4167,
+    16.35
+  ],
+  "Buguey (Philippines) [10K]": [
+    121.8331,
+    18.2882
+  ],
+  "Catubig (Philippines) [10K]": [
+    125.05,
+    12.4
+  ],
+  "Salug (Philippines) [10K]": [
+    122.7575,
+    8.1075
+  ],
+  "Tamparan (Philippines) [10K]": [
+    124.333,
+    7.879
+  ],
+  "Caramoran (Philippines) [10K]": [
+    124.1333,
+    13.9833
+  ],
+  "Bauko (Philippines) [10K]": [
+    120.8644,
+    16.9917
+  ],
+  "Malangas (Philippines) [10K]": [
+    123.0322,
+    7.6317
+  ],
+  "Polillo (Philippines) [10K]": [
+    121.95,
+    14.7167
+  ],
+  "Mataas Na Kahoy (Philippines) [10K]": [
+    121.0833,
+    13.9667
+  ],
+  "Sigma (Philippines) [10K]": [
+    122.6662,
+    11.4214
+  ],
+  "Sergio Osmena Sr (Philippines) [10K]": [
+    123.5083,
+    8.3003
+  ],
+  "Calubian (Philippines) [10K]": [
+    124.4278,
+    11.4467
+  ],
+  "Merida (Philippines) [10K]": [
+    124.5376,
+    10.9098
+  ],
+  "Ivisan (Philippines) [10K]": [
+    122.6908,
+    11.5217
+  ],
+  "Pantabangan (Philippines) [10K]": [
+    121.1433,
+    15.8086
+  ],
+  "Magsingal (Philippines) [10K]": [
+    120.4244,
+    17.685
+  ],
+  "Dimataling (Philippines) [10K]": [
+    123.3661,
+    7.5297
+  ],
+  "Dasol (Philippines) [10K]": [
+    119.8805,
+    15.9896
+  ],
+  "Bagac (Philippines) [10K]": [
+    120.3918,
+    14.5951
+  ],
+  "Pulupandan (Philippines) [10K]": [
+    122.8,
+    10.5167
+  ],
+  "Siraway (Philippines) [10K]": [
+    122.1406,
+    7.5853
+  ],
+  "Gata (Philippines) [10K]": [
+    124.35,
+    7.85
+  ],
+  "Paracelis (Philippines) [10K]": [
+    121.4036,
+    17.1811
+  ],
+  "Tairan Camp (Philippines) [10K]": [
+    121.8667,
+    6.65
+  ],
+  "Balatan (Philippines) [10K]": [
+    123.2333,
+    13.3167
+  ],
+  "Ganassi (Philippines) [10K]": [
+    124.1034,
+    7.8269
+  ],
+  "Aglipay (Philippines) [10K]": [
+    121.5874,
+    16.4889
+  ],
+  "Gamu (Philippines) [10K]": [
+    121.8333,
+    17.05
+  ],
+  "Anilao (Philippines) [10K]": [
+    122.7531,
+    10.9785
+  ],
+  "Torrijos (Philippines) [10K]": [
+    122.0833,
+    13.3167
+  ],
+  "Pantao-Ragat (Philippines) [10K]": [
+    124.15,
+    8.05
+  ],
+  "Maguing (Philippines) [10K]": [
+    124.4,
+    7.9
+  ],
+  "Balungao (Philippines) [10K]": [
+    120.7,
+    15.9
+  ],
+  "Candijay (Philippines) [10K]": [
+    124.496,
+    9.818
+  ],
+  "Dumalag (Philippines) [10K]": [
+    122.6214,
+    11.3039
+  ],
+  "Balete (Philippines) [10K]": [
+    121.1,
+    14.0167
+  ],
+  "Iguig (Philippines) [10K]": [
+    121.7364,
+    17.7517
+  ],
+  "Salay (Philippines) [10K]": [
+    124.8,
+    8.8667
+  ],
+  "Las Nieves (Philippines) [10K]": [
+    125.601,
+    8.7351
+  ],
+  "Dauin (Philippines) [10K]": [
+    123.2667,
+    9.2
+  ],
+  "Calintaan (Philippines) [10K]": [
+    120.9428,
+    12.5756
+  ],
+  "Padada (Philippines) [10K]": [
+    125.35,
+    6.6333
+  ],
+  "Piagapo (Philippines) [10K]": [
+    124.2,
+    8.0
+  ],
+  "Marogong (Philippines) [10K]": [
+    124.15,
+    7.6667
+  ],
+  "Makato (Philippines) [10K]": [
+    122.2922,
+    11.712
+  ],
+  "Agno (Philippines) [10K]": [
+    119.8027,
+    16.1161
+  ],
+  "Ragan Sur (Philippines) [10K]": [
+    121.7833,
+    17.3167
+  ],
+  "Balabagan (Philippines) [10K]": [
+    124.1167,
+    7.5333
+  ],
+  "Zamboanguita (Philippines) [10K]": [
+    123.199,
+    9.1
+  ],
+  "Benito Soliven (Philippines) [10K]": [
+    121.95,
+    16.9833
+  ],
+  "Pasuquin (Philippines) [10K]": [
+    120.6183,
+    18.3342
+  ],
+  "Manticao (Philippines) [10K]": [
+    124.2867,
+    8.4042
+  ],
+  "Licab (Philippines) [10K]": [
+    120.7619,
+    15.54
+  ],
+  "South Ubian (Philippines) [10K]": [
+    120.4833,
+    5.1833
+  ],
+  "Sumilao (Philippines) [10K]": [
+    124.9783,
+    8.3281
+  ],
+  "Kumalarang (Philippines) [10K]": [
+    123.1442,
+    7.7478
+  ],
+  "Lavezares (Philippines) [10K]": [
+    124.3333,
+    12.5333
+  ],
+  "Garchitorena (Philippines) [10K]": [
+    123.7,
+    13.8833
+  ],
+  "Oslob (Philippines) [10K]": [
+    123.4,
+    9.55
+  ],
+  "Sexmoan (Philippines) [10K]": [
+    120.6167,
+    14.9333
+  ],
+  "Dapa (Philippines) [10K]": [
+    126.0528,
+    9.7578
+  ],
+  "Hinunangan (Philippines) [10K]": [
+    125.2,
+    10.4
+  ],
+  "Poona-Piagapo (Philippines) [10K]": [
+    124.0833,
+    8.0833
+  ],
+  "Jimenez (Philippines) [10K]": [
+    123.8333,
+    8.3333
+  ],
+  "Lugus (Philippines) [10K]": [
+    120.8167,
+    5.7
+  ],
+  "Tabuelan (Philippines) [10K]": [
+    123.9,
+    10.85
+  ],
+  "Ponot (Philippines) [10K]": [
+    123.0219,
+    8.4428
+  ],
+  "Babatngon (Philippines) [10K]": [
+    124.8434,
+    11.4207
+  ],
+  "Ampatuan (Philippines) [10K]": [
+    124.4581,
+    6.8348
+  ],
+  "Baleno (Philippines) [10K]": [
+    123.4982,
+    12.4739
+  ],
+  "Tudela (Philippines) [10K]": [
+    124.47,
+    10.636
+  ],
+  "Tibiao (Philippines) [10K]": [
+    122.0342,
+    11.2892
+  ],
+  "Basay (Philippines) [10K]": [
+    122.6333,
+    9.4167
+  ],
+  "Saint Bernard (Philippines) [10K]": [
+    125.1333,
+    10.2833
+  ],
+  "Dona Remedios Trinidad (Philippines) [10K]": [
+    121.0833,
+    15.0
+  ],
+  "Magdalena (Philippines) [10K]": [
+    121.4333,
+    14.2
+  ],
+  "Kolambugan (Philippines) [10K]": [
+    123.8971,
+    8.1144
+  ],
+  "Datu Piang (Philippines) [10K]": [
+    124.4974,
+    7.0178
+  ],
+  "Reina Mercedes Viejo (Philippines) [10K]": [
+    121.8272,
+    16.9872
+  ],
+  "Libacao (Philippines) [10K]": [
+    122.3,
+    11.4833
+  ],
+  "Talusan (Philippines) [10K]": [
+    122.8084,
+    7.4263
+  ],
+  "Majayjay (Philippines) [10K]": [
+    121.4729,
+    14.1463
+  ],
+  "Mainit (Philippines) [10K]": [
+    125.5231,
+    9.5369
+  ],
+  "Cabangan (Philippines) [10K]": [
+    120.15,
+    15.1333
+  ],
+  "Cuartero (Philippines) [10K]": [
+    122.6714,
+    11.3428
+  ],
+  "Aloran (Philippines) [10K]": [
+    123.8228,
+    8.4146
+  ],
+  "Bayang (Philippines) [10K]": [
+    124.192,
+    7.793
+  ],
+  "Dingalan (Philippines) [10K]": [
+    121.4,
+    15.3833
+  ],
+  "Alitagtag (Philippines) [10K]": [
+    121.0063,
+    13.865
+  ],
+  "Mahaplag (Philippines) [10K]": [
+    124.9636,
+    10.6072
+  ],
+  "Lapuyan (Philippines) [10K]": [
+    123.1914,
+    7.6325
+  ],
+  "Zarraga (Philippines) [10K]": [
+    122.6,
+    10.8167
+  ],
+  "Pitogo (Philippines) [10K]": [
+    122.0881,
+    13.785
+  ],
+  "Leon Postigo (Philippines) [10K]": [
+    122.9244,
+    8.1514
+  ],
+  "Villareal (Philippines) [10K]": [
+    124.9333,
+    11.5667
+  ],
+  "Bien Unido (Philippines) [10K]": [
+    124.3833,
+    10.1333
+  ],
+  "Conner (Philippines) [10K]": [
+    121.2889,
+    17.8086
+  ],
+  "Macalelon (Philippines) [10K]": [
+    122.1333,
+    13.75
+  ],
+  "Ramon Magsaysay (Philippines) [10K]": [
+    123.4869,
+    8.0053
+  ],
+  "Palanas (Philippines) [10K]": [
+    123.9219,
+    12.1464
+  ],
+  "Badiangan (Philippines) [10K]": [
+    122.5369,
+    10.986
+  ],
+  "Magarao (Philippines) [10K]": [
+    123.1903,
+    13.6619
+  ],
+  "Taraka (Philippines) [10K]": [
+    124.3481,
+    7.8994
+  ],
+  "Saguiaran (Philippines) [10K]": [
+    124.2667,
+    8.0333
+  ],
+  "Labrador (Philippines) [10K]": [
+    120.1392,
+    16.0339
+  ],
+  "Tarragona (Philippines) [10K]": [
+    126.4471,
+    7.0491
+  ],
+  "Santa Margarita (Philippines) [10K]": [
+    124.6578,
+    12.0378
+  ],
+  "Pantar (Philippines) [10K]": [
+    124.2667,
+    8.0667
+  ],
+  "Lagindingan (Philippines) [10K]": [
+    124.45,
+    8.5833
+  ],
+  "Sapian (Philippines) [10K]": [
+    122.6047,
+    11.4939
+  ],
+  "Lauaan (Philippines) [10K]": [
+    122.0417,
+    11.1429
+  ],
+  "Bugho (Philippines) [10K]": [
+    124.9333,
+    10.8
+  ],
+  "Macrohon (Philippines) [10K]": [
+    124.9431,
+    10.0797
+  ],
+  "Malitbog (Philippines) [10K]": [
+    124.8808,
+    8.5361
+  ],
+  "Pandag (Philippines) [10K]": [
+    124.7827,
+    6.7411
+  ],
+  "Poro (Philippines) [10K]": [
+    124.407,
+    10.629
+  ],
+  "Pura (Philippines) [10K]": [
+    120.648,
+    15.6248
+  ],
+  "Bubong (Philippines) [10K]": [
+    124.4833,
+    8.0167
+  ],
+  "Madalum (Philippines) [10K]": [
+    124.119,
+    7.853
+  ],
+  "Del Gallego (Philippines) [10K]": [
+    122.5961,
+    13.9233
+  ],
+  "Kayapa (Philippines) [10K]": [
+    120.8861,
+    16.3583
+  ],
+  "Santa Josefa (Philippines) [10K]": [
+    126.0285,
+    7.9842
+  ],
+  "Santa Lucia (Philippines) [10K]": [
+    120.4494,
+    17.1222
+  ],
+  "Manito (Philippines) [10K]": [
+    123.8693,
+    13.1235
+  ],
+  "Lamut (Philippines) [10K]": [
+    121.2178,
+    16.6517
+  ],
+  "Burgos (Philippines) [1K]": [
+    120.4583,
+    16.525
+  ],
+  "Sinait (Philippines) [10K]": [
+    120.4583,
+    17.8667
+  ],
+  "Sanchez-Mira (Philippines) [10K]": [
+    121.2344,
+    18.5611
+  ],
+  "Sierra Bullones (Philippines) [10K]": [
+    124.2833,
+    9.8167
+  ],
+  "Bobon (Philippines) [10K]": [
+    124.5667,
+    12.5167
+  ],
+  "Dancagan (Philippines) [10K]": [
+    125.0028,
+    7.6119
+  ],
+  "Binidayan (Philippines) [10K]": [
+    124.1667,
+    7.8
+  ],
+  "Tabina (Philippines) [10K]": [
+    123.4086,
+    7.4655
+  ],
+  "Tubay (Philippines) [10K]": [
+    125.5226,
+    9.165
+  ],
+  "Natividad (Philippines) [10K]": [
+    120.7953,
+    16.0422
+  ],
+  "Talisayan (Philippines) [10K]": [
+    124.8833,
+    8.9917
+  ],
+  "Tarangnan (Philippines) [10K]": [
+    124.75,
+    11.9
+  ],
+  "Alegria (Philippines) [10K]": [
+    125.5767,
+    9.4667
+  ],
+  "Altavas (Philippines) [10K]": [
+    122.4869,
+    11.5383
+  ],
+  "Lopez Jaena (Philippines) [10K]": [
+    123.7667,
+    8.55
+  ],
+  "Allen (Philippines) [10K]": [
+    124.282,
+    12.5013
+  ],
+  "Ayuquitan (Philippines) [10K]": [
+    123.2237,
+    9.4644
+  ],
+  "Tipo-Tipo (Philippines) [10K]": [
+    122.1667,
+    6.5333
+  ],
+  "Busuanga (Philippines) [10K]": [
+    119.9363,
+    12.1335
+  ],
+  "Unisan (Philippines) [10K]": [
+    121.9752,
+    13.8413
+  ],
+  "Sarrat (Philippines) [10K]": [
+    120.6447,
+    18.1578
+  ],
+  "Pangil (Philippines) [10K]": [
+    121.4667,
+    14.4
+  ],
+  "Camalaniugan (Philippines) [10K]": [
+    121.6756,
+    18.2756
+  ],
+  "Tumbao (Philippines) [10K]": [
+    124.3833,
+    7.1167
+  ],
+  "Talugtug (Philippines) [10K]": [
+    120.8111,
+    15.7789
+  ],
+  "Nagtipunan (Philippines) [10K]": [
+    121.6,
+    16.2167
+  ],
+  "Paete (Philippines) [10K]": [
+    121.4833,
+    14.3667
+  ],
+  "Monreal (Philippines) [10K]": [
+    123.6648,
+    12.644
+  ],
+  "Paoay (Philippines) [10K]": [
+    120.5203,
+    18.0625
+  ],
+  "Kalayaan (Philippines) [10K]": [
+    121.48,
+    14.328
+  ],
+  "San Felipe (Philippines) [10K]": [
+    120.07,
+    15.0619
+  ],
+  "Pagudpud (Philippines) [10K]": [
+    120.7878,
+    18.5614
+  ],
+  "Quirino (Philippines) [1K]": [
+    120.6764,
+    17.1383
+  ],
+  "Dimasalang (Philippines) [10K]": [
+    123.8583,
+    12.1933
+  ],
+  "Ternate (Philippines) [10K]": [
+    120.7167,
+    14.2833
+  ],
+  "General Luna (Philippines) [10K]": [
+    126.1567,
+    9.7836
+  ],
+  "Baroy (Philippines) [10K]": [
+    123.7833,
+    8.0333
+  ],
+  "Solsona (Philippines) [10K]": [
+    120.7725,
+    18.0961
+  ],
+  "Piat (Philippines) [10K]": [
+    121.4769,
+    17.7919
+  ],
+  "Jabonga (Philippines) [10K]": [
+    125.5156,
+    9.3431
+  ],
+  "Tugaya (Philippines) [10K]": [
+    124.172,
+    7.884
+  ],
+  "Tamilisan (Philippines) [10K]": [
+    122.6639,
+    7.9761
+  ],
+  "Patian (Philippines) [10K]": [
+    121.1439,
+    5.8444
+  ],
+  "Burdeos (Philippines) [10K]": [
+    121.9697,
+    14.8436
+  ],
+  "Sagbayan (Philippines) [10K]": [
+    124.1,
+    9.9167
+  ],
+  "Carrascal (Philippines) [10K]": [
+    125.9494,
+    9.3683
+  ],
+  "Garcia Hernandez (Philippines) [10K]": [
+    124.2946,
+    9.6144
+  ],
+  "Mina (Philippines) [10K]": [
+    122.5833,
+    10.9333
+  ],
+  "Kauswagan (Philippines) [10K]": [
+    124.0847,
+    8.1917
+  ],
+  "Lagonglong (Philippines) [10K]": [
+    124.7833,
+    8.8
+  ],
+  "Caibiran (Philippines) [10K]": [
+    124.5833,
+    11.5667
+  ],
+  "Ramain (Philippines) [10K]": [
+    124.35,
+    7.9667
+  ],
+  "San Agustin (Philippines) [10K]": [
+    121.75,
+    16.5167
+  ],
+  "Bulusan (Philippines) [10K]": [
+    124.1356,
+    12.7522
+  ],
+  "Cavinti (Philippines) [10K]": [
+    121.507,
+    14.245
+  ],
+  "Tangalan (Philippines) [10K]": [
+    122.2603,
+    11.7775
+  ],
+  "Catigbian (Philippines) [10K]": [
+    124.0333,
+    9.8333
+  ],
+  "Limbuhan (Philippines) [10K]": [
+    124.0497,
+    11.8836
+  ],
+  "Pakil (Philippines) [10K]": [
+    121.4833,
+    14.3833
+  ],
+  "Kalawit (Philippines) [10K]": [
+    122.5279,
+    7.9051
+  ],
+  "Candoni (Philippines) [10K]": [
+    122.6,
+    9.8167
+  ],
+  "Padre Burgos (Philippines) [10K]": [
+    125.0167,
+    10.0333
+  ],
+  "Baliguian (Philippines) [10K]": [
+    122.1452,
+    7.8088
+  ],
+  "Ramos (Philippines) [10K]": [
+    120.6417,
+    15.6667
+  ],
+  "Cuyo (Philippines) [10K]": [
+    121.0167,
+    10.85
+  ],
+  "Caba (Philippines) [10K]": [
+    120.3446,
+    16.4316
+  ],
+  "Dumaran (Philippines) [10K]": [
+    119.7667,
+    10.5333
+  ],
+  "Gamay (Philippines) [10K]": [
+    125.3,
+    12.3833
+  ],
+  "Maibog (Philippines) [10K]": [
+    125.0,
+    10.15
+  ],
+  "Tugatog (Philippines) [10K]": [
+    120.969,
+    14.6629
+  ],
+  "Maigo (Philippines) [10K]": [
+    123.9667,
+    8.15
+  ],
+  "Barbasa (Philippines) [10K]": [
+    122.0389,
+    11.1961
+  ],
+  "Calamba (Philippines) [10K]": [
+    123.6417,
+    8.5583
+  ],
+  "Calbiga (Philippines) [10K]": [
+    125.0167,
+    11.6333
+  ],
+  "Cajidiocan (Philippines) [10K]": [
+    122.6833,
+    12.3667
+  ],
+  "Tubungan (Philippines) [10K]": [
+    122.3,
+    10.7833
+  ],
+  "Culion (Philippines) [10K]": [
+    120.0186,
+    11.8944
+  ],
+  "Baclayon (Philippines) [10K]": [
+    123.9135,
+    9.6227
+  ],
+  "Prieto Diaz (Philippines) [10K]": [
+    124.1931,
+    13.0408
+  ],
+  "Viga (Philippines) [10K]": [
+    124.3,
+    13.8667
+  ],
+  "Oteiza (Philippines) [10K]": [
+    126.2214,
+    8.7437
+  ],
+  "Lumbatan (Philippines) [10K]": [
+    124.256,
+    7.785
+  ],
+  "Santa Teresita (Philippines) [10K]": [
+    121.91,
+    18.2519
+  ],
+  "Butig (Philippines) [10K]": [
+    124.3011,
+    7.7239
+  ],
+  "Lazi (Philippines) [10K]": [
+    123.634,
+    9.128
+  ],
+  "Parabcan (Philippines) [10K]": [
+    123.745,
+    13.71
+  ],
+  "Sarangani (Philippines) [10K]": [
+    125.422,
+    5.412
+  ],
+  "Naawan (Philippines) [10K]": [
+    124.3,
+    8.4333
+  ],
+  "Piddig (Philippines) [10K]": [
+    120.7172,
+    18.1647
+  ],
+  "Batad (Philippines) [10K]": [
+    123.1167,
+    11.4167
+  ],
+  "Maribojoc (Philippines) [10K]": [
+    123.85,
+    9.75
+  ],
+  "Anini-y (Philippines) [10K]": [
+    121.9253,
+    10.4325
+  ],
+  "Salcedo (Philippines) [10K]": [
+    120.5361,
+    17.1517
+  ],
+  "Ugong (Philippines) [10K]": [
+    121.0729,
+    14.5842
+  ],
+  "Madamba (Philippines) [10K]": [
+    124.0667,
+    7.8833
+  ],
+  "Gigaquit (Philippines) [10K]": [
+    125.6975,
+    9.5947
+  ],
+  "Guipos (Philippines) [10K]": [
+    123.3231,
+    7.735
+  ],
+  "Looc (Philippines) [10K]": [
+    121.9926,
+    12.2605
+  ],
+  "MacArthur (Philippines) [10K]": [
+    124.9964,
+    10.8356
+  ],
+  "Cabucgayan (Philippines) [10K]": [
+    124.575,
+    11.4719
+  ],
+  "Tigbao (Philippines) [10K]": [
+    123.2277,
+    7.8205
+  ],
+  "Cagwait (Philippines) [10K]": [
+    126.3017,
+    8.9181
+  ],
+  "Can-Avid (Philippines) [10K]": [
+    125.45,
+    12.0
+  ],
+  "Rancheria Payau (Philippines) [10K]": [
+    123.1542,
+    7.8509
+  ],
+  "Tolosa (Philippines) [10K]": [
+    125.0353,
+    11.0633
+  ],
+  "Inopacan (Philippines) [10K]": [
+    124.75,
+    10.5
+  ],
+  "Linamon (Philippines) [10K]": [
+    124.1667,
+    8.1833
+  ],
+  "Mabitac (Philippines) [10K]": [
+    121.4167,
+    14.4333
+  ],
+  "Llorente (Philippines) [10K]": [
+    125.5458,
+    11.4125
+  ],
+  "Kitcharao (Philippines) [10K]": [
+    125.5756,
+    9.4581
+  ],
+  "Ronda (Philippines) [10K]": [
+    123.4095,
+    10.0003
+  ],
+  "Barcelona (Philippines) [10K]": [
+    124.1419,
+    12.8694
+  ],
+  "Lugait (Philippines) [10K]": [
+    124.2592,
+    8.3411
+  ],
+  "Dupax del Sur (Philippines) [10K]": [
+    121.0917,
+    16.2842
+  ],
+  "Hindang (Philippines) [10K]": [
+    124.7278,
+    10.4339
+  ],
+  "Aguinaldo (Philippines) [10K]": [
+    121.3272,
+    16.9789
+  ],
+  "Luisiana (Philippines) [10K]": [
+    121.5109,
+    14.185
+  ],
+  "Banting (Philippines) [10K]": [
+    120.9,
+    5.7167
+  ],
+  "San Guillermo (Philippines) [10K]": [
+    121.81,
+    16.7244
+  ],
+  "Punturin (Philippines) [10K]": [
+    120.9978,
+    14.7381
+  ],
+  "Samboan (Philippines) [10K]": [
+    123.3064,
+    9.5288
+  ],
+  "Kawayan (Philippines) [10K]": [
+    124.3667,
+    11.7
+  ],
+  "Banaue (Philippines) [10K]": [
+    121.0614,
+    16.9119
+  ],
+  "Sapang Dalaga (Philippines) [10K]": [
+    123.5667,
+    8.55
+  ],
+  "Caoayan (Philippines) [10K]": [
+    120.3831,
+    17.5469
+  ],
+  "Kapay (Philippines) [10K]": [
+    124.4,
+    8.0833
+  ],
+  "Pinan (Philippines) [10K]": [
+    123.45,
+    8.4822
+  ],
+  "Villa Verde (Philippines) [10K]": [
+    121.1828,
+    16.6067
+  ],
+  "Del Carmen (Philippines) [10K]": [
+    125.97,
+    9.869
+  ],
+  "Dagohoy (Philippines) [10K]": [
+    124.2833,
+    9.9167
+  ],
+  "Malabuyoc (Philippines) [10K]": [
+    123.3333,
+    9.65
+  ],
+  "Valderrama (Philippines) [10K]": [
+    122.1294,
+    11.0036
+  ],
+  "Mulundo (Philippines) [10K]": [
+    124.3833,
+    7.9333
+  ],
+  "Sinacaban (Philippines) [10K]": [
+    123.8436,
+    8.2854
+  ],
+  "Tingloy (Philippines) [10K]": [
+    120.8667,
+    13.65
+  ],
+  "Cabusao (Philippines) [10K]": [
+    123.1142,
+    13.7275
+  ],
+  "Pugo (Philippines) [10K]": [
+    120.4833,
+    16.2833
+  ],
+  "Tublay (Philippines) [10K]": [
+    120.6333,
+    16.4764
+  ],
+  "Pastrana (Philippines) [10K]": [
+    124.8833,
+    11.1333
+  ],
+  "Buruanga (Philippines) [10K]": [
+    121.8888,
+    11.8438
+  ],
+  "Siruma (Philippines) [10K]": [
+    123.2589,
+    14.0219
+  ],
+  "Cervantes (Philippines) [10K]": [
+    120.7333,
+    16.9917
+  ],
+  "Espiritu (Philippines) [10K]": [
+    120.6544,
+    17.9806
+  ],
+  "Marihatag (Philippines) [10K]": [
+    126.2983,
+    8.8008
+  ],
+  "Alcoy (Philippines) [10K]": [
+    123.506,
+    9.7082
+  ],
+  "Jiabong (Philippines) [10K]": [
+    124.9519,
+    11.7625
+  ],
+  "Tadian (Philippines) [10K]": [
+    120.8208,
+    16.9961
+  ],
+  "Kapangan (Philippines) [10K]": [
+    120.6053,
+    16.5764
+  ],
+  "Diadi (Philippines) [10K]": [
+    121.3686,
+    16.66
+  ],
+  "Atok (Philippines) [10K]": [
+    120.7672,
+    16.6272
+  ],
+  "San Teodoro (Philippines) [10K]": [
+    121.0192,
+    13.4358
+  ],
+  "Lumbayanague (Philippines) [10K]": [
+    124.2833,
+    7.7833
+  ],
+  "Malanday (Philippines) [10K]": [
+    120.9547,
+    14.7194
+  ],
+  "San Gabriel (Philippines) [10K]": [
+    120.4,
+    16.6667
+  ],
+  "Malimono (Philippines) [10K]": [
+    125.4019,
+    9.6183
+  ],
+  "Duero (Philippines) [10K]": [
+    124.4,
+    9.7167
+  ],
+  "Santander (Philippines) [10K]": [
+    123.3333,
+    9.45
+  ],
+  "Cortes (Philippines) [10K]": [
+    126.1911,
+    9.2753
+  ],
+  "Sebaste (Philippines) [10K]": [
+    122.0945,
+    11.5901
+  ],
+  "Madalag (Philippines) [10K]": [
+    122.3064,
+    11.5269
+  ],
+  "Taft (Philippines) [10K]": [
+    125.4181,
+    11.9058
+  ],
+  "Nunungan (Philippines) [10K]": [
+    123.9667,
+    7.8167
+  ],
+  "Balilihan (Philippines) [10K]": [
+    123.9667,
+    9.75
+  ],
+  "Paglat (Philippines) [10K]": [
+    124.7849,
+    6.7811
+  ],
+  "Baliangao (Philippines) [10K]": [
+    123.6,
+    8.6667
+  ],
+  "Bilar (Philippines) [10K]": [
+    124.1,
+    9.7
+  ],
+  "Bombon (Philippines) [10K]": [
+    123.1994,
+    13.6867
+  ],
+  "Paluan (Philippines) [10K]": [
+    120.4667,
+    13.4167
+  ],
+  "Tinajeros (Philippines) [10K]": [
+    120.969,
+    14.6733
+  ],
+  "Tinoc (Philippines) [10K]": [
+    120.9367,
+    16.675
+  ],
+  "Mayorga (Philippines) [10K]": [
+    125.0,
+    10.9
+  ],
+  "Cagdianao (Philippines) [10K]": [
+    125.6667,
+    9.9167
+  ],
+  "Gitagum (Philippines) [10K]": [
+    124.4054,
+    8.5956
+  ],
+  "Almeria (Philippines) [10K]": [
+    124.3794,
+    11.6206
+  ],
+  "Marcos (Philippines) [10K]": [
+    120.6786,
+    18.0444
+  ],
+  "Pinabacdao (Philippines) [10K]": [
+    124.9833,
+    11.6167
+  ],
+  "Loay (Philippines) [10K]": [
+    124.0167,
+    9.6
+  ],
+  "Libjo (Philippines) [10K]": [
+    125.5328,
+    10.196
+  ],
+  "Buadiposo-Buntong (Philippines) [10K]": [
+    124.3833,
+    7.9667
+  ],
+  "Bucay (Philippines) [10K]": [
+    120.7167,
+    17.5388
+  ],
+  "Flora (Philippines) [10K]": [
+    121.4186,
+    18.2147
+  ],
+  "Marabut (Philippines) [10K]": [
+    125.2167,
+    11.1167
+  ],
+  "Jovellar (Philippines) [10K]": [
+    123.6,
+    13.0667
+  ],
+  "Biliran (Philippines) [10K]": [
+    124.48,
+    11.58
+  ],
+  "Pinili (Philippines) [10K]": [
+    120.527,
+    17.954
+  ],
+  "Kiangan (Philippines) [10K]": [
+    121.0878,
+    16.7775
+  ],
+  "Talitay (Philippines) [10K]": [
+    124.3758,
+    7.0353
+  ],
+  "Loboc (Philippines) [10K]": [
+    124.0333,
+    9.6333
+  ],
+  "Sibutao (Philippines) [10K]": [
+    123.4797,
+    8.6131
+  ],
+  "Palanan (Philippines) [10K]": [
+    122.43,
+    17.0589
+  ],
+  "Matagob (Philippines) [10K]": [
+    124.4733,
+    11.1469
+  ],
+  "Libertad (Philippines) [10K]": [
+    124.35,
+    8.5583
+  ],
+  "Boljoon (Philippines) [10K]": [
+    123.4333,
+    9.6333
+  ],
+  "San Jorge (Philippines) [10K]": [
+    124.8167,
+    11.9833
+  ],
+  "Lubang (Philippines) [10K]": [
+    120.1228,
+    13.8586
+  ],
+  "Tagana-an (Philippines) [10K]": [
+    125.5825,
+    9.6964
+  ],
+  "Santa Magdalena (Philippines) [10K]": [
+    124.1083,
+    12.6489
+  ],
+  "Alcantara (Philippines) [10K]": [
+    123.4047,
+    9.9715
+  ],
+  "Saguday (Philippines) [10K]": [
+    121.5636,
+    16.5394
+  ],
+  "Calayan (Philippines) [10K]": [
+    121.4753,
+    19.2619
+  ],
+  "Sudipen (Philippines) [10K]": [
+    120.4667,
+    16.9
+  ],
+  "Tomas Oppus (Philippines) [10K]": [
+    124.9833,
+    10.25
+  ],
+  "Dilasag (Philippines) [10K]": [
+    122.2167,
+    16.4
+  ],
+  "Ginatilan (Philippines) [10K]": [
+    123.35,
+    9.6
+  ],
+  "Kibungan (Philippines) [10K]": [
+    120.6539,
+    16.6939
+  ],
+  "Famy (Philippines) [10K]": [
+    121.45,
+    14.4333
+  ],
+  "Tubaran (Philippines) [10K]": [
+    124.1667,
+    7.7167
+  ],
+  "Madrid (Philippines) [10K]": [
+    125.9647,
+    9.2619
+  ],
+  "Zumarraga (Philippines) [10K]": [
+    124.841,
+    11.639
+  ],
+  "Arteche (Philippines) [10K]": [
+    125.3712,
+    12.2694
+  ],
+  "Panukulan (Philippines) [10K]": [
+    121.8167,
+    14.9333
+  ],
+  "Bingawan (Philippines) [10K]": [
+    122.5667,
+    11.2333
+  ],
+  "Leso (Philippines) [10K]": [
+    122.3269,
+    11.6697
+  ],
+  "Alabat (Philippines) [10K]": [
+    122.0136,
+    14.1023
+  ],
+  "Tankal (Philippines) [10K]": [
+    124.0,
+    8.0
+  ],
+  "Despujols (Philippines) [10K]": [
+    122.0108,
+    12.5183
+  ],
+  "San Tomas (Philippines) [10K]": [
+    120.5883,
+    15.8792
+  ],
+  "Julita (Philippines) [10K]": [
+    124.9622,
+    10.9731
+  ],
+  "Kabayan (Philippines) [10K]": [
+    120.8381,
+    16.6233
+  ],
+  "Sulat (Philippines) [10K]": [
+    125.45,
+    11.8167
+  ],
+  "Mayoyao (Philippines) [10K]": [
+    121.2214,
+    16.9736
+  ],
+  "Anao-aon (Philippines) [10K]": [
+    125.4231,
+    9.7778
+  ],
+  "Ambaguio (Philippines) [10K]": [
+    121.0282,
+    16.5316
+  ],
+  "San Policarpo (Philippines) [10K]": [
+    125.5072,
+    12.1791
+  ],
+  "Magdiwang (Philippines) [10K]": [
+    122.5167,
+    12.4833
+  ],
+  "Pudtol (Philippines) [10K]": [
+    121.3733,
+    18.2356
+  ],
+  "Libagon (Philippines) [10K]": [
+    125.05,
+    10.3
+  ],
+  "Motiong (Philippines) [10K]": [
+    125.0,
+    11.7833
+  ],
+  "Maydolong (Philippines) [10K]": [
+    125.5,
+    11.5
+  ],
+  "Silvino Lobos (Philippines) [10K]": [
+    124.8464,
+    12.3281
+  ],
+  "Patnanungan (Philippines) [10K]": [
+    122.1833,
+    14.7833
+  ],
+  "Bangui (Philippines) [10K]": [
+    120.7653,
+    18.5378
+  ],
+  "Santa (Philippines) [10K]": [
+    120.4344,
+    17.486
+  ],
+  "Tatarikan (Philippines) [10K]": [
+    124.1167,
+    7.7333
+  ],
+  "Antequera (Philippines) [10K]": [
+    123.8975,
+    9.7812
+  ],
+  "Tayum (Philippines) [10K]": [
+    120.6553,
+    17.6165
+  ],
+  "Mahinog (Philippines) [10K]": [
+    124.7833,
+    9.15
+  ],
+  "Matungao (Philippines) [10K]": [
+    124.1667,
+    8.1333
+  ],
+  "Calanogas (Philippines) [10K]": [
+    124.1,
+    7.75
+  ],
+  "Lagangilang (Philippines) [10K]": [
+    120.7344,
+    17.6103
+  ],
+  "Bacuag (Philippines) [10K]": [
+    125.6405,
+    9.6081
+  ],
+  "Dimiao (Philippines) [10K]": [
+    124.1667,
+    9.6167
+  ],
+  "San Julian (Philippines) [10K]": [
+    125.4558,
+    11.7536
+  ],
+  "Batuan (Philippines) [10K]": [
+    124.1333,
+    9.8
+  ],
+  "Belison (Philippines) [10K]": [
+    121.9606,
+    10.8381
+  ],
+  "Nampicuan (Philippines) [10K]": [
+    120.6356,
+    15.7342
+  ],
+  "Larena (Philippines) [10K]": [
+    123.591,
+    9.249
+  ],
+  "Lope de Vega (Philippines) [10K]": [
+    124.6238,
+    12.2983
+  ],
+  "Quinapundan (Philippines) [10K]": [
+    125.5208,
+    11.1578
+  ],
+  "Boston (Philippines) [10K]": [
+    126.3761,
+    7.8697
+  ],
+  "Maria (Philippines) [10K]": [
+    123.655,
+    9.196
+  ],
+  "Pualas (Philippines) [10K]": [
+    124.0667,
+    7.8167
+  ],
+  "Bakun (Philippines) [10K]": [
+    120.6614,
+    16.7925
+  ],
+  "Bagulin (Philippines) [10K]": [
+    120.4378,
+    16.6079
+  ],
+  "General MacArthur (Philippines) [10K]": [
+    125.54,
+    11.2486
+  ],
+  "Araceli (Philippines) [10K]": [
+    119.9904,
+    10.5529
+  ],
+  "Bokod (Philippines) [10K]": [
+    120.83,
+    16.4914
+  ],
+  "Kinogitan (Philippines) [10K]": [
+    124.7937,
+    8.9855
+  ],
+  "Balangiga (Philippines) [10K]": [
+    125.3875,
+    11.1097
+  ],
+  "Mapanas (Philippines) [10K]": [
+    125.254,
+    12.475
+  ],
+  "Santol (Philippines) [10K]": [
+    120.45,
+    16.7667
+  ],
+  "Sampaloc (Philippines) [10K]": [
+    121.6378,
+    14.1625
+  ],
+  "Hinabangan (Philippines) [10K]": [
+    125.0667,
+    11.7
+  ],
+  "Lanuza (Philippines) [10K]": [
+    126.0592,
+    9.2322
+  ],
+  "Dakit (Philippines) [10K]": [
+    125.1606,
+    10.06
+  ],
+  "San Clemente (Philippines) [10K]": [
+    120.3603,
+    15.7119
+  ],
+  "Santa Marcela (Philippines) [10K]": [
+    121.4375,
+    18.2872
+  ],
+  "Lawang Bato (Philippines) [10K]": [
+    120.9961,
+    14.73
+  ],
+  "Giporlos (Philippines) [10K]": [
+    125.4494,
+    11.1208
+  ],
+  "Agutaya (Philippines) [10K]": [
+    120.9396,
+    11.152
+  ],
+  "Tinglayan (Philippines) [10K]": [
+    121.1489,
+    17.265
+  ],
+  "Silago (Philippines) [10K]": [
+    125.1618,
+    10.5291
+  ],
+  "Agdangan (Philippines) [10K]": [
+    121.9122,
+    13.8758
+  ],
+  "Culaba (Philippines) [10K]": [
+    124.5425,
+    11.6578
+  ],
+  "Lawaan (Philippines) [10K]": [
+    125.3011,
+    11.1408
+  ],
+  "Perez (Philippines) [10K]": [
+    121.9333,
+    14.1833
+  ],
+  "Balbalan (Philippines) [10K]": [
+    121.2008,
+    17.4436
+  ],
+  "Pidigan (Philippines) [10K]": [
+    120.5893,
+    17.5703
+  ],
+  "Anao (Philippines) [10K]": [
+    120.6264,
+    15.7304
+  ],
+  "Capul (Philippines) [10K]": [
+    124.182,
+    12.423
+  ],
+  "Hinundayan (Philippines) [10K]": [
+    125.25,
+    10.35
+  ],
+  "Currimao (Philippines) [10K]": [
+    120.4864,
+    18.0203
+  ],
+  "Calanasan (Philippines) [10K]": [
+    121.0436,
+    18.255
+  ],
+  "Lila (Philippines) [10K]": [
+    124.1,
+    9.6
+  ],
+  "Josefina (Philippines) [10K]": [
+    123.5439,
+    8.2144
+  ],
+  "Tabontabon (Philippines) [10K]": [
+    124.9667,
+    11.0333
+  ],
+  "Gainza (Philippines) [10K]": [
+    123.1414,
+    13.6167
+  ],
+  "Agcogon (Philippines) [10K]": [
+    121.9333,
+    12.0667
+  ],
+  "Lapinig (Philippines) [10K]": [
+    125.302,
+    12.315
+  ],
+  "Nueva Era (Philippines) [10K]": [
+    120.6667,
+    17.9167
+  ],
+  "Mutia (Philippines) [10K]": [
+    123.4771,
+    8.4176
+  ],
+  "Biri (Philippines) [10K]": [
+    124.3833,
+    12.6667
+  ],
+  "Manabo (Philippines) [10K]": [
+    120.7048,
+    17.4331
+  ],
+  "Sablan (Philippines) [10K]": [
+    120.4875,
+    16.4967
+  ],
+  "Alburquerque (Philippines) [10K]": [
+    123.9549,
+    9.6104
+  ],
+  "Sagada (Philippines) [10K]": [
+    120.9008,
+    17.0842
+  ],
+  "Sevilla (Philippines) [10K]": [
+    124.05,
+    9.7
+  ],
+  "Bagamanoc (Philippines) [10K]": [
+    124.2888,
+    13.9408
+  ],
+  "Balingoan (Philippines) [10K]": [
+    124.85,
+    9.0
+  ],
+  "Panaon (Philippines) [10K]": [
+    123.8333,
+    8.3667
+  ],
+  "Suyo (Philippines) [10K]": [
+    120.5139,
+    16.9839
+  ],
+  "San Ricardo (Philippines) [10K]": [
+    125.2833,
+    9.9167
+  ],
+  "Dinagat (Philippines) [10K]": [
+    125.5933,
+    9.9561
+  ],
+  "Pasil (Philippines) [10K]": [
+    121.1597,
+    17.3894
+  ],
+  "Galimuyod (Philippines) [10K]": [
+    120.4667,
+    17.1833
+  ],
+  "Pintuyan (Philippines) [10K]": [
+    125.25,
+    9.95
+  ],
+  "Corcuera (Philippines) [10K]": [
+    122.05,
+    12.8
+  ],
+  "Natonin (Philippines) [10K]": [
+    121.2797,
+    17.1089
+  ],
+  "Balangkayan (Philippines) [10K]": [
+    125.5108,
+    11.4728
+  ],
+  "Sugbongkogon (Philippines) [1K]": [
+    124.7833,
+    8.95
+  ],
+  "Hingyon (Philippines) [1K]": [
+    121.0989,
+    16.8522
+  ],
+  "Panganiban (Philippines) [1K]": [
+    124.3,
+    13.9
+  ],
+  "Sabangan (Philippines) [1K]": [
+    120.9233,
+    17.0044
+  ],
+  "Corella (Philippines) [1K]": [
+    123.9167,
+    9.6833
+  ],
+  "Santa Monica (Philippines) [1K]": [
+    126.038,
+    10.02
+  ],
+  "Almagro (Philippines) [1K]": [
+    124.2852,
+    11.9108
+  ],
+  "Lubuagan (Philippines) [1K]": [
+    121.1833,
+    17.35
+  ],
+  "Tagapul-an (Philippines) [1K]": [
+    124.15,
+    12.05
+  ],
+  "Bayabas (Philippines) [1K]": [
+    126.2817,
+    8.9678
+  ],
+  "San Sebastian (Philippines) [1K]": [
+    125.0167,
+    11.7
+  ],
+  "Hunduan (Philippines) [1K]": [
+    121.0,
+    16.8333
+  ],
+  "Tanudan (Philippines) [1K]": [
+    121.2303,
+    17.2814
+  ],
+  "Gigmoto (Philippines) [1K]": [
+    124.3833,
+    13.7833
+  ],
+  "Hernani (Philippines) [1K]": [
+    125.6181,
+    11.3239
+  ],
+  "Alfonso Castaneda (Philippines) [1K]": [
+    121.3025,
+    15.7933
+  ]
+}
