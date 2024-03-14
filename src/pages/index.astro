@@ -5,13 +5,15 @@ import NavBar from "../components/common/NavBar.astro";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import portfolioData from "../data/portfolio/portfolio.json";
+import gqmasterData from "../data/gqmaster/gqmaster.json";
 import SmallCard from "../components/common/SmallCard.astro";
 import homeData from "../data/home.json";
+import { capitalise } from "utils/string";
 ---
 
 <Layout>
   <div slot="main" class="">
-    <NavBar client:load transition:persist label="Portfolio"/>
+    <NavBar client:load label="Portfolio"/>
     <div class="max-w-3xl mx-auto p-4 grid gap-4 my-20">
       <Image src="/img/izzhafeez.png" width="300" height="300" alt="Izz Hafeez" class="mx-auto rounded-full border-4 border-gray-500"/>
       <p class="dark:text-white">Hi, my name</p>
@@ -34,7 +36,12 @@ import homeData from "../data/home.json";
     </div>
     <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <SmallCard key={key} value={value} site="portfolio"/>)}
+      {Object.entries(portfolioData).map(([key, value]) => <SmallCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio"/>)}
+    </section>
+    <div class="my-20"></div>
+    <Hero label="GQMASTER" text={homeData.gqmaster.heroText} site="gqmaster"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(gqmasterData).map(([key, value]) => <SmallCard href={`/gqmaster/${key}`} title={capitalise(key)} heroText={value.heroText} site="gqmaster"/>)}
     </section>
     <Footer color="lrt"/>
   </div>
