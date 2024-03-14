@@ -1,5 +1,5 @@
 ---
-import { capitalise } from 'utils/string';
+import { capitalise } from '../../utils/string';
 import ThemeIcon from './ThemeIcon.astro';
 type Option = { href:string, label:string };
 const path = Astro.url.pathname.split('/');
@@ -7,7 +7,8 @@ const path = Astro.url.pathname.split('/');
 function getOptions() {
   if (path.length === 2) {
     return [
-      { href: '/portfolio', label: 'portfolio' }
+      { href: '/portfolio', label: 'portfolio' },
+      { href: '/gqmaster', label: 'GQMaster'}
     ]
   }
 
@@ -24,19 +25,46 @@ function getOptions() {
         { href: '/portfolio/projects', label: 'projects' },
         { href: '/portfolio/skills', label: 'skills' },
       ];
+    case 'gqmaster': 
+      return [
+        { href: '/gqmaster/map', label: 'map' },
+        { href: '/gqmaster/streak', label: 'streak' }
+      ];
   }
 
   return [];
 }
 
-function getLabel() {
-  if (path.length === 2) {
-    return '';
-  }
+function getHref() {
+  if (path.length === 2) return '';
   return path[1];
 }
 
-const label = getLabel();
+function getLabel(href: string) {
+  switch (href) {
+    case 'portfolio': return 'Portfolio';
+    case 'gqmaster': return 'GQMaster';
+  }
+}
+
+function getHoverColor() {
+  if (path.length === 2) {
+    return 'hover:bg-gray-500/20 dark:hover:bg-gray-300/20';
+  }
+
+  const site = path[1];
+  switch (site) {
+    case 'portfolio': 
+      return 'hover:bg-ew-500/20 dark:hover:bg-ew-300/20';
+    case 'gqmaster': 
+      return 'hover:bg-ns-500/20 dark:hover:bg-ns-300/20';
+    default:
+      return 'hover:bg-gray-500/20 dark:hover:bg-gray-300/20';
+  }
+}
+
+const href = getHref();
+const label = getLabel(href);
 
 const options: Option[] = getOptions();
 ---
@@ -47,12 +75,12 @@ const options: Option[] = getOptions();
       <a href="/" class="w-10">
         <img src="/img/desmosito-black-trans.png" class="h-10 dark:invert"/>
       </a>
-      <a href={'/' + label} class="grid place-items-center">
-        <h1 class="text-black dark:text-white font-extrabold xl:text-3xl text-lg">{capitalise(label) || 'Izz Hafeez'}</h1>
+      <a href={'/' + href} class="grid place-items-center">
+        <h1 class="text-black dark:text-white font-extrabold text-xl">{label || 'Izz Hafeez'}</h1>
       </a>
     </div>
     <div class="ms-auto items-center gap-2 h-20 p-4 flex">
-      {options.map(option => <a href={option.href} class="p-2 rounded-lg text-black dark:text-white hover:bg-ew-500/20 dark:hover:bg-ew-300/20 dark:hover:text-white hidden lg:block">{capitalise(option.label)}</a>)}
+      {options.map(option => <a href={option.href} class={`p-2 rounded-lg text-black dark:text-white dark:hover:text-white ${getHoverColor()} hidden lg:block`}>{capitalise(option.label)}</a>)}
       {options.map(option => <div class="grid justify-items-center lg:hidden"><a href={option.href} class="p-2 rounded-lg text-black dark:text-white hover:bg-ew-500/20 dark:hover:bg-ew-300/20 dark:hover:text-white block lg:hidden peer"><img src={`/img/common/${option.label}.svg`} class="h-[20px] w-[20px] dark:invert"/></a><div class="absolute mt-12 p-2 hidden bg-black text-white dark:bg-white dark:text-black rounded-lg peer-hover:block">{capitalise(option.label)}</div></div>)}
       <ThemeIcon/>
     </div>
