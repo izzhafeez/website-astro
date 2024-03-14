@@ -14,8 +14,8 @@ export const sanitise = (text: string) => {
   var searchTerms: string = '';
   if (!!searchTermsMatches) searchTerms = searchTermsMatches[0];
   return {
-    searchTerms,
-    cleanText: text.replace(/\[.*?\]/g, '')
+    searchTerms, // []
+    cleanText: text.replace(/\[.*?\]/g, '') // with ()
   }
 }
 
@@ -30,8 +30,6 @@ export const fullSanitise = (text: string) => {
       .replace(/\([^)]*\)/g, ''))
       .replaceAll(' ', '')
       .toLowerCase()
-      .replace(/[^0-9a-z]/gi, '')
-      .replace('school', '')
-      .replace('saint', 'st')
+      .replace(/[^0-9a-z]/gi, '') // without ()[]
   }
 }
