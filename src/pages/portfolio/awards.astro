@@ -34,9 +34,9 @@ const heroText = portfolioData.awards.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar client:load transition:persist/>
+    <NavBar client:load/>
     <Hero label="AWARDS" text={heroText} site="portfolio"/>
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 relative p-2 max-w-6xl mx-auto">
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
       {awards.map(award => <AwardPreview client:visible award={award}/>)}
     </section>
     <Footer color="ew"/>
