@@ -1,0 +1,5146 @@
+{
+  "London (United Kingdom) [10M]": [
+    -0.1275,
+    51.5072
+  ],
+  "Birmingham (United Kingdom) [1M]": [
+    -1.9025,
+    52.48
+  ],
+  "Manchester (United Kingdom) [1M]": [
+    -2.2453,
+    53.4794
+  ],
+  "Liverpool (United Kingdom) [100K]": [
+    -2.9919,
+    53.4075
+  ],
+  "Portsmouth (United Kingdom) [100K]": [
+    -1.0872,
+    50.8058
+  ],
+  "Southampton (United Kingdom) [100K]": [
+    -1.4042,
+    50.9025
+  ],
+  "Leeds (United Kingdom) [100K]": [
+    -1.5497,
+    53.8003
+  ],
+  "Nottingham (United Kingdom) [100K]": [
+    -1.15,
+    52.9533
+  ],
+  "Glasgow (United Kingdom) [100K]": [
+    -4.25,
+    55.8611
+  ],
+  "Bristol (United Kingdom) [100K]": [
+    -2.5975,
+    51.4536
+  ],
+  "Sheffield (United Kingdom) [100K]": [
+    -1.4703,
+    53.3808
+  ],
+  "Leicester (United Kingdom) [100K]": [
+    -1.1319,
+    52.6344
+  ],
+  "Edinburgh (United Kingdom) [100K]": [
+    -3.1892,
+    55.9533
+  ],
+  "Caerdydd (United Kingdom) [100K]": [
+    -3.1792,
+    51.4817
+  ],
+  "Worthing (United Kingdom) [100K]": [
+    -0.3714,
+    50.8147
+  ],
+  "Stoke-on-Trent (United Kingdom) [100K]": [
+    -2.1833,
+    53.0
+  ],
+  "Coventry (United Kingdom) [100K]": [
+    -1.5106,
+    52.4081
+  ],
+  "Reading (United Kingdom) [100K]": [
+    -0.9731,
+    51.4542
+  ],
+  "Belfast (United Kingdom) [100K]": [
+    -5.93,
+    54.5964
+  ],
+  "Kingston upon Hull (United Kingdom) [100K]": [
+    -0.3325,
+    53.7444
+  ],
+  "Newcastle (United Kingdom) [100K]": [
+    -1.61,
+    54.98
+  ],
+  "Stockport (United Kingdom) [100K]": [
+    -2.1494,
+    53.4083
+  ],
+  "Bradford (United Kingdom) [100K]": [
+    -1.75,
+    53.8
+  ],
+  "Ipswich (United Kingdom) [100K]": [
+    1.1556,
+    52.0594
+  ],
+  "Bolton (United Kingdom) [100K]": [
+    -2.429,
+    53.578
+  ],
+  "Sunderland (United Kingdom) [100K]": [
+    -1.381,
+    54.906
+  ],
+  "Plymouth (United Kingdom) [100K]": [
+    -4.1422,
+    50.3714
+  ],
+  "Westminster (United Kingdom) [100K]": [
+    -0.1353,
+    51.4947
+  ],
+  "Derby (United Kingdom) [100K]": [
+    -1.4767,
+    52.9217
+  ],
+  "Wolverhampton (United Kingdom) [100K]": [
+    -2.1333,
+    52.5833
+  ],
+  "Barnsley (United Kingdom) [100K]": [
+    -1.4791,
+    53.5547
+  ],
+  "Abertawe (United Kingdom) [100K]": [
+    -3.95,
+    51.6167
+  ],
+  "Swindon (United Kingdom) [100K]": [
+    -1.78,
+    51.56
+  ],
+  "Islington (United Kingdom) [100K]": [
+    -0.1027,
+    51.544
+  ],
+  "Luton (United Kingdom) [100K]": [
+    -0.4147,
+    51.8783
+  ],
+  "Norwich (United Kingdom) [100K]": [
+    1.2928,
+    52.6286
+  ],
+  "Northampton (United Kingdom) [100K]": [
+    -0.8938,
+    52.2304
+  ],
+  "Solihull (United Kingdom) [100K]": [
+    -1.778,
+    52.413
+  ],
+  "Milton Keynes (United Kingdom) [100K]": [
+    -0.76,
+    52.04
+  ],
+  "Aberdeen (United Kingdom) [100K]": [
+    -2.11,
+    57.15
+  ],
+  "Croydon (United Kingdom) [100K]": [
+    -0.1099,
+    51.3727
+  ],
+  "Peterborough (United Kingdom) [100K]": [
+    -0.2366,
+    52.5662
+  ],
+  "Basildon (United Kingdom) [100K]": [
+    0.49,
+    51.58
+  ],
+  "Bournemouth (United Kingdom) [100K]": [
+    -1.88,
+    50.72
+  ],
+  "York (United Kingdom) [100K]": [
+    -1.078,
+    53.9601
+  ],
+  "Ilford (United Kingdom) [100K]": [
+    0.0858,
+    51.5575
+  ],
+  "Warrington (United Kingdom) [100K]": [
+    -2.59,
+    53.39
+  ],
+  "Kingswood (United Kingdom) [100K]": [
+    -2.505,
+    51.46
+  ],
+  "Huddersfield (United Kingdom) [100K]": [
+    -1.7798,
+    53.645
+  ],
+  "Southend (United Kingdom) [100K]": [
+    0.71,
+    51.55
+  ],
+  "Newport (United Kingdom) [10K]": [
+    -1.2883,
+    50.701
+  ],
+  "Enfield (United Kingdom) [100K]": [
+    -0.0808,
+    51.6522
+  ],
+  "Oxford (United Kingdom) [100K]": [
+    -1.2578,
+    51.7519
+  ],
+  "Harrow (United Kingdom) [100K]": [
+    -0.3464,
+    51.5836
+  ],
+  "Gloucester (United Kingdom) [100K]": [
+    -2.2444,
+    51.8644
+  ],
+  "West Bromwich (United Kingdom) [100K]": [
+    -1.995,
+    52.519
+  ],
+  "Dundee (United Kingdom) [100K]": [
+    -2.9707,
+    56.462
+  ],
+  "Poole (United Kingdom) [100K]": [
+    -1.9833,
+    50.7167
+  ],
+  "Birkenhead (United Kingdom) [100K]": [
+    -3.014,
+    53.393
+  ],
+  "Blackpool (United Kingdom) [100K]": [
+    -3.0503,
+    53.8142
+  ],
+  "Telford (United Kingdom) [100K]": [
+    -2.4469,
+    52.6766
+  ],
+  "Preston (United Kingdom) [100K]": [
+    -2.699,
+    53.759
+  ],
+  "Middlesbrough (United Kingdom) [100K]": [
+    -1.2355,
+    54.5767
+  ],
+  "Tottenham (United Kingdom) [100K]": [
+    -0.0681,
+    51.5975
+  ],
+  "Sale (United Kingdom) [100K]": [
+    -2.322,
+    53.424
+  ],
+  "Brighton (United Kingdom) [100K]": [
+    -0.1375,
+    50.8208
+  ],
+  "Lincoln (United Kingdom) [100K]": [
+    -0.5389,
+    53.2283
+  ],
+  "Romford (United Kingdom) [100K]": [
+    0.1801,
+    51.5768
+  ],
+  "High Wycombe (United Kingdom) [100K]": [
+    -0.7482,
+    51.6287
+  ],
+  "Cambridge (United Kingdom) [100K]": [
+    0.1192,
+    52.2053
+  ],
+  "Exeter (United Kingdom) [100K]": [
+    -3.5269,
+    50.7256
+  ],
+  "Colchester (United Kingdom) [100K]": [
+    0.903,
+    51.8917
+  ],
+  "Gateshead (United Kingdom) [100K]": [
+    -1.6,
+    54.95
+  ],
+  "Blackburn (United Kingdom) [100K]": [
+    -2.482,
+    53.748
+  ],
+  "Slough (United Kingdom) [100K]": [
+    -0.5881,
+    51.5084
+  ],
+  "Chelmsford (United Kingdom) [100K]": [
+    0.48,
+    51.73
+  ],
+  "Cheltenham (United Kingdom) [100K]": [
+    -2.0667,
+    51.9
+  ],
+  "Rochdale (United Kingdom) [100K]": [
+    -2.161,
+    53.6136
+  ],
+  "Hammersmith (United Kingdom) [10K]": [
+    -0.2229,
+    51.4928
+  ],
+  "Rotherham (United Kingdom) [100K]": [
+    -1.357,
+    53.43
+  ],
+  "Walthamstow (United Kingdom) [100K]": [
+    -0.021,
+    51.584
+  ],
+  "Doncaster (United Kingdom) [100K]": [
+    -1.1339,
+    53.5231
+  ],
+  "Wythenshawe (United Kingdom) [100K]": [
+    -2.264,
+    53.392
+  ],
+  "Maidstone (United Kingdom) [100K]": [
+    0.529,
+    51.272
+  ],
+  "Sutton Coldfield (United Kingdom) [100K]": [
+    -1.822,
+    52.563
+  ],
+  "Basingstoke (United Kingdom) [100K]": [
+    -1.0876,
+    51.2667
+  ],
+  "Hounslow (United Kingdom) [100K]": [
+    -0.375,
+    51.4668
+  ],
+  "Crawley (United Kingdom) [100K]": [
+    -0.1872,
+    51.1092
+  ],
+  "Salford (United Kingdom) [100K]": [
+    -2.2931,
+    53.483
+  ],
+  "Dagenham (United Kingdom) [100K]": [
+    0.1422,
+    51.5397
+  ],
+  "Wembley (United Kingdom) [100K]": [
+    -0.2979,
+    51.5528
+  ],
+  "Saint Helens (United Kingdom) [100K]": [
+    -2.75,
+    53.45
+  ],
+  "Worcester (United Kingdom) [100K]": [
+    -2.2206,
+    52.1911
+  ],
+  "Gillingham (United Kingdom) [10K]": [
+    -2.2748,
+    51.0375
+  ],
+  "Eastbourne (United Kingdom) [100K]": [
+    0.28,
+    50.77
+  ],
+  "Wigan (United Kingdom) [100K]": [
+    -2.6318,
+    53.5448
+  ],
+  "Hove (United Kingdom) [10K]": [
+    -0.1758,
+    50.8352
+  ],
+  "Rayleigh (United Kingdom) [10K]": [
+    0.6049,
+    51.5864
+  ],
+  "Hemel Hempstead (United Kingdom) [10K]": [
+    -0.4692,
+    51.7526
+  ],
+  "Bath (United Kingdom) [10K]": [
+    -2.36,
+    51.38
+  ],
+  "Darlington (United Kingdom) [10K]": [
+    -1.5526,
+    54.527
+  ],
+  "Fulham (United Kingdom) [10K]": [
+    -0.195,
+    51.4828
+  ],
+  "Ealing (United Kingdom) [10K]": [
+    -0.2988,
+    51.5175
+  ],
+  "Wimbledon (United Kingdom) [10K]": [
+    -0.208,
+    51.422
+  ],
+  "Watford (United Kingdom) [10K]": [
+    -0.3957,
+    51.655
+  ],
+  "Hastings (United Kingdom) [10K]": [
+    0.57,
+    50.85
+  ],
+  "Nuneaton (United Kingdom) [10K]": [
+    -1.468,
+    52.523
+  ],
+  "Stevenage (United Kingdom) [10K]": [
+    -0.2019,
+    51.9017
+  ],
+  "Orpington (United Kingdom) [10K]": [
+    0.0986,
+    51.3741
+  ],
+  "Brixton (United Kingdom) [10K]": [
+    -0.1175,
+    51.4575
+  ],
+  "Edmonton (United Kingdom) [10K]": [
+    -0.0708,
+    51.6154
+  ],
+  "Hartlepool (United Kingdom) [10K]": [
+    -1.21,
+    54.69
+  ],
+  "Chester (United Kingdom) [10K]": [
+    -2.89,
+    53.19
+  ],
+  "East Ham (United Kingdom) [10K]": [
+    0.0554,
+    51.5323
+  ],
+  "Bromley (United Kingdom) [10K]": [
+    0.021,
+    51.407
+  ],
+  "Hayes (United Kingdom) [10K]": [
+    0.0192,
+    51.378
+  ],
+  "Aylesbury (United Kingdom) [10K]": [
+    -0.8124,
+    51.8168
+  ],
+  "Edgware (United Kingdom) [10K]": [
+    -0.2729,
+    51.6185
+  ],
+  "Burnley (United Kingdom) [10K]": [
+    -2.248,
+    53.789
+  ],
+  "Saint Albans (United Kingdom) [10K]": [
+    -0.336,
+    51.755
+  ],
+  "Chatham (United Kingdom) [10K]": [
+    0.52,
+    51.37
+  ],
+  "Batley (United Kingdom) [10K]": [
+    -1.6356,
+    53.7167
+  ],
+  "Scunthorpe (United Kingdom) [10K]": [
+    -0.6502,
+    53.5809
+  ],
+  "Dudley (United Kingdom) [10K]": [
+    -2.089,
+    52.508
+  ],
+  "Weston-super-Mare (United Kingdom) [10K]": [
+    -2.977,
+    51.346
+  ],
+  "Paisley (United Kingdom) [10K]": [
+    -4.4239,
+    55.8456
+  ],
+  "South Shields (United Kingdom) [10K]": [
+    -1.43,
+    54.995
+  ],
+  "Bury (United Kingdom) [10K]": [
+    -2.298,
+    53.593
+  ],
+  "Mansfield (United Kingdom) [10K]": [
+    -1.1964,
+    53.1444
+  ],
+  "Bracknell (United Kingdom) [10K]": [
+    -0.749,
+    51.416
+  ],
+  "Carlisle (United Kingdom) [10K]": [
+    -2.944,
+    54.891
+  ],
+  "East Kilbride (United Kingdom) [10K]": [
+    -4.1769,
+    55.7644
+  ],
+  "Burton upon Trent (United Kingdom) [10K]": [
+    -1.6367,
+    52.8019
+  ],
+  "Kensington (United Kingdom) [10K]": [
+    -0.19,
+    51.5
+  ],
+  "Thornton Heath (United Kingdom) [10K]": [
+    -0.1086,
+    51.4002
+  ],
+  "Crewe (United Kingdom) [10K]": [
+    -2.44,
+    53.099
+  ],
+  "Newcastle under Lyme (United Kingdom) [10K]": [
+    -2.2278,
+    53.0109
+  ],
+  "Chingford (United Kingdom) [10K]": [
+    0.009,
+    51.623
+  ],
+  "Harrogate (United Kingdom) [10K]": [
+    -1.5378,
+    53.9919
+  ],
+  "Rugby (United Kingdom) [10K]": [
+    -1.26,
+    52.37
+  ],
+  "Tamworth (United Kingdom) [10K]": [
+    -1.695,
+    52.633
+  ],
+  "Lowestoft (United Kingdom) [10K]": [
+    1.75,
+    52.48
+  ],
+  "Southall (United Kingdom) [10K]": [
+    -0.3779,
+    51.5121
+  ],
+  "Gosport (United Kingdom) [10K]": [
+    -1.1243,
+    50.7948
+  ],
+  "Uxbridge (United Kingdom) [10K]": [
+    -0.4778,
+    51.5404
+  ],
+  "Grays (United Kingdom) [10K]": [
+    0.33,
+    51.475
+  ],
+  "Walton upon Thames (United Kingdom) [10K]": [
+    -0.4133,
+    51.3868
+  ],
+  "Feltham (United Kingdom) [10K]": [
+    -0.4089,
+    51.4496
+  ],
+  "Wandsworth (United Kingdom) [10K]": [
+    -0.192,
+    51.455
+  ],
+  "Walsall (United Kingdom) [10K]": [
+    -1.98,
+    52.58
+  ],
+  "Mitcham (United Kingdom) [10K]": [
+    -0.1517,
+    51.4009
+  ],
+  "Tynemouth (United Kingdom) [10K]": [
+    -1.423,
+    55.017
+  ],
+  "Paignton (United Kingdom) [10K]": [
+    -3.5625,
+    50.4353
+  ],
+  "Rochester (United Kingdom) [10K]": [
+    0.5,
+    51.375
+  ],
+  "Washington (United Kingdom) [10K]": [
+    -1.52,
+    54.9
+  ],
+  "Ashford (United Kingdom) [10K]": [
+    -0.464,
+    51.434
+  ],
+  "Finchley (United Kingdom) [10K]": [
+    -0.187,
+    51.599
+  ],
+  "Hornchurch (United Kingdom) [10K]": [
+    0.2128,
+    51.5565
+  ],
+  "Acton (United Kingdom) [10K]": [
+    -0.2707,
+    51.5135
+  ],
+  "Merthyr Tudful (United Kingdom) [10K]": [
+    -3.378,
+    51.743
+  ],
+  "Waterlooville (United Kingdom) [10K]": [
+    -1.03,
+    50.88
+  ],
+  "Boston (United Kingdom) [10K]": [
+    -0.0214,
+    52.974
+  ],
+  "Scarborough (United Kingdom) [10K]": [
+    -0.4017,
+    54.2773
+  ],
+  "Streatham (United Kingdom) [10K]": [
+    -0.1235,
+    51.4279
+  ],
+  "Farnborough (United Kingdom) [10K]": [
+    0.0741,
+    51.3591
+  ],
+  "Barking (United Kingdom) [10K]": [
+    0.08,
+    51.54
+  ],
+  "Stourbridge (United Kingdom) [10K]": [
+    -2.1479,
+    52.4575
+  ],
+  "Twickenham (United Kingdom) [10K]": [
+    -0.337,
+    51.449
+  ],
+  "Hereford (United Kingdom) [10K]": [
+    -2.716,
+    52.056
+  ],
+  "Dewsbury (United Kingdom) [10K]": [
+    -1.633,
+    53.691
+  ],
+  "Loughborough (United Kingdom) [10K]": [
+    -1.2,
+    52.77
+  ],
+  "Wrecsam (United Kingdom) [10K]": [
+    -2.993,
+    53.046
+  ],
+  "Kettering (United Kingdom) [10K]": [
+    -0.7229,
+    52.3931
+  ],
+  "Ellesmere Port (United Kingdom) [10K]": [
+    -2.897,
+    53.279
+  ],
+  "Bangor (United Kingdom) [10K]": [
+    -4.128,
+    53.228
+  ],
+  "Runcorn (United Kingdom) [10K]": [
+    -2.7336,
+    53.3419
+  ],
+  "Taunton (United Kingdom) [10K]": [
+    -3.1,
+    51.019
+  ],
+  "Littlehampton (United Kingdom) [10K]": [
+    -0.5409,
+    50.8094
+  ],
+  "Ruislip (United Kingdom) [10K]": [
+    -0.433,
+    51.576
+  ],
+  "Wallasey (United Kingdom) [10K]": [
+    -3.0233,
+    53.4158
+  ],
+  "Barrow in Furness (United Kingdom) [10K]": [
+    -3.2261,
+    54.1108
+  ],
+  "Bebington (United Kingdom) [10K]": [
+    -3.003,
+    53.35
+  ],
+  "Macclesfield (United Kingdom) [10K]": [
+    -2.13,
+    53.25
+  ],
+  "Braintree (United Kingdom) [10K]": [
+    0.55,
+    51.878
+  ],
+  "Royal Tunbridge Wells (United Kingdom) [10K]": [
+    0.263,
+    51.132
+  ],
+  "Wellingborough (United Kingdom) [10K]": [
+    -0.6964,
+    52.2939
+  ],
+  "Folkestone (United Kingdom) [10K]": [
+    1.166,
+    51.081
+  ],
+  "Royal Leamington Spa (United Kingdom) [10K]": [
+    -1.537,
+    52.292
+  ],
+  "Crosby (United Kingdom) [10K]": [
+    -3.0343,
+    53.4872
+  ],
+  "Stratford (United Kingdom) [10K]": [
+    -0.0026,
+    51.5423
+  ],
+  "Kidderminster (United Kingdom) [10K]": [
+    -2.249,
+    52.3885
+  ],
+  "Altrincham (United Kingdom) [10K]": [
+    -2.3547,
+    53.3838
+  ],
+  "Weymouth (United Kingdom) [10K]": [
+    -2.457,
+    50.613
+  ],
+  "Barri (United Kingdom) [10K]": [
+    -3.27,
+    51.405
+  ],
+  "Leith (United Kingdom) [10K]": [
+    -3.17,
+    55.98
+  ],
+  "Greenford (United Kingdom) [10K]": [
+    -0.3488,
+    51.5299
+  ],
+  "Dunfermline (United Kingdom) [10K]": [
+    -3.4393,
+    56.0719
+  ],
+  "Rowley Regis (United Kingdom) [10K]": [
+    -2.05,
+    52.488
+  ],
+  "Neath (United Kingdom) [10K]": [
+    -3.81,
+    51.66
+  ],
+  "Bootle (United Kingdom) [10K]": [
+    -2.9891,
+    53.4457
+  ],
+  "Hamilton (United Kingdom) [10K]": [
+    -4.039,
+    55.777
+  ],
+  "Lancaster (United Kingdom) [10K]": [
+    -2.8014,
+    54.0489
+  ],
+  "Eltham (United Kingdom) [10K]": [
+    0.052,
+    51.451
+  ],
+  "Morden (United Kingdom) [10K]": [
+    -0.1949,
+    51.4015
+  ],
+  "Cumbernauld (United Kingdom) [10K]": [
+    -3.994,
+    55.945
+  ],
+  "Brentwood (United Kingdom) [10K]": [
+    0.305,
+    51.62
+  ],
+  "Willenhall (United Kingdom) [10K]": [
+    -2.0605,
+    52.5798
+  ],
+  "Andover (United Kingdom) [10K]": [
+    -1.48,
+    51.208
+  ],
+  "Yeovil (United Kingdom) [10K]": [
+    -2.637,
+    50.9452
+  ],
+  "Sutton in Ashfield (United Kingdom) [10K]": [
+    -1.261,
+    53.125
+  ],
+  "Catford (United Kingdom) [10K]": [
+    -0.0207,
+    51.4452
+  ],
+  "Pen-y-Bont ar Ogwr (United Kingdom) [10K]": [
+    -3.5784,
+    51.5072
+  ],
+  "Surbiton (United Kingdom) [10K]": [
+    -0.307,
+    51.394
+  ],
+  "Stretford (United Kingdom) [10K]": [
+    -2.3086,
+    53.4466
+  ],
+  "Cheshunt (United Kingdom) [10K]": [
+    -0.035,
+    51.702
+  ],
+  "Barnet (United Kingdom) [10K]": [
+    -0.1997,
+    51.6444
+  ],
+  "Kirkcaldy (United Kingdom) [10K]": [
+    -3.1674,
+    56.1107
+  ],
+  "Sutton (United Kingdom) [10K]": [
+    -0.1963,
+    51.3656
+  ],
+  "West Bridgford (United Kingdom) [10K]": [
+    -1.127,
+    52.932
+  ],
+  "Beckenham (United Kingdom) [10K]": [
+    -0.022,
+    51.408
+  ],
+  "Ashton (United Kingdom) [10K]": [
+    -2.0952,
+    53.4897
+  ],
+  "Strood (United Kingdom) [10K]": [
+    0.478,
+    51.393
+  ],
+  "Inverness (United Kingdom) [10K]": [
+    -4.2247,
+    57.4778
+  ],
+  "Salisbury (United Kingdom) [10K]": [
+    -1.79,
+    51.07
+  ],
+  "Ayr (United Kingdom) [10K]": [
+    -4.629,
+    55.458
+  ],
+  "Wokingham (United Kingdom) [10K]": [
+    -0.84,
+    51.41
+  ],
+  "Banbury (United Kingdom) [10K]": [
+    -1.336,
+    52.061
+  ],
+  "Urmston (United Kingdom) [10K]": [
+    -2.3747,
+    53.4487
+  ],
+  "Havant (United Kingdom) [10K]": [
+    -0.9842,
+    50.8517
+  ],
+  "Hinckley (United Kingdom) [10K]": [
+    -1.3725,
+    52.5413
+  ],
+  "Worksop (United Kingdom) [10K]": [
+    -1.1244,
+    53.3042
+  ],
+  "Morley (United Kingdom) [10K]": [
+    -1.6023,
+    53.7492
+  ],
+  "Welling (United Kingdom) [10K]": [
+    0.1097,
+    51.4594
+  ],
+  "Fleet (United Kingdom) [10K]": [
+    -0.8456,
+    51.2834
+  ],
+  "Middleton (United Kingdom) [10K]": [
+    -2.187,
+    53.555
+  ],
+  "Coatbridge (United Kingdom) [10K]": [
+    -4.0266,
+    55.8625
+  ],
+  "Chorley (United Kingdom) [10K]": [
+    -2.632,
+    53.653
+  ],
+  "Fareham (United Kingdom) [10K]": [
+    -1.18,
+    50.85
+  ],
+  "Castleford (United Kingdom) [10K]": [
+    -1.356,
+    53.716
+  ],
+  "Kingston upon Thames (United Kingdom) [10K]": [
+    -0.2995,
+    51.4103
+  ],
+  "Newbury (United Kingdom) [10K]": [
+    -1.323,
+    51.401
+  ],
+  "Bridgwater (United Kingdom) [10K]": [
+    -2.993,
+    51.128
+  ],
+  "Laindon (United Kingdom) [10K]": [
+    0.4181,
+    51.574
+  ],
+  "Caerphilly (United Kingdom) [10K]": [
+    -3.218,
+    51.578
+  ],
+  "Llanelli (United Kingdom) [10K]": [
+    -4.163,
+    51.684
+  ],
+  "Kirkby (United Kingdom) [10K]": [
+    -2.89,
+    53.48
+  ],
+  "Ramsgate (United Kingdom) [10K]": [
+    1.416,
+    51.336
+  ],
+  "Small Heath (United Kingdom) [10K]": [
+    -1.8542,
+    52.4629
+  ],
+  "Cleethorpes (United Kingdom) [10K]": [
+    -0.0215,
+    53.5533
+  ],
+  "Bishops Stortford (United Kingdom) [10K]": [
+    0.1725,
+    51.872
+  ],
+  "Coalville (United Kingdom) [10K]": [
+    -1.369,
+    52.724
+  ],
+  "Blyth (United Kingdom) [10K]": [
+    -1.514,
+    55.126
+  ],
+  "Kenton (United Kingdom) [10K]": [
+    -0.3086,
+    51.5878
+  ],
+  "Leighton Buzzard (United Kingdom) [10K]": [
+    -0.6617,
+    51.9165
+  ],
+  "Arnold (United Kingdom) [10K]": [
+    -1.127,
+    53.005
+  ],
+  "Ilkeston (United Kingdom) [10K]": [
+    -1.309,
+    52.971
+  ],
+  "Aberdare (United Kingdom) [10K]": [
+    -3.445,
+    51.713
+  ],
+  "Herne Bay (United Kingdom) [10K]": [
+    1.13,
+    51.37
+  ],
+  "Bicester (United Kingdom) [10K]": [
+    -1.15,
+    51.9
+  ],
+  "Wood Green (United Kingdom) [10K]": [
+    -0.1149,
+    51.5981
+  ],
+  "Denton (United Kingdom) [10K]": [
+    -2.1122,
+    53.4554
+  ],
+  "Highbury (United Kingdom) [10K]": [
+    -0.097,
+    51.552
+  ],
+  "Walkden (United Kingdom) [10K]": [
+    -2.3991,
+    53.5239
+  ],
+  "Whitley Bay (United Kingdom) [10K]": [
+    -1.4443,
+    55.0456
+  ],
+  "Bletchley (United Kingdom) [10K]": [
+    -0.732,
+    51.994
+  ],
+  "Billingham (United Kingdom) [10K]": [
+    -1.27,
+    54.61
+  ],
+  "Airdrie (United Kingdom) [10K]": [
+    -3.98,
+    55.86
+  ],
+  "Beeston (United Kingdom) [10K]": [
+    -1.215,
+    52.927
+  ],
+  "Long Eaton (United Kingdom) [10K]": [
+    -1.271,
+    52.898
+  ],
+  "Camberley (United Kingdom) [10K]": [
+    -0.742,
+    51.335
+  ],
+  "Dunstable (United Kingdom) [10K]": [
+    -0.521,
+    51.886
+  ],
+  "North Shields (United Kingdom) [10K]": [
+    -1.4448,
+    55.0097
+  ],
+  "Wickford (United Kingdom) [10K]": [
+    0.5207,
+    51.6114
+  ],
+  "Redcar (United Kingdom) [10K]": [
+    -1.069,
+    54.618
+  ],
+  "Northolt (United Kingdom) [10K]": [
+    -0.37,
+    51.5467
+  ],
+  "Bridlington (United Kingdom) [10K]": [
+    -0.1923,
+    54.0819
+  ],
+  "Hanwell (United Kingdom) [10K]": [
+    -0.338,
+    51.509
+  ],
+  "Falkirk (United Kingdom) [10K]": [
+    -3.7835,
+    56.0011
+  ],
+  "Dover (United Kingdom) [10K]": [
+    1.3089,
+    51.1295
+  ],
+  "Hitchin (United Kingdom) [10K]": [
+    -0.283,
+    51.947
+  ],
+  "Rainham (United Kingdom) [10K]": [
+    0.61,
+    51.36
+  ],
+  "Spalding (United Kingdom) [10K]": [
+    -0.1529,
+    52.7858
+  ],
+  "Grantham (United Kingdom) [10K]": [
+    -0.638,
+    52.918
+  ],
+  "Carshalton (United Kingdom) [10K]": [
+    -0.1676,
+    51.3652
+  ],
+  "Ewell (United Kingdom) [10K]": [
+    -0.249,
+    51.35
+  ],
+  "Colwyn Bay (United Kingdom) [10K]": [
+    -3.7,
+    53.29
+  ],
+  "Huyton (United Kingdom) [10K]": [
+    -2.8403,
+    53.4111
+  ],
+  "Pinner (United Kingdom) [10K]": [
+    -0.3894,
+    51.5932
+  ],
+  "Deal (United Kingdom) [10K]": [
+    1.4006,
+    51.2226
+  ],
+  "Letchworth (United Kingdom) [10K]": [
+    -0.23,
+    51.978
+  ],
+  "Hyde (United Kingdom) [10K]": [
+    -2.082,
+    53.4474
+  ],
+  "Abingdon (United Kingdom) [10K]": [
+    -1.283,
+    51.667
+  ],
+  "Borehamwood (United Kingdom) [10K]": [
+    -0.2723,
+    51.6578
+  ],
+  "Trowbridge (United Kingdom) [10K]": [
+    -2.208,
+    51.32
+  ],
+  "Earley (United Kingdom) [10K]": [
+    -0.933,
+    51.433
+  ],
+  "Rutherglen (United Kingdom) [10K]": [
+    -4.214,
+    55.828
+  ],
+  "Wigston Magna (United Kingdom) [10K]": [
+    -1.093,
+    52.5812
+  ],
+  "Lichfield (United Kingdom) [10K]": [
+    -1.829,
+    52.682
+  ],
+  "Prestwich (United Kingdom) [10K]": [
+    -2.2833,
+    53.5333
+  ],
+  "Didcot (United Kingdom) [10K]": [
+    -1.241,
+    51.606
+  ],
+  "Ecclesfield (United Kingdom) [10K]": [
+    -1.4698,
+    53.4429
+  ],
+  "Darwen (United Kingdom) [10K]": [
+    -2.461,
+    53.698
+  ],
+  "Bexleyheath (United Kingdom) [10K]": [
+    0.138,
+    51.459
+  ],
+  "Brighouse (United Kingdom) [10K]": [
+    -1.794,
+    53.707
+  ],
+  "Saint Neots (United Kingdom) [10K]": [
+    -0.27,
+    52.228
+  ],
+  "Motherwell (United Kingdom) [10K]": [
+    -3.9852,
+    55.7839
+  ],
+  "Pontypridd (United Kingdom) [10K]": [
+    -3.342,
+    51.602
+  ],
+  "Kendal (United Kingdom) [10K]": [
+    -2.745,
+    54.326
+  ],
+  "Chichester (United Kingdom) [10K]": [
+    -0.7792,
+    50.8365
+  ],
+  "Wishaw (United Kingdom) [10K]": [
+    -3.9183,
+    55.7742
+  ],
+  "Perry Barr (United Kingdom) [10K]": [
+    -1.9042,
+    52.5249
+  ],
+  "West Ham (United Kingdom) [10K]": [
+    0.008,
+    51.534
+  ],
+  "Swadlincote (United Kingdom) [10K]": [
+    -1.557,
+    52.774
+  ],
+  "Bulwell (United Kingdom) [10K]": [
+    -1.197,
+    53.001
+  ],
+  "Frome (United Kingdom) [10K]": [
+    -2.3215,
+    51.2279
+  ],
+  "Longton (United Kingdom) [10K]": [
+    -2.1327,
+    52.9877
+  ],
+  "Bromsgrove (United Kingdom) [10K]": [
+    -2.0579,
+    52.3353
+  ],
+  "Pont-y-pwl (United Kingdom) [10K]": [
+    -3.041,
+    51.703
+  ],
+  "Cramlington (United Kingdom) [10K]": [
+    -1.585,
+    55.082
+  ],
+  "Boscombe (United Kingdom) [10K]": [
+    -1.84,
+    50.725
+  ],
+  "Harpenden (United Kingdom) [10K]": [
+    -0.3524,
+    51.8175
+  ],
+  "Hertford (United Kingdom) [10K]": [
+    -0.0774,
+    51.7966
+  ],
+  "Darlaston (United Kingdom) [10K]": [
+    -2.0457,
+    52.5708
+  ],
+  "Stepney (United Kingdom) [10K]": [
+    -0.0462,
+    51.5152
+  ],
+  "Daventry (United Kingdom) [10K]": [
+    -1.1628,
+    52.2578
+  ],
+  "Cambuslang (United Kingdom) [10K]": [
+    -4.1671,
+    55.819
+  ],
+  "Rhyl (United Kingdom) [10K]": [
+    -3.48,
+    53.321
+  ],
+  "Leyton (United Kingdom) [10K]": [
+    -0.015,
+    51.57
+  ],
+  "Ashington (United Kingdom) [10K]": [
+    -1.568,
+    55.181
+  ],
+  "Congleton (United Kingdom) [10K]": [
+    -2.217,
+    53.162
+  ],
+  "Longbridge (United Kingdom) [10K]": [
+    -1.979,
+    52.395
+  ],
+  "Bearsden (United Kingdom) [10K]": [
+    -4.3332,
+    55.9192
+  ],
+  "Melton Mowbray (United Kingdom) [10K]": [
+    -0.886,
+    52.7661
+  ],
+  "Farnworth (United Kingdom) [10K]": [
+    -2.3999,
+    53.5452
+  ],
+  "Shenley Brook End (United Kingdom) [10K]": [
+    -0.789,
+    52.009
+  ],
+  "Consett (United Kingdom) [10K]": [
+    -1.83,
+    54.85
+  ],
+  "Bilston (United Kingdom) [10K]": [
+    -2.0728,
+    52.566
+  ],
+  "Bloxwich (United Kingdom) [10K]": [
+    -2.004,
+    52.614
+  ],
+  "Bournville (United Kingdom) [10K]": [
+    -1.9355,
+    52.4299
+  ],
+  "Billericay (United Kingdom) [10K]": [
+    0.4184,
+    51.628
+  ],
+  "Gorleston-on-Sea (United Kingdom) [10K]": [
+    1.7235,
+    52.5757
+  ],
+  "Aldridge (United Kingdom) [10K]": [
+    -1.9179,
+    52.606
+  ],
+  "Newton Aycliffe (United Kingdom) [10K]": [
+    -1.58,
+    54.62
+  ],
+  "Upminster (United Kingdom) [10K]": [
+    0.2512,
+    51.5557
+  ],
+  "Westhoughton (United Kingdom) [10K]": [
+    -2.529,
+    53.549
+  ],
+  "Northfield (United Kingdom) [10K]": [
+    -1.963,
+    52.408
+  ],
+  "Hindley (United Kingdom) [10K]": [
+    -2.5658,
+    53.5355
+  ],
+  "Cheadle Hulme (United Kingdom) [10K]": [
+    -2.1897,
+    53.3761
+  ],
+  "Haverhill (United Kingdom) [10K]": [
+    0.44,
+    52.08
+  ],
+  "Kings Norton (United Kingdom) [10K]": [
+    -1.9272,
+    52.4072
+  ],
+  "Balham (United Kingdom) [10K]": [
+    -0.1525,
+    51.4434
+  ],
+  "Coulsdon (United Kingdom) [10K]": [
+    -0.1386,
+    51.3211
+  ],
+  "Newton Mearns (United Kingdom) [10K]": [
+    -4.3347,
+    55.7716
+  ],
+  "Hackney (United Kingdom) [10K]": [
+    -0.0266,
+    51.5414
+  ],
+  "Ryde (United Kingdom) [10K]": [
+    -1.1618,
+    50.7271
+  ],
+  "Bishop Auckland (United Kingdom) [10K]": [
+    -1.676,
+    54.663
+  ],
+  "Wellington (United Kingdom) [10K]": [
+    -3.2243,
+    50.9755
+  ],
+  "Clydebank (United Kingdom) [10K]": [
+    -4.4006,
+    55.8997
+  ],
+  "Gosforth (United Kingdom) [10K]": [
+    -1.623,
+    55.007
+  ],
+  "Barnstaple (United Kingdom) [10K]": [
+    -4.06,
+    51.08
+  ],
+  "Wallington (United Kingdom) [10K]": [
+    -0.1403,
+    51.3647
+  ],
+  "Market Harborough (United Kingdom) [10K]": [
+    -0.9206,
+    52.4775
+  ],
+  "Droylsden (United Kingdom) [10K]": [
+    -2.1582,
+    53.4828
+  ],
+  "Thornaby on Tees (United Kingdom) [10K]": [
+    -1.3025,
+    54.5585
+  ],
+  "Clifton (United Kingdom) [10K]": [
+    -1.0979,
+    53.9721
+  ],
+  "Erdington (United Kingdom) [10K]": [
+    -1.8378,
+    52.5236
+  ],
+  "Plymstock (United Kingdom) [10K]": [
+    -4.09,
+    50.3569
+  ],
+  "Stratton Saint Margaret (United Kingdom) [10K]": [
+    -1.762,
+    51.586
+  ],
+  "Swinton (United Kingdom) [10K]": [
+    -1.3149,
+    53.4877
+  ],
+  "Droitwich (United Kingdom) [10K]": [
+    -2.153,
+    52.267
+  ],
+  "Harborne (United Kingdom) [10K]": [
+    -1.95,
+    52.46
+  ],
+  "Penarth (United Kingdom) [10K]": [
+    -3.17,
+    51.43
+  ],
+  "Portishead (United Kingdom) [10K]": [
+    -2.7626,
+    51.484
+  ],
+  "Caversham (United Kingdom) [10K]": [
+    -0.973,
+    51.467
+  ],
+  "Wednesfield (United Kingdom) [10K]": [
+    -2.0827,
+    52.5998
+  ],
+  "Whitefield (United Kingdom) [10K]": [
+    -2.2992,
+    53.5521
+  ],
+  "Stalybridge (United Kingdom) [10K]": [
+    -2.04,
+    53.4834
+  ],
+  "Camborne (United Kingdom) [10K]": [
+    -5.3,
+    50.213
+  ],
+  "Kingswinford (United Kingdom) [10K]": [
+    -2.1657,
+    52.4981
+  ],
+  "Bailleston (United Kingdom) [10K]": [
+    -4.1147,
+    55.8474
+  ],
+  "Chester-le-Street (United Kingdom) [10K]": [
+    -1.5699,
+    54.8594
+  ],
+  "Arbroath (United Kingdom) [10K]": [
+    -2.586,
+    56.561
+  ],
+  "Farnley (United Kingdom) [10K]": [
+    -1.6159,
+    53.7876
+  ],
+  "Oadby (United Kingdom) [10K]": [
+    -1.0763,
+    52.5987
+  ],
+  "Litherland (United Kingdom) [10K]": [
+    -2.999,
+    53.4727
+  ],
+  "Stanmore (United Kingdom) [10K]": [
+    -0.314,
+    51.618
+  ],
+  "Acomb (United Kingdom) [10K]": [
+    -1.126,
+    53.955
+  ],
+  "Sheldon (United Kingdom) [10K]": [
+    -1.7666,
+    52.45
+  ],
+  "Ormskirk (United Kingdom) [10K]": [
+    -2.8869,
+    53.5665
+  ],
+  "Failsworth (United Kingdom) [10K]": [
+    -2.1575,
+    53.5102
+  ],
+  "Bishopbriggs (United Kingdom) [10K]": [
+    -4.225,
+    55.9046
+  ],
+  "Littleover (United Kingdom) [10K]": [
+    -1.505,
+    52.906
+  ],
+  "Newquay (United Kingdom) [10K]": [
+    -5.0757,
+    50.412
+  ],
+  "Belper (United Kingdom) [10K]": [
+    -1.475,
+    53.029
+  ],
+  "Clevedon (United Kingdom) [10K]": [
+    -2.854,
+    51.438
+  ],
+  "Chandlers Ford (United Kingdom) [10K]": [
+    -1.3792,
+    50.984
+  ],
+  "Newton in Makerfield (United Kingdom) [10K]": [
+    -2.633,
+    53.45
+  ],
+  "Holborn (United Kingdom) [10K]": [
+    -0.1136,
+    51.5204
+  ],
+  "Penwortham (United Kingdom) [10K]": [
+    -2.72,
+    53.74
+  ],
+  "March (United Kingdom) [10K]": [
+    0.088,
+    52.551
+  ],
+  "Farsley (United Kingdom) [10K]": [
+    -1.6718,
+    53.8116
+  ],
+  "Friern Barnet (United Kingdom) [10K]": [
+    -0.1584,
+    51.6126
+  ],
+  "Huntingdon (United Kingdom) [10K]": [
+    -0.1717,
+    52.3364
+  ],
+  "Bispham (United Kingdom) [10K]": [
+    -3.041,
+    53.852
+  ],
+  "Kidsgrove (United Kingdom) [10K]": [
+    -2.2478,
+    53.0874
+  ],
+  "Belgrave (United Kingdom) [10K]": [
+    -1.1262,
+    52.6566
+  ],
+  "Northwood (United Kingdom) [10K]": [
+    -0.4176,
+    51.601
+  ],
+  "Guiseley (United Kingdom) [10K]": [
+    -1.706,
+    53.875
+  ],
+  "Penistone (United Kingdom) [10K]": [
+    -1.629,
+    53.525
+  ],
+  "Ossett (United Kingdom) [10K]": [
+    -1.58,
+    53.68
+  ],
+  "Norton (United Kingdom) [10K]": [
+    -1.3157,
+    54.589
+  ],
+  "Maghull (United Kingdom) [10K]": [
+    -2.9449,
+    53.5174
+  ],
+  "Atherton (United Kingdom) [10K]": [
+    -2.495,
+    53.523
+  ],
+  "Tiverton (United Kingdom) [10K]": [
+    -3.488,
+    50.903
+  ],
+  "Plumstead (United Kingdom) [10K]": [
+    0.09,
+    51.49
+  ],
+  "Horwich (United Kingdom) [10K]": [
+    -2.54,
+    53.592
+  ],
+  "Maesteg (United Kingdom) [10K]": [
+    -3.65,
+    51.61
+  ],
+  "Bathgate (United Kingdom) [10K]": [
+    -3.6431,
+    55.9024
+  ],
+  "Truro (United Kingdom) [10K]": [
+    -5.051,
+    50.26
+  ],
+  "Yate (United Kingdom) [10K]": [
+    -2.411,
+    51.5402
+  ],
+  "Southbourne (United Kingdom) [10K]": [
+    -1.798,
+    50.722
+  ],
+  "Stoke Gifford (United Kingdom) [10K]": [
+    -2.548,
+    51.517
+  ],
+  "Leek (United Kingdom) [10K]": [
+    -2.0234,
+    53.108
+  ],
+  "Kirkstall (United Kingdom) [10K]": [
+    -1.602,
+    53.816
+  ],
+  "Dronfield (United Kingdom) [10K]": [
+    -1.4664,
+    53.3024
+  ],
+  "Buxton (United Kingdom) [10K]": [
+    -1.911,
+    53.259
+  ],
+  "Royton (United Kingdom) [10K]": [
+    -2.121,
+    53.566
+  ],
+  "Rothwell (United Kingdom) [10K]": [
+    -1.478,
+    53.7485
+  ],
+  "Hornsey (United Kingdom) [10K]": [
+    -0.118,
+    51.587
+  ],
+  "Falmouth (United Kingdom) [10K]": [
+    -5.07,
+    50.15
+  ],
+  "Woodlesford (United Kingdom) [10K]": [
+    -1.453,
+    53.7567
+  ],
+  "Dollis Hill (United Kingdom) [10K]": [
+    -0.2341,
+    51.5641
+  ],
+  "Cottingham (United Kingdom) [10K]": [
+    -0.4136,
+    53.7822
+  ],
+  "Renfrew (United Kingdom) [10K]": [
+    -4.389,
+    55.878
+  ],
+  "Stamford (United Kingdom) [10K]": [
+    -0.484,
+    52.656
+  ],
+  "Hebburn (United Kingdom) [10K]": [
+    -1.513,
+    54.972
+  ],
+  "Leigh-on-Sea (United Kingdom) [10K]": [
+    0.6535,
+    51.5425
+  ],
+  "Calne (United Kingdom) [10K]": [
+    -2.005,
+    51.438
+  ],
+  "Hythe (United Kingdom) [10K]": [
+    1.084,
+    51.0716
+  ],
+  "Peterlee (United Kingdom) [10K]": [
+    -1.33,
+    54.76
+  ],
+  "Seaham (United Kingdom) [10K]": [
+    -1.34,
+    54.84
+  ],
+  "Shoreham-by-Sea (United Kingdom) [10K]": [
+    -0.273,
+    50.834
+  ],
+  "Goodmayes (United Kingdom) [10K]": [
+    0.1133,
+    51.5631
+  ],
+  "Palmers Green (United Kingdom) [10K]": [
+    -0.1092,
+    51.6178
+  ],
+  "Biddulph (United Kingdom) [10K]": [
+    -2.17,
+    53.12
+  ],
+  "Worcester Park (United Kingdom) [10K]": [
+    -0.239,
+    51.3752
+  ],
+  "Killingworth (United Kingdom) [10K]": [
+    -1.5557,
+    55.0318
+  ],
+  "Caterham (United Kingdom) [10K]": [
+    -0.0816,
+    51.2803
+  ],
+  "Selby (United Kingdom) [10K]": [
+    -1.0703,
+    53.7818
+  ],
+  "Abbots Langley (United Kingdom) [10K]": [
+    -0.416,
+    51.701
+  ],
+  "Peterhead (United Kingdom) [10K]": [
+    -1.7832,
+    57.5091
+  ],
+  "Bellshill (United Kingdom) [10K]": [
+    -4.026,
+    55.816
+  ],
+  "Davyhulme (United Kingdom) [10K]": [
+    -2.3683,
+    53.4559
+  ],
+  "Llandudno (United Kingdom) [10K]": [
+    -3.826,
+    53.325
+  ],
+  "Quedgeley (United Kingdom) [10K]": [
+    -2.28,
+    51.825
+  ],
+  "Southgate (United Kingdom) [10K]": [
+    -0.1265,
+    51.6316
+  ],
+  "Burnham-on-Sea (United Kingdom) [10K]": [
+    -2.9935,
+    51.2376
+  ],
+  "Prestatyn (United Kingdom) [10K]": [
+    -3.405,
+    53.331
+  ],
+  "Dukinfield (United Kingdom) [10K]": [
+    -2.0828,
+    53.4739
+  ],
+  "Antrim (United Kingdom) [10K]": [
+    -6.2055,
+    54.7173
+  ],
+  "Ecclesall (United Kingdom) [10K]": [
+    -1.498,
+    53.362
+  ],
+  "Frimley (United Kingdom) [10K]": [
+    -0.7387,
+    51.3143
+  ],
+  "Bingley (United Kingdom) [10K]": [
+    -1.836,
+    53.846
+  ],
+  "Molesey (United Kingdom) [10K]": [
+    -0.363,
+    51.401
+  ],
+  "Connahs Quay (United Kingdom) [10K]": [
+    -3.057,
+    53.218
+  ],
+  "Great Linford (United Kingdom) [10K]": [
+    -0.7637,
+    52.068
+  ],
+  "Houghton Regis (United Kingdom) [10K]": [
+    -0.5247,
+    51.9039
+  ],
+  "Liversedge (United Kingdom) [10K]": [
+    -1.69,
+    53.7067
+  ],
+  "Maltby (United Kingdom) [10K]": [
+    -1.21,
+    53.426
+  ],
+  "Keynsham (United Kingdom) [10K]": [
+    -2.4968,
+    51.4135
+  ],
+  "Kew Green (United Kingdom) [10K]": [
+    -0.2248,
+    51.5308
+  ],
+  "Bourne (United Kingdom) [10K]": [
+    -0.3775,
+    52.7684
+  ],
+  "Broughty Ferry (United Kingdom) [10K]": [
+    -2.8699,
+    56.4672
+  ],
+  "Bedlington (United Kingdom) [10K]": [
+    -1.583,
+    55.133
+  ],
+  "Tonypandy (United Kingdom) [10K]": [
+    -3.4512,
+    51.6223
+  ],
+  "Hadleigh (United Kingdom) [10K]": [
+    0.6095,
+    51.5535
+  ],
+  "East Barnet (United Kingdom) [10K]": [
+    -0.163,
+    51.643
+  ],
+  "Moston (United Kingdom) [10K]": [
+    -2.1848,
+    53.5156
+  ],
+  "Hampton (United Kingdom) [10K]": [
+    -0.367,
+    51.422
+  ],
+  "Highgate (United Kingdom) [10K]": [
+    -0.1448,
+    51.5716
+  ],
+  "Colne (United Kingdom) [10K]": [
+    -2.1756,
+    53.8554
+  ],
+  "Westbury (United Kingdom) [10K]": [
+    -2.191,
+    51.26
+  ],
+  "Clitheroe (United Kingdom) [10K]": [
+    -2.3916,
+    53.8711
+  ],
+  "Redhill (United Kingdom) [10K]": [
+    -0.1726,
+    51.2393
+  ],
+  "Warminster (United Kingdom) [10K]": [
+    -2.181,
+    51.205
+  ],
+  "Devizes (United Kingdom) [10K]": [
+    -1.9958,
+    51.3528
+  ],
+  "Wibsey (United Kingdom) [10K]": [
+    -1.7728,
+    53.7672
+  ],
+  "Dingle (United Kingdom) [10K]": [
+    -2.9613,
+    53.3774
+  ],
+  "Horsforth (United Kingdom) [10K]": [
+    -1.643,
+    53.837
+  ],
+  "Moreton (United Kingdom) [10K]": [
+    -3.111,
+    53.401
+  ],
+  "Cowley (United Kingdom) [1K]": [
+    -0.481,
+    51.528
+  ],
+  "Bonnyrigg (United Kingdom) [10K]": [
+    -3.1031,
+    55.8747
+  ],
+  "Fern Down (United Kingdom) [10K]": [
+    -1.9,
+    50.81
+  ],
+  "Staines-upon-Thames (United Kingdom) [10K]": [
+    -0.511,
+    51.434
+  ],
+  "Dawlish (United Kingdom) [10K]": [
+    -3.466,
+    50.581
+  ],
+  "New Brighton (United Kingdom) [10K]": [
+    -3.049,
+    53.432
+  ],
+  "Shirley (United Kingdom) [10K]": [
+    -0.0543,
+    51.3813
+  ],
+  "Cosham (United Kingdom) [10K]": [
+    -1.066,
+    50.8424
+  ],
+  "High Blantyre (United Kingdom) [10K]": [
+    -4.097,
+    55.793
+  ],
+  "Nailsea (United Kingdom) [10K]": [
+    -2.76,
+    51.43
+  ],
+  "Enfield Lock (United Kingdom) [10K]": [
+    -0.026,
+    51.6686
+  ],
+  "Cleckheaton (United Kingdom) [10K]": [
+    -1.719,
+    53.725
+  ],
+  "Basford (United Kingdom) [10K]": [
+    -1.169,
+    52.978
+  ],
+  "Porthcawl (United Kingdom) [10K]": [
+    -3.69,
+    51.48
+  ],
+  "Milton (United Kingdom) [10K]": [
+    -2.142,
+    53.05
+  ],
+  "Hilsea (United Kingdom) [10K]": [
+    -1.07,
+    50.83
+  ],
+  "Kilwinning (United Kingdom) [10K]": [
+    -4.703,
+    55.655
+  ],
+  "Heckmondwike (United Kingdom) [10K]": [
+    -1.67,
+    53.708
+  ],
+  "Woodhouse (United Kingdom) [10K]": [
+    -1.373,
+    53.358
+  ],
+  "Tyldesley (United Kingdom) [10K]": [
+    -2.4667,
+    53.5166
+  ],
+  "Upton (United Kingdom) [10K]": [
+    -3.099,
+    53.385
+  ],
+  "Haslingden (United Kingdom) [10K]": [
+    -2.328,
+    53.705
+  ],
+  "Kidbrooke (United Kingdom) [10K]": [
+    0.0273,
+    51.4621
+  ],
+  "Maldon (United Kingdom) [10K]": [
+    0.6758,
+    51.7318
+  ],
+  "Fazakerley (United Kingdom) [10K]": [
+    -2.9408,
+    53.4676
+  ],
+  "Seacroft (United Kingdom) [10K]": [
+    -1.4599,
+    53.8222
+  ],
+  "Leagrave (United Kingdom) [10K]": [
+    -0.466,
+    51.903
+  ],
+  "Baguley (United Kingdom) [10K]": [
+    -2.276,
+    53.399
+  ],
+  "Clayton (United Kingdom) [10K]": [
+    -1.8135,
+    53.782
+  ],
+  "Shipley (United Kingdom) [10K]": [
+    -1.777,
+    53.833
+  ],
+  "West Wickham (United Kingdom) [10K]": [
+    -0.0193,
+    51.3765
+  ],
+  "West Drayton (United Kingdom) [10K]": [
+    -0.4646,
+    51.5043
+  ],
+  "Larkhall (United Kingdom) [10K]": [
+    -3.972,
+    55.737
+  ],
+  "Hatch End (United Kingdom) [10K]": [
+    -0.3743,
+    51.601
+  ],
+  "Hednesford (United Kingdom) [10K]": [
+    -2.0006,
+    52.7115
+  ],
+  "Deysbrook (United Kingdom) [10K]": [
+    -2.934,
+    53.429
+  ],
+  "Whickham (United Kingdom) [10K]": [
+    -1.6726,
+    54.9456
+  ],
+  "Bredbury (United Kingdom) [10K]": [
+    -2.113,
+    53.42
+  ],
+  "Baildon (United Kingdom) [10K]": [
+    -1.763,
+    53.851
+  ],
+  "Cheam (United Kingdom) [10K]": [
+    -0.21,
+    51.36
+  ],
+  "Netherton (United Kingdom) [10K]": [
+    -2.0835,
+    52.4908
+  ],
+  "Saltash (United Kingdom) [10K]": [
+    -4.212,
+    50.408
+  ],
+  "West Derby (United Kingdom) [10K]": [
+    -2.907,
+    53.4338
+  ],
+  "Partick (United Kingdom) [1K]": [
+    -4.3125,
+    55.8699
+  ],
+  "South Hayling (United Kingdom) [10K]": [
+    -0.977,
+    50.7876
+  ],
+  "Pemberton (United Kingdom) [10K]": [
+    -2.6738,
+    53.536
+  ],
+  "Johnstone (United Kingdom) [10K]": [
+    -4.5027,
+    55.8346
+  ],
+  "Morriston (United Kingdom) [10K]": [
+    -3.9389,
+    51.6647
+  ],
+  "Royston (United Kingdom) [10K]": [
+    -1.45,
+    53.61
+  ],
+  "Addlestone (United Kingdom) [10K]": [
+    -0.4901,
+    51.3695
+  ],
+  "Brackley (United Kingdom) [10K]": [
+    -1.147,
+    52.032
+  ],
+  "Braunstone (United Kingdom) [10K]": [
+    -1.175,
+    52.616
+  ],
+  "Hazel Grove (United Kingdom) [10K]": [
+    -2.111,
+    53.375
+  ],
+  "Wombwell (United Kingdom) [10K]": [
+    -1.4,
+    53.516
+  ],
+  "Prestwick (United Kingdom) [10K]": [
+    -4.6142,
+    55.4956
+  ],
+  "Buckley (United Kingdom) [10K]": [
+    -3.086,
+    53.172
+  ],
+  "Yiewsley (United Kingdom) [10K]": [
+    -0.471,
+    51.513
+  ],
+  "The Mumbles (United Kingdom) [10K]": [
+    -3.9992,
+    51.573
+  ],
+  "Banstead (United Kingdom) [10K]": [
+    -0.204,
+    51.322
+  ],
+  "Whittlesey (United Kingdom) [10K]": [
+    -0.13,
+    52.558
+  ],
+  "Bromborough (United Kingdom) [10K]": [
+    -2.978,
+    53.336
+  ],
+  "Verwood (United Kingdom) [10K]": [
+    -1.8785,
+    50.8815
+  ],
+  "Chertsey (United Kingdom) [10K]": [
+    -0.5074,
+    51.3902
+  ],
+  "Melksham (United Kingdom) [10K]": [
+    -2.138,
+    51.371
+  ],
+  "Pendlebury (United Kingdom) [10K]": [
+    -2.3154,
+    53.5075
+  ],
+  "Nantwich (United Kingdom) [10K]": [
+    -2.522,
+    53.067
+  ],
+  "Amblecote (United Kingdom) [10K]": [
+    -2.16,
+    52.46
+  ],
+  "Bidston (United Kingdom) [10K]": [
+    -3.078,
+    53.402
+  ],
+  "Gornalwood (United Kingdom) [10K]": [
+    -2.124,
+    52.523
+  ],
+  "Lymington (United Kingdom) [10K]": [
+    -1.55,
+    50.75
+  ],
+  "Hessle (United Kingdom) [10K]": [
+    -0.4319,
+    53.7239
+  ],
+  "Llantrisant (United Kingdom) [10K]": [
+    -3.375,
+    51.542
+  ],
+  "Rosyth (United Kingdom) [10K]": [
+    -3.4323,
+    56.0339
+  ],
+  "Rock Ferry (United Kingdom) [10K]": [
+    -3.008,
+    53.373
+  ],
+  "Saffron Walden (United Kingdom) [10K]": [
+    0.243,
+    52.022
+  ],
+  "Barton upon Irwell (United Kingdom) [10K]": [
+    -2.36,
+    53.476
+  ],
+  "Thornbury (United Kingdom) [10K]": [
+    -2.5249,
+    51.6094
+  ],
+  "Stapleford (United Kingdom) [10K]": [
+    -1.274,
+    52.929
+  ],
+  "Redruth (United Kingdom) [10K]": [
+    -5.224,
+    50.233
+  ],
+  "Perivale (United Kingdom) [10K]": [
+    -0.3192,
+    51.5383
+  ],
+  "Kidlington (United Kingdom) [10K]": [
+    -1.291,
+    51.823
+  ],
+  "Timperley (United Kingdom) [10K]": [
+    -2.328,
+    53.387
+  ],
+  "Armthorpe (United Kingdom) [10K]": [
+    -1.0522,
+    53.5352
+  ],
+  "Little Hulton (United Kingdom) [10K]": [
+    -2.418,
+    53.53
+  ],
+  "Kenley (United Kingdom) [10K]": [
+    -0.0969,
+    51.3242
+  ],
+  "Rottingdean (United Kingdom) [10K]": [
+    -0.065,
+    50.815
+  ],
+  "Marlow (United Kingdom) [10K]": [
+    -0.78,
+    51.57
+  ],
+  "Brierley Hill (United Kingdom) [10K]": [
+    -2.1245,
+    52.4795
+  ],
+  "Whitby (United Kingdom) [10K]": [
+    -0.6206,
+    54.4858
+  ],
+  "Harrow Weald (United Kingdom) [10K]": [
+    -0.339,
+    51.604
+  ],
+  "Wanstead (United Kingdom) [10K]": [
+    0.0286,
+    51.5778
+  ],
+  "Rustington (United Kingdom) [10K]": [
+    -0.5052,
+    50.8102
+  ],
+  "Rossington (United Kingdom) [10K]": [
+    -1.0613,
+    53.4759
+  ],
+  "Sudbury (United Kingdom) [10K]": [
+    0.7282,
+    52.0417
+  ],
+  "Ilkley (United Kingdom) [10K]": [
+    -1.822,
+    53.925
+  ],
+  "Ovenden (United Kingdom) [10K]": [
+    -1.8779,
+    53.7432
+  ],
+  "Lowton (United Kingdom) [10K]": [
+    -2.569,
+    53.471
+  ],
+  "Patcham (United Kingdom) [10K]": [
+    -0.15,
+    50.864
+  ],
+  "Childwall (United Kingdom) [10K]": [
+    -2.881,
+    53.395
+  ],
+  "Shenley Church End (United Kingdom) [10K]": [
+    -0.788,
+    52.022
+  ],
+  "Newport Pagnell (United Kingdom) [10K]": [
+    -0.722,
+    52.087
+  ],
+  "Shiremoor (United Kingdom) [10K]": [
+    -1.5048,
+    55.0366
+  ],
+  "Petersfield (United Kingdom) [10K]": [
+    -0.9374,
+    51.0038
+  ],
+  "Chaddesden (United Kingdom) [10K]": [
+    -1.4383,
+    52.9301
+  ],
+  "Egg Buckland (United Kingdom) [10K]": [
+    -4.1136,
+    50.4006
+  ],
+  "Prescot (United Kingdom) [10K]": [
+    -2.8064,
+    53.4286
+  ],
+  "Shirebrook (United Kingdom) [10K]": [
+    -1.2197,
+    53.2048
+  ],
+  "West Boldon (United Kingdom) [10K]": [
+    -1.441,
+    54.945
+  ],
+  "Fraserburgh (United Kingdom) [10K]": [
+    -2.005,
+    57.693
+  ],
+  "Walsall Wood (United Kingdom) [10K]": [
+    -1.9301,
+    52.6277
+  ],
+  "Bodmin (United Kingdom) [10K]": [
+    -4.718,
+    50.466
+  ],
+  "Hollinwood (United Kingdom) [10K]": [
+    -2.144,
+    53.5183
+  ],
+  "Streetly (United Kingdom) [10K]": [
+    -1.884,
+    52.577
+  ],
+  "Spitalfields (United Kingdom) [10K]": [
+    -0.075,
+    51.5166
+  ],
+  "Wollaston (United Kingdom) [10K]": [
+    -2.1663,
+    52.4619
+  ],
+  "Aylestone (United Kingdom) [10K]": [
+    -1.154,
+    52.604
+  ],
+  "Conisbrough (United Kingdom) [10K]": [
+    -1.227,
+    53.479
+  ],
+  "Caerfyrddin (United Kingdom) [10K]": [
+    -4.316,
+    51.856
+  ],
+  "Thorpe Saint Andrew (United Kingdom) [10K]": [
+    1.3431,
+    52.6354
+  ],
+  "Hawick (United Kingdom) [10K]": [
+    -2.787,
+    55.422
+  ],
+  "Wolverton (United Kingdom) [10K]": [
+    -0.8102,
+    52.0626
+  ],
+  "Linlithgow (United Kingdom) [10K]": [
+    -3.6105,
+    55.9791
+  ],
+  "Burslem (United Kingdom) [10K]": [
+    -2.1879,
+    53.0426
+  ],
+  "Broadwater (United Kingdom) [1K]": [
+    -0.3742,
+    50.8282
+  ],
+  "Milford Haven (United Kingdom) [10K]": [
+    -5.0427,
+    51.7142
+  ],
+  "Sedgley (United Kingdom) [10K]": [
+    -2.123,
+    52.54
+  ],
+  "Southborough (United Kingdom) [10K]": [
+    0.2652,
+    51.1598
+  ],
+  "Minehead (United Kingdom) [10K]": [
+    -3.4738,
+    51.2038
+  ],
+  "Coseley (United Kingdom) [10K]": [
+    -2.083,
+    52.55
+  ],
+  "Chard (United Kingdom) [10K]": [
+    -2.9587,
+    50.8728
+  ],
+  "Buckingham (United Kingdom) [10K]": [
+    -0.986,
+    51.995
+  ],
+  "Sutton on Hull (United Kingdom) [10K]": [
+    -0.3047,
+    53.7806
+  ],
+  "Midsomer Norton (United Kingdom) [10K]": [
+    -2.4817,
+    51.2842
+  ],
+  "Milngavie (United Kingdom) [10K]": [
+    -4.3137,
+    55.9421
+  ],
+  "Corsham (United Kingdom) [10K]": [
+    -2.185,
+    51.434
+  ],
+  "Southwick (United Kingdom) [10K]": [
+    -1.4062,
+    54.9193
+  ],
+  "Lye (United Kingdom) [10K]": [
+    -2.116,
+    52.459
+  ],
+  "Thatto Heath (United Kingdom) [10K]": [
+    -2.7481,
+    53.4352
+  ],
+  "Blunsdon Saint Andrew (United Kingdom) [10K]": [
+    -1.79,
+    51.61
+  ],
+  "Brownhills (United Kingdom) [10K]": [
+    -1.933,
+    52.647
+  ],
+  "Allestree (United Kingdom) [10K]": [
+    -1.4856,
+    52.9519
+  ],
+  "Eckington (United Kingdom) [10K]": [
+    -1.3643,
+    53.308
+  ],
+  "Hoyland Nether (United Kingdom) [10K]": [
+    -1.4406,
+    53.4985
+  ],
+  "Chepstow (United Kingdom) [10K]": [
+    -2.675,
+    51.642
+  ],
+  "Giffnock (United Kingdom) [10K]": [
+    -4.2946,
+    55.8051
+  ],
+  "Wallingford (United Kingdom) [10K]": [
+    -1.125,
+    51.599
+  ],
+  "Castle Bromwich (United Kingdom) [10K]": [
+    -1.7856,
+    52.505
+  ],
+  "Great Driffield (United Kingdom) [10K]": [
+    -0.438,
+    54.005
+  ],
+  "Chilwell (United Kingdom) [10K]": [
+    -1.235,
+    52.916
+  ],
+  "Ormesby (United Kingdom) [10K]": [
+    -1.1817,
+    54.5492
+  ],
+  "Saint Budeaux (United Kingdom) [10K]": [
+    -4.1856,
+    50.4033
+  ],
+  "Blundellsands (United Kingdom) [10K]": [
+    -3.05,
+    53.48
+  ],
+  "Mountain Ash (United Kingdom) [10K]": [
+    -3.3792,
+    51.6814
+  ],
+  "Earlestown (United Kingdom) [10K]": [
+    -2.65,
+    53.45
+  ],
+  "Snaresbrook (United Kingdom) [10K]": [
+    0.0146,
+    51.587
+  ],
+  "Knutsford (United Kingdom) [10K]": [
+    -2.3708,
+    53.3025
+  ],
+  "Ainsdale (United Kingdom) [10K]": [
+    -3.0405,
+    53.6021
+  ],
+  "Holyhead (United Kingdom) [10K]": [
+    -4.633,
+    53.309
+  ],
+  "Parkstone (United Kingdom) [10K]": [
+    -1.95,
+    50.71
+  ],
+  "Wordsley (United Kingdom) [10K]": [
+    -2.15,
+    52.483
+  ],
+  "Culcheth (United Kingdom) [10K]": [
+    -2.5218,
+    53.4517
+  ],
+  "Cromer (United Kingdom) [10K]": [
+    1.302,
+    52.931
+  ],
+  "Woolton (United Kingdom) [10K]": [
+    -2.865,
+    53.374
+  ],
+  "Killamarsh (United Kingdom) [1K]": [
+    -1.3116,
+    53.3205
+  ],
+  "Sandridge (United Kingdom) [10K]": [
+    -0.3038,
+    51.7808
+  ],
+  "Abergavenny (United Kingdom) [10K]": [
+    -3.0167,
+    51.824
+  ],
+  "Warsop (United Kingdom) [10K]": [
+    -1.15,
+    53.2
+  ],
+  "Gourock (United Kingdom) [10K]": [
+    -4.8173,
+    55.9538
+  ],
+  "Olton (United Kingdom) [10K]": [
+    -1.8058,
+    52.4377
+  ],
+  "Forres (United Kingdom) [10K]": [
+    -3.62,
+    57.608
+  ],
+  "Hwlffordd (United Kingdom) [10K]": [
+    -4.97,
+    51.8
+  ],
+  "Sandown (United Kingdom) [10K]": [
+    -1.1541,
+    50.6551
+  ],
+  "Bottesford (United Kingdom) [10K]": [
+    -0.6714,
+    53.5521
+  ],
+  "Bargoed (United Kingdom) [10K]": [
+    -3.24,
+    51.69
+  ],
+  "Trentham (United Kingdom) [10K]": [
+    -2.1899,
+    52.9663
+  ],
+  "Carnoustie (United Kingdom) [10K]": [
+    -2.71,
+    56.501
+  ],
+  "Tonyrefail (United Kingdom) [10K]": [
+    -3.4306,
+    51.584
+  ],
+  "Brislington (United Kingdom) [10K]": [
+    -2.5439,
+    51.4316
+  ],
+  "Thames Ditton (United Kingdom) [1K]": [
+    -0.331,
+    51.389
+  ],
+  "Cudworth (United Kingdom) [10K]": [
+    -1.4149,
+    53.5784
+  ],
+  "Wealdstone (United Kingdom) [10K]": [
+    -0.3352,
+    51.5957
+  ],
+  "Haydock (United Kingdom) [10K]": [
+    -2.6609,
+    53.4678
+  ],
+  "Lambeth (United Kingdom) [1K]": [
+    -0.119,
+    51.49
+  ],
+  "Linslade (United Kingdom) [10K]": [
+    -0.6774,
+    51.9243
+  ],
+  "Street (United Kingdom) [10K]": [
+    -2.7381,
+    51.1235
+  ],
+  "Oakham (United Kingdom) [10K]": [
+    -0.7333,
+    52.6705
+  ],
+  "Raynes Park (United Kingdom) [1K]": [
+    -0.2321,
+    51.4033
+  ],
+  "Astley (United Kingdom) [10K]": [
+    -2.4454,
+    53.5008
+  ],
+  "Bishopstoke (United Kingdom) [1K]": [
+    -1.3278,
+    50.9679
+  ],
+  "Kippax (United Kingdom) [1K]": [
+    -1.3705,
+    53.7669
+  ],
+  "Ryhope (United Kingdom) [10K]": [
+    -1.3698,
+    54.8679
+  ],
+  "Pelsall (United Kingdom) [10K]": [
+    -1.972,
+    52.631
+  ],
+  "Birchington (United Kingdom) [1K]": [
+    1.305,
+    51.377
+  ],
+  "Stocksbridge (United Kingdom) [1K]": [
+    -1.588,
+    53.478
+  ],
+  "Risca (United Kingdom) [10K]": [
+    -3.091,
+    51.608
+  ],
+  "Flixton (United Kingdom) [10K]": [
+    -2.391,
+    53.447
+  ],
+  "Larbert (United Kingdom) [10K]": [
+    -3.826,
+    56.0229
+  ],
+  "Ascot (United Kingdom) [10K]": [
+    -0.6707,
+    51.4084
+  ],
+  "Lemington (United Kingdom) [10K]": [
+    -1.723,
+    54.972
+  ],
+  "Henley on Thames (United Kingdom) [10K]": [
+    -0.903,
+    51.5357
+  ],
+  "Aberaman (United Kingdom) [1K]": [
+    -3.4333,
+    51.7
+  ],
+  "Holbeach (United Kingdom) [10K]": [
+    0.0154,
+    52.8037
+  ],
+  "Tavistock (United Kingdom) [10K]": [
+    -4.15,
+    50.545
+  ],
+  "Liskeard (United Kingdom) [1K]": [
+    -4.4651,
+    50.4536
+  ],
+  "New Silksworth (United Kingdom) [10K]": [
+    -1.3957,
+    54.871
+  ],
+  "Bradford-on-Avon (United Kingdom) [10K]": [
+    -2.251,
+    51.347
+  ],
+  "Chatteris (United Kingdom) [10K]": [
+    0.055,
+    52.456
+  ],
+  "Horsell (United Kingdom) [1K]": [
+    -0.5617,
+    51.3286
+  ],
+  "Marton (United Kingdom) [1K]": [
+    -1.2047,
+    54.5372
+  ],
+  "Shepton Mallet (United Kingdom) [10K]": [
+    -2.546,
+    51.193
+  ],
+  "Whitchurch (United Kingdom) [10K]": [
+    -2.5594,
+    51.4064
+  ],
+  "Ponteland (United Kingdom) [10K]": [
+    -1.747,
+    55.048
+  ],
+  "Buckhurst Hill (United Kingdom) [10K]": [
+    0.036,
+    51.632
+  ],
+  "Stanwell (United Kingdom) [10K]": [
+    -0.4715,
+    51.457
+  ],
+  "Eccleston (United Kingdom) [10K]": [
+    -2.7748,
+    53.4539
+  ],
+  "Cupar (United Kingdom) [1K]": [
+    -3.01,
+    56.32
+  ],
+  "Stranraer (United Kingdom) [10K]": [
+    -5.027,
+    54.902
+  ],
+  "Longbenton (United Kingdom) [10K]": [
+    -1.57,
+    55.0
+  ],
+  "Lydney (United Kingdom) [10K]": [
+    -2.5285,
+    51.7286
+  ],
+  "Barnoldswick (United Kingdom) [10K]": [
+    -2.1895,
+    53.9147
+  ],
+  "Handsworth (United Kingdom) [1K]": [
+    -1.4,
+    53.37
+  ],
+  "Evington (United Kingdom) [10K]": [
+    -1.072,
+    52.621
+  ],
+  "Wilnecote (United Kingdom) [1K]": [
+    -1.6677,
+    52.6081
+  ],
+  "Inverurie (United Kingdom) [10K]": [
+    -2.38,
+    57.28
+  ],
+  "Launceston (United Kingdom) [10K]": [
+    -4.36,
+    50.637
+  ],
+  "Hellesdon (United Kingdom) [10K]": [
+    1.2509,
+    52.6485
+  ],
+  "Broadstone (United Kingdom) [10K]": [
+    -1.995,
+    50.7605
+  ],
+  "Littleport (United Kingdom) [1K]": [
+    0.3046,
+    52.4568
+  ],
+  "Nairn (United Kingdom) [1K]": [
+    -3.869,
+    57.586
+  ],
+  "Tilehurst (United Kingdom) [1K]": [
+    -1.0406,
+    51.4579
+  ],
+  "Ifield (United Kingdom) [1K]": [
+    -0.2073,
+    51.1234
+  ],
+  "Tottington (United Kingdom) [1K]": [
+    -2.339,
+    53.613
+  ],
+  "Amesbury (United Kingdom) [10K]": [
+    -1.78,
+    51.173
+  ],
+  "Shildon (United Kingdom) [1K]": [
+    -1.65,
+    54.63
+  ],
+  "Helston (United Kingdom) [1K]": [
+    -5.27,
+    50.1
+  ],
+  "Aberbargoed (United Kingdom) [1K]": [
+    -3.224,
+    51.6968
+  ],
+  "Choppington (United Kingdom) [1K]": [
+    -1.601,
+    55.145
+  ],
+  "Chapeltown (United Kingdom) [10K]": [
+    -1.466,
+    53.462
+  ],
+  "Caldicot (United Kingdom) [1K]": [
+    -2.7492,
+    51.591
+  ],
+  "Dunbar (United Kingdom) [1K]": [
+    -2.5169,
+    56.0027
+  ],
+  "Warfield (United Kingdom) [10K]": [
+    -0.737,
+    51.442
+  ],
+  "Glenfield (United Kingdom) [1K]": [
+    -1.2062,
+    52.6491
+  ],
+  "Broughton Astley (United Kingdom) [1K]": [
+    -1.2275,
+    52.5278
+  ],
+  "Rogerstone (United Kingdom) [10K]": [
+    -3.0537,
+    51.5906
+  ],
+  "Barwell (United Kingdom) [1K]": [
+    -1.3462,
+    52.5682
+  ],
+  "South Normanton (United Kingdom) [1K]": [
+    -1.343,
+    53.107
+  ],
+  "Kilsyth (United Kingdom) [10K]": [
+    -4.06,
+    55.98
+  ],
+  "Horbury (United Kingdom) [10K]": [
+    -1.5566,
+    53.6595
+  ],
+  "Llantwit Major (United Kingdom) [1K]": [
+    -3.475,
+    51.4062
+  ],
+  "Clayton le Moors (United Kingdom) [1K]": [
+    -2.384,
+    53.775
+  ],
+  "Boxley (United Kingdom) [1K]": [
+    0.5429,
+    51.3024
+  ],
+  "Cam (United Kingdom) [1K]": [
+    -2.3642,
+    51.7011
+  ],
+  "Bradwell (United Kingdom) [1K]": [
+    -0.787,
+    52.05
+  ],
+  "Pontardulais (United Kingdom) [1K]": [
+    -4.04,
+    51.71
+  ],
+  "Leven (United Kingdom) [1K]": [
+    -2.9942,
+    56.195
+  ],
+  "Radstock (United Kingdom) [1K]": [
+    -2.448,
+    51.293
+  ],
+  "Sandiacre (United Kingdom) [1K]": [
+    -1.291,
+    52.923
+  ],
+  "Glastonbury (United Kingdom) [1K]": [
+    -2.714,
+    51.1485
+  ],
+  "Bonhill (United Kingdom) [1K]": [
+    -4.567,
+    55.983
+  ],
+  "Bucksburn (United Kingdom) [1K]": [
+    -2.175,
+    57.177
+  ],
+  "Cullercoats (United Kingdom) [1K]": [
+    -1.433,
+    55.033
+  ],
+  "Rye (United Kingdom) [1K]": [
+    0.73,
+    50.95
+  ],
+  "Hucclecote (United Kingdom) [1K]": [
+    -2.18,
+    51.85
+  ],
+  "Bedwas (United Kingdom) [1K]": [
+    -3.2061,
+    51.5926
+  ],
+  "Brimington (United Kingdom) [1K]": [
+    -1.3905,
+    53.258
+  ],
+  "West Auckland (United Kingdom) [1K]": [
+    -1.721,
+    54.6318
+  ],
+  "Atherstone (United Kingdom) [1K]": [
+    -1.5462,
+    52.5787
+  ],
+  "Kirkwall (United Kingdom) [1K]": [
+    -2.96,
+    58.981
+  ],
+  "Lerwick (United Kingdom) [1K]": [
+    -1.145,
+    60.155
+  ],
+  "Wakefield (United Kingdom) [10K]": [
+    -1.49,
+    53.68
+  ],
+  "Oldham (United Kingdom) [10K]": [
+    -2.1169,
+    53.5444
+  ],
+  "Bedford (United Kingdom) [10K]": [
+    -0.47,
+    52.135
+  ],
+  "Southport (United Kingdom) [10K]": [
+    -3.0053,
+    53.6475
+  ],
+  "Halifax (United Kingdom) [10K]": [
+    -1.863,
+    53.725
+  ],
+  "Grimsby (United Kingdom) [10K]": [
+    -0.08,
+    53.5675
+  ],
+  "Woolwich (United Kingdom) [10K]": [
+    0.063,
+    51.488
+  ],
+  "Derry (United Kingdom) [10K]": [
+    -7.3417,
+    54.9917
+  ],
+  "Redditch (United Kingdom) [10K]": [
+    -1.9333,
+    52.3
+  ],
+  "Stockton-on-Tees (United Kingdom) [10K]": [
+    -1.32,
+    54.57
+  ],
+  "Harlow (United Kingdom) [10K]": [
+    0.128,
+    51.779
+  ],
+  "Eastleigh (United Kingdom) [10K]": [
+    -1.35,
+    50.9667
+  ],
+  "Guildford (United Kingdom) [10K]": [
+    -0.5703,
+    51.2365
+  ],
+  "Dartford (United Kingdom) [10K]": [
+    0.22,
+    51.44
+  ],
+  "Gravesend (United Kingdom) [10K]": [
+    0.3685,
+    51.4415
+  ],
+  "Shrewsbury (United Kingdom) [10K]": [
+    -2.754,
+    52.708
+  ],
+  "Lisburn (United Kingdom) [10K]": [
+    -6.0333,
+    54.5167
+  ],
+  "Stafford (United Kingdom) [10K]": [
+    -2.117,
+    52.807
+  ],
+  "Rhondda (United Kingdom) [10K]": [
+    -3.4175,
+    51.6159
+  ],
+  "Cannock (United Kingdom) [10K]": [
+    -2.027,
+    52.691
+  ],
+  "Godalming (United Kingdom) [10K]": [
+    -0.61,
+    51.18
+  ],
+  "Torquay (United Kingdom) [10K]": [
+    -3.53,
+    50.47
+  ],
+  "Maidenhead (United Kingdom) [10K]": [
+    -0.7177,
+    51.5217
+  ],
+  "Sittingbourne (United Kingdom) [10K]": [
+    0.74,
+    51.34
+  ],
+  "Bognor Regis (United Kingdom) [10K]": [
+    -0.6764,
+    50.7824
+  ],
+  "Woking (United Kingdom) [10K]": [
+    -0.539,
+    51.305
+  ],
+  "Widnes (United Kingdom) [10K]": [
+    -2.728,
+    53.363
+  ],
+  "Margate (United Kingdom) [10K]": [
+    1.3838,
+    51.385
+  ],
+  "Halesowen (United Kingdom) [10K]": [
+    -2.0509,
+    52.4502
+  ],
+  "Aldershot (United Kingdom) [10K]": [
+    -0.7614,
+    51.2483
+  ],
+  "Canterbury (United Kingdom) [10K]": [
+    1.08,
+    51.28
+  ],
+  "Corby (United Kingdom) [10K]": [
+    -0.7013,
+    52.4877
+  ],
+  "Christchurch (United Kingdom) [10K]": [
+    -1.78,
+    50.73
+  ],
+  "Keighley (United Kingdom) [10K]": [
+    -1.911,
+    53.867
+  ],
+  "Livingston (United Kingdom) [10K]": [
+    -3.5157,
+    55.8834
+  ],
+  "Horsham (United Kingdom) [10K]": [
+    -0.325,
+    51.062
+  ],
+  "Esher (United Kingdom) [10K]": [
+    -0.365,
+    51.3691
+  ],
+  "Northwich (United Kingdom) [10K]": [
+    -2.518,
+    53.259
+  ],
+  "Clacton-on-Sea (United Kingdom) [10K]": [
+    1.1457,
+    51.7918
+  ],
+  "Smethwick (United Kingdom) [10K]": [
+    -1.9686,
+    52.4931
+  ],
+  "Welwyn Garden City (United Kingdom) [10K]": [
+    -0.1932,
+    51.8062
+  ],
+  "Cwmbran (United Kingdom) [10K]": [
+    -3.021,
+    51.653
+  ],
+  "Durham (United Kingdom) [10K]": [
+    -1.5733,
+    54.7761
+  ],
+  "Perth (United Kingdom) [10K]": [
+    -3.4333,
+    56.3958
+  ],
+  "Minster (United Kingdom) [10K]": [
+    0.809,
+    51.421
+  ],
+  "Kilmarnock (United Kingdom) [10K]": [
+    -4.4957,
+    55.6111
+  ],
+  "Erith (United Kingdom) [10K]": [
+    0.1778,
+    51.48
+  ],
+  "Sidcup (United Kingdom) [10K]": [
+    0.1024,
+    51.4263
+  ],
+  "King's Lynn (United Kingdom) [10K]": [
+    0.398,
+    52.754
+  ],
+  "Hoddesdon (United Kingdom) [10K]": [
+    -0.015,
+    51.759
+  ],
+  "Leigh (United Kingdom) [10K]": [
+    -2.515,
+    53.4975
+  ],
+  "Greenock (United Kingdom) [10K]": [
+    -4.765,
+    55.95
+  ],
+  "Bury Saint Edmunds (United Kingdom) [10K]": [
+    0.7183,
+    52.2474
+  ],
+  "Hatfield (United Kingdom) [10K]": [
+    -1.0,
+    53.58
+  ],
+  "Glenrothes (United Kingdom) [10K]": [
+    -3.178,
+    56.198
+  ],
+  "Tipton (United Kingdom) [10K]": [
+    -2.0751,
+    52.5259
+  ],
+  "Stirling (United Kingdom) [10K]": [
+    -3.9369,
+    56.1166
+  ],
+  "Tonbridge (United Kingdom) [10K]": [
+    0.2764,
+    51.1987
+  ],
+  "Eccles (United Kingdom) [10K]": [
+    -2.339,
+    53.4824
+  ],
+  "Skelmersdale (United Kingdom) [10K]": [
+    -2.776,
+    53.55
+  ],
+  "Great Yarmouth (United Kingdom) [10K]": [
+    1.729,
+    52.606
+  ],
+  "Port Talbot (United Kingdom) [10K]": [
+    -3.7986,
+    51.5906
+  ],
+  "Houghton le Spring (United Kingdom) [10K]": [
+    -1.468,
+    54.841
+  ],
+  "Hendon (United Kingdom) [10K]": [
+    -0.2252,
+    51.5837
+  ],
+  "Woodley (United Kingdom) [10K]": [
+    -0.902,
+    51.453
+  ],
+  "Accrington (United Kingdom) [10K]": [
+    -2.3638,
+    53.7534
+  ],
+  "Chippenham (United Kingdom) [10K]": [
+    -2.116,
+    51.459
+  ],
+  "Morecambe (United Kingdom) [10K]": [
+    -2.87,
+    54.073
+  ],
+  "Winchester (United Kingdom) [10K]": [
+    -1.308,
+    51.0632
+  ],
+  "Leyland (United Kingdom) [10K]": [
+    -2.697,
+    53.692
+  ],
+  "Winsford (United Kingdom) [10K]": [
+    -2.52,
+    53.194
+  ],
+  "Exmouth (United Kingdom) [10K]": [
+    -3.413,
+    50.62
+  ],
+  "Irvine (United Kingdom) [10K]": [
+    -4.6614,
+    55.6201
+  ],
+  "Pontneddfechan (United Kingdom) [10K]": [
+    -3.5878,
+    51.7554
+  ],
+  "Warwick (United Kingdom) [10K]": [
+    -1.59,
+    52.28
+  ],
+  "Loughton (United Kingdom) [10K]": [
+    0.0735,
+    51.6494
+  ],
+  "Glossop (United Kingdom) [10K]": [
+    -1.949,
+    53.443
+  ],
+  "Wisbech (United Kingdom) [10K]": [
+    0.16,
+    52.664
+  ],
+  "Epsom (United Kingdom) [10K]": [
+    -0.267,
+    51.336
+  ],
+  "Rushden (United Kingdom) [10K]": [
+    -0.601,
+    52.288
+  ],
+  "Dumfries (United Kingdom) [10K]": [
+    -3.603,
+    55.07
+  ],
+  "Bedworth (United Kingdom) [10K]": [
+    -1.477,
+    52.475
+  ],
+  "Windsor (United Kingdom) [10K]": [
+    -0.6095,
+    51.4791
+  ],
+  "Wallsend (United Kingdom) [10K]": [
+    -1.534,
+    54.991
+  ],
+  "Pontefract (United Kingdom) [10K]": [
+    -1.312,
+    53.691
+  ],
+  "Whitstable (United Kingdom) [10K]": [
+    1.026,
+    51.361
+  ],
+  "Radcliffe (United Kingdom) [10K]": [
+    -2.3268,
+    53.5615
+  ],
+  "Burgess Hill (United Kingdom) [10K]": [
+    -0.1262,
+    50.9535
+  ],
+  "Beverley (United Kingdom) [10K]": [
+    -0.427,
+    53.845
+  ],
+  "Northfleet (United Kingdom) [10K]": [
+    0.34,
+    51.44
+  ],
+  "Plympton (United Kingdom) [10K]": [
+    -4.051,
+    50.386
+  ],
+  "Nelson (United Kingdom) [10K]": [
+    -2.218,
+    53.8346
+  ],
+  "Heywood (United Kingdom) [10K]": [
+    -2.219,
+    53.59
+  ],
+  "Sevenoaks (United Kingdom) [10K]": [
+    0.1874,
+    51.2781
+  ],
+  "Reddish (United Kingdom) [10K]": [
+    -2.1613,
+    53.4383
+  ],
+  "Shotley Bridge (United Kingdom) [10K]": [
+    -1.86,
+    54.87
+  ],
+  "Evesham (United Kingdom) [10K]": [
+    -1.947,
+    52.092
+  ],
+  "Stanford le Hope (United Kingdom) [10K]": [
+    0.4244,
+    51.514
+  ],
+  "Bentley (United Kingdom) [10K]": [
+    -1.144,
+    53.551
+  ],
+  "Witney (United Kingdom) [10K]": [
+    -1.49,
+    51.78
+  ],
+  "Seaford (United Kingdom) [10K]": [
+    0.1,
+    50.77
+  ],
+  "Stratford-upon-Avon (United Kingdom) [10K]": [
+    -1.7064,
+    52.1928
+  ],
+  "Wilmslow (United Kingdom) [10K]": [
+    -2.239,
+    53.325
+  ],
+  "Thetford (United Kingdom) [10K]": [
+    0.74,
+    52.41
+  ],
+  "Jarrow (United Kingdom) [10K]": [
+    -1.49,
+    54.9814
+  ],
+  "East Grinstead (United Kingdom) [10K]": [
+    -0.0,
+    51.13
+  ],
+  "Burntwood (United Kingdom) [10K]": [
+    -1.92,
+    52.6831
+  ],
+  "Oldbury (United Kingdom) [10K]": [
+    -2.0159,
+    52.505
+  ],
+  "Thatcham (United Kingdom) [10K]": [
+    -1.264,
+    51.405
+  ],
+  "Whitehaven (United Kingdom) [10K]": [
+    -3.5855,
+    54.548
+  ],
+  "Bushey (United Kingdom) [10K]": [
+    -0.3604,
+    51.6429
+  ],
+  "Farnham (United Kingdom) [10K]": [
+    -0.799,
+    51.215
+  ],
+  "Fleetwood (United Kingdom) [10K]": [
+    -3.012,
+    53.922
+  ],
+  "New Milton (United Kingdom) [10K]": [
+    -1.65,
+    50.76
+  ],
+  "Felixstowe (United Kingdom) [10K]": [
+    1.3515,
+    51.9639
+  ],
+  "Golborne (United Kingdom) [10K]": [
+    -2.5943,
+    53.4758
+  ],
+  "Witham (United Kingdom) [10K]": [
+    0.6373,
+    51.7978
+  ],
+  "Kirkby in Ashfield (United Kingdom) [10K]": [
+    -1.245,
+    53.099
+  ],
+  "Workington (United Kingdom) [10K]": [
+    -3.5549,
+    54.6365
+  ],
+  "Great Sankey (United Kingdom) [10K]": [
+    -2.6383,
+    53.3918
+  ],
+  "Pitsea (United Kingdom) [10K]": [
+    0.504,
+    51.569
+  ],
+  "Newton Abbot (United Kingdom) [10K]": [
+    -3.61,
+    50.529
+  ],
+  "Broadstairs (United Kingdom) [10K]": [
+    1.4394,
+    51.3589
+  ],
+  "Rawtenstall (United Kingdom) [10K]": [
+    -2.291,
+    53.699
+  ],
+  "Ashton in Makerfield (United Kingdom) [10K]": [
+    -2.641,
+    53.487
+  ],
+  "Rickmansworth (United Kingdom) [10K]": [
+    -0.4659,
+    51.6383
+  ],
+  "Rugeley (United Kingdom) [10K]": [
+    -1.9388,
+    52.7599
+  ],
+  "Marple (United Kingdom) [10K]": [
+    -2.061,
+    53.397
+  ],
+  "Formby (United Kingdom) [10K]": [
+    -3.0666,
+    53.5586
+  ],
+  "Elgin (United Kingdom) [10K]": [
+    -3.315,
+    57.65
+  ],
+  "Horley (United Kingdom) [10K]": [
+    -0.172,
+    51.174
+  ],
+  "Waltham Abbey (United Kingdom) [10K]": [
+    0.0004,
+    51.6846
+  ],
+  "Kenilworth (United Kingdom) [10K]": [
+    -1.566,
+    52.341
+  ],
+  "Alfreton (United Kingdom) [10K]": [
+    -1.38,
+    53.097
+  ],
+  "Kirkintilloch (United Kingdom) [10K]": [
+    -4.155,
+    55.938
+  ],
+  "East Retford (United Kingdom) [10K]": [
+    -0.9431,
+    53.3228
+  ],
+  "Haywards Heath (United Kingdom) [10K]": [
+    -0.0979,
+    51.0048
+  ],
+  "Gainsborough (United Kingdom) [10K]": [
+    -0.7732,
+    53.4016
+  ],
+  "Yeadon (United Kingdom) [10K]": [
+    -1.688,
+    53.869
+  ],
+  "Saint Austell (United Kingdom) [10K]": [
+    -4.79,
+    50.34
+  ],
+  "Penzance (United Kingdom) [10K]": [
+    -5.537,
+    50.119
+  ],
+  "Darton (United Kingdom) [10K]": [
+    -1.5325,
+    53.585
+  ],
+  "Pudsey (United Kingdom) [10K]": [
+    -1.663,
+    53.797
+  ],
+  "Omagh (United Kingdom) [10K]": [
+    -7.29,
+    54.59
+  ],
+  "Sandbach (United Kingdom) [10K]": [
+    -2.367,
+    53.146
+  ],
+  "Biggleswade (United Kingdom) [10K]": [
+    -0.2557,
+    52.0855
+  ],
+  "South Ockendon (United Kingdom) [10K]": [
+    0.2956,
+    51.5207
+  ],
+  "Reigate (United Kingdom) [10K]": [
+    -0.206,
+    51.237
+  ],
+  "Normanton (United Kingdom) [10K]": [
+    -1.416,
+    53.697
+  ],
+  "Chesham (United Kingdom) [10K]": [
+    -0.612,
+    51.712
+  ],
+  "Sandhurst (United Kingdom) [10K]": [
+    -0.8,
+    51.349
+  ],
+  "Crowborough (United Kingdom) [10K]": [
+    0.16,
+    51.06
+  ],
+  "Tewkesbury (United Kingdom) [10K]": [
+    -2.16,
+    51.99
+  ],
+  "Richmond (United Kingdom) [10K]": [
+    -0.301,
+    51.456
+  ],
+  "Potters Bar (United Kingdom) [10K]": [
+    -0.183,
+    51.698
+  ],
+  "Halewood (United Kingdom) [10K]": [
+    -2.84,
+    53.3599
+  ],
+  "Garforth (United Kingdom) [10K]": [
+    -1.388,
+    53.792
+  ],
+  "Musselburgh (United Kingdom) [10K]": [
+    -3.054,
+    55.942
+  ],
+  "Skegness (United Kingdom) [10K]": [
+    0.3428,
+    53.1436
+  ],
+  "Ripley (United Kingdom) [10K]": [
+    -1.407,
+    53.05
+  ],
+  "Dumbarton (United Kingdom) [10K]": [
+    -4.5667,
+    55.95
+  ],
+  "Cirencester (United Kingdom) [10K]": [
+    -1.968,
+    51.719
+  ],
+  "Hailsham (United Kingdom) [10K]": [
+    0.2577,
+    50.8647
+  ],
+  "Ware (United Kingdom) [10K]": [
+    -0.0314,
+    51.8109
+  ],
+  "Newmarket (United Kingdom) [10K]": [
+    0.4105,
+    52.2459
+  ],
+  "Spennymoor (United Kingdom) [10K]": [
+    -1.59,
+    54.7
+  ],
+  "Ely (United Kingdom) [10K]": [
+    0.2622,
+    52.3981
+  ],
+  "Dorchester (United Kingdom) [10K]": [
+    -2.4367,
+    50.7154
+  ],
+  "Eastwood (United Kingdom) [10K]": [
+    -1.304,
+    53.018
+  ],
+  "Mirfield (United Kingdom) [10K]": [
+    -1.6888,
+    53.6807
+  ],
+  "Goole (United Kingdom) [10K]": [
+    -0.8692,
+    53.6992
+  ],
+  "Bideford (United Kingdom) [10K]": [
+    -4.209,
+    51.016
+  ],
+  "Irlam (United Kingdom) [10K]": [
+    -2.422,
+    53.445
+  ],
+  "Lancing (United Kingdom) [10K]": [
+    -0.319,
+    50.832
+  ],
+  "Adel (United Kingdom) [10K]": [
+    -1.5849,
+    53.8489
+  ],
+  "Faversham (United Kingdom) [10K]": [
+    0.8928,
+    51.3177
+  ],
+  "Sleaford (United Kingdom) [10K]": [
+    -0.413,
+    52.996
+  ],
+  "Ystrad Mynach (United Kingdom) [10K]": [
+    -3.2405,
+    51.6419
+  ],
+  "Mickleover (United Kingdom) [10K]": [
+    -1.552,
+    52.901
+  ],
+  "Staveley (United Kingdom) [10K]": [
+    -1.3484,
+    53.2694
+  ],
+  "Stowmarket (United Kingdom) [10K]": [
+    1.0,
+    52.19
+  ],
+  "Monkseaton (United Kingdom) [10K]": [
+    -1.459,
+    55.043
+  ],
+  "Kempston (United Kingdom) [10K]": [
+    -0.497,
+    52.114
+  ],
+  "Ramsbottom (United Kingdom) [10K]": [
+    -2.3169,
+    53.6484
+  ],
+  "East Dereham (United Kingdom) [10K]": [
+    0.94,
+    52.681
+  ],
+  "Rawmarsh (United Kingdom) [10K]": [
+    -1.3439,
+    53.4636
+  ],
+  "Mill Hill (United Kingdom) [10K]": [
+    -0.23,
+    51.62
+  ],
+  "Heanor (United Kingdom) [10K]": [
+    -1.354,
+    53.014
+  ],
+  "Appley Bridge (United Kingdom) [10K]": [
+    -2.721,
+    53.579
+  ],
+  "Ebbw Vale (United Kingdom) [10K]": [
+    -3.21,
+    51.78
+  ],
+  "Thorne (United Kingdom) [10K]": [
+    -0.9583,
+    53.6083
+  ],
+  "Poulton le Fylde (United Kingdom) [10K]": [
+    -2.995,
+    53.847
+  ],
+  "Berkhampstead (United Kingdom) [10K]": [
+    -0.56,
+    51.76
+  ],
+  "Bramhall (United Kingdom) [10K]": [
+    -2.164,
+    53.357
+  ],
+  "Fulwood (United Kingdom) [10K]": [
+    -1.544,
+    53.365
+  ],
+  "Almondbury (United Kingdom) [10K]": [
+    -1.7489,
+    53.6344
+  ],
+  "Sunbury (United Kingdom) [10K]": [
+    -0.424,
+    51.423
+  ],
+  "North Hykeham (United Kingdom) [10K]": [
+    -0.5875,
+    53.1833
+  ],
+  "Birstall (United Kingdom) [10K]": [
+    -1.12,
+    52.6736
+  ],
+  "Madeley (United Kingdom) [10K]": [
+    -2.448,
+    52.637
+  ],
+  "Sileby (United Kingdom) [10K]": [
+    -1.106,
+    52.731
+  ],
+  "Mosbrough (United Kingdom) [10K]": [
+    -1.362,
+    53.325
+  ],
+  "Ashby de la Zouch (United Kingdom) [10K]": [
+    -1.476,
+    52.746
+  ],
+  "Harwich (United Kingdom) [10K]": [
+    1.266,
+    51.934
+  ],
+  "Saint Andrews (United Kingdom) [10K]": [
+    -2.7955,
+    56.3404
+  ],
+  "Alton (United Kingdom) [10K]": [
+    -0.9769,
+    51.1498
+  ],
+  "Portchester (United Kingdom) [10K]": [
+    -1.12,
+    50.842
+  ],
+  "Glen Parva (United Kingdom) [10K]": [
+    -1.1617,
+    52.5867
+  ],
+  "Louth (United Kingdom) [10K]": [
+    -0.0061,
+    53.3669
+  ],
+  "Barrhead (United Kingdom) [10K]": [
+    -4.389,
+    55.801
+  ],
+  "Thornton (United Kingdom) [10K]": [
+    -1.8504,
+    53.7898
+  ],
+  "Windlesham (United Kingdom) [10K]": [
+    -0.66,
+    51.36
+  ],
+  "East Finchley (United Kingdom) [10K]": [
+    -0.1753,
+    51.5902
+  ],
+  "Heysham (United Kingdom) [10K]": [
+    -2.894,
+    54.046
+  ],
+  "Saint Ives (United Kingdom) [10K]": [
+    -5.48,
+    50.211
+  ],
+  "Knaresborough (United Kingdom) [10K]": [
+    -1.467,
+    54.0084
+  ],
+  "Brixham (United Kingdom) [10K]": [
+    -3.516,
+    50.394
+  ],
+  "Broxburn (United Kingdom) [10K]": [
+    -3.471,
+    55.934
+  ],
+  "Stone (United Kingdom) [10K]": [
+    -2.15,
+    52.9
+  ],
+  "Stanley (United Kingdom) [10K]": [
+    -1.476,
+    53.7145
+  ],
+  "Haslemere (United Kingdom) [10K]": [
+    -0.712,
+    51.09
+  ],
+  "Guisborough (United Kingdom) [10K]": [
+    -1.0563,
+    54.535
+  ],
+  "Grangemouth (United Kingdom) [10K]": [
+    -3.717,
+    56.012
+  ],
+  "Northallerton (United Kingdom) [10K]": [
+    -1.4285,
+    54.3378
+  ],
+  "Ripon (United Kingdom) [10K]": [
+    -1.524,
+    54.138
+  ],
+  "Seacombe (United Kingdom) [10K]": [
+    -3.029,
+    53.409
+  ],
+  "Banbridge (United Kingdom) [10K]": [
+    -6.26,
+    54.343
+  ],
+  "Northenden (United Kingdom) [10K]": [
+    -2.2583,
+    53.4075
+  ],
+  "Denby Dale (United Kingdom) [10K]": [
+    -1.655,
+    53.572
+  ],
+  "Wyke (United Kingdom) [10K]": [
+    -1.7667,
+    53.7333
+  ],
+  "Weybridge (United Kingdom) [10K]": [
+    -0.453,
+    51.362
+  ],
+  "Uckfield (United Kingdom) [10K]": [
+    0.1,
+    50.97
+  ],
+  "Penicuik (United Kingdom) [10K]": [
+    -3.22,
+    55.826
+  ],
+  "Queensbury (United Kingdom) [10K]": [
+    -1.8453,
+    53.7683
+  ],
+  "Ponders End (United Kingdom) [10K]": [
+    -0.046,
+    51.646
+  ],
+  "Adwick le Street (United Kingdom) [10K]": [
+    -1.1931,
+    53.5677
+  ],
+  "Conwy (United Kingdom) [10K]": [
+    -3.83,
+    53.28
+  ],
+  "Totteridge (United Kingdom) [10K]": [
+    -0.2,
+    51.6354
+  ],
+  "Lewes (United Kingdom) [10K]": [
+    0.0117,
+    50.8747
+  ],
+  "Thundersley (United Kingdom) [10K]": [
+    0.59,
+    51.57
+  ],
+  "Carterton (United Kingdom) [10K]": [
+    -1.59,
+    51.76
+  ],
+  "Hetton le Hole (United Kingdom) [10K]": [
+    -1.449,
+    54.821
+  ],
+  "Todmorden (United Kingdom) [10K]": [
+    -2.096,
+    53.713
+  ],
+  "Neston (United Kingdom) [10K]": [
+    -3.074,
+    53.289
+  ],
+  "Alloa (United Kingdom) [10K]": [
+    -3.793,
+    56.116
+  ],
+  "Ince-in-Makerfield (United Kingdom) [10K]": [
+    -2.599,
+    53.5402
+  ],
+  "Oswestry (United Kingdom) [10K]": [
+    -3.0538,
+    52.8598
+  ],
+  "Matlock (United Kingdom) [10K]": [
+    -1.55,
+    53.14
+  ],
+  "Weston (United Kingdom) [10K]": [
+    -2.798,
+    53.413
+  ],
+  "Blaydon (United Kingdom) [10K]": [
+    -1.719,
+    54.963
+  ],
+  "Tredegar (United Kingdom) [10K]": [
+    -3.2407,
+    51.7776
+  ],
+  "Forfar (United Kingdom) [10K]": [
+    -2.8884,
+    56.6442
+  ],
+  "Featherstone (United Kingdom) [10K]": [
+    -1.37,
+    53.7
+  ],
+  "Broxbourne (United Kingdom) [10K]": [
+    -0.0216,
+    51.7495
+  ],
+  "Ashtead (United Kingdom) [10K]": [
+    -0.299,
+    51.31
+  ],
+  "Swallownest (United Kingdom) [10K]": [
+    -1.3251,
+    53.3623
+  ],
+  "Great Baddow (United Kingdom) [10K]": [
+    0.507,
+    51.719
+  ],
+  "Mackworth (United Kingdom) [10K]": [
+    -1.5373,
+    52.9277
+  ],
+  "Poynton (United Kingdom) [10K]": [
+    -2.1167,
+    53.35
+  ],
+  "Port Glasgow (United Kingdom) [10K]": [
+    -4.6906,
+    55.934
+  ],
+  "Chislehurst (United Kingdom) [10K]": [
+    0.075,
+    51.412
+  ],
+  "Mexborough (United Kingdom) [10K]": [
+    -1.283,
+    53.4992
+  ],
+  "Chellaston (United Kingdom) [10K]": [
+    -1.4384,
+    52.8671
+  ],
+  "Winkfield (United Kingdom) [10K]": [
+    -0.7096,
+    51.4318
+  ],
+  "Skipton (United Kingdom) [10K]": [
+    -2.0163,
+    53.9625
+  ],
+  "Dalkeith (United Kingdom) [10K]": [
+    -3.0583,
+    55.8958
+  ],
+  "Otley (United Kingdom) [10K]": [
+    -1.687,
+    53.905
+  ],
+  "Shepshed (United Kingdom) [10K]": [
+    -1.2951,
+    52.7711
+  ],
+  "Heswall (United Kingdom) [10K]": [
+    -3.099,
+    53.328
+  ],
+  "Amersham (United Kingdom) [10K]": [
+    -0.603,
+    51.677
+  ],
+  "Penrith (United Kingdom) [10K]": [
+    -2.7548,
+    54.6648
+  ],
+  "Enniskillen (United Kingdom) [10K]": [
+    -7.6389,
+    54.3447
+  ],
+  "Romsey (United Kingdom) [10K]": [
+    -1.4966,
+    50.989
+  ],
+  "Wombourn (United Kingdom) [10K]": [
+    -2.1857,
+    52.5302
+  ],
+  "Bishops Cleeve (United Kingdom) [10K]": [
+    -2.061,
+    51.947
+  ],
+  "Hemsworth (United Kingdom) [10K]": [
+    -1.35,
+    53.61
+  ],
+  "Morpeth (United Kingdom) [10K]": [
+    -1.6908,
+    55.1675
+  ],
+  "Burbage (United Kingdom) [10K]": [
+    -1.3483,
+    52.5277
+  ],
+  "Sanderstead (United Kingdom) [10K]": [
+    -0.0818,
+    51.3358
+  ],
+  "Bo'ness (United Kingdom) [10K]": [
+    -3.6089,
+    56.0168
+  ],
+  "Teignmouth (United Kingdom) [10K]": [
+    -3.4886,
+    50.5515
+  ],
+  "Wymondham (United Kingdom) [10K]": [
+    1.116,
+    52.57
+  ],
+  "Cowes (United Kingdom) [10K]": [
+    -1.3002,
+    50.7595
+  ],
+  "Troon (United Kingdom) [10K]": [
+    -4.66,
+    55.54
+  ],
+  "Chelsfield (United Kingdom) [10K]": [
+    0.1278,
+    51.3582
+  ],
+  "Kearsley (United Kingdom) [10K]": [
+    -2.37,
+    53.53
+  ],
+  "Cliftonville (United Kingdom) [10K]": [
+    1.4046,
+    51.3881
+  ],
+  "Middlewich (United Kingdom) [10K]": [
+    -2.443,
+    53.192
+  ],
+  "Alsager (United Kingdom) [10K]": [
+    -2.3048,
+    53.0961
+  ],
+  "Sidmouth (United Kingdom) [10K]": [
+    -3.239,
+    50.68
+  ],
+  "Thame (United Kingdom) [10K]": [
+    -0.97,
+    51.75
+  ],
+  "Eastham (United Kingdom) [10K]": [
+    -2.962,
+    53.313
+  ],
+  "Hamworthy (United Kingdom) [10K]": [
+    -2.0109,
+    50.7207
+  ],
+  "Bickley (United Kingdom) [10K]": [
+    0.0466,
+    51.4003
+  ],
+  "Milnrow (United Kingdom) [10K]": [
+    -2.1111,
+    53.6101
+  ],
+  "Little Lever (United Kingdom) [10K]": [
+    -2.369,
+    53.563
+  ],
+  "Knottingley (United Kingdom) [10K]": [
+    -1.249,
+    53.705
+  ],
+  "Cheadle (United Kingdom) [10K]": [
+    -1.9865,
+    52.9849
+  ],
+  "Stroud (United Kingdom) [10K]": [
+    -2.215,
+    51.744
+  ],
+  "Newhaven (United Kingdom) [10K]": [
+    0.06,
+    50.8
+  ],
+  "Littleborough (United Kingdom) [10K]": [
+    -2.098,
+    53.644
+  ],
+  "Helensburgh (United Kingdom) [10K]": [
+    -4.7333,
+    56.0166
+  ],
+  "Aberystwyth (United Kingdom) [10K]": [
+    -4.081,
+    52.414
+  ],
+  "Selston (United Kingdom) [10K]": [
+    -1.3,
+    53.07
+  ],
+  "Ampthill (United Kingdom) [10K]": [
+    -0.4906,
+    52.0263
+  ],
+  "Royal Wootton Bassett (United Kingdom) [10K]": [
+    -1.9,
+    51.533
+  ],
+  "Bridport (United Kingdom) [10K]": [
+    -2.7584,
+    50.7336
+  ],
+  "Sowerby Bridge (United Kingdom) [10K]": [
+    -1.91,
+    53.71
+  ],
+  "Hersham (United Kingdom) [10K]": [
+    -0.4008,
+    51.3681
+  ],
+  "Fenton (United Kingdom) [10K]": [
+    -2.1578,
+    52.9977
+  ],
+  "Walton-on-the-Naze (United Kingdom) [10K]": [
+    1.268,
+    51.848
+  ],
+  "Carluke (United Kingdom) [10K]": [
+    -3.834,
+    55.734
+  ],
+  "Flint (United Kingdom) [10K]": [
+    -3.1358,
+    53.2482
+  ],
+  "Bacup (United Kingdom) [10K]": [
+    -2.199,
+    53.704
+  ],
+  "Standish (United Kingdom) [10K]": [
+    -2.664,
+    53.586
+  ],
+  "Costessey (United Kingdom) [10K]": [
+    1.2161,
+    52.6602
+  ],
+  "Wath upon Dearne (United Kingdom) [10K]": [
+    -1.3402,
+    53.5022
+  ],
+  "Chalfont Saint Peter (United Kingdom) [10K]": [
+    -0.556,
+    51.607
+  ],
+  "North Walsham (United Kingdom) [10K]": [
+    1.3861,
+    52.8214
+  ],
+  "Flitwick (United Kingdom) [10K]": [
+    -0.4966,
+    52.0038
+  ],
+  "Cowdenbeath (United Kingdom) [10K]": [
+    -3.35,
+    56.11
+  ],
+  "Harrow on the Hill (United Kingdom) [10K]": [
+    -0.3327,
+    51.5655
+  ],
+  "North Tidworth (United Kingdom) [10K]": [
+    -1.664,
+    51.237
+  ],
+  "Bridgnorth (United Kingdom) [10K]": [
+    -2.4195,
+    52.535
+  ],
+  "Great Bookham (United Kingdom) [10K]": [
+    -0.373,
+    51.278
+  ],
+  "Chigwell (United Kingdom) [10K]": [
+    0.0723,
+    51.6225
+  ],
+  "Uttoxeter (United Kingdom) [10K]": [
+    -1.86,
+    52.898
+  ],
+  "Bolsover (United Kingdom) [10K]": [
+    -1.2875,
+    53.2304
+  ],
+  "Prudhoe (United Kingdom) [10K]": [
+    -1.849,
+    54.961
+  ],
+  "Wantage (United Kingdom) [10K]": [
+    -1.427,
+    51.589
+  ],
+  "Maryport (United Kingdom) [10K]": [
+    -3.4926,
+    54.7128
+  ],
+  "Honiton (United Kingdom) [10K]": [
+    -3.19,
+    50.8
+  ],
+  "Crayford (United Kingdom) [10K]": [
+    0.1812,
+    51.4491
+  ],
+  "Bryn (United Kingdom) [10K]": [
+    -2.657,
+    53.499
+  ],
+  "Galashiels (United Kingdom) [10K]": [
+    -2.8033,
+    55.6194
+  ],
+  "Syston (United Kingdom) [10K]": [
+    -1.08,
+    52.7
+  ],
+  "Rushall (United Kingdom) [10K]": [
+    -1.957,
+    52.611
+  ],
+  "Croxley Green (United Kingdom) [10K]": [
+    -0.445,
+    51.647
+  ],
+  "Mablethorpe (United Kingdom) [10K]": [
+    0.261,
+    53.3409
+  ],
+  "Churchdown (United Kingdom) [10K]": [
+    -2.17,
+    51.88
+  ],
+  "Dorking (United Kingdom) [10K]": [
+    -0.3306,
+    51.2325
+  ],
+  "Bamber Bridge (United Kingdom) [10K]": [
+    -2.6606,
+    53.7281
+  ],
+  "Lymm (United Kingdom) [10K]": [
+    -2.475,
+    53.3834
+  ],
+  "Knowsley (United Kingdom) [10K]": [
+    -2.8501,
+    53.4498
+  ],
+  "Spondon (United Kingdom) [10K]": [
+    -1.401,
+    52.92
+  ],
+  "Beaconsfield (United Kingdom) [10K]": [
+    -0.6347,
+    51.6009
+  ],
+  "Horndean (United Kingdom) [10K]": [
+    -0.9961,
+    50.9136
+  ],
+  "Darfield (United Kingdom) [10K]": [
+    -1.3812,
+    53.538
+  ],
+  "Greetland (United Kingdom) [10K]": [
+    -1.8714,
+    53.6869
+  ],
+  "Saltcoats (United Kingdom) [10K]": [
+    -4.7896,
+    55.6352
+  ],
+  "Elland (United Kingdom) [10K]": [
+    -1.84,
+    53.683
+  ],
+  "Berwick-Upon-Tweed (United Kingdom) [10K]": [
+    -2.0025,
+    55.7692
+  ],
+  "Sheerness (United Kingdom) [10K]": [
+    0.76,
+    51.441
+  ],
+  "Tilbury (United Kingdom) [10K]": [
+    0.3582,
+    51.4606
+  ],
+  "Armadale (United Kingdom) [10K]": [
+    -3.7047,
+    55.8978
+  ],
+  "Bickenhill (United Kingdom) [10K]": [
+    -1.725,
+    52.439
+  ],
+  "Shoeburyness (United Kingdom) [10K]": [
+    0.7978,
+    51.5316
+  ],
+  "Dorridge (United Kingdom) [10K]": [
+    -1.7554,
+    52.372
+  ],
+  "Rainhill (United Kingdom) [10K]": [
+    -2.7625,
+    53.4157
+  ],
+  "Epping (United Kingdom) [10K]": [
+    0.1087,
+    51.7004
+  ],
+  "Ulverston (United Kingdom) [10K]": [
+    -3.09,
+    54.193
+  ],
+  "Leominster (United Kingdom) [10K]": [
+    -2.7385,
+    52.2282
+  ],
+  "Tring (United Kingdom) [10K]": [
+    -0.6592,
+    51.7962
+  ],
+  "Cookstown (United Kingdom) [10K]": [
+    -6.745,
+    54.647
+  ],
+  "Huntington (United Kingdom) [10K]": [
+    -1.043,
+    53.9926
+  ],
+  "New Mills (United Kingdom) [10K]": [
+    -2.007,
+    53.367
+  ],
+  "Wells (United Kingdom) [10K]": [
+    -2.645,
+    51.2094
+  ],
+  "Market Drayton (United Kingdom) [10K]": [
+    -2.4848,
+    52.9044
+  ],
+  "Abertillery (United Kingdom) [10K]": [
+    -3.13,
+    51.73
+  ],
+  "Burnham (United Kingdom) [10K]": [
+    -0.66,
+    51.54
+  ],
+  "Chorleywood (United Kingdom) [10K]": [
+    -0.51,
+    51.65
+  ],
+  "Little Bookham (United Kingdom) [10K]": [
+    -0.3897,
+    51.2804
+  ],
+  "Tranent (United Kingdom) [10K]": [
+    -2.954,
+    55.945
+  ],
+  "Halstead (United Kingdom) [10K]": [
+    0.6411,
+    51.9451
+  ],
+  "Montrose (United Kingdom) [10K]": [
+    -2.467,
+    56.708
+  ],
+  "Whitburn (United Kingdom) [10K]": [
+    -3.6872,
+    55.8621
+  ],
+  "Abergele (United Kingdom) [10K]": [
+    -3.58,
+    53.28
+  ],
+  "Great Wyrley (United Kingdom) [10K]": [
+    -2.0102,
+    52.6593
+  ],
+  "Oswaldtwistle (United Kingdom) [10K]": [
+    -2.393,
+    53.743
+  ],
+  "Sandy (United Kingdom) [10K]": [
+    -0.297,
+    52.131
+  ],
+  "Wootton (United Kingdom) [10K]": [
+    -0.8857,
+    52.2007
+  ],
+  "Downham Market (United Kingdom) [1K]": [
+    0.39,
+    52.6
+  ],
+  "Torton (United Kingdom) [10K]": [
+    -2.1606,
+    52.4522
+  ],
+  "Ivybridge (United Kingdom) [10K]": [
+    -3.921,
+    50.389
+  ],
+  "Ross on Wye (United Kingdom) [10K]": [
+    -2.587,
+    51.914
+  ],
+  "Wetherby (United Kingdom) [10K]": [
+    -1.3839,
+    53.9276
+  ],
+  "Englefield Green (United Kingdom) [10K]": [
+    -0.5699,
+    51.4301
+  ],
+  "Padiham (United Kingdom) [10K]": [
+    -2.311,
+    53.797
+  ],
+  "Sunninghill (United Kingdom) [10K]": [
+    -0.655,
+    51.4025
+  ],
+  "Hipperholme (United Kingdom) [10K]": [
+    -1.812,
+    53.7258
+  ],
+  "Selsey (United Kingdom) [10K]": [
+    -0.7898,
+    50.735
+  ],
+  "Hexham (United Kingdom) [10K]": [
+    -2.101,
+    54.971
+  ],
+  "Tadley (United Kingdom) [10K]": [
+    -1.1376,
+    51.3506
+  ],
+  "Cranleigh (United Kingdom) [10K]": [
+    -0.4784,
+    51.1363
+  ],
+  "Leatherhead (United Kingdom) [10K]": [
+    -0.329,
+    51.295
+  ],
+  "Newtown (United Kingdom) [10K]": [
+    -3.3141,
+    52.5132
+  ],
+  "Baldock (United Kingdom) [1K]": [
+    -0.19,
+    51.99
+  ],
+  "Great Harwood (United Kingdom) [10K]": [
+    -2.408,
+    53.786
+  ],
+  "Kingsnorth (United Kingdom) [10K]": [
+    0.8615,
+    51.1178
+  ],
+  "Stannington (United Kingdom) [10K]": [
+    -1.536,
+    53.396
+  ],
+  "Oxted (United Kingdom) [10K]": [
+    -0.006,
+    51.257
+  ],
+  "Burtonwood (United Kingdom) [10K]": [
+    -2.6614,
+    53.4302
+  ],
+  "Ollerton (United Kingdom) [10K]": [
+    -1.02,
+    53.2
+  ],
+  "Shenfield (United Kingdom) [10K]": [
+    0.3192,
+    51.6297
+  ],
+  "Monmouth (United Kingdom) [10K]": [
+    -2.72,
+    51.81
+  ],
+  "Iver (United Kingdom) [10K]": [
+    -0.507,
+    51.521
+  ],
+  "Largs (United Kingdom) [10K]": [
+    -4.87,
+    55.795
+  ],
+  "Barton upon Humber (United Kingdom) [10K]": [
+    -0.45,
+    53.6833
+  ],
+  "Bewdley (United Kingdom) [1K]": [
+    -2.315,
+    52.3758
+  ],
+  "Stonehaven (United Kingdom) [10K]": [
+    -2.211,
+    56.964
+  ],
+  "Ilfracombe (United Kingdom) [10K]": [
+    -4.12,
+    51.208
+  ],
+  "Shepperton (United Kingdom) [1K]": [
+    -0.46,
+    51.39
+  ],
+  "Charlton Kings (United Kingdom) [10K]": [
+    -2.0413,
+    51.8877
+  ],
+  "Snodland (United Kingdom) [10K]": [
+    0.4467,
+    51.328
+  ],
+  "Greasley (United Kingdom) [10K]": [
+    -1.27,
+    53.02
+  ],
+  "Methil (United Kingdom) [10K]": [
+    -3.0223,
+    56.1844
+  ],
+  "Mossley (United Kingdom) [10K]": [
+    -2.0387,
+    53.5147
+  ],
+  "Soham (United Kingdom) [10K]": [
+    0.3361,
+    52.3338
+  ],
+  "Knowle (United Kingdom) [10K]": [
+    -1.7318,
+    52.3881
+  ],
+  "Appleton (United Kingdom) [10K]": [
+    -2.5441,
+    53.3508
+  ],
+  "Aylesford (United Kingdom) [10K]": [
+    0.4796,
+    51.3033
+  ],
+  "Wooburn (United Kingdom) [10K]": [
+    -0.691,
+    51.581
+  ],
+  "Desborough (United Kingdom) [10K]": [
+    -0.8172,
+    52.4398
+  ],
+  "Attleborough (United Kingdom) [10K]": [
+    1.0192,
+    52.5183
+  ],
+  "Felton (United Kingdom) [10K]": [
+    -2.574,
+    51.51
+  ],
+  "Shevington (United Kingdom) [1K]": [
+    -2.69,
+    53.572
+  ],
+  "Scartho (United Kingdom) [10K]": [
+    -0.0926,
+    53.5399
+  ],
+  "Worsley (United Kingdom) [10K]": [
+    -2.3845,
+    53.5093
+  ],
+  "Swanage (United Kingdom) [1K]": [
+    -1.96,
+    50.608
+  ],
+  "Chesterfield (United Kingdom) [10K]": [
+    -1.4275,
+    53.2358
+  ],
+  "Pencoed (United Kingdom) [1K]": [
+    -3.5047,
+    51.5228
+  ],
+  "Euxton (United Kingdom) [1K]": [
+    -2.674,
+    53.662
+  ],
+  "Abram (United Kingdom) [1K]": [
+    -2.588,
+    53.508
+  ],
+  "Castleton (United Kingdom) [10K]": [
+    -2.1737,
+    53.5907
+  ],
+  "Balderton (United Kingdom) [1K]": [
+    -0.7727,
+    53.0549
+  ],
+  "Caernarfon (United Kingdom) [1K]": [
+    -4.27,
+    53.14
+  ],
+  "Southwater (United Kingdom) [10K]": [
+    -0.3526,
+    51.0238
+  ],
+  "Kingsteignton (United Kingdom) [10K]": [
+    -3.5962,
+    50.5458
+  ],
+  "Newburn (United Kingdom) [1K]": [
+    -1.743,
+    54.983
+  ],
+  "Ardrossan (United Kingdom) [10K]": [
+    -4.8097,
+    55.6432
+  ],
+  "Bovingdon (United Kingdom) [1K]": [
+    -0.5367,
+    51.7231
+  ],
+  "Mold (United Kingdom) [10K]": [
+    -3.133,
+    53.166
+  ],
+  "Ludlow (United Kingdom) [10K]": [
+    -2.718,
+    52.368
+  ],
+  "Mildenhall (United Kingdom) [10K]": [
+    0.5089,
+    52.3446
+  ],
+  "Whitnash (United Kingdom) [10K]": [
+    -1.524,
+    52.268
+  ],
+  "Coleford (United Kingdom) [1K]": [
+    -2.6162,
+    51.791
+  ],
+  "Ickenham (United Kingdom) [10K]": [
+    -0.4484,
+    51.558
+  ],
+  "Blandford Forum (United Kingdom) [10K]": [
+    -2.165,
+    50.856
+  ],
+  "Whitwick (United Kingdom) [1K]": [
+    -1.3556,
+    52.7403
+  ],
+  "Rhosllanerchrugog (United Kingdom) [1K]": [
+    -3.052,
+    53.011
+  ],
+  "Dinnington (United Kingdom) [1K]": [
+    -1.2,
+    53.3667
+  ],
+  "Emsworth (United Kingdom) [1K]": [
+    -0.938,
+    50.849
+  ],
+  "Pembroke Dock (United Kingdom) [1K]": [
+    -4.9458,
+    51.6933
+  ],
+  "Felling (United Kingdom) [1K]": [
+    -1.564,
+    54.95
+  ],
+  "Prestonpans (United Kingdom) [10K]": [
+    -2.961,
+    55.9597
+  ],
+  "Great Missenden (United Kingdom) [10K]": [
+    -0.7078,
+    51.7042
+  ],
+  "Blairgowrie (United Kingdom) [1K]": [
+    -3.3405,
+    56.5916
+  ],
+  "Bowdon (United Kingdom) [1K]": [
+    -2.366,
+    53.376
+  ],
+  "Buckie (United Kingdom) [1K]": [
+    -2.965,
+    57.676
+  ],
+  "London Colney (United Kingdom) [1K]": [
+    -0.3,
+    51.726
+  ],
+  "Cumnock (United Kingdom) [1K]": [
+    -4.2638,
+    55.4529
+  ],
+  "Ellon (United Kingdom) [10K]": [
+    -2.086,
+    57.366
+  ],
+  "Corfe Mullen (United Kingdom) [10K]": [
+    -2.0175,
+    50.7701
+  ],
+  "Padbury (United Kingdom) [10K]": [
+    -0.952,
+    51.971
+  ],
+  "Ammanford (United Kingdom) [1K]": [
+    -3.993,
+    51.8
+  ],
+  "Aldenham (United Kingdom) [1K]": [
+    -0.3546,
+    51.6723
+  ],
+  "Beccles (United Kingdom) [10K]": [
+    1.563,
+    52.458
+  ],
+  "Annan (United Kingdom) [1K]": [
+    -3.266,
+    54.983
+  ],
+  "Fort William (United Kingdom) [10K]": [
+    -5.1052,
+    56.8198
+  ],
+  "Yatton (United Kingdom) [1K]": [
+    -2.8256,
+    51.3855
+  ],
+  "Crigglestone (United Kingdom) [1K]": [
+    -1.5226,
+    53.644
+  ],
+  "Aveley (United Kingdom) [1K]": [
+    0.2534,
+    51.5018
+  ],
+  "Hayle (United Kingdom) [1K]": [
+    -5.419,
+    50.186
+  ],
+  "Bude (United Kingdom) [1K]": [
+    -4.542,
+    50.824
+  ],
+  "Immingham (United Kingdom) [1K]": [
+    -0.2183,
+    53.6139
+  ],
+  "Holywell (United Kingdom) [1K]": [
+    -3.223,
+    53.274
+  ],
+  "Worth (United Kingdom) [1K]": [
+    -0.147,
+    51.113
+  ],
+  "Towcester (United Kingdom) [1K]": [
+    -0.99,
+    52.13
+  ],
+  "Tiptree (United Kingdom) [1K]": [
+    0.75,
+    51.81
+  ],
+  "Worsborough (United Kingdom) [1K]": [
+    -1.47,
+    53.52
+  ],
+  "Queensferry (United Kingdom) [1K]": [
+    -3.398,
+    55.99
+  ],
+  "Dodworth (United Kingdom) [1K]": [
+    -1.5214,
+    53.5417
+  ],
+  "Ferryhill (United Kingdom) [1K]": [
+    -1.55,
+    54.69
+  ],
+  "Brockworth (United Kingdom) [1K]": [
+    -2.15,
+    51.85
+  ],
+  "Cobham (United Kingdom) [1K]": [
+    -0.409,
+    51.329
+  ],
+  "Felpham (United Kingdom) [1K]": [
+    -0.6539,
+    50.7905
+  ],
+  "Hockley (United Kingdom) [1K]": [
+    0.6363,
+    51.6014
+  ],
+  "Clay Cross (United Kingdom) [1K]": [
+    -1.4128,
+    53.1637
+  ],
+  "Irthlingborough (United Kingdom) [1K]": [
+    -0.614,
+    52.324
+  ],
+  "Carlton Colville (United Kingdom) [1K]": [
+    1.691,
+    52.454
+  ],
+  "Brandon (United Kingdom) [1K]": [
+    0.6242,
+    52.4474
+  ],
+  "Tadworth (United Kingdom) [1K]": [
+    -0.242,
+    51.294
+  ],
+  "Shanklin (United Kingdom) [1K]": [
+    -1.175,
+    50.6333
+  ],
+  "Waltham Cross (United Kingdom) [1K]": [
+    -0.0331,
+    51.686
+  ],
+  "Binfield (United Kingdom) [1K]": [
+    -0.792,
+    51.432
+  ],
+  "Great Dunmow (United Kingdom) [1K]": [
+    0.3617,
+    51.873
+  ],
+  "Raunds (United Kingdom) [1K]": [
+    -0.537,
+    52.345
+  ],
+  "Ledbury (United Kingdom) [1K]": [
+    -2.4235,
+    52.0339
+  ],
+  "Dunblane (United Kingdom) [1K]": [
+    -3.9674,
+    56.1838
+  ],
+  "Stevenston (United Kingdom) [1K]": [
+    -4.758,
+    55.645
+  ],
+  "Sompting (United Kingdom) [1K]": [
+    -0.3395,
+    50.8303
+  ],
+  "Sherborne (United Kingdom) [1K]": [
+    -2.5171,
+    50.9469
+  ],
+  "Cinderford (United Kingdom) [1K]": [
+    -2.4989,
+    51.8225
+  ],
+  "Burscough (United Kingdom) [1K]": [
+    -2.843,
+    53.596
+  ],
+  "Stansted Mountfitchet (United Kingdom) [1K]": [
+    0.198,
+    51.898
+  ],
+  "Frodsham (United Kingdom) [1K]": [
+    -2.725,
+    53.295
+  ],
+  "Yaxley (United Kingdom) [1K]": [
+    -0.26,
+    52.52
+  ],
+  "Bingham (United Kingdom) [1K]": [
+    -0.953,
+    52.952
+  ],
+  "Haddington (United Kingdom) [1K]": [
+    -2.781,
+    55.956
+  ],
+  "Oakengates (United Kingdom) [1K]": [
+    -2.451,
+    52.695
+  ],
+  "Portlethen (United Kingdom) [1K]": [
+    -2.13,
+    57.061
+  ],
+  "Cherry Hinton (United Kingdom) [1K]": [
+    0.176,
+    52.1849
+  ],
+  "Lanark (United Kingdom) [1K]": [
+    -3.777,
+    55.6749
+  ],
+  "Rhymney (United Kingdom) [1K]": [
+    -3.283,
+    51.759
+  ],
+  "Great Cornard (United Kingdom) [1K]": [
+    0.7497,
+    52.0245
+  ],
+  "Peebles (United Kingdom) [1K]": [
+    -3.1889,
+    55.6519
+  ],
+  "Cockermouth (United Kingdom) [1K]": [
+    -3.362,
+    54.6613
+  ],
+  "Chapel en le Frith (United Kingdom) [1K]": [
+    -1.917,
+    53.322
+  ],
+  "Polegate (United Kingdom) [1K]": [
+    0.2442,
+    50.8216
+  ],
+  "Caister-on-Sea (United Kingdom) [1K]": [
+    1.733,
+    52.651
+  ],
+  "Penkridge (United Kingdom) [1K]": [
+    -2.1164,
+    52.7252
+  ],
+  "Worplesdon (United Kingdom) [1K]": [
+    -0.612,
+    51.272
+  ],
+  "Canford Cliffs (United Kingdom) [1K]": [
+    -1.93,
+    50.7
+  ],
+  "Kirk of Shotts (United Kingdom) [1K]": [
+    -3.804,
+    55.823
+  ],
+  "Meltham (United Kingdom) [1K]": [
+    -1.85,
+    53.592
+  ],
+  "Wick (United Kingdom) [1K]": [
+    -3.089,
+    58.454
+  ],
+  "Usworth (United Kingdom) [1K]": [
+    -1.55,
+    54.94
+  ]
+}
