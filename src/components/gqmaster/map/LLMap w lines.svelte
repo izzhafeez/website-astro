@@ -1,6 +1,6 @@
 <script>
 import L from "leaflet";
-import getColor from "../../utils/color";
+import getColor from "../../../utils/color";
 import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
 let map;
 export let locations;
@@ -8,6 +8,7 @@ export let lines;
 let featureList = [];
 let featureGroup;
 let tooltips = [];
+const FEATURE_LIMIT = 1000;
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -58,7 +59,7 @@ function markerIcon(colorCode) {
 
 function createMarker(location) {
   let icon = markerIcon(location.color);
-  let marker = L.marker([location.latitude, location.longitude], {icon});
+  let marker = L.marker([location.lat, location.lng], {icon});
   marker.bindTooltip(location.label, {direction: 'top', sticky: true});
   tooltips.push(marker.getTooltip());
   if (!!location.link) {
@@ -99,12 +100,16 @@ function createLineFeature(line) {
 
 function createFeatures() {
   featureGroup = L.featureGroup();
+  let featureCount = 0;
   for (const line of lines) {
     if (line === null) continue;
     const feature = createLineFeature(line);
     featureList.push(feature);
     feature.addTo(map);
-    featureGroup.addLayer(feature);
+    if (featureCount < FEATURE_LIMIT) {
+      featureGroup.addLayer(feature);
+      featureCount += 1;
+    }
   }
 
   if (lines.length < 10) {
@@ -113,7 +118,10 @@ function createFeatures() {
       const feature = createMarker(location);
       featureList.push(feature);
       feature.addTo(map);
-      featureGroup.addLayer(feature);
+      if (featureCount < FEATURE_LIMIT) {
+        featureGroup.addLayer(feature);
+        featureCount += 1;
+      }
     }
   }
 }
