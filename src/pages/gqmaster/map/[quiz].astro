@@ -1,0 +1,223 @@
+---
+import MapQuiz from "../../../components/gqmaster/map/MapQuiz.svelte";
+import { fullSanitise } from "../../../utils/string";
+import Location from "../../../components/gqmaster/map/Location";
+import mrtData from "../../../data/gqmaster/map/mrt.json";
+import schoolsData from "../../../data/gqmaster/map/schools.json";
+import busStopData from "../../../data/gqmaster/map/bus-stops.json";
+import citiesData from "../../../data/gqmaster/map/cities.json";
+import japanCitiesData from "../../../data/gqmaster/map/japan-cities.json";
+import franceCitiesData from "../../../data/gqmaster/map/france-cities.json";
+import chinaCitiesData from "../../../data/gqmaster/map/china-cities.json";
+import ukCitiesData from "../../../data/gqmaster/map/uk-cities.json";
+import spainCitiesData from "../../../data/gqmaster/map/spain-cities.json";
+import portugalCitiesData from "../../../data/gqmaster/map/portugal-cities.json";
+import italyCitiesData from "../../../data/gqmaster/map/italy-cities.json";
+import indiaCitiesData from "../../../data/gqmaster/map/india-cities.json";
+import indonesiaCitiesData from "../../../data/gqmaster/map/indonesia-cities.json";
+import philippinesCitiesData from "../../../data/gqmaster/map/philippines-cities.json";
+import usaCitiesData from "../../../data/gqmaster/map/usa-cities.json";
+import canadaCitiesData from "../../../data/gqmaster/map/canada-cities.json";
+// import citiesData from "../../../data/gqmaster/map/cities.json";
+import { getLocationColor } from "../../../components/gqmaster/map/colors";
+import NavBar from "../../../components/common/NavBar.astro";
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { quiz: 'mrt' },
+      props: {
+        title: 'MRT Stations of Singapore',
+        data: mrtData,
+        instructions: "How many MRT/LRT stations can you name? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (e.g. 'EW' if you only want stations on the EW line, 'oo' if you only want stations containing 'oo'). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'schools' },
+      props: {
+        title: "Schools of Singapore",
+        data: schoolsData,
+        instructions: "How many schools in Singapore can you name? As you answer, the marker will disappear. Use regex to select the schools you want included in the quiz (e.g. 'Secondary' if you only want secondary schools, 'ang' if you only want schools containing 'ang'). You get 4 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'bus-stops' },
+      props: {
+        title: "Bus Stops of Singapore",
+        data: busStopData,
+        instructions: "How many bus stops in Singapore can you name? As you answer, the marker will disappear. Use regex to select the bus stops you want included in the quiz (e.g. 'BUS126' if you only want bus stops with Bus 126 passing through, 'ang' if you only want bus stops containing 'ang'). You get 4 seconds for every possible answer. Good luck!",
+        defaultRegex: 'Sengkang'
+      }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World',
+        data: citiesData,
+        instructions: "How many cities with at least 100K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M or 100K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'japan-cities' },
+      props: {
+        title: 'Cities of Japan',
+        data: japanCitiesData,
+        instructions: "How many Japanese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'france-cities' },
+      props: {
+        title: 'Cities of France',
+        data: franceCitiesData,
+        instructions: "How many French cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'china-cities' },
+      props: {
+        title: 'Cities of China',
+        data: chinaCitiesData,
+        instructions: "How many Chinese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'uk-cities' },
+      props: {
+        title: 'Cities of the UK',
+        data: ukCitiesData,
+        instructions: "How many UK cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'spain-cities' },
+      props: {
+        title: 'Cities of Spain',
+        data: spainCitiesData,
+        instructions: "How many Spanish cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'portugal-cities' },
+      props: {
+        title: 'Cities of Portugal',
+        data: portugalCitiesData,
+        instructions: "How many Portuguese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'italy-cities' },
+      props: {
+        title: 'Cities of Italy',
+        data: italyCitiesData,
+        instructions: "How many Italian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'india-cities' },
+      props: {
+        title: 'Cities of India',
+        data: indiaCitiesData,
+        instructions: "How many Indian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'indonesia-cities' },
+      props: {
+        title: 'Cities of Indonesia',
+        data: indonesiaCitiesData,
+        instructions: "How many Indonesian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'philippines-cities' },
+      props: {
+        title: 'Cities of the Philippines',
+        data: philippinesCitiesData,
+        instructions: "How many Filipino cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'usa-cities' },
+      props: {
+        title: 'Cities of the United States',
+        data: usaCitiesData,
+        instructions: "How many American cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'canada-cities' },
+      props: {
+        title: 'Cities of Canada',
+        data: canadaCitiesData,
+        instructions: "How many Canadian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '100K|1M|10M'
+      }
+    }
+  ]
+}
+
+export const prerender = true;
+const { data } = Astro.props;
+type LocationDictItem = {
+  searchTerms: string,
+  cleanText: string,
+  id: number,
+  toInclude: boolean
+}
+const locationDict: {[key: string]: LocationDictItem[]} = {};
+const locationList: Location[] = [];
+
+for (const [k, v] of Object.entries(data)) {
+  const { searchTerms, key, cleanText } = fullSanitise(k);
+  const [lng, lat] = v as number[];
+  const location = new Location({
+    lat, lng, label: cleanText, color: getLocationColor(k, Astro.params.quiz)
+  });
+  locationList.push(location);
+  if (!(key in locationDict)) locationDict[key] = [];
+  const locationDictItem = {
+    searchTerms,
+    cleanText,
+    id: locationList.length-1,
+    toInclude: true
+  }
+  locationDict[key].push(locationDictItem);
+}
+---
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+  </head>
+  <body class="dark:bg-black">
+    <NavBar transition:persist/>
+    <div class="p-2">
+      <h1 class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
+      <p class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
+    </div>
+    <MapQuiz client:only="svelte" locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
+  </body>
+  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+  <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</html>
