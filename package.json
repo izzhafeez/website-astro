@@ -46,6 +46,7 @@
     "svelte": "^4.2.12",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
+    "three": "^0.162.0",
     "typescript": "^5.3.3",
     "vue": "^3.4.20"
   },
