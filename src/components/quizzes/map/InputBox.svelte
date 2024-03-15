@@ -26,6 +26,7 @@
     }
     var imgSrc;
     const scorePercentage = score / totalScore;
+    console.log(imgSrc, scorePercentage, score, totalScore);
     if (scorePercentage > 1) {
       imgSrc = "perfect";
     } else if (scorePercentage > 0.95) {
@@ -71,7 +72,7 @@
     }
     Swal.fire({
       title: `Your Score: ${score}/${totalScore}`,
-      html: `<img src="/img/quiz/${imgSrc}.gif"/>`,
+      html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
       color: "#FFF"
     })
   }
