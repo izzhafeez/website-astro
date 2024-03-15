@@ -1,6 +1,6 @@
 ---
 import streakData from "../../../data/gqmaster/streak.json";
-import SmallCard from "../../../components/common/SmallCard.astro";
+import MediumCard from "../../../components/common/MediumCard.astro";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
@@ -14,10 +14,12 @@ type QuizJson = {[k: string]: {
 
 const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
   return {
+    key,
     href: `/gqmaster/streak/${key}`,
     title: value.title,
     instructions: value.instructions,
-    rank: value.rank || 0
+    rank: value.rank || 0,
+    imgPath: `/img/quiz/streak/${key}.png`
   }
 }).sort((a,b) => -a.rank + b.rank);
 ---
@@ -25,9 +27,9 @@ const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
 <Layout>
   <div slot="main">
     <NavBar/>
-    <Hero label="STREAK QUIZZES" text="Here are my map quizzes, powered by OpenLayers. As you answer, the marker will disappear. Use regex to select the locations you want to include in the quiz." site="gqmaster"/>
+    <Hero label="STREAK QUIZZES" text="Guess the answer based on the given prompt. Try to gain a high streak!" site="gqmaster"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {quizzes.map(quiz => <SmallCard href={quiz.href} title={quiz.title} site="gqmaster" heroText={quiz.instructions}/>)}
+      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="gqmaster" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
     </section>
     <Footer color="ns"/>
   </div>
