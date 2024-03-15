@@ -7,6 +7,7 @@ import skillsData from '../../data/portfolio/skills.json';
 import Layout from '../../layouts/Layout.astro';
 import { toName } from '../../utils/string';
 import portfolioData from '../../data/portfolio/portfolio.json';
+import { AstroSeo } from '@astrolib/seo';
 
 interface SkillData {
   title?: string,
@@ -27,6 +28,25 @@ const skills = Object.entries(skillsData as SkillJson).map(([key, value]) => {
 
 const heroText = portfolioData.skills.heroText;
 ---
+<AstroSeo
+  title="Skills | Izz Hafeez"
+  description={heroText}
+  canonical="https://izzhafeez.com/portfolio/skills"
+  openGraph={{
+    title: "Skills | Izz Hafeez",
+    description: heroText,
+    url: "https://izzhafeez.com/portfolio/skills",
+    type: "website",
+    images: [
+      {
+        url: "/img/heroes/SKILLS.jpg",
+        width: 800,
+        height: 600,
+        alt: "Skills | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main" class="">
     <NavBar/>
