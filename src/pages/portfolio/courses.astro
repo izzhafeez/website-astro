@@ -28,13 +28,13 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
   const splitKey = key.split('-');
   if (splitKey.length === 1) {
     title = title ?? key.toUpperCase();
-    imgPath = '/img/portfolio/courses/nus.png'
+    imgPath = '/img/portfolio/courses/nus.jpg'
   } else {
     let [issuerRaw, ...rest] = splitKey;
     type = rest.pop() ?? '';
     issuer = issuer ?? capitalise(issuerRaw);
     title = title ?? toName(rest.join('-'));
-    imgPath = `/img/portfolio/courses/${issuerRaw}.png`
+    imgPath = `/img/portfolio/courses/${issuerRaw}.jpg`
   }
 
   return {
