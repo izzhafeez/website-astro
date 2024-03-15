@@ -1,4 +1,4 @@
-import React, { createElement } from 'react';
+;!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="a2be4c87-3701-4ddf-a5b1-7f38b7faeb79",e._sentryDebugIdIdentifier="sentry-dbid-a2be4c87-3701-4ddf-a5b1-7f38b7faeb79")}catch(e){}}();import React, { createElement } from 'react';
 import ReactDOM from 'react-dom/server';
 import { defineComponent, h, createSSRApp } from 'vue';
 import { renderToString } from 'vue/server-renderer';
@@ -147,7 +147,7 @@ async function renderToStaticMarkup$2(Component, props, { default: children, ...
 	const newChildren = children ?? props.children;
 	if (children && opts.experimentalReactChildren) {
 		attrs['data-react-children'] = true;
-		const convert = await import('./chunks/vnode-children_BkR_XoPb.mjs').then((mod) => mod.default);
+		const convert = await import('./chunks/vnode-children_Cd1yF1tJ.mjs').then((mod) => mod.default);
 		newProps.children = convert(children);
 	} else if (newChildren != null) {
 		newProps.children = React.createElement(StaticHtml$1, {
@@ -342,3 +342,4 @@ const _renderer2 = {
 const renderers = [Object.assign({"name":"@astrojs/react","clientEntrypoint":"@astrojs/react/client.js","serverEntrypoint":"@astrojs/react/server.js"}, { ssr: _renderer0 }),Object.assign({"name":"@astrojs/vue","clientEntrypoint":"@astrojs/vue/client.js","serverEntrypoint":"@astrojs/vue/server.js"}, { ssr: _renderer1 }),Object.assign({"name":"@astrojs/svelte","clientEntrypoint":"@astrojs/svelte/client.js","serverEntrypoint":"@astrojs/svelte/server.js"}, { ssr: _renderer2 }),];
 
 export { renderers };
+//# sourceMappingURL=renderers.mjs.map
