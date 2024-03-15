@@ -103,7 +103,7 @@ for (const [k, v] of Object.entries(data)) {
         <h1 class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
         <p class="text-gray-500 ">{Astro.props.instructions}</p>
       </div>
-      <StreakQuiz client:only="svelte" answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''}/>
+      <StreakQuiz client:load answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''}/>
     </div>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
