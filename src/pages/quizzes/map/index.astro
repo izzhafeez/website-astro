@@ -48,7 +48,8 @@ const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
     <NavBar/>
     <Hero label="MAP QUIZZES" text="Here are my map quizzes, powered by OpenLayers. As you answer, the marker will disappear. Use regex to select the locations you want to include in the quiz." site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
+      {quizzes.slice(0,12).map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath} isEager={true}/>)}
+      {quizzes.slice(12).map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
     </section>
     <Footer color="ns"/>
   </div>

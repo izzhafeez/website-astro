@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { capitalise } from '../../utils/string';
 import ThemeIcon from './ThemeIcon.astro';
 type Option = { href:string, label:string };
@@ -72,10 +73,10 @@ const options: Option[] = getOptions();
 ---
 <div>
   <div class="h-20"></div>
-  <nav class={`${!opacity && 'backdrop-blur-xl'} border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen fixed`} transition:name="nav-bar">
+  <nav class={`${!opacity && 'bg-white dark:bg-black'} border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen fixed`} transition:name="nav-bar">
     <div class="text-white p-4 flex gap-4">
       <a href="/" class="w-10">
-        <img src="/img/desmosito-black-trans.png" class="h-10 dark:invert"/>
+        <Image src="/img/desmosito-black-trans.png" class="h-10 dark:invert" alt="Desmosito" height="60" width="60" loading="eager"/>
       </a>
       <a href={'/' + href} class="grid place-items-center">
         <h1 class="text-black dark:text-white font-extrabold text-xl">{label || 'Izz Hafeez'}</h1>

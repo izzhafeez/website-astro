@@ -53,7 +53,8 @@ const heroText = portfolioData.art.heroText;
     <NavBar/>
     <Hero label="ART" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto mt-4" transition:animate="slide">
-      {artworks.map(artwork => <ArtPreview artwork={artwork}/>)}
+      {artworks.slice(0,15).map(artwork => <ArtPreview artwork={artwork} isEager={true}/>)}
+      {artworks.slice(15).map(artwork => <ArtPreview artwork={artwork}/>)}
     </section>
     <Footer color="ew"/>
   </div>

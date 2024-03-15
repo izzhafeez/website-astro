@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 
-const { href, title, heroText, site, key, imgPath } = Astro.props;
+const { href, title, heroText, site, key, imgPath, isEager } = Astro.props;
 
 let textColor = "group-hover:text-gray-500 dark:group-hover:text-gray-300";
 let neonColor = "hover:neon-gray";
@@ -17,12 +17,12 @@ switch (site) {
 }
 ---
 
-<a role="button" href={href} id={key} class={`group w-full ${neonColor} p-4 rounded-lg flex gap-2`}>
+<a transition:name={key} role="button" href={href} id={key} class={`group w-full ${neonColor} p-4 rounded-lg flex gap-2`}>
   <div>
-    <h2 transition:name={key} class={`${textColor} font-medium dark:text-white flex items-center gap-2`}>  
+    <h2 transition:name={key + 'header'} class={`${textColor} font-medium dark:text-white flex items-center gap-2`}>  
       {title} 
     </h2>
     <p class="text-gray-500 text-sm my-2">{heroText}</p>
   </div>
-  {imgPath && <Image src={imgPath} alt={title} width="250" height="150" class="w-60 object-cover ms-auto aspect-video"/>}
+  {imgPath && <Image src={imgPath} alt={title} width="250" height="150" class="w-60 object-cover ms-auto aspect-video" loading={isEager && 'eager'}/>}
 </a>

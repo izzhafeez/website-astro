@@ -133,8 +133,8 @@ function handleFail(_) {
 </div>
 {:else}
 <div class="fixed grid grid-cols-2 w-screen mt-20">
-  <div class="text-right p-2"><p class="font-bold dark:text-white">{streak}</p><p class="text-gray-500">Score</p></div>
-  <div class="text-left p-2"><p class="font-bold dark:text-white">{bestStreak}</p><p class="text-gray-500">Highscore</p></div>
+  <div class="text-right p-2"><p class="font-bold dark:text-white text-3xl">{streak}</p><p class="text-gray-500">Score</p></div>
+  <div class="text-left p-2"><p class="font-bold dark:text-white text-3xl">{bestStreak}</p><p class="text-gray-500">Highscore</p></div>
 </div>
 <div class='grid grid-cols-2 divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
   <div class='grid gap-2 items-center content-center text-center p-4'>

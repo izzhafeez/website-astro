@@ -48,8 +48,8 @@ const quizzes = Object.entries(compareData as QuizJson).map(([key, value]) => {
     <NavBar/>
     <Hero label="COMPARE QUIZZES" text="Which one of the two has the greater value? Test your comparison skills with these quizzes." site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
+      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath} isEager={true}/>)}
     </section>
-    <Footer color="ns"/>
+    <Footer color="ns" isEager={true}/>
   </div>
 </Layout>

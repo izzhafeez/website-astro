@@ -34,33 +34,33 @@ import { AstroSeo } from "@astrolib/seo";
   <div slot="main" class="">
     <NavBar label="Portfolio"/>
     <div class="max-w-3xl mx-auto p-4 grid gap-4 my-20">
-      <Image src="/img/izzhafeez.png" width="300" height="300" alt="Izz Hafeez" class="mx-auto rounded-full border-4 border-gray-500"/>
+      <Image src="/img/izzhafeez.png" width="300" height="300" alt="Izz Hafeez" class="mx-auto rounded-full border-4 border-gray-500" loading="eager"/>
       <p class="dark:text-white">Hi, my name</p>
       <h1 class="text-6xl font-extrabold dark:text-white">Izz Hafeez.</h1>
       <p class="text-gray-500">I'm a final year student studying <a href="/portfolio/courses" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">computer science</a> and mathematics at NUS. Along my journey, I've been fortunate to hold various <a href="/portfolio/experience" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">positions</a>, where I've learned many <a href="/portfolio/skills" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">skills</a>. Beyond academics, my free time is devoted to working on personal <a href="/portfolio/projects" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">projects</a>, that involve creating <a href="/portfolio/music" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">music</a> and <a href="/portfolio/art" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">art</a>. Hope you enjoy the games and quizzes I have in store for you!</p>
       <div class="flex gap-4">
         <a href="https://www.linkedin.com/in/izzhafeez/">
-          <img src="/img/logos/linkedin.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
+          <img alt="linkedin" src="/img/logos/linkedin.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
         </a>
         <a href="https://github.com/izzhafeez">
-          <img src="/img/logos/github.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
+          <img alt="linkedin" src="/img/logos/github.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
         </a>
         <a href="https://www.youtube.com/c/izzhafeez">
-          <img src="/img/logos/youtube.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
+          <img alt="linkedin" src="/img/logos/youtube.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
         </a>
         <a href="https://www.instagram.com/mynameizzhafeez/?hl=es">
-          <img src="/img/logos/instagram.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
+          <img alt="linkedin" src="/img/logos/instagram.svg" class="h-5 brightness-0 dark:invert hover:opacity-50"/>
         </a>
       </div>
     </div>
     <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
+      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
     <div class="my-20"></div>
     <Hero label="QUIZZES" text={homeData.quizzes.heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
+      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
     <Footer color="lrt"/>
   </div>

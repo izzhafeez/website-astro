@@ -1,4 +1,8 @@
 ---
+import { Image } from "astro:assets";
+
+const { isEager } = Astro.props;
+
 let bgColor;
 switch (Astro.props.color) {
   case 'ew':
@@ -16,19 +20,19 @@ switch (Astro.props.color) {
   <p class="text-white">Izz Hafeez, 2024</p>
   <div class="ms-auto flex gap-4">
     <a href="https://www.linkedin.com/in/izzhafeez/">
-      <img src="/img/logos/linkedin.svg" class="h-5 brightness-0 invert hover:opacity-50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/linkedin.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="LinkedIn" width="50" height="50"/>
     </a>
     <a href="https://github.com/izzhafeez">
-      <img src="/img/logos/github.svg" class="h-5 brightness-0 invert hover:opacity-50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/github.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="GitHub" width="50" height="50"/>
     </a>
     <a href="https://www.youtube.com/c/izzhafeez">
-      <img src="/img/logos/youtube.svg" class="h-5 brightness-0 invert hover:opacity-50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/youtube.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="YouTube" width="50" height="50"/>
     </a>
     <a href="https://www.instagram.com/mynameizzhafeez/?hl=es">
-      <img src="/img/logos/instagram.svg" class="h-5 brightness-0 invert hover:opacity-50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/instagram.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Instagram" width="50" height="50"/>
     </a>
     <a href="mailto:izzhafeez@outlook.com">
-      <img src="/img/logos/email.svg" class="h-5 brightness-0 invert hover:opacity-50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/email.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Email" width="50" height="50"/>
     </a>
   </div>
 </footer>
