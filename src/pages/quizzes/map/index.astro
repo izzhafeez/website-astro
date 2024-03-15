@@ -5,6 +5,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
+import { AstroSeo } from "@astrolib/seo";
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -19,11 +20,29 @@ const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
     title: value.title,
     instructions: value.instructions,
     rank: value.rank || 0,
-    imgPath: `/img/quiz/map/${key}.jpg`
+    imgPath: `/img/quizzes/map/${key}.jpg`
   }
 }).sort((a,b) => -a.rank + b.rank);
 ---
-
+<AstroSeo
+  title={"Map Quizzes | Izz Hafeez"}
+  description="How many locations can you get right? Test your geography skills with these map quizzes. Powered by OpenLayers."
+  canonical={`https://izzhafeez.com/quizzes/map`}
+  openGraph={{
+    title: "Map Quizzes | Izz Hafeez",
+    description: "How many locations can you get right? Test your geography skills with these map quizzes. Powered by OpenLayers.",
+    url: `https://izzhafeez.com/quizzes/map`,
+    type: "website",
+    images: [
+      {
+        url: `/img/heroes/MAP QUIZZES.jpg`,
+        width: 800,
+        height: 600,
+        alt: "Map Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main">
     <NavBar/>
