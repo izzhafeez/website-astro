@@ -7,6 +7,7 @@ import { capitalise, toName } from '../../utils/string';
 import CoursePreview from '../../components/portfolio/CoursePreview.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
+import { AstroSeo } from '@astrolib/seo';
 
 interface CourseData {
   title?: string,
@@ -53,6 +54,25 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
 
 const heroText = portfolioData.courses.heroText;
 ---
+<AstroSeo
+  title="Courses | Izz Hafeez"
+  description={heroText}
+  canonical="https://izzhafeez.com/portfolio/courses"
+  openGraph={{
+    title: "Courses | Izz Hafeez",
+    description: heroText,
+    url: "https://izzhafeez.com/portfolio/courses",
+    type: "website",
+    images: [
+      {
+        url: "/img/heroes/COURSES.jpg",
+        width: 800,
+        height: 600,
+        alt: "Courses | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main" class="">
     <NavBar/>
