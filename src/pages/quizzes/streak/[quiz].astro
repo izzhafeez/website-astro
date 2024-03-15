@@ -8,6 +8,7 @@ import StreakQuiz from "../../../components/quizzes/streak/StreakQuiz.svelte";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
 import { fullSanitise } from "../../../utils/string";
+import { AstroSeo } from "@astrolib/seo";
 
 export async function getStaticPaths() {
   return [
@@ -75,6 +76,25 @@ for (const [k, v] of Object.entries(data)) {
   id += 1;
 }
 ---
+<AstroSeo
+  title={Astro.props.title + " | Izz Hafeez"}
+  description={Astro.props.instructions}
+  canonical={`https://izzhafeez.com/quizzes/streak/${Astro.params.quiz}`}
+  openGraph={{
+    title: Astro.props.title + " | Izz Hafeez",
+    description: Astro.props.instructions,
+    url: `https://izzhafeez.com/quizzes/streak/${Astro.params.quiz}`,
+    type: "website",
+    images: [
+      {
+        url: `/img/quizzes/streak/${Astro.params.quiz}.jpg`,
+        width: 800,
+        height: 600,
+        alt: Astro.props.title + " | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main">
     <NavBar transition:persist/>
