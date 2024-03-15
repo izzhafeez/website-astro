@@ -1,0 +1,22 @@
+{
+  "aws-products": {
+    "title": "AWS Products",
+    "instructions": "Guess the AWS product based on the given prompt."
+  },
+  "hello-world": {
+    "title": "Hello World in Different Languages",
+    "instructions": "Guess the language based on its translation of 'Hello World'."
+  },
+  "place-names": {
+    "title": "Place Names",
+    "instructions": "Guess the place name based its translation in a different language."
+  },
+  "nus-mods": {
+    "title": "NUS Modules",
+    "instructions": "Guess the NUS module code based on the given prompt."
+  },
+  "ntu-mods": {
+    "title": "NTU Modules",
+    "instructions": "Guess the NTU module code based on the given prompt."
+  }
+}
