@@ -1,0 +1,36 @@
+---
+import streakData from "../../../data/quizzes/streak.json";
+import MediumCard from "../../../components/common/MediumCard.astro";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import Hero from "../../../components/common/Hero.astro"
+import Footer from "../../../components/common/Footer.astro"
+
+type QuizJson = {[k: string]: {
+  title: string,
+  instructions: string,
+  rank?: number
+}}
+
+const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/quizzes/streak/${key}`,
+    title: value.title,
+    instructions: value.instructions,
+    rank: value.rank || 0,
+    imgPath: `/img/quiz/streak/${key}.jpg`
+  }
+}).sort((a,b) => -a.rank + b.rank);
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <Hero label="STREAK QUIZZES" text="Guess the answer based on the given prompt. Try to gain a high streak!" site="quizzes"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
+    </section>
+    <Footer color="ns"/>
+  </div>
+</Layout>
