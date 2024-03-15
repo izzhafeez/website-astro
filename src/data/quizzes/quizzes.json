@@ -6,5 +6,9 @@
   "streak": {
     "title": "streak quizzes",
     "heroText": "Guess the answer based on the prompt! Try to get the highest streak that you can. You can use regex to select the prompts you want to include in the quiz."
+  },
+  "compare": {
+    "title": "compare quizzes",
+    "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
   }
 }
