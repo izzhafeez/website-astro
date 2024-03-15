@@ -1,5 +1,5 @@
-import { isRemotePath, joinPaths } from '@astrojs/internal-helpers/path';
-import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, M as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, a as UnsupportedImageConversion, b as MissingSharp } from '../astro_B0mhbFYx.mjs';
+;!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="a1539bed-de99-462f-a5a1-be13defc2932",e._sentryDebugIdIdentifier="sentry-dbid-a1539bed-de99-462f-a5a1-be13defc2932")}catch(e){}}();import { isRemotePath, joinPaths } from '@astrojs/internal-helpers/path';
+import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, M as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, a as UnsupportedImageConversion, b as MissingSharp } from '../astro_9qxpcW6m.mjs';
 
 const VALID_SUPPORTED_FORMATS = [
   "jpeg",
@@ -340,3 +340,4 @@ const sharp$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 export { DEFAULT_HASH_PROPS as D, isESMImportedImage as a, isLocalService as b, isRemoteAllowed as c, isRemoteImage as i, sharp$1 as s };
+//# sourceMappingURL=assets-service_B2STljf8.mjs.map
