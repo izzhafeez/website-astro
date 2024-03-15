@@ -5,9 +5,6 @@
     "jsxImportSource": "react",
     "baseUrl": "/Users/izzhafeez/Documents/website-astro/src",
     "noUnusedParameters": false,
-    "noUnusedLocals": false,
-    "typeRoots": [
-      ".src/types"
-    ]
+    "noUnusedLocals": false
   }
 }
