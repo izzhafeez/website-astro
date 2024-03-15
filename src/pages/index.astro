@@ -9,8 +9,27 @@ import quizzesData from "../data/quizzes/quizzes.json";
 import homeData from "../data/home.json";
 import { capitalise } from "../utils/string";
 import MediumCard from "components/common/MediumCard.astro";
+import { AstroSeo } from "@astrolib/seo";
 ---
-
+<AstroSeo
+  title={"Izz Hafeez"}
+  description={"I'm a final year student studying computer science and mathematics at NUS. Along my journey, I've been fortunate to hold various positions, where I've learned many skills. Beyond academics, my free time is devoted to working on personal projects, that involve creating music and art. Hope you enjoy the games and quizzes I have in store for you!"}
+  canonical={`https://izzhafeez.com/`}
+  openGraph={{
+    title: "Izz Hafeez",
+    description: "I'm a final year student studying computer science and mathematics at NUS. Along my journey, I've been fortunate to hold various positions, where I've learned many skills. Beyond academics, my free time is devoted to working on personal projects, that involve creating music and art. Hope you enjoy the games and quizzes I have in store for you!",
+    url: `https://izzhafeez.com/`,
+    type: "website",
+    images: [
+      {
+        url: `/img/izzhafeez.png`,
+        width: 800,
+        height: 600,
+        alt: "Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main" class="">
     <NavBar label="Portfolio"/>
