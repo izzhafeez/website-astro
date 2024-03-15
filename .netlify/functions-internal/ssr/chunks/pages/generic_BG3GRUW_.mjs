@@ -1,7 +1,7 @@
-import { isRemotePath } from '@astrojs/internal-helpers/path';
+;!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="01281a18-2f11-47d6-a5e6-54f858708fdc",e._sentryDebugIdIdentifier="sentry-dbid-01281a18-2f11-47d6-a5e6-54f858708fdc")}catch(e){}}();import { isRemotePath } from '@astrojs/internal-helpers/path';
 import mime from 'mime/lite.js';
-import { A as AstroError, c as InvalidImageService, d as ExpectedImageOptions, E as ExpectedImage, F as FailedToFetchRemoteImageDimensions, e as createAstro, f as createComponent, g as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, h as addAttribute, s as spreadAttributes } from '../astro_B0mhbFYx.mjs';
-import { i as isRemoteImage, a as isESMImportedImage, b as isLocalService, D as DEFAULT_HASH_PROPS, c as isRemoteAllowed } from '../astro/assets-service_DJ9nr1Q3.mjs';
+import { A as AstroError, c as InvalidImageService, d as ExpectedImageOptions, E as ExpectedImage, F as FailedToFetchRemoteImageDimensions, e as createAstro, f as createComponent, g as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, h as addAttribute, s as spreadAttributes } from '../astro_9qxpcW6m.mjs';
+import { i as isRemoteImage, a as isESMImportedImage, b as isLocalService, D as DEFAULT_HASH_PROPS, c as isRemoteAllowed } from '../astro/assets-service_B2STljf8.mjs';
 import 'html-escaper';
 import 'clsx';
 
@@ -821,7 +821,7 @@ async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
     const { default: service } = await import(
       // @ts-expect-error
-      '../astro/assets-service_DJ9nr1Q3.mjs'
+      '../astro/assets-service_B2STljf8.mjs'
     ).then(n => n.s).catch((e) => {
       const error = new AstroError(InvalidImageService);
       error.cause = e;
@@ -1057,3 +1057,4 @@ const generic = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 export { $$Image as $, generic as g };
+//# sourceMappingURL=generic_BG3GRUW_.mjs.map
