@@ -5,10 +5,11 @@ import NavBar from "../components/common/NavBar.astro";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import portfolioData from "../data/portfolio/portfolio.json";
-import gqmasterData from "../data/gqmaster/gqmaster.json";
+import quizzesData from "../data/quizzes/quizzes.json";
 import SmallCard from "../components/common/SmallCard.astro";
 import homeData from "../data/home.json";
 import { capitalise } from "../utils/string";
+import MediumCard from "components/common/MediumCard.astro";
 ---
 
 <Layout>
@@ -36,12 +37,12 @@ import { capitalise } from "../utils/string";
     </div>
     <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <SmallCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio"/>)}
+      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <div class="my-20"></div>
-    <Hero label="GQMASTER" text={homeData.gqmaster.heroText} site="gqmaster"/>
+    <Hero label="QUIZZES" text={homeData.quizzes.heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(gqmasterData).map(([key, value]) => <SmallCard href={`/gqmaster/${key}`} title={capitalise(key)} heroText={value.heroText} site="gqmaster"/>)}
+      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <Footer color="lrt"/>
   </div>
