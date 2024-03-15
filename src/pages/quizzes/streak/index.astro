@@ -5,6 +5,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
+import { AstroSeo } from "@astrolib/seo";
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -19,11 +20,29 @@ const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
     title: value.title,
     instructions: value.instructions,
     rank: value.rank || 0,
-    imgPath: `/img/quiz/streak/${key}.jpg`
+    imgPath: `/img/quizzes/streak/${key}.jpg`
   }
 }).sort((a,b) => -a.rank + b.rank);
 ---
-
+<AstroSeo
+  title={"Streak Quizzes | Izz Hafeez"}
+  description="How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!"
+  canonical={`https://izzhafeez.com/quizzes/streak`}
+  openGraph={{
+    title: "Streak Quizzes | Izz Hafeez",
+    description: "How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!",
+    url: `https://izzhafeez.com/quizzes/streak`,
+    type: "website",
+    images: [
+      {
+        url: `/img/heroes/STREAK QUIZZES.jpg`,
+        width: 800,
+        height: 600,
+        alt: "Streak Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main">
     <NavBar/>
