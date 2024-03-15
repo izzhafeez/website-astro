@@ -2,7 +2,7 @@
   "builder-pal": {
     "repo": "https://github.com/orgs/BuilderPal/repositories",
     "link": "https://builderpal.netlify.app/",
-    "imgPath": "builder-pal.png",
+    "imgPath": "builder-pal.jpg",
     "overview": "AI-powered project recommender for kids",
     "related": [
       "portfolio/skills#react",
@@ -15,7 +15,7 @@
     "repo": "https://github.com/ChitChatChampion",
     "link": "https://chitchatchampion.netlify.app/",
     "overview": "AI-powered online party games platform that offers endless replayability and tailored experiences",
-    "imgPath": "chit-chat-champion.png",
+    "imgPath": "chit-chat-champion.jpg",
     "rank": 2,
     "related": [
       "portfolio/skills#vue",
@@ -29,7 +29,7 @@
   "edu-mate": {
     "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
     "overview": "Address book that facilitates scheduling meetups with friends based on location and availability",
-    "imgPath": "edu-mate.png",
+    "imgPath": "edu-mate.jpg",
     "related": [
       "portfolio/courses#cs2103t",
       "portfolio/skills#java",
@@ -41,7 +41,7 @@
   "malls-card-game": {
     "repo": "https://github.com/izzhafeez/malls",
     "overview": "Statistics-driven card game centered around the malls of Singapore",
-    "imgPath": "malls-card-game.png",
+    "imgPath": "malls-card-game.jpg",
     "related": [
       "portfolio/skills#data-science",
       "portfolio/skills#selenium",
@@ -55,7 +55,7 @@
   "note-together": {
     "repo": "https://github.com/shotnothing/NoteTogether",
     "overview": "Note-sharing platform that incorporates Reddit and GitHub-like features",
-    "imgPath": "note-together.png",
+    "imgPath": "note-together.jpg",
     "related": [
       "portfolio/skills#javascript",
       "portfolio/skills#vue",
@@ -66,13 +66,13 @@
   },
   "website-v0": {
     "link": "https://blueticker117.wixsite.com/dontbluetickme",
-    "imgPath": "website-v0.png",
+    "imgPath": "website-v0.jpg",
     "overview": "Personal website focused on showcasing the puzzles I've created"
   },
   "website-v1": {
     "repo": "https://github.com/izzhafeez/website-v1",
     "link": "https://izzhafeez.github.io/website-v1/",
-    "imgPath": "website-v1.png",
+    "imgPath": "website-v1.jpg",
     "overview": "Personal website focused on creating modals, navigation tools and aesthetic animations",
     "related": [
       "portfolio/skills#html",
@@ -82,7 +82,7 @@
   "website-v2": {
     "repo": "https://github.com/izzhafeez/website-v2",
     "link": "https://izzhafeez.github.io/website-v2/",
-    "imgPath": "website-v2.png",
+    "imgPath": "website-v2.jpg",
     "overview": "Personal website focused on neatly hiding away content behind dropdowns",
     "related": [
       "portfolio/skills#html",
@@ -92,7 +92,7 @@
   "website-v3": {
     "repo": "https://github.com/izzhafeez/website-v3",
     "link": "https://izzhafeez.github.io/website-v3/",
-    "imgPath": "website-v3.png",
+    "imgPath": "website-v3.jpg",
     "overview": "Personal website focused on CSS selectors and a static sidemenu",
     "related": [
       "portfolio/skills#html",
@@ -104,7 +104,7 @@
   "website-v4": {
     "repo": "https://github.com/izzhafeez/website-v3",
     "link": "https://mynameizzhafeez.netlify.app/",
-    "imgPath": "website-v4.png",
+    "imgPath": "website-v4.jpg",
     "overview": "Personal website featuring improved search functionality and more vibrant color scheme",
     "related": [
       "portfolio/skills#html",
@@ -116,7 +116,7 @@
   "website-v5": {
     "repo": "https://github.com/izzhafeez/website-react/tree/master",
     "link": "https://izzhafeez.github.io/website-react/",
-    "imgPath": "website-v5.png",
+    "imgPath": "website-v5.jpg",
     "overview": "Personal website featuring React SPA and a notes renderer",
     "related": [
       "portfolio/skills#react",
@@ -129,7 +129,7 @@
   "website-v6": {
     "repo": "https://github.com/izzhafeez/website-react",
     "link": "https://v6-izzhafeez.netlify.app/",
-    "imgPath": "website-v6.png",
+    "imgPath": "website-v6.jpg",
     "rank": 2,
     "overview": "Personal website featuring quizzes, games and OpenLayers integration for showcasing hikes",
     "related": [
@@ -143,7 +143,7 @@
     "repo": "https://github.com/izzhafeez/website-astro",
     "link": "https://izzhafeez.com",
     "rank": 3,
-    "imgPath": "website-v7.png",
+    "imgPath": "website-v7.jpg",
     "overview": "Personal website featuring multiple frameworks, apps and paradigms",
     "related": [
       "portfolio/skills#astro",
