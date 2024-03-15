@@ -1,5 +1,5 @@
 ---
-const { href, title, heroText, site } = Astro.props;
+const { href, title, heroText, site, key } = Astro.props;
 
 let neon = 'hover:neon-lrt';
 let text = '';
@@ -14,7 +14,7 @@ switch (site) {
     break;
 }
 ---
-<a href={href} role="button" class={`${neon} p-4 rounded-lg group`}>
+<a transition:name={key} href={href} role="button" class={`${neon} p-4 rounded-lg group`}>
   <h2 class={`font-medium dark:text-white ${text}`}>{title}</h2>
   <p class="text-gray-500 text-sm">{heroText}</p>
 </a>
