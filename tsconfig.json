@@ -6,20 +6,7 @@
     "baseUrl": "/Users/izzhafeez/Documents/website-astro/src",
     "noUnusedParameters": false,
     "noUnusedLocals": false,
-    "paths": {
-      "@data/*": [
-        "data/*"
-      ],
-      "@types/*": [
-        "types/*"
-      ],
-      "@components/*": [
-        "components/*"
-      ],
-      "@items/*": [
-        "items/*"
-      ]
-    },
+    "paths": {},
     "typeRoots": [
       ".src/types"
     ]

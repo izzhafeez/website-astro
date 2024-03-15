@@ -1,5 +1,5 @@
 <script>
-  import Timer from "@components/utils/Timer.svelte";
+  import Timer from "../../../components/utils/Timer.svelte";
   import { fullSanitise } from "../../../utils/string";
   import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
   import { onMount } from "svelte";
