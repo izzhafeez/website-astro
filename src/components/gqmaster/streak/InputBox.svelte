@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fullSanitise } from "utils/string";
+  import { fullSanitise } from "../../../utils/string";
   export let answerDict;
   export let answerList;
   export let defaultRegex;
