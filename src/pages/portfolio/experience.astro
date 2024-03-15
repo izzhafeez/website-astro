@@ -5,6 +5,7 @@ import Hero from '../../components/common/Hero.astro';
 import experienceData from '../../data/portfolio/experience.json';
 import ExperiencePreview from '../../components/portfolio/ExperiencePreview.astro';
 import Footer from '../../components/common/Footer.astro';
+import { AstroSeo } from '@astrolib/seo';
 
 interface ExperienceData {
   title: string,
@@ -31,6 +32,25 @@ const experiences = Object.entries(experienceData as ExperienceJson).map(([key, 
 
 const heroText = "Here are some of the invaluable experiences I've gained through internships, work and beyond."
 ---
+<AstroSeo
+  title="Experience | Izz Hafeez"
+  description={heroText}
+  canonical="https://izzhafeez.com/portfolio/experience"
+  openGraph={{
+    title: "Experience | Izz Hafeez",
+    description: heroText,
+    url: "https://izzhafeez.com/portfolio/experience",
+    type: "website",
+    images: [
+      {
+        url: "/img/heroes/EXPERIENCE.jpg",
+        width: 800,
+        height: 600,
+        alt: "Experience | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main" class="">
     <NavBar/>
