@@ -1,3 +1,54 @@
 ---
+import subzonePopulationData from "../../../data/quizzes/compare/subzone-population.json";
+import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import { AstroSeo } from "@astrolib/seo";
 
+export function getStaticPaths() {
+  return [
+    {
+      params: {
+        quiz: "subzone-population"
+      },
+      props: {
+        title: "Subzone Population",
+        data: subzonePopulationData,
+        instructions: "Compare the population of different subzones in Singapore."
+      }
+    }
+  ]
+}
+
+export const prerender = true;
+const { data, title, instructions } = Astro.props;
 ---
+<AstroSeo
+  title={Astro.props.title + " | Izz Hafeez"}
+  description={Astro.props.instructions}
+  canonical={`https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`}
+  openGraph={{
+    title: Astro.props.title + " | Izz Hafeez",
+    description: Astro.props.instructions,
+    url: `https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`,
+    type: "website",
+    images: [
+      {
+        url: `/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+        width: 800,
+        height: 600,
+        alt: Astro.props.title + " | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+<Layout>
+  <div slot="main">
+    <div class="fixed z-50">
+      <NavBar opacity={true}/>
+    </div>
+    <CompareQuiz client:load data={data} title={title} instructions={instructions}/>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
