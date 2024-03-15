@@ -1,0 +1,1702 @@
+{
+  "Toronto (Canada) [1M]": [
+    -79.3733,
+    43.7417
+  ],
+  "Montreal (Canada) [1M]": [
+    -73.5617,
+    45.5089
+  ],
+  "Vancouver (Canada) [1M]": [
+    -123.1,
+    49.25
+  ],
+  "Calgary (Canada) [1M]": [
+    -114.0667,
+    51.05
+  ],
+  "Edmonton (Canada) [1M]": [
+    -113.4903,
+    53.5344
+  ],
+  "Ottawa (Canada) [100K]": [
+    -75.695,
+    45.4247
+  ],
+  "Winnipeg (Canada) [100K]": [
+    -97.1464,
+    49.8844
+  ],
+  "Quebec City (Canada) [100K]": [
+    -71.2081,
+    46.8139
+  ],
+  "Kitchener (Canada) [100K]": [
+    -80.4728,
+    43.4186
+  ],
+  "Halifax (Canada) [100K]": [
+    -63.5906,
+    44.6475
+  ],
+  "Victoria (Canada) [100K]": [
+    -123.3647,
+    48.4283
+  ],
+  "Mississauga (Canada) [100K]": [
+    -79.65,
+    43.6
+  ],
+  "Hamilton (Canada) [100K]": [
+    -79.8692,
+    43.2567
+  ],
+  "Brampton (Canada) [100K]": [
+    -79.7667,
+    43.6833
+  ],
+  "Surrey (Canada) [100K]": [
+    -122.8489,
+    49.19
+  ],
+  "Laval (Canada) [100K]": [
+    -73.75,
+    45.5833
+  ],
+  "London (Canada) [100K]": [
+    -81.2497,
+    42.9836
+  ],
+  "Markham (Canada) [100K]": [
+    -79.2633,
+    43.8767
+  ],
+  "St. Catharines (Canada) [100K]": [
+    -79.2333,
+    43.1833
+  ],
+  "Niagara Falls (Canada) [100K]": [
+    -79.1067,
+    43.06
+  ],
+  "Vaughan (Canada) [100K]": [
+    -79.5,
+    43.8333
+  ],
+  "Gatineau (Canada) [100K]": [
+    -75.65,
+    45.4833
+  ],
+  "Windsor (Canada) [100K]": [
+    -83.0,
+    42.2833
+  ],
+  "Saskatoon (Canada) [100K]": [
+    -106.6833,
+    52.1333
+  ],
+  "Longueuil (Canada) [100K]": [
+    -73.5167,
+    45.5333
+  ],
+  "Burnaby (Canada) [100K]": [
+    -122.9667,
+    49.2667
+  ],
+  "Regina (Canada) [100K]": [
+    -104.6067,
+    50.4547
+  ],
+  "Richmond (Canada) [100K]": [
+    -123.1333,
+    49.1667
+  ],
+  "Richmond Hill (Canada) [100K]": [
+    -79.4333,
+    43.8667
+  ],
+  "Oakville (Canada) [100K]": [
+    -79.6833,
+    43.45
+  ],
+  "Burlington (Canada) [100K]": [
+    -79.8,
+    43.3167
+  ],
+  "Barrie (Canada) [100K]": [
+    -79.6769,
+    44.3711
+  ],
+  "Oshawa (Canada) [100K]": [
+    -78.85,
+    43.9
+  ],
+  "Sherbrooke (Canada) [100K]": [
+    -71.9,
+    45.4
+  ],
+  "Saguenay (Canada) [100K]": [
+    -71.0667,
+    48.4167
+  ],
+  "Levis (Canada) [100K]": [
+    -71.1833,
+    46.8
+  ],
+  "Kelowna (Canada) [100K]": [
+    -119.4956,
+    49.8881
+  ],
+  "Abbotsford (Canada) [100K]": [
+    -122.3167,
+    49.05
+  ],
+  "Coquitlam (Canada) [100K]": [
+    -122.7919,
+    49.2839
+  ],
+  "Trois-Rivieres (Canada) [100K]": [
+    -72.55,
+    46.35
+  ],
+  "Guelph (Canada) [100K]": [
+    -80.25,
+    43.55
+  ],
+  "Cambridge (Canada) [100K]": [
+    -80.3114,
+    43.3972
+  ],
+  "Whitby (Canada) [100K]": [
+    -78.9417,
+    43.8833
+  ],
+  "Ajax (Canada) [100K]": [
+    -79.0364,
+    43.8583
+  ],
+  "Langley (Canada) [100K]": [
+    -122.5827,
+    49.1044
+  ],
+  "Saanich (Canada) [100K]": [
+    -123.381,
+    48.484
+  ],
+  "Terrebonne (Canada) [100K]": [
+    -73.6333,
+    45.7
+  ],
+  "Milton (Canada) [100K]": [
+    -79.8833,
+    43.5083
+  ],
+  "St. John's (Canada) [100K]": [
+    -52.7971,
+    47.4817
+  ],
+  "Moncton (Canada) [100K]": [
+    -64.7714,
+    46.1328
+  ],
+  "Thunder Bay (Canada) [100K]": [
+    -89.2461,
+    48.3822
+  ],
+  "Dieppe (Canada) [100K]": [
+    -64.7242,
+    46.0989
+  ],
+  "Waterloo (Canada) [100K]": [
+    -80.5167,
+    43.4667
+  ],
+  "Delta (Canada) [100K]": [
+    -123.0586,
+    49.0847
+  ],
+  "Chatham (Canada) [100K]": [
+    -82.1324,
+    42.4229
+  ],
+  "Red Deer (Canada) [100K]": [
+    -113.8111,
+    52.2681
+  ],
+  "Kamloops (Canada) [100K]": [
+    -120.3408,
+    50.6761
+  ],
+  "Newmarket (Canada) [10K]": [
+    -79.4667,
+    44.05
+  ],
+  "White Rock (Canada) [10K]": [
+    -122.8028,
+    49.025
+  ],
+  "New Westminster (Canada) [10K]": [
+    -122.9111,
+    49.2069
+  ],
+  "Port Coquitlam (Canada) [10K]": [
+    -122.7811,
+    49.2625
+  ],
+  "Dollard-des-Ormeaux (Canada) [10K]": [
+    -73.8167,
+    45.4833
+  ],
+  "Duncan (Canada) [10K]": [
+    -123.7079,
+    48.7787
+  ],
+  "Cote-Saint-Luc (Canada) [10K]": [
+    -73.6673,
+    45.4687
+  ],
+  "Sainte-Therese (Canada) [10K]": [
+    -73.85,
+    45.6333
+  ],
+  "Saint-Lambert (Canada) [10K]": [
+    -73.5167,
+    45.5
+  ],
+  "Kirkland (Canada) [10K]": [
+    -73.8667,
+    45.45
+  ],
+  "Westmount (Canada) [10K]": [
+    -73.6,
+    45.4833
+  ],
+  "Mont-Royal (Canada) [10K]": [
+    -73.6431,
+    45.5161
+  ],
+  "Sainte-Marthe-sur-le-Lac (Canada) [10K]": [
+    -73.93,
+    45.53
+  ],
+  "Esquimalt (Canada) [10K]": [
+    -123.4147,
+    48.4306
+  ],
+  "Deux-Montagnes (Canada) [10K]": [
+    -73.8833,
+    45.5333
+  ],
+  "L'Ancienne-Lorette (Canada) [10K]": [
+    -71.35,
+    46.8
+  ],
+  "Pincourt (Canada) [10K]": [
+    -73.9833,
+    45.3833
+  ],
+  "Sidney (Canada) [10K]": [
+    -123.3986,
+    48.6506
+  ],
+  "Bois-des-Filion (Canada) [1K]": [
+    -73.75,
+    45.6667
+  ],
+  "Brantford (Canada) [10K]": [
+    -80.25,
+    43.1667
+  ],
+  "Cape Breton (Canada) [10K]": [
+    -60.1931,
+    46.1389
+  ],
+  "Lethbridge (Canada) [10K]": [
+    -112.8328,
+    49.6942
+  ],
+  "Saint-Jean-sur-Richelieu (Canada) [10K]": [
+    -73.2667,
+    45.3167
+  ],
+  "Clarington (Canada) [10K]": [
+    -78.6083,
+    43.935
+  ],
+  "Pickering (Canada) [10K]": [
+    -79.089,
+    43.8354
+  ],
+  "Nanaimo (Canada) [10K]": [
+    -123.9364,
+    49.1642
+  ],
+  "Sudbury (Canada) [10K]": [
+    -81.01,
+    46.49
+  ],
+  "North Vancouver (Canada) [10K]": [
+    -123.0066,
+    49.3641
+  ],
+  "Brossard (Canada) [10K]": [
+    -73.45,
+    45.4667
+  ],
+  "Repentigny (Canada) [10K]": [
+    -73.4667,
+    45.7333
+  ],
+  "Chilliwack (Canada) [10K]": [
+    -121.9509,
+    49.1577
+  ],
+  "Maple Ridge (Canada) [10K]": [
+    -122.6,
+    49.2167
+  ],
+  "Peterborough (Canada) [10K]": [
+    -78.3167,
+    44.3
+  ],
+  "Kawartha Lakes (Canada) [10K]": [
+    -78.75,
+    44.35
+  ],
+  "Prince George (Canada) [10K]": [
+    -122.7494,
+    53.9169
+  ],
+  "Sault Ste. Marie (Canada) [10K]": [
+    -84.35,
+    46.5333
+  ],
+  "Sarnia (Canada) [10K]": [
+    -82.3089,
+    42.9994
+  ],
+  "Wood Buffalo (Canada) [10K]": [
+    -111.3284,
+    57.6042
+  ],
+  "Chateauguay (Canada) [10K]": [
+    -73.75,
+    45.38
+  ],
+  "Saint-Jerome (Canada) [10K]": [
+    -74.0,
+    45.7833
+  ],
+  "Drummondville (Canada) [10K]": [
+    -72.4833,
+    45.8833
+  ],
+  "Saint John (Canada) [10K]": [
+    -66.0761,
+    45.2806
+  ],
+  "Caledon (Canada) [10K]": [
+    -79.8667,
+    43.8667
+  ],
+  "St. Albert (Canada) [10K]": [
+    -113.6258,
+    53.6303
+  ],
+  "Granby (Canada) [10K]": [
+    -72.7333,
+    45.4
+  ],
+  "Medicine Hat (Canada) [10K]": [
+    -110.6775,
+    50.0417
+  ],
+  "Grande Prairie (Canada) [10K]": [
+    -118.7947,
+    55.1708
+  ],
+  "St. Thomas (Canada) [10K]": [
+    -81.1833,
+    42.775
+  ],
+  "Airdrie (Canada) [10K]": [
+    -114.0144,
+    51.2917
+  ],
+  "Halton Hills (Canada) [10K]": [
+    -79.95,
+    43.63
+  ],
+  "Saint-Hyacinthe (Canada) [10K]": [
+    -72.95,
+    45.6167
+  ],
+  "Lac-Brome (Canada) [10K]": [
+    -72.5167,
+    45.2167
+  ],
+  "Fredericton (Canada) [10K]": [
+    -66.6431,
+    45.9636
+  ],
+  "Blainville (Canada) [10K]": [
+    -73.88,
+    45.67
+  ],
+  "Aurora (Canada) [10K]": [
+    -79.4667,
+    44.0
+  ],
+  "Welland (Canada) [10K]": [
+    -79.2333,
+    42.9833
+  ],
+  "North Bay (Canada) [10K]": [
+    -79.45,
+    46.3
+  ],
+  "Beloeil (Canada) [10K]": [
+    -73.2,
+    45.5667
+  ],
+  "Belleville (Canada) [10K]": [
+    -77.3833,
+    44.1667
+  ],
+  "Mirabel (Canada) [10K]": [
+    -74.0833,
+    45.65
+  ],
+  "Shawinigan (Canada) [10K]": [
+    -72.75,
+    46.5667
+  ],
+  "Brandon (Canada) [10K]": [
+    -99.95,
+    49.8483
+  ],
+  "Rimouski (Canada) [10K]": [
+    -68.53,
+    48.45
+  ],
+  "Cornwall (Canada) [10K]": [
+    -74.74,
+    45.0275
+  ],
+  "Stouffville (Canada) [10K]": [
+    -79.25,
+    43.9667
+  ],
+  "Georgina (Canada) [10K]": [
+    -79.4333,
+    44.3
+  ],
+  "Victoriaville (Canada) [10K]": [
+    -71.9667,
+    46.05
+  ],
+  "Vernon (Canada) [10K]": [
+    -119.272,
+    50.267
+  ],
+  "Saint-Eustache (Canada) [10K]": [
+    -73.9,
+    45.57
+  ],
+  "Quinte West (Canada) [10K]": [
+    -77.5667,
+    44.1833
+  ],
+  "Charlottetown (Canada) [10K]": [
+    -63.1347,
+    46.2403
+  ],
+  "Mascouche (Canada) [10K]": [
+    -73.6,
+    45.75
+  ],
+  "West Vancouver (Canada) [10K]": [
+    -123.1667,
+    49.3667
+  ],
+  "Salaberry-de-Valleyfield (Canada) [10K]": [
+    -74.13,
+    45.25
+  ],
+  "Rouyn-Noranda (Canada) [10K]": [
+    -79.0167,
+    48.2333
+  ],
+  "Timmins (Canada) [10K]": [
+    -81.3333,
+    48.4667
+  ],
+  "Sorel-Tracy (Canada) [10K]": [
+    -73.1167,
+    46.0333
+  ],
+  "New Tecumseth (Canada) [10K]": [
+    -79.75,
+    44.0833
+  ],
+  "Woodstock (Canada) [10K]": [
+    -80.7467,
+    43.1306
+  ],
+  "Boucherville (Canada) [10K]": [
+    -73.45,
+    45.6
+  ],
+  "Mission (Canada) [10K]": [
+    -122.3112,
+    49.1337
+  ],
+  "Vaudreuil-Dorion (Canada) [10K]": [
+    -74.0333,
+    45.4
+  ],
+  "Brant (Canada) [10K]": [
+    -80.3667,
+    43.1167
+  ],
+  "Lakeshore (Canada) [10K]": [
+    -82.6511,
+    42.2399
+  ],
+  "Innisfil (Canada) [10K]": [
+    -79.5833,
+    44.3
+  ],
+  "Prince Albert (Canada) [10K]": [
+    -105.75,
+    53.2
+  ],
+  "Langford Station (Canada) [10K]": [
+    -123.5058,
+    48.4506
+  ],
+  "Bradford West Gwillimbury (Canada) [10K]": [
+    -79.6333,
+    44.1333
+  ],
+  "Campbell River (Canada) [10K]": [
+    -125.2475,
+    50.0244
+  ],
+  "Spruce Grove (Canada) [10K]": [
+    -113.9008,
+    53.545
+  ],
+  "Moose Jaw (Canada) [10K]": [
+    -105.5519,
+    50.3933
+  ],
+  "Penticton (Canada) [10K]": [
+    -119.5886,
+    49.4911
+  ],
+  "Port Moody (Canada) [10K]": [
+    -122.8317,
+    49.2831
+  ],
+  "Leamington (Canada) [10K]": [
+    -82.5833,
+    42.0667
+  ],
+  "East Kelowna (Canada) [10K]": [
+    -119.5833,
+    49.8625
+  ],
+  "Val-d'Or (Canada) [10K]": [
+    -77.7833,
+    48.1
+  ],
+  "Owen Sound (Canada) [10K]": [
+    -80.9333,
+    44.5667
+  ],
+  "Stratford (Canada) [1K]": [
+    -63.0893,
+    46.2167
+  ],
+  "Lloydminster (Canada) [10K]": [
+    -110.035,
+    53.2807
+  ],
+  "Pointe-Claire (Canada) [10K]": [
+    -73.8167,
+    45.45
+  ],
+  "Orillia (Canada) [10K]": [
+    -79.4167,
+    44.6
+  ],
+  "Alma (Canada) [10K]": [
+    -71.65,
+    48.55
+  ],
+  "Orangeville (Canada) [10K]": [
+    -80.1167,
+    43.9167
+  ],
+  "Fort Erie (Canada) [10K]": [
+    -79.0167,
+    42.9167
+  ],
+  "LaSalle (Canada) [10K]": [
+    -83.0667,
+    42.2167
+  ],
+  "Sainte-Julie (Canada) [10K]": [
+    -73.3333,
+    45.5833
+  ],
+  "Leduc (Canada) [10K]": [
+    -113.5492,
+    53.2594
+  ],
+  "North Cowichan (Canada) [10K]": [
+    -123.7192,
+    48.8236
+  ],
+  "Chambly (Canada) [10K]": [
+    -73.2873,
+    45.4311
+  ],
+  "Okotoks (Canada) [10K]": [
+    -113.975,
+    50.725
+  ],
+  "Sept-Iles (Canada) [10K]": [
+    -66.3833,
+    50.2167
+  ],
+  "Centre Wellington (Canada) [10K]": [
+    -80.3667,
+    43.7
+  ],
+  "Saint-Constant (Canada) [10K]": [
+    -73.57,
+    45.37
+  ],
+  "Grimsby (Canada) [10K]": [
+    -79.55,
+    43.2
+  ],
+  "Boisbriand (Canada) [10K]": [
+    -73.83,
+    45.62
+  ],
+  "Conception Bay South (Canada) [10K]": [
+    -52.9833,
+    47.5167
+  ],
+  "Saint-Bruno-de-Montarville (Canada) [10K]": [
+    -73.35,
+    45.5333
+  ],
+  "Cochrane (Canada) [10K]": [
+    -114.467,
+    51.189
+  ],
+  "Thetford Mines (Canada) [10K]": [
+    -71.3,
+    46.1
+  ],
+  "Courtenay (Canada) [10K]": [
+    -124.9944,
+    49.6878
+  ],
+  "Magog (Canada) [10K]": [
+    -72.15,
+    45.2667
+  ],
+  "Whitehorse (Canada) [10K]": [
+    -135.0691,
+    60.7029
+  ],
+  "Woolwich (Canada) [10K]": [
+    -80.4833,
+    43.5667
+  ],
+  "Clarence-Rockland (Canada) [10K]": [
+    -75.2,
+    45.4833
+  ],
+  "Fort Saskatchewan (Canada) [10K]": [
+    -113.2133,
+    53.7128
+  ],
+  "East Gwillimbury (Canada) [10K]": [
+    -79.4167,
+    44.1333
+  ],
+  "Lincoln (Canada) [10K]": [
+    -79.43,
+    43.13
+  ],
+  "La Prairie (Canada) [10K]": [
+    -73.5,
+    45.42
+  ],
+  "Tecumseh (Canada) [10K]": [
+    -82.9256,
+    42.2431
+  ],
+  "Mount Pearl Park (Canada) [10K]": [
+    -52.8058,
+    47.5189
+  ],
+  "Amherstburg (Canada) [10K]": [
+    -83.0833,
+    42.1
+  ],
+  "Brockville (Canada) [10K]": [
+    -75.6833,
+    44.5833
+  ],
+  "Collingwood (Canada) [10K]": [
+    -80.2167,
+    44.5
+  ],
+  "Scugog (Canada) [10K]": [
+    -78.936,
+    44.09
+  ],
+  "Kingsville (Canada) [10K]": [
+    -82.7167,
+    42.1
+  ],
+  "Baie-Comeau (Canada) [10K]": [
+    -68.15,
+    49.2167
+  ],
+  "Paradise (Canada) [10K]": [
+    -52.8667,
+    47.5333
+  ],
+  "Uxbridge (Canada) [10K]": [
+    -79.1333,
+    44.1167
+  ],
+  "Essa (Canada) [10K]": [
+    -79.7833,
+    44.25
+  ],
+  "Candiac (Canada) [10K]": [
+    -73.52,
+    45.38
+  ],
+  "Oro-Medonte (Canada) [10K]": [
+    -79.5833,
+    44.5667
+  ],
+  "Varennes (Canada) [10K]": [
+    -73.4333,
+    45.6833
+  ],
+  "Strathroy-Caradoc (Canada) [10K]": [
+    -81.6167,
+    42.9575
+  ],
+  "Wasaga Beach (Canada) [10K]": [
+    -80.0167,
+    44.5206
+  ],
+  "New Glasgow (Canada) [10K]": [
+    -62.6455,
+    45.5926
+  ],
+  "Wilmot (Canada) [10K]": [
+    -80.65,
+    43.4
+  ],
+  "Essex (Canada) [10K]": [
+    -82.9,
+    42.0833
+  ],
+  "Fort St. John (Canada) [10K]": [
+    -120.8476,
+    56.2465
+  ],
+  "L'Assomption (Canada) [10K]": [
+    -73.4167,
+    45.8333
+  ],
+  "Saint-Lazare (Canada) [10K]": [
+    -74.1333,
+    45.4
+  ],
+  "Chestermere (Canada) [10K]": [
+    -113.8225,
+    51.05
+  ],
+  "Huntsville (Canada) [10K]": [
+    -79.2167,
+    45.3333
+  ],
+  "Corner Brook (Canada) [10K]": [
+    -57.926,
+    48.9287
+  ],
+  "Riverview (Canada) [10K]": [
+    -64.8052,
+    46.0613
+  ],
+  "Joliette (Canada) [10K]": [
+    -73.45,
+    46.0167
+  ],
+  "Yellowknife (Canada) [10K]": [
+    -114.4053,
+    62.4709
+  ],
+  "Squamish (Canada) [10K]": [
+    -123.1589,
+    49.7017
+  ],
+  "Riviere-du-Loup (Canada) [10K]": [
+    -69.5333,
+    47.8333
+  ],
+  "Cobourg (Canada) [10K]": [
+    -78.1667,
+    43.9667
+  ],
+  "Cranbrook (Canada) [10K]": [
+    -115.7667,
+    49.5097
+  ],
+  "Beaconsfield (Canada) [10K]": [
+    -73.8667,
+    45.4333
+  ],
+  "Springwater (Canada) [10K]": [
+    -79.7333,
+    44.4333
+  ],
+  "Dorval (Canada) [10K]": [
+    -73.75,
+    45.45
+  ],
+  "Thorold (Canada) [10K]": [
+    -79.2,
+    43.1167
+  ],
+  "Camrose (Canada) [10K]": [
+    -112.8333,
+    53.0167
+  ],
+  "South Frontenac (Canada) [10K]": [
+    -76.4939,
+    44.5081
+  ],
+  "Pitt Meadows (Canada) [10K]": [
+    -122.6833,
+    49.2333
+  ],
+  "Port Colborne (Canada) [10K]": [
+    -79.25,
+    42.8833
+  ],
+  "Quispamsis (Canada) [10K]": [
+    -65.9462,
+    45.4322
+  ],
+  "Mont-Saint-Hilaire (Canada) [10K]": [
+    -73.1917,
+    45.5622
+  ],
+  "Bathurst (Canada) [10K]": [
+    -65.65,
+    47.62
+  ],
+  "Saint-Augustin-de-Desmaures (Canada) [10K]": [
+    -71.4667,
+    46.7333
+  ],
+  "Oak Bay (Canada) [10K]": [
+    -123.3228,
+    48.4264
+  ],
+  "Salmon Arm (Canada) [10K]": [
+    -119.2722,
+    50.7022
+  ],
+  "Port Alberni (Canada) [10K]": [
+    -124.805,
+    49.2339
+  ],
+  "Miramichi (Canada) [10K]": [
+    -65.5072,
+    47.0196
+  ],
+  "Niagara-on-the-Lake (Canada) [10K]": [
+    -79.0717,
+    43.2553
+  ],
+  "Saint-Lin--Laurentides (Canada) [10K]": [
+    -73.7667,
+    45.85
+  ],
+  "Beaumont (Canada) [10K]": [
+    -113.4147,
+    53.3572
+  ],
+  "Middlesex Centre (Canada) [10K]": [
+    -81.45,
+    43.05
+  ],
+  "Inverness (Canada) [10K]": [
+    -61.1,
+    46.2
+  ],
+  "Stony Plain (Canada) [10K]": [
+    -114.0069,
+    53.5264
+  ],
+  "Petawawa (Canada) [10K]": [
+    -77.2833,
+    45.9
+  ],
+  "Pelham (Canada) [10K]": [
+    -79.3333,
+    43.0333
+  ],
+  "Selwyn (Canada) [10K]": [
+    -78.3333,
+    44.4167
+  ],
+  "Loyalist (Canada) [10K]": [
+    -76.75,
+    44.25
+  ],
+  "Midland (Canada) [10K]": [
+    -79.8833,
+    44.75
+  ],
+  "Colwood (Canada) [10K]": [
+    -123.4958,
+    48.4236
+  ],
+  "Central Saanich (Canada) [10K]": [
+    -123.3839,
+    48.5142
+  ],
+  "Sainte-Catherine (Canada) [10K]": [
+    -73.58,
+    45.4
+  ],
+  "Port Hope (Canada) [10K]": [
+    -78.3,
+    43.95
+  ],
+  "Saint-Basile-le-Grand (Canada) [10K]": [
+    -73.2833,
+    45.5333
+  ],
+  "Swift Current (Canada) [10K]": [
+    -107.7939,
+    50.2881
+  ],
+  "Edmundston (Canada) [10K]": [
+    -68.3253,
+    47.3765
+  ],
+  "Russell (Canada) [10K]": [
+    -75.3583,
+    45.2569
+  ],
+  "North Grenville (Canada) [10K]": [
+    -75.65,
+    44.9667
+  ],
+  "Yorkton (Canada) [10K]": [
+    -102.4628,
+    51.2139
+  ],
+  "Tracadie (Canada) [10K]": [
+    -64.9101,
+    47.5124
+  ],
+  "Bracebridge (Canada) [10K]": [
+    -79.3,
+    45.0333
+  ],
+  "Greater Napanee (Canada) [10K]": [
+    -76.95,
+    44.25
+  ],
+  "Tillsonburg (Canada) [10K]": [
+    -80.7333,
+    42.8667
+  ],
+  "Steinbach (Canada) [10K]": [
+    -96.6839,
+    49.5258
+  ],
+  "Hanover (Canada) [10K]": [
+    -96.8492,
+    49.4433
+  ],
+  "Terrace (Canada) [10K]": [
+    -128.5997,
+    54.5164
+  ],
+  "Springfield (Canada) [10K]": [
+    -96.6939,
+    49.9292
+  ],
+  "Gaspe (Canada) [10K]": [
+    -64.4833,
+    48.8333
+  ],
+  "Kenora (Canada) [10K]": [
+    -94.4833,
+    49.7667
+  ],
+  "Cold Lake (Canada) [10K]": [
+    -110.1825,
+    54.4642
+  ],
+  "Summerside (Canada) [10K]": [
+    -63.7833,
+    46.4
+  ],
+  "Comox (Canada) [10K]": [
+    -124.9022,
+    49.6733
+  ],
+  "Sylvan Lake (Canada) [10K]": [
+    -114.0964,
+    52.3083
+  ],
+  "West Lincoln (Canada) [10K]": [
+    -79.5667,
+    43.0667
+  ],
+  "Matane (Canada) [10K]": [
+    -67.5333,
+    48.85
+  ],
+  "Brooks (Canada) [10K]": [
+    -111.8989,
+    50.5642
+  ],
+  "Sainte-Anne-des-Plaines (Canada) [10K]": [
+    -73.8204,
+    45.7617
+  ],
+  "West Nipissing / Nipissing Ouest (Canada) [10K]": [
+    -79.9167,
+    46.3667
+  ],
+  "Rosemere (Canada) [10K]": [
+    -73.8,
+    45.6369
+  ],
+  "Mistassini (Canada) [10K]": [
+    -72.2154,
+    48.8229
+  ],
+  "Grand Falls (Canada) [10K]": [
+    -55.6633,
+    48.9578
+  ],
+  "Clearview (Canada) [10K]": [
+    -80.0742,
+    44.3981
+  ],
+  "St. Clair (Canada) [10K]": [
+    -82.35,
+    42.7833
+  ],
+  "Canmore (Canada) [10K]": [
+    -115.359,
+    51.089
+  ],
+  "North Battleford (Canada) [10K]": [
+    -108.2861,
+    52.7575
+  ],
+  "Pembroke (Canada) [10K]": [
+    -77.1,
+    45.8167
+  ],
+  "Mont-Laurier (Canada) [10K]": [
+    -75.5,
+    46.55
+  ],
+  "Strathmore (Canada) [10K]": [
+    -113.4003,
+    51.0378
+  ],
+  "Saugeen Shores (Canada) [10K]": [
+    -81.3667,
+    44.4333
+  ],
+  "Thompson (Canada) [10K]": [
+    -97.8553,
+    55.7433
+  ],
+  "Lavaltrie (Canada) [10K]": [
+    -73.2833,
+    45.8833
+  ],
+  "High River (Canada) [10K]": [
+    -113.8744,
+    50.5808
+  ],
+  "Severn (Canada) [10K]": [
+    -79.5167,
+    44.75
+  ],
+  "Sainte-Sophie (Canada) [10K]": [
+    -73.9,
+    45.82
+  ],
+  "Saint-Charles-Borromee (Canada) [10K]": [
+    -73.4667,
+    46.05
+  ],
+  "Portage La Prairie (Canada) [10K]": [
+    -98.2919,
+    49.9728
+  ],
+  "Thames Centre (Canada) [10K]": [
+    -81.08,
+    43.03
+  ],
+  "Mississippi Mills (Canada) [10K]": [
+    -76.2,
+    45.2167
+  ],
+  "Powell River (Canada) [10K]": [
+    -124.5247,
+    49.8353
+  ],
+  "South Glengarry (Canada) [10K]": [
+    -74.5833,
+    45.2
+  ],
+  "North Perth (Canada) [10K]": [
+    -80.95,
+    43.73
+  ],
+  "Mercier (Canada) [10K]": [
+    -73.75,
+    45.32
+  ],
+  "South Stormont (Canada) [10K]": [
+    -74.9667,
+    45.0833
+  ],
+  "Saint-Colomban (Canada) [10K]": [
+    -74.13,
+    45.73
+  ],
+  "Lacombe (Canada) [10K]": [
+    -113.7369,
+    52.4683
+  ],
+  "Sooke (Canada) [10K]": [
+    -123.7378,
+    48.3761
+  ],
+  "Dawson Creek (Canada) [10K]": [
+    -120.2356,
+    55.7606
+  ],
+  "Lake Country (Canada) [10K]": [
+    -119.4142,
+    50.0833
+  ],
+  "Trent Hills (Canada) [10K]": [
+    -77.8514,
+    44.3142
+  ],
+  "Sainte-Marie (Canada) [10K]": [
+    -71.0333,
+    46.45
+  ],
+  "Guelph/Eramosa (Canada) [10K]": [
+    -80.22,
+    43.63
+  ],
+  "Truro (Canada) [10K]": [
+    -63.28,
+    45.3647
+  ],
+  "Amos (Canada) [10K]": [
+    -78.1167,
+    48.5667
+  ],
+  "The Nation / La Nation (Canada) [10K]": [
+    -75.0333,
+    45.35
+  ],
+  "Ingersoll (Canada) [10K]": [
+    -80.8836,
+    43.0392
+  ],
+  "Winkler (Canada) [10K]": [
+    -97.9397,
+    49.1817
+  ],
+  "Wetaskiwin (Canada) [10K]": [
+    -113.3769,
+    52.9694
+  ],
+  "Central Elgin (Canada) [10K]": [
+    -81.1,
+    42.7667
+  ],
+  "Lachute (Canada) [10K]": [
+    -74.3333,
+    45.65
+  ],
+  "West Grey (Canada) [10K]": [
+    -80.8167,
+    44.1833
+  ],
+  "Parksville (Canada) [10K]": [
+    -124.312,
+    49.315
+  ],
+  "Cowansville (Canada) [10K]": [
+    -72.75,
+    45.2
+  ],
+  "Becancour (Canada) [10K]": [
+    -72.4333,
+    46.3333
+  ],
+  "Gravenhurst (Canada) [10K]": [
+    -79.3667,
+    44.9167
+  ],
+  "Perth East (Canada) [10K]": [
+    -80.95,
+    43.47
+  ],
+  "Prince Rupert (Canada) [10K]": [
+    -130.3271,
+    54.3122
+  ],
+  "Prevost (Canada) [10K]": [
+    -74.08,
+    45.87
+  ],
+  "Sainte-Adele (Canada) [10K]": [
+    -74.13,
+    45.95
+  ],
+  "Kentville (Canada) [10K]": [
+    -64.4958,
+    45.0775
+  ],
+  "Beauharnois (Canada) [10K]": [
+    -73.87,
+    45.32
+  ],
+  "Les Iles-de-la-Madeleine (Canada) [10K]": [
+    -61.8667,
+    47.3833
+  ],
+  "Wellington North (Canada) [10K]": [
+    -80.57,
+    43.9
+  ],
+  "St. Andrews (Canada) [10K]": [
+    -96.9747,
+    50.27
+  ],
+  "Carleton Place (Canada) [10K]": [
+    -76.1333,
+    45.1333
+  ],
+  "Whistler (Canada) [10K]": [
+    -122.9544,
+    50.1208
+  ],
+  "Brighton (Canada) [10K]": [
+    -77.7642,
+    44.1222
+  ],
+  "Tiny (Canada) [10K]": [
+    -79.95,
+    44.6833
+  ],
+  "Gander (Canada) [10K]": [
+    -54.6089,
+    48.9569
+  ],
+  "Rothesay (Canada) [10K]": [
+    -65.9969,
+    45.3831
+  ],
+  "Brock (Canada) [10K]": [
+    -79.0833,
+    44.3167
+  ],
+  "Summerland (Canada) [10K]": [
+    -119.6778,
+    49.6006
+  ],
+  "Val-des-Monts (Canada) [10K]": [
+    -75.6667,
+    45.65
+  ],
+  "Tache (Canada) [10K]": [
+    -96.6736,
+    49.7081
+  ],
+  "Montmagny (Canada) [10K]": [
+    -70.55,
+    46.9833
+  ],
+  "Erin (Canada) [10K]": [
+    -80.0667,
+    43.7667
+  ],
+  "Kincardine (Canada) [10K]": [
+    -81.6333,
+    44.1667
+  ],
+  "North Dundas (Canada) [10K]": [
+    -75.35,
+    45.0833
+  ],
+  "Wellesley (Canada) [10K]": [
+    -80.7167,
+    43.55
+  ],
+  "Estevan (Canada) [10K]": [
+    -102.9861,
+    49.1392
+  ],
+  "North Saanich (Canada) [10K]": [
+    -123.42,
+    48.6142
+  ],
+  "Warman (Canada) [10K]": [
+    -106.5842,
+    52.3219
+  ],
+  "La Tuque (Canada) [10K]": [
+    -74.0528,
+    48.0652
+  ],
+  "Norwich (Canada) [10K]": [
+    -80.6,
+    42.9833
+  ],
+  "Meaford (Canada) [10K]": [
+    -80.73,
+    44.58
+  ],
+  "Adjala-Tosorontio (Canada) [10K]": [
+    -79.9333,
+    44.1333
+  ],
+  "Hamilton Township (Canada) [10K]": [
+    -78.2164,
+    44.054
+  ],
+  "St. Clements (Canada) [10K]": [
+    -96.6742,
+    50.2689
+  ],
+  "Saint-Amable (Canada) [10K]": [
+    -73.3,
+    45.65
+  ],
+  "Weyburn (Canada) [10K]": [
+    -103.8525,
+    49.6611
+  ],
+  "South Dundas (Canada) [10K]": [
+    -75.2667,
+    44.9167
+  ],
+  "L'Ile-Perrot (Canada) [10K]": [
+    -73.95,
+    45.3833
+  ],
+  "Notre-Dame-de-l'Ile-Perrot (Canada) [10K]": [
+    -73.9333,
+    45.3667
+  ],
+  "Williams Lake (Canada) [10K]": [
+    -122.1383,
+    52.1294
+  ],
+  "Elliot Lake (Canada) [10K]": [
+    -82.65,
+    46.3833
+  ],
+  "Cantley (Canada) [10K]": [
+    -75.7833,
+    45.5667
+  ],
+  "Nelson (Canada) [10K]": [
+    -117.2833,
+    49.5
+  ],
+  "Lambton Shores (Canada) [10K]": [
+    -81.9,
+    43.1833
+  ],
+  "Mapleton (Canada) [10K]": [
+    -80.6681,
+    43.7358
+  ],
+  "Georgian Bluffs (Canada) [10K]": [
+    -81.0333,
+    44.65
+  ],
+  "Rawdon (Canada) [10K]": [
+    -73.7167,
+    46.05
+  ],
+  "Campbellton (Canada) [10K]": [
+    -66.6731,
+    48.005
+  ],
+  "View Royal (Canada) [10K]": [
+    -123.4339,
+    48.4517
+  ],
+  "Coldstream (Canada) [10K]": [
+    -119.2481,
+    50.22
+  ],
+  "Chester (Canada) [10K]": [
+    -64.3,
+    44.65
+  ],
+  "Queens (Canada) [10K]": [
+    -64.7167,
+    44.0333
+  ],
+  "Selkirk (Canada) [10K]": [
+    -96.8839,
+    50.1436
+  ],
+  "Saint-Felicien (Canada) [10K]": [
+    -72.45,
+    48.65
+  ],
+  "Hawkesbury (Canada) [10K]": [
+    -74.6,
+    45.6
+  ],
+  "Roberval (Canada) [10K]": [
+    -72.23,
+    48.52
+  ],
+  "Sainte-Agathe-des-Monts (Canada) [10K]": [
+    -74.28,
+    46.05
+  ],
+  "North Dumfries (Canada) [10K]": [
+    -80.38,
+    43.32
+  ],
+  "Rideau Lakes (Canada) [10K]": [
+    -76.2167,
+    44.6667
+  ],
+  "Sechelt (Canada) [10K]": [
+    -123.7542,
+    49.4742
+  ],
+  "North Glengarry (Canada) [10K]": [
+    -74.7333,
+    45.3333
+  ],
+  "South Huron (Canada) [10K]": [
+    -81.5,
+    43.32
+  ],
+  "Marieville (Canada) [10K]": [
+    -73.1667,
+    45.4333
+  ],
+  "Tay (Canada) [10K]": [
+    -79.7667,
+    44.7167
+  ],
+  "Temiskaming Shores (Canada) [1K]": [
+    -79.6833,
+    47.5167
+  ],
+  "Hinton (Canada) [1K]": [
+    -117.5639,
+    53.4114
+  ],
+  "Saint-Sauveur (Canada) [1K]": [
+    -74.17,
+    45.9
+  ],
+  "Quesnel (Canada) [1K]": [
+    -122.4927,
+    52.9784
+  ],
+  "Elizabethtown-Kitley (Canada) [1K]": [
+    -75.8833,
+    44.7
+  ],
+  "Morinville (Canada) [1K]": [
+    -113.6497,
+    53.8022
+  ],
+  "Grey Highlands (Canada) [1K]": [
+    -80.5,
+    44.3333
+  ],
+  "Alfred and Plantagenet (Canada) [1K]": [
+    -74.9167,
+    45.5667
+  ],
+  "Mont-Tremblant (Canada) [1K]": [
+    -74.6,
+    46.1167
+  ],
+  "Martensville (Canada) [1K]": [
+    -106.6667,
+    52.2897
+  ],
+  "Saint-Raymond (Canada) [1K]": [
+    -71.8333,
+    46.9
+  ],
+  "Amherst (Canada) [1K]": [
+    -64.2167,
+    45.8167
+  ],
+  "Ramara (Canada) [1K]": [
+    -79.2167,
+    44.6333
+  ],
+  "Leeds and the Thousand Islands (Canada) [1K]": [
+    -76.08,
+    44.45
+  ],
+  "Carignan (Canada) [1K]": [
+    -73.3,
+    45.45
+  ],
+  "Brockton (Canada) [1K]": [
+    -81.2167,
+    44.1667
+  ],
+  "Laurentian Valley (Canada) [1K]": [
+    -77.2239,
+    45.7681
+  ],
+  "East St. Paul (Canada) [1K]": [
+    -97.0103,
+    49.9772
+  ],
+  "Lorraine (Canada) [1K]": [
+    -73.7833,
+    45.6833
+  ],
+  "Sainte-Julienne (Canada) [1K]": [
+    -73.72,
+    45.97
+  ],
+  "Blackfalds (Canada) [1K]": [
+    -113.8,
+    52.3833
+  ],
+  "Malahide (Canada) [1K]": [
+    -80.9361,
+    42.7928
+  ],
+  "Oromocto (Canada) [1K]": [
+    -66.4788,
+    45.8488
+  ],
+  "Olds (Canada) [1K]": [
+    -114.1067,
+    51.7928
+  ],
+  "Huron East (Canada) [1K]": [
+    -81.28,
+    43.63
+  ],
+  "Stanley (Canada) [1K]": [
+    -98.0656,
+    49.1331
+  ],
+  "Penetanguishene (Canada) [1K]": [
+    -79.9333,
+    44.7667
+  ],
+  "Qualicum Beach (Canada) [1K]": [
+    -124.4333,
+    49.35
+  ],
+  "Notre-Dame-des-Prairies (Canada) [1K]": [
+    -73.4333,
+    46.05
+  ],
+  "West Perth (Canada) [1K]": [
+    -81.2,
+    43.47
+  ],
+  "Cavan Monaghan (Canada) [1K]": [
+    -78.4667,
+    44.2
+  ],
+  "Arnprior (Canada) [1K]": [
+    -76.35,
+    45.4333
+  ],
+  "Smiths Falls (Canada) [1K]": [
+    -76.0167,
+    44.9
+  ],
+  "Pont-Rouge (Canada) [1K]": [
+    -71.7,
+    46.75
+  ],
+  "Champlain (Canada) [1K]": [
+    -74.65,
+    45.5333
+  ],
+  "Coaticook (Canada) [1K]": [
+    -71.8,
+    45.1333
+  ],
+  "Minto (Canada) [1K]": [
+    -80.8667,
+    43.9167
+  ],
+  "Morden (Canada) [1K]": [
+    -98.1006,
+    49.1919
+  ],
+  "Mono (Canada) [1K]": [
+    -80.0667,
+    44.0167
+  ],
+  "Ladysmith (Canada) [1K]": [
+    -123.8203,
+    48.9975
+  ],
+  "Bridgewater (Canada) [1K]": [
+    -64.52,
+    44.37
+  ],
+  "Corman Park No. 344 (Canada) [1K]": [
+    -106.8002,
+    52.2291
+  ],
+  "Iqaluit (Canada) [1K]": [
+    -68.5107,
+    63.7598
+  ]
+}
