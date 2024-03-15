@@ -14,6 +14,6 @@ const { course } = Astro.props;
     <div class="flex flex-wrap gap-1 mt-1">{course.related?.map((r: string) => <Related text={r}/>)}</div>
   </div>
   <div class="ms-auto grid place-items-center my-auto">
-    <Image src={course.imgPath} alt={course.title} width="50" height="50" class="aspect-square object-contain bg-white ms-6"/>
+    <Image src={course.imgPath} alt={course.title} width="50" height="50" class="aspect-square object-contain bg-white ms-6 rounded-lg"/>
   </div>
 </div>
