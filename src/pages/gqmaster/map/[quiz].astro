@@ -5,6 +5,7 @@ import Location from "../../../components/gqmaster/map/Location";
 import mrtData from "../../../data/gqmaster/map/mrt.json";
 import schoolsData from "../../../data/gqmaster/map/schools.json";
 import busStopData from "../../../data/gqmaster/map/bus-stops.json";
+import londonUndergroundData from "../../../data/gqmaster/map/london-underground.json";
 import citiesData from "../../../data/gqmaster/map/cities.json";
 import japanCitiesData from "../../../data/gqmaster/map/japan-cities.json";
 import franceCitiesData from "../../../data/gqmaster/map/france-cities.json";
@@ -49,6 +50,15 @@ export async function getStaticPaths() {
         data: busStopData,
         instructions: "How many bus stops in Singapore can you name? As you answer, the marker will disappear. Use regex to select the bus stops you want included in the quiz (e.g. 'BUS126' if you only want bus stops with Bus 126 passing through, 'ang' if you only want bus stops containing 'ang'). You get 4 seconds for every possible answer. Good luck!",
         defaultRegex: 'Sengkang'
+      }
+    },
+    {
+      params: { quiz: 'london-underground' },
+      props: {
+        title: "London Underground Stations",
+        data: londonUndergroundData,
+        instructions: "How many London Underground stations can you name? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (e.g. 'Bakerloo' if you only want Bakerloo line stations, 'oo' if you only want stations containing 'oo'). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
       }
     },
     {
