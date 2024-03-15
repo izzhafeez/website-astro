@@ -25,6 +25,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@sentry/astro": "^7.107.0",
     "@spotlightjs/astro": "^1.0.14",
     "@types/alpinejs": "^3.13.6",
     "@types/react": "^18.2.64",
