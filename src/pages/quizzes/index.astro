@@ -7,9 +7,29 @@ import Hero from '../../components/common/Hero.astro';
 import homeJson from '../../data/home.json';
 import { capitalise } from '../../utils/string';
 import MediumCard from '../../components/common/MediumCard.astro';
+import { AstroSeo } from "@astrolib/seo";
 
 const heroText = homeJson.quizzes.heroText;
 ---
+<AstroSeo
+  title={"Quizzes | Izz Hafeez"}
+  description={heroText}
+  canonical={`https://izzhafeez.com/quizzes`}
+  openGraph={{
+    title: "Quizzes | Izz Hafeez",
+    description: heroText,
+    url: `https://izzhafeez.com/quizzes`,
+    type: "website",
+    images: [
+      {
+        url: `/img/heroes/QUIZZES.jpg`,
+        width: 800,
+        height: 600,
+        alt: "Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 <Layout>
   <div slot="main" class="">
     <NavBar/>
