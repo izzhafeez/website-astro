@@ -1,0 +1,10 @@
+{
+  "map": {
+    "title": "map quizzes",
+    "heroText": "Here are my map quizzes, powered by OpenLayers. As you answer, the marker will disappear. Use regex to select the locations you want to include in the quiz."
+  },
+  "streak": {
+    "title": "streak quizzes",
+    "heroText": "Guess the answer based on the prompt! Try to get the highest streak that you can. You can use regex to select the prompts you want to include in the quiz."
+  }
+}
