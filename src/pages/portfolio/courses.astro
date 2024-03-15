@@ -55,10 +55,10 @@ const heroText = portfolioData.courses.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar client:load/>
+    <NavBar/>
     <Hero label="COURSES" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
-      {courses.map(course => <CoursePreview client:visible course={course}/>)}
+      {courses.map(course => <CoursePreview course={course}/>)}
     </section>
     <Footer color="ew"/>
   </div>

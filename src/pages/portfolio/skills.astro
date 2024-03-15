@@ -29,10 +29,10 @@ const heroText = portfolioData.skills.heroText;
 ---
 <Layout>
   <div slot="main" class="">
-    <NavBar client:load/>
+    <NavBar/>
     <Hero label="SKILLS" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 3xl:grid-cols-6 gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
-      {skills.map(skill => <SkillPreview client:visible skill={skill}/>)}
+      {skills.map(skill => <SkillPreview  skill={skill}/>)}
     </section>
     <Footer color="ew"/>
   </div>

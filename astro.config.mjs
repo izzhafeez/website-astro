@@ -4,7 +4,6 @@ import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
 import metaTags from "astro-meta-tags";
 import sitemap from "@astrojs/sitemap";
-import sentry from "@sentry/astro";
 import spotlightjs from "@spotlightjs/astro";
 import svelte from "@astrojs/svelte";
 import netlify from "@astrojs/netlify";
@@ -12,9 +11,10 @@ import alpine from "@astrojs/alpinejs";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine()],
+  integrations: [react(), tailwind(), metaTags(), sitemap(), spotlightjs(), vue(), svelte(), alpine()],
   output: "hybrid",
   adapter: netlify(),
-  site: "https://izzhafeez.github.io",
+  // site: "https://izzhafeez-astro.netlify.app",
+  // site: "https://izzhafeez.github.io",
   // base: "/website-astro"
 });
