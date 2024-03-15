@@ -2,15 +2,14 @@
 import { capitalise } from '../../utils/string';
 import ThemeIcon from './ThemeIcon.astro';
 type Option = { href:string, label:string };
-// const pathName = Astro.url.pathname;
-// const path = typeof(pathName) === 'string' ? pathName.split('/') : []; 
-const path: string[] = [];
+const pathName = Astro.url.pathname;
+const path = typeof(pathName) === 'string' ? pathName.split('/') : []; 
 
 function getOptions() {
   if (path.length < 3) {
     return [
       { href: '/portfolio', label: 'portfolio' },
-      { href: '/gqmaster', label: 'GQMaster'}
+      { href: '/quizzes', label: 'quizzes'}
     ]
   }
 
@@ -26,10 +25,10 @@ function getOptions() {
         { href: '/portfolio/projects', label: 'projects' },
         { href: '/portfolio/skills', label: 'skills' },
       ];
-    case 'gqmaster': 
+    case 'quizzes': 
       return [
-        { href: '/gqmaster/map', label: 'map' },
-        { href: '/gqmaster/streak', label: 'streak' }
+        { href: '/quizzes/map', label: 'map' },
+        { href: '/quizzes/streak', label: 'streak' }
       ];
   }
 
@@ -44,7 +43,7 @@ function getHref() {
 function getLabel(href: string) {
   switch (href) {
     case 'portfolio': return 'Portfolio';
-    case 'gqmaster': return 'GQMaster';
+    case 'quizzes': return 'Quizzes';
   }
 }
 
@@ -57,7 +56,7 @@ function getHoverColor() {
   switch (site) {
     case 'portfolio': 
       return 'hover:bg-ew-500/20 dark:hover:bg-ew-300/20';
-    case 'gqmaster': 
+    case 'quizzes': 
       return 'hover:bg-ns-500/20 dark:hover:bg-ns-300/20';
     default:
       return 'hover:bg-gray-500/20 dark:hover:bg-gray-300/20';
