@@ -5,7 +5,7 @@
   },
   "place-names": {
     "title": "Place Names",
-    "instructions": "Guess the place name based on the given prompt."
+    "instructions": "Guess the place name based its translation in a different language."
   },
   "nus-mods": {
     "title": "NUS Modules",
