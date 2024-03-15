@@ -8,12 +8,11 @@ import spotlightjs from "@spotlightjs/astro";
 import svelte from "@astrojs/svelte";
 import netlify from "@astrojs/netlify";
 import alpine from "@astrojs/alpinejs";
-
 import sentry from "@sentry/astro";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind(), metaTags(), sitemap(), spotlightjs(), vue(), svelte(), alpine(), sentry()],
+  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine()],
   output: "hybrid",
   adapter: netlify(),
   site: "https://izzhafeez-astro.netlify.app"
