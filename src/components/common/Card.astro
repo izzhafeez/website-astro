@@ -1,5 +1,5 @@
 ---
-const { key, value, site } = Astro.props;
+const { href, title, heroText, site, key } = Astro.props;
 
 let bg = "bg-lrt-700/50 group-hover:bg-lrt-700/80 hover:border-lrt-300";
 let textColor = "group-hover:text-lrt-300";
@@ -14,9 +14,9 @@ switch (site) {
     break;
 }
 ---
-<a transition:name={key} href={`/${site}/${key}`} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key.toUpperCase()}.jpg');`}>
+<a transition:name={title} role="button" href={href} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key}.jpg');`}>
   <div class={`${bg} border-[1px] border-white/0 h-80 overflow-clip grid content-center text-center p-8`}>
-    <h1 class={`font-extrabold text-5xl text-white ${textColor}`}>{key.toUpperCase()}</h1>
-    <p class="text-white max-w-lg mx-auto">{value.heroText}</p>
+    <h1 class={`font-extrabold text-5xl text-white ${textColor}`}>{title.toUpperCase()}</h1>
+    <p class="text-white max-w-lg mx-auto">{heroText}</p>
   </div>
 </a>
