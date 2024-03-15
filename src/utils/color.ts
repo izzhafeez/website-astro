@@ -164,6 +164,39 @@ const colors: { [key: string]: { [key2: number]: string } } = {
     800: '#2E3939',
     900: '#171C1C',
   },
+  dis: {
+    500: "#007A30"
+  },
+  pic: {
+    500: "#0019A1"
+  },
+  met: {
+    500: "#880753"
+  },
+  cir: {
+    500: "#FFCE00"
+  },
+  ham: {
+    500: "#ED9DAE"
+  },
+  nor: {
+    500: "#000000"
+  },
+  bak: {
+    500: "#A85A25"
+  },
+  jub: {
+    500: "#7C878E"
+  },
+  wat:{
+    500: "#6CCEB4"
+  },
+  cen: {
+    500: "#E22015"
+  },
+  vic: {
+    500: "#00A1E0"
+  }
 }
 
 const getColor = (colorCode: string) => {
