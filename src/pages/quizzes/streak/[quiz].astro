@@ -1,0 +1,91 @@
+---
+import placeNameData from "../../../data/quizzes/streak/place-names.json";
+import awsProductsData from "../../../data/quizzes/streak/aws-products.json";
+import helloWorldData from "../../../data/quizzes/streak/hello-world.json";
+import nusModsData from "../../../data/quizzes/streak/nus-mods.json";
+import ntuModsData from "../../../data/quizzes/streak/ntu-mods.json";
+import StreakQuiz from "../../../components/quizzes/streak/StreakQuiz.svelte";
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import { fullSanitise } from "../../../utils/string";
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { quiz: 'aws-products' },
+      props: {
+        title: "AWS Products",
+        data: awsProductsData,
+        instructions: "Guess the AWS product based on the given prompt. Answers are case and space-insensitive. Use regex to choose what products you would like to include in the quiz (e.g. 'am' will match products like 'AWS Lambda' and 'AWS GameKit'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'hello-world' },
+      props: {
+        title: "Hello World",
+        data: helloWorldData,
+        instructions: "Guess the language based on the its translation of 'Hello World'. Answers are case and space-insensitive. Use regex to choose what programming languages you would like to include in the quiz (e.g. 'java' will match languages like 'Java' and 'JavaScript'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'place-names' },
+      props: {
+        title: "Place Names",
+        data: placeNameData,
+        instructions: "Guess the place name based on the given prompt. Answers are case and space-insensitive. Use regex to choose what place names you would like to include in the quiz (e.g. 'Japan' will include all Japan, 'Local' will include all endonyms, 'Chinese' to get all chinese translations of place names). Just try out the regex and see for yourself! Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'nus-mods' },
+      props: {
+        title: "NUS Mods",
+        data: nusModsData,
+        instructions: "Guess the NUS module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (e.g. 'CS' will match modules like 'CS1231S' and 'CS2100'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'ntu-mods' },
+      props: {
+        title: "NTU Mods",
+        data: ntuModsData,
+        instructions: "Guess the NTU module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (e.g. 'CS' will match modules like 'CS1231S' and 'CS2100'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    }
+  ];
+};
+
+export const prerender = true;
+const { data } = Astro.props;
+
+type Answer = { prompt: string, fullTerm: string, id: number };
+const answerDict: {[k: string]: Answer[]} = {};
+const answerList: { answer: string, prompt: string }[] = [];
+
+let id = 0;
+for (const [k, v] of Object.entries(data)) {
+  const { key, cleanText } = fullSanitise(k);
+  if (!(key in answerDict)) answerDict[key] = [];
+  answerList.push({ answer: cleanText, prompt: v});
+  answerDict[key].push({ fullTerm: k, prompt: v, id });
+  id += 1;
+}
+---
+<Layout>
+  <div slot="main">
+    <NavBar transition:persist/>
+    <div class="max-w-6xl mx-auto">
+      <div class="p-2">
+        <h1 class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
+        <p class="text-gray-500 ">{Astro.props.instructions}</p>
+      </div>
+      <StreakQuiz client:only="svelte" answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''}/>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </div>
+</Layout>
