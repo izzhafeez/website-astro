@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Footer from '../../components/common/Footer.astro';
+import quizzesData from '../../data/quizzes/quizzes.json';
+import Hero from '../../components/common/Hero.astro';
+import homeJson from '../../data/home.json';
+import { capitalise } from '../../utils/string';
+import MediumCard from '../../components/common/MediumCard.astro';
+
+const heroText = homeJson.quizzes.heroText;
+---
+<Layout>
+  <div slot="main" class="">
+    <NavBar/>
+    <Hero label="QUIZZES" text={heroText} site="quizzes"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
+    </section>
+    <Footer color="ns"/>
+  </div>
+</Layout>
