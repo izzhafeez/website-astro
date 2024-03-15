@@ -14,7 +14,7 @@ export default defineConfig({
   integrations: [react(), tailwind(), metaTags(), sitemap(), spotlightjs(), vue(), svelte(), alpine()],
   output: "hybrid",
   adapter: netlify(),
-  // site: "https://izzhafeez-astro.netlify.app",
+  site: "https://izzhafeez-astro.netlify.app",
   // site: "https://izzhafeez.github.io",
   // base: "/website-astro"
 });
