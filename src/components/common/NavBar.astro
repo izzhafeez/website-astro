@@ -4,6 +4,7 @@ import ThemeIcon from './ThemeIcon.astro';
 type Option = { href:string, label:string };
 const pathName = Astro.url.pathname;
 const path = typeof(pathName) === 'string' ? pathName.split('/') : []; 
+const { opacity } = Astro.props;
 
 function getOptions() {
   if (path.length < 3) {
@@ -28,7 +29,8 @@ function getOptions() {
     case 'quizzes': 
       return [
         { href: '/quizzes/map', label: 'map' },
-        { href: '/quizzes/streak', label: 'streak' }
+        { href: '/quizzes/streak', label: 'streak' },
+        { href: '/quizzes/compare', label: 'compare'}
       ];
   }
 
@@ -70,7 +72,7 @@ const options: Option[] = getOptions();
 ---
 <div>
   <div class="h-20"></div>
-  <nav class="backdrop-blur-xl border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen fixed" transition:name="nav-bar">
+  <nav class={`${!opacity && 'backdrop-blur-xl'} border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen fixed`} transition:name="nav-bar">
     <div class="text-white p-4 flex gap-4">
       <a href="/" class="w-10">
         <img src="/img/desmosito-black-trans.png" class="h-10 dark:invert"/>
