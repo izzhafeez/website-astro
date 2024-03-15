@@ -2,7 +2,7 @@
   "portfolio": {
     "heroText": "Check out some of the things I've made and the experiences I've gained over the years!"
   },
-  "gqmaster": {
-    "heroText": "Welcome to GQMaster! Hope you enjoy the Games and Quizzes that I've created for you!"
+  "quizzes": {
+    "heroText": "Hope you enjoy the Quizzes that I've created for you!"
   }
 }
