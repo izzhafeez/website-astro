@@ -26,7 +26,6 @@
     }
     var imgSrc;
     const scorePercentage = score / totalScore;
-    console.log(imgSrc, scorePercentage, score, totalScore);
     if (scorePercentage > 1) {
       imgSrc = "perfect";
     } else if (scorePercentage > 0.95) {
