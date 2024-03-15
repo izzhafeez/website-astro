@@ -1,0 +1,4550 @@
+{
+  "Paris (France) [10M]": [
+    2.3522,
+    48.8567
+  ],
+  "Marseille (France) [100K]": [
+    5.37,
+    43.2964
+  ],
+  "Lyon (France) [100K]": [
+    4.84,
+    45.76
+  ],
+  "Toulouse (France) [100K]": [
+    1.444,
+    43.6045
+  ],
+  "Nice (France) [100K]": [
+    7.2663,
+    43.7034
+  ],
+  "Nantes (France) [100K]": [
+    -1.5528,
+    47.2181
+  ],
+  "Montpellier (France) [100K]": [
+    3.8772,
+    43.6119
+  ],
+  "Strasbourg (France) [100K]": [
+    7.7458,
+    48.5833
+  ],
+  "Bordeaux (France) [100K]": [
+    -0.58,
+    44.84
+  ],
+  "Lille (France) [100K]": [
+    3.0583,
+    50.6278
+  ],
+  "Rennes (France) [100K]": [
+    -1.6794,
+    48.1147
+  ],
+  "Reims (France) [100K]": [
+    4.0347,
+    49.2628
+  ],
+  "Toulon (France) [100K]": [
+    5.9306,
+    43.1258
+  ],
+  "Saint-Etienne (France) [100K]": [
+    4.3903,
+    45.4347
+  ],
+  "Le Havre (France) [100K]": [
+    0.1,
+    49.49
+  ],
+  "Grenoble (France) [100K]": [
+    5.7224,
+    45.1715
+  ],
+  "Villeurbanne (France) [100K]": [
+    4.8803,
+    45.7667
+  ],
+  "Dijon (France) [100K]": [
+    5.0167,
+    47.3167
+  ],
+  "Angers (France) [100K]": [
+    -0.5542,
+    47.4736
+  ],
+  "Clermont-Ferrand (France) [100K]": [
+    3.0824,
+    45.7831
+  ],
+  "Nimes (France) [100K]": [
+    4.361,
+    43.838
+  ],
+  "Le Mans (France) [100K]": [
+    0.1984,
+    48.0077
+  ],
+  "Aix-en-Provence (France) [100K]": [
+    5.4454,
+    43.5263
+  ],
+  "Brest (France) [100K]": [
+    -4.49,
+    48.39
+  ],
+  "Boulogne-Billancourt (France) [100K]": [
+    2.2409,
+    48.8352
+  ],
+  "Tours (France) [100K]": [
+    0.6892,
+    47.3936
+  ],
+  "Amiens (France) [100K]": [
+    2.299,
+    49.892
+  ],
+  "Limoges (France) [100K]": [
+    1.2625,
+    45.8353
+  ],
+  "Annecy (France) [100K]": [
+    6.133,
+    45.916
+  ],
+  "Montreuil (France) [100K]": [
+    2.4436,
+    48.8611
+  ],
+  "Saint-Denis (France) [100K]": [
+    2.3539,
+    48.9356
+  ],
+  "Metz (France) [100K]": [
+    6.1778,
+    49.1203
+  ],
+  "Perpignan (France) [100K]": [
+    2.8956,
+    42.6986
+  ],
+  "Orleans (France) [100K]": [
+    1.909,
+    47.9025
+  ],
+  "Besancon (France) [100K]": [
+    6.02,
+    47.24
+  ],
+  "Rouen (France) [100K]": [
+    1.0886,
+    49.4428
+  ],
+  "Argenteuil (France) [100K]": [
+    2.25,
+    48.95
+  ],
+  "Mulhouse (France) [100K]": [
+    7.34,
+    47.75
+  ],
+  "Nancy (France) [100K]": [
+    6.1846,
+    48.6936
+  ],
+  "Caen (France) [100K]": [
+    -0.37,
+    49.18
+  ],
+  "Courbevoic (France) [10K]": [
+    2.2531,
+    48.8978
+  ],
+  "Roubaix (France) [10K]": [
+    3.1817,
+    50.6901
+  ],
+  "Tourcoing (France) [10K]": [
+    3.1612,
+    50.7239
+  ],
+  "Nanterre (France) [10K]": [
+    2.1969,
+    48.8988
+  ],
+  "Vitry-sur-Seine (France) [10K]": [
+    2.3928,
+    48.7875
+  ],
+  "Creteil (France) [10K]": [
+    2.4628,
+    48.7911
+  ],
+  "Aubervilliers (France) [10K]": [
+    2.3831,
+    48.9131
+  ],
+  "Colombes (France) [10K]": [
+    2.2522,
+    48.9236
+  ],
+  "Levallois-Perret (France) [10K]": [
+    2.2872,
+    48.895
+  ],
+  "Aulnay-sous-Bois (France) [10K]": [
+    2.4906,
+    48.9386
+  ],
+  "Poitiers (France) [10K]": [
+    0.34,
+    46.58
+  ],
+  "Versailles (France) [10K]": [
+    2.135,
+    48.8053
+  ],
+  "Clichy (France) [10K]": [
+    2.3064,
+    48.9044
+  ],
+  "Issy-les-Moulineaux (France) [10K]": [
+    2.27,
+    48.8239
+  ],
+  "Champigny-sur-Marne (France) [10K]": [
+    2.5156,
+    48.8172
+  ],
+  "Rueil-Malmaison (France) [10K]": [
+    2.181,
+    48.876
+  ],
+  "Saint-Maur-des-Fosses (France) [10K]": [
+    2.4997,
+    48.7994
+  ],
+  "Drancy (France) [10K]": [
+    2.45,
+    48.93
+  ],
+  "La Rochelle (France) [10K]": [
+    -1.15,
+    46.16
+  ],
+  "Pau (France) [10K]": [
+    -0.37,
+    43.3
+  ],
+  "Cannes (France) [10K]": [
+    7.0128,
+    43.5513
+  ],
+  "Montrouge (France) [10K]": [
+    2.3219,
+    48.8172
+  ],
+  "Antibes (France) [10K]": [
+    7.1239,
+    43.5808
+  ],
+  "Vincennes (France) [10K]": [
+    2.4392,
+    48.8478
+  ],
+  "Calais (France) [10K]": [
+    1.8564,
+    50.9481
+  ],
+  "Ivry-sur-Seine (France) [10K]": [
+    2.3747,
+    48.8078
+  ],
+  "Neuilly-sur-Seine (France) [10K]": [
+    2.2686,
+    48.8881
+  ],
+  "Noisy-le-Grand (France) [10K]": [
+    2.5528,
+    48.8478
+  ],
+  "Ajaccio (France) [10K]": [
+    8.7369,
+    41.9267
+  ],
+  "Cergy (France) [10K]": [
+    2.0631,
+    49.0361
+  ],
+  "Pantin (France) [10K]": [
+    2.4017,
+    48.8966
+  ],
+  "Venissieux (France) [10K]": [
+    4.8867,
+    45.6978
+  ],
+  "Antony (France) [10K]": [
+    2.2975,
+    48.7539
+  ],
+  "Maisons-Alfort (France) [10K]": [
+    2.4378,
+    48.8058
+  ],
+  "Epinay-sur-Seine (France) [10K]": [
+    2.3092,
+    48.9553
+  ],
+  "Troyes (France) [10K]": [
+    4.0792,
+    48.2997
+  ],
+  "Sarcelles (France) [10K]": [
+    2.3808,
+    48.9956
+  ],
+  "La Seyne-sur-Mer (France) [10K]": [
+    5.883,
+    43.1
+  ],
+  "Villejuif (France) [10K]": [
+    2.3636,
+    48.7919
+  ],
+  "Cherbourg (France) [10K]": [
+    -1.6,
+    49.6333
+  ],
+  "Le Blanc-Mesnil (France) [10K]": [
+    2.4614,
+    48.9387
+  ],
+  "Bondy (France) [10K]": [
+    2.4828,
+    48.9022
+  ],
+  "Suresnes (France) [10K]": [
+    2.22,
+    48.87
+  ],
+  "Bellevue (France) [10K]": [
+    2.385,
+    48.871
+  ],
+  "Saint-Ouen (France) [10K]": [
+    2.3342,
+    48.9123
+  ],
+  "Bobigny (France) [10K]": [
+    2.4397,
+    48.9106
+  ],
+  "Chambery (France) [10K]": [
+    5.9118,
+    45.57
+  ],
+  "Fontenay-sous-Bois (France) [10K]": [
+    2.4772,
+    48.8517
+  ],
+  "Puteaux (France) [10K]": [
+    2.2389,
+    48.885
+  ],
+  "Lorient (France) [10K]": [
+    -3.36,
+    47.75
+  ],
+  "Alfortville (France) [10K]": [
+    2.4239,
+    48.805
+  ],
+  "Evry (France) [10K]": [
+    2.4294,
+    48.6239
+  ],
+  "Meaux (France) [10K]": [
+    2.8883,
+    48.9603
+  ],
+  "Sartrouville (France) [10K]": [
+    2.1644,
+    48.9372
+  ],
+  "Clamart (France) [10K]": [
+    2.2628,
+    48.8014
+  ],
+  "Sevran (France) [10K]": [
+    2.5333,
+    48.9333
+  ],
+  "Chelles (France) [10K]": [
+    2.6,
+    48.8833
+  ],
+  "Saint-Quentin (France) [10K]": [
+    3.2864,
+    49.8486
+  ],
+  "Massy (France) [10K]": [
+    2.2713,
+    48.7309
+  ],
+  "Corbeil-Essonnes (France) [10K]": [
+    2.482,
+    48.6139
+  ],
+  "Vaulx-en-Velin (France) [10K]": [
+    4.9186,
+    45.7768
+  ],
+  "Cagnes-sur-Mer (France) [10K]": [
+    7.1489,
+    43.6644
+  ],
+  "Choisy-le-Roi (France) [10K]": [
+    2.409,
+    48.763
+  ],
+  "Bayonne (France) [10K]": [
+    -1.48,
+    43.49
+  ],
+  "Rosny-sous-Bois (France) [10K]": [
+    2.4833,
+    48.8667
+  ],
+  "Noisy-le-Sec (France) [10K]": [
+    2.4503,
+    48.8894
+  ],
+  "Gennevilliers (France) [10K]": [
+    2.3,
+    48.9333
+  ],
+  "La Garenne-Colombes (France) [10K]": [
+    2.2445,
+    48.9056
+  ],
+  "Livry-Gargan (France) [10K]": [
+    2.5361,
+    48.9192
+  ],
+  "Garges-les-Gonesse (France) [10K]": [
+    2.4008,
+    48.9728
+  ],
+  "La Courneuve (France) [10K]": [
+    2.3967,
+    48.9322
+  ],
+  "Bastia (France) [10K]": [
+    9.4503,
+    42.7008
+  ],
+  "Bagneux (France) [10K]": [
+    2.3137,
+    48.7983
+  ],
+  "Meudon (France) [10K]": [
+    2.2382,
+    48.8123
+  ],
+  "Bagnolet (France) [10K]": [
+    2.4181,
+    48.8692
+  ],
+  "Belfort (France) [10K]": [
+    6.85,
+    47.64
+  ],
+  "Chatillon (France) [10K]": [
+    2.29,
+    48.8
+  ],
+  "Talence (France) [10K]": [
+    -0.584,
+    44.8
+  ],
+  "Mantes-la-Jolie (France) [10K]": [
+    1.7172,
+    48.9908
+  ],
+  "Malakoff (France) [10K]": [
+    2.2944,
+    48.8169
+  ],
+  "Chalon-sur-Saone (France) [10K]": [
+    4.8528,
+    46.7806
+  ],
+  "Charenton-le-Pont (France) [10K]": [
+    2.405,
+    48.8265
+  ],
+  "Caluire-et-Cuire (France) [10K]": [
+    4.8472,
+    45.7953
+  ],
+  "Le Cannet (France) [10K]": [
+    7.0194,
+    43.5769
+  ],
+  "Bois-Colombes (France) [10K]": [
+    2.2683,
+    48.9175
+  ],
+  "Valenciennes (France) [10K]": [
+    3.5233,
+    50.3581
+  ],
+  "Bron (France) [10K]": [
+    4.9139,
+    45.7394
+  ],
+  "Vanves (France) [10K]": [
+    2.2897,
+    48.8208
+  ],
+  "Reze (France) [10K]": [
+    -1.5694,
+    47.1917
+  ],
+  "Melun (France) [10K]": [
+    2.66,
+    48.5406
+  ],
+  "Stains (France) [10K]": [
+    2.3833,
+    48.95
+  ],
+  "Tarbes (France) [10K]": [
+    0.07,
+    43.23
+  ],
+  "Gagny (France) [10K]": [
+    2.5333,
+    48.8833
+  ],
+  "Boulogne-sur-Mer (France) [10K]": [
+    1.6147,
+    50.7264
+  ],
+  "Arras (France) [10K]": [
+    2.78,
+    50.292
+  ],
+  "Nogent-sur-Marne (France) [10K]": [
+    2.4833,
+    48.8375
+  ],
+  "Wattrelos (France) [10K]": [
+    3.217,
+    50.7
+  ],
+  "Annemasse (France) [10K]": [
+    6.2364,
+    46.1958
+  ],
+  "Le Kremlin-Bicetre (France) [10K]": [
+    2.3581,
+    48.81
+  ],
+  "Franconville (France) [10K]": [
+    2.2314,
+    48.9889
+  ],
+  "Saint-Martin-d'Heres (France) [10K]": [
+    5.7653,
+    45.1672
+  ],
+  "Le Perreux-Sur-Marne (France) [10K]": [
+    2.5036,
+    48.8422
+  ],
+  "Le Pre-Saint-Gervais (France) [10K]": [
+    2.4039,
+    48.885
+  ],
+  "Poissy (France) [10K]": [
+    2.0456,
+    48.9294
+  ],
+  "Cachan (France) [10K]": [
+    2.3319,
+    48.7919
+  ],
+  "Savigny-sur-Orge (France) [10K]": [
+    2.3457,
+    48.6797
+  ],
+  "Douai (France) [10K]": [
+    3.08,
+    50.3714
+  ],
+  "Echirolles (France) [10K]": [
+    5.7183,
+    45.1436
+  ],
+  "Villepinte (France) [10K]": [
+    2.541,
+    48.955
+  ],
+  "Marcq-en-Baroeul (France) [10K]": [
+    3.0972,
+    50.6711
+  ],
+  "Neuilly-sur-Marne (France) [10K]": [
+    2.549,
+    48.8537
+  ],
+  "Chartres (France) [10K]": [
+    1.484,
+    48.456
+  ],
+  "L'Hay-les-Roses (France) [10K]": [
+    2.3374,
+    48.78
+  ],
+  "Houilles (France) [10K]": [
+    2.1892,
+    48.9261
+  ],
+  "Villefranche-sur-Saone (France) [10K]": [
+    4.7167,
+    45.9833
+  ],
+  "Pierrefitte-sur-Seine (France) [10K]": [
+    2.3614,
+    48.9656
+  ],
+  "Sainte-Genevieve-des-Bois (France) [10K]": [
+    2.3403,
+    48.6369
+  ],
+  "Athis-Mons (France) [10K]": [
+    2.3889,
+    48.7074
+  ],
+  "Les Lilas (France) [10K]": [
+    2.42,
+    48.88
+  ],
+  "Chatenay-Malabry (France) [10K]": [
+    2.2781,
+    48.7653
+  ],
+  "Creil (France) [10K]": [
+    2.4833,
+    49.2583
+  ],
+  "Bezons (France) [10K]": [
+    2.2178,
+    48.9261
+  ],
+  "Conflans-Sainte-Honorine (France) [10K]": [
+    2.0983,
+    48.9992
+  ],
+  "Villeneuve-Saint-Georges (France) [10K]": [
+    2.4497,
+    48.7325
+  ],
+  "Romainville (France) [10K]": [
+    2.435,
+    48.884
+  ],
+  "Le Plessis-Robinson (France) [10K]": [
+    2.2633,
+    48.7811
+  ],
+  "Palaiseau (France) [10K]": [
+    2.2457,
+    48.7145
+  ],
+  "Schiltigheim (France) [10K]": [
+    7.75,
+    48.6078
+  ],
+  "Thonon-les-Bains (France) [10K]": [
+    6.475,
+    46.3627
+  ],
+  "Villemomble (France) [10K]": [
+    2.5,
+    48.8833
+  ],
+  "Saint-Mande (France) [10K]": [
+    2.4186,
+    48.8422
+  ],
+  "Pontoise (France) [10K]": [
+    2.1017,
+    49.0516
+  ],
+  "Fresnes (France) [10K]": [
+    2.3221,
+    48.755
+  ],
+  "Clichy-sous-Bois (France) [10K]": [
+    2.5532,
+    48.9102
+  ],
+  "Chatou (France) [10K]": [
+    2.1573,
+    48.8897
+  ],
+  "Roanne (France) [10K]": [
+    4.0689,
+    46.0367
+  ],
+  "Ermont (France) [10K]": [
+    2.2603,
+    48.9922
+  ],
+  "Les Mureaux (France) [10K]": [
+    1.9172,
+    48.9875
+  ],
+  "Viry-Chatillon (France) [10K]": [
+    2.375,
+    48.6713
+  ],
+  "Agen (France) [10K]": [
+    0.6212,
+    44.2049
+  ],
+  "Fontenay-aux-Roses (France) [10K]": [
+    2.2888,
+    48.7893
+  ],
+  "Villiers-sur-Marne (France) [10K]": [
+    2.5447,
+    48.8275
+  ],
+  "Thiais (France) [10K]": [
+    2.3923,
+    48.765
+  ],
+  "Montigny-le-Bretonneux (France) [10K]": [
+    2.0333,
+    48.7711
+  ],
+  "Gentilly (France) [10K]": [
+    2.3444,
+    48.8133
+  ],
+  "Trappes (France) [10K]": [
+    2.0025,
+    48.7775
+  ],
+  "Vigneux-sur-Seine (France) [10K]": [
+    2.417,
+    48.7001
+  ],
+  "Lens (France) [10K]": [
+    2.8333,
+    50.4322
+  ],
+  "Le Chesnay (France) [10K]": [
+    2.1303,
+    48.8203
+  ],
+  "Grigny (France) [1K]": [
+    4.7897,
+    45.6083
+  ],
+  "Saint-Cloud (France) [10K]": [
+    2.22,
+    48.84
+  ],
+  "Goussainville (France) [10K]": [
+    2.4747,
+    49.0325
+  ],
+  "Begles (France) [10K]": [
+    -0.5478,
+    44.8086
+  ],
+  "Vandoeuvre-les-Nancy (France) [10K]": [
+    6.1683,
+    48.6567
+  ],
+  "Ris-Orangis (France) [10K]": [
+    2.4161,
+    48.6537
+  ],
+  "Perigueux (France) [10K]": [
+    0.7217,
+    45.1929
+  ],
+  "Montfermeil (France) [10K]": [
+    2.5667,
+    48.9
+  ],
+  "Sotteville-les-Rouen (France) [10K]": [
+    1.09,
+    49.4092
+  ],
+  "Aix-les-Bains (France) [10K]": [
+    5.9153,
+    45.6885
+  ],
+  "Rillieux-la-Pape (France) [10K]": [
+    4.8983,
+    45.8214
+  ],
+  "Lievin (France) [10K]": [
+    2.7786,
+    50.4228
+  ],
+  "Menton (France) [10K]": [
+    7.5,
+    43.775
+  ],
+  "Oullins (France) [10K]": [
+    4.8083,
+    45.715
+  ],
+  "Savigny-le-Temple (France) [10K]": [
+    2.5832,
+    48.5841
+  ],
+  "Bourg-la-Reine (France) [10K]": [
+    2.3151,
+    48.7796
+  ],
+  "Yerres (France) [10K]": [
+    2.4881,
+    48.7171
+  ],
+  "Villiers-le-Bel (France) [10K]": [
+    2.3911,
+    49.0094
+  ],
+  "Les Pavillons-sous-Bois (France) [10K]": [
+    2.5,
+    48.9
+  ],
+  "Sannois (France) [10K]": [
+    2.2578,
+    48.9722
+  ],
+  "Saint-Laurent-du-Var (France) [10K]": [
+    7.188,
+    43.668
+  ],
+  "Lambersart (France) [10K]": [
+    3.025,
+    50.65
+  ],
+  "Limeil-Brevannes (France) [10K]": [
+    2.4883,
+    48.7464
+  ],
+  "Guyancourt (France) [10K]": [
+    2.0739,
+    48.7714
+  ],
+  "Villeneuve-la-Garenne (France) [10K]": [
+    2.3278,
+    48.9372
+  ],
+  "Arcueil (France) [10K]": [
+    2.3361,
+    48.8075
+  ],
+  "Eaubonne (France) [10K]": [
+    2.2806,
+    48.9922
+  ],
+  "Soissons (France) [10K]": [
+    3.3236,
+    49.3817
+  ],
+  "Lomme (France) [10K]": [
+    2.9876,
+    50.6455
+  ],
+  "Dieppe (France) [10K]": [
+    1.08,
+    49.92
+  ],
+  "Cenon (France) [10K]": [
+    -0.5317,
+    44.8578
+  ],
+  "Saint-Sebastien-sur-Loire (France) [10K]": [
+    -1.5014,
+    47.2081
+  ],
+  "Villeparisis (France) [10K]": [
+    2.6025,
+    48.9503
+  ],
+  "Sucy-en-Brie (France) [10K]": [
+    2.5228,
+    48.7697
+  ],
+  "La Madeleine (France) [10K]": [
+    3.071,
+    50.6558
+  ],
+  "Saint-Gratien (France) [10K]": [
+    2.2828,
+    48.9719
+  ],
+  "Sevres (France) [10K]": [
+    2.2117,
+    48.8239
+  ],
+  "Vallauris (France) [10K]": [
+    7.0538,
+    43.5805
+  ],
+  "Taverny (France) [10K]": [
+    2.2275,
+    49.0264
+  ],
+  "Vichy (France) [10K]": [
+    3.4267,
+    46.1278
+  ],
+  "Brunoy (France) [10K]": [
+    2.5044,
+    48.6979
+  ],
+  "Champs-Sur-Marne (France) [10K]": [
+    2.6027,
+    48.8529
+  ],
+  "Armentieres (France) [10K]": [
+    2.8811,
+    50.6881
+  ],
+  "Mons-en-Baroeul (France) [10K]": [
+    3.1103,
+    50.6369
+  ],
+  "Elancourt (France) [10K]": [
+    1.9589,
+    48.7847
+  ],
+  "Le Bouscat (France) [10K]": [
+    -0.5996,
+    44.8651
+  ],
+  "Cormeilles-en-Parisis (France) [10K]": [
+    2.2014,
+    48.9739
+  ],
+  "Orly (France) [10K]": [
+    2.3928,
+    48.7439
+  ],
+  "Le Grand-Quevilly (France) [10K]": [
+    1.0531,
+    49.4072
+  ],
+  "Alencon (France) [10K]": [
+    0.0931,
+    48.4306
+  ],
+  "Joinville-le-Pont (France) [10K]": [
+    2.4728,
+    48.8214
+  ],
+  "Deuil-la-Barre (France) [10K]": [
+    2.3272,
+    48.9767
+  ],
+  "Biarritz (France) [10K]": [
+    -1.56,
+    43.48
+  ],
+  "Bethune (France) [10K]": [
+    2.6408,
+    50.5303
+  ],
+  "Le Petit-Quevilly (France) [10K]": [
+    1.0539,
+    49.4311
+  ],
+  "Maisons-Laffitte (France) [10K]": [
+    2.1456,
+    48.9469
+  ],
+  "Neuilly-Plaisance (France) [10K]": [
+    2.5064,
+    48.8619
+  ],
+  "Montigny-les-Cormeilles (France) [10K]": [
+    2.1958,
+    48.9944
+  ],
+  "Saint-Ouen-l'Aumone (France) [10K]": [
+    2.1111,
+    49.0447
+  ],
+  "Rodez (France) [10K]": [
+    2.575,
+    44.3506
+  ],
+  "Fontaine (France) [10K]": [
+    5.6856,
+    45.1939
+  ],
+  "Chaville (France) [10K]": [
+    2.1886,
+    48.8086
+  ],
+  "Eysines (France) [10K]": [
+    -0.65,
+    44.8853
+  ],
+  "Lormont (France) [10K]": [
+    -0.5217,
+    44.8792
+  ],
+  "Loos (France) [10K]": [
+    3.0144,
+    50.6128
+  ],
+  "Torcy (France) [10K]": [
+    2.6508,
+    48.8502
+  ],
+  "Montgeron (France) [10K]": [
+    2.4605,
+    48.7039
+  ],
+  "Croix (France) [10K]": [
+    3.1508,
+    50.6781
+  ],
+  "Montmorency (France) [10K]": [
+    2.3228,
+    48.9906
+  ],
+  "Velizy-Villacoublay (France) [10K]": [
+    2.1834,
+    48.7834
+  ],
+  "Longjumeau (France) [10K]": [
+    2.2958,
+    48.6943
+  ],
+  "Sceaux (France) [10K]": [
+    2.2906,
+    48.7786
+  ],
+  "Sainte-Foy-les-Lyon (France) [10K]": [
+    4.8,
+    45.73
+  ],
+  "Tassin-la-Demi-Lune (France) [10K]": [
+    4.78,
+    45.764
+  ],
+  "Juvisy-sur-Orge (France) [10K]": [
+    2.3775,
+    48.6883
+  ],
+  "Morsang-sur-Orge (France) [10K]": [
+    2.3461,
+    48.6618
+  ],
+  "Montigny-les-Metz (France) [10K]": [
+    6.1539,
+    49.1006
+  ],
+  "Le Mee-sur-Seine (France) [10K]": [
+    2.6289,
+    48.5333
+  ],
+  "Herouville-Saint-Clair (France) [10K]": [
+    -0.3253,
+    49.2044
+  ],
+  "Chevilly-Larue (France) [10K]": [
+    2.3533,
+    48.7664
+  ],
+  "Le Plessis-Trevise (France) [10K]": [
+    2.5717,
+    48.8111
+  ],
+  "Castelnau-le-Lez (France) [10K]": [
+    3.9019,
+    43.6369
+  ],
+  "Saint-Pol-sur-Mer (France) [10K]": [
+    2.3439,
+    51.0314
+  ],
+  "Garches (France) [10K]": [
+    2.1869,
+    48.8456
+  ],
+  "La Celle-Saint-Cloud (France) [10K]": [
+    2.1344,
+    48.8411
+  ],
+  "Saint-Michel-sur-Orge (France) [10K]": [
+    2.3028,
+    48.6325
+  ],
+  "Dammarie-le-Lys (France) [10K]": [
+    2.6402,
+    48.5177
+  ],
+  "Villeneuve-le-Roi (France) [10K]": [
+    2.4167,
+    48.7333
+  ],
+  "Mantes-la-Ville (France) [10K]": [
+    1.7117,
+    48.975
+  ],
+  "Saint-Maurice (France) [10K]": [
+    2.4347,
+    48.8183
+  ],
+  "Hellemmes-Lille (France) [10K]": [
+    3.11,
+    50.6283
+  ],
+  "Wasquehal (France) [10K]": [
+    3.1308,
+    50.6694
+  ],
+  "Acheres (France) [10K]": [
+    2.0684,
+    48.9602
+  ],
+  "Le Bourget (France) [10K]": [
+    2.4244,
+    48.9344
+  ],
+  "Saint-Cyr-l'Ecole (France) [10K]": [
+    2.0625,
+    48.8003
+  ],
+  "Nogent-sur-Oise (France) [10K]": [
+    2.4683,
+    49.2756
+  ],
+  "Montereau-faut-Yonne (France) [10K]": [
+    2.9508,
+    48.3853
+  ],
+  "Chilly-Mazarin (France) [10K]": [
+    2.3125,
+    48.7025
+  ],
+  "Lingolsheim (France) [10K]": [
+    7.6831,
+    48.5575
+  ],
+  "Coudekerque-Branche (France) [10K]": [
+    2.3917,
+    51.0253
+  ],
+  "Fleury-les-Aubrais (France) [10K]": [
+    1.921,
+    47.9312
+  ],
+  "Ronchin (France) [10K]": [
+    3.0878,
+    50.6047
+  ],
+  "Saint-Fons (France) [10K]": [
+    4.8533,
+    45.7086
+  ],
+  "Soisy-sous-Montmorency (France) [10K]": [
+    2.2997,
+    48.9878
+  ],
+  "Bry-sur-Marne (France) [10K]": [
+    2.5222,
+    48.8411
+  ],
+  "Eragny (France) [10K]": [
+    2.0914,
+    49.0172
+  ],
+  "Cran-Gevrier (France) [10K]": [
+    6.1039,
+    45.9036
+  ],
+  "Faches-Thumesnil (France) [10K]": [
+    3.0736,
+    50.5989
+  ],
+  "Chamalieres (France) [10K]": [
+    3.0669,
+    45.7736
+  ],
+  "Moulins (France) [10K]": [
+    3.3325,
+    46.5647
+  ],
+  "Mont-Saint-Aignan (France) [10K]": [
+    1.0872,
+    49.4625
+  ],
+  "Chennevieres-sur-Marne (France) [10K]": [
+    2.5339,
+    48.7983
+  ],
+  "Viroflay (France) [10K]": [
+    2.1722,
+    48.8
+  ],
+  "Le Pecq (France) [10K]": [
+    2.1061,
+    48.8967
+  ],
+  "Bonneuil-sur-Marne (France) [10K]": [
+    2.4875,
+    48.7742
+  ],
+  "Vaureal (France) [10K]": [
+    2.0214,
+    49.03
+  ],
+  "Bischheim (France) [10K]": [
+    7.7519,
+    48.6139
+  ],
+  "Le Raincy (France) [10K]": [
+    2.5231,
+    48.8992
+  ],
+  "Ecully (France) [10K]": [
+    4.7775,
+    45.7744
+  ],
+  "Les Clayes-sous-Bois (France) [10K]": [
+    1.9836,
+    48.8206
+  ],
+  "Floirac (France) [10K]": [
+    -0.5258,
+    44.8364
+  ],
+  "Maurepas (France) [10K]": [
+    1.9456,
+    48.7628
+  ],
+  "Noisiel (France) [10K]": [
+    2.6289,
+    48.8547
+  ],
+  "Lons-le-Saunier (France) [10K]": [
+    5.5539,
+    46.6744
+  ],
+  "Montmagny (France) [10K]": [
+    2.3458,
+    48.9736
+  ],
+  "Arnouville-les-Gonesse (France) [10K]": [
+    2.4167,
+    48.9872
+  ],
+  "Octeville (France) [10K]": [
+    -1.6431,
+    49.6269
+  ],
+  "Saint-Leu-la-Foret (France) [10K]": [
+    2.2464,
+    49.0169
+  ],
+  "Jouy-le-Moutier (France) [10K]": [
+    2.0386,
+    49.0108
+  ],
+  "Saint-Jean-de-la-Ruelle (France) [10K]": [
+    1.8733,
+    47.9131
+  ],
+  "Le Vesinet (France) [10K]": [
+    2.1322,
+    48.8939
+  ],
+  "Hendaye (France) [10K]": [
+    -1.7744,
+    43.3586
+  ],
+  "Carrieres-sous-Poissy (France) [10K]": [
+    2.0386,
+    48.9478
+  ],
+  "Marly-le-Roi (France) [10K]": [
+    2.0942,
+    48.8669
+  ],
+  "Lognes (France) [10K]": [
+    2.6278,
+    48.8361
+  ],
+  "Beausoleil (France) [10K]": [
+    7.4236,
+    43.7419
+  ],
+  "Montargis (France) [10K]": [
+    2.7325,
+    47.9969
+  ],
+  "Carrieres-sur-Seine (France) [10K]": [
+    2.2889,
+    48.9108
+  ],
+  "Petite-Synthe (France) [10K]": [
+    2.3528,
+    51.0231
+  ],
+  "Bois-d'Arcy (France) [10K]": [
+    2.0317,
+    48.8014
+  ],
+  "Luce (France) [10K]": [
+    1.465,
+    48.4383
+  ],
+  "Enghien-les-Bains (France) [10K]": [
+    2.3081,
+    48.9697
+  ],
+  "Lys-les-Lannoy (France) [10K]": [
+    3.2144,
+    50.6714
+  ],
+  "Valenton (France) [10K]": [
+    2.4672,
+    48.745
+  ],
+  "Saint-Brice-sous-Foret (France) [10K]": [
+    2.3569,
+    48.9986
+  ],
+  "Haubourdin (France) [10K]": [
+    2.9869,
+    50.6092
+  ],
+  "Longwy (France) [10K]": [
+    5.7606,
+    49.5197
+  ],
+  "Wattignies (France) [10K]": [
+    3.0431,
+    50.585
+  ],
+  "Saint-Andre (France) [10K]": [
+    3.0439,
+    50.6603
+  ],
+  "Avon (France) [10K]": [
+    2.725,
+    48.4089
+  ],
+  "Rive-de-Gier (France) [10K]": [
+    4.6169,
+    45.5294
+  ],
+  "Montesson (France) [10K]": [
+    2.1494,
+    48.9086
+  ],
+  "Anzin (France) [10K]": [
+    3.5044,
+    50.3714
+  ],
+  "Ramonville-Saint-Agne (France) [10K]": [
+    1.4756,
+    43.5461
+  ],
+  "Courcouronnes (France) [10K]": [
+    2.4294,
+    48.6239
+  ],
+  "Persan (France) [10K]": [
+    2.2711,
+    49.1533
+  ],
+  "Mouvaux (France) [10K]": [
+    3.1406,
+    50.7033
+  ],
+  "Morangis (France) [10K]": [
+    2.3347,
+    48.7064
+  ],
+  "Auray (France) [10K]": [
+    -2.9825,
+    47.6678
+  ],
+  "Arpajon (France) [10K]": [
+    2.2478,
+    48.5903
+  ],
+  "Fleury-Merogis (France) [10K]": [
+    2.3614,
+    48.6294
+  ],
+  "Montevrain (France) [10K]": [
+    2.7456,
+    48.8753
+  ],
+  "Fontenay-le-Fleury (France) [10K]": [
+    2.0486,
+    48.8136
+  ],
+  "Epinay-sous-Senart (France) [10K]": [
+    2.5158,
+    48.6931
+  ],
+  "Vaires-sur-Marne (France) [10K]": [
+    2.6381,
+    48.8742
+  ],
+  "Billere (France) [10K]": [
+    -0.3972,
+    43.3025
+  ],
+  "Voisins-le-Bretonneux (France) [10K]": [
+    2.0508,
+    48.7583
+  ],
+  "Saint-Max (France) [10K]": [
+    6.2067,
+    48.7011
+  ],
+  "Saint-Andre-les-Vergers (France) [10K]": [
+    4.0539,
+    48.2797
+  ],
+  "Hoenheim (France) [10K]": [
+    7.7547,
+    48.6242
+  ],
+  "Stiring-Wendel (France) [10K]": [
+    6.9292,
+    49.2
+  ],
+  "Ville-d'Avray (France) [10K]": [
+    2.1933,
+    48.8261
+  ],
+  "Talant (France) [10K]": [
+    5.0056,
+    47.3364
+  ],
+  "Deville-les-Rouen (France) [10K]": [
+    1.0497,
+    49.4697
+  ],
+  "Dugny (France) [10K]": [
+    2.4164,
+    48.9536
+  ],
+  "Villecresnes (France) [10K]": [
+    2.5342,
+    48.7214
+  ],
+  "Epinay-sur-Orge (France) [10K]": [
+    2.3272,
+    48.6739
+  ],
+  "Craponne (France) [10K]": [
+    4.7233,
+    45.7453
+  ],
+  "Chanteloup-les-Vignes (France) [10K]": [
+    2.0308,
+    48.9783
+  ],
+  "Ormesson-sur-Marne (France) [10K]": [
+    2.5383,
+    48.7858
+  ],
+  "Beaumont (France) [10K]": [
+    3.0831,
+    45.7517
+  ],
+  "Maromme (France) [10K]": [
+    1.0419,
+    49.4819
+  ],
+  "Montigny-en-Gohelle (France) [10K]": [
+    2.9297,
+    50.4278
+  ],
+  "Jarville-la-Malgrange (France) [1K]": [
+    6.2061,
+    48.6694
+  ],
+  "Crosne (France) [1K]": [
+    2.4611,
+    48.7147
+  ],
+  "Marquette-les-Lille (France) [10K]": [
+    3.0661,
+    50.6758
+  ],
+  "Croissy-sur-Seine (France) [10K]": [
+    2.1422,
+    48.8778
+  ],
+  "Gaillard (France) [10K]": [
+    6.2075,
+    46.185
+  ],
+  "Caudebec-les-Elbeuf (France) [10K]": [
+    1.0211,
+    49.2808
+  ],
+  "Pierre-Benite (France) [10K]": [
+    4.8242,
+    45.7036
+  ],
+  "Tinqueux (France) [10K]": [
+    3.9908,
+    49.25
+  ],
+  "Avranches (France) [10K]": [
+    -1.3569,
+    48.6844
+  ],
+  "Igny (France) [1K]": [
+    2.2261,
+    48.7422
+  ],
+  "Fosses (France) [1K]": [
+    2.5067,
+    49.0981
+  ],
+  "Thorigny-sur-Marne (France) [10K]": [
+    2.7075,
+    48.8788
+  ],
+  "Eybens (France) [1K]": [
+    5.7503,
+    45.1486
+  ],
+  "Sallaumines (France) [1K]": [
+    2.8622,
+    50.4197
+  ],
+  "Neuville-les-Dieppe (France) [1K]": [
+    1.1014,
+    49.9267
+  ],
+  "Ferney-Voltaire (France) [10K]": [
+    6.1081,
+    46.2558
+  ],
+  "Bougival (France) [1K]": [
+    2.1394,
+    48.865
+  ],
+  "Bures-sur-Yvette (France) [1K]": [
+    2.1614,
+    48.6967
+  ],
+  "Le Plessis-Bouchard (France) [1K]": [
+    2.2367,
+    49.0028
+  ],
+  "Beauchamp (France) [1K]": [
+    2.19,
+    49.0139
+  ],
+  "Le Portel (France) [1K]": [
+    1.5733,
+    50.7067
+  ],
+  "Vaucresson (France) [1K]": [
+    2.1528,
+    48.8425
+  ],
+  "Groslay (France) [1K]": [
+    2.3444,
+    48.9867
+  ],
+  "Perenchies (France) [1K]": [
+    2.9725,
+    50.6681
+  ],
+  "Aucamville (France) [1K]": [
+    1.4306,
+    43.6686
+  ],
+  "Evian-les-Bains (France) [1K]": [
+    6.59,
+    46.4006
+  ],
+  "Ville-la-Grand (France) [1K]": [
+    6.2469,
+    46.2022
+  ],
+  "Avignon (France) [10K]": [
+    4.8075,
+    43.95
+  ],
+  "Dunkerque (France) [10K]": [
+    2.3775,
+    51.0383
+  ],
+  "Beziers (France) [10K]": [
+    3.219,
+    43.3476
+  ],
+  "Merignac (France) [10K]": [
+    -0.6436,
+    44.8386
+  ],
+  "Saint-Nazaire (France) [10K]": [
+    -2.2139,
+    47.2736
+  ],
+  "Colmar (France) [10K]": [
+    7.3556,
+    48.0817
+  ],
+  "Pessac (France) [10K]": [
+    -0.6311,
+    44.8067
+  ],
+  "Valence (France) [10K]": [
+    4.8917,
+    44.9333
+  ],
+  "Bourges (France) [10K]": [
+    2.3964,
+    47.0844
+  ],
+  "Quimper (France) [10K]": [
+    -4.0964,
+    47.9967
+  ],
+  "Montauban (France) [10K]": [
+    1.3558,
+    44.0181
+  ],
+  "Niort (France) [10K]": [
+    -0.4606,
+    46.3258
+  ],
+  "Beauvais (France) [10K]": [
+    2.0952,
+    49.4303
+  ],
+  "Frejus (France) [10K]": [
+    6.737,
+    43.433
+  ],
+  "Narbonne (France) [10K]": [
+    3.0042,
+    43.1836
+  ],
+  "La Roche-sur-Yon (France) [10K]": [
+    -1.426,
+    46.6705
+  ],
+  "Hyeres (France) [10K]": [
+    6.1316,
+    43.1199
+  ],
+  "Vannes (France) [10K]": [
+    -2.7603,
+    47.6559
+  ],
+  "Cholet (France) [10K]": [
+    -0.8783,
+    47.06
+  ],
+  "Laval (France) [10K]": [
+    -0.7689,
+    48.0733
+  ],
+  "Arles (France) [10K]": [
+    4.6278,
+    43.6767
+  ],
+  "Albi (France) [10K]": [
+    2.1464,
+    43.9289
+  ],
+  "Grasse (France) [10K]": [
+    6.9167,
+    43.6667
+  ],
+  "Martigues (France) [10K]": [
+    5.0475,
+    43.4053
+  ],
+  "Saint-Herblain (France) [10K]": [
+    -1.6497,
+    47.2122
+  ],
+  "Saint-Priest (France) [10K]": [
+    4.9447,
+    45.6972
+  ],
+  "Evreux (France) [10K]": [
+    1.15,
+    49.02
+  ],
+  "Aubagne (France) [10K]": [
+    5.5708,
+    43.2908
+  ],
+  "Saint-Malo (France) [10K]": [
+    -2.01,
+    48.65
+  ],
+  "Charleville-Mezieres (France) [10K]": [
+    4.7161,
+    49.7719
+  ],
+  "Brive-la-Gaillarde (France) [10K]": [
+    1.5321,
+    45.1583
+  ],
+  "Carcassonne (France) [10K]": [
+    2.35,
+    43.21
+  ],
+  "Blois (France) [10K]": [
+    1.3281,
+    47.5939
+  ],
+  "Saint-Brieuc (France) [10K]": [
+    -2.7653,
+    48.5136
+  ],
+  "Chalons-en-Champagne (France) [10K]": [
+    4.365,
+    48.9575
+  ],
+  "Salon-de-Provence (France) [10K]": [
+    5.0972,
+    43.6406
+  ],
+  "Sete (France) [10K]": [
+    3.6975,
+    43.4053
+  ],
+  "Chateauroux (France) [10K]": [
+    1.6911,
+    46.8103
+  ],
+  "Istres (France) [10K]": [
+    4.9895,
+    43.5151
+  ],
+  "Ales (France) [10K]": [
+    4.0817,
+    44.1281
+  ],
+  "Angouleme (France) [10K]": [
+    0.16,
+    45.65
+  ],
+  "Bourg-en-Bresse (France) [10K]": [
+    5.2289,
+    46.2056
+  ],
+  "Castres (France) [10K]": [
+    2.25,
+    43.6
+  ],
+  "Colomiers (France) [10K]": [
+    1.3367,
+    43.6139
+  ],
+  "Saint-Germain-en-Laye (France) [10K]": [
+    2.0938,
+    48.8989
+  ],
+  "Thionville (France) [10K]": [
+    6.1692,
+    49.3589
+  ],
+  "Compiegne (France) [10K]": [
+    2.8231,
+    49.4149
+  ],
+  "Anglet (France) [10K]": [
+    -1.5183,
+    43.485
+  ],
+  "Gap (France) [10K]": [
+    6.0786,
+    44.5594
+  ],
+  "Montelimar (France) [10K]": [
+    4.7508,
+    44.5581
+  ],
+  "Draguignan (France) [10K]": [
+    6.4667,
+    43.5403
+  ],
+  "Joue-les-Tours (France) [10K]": [
+    0.6625,
+    47.3514
+  ],
+  "Villenave-d'Ornon (France) [10K]": [
+    -0.5658,
+    44.7806
+  ],
+  "La Ciotat (France) [10K]": [
+    5.6086,
+    43.1769
+  ],
+  "Montlucon (France) [10K]": [
+    2.6033,
+    46.3408
+  ],
+  "Saint-Raphael (France) [10K]": [
+    6.7684,
+    43.4252
+  ],
+  "Meyzieu (France) [10K]": [
+    5.0036,
+    45.7667
+  ],
+  "Six-Fours-les-Plages (France) [10K]": [
+    5.82,
+    43.1009
+  ],
+  "Haguenau (France) [10K]": [
+    7.79,
+    48.82
+  ],
+  "Saint-Chamond (France) [10K]": [
+    4.5153,
+    45.4775
+  ],
+  "Auxerre (France) [10K]": [
+    3.5672,
+    47.7986
+  ],
+  "Nevers (France) [10K]": [
+    3.1572,
+    46.9933
+  ],
+  "Macon (France) [10K]": [
+    4.8313,
+    46.3063
+  ],
+  "Cambrai (France) [10K]": [
+    3.2356,
+    50.1767
+  ],
+  "Vitrolles (France) [10K]": [
+    5.2486,
+    43.46
+  ],
+  "Marignane (France) [10K]": [
+    5.2145,
+    43.416
+  ],
+  "Romans-sur-Isere (France) [10K]": [
+    5.0517,
+    45.0464
+  ],
+  "Epinal (France) [10K]": [
+    6.4512,
+    48.1744
+  ],
+  "Plaisir (France) [10K]": [
+    1.9472,
+    48.8183
+  ],
+  "Chatellerault (France) [10K]": [
+    0.5461,
+    46.8178
+  ],
+  "Saint-Medard-en-Jalles (France) [10K]": [
+    -0.7164,
+    44.8964
+  ],
+  "Dreux (France) [10K]": [
+    1.3664,
+    48.7372
+  ],
+  "Vienne (France) [10K]": [
+    4.8781,
+    45.5242
+  ],
+  "Maubeuge (France) [10K]": [
+    3.9734,
+    50.2775
+  ],
+  "Decines-Charpieu (France) [10K]": [
+    4.9594,
+    45.7694
+  ],
+  "Mont-de-Marsan (France) [10K]": [
+    -0.5,
+    43.89
+  ],
+  "Draveil (France) [10K]": [
+    2.408,
+    48.6852
+  ],
+  "Agde (France) [10K]": [
+    3.4758,
+    43.3108
+  ],
+  "Saint-Etienne-du-Rouvray (France) [10K]": [
+    1.105,
+    49.3786
+  ],
+  "Bourgoin-Jallieu (France) [10K]": [
+    5.2736,
+    45.5861
+  ],
+  "Carpentras (France) [10K]": [
+    5.0489,
+    44.0558
+  ],
+  "Tournefeuille (France) [10K]": [
+    1.3442,
+    43.5853
+  ],
+  "Orange (France) [10K]": [
+    4.8097,
+    44.1383
+  ],
+  "Bretigny-sur-Orge (France) [10K]": [
+    2.3059,
+    48.6114
+  ],
+  "Bussy-Saint-Georges (France) [10K]": [
+    2.6983,
+    48.8422
+  ],
+  "Illkirch-Graffenstaden (France) [10K]": [
+    7.72,
+    48.53
+  ],
+  "Orvault (France) [10K]": [
+    -1.6225,
+    47.2717
+  ],
+  "Rambouillet (France) [10K]": [
+    1.8308,
+    48.6444
+  ],
+  "Sens (France) [10K]": [
+    3.2877,
+    48.1975
+  ],
+  "Miramas (France) [10K]": [
+    5.0019,
+    43.5822
+  ],
+  "Montbeliard (France) [10K]": [
+    6.8,
+    47.51
+  ],
+  "Lunel (France) [10K]": [
+    4.1353,
+    43.6769
+  ],
+  "Gonesse (France) [10K]": [
+    2.4494,
+    48.9875
+  ],
+  "Gradignan (France) [10K]": [
+    -0.6156,
+    44.7725
+  ],
+  "Bergerac (France) [10K]": [
+    0.48,
+    44.85
+  ],
+  "Henin-Beaumont (France) [10K]": [
+    2.9508,
+    50.4217
+  ],
+  "La Garde (France) [10K]": [
+    6.0108,
+    43.1256
+  ],
+  "Blagnac (France) [10K]": [
+    1.3906,
+    43.6364
+  ],
+  "Saumur (France) [10K]": [
+    -0.0769,
+    47.26
+  ],
+  "Cavaillon (France) [10K]": [
+    5.0381,
+    43.8375
+  ],
+  "Aurillac (France) [10K]": [
+    2.4406,
+    44.9261
+  ],
+  "La Teste-de-Buch (France) [10K]": [
+    -1.1457,
+    44.62
+  ],
+  "Vertou (France) [10K]": [
+    -1.4697,
+    47.1689
+  ],
+  "Etampes (France) [10K]": [
+    2.1615,
+    48.4343
+  ],
+  "Vierzon (France) [10K]": [
+    2.0694,
+    47.2225
+  ],
+  "Saintes (France) [10K]": [
+    -0.6333,
+    45.7464
+  ],
+  "Libourne (France) [10K]": [
+    -0.24,
+    44.92
+  ],
+  "La Valette-du-Var (France) [10K]": [
+    5.9831,
+    43.1383
+  ],
+  "Laon (France) [10K]": [
+    3.6244,
+    49.5639
+  ],
+  "Muret (France) [10K]": [
+    1.3267,
+    43.4611
+  ],
+  "Rochefort (France) [10K]": [
+    -0.9588,
+    45.9421
+  ],
+  "Roissy-en-Brie (France) [10K]": [
+    2.6519,
+    48.7906
+  ],
+  "Vernon (France) [10K]": [
+    1.49,
+    49.09
+  ],
+  "Dole (France) [10K]": [
+    5.4906,
+    47.0931
+  ],
+  "Lanester (France) [10K]": [
+    -3.3422,
+    47.7647
+  ],
+  "Saint-Louis (France) [10K]": [
+    7.57,
+    47.59
+  ],
+  "Saint-Dizier (France) [10K]": [
+    4.9497,
+    48.6383
+  ],
+  "Abbeville (France) [10K]": [
+    1.8358,
+    50.1058
+  ],
+  "Grande-Synthe (France) [10K]": [
+    2.3028,
+    51.0139
+  ],
+  "Frontignan (France) [10K]": [
+    3.7561,
+    43.4483
+  ],
+  "Epernay (France) [10K]": [
+    3.96,
+    49.0403
+  ],
+  "Olivet (France) [10K]": [
+    1.9006,
+    47.8639
+  ],
+  "Combs-la-Ville (France) [10K]": [
+    2.56,
+    48.67
+  ],
+  "Gif-sur-Yvette (France) [10K]": [
+    2.1339,
+    48.7018
+  ],
+  "Oyonnax (France) [10K]": [
+    5.6556,
+    46.2561
+  ],
+  "Forbach (France) [10K]": [
+    6.9,
+    49.19
+  ],
+  "Manosque (France) [10K]": [
+    5.7839,
+    43.8342
+  ],
+  "Saint-Jean-de-Braye (France) [10K]": [
+    1.9719,
+    47.9128
+  ],
+  "Coueron (France) [10K]": [
+    -1.7228,
+    47.2156
+  ],
+  "Seynod (France) [10K]": [
+    6.0961,
+    45.8889
+  ],
+  "Mandelieu-la-Napoule (France) [10K]": [
+    6.9381,
+    43.5464
+  ],
+  "Le Creusot (France) [10K]": [
+    4.4411,
+    46.8014
+  ],
+  "Annecy-le-Vieux (France) [10K]": [
+    6.1419,
+    45.9192
+  ],
+  "Saint-Genis-Laval (France) [10K]": [
+    4.793,
+    45.696
+  ],
+  "Fougeres (France) [10K]": [
+    -1.1986,
+    48.3525
+  ],
+  "Auch (France) [10K]": [
+    0.5855,
+    43.6465
+  ],
+  "Halluin (France) [10K]": [
+    3.1256,
+    50.7836
+  ],
+  "Chaumont (France) [10K]": [
+    5.1389,
+    48.1117
+  ],
+  "Gardanne (France) [10K]": [
+    5.476,
+    43.4553
+  ],
+  "Gujan-Mestras (France) [10K]": [
+    -1.0667,
+    44.6364
+  ],
+  "Les Pennes-Mirabeau (France) [10K]": [
+    5.3103,
+    43.4106
+  ],
+  "Hazebrouck (France) [10K]": [
+    2.5392,
+    50.725
+  ],
+  "Villeneuve-sur-Lot (France) [10K]": [
+    0.705,
+    44.4081
+  ],
+  "Millau (France) [10K]": [
+    3.0783,
+    44.0986
+  ],
+  "Dax (France) [10K]": [
+    -1.05,
+    43.71
+  ],
+  "Ozoir-la-Ferriere (France) [10K]": [
+    2.68,
+    48.778
+  ],
+  "Allauch (France) [10K]": [
+    5.4828,
+    43.3369
+  ],
+  "Lisieux (France) [10K]": [
+    0.23,
+    49.15
+  ],
+  "Denain (France) [10K]": [
+    3.395,
+    50.3286
+  ],
+  "Challans (France) [10K]": [
+    -1.8781,
+    46.8467
+  ],
+  "Sarreguemines (France) [10K]": [
+    7.07,
+    49.11
+  ],
+  "Givors (France) [10K]": [
+    4.7689,
+    45.5906
+  ],
+  "Cournon-d'Auvergne (France) [10K]": [
+    3.1972,
+    45.7422
+  ],
+  "Beaune (France) [10K]": [
+    4.8397,
+    47.025
+  ],
+  "Mitry-Mory (France) [10K]": [
+    2.6164,
+    48.9839
+  ],
+  "Voiron (France) [10K]": [
+    5.5906,
+    45.3642
+  ],
+  "Pertuis (France) [10K]": [
+    5.5036,
+    43.695
+  ],
+  "Bourg-les-Valence (France) [10K]": [
+    4.8953,
+    44.9475
+  ],
+  "Carquefou (France) [10K]": [
+    -1.4928,
+    47.2969
+  ],
+  "Cugnaux (France) [10K]": [
+    1.3436,
+    43.5378
+  ],
+  "Bruges (France) [10K]": [
+    -0.6125,
+    44.8828
+  ],
+  "Mougins (France) [10K]": [
+    6.9947,
+    43.6
+  ],
+  "Lannion (France) [10K]": [
+    -3.4553,
+    48.7325
+  ],
+  "Albertville (France) [10K]": [
+    6.3925,
+    45.6758
+  ],
+  "Hem (France) [10K]": [
+    3.1878,
+    50.6553
+  ],
+  "Bouguenais (France) [10K]": [
+    -1.6214,
+    47.1775
+  ],
+  "L'Isle-sur-la-Sorgue (France) [10K]": [
+    5.0514,
+    43.9194
+  ],
+  "Villefontaine (France) [10K]": [
+    5.1486,
+    45.6133
+  ],
+  "Le Puy-en-Velay (France) [10K]": [
+    3.885,
+    45.0433
+  ],
+  "Concarneau (France) [10K]": [
+    -3.9189,
+    47.8753
+  ],
+  "Cahors (France) [10K]": [
+    1.4406,
+    44.4475
+  ],
+  "Saint-Die-des-Vosges (France) [10K]": [
+    6.9492,
+    48.2842
+  ],
+  "La Chapelle-sur-Erdre (France) [10K]": [
+    -1.5528,
+    47.2989
+  ],
+  "Plaisance-du-Touch (France) [10K]": [
+    1.2964,
+    43.5656
+  ],
+  "Bressuire (France) [10K]": [
+    -0.4886,
+    46.84
+  ],
+  "Cognac (France) [10K]": [
+    -0.3292,
+    45.6958
+  ],
+  "Saint-Lo (France) [10K]": [
+    -1.0917,
+    49.1144
+  ],
+  "Selestat (France) [10K]": [
+    7.4542,
+    48.2594
+  ],
+  "Brie-Comte-Robert (France) [10K]": [
+    2.6111,
+    48.6925
+  ],
+  "Riom (France) [10K]": [
+    3.1125,
+    45.8936
+  ],
+  "Bruz (France) [10K]": [
+    -1.7458,
+    48.0247
+  ],
+  "Sorgues (France) [10K]": [
+    4.8725,
+    44.0083
+  ],
+  "Royan (France) [10K]": [
+    -1.0431,
+    45.6231
+  ],
+  "Fecamp (France) [10K]": [
+    0.3792,
+    49.7575
+  ],
+  "Vence (France) [10K]": [
+    7.1119,
+    43.7225
+  ],
+  "La Crau (France) [10K]": [
+    6.0742,
+    43.1497
+  ],
+  "Meylan (France) [10K]": [
+    5.7794,
+    45.2086
+  ],
+  "Louviers (France) [10K]": [
+    1.1656,
+    49.2153
+  ],
+  "Moissy-Cramayel (France) [10K]": [
+    2.5922,
+    48.6261
+  ],
+  "Luneville (France) [10K]": [
+    6.5017,
+    48.5894
+  ],
+  "Vitre (France) [10K]": [
+    -1.2094,
+    48.1233
+  ],
+  "Avion (France) [10K]": [
+    2.8328,
+    50.4097
+  ],
+  "Montceau-les-Mines (France) [10K]": [
+    4.3689,
+    46.6669
+  ],
+  "Boissy-Saint-Leger (France) [10K]": [
+    2.5097,
+    48.7503
+  ],
+  "Le Pontet (France) [10K]": [
+    4.86,
+    43.9642
+  ],
+  "Osny (France) [10K]": [
+    2.0625,
+    49.0592
+  ],
+  "Bagnols-sur-Ceze (France) [10K]": [
+    4.62,
+    44.1625
+  ],
+  "Limay (France) [10K]": [
+    1.7358,
+    48.9933
+  ],
+  "Cluses (France) [10K]": [
+    6.5786,
+    46.0603
+  ],
+  "Firminy (France) [10K]": [
+    4.2872,
+    45.3881
+  ],
+  "L'Isle-d'Abeau (France) [10K]": [
+    5.2331,
+    45.6194
+  ],
+  "Carvin (France) [10K]": [
+    2.9581,
+    50.4931
+  ],
+  "Yutz (France) [10K]": [
+    6.1886,
+    49.3589
+  ],
+  "Ploemeur (France) [10K]": [
+    -3.4311,
+    47.7358
+  ],
+  "Chateauneuf-les-Martigues (France) [10K]": [
+    5.1642,
+    43.3831
+  ],
+  "Port-de-Bouc (France) [10K]": [
+    4.9886,
+    43.405
+  ],
+  "Lattes (France) [10K]": [
+    3.9021,
+    43.5678
+  ],
+  "Pontarlier (France) [10K]": [
+    6.3547,
+    46.9061
+  ],
+  "Marmande (France) [10K]": [
+    0.1653,
+    44.5
+  ],
+  "Cesson-Sevigne (France) [10K]": [
+    -1.6036,
+    48.1208
+  ],
+  "Orsay (France) [10K]": [
+    2.1875,
+    48.6981
+  ],
+  "Sanary-sur-Mer (France) [10K]": [
+    5.8022,
+    43.1192
+  ],
+  "Verdun (France) [10K]": [
+    5.3828,
+    49.1597
+  ],
+  "Verneuil-sur-Seine (France) [10K]": [
+    1.9739,
+    48.9797
+  ],
+  "Saint-Cyr-sur-Loire (France) [10K]": [
+    0.6781,
+    47.4028
+  ],
+  "Balma (France) [10K]": [
+    1.4986,
+    43.6103
+  ],
+  "Brignoles (France) [10K]": [
+    6.0617,
+    43.4058
+  ],
+  "Saint-Egreve (France) [10K]": [
+    5.6831,
+    45.2317
+  ],
+  "Saint-Pierre-des-Corps (France) [10K]": [
+    0.7281,
+    47.3908
+  ],
+  "Saint-Julien-en-Genevois (France) [10K]": [
+    6.0842,
+    46.1442
+  ],
+  "Domont (France) [10K]": [
+    2.3267,
+    49.0275
+  ],
+  "Saint-Maximin-la-Sainte-Baume (France) [10K]": [
+    5.8619,
+    43.4533
+  ],
+  "Hayange (France) [10K]": [
+    6.0619,
+    49.3297
+  ],
+  "Ambares-et-Lagrave (France) [10K]": [
+    -0.4867,
+    44.9247
+  ],
+  "Cestas (France) [10K]": [
+    -0.6822,
+    44.7444
+  ],
+  "Elbeuf (France) [10K]": [
+    1.0083,
+    49.2858
+  ],
+  "Saran (France) [10K]": [
+    1.8803,
+    47.9514
+  ],
+  "Sedan (France) [10K]": [
+    4.9403,
+    49.7019
+  ],
+  "Landerneau (France) [10K]": [
+    -4.2494,
+    48.4508
+  ],
+  "Villeneuve-Loubet (France) [10K]": [
+    7.1214,
+    43.6581
+  ],
+  "Sallanches (France) [10K]": [
+    6.6319,
+    45.9364
+  ],
+  "Mauguio (France) [10K]": [
+    4.0075,
+    43.6164
+  ],
+  "Annonay (France) [10K]": [
+    4.6708,
+    45.24
+  ],
+  "Escoublac (France) [10K]": [
+    -2.3922,
+    47.2858
+  ],
+  "Tourlaville (France) [10K]": [
+    -1.5789,
+    49.6408
+  ],
+  "Hennebont (France) [10K]": [
+    -3.2789,
+    47.8042
+  ],
+  "Montbrison (France) [10K]": [
+    4.0653,
+    45.6075
+  ],
+  "Sin-le-Noble (France) [10K]": [
+    3.1131,
+    50.3631
+  ],
+  "Vendome (France) [10K]": [
+    1.0656,
+    47.7928
+  ],
+  "Illzach (France) [10K]": [
+    7.3481,
+    47.7822
+  ],
+  "Francheville (France) [10K]": [
+    4.7636,
+    45.7364
+  ],
+  "Rumilly (France) [10K]": [
+    5.9444,
+    45.8667
+  ],
+  "Mennecy (France) [10K]": [
+    2.4361,
+    48.5653
+  ],
+  "Sainte-Luce-sur-Loire (France) [10K]": [
+    -1.4867,
+    47.2494
+  ],
+  "Digne-les-Bains (France) [10K]": [
+    6.2356,
+    44.0925
+  ],
+  "Vesoul (France) [10K]": [
+    6.1553,
+    47.6222
+  ],
+  "Chateaurenard (France) [10K]": [
+    4.855,
+    43.8825
+  ],
+  "Saint-Amand-les-Eaux (France) [10K]": [
+    3.4269,
+    50.4481
+  ],
+  "Verrieres-le-Buisson (France) [10K]": [
+    2.2628,
+    48.7475
+  ],
+  "Les Herbiers (France) [10K]": [
+    -1.0136,
+    46.8711
+  ],
+  "Montivilliers (France) [10K]": [
+    0.1881,
+    49.5461
+  ],
+  "Guerande (France) [10K]": [
+    -2.4292,
+    47.3281
+  ],
+  "Chateau-Thierry (France) [10K]": [
+    3.4031,
+    49.0464
+  ],
+  "Bois-Guillaume (France) [10K]": [
+    1.1194,
+    49.47
+  ],
+  "Les Sables-d'Olonne (France) [10K]": [
+    -1.7833,
+    46.4972
+  ],
+  "Trelaze (France) [10K]": [
+    -0.4664,
+    47.4461
+  ],
+  "Toul (France) [10K]": [
+    5.8917,
+    48.675
+  ],
+  "Coulommiers (France) [10K]": [
+    3.0836,
+    48.8156
+  ],
+  "Saint-Avertin (France) [10K]": [
+    0.7267,
+    47.3667
+  ],
+  "Chenove (France) [10K]": [
+    5.0072,
+    47.2911
+  ],
+  "Beaucaire (France) [10K]": [
+    4.6433,
+    43.8072
+  ],
+  "Issoire (France) [10K]": [
+    3.2489,
+    45.5442
+  ],
+  "Dinan (France) [10K]": [
+    -2.0503,
+    48.4556
+  ],
+  "Pornic (France) [10K]": [
+    -2.1033,
+    47.1156
+  ],
+  "Tarascon (France) [10K]": [
+    4.6594,
+    43.805
+  ],
+  "Villers-les-Nancy (France) [10K]": [
+    6.1547,
+    48.6731
+  ],
+  "Pamiers (France) [10K]": [
+    1.6108,
+    43.1164
+  ],
+  "Blanquefort (France) [10K]": [
+    -0.6375,
+    44.9106
+  ],
+  "Castanet-Tolosan (France) [10K]": [
+    1.4981,
+    43.5156
+  ],
+  "Saint-Avold (France) [10K]": [
+    6.7081,
+    49.1042
+  ],
+  "Fos-sur-Mer (France) [10K]": [
+    4.9436,
+    43.4544
+  ],
+  "Saint-Omer (France) [10K]": [
+    2.2608,
+    50.7483
+  ],
+  "Fontainebleau (France) [10K]": [
+    2.7017,
+    48.4089
+  ],
+  "Hautmont (France) [10K]": [
+    3.9244,
+    50.2481
+  ],
+  "Crepy-en-Valois (France) [10K]": [
+    2.8875,
+    49.2344
+  ],
+  "Pontivy (France) [10K]": [
+    -2.9628,
+    48.0686
+  ],
+  "Gaillac (France) [10K]": [
+    1.8983,
+    43.9006
+  ],
+  "Saint-Rambert (France) [10K]": [
+    4.24,
+    45.4994
+  ],
+  "Fameck (France) [10K]": [
+    6.1097,
+    49.2992
+  ],
+  "Caudry (France) [10K]": [
+    3.4117,
+    50.125
+  ],
+  "Wittenheim (France) [10K]": [
+    7.3369,
+    47.8075
+  ],
+  "Bouc-Bel-Air (France) [10K]": [
+    5.4144,
+    43.4544
+  ],
+  "Bailleul (France) [10K]": [
+    2.7339,
+    50.7375
+  ],
+  "Senlis (France) [10K]": [
+    2.5867,
+    49.2072
+  ],
+  "Flers (France) [10K]": [
+    -0.5694,
+    48.7483
+  ],
+  "Outreau (France) [10K]": [
+    1.5939,
+    50.7039
+  ],
+  "Morlaix (France) [10K]": [
+    -3.8278,
+    48.5775
+  ],
+  "Tulle (France) [10K]": [
+    1.7722,
+    45.2658
+  ],
+  "Olonne-sur-Mer (France) [10K]": [
+    -1.7728,
+    46.5361
+  ],
+  "Guipavas (France) [10K]": [
+    -4.4008,
+    48.4336
+  ],
+  "Saint-Genis-Pouilly (France) [10K]": [
+    6.0214,
+    46.2433
+  ],
+  "Avrille (France) [10K]": [
+    -0.5889,
+    47.5069
+  ],
+  "Bar-le-Duc (France) [10K]": [
+    5.1672,
+    48.7717
+  ],
+  "Laxou (France) [10K]": [
+    6.1522,
+    48.6856
+  ],
+  "Kingersheim (France) [10K]": [
+    7.3381,
+    47.7914
+  ],
+  "Meru (France) [10K]": [
+    2.135,
+    49.2358
+  ],
+  "Andresy (France) [10K]": [
+    2.0583,
+    48.9808
+  ],
+  "Romilly-sur-Seine (France) [10K]": [
+    3.7267,
+    48.5158
+  ],
+  "Pont-a-Mousson (France) [10K]": [
+    6.0542,
+    48.9044
+  ],
+  "Saint-Jacques-de-la-Lande (France) [10K]": [
+    -1.6956,
+    48.0903
+  ],
+  "La Fleche (France) [10K]": [
+    -0.0761,
+    47.6997
+  ],
+  "Thouars (France) [10K]": [
+    -0.2153,
+    46.975
+  ],
+  "Roquebrune-sur-Argens (France) [10K]": [
+    6.6378,
+    43.4433
+  ],
+  "Canteleu (France) [10K]": [
+    1.0361,
+    49.4511
+  ],
+  "Saint-Brevin-les-Pins (France) [10K]": [
+    -2.1669,
+    47.2464
+  ],
+  "Lieusaint (France) [10K]": [
+    2.5486,
+    48.6322
+  ],
+  "Woippy (France) [10K]": [
+    6.1514,
+    49.1511
+  ],
+  "Saint-Fargeau (France) [10K]": [
+    2.5447,
+    48.5328
+  ],
+  "Saint-Jean-de-Luz (France) [10K]": [
+    -1.6597,
+    43.3903
+  ],
+  "Rixheim (France) [10K]": [
+    7.4044,
+    47.7486
+  ],
+  "Montataire (France) [10K]": [
+    2.4383,
+    49.2556
+  ],
+  "Lons (France) [10K]": [
+    -0.4108,
+    43.315
+  ],
+  "Mions (France) [10K]": [
+    4.9531,
+    45.6631
+  ],
+  "Chateau-d'Olonne (France) [10K]": [
+    -1.7372,
+    46.5042
+  ],
+  "Audincourt (France) [10K]": [
+    6.8397,
+    47.4828
+  ],
+  "Plerin (France) [10K]": [
+    -2.7708,
+    48.5344
+  ],
+  "Ostwald (France) [10K]": [
+    7.7136,
+    48.5511
+  ],
+  "Bayeux (France) [10K]": [
+    -0.7039,
+    49.2786
+  ],
+  "Amberieu-en-Bugey (France) [10K]": [
+    5.3578,
+    45.9581
+  ],
+  "Roncq (France) [10K]": [
+    3.1203,
+    50.7536
+  ],
+  "Berck-sur-Mer (France) [10K]": [
+    1.5928,
+    50.4083
+  ],
+  "Sainte-Maxime (France) [10K]": [
+    6.6378,
+    43.3089
+  ],
+  "Douarnenez (France) [10K]": [
+    -4.3303,
+    48.0922
+  ],
+  "Ollioules (France) [10K]": [
+    5.8469,
+    43.1394
+  ],
+  "Argentan (France) [10K]": [
+    -0.0203,
+    48.7444
+  ],
+  "Riedisheim (France) [10K]": [
+    7.3669,
+    47.7483
+  ],
+  "Tergnier (France) [10K]": [
+    3.2872,
+    49.6558
+  ],
+  "Castelsarrasin (France) [10K]": [
+    1.1069,
+    44.04
+  ],
+  "Valbonne (France) [10K]": [
+    7.0089,
+    43.6414
+  ],
+  "Biscarrosse (France) [10K]": [
+    -1.1639,
+    44.3931
+  ],
+  "Saint-Gilles (France) [10K]": [
+    4.4311,
+    43.6778
+  ],
+  "Berre-l'Etang (France) [10K]": [
+    5.1681,
+    43.4756
+  ],
+  "Noyon (France) [10K]": [
+    2.9989,
+    49.5811
+  ],
+  "Gien (France) [10K]": [
+    2.625,
+    47.6981
+  ],
+  "Plouzane (France) [10K]": [
+    -4.6006,
+    48.38
+  ],
+  "Granville (France) [10K]": [
+    -1.5869,
+    48.8381
+  ],
+  "Pierrelatte (France) [10K]": [
+    4.6961,
+    44.3775
+  ],
+  "Bollene (France) [10K]": [
+    4.7489,
+    44.2803
+  ],
+  "Chalette-sur-Loing (France) [10K]": [
+    2.7358,
+    48.0117
+  ],
+  "Bully-les-Mines (France) [10K]": [
+    2.7244,
+    50.4419
+  ],
+  "Genas (France) [10K]": [
+    5.0022,
+    45.7314
+  ],
+  "Fontenay-le-Comte (France) [10K]": [
+    -0.8064,
+    46.4669
+  ],
+  "Saint-Orens-de-Gameville (France) [10K]": [
+    1.5342,
+    43.5514
+  ],
+  "Saint-Paul-les-Dax (France) [10K]": [
+    -1.0528,
+    43.7256
+  ],
+  "Saint-Martin-de-Crau (France) [10K]": [
+    4.8125,
+    43.6397
+  ],
+  "Plougastel-Daoulas (France) [10K]": [
+    -4.3706,
+    48.3725
+  ],
+  "Comines (France) [10K]": [
+    3.0078,
+    50.7611
+  ],
+  "Marly (France) [10K]": [
+    6.1497,
+    49.0611
+  ],
+  "Lourdes (France) [10K]": [
+    -0.0453,
+    43.095
+  ],
+  "Amilly (France) [10K]": [
+    2.7703,
+    47.9731
+  ],
+  "Creutzwald (France) [10K]": [
+    6.6958,
+    49.2053
+  ],
+  "Chateaudun (France) [10K]": [
+    1.3378,
+    48.0708
+  ],
+  "Vernouillet (France) [10K]": [
+    1.9833,
+    48.9722
+  ],
+  "L'Union (France) [10K]": [
+    1.4844,
+    43.6564
+  ],
+  "Le Relecq-Kerhuon (France) [10K]": [
+    -4.3969,
+    48.4086
+  ],
+  "Moissac (France) [10K]": [
+    1.0853,
+    44.1047
+  ],
+  "Gex (France) [10K]": [
+    6.0578,
+    46.3333
+  ],
+  "Aubergenville (France) [10K]": [
+    1.855,
+    48.9583
+  ],
+  "Mayenne (France) [10K]": [
+    -0.6136,
+    48.3031
+  ],
+  "Vitry-le-Francois (France) [10K]": [
+    4.5844,
+    48.7247
+  ],
+  "Bischwiller (France) [10K]": [
+    7.8569,
+    48.7664
+  ],
+  "Les Ponts-de-Ce (France) [10K]": [
+    -0.5253,
+    47.4244
+  ],
+  "Harnes (France) [10K]": [
+    2.9058,
+    50.445
+  ],
+  "Pont-Sainte-Maxence (France) [10K]": [
+    2.6036,
+    49.3011
+  ],
+  "Nemours (France) [10K]": [
+    2.6936,
+    48.2686
+  ],
+  "Carros (France) [10K]": [
+    7.1933,
+    43.7725
+  ],
+  "Gueret (France) [10K]": [
+    1.8683,
+    46.1706
+  ],
+  "Barentin (France) [10K]": [
+    0.9536,
+    49.5444
+  ],
+  "Autun (France) [10K]": [
+    4.2986,
+    46.9511
+  ],
+  "La Queue-en-Brie (France) [10K]": [
+    2.5767,
+    48.7894
+  ],
+  "Aubenas (France) [10K]": [
+    4.3903,
+    44.6197
+  ],
+  "Monteux (France) [10K]": [
+    4.9972,
+    44.0356
+  ],
+  "Brignais (France) [10K]": [
+    4.7542,
+    45.6739
+  ],
+  "Auriol (France) [10K]": [
+    5.6314,
+    43.3694
+  ],
+  "Sarrebourg (France) [10K]": [
+    7.0539,
+    48.7347
+  ],
+  "Yzeure (France) [10K]": [
+    3.3544,
+    46.5658
+  ],
+  "Somain (France) [10K]": [
+    3.2803,
+    50.3575
+  ],
+  "Seclin (France) [10K]": [
+    3.0294,
+    50.5483
+  ],
+  "Arcachon (France) [10K]": [
+    -1.1689,
+    44.6586
+  ],
+  "Yvetot (France) [10K]": [
+    0.7531,
+    49.6169
+  ],
+  "Triel-sur-Seine (France) [10K]": [
+    2.0061,
+    48.9808
+  ],
+  "Noeux-les-Mines (France) [10K]": [
+    2.6647,
+    50.4797
+  ],
+  "Tarnos (France) [10K]": [
+    -1.4614,
+    43.5406
+  ],
+  "Cusset (France) [10K]": [
+    3.4564,
+    46.1344
+  ],
+  "Claye-Souilly (France) [10K]": [
+    2.6867,
+    48.945
+  ],
+  "Graulhet (France) [10K]": [
+    1.9886,
+    43.7608
+  ],
+  "La Chapelle-Saint-Luc (France) [10K]": [
+    4.0444,
+    48.3119
+  ],
+  "Bonneville (France) [10K]": [
+    6.4008,
+    46.0789
+  ],
+  "Plan-de-Cuques (France) [10K]": [
+    5.4631,
+    43.3469
+  ],
+  "Amboise (France) [10K]": [
+    0.9825,
+    47.4114
+  ],
+  "Bruay-sur-l'Escaut (France) [10K]": [
+    3.5394,
+    50.3983
+  ],
+  "Maizieres-les-Metz (France) [10K]": [
+    6.1611,
+    49.2122
+  ],
+  "Ifs (France) [10K]": [
+    -0.3531,
+    49.1383
+  ],
+  "Provins (France) [10K]": [
+    3.2994,
+    48.5589
+  ],
+  "Saint-Andre-de-Cubzac (France) [10K]": [
+    -0.4458,
+    44.9947
+  ],
+  "Villeneuve-les-Avignon (France) [10K]": [
+    4.7958,
+    43.9664
+  ],
+  "Le Chambon-Feugerolles (France) [10K]": [
+    4.325,
+    45.3961
+  ],
+  "Florange (France) [10K]": [
+    6.1183,
+    49.3214
+  ],
+  "Saint-Jean (France) [10K]": [
+    1.505,
+    43.6653
+  ],
+  "L'Isle-Adam (France) [10K]": [
+    2.2228,
+    49.1111
+  ],
+  "Andernos-les-Bains (France) [10K]": [
+    -1.0903,
+    44.7425
+  ],
+  "Mericourt (France) [10K]": [
+    2.8658,
+    50.4022
+  ],
+  "Raismes (France) [10K]": [
+    3.4858,
+    50.3892
+  ],
+  "Canet-en-Roussillon (France) [10K]": [
+    3.0072,
+    42.7056
+  ],
+  "Fonsorbes (France) [10K]": [
+    1.2311,
+    43.5361
+  ],
+  "Oissel (France) [10K]": [
+    1.0914,
+    49.3419
+  ],
+  "Vidauban (France) [10K]": [
+    6.4319,
+    43.4272
+  ],
+  "Le Haillan (France) [10K]": [
+    -0.6769,
+    44.8717
+  ],
+  "Rognac (France) [10K]": [
+    5.2322,
+    43.4878
+  ],
+  "Pont-du-Chateau (France) [10K]": [
+    3.2483,
+    45.7983
+  ],
+  "Lamballe (France) [10K]": [
+    -2.5178,
+    48.4686
+  ],
+  "Betton (France) [10K]": [
+    -1.6439,
+    48.1825
+  ],
+  "Saint-Germain-les-Arpajon (France) [10K]": [
+    2.2556,
+    48.5953
+  ],
+  "Saint-Esteve (France) [10K]": [
+    2.8419,
+    42.7133
+  ],
+  "Meze (France) [10K]": [
+    3.6053,
+    43.4267
+  ],
+  "Mende (France) [10K]": [
+    3.5006,
+    44.5183
+  ],
+  "Chauny (France) [10K]": [
+    3.2192,
+    49.6156
+  ],
+  "Le Pont-de-Claix (France) [10K]": [
+    5.6981,
+    45.1231
+  ],
+  "Quimperle (France) [10K]": [
+    -3.5497,
+    47.8728
+  ],
+  "Bolbec (France) [10K]": [
+    0.4725,
+    49.5722
+  ],
+  "La Motte-Servolex (France) [10K]": [
+    5.8775,
+    45.5967
+  ],
+  "Chambray-les-Tours (France) [10K]": [
+    0.7139,
+    47.3375
+  ],
+  "Obernai (France) [10K]": [
+    7.4819,
+    48.4622
+  ],
+  "Sable-sur-Sarthe (France) [10K]": [
+    -0.3342,
+    47.84
+  ],
+  "Castelnaudary (France) [10K]": [
+    1.9539,
+    43.3181
+  ],
+  "Valentigney (France) [10K]": [
+    6.8322,
+    47.4625
+  ],
+  "Sollies-Pont (France) [10K]": [
+    6.0411,
+    43.19
+  ],
+  "Juvignac (France) [10K]": [
+    3.8097,
+    43.6131
+  ],
+  "Vedene (France) [10K]": [
+    4.9031,
+    43.9775
+  ],
+  "Gisors (France) [10K]": [
+    1.7764,
+    49.2806
+  ],
+  "Chateaubriant (France) [10K]": [
+    -1.3761,
+    47.7169
+  ],
+  "Cesson (France) [10K]": [
+    2.6011,
+    48.5658
+  ],
+  "Saint-Ave (France) [10K]": [
+    -2.7344,
+    47.6867
+  ],
+  "Aubiere (France) [10K]": [
+    3.1108,
+    45.7508
+  ],
+  "Saint-Saulve (France) [10K]": [
+    3.5547,
+    50.3697
+  ],
+  "Chateau-Gontier (France) [10K]": [
+    -0.7028,
+    47.8286
+  ],
+  "Fourmies (France) [10K]": [
+    4.0533,
+    50.0172
+  ],
+  "Saint-Gaudens (France) [10K]": [
+    0.7233,
+    43.1081
+  ],
+  "Bellegarde-sur-Valserine (France) [10K]": [
+    5.8258,
+    46.1075
+  ],
+  "Pace (France) [10K]": [
+    -1.7739,
+    48.1478
+  ],
+  "Cuers (France) [10K]": [
+    6.0708,
+    43.2375
+  ],
+  "Saint-Pierre-du-Perray (France) [10K]": [
+    2.4953,
+    48.6131
+  ],
+  "Guebwiller (France) [10K]": [
+    7.2103,
+    47.9075
+  ],
+  "Corbas (France) [10K]": [
+    4.9019,
+    45.6681
+  ],
+  "Annappes (France) [10K]": [
+    3.1497,
+    50.6269
+  ],
+  "Saint-Cyr-sur-Mer (France) [10K]": [
+    5.7086,
+    43.1836
+  ],
+  "Cernay (France) [10K]": [
+    7.1758,
+    47.8067
+  ],
+  "Auchel (France) [10K]": [
+    2.4736,
+    50.5083
+  ],
+  "Sassenage (France) [10K]": [
+    5.665,
+    45.205
+  ],
+  "Chevigny-Saint-Sauveur (France) [10K]": [
+    5.1356,
+    47.3017
+  ],
+  "Saint-Martin-Boulogne (France) [10K]": [
+    1.6322,
+    50.7258
+  ],
+  "Villepreux (France) [10K]": [
+    2.0022,
+    48.83
+  ],
+  "Mainvilliers (France) [10K]": [
+    1.4619,
+    48.4531
+  ],
+  "Vaux-le-Penil (France) [10K]": [
+    2.6822,
+    48.5264
+  ],
+  "Castelginest (France) [10K]": [
+    1.4328,
+    43.6936
+  ],
+  "Thiers (France) [10K]": [
+    3.5475,
+    45.8564
+  ],
+  "Villefranche-de-Rouergue (France) [10K]": [
+    2.0342,
+    44.3525
+  ],
+  "Villeneuve-Tolosane (France) [10K]": [
+    1.3417,
+    43.5236
+  ],
+  "Pornichet (France) [10K]": [
+    -2.34,
+    47.2658
+  ],
+  "Louvres (France) [10K]": [
+    2.5053,
+    49.0439
+  ],
+  "Issoudun (France) [10K]": [
+    1.9933,
+    46.9481
+  ],
+  "Longuenesse (France) [10K]": [
+    2.2372,
+    50.7356
+  ],
+  "Guidel (France) [10K]": [
+    -3.4886,
+    47.7906
+  ],
+  "Cogolin (France) [10K]": [
+    6.53,
+    43.2525
+  ],
+  "Villebon-sur-Yvette (France) [10K]": [
+    2.2278,
+    48.7
+  ],
+  "Onet Village (France) [10K]": [
+    2.5936,
+    44.3656
+  ],
+  "Saint-Jean-de-Vedas (France) [10K]": [
+    3.8239,
+    43.5764
+  ],
+  "Clermont (France) [10K]": [
+    2.4125,
+    49.3789
+  ],
+  "Neuville-en-Ferrain (France) [10K]": [
+    3.1581,
+    50.7467
+  ],
+  "Ploufragan (France) [10K]": [
+    -2.7958,
+    48.4894
+  ],
+  "Sainte-Savine (France) [10K]": [
+    4.0489,
+    48.2947
+  ],
+  "Septemes-les-Vallons (France) [10K]": [
+    5.3658,
+    43.3983
+  ],
+  "Saverne (France) [10K]": [
+    7.3619,
+    48.7414
+  ],
+  "Porto-Vecchio (France) [10K]": [
+    9.2797,
+    41.5908
+  ],
+  "Oignies (France) [1K]": [
+    2.9936,
+    50.4692
+  ],
+  "La Roche-sur-Foron (France) [10K]": [
+    6.3119,
+    46.0669
+  ],
+  "Allonnes (France) [10K]": [
+    0.1606,
+    47.9686
+  ],
+  "Courrieres (France) [10K]": [
+    2.9472,
+    50.4581
+  ],
+  "Darnetal (France) [1K]": [
+    1.1511,
+    49.4447
+  ],
+  "Etaples (France) [10K]": [
+    1.6406,
+    50.5178
+  ],
+  "Briancon (France) [10K]": [
+    6.635,
+    44.8958
+  ],
+  "Saint-Cyprien (France) [10K]": [
+    3.0064,
+    42.6181
+  ],
+  "Vauvert (France) [10K]": [
+    4.2761,
+    43.6933
+  ],
+  "Aniche (France) [10K]": [
+    3.2511,
+    50.33
+  ],
+  "Chantilly (France) [10K]": [
+    2.4608,
+    49.1869
+  ],
+  "Annoeullin (France) [10K]": [
+    2.9328,
+    50.5294
+  ],
+  "Gravelines (France) [10K]": [
+    2.1275,
+    50.9864
+  ],
+  "Lezignan-Corbieres (France) [10K]": [
+    2.7578,
+    43.2006
+  ],
+  "La Riche (France) [10K]": [
+    0.6606,
+    47.3892
+  ],
+  "Ezanville (France) [1K]": [
+    2.3608,
+    49.0278
+  ],
+  "Pfastatt (France) [1K]": [
+    7.3017,
+    47.7689
+  ],
+  "Maxeville (France) [1K]": [
+    6.1631,
+    48.7114
+  ],
+  "Chassieu (France) [10K]": [
+    4.9664,
+    45.7444
+  ],
+  "Riorges (France) [10K]": [
+    4.0406,
+    46.0428
+  ],
+  "Wambrechies (France) [10K]": [
+    3.0486,
+    50.6853
+  ],
+  "Bondoufle (France) [10K]": [
+    2.3806,
+    48.6133
+  ],
+  "Saint-Hilaire-de-Riez (France) [10K]": [
+    -1.9456,
+    46.7211
+  ],
+  "Villerupt (France) [10K]": [
+    5.9286,
+    49.4697
+  ],
+  "Panazol (France) [10K]": [
+    1.31,
+    45.8389
+  ],
+  "Dammartin-en-Goele (France) [10K]": [
+    2.6814,
+    49.0542
+  ],
+  "Amneville (France) [10K]": [
+    6.1419,
+    49.2608
+  ],
+  "Dinard (France) [10K]": [
+    -2.0617,
+    48.6325
+  ],
+  "Saint-Junien (France) [10K]": [
+    0.9011,
+    45.8872
+  ],
+  "Douchy-les-Mines (France) [10K]": [
+    3.3933,
+    50.3014
+  ],
+  "Portes-les-Valence (France) [10K]": [
+    4.8764,
+    44.8733
+  ],
+  "Vieux-Conde (France) [10K]": [
+    3.5683,
+    50.4594
+  ],
+  "Passy (France) [10K]": [
+    6.6864,
+    45.9236
+  ],
+  "Jeumont (France) [10K]": [
+    4.1014,
+    50.2944
+  ],
+  "Le Luc (France) [10K]": [
+    6.3128,
+    43.3947
+  ],
+  "La Chapelle-Saint-Mesmin (France) [10K]": [
+    1.8397,
+    47.8897
+  ],
+  "Tarare (France) [10K]": [
+    4.4331,
+    45.8961
+  ],
+  "Chantepie (France) [10K]": [
+    -1.6164,
+    48.0886
+  ],
+  "Montlouis-sur-Loire (France) [10K]": [
+    0.8272,
+    47.3883
+  ],
+  "Le Pradet (France) [10K]": [
+    6.0233,
+    43.1056
+  ],
+  "Thouare-sur-Loire (France) [10K]": [
+    -1.4383,
+    47.2689
+  ],
+  "Cabestany (France) [10K]": [
+    2.9428,
+    42.6806
+  ],
+  "Apt (France) [10K]": [
+    5.3964,
+    43.8761
+  ],
+  "Beaumont-sur-Oise (France) [1K]": [
+    2.2864,
+    49.1425
+  ],
+  "Vire (France) [10K]": [
+    -0.8892,
+    48.8386
+  ],
+  "Quincy-sous-Senart (France) [1K]": [
+    2.5339,
+    48.6711
+  ],
+  "Biganos (France) [10K]": [
+    -0.9783,
+    44.6442
+  ],
+  "Serris (France) [1K]": [
+    2.7861,
+    48.8564
+  ],
+  "Buxerolles (France) [10K]": [
+    0.3492,
+    46.5975
+  ],
+  "Hericourt (France) [10K]": [
+    6.7617,
+    47.5775
+  ],
+  "Leers (France) [1K]": [
+    3.2439,
+    50.6817
+  ],
+  "Tournon-sur-Rhone (France) [10K]": [
+    4.8328,
+    45.0672
+  ],
+  "Parthenay (France) [10K]": [
+    -0.2469,
+    46.6486
+  ],
+  "Guilherand (France) [10K]": [
+    4.8747,
+    44.9344
+  ],
+  "Pontchateau (France) [10K]": [
+    -2.0878,
+    47.4369
+  ],
+  "Mondeville (France) [1K]": [
+    -0.3211,
+    49.1739
+  ],
+  "Magny-le-Hongre (France) [1K]": [
+    2.8136,
+    48.8631
+  ],
+  "Lavaur (France) [10K]": [
+    1.8189,
+    43.6989
+  ],
+  "Pelissanne (France) [10K]": [
+    5.1506,
+    43.6314
+  ],
+  "Gignac-la-Nerthe (France) [1K]": [
+    5.2356,
+    43.3932
+  ],
+  "Marck (France) [10K]": [
+    1.9503,
+    50.9481
+  ],
+  "Hagondange (France) [1K]": [
+    6.1681,
+    49.2542
+  ],
+  "Saint-Laurent-de-la-Salanque (France) [10K]": [
+    2.9908,
+    42.7736
+  ],
+  "Chambly (France) [10K]": [
+    2.2481,
+    49.1667
+  ],
+  "Pont-Saint-Esprit (France) [10K]": [
+    4.6483,
+    44.2564
+  ],
+  "Erstein (France) [10K]": [
+    7.6611,
+    48.4219
+  ],
+  "Gerzat (France) [10K]": [
+    3.1447,
+    45.8258
+  ],
+  "Feyzin (France) [1K]": [
+    4.8589,
+    45.6728
+  ],
+  "Villers-Cotterets (France) [10K]": [
+    3.0903,
+    49.2531
+  ],
+  "Le Cres (France) [1K]": [
+    3.9392,
+    43.6472
+  ],
+  "Dourdan (France) [10K]": [
+    2.0108,
+    48.5289
+  ],
+  "Mios (France) [10K]": [
+    -0.9369,
+    44.605
+  ],
+  "Leognan (France) [10K]": [
+    -0.6008,
+    44.7286
+  ],
+  "Saint-Gely-du-Fesc (France) [10K]": [
+    3.8061,
+    43.6922
+  ],
+  "Le Taillan-Medoc (France) [10K]": [
+    -0.6697,
+    44.9044
+  ],
+  "Fontaine-les-Dijon (France) [1K]": [
+    5.0192,
+    47.3433
+  ],
+  "Wittelsheim (France) [10K]": [
+    7.2375,
+    47.8053
+  ],
+  "Villeneuve-les-Maguelone (France) [10K]": [
+    3.8608,
+    43.5322
+  ],
+  "La Trinite (France) [10K]": [
+    7.3142,
+    43.7408
+  ],
+  "Oloron-Sainte-Marie (France) [10K]": [
+    -0.6067,
+    43.1942
+  ],
+  "Mery-sur-Oise (France) [1K]": [
+    2.1864,
+    49.0636
+  ],
+  "La Londe-les-Maures (France) [10K]": [
+    6.2344,
+    43.1381
+  ],
+  "La Farlede (France) [1K]": [
+    6.0431,
+    43.1678
+  ],
+  "Orthez (France) [10K]": [
+    -0.7708,
+    43.4881
+  ],
+  "Bourg-de-Peage (France) [10K]": [
+    5.05,
+    45.0378
+  ],
+  "Bondues (France) [1K]": [
+    3.0933,
+    50.7017
+  ],
+  "Rombas (France) [1K]": [
+    6.0947,
+    49.2494
+  ],
+  "Fondettes (France) [10K]": [
+    0.5989,
+    47.4042
+  ],
+  "Escaudain (France) [1K]": [
+    3.3428,
+    50.3344
+  ],
+  "Trets (France) [10K]": [
+    5.6858,
+    43.4469
+  ],
+  "Mouans-Sartoux (France) [1K]": [
+    6.9719,
+    43.62
+  ],
+  "Urrugne (France) [10K]": [
+    -1.7,
+    43.3622
+  ],
+  "Pia (France) [1K]": [
+    2.9208,
+    42.7447
+  ],
+  "La Ferte-sous-Jouarre (France) [1K]": [
+    3.1294,
+    48.9492
+  ],
+  "Dombasle-sur-Meurthe (France) [1K]": [
+    6.3497,
+    48.625
+  ],
+  "Argeles-sur-Mer (France) [10K]": [
+    3.0239,
+    42.5461
+  ],
+  "Miribel (France) [10K]": [
+    4.9531,
+    45.8244
+  ],
+  "Soyaux (France) [1K]": [
+    0.1978,
+    45.6403
+  ],
+  "Albert (France) [1K]": [
+    2.6522,
+    50.0019
+  ],
+  "Perols (France) [1K]": [
+    3.9506,
+    43.565
+  ],
+  "Fuveau (France) [10K]": [
+    5.5617,
+    43.4522
+  ],
+  "Carmaux (France) [1K]": [
+    2.1581,
+    44.0492
+  ],
+  "Tomblaine (France) [1K]": [
+    6.2117,
+    48.6856
+  ],
+  "Frouzins (France) [1K]": [
+    1.3247,
+    43.5161
+  ],
+  "Saint-Gregoire (France) [1K]": [
+    -1.6861,
+    48.1511
+  ],
+  "Roche-la-Moliere (France) [1K]": [
+    4.3236,
+    45.4339
+  ],
+  "Pierrelaye (France) [1K]": [
+    2.1503,
+    49.0225
+  ],
+  "Brumath (France) [10K]": [
+    7.7083,
+    48.7319
+  ],
+  "Limoux (France) [10K]": [
+    2.2186,
+    43.0569
+  ],
+  "Portet-sur-Garonne (France) [1K]": [
+    1.4061,
+    43.5219
+  ],
+  "Quetigny (France) [1K]": [
+    5.1061,
+    47.3144
+  ],
+  "Essey-les-Nancy (France) [1K]": [
+    6.2222,
+    48.7058
+  ],
+  "Pernes-les-Fontaines (France) [10K]": [
+    5.0592,
+    43.9978
+  ],
+  "Biot (France) [1K]": [
+    7.0956,
+    43.6286
+  ],
+  "Bernay (France) [1K]": [
+    0.5983,
+    49.0886
+  ],
+  "Launaguet (France) [1K]": [
+    1.4569,
+    43.6739
+  ],
+  "Rouvroy (France) [1K]": [
+    2.9039,
+    50.3936
+  ],
+  "Pithiviers (France) [1K]": [
+    2.2519,
+    48.1719
+  ],
+  "Grand-Couronne (France) [1K]": [
+    1.0072,
+    49.3575
+  ],
+  "Saint-Loubes (France) [1K]": [
+    -0.4281,
+    44.9172
+  ],
+  "Ouistreham (France) [1K]": [
+    -0.2583,
+    49.2792
+  ],
+  "Lillers (France) [1K]": [
+    2.4819,
+    50.5636
+  ],
+  "Vetraz-Monthoux (France) [1K]": [
+    6.255,
+    46.1742
+  ],
+  "Saint-Jean-le-Blanc (France) [1K]": [
+    1.9172,
+    47.8919
+  ],
+  "Divonne-les-Bains (France) [1K]": [
+    6.1428,
+    46.3567
+  ],
+  "Wingles (France) [1K]": [
+    2.8553,
+    50.4942
+  ],
+  "Carqueiranne (France) [1K]": [
+    6.0736,
+    43.095
+  ],
+  "Molsheim (France) [1K]": [
+    7.4922,
+    48.5428
+  ],
+  "Auterive (France) [1K]": [
+    1.4747,
+    43.3503
+  ],
+  "Cabries (France) [1K]": [
+    5.3797,
+    43.4411
+  ],
+  "Le Passage (France) [1K]": [
+    0.6033,
+    44.2014
+  ],
+  "Mazamet (France) [10K]": [
+    2.3733,
+    43.4917
+  ],
+  "Fouesnant (France) [1K]": [
+    -4.0122,
+    47.8933
+  ],
+  "Le Beausset (France) [1K]": [
+    5.8028,
+    43.1983
+  ],
+  "Boucau (France) [1K]": [
+    -1.4867,
+    43.5236
+  ],
+  "Conde-sur-l'Escaut (France) [1K]": [
+    3.5906,
+    50.4492
+  ],
+  "Lescar (France) [1K]": [
+    -0.4161,
+    43.325
+  ],
+  "Lesquin (France) [1K]": [
+    3.1111,
+    50.5897
+  ],
+  "Arques (France) [1K]": [
+    2.3025,
+    50.7356
+  ],
+  "Figeac (France) [1K]": [
+    2.0317,
+    44.6086
+  ],
+  "Aire-sur-la-Lys (France) [1K]": [
+    2.3967,
+    50.6386
+  ],
+  "Lambesc (France) [1K]": [
+    5.2619,
+    43.6539
+  ],
+  "Saint-Pierre-du-Mont (France) [1K]": [
+    -0.5194,
+    43.8825
+  ],
+  "Blain (France) [1K]": [
+    -1.7636,
+    47.4761
+  ],
+  "Mont-Saint-Martin (France) [1K]": [
+    5.7794,
+    49.5406
+  ],
+  "Nogent-le-Rotrou (France) [1K]": [
+    0.8217,
+    48.3217
+  ],
+  "Saint-Doulchard (France) [1K]": [
+    2.3728,
+    47.0997
+  ],
+  "Aytre (France) [1K]": [
+    -1.1144,
+    46.1342
+  ],
+  "Aizenay (France) [1K]": [
+    -1.6083,
+    46.74
+  ],
+  "Saint-Amand-Montrond (France) [1K]": [
+    2.505,
+    46.7228
+  ],
+  "Merville (France) [1K]": [
+    2.6403,
+    50.6439
+  ],
+  "Foix (France) [1K]": [
+    1.6069,
+    42.9653
+  ],
+  "Magny-les-Hameaux (France) [1K]": [
+    2.0842,
+    48.7239
+  ],
+  "Margny-les-Compiegne (France) [1K]": [
+    2.8208,
+    49.4261
+  ],
+  "Saint-Lys (France) [1K]": [
+    1.1775,
+    43.5142
+  ],
+  "Ploermel (France) [1K]": [
+    -2.3975,
+    47.9317
+  ],
+  "Treillieres (France) [1K]": [
+    -1.6267,
+    47.3308
+  ],
+  "Saint-Remy-de-Provence (France) [1K]": [
+    4.8317,
+    43.7894
+  ],
+  "Ingre (France) [1K]": [
+    1.8242,
+    47.9206
+  ],
+  "Cosne sur Loire (France) [1K]": [
+    2.925,
+    47.4103
+  ],
+  "Revel (France) [1K]": [
+    2.0042,
+    43.4586
+  ],
+  "Redon (France) [1K]": [
+    -2.0847,
+    47.6514
+  ],
+  "Lucon (France) [1K]": [
+    -1.1658,
+    46.4547
+  ],
+  "Beuvry (France) [1K]": [
+    2.6794,
+    50.5197
+  ],
+  "Aulnoye-Aymeries (France) [1K]": [
+    3.8356,
+    50.2047
+  ],
+  "Seysses (France) [1K]": [
+    1.3125,
+    43.4981
+  ],
+  "Breuillet (France) [1K]": [
+    2.1714,
+    48.5661
+  ],
+  "Artigues-pres-Bordeaux (France) [1K]": [
+    -0.4936,
+    44.8606
+  ],
+  "Saint-Barthelemy-d'Anjou (France) [1K]": [
+    -0.495,
+    47.4675
+  ],
+  "Veauche (France) [1K]": [
+    4.2781,
+    45.5619
+  ],
+  "Couzeix (France) [1K]": [
+    1.2386,
+    45.8761
+  ],
+  "Basse-Goulaine (France) [1K]": [
+    -1.4656,
+    47.2153
+  ],
+  "La Ravoire (France) [1K]": [
+    5.9664,
+    45.5569
+  ],
+  "Scionzier (France) [1K]": [
+    6.55,
+    46.0572
+  ],
+  "Joigny (France) [1K]": [
+    3.3972,
+    47.9822
+  ],
+  "Leguevin (France) [1K]": [
+    1.2331,
+    43.5989
+  ],
+  "Ussel (France) [1K]": [
+    2.3092,
+    45.5481
+  ],
+  "Irigny (France) [1K]": [
+    4.8225,
+    45.6731
+  ],
+  "Saint-Sulpice-la-Pointe (France) [1K]": [
+    1.6864,
+    43.7742
+  ],
+  "Golbey (France) [1K]": [
+    6.4372,
+    48.1958
+  ],
+  "Loudeac (France) [1K]": [
+    -2.7533,
+    48.1778
+  ],
+  "Cebazat (France) [1K]": [
+    3.1,
+    45.8314
+  ],
+  "Elne (France) [1K]": [
+    2.9711,
+    42.6003
+  ],
+  "Morieres-les-Avignon (France) [1K]": [
+    4.9047,
+    43.9417
+  ],
+  "Landivisiau (France) [1K]": [
+    -4.0683,
+    48.5092
+  ],
+  "Vallet (France) [1K]": [
+    -1.2669,
+    47.1617
+  ],
+  "Voreppe (France) [1K]": [
+    5.6369,
+    45.2978
+  ],
+  "Belley (France) [1K]": [
+    5.6881,
+    45.7592
+  ],
+  "Valreas (France) [1K]": [
+    4.9903,
+    44.3842
+  ],
+  "Paray-le-Monial (France) [1K]": [
+    4.1194,
+    46.4511
+  ],
+  "La Grande-Motte (France) [1K]": [
+    4.085,
+    43.5606
+  ],
+  "Parempuyre (France) [1K]": [
+    -0.605,
+    44.9492
+  ],
+  "Orchies (France) [1K]": [
+    3.2442,
+    50.4747
+  ],
+  "Gonfreville-l'Orcher (France) [1K]": [
+    0.2331,
+    49.5053
+  ],
+  "Onnaing (France) [1K]": [
+    3.5981,
+    50.3878
+  ],
+  "Perigny (France) [1K]": [
+    -1.0964,
+    46.1528
+  ],
+  "La Chapelle d'Armentieres (France) [1K]": [
+    2.895,
+    50.6728
+  ],
+  "La Ferte-Bernard (France) [1K]": [
+    0.6544,
+    48.1867
+  ],
+  "Capbreton (France) [1K]": [
+    -1.4322,
+    43.6419
+  ],
+  "Lillebonne (France) [1K]": [
+    0.5375,
+    49.5208
+  ],
+  "Les Sorinieres (France) [1K]": [
+    -1.5294,
+    47.1483
+  ],
+  "Livron-sur-Drome (France) [1K]": [
+    4.8431,
+    44.7728
+  ],
+  "Le Muy (France) [1K]": [
+    6.5664,
+    43.4725
+  ],
+  "Savenay (France) [1K]": [
+    -1.9419,
+    47.3611
+  ],
+  "Gouvieux (France) [1K]": [
+    2.4161,
+    49.1878
+  ],
+  "Le Rheu (France) [1K]": [
+    -1.7956,
+    48.1019
+  ],
+  "Lamorlaye (France) [1K]": [
+    2.4408,
+    49.155
+  ],
+  "Tonneins (France) [1K]": [
+    0.3083,
+    44.3897
+  ],
+  "Sene (France) [1K]": [
+    -2.7372,
+    47.6197
+  ],
+  "Chaponost (France) [1K]": [
+    4.7422,
+    45.7103
+  ],
+  "Lempdes (France) [1K]": [
+    3.1936,
+    45.7711
+  ],
+  "Dardilly (France) [1K]": [
+    4.7531,
+    45.8056
+  ],
+  "Le Petit-Couronne (France) [1K]": [
+    1.0275,
+    49.3856
+  ],
+  "La Fare-les-Oliviers (France) [1K]": [
+    5.1947,
+    43.5517
+  ],
+  "Longvic (France) [1K]": [
+    5.0636,
+    47.2878
+  ],
+  "Isbergues (France) [1K]": [
+    2.4567,
+    50.6233
+  ],
+  "Grabels (France) [1K]": [
+    3.8017,
+    43.6481
+  ],
+  "Vendin-le-Vieil (France) [1K]": [
+    2.8661,
+    50.4739
+  ],
+  "Clermont-l'Herault (France) [1K]": [
+    3.4322,
+    43.6272
+  ],
+  "Le Thor (France) [1K]": [
+    4.9944,
+    43.9292
+  ],
+  "Nangis (France) [1K]": [
+    3.0147,
+    48.555
+  ],
+  "Saint-Paul-Trois-Chateaux (France) [1K]": [
+    4.7686,
+    44.3489
+  ],
+  "Saint-Claude (France) [1K]": [
+    5.8633,
+    46.3872
+  ],
+  "Saint-Philbert-de-Grand-Lieu (France) [1K]": [
+    -1.64,
+    47.035
+  ],
+  "Roquevaire (France) [1K]": [
+    5.6047,
+    43.3494
+  ],
+  "Nort-sur-Erdre (France) [1K]": [
+    -1.4983,
+    47.4394
+  ],
+  "Checy (France) [1K]": [
+    2.0269,
+    47.8936
+  ],
+  "Notre-Dame-de-Gravenchon (France) [1K]": [
+    0.5711,
+    49.4892
+  ],
+  "Thorigne-Fouillard (France) [1K]": [
+    -1.5797,
+    48.1597
+  ],
+  "Bellerive-sur-Allier (France) [1K]": [
+    3.4042,
+    46.1164
+  ],
+  "L'Isle-Jourdain (France) [1K]": [
+    1.0808,
+    43.6136
+  ],
+  "Rivesaltes (France) [1K]": [
+    2.8739,
+    42.7689
+  ],
+  "Lorgues (France) [1K]": [
+    6.3611,
+    43.4933
+  ],
+  "Gretz-Armainvilliers (France) [1K]": [
+    2.7342,
+    48.7411
+  ],
+  "Le Teil (France) [1K]": [
+    4.6822,
+    44.5453
+  ],
+  "Tournan-en-Brie (France) [1K]": [
+    2.7681,
+    48.7406
+  ],
+  "Queven (France) [1K]": [
+    -3.4153,
+    47.7886
+  ],
+  "Entraigues-sur-la-Sorgue (France) [1K]": [
+    4.9267,
+    44.0031
+  ],
+  "Grenade (France) [1K]": [
+    1.2931,
+    43.7714
+  ],
+  "Lancon-Provence (France) [1K]": [
+    5.1281,
+    43.5925
+  ],
+  "Borgo (France) [1K]": [
+    9.4275,
+    42.5539
+  ],
+  "Monistrol-sur-Loire (France) [1K]": [
+    4.1722,
+    45.2925
+  ],
+  "Hirson (France) [1K]": [
+    4.0839,
+    49.9217
+  ],
+  "Saint-Jean-d'Illac (France) [1K]": [
+    -0.7836,
+    44.8097
+  ],
+  "Thaon-les-Vosges (France) [1K]": [
+    6.4195,
+    48.2505
+  ],
+  "Crest (France) [1K]": [
+    5.0222,
+    44.7283
+  ],
+  "Sarlat-la-Caneda (France) [1K]": [
+    1.2167,
+    44.89
+  ],
+  "Marguerittes (France) [1K]": [
+    4.4439,
+    43.86
+  ],
+  "Domerat (France) [1K]": [
+    2.5344,
+    46.3603
+  ],
+  "Saint-Vallier (France) [1K]": [
+    4.3711,
+    46.6419
+  ],
+  "Velaux (France) [1K]": [
+    5.2539,
+    43.5225
+  ],
+  "Sarzeau (France) [1K]": [
+    -2.7697,
+    47.5272
+  ],
+  "Saint-Chamas (France) [1K]": [
+    5.0347,
+    43.5503
+  ],
+  "Pibrac (France) [1K]": [
+    1.2847,
+    43.6169
+  ],
+  "Vif (France) [1K]": [
+    5.67,
+    45.0553
+  ],
+  "Guichen (France) [1K]": [
+    -1.795,
+    47.9675
+  ],
+  "Coutras (France) [1K]": [
+    -0.1289,
+    45.0408
+  ],
+  "Saint-Jean-de-Monts (France) [1K]": [
+    -2.0603,
+    46.7928
+  ],
+  "Audenge (France) [1K]": [
+    -1.0133,
+    44.6836
+  ],
+  "Chamonix-Mont-Blanc (France) [1K]": [
+    6.8689,
+    45.9222
+  ],
+  "Le Poire-sur-Vie (France) [1K]": [
+    -1.5083,
+    46.7686
+  ],
+  "Aigues-Mortes (France) [1K]": [
+    4.1925,
+    43.5667
+  ],
+  "Plabennec (France) [1K]": [
+    -4.4261,
+    48.5019
+  ],
+  "Mauleon (France) [1K]": [
+    -0.7497,
+    46.9228
+  ]
+}
