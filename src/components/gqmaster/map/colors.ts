@@ -20,6 +20,8 @@ export const getLocationColor = (colorComparator: string, locationType: string) 
       return getCityColor(colorComparator);
     case "bus-stops":
       return getBusStopColor(colorComparator);
+    case "london-underground":
+      return getUndergroundColor(colorComparator);
   }
 };
 
@@ -51,6 +53,7 @@ const getMrtColor = (colorComparator: string) => {
     case "JS":
       return "jr-500";
     case "CR":
+    case "CP":
       return "cr-500";
     default:
       return "lrt-500";
@@ -95,4 +98,37 @@ const getBusStopColor = (colorComparator: string) => {
   if (commas > 5) return "tw-400";
   if (commas > 2) return "tw-200";
   return "white";
+}
+
+const getUndergroundColor = (colorComparator: string) => {
+  const bracketRegex = /\([^)]*\)/gi;
+  const bracketValues = colorComparator.match(bracketRegex);
+  if (!bracketValues) return "white";
+  const bracketValue = bracketValues[0];
+  const key = bracketValue.match(/[A-Z]+/gi);
+  if (!key) return "white";
+  switch (key[0]) {
+    case "District":
+      return "dis-500";
+    case "Piccadilly":
+      return "pic-500";
+    case "Metropolitan":
+      return "met-500";
+    case "Circle":
+      return "cir-500";
+    case "Hammersmith":
+      return "ham-500";
+    case "Northern":
+      return "nor-500";
+    case "Bakerloo":
+      return "bak-500";
+    case "Jubilee":
+      return "jub-500";
+    case "Waterloo":
+      return "wat-500";
+    case "Central":
+      return "cen-500";
+    case "Victoria":
+      return "vic-500";
+  }
 }
