@@ -20,14 +20,6 @@
 </style>
 
 <script is:inline>
-  function handleDark(doc) {
-    doc.documentElement.classList.add('dark');
-  }
-
-  function handleLight(doc) {
-    doc.documentElement.classList.remove('dark');
-  }
-
   const theme = (() => {
     if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
       return localStorage.getItem('theme');
@@ -39,9 +31,9 @@
   })();
 
   if (theme === 'light') {
-    handleLight(document);
+    document.documentElement.classList.remove('dark');
   } else {
-    handleDark(document);
+    document.documentElement.classList.add('dark');
   }
 
   window.localStorage.setItem('theme', theme);
@@ -52,15 +44,13 @@
 
     const isDark = element.classList.contains("dark");
     localStorage.setItem("theme", isDark ? "dark" : "light");
-    if (isDark) handleDark(document);
-    else handleLight(document);
   }
 
   document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
   document.addEventListener('astro:before-swap', ev => {
     ev.newDocument.getElementById("themeToggle").addEventListener("click", handleToggleClick);
     const theme = localStorage.getItem('theme');
-    if (theme === 'dark') handleDark(ev.newDocument);
-    else handleLight(ev.newDocument);
+    if (theme === 'dark') ev.newDocument.documentElement.classList.add('dark');
+    else ev.newDocument.documentElement.classList.remove('dark');
   });
 </script>
