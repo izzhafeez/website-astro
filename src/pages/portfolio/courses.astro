@@ -79,7 +79,7 @@ const heroText = portfolioData.courses.heroText;
     <Hero label="COURSES" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
       {courses.slice(0,14).map(course => <CoursePreview course={course} isEager={true}/>)}
-      {courses.slice(14).map(course => <CoursePreview course={course}/>)}
+      {courses.slice(14).map(course => <CoursePreview course={course} client:visible/>)}
     </section>
     <Footer color="ew"/>
   </div>
