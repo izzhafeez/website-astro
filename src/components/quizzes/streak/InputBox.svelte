@@ -201,7 +201,7 @@
       <label for="guess" class="dark:text-white">Your Guess:</label>
       <div class="flex flex-wrap gap-2 mt-2">
         {#each options as option}
-        <button on:click={handleClick} class="bg-hp-300/20 py-1 px-2 rounded-full text-hp-500 dark:text-hp-300 hover:bg-hp-300/50">{option.answer}</button>
+        <button on:click={handleClick} class="bg-hp-300/20 py-1 px-2 rounded-full text-hp-700 dark:text-hp-300 hover:bg-hp-300/50">{option.answer}</button>
         {/each}
       </div>
       {:else}
