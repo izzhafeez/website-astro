@@ -18,11 +18,11 @@ switch (site) {
 ---
 
 <a transition:name={key} role="button" href={href} id={key} class={`group w-full ${neonColor} p-4 rounded-lg flex gap-4`}>
+  {imgPath && <Image src={imgPath} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video" loading={isEager && 'eager'}/>}
   <div>
     <h2 transition:name={title.toUpperCase()} class={`${textColor} font-medium dark:text-white flex items-center gap-2`}>  
       {title} 
     </h2>
     <p transition:name={heroText} class="text-gray-500 text-sm my-2">{heroText}</p>
   </div>
-  {imgPath && <Image src={imgPath} alt={title} width="130" height="100" class="h-24 w-32 object-cover ms-auto aspect-video" loading={isEager && 'eager'}/>}
 </a>
