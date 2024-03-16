@@ -14,6 +14,11 @@
     "instructions": "How many bus stops in Singapore can you name?",
     "rank": 1
   },
+  "malls": {
+    "title": "Malls of Singapore",
+    "instructions": "How many malls in Singapore can you name?",
+    "rank": 2
+  },
   "london-underground": {
     "title": "London Underground Stations",
     "instructions": "How many London Underground stations can you name?",
