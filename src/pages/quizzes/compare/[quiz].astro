@@ -1,9 +1,17 @@
 ---
 import subzonePopulationData from "../../../data/quizzes/compare/subzone-population.json";
+import mrtLongitudeData from "../../../data/quizzes/compare/mrt-longitude.json";
+import mrtLatitudeData from "../../../data/quizzes/compare/mrt-latitude.json";
+import mallsLongitudeData from "../../../data/quizzes/compare/malls-longitude.json";
+import mallsLatitudeData from "../../../data/quizzes/compare/malls-latitude.json";
+import mallsAreaData from "../../../data/quizzes/compare/malls-area.json";
+import mallsYearData from "../../../data/quizzes/compare/malls-year.json";
+import mallsStoresData from "../../../data/quizzes/compare/malls-stores.json";
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import { AstroSeo } from "@astrolib/seo";
+import compareQuizData from "../../../data/quizzes/compare.json";
 
 export function getStaticPaths() {
   return [
@@ -14,14 +22,92 @@ export function getStaticPaths() {
       props: {
         title: "Subzone Population",
         data: subzonePopulationData,
-        instructions: "Compare the population of different subzones in Singapore."
+        instructions: compareQuizData["subzone-population"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "mrt-longitude"
+      },
+      props: {
+        title: "MRT Longitude",
+        data: mrtLongitudeData,
+        instructions: compareQuizData["mrt-longitude"].instructions,
+        decimalPlaces: 4,
+        startNumber: 103.6,
+      }
+    },
+    {
+      params: {
+        quiz: "mrt-latitude"
+      },
+      props: {
+        title: "MRT Latitude",
+        data: mrtLatitudeData,
+        instructions: compareQuizData["mrt-latitude"].instructions,
+        decimalPlaces: 4,
+        startNumber: 1.2,
+      }
+    },
+    {
+      params: {
+        quiz: "malls-longitude"
+      },
+      props: {
+        title: "Malls Longitude",
+        data: mallsLongitudeData,
+        instructions: compareQuizData["malls-longitude"].instructions,
+        decimalPlaces: 4,
+        startNumber: 103.6,
+      }
+    },
+    {
+      params: {
+        quiz: "malls-latitude"
+      },
+      props: {
+        title: "Malls Latitude",
+        data: mallsLatitudeData,
+        instructions: compareQuizData["malls-latitude"].instructions,
+        decimalPlaces: 4,
+        startNumber: 1.2,
+      }
+    },
+    {
+      params: {
+        quiz: "malls-area"
+      },
+      props: {
+        title: "Malls Area",
+        data: mallsAreaData,
+        instructions: compareQuizData["malls-area"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "malls-year"
+      },
+      props: {
+        title: "Malls Year",
+        data: mallsYearData,
+        instructions: compareQuizData["malls-year"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "malls-stores"
+      },
+      props: {
+        title: "Malls Stores",
+        data: mallsStoresData,
+        instructions: compareQuizData["malls-stores"].instructions
       }
     }
   ]
 }
 
 export const prerender = true;
-const { data, title, instructions } = Astro.props;
+const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
 ---
 <AstroSeo
   title={Astro.props.title + " | Izz Hafeez"}
@@ -47,7 +133,7 @@ const { data, title, instructions } = Astro.props;
     <div class="fixed z-50">
       <NavBar opacity={true}/>
     </div>
-    <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz}/>
+    <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
