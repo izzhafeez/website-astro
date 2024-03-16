@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 
 const { music, isEager } = Astro.props;
 ---
-<div id={music.key} class="rounded-lg p-4 flex items-center group hover:neon-ew">
+<div id={music.key} class="rounded-lg p-4 grid lg:flex gap-4 items-center group hover:neon-ew">
   <div>
     <h2 class="font-medium flex items-center gap-2 dark:text-white group-hover:text-ew-500 dark:group-hover:text-ew-300">{music.title} 
       <a href={`/music/${music.title}.pdf`}><Image alt="pdf" width="15" height="15" src="/img/common/pdf.svg" class="h-4 dark:invert hover:opacity-50" loading={isEager ? 'eager': 'lazy'}/></a> 
@@ -11,7 +11,7 @@ const { music, isEager } = Astro.props;
     </h2>
     <p class="text-gray-500 text-sm">{music.artist}</p>
   </div>
-  <div class="ms-auto">
+  <div class="lg:ms-auto">
     <audio controls>
       <source src={`/music/${music.title}.mp3`} type="audio/mpeg">
     </audio>
