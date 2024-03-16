@@ -5,10 +5,10 @@
     "imgPath": "builder-pal.jpg",
     "overview": "AI-powered project recommender for kids",
     "related": [
-      "portfolio/skills#react",
-      "portfolio/skills#generative-ai",
-      "portfolio/skills#javascript",
-      "portfolio/skills#ux-design"
+      "React",
+      "Generative AI",
+      "JavaScript",
+      "UX Design"
     ]
   },
   "chit-chat-champion": {
@@ -18,12 +18,12 @@
     "imgPath": "chit-chat-champion.jpg",
     "rank": 2,
     "related": [
-      "portfolio/skills#vue",
-      "portfolio/skills#generative-ai",
-      "portfolio/skills#flask",
-      "portfolio/skills#tailwind",
-      "portfolio/skills#javascript",
-      "portfolio/skills#ux-design"
+      "Vue",
+      "Generative AI",
+      "Flask",
+      "Tailwind",
+      "JavaScript",
+      "UX Design"
     ]
   },
   "edu-mate": {
@@ -31,11 +31,12 @@
     "overview": "Address book that facilitates scheduling meetups with friends based on location and availability",
     "imgPath": "edu-mate.jpg",
     "related": [
-      "portfolio/courses#cs2103t",
-      "portfolio/skills#java",
-      "portfolio/skills#plant-uml",
-      "portfolio/skills#software-engineering",
-      "portfolio/skills#software-testing"
+      "Java",
+      "PlantUML",
+      "Software Engineering",
+      "Software Testing",
+      "JUnit",
+      "Documentation"
     ]
   },
   "malls-card-game": {
@@ -43,13 +44,13 @@
     "overview": "Statistics-driven card game centered around the malls of Singapore",
     "imgPath": "malls-card-game.jpg",
     "related": [
-      "portfolio/skills#data-science",
-      "portfolio/skills#selenium",
-      "portfolio/skills#pandas",
-      "portfolio/skills#python",
-      "portfolio/skills#go",
-      "portfolio/skills#angular",
-      "portfolio/skills#typescript"
+      "Data Science",
+      "Selenium",
+      "Pandas",
+      "Python",
+      "Go",
+      "Angular",
+      "TypeScript"
     ]
   },
   "note-together": {
@@ -57,11 +58,11 @@
     "overview": "Note-sharing platform that incorporates Reddit and GitHub-like features",
     "imgPath": "note-together.jpg",
     "related": [
-      "portfolio/skills#javascript",
-      "portfolio/skills#vue",
-      "portfolio/skills#express",
-      "portfolio/skills#mongo-db",
-      "portfolio/skills#postman"
+      "JavaScript",
+      "Vue",
+      "Express",
+      "MongoDB",
+      "Postman"
     ]
   },
   "website-v0": {
@@ -75,8 +76,8 @@
     "imgPath": "website-v1.jpg",
     "overview": "Personal website focused on creating modals, navigation tools and aesthetic animations",
     "related": [
-      "portfolio/skills#html",
-      "portfolio/skills#css"
+      "HTML",
+      "CSS"
     ]
   },
   "website-v2": {
@@ -85,8 +86,8 @@
     "imgPath": "website-v2.jpg",
     "overview": "Personal website focused on neatly hiding away content behind dropdowns",
     "related": [
-      "portfolio/skills#html",
-      "portfolio/skills#css"
+      "HTML",
+      "CSS"
     ]
   },
   "website-v3": {
@@ -95,10 +96,10 @@
     "imgPath": "website-v3.jpg",
     "overview": "Personal website focused on CSS selectors and a static sidemenu",
     "related": [
-      "portfolio/skills#html",
-      "portfolio/skills#css",
-      "portfolio/skills#javascript",
-      "portfolio/skills#php"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
     ]
   },
   "website-v4": {
@@ -107,10 +108,10 @@
     "imgPath": "website-v4.jpg",
     "overview": "Personal website featuring improved search functionality and more vibrant color scheme",
     "related": [
-      "portfolio/skills#html",
-      "portfolio/skills#css",
-      "portfolio/skills#javascript",
-      "portfolio/skills#php"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
     ]
   },
   "website-v5": {
@@ -119,11 +120,11 @@
     "imgPath": "website-v5.jpg",
     "overview": "Personal website featuring React SPA and a notes renderer",
     "related": [
-      "portfolio/skills#react",
-      "portfolio/skills#javascript",
-      "portfolio/skills#bootstrap",
-      "portfolio/skills#html",
-      "portfolio/skills#css"
+      "React",
+      "JavaScript",
+      "Bootstrap",
+      "HTML",
+      "CSS"
     ]
   },
   "website-v6": {
@@ -133,10 +134,10 @@
     "rank": 2,
     "overview": "Personal website featuring quizzes, games and OpenLayers integration for showcasing hikes",
     "related": [
-      "portfolio/skills#react",
-      "portfolio/skills#javascript",
-      "portfolio/skills#openlayers",
-      "portfolio/skills#tailwind"
+      "React",
+      "JavaScript",
+      "OpenLayers",
+      "Tailwind"
     ]
   },
   "website-v7": {
@@ -146,12 +147,12 @@
     "imgPath": "website-v7.jpg",
     "overview": "Personal website featuring multiple frameworks, apps and paradigms",
     "related": [
-      "portfolio/skills#astro",
-      "portfolio/skills#svelte",
-      "portfolio/skills#typescript",
-      "portfolio/skills#openlayers",
-      "portfolio/skills#vue",
-      "portfolio/skills#tailwind"
+      "Astro",
+      "Svelte",
+      "TypeScript",
+      "OpenLayers",
+      "Vue",
+      "Tailwind"
     ]
   }
 }
