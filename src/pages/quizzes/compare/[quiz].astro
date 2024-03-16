@@ -47,7 +47,7 @@ const { data, title, instructions } = Astro.props;
     <div class="fixed z-50">
       <NavBar opacity={true}/>
     </div>
-    <CompareQuiz client:load data={data} title={title} instructions={instructions}/>
+    <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz}/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">

@@ -242,8 +242,8 @@ for (const [k, v] of Object.entries(data)) {
   <div slot="main" class="">
     <NavBar/>
     <div class="p-2">
-      <h1 class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
-      <p class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
+      <h1 transition:name={Astro.params.quiz} class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
+      <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
     </div>
     <MapQuiz client:only="svelte" locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
   </div>

@@ -17,5 +17,5 @@ const imgPath = `/img/portfolio/projects/${project.imgPath}`;
     <p class="text-gray-500 text-sm my-2">{project.overview}</p>
     <div class="flex flex-wrap gap-1 my-2">{project.related.map((related: string) => <Related text={related}/>)}</div>
   </div>
-  {imgPath && <Image src={imgPath} alt={project.title} width="250" height="150" class="w-60 object-cover ms-auto aspect-video" loading={isEager ? 'eager' : 'lazy'}/>}
+  {imgPath && <Image src={imgPath} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover ms-auto aspect-video" loading={isEager ? 'eager' : 'lazy'}/>}
 </div>

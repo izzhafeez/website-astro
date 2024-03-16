@@ -1,8 +1,13 @@
 <script>
+import { fullSanitise } from "utils/string";
+export let key;
 export let title;
 export let data;
 export let instructions;
-let dataList = Object.entries(data).map(([k, v]) => ({ name: k, quantity: v }));
+let dataList = Object.entries(data).map(([k, v]) => {
+  const { cleanText, searchTerms } = fullSanitise(k);
+  return { name: cleanText, imgPath: `/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v }
+});
 let left;
 let right;
 let rightPlaceholder = 0;
@@ -138,7 +143,8 @@ function handleFail(_) {
 </div>
 <div class='grid grid-cols-2 divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
   <div class='grid gap-2 items-center content-center text-center p-4'>
-    <div class="h-32">
+    <div class="h-32 grid justify-center">
+      <img src={left.imgPath} alt={left.name} class="w-32 h-32 rounded-full" />
       <h2 class="font-bold dark:text-white text-xl">{left.name}</h2>
       <p class="text-5xl text-gray-500">{left.quantity}</p>
     </div>
