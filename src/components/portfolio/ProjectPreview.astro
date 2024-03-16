@@ -8,8 +8,8 @@ const imgPath = `/img/portfolio/projects/${project.imgPath}`;
   <div>
     <h2 transition:name={project.key} class="group-hover:text-ew-500 dark:group-hover:text-ew-300 font-medium dark:text-white flex items-center gap-2">  
       {project.title} 
-      {project.link && <a href={project.link} class="underline text-black dark:text-white cursor-pointer"><Image alt="link" src='/img/common/link.svg' class="dark:invert hover:opacity-50 h-5" width="25" height="25" loading={isEager ? 'eager' : 'lazy'}/></a>} 
-      {project.repo && <a href={project.repo} class="underline text-black dark:text-white cursor-pointer"><Image alt="repo" src='/img/logos/github.svg' class="dark:invert hover:opacity-50 h-4" width="25" height="25" loading={isEager ? 'eager' : 'lazy'}/></a>}
+      {project.link && <a href={project.link} class="underline text-black dark:text-white cursor-pointer"><Image alt="link" src='/img/common/link.svg' class="dark:invert hover:opacity-50 h-5" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>} 
+      {project.repo && <a href={project.repo} class="underline text-black dark:text-white cursor-pointer"><Image alt="repo" src='/img/logos/github.svg' class="dark:invert hover:opacity-50 h-4" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>}
     </h2>
     <div class="mb-2">
       <p class="text-gray-500 text-sm">{project.duration}</p>
