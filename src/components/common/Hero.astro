@@ -1,18 +1,19 @@
 ---
 const { site } = Astro.props;
 
-let bgColor = 'bg-lrt-500';
+let bgColor = 'bg-lrt-500/80';
 
 switch (site) {
   case 'portfolio':
-    bgColor = 'bg-ew-500';
+    bgColor = 'bg-ew-500/80';
     break;
   case 'quizzes':
     bgColor = 'bg-ns-500';
     break;
 }
 ---
-<div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen">
+<div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen" style={`background-image: url('/img/heroes/${Astro.props.label}.jpg'); background-repeat:no-repeat; background-position: center center;`}>
+  <!-- <div class={`bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center text-center p-8`}>> -->
   <div class={`${bgColor} w-screen h-80 overflow-clip grid content-center p-8`}>
     <div class="max-w-6xl mx-auto">
       <h1 transition:name={Astro.props.label} class="font-extrabold text-xl text-white mb-2">{Astro.props.label}</h1>
