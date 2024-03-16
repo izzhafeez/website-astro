@@ -1,91 +1,89 @@
 ---
-import { Image } from 'astro:assets';
-import { capitalise } from '../../utils/string';
-import ThemeIcon from './ThemeIcon.astro';
-type Option = { href:string, label:string };
-const pathName = Astro.url.pathname;
-const path = typeof(pathName) === 'string' ? pathName.split('/') : []; 
-const { opacity } = Astro.props;
-
-function getOptions() {
-  if (path.length < 3) {
-    return [
-      { href: '/portfolio', label: 'portfolio' },
-      { href: '/quizzes', label: 'quizzes'}
-    ]
-  }
-
-  const site = path[1];
-
-  switch (site) {
-    case 'portfolio':
-      return [
-        { href: '/portfolio/art', label: 'art' },
-        { href: '/portfolio/courses', label: 'courses' },
-        { href: '/portfolio/experience', label: 'experience' },
-        { href: '/portfolio/music', label: 'music' },
-        { href: '/portfolio/projects', label: 'projects' },
-        { href: '/portfolio/skills', label: 'skills' },
-      ];
-    case 'quizzes': 
-      return [
-        { href: '/quizzes/map', label: 'map' },
-        { href: '/quizzes/streak', label: 'streak' },
-        { href: '/quizzes/compare', label: 'compare'}
-      ];
-  }
-
-  return [];
-}
-
-function getHref() {
-  if (path.length === 2) return '';
-  return path[1];
-}
-
-function getLabel(href: string) {
-  switch (href) {
-    case 'portfolio': return 'Portfolio';
-    case 'quizzes': return 'Quizzes';
-  }
-}
-
-function getHoverColor() {
-  if (path.length === 2) {
-    return 'hover:bg-gray-500/20 dark:hover:bg-gray-300/20';
-  }
-
-  const site = path[1];
-  switch (site) {
-    case 'portfolio': 
-      return 'hover:bg-ew-500/20 dark:hover:bg-ew-300/20';
-    case 'quizzes': 
-      return 'hover:bg-ns-500/20 dark:hover:bg-ns-300/20';
-    default:
-      return 'hover:bg-gray-500/20 dark:hover:bg-gray-300/20';
-  }
-}
-
-const href = getHref();
-const label = getLabel(href);
-
-const options: Option[] = getOptions();
+import {
+Astronav,
+MenuItems,
+MenuIcon,
+Dropdown,
+DropdownItems,
+} from "astro-navbar";
+import ThemeIcon from "./ThemeIcon.astro";
+// https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
 ---
-<div>
-  <div class="h-20"></div>
-  <nav class={`${!opacity && 'bg-white dark:bg-black'} border-gray-200 dark:border-gray-700 z-40 h-20 items-center flex top-0 w-screen fixed`} transition:name="nav-bar">
-    <div class="text-white p-4 flex gap-4">
-      <a href="/" class="w-10">
-        <Image src="/img/desmosito-black-trans.png" class="h-10 dark:invert" alt="Desmosito" height="60" width="60" loading="eager"/>
-      </a>
-      <a href={'/' + href} class="grid place-items-center">
-        <h1 class="text-black dark:text-white font-extrabold text-xl">{label || 'Izz Hafeez'}</h1>
-      </a>
+<header class="lg:flex justify-between p-5 gap-5 mx-auto container dark:text-white">
+  <Astronav closeOnClick>
+    <div class="flex w-full lg:w-auto justify-between items-center">
+      <a href="/"><img src="/img/desmosito-black-trans.png" class="dark:invert w-6 h-6"/></a>
+      <div class="lg:hidden grid items-center">
+        <MenuIcon class="w-6 h-6 text-gray-800 dark:invert" />
+      </div>
     </div>
-    <div class="ms-auto items-center gap-2 h-20 p-4 flex">
-      {options.map(option => <a href={option.href} class={`p-2 rounded-lg text-black dark:text-white dark:hover:text-white ${getHoverColor()} hidden lg:block`}>{capitalise(option.label)}</a>)}
-      {options.map(option => <div class="grid justify-items-center lg:hidden"><a href={option.href} class="p-2 rounded-lg text-black dark:text-white hover:bg-ew-500/20 dark:hover:bg-ew-300/20 dark:hover:text-white block lg:hidden peer"><img src={`/img/common/${option.label}.svg`} class="h-[20px] w-[20px] dark:invert"/></a><div class="absolute mt-12 p-2 hidden bg-black text-white dark:bg-white dark:text-black rounded-lg peer-hover:block">{capitalise(option.label)}</div></div>)}
-      <ThemeIcon/>
-    </div>
-  </nav>
-</div>
+    <MenuItems class="hidden lg:flex">
+      <ul class="flex gap-2 flex-col lg:flex-row lg:gap-5">
+        <li>
+          <Dropdown class="group">
+            <button class="flex items-center">
+              <span class="">Portfolio</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="w-3 h-3 mt-0.5 group-open:rotate-180">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <DropdownItems class="relative">
+              <div
+                class="lg:absolute bg-white dark:bg-black top-2 w-40 border shadow rounded right-0">
+                <ul class="grid">
+                  <a href="/portfolio/art" class="hover:bg-ew-500 px-2 py-1">Art</a>
+                  <a href="/portfolio/courses" class="hover:bg-ew-500 px-2 py-1">Courses</a>
+                  <a href="/portfolio/experience" class="hover:bg-ew-500 px-2 py-1">Experience</a>
+                  <a href="/portfolio/music" class="hover:bg-ew-500 px-2 py-1">Music</a>
+                  <a href="/portfolio/projects" class="hover:bg-ew-500 px-2 py-1">Projects</a>
+                  <a href="/portfolio/skills" class="hover:bg-ew-500 px-2 py-1">Skills</a>
+                </ul>
+              </div>
+            </DropdownItems>
+          </Dropdown>
+        </li>
+        <li>
+          <Dropdown class="group">
+            <button class="flex items-center">
+              <span class="">Quizzes</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="w-3 h-3 mt-0.5 group-open:rotate-180">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <DropdownItems class="relative">
+              <div
+                class="lg:absolute bg-white dark:bg-black top-2 w-40 border shadow rounded right-0">
+                <ul class="grid">
+                  <a href="/quizzes/map" class="hover:bg-ns-500 px-2 py-1">Map</a>
+                  <a href="/quizzes/streak" class="hover:bg-ns-500 px-2 py-1">Streak</a>
+                  <a href="/quizzes/compare" class="hover:bg-ns-500 px-2 py-1">Compare</a>
+                </ul>
+              </div>
+            </DropdownItems>
+          </Dropdown>
+        </li>
+        <li class="grid items-center">
+          <ThemeIcon/>
+        </li>
+      </ul>
+    </MenuItems>
+  </Astronav>
+</header>
