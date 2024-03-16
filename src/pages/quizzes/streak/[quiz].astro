@@ -17,7 +17,7 @@ export async function getStaticPaths() {
       props: {
         title: "AWS Products",
         data: awsProductsData,
-        instructions: "Guess the AWS product based on the given prompt. Answers are case and space-insensitive. Use regex to choose what products you would like to include in the quiz (e.g. 'am' will match products like 'AWS Lambda' and 'AWS GameKit'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        instructions: "Guess the AWS product based on the given prompt. Answers are case and space-insensitive. Use regex to choose what products you would like to include in the quiz (tip: try typing 'am' or 'Amazon' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     },
@@ -26,7 +26,7 @@ export async function getStaticPaths() {
       props: {
         title: "Hello World",
         data: helloWorldData,
-        instructions: "Guess the language based on the its translation of 'Hello World'. Answers are case and space-insensitive. Use regex to choose what programming languages you would like to include in the quiz (e.g. 'java' will match languages like 'Java' and 'JavaScript'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        instructions: "Guess the language based on the its translation of 'Hello World'. Answers are case and space-insensitive. Use regex to choose what programming languages you would like to include in the quiz (tip: try typing 'J' or 'Arabic' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     },
@@ -35,7 +35,7 @@ export async function getStaticPaths() {
       props: {
         title: "Place Names",
         data: placeNameData,
-        instructions: "Guess the place name based on the given prompt. Answers are case and space-insensitive. Use regex to choose what place names you would like to include in the quiz (e.g. 'Japan' will include all Japan, 'Local' will include all endonyms, 'Chinese' to get all chinese translations of place names). Just try out the regex and see for yourself! Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        instructions: "Guess the place name based on the given prompt. Answers are case and space-insensitive. Use regex to choose what place names you would like to include in the quiz (tip: try typing 'Local' or 'Chinese' and see what you get). Just try out the regex and see for yourself! Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     },
@@ -44,7 +44,7 @@ export async function getStaticPaths() {
       props: {
         title: "NUS Mods",
         data: nusModsData,
-        instructions: "Guess the NUS module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (e.g. 'CS' will match modules like 'CS1231S' and 'CS2100'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        instructions: "Guess the NUS module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (tip: try typing 'CS' or '2001' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     },
@@ -53,7 +53,7 @@ export async function getStaticPaths() {
       props: {
         title: "NTU Mods",
         data: ntuModsData,
-        instructions: "Guess the NTU module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (e.g. 'CS' will match modules like 'CS1231S' and 'CS2100'). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        instructions: "Guess the NTU module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (tip: try typing 'EE' or '200' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     }
