@@ -5,7 +5,7 @@
   },
   "streak": {
     "title": "streak quizzes",
-    "heroText": "Guess the answer based on the prompt! Try to get the highest streak that you can. You can use regex to select the prompts you want to include in the quiz."
+    "heroText": "How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!"
   },
   "compare": {
     "title": "compare quizzes",
