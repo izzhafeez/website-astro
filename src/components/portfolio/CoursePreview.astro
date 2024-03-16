@@ -1,19 +1,18 @@
 ---
 import { Image } from "astro:assets";
-import Related from "./Related.astro";
 
 const { course, isEager } = Astro.props;
 ---
-<div id={course.key} class="rounded-lg p-4 flex group hover:neon-ew">
-  <div class="text-left py-2">
+<div id={course.key} class="rounded-lg p-4 flex group hover:neon-ew gap-4">
+  <div class="py-1">
+    <Image src={course.imgPath} alt={course.title} width="50" height="50" class="aspect-square object-contain bg-white rounded-lg" loading={isEager ? 'eager' : 'lazy'}/>
+  </div>
+  <div class="py-2">
     <a transition:name={course.key} href={course.link} class="dark:text-white group-hover:text-ew-600 group-hover:dark:text-ew-300 link-underline font-medium">{ course.title } 
       {course.grade && `(${course.grade})`}
       <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
     </a>
     <p class="text-gray-500 text-sm leading-tight">{ course.name }{ course.issuer }</p>
-    <div class="flex flex-wrap gap-1 mt-1">{course.related?.map((r: string) => <Related text={r}/>)}</div>
-  </div>
-  <div class="ms-auto grid place-items-center my-auto">
-    <Image src={course.imgPath} alt={course.title} width="50" height="50" class="aspect-square object-contain bg-white ms-6 rounded-lg" loading={isEager ? 'eager' : 'lazy'}/>
+    <div class="flex flex-wrap gap-1 mt-4">{course.related?.map((r: string) => <span class="text-ew-500 dark:text-ew-300 bg-ew-300/20 hover:bg-ew-300/40 text-xs rounded-full px-2 py-1">{r}</span>)}</div>
   </div>
 </div>
