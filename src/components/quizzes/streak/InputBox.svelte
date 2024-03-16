@@ -150,8 +150,20 @@
 
 <div class="p-2 mt-4">
   {#if toStop}
-  <form class="grid gap-2">
-    <div class="flex items-center gap-4">
+  <div class="grid gap-2">
+    <div class="flex items-center gap-4 h-10">
+      <label for="mcq" class="dark:text-white font-bold">Enable MCQ:</label>
+      <input type="checkbox" name="mcq" bind:checked={isMcq} class="dark:bg-da-glow text-hp-700"/>
+    </div>
+    <div class="flex items-center gap-4 h-10">
+      <label for="wacky" class="dark:text-white font-bold">Include prompt in regex:</label>
+      <input type="checkbox" name="wacky" bind:checked={isWacky} class="dark:bg-da-glow text-hp-700" on:change={handleWacky}/>
+    </div>
+    <div class="flex items-center gap-4 h-10">
+      <label for="regex" class="dark:text-white font-bold">Regex:</label>
+      <input name="regex" on:input={handleRegex} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-da-glow dark:text-white'/>
+    </div>
+    <div class="flex items-center gap-4 h-10">
       <label for="regex" class="dark:text-white font-bold">Difficulty:</label>
       <select name="difficulty" on:change={(e) => difficulty = e.target.value} class="dark:bg-da-glow dark:text-white rounded-md p-1">
         {#each Object.keys(DIFFICULTY_MAPPING) as diff}
@@ -159,21 +171,9 @@
         {/each}
       </select>
     </div>
-    <div class="flex items-center gap-4">
-      <label for="mcq" class="dark:text-white font-bold">Enable MCQ:</label>
-      <input type="checkbox" name="mcq" bind:checked={isMcq} class="dark:bg-da-glow text-hp-700"/>
-    </div>
-    <div class="flex items-center gap-4">
-      <label for="wacky" class="dark:text-white font-bold">Include prompt in regex:</label>
-      <input type="checkbox" name="wacky" bind:checked={isWacky} class="dark:bg-da-glow text-hp-700" on:change={handleWacky}/>
-    </div>
-    <div class="flex items-center gap-4">
-      <label for="regex" class="dark:text-white font-bold">Regex:</label>
-      <input name="regex" on:input={handleRegex} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-da-glow dark:text-white'/>
-    </div>
-  </form>
+  </div>
 
-  <p class='dark:text-white my-2'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
+  <p class='dark:text-white my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
   <div class='flex flex-wrap gap-1 my-2'>
     {#each activeAnswerList.slice(0, MINIMUM_ACTIVE_LENGTH) as answer}
     <span class='bg-hp-500/30 text-hp-700 dark:text-hp-300 py-1 px-2 rounded-full'>{answer.answer}</span>
