@@ -2,5 +2,33 @@
   "subzone-population": {
     "title": "Subzone Population",
     "instructions": "Guess which subzone of Singapore has the higher population."
+  },
+  "mrt-latitude": {
+    "title": "MRT Stations (Latitude)",
+    "instructions": "Guess which MRT station is further north (higher latitude)."
+  },
+  "mrt-longitude": {
+    "title": "MRT Stations (Longitude)",
+    "instructions": "Guess which MRT station is further east (higher longitude)."
+  },
+  "malls-latitude": {
+    "title": "Malls (Latitude)",
+    "instructions": "Guess which mall is further north (higher latitude)."
+  },
+  "malls-longitude": {
+    "title": "Malls (Longitude)",
+    "instructions": "Guess which mall is further east (higher longitude)."
+  },
+  "malls-area": {
+    "title": "Malls (Area)",
+    "instructions": "Guess which mall has a larger net lettable area."
+  },
+  "malls-stores": {
+    "title": "Malls (Stores)",
+    "instructions": "Guess which mall has more stores."
+  },
+  "malls-year": {
+    "title": "Malls (Year)",
+    "instructions": "Guess which mall's opening year comes later."
   }
 }
