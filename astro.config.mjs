@@ -13,7 +13,7 @@ import sentry from "@sentry/astro";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine()],
-  output: "hybrid",
+  // output: "hybrid",
   adapter: netlify(),
   site: "https://izzhafeez-astro.netlify.app"
   // site: "https://izzhafeez.github.io",
