@@ -4,6 +4,8 @@ export let key;
 export let title;
 export let data;
 export let instructions;
+export let decimalPlaces = 0;
+export let startNumber = 0;
 let dataList = Object.entries(data).map(([k, v]) => {
   const { cleanText, searchTerms } = fullSanitise(k);
   return { name: cleanText, imgPath: `/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v }
@@ -31,7 +33,7 @@ function handleNext() {
     right = dataList[Math.floor(Math.random() * dataList.length)];
   }
   isGuessing = true;
-  rightPlaceholder = 0;
+  rightPlaceholder = startNumber;
   showNextButton = false;
 }
 
@@ -64,7 +66,7 @@ function handleCountUp() {
       clearInterval(intervalId);
       setTimeout(() => {showNextButton = true;}, 500);
     } else {
-      rightPlaceholder = Math.floor(i * right.quantity / 100);
+      rightPlaceholder = (((i/100) * right.quantity) + ((1-i/100) * startNumber)).toFixed(decimalPlaces);
       i++;
     }
   }, 10);
@@ -143,8 +145,8 @@ function handleFail(_) {
 </div>
 <div class='grid grid-cols-2 divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
   <div class='grid gap-2 items-center content-center text-center p-4'>
-    <div class="h-32 grid justify-center">
-      <img src={left.imgPath} alt={left.name} class="w-32 h-32 rounded-full" />
+    <div class="h-32 justify-center">
+      <!-- <img src={left.imgPath} alt={left.name} class="w-32 h-32 rounded-full" /> -->
       <h2 class="font-bold dark:text-white text-xl">{left.name}</h2>
       <p class="text-5xl text-gray-500">{left.quantity}</p>
     </div>
