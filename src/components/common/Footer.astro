@@ -6,33 +6,33 @@ const { isEager } = Astro.props;
 let bgColor;
 switch (Astro.props.color) {
   case 'ew':
-    bgColor = 'bg-ew-700';
+    bgColor = 'bg-ew-500';
     break;
   case 'ns':
-    bgColor = 'bg-ns-700';
+    bgColor = 'bg-ns-500';
     break;
   case 'lrt':
-    bgColor = 'bg-lrt-700';
+    bgColor = 'bg-lrt-500';
     break;
 }
 ---
 <footer class={`h-20 mt-12 w-screen border-t-[1px] border-gray-500/50 flex items-center p-4 ${bgColor}`}>
   <p class="text-white">Izz Hafeez, 2024</p>
-  <div class="ms-auto flex gap-4">
+  <div class="ms-auto flex gap-2">
     <a href="https://www.linkedin.com/in/izzhafeez/">
-      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/linkedin.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="LinkedIn" width="50" height="50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/linkedin.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="LinkedIn" width="25" height="25"/>
     </a>
     <a href="https://github.com/izzhafeez">
-      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/github.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="GitHub" width="50" height="50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/github.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="GitHub" width="25" height="25"/>
     </a>
     <a href="https://www.youtube.com/c/izzhafeez">
-      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/youtube.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="YouTube" width="50" height="50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/youtube.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="YouTube" width="25" height="25"/>
     </a>
     <a href="https://www.instagram.com/mynameizzhafeez/?hl=es">
-      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/instagram.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Instagram" width="50" height="50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/instagram.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Instagram" width="25" height="25"/>
     </a>
     <a href="mailto:izzhafeez@outlook.com">
-      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/email.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Email" width="50" height="50"/>
+      <Image loading={isEager ? 'eager' : 'lazy'} src="/img/logos/email.svg" class="h-5 brightness-0 invert hover:opacity-50" alt="Email" width="25" height="25"/>
     </a>
   </div>
 </footer>
