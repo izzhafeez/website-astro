@@ -14,7 +14,7 @@ switch (site) {
 ---
 <div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen" style={`background-image: url('/img/heroes/${Astro.props.label}.jpg'); background-repeat:no-repeat; background-position: center center;`}>
   <div class={`bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center text-center p-8`}>
-    <h1 class="font-extrabold text-5xl text-white mb-2">{Astro.props.label}</h1>
-    <p class="text-white max-w-lg mx-auto">{Astro.props.text}</p>
+    <h1 transition:name={Astro.props.label} class="font-extrabold text-5xl text-white mb-2">{Astro.props.label}</h1>
+    <p transition:name={Astro.props.text} class="text-white max-w-lg mx-auto">{Astro.props.text}</p>
   </div>
 </div>
