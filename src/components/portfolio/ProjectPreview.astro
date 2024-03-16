@@ -1,21 +1,17 @@
 ---
 import { Image } from 'astro:assets';
-import Related from './Related.astro';
 const { project, isEager } = Astro.props;
 const imgPath = `/img/portfolio/projects/${project.imgPath}`;
 ---
-<div id={project.key} class="group w-full hover:neon-ew p-4 rounded-lg flex gap-2">
+<div id={project.key} class="group w-full hover:neon-ew p-4 rounded-lg flex gap-6">
+  {imgPath && <Image src={imgPath} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover aspect-video hidden lg:block" loading={isEager ? 'eager' : 'lazy'}/>}
   <div>
     <h2 transition:name={project.key} class="group-hover:text-ew-500 dark:group-hover:text-ew-300 font-medium dark:text-white flex items-center gap-2">  
       {project.title} 
       {project.link && <a href={project.link} class="underline text-black dark:text-white cursor-pointer"><Image alt="link" src='/img/common/link.svg' class="dark:invert hover:opacity-50 h-5" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>} 
       {project.repo && <a href={project.repo} class="underline text-black dark:text-white cursor-pointer"><Image alt="repo" src='/img/logos/github.svg' class="dark:invert hover:opacity-50 h-4" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>}
     </h2>
-    <div class="mb-2">
-      <p class="text-gray-500 text-sm">{project.duration}</p>
-    </div>
     <p class="text-gray-500 text-sm my-2">{project.overview}</p>
-    <div class="flex flex-wrap gap-1 my-2">{project.related.map((related: string) => <Related text={related}/>)}</div>
+    <div class="flex flex-wrap gap-1 my-2">{project.related.map((r: string) => <span class="text-ew-500 dark:text-ew-300 bg-ew-300/20 hover:bg-ew-300/40 text-xs rounded-full px-2 py-1">{r}</span>)}</div>
   </div>
-  {imgPath && <Image src={imgPath} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover ms-auto aspect-video" loading={isEager ? 'eager' : 'lazy'}/>}
 </div>
