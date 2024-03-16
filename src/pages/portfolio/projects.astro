@@ -60,8 +60,7 @@ const heroText = portfolioData.projects.heroText;
     <NavBar/>
     <Hero label="PROJECTS" text={heroText} site="portfolio"/>
     <section class="grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
-      {projects.slice(0, 6).map(project => <ProjectPreview project={project} isEager={true}/>)}
-      {projects.slice(6).map(project => <ProjectPreview project={project}/>)}
+      {projects.map(project => <ProjectPreview project={project} client:visible/>)}
     </section>
     <Footer color="ew"/>
   </div>
