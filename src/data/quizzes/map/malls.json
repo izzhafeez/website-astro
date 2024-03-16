@@ -1,0 +1,794 @@
+{
+  "100 AM (56 Stores) [50S]": [
+    103.8435,
+    1.2749
+  ],
+  "111 Somerset (No Data) []": [
+    103.8376,
+    1.30019
+  ],
+  "313 Somerset (147 Stores) [100S]": [
+    103.8384,
+    1.3009
+  ],
+  "321 Clementi (24 Stores) []": [
+    103.765,
+    1.312
+  ],
+  "888 Plaza (No Data) []": [
+    103.7955,
+    1.43802
+  ],
+  "Admiralty Place (No Data) []": [
+    103.80154,
+    1.4404
+  ],
+  "Alexandra Central (No Data) []": [
+    103.80528,
+    1.28736
+  ],
+  "Alexandra Retail Centre (68 Stores) [50S]": [
+    103.8015,
+    1.2739
+  ],
+  "AMK Hub (215 Stores) [200S]": [
+    103.8486,
+    1.3693
+  ],
+  "Anchorpoint (53 Stores) [50S]": [
+    103.8051,
+    1.2888
+  ],
+  "Aperia (52 Stores) [50S]": [
+    103.8638,
+    1.3105
+  ],
+  "Balestier Hill Shopping Centre (No Data) []": [
+    103.84278,
+    1.32588
+  ],
+  "Beauty World Centre (No Data) []": [
+    103.7766,
+    1.3423
+  ],
+  "Beauty World Plaza (No Data) []": [
+    103.7763,
+    1.3418
+  ],
+  "Bedok Mall (194 Stores) [100S]": [
+    103.9294,
+    1.3247
+  ],
+  "Bedok Point (27 Stores) []": [
+    103.932364166666,
+    1.32490638888888
+  ],
+  "Bedok Town Center (No Data) []": [
+    103.9316,
+    1.3245
+  ],
+  "Boon Lay Shopping Centre (No Data) []": [
+    103.7124,
+    1.3464
+  ],
+  "Broadway Plaza (No Data) []": [
+    103.845973776855,
+    1.37193646369426
+  ],
+  "Buangkok Square (43 Stores) []": [
+    103.88162,
+    1.38433
+  ],
+  "Bugis Cube (119 Stores) [100S]": [
+    103.855655544739,
+    1.29819500487878
+  ],
+  "Bugis Junction (248 Stores) [200S]": [
+    103.85527778,
+    1.2993
+  ],
+  "Bugis+ (82 Stores) [50S]": [
+    103.8542,
+    1.299617
+  ],
+  "Bugis Street (242 Stores) [200S]": [
+    103.8549,
+    1.3006
+  ],
+  "Bukit Panjang Plaza (126 Stores) [100S]": [
+    103.7643,
+    1.38
+  ],
+  "Bukit Timah Plaza (No Data) []": [
+    103.778585430975,
+    1.3386316527745
+  ],
+  "Bukit Timah Shopping Centre (No Data) []": [
+    103.77595,
+    1.3432
+  ],
+  "Canberra Plaza (45 Stores) []": [
+    103.830461944444,
+    1.44325666666666
+  ],
+  "Capitol Singapore (67 Stores) [50S]": [
+    103.8512,
+    1.293
+  ],
+  "Cathay Cineleisure Orchard (26 Stores) []": [
+    103.8365,
+    1.3015
+  ],
+  "Causeway Point (218 Stores) [200S]": [
+    103.786,
+    1.4361
+  ],
+  "Century Square (131 Stores) [100S]": [
+    103.94382,
+    1.35237
+  ],
+  "Changi Airport T3 (115 Stores) [100S]": [
+    103.9865,
+    1.3563
+  ],
+  "Changi Airport T4 (81 Stores) [50S]": [
+    103.9835,
+    1.338
+  ],
+  "Changi City Point (129 Stores) [100S]": [
+    103.96267,
+    1.33405
+  ],
+  "Chinatown Point (156 Stores) [100S]": [
+    103.845,
+    1.2852
+  ],
+  "City Gate Mall (69 Stores) [50S]": [
+    103.8624,
+    1.3023
+  ],
+  "City Plaza (No Data) []": [
+    103.893418325845,
+    1.31480522272254
+  ],
+  "City Square Mall (186 Stores) [100S]": [
+    103.8566,
+    1.3114
+  ],
+  "CityLink Mall (70 Stores) [50S]": [
+    103.8552,
+    1.2913
+  ],
+  "Clarke Quay Central (86 Stores) [50S]": [
+    103.8466,
+    1.289
+  ],
+  "Clementi Mall (156 Stores) [100S]": [
+    103.7645,
+    1.3151
+  ],
+  "Compass One (203 Stores) [200S]": [
+    103.895,
+    1.392
+  ],
+  "Djitsun Mall (No Data) []": [
+    103.84765,
+    1.3729
+  ],
+  "Djitsun Mall Bedok (No Data) []": [
+    103.9296,
+    1.32605
+  ],
+  "Downtown East (134 Stores) [100S]": [
+    103.95513,
+    1.377
+  ],
+  "DUO (No Data) []": [
+    103.85840168774,
+    1.29953434891664
+  ],
+  "East Village (No Data) []": [
+    103.946201241591,
+    1.3317758150305
+  ],
+  "Eastpoint Mall (131 Stores) [100S]": [
+    103.953083333333,
+    1.34272222222222
+  ],
+  "Elias Mall (47 Stores) []": [
+    103.942,
+    1.3786
+  ],
+  "FairPrice Hub (28 Stores) []": [
+    103.6784,
+    1.32697
+  ],
+  "Fajar Shopping Centre (34 Stores) []": [
+    103.771,
+    1.3838
+  ],
+  "Far East Plaza (549 Stores) [300S]": [
+    103.8336,
+    1.3072
+  ],
+  "Funan (199 Stores) [100S]": [
+    103.8501,
+    1.2913
+  ],
+  "Galaxis (No Data) []": [
+    103.788101008571,
+    1.29986251400969
+  ],
+  "Gek Poh Shopping Centre (No Data) []": [
+    103.69773963001,
+    1.34874164662883
+  ],
+  "Golden Mile Complex (411 Stores) [300S]": [
+    103.86521,
+    1.30273
+  ],
+  "Grandstand Car Mall (150 Stores) [100S]": [
+    103.7936,
+    1.3377
+  ],
+  "Grantral Mall (No Data) []": [
+    103.765097562497,
+    1.31423131705905
+  ],
+  "Great World City (303 Stores) [300S]": [
+    103.831944444444,
+    1.29361111111111
+  ],
+  "Greenridge Shopping Centre (No Data) []": [
+    103.766235457752,
+    1.38541768689995
+  ],
+  "Greenwich V (21 Stores) []": [
+    103.8694,
+    1.3874
+  ],
+  "HarbourFront Centre (152 Stores) [100S]": [
+    103.8203,
+    1.2642
+  ],
+  "HDB Hub (No Data) []": [
+    103.8486,
+    1.3319945640368
+  ],
+  "Heartland Mall (104 Stores) [100S]": [
+    103.885161111111,
+    1.35954166666666
+  ],
+  "HillV2 (26 Stores) []": [
+    103.7643,
+    1.3634
+  ],
+  "Hillion Mall (131 Stores) [100S]": [
+    103.7633,
+    1.3785
+  ],
+  "Holland Road Shopping Centre (106 Stores) [100S]": [
+    103.7955,
+    1.3104
+  ],
+  "Hougang 1 (37 Stores) []": [
+    103.8795,
+    1.3757
+  ],
+  "Hougang Green Shopping Mall (No Data) []": [
+    103.887847089168,
+    1.37931783471773
+  ],
+  "Hougang Mall (133 Stores) [100S]": [
+    103.8938,
+    1.37245
+  ],
+  "iMall (No Data) []": [
+    103.906545823213,
+    1.30312098084266
+  ],
+  "I12 Katong (67 Stores) [50S]": [
+    103.905,
+    1.3052
+  ],
+  "Icon Village (34 Stores) []": [
+    103.8446,
+    1.27515
+  ],
+  "IKEA Alexandra (1 Stores) []": [
+    103.806034849631,
+    1.28796619500179
+  ],
+  "IKEA Tampines (1 Stores) []": [
+    103.9323,
+    1.3742
+  ],
+  "IMM (231 Stores) [200S]": [
+    103.7467,
+    1.3347
+  ],
+  "ION Orchard (297 Stores) [200S]": [
+    103.831666666666,
+    1.304
+  ],
+  "JCube (114 Stores) [100S]": [
+    103.7402,
+    1.33326
+  ],
+  "Jem (254 Stores) [200S]": [
+    103.74338,
+    1.3332
+  ],
+  "Jewel Changi Airport (241 Stores) [200S]": [
+    103.9898,
+    1.36
+  ],
+  "Jubilee Square (26 Stores) []": [
+    103.8478,
+    1.3718
+  ],
+  "Junction 10 (40 Stores) []": [
+    103.7602,
+    1.380289
+  ],
+  "Junction 8 (166 Stores) [100S]": [
+    103.848774999999,
+    1.35064444444444
+  ],
+  "Junction Nine (131 Stores) [100S]": [
+    103.8416,
+    1.4331
+  ],
+  "Jurong Point (354 Stores) [300S]": [
+    103.706388888888,
+    1.33999999999999
+  ],
+  "Kallang Wave Mall (74 Stores) [50S]": [
+    103.872916666666,
+    1.30319444444444
+  ],
+  "Katong Shopping Centre (145 Stores) [100S]": [
+    103.9012,
+    1.3039
+  ],
+  "Katong Square (No Data) []": [
+    103.904298449329,
+    1.30511658648128
+  ],
+  "Katong V (31 Stores) []": [
+    103.903,
+    1.3036
+  ],
+  "Keat Hong Shopping Centre (No Data) []": [
+    103.744383225412,
+    1.37743963497469
+  ],
+  "KINEX (88 Stores) [50S]": [
+    103.8948,
+    1.3147
+  ],
+  "Knightsbridge (No Data) []": [
+    103.836283923443,
+    1.3029831225958
+  ],
+  "Le Quest (38 Stores) []": [
+    103.7412,
+    1.3558
+  ],
+  "Leisure Park Kallang (60 Stores) [50S]": [
+    103.8764,
+    1.3022
+  ],
+  "Limbang Shopping Centre (No Data) []": [
+    103.743611063324,
+    1.39222033136152
+  ],
+  "Lot One (148 Stores) [100S]": [
+    103.745,
+    1.3851223
+  ],
+  "Loyang Point (77 Stores) [50S]": [
+    103.9644026,
+    1.3669313
+  ],
+  "Lucky Plaza (513 Stores) [300S]": [
+    103.833855555555,
+    1.304475
+  ],
+  "Mandarin Gallery (100 Stores) [50S]": [
+    103.8368,
+    1.3019
+  ],
+  "Marina Bay Link Mall (55 Stores) [50S]": [
+    103.854,
+    1.28004
+  ],
+  "Marina Bay Sands Shoppes (216 Stores) [200S]": [
+    103.859,
+    1.2835
+  ],
+  "Marina One (41 Stores) []": [
+    103.853,
+    1.27714
+  ],
+  "Marina Square (190 Stores) [100S]": [
+    103.857499999999,
+    1.29111111111111
+  ],
+  "Marsiling Mall (No Data) []": [
+    103.779746860157,
+    1.43351253520759
+  ],
+  "Marina Bay Financial Centre Tower 3 (No Data) []": [
+    103.854457600432,
+    1.27912493489912
+  ],
+  "Midpoint Orchard (No Data) []": [
+    103.838660627347,
+    1.30178378195546
+  ],
+  "Millenia Walk (188 Stores) [100S]": [
+    103.8598,
+    1.2928
+  ],
+  "Mustafa Centre (1 Stores) []": [
+    103.855833333333,
+    1.30972222222222
+  ],
+  "NEX (334 Stores) [300S]": [
+    103.87242,
+    1.35072
+  ],
+  "Ngee Ann City (171 Stores) [100S]": [
+    103.8346,
+    1.3026
+  ],
+  "Northpoint City (412 Stores) [300S]": [
+    103.836111111111,
+    1.42816666666666
+  ],
+  "Northshore Plaza (38 Stores) []": [
+    103.9018,
+    1.4168
+  ],
+  "Oasis Terraces (45 Stores) []": [
+    103.913175,
+    1.402767
+  ],
+  "One Fullerton (14 Stores) []": [
+    103.854,
+    1.2859
+  ],
+  "One Holland Village (22 Stores) []": [
+    103.794039014348,
+    1.31113116914344
+  ],
+  "one-north (No Data) []": [
+    103.789103511502,
+    1.30328664201626
+  ],
+  "One Raffles Place (84 Stores) [50S]": [
+    103.8511,
+    1.2842
+  ],
+  "Orchard Central (78 Stores) [50S]": [
+    103.8399,
+    1.3006
+  ],
+  "Orchard Gateway (114 Stores) [100S]": [
+    103.854408,
+    1.299617
+  ],
+  "Orchard Plaza (No Data) []": [
+    103.841151770727,
+    1.30126533034758
+  ],
+  "Orchard Shopping Centre (No Data) []": [
+    103.83788829913,
+    1.30148499762744
+  ],
+  "Our Tampines Hub (122 Stores) [100S]": [
+    103.9406,
+    1.3529
+  ],
+  "Palais Renaissance (No Data) []": [
+    103.829588045188,
+    1.30665484543191
+  ],
+  "Parkway Parade (251 Stores) [200S]": [
+    103.9053,
+    1.3014
+  ],
+  "Paya Lebar Quarter (191 Stores) [100S]": [
+    103.8929,
+    1.3175
+  ],
+  "Paya Lebar Square (106 Stores) [100S]": [
+    103.8926,
+    1.3188
+  ],
+  "Peninsula Plaza (No Data) []": [
+    103.850804507292,
+    1.29232248414934
+  ],
+  "People's Park Centre (No Data) []": [
+    103.843865,
+    1.28584416666666
+  ],
+  "People's Park Complex (214 Stores) [200S]": [
+    103.8426,
+    1.28405555555555
+  ],
+  "Pioneer Mall (30 Stores) []": [
+    103.6973,
+    1.3418
+  ],
+  "Plaza Singapura (303 Stores) [300S]": [
+    103.844891666666,
+    1.300725
+  ],
+  "Punggol Plaza (56 Stores) [50S]": [
+    103.9131,
+    1.3941917
+  ],
+  "Queensway Shopping Centre (138 Stores) [100S]": [
+    103.803611111111,
+    1.28749999999999
+  ],
+  "Raffles City (239 Stores) [200S]": [
+    103.8532,
+    1.2938
+  ],
+  "Rail Mall (28 Stores) []": [
+    103.7679,
+    1.3581
+  ],
+  "Resorts World Sentosa (45 Stores) []": [
+    103.820168913018,
+    1.2568824473231
+  ],
+  "Rivervale Mall (69 Stores) [50S]": [
+    103.9044,
+    1.3922
+  ],
+  "Rivervale Plaza (No Data) []": [
+    103.901849634797,
+    1.385371516087
+  ],
+  "Rochester Mall (No Data) []": [
+    103.788446680148,
+    1.30540765569962
+  ],
+  "Roxy Square (51 Stores) [50S]": [
+    103.904060346056,
+    1.30433308408718
+  ],
+  "Scotts Square (No Data) []": [
+    103.83308338186,
+    1.30576292435884
+  ],
+  "Seletar Mall (136 Stores) [100S]": [
+    103.876,
+    1.3914
+  ],
+  "Sembawang Shopping Centre (72 Stores) [50S]": [
+    103.8248,
+    1.4417
+  ],
+  "Sengkang Grand Mall (No Data) []": [
+    103.89242,
+    1.38277
+  ],
+  "Serangoon Plaza (No Data) []": [
+    103.855146819671,
+    1.31078075190145
+  ],
+  "Shaw Centre (49 Stores) []": [
+    103.8318,
+    1.3063
+  ],
+  "Shaw House and Centre (12 Stores) []": [
+    103.831527777777,
+    1.30583333333333
+  ],
+  "Sim Lim Square (442 Stores) [300S]": [
+    103.853055555555,
+    1.30305555555555
+  ],
+  "Singapore Shopping Centre (No Data) []": [
+    103.844138374809,
+    1.29813214766933
+  ],
+  "Singpost Centre (117 Stores) [100S]": [
+    103.8944,
+    1.319
+  ],
+  "South Beach (No Data) []": [
+    103.856111111111,
+    1.295
+  ],
+  "Square 2 (141 Stores) [100S]": [
+    103.8441,
+    1.3208
+  ],
+  "Sun Plaza (102 Stores) [100S]": [
+    103.8195,
+    1.4482
+  ],
+  "Sunshine Place (No Data) []": [
+    103.739015486293,
+    1.37789727654674
+  ],
+  "Sunshine Plaza (No Data) []": [
+    103.851,
+    1.3003
+  ],
+  "Suntec City (351 Stores) [300S]": [
+    103.8583,
+    1.295
+  ],
+  "Taman Jurong Shopping Centre (61 Stores) [50S]": [
+    103.720591376,
+    1.33494158055
+  ],
+  "Tampines 1 (167 Stores) [100S]": [
+    103.945,
+    1.3542
+  ],
+  "Tampines Mall (179 Stores) [100S]": [
+    103.94472222222,
+    1.3525
+  ],
+  "Tampines Mart (61 Stores) [50S]": [
+    103.96,
+    1.3545
+  ],
+  "Tanglin Mall (90 Stores) [50S]": [
+    103.823883490852,
+    1.30485342129478
+  ],
+  "Tanjong Pagar Centre (67 Stores) [50S]": [
+    103.8455,
+    1.2771
+  ],
+  "Teck Whye Shopping Centre (No Data) []": [
+    103.752464583648,
+    1.3800477264564
+  ],
+  "Tekka Centre (No Data) []": [
+    103.850609985486,
+    1.30617773048079
+  ],
+  "Tekka Place (24 Stores) []": [
+    103.8514,
+    1.3051
+  ],
+  "The Cathay (No Data) []": [
+    103.8478,
+    1.2995
+  ],
+  "The Centrepoint (121 Stores) [100S]": [
+    103.839583333333,
+    1.30152777777777
+  ],
+  "The Flow (No Data) []": [
+    103.904211660565,
+    1.30455857976501
+  ],
+  "The Furniture Mall (70 Stores) [50S]": [
+    103.748074839845,
+    1.33225990632432
+  ],
+  "The Midtown (No Data) []": [
+    103.895128466923,
+    1.37047940965108
+  ],
+  "The Paragon (218 Stores) [200S]": [
+    103.835472222222,
+    1.30381111111111
+  ],
+  "The Poiz (No Data) []": [
+    103.868076452861,
+    1.33130351440716
+  ],
+  "The Star Vista (102 Stores) [100S]": [
+    103.7884,
+    1.3068
+  ],
+  "Thomson Plaza (174 Stores) [100S]": [
+    103.830936111111,
+    1.35470833333333
+  ],
+  "Tiong Bahru Plaza (152 Stores) [100S]": [
+    103.8272,
+    1.2865
+  ],
+  "United Square (114 Stores) [100S]": [
+    103.8437,
+    1.3173
+  ],
+  "Upper Serangoon Shopping Centre (No Data) []": [
+    103.878828409594,
+    1.35348088326122
+  ],
+  "Velocity Novena Square (52 Stores) [50S]": [
+    103.8439,
+    1.32
+  ],
+  "Vista Point (No Data) []": [
+    103.793852610387,
+    1.43075765633744
+  ],
+  "Viva Vista (43 Stores) []": [
+    103.7861,
+    1.2797
+  ],
+  "VivoCity (364 Stores) [300S]": [
+    103.8222,
+    1.2644
+  ],
+  "Waterway Point (216 Stores) [200S]": [
+    103.902,
+    1.40667
+  ],
+  "West Coast Plaza (82 Stores) [50S]": [
+    103.766,
+    1.3036
+  ],
+  "West Mall (112 Stores) [100S]": [
+    103.7492,
+    1.34999444444444
+  ],
+  "Westgate (238 Stores) [200S]": [
+    103.7429,
+    1.3342
+  ],
+  "Wheelock Place (107 Stores) [100S]": [
+    103.830638888888,
+    1.30452777777777
+  ],
+  "White Sands (127 Stores) [100S]": [
+    103.949722222222,
+    1.3725
+  ],
+  "Wisma Atria (107 Stores) [100S]": [
+    103.833,
+    1.30361
+  ],
+  "Wisteria Mall (62 Stores) [50S]": [
+    103.84128,
+    1.41817
+  ],
+  "Woodlands Civic Centre (No Data) []": [
+    103.78693533379,
+    1.43510773240045
+  ],
+  "Woodlands Mart (No Data) []": [
+    103.798162285533,
+    1.44564787003157
+  ],
+  "Woodlands North Plaza (No Data) []": [
+    103.790825824274,
+    1.4428457006918
+  ],
+  "Woodleigh Mall (No Data) []": [
+    103.871670008464,
+    1.33873066415565
+  ],
+  "Woods Square (33 Stores) []": [
+    103.7846,
+    1.4352
+  ],
+  "Yew Tee Point (71 Stores) [50S]": [
+    103.7466,
+    1.397
+  ],
+  "Yew Tee Square (No Data) []": [
+    103.747224809089,
+    1.39834776480802
+  ],
+  "Zhongshan Mall (No Data) []": [
+    103.846554377679,
+    1.32694504456951
+  ]
+}
