@@ -6,6 +6,7 @@ import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
 import { AstroSeo } from "@astrolib/seo";
+import quizzesData from "../../../data/quizzes/quizzes.json";
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -23,14 +24,16 @@ const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
     imgPath: `/img/quizzes/map/${key}.jpg`
   }
 }).sort((a,b) => -a.rank + b.rank);
+
+const heroText = quizzesData.map.heroText;
 ---
 <AstroSeo
   title={"Map Quizzes | Izz Hafeez"}
-  description="How many locations can you get right? Test your geography skills with these map quizzes. Powered by OpenLayers."
+  description={heroText}
   canonical={`https://izzhafeez.com/quizzes/map`}
   openGraph={{
     title: "Map Quizzes | Izz Hafeez",
-    description: "How many locations can you get right? Test your geography skills with these map quizzes. Powered by OpenLayers.",
+    description: heroText,
     url: `https://izzhafeez.com/quizzes/map`,
     type: "website",
     images: [
@@ -46,7 +49,7 @@ const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
 <Layout>
   <div slot="main">
     <NavBar/>
-    <Hero label="MAP QUIZZES" text="Here are my map quizzes, powered by OpenLayers. As you answer, the marker will disappear. Use regex to select the locations you want to include in the quiz." site="quizzes"/>
+    <Hero label="MAP QUIZZES" text={heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {quizzes.slice(0,12).map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath} isEager={true}/>)}
       {quizzes.slice(12).map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath}/>)}
