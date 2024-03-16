@@ -22,6 +22,8 @@ export const getLocationColor = (colorComparator: string, locationType: string) 
       return getBusStopColor(colorComparator);
     case "london-underground":
       return getUndergroundColor(colorComparator);
+    case "malls":
+      return getMallColor(colorComparator);
   }
 };
 
@@ -131,4 +133,16 @@ const getUndergroundColor = (colorComparator: string) => {
     case "Victoria":
       return "vic-500";
   }
+}
+
+const getMallColor = (colorComparator: string) => {
+  const bracketRegex = /\[[^\]]*\]/gi;
+  const bracketValues = colorComparator.match(bracketRegex);
+  if (!bracketValues) return "lrt-500";
+  const bracketValue = bracketValues[0];
+  if (bracketValue.includes("300S")) return "ne-700";
+  if (bracketValue.includes("200S")) return "ne-500";
+  if (bracketValue.includes("100S")) return "ne-300";
+  if (bracketValue.includes("50S")) return "ne-300";
+  return "white";
 }
