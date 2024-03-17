@@ -210,8 +210,8 @@
     </div>
     {:else}
     <div class="">
-      <label for="guess" class="dark:text-white">Your Guess:</label>
-      <input name="guess" on:keydown={onKeyDown} class='border-[1px] border-gray-500 px-2 py-1 rounded-lg dark:bg-da-glow w-full'/>
+      <label for="guess" class="dark:text-white">Your Guess (hit 'Enter' to submit):</label>
+      <input name="guess" on:keydown={onKeyDown} class='border-[1px] border-gray-500 px-2 py-1 rounded-lg w-full'/>
       <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       {#if !isActive}
       <button on:click={handleGenerate} class="bg-ew-300/20 py-1 px-2 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50">Next, or hit 'Enter'</button>

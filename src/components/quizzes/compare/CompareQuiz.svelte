@@ -81,45 +81,45 @@ function handleFail(_) {
   var imgSrc;
   let savedStreak = streak;
   localStorage.setItem(`compare-${key}-streak`, bestStreak);
-  if (streak > 200) {
+  if (streak >= 200) {
     imgSrc = "perfect";
-  } else if (streak > 150) {
+  } else if (streak >= 150) {
     imgSrc = "fuiyoh";
-  } else if (streak > 120) {
+  } else if (streak >= 120) {
     imgSrc = "very-impressive";
-  } else if (streak > 100) {
+  } else if (streak >= 100) {
     imgSrc = "pretty-impressive";
-  } else if (streak > 85) {
+  } else if (streak >= 85) {
     imgSrc = "oh-wow";
-  } else if (streak > 70) {
+  } else if (streak >= 70) {
     imgSrc = "practice";
-  } else if (streak > 60) {
+  } else if (streak >= 60) {
     imgSrc = "you-fked-up";
-  } else if (streak > 50) {
+  } else if (streak >= 50) {
     imgSrc = "where-my-slipper";
-  } else if (streak > 42) {
+  } else if (streak >= 42) {
     imgSrc = "oh-no";
-  } else if (streak > 36) {
+  } else if (streak >= 36) {
     imgSrc = "are-you-serious";
-  } else if (streak > 30) {
+  } else if (streak >= 30) {
     imgSrc = "haiya";
-  } else if (streak > 25) {
+  } else if (streak >= 25) {
     imgSrc = "sacrilegious";
-  } else if (streak > 20) {
+  } else if (streak >= 20) {
     imgSrc = "so-weak";
-  } else if (streak > 16) {
+  } else if (streak >= 16) {
     imgSrc = "lamentable";
-  } else if (streak > 13) {
+  } else if (streak >= 13) {
     imgSrc = "what-da-hail";
-  } else if (streak > 10) {
+  } else if (streak >= 10) {
     imgSrc = "emotional-damage";
-  } else if (streak > 7) {
+  } else if (streak >= 7) {
     imgSrc = "terrible";
-  } else if (streak > 5) {
+  } else if (streak >= 5) {
     imgSrc = "send-u-to-jesus";
-  } else if (streak > 3) {
+  } else if (streak >= 3) {
     imgSrc = "low-iq";
-  } else if (streak > 1) {
+  } else if (streak >= 1) {
     imgSrc = "language-failure";
   } else {
     imgSrc = "failure";
