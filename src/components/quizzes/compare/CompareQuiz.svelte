@@ -1,6 +1,6 @@
 <script>
-    import { onMount } from "svelte";
-import { fullSanitise } from "utils/string";
+import { onMount } from "svelte";
+import { fullSanitise } from "../../../utils/string";
 export let key;
 export let title;
 export let data;
