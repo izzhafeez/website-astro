@@ -2,78 +2,168 @@
   "mrt": {
     "title": "MRT Stations of Singapore",
     "instructions": "How many MRT/LRT stations can you name?",
-    "rank": 2
+    "rank": 2,
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Train"
+    ]
   },
   "schools": {
     "title": "Schools of Singapore",
     "instructions": "How many schools in Singapore can you name?",
-    "rank": 1
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Schools"
+    ]
   },
   "bus-stops": {
     "title": "Bus Stops of Singapore",
     "instructions": "How many bus stops in Singapore can you name?",
-    "rank": 1
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Bus"
+    ]
   },
   "malls": {
     "title": "Malls of Singapore",
     "instructions": "How many malls in Singapore can you name?",
-    "rank": 2
+    "rank": 2,
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   },
   "london-underground": {
     "title": "London Underground Stations",
     "instructions": "How many London Underground stations can you name?",
-    "rank": 1
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "London",
+      "Train"
+    ]
   },
   "cities": {
     "title": "Cities of the World",
-    "instructions": "How many 100K+ cities in the world can you name?"
+    "instructions": "How many 100K+ cities in the world can you name?",
+    "tags": [
+      "Geography",
+      "World",
+      "Cities"
+    ]
   },
   "japan-cities": {
     "title": "Cities of Japan",
-    "instructions": "How many 1K+ Japanese cities can you name?"
+    "instructions": "How many 1K+ Japanese cities can you name?",
+    "tags": [
+      "Geography",
+      "Japan",
+      "Cities"
+    ]
   },
   "france-cities": {
     "title": "Cities of France",
-    "instructions": "How many 1K+ French cities can you name?"
+    "instructions": "How many 1K+ French cities can you name?",
+    "tags": [
+      "Geography",
+      "France",
+      "Cities"
+    ]
   },
   "china-cities": {
     "title": "Cities of China",
-    "instructions": "How many 1K+ Chinese cities can you name?"
+    "instructions": "How many 1K+ Chinese cities can you name?",
+    "tags": [
+      "Geography",
+      "China",
+      "Cities"
+    ]
   },
   "uk-cities": {
     "title": "Cities of the UK",
-    "instructions": "How many 1K+ UK cities can you name?"
+    "instructions": "How many 1K+ UK cities can you name?",
+    "tags": [
+      "Geography",
+      "UK",
+      "Cities"
+    ]
   },
   "spain-cities": {
     "title": "Cities of Spain",
-    "instructions": "How many 1K+ Spanish cities can you name?"
+    "instructions": "How many 1K+ Spanish cities can you name?",
+    "tags": [
+      "Geography",
+      "Spain",
+      "Cities"
+    ]
   },
   "portugal-cities": {
     "title": "Cities of Portugal",
-    "instructions": "How many 1K+ Portuguese cities can you name?"
+    "instructions": "How many 1K+ Portuguese cities can you name?",
+    "tags": [
+      "Geography",
+      "Portugal",
+      "Cities"
+    ]
   },
   "italy-cities": {
     "title": "Cities of Italy",
-    "instructions": "How many 1K+ Italian cities can you name?"
+    "instructions": "How many 1K+ Italian cities can you name?",
+    "tags": [
+      "Geography",
+      "Italy",
+      "Cities"
+    ]
   },
   "india-cities": {
     "title": "Cities of India",
-    "instructions": "How many 1K+ Indian cities can you name?"
+    "instructions": "How many 1K+ Indian cities can you name?",
+    "tags": [
+      "Geography",
+      "India",
+      "Cities"
+    ]
   },
   "indonesia-cities": {
     "title": "Cities of Indonesia",
-    "instructions": "How many 1K+ Indonesian cities can you name?"
+    "instructions": "How many 1K+ Indonesian cities can you name?",
+    "tags": [
+      "Geography",
+      "Indonesia",
+      "Cities"
+    ]
   },
   "philippines-cities": {
     "title": "Cities of the Philippines",
-    "instructions": "How many 1K+ Filipino cities can you name?"
+    "instructions": "How many 1K+ Filipino cities can you name?",
+    "tags": [
+      "Geography",
+      "Philippines",
+      "Cities"
+    ]
   },
   "usa-cities": {
     "title": "Cities of the United States",
-    "instructions": "How many 1K+ American cities can you name?"
+    "instructions": "How many 1K+ American cities can you name?",
+    "tags": [
+      "Geography",
+      "USA",
+      "Cities"
+    ]
   },
   "canada-cities": {
     "title": "Cities of Canada",
-    "instructions": "How many 1K+ Canadian cities can you name?"
+    "instructions": "How many 1K+ Canadian cities can you name?",
+    "tags": [
+      "Geography",
+      "Canada",
+      "Cities"
+    ]
   }
 }
