@@ -11,7 +11,8 @@ import quizzesData from "../../../data/quizzes/quizzes.json";
 type QuizJson = {[k: string]: {
   title: string,
   instructions: string,
-  rank?: number
+  rank?: number,
+  tags?: string[]
 }}
 
 const quizzes = Object.entries(compareData as QuizJson).map(([key, value]) => {
@@ -21,7 +22,8 @@ const quizzes = Object.entries(compareData as QuizJson).map(([key, value]) => {
     title: value.title,
     instructions: value.instructions,
     rank: value.rank || 0,
-    imgPath: `/img/quizzes/compare/${key}.jpg`
+    imgPath: `/img/quizzes/compare/${key}.jpg`,
+    tags: value.tags || []
   }
 }).sort((a,b) => -a.rank + b.rank);
 
@@ -51,7 +53,15 @@ const heroText = quizzesData.compare.heroText;
     <NavBar/>
     <Hero label="COMPARE QUIZZES" text={heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {quizzes.map(quiz => <MediumCard href={quiz.href} title={quiz.title} site="quizzes" heroText={quiz.instructions} key={quiz.key} imgPath={quiz.imgPath} isEager={true}/>)}
+      {quizzes.map(quiz => <MediumCard
+        href={quiz.href}
+        title={quiz.title}
+        site="quizzes"
+        heroText={quiz.instructions}
+        key={quiz.key}
+        imgPath={quiz.imgPath}
+        isEager={true}
+        tags={quiz.tags}/>)}
     </section>
     <Footer color="ns" isEager={true}/>
   </div>
