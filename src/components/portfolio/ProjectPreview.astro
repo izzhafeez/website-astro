@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import Tags from '../common/Tags';
 const { project, isEager } = Astro.props;
 const imgPath = `/img/portfolio/projects/${project.imgPath}`;
 ---
@@ -12,6 +13,6 @@ const imgPath = `/img/portfolio/projects/${project.imgPath}`;
       {project.repo && <a href={project.repo} class="underline text-black dark:text-white cursor-pointer"><Image alt="repo" src='/img/logos/github.svg' class="dark:invert hover:opacity-50 h-4" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>}
     </h2>
     <p class="text-gray-500 text-sm my-2">{project.overview}</p>
-    <div class="flex flex-wrap gap-1 my-2">{project.related.map((r: string) => <span class="text-ew-500 dark:text-ew-300 bg-ew-300/20 hover:bg-ew-300/40 text-xs rounded-full px-2 py-1">{r}</span>)}</div>
+    <Tags tags={project.related} site="portfolio"/>
   </div>
 </div>
