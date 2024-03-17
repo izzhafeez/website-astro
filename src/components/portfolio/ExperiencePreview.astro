@@ -1,4 +1,6 @@
 ---
+import Tags from "../common/Tags"
+
 const { experience } = Astro.props;
 ---
 <div id={experience.key} class="group w-full hover:neon-ew p-4 rounded-lg">
@@ -7,5 +9,5 @@ const { experience } = Astro.props;
     <p class="text-gray-500 text-sm">{experience.duration}</p>
   </div>
   <p class="text-gray-500 text-sm my-2">{experience.overview}</p>
-  <div class="flex flex-wrap gap-1 my-2">{experience.related.map((r: string) => <span class="text-ew-500 dark:text-ew-300 bg-ew-300/20 hover:bg-ew-300/40 text-xs rounded-full px-2 py-1">{r}</span>)}</div>
+  <Tags tags={experience.related} site="portfolio"/>
 </div>
