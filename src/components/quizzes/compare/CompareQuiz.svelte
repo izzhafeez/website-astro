@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from "svelte";
 import { fullSanitise } from "utils/string";
 export let key;
 export let title;
@@ -18,6 +19,10 @@ let isGuessing = false;
 let showNextButton = false;
 let streak = 0;
 let bestStreak = 0;
+
+onMount(() => {
+  bestStreak = localStorage.getItem(`compare-${key}-streak`) || 0;
+})
 
 function handleStart(_event) {
   left = dataList[Math.floor(Math.random() * dataList.length)];
@@ -75,6 +80,7 @@ function handleCountUp() {
 function handleFail(_) {
   var imgSrc;
   let savedStreak = streak;
+  localStorage.setItem(`compare-${key}-streak`, bestStreak);
   if (streak > 200) {
     imgSrc = "perfect";
   } else if (streak > 150) {
