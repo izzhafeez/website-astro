@@ -1,34 +1,74 @@
 {
   "subzone-population": {
     "title": "Subzone Population",
-    "instructions": "Guess which subzone of Singapore has the higher population."
+    "instructions": "Guess which subzone of Singapore has the higher population.",
+    "tags": [
+      "Geography",
+      "Population",
+      "Singapore"
+    ]
   },
   "mrt-latitude": {
     "title": "MRT Stations (Latitude)",
-    "instructions": "Guess which MRT station is further north (higher latitude)."
+    "instructions": "Guess which MRT station is further north (higher latitude).",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Train"
+    ]
   },
   "mrt-longitude": {
     "title": "MRT Stations (Longitude)",
-    "instructions": "Guess which MRT station is further east (higher longitude)."
+    "instructions": "Guess which MRT station is further east (higher longitude).",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Train"
+    ]
   },
   "malls-latitude": {
     "title": "Malls (Latitude)",
-    "instructions": "Guess which mall is further north (higher latitude)."
+    "instructions": "Guess which mall is further north (higher latitude).",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   },
   "malls-longitude": {
     "title": "Malls (Longitude)",
-    "instructions": "Guess which mall is further east (higher longitude)."
+    "instructions": "Guess which mall is further east (higher longitude).",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   },
   "malls-area": {
     "title": "Malls (Area)",
-    "instructions": "Guess which mall has a larger net lettable area."
+    "instructions": "Guess which mall has a larger net lettable area.",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   },
   "malls-stores": {
     "title": "Malls (Stores)",
-    "instructions": "Guess which mall has more stores."
+    "instructions": "Guess which mall has more stores.",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   },
   "malls-year": {
     "title": "Malls (Year)",
-    "instructions": "Guess which mall's opening year comes later."
+    "instructions": "Guess which mall's opening year comes later.",
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Malls"
+    ]
   }
 }
