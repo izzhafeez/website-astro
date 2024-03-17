@@ -1,9 +1,10 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "jsx": "preserve",
-    "baseUrl": "./src",
+    "jsx": "react-jsx",
+    "baseUrl": "/Users/izzhafeez/Documents/website-astro/src",
     "noUnusedLocals": false,
-    "noUnusedParameters": false
+    "noUnusedParameters": false,
+    "jsxImportSource": "preact"
   }
 }
