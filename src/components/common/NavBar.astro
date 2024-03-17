@@ -18,7 +18,7 @@ import ThemeIcon from "./ThemeIcon.astro";
       </div>
     </div>
     <MenuItems class="hidden lg:flex">
-      <ul class="flex gap-2 flex-col lg:flex-row lg:gap-5">
+      <ul class="flex gap-2 flex-col lg:flex-row lg:gap-5 mt-4 lg:mt-0">
         <li>
           <Dropdown class="group">
             <button class="flex items-center">
@@ -36,16 +36,16 @@ import ThemeIcon from "./ThemeIcon.astro";
                   d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg>
             </button>
-            <DropdownItems class="relative">
+            <DropdownItems class="relative z-50">
               <div
                 class="lg:absolute bg-white dark:bg-black top-2 w-40 border shadow rounded right-0">
                 <ul class="grid">
-                  <a href="/portfolio/art" class="hover:bg-ew-500 px-2 py-1">Art</a>
-                  <a href="/portfolio/courses" class="hover:bg-ew-500 px-2 py-1">Courses</a>
-                  <a href="/portfolio/experience" class="hover:bg-ew-500 px-2 py-1">Experience</a>
-                  <a href="/portfolio/music" class="hover:bg-ew-500 px-2 py-1">Music</a>
-                  <a href="/portfolio/projects" class="hover:bg-ew-500 px-2 py-1">Projects</a>
-                  <a href="/portfolio/skills" class="hover:bg-ew-500 px-2 py-1">Skills</a>
+                  <a href="/portfolio/art" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Art</a>
+                  <a href="/portfolio/courses" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Courses</a>
+                  <a href="/portfolio/experience" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Experience</a>
+                  <a href="/portfolio/music" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Music</a>
+                  <a href="/portfolio/projects" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Projects</a>
+                  <a href="/portfolio/skills" class="hover:bg-ew-500 px-2 py-1 hover:text-white">Skills</a>
                 </ul>
               </div>
             </DropdownItems>
@@ -68,13 +68,13 @@ import ThemeIcon from "./ThemeIcon.astro";
                   d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg>
             </button>
-            <DropdownItems class="relative">
+            <DropdownItems class="relative z-50">
               <div
                 class="lg:absolute bg-white dark:bg-black top-2 w-40 border shadow rounded right-0">
                 <ul class="grid">
-                  <a href="/quizzes/map" class="hover:bg-ns-500 px-2 py-1">Map</a>
-                  <a href="/quizzes/streak" class="hover:bg-ns-500 px-2 py-1">Streak</a>
-                  <a href="/quizzes/compare" class="hover:bg-ns-500 px-2 py-1">Compare</a>
+                  <a href="/quizzes/map" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Map</a>
+                  <a href="/quizzes/streak" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Streak</a>
+                  <a href="/quizzes/compare" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Compare</a>
                 </ul>
               </div>
             </DropdownItems>
