@@ -130,7 +130,7 @@ const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
 />
 <Layout>
   <div slot="main">
-    <div class="fixed z-50">
+    <div class="fixed z-50 w-screen">
       <NavBar/>
     </div>
     <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
