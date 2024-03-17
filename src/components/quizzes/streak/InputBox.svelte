@@ -191,6 +191,9 @@
         <p><span class='font-bold'>Your streak ended at: </span>{prevStreak}</p>
         {:else if !isActive}
         <p><span class='font-bold'>Correct! The answer was: </span>{answer}</p>
+        {#if answer !== userInput}
+        <p><span class='font-bold'>You answered: </span>{userInput}, but good enough!</p>
+        {/if}
         {/if}
       </div>
     </div>
