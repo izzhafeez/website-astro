@@ -10,5 +10,9 @@
   "compare": {
     "title": "compare quizzes",
     "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
+  },
+  "geoguessr": {
+    "title": "geoguessr",
+    "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
   }
 }

@@ -149,15 +149,14 @@ function handleFail(_) {
   <div class="text-right p-2"><p class="font-bold dark:text-white text-3xl">{streak}</p><p class="text-gray-500">Score</p></div>
   <div class="text-left p-2"><p class="font-bold dark:text-white text-3xl">{bestStreak}</p><p class="text-gray-500">Highscore</p></div>
 </div>
-<div class='grid grid-cols-2 divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
-  <div class='grid gap-2 items-center content-center text-center p-4'>
+<div class='grid lg:grid-cols-2 divide-y-2 lg:divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
+  <div class='grid gap-2 content-end lg:items-center lg:content-center text-center p-4'>
     <div class="h-32 justify-center">
-      <!-- <img src={left.imgPath} alt={left.name} class="w-32 h-32 rounded-full" /> -->
       <h2 class="font-bold dark:text-white text-xl">{left.name}</h2>
       <p class="text-5xl text-gray-500">{left.quantity}</p>
     </div>
   </div>
-  <div class='grid content-center justify-items-center text-center gap-2 p-4'>
+  <div class='grid content-start lg:content-center justify-items-center text-center gap-2 px-4 py-12'>
     <div class="h-32">
       <h2 class="font-bold dark:text-white text-xl">{right.name}</h2>
       {#if isGuessing}

@@ -9,7 +9,7 @@ DropdownItems,
 import ThemeIcon from "./ThemeIcon.astro";
 // https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
 ---
-<header class="lg:flex justify-between p-5 gap-5 mx-auto container dark:text-white">
+<header class="lg:flex justify-between p-5 gap-5 mx-auto container dark:text-white bg-white dark:bg-black z-50">
   <Astronav closeOnClick>
     <div class="flex w-full lg:w-auto justify-between items-center">
       <a href="/"><img src="/img/desmosito-black-trans.png" class="dark:invert w-6 h-6"/></a>
@@ -75,6 +75,7 @@ import ThemeIcon from "./ThemeIcon.astro";
                   <a href="/quizzes/map" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Map</a>
                   <a href="/quizzes/streak" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Streak</a>
                   <a href="/quizzes/compare" class="hover:bg-ns-500 px-2 py-1 hover:text-white">Compare</a>
+                  <a href="/quizzes/geoguessr" class="hover:bg-ns-500 px-2 py-1 hover:text-white">GeoGuessr</a>
                 </ul>
               </div>
             </DropdownItems>
