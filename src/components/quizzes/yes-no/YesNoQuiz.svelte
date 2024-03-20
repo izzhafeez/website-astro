@@ -48,14 +48,18 @@
 
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
-  <h1 class="text-5xl font-extrabold dark:text-white">{title}</h1>
-  <p class="text-gray-500">{instructions}</p>
-  <button
-    class="mt-4 px-4 py-2 bg-hp-700 hover:bg-hp-500 text-white rounded-md"
-    on:click={handleStart}
-  >
-    Start
-  </button>
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-5xl font-extrabold dark:text-white">{title}</h1>
+    <p class="text-gray-500 mt-2">{instructions}</p>
+    <div class="flex">
+      <button
+        class="mt-4 px-4 py-2 bg-hp-700 hover:bg-hp-500 text-white rounded-md"
+        on:click={handleStart}
+      >
+        Start
+      </button>
+    </div>
+  </div>
 </div>
 {:else}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
