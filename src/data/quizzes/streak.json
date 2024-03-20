@@ -36,5 +36,12 @@
       "NTU",
       "School"
     ]
+  },
+  "status-codes": {
+    "title": "HTTP Status Codes",
+    "instructions": "Guess the HTTP status code based on the given prompt.",
+    "tags": [
+      "HTTP"
+    ]
   }
 }

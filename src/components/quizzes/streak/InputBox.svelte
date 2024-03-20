@@ -15,7 +15,8 @@
   let streak = 0;
   let prevStreak = 0;
   let isActive = true;
-  let promptColorStyle = "bg-hp-500/30 text-hp-700 dark:text-hp-300";
+  // let promptColorStyle = "bg-hp-500/30 text-hp-700 dark:text-hp-300";
+  let promptColorStyle = "bg-hp-700 text-white";
   let isMcq = false;
   let isWacky = false;
   let difficulty = 'easy';
@@ -77,6 +78,10 @@
     handleGenerate();
   }
 
+  function handleStop() {
+    toStop = true;
+  }
+
   function handleGenerate() {
     let randomId;
     let prevAnswer = answer;
@@ -93,7 +98,7 @@
       options.push(activeAnswerList[(randomId+i) % activeAnswerList.length]);
     }
     options.sort((a,b) => Math.random() - 0.5);
-    promptColorStyle = "bg-hp-500/30 text-hp-700 dark:text-hp-300";
+    promptColorStyle = "bg-hp-700 text-white";
   }
 
   function handleCorrect(e) {
@@ -102,7 +107,7 @@
     if (streak % 5 === 0) optionSize = Math.min(optionSize + 1, activeAnswerList.length);
     e.target.value = '';
     isActive = false;
-    promptColorStyle = "bg-ew-500/30 text-ew-700 dark:text-ew-300";
+    promptColorStyle = "bg-ew-500 text-white";
   }
 
   function handleWrong(e) {
@@ -112,7 +117,7 @@
     streak = 0;
     e.target.value = '';
     isActive = false;
-    promptColorStyle = "bg-ns-500/30 text-ns-700 dark:text-ns-300"
+    promptColorStyle = "bg-ns-500 text-white";
   }
 
   function onKeyDown(e) {
@@ -176,10 +181,10 @@
   <p class='dark:text-white my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
   <div class='flex flex-wrap gap-1 my-2'>
     {#each activeAnswerList.slice(0, MINIMUM_ACTIVE_LENGTH) as answer}
-    <span class='bg-hp-500/30 text-hp-700 dark:text-hp-300 py-1 px-2 rounded-full'>{answer.answer}</span>
+    <span class='bg-hp-600 text-white py-1 px-2 rounded-full'>{answer.answer}</span>
     {/each}
   </div>
-  <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
+  <button on:click={handleStart} class='bg-ew-500 py-1 px-2 rounded-full text-white hover:bg-ew-500/50'>Start Quiz</button>
   {:else}
   <div class="grid xl:grid-cols-2 gap-8">
     <div class={`${promptColorStyle} h-60 w-full mx-auto rounded-3xl grid items-center text-center p-4`}>
@@ -217,8 +222,9 @@
       <input name="guess" on:keydown={onKeyDown} class='border-[1px] border-gray-500 px-2 py-1 rounded-lg w-full'/>
       <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       {#if !isActive}
-      <button on:click={handleGenerate} class="bg-ew-300/20 py-1 px-2 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50">Next, or hit 'Enter'</button>
+      <button on:click={handleGenerate} class="bg-ew-500 py-1 px-2 rounded-full text-white hover:bg-ew-500/50">Next, or hit 'Enter'</button>
       {/if}
+      <button on:click={handleStop} class="bg-ns-500 py-1 px-2 rounded-full text-white hover:bg-ns-500/50">Go Back</button>
     </div>
     {/if}
   </div>

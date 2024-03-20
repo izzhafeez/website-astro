@@ -14,5 +14,9 @@
   "geoguessr": {
     "title": "geoguessr",
     "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
+  },
+  "yesNo": {
+    "title": "yes no quizzes",
+    "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
   }
 }

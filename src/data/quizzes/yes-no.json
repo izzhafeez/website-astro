@@ -1,0 +1,10 @@
+{
+  "trash": {
+    "title": "Reuse or Trash?",
+    "instructions": "Can the food item be reused?",
+    "tags": [
+      "GEN2002X",
+      "Food"
+    ]
+  }
+}

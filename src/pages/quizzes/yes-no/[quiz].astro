@@ -1,0 +1,38 @@
+---
+import type { GetStaticPaths } from "astro";
+import YesNoQuiz from "../../../components/quizzes/yes-no/YesNoQuiz.svelte";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import trashData from "../../../data/quizzes/yes-no/trash.json";
+
+export const getStaticPaths = (() => {
+  return [
+    { 
+      params: {
+        quiz: "trash" 
+      },
+      props: {
+        title: "Reuse or Trash?",
+        data: trashData,
+        instructions: "How good are you at identifying reusable foods? Decide whether the food is good or no good based on its description. Take this quiz to find out!",
+        fields: [
+          "description",
+          "duration",
+          "storage",
+          "usage"
+        ],
+        options: ["Reuse", "Trash"]
+      }
+    },
+  ];
+}) satisfies GetStaticPaths;
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <YesNoQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} fields={Astro.props.fields} options={Astro.props.options}/>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </div>
+</Layout>

@@ -4,6 +4,7 @@ import awsProductsData from "../../../data/quizzes/streak/aws-products.json";
 import helloWorldData from "../../../data/quizzes/streak/hello-world.json";
 import nusModsData from "../../../data/quizzes/streak/nus-mods.json";
 import ntuModsData from "../../../data/quizzes/streak/ntu-mods.json";
+import statusCodesData from "../../../data/quizzes/streak/status-codes.json";
 import StreakQuiz from "../../../components/quizzes/streak/StreakQuiz.svelte";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
@@ -54,6 +55,15 @@ export async function getStaticPaths() {
         title: "NTU Mods",
         data: ntuModsData,
         instructions: "Guess the NTU module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (tip: try typing 'EE' or '200' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'status-codes' },
+      props: {
+        title: "Status Codes",
+        data: statusCodesData,
+        instructions: "Guess the status code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what status codes you would like to include in the quiz (tip: try typing '2' or 'OK' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     }

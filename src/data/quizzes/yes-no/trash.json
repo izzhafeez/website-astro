@@ -1,0 +1,785 @@
+[
+  {
+    "name": "Fermented Soybeans",
+    "description": "These are small, yellowish beans soaked in a salty liquid. They emit a pungent, sour smell, and their texture is slightly slimy. They have been stored in a tightly sealed glass jar in the refrigerator.",
+    "duration": "2 weeks",
+    "storage": "Tightly sealed glass jar in the refrigerator",
+    "usage": "These fermented soybeans were used in a traditional Korean stew called Doenjang-jjigae last week.",
+    "answer": false,
+    "reason": "The fermented soybeans have developed a slimy texture and emit a strong sour smell, indicating spoilage. Additionally, they have been stored for two weeks, which exceeds the recommended shelf life for fresh fermentation. Due to these factors, it is not safe to reuse them."
+  },
+  {
+    "name": "Roasted Chicken",
+    "description": "This is a leftover roasted chicken thigh, coated with a blend of Asian spices. It still looks moist and has a savory aroma. It has been stored in an airtight container in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Airtight container in the refrigerator",
+    "usage": "This roasted chicken was leftover from a family dinner three days ago.",
+    "answer": true,
+    "reason": "The roasted chicken thigh still appears moist and retains its savory aroma, indicating freshness. It has been stored properly in an airtight container in the refrigerator, which helps preserve its quality. Considering it has been only three days since it was prepared and there are no signs of spoilage, it is safe to reuse."
+  },
+  {
+    "name": "Cooked Rice",
+    "description": "This is leftover steamed jasmine rice, which has dried out and become slightly hard. It has lost its original fluffy texture and now feels clumpy. There is no noticeable smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This rice was leftover from a Chinese takeout meal two days ago.",
+    "answer": false,
+    "reason": "The cooked rice has dried out and become hard, losing its desirable texture. Although there is no noticeable smell, the change in texture indicates that it has passed its prime. Additionally, it has been stored for two days with a loose lid, which may have allowed moisture to escape, accelerating the drying process. Due to these factors, it is not safe to reuse."
+  },
+  {
+    "name": "Tofu",
+    "description": "This is a block of firm tofu, still in its original packaging. It appears fresh, with no signs of discoloration or mold. There is a faint sweet smell typical of fresh tofu. It has been stored in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Refrigerator",
+    "usage": "This tofu was bought from an Asian grocery store a week ago but has not been used yet.",
+    "answer": true,
+    "reason": "The tofu appears fresh with no signs of spoilage, indicating its safety for consumption. It has been stored properly in the refrigerator, which helps maintain its freshness. The faint sweet smell further confirms its freshness. Considering it has been only a week since purchase and there are no visible signs of deterioration, it is safe to reuse."
+  },
+  {
+    "name": "Kimchi",
+    "description": "This is a jar of homemade kimchi. It has a vibrant red color and emits a strong, tangy aroma with a hint of garlic. The texture is crisp and slightly crunchy. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "1 month",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This kimchi was homemade a month ago and has been used as a side dish in various meals.",
+    "answer": false,
+    "reason": "Although kimchi is known to improve with age, it should be consumed within a reasonable time frame to prevent over-fermentation. Despite its vibrant color and crisp texture, the strong tangy aroma indicates that it has undergone extensive fermentation, resulting in an overly sour taste. Additionally, the duration of one month exceeds the recommended shelf life for maintaining optimal flavor and texture. Therefore, it is advisable to discard this kimchi to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Noodles",
+    "description": "These are leftover stir-fried noodles with mixed vegetables and chicken. They appear slightly dry and have absorbed some of the sauce, but they still retain their original color and smell. They have been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "These noodles were leftover from a homemade Asian stir-fry two days ago.",
+    "answer": true,
+    "reason": "Although the leftover noodles have become slightly dry, they still retain their original color and smell, indicating that they are still edible. Despite being stored with a loose lid, there are no visible signs of spoilage such as mold or off-putting odors. Given that it has been only two days since preparation and there are no concerning indicators, it is safe to reuse."
+  },
+  {
+    "name": "Miso Paste",
+    "description": "This is a container of miso paste, which has a rich brown color and a strong, salty aroma. The texture is smooth and slightly grainy. It has been stored in the refrigerator.",
+    "duration": "3 months",
+    "storage": "Refrigerator",
+    "usage": "This miso paste has been used sparingly in various Japanese dishes over the past three months.",
+    "answer": true,
+    "reason": "Miso paste is known for its long shelf life due to its fermentation process, and the rich brown color indicates its freshness. The strong, salty aroma is characteristic of well-preserved miso. Despite being stored for three months, the refrigeration has helped maintain its quality. Additionally, miso paste is traditionally aged to enhance its flavor, so the duration of storage is not a cause for concern. Therefore, it is safe to reuse."
+  },
+  {
+    "name": "Lettuce",
+    "description": "This is a head of lettuce, which appears wilted and has started to turn brown around the edges. It emits a slightly sour smell. It has been stored in a plastic bag in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Plastic bag in the refrigerator",
+    "usage": "This lettuce was purchased from a local market a week ago but has not been used yet.",
+    "answer": false,
+    "reason": "The lettuce has wilted and developed brown edges, indicating deterioration. The slightly sour smell suggests the onset of spoilage. Despite being stored in a plastic bag, it failed to maintain its freshness. Lettuce is highly perishable and should be consumed within a few days of purchase to avoid spoilage. Therefore, it is advisable to discard this lettuce."
+  },
+  {
+    "name": "Leftover Sushi Rice",
+    "description": "This is leftover sushi rice, which has become dry and hard. It has lost its stickiness and now appears clumpy. There is a faint sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This sushi rice was leftover from a homemade sushi-making session yesterday.",
+    "answer": false,
+    "reason": "The sushi rice has dried out and become hard, losing its desirable texture and stickiness. The faint sour smell indicates the onset of fermentation and spoilage. Despite being stored in the refrigerator, the loose lid failed to preserve its freshness. Sushi rice should be consumed promptly to maintain its quality, as it tends to dry out quickly. Therefore, it is not safe to reuse this leftover sushi rice."
+  },
+  {
+    "name": "Durian",
+    "description": "This is a durian fruit that has started to rot. The outer skin has turned dark brown, and there are visible cracks and leaks. The smell is overpowering, with a mix of sulfur and fermented sweetness. The flesh has softened and appears mushy. It has been stored at room temperature.",
+    "duration": "5 days",
+    "storage": "Room temperature",
+    "usage": "This durian fruit was purchased from a local market five days ago but has not been opened until now.",
+    "answer": false,
+    "reason": "The durian fruit has clearly passed its prime and is no longer safe for consumption. The dark brown color, visible cracks, leaks, and overpowering smell indicate advanced deterioration. Additionally, the mushy texture of the flesh confirms that it is beyond salvageable. Durian is highly perishable and should be consumed shortly after purchase. Storing it at room temperature has accelerated the rotting process. Therefore, it is essential to dispose of this rotten durian to prevent any potential health risks."
+  },
+  {
+    "name": "Leftover Stir-Fry Sauce",
+    "description": "This is leftover stir-fry sauce, which has separated into layers. The top layer appears oily, while the bottom layer is thick and grainy. There is a slightly sour smell. It has been stored in a glass jar in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Glass jar in the refrigerator",
+    "usage": "This stir-fry sauce was homemade a week ago and has been used in various Asian dishes.",
+    "answer": false,
+    "reason": "The separation of layers in the stir-fry sauce indicates spoilage and degradation of quality. The oily top layer and thick, grainy bottom layer suggest that the sauce has undergone significant changes in texture and composition. The slightly sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the duration of one week exceeds the recommended shelf life for homemade sauces. Therefore, it is advisable to discard this leftover stir-fry sauce to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Coconut Milk",
+    "description": "This is leftover coconut milk, which has developed a thick layer of cream on top. The rest of the milk appears slightly separated but still creamy. There is a faint sweet smell. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This coconut milk was leftover from a homemade Thai curry three days ago.",
+    "answer": true,
+    "reason": "The development of a thick layer of cream on top of the coconut milk is a natural occurrence and does not indicate spoilage. The faint sweet smell suggests that the coconut milk is still fresh. Although there is slight separation, the overall creamy texture indicates that it is still suitable for consumption. Proper storage in a plastic container with a tight lid in the refrigerator has helped maintain its quality. Considering it has been only three days since preparation and there are no concerning indicators, it is safe to reuse."
+  },
+  {
+    "name": "Leftover Tofu Soup",
+    "description": "This is leftover tofu soup, which has a cloudy appearance and has developed a thin layer of oil on the surface. There are small bits of tofu floating in the broth, and the vegetables have become mushy. It emits a slightly sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This tofu soup was homemade four days ago and has been stored as leftovers since then.",
+    "answer": false,
+    "reason": "The cloudy appearance of the tofu soup, along with the development of a thin layer of oil on the surface, indicates spoilage. The mushy texture of the vegetables and the slightly sour smell further confirm the deterioration of quality. Despite being stored in the refrigerator, the use of a loose lid failed to prevent the entry of air and bacterial contamination, accelerating the spoilage process. Tofu soup should be consumed within a few days of preparation to maintain its freshness. Therefore, it is not safe to reuse this leftover tofu soup."
+  },
+  {
+    "name": "Leftover Cooked Quinoa",
+    "description": "This is leftover cooked quinoa, which has dried out and become slightly clumpy. It has lost its original fluffy texture and appears slightly dull in color. There is no noticeable smell. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This cooked quinoa was leftover from a homemade Buddha bowl three days ago.",
+    "answer": true,
+    "reason": "Although the cooked quinoa has dried out slightly and lost its fluffy texture, it still appears edible with no signs of spoilage. The lack of noticeable smell suggests that it is still fresh. Despite being stored in the refrigerator, the use of a tight lid has helped preserve its moisture content to some extent. Considering it has been only three days since preparation and there are no concerning indicators, it is safe to reuse."
+  },
+  {
+    "name": "Soy Sauce",
+    "description": "This is a bottle of soy sauce, which has a deep brown color and emits a rich, salty aroma. The consistency is smooth and fluid. It has been stored in a cool, dry pantry.",
+    "duration": "6 months",
+    "storage": "Cool, dry pantry",
+    "usage": "This soy sauce has been used sparingly in various Asian dishes over the past six months.",
+    "answer": true,
+    "reason": "Soy sauce is known for its long shelf life due to its high salt content, which acts as a natural preservative. The deep brown color and rich, salty aroma indicate its freshness. Despite being stored for six months, the cool, dry pantry environment has helped maintain its quality. Additionally, soy sauce is traditionally aged to develop its flavor, so the duration of storage is not a cause for concern. Therefore, it is safe to reuse."
+  },
+  {
+    "name": "Leftover Fried Rice",
+    "description": "This is leftover fried rice, which appears slightly dry but still retains its individual grains. It has a savory aroma with hints of garlic and soy sauce. There are visible pieces of vegetables and scrambled eggs mixed throughout. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This fried rice was leftover from a homemade dinner two days ago.",
+    "answer": true,
+    "reason": "Although the fried rice has become slightly dry, it still appears edible with no signs of spoilage. The savory aroma with hints of garlic and soy sauce suggests that it is still fresh. Despite being stored in the refrigerator, the use of a tight lid has helped preserve its moisture content to some extent. Considering it has been only two days since preparation and there are no concerning indicators, it is safe to reuse."
+  },
+  {
+    "name": "Leftover Curry Paste",
+    "description": "This is leftover curry paste, which has darkened in color and developed a strong, pungent aroma. The texture is thick and pasty. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "1 month",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This curry paste was homemade a month ago and has been used in various Asian curry dishes.",
+    "answer": false,
+    "reason": "The darkened color and strong, pungent aroma of the curry paste indicate spoilage. The thick and pasty texture suggests that it has undergone significant changes in composition. Despite being stored in the refrigerator, the duration of one month exceeds the recommended shelf life for homemade curry paste. The extended storage period has likely led to flavor degradation and the growth of harmful bacteria. Therefore, it is advisable to discard this leftover curry paste to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Green Tea Leaves",
+    "description": "These are green tea leaves, which have a vibrant green color and emit a fresh, grassy aroma. The leaves are whole and unbroken. They have been stored in an airtight tin container in a cool, dry pantry.",
+    "duration": "6 months",
+    "storage": "Airtight tin container in a cool, dry pantry",
+    "usage": "These green tea leaves have been used sparingly over the past six months to brew traditional Japanese green tea.",
+    "answer": true,
+    "reason": "Green tea leaves have a long shelf life when stored properly, and the vibrant green color and fresh, grassy aroma indicate their freshness. The whole and unbroken leaves further confirm their quality. Despite being stored for six months, the airtight tin container in a cool, dry pantry has helped preserve their flavor and aroma. Additionally, green tea leaves are known to age gracefully, developing more complex flavors over time. Therefore, it is safe to reuse these green tea leaves."
+  },
+  {
+    "name": "Leftover Soba Noodles",
+    "description": "These are leftover soba noodles, which have become slightly dry but still retain their individual strands. They have a faint earthy aroma. There are no visible signs of spoilage. They have been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "These soba noodles were leftover from a homemade Japanese noodle soup three days ago.",
+    "answer": true,
+    "reason": "Although the soba noodles have become slightly dry, they still retain their individual strands and show no signs of spoilage. The faint earthy aroma indicates that they are still fresh. Despite being stored in the refrigerator, the use of a tight lid has helped prevent moisture loss to some extent. Considering it has been only three days since preparation and there are no concerning indicators, it is safe to reuse."
+  },
+  {
+    "name": "Coconut Milk",
+    "description": "This is a can of supposedly expired coconut milk, which has separated into layers. The top layer appears oily, while the bottom layer is thick and grainy. There is a sour smell emanating from the can. It has been stored in a cool, dry pantry.",
+    "duration": "1 year",
+    "storage": "Cool, dry pantry",
+    "usage": "This coconut milk was left unopened in the pantry for a year past its expiration date.",
+    "answer": false,
+    "reason": "The separation of layers in the expired coconut milk indicates spoilage and degradation of quality. The sour smell emanating from the can further confirms the onset of spoilage. Despite being stored in a cool, dry pantry, the duration of one year past the expiration date exceeds the recommended shelf life for coconut milk. The prolonged storage has likely led to the growth of harmful bacteria, making it unsafe for consumption. Therefore, it is essential to discard this expired coconut milk to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Pickled Vegetables",
+    "description": "These are leftover pickled vegetables, which have retained their crunchy texture and vibrant color. They emit a tangy aroma with hints of spices. There are no visible signs of spoilage. They have been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "2 weeks",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "These pickled vegetables were homemade two weeks ago and have been used as a side dish in various meals.",
+    "answer": true,
+    "reason": "Pickled vegetables have a long shelf life when stored properly, and the retention of their crunchy texture and vibrant color indicates their freshness. The tangy aroma with hints of spices further confirms their quality. Despite being stored in the refrigerator for two weeks, the use of a tight lid has helped preserve their flavor and texture. Additionally, pickled vegetables are naturally preserved through the pickling process, making them resistant to spoilage. Therefore, it is safe to reuse these leftover pickled vegetables."
+  },
+  {
+    "name": "Leftover Tamarind Paste",
+    "description": "This is leftover tamarind paste, which has darkened in color and developed a thick, sticky texture. There is a sour smell emanating from the container. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "1 month",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This tamarind paste was homemade a month ago and has been used in various Asian dishes.",
+    "answer": false,
+    "reason": "The darkened color and thick, sticky texture of the tamarind paste indicate spoilage. The sour smell emanating from the container further confirms the onset of spoilage. Despite being stored in the refrigerator with a tight lid, the duration of one month exceeds the recommended shelf life for homemade tamarind paste. The prolonged storage has likely led to the growth of harmful bacteria, making it unsafe for consumption. Therefore, it is essential to discard this leftover tamarind paste to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Fish Sauce",
+    "description": "This is a bottle of supposedly expired fish sauce, which has darkened in color and developed a strong, pungent odor. The consistency is thin and watery. It has been stored in a cool, dry pantry.",
+    "duration": "2 years",
+    "storage": "Cool, dry pantry",
+    "usage": "This fish sauce was left unopened in the pantry for two years past its expiration date.",
+    "answer": false,
+    "reason": "The darkened color and strong, pungent odor of the expired fish sauce indicate spoilage. The thin and watery consistency suggests that it has undergone significant changes in composition. Despite being stored in a cool, dry pantry, the duration of two years past the expiration date exceeds the recommended shelf life for fish sauce. The prolonged storage has likely led to the degradation of quality and the growth of harmful bacteria, making it unsafe for consumption. Therefore, it is essential to discard this expired fish sauce to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Chili Paste",
+    "description": "This is leftover chili paste, which has darkened in color and developed a thick, grainy texture. There is a strong, spicy aroma emanating from the container. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "3 weeks",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This chili paste was homemade three weeks ago and has been used in various Asian dishes.",
+    "answer": false,
+    "reason": "The darkened color and thick, grainy texture of the chili paste indicate spoilage. The strong, spicy aroma emanating from the container further confirms the onset of spoilage. Despite being stored in the refrigerator with a tight lid, the duration of three weeks exceeds the recommended shelf life for homemade chili paste. The prolonged storage has likely led to the growth of harmful bacteria, making it unsafe for consumption. Therefore, it is essential to discard this leftover chili paste to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Seaweed Salad",
+    "description": "This is leftover seaweed salad, which has retained its vibrant green color and crisp texture. It emits a refreshing oceanic aroma with hints of sesame oil. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This seaweed salad was homemade four days ago and has been used as a side dish in various meals.",
+    "answer": true,
+    "reason": "Seaweed salad has a long shelf life when stored properly, and the retention of its vibrant green color and crisp texture indicates its freshness. The refreshing oceanic aroma with hints of sesame oil further confirms its quality. Despite being stored in the refrigerator for four days, the use of a tight lid has helped preserve its flavor and texture. Additionally, seaweed salad is naturally preserved through the pickling process, making it resistant to spoilage. Therefore, it is safe to reuse this leftover seaweed salad."
+  },
+  {
+    "name": "Leftover Stir-Fried Vegetables",
+    "description": "These are leftover stir-fried vegetables, which have retained their vibrant colors and crisp texture. They emit a savory aroma with hints of garlic and ginger. There are no visible signs of spoilage. They have been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "These stir-fried vegetables were leftover from a homemade Asian stir-fry three days ago.",
+    "answer": true,
+    "reason": "The retention of vibrant colors and crisp texture in the leftover stir-fried vegetables indicates their freshness. The savory aroma with hints of garlic and ginger further confirms their quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve their flavor and texture. Additionally, stir-fried vegetables typically have a longer shelf life compared to other perishable foods due to the cooking process. Therefore, it is safe to reuse these leftover stir-fried vegetables."
+  },
+  {
+    "name": "Leftover Sesame Chicken",
+    "description": "This is leftover sesame chicken, which still retains its crunchy exterior and juicy interior. It emits a savory aroma with hints of sesame seeds and soy sauce. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This sesame chicken was leftover from a homemade Asian-inspired dinner two days ago.",
+    "answer": true,
+    "reason": "The retention of crunchy exterior and juicy interior in the leftover sesame chicken indicates its freshness. The savory aroma with hints of sesame seeds and soy sauce further confirms its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, sesame chicken typically has a longer shelf life compared to other perishable foods due to the cooking process. Therefore, it is safe to reuse this leftover sesame chicken."
+  },
+  {
+    "name": "Leftover Eggplant Stir-Fry",
+    "description": "This is leftover eggplant stir-fry, which has become mushy and discolored. The once vibrant purple color has turned brown, and the texture is soft and soggy. It emits a slightly sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This eggplant stir-fry was leftover from a homemade Asian-inspired dinner three days ago.",
+    "answer": false,
+    "reason": "The mushy and discolored appearance of the leftover eggplant stir-fry indicates spoilage. The once vibrant purple color has turned brown, suggesting advanced deterioration. The soft and soggy texture further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial contamination, accelerating the spoilage process. Eggplant is highly perishable and prone to deterioration, especially when cooked. Therefore, it is not safe to reuse this leftover eggplant stir-fry."
+  },
+  {
+    "name": "Rice Vinegar",
+    "description": "This is a bottle of rice vinegar past its expiration date, which has developed a cloudy appearance and emits a strong, sour odor. There are visible sediment particles floating in the liquid. It has been stored in a cool, dry pantry.",
+    "duration": "1 year",
+    "storage": "Cool, dry pantry",
+    "usage": "This rice vinegar was left unopened in the pantry for a year past its expiration date.",
+    "answer": false,
+    "reason": "The cloudy appearance and strong, sour odor of the expired rice vinegar indicate spoilage. The presence of visible sediment particles floating in the liquid further confirms the degradation of quality. Despite being stored in a cool, dry pantry, the duration of one year past the expiration date exceeds the recommended shelf life for rice vinegar. The prolonged storage has likely led to the growth of harmful bacteria, making it unsafe for consumption. Therefore, it is essential to discard this expired rice vinegar to avoid any risk of foodborne illness."
+  },
+  {
+    "name": "Leftover Sweet and Sour Pork",
+    "description": "This is leftover sweet and sour pork, which has become dry and tough. The once crispy exterior has turned soggy, and the meat is chewy. It emits a slightly off-putting smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This sweet and sour pork was leftover from a homemade Asian-inspired dinner two days ago.",
+    "answer": false,
+    "reason": "The dry and tough texture of the leftover sweet and sour pork indicates spoilage. The once crispy exterior has turned soggy, and the meat has become chewy, suggesting advanced deterioration. The slightly off-putting smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial contamination, accelerating the spoilage process. Sweet and sour pork is prone to deterioration, especially when stored with moisture. Therefore, it is not safe to reuse this leftover sweet and sour pork."
+  },
+  {
+    "name": "Leftover Kimchi",
+    "description": "This is leftover kimchi, which has retained its vibrant red color and crunchy texture. It emits a tangy aroma with hints of garlic and chili. There are no visible signs of spoilage. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "2 weeks",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This kimchi was homemade two weeks ago and has been used as a condiment in various Korean dishes.",
+    "answer": true,
+    "reason": "Kimchi has a long shelf life when stored properly, and the retention of its vibrant red color and crunchy texture indicates its freshness. The tangy aroma with hints of garlic and chili further confirms its quality. Despite being stored in the refrigerator for two weeks, the use of a tight lid has helped preserve its flavor and texture. Additionally, kimchi undergoes a fermentation process that enhances its preservation properties and flavor profile over time. Therefore, it is safe to reuse this leftover kimchi."
+  },
+  {
+    "name": "Leftover Teriyaki Sauce",
+    "description": "This is leftover teriyaki sauce, which has separated into layers. The top layer appears oily, while the bottom layer is thick and syrupy. There is a sweet and savory aroma with hints of soy sauce and ginger. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This teriyaki sauce was homemade a week ago and has been used as a marinade and sauce in various Asian dishes.",
+    "answer": true,
+    "reason": "The separation of layers in the teriyaki sauce is a natural occurrence and does not indicate spoilage. The sweet and savory aroma with hints of soy sauce and ginger further confirms its quality. Despite being stored in the refrigerator for a week, the use of a tight lid has helped preserve its flavor and texture. Additionally, homemade teriyaki sauce typically contains vinegar and sugar, which act as natural preservatives. Therefore, it is safe to reuse this leftover teriyaki sauce."
+  },
+  {
+    "name": "Leftover Coconut Curry",
+    "description": "This is leftover coconut curry, which has retained its creamy consistency and vibrant color. It emits a fragrant aroma with hints of coconut milk, curry spices, and herbs. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This coconut curry was homemade three days ago and has been served with rice and naan.",
+    "answer": true,
+    "reason": "The retention of creamy consistency and vibrant color in the leftover coconut curry indicates its freshness. The fragrant aroma with hints of coconut milk, curry spices, and herbs further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, coconut curry typically contains spices and herbs with antimicrobial properties, which contribute to its preservation. Therefore, it is safe to reuse this leftover coconut curry."
+  },
+  {
+    "name": "Leftover Roast Chicken",
+    "description": "This is leftover roast chicken, which still retains its juicy interior and crispy skin. It emits a savory aroma with hints of herbs and spices. There are no visible signs of spoilage. It has been stored in airtight foil in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Airtight foil in the refrigerator",
+    "usage": "This roast chicken was leftover from a Sunday dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of juicy interior and crispy skin in the leftover roast chicken indicates its freshness. The savory aroma with hints of herbs and spices further confirms its quality. Despite being stored in the refrigerator for three days, the use of airtight foil has helped preserve its flavor and texture. Additionally, roast chicken is known for its relatively long shelf life compared to other meats. Therefore, it is safe to reuse this leftover roast chicken."
+  },
+  {
+    "name": "Leftover Tomato Sauce",
+    "description": "This is leftover tomato sauce, which has a rich red color and emits a savory aroma with hints of garlic and herbs. The consistency is thick and velvety. There are no visible signs of spoilage. It has been stored in a glass jar with a tight lid in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Glass jar with a tight lid in the refrigerator",
+    "usage": "This tomato sauce was leftover from a spaghetti dinner a week ago.",
+    "answer": true,
+    "reason": "The rich red color and savory aroma with hints of garlic and herbs in the leftover tomato sauce indicate its freshness. The thick and velvety consistency further confirms its quality. Despite being stored in the refrigerator for a week, the use of a tight lid has helped preserve its flavor and texture. Additionally, homemade tomato sauce typically contains acidic ingredients like tomatoes and vinegar, which act as natural preservatives. Therefore, it is safe to reuse this leftover tomato sauce."
+  },
+  {
+    "name": "Leftover Beef Stew",
+    "description": "This is leftover beef stew, which has a rich brown color and emits a savory aroma with hints of beef, vegetables, and herbs. The beef is tender, and the vegetables are soft but not mushy. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This beef stew was leftover from a homemade dinner four days ago.",
+    "answer": true,
+    "reason": "The rich brown color and savory aroma with hints of beef, vegetables, and herbs in the leftover beef stew indicate its freshness. The tender beef and soft but not mushy vegetables further confirm its quality. Despite being stored in the refrigerator for four days, the use of a tight lid has helped preserve its flavor and texture. Additionally, beef stew is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover beef stew."
+  },
+  {
+    "name": "Leftover Pasta Salad",
+    "description": "This is leftover pasta salad, which still retains its vibrant colors and firm texture. It emits a tangy aroma with hints of Italian dressing and fresh herbs. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This pasta salad was leftover from a barbecue party two days ago.",
+    "answer": true,
+    "reason": "The retention of vibrant colors and firm texture in the leftover pasta salad indicates its freshness. The tangy aroma with hints of Italian dressing and fresh herbs further confirms its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, pasta salad typically contains acidic ingredients like vinegar or lemon juice, which act as natural preservatives. Therefore, it is safe to reuse this leftover pasta salad."
+  },
+  {
+    "name": "Leftover Meatloaf",
+    "description": "This is leftover meatloaf, which still retains its moist interior and slightly crispy exterior. It emits a savory aroma with hints of beef and spices. There are no visible signs of spoilage. It has been stored in airtight foil in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Airtight foil in the refrigerator",
+    "usage": "This meatloaf was leftover from a family dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of moist interior and slightly crispy exterior in the leftover meatloaf indicates its freshness. The savory aroma with hints of beef and spices further confirms its quality. Despite being stored in the refrigerator for three days, the use of airtight foil has helped preserve its flavor and texture. Additionally, meatloaf is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover meatloaf."
+  },
+  {
+    "name": "Leftover Chicken Soup",
+    "description": "This is leftover chicken soup, which still retains its hearty broth and tender chicken pieces. It emits a comforting aroma with hints of herbs and vegetables. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This chicken soup was leftover from a homemade dinner four days ago.",
+    "answer": true,
+    "reason": "The retention of hearty broth and tender chicken pieces in the leftover chicken soup indicates its freshness. The comforting aroma with hints of herbs and vegetables further confirms its quality. Despite being stored in the refrigerator for four days, the use of a tight lid has helped preserve its flavor and texture. Additionally, chicken soup is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover chicken soup."
+  },
+  {
+    "name": "Leftover Macaroni and Cheese",
+    "description": "This is leftover macaroni and cheese, which still retains its creamy texture and cheesy flavor. It emits a savory aroma with hints of cheddar and spices. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This macaroni and cheese was leftover from a family dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of creamy texture and cheesy flavor in the leftover macaroni and cheese indicates its freshness. The savory aroma with hints of cheddar and spices further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, macaroni and cheese typically contains acidic ingredients like cheese and milk, which act as natural preservatives. Therefore, it is safe to reuse this leftover macaroni and cheese."
+  },
+  {
+    "name": "Leftover Lasagna",
+    "description": "This is leftover lasagna, which still retains its layers of pasta, sauce, cheese, and meat. It emits a savory aroma with hints of tomato sauce, herbs, and melted cheese. There are no visible signs of spoilage. It has been stored in a glass dish with a tight lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Glass dish with a tight lid in the refrigerator",
+    "usage": "This lasagna was leftover from a family dinner four days ago.",
+    "answer": true,
+    "reason": "The retention of layers of pasta, sauce, cheese, and meat in the leftover lasagna indicates its freshness. The savory aroma with hints of tomato sauce, herbs, and melted cheese further confirms its quality. Despite being stored in the refrigerator for four days, the use of a tight lid has helped preserve its flavor and texture. Additionally, lasagna is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover lasagna."
+  },
+  {
+    "name": "Leftover Chicken Pot Pie",
+    "description": "This is leftover chicken pot pie, which still retains its flaky crust and creamy filling. It emits a comforting aroma with hints of chicken, vegetables, and herbs. There are no visible signs of spoilage. It has been stored in a glass dish with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Glass dish with a tight lid in the refrigerator",
+    "usage": "This chicken pot pie was leftover from a family dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of flaky crust and creamy filling in the leftover chicken pot pie indicates its freshness. The comforting aroma with hints of chicken, vegetables, and herbs further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, chicken pot pie is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover chicken pot pie."
+  },
+  {
+    "name": "Leftover Creamy Potato Salad",
+    "description": "This is leftover creamy potato salad, which has become mushy and watery. The once firm potatoes have turned soft and disintegrated, and the creamy dressing has separated into a thin liquid. It emits a slightly sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This creamy potato salad was leftover from a barbecue party two days ago.",
+    "answer": false,
+    "reason": "The mushy and watery texture of the leftover creamy potato salad indicates spoilage. The once firm potatoes have turned soft and disintegrated, and the creamy dressing has separated into a thin liquid, suggesting advanced deterioration. The slightly sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial contamination, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover creamy potato salad."
+  },
+  {
+    "name": "Expired Cottage Cheese",
+    "description": "This is a container of expired cottage cheese, which has developed a moldy surface with a greenish-blue coloration. There is a foul odor emanating from the container. It has been stored in the refrigerator.",
+    "duration": "1 month",
+    "storage": "Refrigerator",
+    "usage": "This cottage cheese was left unopened in the refrigerator for a month past its expiration date.",
+    "answer": false,
+    "reason": "The moldy surface with a greenish-blue coloration and foul odor of the expired cottage cheese indicate advanced spoilage. Mold growth is a clear indicator that harmful bacteria have proliferated in the food, making it unsafe for consumption. Despite being stored in the refrigerator, the duration of one month past the expiration date exceeds the recommended shelf life for cottage cheese. The prolonged storage has likely led to the growth of harmful bacteria, increasing the risk of foodborne illness. Therefore, it is essential to discard this expired cottage cheese to avoid any potential health hazards."
+  },
+  {
+    "name": "Leftover Chicken Alfredo Pasta",
+    "description": "This is leftover chicken alfredo pasta, which has a slimy texture and emits a sour smell. The once creamy sauce has separated into a watery liquid, and the chicken pieces have turned rubbery. There are visible signs of mold growth on the surface. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This chicken alfredo pasta was leftover from a homemade dinner three days ago.",
+    "answer": false,
+    "reason": "The slimy texture, sour smell, and visible mold growth on the surface of the leftover chicken alfredo pasta indicate extensive spoilage. The separation of the creamy sauce into a watery liquid and the rubbery texture of the chicken further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture accumulation and bacterial contamination, accelerating the spoilage process. Mold growth is a clear indicator that harmful bacteria have proliferated in the food, making it unsafe for consumption. Therefore, it is essential to discard this leftover chicken alfredo pasta to avoid any potential health hazards."
+  },
+  {
+    "name": "Leftover Creamy Coleslaw",
+    "description": "This is leftover creamy coleslaw, which has become wilted and slimy. The once crisp cabbage and carrots have turned soft and discolored, and the creamy dressing has separated into a thin liquid. It emits a foul odor. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This creamy coleslaw was leftover from a barbecue party two days ago.",
+    "answer": false,
+    "reason": "The wilted and slimy texture of the leftover creamy coleslaw indicates spoilage. The once crisp cabbage and carrots have turned soft and discolored, suggesting advanced deterioration. The separation of the creamy dressing into a thin liquid and the foul odor further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial contamination, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover creamy coleslaw."
+  },
+  {
+    "name": "Expired Yogurt",
+    "description": "This is a container of expired yogurt, which has developed a moldy surface with a greenish-blue coloration. There is a strong, sour odor emanating from the container. It has been stored in the refrigerator.",
+    "duration": "2 weeks",
+    "storage": "Refrigerator",
+    "usage": "This yogurt was left unopened in the refrigerator for two weeks past its expiration date.",
+    "answer": false,
+    "reason": "The moldy surface with a greenish-blue coloration and strong, sour odor of the expired yogurt indicate advanced spoilage. Mold growth is a clear indicator that harmful bacteria have proliferated in the food, making it unsafe for consumption. Despite being stored in the refrigerator, the duration of two weeks past the expiration date exceeds the recommended shelf life for yogurt. The prolonged storage has likely led to the growth of harmful bacteria, increasing the risk of foodborne illness. Therefore, it is essential to discard this expired yogurt to avoid any potential health hazards."
+  },
+  {
+    "name": "Leftover Chicken Caesar Salad",
+    "description": "This is leftover chicken caesar salad, which has become wilted and soggy. The once crisp lettuce has turned limp and discolored, and the chicken pieces have a slimy texture. There are visible signs of mold growth on the surface. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This chicken caesar salad was leftover from a lunch three days ago.",
+    "answer": false,
+    "reason": "The wilted and soggy texture, slimy chicken pieces, and visible mold growth on the surface of the leftover chicken caesar salad indicate extensive spoilage. The once crisp lettuce has turned limp and discolored, suggesting advanced deterioration. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture accumulation and bacterial contamination, accelerating the spoilage process. Mold growth is a clear indicator that harmful bacteria have proliferated in the food, making it unsafe for consumption. Therefore, it is essential to discard this leftover chicken caesar salad to avoid any potential health hazards."
+  },
+  {
+    "name": "Leftover Beef Stroganoff",
+    "description": "This is leftover beef stroganoff, which still retains its tender beef chunks and creamy sauce. It emits a savory aroma with hints of beef, mushrooms, and herbs. There are no visible signs of spoilage. It has been stored in a glass container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Glass container with a tight lid in the refrigerator",
+    "usage": "This beef stroganoff was leftover from a homemade dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of tender beef chunks and creamy sauce in the leftover beef stroganoff indicates its freshness. The savory aroma with hints of beef, mushrooms, and herbs further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, beef stroganoff typically contains acidic ingredients like sour cream or yogurt, which act as natural preservatives. Therefore, it is safe to reuse this leftover beef stroganoff."
+  },
+  {
+    "name": "Leftover Quiche",
+    "description": "This is leftover quiche, which still retains its flaky crust and creamy filling. It emits a savory aroma with hints of eggs, cheese, and vegetables. There are no visible signs of spoilage. It has been stored in a glass dish with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Glass dish with a tight lid in the refrigerator",
+    "usage": "This quiche was leftover from a brunch two days ago.",
+    "answer": true,
+    "reason": "The retention of flaky crust and creamy filling in the leftover quiche indicates its freshness. The savory aroma with hints of eggs, cheese, and vegetables further confirms its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, quiche is cooked at a high temperature, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover quiche."
+  },
+  {
+    "name": "Leftover Caesar Salad",
+    "description": "This is leftover caesar salad, which still retains its crisp lettuce and crunchy croutons. It emits a tangy aroma with hints of parmesan cheese and caesar dressing. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This caesar salad was leftover from a dinner one day ago.",
+    "answer": true,
+    "reason": "The retention of crisp lettuce and crunchy croutons in the leftover caesar salad indicates its freshness. The tangy aroma with hints of parmesan cheese and caesar dressing further confirms its quality. Despite being stored in the refrigerator for one day, the use of a tight lid has helped preserve its flavor and texture. Additionally, caesar salad typically contains acidic ingredients like lemon juice or vinegar, which act as natural preservatives. Therefore, it is safe to reuse this leftover caesar salad."
+  },
+  {
+    "name": "Leftover Roast Pork",
+    "description": "This is leftover roast pork, which still retains its juicy interior and flavorful crust. It emits a savory aroma with hints of herbs and spices. There are no visible signs of spoilage. It has been stored in airtight foil in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Airtight foil in the refrigerator",
+    "usage": "This roast pork was leftover from a family dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of juicy interior and flavorful crust in the leftover roast pork indicates its freshness. The savory aroma with hints of herbs and spices further confirms its quality. Despite being stored in the refrigerator for three days, the use of airtight foil has helped preserve its flavor and texture. Additionally, roast pork is known for its relatively long shelf life compared to other meats. Therefore, it is safe to reuse this leftover roast pork."
+  },
+  {
+    "name": "Leftover Chicken Fajitas",
+    "description": "This is leftover chicken fajitas, which still retain their tender chicken strips and vibrant bell peppers and onions. They emit a savory aroma with hints of Mexican spices and lime. There are no visible signs of spoilage. They have been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "These chicken fajitas were leftover from a dinner two days ago.",
+    "answer": true,
+    "reason": "The retention of tender chicken strips and vibrant bell peppers and onions in the leftover chicken fajitas indicates their freshness. The savory aroma with hints of Mexican spices and lime further confirms their quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve their flavor and texture. Additionally, chicken fajitas typically contain acidic ingredients like lime juice, which act as natural preservatives. Therefore, it is safe to reuse these leftover chicken fajitas."
+  },
+  {
+    "name": "Leftover Beef Chili",
+    "description": "This is leftover beef chili, which still retains its hearty texture and bold flavors. It emits a savory aroma with hints of beef, beans, and spices. There are no visible signs of spoilage. It has been stored in a glass container with a tight lid in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Glass container with a tight lid in the refrigerator",
+    "usage": "This beef chili was leftover from a homemade dinner four days ago.",
+    "answer": true,
+    "reason": "The retention of hearty texture and bold flavors in the leftover beef chili indicates its freshness. The savory aroma with hints of beef, beans, and spices further confirms its quality. Despite being stored in the refrigerator for four days, the use of a tight lid has helped preserve its flavor and texture. Additionally, beef chili typically contains acidic ingredients like tomatoes and spices, which act as natural preservatives. Therefore, it is safe to reuse this leftover beef chili."
+  },
+  {
+    "name": "Leftover Laksa",
+    "description": "This is leftover laksa, which has become sour and watery. The once thick and creamy coconut broth has separated, and the noodles have turned mushy. It emits a pungent smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This laksa was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The sour and watery texture of the leftover laksa indicates spoilage. The separation of the thick and creamy coconut broth and the mushy noodles further confirm the onset of spoilage. The pungent smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover laksa."
+  },
+  {
+    "name": "Leftover Hainanese Chicken Rice",
+    "description": "This is leftover Hainanese chicken rice, which has become dry and stale. The once moist and flavorful chicken pieces have turned tough, and the rice has hardened. It emits a slightly off smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This Hainanese chicken rice was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The dry and stale texture of the leftover Hainanese chicken rice indicates spoilage. The once moist and flavorful chicken pieces have turned tough, and the rice has hardened, suggesting advanced deterioration. The slightly off smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial contamination, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover Hainanese chicken rice."
+  },
+  {
+    "name": "Leftover Char Kway Teow",
+    "description": "This is leftover char kway teow, which has become soggy and greasy. The once firm and chewy rice noodles have turned limp, and the dish is overly oily. It emits a rancid smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This char kway teow was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The soggy and greasy texture of the leftover char kway teow indicates spoilage. The once firm and chewy rice noodles have turned limp, and the dish is overly oily, suggesting advanced deterioration. The rancid smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover char kway teow."
+  },
+  {
+    "name": "Leftover Mee Goreng",
+    "description": "This is leftover mee goreng, which has become dry and clumpy. The once flavorful noodles have lost their moisture and stick together in clumps, and the dish lacks the usual vibrant colors. It emits a stale smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee goreng was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The dry and clumpy texture of the leftover mee goreng indicates spoilage. The once flavorful noodles have lost their moisture and stick together in clumps, suggesting advanced deterioration. The lack of vibrant colors and the stale smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee goreng."
+  },
+  {
+    "name": "Leftover Nasi Lemak",
+    "description": "This is leftover nasi lemak, which has become mushy and sour. The once fragrant coconut rice has turned mushy and sour, and the accompanying condiments have wilted. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This nasi lemak was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The mushy and sour texture of the leftover nasi lemak indicates spoilage. The once fragrant coconut rice has turned mushy and sour, suggesting advanced deterioration. The wilted condiments and the sour smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover nasi lemak."
+  },
+  {
+    "name": "Leftover Roti Prata",
+    "description": "This is leftover roti prata, which has become tough and rubbery. The once flaky and tender flatbread has hardened, and it lacks the usual crispiness. It emits a stale smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This roti prata was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The tough and rubbery texture of the leftover roti prata indicates spoilage. The once flaky and tender flatbread has hardened, suggesting advanced deterioration. The lack of crispiness and the stale smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover roti prata."
+  },
+  {
+    "name": "Leftover Satay",
+    "description": "This is leftover satay, which has become dry and tough. The once juicy and tender meat skewers have dried out, and the peanut sauce has thickened. It emits a slightly off smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This satay was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The dry and tough texture of the leftover satay indicates spoilage. The once juicy and tender meat skewers have dried out, and the peanut sauce has thickened, suggesting advanced deterioration. The slightly off smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover satay."
+  },
+  {
+    "name": "Leftover Murtabak",
+    "description": "This is leftover murtabak, which has become soggy and greasy. The once crisp and flaky stuffed pancake has become limp, and it feels excessively oily to the touch. It emits a rancid smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This murtabak was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The soggy and greasy texture of the leftover murtabak indicates spoilage. The once crisp and flaky stuffed pancake has become limp, and it feels excessively oily to the touch, suggesting advanced deterioration. The rancid smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover murtabak."
+  },
+  {
+    "name": "Leftover Nasi Goreng",
+    "description": "This is leftover nasi goreng, which has become dry and clumpy. The once flavorful fried rice has lost its moisture and sticks together in clumps, and the dish lacks the usual vibrant colors. It emits a stale smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This nasi goreng was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The dry and clumpy texture of the leftover nasi goreng indicates spoilage. The once flavorful fried rice has lost its moisture and sticks together in clumps, suggesting advanced deterioration. The lack of vibrant colors and the stale smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover nasi goreng."
+  },
+  {
+    "name": "Leftover Fish Head Curry",
+    "description": "This is leftover fish head curry, which has become sour and watery. The once thick and flavorful curry sauce has separated, and the fish head has disintegrated. It emits a pungent smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This fish head curry was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The sour and watery texture of the leftover fish head curry indicates spoilage. The separation of the thick and flavorful curry sauce and the disintegration of the fish head further confirm the onset of spoilage. The pungent smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover fish head curry."
+  },
+  {
+    "name": "Leftover Mee Siam",
+    "description": "This is leftover mee siam, which has become mushy and sour. The once tangy and flavorful rice noodles have turned mushy and sour, and the dish lacks the usual vibrant colors. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee siam was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The mushy and sour texture of the leftover mee siam indicates spoilage. The once tangy and flavorful rice noodles have turned mushy and sour, suggesting advanced deterioration. The lack of vibrant colors and the sour smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee siam."
+  },
+  {
+    "name": "Leftover Char Bee Hoon",
+    "description": "This is leftover char bee hoon, which has become soggy and greasy. The once firm and chewy rice noodles have turned limp, and the dish is overly oily. It emits a rancid smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This char bee hoon was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The soggy and greasy texture of the leftover char bee hoon indicates spoilage. The once firm and chewy rice noodles have turned limp, and the dish is overly oily, suggesting advanced deterioration. The rancid smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover char bee hoon."
+  },
+  {
+    "name": "Leftover Mee Rebus",
+    "description": "This is leftover mee rebus, which has become mushy and sour. The once savory and flavorful gravy has turned sour, and the noodles have become mushy. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee rebus was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The mushy and sour texture of the leftover mee rebus indicates spoilage. The once savory and flavorful gravy has turned sour, suggesting advanced deterioration. The sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee rebus."
+  },
+  {
+    "name": "Leftover Nasi Padang",
+    "description": "This is leftover nasi padang, which has become dry and clumpy. The once flavorful rice and accompanying dishes have lost their moisture and stick together in clumps, and the dish lacks the usual vibrant colors. It emits a stale smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This nasi padang was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The dry and clumpy texture of the leftover nasi padang indicates spoilage. The once flavorful rice and accompanying dishes have lost their moisture and stick together in clumps, suggesting advanced deterioration. The lack of vibrant colors and the stale smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover nasi padang."
+  },
+  {
+    "name": "Leftover Mee Soto",
+    "description": "This is leftover mee soto, which has become sour and watery. The once savory and flavorful broth has turned sour, and the noodles have become mushy. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee soto was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The sour and watery texture of the leftover mee soto indicates spoilage. The once savory and flavorful broth has turned sour, suggesting advanced deterioration. The sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee soto."
+  },
+  {
+    "name": "Leftover Mee Goreng Mamak",
+    "description": "This is leftover mee goreng mamak, which has become dry and clumpy. The once flavorful noodles have lost their moisture and stick together in clumps, and the dish lacks the usual vibrant colors. It emits a stale smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee goreng mamak was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The dry and clumpy texture of the leftover mee goreng mamak indicates spoilage. The once flavorful noodles have lost their moisture and stick together in clumps, suggesting advanced deterioration. The lack of vibrant colors and the stale smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee goreng mamak."
+  },
+  {
+    "name": "Leftover Rojak",
+    "description": "This is leftover rojak, which has become soggy and sour. The once crunchy fruits and vegetables have become limp, and the sauce has turned sour. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This rojak was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The soggy and sour texture of the leftover rojak indicates spoilage. The once crunchy fruits and vegetables have become limp, and the sauce has turned sour, suggesting advanced deterioration. The sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover rojak."
+  },
+  {
+    "name": "Leftover Nasi Lemak Royale",
+    "description": "This is leftover nasi lemak royale, which has become mushy and sour. The once fragrant coconut rice has turned mushy and sour, and the accompanying condiments have wilted. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This nasi lemak royale was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The mushy and sour texture of the leftover nasi lemak royale indicates spoilage. The once fragrant coconut rice has turned mushy and sour, suggesting advanced deterioration. The wilted condiments and the sour smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover nasi lemak royale."
+  },
+  {
+    "name": "Leftover Mee Hoon Kueh",
+    "description": "This is leftover mee hoon kueh, which has become soggy and sour. The once chewy dough pieces have become limp, and the broth has turned sour. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee hoon kueh was leftover from a meal one day ago.",
+    "answer": false,
+    "reason": "The soggy and sour texture of the leftover mee hoon kueh indicates spoilage. The once chewy dough pieces have become limp, and the broth has turned sour, suggesting advanced deterioration. The sour smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee hoon kueh."
+  },
+  {
+    "name": "Leftover Ayam Penyet",
+    "description": "This is leftover ayam penyet, which has become dry and tough. The once juicy and tender chicken pieces have dried out, and the sambal sauce has thickened. It emits a slightly off smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This ayam penyet was leftover from a meal two days ago.",
+    "answer": false,
+    "reason": "The dry and tough texture of the leftover ayam penyet indicates spoilage. The once juicy and tender chicken pieces have dried out, and the sambal sauce has thickened, suggesting advanced deterioration. The slightly off smell further confirms the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover ayam penyet."
+  },
+  {
+    "name": "Leftover Mee Siam",
+    "description": "This is leftover mee siam, which has become mushy and sour. The once tangy and flavorful rice noodles have turned mushy and sour, and the dish lacks the usual vibrant colors. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This mee siam was leftover from a meal three days ago.",
+    "answer": false,
+    "reason": "The mushy and sour texture of the leftover mee siam indicates spoilage. The once tangy and flavorful rice noodles have turned mushy and sour, suggesting advanced deterioration. The lack of vibrant colors and the sour smell further confirm the onset of spoilage. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover mee siam."
+  },
+  {
+    "name": "Leftover Chicken Curry",
+    "description": "This is leftover chicken curry, which still retains its tender chicken pieces and aromatic curry sauce. It emits a rich and spicy aroma with hints of coconut milk and spices. There are no visible signs of spoilage. It has been stored in a glass container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Glass container with a tight lid in the refrigerator",
+    "usage": "This chicken curry was leftover from a homemade dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of tender chicken pieces and aromatic curry sauce in the leftover chicken curry indicates its freshness. The rich and spicy aroma with hints of coconut milk and spices further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, chicken curry often contains acidic ingredients like tomatoes or yogurt, which act as natural preservatives. Therefore, it is safe to reuse this leftover chicken curry."
+  },
+  {
+    "name": "Leftover Fried Rice",
+    "description": "This is leftover fried rice, which still retains its individual grains and savory flavor. It emits a tempting aroma with hints of soy sauce and garlic. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This fried rice was leftover from a dinner two days ago.",
+    "answer": true,
+    "reason": "The retention of individual grains and savory flavor in the leftover fried rice indicates its freshness. The tempting aroma with hints of soy sauce and garlic further confirms its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, fried rice is typically cooked at high temperatures, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover fried rice."
+  },
+  {
+    "name": "Leftover Dim Sum",
+    "description": "This is leftover dim sum, which still retains its delicate wrappers and flavorful fillings. It emits a mouthwatering aroma with hints of pork, shrimp, and spices. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This dim sum was leftover from a brunch one day ago.",
+    "answer": true,
+    "reason": "The retention of delicate wrappers and flavorful fillings in the leftover dim sum indicates its freshness. The mouthwatering aroma with hints of pork, shrimp, and spices further confirms its quality. Despite being stored in the refrigerator for one day, the use of a tight lid has helped preserve its flavor and texture. Additionally, dim sum is typically steamed or fried, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover dim sum."
+  },
+  {
+    "name": "Leftover Beef Stir-Fry",
+    "description": "This is leftover beef stir-fry, which still retains its tender beef slices and crisp vegetables. It emits a savory aroma with hints of ginger and garlic. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This beef stir-fry was leftover from a dinner two days ago.",
+    "answer": true,
+    "reason": "The retention of tender beef slices and crisp vegetables in the leftover beef stir-fry indicates its freshness. The savory aroma with hints of ginger and garlic further confirms its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, stir-fried dishes are cooked at high temperatures, which helps kill bacteria and extend their shelf life. Therefore, it is safe to reuse this leftover beef stir-fry."
+  },
+  {
+    "name": "Leftover Pineapple Fried Rice",
+    "description": "This is leftover pineapple fried rice, which still retains its fluffy rice grains and sweet-and-savory flavor. It emits a tantalizing aroma with hints of pineapple and curry powder. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This pineapple fried rice was leftover from a dinner one day ago.",
+    "answer": true,
+    "reason": "The retention of fluffy rice grains and sweet-and-savory flavor in the leftover pineapple fried rice indicates its freshness. The tantalizing aroma with hints of pineapple and curry powder further confirms its quality. Despite being stored in the refrigerator for one day, the use of a tight lid has helped preserve its flavor and texture. Additionally, pineapple contains enzymes that can inhibit bacterial growth. Therefore, it is safe to reuse this leftover pineapple fried rice."
+  },
+  {
+    "name": "Leftover Sushi Rolls",
+    "description": "This is leftover sushi rolls, which still retain their compact shape and fresh appearance. They emit a pleasant aroma of rice vinegar and seaweed. There are no visible signs of spoilage. They have been stored in a sushi container with a tight lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Sushi container with a tight lid in the refrigerator",
+    "usage": "These sushi rolls were leftover from a lunch one day ago.",
+    "answer": true,
+    "reason": "The retention of compact shape and fresh appearance in the leftover sushi rolls indicates their freshness. The pleasant aroma of rice vinegar and seaweed further confirms their quality. Despite being stored in the refrigerator for one day, the use of a tight lid has helped preserve their flavor and texture. Additionally, sushi rice is seasoned with vinegar, which helps inhibit bacterial growth. Therefore, it is safe to reuse these leftover sushi rolls."
+  },
+  {
+    "name": "Leftover Pad Thai",
+    "description": "This is leftover pad Thai, which still retains its distinct flavors and textures. The noodles are still firm and coated with the flavorful sauce, and the dish emits a tantalizing aroma of tamarind and peanuts. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This pad Thai was leftover from a dinner two days ago.",
+    "answer": true,
+    "reason": "The retention of distinct flavors and textures in the leftover pad Thai indicates its freshness. The firm noodles coated with flavorful sauce and the tantalizing aroma of tamarind and peanuts further confirm its quality. Despite being stored in the refrigerator for two days, the use of a tight lid has helped preserve its flavor and texture. Additionally, pad Thai typically contains ingredients like lime juice and fish sauce, which act as natural preservatives. Therefore, it is safe to reuse this leftover pad Thai."
+  },
+  {
+    "name": "Leftover Chicken Noodle Soup",
+    "description": "This is leftover chicken noodle soup, which still retains its tender chicken pieces, noodles, and savory broth. It emits a comforting aroma of herbs and spices. There are no visible signs of spoilage. It has been stored in a glass container with a tight lid in the refrigerator.",
+    "duration": "1 day",
+    "storage": "Glass container with a tight lid in the refrigerator",
+    "usage": "This chicken noodle soup was leftover from a dinner one day ago.",
+    "answer": true,
+    "reason": "The retention of tender chicken pieces, noodles, and savory broth in the leftover chicken noodle soup indicates its freshness. The comforting aroma of herbs and spices further confirms its quality. Despite being stored in the refrigerator for one day, the use of a tight lid has helped preserve its flavor and texture. Additionally, chicken noodle soup is typically simmered for a long time, which helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover chicken noodle soup."
+  },
+  {
+    "name": "Leftover Beef Pho",
+    "description": "This is leftover beef pho, which still retains its tender beef slices, rice noodles, and aromatic broth. It emits a fragrant aroma of star anise, cinnamon, and herbs. There are no visible signs of spoilage. It has been stored in a plastic container with a tight lid in the refrigerator.",
+    "duration": "3 days",
+    "storage": "Plastic container with a tight lid in the refrigerator",
+    "usage": "This beef pho was leftover from a dinner three days ago.",
+    "answer": true,
+    "reason": "The retention of tender beef slices, rice noodles, and aromatic broth in the leftover beef pho indicates its freshness. The fragrant aroma of star anise, cinnamon, and herbs further confirms its quality. Despite being stored in the refrigerator for three days, the use of a tight lid has helped preserve its flavor and texture. Additionally, the hot broth used in pho helps kill bacteria and extend its shelf life. Therefore, it is safe to reuse this leftover beef pho."
+  },
+  {
+    "name": "Leftover Steamed Buns (Baozi)",
+    "description": "These are leftover steamed buns, which have become dry and tough. The once soft and fluffy buns have hardened, and they emit a stale smell. There are visible signs of mold growth on the surface. They have been stored in a plastic bag with a loose tie in the refrigerator.",
+    "duration": "4 days",
+    "storage": "Plastic bag with a loose tie in the refrigerator",
+    "usage": "These steamed buns were leftover from a dim sum brunch four days ago.",
+    "answer": false,
+    "reason": "The dry and tough texture of the leftover steamed buns indicates spoilage. The once soft and fluffy buns have hardened, and the presence of visible mold growth further confirms the onset of spoilage. The stale smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose tie on the plastic bag failed to prevent moisture loss and mold growth, accelerating the spoilage process. Therefore, it is not safe to reuse these leftover steamed buns."
+  },
+  {
+    "name": "Leftover Fish Soup",
+    "description": "This is leftover fish soup, which has become sour and murky. The once clear broth has turned cloudy, and there are visible signs of oil separation on the surface. It emits a sour smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "2 days",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This fish soup was leftover from a dinner two days ago.",
+    "answer": false,
+    "reason": "The sour and murky appearance of the leftover fish soup indicates spoilage. The once clear broth has turned cloudy, and the visible signs of oil separation on the surface further confirm the onset of spoilage. The sour smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover fish soup."
+  },
+  {
+    "name": "Leftover Kimchi",
+    "description": "This is leftover kimchi, which has become slimy and discolored. The once crisp and vibrant cabbage leaves have become limp and discolored, and there are visible signs of mold growth. It emits a foul smell. It has been stored in a plastic container with a loose lid in the refrigerator.",
+    "duration": "1 week",
+    "storage": "Plastic container with a loose lid in the refrigerator",
+    "usage": "This kimchi was leftover from a Korean barbecue dinner one week ago.",
+    "answer": false,
+    "reason": "The slimy and discolored appearance of the leftover kimchi indicates spoilage. The once crisp and vibrant cabbage leaves have become limp and discolored, and the presence of visible mold growth further confirms the onset of spoilage. The foul smell is a clear indicator of bacterial contamination. Despite being stored in the refrigerator, the use of a loose lid failed to prevent moisture loss and bacterial growth, accelerating the spoilage process. Therefore, it is not safe to reuse this leftover kimchi."
+  }
+]
