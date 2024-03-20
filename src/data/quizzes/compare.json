@@ -70,5 +70,24 @@
       "Singapore",
       "Malls"
     ]
+  },
+  "food-waste-capita": {
+    "title": "Food Waste (Per Capita)",
+    "instructions": "Guess which country has a higher food waste in kg per capita in 2024.",
+    "tags": [
+      "GEN2002X",
+      "Food",
+      "Waste",
+      "Per Capita"
+    ]
+  },
+  "food-waste-nominal": {
+    "title": "Food Waste (Nominal)",
+    "instructions": "Guess which country has a higher food waste in tons in 2024.",
+    "tags": [
+      "GEN2002X",
+      "Food",
+      "Waste"
+    ]
   }
 }

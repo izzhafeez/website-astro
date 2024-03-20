@@ -7,6 +7,8 @@ import mallsLatitudeData from "../../../data/quizzes/compare/malls-latitude.json
 import mallsAreaData from "../../../data/quizzes/compare/malls-area.json";
 import mallsYearData from "../../../data/quizzes/compare/malls-year.json";
 import mallsStoresData from "../../../data/quizzes/compare/malls-stores.json";
+import foodWasteCapita from "../../../data/quizzes/compare/food-waste-capita.json";
+import foodWasteNominal from "../../../data/quizzes/compare/food-waste-nominal.json";
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -101,6 +103,26 @@ export function getStaticPaths() {
         title: "Malls Stores",
         data: mallsStoresData,
         instructions: compareQuizData["malls-stores"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "food-waste-capita"
+      },
+      props: {
+        title: "Food Waste Per Capita",
+        data: foodWasteCapita,
+        instructions: compareQuizData["food-waste-capita"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "food-waste-nominal"
+      },
+      props: {
+        title: "Food Waste Nominal",
+        data: foodWasteNominal,
+        instructions: compareQuizData["food-waste-nominal"].instructions
       }
     }
   ]

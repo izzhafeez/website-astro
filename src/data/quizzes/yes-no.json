@@ -1,7 +1,7 @@
 {
   "trash": {
     "title": "Reuse or Trash?",
-    "instructions": "Can the food item be reused?",
+    "instructions": "How good are you at identifying reusable foods? Decide whether the food is good or no good based on its description. Take this quiz to find out!",
     "tags": [
       "GEN2002X",
       "Food"
