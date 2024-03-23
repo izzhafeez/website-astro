@@ -74,10 +74,12 @@ const COLORS: {[key: string]: string} = {
 
 export const fromCategory = (category: string): string => {
   switch (category) {
-    case 'portfolio':
-      return 'ns';
-    case 'blog':
+    case 'apps':
       return 'ew';
+    case 'portfolio':
+      return 'ne';
+    case 'quizzes':
+      return 'ns';
     default:
       return 'lrt';
   }

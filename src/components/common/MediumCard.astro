@@ -7,9 +7,13 @@ const { href, title, heroText, site, key, imgPath, isEager, tags=[] } = Astro.pr
 let textColor = "group-hover:text-gray-500 dark:group-hover:text-gray-300";
 let neonColor = "hover:neon-gray";
 switch (site) {
-  case 'portfolio':
+  case 'apps':
     textColor = "group-hover:text-ew-500 dark:group-hover:text-ew-300";
     neonColor = "hover:neon-ew";
+    break;
+  case 'portfolio':
+    textColor = "group-hover:text-ne-500 dark:group-hover:text-ne-300";
+    neonColor = "hover:neon-ne";
     break;
   case 'quizzes':
     textColor = "group-hover:text-ns-500 dark:group-hover:text-ns-300";

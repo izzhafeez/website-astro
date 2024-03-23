@@ -4,9 +4,13 @@ const { href, title, heroText, site, key } = Astro.props;
 let neon = 'hover:neon-lrt';
 let text = '';
 switch (site) {
-  case 'portfolio':
+  case 'apps':
     neon = 'hover:neon-ew';
     text = 'group-hover:text-ew-500 dark:group-hover:text-ew-300';
+    break;
+  case 'portfolio':
+    neon = 'hover:neon-ne';
+    text = 'group-hover:text-ne-500 dark:group-hover:text-ne-300';
     break;
   case 'quizzes':
     neon = 'hover:neon-ns';

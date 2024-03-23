@@ -4,9 +4,13 @@ const { href, title, heroText, site, key } = Astro.props;
 let bg = "bg-lrt-700/50 group-hover:bg-lrt-700/80 hover:border-lrt-300";
 let textColor = "group-hover:text-lrt-300";
 switch (site) {
-  case 'portfolio':
+  case 'apps':
     bg = "bg-ew-700/50 group-hover:bg-ew-700/80 hover:border-ew-300";
     textColor = "group-hover:text-ew-300";
+    break;
+  case 'portfolio':
+    bg = "bg-ne-700/50 group-hover:bg-ne-700/80 hover:border-ne-300";
+    textColor = "group-hover:text-ne-300";
     break;
   case 'quizzes':
     bg = "bg-ns-700/50 group-hover:bg-ns-700/80 hover:border-ns-300";

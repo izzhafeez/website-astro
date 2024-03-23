@@ -4,8 +4,11 @@ const { site } = Astro.props;
 let gradientColor = 'from-lrt-700/80 to-lrt-500/50';
 
 switch (site) {
-  case 'portfolio':
+  case 'apps':
     gradientColor = 'from-ew-700/80 to-ew-500/50';
+    break;
+  case 'portfolio':
+    gradientColor = 'from-ne-700/80 to-ne-500/50';
     break;
   case 'quizzes':
     gradientColor = 'from-ns-700/80 to-ns-500/50';
@@ -17,8 +20,8 @@ const backgroundImgUrl = `/img/heroes/${Astro.props.label.split(" ")[0]}.jpg`;
   <div class={`bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}>
   <!-- <div class={`${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}> -->
     <div class="max-w-6xl mx-auto">
-      <h1 transition:name={Astro.props.label} class="font-extrabold text-xl text-white mb-2 relative z-0">{Astro.props.label}</h1>
-      <p transition:name={Astro.props.text} class="text-white max-w-xl relative z-0">{Astro.props.text}</p>
+      <h1 transition:name={Astro.props.label} class="font-extrabold text-center text-3xl md:text-6xl text-white mb-2 relative z-0">{Astro.props.label}</h1>
+      <p transition:name={Astro.props.text} class="text-center text-white max-w-xl relative z-0">{Astro.props.text}</p>
     </div>
   </div>
 </div>
