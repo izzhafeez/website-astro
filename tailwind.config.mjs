@@ -6,7 +6,7 @@ export default {
 	theme: {
 		colors: {
 			da: {
-				bg: '#000',
+				bg: '#111',
 				glow: '#101010'
 			},
 			li: {
