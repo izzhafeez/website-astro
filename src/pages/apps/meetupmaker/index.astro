@@ -1,19 +1,25 @@
 ---
+import { Image } from "astro:assets";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
-
-
 ---
 
 <Layout>
   <div slot="main">
     <NavBar/>
     <div class="max-w-xl mx-auto mt-20 place-content-center">
-      <h1 class="text-6xl text-center font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+      <h1 class="text-6xl text-center font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text inline-block">
         Plan your meetups with ease.
       </h1>
       <p class="text-center mt-8 dark:text-white">MeetupMaker makes it easier to decide on a meetup time and location. Just create a meetup, invite people, and let the recommender handle the rest!</p>
-      <button class="place-self-center mt-8 mx-auto bg-ew-400 text-white py-2 px-4 rounded-md">Get Started</button>
+      <div class="flex justify-center mt-8 gap-4">
+        <a href="/apps/meetupmaker/create" type="button" class="bg-ew-400 hover:bg-ew-600 text-white py-2 px-4 rounded-md">
+          Get Started
+        </a>
+        <button class="bg-gray-100 dark:bg-da-alt hover:bg-gray-300 dark:hover:bg-gray-500 dark:text-white py-2 px-4 rounded-md flex gap-2 content-center">
+          <Image src="/img/logos/github.svg" class="brightness-0 dark:invert my-auto" alt="LinkedIn" width="15" height="15"/> View Repository
+        </button>
+      </div>
     </div>
   </div>
 </Layout>

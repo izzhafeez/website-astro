@@ -1,0 +1,22 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import DateForm from "../../../../components/meetupmaker/DateForm.vue";
+import Layout from "../../../../layouts/Layout.astro";
+
+export const prerender = false;
+const id = Astro.url.searchParams.get('id');
+const data = await fetch(`${import.meta.env.PUBLIC_MM}/api/dates/${id}`).then(res => res.json());
+console.log(data);
+const dates = data.dates;
+const participants = data.participants;
+const meetupName = data.meetup_name;
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants}/>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

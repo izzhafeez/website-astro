@@ -14,8 +14,8 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
+  output: "hybrid",
   integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine(), preact()],
-  // output: "hybrid",
   adapter: netlify(),
   site: "https://izzhafeez-astro.netlify.app"
   // site: "https://izzhafeez.github.io",

@@ -6,11 +6,13 @@ export default {
 	theme: {
 		colors: {
 			da: {
-				bg: '#111',
+				bg: '#151515',
+				alt: '#222',
 				glow: '#101010'
 			},
 			li: {
 				bg: '#FFF',
+				alt: '#EEE',
 				glow: '#F0F0F0'
 			},
 			bc: {
