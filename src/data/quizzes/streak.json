@@ -1,4 +1,11 @@
 {
+  "anime": {
+    "title": "Anime",
+    "instructions": "Guess the anime based on its description.",
+    "tags": [
+      "Anime"
+    ]
+  },
   "aws-products": {
     "title": "AWS Products",
     "instructions": "Guess the AWS product based on the given prompt.",
@@ -34,6 +41,14 @@
     "instructions": "Guess the NTU module code based on the given prompt.",
     "tags": [
       "NTU",
+      "School"
+    ]
+  },
+  "soc-profs": {
+    "title": "SoC Professors",
+    "instructions": "Guess the module code based on its lecturers.",
+    "tags": [
+      "NUS",
       "School"
     ]
   },

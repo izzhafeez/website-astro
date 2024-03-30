@@ -1,5 +1,7 @@
 ---
 import placeNameData from "../../../data/quizzes/streak/place-names.json";
+import animeData from "../../../data/quizzes/streak/anime.json";
+import socProfsData from "../../../data/quizzes/streak/soc-profs.json";
 import awsProductsData from "../../../data/quizzes/streak/aws-products.json";
 import helloWorldData from "../../../data/quizzes/streak/hello-world.json";
 import nusModsData from "../../../data/quizzes/streak/nus-mods.json";
@@ -13,6 +15,15 @@ import { AstroSeo } from "@astrolib/seo";
 
 export async function getStaticPaths() {
   return [
+    {
+      params: { quiz: 'anime' },
+      props: {
+        title: "Anime Descriptions",
+        data: animeData,
+        instructions: "Guess the anime based on the first line of its description. Answers are case and space-insensitive. Use regex to choose what anime you would like to include in the quiz (tip: try typing 'Naruto' or 'imi' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: 'imi'
+      }
+    },
     {
       params: { quiz: 'aws-products' },
       props: {
@@ -55,6 +66,15 @@ export async function getStaticPaths() {
         title: "NTU Mods",
         data: ntuModsData,
         instructions: "Guess the NTU module code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what module codes you would like to include in the quiz (tip: try typing 'EE' or '200' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'soc-profs' },
+      props: {
+        title: "SoC Professors",
+        data: socProfsData,
+        instructions: "Guess the Module Code based on its lecturers. Answers are case and space-insensitive. Use regex to choose what professors you would like to include in the quiz (tip: try typing 'Ben' or 'Chin' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
     },

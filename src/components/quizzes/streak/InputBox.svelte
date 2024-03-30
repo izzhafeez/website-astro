@@ -15,11 +15,10 @@
   let streak = 0;
   let prevStreak = 0;
   let isActive = true;
-  // let promptColorStyle = "bg-hp-500/30 text-hp-700 dark:text-hp-300";
   let promptColorStyle = "bg-hp-700 text-white";
-  let isMcq = false;
+  let isMcq = true;
   let isWacky = false;
-  let difficulty = 'easy';
+  $: difficulty = 'hard';
   const MINIMUM_ACTIVE_LENGTH = 5;
   const DIFFICULTY_MAPPING = {
     easy: { optionSize: 2, windowSize: 8, toRandomise: true },
@@ -170,7 +169,7 @@
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="regex" class="dark:text-white font-bold">Difficulty:</label>
-      <select name="difficulty" on:change={(e) => difficulty = e.target.value} class="dark:bg-da-glow dark:text-white rounded-md p-1">
+      <select name="difficulty" bind:value={difficulty} class="dark:bg-da-glow dark:text-white rounded-md p-1">
         {#each Object.keys(DIFFICULTY_MAPPING) as diff}
         <option value={diff}>{diff.toUpperCase()}</option>
         {/each}
