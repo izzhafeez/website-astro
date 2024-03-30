@@ -89,5 +89,53 @@
       "Food",
       "Waste"
     ]
+  },
+  "cities-latitude": {
+    "title": "Cities (Latitude)",
+    "instructions": "Guess which city is further north (higher latitude).",
+    "tags": [
+      "Geography",
+      "Cities"
+    ]
+  },
+  "cities-longitude": {
+    "title": "Cities (Longitude)",
+    "instructions": "Guess which city is further east (higher longitude).",
+    "tags": [
+      "Geography",
+      "Cities"
+    ]
+  },
+  "indonesia-latitude": {
+    "title": "Indonesia (Latitude)",
+    "instructions": "Guess which city in Indonesia is further north (higher latitude).",
+    "tags": [
+      "Geography",
+      "Indonesia"
+    ]
+  },
+  "indonesia-longitude": {
+    "title": "Indonesia (Longitude)",
+    "instructions": "Guess which city in Indonesia is further east (higher longitude).",
+    "tags": [
+      "Geography",
+      "Indonesia"
+    ]
+  },
+  "malaysia-latitude": {
+    "title": "Malaysia (Latitude)",
+    "instructions": "Guess which city in Malaysia is further north (higher latitude).",
+    "tags": [
+      "Geography",
+      "Malaysia"
+    ]
+  },
+  "malaysia-longitude": {
+    "title": "Malaysia (Longitude)",
+    "instructions": "Guess which city in Malaysia is further east (higher longitude).",
+    "tags": [
+      "Geography",
+      "Malaysia"
+    ]
   }
 }

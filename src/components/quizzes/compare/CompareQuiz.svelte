@@ -67,7 +67,7 @@ function handleCountUp() {
   isGuessing = false;
   let i = 0;
   const intervalId = setInterval(() => {
-    if (rightPlaceholder >= right.quantity) {
+    if (Math.abs(rightPlaceholder) >= Math.abs(right.quantity)) {
       clearInterval(intervalId);
       setTimeout(() => {showNextButton = true;}, 500);
     } else {

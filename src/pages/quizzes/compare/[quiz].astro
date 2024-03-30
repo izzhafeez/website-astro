@@ -9,6 +9,12 @@ import mallsYearData from "../../../data/quizzes/compare/malls-year.json";
 import mallsStoresData from "../../../data/quizzes/compare/malls-stores.json";
 import foodWasteCapita from "../../../data/quizzes/compare/food-waste-capita.json";
 import foodWasteNominal from "../../../data/quizzes/compare/food-waste-nominal.json";
+import citiesLatitude from "../../../data/quizzes/compare/cities-latitude.json";
+import citiesLongitude from "../../../data/quizzes/compare/cities-longitude.json";
+import indonesiaCitiesLatitude from "../../../data/quizzes/compare/indonesia-latitude.json";
+import indonesiaCitiesLongitude from "../../../data/quizzes/compare/indonesia-longitude.json";
+import malaysiaCitiesLatitude from "../../../data/quizzes/compare/malaysia-latitude.json";
+import malaysiaCitiesLongitude from "../../../data/quizzes/compare/malaysia-longitude.json";
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -123,6 +129,72 @@ export function getStaticPaths() {
         title: "Food Waste Nominal",
         data: foodWasteNominal,
         instructions: compareQuizData["food-waste-nominal"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "cities-latitude"
+      },
+      props: {
+        title: "Cities Latitude",
+        data: citiesLatitude,
+        instructions: compareQuizData["cities-latitude"].instructions,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "cities-longitude"
+      },
+      props: {
+        title: "Cities Longitude",
+        data: citiesLongitude,
+        instructions: compareQuizData["cities-longitude"].instructions,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "indonesia-latitude"
+      },
+      props: {
+        title: "Indonesia Cities Latitude",
+        data: indonesiaCitiesLatitude,
+        instructions: compareQuizData["indonesia-latitude"].instructions,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "indonesia-longitude"
+      },
+      props: {
+        title: "Indonesia Cities Longitude",
+        data: indonesiaCitiesLongitude,
+        instructions: compareQuizData["indonesia-longitude"].instructions,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "malaysia-latitude"
+      },
+      props: {
+        title: "Malaysia Cities Latitude",
+        data: malaysiaCitiesLatitude,
+        instructions: compareQuizData["malaysia-latitude"].instructions,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "malaysia-longitude"
+      },
+      props: {
+        title: "Malaysia Cities Longitude",
+        data: malaysiaCitiesLongitude,
+        instructions: compareQuizData["malaysia-longitude"].instructions,
+        decimalPlaces: 4,
       }
     }
   ]
