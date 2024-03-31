@@ -140,9 +140,9 @@ function handleFail(_) {
 <div class="fixed">
 {#if !isPlaying}
 <div class="grid h-screen w-screen justify-center content-center gap-2 p-4">
-  <h1 class="font-extrabold text-3xl dark:text-white">{title}</h1>
-  <p class="text-gray-500 max-w-xl">{instructions}</p>
-  <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start</button>
+  <h1 class="font-extrabold text-6xl bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
+  <p class="dark:text-white max-w-xl">{instructions}</p>
+  <button on:click={handleStart} class='me-auto bg-ew-300/20 my-2 py-2 px-4 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start</button>
 </div>
 {:else}
 <div class="fixed grid grid-cols-2 w-screen mt-20">

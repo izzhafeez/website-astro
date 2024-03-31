@@ -2,20 +2,32 @@
 import NavBar from "../../../../components/common/NavBar.astro";
 import DateForm from "../../../../components/meetupmaker/DateForm.vue";
 import Layout from "../../../../layouts/Layout.astro";
+import PreferenceForm from "../../../../components/meetupmaker/PreferenceForm.vue";
 
 export const prerender = false;
 const id = Astro.url.searchParams.get('id');
 const data = await fetch(`${import.meta.env.PUBLIC_MM}/api/dates/${id}`).then(res => res.json());
-console.log(data);
 const dates = data.dates;
 const participants = data.participants;
 const meetupName = data.meetup_name;
+const passwordHash = data.password_hash;
+const date = data.date;
+const recommendations = data.recommendations;
+console.log(recommendations);
+
+let locations;
+if (!!date) {
+  locations = await fetch(`${import.meta.env.PUBLIC_MM}/api/mrts`).then(res => res.json());
+}
 ---
 
 <Layout>
   <div slot="main">
     <NavBar/>
-    <!-- <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants}/> -->
+    <!-- if date exists -->    
+    {!date && <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash}/>}
+    <!-- if date does not exist -->
+    {date && <PreferenceForm client:only="vue" date={date} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash} recommendations={recommendations}/>}
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">

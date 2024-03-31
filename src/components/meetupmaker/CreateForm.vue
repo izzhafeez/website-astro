@@ -19,6 +19,8 @@
     <ul class="grid gap-2 my-2 mb-4">
       <li v-for="(date, index) in dates" :key="date" class="flex">
         <VueDatePicker
+          :partial-flow="true"
+          :auto-apply="true"
           v-model="dates[index]"
           :enable-time-picker="false"
           :min-date="new Date()"
@@ -39,6 +41,7 @@
 import VueDatePicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
 import axios from "axios";
+import { stringToHash } from "../../utils/string";
 
 export default {
   components: { VueDatePicker },
@@ -75,7 +78,7 @@ export default {
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/create`, {
         meetupName: this.meetupName,
         hostName: this.hostName,
-        passwordHash: this.password.hashCode(),
+        passwordHash: !!this.password ? stringToHash(this.password) : 0,
         dates: this.dates.sort((a, b) => a - b),
       }).then(response => {
         return response.data;

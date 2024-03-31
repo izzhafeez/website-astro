@@ -2,6 +2,7 @@
 import geoguessrData from "../../../data/quizzes/geoguessr.json";
 import GeoGuessr from "../../../components/quizzes/geoguessr/GeoGuessr.svelte";
 import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
 ---
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -12,6 +13,7 @@ import Layout from "../../../layouts/Layout.astro";
 
 <Layout>
   <div slot="main">
+    <NavBar/>
     <GeoGuessr client:only="svelte" data={geoguessrData}/>
   </div>
 </Layout>

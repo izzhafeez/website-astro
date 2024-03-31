@@ -49,8 +49,8 @@
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <div class="max-w-3xl mx-auto">
-    <h1 class="text-5xl font-extrabold dark:text-white">{title}</h1>
-    <p class="text-gray-500 mt-2">{instructions}</p>
+    <h1 class="text-5xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
+    <p class="dark:text-white mt-2">{instructions}</p>
     <div class="flex">
       <button
         class="mt-4 px-4 py-2 bg-hp-700 hover:bg-hp-500 text-white rounded-md"
@@ -65,7 +65,7 @@
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <p class="dark:text-white"><span class="font-bold">Streak</span>: <span class="text-ew-500">{streak}</span></p>
   <p class="dark:text-white"><span class="font-bold">Best Streak</span>: <span class="text-ew-500">{bestStreak}</span></p>
-  <h2 class="text-3xl font-extrabold dark:text-white">{answer.name}</h2>
+  <h2 class="text-6xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-2">{answer.name}</h2>
   <ul class="dark:text-white">
     {#each fields as field}
       <li><span class="font-bold">{capitalise(field)}</span>: {answer[field]}</li>

@@ -44,12 +44,11 @@
       "School"
     ]
   },
-  "soc-profs": {
-    "title": "SoC Professors",
-    "instructions": "Guess the module code based on its lecturers.",
+  "python-libraries": {
+    "title": "Python Libraries",
+    "instructions": "Guess the Python library based on its description.",
     "tags": [
-      "NUS",
-      "School"
+      "Python"
     ]
   },
   "status-codes": {

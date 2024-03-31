@@ -33,3 +33,9 @@ export const fullSanitise = (text: string) => {
       .replace(/[^0-9a-z]/gi, '') // without ()[]
   }
 }
+
+export function stringToHash(s: string) {
+  return s.split('').reduce((hash, char) => {
+      return char.charCodeAt(0) + (hash << 6) + (hash << 16) - hash;
+  }, 0);
+}

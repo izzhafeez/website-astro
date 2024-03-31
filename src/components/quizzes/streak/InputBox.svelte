@@ -15,9 +15,9 @@
   let streak = 0;
   let prevStreak = 0;
   let isActive = true;
-  let promptColorStyle = "bg-hp-700 text-white";
+  let promptColorStyle = "bg-hp-600 text-white";
   let isMcq = true;
-  let isWacky = false;
+  let isWacky = true;
   $: difficulty = 'hard';
   const MINIMUM_ACTIVE_LENGTH = 5;
   const DIFFICULTY_MAPPING = {
@@ -97,7 +97,7 @@
       options.push(activeAnswerList[(randomId+i) % activeAnswerList.length]);
     }
     options.sort((a,b) => Math.random() - 0.5);
-    promptColorStyle = "bg-hp-700 text-white";
+    promptColorStyle = "bg-hp-600 text-white";
   }
 
   function handleCorrect(e) {
@@ -157,11 +157,11 @@
   <div class="grid gap-2">
     <div class="flex items-center gap-4 h-10">
       <label for="mcq" class="dark:text-white font-bold">Enable MCQ:</label>
-      <input type="checkbox" name="mcq" bind:checked={isMcq} class="dark:bg-da-glow text-hp-700"/>
+      <input type="checkbox" name="mcq" bind:checked={isMcq} class="dark:bg-da-glow text-hp-600"/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="wacky" class="dark:text-white font-bold">Include prompt in regex:</label>
-      <input type="checkbox" name="wacky" bind:checked={isWacky} class="dark:bg-da-glow text-hp-700" on:change={handleWacky}/>
+      <input type="checkbox" name="wacky" bind:checked={isWacky} class="dark:bg-da-glow text-hp-600" on:change={handleWacky}/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="regex" class="dark:text-white font-bold">Regex:</label>
@@ -178,14 +178,17 @@
   </div>
 
   <p class='dark:text-white my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
-  <div class='flex flex-wrap gap-1 my-2'>
+  <div class='grid flex-wrap gap-2 my-4'>
     {#each activeAnswerList.slice(0, MINIMUM_ACTIVE_LENGTH) as answer}
-    <span class='bg-hp-600 text-white py-1 px-2 rounded-full'>{answer.answer}</span>
+    <div class='flex gap-2 items-center'>
+      <span class='bg-hp-600 text-white py-1 px-2 rounded-full'>{answer.answer}</span>
+      <span class='dark:text-white'>{answer.prompt}</span>
+    </div>
     {/each}
   </div>
   <button on:click={handleStart} class='bg-ew-500 py-1 px-2 rounded-full text-white hover:bg-ew-500/50'>Start Quiz</button>
   {:else}
-  <div class="grid xl:grid-cols-2 gap-8">
+  <div class="grid gap-8">
     <div class={`${promptColorStyle} h-60 w-full mx-auto rounded-3xl grid items-center text-center p-4`}>
       <div>
         <p><span class='font-bold'>Prompt: </span>{prompt}</p>
@@ -208,22 +211,23 @@
       <label for="guess" class="dark:text-white">Your Guess:</label>
       <div class="flex flex-wrap gap-2 mt-2">
         {#each options as option}
-        <button on:click={handleClick} class="bg-hp-300/20 py-1 px-2 rounded-full text-hp-700 dark:text-hp-300 hover:bg-hp-300/50">{option.answer}</button>
+        <button on:click={handleClick} class="bg-hp-600 py-1 px-2 rounded-full text-white hover:bg-hp-500">{option.answer}</button>
         {/each}
       </div>
       {:else}
-      <button on:click={handleGenerate} class="bg-ew-300/20 py-1 px-2 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 mt-2">Next</button>
+      <button on:click={handleGenerate} class="bg-ew-500 py-1 px-4 rounded-full text-white hover:opacity-50 mt-2">Next</button>
       {/if}
+      <button on:click={handleStop} class="bg-ns-500 py-1 px-2 my-4 rounded-full text-white hover:opacity-50">Go Back</button>
     </div>
     {:else}
     <div class="">
+      <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       <label for="guess" class="dark:text-white">Your Guess (hit 'Enter' to submit):</label>
       <input name="guess" on:keydown={onKeyDown} class='border-[1px] border-gray-500 px-2 py-1 rounded-lg w-full'/>
-      <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       {#if !isActive}
-      <button on:click={handleGenerate} class="bg-ew-500 py-1 px-2 rounded-full text-white hover:bg-ew-500/50">Next, or hit 'Enter'</button>
+      <button on:click={handleGenerate} class="bg-ew-500 py-1 px-4 rounded-full text-white hover:opacity-50 mt-2">Next, or hit 'Enter'</button>
       {/if}
-      <button on:click={handleStop} class="bg-ns-500 py-1 px-2 rounded-full text-white hover:bg-ns-500/50">Go Back</button>
+      <button on:click={handleStop} class="bg-ns-500 py-1 px-2 my-4 rounded-full text-white hover:opacity-50">Go Back</button>
     </div>
     {/if}
   </div>
