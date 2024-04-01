@@ -1,0 +1,32 @@
+---
+import type { GetStaticPaths } from "astro";
+import wasteData from "../../../data/quizzes/selection/waste.json";
+import selectionData from "../../../data/quizzes/selection.json"
+import SelectionQuiz from "../../../components/quizzes/selection/SelectionQuiz.svelte";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+
+export const getStaticPaths = (() => {
+  return [
+    { 
+      params: {
+        quiz: "waste" 
+      },
+      props: {
+        title: "Waste",
+        data: wasteData,
+        instructions: selectionData.waste.instructions
+      }
+    }
+  ];
+}) satisfies GetStaticPaths;
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions}/>
+  </div>
+</Layout> 
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

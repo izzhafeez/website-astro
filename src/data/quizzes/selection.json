@@ -1,0 +1,10 @@
+{
+  "waste": {
+    "title": "Waste",
+    "instructions": "In each dish, which ingredients are most likely to be wasted? Select all that apply.",
+    "tags": [
+      "GEN2002X",
+      "Food"
+    ]
+  } 
+}

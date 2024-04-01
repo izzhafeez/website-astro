@@ -1,0 +1,54 @@
+{
+  "Spaghetti": {
+    "no": [
+      "Onion",
+      "Garlic",
+      "Parmesan cheese",
+      "Basil leaves"
+    ],
+    "yes": [
+      "Spaghetti pasta",
+      "Tomato sauce",
+      "Ground beef"
+    ]
+  },
+  "Chicken Caesar Salad": {
+    "no": [
+      "Parmesan cheese",
+      "Caesar dressing"
+    ],
+    "yes": [
+      "Romaine lettuce",
+      "Grilled chicken breast",
+      "Croutons"
+    ]
+  },
+  "Vegetable Stir-fry": {
+    "no": [
+      "Snow peas",
+      "Mushrooms",
+      "Onion",
+      "Garlic",
+      "Soy sauce"
+    ],
+    "yes": [
+      "Broccoli",
+      "Carrot",
+      "Bell pepper"
+    ]
+  },
+  "Tomato Soup": {
+    "no": [
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Heavy cream",
+      "Basil leaves"
+    ],
+    "yes": [
+      "Tomatoes",
+      "Carrot",
+      "Celery"
+    ]
+  }
+}
