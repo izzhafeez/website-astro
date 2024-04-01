@@ -9,13 +9,18 @@ import svelte from "@astrojs/svelte";
 import netlify from "@astrojs/netlify";
 import alpine from "@astrojs/alpinejs";
 import sentry from "@sentry/astro";
-
 import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
   output: "hybrid",
-  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue(), svelte(), alpine(), preact()],
+  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(),
+    vue({
+      template: {
+        transformAssetUrls: false
+      }
+    }),
+    svelte(), alpine(), preact()],
   adapter: netlify(),
   site: "https://izzhafeez.com"
   // site: "https://izzhafeez.github.io",
