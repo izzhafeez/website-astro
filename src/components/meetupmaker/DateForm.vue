@@ -22,8 +22,8 @@
           }) }}</div>
         </div>
         <div class="px-4 grid content-center cursor-pointer rounded-e-lg" :class="{'bg-ew-500': free[date], 'bg-ns-500': !free[date], 'hover:bg-ew-300': free[date], 'hover:bg-ns-300': !free[date],}" v-on:click="toggleAvailability(date)">
-          <img v-if="!free[date]" src="/img/common/cross.svg" class="w-8 invert"/>
-          <img v-if="free[date]" src="/img/common/tick.svg" class="w-8 invert"/>
+          <img v-if="!free[date]" src="/src/img/common/cross.svg" class="w-8 invert"/>
+          <img v-if="free[date]" src="/src/img/common/tick.svg" class="w-8 invert"/>
         </div>
       </div>
     </li>
@@ -54,11 +54,11 @@
             }) }}</div>
           </div>
           <div class="bg-dt-500 hover:opacity-70 cursor-pointer px-4 grid content-center" v-on:click="toggleShowParticipants(date)">
-            <img src="/img/common/person.svg" class="w-8 invert"/>
+            <img src="/src/img/common/person.svg" class="w-8 invert"/>
           </div>
           <div class="px-4 grid content-center cursor-pointer rounded-e-lg" :class="{'bg-ew-500': date === chosenDate, 'bg-ns-500': date !== chosenDate, 'hover:bg-ew-300': date === chosenDate, 'hover:bg-ns-300': date !== chosenDate,}" v-on:click="handleChooseDate(date)">
-            <img v-if="date !== chosenDate" src="/img/common/cross.svg" class="w-8 invert"/>
-            <img v-if="date === chosenDate" src="/img/common/tick.svg" class="w-8 invert"/>
+            <img v-if="date !== chosenDate" src="/src/img/common/cross.svg" class="w-8 invert"/>
+            <img v-if="date === chosenDate" src="/src/img/common/tick.svg" class="w-8 invert"/>
           </div>
         </div>
         <div v-if="showParticipants[date]" class="flex gap-2 mt-4 items-center dark:text-white">

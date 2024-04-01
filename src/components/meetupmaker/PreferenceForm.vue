@@ -229,7 +229,6 @@ export default {
           title: 'Success!',
           text: 'Recommendations generated successfully!',
         });
-        console.log(data);
         this.recommendationsData = data.recommendations;
       });
     },

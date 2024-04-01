@@ -9,7 +9,7 @@ export let decimalPlaces = 0;
 export let startNumber = 0;
 let dataList = Object.entries(data).map(([k, v]) => {
   const { cleanText, searchTerms } = fullSanitise(k);
-  return { name: cleanText, imgPath: `/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v }
+  return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v }
 });
 let left;
 let right;
@@ -128,7 +128,7 @@ function handleFail(_) {
     () => {
       Swal.fire({
         title: `Your Score: ${savedStreak}`,
-        html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
+        html: `<img src="/src/img/quizzes/${imgSrc}.gif"/>`,
         color: "#FFF"
       });
     },

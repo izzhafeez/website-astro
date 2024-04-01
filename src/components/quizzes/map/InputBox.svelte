@@ -71,7 +71,7 @@
     }
     Swal.fire({
       title: `Your Score: ${score}/${totalScore}`,
-      html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
+      html: `<img src="/src/img/quizzes/${imgSrc}.gif"/>`,
       color: "#FFF"
     })
   }

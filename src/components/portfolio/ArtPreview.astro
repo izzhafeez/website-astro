@@ -1,11 +1,13 @@
 ---
 import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 
 const { artwork, isEager } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/portfolio/art/*.png');
 ---
 
 <div transition:name={artwork.key} id={artwork.key} class="group rounded-lg relative block aspect-square border-2 border-white/0 dark:border-black/0 hover:border-ew-300 hover:neon-ew">
-  <Image src={artwork.imgPath} alt={artwork.name} height="350" width="350" class="absolute inset-0 rounded-lg object-cover w-full h-full group-hover:brightness-[0.2] duration-300 transition-brightness" loading={isEager ? 'eager' : 'lazy'}/>
+  <Image src={images[`/src${artwork.imgPath}`]()} alt={artwork.name} height="350" width="350" class="absolute inset-0 rounded-lg object-cover w-full h-full group-hover:brightness-[0.2] duration-300 transition-brightness" loading={isEager ? 'eager' : 'lazy'}/>
   <a href={artwork.link}>
     <div class="relative w-full h-full grid place-items-center opacity-0 group-hover:opacity-100 duration-300 transition-opacity">
       <div class="text-center">

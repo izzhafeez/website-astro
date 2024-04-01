@@ -1,18 +1,20 @@
 ---
 import {
-Astronav,
-MenuItems,
-MenuIcon,
-Dropdown,
-DropdownItems,
+  Astronav,
+  MenuItems,
+  MenuIcon,
+  Dropdown,
+  DropdownItems,
 } from "astro-navbar";
 import ThemeIcon from "./ThemeIcon.astro";
+import { Image } from "astro:assets";
+import logo from '../../img/desmosito-black-trans.png';
 // https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
 ---
 <header class="lg:flex justify-between p-5 gap-5 mx-auto container dark:text-white bg-li-bg dark:bg-da-bg z-50">
   <Astronav closeOnClick>
     <div class="flex w-full lg:w-auto justify-between items-center">
-      <a href="/"><img src="/img/desmosito-black-trans.png" class="dark:invert w-6 h-6"/></a>
+      <a href="/"><Image src={logo} alt="logo" width="20" height="20" class="dark:invert w-6 h-6"/></a>
       <div class="lg:hidden grid items-center">
         <MenuIcon class="w-6 h-6 text-gray-800 dark:invert" />
       </div>

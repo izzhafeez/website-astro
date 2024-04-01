@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+
 const { site } = Astro.props;
 
 let gradientColor = 'from-lrt-700/80 to-lrt-500/50';
@@ -14,11 +16,12 @@ switch (site) {
     gradientColor = 'from-ns-700/80 to-ns-500/50';
     break;
 }
-const backgroundImgUrl = `/img/heroes/${Astro.props.label.split(" ")[0]}.jpg`;
+const backgroundImgUrl = `/src/img/heroes/${Astro.props.label.split(" ")[0]}.jpg`;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/heroes/*.jpg');
 ---
-<div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen" style={`background-image: url('${backgroundImgUrl}'); background-repeat:no-repeat; background-position: center center;`}>
+<div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen">
+  <Image src={images[backgroundImgUrl]()} alt="hero image" width="1500" height="800" class="absolute w-full h-80 opacity-30 object-cover"/>
   <div class={`bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}>
-  <!-- <div class={`${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}> -->
     <div class="max-w-6xl mx-auto">
       <h1 transition:name={Astro.props.label} class="font-extrabold text-center text-3xl md:text-6xl text-white mb-2 relative z-0">{Astro.props.label}</h1>
       <p transition:name={Astro.props.text} class="text-center text-white max-w-xl relative z-0">{Astro.props.text}</p>

@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import Tags from "./Tags.astro";
+import type { ImageMetadata } from "astro";
 
 const { href, title, heroText, site, key, imgPath, isEager, tags=[] } = Astro.props;
 
@@ -20,10 +21,12 @@ switch (site) {
     neonColor = "hover:neon-ns";
     break;
 }
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 ---
 
 <a transition:name={key} role="button" href={href} id={key} class={`group w-full ${neonColor} p-4 rounded-lg flex gap-4`}>
-  {imgPath && <Image src={imgPath} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video hidden lg:block" loading={isEager && 'eager'}/>}
+  {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video hidden lg:block" loading={isEager && 'eager'}/>}
   <div>
     <h2 transition:name={title.toUpperCase()} class={`${textColor} font-medium dark:text-white flex items-center gap-2`}>  
       {title} 

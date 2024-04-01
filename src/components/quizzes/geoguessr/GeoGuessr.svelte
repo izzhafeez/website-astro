@@ -1,5 +1,7 @@
 <script>
   import L from "leaflet";
+  import info from "/src/img/common/info.svg";
+
   export let data;
   let image = data[Math.floor(Math.random() * data.length)];
   $: lat = image.lat;
@@ -134,7 +136,7 @@
   {:else if !!guess}
   <button class="bg-ew-500 hover:bg-ew-300 text-white p-2 w-full" on:click={handleGuess}>Guess</button>
   {/if}
-  <button class="bg-hp-500 hover:bg-hp-300 text-white w-full p-2 flex items-center gap-4" on:click={openInfo}><img src="/img/common/info.svg" alt="info" class="h-5 invert"/>Info</button>
+  <button class="bg-hp-500 hover:bg-hp-300 text-white w-full p-2 flex items-center gap-4" on:click={openInfo}><img src={info.src} alt="info" class="h-5 invert"/>Info</button>
   <img use:onload src={image.link} alt={data.id} class={`w-60 object-contain active:w-screen max-h-screen active:my-auto active:mx-auto cursor-pointer ${waiting > 0 ? 'hidden' : ''}`}/>
   {#if waiting > 0}
   <p class="text-lg w-60 h-60 bg-white grid items-center text-center">Loading...</p>

@@ -28,7 +28,7 @@
           input-class-name="dark:bg-da-bg dark:text-white dark:border-gray-600 rounded-none"
           :format="format"></VueDatePicker>
         <button @click="dates.splice(index, 1)" class="content-center p-2 bg-ns-500 hover:bg-ns-400 rounded-e-md">
-          <img src="/img/common/trash.svg" class="w-5 invert"/>
+          <img src="/src/img/common/trash.svg" class="w-5 invert"/>
         </button>
       </li>
     </ul>
