@@ -7,6 +7,7 @@ import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
 import { AstroSeo } from "@astrolib/seo";
 import quizzesData from "../../../data/quizzes/quizzes.json";
+import yesNoImg from "/src/img/heroes/YESNO.jpg";
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -40,7 +41,7 @@ const heroText = quizzesData.yesNo.heroText;
     type: "website",
     images: [
       {
-        url: `/img/heroes/YES NO QUIZZES.jpg`,
+        url: yesNoImg.src,
         width: 800,
         height: 600,
         alt: "Yes/No Quizzes | Izz Hafeez"

@@ -5,6 +5,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import trashData from "../../../data/quizzes/yes-no/trash.json";
 import yesNoData from "../../../data/quizzes/yes-no.json";
+import { AstroSeo } from "@astrolib/seo";
 
 export const getStaticPaths = (() => {
   return [
@@ -28,6 +29,25 @@ export const getStaticPaths = (() => {
   ];
 }) satisfies GetStaticPaths;
 ---
+<AstroSeo
+  title={Astro.props.title + " | Izz Hafeez"}
+  description={Astro.props.instructions}
+  canonical={`https://izzhafeez.com/quizzes/yes-no/${Astro.params.quiz}`}
+  openGraph={{
+    title: Astro.props.title + " | Izz Hafeez",
+    description: Astro.props.instructions,
+    url: `https://izzhafeez.com/quizzes/yes-no/${Astro.params.quiz}`,
+    type: "website",
+    images: [
+      {
+        url: `/src/img/quizzes/yes-no/${Astro.params.quiz}.jpg`,
+        width: 800,
+        height: 600,
+        alt: Astro.props.title + " | Izz Hafeez"
+      }
+    ]
+  }}
+/>
 
 <Layout>
   <div slot="main">

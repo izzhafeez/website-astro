@@ -3,7 +3,32 @@ import geoguessrData from "../../../data/quizzes/geoguessr.json";
 import GeoGuessr from "../../../components/quizzes/geoguessr/GeoGuessr.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
+import geoguessr from '/src/img/heroes/GEOGUESSR.jpg';
+import quizzesData from "../../../data/quizzes/quizzes.json";
+import { AstroSeo } from "@astrolib/seo";
+
+const heroText = quizzesData.geoguessr.heroText;
 ---
+<AstroSeo
+  title={"GeoGuessr | Izz Hafeez"}
+  description={heroText}
+  canonical={`https://izzhafeez.com/quizzes/compare`}
+  openGraph={{
+    title: "GeoGuessr | Izz Hafeez",
+    description: heroText,
+    url: `https://izzhafeez.com/quizzes/compare`,
+    type: "website",
+    images: [
+      {
+        url: geoguessr.src,
+        width: 800,
+        height: 600,
+        alt: "Compare Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin=""/>

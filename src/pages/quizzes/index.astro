@@ -8,6 +8,7 @@ import homeJson from '../../data/home.json';
 import { capitalise } from '../../utils/string';
 import MediumCard from '../../components/common/MediumCard.astro';
 import { AstroSeo } from "@astrolib/seo";
+import quizzes from '/src/img/heroes/QUIZZES.jpg';
 
 const heroText = homeJson.quizzes.heroText;
 ---
@@ -22,12 +23,15 @@ const heroText = homeJson.quizzes.heroText;
     type: "website",
     images: [
       {
-        url: `/img/heroes/QUIZZES.jpg`,
+        url: quizzes.src,
         width: 800,
         height: 600,
         alt: "Quizzes | Izz Hafeez"
       }
     ]
+  }}
+  twitter={{
+
   }}
 />
 <Layout>

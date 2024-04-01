@@ -20,6 +20,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import { AstroSeo } from "@astrolib/seo";
 import compareQuizData from "../../../data/quizzes/compare.json";
+import type { ImageMetadata } from "astro";
 
 export function getStaticPaths() {
   return [
@@ -214,7 +215,7 @@ const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
     type: "website",
     images: [
       {
-        url: `/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+        url: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
         width: 800,
         height: 600,
         alt: Astro.props.title + " | Izz Hafeez"

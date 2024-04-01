@@ -7,6 +7,7 @@ import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
 import { AstroSeo } from "@astrolib/seo";
 import quizzesData from "../../../data/quizzes/quizzes.json";
+import compare from '/src/img/heroes/COMPARE.jpg';
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -40,7 +41,7 @@ const heroText = quizzesData.compare.heroText;
     type: "website",
     images: [
       {
-        url: `/img/heroes/COMPARE.jpg`,
+        url: compare.src,
         width: 800,
         height: 600,
         alt: "Compare Quizzes | Izz Hafeez"
