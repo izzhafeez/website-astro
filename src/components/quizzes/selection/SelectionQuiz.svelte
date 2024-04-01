@@ -55,7 +55,7 @@ function handleGuess() {
 
   Swal.fire({
     title: `Your Score: ${score}/${totalScore}`,
-    html: `<img src="/src/img/quizzes/${imgSrc}.gif"/>`,
+    html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
   }).then(_ => {
     guessed = true;
   });
