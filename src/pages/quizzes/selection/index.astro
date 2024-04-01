@@ -1,0 +1,69 @@
+---
+import selectionData from "../../../data/quizzes/selection.json";
+import MediumCard from "../../../components/common/MediumCard.astro";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import Hero from "../../../components/common/Hero.astro"
+import Footer from "../../../components/common/Footer.astro"
+import { AstroSeo } from "@astrolib/seo";
+import quizzesData from "../../../data/quizzes/quizzes.json";
+import selection from '/src/img/heroes/SELECTION.jpg';
+
+type QuizJson = {[k: string]: {
+  title: string,
+  instructions: string,
+  rank?: number,
+  tags?: string[]
+}}
+
+const quizzes = Object.entries(selectionData as QuizJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/quizzes/selection/${key}`,
+    title: value.title,
+    instructions: value.instructions,
+    rank: value.rank || 0,
+    imgPath: `/img/quizzes/selection/${key}.jpg`,
+    tags: value.tags || []
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = quizzesData.selection.heroText;
+---
+<AstroSeo
+  title={"Selection Quizzes | Izz Hafeez"}
+  description={heroText}
+  canonical={`https://izzhafeez.com/quizzes/selection`}
+  openGraph={{
+    title: "Selection Quizzes | Izz Hafeez",
+    description: heroText,
+    url: `https://izzhafeez.com/quizzes/selection`,
+    type: "website",
+    images: [
+      {
+        url: selection.src,
+        width: 800,
+        height: 600,
+        alt: "Selection Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <Hero label="SELECTION QUIZZES" text={heroText} site="quizzes"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {quizzes.map(quiz => <MediumCard
+        href={quiz.href}
+        title={quiz.title}
+        site="quizzes"
+        heroText={quiz.instructions}
+        key={quiz.key}
+        imgPath={quiz.imgPath}
+        isEager={true}
+        tags={quiz.tags}/>)}
+    </section>
+    <Footer color="ns" isEager={true}/>
+  </div>
+</Layout>

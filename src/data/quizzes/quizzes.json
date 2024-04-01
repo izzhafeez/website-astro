@@ -18,5 +18,9 @@
   "yesNo": {
     "title": "yes no quizzes",
     "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
+  },
+  "selection": {
+    "title": "selection quizzes",
+    "heroText": "Select all the correct answers from the list. Try to get a high score!"
   }
 }

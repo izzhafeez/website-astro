@@ -59,14 +59,14 @@ import instagram from "../img/logos/instagram.svg";
         </a>
       </div>
     </div>
-    <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
-    </section>
-    <div class="my-20"></div>
     <Hero label="QUIZZES" text={homeData.quizzes.heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+    </section>
+    <div class="my-20"></div>
+    <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
     <Footer color="lrt"/>
   </div>
