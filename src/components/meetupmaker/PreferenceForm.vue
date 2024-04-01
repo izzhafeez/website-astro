@@ -90,7 +90,7 @@
           {{ rec[1] }}
         </div>
         <div class="ms-auto grid content-center">
-          <img src="/img/common/heart.svg" class="w-4 opacity-20" :class="{'opacity-100': selected.has(rec[0]+rec[1])}"/>
+          <img src="/src/img/common/heart.svg" class="w-4 opacity-20" :class="{'opacity-100': selected.has(rec[0]+rec[1])}"/>
         </div>
       </li>
     </ul>
