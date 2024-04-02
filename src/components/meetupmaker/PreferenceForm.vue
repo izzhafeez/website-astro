@@ -80,21 +80,55 @@
     <button v-on:click="handleSubmitPreferences" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Submit</button>
   </form>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleGenerateRecommendations">
-    <h2 class="text-ew-500 dark:text-ew-300 text-xl font-light">RECOMMENDATIONS</h2>
-    <ul class="grid gap-2">
-      <li v-for="rec in this.recommendationsData" v-on:click="handleLike(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-da-alt hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer">
+    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">Recommendations</h2>
+    <label class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">WHICH DO YOU PREFER?</label>
+    <ul class="grid gap-2 dark:text-white">
+      <li v-for="rec in this.recommendationsData" v-on:click="handleLike(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer">
         <div class="w-20 text-center">
-          {{ rec[0] }}
+          {{ rec.timing }}
         </div>
         <div>
-          {{ rec[1] }}
+          {{ rec.location }}
         </div>
-        <div class="ms-auto grid content-center">
-          <img src="/src/img/common/heart.svg" class="w-4 opacity-20" :class="{'opacity-100': selected.has(rec[0]+rec[1])}"/>
+        <div class="ms-auto flex gap-2 text-gray-500 content-center">
+          {{ rec.likes.length }}
+          <img src="/src/img/common/heart.svg" class="w-4 dark:invert" :class="{'opacity-100': selected.has(rec.timing+rec.location), 'opacity-20': !selected.has(rec.timing+rec.location)}"/>
         </div>
       </li>
     </ul>
     <button v-on:click="handleGenerateRecommendations" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Generate Recommendations</button>
+  </form>
+  <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleConfirm">
+    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+      Finalise Meetup
+    </h2>
+    <div class="flex gap-4 content-center" v-if="passwordHash">
+      <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
+      <input v-model="password" type="password"
+        id="password" name="password" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
+    </div>
+    <div v-if="validPassword">
+      <div class="my-4"></div>
+      <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHERE WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
+      <ul class="grid gap-2 dark:text-white">
+        <li v-for="rec in this.recommendationsData" v-on:click="handleChooseFinal(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer" :class="{'bg-ew-500 text-white': timing === rec.timing && location === rec.location}">
+          <div class="w-20 text-center">
+            {{ rec.timing }}
+          </div>
+          <div>
+            {{ rec.location }}
+          </div>
+          <div class="ms-auto flex gap-2 dark:text-white content-center">
+            {{ rec.likes.length }}
+            <img src="/src/img/common/heart.svg" class="w-4 dark:invert"/>
+          </div>
+        </li>
+      </ul>
+      <button v-on:click="handleConfirm" class="w-auto bg-ew-500 hover:opacity-70 px-4 py-2 text-white rounded-lg my-2">Finalise Meetup</button>
+    </div>
+    <div v-else class="my-4 dark:text-white">
+      You need to enter the correct password to finalise the meetup.
+    </div>
   </form>
 </template>
 
@@ -102,6 +136,7 @@
 import "leaflet/dist/leaflet.css";
 import { LMap, LTileLayer, LMarker, LIcon, LTooltip } from "@vue-leaflet/vue-leaflet";
 import axios from "axios";
+import { stringToHash } from "../../utils/string";
 
 export default {
   components: {
@@ -139,6 +174,12 @@ export default {
   },
   data() {
     let storedData = JSON.parse(localStorage.getItem(this.id)) || {};
+    let selected = new Set();
+    for (let rec of this.recommendations) {
+      if (rec.likes.includes(storedData.name)) {
+        selected.add(rec.timing + rec.location);
+      }
+    }
     return {
       name: storedData.name || '',
       password: '',
@@ -150,7 +191,14 @@ export default {
       endLng: storedData.endLng || 103.875,
       zoom: 12,
       recommendationsData: this.recommendations,
-      selected: new Set()
+      selected: selected,
+      timing: "",
+      location: ""
+    }
+  },
+  computed: {
+    validPassword: function() {
+      return stringToHash(this.password) === this.passwordHash || !this.passwordHash;
     }
   },
   methods: {
@@ -219,11 +267,21 @@ export default {
     },
 
     async handleGenerateRecommendations() {
+      await this.handleSubmitPreferences();
+
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/recommend/${this.id}`, {
         name: this.name
       }).then(response => {
         return response.data;
       }).then(data => {
+        if (data.recommendations.length === 0) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'No recommendations! Try a reasonable timing and location!',
+          })
+          return;
+        }
         Swal.fire({
           icon: 'success',
           title: 'Success!',
@@ -233,12 +291,47 @@ export default {
       });
     },
 
-    handleLike(recommendation) {
-      if (this.selected.has(recommendation[0])) {
-        this.selected.delete(recommendation[0]);
+    async handleLike(rec) {
+      if (this.selected.has(rec.timing + rec.location)) {
+        this.selected.delete(rec.timing + rec.location);
+        rec.likes = rec.likes.filter(like => like !== this.name);
       } else {
-        this.selected.add(recommendation[0]);
+        this.selected.add(rec.timing + rec.location);
+        rec.likes.push(this.name);
       }
+
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/like/${this.id}`, {
+        name: this.name,
+        timing: rec.timing,
+        location: rec.location
+      }).then(response => {
+        return response.data;
+      });
+    },
+
+    handleChooseFinal(rec) {
+      this.timing = rec.timing;
+      this.location = rec.location;
+    },
+
+    async handleConfirm() {
+      if (!this.timing || !this.location) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Please select a timing+location!',
+        })
+        return;
+      }
+
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/confirm_timing/${this.id}`, {
+        timing: this.timing,
+        location: this.location
+      }).then(response => {
+        return response.data;
+      }).then(_ => {
+        window.location.href = `/apps/meetupmaker/meetup/?id=${this.id}`
+      });
     }
   }
 }

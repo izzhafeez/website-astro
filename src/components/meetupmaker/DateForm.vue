@@ -4,12 +4,12 @@
     {{ meetupName }}
   </h1>
   <div class="flex gap-4 content-center">
-    <label for="name" class="text-lg dark:text-white content-center rounded-lg font-bold">Your Name</label>
+    <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
     <input v-model="name" type="text"
       id="name" name="name" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div class="my-4"></div>
-  <label for="date" class="text-lg dark:text-white font-bold">What dates are you free?</label>
+  <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHAT DATES ARE YOU FREE?</label>
   <ul class="grid gap-2 my-2 rounded-lg">
     <li v-for="date in dates" :key="date">
       <div class="flex">
@@ -35,13 +35,13 @@
     Finalise Date
   </h2>
   <div class="flex gap-4 content-center" v-if="passwordHash">
-    <label for="name" class="text-lg dark:text-white content-center rounded-lg font-bold">Password</label>
+    <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
     <input v-model="password" type="password"
       id="password" name="password" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div v-if="validPassword">
     <div class="my-4"></div>
-    <label for="date" class="text-lg dark:text-white font-bold">When would you like the final meetup date to be?</label>
+    <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHEN WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
     <ul class="grid gap-2 my-2 rounded-lg">
       <li v-for="date in dates" :key="date">
         <div class="flex">
@@ -61,7 +61,7 @@
             <img v-if="date === chosenDate" src="/src/img/common/tick.svg" class="w-8 invert"/>
           </div>
         </div>
-        <div v-if="showParticipants[date]" class="flex gap-2 mt-4 items-center dark:text-white">
+        <div v-if="showParticipants[date]" class="flex gap-2 my-2 h-8 items-center dark:text-white">
           <span class="font-medium">Who's free:</span>
           <li v-for="participant in dateParticipants[date]" :key="participant" class="dark:text-white text-sm p-2 bg-dt-500 text-white rounded-lg">
             {{ participant }}

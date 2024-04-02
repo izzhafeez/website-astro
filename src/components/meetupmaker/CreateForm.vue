@@ -1,21 +1,21 @@
 <template>
   <form class="max-w-xl sm:mx-auto mx-2" v-on:submit.prevent="validateForm">
     <div class="grid gap-2 my-2">
-      <label for="meetupName" class="dark:text-white text-xl font-medium my-auto">Meetup Name</label>
+      <label for="meetupName" class="text-ew-500 dark:text-ew-300 text-xl font-light">MEETUP NAME</label>
       <input v-model="meetupName" type="text" id="meetupName" name="meetupName" class="dark:bg-da-bg dark:text-white border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="grid gap-2 my-2">
-      <label for="hostName" class="dark:text-white text-xl font-medium my-auto">Your Name</label>
+      <label for="hostName" class="text-ew-500 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
       <input v-model="hostName" type="text" id="hostName" name="hostName" class="dark:bg-da-bg dark:text-white border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="grid gap-2 my-2">
-      <label for="password" class="dark:text-white text-xl font-medium my-auto">Password (optional)</label>
+      <label for="password" class="text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD (OPTIONAL)</label>
       <input v-model="password" type="password" id="password" name="password" class="dark:bg-da-bg dark:text-white border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2">
     </div>
 
-    <label for="date" class="dark:text-white text-xl font-medium">Potential Dates</label>
+    <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">POTENTIAL DATES</label>
     <ul class="grid gap-2 my-2 mb-4">
       <li v-for="(date, index) in dates" :key="date" class="flex">
         <VueDatePicker

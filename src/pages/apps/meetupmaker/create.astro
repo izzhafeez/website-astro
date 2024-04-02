@@ -12,7 +12,7 @@ export const prerender = true;
     <h1 class="my-8 text-6xl max-w-xl mx-2 sm:mx-auto font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
       Create Meetup
     </h1>
-    <CreateForm client:only="vue"/>
+    <CreateForm client:load/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">

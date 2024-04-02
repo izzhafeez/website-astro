@@ -3,6 +3,8 @@ import NavBar from "../../../../components/common/NavBar.astro";
 import DateForm from "../../../../components/meetupmaker/DateForm.vue";
 import Layout from "../../../../layouts/Layout.astro";
 import PreferenceForm from "../../../../components/meetupmaker/PreferenceForm.vue";
+import Finalised from "../../../../components/meetupmaker/Finalised.vue";
+import Footer from "../../../../components/common/Footer.astro";
 
 export const prerender = false;
 const id = Astro.url.searchParams.get('id');
@@ -11,22 +13,22 @@ const dates = data.dates;
 const participants = data.participants;
 const meetupName = data.meetup_name;
 const passwordHash = data.password_hash;
+const hostName = data.host_name;
 const date = data.date;
 const recommendations = data.recommendations;
-
-let locations;
-if (!!date) {
-  locations = await fetch(`${import.meta.env.PUBLIC_MM}/api/mrts`).then(res => res.json());
-}
+const timing = data.timing;
+const location = data.location;
 ---
 
 <Layout>
   <div slot="main">
     <NavBar/>
     <!-- if date exists -->    
-    {!date && <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash}/>}
+    {!date && !timing && <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash}/>}
     <!-- if date does not exist -->
-    {date && <PreferenceForm client:only="vue" date={date} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash} recommendations={recommendations}/>}
+    {date && !timing && <PreferenceForm client:only="vue" date={date} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash} recommendations={recommendations}/>}
+    <!-- if date and timing exist -->
+    {date && timing && <Finalised client:load id={id} participants={participants} hostName={hostName} meetupName={meetupName} timing={timing} date={date} location={location}/>}
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
