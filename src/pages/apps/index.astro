@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Footer from '../../components/common/Footer.astro';
+import appsData from '../../data/apps/apps.json';
+import Hero from '../../components/common/Hero.astro';
+import homeJson from '../../data/home.json';
+import MediumCard from '../../components/common/MediumCard.astro';
+import { capitalise } from '../../utils/string';
+import { AstroSeo } from '@astrolib/seo';
+
+const heroText = homeJson.apps.heroText;
+---
+<AstroSeo
+  title="Apps | Izz Hafeez"
+  description={heroText}
+  canonical="https://izzhafeez.com/apps"
+  openGraph={{
+    title: "Apps | Izz Hafeez",
+    description: heroText,
+    url: "https://izzhafeez.com/apps",
+    type: "website",
+    images: [
+      {
+        url: "/img/heroes/APPS.jpg",
+        width: 600,
+        height: 600,
+        alt: "Apps | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+<Layout>
+  <div slot="main" class="">
+    <NavBar/>
+    <Hero label="APPS" text={heroText} site="apps"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(appsData).map(([key, value]) => <MediumCard href={`/apps/${key}`} title={capitalise(key)} heroText={value.heroText} site="apps" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+    </section>
+    <Footer color="ne" isEager={false}/>
+  </div>
+</Layout>

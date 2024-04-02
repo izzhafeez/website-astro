@@ -4,6 +4,7 @@ import Hero from "../components/common/Hero.astro";
 import NavBar from "../components/common/NavBar.astro";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
+import appsData from "../data/apps/apps.json";
 import portfolioData from "../data/portfolio/portfolio.json";
 import quizzesData from "../data/quizzes/quizzes.json";
 import homeData from "../data/home.json";
@@ -59,6 +60,11 @@ import instagram from "../img/logos/instagram.svg";
         </a>
       </div>
     </div>
+    <Hero label="APPS" text={homeData.apps.heroText} site="apps"/>
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(appsData).map(([key, value]) => <MediumCard href={`/apps/${key}`} title={capitalise(key)} heroText={value.heroText} site="apps" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+    </section>
+    <div class="my-20"></div>
     <Hero label="QUIZZES" text={homeData.quizzes.heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
