@@ -50,5 +50,180 @@
       "Carrot",
       "Celery"
     ]
+  },
+  "Chicken Alfredo": {
+    "no": [
+      "Parmesan cheese",
+      "Garlic",
+      "Butter"
+    ],
+    "yes": [
+      "Fettuccine pasta",
+      "Grilled chicken breast",
+      "Heavy cream"
+    ]
+  },
+  "Caesar Salad": {
+    "no": [
+      "Parmesan cheese",
+      "Caesar dressing"
+    ],
+    "yes": [
+      "Romaine lettuce",
+      "Croutons"
+    ]
+  },
+  "Beef Tacos": {
+    "no": [
+      "Ground beef",
+      "Taco seasoning",
+      "Cheddar cheese",
+      "Sour cream"
+    ],
+    "yes": [
+      "Taco Shells",
+      "Lettuce",
+      "Tomato"
+    ]
+  },
+  "Margherita Pizza": {
+    "no": [
+      "Mozzarella cheese",
+      "Basil leaves",
+      "Pizza dough"
+    ],
+    "yes": [
+      "Tomato sauce",
+      "Tomato",
+      "Olive oil"
+    ]
+  },
+  "Hor Fun": {
+    "no": [
+      "Fish cake",
+      "Bean sprouts",
+      "Dark soy sauce",
+      "Oyster sauce"
+    ],
+    "yes": [
+      "Flat rice noodles",
+      "Beef slices",
+      "Chives"
+    ]
+  },
+  "Kway Teow Beef": {
+    "no": [
+      "Bean sprouts",
+      "Dark soy sauce",
+      "Oyster sauce"
+    ],
+    "yes": [
+      "Flat rice noodles",
+      "Beef slices",
+      "Chives"
+    ]
+  },
+  "Mee Goreng": {
+    "no": [
+      "Bean sprouts",
+      "Dark soy sauce",
+      "Oyster sauce"
+    ],
+    "yes": [
+      "Yellow noodles",
+      "Shrimp",
+      "Egg"
+    ]
+  },
+  "Ban Mian": {
+    "no": [
+      "Fish cake",
+      "Bean sprouts",
+      "Dark soy sauce",
+      "Oyster sauce"
+    ],
+    "yes": [
+      "Hand-pulled noodles",
+      "Minced meat",
+      "Egg"
+    ]
+  },
+  "Bolognese": {
+    "no": [
+      "Onion",
+      "Garlic",
+      "Parmesan cheese",
+      "Basil leaves"
+    ],
+    "yes": [
+      "Spaghetti pasta",
+      "Tomato sauce",
+      "Ground beef"
+    ]
+  },
+  "Pho": {
+    "no": [
+      "Bean sprouts",
+      "Basil leaves",
+      "Lime",
+      "Hoisin sauce"
+    ],
+    "yes": [
+      "Rice noodles",
+      "Beef slices",
+      "Cilantro"
+    ]
+  },
+  "Pad Thai": {
+    "no": [
+      "Bean sprouts",
+      "Tamarind paste",
+      "Fish sauce",
+      "Peanuts"
+    ],
+    "yes": [
+      "Rice noodles",
+      "Shrimp",
+      "Egg"
+    ]
+  },
+  "Nasi Lemak": {
+    "no": [
+      "Cucumber",
+      "Anchovies",
+      "Peanuts",
+      "Sambal"
+    ],
+    "yes": [
+      "Coconut rice",
+      "Fried chicken",
+      "Fried egg"
+    ]
+  },
+  "Egg Fried Rice": {
+    "no": [
+      "Peas",
+      "Carrots",
+      "Soy sauce",
+      "Oyster sauce"
+    ],
+    "yes": [
+      "Rice",
+      "Egg",
+      "Green onions"
+    ]
+  },
+  "Chicken Rice": {
+    "no": [
+      "Cucumber",
+      "Ginger",
+      "Chicken broth",
+      "Dark soy sauce"
+    ],
+    "yes": [
+      "Rice",
+      "Roasted chicken",
+      "Cilantro"
+    ]
   }
 }
