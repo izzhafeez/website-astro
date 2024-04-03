@@ -1,9 +1,12 @@
 <script>
   import { onMount } from "svelte";
   import { fullSanitise } from "../../../utils/string";
+  import Leaderboard from "../Leaderboard.svelte";
+  import axios from "axios";
   export let answerDict;
   export let answerList;
   export let defaultRegex;
+  export let key;
   let regexInput = defaultRegex;
   let activeAnswerList = answerList;
   let options = [];
@@ -18,6 +21,7 @@
   let promptColorStyle = "bg-hp-600 text-white";
   let isMcq = true;
   let isWacky = true;
+  let name;
   $: difficulty = 'hard';
   const MINIMUM_ACTIVE_LENGTH = 5;
   const DIFFICULTY_MAPPING = {
@@ -109,7 +113,7 @@
     promptColorStyle = "bg-ew-500 text-white";
   }
 
-  function handleWrong(e) {
+  async function handleWrong(e) {
     prevStreak = streak;
     windowSize = Math.min(DIFFICULTY_MAPPING[difficulty].windowSize, activeAnswerList.length);
     optionSize = Math.min(DIFFICULTY_MAPPING[difficulty].optionSize, activeAnswerList.length);
@@ -117,6 +121,12 @@
     e.target.value = '';
     isActive = false;
     promptColorStyle = "bg-ns-500 text-white";
+
+    const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+    await axios.post(`${import.meta.env.PUBLIC_QUIZ}api/streak/${key}`, {
+      name: truncatedName,
+      score: streak
+    });
   }
 
   function onKeyDown(e) {
@@ -175,6 +185,10 @@
         {/each}
       </select>
     </div>
+    <div class="flex items-center gap-4 h-10">
+      <label for="regex" class="dark:text-white font-bold">Your Name (Optional):</label>
+      <input name="regex" bind:value={name} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    </div>
   </div>
 
   <p class='dark:text-white my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
@@ -186,7 +200,8 @@
     </div>
     {/each}
   </div>
-  <button on:click={handleStart} class='bg-ew-500 py-1 px-2 rounded-full text-white hover:bg-ew-500/50'>Start Quiz</button>
+  <Leaderboard type="streak" key={key}/>
+  <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   {:else}
   <div class="grid gap-8">
     <div class={`${promptColorStyle} h-60 w-full mx-auto rounded-3xl grid items-center text-center p-4`}>

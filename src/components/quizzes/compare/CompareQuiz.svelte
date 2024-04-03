@@ -1,12 +1,16 @@
 <script>
 import { onMount } from "svelte";
 import { fullSanitise } from "../../../utils/string";
+import Leaderboard from "../Leaderboard.svelte";
+import axios from "axios";
 export let key;
 export let title;
 export let data;
 export let instructions;
 export let decimalPlaces = 0;
 export let startNumber = 0;
+let name;
+
 let dataList = Object.entries(data).map(([k, v]) => {
   const { cleanText, searchTerms } = fullSanitise(k);
   return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v }
@@ -77,10 +81,17 @@ function handleCountUp() {
   }, 10);
 }
 
-function handleFail(_) {
+async function handleFail(_) {
   var imgSrc;
   let savedStreak = streak;
   localStorage.setItem(`compare-${key}-streak`, bestStreak);
+
+  const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+  await axios.post(`${import.meta.env.PUBLIC_QUIZ}api/compare/${key}`, {
+    name: truncatedName,
+    score: streak
+  });
+
   if (streak >= 200) {
     imgSrc = "perfect";
   } else if (streak >= 150) {
@@ -142,7 +153,14 @@ function handleFail(_) {
 <div class="grid h-screen w-screen justify-center content-center gap-2 p-4">
   <h1 class="font-extrabold text-6xl bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
   <p class="dark:text-white max-w-xl">{instructions}</p>
-  <button on:click={handleStart} class='me-auto bg-ew-300/20 my-2 py-2 px-4 rounded-full text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start</button>
+  <div class="flex content-center gap-2">
+    <label for="name" class="dark:text-white my-auto">Your Name (Optional):</label>
+    <input type="text" id="name" bind:value={name} class="p-2 rounded-md"/>
+  </div>
+  <div class="flex gap-2 py-2">
+    <Leaderboard type="compare" key={key}/>
+    <button on:click={handleStart} class='me-auto bg-ew-300/20 py-2 px-4 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start</button>
+  </div>
 </div>
 {:else}
 <div class="fixed grid grid-cols-2 w-screen mt-20">

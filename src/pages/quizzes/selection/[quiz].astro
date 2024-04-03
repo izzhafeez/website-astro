@@ -14,7 +14,7 @@ export const getStaticPaths = (() => {
         quiz: "waste" 
       },
       props: {
-        title: "Waste",
+        title: "What a Waste!",
         data: wasteData,
         instructions: selectionData.waste.instructions
       }
@@ -45,7 +45,7 @@ export const prerender = true
 <Layout>
   <div slot="main">
     <NavBar/>
-    <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions}/>
+    <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
   </div>
 </Layout> 
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">

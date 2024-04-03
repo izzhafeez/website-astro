@@ -4,9 +4,10 @@
   export let locationDict;
   export let locationList;
   export let defaultRegex;
+  export let key;
 </script>
 
 <div>
-  <InputBox answers={locationDict} defaultRegex={defaultRegex}/>
+  <InputBox answers={locationDict} defaultRegex={defaultRegex} key={key}/>
   <LLMap locations={locationList}/>
 </div>

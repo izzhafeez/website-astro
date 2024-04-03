@@ -3,9 +3,14 @@
   import { fullSanitise } from "../../../utils/string";
   import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
   import { onMount } from "svelte";
+  import axios from "axios";
+    import Leaderboard from "../Leaderboard.svelte";
 
   export let answers;
   export let defaultRegex;
+  export let key;
+
+  let name;
   $: fullScore = Object.values(answers).map(a => a.length).reduce((a,b)=>a+b, 0);
   let totalScore = null;
   let score = 0;
@@ -19,11 +24,18 @@
     handleRegex(null);
   })
 
-  function handleEnd(_) {
+  async function handleEnd(_) {
     toStop = true;
     for (let i=0; i<fullScore; i++) {
       toShowTooltip.set(i);
     }
+
+    const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+    await axios.post(`${import.meta.env.PUBLIC_QUIZ}api/map/${key}`, {
+      name: truncatedName,
+      score: score
+    });
+
     var imgSrc;
     const scorePercentage = score / totalScore;
     if (scorePercentage > 1) {
@@ -162,18 +174,23 @@
   }
 </script>
 
-<div class='h-20 flex items-center mb-4 mt-2'>
+<div class='h-30 flex items-center mb-4 mt-2'>
   {#if toStop}
   <div class='p-2'>
+    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <br/><br/>
     <label for="regex" class="dark:text-white">Regex:</label>
     <input name="regex" on:input={handleRegex} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder="" value={regexInput}/>
+    <br/><br/>
+    <Leaderboard type="map" key={key}/>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   </div>
   {:else}
   <div class='float-left text-center h-20 w-20 place-content-center grid p-2'>
     <Timer countFrom={time} on:timesup={handleEnd} toStop={toStop}/>
   </div>
-  <div class='grid h-20 content-between'>
+  <div class='grid h-30 content-between'>
     <b class='text-sm dark:text-white'>Enter Answer Here:</b>
     <input class='border-gray-500/50 border-[1px] rounded-md p-1' on:input={handleInput}/>
     <span class='text-sm dark:text-white'>{score}/{totalScore} guessed 

@@ -134,9 +134,9 @@ for (const [k, v] of Object.entries(data)) {
         <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
         <p transition:name={Astro.props.instructions} class="dark:text-white">{Astro.props.instructions}</p>
       </div>
-      <StreakQuiz client:load answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''}/>
+      <StreakQuiz client:load answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''} key={Astro.params.quiz}/>
     </div>
-    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>
 </Layout>

@@ -1,7 +1,13 @@
 <script>
+import { onMount } from "svelte";
+import Leaderboard from "../Leaderboard.svelte";
+import axios, { all } from "axios";
+
 export let title;
 export let instructions;
 export let data;
+export let key;
+
 let isStart = false;
 let levels = Object.keys(data);
 let level;
@@ -9,6 +15,14 @@ let options;
 let guessed = false;
 let selected = {};
 let correct = {};
+let streak = 0;
+let bestStreak = 0;
+let name;
+let accuracy;
+
+onMount(() => {
+  bestStreak = localStorage.getItem(`selection-${key}-streak`) || 0;
+})
 
 function handleStart() {
   isStart = true;
@@ -26,35 +40,86 @@ function handleNext() {
   guessed = false;
 }
 
-function handleGuess() {
-  let score = 0;
-  let totalScore = data[level].yes.length + data[level].no.length;
+async function handleGuess() {
+  let count = 0;
+  let total = 0
   for (let yes of data[level].yes) {
     if (selected[yes]) {
-      score++;
+      count += 1;
     }
+    total += 1;
   }
   for (let no of data[level].no) {
     if (!selected[no]) {
-      score++;
+      count += 1;
     }
+    total += 1;
   }
 
-  let imgSrc;
-  if (score/totalScore === 1) {
+  accuracy = `${Math.round(count / total * 100)}%`;
+
+  if (count / total >= 0.75) {
+    streak += 1;
+    bestStreak = Math.max(streak, bestStreak);
+    guessed = true;
+    return;
+  }
+
+  var imgSrc;
+  let savedStreak = streak;
+  localStorage.setItem(`selection-${key}-streak`, bestStreak);
+
+  const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+  await axios.post(`${import.meta.env.PUBLIC_QUIZ}api/selection/${key}`, {
+    name: truncatedName,
+    score: streak
+  });
+
+  if (streak >= 200) {
+    imgSrc = "perfect";
+  } else if (streak >= 150) {
     imgSrc = "fuiyoh";
-  } else if (score/totalScore >= 0.75) {
+  } else if (streak >= 120) {
+    imgSrc = "very-impressive";
+  } else if (streak >= 100) {
     imgSrc = "pretty-impressive";
-  } else if (score/totalScore >= 0.5) {
+  } else if (streak >= 85) {
     imgSrc = "oh-wow";
-  } else if (score/totalScore >= 0.25) {
+  } else if (streak >= 70) {
+    imgSrc = "practice";
+  } else if (streak >= 60) {
+    imgSrc = "you-fked-up";
+  } else if (streak >= 50) {
+    imgSrc = "where-my-slipper";
+  } else if (streak >= 42) {
+    imgSrc = "oh-no";
+  } else if (streak >= 36) {
+    imgSrc = "are-you-serious";
+  } else if (streak >= 30) {
     imgSrc = "haiya";
+  } else if (streak >= 25) {
+    imgSrc = "sacrilegious";
+  } else if (streak >= 20) {
+    imgSrc = "so-weak";
+  } else if (streak >= 16) {
+    imgSrc = "lamentable";
+  } else if (streak >= 13) {
+    imgSrc = "what-da-hail";
+  } else if (streak >= 10) {
+    imgSrc = "emotional-damage";
+  } else if (streak >= 7) {
+    imgSrc = "terrible";
+  } else if (streak >= 5) {
+    imgSrc = "send-u-to-jesus";
+  } else if (streak >= 3) {
+    imgSrc = "low-iq";
+  } else if (streak >= 1) {
+    imgSrc = "language-failure";
   } else {
     imgSrc = "failure";
   }
-
   Swal.fire({
-    title: `Your Score: ${score}/${totalScore}`,
+    title: `Your Score: ${savedStreak}`,
     html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
   }).then(_ => {
     guessed = true;
@@ -76,12 +141,15 @@ function handleSelect(option) {
   <div class="max-w-3xl mx-auto">
     <h1 class="text-5xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
     <p class="dark:text-white mt-2">{instructions}</p>
-    <div class="flex">
+    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <div class="py-2 flex gap-2">
+      <Leaderboard type="selection" key={key}/>
       <button
-        class="mt-4 px-4 py-2 bg-hp-700 hover:bg-hp-500 text-white rounded-md"
+        class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
         on:click={handleStart}
       >
-        Start
+        Start Quiz
       </button>
     </div>
   </div>
@@ -91,6 +159,12 @@ function handleSelect(option) {
   <h1 class="text-6xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12">
     {level}
   </h1>
+  <p><span class="font-bold">Streak:</span> {streak}</p>
+  <p><span class="font-bold">Best Streak:</span> {bestStreak}</p>
+  {#if accuracy && guessed}
+  <p><span class="font-bold">Accuracy:</span> {accuracy}</p>
+  {/if}
+  <br/>
   <div class="grid lg:grid-cols-2 gap-1">
     {#each options as option}
     <button class={`float-left px-4 py-2 rounded-md border-[1px]

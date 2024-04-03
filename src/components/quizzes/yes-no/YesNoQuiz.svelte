@@ -1,27 +1,36 @@
 <script>
   import { onMount } from "svelte";
+  import axios from "axios";
   export let title;
   export let instructions;
   export let fields;
   export let data;
   export let options;
+  export let key;
   let answer;
   let isStart = false;
   let streak = 0;
   let bestStreak = 0;
+  let name;
   import { capitalise } from "../../../utils/string";
+  import Leaderboard from "../Leaderboard.svelte";
 
   onMount(() => {
     bestStreak = localStorage.getItem(`yes-no-${title}`) || 0;
   });
 
-  function handleAnswer(guess) {
+  async function handleAnswer(guess) {
     if (guess === answer.answer) {
       streak++;
       bestStreak = Math.max(streak, bestStreak);
     } else {
       streak = 0;
       localStorage.setItem(`yes-no-${title}`, bestStreak);
+      const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+      await axios.post(`${import.meta.env.PUBLIC_QUIZ}api/yes-no/${key}`, {
+        name: truncatedName,
+        score: streak
+      });
     }
     Swal.fire({
       title: guess === answer.answer ? "Correct!" : "Incorrect",
@@ -51,12 +60,15 @@
   <div class="max-w-3xl mx-auto">
     <h1 class="text-5xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
     <p class="dark:text-white mt-2">{instructions}</p>
-    <div class="flex">
+    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <div class="flex py-2 gap-2">
+      <Leaderboard type="yes-no" key={key}/>
       <button
-        class="mt-4 px-4 py-2 bg-hp-700 hover:bg-hp-500 text-white rounded-md"
+        class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
         on:click={handleStart}
       >
-        Start
+        Start Quiz
       </button>
     </div>
   </div>

@@ -1,7 +1,7 @@
 {
   "waste": {
     "title": "Waste",
-    "instructions": "In each dish, which ingredients are most likely to be wasted? Select all that apply.",
+    "instructions": "In each dish, which ingredients are most likely to be wasted? Select all that apply. Get at least 75% correct to continue your streak.",
     "tags": [
       "GEN2002X",
       "Food"

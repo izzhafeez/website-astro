@@ -1,5 +1,6 @@
 ---
 import MapQuiz from "../../../components/quizzes/map/MapQuiz.svelte";
+import Leaderboard from "../../../components/quizzes/Leaderboard.svelte";
 import { fullSanitise } from "../../../utils/string";
 import Location from "../../../components/quizzes/map/Location";
 import mrtData from "../../../data/quizzes/map/mrt.json";
@@ -263,7 +264,7 @@ for (const [k, v] of Object.entries(data)) {
       <h1 transition:name={Astro.params.quiz} class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
       <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
     </div>
-    <MapQuiz client:only="svelte" locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
+    <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
