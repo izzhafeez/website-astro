@@ -24,6 +24,8 @@ export const getLocationColor = (colorComparator: string, locationType: string) 
       return getUndergroundColor(colorComparator);
     case "malls":
       return getMallColor(colorComparator);
+    case "tokyo-metro":
+      return getMetroColor(colorComparator);
   }
 };
 
@@ -132,6 +134,35 @@ const getUndergroundColor = (colorComparator: string) => {
       return "cen-500";
     case "Victoria":
       return "vic-500";
+  }
+}
+
+const getMetroColor = (colorComparator: string) => {
+  const bracketRegex = /\([^)]*\)/gi;
+  const bracketValues = colorComparator.match(bracketRegex);
+  if (!bracketValues) return "white";
+  const bracketValue = bracketValues[0];
+  const key = bracketValue.match(/[A-Z]+/gi);
+  if (!key) return "white";
+  switch (key[0]) {
+    case "Hanzoumon":
+      return "han-500";
+    case "Touzai":
+      return "tou-500";
+    case "Fukutoshin":
+      return "fuk-500";
+    case "Chiyoda":
+      return "chi-500";
+    case "Hibiya":
+      return "hib-500";
+    case "Yuurakuchou":
+      return "yur-500";
+    case "Marunouchi":
+      return "mar-500";
+    case "Ginza": 
+      return "gin-500";
+    case "Namboku":
+      return "nam-500";
   }
 }
 

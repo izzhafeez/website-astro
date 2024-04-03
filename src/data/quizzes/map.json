@@ -49,6 +49,16 @@
       "Train"
     ]
   },
+  "tokyo-metro": {
+    "title": "Tokyo Metro Stations",
+    "instructions": "How many Tokyo Metro stations can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Tokyo",
+      "Train"
+    ]
+  },
   "cities": {
     "title": "Cities of the World",
     "instructions": "How many 100K+ cities in the world can you name?",

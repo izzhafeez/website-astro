@@ -196,7 +196,35 @@ const colors: { [key: string]: { [key2: number]: string } } = {
   },
   vic: {
     500: "#00A1E0"
-  }
+  },
+  han: {
+    500: "#9077D7"
+  },
+  fuk: {
+    500: "#9E5E2D"
+  },
+  chi: {
+    500: "#01BD86"
+  },
+  hib: {
+    500: "#B6B6AD"
+  },
+  tou: {
+    500: "#009CC1"
+  },
+  yur: {
+    500: "#C2A670"
+  },
+  nam: {
+    500: "#00AD9D"
+  },
+  mar: {
+    500: "#F62A32"
+  },
+  gin: {
+    500: "#FF9601"
+  },
+  
 }
 
 const getColor = (colorCode: string) => {

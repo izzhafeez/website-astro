@@ -7,6 +7,7 @@ import mallsData from "../../../data/quizzes/map/malls.json";
 import schoolsData from "../../../data/quizzes/map/schools.json";
 import busStopData from "../../../data/quizzes/map/bus-stops.json";
 import londonUndergroundData from "../../../data/quizzes/map/london-underground.json";
+import tokyoMetroData from "../../../data/quizzes/map/tokyo-metro.json";
 import citiesData from "../../../data/quizzes/map/cities.json";
 import japanCitiesData from "../../../data/quizzes/map/japan-cities.json";
 import franceCitiesData from "../../../data/quizzes/map/france-cities.json";
@@ -70,6 +71,15 @@ export async function getStaticPaths() {
         title: "London Underground Stations",
         data: londonUndergroundData,
         instructions: "How many London Underground stations can you name? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (tip: try typing 'Bakerloo' or 'oo' and see what they do). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'tokyo-metro' },
+      props: {
+        title: "Tokyo Metro Stations",
+        data: tokyoMetroData,
+        instructions: "How many Tokyo Metro stations can you name? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (tip: try typing 'Ginza' or 'oo' and see what they do). You get 5 seconds for every possible answer. Good luck!",
         defaultRegex: ''
       }
     },
