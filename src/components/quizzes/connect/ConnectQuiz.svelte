@@ -22,6 +22,7 @@
   function handleNext() {
     // select 4 random keys from data
     let keys = Object.keys(data);
+    canNext = false;
     answers = [];
     characters = {};
     tiles = [];
