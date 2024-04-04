@@ -167,7 +167,7 @@ function handleSelect(option) {
   <br/>
   <div class="grid lg:grid-cols-2 gap-1">
     {#each options as option}
-    <button class={`float-left px-4 py-2 rounded-md border-[1px]
+    <button class={`float-left px-4 py-2 rounded-md border-[4px]
       ${selected[option] ? 'border-ew-300' : ''} ${guessed ? correct[option] ? '' : 'line-through' : ''}`} on:click={() => handleSelect(option)}>{option}</button>
     {/each}
   </div>
