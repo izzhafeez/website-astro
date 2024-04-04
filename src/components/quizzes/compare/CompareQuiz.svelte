@@ -87,7 +87,7 @@ async function handleFail(_) {
   localStorage.setItem(`compare-${key}-streak`, bestStreak);
 
   const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-  await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/compare/${key}`, {
+  axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/compare/${key}`, {
     name: truncatedName,
     score: bestStreak
   });

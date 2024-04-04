@@ -1,7 +1,8 @@
 ---
 import type { GetStaticPaths } from "astro";
 import wasteData from "../../../data/quizzes/selection/waste.json";
-import selectionData from "../../../data/quizzes/selection.json"
+import chengyuData from "../../../data/quizzes/selection/chengyu.json";
+import selectionData from "../../../data/quizzes/selection.json";
 import SelectionQuiz from "../../../components/quizzes/selection/SelectionQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -9,6 +10,18 @@ import { AstroSeo } from "@astrolib/seo";
 
 export const getStaticPaths = (() => {
   return [
+    {
+      params: {
+        quiz: "chengyu"
+      },
+      props: {
+        title: "Chengyu Challenge",
+        data: chengyuData,
+        instructions: selectionData.chengyu.instructions,
+        oneChoice: true,
+        passingScore: 1
+      }
+    },
     { 
       params: {
         quiz: "waste" 
@@ -16,7 +29,8 @@ export const getStaticPaths = (() => {
       props: {
         title: "What a Waste!",
         data: wasteData,
-        instructions: selectionData.waste.instructions
+        instructions: selectionData.waste.instructions,
+        passingScore: 0.75
       }
     }
   ];
@@ -45,7 +59,7 @@ export const prerender = true
 <Layout>
   <div slot="main">
     <NavBar/>
-    <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
+    <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz} oneChoice={Astro.props.oneChoice || false} passingScore={Astro.props.passingScore}/>
   </div>
 </Layout> 
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">

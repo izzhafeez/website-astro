@@ -3,8 +3,8 @@ import Tags from "../common/Tags.astro";
 
 const { experience } = Astro.props;
 ---
-<div id={experience.key} class="group w-full hover:neon-ew p-4 rounded-lg">
-  <h2 transition:name={experience.key} class="group-hover:text-ew-500 dark:group-hover:text-ew-300 font-medium dark:text-white">{experience.title} · {experience.organisation}</h2>
+<div id={experience.key} class="group w-full hover:neon-ne p-4 rounded-lg">
+  <h2 transition:name={experience.key} class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium dark:text-white">{experience.title} · {experience.organisation}</h2>
   <div class="mb-2">
     <p class="text-gray-500 text-sm">{experience.duration}</p>
   </div>

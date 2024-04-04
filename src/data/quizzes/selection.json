@@ -6,5 +6,12 @@
       "GEN2002X",
       "Food"
     ]
-  } 
+  },
+  "chengyu": {
+    "title": "Chengyu",
+    "instructions": "Which of the following 成語 best fits the blank? Try to get the best streak possible!",
+    "tags": [
+      "Chinese"
+    ]
+  }
 }

@@ -7,6 +7,8 @@ export let title;
 export let instructions;
 export let data;
 export let key;
+export let oneChoice;
+export let passingScore;
 
 let isStart = false;
 let levels = Object.keys(data);
@@ -58,7 +60,7 @@ async function handleGuess() {
 
   accuracy = `${Math.round(count / total * 100)}%`;
 
-  if (count / total >= 0.75) {
+  if (count / total >= passingScore) {
     streak += 1;
     bestStreak = Math.max(streak, bestStreak);
     guessed = true;
@@ -70,7 +72,7 @@ async function handleGuess() {
   localStorage.setItem(`selection-${key}-streak`, bestStreak);
 
   const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-  await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/selection/${key}`, {
+  axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/selection/${key}`, {
     name: truncatedName,
     score: bestStreak
   });
@@ -128,6 +130,9 @@ async function handleGuess() {
 
 function handleSelect(option) {
   if (guessed) return;
+  if (oneChoice) {
+    selected = {};
+  }
   if (selected[option]) {
     selected[option] = false;
   } else {
@@ -156,9 +161,9 @@ function handleSelect(option) {
 </div>
 {:else}
 <div class="max-w-6xl mx-auto">
-  <h1 class="text-6xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12">
+  <h2 class="font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12" class:text-6xl={level.length < 20} class:text-xl={level.length >= 20}>
     {level}
-  </h1>
+  </h2>
   <p><span class="font-bold">Streak:</span> {streak}</p>
   <p><span class="font-bold">Best Streak:</span> {bestStreak}</p>
   {#if accuracy && guessed}
@@ -168,7 +173,7 @@ function handleSelect(option) {
   <div class="grid lg:grid-cols-2 gap-1">
     {#each options as option}
     <button class={`float-left px-4 py-2 rounded-md border-[4px]
-      ${selected[option] ? 'border-ew-300' : ''} ${guessed ? correct[option] ? '' : 'line-through' : ''}`} on:click={() => handleSelect(option)}>{option}</button>
+      ${selected[option] ? 'border-ew-300' : ''} ${guessed ? correct[option] ? 'text-ew-500' : 'line-through text-ns-500' : ''}`} on:click={() => handleSelect(option)}>{option}</button>
     {/each}
   </div>
   {#if !guessed}

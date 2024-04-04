@@ -31,12 +31,12 @@ const heroText = homeJson.apps.heroText;
   }}
 />
 <Layout>
-  <div slot="main" class="">
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="APPS" text={heroText} site="apps"/>
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {Object.entries(appsData).map(([key, value]) => <MediumCard href={`/apps/${key}`} title={capitalise(key)} heroText={value.heroText} site="apps" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
-    <Footer color="ne" isEager={false}/>
+    <Footer site="apps"/>
   </div>
 </Layout>

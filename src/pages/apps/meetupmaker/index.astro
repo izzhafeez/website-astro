@@ -3,14 +3,15 @@ import { Image } from "astro:assets";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
 import github from "/src/img/logos/github.svg";
+import Footer from "../../../components/common/Footer.astro";
 
 export const prerender = true;
 ---
 
 <Layout>
-  <div slot="main">
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <div class="max-w-xl mx-auto mt-20 place-content-center">
+    <div class="max-w-xl mx-auto mt-20 place-content-center my-auto">
       <h1 class="text-6xl text-center font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text inline-block">
         Plan your meetups with ease.
       </h1>
@@ -24,5 +25,6 @@ export const prerender = true;
         </a>
       </div>
     </div>
+    <Footer site="apps"/>
   </div>
 </Layout>

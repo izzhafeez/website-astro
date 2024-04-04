@@ -50,10 +50,10 @@ const heroText = quizzesData.map.heroText;
   }}
 />
 <Layout>
-  <div slot="main">
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="MAP QUIZZES" text={heroText} site="quizzes"/>
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {quizzes.slice(0,12).map(quiz => <MediumCard
         href={quiz.href}
         title={quiz.title}
@@ -72,6 +72,6 @@ const heroText = quizzesData.map.heroText;
         imgPath={quiz.imgPath}
         tags={quiz.tags}/>)}
     </section>
-    <Footer color="ns"/>
+    <Footer site="quizzes"/>
   </div>
 </Layout>

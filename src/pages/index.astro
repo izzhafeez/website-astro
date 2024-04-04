@@ -74,6 +74,6 @@ import instagram from "../img/logos/instagram.svg";
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
-    <Footer color="lrt"/>
+    <Footer site="home"/>
   </div>
 </Layout>

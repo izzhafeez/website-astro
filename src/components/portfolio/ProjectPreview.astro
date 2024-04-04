@@ -9,10 +9,10 @@ const { project, isEager } = Astro.props;
 const imgPath = `/src/img/portfolio/projects/${project.imgPath}`;
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/img/portfolio/projects/*.jpg");
 ---
-<div id={project.key} class="group w-full hover:neon-ew p-4 rounded-lg flex gap-6">
+<div id={project.key} class="group w-full hover:neon-ne p-4 rounded-lg flex gap-6">
   {imgPath && <Image src={images[imgPath]()} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover aspect-video hidden lg:block" loading={isEager ? 'eager' : 'lazy'}/>}
   <div>
-    <h2 transition:name={project.key} class="group-hover:text-ew-500 dark:group-hover:text-ew-300 font-medium dark:text-white flex items-center gap-2">  
+    <h2 transition:name={project.key} class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium dark:text-white flex items-center gap-2">  
       {project.title} 
       {project.link && <a href={project.link} class="underline text-black dark:text-white cursor-pointer"><Image alt="link" src={link} class="dark:invert hover:opacity-50 h-5" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>} 
       {project.repo && <a href={project.repo} class="underline text-black dark:text-white cursor-pointer"><Image alt="repo" src={github} class="dark:invert hover:opacity-50 h-4" width="15" height="15" loading={isEager ? 'eager' : 'lazy'}/></a>}

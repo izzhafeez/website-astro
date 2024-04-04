@@ -49,13 +49,13 @@ const heroText = portfolioData.art.heroText;
   }}
 />
 <Layout>
-  <div slot="main" class="">
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="ART" text={heroText} site="portfolio"/>
-    <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto mt-4" transition:animate="slide">
+    <section class="grid grid-cols-2 md:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto mt-4 my-auto" transition:animate="slide">
       {artworks.slice(0,15).map(artwork => <ArtPreview artwork={artwork} isEager={true}/>)}
       {artworks.slice(15).map(artwork => <ArtPreview artwork={artwork}/>)}
     </section>
-    <Footer color="ew"/>
+    <Footer site="portfolio"/>
   </div>
 </Layout>
