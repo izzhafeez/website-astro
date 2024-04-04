@@ -20,26 +20,27 @@
   });
 
   async function handleAnswer(guess) {
+    Swal.fire({
+      title: guess === answer.answer ? "Correct!" : "Incorrect",
+      icon: guess === answer.answer ? "success" : "error",
+      text: `The food item is ${answer.answer ? 'still edible' : 'spoilt'}. ${answer.reason}`,
+    }).then(_ => {
+      handleNext();
+    });
+
     if (guess === answer.answer) {
       streak++;
       bestStreak = Math.max(streak, bestStreak);
     } else {
       streak = 0;
       localStorage.setItem(`yes-no-${title}`, bestStreak);
-      const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
-      await axios.post(`${import.meta.env.PUBLIC_MM}api/quiz/yes-no/${key}`, {
+      const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
+      console.log("here");
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/yes-no/${key}`, {
         name: truncatedName,
         score: streak
       });
     }
-    Swal.fire({
-      title: guess === answer.answer ? "Correct!" : "Incorrect",
-      icon: guess === answer.answer ? "success" : "error",
-      text: `The food item is ${answer.answer ? 'still edible' : 'spoilt'}. ${answer.reason}`,
-      color: "#FFF"
-    }).then(_ => {
-      handleNext();
-    });
   }
 
   function handleStart() {
