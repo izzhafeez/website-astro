@@ -35,7 +35,6 @@
       streak = 0;
       localStorage.setItem(`yes-no-${title}`, bestStreak);
       const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-      console.log("here");
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/yes-no/${key}`, {
         name: truncatedName,
         score: bestStreak

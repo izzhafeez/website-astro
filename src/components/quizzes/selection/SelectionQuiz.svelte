@@ -69,10 +69,10 @@ async function handleGuess() {
   let savedStreak = streak;
   localStorage.setItem(`selection-${key}-streak`, bestStreak);
 
-  const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+  const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
   await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/selection/${key}`, {
     name: truncatedName,
-    score: streak
+    score: bestStreak
   });
 
   if (streak >= 200) {

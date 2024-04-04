@@ -122,10 +122,10 @@
     isActive = false;
     promptColorStyle = "bg-ns-500 text-white";
 
-    const truncatedName = name.length > 20 ? name.slice(0, 20) : name;
+    const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
     await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/streak/${key}`, {
       name: truncatedName,
-      score: streak
+      score: prevStreak
     });
   }
 
