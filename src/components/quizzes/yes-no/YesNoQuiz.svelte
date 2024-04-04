@@ -38,7 +38,7 @@
       console.log("here");
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/yes-no/${key}`, {
         name: truncatedName,
-        score: streak
+        score: bestStreak
       });
     }
   }
