@@ -9,6 +9,7 @@ import mallsYearData from "../../../data/quizzes/compare/malls-year.json";
 import mallsStoresData from "../../../data/quizzes/compare/malls-stores.json";
 import foodWasteCapita from "../../../data/quizzes/compare/food-waste-capita.json";
 import foodWasteNominal from "../../../data/quizzes/compare/food-waste-nominal.json";
+import foodExpiryData from "../../../data/quizzes/compare/expiry.json";
 import citiesLatitude from "../../../data/quizzes/compare/cities-latitude.json";
 import citiesLongitude from "../../../data/quizzes/compare/cities-longitude.json";
 import indonesiaCitiesLatitude from "../../../data/quizzes/compare/indonesia-latitude.json";
@@ -129,6 +130,16 @@ export function getStaticPaths() {
         title: "Food Waste Nominal",
         data: foodWasteNominal,
         instructions: compareQuizData["food-waste-nominal"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "expiry",
+      },
+      props: {
+        title: "Food Expiry Dates",
+        data: foodExpiryData,
+        instructions: compareQuizData["expiry"].instructions
       }
     },
     {

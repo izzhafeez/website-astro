@@ -90,6 +90,14 @@
       "Waste"
     ]
   },
+  "expiry": {
+    "title": "Food Expiry",
+    "instructions": "Guess which food item has a longer expiry date.",
+    "tags": [
+      "Food",
+      "Expiry"
+    ]
+  },
   "cities-latitude": {
     "title": "Cities (Latitude)",
     "instructions": "Guess which city is further north (higher latitude).",
