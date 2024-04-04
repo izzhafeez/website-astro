@@ -1,0 +1,52 @@
+---
+import type { GetStaticPaths } from "astro";
+import ConnectQuiz from "../../../components/quizzes/connect/ConnectQuiz.svelte";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import chengyuData from "../../../data/quizzes/connect/chengyu.json";
+import connectData from "../../../data/quizzes/connect.json";
+import { AstroSeo } from "@astrolib/seo";
+
+export const getStaticPaths = (() => {
+  return [
+    { 
+      params: {
+        quiz: "chengyu" 
+      },
+      props: {
+        title: "Chengyu Challenge",
+        data: chengyuData,
+        instructions: connectData.chengyu.instructions
+      }
+    },
+  ];
+}) satisfies GetStaticPaths;
+---
+<AstroSeo
+  title={Astro.props.title + " | Izz Hafeez"}
+  description={Astro.props.instructions}
+  canonical={`https://izzhafeez.com/quizzes/connect/${Astro.params.quiz}`}
+  openGraph={{
+    title: Astro.props.title + " | Izz Hafeez",
+    description: Astro.props.instructions,
+    url: `https://izzhafeez.com/quizzes/connect/${Astro.params.quiz}`,
+    type: "website",
+    images: [
+      {
+        url: `/src/img/quizzes/connect/${Astro.params.quiz}.jpg`,
+        width: 800,
+        height: 600,
+        alt: Astro.props.title + " | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </div>
+</Layout>
