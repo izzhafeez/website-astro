@@ -2,7 +2,6 @@
   export let title;
   export let data;
   export let instructions;
-  export let key;
 
   let answers = [];
   let selected = {};
@@ -108,9 +107,10 @@
 
       answered = [...answered, best];
       tiles = newTiles;
-      selected = {};
-      numSelected = 0;
     }
+
+    selected = {};
+    numSelected = 0;
 
     if (guesses === 0) {
       Swal.fire({
