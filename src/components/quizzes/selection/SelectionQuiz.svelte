@@ -58,7 +58,9 @@ async function handleGuess() {
     total += 1;
   }
 
-  accuracy = `${Math.round(count / total * 100)}%`;
+  if (!oneChoice) {
+    accuracy = `${Math.round(count / total * 100)}%`;
+  }
 
   if (count / total >= passingScore) {
     streak += 1;
@@ -164,13 +166,13 @@ function handleSelect(option) {
   <h2 class="font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12" class:text-6xl={level.length < 20} class:text-xl={level.length >= 20}>
     {level}
   </h2>
-  <p><span class="font-bold">Streak:</span> {streak}</p>
-  <p><span class="font-bold">Best Streak:</span> {bestStreak}</p>
+  <p class="dark:text-white"><span class="font-bold">Streak:</span> {streak}</p>
+  <p class="dark:text-white"><span class="font-bold">Best Streak:</span> {bestStreak}</p>
   {#if accuracy && guessed}
-  <p><span class="font-bold">Accuracy:</span> {accuracy}</p>
+  <p class="dark:text-white"><span class="font-bold">Accuracy:</span> {accuracy}</p>
   {/if}
   <br/>
-  <div class="grid lg:grid-cols-2 gap-1">
+  <div class="grid lg:grid-cols-2 gap-1 dark:text-white">
     {#each options as option}
     <button class={`float-left px-4 py-2 rounded-md border-[4px]
       ${selected[option] ? 'border-ew-300' : ''} ${guessed ? correct[option] ? 'text-ew-500' : 'line-through text-ns-500' : ''}`} on:click={() => handleSelect(option)}>{option}</button>
