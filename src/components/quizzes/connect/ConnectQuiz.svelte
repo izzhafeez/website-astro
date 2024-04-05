@@ -77,7 +77,7 @@
       }
 
       for (let tile of Object.keys(selected)) {
-        if (data[answer].includes(tile)) {
+        if (data[answer].includes(tile) && selected[tile]) {
           counts[answer] += characters[tile];
         }
       }
@@ -154,7 +154,7 @@
     </div>
     <div class="grid grid-cols-4 gap-2">
       {#each tiles as tile}
-        <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-300 cursor-pointer dark:text-white rounded-lg py-2 px-4 text-center">{tile}</button>
+        <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-500 cursor-pointer dark:text-white rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}
     </div>
   </div>
