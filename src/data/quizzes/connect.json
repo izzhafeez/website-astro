@@ -22,5 +22,13 @@
   "central-asia": {
     "title": "Central Asian Cities",
     "instructions": "Which four cities belong to the same Central Asian (+Iran+Pakistan) country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "central-america": {
+    "title": "Central American Cities",
+    "instructions": "Which four cities belong to the same Central American (+Mexico) country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "middle-east": {
+    "title": "Middle Eastern Cities",
+    "instructions": "Which four cities belong to the same Middle Eastern country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
   }
 }
