@@ -14,6 +14,7 @@ import germanicData from "../../../data/quizzes/connect/germanic.json";
 import sovietUnionData from "../../../data/quizzes/connect/soviet-union.json";
 import westAfricanData from "../../../data/quizzes/connect/west-africa.json";
 import romanceEuropeData from "../../../data/quizzes/connect/romance-europe.json";
+import olympicData from "../../../data/quizzes/connect/olympics.json";
 import connectData from "../../../data/quizzes/connect.json";
 import { AstroSeo } from "@astrolib/seo";
 
@@ -127,6 +128,16 @@ export const getStaticPaths = (() => {
         title: "Romance Europe Cities",
         data: romanceEuropeData,
         instructions: connectData["romance-europe"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: 'olympics'
+      },
+      props: {
+        title: "Olympic Athletes Sports",
+        data: olympicData,
+        instructions: connectData.olympics.instructions
       }
     }
   ];

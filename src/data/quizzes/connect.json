@@ -3,6 +3,10 @@
     "title": "Chengyu Challenge",
     "instructions": "What four characters can be joined to form a chengyu? Group tiles together to form the answer. There is only one unique solution for each puzzle."
   },
+  "olympics": {
+    "title": "Olympic Sports",
+    "instructions": "Which four Olympic athletes compete in the same sport? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
   "balkan": {
     "title": "Balkan Cities",
     "instructions": "Which four cities belong to the same Balkan country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
