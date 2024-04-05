@@ -6,6 +6,9 @@ import NavBar from "../../../components/common/NavBar.astro";
 import chengyuData from "../../../data/quizzes/connect/chengyu.json";
 import balkanData from "../../../data/quizzes/connect/balkan.json";
 import seaData from "../../../data/quizzes/connect/south-east-asia.json";
+import centralAsianData from "../../../data/quizzes/connect/central-asia.json";
+import southAmericanData from "../../../data/quizzes/connect/south-america.json";
+import germanicData from "../../../data/quizzes/connect/germanic.json";
 import connectData from "../../../data/quizzes/connect.json";
 import { AstroSeo } from "@astrolib/seo";
 
@@ -39,6 +42,36 @@ export const getStaticPaths = (() => {
         title: "South East Asian Cities",
         data: seaData,
         instructions: connectData["south-east-asia"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "central-asia"
+      },
+      props: {
+        title: "Central Asian Cities",
+        data: centralAsianData,
+        instructions: connectData["central-asia"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "south-america"
+      },
+      props: {
+        title: "South American Cities",
+        data: southAmericanData,
+        instructions: connectData["south-america"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: "germanic", 
+      },
+      props: {
+        title: "Germanic Cities",
+        data: germanicData,
+        instructions: connectData.germanic.instructions
       }
     }
   ];

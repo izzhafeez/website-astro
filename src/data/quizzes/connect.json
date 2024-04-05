@@ -10,5 +10,17 @@
   "south-east-asia": {
     "title": "South-East Asian Cities",
     "instructions": "Which four cities belong to the same South East Asian country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "germanic": {
+    "title": "Germanic Cities",
+    "instructions": "Which four cities belong to the same Germanic/Nordic country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "south-america": {
+    "title": "South American Cities",
+    "instructions": "Which four cities belong to the same South American country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "central-asia": {
+    "title": "Central Asian Cities",
+    "instructions": "Which four cities belong to the same Central Asian (+Iran+Pakistan) country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
   }
 }
