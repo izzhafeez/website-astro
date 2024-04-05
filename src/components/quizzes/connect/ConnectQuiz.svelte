@@ -4,7 +4,7 @@
   export let data;
   export let instructions;
 
-  let answers = [];
+  let answers = {};
   let selected = {};
   let numSelected = 0;
   let tiles = [];
@@ -196,7 +196,7 @@
       {#each answered as answer}
         <div class="border-[3px] border-ew-300 dark:text-white rounded-lg py-2 px-4 text-center">
           <h3 class="font-bold text-xl">{answer}</h3>
-          <p>{data[answer]}</p>
+          <p>{answers[answer]}</p>
         </div>
       {/each}
     </div>

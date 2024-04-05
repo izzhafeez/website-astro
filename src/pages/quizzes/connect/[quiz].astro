@@ -4,6 +4,8 @@ import ConnectQuiz from "../../../components/quizzes/connect/ConnectQuiz.svelte"
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import chengyuData from "../../../data/quizzes/connect/chengyu.json";
+import balkanData from "../../../data/quizzes/connect/balkan.json";
+import seaData from "../../../data/quizzes/connect/south-east-asia.json";
 import connectData from "../../../data/quizzes/connect.json";
 import { AstroSeo } from "@astrolib/seo";
 
@@ -19,6 +21,26 @@ export const getStaticPaths = (() => {
         instructions: connectData.chengyu.instructions
       }
     },
+    {
+      params: {
+        quiz: "balkan"
+      },
+      props: {
+        title: "Balkan Cities",
+        data: balkanData,
+        instructions: connectData.balkan.instructions
+      }
+    },
+    {
+      params: {
+        quiz: "south-east-asia"
+      },
+      props: {
+        title: "South East Asian Cities",
+        data: seaData,
+        instructions: connectData["south-east-asia"].instructions
+      }
+    }
   ];
 }) satisfies GetStaticPaths;
 ---
@@ -45,7 +67,7 @@ export const getStaticPaths = (() => {
 <Layout>
   <div slot="main">
     <NavBar/>
-    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
+    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>

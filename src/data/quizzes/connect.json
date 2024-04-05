@@ -2,5 +2,13 @@
   "chengyu": {
     "title": "Chengyu Challenge",
     "instructions": "What four characters can be joined to form a chengyu? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "balkan": {
+    "title": "Balkan Cities",
+    "instructions": "Which four cities belong to the same Balkan country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "south-east-asia": {
+    "title": "South-East Asian Cities",
+    "instructions": "Which four cities belong to the same South East Asian country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
   }
 }
