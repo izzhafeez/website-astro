@@ -30,6 +30,11 @@
     // ensure the N keys are distinct
     while (Object.keys(answers).length < N) {
       let randomKey = keys[Math.floor(Math.random() * keys.length)];
+      
+      if (answers[randomKey]) {
+        continue;
+      }
+
       let tilesData = data[randomKey];
 
       if (tilesData.length < 4) {
