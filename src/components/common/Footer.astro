@@ -18,8 +18,8 @@ const { site } = Astro.props;
     {site === 'portfolio' && <Image src={preact} class="h-8 hover:opacity-50" alt="Preact" width="25" height="25"/>}
     {site === 'quizzes' && <Image src={svelte} class="h-8 hover:opacity-50" alt="Svelte" width="25" height="25"/>}
     {site === 'apps' && <Image src={vue} class="h-8 hover:opacity-50" alt="Vue" width="25" height="25"/>}
-    <Image src={astro} class="h-8 hover:opacity-50" alt="Astro" width="25" height="25"/>
-    <Image src={tailwind} class="h-8 hover:opacity-50" alt="Tailwind" width="25" height="25"/>
+    {site === 'home' && <Image src={astro} class="h-8 hover:opacity-50" alt="Astro" width="25" height="25"/>}
+    {site === 'home' && <Image src={tailwind} class="h-8 hover:opacity-50" alt="Tailwind" width="25" height="25"/>}
     {['quizzes', 'apps'].includes(site) && <Image src={openlayers} class="h-8 hover:opacity-50" alt="OpenLayers" width="25" height="25"/>}
     {site === 'quizzes' && <Image src={flask} class="h-8 hover:opacity-50 dark:invert" alt="Flask" width="25" height="25"/>}
     {site === 'apps' && <Image src={fastapi} class="h-8 hover:opacity-50" alt="FastAPI" width="25" height="25"/>}

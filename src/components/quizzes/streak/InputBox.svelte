@@ -3,6 +3,8 @@
   import { fullSanitise } from "../../../utils/string";
   import Leaderboard from "../Leaderboard.svelte";
   import axios from "axios";
+  import party from "party-js";
+
   export let answerDict;
   export let answerList;
   export let defaultRegex;
@@ -111,6 +113,8 @@
     e.target.value = '';
     isActive = false;
     promptColorStyle = "bg-ew-500 text-white";
+
+    party.confetti(document.querySelector("#streakCount"));
   }
 
   async function handleWrong(e) {
@@ -221,7 +225,7 @@
     </div>
     {#if isMcq}
     <div class="">
-      <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
+      <div class="dark:text-white">Streak: <span id="streakCount" class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       {#if isActive}
       <label for="guess" class="dark:text-white">Your Guess:</label>
       <div class="flex flex-wrap gap-2 mt-2">

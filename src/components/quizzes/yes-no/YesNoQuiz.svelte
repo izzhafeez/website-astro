@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import axios from "axios";
+  import party from "party-js";
   export let title;
   export let instructions;
   export let fields;
@@ -29,6 +30,7 @@
     });
 
     if (guess === answer.answer) {
+      party.confetti(document.getElementById("inputButtons"))
       streak++;
       bestStreak = Math.max(streak, bestStreak);
     } else {
@@ -83,7 +85,7 @@
       <li><span class="font-bold">{capitalise(field)}</span>: {answer[field]}</li>
     {/each}
   </ul>
-  <div class="flex gap-4 mt-4">
+  <div class="flex gap-4 mt-4 w-auto" id="inputButtons">
     <button class="text-left bg-ew-500 hover:bg-ew-300 py-2 px-4 rounded-lg text-white" on:click={() => handleAnswer(true)}>{options[0]}</button>
     <button class="text-left bg-ns-500 hover:bg-ns-300 py-2 px-4 rounded-lg text-white" on:click={() => handleAnswer(false)}>{options[1]}</button>
   </div>

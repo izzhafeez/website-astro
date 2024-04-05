@@ -4,7 +4,8 @@
   import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
   import { onMount } from "svelte";
   import axios from "axios";
-    import Leaderboard from "../Leaderboard.svelte";
+  import Leaderboard from "../Leaderboard.svelte";
+  import party from "party-js";
 
   export let answers;
   export let defaultRegex;
@@ -41,6 +42,8 @@
     if (scorePercentage > 1) {
       imgSrc = "perfect";
     } else if (scorePercentage > 0.95) {
+      var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+      audio.play();
       imgSrc = "fuiyoh";
     } else if (scorePercentage > 0.9) {
       imgSrc = "very-impressive";
@@ -55,36 +58,54 @@
     } else if (scorePercentage > 0.65) {
       imgSrc = "where-my-slipper";
     } else if (scorePercentage > 0.6) {
+      var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
+      audio.play();
       imgSrc = "oh-no";
     } else if (scorePercentage > 0.55) {
       imgSrc = "are-you-serious";
     } else if (scorePercentage > 0.5) {
+      var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+      audio.play();
       imgSrc = "haiya";
     } else if (scorePercentage > 0.45) {
       imgSrc = "sacrilegious";
     } else if (scorePercentage > 0.4) {
+      var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
+      audio.play();
       imgSrc = "so-weak";
     } else if (scorePercentage > 0.35) {
       imgSrc = "lamentable";
     } else if (scorePercentage > 0.3) {
+      var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
+      audio.play();
       imgSrc = "what-da-hail";
     } else if (scorePercentage > 0.25) {
+      var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
+      audio.play();
       imgSrc = "emotional-damage";
     } else if (scorePercentage > 0.2) {
       imgSrc = "terrible";
     } else if (scorePercentage > 0.15) {
+      var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
+      audio.play();
       imgSrc = "send-u-to-jesus";
     } else if (scorePercentage > 0.1) {
       imgSrc = "low-iq";
     } else if (scorePercentage > 0.05) {
       imgSrc = "language-failure";
     } else {
+      var audio = new Audio(`/sound/quizzes/failure.mp3`);
+      audio.play();
       imgSrc = "failure";
     }
+
+    if (score === totalScore) {
+      party.confetti(document.querySelector('.h-30'));
+    }
+
     Swal.fire({
       title: `Your Score: ${score}/${totalScore}`,
       html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-      color: "#FFF"
     })
   }
 
@@ -99,7 +120,6 @@
       Swal.fire({
         title: "There are too many locations in the quiz. Try using a different regex.",
         icon: 'error',
-        color: "#FFF",
         timer: 2000
       })
       return;
@@ -108,7 +128,6 @@
       Swal.fire({
         title: "You have nothing to guess, LOL",
         icon: 'error',
-        color: "#FFF",
         timer: 2000
       });
       return;

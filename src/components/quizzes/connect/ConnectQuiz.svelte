@@ -1,4 +1,5 @@
 <script>
+  import party from 'party-js';
   export let title;
   export let data;
   export let instructions;
@@ -8,7 +9,7 @@
   let numSelected = 0;
   let tiles = [];
   let isStart = false;
-  let characters = {};
+  let tileCounts = {};
   let answered = [];
   let guesses = 0;
   let canNext = false;
@@ -22,35 +23,51 @@
     // select 4 random keys from data
     let keys = Object.keys(data);
     canNext = false;
-    answers = [];
-    characters = {};
+    answers = {};
+    tileCounts = {};
     tiles = [];
     // ensure the 4 keys are distinct
-    while (answers.length < 4) {
+    while (Object.keys(answers).length < 4) {
       let randomKey = keys[Math.floor(Math.random() * keys.length)];
+      let tilesData = data[randomKey];
 
-      let toContinue = false;
-      for (let character of data[randomKey]) {
-        if (characters[character]) {
-          toContinue = true;
-        }
-      }
-      if (toContinue) {
+      if (tilesData.length < 4) {
         continue;
       }
 
-      if (answers.includes(randomKey)) {
+      let candidateTiles = [];
+
+      for (let tile of tilesData) {
+        if (!tileCounts[tile]) {
+          candidateTiles.push(tile);
+        }
+      }
+
+      if (candidateTiles.length < 4) {
         continue;
       }
 
-      answers.push(randomKey);
-      for (let character of data[randomKey]) {
-        if (!characters[character]) {
-          characters[character] = 0;
+      // choose 4 random candidates from the candidate tiles
+      let randomTiles = [];
+      let indexes = {};
+      while (randomTiles.length < 4) {
+        let randomIndex = Math.floor(Math.random() * candidateTiles.length);
+        if (indexes[randomIndex]) {
+          continue;
         }
-        characters[character] += 1;
-        tiles.push(character);
+        indexes[randomIndex] = true;
+        let randomTile = candidateTiles[randomIndex];
+        randomTiles.push(randomTile);
+
+        if (!tileCounts[randomTile]) {
+          tileCounts[randomTile] = 0;
+        }
+
+        tileCounts[randomTile] += 1;
       }
+
+      answers[randomKey] = randomTiles;
+      tiles = [...tiles, ...randomTiles];
     }
 
     tiles.sort((a, b) => 0.5 - Math.random());
@@ -61,24 +78,28 @@
 
   function handleSelect(tile) {
     if (selected[tile]) {
-      numSelected -= characters[tile];
+      numSelected -= tileCounts[tile];
       selected[tile] = false;
     } else {
-      numSelected += characters[tile];
+      numSelected += tileCounts[tile];
       selected[tile] = true;
     }
   }
 
-  function handleGuess() {
+  function handleGuess(e) {
+    if (numSelected !== 4) {
+      return;
+    }
+
     let counts = {};
-    for (let answer of answers) {
+    for (let answer of Object.keys(answers)) {
       if (!counts[answer]) {
         counts[answer] = 0;
       }
 
       for (let tile of Object.keys(selected)) {
         if (data[answer].includes(tile) && selected[tile]) {
-          counts[answer] += characters[tile];
+          counts[answer] += tileCounts[tile];
         }
       }
     }
@@ -107,6 +128,10 @@
 
       answered = [...answered, best];
       tiles = newTiles;
+
+      if (tiles.length > 0) {
+        party.confetti(e.target);
+      }
     }
 
     selected = {};
@@ -114,11 +139,11 @@
 
     if (guesses === 0) {
       Swal.fire({
-        title: 'Out of Guesses...',
-        timer: 1000
+        title: 'No more guesses...',
+        html: `<img src="/img/quizzes/haiya.gif"/>`,
       })
 
-      for (let answer of answers) {
+      for (let answer of Object.keys(answers)) {
         if (!answered.includes(answer)) {
           answered = [...answered, answer];
         }
@@ -127,6 +152,12 @@
       tiles = [];
       selected = {};
       numSelected = 0;
+    }
+
+    if (tiles.length === 0 && guesses > 0) {
+      Swal.fire({
+        html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
+      })
     }
 
     if (tiles.length === 0) {
