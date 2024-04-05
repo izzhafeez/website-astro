@@ -13,6 +13,7 @@
   let answered = [];
   let guesses = 0;
   let canNext = false;
+  let N = 4;
 
   function handleStart() {
     handleNext();
@@ -20,14 +21,14 @@
   }
 
   function handleNext() {
-    // select 4 random keys from data
+    // select N random keys from data
     let keys = Object.keys(data);
     canNext = false;
     answers = {};
     tileCounts = {};
     tiles = [];
-    // ensure the 4 keys are distinct
-    while (Object.keys(answers).length < 4) {
+    // ensure the N keys are distinct
+    while (Object.keys(answers).length < N) {
       let randomKey = keys[Math.floor(Math.random() * keys.length)];
       let tilesData = data[randomKey];
 
@@ -72,7 +73,7 @@
 
     tiles.sort((a, b) => 0.5 - Math.random());
 
-    guesses = 4;
+    guesses = N;
     answered = [];
   }
 
@@ -143,6 +144,9 @@
         html: `<img src="/img/quizzes/haiya.gif"/>`,
       })
 
+      var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+      audio.play();
+
       for (let answer of Object.keys(answers)) {
         if (!answered.includes(answer)) {
           answered = [...answered, answer];
@@ -158,6 +162,9 @@
       Swal.fire({
         html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
       })
+
+      var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+      audio.play();
     }
 
     if (tiles.length === 0) {
@@ -172,7 +179,17 @@
   </h1>
   <p class="dark:text-white my-4">{instructions}</p>
   {#if !isStart}
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4'>Start</button>
+  <label for="N" class="dark:text-white">Number of Groups: </label>
+  <select name="N" id="N" class="rounded-lg border-gray-500/50 px-4" bind:value={N}>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected="selected">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+  </select>
+  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4 mx-2'>Start</button>
   {:else}
   <div class="grid gap-2">
     <div class="grid gap-2">
