@@ -30,5 +30,17 @@
   "middle-east": {
     "title": "Middle Eastern Cities",
     "instructions": "Which four cities belong to the same Middle Eastern country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "romance-europe": {
+    "title": "Romance European Cities",
+    "instructions": "Which four cities belong to the same Romance European country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "soviet-union": {
+    "title": "Ex-Soviet Union Cities",
+    "instructions": "Which four cities belong to the same Soviet Union country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+  },
+  "west-africa": {
+    "title": "West African Cities",
+    "instructions": "Which four cities belong to the same West African country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
   }
 }

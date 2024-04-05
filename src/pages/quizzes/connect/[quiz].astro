@@ -11,6 +11,9 @@ import southAmericanData from "../../../data/quizzes/connect/south-america.json"
 import middleEastData from "../../../data/quizzes/connect/middle-east.json";
 import centralAmericaData from "../../../data/quizzes/connect/central-america.json";
 import germanicData from "../../../data/quizzes/connect/germanic.json";
+import sovietUnionData from "../../../data/quizzes/connect/soviet-union.json";
+import westAfricanData from "../../../data/quizzes/connect/west-africa.json";
+import romanceEuropeData from "../../../data/quizzes/connect/romance-europe.json";
 import connectData from "../../../data/quizzes/connect.json";
 import { AstroSeo } from "@astrolib/seo";
 
@@ -94,6 +97,36 @@ export const getStaticPaths = (() => {
         title: "Central American Cities",
         data: centralAmericaData,
         instructions: connectData["central-america"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: 'soviet-union'
+      },
+      props: {
+        title: "Soviet Union Cities",
+        data: sovietUnionData,
+        instructions: connectData["soviet-union"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: 'west-africa'
+      },
+      props: {
+        title: "West African Cities",
+        data: westAfricanData,
+        instructions: connectData["west-africa"].instructions
+      }
+    },
+    {
+      params: {
+        quiz: 'romance-europe'
+      },
+      props: {
+        title: "Romance Europe Cities",
+        data: romanceEuropeData,
+        instructions: connectData["romance-europe"].instructions
       }
     }
   ];
