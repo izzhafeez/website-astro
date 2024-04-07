@@ -150,8 +150,8 @@
         html: `<img src="/img/quizzes/haiya.gif"/>`,
       })
 
-      var audio = new Audio(`/sound/quizzes/haiya.mp3`);
-      audio.play();
+      // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+      // audio.play();
 
       for (let answer of Object.keys(answers)) {
         if (!answered.includes(answer)) {
@@ -169,8 +169,8 @@
         html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
       })
 
-      var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
-      audio.play();
+      // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+      // audio.play();
     }
 
     if (tiles.length === 0) {
@@ -179,7 +179,7 @@
   }
 </script>
 
-<div class="max-w-3xl mx-auto">
+<div class="max-w-3xl mx-auto p-2">
   <h1 class="font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12 text-6xl">
     {title}
   </h1>
@@ -206,7 +206,7 @@
         </div>
       {/each}
     </div>
-    <div class="grid grid-cols-4 gap-2">
+    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
         <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-500 cursor-pointer dark:text-white rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}

@@ -82,8 +82,8 @@ async function handleGuess() {
   if (streak >= 200) {
     imgSrc = "perfect";
   } else if (streak >= 150) {
-    var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+    // audio.play();
     imgSrc = "fuiyoh";
   } else if (streak >= 120) {
     imgSrc = "very-impressive";
@@ -98,44 +98,44 @@ async function handleGuess() {
   } else if (streak >= 50) {
     imgSrc = "where-my-slipper";
   } else if (streak >= 42) {
-    var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
+    // audio.play();
     imgSrc = "oh-no";
   } else if (streak >= 36) {
     imgSrc = "are-you-serious";
   } else if (streak >= 30) {
-    var audio = new Audio(`/sound/quizzes/haiya.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+    // audio.play();
     imgSrc = "haiya";
   } else if (streak >= 25) {
     imgSrc = "sacrilegious";
   } else if (streak >= 20) {
-    var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
+    // audio.play();
     imgSrc = "so-weak";
   } else if (streak >= 16) {
     imgSrc = "lamentable";
   } else if (streak >= 13) {
-    var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
+    // audio.play();
     imgSrc = "what-da-hail";
   } else if (streak >= 10) {
-    var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
+    // audio.play();
     imgSrc = "emotional-damage";
   } else if (streak >= 7) {
     imgSrc = "terrible";
   } else if (streak >= 5) {
-    var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
+    // audio.play();
     imgSrc = "send-u-to-jesus";
   } else if (streak >= 3) {
     imgSrc = "low-iq";
   } else if (streak >= 1) {
     imgSrc = "language-failure";
   } else {
-    var audio = new Audio(`/sound/quizzes/failure.mp3`);
-    audio.play();
+    // var audio = new Audio(`/sound/quizzes/failure.mp3`);
+    // audio.play();
     imgSrc = "failure";
   }
   Swal.fire({
