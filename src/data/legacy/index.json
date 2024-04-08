@@ -1,0 +1,58 @@
+[
+  {
+    "site": "blog",
+    "type": "hikes"
+  },
+  {
+    "site": "blog",
+    "type": "malls"
+  },
+  {
+    "site": "merits",
+    "type": "awards"
+  },
+  {
+    "site": "merits",
+    "type": "certificates"
+  },
+  {
+    "site": "merits",
+    "type": "courses"
+  },
+  {
+    "site": "merits",
+    "type": "experiences"
+  },
+  {
+    "site": "merits",
+    "type": "languages"
+  },
+  {
+    "site": "merits",
+    "type": "modules"
+  },
+  {
+    "site": "merits",
+    "type": "skills"
+  },
+  {
+    "site": "merits",
+    "type": "technologies"
+  },
+  {
+    "site": "projects",
+    "type": "coding"
+  },
+  {
+    "site": "projects",
+    "type": "graphs"
+  },
+  {
+    "site": "projects",
+    "type": "music"
+  },
+  {
+    "site": "projects",
+    "type": "quizzes"
+  }
+]

@@ -1,0 +1,68 @@
+---
+import type { GetStaticPaths } from "astro";
+import legacyIndex from '../../../../data/legacy/index.json';
+import hikes from '../../../../data/legacy/blog/hikes.json';
+import malls from '../../../../data/legacy/blog/malls.json';
+import awards from '../../../../data/legacy/merits/awards.json';
+import certificates from '../../../../data/legacy/merits/certificates.json';
+import courses from '../../../../data/legacy/merits/courses.json';
+import experiences from '../../../../data/legacy/merits/experiences.json';
+import modules from '../../../../data/legacy/merits/modules.json';
+import languages from '../../../../data/legacy/merits/languages.json';
+import skills from '../../../../data/legacy/merits/skills.json';
+import technologies from '../../../../data/legacy/merits/technologies.json';
+import coding from '../../../../data/legacy/projects/coding.json';
+import graphs from '../../../../data/legacy/projects/graphs.json';
+import music from '../../../../data/legacy/projects/music.json';
+import quizzes from '../../../../data/legacy/projects/quizzes.json';
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import Footer from "../../../../components/common/Footer.astro";
+import { capitalise } from "../../../../utils/string";
+
+export const getStaticPaths = (() => {  
+  const megaDict: {[k: string]: Array<string>} = {
+    hikes,
+    malls,
+    awards,
+    certificates,
+    courses,
+    experiences,
+    modules,
+    languages,
+    skills,
+    technologies,
+    coding,
+    graphs,
+    music,
+    quizzes
+  };
+
+  const allPaths = [];
+
+  for (let key of legacyIndex) {
+    const data = megaDict[key.type];
+    for (let d of data) {
+      allPaths.push({
+        params: {
+          legacySite: key.site,
+          legacyType: key.type,
+          legacyKey: d
+        }
+      })
+    };
+  }
+
+  return allPaths;
+}) satisfies GetStaticPaths;
+---
+
+<Layout>
+  <div slot="main" class="flex flex-col justify-between min-h-screen">
+    <NavBar/>
+    <div class="h-full grid items-center text-center">
+      <a href={`https://v6-izzhafeez.netlify.app/${Astro.params.legacySite}/${Astro.params.legacyType}/${Astro.params.legacyKey}`} type='button' class="bg-dt-500 hover:bg-dt-400 text-white mx-auto px-4 py-2 rounded-md text-xl">Visit Legacy {capitalise(Astro.params.legacyKey)} Site</a>
+    </div>
+    <Footer site="home"/>
+  </div>
+</Layout>
