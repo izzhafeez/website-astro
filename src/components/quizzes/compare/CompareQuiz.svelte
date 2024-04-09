@@ -36,14 +36,32 @@ function handleStart(_event) {
   isGuessing = true;
 }
 
-function handleNext() {
-  left = right;
+async function handleNext() {
+  left.quantity = right.quantity
+  await changeToTarget(right.name);
+
   while (right.name === left.name) {
     right = dataList[Math.floor(Math.random() * dataList.length)];
   }
   isGuessing = true;
   rightPlaceholder = startNumber;
   showNextButton = false;
+}
+
+async function changeToTarget(name) {
+  const delay = ms => new Promise(res => setTimeout(res, ms));
+
+  while (left.name.length > 1) {
+    left.name = left.name.slice(0, -1);
+    await delay(25);
+  }
+
+  left.name = name[0];
+
+  while (left.name.length < name.length) {
+    left.name += name[left.name.length];
+    await delay(25);
+  }
 }
 
 function handleAnswer(isHigher) {
@@ -179,32 +197,39 @@ async function handleFail(_) {
   </div>
 </div>
 {:else}
-<div class="fixed grid grid-cols-2 w-screen mt-20">
-  <div class="text-right p-2"><p class="font-bold dark:text-white text-3xl">{streak}</p><p class="text-gray-500">Score</p></div>
-  <div class="text-left p-2"><p class="font-bold dark:text-white text-3xl">{bestStreak}</p><p class="text-gray-500">Highscore</p></div>
-</div>
-<div class='grid lg:grid-cols-2 divide-y-2 lg:divide-x-2 divide-hp-500 dark:divide-hp-300 h-screen w-screen'>
-  <div class='grid gap-2 content-end lg:items-center lg:content-center text-center p-4'>
-    <div class="h-32 justify-center">
-      <h2 class="font-bold dark:text-white text-xl">{left.name}</h2>
-      <p class="text-5xl text-gray-500">{left.quantity}</p>
+<div class='grid lg:grid-cols-2 h-screen w-screen'>
+  <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
+    <h2 class='p-4 dark:text-white font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
+    <p class='text-5xl h-20 grid items-center p-4 mx-auto text-white bg-hp-600 shadow-solid-black dark:shadow-none'>{left.quantity}</p>
+  </div>
+  <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 -z-10">
+    <div class='mx-auto flex lg:block items-center gap-8'>
+      <p class='lg:text-center opacity-0'>
+        Score: {streak}<br/>
+        Best Score: {bestStreak}
+      </p>
+      <h2 class='rounded-full text-6xl m-auto text-center bg-da-alt aspect-square p-2 flex items-center text-white dark:bg-li-alt dark:text-black lg:my-4'>VS</h2>
+      <p class='lg:text-center dark:text-white'>
+        Score: {streak}<br/>
+        Best Score: {bestStreak}
+      </p>
     </div>
   </div>
-  <div class='grid content-start lg:content-center justify-items-center text-center gap-2 px-4 py-12'>
-    <div class="h-32">
-      <h2 class="font-bold dark:text-white text-xl">{right.name}</h2>
-      {#if isGuessing}
-      <div class="mt-2">
-        <button on:click={() => handleAnswer(true)} class='w-20 py-2 bg-ew-300/20 text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 rounded-full'>Higher</button>
-        <button on:click={() => handleAnswer(false)} class='w-20 py-2 bg-ns-300/20 text-ns-500 dark:text-ns-300 hover:bg-ns-300/50 rounded-full'>Lower</button>
-      </div>
-      {:else}
-      <p class="text-5xl text-gray-500">{rightPlaceholder}</p>
+  <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
+    <h2 class='p-4 dark:text-white font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
+    {#if isGuessing}
+    <div class="grid grid-cols-2 divide-x-0 mx-auto shadow-solid-black dark:shadow-none">
+      <button on:click={() => handleAnswer(true)} class='p-4 h-20 bg-ew-500 text-white hover:bg-opacity-80 font-bold text-xl'>Higher</button>
+      <button on:click={() => handleAnswer(false)} class='p-4 h-20 bg-ns-500 text-white hover:bg-opacity-80 font-bold text-xl'>Lower</button>
+    </div>
+    {:else}
+    <div class='flex gap-0 mx-auto shadow-solid-black dark:shadow-none'>
+      <p class="text-5xl h-20 grid items-center p-4 text-white bg-hp-600">{rightPlaceholder}</p>
       {#if showNextButton}
-      <button on:click={handleNext} class='w-20 py-2 bg-ew-300/20 text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 rounded-full mt-2'>Next</button>
-      {/if}
+      <button on:click={handleNext} class='p-4 bg-cc-500 text-white hover:bg-opacity-80 font-bold text-xl'>Next</button>
       {/if}
     </div>
+    {/if}
   </div>
 </div>
 {/if}
