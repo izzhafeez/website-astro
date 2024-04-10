@@ -1,50 +1,50 @@
 {
   "chengyu": {
     "title": "Chengyu Challenge",
-    "instructions": "What four characters can be joined to form a chengyu? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "What four characters can be joined to form a chengyu?"
   },
   "olympics": {
     "title": "Olympic Sports",
-    "instructions": "Which four Olympic athletes compete in the same sport? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four Olympic athletes compete in the same sport?"
   },
   "balkan": {
     "title": "Balkan Cities",
-    "instructions": "Which four cities belong to the same Balkan country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Balkan country?"
   },
   "south-east-asia": {
     "title": "South-East Asian Cities",
-    "instructions": "Which four cities belong to the same South East Asian country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same South East Asian country?"
   },
   "germanic": {
     "title": "Germanic Cities",
-    "instructions": "Which four cities belong to the same Germanic/Nordic country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Germanic/Nordic country?"
   },
   "south-america": {
     "title": "South American Cities",
-    "instructions": "Which four cities belong to the same South American country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same South American country?"
   },
   "central-asia": {
     "title": "Central Asian Cities",
-    "instructions": "Which four cities belong to the same Central Asian (+Iran+Pakistan) country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Central Asian (+Iran+Pakistan) country?"
   },
   "central-america": {
     "title": "Central American Cities",
-    "instructions": "Which four cities belong to the same Central American (+Mexico) country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Central American (+Mexico) country?"
   },
   "middle-east": {
     "title": "Middle Eastern Cities",
-    "instructions": "Which four cities belong to the same Middle Eastern country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Middle Eastern country?"
   },
   "romance-europe": {
     "title": "Romance European Cities",
-    "instructions": "Which four cities belong to the same Romance European country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Romance European country?"
   },
   "soviet-union": {
     "title": "Ex-Soviet Union Cities",
-    "instructions": "Which four cities belong to the same Soviet Union country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same Soviet Union country?"
   },
   "west-africa": {
     "title": "West African Cities",
-    "instructions": "Which four cities belong to the same West African country? Group tiles together to form the answer. There is only one unique solution for each puzzle."
+    "instructions": "Which four cities belong to the same West African country?"
   }
 }
