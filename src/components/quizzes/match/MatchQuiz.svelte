@@ -119,7 +119,7 @@
   <p class="dark:text-white my-4">{instructions}</p>
   <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4'>Start</button>
   {:else}
-  <p class='text-3xl text-center my-2'>{time.toFixed(2)}s</p>
+  <p class='text-3xl text-center my-2 bg-hp-500 text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
   <div class="grid gap-2">
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
