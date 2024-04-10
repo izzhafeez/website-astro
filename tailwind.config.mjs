@@ -234,6 +234,10 @@ export default {
           '100%': { backgroundPosition: '100% 50%' },
         },
       },
+			boxShadow: {
+				'solid-black': '5px 5px 0 0 rgb(0 0 0)',
+				'solid-white': '5px 5px 0 0 rgb(255 255 255)',
+			}
     },
 	},
 	plugins: [
