@@ -1,0 +1,69 @@
+---
+import matchData from "../../../data/quizzes/match.json";
+import MediumCard from "../../../components/common/MediumCard.astro";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import Hero from "../../../components/common/Hero.astro"
+import Footer from "../../../components/common/Footer.astro"
+import { AstroSeo } from "@astrolib/seo";
+import quizzesData from "../../../data/quizzes/quizzes.json";
+import match from '/src/img/heroes/MATCH.jpg';
+
+type QuizJson = {[k: string]: {
+  title: string,
+  instructions: string,
+  rank?: number,
+  tags?: string[]
+}}
+
+const quizzes = Object.entries(matchData as QuizJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/quizzes/match/${key}`,
+    title: value.title,
+    instructions: value.instructions,
+    rank: value.rank || 0,
+    imgPath: `/img/quizzes/match/${key}.jpg`,
+    tags: value.tags || []
+  }
+}).sort((a,b) => -a.rank + b.rank);
+
+const heroText = quizzesData.match.heroText;
+---
+<AstroSeo
+  title={"Match Quizzes | Izz Hafeez"}
+  description={heroText}
+  canonical={`https://izzhafeez.com/quizzes/match`}
+  openGraph={{
+    title: "Match Quizzes | Izz Hafeez",
+    description: heroText,
+    url: `https://izzhafeez.com/quizzes/match`,
+    type: "website",
+    images: [
+      {
+        url: match.src,
+        width: 800,
+        height: 600,
+        alt: "Match Quizzes | Izz Hafeez"
+      }
+    ]
+  }}
+/>
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="MATCH QUIZZES" text={heroText} site="quizzes"/>
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {quizzes.map(quiz => <MediumCard
+        href={quiz.href}
+        title={quiz.title}
+        site="quizzes"
+        heroText={quiz.instructions}
+        key={quiz.key}
+        imgPath={quiz.imgPath}
+        isEager={true}
+        tags={quiz.tags}/>)}
+    </section>
+    <Footer site="quizzes"/>
+  </div>
+</Layout>

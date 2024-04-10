@@ -1,0 +1,42 @@
+{
+  "balkan": {
+    "title": "Balkan Cities",
+    "instructions": "Match cities from the same Balkan country."
+  },
+  "south-east-asia": {
+    "title": "South-East Asian Cities",
+    "instructions": "Match cities from the same South East Asian country."
+  },
+  "germanic": {
+    "title": "Germanic Cities",
+    "instructions": "Match cities from the same Germanic/Nordic country."
+  },
+  "south-america": {
+    "title": "South American Cities",
+    "instructions": "Match cities from the same South American country."
+  },
+  "central-asia": {
+    "title": "Central Asian Cities",
+    "instructions": "Match cities from the same Central Asian (+Iran+Pakistan) country."
+  },
+  "central-america": {
+    "title": "Central American Cities",
+    "instructions": "Match cities from the same Central American (+Mexico) country."
+  },
+  "middle-east": {
+    "title": "Middle Eastern Cities",
+    "instructions": "Match cities from the same Middle Eastern country."
+  },
+  "romance-europe": {
+    "title": "Romance European Cities",
+    "instructions": "Match cities from the same Romance European country."
+  },
+  "soviet-union": {
+    "title": "Ex-Soviet Union Cities",
+    "instructions": "Match cities from the same Soviet Union country."
+  },
+  "west-africa": {
+    "title": "West African Cities",
+    "instructions": "Match cities from the same West African country."
+  }
+}

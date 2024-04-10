@@ -142,6 +142,8 @@ export const getStaticPaths = (() => {
     }
   ];
 }) satisfies GetStaticPaths;
+
+const instructions = Astro.props.instructions + " Make your guess by selecting four items that you think are part of the same group. You have a limited number of tries. Good Luck!"
 ---
 <AstroSeo
   title={Astro.props.title + " | Izz Hafeez"}
@@ -166,7 +168,7 @@ export const getStaticPaths = (() => {
 <Layout>
   <div slot="main">
     <NavBar/>
-    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions}/>
+    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={instructions}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>

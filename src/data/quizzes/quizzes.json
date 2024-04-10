@@ -26,5 +26,9 @@
   "connect": {
     "title": "connect quizzes",
     "heroText": "Group tiles that share a common category. Match all four tiles to win!"
+  },
+  "match": {
+    "title": "match quizzes",
+    "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
   }
 }
