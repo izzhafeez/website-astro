@@ -75,7 +75,7 @@ export default {
       this.handleSubmit();
     },
     async handleSubmit() {
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/create`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/create`, {
         meetupName: this.meetupName,
         hostName: this.hostName,
         passwordHash: !!this.password ? stringToHash(this.password) : 0,

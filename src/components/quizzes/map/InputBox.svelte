@@ -32,7 +32,7 @@
     }
 
     const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-    axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/map/${key}`, {
+    axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/map/${key}`, {
       name: truncatedName,
       score: score
     });

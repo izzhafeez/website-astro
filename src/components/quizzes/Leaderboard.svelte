@@ -5,7 +5,7 @@
 
   async function showLeaderboard() {
     await axios.get(
-      `${import.meta.env.PUBLIC_MM}/api/quiz/${type}/${key}`
+      `${import.meta.env.PUBLIC_MM}/api/quizzes/${type}/${key}`
       ).then(
         res => {
           return res.data

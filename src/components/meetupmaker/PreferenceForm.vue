@@ -246,7 +246,7 @@ export default {
       }
 
       // Add submit preferences method here
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/preferences/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/preferences/${this.id}`, {
         name: this.name,
         startTime: this.startTime,
         endTime: this.endTime,
@@ -269,7 +269,7 @@ export default {
     async handleGenerateRecommendations() {
       await this.handleSubmitPreferences();
 
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/recommend/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/recommend/${this.id}`, {
         name: this.name
       }).then(response => {
         return response.data;
@@ -300,7 +300,7 @@ export default {
         rec.likes.push(this.name);
       }
 
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/like/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/like/${this.id}`, {
         name: this.name,
         timing: rec.timing,
         location: rec.location
@@ -324,7 +324,7 @@ export default {
         return;
       }
 
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/confirm_timing/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/confirm_timing/${this.id}`, {
         timing: this.timing,
         location: this.location
       }).then(response => {

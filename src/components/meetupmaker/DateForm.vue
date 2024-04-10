@@ -171,7 +171,7 @@ export default {
         free: this.free
       }));
 
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/dates/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/dates/${this.id}`, {
         name: this.name,
         free: Object.entries(this.free).filter(f => f[1]).map(f => f[0])
       }).then(response => {
@@ -197,7 +197,7 @@ export default {
         return;
       }
       
-      await axios.post(`${import.meta.env.PUBLIC_MM}/api/confirm_date/${this.id}`, {
+      await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/confirm_date/${this.id}`, {
         date: this.chosenDate
       }).then(_ => {
         window.location.href = `/apps/meetupmaker/meetup/?id=${this.id}`

@@ -127,7 +127,7 @@
     promptColorStyle = "bg-ns-500 text-white";
 
     const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-    axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/streak/${key}`, {
+    axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/streak/${key}`, {
       name: truncatedName,
       score: prevStreak
     });

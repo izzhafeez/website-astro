@@ -74,7 +74,7 @@ async function handleGuess() {
   localStorage.setItem(`selection-${key}-streak`, bestStreak);
 
   const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-  axios.post(`${import.meta.env.PUBLIC_MM}/api/quiz/selection/${key}`, {
+  axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/selection/${key}`, {
     name: truncatedName,
     score: bestStreak
   });

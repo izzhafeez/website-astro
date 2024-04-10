@@ -7,7 +7,7 @@ import Finalised from "../../../../components/meetupmaker/Finalised.vue";
 
 export const prerender = false;
 const id = Astro.url.searchParams.get('id');
-const data = await fetch(`${import.meta.env.PUBLIC_MM}/api/dates/${id}`).then(res => res.json());
+const data = await fetch(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/dates/${id}`).then(res => res.json());
 const dates = data.dates;
 const participants = data.participants;
 const meetupName = data.meetup_name;
