@@ -22,8 +22,13 @@
           }) }}</div>
         </div>
         <div class="px-4 grid content-center cursor-pointer rounded-e-lg" :class="{'bg-ew-500': free[date], 'bg-ns-500': !free[date], 'hover:bg-ew-300': free[date], 'hover:bg-ns-300': !free[date],}" v-on:click="toggleAvailability(date)">
-          <img v-if="!free[date]" src="/src/img/common/cross.svg" class="w-8 invert"/>
-          <img v-if="free[date]" src="/src/img/common/tick.svg" class="w-8 invert"/>
+          <svg v-if="!free[date]" class="w-8 h-8 invert" fill="#000000" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"/>
+          </svg>
+          <svg v-if="free[date]" class="w-8 h-8 invert" width="800px" height="800px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="16" height="16" id="icon-bound" fill="none" />
+            <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" />
+          </svg>
         </div>
       </div>
     </li>
@@ -54,11 +59,28 @@
             }) }}</div>
           </div>
           <div class="bg-dt-500 hover:opacity-70 cursor-pointer px-4 grid content-center" v-on:click="toggleShowParticipants(date)">
-            <img src="/src/img/common/person.svg" class="w-8 invert"/>
+            <svg class="w-8 h-8 invert" height="800px" width="800px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 512 512"  xml:space="preserve">
+              <g>
+                <path class="st0" d="M256,0C114.613,0,0,114.616,0,255.996C0,397.382,114.613,512,256,512c141.386,0,256-114.617,256-256.004
+                  C512,114.616,397.387,0,256,0z M255.996,401.912c-69.247-0.03-118.719-9.438-117.564-18.058
+                  c6.291-47.108,44.279-51.638,68.402-70.94c10.832-8.666,16.097-6.5,16.097-20.945c0-5.053,0-14.446,0-23.111
+                  c-6.503-7.219-8.867-6.317-14.366-34.663c-11.112,0-10.396-14.446-15.638-27.255c-4.09-9.984-0.988-14.294,2.443-16.165
+                  c-1.852-9.87-0.682-43.01,13.532-60.259l-2.242-15.649c0,0,4.47,1.121,15.646-1.122c11.181-2.227,38.004-8.93,53.654,4.477
+                  c37.557,5.522,47.53,36.368,40.204,72.326c3.598,1.727,7.178,5.962,2.901,16.392c-5.238,12.809-4.522,27.255-15.634,27.255
+                  c-5.496,28.346-7.863,27.444-14.366,34.663c0,8.666,0,18.058,0,23.111c0,14.445,5.261,12.279,16.093,20.945
+                  c24.126,19.301,62.111,23.831,68.406,70.94C374.715,392.474,325.246,401.882,255.996,401.912z"/>
+              </g>
+              </svg>
           </div>
           <div class="px-4 grid content-center cursor-pointer rounded-e-lg" :class="{'bg-ew-500': date === chosenDate, 'bg-ns-500': date !== chosenDate, 'hover:bg-ew-300': date === chosenDate, 'hover:bg-ns-300': date !== chosenDate,}" v-on:click="handleChooseDate(date)">
-            <img v-if="date !== chosenDate" src="/src/img/common/cross.svg" class="w-8 invert"/>
-            <img v-if="date === chosenDate" src="/src/img/common/tick.svg" class="w-8 invert"/>
+            <svg v-if="date !== chosenDate" class="w-8 h-8 invert" fill="#000000" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"/>
+            </svg>
+            <svg v-if="date === chosenDate" class="w-8 h-8 invert" width="800px" height="800px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="16" height="16" id="icon-bound" fill="none" />
+              <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" />
+            </svg>
           </div>
         </div>
         <div v-if="showParticipants[date]" class="flex gap-2 my-2 h-8 items-center dark:text-white">
@@ -171,6 +193,12 @@ export default {
         free: this.free
       }));
 
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/dates/${this.id}`, {
         name: this.name,
         free: Object.entries(this.free).filter(f => f[1]).map(f => f[0])
@@ -197,6 +225,12 @@ export default {
         return;
       }
       
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/confirm_date/${this.id}`, {
         date: this.chosenDate
       }).then(_ => {

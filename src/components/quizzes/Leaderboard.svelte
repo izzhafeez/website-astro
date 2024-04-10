@@ -4,6 +4,12 @@
   export let key;
 
   async function showLeaderboard() {
+    Swal.fire({
+      title: 'Please wait...',
+      didOpen: () => {
+        Swal.showLoading()
+      }
+    });
     await axios.get(
       `${import.meta.env.PUBLIC_MM}/api/quizzes/${type}/${key}`
       ).then(

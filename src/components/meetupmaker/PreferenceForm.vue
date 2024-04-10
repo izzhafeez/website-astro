@@ -246,6 +246,12 @@ export default {
       }
 
       // Add submit preferences method here
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/preferences/${this.id}`, {
         name: this.name,
         startTime: this.startTime,
@@ -267,8 +273,13 @@ export default {
     },
 
     async handleGenerateRecommendations() {
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await this.handleSubmitPreferences();
-
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/recommend/${this.id}`, {
         name: this.name
       }).then(response => {
@@ -300,6 +311,12 @@ export default {
         rec.likes.push(this.name);
       }
 
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/like/${this.id}`, {
         name: this.name,
         timing: rec.timing,
@@ -324,6 +341,12 @@ export default {
         return;
       }
 
+      Swal.fire({
+        title: 'Please wait...',
+        didOpen: () => {
+          Swal.showLoading()
+        }
+      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/confirm_timing/${this.id}`, {
         timing: this.timing,
         location: this.location
