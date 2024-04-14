@@ -13,5 +13,10 @@
     "title": "MRT Stations of Singapore",
     "instructions": "Fight using the latitude, longitude and opening year!",
     "tags": ["Geography", "MRT"]
+  },
+  "countries": {
+    "title": "Countries of the World",
+    "instructions": "Fight using the population, area and median age!",
+    "tags": ["Geography", "Countries"]
   }
 }

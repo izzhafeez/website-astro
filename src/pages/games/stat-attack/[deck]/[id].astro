@@ -5,6 +5,7 @@ import Layout from "../../../../layouts/Layout.astro";
 import mallsData from "../../../../data/games/stat-attack/malls.json";
 import citiesData from "../../../../data/games/stat-attack/cities.json";
 import mrtData from "../../../../data/games/stat-attack/mrt.json";
+import countriesData from "../../../../data/games/stat-attack/countries.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -21,6 +22,10 @@ const deckData = {
   mrt: {
     title: "MRT Stations of Singapore",
     data: mrtData
+  },
+  countries: {
+    title: "Countries of the World",
+    data: countriesData
   }
 }
 
@@ -38,6 +43,9 @@ switch (deckName) {
     break;
   case "mrt":
     deck = deckData.mrt;
+    break;
+  case "countries":
+    deck = deckData.countries;
     break;
   default:
     deck = deckData.malls;
