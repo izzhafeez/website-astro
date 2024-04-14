@@ -18,5 +18,10 @@
     "title": "Countries of the World",
     "instructions": "Fight using the population, area and median age!",
     "tags": ["Geography", "Countries"]
+  },
+  "universities": {
+    "title": "University Rankings",
+    "instructions": "Fight using overall rank, alumni employment, quality of faculty and education!",
+    "tags": ["Geography", "Universities"]
   }
 }

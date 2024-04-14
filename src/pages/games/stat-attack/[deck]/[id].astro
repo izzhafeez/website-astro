@@ -6,6 +6,7 @@ import mallsData from "../../../../data/games/stat-attack/malls.json";
 import citiesData from "../../../../data/games/stat-attack/cities.json";
 import mrtData from "../../../../data/games/stat-attack/mrt.json";
 import countriesData from "../../../../data/games/stat-attack/countries.json";
+import universitiesData from "../../../../data/games/stat-attack/universities.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -26,6 +27,10 @@ const deckData = {
   countries: {
     title: "Countries of the World",
     data: countriesData
+  },
+  universities: {
+    title: "University Rankings",
+    data: universitiesData
   }
 }
 
@@ -46,6 +51,9 @@ switch (deckName) {
     break;
   case "countries":
     deck = deckData.countries;
+    break;
+  case "universities":
+    deck = deckData.universities;
     break;
   default:
     deck = deckData.malls;
