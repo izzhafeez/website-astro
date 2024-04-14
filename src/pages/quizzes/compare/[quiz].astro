@@ -213,6 +213,8 @@ export function getStaticPaths() {
 
 export const prerender = true;
 const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/compare/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
 ---
 <SEO
   title={`${Astro.props.title} | Izz Hafeez`}
@@ -222,7 +224,7 @@ const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
     basic: {
       title: `${Astro.props.title} | Izz Hafeez`,
       type: "website",
-      image: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+      image: seoImg,
       url: `https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`
     }
   }}
@@ -233,7 +235,7 @@ const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
     meta: [
       {
         name: "twitter:image",
-        content: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+        content: seoImg,
       },
       { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
       { name: "twitter:description", content: Astro.props.instructions },

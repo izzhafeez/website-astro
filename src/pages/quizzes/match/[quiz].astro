@@ -122,6 +122,8 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const instructions = Astro.props.instructions + " Match the pairs of items together as quickly as possible.";
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/match/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
 ---
 <SEO
   title={`${Astro.props.title} | Izz Hafeez`}
@@ -131,7 +133,7 @@ const instructions = Astro.props.instructions + " Match the pairs of items toget
     basic: {
       title: `${Astro.props.title} | Izz Hafeez`,
       type: "website",
-      image: `/src/img/quizzes/match/${Astro.params.quiz}.jpg`,
+      image: seoImg,
       url: `https://izzhafeez.com/quizzes/match/${Astro.params.quiz}`
     }
   }}
@@ -142,7 +144,7 @@ const instructions = Astro.props.instructions + " Match the pairs of items toget
     meta: [
       {
         name: "twitter:image",
-        content: `/src/img/quizzes/match/${Astro.params.quiz}.jpg`,
+        content: seoImg,
       },
       { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
       { name: "twitter:description", content: Astro.props.instructions },

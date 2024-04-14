@@ -42,6 +42,8 @@ export const getStaticPaths = (() => {
 const { deck } = Astro.params;
 const { instructions, title } = Astro.props;
 const heroText = gamesData["stat-attack"].heroText;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/games/stat-attack/${deck}.jpg`]().then(img => img.default.src);
 ---
 
 <SEO
@@ -52,7 +54,7 @@ const heroText = gamesData["stat-attack"].heroText;
     basic: {
       title: `${title} | Izz Hafeez`,
       type: "website",
-      image: `/src/img/games/stat-attack/${deck}.jpg`,
+      image: seoImg,
       url: `https://izzhafeez.com/games/stat-attack/${deck}`
     }
   }}
@@ -63,7 +65,7 @@ const heroText = gamesData["stat-attack"].heroText;
     meta: [
       {
         name: "twitter:image",
-        content: `/src/img/games/stat-attack/${deck}.jpg`,
+        content: seoImg,
       },
       { name: "twitter:title", content: `${deck} | Izz Hafeez`},
       { name: "twitter:description", content: heroText },

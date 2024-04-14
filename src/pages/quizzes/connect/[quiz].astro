@@ -144,6 +144,8 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const instructions = Astro.props.instructions + " Make your guess by selecting four items that you think are part of the same group. You have a limited number of tries. Good Luck!"
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/connect/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
 ---
 <SEO
   title={`${Astro.props.title} | Izz Hafeez`}
@@ -153,7 +155,7 @@ const instructions = Astro.props.instructions + " Make your guess by selecting f
     basic: {
       title: `${Astro.props.title} | Izz Hafeez`,
       type: "website",
-      image: `/src/img/quizzes/connect/${Astro.params.quiz}.jpg`,
+      image: seoImg,
       url: `https://izzhafeez.com/quizzes/connect/${Astro.params.quiz}`
     }
   }}
@@ -164,7 +166,7 @@ const instructions = Astro.props.instructions + " Make your guess by selecting f
     meta: [
       {
         name: "twitter:image",
-        content: `/src/img/quizzes/connect/${Astro.params.quiz}.jpg`,
+        content: seoImg,
       },
       { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
       { name: "twitter:description", content: Astro.props.instructions },

@@ -105,6 +105,9 @@ for (const [k, v] of Object.entries(data)) {
   answerDict[key].push({ fullTerm: k, prompt: v, id });
   id += 1;
 }
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/streak/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
 ---
 <SEO
   title={`${Astro.props.title} | Izz Hafeez`}
@@ -114,7 +117,7 @@ for (const [k, v] of Object.entries(data)) {
     basic: {
       title: `${Astro.props.title} | Izz Hafeez`,
       type: "website",
-      image: `/src/img/quizzes/streak/${Astro.params.quiz}.jpg`,
+      image: seoImg,
       url: `https://izzhafeez.com/quizzes/streak/${Astro.params.quiz}`
     }
   }}
@@ -125,7 +128,7 @@ for (const [k, v] of Object.entries(data)) {
     meta: [
       {
         name: "twitter:image",
-        content: `/src/img/quizzes/streak/${Astro.params.quiz}.jpg`,
+        content: seoImg,
       },
       { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
       { name: "twitter:description", content: Astro.props.instructions },
