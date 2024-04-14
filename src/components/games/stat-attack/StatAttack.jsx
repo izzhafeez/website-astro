@@ -159,9 +159,14 @@ function StatAttack({ id, deck }) {
     } else if (method === 'lose') {
       setIsLost(true);
     } else if (method === 'end') {
-      setGameStatus('END');
       setWinner(message.winner);
-      party.confetti(document.getElementById('winnerSpan'));
+      Swal.fire({
+        icon: 'info',
+        title: `Game Over! ${message.winner} Wins!`,
+        text: `The game will end in 5 seconds...`,
+        timer: 5000,
+      })
+      setGameStatus('JOINED');
     } else if (method === 'connect_error') {
       Swal.fire({
         icon: 'info',
@@ -316,10 +321,6 @@ function StatAttack({ id, deck }) {
         ))}
       </ul>}
       {gameStatus === 'SELECTING' && allowSelect && <button onClick={handleSelect} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Select</button>}
-
-      <div id="winnerSpan">{gameStatus === 'END' && 
-        <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2">Game Over! <span className="text-dt-500 dark:text-dt-200 font-bold">{winner}</span> won!</h3>}
-      </div>
     </div>
   );
 }
