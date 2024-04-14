@@ -15,6 +15,9 @@ switch (site) {
   case 'quizzes':
     gradientColor = 'from-ns-700/80 to-ns-500/50';
     break;
+  case 'games':
+    gradientColor = 'from-dt-700/80 to-dt-500/50';
+    break;
 }
 const backgroundImgUrl = `/src/img/heroes/${Astro.props.label.split(" ")[0]}.jpg`;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/heroes/*.jpg');

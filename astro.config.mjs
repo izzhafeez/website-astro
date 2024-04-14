@@ -9,7 +9,6 @@ import svelte from "@astrojs/svelte";
 import netlify from "@astrojs/netlify";
 import alpine from "@astrojs/alpinejs";
 import sentry from "@sentry/astro";
-import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,9 +19,12 @@ export default defineConfig({
         transformAssetUrls: false
       }
     }),
-    svelte(), alpine(), preact()],
+    svelte(), alpine()],
   adapter: netlify(),
-  site: "https://izzhafeez.com"
+  site: "https://izzhafeez.com",
+  renderers: [
+    '@astrojs/renderer-react'
+  ]
   // site: "https://izzhafeez.github.io",
   // base: "/website-astro"
 });

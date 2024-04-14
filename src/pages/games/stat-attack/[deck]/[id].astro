@@ -1,0 +1,34 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import StatAttack from "../../../../components/games/stat-attack/StatAttack";
+import Layout from "../../../../layouts/Layout.astro";
+import mallsData from "../../../../data/games/stat-attack/malls.json";
+
+export const prerender = false;
+const deckData = {
+  malls: {
+    title: "Malls of Singapore",
+    data: mallsData
+  }
+}
+
+const { id } = Astro.params;
+const splitPath = Astro.url.pathname.split("/");
+const deckName: string = splitPath[splitPath.length - 2];
+
+let deck;
+switch (deckName) {
+  case "malls":
+    deck = deckData.malls;
+    break;
+  default:
+    deck = deckData.malls;
+}
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <StatAttack client:only="react" id={id} deck={deck}/>
+  </div>
+</Layout>

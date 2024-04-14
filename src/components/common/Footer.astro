@@ -10,6 +10,7 @@ import koyeb from '/src/img/portfolio/skills/koyeb.svg';
 import vue from '/src/img/portfolio/skills/vue.svg';
 import mongo from '/src/img/portfolio/skills/mongo-db.svg';
 import fastapi from '/src/img/portfolio/skills/fastapi.svg';
+import react from '/src/img/portfolio/skills/react.svg';
 
 const { site } = Astro.props;
 ---
@@ -18,12 +19,13 @@ const { site } = Astro.props;
     {site === 'portfolio' && <Image src={preact} class="h-8 hover:opacity-50" alt="Preact" width="25" height="25"/>}
     {site === 'quizzes' && <Image src={svelte} class="h-8 hover:opacity-50" alt="Svelte" width="25" height="25"/>}
     {site === 'apps' && <Image src={vue} class="h-8 hover:opacity-50" alt="Vue" width="25" height="25"/>}
+    {site === 'games' && <Image src={react} class="h-8 hover:opacity-50" alt="React" width="25" height="25"/>}
     {site === 'home' && <Image src={astro} class="h-8 hover:opacity-50" alt="Astro" width="25" height="25"/>}
     {site === 'home' && <Image src={tailwind} class="h-8 hover:opacity-50" alt="Tailwind" width="25" height="25"/>}
     {['quizzes', 'apps'].includes(site) && <Image src={openlayers} class="h-8 hover:opacity-50" alt="OpenLayers" width="25" height="25"/>}
     {site === 'quizzes' && <Image src={flask} class="h-8 hover:opacity-50 dark:invert" alt="Flask" width="25" height="25"/>}
     {site === 'apps' && <Image src={fastapi} class="h-8 hover:opacity-50" alt="FastAPI" width="25" height="25"/>}
     {site === 'apps' && <Image src={mongo} class="h-8 hover:opacity-50" alt="MongoDB" width="25" height="25"/>}
-    {['quizzes', 'apps'].includes(site) && <Image src={koyeb} class="h-8 hover:opacity-50 dark:invert" alt="Koyeb" width="25" height="25"/>}
+    {['quizzes', 'apps', 'games'].includes(site) && <Image src={koyeb} class="h-8 hover:opacity-50 dark:invert" alt="Koyeb" width="25" height="25"/>}
   </div>
 </footer>

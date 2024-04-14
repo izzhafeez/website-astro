@@ -1,0 +1,30 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../../../layouts/Layout.astro';
+import NavBar from '../../../../components/common/NavBar.astro';
+import statAttackData from '../../../../data/games/stat-attack/stat-attack.json';
+import StatAttackRoomCreate from '../../../../components/games/stat-attack/StatAttackRoomCreate';
+
+export const getStaticPaths = (() => {  
+  return [
+    {
+      params: {
+        deck: "malls",
+      },
+      props: {
+        title: statAttackData.malls.title,
+        instructions: statAttackData.malls.instructions
+      }
+    }
+  ];
+}) satisfies GetStaticPaths;
+
+const { instructions, title } = Astro.props;
+---
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <StatAttackRoomCreate client:only="react" title={title} instructions={instructions}/>
+  </div>
+</Layout>
