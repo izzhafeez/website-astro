@@ -3,840 +3,720 @@
     "name": "Dance Monkey (Tones and I)",
     "release year": 2019,
     "beats per minute": 98,
-    "song duration (s)": 209,
-    "popularity": 100
+    "song duration (s)": 209
   },
   {
     "name": "Memories (Maroon 5)",
     "release year": 2019,
     "beats per minute": 91,
-    "song duration (s)": 189,
-    "popularity": 98
+    "song duration (s)": 189
   },
   {
     "name": "bad guy (Billie Eilish)",
     "release year": 2019,
     "beats per minute": 135,
-    "song duration (s)": 194,
-    "popularity": 95
+    "song duration (s)": 194
   },
   {
     "name": "All I Want for Christmas Is You (Mariah Carey)",
     "release year": 1994,
     "beats per minute": 150,
-    "song duration (s)": 241,
-    "popularity": 95
+    "song duration (s)": 241
   },
   {
     "name": "Believer (Imagine Dragons)",
     "release year": 2017,
     "beats per minute": 125,
-    "song duration (s)": 204,
-    "popularity": 88
+    "song duration (s)": 204
   },
   {
     "name": "Shallow (Lady Gaga)",
     "release year": 2018,
     "beats per minute": 96,
-    "song duration (s)": 216,
-    "popularity": 88
+    "song duration (s)": 216
   },
   {
     "name": "Perfect (Ed Sheeran)",
     "release year": 2017,
     "beats per minute": 95,
-    "song duration (s)": 263,
-    "popularity": 87
+    "song duration (s)": 263
   },
   {
     "name": "Shape of You (Ed Sheeran)",
     "release year": 2017,
     "beats per minute": 96,
-    "song duration (s)": 234,
-    "popularity": 87
+    "song duration (s)": 234
   },
   {
     "name": "High Hopes (Panic! At The Disco)",
     "release year": 2018,
     "beats per minute": 82,
-    "song duration (s)": 191,
-    "popularity": 87
+    "song duration (s)": 191
   },
   {
     "name": "All of Me (John Legend)",
     "release year": 2013,
     "beats per minute": 120,
-    "song duration (s)": 270,
-    "popularity": 86
+    "song duration (s)": 270
   },
   {
     "name": "Thunder (Imagine Dragons)",
     "release year": 2017,
     "beats per minute": 168,
-    "song duration (s)": 187,
-    "popularity": 86
+    "song duration (s)": 187
   },
   {
     "name": "One Kiss (with Dua Lipa) (Calvin Harris)",
     "release year": 2018,
     "beats per minute": 124,
-    "song duration (s)": 215,
-    "popularity": 86
+    "song duration (s)": 215
   },
   {
     "name": "The Less I Know The Better (Tame Impala)",
     "release year": 2015,
     "beats per minute": 117,
-    "song duration (s)": 216,
-    "popularity": 85
+    "song duration (s)": 216
   },
   {
     "name": "Wake Me Up (Avicii)",
     "release year": 2013,
     "beats per minute": 124,
-    "song duration (s)": 247,
-    "popularity": 85
+    "song duration (s)": 247
   },
   {
     "name": "Last Christmas (Wham!)",
     "release year": 2019,
     "beats per minute": 108,
-    "song duration (s)": 265,
-    "popularity": 85
+    "song duration (s)": 265
   },
   {
     "name": "Havana (feat. Young Thug) (Camila Cabello)",
     "release year": 2018,
     "beats per minute": 105,
-    "song duration (s)": 217,
-    "popularity": 85
+    "song duration (s)": 217
   },
   {
     "name": "Someone You Loved (Lewis Capaldi)",
     "release year": 2018,
     "beats per minute": 110,
-    "song duration (s)": 182,
-    "popularity": 85
+    "song duration (s)": 182
   },
   {
     "name": "Stay With Me (Sam Smith)",
     "release year": 2014,
     "beats per minute": 84,
-    "song duration (s)": 173,
-    "popularity": 84
+    "song duration (s)": 173
   },
   {
     "name": "Christmas Lights (Coldplay)",
     "release year": 2010,
     "beats per minute": 131,
-    "song duration (s)": 242,
-    "popularity": 84
+    "song duration (s)": 242
   },
   {
     "name": "Natural (Imagine Dragons)",
     "release year": 2018,
     "beats per minute": 100,
-    "song duration (s)": 189,
-    "popularity": 84
+    "song duration (s)": 189
   },
   {
     "name": "The Scientist (Coldplay)",
     "release year": 2002,
     "beats per minute": 146,
-    "song duration (s)": 310,
-    "popularity": 84
+    "song duration (s)": 310
   },
   {
     "name": "Pumped Up Kicks (Foster The People)",
     "release year": 2011,
     "beats per minute": 128,
-    "song duration (s)": 240,
-    "popularity": 84
+    "song duration (s)": 240
   },
   {
     "name": "Every Breath You Take (The Police)",
     "release year": 1983,
     "beats per minute": 117,
-    "song duration (s)": 254,
-    "popularity": 84
+    "song duration (s)": 254
   },
   {
     "name": "Africa (TOTO)",
     "release year": 1982,
     "beats per minute": 93,
-    "song duration (s)": 296,
-    "popularity": 84
+    "song duration (s)": 296
   },
   {
     "name": "Something Just Like This (The Chainsmokers)",
     "release year": 2017,
     "beats per minute": 103,
-    "song duration (s)": 247,
-    "popularity": 84
+    "song duration (s)": 247
   },
   {
     "name": "Thinking out Loud (Ed Sheeran)",
     "release year": 2014,
     "beats per minute": 79,
-    "song duration (s)": 282,
-    "popularity": 84
+    "song duration (s)": 282
   },
   {
     "name": "Do They Know It's Christmas? - 1984 Version (Band Aid)",
     "release year": 2004,
     "beats per minute": 115,
-    "song duration (s)": 223,
-    "popularity": 84
+    "song duration (s)": 223
   },
   {
     "name": "Youngblood (5 Seconds of Summer)",
     "release year": 2018,
     "beats per minute": 120,
-    "song duration (s)": 203,
-    "popularity": 84
+    "song duration (s)": 203
   },
   {
     "name": "Photograph (Ed Sheeran)",
     "release year": 2014,
     "beats per minute": 108,
-    "song duration (s)": 259,
-    "popularity": 84
+    "song duration (s)": 259
   },
   {
     "name": "Bad Liar (Imagine Dragons)",
     "release year": 2018,
     "beats per minute": 178,
-    "song duration (s)": 261,
-    "popularity": 83
+    "song duration (s)": 261
   },
   {
     "name": "Stressed Out (Twenty One Pilots)",
     "release year": 2015,
     "beats per minute": 170,
-    "song duration (s)": 202,
-    "popularity": 83
+    "song duration (s)": 202
   },
   {
     "name": "Love Yourself (Justin Bieber)",
     "release year": 2015,
     "beats per minute": 100,
-    "song duration (s)": 234,
-    "popularity": 83
+    "song duration (s)": 234
   },
   {
     "name": "Take on Me (a-ha)",
     "release year": 1985,
     "beats per minute": 84,
-    "song duration (s)": 225,
-    "popularity": 83
+    "song duration (s)": 225
   },
   {
     "name": "Livin' On A Prayer (Bon Jovi)",
     "release year": 1986,
     "beats per minute": 123,
-    "song duration (s)": 249,
-    "popularity": 83
+    "song duration (s)": 249
   },
   {
     "name": "In the End (Linkin Park)",
     "release year": 2000,
     "beats per minute": 105,
-    "song duration (s)": 217,
-    "popularity": 83
+    "song duration (s)": 217
   },
   {
     "name": "Can't Hold Us - feat. Ray Dalton (Macklemore & Ryan Lewis)",
     "release year": 2012,
     "beats per minute": 146,
-    "song duration (s)": 258,
-    "popularity": 83
+    "song duration (s)": 258
   },
   {
     "name": "Happier (Ed Sheeran)",
     "release year": 2017,
     "beats per minute": 90,
-    "song duration (s)": 208,
-    "popularity": 83
+    "song duration (s)": 208
   },
   {
     "name": "Back In Black (AC/DC)",
     "release year": 1980,
     "beats per minute": 188,
-    "song duration (s)": 255,
-    "popularity": 83
+    "song duration (s)": 255
   },
   {
     "name": "Fairytale of New York (feat. Kirsty MacColl) (The Pogues)",
     "release year": 1988,
     "beats per minute": 119,
-    "song duration (s)": 272,
-    "popularity": 83
+    "song duration (s)": 272
   },
   {
     "name": "Highway to Hell (AC/DC)",
     "release year": 1979,
     "beats per minute": 116,
-    "song duration (s)": 208,
-    "popularity": 83
+    "song duration (s)": 208
   },
   {
     "name": "Creep (Radiohead)",
     "release year": 1993,
     "beats per minute": 92,
-    "song duration (s)": 239,
-    "popularity": 82
+    "song duration (s)": 239
   },
   {
     "name": "Shut Up and Dance (WALK THE MOON)",
     "release year": 2014,
     "beats per minute": 128,
-    "song duration (s)": 199,
-    "popularity": 82
+    "song duration (s)": 199
   },
   {
     "name": "Whatever It Takes (Imagine Dragons)",
     "release year": 2017,
     "beats per minute": 135,
-    "song duration (s)": 201,
-    "popularity": 82
+    "song duration (s)": 201
   },
   {
     "name": "Hotel California - 2013 Remaster (Eagles)",
     "release year": 1976,
     "beats per minute": 147,
-    "song duration (s)": 391,
-    "popularity": 82
+    "song duration (s)": 391
   },
   {
     "name": "Sweet Home Alabama (Lynyrd Skynyrd)",
     "release year": 1974,
     "beats per minute": 98,
-    "song duration (s)": 284,
-    "popularity": 82
+    "song duration (s)": 284
   },
   {
     "name": "Here Comes The Sun - Remastered 2009 (The Beatles)",
     "release year": 1969,
     "beats per minute": 129,
-    "song duration (s)": 186,
-    "popularity": 82
+    "song duration (s)": 186
   },
   {
     "name": "Rocket Man (I Think It's Going To Be A Long, Long Time) (Elton John)",
     "release year": 1972,
     "beats per minute": 137,
-    "song duration (s)": 282,
-    "popularity": 82
+    "song duration (s)": 282
   },
   {
     "name": "Uptown Funk (Mark Ronson)",
     "release year": 2015,
     "beats per minute": 115,
-    "song duration (s)": 270,
-    "popularity": 82
+    "song duration (s)": 270
   },
   {
     "name": "I'm Yours (Jason Mraz)",
     "release year": 2008,
     "beats per minute": 151,
-    "song duration (s)": 242,
-    "popularity": 82
+    "song duration (s)": 242
   },
   {
     "name": "Do I Wanna Know? (Arctic Monkeys)",
     "release year": 2013,
     "beats per minute": 85,
-    "song duration (s)": 272,
-    "popularity": 82
+    "song duration (s)": 272
   },
   {
     "name": "When I Was Your Man (Bruno Mars)",
     "release year": 2012,
     "beats per minute": 73,
-    "song duration (s)": 214,
-    "popularity": 82
+    "song duration (s)": 214
   },
   {
     "name": "September (Earth, Wind & Fire)",
     "release year": 2018,
     "beats per minute": 126,
-    "song duration (s)": 215,
-    "popularity": 82
+    "song duration (s)": 215
   },
   {
     "name": "In My Blood (Shawn Mendes)",
     "release year": 2018,
     "beats per minute": 140,
-    "song duration (s)": 211,
-    "popularity": 82
+    "song duration (s)": 211
   },
   {
     "name": "Without Me (Eminem)",
     "release year": 2002,
     "beats per minute": 112,
-    "song duration (s)": 290,
-    "popularity": 82
+    "song duration (s)": 290
   },
   {
     "name": "Yellow (Coldplay)",
     "release year": 2000,
     "beats per minute": 173,
-    "song duration (s)": 267,
-    "popularity": 82
+    "song duration (s)": 267
   },
   {
     "name": "Shotgun (George Ezra)",
     "release year": 2018,
     "beats per minute": 116,
-    "song duration (s)": 201,
-    "popularity": 82
+    "song duration (s)": 201
   },
   {
     "name": "New Light (John Mayer)",
     "release year": 2018,
     "beats per minute": 124,
-    "song duration (s)": 216,
-    "popularity": 81
+    "song duration (s)": 216
   },
   {
     "name": "Numb (Linkin Park)",
     "release year": 2003,
     "beats per minute": 110,
-    "song duration (s)": 186,
-    "popularity": 81
+    "song duration (s)": 186
   },
   {
     "name": "I Wanna Dance with Somebody (Who Loves Me) (Whitney Houston)",
     "release year": 1987,
     "beats per minute": 119,
-    "song duration (s)": 291,
-    "popularity": 81
+    "song duration (s)": 291
   },
   {
     "name": "Always Remember Us This Way (Lady Gaga)",
     "release year": 2018,
     "beats per minute": 130,
-    "song duration (s)": 210,
-    "popularity": 81
+    "song duration (s)": 210
   },
   {
     "name": "Californication (Red Hot Chili Peppers)",
     "release year": 1999,
     "beats per minute": 96,
-    "song duration (s)": 330,
-    "popularity": 81
+    "song duration (s)": 330
   },
   {
     "name": "Sweet Dreams (Are Made of This) - Remastered (Eurythmics)",
     "release year": 1983,
     "beats per minute": 125,
-    "song duration (s)": 217,
-    "popularity": 81
+    "song duration (s)": 217
   },
   {
     "name": "Summer Of '69 (Bryan Adams)",
     "release year": 1984,
     "beats per minute": 139,
-    "song duration (s)": 216,
-    "popularity": 81
+    "song duration (s)": 216
   },
   {
     "name": "Heathens (Twenty One Pilots)",
     "release year": 2016,
     "beats per minute": 90,
-    "song duration (s)": 196,
-    "popularity": 81
+    "song duration (s)": 196
   },
   {
     "name": "Just Give Me a Reason (feat. Nate Ruess) (P!nk)",
     "release year": 2012,
     "beats per minute": 95,
-    "song duration (s)": 243,
-    "popularity": 81
+    "song duration (s)": 243
   },
   {
     "name": "Billie Jean (Michael Jackson)",
     "release year": 1982,
     "beats per minute": 117,
-    "song duration (s)": 294,
-    "popularity": 81
+    "song duration (s)": 294
   },
   {
     "name": "Thunderstruck (AC/DC)",
     "release year": 1990,
     "beats per minute": 134,
-    "song duration (s)": 293,
-    "popularity": 81
+    "song duration (s)": 293
   },
   {
     "name": "Fix You (Coldplay)",
     "release year": 2005,
     "beats per minute": 138,
-    "song duration (s)": 296,
-    "popularity": 81
+    "song duration (s)": 296
   },
   {
     "name": "Under the Bridge (Red Hot Chili Peppers)",
     "release year": 1991,
     "beats per minute": 85,
-    "song duration (s)": 264,
-    "popularity": 81
+    "song duration (s)": 264
   },
   {
     "name": "Losing My Religion (R.E.M.)",
     "release year": 1991,
     "beats per minute": 126,
-    "song duration (s)": 268,
-    "popularity": 81
+    "song duration (s)": 268
   },
   {
     "name": "Feel Good Inc. (Gorillaz)",
     "release year": 2005,
     "beats per minute": 139,
-    "song duration (s)": 223,
-    "popularity": 80
+    "song duration (s)": 223
   },
   {
     "name": "How to Save a Life (The Fray)",
     "release year": 2005,
     "beats per minute": 122,
-    "song duration (s)": 263,
-    "popularity": 80
+    "song duration (s)": 263
   },
   {
     "name": "Fortunate Son (Creedence Clearwater Revival)",
     "release year": 1969,
     "beats per minute": 133,
-    "song duration (s)": 141,
-    "popularity": 80
+    "song duration (s)": 141
   },
   {
     "name": "The Real Slim Shady (Eminem)",
     "release year": 2000,
     "beats per minute": 105,
-    "song duration (s)": 284,
-    "popularity": 80
+    "song duration (s)": 284
   },
   {
     "name": "Ain't No Mountain High Enough (Marvin Gaye)",
     "release year": 1967,
     "beats per minute": 130,
-    "song duration (s)": 152,
-    "popularity": 80
+    "song duration (s)": 152
   },
   {
     "name": "Happy - From \"Despicable Me 2\" (Pharrell Williams)",
     "release year": 2014,
     "beats per minute": 160,
-    "song duration (s)": 233,
-    "popularity": 80
+    "song duration (s)": 233
   },
   {
     "name": "Wannabe (Spice Girls)",
     "release year": 1996,
     "beats per minute": 110,
-    "song duration (s)": 173,
-    "popularity": 80
+    "song duration (s)": 173
   },
   {
     "name": "Despacito (Luis Fonsi)",
     "release year": 2019,
     "beats per minute": 178,
-    "song duration (s)": 229,
-    "popularity": 80
+    "song duration (s)": 229
   },
   {
     "name": "Gangsta's Paradise (Coolio)",
     "release year": 1995,
     "beats per minute": 80,
-    "song duration (s)": 241,
-    "popularity": 80
+    "song duration (s)": 241
   },
   {
     "name": "Faded (Alan Walker)",
     "release year": 2018,
     "beats per minute": 180,
-    "song duration (s)": 212,
-    "popularity": 80
+    "song duration (s)": 212
   },
   {
     "name": "Chop Suey! (System Of A Down)",
     "release year": 2001,
     "beats per minute": 127,
-    "song duration (s)": 210,
-    "popularity": 80
+    "song duration (s)": 210
   },
   {
     "name": "Mr. Blue Sky (Electric Light Orchestra)",
     "release year": 1977,
     "beats per minute": 178,
-    "song duration (s)": 303,
-    "popularity": 80
+    "song duration (s)": 303
   },
   {
     "name": "All Star (Smash Mouth)",
     "release year": 1999,
     "beats per minute": 104,
-    "song duration (s)": 200,
-    "popularity": 80
+    "song duration (s)": 200
   },
   {
     "name": "You Give Love A Bad Name (Bon Jovi)",
     "release year": 1986,
     "beats per minute": 123,
-    "song duration (s)": 223,
-    "popularity": 80
+    "song duration (s)": 223
   },
   {
     "name": "Don't Stop Believin' (Journey)",
     "release year": 1981,
     "beats per minute": 119,
-    "song duration (s)": 251,
-    "popularity": 80
+    "song duration (s)": 251
   },
   {
     "name": "November Rain (Guns N' Roses)",
     "release year": 1991,
     "beats per minute": 80,
-    "song duration (s)": 536,
-    "popularity": 80
+    "song duration (s)": 536
   },
   {
     "name": "Galway Girl (Ed Sheeran)",
     "release year": 2017,
     "beats per minute": 100,
-    "song duration (s)": 171,
-    "popularity": 80
+    "song duration (s)": 171
   },
   {
     "name": "Driving Home for Christmas (Chris Rea)",
     "release year": 2007,
     "beats per minute": 180,
-    "song duration (s)": 240,
-    "popularity": 80
+    "song duration (s)": 240
   },
   {
     "name": "Can't Stop (Red Hot Chili Peppers)",
     "release year": 2002,
     "beats per minute": 91,
-    "song duration (s)": 269,
-    "popularity": 80
+    "song duration (s)": 269
   },
   {
     "name": "Sign of the Times (Harry Styles)",
     "release year": 2017,
     "beats per minute": 120,
-    "song duration (s)": 341,
-    "popularity": 80
+    "song duration (s)": 341
   },
   {
     "name": "7 Years (Lukas Graham)",
     "release year": 2016,
     "beats per minute": 120,
-    "song duration (s)": 237,
-    "popularity": 80
+    "song duration (s)": 237
   },
   {
     "name": "Everybody Wants To Rule The World (Tears For Fears)",
     "release year": 1985,
     "beats per minute": 112,
-    "song duration (s)": 251,
-    "popularity": 80
+    "song duration (s)": 251
   },
   {
     "name": "Zombie (The Cranberries)",
     "release year": 1994,
     "beats per minute": 167,
-    "song duration (s)": 306,
-    "popularity": 80
+    "song duration (s)": 306
   },
   {
     "name": "Hey There Delilah (Plain White T's)",
     "release year": 2005,
     "beats per minute": 104,
-    "song duration (s)": 233,
-    "popularity": 80
+    "song duration (s)": 233
   },
   {
     "name": "Story of My Life (One Direction)",
     "release year": 2013,
     "beats per minute": 121,
-    "song duration (s)": 245,
-    "popularity": 80
+    "song duration (s)": 245
   },
   {
     "name": "With Or Without You - Remastered (U2)",
     "release year": 1987,
     "beats per minute": 110,
-    "song duration (s)": 296,
-    "popularity": 80
+    "song duration (s)": 296
   },
   {
     "name": "Just the Way You Are (Bruno Mars)",
     "release year": 2010,
     "beats per minute": 109,
-    "song duration (s)": 221,
-    "popularity": 80
+    "song duration (s)": 221
   },
   {
     "name": "You Say (Lauren Daigle)",
     "release year": 2018,
     "beats per minute": 148,
-    "song duration (s)": 275,
-    "popularity": 80
+    "song duration (s)": 275
   },
   {
     "name": "Snow (Hey Oh) (Red Hot Chili Peppers)",
     "release year": 2006,
     "beats per minute": 105,
-    "song duration (s)": 335,
-    "popularity": 80
+    "song duration (s)": 335
   },
   {
     "name": "Basket Case (Green Day)",
     "release year": 1994,
     "beats per minute": 85,
-    "song duration (s)": 182,
-    "popularity": 79
+    "song duration (s)": 182
   },
   {
     "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus) (Mark Ronson)",
     "release year": 2018,
     "beats per minute": 114,
-    "song duration (s)": 217,
-    "popularity": 79
+    "song duration (s)": 217
   },
   {
     "name": "Brown Eyed Girl (Van Morrison)",
     "release year": 1967,
     "beats per minute": 151,
-    "song duration (s)": 183,
-    "popularity": 79
+    "song duration (s)": 183
   },
   {
     "name": "Wake Me up Before You Go-Go (Wham!)",
     "release year": 1984,
     "beats per minute": 82,
-    "song duration (s)": 231,
-    "popularity": 79
+    "song duration (s)": 231
   },
   {
     "name": "Royals (Lorde)",
     "release year": 2013,
     "beats per minute": 85,
-    "song duration (s)": 190,
-    "popularity": 79
+    "song duration (s)": 190
   },
   {
     "name": "Fireflies (Owl City)",
     "release year": 2009,
     "beats per minute": 180,
-    "song duration (s)": 228,
-    "popularity": 79
+    "song duration (s)": 228
   },
   {
     "name": "Castle on the Hill (Ed Sheeran)",
     "release year": 2017,
     "beats per minute": 135,
-    "song duration (s)": 261,
-    "popularity": 79
+    "song duration (s)": 261
   },
   {
     "name": "I'm Still Standing (Elton John)",
     "release year": 1983,
     "beats per minute": 177,
-    "song duration (s)": 183,
-    "popularity": 79
+    "song duration (s)": 183
   },
   {
     "name": "All The Small Things (blink-182)",
     "release year": 1999,
     "beats per minute": 149,
-    "song duration (s)": 167,
-    "popularity": 79
+    "song duration (s)": 167
   },
   {
     "name": "Tiny Dancer (Elton John)",
     "release year": 1971,
     "beats per minute": 145,
-    "song duration (s)": 377,
-    "popularity": 79
+    "song duration (s)": 377
   },
   {
     "name": "Should I Stay or Should I Go - Remastered (The Clash)",
     "release year": 1982,
     "beats per minute": 113,
-    "song duration (s)": 189,
-    "popularity": 79
+    "song duration (s)": 189
   },
   {
     "name": "Hey Ya! (OutKast)",
     "release year": 2003,
     "beats per minute": 80,
-    "song duration (s)": 235,
-    "popularity": 79
+    "song duration (s)": 235
   },
   {
     "name": "Sex on Fire (Kings of Leon)",
     "release year": 2008,
     "beats per minute": 153,
-    "song duration (s)": 203,
-    "popularity": 79
+    "song duration (s)": 203
   },
   {
     "name": "Come Together - Remastered 2009 (The Beatles)",
     "release year": 1969,
     "beats per minute": 165,
-    "song duration (s)": 260,
-    "popularity": 79
+    "song duration (s)": 260
   },
   {
     "name": "Let It Be - Remastered 2009 (The Beatles)",
     "release year": 1970,
     "beats per minute": 143,
-    "song duration (s)": 243,
-    "popularity": 79
+    "song duration (s)": 243
   },
   {
     "name": "Stairway to Heaven - Remaster (Led Zeppelin)",
     "release year": 1971,
     "beats per minute": 82,
-    "song duration (s)": 483,
-    "popularity": 79
+    "song duration (s)": 483
   },
   {
     "name": "Bad Romance (Lady Gaga)",
     "release year": 2009,
     "beats per minute": 119,
-    "song duration (s)": 295,
-    "popularity": 79
+    "song duration (s)": 295
   },
   {
     "name": "Someone Like You (Adele)",
     "release year": 2011,
     "beats per minute": 135,
-    "song duration (s)": 285,
-    "popularity": 79
+    "song duration (s)": 285
   },
   {
     "name": "American Idiot (Green Day)",
     "release year": 2004,
     "beats per minute": 186,
-    "song duration (s)": 176,
-    "popularity": 78
+    "song duration (s)": 176
   },
   {
     "name": "Halo (Beyonc\u00e9)",
     "release year": 2008,
     "beats per minute": 80,
-    "song duration (s)": 262,
-    "popularity": 78
+    "song duration (s)": 262
   },
   {
     "name": "Bring Me To Life (Evanescence)",
     "release year": 2003,
     "beats per minute": 95,
-    "song duration (s)": 236,
-    "popularity": 78
+    "song duration (s)": 236
   }
 ]
