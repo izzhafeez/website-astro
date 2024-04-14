@@ -1,7 +1,12 @@
 {
   "malls": {
     "title": "Malls of Singapore",
-    "instructions": "Fight using the latitude, longitude and number of stores!",
+    "instructions": "Fight using the latitude, longitude, number of stores and opening year!",
     "tags": ["Geography", "Malls"]
+  },
+  "cities": {
+    "title": "Cities of the World",
+    "instructions": "Fight using the latitude, longitude and population!",
+    "tags": ["Geography", "Cities"]
   }
 }

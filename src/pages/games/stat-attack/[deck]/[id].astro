@@ -3,12 +3,17 @@ import NavBar from "../../../../components/common/NavBar.astro";
 import StatAttack from "../../../../components/games/stat-attack/StatAttack";
 import Layout from "../../../../layouts/Layout.astro";
 import mallsData from "../../../../data/games/stat-attack/malls.json";
+import citiesData from "../../../../data/games/stat-attack/cities.json";
 
 export const prerender = false;
 const deckData = {
   malls: {
     title: "Malls of Singapore",
     data: mallsData
+  },
+  cities: {
+    title: "Cities of the World",
+    data: citiesData
   }
 }
 
@@ -21,6 +26,9 @@ switch (deckName) {
   case "malls":
     deck = deckData.malls;
     break;
+  case "cities":
+    deck = deckData.cities;
+    break;
   default:
     deck = deckData.malls;
 }
@@ -29,6 +37,6 @@ switch (deckName) {
 <Layout>
   <div slot="main">
     <NavBar/>
-    <StatAttack client:only="react" id={id} deck={deck}/>
+    <StatAttack client:only="react" id={id} deck={deck} deckName={deckName}/>
   </div>
 </Layout>
