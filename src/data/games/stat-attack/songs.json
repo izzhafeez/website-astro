@@ -1,38 +1,10 @@
 [
   {
-    "name": "A Whiter Shade of Pale - Original Single Version (Procol Harum)",
+    "name": "Dance Monkey (Tones and I)",
     "release year": 2019,
-    "beats per minute": 150,
-    "song duration (s)": 249,
-    "popularity": 67
-  },
-  {
-    "name": "DEUTSCHLAND (Rammstein)",
-    "release year": 2019,
-    "beats per minute": 120,
-    "song duration (s)": 322,
-    "popularity": 72
-  },
-  {
-    "name": "Last Christmas (Wham!)",
-    "release year": 2019,
-    "beats per minute": 108,
-    "song duration (s)": 265,
-    "popularity": 85
-  },
-  {
-    "name": "Stay - Remastered (Jackson Browne)",
-    "release year": 2019,
-    "beats per minute": 107,
-    "song duration (s)": 204,
-    "popularity": 36
-  },
-  {
-    "name": "bad guy (Billie Eilish)",
-    "release year": 2019,
-    "beats per minute": 135,
-    "song duration (s)": 194,
-    "popularity": 95
+    "beats per minute": 98,
+    "song duration (s)": 209,
+    "popularity": 100
   },
   {
     "name": "Memories (Maroon 5)",
@@ -42,116 +14,25 @@
     "popularity": 98
   },
   {
-    "name": "Arcade (Duncan Laurence)",
+    "name": "bad guy (Billie Eilish)",
     "release year": 2019,
-    "beats per minute": 72,
-    "song duration (s)": 184,
-    "popularity": 73
+    "beats per minute": 135,
+    "song duration (s)": 194,
+    "popularity": 95
   },
   {
-    "name": "Love Like Blood (Killing Joke)",
-    "release year": 2019,
-    "beats per minute": 124,
-    "song duration (s)": 261,
-    "popularity": 37
-  },
-  {
-    "name": "Re\u00fcnie (Snelle)",
-    "release year": 2019,
-    "beats per minute": 96,
-    "song duration (s)": 172,
-    "popularity": 71
-  },
-  {
-    "name": "The Load-Out - Remastered (Jackson Browne)",
-    "release year": 2019,
-    "beats per minute": 106,
-    "song duration (s)": 335,
-    "popularity": 37
-  },
-  {
-    "name": "About A Girl - Live Version (Nirvana)",
-    "release year": 2019,
-    "beats per minute": 121,
-    "song duration (s)": 218,
-    "popularity": 50
-  },
-  {
-    "name": "Time To Give (White Lies)",
-    "release year": 2019,
-    "beats per minute": 120,
-    "song duration (s)": 455,
-    "popularity": 50
-  },
-  {
-    "name": "Phantom Of The Opera (Floor Jansen)",
-    "release year": 2019,
-    "beats per minute": 132,
-    "song duration (s)": 244,
-    "popularity": 56
-  },
-  {
-    "name": "Dance Monkey (Tones and I)",
-    "release year": 2019,
-    "beats per minute": 98,
-    "song duration (s)": 209,
-    "popularity": 100
-  },
-  {
-    "name": "Blauwe Dag (Suzan & Freek)",
-    "release year": 2019,
-    "beats per minute": 98,
-    "song duration (s)": 183,
-    "popularity": 68
-  },
-  {
-    "name": "Don't You (Forget About Me) (Simple Minds)",
-    "release year": 2019,
-    "beats per minute": 111,
-    "song duration (s)": 261,
-    "popularity": 73
-  },
-  {
-    "name": "Homburg - Single Version - 2009 Remaster - Mono (Procol Harum)",
-    "release year": 2019,
-    "beats per minute": 142,
-    "song duration (s)": 237,
-    "popularity": 32
-  },
-  {
-    "name": "Uncharted (Kensington)",
-    "release year": 2019,
-    "beats per minute": 139,
+    "name": "All I Want for Christmas Is You (Mariah Carey)",
+    "release year": 1994,
+    "beats per minute": 150,
     "song duration (s)": 241,
-    "popularity": 65
+    "popularity": 95
   },
   {
-    "name": "Despacito (Luis Fonsi)",
-    "release year": 2019,
-    "beats per minute": 178,
-    "song duration (s)": 229,
-    "popularity": 80
-  },
-  {
-    "name": "Roller Coaster (Danny Vera)",
-    "release year": 2019,
-    "beats per minute": 97,
-    "song duration (s)": 270,
-    "popularity": 70
-  },
-  {
-    "name": "Dancing On My Own (Calum Scott)",
-    "release year": 2019,
-    "beats per minute": 113,
-    "song duration (s)": 260,
-    "popularity": 28
-  },
-  {
-    "name": "Banger Hart - Radio Mix (Rob De Nijs)",
-    "release year": 2018,
-    "beats per minute": 124,
-    "song duration (s)": 261,
-    "popularity": 16
+    "name": "Believer (Imagine Dragons)",
+    "release year": 2017,
+    "beats per minute": 125,
+    "song duration (s)": 204,
+    "popularity": 88
   },
   {
     "name": "Shallow (Lady Gaga)",
@@ -161,228 +42,18 @@
     "popularity": 88
   },
   {
-    "name": "Duurt Te Lang (Davina Michelle)",
-    "release year": 2018,
-    "beats per minute": 174,
-    "song duration (s)": 154,
-    "popularity": 68
+    "name": "Perfect (Ed Sheeran)",
+    "release year": 2017,
+    "beats per minute": 95,
+    "song duration (s)": 263,
+    "popularity": 87
   },
   {
-    "name": "Malle Babbe (Rob De Nijs)",
-    "release year": 2018,
-    "beats per minute": 87,
-    "song duration (s)": 253,
-    "popularity": 15
-  },
-  {
-    "name": "Kleine Jongen (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 91,
-    "song duration (s)": 221,
-    "popularity": 30
-  },
-  {
-    "name": "Vluchten Kan Niet Meer (Frans Halsema)",
-    "release year": 2018,
-    "beats per minute": 87,
-    "song duration (s)": 221,
-    "popularity": 17
-  },
-  {
-    "name": "I Want To Break Free (Queen)",
-    "release year": 2018,
-    "beats per minute": 109,
-    "song duration (s)": 223,
-    "popularity": 59
-  },
-  {
-    "name": "I Do (Douwe Bob)",
-    "release year": 2018,
-    "beats per minute": 73,
-    "song duration (s)": 202,
-    "popularity": 52
-  },
-  {
-    "name": "Faded (Alan Walker)",
-    "release year": 2018,
-    "beats per minute": 180,
-    "song duration (s)": 212,
-    "popularity": 80
-  },
-  {
-    "name": "High On Life (feat. Bonn) (Martin Garrix)",
-    "release year": 2018,
-    "beats per minute": 128,
-    "song duration (s)": 231,
-    "popularity": 78
-  },
-  {
-    "name": "Het Is Koud Zonder Jou (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 197,
-    "song duration (s)": 241,
-    "popularity": 30
-  },
-  {
-    "name": "N Vriend (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 68,
-    "song duration (s)": 292,
-    "popularity": 31
-  },
-  {
-    "name": "Een Meisje Van Zestien (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 140,
-    "song duration (s)": 179,
-    "popularity": 20
-  },
-  {
-    "name": "Why Don't You Do Right (Beth Hart)",
-    "release year": 2018,
-    "beats per minute": 106,
-    "song duration (s)": 276,
-    "popularity": 44
-  },
-  {
-    "name": "De Zon Op (Diggy Dex)",
-    "release year": 2018,
-    "beats per minute": 100,
-    "song duration (s)": 209,
-    "popularity": 52
-  },
-  {
-    "name": "Youngblood (5 Seconds of Summer)",
-    "release year": 2018,
-    "beats per minute": 120,
-    "song duration (s)": 203,
-    "popularity": 84
-  },
-  {
-    "name": "Prikkebeen (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 109,
-    "song duration (s)": 252,
-    "popularity": 17
-  },
-  {
-    "name": "Outlaw In 'Em (Waylon)",
-    "release year": 2018,
-    "beats per minute": 87,
-    "song duration (s)": 217,
-    "popularity": 39
-  },
-  {
-    "name": "Als De Rook Om Je Hoofd Is Verdwenen (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 132,
-    "song duration (s)": 205,
-    "popularity": 19
-  },
-  {
-    "name": "Always Remember Us This Way (Lady Gaga)",
-    "release year": 2018,
-    "beats per minute": 130,
-    "song duration (s)": 210,
-    "popularity": 81
-  },
-  {
-    "name": "Het Land Van Maas En Waal (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 126,
-    "song duration (s)": 179,
-    "popularity": 23
-  },
-  {
-    "name": "Someone You Loved (Lewis Capaldi)",
-    "release year": 2018,
-    "beats per minute": 110,
-    "song duration (s)": 182,
-    "popularity": 85
-  },
-  {
-    "name": "Een Beetje Verliefd (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 198,
-    "song duration (s)": 251,
-    "popularity": 32
-  },
-  {
-    "name": "Natural (Imagine Dragons)",
-    "release year": 2018,
-    "beats per minute": 100,
-    "song duration (s)": 189,
-    "popularity": 84
-  },
-  {
-    "name": "IJskoud (Nielson)",
-    "release year": 2018,
-    "beats per minute": 98,
-    "song duration (s)": 210,
-    "popularity": 65
-  },
-  {
-    "name": "Welterusten Mijnheer De President (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 131,
-    "song duration (s)": 152,
-    "popularity": 23
-  },
-  {
-    "name": "De Vlieger (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 105,
-    "song duration (s)": 217,
-    "popularity": 27
-  },
-  {
-    "name": "Als Het Avond Is (Suzan & Freek)",
-    "release year": 2018,
-    "beats per minute": 105,
-    "song duration (s)": 206,
-    "popularity": 65
-  },
-  {
-    "name": "Verdronken Vlinder (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 128,
-    "song duration (s)": 146,
-    "popularity": 29
-  },
-  {
-    "name": "Zij Gelooft In Mij (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 152,
-    "song duration (s)": 240,
-    "popularity": 30
-  },
-  {
-    "name": "Jimmy (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 111,
-    "song duration (s)": 236,
-    "popularity": 32
-  },
-  {
-    "name": "Bad Liar (Imagine Dragons)",
-    "release year": 2018,
-    "beats per minute": 178,
-    "song duration (s)": 261,
-    "popularity": 83
-  },
-  {
-    "name": "Sammy (Ramses Shaffy)",
-    "release year": 2018,
-    "beats per minute": 81,
-    "song duration (s)": 135,
-    "popularity": 23
-  },
-  {
-    "name": "Atemlos durch die Nacht (Helene Fischer)",
-    "release year": 2018,
-    "beats per minute": 128,
-    "song duration (s)": 220,
-    "popularity": 38
+    "name": "Shape of You (Ed Sheeran)",
+    "release year": 2017,
+    "beats per minute": 96,
+    "song duration (s)": 234,
+    "popularity": 87
   },
   {
     "name": "High Hopes (Panic! At The Disco)",
@@ -392,25 +63,326 @@
     "popularity": 87
   },
   {
-    "name": "Testament (Boudewijn de Groot)",
-    "release year": 2018,
-    "beats per minute": 122,
-    "song duration (s)": 195,
-    "popularity": 28
+    "name": "All of Me (John Legend)",
+    "release year": 2013,
+    "beats per minute": 120,
+    "song duration (s)": 270,
+    "popularity": 86
   },
   {
-    "name": "Voor Haar (Frans Halsema)",
-    "release year": 2018,
-    "beats per minute": 82,
-    "song duration (s)": 172,
-    "popularity": 30
+    "name": "Thunder (Imagine Dragons)",
+    "release year": 2017,
+    "beats per minute": 168,
+    "song duration (s)": 187,
+    "popularity": 86
   },
   {
-    "name": "Pain and Misery (The Teskey Brothers)",
+    "name": "One Kiss (with Dua Lipa) (Calvin Harris)",
     "release year": 2018,
-    "beats per minute": 89,
-    "song duration (s)": 241,
-    "popularity": 50
+    "beats per minute": 124,
+    "song duration (s)": 215,
+    "popularity": 86
+  },
+  {
+    "name": "The Less I Know The Better (Tame Impala)",
+    "release year": 2015,
+    "beats per minute": 117,
+    "song duration (s)": 216,
+    "popularity": 85
+  },
+  {
+    "name": "Wake Me Up (Avicii)",
+    "release year": 2013,
+    "beats per minute": 124,
+    "song duration (s)": 247,
+    "popularity": 85
+  },
+  {
+    "name": "Last Christmas (Wham!)",
+    "release year": 2019,
+    "beats per minute": 108,
+    "song duration (s)": 265,
+    "popularity": 85
+  },
+  {
+    "name": "Havana (feat. Young Thug) (Camila Cabello)",
+    "release year": 2018,
+    "beats per minute": 105,
+    "song duration (s)": 217,
+    "popularity": 85
+  },
+  {
+    "name": "Someone You Loved (Lewis Capaldi)",
+    "release year": 2018,
+    "beats per minute": 110,
+    "song duration (s)": 182,
+    "popularity": 85
+  },
+  {
+    "name": "Stay With Me (Sam Smith)",
+    "release year": 2014,
+    "beats per minute": 84,
+    "song duration (s)": 173,
+    "popularity": 84
+  },
+  {
+    "name": "Christmas Lights (Coldplay)",
+    "release year": 2010,
+    "beats per minute": 131,
+    "song duration (s)": 242,
+    "popularity": 84
+  },
+  {
+    "name": "Natural (Imagine Dragons)",
+    "release year": 2018,
+    "beats per minute": 100,
+    "song duration (s)": 189,
+    "popularity": 84
+  },
+  {
+    "name": "The Scientist (Coldplay)",
+    "release year": 2002,
+    "beats per minute": 146,
+    "song duration (s)": 310,
+    "popularity": 84
+  },
+  {
+    "name": "Pumped Up Kicks (Foster The People)",
+    "release year": 2011,
+    "beats per minute": 128,
+    "song duration (s)": 240,
+    "popularity": 84
+  },
+  {
+    "name": "Every Breath You Take (The Police)",
+    "release year": 1983,
+    "beats per minute": 117,
+    "song duration (s)": 254,
+    "popularity": 84
+  },
+  {
+    "name": "Africa (TOTO)",
+    "release year": 1982,
+    "beats per minute": 93,
+    "song duration (s)": 296,
+    "popularity": 84
+  },
+  {
+    "name": "Something Just Like This (The Chainsmokers)",
+    "release year": 2017,
+    "beats per minute": 103,
+    "song duration (s)": 247,
+    "popularity": 84
+  },
+  {
+    "name": "Thinking out Loud (Ed Sheeran)",
+    "release year": 2014,
+    "beats per minute": 79,
+    "song duration (s)": 282,
+    "popularity": 84
+  },
+  {
+    "name": "Do They Know It's Christmas? - 1984 Version (Band Aid)",
+    "release year": 2004,
+    "beats per minute": 115,
+    "song duration (s)": 223,
+    "popularity": 84
+  },
+  {
+    "name": "Youngblood (5 Seconds of Summer)",
+    "release year": 2018,
+    "beats per minute": 120,
+    "song duration (s)": 203,
+    "popularity": 84
+  },
+  {
+    "name": "Photograph (Ed Sheeran)",
+    "release year": 2014,
+    "beats per minute": 108,
+    "song duration (s)": 259,
+    "popularity": 84
+  },
+  {
+    "name": "Bad Liar (Imagine Dragons)",
+    "release year": 2018,
+    "beats per minute": 178,
+    "song duration (s)": 261,
+    "popularity": 83
+  },
+  {
+    "name": "Stressed Out (Twenty One Pilots)",
+    "release year": 2015,
+    "beats per minute": 170,
+    "song duration (s)": 202,
+    "popularity": 83
+  },
+  {
+    "name": "Love Yourself (Justin Bieber)",
+    "release year": 2015,
+    "beats per minute": 100,
+    "song duration (s)": 234,
+    "popularity": 83
+  },
+  {
+    "name": "Take on Me (a-ha)",
+    "release year": 1985,
+    "beats per minute": 84,
+    "song duration (s)": 225,
+    "popularity": 83
+  },
+  {
+    "name": "Livin' On A Prayer (Bon Jovi)",
+    "release year": 1986,
+    "beats per minute": 123,
+    "song duration (s)": 249,
+    "popularity": 83
+  },
+  {
+    "name": "In the End (Linkin Park)",
+    "release year": 2000,
+    "beats per minute": 105,
+    "song duration (s)": 217,
+    "popularity": 83
+  },
+  {
+    "name": "Can't Hold Us - feat. Ray Dalton (Macklemore & Ryan Lewis)",
+    "release year": 2012,
+    "beats per minute": 146,
+    "song duration (s)": 258,
+    "popularity": 83
+  },
+  {
+    "name": "Happier (Ed Sheeran)",
+    "release year": 2017,
+    "beats per minute": 90,
+    "song duration (s)": 208,
+    "popularity": 83
+  },
+  {
+    "name": "Back In Black (AC/DC)",
+    "release year": 1980,
+    "beats per minute": 188,
+    "song duration (s)": 255,
+    "popularity": 83
+  },
+  {
+    "name": "Fairytale of New York (feat. Kirsty MacColl) (The Pogues)",
+    "release year": 1988,
+    "beats per minute": 119,
+    "song duration (s)": 272,
+    "popularity": 83
+  },
+  {
+    "name": "Highway to Hell (AC/DC)",
+    "release year": 1979,
+    "beats per minute": 116,
+    "song duration (s)": 208,
+    "popularity": 83
+  },
+  {
+    "name": "Creep (Radiohead)",
+    "release year": 1993,
+    "beats per minute": 92,
+    "song duration (s)": 239,
+    "popularity": 82
+  },
+  {
+    "name": "Shut Up and Dance (WALK THE MOON)",
+    "release year": 2014,
+    "beats per minute": 128,
+    "song duration (s)": 199,
+    "popularity": 82
+  },
+  {
+    "name": "Whatever It Takes (Imagine Dragons)",
+    "release year": 2017,
+    "beats per minute": 135,
+    "song duration (s)": 201,
+    "popularity": 82
+  },
+  {
+    "name": "Hotel California - 2013 Remaster (Eagles)",
+    "release year": 1976,
+    "beats per minute": 147,
+    "song duration (s)": 391,
+    "popularity": 82
+  },
+  {
+    "name": "Sweet Home Alabama (Lynyrd Skynyrd)",
+    "release year": 1974,
+    "beats per minute": 98,
+    "song duration (s)": 284,
+    "popularity": 82
+  },
+  {
+    "name": "Here Comes The Sun - Remastered 2009 (The Beatles)",
+    "release year": 1969,
+    "beats per minute": 129,
+    "song duration (s)": 186,
+    "popularity": 82
+  },
+  {
+    "name": "Rocket Man (I Think It's Going To Be A Long, Long Time) (Elton John)",
+    "release year": 1972,
+    "beats per minute": 137,
+    "song duration (s)": 282,
+    "popularity": 82
+  },
+  {
+    "name": "Uptown Funk (Mark Ronson)",
+    "release year": 2015,
+    "beats per minute": 115,
+    "song duration (s)": 270,
+    "popularity": 82
+  },
+  {
+    "name": "I'm Yours (Jason Mraz)",
+    "release year": 2008,
+    "beats per minute": 151,
+    "song duration (s)": 242,
+    "popularity": 82
+  },
+  {
+    "name": "Do I Wanna Know? (Arctic Monkeys)",
+    "release year": 2013,
+    "beats per minute": 85,
+    "song duration (s)": 272,
+    "popularity": 82
+  },
+  {
+    "name": "When I Was Your Man (Bruno Mars)",
+    "release year": 2012,
+    "beats per minute": 73,
+    "song duration (s)": 214,
+    "popularity": 82
+  },
+  {
+    "name": "September (Earth, Wind & Fire)",
+    "release year": 2018,
+    "beats per minute": 126,
+    "song duration (s)": 215,
+    "popularity": 82
+  },
+  {
+    "name": "In My Blood (Shawn Mendes)",
+    "release year": 2018,
+    "beats per minute": 140,
+    "song duration (s)": 211,
+    "popularity": 82
+  },
+  {
+    "name": "Without Me (Eminem)",
+    "release year": 2002,
+    "beats per minute": 112,
+    "song duration (s)": 290,
+    "popularity": 82
+  },
+  {
+    "name": "Yellow (Coldplay)",
+    "release year": 2000,
+    "beats per minute": 173,
+    "song duration (s)": 267,
+    "popularity": 82
   },
   {
     "name": "Shotgun (George Ezra)",
@@ -427,431 +399,46 @@
     "popularity": 81
   },
   {
-    "name": "You Say (Lauren Daigle)",
-    "release year": 2018,
-    "beats per minute": 148,
-    "song duration (s)": 275,
-    "popularity": 80
-  },
-  {
-    "name": "September (Earth, Wind & Fire)",
-    "release year": 2018,
-    "beats per minute": 126,
-    "song duration (s)": 215,
-    "popularity": 82
-  },
-  {
-    "name": "Skandal im Sperrbezirk (Spider Murphy Gang)",
-    "release year": 2018,
-    "beats per minute": 93,
-    "song duration (s)": 216,
-    "popularity": 26
-  },
-  {
-    "name": "Geef Mij Je Angst (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 140,
-    "song duration (s)": 257,
-    "popularity": 30
-  },
-  {
-    "name": "Lay Your Weapons Down (Ilse DeLange)",
-    "release year": 2018,
-    "beats per minute": 94,
-    "song duration (s)": 219,
-    "popularity": 21
-  },
-  {
-    "name": "Havana (feat. Young Thug) (Camila Cabello)",
-    "release year": 2018,
-    "beats per minute": 105,
-    "song duration (s)": 217,
-    "popularity": 85
-  },
-  {
-    "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus) (Mark Ronson)",
-    "release year": 2018,
-    "beats per minute": 114,
-    "song duration (s)": 217,
-    "popularity": 79
-  },
-  {
-    "name": "In My Blood (Shawn Mendes)",
-    "release year": 2018,
-    "beats per minute": 140,
-    "song duration (s)": 211,
-    "popularity": 82
-  },
-  {
-    "name": "One Kiss (with Dua Lipa) (Calvin Harris)",
-    "release year": 2018,
-    "beats per minute": 124,
-    "song duration (s)": 215,
-    "popularity": 86
-  },
-  {
-    "name": "Het Laatste Rondje - Remastered (Andre Hazes)",
-    "release year": 2018,
-    "beats per minute": 103,
-    "song duration (s)": 258,
-    "popularity": 33
-  },
-  {
-    "name": "Hou Vol Hou Vast (BL\u00d8F)",
-    "release year": 2018,
-    "beats per minute": 86,
-    "song duration (s)": 295,
-    "popularity": 12
-  },
-  {
-    "name": "Guiding Light (Mumford & Sons)",
-    "release year": 2018,
-    "beats per minute": 100,
-    "song duration (s)": 218,
-    "popularity": 60
-  },
-  {
-    "name": "Supermarket Flowers (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 90,
-    "song duration (s)": 221,
-    "popularity": 78
-  },
-  {
-    "name": "Everything Now (Arcade Fire)",
-    "release year": 2017,
-    "beats per minute": 116,
-    "song duration (s)": 303,
-    "popularity": 66
-  },
-  {
-    "name": "Sunny Days (Armin van Buuren)",
-    "release year": 2017,
-    "beats per minute": 115,
-    "song duration (s)": 210,
-    "popularity": 54
-  },
-  {
-    "name": "Roll Over Lay Down - Live At The Kursaal, Southend / 1975 (Status Quo)",
-    "release year": 2017,
-    "beats per minute": 132,
-    "song duration (s)": 341,
-    "popularity": 32
-  },
-  {
-    "name": "Whatever It Takes (Imagine Dragons)",
-    "release year": 2017,
-    "beats per minute": 135,
-    "song duration (s)": 201,
-    "popularity": 82
-  },
-  {
-    "name": "Thinking Of A Place (The War On Drugs)",
-    "release year": 2017,
-    "beats per minute": 103,
-    "song duration (s)": 671,
-    "popularity": 59
-  },
-  {
-    "name": "Amigo (Chef'Special)",
-    "release year": 2017,
-    "beats per minute": 145,
-    "song duration (s)": 180,
-    "popularity": 33
-  },
-  {
-    "name": "Iederene Hef Een Reden (B\u00f6kkers)",
-    "release year": 2017,
-    "beats per minute": 108,
-    "song duration (s)": 185,
-    "popularity": 41
-  },
-  {
-    "name": "Tuesday Afternoon (Forever Afternoon) (The Moody Blues)",
-    "release year": 2017,
-    "beats per minute": 114,
-    "song duration (s)": 249,
-    "popularity": 50
-  },
-  {
-    "name": "Love On The Rocks (Neil Diamond)",
-    "release year": 2017,
-    "beats per minute": 103,
-    "song duration (s)": 262,
-    "popularity": 40
-  },
-  {
-    "name": "Pain (The War On Drugs)",
-    "release year": 2017,
-    "beats per minute": 116,
-    "song duration (s)": 331,
-    "popularity": 62
-  },
-  {
-    "name": "Amsterdam (Nothing But Thieves)",
-    "release year": 2017,
-    "beats per minute": 168,
-    "song duration (s)": 272,
-    "popularity": 63
-  },
-  {
-    "name": "Sorry (Nothing But Thieves)",
-    "release year": 2017,
-    "beats per minute": 128,
-    "song duration (s)": 215,
-    "popularity": 62
-  },
-  {
-    "name": "Rapper's Delight (The Sugarhill Gang)",
-    "release year": 2017,
-    "beats per minute": 112,
-    "song duration (s)": 234,
-    "popularity": 48
-  },
-  {
-    "name": "Thunder (Imagine Dragons)",
-    "release year": 2017,
-    "beats per minute": 168,
-    "song duration (s)": 187,
-    "popularity": 86
-  },
-  {
-    "name": "Max (Paolo Conte)",
-    "release year": 2017,
-    "beats per minute": 125,
-    "song duration (s)": 225,
-    "popularity": 25
-  },
-  {
-    "name": "One More Light (Linkin Park)",
-    "release year": 2017,
-    "beats per minute": 84,
-    "song duration (s)": 255,
-    "popularity": 75
-  },
-  {
-    "name": "Through the Barricades - Remastered (Spandau Ballet)",
-    "release year": 2017,
-    "beats per minute": 146,
-    "song duration (s)": 360,
-    "popularity": 60
-  },
-  {
-    "name": "Freedom! '90 - Remastered (George Michael)",
-    "release year": 2017,
-    "beats per minute": 92,
-    "song duration (s)": 391,
-    "popularity": 69
-  },
-  {
-    "name": "Something Just Like This (The Chainsmokers)",
-    "release year": 2017,
-    "beats per minute": 103,
-    "song duration (s)": 247,
-    "popularity": 84
-  },
-  {
-    "name": "Holiday (Green Day)",
-    "release year": 2017,
-    "beats per minute": 147,
-    "song duration (s)": 233,
-    "popularity": 67
-  },
-  {
-    "name": "Happier (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 90,
-    "song duration (s)": 208,
-    "popularity": 83
-  },
-  {
-    "name": "Galway Girl (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 100,
-    "song duration (s)": 171,
-    "popularity": 80
-  },
-  {
-    "name": "Perfect (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 95,
-    "song duration (s)": 263,
-    "popularity": 87
-  },
-  {
-    "name": "Homesick (Dua Lipa)",
-    "release year": 2017,
-    "beats per minute": 86,
-    "song duration (s)": 230,
-    "popularity": 71
-  },
-  {
-    "name": "Boulevard of Broken Dreams (Green Day)",
-    "release year": 2017,
-    "beats per minute": 167,
-    "song duration (s)": 262,
-    "popularity": 74
-  },
-  {
-    "name": "Human (Rag'n'Bone Man)",
-    "release year": 2017,
-    "beats per minute": 75,
-    "song duration (s)": 200,
-    "popularity": 78
-  },
-  {
-    "name": "Skin (Rag'n'Bone Man)",
-    "release year": 2017,
-    "beats per minute": 171,
-    "song duration (s)": 240,
-    "popularity": 69
-  },
-  {
-    "name": "Leave a Light On (Tom Walker)",
-    "release year": 2017,
-    "beats per minute": 69,
+    "name": "Numb (Linkin Park)",
+    "release year": 2003,
+    "beats per minute": 110,
     "song duration (s)": 186,
-    "popularity": 75
+    "popularity": 81
   },
   {
-    "name": "Believer (Imagine Dragons)",
-    "release year": 2017,
+    "name": "I Wanna Dance with Somebody (Who Loves Me) (Whitney Houston)",
+    "release year": 1987,
+    "beats per minute": 119,
+    "song duration (s)": 291,
+    "popularity": 81
+  },
+  {
+    "name": "Always Remember Us This Way (Lady Gaga)",
+    "release year": 2018,
+    "beats per minute": 130,
+    "song duration (s)": 210,
+    "popularity": 81
+  },
+  {
+    "name": "Californication (Red Hot Chili Peppers)",
+    "release year": 1999,
+    "beats per minute": 96,
+    "song duration (s)": 330,
+    "popularity": 81
+  },
+  {
+    "name": "Sweet Dreams (Are Made of This) - Remastered (Eurythmics)",
+    "release year": 1983,
     "beats per minute": 125,
-    "song duration (s)": 204,
-    "popularity": 88
+    "song duration (s)": 217,
+    "popularity": 81
   },
   {
-    "name": "Thriller (Michael Jackson)",
-    "release year": 2017,
-    "beats per minute": 118,
-    "song duration (s)": 358,
-    "popularity": 69
-  },
-  {
-    "name": "Nao \u2019t Zuuje (Lex Uiting)",
-    "release year": 2017,
-    "beats per minute": 190,
-    "song duration (s)": 213,
-    "popularity": 41
-  },
-  {
-    "name": "Het het nog nooit zo donker west (Ede Staal)",
-    "release year": 2017,
-    "beats per minute": 98,
-    "song duration (s)": 274,
-    "popularity": 28
-  },
-  {
-    "name": "Shape of You (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 96,
-    "song duration (s)": 234,
-    "popularity": 87
-  },
-  {
-    "name": "Beautiful Trauma (P!nk)",
-    "release year": 2017,
-    "beats per minute": 96,
-    "song duration (s)": 250,
-    "popularity": 68
-  },
-  {
-    "name": "Castle on the Hill (Ed Sheeran)",
-    "release year": 2017,
-    "beats per minute": 135,
-    "song duration (s)": 261,
-    "popularity": 79
-  },
-  {
-    "name": "Pok\u00e9mon Theme-New Studio Recording (Jason Paige)",
-    "release year": 2017,
-    "beats per minute": 145,
-    "song duration (s)": 197,
-    "popularity": 41
-  },
-  {
-    "name": "World Gone Mad (Bastille)",
-    "release year": 2017,
-    "beats per minute": 140,
-    "song duration (s)": 196,
-    "popularity": 64
-  },
-  {
-    "name": "Lost on You (LP)",
-    "release year": 2017,
-    "beats per minute": 174,
-    "song duration (s)": 268,
-    "popularity": 78
-  },
-  {
-    "name": "Zoutelande - feat. Geike (BL\u00d8F)",
-    "release year": 2017,
-    "beats per minute": 129,
-    "song duration (s)": 223,
-    "popularity": 41
-  },
-  {
-    "name": "Sign of the Times (Harry Styles)",
-    "release year": 2017,
-    "beats per minute": 120,
-    "song duration (s)": 341,
-    "popularity": 80
-  },
-  {
-    "name": "In the Blood (John Mayer)",
-    "release year": 2017,
-    "beats per minute": 80,
-    "song duration (s)": 244,
-    "popularity": 66
-  },
-  {
-    "name": "Nicotine (Chef'Special)",
-    "release year": 2017,
-    "beats per minute": 90,
-    "song duration (s)": 238,
-    "popularity": 36
-  },
-  {
-    "name": "Magnificent (She Says) (Elbow)",
-    "release year": 2017,
-    "beats per minute": 92,
-    "song duration (s)": 266,
-    "popularity": 31
-  },
-  {
-    "name": "What About Us (P!nk)",
-    "release year": 2017,
-    "beats per minute": 114,
-    "song duration (s)": 270,
-    "popularity": 76
-  },
-  {
-    "name": "The Life I Live (Q'65)",
-    "release year": 2016,
-    "beats per minute": 131,
-    "song duration (s)": 204,
-    "popularity": 27
-  },
-  {
-    "name": "All I Ask (Adele)",
-    "release year": 2016,
-    "beats per minute": 142,
-    "song duration (s)": 272,
-    "popularity": 70
-  },
-  {
-    "name": "Forbidden Colours (Ryuichi Sakamoto)",
-    "release year": 2016,
-    "beats per minute": 105,
-    "song duration (s)": 290,
-    "popularity": 28
-  },
-  {
-    "name": "We All Stand Together - Remastered 2016 (Paul McCartney)",
-    "release year": 2016,
-    "beats per minute": 72,
-    "song duration (s)": 265,
-    "popularity": 24
+    "name": "Summer Of '69 (Bryan Adams)",
+    "release year": 1984,
+    "beats per minute": 139,
+    "song duration (s)": 216,
+    "popularity": 81
   },
   {
     "name": "Heathens (Twenty One Pilots)",
@@ -861,571 +448,81 @@
     "popularity": 81
   },
   {
-    "name": "Jacob\u2019s Song (Douwe Bob)",
-    "release year": 2016,
-    "beats per minute": 74,
-    "song duration (s)": 318,
-    "popularity": 40
+    "name": "Just Give Me a Reason (feat. Nate Ruess) (P!nk)",
+    "release year": 2012,
+    "beats per minute": 95,
+    "song duration (s)": 243,
+    "popularity": 81
   },
   {
-    "name": "Way Down We Go (KALEO)",
-    "release year": 2016,
-    "beats per minute": 163,
-    "song duration (s)": 214,
-    "popularity": 76
+    "name": "Billie Jean (Michael Jackson)",
+    "release year": 1982,
+    "beats per minute": 117,
+    "song duration (s)": 294,
+    "popularity": 81
   },
   {
-    "name": "7 Years (Lukas Graham)",
-    "release year": 2016,
-    "beats per minute": 120,
-    "song duration (s)": 237,
+    "name": "Thunderstruck (AC/DC)",
+    "release year": 1990,
+    "beats per minute": 134,
+    "song duration (s)": 293,
+    "popularity": 81
+  },
+  {
+    "name": "Fix You (Coldplay)",
+    "release year": 2005,
+    "beats per minute": 138,
+    "song duration (s)": 296,
+    "popularity": 81
+  },
+  {
+    "name": "Under the Bridge (Red Hot Chili Peppers)",
+    "release year": 1991,
+    "beats per minute": 85,
+    "song duration (s)": 264,
+    "popularity": 81
+  },
+  {
+    "name": "Losing My Religion (R.E.M.)",
+    "release year": 1991,
+    "beats per minute": 126,
+    "song duration (s)": 268,
+    "popularity": 81
+  },
+  {
+    "name": "Feel Good Inc. (Gorillaz)",
+    "release year": 2005,
+    "beats per minute": 139,
+    "song duration (s)": 223,
     "popularity": 80
   },
   {
-    "name": "The Book Of Love (Gavin James)",
-    "release year": 2016,
-    "beats per minute": 108,
-    "song duration (s)": 177,
-    "popularity": 34
-  },
-  {
-    "name": "Water Under the Bridge (Adele)",
-    "release year": 2016,
-    "beats per minute": 95,
-    "song duration (s)": 240,
-    "popularity": 67
-  },
-  {
-    "name": "Million Years Ago (Adele)",
-    "release year": 2016,
-    "beats per minute": 106,
-    "song duration (s)": 227,
-    "popularity": 62
-  },
-  {
-    "name": "Blackstar (David Bowie)",
-    "release year": 2016,
-    "beats per minute": 98,
-    "song duration (s)": 598,
-    "popularity": 55
-  },
-  {
-    "name": "Lazarus (David Bowie)",
-    "release year": 2016,
-    "beats per minute": 130,
-    "song duration (s)": 382,
-    "popularity": 61
-  },
-  {
-    "name": "24K Magic (Bruno Mars)",
-    "release year": 2016,
-    "beats per minute": 107,
-    "song duration (s)": 226,
-    "popularity": 78
-  },
-  {
-    "name": "Sorry (Kensington)",
-    "release year": 2016,
-    "beats per minute": 134,
-    "song duration (s)": 227,
-    "popularity": 63
-  },
-  {
-    "name": "Cold Little Heart (Michael Kiwanuka)",
-    "release year": 2016,
-    "beats per minute": 108,
-    "song duration (s)": 598,
-    "popularity": 67
-  },
-  {
-    "name": "Barcelona (Freddie Mercury)",
-    "release year": 2016,
-    "beats per minute": 170,
-    "song duration (s)": 267,
-    "popularity": 40
-  },
-  {
-    "name": "Leef (Andr\u00e9 Hazes Jr.)",
-    "release year": 2016,
-    "beats per minute": 121,
-    "song duration (s)": 218,
-    "popularity": 62
-  },
-  {
-    "name": "Hello (Adele)",
-    "release year": 2016,
-    "beats per minute": 158,
-    "song duration (s)": 295,
-    "popularity": 73
-  },
-  {
-    "name": "Against All Odds (Take a Look at Me Now) - 2016 Remaster (Phil Collins)",
-    "release year": 2016,
-    "beats per minute": 116,
-    "song duration (s)": 206,
-    "popularity": 74
-  },
-  {
-    "name": "Treur Niet (Ode Aan Het Leven) (Diggy Dex)",
-    "release year": 2016,
-    "beats per minute": 98,
-    "song duration (s)": 225,
-    "popularity": 60
-  },
-  {
-    "name": "When We Were Young (Adele)",
-    "release year": 2016,
-    "beats per minute": 144,
-    "song duration (s)": 291,
-    "popularity": 73
-  },
-  {
-    "name": "Do I Ever (Kensington)",
-    "release year": 2016,
-    "beats per minute": 163,
-    "song duration (s)": 204,
-    "popularity": 53
-  },
-  {
-    "name": "Whatever You Want (Status Quo)",
-    "release year": 2016,
-    "beats per minute": 123,
-    "song duration (s)": 242,
-    "popularity": 36
-  },
-  {
-    "name": "CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's \"TROLLS\") (Justin Timberlake)",
-    "release year": 2016,
-    "beats per minute": 113,
-    "song duration (s)": 238,
-    "popularity": 75
-  },
-  {
-    "name": "Disco Inferno (The Trammps)",
-    "release year": 2016,
-    "beats per minute": 130,
-    "song duration (s)": 214,
-    "popularity": 54
-  },
-  {
-    "name": "I Just Can't Help Believin' (Elvis Presley)",
-    "release year": 2016,
-    "beats per minute": 142,
-    "song duration (s)": 274,
-    "popularity": 44
-  },
-  {
-    "name": "Dark Necessities (Red Hot Chili Peppers)",
-    "release year": 2016,
-    "beats per minute": 92,
-    "song duration (s)": 302,
-    "popularity": 74
-  },
-  {
-    "name": "New Gold Dream (81/82/83/84) (Simple Minds)",
-    "release year": 2016,
-    "beats per minute": 123,
-    "song duration (s)": 339,
-    "popularity": 44
-  },
-  {
-    "name": "Love & Hate (Michael Kiwanuka)",
-    "release year": 2016,
-    "beats per minute": 170,
-    "song duration (s)": 427,
-    "popularity": 66
-  },
-  {
-    "name": "Someone Somewhere (In Summertime) (Simple Minds)",
-    "release year": 2016,
-    "beats per minute": 100,
-    "song duration (s)": 278,
-    "popularity": 41
-  },
-  {
-    "name": "Mooi (Marco Borsato)",
-    "release year": 2016,
-    "beats per minute": 150,
-    "song duration (s)": 315,
-    "popularity": 59
-  },
-  {
-    "name": "Once Upon a Time in the West - Main Theme (Ennio Morricone)",
-    "release year": 2016,
-    "beats per minute": 90,
-    "song duration (s)": 223,
-    "popularity": 54
-  },
-  {
-    "name": "Bridges (Kensington)",
-    "release year": 2016,
-    "beats per minute": 150,
-    "song duration (s)": 220,
-    "popularity": 49
-  },
-  {
-    "name": "You Want It Darker (Leonard Cohen)",
-    "release year": 2016,
-    "beats per minute": 109,
-    "song duration (s)": 284,
-    "popularity": 63
-  },
-  {
-    "name": "Het Dorp - Live (Wim Sonneveld)",
-    "release year": 2015,
-    "beats per minute": 114,
-    "song duration (s)": 198,
-    "popularity": 15
-  },
-  {
-    "name": "Hymn for the Weekend (Coldplay)",
-    "release year": 2015,
-    "beats per minute": 90,
-    "song duration (s)": 259,
-    "popularity": 78
-  },
-  {
-    "name": "All I Need - Edit (Air)",
-    "release year": 2015,
-    "beats per minute": 95,
-    "song duration (s)": 242,
-    "popularity": 41
-  },
-  {
-    "name": "For Bitter Or Worse (Anouk)",
-    "release year": 2015,
-    "beats per minute": 83,
-    "song duration (s)": 255,
-    "popularity": 21
-  },
-  {
-    "name": "Stressed Out (Twenty One Pilots)",
-    "release year": 2015,
-    "beats per minute": 170,
-    "song duration (s)": 202,
-    "popularity": 83
-  },
-  {
-    "name": "Ordinary Love (U2)",
-    "release year": 2015,
-    "beats per minute": 121,
-    "song duration (s)": 219,
-    "popularity": 45
-  },
-  {
-    "name": "The Less I Know The Better (Tame Impala)",
-    "release year": 2015,
-    "beats per minute": 117,
-    "song duration (s)": 216,
-    "popularity": 85
-  },
-  {
-    "name": "The Sound of Silence (Disturbed)",
-    "release year": 2015,
-    "beats per minute": 86,
-    "song duration (s)": 248,
-    "popularity": 75
-  },
-  {
-    "name": "Everglow (Coldplay)",
-    "release year": 2015,
-    "beats per minute": 146,
-    "song duration (s)": 283,
-    "popularity": 69
-  },
-  {
-    "name": "Heading Up High (Armin van Buuren)",
-    "release year": 2015,
-    "beats per minute": 128,
-    "song duration (s)": 233,
-    "popularity": 53
-  },
-  {
-    "name": "Psycho (Muse)",
-    "release year": 2015,
-    "beats per minute": 125,
-    "song duration (s)": 317,
-    "popularity": 69
-  },
-  {
-    "name": "\u00c9lan (Nightwish)",
-    "release year": 2015,
-    "beats per minute": 128,
-    "song duration (s)": 287,
-    "popularity": 58
-  },
-  {
-    "name": "Dat Ik Je Mis (Maaike Ouboter)",
-    "release year": 2015,
-    "beats per minute": 174,
-    "song duration (s)": 256,
-    "popularity": 29
-  },
-  {
-    "name": "Three Days In A Row (Anouk)",
-    "release year": 2015,
-    "beats per minute": 171,
-    "song duration (s)": 254,
-    "popularity": 13
-  },
-  {
-    "name": "Zeg Maar Niets Meer - Remastered (Andre Hazes)",
-    "release year": 2015,
-    "beats per minute": 95,
-    "song duration (s)": 167,
-    "popularity": 26
-  },
-  {
-    "name": "Chandelier (Sia)",
-    "release year": 2015,
-    "beats per minute": 117,
-    "song duration (s)": 216,
-    "popularity": 71
-  },
-  {
-    "name": "Uptown Funk (Mark Ronson)",
-    "release year": 2015,
-    "beats per minute": 115,
-    "song duration (s)": 270,
-    "popularity": 82
-  },
-  {
-    "name": "Birds (Anouk)",
-    "release year": 2015,
-    "beats per minute": 85,
-    "song duration (s)": 203,
-    "popularity": 33
-  },
-  {
-    "name": "Michel (Anouk)",
-    "release year": 2015,
+    "name": "How to Save a Life (The Fray)",
+    "release year": 2005,
     "beats per minute": 122,
-    "song duration (s)": 249,
-    "popularity": 20
+    "song duration (s)": 263,
+    "popularity": 80
   },
   {
-    "name": "Adventure of a Lifetime (Coldplay)",
-    "release year": 2015,
-    "beats per minute": 112,
-    "song duration (s)": 264,
-    "popularity": 74
+    "name": "Fortunate Son (Creedence Clearwater Revival)",
+    "release year": 1969,
+    "beats per minute": 133,
+    "song duration (s)": 141,
+    "popularity": 80
   },
   {
-    "name": "Shoes of Lightning (Racoon)",
-    "release year": 2015,
-    "beats per minute": 78,
-    "song duration (s)": 220,
-    "popularity": 32
+    "name": "The Real Slim Shady (Eminem)",
+    "release year": 2000,
+    "beats per minute": 105,
+    "song duration (s)": 284,
+    "popularity": 80
   },
   {
-    "name": "Moondance (Van Morrison)",
-    "release year": 2015,
-    "beats per minute": 135,
-    "song duration (s)": 272,
-    "popularity": 42
-  },
-  {
-    "name": "R U Kiddin' Me (Anouk)",
-    "release year": 2015,
-    "beats per minute": 89,
-    "song duration (s)": 200,
-    "popularity": 16
-  },
-  {
-    "name": "Happy Xmas (War Is Over) (John Lennon)",
-    "release year": 2015,
-    "beats per minute": 147,
-    "song duration (s)": 212,
-    "popularity": 47
-  },
-  {
-    "name": "Love Yourself (Justin Bieber)",
-    "release year": 2015,
-    "beats per minute": 100,
-    "song duration (s)": 234,
-    "popularity": 83
-  },
-  {
-    "name": "Ship To Wreck (Florence + The Machine)",
-    "release year": 2015,
-    "beats per minute": 142,
-    "song duration (s)": 235,
-    "popularity": 54
-  },
-  {
-    "name": "Up&Up (Coldplay)",
-    "release year": 2015,
-    "beats per minute": 164,
-    "song duration (s)": 405,
-    "popularity": 70
-  },
-  {
-    "name": "Be the One (Dua Lipa)",
-    "release year": 2015,
-    "beats per minute": 87,
-    "song duration (s)": 203,
-    "popularity": 73
-  },
-  {
-    "name": "Ocean of Night (Editors)",
-    "release year": 2015,
-    "beats per minute": 106,
-    "song duration (s)": 305,
-    "popularity": 58
-  },
-  {
-    "name": "Living Doll - 2003 Remaster (Cliff Richard & The Drifters)",
-    "release year": 2015,
-    "beats per minute": 127,
-    "song duration (s)": 157,
-    "popularity": 33
-  },
-  {
-    "name": "Liquid Spirit - Claptone Remix (Gregory Porter)",
-    "release year": 2015,
-    "beats per minute": 121,
-    "song duration (s)": 384,
-    "popularity": 63
-  },
-  {
-    "name": "Forever Man - 2015 Remaster (Eric Clapton)",
-    "release year": 2015,
-    "beats per minute": 111,
-    "song duration (s)": 192,
-    "popularity": 46
-  },
-  {
-    "name": "We Come 1 - Radio Edit (Faithless)",
-    "release year": 2015,
-    "beats per minute": 136,
-    "song duration (s)": 222,
-    "popularity": 54
-  },
-  {
-    "name": "A Head Full of Dreams (Coldplay)",
-    "release year": 2015,
-    "beats per minute": 123,
-    "song duration (s)": 224,
-    "popularity": 68
-  },
-  {
-    "name": "Oxygene, Pt. 4 (Jean-Michel Jarre)",
-    "release year": 2015,
-    "beats per minute": 189,
-    "song duration (s)": 247,
-    "popularity": 57
-  },
-  {
-    "name": "Tennessee Whiskey (Chris Stapleton)",
-    "release year": 2015,
-    "beats per minute": 49,
-    "song duration (s)": 293,
-    "popularity": 78
-  },
-  {
-    "name": "Mercy (Muse)",
-    "release year": 2015,
+    "name": "Ain't No Mountain High Enough (Marvin Gaye)",
+    "release year": 1967,
     "beats per minute": 130,
-    "song duration (s)": 232,
-    "popularity": 60
-  },
-  {
-    "name": "Budapest (George Ezra)",
-    "release year": 2015,
-    "beats per minute": 128,
-    "song duration (s)": 201,
-    "popularity": 68
-  },
-  {
-    "name": "Hold Me (Douwe Bob)",
-    "release year": 2015,
-    "beats per minute": 161,
-    "song duration (s)": 230,
-    "popularity": 26
-  },
-  {
-    "name": "Theme From New York, New York (Frank Sinatra)",
-    "release year": 2015,
-    "beats per minute": 109,
-    "song duration (s)": 204,
-    "popularity": 68
-  },
-  {
-    "name": "Down Man (Brainbox)",
-    "release year": 2015,
-    "beats per minute": 168,
-    "song duration (s)": 155,
-    "popularity": 35
-  },
-  {
-    "name": "Let It Happen (Tame Impala)",
-    "release year": 2015,
-    "beats per minute": 125,
-    "song duration (s)": 468,
-    "popularity": 76
-  },
-  {
-    "name": "Calm After The Storm (The Common Linnets)",
-    "release year": 2014,
-    "beats per minute": 116,
-    "song duration (s)": 213,
-    "popularity": 52
-  },
-  {
-    "name": "L'amour Toujours (Small Mix) (Gigi D'Agostino)",
-    "release year": 2014,
-    "beats per minute": 139,
-    "song duration (s)": 242,
-    "popularity": 70
-  },
-  {
-    "name": "Home (Dotan)",
-    "release year": 2014,
-    "beats per minute": 130,
-    "song duration (s)": 268,
-    "popularity": 42
-  },
-  {
-    "name": "Zandloper (Typhoon)",
-    "release year": 2014,
-    "beats per minute": 135,
-    "song duration (s)": 280,
-    "popularity": 47
-  },
-  {
-    "name": "All For Nothing (Kensington)",
-    "release year": 2014,
-    "beats per minute": 152,
-    "song duration (s)": 289,
-    "popularity": 47
-  },
-  {
-    "name": "Photograph (Ed Sheeran)",
-    "release year": 2014,
-    "beats per minute": 108,
-    "song duration (s)": 259,
-    "popularity": 84
-  },
-  {
-    "name": "Magic (Coldplay)",
-    "release year": 2014,
-    "beats per minute": 93,
-    "song duration (s)": 285,
-    "popularity": 73
-  },
-  {
-    "name": "Under The Pressure (The War On Drugs)",
-    "release year": 2014,
-    "beats per minute": 134,
-    "song duration (s)": 532,
-    "popularity": 60
-  },
-  {
-    "name": "Riddles (Kensington)",
-    "release year": 2014,
-    "beats per minute": 148,
-    "song duration (s)": 209,
-    "popularity": 52
+    "song duration (s)": 152,
+    "popularity": 80
   },
   {
     "name": "Happy - From \"Despicable Me 2\" (Pharrell Williams)",
@@ -1435,508 +532,130 @@
     "popularity": 80
   },
   {
-    "name": "Op 't platteland (Dani\u00ebl Lohues)",
-    "release year": 2014,
-    "beats per minute": 80,
-    "song duration (s)": 182,
-    "popularity": 27
-  },
-  {
-    "name": "War (Kensington)",
-    "release year": 2014,
-    "beats per minute": 126,
-    "song duration (s)": 177,
-    "popularity": 59
-  },
-  {
-    "name": "Born Slippy (Nuxx) (Underworld)",
-    "release year": 2014,
-    "beats per minute": 140,
-    "song duration (s)": 456,
-    "popularity": 65
-  },
-  {
-    "name": "In Your Arms (Chef'Special)",
-    "release year": 2014,
-    "beats per minute": 93,
-    "song duration (s)": 215,
-    "popularity": 60
-  },
-  {
-    "name": "Une belle histoire (Michel Fugain)",
-    "release year": 2014,
-    "beats per minute": 83,
-    "song duration (s)": 198,
-    "popularity": 40
-  },
-  {
-    "name": "Take Me to Church (Hozier)",
-    "release year": 2014,
-    "beats per minute": 129,
-    "song duration (s)": 242,
-    "popularity": 77
-  },
-  {
-    "name": "Thinking out Loud (Ed Sheeran)",
-    "release year": 2014,
-    "beats per minute": 79,
-    "song duration (s)": 282,
-    "popularity": 84
-  },
-  {
-    "name": "Streets (Kensington)",
-    "release year": 2014,
-    "beats per minute": 168,
-    "song duration (s)": 185,
-    "popularity": 57
-  },
-  {
-    "name": "Rolling In The Deep (Adele)",
-    "release year": 2014,
-    "beats per minute": 105,
-    "song duration (s)": 228,
-    "popularity": 61
-  },
-  {
-    "name": "A Sky Full of Stars (Coldplay)",
-    "release year": 2014,
-    "beats per minute": 125,
-    "song duration (s)": 268,
-    "popularity": 78
-  },
-  {
-    "name": "Iron Sky (Paolo Nutini)",
-    "release year": 2014,
-    "beats per minute": 140,
-    "song duration (s)": 373,
-    "popularity": 49
-  },
-  {
-    "name": "Red Eyes (The War On Drugs)",
-    "release year": 2014,
-    "beats per minute": 162,
-    "song duration (s)": 299,
-    "popularity": 65
-  },
-  {
-    "name": "My Silver Lining (First Aid Kit)",
-    "release year": 2014,
-    "beats per minute": 102,
-    "song duration (s)": 215,
-    "popularity": 64
-  },
-  {
-    "name": "See Me, Feel Me - Single Version (The Who)",
-    "release year": 2014,
-    "beats per minute": 94,
-    "song duration (s)": 217,
-    "popularity": 39
-  },
-  {
-    "name": "No Good in Goodbye (The Script)",
-    "release year": 2014,
-    "beats per minute": 156,
-    "song duration (s)": 308,
-    "popularity": 59
-  },
-  {
-    "name": "Let It Go (James Bay)",
-    "release year": 2014,
-    "beats per minute": 147,
-    "song duration (s)": 261,
-    "popularity": 74
-  },
-  {
-    "name": "Promises of No Man's Land (Blaudzun)",
-    "release year": 2014,
-    "beats per minute": 124,
-    "song duration (s)": 215,
-    "popularity": 43
-  },
-  {
-    "name": "Nothing Really Matters (Mr. Probz)",
-    "release year": 2014,
-    "beats per minute": 135,
-    "song duration (s)": 222,
-    "popularity": 61
-  },
-  {
-    "name": "Shut Up and Dance (WALK THE MOON)",
-    "release year": 2014,
-    "beats per minute": 128,
-    "song duration (s)": 199,
-    "popularity": 82
-  },
-  {
-    "name": "Love Never Felt So Good (Michael Jackson)",
-    "release year": 2014,
-    "beats per minute": 118,
-    "song duration (s)": 246,
-    "popularity": 70
-  },
-  {
-    "name": "Done With It (Kensington)",
-    "release year": 2014,
-    "beats per minute": 116,
-    "song duration (s)": 203,
-    "popularity": 49
-  },
-  {
-    "name": "Hemel Valt (Typhoon)",
-    "release year": 2014,
-    "beats per minute": 97,
-    "song duration (s)": 161,
-    "popularity": 43
-  },
-  {
-    "name": "Time After Time (Cyndi Lauper)",
-    "release year": 2014,
-    "beats per minute": 130,
-    "song duration (s)": 243,
-    "popularity": 72
-  },
-  {
-    "name": "Counting Stars (OneRepublic)",
-    "release year": 2014,
-    "beats per minute": 122,
-    "song duration (s)": 258,
-    "popularity": 74
-  },
-  {
-    "name": "Sexy Als Ik Dans (Nielson)",
-    "release year": 2014,
-    "beats per minute": 94,
-    "song duration (s)": 215,
-    "popularity": 49
-  },
-  {
-    "name": "Looking Too Closely (Fink)",
-    "release year": 2014,
-    "beats per minute": 175,
-    "song duration (s)": 311,
-    "popularity": 63
-  },
-  {
-    "name": "California Love (2Pac)",
-    "release year": 2014,
-    "beats per minute": 92,
-    "song duration (s)": 348,
-    "popularity": 41
-  },
-  {
-    "name": "Shake It Off (Taylor Swift)",
-    "release year": 2014,
-    "beats per minute": 160,
-    "song duration (s)": 219,
-    "popularity": 66
-  },
-  {
-    "name": "Wit Licht (Jeroen van Koningsbrugge)",
-    "release year": 2014,
-    "beats per minute": 146,
-    "song duration (s)": 212,
-    "popularity": 43
-  },
-  {
-    "name": "Yellow Submarine (The Beatles)",
-    "release year": 2014,
-    "beats per minute": 111,
-    "song duration (s)": 159,
-    "popularity": 58
-  },
-  {
-    "name": "Glycerine (Bush)",
-    "release year": 2014,
-    "beats per minute": 114,
-    "song duration (s)": 266,
-    "popularity": 65
-  },
-  {
-    "name": "Superheroes (The Script)",
-    "release year": 2014,
-    "beats per minute": 167,
-    "song duration (s)": 245,
-    "popularity": 75
-  },
-  {
-    "name": "Stay With Me (Sam Smith)",
-    "release year": 2014,
-    "beats per minute": 84,
+    "name": "Wannabe (Spice Girls)",
+    "release year": 1996,
+    "beats per minute": 110,
     "song duration (s)": 173,
-    "popularity": 84
+    "popularity": 80
   },
   {
-    "name": "All of Me (John Legend)",
-    "release year": 2013,
-    "beats per minute": 120,
-    "song duration (s)": 270,
-    "popularity": 86
+    "name": "Despacito (Luis Fonsi)",
+    "release year": 2019,
+    "beats per minute": 178,
+    "song duration (s)": 229,
+    "popularity": 80
   },
   {
-    "name": "Waves (Mr. Probz)",
-    "release year": 2013,
-    "beats per minute": 174,
-    "song duration (s)": 174,
-    "popularity": 59
-  },
-  {
-    "name": "Pompeii (Bastille)",
-    "release year": 2013,
-    "beats per minute": 127,
-    "song duration (s)": 214,
-    "popularity": 70
-  },
-  {
-    "name": "Layla (Derek & The Dominos)",
-    "release year": 2013,
-    "beats per minute": 114,
-    "song duration (s)": 163,
-    "popularity": 32
-  },
-  {
-    "name": "Strong (London Grammar)",
-    "release year": 2013,
-    "beats per minute": 78,
-    "song duration (s)": 266,
-    "popularity": 49
-  },
-  {
-    "name": "Papaoutai (Stromae)",
-    "release year": 2013,
-    "beats per minute": 116,
-    "song duration (s)": 232,
-    "popularity": 55
-  },
-  {
-    "name": "Let Her Go (Passenger)",
-    "release year": 2013,
-    "beats per minute": 75,
-    "song duration (s)": 253,
-    "popularity": 76
-  },
-  {
-    "name": "Diamonds (The Boxer Rebellion)",
-    "release year": 2013,
-    "beats per minute": 170,
-    "song duration (s)": 243,
-    "popularity": 35
-  },
-  {
-    "name": "Witch Doctor (De Staat)",
-    "release year": 2013,
-    "beats per minute": 145,
-    "song duration (s)": 207,
-    "popularity": 47
-  },
-  {
-    "name": "Dansen Op De Vulkaan (De Dijk)",
-    "release year": 2013,
-    "beats per minute": 151,
-    "song duration (s)": 269,
-    "popularity": 40
-  },
-  {
-    "name": "Love You Like I Love Myself (Herman Brood & His Wild Romance)",
-    "release year": 2013,
-    "beats per minute": 148,
-    "song duration (s)": 213,
-    "popularity": 28
-  },
-  {
-    "name": "This Is What It Feels Like (Armin van Buuren)",
-    "release year": 2013,
-    "beats per minute": 130,
-    "song duration (s)": 204,
-    "popularity": 65
-  },
-  {
-    "name": "I See Fire (Ed Sheeran)",
-    "release year": 2013,
-    "beats per minute": 76,
-    "song duration (s)": 301,
-    "popularity": 64
-  },
-  {
-    "name": "Hey Brother (Avicii)",
-    "release year": 2013,
-    "beats per minute": 125,
-    "song duration (s)": 255,
-    "popularity": 78
-  },
-  {
-    "name": "Another Love (Tom Odell)",
-    "release year": 2013,
-    "beats per minute": 123,
-    "song duration (s)": 244,
-    "popularity": 58
-  },
-  {
-    "name": "Do I Wanna Know? (Arctic Monkeys)",
-    "release year": 2013,
-    "beats per minute": 85,
-    "song duration (s)": 272,
-    "popularity": 82
-  },
-  {
-    "name": "Formidable (Stromae)",
-    "release year": 2013,
-    "beats per minute": 71,
-    "song duration (s)": 214,
-    "popularity": 49
-  },
-  {
-    "name": "Wake Me Up (Avicii)",
-    "release year": 2013,
-    "beats per minute": 124,
-    "song duration (s)": 247,
-    "popularity": 85
-  },
-  {
-    "name": "Lola Montez (Volbeat)",
-    "release year": 2013,
-    "beats per minute": 152,
-    "song duration (s)": 268,
-    "popularity": 57
-  },
-  {
-    "name": "Oceaan (Racoon)",
-    "release year": 2013,
-    "beats per minute": 126,
-    "song duration (s)": 165,
-    "popularity": 63
-  },
-  {
-    "name": "All I Want (Kodaline)",
-    "release year": 2013,
-    "beats per minute": 86,
-    "song duration (s)": 306,
-    "popularity": 72
-  },
-  {
-    "name": "Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit (Daft Punk)",
-    "release year": 2013,
-    "beats per minute": 116,
-    "song duration (s)": 248,
-    "popularity": 77
-  },
-  {
-    "name": "Things We Lost In The Fire (Bastille)",
-    "release year": 2013,
-    "beats per minute": 134,
+    "name": "Gangsta's Paradise (Coolio)",
+    "release year": 1995,
+    "beats per minute": 80,
     "song duration (s)": 241,
-    "popularity": 48
+    "popularity": 80
   },
   {
-    "name": "Addicted To You (Avicii)",
-    "release year": 2013,
-    "beats per minute": 128,
-    "song duration (s)": 148,
-    "popularity": 69
+    "name": "Faded (Alan Walker)",
+    "release year": 2018,
+    "beats per minute": 180,
+    "song duration (s)": 212,
+    "popularity": 80
   },
   {
-    "name": "Mijn Van Straat Geredde Roos (De Dijk)",
-    "release year": 2013,
-    "beats per minute": 81,
-    "song duration (s)": 208,
-    "popularity": 33
-  },
-  {
-    "name": "The Road To Mandalay (Robbie Williams)",
-    "release year": 2013,
-    "beats per minute": 99,
-    "song duration (s)": 240,
-    "popularity": 30
-  },
-  {
-    "name": "Blurred Lines (Robin Thicke)",
-    "release year": 2013,
-    "beats per minute": 120,
-    "song duration (s)": 264,
-    "popularity": 76
-  },
-  {
-    "name": "Grow Old with Me (Tom Odell)",
-    "release year": 2013,
-    "beats per minute": 146,
-    "song duration (s)": 183,
-    "popularity": 49
-  },
-  {
-    "name": "Foolish Games (Jewel)",
-    "release year": 2013,
-    "beats per minute": 131,
-    "song duration (s)": 243,
-    "popularity": 41
-  },
-  {
-    "name": "Animals (Martin Garrix)",
-    "release year": 2013,
-    "beats per minute": 128,
-    "song duration (s)": 304,
-    "popularity": 65
-  },
-  {
-    "name": "Everybody (Backstreet's Back) - Radio Edit (Backstreet Boys)",
-    "release year": 2013,
-    "beats per minute": 108,
-    "song duration (s)": 225,
-    "popularity": 62
-  },
-  {
-    "name": "I Sat By The Ocean (Queens of the Stone Age)",
-    "release year": 2013,
-    "beats per minute": 117,
-    "song duration (s)": 236,
-    "popularity": 66
-  },
-  {
-    "name": "A Ton of Love (Editors)",
-    "release year": 2013,
-    "beats per minute": 142,
-    "song duration (s)": 238,
-    "popularity": 26
-  },
-  {
-    "name": "tous les m\u00eames (Stromae)",
-    "release year": 2013,
-    "beats per minute": 110,
-    "song duration (s)": 211,
-    "popularity": 53
-  },
-  {
-    "name": "The Monster (Eminem)",
-    "release year": 2013,
-    "beats per minute": 110,
-    "song duration (s)": 250,
-    "popularity": 75
-  },
-  {
-    "name": "Watermensen (3JS)",
-    "release year": 2013,
-    "beats per minute": 144,
-    "song duration (s)": 209,
-    "popularity": 36
-  },
-  {
-    "name": "Sky and Sand (Paul Kalkbrenner)",
-    "release year": 2013,
+    "name": "Chop Suey! (System Of A Down)",
+    "release year": 2001,
     "beats per minute": 127,
-    "song duration (s)": 231,
-    "popularity": 67
+    "song duration (s)": 210,
+    "popularity": 80
   },
   {
-    "name": "Just Say Yes (Snow Patrol)",
-    "release year": 2013,
-    "beats per minute": 108,
-    "song duration (s)": 282,
-    "popularity": 48
+    "name": "Mr. Blue Sky (Electric Light Orchestra)",
+    "release year": 1977,
+    "beats per minute": 178,
+    "song duration (s)": 303,
+    "popularity": 80
   },
   {
-    "name": "Mirrors (Justin Timberlake)",
-    "release year": 2013,
-    "beats per minute": 77,
-    "song duration (s)": 484,
-    "popularity": 77
+    "name": "All Star (Smash Mouth)",
+    "release year": 1999,
+    "beats per minute": 104,
+    "song duration (s)": 200,
+    "popularity": 80
+  },
+  {
+    "name": "You Give Love A Bad Name (Bon Jovi)",
+    "release year": 1986,
+    "beats per minute": 123,
+    "song duration (s)": 223,
+    "popularity": 80
+  },
+  {
+    "name": "Don't Stop Believin' (Journey)",
+    "release year": 1981,
+    "beats per minute": 119,
+    "song duration (s)": 251,
+    "popularity": 80
+  },
+  {
+    "name": "November Rain (Guns N' Roses)",
+    "release year": 1991,
+    "beats per minute": 80,
+    "song duration (s)": 536,
+    "popularity": 80
+  },
+  {
+    "name": "Galway Girl (Ed Sheeran)",
+    "release year": 2017,
+    "beats per minute": 100,
+    "song duration (s)": 171,
+    "popularity": 80
+  },
+  {
+    "name": "Driving Home for Christmas (Chris Rea)",
+    "release year": 2007,
+    "beats per minute": 180,
+    "song duration (s)": 240,
+    "popularity": 80
+  },
+  {
+    "name": "Can't Stop (Red Hot Chili Peppers)",
+    "release year": 2002,
+    "beats per minute": 91,
+    "song duration (s)": 269,
+    "popularity": 80
+  },
+  {
+    "name": "Sign of the Times (Harry Styles)",
+    "release year": 2017,
+    "beats per minute": 120,
+    "song duration (s)": 341,
+    "popularity": 80
+  },
+  {
+    "name": "7 Years (Lukas Graham)",
+    "release year": 2016,
+    "beats per minute": 120,
+    "song duration (s)": 237,
+    "popularity": 80
+  },
+  {
+    "name": "Everybody Wants To Rule The World (Tears For Fears)",
+    "release year": 1985,
+    "beats per minute": 112,
+    "song duration (s)": 251,
+    "popularity": 80
+  },
+  {
+    "name": "Zombie (The Cranberries)",
+    "release year": 1994,
+    "beats per minute": 167,
+    "song duration (s)": 306,
+    "popularity": 80
+  },
+  {
+    "name": "Hey There Delilah (Plain White T's)",
+    "release year": 2005,
+    "beats per minute": 104,
+    "song duration (s)": 233,
+    "popularity": 80
   },
   {
     "name": "Story of My Life (One Direction)",
@@ -1946,753 +665,11 @@
     "popularity": 80
   },
   {
-    "name": "Royals (Lorde)",
-    "release year": 2013,
-    "beats per minute": 85,
-    "song duration (s)": 190,
-    "popularity": 79
-  },
-  {
-    "name": "I Will Wait (Mumford & Sons)",
-    "release year": 2012,
-    "beats per minute": 131,
-    "song duration (s)": 277,
-    "popularity": 69
-  },
-  {
-    "name": "Lover of the Light (Mumford & Sons)",
-    "release year": 2012,
-    "beats per minute": 107,
-    "song duration (s)": 315,
-    "popularity": 57
-  },
-  {
-    "name": "Can't Hold Us - feat. Ray Dalton (Macklemore & Ryan Lewis)",
-    "release year": 2012,
-    "beats per minute": 146,
-    "song duration (s)": 258,
-    "popularity": 83
-  },
-  {
-    "name": "Sovereign Light Caf\u00e9 (Keane)",
-    "release year": 2012,
-    "beats per minute": 123,
-    "song duration (s)": 219,
-    "popularity": 51
-  },
-  {
-    "name": "Madness (Muse)",
-    "release year": 2012,
-    "beats per minute": 180,
-    "song duration (s)": 281,
-    "popularity": 70
-  },
-  {
-    "name": "Wat Zou Je Doen? (BL\u00d8F)",
-    "release year": 2012,
-    "beats per minute": 184,
-    "song duration (s)": 291,
-    "popularity": 51
-  },
-  {
-    "name": "Droomland (Andre Hazes)",
-    "release year": 2012,
-    "beats per minute": 100,
-    "song duration (s)": 208,
-    "popularity": 42
-  },
-  {
-    "name": "Winter (Tori Amos)",
-    "release year": 2012,
-    "beats per minute": 78,
-    "song duration (s)": 345,
-    "popularity": 19
-  },
-  {
-    "name": "Tubular Bells (Mike Oldfield)",
-    "release year": 2012,
-    "beats per minute": 149,
-    "song duration (s)": 809,
-    "popularity": 31
-  },
-  {
-    "name": "Home Again (Kensington)",
-    "release year": 2012,
-    "beats per minute": 142,
-    "song duration (s)": 197,
-    "popularity": 44
-  },
-  {
-    "name": "Dodenrit (Drs. P)",
-    "release year": 2012,
-    "beats per minute": 148,
-    "song duration (s)": 312,
-    "popularity": 34
-  },
-  {
-    "name": "Try (P!nk)",
-    "release year": 2012,
-    "beats per minute": 104,
-    "song duration (s)": 248,
-    "popularity": 73
-  },
-  {
-    "name": "Just Give Me a Reason (feat. Nate Ruess) (P!nk)",
-    "release year": 2012,
-    "beats per minute": 95,
-    "song duration (s)": 243,
-    "popularity": 81
-  },
-  {
-    "name": "She (Elvis Costello)",
-    "release year": 2012,
-    "beats per minute": 131,
-    "song duration (s)": 188,
-    "popularity": 64
-  },
-  {
-    "name": "Demons (Imagine Dragons)",
-    "release year": 2012,
-    "beats per minute": 90,
-    "song duration (s)": 175,
-    "popularity": 73
-  },
-  {
-    "name": "Video Games - Remastered (Lana Del Rey)",
-    "release year": 2012,
-    "beats per minute": 122,
-    "song duration (s)": 282,
-    "popularity": 55
-  },
-  {
-    "name": "Radioactive (Imagine Dragons)",
-    "release year": 2012,
-    "beats per minute": 136,
-    "song duration (s)": 187,
-    "popularity": 73
-  },
-  {
-    "name": "Holiday In Spain (Counting Crows)",
-    "release year": 2012,
-    "beats per minute": 126,
-    "song duration (s)": 233,
-    "popularity": 56
-  },
-  {
-    "name": "Zo Stil (BL\u00d8F)",
-    "release year": 2012,
-    "beats per minute": 170,
-    "song duration (s)": 237,
-    "popularity": 54
-  },
-  {
-    "name": "Skyfall - Full Length (Adele)",
-    "release year": 2012,
-    "beats per minute": 76,
-    "song duration (s)": 286,
-    "popularity": 74
-  },
-  {
-    "name": "On Top Of The World (Imagine Dragons)",
-    "release year": 2012,
-    "beats per minute": 100,
-    "song duration (s)": 190,
-    "popularity": 66
-  },
-  {
-    "name": "San Quentin (Johnny Cash)",
-    "release year": 2012,
-    "beats per minute": 84,
-    "song duration (s)": 158,
-    "popularity": 27
-  },
-  {
-    "name": "Follow the Sun (Xavier Rudd)",
-    "release year": 2012,
-    "beats per minute": 124,
-    "song duration (s)": 255,
-    "popularity": 67
-  },
-  {
-    "name": "Flappie (Youp van 't Hek)",
-    "release year": 2012,
-    "beats per minute": 131,
-    "song duration (s)": 206,
-    "popularity": 52
-  },
-  {
-    "name": "Babel (Mumford & Sons)",
-    "release year": 2012,
-    "beats per minute": 80,
-    "song duration (s)": 209,
-    "popularity": 57
-  },
-  {
-    "name": "Euphoria (Loreen)",
-    "release year": 2012,
-    "beats per minute": 132,
-    "song duration (s)": 214,
-    "popularity": 56
-  },
-  {
-    "name": "Little Talks (Of Monsters and Men)",
-    "release year": 2012,
-    "beats per minute": 103,
-    "song duration (s)": 267,
-    "popularity": 75
-  },
-  {
-    "name": "It's Time (Imagine Dragons)",
-    "release year": 2012,
-    "beats per minute": 105,
-    "song duration (s)": 238,
-    "popularity": 66
-  },
-  {
-    "name": "Diamonds (Rihanna)",
-    "release year": 2012,
-    "beats per minute": 92,
-    "song duration (s)": 225,
-    "popularity": 67
-  },
-  {
-    "name": "Stay - Album Version (Edited) (Rihanna)",
-    "release year": 2012,
-    "beats per minute": 112,
-    "song duration (s)": 241,
-    "popularity": 66
-  },
-  {
-    "name": "Later Als Ik Groter Ben (BL\u00d8F)",
-    "release year": 2012,
-    "beats per minute": 130,
-    "song duration (s)": 205,
-    "popularity": 48
-  },
-  {
-    "name": "Home Again (Michael Kiwanuka)",
-    "release year": 2012,
-    "beats per minute": 85,
-    "song duration (s)": 212,
-    "popularity": 51
-  },
-  {
-    "name": "Hopeless Wanderer (Mumford & Sons)",
-    "release year": 2012,
-    "beats per minute": 154,
-    "song duration (s)": 308,
-    "popularity": 58
-  },
-  {
-    "name": "Clown (Emeli Sand\u00e9)",
-    "release year": 2012,
-    "beats per minute": 119,
-    "song duration (s)": 221,
-    "popularity": 46
-  },
-  {
-    "name": "Zaterdag (BL\u00d8F)",
-    "release year": 2012,
-    "beats per minute": 141,
-    "song duration (s)": 283,
-    "popularity": 41
-  },
-  {
-    "name": "Slapeloze Nachten (The Opposites)",
-    "release year": 2012,
-    "beats per minute": 112,
-    "song duration (s)": 229,
-    "popularity": 57
-  },
-  {
-    "name": "I Won't Give Up (Jason Mraz)",
-    "release year": 2012,
-    "beats per minute": 137,
-    "song duration (s)": 240,
-    "popularity": 72
-  },
-  {
-    "name": "When I Was Your Man (Bruno Mars)",
-    "release year": 2012,
-    "beats per minute": 73,
-    "song duration (s)": 214,
-    "popularity": 82
-  },
-  {
-    "name": "Hall of Fame (The Script)",
-    "release year": 2012,
-    "beats per minute": 85,
-    "song duration (s)": 203,
-    "popularity": 70
-  },
-  {
-    "name": "If You Could See Me Now (The Script)",
-    "release year": 2012,
-    "beats per minute": 100,
-    "song duration (s)": 220,
-    "popularity": 51
-  },
-  {
-    "name": "One Moment in Time (Whitney Houston)",
-    "release year": 2012,
-    "beats per minute": 155,
-    "song duration (s)": 285,
-    "popularity": 54
-  },
-  {
-    "name": "Lonely Boy (The Black Keys)",
-    "release year": 2011,
-    "beats per minute": 166,
-    "song duration (s)": 194,
-    "popularity": 73
-  },
-  {
-    "name": "Prachtig mooie dag (Dani\u00ebl Lohues)",
-    "release year": 2011,
-    "beats per minute": 103,
-    "song duration (s)": 161,
-    "popularity": 42
-  },
-  {
-    "name": "lippy kids (Elbow)",
-    "release year": 2011,
-    "beats per minute": 155,
-    "song duration (s)": 366,
-    "popularity": 29
-  },
-  {
-    "name": "Titanium (feat. Sia) (David Guetta)",
-    "release year": 2011,
-    "beats per minute": 126,
-    "song duration (s)": 245,
-    "popularity": 67
-  },
-  {
-    "name": "Faster (Within Temptation)",
-    "release year": 2011,
-    "beats per minute": 120,
-    "song duration (s)": 264,
-    "popularity": 53
-  },
-  {
-    "name": "Kan Ik Iets Voor Je Doen (De Dijk)",
-    "release year": 2011,
-    "beats per minute": 79,
-    "song duration (s)": 200,
-    "popularity": 30
-  },
-  {
-    "name": "Turning Tables (Adele)",
-    "release year": 2011,
-    "beats per minute": 80,
-    "song duration (s)": 250,
-    "popularity": 66
-  },
-  {
-    "name": "Luv U More - K&A's Radio blast (DJ Paul)",
-    "release year": 2011,
-    "beats per minute": 168,
-    "song duration (s)": 232,
-    "popularity": 51
-  },
-  {
-    "name": "Driver's Seat (Sniff 'n' The Tears)",
-    "release year": 2011,
-    "beats per minute": 133,
-    "song duration (s)": 239,
-    "popularity": 54
-  },
-  {
-    "name": "The A Team (Ed Sheeran)",
-    "release year": 2011,
-    "beats per minute": 85,
-    "song duration (s)": 258,
-    "popularity": 76
-  },
-  {
-    "name": "kom terug (Spinvis)",
-    "release year": 2011,
-    "beats per minute": 97,
-    "song duration (s)": 231,
-    "popularity": 47
-  },
-  {
-    "name": "Levels (Avicii)",
-    "release year": 2011,
-    "beats per minute": 126,
-    "song duration (s)": 339,
-    "popularity": 58
-  },
-  {
-    "name": "Walk (Foo Fighters)",
-    "release year": 2011,
-    "beats per minute": 138,
-    "song duration (s)": 256,
-    "popularity": 69
-  },
-  {
-    "name": "Little Black Submarines (The Black Keys)",
-    "release year": 2011,
-    "beats per minute": 95,
-    "song duration (s)": 251,
-    "popularity": 65
-  },
-  {
-    "name": "Still Loving You (Scorpions)",
-    "release year": 2011,
-    "beats per minute": 104,
-    "song duration (s)": 403,
-    "popularity": 72
-  },
-  {
-    "name": "A Boy Named Sue (Live) (Johnny Cash)",
-    "release year": 2011,
-    "beats per minute": 105,
-    "song duration (s)": 218,
-    "popularity": 18
-  },
-  {
-    "name": "Rood (Marco Borsato)",
-    "release year": 2011,
-    "beats per minute": 138,
-    "song duration (s)": 319,
-    "popularity": 53
-  },
-  {
-    "name": "Paradise (Coldplay)",
-    "release year": 2011,
-    "beats per minute": 140,
-    "song duration (s)": 279,
-    "popularity": 78
-  },
-  {
-    "name": "Somebody That I Used To Know (Gotye)",
-    "release year": 2011,
-    "beats per minute": 129,
-    "song duration (s)": 245,
-    "popularity": 76
-  },
-  {
-    "name": "Every Teardrop Is a Waterfall (Coldplay)",
-    "release year": 2011,
-    "beats per minute": 118,
-    "song duration (s)": 241,
-    "popularity": 68
-  },
-  {
-    "name": "Rainbow In The Sky - K & A's Radio Blast (DJ Paul Elstak)",
-    "release year": 2011,
-    "beats per minute": 168,
-    "song duration (s)": 213,
-    "popularity": 60
-  },
-  {
-    "name": "Set Fire to the Rain (Adele)",
-    "release year": 2011,
-    "beats per minute": 108,
-    "song duration (s)": 242,
-    "popularity": 75
-  },
-  {
-    "name": "Someone Like You (Adele)",
-    "release year": 2011,
-    "beats per minute": 135,
-    "song duration (s)": 285,
-    "popularity": 79
-  },
-  {
-    "name": "Zing Voor Me (Lange Frans)",
-    "release year": 2011,
-    "beats per minute": 82,
-    "song duration (s)": 216,
-    "popularity": 52
-  },
-  {
-    "name": "Rumour Has It (Adele)",
-    "release year": 2011,
-    "beats per minute": 120,
-    "song duration (s)": 221,
-    "popularity": 65
-  },
-  {
-    "name": "Waarom Nou Jij (Marco Borsato)",
-    "release year": 2011,
-    "beats per minute": 140,
-    "song duration (s)": 245,
-    "popularity": 40
-  },
-  {
-    "name": "Lego House (Ed Sheeran)",
-    "release year": 2011,
-    "beats per minute": 160,
-    "song duration (s)": 185,
-    "popularity": 71
-  },
-  {
-    "name": "I've Just Lost Somebody (Golden Earring)",
-    "release year": 2011,
-    "beats per minute": 88,
-    "song duration (s)": 189,
-    "popularity": 27
-  },
-  {
-    "name": "Charlie Brown (Coldplay)",
-    "release year": 2011,
-    "beats per minute": 138,
-    "song duration (s)": 285,
-    "popularity": 67
-  },
-  {
-    "name": "Mijn Vlakke Land (Jacques Brel)",
-    "release year": 2011,
-    "beats per minute": 79,
-    "song duration (s)": 173,
-    "popularity": 33
-  },
-  {
-    "name": "Terug Naar De Kust (Maggie MacNeal)",
-    "release year": 2011,
-    "beats per minute": 117,
-    "song duration (s)": 266,
-    "popularity": 39
-  },
-  {
-    "name": "Original Sin (INXS)",
-    "release year": 2011,
-    "beats per minute": 132,
-    "song duration (s)": 319,
-    "popularity": 42
-  },
-  {
-    "name": "These Days (Foo Fighters)",
-    "release year": 2011,
-    "beats per minute": 135,
-    "song duration (s)": 298,
-    "popularity": 64
-  },
-  {
-    "name": "Damn Those Eyes (Kane)",
-    "release year": 2011,
-    "beats per minute": 172,
-    "song duration (s)": 251,
-    "popularity": 39
-  },
-  {
-    "name": "Dust Bowl (Joe Bonamassa)",
-    "release year": 2011,
-    "beats per minute": 86,
-    "song duration (s)": 273,
-    "popularity": 44
-  },
-  {
-    "name": "Skinny Love (Birdy)",
-    "release year": 2011,
-    "beats per minute": 166,
-    "song duration (s)": 201,
-    "popularity": 75
-  },
-  {
-    "name": "Georgia on My Mind (Ray Charles)",
-    "release year": 2011,
-    "beats per minute": 131,
-    "song duration (s)": 215,
-    "popularity": 49
-  },
-  {
-    "name": "Love On Top (Beyonc\u00e9)",
-    "release year": 2011,
-    "beats per minute": 94,
-    "song duration (s)": 267,
-    "popularity": 76
-  },
-  {
-    "name": "Run the World (Girls) (Beyonc\u00e9)",
-    "release year": 2011,
-    "beats per minute": 127,
-    "song duration (s)": 236,
-    "popularity": 75
-  },
-  {
-    "name": "Ni**as In Paris (JAY-Z)",
-    "release year": 2011,
-    "beats per minute": 140,
-    "song duration (s)": 219,
-    "popularity": 77
-  },
-  {
-    "name": "Gold on the Ceiling (The Black Keys)",
-    "release year": 2011,
-    "beats per minute": 130,
-    "song duration (s)": 224,
-    "popularity": 69
-  },
-  {
-    "name": "Give Me Love (Ed Sheeran)",
-    "release year": 2011,
-    "beats per minute": 116,
-    "song duration (s)": 526,
-    "popularity": 73
-  },
-  {
-    "name": "Happiness (Jonathan Jeremiah)",
-    "release year": 2011,
-    "beats per minute": 89,
-    "song duration (s)": 182,
-    "popularity": 49
-  },
-  {
-    "name": "Pumped Up Kicks (Foster The People)",
-    "release year": 2011,
-    "beats per minute": 128,
-    "song duration (s)": 240,
-    "popularity": 84
-  },
-  {
-    "name": "Keep Your Head Up (Ben Howard)",
-    "release year": 2011,
-    "beats per minute": 79,
-    "song duration (s)": 265,
-    "popularity": 66
-  },
-  {
-    "name": "I Won' T Let You Down (Road Band)",
-    "release year": 2011,
-    "beats per minute": 106,
-    "song duration (s)": 233,
-    "popularity": 33
-  },
-  {
-    "name": "No Mercy (Racoon)",
-    "release year": 2010,
-    "beats per minute": 104,
-    "song duration (s)": 165,
-    "popularity": 36
-  },
-  {
-    "name": "Verdammt ich lieb dich - Remastered (Matthias Reim)",
-    "release year": 2010,
-    "beats per minute": 100,
-    "song duration (s)": 220,
-    "popularity": 38
-  },
-  {
-    "name": "Raise Your Glass (P!nk)",
-    "release year": 2010,
-    "beats per minute": 122,
-    "song duration (s)": 203,
-    "popularity": 76
-  },
-  {
-    "name": "A Night Like This (Caro Emerald)",
-    "release year": 2010,
-    "beats per minute": 123,
-    "song duration (s)": 226,
-    "popularity": 40
-  },
-  {
-    "name": "The Eve of the War (Jeff Wayne)",
-    "release year": 2010,
-    "beats per minute": 127,
-    "song duration (s)": 263,
-    "popularity": 28
-  },
-  {
-    "name": "Alors on danse (Stromae)",
-    "release year": 2010,
-    "beats per minute": 120,
-    "song duration (s)": 206,
-    "popularity": 61
-  },
-  {
-    "name": "Peter Gunn Theme (Emerson, Lake & Palmer)",
-    "release year": 2010,
-    "beats per minute": 131,
-    "song duration (s)": 217,
-    "popularity": 14
-  },
-  {
-    "name": "Why Tell Me Why (Anita Meyer)",
-    "release year": 2010,
-    "beats per minute": 112,
-    "song duration (s)": 214,
-    "popularity": 54
-  },
-  {
-    "name": "Liverpool Rain (Racoon)",
-    "release year": 2010,
-    "beats per minute": 183,
-    "song duration (s)": 266,
-    "popularity": 26
-  },
-  {
-    "name": "I Follow Rivers - Live @ Giel! (Triggerfinger)",
-    "release year": 2010,
+    "name": "With Or Without You - Remastered (U2)",
+    "release year": 1987,
     "beats per minute": 110,
-    "song duration (s)": 214,
-    "popularity": 42
-  },
-  {
-    "name": "Don't Give up the Fight (Racoon)",
-    "release year": 2010,
-    "beats per minute": 91,
-    "song duration (s)": 210,
-    "popularity": 27
-  },
-  {
-    "name": "Mag Het Licht Uit (De Dijk)",
-    "release year": 2010,
-    "beats per minute": 113,
-    "song duration (s)": 259,
-    "popularity": 43
-  },
-  {
-    "name": "Love Will Tear Us Apart - 2010 Remaster (Joy Division)",
-    "release year": 2010,
-    "beats per minute": 147,
-    "song duration (s)": 205,
-    "popularity": 64
-  },
-  {
-    "name": "The Promise You Made (Cock Robin)",
-    "release year": 2010,
-    "beats per minute": 117,
-    "song duration (s)": 227,
-    "popularity": 48
-  },
-  {
-    "name": "Christmas Lights (Coldplay)",
-    "release year": 2010,
-    "beats per minute": 131,
-    "song duration (s)": 242,
-    "popularity": 84
-  },
-  {
-    "name": "Wonderful Days (Charly Lownoise)",
-    "release year": 2010,
-    "beats per minute": 174,
-    "song duration (s)": 332,
-    "popularity": 37
-  },
-  {
-    "name": "Back Home (Golden Earring)",
-    "release year": 2010,
-    "beats per minute": 123,
-    "song duration (s)": 232,
-    "popularity": 37
-  },
-  {
-    "name": "Times Are Changing (DI-RECT)",
-    "release year": 2010,
-    "beats per minute": 123,
-    "song duration (s)": 206,
-    "popularity": 47
-  },
-  {
-    "name": "Proosten (Guus Meeuwis)",
-    "release year": 2010,
-    "beats per minute": 136,
-    "song duration (s)": 232,
-    "popularity": 49
+    "song duration (s)": 296,
+    "popularity": 80
   },
   {
     "name": "Just the Way You Are (Bruno Mars)",
@@ -2702,108 +679,129 @@
     "popularity": 80
   },
   {
-    "name": "Need You Now (Lady Antebellum)",
-    "release year": 2010,
-    "beats per minute": 108,
-    "song duration (s)": 236,
-    "popularity": 53
+    "name": "You Say (Lauren Daigle)",
+    "release year": 2018,
+    "beats per minute": 148,
+    "song duration (s)": 275,
+    "popularity": 80
   },
   {
-    "name": "Man Down (Rihanna)",
-    "release year": 2010,
-    "beats per minute": 156,
-    "song duration (s)": 267,
-    "popularity": 59
+    "name": "Snow (Hey Oh) (Red Hot Chili Peppers)",
+    "release year": 2006,
+    "beats per minute": 105,
+    "song duration (s)": 335,
+    "popularity": 80
   },
   {
-    "name": "Pyro (Kings of Leon)",
-    "release year": 2010,
-    "beats per minute": 115,
-    "song duration (s)": 251,
-    "popularity": 66
+    "name": "Basket Case (Green Day)",
+    "release year": 1994,
+    "beats per minute": 85,
+    "song duration (s)": 182,
+    "popularity": 79
   },
   {
-    "name": "You Got It (Roy Orbison)",
-    "release year": 2010,
-    "beats per minute": 115,
-    "song duration (s)": 204,
-    "popularity": 44
+    "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus) (Mark Ronson)",
+    "release year": 2018,
+    "beats per minute": 114,
+    "song duration (s)": 217,
+    "popularity": 79
   },
   {
-    "name": "Atmosphere - 2010 Remaster (Joy Division)",
-    "release year": 2010,
-    "beats per minute": 120,
-    "song duration (s)": 249,
-    "popularity": 51
+    "name": "Brown Eyed Girl (Van Morrison)",
+    "release year": 1967,
+    "beats per minute": 151,
+    "song duration (s)": 183,
+    "popularity": 79
   },
   {
-    "name": "Grenade (Bruno Mars)",
-    "release year": 2010,
-    "beats per minute": 110,
-    "song duration (s)": 223,
-    "popularity": 75
-  },
-  {
-    "name": "Have You Ever Been Mellow (Party Animals)",
-    "release year": 2010,
-    "beats per minute": 172,
-    "song duration (s)": 188,
-    "popularity": 47
-  },
-  {
-    "name": "Back Down South (Kings of Leon)",
-    "release year": 2010,
-    "beats per minute": 117,
-    "song duration (s)": 241,
-    "popularity": 58
-  },
-  {
-    "name": "Riverside (Agnes Obel)",
-    "release year": 2010,
-    "beats per minute": 99,
+    "name": "Wake Me up Before You Go-Go (Wham!)",
+    "release year": 1984,
+    "beats per minute": 82,
     "song duration (s)": 231,
-    "popularity": 48
+    "popularity": 79
   },
   {
-    "name": "Hold On Tight (Solomon Burke)",
-    "release year": 2010,
-    "beats per minute": 89,
-    "song duration (s)": 324,
-    "popularity": 38
-  },
-  {
-    "name": "Mag Ik Dan Bij Jou (Claudia De Breij)",
-    "release year": 2010,
-    "beats per minute": 132,
-    "song duration (s)": 206,
-    "popularity": 53
-  },
-  {
-    "name": "Sterrenstof (De Jeugd Van Tegenwoordig)",
-    "release year": 2010,
-    "beats per minute": 97,
-    "song duration (s)": 221,
-    "popularity": 48
-  },
-  {
-    "name": "Dat Komt Door Jou (Guus Meeuwis)",
-    "release year": 2010,
-    "beats per minute": 134,
-    "song duration (s)": 287,
-    "popularity": 57
-  },
-  {
-    "name": "Moonlight Shadow (Mike Oldfield)",
-    "release year": 2009,
-    "beats per minute": 129,
-    "song duration (s)": 218,
-    "popularity": 64
+    "name": "Royals (Lorde)",
+    "release year": 2013,
+    "beats per minute": 85,
+    "song duration (s)": 190,
+    "popularity": 79
   },
   {
     "name": "Fireflies (Owl City)",
     "release year": 2009,
     "beats per minute": 180,
     "song duration (s)": 228,
+    "popularity": 79
+  },
+  {
+    "name": "Castle on the Hill (Ed Sheeran)",
+    "release year": 2017,
+    "beats per minute": 135,
+    "song duration (s)": 261,
+    "popularity": 79
+  },
+  {
+    "name": "I'm Still Standing (Elton John)",
+    "release year": 1983,
+    "beats per minute": 177,
+    "song duration (s)": 183,
+    "popularity": 79
+  },
+  {
+    "name": "All The Small Things (blink-182)",
+    "release year": 1999,
+    "beats per minute": 149,
+    "song duration (s)": 167,
+    "popularity": 79
+  },
+  {
+    "name": "Tiny Dancer (Elton John)",
+    "release year": 1971,
+    "beats per minute": 145,
+    "song duration (s)": 377,
+    "popularity": 79
+  },
+  {
+    "name": "Should I Stay or Should I Go - Remastered (The Clash)",
+    "release year": 1982,
+    "beats per minute": 113,
+    "song duration (s)": 189,
+    "popularity": 79
+  },
+  {
+    "name": "Hey Ya! (OutKast)",
+    "release year": 2003,
+    "beats per minute": 80,
+    "song duration (s)": 235,
+    "popularity": 79
+  },
+  {
+    "name": "Sex on Fire (Kings of Leon)",
+    "release year": 2008,
+    "beats per minute": 153,
+    "song duration (s)": 203,
+    "popularity": 79
+  },
+  {
+    "name": "Come Together - Remastered 2009 (The Beatles)",
+    "release year": 1969,
+    "beats per minute": 165,
+    "song duration (s)": 260,
+    "popularity": 79
+  },
+  {
+    "name": "Let It Be - Remastered 2009 (The Beatles)",
+    "release year": 1970,
+    "beats per minute": 143,
+    "song duration (s)": 243,
+    "popularity": 79
+  },
+  {
+    "name": "Stairway to Heaven - Remaster (Led Zeppelin)",
+    "release year": 1971,
+    "beats per minute": 82,
+    "song duration (s)": 483,
     "popularity": 79
   },
   {
@@ -2814,311 +812,17 @@
     "popularity": 79
   },
   {
-    "name": "Little Lion Man (Mumford & Sons)",
-    "release year": 2009,
-    "beats per minute": 139,
-    "song duration (s)": 247,
-    "popularity": 67
-  },
-  {
-    "name": "21 Guns (Green Day)",
-    "release year": 2009,
-    "beats per minute": 160,
-    "song duration (s)": 321,
-    "popularity": 75
-  },
-  {
-    "name": "Just Breathe (Pearl Jam)",
-    "release year": 2009,
-    "beats per minute": 108,
-    "song duration (s)": 216,
-    "popularity": 69
-  },
-  {
-    "name": "La Isla Bonita (Madonna)",
-    "release year": 2009,
-    "beats per minute": 100,
-    "song duration (s)": 243,
-    "popularity": 66
-  },
-  {
-    "name": "Go Like Elijah (Chi Coltrane)",
-    "release year": 2009,
-    "beats per minute": 134,
-    "song duration (s)": 242,
-    "popularity": 40
-  },
-  {
-    "name": "Sorry - (Live in Tivoli) (Kyteman)",
-    "release year": 2009,
-    "beats per minute": 68,
-    "song duration (s)": 150,
-    "popularity": 47
-  },
-  {
-    "name": "Frozen (Madonna)",
-    "release year": 2009,
-    "beats per minute": 108,
-    "song duration (s)": 379,
-    "popularity": 55
-  },
-  {
-    "name": "Ruthless Queen (Kayak)",
-    "release year": 2009,
-    "beats per minute": 124,
-    "song duration (s)": 291,
-    "popularity": 32
-  },
-  {
-    "name": "Heavy Cross (Gossip)",
-    "release year": 2009,
-    "beats per minute": 120,
-    "song duration (s)": 243,
-    "popularity": 59
-  },
-  {
-    "name": "Leave the Light On (Beth Hart)",
-    "release year": 2009,
-    "beats per minute": 142,
-    "song duration (s)": 244,
-    "popularity": 32
-  },
-  {
-    "name": "Uprising (Muse)",
-    "release year": 2009,
-    "beats per minute": 128,
-    "song duration (s)": 305,
-    "popularity": 76
-  },
-  {
-    "name": "Vogue (Madonna)",
-    "release year": 2009,
-    "beats per minute": 116,
-    "song duration (s)": 317,
-    "popularity": 66
-  },
-  {
-    "name": "Empire State of Mind (Part II) Broken Down (Alicia Keys)",
-    "release year": 2009,
-    "beats per minute": 93,
-    "song duration (s)": 216,
-    "popularity": 75
-  },
-  {
-    "name": "Everlong - Acoustic Version (Foo Fighters)",
-    "release year": 2009,
-    "beats per minute": 144,
-    "song duration (s)": 251,
-    "popularity": 69
-  },
-  {
-    "name": "Grounds for Divorce (Elbow)",
-    "release year": 2009,
-    "beats per minute": 92,
-    "song duration (s)": 219,
-    "popularity": 43
-  },
-  {
-    "name": "Like a Prayer (Madonna)",
-    "release year": 2009,
-    "beats per minute": 111,
-    "song duration (s)": 343,
-    "popularity": 71
-  },
-  {
-    "name": "Sweet Goodbyes (Krezip)",
-    "release year": 2009,
-    "beats per minute": 110,
-    "song duration (s)": 193,
-    "popularity": 56
-  },
-  {
-    "name": "Hallelujah (Lisa Lois)",
-    "release year": 2009,
-    "beats per minute": 182,
-    "song duration (s)": 226,
-    "popularity": 49
-  },
-  {
-    "name": "Ben Ik Te Min (Armand)",
-    "release year": 2009,
-    "beats per minute": 101,
-    "song duration (s)": 208,
-    "popularity": 47
-  },
-  {
-    "name": "Sweet Disposition (The Temper Trap)",
-    "release year": 2009,
-    "beats per minute": 129,
-    "song duration (s)": 231,
-    "popularity": 64
-  },
-  {
-    "name": "You're The First, The Last, My Everything (Barry White)",
-    "release year": 2009,
-    "beats per minute": 131,
-    "song duration (s)": 213,
-    "popularity": 67
-  },
-  {
-    "name": "Magnificent (U2)",
-    "release year": 2009,
-    "beats per minute": 115,
-    "song duration (s)": 324,
-    "popularity": 44
-  },
-  {
-    "name": "The Eyes of Jenny (Sandy Coast)",
-    "release year": 2009,
-    "beats per minute": 119,
-    "song duration (s)": 264,
-    "popularity": 44
-  },
-  {
-    "name": "Dog Days Are Over (Florence + The Machine)",
-    "release year": 2009,
-    "beats per minute": 150,
-    "song duration (s)": 252,
-    "popularity": 69
-  },
-  {
-    "name": "Working On a Dream (Bruce Springsteen)",
-    "release year": 2009,
-    "beats per minute": 110,
-    "song duration (s)": 209,
-    "popularity": 48
-  },
-  {
-    "name": "I Gotta Feeling (The Black Eyed Peas)",
-    "release year": 2009,
-    "beats per minute": 128,
-    "song duration (s)": 289,
-    "popularity": 69
-  },
-  {
-    "name": "Stuck In The Middle With You (Stealers Wheel)",
-    "release year": 2009,
-    "beats per minute": 124,
-    "song duration (s)": 204,
-    "popularity": 72
-  },
-  {
-    "name": "Farewell To The Fairground (White Lies)",
-    "release year": 2009,
-    "beats per minute": 118,
-    "song duration (s)": 257,
-    "popularity": 54
-  },
-  {
-    "name": "Empire State Of Mind (JAY-Z)",
-    "release year": 2009,
-    "beats per minute": 174,
-    "song duration (s)": 277,
-    "popularity": 77
-  },
-  {
-    "name": "Papillon (Editors)",
-    "release year": 2009,
-    "beats per minute": 126,
-    "song duration (s)": 324,
-    "popularity": 56
-  },
-  {
-    "name": "One Day Like This (Elbow)",
-    "release year": 2009,
-    "beats per minute": 159,
-    "song duration (s)": 394,
-    "popularity": 45
-  },
-  {
-    "name": "Heartbreak Warfare (John Mayer)",
-    "release year": 2009,
-    "beats per minute": 97,
-    "song duration (s)": 270,
-    "popularity": 66
-  },
-  {
-    "name": "Not An Addict (K's Choice)",
-    "release year": 2009,
-    "beats per minute": 169,
-    "song duration (s)": 288,
-    "popularity": 43
-  },
-  {
-    "name": "Resistance (Muse)",
-    "release year": 2009,
+    "name": "Someone Like You (Adele)",
+    "release year": 2011,
     "beats per minute": 135,
-    "song duration (s)": 347,
-    "popularity": 63
+    "song duration (s)": 285,
+    "popularity": 79
   },
   {
-    "name": "Voltooid Verleden Tijd (IOS)",
-    "release year": 2009,
-    "beats per minute": 138,
-    "song duration (s)": 294,
-    "popularity": 39
-  },
-  {
-    "name": "Meer Dan Een Ander (Van Dik Hout)",
-    "release year": 2009,
-    "beats per minute": 94,
-    "song duration (s)": 223,
-    "popularity": 34
-  },
-  {
-    "name": "The Cave (Mumford & Sons)",
-    "release year": 2009,
-    "beats per minute": 142,
-    "song duration (s)": 218,
-    "popularity": 67
-  },
-  {
-    "name": "Undisclosed Desires (Muse)",
-    "release year": 2009,
-    "beats per minute": 116,
-    "song duration (s)": 235,
-    "popularity": 65
-  },
-  {
-    "name": "Traffic - Radio Edit (Ti\u00ebsto)",
-    "release year": 2009,
-    "beats per minute": 138,
-    "song duration (s)": 177,
-    "popularity": 53
-  },
-  {
-    "name": "Dear Mr. President (P!nk)",
-    "release year": 2009,
-    "beats per minute": 128,
-    "song duration (s)": 281,
-    "popularity": 43
-  },
-  {
-    "name": "Human (The Killers)",
-    "release year": 2008,
-    "beats per minute": 135,
-    "song duration (s)": 245,
-    "popularity": 73
-  },
-  {
-    "name": "Halt mich (Herbert Gr\u00f6nemeyer)",
-    "release year": 2008,
-    "beats per minute": 104,
-    "song duration (s)": 207,
-    "popularity": 44
-  },
-  {
-    "name": "Free Fallin' - Live at the Nokia Theatre, Los Angeles, CA - December 2007 (John Mayer)",
-    "release year": 2008,
-    "beats per minute": 173,
-    "song duration (s)": 264,
-    "popularity": 75
-  },
-  {
-    "name": "Viva La Vida (Coldplay)",
-    "release year": 2008,
-    "beats per minute": 138,
-    "song duration (s)": 242,
+    "name": "American Idiot (Green Day)",
+    "release year": 2004,
+    "beats per minute": 186,
+    "song duration (s)": 176,
     "popularity": 78
   },
   {
@@ -3129,3874 +833,10 @@
     "popularity": 78
   },
   {
-    "name": "Violet Hill (Coldplay)",
-    "release year": 2008,
-    "beats per minute": 76,
-    "song duration (s)": 223,
-    "popularity": 61
-  },
-  {
-    "name": "Limburg - Live (Rowwen H\u00e8ze)",
-    "release year": 2008,
-    "beats per minute": 157,
-    "song duration (s)": 403,
-    "popularity": 32
-  },
-  {
-    "name": "Lost! (Coldplay)",
-    "release year": 2008,
-    "beats per minute": 87,
-    "song duration (s)": 236,
-    "popularity": 53
-  },
-  {
-    "name": "Stiekem Gedanst (Toontje Lager)",
-    "release year": 2008,
-    "beats per minute": 96,
-    "song duration (s)": 215,
-    "popularity": 53
-  },
-  {
-    "name": "The Man Who Can't Be Moved (The Script)",
-    "release year": 2008,
-    "beats per minute": 100,
-    "song duration (s)": 241,
-    "popularity": 64
-  },
-  {
-    "name": "Hometown Glory (Adele)",
-    "release year": 2008,
-    "beats per minute": 123,
-    "song duration (s)": 269,
-    "popularity": 59
-  },
-  {
-    "name": "Mensch (Herbert Gr\u00f6nemeyer)",
-    "release year": 2008,
-    "beats per minute": 174,
-    "song duration (s)": 270,
-    "popularity": 47
-  },
-  {
-    "name": "Alie (Normaal)",
-    "release year": 2008,
-    "beats per minute": 93,
-    "song duration (s)": 181,
-    "popularity": 42
-  },
-  {
-    "name": "A Gentleman's Excuse Me (Fish)",
-    "release year": 2008,
-    "beats per minute": 126,
-    "song duration (s)": 259,
-    "popularity": 44
-  },
-  {
-    "name": "Dochters (Marco Borsato)",
-    "release year": 2008,
-    "beats per minute": 128,
-    "song duration (s)": 270,
-    "popularity": 57
-  },
-  {
-    "name": "So Incredible (Ilse DeLange)",
-    "release year": 2008,
-    "beats per minute": 104,
-    "song duration (s)": 177,
-    "popularity": 54
-  },
-  {
-    "name": "Breakeven (The Script)",
-    "release year": 2008,
-    "beats per minute": 94,
-    "song duration (s)": 261,
-    "popularity": 74
-  },
-  {
-    "name": "You're the Voice (John Farnham)",
-    "release year": 2008,
-    "beats per minute": 85,
-    "song duration (s)": 302,
-    "popularity": 62
-  },
-  {
-    "name": "Single Ladies (Put a Ring on It) (Beyonc\u00e9)",
-    "release year": 2008,
-    "beats per minute": 193,
-    "song duration (s)": 193,
-    "popularity": 70
-  },
-  {
-    "name": "It's Raining Men (The Weather Girls)",
-    "release year": 2008,
-    "beats per minute": 136,
-    "song duration (s)": 212,
-    "popularity": 58
-  },
-  {
-    "name": "Watskeburt?! (De Jeugd Van Tegenwoordig)",
-    "release year": 2008,
-    "beats per minute": 130,
-    "song duration (s)": 376,
-    "popularity": 55
-  },
-  {
-    "name": "Use Somebody (Kings of Leon)",
-    "release year": 2008,
-    "beats per minute": 137,
-    "song duration (s)": 231,
-    "popularity": 76
-  },
-  {
-    "name": "Pa (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 129,
-    "song duration (s)": 219,
-    "popularity": 41
-  },
-  {
-    "name": "Der Weg (Herbert Gr\u00f6nemeyer)",
-    "release year": 2008,
-    "beats per minute": 142,
-    "song duration (s)": 259,
-    "popularity": 48
-  },
-  {
-    "name": "If I Were a Boy (Beyonc\u00e9)",
-    "release year": 2008,
-    "beats per minute": 90,
-    "song duration (s)": 249,
-    "popularity": 68
-  },
-  {
-    "name": "Une Belle Histoire (Een Mooi Verhaal) (Alderliefste)",
-    "release year": 2008,
-    "beats per minute": 87,
-    "song duration (s)": 268,
-    "popularity": 38
-  },
-  {
-    "name": "Sinds 1 Dag Of 2 (32 Jaar) (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 114,
-    "song duration (s)": 201,
-    "popularity": 53
-  },
-  {
-    "name": "Hollereer (De Jeugd Van Tegenwoordig)",
-    "release year": 2008,
-    "beats per minute": 190,
-    "song duration (s)": 346,
-    "popularity": 46
-  },
-  {
-    "name": "Is Dit Alles (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 121,
-    "song duration (s)": 324,
-    "popularity": 44
-  },
-  {
-    "name": "The Unforgiven III (Metallica)",
-    "release year": 2008,
-    "beats per minute": 122,
-    "song duration (s)": 467,
-    "popularity": 52
-  },
-  {
-    "name": "Oerend Hard (Normaal)",
-    "release year": 2008,
-    "beats per minute": 127,
-    "song duration (s)": 225,
-    "popularity": 52
-  },
-  {
-    "name": "Poker Face (Lady Gaga)",
-    "release year": 2008,
-    "beats per minute": 119,
-    "song duration (s)": 237,
-    "popularity": 69
-  },
-  {
-    "name": "Life in Technicolor ii (Coldplay)",
-    "release year": 2008,
-    "beats per minute": 131,
-    "song duration (s)": 245,
-    "popularity": 47
-  },
-  {
-    "name": "Sound Of The Screameng Day (Golden Earrings)",
-    "release year": 2008,
-    "beats per minute": 138,
-    "song duration (s)": 171,
-    "popularity": 26
-  },
-  {
-    "name": "Belfast Child (Simple Minds)",
-    "release year": 2008,
-    "beats per minute": 81,
-    "song duration (s)": 404,
-    "popularity": 43
-  },
-  {
-    "name": "Miracle (Ilse DeLange)",
-    "release year": 2008,
-    "beats per minute": 130,
-    "song duration (s)": 270,
-    "popularity": 50
-  },
-  {
-    "name": "Sweet Jane (Lou Reed)",
-    "release year": 2008,
-    "beats per minute": 115,
-    "song duration (s)": 331,
-    "popularity": 43
-  },
-  {
-    "name": "Goin To The Run (Golden Earring)",
-    "release year": 2008,
-    "beats per minute": 124,
-    "song duration (s)": 236,
-    "popularity": 38
-  },
-  {
-    "name": "Sex on Fire (Kings of Leon)",
-    "release year": 2008,
-    "beats per minute": 153,
-    "song duration (s)": 203,
-    "popularity": 79
-  },
-  {
-    "name": "De Bom (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 133,
-    "song duration (s)": 161,
-    "popularity": 49
-  },
-  {
-    "name": "Smoorverliefd (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 166,
-    "song duration (s)": 195,
-    "popularity": 48
-  },
-  {
-    "name": "Make You Feel My Love (Adele)",
-    "release year": 2008,
-    "beats per minute": 77,
-    "song duration (s)": 212,
-    "popularity": 73
-  },
-  {
-    "name": "Where Do You Go To (My Lovely) - Re-Recorded (Peter Sarstedt)",
-    "release year": 2008,
-    "beats per minute": 183,
-    "song duration (s)": 288,
-    "popularity": 58
-  },
-  {
-    "name": "Nederwiet (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 131,
-    "song duration (s)": 414,
-    "popularity": 39
-  },
-  {
-    "name": "Mary Jane's Last Dance (Tom Petty and the Heartbreakers)",
-    "release year": 2008,
-    "beats per minute": 170,
-    "song duration (s)": 274,
-    "popularity": 72
-  },
-  {
-    "name": "Bombay (Golden Earring)",
-    "release year": 2008,
-    "beats per minute": 125,
-    "song duration (s)": 234,
-    "popularity": 34
-  },
-  {
-    "name": "TRUE - Single Edit (Spandau Ballet)",
-    "release year": 2008,
-    "beats per minute": 97,
-    "song duration (s)": 328,
-    "popularity": 72
-  },
-  {
-    "name": "Belle H\u00e9l\u00e8ne (Doe Maar)",
-    "release year": 2008,
-    "beats per minute": 138,
-    "song duration (s)": 170,
-    "popularity": 49
-  },
-  {
-    "name": "Nutbush City Limits (Ike & Tina Turner)",
-    "release year": 2008,
-    "beats per minute": 77,
-    "song duration (s)": 182,
-    "popularity": 56
-  },
-  {
-    "name": "The Wild Rover (The Dubliners)",
-    "release year": 2008,
-    "beats per minute": 178,
-    "song duration (s)": 249,
-    "popularity": 46
-  },
-  {
-    "name": "Chasing Pavements (Adele)",
-    "release year": 2008,
-    "beats per minute": 80,
-    "song duration (s)": 211,
-    "popularity": 63
-  },
-  {
-    "name": "Another 45 Miles (Golden Earring)",
-    "release year": 2008,
-    "beats per minute": 91,
-    "song duration (s)": 284,
-    "popularity": 50
-  },
-  {
-    "name": "Hier Kom Ik Weg (Dani\u00ebl Lohues)",
-    "release year": 2008,
-    "beats per minute": 92,
-    "song duration (s)": 208,
-    "popularity": 39
-  },
-  {
-    "name": "I'm Yours (Jason Mraz)",
-    "release year": 2008,
-    "beats per minute": 151,
-    "song duration (s)": 242,
-    "popularity": 82
-  },
-  {
-    "name": "Kijk Omhoog (Nick & Simon)",
-    "release year": 2007,
-    "beats per minute": 166,
-    "song duration (s)": 176,
-    "popularity": 48
-  },
-  {
-    "name": "Black Magic Woman (Santana)",
-    "release year": 2007,
-    "beats per minute": 124,
-    "song duration (s)": 196,
-    "popularity": 62
-  },
-  {
-    "name": "Europa (Earth's Cry Heaven's Smile) (Santana)",
-    "release year": 2007,
-    "beats per minute": 75,
-    "song duration (s)": 306,
-    "popularity": 59
-  },
-  {
-    "name": "The Pretender (Foo Fighters)",
-    "release year": 2007,
-    "beats per minute": 173,
-    "song duration (s)": 269,
-    "popularity": 76
-  },
-  {
-    "name": "Ruby (Kaiser Chiefs)",
-    "release year": 2007,
-    "beats per minute": 93,
-    "song duration (s)": 203,
-    "popularity": 62
-  },
-  {
-    "name": "This Is The Life (Amy Macdonald)",
-    "release year": 2007,
-    "beats per minute": 95,
-    "song duration (s)": 184,
-    "popularity": 41
-  },
-  {
-    "name": "Iedereen Is Van De Wereld (The Scene)",
-    "release year": 2007,
-    "beats per minute": 118,
-    "song duration (s)": 228,
-    "popularity": 50
-  },
-  {
-    "name": "Fluorescent Adolescent (Arctic Monkeys)",
-    "release year": 2007,
-    "beats per minute": 112,
-    "song duration (s)": 173,
-    "popularity": 66
-  },
-  {
-    "name": "I Don't Wanna Hurt (Anouk)",
-    "release year": 2007,
-    "beats per minute": 79,
-    "song duration (s)": 213,
-    "popularity": 46
-  },
-  {
-    "name": "Smokers Outside the Hospital Doors (Editors)",
-    "release year": 2007,
-    "beats per minute": 123,
-    "song duration (s)": 298,
-    "popularity": 56
-  },
-  {
-    "name": "Big Log - 2006 Remaster (Robert Plant)",
-    "release year": 2007,
-    "beats per minute": 181,
-    "song duration (s)": 306,
-    "popularity": 57
-  },
-  {
-    "name": "Make It Wit Chu (Queens of the Stone Age)",
-    "release year": 2007,
-    "beats per minute": 92,
-    "song duration (s)": 290,
-    "popularity": 59
-  },
-  {
-    "name": "Iris (The Goo Goo Dolls)",
-    "release year": 2007,
-    "beats per minute": 156,
-    "song duration (s)": 290,
-    "popularity": 75
-  },
-  {
-    "name": "Mr Rock & Roll (Amy Macdonald)",
-    "release year": 2007,
-    "beats per minute": 111,
-    "song duration (s)": 215,
-    "popularity": 30
-  },
-  {
-    "name": "The Racing Rats (Editors)",
-    "release year": 2007,
-    "beats per minute": 153,
-    "song duration (s)": 258,
-    "popularity": 43
-  },
-  {
-    "name": "De Vondeling Van Ameland (Boudewijn de Groot)",
-    "release year": 2007,
-    "beats per minute": 110,
-    "song duration (s)": 306,
-    "popularity": 19
-  },
-  {
-    "name": "Tranen Gelachen (Guus Meeuwis)",
-    "release year": 2007,
-    "beats per minute": 186,
-    "song duration (s)": 203,
-    "popularity": 50
-  },
-  {
-    "name": "Forever Autumn (Jeff Wayne)",
-    "release year": 2007,
-    "beats per minute": 122,
-    "song duration (s)": 273,
-    "popularity": 41
-  },
-  {
-    "name": "An End Has a Start (Editors)",
-    "release year": 2007,
-    "beats per minute": 150,
-    "song duration (s)": 226,
-    "popularity": 53
-  },
-  {
-    "name": "Blauw (The Scene)",
-    "release year": 2007,
-    "beats per minute": 135,
-    "song duration (s)": 236,
-    "popularity": 47
-  },
-  {
-    "name": "Rosie (Claw Boys Claw)",
-    "release year": 2007,
-    "beats per minute": 100,
-    "song duration (s)": 264,
-    "popularity": 43
-  },
-  {
-    "name": "Modern World (Anouk)",
-    "release year": 2007,
-    "beats per minute": 120,
-    "song duration (s)": 210,
-    "popularity": 42
-  },
-  {
-    "name": "Driving Home for Christmas (Chris Rea)",
-    "release year": 2007,
-    "beats per minute": 180,
-    "song duration (s)": 240,
-    "popularity": 80
-  },
-  {
-    "name": "Father & Friend (Alain Clark)",
-    "release year": 2007,
-    "beats per minute": 98,
-    "song duration (s)": 256,
-    "popularity": 35
-  },
-  {
-    "name": "Sad Man's Tongue (Volbeat)",
-    "release year": 2007,
-    "beats per minute": 110,
-    "song duration (s)": 186,
-    "popularity": 57
-  },
-  {
-    "name": "Valerie (feat. Amy Winehouse) - Version Revisited (Mark Ronson)",
-    "release year": 2007,
-    "beats per minute": 106,
-    "song duration (s)": 219,
-    "popularity": 62
-  },
-  {
-    "name": "Society (Eddie Vedder)",
-    "release year": 2007,
-    "beats per minute": 162,
-    "song duration (s)": 236,
-    "popularity": 67
-  },
-  {
-    "name": "Kids (MGMT)",
-    "release year": 2007,
-    "beats per minute": 123,
-    "song duration (s)": 303,
-    "popularity": 76
-  },
-  {
-    "name": "Pak Maar M'n Hand (Nick & Simon)",
-    "release year": 2007,
-    "beats per minute": 166,
-    "song duration (s)": 212,
-    "popularity": 59
-  },
-  {
-    "name": "All Summer Long (Kid Rock)",
-    "release year": 2007,
-    "beats per minute": 103,
-    "song duration (s)": 298,
-    "popularity": 72
-  },
-  {
-    "name": "Changes (2Pac)",
-    "release year": 2007,
-    "beats per minute": 111,
-    "song duration (s)": 269,
-    "popularity": 72
-  },
-  {
-    "name": "Hard Sun (Eddie Vedder)",
-    "release year": 2007,
-    "beats per minute": 143,
-    "song duration (s)": 322,
-    "popularity": 66
-  },
-  {
-    "name": "Going To A Town (Rufus Wainwright)",
-    "release year": 2007,
-    "beats per minute": 124,
-    "song duration (s)": 245,
-    "popularity": 38
-  },
-  {
-    "name": "Alles Is Liefde (BL\u00d8F)",
-    "release year": 2007,
-    "beats per minute": 144,
-    "song duration (s)": 210,
-    "popularity": 36
-  },
-  {
-    "name": "Sandstorm - Radio Edit (Darude)",
-    "release year": 2007,
-    "beats per minute": 136,
-    "song duration (s)": 225,
-    "popularity": 61
-  },
-  {
-    "name": "Everything (Michael Bubl\u00e9)",
-    "release year": 2007,
-    "beats per minute": 123,
-    "song duration (s)": 212,
-    "popularity": 73
-  },
-  {
-    "name": "Zing - Vecht - Huil - Bid - Lach - Werk En Bewonder (Ramses Shaffy)",
-    "release year": 2006,
-    "beats per minute": 130,
-    "song duration (s)": 281,
-    "popularity": 41
-  },
-  {
-    "name": "Time To Say Goodbye (Con Te Partir\u00f2) (Sarah Brightman)",
-    "release year": 2006,
-    "beats per minute": 105,
-    "song duration (s)": 246,
-    "popularity": 59
-  },
-  {
-    "name": "Starlight (Muse)",
-    "release year": 2006,
-    "beats per minute": 122,
-    "song duration (s)": 240,
-    "popularity": 73
-  },
-  {
-    "name": "Gravity (John Mayer)",
-    "release year": 2006,
-    "beats per minute": 124,
-    "song duration (s)": 246,
-    "popularity": 75
-  },
-  {
-    "name": "Zonder Jou (Paul de Leeuw)",
-    "release year": 2006,
-    "beats per minute": 133,
-    "song duration (s)": 236,
-    "popularity": 48
-  },
-  {
-    "name": "Supermassive Black Hole (Muse)",
-    "release year": 2006,
-    "beats per minute": 120,
-    "song duration (s)": 212,
-    "popularity": 73
-  },
-  {
-    "name": "Cambodia (Kim Wilde)",
-    "release year": 2006,
-    "beats per minute": 111,
-    "song duration (s)": 236,
-    "popularity": 51
-  },
-  {
-    "name": "Knights of Cydonia (Muse)",
-    "release year": 2006,
-    "beats per minute": 137,
-    "song duration (s)": 366,
-    "popularity": 69
-  },
-  {
-    "name": "Virtual Insanity - Remastered (Jamiroquai)",
-    "release year": 2006,
-    "beats per minute": 92,
-    "song duration (s)": 229,
-    "popularity": 69
-  },
-  {
-    "name": "Wicked Game (Chris Isaak)",
-    "release year": 2006,
-    "beats per minute": 113,
-    "song duration (s)": 287,
-    "popularity": 70
-  },
-  {
-    "name": "Als De Morgen Is Gekomen (Jan Smit)",
-    "release year": 2006,
-    "beats per minute": 96,
-    "song duration (s)": 176,
-    "popularity": 55
-  },
-  {
-    "name": "Woman (Wolfmother)",
-    "release year": 2006,
-    "beats per minute": 113,
-    "song duration (s)": 176,
-    "popularity": 62
-  },
-  {
-    "name": "Back To Black (Amy Winehouse)",
-    "release year": 2006,
-    "beats per minute": 123,
-    "song duration (s)": 240,
-    "popularity": 77
-  },
-  {
-    "name": "Heart Of Glass (Blondie)",
-    "release year": 2006,
-    "beats per minute": 115,
-    "song duration (s)": 252,
-    "popularity": 52
-  },
-  {
-    "name": "Set The Fire To The Third Bar (Snow Patrol)",
-    "release year": 2006,
-    "beats per minute": 96,
-    "song duration (s)": 204,
-    "popularity": 49
-  },
-  {
-    "name": "Shut Your Eyes (Snow Patrol)",
-    "release year": 2006,
-    "beats per minute": 125,
-    "song duration (s)": 197,
-    "popularity": 42
-  },
-  {
-    "name": "Chasing Cars (Snow Patrol)",
-    "release year": 2006,
-    "beats per minute": 104,
-    "song duration (s)": 268,
-    "popularity": 78
-  },
-  {
-    "name": "Aanzoek Zonder Ringen (BL\u00d8F)",
-    "release year": 2006,
-    "beats per minute": 160,
-    "song duration (s)": 283,
-    "popularity": 42
-  },
-  {
-    "name": "Rehab (Amy Winehouse)",
-    "release year": 2006,
-    "beats per minute": 72,
-    "song duration (s)": 214,
-    "popularity": 74
-  },
-  {
-    "name": "Dani California (Red Hot Chili Peppers)",
-    "release year": 2006,
-    "beats per minute": 96,
-    "song duration (s)": 282,
-    "popularity": 76
-  },
-  {
-    "name": "Unfinished Sympathy (Massive Attack)",
-    "release year": 2006,
-    "beats per minute": 114,
-    "song duration (s)": 312,
-    "popularity": 53
-  },
-  {
-    "name": "Afscheid Nemen Bestaat Niet (Marco Borsato)",
-    "release year": 2006,
-    "beats per minute": 128,
-    "song duration (s)": 240,
-    "popularity": 49
-  },
-  {
-    "name": "Denis (Blondie)",
-    "release year": 2006,
-    "beats per minute": 139,
-    "song duration (s)": 139,
-    "popularity": 42
-  },
-  {
-    "name": "Geef Mij Je Angst (Guus Meeuwis)",
-    "release year": 2006,
-    "beats per minute": 81,
-    "song duration (s)": 224,
-    "popularity": 54
-  },
-  {
-    "name": "Hey Jude (The Beatles)",
-    "release year": 2006,
-    "beats per minute": 74,
-    "song duration (s)": 239,
-    "popularity": 63
-  },
-  {
-    "name": "Blue Hotel (Chris Isaak)",
-    "release year": 2006,
-    "beats per minute": 149,
-    "song duration (s)": 192,
-    "popularity": 42
-  },
-  {
-    "name": "Listen (From the Motion Picture \"Dreamgirls\") (Beyonc\u00e9)",
-    "release year": 2006,
-    "beats per minute": 123,
-    "song duration (s)": 218,
-    "popularity": 44
-  },
-  {
-    "name": "Hurt (Christina Aguilera)",
-    "release year": 2006,
-    "beats per minute": 149,
-    "song duration (s)": 243,
-    "popularity": 67
-  },
-  {
-    "name": "Waiting On the World to Change (John Mayer)",
-    "release year": 2006,
-    "beats per minute": 177,
-    "song duration (s)": 201,
-    "popularity": 74
-  },
-  {
-    "name": "When The Sun Goes Down (Arctic Monkeys)",
-    "release year": 2006,
-    "beats per minute": 169,
-    "song duration (s)": 202,
-    "popularity": 57
-  },
-  {
-    "name": "I Bet You Look Good On The Dancefloor (Arctic Monkeys)",
-    "release year": 2006,
-    "beats per minute": 103,
-    "song duration (s)": 174,
-    "popularity": 58
-  },
-  {
-    "name": "Wat Zou Je Doen - Live (Marco Borsato)",
-    "release year": 2006,
-    "beats per minute": 104,
-    "song duration (s)": 229,
-    "popularity": 30
-  },
-  {
-    "name": "9 Crimes (Damien Rice)",
-    "release year": 2006,
-    "beats per minute": 74,
-    "song duration (s)": 219,
-    "popularity": 57
-  },
-  {
-    "name": "Tears Dry On Their Own (Amy Winehouse)",
-    "release year": 2006,
-    "beats per minute": 122,
-    "song duration (s)": 185,
-    "popularity": 72
-  },
-  {
-    "name": "Slow Dancing in a Burning Room (John Mayer)",
-    "release year": 2006,
-    "beats per minute": 134,
-    "song duration (s)": 242,
-    "popularity": 76
-  },
-  {
-    "name": "You Know I'm No Good (Amy Winehouse)",
-    "release year": 2006,
-    "beats per minute": 103,
-    "song duration (s)": 257,
-    "popularity": 74
-  },
-  {
-    "name": "Love Is A Losing Game (Amy Winehouse)",
-    "release year": 2006,
-    "beats per minute": 165,
-    "song duration (s)": 154,
-    "popularity": 67
-  },
-  {
-    "name": "The Saints Are Coming (U2)",
-    "release year": 2006,
-    "beats per minute": 152,
-    "song duration (s)": 202,
-    "popularity": 40
-  },
-  {
-    "name": "De wedstrijd (Bram Vermeulen)",
-    "release year": 2006,
-    "beats per minute": 136,
-    "song duration (s)": 302,
-    "popularity": 42
-  },
-  {
-    "name": "Snow (Hey Oh) (Red Hot Chili Peppers)",
-    "release year": 2006,
-    "beats per minute": 105,
-    "song duration (s)": 335,
-    "popularity": 80
-  },
-  {
-    "name": "The Day After Tomorrow (Saybia)",
-    "release year": 2005,
-    "beats per minute": 76,
-    "song duration (s)": 234,
-    "popularity": 51
-  },
-  {
-    "name": "I'm going home (Ten Years After)",
-    "release year": 2005,
-    "beats per minute": 117,
-    "song duration (s)": 639,
-    "popularity": 26
-  },
-  {
-    "name": "Nine Million Bicycles (Katie Melua)",
-    "release year": 2005,
-    "beats per minute": 82,
-    "song duration (s)": 197,
-    "popularity": 61
-  },
-  {
-    "name": "You're Beautiful (James Blunt)",
-    "release year": 2005,
-    "beats per minute": 82,
-    "song duration (s)": 209,
-    "popularity": 76
-  },
-  {
-    "name": "De Peel In Brand (Rowwen H\u00e8ze)",
-    "release year": 2005,
-    "beats per minute": 199,
-    "song duration (s)": 205,
-    "popularity": 33
-  },
-  {
-    "name": "De Weg (Guus Meeuwis)",
-    "release year": 2005,
-    "beats per minute": 72,
-    "song duration (s)": 266,
-    "popularity": 42
-  },
-  {
-    "name": "Speed of Sound (Coldplay)",
-    "release year": 2005,
-    "beats per minute": 123,
-    "song duration (s)": 288,
-    "popularity": 69
-  },
-  {
-    "name": "Uninvited (Alanis Morissette)",
-    "release year": 2005,
-    "beats per minute": 127,
-    "song duration (s)": 276,
-    "popularity": 57
-  },
-  {
-    "name": "Feel Good Inc. (Gorillaz)",
-    "release year": 2005,
-    "beats per minute": 139,
-    "song duration (s)": 223,
-    "popularity": 80
-  },
-  {
-    "name": "Fix You (Coldplay)",
-    "release year": 2005,
-    "beats per minute": 138,
-    "song duration (s)": 296,
-    "popularity": 81
-  },
-  {
-    "name": "Goodbye My Lover (James Blunt)",
-    "release year": 2005,
-    "beats per minute": 90,
-    "song duration (s)": 259,
-    "popularity": 69
-  },
-  {
-    "name": "Auto Vliegtuug (Rowwen H\u00e8ze)",
-    "release year": 2005,
-    "beats per minute": 96,
-    "song duration (s)": 238,
-    "popularity": 34
-  },
-  {
-    "name": "Het Land Van (Lange Frans)",
-    "release year": 2005,
-    "beats per minute": 83,
-    "song duration (s)": 230,
-    "popularity": 49
-  },
-  {
-    "name": "You Oughta Know (Alanis Morissette)",
-    "release year": 2005,
-    "beats per minute": 105,
-    "song duration (s)": 250,
-    "popularity": 52
-  },
-  {
-    "name": "Dakota (Stereophonics)",
-    "release year": 2005,
-    "beats per minute": 147,
-    "song duration (s)": 297,
-    "popularity": 68
-  },
-  {
-    "name": "Black Betty (Ram Jam)",
-    "release year": 2005,
-    "beats per minute": 117,
-    "song duration (s)": 236,
-    "popularity": 61
-  },
-  {
-    "name": "De Neus Umhoeg (Rowwen H\u00e8ze)",
-    "release year": 2005,
-    "beats per minute": 132,
-    "song duration (s)": 215,
-    "popularity": 32
-  },
-  {
-    "name": "Het Regent Zonnestralen (Acda en de Munnik)",
-    "release year": 2005,
-    "beats per minute": 108,
-    "song duration (s)": 226,
-    "popularity": 57
-  },
-  {
-    "name": "Self Esteem (The Offspring)",
-    "release year": 2005,
-    "beats per minute": 105,
-    "song duration (s)": 258,
-    "popularity": 72
-  },
-  {
-    "name": "Blue Monday - 2016 Remaster (New Order)",
-    "release year": 2005,
-    "beats per minute": 130,
-    "song duration (s)": 451,
-    "popularity": 73
-  },
-  {
-    "name": "Love You More (Racoon)",
-    "release year": 2005,
-    "beats per minute": 171,
-    "song duration (s)": 197,
-    "popularity": 43
-  },
-  {
-    "name": "Home (Michael Bubl\u00e9)",
-    "release year": 2005,
-    "beats per minute": 128,
-    "song duration (s)": 226,
-    "popularity": 64
-  },
-  {
-    "name": "Talk (Coldplay)",
-    "release year": 2005,
-    "beats per minute": 120,
-    "song duration (s)": 311,
-    "popularity": 63
-  },
-  {
-    "name": "Will You Be There - Single Version (Michael Jackson)",
-    "release year": 2005,
-    "beats per minute": 83,
-    "song duration (s)": 220,
-    "popularity": 53
-  },
-  {
-    "name": "Ordinary People (John Legend)",
-    "release year": 2005,
-    "beats per minute": 67,
-    "song duration (s)": 281,
-    "popularity": 69
-  },
-  {
-    "name": "Best of You (Foo Fighters)",
-    "release year": 2005,
-    "beats per minute": 130,
-    "song duration (s)": 256,
-    "popularity": 75
-  },
-  {
-    "name": "Munich (Editors)",
-    "release year": 2005,
-    "beats per minute": 149,
-    "song duration (s)": 226,
-    "popularity": 61
-  },
-  {
-    "name": "There Must Be an Angel (Playing with My Heart) (Eurythmics)",
-    "release year": 2005,
-    "beats per minute": 112,
-    "song duration (s)": 281,
-    "popularity": 40
-  },
-  {
-    "name": "Sailing to Philadelphia (Mark Knopfler)",
-    "release year": 2005,
-    "beats per minute": 99,
-    "song duration (s)": 353,
-    "popularity": 39
-  },
-  {
-    "name": "Laat Me / Vivre - Lange Versie (Alderliefste met Ramses Shaffy en Liesbeth List)",
-    "release year": 2005,
-    "beats per minute": 81,
-    "song duration (s)": 386,
-    "popularity": 43
-  },
-  {
-    "name": "Lose Yourself - From \"8 Mile\" Soundtrack (Eminem)",
-    "release year": 2005,
-    "beats per minute": 171,
-    "song duration (s)": 326,
-    "popularity": 77
-  },
-  {
-    "name": "Black or White - Single Version (Michael Jackson)",
-    "release year": 2005,
-    "beats per minute": 115,
-    "song duration (s)": 203,
-    "popularity": 64
-  },
-  {
-    "name": "Ironic (Alanis Morissette)",
-    "release year": 2005,
-    "beats per minute": 171,
-    "song duration (s)": 229,
-    "popularity": 62
-  },
-  {
-    "name": "Feel Like Flying (Racoon)",
-    "release year": 2005,
-    "beats per minute": 98,
-    "song duration (s)": 213,
-    "popularity": 41
-  },
-  {
-    "name": "Dyna-Mite (Mud)",
-    "release year": 2005,
-    "beats per minute": 141,
-    "song duration (s)": 177,
-    "popularity": 40
-  },
-  {
-    "name": "Feeling Good (Michael Bubl\u00e9)",
-    "release year": 2005,
-    "beats per minute": 115,
-    "song duration (s)": 237,
-    "popularity": 64
-  },
-  {
-    "name": "Hey There Delilah (Plain White T's)",
-    "release year": 2005,
-    "beats per minute": 104,
-    "song duration (s)": 233,
-    "popularity": 80
-  },
-  {
-    "name": "Rockin' All Over The World (Status Quo)",
-    "release year": 2005,
-    "beats per minute": 131,
-    "song duration (s)": 217,
-    "popularity": 47
-  },
-  {
-    "name": "One (Mary J. Blige)",
-    "release year": 2005,
-    "beats per minute": 186,
-    "song duration (s)": 260,
-    "popularity": 61
-  },
-  {
-    "name": "God Is a DJ (Faithless)",
-    "release year": 2005,
-    "beats per minute": 131,
-    "song duration (s)": 209,
-    "popularity": 57
-  },
-  {
-    "name": "Blaosmuziek (G\u00e9 Reinders)",
-    "release year": 2005,
-    "beats per minute": 61,
-    "song duration (s)": 232,
-    "popularity": 38
-  },
-  {
-    "name": "November (Rowwen H\u00e8ze)",
-    "release year": 2005,
-    "beats per minute": 186,
-    "song duration (s)": 296,
-    "popularity": 35
-  },
-  {
-    "name": "Major Tom (Peter Schilling)",
-    "release year": 2005,
-    "beats per minute": 164,
-    "song duration (s)": 274,
-    "popularity": 48
-  },
-  {
-    "name": "How to Save a Life (The Fray)",
-    "release year": 2005,
-    "beats per minute": 122,
-    "song duration (s)": 263,
-    "popularity": 80
-  },
-  {
-    "name": "Sunrise (Norah Jones)",
-    "release year": 2004,
-    "beats per minute": 157,
-    "song duration (s)": 201,
-    "popularity": 71
-  },
-  {
-    "name": "Like a Hurricane - 2003 Remaster (Neil Young)",
-    "release year": 2004,
-    "beats per minute": 114,
-    "song duration (s)": 501,
-    "popularity": 49
-  },
-  {
-    "name": "Wake Me up When September Ends (Green Day)",
-    "release year": 2004,
-    "beats per minute": 105,
-    "song duration (s)": 286,
-    "popularity": 77
-  },
-  {
-    "name": "Sing for Absolution (Muse)",
-    "release year": 2004,
-    "beats per minute": 170,
-    "song duration (s)": 295,
-    "popularity": 57
-  },
-  {
-    "name": "Bend & Break (Keane)",
-    "release year": 2004,
-    "beats per minute": 138,
-    "song duration (s)": 220,
-    "popularity": 43
-  },
-  {
-    "name": "Hald Mich 'S Vas (Neet O\u00e9t Lottum)",
-    "release year": 2004,
-    "beats per minute": 179,
-    "song duration (s)": 251,
-    "popularity": 39
-  },
-  {
-    "name": "Take Me Out (Franz Ferdinand)",
-    "release year": 2004,
-    "beats per minute": 105,
-    "song duration (s)": 237,
-    "popularity": 74
-  },
-  {
-    "name": "Lady Jane - (Original Single Mono Version) (The Rolling Stones)",
-    "release year": 2004,
-    "beats per minute": 205,
-    "song duration (s)": 190,
-    "popularity": 34
-  },
-  {
-    "name": "City Of Blinding Lights (U2)",
-    "release year": 2004,
-    "beats per minute": 139,
-    "song duration (s)": 346,
-    "popularity": 60
-  },
-  {
-    "name": "American Idiot (Green Day)",
-    "release year": 2004,
-    "beats per minute": 186,
-    "song duration (s)": 176,
-    "popularity": 78
-  },
-  {
-    "name": "Run (Snow Patrol)",
-    "release year": 2004,
-    "beats per minute": 75,
-    "song duration (s)": 355,
-    "popularity": 65
-  },
-  {
-    "name": "Time Is Running Out (Muse)",
-    "release year": 2004,
-    "beats per minute": 118,
-    "song duration (s)": 237,
-    "popularity": 69
-  },
-  {
-    "name": "Lost (Anouk)",
-    "release year": 2004,
-    "beats per minute": 90,
-    "song duration (s)": 222,
-    "popularity": 51
-  },
-  {
-    "name": "Crazy (Seal)",
-    "release year": 2004,
-    "beats per minute": 103,
-    "song duration (s)": 357,
-    "popularity": 63
-  },
-  {
-    "name": "The Wall Street Shuffle (10cc)",
-    "release year": 2004,
-    "beats per minute": 98,
-    "song duration (s)": 242,
-    "popularity": 46
-  },
-  {
-    "name": "I Surrender (Saybia)",
-    "release year": 2004,
-    "beats per minute": 136,
-    "song duration (s)": 219,
-    "popularity": 55
-  },
-  {
-    "name": "Heaven Must Be Missing An Angel - Pt. 1 (Tavares)",
-    "release year": 2004,
-    "beats per minute": 117,
-    "song duration (s)": 394,
-    "popularity": 49
-  },
-  {
-    "name": "7 Seconds (feat. Neneh Cherry) (Youssou N'Dour)",
-    "release year": 2004,
-    "beats per minute": 154,
-    "song duration (s)": 306,
-    "popularity": 59
-  },
-  {
-    "name": "Silence (feat. Sarah McLachlan) - DJ Ti\u00ebsto's In Search of Sunrise Edit (Delerium)",
-    "release year": 2004,
-    "beats per minute": 138,
-    "song duration (s)": 235,
-    "popularity": 58
-  },
-  {
-    "name": "Les lacs du Connemara (Michel Sardou)",
-    "release year": 2004,
-    "beats per minute": 112,
-    "song duration (s)": 364,
-    "popularity": 59
-  },
-  {
-    "name": "Ne me quitte pas (Jacques Brel)",
-    "release year": 2004,
-    "beats per minute": 101,
-    "song duration (s)": 229,
-    "popularity": 58
-  },
-  {
-    "name": "Sorry Seems To Be The Hardest Word (Blue)",
-    "release year": 2004,
-    "beats per minute": 79,
-    "song duration (s)": 210,
-    "popularity": 58
-  },
-  {
-    "name": "(I've Had) The Time of My Life - From \"Dirty Dancing\" Soundtrack (Bill Medley)",
-    "release year": 2004,
-    "beats per minute": 109,
-    "song duration (s)": 289,
-    "popularity": 70
-  },
-  {
-    "name": "Do They Know It's Christmas? - 1984 Version (Band Aid)",
-    "release year": 2004,
-    "beats per minute": 115,
-    "song duration (s)": 223,
-    "popularity": 84
-  },
-  {
-    "name": "One Word (Anouk)",
-    "release year": 2004,
-    "beats per minute": 92,
-    "song duration (s)": 243,
-    "popularity": 52
-  },
-  {
-    "name": "Accidentally In Love (Counting Crows)",
-    "release year": 2004,
-    "beats per minute": 138,
-    "song duration (s)": 189,
-    "popularity": 59
-  },
-  {
-    "name": "Ghost Love Score (Nightwish)",
-    "release year": 2004,
-    "beats per minute": 101,
-    "song duration (s)": 602,
-    "popularity": 38
-  },
-  {
-    "name": "Old Man (Neil Young)",
-    "release year": 2004,
-    "beats per minute": 141,
-    "song duration (s)": 203,
-    "popularity": 44
-  },
-  {
-    "name": "Girl (Anouk)",
-    "release year": 2004,
-    "beats per minute": 136,
-    "song duration (s)": 211,
-    "popularity": 56
-  },
-  {
-    "name": "Numb / Encore (JAY-Z)",
-    "release year": 2004,
-    "beats per minute": 107,
-    "song duration (s)": 206,
-    "popularity": 75
-  },
-  {
-    "name": "Everybody's Changing (Keane)",
-    "release year": 2004,
-    "beats per minute": 94,
-    "song duration (s)": 215,
-    "popularity": 54
-  },
-  {
-    "name": "Vertigo (U2)",
-    "release year": 2004,
-    "beats per minute": 140,
-    "song duration (s)": 194,
-    "popularity": 65
-  },
-  {
-    "name": "Sometimes You Can't Make It On Your Own (U2)",
-    "release year": 2004,
-    "beats per minute": 96,
-    "song duration (s)": 305,
-    "popularity": 57
-  },
-  {
-    "name": "Eternal Flame (The Bangles)",
-    "release year": 2004,
-    "beats per minute": 79,
-    "song duration (s)": 238,
-    "popularity": 70
-  },
-  {
-    "name": "Bedshaped (Keane)",
-    "release year": 2004,
-    "beats per minute": 75,
-    "song duration (s)": 276,
-    "popularity": 41
-  },
-  {
-    "name": "In Nije Dei (De Kast)",
-    "release year": 2004,
-    "beats per minute": 130,
-    "song duration (s)": 296,
-    "popularity": 38
-  },
-  {
-    "name": "Somewhere Only We Know (Keane)",
-    "release year": 2004,
-    "beats per minute": 172,
-    "song duration (s)": 236,
-    "popularity": 67
-  },
-  {
-    "name": "Sunrise (Simply Red)",
-    "release year": 2004,
-    "beats per minute": 106,
-    "song duration (s)": 200,
-    "popularity": 55
-  },
-  {
-    "name": "Music (John Miles)",
-    "release year": 2004,
-    "beats per minute": 87,
-    "song duration (s)": 352,
-    "popularity": 46
-  },
-  {
-    "name": "Jerusalem (Anouk)",
-    "release year": 2004,
-    "beats per minute": 132,
-    "song duration (s)": 236,
-    "popularity": 40
-  },
-  {
-    "name": "Somebody Told Me (The Killers)",
-    "release year": 2004,
-    "beats per minute": 138,
-    "song duration (s)": 197,
-    "popularity": 69
-  },
-  {
-    "name": "Stand My Ground (Within Temptation)",
-    "release year": 2004,
-    "beats per minute": 88,
-    "song duration (s)": 268,
-    "popularity": 56
-  },
-  {
-    "name": "The Road Ahead (Miles Of The Unknown) (City To City)",
-    "release year": 2004,
-    "beats per minute": 99,
-    "song duration (s)": 247,
-    "popularity": 45
-  },
-  {
-    "name": "Mr. Brightside (The Killers)",
-    "release year": 2004,
-    "beats per minute": 148,
-    "song duration (s)": 223,
-    "popularity": 77
-  },
-  {
-    "name": "Unwritten (Natasha Bedingfield)",
-    "release year": 2004,
-    "beats per minute": 100,
-    "song duration (s)": 259,
-    "popularity": 76
-  },
-  {
-    "name": "I'm Gonna Be (500 Miles) (The Proclaimers)",
-    "release year": 2003,
-    "beats per minute": 132,
-    "song duration (s)": 219,
-    "popularity": 74
-  },
-  {
     "name": "Bring Me To Life (Evanescence)",
     "release year": 2003,
     "beats per minute": 95,
     "song duration (s)": 236,
     "popularity": 78
-  },
-  {
-    "name": "Where Is The Love? (The Black Eyed Peas)",
-    "release year": 2003,
-    "beats per minute": 94,
-    "song duration (s)": 273,
-    "popularity": 66
-  },
-  {
-    "name": "Crazy In Love (feat. Jay-Z) (Beyonc\u00e9)",
-    "release year": 2003,
-    "beats per minute": 99,
-    "song duration (s)": 236,
-    "popularity": 75
-  },
-  {
-    "name": "Daughters (John Mayer)",
-    "release year": 2003,
-    "beats per minute": 125,
-    "song duration (s)": 238,
-    "popularity": 68
-  },
-  {
-    "name": "Ik Wou Dat Ik Jou Was (Veldhuis & Kemper)",
-    "release year": 2003,
-    "beats per minute": 160,
-    "song duration (s)": 237,
-    "popularity": 58
-  },
-  {
-    "name": "Mijn Houten Hart (De Poema's)",
-    "release year": 2003,
-    "beats per minute": 70,
-    "song duration (s)": 259,
-    "popularity": 45
-  },
-  {
-    "name": "Bird of Paradise (Snowy White)",
-    "release year": 2003,
-    "beats per minute": 144,
-    "song duration (s)": 281,
-    "popularity": 52
-  },
-  {
-    "name": "Maybe Tomorrow (Stereophonics)",
-    "release year": 2003,
-    "beats per minute": 81,
-    "song duration (s)": 273,
-    "popularity": 64
-  },
-  {
-    "name": "Trapped - Live at Meadowlands Arena, E. Rutherford, NJ - August 1984 (Bruce Springsteen)",
-    "release year": 2003,
-    "beats per minute": 162,
-    "song duration (s)": 308,
-    "popularity": 40
-  },
-  {
-    "name": "Zij Maakt Het Verschil (De Poema's)",
-    "release year": 2003,
-    "beats per minute": 173,
-    "song duration (s)": 280,
-    "popularity": 54
-  },
-  {
-    "name": "My Immortal (Evanescence)",
-    "release year": 2003,
-    "beats per minute": 79,
-    "song duration (s)": 263,
-    "popularity": 74
-  },
-  {
-    "name": "White Flag (Dido)",
-    "release year": 2003,
-    "beats per minute": 170,
-    "song duration (s)": 241,
-    "popularity": 54
-  },
-  {
-    "name": "Dirty Diana (Michael Jackson)",
-    "release year": 2003,
-    "beats per minute": 131,
-    "song duration (s)": 281,
-    "popularity": 55
-  },
-  {
-    "name": "Seven Nation Army (The White Stripes)",
-    "release year": 2003,
-    "beats per minute": 124,
-    "song duration (s)": 232,
-    "popularity": 74
-  },
-  {
-    "name": "Rain Down on Me (Kane)",
-    "release year": 2003,
-    "beats per minute": 133,
-    "song duration (s)": 247,
-    "popularity": 47
-  },
-  {
-    "name": "The Blower's Daughter (Damien Rice)",
-    "release year": 2003,
-    "beats per minute": 133,
-    "song duration (s)": 287,
-    "popularity": 56
-  },
-  {
-    "name": "Mother Earth (Within Temptation)",
-    "release year": 2003,
-    "beats per minute": 105,
-    "song duration (s)": 330,
-    "popularity": 45
-  },
-  {
-    "name": "Ice Queen (Within Temptation)",
-    "release year": 2003,
-    "beats per minute": 92,
-    "song duration (s)": 319,
-    "popularity": 47
-  },
-  {
-    "name": "Vlinder (Rowwen H\u00e8ze)",
-    "release year": 2003,
-    "beats per minute": 175,
-    "song duration (s)": 231,
-    "popularity": 33
-  },
-  {
-    "name": "Behind Blue Eyes (Limp Bizkit)",
-    "release year": 2003,
-    "beats per minute": 120,
-    "song duration (s)": 270,
-    "popularity": 72
-  },
-  {
-    "name": "Breaking the Habit (Linkin Park)",
-    "release year": 2003,
-    "beats per minute": 100,
-    "song duration (s)": 197,
-    "popularity": 65
-  },
-  {
-    "name": "Numb (Linkin Park)",
-    "release year": 2003,
-    "beats per minute": 110,
-    "song duration (s)": 186,
-    "popularity": 81
-  },
-  {
-    "name": "Live And Let Die - Live (Paul McCartney)",
-    "release year": 2003,
-    "beats per minute": 150,
-    "song duration (s)": 185,
-    "popularity": 60
-  },
-  {
-    "name": "All Night Long (All Night) - Single Version (Lionel Richie)",
-    "release year": 2003,
-    "beats per minute": 109,
-    "song duration (s)": 260,
-    "popularity": 64
-  },
-  {
-    "name": "Omarm (BL\u00d8F)",
-    "release year": 2003,
-    "beats per minute": 184,
-    "song duration (s)": 252,
-    "popularity": 46
-  },
-  {
-    "name": "Don't Let Me Be Misunderstood (Santa Esmeralda)",
-    "release year": 2003,
-    "beats per minute": 118,
-    "song duration (s)": 629,
-    "popularity": 59
-  },
-  {
-    "name": "Hey Ya! (OutKast)",
-    "release year": 2003,
-    "beats per minute": 80,
-    "song duration (s)": 235,
-    "popularity": 79
-  },
-  {
-    "name": "Waitin' On A Sunny Day (Bruce Springsteen)",
-    "release year": 2002,
-    "beats per minute": 106,
-    "song duration (s)": 256,
-    "popularity": 59
-  },
-  {
-    "name": "God Put a Smile upon Your Face (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 127,
-    "song duration (s)": 297,
-    "popularity": 64
-  },
-  {
-    "name": "Mooie Dag (BL\u00d8F)",
-    "release year": 2002,
-    "beats per minute": 85,
-    "song duration (s)": 279,
-    "popularity": 40
-  },
-  {
-    "name": "All My Life (Foo Fighters)",
-    "release year": 2002,
-    "beats per minute": 168,
-    "song duration (s)": 263,
-    "popularity": 72
-  },
-  {
-    "name": "Blauwe Ruis (BL\u00d8F)",
-    "release year": 2002,
-    "beats per minute": 130,
-    "song duration (s)": 268,
-    "popularity": 41
-  },
-  {
-    "name": "Right Next Door (Because Of Me) (Robert Cray)",
-    "release year": 2002,
-    "beats per minute": 87,
-    "song duration (s)": 259,
-    "popularity": 52
-  },
-  {
-    "name": "Speeltuin (Marco Borsato)",
-    "release year": 2002,
-    "beats per minute": 112,
-    "song duration (s)": 135,
-    "popularity": 50
-  },
-  {
-    "name": "Times Like These (Foo Fighters)",
-    "release year": 2002,
-    "beats per minute": 145,
-    "song duration (s)": 266,
-    "popularity": 65
-  },
-  {
-    "name": "This Is Not America - 2002 Remaster (David Bowie)",
-    "release year": 2002,
-    "beats per minute": 115,
-    "song duration (s)": 231,
-    "popularity": 43
-  },
-  {
-    "name": "Brabant (Guus Meeuwis)",
-    "release year": 2002,
-    "beats per minute": 82,
-    "song duration (s)": 210,
-    "popularity": 61
-  },
-  {
-    "name": "(You're The) Devil in Disguise (Elvis Presley)",
-    "release year": 2002,
-    "beats per minute": 123,
-    "song duration (s)": 140,
-    "popularity": 65
-  },
-  {
-    "name": "Don't Know Why (Norah Jones)",
-    "release year": 2002,
-    "beats per minute": 88,
-    "song duration (s)": 186,
-    "popularity": 74
-  },
-  {
-    "name": "Mia (Gorki)",
-    "release year": 2002,
-    "beats per minute": 114,
-    "song duration (s)": 332,
-    "popularity": 52
-  },
-  {
-    "name": "A Little Less Conversation - JXL Radio Edit Remix (Elvis Presley)",
-    "release year": 2002,
-    "beats per minute": 115,
-    "song duration (s)": 212,
-    "popularity": 64
-  },
-  {
-    "name": "Binnen (Marco Borsato)",
-    "release year": 2002,
-    "beats per minute": 92,
-    "song duration (s)": 275,
-    "popularity": 30
-  },
-  {
-    "name": "Motorcycle Emptiness (Manic Street Preachers)",
-    "release year": 2002,
-    "beats per minute": 112,
-    "song duration (s)": 306,
-    "popularity": 39
-  },
-  {
-    "name": "Mr. Bojangles - Single Version (Sammy Davis Jr.)",
-    "release year": 2002,
-    "beats per minute": 117,
-    "song duration (s)": 343,
-    "popularity": 56
-  },
-  {
-    "name": "Superstition - Single Version (Stevie Wonder)",
-    "release year": 2002,
-    "beats per minute": 100,
-    "song duration (s)": 245,
-    "popularity": 77
-  },
-  {
-    "name": "Cleanin' Out My Closet (Eminem)",
-    "release year": 2002,
-    "beats per minute": 148,
-    "song duration (s)": 298,
-    "popularity": 71
-  },
-  {
-    "name": "Zij (Marco Borsato)",
-    "release year": 2002,
-    "beats per minute": 58,
-    "song duration (s)": 245,
-    "popularity": 52
-  },
-  {
-    "name": "Clocks (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 131,
-    "song duration (s)": 308,
-    "popularity": 76
-  },
-  {
-    "name": "By the Way (Red Hot Chili Peppers)",
-    "release year": 2002,
-    "beats per minute": 122,
-    "song duration (s)": 217,
-    "popularity": 74
-  },
-  {
-    "name": "The Scientist (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 146,
-    "song duration (s)": 310,
-    "popularity": 84
-  },
-  {
-    "name": "Bloed, Zweet En Tranen (Andre Hazes)",
-    "release year": 2002,
-    "beats per minute": 68,
-    "song duration (s)": 242,
-    "popularity": 59
-  },
-  {
-    "name": "Hurt (Johnny Cash)",
-    "release year": 2002,
-    "beats per minute": 90,
-    "song duration (s)": 217,
-    "popularity": 75
-  },
-  {
-    "name": "Go With The Flow (Queens of the Stone Age)",
-    "release year": 2002,
-    "beats per minute": 159,
-    "song duration (s)": 187,
-    "popularity": 58
-  },
-  {
-    "name": "She Will Be Loved (Maroon 5)",
-    "release year": 2002,
-    "beats per minute": 102,
-    "song duration (s)": 257,
-    "popularity": 74
-  },
-  {
-    "name": "Can't Stop (Red Hot Chili Peppers)",
-    "release year": 2002,
-    "beats per minute": 91,
-    "song duration (s)": 269,
-    "popularity": 80
-  },
-  {
-    "name": "Ren Lenny Ren (Acda en de Munnik)",
-    "release year": 2002,
-    "beats per minute": 110,
-    "song duration (s)": 233,
-    "popularity": 43
-  },
-  {
-    "name": "In My Place (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 145,
-    "song duration (s)": 227,
-    "popularity": 70
-  },
-  {
-    "name": "In The Army Now (Status Quo)",
-    "release year": 2002,
-    "beats per minute": 105,
-    "song duration (s)": 281,
-    "popularity": 59
-  },
-  {
-    "name": "Mad World (Feat. Michael Andrews) (Gary Jules)",
-    "release year": 2002,
-    "beats per minute": 174,
-    "song duration (s)": 190,
-    "popularity": 70
-  },
-  {
-    "name": "Politik (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 171,
-    "song duration (s)": 319,
-    "popularity": 62
-  },
-  {
-    "name": "Beautiful (Christina Aguilera)",
-    "release year": 2002,
-    "beats per minute": 76,
-    "song duration (s)": 239,
-    "popularity": 71
-  },
-  {
-    "name": "Cry Me a River (Justin Timberlake)",
-    "release year": 2002,
-    "beats per minute": 74,
-    "song duration (s)": 288,
-    "popularity": 74
-  },
-  {
-    "name": "Dichterbij Dan Ooit (BL\u00d8F)",
-    "release year": 2002,
-    "beats per minute": 112,
-    "song duration (s)": 261,
-    "popularity": 16
-  },
-  {
-    "name": "No One Knows (Queens of the Stone Age)",
-    "release year": 2002,
-    "beats per minute": 171,
-    "song duration (s)": 279,
-    "popularity": 65
-  },
-  {
-    "name": "Come Undone (Robbie Williams)",
-    "release year": 2002,
-    "beats per minute": 168,
-    "song duration (s)": 278,
-    "popularity": 56
-  },
-  {
-    "name": "The Rising (Bruce Springsteen)",
-    "release year": 2002,
-    "beats per minute": 110,
-    "song duration (s)": 287,
-    "popularity": 53
-  },
-  {
-    "name": "Can't Stop Loving You - 2016 Remaster (Phil Collins)",
-    "release year": 2002,
-    "beats per minute": 100,
-    "song duration (s)": 256,
-    "popularity": 62
-  },
-  {
-    "name": "Green Eyes (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 130,
-    "song duration (s)": 223,
-    "popularity": 63
-  },
-  {
-    "name": "Love Me Tender (Elvis Presley)",
-    "release year": 2002,
-    "beats per minute": 109,
-    "song duration (s)": 162,
-    "popularity": 49
-  },
-  {
-    "name": "Without Me (Eminem)",
-    "release year": 2002,
-    "beats per minute": 112,
-    "song duration (s)": 290,
-    "popularity": 82
-  },
-  {
-    "name": "Bagagedrager (Spinvis)",
-    "release year": 2002,
-    "beats per minute": 160,
-    "song duration (s)": 375,
-    "popularity": 45
-  },
-  {
-    "name": "Feel (Robbie Williams)",
-    "release year": 2002,
-    "beats per minute": 98,
-    "song duration (s)": 264,
-    "popularity": 72
-  },
-  {
-    "name": "Amsterdam (Coldplay)",
-    "release year": 2002,
-    "beats per minute": 73,
-    "song duration (s)": 319,
-    "popularity": 57
-  },
-  {
-    "name": "Here Without You (3 Doors Down)",
-    "release year": 2002,
-    "beats per minute": 144,
-    "song duration (s)": 239,
-    "popularity": 75
-  },
-  {
-    "name": "W\u00ear Bisto (Twarres)",
-    "release year": 2001,
-    "beats per minute": 88,
-    "song duration (s)": 226,
-    "popularity": 48
-  },
-  {
-    "name": "Family Portrait (P!nk)",
-    "release year": 2001,
-    "beats per minute": 92,
-    "song duration (s)": 297,
-    "popularity": 56
-  },
-  {
-    "name": "Clint Eastwood (Gorillaz)",
-    "release year": 2001,
-    "beats per minute": 168,
-    "song duration (s)": 341,
-    "popularity": 69
-  },
-  {
-    "name": "Feeling Good (Muse)",
-    "release year": 2001,
-    "beats per minute": 109,
-    "song duration (s)": 199,
-    "popularity": 51
-  },
-  {
-    "name": "Me Gustas Tu (Manu Chao)",
-    "release year": 2001,
-    "beats per minute": 176,
-    "song duration (s)": 240,
-    "popularity": 70
-  },
-  {
-    "name": "I Want It That Way (Backstreet Boys)",
-    "release year": 2001,
-    "beats per minute": 99,
-    "song duration (s)": 214,
-    "popularity": 77
-  },
-  {
-    "name": "Plug in Baby (Muse)",
-    "release year": 2001,
-    "beats per minute": 136,
-    "song duration (s)": 218,
-    "popularity": 53
-  },
-  {
-    "name": "Harder, Better, Faster, Stronger (Daft Punk)",
-    "release year": 2001,
-    "beats per minute": 123,
-    "song duration (s)": 225,
-    "popularity": 71
-  },
-  {
-    "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi (Yann Tiersen)",
-    "release year": 2001,
-    "beats per minute": 100,
-    "song duration (s)": 141,
-    "popularity": 56
-  },
-  {
-    "name": "Teardrops (Womack & Womack)",
-    "release year": 2001,
-    "beats per minute": 133,
-    "song duration (s)": 229,
-    "popularity": 61
-  },
-  {
-    "name": "Drops of Jupiter (Train)",
-    "release year": 2001,
-    "beats per minute": 79,
-    "song duration (s)": 260,
-    "popularity": 77
-  },
-  {
-    "name": "Papa Was A Rolling Stone (The Temptations)",
-    "release year": 2001,
-    "beats per minute": 120,
-    "song duration (s)": 433,
-    "popularity": 44
-  },
-  {
-    "name": "Hocus Pocus (Focus)",
-    "release year": 2001,
-    "beats per minute": 184,
-    "song duration (s)": 403,
-    "popularity": 53
-  },
-  {
-    "name": "Overcome (Live)",
-    "release year": 2001,
-    "beats per minute": 146,
-    "song duration (s)": 256,
-    "popularity": 49
-  },
-  {
-    "name": "Piano Man (Billy Joel)",
-    "release year": 2001,
-    "beats per minute": 179,
-    "song duration (s)": 336,
-    "popularity": 70
-  },
-  {
-    "name": "How You Remind Me (Nickelback)",
-    "release year": 2001,
-    "beats per minute": 172,
-    "song duration (s)": 224,
-    "popularity": 78
-  },
-  {
-    "name": "Spicks And Specks (Bee Gees)",
-    "release year": 2001,
-    "beats per minute": 123,
-    "song duration (s)": 172,
-    "popularity": 47
-  },
-  {
-    "name": "Mutter (Rammstein)",
-    "release year": 2001,
-    "beats per minute": 116,
-    "song duration (s)": 269,
-    "popularity": 51
-  },
-  {
-    "name": "Mr Bojangles (Robbie Williams)",
-    "release year": 2001,
-    "beats per minute": 137,
-    "song duration (s)": 198,
-    "popularity": 58
-  },
-  {
-    "name": "Tumble and Fall (JOHAN)",
-    "release year": 2001,
-    "beats per minute": 170,
-    "song duration (s)": 209,
-    "popularity": 36
-  },
-  {
-    "name": "Chop Suey! (System Of A Down)",
-    "release year": 2001,
-    "beats per minute": 127,
-    "song duration (s)": 210,
-    "popularity": 80
-  },
-  {
-    "name": "Sadeness (Enigma)",
-    "release year": 2001,
-    "beats per minute": 96,
-    "song duration (s)": 256,
-    "popularity": 58
-  },
-  {
-    "name": "Goodnight Saigon (Billy Joel)",
-    "release year": 2001,
-    "beats per minute": 129,
-    "song duration (s)": 423,
-    "popularity": 46
-  },
-  {
-    "name": "Red Mij Niet - Single Edit (Maarten Van Roozendaal)",
-    "release year": 2001,
-    "beats per minute": 119,
-    "song duration (s)": 270,
-    "popularity": 36
-  },
-  {
-    "name": "Never Be Clever (Herman Brood & His Wild Romance)",
-    "release year": 2001,
-    "beats per minute": 138,
-    "song duration (s)": 183,
-    "popularity": 41
-  },
-  {
-    "name": "One More Time (Daft Punk)",
-    "release year": 2001,
-    "beats per minute": 123,
-    "song duration (s)": 320,
-    "popularity": 75
-  },
-  {
-    "name": "Tribute (Tenacious D)",
-    "release year": 2001,
-    "beats per minute": 94,
-    "song duration (s)": 248,
-    "popularity": 59
-  },
-  {
-    "name": "Bliss (Muse)",
-    "release year": 2001,
-    "beats per minute": 128,
-    "song duration (s)": 251,
-    "popularity": 46
-  },
-  {
-    "name": "Love Is A Battlefield (Pat Benatar)",
-    "release year": 2001,
-    "beats per minute": 91,
-    "song duration (s)": 245,
-    "popularity": 54
-  },
-  {
-    "name": "Sonne (Rammstein)",
-    "release year": 2001,
-    "beats per minute": 75,
-    "song duration (s)": 272,
-    "popularity": 60
-  },
-  {
-    "name": "What It Is (Mark Knopfler)",
-    "release year": 2000,
-    "beats per minute": 122,
-    "song duration (s)": 298,
-    "popularity": 43
-  },
-  {
-    "name": "Both Sides Now (Joni Mitchell)",
-    "release year": 2000,
-    "beats per minute": 78,
-    "song duration (s)": 345,
-    "popularity": 65
-  },
-  {
-    "name": "We Can Work It Out - Remastered 2015 (The Beatles)",
-    "release year": 2000,
-    "beats per minute": 106,
-    "song duration (s)": 136,
-    "popularity": 63
-  },
-  {
-    "name": "Beautiful Day (U2)",
-    "release year": 2000,
-    "beats per minute": 136,
-    "song duration (s)": 246,
-    "popularity": 63
-  },
-  {
-    "name": "Wrong (Novastar)",
-    "release year": 2000,
-    "beats per minute": 90,
-    "song duration (s)": 214,
-    "popularity": 48
-  },
-  {
-    "name": "Onderweg (Abel)",
-    "release year": 2000,
-    "beats per minute": 98,
-    "song duration (s)": 190,
-    "popularity": 59
-  },
-  {
-    "name": "Trouble (Coldplay)",
-    "release year": 2000,
-    "beats per minute": 140,
-    "song duration (s)": 273,
-    "popularity": 71
-  },
-  {
-    "name": "It's My Life (Bon Jovi)",
-    "release year": 2000,
-    "beats per minute": 120,
-    "song duration (s)": 224,
-    "popularity": 77
-  },
-  {
-    "name": "When You Say Nothing At All (Ronan Keating)",
-    "release year": 2000,
-    "beats per minute": 174,
-    "song duration (s)": 257,
-    "popularity": 74
-  },
-  {
-    "name": "Als Het Golft (De Dijk)",
-    "release year": 2000,
-    "beats per minute": 102,
-    "song duration (s)": 214,
-    "popularity": 34
-  },
-  {
-    "name": "Lady Madonna - Remastered 2015 (The Beatles)",
-    "release year": 2000,
-    "beats per minute": 110,
-    "song duration (s)": 137,
-    "popularity": 63
-  },
-  {
-    "name": "One (Johnny Cash)",
-    "release year": 2000,
-    "beats per minute": 94,
-    "song duration (s)": 232,
-    "popularity": 47
-  },
-  {
-    "name": "Elevation (U2)",
-    "release year": 2000,
-    "beats per minute": 110,
-    "song duration (s)": 226,
-    "popularity": 49
-  },
-  {
-    "name": "Black Night (Deep Purple)",
-    "release year": 2000,
-    "beats per minute": 135,
-    "song duration (s)": 207,
-    "popularity": 39
-  },
-  {
-    "name": "Dansen Aan Zee (BL\u00d8F)",
-    "release year": 2000,
-    "beats per minute": 194,
-    "song duration (s)": 275,
-    "popularity": 52
-  },
-  {
-    "name": "Gold (Spandau Ballet)",
-    "release year": 2000,
-    "beats per minute": 143,
-    "song duration (s)": 231,
-    "popularity": 66
-  },
-  {
-    "name": "Stuck In A Moment You Can't Get Out Of (U2)",
-    "release year": 2000,
-    "beats per minute": 159,
-    "song duration (s)": 272,
-    "popularity": 52
-  },
-  {
-    "name": "In the End (Linkin Park)",
-    "release year": 2000,
-    "beats per minute": 105,
-    "song duration (s)": 217,
-    "popularity": 83
-  },
-  {
-    "name": "She Sells Sanctuary (The Cult)",
-    "release year": 2000,
-    "beats per minute": 139,
-    "song duration (s)": 253,
-    "popularity": 63
-  },
-  {
-    "name": "Red Red Wine (UB40)",
-    "release year": 2000,
-    "beats per minute": 89,
-    "song duration (s)": 184,
-    "popularity": 74
-  },
-  {
-    "name": "I Want To Hold Your Hand - Remastered 2015 (The Beatles)",
-    "release year": 2000,
-    "beats per minute": 131,
-    "song duration (s)": 146,
-    "popularity": 75
-  },
-  {
-    "name": "Hier (BL\u00d8F)",
-    "release year": 2000,
-    "beats per minute": 164,
-    "song duration (s)": 248,
-    "popularity": 40
-  },
-  {
-    "name": "(What A) Wonderful World (Sam Cooke)",
-    "release year": 2000,
-    "beats per minute": 129,
-    "song duration (s)": 125,
-    "popularity": 71
-  },
-  {
-    "name": "The Real Slim Shady (Eminem)",
-    "release year": 2000,
-    "beats per minute": 105,
-    "song duration (s)": 284,
-    "popularity": 80
-  },
-  {
-    "name": "Only Time (Enya)",
-    "release year": 2000,
-    "beats per minute": 83,
-    "song duration (s)": 219,
-    "popularity": 70
-  },
-  {
-    "name": "De Kapitein Deel II (Acda en de Munnik)",
-    "release year": 2000,
-    "beats per minute": 115,
-    "song duration (s)": 181,
-    "popularity": 51
-  },
-  {
-    "name": "Stan (Eminem)",
-    "release year": 2000,
-    "beats per minute": 80,
-    "song duration (s)": 404,
-    "popularity": 75
-  },
-  {
-    "name": "Song 2 (Blur)",
-    "release year": 2000,
-    "beats per minute": 130,
-    "song duration (s)": 122,
-    "popularity": 64
-  },
-  {
-    "name": "I Would Stay (Krezip)",
-    "release year": 2000,
-    "beats per minute": 95,
-    "song duration (s)": 232,
-    "popularity": 55
-  },
-  {
-    "name": "Kryptonite (3 Doors Down)",
-    "release year": 2000,
-    "beats per minute": 99,
-    "song duration (s)": 234,
-    "popularity": 77
-  },
-  {
-    "name": "Yellow (Coldplay)",
-    "release year": 2000,
-    "beats per minute": 173,
-    "song duration (s)": 267,
-    "popularity": 82
-  },
-  {
-    "name": "Solitary Man (Johnny Cash)",
-    "release year": 2000,
-    "beats per minute": 86,
-    "song duration (s)": 144,
-    "popularity": 47
-  },
-  {
-    "name": "I Still Cry (Ilse DeLange)",
-    "release year": 2000,
-    "beats per minute": 98,
-    "song duration (s)": 274,
-    "popularity": 30
-  },
-  {
-    "name": "Scar Tissue (Red Hot Chili Peppers)",
-    "release year": 1999,
-    "beats per minute": 89,
-    "song duration (s)": 216,
-    "popularity": 77
-  },
-  {
-    "name": "Jesus He Knows Me (Genesis)",
-    "release year": 1999,
-    "beats per minute": 95,
-    "song duration (s)": 256,
-    "popularity": 18
-  },
-  {
-    "name": "Road Trippin' (Red Hot Chili Peppers)",
-    "release year": 1999,
-    "beats per minute": 204,
-    "song duration (s)": 205,
-    "popularity": 62
-  },
-  {
-    "name": "Let Me Entertain You (Robbie Williams)",
-    "release year": 1999,
-    "beats per minute": 125,
-    "song duration (s)": 261,
-    "popularity": 44
-  },
-  {
-    "name": "You'll Be In My Heart - From \"Tarzan\"/Soundtrack Version (Phil Collins)",
-    "release year": 1999,
-    "beats per minute": 97,
-    "song duration (s)": 258,
-    "popularity": 62
-  },
-  {
-    "name": "Otherside (Red Hot Chili Peppers)",
-    "release year": 1999,
-    "beats per minute": 123,
-    "song duration (s)": 255,
-    "popularity": 78
-  },
-  {
-    "name": "Porcelain (Moby)",
-    "release year": 1999,
-    "beats per minute": 95,
-    "song duration (s)": 241,
-    "popularity": 54
-  },
-  {
-    "name": "Total Eclipse of the Heart (Bonnie Tyler)",
-    "release year": 1999,
-    "beats per minute": 130,
-    "song duration (s)": 270,
-    "popularity": 75
-  },
-  {
-    "name": "Learn to Fly (Foo Fighters)",
-    "release year": 1999,
-    "beats per minute": 136,
-    "song duration (s)": 235,
-    "popularity": 74
-  },
-  {
-    "name": "Harder Dan Ik Hebben Kan (BL\u00d8F)",
-    "release year": 1999,
-    "beats per minute": 90,
-    "song duration (s)": 254,
-    "popularity": 57
-  },
-  {
-    "name": "Californication (Red Hot Chili Peppers)",
-    "release year": 1999,
-    "beats per minute": 96,
-    "song duration (s)": 330,
-    "popularity": 81
-  },
-  {
-    "name": "Tears in Heaven (Eric Clapton)",
-    "release year": 1999,
-    "beats per minute": 154,
-    "song duration (s)": 272,
-    "popularity": 61
-  },
-  {
-    "name": "Angels (Robbie Williams)",
-    "release year": 1999,
-    "beats per minute": 150,
-    "song duration (s)": 266,
-    "popularity": 50
-  },
-  {
-    "name": "The Family Tree (Venice)",
-    "release year": 1999,
-    "beats per minute": 127,
-    "song duration (s)": 205,
-    "popularity": 41
-  },
-  {
-    "name": "Unintended (Muse)",
-    "release year": 1999,
-    "beats per minute": 139,
-    "song duration (s)": 237,
-    "popularity": 61
-  },
-  {
-    "name": "My Name Is (Eminem)",
-    "release year": 1999,
-    "beats per minute": 86,
-    "song duration (s)": 268,
-    "popularity": 72
-  },
-  {
-    "name": "All The Small Things (blink-182)",
-    "release year": 1999,
-    "beats per minute": 149,
-    "song duration (s)": 167,
-    "popularity": 79
-  },
-  {
-    "name": "Hey Boy Hey Girl (The Chemical Brothers)",
-    "release year": 1999,
-    "beats per minute": 127,
-    "song duration (s)": 290,
-    "popularity": 65
-  },
-  {
-    "name": "LA Song (Beth Hart)",
-    "release year": 1999,
-    "beats per minute": 130,
-    "song duration (s)": 217,
-    "popularity": 41
-  },
-  {
-    "name": "Desert Rose (Sting)",
-    "release year": 1999,
-    "beats per minute": 112,
-    "song duration (s)": 286,
-    "popularity": 52
-  },
-  {
-    "name": "Smooth (feat. Rob Thomas) (Santana)",
-    "release year": 1999,
-    "beats per minute": 116,
-    "song duration (s)": 295,
-    "popularity": 70
-  },
-  {
-    "name": "Hart Van Mijn Gevoel (De Kast)",
-    "release year": 1999,
-    "beats per minute": 140,
-    "song duration (s)": 269,
-    "popularity": 44
-  },
-  {
-    "name": "Run To The Water (Live)",
-    "release year": 1999,
-    "beats per minute": 181,
-    "song duration (s)": 268,
-    "popularity": 48
-  },
-  {
-    "name": "Geen Kind Meer (Karin Bloemen)",
-    "release year": 1999,
-    "beats per minute": 77,
-    "song duration (s)": 263,
-    "popularity": 38
-  },
-  {
-    "name": "The Next Episode (Dr. Dre)",
-    "release year": 1999,
-    "beats per minute": 95,
-    "song duration (s)": 162,
-    "popularity": 70
-  },
-  {
-    "name": "Il Volo (Zucchero)",
-    "release year": 1999,
-    "beats per minute": 150,
-    "song duration (s)": 332,
-    "popularity": 24
-  },
-  {
-    "name": "Why Does My Heart Feel So Bad? (Moby)",
-    "release year": 1999,
-    "beats per minute": 98,
-    "song duration (s)": 265,
-    "popularity": 45
-  },
-  {
-    "name": "All Star (Smash Mouth)",
-    "release year": 1999,
-    "beats per minute": 104,
-    "song duration (s)": 200,
-    "popularity": 80
-  },
-  {
-    "name": "The Dolphin's Cry (Live)",
-    "release year": 1999,
-    "beats per minute": 150,
-    "song duration (s)": 264,
-    "popularity": 56
-  },
-  {
-    "name": "Faith (George Michael)",
-    "release year": 1998,
-    "beats per minute": 96,
-    "song duration (s)": 194,
-    "popularity": 46
-  },
-  {
-    "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack (Aerosmith)",
-    "release year": 1998,
-    "beats per minute": 121,
-    "song duration (s)": 299,
-    "popularity": 76
-  },
-  {
-    "name": "Fields Of Gold (Eva Cassidy)",
-    "release year": 1998,
-    "beats per minute": 80,
-    "song duration (s)": 282,
-    "popularity": 62
-  },
-  {
-    "name": "A Different Corner (George Michael)",
-    "release year": 1998,
-    "beats per minute": 99,
-    "song duration (s)": 244,
-    "popularity": 58
-  },
-  {
-    "name": "Teardrop (Massive Attack)",
-    "release year": 1998,
-    "beats per minute": 77,
-    "song duration (s)": 331,
-    "popularity": 69
-  },
-  {
-    "name": "Don't Let the Sun Go Down on Me (George Michael)",
-    "release year": 1998,
-    "beats per minute": 135,
-    "song duration (s)": 347,
-    "popularity": 66
-  },
-  {
-    "name": "Father Figure (George Michael)",
-    "release year": 1998,
-    "beats per minute": 102,
-    "song duration (s)": 340,
-    "popularity": 51
-  },
-  {
-    "name": "Niet Of Nooit Geweest (Acda en de Munnik)",
-    "release year": 1998,
-    "beats per minute": 122,
-    "song duration (s)": 242,
-    "popularity": 54
-  },
-  {
-    "name": "Is Dit Nu Later (Stef Bos)",
-    "release year": 1998,
-    "beats per minute": 134,
-    "song duration (s)": 257,
-    "popularity": 39
-  },
-  {
-    "name": "Zelfs Je Naam Is Mooi (Henk Westbroek)",
-    "release year": 1998,
-    "beats per minute": 94,
-    "song duration (s)": 270,
-    "popularity": 49
-  },
-  {
-    "name": "Toen Ik Je Zag - Single Version (Hero)",
-    "release year": 1998,
-    "beats per minute": 81,
-    "song duration (s)": 205,
-    "popularity": 47
-  },
-  {
-    "name": "Als Ze Er Niet Is (De Dijk)",
-    "release year": 1998,
-    "beats per minute": 166,
-    "song duration (s)": 211,
-    "popularity": 50
-  },
-  {
-    "name": "Cowboys and Angels (George Michael)",
-    "release year": 1998,
-    "beats per minute": 128,
-    "song duration (s)": 435,
-    "popularity": 43
-  },
-  {
-    "name": "Narcotic - Long Version (Liquido)",
-    "release year": 1998,
-    "beats per minute": 102,
-    "song duration (s)": 278,
-    "popularity": 42
-  },
-  {
-    "name": "Liefs Uit Londen (BL\u00d8F)",
-    "release year": 1998,
-    "beats per minute": 77,
-    "song duration (s)": 239,
-    "popularity": 51
-  },
-  {
-    "name": "The Whole of the Moon (The Waterboys)",
-    "release year": 1998,
-    "beats per minute": 106,
-    "song duration (s)": 299,
-    "popularity": 59
-  },
-  {
-    "name": "Whiskey In The Jar (Metallica)",
-    "release year": 1998,
-    "beats per minute": 133,
-    "song duration (s)": 305,
-    "popularity": 61
-  },
-  {
-    "name": "Careless Whisper (George Michael)",
-    "release year": 1998,
-    "beats per minute": 153,
-    "song duration (s)": 300,
-    "popularity": 76
-  },
-  {
-    "name": "Freak On a Leash (Korn)",
-    "release year": 1998,
-    "beats per minute": 103,
-    "song duration (s)": 256,
-    "popularity": 73
-  },
-  {
-    "name": "Nobody's Wife (Anouk)",
-    "release year": 1998,
-    "beats per minute": 98,
-    "song duration (s)": 206,
-    "popularity": 33
-  },
-  {
-    "name": "Somebody to Love (George Michael)",
-    "release year": 1998,
-    "beats per minute": 110,
-    "song duration (s)": 319,
-    "popularity": 57
-  },
-  {
-    "name": "De Bestemming (Marco Borsato)",
-    "release year": 1998,
-    "beats per minute": 109,
-    "song duration (s)": 266,
-    "popularity": 50
-  },
-  {
-    "name": "New Year's Day (U2)",
-    "release year": 1998,
-    "beats per minute": 133,
-    "song duration (s)": 257,
-    "popularity": 58
-  },
-  {
-    "name": "Onderuit (De Dijk)",
-    "release year": 1998,
-    "beats per minute": 118,
-    "song duration (s)": 313,
-    "popularity": 35
-  },
-  {
-    "name": "Slaap Zacht , Elisabeth (Acda en de Munnik)",
-    "release year": 1998,
-    "beats per minute": 174,
-    "song duration (s)": 263,
-    "popularity": 37
-  },
-  {
-    "name": "Non non rien n'a chang\u00e9 (Les Poppys)",
-    "release year": 1998,
-    "beats per minute": 84,
-    "song duration (s)": 190,
-    "popularity": 50
-  },
-  {
-    "name": "Kissing a Fool (George Michael)",
-    "release year": 1998,
-    "beats per minute": 117,
-    "song duration (s)": 275,
-    "popularity": 56
-  },
-  {
-    "name": "Toveren (Herman van Veen)",
-    "release year": 1998,
-    "beats per minute": 145,
-    "song duration (s)": 206,
-    "popularity": 44
-  },
-  {
-    "name": "Praise You (Fatboy Slim)",
-    "release year": 1998,
-    "beats per minute": 110,
-    "song duration (s)": 323,
-    "popularity": 44
-  },
-  {
-    "name": "I Can't Make You Love Me (George Michael)",
-    "release year": 1998,
-    "beats per minute": 116,
-    "song duration (s)": 321,
-    "popularity": 53
-  },
-  {
-    "name": "Hijo de la Luna (Mecano)",
-    "release year": 1998,
-    "beats per minute": 179,
-    "song duration (s)": 266,
-    "popularity": 62
-  },
-  {
-    "name": "Pretty Fly (For A White Guy) (The Offspring)",
-    "release year": 1998,
-    "beats per minute": 143,
-    "song duration (s)": 189,
-    "popularity": 72
-  },
-  {
-    "name": "Ik Heb Je Lief (Stef Bos)",
-    "release year": 1998,
-    "beats per minute": 131,
-    "song duration (s)": 231,
-    "popularity": 44
-  },
-  {
-    "name": "She's The One (Robbie Williams)",
-    "release year": 1998,
-    "beats per minute": 167,
-    "song duration (s)": 258,
-    "popularity": 68
-  },
-  {
-    "name": "Sacrifice (Anouk)",
-    "release year": 1998,
-    "beats per minute": 136,
-    "song duration (s)": 238,
-    "popularity": 11
-  },
-  {
-    "name": "Pure Morning (Placebo)",
-    "release year": 1998,
-    "beats per minute": 81,
-    "song duration (s)": 255,
-    "popularity": 60
-  },
-  {
-    "name": "Praying for Time (George Michael)",
-    "release year": 1998,
-    "beats per minute": 128,
-    "song duration (s)": 281,
-    "popularity": 45
-  },
-  {
-    "name": "As (George Michael)",
-    "release year": 1998,
-    "beats per minute": 93,
-    "song duration (s)": 282,
-    "popularity": 61
-  },
-  {
-    "name": "Killer / Papa Was a Rollin' Stone (George Michael)",
-    "release year": 1998,
-    "beats per minute": 122,
-    "song duration (s)": 255,
-    "popularity": 51
-  },
-  {
-    "name": "If You Tolerate This Your Children Will Be Next (Manic Street Preachers)",
-    "release year": 1998,
-    "beats per minute": 96,
-    "song duration (s)": 291,
-    "popularity": 37
-  },
-  {
-    "name": "I Knew You Were Waiting (For Me) (George Michael)",
-    "release year": 1998,
-    "beats per minute": 108,
-    "song duration (s)": 238,
-    "popularity": 63
-  },
-  {
-    "name": "Hilversum 3 (Herman van Veen)",
-    "release year": 1998,
-    "beats per minute": 91,
-    "song duration (s)": 233,
-    "popularity": 39
-  },
-  {
-    "name": "The Reflex (Duran Duran)",
-    "release year": 1998,
-    "beats per minute": 127,
-    "song duration (s)": 267,
-    "popularity": 50
-  },
-  {
-    "name": "World of Hurt (Ilse DeLange)",
-    "release year": 1998,
-    "beats per minute": 99,
-    "song duration (s)": 234,
-    "popularity": 40
-  },
-  {
-    "name": "I'm Not so Tough (Ilse DeLange)",
-    "release year": 1998,
-    "beats per minute": 117,
-    "song duration (s)": 268,
-    "popularity": 40
-  },
-  {
-    "name": "The Unforgiven II (Metallica)",
-    "release year": 1997,
-    "beats per minute": 133,
-    "song duration (s)": 396,
-    "popularity": 55
-  },
-  {
-    "name": "Lopen Tot De Zon Komt (Acda en de Munnik)",
-    "release year": 1997,
-    "beats per minute": 100,
-    "song duration (s)": 206,
-    "popularity": 49
-  },
-  {
-    "name": "Firestarter (The Prodigy)",
-    "release year": 1997,
-    "beats per minute": 142,
-    "song duration (s)": 280,
-    "popularity": 64
-  },
-  {
-    "name": "Chan Chan (Buena Vista Social Club)",
-    "release year": 1997,
-    "beats per minute": 166,
-    "song duration (s)": 257,
-    "popularity": 68
-  },
-  {
-    "name": "k Heb Je Lief (Paul de Leeuw)",
-    "release year": 1997,
-    "beats per minute": 136,
-    "song duration (s)": 284,
-    "popularity": 54
-  },
-  {
-    "name": "Engel (Rammstein)",
-    "release year": 1997,
-    "beats per minute": 96,
-    "song duration (s)": 264,
-    "popularity": 60
-  },
-  {
-    "name": "Into My Arms - 2011 Remastered Version (Nick Cave & The Bad Seeds)",
-    "release year": 1997,
-    "beats per minute": 94,
-    "song duration (s)": 256,
-    "popularity": 65
-  },
-  {
-    "name": "Take Me Home, Country Roads (John Denver)",
-    "release year": 1997,
-    "beats per minute": 164,
-    "song duration (s)": 198,
-    "popularity": 77
-  },
-  {
-    "name": "Paranoid Android (Radiohead)",
-    "release year": 1997,
-    "beats per minute": 164,
-    "song duration (s)": 387,
-    "popularity": 67
-  },
-  {
-    "name": "Op Fietse (Skik)",
-    "release year": 1997,
-    "beats per minute": 104,
-    "song duration (s)": 291,
-    "popularity": 46
-  },
-  {
-    "name": "Everlong (Foo Fighters)",
-    "release year": 1997,
-    "beats per minute": 158,
-    "song duration (s)": 251,
-    "popularity": 77
-  },
-  {
-    "name": "Karma Police (Radiohead)",
-    "release year": 1997,
-    "beats per minute": 75,
-    "song duration (s)": 264,
-    "popularity": 74
-  },
-  {
-    "name": "Du hast (Rammstein)",
-    "release year": 1997,
-    "beats per minute": 125,
-    "song duration (s)": 234,
-    "popularity": 67
-  },
-  {
-    "name": "Zeg Me Dat Het Niet Zo Is (Frank Boeijen)",
-    "release year": 1997,
-    "beats per minute": 70,
-    "song duration (s)": 161,
-    "popularity": 48
-  },
-  {
-    "name": "Bitter Sweet Symphony (The Verve)",
-    "release year": 1997,
-    "beats per minute": 171,
-    "song duration (s)": 357,
-    "popularity": 78
-  },
-  {
-    "name": "You'll Never Walk Alone (Gerry & The Pacemakers)",
-    "release year": 1997,
-    "beats per minute": 113,
-    "song duration (s)": 160,
-    "popularity": 55
-  },
-  {
-    "name": "Smack My Bitch Up (The Prodigy)",
-    "release year": 1997,
-    "beats per minute": 136,
-    "song duration (s)": 343,
-    "popularity": 65
-  },
-  {
-    "name": "Breathe (The Prodigy)",
-    "release year": 1997,
-    "beats per minute": 130,
-    "song duration (s)": 335,
-    "popularity": 66
-  },
-  {
-    "name": "Good Riddance (Time of Your Life) (Green Day)",
-    "release year": 1997,
-    "beats per minute": 95,
-    "song duration (s)": 153,
-    "popularity": 75
-  },
-  {
-    "name": "N'oubliez Jamais (Joe Cocker)",
-    "release year": 1997,
-    "beats per minute": 87,
-    "song duration (s)": 283,
-    "popularity": 35
-  },
-  {
-    "name": "Around the World (Daft Punk)",
-    "release year": 1997,
-    "beats per minute": 121,
-    "song duration (s)": 430,
-    "popularity": 70
-  },
-  {
-    "name": "The Drugs Don't Work (The Verve)",
-    "release year": 1997,
-    "beats per minute": 77,
-    "song duration (s)": 305,
-    "popularity": 64
-  },
-  {
-    "name": "Hier Komt De Storm (Frank Boeijen Groep)",
-    "release year": 1997,
-    "beats per minute": 89,
-    "song duration (s)": 388,
-    "popularity": 31
-  },
-  {
-    "name": "Songbird (Eva Cassidy)",
-    "release year": 1997,
-    "beats per minute": 153,
-    "song duration (s)": 225,
-    "popularity": 61
-  },
-  {
-    "name": "Can't Stand Losing You (The Police)",
-    "release year": 1997,
-    "beats per minute": 142,
-    "song duration (s)": 181,
-    "popularity": 45
-  },
-  {
-    "name": "Candle In The Wind 1997 (Elton John)",
-    "release year": 1997,
-    "beats per minute": 126,
-    "song duration (s)": 250,
-    "popularity": 53
-  },
-  {
-    "name": "Tell Him (Barbra Streisand)",
-    "release year": 1997,
-    "beats per minute": 76,
-    "song duration (s)": 291,
-    "popularity": 47
-  },
-  {
-    "name": "Mooi Liedje (Acda en de Munnik)",
-    "release year": 1997,
-    "beats per minute": 177,
-    "song duration (s)": 179,
-    "popularity": 42
-  },
-  {
-    "name": "The Memory Remains (Metallica)",
-    "release year": 1997,
-    "beats per minute": 144,
-    "song duration (s)": 279,
-    "popularity": 51
-  },
-  {
-    "name": "t Dondert En 't Bliksemt (Guus Meeuwis)",
-    "release year": 1997,
-    "beats per minute": 121,
-    "song duration (s)": 192,
-    "popularity": 50
-  },
-  {
-    "name": "My Heart Will Go On - Love Theme from \"Titanic\" (C\u00e9line Dion)",
-    "release year": 1997,
-    "beats per minute": 99,
-    "song duration (s)": 280,
-    "popularity": 75
-  },
-  {
-    "name": "Beds Are Burning - Remastered (Midnight Oil)",
-    "release year": 1997,
-    "beats per minute": 119,
-    "song duration (s)": 258,
-    "popularity": 63
-  },
-  {
-    "name": "Little Green Bag (George Baker Selection)",
-    "release year": 1997,
-    "beats per minute": 103,
-    "song duration (s)": 195,
-    "popularity": 44
-  },
-  {
-    "name": "Als Het Vuur Gedoofd Is (Acda en de Munnik)",
-    "release year": 1997,
-    "beats per minute": 92,
-    "song duration (s)": 234,
-    "popularity": 42
-  },
-  {
-    "name": "No Surprises (Radiohead)",
-    "release year": 1997,
-    "beats per minute": 76,
-    "song duration (s)": 229,
-    "popularity": 71
-  },
-  {
-    "name": "Beautiful Noise (Neil Diamond)",
-    "release year": 1996,
-    "beats per minute": 127,
-    "song duration (s)": 193,
-    "popularity": 57
-  },
-  {
-    "name": "Down Under (Men At Work)",
-    "release year": 1996,
-    "beats per minute": 107,
-    "song duration (s)": 221,
-    "popularity": 74
-  },
-  {
-    "name": "Where the Wild Roses Grow - 2011 - Remaster (Nick Cave & The Bad Seeds)",
-    "release year": 1996,
-    "beats per minute": 155,
-    "song duration (s)": 237,
-    "popularity": 59
-  },
-  {
-    "name": "Het Is Een Nacht... (Levensecht) (Guus Meeuwis)",
-    "release year": 1996,
-    "beats per minute": 138,
-    "song duration (s)": 225,
-    "popularity": 58
-  },
-  {
-    "name": "Jump (Van Halen)",
-    "release year": 1996,
-    "beats per minute": 130,
-    "song duration (s)": 240,
-    "popularity": 57
-  },
-  {
-    "name": "Killing Me Softly With His Song (Fugees)",
-    "release year": 1996,
-    "beats per minute": 92,
-    "song duration (s)": 299,
-    "popularity": 74
-  },
-  {
-    "name": "Jesus to a Child (George Michael)",
-    "release year": 1996,
-    "beats per minute": 174,
-    "song duration (s)": 411,
-    "popularity": 62
-  },
-  {
-    "name": "Insomnia (Faithless)",
-    "release year": 1996,
-    "beats per minute": 127,
-    "song duration (s)": 527,
-    "popularity": 55
-  },
-  {
-    "name": "She - Tous les visages de l\u2019amour (Charles Aznavour)",
-    "release year": 1996,
-    "beats per minute": 132,
-    "song duration (s)": 153,
-    "popularity": 60
-  },
-  {
-    "name": "Avond (Boudewijn de Groot)",
-    "release year": 1996,
-    "beats per minute": 98,
-    "song duration (s)": 277,
-    "popularity": 40
-  },
-  {
-    "name": "De Waarheid (Marco Borsato)",
-    "release year": 1996,
-    "beats per minute": 61,
-    "song duration (s)": 312,
-    "popularity": 50
-  },
-  {
-    "name": "Yesterday When I Was Young (Charles Aznavour)",
-    "release year": 1996,
-    "beats per minute": 68,
-    "song duration (s)": 215,
-    "popularity": 53
-  },
-  {
-    "name": "Ain't Nobody (Chaka Khan)",
-    "release year": 1996,
-    "beats per minute": 104,
-    "song duration (s)": 281,
-    "popularity": 70
-  },
-  {
-    "name": "Wereld Zonder Jou (Marco Borsato)",
-    "release year": 1996,
-    "beats per minute": 121,
-    "song duration (s)": 236,
-    "popularity": 55
-  },
-  {
-    "name": "Casser la voix - Live \"Si Ce Soir\" (Patrick Bruel)",
-    "release year": 1996,
-    "beats per minute": 135,
-    "song duration (s)": 455,
-    "popularity": 35
-  },
-  {
-    "name": "Wannabe (Spice Girls)",
-    "release year": 1996,
-    "beats per minute": 110,
-    "song duration (s)": 173,
-    "popularity": 80
-  },
-  {
-    "name": "A Long December (Counting Crows)",
-    "release year": 1996,
-    "beats per minute": 71,
-    "song duration (s)": 295,
-    "popularity": 63
-  },
-  {
-    "name": "Per Spoor (Kedeng Kedeng) (Guus Meeuwis)",
-    "release year": 1996,
-    "beats per minute": 126,
-    "song duration (s)": 253,
-    "popularity": 49
-  },
-  {
-    "name": "Beautiful Goodbye (Amanda Marshall)",
-    "release year": 1996,
-    "beats per minute": 99,
-    "song duration (s)": 317,
-    "popularity": 37
-  },
-  {
-    "name": "Novocaine For The Soul (Eels)",
-    "release year": 1996,
-    "beats per minute": 169,
-    "song duration (s)": 189,
-    "popularity": 54
-  },
-  {
-    "name": "No Diggity (Blackstreet)",
-    "release year": 1996,
-    "beats per minute": 89,
-    "song duration (s)": 305,
-    "popularity": 76
-  },
-  {
-    "name": "Children (Robert Miles)",
-    "release year": 1996,
-    "beats per minute": 137,
-    "song duration (s)": 243,
-    "popularity": 67
-  },
-  {
-    "name": "You Have Been Loved (George Michael)",
-    "release year": 1996,
-    "beats per minute": 137,
-    "song duration (s)": 331,
-    "popularity": 53
-  },
-  {
-    "name": "Hedonism (Just Because You Feel Good) (Skunk Anansie)",
-    "release year": 1996,
-    "beats per minute": 81,
-    "song duration (s)": 207,
-    "popularity": 32
-  },
-  {
-    "name": "Margherita (Marco Borsato)",
-    "release year": 1995,
-    "beats per minute": 119,
-    "song duration (s)": 250,
-    "popularity": 52
-  },
-  {
-    "name": "Ik Leef Niet Meer Voor Jou (Marco Borsato)",
-    "release year": 1995,
-    "beats per minute": 150,
-    "song duration (s)": 217,
-    "popularity": 60
-  },
-  {
-    "name": "Weak (Skunk Anansie)",
-    "release year": 1995,
-    "beats per minute": 94,
-    "song duration (s)": 212,
-    "popularity": 24
-  },
-  {
-    "name": "Lemon Tree (Fools Garden)",
-    "release year": 1995,
-    "beats per minute": 143,
-    "song duration (s)": 191,
-    "popularity": 73
-  },
-  {
-    "name": "You Do Something To Me (Paul Weller)",
-    "release year": 1995,
-    "beats per minute": 73,
-    "song duration (s)": 219,
-    "popularity": 58
-  },
-  {
-    "name": "Champagne Supernova - Remastered (Oasis)",
-    "release year": 1995,
-    "beats per minute": 150,
-    "song duration (s)": 448,
-    "popularity": 63
-  },
-  {
-    "name": "They Don't Care About Us (Michael Jackson)",
-    "release year": 1995,
-    "beats per minute": 90,
-    "song duration (s)": 284,
-    "popularity": 69
-  },
-  {
-    "name": "Circle Of Life (Elton John)",
-    "release year": 1995,
-    "beats per minute": 160,
-    "song duration (s)": 290,
-    "popularity": 54
-  },
-  {
-    "name": "Vivo per lei (Andrea Bocelli)",
-    "release year": 1995,
-    "beats per minute": 136,
-    "song duration (s)": 266,
-    "popularity": 64
-  },
-  {
-    "name": "Earth Song (Michael Jackson)",
-    "release year": 1995,
-    "beats per minute": 138,
-    "song duration (s)": 406,
-    "popularity": 63
-  },
-  {
-    "name": "Beat It (Michael Jackson)",
-    "release year": 1995,
-    "beats per minute": 139,
-    "song duration (s)": 258,
-    "popularity": 60
-  },
-  {
-    "name": "Aan De Kust (BL\u00d8F)",
-    "release year": 1995,
-    "beats per minute": 78,
-    "song duration (s)": 223,
-    "popularity": 47
-  },
-  {
-    "name": "Street Spirit (Fade Out) (Radiohead)",
-    "release year": 1995,
-    "beats per minute": 138,
-    "song duration (s)": 254,
-    "popularity": 62
-  },
-  {
-    "name": "Con Te Partir\u00f2 (Andrea Bocelli)",
-    "release year": 1995,
-    "beats per minute": 135,
-    "song duration (s)": 251,
-    "popularity": 66
-  },
-  {
-    "name": "Streets of Philadelphia - Single Edit (Bruce Springsteen)",
-    "release year": 1995,
-    "beats per minute": 94,
-    "song duration (s)": 195,
-    "popularity": 70
-  },
-  {
-    "name": "Don't Look Back In Anger - Remastered (Oasis)",
-    "release year": 1995,
-    "beats per minute": 163,
-    "song duration (s)": 290,
-    "popularity": 63
-  },
-  {
-    "name": "Wonderwall - Remastered (Oasis)",
-    "release year": 1995,
-    "beats per minute": 175,
-    "song duration (s)": 259,
-    "popularity": 71
-  },
-  {
-    "name": "Stil In Mij (Van Dik Hout)",
-    "release year": 1995,
-    "beats per minute": 99,
-    "song duration (s)": 245,
-    "popularity": 58
-  },
-  {
-    "name": "Gangsta's Paradise (Coolio)",
-    "release year": 1995,
-    "beats per minute": 80,
-    "song duration (s)": 241,
-    "popularity": 80
-  },
-  {
-    "name": "Man in the Mirror (Michael Jackson)",
-    "release year": 1995,
-    "beats per minute": 100,
-    "song duration (s)": 319,
-    "popularity": 64
-  },
-  {
-    "name": "Don't Speak (No Doubt)",
-    "release year": 1995,
-    "beats per minute": 76,
-    "song duration (s)": 264,
-    "popularity": 67
-  },
-  {
-    "name": "Stranger in Moscow (Michael Jackson)",
-    "release year": 1995,
-    "beats per minute": 130,
-    "song duration (s)": 344,
-    "popularity": 58
-  },
-  {
-    "name": "Heaven For Everyone - Remastered 2011 (Queen)",
-    "release year": 1995,
-    "beats per minute": 110,
-    "song duration (s)": 336,
-    "popularity": 49
-  },
-  {
-    "name": "Fairground (Simply Red)",
-    "release year": 1995,
-    "beats per minute": 123,
-    "song duration (s)": 333,
-    "popularity": 56
-  },
-  {
-    "name": "High And Dry (Radiohead)",
-    "release year": 1995,
-    "beats per minute": 88,
-    "song duration (s)": 257,
-    "popularity": 72
-  },
-  {
-    "name": "Gold (Prince)",
-    "release year": 1995,
-    "beats per minute": 90,
-    "song duration (s)": 443,
-    "popularity": 46
-  },
-  {
-    "name": "Bullet With Butterfly Wings - Remastered 2012 (The Smashing Pumpkins)",
-    "release year": 1995,
-    "beats per minute": 122,
-    "song duration (s)": 258,
-    "popularity": 71
-  },
-  {
-    "name": "Tonight, Tonight - Remastered 2012 (The Smashing Pumpkins)",
-    "release year": 1995,
-    "beats per minute": 149,
-    "song duration (s)": 255,
-    "popularity": 68
-  },
-  {
-    "name": "Secret Garden (Bruce Springsteen)",
-    "release year": 1995,
-    "beats per minute": 87,
-    "song duration (s)": 267,
-    "popularity": 61
-  },
-  {
-    "name": "An American Trilogy (Elvis Presley)",
-    "release year": 1995,
-    "beats per minute": 84,
-    "song duration (s)": 272,
-    "popularity": 31
-  },
-  {
-    "name": "A Winter's Tale - 2011 Remaster (Queen)",
-    "release year": 1995,
-    "beats per minute": 54,
-    "song duration (s)": 230,
-    "popularity": 29
-  },
-  {
-    "name": "Diane (Therapy?)",
-    "release year": 1995,
-    "beats per minute": 124,
-    "song duration (s)": 300,
-    "popularity": 44
-  },
-  {
-    "name": "Can You Feel The Love Tonight (Elton John)",
-    "release year": 1995,
-    "beats per minute": 123,
-    "song duration (s)": 240,
-    "popularity": 58
-  },
-  {
-    "name": "You Don't Fool Me - Remastered 2011 (Queen)",
-    "release year": 1995,
-    "beats per minute": 122,
-    "song duration (s)": 325,
-    "popularity": 45
-  },
-  {
-    "name": "Avalon (Roxy Music)",
-    "release year": 1995,
-    "beats per minute": 137,
-    "song duration (s)": 257,
-    "popularity": 46
-  },
-  {
-    "name": "1979 - Remastered 2012 (The Smashing Pumpkins)",
-    "release year": 1995,
-    "beats per minute": 127,
-    "song duration (s)": 266,
-    "popularity": 74
-  },
-  {
-    "name": "Too Much Love Will Kill You - 2011 Remaster (Queen)",
-    "release year": 1995,
-    "beats per minute": 73,
-    "song duration (s)": 259,
-    "popularity": 49
-  },
-  {
-    "name": "Fake Plastic Trees (Radiohead)",
-    "release year": 1995,
-    "beats per minute": 74,
-    "song duration (s)": 291,
-    "popularity": 70
-  },
-  {
-    "name": "Dear Mama (2Pac)",
-    "release year": 1995,
-    "beats per minute": 84,
-    "song duration (s)": 280,
-    "popularity": 72
-  },
-  {
-    "name": "The Man Who Sold The World (Nirvana)",
-    "release year": 1994,
-    "beats per minute": 115,
-    "song duration (s)": 261,
-    "popularity": 73
-  },
-  {
-    "name": "Kiss from a Rose (Seal)",
-    "release year": 1994,
-    "beats per minute": 132,
-    "song duration (s)": 288,
-    "popularity": 72
-  },
-  {
-    "name": "High Hopes (Pink Floyd)",
-    "release year": 1994,
-    "beats per minute": 75,
-    "song duration (s)": 511,
-    "popularity": 59
-  },
-  {
-    "name": "Where Did You Sleep Last Night (Nirvana)",
-    "release year": 1994,
-    "beats per minute": 109,
-    "song duration (s)": 306,
-    "popularity": 68
-  },
-  {
-    "name": "Basket Case (Green Day)",
-    "release year": 1994,
-    "beats per minute": 85,
-    "song duration (s)": 182,
-    "popularity": 79
-  },
-  {
-    "name": "Oude Maasweg (The Amazing Stroopwafels)",
-    "release year": 1994,
-    "beats per minute": 90,
-    "song duration (s)": 206,
-    "popularity": 45
-  },
-  {
-    "name": "Black Hole Sun (Soundgarden)",
-    "release year": 1994,
-    "beats per minute": 105,
-    "song duration (s)": 319,
-    "popularity": 76
-  },
-  {
-    "name": "Lightning Crashes (Live)",
-    "release year": 1994,
-    "beats per minute": 90,
-    "song duration (s)": 326,
-    "popularity": 64
-  },
-  {
-    "name": "Hallelujah (Jeff Buckley)",
-    "release year": 1994,
-    "beats per minute": 97,
-    "song duration (s)": 414,
-    "popularity": 73
-  },
-  {
-    "name": "Zombie (The Cranberries)",
-    "release year": 1994,
-    "beats per minute": 167,
-    "song duration (s)": 306,
-    "popularity": 80
-  },
-  {
-    "name": "All I Want for Christmas Is You (Mariah Carey)",
-    "release year": 1994,
-    "beats per minute": 150,
-    "song duration (s)": 241,
-    "popularity": 95
-  },
-  {
-    "name": "Always (Bon Jovi)",
-    "release year": 1994,
-    "beats per minute": 141,
-    "song duration (s)": 353,
-    "popularity": 76
-  },
-  {
-    "name": "Glory Box (Portishead)",
-    "release year": 1994,
-    "beats per minute": 120,
-    "song duration (s)": 309,
-    "popularity": 67
-  },
-  {
-    "name": "I Alone (Live)",
-    "release year": 1994,
-    "beats per minute": 90,
-    "song duration (s)": 231,
-    "popularity": 62
-  },
-  {
-    "name": "Live Forever - Remastered (Oasis)",
-    "release year": 1994,
-    "beats per minute": 84,
-    "song duration (s)": 277,
-    "popularity": 55
-  },
-  {
-    "name": "Sabotage (Beastie Boys)",
-    "release year": 1994,
-    "beats per minute": 168,
-    "song duration (s)": 178,
-    "popularity": 71
-  },
-  {
-    "name": "Grace (Jeff Buckley)",
-    "release year": 1994,
-    "beats per minute": 128,
-    "song duration (s)": 322,
-    "popularity": 59
-  },
-  {
-    "name": "Polly (Nirvana)",
-    "release year": 1994,
-    "beats per minute": 115,
-    "song duration (s)": 196,
-    "popularity": 57
-  },
-  {
-    "name": "Annabel (Hans De Booij)",
-    "release year": 1994,
-    "beats per minute": 174,
-    "song duration (s)": 213,
-    "popularity": 45
-  },
-  {
-    "name": "Mmm Mmm Mmm Mmm (Crash Test Dummies)",
-    "release year": 1994,
-    "beats per minute": 93,
-    "song duration (s)": 235,
-    "popularity": 57
-  },
-  {
-    "name": "When I Come Around (Green Day)",
-    "release year": 1994,
-    "beats per minute": 98,
-    "song duration (s)": 178,
-    "popularity": 75
-  },
-  {
-    "name": "No Good (Start the Dance) [Remastered] (The Prodigy)",
-    "release year": 1994,
-    "beats per minute": 145,
-    "song duration (s)": 378,
-    "popularity": 56
-  },
-  {
-    "name": "Ode To My Family (The Cranberries)",
-    "release year": 1994,
-    "beats per minute": 94,
-    "song duration (s)": 271,
-    "popularity": 69
-  },
-  {
-    "name": "Dromen Zijn Bedrog (Marco Borsato)",
-    "release year": 1994,
-    "beats per minute": 132,
-    "song duration (s)": 243,
-    "popularity": 56
-  },
-  {
-    "name": "Smooth Operator - Single Version (Sade)",
-    "release year": 1994,
-    "beats per minute": 119,
-    "song duration (s)": 259,
-    "popularity": 66
-  },
-  {
-    "name": "I'd Do Anything For Love (But I Won't Do That) - Single Edit (Meat Loaf)",
-    "release year": 1993,
-    "beats per minute": 105,
-    "song duration (s)": 316,
-    "popularity": 59
-  },
-  {
-    "name": "Disarm - Remastered (The Smashing Pumpkins)",
-    "release year": 1993,
-    "beats per minute": 130,
-    "song duration (s)": 197,
-    "popularity": 62
-  },
-  {
-    "name": "Ordinary World (Duran Duran)",
-    "release year": 1993,
-    "beats per minute": 140,
-    "song duration (s)": 340,
-    "popularity": 72
-  },
-  {
-    "name": "I Will Survive - Single Version (Gloria Gaynor)",
-    "release year": 1993,
-    "beats per minute": 116,
-    "song duration (s)": 199,
-    "popularity": 60
   }
 ]
