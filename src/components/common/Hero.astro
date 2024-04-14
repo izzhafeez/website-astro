@@ -3,20 +3,20 @@ import { Image } from "astro:assets";
 
 const { site } = Astro.props;
 
-let gradientColor = 'from-lrt-700/80 to-lrt-500/50';
+let gradientColor = 'from-lrt-700/80 via-lrt-500/50 to-lrt-700/80';
 
 switch (site) {
   case 'apps':
-    gradientColor = 'from-ew-700/80 to-ew-500/50';
+    gradientColor = 'from-ew-700/80 via-ew-500/50 to-ew-700/80';
     break;
   case 'portfolio':
-    gradientColor = 'from-ne-700/80 to-ne-500/50';
+    gradientColor = 'from-ne-700/80 via-ne-500/50 to-ne-700/80';
     break;
   case 'quizzes':
-    gradientColor = 'from-ns-700/80 to-ns-500/50';
+    gradientColor = 'from-ns-700/80 via-ns-500/50 to-ns-700/80';
     break;
   case 'games':
-    gradientColor = 'from-dt-700/80 to-dt-500/50';
+    gradientColor = 'from-dt-700/80 via-dt-500/50 to-dt-700/80';
     break;
 }
 const backgroundImgUrl = `/src/img/heroes/${Astro.props.label.split(" ")[0]}.jpg`;
@@ -24,7 +24,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/heroes/*.j
 ---
 <div id="hero" class="bg-opacity-50 bg-cover h-80 w-screen">
   <Image src={images[backgroundImgUrl]()} alt="hero image" width="1500" height="800" class="absolute w-full h-80 opacity-30 object-cover"/>
-  <div class={`bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}>
+  <div class={`animate-linear bg-[length:200%_auto] bg-gradient-to-r ${gradientColor} w-screen h-80 overflow-clip grid content-center p-8`}>
     <div class="max-w-6xl mx-auto">
       <h1 transition:name={Astro.props.label} class="font-extrabold text-center text-3xl md:text-6xl text-white mb-2 relative z-0">{Astro.props.label}</h1>
       <p transition:name={Astro.props.text} class="text-center text-white max-w-xl relative z-0">{Astro.props.text}</p>

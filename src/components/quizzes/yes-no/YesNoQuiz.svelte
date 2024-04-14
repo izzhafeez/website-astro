@@ -60,7 +60,7 @@
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <div class="max-w-3xl mx-auto">
-    <h1 class="text-5xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
+    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
     <p class="dark:text-white mt-2">{instructions}</p>
     <label for="regex" class="dark:text-white">Your Name (Optional):</label>
     <input name="regex" bind:value={name} class='my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
@@ -79,7 +79,7 @@
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <p class="dark:text-white"><span class="font-bold">Streak</span>: <span class="text-ew-500">{streak}</span></p>
   <p class="dark:text-white"><span class="font-bold">Best Streak</span>: <span class="text-ew-500">{bestStreak}</span></p>
-  <h2 class="text-6xl font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-2">{answer.name}</h2>
+  <h2 class="text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-2">{answer.name}</h2>
   <ul class="dark:text-white">
     {#each fields as field}
       <li><span class="font-bold">{capitalise(field)}</span>: {answer[field]}</li>

@@ -1,6 +1,6 @@
 <template>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleSubmitPreferences">
-    <h1 class="mt-12 py-2 text-6xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+    <h1 class="mt-12 py-2 text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
       {{ meetupName }}
     </h1>
     <h2 class="dark:text-white my-4">
@@ -80,7 +80,7 @@
     <button v-on:click="handleSubmitPreferences" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Submit</button>
   </form>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleGenerateRecommendations">
-    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">Recommendations</h2>
+    <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">Recommendations</h2>
     <label class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">WHICH DO YOU PREFER?</label>
     <ul class="grid gap-2 dark:text-white">
       <li v-for="rec in this.recommendationsData" v-on:click="handleLike(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer">
@@ -99,7 +99,7 @@
     <button v-on:click="handleGenerateRecommendations" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Generate Recommendations</button>
   </form>
   <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleConfirm">
-    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+    <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
       Finalise Meetup
     </h2>
     <div class="flex gap-4 content-center" v-if="passwordHash">

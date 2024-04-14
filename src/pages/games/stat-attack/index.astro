@@ -6,6 +6,8 @@ import Hero from "../../../components/common/Hero.astro";
 import gamesData from "../../../data/games/games.json";
 import MediumCard from "../../../components/common/MediumCard.astro";
 import statAttackData from "../../../data/games/stat-attack/stat-attack.json";
+import { SEO } from "astro-seo";
+import statAttack from '/src/img/heroes/STAT-ATTACK.jpg';
 
 type DeckJson = {[k: string]: {
   title: string,
@@ -28,6 +30,32 @@ const decks = Object.entries(statAttackData as DeckJson).map(([key, value]) => {
 
 const heroText = gamesData["stat-attack"].heroText;
 ---
+<SEO
+  title={"Stat Attack | Izz Hafeez"}
+  description={heroText}
+  canonical={`https://izzhafeez.com/games/stat-attack`}
+  openGraph={{
+    basic: {
+      title: "Stat Attack | Izz Hafeez",
+      type: "website",
+      image: statAttack.src,
+      url: `https://izzhafeez.com/games/stat-attack`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: statAttack.src,
+      },
+      { name: "twitter:title", content: "Stat Attack | Izz Hafeez"},
+      { name: "twitter:description", content: heroText },
+    ],
+  }}
+/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

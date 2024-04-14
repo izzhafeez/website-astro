@@ -7,7 +7,8 @@ import { capitalise, toName } from '../../utils/string';
 import CoursePreview from '../../components/portfolio/CoursePreview.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { AstroSeo } from '@astrolib/seo';
+import { SEO } from 'astro-seo';
+import seoImg from "../../img/heroes/COURSES.jpg";
 
 interface CourseData {
   title?: string,
@@ -54,25 +55,33 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
 
 const heroText = portfolioData.courses.heroText;
 ---
-<AstroSeo
-  title="Courses | Izz Hafeez"
+<SEO
+  title={`Courses | Izz Hafeez`}
   description={heroText}
-  canonical="https://izzhafeez.com/portfolio/courses"
+  canonical={`https://izzhafeez.com/portfolio/courses`}
   openGraph={{
-    title: "Courses | Izz Hafeez",
-    description: heroText,
-    url: "https://izzhafeez.com/portfolio/courses",
-    type: "website",
-    images: [
+    basic: {
+      title: `Courses | Izz Hafeez`,
+      type: "blog",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/portfolio/courses`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: "https://github.com/izzhafeez/website-astro/tree/master/src/img/heroes/COURSES.jpg",
-        width: 800,
-        height: 600,
-        alt: "Courses | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Courses | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

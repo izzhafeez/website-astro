@@ -5,7 +5,8 @@ import Hero from '../../components/common/Hero.astro';
 import experienceData from '../../data/portfolio/experience.json';
 import ExperiencePreview from '../../components/portfolio/ExperiencePreview.astro';
 import Footer from '../../components/common/Footer.astro';
-import { AstroSeo } from '@astrolib/seo';
+import { SEO } from 'astro-seo';
+import seoImg from '../../img/heroes/EXPERIENCE.jpg';
 
 interface ExperienceData {
   title: string,
@@ -32,25 +33,33 @@ const experiences = Object.entries(experienceData as ExperienceJson).map(([key, 
 
 const heroText = "Here are some of the invaluable experiences I've gained through internships, work and beyond."
 ---
-<AstroSeo
-  title="Experience | Izz Hafeez"
+<SEO
+  title={`Experience | Izz Hafeez`}
   description={heroText}
-  canonical="https://izzhafeez.com/portfolio/experience"
+  canonical={`https://izzhafeez.com/portfolio/experience`}
   openGraph={{
-    title: "Experience | Izz Hafeez",
-    description: heroText,
-    url: "https://izzhafeez.com/portfolio/experience",
-    type: "website",
-    images: [
+    basic: {
+      title: `Experience | Izz Hafeez`,
+      type: "blog",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/portfolio/experience`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: "/img/heroes/EXPERIENCE.jpg",
-        width: 800,
-        height: 600,
-        alt: "Experience | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Experience | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

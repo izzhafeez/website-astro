@@ -7,7 +7,8 @@ import Hero from '../../components/common/Hero.astro';
 import NavBar from '../../components/common/NavBar.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { AstroSeo } from "@astrolib/seo";
+import { SEO } from 'astro-seo';
+import seoImg from "../../img/heroes/ART.jpg";
 
 export interface ArtData {
   link: string,
@@ -27,27 +28,34 @@ const artworks = Object.entries(artData as ArtJson).map(([key, value]) => {
 }).sort((a,b) => -a.rank + b.rank);
 
 const heroText = portfolioData.art.heroText;
-//<h1 class="font-extrabold text-transparent bg-clip-text text-5xl mt-20 bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-white my-4 inline-block">ARTWORK</h1>
 ---
-<AstroSeo
-  title="Artwork | Izz Hafeez"
+<SEO
+  title={`Artwork | Izz Hafeez`}
   description={heroText}
-  canonical="https://izzhafeez.com/portfolio/art"
+  canonical={`https://izzhafeez.com/portfolio/art`}
   openGraph={{
-    title: "Artwork | Izz Hafeez",
-    description: heroText,
-    url: "https://izzhafeez.com/portfolio/art",
-    type: "website",
-    images: [
+    basic: {
+      title: `Artwork | Izz Hafeez`,
+      type: "blog",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/portfolio/art`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: "/img/heroes/ART.jpg",
-        width: 600,
-        height: 600,
-        alt: "Artwork | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Artwork | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

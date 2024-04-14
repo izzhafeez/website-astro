@@ -185,7 +185,7 @@ async function handleFail(_) {
 <div class="fixed">
 {#if !isPlaying}
 <div class="grid h-screen w-screen justify-center content-center gap-2 p-4">
-  <h1 class="font-extrabold text-6xl bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
+  <h1 class="font-extrabold text-6xl animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
   <p class="dark:text-white max-w-xl">{instructions}</p>
   <div class="flex content-center gap-2">
     <label for="name" class="dark:text-white my-auto">Your Name (Optional):</label>

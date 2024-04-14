@@ -14,7 +14,7 @@ import react from '/src/img/portfolio/skills/react.svg';
 
 const { site } = Astro.props;
 ---
-<footer class={`h-20 mt-12 w-screen border-t-[1px] border-gray-500/50 flex items-center p-4`}>
+<footer class={`h-20 w-screen border-gray-500/50 flex items-center p-4`}>
   <div class="ms-auto flex gap-2">
     {site === 'portfolio' && <Image src={preact} class="h-8 hover:opacity-50" alt="Preact" width="25" height="25"/>}
     {site === 'quizzes' && <Image src={svelte} class="h-8 hover:opacity-50" alt="Svelte" width="25" height="25"/>}

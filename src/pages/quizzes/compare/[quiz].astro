@@ -19,8 +19,8 @@ import malaysiaCitiesLongitude from "../../../data/quizzes/compare/malaysia-long
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
-import { AstroSeo } from "@astrolib/seo";
 import compareQuizData from "../../../data/quizzes/compare.json";
+import { SEO } from 'astro-seo';
 
 export function getStaticPaths() {
   return [
@@ -214,25 +214,33 @@ export function getStaticPaths() {
 export const prerender = true;
 const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
 ---
-<AstroSeo
-  title={Astro.props.title + " | Izz Hafeez"}
+<SEO
+  title={`${Astro.props.title} | Izz Hafeez`}
   description={Astro.props.instructions}
   canonical={`https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`}
   openGraph={{
-    title: Astro.props.title + " | Izz Hafeez",
-    description: Astro.props.instructions,
-    url: `https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`,
-    type: "website",
-    images: [
+    basic: {
+      title: `${Astro.props.title} | Izz Hafeez`,
+      type: "website",
+      image: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+      url: `https://izzhafeez.com/quizzes/compare/${Astro.params.quiz}`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
-        width: 800,
-        height: 600,
-        alt: Astro.props.title + " | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: `/src/img/quizzes/compare/${Astro.params.quiz}.jpg`,
+      },
+      { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
+      { name: "twitter:description", content: Astro.props.instructions },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main">
     <div class="fixed z-50 w-screen">

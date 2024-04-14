@@ -7,7 +7,8 @@ import NavBar from '../../components/common/NavBar.astro';
 import Hero from '../../components/common/Hero.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { AstroSeo } from '@astrolib/seo';
+import { SEO } from 'astro-seo';
+import seoImg from '../../img/heroes/MUSIC.jpg';
 
 interface MusicData {
   title?: string,
@@ -28,25 +29,33 @@ const music = Object.entries(musicData as MusicJson).map(([key, value]) => {
 
 const heroText = portfolioData.music.heroText;
 ---
-<AstroSeo
-  title="Music | Izz Hafeez"
+<SEO
+  title={`Music | Izz Hafeez`}
   description={heroText}
-  canonical="https://izzhafeez.com/portfolio/music"
+  canonical={`https://izzhafeez.com/portfolio/music`}
   openGraph={{
-    title: "Music | Izz Hafeez",
-    description: heroText,
-    url: "https://izzhafeez.com/portfolio/music",
-    type: "website",
-    images: [
+    basic: {
+      title: `Music | Izz Hafeez`,
+      type: "blog",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/portfolio/music`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: "/img/heroes/MUSIC.jpg",
-        width: 800,
-        height: 600,
-        alt: "Music | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Music | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

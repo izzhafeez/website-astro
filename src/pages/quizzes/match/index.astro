@@ -5,9 +5,9 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
 import Footer from "../../../components/common/Footer.astro"
-import { AstroSeo } from "@astrolib/seo";
+import { SEO } from 'astro-seo';
 import quizzesData from "../../../data/quizzes/quizzes.json";
-import match from '/src/img/heroes/MATCH.jpg';
+import seoImg from '/src/img/heroes/MATCH.jpg';
 
 type QuizJson = {[k: string]: {
   title: string,
@@ -30,25 +30,33 @@ const quizzes = Object.entries(matchData as QuizJson).map(([key, value]) => {
 
 const heroText = quizzesData.match.heroText;
 ---
-<AstroSeo
-  title={"Match Quizzes | Izz Hafeez"}
+<SEO
+  title={`Match Quizzes | Izz Hafeez`}
   description={heroText}
   canonical={`https://izzhafeez.com/quizzes/match`}
   openGraph={{
-    title: "Match Quizzes | Izz Hafeez",
-    description: heroText,
-    url: `https://izzhafeez.com/quizzes/match`,
-    type: "website",
-    images: [
+    basic: {
+      title: `Match Quizzes | Izz Hafeez`,
+      type: "website",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/quizzes/match`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: match.src,
-        width: 800,
-        height: 600,
-        alt: "Match Quizzes | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Match Quizzes | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

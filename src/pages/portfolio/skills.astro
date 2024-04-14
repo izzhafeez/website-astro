@@ -7,7 +7,8 @@ import skillsData from '../../data/portfolio/skills.json';
 import Layout from '../../layouts/Layout.astro';
 import { toName } from '../../utils/string';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { AstroSeo } from '@astrolib/seo';
+import { SEO } from 'astro-seo';
+import seoImg from '../../img/heroes/SKILLS.jpg';
 
 interface SkillData {
   title?: string,
@@ -28,25 +29,33 @@ const skills = Object.entries(skillsData as SkillJson).map(([key, value]) => {
 
 const heroText = portfolioData.skills.heroText;
 ---
-<AstroSeo
-  title="Skills | Izz Hafeez"
+<SEO
+  title={`Skills | Izz Hafeez`}
   description={heroText}
-  canonical="https://izzhafeez.com/portfolio/skills"
+  canonical={`https://izzhafeez.com/portfolio/skills`}
   openGraph={{
-    title: "Skills | Izz Hafeez",
-    description: heroText,
-    url: "https://izzhafeez.com/portfolio/skills",
-    type: "website",
-    images: [
+    basic: {
+      title: `Skills | Izz Hafeez`,
+      type: "blog",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/portfolio/skills`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: "/img/heroes/SKILLS.jpg",
-        width: 800,
-        height: 600,
-        alt: "Skills | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `Skills | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
+
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>

@@ -2,26 +2,27 @@
 import Layout from '../../layouts/Layout.astro';
 import NavBar from '../../components/common/NavBar.astro';
 import Footer from '../../components/common/Footer.astro';
-import portfolioData from '../../data/portfolio/portfolio.json';
+import gamesData from '../../data/games/games.json';
 import Hero from '../../components/common/Hero.astro';
 import homeJson from '../../data/home.json';
-import MediumCard from '../../components/common/MediumCard.astro';
 import { capitalise } from '../../utils/string';
-import seoImg from '../../img/heroes/PORTFOLIO.jpg';
+import MediumCard from '../../components/common/MediumCard.astro';
 import { SEO } from 'astro-seo';
+import seoImg from '/src/img/heroes/GAMES.jpg';
 
-const heroText = homeJson.portfolio.heroText;
+const heroText = homeJson.games.heroText;
 ---
+
 <SEO
-  title={`Portfolio | Izz Hafeez`}
+  title={`Games | Izz Hafeez`}
   description={heroText}
-  canonical={`https://izzhafeez.com/portfolio`}
+  canonical={`https://izzhafeez.com/games`}
   openGraph={{
     basic: {
-      title: `Portfolio | Izz Hafeez`,
-      type: "blog",
+      title: `Games | Izz Hafeez`,
+      type: "website",
       image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio`
+      url: `https://izzhafeez.com/games`
     }
   }}
   extend={{
@@ -33,7 +34,7 @@ const heroText = homeJson.portfolio.heroText;
         name: "twitter:image",
         content: seoImg.src,
       },
-      { name: "twitter:title", content: `Portfolio | Izz Hafeez`},
+      { name: "twitter:title", content: `Games | Izz Hafeez`},
       { name: "twitter:description", content: heroText },
     ],
   }}
@@ -42,10 +43,10 @@ const heroText = homeJson.portfolio.heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <Hero label="PORTFOLIO" text={heroText} site="portfolio"/>
+    <Hero label="GAMES" text={heroText} site="games"/>
     <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+      {Object.entries(gamesData).map(([key, value]) => <MediumCard href={`/games/${key}`} title={capitalise(key)} heroText={value.heroText} site="games" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
     </section>
-    <Footer site="portfolio"/>
+    <Footer site="games"/>
   </div>
 </Layout>

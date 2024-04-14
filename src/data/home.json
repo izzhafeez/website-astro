@@ -7,5 +7,8 @@
   },
   "quizzes": {
     "heroText": "Hope you enjoy the Quizzes that I've created for you!"
+  },
+  "games": {
+    "heroText": "Come and play some of my games with your friends!"
   }
 }

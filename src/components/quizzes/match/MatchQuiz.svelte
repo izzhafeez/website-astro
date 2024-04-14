@@ -113,7 +113,7 @@
 
 <div class="max-w-3xl mx-auto p-2">
   {#if !isStart}
-  <h1 class="font-extrabold bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12 text-6xl">
+  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12 text-6xl">
     {title}
   </h1>
   <p class="dark:text-white my-4">{instructions}</p>

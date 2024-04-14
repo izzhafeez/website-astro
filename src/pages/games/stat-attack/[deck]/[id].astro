@@ -4,6 +4,8 @@ import StatAttack from "../../../../components/games/stat-attack/StatAttack";
 import Layout from "../../../../layouts/Layout.astro";
 import mallsData from "../../../../data/games/stat-attack/malls.json";
 import citiesData from "../../../../data/games/stat-attack/cities.json";
+import { SEO } from 'astro-seo';
+import gamesData from "../../../../data/games/games.json";
 
 export const prerender = false;
 const deckData = {
@@ -32,7 +34,36 @@ switch (deckName) {
   default:
     deck = deckData.malls;
 }
+
+const heroText = gamesData["stat-attack"].heroText;
 ---
+
+<SEO
+  title={`${deck.title} | Izz Hafeez`}
+  description={heroText}
+  canonical={`https://izzhafeez.com/games/stat-attack/${deckName}/${id}`}
+  openGraph={{
+    basic: {
+      title: `${deck.title} | Izz Hafeez`,
+      type: "website",
+      image: `/src/img/games/stat-attack/${deckName}.jpg`,
+      url: `https://izzhafeez.com/games/stat-attack/${deckName}/${id}`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: `/src/img/games/stat-attack/${deckName}.jpg`,
+      },
+      { name: "twitter:title", content: `${deckName} | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
+  }}
+/>
 
 <Layout>
   <div slot="main">

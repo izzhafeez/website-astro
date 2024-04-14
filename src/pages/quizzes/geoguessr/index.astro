@@ -3,29 +3,36 @@ import geoguessrData from "../../../data/quizzes/geoguessr.json";
 import GeoGuessr from "../../../components/quizzes/geoguessr/GeoGuessr.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
-import geoguessr from '/src/img/heroes/GEOGUESSR.jpg';
+import seoImg from '/src/img/heroes/GEOGUESSR.jpg';
 import quizzesData from "../../../data/quizzes/quizzes.json";
-import { AstroSeo } from "@astrolib/seo";
+import { SEO } from 'astro-seo';
 
 const heroText = quizzesData.geoguessr.heroText;
 ---
-<AstroSeo
-  title={"GeoGuessr | Izz Hafeez"}
+<SEO
+  title={`GeoGuessr | Izz Hafeez`}
   description={heroText}
-  canonical={`https://izzhafeez.com/quizzes/compare`}
+  canonical={`https://izzhafeez.com/quizzes/geoguessr`}
   openGraph={{
-    title: "GeoGuessr | Izz Hafeez",
-    description: heroText,
-    url: `https://izzhafeez.com/quizzes/compare`,
-    type: "website",
-    images: [
+    basic: {
+      title: `GeoGuessr | Izz Hafeez`,
+      type: "website",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/quizzes/geoguessr`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: geoguessr.src,
-        width: 800,
-        height: 600,
-        alt: "Compare Quizzes | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `GeoGuessr | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
   }}
 />
 

@@ -1,6 +1,6 @@
 <template>
 <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleSubmit">
-  <h1 class="my-12 py-2 text-6xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+  <h1 class="my-12 py-2 text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
     {{ meetupName }}
   </h1>
   <div class="flex gap-4 content-center">
@@ -36,7 +36,7 @@
   <button v-on:click="handleSubmit" class="w-auto bg-ew-500 hover:opacity-70 px-4 py-2 text-white rounded-lg my-2">Confirm Availability</button>
 </form>
 <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleConfirm">
-  <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+  <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
     Finalise Date
   </h2>
   <div class="flex gap-4 content-center" v-if="passwordHash">

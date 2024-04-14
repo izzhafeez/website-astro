@@ -4,6 +4,8 @@ import Layout from '../../../../layouts/Layout.astro';
 import NavBar from '../../../../components/common/NavBar.astro';
 import statAttackData from '../../../../data/games/stat-attack/stat-attack.json';
 import StatAttackRoomCreate from '../../../../components/games/stat-attack/StatAttackRoomCreate';
+import { SEO } from 'astro-seo';
+import gamesData from '../../../../data/games/games.json';
 
 export const getStaticPaths = (() => {  
   return [
@@ -28,8 +30,37 @@ export const getStaticPaths = (() => {
   ];
 }) satisfies GetStaticPaths;
 
+const { deck } = Astro.params;
 const { instructions, title } = Astro.props;
+const heroText = gamesData["stat-attack"].heroText;
 ---
+
+<SEO
+  title={`${title} | Izz Hafeez`}
+  description={heroText}
+  canonical={`https://izzhafeez.com/games/stat-attack/${deck}`}
+  openGraph={{
+    basic: {
+      title: `${title} | Izz Hafeez`,
+      type: "website",
+      image: `/src/img/games/stat-attack/${deck}.jpg`,
+      url: `https://izzhafeez.com/games/stat-attack/${deck}`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: `/src/img/games/stat-attack/${deck}.jpg`,
+      },
+      { name: "twitter:title", content: `${deck} | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
+  }}
+/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

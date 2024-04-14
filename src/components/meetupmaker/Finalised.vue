@@ -1,6 +1,6 @@
 <template>
 <div class="max-w-6xl mx-auto p-2">
-  <h1 class="mt-12 py-2 text-6xl font-extrabold bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+  <h1 class="mt-12 py-2 text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
     {{ meetupName }}
   </h1>
   <div class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {

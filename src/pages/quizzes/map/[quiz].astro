@@ -25,8 +25,9 @@ import canadaCitiesData from "../../../data/quizzes/map/canada-cities.json";
 // import citiesData from "../../../data/quizzes/map/cities.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
-import { AstroSeo } from "@astrolib/seo";
+import { SEO } from 'astro-seo';
 import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
 
 export async function getStaticPaths() {
   return [
@@ -232,25 +233,33 @@ for (const [k, v] of Object.entries(data)) {
   locationDict[key].push(locationDictItem);
 }
 ---
-<AstroSeo
-  title={Astro.props.title + " | Izz Hafeez"}
+<SEO
+  title={`${Astro.props.title} | Izz Hafeez`}
   description={Astro.props.instructions}
   canonical={`https://izzhafeez.com/quizzes/map/${Astro.params.quiz}`}
   openGraph={{
-    title: Astro.props.title + " | Izz Hafeez",
-    description: Astro.props.instructions,
-    url: `https://izzhafeez.com/quizzes/map/${Astro.params.quiz}`,
-    type: "website",
-    images: [
+    basic: {
+      title: `${Astro.props.title} | Izz Hafeez`,
+      type: "website",
+      image: `/src/img/quizzes/map/${Astro.params.quiz}.jpg`,
+      url: `https://izzhafeez.com/quizzes/map/${Astro.params.quiz}`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
       {
-        url: `/src/img/quizzes/map/${Astro.params.quiz}.jpg`,
-        width: 800,
-        height: 600,
-        alt: Astro.props.title + " | Izz Hafeez"
-      }
-    ]
+        name: "twitter:image",
+        content: `/src/img/quizzes/map/${Astro.params.quiz}.jpg`,
+      },
+      { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
+      { name: "twitter:description", content: Astro.props.instructions },
+    ],
   }}
 />
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin=""/>
@@ -261,10 +270,11 @@ for (const [k, v] of Object.entries(data)) {
   <div slot="main" class="">
     <NavBar/>
     <div class="p-2">
-      <h1 transition:name={Astro.params.quiz} class="dark:text-white text-5xl font-extrabold my-6">{Astro.props.title}</h1>
+      <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
       <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
     </div>
     <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
+    <Footer site="quizzes"/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
