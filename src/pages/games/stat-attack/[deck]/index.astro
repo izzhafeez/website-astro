@@ -26,6 +26,15 @@ export const getStaticPaths = (() => {
         title: statAttackData.cities.title,
         instructions: statAttackData.cities.instructions
       }
+    },
+    {
+      params: {
+        deck: "mrt"
+      },
+      props: {
+        title: statAttackData.mrt.title,
+        instructions: statAttackData.mrt.instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;

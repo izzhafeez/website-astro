@@ -8,5 +8,10 @@
     "title": "Cities of the World",
     "instructions": "Fight using the latitude, longitude and population!",
     "tags": ["Geography", "Cities"]
+  },
+  "mrt": {
+    "title": "MRT Stations of Singapore",
+    "instructions": "Fight using the latitude, longitude and opening year!",
+    "tags": ["Geography", "MRT"]
   }
 }
