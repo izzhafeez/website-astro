@@ -23,5 +23,10 @@
     "title": "University Rankings",
     "instructions": "Fight using overall rank, alumni employment, quality of faculty and education!",
     "tags": ["Geography", "Universities"]
+  },
+  "songs": {
+    "title": "Songs on Spotify",
+    "instructions": "Fight using the release year, beats per minute, song duration and popularity!",
+    "tags": ["Music", "Songs"]
   }
 }

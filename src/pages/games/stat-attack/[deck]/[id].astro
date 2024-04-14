@@ -7,6 +7,7 @@ import citiesData from "../../../../data/games/stat-attack/cities.json";
 import mrtData from "../../../../data/games/stat-attack/mrt.json";
 import countriesData from "../../../../data/games/stat-attack/countries.json";
 import universitiesData from "../../../../data/games/stat-attack/universities.json";
+import songsData from "../../../../data/games/stat-attack/songs.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -31,6 +32,10 @@ const deckData = {
   universities: {
     title: "University Rankings",
     data: universitiesData
+  },
+  songs: {
+    title: "Songs on Spotify",
+    data: songsData
   }
 }
 
@@ -54,6 +59,9 @@ switch (deckName) {
     break;
   case "universities":
     deck = deckData.universities;
+    break;
+  case "songs":
+    deck = deckData.songs;
     break;
   default:
     deck = deckData.malls;

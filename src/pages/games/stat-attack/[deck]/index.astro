@@ -53,6 +53,15 @@ export const getStaticPaths = (() => {
         title: statAttackData.universities.title,
         instructions: statAttackData.universities.instructions
       }
+    },
+    {
+      params: {
+        deck: "songs"
+      },
+      props: {
+        title: statAttackData.songs.title,
+        instructions: statAttackData.songs.instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;
