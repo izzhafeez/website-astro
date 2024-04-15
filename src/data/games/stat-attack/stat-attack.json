@@ -14,9 +14,14 @@
     "instructions": "Fight using the latitude, longitude, opening year and passenger volume!",
     "tags": ["Geography", "MRT"]
   },
-  "countries": {
-    "title": "Countries of the World",
-    "instructions": "Fight using the population, area and median age!",
+  "countries-population": {
+    "title": "Country Population",
+    "instructions": "Fight using the population, birth rate, life expectancy and population density!",
+    "tags": ["Geography", "Countries"]
+  },
+  "countries-land": {
+    "title": "Country Land Area",
+    "instructions": "Fight using the latitude, longitude, land area and forested area!",
     "tags": ["Geography", "Countries"]
   },
   "universities": {
@@ -53,5 +58,20 @@
     "title": "Fast Food Nutrition",
     "instructions": "Fight using the calories, fat, cholesterol and sodium! Exciting!",
     "tags": ["Food", "Fast Food"]
+  },
+  "schools": {
+    "title": "Schools of Singapore",
+    "instructions": "Fight using the latitude, longitude and opening year!",
+    "tags": ["Geography", "Schools"]
+  },
+  "airports": {
+    "title": "Airports of the World",
+    "instructions": "Fight using the latitude, longitude and altitude!",
+    "tags": ["Geography", "Airports"]
+  },
+  "movies": {
+    "title": "Movies",
+    "instructions": "Fight using the release year, box office, rating and duration!",
+    "tags": ["Movies"]
   }
 }

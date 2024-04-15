@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "Afghanistan",
+    "Latitude": 33.94,
+    "Longitude": 67.71,
+    "Land Area (Km2)": 652230,
+    "Forested Area (%)": 2.1
+  },
+  {
+    "name": "Albania",
+    "Latitude": 41.15,
+    "Longitude": 20.17,
+    "Land Area (Km2)": 28748,
+    "Forested Area (%)": 28.1
+  },
+  {
+    "name": "Algeria",
+    "Latitude": 28.03,
+    "Longitude": 1.66,
+    "Land Area (Km2)": 2381741,
+    "Forested Area (%)": 0.8
+  },
+  {
+    "name": "Andorra",
+    "Latitude": 42.51,
+    "Longitude": 1.52,
+    "Land Area (Km2)": 468,
+    "Forested Area (%)": 34.0
+  },
+  {
+    "name": "Angola",
+    "Latitude": -11.2,
+    "Longitude": 17.87,
+    "Land Area (Km2)": 1246700,
+    "Forested Area (%)": 46.3
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "Latitude": 17.06,
+    "Longitude": -61.8,
+    "Land Area (Km2)": 443,
+    "Forested Area (%)": 22.3
+  },
+  {
+    "name": "Argentina",
+    "Latitude": -38.42,
+    "Longitude": -63.62,
+    "Land Area (Km2)": 2780400,
+    "Forested Area (%)": 9.8
+  },
+  {
+    "name": "Armenia",
+    "Latitude": 40.07,
+    "Longitude": 45.04,
+    "Land Area (Km2)": 29743,
+    "Forested Area (%)": 11.7
+  },
+  {
+    "name": "Australia",
+    "Latitude": -25.27,
+    "Longitude": 133.78,
+    "Land Area (Km2)": 7741220,
+    "Forested Area (%)": 16.3
+  },
+  {
+    "name": "Austria",
+    "Latitude": 47.52,
+    "Longitude": 14.55,
+    "Land Area (Km2)": 83871,
+    "Forested Area (%)": 46.9
+  },
+  {
+    "name": "Azerbaijan",
+    "Latitude": 40.14,
+    "Longitude": 47.58,
+    "Land Area (Km2)": 86600,
+    "Forested Area (%)": 14.1
+  },
+  {
+    "name": "The Bahamas",
+    "Latitude": 25.03,
+    "Longitude": -77.4,
+    "Land Area (Km2)": 13880,
+    "Forested Area (%)": 51.4
+  },
+  {
+    "name": "Bahrain",
+    "Latitude": 26.07,
+    "Longitude": 50.56,
+    "Land Area (Km2)": 765,
+    "Forested Area (%)": 0.8
+  },
+  {
+    "name": "Bangladesh",
+    "Latitude": 23.68,
+    "Longitude": 90.36,
+    "Land Area (Km2)": 148460,
+    "Forested Area (%)": 11.0
+  },
+  {
+    "name": "Barbados",
+    "Latitude": 13.19,
+    "Longitude": -59.54,
+    "Land Area (Km2)": 430,
+    "Forested Area (%)": 14.7
+  },
+  {
+    "name": "Belarus",
+    "Latitude": 53.71,
+    "Longitude": 27.95,
+    "Land Area (Km2)": 207600,
+    "Forested Area (%)": 42.6
+  },
+  {
+    "name": "Belgium",
+    "Latitude": 50.5,
+    "Longitude": 4.47,
+    "Land Area (Km2)": 30528,
+    "Forested Area (%)": 22.6
+  },
+  {
+    "name": "Belize",
+    "Latitude": 17.19,
+    "Longitude": -88.5,
+    "Land Area (Km2)": 22966,
+    "Forested Area (%)": 59.7
+  },
+  {
+    "name": "Benin",
+    "Latitude": 9.31,
+    "Longitude": 2.32,
+    "Land Area (Km2)": 112622,
+    "Forested Area (%)": 37.8
+  },
+  {
+    "name": "Bhutan",
+    "Latitude": 27.51,
+    "Longitude": 90.43,
+    "Land Area (Km2)": 38394,
+    "Forested Area (%)": 72.5
+  },
+  {
+    "name": "Bolivia",
+    "Latitude": -16.29,
+    "Longitude": -63.59,
+    "Land Area (Km2)": 1098581,
+    "Forested Area (%)": 50.3
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "Latitude": 43.92,
+    "Longitude": 17.68,
+    "Land Area (Km2)": 51197,
+    "Forested Area (%)": 42.7
+  },
+  {
+    "name": "Botswana",
+    "Latitude": -22.33,
+    "Longitude": 24.68,
+    "Land Area (Km2)": 581730,
+    "Forested Area (%)": 18.9
+  },
+  {
+    "name": "Brazil",
+    "Latitude": -14.24,
+    "Longitude": -51.93,
+    "Land Area (Km2)": 8515770,
+    "Forested Area (%)": 58.9
+  },
+  {
+    "name": "Brunei",
+    "Latitude": 4.54,
+    "Longitude": 114.73,
+    "Land Area (Km2)": 5765,
+    "Forested Area (%)": 72.1
+  },
+  {
+    "name": "Bulgaria",
+    "Latitude": 42.73,
+    "Longitude": 25.49,
+    "Land Area (Km2)": 110879,
+    "Forested Area (%)": 35.4
+  },
+  {
+    "name": "Burkina Faso",
+    "Latitude": 12.24,
+    "Longitude": -1.56,
+    "Land Area (Km2)": 274200,
+    "Forested Area (%)": 19.3
+  },
+  {
+    "name": "Burundi",
+    "Latitude": -3.37,
+    "Longitude": 29.92,
+    "Land Area (Km2)": 27830,
+    "Forested Area (%)": 10.9
+  },
+  {
+    "name": "Ivory Coast",
+    "Latitude": 7.54,
+    "Longitude": -5.55,
+    "Land Area (Km2)": 322463,
+    "Forested Area (%)": 32.7
+  },
+  {
+    "name": "Cape Verde",
+    "Latitude": 16.54,
+    "Longitude": -23.04,
+    "Land Area (Km2)": 4033,
+    "Forested Area (%)": 22.5
+  },
+  {
+    "name": "Cambodia",
+    "Latitude": 12.57,
+    "Longitude": 104.99,
+    "Land Area (Km2)": 181035,
+    "Forested Area (%)": 52.9
+  },
+  {
+    "name": "Cameroon",
+    "Latitude": 7.37,
+    "Longitude": 12.35,
+    "Land Area (Km2)": 475440,
+    "Forested Area (%)": 39.3
+  },
+  {
+    "name": "Canada",
+    "Latitude": 56.13,
+    "Longitude": -106.35,
+    "Land Area (Km2)": 9984670,
+    "Forested Area (%)": 38.2
+  },
+  {
+    "name": "Central African Republic",
+    "Latitude": 6.61,
+    "Longitude": 20.94,
+    "Land Area (Km2)": 622984,
+    "Forested Area (%)": 35.6
+  },
+  {
+    "name": "Chad",
+    "Latitude": 15.45,
+    "Longitude": 18.73,
+    "Land Area (Km2)": 1284000,
+    "Forested Area (%)": 3.8
+  },
+  {
+    "name": "Chile",
+    "Latitude": -35.68,
+    "Longitude": -71.54,
+    "Land Area (Km2)": 756096,
+    "Forested Area (%)": 24.3
+  },
+  {
+    "name": "China",
+    "Latitude": 35.86,
+    "Longitude": 104.2,
+    "Land Area (Km2)": 9596960,
+    "Forested Area (%)": 22.4
+  },
+  {
+    "name": "Colombia",
+    "Latitude": 4.57,
+    "Longitude": -74.3,
+    "Land Area (Km2)": 1138910,
+    "Forested Area (%)": 52.7
+  },
+  {
+    "name": "Comoros",
+    "Latitude": -11.65,
+    "Longitude": 43.33,
+    "Land Area (Km2)": 2235,
+    "Forested Area (%)": 19.7
+  },
+  {
+    "name": "Republic of the Congo",
+    "Latitude": -0.23,
+    "Longitude": 15.83,
+    "Land Area (Km2)": 342000,
+    "Forested Area (%)": 65.4
+  },
+  {
+    "name": "Costa Rica",
+    "Latitude": 9.75,
+    "Longitude": -83.75,
+    "Land Area (Km2)": 51100,
+    "Forested Area (%)": 54.6
+  },
+  {
+    "name": "Croatia",
+    "Latitude": 45.1,
+    "Longitude": 15.2,
+    "Land Area (Km2)": 56594,
+    "Forested Area (%)": 34.4
+  },
+  {
+    "name": "Cuba",
+    "Latitude": 21.52,
+    "Longitude": -77.78,
+    "Land Area (Km2)": 110860,
+    "Forested Area (%)": 31.3
+  },
+  {
+    "name": "Cyprus",
+    "Latitude": 35.13,
+    "Longitude": 33.43,
+    "Land Area (Km2)": 9251,
+    "Forested Area (%)": 18.7
+  },
+  {
+    "name": "Czech Republic",
+    "Latitude": 49.82,
+    "Longitude": 15.47,
+    "Land Area (Km2)": 78867,
+    "Forested Area (%)": 34.6
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "Latitude": -4.04,
+    "Longitude": 21.76,
+    "Land Area (Km2)": 2344858,
+    "Forested Area (%)": 67.2
+  },
+  {
+    "name": "Denmark",
+    "Latitude": 56.26,
+    "Longitude": 9.5,
+    "Land Area (Km2)": 43094,
+    "Forested Area (%)": 14.7
+  },
+  {
+    "name": "Djibouti",
+    "Latitude": 11.83,
+    "Longitude": 42.59,
+    "Land Area (Km2)": 23200,
+    "Forested Area (%)": 0.2
+  },
+  {
+    "name": "Dominica",
+    "Latitude": 15.41,
+    "Longitude": -61.37,
+    "Land Area (Km2)": 751,
+    "Forested Area (%)": 57.4
+  },
+  {
+    "name": "Dominican Republic",
+    "Latitude": 18.74,
+    "Longitude": -70.16,
+    "Land Area (Km2)": 48670,
+    "Forested Area (%)": 41.7
+  },
+  {
+    "name": "Ecuador",
+    "Latitude": -1.83,
+    "Longitude": -78.18,
+    "Land Area (Km2)": 283561,
+    "Forested Area (%)": 50.2
+  },
+  {
+    "name": "Egypt",
+    "Latitude": 26.82,
+    "Longitude": 30.8,
+    "Land Area (Km2)": 1001450,
+    "Forested Area (%)": 0.1
+  },
+  {
+    "name": "El Salvador",
+    "Latitude": 13.79,
+    "Longitude": -88.9,
+    "Land Area (Km2)": 21041,
+    "Forested Area (%)": 12.6
+  },
+  {
+    "name": "Equatorial Guinea",
+    "Latitude": 1.65,
+    "Longitude": 10.27,
+    "Land Area (Km2)": 28051,
+    "Forested Area (%)": 55.5
+  },
+  {
+    "name": "Eritrea",
+    "Latitude": 15.18,
+    "Longitude": 39.78,
+    "Land Area (Km2)": 117600,
+    "Forested Area (%)": 14.9
+  },
+  {
+    "name": "Estonia",
+    "Latitude": 58.6,
+    "Longitude": 25.01,
+    "Land Area (Km2)": 45228,
+    "Forested Area (%)": 51.3
+  },
+  {
+    "name": "Ethiopia",
+    "Latitude": 9.14,
+    "Longitude": 40.49,
+    "Land Area (Km2)": 1104300,
+    "Forested Area (%)": 12.5
+  },
+  {
+    "name": "Fiji",
+    "Latitude": -17.71,
+    "Longitude": 178.07,
+    "Land Area (Km2)": 18274,
+    "Forested Area (%)": 55.9
+  },
+  {
+    "name": "Finland",
+    "Latitude": 61.92,
+    "Longitude": 25.75,
+    "Land Area (Km2)": 338145,
+    "Forested Area (%)": 73.1
+  },
+  {
+    "name": "France",
+    "Latitude": 46.23,
+    "Longitude": 2.21,
+    "Land Area (Km2)": 643801,
+    "Forested Area (%)": 31.2
+  },
+  {
+    "name": "Gabon",
+    "Latitude": -0.8,
+    "Longitude": 11.61,
+    "Land Area (Km2)": 267667,
+    "Forested Area (%)": 90.0
+  },
+  {
+    "name": "The Gambia",
+    "Latitude": 13.44,
+    "Longitude": -15.31,
+    "Land Area (Km2)": 11300,
+    "Forested Area (%)": 48.4
+  },
+  {
+    "name": "Georgia",
+    "Latitude": 42.32,
+    "Longitude": 43.36,
+    "Land Area (Km2)": 69700,
+    "Forested Area (%)": 40.6
+  },
+  {
+    "name": "Germany",
+    "Latitude": 51.17,
+    "Longitude": 10.45,
+    "Land Area (Km2)": 357022,
+    "Forested Area (%)": 32.7
+  },
+  {
+    "name": "Ghana",
+    "Latitude": 7.95,
+    "Longitude": -1.02,
+    "Land Area (Km2)": 238533,
+    "Forested Area (%)": 41.2
+  },
+  {
+    "name": "Greece",
+    "Latitude": 39.07,
+    "Longitude": 21.82,
+    "Land Area (Km2)": 131957,
+    "Forested Area (%)": 31.7
+  },
+  {
+    "name": "Grenada",
+    "Latitude": 12.12,
+    "Longitude": -61.68,
+    "Land Area (Km2)": 349,
+    "Forested Area (%)": 50.0
+  },
+  {
+    "name": "Guatemala",
+    "Latitude": 15.78,
+    "Longitude": -90.23,
+    "Land Area (Km2)": 108889,
+    "Forested Area (%)": 32.7
+  },
+  {
+    "name": "Guinea",
+    "Latitude": 9.95,
+    "Longitude": -9.7,
+    "Land Area (Km2)": 245857,
+    "Forested Area (%)": 25.8
+  },
+  {
+    "name": "Guinea-Bissau",
+    "Latitude": 11.8,
+    "Longitude": -15.18,
+    "Land Area (Km2)": 36125,
+    "Forested Area (%)": 69.8
+  },
+  {
+    "name": "Guyana",
+    "Latitude": 4.86,
+    "Longitude": -58.93,
+    "Land Area (Km2)": 214969,
+    "Forested Area (%)": 83.9
+  },
+  {
+    "name": "Haiti",
+    "Latitude": 18.97,
+    "Longitude": -72.29,
+    "Land Area (Km2)": 27750,
+    "Forested Area (%)": 3.5
+  },
+  {
+    "name": "Honduras",
+    "Latitude": 15.2,
+    "Longitude": -86.24,
+    "Land Area (Km2)": 112090,
+    "Forested Area (%)": 40.0
+  },
+  {
+    "name": "Hungary",
+    "Latitude": 47.16,
+    "Longitude": 19.5,
+    "Land Area (Km2)": 93028,
+    "Forested Area (%)": 22.9
+  },
+  {
+    "name": "Iceland",
+    "Latitude": 64.96,
+    "Longitude": -19.02,
+    "Land Area (Km2)": 103000,
+    "Forested Area (%)": 0.5
+  },
+  {
+    "name": "India",
+    "Latitude": 20.59,
+    "Longitude": 78.96,
+    "Land Area (Km2)": 3287263,
+    "Forested Area (%)": 23.8
+  },
+  {
+    "name": "Indonesia",
+    "Latitude": -0.79,
+    "Longitude": 113.92,
+    "Land Area (Km2)": 1904569,
+    "Forested Area (%)": 49.9
+  },
+  {
+    "name": "Iran",
+    "Latitude": 32.43,
+    "Longitude": 53.69,
+    "Land Area (Km2)": 1648195,
+    "Forested Area (%)": 6.6
+  },
+  {
+    "name": "Iraq",
+    "Latitude": 33.22,
+    "Longitude": 43.68,
+    "Land Area (Km2)": 438317,
+    "Forested Area (%)": 1.9
+  },
+  {
+    "name": "Republic of Ireland",
+    "Latitude": 53.41,
+    "Longitude": -8.24,
+    "Land Area (Km2)": 70273,
+    "Forested Area (%)": 11.0
+  },
+  {
+    "name": "Israel",
+    "Latitude": 31.05,
+    "Longitude": 34.85,
+    "Land Area (Km2)": 20770,
+    "Forested Area (%)": 7.7
+  },
+  {
+    "name": "Italy",
+    "Latitude": 41.87,
+    "Longitude": 12.57,
+    "Land Area (Km2)": 301340,
+    "Forested Area (%)": 31.8
+  },
+  {
+    "name": "Jamaica",
+    "Latitude": 18.11,
+    "Longitude": -77.3,
+    "Land Area (Km2)": 10991,
+    "Forested Area (%)": 30.9
+  },
+  {
+    "name": "Japan",
+    "Latitude": 36.2,
+    "Longitude": 138.25,
+    "Land Area (Km2)": 377944,
+    "Forested Area (%)": 68.5
+  },
+  {
+    "name": "Jordan",
+    "Latitude": 30.59,
+    "Longitude": 36.24,
+    "Land Area (Km2)": 89342,
+    "Forested Area (%)": 1.1
+  },
+  {
+    "name": "Kazakhstan",
+    "Latitude": 48.02,
+    "Longitude": 66.92,
+    "Land Area (Km2)": 2724900,
+    "Forested Area (%)": 1.2
+  },
+  {
+    "name": "Kenya",
+    "Latitude": -0.02,
+    "Longitude": 37.91,
+    "Land Area (Km2)": 580367,
+    "Forested Area (%)": 7.8
+  },
+  {
+    "name": "Kiribati",
+    "Latitude": 1.84,
+    "Longitude": -157.38,
+    "Land Area (Km2)": 811,
+    "Forested Area (%)": 15.0
+  },
+  {
+    "name": "Kuwait",
+    "Latitude": 29.31,
+    "Longitude": 47.48,
+    "Land Area (Km2)": 17818,
+    "Forested Area (%)": 0.4
+  },
+  {
+    "name": "Kyrgyzstan",
+    "Latitude": 41.2,
+    "Longitude": 74.77,
+    "Land Area (Km2)": 199951,
+    "Forested Area (%)": 3.3
+  },
+  {
+    "name": "Laos",
+    "Latitude": 19.86,
+    "Longitude": 102.5,
+    "Land Area (Km2)": 236800,
+    "Forested Area (%)": 82.1
+  },
+  {
+    "name": "Latvia",
+    "Latitude": 56.88,
+    "Longitude": 24.6,
+    "Land Area (Km2)": 64589,
+    "Forested Area (%)": 54.0
+  },
+  {
+    "name": "Lebanon",
+    "Latitude": 33.85,
+    "Longitude": 35.86,
+    "Land Area (Km2)": 10400,
+    "Forested Area (%)": 13.4
+  },
+  {
+    "name": "Lesotho",
+    "Latitude": -29.61,
+    "Longitude": 28.23,
+    "Land Area (Km2)": 30355,
+    "Forested Area (%)": 1.6
+  },
+  {
+    "name": "Liberia",
+    "Latitude": 6.43,
+    "Longitude": -9.43,
+    "Land Area (Km2)": 111369,
+    "Forested Area (%)": 43.1
+  },
+  {
+    "name": "Libya",
+    "Latitude": 26.34,
+    "Longitude": 17.23,
+    "Land Area (Km2)": 1759540,
+    "Forested Area (%)": 0.1
+  },
+  {
+    "name": "Liechtenstein",
+    "Latitude": 47.14,
+    "Longitude": 9.52,
+    "Land Area (Km2)": 160,
+    "Forested Area (%)": 43.1
+  },
+  {
+    "name": "Lithuania",
+    "Latitude": 55.17,
+    "Longitude": 23.88,
+    "Land Area (Km2)": 65300,
+    "Forested Area (%)": 34.8
+  },
+  {
+    "name": "Luxembourg",
+    "Latitude": 49.82,
+    "Longitude": 6.13,
+    "Land Area (Km2)": 2586,
+    "Forested Area (%)": 35.7
+  },
+  {
+    "name": "Madagascar",
+    "Latitude": -18.77,
+    "Longitude": 46.87,
+    "Land Area (Km2)": 587041,
+    "Forested Area (%)": 21.4
+  },
+  {
+    "name": "Malawi",
+    "Latitude": -13.25,
+    "Longitude": 34.3,
+    "Land Area (Km2)": 118484,
+    "Forested Area (%)": 33.2
+  },
+  {
+    "name": "Malaysia",
+    "Latitude": 4.21,
+    "Longitude": 101.98,
+    "Land Area (Km2)": 329847,
+    "Forested Area (%)": 67.6
+  },
+  {
+    "name": "Maldives",
+    "Latitude": 3.2,
+    "Longitude": 73.22,
+    "Land Area (Km2)": 298,
+    "Forested Area (%)": 3.3
+  },
+  {
+    "name": "Mali",
+    "Latitude": 17.57,
+    "Longitude": -4.0,
+    "Land Area (Km2)": 1240192,
+    "Forested Area (%)": 3.8
+  },
+  {
+    "name": "Malta",
+    "Latitude": 35.94,
+    "Longitude": 14.38,
+    "Land Area (Km2)": 316,
+    "Forested Area (%)": 1.1
+  },
+  {
+    "name": "Marshall Islands",
+    "Latitude": 7.13,
+    "Longitude": 171.18,
+    "Land Area (Km2)": 181,
+    "Forested Area (%)": 70.2
+  },
+  {
+    "name": "Mauritania",
+    "Latitude": 21.01,
+    "Longitude": -10.94,
+    "Land Area (Km2)": 1030700,
+    "Forested Area (%)": 0.2
+  },
+  {
+    "name": "Mauritius",
+    "Latitude": -20.35,
+    "Longitude": 57.55,
+    "Land Area (Km2)": 2040,
+    "Forested Area (%)": 19.0
+  },
+  {
+    "name": "Mexico",
+    "Latitude": 23.63,
+    "Longitude": -102.55,
+    "Land Area (Km2)": 1964375,
+    "Forested Area (%)": 33.9
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "Latitude": 7.43,
+    "Longitude": 150.55,
+    "Land Area (Km2)": 702,
+    "Forested Area (%)": 91.9
+  },
+  {
+    "name": "Moldova",
+    "Latitude": 47.41,
+    "Longitude": 28.37,
+    "Land Area (Km2)": 33851,
+    "Forested Area (%)": 12.6
+  },
+  {
+    "name": "Mongolia",
+    "Latitude": 46.86,
+    "Longitude": 103.85,
+    "Land Area (Km2)": 1564116,
+    "Forested Area (%)": 8.0
+  },
+  {
+    "name": "Montenegro",
+    "Latitude": 42.71,
+    "Longitude": 19.37,
+    "Land Area (Km2)": 13812,
+    "Forested Area (%)": 61.5
+  },
+  {
+    "name": "Morocco",
+    "Latitude": 31.79,
+    "Longitude": -7.09,
+    "Land Area (Km2)": 446550,
+    "Forested Area (%)": 12.6
+  },
+  {
+    "name": "Mozambique",
+    "Latitude": -18.67,
+    "Longitude": 35.53,
+    "Land Area (Km2)": 799380,
+    "Forested Area (%)": 48.0
+  },
+  {
+    "name": "Myanmar",
+    "Latitude": 21.92,
+    "Longitude": 95.96,
+    "Land Area (Km2)": 676578,
+    "Forested Area (%)": 43.6
+  },
+  {
+    "name": "Namibia",
+    "Latitude": -22.96,
+    "Longitude": 18.49,
+    "Land Area (Km2)": 824292,
+    "Forested Area (%)": 8.3
+  },
+  {
+    "name": "Nepal",
+    "Latitude": 28.39,
+    "Longitude": 84.12,
+    "Land Area (Km2)": 147181,
+    "Forested Area (%)": 25.4
+  },
+  {
+    "name": "Netherlands",
+    "Latitude": 52.13,
+    "Longitude": 5.29,
+    "Land Area (Km2)": 41543,
+    "Forested Area (%)": 11.2
+  },
+  {
+    "name": "New Zealand",
+    "Latitude": -40.9,
+    "Longitude": 174.89,
+    "Land Area (Km2)": 268838,
+    "Forested Area (%)": 38.6
+  },
+  {
+    "name": "Nicaragua",
+    "Latitude": 12.87,
+    "Longitude": -85.21,
+    "Land Area (Km2)": 130370,
+    "Forested Area (%)": 25.9
+  },
+  {
+    "name": "Niger",
+    "Latitude": 17.61,
+    "Longitude": 8.08,
+    "Land Area (Km2)": 1267000,
+    "Forested Area (%)": 0.9
+  },
+  {
+    "name": "Nigeria",
+    "Latitude": 9.08,
+    "Longitude": 8.68,
+    "Land Area (Km2)": 923768,
+    "Forested Area (%)": 7.2
+  },
+  {
+    "name": "North Korea",
+    "Latitude": 40.34,
+    "Longitude": 127.51,
+    "Land Area (Km2)": 120538,
+    "Forested Area (%)": 40.7
+  },
+  {
+    "name": "Norway",
+    "Latitude": 60.47,
+    "Longitude": 8.47,
+    "Land Area (Km2)": 323802,
+    "Forested Area (%)": 33.2
+  },
+  {
+    "name": "Oman",
+    "Latitude": 21.47,
+    "Longitude": 55.98,
+    "Land Area (Km2)": 309500,
+    "Forested Area (%)": 0.0
+  },
+  {
+    "name": "Pakistan",
+    "Latitude": 30.38,
+    "Longitude": 69.35,
+    "Land Area (Km2)": 796095,
+    "Forested Area (%)": 1.9
+  },
+  {
+    "name": "Palau",
+    "Latitude": 7.51,
+    "Longitude": 134.58,
+    "Land Area (Km2)": 459,
+    "Forested Area (%)": 87.6
+  },
+  {
+    "name": "Panama",
+    "Latitude": 8.54,
+    "Longitude": -80.78,
+    "Land Area (Km2)": 75420,
+    "Forested Area (%)": 61.9
+  },
+  {
+    "name": "Papua New Guinea",
+    "Latitude": -6.31,
+    "Longitude": 143.96,
+    "Land Area (Km2)": 462840,
+    "Forested Area (%)": 74.1
+  },
+  {
+    "name": "Paraguay",
+    "Latitude": -23.44,
+    "Longitude": -58.44,
+    "Land Area (Km2)": 406752,
+    "Forested Area (%)": 37.7
+  },
+  {
+    "name": "Peru",
+    "Latitude": -9.19,
+    "Longitude": -75.02,
+    "Land Area (Km2)": 1285216,
+    "Forested Area (%)": 57.7
+  },
+  {
+    "name": "Philippines",
+    "Latitude": 12.88,
+    "Longitude": 121.77,
+    "Land Area (Km2)": 300000,
+    "Forested Area (%)": 27.8
+  },
+  {
+    "name": "Poland",
+    "Latitude": 51.92,
+    "Longitude": 19.15,
+    "Land Area (Km2)": 312685,
+    "Forested Area (%)": 30.9
+  },
+  {
+    "name": "Portugal",
+    "Latitude": 39.4,
+    "Longitude": -8.22,
+    "Land Area (Km2)": 92212,
+    "Forested Area (%)": 34.6
+  },
+  {
+    "name": "Qatar",
+    "Latitude": 25.35,
+    "Longitude": 51.18,
+    "Land Area (Km2)": 11586,
+    "Forested Area (%)": 0.0
+  },
+  {
+    "name": "Romania",
+    "Latitude": 45.94,
+    "Longitude": 24.97,
+    "Land Area (Km2)": 238391,
+    "Forested Area (%)": 30.1
+  },
+  {
+    "name": "Russia",
+    "Latitude": 61.52,
+    "Longitude": 105.32,
+    "Land Area (Km2)": 17098240,
+    "Forested Area (%)": 49.8
+  },
+  {
+    "name": "Rwanda",
+    "Latitude": -1.94,
+    "Longitude": 29.87,
+    "Land Area (Km2)": 26338,
+    "Forested Area (%)": 19.7
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "Latitude": 17.36,
+    "Longitude": -62.78,
+    "Land Area (Km2)": 261,
+    "Forested Area (%)": 42.3
+  },
+  {
+    "name": "Saint Lucia",
+    "Latitude": 13.91,
+    "Longitude": -60.98,
+    "Land Area (Km2)": 616,
+    "Forested Area (%)": 33.2
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "Latitude": 12.98,
+    "Longitude": -61.29,
+    "Land Area (Km2)": 389,
+    "Forested Area (%)": 69.2
+  },
+  {
+    "name": "Samoa",
+    "Latitude": -13.76,
+    "Longitude": -172.1,
+    "Land Area (Km2)": 2831,
+    "Forested Area (%)": 60.4
+  },
+  {
+    "name": "San Marino",
+    "Latitude": 43.94,
+    "Longitude": 12.46,
+    "Land Area (Km2)": 61,
+    "Forested Area (%)": 0.0
+  },
+  {
+    "name": "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+    "Latitude": NaN,
+    "Longitude": NaN,
+    "Land Area (Km2)": 964,
+    "Forested Area (%)": 55.8
+  },
+  {
+    "name": "Saudi Arabia",
+    "Latitude": 23.89,
+    "Longitude": 45.08,
+    "Land Area (Km2)": 2149690,
+    "Forested Area (%)": 0.5
+  },
+  {
+    "name": "Senegal",
+    "Latitude": 14.5,
+    "Longitude": -14.45,
+    "Land Area (Km2)": 196722,
+    "Forested Area (%)": 42.8
+  },
+  {
+    "name": "Serbia",
+    "Latitude": 44.02,
+    "Longitude": 21.01,
+    "Land Area (Km2)": 77474,
+    "Forested Area (%)": 31.1
+  },
+  {
+    "name": "Seychelles",
+    "Latitude": -4.68,
+    "Longitude": 55.49,
+    "Land Area (Km2)": 455,
+    "Forested Area (%)": 88.4
+  },
+  {
+    "name": "Sierra Leone",
+    "Latitude": 8.46,
+    "Longitude": -11.78,
+    "Land Area (Km2)": 71740,
+    "Forested Area (%)": 43.1
+  },
+  {
+    "name": "Singapore",
+    "Latitude": 1.35,
+    "Longitude": 103.82,
+    "Land Area (Km2)": 716,
+    "Forested Area (%)": 23.1
+  },
+  {
+    "name": "Slovakia",
+    "Latitude": 48.67,
+    "Longitude": 19.7,
+    "Land Area (Km2)": 49035,
+    "Forested Area (%)": 40.4
+  },
+  {
+    "name": "Slovenia",
+    "Latitude": 46.15,
+    "Longitude": 15.0,
+    "Land Area (Km2)": 20273,
+    "Forested Area (%)": 62.0
+  },
+  {
+    "name": "Solomon Islands",
+    "Latitude": -9.65,
+    "Longitude": 160.16,
+    "Land Area (Km2)": 28896,
+    "Forested Area (%)": 77.9
+  },
+  {
+    "name": "Somalia",
+    "Latitude": 5.15,
+    "Longitude": 46.2,
+    "Land Area (Km2)": 637657,
+    "Forested Area (%)": 10.0
+  },
+  {
+    "name": "South Africa",
+    "Latitude": -30.56,
+    "Longitude": 22.94,
+    "Land Area (Km2)": 1219090,
+    "Forested Area (%)": 7.6
+  },
+  {
+    "name": "South Korea",
+    "Latitude": 35.91,
+    "Longitude": 127.77,
+    "Land Area (Km2)": 99720,
+    "Forested Area (%)": 63.4
+  },
+  {
+    "name": "Spain",
+    "Latitude": 40.46,
+    "Longitude": -3.75,
+    "Land Area (Km2)": 505370,
+    "Forested Area (%)": 36.9
+  },
+  {
+    "name": "Sri Lanka",
+    "Latitude": 7.87,
+    "Longitude": 80.77,
+    "Land Area (Km2)": 65610,
+    "Forested Area (%)": 32.9
+  },
+  {
+    "name": "Sudan",
+    "Latitude": 12.86,
+    "Longitude": 30.22,
+    "Land Area (Km2)": 1861484,
+    "Forested Area (%)": 8.1
+  },
+  {
+    "name": "Suriname",
+    "Latitude": 3.92,
+    "Longitude": -56.03,
+    "Land Area (Km2)": 163820,
+    "Forested Area (%)": 98.3
+  },
+  {
+    "name": "Sweden",
+    "Latitude": 60.13,
+    "Longitude": 18.64,
+    "Land Area (Km2)": 450295,
+    "Forested Area (%)": 68.9
+  },
+  {
+    "name": "Switzerland",
+    "Latitude": 46.82,
+    "Longitude": 8.23,
+    "Land Area (Km2)": 41277,
+    "Forested Area (%)": 31.8
+  },
+  {
+    "name": "Syria",
+    "Latitude": 34.8,
+    "Longitude": 39.0,
+    "Land Area (Km2)": 185180,
+    "Forested Area (%)": 2.7
+  },
+  {
+    "name": "Tajikistan",
+    "Latitude": 38.86,
+    "Longitude": 71.28,
+    "Land Area (Km2)": 144100,
+    "Forested Area (%)": 3.0
+  },
+  {
+    "name": "Tanzania",
+    "Latitude": -6.37,
+    "Longitude": 34.89,
+    "Land Area (Km2)": 947300,
+    "Forested Area (%)": 51.6
+  },
+  {
+    "name": "Thailand",
+    "Latitude": 15.87,
+    "Longitude": 100.99,
+    "Land Area (Km2)": 513120,
+    "Forested Area (%)": 32.2
+  },
+  {
+    "name": "East Timor",
+    "Latitude": -8.87,
+    "Longitude": 125.73,
+    "Land Area (Km2)": 14874,
+    "Forested Area (%)": 45.4
+  },
+  {
+    "name": "Togo",
+    "Latitude": 8.62,
+    "Longitude": 0.82,
+    "Land Area (Km2)": 56785,
+    "Forested Area (%)": 3.1
+  },
+  {
+    "name": "Tonga",
+    "Latitude": -21.18,
+    "Longitude": -175.2,
+    "Land Area (Km2)": 747,
+    "Forested Area (%)": 12.5
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "Latitude": 10.69,
+    "Longitude": -61.22,
+    "Land Area (Km2)": 5128,
+    "Forested Area (%)": 46.0
+  },
+  {
+    "name": "Tunisia",
+    "Latitude": 33.89,
+    "Longitude": 9.54,
+    "Land Area (Km2)": 163610,
+    "Forested Area (%)": 6.8
+  },
+  {
+    "name": "Turkey",
+    "Latitude": 38.96,
+    "Longitude": 35.24,
+    "Land Area (Km2)": 783562,
+    "Forested Area (%)": 15.4
+  },
+  {
+    "name": "Turkmenistan",
+    "Latitude": 38.97,
+    "Longitude": 59.56,
+    "Land Area (Km2)": 488100,
+    "Forested Area (%)": 8.8
+  },
+  {
+    "name": "Tuvalu",
+    "Latitude": -7.11,
+    "Longitude": 177.65,
+    "Land Area (Km2)": 26,
+    "Forested Area (%)": 33.3
+  },
+  {
+    "name": "Uganda",
+    "Latitude": 1.37,
+    "Longitude": 32.29,
+    "Land Area (Km2)": 241038,
+    "Forested Area (%)": 9.7
+  },
+  {
+    "name": "Ukraine",
+    "Latitude": 48.38,
+    "Longitude": 31.17,
+    "Land Area (Km2)": 603550,
+    "Forested Area (%)": 16.7
+  },
+  {
+    "name": "United Arab Emirates",
+    "Latitude": 23.42,
+    "Longitude": 53.85,
+    "Land Area (Km2)": 83600,
+    "Forested Area (%)": 4.6
+  },
+  {
+    "name": "United Kingdom",
+    "Latitude": 55.38,
+    "Longitude": -3.44,
+    "Land Area (Km2)": 243610,
+    "Forested Area (%)": 13.1
+  },
+  {
+    "name": "United States",
+    "Latitude": 37.09,
+    "Longitude": -95.71,
+    "Land Area (Km2)": 9833517,
+    "Forested Area (%)": 33.9
+  },
+  {
+    "name": "Uruguay",
+    "Latitude": -32.52,
+    "Longitude": -55.77,
+    "Land Area (Km2)": 176215,
+    "Forested Area (%)": 10.7
+  },
+  {
+    "name": "Uzbekistan",
+    "Latitude": 41.38,
+    "Longitude": 64.59,
+    "Land Area (Km2)": 447400,
+    "Forested Area (%)": 7.5
+  },
+  {
+    "name": "Vanuatu",
+    "Latitude": -15.38,
+    "Longitude": 166.96,
+    "Land Area (Km2)": 12189,
+    "Forested Area (%)": 36.1
+  },
+  {
+    "name": "Venezuela",
+    "Latitude": 6.42,
+    "Longitude": -66.59,
+    "Land Area (Km2)": 912050,
+    "Forested Area (%)": 52.7
+  },
+  {
+    "name": "Vietnam",
+    "Latitude": 14.06,
+    "Longitude": 108.28,
+    "Land Area (Km2)": 331210,
+    "Forested Area (%)": 48.1
+  },
+  {
+    "name": "Yemen",
+    "Latitude": 15.55,
+    "Longitude": 48.52,
+    "Land Area (Km2)": 527968,
+    "Forested Area (%)": 1.0
+  },
+  {
+    "name": "Zambia",
+    "Latitude": -13.13,
+    "Longitude": 27.85,
+    "Land Area (Km2)": 752618,
+    "Forested Area (%)": 65.2
+  },
+  {
+    "name": "Zimbabwe",
+    "Latitude": -19.02,
+    "Longitude": 29.15,
+    "Land Area (Km2)": 390757,
+    "Forested Area (%)": 35.5
+  }
+]

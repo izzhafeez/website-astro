@@ -38,11 +38,20 @@ export const getStaticPaths = (() => {
     },
     {
       params: {
-        deck: "countries"
+        deck: "countries-population"
       },
       props: {
-        title: statAttackData.countries.title,
-        instructions: statAttackData.countries.instructions
+        title: statAttackData["countries-population"].title,
+        instructions: statAttackData["countries-population"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "countries-land"
+      },
+      props: {
+        title: statAttackData["countries-land"].title,
+        instructions: statAttackData["countries-land"].instructions
       }
     },
     {
@@ -106,6 +115,33 @@ export const getStaticPaths = (() => {
       props: {
         title: statAttackData["fast-food"].title, // https://www.kaggle.com/datasets/shrutimehta/fast-food-chain-restaurants
         instructions: statAttackData["fast-food"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "schools"
+      },
+      props: {
+        title: statAttackData.schools.title,
+        instructions: statAttackData.schools.instructions
+      }
+    },
+    {
+      params: {
+        deck: "airports"
+      },
+      props: {
+        title: statAttackData.airports.title,
+        instructions: statAttackData.airports.instructions
+      }
+    },
+    {
+      params: {
+        deck: "movies"
+      },
+      props: {
+        title: statAttackData.movies.title,
+        instructions: statAttackData.movies.instructions
       }
     }
   ];

@@ -5,7 +5,8 @@ import Layout from "../../../../layouts/Layout.astro";
 import mallsData from "../../../../data/games/stat-attack/malls.json";
 import citiesData from "../../../../data/games/stat-attack/cities.json";
 import mrtData from "../../../../data/games/stat-attack/mrt.json";
-import countriesData from "../../../../data/games/stat-attack/countries.json";
+import countriesPopulationData from "../../../../data/games/stat-attack/countries-population.json";
+import countriesLandData from "../../../../data/games/stat-attack/countries-land.json";
 import universitiesData from "../../../../data/games/stat-attack/universities.json";
 import songsData from "../../../../data/games/stat-attack/songs.json";
 import animeData from "../../../../data/games/stat-attack/anime.json";
@@ -13,6 +14,9 @@ import songsYoutubeData from "../../../../data/games/stat-attack/songs-youtube.j
 import pokemonData from "../../../../data/games/stat-attack/pokemon.json";
 import youtubersData from "../../../../data/games/stat-attack/youtubers.json";
 import fastFoodData from "../../../../data/games/stat-attack/fast-food.json";
+import schoolData from "../../../../data/games/stat-attack/schools.json";
+import airportsData from "../../../../data/games/stat-attack/airports.json";
+import moviesData from "../../../../data/games/stat-attack/movies.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -30,9 +34,13 @@ const deckData = {
     title: "MRT Stations of Singapore",
     data: mrtData
   },
-  countries: {
-    title: "Countries of the World",
-    data: countriesData
+  countriesPopulation: {
+    title: "Country Population",
+    data: countriesPopulationData
+  },
+  countriesLand: {
+    title: "Country Land Area",
+    data: countriesLandData
   },
   universities: {
     title: "University Rankings",
@@ -61,6 +69,18 @@ const deckData = {
   fastFood: {
     title: "Fast Food Nutrition",
     data: fastFoodData
+  },
+  schools: {
+    title: "Schools in Singapore",
+    data: schoolData
+  },
+  airports: {
+    title: "Airports of the World",
+    data: airportsData
+  },
+  movies: {
+    title: "Movies",
+    data: moviesData
   }
 }
 
@@ -79,8 +99,11 @@ switch (deckName) {
   case "mrt":
     deck = deckData.mrt;
     break;
-  case "countries":
-    deck = deckData.countries;
+  case "countries-population":
+    deck = deckData.countriesPopulation; // https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023
+    break;
+  case "countries-land":
+    deck = deckData.countriesLand;
     break;
   case "universities":
     deck = deckData.universities;
@@ -102,6 +125,15 @@ switch (deckName) {
     break;
   case "fast-food":
     deck = deckData.fastFood;
+    break;
+  case "schools":
+    deck = deckData.schools;
+    break;
+  case "airports":
+    deck = deckData.airports;
+    break;
+  case "movies":
+    deck = deckData.movies;
     break;
   default:
     deck = deckData.malls;

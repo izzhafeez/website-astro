@@ -1,0 +1,1360 @@
+[
+  {
+    "name": "Afghanistan",
+    "Population (K)": 38042,
+    "Birth Rate (%)": 32.49,
+    "Population Density (P/Km2)": 60,
+    "Life Expectancy (years)": 64.5
+  },
+  {
+    "name": "Albania",
+    "Population (K)": 2854,
+    "Birth Rate (%)": 11.78,
+    "Population Density (P/Km2)": 105,
+    "Life Expectancy (years)": 78.5
+  },
+  {
+    "name": "Algeria",
+    "Population (K)": 43053,
+    "Birth Rate (%)": 24.28,
+    "Population Density (P/Km2)": 18,
+    "Life Expectancy (years)": 76.7
+  },
+  {
+    "name": "Andorra",
+    "Population (K)": 77,
+    "Birth Rate (%)": 7.2,
+    "Population Density (P/Km2)": 164,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Angola",
+    "Population (K)": 31825,
+    "Birth Rate (%)": 40.73,
+    "Population Density (P/Km2)": 26,
+    "Life Expectancy (years)": 60.8
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "Population (K)": 97,
+    "Birth Rate (%)": 15.33,
+    "Population Density (P/Km2)": 223,
+    "Life Expectancy (years)": 76.9
+  },
+  {
+    "name": "Argentina",
+    "Population (K)": 44939,
+    "Birth Rate (%)": 17.02,
+    "Population Density (P/Km2)": 17,
+    "Life Expectancy (years)": 76.5
+  },
+  {
+    "name": "Armenia",
+    "Population (K)": 2958,
+    "Birth Rate (%)": 13.99,
+    "Population Density (P/Km2)": 104,
+    "Life Expectancy (years)": 74.9
+  },
+  {
+    "name": "Australia",
+    "Population (K)": 25767,
+    "Birth Rate (%)": 12.6,
+    "Population Density (P/Km2)": 3,
+    "Life Expectancy (years)": 82.7
+  },
+  {
+    "name": "Austria",
+    "Population (K)": 8877,
+    "Birth Rate (%)": 9.7,
+    "Population Density (P/Km2)": 109,
+    "Life Expectancy (years)": 81.6
+  },
+  {
+    "name": "Azerbaijan",
+    "Population (K)": 10023,
+    "Birth Rate (%)": 14.0,
+    "Population Density (P/Km2)": 123,
+    "Life Expectancy (years)": 72.9
+  },
+  {
+    "name": "The Bahamas",
+    "Population (K)": 389,
+    "Birth Rate (%)": 13.97,
+    "Population Density (P/Km2)": 39,
+    "Life Expectancy (years)": 73.8
+  },
+  {
+    "name": "Bahrain",
+    "Population (K)": 1502,
+    "Birth Rate (%)": 13.99,
+    "Population Density (P/Km2)": 2239,
+    "Life Expectancy (years)": 77.2
+  },
+  {
+    "name": "Bangladesh",
+    "Population (K)": 167311,
+    "Birth Rate (%)": 18.18,
+    "Population Density (P/Km2)": 1265,
+    "Life Expectancy (years)": 72.3
+  },
+  {
+    "name": "Barbados",
+    "Population (K)": 287,
+    "Birth Rate (%)": 10.65,
+    "Population Density (P/Km2)": 668,
+    "Life Expectancy (years)": 79.1
+  },
+  {
+    "name": "Belarus",
+    "Population (K)": 9467,
+    "Birth Rate (%)": 9.9,
+    "Population Density (P/Km2)": 47,
+    "Life Expectancy (years)": 74.2
+  },
+  {
+    "name": "Belgium",
+    "Population (K)": 11484,
+    "Birth Rate (%)": 10.3,
+    "Population Density (P/Km2)": 383,
+    "Life Expectancy (years)": 81.6
+  },
+  {
+    "name": "Belize",
+    "Population (K)": 390,
+    "Birth Rate (%)": 20.79,
+    "Population Density (P/Km2)": 17,
+    "Life Expectancy (years)": 74.5
+  },
+  {
+    "name": "Benin",
+    "Population (K)": 11801,
+    "Birth Rate (%)": 36.22,
+    "Population Density (P/Km2)": 108,
+    "Life Expectancy (years)": 61.5
+  },
+  {
+    "name": "Bhutan",
+    "Population (K)": 727,
+    "Birth Rate (%)": 17.26,
+    "Population Density (P/Km2)": 20,
+    "Life Expectancy (years)": 71.5
+  },
+  {
+    "name": "Bolivia",
+    "Population (K)": 11513,
+    "Birth Rate (%)": 21.75,
+    "Population Density (P/Km2)": 11,
+    "Life Expectancy (years)": 71.2
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "Population (K)": 3301,
+    "Birth Rate (%)": 8.11,
+    "Population Density (P/Km2)": 64,
+    "Life Expectancy (years)": 77.3
+  },
+  {
+    "name": "Botswana",
+    "Population (K)": 2346,
+    "Birth Rate (%)": 24.82,
+    "Population Density (P/Km2)": 4,
+    "Life Expectancy (years)": 69.3
+  },
+  {
+    "name": "Brazil",
+    "Population (K)": 212559,
+    "Birth Rate (%)": 13.92,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 75.7
+  },
+  {
+    "name": "Brunei",
+    "Population (K)": 433,
+    "Birth Rate (%)": 14.9,
+    "Population Density (P/Km2)": 83,
+    "Life Expectancy (years)": 75.7
+  },
+  {
+    "name": "Bulgaria",
+    "Population (K)": 6976,
+    "Birth Rate (%)": 8.9,
+    "Population Density (P/Km2)": 64,
+    "Life Expectancy (years)": 74.9
+  },
+  {
+    "name": "Burkina Faso",
+    "Population (K)": 20321,
+    "Birth Rate (%)": 37.93,
+    "Population Density (P/Km2)": 76,
+    "Life Expectancy (years)": 61.2
+  },
+  {
+    "name": "Burundi",
+    "Population (K)": 11531,
+    "Birth Rate (%)": 39.01,
+    "Population Density (P/Km2)": 463,
+    "Life Expectancy (years)": 61.2
+  },
+  {
+    "name": "Ivory Coast",
+    "Population (K)": 25717,
+    "Birth Rate (%)": 35.74,
+    "Population Density (P/Km2)": 83,
+    "Life Expectancy (years)": 57.4
+  },
+  {
+    "name": "Cape Verde",
+    "Population (K)": 484,
+    "Birth Rate (%)": 19.49,
+    "Population Density (P/Km2)": 138,
+    "Life Expectancy (years)": 72.8
+  },
+  {
+    "name": "Cambodia",
+    "Population (K)": 16487,
+    "Birth Rate (%)": 22.46,
+    "Population Density (P/Km2)": 95,
+    "Life Expectancy (years)": 69.6
+  },
+  {
+    "name": "Cameroon",
+    "Population (K)": 25876,
+    "Birth Rate (%)": 35.39,
+    "Population Density (P/Km2)": 56,
+    "Life Expectancy (years)": 58.9
+  },
+  {
+    "name": "Canada",
+    "Population (K)": 36992,
+    "Birth Rate (%)": 10.1,
+    "Population Density (P/Km2)": 4,
+    "Life Expectancy (years)": 81.9
+  },
+  {
+    "name": "Central African Republic",
+    "Population (K)": 4745,
+    "Birth Rate (%)": 35.35,
+    "Population Density (P/Km2)": 8,
+    "Life Expectancy (years)": 52.8
+  },
+  {
+    "name": "Chad",
+    "Population (K)": 15947,
+    "Birth Rate (%)": 42.17,
+    "Population Density (P/Km2)": 13,
+    "Life Expectancy (years)": 54.0
+  },
+  {
+    "name": "Chile",
+    "Population (K)": 18952,
+    "Birth Rate (%)": 12.43,
+    "Population Density (P/Km2)": 26,
+    "Life Expectancy (years)": 80.0
+  },
+  {
+    "name": "China",
+    "Population (K)": 1397715,
+    "Birth Rate (%)": 10.9,
+    "Population Density (P/Km2)": 153,
+    "Life Expectancy (years)": 77.0
+  },
+  {
+    "name": "Colombia",
+    "Population (K)": 50339,
+    "Birth Rate (%)": 14.88,
+    "Population Density (P/Km2)": 46,
+    "Life Expectancy (years)": 77.1
+  },
+  {
+    "name": "Comoros",
+    "Population (K)": 851,
+    "Birth Rate (%)": 31.88,
+    "Population Density (P/Km2)": 467,
+    "Life Expectancy (years)": 64.1
+  },
+  {
+    "name": "Republic of the Congo",
+    "Population (K)": 5381,
+    "Birth Rate (%)": 32.86,
+    "Population Density (P/Km2)": 16,
+    "Life Expectancy (years)": 64.3
+  },
+  {
+    "name": "Costa Rica",
+    "Population (K)": 5048,
+    "Birth Rate (%)": 13.97,
+    "Population Density (P/Km2)": 100,
+    "Life Expectancy (years)": 80.1
+  },
+  {
+    "name": "Croatia",
+    "Population (K)": 4068,
+    "Birth Rate (%)": 9.0,
+    "Population Density (P/Km2)": 73,
+    "Life Expectancy (years)": 78.1
+  },
+  {
+    "name": "Cuba",
+    "Population (K)": 11333,
+    "Birth Rate (%)": 10.17,
+    "Population Density (P/Km2)": 106,
+    "Life Expectancy (years)": 78.7
+  },
+  {
+    "name": "Cyprus",
+    "Population (K)": 1199,
+    "Birth Rate (%)": 10.46,
+    "Population Density (P/Km2)": 131,
+    "Life Expectancy (years)": 80.8
+  },
+  {
+    "name": "Czech Republic",
+    "Population (K)": 10670,
+    "Birth Rate (%)": 10.7,
+    "Population Density (P/Km2)": 139,
+    "Life Expectancy (years)": 79.0
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "Population (K)": 86791,
+    "Birth Rate (%)": 41.18,
+    "Population Density (P/Km2)": 40,
+    "Life Expectancy (years)": 60.4
+  },
+  {
+    "name": "Denmark",
+    "Population (K)": 5819,
+    "Birth Rate (%)": 10.6,
+    "Population Density (P/Km2)": 137,
+    "Life Expectancy (years)": 81.0
+  },
+  {
+    "name": "Djibouti",
+    "Population (K)": 974,
+    "Birth Rate (%)": 21.47,
+    "Population Density (P/Km2)": 43,
+    "Life Expectancy (years)": 66.6
+  },
+  {
+    "name": "Dominica",
+    "Population (K)": 72,
+    "Birth Rate (%)": 12.0,
+    "Population Density (P/Km2)": 96,
+    "Life Expectancy (years)": 76.6
+  },
+  {
+    "name": "Dominican Republic",
+    "Population (K)": 10739,
+    "Birth Rate (%)": 19.51,
+    "Population Density (P/Km2)": 225,
+    "Life Expectancy (years)": 73.9
+  },
+  {
+    "name": "Ecuador",
+    "Population (K)": 17374,
+    "Birth Rate (%)": 19.72,
+    "Population Density (P/Km2)": 71,
+    "Life Expectancy (years)": 76.8
+  },
+  {
+    "name": "Egypt",
+    "Population (K)": 100388,
+    "Birth Rate (%)": 26.38,
+    "Population Density (P/Km2)": 103,
+    "Life Expectancy (years)": 71.8
+  },
+  {
+    "name": "El Salvador",
+    "Population (K)": 6454,
+    "Birth Rate (%)": 18.25,
+    "Population Density (P/Km2)": 313,
+    "Life Expectancy (years)": 73.1
+  },
+  {
+    "name": "Equatorial Guinea",
+    "Population (K)": 1356,
+    "Birth Rate (%)": 33.24,
+    "Population Density (P/Km2)": 50,
+    "Life Expectancy (years)": 58.4
+  },
+  {
+    "name": "Eritrea",
+    "Population (K)": 6333,
+    "Birth Rate (%)": 30.3,
+    "Population Density (P/Km2)": 35,
+    "Life Expectancy (years)": 65.9
+  },
+  {
+    "name": "Estonia",
+    "Population (K)": 1332,
+    "Birth Rate (%)": 10.9,
+    "Population Density (P/Km2)": 31,
+    "Life Expectancy (years)": 78.2
+  },
+  {
+    "name": "Eswatini",
+    "Population (K)": 1093,
+    "Birth Rate (%)": NaN,
+    "Population Density (P/Km2)": 67,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Ethiopia",
+    "Population (K)": 112079,
+    "Birth Rate (%)": 32.34,
+    "Population Density (P/Km2)": 115,
+    "Life Expectancy (years)": 66.2
+  },
+  {
+    "name": "Fiji",
+    "Population (K)": 890,
+    "Birth Rate (%)": 21.28,
+    "Population Density (P/Km2)": 49,
+    "Life Expectancy (years)": 67.3
+  },
+  {
+    "name": "Finland",
+    "Population (K)": 5520,
+    "Birth Rate (%)": 8.6,
+    "Population Density (P/Km2)": 18,
+    "Life Expectancy (years)": 81.7
+  },
+  {
+    "name": "France",
+    "Population (K)": 67060,
+    "Birth Rate (%)": 11.3,
+    "Population Density (P/Km2)": 119,
+    "Life Expectancy (years)": 82.5
+  },
+  {
+    "name": "Gabon",
+    "Population (K)": 2173,
+    "Birth Rate (%)": 31.61,
+    "Population Density (P/Km2)": 9,
+    "Life Expectancy (years)": 66.2
+  },
+  {
+    "name": "The Gambia",
+    "Population (K)": 2348,
+    "Birth Rate (%)": 38.54,
+    "Population Density (P/Km2)": 239,
+    "Life Expectancy (years)": 61.7
+  },
+  {
+    "name": "Georgia",
+    "Population (K)": 3720,
+    "Birth Rate (%)": 13.47,
+    "Population Density (P/Km2)": 57,
+    "Life Expectancy (years)": 73.6
+  },
+  {
+    "name": "Germany",
+    "Population (K)": 83133,
+    "Birth Rate (%)": 9.5,
+    "Population Density (P/Km2)": 240,
+    "Life Expectancy (years)": 80.9
+  },
+  {
+    "name": "Ghana",
+    "Population (K)": 30793,
+    "Birth Rate (%)": 29.41,
+    "Population Density (P/Km2)": 137,
+    "Life Expectancy (years)": 63.8
+  },
+  {
+    "name": "Greece",
+    "Population (K)": 10716,
+    "Birth Rate (%)": 8.1,
+    "Population Density (P/Km2)": 81,
+    "Life Expectancy (years)": 81.3
+  },
+  {
+    "name": "Grenada",
+    "Population (K)": 112,
+    "Birth Rate (%)": 16.47,
+    "Population Density (P/Km2)": 331,
+    "Life Expectancy (years)": 72.4
+  },
+  {
+    "name": "Guatemala",
+    "Population (K)": 16604,
+    "Birth Rate (%)": 24.56,
+    "Population Density (P/Km2)": 167,
+    "Life Expectancy (years)": 74.1
+  },
+  {
+    "name": "Guinea",
+    "Population (K)": 12771,
+    "Birth Rate (%)": 36.36,
+    "Population Density (P/Km2)": 53,
+    "Life Expectancy (years)": 61.2
+  },
+  {
+    "name": "Guinea-Bissau",
+    "Population (K)": 1921,
+    "Birth Rate (%)": 35.13,
+    "Population Density (P/Km2)": 70,
+    "Life Expectancy (years)": 58.0
+  },
+  {
+    "name": "Guyana",
+    "Population (K)": 783,
+    "Birth Rate (%)": 19.97,
+    "Population Density (P/Km2)": 4,
+    "Life Expectancy (years)": 69.8
+  },
+  {
+    "name": "Haiti",
+    "Population (K)": 11263,
+    "Birth Rate (%)": 24.35,
+    "Population Density (P/Km2)": 414,
+    "Life Expectancy (years)": 63.7
+  },
+  {
+    "name": "Vatican City",
+    "Population (K)": 1,
+    "Birth Rate (%)": NaN,
+    "Population Density (P/Km2)": 2003,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Honduras",
+    "Population (K)": 9746,
+    "Birth Rate (%)": 21.6,
+    "Population Density (P/Km2)": 89,
+    "Life Expectancy (years)": 75.1
+  },
+  {
+    "name": "Hungary",
+    "Population (K)": 9770,
+    "Birth Rate (%)": 9.6,
+    "Population Density (P/Km2)": 107,
+    "Life Expectancy (years)": 75.8
+  },
+  {
+    "name": "Iceland",
+    "Population (K)": 361,
+    "Birth Rate (%)": 12.0,
+    "Population Density (P/Km2)": 3,
+    "Life Expectancy (years)": 82.7
+  },
+  {
+    "name": "India",
+    "Population (K)": 1366418,
+    "Birth Rate (%)": 17.86,
+    "Population Density (P/Km2)": 464,
+    "Life Expectancy (years)": 69.4
+  },
+  {
+    "name": "Indonesia",
+    "Population (K)": 270204,
+    "Birth Rate (%)": 18.07,
+    "Population Density (P/Km2)": 151,
+    "Life Expectancy (years)": 71.5
+  },
+  {
+    "name": "Iran",
+    "Population (K)": 82914,
+    "Birth Rate (%)": 18.78,
+    "Population Density (P/Km2)": 52,
+    "Life Expectancy (years)": 76.5
+  },
+  {
+    "name": "Iraq",
+    "Population (K)": 39310,
+    "Birth Rate (%)": 29.08,
+    "Population Density (P/Km2)": 93,
+    "Life Expectancy (years)": 70.5
+  },
+  {
+    "name": "Republic of Ireland",
+    "Population (K)": 5007,
+    "Birth Rate (%)": 12.5,
+    "Population Density (P/Km2)": 72,
+    "Life Expectancy (years)": 82.3
+  },
+  {
+    "name": "Israel",
+    "Population (K)": 9053,
+    "Birth Rate (%)": 20.8,
+    "Population Density (P/Km2)": 400,
+    "Life Expectancy (years)": 82.8
+  },
+  {
+    "name": "Italy",
+    "Population (K)": 60297,
+    "Birth Rate (%)": 7.3,
+    "Population Density (P/Km2)": 206,
+    "Life Expectancy (years)": 82.9
+  },
+  {
+    "name": "Jamaica",
+    "Population (K)": 2948,
+    "Birth Rate (%)": 16.1,
+    "Population Density (P/Km2)": 273,
+    "Life Expectancy (years)": 74.4
+  },
+  {
+    "name": "Japan",
+    "Population (K)": 126227,
+    "Birth Rate (%)": 7.4,
+    "Population Density (P/Km2)": 347,
+    "Life Expectancy (years)": 84.2
+  },
+  {
+    "name": "Jordan",
+    "Population (K)": 10102,
+    "Birth Rate (%)": 21.98,
+    "Population Density (P/Km2)": 115,
+    "Life Expectancy (years)": 74.4
+  },
+  {
+    "name": "Kazakhstan",
+    "Population (K)": 18514,
+    "Birth Rate (%)": 21.77,
+    "Population Density (P/Km2)": 7,
+    "Life Expectancy (years)": 73.2
+  },
+  {
+    "name": "Kenya",
+    "Population (K)": 52574,
+    "Birth Rate (%)": 28.75,
+    "Population Density (P/Km2)": 94,
+    "Life Expectancy (years)": 66.3
+  },
+  {
+    "name": "Kiribati",
+    "Population (K)": 118,
+    "Birth Rate (%)": 27.89,
+    "Population Density (P/Km2)": 147,
+    "Life Expectancy (years)": 68.1
+  },
+  {
+    "name": "Kuwait",
+    "Population (K)": 4207,
+    "Birth Rate (%)": 13.94,
+    "Population Density (P/Km2)": 240,
+    "Life Expectancy (years)": 75.4
+  },
+  {
+    "name": "Kyrgyzstan",
+    "Population (K)": 6457,
+    "Birth Rate (%)": 27.1,
+    "Population Density (P/Km2)": 34,
+    "Life Expectancy (years)": 71.4
+  },
+  {
+    "name": "Laos",
+    "Population (K)": 7169,
+    "Birth Rate (%)": 23.55,
+    "Population Density (P/Km2)": 32,
+    "Life Expectancy (years)": 67.6
+  },
+  {
+    "name": "Latvia",
+    "Population (K)": 1913,
+    "Birth Rate (%)": 10.0,
+    "Population Density (P/Km2)": 30,
+    "Life Expectancy (years)": 74.7
+  },
+  {
+    "name": "Lebanon",
+    "Population (K)": 6856,
+    "Birth Rate (%)": 17.55,
+    "Population Density (P/Km2)": 667,
+    "Life Expectancy (years)": 78.9
+  },
+  {
+    "name": "Lesotho",
+    "Population (K)": 2125,
+    "Birth Rate (%)": 26.81,
+    "Population Density (P/Km2)": 71,
+    "Life Expectancy (years)": 53.7
+  },
+  {
+    "name": "Liberia",
+    "Population (K)": 4937,
+    "Birth Rate (%)": 33.04,
+    "Population Density (P/Km2)": 53,
+    "Life Expectancy (years)": 63.7
+  },
+  {
+    "name": "Libya",
+    "Population (K)": 6777,
+    "Birth Rate (%)": 18.83,
+    "Population Density (P/Km2)": 4,
+    "Life Expectancy (years)": 72.7
+  },
+  {
+    "name": "Liechtenstein",
+    "Population (K)": 38,
+    "Birth Rate (%)": 9.9,
+    "Population Density (P/Km2)": 238,
+    "Life Expectancy (years)": 83.0
+  },
+  {
+    "name": "Lithuania",
+    "Population (K)": 2787,
+    "Birth Rate (%)": 10.0,
+    "Population Density (P/Km2)": 43,
+    "Life Expectancy (years)": 75.7
+  },
+  {
+    "name": "Luxembourg",
+    "Population (K)": 645,
+    "Birth Rate (%)": 10.3,
+    "Population Density (P/Km2)": 242,
+    "Life Expectancy (years)": 82.1
+  },
+  {
+    "name": "Madagascar",
+    "Population (K)": 26969,
+    "Birth Rate (%)": 32.66,
+    "Population Density (P/Km2)": 48,
+    "Life Expectancy (years)": 66.7
+  },
+  {
+    "name": "Malawi",
+    "Population (K)": 18629,
+    "Birth Rate (%)": 34.12,
+    "Population Density (P/Km2)": 203,
+    "Life Expectancy (years)": 63.8
+  },
+  {
+    "name": "Malaysia",
+    "Population (K)": 32447,
+    "Birth Rate (%)": 16.75,
+    "Population Density (P/Km2)": 99,
+    "Life Expectancy (years)": 76.0
+  },
+  {
+    "name": "Maldives",
+    "Population (K)": 531,
+    "Birth Rate (%)": 14.2,
+    "Population Density (P/Km2)": 1802,
+    "Life Expectancy (years)": 78.6
+  },
+  {
+    "name": "Mali",
+    "Population (K)": 19658,
+    "Birth Rate (%)": 41.54,
+    "Population Density (P/Km2)": 17,
+    "Life Expectancy (years)": 58.9
+  },
+  {
+    "name": "Malta",
+    "Population (K)": 503,
+    "Birth Rate (%)": 9.2,
+    "Population Density (P/Km2)": 1380,
+    "Life Expectancy (years)": 82.3
+  },
+  {
+    "name": "Marshall Islands",
+    "Population (K)": 59,
+    "Birth Rate (%)": 29.03,
+    "Population Density (P/Km2)": 329,
+    "Life Expectancy (years)": 65.2
+  },
+  {
+    "name": "Mauritania",
+    "Population (K)": 4526,
+    "Birth Rate (%)": 33.69,
+    "Population Density (P/Km2)": 5,
+    "Life Expectancy (years)": 64.7
+  },
+  {
+    "name": "Mauritius",
+    "Population (K)": 1266,
+    "Birth Rate (%)": 10.2,
+    "Population Density (P/Km2)": 626,
+    "Life Expectancy (years)": 74.4
+  },
+  {
+    "name": "Mexico",
+    "Population (K)": 126014,
+    "Birth Rate (%)": 17.6,
+    "Population Density (P/Km2)": 66,
+    "Life Expectancy (years)": 75.0
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "Population (K)": 114,
+    "Birth Rate (%)": 22.82,
+    "Population Density (P/Km2)": 784,
+    "Life Expectancy (years)": 67.8
+  },
+  {
+    "name": "Moldova",
+    "Population (K)": 2658,
+    "Birth Rate (%)": 10.1,
+    "Population Density (P/Km2)": 123,
+    "Life Expectancy (years)": 71.8
+  },
+  {
+    "name": "Monaco",
+    "Population (K)": 39,
+    "Birth Rate (%)": 5.9,
+    "Population Density (P/Km2)": 26337,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Mongolia",
+    "Population (K)": 3225,
+    "Birth Rate (%)": 24.13,
+    "Population Density (P/Km2)": 2,
+    "Life Expectancy (years)": 69.7
+  },
+  {
+    "name": "Montenegro",
+    "Population (K)": 622,
+    "Birth Rate (%)": 11.73,
+    "Population Density (P/Km2)": 47,
+    "Life Expectancy (years)": 76.8
+  },
+  {
+    "name": "Morocco",
+    "Population (K)": 36911,
+    "Birth Rate (%)": 18.94,
+    "Population Density (P/Km2)": 83,
+    "Life Expectancy (years)": 76.5
+  },
+  {
+    "name": "Mozambique",
+    "Population (K)": 30366,
+    "Birth Rate (%)": 37.52,
+    "Population Density (P/Km2)": 40,
+    "Life Expectancy (years)": 60.2
+  },
+  {
+    "name": "Myanmar",
+    "Population (K)": 54045,
+    "Birth Rate (%)": 17.55,
+    "Population Density (P/Km2)": 83,
+    "Life Expectancy (years)": 66.9
+  },
+  {
+    "name": "Namibia",
+    "Population (K)": 2495,
+    "Birth Rate (%)": 28.64,
+    "Population Density (P/Km2)": 3,
+    "Life Expectancy (years)": 63.4
+  },
+  {
+    "name": "Nauru",
+    "Population (K)": 10,
+    "Birth Rate (%)": NaN,
+    "Population Density (P/Km2)": 541,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Nepal",
+    "Population (K)": 28609,
+    "Birth Rate (%)": 19.89,
+    "Population Density (P/Km2)": 203,
+    "Life Expectancy (years)": 70.5
+  },
+  {
+    "name": "Netherlands",
+    "Population (K)": 17333,
+    "Birth Rate (%)": 9.7,
+    "Population Density (P/Km2)": 508,
+    "Life Expectancy (years)": 81.8
+  },
+  {
+    "name": "New Zealand",
+    "Population (K)": 4841,
+    "Birth Rate (%)": 11.98,
+    "Population Density (P/Km2)": 18,
+    "Life Expectancy (years)": 81.9
+  },
+  {
+    "name": "Nicaragua",
+    "Population (K)": 6546,
+    "Birth Rate (%)": 20.64,
+    "Population Density (P/Km2)": 55,
+    "Life Expectancy (years)": 74.3
+  },
+  {
+    "name": "Niger",
+    "Population (K)": 23311,
+    "Birth Rate (%)": 46.08,
+    "Population Density (P/Km2)": 19,
+    "Life Expectancy (years)": 62.0
+  },
+  {
+    "name": "Nigeria",
+    "Population (K)": 200964,
+    "Birth Rate (%)": 37.91,
+    "Population Density (P/Km2)": 226,
+    "Life Expectancy (years)": 54.3
+  },
+  {
+    "name": "North Korea",
+    "Population (K)": 25666,
+    "Birth Rate (%)": 13.89,
+    "Population Density (P/Km2)": 214,
+    "Life Expectancy (years)": 72.1
+  },
+  {
+    "name": "North Macedonia",
+    "Population (K)": 1837,
+    "Birth Rate (%)": NaN,
+    "Population Density (P/Km2)": 83,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Norway",
+    "Population (K)": 5348,
+    "Birth Rate (%)": 10.4,
+    "Population Density (P/Km2)": 15,
+    "Life Expectancy (years)": 82.8
+  },
+  {
+    "name": "Oman",
+    "Population (K)": 5267,
+    "Birth Rate (%)": 19.19,
+    "Population Density (P/Km2)": 16,
+    "Life Expectancy (years)": 77.6
+  },
+  {
+    "name": "Pakistan",
+    "Population (K)": 216565,
+    "Birth Rate (%)": 28.25,
+    "Population Density (P/Km2)": 287,
+    "Life Expectancy (years)": 67.1
+  },
+  {
+    "name": "Palau",
+    "Population (K)": 18,
+    "Birth Rate (%)": 14.0,
+    "Population Density (P/Km2)": 39,
+    "Life Expectancy (years)": 69.1
+  },
+  {
+    "name": "Panama",
+    "Population (K)": 4246,
+    "Birth Rate (%)": 18.98,
+    "Population Density (P/Km2)": 58,
+    "Life Expectancy (years)": 78.3
+  },
+  {
+    "name": "Papua New Guinea",
+    "Population (K)": 8776,
+    "Birth Rate (%)": 27.07,
+    "Population Density (P/Km2)": 20,
+    "Life Expectancy (years)": 64.3
+  },
+  {
+    "name": "Paraguay",
+    "Population (K)": 7045,
+    "Birth Rate (%)": 20.57,
+    "Population Density (P/Km2)": 18,
+    "Life Expectancy (years)": 74.1
+  },
+  {
+    "name": "Peru",
+    "Population (K)": 32510,
+    "Birth Rate (%)": 17.95,
+    "Population Density (P/Km2)": 26,
+    "Life Expectancy (years)": 76.5
+  },
+  {
+    "name": "Philippines",
+    "Population (K)": 108117,
+    "Birth Rate (%)": 20.55,
+    "Population Density (P/Km2)": 368,
+    "Life Expectancy (years)": 71.1
+  },
+  {
+    "name": "Poland",
+    "Population (K)": 37971,
+    "Birth Rate (%)": 10.2,
+    "Population Density (P/Km2)": 124,
+    "Life Expectancy (years)": 77.6
+  },
+  {
+    "name": "Portugal",
+    "Population (K)": 10269,
+    "Birth Rate (%)": 8.5,
+    "Population Density (P/Km2)": 111,
+    "Life Expectancy (years)": 81.3
+  },
+  {
+    "name": "Qatar",
+    "Population (K)": 2832,
+    "Birth Rate (%)": 9.54,
+    "Population Density (P/Km2)": 248,
+    "Life Expectancy (years)": 80.1
+  },
+  {
+    "name": "Romania",
+    "Population (K)": 19357,
+    "Birth Rate (%)": 9.6,
+    "Population Density (P/Km2)": 84,
+    "Life Expectancy (years)": 75.4
+  },
+  {
+    "name": "Russia",
+    "Population (K)": 144374,
+    "Birth Rate (%)": 11.5,
+    "Population Density (P/Km2)": 9,
+    "Life Expectancy (years)": 72.7
+  },
+  {
+    "name": "Rwanda",
+    "Population (K)": 12627,
+    "Birth Rate (%)": 31.7,
+    "Population Density (P/Km2)": 525,
+    "Life Expectancy (years)": 68.7
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "Population (K)": 53,
+    "Birth Rate (%)": 12.6,
+    "Population Density (P/Km2)": 205,
+    "Life Expectancy (years)": 71.3
+  },
+  {
+    "name": "Saint Lucia",
+    "Population (K)": 183,
+    "Birth Rate (%)": 12.0,
+    "Population Density (P/Km2)": 301,
+    "Life Expectancy (years)": 76.1
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "Population (K)": 100,
+    "Birth Rate (%)": 14.24,
+    "Population Density (P/Km2)": 284,
+    "Life Expectancy (years)": 72.4
+  },
+  {
+    "name": "Samoa",
+    "Population (K)": 203,
+    "Birth Rate (%)": 24.38,
+    "Population Density (P/Km2)": 70,
+    "Life Expectancy (years)": 73.2
+  },
+  {
+    "name": "San Marino",
+    "Population (K)": 34,
+    "Birth Rate (%)": 6.8,
+    "Population Density (P/Km2)": 566,
+    "Life Expectancy (years)": 85.4
+  },
+  {
+    "name": "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+    "Population (K)": 215,
+    "Birth Rate (%)": 31.54,
+    "Population Density (P/Km2)": 228,
+    "Life Expectancy (years)": 70.2
+  },
+  {
+    "name": "Saudi Arabia",
+    "Population (K)": 34269,
+    "Birth Rate (%)": 17.8,
+    "Population Density (P/Km2)": 16,
+    "Life Expectancy (years)": 75.0
+  },
+  {
+    "name": "Senegal",
+    "Population (K)": 16296,
+    "Birth Rate (%)": 34.52,
+    "Population Density (P/Km2)": 87,
+    "Life Expectancy (years)": 67.7
+  },
+  {
+    "name": "Serbia",
+    "Population (K)": 6945,
+    "Birth Rate (%)": 9.2,
+    "Population Density (P/Km2)": 100,
+    "Life Expectancy (years)": 75.5
+  },
+  {
+    "name": "Seychelles",
+    "Population (K)": 98,
+    "Birth Rate (%)": 17.1,
+    "Population Density (P/Km2)": 214,
+    "Life Expectancy (years)": 72.8
+  },
+  {
+    "name": "Sierra Leone",
+    "Population (K)": 7813,
+    "Birth Rate (%)": 33.41,
+    "Population Density (P/Km2)": 111,
+    "Life Expectancy (years)": 54.3
+  },
+  {
+    "name": "Singapore",
+    "Population (K)": 5704,
+    "Birth Rate (%)": 8.8,
+    "Population Density (P/Km2)": 8358,
+    "Life Expectancy (years)": 83.1
+  },
+  {
+    "name": "Slovakia",
+    "Population (K)": 5454,
+    "Birth Rate (%)": 10.6,
+    "Population Density (P/Km2)": 114,
+    "Life Expectancy (years)": 77.2
+  },
+  {
+    "name": "Slovenia",
+    "Population (K)": 2088,
+    "Birth Rate (%)": 9.4,
+    "Population Density (P/Km2)": 103,
+    "Life Expectancy (years)": 81.0
+  },
+  {
+    "name": "Solomon Islands",
+    "Population (K)": 670,
+    "Birth Rate (%)": 32.44,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 72.8
+  },
+  {
+    "name": "Somalia",
+    "Population (K)": 15443,
+    "Birth Rate (%)": 41.75,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 57.1
+  },
+  {
+    "name": "South Africa",
+    "Population (K)": 58558,
+    "Birth Rate (%)": 20.51,
+    "Population Density (P/Km2)": 49,
+    "Life Expectancy (years)": 63.9
+  },
+  {
+    "name": "South Korea",
+    "Population (K)": 51709,
+    "Birth Rate (%)": 6.4,
+    "Population Density (P/Km2)": 527,
+    "Life Expectancy (years)": 82.6
+  },
+  {
+    "name": "South Sudan",
+    "Population (K)": 11062,
+    "Birth Rate (%)": 35.01,
+    "Population Density (P/Km2)": 18,
+    "Life Expectancy (years)": 57.6
+  },
+  {
+    "name": "Spain",
+    "Population (K)": 47077,
+    "Birth Rate (%)": 7.9,
+    "Population Density (P/Km2)": 94,
+    "Life Expectancy (years)": 83.3
+  },
+  {
+    "name": "Sri Lanka",
+    "Population (K)": 21803,
+    "Birth Rate (%)": 15.83,
+    "Population Density (P/Km2)": 341,
+    "Life Expectancy (years)": 76.8
+  },
+  {
+    "name": "Sudan",
+    "Population (K)": 42813,
+    "Birth Rate (%)": 32.18,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 65.1
+  },
+  {
+    "name": "Suriname",
+    "Population (K)": 581,
+    "Birth Rate (%)": 18.54,
+    "Population Density (P/Km2)": 4,
+    "Life Expectancy (years)": 71.6
+  },
+  {
+    "name": "Sweden",
+    "Population (K)": 10285,
+    "Birth Rate (%)": 11.4,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 82.5
+  },
+  {
+    "name": "Switzerland",
+    "Population (K)": 8575,
+    "Birth Rate (%)": 10.0,
+    "Population Density (P/Km2)": 219,
+    "Life Expectancy (years)": 83.6
+  },
+  {
+    "name": "Syria",
+    "Population (K)": 17070,
+    "Birth Rate (%)": 23.69,
+    "Population Density (P/Km2)": 95,
+    "Life Expectancy (years)": 71.8
+  },
+  {
+    "name": "Tajikistan",
+    "Population (K)": 9321,
+    "Birth Rate (%)": 30.76,
+    "Population Density (P/Km2)": 68,
+    "Life Expectancy (years)": 70.9
+  },
+  {
+    "name": "Tanzania",
+    "Population (K)": 58005,
+    "Birth Rate (%)": 36.7,
+    "Population Density (P/Km2)": 67,
+    "Life Expectancy (years)": 65.0
+  },
+  {
+    "name": "Thailand",
+    "Population (K)": 69626,
+    "Birth Rate (%)": 10.34,
+    "Population Density (P/Km2)": 137,
+    "Life Expectancy (years)": 76.9
+  },
+  {
+    "name": "East Timor",
+    "Population (K)": 3500,
+    "Birth Rate (%)": 29.42,
+    "Population Density (P/Km2)": 89,
+    "Life Expectancy (years)": 69.3
+  },
+  {
+    "name": "Togo",
+    "Population (K)": 8082,
+    "Birth Rate (%)": 33.11,
+    "Population Density (P/Km2)": 152,
+    "Life Expectancy (years)": 60.8
+  },
+  {
+    "name": "Tonga",
+    "Population (K)": 100,
+    "Birth Rate (%)": 24.3,
+    "Population Density (P/Km2)": 147,
+    "Life Expectancy (years)": 70.8
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "Population (K)": 1395,
+    "Birth Rate (%)": 12.94,
+    "Population Density (P/Km2)": 273,
+    "Life Expectancy (years)": 73.4
+  },
+  {
+    "name": "Tunisia",
+    "Population (K)": 11695,
+    "Birth Rate (%)": 17.56,
+    "Population Density (P/Km2)": 76,
+    "Life Expectancy (years)": 76.5
+  },
+  {
+    "name": "Turkey",
+    "Population (K)": 83430,
+    "Birth Rate (%)": 16.03,
+    "Population Density (P/Km2)": 110,
+    "Life Expectancy (years)": 77.4
+  },
+  {
+    "name": "Turkmenistan",
+    "Population (K)": 5942,
+    "Birth Rate (%)": 23.83,
+    "Population Density (P/Km2)": 13,
+    "Life Expectancy (years)": 68.1
+  },
+  {
+    "name": "Tuvalu",
+    "Population (K)": 12,
+    "Birth Rate (%)": NaN,
+    "Population Density (P/Km2)": 393,
+    "Life Expectancy (years)": NaN
+  },
+  {
+    "name": "Uganda",
+    "Population (K)": 44270,
+    "Birth Rate (%)": 38.14,
+    "Population Density (P/Km2)": 229,
+    "Life Expectancy (years)": 63.0
+  },
+  {
+    "name": "Ukraine",
+    "Population (K)": 44385,
+    "Birth Rate (%)": 8.7,
+    "Population Density (P/Km2)": 75,
+    "Life Expectancy (years)": 71.6
+  },
+  {
+    "name": "United Arab Emirates",
+    "Population (K)": 9771,
+    "Birth Rate (%)": 10.33,
+    "Population Density (P/Km2)": 118,
+    "Life Expectancy (years)": 77.8
+  },
+  {
+    "name": "United Kingdom",
+    "Population (K)": 66834,
+    "Birth Rate (%)": 11.0,
+    "Population Density (P/Km2)": 281,
+    "Life Expectancy (years)": 81.3
+  },
+  {
+    "name": "United States",
+    "Population (K)": 328240,
+    "Birth Rate (%)": 11.6,
+    "Population Density (P/Km2)": 36,
+    "Life Expectancy (years)": 78.5
+  },
+  {
+    "name": "Uruguay",
+    "Population (K)": 3462,
+    "Birth Rate (%)": 13.86,
+    "Population Density (P/Km2)": 20,
+    "Life Expectancy (years)": 77.8
+  },
+  {
+    "name": "Uzbekistan",
+    "Population (K)": 33581,
+    "Birth Rate (%)": 23.3,
+    "Population Density (P/Km2)": 79,
+    "Life Expectancy (years)": 71.6
+  },
+  {
+    "name": "Vanuatu",
+    "Population (K)": 300,
+    "Birth Rate (%)": 29.6,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 70.3
+  },
+  {
+    "name": "Venezuela",
+    "Population (K)": 28516,
+    "Birth Rate (%)": 17.88,
+    "Population Density (P/Km2)": 32,
+    "Life Expectancy (years)": 72.1
+  },
+  {
+    "name": "Vietnam",
+    "Population (K)": 96462,
+    "Birth Rate (%)": 16.75,
+    "Population Density (P/Km2)": 314,
+    "Life Expectancy (years)": 75.3
+  },
+  {
+    "name": "Yemen",
+    "Population (K)": 29162,
+    "Birth Rate (%)": 30.45,
+    "Population Density (P/Km2)": 56,
+    "Life Expectancy (years)": 66.1
+  },
+  {
+    "name": "Zambia",
+    "Population (K)": 17861,
+    "Birth Rate (%)": 36.19,
+    "Population Density (P/Km2)": 25,
+    "Life Expectancy (years)": 63.5
+  },
+  {
+    "name": "Zimbabwe",
+    "Population (K)": 14645,
+    "Birth Rate (%)": 30.68,
+    "Population Density (P/Km2)": 38,
+    "Life Expectancy (years)": 61.2
+  }
+]
