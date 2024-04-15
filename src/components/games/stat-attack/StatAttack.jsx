@@ -68,6 +68,7 @@ function StatAttack({ id, deck, deckName }) {
   const [selectedCard, setSelectedCard] = React.useState(-1);
   const [allowSelect, setAllowSelect] = React.useState(false);
   const [isLost, setIsLost] = React.useState(false);
+  const [isHigher, setIsHigher] = React.useState(true);
 
   const fields = Object.keys(deckData[0]); // we dont want 'name', so we remove it with shift
   fields.shift();
@@ -85,8 +86,8 @@ function StatAttack({ id, deck, deckName }) {
     
     if (active.id !== over.id) {
       setHand((hand) => {
-        const oldIndex = hand.indexOf(active.id);
-        const newIndex = hand.indexOf(over.id);
+        const oldIndex = hand.indexOf(active.id-1);
+        const newIndex = hand.indexOf(over.id-1);
         
         return arrayMove(hand, oldIndex, newIndex);
       });
@@ -104,7 +105,7 @@ function StatAttack({ id, deck, deckName }) {
     if (!lastMessage) return;
     const message = JSON.parse(lastMessage.data);
     const method = message.method;
-    console.log(message);
+    if ('is_higher' in message) setIsHigher(_ => message.is_higher);
 
     if (message.players) setPlayers(_ => message.players);
 
@@ -132,7 +133,7 @@ function StatAttack({ id, deck, deckName }) {
       Swal.fire({
         icon: message.winner === name ? 'success' : 'error',
         title: message.winner === name ? `${capitalise(fields[message.round_id])}: You Win!` : `${capitalise(fields[message.round_id])}: ${message.winner} Wins!`,
-        text: `${deckData[message.played_cards[0].card_id].name} has the highest ${capitalise(fields[message.round_id])}!`,
+        text: `${deckData[message.played_cards[0].card_id].name} has the ${isHigher ? 'highest' : 'lowest'} ${capitalise(fields[message.round_id])}!`,
         showClass: {
           popup: `
             animate__animated
@@ -154,6 +155,7 @@ function StatAttack({ id, deck, deckName }) {
     } else if (method === 'next') {
       setGameStatus('PLAYING');
       setHand(_ => message.hand);
+      setIsHigher(_ => message.is_higher);
     } else if (method === 'lose') {
       setIsLost(true);
     } else if (method === 'end') {
@@ -246,7 +248,10 @@ function StatAttack({ id, deck, deckName }) {
 
   return (
     <div className="p-2 max-w-6xl mx-auto">
-      {gameStatus !== 'UNJOINED' && <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>}
+      {gameStatus !== 'UNJOINED' && <>
+      <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
+      <p className="max-w-3xl mb-4 dark:text-white">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
+      </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
         <p className="max-w-3xl mx-auto mb-4 dark:text-white">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
@@ -287,7 +292,7 @@ function StatAttack({ id, deck, deckName }) {
       </div>
       </>}
 
-      {gameStatus === 'PLAYING' && !isLost && <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2">Try to get the highest value for each statistic!</h3>}
+      {gameStatus === 'PLAYING' && !isLost && <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2">Try to get the <span className="underline font-bold">{isHigher ? 'highest' : 'lowest'}</span> value for each statistic!</h3>}
       {gameStatus === 'PLAYED' && !isLost && <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2">Waiting for other players...</h3>}
       {isLost && <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2">You lost! So wait for the surviving players to play their cards!</h3>}
       {(gameStatus === 'PLAYING' || gameStatus === 'PLAYED') && !isLost && <DndContext 
@@ -295,10 +300,10 @@ function StatAttack({ id, deck, deckName }) {
         collisionDetection={closestCenter}
         onDragEnd={handleDragEnd}
       ><SortableContext 
-        items={hand}
+        items={hand.map(h => h+1)}
         strategy={verticalListSortingStrategy}
-      >{hand.map((id, i) => <SortableItem field={fields[i]} key={id} id={id} data={deckData[id]} fields={fields}/>)
-      }</SortableContext></DndContext>}
+      >{hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields}/>)}
+      </SortableContext></DndContext>}
       {gameStatus === 'PLAYING' && <button onClick={play} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Play</button>}
 
       <div id="winSelect">{gameStatus === 'SELECTING' && (allowSelect
@@ -306,7 +311,7 @@ function StatAttack({ id, deck, deckName }) {
         : <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2 flex">Waiting for winner to pick a card...</h3>)}</div>
       {gameStatus === 'SELECTING' && <ul className="grid gap-2">
         {playedCards.map((card, index) => (
-          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`bg-dt-100/10 animate-slide p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-white' : ''}`}>
+          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`bg-dt-100/10 animate-slide p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-white' : ''}`}>
             <h3 className={`flex text-xl font-bold mb-2 ${selectedCard === card.card_id ? 'text-white' : 'text-dt-500 dark:text-dt-200'}`}>{deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
             </h3>
             <ul className="grid gap-2">
