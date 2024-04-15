@@ -11,7 +11,7 @@
   },
   "mrt": {
     "title": "MRT Stations of Singapore",
-    "instructions": "Fight using the latitude, longitude and opening year!",
+    "instructions": "Fight using the latitude, longitude, opening year and passenger volume!",
     "tags": ["Geography", "MRT"]
   },
   "countries": {
@@ -26,7 +26,22 @@
   },
   "songs": {
     "title": "Songs on Spotify",
-    "instructions": "Fight using the release year, beats per minute, song duration and popularity!",
+    "instructions": "Fight using the release year, beats per minute and song duration!",
     "tags": ["Music", "Songs"]
+  },
+  "anime": {
+    "title": "Anime Shows",
+    "instructions": "Fight using the number of episodes, average rating and premiere year!",
+    "tags": ["Anime", "Shows"]
+  },
+  "songs-youtube": {
+    "title": "Songs on YouTube",
+    "instructions": "Fight using the views, likes, beats per minute and duration!",
+    "tags": ["Music", "Songs"]
+  },
+  "pokemon": {
+    "title": "Pokémon",
+    "instructions": "Fight using the height, weight, HP and Attack!",
+    "tags": ["Games", "Pokémon"]
   }
 }

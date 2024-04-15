@@ -1,0 +1,722 @@
+[
+  {
+    "name": "Cowboy Bebop",
+    "Rating": 8.78,
+    "No. of Episodes": 26,
+    "Premiere Year": 1998
+  },
+  {
+    "name": "Trigun",
+    "Rating": 8.24,
+    "No. of Episodes": 26,
+    "Premiere Year": 1998
+  },
+  {
+    "name": "Witch Hunter Robin",
+    "Rating": 7.27,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Bouken Ou Beet",
+    "Rating": 6.98,
+    "No. of Episodes": 52,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Eyeshield 21",
+    "Rating": 7.95,
+    "No. of Episodes": 145,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Hachimitsu to Clover",
+    "Rating": 8.06,
+    "No. of Episodes": 24,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Monster",
+    "Rating": 8.76,
+    "No. of Episodes": 74,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Naruto",
+    "Rating": 7.91,
+    "No. of Episodes": 220,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Tennis no Ouji-sama",
+    "Rating": 7.9,
+    "No. of Episodes": 178,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "Ring ni Kakero 1",
+    "Rating": 6.38,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "School Rumble",
+    "Rating": 7.94,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Sunabouzu",
+    "Rating": 7.42,
+    "No. of Episodes": 24,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Texhnolyze",
+    "Rating": 7.76,
+    "No. of Episodes": 22,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Trinity Blood",
+    "Rating": 7.32,
+    "No. of Episodes": 24,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Yakitate!! Japan",
+    "Rating": 7.95,
+    "No. of Episodes": 69,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Zipang",
+    "Rating": 7.51,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Kenpuu Denki Berserk",
+    "Rating": 8.49,
+    "No. of Episodes": 25,
+    "Premiere Year": 1997
+  },
+  {
+    "name": ".hack//Sign",
+    "Rating": 6.98,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Ai Yori Aoshi",
+    "Rating": 7.14,
+    "No. of Episodes": 24,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Arc the Lad",
+    "Rating": 6.53,
+    "No. of Episodes": 26,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "Avenger",
+    "Rating": 5.91,
+    "No. of Episodes": 13,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Beck",
+    "Rating": 8.31,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Blue Gender",
+    "Rating": 7.05,
+    "No. of Episodes": 26,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "Chobits",
+    "Rating": 7.43,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Chrno Crusade",
+    "Rating": 7.66,
+    "No. of Episodes": 24,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "D.N.Angel",
+    "Rating": 7.2,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "D.C.: Da Capo",
+    "Rating": 6.77,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "DearS",
+    "Rating": 6.62,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Rozen Maiden",
+    "Rating": 7.44,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Azumanga Daioh",
+    "Rating": 7.98,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Black Cat (TV)",
+    "Rating": 7.38,
+    "No. of Episodes": 23,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Cluster Edge",
+    "Rating": 6.35,
+    "No. of Episodes": 25,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Full Metal Panic!",
+    "Rating": 7.65,
+    "No. of Episodes": 24,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Gakuen Alice",
+    "Rating": 7.65,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Shuffle!",
+    "Rating": 7.09,
+    "No. of Episodes": 24,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Mobile Suit Gundam",
+    "Rating": 7.78,
+    "No. of Episodes": 43,
+    "Premiere Year": 1979
+  },
+  {
+    "name": "After War Gundam X",
+    "Rating": 7.32,
+    "No. of Episodes": 39,
+    "Premiere Year": 1996
+  },
+  {
+    "name": "Turn A Gundam",
+    "Rating": 7.7,
+    "No. of Episodes": 50,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "Last Exile",
+    "Rating": 7.82,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Mai-HiME",
+    "Rating": 7.46,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Mai-Otome",
+    "Rating": 7.31,
+    "No. of Episodes": 26,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Air",
+    "Rating": 7.32,
+    "No. of Episodes": 12,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Aishiteruze Baby\u2605\u2605",
+    "Rating": 7.48,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Akazukin Chacha",
+    "Rating": 7.39,
+    "No. of Episodes": 74,
+    "Premiere Year": 1994
+  },
+  {
+    "name": "Ayashi no Ceres",
+    "Rating": 7.23,
+    "No. of Episodes": 24,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Boys Be...",
+    "Rating": 6.46,
+    "No. of Episodes": 13,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Hana yori Dango",
+    "Rating": 7.7,
+    "No. of Episodes": 51,
+    "Premiere Year": 1996
+  },
+  {
+    "name": "Ou Dorobou Jing",
+    "Rating": 7.23,
+    "No. of Episodes": 13,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Bakuretsu Tenshi",
+    "Rating": 6.81,
+    "No. of Episodes": 24,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Chuuka Ichiban!",
+    "Rating": 7.63,
+    "No. of Episodes": 52,
+    "Premiere Year": 1997
+  },
+  {
+    "name": "Corrector Yui",
+    "Rating": 6.83,
+    "No. of Episodes": 52,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "Uchuu no Stellvia",
+    "Rating": 7.38,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Final Approach",
+    "Rating": 6.56,
+    "No. of Episodes": 13,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Fruits Basket",
+    "Rating": 7.69,
+    "No. of Episodes": 26,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "Fullmetal Alchemist",
+    "Rating": 8.17,
+    "No. of Episodes": 51,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Fushigi Yuugi",
+    "Rating": 7.64,
+    "No. of Episodes": 52,
+    "Premiere Year": 1995
+  },
+  {
+    "name": "Futakoi",
+    "Rating": 6.49,
+    "No. of Episodes": 13,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Futakoi Alternative",
+    "Rating": 6.91,
+    "No. of Episodes": 13,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Gate Keepers",
+    "Rating": 6.96,
+    "No. of Episodes": 24,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Gensoumaden Saiyuuki",
+    "Rating": 7.59,
+    "No. of Episodes": 50,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Saiyuuki Reload",
+    "Rating": 7.41,
+    "No. of Episodes": 25,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "GetBackers",
+    "Rating": 7.61,
+    "No. of Episodes": 49,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Green Green",
+    "Rating": 6.21,
+    "No. of Episodes": 12,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Gunslinger Girl",
+    "Rating": 7.42,
+    "No. of Episodes": 13,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Hikaru no Go",
+    "Rating": 8.11,
+    "No. of Episodes": 75,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "Hunter x Hunter",
+    "Rating": 8.42,
+    "No. of Episodes": 62,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "Jinki:Extend",
+    "Rating": 6.14,
+    "No. of Episodes": 12,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Kannazuki no Miko",
+    "Rating": 6.87,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Kanon",
+    "Rating": 7.11,
+    "No. of Episodes": 13,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Kimi ga Nozomu Eien",
+    "Rating": 7.24,
+    "No. of Episodes": 14,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Loveless",
+    "Rating": 6.86,
+    "No. of Episodes": 12,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Blood+",
+    "Rating": 7.66,
+    "No. of Episodes": 50,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Solty Rei",
+    "Rating": 7.28,
+    "No. of Episodes": 24,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Juuni Kokuki",
+    "Rating": 8.06,
+    "No. of Episodes": 45,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Shaman King",
+    "Rating": 7.78,
+    "No. of Episodes": 64,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "X",
+    "Rating": 7.43,
+    "No. of Episodes": 24,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "Mahou Sensei Negima!",
+    "Rating": 6.98,
+    "No. of Episodes": 26,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Maria-sama ga Miteru",
+    "Rating": 7.34,
+    "No. of Episodes": 13,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Boukyaku no Senritsu",
+    "Rating": 6.34,
+    "No. of Episodes": 24,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Peace Maker Kurogane",
+    "Rating": 7.33,
+    "No. of Episodes": 24,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Pita Ten",
+    "Rating": 6.94,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Power Stone",
+    "Rating": 6.48,
+    "No. of Episodes": 26,
+    "Premiere Year": 1999
+  },
+  {
+    "name": "RahXephon",
+    "Rating": 7.42,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Samurai 7",
+    "Rating": 7.48,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Scrapped Princess",
+    "Rating": 7.41,
+    "No. of Episodes": 24,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "s.CRY.ed",
+    "Rating": 7.38,
+    "No. of Episodes": 26,
+    "Premiere Year": 2001
+  },
+  {
+    "name": "Slam Dunk",
+    "Rating": 8.53,
+    "No. of Episodes": 101,
+    "Premiere Year": 1993
+  },
+  {
+    "name": "Strange Dawn",
+    "Rating": 6.35,
+    "No. of Episodes": 13,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Tactics",
+    "Rating": 7.23,
+    "No. of Episodes": 25,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Tenjou Tenge",
+    "Rating": 6.93,
+    "No. of Episodes": 24,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Tokyo Underground",
+    "Rating": 6.63,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Tsubasa Chronicle",
+    "Rating": 7.55,
+    "No. of Episodes": 26,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Ultra Maniac",
+    "Rating": 7.18,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Vandread",
+    "Rating": 7.21,
+    "No. of Episodes": 13,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Tenkuu no Escaflowne",
+    "Rating": 7.7,
+    "No. of Episodes": 26,
+    "Premiere Year": 1996
+  },
+  {
+    "name": "Whistle!",
+    "Rating": 7.39,
+    "No. of Episodes": 39,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Love Hina",
+    "Rating": 7.14,
+    "No. of Episodes": 24,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Maburaho",
+    "Rating": 6.8,
+    "No. of Episodes": 24,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Onegai\u2606Teacher",
+    "Rating": 7.17,
+    "No. of Episodes": 12,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Onegai\u2606Twins",
+    "Rating": 6.88,
+    "No. of Episodes": 12,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Rizelmine",
+    "Rating": 6.55,
+    "No. of Episodes": 24,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Speed Grapher",
+    "Rating": 7.35,
+    "No. of Episodes": 24,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Tenshi na Konamaiki",
+    "Rating": 7.48,
+    "No. of Episodes": 50,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Wolf's Rain",
+    "Rating": 7.82,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Yumeria",
+    "Rating": 6.11,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Samurai Champloo",
+    "Rating": 8.5,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "R.O.D: The TV",
+    "Rating": 7.55,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Ranma \u00bd",
+    "Rating": 7.76,
+    "No. of Episodes": 161,
+    "Premiere Year": 1989
+  },
+  {
+    "name": "Mezzo DSA",
+    "Rating": 6.68,
+    "No. of Episodes": 13,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Dragon Ball",
+    "Rating": 8.0,
+    "No. of Episodes": 153,
+    "Premiere Year": 1986
+  },
+  {
+    "name": "Dragon Ball GT",
+    "Rating": 6.48,
+    "No. of Episodes": 64,
+    "Premiere Year": 1996
+  },
+  {
+    "name": "Elfen Lied",
+    "Rating": 7.56,
+    "No. of Episodes": 13,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Jigoku Shoujo",
+    "Rating": 7.65,
+    "No. of Episodes": 26,
+    "Premiere Year": 2005
+  },
+  {
+    "name": "Ninin ga Shinobuden",
+    "Rating": 6.92,
+    "No. of Episodes": 12,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "Air Master",
+    "Rating": 7.02,
+    "No. of Episodes": 27,
+    "Premiere Year": 2003
+  },
+  {
+    "name": "Asagiri no Miko",
+    "Rating": 6.18,
+    "No. of Episodes": 26,
+    "Premiere Year": 2002
+  },
+  {
+    "name": "Cardcaptor Sakura",
+    "Rating": 8.16,
+    "No. of Episodes": 70,
+    "Premiere Year": 1998
+  },
+  {
+    "name": "Daa! Daa! Daa!",
+    "Rating": 7.65,
+    "No. of Episodes": 78,
+    "Premiere Year": 2000
+  },
+  {
+    "name": "Dan Doh!!",
+    "Rating": 6.69,
+    "No. of Episodes": 26,
+    "Premiere Year": 2004
+  },
+  {
+    "name": "E's Otherwise",
+    "Rating": 6.64,
+    "No. of Episodes": 26,
+    "Premiere Year": 2003
+  }
+]

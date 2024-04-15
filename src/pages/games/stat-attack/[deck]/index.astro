@@ -62,6 +62,33 @@ export const getStaticPaths = (() => {
         title: statAttackData.songs.title,
         instructions: statAttackData.songs.instructions
       }
+    },
+    {
+      params: {
+        deck: "anime"
+      },
+      props: {
+        title: statAttackData.anime.title,
+        instructions: statAttackData.anime.instructions
+      }
+    },
+    {
+      params: {
+        deck: "songs-youtube" // https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube
+      },
+      props: {
+        title: statAttackData["songs-youtube"].title,
+        instructions: statAttackData["songs-youtube"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "pokemon"
+      },
+      props: {
+        title: statAttackData.pokemon.title, // https://www.kaggle.com/datasets/onurgitmez/pokemon-stats-gen-1-9
+        instructions: statAttackData.pokemon.instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;

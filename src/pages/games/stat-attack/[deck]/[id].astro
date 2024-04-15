@@ -8,6 +8,9 @@ import mrtData from "../../../../data/games/stat-attack/mrt.json";
 import countriesData from "../../../../data/games/stat-attack/countries.json";
 import universitiesData from "../../../../data/games/stat-attack/universities.json";
 import songsData from "../../../../data/games/stat-attack/songs.json";
+import animeData from "../../../../data/games/stat-attack/anime.json";
+import songsYoutubeData from "../../../../data/games/stat-attack/songs-youtube.json";
+import pokemonData from "../../../../data/games/stat-attack/pokemon.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -36,6 +39,18 @@ const deckData = {
   songs: {
     title: "Songs on Spotify",
     data: songsData
+  },
+  anime: {
+    title: "Anime Ratings",
+    data: animeData
+  },
+  songsYoutube: {
+    title: "Songs on YouTube",
+    data: songsYoutubeData
+  },
+  pokemon: {
+    title: "Pokémon",
+    data: pokemonData
   }
 }
 
@@ -62,6 +77,15 @@ switch (deckName) {
     break;
   case "songs":
     deck = deckData.songs;
+    break;
+  case "anime":
+    deck = deckData.anime;
+    break;
+  case "songs-youtube":
+    deck = deckData.songsYoutube;
+    break;
+  case "pokemon":
+    deck = deckData.pokemon;
     break;
   default:
     deck = deckData.malls;

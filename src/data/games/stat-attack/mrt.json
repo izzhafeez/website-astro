@@ -1,1346 +1,1094 @@
 [
   {
     "name": "Choa Chu Kang",
-    "year": 1990,
-    "latitude": 1.385,
-    "longitude": 103.7444
+    "Latitude": 1.385,
+    "Longitude": 103.7444,
+    "Opening Year": 1990,
+    "Passenger Volume": 2300809
   },
   {
     "name": "Fajar",
-    "year": 1999,
-    "latitude": 1.3844,
-    "longitude": 103.7708
+    "Latitude": 1.3844,
+    "Longitude": 103.7708,
+    "Opening Year": 1999,
+    "Passenger Volume": 269733
   },
   {
     "name": "Segar",
-    "year": 1999,
-    "latitude": 1.3878,
-    "longitude": 103.7694
+    "Latitude": 1.3878,
+    "Longitude": 103.7694,
+    "Opening Year": 1999,
+    "Passenger Volume": 258712
   },
   {
     "name": "Jelapang",
-    "year": 1999,
-    "latitude": 1.3867,
-    "longitude": 103.7644
+    "Latitude": 1.3867,
+    "Longitude": 103.7644,
+    "Opening Year": 1999,
+    "Passenger Volume": 194036
   },
   {
     "name": "Senja",
-    "year": 1999,
-    "latitude": 1.3828,
-    "longitude": 103.7622
-  },
-  {
-    "name": "Ten Mile Junction",
-    "year": 1999,
-    "latitude": 1.3803,
-    "longitude": 103.76
+    "Latitude": 1.3828,
+    "Longitude": 103.7622,
+    "Opening Year": 1999,
+    "Passenger Volume": 95071
   },
   {
     "name": "South View",
-    "year": 1999,
-    "latitude": 1.3803,
-    "longitude": 103.7453
+    "Latitude": 1.3803,
+    "Longitude": 103.7453,
+    "Opening Year": 1999,
+    "Passenger Volume": 233197
   },
   {
     "name": "Keat Hong",
-    "year": 1999,
-    "latitude": 1.3786,
-    "longitude": 103.7489
+    "Latitude": 1.3786,
+    "Longitude": 103.7489,
+    "Opening Year": 1999,
+    "Passenger Volume": 313590
   },
   {
     "name": "Teck Whye",
-    "year": 1999,
-    "latitude": 1.3767,
-    "longitude": 103.7536
+    "Latitude": 1.3767,
+    "Longitude": 103.7536,
+    "Opening Year": 1999,
+    "Passenger Volume": 228923
   },
   {
     "name": "Phoenix",
-    "year": 1999,
-    "latitude": 1.3786,
-    "longitude": 103.7581
+    "Latitude": 1.3786,
+    "Longitude": 103.7581,
+    "Opening Year": 1999,
+    "Passenger Volume": 135432
   },
   {
     "name": "Bukit Panjang",
-    "year": 1999,
-    "latitude": 1.3783,
-    "longitude": 103.7617
+    "Latitude": 1.3783,
+    "Longitude": 103.7617,
+    "Opening Year": 1999,
+    "Passenger Volume": 2278012
   },
   {
     "name": "Petir",
-    "year": 1999,
-    "latitude": 1.3778,
-    "longitude": 103.7667
+    "Latitude": 1.3778,
+    "Longitude": 103.7667,
+    "Opening Year": 1999,
+    "Passenger Volume": 81959
   },
   {
     "name": "Pending",
-    "year": 1999,
-    "latitude": 1.3761,
-    "longitude": 103.7711
+    "Latitude": 1.3761,
+    "Longitude": 103.7711,
+    "Opening Year": 1999,
+    "Passenger Volume": 139035
   },
   {
     "name": "Bangkit",
-    "year": 1999,
-    "latitude": 1.38,
-    "longitude": 103.7725
+    "Latitude": 1.38,
+    "Longitude": 103.7725,
+    "Opening Year": 1999,
+    "Passenger Volume": 181382
   },
   {
     "name": "Dhoby Ghaut",
-    "year": 1987,
-    "latitude": 1.2988,
-    "longitude": 103.8458
-  },
-  {
-    "name": "MacPherson",
-    "year": 2010,
-    "latitude": 1.3267,
-    "longitude": 103.89
+    "Latitude": 1.2988,
+    "Longitude": 103.8458,
+    "Opening Year": 1987,
+    "Passenger Volume": 1675218
   },
   {
     "name": "Tai Seng",
-    "year": 2010,
-    "latitude": 1.3358,
-    "longitude": 103.8881
+    "Latitude": 1.3358,
+    "Longitude": 103.8881,
+    "Opening Year": 2010,
+    "Passenger Volume": 813160
   },
   {
     "name": "Bartley",
-    "year": 2009,
-    "latitude": 1.3428,
-    "longitude": 103.8797
+    "Latitude": 1.3428,
+    "Longitude": 103.8797,
+    "Opening Year": 2009,
+    "Passenger Volume": 274380
   },
   {
     "name": "Serangoon",
-    "year": 2003,
-    "latitude": 1.3507,
-    "longitude": 103.8719
+    "Latitude": 1.3507,
+    "Longitude": 103.8719,
+    "Opening Year": 2003,
+    "Passenger Volume": 1754349
   },
   {
     "name": "Lorong Chuan",
-    "year": 2009,
-    "latitude": 1.3517,
-    "longitude": 103.8642
+    "Latitude": 1.3517,
+    "Longitude": 103.8642,
+    "Opening Year": 2009,
+    "Passenger Volume": 355943
   },
   {
     "name": "Bishan",
-    "year": 1987,
-    "latitude": 1.3511,
-    "longitude": 103.8483
+    "Latitude": 1.3511,
+    "Longitude": 103.8483,
+    "Opening Year": 1987,
+    "Passenger Volume": 939453
   },
   {
     "name": "Marymount",
-    "year": 2009,
-    "latitude": 1.3492,
-    "longitude": 103.8394
+    "Latitude": 1.3492,
+    "Longitude": 103.8394,
+    "Opening Year": 2009,
+    "Passenger Volume": 512099
   },
   {
     "name": "Caldecott",
-    "year": 2011,
-    "latitude": 1.3378,
-    "longitude": 103.8394
+    "Latitude": 1.3378,
+    "Longitude": 103.8394,
+    "Opening Year": 2011,
+    "Passenger Volume": 208437
   },
   {
     "name": "Botanic Gardens",
-    "year": 2011,
-    "latitude": 1.3225,
-    "longitude": 103.8153
+    "Latitude": 1.3225,
+    "Longitude": 103.8153,
+    "Opening Year": 2011,
+    "Passenger Volume": 390277
   },
   {
     "name": "Bras Basah",
-    "year": 2010,
-    "latitude": 1.2969,
-    "longitude": 103.8506
+    "Latitude": 1.2969,
+    "Longitude": 103.8506,
+    "Opening Year": 2010,
+    "Passenger Volume": 251081
   },
   {
     "name": "Farrer Road",
-    "year": 2011,
-    "latitude": 1.3172,
-    "longitude": 103.8075
+    "Latitude": 1.3172,
+    "Longitude": 103.8075,
+    "Opening Year": 2011,
+    "Passenger Volume": 288008
   },
   {
     "name": "Holland Village",
-    "year": 2011,
-    "latitude": 1.3119,
-    "longitude": 103.7961
+    "Latitude": 1.3119,
+    "Longitude": 103.7961,
+    "Opening Year": 2011,
+    "Passenger Volume": 469717
   },
   {
     "name": "Buona Vista",
-    "year": 1988,
-    "latitude": 1.3066,
-    "longitude": 103.7907
-  },
-  {
-    "name": "one-north",
-    "year": 2011,
-    "latitude": 1.2994,
-    "longitude": 103.7869
+    "Latitude": 1.3066,
+    "Longitude": 103.7907,
+    "Opening Year": 1988,
+    "Passenger Volume": 1128325
   },
   {
     "name": "Kent Ridge",
-    "year": 2011,
-    "latitude": 1.2933,
-    "longitude": 103.7844
+    "Latitude": 1.2933,
+    "Longitude": 103.7844,
+    "Opening Year": 2011,
+    "Passenger Volume": 907972
   },
   {
     "name": "Haw Par Villa",
-    "year": 2011,
-    "latitude": 1.2825,
-    "longitude": 103.7819
+    "Latitude": 1.2825,
+    "Longitude": 103.7819,
+    "Opening Year": 2011,
+    "Passenger Volume": 363896
   },
   {
     "name": "Pasir Panjang",
-    "year": 2011,
-    "latitude": 1.2761,
-    "longitude": 103.7914
+    "Latitude": 1.2761,
+    "Longitude": 103.7914,
+    "Opening Year": 2011,
+    "Passenger Volume": 279583
   },
   {
     "name": "Labrador Park",
-    "year": 2011,
-    "latitude": 1.2722,
-    "longitude": 103.8028
+    "Latitude": 1.2722,
+    "Longitude": 103.8028,
+    "Opening Year": 2011,
+    "Passenger Volume": 197570
   },
   {
     "name": "Telok Blangah",
-    "year": 2011,
-    "latitude": 1.2706,
-    "longitude": 103.8097
-  },
-  {
-    "name": "HarbourFront",
-    "year": 2003,
-    "latitude": 1.2653,
-    "longitude": 103.8222
+    "Latitude": 1.2706,
+    "Longitude": 103.8097,
+    "Opening Year": 2011,
+    "Passenger Volume": 234372
   },
   {
     "name": "Esplanade",
-    "year": 2010,
-    "latitude": 1.2933,
-    "longitude": 103.8553
-  },
-  {
-    "name": "Keppel",
-    "year": 2026,
-    "latitude": 1.27,
-    "longitude": 103.8303
-  },
-  {
-    "name": "Cantonment",
-    "year": 2026,
-    "latitude": 1.2728,
-    "longitude": 103.8367
-  },
-  {
-    "name": "Prince Edward Road",
-    "year": 2026,
-    "latitude": 1.2733,
-    "longitude": 103.8472
+    "Latitude": 1.2933,
+    "Longitude": 103.8553,
+    "Opening Year": 2010,
+    "Passenger Volume": 294101
   },
   {
     "name": "Promenade",
-    "year": 2010,
-    "latitude": 1.2931,
-    "longitude": 103.8611
+    "Latitude": 1.2931,
+    "Longitude": 103.8611,
+    "Opening Year": 2010,
+    "Passenger Volume": 902183
   },
   {
     "name": "Nicoll Highway",
-    "year": 2010,
-    "latitude": 1.2997,
-    "longitude": 103.8636
+    "Latitude": 1.2997,
+    "Longitude": 103.8636,
+    "Opening Year": 2010,
+    "Passenger Volume": 252372
   },
   {
     "name": "Stadium",
-    "year": 2010,
-    "latitude": 1.3028,
-    "longitude": 103.8753
+    "Latitude": 1.3028,
+    "Longitude": 103.8753,
+    "Opening Year": 2010,
+    "Passenger Volume": 417907
   },
   {
     "name": "Mountbatten",
-    "year": 2010,
-    "latitude": 1.3064,
-    "longitude": 103.8825
+    "Latitude": 1.3064,
+    "Longitude": 103.8825,
+    "Opening Year": 2010,
+    "Passenger Volume": 408776
   },
   {
     "name": "Dakota",
-    "year": 2010,
-    "latitude": 1.3083,
-    "longitude": 103.8883
+    "Latitude": 1.3083,
+    "Longitude": 103.8883,
+    "Opening Year": 2010,
+    "Passenger Volume": 436244
   },
   {
     "name": "Paya Lebar",
-    "year": 1989,
-    "latitude": 1.3178,
-    "longitude": 103.8925
+    "Latitude": 1.3178,
+    "Longitude": 103.8925,
+    "Opening Year": 1989,
+    "Passenger Volume": 2404445
   },
   {
     "name": "Bayfront",
-    "year": 2012,
-    "latitude": 1.2822,
-    "longitude": 103.8594
+    "Latitude": 1.2822,
+    "Longitude": 103.8594,
+    "Opening Year": 2012,
+    "Passenger Volume": 1353755
   },
   {
     "name": "Marina Bay",
-    "year": 1989,
-    "latitude": 1.2761,
-    "longitude": 103.8547
+    "Latitude": 1.2761,
+    "Longitude": 103.8547,
+    "Opening Year": 1989,
+    "Passenger Volume": 156807
   },
   {
     "name": "Tanah Merah",
-    "year": 1989,
-    "latitude": 1.3274,
-    "longitude": 103.9463
+    "Latitude": 1.3274,
+    "Longitude": 103.9463,
+    "Opening Year": 1989,
+    "Passenger Volume": 856034
   },
   {
     "name": "Expo",
-    "year": 2001,
-    "latitude": 1.3355,
-    "longitude": 103.9618
+    "Latitude": 1.3355,
+    "Longitude": 103.9618,
+    "Opening Year": 2001,
+    "Passenger Volume": 521550
   },
   {
     "name": "Changi Airport",
-    "year": 2002,
-    "latitude": 1.3574,
-    "longitude": 103.9888
+    "Latitude": 1.3574,
+    "Longitude": 103.9888,
+    "Opening Year": 2002,
+    "Passenger Volume": 408247
   },
   {
     "name": "Pasir Ris",
-    "year": 1989,
-    "latitude": 1.3724,
-    "longitude": 103.9494
-  },
-  {
-    "name": "Elias",
-    "year": 2032,
-    "latitude": 1.3839,
-    "longitude": 103.9381
+    "Latitude": 1.3724,
+    "Longitude": 103.9494,
+    "Opening Year": 1989,
+    "Passenger Volume": 1979590
   },
   {
     "name": "Riviera",
-    "year": 2005,
-    "latitude": 1.3944,
-    "longitude": 103.9161
+    "Latitude": 1.3944,
+    "Longitude": 103.9161,
+    "Opening Year": 2005,
+    "Passenger Volume": 108026
   },
   {
     "name": "Punggol",
-    "year": 2003,
-    "latitude": 1.4053,
-    "longitude": 103.9025
-  },
-  {
-    "name": "Tavistock",
-    "year": 2030,
-    "latitude": 1.37,
-    "longitude": 103.8633
+    "Latitude": 1.4053,
+    "Longitude": 103.9025,
+    "Opening Year": 2003,
+    "Passenger Volume": 2284667
   },
   {
     "name": "Ang Mo Kio",
-    "year": 1987,
-    "latitude": 1.37,
-    "longitude": 103.8494
-  },
-  {
-    "name": "Teck Ghee",
-    "year": 2030,
-    "latitude": 1.3656,
-    "longitude": 103.8436
-  },
-  {
-    "name": "Bright Hill",
-    "year": 2021,
-    "latitude": 1.3632,
-    "longitude": 103.833
-  },
-  {
-    "name": "Aviation Park",
-    "year": 2030,
-    "latitude": 1.37,
-    "longitude": 104.0031
-  },
-  {
-    "name": "Loyang",
-    "year": 2030,
-    "latitude": 1.3719,
-    "longitude": 103.9719
-  },
-  {
-    "name": "Pasir Ris East",
-    "year": 2030,
-    "latitude": 1.3661,
-    "longitude": 103.9611
-  },
-  {
-    "name": "Tampines North",
-    "year": 2030,
-    "latitude": 1.3692,
-    "longitude": 103.9378
-  },
-  {
-    "name": "Defu",
-    "year": 2030,
-    "latitude": 1.3622,
-    "longitude": 103.8989
+    "Latitude": 1.37,
+    "Longitude": 103.8494,
+    "Opening Year": 1987,
+    "Passenger Volume": 2939332
   },
   {
     "name": "Hougang",
-    "year": 2003,
-    "latitude": 1.3714,
-    "longitude": 103.8922
-  },
-  {
-    "name": "Serangoon North",
-    "year": 2030,
-    "latitude": 1.3706,
-    "longitude": 103.8736
-  },
-  {
-    "name": "Sungei Kadut",
-    "year": 2035,
-    "latitude": 1.4132,
-    "longitude": 103.7487
+    "Latitude": 1.3714,
+    "Longitude": 103.8922,
+    "Opening Year": 2003,
+    "Passenger Volume": 2022235
   },
   {
     "name": "Stevens",
-    "year": 2015,
-    "latitude": 1.32,
-    "longitude": 103.8261
+    "Latitude": 1.32,
+    "Longitude": 103.8261,
+    "Opening Year": 2015,
+    "Passenger Volume": 294940
   },
   {
     "name": "Newton",
-    "year": 1987,
-    "latitude": 1.3131,
-    "longitude": 103.8383
+    "Latitude": 1.3131,
+    "Longitude": 103.8383,
+    "Opening Year": 1987,
+    "Passenger Volume": 3007036
   },
   {
     "name": "Little India",
-    "year": 2003,
-    "latitude": 1.3067,
-    "longitude": 103.8492
+    "Latitude": 1.3067,
+    "Longitude": 103.8492,
+    "Opening Year": 2003,
+    "Passenger Volume": 1487871
   },
   {
     "name": "Rochor",
-    "year": 2015,
-    "latitude": 1.3038,
-    "longitude": 103.8526
+    "Latitude": 1.3038,
+    "Longitude": 103.8526,
+    "Opening Year": 2015,
+    "Passenger Volume": 587635
   },
   {
     "name": "Bugis",
-    "year": 1989,
-    "latitude": 1.3003,
-    "longitude": 103.8561
+    "Latitude": 1.3003,
+    "Longitude": 103.8561,
+    "Opening Year": 1989,
+    "Passenger Volume": 2592885
   },
   {
     "name": "Downtown",
-    "year": 2013,
-    "latitude": 1.2794,
-    "longitude": 103.8531
+    "Latitude": 1.2794,
+    "Longitude": 103.8531,
+    "Opening Year": 2013,
+    "Passenger Volume": 652488
   },
   {
     "name": "Telok Ayer",
-    "year": 2013,
-    "latitude": 1.2822,
-    "longitude": 103.8483
+    "Latitude": 1.2822,
+    "Longitude": 103.8483,
+    "Opening Year": 2013,
+    "Passenger Volume": 667037
   },
   {
     "name": "Chinatown",
-    "year": 2003,
-    "latitude": 1.2847,
-    "longitude": 103.8439
+    "Latitude": 1.2847,
+    "Longitude": 103.8439,
+    "Opening Year": 2003,
+    "Passenger Volume": 2620242
   },
   {
     "name": "Cashew",
-    "year": 2015,
-    "latitude": 1.3689,
-    "longitude": 103.7647
+    "Latitude": 1.3689,
+    "Longitude": 103.7647,
+    "Opening Year": 2015,
+    "Passenger Volume": 157904
   },
   {
     "name": "Fort Canning",
-    "year": 2017,
-    "latitude": 1.2925,
-    "longitude": 103.8443
+    "Latitude": 1.2925,
+    "Longitude": 103.8443,
+    "Opening Year": 2017,
+    "Passenger Volume": 271276
   },
   {
     "name": "Bencoolen",
-    "year": 2017,
-    "latitude": 1.2985,
-    "longitude": 103.8501
+    "Latitude": 1.2985,
+    "Longitude": 103.8501,
+    "Opening Year": 2017,
+    "Passenger Volume": 305073
   },
   {
     "name": "Jalan Besar",
-    "year": 2017,
-    "latitude": 1.3056,
-    "longitude": 103.8553
+    "Latitude": 1.3056,
+    "Longitude": 103.8553,
+    "Opening Year": 2017,
+    "Passenger Volume": 337400
   },
   {
     "name": "Bendemeer",
-    "year": 2017,
-    "latitude": 1.3142,
-    "longitude": 103.8614
+    "Latitude": 1.3142,
+    "Longitude": 103.8614,
+    "Opening Year": 2017,
+    "Passenger Volume": 182009
   },
   {
     "name": "Geylang Bahru",
-    "year": 2017,
-    "latitude": 1.3214,
-    "longitude": 103.8714
+    "Latitude": 1.3214,
+    "Longitude": 103.8714,
+    "Opening Year": 2017,
+    "Passenger Volume": 295684
   },
   {
     "name": "Mattar",
-    "year": 2017,
-    "latitude": 1.3272,
-    "longitude": 103.8828
+    "Latitude": 1.3272,
+    "Longitude": 103.8828,
+    "Opening Year": 2017,
+    "Passenger Volume": 233193
   },
   {
     "name": "Ubi",
-    "year": 2017,
-    "latitude": 1.33,
-    "longitude": 103.9
+    "Latitude": 1.33,
+    "Longitude": 103.9,
+    "Opening Year": 2017,
+    "Passenger Volume": 433422
   },
   {
     "name": "Kaki Bukit",
-    "year": 2017,
-    "latitude": 1.335,
-    "longitude": 103.9089
+    "Latitude": 1.335,
+    "Longitude": 103.9089,
+    "Opening Year": 2017,
+    "Passenger Volume": 529282
   },
   {
     "name": "Bedok North",
-    "year": 2017,
-    "latitude": 1.335,
-    "longitude": 103.9179
+    "Latitude": 1.335,
+    "Longitude": 103.9179,
+    "Opening Year": 2017,
+    "Passenger Volume": 429445
   },
   {
     "name": "Hillview",
-    "year": 2015,
-    "latitude": 1.3625,
-    "longitude": 103.7675
+    "Latitude": 1.3625,
+    "Longitude": 103.7675,
+    "Opening Year": 2015,
+    "Passenger Volume": 468760
   },
   {
     "name": "Bedok Reservoir",
-    "year": 2017,
-    "latitude": 1.3367,
-    "longitude": 103.9308
+    "Latitude": 1.3367,
+    "Longitude": 103.9308,
+    "Opening Year": 2017,
+    "Passenger Volume": 437001
   },
   {
     "name": "Tampines West",
-    "year": 2017,
-    "latitude": 1.3456,
-    "longitude": 103.9383
+    "Latitude": 1.3456,
+    "Longitude": 103.9383,
+    "Opening Year": 2017,
+    "Passenger Volume": 493038
   },
   {
     "name": "Tampines",
-    "year": 1989,
-    "latitude": 1.3547,
-    "longitude": 103.9427
+    "Latitude": 1.3547,
+    "Longitude": 103.9427,
+    "Opening Year": 1989,
+    "Passenger Volume": 2858962
   },
   {
     "name": "Tampines East",
-    "year": 2017,
-    "latitude": 1.3564,
-    "longitude": 103.9547
+    "Latitude": 1.3564,
+    "Longitude": 103.9547,
+    "Opening Year": 2017,
+    "Passenger Volume": 1070899
   },
   {
     "name": "Upper Changi",
-    "year": 2017,
-    "latitude": 1.3419,
-    "longitude": 103.9614
-  },
-  {
-    "name": "Xilin",
-    "year": 2024,
-    "latitude": 1.3289,
-    "longitude": 103.965
-  },
-  {
-    "name": "Sungei Bedok",
-    "year": 2024,
-    "latitude": 1.3203,
-    "longitude": 103.9572
-  },
-  {
-    "name": "Hume",
-    "year": 2025,
-    "latitude": 1.3547,
-    "longitude": 103.7692
+    "Latitude": 1.3419,
+    "Longitude": 103.9614,
+    "Opening Year": 2017,
+    "Passenger Volume": 257340
   },
   {
     "name": "Beauty World",
-    "year": 2015,
-    "latitude": 1.3411,
-    "longitude": 103.7758
+    "Latitude": 1.3411,
+    "Longitude": 103.7758,
+    "Opening Year": 2015,
+    "Passenger Volume": 861238
   },
   {
     "name": "King Albert Park",
-    "year": 2015,
-    "latitude": 1.3356,
-    "longitude": 103.7839
+    "Latitude": 1.3356,
+    "Longitude": 103.7839,
+    "Opening Year": 2015,
+    "Passenger Volume": 382583
   },
   {
     "name": "Sixth Avenue",
-    "year": 2015,
-    "latitude": 1.3308,
-    "longitude": 103.7975
+    "Latitude": 1.3308,
+    "Longitude": 103.7975,
+    "Opening Year": 2015,
+    "Passenger Volume": 267314
   },
   {
     "name": "Tan Kah Kee",
-    "year": 2015,
-    "latitude": 1.3261,
-    "longitude": 103.8072
+    "Latitude": 1.3261,
+    "Longitude": 103.8072,
+    "Opening Year": 2015,
+    "Passenger Volume": 300105
   },
   {
     "name": "Kallang",
-    "year": 1989,
-    "latitude": 1.3115,
-    "longitude": 103.8714
+    "Latitude": 1.3115,
+    "Longitude": 103.8714,
+    "Opening Year": 1989,
+    "Passenger Volume": 663768
   },
   {
     "name": "Lavender",
-    "year": 1989,
-    "latitude": 1.3072,
-    "longitude": 103.863
+    "Latitude": 1.3072,
+    "Longitude": 103.863,
+    "Opening Year": 1989,
+    "Passenger Volume": 954983
   },
   {
     "name": "City Hall",
-    "year": 1987,
-    "latitude": 1.2933,
-    "longitude": 103.8526
+    "Latitude": 1.2933,
+    "Longitude": 103.8526,
+    "Opening Year": 1987,
+    "Passenger Volume": 1901491
   },
   {
     "name": "Raffles Place",
-    "year": 1987,
-    "latitude": 1.2839,
-    "longitude": 103.8515
+    "Latitude": 1.2839,
+    "Longitude": 103.8515,
+    "Opening Year": 1987,
+    "Passenger Volume": 1697154
   },
   {
     "name": "Tanjong Pagar",
-    "year": 1987,
-    "latitude": 1.2764,
-    "longitude": 103.8457
+    "Latitude": 1.2764,
+    "Longitude": 103.8457,
+    "Opening Year": 1987,
+    "Passenger Volume": 1676506
   },
   {
     "name": "Outram Park",
-    "year": 1987,
-    "latitude": 1.2803,
-    "longitude": 103.8394
+    "Latitude": 1.2803,
+    "Longitude": 103.8394,
+    "Opening Year": 1987,
+    "Passenger Volume": 1572207
   },
   {
     "name": "Tiong Bahru",
-    "year": 1988,
-    "latitude": 1.2861,
-    "longitude": 103.827
+    "Latitude": 1.2861,
+    "Longitude": 103.827,
+    "Opening Year": 1988,
+    "Passenger Volume": 1558266
   },
   {
     "name": "Redhill",
-    "year": 1988,
-    "latitude": 1.2897,
-    "longitude": 103.8168
+    "Latitude": 1.2897,
+    "Longitude": 103.8168,
+    "Opening Year": 1988,
+    "Passenger Volume": 1017275
   },
   {
     "name": "Queenstown",
-    "year": 1988,
-    "latitude": 1.2944,
-    "longitude": 103.8061
+    "Latitude": 1.2944,
+    "Longitude": 103.8061,
+    "Opening Year": 1988,
+    "Passenger Volume": 787204
   },
   {
     "name": "Commonwealth",
-    "year": 1988,
-    "latitude": 1.3026,
-    "longitude": 103.7982
+    "Latitude": 1.3026,
+    "Longitude": 103.7982,
+    "Opening Year": 1988,
+    "Passenger Volume": 857804
   },
   {
     "name": "Dover",
-    "year": 2001,
-    "latitude": 1.3113,
-    "longitude": 103.7787
+    "Latitude": 1.3113,
+    "Longitude": 103.7787,
+    "Opening Year": 2001,
+    "Passenger Volume": 461551
   },
   {
     "name": "Clementi",
-    "year": 1988,
-    "latitude": 1.3153,
-    "longitude": 103.7652
+    "Latitude": 1.3153,
+    "Longitude": 103.7652,
+    "Opening Year": 1988,
+    "Passenger Volume": 2629926
   },
   {
     "name": "Jurong East",
-    "year": 1988,
-    "latitude": 1.3333,
-    "longitude": 103.7422
+    "Latitude": 1.3333,
+    "Longitude": 103.7422,
+    "Opening Year": 1988,
+    "Passenger Volume": 3947194
   },
   {
     "name": "Chinese Garden",
-    "year": 1988,
-    "latitude": 1.3427,
-    "longitude": 103.7325
+    "Latitude": 1.3427,
+    "Longitude": 103.7325,
+    "Opening Year": 1988,
+    "Passenger Volume": 536975
   },
   {
     "name": "Lakeside",
-    "year": 1988,
-    "latitude": 1.3446,
-    "longitude": 103.7211
+    "Latitude": 1.3446,
+    "Longitude": 103.7211,
+    "Opening Year": 1988,
+    "Passenger Volume": 1983012
   },
   {
     "name": "Boon Lay",
-    "year": 1990,
-    "latitude": 1.3389,
-    "longitude": 103.7062
+    "Latitude": 1.3389,
+    "Longitude": 103.7062,
+    "Opening Year": 1990,
+    "Passenger Volume": 3132090
   },
   {
     "name": "Pioneer",
-    "year": 2009,
-    "latitude": 1.3376,
-    "longitude": 103.6972
+    "Latitude": 1.3376,
+    "Longitude": 103.6972,
+    "Opening Year": 2009,
+    "Passenger Volume": 1449711
   },
   {
     "name": "Joo Koon",
-    "year": 2009,
-    "latitude": 1.3277,
-    "longitude": 103.6785
+    "Latitude": 1.3277,
+    "Longitude": 103.6785,
+    "Opening Year": 2009,
+    "Passenger Volume": 852569
   },
   {
     "name": "Simei",
-    "year": 1989,
-    "latitude": 1.3432,
-    "longitude": 103.9534
+    "Latitude": 1.3432,
+    "Longitude": 103.9534,
+    "Opening Year": 1989,
+    "Passenger Volume": 1116073
   },
   {
     "name": "Gul Circle",
-    "year": 2017,
-    "latitude": 1.3196,
-    "longitude": 103.6607
+    "Latitude": 1.3196,
+    "Longitude": 103.6607,
+    "Opening Year": 2017,
+    "Passenger Volume": 191427
   },
   {
     "name": "Tuas Crescent",
-    "year": 2017,
-    "latitude": 1.3211,
-    "longitude": 103.649
+    "Latitude": 1.3211,
+    "Longitude": 103.649,
+    "Opening Year": 2017,
+    "Passenger Volume": 198272
   },
   {
     "name": "Tuas West Road",
-    "year": 2017,
-    "latitude": 1.3301,
-    "longitude": 103.6396
+    "Latitude": 1.3301,
+    "Longitude": 103.6396,
+    "Opening Year": 2017,
+    "Passenger Volume": 197033
   },
   {
     "name": "Tuas Link",
-    "year": 2017,
-    "latitude": 1.3403,
-    "longitude": 103.6368
+    "Latitude": 1.3403,
+    "Longitude": 103.6368,
+    "Opening Year": 2017,
+    "Passenger Volume": 138526
   },
   {
     "name": "Bedok",
-    "year": 1989,
-    "latitude": 1.324,
-    "longitude": 103.93
+    "Latitude": 1.324,
+    "Longitude": 103.93,
+    "Opening Year": 1989,
+    "Passenger Volume": 2020773
   },
   {
     "name": "Kembangan",
-    "year": 1989,
-    "latitude": 1.321,
-    "longitude": 103.9128
+    "Latitude": 1.321,
+    "Longitude": 103.9128,
+    "Opening Year": 1989,
+    "Passenger Volume": 666987
   },
   {
     "name": "Eunos",
-    "year": 1989,
-    "latitude": 1.3197,
-    "longitude": 103.9031
+    "Latitude": 1.3197,
+    "Longitude": 103.9031,
+    "Opening Year": 1989,
+    "Passenger Volume": 903726
   },
   {
     "name": "Aljunied",
-    "year": 1989,
-    "latitude": 1.3164,
-    "longitude": 103.883
-  },
-  {
-    "name": "Tengah Plantation",
-    "year": 2028,
-    "latitude": 1.3572,
-    "longitude": 103.7333
-  },
-  {
-    "name": "Tengah Park",
-    "year": 2028,
-    "latitude": 1.3522,
-    "longitude": 103.7367
-  },
-  {
-    "name": "Bukit Batok West",
-    "year": 2028,
-    "latitude": 1.3456,
-    "longitude": 103.7397
-  },
-  {
-    "name": "Toh Guan",
-    "year": 2028,
-    "latitude": 1.3397,
-    "longitude": 103.7425
-  },
-  {
-    "name": "Jurong Town Hall",
-    "year": 2028,
-    "latitude": 1.3261,
-    "longitude": 103.7461
-  },
-  {
-    "name": "Pandan Reservoir",
-    "year": 2028,
-    "latitude": 1.32,
-    "longitude": 103.745
-  },
-  {
-    "name": "Tukang",
-    "year": 2029,
-    "latitude": 1.3253,
-    "longitude": 103.7092
-  },
-  {
-    "name": "Jurong Hill",
-    "year": 2029,
-    "latitude": 1.3186,
-    "longitude": 103.7103
-  },
-  {
-    "name": "Jurong Pier",
-    "year": 2029,
-    "latitude": 1.3131,
-    "longitude": 103.7103
-  },
-  {
-    "name": "Choa Chu Kang West",
-    "year": 2027,
-    "latitude": 1.3792,
-    "longitude": 103.74
-  },
-  {
-    "name": "Tengah",
-    "year": 2027,
-    "latitude": 1.3664,
-    "longitude": 103.73
-  },
-  {
-    "name": "Hong Kah",
-    "year": 2027,
-    "latitude": 1.3581,
-    "longitude": 103.7258
-  },
-  {
-    "name": "Corporation",
-    "year": 2027,
-    "latitude": 1.3531,
-    "longitude": 103.7139
-  },
-  {
-    "name": "Jurong West",
-    "year": 2027,
-    "latitude": 1.3492,
-    "longitude": 103.7083
-  },
-  {
-    "name": "Bahar Junction",
-    "year": 2027,
-    "latitude": 1.3454,
-    "longitude": 103.7025
-  },
-  {
-    "name": "Enterprise",
-    "year": 2029,
-    "latitude": 1.3328,
-    "longitude": 103.7086
-  },
-  {
-    "name": "Gek Poh",
-    "year": 2027,
-    "latitude": 1.3483,
-    "longitude": 103.6981
-  },
-  {
-    "name": "Tawas",
-    "year": 2027,
-    "latitude": 1.3506,
-    "longitude": 103.6919
-  },
-  {
-    "name": "Nanyang Gateway",
-    "year": 2029,
-    "latitude": 1.3536,
-    "longitude": 103.6867
-  },
-  {
-    "name": "Nanyang Crescent",
-    "year": 2029,
-    "latitude": 1.3483,
-    "longitude": 103.6808
-  },
-  {
-    "name": "Peng Kang Hill",
-    "year": 2029,
-    "latitude": 1.3433,
-    "longitude": 103.6786
+    "Latitude": 1.3164,
+    "Longitude": 103.883,
+    "Opening Year": 1989,
+    "Passenger Volume": 1201050
   },
   {
     "name": "Potong Pasir",
-    "year": 2003,
-    "latitude": 1.3311,
-    "longitude": 103.8692
+    "Latitude": 1.3311,
+    "Longitude": 103.8692,
+    "Opening Year": 2003,
+    "Passenger Volume": 918439
   },
   {
     "name": "Woodleigh",
-    "year": 2011,
-    "latitude": 1.3392,
-    "longitude": 103.8708
+    "Latitude": 1.3392,
+    "Longitude": 103.8708,
+    "Opening Year": 2011,
+    "Passenger Volume": 377784
   },
   {
     "name": "Kovan",
-    "year": 2003,
-    "latitude": 1.3603,
-    "longitude": 103.885
+    "Latitude": 1.3603,
+    "Longitude": 103.885,
+    "Opening Year": 2003,
+    "Passenger Volume": 1399459
   },
   {
     "name": "Buangkok",
-    "year": 2006,
-    "latitude": 1.3828,
-    "longitude": 103.8928
+    "Latitude": 1.3828,
+    "Longitude": 103.8928,
+    "Opening Year": 2006,
+    "Passenger Volume": 1127532
   },
   {
     "name": "Sengkang",
-    "year": 2003,
-    "latitude": 1.3917,
-    "longitude": 103.8955
-  },
-  {
-    "name": "Punggol Coast",
-    "year": 2024,
-    "latitude": 1.4145,
-    "longitude": 103.9104
+    "Latitude": 1.3917,
+    "Longitude": 103.8955,
+    "Opening Year": 2003,
+    "Passenger Volume": 2610975
   },
   {
     "name": "Clarke Quay",
-    "year": 2003,
-    "latitude": 1.2886,
-    "longitude": 103.8467
+    "Latitude": 1.2886,
+    "Longitude": 103.8467,
+    "Opening Year": 2003,
+    "Passenger Volume": 655216
   },
   {
     "name": "Farrer Park",
-    "year": 2003,
-    "latitude": 1.3122,
-    "longitude": 103.8542
+    "Latitude": 1.3122,
+    "Longitude": 103.8542,
+    "Opening Year": 2003,
+    "Passenger Volume": 1489458
   },
   {
     "name": "Boon Keng",
-    "year": 2003,
-    "latitude": 1.3194,
-    "longitude": 103.8617
+    "Latitude": 1.3194,
+    "Longitude": 103.8617,
+    "Opening Year": 2003,
+    "Passenger Volume": 1389677
   },
   {
     "name": "Admiralty",
-    "year": 1996,
-    "latitude": 1.4407,
-    "longitude": 103.8009
+    "Latitude": 1.4407,
+    "Longitude": 103.8009,
+    "Opening Year": 1996,
+    "Passenger Volume": 2801106
   },
   {
     "name": "Sembawang",
-    "year": 1996,
-    "latitude": 1.449,
-    "longitude": 103.8202
+    "Latitude": 1.449,
+    "Longitude": 103.8202,
+    "Opening Year": 1996,
+    "Passenger Volume": 2446638
   },
   {
     "name": "Canberra",
-    "year": 2019,
-    "latitude": 1.4431,
-    "longitude": 103.8297
+    "Latitude": 1.4431,
+    "Longitude": 103.8297,
+    "Opening Year": 2019,
+    "Passenger Volume": 804308
   },
   {
     "name": "Yishun",
-    "year": 1988,
-    "latitude": 1.4295,
-    "longitude": 103.8352
+    "Latitude": 1.4295,
+    "Longitude": 103.8352,
+    "Opening Year": 1988,
+    "Passenger Volume": 3221896
   },
   {
     "name": "Khatib",
-    "year": 1988,
-    "latitude": 1.4172,
-    "longitude": 103.8329
+    "Latitude": 1.4172,
+    "Longitude": 103.8329,
+    "Opening Year": 1988,
+    "Passenger Volume": 1868220
   },
   {
     "name": "Yio Chu Kang",
-    "year": 1987,
-    "latitude": 1.3819,
-    "longitude": 103.8448
+    "Latitude": 1.3819,
+    "Longitude": 103.8448,
+    "Opening Year": 1987,
+    "Passenger Volume": 1205368
   },
   {
     "name": "Braddell",
-    "year": 1987,
-    "latitude": 1.3403,
-    "longitude": 103.8467
+    "Latitude": 1.3403,
+    "Longitude": 103.8467,
+    "Opening Year": 1987,
+    "Passenger Volume": 813213
   },
   {
     "name": "Toa Payoh",
-    "year": 1987,
-    "latitude": 1.3328,
-    "longitude": 103.8475
+    "Latitude": 1.3328,
+    "Longitude": 103.8475,
+    "Opening Year": 1987,
+    "Passenger Volume": 2149376
   },
   {
     "name": "Bukit Batok",
-    "year": 1990,
-    "latitude": 1.3492,
-    "longitude": 103.7497
+    "Latitude": 1.3492,
+    "Longitude": 103.7497,
+    "Opening Year": 1990,
+    "Passenger Volume": 1820045
   },
   {
     "name": "Novena",
-    "year": 1987,
-    "latitude": 1.3204,
-    "longitude": 103.8437
+    "Latitude": 1.3204,
+    "Longitude": 103.8437,
+    "Opening Year": 1987,
+    "Passenger Volume": 1879086
   },
   {
     "name": "Orchard",
-    "year": 1987,
-    "latitude": 1.3033,
-    "longitude": 103.8317
+    "Latitude": 1.3033,
+    "Longitude": 103.8317,
+    "Opening Year": 1987,
+    "Passenger Volume": 2831797
   },
   {
     "name": "Somerset",
-    "year": 1987,
-    "latitude": 1.3005,
-    "longitude": 103.839
+    "Latitude": 1.3005,
+    "Longitude": 103.839,
+    "Opening Year": 1987,
+    "Passenger Volume": 1681786
   },
   {
     "name": "Marina South Pier",
-    "year": 2014,
-    "latitude": 1.271,
-    "longitude": 103.8632
+    "Latitude": 1.271,
+    "Longitude": 103.8632,
+    "Opening Year": 2014,
+    "Passenger Volume": 124758
   },
   {
     "name": "Bukit Gombak",
-    "year": 1990,
-    "latitude": 1.3586,
-    "longitude": 103.7517
-  },
-  {
-    "name": "Brickland",
-    "year": 2035,
-    "latitude": 1.3697,
-    "longitude": 103.7478
+    "Latitude": 1.3586,
+    "Longitude": 103.7517,
+    "Opening Year": 1990,
+    "Passenger Volume": 1286457
   },
   {
     "name": "Yew Tee",
-    "year": 1996,
-    "latitude": 1.397,
-    "longitude": 103.7472
+    "Latitude": 1.397,
+    "Longitude": 103.7472,
+    "Opening Year": 1996,
+    "Passenger Volume": 1992054
   },
   {
     "name": "Kranji",
-    "year": 1996,
-    "latitude": 1.425,
-    "longitude": 103.7619
+    "Latitude": 1.425,
+    "Longitude": 103.7619,
+    "Opening Year": 1996,
+    "Passenger Volume": 350292
   },
   {
     "name": "Marsiling",
-    "year": 1996,
-    "latitude": 1.4326,
-    "longitude": 103.7743
+    "Latitude": 1.4326,
+    "Longitude": 103.7743,
+    "Opening Year": 1996,
+    "Passenger Volume": 1298315
   },
   {
     "name": "Woodlands",
-    "year": 1996,
-    "latitude": 1.4371,
-    "longitude": 103.7865
+    "Latitude": 1.4371,
+    "Longitude": 103.7865,
+    "Opening Year": 1996,
+    "Passenger Volume": 2551447
   },
   {
     "name": "Cove",
-    "year": 2005,
-    "latitude": 1.3994,
-    "longitude": 103.9058
+    "Latitude": 1.3994,
+    "Longitude": 103.9058,
+    "Opening Year": 2005,
+    "Passenger Volume": 221695
   },
   {
     "name": "Meridian",
-    "year": 2005,
-    "latitude": 1.397,
-    "longitude": 103.9089
+    "Latitude": 1.397,
+    "Longitude": 103.9089,
+    "Opening Year": 2005,
+    "Passenger Volume": 349482
   },
   {
     "name": "Coral Edge",
-    "year": 2005,
-    "latitude": 1.3938,
-    "longitude": 103.9126
+    "Latitude": 1.3938,
+    "Longitude": 103.9126,
+    "Opening Year": 2005,
+    "Passenger Volume": 364522
   },
   {
     "name": "Kadaloor",
-    "year": 2005,
-    "latitude": 1.3997,
-    "longitude": 103.9164
+    "Latitude": 1.3997,
+    "Longitude": 103.9164,
+    "Opening Year": 2005,
+    "Passenger Volume": 339650
   },
   {
     "name": "Oasis",
-    "year": 2007,
-    "latitude": 1.4024,
-    "longitude": 103.9124
+    "Latitude": 1.4024,
+    "Longitude": 103.9124,
+    "Opening Year": 2007,
+    "Passenger Volume": 408865
   },
   {
     "name": "Damai",
-    "year": 2011,
-    "latitude": 1.4053,
-    "longitude": 103.9086
+    "Latitude": 1.4053,
+    "Longitude": 103.9086,
+    "Opening Year": 2011,
+    "Passenger Volume": 264681
   },
   {
     "name": "Sam Kee",
-    "year": 2016,
-    "latitude": 1.4098,
-    "longitude": 103.9049
+    "Latitude": 1.4098,
+    "Longitude": 103.9049,
+    "Opening Year": 2016,
+    "Passenger Volume": 57922
   },
   {
     "name": "Punggol Point",
-    "year": 2016,
-    "latitude": 1.4169,
-    "longitude": 103.9064
+    "Latitude": 1.4169,
+    "Longitude": 103.9064,
+    "Opening Year": 2016,
+    "Passenger Volume": 27214
   },
   {
     "name": "Samudera",
-    "year": 2017,
-    "latitude": 1.4158,
-    "longitude": 103.9023
+    "Latitude": 1.4158,
+    "Longitude": 103.9023,
+    "Opening Year": 2017,
+    "Passenger Volume": 92231
   },
   {
     "name": "Nibong",
-    "year": 2014,
-    "latitude": 1.4118,
-    "longitude": 103.9004
+    "Latitude": 1.4118,
+    "Longitude": 103.9004,
+    "Opening Year": 2014,
+    "Passenger Volume": 154071
   },
   {
     "name": "Sumang",
-    "year": 2014,
-    "latitude": 1.4084,
-    "longitude": 103.8985
+    "Latitude": 1.4084,
+    "Longitude": 103.8985,
+    "Opening Year": 2014,
+    "Passenger Volume": 80659
   },
   {
     "name": "Soo Teck",
-    "year": 2014,
-    "latitude": 1.4053,
-    "longitude": 103.8973
+    "Latitude": 1.4053,
+    "Longitude": 103.8973,
+    "Opening Year": 2014,
+    "Passenger Volume": 141116
   },
   {
     "name": "Compassvale",
-    "year": 2003,
-    "latitude": 1.3944,
-    "longitude": 103.9003
+    "Latitude": 1.3944,
+    "Longitude": 103.9003,
+    "Opening Year": 2003,
+    "Passenger Volume": 288492
   },
   {
     "name": "Rumbia",
-    "year": 2003,
-    "latitude": 1.3914,
-    "longitude": 103.906
+    "Latitude": 1.3914,
+    "Longitude": 103.906,
+    "Opening Year": 2003,
+    "Passenger Volume": 358739
   },
   {
     "name": "Bakau",
-    "year": 2003,
-    "latitude": 1.3879,
-    "longitude": 103.9053
+    "Latitude": 1.3879,
+    "Longitude": 103.9053,
+    "Opening Year": 2003,
+    "Passenger Volume": 204938
   },
   {
     "name": "Kangkar",
-    "year": 2003,
-    "latitude": 1.3837,
-    "longitude": 103.9022
+    "Latitude": 1.3837,
+    "Longitude": 103.9022,
+    "Opening Year": 2003,
+    "Passenger Volume": 229805
   },
   {
     "name": "Ranggung",
-    "year": 2003,
-    "latitude": 1.384,
-    "longitude": 103.8973
+    "Latitude": 1.384,
+    "Longitude": 103.8973,
+    "Opening Year": 2003,
+    "Passenger Volume": 195883
   },
   {
     "name": "Cheng Lim",
-    "year": 2013,
-    "latitude": 1.3964,
-    "longitude": 103.8936
+    "Latitude": 1.3964,
+    "Longitude": 103.8936,
+    "Opening Year": 2013,
+    "Passenger Volume": 139705
   },
   {
     "name": "Farmway",
-    "year": 2007,
-    "latitude": 1.3972,
-    "longitude": 103.8892
+    "Latitude": 1.3972,
+    "Longitude": 103.8892,
+    "Opening Year": 2007,
+    "Passenger Volume": 230461
   },
   {
     "name": "Kupang",
-    "year": 2015,
-    "latitude": 1.3982,
-    "longitude": 103.8813
+    "Latitude": 1.3982,
+    "Longitude": 103.8813,
+    "Opening Year": 2015,
+    "Passenger Volume": 156765
   },
   {
     "name": "Thanggam",
-    "year": 2005,
-    "latitude": 1.3972,
-    "longitude": 103.8756
+    "Latitude": 1.3972,
+    "Longitude": 103.8756,
+    "Opening Year": 2005,
+    "Passenger Volume": 86536
   },
   {
     "name": "Fernvale",
-    "year": 2005,
-    "latitude": 1.3918,
-    "longitude": 103.8763
+    "Latitude": 1.3918,
+    "Longitude": 103.8763,
+    "Opening Year": 2005,
+    "Passenger Volume": 482321
   },
   {
     "name": "Layar",
-    "year": 2005,
-    "latitude": 1.3921,
-    "longitude": 103.88
+    "Latitude": 1.3921,
+    "Longitude": 103.88,
+    "Opening Year": 2005,
+    "Passenger Volume": 242402
   },
   {
     "name": "Tongkang",
-    "year": 2005,
-    "latitude": 1.3893,
-    "longitude": 103.8859
+    "Latitude": 1.3893,
+    "Longitude": 103.8859,
+    "Opening Year": 2005,
+    "Passenger Volume": 177854
   },
   {
     "name": "Renjong",
-    "year": 2005,
-    "latitude": 1.3866,
-    "longitude": 103.8904
+    "Latitude": 1.3866,
+    "Longitude": 103.8904,
+    "Opening Year": 2005,
+    "Passenger Volume": 139243
   },
   {
     "name": "Woodlands North",
-    "year": 2020,
-    "latitude": 1.4483,
-    "longitude": 103.785
-  },
-  {
-    "name": "Napier",
-    "year": 2022,
-    "latitude": 1.3069,
-    "longitude": 103.8192
-  },
-  {
-    "name": "Orchard Boulevard",
-    "year": 2022,
-    "latitude": 1.3025,
-    "longitude": 103.825
-  },
-  {
-    "name": "Great World",
-    "year": 2022,
-    "latitude": 1.295,
-    "longitude": 103.8336
-  },
-  {
-    "name": "Havelock",
-    "year": 2022,
-    "latitude": 1.2878,
-    "longitude": 103.8336
-  },
-  {
-    "name": "Maxwell",
-    "year": 2022,
-    "latitude": 1.2807,
-    "longitude": 103.8441
-  },
-  {
-    "name": "Shenton Way",
-    "year": 2022,
-    "latitude": 1.2775,
-    "longitude": 103.8508
-  },
-  {
-    "name": "Gardens by the Bay",
-    "year": 2022,
-    "latitude": 1.2783,
-    "longitude": 103.8681
-  },
-  {
-    "name": "Founders' Memorial",
-    "year": 2027,
-    "latitude": 1.2911,
-    "longitude": 103.8686
-  },
-  {
-    "name": "Tanjong Rhu",
-    "year": 2024,
-    "latitude": 1.2972,
-    "longitude": 103.8733
-  },
-  {
-    "name": "Katong Park",
-    "year": 2024,
-    "latitude": 1.2978,
-    "longitude": 103.8853
-  },
-  {
-    "name": "Tanjong Katong",
-    "year": 2024,
-    "latitude": 1.2992,
-    "longitude": 103.8978
-  },
-  {
-    "name": "Marine Parade",
-    "year": 2024,
-    "latitude": 1.3025,
-    "longitude": 103.905
-  },
-  {
-    "name": "Marine Terrace",
-    "year": 2024,
-    "latitude": 1.3061,
-    "longitude": 103.9133
-  },
-  {
-    "name": "Siglap",
-    "year": 2024,
-    "latitude": 1.3097,
-    "longitude": 103.9289
-  },
-  {
-    "name": "Bayshore",
-    "year": 2024,
-    "latitude": 1.3147,
-    "longitude": 103.9436
+    "Latitude": 1.4483,
+    "Longitude": 103.785,
+    "Opening Year": 2020,
+    "Passenger Volume": 80283
   },
   {
     "name": "Woodlands South",
-    "year": 2020,
-    "latitude": 1.4272,
-    "longitude": 103.7939
-  },
-  {
-    "name": "Bedok South",
-    "year": 2025,
-    "latitude": 1.3167,
-    "longitude": 103.9483
-  },
-  {
-    "name": "Springleaf",
-    "year": 2021,
-    "latitude": 1.3978,
-    "longitude": 103.8183
-  },
-  {
-    "name": "Lentor",
-    "year": 2021,
-    "latitude": 1.3847,
-    "longitude": 103.8367
-  },
-  {
-    "name": "Mayflower",
-    "year": 2021,
-    "latitude": 1.3725,
-    "longitude": 103.8372
-  },
-  {
-    "name": "Upper Thomson",
-    "year": 2021,
-    "latitude": 1.3542,
-    "longitude": 103.8333
-  },
-  {
-    "name": "Turf City",
-    "year": 2032,
-    "latitude": 1.3406,
-    "longitude": 103.7935
-  },
-  {
-    "name": "Maju",
-    "year": 2032,
-    "latitude": 1.3273,
-    "longitude": 103.7761
-  },
-  {
-    "name": "West Coast",
-    "year": 2032,
-    "latitude": 1.3104,
-    "longitude": 103.7577
-  },
-  {
-    "name": "Jurong Lake District",
-    "year": 2032,
-    "latitude": 1.3273,
-    "longitude": 103.7392
+    "Latitude": 1.4272,
+    "Longitude": 103.7939,
+    "Opening Year": 2020,
+    "Passenger Volume": 205683
   }
 ]

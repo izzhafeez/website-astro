@@ -1,842 +1,842 @@
 [
   {
     "name": "Harvard University",
-    "overall rank": 1,
-    "quality of faculty (rank)": 1,
-    "alumni employment (rank)": 9,
-    "quality of education (rank)": 7
+    "Overall Rank": 1,
+    "Quality of Faculty (Rank)": 1,
+    "Alumni Employment (Rank)": 9,
+    "Quality of Education (Rank)": 7
   },
   {
     "name": "Massachusetts Institute of Technology",
-    "overall rank": 2,
-    "quality of faculty (rank)": 3,
-    "alumni employment (rank)": 17,
-    "quality of education (rank)": 9
+    "Overall Rank": 2,
+    "Quality of Faculty (Rank)": 3,
+    "Alumni Employment (Rank)": 17,
+    "Quality of Education (Rank)": 9
   },
   {
     "name": "Stanford University",
-    "overall rank": 3,
-    "quality of faculty (rank)": 5,
-    "alumni employment (rank)": 11,
-    "quality of education (rank)": 17
+    "Overall Rank": 3,
+    "Quality of Faculty (Rank)": 5,
+    "Alumni Employment (Rank)": 11,
+    "Quality of Education (Rank)": 17
   },
   {
     "name": "University of Cambridge",
-    "overall rank": 4,
-    "quality of faculty (rank)": 4,
-    "alumni employment (rank)": 24,
-    "quality of education (rank)": 10
+    "Overall Rank": 4,
+    "Quality of Faculty (Rank)": 4,
+    "Alumni Employment (Rank)": 24,
+    "Quality of Education (Rank)": 10
   },
   {
     "name": "California Institute of Technology",
-    "overall rank": 5,
-    "quality of faculty (rank)": 7,
-    "alumni employment (rank)": 29,
-    "quality of education (rank)": 2
+    "Overall Rank": 5,
+    "Quality of Faculty (Rank)": 7,
+    "Alumni Employment (Rank)": 29,
+    "Quality of Education (Rank)": 2
   },
   {
     "name": "Princeton University",
-    "overall rank": 6,
-    "quality of faculty (rank)": 2,
-    "alumni employment (rank)": 14,
-    "quality of education (rank)": 8
+    "Overall Rank": 6,
+    "Quality of Faculty (Rank)": 2,
+    "Alumni Employment (Rank)": 14,
+    "Quality of Education (Rank)": 8
   },
   {
     "name": "University of Oxford",
-    "overall rank": 7,
-    "quality of faculty (rank)": 9,
-    "alumni employment (rank)": 28,
-    "quality of education (rank)": 13
+    "Overall Rank": 7,
+    "Quality of Faculty (Rank)": 9,
+    "Alumni Employment (Rank)": 28,
+    "Quality of Education (Rank)": 13
   },
   {
     "name": "Yale University",
-    "overall rank": 8,
-    "quality of faculty (rank)": 12,
-    "alumni employment (rank)": 31,
-    "quality of education (rank)": 14
+    "Overall Rank": 8,
+    "Quality of Faculty (Rank)": 12,
+    "Alumni Employment (Rank)": 31,
+    "Quality of Education (Rank)": 14
   },
   {
     "name": "Columbia University",
-    "overall rank": 9,
-    "quality of faculty (rank)": 10,
-    "alumni employment (rank)": 21,
-    "quality of education (rank)": 23
+    "Overall Rank": 9,
+    "Quality of Faculty (Rank)": 10,
+    "Alumni Employment (Rank)": 21,
+    "Quality of Education (Rank)": 23
   },
   {
     "name": "University of California, Berkeley",
-    "overall rank": 10,
-    "quality of faculty (rank)": 6,
-    "alumni employment (rank)": 52,
-    "quality of education (rank)": 16
+    "Overall Rank": 10,
+    "Quality of Faculty (Rank)": 6,
+    "Alumni Employment (Rank)": 52,
+    "Quality of Education (Rank)": 16
   },
   {
     "name": "University of Chicago",
-    "overall rank": 11,
-    "quality of faculty (rank)": 8,
-    "alumni employment (rank)": 26,
-    "quality of education (rank)": 15
+    "Overall Rank": 11,
+    "Quality of Faculty (Rank)": 8,
+    "Alumni Employment (Rank)": 26,
+    "Quality of Education (Rank)": 15
   },
   {
     "name": "Cornell University",
-    "overall rank": 12,
-    "quality of faculty (rank)": 14,
-    "alumni employment (rank)": 42,
-    "quality of education (rank)": 21
+    "Overall Rank": 12,
+    "Quality of Faculty (Rank)": 14,
+    "Alumni Employment (Rank)": 42,
+    "Quality of Education (Rank)": 21
   },
   {
     "name": "University of Pennsylvania",
-    "overall rank": 13,
-    "quality of faculty (rank)": 24,
-    "alumni employment (rank)": 16,
-    "quality of education (rank)": 31
+    "Overall Rank": 13,
+    "Quality of Faculty (Rank)": 24,
+    "Alumni Employment (Rank)": 16,
+    "Quality of Education (Rank)": 31
   },
   {
     "name": "University of Tokyo",
-    "overall rank": 14,
-    "quality of faculty (rank)": 31,
-    "alumni employment (rank)": 19,
-    "quality of education (rank)": 32
+    "Overall Rank": 14,
+    "Quality of Faculty (Rank)": 31,
+    "Alumni Employment (Rank)": 19,
+    "Quality of Education (Rank)": 32
   },
   {
     "name": "Johns Hopkins University",
-    "overall rank": 15,
-    "quality of faculty (rank)": 20,
-    "alumni employment (rank)": 77,
-    "quality of education (rank)": 34
+    "Overall Rank": 15,
+    "Quality of Faculty (Rank)": 20,
+    "Alumni Employment (Rank)": 77,
+    "Quality of Education (Rank)": 34
   },
   {
     "name": "Swiss Federal Institute of Technology in Zurich",
-    "overall rank": 16,
-    "quality of faculty (rank)": 11,
-    "alumni employment (rank)": 66,
-    "quality of education (rank)": 26
+    "Overall Rank": 16,
+    "Quality of Faculty (Rank)": 11,
+    "Alumni Employment (Rank)": 66,
+    "Quality of Education (Rank)": 26
   },
   {
     "name": "Kyoto University",
-    "overall rank": 17,
-    "quality of faculty (rank)": 19,
-    "alumni employment (rank)": 38,
-    "quality of education (rank)": 42
+    "Overall Rank": 17,
+    "Quality of Faculty (Rank)": 19,
+    "Alumni Employment (Rank)": 38,
+    "Quality of Education (Rank)": 42
   },
   {
     "name": "Weizmann Institute of Science",
-    "overall rank": 18,
-    "quality of faculty (rank)": 22,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 4
+    "Overall Rank": 18,
+    "Quality of Faculty (Rank)": 22,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 4
   },
   {
     "name": "University of California, Los Angeles",
-    "overall rank": 19,
-    "quality of faculty (rank)": 23,
-    "alumni employment (rank)": 59,
-    "quality of education (rank)": 62
+    "Overall Rank": 19,
+    "Quality of Faculty (Rank)": 23,
+    "Alumni Employment (Rank)": 59,
+    "Quality of Education (Rank)": 62
   },
   {
     "name": "University of California, San Diego",
-    "overall rank": 20,
-    "quality of faculty (rank)": 15,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 61
+    "Overall Rank": 20,
+    "Quality of Faculty (Rank)": 15,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 61
   },
   {
     "name": "Rockefeller University",
-    "overall rank": 21,
-    "quality of faculty (rank)": 16,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 1
+    "Overall Rank": 21,
+    "Quality of Faculty (Rank)": 16,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 1
   },
   {
     "name": "Hebrew University of Jerusalem",
-    "overall rank": 22,
-    "quality of faculty (rank)": 13,
-    "alumni employment (rank)": 93,
-    "quality of education (rank)": 24
+    "Overall Rank": 22,
+    "Quality of Faculty (Rank)": 13,
+    "Alumni Employment (Rank)": 93,
+    "Quality of Education (Rank)": 24
   },
   {
     "name": "New York University",
-    "overall rank": 23,
-    "quality of faculty (rank)": 17,
-    "alumni employment (rank)": 75,
-    "quality of education (rank)": 89
+    "Overall Rank": 23,
+    "Quality of Faculty (Rank)": 17,
+    "Alumni Employment (Rank)": 75,
+    "Quality of Education (Rank)": 89
   },
   {
     "name": "University of California, San Francisco",
-    "overall rank": 24,
-    "quality of faculty (rank)": 21,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 24,
+    "Quality of Faculty (Rank)": 21,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Wisconsin\u2013Madison",
-    "overall rank": 25,
-    "quality of faculty (rank)": 33,
-    "alumni employment (rank)": 63,
-    "quality of education (rank)": 64
+    "Overall Rank": 25,
+    "Quality of Faculty (Rank)": 33,
+    "Alumni Employment (Rank)": 63,
+    "Quality of Education (Rank)": 64
   },
   {
     "name": "University of Illinois at Urbana\u2013Champaign",
-    "overall rank": 26,
-    "quality of faculty (rank)": 18,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 82
+    "Overall Rank": 26,
+    "Quality of Faculty (Rank)": 18,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 82
   },
   {
     "name": "Duke University",
-    "overall rank": 27,
-    "quality of faculty (rank)": 55,
-    "alumni employment (rank)": 43,
-    "quality of education (rank)": 65
+    "Overall Rank": 27,
+    "Quality of Faculty (Rank)": 55,
+    "Alumni Employment (Rank)": 43,
+    "Quality of Education (Rank)": 65
   },
   {
     "name": "Imperial College London",
-    "overall rank": 28,
-    "quality of faculty (rank)": 35,
-    "alumni employment (rank)": 73,
-    "quality of education (rank)": 84
+    "Overall Rank": 28,
+    "Quality of Faculty (Rank)": 35,
+    "Alumni Employment (Rank)": 73,
+    "Quality of Education (Rank)": 84
   },
   {
     "name": "University of Texas Southwestern Medical Center",
-    "overall rank": 29,
-    "quality of faculty (rank)": 32,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 19
+    "Overall Rank": 29,
+    "Quality of Faculty (Rank)": 32,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 19
   },
   {
     "name": "University of Texas at Austin",
-    "overall rank": 30,
-    "quality of faculty (rank)": 27,
-    "alumni employment (rank)": 78,
-    "quality of education (rank)": 101
+    "Overall Rank": 30,
+    "Quality of Faculty (Rank)": 27,
+    "Alumni Employment (Rank)": 78,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University College London",
-    "overall rank": 31,
-    "quality of faculty (rank)": 45,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 35
+    "Overall Rank": 31,
+    "Quality of Faculty (Rank)": 45,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 35
   },
   {
     "name": "Osaka University",
-    "overall rank": 32,
-    "quality of faculty (rank)": 44,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 77
+    "Overall Rank": 32,
+    "Quality of Faculty (Rank)": 44,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 77
   },
   {
     "name": "Northwestern University",
-    "overall rank": 33,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 32,
-    "quality of education (rank)": 101
+    "Overall Rank": 33,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 32,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Michigan, Ann Arbor",
-    "overall rank": 34,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 60,
-    "quality of education (rank)": 68
+    "Overall Rank": 34,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 60,
+    "Quality of Education (Rank)": 68
   },
   {
     "name": "University of Toronto",
-    "overall rank": 35,
-    "quality of faculty (rank)": 34,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 35,
+    "Quality of Faculty (Rank)": 34,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of North Carolina at Chapel Hill",
-    "overall rank": 36,
-    "quality of faculty (rank)": 56,
-    "alumni employment (rank)": 86,
-    "quality of education (rank)": 101
+    "Overall Rank": 36,
+    "Quality of Faculty (Rank)": 56,
+    "Alumni Employment (Rank)": 86,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Washington University in St. Louis",
-    "overall rank": 37,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 62,
-    "quality of education (rank)": 74
+    "Overall Rank": 37,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 62,
+    "Quality of Education (Rank)": 74
   },
   {
     "name": "University of Utah",
-    "overall rank": 38,
-    "quality of faculty (rank)": 41,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 92
+    "Overall Rank": 38,
+    "Quality of Faculty (Rank)": 41,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 92
   },
   {
     "name": "University of Washington - Seattle",
-    "overall rank": 39,
-    "quality of faculty (rank)": 40,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 39,
+    "Quality of Faculty (Rank)": 40,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of California, Santa Barbara",
-    "overall rank": 40,
-    "quality of faculty (rank)": 28,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 40,
+    "Quality of Faculty (Rank)": 28,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "McGill University",
-    "overall rank": 41,
-    "quality of faculty (rank)": 54,
-    "alumni employment (rank)": 91,
-    "quality of education (rank)": 70
+    "Overall Rank": 41,
+    "Quality of Faculty (Rank)": 54,
+    "Alumni Employment (Rank)": 91,
+    "Quality of Education (Rank)": 70
   },
   {
     "name": "Purdue University, West Lafayette",
-    "overall rank": 42,
-    "quality of faculty (rank)": 49,
-    "alumni employment (rank)": 70,
-    "quality of education (rank)": 95
+    "Overall Rank": 42,
+    "Quality of Faculty (Rank)": 49,
+    "Alumni Employment (Rank)": 70,
+    "Quality of Education (Rank)": 95
   },
   {
     "name": "Carnegie Mellon University",
-    "overall rank": 43,
-    "quality of faculty (rank)": 26,
-    "alumni employment (rank)": 81,
-    "quality of education (rank)": 30
+    "Overall Rank": 43,
+    "Quality of Faculty (Rank)": 26,
+    "Alumni Employment (Rank)": 81,
+    "Quality of Education (Rank)": 30
   },
   {
     "name": "University of Southern California",
-    "overall rank": 44,
-    "quality of faculty (rank)": 63,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 44,
+    "Quality of Faculty (Rank)": 63,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of California, Davis",
-    "overall rank": 45,
-    "quality of faculty (rank)": 92,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 79
+    "Overall Rank": 45,
+    "Quality of Faculty (Rank)": 92,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 79
   },
   {
     "name": "University of Colorado Boulder",
-    "overall rank": 46,
-    "quality of faculty (rank)": 48,
-    "alumni employment (rank)": 88,
-    "quality of education (rank)": 83
+    "Overall Rank": 46,
+    "Quality of Faculty (Rank)": 48,
+    "Alumni Employment (Rank)": 88,
+    "Quality of Education (Rank)": 83
   },
   {
     "name": "University of California, Irvine",
-    "overall rank": 47,
-    "quality of faculty (rank)": 38,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 47,
+    "Quality of Faculty (Rank)": 38,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Paris-Sud",
-    "overall rank": 48,
-    "quality of faculty (rank)": 25,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 48
+    "Overall Rank": 48,
+    "Quality of Faculty (Rank)": 25,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 48
   },
   {
     "name": "University of Minnesota, Twin Cities",
-    "overall rank": 49,
-    "quality of faculty (rank)": 85,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 49,
+    "Quality of Faculty (Rank)": 85,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Arizona",
-    "overall rank": 50,
-    "quality of faculty (rank)": 88,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 50,
+    "Quality of Faculty (Rank)": 88,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Technion \u2013 Israel Institute of Technology",
-    "overall rank": 51,
-    "quality of faculty (rank)": 36,
-    "alumni employment (rank)": 89,
-    "quality of education (rank)": 45
+    "Overall Rank": 51,
+    "Quality of Faculty (Rank)": 36,
+    "Alumni Employment (Rank)": 89,
+    "Quality of Education (Rank)": 45
   },
   {
     "name": "Ohio State University, Columbus",
-    "overall rank": 52,
-    "quality of faculty (rank)": 83,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 52,
+    "Quality of Faculty (Rank)": 83,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Rochester",
-    "overall rank": 53,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 54,
-    "quality of education (rank)": 41
+    "Overall Rank": 53,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 54,
+    "Quality of Education (Rank)": 41
   },
   {
     "name": "\u00c9cole normale sup\u00e9rieure - Paris",
-    "overall rank": 54,
-    "quality of faculty (rank)": 77,
-    "alumni employment (rank)": 61,
-    "quality of education (rank)": 3
+    "Overall Rank": 54,
+    "Quality of Faculty (Rank)": 77,
+    "Alumni Employment (Rank)": 61,
+    "Quality of Education (Rank)": 3
   },
   {
     "name": "University of Florida",
-    "overall rank": 55,
-    "quality of faculty (rank)": 96,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 55,
+    "Quality of Faculty (Rank)": 96,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Tel Aviv University",
-    "overall rank": 56,
-    "quality of faculty (rank)": 51,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 97
+    "Overall Rank": 56,
+    "Quality of Faculty (Rank)": 51,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 97
   },
   {
     "name": "Rice University",
-    "overall rank": 57,
-    "quality of faculty (rank)": 94,
-    "alumni employment (rank)": 53,
-    "quality of education (rank)": 28
+    "Overall Rank": 57,
+    "Quality of Faculty (Rank)": 94,
+    "Alumni Employment (Rank)": 53,
+    "Quality of Education (Rank)": 28
   },
   {
     "name": "Dartmouth College",
-    "overall rank": 58,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 13,
-    "quality of education (rank)": 27
+    "Overall Rank": 58,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 13,
+    "Quality of Education (Rank)": 27
   },
   {
     "name": "Vanderbilt University",
-    "overall rank": 59,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 72,
-    "quality of education (rank)": 80
+    "Overall Rank": 59,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 72,
+    "Quality of Education (Rank)": 80
   },
   {
     "name": "University of Edinburgh",
-    "overall rank": 60,
-    "quality of faculty (rank)": 43,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 71
+    "Overall Rank": 60,
+    "Quality of Faculty (Rank)": 43,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 71
   },
   {
     "name": "\u00c9cole Polytechnique",
-    "overall rank": 61,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 3,
-    "quality of education (rank)": 47
+    "Overall Rank": 61,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 3,
+    "Quality of Education (Rank)": 47
   },
   {
     "name": "Boston University",
-    "overall rank": 62,
-    "quality of faculty (rank)": 86,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 62,
+    "Quality of Faculty (Rank)": 86,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Pierre-and-Marie-Curie University",
-    "overall rank": 63,
-    "quality of faculty (rank)": 84,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 54
+    "Overall Rank": 63,
+    "Quality of Faculty (Rank)": 84,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 54
   },
   {
     "name": "Pennsylvania State University, University Park",
-    "overall rank": 64,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 94,
-    "quality of education (rank)": 101
+    "Overall Rank": 64,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 94,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Geneva",
-    "overall rank": 65,
-    "quality of faculty (rank)": 29,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 46
+    "Overall Rank": 65,
+    "Quality of Faculty (Rank)": 29,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 46
   },
   {
     "name": "Brown University",
-    "overall rank": 66,
-    "quality of faculty (rank)": 65,
-    "alumni employment (rank)": 37,
-    "quality of education (rank)": 49
+    "Overall Rank": 66,
+    "Quality of Faculty (Rank)": 65,
+    "Alumni Employment (Rank)": 37,
+    "Quality of Education (Rank)": 49
   },
   {
     "name": "University of British Columbia",
-    "overall rank": 67,
-    "quality of faculty (rank)": 93,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 67,
+    "Quality of Faculty (Rank)": 93,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Maryland, College Park",
-    "overall rank": 68,
-    "quality of faculty (rank)": 50,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 85
+    "Overall Rank": 68,
+    "Quality of Faculty (Rank)": 50,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 85
   },
   {
     "name": "Swiss Federal Institute of Technology in Lausanne",
-    "overall rank": 69,
-    "quality of faculty (rank)": 82,
-    "alumni employment (rank)": 30,
-    "quality of education (rank)": 101
+    "Overall Rank": 69,
+    "Quality of Faculty (Rank)": 82,
+    "Alumni Employment (Rank)": 30,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Karolinska Institute",
-    "overall rank": 70,
-    "quality of faculty (rank)": 42,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 51
+    "Overall Rank": 70,
+    "Quality of Faculty (Rank)": 42,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 51
   },
   {
     "name": "University of Pittsburgh - Pittsburgh Campus",
-    "overall rank": 71,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 81
+    "Overall Rank": 71,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 81
   },
   {
     "name": "Rutgers University-New Brunswick",
-    "overall rank": 72,
-    "quality of faculty (rank)": 59,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 72,
+    "Quality of Faculty (Rank)": 59,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Texas A&M University, College Station",
-    "overall rank": 73,
-    "quality of faculty (rank)": 46,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 73,
+    "Quality of Faculty (Rank)": 46,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Nagoya University",
-    "overall rank": 74,
-    "quality of faculty (rank)": 69,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 56
+    "Overall Rank": 74,
+    "Quality of Faculty (Rank)": 69,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 56
   },
   {
     "name": "Seoul National University",
-    "overall rank": 75,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 34,
-    "quality of education (rank)": 101
+    "Overall Rank": 75,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 34,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Manchester",
-    "overall rank": 76,
-    "quality of faculty (rank)": 75,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 76,
+    "Quality of Faculty (Rank)": 75,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Sapienza University of Rome",
-    "overall rank": 77,
-    "quality of faculty (rank)": 30,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 77,
+    "Quality of Faculty (Rank)": 30,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Case Western Reserve University",
-    "overall rank": 78,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 33
+    "Overall Rank": 78,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 33
   },
   {
     "name": "Tohoku University",
-    "overall rank": 79,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 53
+    "Overall Rank": 79,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 53
   },
   {
     "name": "Arizona State University",
-    "overall rank": 80,
-    "quality of faculty (rank)": 70,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 80,
+    "Quality of Faculty (Rank)": 70,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Emory University",
-    "overall rank": 81,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 97,
-    "quality of education (rank)": 101
+    "Overall Rank": 81,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 97,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Ruprecht Karl University of Heidelberg",
-    "overall rank": 82,
-    "quality of faculty (rank)": 52,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 87
+    "Overall Rank": 82,
+    "Quality of Faculty (Rank)": 52,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 87
   },
   {
     "name": "Ludwig Maximilian University of Munich",
-    "overall rank": 83,
-    "quality of faculty (rank)": 90,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 90
+    "Overall Rank": 83,
+    "Quality of Faculty (Rank)": 90,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 90
   },
   {
     "name": "University of Virginia",
-    "overall rank": 84,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 50,
-    "quality of education (rank)": 101
+    "Overall Rank": 84,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 50,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Leiden University",
-    "overall rank": 85,
-    "quality of faculty (rank)": 76,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 88
+    "Overall Rank": 85,
+    "Quality of Faculty (Rank)": 76,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 88
   },
   {
     "name": "Tufts University",
-    "overall rank": 86,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 41,
-    "quality of education (rank)": 60
+    "Overall Rank": 86,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 41,
+    "Quality of Education (Rank)": 60
   },
   {
     "name": "Georgia Institute of Technology",
-    "overall rank": 87,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 67,
-    "quality of education (rank)": 101
+    "Overall Rank": 87,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 67,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Zurich",
-    "overall rank": 88,
-    "quality of faculty (rank)": 80,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 88,
+    "Quality of Faculty (Rank)": 80,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Helsinki",
-    "overall rank": 89,
-    "quality of faculty (rank)": 79,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 96
+    "Overall Rank": 89,
+    "Quality of Faculty (Rank)": 79,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 96
   },
   {
     "name": "Technical University of Munich",
-    "overall rank": 90,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 52
+    "Overall Rank": 90,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 52
   },
   {
     "name": "University of Oslo",
-    "overall rank": 91,
-    "quality of faculty (rank)": 39,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 91,
+    "Quality of Faculty (Rank)": 39,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Queensland",
-    "overall rank": 92,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 92,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Copenhagen",
-    "overall rank": 93,
-    "quality of faculty (rank)": 60,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 93,
+    "Quality of Faculty (Rank)": 60,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Sydney",
-    "overall rank": 94,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 94,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Williams College",
-    "overall rank": 95,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 15,
-    "quality of education (rank)": 18
+    "Overall Rank": 95,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 15,
+    "Quality of Education (Rank)": 18
   },
   {
     "name": "University of Texas MD Anderson Cancer Center",
-    "overall rank": 96,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 96,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Nottingham",
-    "overall rank": 97,
-    "quality of faculty (rank)": 87,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 97,
+    "Quality of Faculty (Rank)": 87,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "University of Bristol",
-    "overall rank": 98,
-    "quality of faculty (rank)": 78,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 101
+    "Overall Rank": 98,
+    "Quality of Faculty (Rank)": 78,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 101
   },
   {
     "name": "Utrecht University",
-    "overall rank": 99,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 100
+    "Overall Rank": 99,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 100
   },
   {
     "name": "Mines ParisTech",
-    "overall rank": 100,
-    "quality of faculty (rank)": 101,
-    "alumni employment (rank)": 4,
-    "quality of education (rank)": 44
+    "Overall Rank": 100,
+    "Quality of Faculty (Rank)": 101,
+    "Alumni Employment (Rank)": 4,
+    "Quality of Education (Rank)": 44
   },
   {
     "name": "Harvard University",
-    "overall rank": 1,
-    "quality of faculty (rank)": 1,
-    "alumni employment (rank)": 1,
-    "quality of education (rank)": 1
+    "Overall Rank": 1,
+    "Quality of Faculty (Rank)": 1,
+    "Alumni Employment (Rank)": 1,
+    "Quality of Education (Rank)": 1
   },
   {
     "name": "Stanford University",
-    "overall rank": 2,
-    "quality of faculty (rank)": 4,
-    "alumni employment (rank)": 2,
-    "quality of education (rank)": 11
+    "Overall Rank": 2,
+    "Quality of Faculty (Rank)": 4,
+    "Alumni Employment (Rank)": 2,
+    "Quality of Education (Rank)": 11
   },
   {
     "name": "University of Oxford",
-    "overall rank": 3,
-    "quality of faculty (rank)": 10,
-    "alumni employment (rank)": 12,
-    "quality of education (rank)": 7
+    "Overall Rank": 3,
+    "Quality of Faculty (Rank)": 10,
+    "Alumni Employment (Rank)": 12,
+    "Quality of Education (Rank)": 7
   },
   {
     "name": "Massachusetts Institute of Technology",
-    "overall rank": 4,
-    "quality of faculty (rank)": 2,
-    "alumni employment (rank)": 16,
-    "quality of education (rank)": 2
+    "Overall Rank": 4,
+    "Quality of Faculty (Rank)": 2,
+    "Alumni Employment (Rank)": 16,
+    "Quality of Education (Rank)": 2
   },
   {
     "name": "University of Cambridge",
-    "overall rank": 5,
-    "quality of faculty (rank)": 5,
-    "alumni employment (rank)": 15,
-    "quality of education (rank)": 3
+    "Overall Rank": 5,
+    "Quality of Faculty (Rank)": 5,
+    "Alumni Employment (Rank)": 15,
+    "Quality of Education (Rank)": 3
   },
   {
     "name": "Columbia University",
-    "overall rank": 6,
-    "quality of faculty (rank)": 9,
-    "alumni employment (rank)": 8,
-    "quality of education (rank)": 13
+    "Overall Rank": 6,
+    "Quality of Faculty (Rank)": 9,
+    "Alumni Employment (Rank)": 8,
+    "Quality of Education (Rank)": 13
   },
   {
     "name": "University of California, Berkeley",
-    "overall rank": 7,
-    "quality of faculty (rank)": 6,
-    "alumni employment (rank)": 28,
-    "quality of education (rank)": 6
+    "Overall Rank": 7,
+    "Quality of Faculty (Rank)": 6,
+    "Alumni Employment (Rank)": 28,
+    "Quality of Education (Rank)": 6
   },
   {
     "name": "Princeton University",
-    "overall rank": 8,
-    "quality of faculty (rank)": 3,
-    "alumni employment (rank)": 14,
-    "quality of education (rank)": 4
+    "Overall Rank": 8,
+    "Quality of Faculty (Rank)": 3,
+    "Alumni Employment (Rank)": 14,
+    "Quality of Education (Rank)": 4
   },
   {
     "name": "University of Chicago",
-    "overall rank": 9,
-    "quality of faculty (rank)": 8,
-    "alumni employment (rank)": 19,
-    "quality of education (rank)": 9
+    "Overall Rank": 9,
+    "Quality of Faculty (Rank)": 8,
+    "Alumni Employment (Rank)": 19,
+    "Quality of Education (Rank)": 9
   },
   {
     "name": "Yale University",
-    "overall rank": 10,
-    "quality of faculty (rank)": 13,
-    "alumni employment (rank)": 25,
-    "quality of education (rank)": 10
+    "Overall Rank": 10,
+    "Quality of Faculty (Rank)": 13,
+    "Alumni Employment (Rank)": 25,
+    "Quality of Education (Rank)": 10
   },
   {
     "name": "California Institute of Technology",
-    "overall rank": 11,
-    "quality of faculty (rank)": 7,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 5
+    "Overall Rank": 11,
+    "Quality of Faculty (Rank)": 7,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 5
   },
   {
     "name": "University of Pennsylvania",
-    "overall rank": 12,
-    "quality of faculty (rank)": 25,
-    "alumni employment (rank)": 5,
-    "quality of education (rank)": 22
+    "Overall Rank": 12,
+    "Quality of Faculty (Rank)": 25,
+    "Alumni Employment (Rank)": 5,
+    "Quality of Education (Rank)": 22
   },
   {
     "name": "Cornell University",
-    "overall rank": 13,
-    "quality of faculty (rank)": 18,
-    "alumni employment (rank)": 23,
-    "quality of education (rank)": 12
+    "Overall Rank": 13,
+    "Quality of Faculty (Rank)": 18,
+    "Alumni Employment (Rank)": 23,
+    "Quality of Education (Rank)": 12
   },
   {
     "name": "University of Tokyo",
-    "overall rank": 14,
-    "quality of faculty (rank)": 32,
-    "alumni employment (rank)": 3,
-    "quality of education (rank)": 17
+    "Overall Rank": 14,
+    "Quality of Faculty (Rank)": 32,
+    "Alumni Employment (Rank)": 3,
+    "Quality of Education (Rank)": 17
   },
   {
     "name": "Kyoto University",
-    "overall rank": 15,
-    "quality of faculty (rank)": 14,
-    "alumni employment (rank)": 17,
-    "quality of education (rank)": 32
+    "Overall Rank": 15,
+    "Quality of Faculty (Rank)": 14,
+    "Alumni Employment (Rank)": 17,
+    "Quality of Education (Rank)": 32
   },
   {
     "name": "University of California, Los Angeles",
-    "overall rank": 16,
-    "quality of faculty (rank)": 12,
-    "alumni employment (rank)": 35,
-    "quality of education (rank)": 38
+    "Overall Rank": 16,
+    "Quality of Faculty (Rank)": 12,
+    "Alumni Employment (Rank)": 35,
+    "Quality of Education (Rank)": 38
   },
   {
     "name": "Johns Hopkins University",
-    "overall rank": 17,
-    "quality of faculty (rank)": 21,
-    "alumni employment (rank)": 96,
-    "quality of education (rank)": 23
+    "Overall Rank": 17,
+    "Quality of Faculty (Rank)": 21,
+    "Alumni Employment (Rank)": 96,
+    "Quality of Education (Rank)": 23
   },
   {
     "name": "Swiss Federal Institute of Technology in Zurich",
-    "overall rank": 18,
-    "quality of faculty (rank)": 11,
-    "alumni employment (rank)": 60,
-    "quality of education (rank)": 16
+    "Overall Rank": 18,
+    "Quality of Faculty (Rank)": 11,
+    "Alumni Employment (Rank)": 60,
+    "Quality of Education (Rank)": 16
   },
   {
     "name": "New York University",
-    "overall rank": 19,
-    "quality of faculty (rank)": 16,
-    "alumni employment (rank)": 31,
-    "quality of education (rank)": 37
+    "Overall Rank": 19,
+    "Quality of Faculty (Rank)": 16,
+    "Alumni Employment (Rank)": 31,
+    "Quality of Education (Rank)": 37
   },
   {
     "name": "University of California, San Diego",
-    "overall rank": 20,
-    "quality of faculty (rank)": 19,
-    "alumni employment (rank)": 101,
-    "quality of education (rank)": 33
+    "Overall Rank": 20,
+    "Quality of Faculty (Rank)": 19,
+    "Alumni Employment (Rank)": 101,
+    "Quality of Education (Rank)": 33
   }
 ]
