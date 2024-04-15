@@ -43,5 +43,15 @@
     "title": "Pokémon",
     "instructions": "Fight using the height, weight, HP and Attack!",
     "tags": ["Games", "Pokémon"]
+  },
+  "youtubers": {
+    "title": "YouTubers",
+    "instructions": "Fight using the number of subscribers, average views, average likes, and start year!",
+    "tags": ["Internet", "YouTubers"]
+  },
+  "fast-food": {
+    "title": "Fast Food Nutrition",
+    "instructions": "Fight using the calories, fat, cholesterol and sodium! Exciting!",
+    "tags": ["Food", "Fast Food"]
   }
 }

@@ -11,6 +11,8 @@ import songsData from "../../../../data/games/stat-attack/songs.json";
 import animeData from "../../../../data/games/stat-attack/anime.json";
 import songsYoutubeData from "../../../../data/games/stat-attack/songs-youtube.json";
 import pokemonData from "../../../../data/games/stat-attack/pokemon.json";
+import youtubersData from "../../../../data/games/stat-attack/youtubers.json";
+import fastFoodData from "../../../../data/games/stat-attack/fast-food.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -51,6 +53,14 @@ const deckData = {
   pokemon: {
     title: "Pokémon",
     data: pokemonData
+  },
+  youtubers: {
+    title: "YouTubers",
+    data: youtubersData
+  },
+  fastFood: {
+    title: "Fast Food Nutrition",
+    data: fastFoodData
   }
 }
 
@@ -86,6 +96,12 @@ switch (deckName) {
     break;
   case "pokemon":
     deck = deckData.pokemon;
+    break;
+  case "youtubers":
+    deck = deckData.youtubers;
+    break;
+  case "fast-food":
+    deck = deckData.fastFood;
     break;
   default:
     deck = deckData.malls;
