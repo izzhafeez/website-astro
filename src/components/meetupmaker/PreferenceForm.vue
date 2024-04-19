@@ -1,9 +1,9 @@
 <template>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleSubmitPreferences">
-    <h1 class="mt-12 py-2 text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+    <h1 class="mt-12 py-2 text-6xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
       {{ meetupName }}
     </h1>
-    <h2 class="dark:text-white my-4">
+    <h2 class=" my-4">
       <div class="font-light text-xl text-ew-500 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {
             weekday: 'long',
             year: 'numeric',
@@ -14,7 +14,7 @@
     <div class="grid content-center">
       <label for="name" class="content-center rounded-lg font-light text-xl text-ew-500 dark:text-ew-300">YOUR NAME</label>
       <input v-model="name" type="text"
-        id="name" name="name" class="max-w-sm p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
+        id="name" name="name" class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm p-2 border border-gray-500/50 dark:bg-da-bg rounded-md  focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="my-4"></div>
@@ -24,7 +24,7 @@
         id="startTime"
         onfocus="this.showPicker()" name="startTime"
         v-model="startTime"
-        class="dark:bg-da-bg max-w-sm dark:text-white border-gray-300 w-full rounded-md dark:border-gray-600" required>
+        class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm border-gray-300 w-full rounded-md dark:border-gray-600" required>
     </div>
 
     <!-- selecting start location -->
@@ -33,7 +33,7 @@
       <label for="startLocation" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ startTime }}?</label>
       <div class="h-80 w-full">
         <l-map ref="map" v-model:zoom="zoom"
-          :center="[1.35, 103.85]" @click="handleStartLocation">
+          :center="[1.35, 103.85]" @click="handleStartLocation" class="z-20">
           <l-tile-layer
             url='https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
             layer-type="base"
@@ -54,7 +54,7 @@
         id="endTime"
         onfocus="this.showPicker()" name="endTime"
         v-model="endTime"
-        class="dark:bg-da-bg max-w-sm dark:text-white border-gray-300 w-full rounded-md dark:border-gray-600" required>
+        class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm  border-gray-300 w-full rounded-md dark:border-gray-600" required>
     </div>
 
     <!-- select end location -->
@@ -63,7 +63,7 @@
       <label for="endLocation" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ endTime }}?</label>
       <div class="h-80 w-full">
         <l-map ref="map" v-model:zoom="zoom"
-          :center="[1.35, 103.85]" @click="handleEndLocation">
+          :center="[1.35, 103.85]" @click="handleEndLocation" class="z-20">
           <l-tile-layer
             url='https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
             layer-type="base"
@@ -80,9 +80,9 @@
     <button v-on:click="handleSubmitPreferences" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Submit</button>
   </form>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleGenerateRecommendations">
-    <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">Recommendations</h2>
+    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">Recommendations</h2>
     <label class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">WHICH DO YOU PREFER?</label>
-    <ul class="grid gap-2 dark:text-white">
+    <ul class="grid gap-2 ">
       <li v-for="rec in this.recommendationsData" v-on:click="handleLike(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer">
         <div class="w-20 text-center">
           {{ rec.timing }}
@@ -99,18 +99,18 @@
     <button v-on:click="handleGenerateRecommendations" class="bg-ew-500 hover:opacity-50 text-white py-2 px-4 rounded-lg my-4">Generate Recommendations</button>
   </form>
   <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleConfirm">
-    <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+    <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
       Finalise Meetup
     </h2>
     <div class="flex gap-4 content-center" v-if="passwordHash">
       <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
       <input v-model="password" type="password"
-        id="password" name="password" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
+        id="password" name="password" class="transition duration-500 bg-white dark:bg-gray-700 p-2 border border-gray-500/50 rounded-md  focus:ring-ew-300 focus:ring-2" required>
     </div>
     <div v-if="validPassword">
       <div class="my-4"></div>
       <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHERE WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
-      <ul class="grid gap-2 dark:text-white">
+      <ul class="grid gap-2 ">
         <li v-for="rec in this.recommendationsData" v-on:click="handleChooseFinal(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer" :class="{'bg-ew-500 text-white': timing === rec.timing && location === rec.location}">
           <div class="w-20 text-center">
             {{ rec.timing }}
@@ -118,7 +118,7 @@
           <div>
             {{ rec.location }}
           </div>
-          <div class="ms-auto flex gap-2 dark:text-white content-center">
+          <div class="ms-auto flex gap-2  content-center">
             {{ rec.likes.length }}
             <img src="/src/img/common/heart.svg" class="w-4 dark:invert"/>
           </div>
@@ -126,7 +126,7 @@
       </ul>
       <button v-on:click="handleConfirm" class="w-auto bg-ew-500 hover:opacity-70 px-4 py-2 text-white rounded-lg my-2">Finalise Meetup</button>
     </div>
-    <div v-else class="my-4 dark:text-white">
+    <div v-else class="my-4 ">
       You need to enter the correct password to finalise the meetup.
     </div>
   </form>
@@ -311,12 +311,6 @@ export default {
         rec.likes.push(this.name);
       }
 
-      Swal.fire({
-        title: 'Please wait...',
-        didOpen: () => {
-          Swal.showLoading()
-        }
-      });
       await axios.post(`${import.meta.env.PUBLIC_MM}/api/apps/meetupmaker/like/${this.id}`, {
         name: this.name,
         timing: rec.timing,

@@ -17,7 +17,7 @@
   import Leaderboard from "../Leaderboard.svelte";
 
   onMount(() => {
-    bestStreak = localStorage.getItem(`yes-no-${title}`) || 0;
+    bestStreak = localStorage.getItem(`binary-${title}`) || 0;
   });
 
   async function handleAnswer(guess) {
@@ -35,9 +35,9 @@
       bestStreak = Math.max(streak, bestStreak);
     } else {
       streak = 0;
-      localStorage.setItem(`yes-no-${title}`, bestStreak);
+      localStorage.setItem(`binary-${title}`, bestStreak);
       const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-      axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/yes-no/${key}`, {
+      axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/binary/${key}`, {
         name: truncatedName,
         score: bestStreak
       });
@@ -60,12 +60,12 @@
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <div class="max-w-3xl mx-auto">
-    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
-    <p class="dark:text-white mt-2">{instructions}</p>
-    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
-    <input name="regex" bind:value={name} class='my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
+    <p class=" mt-2">{instructions}</p>
+    <label for="regex" class="">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     <div class="flex py-2 gap-2">
-      <Leaderboard type="yes-no" key={key}/>
+      <Leaderboard type="binary" key={key}/>
       <button
         class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
         on:click={handleStart}
@@ -77,10 +77,10 @@
 </div>
 {:else}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
-  <p class="dark:text-white"><span class="font-bold">Streak</span>: <span class="text-ew-500">{streak}</span></p>
-  <p class="dark:text-white"><span class="font-bold">Best Streak</span>: <span class="text-ew-500">{bestStreak}</span></p>
-  <h2 class="text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-2">{answer.name}</h2>
-  <ul class="dark:text-white">
+  <p class=""><span class="font-bold">Streak</span>: <span class="text-ew-500">{streak}</span></p>
+  <p class=""><span class="font-bold">Best Streak</span>: <span class="text-ew-500">{bestStreak}</span></p>
+  <h2 class="text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-2">{answer.name}</h2>
+  <ul class="">
     {#each fields as field}
       <li><span class="font-bold">{capitalise(field)}</span>: {answer[field]}</li>
     {/each}

@@ -20,7 +20,7 @@
   let streak = 0;
   let prevStreak = 0;
   let isActive = true;
-  let promptColorStyle = "bg-hp-600 text-white";
+  let promptColorStyle = "bg-dt-500 text-white";
   let isMcq = true;
   let isWacky = true;
   let name;
@@ -103,7 +103,7 @@
       options.push(activeAnswerList[(randomId+i) % activeAnswerList.length]);
     }
     options.sort((a,b) => Math.random() - 0.5);
-    promptColorStyle = "bg-hp-600 text-white";
+    promptColorStyle = "bg-dt-500 text-white";
   }
 
   function handleCorrect(e) {
@@ -170,37 +170,37 @@
   {#if toStop}
   <div class="grid gap-2">
     <div class="flex items-center gap-4 h-10">
-      <label for="mcq" class="dark:text-white font-bold">Enable MCQ:</label>
-      <input type="checkbox" name="mcq" bind:checked={isMcq} class="dark:bg-da-glow text-hp-600"/>
+      <label for="mcq" class=" font-bold">Enable MCQ:</label>
+      <input type="checkbox" name="mcq" bind:checked={isMcq} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500"/>
     </div>
     <div class="flex items-center gap-4 h-10">
-      <label for="wacky" class="dark:text-white font-bold">Include prompt in regex:</label>
-      <input type="checkbox" name="wacky" bind:checked={isWacky} class="dark:bg-da-glow text-hp-600" on:change={handleWacky}/>
+      <label for="wacky" class=" font-bold">Include prompt in regex:</label>
+      <input type="checkbox" name="wacky" bind:checked={isWacky} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500" on:change={handleWacky}/>
     </div>
     <div class="flex items-center gap-4 h-10">
-      <label for="regex" class="dark:text-white font-bold">Regex:</label>
-      <input name="regex" on:input={handleRegex} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-da-glow dark:text-white'/>
+      <label for="regex" class=" font-bold">Regex:</label>
+      <input name="regex" on:input={handleRegex} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 transition duration-500 bg-white dark:bg-gray-700 '/>
     </div>
     <div class="flex items-center gap-4 h-10">
-      <label for="regex" class="dark:text-white font-bold">Difficulty:</label>
-      <select name="difficulty" bind:value={difficulty} class="dark:bg-da-glow dark:text-white rounded-md p-1">
+      <label for="regex" class=" font-bold">Difficulty:</label>
+      <select name="difficulty" bind:value={difficulty} class="transition duration-500 bg-white dark:bg-gray-700  rounded-md p-1">
         {#each Object.keys(DIFFICULTY_MAPPING) as diff}
         <option value={diff}>{diff.toUpperCase()}</option>
         {/each}
       </select>
     </div>
     <div class="flex items-center gap-4 h-10">
-      <label for="regex" class="dark:text-white font-bold">Your Name (Optional):</label>
-      <input name="regex" bind:value={name} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+      <label for="regex" class=" font-bold">Your Name (Optional):</label>
+      <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     </div>
   </div>
 
-  <p class='dark:text-white my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
+  <p class=' my-4'>With this regex, you have <span class='text-ew-500 dark:text-ew-300'>{activeAnswerList.length}</span> possible answers{#if activeAnswerList.length < MINIMUM_ACTIVE_LENGTH}&nbsp;(<span class='text-ns-500 dark:text-ns-300'>too few!</span>){:else}, like:{/if}</p>
   <div class='grid flex-wrap gap-2 my-4'>
     {#each activeAnswerList.slice(0, MINIMUM_ACTIVE_LENGTH) as answer}
     <div class='flex gap-2 items-center'>
-      <span class='bg-hp-600 text-white py-1 px-2 rounded-full'>{answer.answer}</span>
-      <span class='dark:text-white'>{answer.prompt}</span>
+      <span class='bg-dt-500 text-white py-1 px-2 rounded-full'>{answer.answer}</span>
+      <span class=''>{answer.prompt}</span>
     </div>
     {/each}
   </div>
@@ -225,12 +225,12 @@
     </div>
     {#if isMcq}
     <div class="">
-      <div class="dark:text-white">Streak: <span id="streakCount" class="text-ew-500 dark:text-ew-300">{streak}</span></div>
+      <div class="">Streak: <span id="streakCount" class="text-ew-500 dark:text-ew-300">{streak}</span></div>
       {#if isActive}
-      <label for="guess" class="dark:text-white">Your Guess:</label>
+      <label for="guess" class="">Your Guess:</label>
       <div class="flex flex-wrap gap-2 mt-2">
         {#each options as option}
-        <button on:click={handleClick} class="bg-hp-600 py-1 px-2 rounded-full text-white hover:bg-hp-500">{option.answer}</button>
+        <button on:click={handleClick} class="bg-dt-500 py-1 px-2 rounded-full text-white hover:bg-hp-500">{option.answer}</button>
         {/each}
       </div>
       {:else}
@@ -240,9 +240,9 @@
     </div>
     {:else}
     <div class="">
-      <div class="dark:text-white">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
-      <label for="guess" class="dark:text-white">Your Guess (hit 'Enter' to submit):</label>
-      <input name="guess" on:keydown={onKeyDown} class='border-[1px] border-gray-500 px-2 py-1 rounded-lg w-full'/>
+      <div class="">Streak: <span class="text-ew-500 dark:text-ew-300">{streak}</span></div>
+      <label for="guess" class="">Your Guess (hit 'Enter' to submit):</label>
+      <input name="guess" on:keydown={onKeyDown} class='transition duration-500 bg-white dark:bg-gray-700 border-[1px] border-gray-500 px-2 py-1 rounded-lg w-full'/>
       {#if !isActive}
       <button on:click={handleGenerate} class="bg-ew-500 py-1 px-4 rounded-full text-white hover:opacity-50 mt-2">Next, or hit 'Enter'</button>
       {/if}

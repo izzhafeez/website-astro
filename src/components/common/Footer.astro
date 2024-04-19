@@ -11,6 +11,8 @@ import vue from '/src/img/portfolio/skills/vue.svg';
 import mongo from '/src/img/portfolio/skills/mongo-db.svg';
 import fastapi from '/src/img/portfolio/skills/fastapi.svg';
 import react from '/src/img/portfolio/skills/react.svg';
+import typescript from '/src/img/portfolio/skills/typescript.svg';
+import go from '/src/img/portfolio/skills/go.svg';
 
 const { site } = Astro.props;
 ---
@@ -26,6 +28,8 @@ const { site } = Astro.props;
     {site === 'quizzes' && <Image src={flask} class="h-8 hover:opacity-50 dark:invert" alt="Flask" width="25" height="25"/>}
     {site === 'apps' && <Image src={fastapi} class="h-8 hover:opacity-50" alt="FastAPI" width="25" height="25"/>}
     {site === 'apps' && <Image src={mongo} class="h-8 hover:opacity-50" alt="MongoDB" width="25" height="25"/>}
+    {site === 'games' && <Image src={go} class="h-8 hover:opacity-50" alt="Go" width="25" height="25"/>}
+    {site === 'games' && <Image src={typescript} class="h-8 hover:opacity-50" alt="TypeScript" width="25" height="25"/>}
     {['quizzes', 'apps', 'games'].includes(site) && <Image src={koyeb} class="h-8 hover:opacity-50 dark:invert" alt="Koyeb" width="25" height="25"/>}
   </div>
 </footer>

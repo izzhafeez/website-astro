@@ -1,19 +1,19 @@
 <template>
 <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleSubmit">
-  <h1 class="my-12 py-2 text-6xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+  <h1 class="my-12 py-2 text-6xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
     {{ meetupName }}
   </h1>
   <div class="flex gap-4 content-center">
     <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
     <input v-model="name" type="text"
-      id="name" name="name" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
+      id="name" name="name" class="p-2 border border-gray-500/50 transition duration-500 bg-white dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div class="my-4"></div>
   <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHAT DATES ARE YOU FREE?</label>
   <ul class="grid gap-2 my-2 rounded-lg">
     <li v-for="date in dates" :key="date">
       <div class="flex">
-        <div class="px-2 py-4 flex content-center justify-between border-[1px] border-ew-500/30 rounded-s-lg dark:text-white w-full">
+        <div class="px-2 py-4 flex content-center justify-between border-[1px] border-ew-500/30 rounded-s-lg  w-full">
           <div class="">{{ new Date(date).toLocaleDateString(undefined, {
             weekday: 'long',
             year: 'numeric',
@@ -36,13 +36,13 @@
   <button v-on:click="handleSubmit" class="w-auto bg-ew-500 hover:opacity-70 px-4 py-2 text-white rounded-lg my-2">Confirm Availability</button>
 </form>
 <form class="max-w-3xl mx-auto p-4 my-4" v-on:submit.prevent="handleConfirm">
-  <h2 class="my-4 text-3xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ew-500 to-ew-300 dark:from-ew-500 dark:to-ew-100 text-transparent bg-clip-text">
+  <h2 class="my-4 text-3xl py-2 font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
     Finalise Date
   </h2>
   <div class="flex gap-4 content-center" v-if="passwordHash">
     <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
     <input v-model="password" type="password"
-      id="password" name="password" class="p-2 border border-gray-500/50 dark:bg-da-bg rounded-md dark:text-white focus:ring-ew-300 focus:ring-2" required>
+      id="password" name="password" class="p-2 border border-gray-500/50 transition duration-500 bg-white dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div v-if="validPassword">
     <div class="my-4"></div>
@@ -50,7 +50,7 @@
     <ul class="grid gap-2 my-2 rounded-lg">
       <li v-for="date in dates" :key="date">
         <div class="flex">
-          <div class="px-2 py-4 flex content-center justify-between border-[1px] border-ew-500/30 rounded-s-lg dark:text-white w-full">
+          <div class="px-2 py-4 flex content-center justify-between border-[1px] border-ew-500/30 rounded-s-lg  w-full">
             <div class="">{{ new Date(date).toLocaleDateString(undefined, {
               weekday: 'long',
               year: 'numeric',
@@ -83,9 +83,9 @@
             </svg>
           </div>
         </div>
-        <div v-if="showParticipants[date]" class="flex gap-2 my-2 h-8 items-center dark:text-white">
+        <div v-if="showParticipants[date]" class="flex gap-2 my-2 h-8 items-center ">
           <span class="font-medium">Who's free:</span>
-          <li v-for="participant in dateParticipants[date]" :key="participant" class="dark:text-white text-sm p-2 bg-dt-500 text-white rounded-lg">
+          <li v-for="participant in dateParticipants[date]" :key="participant" class=" text-sm p-2 bg-dt-500 text-white rounded-lg">
             {{ participant }}
           </li>
         </div>
@@ -93,7 +93,7 @@
     </ul>
     <button v-on:click="handleConfirm" class="w-auto bg-ew-500 hover:opacity-70 px-4 py-2 text-white rounded-lg my-2">Finalise Date</button>
   </div>
-  <div v-else class="my-4 dark:text-white">
+  <div v-else class="my-4 ">
     You need to enter the correct password to finalise the date.
   </div>
 </form>

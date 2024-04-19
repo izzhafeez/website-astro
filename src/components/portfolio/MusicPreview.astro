@@ -5,9 +5,9 @@ import youtube from "/src/img/common/youtube.svg";
 
 const { music, isEager } = Astro.props;
 ---
-<div id={music.key} class="rounded-lg p-4 grid lg:flex gap-4 items-center group hover:neon-ne">
+<div id={music.key} class="reveal rounded-lg p-4 grid lg:flex gap-4 items-center group hover:neon-ne">
   <div>
-    <h2 class="font-medium flex items-center gap-2 dark:text-white group-hover:text-ne-500 dark:group-hover:text-ne-300">{music.title} 
+    <h2 class="font-medium flex items-center gap-2  group-hover:text-ne-500 dark:group-hover:text-ne-300">{music.title} 
       <a href={`/music/${music.title}.pdf`}><Image alt="pdf" width="15" height="15" src={pdf} class="h-4 dark:invert hover:opacity-50" loading={isEager ? 'eager': 'lazy'}/></a> 
       {music.link && <a href={music.link}><Image alt="youtube" height="15" width="15" src={youtube} class="h-4 dark:invert hover:opacity-50" loading={isEager ? 'eager': 'lazy'}/></a>}
     </h2>

@@ -295,19 +295,19 @@ function StatAttack({ id, deck, deckName }) {
   return (
     <div className="p-2 max-w-6xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-      <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
-      <p className="max-w-3xl mb-4 dark:text-white">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
+      <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
+      <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
       </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 dark:to-dt-100 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
-        <p className="max-w-3xl mx-auto mb-4 dark:text-white">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-200 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
+        <p className="max-w-3xl mx-auto mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-200 font-bold">{title}</span></p>
         <input
           name="name"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder='Enter your name...'
-          className="rounded-md me-2"/>
+          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
         <button onClick={joinGame} className="p-2 rounded-md bg-dt-500 dark:bg-dt-200 dark:text-black hover:opacity-80 text-white">Join Game</button>
       </div>}
 
@@ -316,18 +316,18 @@ function StatAttack({ id, deck, deckName }) {
       <h3 className="text-dt-500 dark:text-dt-200 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-1">
         {Object.entries(players).map(([playerName, { card_count, is_alive }]) => (
-          <li key={playerName} className="dark:text-white"><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {card_count} Cards {!is_alive && '(Lost)'}</li>
+          <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {card_count} Cards {!is_alive && '(Lost)'}</li>
         ))}
-        <li><span onClick={promptLeave} className="bg-ns-500 text-white dark:bg-ns-200 rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
+        <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
       </ul>
       </>}
 
       {gameStatus === 'JOINED' && <>
       <h3 className="text-dt-500 dark:text-dt-200 font-bold text-xl my-2">Deck</h3>
       <ul className="grid gap-1">
-        <li key="deckName" className="dark:text-white"><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">Deck Name</span> {title}</li>
-        <li key="noCards" className="dark:text-white"><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">No. of Cards</span> {deckData.length}</li>
-        <li key="statistics" className="dark:text-white"><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">Statistics</span> {Object.keys(deckData[0]).slice(1).map(capitalise).join(", ")}</li>
+        <li key="deckName" className=""><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">Deck Name</span> {title}</li>
+        <li key="noCards" className=""><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">No. of Cards</span> {deckData.length}</li>
+        <li key="statistics" className=""><span className="text-white bg-dt-500 dark:bg-dt-200 dark:text-black rounded-md p-1 me-1">Statistics</span> {Object.keys(deckData[0]).slice(1).map(capitalise).join(", ")}</li>
       </ul>
       <div className="flex gap-2 mx-auto my-4">
         {/* start */}
@@ -356,11 +356,11 @@ function StatAttack({ id, deck, deckName }) {
         : <h3 className="text-dt-500 dark:text-dt-200 text-xl font-bold my-2 flex">Waiting for winner to pick a card...</h3>)}</div>
       {gameStatus === 'SELECTING' && <ul className="grid gap-2">
         {playedCards.map((card, index) => (
-          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`animate-linear bg-[length:200%_auto] bg-dt-100/10 p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-gradient-to-r from-dt-500 to-dt-300 text-white' : ''}`}>
+          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`animate-linear bg-[length:200%_auto] bg-dt-300/10 p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-gradient-to-r from-dt-500 to-dt-300 text-white' : ''}`}>
             <h3 className={`flex text-xl font-bold mb-2 ${selectedCard === card.card_id ? 'text-white' : 'text-dt-500 dark:text-dt-200'}`}>{deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
             </h3>
             <ul className="grid gap-2">
-            {fields.map((fieldName, index) => <p className="dark:text-white" key={fieldName}>
+            {fields.map((fieldName, index) => <p className="" key={fieldName}>
               <span key={fieldName} className={`font-bold ${selectedCard === card.card_id ? index === roundId ? 'bg-white text-dt-500 dark:text-dt-200' : '' : index === roundId ? 'bg-dt-500 dark:bg-dt-200 dark:text-black text-white' : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> {deckData[card.card_id][fieldName]}
             </p>)}
             </ul>

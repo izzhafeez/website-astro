@@ -113,17 +113,17 @@
 
 <div class="max-w-3xl mx-auto p-2">
   {#if !isStart}
-  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12 text-6xl">
+  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-12 text-6xl">
     {title}
   </h1>
-  <p class="dark:text-white my-4">{instructions}</p>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4'>Start</button>
+  <p class=" my-4">{instructions}</p>
+  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4'>Start</button>
   {:else}
-  <p class='text-3xl text-center my-2 bg-hp-500 text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
+  <p class='text-3xl text-center my-2 bg-dt-500 text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
   <div class="grid gap-2">
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
-        <button id={tile} on:click={() => handleSelect(tile)} class:bg-ns-500={wrong[tile] && selected !== tile} class:bg-cc-500={selected === tile && !answered[tile]} class:text-white={selected === tile || answered[tile] || wrong[tile]} class:bg-ew-500={answered[tile]} class="h-24 transition border-[3px] hover:border-cc-500 cursor-pointer dark:text-white rounded-lg py-2 px-4 text-center">{tile}</button>
+        <button id={tile} on:click={() => handleSelect(tile)} class:bg-ns-500={wrong[tile] && selected !== tile} class:bg-cc-500={selected === tile && !answered[tile]} class:text-white={selected === tile || answered[tile] || wrong[tile]} class:bg-ew-500={answered[tile]} class="h-24 transition border-[3px] hover:border-cc-500 cursor-pointer  rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}
     </div>
   </div>

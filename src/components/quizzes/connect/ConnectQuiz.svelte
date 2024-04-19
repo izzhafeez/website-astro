@@ -14,6 +14,7 @@
   let guesses = 0;
   let canNext = false;
   let N = 4;
+  let possible_N = [2, 3, 4, 5, 6, 7, 8];
 
   function handleStart() {
     handleNext();
@@ -180,27 +181,23 @@
 </script>
 
 <div class="max-w-3xl mx-auto p-2">
-  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12 text-6xl">
+  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-12 text-6xl">
     {title}
   </h1>
-  <p class="dark:text-white my-4">{instructions}</p>
+  <p class=" my-4">{instructions}</p>
   {#if !isStart}
-  <label for="N" class="dark:text-white">Number of Groups: </label>
-  <select name="N" id="N" class="rounded-lg border-gray-500/50 px-4" bind:value={N}>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4" selected="selected">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-    <option value="7">7</option>
-    <option value="8">8</option>
-  </select>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4 mx-2'>Start</button>
+  <label for="N" class="">Number of Groups: </label>
+  <div class="flex gap-2 my-2">
+    {#each possible_N as n (n)}
+    <button on:click={() => {N = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={N == n} class:text-white={N == n}>{n}</button>
+    {/each}
+  </div>
+  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
   {:else}
   <div class="grid gap-2">
     <div class="grid gap-2">
       {#each answered as answer}
-        <div class="border-[3px] border-ew-300 dark:text-white rounded-lg py-2 px-4 text-center">
+        <div class="border-[3px] border-ew-300 rounded-lg py-2 px-4 text-center">
           <h3 class="font-bold text-xl">{answer}</h3>
           <p>{answers[answer]}</p>
         </div>
@@ -208,14 +205,14 @@
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
-        <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-500 cursor-pointer dark:text-white rounded-lg py-2 px-4 text-center">{tile}</button>
+      <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-500 cursor-pointer  rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}
     </div>
   </div>
   {#if !canNext}
-  <button on:click={handleGuess} class:bg-cc-500={numSelected === 4} class:hover:bg-cc-400={numSelected === 4} class:opacity-50={numSelected !== 4} class:bg-gray-500={numSelected !== 4} class='text-white rounded-lg py-2 px-4 mt-4'>Guess ({guesses})</button>
+  <button on:click={handleGuess} class:bg-cc-500={numSelected === 4} class:hover:bg-cc-300={numSelected === 4} class:opacity-50={numSelected !== 4} class:bg-gray-500={numSelected !== 4} class='text-white rounded-lg py-2 px-4 mt-4'>Guess ({guesses})</button>
   {:else}
-  <button on:click={handleNext} class='bg-ew-500 hover:bg-ew-400 text-white rounded-lg py-2 px-4 mt-4'>Next</button>
+  <button on:click={handleNext} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 mt-4'>Next</button>
   {/if}
   {/if}
 </div>

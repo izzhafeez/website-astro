@@ -196,11 +196,11 @@
 <div class='h-30 flex items-center mb-4 mt-2'>
   {#if toStop}
   <div class='p-2'>
-    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
-    <input name="regex" bind:value={name} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <label for="regex" class="">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     <br/><br/>
-    <label for="regex" class="dark:text-white">Regex:</label>
-    <input name="regex" on:input={handleRegex} class='border-gray-500/50 border-[1px] rounded-md p-1' placeholder="" value={regexInput}/>
+    <label for="regex" class="">Regex:</label>
+    <input name="regex" on:input={handleRegex} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder="" value={regexInput}/>
     <br/><br/>
     <Leaderboard type="map" key={key}/>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
@@ -210,9 +210,9 @@
     <Timer countFrom={time} on:timesup={handleEnd} toStop={toStop}/>
   </div>
   <div class='grid h-30 content-between'>
-    <b class='text-sm dark:text-white'>Enter Answer Here:</b>
-    <input class='border-gray-500/50 border-[1px] rounded-md p-1' on:input={handleInput}/>
-    <span class='text-sm dark:text-white'>{score}/{totalScore} guessed 
+    <b class='text-sm '>Enter Answer Here:</b>
+    <input class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:input={handleInput}/>
+    <span class='text-sm '>{score}/{totalScore} guessed 
       (<button type='button' class='text-ns-500 hover:text-ns-300 underline cursor-pointer' on:click={handleEnd}>Give Up?</button>)</span>
   </div>
   {/if}

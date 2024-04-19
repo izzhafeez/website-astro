@@ -169,11 +169,11 @@ const getMetroColor = (colorComparator: string) => {
 const getMallColor = (colorComparator: string) => {
   const bracketRegex = /\[[^\]]*\]/gi;
   const bracketValues = colorComparator.match(bracketRegex);
-  if (!bracketValues) return "lrt-500";
+  if (!bracketValues) return "lrt-mrt";
   const bracketValue = bracketValues[0];
-  if (bracketValue.includes("300S")) return "ne-700";
-  if (bracketValue.includes("200S")) return "ne-500";
-  if (bracketValue.includes("100S")) return "ne-300";
-  if (bracketValue.includes("50S")) return "ne-300";
-  return "white";
+  if (bracketValue.includes("300S")) return "ns-500";
+  if (bracketValue.includes("200S")) return "ns-300";
+  if (bracketValue.includes("100S")) return "white";
+  if (bracketValue.includes("50S")) return "ew-300";
+  return "ew-300";
 }

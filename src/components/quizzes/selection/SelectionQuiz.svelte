@@ -162,10 +162,10 @@ function handleSelect(option) {
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <div class="max-w-3xl mx-auto">
-    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
-    <p class="dark:text-white mt-2">{instructions}</p>
-    <label for="regex" class="dark:text-white">Your Name (Optional):</label>
-    <input name="regex" bind:value={name} class='my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
+    <p class=" mt-2">{instructions}</p>
+    <label for="regex" class="">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     <div class="py-2 flex gap-2">
       <Leaderboard type="selection" key={key}/>
       <button
@@ -178,26 +178,26 @@ function handleSelect(option) {
   </div>
 </div>
 {:else}
-<div class="max-w-6xl mx-auto">
-  <h2 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-12" class:text-6xl={level.length < 20} class:text-xl={level.length >= 20}>
+<div class="max-w-6xl mx-auto p-2">
+  <h2 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-12" class:text-6xl={level.length < 20} class:text-xl={level.length >= 20}>
     {level}
   </h2>
-  <p class="dark:text-white"><span class="font-bold">Streak:</span> {streak}</p>
-  <p class="dark:text-white"><span class="font-bold">Best Streak:</span> {bestStreak}</p>
+  <p class=""><span class="font-bold">Streak:</span> {streak}</p>
+  <p class=""><span class="font-bold">Best Streak:</span> {bestStreak}</p>
   {#if accuracy && guessed}
-  <p class="dark:text-white"><span class="font-bold">Accuracy:</span> {accuracy}</p>
+  <p class=""><span class="font-bold">Accuracy:</span> {accuracy}</p>
   {/if}
   <br/>
-  <div class="grid lg:grid-cols-2 gap-1 dark:text-white">
+  <div class="grid lg:grid-cols-2 gap-1 ">
     {#each options as option}
-    <button class={`float-left px-4 py-2 rounded-md border-[4px]
-      ${selected[option] ? 'border-ew-300' : ''} ${guessed ? correct[option] ? 'text-ew-500' : 'line-through text-ns-500' : ''}`} on:click={() => handleSelect(option)}>{option}</button>
+    <button class={`${selected[option] ? 'bg-ew-500 text-white hover:bg-ew-300' : 'bg-gray-500/0 hover:bg-gray-500/50'} ${guessed ? correct[option] ? 'text-white' : 'line-through text-ns-500' : ''}
+     float-left px-4 py-2 rounded-md border-[1px] border-gray-500/50`} on:click={() => handleSelect(option)}>{option}</button>
     {/each}
   </div>
   {#if !guessed}
-  <button on:click={handleGuess} class='bg-ew-500 hover:bg-ew-400 text-white rounded-md py-2 px-4 mt-4'>Guess</button>
+  <button on:click={handleGuess} class='bg-ew-500 hover:bg-ew-300 text-white rounded-md py-2 px-4 mt-4'>Guess</button>
   {:else}
-  <button on:click={handleNext} class='bg-cc-500 hover:bg-cc-400 text-white rounded-md py-2 px-4 mt-4'>Next</button>
+  <button on:click={handleNext} class='bg-cc-500 hover:bg-cc-300 text-white rounded-md py-2 px-4 mt-4'>Next</button>
   {/if}
 </div>
 {/if}

@@ -7,36 +7,31 @@ import { toName } from "../../utils/string";
 const { href, title, heroText, site, key, imgPath, isEager, tags=[] } = Astro.props;
 
 let textColor = "group-hover:text-gray-500 dark:group-hover:text-gray-300";
-let neonColor = "hover:neon-gray";
 switch (site) {
   case 'apps':
     textColor = "group-hover:text-ew-500 dark:group-hover:text-ew-300";
-    neonColor = "hover:neon-ew";
     break;
   case 'portfolio':
     textColor = "group-hover:text-ne-500 dark:group-hover:text-ne-300";
-    neonColor = "hover:neon-ne";
     break;
   case 'quizzes':
     textColor = "group-hover:text-ns-500 dark:group-hover:text-ns-300";
-    neonColor = "hover:neon-ns";
     break;
   case 'games':
     textColor = "group-hover:text-dt-500 dark:group-hover:text-dt-300";
-    neonColor = "hover:neon-dt";
     break;
 }
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 ---
 
-<a transition:name={key} role="button" href={href} id={key} class={`group w-full ${neonColor} p-4 rounded-lg flex gap-4`}>
+<a role="button" href={href} id={key} class={`reveal group w-full p-4 rounded-lg flex gap-4`}>
   {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video hidden lg:block" loading={isEager && 'eager'}/>}
   <div>
-    <h2 transition:name={title.toUpperCase()} class={`${textColor} font-medium dark:text-white flex items-center gap-2`}>  
+    <h2 class={`${textColor} font-medium  flex items-center gap-2`}>  
       {toName(title)} 
     </h2>
-    <p transition:name={heroText} class="text-gray-500 text-sm my-2">{heroText}</p>
+    <p class="text-gray-500 text-sm my-2">{heroText}</p>
     <Tags tags={tags} site={site}/>
   </div>
 </a>

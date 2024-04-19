@@ -1,24 +1,24 @@
 ---
 const { href, title, heroText, site, key } = Astro.props;
 
-let bg = "bg-lrt-700/50 group-hover:bg-lrt-700/80 hover:border-lrt-300";
+let bg = "bg-lrt-500/50 group-hover:bg-lrt-500/80 hover:border-lrt-300";
 let textColor = "group-hover:text-lrt-300";
 switch (site) {
   case 'apps':
-    bg = "bg-ew-700/50 group-hover:bg-ew-700/80 hover:border-ew-300";
+    bg = "bg-ew-500/50 group-hover:bg-ew-500/80 hover:border-ew-300";
     textColor = "group-hover:text-ew-300";
     break;
   case 'portfolio':
-    bg = "bg-ne-700/50 group-hover:bg-ne-700/80 hover:border-ne-300";
+    bg = "bg-ne-500/50 group-hover:bg-ne-500/80 hover:border-ne-300";
     textColor = "group-hover:text-ne-300";
     break;
   case 'quizzes':
-    bg = "bg-ns-700/50 group-hover:bg-ns-700/80 hover:border-ns-300";
+    bg = "bg-ns-500/50 group-hover:bg-ns-500/80 hover:border-ns-300";
     textColor = "group-hover:text-ns-300";
     break;
 }
 ---
-<a transition:name={title} role="button" href={href} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key}.jpg');`}>
+<a role="button" href={href} id="hero" class="bg-opacity-50 bg-cover h-80 group" style={`background-image: url('/img/heroes/${key}.jpg');`}>
   <div class={`${bg} border-[1px] border-white/0 h-80 overflow-clip grid content-center text-center p-8`}>
     <h1 class={`font-extrabold text-5xl text-white ${textColor}`}>{title.toUpperCase()}</h1>
     <p class="text-white max-w-lg mx-auto">{heroText}</p>

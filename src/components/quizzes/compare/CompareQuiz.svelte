@@ -185,11 +185,11 @@ async function handleFail(_) {
 <div class="fixed">
 {#if !isPlaying}
 <div class="grid h-screen w-screen justify-center content-center gap-2 p-4">
-  <h1 class="font-extrabold text-6xl animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-400 dark:to-ns-100 text-transparent bg-clip-text">{title}</h1>
-  <p class="dark:text-white max-w-xl">{instructions}</p>
+  <h1 class="font-extrabold text-6xl animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 text-transparent bg-clip-text">{title}</h1>
+  <p class=" max-w-xl">{instructions}</p>
   <div class="flex content-center gap-2">
-    <label for="name" class="dark:text-white my-auto">Your Name (Optional):</label>
-    <input type="text" id="name" bind:value={name} class="p-2 rounded-md"/>
+    <label for="name" class="my-auto">Your Name (Optional):</label>
+    <input type="text" id="name" bind:value={name} class="transition duration-500 bg-white dark:bg-gray-700 p-2 rounded-md"/>
   </div>
   <div class="flex gap-2 py-2">
     <Leaderboard type="compare" key={key}/>
@@ -199,8 +199,8 @@ async function handleFail(_) {
 {:else}
 <div class='grid lg:grid-cols-2 h-screen w-screen'>
   <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
-    <h2 class='p-4 dark:text-white font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
-    <p class='text-5xl h-20 grid items-center p-4 mx-auto text-white bg-hp-600 shadow-solid-black dark:shadow-none'>{left.quantity}</p>
+    <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
+    <p class='text-5xl h-20 grid items-center p-4 mx-auto transition duration-500 bg-white dark:bg-gray-700'>{left.quantity}</p>
   </div>
   <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 -z-10">
     <div class='mx-auto flex lg:block items-center gap-8'>
@@ -208,23 +208,23 @@ async function handleFail(_) {
         Score: {streak}<br/>
         Best Score: {bestStreak}
       </p>
-      <h2 class='rounded-full text-6xl m-auto text-center bg-da-alt aspect-square p-2 flex items-center text-white dark:bg-li-alt dark:text-black lg:my-4'>VS</h2>
-      <p class='lg:text-center dark:text-white'>
+      <h2 class='rounded-full text-6xl text-center lg:mb-4'>VS</h2>
+      <p class='lg:text-center'>
         Score: {streak}<br/>
         Best Score: {bestStreak}
       </p>
     </div>
   </div>
   <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
-    <h2 class='p-4 dark:text-white font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
+    <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
     {#if isGuessing}
     <div class="grid grid-cols-2 divide-x-0 mx-auto shadow-solid-black dark:shadow-none">
       <button on:click={() => handleAnswer(true)} class='p-4 h-20 bg-ew-500 text-white hover:bg-opacity-80 font-bold text-xl'>Higher</button>
       <button on:click={() => handleAnswer(false)} class='p-4 h-20 bg-ns-500 text-white hover:bg-opacity-80 font-bold text-xl'>Lower</button>
     </div>
     {:else}
-    <div class='flex gap-0 mx-auto shadow-solid-black dark:shadow-none'>
-      <p class="text-5xl h-20 grid items-center p-4 text-white bg-hp-600">{rightPlaceholder}</p>
+    <div class='flex gap-0 mx-auto'>
+      <p class="text-5xl h-20 grid items-center p-4 transition duration-500 bg-white dark:bg-gray-700">{rightPlaceholder}</p>
       {#if showNextButton}
       <button on:click={handleNext} class='p-4 bg-cc-500 text-white hover:bg-opacity-80 font-bold text-xl'>Next</button>
       {/if}
