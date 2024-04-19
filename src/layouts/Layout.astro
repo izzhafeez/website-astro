@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
 ---
 
 <html lang="en">
@@ -21,11 +20,7 @@ import { ViewTransitions } from 'astro:transitions';
     
       // Runs on initial navigation
       setDarkMode()
-    
-      // Runs on view transitions navigation
-      document.addEventListener('astro:after-swap', setDarkMode);
     </script>
-    <ViewTransitions/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/desmosito-icon.png" />
@@ -59,25 +54,15 @@ import { ViewTransitions } from 'astro:transitions';
       @tailwind base;
       @tailwind components;
       @tailwind utilities;
-
-      .link-underline {
-        border-bottom-width: 0;
-        background-image: linear-gradient(transparent, transparent), linear-gradient(#6b7280, #6b7280);
-        background-size: 0 2px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-        transition: background-size .5s ease-in-out;
-      }
-
-      .link-underline:hover {
-        background-size: 100% 2px;
-        background-position: 0 100%
-      }
     </style>
   </head>
-  <body id='body' class="overflow-x-hidden overflow-y-scroll">
-    <div id="bg" class="fixed w-screen h-screen top-0 left-0 -z-10 bg-li-bg dark:bg-da-bg"></div>
+  <body id='body' class="transition duration-500 overflow-x-hidden overflow-y-scroll text-gray-900 dark:text-gray-100">
+    <div id="bg" class="transition duration-500 fixed w-screen h-screen top-0 left-0 -z-10 bg-gray-100 dark:bg-gray-800"></div>
     <slot name="main"/>
     <script is:inline src="https://kit.fontawesome.com/a05d281c15.js" crossorigin="anonymous"></script>
+    <script is:inline src="https://unpkg.com/scrollreveal"></script>
   </body>
+  <script is:inline>
+    ScrollReveal().reveal('.reveal', { duration: 600, delay: 300, distance: '100px', easing: 'cubic-bezier(0.5, 0, 0, 1)' });
+  </script>
 </html>

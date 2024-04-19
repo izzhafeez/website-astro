@@ -9,7 +9,6 @@ import portfolioData from "../data/portfolio/portfolio.json";
 import quizzesData from "../data/quizzes/quizzes.json";
 import gamesData from "../data/games/games.json";
 import homeData from "../data/home.json";
-import { capitalise } from "../utils/string";
 import MediumCard from "../components/common/MediumCard.astro";
 import { SEO } from 'astro-seo';
 
@@ -54,9 +53,9 @@ const heroText = "I'm a final year student studying computer science and mathema
     <NavBar label="Portfolio"/>
     <div class="max-w-3xl mx-auto p-4 grid gap-4 my-20">
       <Image src={izzhafeez} width="300" height="300" alt="Izz Hafeez" class="mx-auto rounded-full border-4 border-gray-500" loading="eager"/>
-      <p class="dark:text-white">Hi, my name</p>
-      <h1 class="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-lrt-700 to-lrt-500 dark:to-lrt-300 text-transparent bg-clip-text text-6xl font-extrabold inline-block">Izz Hafeez.</h1>
-      <p class="text-gray-500">I'm a final year student studying <a href="/portfolio/courses" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">computer science</a> and mathematics at NUS. Along my journey, I've been fortunate to hold various <a href="/portfolio/experience" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">positions</a>, where I've learned many <a href="/portfolio/skills" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">skills</a>. Beyond academics, my free time is devoted to working on personal <a href="/portfolio/projects" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">projects</a>, that involve creating <a href="/portfolio/music" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">music</a> and <a href="/portfolio/art" class="hover:text-ne-500 underline dark:text-white dark:hover:text-ne-300">art</a>. Hope you enjoy the <a href="/games" class="hover:text-ew-500 underline dark:text-white dark:hover:text-ew-300">apps</a>, <a href="/games" class="hover:text-dt-500 underline dark:text-white dark:hover:text-dt-300">games</a> and <a href="/quizzes" class="hover:text-ns-500 underline dark:text-white dark:hover:text-ns-300">quizzes</a> I have in store for you!</p>
+      <p class="">Hi, my name</p>
+      <h1 class="font-extrabold text-3xl md:text-6xl bg-gradient-to-b from-gray-300 to-gray-500 text-transparent bg-clip-text">Izz Hafeez.</h1>
+      <p class="text-gray-500">I'm a final year student studying <a href="/portfolio/courses" class="hover:text-ne-500 underline  dark:hover:text-ne-300">computer science</a> and mathematics at NUS. Along my journey, I've been fortunate to hold various <a href="/portfolio/experience" class="hover:text-ne-500 underline  dark:hover:text-ne-300">positions</a>, where I've learned many <a href="/portfolio/skills" class="hover:text-ne-500 underline  dark:hover:text-ne-300">skills</a>. Beyond academics, my free time is devoted to working on personal <a href="/portfolio/projects" class="hover:text-ne-500 underline  dark:hover:text-ne-300">projects</a>, that involve creating <a href="/portfolio/music" class="hover:text-ne-500 underline  dark:hover:text-ne-300">music</a> and <a href="/portfolio/art" class="hover:text-ne-500 underline  dark:hover:text-ne-300">art</a>. Hope you enjoy the <a href="/games" class="hover:text-ew-500 underline  dark:hover:text-ew-300">apps</a>, <a href="/games" class="hover:text-dt-500 underline  dark:hover:text-dt-300">games</a> and <a href="/quizzes" class="hover:text-ns-500 underline  dark:hover:text-ns-300">quizzes</a> I have in store for you!</p>
       <div class="flex gap-4">
         <a href="https://www.linkedin.com/in/izzhafeez/">
           <img alt="linkedin" src={linkedin.src} class="h-5 brightness-0 dark:invert hover:opacity-50"/>
@@ -74,22 +73,22 @@ const heroText = "I'm a final year student studying computer science and mathema
     </div>
     <Hero label="APPS" text={homeData.apps.heroText} site="apps"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(appsData).map(([key, value]) => <MediumCard href={`/apps/${key}`} title={capitalise(key)} heroText={value.heroText} site="apps" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+      {Object.entries(appsData).map(([key, value]) => <MediumCard href={`/apps/${key}`} title={value.title} heroText={value.heroText} site="apps" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <div class="my-20"></div>
     <Hero label="QUIZZES" text={homeData.quizzes.heroText} site="quizzes"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key)} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={value.title} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <div class="my-20"></div>
     <Hero label="PORTFOLIO" text={homeData.portfolio.heroText} site="portfolio"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={capitalise(key)} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+      {Object.entries(portfolioData).map(([key, value]) => <MediumCard href={`/portfolio/${key}`} title={value.title} heroText={value.heroText} site="portfolio" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <div class="my-20"></div>
     <Hero label="GAMES" text={homeData.games.heroText} site="games"/>
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(gamesData).map(([key, value]) => <MediumCard href={`/games/${key}`} title={capitalise(key)} heroText={value.heroText} site="games" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+      {Object.entries(gamesData).map(([key, value]) => <MediumCard href={`/games/${key}`} title={value.title} heroText={value.heroText} site="games" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`}/>)}
     </section>
     <Footer site="home"/>
   </div>

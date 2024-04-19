@@ -5,7 +5,7 @@ export const addEllipsis = (text: string, length: number) => {
   return text.slice(0, length) + '...';
 }
 
-export const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+export const capitalise = (text: string) => text.split(" ").map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
 
 export const toName = (key: string) => key.split('-').map(capitalise).join(' ');
 

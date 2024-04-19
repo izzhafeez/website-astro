@@ -21,13 +21,6 @@
     "Life Expectancy (years)": 76.7
   },
   {
-    "name": "Andorra",
-    "Population (K)": 77,
-    "Birth Rate (%)": 7.2,
-    "Population Density (P/Km2)": 164,
-    "Life Expectancy (years)": NaN
-  },
-  {
     "name": "Angola",
     "Population (K)": 31825,
     "Birth Rate (%)": 40.73,
@@ -392,13 +385,6 @@
     "Life Expectancy (years)": 78.2
   },
   {
-    "name": "Eswatini",
-    "Population (K)": 1093,
-    "Birth Rate (%)": NaN,
-    "Population Density (P/Km2)": 67,
-    "Life Expectancy (years)": NaN
-  },
-  {
     "name": "Ethiopia",
     "Population (K)": 112079,
     "Birth Rate (%)": 32.34,
@@ -509,13 +495,6 @@
     "Birth Rate (%)": 24.35,
     "Population Density (P/Km2)": 414,
     "Life Expectancy (years)": 63.7
-  },
-  {
-    "name": "Vatican City",
-    "Population (K)": 1,
-    "Birth Rate (%)": NaN,
-    "Population Density (P/Km2)": 2003,
-    "Life Expectancy (years)": NaN
   },
   {
     "name": "Honduras",
@@ -791,13 +770,6 @@
     "Life Expectancy (years)": 71.8
   },
   {
-    "name": "Monaco",
-    "Population (K)": 39,
-    "Birth Rate (%)": 5.9,
-    "Population Density (P/Km2)": 26337,
-    "Life Expectancy (years)": NaN
-  },
-  {
     "name": "Mongolia",
     "Population (K)": 3225,
     "Birth Rate (%)": 24.13,
@@ -838,13 +810,6 @@
     "Birth Rate (%)": 28.64,
     "Population Density (P/Km2)": 3,
     "Life Expectancy (years)": 63.4
-  },
-  {
-    "name": "Nauru",
-    "Population (K)": 10,
-    "Birth Rate (%)": NaN,
-    "Population Density (P/Km2)": 541,
-    "Life Expectancy (years)": NaN
   },
   {
     "name": "Nepal",
@@ -894,13 +859,6 @@
     "Birth Rate (%)": 13.89,
     "Population Density (P/Km2)": 214,
     "Life Expectancy (years)": 72.1
-  },
-  {
-    "name": "North Macedonia",
-    "Population (K)": 1837,
-    "Birth Rate (%)": NaN,
-    "Population Density (P/Km2)": 83,
-    "Life Expectancy (years)": NaN
   },
   {
     "name": "Norway",
@@ -1258,13 +1216,6 @@
     "Birth Rate (%)": 23.83,
     "Population Density (P/Km2)": 13,
     "Life Expectancy (years)": 68.1
-  },
-  {
-    "name": "Tuvalu",
-    "Population (K)": 12,
-    "Birth Rate (%)": NaN,
-    "Population Density (P/Km2)": 393,
-    "Life Expectancy (years)": NaN
   },
   {
     "name": "Uganda",

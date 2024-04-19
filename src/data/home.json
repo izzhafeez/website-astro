@@ -1,14 +1,18 @@
 {
   "apps": {
+    "title": "Apps",
     "heroText": "Here are some of the apps I've created over the years. Hope you enjoy them!"
   },
   "portfolio": {
+    "title": "Portfolio",
     "heroText": "Check out some of the things I've made and the experiences I've gained over the years!"
   },
   "quizzes": {
+    "title": "Quizzes",
     "heroText": "Hope you enjoy the Quizzes that I've created for you!"
   },
   "games": {
+    "title": "Games",
     "heroText": "Come and play some of my games with your friends!"
   }
 }

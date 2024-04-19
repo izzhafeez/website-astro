@@ -29,14 +29,15 @@ const quizzes = Object.entries(matchData as QuizJson).map(([key, value]) => {
 }).sort((a,b) => -a.rank + b.rank);
 
 const heroText = quizzesData.match.heroText;
+const title = quizzesData.match.title;
 ---
 <SEO
-  title={`Match Quizzes | Izz Hafeez`}
+  title={`${title} | Izz Hafeez`}
   description={heroText}
   canonical={`https://izzhafeez.com/quizzes/match`}
   openGraph={{
     basic: {
-      title: `Match Quizzes | Izz Hafeez`,
+      title: `${title} | Izz Hafeez`,
       type: "website",
       image: seoImg.src,
       url: `https://izzhafeez.com/quizzes/match`
@@ -51,7 +52,7 @@ const heroText = quizzesData.match.heroText;
         name: "twitter:image",
         content: seoImg.src,
       },
-      { name: "twitter:title", content: `Match Quizzes | Izz Hafeez`},
+      { name: "twitter:title", content: `${title} | Izz Hafeez`},
       { name: "twitter:description", content: heroText },
     ],
   }}
@@ -60,7 +61,7 @@ const heroText = quizzesData.match.heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <Hero label="MATCH QUIZZES" text={heroText} site="quizzes"/>
+    <Hero label={title} text={heroText} site="quizzes"/>
     <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {quizzes.map(quiz => <MediumCard
         href={quiz.href}

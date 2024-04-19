@@ -1,34 +1,34 @@
 {
-  "map": {
-    "title": "map quizzes",
-    "heroText": "Here are my map quizzes, powered by OpenLayers. As you answer, the marker will disappear. Use regex to select the locations you want to include in the quiz."
-  },
-  "streak": {
-    "title": "streak quizzes",
-    "heroText": "How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!"
-  },
-  "compare": {
-    "title": "compare quizzes",
-    "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
-  },
-  "geoguessr": {
-    "title": "geoguessr",
-    "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
-  },
-  "yesNo": {
-    "title": "yes no quizzes",
+  "binary": {
+    "title": "Binary Quest",
     "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
   },
-  "selection": {
-    "title": "selection quizzes",
-    "heroText": "Select all the correct answers from the list. Try to get a high score!"
+  "compare": {
+    "title": "Comparator",
+    "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
   },
   "connect": {
-    "title": "connect quizzes",
+    "title": "Category Connect",
     "heroText": "Group tiles that share a common category. Match all four tiles to win!"
   },
+  "geoguessr": {
+    "title": "GeoGuessr",
+    "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
+  },
+  "map": {
+    "title": "Map Mania",
+    "heroText": "How many locations can you name in a short time?"
+  },
   "match": {
-    "title": "match quizzes",
+    "title": "Match Master",
     "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
+  },
+  "selection": {
+    "title": "Selection Showdown",
+    "heroText": "Select all the correct answers from the list. Try to get a high score!"
+  },
+  "streak": {
+    "title": "Streak Master",
+    "heroText": "How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!"
   }
 }

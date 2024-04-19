@@ -21,69 +21,6 @@ import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
 export const prerender = false;
-const deckData = {
-  malls: {
-    title: "Malls of Singapore",
-    data: mallsData
-  },
-  cities: {
-    title: "Cities of the World",
-    data: citiesData
-  },
-  mrt: {
-    title: "MRT Stations of Singapore",
-    data: mrtData
-  },
-  countriesPopulation: {
-    title: "Country Population",
-    data: countriesPopulationData
-  },
-  countriesLand: {
-    title: "Country Land Area",
-    data: countriesLandData
-  },
-  universities: {
-    title: "University Rankings",
-    data: universitiesData
-  },
-  songs: {
-    title: "Songs on Spotify",
-    data: songsData
-  },
-  anime: {
-    title: "Anime Ratings",
-    data: animeData
-  },
-  songsYoutube: {
-    title: "Songs on YouTube",
-    data: songsYoutubeData
-  },
-  pokemon: {
-    title: "Pokémon",
-    data: pokemonData
-  },
-  youtubers: {
-    title: "YouTubers",
-    data: youtubersData
-  },
-  fastFood: {
-    title: "Fast Food Nutrition",
-    data: fastFoodData
-  },
-  schools: {
-    title: "Schools in Singapore",
-    data: schoolData
-  },
-  airports: {
-    title: "Airports of the World",
-    data: airportsData
-  },
-  movies: {
-    title: "Movies",
-    data: moviesData
-  }
-}
-
 const { id } = Astro.params;
 const splitPath = Astro.url.pathname.split("/");
 const deckName: string = splitPath[splitPath.length - 2];
@@ -91,52 +28,100 @@ const deckName: string = splitPath[splitPath.length - 2];
 let deck;
 switch (deckName) {
   case "malls":
-    deck = deckData.malls;
+    deck = {
+      title: "Malls of Singapore",
+      data: mallsData
+    };
     break;
   case "cities":
-    deck = deckData.cities;
+    deck = {
+      title: "Cities of the World",
+      data: citiesData
+    }
     break;
   case "mrt":
-    deck = deckData.mrt;
+    deck = {
+      title: "MRT Stations of Singapore",
+      data: mrtData
+    }
     break;
   case "countries-population":
-    deck = deckData.countriesPopulation; // https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023
+    deck = {
+      title: "Country Population",
+      data: countriesPopulationData
+    } // https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023
     break;
   case "countries-land":
-    deck = deckData.countriesLand;
+    deck = {
+      title: "Country Land Area",
+      data: countriesLandData
+    };
     break;
   case "universities":
-    deck = deckData.universities;
+    deck = {
+      title: "University Rankings",
+      data: universitiesData
+    };
     break;
   case "songs":
-    deck = deckData.songs;
+    deck = {
+      title: "Songs on Spotify",
+      data: songsData
+    }
     break;
   case "anime":
-    deck = deckData.anime;
+    deck = {
+      title: "Anime Ratings",
+      data: animeData
+    }
     break;
   case "songs-youtube":
-    deck = deckData.songsYoutube;
+    deck = {
+      title: "Songs on YouTube",
+      data: songsYoutubeData
+    }
     break;
   case "pokemon":
-    deck = deckData.pokemon;
+    deck = {
+      title: "Pokemon Stats",
+      data: pokemonData
+    };
     break;
   case "youtubers":
-    deck = deckData.youtubers;
+    deck = {
+      title: "YouTubers",
+      data: youtubersData
+    }
     break;
   case "fast-food":
-    deck = deckData.fastFood;
+    deck = {
+      title: "Fast Food Nutrition",
+      data: fastFoodData
+    }
     break;
   case "schools":
-    deck = deckData.schools;
+    deck = {
+      title: "Schools of Singapore",
+      data: schoolData
+    }
     break;
   case "airports":
-    deck = deckData.airports;
+    deck = {
+      title: "Airports of the World",
+      data: airportsData
+    }
     break;
   case "movies":
-    deck = deckData.movies;
+    deck = {
+      title: "Movie Ratings",
+      data: moviesData
+    } // https://www.kaggle.com/datasets/prishasawhney/imdb-dataset-top-2000-movies
     break;
   default:
-    deck = deckData.malls;
+    deck = {
+      title: '',
+      data: []
+    };
 }
 
 const heroText = gamesData["stat-attack"].heroText;

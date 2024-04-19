@@ -1,6 +1,5 @@
 ---
 import MapQuiz from "../../../components/quizzes/map/MapQuiz.svelte";
-import Leaderboard from "../../../components/quizzes/Leaderboard.svelte";
 import { fullSanitise } from "../../../utils/string";
 import Location from "../../../components/quizzes/map/Location";
 import mrtData from "../../../data/quizzes/map/mrt.json";
@@ -22,7 +21,6 @@ import indonesiaCitiesData from "../../../data/quizzes/map/indonesia-cities.json
 import philippinesCitiesData from "../../../data/quizzes/map/philippines-cities.json";
 import usaCitiesData from "../../../data/quizzes/map/usa-cities.json";
 import canadaCitiesData from "../../../data/quizzes/map/canada-cities.json";
-// import citiesData from "../../../data/quizzes/map/cities.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
 import { SEO } from 'astro-seo';
@@ -271,13 +269,13 @@ const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().t
 <Layout>
   <div slot="main" class="">
     <NavBar/>
-    <div class="p-2">
-      <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 dark:from-ns-500 dark:to-ns-100 text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
+    <div class="max-w-3xl mx-auto p-2">
+      <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
       <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
     </div>
     <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
     <Footer site="quizzes"/>
   </div>
 </Layout>
-<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
 <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

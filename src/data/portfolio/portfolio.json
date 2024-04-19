@@ -1,20 +1,26 @@
 {
   "art": {
+    "title": "Artwork",
     "heroText": "Check out some of the art I've created using Desmos!"
   },
   "courses": {
+    "title": "Courses",
     "heroText": "Here are some of the courses I've taken in NUS, on Coursera, and more."
   },
   "experience": {
+    "title": "Experience",
     "heroText": "Here are some of the invaluable experiences I've gained through internships, work and beyond."
   },
   "music": {
+    "title": "Music",
     "heroText": "Here are some of my transcriptions, medleys and original songs I've made using MuseScore."
   },
   "projects": {
+    "title": "Projects",
     "heroText": "I've built quite a lot of projects using all kinds of technologies. Here are some of the bigger ones."
   },
   "skills": {
+    "title": "Skills",
     "heroText": "Here are some of my more important languages and technologies that I've picked up over the years"
   }
 }
