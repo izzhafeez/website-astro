@@ -4,7 +4,7 @@ import Tags from "./Tags.astro";
 import type { ImageMetadata } from "astro";
 import { toName } from "../../utils/string";
 
-const { href, title, heroText, site, key, imgPath, isEager, tags=[] } = Astro.props;
+const { href, title, heroText, site, key, imgPath, tags=[] } = Astro.props;
 
 let textColor = "group-hover:text-gray-500 dark:group-hover:text-gray-300";
 switch (site) {
@@ -25,8 +25,8 @@ switch (site) {
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 ---
 
-<a role="button" href={href} id={key} class={`reveal group w-full p-4 rounded-lg flex gap-4`}>
-  {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video hidden lg:block" loading={isEager && 'eager'}/>}
+<a role="button" href={href} id={key} class={`reveal load-hidden group w-full p-4 rounded-lg flex gap-4`}>
+  {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video"/>}
   <div>
     <h2 class={`${textColor} font-medium  flex items-center gap-2`}>  
       {toName(title)} 
