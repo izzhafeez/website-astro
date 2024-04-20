@@ -1,22 +1,22 @@
 ---
 const { tags=[], site } = Astro.props;
 
-let tagColor = "text-gray-500 dark:text-gray-300 bg-gray-300/20";
+let tagColor = "text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-900";
 switch (site) {
   case 'apps':
-    tagColor = "text-ew-500 dark:text-ew-300 bg-ew-300/20";
+    tagColor = "text-ew-900 dark:text-ew-100 bg-ew-100 dark:bg-ew-900";
     break;
   case 'portfolio':
-    tagColor = "text-ne-500 dark:text-ne-300 bg-ne-300/20";
+    tagColor = "text-ne-900 dark:text-ne-100 bg-ne-100 dark:bg-ne-900";
     break;
   case 'quizzes':
-    tagColor = "text-ns-500 dark:text-ns-300 bg-ns-300/20";
+    tagColor = "text-ns-900 dark:text-ns-100 bg-ns-100 dark:bg-ns-900";
     break;
   case 'games':
-    tagColor = "text-dt-500 dark:text-dt-300 bg-dt-300/20";
+    tagColor = "text-dt-900 dark:text-dt-100 bg-dt-100 dark:bg-dt-900";
     break;
 }
 ---
 
 <div class="flex flex-wrap gap-1 my-2 max-w-sm">{tags.map((tag: string) =>
-  <span class={`${tagColor} text-xs rounded-full px-2 py-1`}>{tag}</span>)}</div>
+  <span class={`${tagColor} text-xs rounded-md px-2 py-1`}>{tag}</span>)}</div>
