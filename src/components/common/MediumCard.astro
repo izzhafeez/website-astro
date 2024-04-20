@@ -7,28 +7,33 @@ import { toName } from "../../utils/string";
 const { href, title, heroText, site, key, imgPath, tags=[] } = Astro.props;
 
 let textColor = "group-hover:text-gray-500 dark:group-hover:text-gray-300";
+let borderColor = "hover:border-gray-100/70";
 switch (site) {
   case 'apps':
     textColor = "group-hover:text-ew-500 dark:group-hover:text-ew-300";
+    borderColor = "hover:border-ew-500/70";
     break;
   case 'portfolio':
     textColor = "group-hover:text-ne-500 dark:group-hover:text-ne-300";
+    borderColor = "hover:border-ne-500/70";
     break;
   case 'quizzes':
     textColor = "group-hover:text-ns-500 dark:group-hover:text-ns-300";
+    borderColor = "hover:border-ns-500/70";
     break;
   case 'games':
     textColor = "group-hover:text-dt-500 dark:group-hover:text-dt-300";
+    borderColor = "hover:border-dt-500/70";
     break;
 }
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 ---
 
-<a role="button" href={href} id={key} class={`reveal load-hidden group w-full p-4 rounded-lg flex gap-4`}>
+<a role="button" href={href} id={key} class={`reveal load-hidden group w-full p-4 rounded-lg flex gap-4 bg-white/70 transition duration-500 dark:bg-gray-700/70 border-[1px] border-gray-100/0 ${borderColor}`}>
   {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video"/>}
   <div>
-    <h2 class={`${textColor} font-medium  flex items-center gap-2`}>  
+    <h2 class={`${textColor} font-medium flex items-center gap-2`}>  
       {toName(title)} 
     </h2>
     <p class="text-gray-500 text-sm my-2">{heroText}</p>
