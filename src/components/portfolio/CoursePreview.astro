@@ -6,16 +6,15 @@ import type { ImageMetadata } from "astro";
 const { course } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/portfolio/courses/*.jpg');
 ---
-<div id={course.key} class="reveal load-hidden rounded-lg p-4 flex group hover:neon-ne gap-4">
+<a id={course.key} href={course.link} class="reveal load-hidden rounded-lg p-4 flex group gap-4 bg-white/70 dark:bg-gray-700/70 border-[1px] border-gray-100/0 hover:border-ne-500 transition duration-500 cursor-pointer">
   <div class="py-1">
     <Image src={images[`/src${course.imgPath}`]()} alt={course.title} width="50" height="50" class="aspect-square object-contain bg-white rounded-lg"/>
   </div>
   <div class="py-2">
-    <a href={course.link} class=" group-hover:text-ne-500 group-hover:dark:text-ne-300 link-underline font-medium">{ course.title } 
+    <p class="group-hover:text-ne-500 group-hover:dark:text-ne-300 link-underline font-medium">{ course.title } 
       {course.grade && `(${course.grade})`}
-      <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
-    </a>
+    </p>
     <p class="text-gray-500 text-sm leading-tight">{ course.name }{ course.issuer }</p>
-    <Tags tags={course.related} site="portfolio"/>
+    {course.hasOwnProperty('related') && <Tags tags={course.related} site="portfolio"/>}
   </div>
-</div>
+</a>
