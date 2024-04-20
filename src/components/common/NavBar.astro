@@ -12,9 +12,9 @@ import appsData from '../../data/apps/apps.json';
 import quizzesData from '../../data/quizzes/quizzes.json';
 import portfolioData from '../../data/portfolio/portfolio.json';
 import gamesData from '../../data/games/games.json';
-import homeData from '../../data/home.json';
 
 import Drawer from "./Drawer.astro";
+import HomeDrawer from "./HomeDrawer.astro";
 // https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
 ---
 <nav class="lg:flex justify-between p-5 gap-5 mx-auto container z-30">
@@ -39,5 +39,5 @@ import Drawer from "./Drawer.astro";
 <Drawer id="quizzes" data={quizzesData} color="ns"/>
 <Drawer id="portfolio" data={portfolioData} color="ne"/>
 <Drawer id="games" data={gamesData} color="dt"/>
-<Drawer id="home" data={homeData} color="gray"/>
+<HomeDrawer id="home"/>
 <script src="../../../node_modules/flowbite/dist/flowbite.min.js"></script>
