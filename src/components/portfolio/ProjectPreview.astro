@@ -9,7 +9,7 @@ const { project, isEager } = Astro.props;
 const imgPath = `/src/img/portfolio/projects/${project.imgPath}`;
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/img/portfolio/projects/*.jpg");
 ---
-<div id={project.key} class="reveal group w-full hover:neon-ne p-4 rounded-lg flex gap-6">
+<div id={project.key} class="reveal load-hidden group w-full hover:neon-ne p-4 rounded-lg flex gap-6">
   {imgPath && <Image src={images[imgPath]()} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover aspect-video hidden lg:block" loading={isEager ? 'eager' : 'lazy'}/>}
   <div>
     <h2 class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium  flex items-center gap-2">  
