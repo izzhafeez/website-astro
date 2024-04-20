@@ -2,7 +2,7 @@
   "chengyu": {
     "title": "Chengyu Challenge",
     "instructions": "What four characters can be joined to form a chengyu?",
-    "tags": ["Chinese"]
+    "tags": ["Chinese", "Language"]
   },
   "olympics": {
     "title": "Olympic Sports",
@@ -12,51 +12,51 @@
   "balkan": {
     "title": "Balkan Cities",
     "instructions": "Which four cities belong to the same Balkan country?",
-    "tags": ["Europe"]
+    "tags": ["Europe", "Geography"]
   },
   "south-east-asia": {
     "title": "South-East Asian Cities",
     "instructions": "Which four cities belong to the same South East Asian country?",
-    "tags": ["Asia"]
+    "tags": ["Asia", "Geography"]
   },
   "germanic": {
     "title": "Germanic Cities",
     "instructions": "Which four cities belong to the same Germanic/Nordic country?",
-    "tags": ["Europe"]
+    "tags": ["Europe", "Geography"]
   },
   "south-america": {
     "title": "South American Cities",
     "instructions": "Which four cities belong to the same South American country?",
-    "tags": ["America"]
+    "tags": ["America", "Geography"]
   },
   "central-asia": {
     "title": "Central Asian Cities",
     "instructions": "Which four cities belong to the same Central Asian (+Iran+Pakistan) country?",
-    "tags": ["Asia"]
+    "tags": ["Asia", "Geography"]
   },
   "central-america": {
     "title": "Central American Cities",
     "instructions": "Which four cities belong to the same Central American (+Mexico) country?",
-    "tags": ["America"]
+    "tags": ["America", "Geography"]
   },
   "middle-east": {
     "title": "Middle Eastern Cities",
     "instructions": "Which four cities belong to the same Middle Eastern country?",
-    "tags": ["Asia"]
+    "tags": ["Asia", "Geography"]
   },
   "romance-europe": {
     "title": "Romance European Cities",
     "instructions": "Which four cities belong to the same Romance European country?",
-    "tags": ["Europe"]
+    "tags": ["Europe", "Geography"]
   },
   "soviet-union": {
     "title": "Ex-Soviet Union Cities",
     "instructions": "Which four cities belong to the same Soviet Union country?",
-    "tags": ["Europe"]
+    "tags": ["Europe", "Geography"]
   },
   "west-africa": {
     "title": "West African Cities",
     "instructions": "Which four cities belong to the same West African country?",
-    "tags": ["Africa"]
+    "tags": ["Africa", "Geography"]
   }
 }
