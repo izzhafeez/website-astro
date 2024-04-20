@@ -15,6 +15,25 @@ type Logos = {
     src: string;
   };
 };
+
+let col;
+switch (color) {
+  case 'ew': 
+    col = 'text-ew-500 dark:text-ew-300';
+    break;
+  case 'ns': 
+    col = 'text-ns-500 dark:text-ns-300';
+    break;
+  case 'ne':
+    col = 'text-ne-500 dark:text-ne-300';
+    break;
+  case 'cc':
+    col = 'text-cc-500 dark:text-cc-300';
+    break;
+  case 'dt':
+    col = 'text-dt-500 dark:text-dt-300';
+    break;
+}
 ---
 
 <aside id={`${id}-drawer`} class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby={`${id}-drawer-label`}>
@@ -25,13 +44,13 @@ type Logos = {
     </svg>
     <span class="sr-only">Close menu</span>
   </button>
-  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold text-${color}-500 dark:text-${color}-300`}>{capitalise(id)}</h3>
+  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold ${col}`}>{capitalise(id)}</h3>
   <ul class="space-y-2 font-medium h-auto">
     {Object.entries(data as Data).map(([key, value]) => {
-      const href = id === 'home' ? `/${key}` : `/${id}/${key}`;
+      const href = `/${id}/${key}`;
       return <li>
         <a href={href} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
-          <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 dark:invert opacity-50 group-hover:opacity-100"/>
+          <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
           <h5 class="ms-3">{capitalise(value.title)}</h5>
         </a>
       </li>
