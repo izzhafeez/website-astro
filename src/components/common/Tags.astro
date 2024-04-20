@@ -1,19 +1,19 @@
 ---
 const { tags=[], site } = Astro.props;
 
-let tagColor = "text-gray-500 dark:text-gray-300 bg-gray-300/20 hover:bg-gray-300/40";
+let tagColor = "text-gray-500 dark:text-gray-300 bg-gray-300/20";
 switch (site) {
   case 'apps':
-    tagColor = "text-ew-500 dark:text-ew-300 bg-ew-300/20 hover:bg-ew-300/40";
+    tagColor = "text-ew-500 dark:text-ew-300 bg-ew-300/20";
     break;
   case 'portfolio':
-    tagColor = "text-ne-500 dark:text-ne-300 bg-ne-300/20 hover:bg-ne-300/40";
+    tagColor = "text-ne-500 dark:text-ne-300 bg-ne-300/20";
     break;
   case 'quizzes':
-    tagColor = "text-ns-500 dark:text-ns-300 bg-ns-300/20 hover:bg-ns-300/40";
+    tagColor = "text-ns-500 dark:text-ns-300 bg-ns-300/20";
     break;
   case 'games':
-    tagColor = "text-dt-500 dark:text-dt-300 bg-dt-300/20 hover:bg-dt-300/40";
+    tagColor = "text-dt-500 dark:text-dt-300 bg-dt-300/20";
     break;
 }
 ---
