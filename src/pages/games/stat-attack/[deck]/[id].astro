@@ -17,6 +17,7 @@ import fastFoodData from "../../../../data/games/stat-attack/fast-food.json";
 import schoolData from "../../../../data/games/stat-attack/schools.json";
 import airportsData from "../../../../data/games/stat-attack/airports.json";
 import moviesData from "../../../../data/games/stat-attack/movies.json";
+import programmingLanguagesData from "../../../../data/games/stat-attack/programming-languages.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -117,6 +118,12 @@ switch (deckName) {
       data: moviesData
     } // https://www.kaggle.com/datasets/prishasawhney/imdb-dataset-top-2000-movies
     break;
+  case "programming":
+    deck = {
+      title: "Programming Languages",
+      data: programmingLanguagesData
+    } // https://www.kaggle.com/datasets/sujaykapadnis/programming-language-database
+    break;
   default:
     deck = {
       title: '',
@@ -159,6 +166,6 @@ const seoImg = await images[`/src/img/games/stat-attack/${deckName}.jpg`]().then
 <Layout>
   <div slot="main">
     <NavBar/>
-    <StatAttack client:only="react" id={id} deck={deck} deckName={deckName}/>
+    <StatAttack client:only="react" id={id || ""} deck={deck} deckName={deckName}/>
   </div>
 </Layout>
