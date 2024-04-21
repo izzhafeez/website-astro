@@ -18,6 +18,14 @@ import schoolData from "../../../../data/games/stat-attack/schools.json";
 import airportsData from "../../../../data/games/stat-attack/airports.json";
 import moviesData from "../../../../data/games/stat-attack/movies.json";
 import programmingLanguagesData from "../../../../data/games/stat-attack/programming-languages.json";
+import elementsData from "../../../../data/games/stat-attack/elements.json";
+import leadersData from "../../../../data/games/stat-attack/leaders.json";
+import videoGamesData from "../../../../data/games/stat-attack/video-games.json";
+import covidData from "../../../../data/games/stat-attack/covid-19.json";
+import laptopData from "../../../../data/games/stat-attack/laptops.json";
+import roadsCoordsData from "../../../../data/games/stat-attack/roads-coords.json";
+import roadsFeaturesData from "../../../../data/games/stat-attack/roads-features.json";
+import indoAttractionsData from "../../../../data/games/stat-attack/indo-attractions.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -123,6 +131,54 @@ switch (deckName) {
       title: "Programming Languages",
       data: programmingLanguagesData
     } // https://www.kaggle.com/datasets/sujaykapadnis/programming-language-database
+    break;
+  case "elements":
+    deck = {
+      title: "Elements of the Periodic Table",
+      data: elementsData // https://www.kaggle.com/datasets/jwaitze/tablesoftheelements?select=periodic_table_with_all_units.csv
+    }
+    break;
+  case "leaders":
+    deck = {
+      title: "World Leaders",
+      data: leadersData // https://www.kaggle.com/datasets/ramjasmaurya/world-leaders-and-their-election-wins?select=election_list+results.csv
+    }
+    break;
+  case "video-games":
+    deck = {
+      title: "Video Games",
+      data: videoGamesData // https://www.kaggle.com/datasets/muhammadadiltalay/imdb-video-games
+    }
+    break;
+  case "covid":
+    deck = {
+      title: "Covid-19 Stats",
+      data: covidData // https://www.kaggle.com/datasets/imdevskp/corona-virus-report
+    }
+    break;
+  case "laptops":
+    deck = {
+      title: "Laptop Specs",
+      data: laptopData // https://www.kaggle.com/datasets/muhammetvarl/laptop-price
+    }
+    break;
+  case "roads-coords":
+    deck = {
+      title: "Roads of Singapore (Coordinates)",
+      data: roadsCoordsData // https://www.kaggle.com/datasets/nelgiriyewithana/singapore-roads
+    }
+    break;
+  case "roads-features":
+    deck = {
+      title: "Roads of Singapore (Features)",
+      data: roadsFeaturesData // https://www.kaggle.com/datasets/nelgiriyewithana/singapore-roads
+    }
+    break;
+  case "indo-attractions":
+    deck = {
+      title: "Indonesian Attractions",
+      data: indoAttractionsData // https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination?select=tourism_with_id.csv
+    }
     break;
   default:
     deck = {
