@@ -73,5 +73,10 @@
     "title": "Movies",
     "instructions": "Fight using the release year, box office, rating and duration!",
     "tags": ["Movies"]
+  },
+  "programming": {
+    "title": "Programming Languages",
+    "instructions": "Fight using release year, number of jobs and number of books written!",
+    "tags": ["Languages", "Coding"]
   }
 }
