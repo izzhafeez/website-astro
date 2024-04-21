@@ -75,7 +75,6 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
   const [isLost, setIsLost] = React.useState(false);
   const [isHigher, setIsHigher] = React.useState(true);
   const [isSpectating, setIsSpectating] = React.useState(false);
-
   const fields = Object.keys(deckData[0]); // we dont want 'name', so we remove it with shift
   fields.shift();
   const handSize = fields.length;
@@ -146,13 +145,23 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
     } else if (method === 'select') {
       setGameStatus('SELECTING');
       const winSelectElement = document.getElementById('winSelect');
-      if (winSelectElement) {
+      if (winSelectElement && message.winner === name) {
         party.confetti(winSelectElement);
       }
       Swal.fire({
-        icon: isSpectating ? 'info' : message.winner === name ? 'success' : 'error',
-        title: message.winner === name ? `${capitalise(fields[message.round_id])}: You Win!` : `${capitalise(fields[message.round_id])}: ${message.winner} Wins!`,
-        text: `${deckData[message.played_cards[0].card_id].name} has the ${isHigher ? 'highest' : 'lowest'} ${capitalise(fields[message.round_id])}!`,
+        icon: isSpectating || message.winner === ""
+          ? 'info'
+          : message.winner === name
+          ? 'success'
+          : 'error',
+        title: message.winner === ""
+          ? "It's a draw!"
+          : message.winner === name
+          ? `${capitalise(fields[message.round_id])}: You Win!`
+          : `${capitalise(fields[message.round_id])}: ${message.winner} Wins!`,
+        text: message.winner === ""
+        ? "The winners get their cards back!"
+        : `${deckData[message.played_cards[0].card_id].name} has the ${isHigher ? 'highest' : 'lowest'} ${capitalise(fields[message.round_id])}!`,
         showClass: {
           popup: `
             animate__animated
