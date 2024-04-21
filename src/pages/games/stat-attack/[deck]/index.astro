@@ -152,6 +152,78 @@ export const getStaticPaths = (() => {
         title: statAttackData.programming.title,
         instructions: statAttackData.programming.instructions
       }
+    },
+    {
+      params: {
+        deck: "elements"
+      },
+      props: {
+        title: statAttackData.elements.title,
+        instructions: statAttackData.elements.instructions
+      }
+    },
+    {
+      params: {
+        deck: "leaders"
+      },
+      props: {
+        title: statAttackData.leaders.title,
+        instructions: statAttackData.leaders.instructions
+      }
+    },
+    {
+      params: {
+        deck: "video-games"
+      },
+      props: {
+        title: statAttackData["video-games"].title,
+        instructions: statAttackData["video-games"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "covid"
+      },
+      props: {
+        title: statAttackData.covid.title,
+        instructions: statAttackData.covid.instructions
+      }
+    },
+    {
+      params: {
+        deck: "laptops"
+      },
+      props: {
+        title: statAttackData.laptops.title,
+        instructions: statAttackData.laptops.instructions
+      }
+    },
+    {
+      params: {
+        deck: "roads-features"
+      },
+      props: {
+        title: statAttackData["roads-features"].title,
+        instructions: statAttackData["roads-features"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "roads-coords"
+      },
+      props: {
+        title: statAttackData["roads-coords"].title,
+        instructions: statAttackData["roads-coords"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "indo-attractions"
+      },
+      props: {
+        title: statAttackData["indo-attractions"].title,
+        instructions: statAttackData["indo-attractions"].instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;
