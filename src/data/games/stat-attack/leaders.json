@@ -1,0 +1,1184 @@
+[
+  {
+    "name": "Truman (USA)",
+    "Term Start Year": 1945,
+    "Years in Office": 8,
+    "Age at Term Start": 61
+  },
+  {
+    "name": "St. Laurent (CAN)",
+    "Term Start Year": 1948,
+    "Years in Office": 9,
+    "Age at Term Start": 66
+  },
+  {
+    "name": "Pindling (BHM)",
+    "Term Start Year": 1973,
+    "Years in Office": 19,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Prio Socarres (CUB)",
+    "Term Start Year": 1948,
+    "Years in Office": 4,
+    "Age at Term Start": 45
+  },
+  {
+    "name": "Estime (HAI)",
+    "Term Start Year": 1946,
+    "Years in Office": 4,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Rafael Trujillo (DOM)",
+    "Term Start Year": 1930,
+    "Years in Office": 31,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Bustamante (JAM)",
+    "Term Start Year": 1962,
+    "Years in Office": 2,
+    "Age at Term Start": 78
+  },
+  {
+    "name": "Williams (TRI)",
+    "Term Start Year": 1962,
+    "Years in Office": 19,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Barrow (BAR)",
+    "Term Start Year": 1966,
+    "Years in Office": 10,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Patrick John (DMA)",
+    "Term Start Year": 1978,
+    "Years in Office": 1,
+    "Age at Term Start": 40
+  },
+  {
+    "name": "Eric Gairy (GRN)",
+    "Term Start Year": 1974,
+    "Years in Office": 5,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Compton (SLU)",
+    "Term Start Year": 1979,
+    "Years in Office": 0,
+    "Age at Term Start": 54
+  },
+  {
+    "name": "Cato (SVG)",
+    "Term Start Year": 1979,
+    "Years in Office": 5,
+    "Age at Term Start": 64
+  },
+  {
+    "name": "Vere Bird (AAB)",
+    "Term Start Year": 1981,
+    "Years in Office": 13,
+    "Age at Term Start": 33
+  },
+  {
+    "name": "Simmonds (SKN)",
+    "Term Start Year": 1983,
+    "Years in Office": 12,
+    "Age at Term Start": 47
+  },
+  {
+    "name": "Aleman Valdes (MEX)",
+    "Term Start Year": 1946,
+    "Years in Office": 6,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Price (BLZ)",
+    "Term Start Year": 1981,
+    "Years in Office": 3,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Arevalo (GUA)",
+    "Term Start Year": 1945,
+    "Years in Office": 6,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Galvez (HON)",
+    "Term Start Year": 1949,
+    "Years in Office": 5,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Oscar Bolanos (SAL)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 37
+  },
+  {
+    "name": "Anastasio Somoza Garcia (NIC)",
+    "Term Start Year": 1947,
+    "Years in Office": 9,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Otilio Ulate (COS)",
+    "Term Start Year": 1949,
+    "Years in Office": 4,
+    "Age at Term Start": 57
+  },
+  {
+    "name": "Arias, A. (PAN)",
+    "Term Start Year": 1949,
+    "Years in Office": 2,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Ospina Perez (COL)",
+    "Term Start Year": 1946,
+    "Years in Office": 4,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Delgado Chalbaud (VEN)",
+    "Term Start Year": 1948,
+    "Years in Office": 2,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Burnham (GUY)",
+    "Term Start Year": 1966,
+    "Years in Office": 19,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Ferrier (SUR)",
+    "Term Start Year": 1975,
+    "Years in Office": 5,
+    "Age at Term Start": 65
+  },
+  {
+    "name": "Plaza Lasso (ECU)",
+    "Term Start Year": 1948,
+    "Years in Office": 4,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Odria (PER)",
+    "Term Start Year": 1948,
+    "Years in Office": 2,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Dutra (BRA)",
+    "Term Start Year": 1946,
+    "Years in Office": 5,
+    "Age at Term Start": 61
+  },
+  {
+    "name": "Urriolagoitia (BOL)",
+    "Term Start Year": 1949,
+    "Years in Office": 2,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Chavez (PAR)",
+    "Term Start Year": 1949,
+    "Years in Office": 5,
+    "Age at Term Start": 67
+  },
+  {
+    "name": "Gonzalez Videla (CHL)",
+    "Term Start Year": 1946,
+    "Years in Office": 6,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Peron (ARG)",
+    "Term Start Year": 1946,
+    "Years in Office": 9,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Batlle Berres (URU)",
+    "Term Start Year": 1947,
+    "Years in Office": 4,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Atlee (UKG)",
+    "Term Start Year": 1945,
+    "Years in Office": 6,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Costello (IRE)",
+    "Term Start Year": 1948,
+    "Years in Office": 3,
+    "Age at Term Start": 57
+  },
+  {
+    "name": "Drees (NTH)",
+    "Term Start Year": 1948,
+    "Years in Office": 10,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Eyskens, G. (BEL)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Dupong (LUX)",
+    "Term Start Year": 1945,
+    "Years in Office": 8,
+    "Age at Term Start": 60
+  },
+  {
+    "name": "Bidault (FRN)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Rainier (MNC)",
+    "Term Start Year": 1949,
+    "Years in Office": 56,
+    "Age at Term Start": 26
+  },
+  {
+    "name": "Franz Josef (LIE)",
+    "Term Start Year": 1938,
+    "Years in Office": 51,
+    "Age at Term Start": 32
+  },
+  {
+    "name": "Petipierre (SWZ)",
+    "Term Start Year": 1950,
+    "Years in Office": 0,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Franco (SPN)",
+    "Term Start Year": 1939,
+    "Years in Office": 36,
+    "Age at Term Start": 47
+  },
+  {
+    "name": "Reig (AND)",
+    "Term Start Year": 1982,
+    "Years in Office": 2,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Salazar (POR)",
+    "Term Start Year": 1932,
+    "Years in Office": 36,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Kohl (GMY)",
+    "Term Start Year": 1990,
+    "Years in Office": 8,
+    "Age at Term Start": 60
+  },
+  {
+    "name": "Adenauer (GFR)",
+    "Term Start Year": 1949,
+    "Years in Office": 14,
+    "Age at Term Start": 73
+  },
+  {
+    "name": "Wilhelm Pieck (GDR)",
+    "Term Start Year": 1946,
+    "Years in Office": 4,
+    "Age at Term Start": 70
+  },
+  {
+    "name": "Bierut (POL)",
+    "Term Start Year": 1944,
+    "Years in Office": 12,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Figl (AUS)",
+    "Term Start Year": 1945,
+    "Years in Office": 8,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Rakoski (HUN)",
+    "Term Start Year": 1945,
+    "Years in Office": 11,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Gottwald (CZE)",
+    "Term Start Year": 1948,
+    "Years in Office": 5,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Klaus (CZR)",
+    "Term Start Year": 1993,
+    "Years in Office": 4,
+    "Age at Term Start": 83
+  },
+  {
+    "name": "Meciar (SLO)",
+    "Term Start Year": 1993,
+    "Years in Office": 1,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "de Gasperi (ITA)",
+    "Term Start Year": 1945,
+    "Years in Office": 8,
+    "Age at Term Start": 64
+  },
+  {
+    "name": "Vincenzo Pedini (2nd time)         ( (SNM)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 2048
+  },
+  {
+    "name": "Olivier (MLT)",
+    "Term Start Year": 1962,
+    "Years in Office": 9,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Hoxha (ALB)",
+    "Term Start Year": 1944,
+    "Years in Office": 41,
+    "Age at Term Start": 36
+  },
+  {
+    "name": "Dukanovic (MNG)",
+    "Term Start Year": 2006,
+    "Years in Office": 0,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Kljusev (MAC)",
+    "Term Start Year": 1991,
+    "Years in Office": 1,
+    "Age at Term Start": 64
+  },
+  {
+    "name": "Tudjman (CRO)",
+    "Term Start Year": 1991,
+    "Years in Office": 8,
+    "Age at Term Start": 69
+  },
+  {
+    "name": "Tito (YUG)",
+    "Term Start Year": 1945,
+    "Years in Office": 35,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Izetbegovic (BOS)",
+    "Term Start Year": 1992,
+    "Years in Office": 6,
+    "Age at Term Start": 67
+  },
+  {
+    "name": "Thaci (KOS)",
+    "Term Start Year": 2008,
+    "Years in Office": 6,
+    "Age at Term Start": 40
+  },
+  {
+    "name": "Peterle (SLV)",
+    "Term Start Year": 1991,
+    "Years in Office": 1,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Diomidis (GRC)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 74
+  },
+  {
+    "name": "Makarios (CYP)",
+    "Term Start Year": 1960,
+    "Years in Office": 14,
+    "Age at Term Start": 47
+  },
+  {
+    "name": "Kolarov (BUL)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 72
+  },
+  {
+    "name": "Snegur (MLD)",
+    "Term Start Year": 1990,
+    "Years in Office": 7,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Georghiu-Dej (ROM)",
+    "Term Start Year": 1947,
+    "Years in Office": 18,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Stalin (RUS)",
+    "Term Start Year": 1923,
+    "Years in Office": 30,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Savisaar (EST)",
+    "Term Start Year": 1991,
+    "Years in Office": 1,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Godmanis (LAT)",
+    "Term Start Year": 1990,
+    "Years in Office": 3,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Landsbergis (LIT)",
+    "Term Start Year": 1990,
+    "Years in Office": 2,
+    "Age at Term Start": 59
+  },
+  {
+    "name": "Kravchuk (UKR)",
+    "Term Start Year": 1990,
+    "Years in Office": 4,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Shushkevich (BLR)",
+    "Term Start Year": 1991,
+    "Years in Office": 3,
+    "Age at Term Start": 57
+  },
+  {
+    "name": "Ter-Petrosyan (ARM)",
+    "Term Start Year": 1991,
+    "Years in Office": 7,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Gamsakhurdia (GRG)",
+    "Term Start Year": 1991,
+    "Years in Office": 1,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Mutalibov (AZE)",
+    "Term Start Year": 1991,
+    "Years in Office": 1,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Paasikivi (FIN)",
+    "Term Start Year": 1946,
+    "Years in Office": 10,
+    "Age at Term Start": 67
+  },
+  {
+    "name": "Erlander (SWD)",
+    "Term Start Year": 1946,
+    "Years in Office": 23,
+    "Age at Term Start": 45
+  },
+  {
+    "name": "Gerhardsen (NOR)",
+    "Term Start Year": 1945,
+    "Years in Office": 6,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Hedtoft (DEN)",
+    "Term Start Year": 1947,
+    "Years in Office": 3,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Thors (ICE)",
+    "Term Start Year": 1949,
+    "Years in Office": 1,
+    "Age at Term Start": 57
+  },
+  {
+    "name": "Pires (CAP)",
+    "Term Start Year": 1975,
+    "Years in Office": 16,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "da Costa (STP)",
+    "Term Start Year": 1975,
+    "Years in Office": 16,
+    "Age at Term Start": 38
+  },
+  {
+    "name": "Cabral (GNB)",
+    "Term Start Year": 1974,
+    "Years in Office": 6,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Bonifacio Ondo Edu (EQG)",
+    "Term Start Year": 1963,
+    "Years in Office": 5,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Jawara (GAM)",
+    "Term Start Year": 1965,
+    "Years in Office": 29,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Keita (MLI)",
+    "Term Start Year": 1960,
+    "Years in Office": 8,
+    "Age at Term Start": 45
+  },
+  {
+    "name": "Senghor (SEN)",
+    "Term Start Year": 1960,
+    "Years in Office": 20,
+    "Age at Term Start": 54
+  },
+  {
+    "name": "Maga (BEN)",
+    "Term Start Year": 1960,
+    "Years in Office": 3,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Ould Daddah (MAA)",
+    "Term Start Year": 1960,
+    "Years in Office": 18,
+    "Age at Term Start": 36
+  },
+  {
+    "name": "Diori (NIR)",
+    "Term Start Year": 1960,
+    "Years in Office": 14,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Houphouet-Boigny (CDI)",
+    "Term Start Year": 1960,
+    "Years in Office": 33,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Toure (GUI)",
+    "Term Start Year": 1958,
+    "Years in Office": 26,
+    "Age at Term Start": 36
+  },
+  {
+    "name": "Yameogo (BFO)",
+    "Term Start Year": 1960,
+    "Years in Office": 6,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Tubman (LBR)",
+    "Term Start Year": 1944,
+    "Years in Office": 27,
+    "Age at Term Start": 49
+  },
+  {
+    "name": "Margai,M (SIE)",
+    "Term Start Year": 1961,
+    "Years in Office": 3,
+    "Age at Term Start": 66
+  },
+  {
+    "name": "Nkrumah (GHA)",
+    "Term Start Year": 1957,
+    "Years in Office": 9,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Olympio (TOG)",
+    "Term Start Year": 1960,
+    "Years in Office": 3,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Ahidjo (CAO)",
+    "Term Start Year": 1960,
+    "Years in Office": 22,
+    "Age at Term Start": 36
+  },
+  {
+    "name": "Balewa (NIG)",
+    "Term Start Year": 1960,
+    "Years in Office": 6,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Mba (GAB)",
+    "Term Start Year": 1960,
+    "Years in Office": 7,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Dacko (CEN)",
+    "Term Start Year": 1960,
+    "Years in Office": 6,
+    "Age at Term Start": 30
+  },
+  {
+    "name": "Tombalbaye (CHA)",
+    "Term Start Year": 1960,
+    "Years in Office": 15,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Youlou (CON)",
+    "Term Start Year": 1960,
+    "Years in Office": 3,
+    "Age at Term Start": 43
+  },
+  {
+    "name": "Lumumba (DRC)",
+    "Term Start Year": 1960,
+    "Years in Office": 0,
+    "Age at Term Start": 35
+  },
+  {
+    "name": "Obote (UGA)",
+    "Term Start Year": 1962,
+    "Years in Office": 9,
+    "Age at Term Start": 38
+  },
+  {
+    "name": "Kenyatta (KEN)",
+    "Term Start Year": 1963,
+    "Years in Office": 15,
+    "Age at Term Start": 72
+  },
+  {
+    "name": "Nyerere (TAZ)",
+    "Term Start Year": 1961,
+    "Years in Office": 24,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Mwambutsa (BUI)",
+    "Term Start Year": 1962,
+    "Years in Office": 4,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Kayibanda (RWA)",
+    "Term Start Year": 1961,
+    "Years in Office": 12,
+    "Age at Term Start": 37
+  },
+  {
+    "name": "Osman Daar (SOM)",
+    "Term Start Year": 1960,
+    "Years in Office": 7,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Gouled Aptidon (DJI)",
+    "Term Start Year": 1977,
+    "Years in Office": 22,
+    "Age at Term Start": 61
+  },
+  {
+    "name": "Selassie (ETH)",
+    "Term Start Year": 1941,
+    "Years in Office": 33,
+    "Age at Term Start": 49
+  },
+  {
+    "name": "Neto (ANG)",
+    "Term Start Year": 1975,
+    "Years in Office": 4,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Machel (MZM)",
+    "Term Start Year": 1975,
+    "Years in Office": 11,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Kaunda (ZAM)",
+    "Term Start Year": 1964,
+    "Years in Office": 27,
+    "Age at Term Start": 40
+  },
+  {
+    "name": "Smith (ZIM)",
+    "Term Start Year": 1965,
+    "Years in Office": 14,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Banda (MAW)",
+    "Term Start Year": 1964,
+    "Years in Office": 30,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Malan (SAF)",
+    "Term Start Year": 1948,
+    "Years in Office": 6,
+    "Age at Term Start": 74
+  },
+  {
+    "name": "Nujoma (NAM)",
+    "Term Start Year": 1990,
+    "Years in Office": 15,
+    "Age at Term Start": 61
+  },
+  {
+    "name": "Jonathan (LES)",
+    "Term Start Year": 1966,
+    "Years in Office": 20,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Khama (BOT)",
+    "Term Start Year": 1966,
+    "Years in Office": 14,
+    "Age at Term Start": 45
+  },
+  {
+    "name": "Subhuza II (SWA)",
+    "Term Start Year": 1968,
+    "Years in Office": 14,
+    "Age at Term Start": 69
+  },
+  {
+    "name": "Tsiranana (MAG)",
+    "Term Start Year": 1960,
+    "Years in Office": 12,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Abdallah (COM)",
+    "Term Start Year": 1975,
+    "Years in Office": 0,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Ramgoolam (MAS)",
+    "Term Start Year": 1968,
+    "Years in Office": 14,
+    "Age at Term Start": 68
+  },
+  {
+    "name": "Mancham (SEY)",
+    "Term Start Year": 1976,
+    "Years in Office": 1,
+    "Age at Term Start": 37
+  },
+  {
+    "name": "Mohammed V (MOR)",
+    "Term Start Year": 1956,
+    "Years in Office": 5,
+    "Age at Term Start": 47
+  },
+  {
+    "name": "Ben Khedda (ALG)",
+    "Term Start Year": 1962,
+    "Years in Office": 0,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Muhammad al-Amin (TUN)",
+    "Term Start Year": 1956,
+    "Years in Office": 1,
+    "Age at Term Start": 75
+  },
+  {
+    "name": "Idris (LIB)",
+    "Term Start Year": 1951,
+    "Years in Office": 18,
+    "Age at Term Start": 61
+  },
+  {
+    "name": "Al-Azhari (SUD)",
+    "Term Start Year": 1956,
+    "Years in Office": 0,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Mohammad Reza (IRN)",
+    "Term Start Year": 1941,
+    "Years in Office": 10,
+    "Age at Term Start": 22
+  },
+  {
+    "name": "Inonu (TUR)",
+    "Term Start Year": 1938,
+    "Years in Office": 12,
+    "Age at Term Start": 54
+  },
+  {
+    "name": "Abdul-Ilah (IRQ)",
+    "Term Start Year": 1939,
+    "Years in Office": 14,
+    "Age at Term Start": 26
+  },
+  {
+    "name": "Farouk (EGY)",
+    "Term Start Year": 1936,
+    "Years in Office": 16,
+    "Age at Term Start": 16
+  },
+  {
+    "name": "Shishakli (SYR)",
+    "Term Start Year": 1949,
+    "Years in Office": 5,
+    "Age at Term Start": 40
+  },
+  {
+    "name": "El Khoury (LEB)",
+    "Term Start Year": 1943,
+    "Years in Office": 9,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Abdullah Al-Hussein (JOR)",
+    "Term Start Year": 1921,
+    "Years in Office": 30,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Ben Gurion (ISR)",
+    "Term Start Year": 1948,
+    "Years in Office": 6,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Aziz (SAU)",
+    "Term Start Year": 1927,
+    "Years in Office": 26,
+    "Age at Term Start": 45
+  },
+  {
+    "name": "Ibn Yahya Hamid (YAR)",
+    "Term Start Year": 1948,
+    "Years in Office": 14,
+    "Age at Term Start": 57
+  },
+  {
+    "name": "Saleh al-Hashidi (YEM)",
+    "Term Start Year": 1990,
+    "Years in Office": 22,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Al-Shaabi (YPR)",
+    "Term Start Year": 1967,
+    "Years in Office": 2,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Abdullah As-Sabah (KUW)",
+    "Term Start Year": 1950,
+    "Years in Office": 15,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Isa Ibn Al-Khalifah (BAH)",
+    "Term Start Year": 1971,
+    "Years in Office": 28,
+    "Age at Term Start": 38
+  },
+  {
+    "name": "Ahmed Ath-Thani (QAT)",
+    "Term Start Year": 1971,
+    "Years in Office": 1,
+    "Age at Term Start": 54
+  },
+  {
+    "name": "An-Nahayan (UAE)",
+    "Term Start Year": 1971,
+    "Years in Office": 33,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Qabus Bin Said (OMA)",
+    "Term Start Year": 1970,
+    "Years in Office": 50,
+    "Age at Term Start": 30
+  },
+  {
+    "name": "Mahmud Khan Ghazi (AFG)",
+    "Term Start Year": 1946,
+    "Years in Office": 7,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Niyazov (TKM)",
+    "Term Start Year": 1990,
+    "Years in Office": 16,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Kadreddin Aslonov (TAJ)",
+    "Term Start Year": 1991,
+    "Years in Office": 0,
+    "Age at Term Start": 44
+  },
+  {
+    "name": "Akayev (KYR)",
+    "Term Start Year": 1990,
+    "Years in Office": 15,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Karimov (UZB)",
+    "Term Start Year": 1990,
+    "Years in Office": 26,
+    "Age at Term Start": 52
+  },
+  {
+    "name": "Nazarbaev (KZK)",
+    "Term Start Year": 1990,
+    "Years in Office": 29,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Mao Tse-Tung (CHN)",
+    "Term Start Year": 1949,
+    "Years in Office": 27,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Choibalsan (MON)",
+    "Term Start Year": 1936,
+    "Years in Office": 16,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Kim Il-Sung (PRK)",
+    "Term Start Year": 1948,
+    "Years in Office": 46,
+    "Age at Term Start": 36
+  },
+  {
+    "name": "Rhee (ROK)",
+    "Term Start Year": 1948,
+    "Years in Office": 12,
+    "Age at Term Start": 73
+  },
+  {
+    "name": "MacArthur (JPN)",
+    "Term Start Year": 1945,
+    "Years in Office": 6,
+    "Age at Term Start": 65
+  },
+  {
+    "name": "Nehru (IND)",
+    "Term Start Year": 1947,
+    "Years in Office": 17,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Wangchuk, Jigme Dorji (BHU)",
+    "Term Start Year": 1952,
+    "Years in Office": 20,
+    "Age at Term Start": 23
+  },
+  {
+    "name": "L. Khan (PAK)",
+    "Term Start Year": 1948,
+    "Years in Office": 3,
+    "Age at Term Start": 53
+  },
+  {
+    "name": "Syed Nazrul Islam (BNG)",
+    "Term Start Year": 1971,
+    "Years in Office": 1,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "U Nu (MYA)",
+    "Term Start Year": 1948,
+    "Years in Office": 8,
+    "Age at Term Start": 41
+  },
+  {
+    "name": "Senanayake, Don (SRI)",
+    "Term Start Year": 1948,
+    "Years in Office": 4,
+    "Age at Term Start": 64
+  },
+  {
+    "name": "Nasir (MAD)",
+    "Term Start Year": 1965,
+    "Years in Office": 13,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Mohan Rana (NEP)",
+    "Term Start Year": 1948,
+    "Years in Office": 3,
+    "Age at Term Start": 63
+  },
+  {
+    "name": "Plaek Pibulsongkram (THI)",
+    "Term Start Year": 1947,
+    "Years in Office": 10,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Sihanouk (CAM)",
+    "Term Start Year": 1953,
+    "Years in Office": 17,
+    "Age at Term Start": 31
+  },
+  {
+    "name": "Katay Don Sasorith (LAO)",
+    "Term Start Year": 1954,
+    "Years in Office": 2,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Ho Chi Minh (DRV)",
+    "Term Start Year": 1945,
+    "Years in Office": 24,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Pham Buu Loc (RVN)",
+    "Term Start Year": 1954,
+    "Years in Office": 0,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Rahman (MAL)",
+    "Term Start Year": 1957,
+    "Years in Office": 2,
+    "Age at Term Start": 62
+  },
+  {
+    "name": "Lee Kuan Yew (SIN)",
+    "Term Start Year": 1965,
+    "Years in Office": 25,
+    "Age at Term Start": 42
+  },
+  {
+    "name": "Quirrino (PHI)",
+    "Term Start Year": 1948,
+    "Years in Office": 5,
+    "Age at Term Start": 58
+  },
+  {
+    "name": "Sukarno (INS)",
+    "Term Start Year": 1949,
+    "Years in Office": 17,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Gusmao (ETM)",
+    "Term Start Year": 2002,
+    "Years in Office": 5,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Menzies (AUL)",
+    "Term Start Year": 1949,
+    "Years in Office": 17,
+    "Age at Term Start": 55
+  },
+  {
+    "name": "Somare (PNG)",
+    "Term Start Year": 1975,
+    "Years in Office": 5,
+    "Age at Term Start": 39
+  },
+  {
+    "name": "Holland (NEW)",
+    "Term Start Year": 1949,
+    "Years in Office": 8,
+    "Age at Term Start": 56
+  },
+  {
+    "name": "Lini (VAN)",
+    "Term Start Year": 1980,
+    "Years in Office": 11,
+    "Age at Term Start": 38
+  },
+  {
+    "name": "Kenilorea (SOL)",
+    "Term Start Year": 1978,
+    "Years in Office": 3,
+    "Age at Term Start": 35
+  },
+  {
+    "name": "Tabai (KIR)",
+    "Term Start Year": 1979,
+    "Years in Office": 12,
+    "Age at Term Start": 29
+  },
+  {
+    "name": "Lauti (TUV)",
+    "Term Start Year": 1978,
+    "Years in Office": 3,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Mara (FIJ)",
+    "Term Start Year": 1970,
+    "Years in Office": 17,
+    "Age at Term Start": 50
+  },
+  {
+    "name": "Tu'ipelehake (TON)",
+    "Term Start Year": 1970,
+    "Years in Office": 21,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "DeRoburt (NAU)",
+    "Term Start Year": 1968,
+    "Years in Office": 8,
+    "Age at Term Start": 46
+  },
+  {
+    "name": "Amata Kabua (MSI)",
+    "Term Start Year": 1979,
+    "Years in Office": 17,
+    "Age at Term Start": 51
+  },
+  {
+    "name": "Remeliik (PAL)",
+    "Term Start Year": 1981,
+    "Years in Office": 4,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Nakyama (FSM)",
+    "Term Start Year": 1979,
+    "Years in Office": 8,
+    "Age at Term Start": 48
+  },
+  {
+    "name": "Mata'afa Mulinu'u (WSM)",
+    "Term Start Year": 1962,
+    "Years in Office": 8,
+    "Age at Term Start": 41
+  }
+]
