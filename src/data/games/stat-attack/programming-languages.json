@@ -1,0 +1,716 @@
+[
+  {
+    "name": "Java",
+    "Year Appeared": 1995,
+    "No. of Jobs": 85206,
+    "No. of Books": 401
+  },
+  {
+    "name": "JavaScript",
+    "Year Appeared": 1995,
+    "No. of Jobs": 63993,
+    "No. of Books": 351
+  },
+  {
+    "name": "C",
+    "Year Appeared": 1972,
+    "No. of Jobs": 59919,
+    "No. of Books": 78
+  },
+  {
+    "name": "Python",
+    "Year Appeared": 1991,
+    "No. of Jobs": 46976,
+    "No. of Books": 342
+  },
+  {
+    "name": "SQL",
+    "Year Appeared": 1974,
+    "No. of Jobs": 219617,
+    "No. of Books": 182
+  },
+  {
+    "name": "C++",
+    "Year Appeared": 1985,
+    "No. of Jobs": 61098,
+    "No. of Books": 128
+  },
+  {
+    "name": "HTML",
+    "Year Appeared": 1991,
+    "No. of Jobs": 69531,
+    "No. of Books": 116
+  },
+  {
+    "name": "Linux",
+    "Year Appeared": 1991,
+    "No. of Jobs": 32007,
+    "No. of Books": 2
+  },
+  {
+    "name": "XML",
+    "Year Appeared": 1996,
+    "No. of Jobs": 42277,
+    "No. of Books": 151
+  },
+  {
+    "name": "PHP",
+    "Year Appeared": 1995,
+    "No. of Jobs": 30349,
+    "No. of Books": 274
+  },
+  {
+    "name": "Perl",
+    "Year Appeared": 1987,
+    "No. of Jobs": 13482,
+    "No. of Books": 276
+  },
+  {
+    "name": "MATLAB",
+    "Year Appeared": 1984,
+    "No. of Jobs": 32228,
+    "No. of Books": 177
+  },
+  {
+    "name": "Ruby",
+    "Year Appeared": 1995,
+    "No. of Jobs": 11438,
+    "No. of Books": 65
+  },
+  {
+    "name": "C#",
+    "Year Appeared": 2000,
+    "No. of Jobs": 19747,
+    "No. of Books": 3
+  },
+  {
+    "name": "Android",
+    "Year Appeared": 2008,
+    "No. of Jobs": 9263,
+    "No. of Books": 2
+  },
+  {
+    "name": "MySQL",
+    "Year Appeared": 1995,
+    "No. of Jobs": 47466,
+    "No. of Books": 168
+  },
+  {
+    "name": "Fortran",
+    "Year Appeared": 1957,
+    "No. of Jobs": 1931,
+    "No. of Books": 321
+  },
+  {
+    "name": "CSS",
+    "Year Appeared": 1996,
+    "No. of Jobs": 45617,
+    "No. of Books": 102
+  },
+  {
+    "name": "R",
+    "Year Appeared": 1993,
+    "No. of Jobs": 14173,
+    "No. of Books": 40
+  },
+  {
+    "name": "JSON",
+    "Year Appeared": 2001,
+    "No. of Jobs": 9228,
+    "No. of Books": 17
+  },
+  {
+    "name": "iOS",
+    "Year Appeared": 2007,
+    "No. of Jobs": 5010,
+    "No. of Books": 9
+  },
+  {
+    "name": "Go",
+    "Year Appeared": 2009,
+    "No. of Jobs": 6403,
+    "No. of Books": 5
+  },
+  {
+    "name": "Scala",
+    "Year Appeared": 2004,
+    "No. of Jobs": 4525,
+    "No. of Books": 130
+  },
+  {
+    "name": "Swift",
+    "Year Appeared": 2014,
+    "No. of Jobs": 3754,
+    "No. of Books": 125
+  },
+  {
+    "name": "Ada",
+    "Year Appeared": 1980,
+    "No. of Jobs": 2184,
+    "No. of Books": 64
+  },
+  {
+    "name": "COBOL",
+    "Year Appeared": 1959,
+    "No. of Jobs": 2616,
+    "No. of Books": 301
+  },
+  {
+    "name": "Rust",
+    "Year Appeared": 2010,
+    "No. of Jobs": 141,
+    "No. of Books": 65
+  },
+  {
+    "name": "PostgreSQL",
+    "Year Appeared": 1986,
+    "No. of Jobs": 13084,
+    "No. of Books": 40
+  },
+  {
+    "name": "Kotlin",
+    "Year Appeared": 2011,
+    "No. of Jobs": 5276,
+    "No. of Books": 99
+  },
+  {
+    "name": "Arduino Programming Language",
+    "Year Appeared": 2005,
+    "No. of Jobs": 598,
+    "No. of Books": 265
+  },
+  {
+    "name": "PowerShell",
+    "Year Appeared": 2006,
+    "No. of Jobs": 19576,
+    "No. of Books": 107
+  },
+  {
+    "name": "Pascal",
+    "Year Appeared": 1970,
+    "No. of Jobs": 102,
+    "No. of Books": 145
+  },
+  {
+    "name": "Haskell",
+    "Year Appeared": 1990,
+    "No. of Jobs": 495,
+    "No. of Books": 70
+  },
+  {
+    "name": "TypeScript",
+    "Year Appeared": 2012,
+    "No. of Jobs": 1542,
+    "No. of Books": 56
+  },
+  {
+    "name": "SAS",
+    "Year Appeared": 1976,
+    "No. of Jobs": 4682,
+    "No. of Books": 96
+  },
+  {
+    "name": "ARM",
+    "Year Appeared": 1985,
+    "No. of Jobs": 7695,
+    "No. of Books": 52
+  },
+  {
+    "name": "Lisp",
+    "Year Appeared": 1958,
+    "No. of Jobs": 303,
+    "No. of Books": 75
+  },
+  {
+    "name": "Lua",
+    "Year Appeared": 1993,
+    "No. of Jobs": 1106,
+    "No. of Books": 35
+  },
+  {
+    "name": "Julia",
+    "Year Appeared": 2012,
+    "No. of Jobs": 85,
+    "No. of Books": 22
+  },
+  {
+    "name": "Prolog",
+    "Year Appeared": 1972,
+    "No. of Jobs": 446,
+    "No. of Books": 100
+  },
+  {
+    "name": "Node.js",
+    "Year Appeared": 2009,
+    "No. of Jobs": 6864,
+    "No. of Books": 79
+  },
+  {
+    "name": "HTTP",
+    "Year Appeared": 1989,
+    "No. of Jobs": 771996,
+    "No. of Books": 12
+  },
+  {
+    "name": "Objective-C",
+    "Year Appeared": 1984,
+    "No. of Jobs": 4276,
+    "No. of Books": 15
+  },
+  {
+    "name": "Clojure",
+    "Year Appeared": 2007,
+    "No. of Jobs": 469,
+    "No. of Books": 60
+  },
+  {
+    "name": "Scheme",
+    "Year Appeared": 1970,
+    "No. of Jobs": 1174,
+    "No. of Books": 24
+  },
+  {
+    "name": "Assembly language",
+    "Year Appeared": 1960,
+    "No. of Jobs": 1329,
+    "No. of Books": 0
+  },
+  {
+    "name": "Erlang",
+    "Year Appeared": 1986,
+    "No. of Jobs": 308,
+    "No. of Books": 29
+  },
+  {
+    "name": "Bash",
+    "Year Appeared": 1989,
+    "No. of Jobs": 4774,
+    "No. of Books": 33
+  },
+  {
+    "name": "JQuery",
+    "Year Appeared": 2006,
+    "No. of Jobs": 24780,
+    "No. of Books": 2
+  },
+  {
+    "name": "Mathematica",
+    "Year Appeared": 1988,
+    "No. of Jobs": 1553,
+    "No. of Books": 72
+  },
+  {
+    "name": "ISBN",
+    "Year Appeared": 1970,
+    "No. of Jobs": 53,
+    "No. of Books": 3
+  },
+  {
+    "name": "Elixir",
+    "Year Appeared": 2011,
+    "No. of Jobs": 214,
+    "No. of Books": 31
+  },
+  {
+    "name": "CUDA",
+    "Year Appeared": 2007,
+    "No. of Jobs": 769,
+    "No. of Books": 35
+  },
+  {
+    "name": "Dart",
+    "Year Appeared": 2011,
+    "No. of Jobs": 208,
+    "No. of Books": 30
+  },
+  {
+    "name": "MongoDB",
+    "Year Appeared": 2009,
+    "No. of Jobs": 3787,
+    "No. of Books": 2
+  },
+  {
+    "name": "Visual Basic",
+    "Year Appeared": 1991,
+    "No. of Jobs": 3294,
+    "No. of Books": 0
+  },
+  {
+    "name": "ActionScript",
+    "Year Appeared": 1998,
+    "No. of Jobs": 88,
+    "No. of Books": 108
+  },
+  {
+    "name": "VBA",
+    "Year Appeared": 1993,
+    "No. of Jobs": 511,
+    "No. of Books": 270
+  },
+  {
+    "name": "Ruby on Rails",
+    "Year Appeared": 2005,
+    "No. of Jobs": 6343,
+    "No. of Books": 1
+  },
+  {
+    "name": "WordPress",
+    "Year Appeared": 2003,
+    "No. of Jobs": 14952,
+    "No. of Books": 3
+  },
+  {
+    "name": "Verilog",
+    "Year Appeared": 1984,
+    "No. of Jobs": 246,
+    "No. of Books": 34
+  },
+  {
+    "name": "awk",
+    "Year Appeared": 1977,
+    "No. of Jobs": 7,
+    "No. of Books": 26
+  },
+  {
+    "name": "Delphi",
+    "Year Appeared": 1995,
+    "No. of Jobs": 181,
+    "No. of Books": 88
+  },
+  {
+    "name": "Solidity",
+    "Year Appeared": 2014,
+    "No. of Jobs": 937,
+    "No. of Books": 22
+  },
+  {
+    "name": "AWS",
+    "Year Appeared": 2006,
+    "No. of Jobs": 2512,
+    "No. of Books": 2
+  },
+  {
+    "name": "ASP",
+    "Year Appeared": 1996,
+    "No. of Jobs": 9630,
+    "No. of Books": 72
+  },
+  {
+    "name": "Yacc",
+    "Year Appeared": 1975,
+    "No. of Jobs": 17,
+    "No. of Books": 4
+  },
+  {
+    "name": "Git",
+    "Year Appeared": 2005,
+    "No. of Jobs": 7032,
+    "No. of Books": 0
+  },
+  {
+    "name": "Elm",
+    "Year Appeared": 2012,
+    "No. of Jobs": 127,
+    "No. of Books": 5
+  },
+  {
+    "name": "Racket",
+    "Year Appeared": 1994,
+    "No. of Jobs": 48,
+    "No. of Books": 4
+  },
+  {
+    "name": "Common Lisp",
+    "Year Appeared": 1984,
+    "No. of Jobs": 24,
+    "No. of Books": 6
+  },
+  {
+    "name": "Maple",
+    "Year Appeared": 1982,
+    "No. of Jobs": 511,
+    "No. of Books": 28
+  },
+  {
+    "name": "CoffeeScript",
+    "Year Appeared": 2009,
+    "No. of Jobs": 216,
+    "No. of Books": 17
+  },
+  {
+    "name": "OpenCL",
+    "Year Appeared": 2009,
+    "No. of Jobs": 266,
+    "No. of Books": 25
+  },
+  {
+    "name": "MediaWiki",
+    "Year Appeared": 2002,
+    "No. of Jobs": 69,
+    "No. of Books": 2
+  },
+  {
+    "name": "Microsoft Azure",
+    "Year Appeared": 2010,
+    "No. of Jobs": 1448,
+    "No. of Books": 1
+  },
+  {
+    "name": "YAML",
+    "Year Appeared": 2001,
+    "No. of Jobs": 61,
+    "No. of Books": 0
+  },
+  {
+    "name": "REST",
+    "Year Appeared": 1996,
+    "No. of Jobs": 26215,
+    "No. of Books": 5
+  },
+  {
+    "name": "XQuery",
+    "Year Appeared": 2007,
+    "No. of Jobs": 125,
+    "No. of Books": 2
+  },
+  {
+    "name": "Nginx",
+    "Year Appeared": 2004,
+    "No. of Jobs": 2884,
+    "No. of Books": 6
+  },
+  {
+    "name": "SPSS",
+    "Year Appeared": 1968,
+    "No. of Jobs": 9587,
+    "No. of Books": 14
+  },
+  {
+    "name": "PowerPC",
+    "Year Appeared": 1992,
+    "No. of Jobs": 59,
+    "No. of Books": 10
+  },
+  {
+    "name": "SOAP",
+    "Year Appeared": 1998,
+    "No. of Jobs": 7493,
+    "No. of Books": 11
+  },
+  {
+    "name": "Rexx",
+    "Year Appeared": 1979,
+    "No. of Jobs": 40,
+    "No. of Books": 19
+  },
+  {
+    "name": "ANTLR",
+    "Year Appeared": 1992,
+    "No. of Jobs": 30,
+    "No. of Books": 1
+  },
+  {
+    "name": "Visual Basic .NET",
+    "Year Appeared": 2001,
+    "No. of Jobs": 3447,
+    "No. of Books": 0
+  },
+  {
+    "name": "Liquid",
+    "Year Appeared": 2008,
+    "No. of Jobs": 325,
+    "No. of Books": 2
+  },
+  {
+    "name": "ML",
+    "Year Appeared": 1973,
+    "No. of Jobs": 6,
+    "No. of Books": 33
+  },
+  {
+    "name": "Haxe",
+    "Year Appeared": 2005,
+    "No. of Jobs": 1,
+    "No. of Books": 5
+  },
+  {
+    "name": "VBScript",
+    "Year Appeared": 1996,
+    "No. of Jobs": 142,
+    "No. of Books": 40
+  },
+  {
+    "name": "WebAssembly",
+    "Year Appeared": 2015,
+    "No. of Jobs": 5,
+    "No. of Books": 13
+  },
+  {
+    "name": "Chapel",
+    "Year Appeared": 2004,
+    "No. of Jobs": 1,
+    "No. of Books": 2
+  },
+  {
+    "name": "LabVIEW G",
+    "Year Appeared": 1986,
+    "No. of Jobs": 2012,
+    "No. of Books": 0
+  },
+  {
+    "name": "Applescript",
+    "Year Appeared": 1993,
+    "No. of Jobs": 6,
+    "No. of Books": 15
+  },
+  {
+    "name": "Lasso",
+    "Year Appeared": 1995,
+    "No. of Jobs": 142,
+    "No. of Books": 0
+  },
+  {
+    "name": "fish",
+    "Year Appeared": 2005,
+    "No. of Jobs": 1,
+    "No. of Books": 1
+  },
+  {
+    "name": "LLVM IR",
+    "Year Appeared": 2003,
+    "No. of Jobs": 23,
+    "No. of Books": 0
+  },
+  {
+    "name": "Protocol Buffers",
+    "Year Appeared": 2008,
+    "No. of Jobs": 94,
+    "No. of Books": 0
+  },
+  {
+    "name": "Idris",
+    "Year Appeared": 2014,
+    "No. of Jobs": 1,
+    "No. of Books": 1
+  },
+  {
+    "name": "SQLite",
+    "Year Appeared": 2000,
+    "No. of Jobs": 561,
+    "No. of Books": 11
+  },
+  {
+    "name": "UDP",
+    "Year Appeared": 1980,
+    "No. of Jobs": 35,
+    "No. of Books": 1
+  },
+  {
+    "name": "AMPL",
+    "Year Appeared": 1985,
+    "No. of Jobs": 3,
+    "No. of Books": 8
+  },
+  {
+    "name": "Drupal",
+    "Year Appeared": 2000,
+    "No. of Jobs": 1642,
+    "No. of Books": 1
+  },
+  {
+    "name": "Tex",
+    "Year Appeared": 1978,
+    "No. of Jobs": 3,
+    "No. of Books": 3
+  },
+  {
+    "name": "PL/SQL",
+    "Year Appeared": 1991,
+    "No. of Jobs": 2972,
+    "No. of Books": 5
+  },
+  {
+    "name": "Hack",
+    "Year Appeared": 2014,
+    "No. of Jobs": 19,
+    "No. of Books": 27
+  },
+  {
+    "name": "MIPS architecture",
+    "Year Appeared": 1985,
+    "No. of Jobs": 12,
+    "No. of Books": 0
+  },
+  {
+    "name": "ABAP",
+    "Year Appeared": 1983,
+    "No. of Jobs": 283,
+    "No. of Books": 55
+  },
+  {
+    "name": "MIME",
+    "Year Appeared": 1991,
+    "No. of Jobs": 1,
+    "No. of Books": 1
+  },
+  {
+    "name": "TensorFlow",
+    "Year Appeared": 2015,
+    "No. of Jobs": 721,
+    "No. of Books": 1
+  },
+  {
+    "name": "Redis",
+    "Year Appeared": 2009,
+    "No. of Jobs": 591,
+    "No. of Books": 0
+  },
+  {
+    "name": "x86-64",
+    "Year Appeared": 2000,
+    "No. of Jobs": 413,
+    "No. of Books": 0
+  },
+  {
+    "name": "Pandas",
+    "Year Appeared": 2008,
+    "No. of Jobs": 341,
+    "No. of Books": 3
+  },
+  {
+    "name": "CouchDB",
+    "Year Appeared": 2005,
+    "No. of Jobs": 13,
+    "No. of Books": 3
+  },
+  {
+    "name": "Qualcomm Hexagon",
+    "Year Appeared": 2006,
+    "No. of Jobs": 10,
+    "No. of Books": 0
+  },
+  {
+    "name": "JavaCC",
+    "Year Appeared": 1996,
+    "No. of Jobs": 5,
+    "No. of Books": 0
+  },
+  {
+    "name": "Apache Hbase",
+    "Year Appeared": 2008,
+    "No. of Jobs": 65,
+    "No. of Books": 2
+  },
+  {
+    "name": "Rholang",
+    "Year Appeared": 2016,
+    "No. of Jobs": 13,
+    "No. of Books": 0
+  },
+  {
+    "name": "Tag Line Commands",
+    "Year Appeared": 2015,
+    "No. of Jobs": 579,
+    "No. of Books": 0
+  }
+]
