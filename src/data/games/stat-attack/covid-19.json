@@ -1,0 +1,824 @@
+[
+  {
+    "name": "Afghanistan",
+    "Confirmed Cases": 36263,
+    "Death Rate (%)": 3.5,
+    "Recovery Rate (%)": 69.49
+  },
+  {
+    "name": "Albania",
+    "Confirmed Cases": 4880,
+    "Death Rate (%)": 2.95,
+    "Recovery Rate (%)": 56.25
+  },
+  {
+    "name": "Algeria",
+    "Confirmed Cases": 27973,
+    "Death Rate (%)": 4.16,
+    "Recovery Rate (%)": 67.34
+  },
+  {
+    "name": "Andorra",
+    "Confirmed Cases": 907,
+    "Death Rate (%)": 5.73,
+    "Recovery Rate (%)": 88.53
+  },
+  {
+    "name": "Angola",
+    "Confirmed Cases": 950,
+    "Death Rate (%)": 4.32,
+    "Recovery Rate (%)": 25.47
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "Confirmed Cases": 86,
+    "Death Rate (%)": 3.49,
+    "Recovery Rate (%)": 75.58
+  },
+  {
+    "name": "Argentina",
+    "Confirmed Cases": 167416,
+    "Death Rate (%)": 1.83,
+    "Recovery Rate (%)": 43.35
+  },
+  {
+    "name": "Armenia",
+    "Confirmed Cases": 37390,
+    "Death Rate (%)": 1.9,
+    "Recovery Rate (%)": 71.32
+  },
+  {
+    "name": "Australia",
+    "Confirmed Cases": 15303,
+    "Death Rate (%)": 1.09,
+    "Recovery Rate (%)": 60.84
+  },
+  {
+    "name": "Austria",
+    "Confirmed Cases": 20558,
+    "Death Rate (%)": 3.47,
+    "Recovery Rate (%)": 88.75
+  },
+  {
+    "name": "Azerbaijan",
+    "Confirmed Cases": 30446,
+    "Death Rate (%)": 1.39,
+    "Recovery Rate (%)": 76.34
+  },
+  {
+    "name": "Bahamas",
+    "Confirmed Cases": 382,
+    "Death Rate (%)": 2.88,
+    "Recovery Rate (%)": 23.82
+  },
+  {
+    "name": "Bahrain",
+    "Confirmed Cases": 39482,
+    "Death Rate (%)": 0.36,
+    "Recovery Rate (%)": 91.46
+  },
+  {
+    "name": "Bangladesh",
+    "Confirmed Cases": 226225,
+    "Death Rate (%)": 1.31,
+    "Recovery Rate (%)": 55.56
+  },
+  {
+    "name": "Barbados",
+    "Confirmed Cases": 110,
+    "Death Rate (%)": 6.36,
+    "Recovery Rate (%)": 85.45
+  },
+  {
+    "name": "Belarus",
+    "Confirmed Cases": 67251,
+    "Death Rate (%)": 0.8,
+    "Recovery Rate (%)": 89.95
+  },
+  {
+    "name": "Belgium",
+    "Confirmed Cases": 66428,
+    "Death Rate (%)": 14.79,
+    "Recovery Rate (%)": 26.27
+  },
+  {
+    "name": "Belize",
+    "Confirmed Cases": 48,
+    "Death Rate (%)": 4.17,
+    "Recovery Rate (%)": 54.17
+  },
+  {
+    "name": "Benin",
+    "Confirmed Cases": 1770,
+    "Death Rate (%)": 1.98,
+    "Recovery Rate (%)": 58.53
+  },
+  {
+    "name": "Bolivia",
+    "Confirmed Cases": 71181,
+    "Death Rate (%)": 3.72,
+    "Recovery Rate (%)": 30.17
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "Confirmed Cases": 10498,
+    "Death Rate (%)": 2.8,
+    "Recovery Rate (%)": 46.96
+  },
+  {
+    "name": "Botswana",
+    "Confirmed Cases": 739,
+    "Death Rate (%)": 0.27,
+    "Recovery Rate (%)": 8.53
+  },
+  {
+    "name": "Brazil",
+    "Confirmed Cases": 2442375,
+    "Death Rate (%)": 3.59,
+    "Recovery Rate (%)": 75.61
+  },
+  {
+    "name": "Brunei",
+    "Confirmed Cases": 141,
+    "Death Rate (%)": 2.13,
+    "Recovery Rate (%)": 97.87
+  },
+  {
+    "name": "Bulgaria",
+    "Confirmed Cases": 10621,
+    "Death Rate (%)": 3.27,
+    "Recovery Rate (%)": 52.58
+  },
+  {
+    "name": "Burkina Faso",
+    "Confirmed Cases": 1100,
+    "Death Rate (%)": 4.82,
+    "Recovery Rate (%)": 84.18
+  },
+  {
+    "name": "Burma",
+    "Confirmed Cases": 350,
+    "Death Rate (%)": 1.71,
+    "Recovery Rate (%)": 83.43
+  },
+  {
+    "name": "Burundi",
+    "Confirmed Cases": 378,
+    "Death Rate (%)": 0.26,
+    "Recovery Rate (%)": 79.63
+  },
+  {
+    "name": "Cabo Verde",
+    "Confirmed Cases": 2328,
+    "Death Rate (%)": 0.95,
+    "Recovery Rate (%)": 66.58
+  },
+  {
+    "name": "Cameroon",
+    "Confirmed Cases": 17110,
+    "Death Rate (%)": 2.29,
+    "Recovery Rate (%)": 84.97
+  },
+  {
+    "name": "Central African Republic",
+    "Confirmed Cases": 4599,
+    "Death Rate (%)": 1.28,
+    "Recovery Rate (%)": 33.62
+  },
+  {
+    "name": "Chad",
+    "Confirmed Cases": 922,
+    "Death Rate (%)": 8.13,
+    "Recovery Rate (%)": 87.85
+  },
+  {
+    "name": "Chile",
+    "Confirmed Cases": 347923,
+    "Death Rate (%)": 2.64,
+    "Recovery Rate (%)": 91.96
+  },
+  {
+    "name": "China",
+    "Confirmed Cases": 86783,
+    "Death Rate (%)": 5.37,
+    "Recovery Rate (%)": 90.88
+  },
+  {
+    "name": "Colombia",
+    "Confirmed Cases": 257101,
+    "Death Rate (%)": 3.41,
+    "Recovery Rate (%)": 51.02
+  },
+  {
+    "name": "Congo (Brazzaville)",
+    "Confirmed Cases": 3200,
+    "Death Rate (%)": 1.69,
+    "Recovery Rate (%)": 25.91
+  },
+  {
+    "name": "Congo (Kinshasa)",
+    "Confirmed Cases": 8844,
+    "Death Rate (%)": 2.35,
+    "Recovery Rate (%)": 64.45
+  },
+  {
+    "name": "Costa Rica",
+    "Confirmed Cases": 15841,
+    "Death Rate (%)": 0.73,
+    "Recovery Rate (%)": 24.14
+  },
+  {
+    "name": "Cote d'Ivoire",
+    "Confirmed Cases": 15655,
+    "Death Rate (%)": 0.61,
+    "Recovery Rate (%)": 66.18
+  },
+  {
+    "name": "Croatia",
+    "Confirmed Cases": 4881,
+    "Death Rate (%)": 2.85,
+    "Recovery Rate (%)": 80.64
+  },
+  {
+    "name": "Cuba",
+    "Confirmed Cases": 2532,
+    "Death Rate (%)": 3.44,
+    "Recovery Rate (%)": 92.85
+  },
+  {
+    "name": "Cyprus",
+    "Confirmed Cases": 1060,
+    "Death Rate (%)": 1.79,
+    "Recovery Rate (%)": 80.38
+  },
+  {
+    "name": "Czechia",
+    "Confirmed Cases": 15516,
+    "Death Rate (%)": 2.4,
+    "Recovery Rate (%)": 73.65
+  },
+  {
+    "name": "Denmark",
+    "Confirmed Cases": 13761,
+    "Death Rate (%)": 4.45,
+    "Recovery Rate (%)": 91.6
+  },
+  {
+    "name": "Djibouti",
+    "Confirmed Cases": 5059,
+    "Death Rate (%)": 1.15,
+    "Recovery Rate (%)": 98.38
+  },
+  {
+    "name": "Ecuador",
+    "Confirmed Cases": 81161,
+    "Death Rate (%)": 6.82,
+    "Recovery Rate (%)": 43.0
+  },
+  {
+    "name": "Egypt",
+    "Confirmed Cases": 92482,
+    "Death Rate (%)": 5.03,
+    "Recovery Rate (%)": 37.67
+  },
+  {
+    "name": "El Salvador",
+    "Confirmed Cases": 15035,
+    "Death Rate (%)": 2.71,
+    "Recovery Rate (%)": 51.73
+  },
+  {
+    "name": "Equatorial Guinea",
+    "Confirmed Cases": 3071,
+    "Death Rate (%)": 1.66,
+    "Recovery Rate (%)": 27.42
+  },
+  {
+    "name": "Estonia",
+    "Confirmed Cases": 2034,
+    "Death Rate (%)": 3.39,
+    "Recovery Rate (%)": 94.54
+  },
+  {
+    "name": "Eswatini",
+    "Confirmed Cases": 2316,
+    "Death Rate (%)": 1.47,
+    "Recovery Rate (%)": 44.26
+  },
+  {
+    "name": "Ethiopia",
+    "Confirmed Cases": 14547,
+    "Death Rate (%)": 1.57,
+    "Recovery Rate (%)": 43.9
+  },
+  {
+    "name": "France",
+    "Confirmed Cases": 220352,
+    "Death Rate (%)": 13.71,
+    "Recovery Rate (%)": 36.86
+  },
+  {
+    "name": "Gabon",
+    "Confirmed Cases": 7189,
+    "Death Rate (%)": 0.68,
+    "Recovery Rate (%)": 65.13
+  },
+  {
+    "name": "Gambia",
+    "Confirmed Cases": 326,
+    "Death Rate (%)": 2.45,
+    "Recovery Rate (%)": 20.25
+  },
+  {
+    "name": "Georgia",
+    "Confirmed Cases": 1137,
+    "Death Rate (%)": 1.41,
+    "Recovery Rate (%)": 81.09
+  },
+  {
+    "name": "Germany",
+    "Confirmed Cases": 207112,
+    "Death Rate (%)": 4.41,
+    "Recovery Rate (%)": 91.89
+  },
+  {
+    "name": "Ghana",
+    "Confirmed Cases": 33624,
+    "Death Rate (%)": 0.5,
+    "Recovery Rate (%)": 88.63
+  },
+  {
+    "name": "Greece",
+    "Confirmed Cases": 4227,
+    "Death Rate (%)": 4.78,
+    "Recovery Rate (%)": 32.51
+  },
+  {
+    "name": "Guatemala",
+    "Confirmed Cases": 45309,
+    "Death Rate (%)": 3.89,
+    "Recovery Rate (%)": 71.63
+  },
+  {
+    "name": "Guinea",
+    "Confirmed Cases": 7055,
+    "Death Rate (%)": 0.64,
+    "Recovery Rate (%)": 88.69
+  },
+  {
+    "name": "Guinea-Bissau",
+    "Confirmed Cases": 1954,
+    "Death Rate (%)": 1.33,
+    "Recovery Rate (%)": 41.1
+  },
+  {
+    "name": "Guyana",
+    "Confirmed Cases": 389,
+    "Death Rate (%)": 5.14,
+    "Recovery Rate (%)": 46.53
+  },
+  {
+    "name": "Haiti",
+    "Confirmed Cases": 7340,
+    "Death Rate (%)": 2.15,
+    "Recovery Rate (%)": 59.47
+  },
+  {
+    "name": "Honduras",
+    "Confirmed Cases": 39741,
+    "Death Rate (%)": 2.93,
+    "Recovery Rate (%)": 12.68
+  },
+  {
+    "name": "Hungary",
+    "Confirmed Cases": 4448,
+    "Death Rate (%)": 13.4,
+    "Recovery Rate (%)": 74.84
+  },
+  {
+    "name": "Iceland",
+    "Confirmed Cases": 1854,
+    "Death Rate (%)": 0.54,
+    "Recovery Rate (%)": 98.33
+  },
+  {
+    "name": "India",
+    "Confirmed Cases": 1480073,
+    "Death Rate (%)": 2.26,
+    "Recovery Rate (%)": 64.26
+  },
+  {
+    "name": "Iran",
+    "Confirmed Cases": 293606,
+    "Death Rate (%)": 5.42,
+    "Recovery Rate (%)": 86.9
+  },
+  {
+    "name": "Iraq",
+    "Confirmed Cases": 112585,
+    "Death Rate (%)": 3.96,
+    "Recovery Rate (%)": 68.52
+  },
+  {
+    "name": "Ireland",
+    "Confirmed Cases": 25892,
+    "Death Rate (%)": 6.81,
+    "Recovery Rate (%)": 90.24
+  },
+  {
+    "name": "Israel",
+    "Confirmed Cases": 63985,
+    "Death Rate (%)": 0.74,
+    "Recovery Rate (%)": 42.41
+  },
+  {
+    "name": "Jamaica",
+    "Confirmed Cases": 853,
+    "Death Rate (%)": 1.17,
+    "Recovery Rate (%)": 83.7
+  },
+  {
+    "name": "Japan",
+    "Confirmed Cases": 31142,
+    "Death Rate (%)": 3.2,
+    "Recovery Rate (%)": 70.55
+  },
+  {
+    "name": "Jordan",
+    "Confirmed Cases": 1176,
+    "Death Rate (%)": 0.94,
+    "Recovery Rate (%)": 88.52
+  },
+  {
+    "name": "Kazakhstan",
+    "Confirmed Cases": 84648,
+    "Death Rate (%)": 0.69,
+    "Recovery Rate (%)": 64.27
+  },
+  {
+    "name": "Kenya",
+    "Confirmed Cases": 17975,
+    "Death Rate (%)": 1.59,
+    "Recovery Rate (%)": 43.58
+  },
+  {
+    "name": "Kosovo",
+    "Confirmed Cases": 7413,
+    "Death Rate (%)": 2.5,
+    "Recovery Rate (%)": 54.32
+  },
+  {
+    "name": "Kyrgyzstan",
+    "Confirmed Cases": 33296,
+    "Death Rate (%)": 3.91,
+    "Recovery Rate (%)": 63.69
+  },
+  {
+    "name": "Latvia",
+    "Confirmed Cases": 1219,
+    "Death Rate (%)": 2.54,
+    "Recovery Rate (%)": 85.73
+  },
+  {
+    "name": "Lesotho",
+    "Confirmed Cases": 505,
+    "Death Rate (%)": 2.38,
+    "Recovery Rate (%)": 25.35
+  },
+  {
+    "name": "Liberia",
+    "Confirmed Cases": 1167,
+    "Death Rate (%)": 6.17,
+    "Recovery Rate (%)": 55.36
+  },
+  {
+    "name": "Liechtenstein",
+    "Confirmed Cases": 86,
+    "Death Rate (%)": 1.16,
+    "Recovery Rate (%)": 94.19
+  },
+  {
+    "name": "Luxembourg",
+    "Confirmed Cases": 6321,
+    "Death Rate (%)": 1.77,
+    "Recovery Rate (%)": 76.33
+  },
+  {
+    "name": "Malawi",
+    "Confirmed Cases": 3664,
+    "Death Rate (%)": 2.7,
+    "Recovery Rate (%)": 44.9
+  },
+  {
+    "name": "Maldives",
+    "Confirmed Cases": 3369,
+    "Death Rate (%)": 0.45,
+    "Recovery Rate (%)": 75.6
+  },
+  {
+    "name": "Mali",
+    "Confirmed Cases": 2513,
+    "Death Rate (%)": 4.93,
+    "Recovery Rate (%)": 76.12
+  },
+  {
+    "name": "Mauritania",
+    "Confirmed Cases": 6208,
+    "Death Rate (%)": 2.51,
+    "Recovery Rate (%)": 74.95
+  },
+  {
+    "name": "Mauritius",
+    "Confirmed Cases": 344,
+    "Death Rate (%)": 2.91,
+    "Recovery Rate (%)": 96.51
+  },
+  {
+    "name": "Mexico",
+    "Confirmed Cases": 395489,
+    "Death Rate (%)": 11.13,
+    "Recovery Rate (%)": 76.82
+  },
+  {
+    "name": "Moldova",
+    "Confirmed Cases": 23154,
+    "Death Rate (%)": 3.23,
+    "Recovery Rate (%)": 69.77
+  },
+  {
+    "name": "Monaco",
+    "Confirmed Cases": 116,
+    "Death Rate (%)": 3.45,
+    "Recovery Rate (%)": 89.66
+  },
+  {
+    "name": "Montenegro",
+    "Confirmed Cases": 2893,
+    "Death Rate (%)": 1.56,
+    "Recovery Rate (%)": 27.96
+  },
+  {
+    "name": "Morocco",
+    "Confirmed Cases": 20887,
+    "Death Rate (%)": 1.51,
+    "Recovery Rate (%)": 79.25
+  },
+  {
+    "name": "Namibia",
+    "Confirmed Cases": 1843,
+    "Death Rate (%)": 0.43,
+    "Recovery Rate (%)": 5.48
+  },
+  {
+    "name": "Netherlands",
+    "Confirmed Cases": 53413,
+    "Death Rate (%)": 11.53,
+    "Recovery Rate (%)": 0.35
+  },
+  {
+    "name": "Nicaragua",
+    "Confirmed Cases": 3439,
+    "Death Rate (%)": 3.14,
+    "Recovery Rate (%)": 72.46
+  },
+  {
+    "name": "Niger",
+    "Confirmed Cases": 1132,
+    "Death Rate (%)": 6.1,
+    "Recovery Rate (%)": 90.72
+  },
+  {
+    "name": "Nigeria",
+    "Confirmed Cases": 41180,
+    "Death Rate (%)": 2.09,
+    "Recovery Rate (%)": 44.2
+  },
+  {
+    "name": "North Macedonia",
+    "Confirmed Cases": 10213,
+    "Death Rate (%)": 4.56,
+    "Recovery Rate (%)": 54.48
+  },
+  {
+    "name": "Norway",
+    "Confirmed Cases": 9132,
+    "Death Rate (%)": 2.79,
+    "Recovery Rate (%)": 95.84
+  },
+  {
+    "name": "Oman",
+    "Confirmed Cases": 77058,
+    "Death Rate (%)": 0.51,
+    "Recovery Rate (%)": 74.01
+  },
+  {
+    "name": "Peru",
+    "Confirmed Cases": 389717,
+    "Death Rate (%)": 4.73,
+    "Recovery Rate (%)": 69.93
+  },
+  {
+    "name": "Philippines",
+    "Confirmed Cases": 82040,
+    "Death Rate (%)": 2.37,
+    "Recovery Rate (%)": 32.24
+  },
+  {
+    "name": "Poland",
+    "Confirmed Cases": 43402,
+    "Death Rate (%)": 3.86,
+    "Recovery Rate (%)": 75.7
+  },
+  {
+    "name": "Portugal",
+    "Confirmed Cases": 50299,
+    "Death Rate (%)": 3.42,
+    "Recovery Rate (%)": 70.33
+  },
+  {
+    "name": "Qatar",
+    "Confirmed Cases": 109597,
+    "Death Rate (%)": 0.15,
+    "Recovery Rate (%)": 97.02
+  },
+  {
+    "name": "Romania",
+    "Confirmed Cases": 45902,
+    "Death Rate (%)": 4.81,
+    "Recovery Rate (%)": 56.19
+  },
+  {
+    "name": "Russia",
+    "Confirmed Cases": 816680,
+    "Death Rate (%)": 1.63,
+    "Recovery Rate (%)": 73.74
+  },
+  {
+    "name": "San Marino",
+    "Confirmed Cases": 699,
+    "Death Rate (%)": 6.01,
+    "Recovery Rate (%)": 93.99
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "Confirmed Cases": 865,
+    "Death Rate (%)": 1.62,
+    "Recovery Rate (%)": 84.86
+  },
+  {
+    "name": "Saudi Arabia",
+    "Confirmed Cases": 268934,
+    "Death Rate (%)": 1.03,
+    "Recovery Rate (%)": 82.9
+  },
+  {
+    "name": "Senegal",
+    "Confirmed Cases": 9764,
+    "Death Rate (%)": 1.99,
+    "Recovery Rate (%)": 66.34
+  },
+  {
+    "name": "Sierra Leone",
+    "Confirmed Cases": 1783,
+    "Death Rate (%)": 3.7,
+    "Recovery Rate (%)": 73.86
+  },
+  {
+    "name": "Singapore",
+    "Confirmed Cases": 50838,
+    "Death Rate (%)": 0.05,
+    "Recovery Rate (%)": 89.88
+  },
+  {
+    "name": "Slovenia",
+    "Confirmed Cases": 2087,
+    "Death Rate (%)": 5.56,
+    "Recovery Rate (%)": 83.04
+  },
+  {
+    "name": "South Korea",
+    "Confirmed Cases": 14203,
+    "Death Rate (%)": 2.11,
+    "Recovery Rate (%)": 91.58
+  },
+  {
+    "name": "South Sudan",
+    "Confirmed Cases": 2305,
+    "Death Rate (%)": 2.0,
+    "Recovery Rate (%)": 50.98
+  },
+  {
+    "name": "Spain",
+    "Confirmed Cases": 272421,
+    "Death Rate (%)": 10.44,
+    "Recovery Rate (%)": 55.2
+  },
+  {
+    "name": "Sudan",
+    "Confirmed Cases": 11424,
+    "Death Rate (%)": 6.3,
+    "Recovery Rate (%)": 51.99
+  },
+  {
+    "name": "Switzerland",
+    "Confirmed Cases": 34477,
+    "Death Rate (%)": 5.74,
+    "Recovery Rate (%)": 89.62
+  },
+  {
+    "name": "Taiwan*",
+    "Confirmed Cases": 462,
+    "Death Rate (%)": 1.52,
+    "Recovery Rate (%)": 95.24
+  },
+  {
+    "name": "Tajikistan",
+    "Confirmed Cases": 7235,
+    "Death Rate (%)": 0.83,
+    "Recovery Rate (%)": 83.32
+  },
+  {
+    "name": "Tanzania",
+    "Confirmed Cases": 509,
+    "Death Rate (%)": 4.13,
+    "Recovery Rate (%)": 35.95
+  },
+  {
+    "name": "Thailand",
+    "Confirmed Cases": 3297,
+    "Death Rate (%)": 1.76,
+    "Recovery Rate (%)": 94.36
+  },
+  {
+    "name": "Togo",
+    "Confirmed Cases": 874,
+    "Death Rate (%)": 2.06,
+    "Recovery Rate (%)": 69.45
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "Confirmed Cases": 148,
+    "Death Rate (%)": 5.41,
+    "Recovery Rate (%)": 86.49
+  },
+  {
+    "name": "Turkey",
+    "Confirmed Cases": 227019,
+    "Death Rate (%)": 2.48,
+    "Recovery Rate (%)": 92.71
+  },
+  {
+    "name": "Uganda",
+    "Confirmed Cases": 1128,
+    "Death Rate (%)": 0.18,
+    "Recovery Rate (%)": 87.41
+  },
+  {
+    "name": "Ukraine",
+    "Confirmed Cases": 67096,
+    "Death Rate (%)": 2.44,
+    "Recovery Rate (%)": 55.45
+  },
+  {
+    "name": "United Arab Emirates",
+    "Confirmed Cases": 59177,
+    "Death Rate (%)": 0.58,
+    "Recovery Rate (%)": 88.73
+  },
+  {
+    "name": "United Kingdom",
+    "Confirmed Cases": 301708,
+    "Death Rate (%)": 15.19,
+    "Recovery Rate (%)": 0.48
+  },
+  {
+    "name": "Uzbekistan",
+    "Confirmed Cases": 21209,
+    "Death Rate (%)": 0.57,
+    "Recovery Rate (%)": 55.04
+  },
+  {
+    "name": "Venezuela",
+    "Confirmed Cases": 15988,
+    "Death Rate (%)": 0.91,
+    "Recovery Rate (%)": 62.29
+  },
+  {
+    "name": "Western Sahara",
+    "Confirmed Cases": 10,
+    "Death Rate (%)": 10.0,
+    "Recovery Rate (%)": 80.0
+  },
+  {
+    "name": "Yemen",
+    "Confirmed Cases": 1691,
+    "Death Rate (%)": 28.56,
+    "Recovery Rate (%)": 49.26
+  },
+  {
+    "name": "Zambia",
+    "Confirmed Cases": 4552,
+    "Death Rate (%)": 3.08,
+    "Recovery Rate (%)": 61.84
+  }
+]
