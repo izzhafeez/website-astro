@@ -78,5 +78,45 @@
     "title": "Programming Languages",
     "instructions": "Fight using release year, number of jobs and number of books written!",
     "tags": ["Languages", "Coding"]
+  },
+  "elements": {
+    "title": "Chemical Elements",
+    "instructions": "Fight using atomic number, melting point and covalent radius!",
+    "tags": ["Science", "Chemistry"]
+  },
+  "leaders": {
+    "title": "World Leaders",
+    "instructions": "Fight using the number of years in office, birth year and age at term start!",
+    "tags": ["Politics", "Leaders"]
+  },
+  "video-games": {
+    "title": "Video Games",
+    "instructions": "Fight using the release year, rating, number of votes on IMDB!",
+    "tags": ["Games", "Video Games"]
+  },
+  "covid": {
+    "title": "COVID-19",
+    "instructions": "Fight using the number of cases, death rate and recovery rate!",
+    "tags": ["Health", "COVID-19"]
+  },
+  "laptops": {
+    "title": "Laptops",
+    "instructions": "Fight using the screen size, weight, CPU and price!",
+    "tags": ["Technology", "Laptops"]
+  },
+  "roads-features": {
+    "title": "Road Features",
+    "instructions": "Fight using the length, number of bus stops and number of junctions!",
+    "tags": ["Geography", "Roads"]
+  },
+  "roads-coords": {
+    "title": "Road Coordinates",
+    "instructions": "Fight using the max and min latitude and longitude!",
+    "tags": ["Geography", "Roads"]
+  },
+  "indo-attractions": {
+    "title": "Indonesian Attractions",
+    "instructions": "Fight using the latitude, longitude, price and recommended time to enjoy!",
+    "tags": ["Geography", "Attractions"]
   }
 }
