@@ -23,6 +23,8 @@ export function SortableItem(props: Props) {
     transform: CSS.Transform.toString(transform),
     transition,
   };
+
+  const isSkip = !props.fields.includes(props.field);
   
   return (
     <div key={props.id} ref={setNodeRef} style={style} {...attributes} {...listeners} className='py-4 pe-4 rounded-md border-[1px] border-gray-500/50 hover:border-dt-500 flex my-2 bg-white/70 transition-colors duration-500 dark:bg-gray-700/70 text-gray-900 dark:text-white'>
@@ -43,6 +45,9 @@ export function SortableItem(props: Props) {
         {props.fields.map((fieldName: string) => <p key={fieldName}>
           <span className={`font-bold ${fieldName === props.field ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-500 text-white p-1 rounded-md' : 'bg-gray-500/20  rounded-md p-1'}`}>{capitalise(fieldName)}</span> <span className="">{props.data[fieldName]}</span>
         </p>)}
+        {isSkip && <p key={'skip'}>
+          <span className={`font-bold ${isSkip ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-500 text-white p-1 rounded-md' : 'bg-gray-500/20  rounded-md p-1'}`}>Skip</span> <span className=""></span>
+        </p>}
         </ul>
       </div>
     </div>
