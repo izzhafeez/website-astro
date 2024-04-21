@@ -1,0 +1,653 @@
+[
+  {
+    "name": "Monumen Nasional",
+    "Price (Rp)": 20000,
+    "Latitude": -6.1753924,
+    "Longitude": 106.8271528,
+    "Recommended Time (mins)": 15
+  },
+  {
+    "name": "Kota Tua",
+    "Price (Rp)": 0,
+    "Latitude": -6.1376448,
+    "Longitude": 106.8171245,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Dunia Fantasi",
+    "Price (Rp)": 270000,
+    "Latitude": -6.1253124,
+    "Longitude": 106.8335377,
+    "Recommended Time (mins)": 360
+  },
+  {
+    "name": "Atlantis Water Adventure",
+    "Price (Rp)": 94000,
+    "Latitude": -6.12419,
+    "Longitude": 106.839134,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Taman Impian Jaya Ancol",
+    "Price (Rp)": 25000,
+    "Latitude": -6.1173332,
+    "Longitude": 106.8579951,
+    "Recommended Time (mins)": 10
+  },
+  {
+    "name": "Kidzania",
+    "Price (Rp)": 185000,
+    "Latitude": -6.2250735,
+    "Longitude": 106.8097144,
+    "Recommended Time (mins)": 300
+  },
+  {
+    "name": "Museum Taman Prasasti",
+    "Price (Rp)": 2000,
+    "Latitude": -6.1722241,
+    "Longitude": 106.8189695,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Museum Wayang",
+    "Price (Rp)": 5000,
+    "Latitude": -6.1349072,
+    "Longitude": 106.8124452,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Pasar Tanah Abang",
+    "Price (Rp)": 0,
+    "Latitude": -6.1890096,
+    "Longitude": 106.8119312,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Pecinan Glodok",
+    "Price (Rp)": 0,
+    "Latitude": -6.1427588,
+    "Longitude": 106.8140791,
+    "Recommended Time (mins)": 20
+  },
+  {
+    "name": "Sea World",
+    "Price (Rp)": 115000,
+    "Latitude": -6.1264775,
+    "Longitude": 106.842963,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Pasar Taman Puring",
+    "Price (Rp)": 0,
+    "Latitude": -6.241369,
+    "Longitude": 106.7890587,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Grand Indonesia Mall",
+    "Price (Rp)": 0,
+    "Latitude": -6.1951801,
+    "Longitude": 106.8204412,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Skyrink - Mall Taman Anggrek",
+    "Price (Rp)": 110000,
+    "Latitude": -6.178996,
+    "Longitude": 106.791941,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Museum Macan (Modern and Contemporary Art in Nusantara)",
+    "Price (Rp)": 100000,
+    "Latitude": -6.190942,
+    "Longitude": 106.767622,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Museum Bahari Jakarta",
+    "Price (Rp)": 2000,
+    "Latitude": -6.1269553,
+    "Longitude": 106.8085899,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "The Escape Hunt",
+    "Price (Rp)": 70000,
+    "Latitude": -6.2555033,
+    "Longitude": 106.8122591,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Monumen Selamat Datang",
+    "Price (Rp)": 0,
+    "Latitude": -6.1949978,
+    "Longitude": 106.8230496,
+    "Recommended Time (mins)": 15
+  },
+  {
+    "name": "Jakarta Planetarium",
+    "Price (Rp)": 12000,
+    "Latitude": -6.1900819,
+    "Longitude": 106.8388532,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Rumah Sipitung",
+    "Price (Rp)": 5000,
+    "Latitude": -6.10016,
+    "Longitude": 106.96057,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Museum Tekstil",
+    "Price (Rp)": 5000,
+    "Latitude": -6.1879634,
+    "Longitude": 106.8096081,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Museum Kebangkitan Nasional",
+    "Price (Rp)": 2000,
+    "Latitude": -6.178352,
+    "Longitude": 106.838094,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Museum Basoeki Abdullah",
+    "Price (Rp)": 1000,
+    "Latitude": -6.2897885,
+    "Longitude": 106.7932681,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Museum Layang-layang",
+    "Price (Rp)": 10000,
+    "Latitude": -6.3080282,
+    "Longitude": 106.790548,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Margasatwa Muara Angke",
+    "Price (Rp)": 25000,
+    "Latitude": -6.1160075,
+    "Longitude": 106.7692016,
+    "Recommended Time (mins)": 15
+  },
+  {
+    "name": "Perpustakaan Nasional",
+    "Price (Rp)": 0,
+    "Latitude": -6.1812918,
+    "Longitude": 106.8268717,
+    "Recommended Time (mins)": 240
+  },
+  {
+    "name": "Taman Spathodea",
+    "Price (Rp)": 0,
+    "Latitude": -6.3226133,
+    "Longitude": 106.8241871,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Taman Pintar Yogyakarta",
+    "Price (Rp)": 6000,
+    "Latitude": -7.8006715,
+    "Longitude": 110.3676551,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Sindu Kusuma Edupark (SKE)",
+    "Price (Rp)": 20000,
+    "Latitude": -7.7672973,
+    "Longitude": 110.3542486,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Museum Benteng Vredeburg Yogyakarta",
+    "Price (Rp)": 3000,
+    "Latitude": -7.8002016,
+    "Longitude": 110.3663044,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Monumen Yogya Kembali",
+    "Price (Rp)": 15000,
+    "Latitude": -7.7495904,
+    "Longitude": 110.3696068,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Taman Pelangi Yogyakarta",
+    "Price (Rp)": 15000,
+    "Latitude": -7.7505259,
+    "Longitude": 110.3687049,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Taman Budaya Yogyakarta",
+    "Price (Rp)": 0,
+    "Latitude": -7.8001041,
+    "Longitude": 110.3676579,
+    "Recommended Time (mins)": 210
+  },
+  {
+    "name": "Monumen Batik Yogyakarta",
+    "Price (Rp)": 40000,
+    "Latitude": -7.8011159,
+    "Longitude": 110.3646172,
+    "Recommended Time (mins)": 15
+  },
+  {
+    "name": "Candi Donotirto",
+    "Price (Rp)": 0,
+    "Latitude": -7.7955613,
+    "Longitude": 110.3612095,
+    "Recommended Time (mins)": 25
+  },
+  {
+    "name": "Bukit Bintang Yogyakarta",
+    "Price (Rp)": 25000,
+    "Latitude": -7.8458407,
+    "Longitude": 110.4798457,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Jurang Tembelan Kanigoro",
+    "Price (Rp)": 2500,
+    "Latitude": -7.9401065,
+    "Longitude": 110.4300062,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "The World Landmarks - Merapi Park Yogyakarta",
+    "Price (Rp)": 22000,
+    "Latitude": -7.6209046,
+    "Longitude": 110.4216275,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Museum Sonobudoyo Unit I",
+    "Price (Rp)": 5000,
+    "Latitude": -7.8024499,
+    "Longitude": 110.3639555,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Lava Bantal",
+    "Price (Rp)": 5000,
+    "Latitude": -7.8081518,
+    "Longitude": 110.4595183,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Bukit Panguk Kediwung",
+    "Price (Rp)": 250000,
+    "Latitude": -7.9583695,
+    "Longitude": 110.4407622,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Bukit Lintang Sewu",
+    "Price (Rp)": 2000,
+    "Latitude": -7.9157997,
+    "Longitude": 110.4366436,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Studio Alam Gamplong",
+    "Price (Rp)": 10000,
+    "Latitude": -7.8057936,
+    "Longitude": 110.2367304,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Air Terjun Kedung Pedut",
+    "Price (Rp)": 20000,
+    "Latitude": -7.7699875,
+    "Longitude": 110.1210707,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Desa Wisata Gamplong",
+    "Price (Rp)": 10000,
+    "Latitude": -7.8055232,
+    "Longitude": 110.2374676,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Wisata Alam Kalibiru",
+    "Price (Rp)": 20000,
+    "Latitude": -7.8057305,
+    "Longitude": 110.127969,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Bunker Kaliadem Merapi",
+    "Price (Rp)": 3000,
+    "Latitude": -7.5829198,
+    "Longitude": 110.4476816,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Ledok Sambi",
+    "Price (Rp)": 0,
+    "Latitude": -7.6470943,
+    "Longitude": 110.4280998,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Desa Wisata Rumah Domes/Teletubbies",
+    "Price (Rp)": 5000,
+    "Latitude": -7.8136085,
+    "Longitude": 110.5033442,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Goa Cerme",
+    "Price (Rp)": 3000,
+    "Latitude": -7.9794413,
+    "Longitude": 110.3803114,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Watu Mabur Mangunan",
+    "Price (Rp)": 2500,
+    "Latitude": -7.947121,
+    "Longitude": 110.441,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Candi Borobudur",
+    "Price (Rp)": 50000,
+    "Latitude": -7.6078738,
+    "Longitude": 110.2037513,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Candi Ratu Boko",
+    "Price (Rp)": 75000,
+    "Latitude": -7.7705416,
+    "Longitude": 110.4894158,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Pantai Samas",
+    "Price (Rp)": 4000,
+    "Latitude": -8.0045535,
+    "Longitude": 110.2703756,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Wisata Kaliurang",
+    "Price (Rp)": 8000,
+    "Latitude": -7.6120675,
+    "Longitude": 110.4205209,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Heha Sky View",
+    "Price (Rp)": 15000,
+    "Latitude": -7.8496144,
+    "Longitude": 110.478324,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Taman Sungai Mudal",
+    "Price (Rp)": 10000,
+    "Latitude": -7.7628136,
+    "Longitude": 110.1161626,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Trans Studio Bandung",
+    "Price (Rp)": 280000,
+    "Latitude": -6.9250943,
+    "Longitude": 107.6364944,
+    "Recommended Time (mins)": 240
+  },
+  {
+    "name": "Taman Hutan Raya Ir. H. Djuanda",
+    "Price (Rp)": 15000,
+    "Latitude": -6.8565791,
+    "Longitude": 107.6323734,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Kebun Binatang Bandung",
+    "Price (Rp)": 20000,
+    "Latitude": -6.8897177,
+    "Longitude": 107.6077282,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Dago Dreampark",
+    "Price (Rp)": 40000,
+    "Latitude": -6.8486423,
+    "Longitude": 107.625939,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Orchid Forest Cikole",
+    "Price (Rp)": 50000,
+    "Latitude": -6.780493,
+    "Longitude": 107.637475,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Rabbit Town",
+    "Price (Rp)": 45000,
+    "Latitude": -6.8669518,
+    "Longitude": 107.6100859,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "The Great Asia Africa",
+    "Price (Rp)": 50000,
+    "Latitude": -6.833123,
+    "Longitude": 107.6041595,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Amazing Art World",
+    "Price (Rp)": 75000,
+    "Latitude": -6.8516591,
+    "Longitude": 107.5955534,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Gua Belanda",
+    "Price (Rp)": 15000,
+    "Latitude": -6.8544594,
+    "Longitude": 107.6377907,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Lembang Park & Zoo",
+    "Price (Rp)": 50000,
+    "Latitude": -6.8059154,
+    "Longitude": 107.5919726,
+    "Recommended Time (mins)": 210
+  },
+  {
+    "name": "Taman Lalu Lintas Ade Irma Suryani Nasution",
+    "Price (Rp)": 7000,
+    "Latitude": -6.911211,
+    "Longitude": 107.6133389,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Jendela Alam",
+    "Price (Rp)": 20000,
+    "Latitude": -6.819604,
+    "Longitude": 107.5964519,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Upside Down World Bandung",
+    "Price (Rp)": 100000,
+    "Latitude": -6.8963,
+    "Longitude": 107.617,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Museum Barli",
+    "Price (Rp)": 15000,
+    "Latitude": -6.8782387,
+    "Longitude": 107.5875349,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Curug Bugbrug",
+    "Price (Rp)": 7500,
+    "Latitude": -6.790389,
+    "Longitude": 107.5777632,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Taman Jomblo",
+    "Price (Rp)": 10000,
+    "Latitude": -6.8980549,
+    "Longitude": 107.6094673,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Curug Cilengkrang",
+    "Price (Rp)": 7500,
+    "Latitude": -6.8908877,
+    "Longitude": 107.7307085,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Mountain View Golf Club",
+    "Price (Rp)": 375000,
+    "Latitude": -6.8629384,
+    "Longitude": 107.6482191,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "The Lodge Maribaya",
+    "Price (Rp)": 25000,
+    "Latitude": -6.8294112,
+    "Longitude": 107.6874666,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Taman Hutan Raya Ir. H. Juanda",
+    "Price (Rp)": 11000,
+    "Latitude": -6.8585841,
+    "Longitude": 107.6306089,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Tafso Barn",
+    "Price (Rp)": 0,
+    "Latitude": -6.8426446,
+    "Longitude": 107.6228408,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Pemandian Air Panas Cimanggu",
+    "Price (Rp)": 23000,
+    "Latitude": -7.1471529,
+    "Longitude": 107.3901424,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Kyotoku Floating Market",
+    "Price (Rp)": 175000,
+    "Latitude": -6.819875,
+    "Longitude": 107.618707,
+    "Recommended Time (mins)": 150
+  },
+  {
+    "name": "Kampung Pelangi",
+    "Price (Rp)": 3000,
+    "Latitude": -6.9888812,
+    "Longitude": 110.4083781,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Saloka Theme Park",
+    "Price (Rp)": 150000,
+    "Latitude": -7.2807262,
+    "Longitude": 110.4595539,
+    "Recommended Time (mins)": 180
+  },
+  {
+    "name": "Wisata Alam Wana Wisata Penggaron",
+    "Price (Rp)": 10000,
+    "Latitude": -7.1157969,
+    "Longitude": 110.4217966,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Water Blaster Bukit Candi Golf",
+    "Price (Rp)": 80000,
+    "Latitude": -7.0218894,
+    "Longitude": 110.4383345,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Monumen Palagan Ambarawa",
+    "Price (Rp)": 7500,
+    "Latitude": -7.2598861,
+    "Longitude": 110.4025602,
+    "Recommended Time (mins)": 20
+  },
+  {
+    "name": "Semarang Chinatown",
+    "Price (Rp)": 30000,
+    "Latitude": -6.9749923,
+    "Longitude": 110.424954,
+    "Recommended Time (mins)": 30
+  },
+  {
+    "name": "Kampoeng Kopi Banaran",
+    "Price (Rp)": 200000,
+    "Latitude": -7.2539005,
+    "Longitude": 110.4414953,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Obyek Wisata Goa Kreo",
+    "Price (Rp)": 5500,
+    "Latitude": -7.0372113,
+    "Longitude": 110.3476164,
+    "Recommended Time (mins)": 60
+  },
+  {
+    "name": "Flower Farm Setiya Aji",
+    "Price (Rp)": 7500,
+    "Latitude": -7.2241813,
+    "Longitude": 110.3782661,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Air Mancur Menari",
+    "Price (Rp)": 35000,
+    "Latitude": -7.2356933,
+    "Longitude": 112.7955234,
+    "Recommended Time (mins)": 45
+  },
+  {
+    "name": "Kenjeran Park",
+    "Price (Rp)": 35000,
+    "Latitude": -7.2522964,
+    "Longitude": 112.7966952,
+    "Recommended Time (mins)": 120
+  },
+  {
+    "name": "Ciputra Waterpark",
+    "Price (Rp)": 95000,
+    "Latitude": -7.2861707,
+    "Longitude": 112.6333338,
+    "Recommended Time (mins)": 90
+  },
+  {
+    "name": "Atlantis Land Surabaya",
+    "Price (Rp)": 125000,
+    "Latitude": -7.2516189,
+    "Longitude": 112.8009694,
+    "Recommended Time (mins)": 120
+  }
+]
