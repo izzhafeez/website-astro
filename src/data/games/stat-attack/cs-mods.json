@@ -1,0 +1,898 @@
+[
+  {
+    "name": "CS1010 Programming Methodology",
+    "Module Code No.": 1010,
+    "No. of Prereqs": 0,
+    "Class Size": 75,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS1101S Programming Methodology",
+    "Module Code No.": 1101,
+    "No. of Prereqs": 0,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS1231 Discrete Structures",
+    "Module Code No.": 1231,
+    "No. of Prereqs": 2,
+    "Class Size": 270,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS2030 Programming Methodology II",
+    "Module Code No.": 2030,
+    "No. of Prereqs": 7,
+    "Class Size": 72,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS2040 Data Structures and Algorithms",
+    "Module Code No.": 2040,
+    "No. of Prereqs": 7,
+    "Class Size": 144,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS2100 Computer Organisation",
+    "Module Code No.": 2100,
+    "No. of Prereqs": 8,
+    "Class Size": 768,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS2102 Database Systems",
+    "Module Code No.": 2102,
+    "No. of Prereqs": 13,
+    "Class Size": 500,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS2103 Software Engineering",
+    "Module Code No.": 2103,
+    "No. of Prereqs": 8,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS2104 Programming Language Concepts",
+    "Module Code No.": 2104,
+    "No. of Prereqs": 7,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS2105 Introduction to Computer Networks",
+    "Module Code No.": 2105,
+    "No. of Prereqs": 9,
+    "Class Size": 480,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS2106 Introduction to Operating Systems",
+    "Module Code No.": 2106,
+    "No. of Prereqs": 4,
+    "Class Size": 400,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS2107 Introduction to Information Security",
+    "Module Code No.": 2107,
+    "No. of Prereqs": 8,
+    "Class Size": 220,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS2108 Introduction to Media Computing",
+    "Module Code No.": 2108,
+    "No. of Prereqs": 7,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS2109S Introduction to AI and Machine Learning",
+    "Module Code No.": 2109,
+    "No. of Prereqs": 16,
+    "Class Size": 228,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS2113 Software Engineering & Object-Oriented Programming",
+    "Module Code No.": 2113,
+    "No. of Prereqs": 4,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS2220 Introduction to Computational Biology",
+    "Module Code No.": 2220,
+    "No. of Prereqs": 6,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS2309 CS Research Methodology",
+    "Module Code No.": 2309,
+    "No. of Prereqs": 10,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS3103 Computer Networks Practice",
+    "Module Code No.": 3103,
+    "No. of Prereqs": 4,
+    "Class Size": 220,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3203 Software Engineering Project",
+    "Module Code No.": 3203,
+    "No. of Prereqs": 4,
+    "Class Size": 240,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3210 Parallel Computing",
+    "Module Code No.": 3210,
+    "No. of Prereqs": 5,
+    "Class Size": 220,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3211 Parallel and Concurrent Programming",
+    "Module Code No.": 3211,
+    "No. of Prereqs": 2,
+    "Class Size": 240,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3213 Foundations of Software Engineering",
+    "Module Code No.": 3213,
+    "No. of Prereqs": 4,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3216 Software Product Engineering for Digital Markets",
+    "Module Code No.": 3216,
+    "No. of Prereqs": 4,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS3217 Software Engineering on Modern Application Platforms",
+    "Module Code No.": 3217,
+    "No. of Prereqs": 4,
+    "Class Size": 45,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3219 Software Engineering Principles and Patterns",
+    "Module Code No.": 3219,
+    "No. of Prereqs": 5,
+    "Class Size": 300,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS3223 Database Systems Implementation",
+    "Module Code No.": 3223,
+    "No. of Prereqs": 7,
+    "Class Size": 350,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS3230 Design and Analysis of Algorithms",
+    "Module Code No.": 3230,
+    "No. of Prereqs": 10,
+    "Class Size": 520,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS3231 Theory of Computation",
+    "Module Code No.": 3231,
+    "No. of Prereqs": 7,
+    "Class Size": 50,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3233 Competitive Programming",
+    "Module Code No.": 3233,
+    "No. of Prereqs": 7,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1700
+  },
+  {
+    "name": "CS3235 Computer Security",
+    "Module Code No.": 3235,
+    "No. of Prereqs": 7,
+    "Class Size": 200,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3236 Introduction to Information Theory",
+    "Module Code No.": 3236,
+    "No. of Prereqs": 10,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3237 Introduction to Internet of Things",
+    "Module Code No.": 3237,
+    "No. of Prereqs": 11,
+    "Class Size": 160,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3240 Interaction Design",
+    "Module Code No.": 3240,
+    "No. of Prereqs": 12,
+    "Class Size": 150,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS3241 Computer Graphics",
+    "Module Code No.": 3241,
+    "No. of Prereqs": 10,
+    "Class Size": 260,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS3242 3D Modeling and Animation",
+    "Module Code No.": 3242,
+    "No. of Prereqs": 17,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3243 Introduction to Artificial Intelligence",
+    "Module Code No.": 3243,
+    "No. of Prereqs": 8,
+    "Class Size": 220,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS3244 Machine Learning",
+    "Module Code No.": 3244,
+    "No. of Prereqs": 24,
+    "Class Size": 250,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3245 Information Retrieval",
+    "Module Code No.": 3245,
+    "No. of Prereqs": 5,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3247 Game Development",
+    "Module Code No.": 3247,
+    "No. of Prereqs": 1,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS3263 Foundations of Artificial Intelligence",
+    "Module Code No.": 3263,
+    "No. of Prereqs": 15,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3264 Foundations of Machine Learning",
+    "Module Code No.": 3264,
+    "No. of Prereqs": 16,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3281 Thematic Systems Project I",
+    "Module Code No.": 3281,
+    "No. of Prereqs": 50,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS3282 Thematic Systems Project II",
+    "Module Code No.": 3282,
+    "No. of Prereqs": 51,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS4211 Formal Methods for Software Engineering",
+    "Module Code No.": 4211,
+    "No. of Prereqs": 5,
+    "Class Size": 180,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS4212 Compiler Design",
+    "Module Code No.": 4212,
+    "No. of Prereqs": 2,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS4215 Programming Language Implementation",
+    "Module Code No.": 4215,
+    "No. of Prereqs": 9,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS4218 Software Testing",
+    "Module Code No.": 4218,
+    "No. of Prereqs": 2,
+    "Class Size": 200,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS4220 Knowledge Discovery Methods in Bioinformatics",
+    "Module Code No.": 4220,
+    "No. of Prereqs": 3,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS4221 Database Applications Design and Tuning",
+    "Module Code No.": 4221,
+    "No. of Prereqs": 1,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4222 Wireless Networking",
+    "Module Code No.": 4222,
+    "No. of Prereqs": 10,
+    "Class Size": 175,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS4223 Multi-core Architectures",
+    "Module Code No.": 4223,
+    "No. of Prereqs": 5,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS4224 Distributed Databases",
+    "Module Code No.": 4224,
+    "No. of Prereqs": 1,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4225 Big Data Systems for Data Science",
+    "Module Code No.": 4225,
+    "No. of Prereqs": 2,
+    "Class Size": 340,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4226 Internet Architecture",
+    "Module Code No.": 4226,
+    "No. of Prereqs": 10,
+    "Class Size": 320,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS4230 Foundations of Modern Cryptography",
+    "Module Code No.": 4230,
+    "No. of Prereqs": 9,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS4231 Parallel and Distributed Algorithms",
+    "Module Code No.": 4231,
+    "No. of Prereqs": 2,
+    "Class Size": 240,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4234 Optimisation Algorithms",
+    "Module Code No.": 4234,
+    "No. of Prereqs": 9,
+    "Class Size": 90,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS4236 Cryptography Theory and Practice",
+    "Module Code No.": 4236,
+    "No. of Prereqs": 11,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1300
+  },
+  {
+    "name": "CS4238 Computer Security Practice",
+    "Module Code No.": 4238,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4239 Software Security",
+    "Module Code No.": 4239,
+    "No. of Prereqs": 5,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4240 Interaction Design for Virtual and Augmented Reality",
+    "Module Code No.": 4240,
+    "No. of Prereqs": 3,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS4242 Social Media Computing",
+    "Module Code No.": 4242,
+    "No. of Prereqs": 2,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4243 Computer Vision and Pattern Recognition",
+    "Module Code No.": 4243,
+    "No. of Prereqs": 36,
+    "Class Size": 180,
+    "Earliest Lesson Time (24H)": 800
+  },
+  {
+    "name": "CS4246 AI Planning and Decision Making",
+    "Module Code No.": 4246,
+    "No. of Prereqs": 13,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1600
+  },
+  {
+    "name": "CS4247 Graphics Rendering Techniques",
+    "Module Code No.": 4247,
+    "No. of Prereqs": 1,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1600
+  },
+  {
+    "name": "CS4248 Natural Language Processing",
+    "Module Code No.": 4248,
+    "No. of Prereqs": 17,
+    "Class Size": 140,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS4249 Phenomena and Theories of Human-Computer Interaction",
+    "Module Code No.": 4249,
+    "No. of Prereqs": 3,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS4261 Algorithmic Mechanism Design",
+    "Module Code No.": 4261,
+    "No. of Prereqs": 21,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4268 Quantum Computing",
+    "Module Code No.": 4268,
+    "No. of Prereqs": 13,
+    "Class Size": 50,
+    "Earliest Lesson Time (24H)": 900
+  },
+  {
+    "name": "CS4269 Fundamentals of Logic in Computer Science",
+    "Module Code No.": 4269,
+    "No. of Prereqs": 10,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS4277 3D Computer Vision",
+    "Module Code No.": 4277,
+    "No. of Prereqs": 11,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4278 Intelligent Robots: Algorithms and Systems",
+    "Module Code No.": 4278,
+    "No. of Prereqs": 21,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS4347 Sound and Music Computing",
+    "Module Code No.": 4347,
+    "No. of Prereqs": 14,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS4350 Game Development Project",
+    "Module Code No.": 4350,
+    "No. of Prereqs": 4,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS5218 Principles and Practice of Program Analysis",
+    "Module Code No.": 5218,
+    "No. of Prereqs": 2,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5219 Automated Software Validation",
+    "Module Code No.": 5219,
+    "No. of Prereqs": 2,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS5222 Advanced Computer Architecture",
+    "Module Code No.": 5222,
+    "No. of Prereqs": 2,
+    "Class Size": 48,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5223 Distributed Systems",
+    "Module Code No.": 5223,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5224 Cloud Computing",
+    "Module Code No.": 5224,
+    "No. of Prereqs": 0,
+    "Class Size": 150,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5228 Knowledge Discovery and Data Mining",
+    "Module Code No.": 5228,
+    "No. of Prereqs": 14,
+    "Class Size": 220,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5229 Advanced Computer Networks",
+    "Module Code No.": 5229,
+    "No. of Prereqs": 2,
+    "Class Size": 130,
+    "Earliest Lesson Time (24H)": 1300
+  },
+  {
+    "name": "CS5230 Computational Complexity",
+    "Module Code No.": 5230,
+    "No. of Prereqs": 2,
+    "Class Size": 48,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5231 Systems Security",
+    "Module Code No.": 5231,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5232 Formal Specification and Design Techniques",
+    "Module Code No.": 5232,
+    "No. of Prereqs": 8,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS5233 Simulation and Modelling Techniques",
+    "Module Code No.": 5233,
+    "No. of Prereqs": 11,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5234 Algorithms at Scale",
+    "Module Code No.": 5234,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5239 Computer System Performance Analysis",
+    "Module Code No.": 5239,
+    "No. of Prereqs": 16,
+    "Class Size": 150,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5240 Theoretical Foundations in MultiMedia",
+    "Module Code No.": 5240,
+    "No. of Prereqs": 28,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5242 Neural Networks and Deep Learning",
+    "Module Code No.": 5242,
+    "No. of Prereqs": 2,
+    "Class Size": 45,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5246 Text Mining",
+    "Module Code No.": 5246,
+    "No. of Prereqs": 16,
+    "Class Size": 150,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5250 Advanced Operating Systems",
+    "Module Code No.": 5250,
+    "No. of Prereqs": 2,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5260 Neural Networks and Deep Learning II",
+    "Module Code No.": 5260,
+    "No. of Prereqs": 1,
+    "Class Size": 110,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5321 Network Security",
+    "Module Code No.": 5321,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5322 Database Security",
+    "Module Code No.": 5322,
+    "No. of Prereqs": 1,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5330 Randomized Algorithms",
+    "Module Code No.": 5330,
+    "No. of Prereqs": 1,
+    "Class Size": 110,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5331 Web Security",
+    "Module Code No.": 5331,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5332 Biometric Authentication",
+    "Module Code No.": 5332,
+    "No. of Prereqs": 27,
+    "Class Size": 110,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5339 Theory and Algorithms for Machine Learning",
+    "Module Code No.": 5339,
+    "No. of Prereqs": 2,
+    "Class Size": 110,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5340 Uncertainty Modelling in AI",
+    "Module Code No.": 5340,
+    "No. of Prereqs": 13,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5344 Big-Data Analytics Technology",
+    "Module Code No.": 5344,
+    "No. of Prereqs": 1,
+    "Class Size": 150,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5346 Information Visualisation",
+    "Module Code No.": 5346,
+    "No. of Prereqs": 14,
+    "Class Size": 140,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5421 Database Applications Design and Tuning",
+    "Module Code No.": 5421,
+    "No. of Prereqs": 1,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5422 Wireless Networking",
+    "Module Code No.": 5422,
+    "No. of Prereqs": 10,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS5424 Distributed Databases",
+    "Module Code No.": 5424,
+    "No. of Prereqs": 1,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5425 Big Data Systems for Data Science",
+    "Module Code No.": 5425,
+    "No. of Prereqs": 2,
+    "Class Size": 140,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5430 Foundations of Modern Cryptography",
+    "Module Code No.": 5430,
+    "No. of Prereqs": 9,
+    "Class Size": 20,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS5439 Software Security",
+    "Module Code No.": 5439,
+    "No. of Prereqs": 5,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5446 AI Planning and Decision Making",
+    "Module Code No.": 5446,
+    "No. of Prereqs": 13,
+    "Class Size": 120,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5461 Algorithmic Mechanism Design",
+    "Module Code No.": 5461,
+    "No. of Prereqs": 20,
+    "Class Size": 100,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5469 Fundamentals of Logic in Computer Science",
+    "Module Code No.": 5469,
+    "No. of Prereqs": 10,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1500
+  },
+  {
+    "name": "CS5477 3D Computer Vision",
+    "Module Code No.": 5477,
+    "No. of Prereqs": 11,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5478 Intelligent Robots: Algorithms and Systems",
+    "Module Code No.": 5478,
+    "No. of Prereqs": 17,
+    "Class Size": 60,
+    "Earliest Lesson Time (24H)": 1830
+  },
+  {
+    "name": "CS5562 Trustworthy Machine Learning",
+    "Module Code No.": 5562,
+    "No. of Prereqs": 8,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1600
+  },
+  {
+    "name": "CS5647 Sound and Music Computing",
+    "Module Code No.": 5647,
+    "No. of Prereqs": 0,
+    "Class Size": 80,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS6203 Advanced Topics in Database Systems",
+    "Module Code No.": 6203,
+    "No. of Prereqs": 1,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS6204 Advanced Topics in Networking",
+    "Module Code No.": 6204,
+    "No. of Prereqs": 1,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS6206 Advanced Topics in Human-Computer Interaction",
+    "Module Code No.": 6206,
+    "No. of Prereqs": 1,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS6207 Advanced Natural Language Processing",
+    "Module Code No.": 6207,
+    "No. of Prereqs": 1,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS6208 Advanced Topics in Artificial Intelligence",
+    "Module Code No.": 6208,
+    "No. of Prereqs": 2,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS6216 Advanced Topics in Machine Learning",
+    "Module Code No.": 6216,
+    "No. of Prereqs": 2,
+    "Class Size": 50,
+    "Earliest Lesson Time (24H)": 1600
+  },
+  {
+    "name": "CS6217 Topics in Prog. Languages & Software Engineering",
+    "Module Code No.": 6217,
+    "No. of Prereqs": 0,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1100
+  },
+  {
+    "name": "CS6220 Advanced Topics in Data Mining",
+    "Module Code No.": 6220,
+    "No. of Prereqs": 1,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS6222 Advanced Topics in Computational Biology",
+    "Module Code No.": 6222,
+    "No. of Prereqs": 1,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS6231 Advanced Topics in Security and Privacy",
+    "Module Code No.": 6231,
+    "No. of Prereqs": 3,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1600
+  },
+  {
+    "name": "CS6234 Advanced Algorithms",
+    "Module Code No.": 6234,
+    "No. of Prereqs": 1,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1400
+  },
+  {
+    "name": "CS6235 Advanced Topics in Theoretical Computer Science",
+    "Module Code No.": 6235,
+    "No. of Prereqs": 1,
+    "Class Size": 40,
+    "Earliest Lesson Time (24H)": 1200
+  },
+  {
+    "name": "CS6240 Multimedia Analysis",
+    "Module Code No.": 6240,
+    "No. of Prereqs": 2,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1000
+  },
+  {
+    "name": "CS6244 Advanced Topics in Robotics",
+    "Module Code No.": 6244,
+    "No. of Prereqs": 9,
+    "Class Size": 30,
+    "Earliest Lesson Time (24H)": 1000
+  }
+]
