@@ -224,6 +224,51 @@ export const getStaticPaths = (() => {
         title: statAttackData["indo-attractions"].title,
         instructions: statAttackData["indo-attractions"].instructions
       }
+    },
+    {
+      params: {
+        deck: "websites"
+      },
+      props: {
+        title: statAttackData.websites.title,
+        instructions: statAttackData.websites.instructions
+      }
+    },
+    {
+      params: {
+        deck: "subzones"
+      },
+      props: {
+        title: statAttackData.subzones.title,
+        instructions: statAttackData.subzones.instructions
+      }
+    },
+    {
+      params: {
+        deck: "kanji"
+      },
+      props: {
+        title: statAttackData.kanji.title,
+        instructions: statAttackData.kanji.instructions
+      }
+    },
+    {
+      params: {
+        deck: "cs-mods"
+      },
+      props: {
+        title: statAttackData["cs-mods"].title,
+        instructions: statAttackData["cs-mods"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "github"
+      },
+      props: {
+        title: statAttackData.github.title,
+        instructions: statAttackData.github.instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;
