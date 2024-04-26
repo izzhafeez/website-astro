@@ -14,6 +14,11 @@
     "instructions": "Fight using the latitude, longitude, opening year and passenger volume!",
     "tags": ["Geography", "MRT"]
   },
+  "subzones": {
+    "title": "Subzones of Singapore",
+    "instructions": "Fight using the area, population, latitude and longitude!",
+    "tags": ["Geography", "Subzones"]
+  },
   "countries-population": {
     "title": "Country Population",
     "instructions": "Fight using the population, birth rate, life expectancy and population density!",
@@ -23,6 +28,11 @@
     "title": "Country Land Area",
     "instructions": "Fight using the latitude, longitude, land area and forested area!",
     "tags": ["Geography", "Countries"]
+  },
+  "github": {
+    "title": "GitHub Repositories",
+    "instructions": "Fight using the number of stars, forks, commits and contributors!",
+    "tags": ["Internet", "GitHub"]
   },
   "universities": {
     "title": "University Rankings",
@@ -39,6 +49,11 @@
     "instructions": "Fight using the number of episodes, average rating and premiere year!",
     "tags": ["Anime", "Shows"]
   },
+  "kanji": {
+    "title": "Japanese Kanji",
+    "instructions": "Fight using the stroke count, JLPT level, frequency and number of readings!",
+    "tags": ["Languages", "Japanese"]
+  },
   "songs-youtube": {
     "title": "Songs on YouTube",
     "instructions": "Fight using the views, likes, beats per minute and duration!",
@@ -53,6 +68,11 @@
     "title": "YouTubers",
     "instructions": "Fight using the number of subscribers, average views, average likes, and start year!",
     "tags": ["Internet", "YouTubers"]
+  },
+  "cs-mods": {
+    "title": "NUS School of Computing Modules",
+    "instructions": "Fight using the class size, module code number, earliest start time, and number of prerequisites!",
+    "tags": ["School", "Modules"]
   },
   "fast-food": {
     "title": "Fast Food Nutrition",
@@ -118,5 +138,10 @@
     "title": "Indonesian Attractions",
     "instructions": "Fight using the latitude, longitude, price and recommended time to enjoy!",
     "tags": ["Geography", "Attractions"]
+  },
+  "websites": {
+    "title": "Websites",
+    "instructions": "Fight using the number of daily visitors, number of twitter mentions, and average daily time on site!",
+    "tags": ["Internet", "Websites"]
   }
 }
