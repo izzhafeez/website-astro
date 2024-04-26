@@ -26,6 +26,11 @@ import laptopData from "../../../../data/games/stat-attack/laptops.json";
 import roadsCoordsData from "../../../../data/games/stat-attack/roads-coords.json";
 import roadsFeaturesData from "../../../../data/games/stat-attack/roads-features.json";
 import indoAttractionsData from "../../../../data/games/stat-attack/indo-attractions.json";
+import websitesData from "../../../../data/games/stat-attack/websites.json";
+import subzonesData from "../../../../data/games/stat-attack/subzones.json";
+import kanjiData from "../../../../data/games/stat-attack/kanji.json";
+import csModsData from "../../../../data/games/stat-attack/cs-mods.json";
+import githubData from "../../../../data/games/stat-attack/github.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -178,6 +183,36 @@ switch (deckName) {
     deck = {
       title: "Indonesian Attractions",
       data: indoAttractionsData // https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination?select=tourism_with_id.csv
+    }
+    break;
+  case "websites":
+    deck = {
+      title: "Websites", // https://www.kaggle.com/datasets/ashkangoharfar/sites-information-data-from-alexacom-dataset
+      data: websitesData // https://www.kaggle.com/datasets/bpali26/popular-websites-across-the-globe
+    }
+    break;
+  case 'subzones':
+    deck = {
+      title: "Subzones of Singapore",
+      data: subzonesData
+    }
+    break;
+  case 'kanji':
+    deck = {
+      title: "Japanese Kanji",
+      data: kanjiData
+    }
+    break;
+  case 'cs-mods':
+    deck = {
+      title: "NUS School of Computing Mods",
+      data: csModsData
+    }
+    break;
+  case 'github':
+    deck = {
+      title: "GitHub Repositories",
+      data: githubData
     }
     break;
   default:
