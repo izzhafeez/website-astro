@@ -124,6 +124,7 @@ module.exports = {
 			addUtilities(neonUtilities);
 		}),
 		require('flowbite/plugin'),
-		require('tailwind-scrollbar')
+		require('tailwind-scrollbar'),
+		require('tailwindcss-animation-delay')
 	]
 }
