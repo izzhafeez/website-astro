@@ -1,722 +1,842 @@
 [
   {
-    "name": "Cowboy Bebop",
-    "Rating": 8.78,
-    "No. of Episodes": 26,
-    "Premiere Year": 1998
-  },
-  {
-    "name": "Trigun",
-    "Rating": 8.24,
-    "No. of Episodes": 26,
-    "Premiere Year": 1998
-  },
-  {
-    "name": "Witch Hunter Robin",
-    "Rating": 7.27,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Bouken Ou Beet",
-    "Rating": 6.98,
-    "No. of Episodes": 52,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Eyeshield 21",
-    "Rating": 7.95,
-    "No. of Episodes": 145,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Hachimitsu to Clover",
-    "Rating": 8.06,
+    "name": "Steins;Gate",
+    "Rating": 9.11,
     "No. of Episodes": 24,
-    "Premiere Year": 2005
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 97.0
   },
   {
-    "name": "Monster",
-    "Rating": 8.76,
-    "No. of Episodes": 74,
-    "Premiere Year": 2004
+    "name": "Death Note",
+    "Rating": 8.63,
+    "No. of Episodes": 37,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 96.4
+  },
+  {
+    "name": "Shingeki no Kyojin",
+    "Rating": 8.48,
+    "No. of Episodes": 25,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 98.0
+  },
+  {
+    "name": "Naruto: Shippuuden",
+    "Rating": 8.16,
+    "No. of Episodes": 500,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 87.4
+  },
+  {
+    "name": "Sword Art Online",
+    "Rating": 7.25,
+    "No. of Episodes": 25,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 95.5
   },
   {
     "name": "Naruto",
     "Rating": 7.91,
     "No. of Episodes": 220,
-    "Premiere Year": 2002
+    "Premiere Year": 2002,
+    "Completion Rate (%)": 93.6
   },
   {
-    "name": "Tennis no Ouji-sama",
-    "Rating": 7.9,
-    "No. of Episodes": 178,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "Ring ni Kakero 1",
-    "Rating": 6.38,
-    "No. of Episodes": 12,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "School Rumble",
-    "Rating": 7.94,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Sunabouzu",
-    "Rating": 7.42,
+    "name": "Clannad: After Story",
+    "Rating": 8.96,
     "No. of Episodes": 24,
-    "Premiere Year": 2004
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 98.0
   },
   {
-    "name": "Texhnolyze",
-    "Rating": 7.76,
-    "No. of Episodes": 22,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Trinity Blood",
-    "Rating": 7.32,
-    "No. of Episodes": 24,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Yakitate!! Japan",
-    "Rating": 7.95,
-    "No. of Episodes": 69,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Zipang",
-    "Rating": 7.51,
+    "name": "Cowboy Bebop",
+    "Rating": 8.78,
     "No. of Episodes": 26,
-    "Premiere Year": 2004
+    "Premiere Year": 1998,
+    "Completion Rate (%)": 96.4
   },
   {
-    "name": "Kenpuu Denki Berserk",
-    "Rating": 8.49,
-    "No. of Episodes": 25,
-    "Premiere Year": 1997
-  },
-  {
-    "name": ".hack//Sign",
-    "Rating": 6.98,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Ai Yori Aoshi",
-    "Rating": 7.14,
-    "No. of Episodes": 24,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Arc the Lad",
-    "Rating": 6.53,
-    "No. of Episodes": 26,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "Avenger",
-    "Rating": 5.91,
-    "No. of Episodes": 13,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Beck",
-    "Rating": 8.31,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Blue Gender",
-    "Rating": 7.05,
-    "No. of Episodes": 26,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "Chobits",
-    "Rating": 7.43,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Chrno Crusade",
-    "Rating": 7.66,
-    "No. of Episodes": 24,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "D.N.Angel",
-    "Rating": 7.2,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "D.C.: Da Capo",
-    "Rating": 6.77,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "DearS",
-    "Rating": 6.62,
-    "No. of Episodes": 12,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Rozen Maiden",
-    "Rating": 7.44,
-    "No. of Episodes": 12,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Azumanga Daioh",
-    "Rating": 7.98,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Black Cat (TV)",
-    "Rating": 7.38,
-    "No. of Episodes": 23,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Cluster Edge",
-    "Rating": 6.35,
-    "No. of Episodes": 25,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Full Metal Panic!",
-    "Rating": 7.65,
-    "No. of Episodes": 24,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Gakuen Alice",
-    "Rating": 7.65,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Shuffle!",
-    "Rating": 7.09,
-    "No. of Episodes": 24,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Mobile Suit Gundam",
-    "Rating": 7.78,
-    "No. of Episodes": 43,
-    "Premiere Year": 1979
-  },
-  {
-    "name": "After War Gundam X",
-    "Rating": 7.32,
-    "No. of Episodes": 39,
-    "Premiere Year": 1996
-  },
-  {
-    "name": "Turn A Gundam",
-    "Rating": 7.7,
-    "No. of Episodes": 50,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "Last Exile",
-    "Rating": 7.82,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Mai-HiME",
-    "Rating": 7.46,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Mai-Otome",
-    "Rating": 7.31,
-    "No. of Episodes": 26,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Air",
-    "Rating": 7.32,
-    "No. of Episodes": 12,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Aishiteruze Baby\u2605\u2605",
-    "Rating": 7.48,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Akazukin Chacha",
-    "Rating": 7.39,
-    "No. of Episodes": 74,
-    "Premiere Year": 1994
-  },
-  {
-    "name": "Ayashi no Ceres",
-    "Rating": 7.23,
-    "No. of Episodes": 24,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Boys Be...",
-    "Rating": 6.46,
-    "No. of Episodes": 13,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Hana yori Dango",
-    "Rating": 7.7,
-    "No. of Episodes": 51,
-    "Premiere Year": 1996
-  },
-  {
-    "name": "Ou Dorobou Jing",
-    "Rating": 7.23,
-    "No. of Episodes": 13,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Bakuretsu Tenshi",
-    "Rating": 6.81,
-    "No. of Episodes": 24,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Chuuka Ichiban!",
-    "Rating": 7.63,
-    "No. of Episodes": 52,
-    "Premiere Year": 1997
-  },
-  {
-    "name": "Corrector Yui",
-    "Rating": 6.83,
-    "No. of Episodes": 52,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "Uchuu no Stellvia",
-    "Rating": 7.38,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Final Approach",
-    "Rating": 6.56,
-    "No. of Episodes": 13,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Fruits Basket",
-    "Rating": 7.69,
-    "No. of Episodes": 26,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "Fullmetal Alchemist",
-    "Rating": 8.17,
-    "No. of Episodes": 51,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Fushigi Yuugi",
-    "Rating": 7.64,
-    "No. of Episodes": 52,
-    "Premiere Year": 1995
-  },
-  {
-    "name": "Futakoi",
-    "Rating": 6.49,
-    "No. of Episodes": 13,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Futakoi Alternative",
-    "Rating": 6.91,
-    "No. of Episodes": 13,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Gate Keepers",
-    "Rating": 6.96,
-    "No. of Episodes": 24,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Gensoumaden Saiyuuki",
-    "Rating": 7.59,
-    "No. of Episodes": 50,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Saiyuuki Reload",
-    "Rating": 7.41,
-    "No. of Episodes": 25,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "GetBackers",
-    "Rating": 7.61,
-    "No. of Episodes": 49,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Green Green",
-    "Rating": 6.21,
-    "No. of Episodes": 12,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Gunslinger Girl",
-    "Rating": 7.42,
-    "No. of Episodes": 13,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Hikaru no Go",
-    "Rating": 8.11,
-    "No. of Episodes": 75,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "Hunter x Hunter",
-    "Rating": 8.42,
-    "No. of Episodes": 62,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "Jinki:Extend",
-    "Rating": 6.14,
-    "No. of Episodes": 12,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Kannazuki no Miko",
-    "Rating": 6.87,
-    "No. of Episodes": 12,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Kanon",
-    "Rating": 7.11,
-    "No. of Episodes": 13,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Kimi ga Nozomu Eien",
-    "Rating": 7.24,
-    "No. of Episodes": 14,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Loveless",
-    "Rating": 6.86,
-    "No. of Episodes": 12,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Blood+",
-    "Rating": 7.66,
-    "No. of Episodes": 50,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Solty Rei",
-    "Rating": 7.28,
-    "No. of Episodes": 24,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Juuni Kokuki",
-    "Rating": 8.06,
-    "No. of Episodes": 45,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Shaman King",
-    "Rating": 7.78,
-    "No. of Episodes": 64,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "X",
-    "Rating": 7.43,
-    "No. of Episodes": 24,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "Mahou Sensei Negima!",
-    "Rating": 6.98,
-    "No. of Episodes": 26,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Maria-sama ga Miteru",
-    "Rating": 7.34,
-    "No. of Episodes": 13,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Boukyaku no Senritsu",
-    "Rating": 6.34,
-    "No. of Episodes": 24,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Peace Maker Kurogane",
-    "Rating": 7.33,
-    "No. of Episodes": 24,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Pita Ten",
-    "Rating": 6.94,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Power Stone",
-    "Rating": 6.48,
-    "No. of Episodes": 26,
-    "Premiere Year": 1999
-  },
-  {
-    "name": "RahXephon",
-    "Rating": 7.42,
-    "No. of Episodes": 26,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Samurai 7",
-    "Rating": 7.48,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
-  },
-  {
-    "name": "Scrapped Princess",
-    "Rating": 7.41,
-    "No. of Episodes": 24,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "s.CRY.ed",
-    "Rating": 7.38,
-    "No. of Episodes": 26,
-    "Premiere Year": 2001
-  },
-  {
-    "name": "Slam Dunk",
+    "name": "Haikyuu!!",
     "Rating": 8.53,
-    "No. of Episodes": 101,
-    "Premiere Year": 1993
-  },
-  {
-    "name": "Strange Dawn",
-    "Rating": 6.35,
-    "No. of Episodes": 13,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Tactics",
-    "Rating": 7.23,
     "No. of Episodes": 25,
-    "Premiere Year": 2004
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.7
   },
   {
-    "name": "Tenjou Tenge",
-    "Rating": 6.93,
-    "No. of Episodes": 24,
-    "Premiere Year": 2004
+    "name": "One Punch Man",
+    "Rating": 8.57,
+    "No. of Episodes": 12,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 98.6
   },
   {
-    "name": "Tokyo Underground",
-    "Rating": 6.63,
+    "name": "Bleach",
+    "Rating": 7.8,
+    "No. of Episodes": 366,
+    "Premiere Year": 2004,
+    "Completion Rate (%)": 78.5
+  },
+  {
+    "name": "Kimetsu no Yaiba",
+    "Rating": 8.62,
     "No. of Episodes": 26,
-    "Premiere Year": 2002
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 98.2
   },
   {
-    "name": "Tsubasa Chronicle",
-    "Rating": 7.55,
-    "No. of Episodes": 26,
-    "Premiere Year": 2005
+    "name": "Toradora!",
+    "Rating": 8.24,
+    "No. of Episodes": 25,
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 96.7
   },
   {
-    "name": "Ultra Maniac",
-    "Rating": 7.18,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
+    "name": "Gintama",
+    "Rating": 8.96,
+    "No. of Episodes": 201,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 85.3
   },
   {
-    "name": "Vandread",
-    "Rating": 7.21,
+    "name": "Fairy Tail",
+    "Rating": 7.68,
+    "No. of Episodes": 175,
+    "Premiere Year": 2009,
+    "Completion Rate (%)": 83.2
+  },
+  {
+    "name": "Angel Beats!",
+    "Rating": 8.15,
     "No. of Episodes": 13,
-    "Premiere Year": 2000
+    "Premiere Year": 2010,
+    "Completion Rate (%)": 97.0
   },
   {
-    "name": "Tenkuu no Escaflowne",
-    "Rating": 7.7,
+    "name": "No Game No Life",
+    "Rating": 8.2,
+    "No. of Episodes": 12,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.4
+  },
+  {
+    "name": "Tokyo Ghoul",
+    "Rating": 7.81,
+    "No. of Episodes": 12,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.6
+  },
+  {
+    "name": "Bakemonogatari",
+    "Rating": 8.36,
+    "No. of Episodes": 15,
+    "Premiere Year": 2009,
+    "Completion Rate (%)": 95.1
+  },
+  {
+    "name": "Psycho-Pass",
+    "Rating": 8.38,
+    "No. of Episodes": 22,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 95.2
+  },
+  {
+    "name": "Kill la Kill",
+    "Rating": 8.11,
+    "No. of Episodes": 24,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 92.5
+  },
+  {
+    "name": "Violet Evergarden",
+    "Rating": 8.64,
+    "No. of Episodes": 13,
+    "Premiere Year": 2018,
+    "Completion Rate (%)": 94.8
+  },
+  {
+    "name": "Dragon Ball Z",
+    "Rating": 8.16,
+    "No. of Episodes": 291,
+    "Premiere Year": 1989,
+    "Completion Rate (%)": 97.0
+  },
+  {
+    "name": "Made in Abyss",
+    "Rating": 8.74,
+    "No. of Episodes": 13,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 97.9
+  },
+  {
+    "name": "Fate/Zero",
+    "Rating": 8.34,
+    "No. of Episodes": 13,
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 97.9
+  },
+  {
+    "name": "Durarara!!",
+    "Rating": 8.18,
+    "No. of Episodes": 24,
+    "Premiere Year": 2010,
+    "Completion Rate (%)": 93.6
+  },
+  {
+    "name": "Mirai Nikki",
+    "Rating": 7.54,
     "No. of Episodes": 26,
-    "Premiere Year": 1996
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 95.4
   },
   {
-    "name": "Whistle!",
-    "Rating": 7.39,
-    "No. of Episodes": 39,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Love Hina",
-    "Rating": 7.14,
-    "No. of Episodes": 24,
-    "Premiere Year": 2000
-  },
-  {
-    "name": "Maburaho",
-    "Rating": 6.8,
-    "No. of Episodes": 24,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Onegai\u2606Teacher",
-    "Rating": 7.17,
-    "No. of Episodes": 12,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Onegai\u2606Twins",
-    "Rating": 6.88,
-    "No. of Episodes": 12,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Rizelmine",
-    "Rating": 6.55,
-    "No. of Episodes": 24,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Speed Grapher",
-    "Rating": 7.35,
-    "No. of Episodes": 24,
-    "Premiere Year": 2005
-  },
-  {
-    "name": "Tenshi na Konamaiki",
-    "Rating": 7.48,
-    "No. of Episodes": 50,
-    "Premiere Year": 2002
-  },
-  {
-    "name": "Wolf's Rain",
-    "Rating": 7.82,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
-  },
-  {
-    "name": "Yumeria",
-    "Rating": 6.11,
-    "No. of Episodes": 12,
-    "Premiere Year": 2004
+    "name": "Monster",
+    "Rating": 8.76,
+    "No. of Episodes": 74,
+    "Premiere Year": 2004,
+    "Completion Rate (%)": 90.3
   },
   {
     "name": "Samurai Champloo",
     "Rating": 8.5,
     "No. of Episodes": 26,
-    "Premiere Year": 2004
+    "Premiere Year": 2004,
+    "Completion Rate (%)": 96.5
   },
   {
-    "name": "R.O.D: The TV",
-    "Rating": 7.55,
-    "No. of Episodes": 26,
-    "Premiere Year": 2003
+    "name": "Noragami",
+    "Rating": 8.01,
+    "No. of Episodes": 12,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 98.0
   },
   {
-    "name": "Ranma \u00bd",
-    "Rating": 7.76,
-    "No. of Episodes": 161,
-    "Premiere Year": 1989
+    "name": "Mob Psycho 100",
+    "Rating": 8.49,
+    "No. of Episodes": 12,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 98.0
   },
   {
-    "name": "Mezzo DSA",
-    "Rating": 6.68,
-    "No. of Episodes": 13,
-    "Premiere Year": 2004
+    "name": "Clannad",
+    "Rating": 8.07,
+    "No. of Episodes": 23,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 95.2
   },
   {
-    "name": "Dragon Ball",
-    "Rating": 8.0,
-    "No. of Episodes": 153,
-    "Premiere Year": 1986
+    "name": "Fullmetal Alchemist",
+    "Rating": 8.17,
+    "No. of Episodes": 51,
+    "Premiere Year": 2003,
+    "Completion Rate (%)": 95.8
   },
   {
-    "name": "Dragon Ball GT",
-    "Rating": 6.48,
-    "No. of Episodes": 64,
-    "Premiere Year": 1996
+    "name": "Soul Eater",
+    "Rating": 7.88,
+    "No. of Episodes": 51,
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 92.0
   },
   {
     "name": "Elfen Lied",
     "Rating": 7.56,
     "No. of Episodes": 13,
-    "Premiere Year": 2004
+    "Premiere Year": 2004,
+    "Completion Rate (%)": 95.7
   },
   {
-    "name": "Jigoku Shoujo",
-    "Rating": 7.65,
+    "name": "Kuroshitsuji",
+    "Rating": 7.75,
+    "No. of Episodes": 24,
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 92.5
+  },
+  {
+    "name": "Akame ga Kill!",
+    "Rating": 7.53,
+    "No. of Episodes": 24,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 96.0
+  },
+  {
+    "name": "Mushishi",
+    "Rating": 8.69,
     "No. of Episodes": 26,
-    "Premiere Year": 2005
+    "Premiere Year": 2005,
+    "Completion Rate (%)": 92.2
   },
   {
-    "name": "Ninin ga Shinobuden",
-    "Rating": 6.92,
+    "name": "Death Parade",
+    "Rating": 8.2,
     "No. of Episodes": 12,
-    "Premiere Year": 2004
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 96.9
   },
   {
-    "name": "Air Master",
-    "Rating": 7.02,
-    "No. of Episodes": 27,
-    "Premiere Year": 2003
+    "name": "Nanatsu no Taizai",
+    "Rating": 7.89,
+    "No. of Episodes": 24,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.3
   },
   {
-    "name": "Asagiri no Miko",
-    "Rating": 6.18,
+    "name": "Ansatsu Kyoushitsu",
+    "Rating": 8.12,
+    "No. of Episodes": 22,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 95.6
+  },
+  {
+    "name": "Baccano!",
+    "Rating": 8.42,
+    "No. of Episodes": 13,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 95.2
+  },
+  {
+    "name": "Shokugeki no Souma",
+    "Rating": 8.29,
+    "No. of Episodes": 24,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 97.0
+  },
+  {
+    "name": "NHK ni Youkoso!",
+    "Rating": 8.33,
+    "No. of Episodes": 24,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 95.1
+  },
+  {
+    "name": "Hyouka",
+    "Rating": 8.14,
+    "No. of Episodes": 22,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 93.4
+  },
+  {
+    "name": "Jujutsu Kaisen (TV)",
+    "Rating": 8.54,
+    "No. of Episodes": 24,
+    "Premiere Year": 2020,
+    "Completion Rate (%)": 5.5
+  },
+  {
+    "name": "Mob Psycho 100 II",
+    "Rating": 8.84,
+    "No. of Episodes": 13,
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 99.4
+  },
+  {
+    "name": "Shinsekai yori",
+    "Rating": 8.35,
+    "No. of Episodes": 25,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 90.4
+  },
+  {
+    "name": "Black Clover",
+    "Rating": 7.38,
+    "No. of Episodes": 170,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 0.1
+  },
+  {
+    "name": "K-On!",
+    "Rating": 7.84,
+    "No. of Episodes": 13,
+    "Premiere Year": 2009,
+    "Completion Rate (%)": 95.4
+  },
+  {
+    "name": "Ishuzoku Reviewers",
+    "Rating": 7.58,
+    "No. of Episodes": 12,
+    "Premiere Year": 2020,
+    "Completion Rate (%)": 89.4
+  },
+  {
+    "name": "High School DxD",
+    "Rating": 7.4,
+    "No. of Episodes": 12,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 96.0
+  },
+  {
+    "name": "Kuroko no Basket",
+    "Rating": 8.15,
+    "No. of Episodes": 25,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 96.6
+  },
+  {
+    "name": "Kenpuu Denki Berserk",
+    "Rating": 8.49,
+    "No. of Episodes": 25,
+    "Premiere Year": 1997,
+    "Completion Rate (%)": 96.7
+  },
+  {
+    "name": "Nichijou",
+    "Rating": 8.48,
     "No. of Episodes": 26,
-    "Premiere Year": 2002
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 92.0
+  },
+  {
+    "name": "Overlord",
+    "Rating": 7.96,
+    "No. of Episodes": 13,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 96.8
+  },
+  {
+    "name": "Charlotte",
+    "Rating": 7.77,
+    "No. of Episodes": 13,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 97.3
+  },
+  {
+    "name": "Yuu\u2606Yuu\u2606Hakusho",
+    "Rating": 8.45,
+    "No. of Episodes": 112,
+    "Premiere Year": 1992,
+    "Completion Rate (%)": 93.4
+  },
+  {
+    "name": "Vinland Saga",
+    "Rating": 8.71,
+    "No. of Episodes": 24,
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 97.1
+  },
+  {
+    "name": "Zankyou no Terror",
+    "Rating": 8.12,
+    "No. of Episodes": 11,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.0
+  },
+  {
+    "name": "Yuri!!! on Ice",
+    "Rating": 7.92,
+    "No. of Episodes": 12,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 94.6
+  },
+  {
+    "name": "Guilty Crown",
+    "Rating": 7.52,
+    "No. of Episodes": 22,
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 92.7
+  },
+  {
+    "name": "Fate/Zero 2nd Season",
+    "Rating": 8.59,
+    "No. of Episodes": 12,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 99.3
+  },
+  {
+    "name": "InuYasha",
+    "Rating": 7.85,
+    "No. of Episodes": 167,
+    "Premiere Year": 2000,
+    "Completion Rate (%)": 87.1
+  },
+  {
+    "name": "Dr. Stone",
+    "Rating": 8.34,
+    "No. of Episodes": 24,
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 95.6
+  },
+  {
+    "name": "Nana",
+    "Rating": 8.46,
+    "No. of Episodes": 47,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 90.9
+  },
+  {
+    "name": "Ao no Exorcist",
+    "Rating": 7.59,
+    "No. of Episodes": 25,
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 96.6
+  },
+  {
+    "name": "Bungou Stray Dogs",
+    "Rating": 7.79,
+    "No. of Episodes": 12,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 95.0
+  },
+  {
+    "name": "Banana Fish",
+    "Rating": 8.45,
+    "No. of Episodes": 24,
+    "Premiere Year": 2018,
+    "Completion Rate (%)": 90.8
+  },
+  {
+    "name": "Another",
+    "Rating": 7.55,
+    "No. of Episodes": 12,
+    "Premiere Year": 2012,
+    "Completion Rate (%)": 96.9
+  },
+  {
+    "name": "Hajime no Ippo",
+    "Rating": 8.75,
+    "No. of Episodes": 75,
+    "Premiere Year": 2000,
+    "Completion Rate (%)": 95.8
+  },
+  {
+    "name": "Saiki Kusuo no \u03a8-nan",
+    "Rating": 8.45,
+    "No. of Episodes": 120,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 95.3
+  },
+  {
+    "name": "Date A Live",
+    "Rating": 7.22,
+    "No. of Episodes": 12,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 96.1
+  },
+  {
+    "name": "Lucky\u2606Star",
+    "Rating": 7.77,
+    "No. of Episodes": 24,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 88.7
+  },
+  {
+    "name": "D.Gray-man",
+    "Rating": 8.05,
+    "No. of Episodes": 103,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 86.1
+  },
+  {
+    "name": "Black Lagoon",
+    "Rating": 8.05,
+    "No. of Episodes": 12,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 96.7
+  },
+  {
+    "name": "Natsume Yuujinchou",
+    "Rating": 8.33,
+    "No. of Episodes": 13,
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 95.0
+  },
+  {
+    "name": "Dragon Ball",
+    "Rating": 8.0,
+    "No. of Episodes": 153,
+    "Premiere Year": 1986,
+    "Completion Rate (%)": 96.2
+  },
+  {
+    "name": "Trigun",
+    "Rating": 8.24,
+    "No. of Episodes": 26,
+    "Premiere Year": 1998,
+    "Completion Rate (%)": 96.1
   },
   {
     "name": "Cardcaptor Sakura",
     "Rating": 8.16,
     "No. of Episodes": 70,
-    "Premiere Year": 1998
+    "Premiere Year": 1998,
+    "Completion Rate (%)": 93.7
   },
   {
-    "name": "Daa! Daa! Daa!",
+    "name": "Nisekoi",
     "Rating": 7.65,
-    "No. of Episodes": 78,
-    "Premiere Year": 2000
+    "No. of Episodes": 20,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 95.5
   },
   {
-    "name": "Dan Doh!!",
-    "Rating": 6.69,
-    "No. of Episodes": 26,
-    "Premiere Year": 2004
+    "name": "Akatsuki no Yona",
+    "Rating": 8.05,
+    "No. of Episodes": 24,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 95.3
   },
   {
-    "name": "E's Otherwise",
-    "Rating": 6.64,
+    "name": "Fairy Tail (2014)",
+    "Rating": 7.73,
+    "No. of Episodes": 102,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 89.7
+  },
+  {
+    "name": "Gintama\u00b0",
+    "Rating": 9.1,
+    "No. of Episodes": 51,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 93.6
+  },
+  {
+    "name": "K-On!!",
+    "Rating": 8.15,
     "No. of Episodes": 26,
-    "Premiere Year": 2003
+    "Premiere Year": 2010,
+    "Completion Rate (%)": 95.7
+  },
+  {
+    "name": "3-gatsu no Lion",
+    "Rating": 8.43,
+    "No. of Episodes": 22,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 93.0
+  },
+  {
+    "name": "Dororo",
+    "Rating": 8.19,
+    "No. of Episodes": 24,
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 94.0
+  },
+  {
+    "name": "Tokyo Ghoul \u221aA",
+    "Rating": 7.07,
+    "No. of Episodes": 12,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 97.3
+  },
+  {
+    "name": "Ergo Proxy",
+    "Rating": 7.92,
+    "No. of Episodes": 23,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 91.9
+  },
+  {
+    "name": "Noragami Aragoto",
+    "Rating": 8.22,
+    "No. of Episodes": 13,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 98.8
+  },
+  {
+    "name": "Barakamon",
+    "Rating": 8.41,
+    "No. of Episodes": 12,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 97.6
+  },
+  {
+    "name": "Owari no Seraph",
+    "Rating": 7.49,
+    "No. of Episodes": 12,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 96.3
+  },
+  {
+    "name": "Kyoukai no Kanata",
+    "Rating": 7.78,
+    "No. of Episodes": 12,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 95.5
+  },
+  {
+    "name": "Kimi ni Todoke",
+    "Rating": 8.02,
+    "No. of Episodes": 25,
+    "Premiere Year": 2009,
+    "Completion Rate (%)": 95.1
+  },
+  {
+    "name": "Sword Art Online II",
+    "Rating": 6.79,
+    "No. of Episodes": 24,
+    "Premiere Year": 2014,
+    "Completion Rate (%)": 94.7
+  },
+  {
+    "name": "Log Horizon",
+    "Rating": 8.0,
+    "No. of Episodes": 25,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 94.1
+  },
+  {
+    "name": "Golden Time",
+    "Rating": 7.78,
+    "No. of Episodes": 24,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 93.5
+  },
+  {
+    "name": "Grand Blue",
+    "Rating": 8.41,
+    "No. of Episodes": 12,
+    "Premiere Year": 2018,
+    "Completion Rate (%)": 95.4
+  },
+  {
+    "name": "Katanagatari",
+    "Rating": 8.36,
+    "No. of Episodes": 12,
+    "Premiere Year": 2010,
+    "Completion Rate (%)": 93.9
+  },
+  {
+    "name": "Free!",
+    "Rating": 7.39,
+    "No. of Episodes": 12,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 93.8
+  },
+  {
+    "name": "Hataraku Maou-sama!",
+    "Rating": 7.83,
+    "No. of Episodes": 13,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 98.1
+  },
+  {
+    "name": "Hunter x Hunter",
+    "Rating": 8.42,
+    "No. of Episodes": 62,
+    "Premiere Year": 1999,
+    "Completion Rate (%)": 94.5
+  },
+  {
+    "name": "Fruits Basket",
+    "Rating": 7.69,
+    "No. of Episodes": 26,
+    "Premiere Year": 2001,
+    "Completion Rate (%)": 94.7
+  },
+  {
+    "name": "Plastic Memories",
+    "Rating": 7.94,
+    "No. of Episodes": 13,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 94.6
+  },
+  {
+    "name": "Given",
+    "Rating": 8.32,
+    "No. of Episodes": 11,
+    "Premiere Year": 2019,
+    "Completion Rate (%)": 96.5
+  },
+  {
+    "name": "Horimiya",
+    "Rating": 8.6,
+    "No. of Episodes": 13,
+    "Premiere Year": 2021,
+    "Completion Rate (%)": 8.6
+  },
+  {
+    "name": "Nagi no Asu kara",
+    "Rating": 8.09,
+    "No. of Episodes": 26,
+    "Premiere Year": 2013,
+    "Completion Rate (%)": 90.7
+  },
+  {
+    "name": "Steins;Gate 0",
+    "Rating": 8.51,
+    "No. of Episodes": 23,
+    "Premiere Year": 2018,
+    "Completion Rate (%)": 95.9
+  },
+  {
+    "name": "Bakuman.",
+    "Rating": 8.23,
+    "No. of Episodes": 25,
+    "Premiere Year": 2010,
+    "Completion Rate (%)": 94.6
+  },
+  {
+    "name": "Vampire Knight",
+    "Rating": 7.03,
+    "No. of Episodes": 13,
+    "Premiere Year": 2008,
+    "Completion Rate (%)": 93.7
+  },
+  {
+    "name": "Houseki no Kuni (TV)",
+    "Rating": 8.41,
+    "No. of Episodes": 12,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 95.8
+  },
+  {
+    "name": "Lovely\u2605Complex",
+    "Rating": 8.06,
+    "No. of Episodes": 24,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 95.0
+  },
+  {
+    "name": "Mahoutsukai no Yome",
+    "Rating": 8.1,
+    "No. of Episodes": 24,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 89.4
+  },
+  {
+    "name": "Youjo Senki",
+    "Rating": 8.0,
+    "No. of Episodes": 12,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 95.1
+  },
+  {
+    "name": "Dragon Ball Super",
+    "Rating": 7.42,
+    "No. of Episodes": 131,
+    "Premiere Year": 2015,
+    "Completion Rate (%)": 92.5
+  },
+  {
+    "name": "Claymore",
+    "Rating": 7.78,
+    "No. of Episodes": 26,
+    "Premiere Year": 2007,
+    "Completion Rate (%)": 94.3
+  },
+  {
+    "name": "Kakegurui",
+    "Rating": 7.42,
+    "No. of Episodes": 12,
+    "Premiere Year": 2017,
+    "Completion Rate (%)": 95.0
+  },
+  {
+    "name": "Zero no Tsukaima",
+    "Rating": 7.33,
+    "No. of Episodes": 13,
+    "Premiere Year": 2006,
+    "Completion Rate (%)": 96.5
+  },
+  {
+    "name": "ReLIFE",
+    "Rating": 8.03,
+    "No. of Episodes": 13,
+    "Premiere Year": 2016,
+    "Completion Rate (%)": 97.2
+  },
+  {
+    "name": "Gosick",
+    "Rating": 8.1,
+    "No. of Episodes": 24,
+    "Premiere Year": 2011,
+    "Completion Rate (%)": 92.0
   }
 ]
