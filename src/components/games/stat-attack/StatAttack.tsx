@@ -17,7 +17,8 @@ import {
   arrayMove,
   SortableContext,
   sortableKeyboardCoordinates,
-  verticalListSortingStrategy,
+  // verticalListSortingStrategy,
+  rectSortingStrategy
 } from '@dnd-kit/sortable';
 
 import {SortableItem} from './SortableItem';
@@ -361,9 +362,11 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
         onDragEnd={handleDragEnd}
       ><SortableContext 
         items={hand.map(h => h+1)}
-        strategy={verticalListSortingStrategy}
+        strategy={rectSortingStrategy}
       >
-        {hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields}/>)}
+        <div className="grid lg:grid-cols-2 gap-2">
+          {hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields}/>)}
+        </div>
       </SortableContext></DndContext>}
       {gameStatus === 'PLAYING' && <button onClick={play} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Play</button>}
 
