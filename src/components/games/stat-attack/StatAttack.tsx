@@ -308,12 +308,19 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
     });
   }
 
+  const names = deckData.map((card: {name: string}) => card.name).map((s: string, index: number) => <span>{s} </span>);
+  const namesLength = deckData.map((card: {name: string}) => card.name.length).reduce((a: number, b: number) => a + b, 0);
+
   return (
+    <>
+    <p className="absolute h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+      {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
+    </p>
     <div className="p-2 max-w-6xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
       <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
-      <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
       </>}
+      {gameStatus === 'JOINED' && <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
@@ -388,6 +395,7 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       </ul>}
       {gameStatus === 'SELECTING' && allowSelect && <button onClick={handleSelect} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Select</button>}
     </div>
+    </>
   );
 }
 
