@@ -8,6 +8,7 @@ type Props = {
   data: any;
   fields: string[];
   field: string;
+  fieldThresholds: any;
 };
 
 export function SortableItem(props: Props) {
@@ -40,10 +41,18 @@ export function SortableItem(props: Props) {
         <circle cx="14.5" cy="18" r="0.5" stroke="#000000" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
       <div className="w-full">
-        <h3 className='text-xl font-bold text-dt-500 dark:text-dt-300 mb-2'>{props.data.name}</h3>
+        <div className='flex w-full'>
+          <h3 className='text-xl font-bold text-dt-500 dark:text-dt-300 mb-2'>{props.data.name}</h3>
+          <h3 className='ms-auto mb-2' data-tooltip-target={`tooltip-${props.id}`}>Rank {props.id}</h3>
+        </div>
         <ul className="grid gap-2 xl:grid-cols-2">
-        {props.fields.map((fieldName: string) => <p key={fieldName}>
-          <span className={`font-bold ${fieldName === props.field ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-500 text-white p-1 rounded-md' : 'bg-gray-500/20  rounded-md p-1'}`}>{capitalise(fieldName)}</span> <span className="">{props.data[fieldName]}</span>
+        {props.fields.map((fieldName: string, index: number) => <p key={fieldName}>
+          <span className={`font-bold ${fieldName === props.field ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-500 text-white p-1 rounded-md' : 'bg-gray-500/20  rounded-md p-1'}`}>{capitalise(fieldName)}</span> <span className={
+            props.data[fieldName] >= props.fieldThresholds[index][1]
+            ? 'text-ew-500'
+            : props.data[fieldName] <= props.fieldThresholds[index][0]
+            ? 'text-ns-500'
+            : ''}>{props.data[fieldName]}</span>
         </p>)}
         {isSkip && <p key={'skip'}>
           <span className={`font-bold ${isSkip ? 'animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-500 text-white p-1 rounded-md' : 'bg-gray-500/20  rounded-md p-1'}`}>Skip</span> <span className=""></span>
