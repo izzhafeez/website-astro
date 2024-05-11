@@ -390,9 +390,12 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       {gameStatus === 'SELECTING' && <ul className="grid gap-2">
         {playedCards.map((card, index) => (
           <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`transition-colors animate-linear bg-[length:200%_auto] p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-dt-500/20' : 'bg-white/50 dark:bg-gray-700/50'}`}>
-            <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
-              {deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
-            </h3>
+            <div className='flex w-full'>
+              <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
+                {deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
+              </h3>
+              <h3 className='ms-auto mb-2' data-tooltip-target={`tooltip-${card.card_id}`}>Rank {card.card_id}</h3>
+            </div>
             <ul className={`grid gap-2 text-gray-900 dark:text-white`}>
             {fields.map((fieldName, index) => <p className="" key={fieldName}>
               <><span key={fieldName} className={`font-bold ${
