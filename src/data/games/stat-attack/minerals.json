@@ -1,0 +1,639 @@
+[
+  {
+    "name": "Cuprite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 2,
+    "Refractive Index": 2.849,
+    "Density (g/cm3)": 5.893
+  },
+  {
+    "name": "Frankdicksonite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 2,
+    "Refractive Index": 1.475,
+    "Density (g/cm3)": 11.542
+  },
+  {
+    "name": "Anatase",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 2,
+    "Refractive Index": 2.525,
+    "Density (g/cm3)": 4.731
+  },
+  {
+    "name": "Ajoite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 69,
+    "Refractive Index": 1.591,
+    "Density (g/cm3)": 3.92
+  },
+  {
+    "name": "Cymrite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 68,
+    "Refractive Index": 1.617,
+    "Density (g/cm3)": 4.825
+  },
+  {
+    "name": "Tausonite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 6,
+    "Refractive Index": 2.4,
+    "Density (g/cm3)": 12.161
+  },
+  {
+    "name": "Mellite",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 21,
+    "Refractive Index": 1.525,
+    "Density (g/cm3)": 0.977
+  },
+  {
+    "name": "Kernite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 25,
+    "Refractive Index": 1.471,
+    "Density (g/cm3)": 1.065
+  },
+  {
+    "name": "Topaz",
+    "Mohs Hardness": 8,
+    "No. of Atoms": 6,
+    "Refractive Index": 1.622,
+    "Density (g/cm3)": 2.206
+  },
+  {
+    "name": "Painite",
+    "Mohs Hardness": 8,
+    "No. of Atoms": 15,
+    "Refractive Index": 1.802,
+    "Density (g/cm3)": 12.199
+  },
+  {
+    "name": "Zincite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 2,
+    "Refractive Index": 2.021,
+    "Density (g/cm3)": 6.029
+  },
+  {
+    "name": "Bazzite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 10,
+    "Refractive Index": 1.621,
+    "Density (g/cm3)": 13.893
+  },
+  {
+    "name": "Mixite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.783,
+    "Density (g/cm3)": 12.005
+  },
+  {
+    "name": "Zunyite",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 12,
+    "Refractive Index": 1.596,
+    "Density (g/cm3)": 2.446
+  },
+  {
+    "name": "Amesite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 46,
+    "Refractive Index": 1.604,
+    "Density (g/cm3)": 2.347
+  },
+  {
+    "name": "Ulexite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 40,
+    "Refractive Index": 1.506,
+    "Density (g/cm3)": 3.291
+  },
+  {
+    "name": "Dickite",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 17,
+    "Refractive Index": 1.565,
+    "Density (g/cm3)": 1.471
+  },
+  {
+    "name": "Niter",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 4,
+    "Refractive Index": 1.447,
+    "Density (g/cm3)": 2.1
+  },
+  {
+    "name": "Bobfergusonite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 50,
+    "Refractive Index": 1.565,
+    "Density (g/cm3)": 4.357
+  },
+  {
+    "name": "Ikaite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 13,
+    "Refractive Index": 1.513,
+    "Density (g/cm3)": 0.93
+  },
+  {
+    "name": "Euclase",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.659,
+    "Density (g/cm3)": 2.686
+  },
+  {
+    "name": "Iranite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 26,
+    "Refractive Index": 2.364,
+    "Density (g/cm3)": 7.206
+  },
+  {
+    "name": "Pyrope",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 4,
+    "Refractive Index": 1.732,
+    "Density (g/cm3)": 7.048
+  },
+  {
+    "name": "Gypsum",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.524,
+    "Density (g/cm3)": 5.365
+  },
+  {
+    "name": "Duftite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 7,
+    "Refractive Index": 2.065,
+    "Density (g/cm3)": 7.898
+  },
+  {
+    "name": "Trona",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 10,
+    "Refractive Index": 1.481,
+    "Density (g/cm3)": 1.322
+  },
+  {
+    "name": "Spinel",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 5,
+    "Refractive Index": 1.719,
+    "Density (g/cm3)": 8.753
+  },
+  {
+    "name": "Langite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 9,
+    "Refractive Index": 1.755,
+    "Density (g/cm3)": 9.012
+  },
+  {
+    "name": "Sylvite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 2,
+    "Refractive Index": 1.49,
+    "Density (g/cm3)": 5.587
+  },
+  {
+    "name": "Howlite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 27,
+    "Refractive Index": 1.593,
+    "Density (g/cm3)": 1.526
+  },
+  {
+    "name": "Curite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 14,
+    "Refractive Index": 2.107,
+    "Density (g/cm3)": 10.896
+  },
+  {
+    "name": "Coesite",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 12,
+    "Refractive Index": 1.596,
+    "Density (g/cm3)": 2.226
+  },
+  {
+    "name": "Kochite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 48,
+    "Refractive Index": 1.699,
+    "Density (g/cm3)": 6.311
+  },
+  {
+    "name": "Okenite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 38,
+    "Refractive Index": 1.525,
+    "Density (g/cm3)": 3.524
+  },
+  {
+    "name": "Kassite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 9,
+    "Refractive Index": 2.097,
+    "Density (g/cm3)": 2.862
+  },
+  {
+    "name": "Blodite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 13,
+    "Refractive Index": 1.485,
+    "Density (g/cm3)": 1.329
+  },
+  {
+    "name": "Simpsonite",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 8,
+    "Refractive Index": 2.035,
+    "Density (g/cm3)": 4.917
+  },
+  {
+    "name": "Zircon",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 14,
+    "Refractive Index": 1.928,
+    "Density (g/cm3)": 5.564
+  },
+  {
+    "name": "Leucite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 4,
+    "Refractive Index": 1.509,
+    "Density (g/cm3)": 8.118
+  },
+  {
+    "name": "Talc",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 11,
+    "Refractive Index": 1.577,
+    "Density (g/cm3)": 2.135
+  },
+  {
+    "name": "Lawsonite",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.677,
+    "Density (g/cm3)": 4.09
+  },
+  {
+    "name": "Smithsonite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 3,
+    "Refractive Index": 1.737,
+    "Density (g/cm3)": 6.915
+  },
+  {
+    "name": "Wiluite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 43,
+    "Refractive Index": 1.723,
+    "Density (g/cm3)": 8.574
+  },
+  {
+    "name": "Hauyne",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.502,
+    "Density (g/cm3)": 6.727
+  },
+  {
+    "name": "Kinoite",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 14,
+    "Refractive Index": 1.66,
+    "Density (g/cm3)": 2.776
+  },
+  {
+    "name": "Kainite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 20,
+    "Refractive Index": 1.505,
+    "Density (g/cm3)": 4.312
+  },
+  {
+    "name": "Bityite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 27,
+    "Refractive Index": 1.657,
+    "Density (g/cm3)": 2.074
+  },
+  {
+    "name": "Ericssonite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 17,
+    "Refractive Index": 1.847,
+    "Density (g/cm3)": 9.68
+  },
+  {
+    "name": "Halite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 2,
+    "Refractive Index": 1.544,
+    "Density (g/cm3)": 4.388
+  },
+  {
+    "name": "Huntite",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.619,
+    "Density (g/cm3)": 3.366
+  },
+  {
+    "name": "Beryl",
+    "Mohs Hardness": 7,
+    "No. of Atoms": 21,
+    "Refractive Index": 1.582,
+    "Density (g/cm3)": 2.351
+  },
+  {
+    "name": "Inyoite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.508,
+    "Density (g/cm3)": 6.819
+  },
+  {
+    "name": "Leifite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 17,
+    "Refractive Index": 1.518,
+    "Density (g/cm3)": 7.455
+  },
+  {
+    "name": "Illite",
+    "Mohs Hardness": 1,
+    "No. of Atoms": 10,
+    "Refractive Index": 1.572,
+    "Density (g/cm3)": 2.68
+  },
+  {
+    "name": "Karlite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 32,
+    "Refractive Index": 1.618,
+    "Density (g/cm3)": 2.654
+  },
+  {
+    "name": "Brucite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 3,
+    "Refractive Index": 1.583,
+    "Density (g/cm3)": 1.529
+  },
+  {
+    "name": "Gedrite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 33,
+    "Refractive Index": 1.681,
+    "Density (g/cm3)": 4.328
+  },
+  {
+    "name": "Jimthompsonite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 32,
+    "Refractive Index": 1.621,
+    "Density (g/cm3)": 3.977
+  },
+  {
+    "name": "Corkite",
+    "Mohs Hardness": 4,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.938,
+    "Density (g/cm3)": 6.94
+  },
+  {
+    "name": "Calcite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 3,
+    "Refractive Index": 1.595,
+    "Density (g/cm3)": 5.034
+  },
+  {
+    "name": "Ruizite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 16,
+    "Refractive Index": 1.704,
+    "Density (g/cm3)": 1.841
+  },
+  {
+    "name": "Dawsonite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 9,
+    "Refractive Index": 1.535,
+    "Density (g/cm3)": 1.58
+  },
+  {
+    "name": "Baotite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 14,
+    "Refractive Index": 1.97,
+    "Density (g/cm3)": 5.169
+  },
+  {
+    "name": "Hubeite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 32,
+    "Refractive Index": 1.679,
+    "Density (g/cm3)": 4.768
+  },
+  {
+    "name": "Jadeite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.671,
+    "Density (g/cm3)": 5.473
+  },
+  {
+    "name": "Zoisite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 16,
+    "Refractive Index": 1.702,
+    "Density (g/cm3)": 3.121
+  },
+  {
+    "name": "Arfvedsonite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 20,
+    "Refractive Index": 1.682,
+    "Density (g/cm3)": 7.916
+  },
+  {
+    "name": "Albite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 18,
+    "Refractive Index": 1.535,
+    "Density (g/cm3)": 3.806
+  },
+  {
+    "name": "Samuelsonite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 30,
+    "Refractive Index": 1.653,
+    "Density (g/cm3)": 4.406
+  },
+  {
+    "name": "Keyite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 12,
+    "Refractive Index": 1.835,
+    "Density (g/cm3)": 7.019
+  },
+  {
+    "name": "Humite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 18,
+    "Refractive Index": 1.639,
+    "Density (g/cm3)": 4.856
+  },
+  {
+    "name": "Kanoite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 9,
+    "Refractive Index": 1.719,
+    "Density (g/cm3)": 6.771
+  },
+  {
+    "name": "Azurite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.775,
+    "Density (g/cm3)": 3.024
+  },
+  {
+    "name": "Suanite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 9,
+    "Refractive Index": 1.635,
+    "Density (g/cm3)": 2.226
+  },
+  {
+    "name": "Larnite",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.717,
+    "Density (g/cm3)": 3.188
+  },
+  {
+    "name": "Epidote",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 22,
+    "Refractive Index": 1.751,
+    "Density (g/cm3)": 6.15
+  },
+  {
+    "name": "Piypite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 21,
+    "Refractive Index": 1.64,
+    "Density (g/cm3)": 4.219
+  },
+  {
+    "name": "Kyanite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 16,
+    "Refractive Index": 1.723,
+    "Density (g/cm3)": 2.401
+  },
+  {
+    "name": "Andersonite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 13,
+    "Refractive Index": 1.53,
+    "Density (g/cm3)": 5.624
+  },
+  {
+    "name": "Celsian",
+    "Mohs Hardness": 6,
+    "No. of Atoms": 17,
+    "Refractive Index": 1.588,
+    "Density (g/cm3)": 4.493
+  },
+  {
+    "name": "Adamite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.742,
+    "Density (g/cm3)": 4.01
+  },
+  {
+    "name": "Jennite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 17,
+    "Refractive Index": 1.561,
+    "Density (g/cm3)": 4.531
+  },
+  {
+    "name": "Annite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 9,
+    "Refractive Index": 1.667,
+    "Density (g/cm3)": 6.724
+  },
+  {
+    "name": "Hodgkinsonite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.736,
+    "Density (g/cm3)": 5.77
+  },
+  {
+    "name": "Augite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.72,
+    "Density (g/cm3)": 4.843
+  },
+  {
+    "name": "Vauxite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 15,
+    "Refractive Index": 1.556,
+    "Density (g/cm3)": 4.85
+  },
+  {
+    "name": "Wardite",
+    "Mohs Hardness": 5,
+    "No. of Atoms": 8,
+    "Refractive Index": 1.595,
+    "Density (g/cm3)": 4.14
+  },
+  {
+    "name": "Elbaite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 14,
+    "Refractive Index": 1.633,
+    "Density (g/cm3)": 6.478
+  },
+  {
+    "name": "Biotite",
+    "Mohs Hardness": 2,
+    "No. of Atoms": 16,
+    "Refractive Index": 1.625,
+    "Density (g/cm3)": 5.735
+  },
+  {
+    "name": "Alunite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 7,
+    "Refractive Index": 1.582,
+    "Density (g/cm3)": 3.0
+  },
+  {
+    "name": "Zorite",
+    "Mohs Hardness": 3,
+    "No. of Atoms": 14,
+    "Refractive Index": 1.59,
+    "Density (g/cm3)": 5.207
+  }
+]
