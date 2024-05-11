@@ -19,14 +19,9 @@
     "instructions": "Fight using the area, population, latitude and longitude!",
     "tags": ["Geography", "Subzones"]
   },
-  "countries-population": {
-    "title": "Country Population",
-    "instructions": "Fight using the population, birth rate, life expectancy and population density!",
-    "tags": ["Geography", "Countries"]
-  },
-  "countries-land": {
-    "title": "Country Land Area",
-    "instructions": "Fight using the latitude, longitude, land area and forested area!",
+  "countries": {
+    "title": "Countries of the World",
+    "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",
     "tags": ["Geography", "Countries"]
   },
   "github": {
@@ -39,10 +34,10 @@
     "instructions": "Fight using overall rank, alumni employment, quality of faculty and education!",
     "tags": ["Geography", "Universities"]
   },
-  "songs": {
-    "title": "Songs on Spotify",
-    "instructions": "Fight using the release year, beats per minute and song duration!",
-    "tags": ["Music", "Songs"]
+  "artists": {
+    "title": "Music Artists",
+    "instructions": "Fight using the number of Spotify tracks, peak position on Billboard, and number of Spotify streams!",
+    "tags": ["Music", "Artists"]
   },
   "anime": {
     "title": "Anime Shows",
@@ -143,5 +138,15 @@
     "title": "Websites",
     "instructions": "Fight using the number of daily visitors, number of twitter mentions, and average daily time on site!",
     "tags": ["Internet", "Websites"]
+  },
+  "nutrition": {
+    "title": "Nutritional Content",
+    "instructions": "Fight using the calories, potassium, sodium and protein contents!",
+    "tags": ["Health", "Nutrition"]
+  },
+  "minerals": {
+    "title": "Minerals",
+    "instructions": "Fight using the hardness, number of atoms, refractive index and density!",
+    "tags": ["Science", "Minerals"]
   }
 }
