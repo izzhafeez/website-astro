@@ -1,501 +1,9 @@
 [
   {
-    "name": "MultiVersus",
-    "Release Year": 2022,
-    "IMDB Rating": 7.8,
-    "IMDB Votes": 244
-  },
-  {
-    "name": "Xenoblade Chronicles 3",
-    "Release Year": 2022,
-    "IMDB Rating": 9.0,
-    "IMDB Votes": 84
-  },
-  {
-    "name": "Yakuza: Like a Dragon",
-    "Release Year": 2020,
-    "IMDB Rating": 8.7,
-    "IMDB Votes": 536
-  },
-  {
-    "name": "Tiny Tina's Wonderlands",
-    "Release Year": 2022,
-    "IMDB Rating": 8.2,
-    "IMDB Votes": 350
-  },
-  {
-    "name": "Saints Row",
-    "Release Year": 2022,
-    "IMDB Rating": 4.3,
-    "IMDB Votes": 221
-  },
-  {
-    "name": "Predator: Hunting Grounds",
-    "Release Year": 2020,
-    "IMDB Rating": 6.1,
-    "IMDB Votes": 288
-  },
-  {
-    "name": "Poppy Playtime",
-    "Release Year": 2021,
-    "IMDB Rating": 6.9,
-    "IMDB Votes": 489
-  },
-  {
-    "name": "Lego Dimensions",
-    "Release Year": 2015,
-    "IMDB Rating": 7.7,
-    "IMDB Votes": 998
-  },
-  {
-    "name": "James Bond: World of Espionage",
-    "Release Year": 2015,
-    "IMDB Rating": 6.0,
-    "IMDB Votes": 172
-  },
-  {
-    "name": "M.U.G.E.N",
-    "Release Year": 1999,
-    "IMDB Rating": 6.2,
-    "IMDB Votes": 32
-  },
-  {
-    "name": "Mob of the Dead",
-    "Release Year": 2013,
-    "IMDB Rating": 9.1,
-    "IMDB Votes": 859
-  },
-  {
-    "name": "Top Gun",
-    "Release Year": 1987,
-    "IMDB Rating": 5.1,
-    "IMDB Votes": 239
-  },
-  {
-    "name": "Valorant",
-    "Release Year": 2020,
-    "IMDB Rating": 6.6,
-    "IMDB Votes": 737
-  },
-  {
-    "name": "LEGO The Incredibles",
-    "Release Year": 2018,
-    "IMDB Rating": 7.3,
-    "IMDB Votes": 471
-  },
-  {
-    "name": "Hentai Girl",
-    "Release Year": 2018,
-    "IMDB Rating": 5.6,
-    "IMDB Votes": 30
-  },
-  {
-    "name": "Maneater",
-    "Release Year": 2020,
-    "IMDB Rating": 6.9,
-    "IMDB Votes": 390
-  },
-  {
-    "name": "WWE 2K22",
-    "Release Year": 2022,
-    "IMDB Rating": 7.5,
-    "IMDB Votes": 226
-  },
-  {
-    "name": "Fast and Furious Crossroads",
-    "Release Year": 2020,
-    "IMDB Rating": 2.2,
-    "IMDB Votes": 364
-  },
-  {
-    "name": "Demolition Man",
-    "Release Year": 1994,
-    "IMDB Rating": 7.3,
-    "IMDB Votes": 694
-  },
-  {
-    "name": "World of Warcraft: Shadowlands",
-    "Release Year": 2020,
-    "IMDB Rating": 6.6,
-    "IMDB Votes": 194
-  },
-  {
-    "name": "Sea of Thieves",
-    "Release Year": 2018,
-    "IMDB Rating": 6.5,
-    "IMDB Votes": 768
-  },
-  {
-    "name": "Harry Potter: Hogwarts Mystery",
-    "Release Year": 2018,
-    "IMDB Rating": 5.9,
-    "IMDB Votes": 327
-  },
-  {
-    "name": "Just Cause 4",
-    "Release Year": 2018,
-    "IMDB Rating": 5.8,
-    "IMDB Votes": 895
-  },
-  {
-    "name": "Terminator: Resistance",
-    "Release Year": 2019,
-    "IMDB Rating": 7.2,
-    "IMDB Votes": 413
-  },
-  {
-    "name": "Catwoman: The Game",
-    "Release Year": 2004,
-    "IMDB Rating": 4.0,
-    "IMDB Votes": 304
-  },
-  {
-    "name": "Back 4 Blood",
-    "Release Year": 2021,
-    "IMDB Rating": 6.1,
-    "IMDB Votes": 397
-  },
-  {
-    "name": "New Rally-X",
-    "Release Year": 1981,
-    "IMDB Rating": 5.5,
-    "IMDB Votes": 19
-  },
-  {
-    "name": "Anthem",
-    "Release Year": 2019,
-    "IMDB Rating": 5.4,
-    "IMDB Votes": 831
-  },
-  {
-    "name": "T2: Terminator 2: Judgment Day",
-    "Release Year": 1992,
-    "IMDB Rating": 6.8,
-    "IMDB Votes": 16
-  },
-  {
-    "name": "Sniper Elite 5",
-    "Release Year": 2022,
-    "IMDB Rating": 7.0,
-    "IMDB Votes": 123
-  },
-  {
-    "name": "BMX XXX",
-    "Release Year": 2002,
-    "IMDB Rating": 5.7,
-    "IMDB Votes": 77
-  },
-  {
-    "name": "Hunt Down the Freeman",
-    "Release Year": 2018,
-    "IMDB Rating": 1.5,
-    "IMDB Votes": 226
-  },
-  {
-    "name": "Nickelodeon All-Star Brawl",
-    "Release Year": 2021,
-    "IMDB Rating": 5.6,
-    "IMDB Votes": 160
-  },
-  {
-    "name": "Attack on Titan",
-    "Release Year": 2016,
-    "IMDB Rating": 7.1,
-    "IMDB Votes": 348
-  },
-  {
-    "name": "Smite",
-    "Release Year": 2014,
-    "IMDB Rating": 6.7,
-    "IMDB Votes": 360
-  },
-  {
-    "name": "John Wick Hex",
-    "Release Year": 2019,
-    "IMDB Rating": 6.1,
-    "IMDB Votes": 68
-  },
-  {
     "name": "Space Ace",
     "Release Year": 1983,
     "IMDB Rating": 7.3,
     "IMDB Votes": 277
-  },
-  {
-    "name": "Jump Force",
-    "Release Year": 2019,
-    "IMDB Rating": 4.9,
-    "IMDB Votes": 459
-  },
-  {
-    "name": "Fight Club",
-    "Release Year": 2004,
-    "IMDB Rating": 4.5,
-    "IMDB Votes": 368
-  },
-  {
-    "name": "Rage 2",
-    "Release Year": 2019,
-    "IMDB Rating": 6.5,
-    "IMDB Votes": 738
-  },
-  {
-    "name": "Hulk",
-    "Release Year": 2003,
-    "IMDB Rating": 6.2,
-    "IMDB Votes": 582
-  },
-  {
-    "name": "Rust",
-    "Release Year": 2013,
-    "IMDB Rating": 5.7,
-    "IMDB Votes": 134
-  },
-  {
-    "name": "Alone in the Dark",
-    "Release Year": 2008,
-    "IMDB Rating": 5.4,
-    "IMDB Votes": 600
-  },
-  {
-    "name": "Zombieland VR: Headshot Fever",
-    "Release Year": 2021,
-    "IMDB Rating": 6.0,
-    "IMDB Votes": 7
-  },
-  {
-    "name": "Agents of Mayhem",
-    "Release Year": 2017,
-    "IMDB Rating": 5.9,
-    "IMDB Votes": 254
-  },
-  {
-    "name": "Hatred",
-    "Release Year": 2015,
-    "IMDB Rating": 5.0,
-    "IMDB Votes": 172
-  },
-  {
-    "name": "Brawl Stars",
-    "Release Year": 2017,
-    "IMDB Rating": 7.0,
-    "IMDB Votes": 462
-  },
-  {
-    "name": "Rogue Company",
-    "Release Year": 2020,
-    "IMDB Rating": 6.7,
-    "IMDB Votes": 100
-  },
-  {
-    "name": "XIII",
-    "Release Year": 2020,
-    "IMDB Rating": 3.4,
-    "IMDB Votes": 42
-  },
-  {
-    "name": "Homefront: The Revolution",
-    "Release Year": 2016,
-    "IMDB Rating": 5.2,
-    "IMDB Votes": 344
-  },
-  {
-    "name": "Raft",
-    "Release Year": 2018,
-    "IMDB Rating": 7.0,
-    "IMDB Votes": 124
-  },
-  {
-    "name": "Agony",
-    "Release Year": 2018,
-    "IMDB Rating": 4.1,
-    "IMDB Votes": 149
-  },
-  {
-    "name": "Bee Movie Game",
-    "Release Year": 2007,
-    "IMDB Rating": 5.8,
-    "IMDB Votes": 260
-  },
-  {
-    "name": "Beowulf: The Game",
-    "Release Year": 2007,
-    "IMDB Rating": 5.1,
-    "IMDB Votes": 408
-  },
-  {
-    "name": "Eragon",
-    "Release Year": 2006,
-    "IMDB Rating": 4.7,
-    "IMDB Votes": 464
-  },
-  {
-    "name": "Ride to Hell: Retribution",
-    "Release Year": 2013,
-    "IMDB Rating": 1.3,
-    "IMDB Votes": 307
-  },
-  {
-    "name": "50 Cent: Bulletproof",
-    "Release Year": 2005,
-    "IMDB Rating": 3.8,
-    "IMDB Votes": 556
-  },
-  {
-    "name": "Chernobylite",
-    "Release Year": 2019,
-    "IMDB Rating": 6.6,
-    "IMDB Votes": 52
-  },
-  {
-    "name": "Chicken Little",
-    "Release Year": 2005,
-    "IMDB Rating": 6.3,
-    "IMDB Votes": 272
-  },
-  {
-    "name": "Wheelman",
-    "Release Year": 2009,
-    "IMDB Rating": 6.3,
-    "IMDB Votes": 553
-  },
-  {
-    "name": "Temple Run",
-    "Release Year": 2011,
-    "IMDB Rating": 6.0,
-    "IMDB Votes": 445
-  },
-  {
-    "name": "Link: The Faces of Evil",
-    "Release Year": 1993,
-    "IMDB Rating": 4.3,
-    "IMDB Votes": 543
-  },
-  {
-    "name": "Young Justice: Legacy",
-    "Release Year": 2013,
-    "IMDB Rating": 6.4,
-    "IMDB Votes": 154
-  },
-  {
-    "name": "Narc",
-    "Release Year": 2005,
-    "IMDB Rating": 6.4,
-    "IMDB Votes": 139
-  },
-  {
-    "name": "Charlie's Angels",
-    "Release Year": 2003,
-    "IMDB Rating": 3.6,
-    "IMDB Votes": 184
-  },
-  {
-    "name": "MIB: Alien Crisis",
-    "Release Year": 2012,
-    "IMDB Rating": 5.3,
-    "IMDB Votes": 70
-  },
-  {
-    "name": "Wayne's World",
-    "Release Year": 1993,
-    "IMDB Rating": 5.1,
-    "IMDB Votes": 98
-  },
-  {
-    "name": "R.I.P.D.: The Game",
-    "Release Year": 2013,
-    "IMDB Rating": 2.5,
-    "IMDB Votes": 33
-  },
-  {
-    "name": "\u00c6on Flux",
-    "Release Year": 2005,
-    "IMDB Rating": 5.5,
-    "IMDB Votes": 253
-  },
-  {
-    "name": "Vigor",
-    "Release Year": 2018,
-    "IMDB Rating": 4.8,
-    "IMDB Votes": 20
-  },
-  {
-    "name": "One Piece: World Seeker",
-    "Release Year": 2019,
-    "IMDB Rating": 5.4,
-    "IMDB Votes": 128
-  },
-  {
-    "name": "Rambo: The Video Game",
-    "Release Year": 2014,
-    "IMDB Rating": 3.0,
-    "IMDB Votes": 134
-  },
-  {
-    "name": "Lords Mobile",
-    "Release Year": 2016,
-    "IMDB Rating": 5.5,
-    "IMDB Votes": 18
-  },
-  {
-    "name": "Intel Discovered",
-    "Release Year": 2012,
-    "IMDB Rating": 5.3,
-    "IMDB Votes": 9
-  },
-  {
-    "name": "Zula",
-    "Release Year": 2015,
-    "IMDB Rating": 4.4,
-    "IMDB Votes": 63
-  },
-  {
-    "name": "Flushed Away",
-    "Release Year": 2006,
-    "IMDB Rating": 4.5,
-    "IMDB Votes": 205
-  },
-  {
-    "name": "Mighty No. 9",
-    "Release Year": 2016,
-    "IMDB Rating": 3.7,
-    "IMDB Votes": 190
-  },
-  {
-    "name": "A Nightmare on Elm Street",
-    "Release Year": 1989,
-    "IMDB Rating": 5.8,
-    "IMDB Votes": 243
-  },
-  {
-    "name": "G.I. Joe: The Rise of Cobra",
-    "Release Year": 2009,
-    "IMDB Rating": 4.6,
-    "IMDB Votes": 409
-  },
-  {
-    "name": "Babylon's Fall",
-    "Release Year": 2022,
-    "IMDB Rating": 3.0,
-    "IMDB Votes": 15
-  },
-  {
-    "name": "Jimmy Neutron: Boy Genius",
-    "Release Year": 2001,
-    "IMDB Rating": 5.9,
-    "IMDB Votes": 40
-  },
-  {
-    "name": "V Rising",
-    "Release Year": 2022,
-    "IMDB Rating": 5.2,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "25 to Life",
-    "Release Year": 2006,
-    "IMDB Rating": 5.7,
-    "IMDB Votes": 97
   },
   {
     "name": "Crucible",
@@ -504,244 +12,28 @@
     "IMDB Votes": 5
   },
   {
-    "name": "Lula 3D",
-    "Release Year": 2005,
-    "IMDB Rating": 4.2,
-    "IMDB Votes": 28
-  },
-  {
-    "name": "Daikatana",
-    "Release Year": 2000,
-    "IMDB Rating": 3.7,
-    "IMDB Votes": 114
-  },
-  {
-    "name": "Tattoo Assassins",
-    "Release Year": 1994,
-    "IMDB Rating": 3.9,
-    "IMDB Votes": 40
-  },
-  {
-    "name": "Lifeline",
-    "Release Year": 2003,
-    "IMDB Rating": 5.2,
-    "IMDB Votes": 30
-  },
-  {
-    "name": "LawBreakers",
-    "Release Year": 2017,
-    "IMDB Rating": 3.9,
-    "IMDB Votes": 46
-  },
-  {
-    "name": "Xuan-Yuan Sword 7",
-    "Release Year": 2020,
-    "IMDB Rating": 3.1,
-    "IMDB Votes": 23
-  },
-  {
-    "name": "Extinction",
-    "Release Year": 2018,
-    "IMDB Rating": 4.0,
-    "IMDB Votes": 31
-  },
-  {
-    "name": "Hudson Hawk",
-    "Release Year": 1991,
-    "IMDB Rating": 5.0,
-    "IMDB Votes": 59
-  },
-  {
-    "name": "1-2 Switch",
-    "Release Year": 2017,
-    "IMDB Rating": 5.0,
-    "IMDB Votes": 108
-  },
-  {
-    "name": "Damnation",
-    "Release Year": 2009,
-    "IMDB Rating": 4.6,
-    "IMDB Votes": 55
-  },
-  {
-    "name": "FAU-G",
+    "name": "Zombieland VR: Headshot Fever",
     "Release Year": 2021,
-    "IMDB Rating": 3.8,
-    "IMDB Votes": 17
+    "IMDB Rating": 6.0,
+    "IMDB Votes": 7
   },
   {
-    "name": "V.I.P.",
-    "Release Year": 2001,
-    "IMDB Rating": 4.6,
-    "IMDB Votes": 65
-  },
-  {
-    "name": "Alekhine's Gun",
-    "Release Year": 2016,
-    "IMDB Rating": 3.3,
-    "IMDB Votes": 19
-  },
-  {
-    "name": "Soccer Kid",
-    "Release Year": 1993,
-    "IMDB Rating": 4.9,
-    "IMDB Votes": 18
-  },
-  {
-    "name": "PETA's Pok\u00e9mon Black and Blue",
-    "Release Year": 2012,
-    "IMDB Rating": 1.9,
-    "IMDB Votes": 29
-  },
-  {
-    "name": "Razor Freestyle Scooter",
-    "Release Year": 2000,
-    "IMDB Rating": 4.5,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "Kasumi Ninja",
-    "Release Year": 1994,
-    "IMDB Rating": 3.3,
-    "IMDB Votes": 26
-  },
-  {
-    "name": "Bebe's Kids",
-    "Release Year": 1994,
-    "IMDB Rating": 1.7,
-    "IMDB Votes": 52
-  },
-  {
-    "name": "Lester the Unlikely",
-    "Release Year": 1994,
-    "IMDB Rating": 2.3,
-    "IMDB Votes": 48
-  },
-  {
-    "name": "Aquaman: Battle for Atlantis",
-    "Release Year": 2003,
-    "IMDB Rating": 3.5,
-    "IMDB Votes": 93
-  },
-  {
-    "name": "Cobra",
-    "Release Year": 1986,
-    "IMDB Rating": 3.9,
-    "IMDB Votes": 25
-  },
-  {
-    "name": "Dodgem",
-    "Release Year": 1979,
-    "IMDB Rating": 4.1,
-    "IMDB Votes": 9
-  },
-  {
-    "name": "Micro Machines: World Series",
-    "Release Year": 2017,
-    "IMDB Rating": 4.2,
-    "IMDB Votes": 13
-  },
-  {
-    "name": "Guts and Glory",
-    "Release Year": 2018,
-    "IMDB Rating": 4.8,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "Past Cure",
-    "Release Year": 2018,
-    "IMDB Rating": 3.1,
-    "IMDB Votes": 9
-  },
-  {
-    "name": "Dogfight",
-    "Release Year": 1972,
-    "IMDB Rating": 2.1,
-    "IMDB Votes": 11
-  },
-  {
-    "name": "Circlet Princess",
-    "Release Year": 2019,
-    "IMDB Rating": 3.5,
-    "IMDB Votes": 6
-  },
-  {
-    "name": "Tank 8",
-    "Release Year": 1976,
-    "IMDB Rating": 3.3,
-    "IMDB Votes": 10
-  },
-  {
-    "name": "X-Squad",
-    "Release Year": 2000,
-    "IMDB Rating": 4.4,
-    "IMDB Votes": 17
-  },
-  {
-    "name": "Jenga World Tour",
-    "Release Year": 2007,
-    "IMDB Rating": 1.5,
-    "IMDB Votes": 17
-  },
-  {
-    "name": "8 Eyes",
-    "Release Year": 1988,
-    "IMDB Rating": 4.3,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "Pipi & Bibis",
-    "Release Year": 1992,
-    "IMDB Rating": 4.8,
-    "IMDB Votes": 6
-  },
-  {
-    "name": "Kaette Kita Mario Bros.",
-    "Release Year": 1988,
-    "IMDB Rating": 4.1,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "InkSplosion",
-    "Release Year": 2018,
-    "IMDB Rating": 3.1,
-    "IMDB Votes": 12
-  },
-  {
-    "name": "Korea: Forgotten Conflict",
-    "Release Year": 2003,
-    "IMDB Rating": 3.0,
-    "IMDB Votes": 6
-  },
-  {
-    "name": "Omori",
-    "Release Year": 2020,
-    "IMDB Rating": 9.3,
-    "IMDB Votes": 389
-  },
-  {
-    "name": "Pyst",
-    "Release Year": 1996,
-    "IMDB Rating": 3.6,
-    "IMDB Votes": 31
-  },
-  {
-    "name": "YIIK",
-    "Release Year": 2019,
-    "IMDB Rating": 3.6,
-    "IMDB Votes": 23
-  },
-  {
-    "name": "E.T. Phone Home!",
-    "Release Year": 1983,
-    "IMDB Rating": 1.9,
-    "IMDB Votes": 28
-  },
-  {
-    "name": "Nubla",
+    "name": "Lego Dimensions",
     "Release Year": 2015,
-    "IMDB Rating": 4.7,
-    "IMDB Votes": 23
+    "IMDB Rating": 7.7,
+    "IMDB Votes": 998
+  },
+  {
+    "name": "MultiVersus",
+    "Release Year": 2022,
+    "IMDB Rating": 7.8,
+    "IMDB Votes": 244
+  },
+  {
+    "name": "Mob of the Dead",
+    "Release Year": 2013,
+    "IMDB Rating": 9.1,
+    "IMDB Votes": 859
   },
   {
     "name": "Plumbers Don't Wear Ties",
@@ -750,16 +42,208 @@
     "IMDB Votes": 336
   },
   {
+    "name": "Dogfight",
+    "Release Year": 1972,
+    "IMDB Rating": 2.1,
+    "IMDB Votes": 11
+  },
+  {
+    "name": "Tiny Tina's Wonderlands",
+    "Release Year": 2022,
+    "IMDB Rating": 8.2,
+    "IMDB Votes": 350
+  },
+  {
+    "name": "V Rising",
+    "Release Year": 2022,
+    "IMDB Rating": 5.2,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "Babylon's Fall",
+    "Release Year": 2022,
+    "IMDB Rating": 3.0,
+    "IMDB Votes": 15
+  },
+  {
+    "name": "Omori",
+    "Release Year": 2020,
+    "IMDB Rating": 9.3,
+    "IMDB Votes": 389
+  },
+  {
+    "name": "Xenoblade Chronicles 3",
+    "Release Year": 2022,
+    "IMDB Rating": 9.0,
+    "IMDB Votes": 84
+  },
+  {
+    "name": "Circlet Princess",
+    "Release Year": 2019,
+    "IMDB Rating": 3.5,
+    "IMDB Votes": 6
+  },
+  {
+    "name": "Ride to Hell: Retribution",
+    "Release Year": 2013,
+    "IMDB Rating": 1.3,
+    "IMDB Votes": 307
+  },
+  {
+    "name": "Demolition Man",
+    "Release Year": 1994,
+    "IMDB Rating": 7.3,
+    "IMDB Votes": 694
+  },
+  {
+    "name": "Tank 8",
+    "Release Year": 1976,
+    "IMDB Rating": 3.3,
+    "IMDB Votes": 10
+  },
+  {
+    "name": "WWE 2K22",
+    "Release Year": 2022,
+    "IMDB Rating": 7.5,
+    "IMDB Votes": 226
+  },
+  {
+    "name": "Dodgem",
+    "Release Year": 1979,
+    "IMDB Rating": 4.1,
+    "IMDB Votes": 9
+  },
+  {
+    "name": "Just Cause 4",
+    "Release Year": 2018,
+    "IMDB Rating": 5.8,
+    "IMDB Votes": 895
+  },
+  {
+    "name": "Yakuza: Like a Dragon",
+    "Release Year": 2020,
+    "IMDB Rating": 8.7,
+    "IMDB Votes": 536
+  },
+  {
+    "name": "Hunt Down the Freeman",
+    "Release Year": 2018,
+    "IMDB Rating": 1.5,
+    "IMDB Votes": 226
+  },
+  {
+    "name": "Saints Row",
+    "Release Year": 2022,
+    "IMDB Rating": 4.3,
+    "IMDB Votes": 221
+  },
+  {
+    "name": "Pipi & Bibis",
+    "Release Year": 1992,
+    "IMDB Rating": 4.8,
+    "IMDB Votes": 6
+  },
+  {
+    "name": "Anthem",
+    "Release Year": 2019,
+    "IMDB Rating": 5.4,
+    "IMDB Votes": 831
+  },
+  {
+    "name": "Sniper Elite 5",
+    "Release Year": 2022,
+    "IMDB Rating": 7.0,
+    "IMDB Votes": 123
+  },
+  {
+    "name": "New Rally-X",
+    "Release Year": 1981,
+    "IMDB Rating": 5.5,
+    "IMDB Votes": 19
+  },
+  {
+    "name": "Korea: Forgotten Conflict",
+    "Release Year": 2003,
+    "IMDB Rating": 3.0,
+    "IMDB Votes": 6
+  },
+  {
+    "name": "Jenga World Tour",
+    "Release Year": 2007,
+    "IMDB Rating": 1.5,
+    "IMDB Votes": 17
+  },
+  {
+    "name": "Sea of Thieves",
+    "Release Year": 2018,
+    "IMDB Rating": 6.5,
+    "IMDB Votes": 768
+  },
+  {
+    "name": "E.T. Phone Home!",
+    "Release Year": 1983,
+    "IMDB Rating": 1.9,
+    "IMDB Votes": 28
+  },
+  {
+    "name": "Link: The Faces of Evil",
+    "Release Year": 1993,
+    "IMDB Rating": 4.3,
+    "IMDB Votes": 543
+  },
+  {
+    "name": "Rage 2",
+    "Release Year": 2019,
+    "IMDB Rating": 6.5,
+    "IMDB Votes": 738
+  },
+  {
+    "name": "Fast and Furious Crossroads",
+    "Release Year": 2020,
+    "IMDB Rating": 2.2,
+    "IMDB Votes": 364
+  },
+  {
     "name": "Dalmatians 3",
     "Release Year": 2003,
     "IMDB Rating": 1.6,
     "IMDB Votes": 68
   },
   {
-    "name": "Daggerhood",
-    "Release Year": 2019,
-    "IMDB Rating": 2.7,
-    "IMDB Votes": 12
+    "name": "Past Cure",
+    "Release Year": 2018,
+    "IMDB Rating": 3.1,
+    "IMDB Votes": 9
+  },
+  {
+    "name": "Valorant",
+    "Release Year": 2020,
+    "IMDB Rating": 6.6,
+    "IMDB Votes": 737
+  },
+  {
+    "name": "FAU-G",
+    "Release Year": 2021,
+    "IMDB Rating": 3.8,
+    "IMDB Votes": 17
+  },
+  {
+    "name": "Bebe's Kids",
+    "Release Year": 1994,
+    "IMDB Rating": 1.7,
+    "IMDB Votes": 52
+  },
+  {
+    "name": "T2: Terminator 2: Judgment Day",
+    "Release Year": 1992,
+    "IMDB Rating": 6.8,
+    "IMDB Votes": 16
+  },
+  {
+    "name": "Hulk",
+    "Release Year": 2003,
+    "IMDB Rating": 6.2,
+    "IMDB Votes": 582
   },
   {
     "name": "Bible Buffet",
@@ -772,5 +256,521 @@
     "Release Year": 1984,
     "IMDB Rating": 4.0,
     "IMDB Votes": 13
+  },
+  {
+    "name": "50 Cent: Bulletproof",
+    "Release Year": 2005,
+    "IMDB Rating": 3.8,
+    "IMDB Votes": 556
+  },
+  {
+    "name": "LEGO The Incredibles",
+    "Release Year": 2018,
+    "IMDB Rating": 7.3,
+    "IMDB Votes": 471
+  },
+  {
+    "name": "Daggerhood",
+    "Release Year": 2019,
+    "IMDB Rating": 2.7,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "Alone in the Dark",
+    "Release Year": 2008,
+    "IMDB Rating": 5.4,
+    "IMDB Votes": 600
+  },
+  {
+    "name": "Intel Discovered",
+    "Release Year": 2012,
+    "IMDB Rating": 5.3,
+    "IMDB Votes": 9
+  },
+  {
+    "name": "Top Gun",
+    "Release Year": 1987,
+    "IMDB Rating": 5.1,
+    "IMDB Votes": 239
+  },
+  {
+    "name": "Poppy Playtime",
+    "Release Year": 2021,
+    "IMDB Rating": 6.9,
+    "IMDB Votes": 489
+  },
+  {
+    "name": "Cobra",
+    "Release Year": 1986,
+    "IMDB Rating": 3.9,
+    "IMDB Votes": 25
+  },
+  {
+    "name": "Nickelodeon All-Star Brawl",
+    "Release Year": 2021,
+    "IMDB Rating": 5.6,
+    "IMDB Votes": 160
+  },
+  {
+    "name": "Back 4 Blood",
+    "Release Year": 2021,
+    "IMDB Rating": 6.1,
+    "IMDB Votes": 397
+  },
+  {
+    "name": "8 Eyes",
+    "Release Year": 1988,
+    "IMDB Rating": 4.3,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "PETA's Pok\u00e9mon Black and Blue",
+    "Release Year": 2012,
+    "IMDB Rating": 1.9,
+    "IMDB Votes": 29
+  },
+  {
+    "name": "Xuan-Yuan Sword 7",
+    "Release Year": 2020,
+    "IMDB Rating": 3.1,
+    "IMDB Votes": 23
+  },
+  {
+    "name": "Kaette Kita Mario Bros.",
+    "Release Year": 1988,
+    "IMDB Rating": 4.1,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "Wheelman",
+    "Release Year": 2009,
+    "IMDB Rating": 6.3,
+    "IMDB Votes": 553
+  },
+  {
+    "name": "A Nightmare on Elm Street",
+    "Release Year": 1989,
+    "IMDB Rating": 5.8,
+    "IMDB Votes": 243
+  },
+  {
+    "name": "InkSplosion",
+    "Release Year": 2018,
+    "IMDB Rating": 3.1,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "Terminator: Resistance",
+    "Release Year": 2019,
+    "IMDB Rating": 7.2,
+    "IMDB Votes": 413
+  },
+  {
+    "name": "XIII",
+    "Release Year": 2020,
+    "IMDB Rating": 3.4,
+    "IMDB Votes": 42
+  },
+  {
+    "name": "Lester the Unlikely",
+    "Release Year": 1994,
+    "IMDB Rating": 2.3,
+    "IMDB Votes": 48
+  },
+  {
+    "name": "Attack on Titan",
+    "Release Year": 2016,
+    "IMDB Rating": 7.1,
+    "IMDB Votes": 348
+  },
+  {
+    "name": "Maneater",
+    "Release Year": 2020,
+    "IMDB Rating": 6.9,
+    "IMDB Votes": 390
+  },
+  {
+    "name": "Hudson Hawk",
+    "Release Year": 1991,
+    "IMDB Rating": 5.0,
+    "IMDB Votes": 59
+  },
+  {
+    "name": "R.I.P.D.: The Game",
+    "Release Year": 2013,
+    "IMDB Rating": 2.5,
+    "IMDB Votes": 33
+  },
+  {
+    "name": "Raft",
+    "Release Year": 2018,
+    "IMDB Rating": 7.0,
+    "IMDB Votes": 124
+  },
+  {
+    "name": "Brawl Stars",
+    "Release Year": 2017,
+    "IMDB Rating": 7.0,
+    "IMDB Votes": 462
+  },
+  {
+    "name": "Predator: Hunting Grounds",
+    "Release Year": 2020,
+    "IMDB Rating": 6.1,
+    "IMDB Votes": 288
+  },
+  {
+    "name": "Guts and Glory",
+    "Release Year": 2018,
+    "IMDB Rating": 4.8,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "World of Warcraft: Shadowlands",
+    "Release Year": 2020,
+    "IMDB Rating": 6.6,
+    "IMDB Votes": 194
+  },
+  {
+    "name": "Eragon",
+    "Release Year": 2006,
+    "IMDB Rating": 4.7,
+    "IMDB Votes": 464
+  },
+  {
+    "name": "Rogue Company",
+    "Release Year": 2020,
+    "IMDB Rating": 6.7,
+    "IMDB Votes": 100
+  },
+  {
+    "name": "Rambo: The Video Game",
+    "Release Year": 2014,
+    "IMDB Rating": 3.0,
+    "IMDB Votes": 134
+  },
+  {
+    "name": "Razor Freestyle Scooter",
+    "Release Year": 2000,
+    "IMDB Rating": 4.5,
+    "IMDB Votes": 12
+  },
+  {
+    "name": "Jump Force",
+    "Release Year": 2019,
+    "IMDB Rating": 4.9,
+    "IMDB Votes": 459
+  },
+  {
+    "name": "Soccer Kid",
+    "Release Year": 1993,
+    "IMDB Rating": 4.9,
+    "IMDB Votes": 18
+  },
+  {
+    "name": "Micro Machines: World Series",
+    "Release Year": 2017,
+    "IMDB Rating": 4.2,
+    "IMDB Votes": 13
+  },
+  {
+    "name": "Temple Run",
+    "Release Year": 2011,
+    "IMDB Rating": 6.0,
+    "IMDB Votes": 445
+  },
+  {
+    "name": "Smite",
+    "Release Year": 2014,
+    "IMDB Rating": 6.7,
+    "IMDB Votes": 360
+  },
+  {
+    "name": "Wayne's World",
+    "Release Year": 1993,
+    "IMDB Rating": 5.1,
+    "IMDB Votes": 98
+  },
+  {
+    "name": "Chernobylite",
+    "Release Year": 2019,
+    "IMDB Rating": 6.6,
+    "IMDB Votes": 52
+  },
+  {
+    "name": "YIIK",
+    "Release Year": 2019,
+    "IMDB Rating": 3.6,
+    "IMDB Votes": 23
+  },
+  {
+    "name": "G.I. Joe: The Rise of Cobra",
+    "Release Year": 2009,
+    "IMDB Rating": 4.6,
+    "IMDB Votes": 409
+  },
+  {
+    "name": "M.U.G.E.N",
+    "Release Year": 1999,
+    "IMDB Rating": 6.2,
+    "IMDB Votes": 32
+  },
+  {
+    "name": "Alekhine's Gun",
+    "Release Year": 2016,
+    "IMDB Rating": 3.3,
+    "IMDB Votes": 19
+  },
+  {
+    "name": "Beowulf: The Game",
+    "Release Year": 2007,
+    "IMDB Rating": 5.1,
+    "IMDB Votes": 408
+  },
+  {
+    "name": "Fight Club",
+    "Release Year": 2004,
+    "IMDB Rating": 4.5,
+    "IMDB Votes": 368
+  },
+  {
+    "name": "Kasumi Ninja",
+    "Release Year": 1994,
+    "IMDB Rating": 3.3,
+    "IMDB Votes": 26
+  },
+  {
+    "name": "John Wick Hex",
+    "Release Year": 2019,
+    "IMDB Rating": 6.1,
+    "IMDB Votes": 68
+  },
+  {
+    "name": "X-Squad",
+    "Release Year": 2000,
+    "IMDB Rating": 4.4,
+    "IMDB Votes": 17
+  },
+  {
+    "name": "One Piece: World Seeker",
+    "Release Year": 2019,
+    "IMDB Rating": 5.4,
+    "IMDB Votes": 128
+  },
+  {
+    "name": "Narc",
+    "Release Year": 2005,
+    "IMDB Rating": 6.4,
+    "IMDB Votes": 139
+  },
+  {
+    "name": "Lords Mobile",
+    "Release Year": 2016,
+    "IMDB Rating": 5.5,
+    "IMDB Votes": 18
+  },
+  {
+    "name": "Vigor",
+    "Release Year": 2018,
+    "IMDB Rating": 4.8,
+    "IMDB Votes": 20
+  },
+  {
+    "name": "Chicken Little",
+    "Release Year": 2005,
+    "IMDB Rating": 6.3,
+    "IMDB Votes": 272
+  },
+  {
+    "name": "Tattoo Assassins",
+    "Release Year": 1994,
+    "IMDB Rating": 3.9,
+    "IMDB Votes": 40
+  },
+  {
+    "name": "Young Justice: Legacy",
+    "Release Year": 2013,
+    "IMDB Rating": 6.4,
+    "IMDB Votes": 154
+  },
+  {
+    "name": "Aquaman: Battle for Atlantis",
+    "Release Year": 2003,
+    "IMDB Rating": 3.5,
+    "IMDB Votes": 93
+  },
+  {
+    "name": "Pyst",
+    "Release Year": 1996,
+    "IMDB Rating": 3.6,
+    "IMDB Votes": 31
+  },
+  {
+    "name": "Charlie's Angels",
+    "Release Year": 2003,
+    "IMDB Rating": 3.6,
+    "IMDB Votes": 184
+  },
+  {
+    "name": "Jimmy Neutron: Boy Genius",
+    "Release Year": 2001,
+    "IMDB Rating": 5.9,
+    "IMDB Votes": 40
+  },
+  {
+    "name": "Mighty No. 9",
+    "Release Year": 2016,
+    "IMDB Rating": 3.7,
+    "IMDB Votes": 190
+  },
+  {
+    "name": "Catwoman: The Game",
+    "Release Year": 2004,
+    "IMDB Rating": 4.0,
+    "IMDB Votes": 304
+  },
+  {
+    "name": "Daikatana",
+    "Release Year": 2000,
+    "IMDB Rating": 3.7,
+    "IMDB Votes": 114
+  },
+  {
+    "name": "Hentai Girl",
+    "Release Year": 2018,
+    "IMDB Rating": 5.6,
+    "IMDB Votes": 30
+  },
+  {
+    "name": "BMX XXX",
+    "Release Year": 2002,
+    "IMDB Rating": 5.7,
+    "IMDB Votes": 77
+  },
+  {
+    "name": "Extinction",
+    "Release Year": 2018,
+    "IMDB Rating": 4.0,
+    "IMDB Votes": 31
+  },
+  {
+    "name": "Homefront: The Revolution",
+    "Release Year": 2016,
+    "IMDB Rating": 5.2,
+    "IMDB Votes": 344
+  },
+  {
+    "name": "Agony",
+    "Release Year": 2018,
+    "IMDB Rating": 4.1,
+    "IMDB Votes": 149
+  },
+  {
+    "name": "Nubla",
+    "Release Year": 2015,
+    "IMDB Rating": 4.7,
+    "IMDB Votes": 23
+  },
+  {
+    "name": "V.I.P.",
+    "Release Year": 2001,
+    "IMDB Rating": 4.6,
+    "IMDB Votes": 65
+  },
+  {
+    "name": "LawBreakers",
+    "Release Year": 2017,
+    "IMDB Rating": 3.9,
+    "IMDB Votes": 46
+  },
+  {
+    "name": "Harry Potter: Hogwarts Mystery",
+    "Release Year": 2018,
+    "IMDB Rating": 5.9,
+    "IMDB Votes": 327
+  },
+  {
+    "name": "James Bond: World of Espionage",
+    "Release Year": 2015,
+    "IMDB Rating": 6.0,
+    "IMDB Votes": 172
+  },
+  {
+    "name": "\u00c6on Flux",
+    "Release Year": 2005,
+    "IMDB Rating": 5.5,
+    "IMDB Votes": 253
+  },
+  {
+    "name": "Bee Movie Game",
+    "Release Year": 2007,
+    "IMDB Rating": 5.8,
+    "IMDB Votes": 260
+  },
+  {
+    "name": "Lifeline",
+    "Release Year": 2003,
+    "IMDB Rating": 5.2,
+    "IMDB Votes": 30
+  },
+  {
+    "name": "Lula 3D",
+    "Release Year": 2005,
+    "IMDB Rating": 4.2,
+    "IMDB Votes": 28
+  },
+  {
+    "name": "Agents of Mayhem",
+    "Release Year": 2017,
+    "IMDB Rating": 5.9,
+    "IMDB Votes": 254
+  },
+  {
+    "name": "25 to Life",
+    "Release Year": 2006,
+    "IMDB Rating": 5.7,
+    "IMDB Votes": 97
+  },
+  {
+    "name": "Flushed Away",
+    "Release Year": 2006,
+    "IMDB Rating": 4.5,
+    "IMDB Votes": 205
+  },
+  {
+    "name": "Rust",
+    "Release Year": 2013,
+    "IMDB Rating": 5.7,
+    "IMDB Votes": 134
+  },
+  {
+    "name": "1-2 Switch",
+    "Release Year": 2017,
+    "IMDB Rating": 5.0,
+    "IMDB Votes": 108
+  },
+  {
+    "name": "Zula",
+    "Release Year": 2015,
+    "IMDB Rating": 4.4,
+    "IMDB Votes": 63
+  },
+  {
+    "name": "Hatred",
+    "Release Year": 2015,
+    "IMDB Rating": 5.0,
+    "IMDB Votes": 172
+  },
+  {
+    "name": "MIB: Alien Crisis",
+    "Release Year": 2012,
+    "IMDB Rating": 5.3,
+    "IMDB Votes": 70
+  },
+  {
+    "name": "Damnation",
+    "Release Year": 2009,
+    "IMDB Rating": 4.6,
+    "IMDB Votes": 55
   }
 ]
