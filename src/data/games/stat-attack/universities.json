@@ -1,842 +1,758 @@
 [
   {
-    "name": "Harvard University",
-    "Overall Rank": 1,
-    "Quality of Faculty (Rank)": 1,
-    "Alumni Employment (Rank)": 9,
-    "Quality of Education (Rank)": 7
+    "name": "University of Otago",
+    "Rank": 176,
+    "Latitude": -45.86556,
+    "Longitude": 170.51389
   },
   {
-    "name": "Massachusetts Institute of Technology",
-    "Overall Rank": 2,
-    "Quality of Faculty (Rank)": 3,
-    "Alumni Employment (Rank)": 17,
-    "Quality of Education (Rank)": 9
+    "name": "RMIT University",
+    "Rank": 238,
+    "Latitude": -37.8082,
+    "Longitude": 144.9643
+  },
+  {
+    "name": "The University of Sydney",
+    "Rank": 42,
+    "Latitude": -33.8875,
+    "Longitude": 151.19
+  },
+  {
+    "name": "Macquarie University",
+    "Rank": 237,
+    "Latitude": -33.77528,
+    "Longitude": 151.11278
+  },
+  {
+    "name": "Singapore Management University",
+    "Rank": 477,
+    "Latitude": 1.2963,
+    "Longitude": 103.8502
+  },
+  {
+    "name": "The University of Melbourne",
+    "Rank": 38,
+    "Latitude": -37.7963,
+    "Longitude": 144.9614
+  },
+  {
+    "name": "The University of Adelaide",
+    "Rank": 106,
+    "Latitude": -34.919159,
+    "Longitude": 138.60414
+  },
+  {
+    "name": "Qatar University",
+    "Rank": 276,
+    "Latitude": 25.375,
+    "Longitude": 51.48889
+  },
+  {
+    "name": "University of Tsukuba",
+    "Rank": 270,
+    "Latitude": 36.11143,
+    "Longitude": 140.10383
+  },
+  {
+    "name": "Tongji University",
+    "Rank": 265,
+    "Latitude": 31.2827,
+    "Longitude": 121.5066
+  },
+  {
+    "name": "University of Calgary",
+    "Rank": 233,
+    "Latitude": 51.0775,
+    "Longitude": -114.13306
   },
   {
     "name": "Stanford University",
-    "Overall Rank": 3,
-    "Quality of Faculty (Rank)": 5,
-    "Alumni Employment (Rank)": 11,
-    "Quality of Education (Rank)": 17
+    "Rank": 2,
+    "Latitude": 37.4275,
+    "Longitude": -122.17
   },
   {
-    "name": "University of Cambridge",
-    "Overall Rank": 4,
-    "Quality of Faculty (Rank)": 4,
-    "Alumni Employment (Rank)": 24,
-    "Quality of Education (Rank)": 10
+    "name": "Aalto University",
+    "Rank": 134,
+    "Latitude": 60.18611,
+    "Longitude": 24.82861
   },
   {
-    "name": "California Institute of Technology",
-    "Overall Rank": 5,
-    "Quality of Faculty (Rank)": 7,
-    "Alumni Employment (Rank)": 29,
-    "Quality of Education (Rank)": 2
+    "name": "University of Alberta",
+    "Rank": 113,
+    "Latitude": 53.52444,
+    "Longitude": -113.52444
   },
   {
-    "name": "Princeton University",
-    "Overall Rank": 6,
-    "Quality of Faculty (Rank)": 2,
-    "Alumni Employment (Rank)": 14,
-    "Quality of Education (Rank)": 8
-  },
-  {
-    "name": "University of Oxford",
-    "Overall Rank": 7,
-    "Quality of Faculty (Rank)": 9,
-    "Alumni Employment (Rank)": 28,
-    "Quality of Education (Rank)": 13
-  },
-  {
-    "name": "Yale University",
-    "Overall Rank": 8,
-    "Quality of Faculty (Rank)": 12,
-    "Alumni Employment (Rank)": 31,
-    "Quality of Education (Rank)": 14
-  },
-  {
-    "name": "Columbia University",
-    "Overall Rank": 9,
-    "Quality of Faculty (Rank)": 10,
-    "Alumni Employment (Rank)": 21,
-    "Quality of Education (Rank)": 23
-  },
-  {
-    "name": "University of California, Berkeley",
-    "Overall Rank": 10,
-    "Quality of Faculty (Rank)": 6,
-    "Alumni Employment (Rank)": 52,
-    "Quality of Education (Rank)": 16
-  },
-  {
-    "name": "University of Chicago",
-    "Overall Rank": 11,
-    "Quality of Faculty (Rank)": 8,
-    "Alumni Employment (Rank)": 26,
-    "Quality of Education (Rank)": 15
-  },
-  {
-    "name": "Cornell University",
-    "Overall Rank": 12,
-    "Quality of Faculty (Rank)": 14,
-    "Alumni Employment (Rank)": 42,
-    "Quality of Education (Rank)": 21
-  },
-  {
-    "name": "University of Pennsylvania",
-    "Overall Rank": 13,
-    "Quality of Faculty (Rank)": 24,
-    "Alumni Employment (Rank)": 16,
-    "Quality of Education (Rank)": 31
-  },
-  {
-    "name": "University of Tokyo",
-    "Overall Rank": 14,
-    "Quality of Faculty (Rank)": 31,
-    "Alumni Employment (Rank)": 19,
-    "Quality of Education (Rank)": 32
-  },
-  {
-    "name": "Johns Hopkins University",
-    "Overall Rank": 15,
-    "Quality of Faculty (Rank)": 20,
-    "Alumni Employment (Rank)": 77,
-    "Quality of Education (Rank)": 34
-  },
-  {
-    "name": "Swiss Federal Institute of Technology in Zurich",
-    "Overall Rank": 16,
-    "Quality of Faculty (Rank)": 11,
-    "Alumni Employment (Rank)": 66,
-    "Quality of Education (Rank)": 26
-  },
-  {
-    "name": "Kyoto University",
-    "Overall Rank": 17,
-    "Quality of Faculty (Rank)": 19,
-    "Alumni Employment (Rank)": 38,
-    "Quality of Education (Rank)": 42
-  },
-  {
-    "name": "Weizmann Institute of Science",
-    "Overall Rank": 18,
-    "Quality of Faculty (Rank)": 22,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 4
-  },
-  {
-    "name": "University of California, Los Angeles",
-    "Overall Rank": 19,
-    "Quality of Faculty (Rank)": 23,
-    "Alumni Employment (Rank)": 59,
-    "Quality of Education (Rank)": 62
-  },
-  {
-    "name": "University of California, San Diego",
-    "Overall Rank": 20,
-    "Quality of Faculty (Rank)": 15,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 61
-  },
-  {
-    "name": "Rockefeller University",
-    "Overall Rank": 21,
-    "Quality of Faculty (Rank)": 16,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 1
-  },
-  {
-    "name": "Hebrew University of Jerusalem",
-    "Overall Rank": 22,
-    "Quality of Faculty (Rank)": 13,
-    "Alumni Employment (Rank)": 93,
-    "Quality of Education (Rank)": 24
-  },
-  {
-    "name": "New York University",
-    "Overall Rank": 23,
-    "Quality of Faculty (Rank)": 17,
-    "Alumni Employment (Rank)": 75,
-    "Quality of Education (Rank)": 89
-  },
-  {
-    "name": "University of California, San Francisco",
-    "Overall Rank": 24,
-    "Quality of Faculty (Rank)": 21,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Wisconsin\u2013Madison",
-    "Overall Rank": 25,
-    "Quality of Faculty (Rank)": 33,
-    "Alumni Employment (Rank)": 63,
-    "Quality of Education (Rank)": 64
-  },
-  {
-    "name": "University of Illinois at Urbana\u2013Champaign",
-    "Overall Rank": 26,
-    "Quality of Faculty (Rank)": 18,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 82
-  },
-  {
-    "name": "Duke University",
-    "Overall Rank": 27,
-    "Quality of Faculty (Rank)": 55,
-    "Alumni Employment (Rank)": 43,
-    "Quality of Education (Rank)": 65
-  },
-  {
-    "name": "Imperial College London",
-    "Overall Rank": 28,
-    "Quality of Faculty (Rank)": 35,
-    "Alumni Employment (Rank)": 73,
-    "Quality of Education (Rank)": 84
-  },
-  {
-    "name": "University of Texas Southwestern Medical Center",
-    "Overall Rank": 29,
-    "Quality of Faculty (Rank)": 32,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 19
-  },
-  {
-    "name": "University of Texas at Austin",
-    "Overall Rank": 30,
-    "Quality of Faculty (Rank)": 27,
-    "Alumni Employment (Rank)": 78,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University College London",
-    "Overall Rank": 31,
-    "Quality of Faculty (Rank)": 45,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 35
-  },
-  {
-    "name": "Osaka University",
-    "Overall Rank": 32,
-    "Quality of Faculty (Rank)": 44,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 77
-  },
-  {
-    "name": "Northwestern University",
-    "Overall Rank": 33,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 32,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Michigan, Ann Arbor",
-    "Overall Rank": 34,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 60,
-    "Quality of Education (Rank)": 68
-  },
-  {
-    "name": "University of Toronto",
-    "Overall Rank": 35,
-    "Quality of Faculty (Rank)": 34,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of North Carolina at Chapel Hill",
-    "Overall Rank": 36,
-    "Quality of Faculty (Rank)": 56,
-    "Alumni Employment (Rank)": 86,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Washington University in St. Louis",
-    "Overall Rank": 37,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 62,
-    "Quality of Education (Rank)": 74
-  },
-  {
-    "name": "University of Utah",
-    "Overall Rank": 38,
-    "Quality of Faculty (Rank)": 41,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 92
-  },
-  {
-    "name": "University of Washington - Seattle",
-    "Overall Rank": 39,
-    "Quality of Faculty (Rank)": 40,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of California, Santa Barbara",
-    "Overall Rank": 40,
-    "Quality of Faculty (Rank)": 28,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "McGill University",
-    "Overall Rank": 41,
-    "Quality of Faculty (Rank)": 54,
-    "Alumni Employment (Rank)": 91,
-    "Quality of Education (Rank)": 70
-  },
-  {
-    "name": "Purdue University, West Lafayette",
-    "Overall Rank": 42,
-    "Quality of Faculty (Rank)": 49,
-    "Alumni Employment (Rank)": 70,
-    "Quality of Education (Rank)": 95
-  },
-  {
-    "name": "Carnegie Mellon University",
-    "Overall Rank": 43,
-    "Quality of Faculty (Rank)": 26,
-    "Alumni Employment (Rank)": 81,
-    "Quality of Education (Rank)": 30
-  },
-  {
-    "name": "University of Southern California",
-    "Overall Rank": 44,
-    "Quality of Faculty (Rank)": 63,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of California, Davis",
-    "Overall Rank": 45,
-    "Quality of Faculty (Rank)": 92,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 79
-  },
-  {
-    "name": "University of Colorado Boulder",
-    "Overall Rank": 46,
-    "Quality of Faculty (Rank)": 48,
-    "Alumni Employment (Rank)": 88,
-    "Quality of Education (Rank)": 83
-  },
-  {
-    "name": "University of California, Irvine",
-    "Overall Rank": 47,
-    "Quality of Faculty (Rank)": 38,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Paris-Sud",
-    "Overall Rank": 48,
-    "Quality of Faculty (Rank)": 25,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 48
-  },
-  {
-    "name": "University of Minnesota, Twin Cities",
-    "Overall Rank": 49,
-    "Quality of Faculty (Rank)": 85,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Arizona",
-    "Overall Rank": 50,
-    "Quality of Faculty (Rank)": 88,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Technion \u2013 Israel Institute of Technology",
-    "Overall Rank": 51,
-    "Quality of Faculty (Rank)": 36,
-    "Alumni Employment (Rank)": 89,
-    "Quality of Education (Rank)": 45
-  },
-  {
-    "name": "Ohio State University, Columbus",
-    "Overall Rank": 52,
-    "Quality of Faculty (Rank)": 83,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Rochester",
-    "Overall Rank": 53,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 54,
-    "Quality of Education (Rank)": 41
-  },
-  {
-    "name": "\u00c9cole normale sup\u00e9rieure - Paris",
-    "Overall Rank": 54,
-    "Quality of Faculty (Rank)": 77,
-    "Alumni Employment (Rank)": 61,
-    "Quality of Education (Rank)": 3
-  },
-  {
-    "name": "University of Florida",
-    "Overall Rank": 55,
-    "Quality of Faculty (Rank)": 96,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Tel Aviv University",
-    "Overall Rank": 56,
-    "Quality of Faculty (Rank)": 51,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 97
-  },
-  {
-    "name": "Rice University",
-    "Overall Rank": 57,
-    "Quality of Faculty (Rank)": 94,
-    "Alumni Employment (Rank)": 53,
-    "Quality of Education (Rank)": 28
-  },
-  {
-    "name": "Dartmouth College",
-    "Overall Rank": 58,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 13,
-    "Quality of Education (Rank)": 27
-  },
-  {
-    "name": "Vanderbilt University",
-    "Overall Rank": 59,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 72,
-    "Quality of Education (Rank)": 80
-  },
-  {
-    "name": "University of Edinburgh",
-    "Overall Rank": 60,
-    "Quality of Faculty (Rank)": 43,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 71
-  },
-  {
-    "name": "\u00c9cole Polytechnique",
-    "Overall Rank": 61,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 3,
-    "Quality of Education (Rank)": 47
-  },
-  {
-    "name": "Boston University",
-    "Overall Rank": 62,
-    "Quality of Faculty (Rank)": 86,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Pierre-and-Marie-Curie University",
-    "Overall Rank": 63,
-    "Quality of Faculty (Rank)": 84,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 54
-  },
-  {
-    "name": "Pennsylvania State University, University Park",
-    "Overall Rank": 64,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 94,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Geneva",
-    "Overall Rank": 65,
-    "Quality of Faculty (Rank)": 29,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 46
-  },
-  {
-    "name": "Brown University",
-    "Overall Rank": 66,
-    "Quality of Faculty (Rank)": 65,
-    "Alumni Employment (Rank)": 37,
-    "Quality of Education (Rank)": 49
-  },
-  {
-    "name": "University of British Columbia",
-    "Overall Rank": 67,
-    "Quality of Faculty (Rank)": 93,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Maryland, College Park",
-    "Overall Rank": 68,
-    "Quality of Faculty (Rank)": 50,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 85
-  },
-  {
-    "name": "Swiss Federal Institute of Technology in Lausanne",
-    "Overall Rank": 69,
-    "Quality of Faculty (Rank)": 82,
-    "Alumni Employment (Rank)": 30,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Karolinska Institute",
-    "Overall Rank": 70,
-    "Quality of Faculty (Rank)": 42,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 51
-  },
-  {
-    "name": "University of Pittsburgh - Pittsburgh Campus",
-    "Overall Rank": 71,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 81
-  },
-  {
-    "name": "Rutgers University-New Brunswick",
-    "Overall Rank": 72,
-    "Quality of Faculty (Rank)": 59,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Texas A&M University, College Station",
-    "Overall Rank": 73,
-    "Quality of Faculty (Rank)": 46,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Nagoya University",
-    "Overall Rank": 74,
-    "Quality of Faculty (Rank)": 69,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 56
-  },
-  {
-    "name": "Seoul National University",
-    "Overall Rank": 75,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 34,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Manchester",
-    "Overall Rank": 76,
-    "Quality of Faculty (Rank)": 75,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Sapienza University of Rome",
-    "Overall Rank": 77,
-    "Quality of Faculty (Rank)": 30,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Case Western Reserve University",
-    "Overall Rank": 78,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 33
-  },
-  {
-    "name": "Tohoku University",
-    "Overall Rank": 79,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 53
-  },
-  {
-    "name": "Arizona State University",
-    "Overall Rank": 80,
-    "Quality of Faculty (Rank)": 70,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Emory University",
-    "Overall Rank": 81,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 97,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Ruprecht Karl University of Heidelberg",
-    "Overall Rank": 82,
-    "Quality of Faculty (Rank)": 52,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 87
-  },
-  {
-    "name": "Ludwig Maximilian University of Munich",
-    "Overall Rank": 83,
-    "Quality of Faculty (Rank)": 90,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 90
-  },
-  {
-    "name": "University of Virginia",
-    "Overall Rank": 84,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 50,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Leiden University",
-    "Overall Rank": 85,
-    "Quality of Faculty (Rank)": 76,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 88
-  },
-  {
-    "name": "Tufts University",
-    "Overall Rank": 86,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 41,
-    "Quality of Education (Rank)": 60
-  },
-  {
-    "name": "Georgia Institute of Technology",
-    "Overall Rank": 87,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 67,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Zurich",
-    "Overall Rank": 88,
-    "Quality of Faculty (Rank)": 80,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
+    "name": "University of Washington",
+    "Rank": 68,
+    "Latitude": 47.6541,
+    "Longitude": -122.308
   },
   {
     "name": "University of Helsinki",
-    "Overall Rank": 89,
-    "Quality of Faculty (Rank)": 79,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 96
+    "Rank": 107,
+    "Latitude": 60.16944,
+    "Longitude": 24.95
   },
   {
-    "name": "Technical University of Munich",
-    "Overall Rank": 90,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 52
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "Rank": 1,
+    "Latitude": 42.35972,
+    "Longitude": -71.09194
   },
   {
-    "name": "University of Oslo",
-    "Overall Rank": 91,
-    "Quality of Faculty (Rank)": 39,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
+    "name": "Curtin University",
+    "Rank": 230,
+    "Latitude": -32.0048589,
+    "Longitude": 115.8936669
   },
   {
-    "name": "University of Queensland",
-    "Overall Rank": 92,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
+    "name": "University of Edinburgh",
+    "Rank": 20,
+    "Latitude": 55.95,
+    "Longitude": -3.183
   },
   {
-    "name": "University of Copenhagen",
-    "Overall Rank": 93,
-    "Quality of Faculty (Rank)": 60,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Sydney",
-    "Overall Rank": 94,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Williams College",
-    "Overall Rank": 95,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 15,
-    "Quality of Education (Rank)": 18
-  },
-  {
-    "name": "University of Texas MD Anderson Cancer Center",
-    "Overall Rank": 96,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Nottingham",
-    "Overall Rank": 97,
-    "Quality of Faculty (Rank)": 87,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "University of Bristol",
-    "Overall Rank": 98,
-    "Quality of Faculty (Rank)": 78,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 101
-  },
-  {
-    "name": "Utrecht University",
-    "Overall Rank": 99,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 100
-  },
-  {
-    "name": "Mines ParisTech",
-    "Overall Rank": 100,
-    "Quality of Faculty (Rank)": 101,
-    "Alumni Employment (Rank)": 4,
-    "Quality of Education (Rank)": 44
-  },
-  {
-    "name": "Harvard University",
-    "Overall Rank": 1,
-    "Quality of Faculty (Rank)": 1,
-    "Alumni Employment (Rank)": 1,
-    "Quality of Education (Rank)": 1
-  },
-  {
-    "name": "Stanford University",
-    "Overall Rank": 2,
-    "Quality of Faculty (Rank)": 4,
-    "Alumni Employment (Rank)": 2,
-    "Quality of Education (Rank)": 11
+    "name": "Caltech",
+    "Rank": 5,
+    "Latitude": 34.1377,
+    "Longitude": -118.1253
   },
   {
     "name": "University of Oxford",
-    "Overall Rank": 3,
-    "Quality of Faculty (Rank)": 10,
-    "Alumni Employment (Rank)": 12,
-    "Quality of Education (Rank)": 7
+    "Rank": 4,
+    "Latitude": 51.755,
+    "Longitude": -1.255
   },
   {
-    "name": "Massachusetts Institute of Technology",
-    "Overall Rank": 4,
-    "Quality of Faculty (Rank)": 2,
-    "Alumni Employment (Rank)": 16,
-    "Quality of Education (Rank)": 2
+    "name": "University of Gothenburg",
+    "Rank": 256,
+    "Latitude": 57.69833,
+    "Longitude": 11.97167
+  },
+  {
+    "name": "University of Colorado at Boulder",
+    "Rank": 206,
+    "Latitude": 40.0073,
+    "Longitude": -105.2678
+  },
+  {
+    "name": "University of Oslo",
+    "Rank": 119,
+    "Latitude": 59.9399361,
+    "Longitude": 10.7220639
+  },
+  {
+    "name": "University of Southern California",
+    "Rank": 129,
+    "Latitude": 34.0206,
+    "Longitude": -118.2848
+  },
+  {
+    "name": "Stockholm University",
+    "Rank": 191,
+    "Latitude": 59.36528,
+    "Longitude": 18.05833
+  },
+  {
+    "name": "Harvard University",
+    "Rank": 3,
+    "Latitude": 42.37444,
+    "Longitude": -71.11694
+  },
+  {
+    "name": "Tohoku University",
+    "Rank": 82,
+    "Latitude": 38.25417,
+    "Longitude": 140.87361
+  },
+  {
+    "name": "Waseda University",
+    "Rank": 202,
+    "Latitude": 35.709203,
+    "Longitude": 139.719333
   },
   {
     "name": "University of Cambridge",
-    "Overall Rank": 5,
-    "Quality of Faculty (Rank)": 5,
-    "Alumni Employment (Rank)": 15,
-    "Quality of Education (Rank)": 3
+    "Rank": 7,
+    "Latitude": 52.20528,
+    "Longitude": 0.11722
   },
   {
-    "name": "Columbia University",
-    "Overall Rank": 6,
-    "Quality of Faculty (Rank)": 9,
-    "Alumni Employment (Rank)": 8,
-    "Quality of Education (Rank)": 13
+    "name": "University of Aberdeen",
+    "Rank": 194,
+    "Latitude": 57.165,
+    "Longitude": -2.1
   },
   {
-    "name": "University of California, Berkeley",
-    "Overall Rank": 7,
-    "Quality of Faculty (Rank)": 6,
-    "Alumni Employment (Rank)": 28,
-    "Quality of Education (Rank)": 6
+    "name": "Technische Universit\u00e4t Darmstadt",
+    "Rank": 260,
+    "Latitude": 49.875,
+    "Longitude": 8.65639
   },
   {
-    "name": "Princeton University",
-    "Overall Rank": 8,
-    "Quality of Faculty (Rank)": 3,
-    "Alumni Employment (Rank)": 14,
-    "Quality of Education (Rank)": 4
+    "name": "National University of Singapore",
+    "Rank": 11,
+    "Latitude": 1.2966,
+    "Longitude": 103.7764
+  },
+  {
+    "name": "Universidad de Buenos Aires",
+    "Rank": 74,
+    "Latitude": -34.59972,
+    "Longitude": -58.37306
+  },
+  {
+    "name": "ETH Zurich",
+    "Rank": 6,
+    "Latitude": 47.3764,
+    "Longitude": 8.5476
+  },
+  {
+    "name": "National Taiwan University (NTU)",
+    "Rank": 69,
+    "Latitude": 25.017,
+    "Longitude": 121.533
+  },
+  {
+    "name": "Nagoya University",
+    "Rank": 115,
+    "Latitude": 35.15472,
+    "Longitude": 136.96694
+  },
+  {
+    "name": "UCL",
+    "Rank": 8,
+    "Latitude": 51.5246,
+    "Longitude": 0.134
+  },
+  {
+    "name": "Nanyang Technological University",
+    "Rank": 11,
+    "Latitude": 1.3483,
+    "Longitude": 103.6831
+  },
+  {
+    "name": "National Cheng Kung University",
+    "Rank": 225,
+    "Latitude": 23.0,
+    "Longitude": 120.217
+  },
+  {
+    "name": "Ecole des Ponts ParisTech",
+    "Rank": 250,
+    "Latitude": 48.84111,
+    "Longitude": 2.58778
+  },
+  {
+    "name": "University of Glasgow",
+    "Rank": 67,
+    "Latitude": 55.87194,
+    "Longitude": -4.2875
+  },
+  {
+    "name": "Osaka University",
+    "Rank": 71,
+    "Latitude": 34.81917,
+    "Longitude": 135.52667
+  },
+  {
+    "name": "Aarhus University",
+    "Rank": 145,
+    "Latitude": 56.17056,
+    "Longitude": 10.20111
+  },
+  {
+    "name": "University of Sussex",
+    "Rank": 246,
+    "Latitude": 50.86528,
+    "Longitude": -0.08556
+  },
+  {
+    "name": "The Hong Kong Polytechnic University",
+    "Rank": 91,
+    "Latitude": 22.305,
+    "Longitude": 114.18
+  },
+  {
+    "name": "Imperial College London",
+    "Rank": 9,
+    "Latitude": 51.498356,
+    "Longitude": -0.176894
+  },
+  {
+    "name": "Universidad de Navarra",
+    "Rank": 245,
+    "Latitude": 42.80139,
+    "Longitude": -1.65972
+  },
+  {
+    "name": "Pontificia Universidad Cat\u00f3lica de Chile",
+    "Rank": 127,
+    "Latitude": -33.4411,
+    "Longitude": -70.6408
+  },
+  {
+    "name": "City University of Hong Kong",
+    "Rank": 52,
+    "Latitude": 22.3364222,
+    "Longitude": 114.1729889
+  },
+  {
+    "name": "University of Texas at Austin",
+    "Rank": 65,
+    "Latitude": 30.285,
+    "Longitude": -97.735
+  },
+  {
+    "name": "University of Notre Dame",
+    "Rank": 210,
+    "Latitude": 41.7,
+    "Longitude": -86.23889
+  },
+  {
+    "name": "Tsinghua University",
+    "Rank": 16,
+    "Latitude": 40.0,
+    "Longitude": 116.32667
+  },
+  {
+    "name": "Korea University",
+    "Rank": 83,
+    "Latitude": 37.58917,
+    "Longitude": 127.03222
+  },
+  {
+    "name": "Rice University",
+    "Rank": 85,
+    "Latitude": 29.71694,
+    "Longitude": -95.40278
   },
   {
     "name": "University of Chicago",
-    "Overall Rank": 9,
-    "Quality of Faculty (Rank)": 8,
-    "Alumni Employment (Rank)": 19,
-    "Quality of Education (Rank)": 9
+    "Rank": 10,
+    "Latitude": 41.78972,
+    "Longitude": -87.59972
   },
   {
-    "name": "Yale University",
-    "Overall Rank": 10,
-    "Quality of Faculty (Rank)": 13,
-    "Alumni Employment (Rank)": 25,
-    "Quality of Education (Rank)": 10
+    "name": "Fudan University",
+    "Rank": 40,
+    "Latitude": 31.29889,
+    "Longitude": 121.49917
   },
   {
-    "name": "California Institute of Technology",
-    "Overall Rank": 11,
-    "Quality of Faculty (Rank)": 7,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 5
+    "name": "Georgetown University",
+    "Rank": 226,
+    "Latitude": 38.90722,
+    "Longitude": -77.07278
   },
   {
-    "name": "University of Pennsylvania",
-    "Overall Rank": 12,
-    "Quality of Faculty (Rank)": 25,
-    "Alumni Employment (Rank)": 5,
-    "Quality of Education (Rank)": 22
+    "name": "Technical University of Denmark",
+    "Rank": 112,
+    "Latitude": 55.78583,
+    "Longitude": 12.52139
+  },
+  {
+    "name": "Sungkyunkwan University",
+    "Rank": 95,
+    "Latitude": 37.58722,
+    "Longitude": 126.99417
+  },
+  {
+    "name": "Rheinische Friedrich-Wilhelms-Universit\u00e4t Bonn",
+    "Rank": 243,
+    "Latitude": 50.73389,
+    "Longitude": 7.10222
+  },
+  {
+    "name": "Lund University",
+    "Rank": 92,
+    "Latitude": 55.70583,
+    "Longitude": 13.19333
+  },
+  {
+    "name": "Zhejiang University",
+    "Rank": 54,
+    "Latitude": 30.26361,
+    "Longitude": 120.12083
+  },
+  {
+    "name": "Sciences Po Paris",
+    "Rank": 242,
+    "Latitude": 48.85417,
+    "Longitude": 2.32861
+  },
+  {
+    "name": "University of Wisconsin-Madison",
+    "Rank": 56,
+    "Latitude": 43.075,
+    "Longitude": -89.4172
+  },
+  {
+    "name": "The University of Manchester",
+    "Rank": 27,
+    "Latitude": 53.467,
+    "Longitude": -2.233
+  },
+  {
+    "name": "Lomonosov Moscow State University",
+    "Rank": 84,
+    "Latitude": 55.7039,
+    "Longitude": 37.5286
+  },
+  {
+    "name": "University of Copenhagen",
+    "Rank": 81,
+    "Latitude": 55.67972,
+    "Longitude": 12.5725
+  },
+  {
+    "name": "University of Illinois at Urbana-Champaign",
+    "Rank": 75,
+    "Latitude": 40.11056,
+    "Longitude": -88.22833
+  },
+  {
+    "name": "Northwestern University",
+    "Rank": 31,
+    "Latitude": 42.05583,
+    "Longitude": -87.67472
+  },
+  {
+    "name": "Newcastle University",
+    "Rank": 146,
+    "Latitude": 54.978,
+    "Longitude": -1.615
+  },
+  {
+    "name": "Lancaster University",
+    "Rank": 128,
+    "Latitude": 54.01028,
+    "Longitude": -2.78556
+  },
+  {
+    "name": "Indian Institute of Technology Delhi (IITD)",
+    "Rank": 182,
+    "Latitude": 28.545,
+    "Longitude": 77.19222
+  },
+  {
+    "name": "Princeton University",
+    "Rank": 13,
+    "Latitude": 40.34528,
+    "Longitude": -74.65611
   },
   {
     "name": "Cornell University",
-    "Overall Rank": 13,
-    "Quality of Faculty (Rank)": 18,
-    "Alumni Employment (Rank)": 23,
-    "Quality of Education (Rank)": 12
+    "Rank": 14,
+    "Latitude": 42.45361,
+    "Longitude": -76.47389
   },
   {
-    "name": "University of Tokyo",
-    "Overall Rank": 14,
-    "Quality of Faculty (Rank)": 32,
-    "Alumni Employment (Rank)": 3,
-    "Quality of Education (Rank)": 17
+    "name": "Purdue University",
+    "Rank": 111,
+    "Latitude": 40.425,
+    "Longitude": -86.92306
   },
   {
-    "name": "Kyoto University",
-    "Overall Rank": 15,
-    "Quality of Faculty (Rank)": 14,
-    "Alumni Employment (Rank)": 17,
-    "Quality of Education (Rank)": 32
+    "name": "University of York",
+    "Rank": 148,
+    "Latitude": 53.947,
+    "Longitude": -1.052
   },
   {
-    "name": "University of California, Los Angeles",
-    "Overall Rank": 16,
-    "Quality of Faculty (Rank)": 12,
-    "Alumni Employment (Rank)": 35,
-    "Quality of Education (Rank)": 38
+    "name": "Michigan State University",
+    "Rank": 144,
+    "Latitude": 42.725,
+    "Longitude": -84.48
+  },
+  {
+    "name": "University of Pennsylvania",
+    "Rank": 15,
+    "Latitude": 39.95,
+    "Longitude": -75.19
+  },
+  {
+    "name": "University of Liverpool",
+    "Rank": 181,
+    "Latitude": 53.406,
+    "Longitude": -2.967
+  },
+  {
+    "name": "University College Dublin (UCD)",
+    "Rank": 185,
+    "Latitude": 53.30833,
+    "Longitude": -6.22222
+  },
+  {
+    "name": "Case Western Reserve University",
+    "Rank": 167,
+    "Latitude": 41.504,
+    "Longitude": -81.608
+  },
+  {
+    "name": "University of Michigan",
+    "Rank": 21,
+    "Latitude": 42.27694,
+    "Longitude": -83.73806
+  },
+  {
+    "name": "Loughborough University",
+    "Rank": 222,
+    "Latitude": 52.76833,
+    "Longitude": -1.22861
+  },
+  {
+    "name": "University of Antwerp",
+    "Rank": 223,
+    "Latitude": 51.22278,
+    "Longitude": 4.41
+  },
+  {
+    "name": "Yale University",
+    "Rank": 17,
+    "Latitude": 41.31639,
+    "Longitude": -72.92222
+  },
+  {
+    "name": "Hebrew University of Jerusalem",
+    "Rank": 162,
+    "Latitude": 31.77583,
+    "Longitude": 35.2
+  },
+  {
+    "name": "Ohio State University",
+    "Rank": 101,
+    "Latitude": 40.0,
+    "Longitude": -83.0125
   },
   {
     "name": "Johns Hopkins University",
-    "Overall Rank": 17,
-    "Quality of Faculty (Rank)": 21,
-    "Alumni Employment (Rank)": 96,
-    "Quality of Education (Rank)": 23
+    "Rank": 24,
+    "Latitude": 39.32889,
+    "Longitude": -76.62028
   },
   {
-    "name": "Swiss Federal Institute of Technology in Zurich",
-    "Overall Rank": 18,
-    "Quality of Faculty (Rank)": 11,
-    "Alumni Employment (Rank)": 60,
-    "Quality of Education (Rank)": 16
+    "name": "The University of Nottingham",
+    "Rank": 96,
+    "Latitude": 52.939,
+    "Longitude": -1.197
   },
   {
-    "name": "New York University",
-    "Overall Rank": 19,
-    "Quality of Faculty (Rank)": 16,
-    "Alumni Employment (Rank)": 31,
-    "Quality of Education (Rank)": 37
+    "name": "Carnegie Mellon University",
+    "Rank": 48,
+    "Latitude": 40.4425,
+    "Longitude": -79.94333
   },
   {
-    "name": "University of California, San Diego",
-    "Overall Rank": 20,
-    "Quality of Faculty (Rank)": 19,
-    "Alumni Employment (Rank)": 101,
-    "Quality of Education (Rank)": 33
+    "name": "University of Reading",
+    "Rank": 205,
+    "Latitude": 51.44194,
+    "Longitude": -0.94556
+  },
+  {
+    "name": "University of Groningen",
+    "Rank": 114,
+    "Latitude": 53.21917,
+    "Longitude": 6.56278
+  },
+  {
+    "name": "The University of Warwick",
+    "Rank": 62,
+    "Latitude": 52.38,
+    "Longitude": -1.56167
+  },
+  {
+    "name": "University of North Carolina, Chapel Hill",
+    "Rank": 90,
+    "Latitude": 35.90861,
+    "Longitude": -79.04917
+  },
+  {
+    "name": "University of Maryland, College Park",
+    "Rank": 136,
+    "Latitude": 38.988,
+    "Longitude": -76.943
+  },
+  {
+    "name": "London School of Economics and Political Science (LSE)",
+    "Rank": 44,
+    "Latitude": 51.51389,
+    "Longitude": -0.11667
+  },
+  {
+    "name": "Scuola Normale Superiore di Pisa",
+    "Rank": 204,
+    "Latitude": 43.7196111,
+    "Longitude": 10.400225
+  },
+  {
+    "name": "University of Birmingham",
+    "Rank": 81,
+    "Latitude": 52.45056,
+    "Longitude": -1.93056
+  },
+  {
+    "name": "Delft University of Technology",
+    "Rank": 50,
+    "Latitude": 52.00167,
+    "Longitude": 4.3725
+  },
+  {
+    "name": "University of Amsterdam",
+    "Rank": 64,
+    "Latitude": 52.36833,
+    "Longitude": 4.89028
+  },
+  {
+    "name": "Technische Universit\u00e4t Berlin",
+    "Rank": 147,
+    "Latitude": 52.51194,
+    "Longitude": 13.32639
+  },
+  {
+    "name": "University of Bristol",
+    "Rank": 49,
+    "Latitude": 51.45639,
+    "Longitude": -2.60444
+  },
+  {
+    "name": "Georg-August-Universit\u00e4t G\u00f6ttingen",
+    "Rank": 197,
+    "Latitude": 51.54194,
+    "Longitude": 9.93444
+  },
+  {
+    "name": "Vrije Universiteit Brussel (VUB)",
+    "Rank": 195,
+    "Latitude": 50.82242,
+    "Longitude": 4.39573
+  },
+  {
+    "name": "Universit\u00e9 de Montr\u00e9al",
+    "Rank": 137,
+    "Latitude": 45.504111,
+    "Longitude": -73.614306
+  },
+  {
+    "name": "Technische Universit\u00e4t M\u00fcnchen",
+    "Rank": 55,
+    "Latitude": 48.14806,
+    "Longitude": 11.56806
+  },
+  {
+    "name": "Leiden University",
+    "Rank": 118,
+    "Latitude": 52.15694,
+    "Longitude": 4.48528
+  },
+  {
+    "name": "University of Bath",
+    "Rank": 172,
+    "Latitude": 51.38,
+    "Longitude": -2.33
+  },
+  {
+    "name": "Erasmus University Rotterdam",
+    "Rank": 183,
+    "Latitude": 51.91806,
+    "Longitude": 4.52583
+  },
+  {
+    "name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+    "Rank": 63,
+    "Latitude": 48.15083,
+    "Longitude": 11.58028
+  },
+  {
+    "name": "Brown University",
+    "Rank": 57,
+    "Latitude": 41.82611,
+    "Longitude": -71.40306
+  },
+  {
+    "name": "Wageningen University",
+    "Rank": 125,
+    "Latitude": 51.9670889,
+    "Longitude": 5.6586028
+  },
+  {
+    "name": "Ruprecht-Karls-Universit\u00e4t Heidelberg",
+    "Rank": 66,
+    "Latitude": 49.41028,
+    "Longitude": 8.70639
+  },
+  {
+    "name": "University of Lausanne",
+    "Rank": 153,
+    "Latitude": 46.5225,
+    "Longitude": 6.57944
+  },
+  {
+    "name": "University of Basel",
+    "Rank": 151,
+    "Latitude": 47.55861,
+    "Longitude": 7.58333
+  },
+  {
+    "name": "Politecnico di Milano",
+    "Rank": 149,
+    "Latitude": 45.47803,
+    "Longitude": 9.22732
+  },
+  {
+    "name": "Eindhoven University of Technology",
+    "Rank": 102,
+    "Latitude": 51.44806,
+    "Longitude": 5.48972
+  },
+  {
+    "name": "University of Southampton",
+    "Rank": 97,
+    "Latitude": 50.93463,
+    "Longitude": -1.39595
+  },
+  {
+    "name": "Katholieke Universiteit Leuven",
+    "Rank": 80,
+    "Latitude": 50.878,
+    "Longitude": 4.7
+  },
+  {
+    "name": "University of Zurich",
+    "Rank": 76,
+    "Latitude": 47.37472,
+    "Longitude": 8.54833
+  },
+  {
+    "name": "CentraleSup\u00e9lec",
+    "Rank": 139,
+    "Latitude": 48.7092659,
+    "Longitude": 2.1635629
+  },
+  {
+    "name": "Sorbonne University",
+    "Rank": 77,
+    "Latitude": 48.85111,
+    "Longitude": 2.34056
+  },
+  {
+    "name": "Rheinisch-Westf\u00e4lische Technische Hochschule Aachen",
+    "Rank": 138,
+    "Latitude": 50.77778,
+    "Longitude": 6.07806
+  },
+  {
+    "name": "University of Geneva",
+    "Rank": 110,
+    "Latitude": 47.37639,
+    "Longitude": 8.54806
+  },
+  {
+    "name": "University of Bern",
+    "Rank": 123,
+    "Latitude": 46.950519,
+    "Longitude": 7.438109
   }
 ]
