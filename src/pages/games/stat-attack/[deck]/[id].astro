@@ -5,11 +5,9 @@ import Layout from "../../../../layouts/Layout.astro";
 import mallsData from "../../../../data/games/stat-attack/malls.json";
 import citiesData from "../../../../data/games/stat-attack/cities.json";
 import mrtData from "../../../../data/games/stat-attack/mrt.json";
-import countriesPopulationData from "../../../../data/games/stat-attack/countries-population.json";
-import countriesLandData from "../../../../data/games/stat-attack/countries-land.json";
 import universitiesData from "../../../../data/games/stat-attack/universities.json";
-import songsData from "../../../../data/games/stat-attack/songs.json";
 import animeData from "../../../../data/games/stat-attack/anime.json";
+import artistsData from "../../../../data/games/stat-attack/artists.json";
 import songsYoutubeData from "../../../../data/games/stat-attack/songs-youtube.json";
 import pokemonData from "../../../../data/games/stat-attack/pokemon.json";
 import youtubersData from "../../../../data/games/stat-attack/youtubers.json";
@@ -18,6 +16,7 @@ import schoolData from "../../../../data/games/stat-attack/schools.json";
 import airportsData from "../../../../data/games/stat-attack/airports.json";
 import moviesData from "../../../../data/games/stat-attack/movies.json";
 import programmingLanguagesData from "../../../../data/games/stat-attack/programming-languages.json";
+import countriesData from "../../../../data/games/stat-attack/countries.json";
 import elementsData from "../../../../data/games/stat-attack/elements.json";
 import leadersData from "../../../../data/games/stat-attack/leaders.json";
 import videoGamesData from "../../../../data/games/stat-attack/video-games.json";
@@ -31,6 +30,8 @@ import subzonesData from "../../../../data/games/stat-attack/subzones.json";
 import kanjiData from "../../../../data/games/stat-attack/kanji.json";
 import csModsData from "../../../../data/games/stat-attack/cs-mods.json";
 import githubData from "../../../../data/games/stat-attack/github.json";
+import mineralsData from "../../../../data/games/stat-attack/minerals.json";
+import nutritionData from "../../../../data/games/stat-attack/nutrition.json";
 import { SEO } from 'astro-seo';
 import gamesData from "../../../../data/games/games.json";
 
@@ -59,17 +60,11 @@ switch (deckName) {
       data: mrtData
     }
     break;
-  case "countries-population":
+  case "countries":
     deck = {
-      title: "Country Population",
-      data: countriesPopulationData
+      title: "Countries of the World",
+      data: countriesData
     } // https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023
-    break;
-  case "countries-land":
-    deck = {
-      title: "Country Land Area",
-      data: countriesLandData
-    };
     break;
   case "universities":
     deck = {
@@ -77,10 +72,10 @@ switch (deckName) {
       data: universitiesData
     };
     break;
-  case "songs":
+  case "artists":
     deck = {
-      title: "Songs on Spotify",
-      data: songsData
+      title: "Music Artists",
+      data: artistsData
     }
     break;
   case "anime":
@@ -213,6 +208,18 @@ switch (deckName) {
     deck = {
       title: "GitHub Repositories",
       data: githubData
+    }
+    break;
+  case 'minerals':
+    deck = {
+      title: "Minerals",
+      data: mineralsData
+    }
+    break;
+  case 'nutrition':
+    deck = {
+      title: "Nutrition",
+      data: nutritionData
     }
     break;
   default:
