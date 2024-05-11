@@ -1,213 +1,17 @@
 [
   {
-    "name": "Hamburger (McDonald\u2019s)",
-    "Calories": 250.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 520.0
+    "name": "BK\u2122 Ultimate Breakfast Platter (Burger King)",
+    "Calories": 930.0,
+    "Total Fat (g)": 44.0,
+    "Cholesterol (mg)": 390.0,
+    "Sodium (mg)": 2230.0
   },
   {
-    "name": "Cheeseburger (McDonald\u2019s)",
-    "Calories": 300.0,
-    "Total Fat (g)": 12.0,
-    "Cholesterol (mg)": 40.0,
-    "Sodium (mg)": 750.0
-  },
-  {
-    "name": "Double Cheeseburger (McDonald\u2019s)",
-    "Calories": 440.0,
-    "Total Fat (g)": 23.0,
-    "Cholesterol (mg)": 80.0,
-    "Sodium (mg)": 1150.0
-  },
-  {
-    "name": "McDouble (McDonald\u2019s)",
-    "Calories": 390.0,
-    "Total Fat (g)": 19.0,
-    "Cholesterol (mg)": 65.0,
-    "Sodium (mg)": 920.0
-  },
-  {
-    "name": " Quarter Pounder\u00ae with Cheese (McDonald\u2019s)",
-    "Calories": 510.0,
-    "Total Fat (g)": 26.0,
-    "Cholesterol (mg)": 90.0,
-    "Sodium (mg)": 1190.0
-  },
-  {
-    "name": "Big Mac\u00ae (McDonald\u2019s)",
-    "Calories": 540.0,
-    "Total Fat (g)": 29.0,
-    "Cholesterol (mg)": 75.0,
-    "Sodium (mg)": 1040.0
-  },
-  {
-    "name": "Big N\u2019 Tasty\u00ae (McDonald\u2019s)",
-    "Calories": 460.0,
-    "Total Fat (g)": 24.0,
-    "Cholesterol (mg)": 70.0,
-    "Sodium (mg)": 720.0
-  },
-  {
-    "name": "Angus Bacon & Cheese (McDonald\u2019s)",
-    "Calories": 790.0,
-    "Total Fat (g)": 39.0,
-    "Cholesterol (mg)": 145.0,
-    "Sodium (mg)": 2070.0
-  },
-  {
-    "name": "Angus Deluxe (McDonald\u2019s)",
-    "Calories": 750.0,
-    "Total Fat (g)": 39.0,
-    "Cholesterol (mg)": 135.0,
-    "Sodium (mg)": 1700.0
-  },
-  {
-    "name": "Filet-O-Fish\u00ae (McDonald\u2019s)",
-    "Calories": 380.0,
-    "Total Fat (g)": 18.0,
-    "Cholesterol (mg)": 40.0,
-    "Sodium (mg)": 640.0
-  },
-  {
-    "name": "McChicken \u00ae (McDonald\u2019s)",
-    "Calories": 360.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 830.0
-  },
-  {
-    "name": "McRib \u00ae (McDonald\u2019s)",
-    "Calories": 500.0,
-    "Total Fat (g)": 26.0,
-    "Cholesterol (mg)": 70.0,
-    "Sodium (mg)": 980.0
-  },
-  {
-    "name": "Premium Grilled Chicken Classic Sandwich (McDonald\u2019s)",
-    "Calories": 360.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 65.0,
-    "Sodium (mg)": 820.0
-  },
-  {
-    "name": "Ranch Snack Wrap\u00ae (Crispy) (McDonald\u2019s)",
-    "Calories": 340.0,
-    "Total Fat (g)": 17.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 810.0
-  },
-  {
-    "name": "Mac Snack Wrap (McDonald\u2019s)",
-    "Calories": 330.0,
-    "Total Fat (g)": 19.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 690.0
-  },
-  {
-    "name": "Chicken McNuggets\u00ae (4 piece) (McDonald\u2019s)",
-    "Calories": 190.0,
-    "Total Fat (g)": 12.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 360.0
-  },
-  {
-    "name": "Hot Mustard Sauce (McDonald\u2019s)",
-    "Calories": 60.0,
-    "Total Fat (g)": 2.5,
-    "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 250.0
-  },
-  {
-    "name": "Premium Southwest Salad (without chicken) (McDonald\u2019s)",
-    "Calories": 140.0,
-    "Total Fat (g)": 4.5,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 150.0
-  },
-  {
-    "name": "Newman\u2019s Own\u00ae Creamy Southwest Dressing (McDonald\u2019s)",
-    "Calories": 100.0,
-    "Total Fat (g)": 6.0,
-    "Cholesterol (mg)": 20.0,
-    "Sodium (mg)": 340.0
-  },
-  {
-    "name": "Egg McMuffin\u00ae (McDonald\u2019s)",
-    "Calories": 300.0,
-    "Total Fat (g)": 12.0,
+    "name": "Dave\u2019s Triple (Wendy\u2019s)",
+    "Calories": 1090.0,
+    "Total Fat (g)": 72.0,
     "Cholesterol (mg)": 260.0,
-    "Sodium (mg)": 820.0
-  },
-  {
-    "name": "Sausage McMuffin\u00ae (McDonald\u2019s)",
-    "Calories": 370.0,
-    "Total Fat (g)": 22.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 850.0
-  },
-  {
-    "name": "Sausage Biscuit (Regular Size Biscuit) (McDonald\u2019s)",
-    "Calories": 430.0,
-    "Total Fat (g)": 27.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 1080.0
-  },
-  {
-    "name": "Sausage McGriddles\u00ae (McDonald\u2019s)",
-    "Calories": 420.0,
-    "Total Fat (g)": 22.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 1030.0
-  },
-  {
-    "name": "Sausage Burrito (McDonald\u2019s)",
-    "Calories": 300.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 115.0,
-    "Sodium (mg)": 830.0
-  },
-  {
-    "name": "Hotcakes (McDonald\u2019s)",
-    "Calories": 350.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 20.0,
-    "Sodium (mg)": 590.0
-  },
-  {
-    "name": "Fruit & Maple Oatmeal (McDonald\u2019s)",
-    "Calories": 290.0,
-    "Total Fat (g)": 4.5,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 160.0
-  },
-  {
-    "name": "Hamburger Happy Meal (McDonald\u2019s)",
-    "Calories": 475.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 40.0,
-    "Sodium (mg)": 690.0
-  },
-  {
-    "name": "Fruit \u2018n Yogurt Parfait (7 oz) (McDonald\u2019s)",
-    "Calories": 160.0,
-    "Total Fat (g)": 2.0,
-    "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 85.0
-  },
-  {
-    "name": "Low Fat Caramel Dip (McDonald\u2019s)",
-    "Calories": 70.0,
-    "Total Fat (g)": 0.5,
-    "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 35.0
-  },
-  {
-    "name": "Vanilla Reduced Fat Ice Cream Cone (McDonald\u2019s)",
-    "Calories": 150.0,
-    "Total Fat (g)": 3.5,
-    "Cholesterol (mg)": 15.0,
-    "Sodium (mg)": 60.0
+    "Sodium (mg)": 1650.0
   },
   {
     "name": "Kiddie Cone (McDonald\u2019s)",
@@ -217,53 +21,46 @@
     "Sodium (mg)": 20.0
   },
   {
-    "name": "Strawberry Sundae (McDonald\u2019s)",
-    "Calories": 280.0,
-    "Total Fat (g)": 6.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 95.0
-  },
-  {
-    "name": "McFlurry\u00ae with M&M\u2019S\u00ae Candies (12 fl oz cup) (McDonald\u2019s)",
-    "Calories": 710.0,
-    "Total Fat (g)": 25.0,
-    "Cholesterol (mg)": 60.0,
-    "Sodium (mg)": 220.0
-  },
-  {
-    "name": "Cinnamon Melts (McDonald\u2019s)",
-    "Calories": 460.0,
-    "Total Fat (g)": 19.0,
-    "Cholesterol (mg)": 15.0,
-    "Sodium (mg)": 370.0
-  },
-  {
-    "name": "Chocolate Chip Cookie (McDonald\u2019s)",
-    "Calories": 160.0,
-    "Total Fat (g)": 8.0,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 90.0
-  },
-  {
-    "name": "Sugar Cookie (McDonald\u2019s)",
-    "Calories": 160.0,
-    "Total Fat (g)": 7.0,
+    "name": "Low Fat Caramel Dip (McDonald\u2019s)",
+    "Calories": 70.0,
+    "Total Fat (g)": 0.5,
     "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 120.0
+    "Sodium (mg)": 35.0
   },
   {
-    "name": "Latte (Small)  (McDonald\u2019s)",
-    "Calories": 150.0,
-    "Total Fat (g)": 8.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 105.0
+    "name": "Two Sausage Biscuits (Wendy\u2019s)",
+    "Calories": 960.0,
+    "Total Fat (g)": 65.0,
+    "Cholesterol (mg)": 95.0,
+    "Sodium (mg)": 2020.0
   },
   {
-    "name": "Mocha (Small) (McDonald\u2019s)",
-    "Calories": 280.0,
-    "Total Fat (g)": 11.0,
-    "Cholesterol (mg)": 20.0,
-    "Sodium (mg)": 125.0
+    "name": "EGG-NORMOUS BURRITO\u03a1 (Burger King)",
+    "Calories": 780.0,
+    "Total Fat (g)": 42.0,
+    "Cholesterol (mg)": 355.0,
+    "Sodium (mg)": 1960.0
+  },
+  {
+    "name": "Baconator (Wendy\u2019s)",
+    "Calories": 950.0,
+    "Total Fat (g)": 62.0,
+    "Cholesterol (mg)": 205.0,
+    "Sodium (mg)": 1630.0
+  },
+  {
+    "name": "KFC\u00ae Famous Bowl (KFC)",
+    "Calories": 740.0,
+    "Total Fat (g)": 35.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 2350.0
+  },
+  {
+    "name": "American Cheese (slice) (Burger King)",
+    "Calories": 40.0,
+    "Total Fat (g)": 3.5,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 180.0
   },
   {
     "name": "Wild Berry Smoothie (Large) (McDonald\u2019s)",
@@ -273,18 +70,109 @@
     "Sodium (mg)": 45.0
   },
   {
-    "name": "Whopper\u00ae Sandwich (Burger King)",
-    "Calories": 660.0,
-    "Total Fat (g)": 40.0,
-    "Cholesterol (mg)": 90.0,
-    "Sodium (mg)": 980.0
+    "name": "Angus Bacon & Cheese (McDonald\u2019s)",
+    "Calories": 790.0,
+    "Total Fat (g)": 39.0,
+    "Cholesterol (mg)": 145.0,
+    "Sodium (mg)": 2070.0
   },
   {
-    "name": "Whopper JR.\u00ae Sandwich (Burger King)",
-    "Calories": 310.0,
-    "Total Fat (g)": 18.0,
-    "Cholesterol (mg)": 40.0,
-    "Sodium (mg)": 390.0
+    "name": "Hot Mustard Sauce (McDonald\u2019s)",
+    "Calories": 60.0,
+    "Total Fat (g)": 2.5,
+    "Cholesterol (mg)": 5.0,
+    "Sodium (mg)": 250.0
+  },
+  {
+    "name": "Coleslaw (Family) (KFC)",
+    "Calories": 640.0,
+    "Total Fat (g)": 46.0,
+    "Cholesterol (mg)": 15.0,
+    "Sodium (mg)": 670.0
+  },
+  {
+    "name": "KFC\u00ae Livers (KFC)",
+    "Calories": 230.0,
+    "Total Fat (g)": 13.0,
+    "Cholesterol (mg)": 285.0,
+    "Sodium (mg)": 750.0
+  },
+  {
+    "name": "Chicken Breast (KFC)",
+    "Calories": 770.0,
+    "Total Fat (g)": 60.0,
+    "Cholesterol (mg)": 105.0,
+    "Sodium (mg)": 1530.0
+  },
+  {
+    "name": "Dave\u2019s Double (Wendy\u2019s)",
+    "Calories": 810.0,
+    "Total Fat (g)": 51.0,
+    "Cholesterol (mg)": 175.0,
+    "Sodium (mg)": 1280.0
+  },
+  {
+    "name": "Fruit \u2018n Yogurt Parfait (7 oz) (McDonald\u2019s)",
+    "Calories": 160.0,
+    "Total Fat (g)": 2.0,
+    "Cholesterol (mg)": 5.0,
+    "Sodium (mg)": 85.0
+  },
+  {
+    "name": "Egg McMuffin\u00ae (McDonald\u2019s)",
+    "Calories": 300.0,
+    "Total Fat (g)": 12.0,
+    "Cholesterol (mg)": 260.0,
+    "Sodium (mg)": 820.0
+  },
+  {
+    "name": "Vanilla Reduced Fat Ice Cream Cone (McDonald\u2019s)",
+    "Calories": 150.0,
+    "Total Fat (g)": 3.5,
+    "Cholesterol (mg)": 15.0,
+    "Sodium (mg)": 60.0
+  },
+  {
+    "name": "Mayonnaise (Packet) (Burger King)",
+    "Calories": 80.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 75.0
+  },
+  {
+    "name": "Angus Deluxe (McDonald\u2019s)",
+    "Calories": 750.0,
+    "Total Fat (g)": 39.0,
+    "Cholesterol (mg)": 135.0,
+    "Sodium (mg)": 1700.0
+  },
+  {
+    "name": "Fully Loaded CROISSAN\u2019WICH\u00ae (Burger King)",
+    "Calories": 610.0,
+    "Total Fat (g)": 40.0,
+    "Cholesterol (mg)": 225.0,
+    "Sodium (mg)": 1680.0
+  },
+  {
+    "name": "Cinnabon\u00ae Delights\u2122 (2 Pk) (V) (Taco Bell)",
+    "Calories": 160.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 5.0,
+    "Sodium (mg)": 80.0
+  },
+  {
+    "name": "1% Chocolate Milk (Wendy\u2019s)",
+    "Calories": 150.0,
+    "Total Fat (g)": 2.5,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 170.0
+  },
+  {
+    "name": "KENTUCKY FRIED WINGS Unsauced (KFC)",
+    "Calories": 80.0,
+    "Total Fat (g)": 6.0,
+    "Cholesterol (mg)": 20.0,
+    "Sodium (mg)": 150.0
   },
   {
     "name": "Single Stacker King (Burger King)",
@@ -294,18 +182,200 @@
     "Sodium (mg)": 1360.0
   },
   {
-    "name": "Hamburger (Burger King)",
-    "Calories": 240.0,
-    "Total Fat (g)": 10.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 380.0
+    "name": "Sugar Cookie (McDonald\u2019s)",
+    "Calories": 160.0,
+    "Total Fat (g)": 7.0,
+    "Cholesterol (mg)": 5.0,
+    "Sodium (mg)": 120.0
   },
   {
-    "name": "Cheeseburger (Burger King)",
+    "name": "Kids Oatmeal (Burger King)",
+    "Calories": 170.0,
+    "Total Fat (g)": 3.0,
+    "Cholesterol (mg)": 5.0,
+    "Sodium (mg)": 260.0
+  },
+  {
+    "name": "Nachos BellGrande\u00ae \u2013 Beef (Taco Bell)",
+    "Calories": 740.0,
+    "Total Fat (g)": 38.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 1050.0
+  },
+  {
+    "name": "KFC\u00ae Gizzards (KFC)",
+    "Calories": 300.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 210.0,
+    "Sodium (mg)": 770.0
+  },
+  {
+    "name": "KENTUCKY GRILLED CHICKEN Breast (KFC)",
+    "Calories": 210.0,
+    "Total Fat (g)": 7.0,
+    "Cholesterol (mg)": 130.0,
+    "Sodium (mg)": 710.0
+  },
+  {
+    "name": "Newman\u2019s Own\u00ae Creamy Southwest Dressing (McDonald\u2019s)",
+    "Calories": 100.0,
+    "Total Fat (g)": 6.0,
+    "Cholesterol (mg)": 20.0,
+    "Sodium (mg)": 340.0
+  },
+  {
+    "name": "Premium Southwest Salad (without chicken) (McDonald\u2019s)",
+    "Calories": 140.0,
+    "Total Fat (g)": 4.5,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 150.0
+  },
+  {
+    "name": "Chocolate Chip Cookie (McDonald\u2019s)",
+    "Calories": 160.0,
+    "Total Fat (g)": 8.0,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 90.0
+  },
+  {
+    "name": "McFlurry\u00ae with M&M\u2019S\u00ae Candies (12 fl oz cup) (McDonald\u2019s)",
+    "Calories": 710.0,
+    "Total Fat (g)": 25.0,
+    "Cholesterol (mg)": 60.0,
+    "Sodium (mg)": 220.0
+  },
+  {
+    "name": "Breast (KFC)",
+    "Calories": 260.0,
+    "Total Fat (g)": 12.0,
+    "Cholesterol (mg)": 130.0,
+    "Sodium (mg)": 790.0
+  },
+  {
+    "name": "Breast (KFC)",
+    "Calories": 540.0,
+    "Total Fat (g)": 40.0,
+    "Cholesterol (mg)": 100.0,
+    "Sodium (mg)": 1390.0
+  },
+  {
+    "name": "Whopper\u00ae Sandwich (Burger King)",
+    "Calories": 660.0,
+    "Total Fat (g)": 40.0,
+    "Cholesterol (mg)": 90.0,
+    "Sodium (mg)": 980.0
+  },
+  {
+    "name": "Strawberry Sundae (McDonald\u2019s)",
     "Calories": 280.0,
-    "Total Fat (g)": 13.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 560.0
+    "Total Fat (g)": 6.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 95.0
+  },
+  {
+    "name": "Latte (Small)  (McDonald\u2019s)",
+    "Calories": 150.0,
+    "Total Fat (g)": 8.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 105.0
+  },
+  {
+    "name": "Macaroni Salad (KFC)",
+    "Calories": 140.0,
+    "Total Fat (g)": 8.0,
+    "Cholesterol (mg)": 15.0,
+    "Sodium (mg)": 290.0
+  },
+  {
+    "name": "Chicken Thigh (KFC)",
+    "Calories": 500.0,
+    "Total Fat (g)": 40.0,
+    "Cholesterol (mg)": 100.0,
+    "Sodium (mg)": 970.0
+  },
+  {
+    "name": "Fruit & Maple Oatmeal (McDonald\u2019s)",
+    "Calories": 290.0,
+    "Total Fat (g)": 4.5,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 160.0
+  },
+  {
+    "name": "Son of Baconator (Wendy\u2019s)",
+    "Calories": 630.0,
+    "Total Fat (g)": 39.0,
+    "Cholesterol (mg)": 125.0,
+    "Sodium (mg)": 1280.0
+  },
+  {
+    "name": "Oreo\u00ae Shake (Burger King)",
+    "Calories": 720.0,
+    "Total Fat (g)": 20.0,
+    "Cholesterol (mg)": 65.0,
+    "Sodium (mg)": 540.0
+  },
+  {
+    "name": "Soft Serve Cone (Burger King)",
+    "Calories": 190.0,
+    "Total Fat (g)": 4.5,
+    "Cholesterol (mg)": 20.0,
+    "Sodium (mg)": 150.0
+  },
+  {
+    "name": "Mocha (Small) (McDonald\u2019s)",
+    "Calories": 280.0,
+    "Total Fat (g)": 11.0,
+    "Cholesterol (mg)": 20.0,
+    "Sodium (mg)": 125.0
+  },
+  {
+    "name": "Chili, Large (Wendy\u2019s)",
+    "Calories": 250.0,
+    "Total Fat (g)": 7.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 1170.0
+  },
+  {
+    "name": "Crispy Twister\u00ae (KFC)",
+    "Calories": 630.0,
+    "Total Fat (g)": 34.0,
+    "Cholesterol (mg)": 70.0,
+    "Sodium (mg)": 1260.0
+  },
+  {
+    "name": "Black Bean Quesarito \u2013 Online Exclusive (Taco Bell)",
+    "Calories": 630.0,
+    "Total Fat (g)": 29.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 1260.0
+  },
+  {
+    "name": "Crunchwrap Supreme\u00ae \u2013 Specialties (Taco Bell)",
+    "Calories": 530.0,
+    "Total Fat (g)": 21.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 1200.0
+  },
+  {
+    "name": "Heinz Buttermilk Dressing (KFC)",
+    "Calories": 160.0,
+    "Total Fat (g)": 17.0,
+    "Cholesterol (mg)": 10.0,
+    "Sodium (mg)": 220.0
+  },
+  {
+    "name": "Beefy 5-Layer Burrito (Taco Bell)",
+    "Calories": 490.0,
+    "Total Fat (g)": 18.0,
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 1250.0
+  },
+  {
+    "name": "Sausage Burrito (McDonald\u2019s)",
+    "Calories": 300.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 115.0,
+    "Sodium (mg)": 830.0
   },
   {
     "name": "Extra Long Cheeseburger (Burger King)",
@@ -313,20 +383,6 @@
     "Total Fat (g)": 37.0,
     "Cholesterol (mg)": 100.0,
     "Sodium (mg)": 1050.0
-  },
-  {
-    "name": "Crispy Chicken Jr. (Burger King)",
-    "Calories": 450.0,
-    "Total Fat (g)": 30.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 780.0
-  },
-  {
-    "name": "Chicken Nuggets- 4pc (Burger King)",
-    "Calories": 170.0,
-    "Total Fat (g)": 11.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 310.0
   },
   {
     "name": "Crispy Taco (Burger King)",
@@ -343,305 +399,18 @@
     "Sodium (mg)": 1180.0
   },
   {
-    "name": "Kids Oatmeal (Burger King)",
-    "Calories": 170.0,
-    "Total Fat (g)": 3.0,
-    "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 260.0
-  },
-  {
-    "name": "Hamburger (Burger King)",
-    "Calories": 240.0,
-    "Total Fat (g)": 10.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 380.0
-  },
-  {
-    "name": "Cheeseburger (Burger King)",
-    "Calories": 280.0,
-    "Total Fat (g)": 13.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 560.0
-  },
-  {
-    "name": "Soft Serve Cone (Burger King)",
-    "Calories": 190.0,
-    "Total Fat (g)": 4.5,
-    "Cholesterol (mg)": 20.0,
-    "Sodium (mg)": 150.0
-  },
-  {
-    "name": "OREO\u00ae Cookie Cheesecake (Burger King)",
-    "Calories": 350.0,
-    "Total Fat (g)": 18.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 310.0
-  },
-  {
-    "name": "Fully Loaded CROISSAN\u2019WICH\u00ae (Burger King)",
-    "Calories": 610.0,
-    "Total Fat (g)": 40.0,
-    "Cholesterol (mg)": 225.0,
-    "Sodium (mg)": 1680.0
-  },
-  {
-    "name": "EGG-NORMOUS BURRITO\u03a1 (Burger King)",
-    "Calories": 780.0,
-    "Total Fat (g)": 42.0,
-    "Cholesterol (mg)": 355.0,
-    "Sodium (mg)": 1960.0
-  },
-  {
-    "name": "BK\u2122 Ultimate Breakfast Platter (Burger King)",
-    "Calories": 930.0,
-    "Total Fat (g)": 44.0,
-    "Cholesterol (mg)": 390.0,
-    "Sodium (mg)": 2230.0
-  },
-  {
-    "name": "Pancake and Sausage platter (Burger King)",
-    "Calories": 610.0,
-    "Total Fat (g)": 31.0,
-    "Cholesterol (mg)": 80.0,
-    "Sodium (mg)": 1010.0
-  },
-  {
-    "name": "American Cheese (slice) (Burger King)",
-    "Calories": 40.0,
-    "Total Fat (g)": 3.5,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 180.0
-  },
-  {
-    "name": "Mayonnaise (Packet) (Burger King)",
-    "Calories": 80.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 75.0
-  },
-  {
-    "name": "Oreo\u00ae Shake (Burger King)",
-    "Calories": 720.0,
-    "Total Fat (g)": 20.0,
-    "Cholesterol (mg)": 65.0,
-    "Sodium (mg)": 540.0
-  },
-  {
-    "name": "Baconator (Wendy\u2019s)",
-    "Calories": 950.0,
-    "Total Fat (g)": 62.0,
-    "Cholesterol (mg)": 205.0,
-    "Sodium (mg)": 1630.0
-  },
-  {
-    "name": "Dave\u2019s Double (Wendy\u2019s)",
-    "Calories": 810.0,
-    "Total Fat (g)": 51.0,
-    "Cholesterol (mg)": 175.0,
-    "Sodium (mg)": 1280.0
-  },
-  {
-    "name": "Dave\u2019s Triple (Wendy\u2019s)",
-    "Calories": 1090.0,
-    "Total Fat (g)": 72.0,
-    "Cholesterol (mg)": 260.0,
-    "Sodium (mg)": 1650.0
-  },
-  {
-    "name": "Double Stack (Wendy\u2019s)",
-    "Calories": 390.0,
-    "Total Fat (g)": 21.0,
-    "Cholesterol (mg)": 90.0,
-    "Sodium (mg)": 740.0
-  },
-  {
-    "name": "Son of Baconator (Wendy\u2019s)",
-    "Calories": 630.0,
-    "Total Fat (g)": 39.0,
-    "Cholesterol (mg)": 125.0,
-    "Sodium (mg)": 1280.0
-  },
-  {
-    "name": "3 Piece Chicken Tenders (Wendy\u2019s)",
-    "Calories": 330.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 75.0,
-    "Sodium (mg)": 1010.0
-  },
-  {
-    "name": "6 Picece Chicken Nuggets (Wendy\u2019s)",
-    "Calories": 250.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 510.0
-  },
-  {
-    "name": "Chili, Large (Wendy\u2019s)",
-    "Calories": 250.0,
-    "Total Fat (g)": 7.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 1170.0
-  },
-  {
-    "name": "1% Chocolate Milk (Wendy\u2019s)",
-    "Calories": 150.0,
-    "Total Fat (g)": 2.5,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 170.0
-  },
-  {
-    "name": "Two Sausage Biscuits (Wendy\u2019s)",
-    "Calories": 960.0,
-    "Total Fat (g)": 65.0,
-    "Cholesterol (mg)": 95.0,
-    "Sodium (mg)": 2020.0
-  },
-  {
-    "name": "Chicken Breast (KFC)",
-    "Calories": 770.0,
-    "Total Fat (g)": 60.0,
-    "Cholesterol (mg)": 105.0,
-    "Sodium (mg)": 1530.0
-  },
-  {
-    "name": "Chicken Drumstick (KFC)",
-    "Calories": 250.0,
-    "Total Fat (g)": 21.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 530.0
-  },
-  {
-    "name": "Chicken Thigh (KFC)",
-    "Calories": 500.0,
-    "Total Fat (g)": 40.0,
-    "Cholesterol (mg)": 100.0,
-    "Sodium (mg)": 970.0
-  },
-  {
-    "name": "Chicken Whole Wing (KFC)",
-    "Calories": 290.0,
-    "Total Fat (g)": 25.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 520.0
-  },
-  {
-    "name": "Breast (KFC)",
-    "Calories": 260.0,
-    "Total Fat (g)": 12.0,
-    "Cholesterol (mg)": 130.0,
-    "Sodium (mg)": 790.0
-  },
-  {
-    "name": "Drumstick (KFC)",
-    "Calories": 100.0,
-    "Total Fat (g)": 6.0,
-    "Cholesterol (mg)": 55.0,
-    "Sodium (mg)": 260.0
-  },
-  {
-    "name": "Thigh (KFC)",
-    "Calories": 180.0,
-    "Total Fat (g)": 12.0,
-    "Cholesterol (mg)": 90.0,
-    "Sodium (mg)": 470.0
-  },
-  {
-    "name": "Breast (KFC)",
-    "Calories": 540.0,
-    "Total Fat (g)": 40.0,
-    "Cholesterol (mg)": 100.0,
-    "Sodium (mg)": 1390.0
-  },
-  {
-    "name": "Drumstick (KFC)",
-    "Calories": 190.0,
-    "Total Fat (g)": 14.0,
-    "Cholesterol (mg)": 40.0,
-    "Sodium (mg)": 510.0
-  },
-  {
-    "name": "Thigh (KFC)",
-    "Calories": 390.0,
-    "Total Fat (g)": 32.0,
-    "Cholesterol (mg)": 65.0,
-    "Sodium (mg)": 900.0
-  },
-  {
-    "name": "KENTUCKY GRILLED CHICKEN Breast (KFC)",
-    "Calories": 210.0,
-    "Total Fat (g)": 7.0,
-    "Cholesterol (mg)": 130.0,
-    "Sodium (mg)": 710.0
-  },
-  {
-    "name": "EXTRA CRISPY  Tender (each) (KFC)",
-    "Calories": 260.0,
-    "Total Fat (g)": 14.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 610.0
-  },
-  {
-    "name": "KENTUCKY FRIED WINGS Unsauced (KFC)",
-    "Calories": 80.0,
-    "Total Fat (g)": 6.0,
-    "Cholesterol (mg)": 20.0,
-    "Sodium (mg)": 150.0
-  },
-  {
-    "name": "POPCORN NUGGETS Kids (KFC)",
-    "Calories": 290.0,
+    "name": "Cinnamon Melts (McDonald\u2019s)",
+    "Calories": 460.0,
     "Total Fat (g)": 19.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 870.0
-  },
-  {
-    "name": "KFC\u00ae Cornbread Muffin (KFC)",
-    "Calories": 210.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 240.0
-  },
-  {
-    "name": "Macaroni Salad (KFC)",
-    "Calories": 140.0,
-    "Total Fat (g)": 8.0,
     "Cholesterol (mg)": 15.0,
-    "Sodium (mg)": 290.0
+    "Sodium (mg)": 370.0
   },
   {
-    "name": "Coleslaw (Family) (KFC)",
-    "Calories": 640.0,
-    "Total Fat (g)": 46.0,
-    "Cholesterol (mg)": 15.0,
-    "Sodium (mg)": 670.0
-  },
-  {
-    "name": "Chicken Littles (KFC)",
-    "Calories": 300.0,
-    "Total Fat (g)": 15.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 620.0
-  },
-  {
-    "name": "Crispy Twister\u00ae (KFC)",
-    "Calories": 630.0,
-    "Total Fat (g)": 34.0,
-    "Cholesterol (mg)": 70.0,
-    "Sodium (mg)": 1260.0
-  },
-  {
-    "name": "KFC\u00ae Famous Bowl (KFC)",
-    "Calories": 740.0,
-    "Total Fat (g)": 35.0,
-    "Cholesterol (mg)": 45.0,
-    "Sodium (mg)": 2350.0
-  },
-  {
-    "name": "Heinz Buttermilk Dressing (KFC)",
-    "Calories": 160.0,
-    "Total Fat (g)": 17.0,
-    "Cholesterol (mg)": 10.0,
-    "Sodium (mg)": 220.0
+    "name": " Quarter Pounder\u00ae with Cheese (McDonald\u2019s)",
+    "Calories": 510.0,
+    "Total Fat (g)": 26.0,
+    "Cholesterol (mg)": 90.0,
+    "Sodium (mg)": 1190.0
   },
   {
     "name": "Caf\u00e9 Valley Lemon Cake (1 Slice) (KFC)",
@@ -651,46 +420,81 @@
     "Sodium (mg)": 170.0
   },
   {
-    "name": "Country Fried Steak without Peppered White Gravy (KFC)",
-    "Calories": 360.0,
-    "Total Fat (g)": 24.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 750.0
+    "name": "Pancake and Sausage platter (Burger King)",
+    "Calories": 610.0,
+    "Total Fat (g)": 31.0,
+    "Cholesterol (mg)": 80.0,
+    "Sodium (mg)": 1010.0
   },
   {
-    "name": "KFC\u00ae Gizzards (KFC)",
-    "Calories": 300.0,
-    "Total Fat (g)": 16.0,
-    "Cholesterol (mg)": 210.0,
-    "Sodium (mg)": 770.0
-  },
-  {
-    "name": "KFC\u00ae Livers (KFC)",
-    "Calories": 230.0,
-    "Total Fat (g)": 13.0,
-    "Cholesterol (mg)": 285.0,
-    "Sodium (mg)": 750.0
-  },
-  {
-    "name": "Bacon Club Chalupa (Taco Bell)",
-    "Calories": 440.0,
+    "name": "Sausage Biscuit (Regular Size Biscuit) (McDonald\u2019s)",
+    "Calories": 430.0,
     "Total Fat (g)": 27.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 840.0
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 1080.0
   },
   {
-    "name": "Black Bean Quesarito \u2013 Online Exclusive (Taco Bell)",
-    "Calories": 630.0,
+    "name": "Thigh (KFC)",
+    "Calories": 180.0,
+    "Total Fat (g)": 12.0,
+    "Cholesterol (mg)": 90.0,
+    "Sodium (mg)": 470.0
+  },
+  {
+    "name": "Thigh (KFC)",
+    "Calories": 390.0,
+    "Total Fat (g)": 32.0,
+    "Cholesterol (mg)": 65.0,
+    "Sodium (mg)": 900.0
+  },
+  {
+    "name": "Crispy Chicken Jr. (Burger King)",
+    "Calories": 450.0,
+    "Total Fat (g)": 30.0,
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 780.0
+  },
+  {
+    "name": "Double Stack (Wendy\u2019s)",
+    "Calories": 390.0,
+    "Total Fat (g)": 21.0,
+    "Cholesterol (mg)": 90.0,
+    "Sodium (mg)": 740.0
+  },
+  {
+    "name": "Double Cheeseburger (McDonald\u2019s)",
+    "Calories": 440.0,
+    "Total Fat (g)": 23.0,
+    "Cholesterol (mg)": 80.0,
+    "Sodium (mg)": 1150.0
+  },
+  {
+    "name": "Chicken Nuggets- 4pc (Burger King)",
+    "Calories": 170.0,
+    "Total Fat (g)": 11.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 310.0
+  },
+  {
+    "name": "Big Mac\u00ae (McDonald\u2019s)",
+    "Calories": 540.0,
     "Total Fat (g)": 29.0,
-    "Cholesterol (mg)": 35.0,
-    "Sodium (mg)": 1260.0
+    "Cholesterol (mg)": 75.0,
+    "Sodium (mg)": 1040.0
   },
   {
-    "name": "Cheesy Gordita Crunch (Taco Bell)",
-    "Calories": 500.0,
-    "Total Fat (g)": 28.0,
-    "Cholesterol (mg)": 55.0,
-    "Sodium (mg)": 850.0
+    "name": "KFC\u00ae Cornbread Muffin (KFC)",
+    "Calories": 210.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 240.0
+  },
+  {
+    "name": "Premium Grilled Chicken Classic Sandwich (McDonald\u2019s)",
+    "Calories": 360.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 65.0,
+    "Sodium (mg)": 820.0
   },
   {
     "name": "Crunchy Taco (Taco Bell)",
@@ -700,39 +504,18 @@
     "Sodium (mg)": 310.0
   },
   {
-    "name": "Beefy 5-Layer Burrito (Taco Bell)",
-    "Calories": 490.0,
-    "Total Fat (g)": 18.0,
-    "Cholesterol (mg)": 30.0,
-    "Sodium (mg)": 1250.0
+    "name": "Drumstick (KFC)",
+    "Calories": 100.0,
+    "Total Fat (g)": 6.0,
+    "Cholesterol (mg)": 55.0,
+    "Sodium (mg)": 260.0
   },
   {
-    "name": "Nachos BellGrande\u00ae \u2013 Beef (Taco Bell)",
-    "Calories": 740.0,
-    "Total Fat (g)": 38.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 1050.0
-  },
-  {
-    "name": "Crunchwrap Supreme\u00ae \u2013 Specialties (Taco Bell)",
-    "Calories": 530.0,
-    "Total Fat (g)": 21.0,
-    "Cholesterol (mg)": 25.0,
-    "Sodium (mg)": 1200.0
-  },
-  {
-    "name": "Cinnabon\u00ae Delights\u2122 (2 Pk) (V) (Taco Bell)",
-    "Calories": 160.0,
-    "Total Fat (g)": 9.0,
-    "Cholesterol (mg)": 5.0,
-    "Sodium (mg)": 80.0
-  },
-  {
-    "name": "Cheese Quesadilla (Taco Bell)",
-    "Calories": 470.0,
-    "Total Fat (g)": 25.0,
-    "Cholesterol (mg)": 50.0,
-    "Sodium (mg)": 990.0
+    "name": "Drumstick (KFC)",
+    "Calories": 190.0,
+    "Total Fat (g)": 14.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 510.0
   },
   {
     "name": "Cheesy Roll Up (Taco Bell)",
@@ -742,11 +525,88 @@
     "Sodium (mg)": 430.0
   },
   {
-    "name": "Detroit Double Pepperoni Pizza Slice (Pizza Hut)",
+    "name": "Hotcakes (McDonald\u2019s)",
+    "Calories": 350.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 20.0,
+    "Sodium (mg)": 590.0
+  },
+  {
+    "name": "Sausage McGriddles\u00ae (McDonald\u2019s)",
+    "Calories": 420.0,
+    "Total Fat (g)": 22.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 1030.0
+  },
+  {
+    "name": "Cheesy Gordita Crunch (Taco Bell)",
+    "Calories": 500.0,
+    "Total Fat (g)": 28.0,
+    "Cholesterol (mg)": 55.0,
+    "Sodium (mg)": 850.0
+  },
+  {
+    "name": "3 Piece Chicken Tenders (Wendy\u2019s)",
     "Calories": 330.0,
-    "Total Fat (g)": 17.0,
-    "Cholesterol (mg)": 40.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 75.0,
+    "Sodium (mg)": 1010.0
+  },
+  {
+    "name": "McRib \u00ae (McDonald\u2019s)",
+    "Calories": 500.0,
+    "Total Fat (g)": 26.0,
+    "Cholesterol (mg)": 70.0,
+    "Sodium (mg)": 980.0
+  },
+  {
+    "name": "Chicken McNuggets\u00ae (4 piece) (McDonald\u2019s)",
+    "Calories": 190.0,
+    "Total Fat (g)": 12.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 360.0
+  },
+  {
+    "name": "Bacon Club Chalupa (Taco Bell)",
+    "Calories": 440.0,
+    "Total Fat (g)": 27.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 840.0
+  },
+  {
+    "name": "OREO\u00ae Cookie Cheesecake (Burger King)",
+    "Calories": 350.0,
+    "Total Fat (g)": 18.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 310.0
+  },
+  {
+    "name": "Big N\u2019 Tasty\u00ae (McDonald\u2019s)",
+    "Calories": 460.0,
+    "Total Fat (g)": 24.0,
+    "Cholesterol (mg)": 70.0,
     "Sodium (mg)": 720.0
+  },
+  {
+    "name": "Cheese Quesadilla (Taco Bell)",
+    "Calories": 470.0,
+    "Total Fat (g)": 25.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 990.0
+  },
+  {
+    "name": "Chicken Whole Wing (KFC)",
+    "Calories": 290.0,
+    "Total Fat (g)": 25.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 520.0
+  },
+  {
+    "name": "Hamburger Happy Meal (McDonald\u2019s)",
+    "Calories": 475.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 690.0
   },
   {
     "name": "Pan Pizza Slices Meat Lover\u2019s\u00ae Personal Pan (Pizza Hut)",
@@ -754,5 +614,145 @@
     "Total Fat (g)": 12.0,
     "Cholesterol (mg)": 25.0,
     "Sodium (mg)": 460.0
+  },
+  {
+    "name": "Hamburger (McDonald\u2019s)",
+    "Calories": 250.0,
+    "Total Fat (g)": 9.0,
+    "Cholesterol (mg)": 25.0,
+    "Sodium (mg)": 520.0
+  },
+  {
+    "name": "POPCORN NUGGETS Kids (KFC)",
+    "Calories": 290.0,
+    "Total Fat (g)": 19.0,
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 870.0
+  },
+  {
+    "name": "Chicken Drumstick (KFC)",
+    "Calories": 250.0,
+    "Total Fat (g)": 21.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 530.0
+  },
+  {
+    "name": "McDouble (McDonald\u2019s)",
+    "Calories": 390.0,
+    "Total Fat (g)": 19.0,
+    "Cholesterol (mg)": 65.0,
+    "Sodium (mg)": 920.0
+  },
+  {
+    "name": "Country Fried Steak without Peppered White Gravy (KFC)",
+    "Calories": 360.0,
+    "Total Fat (g)": 24.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 750.0
+  },
+  {
+    "name": "Whopper JR.\u00ae Sandwich (Burger King)",
+    "Calories": 310.0,
+    "Total Fat (g)": 18.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 390.0
+  },
+  {
+    "name": "6 Picece Chicken Nuggets (Wendy\u2019s)",
+    "Calories": 250.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 510.0
+  },
+  {
+    "name": "Hamburger (Burger King)",
+    "Calories": 240.0,
+    "Total Fat (g)": 10.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 380.0
+  },
+  {
+    "name": "Hamburger (Burger King)",
+    "Calories": 240.0,
+    "Total Fat (g)": 10.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 380.0
+  },
+  {
+    "name": "EXTRA CRISPY  Tender (each) (KFC)",
+    "Calories": 260.0,
+    "Total Fat (g)": 14.0,
+    "Cholesterol (mg)": 50.0,
+    "Sodium (mg)": 610.0
+  },
+  {
+    "name": "Sausage McMuffin\u00ae (McDonald\u2019s)",
+    "Calories": 370.0,
+    "Total Fat (g)": 22.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 850.0
+  },
+  {
+    "name": "McChicken \u00ae (McDonald\u2019s)",
+    "Calories": 360.0,
+    "Total Fat (g)": 16.0,
+    "Cholesterol (mg)": 35.0,
+    "Sodium (mg)": 830.0
+  },
+  {
+    "name": "Ranch Snack Wrap\u00ae (Crispy) (McDonald\u2019s)",
+    "Calories": 340.0,
+    "Total Fat (g)": 17.0,
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 810.0
+  },
+  {
+    "name": "Cheeseburger (McDonald\u2019s)",
+    "Calories": 300.0,
+    "Total Fat (g)": 12.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 750.0
+  },
+  {
+    "name": "Cheeseburger (Burger King)",
+    "Calories": 280.0,
+    "Total Fat (g)": 13.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 560.0
+  },
+  {
+    "name": "Cheeseburger (Burger King)",
+    "Calories": 280.0,
+    "Total Fat (g)": 13.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 560.0
+  },
+  {
+    "name": "Filet-O-Fish\u00ae (McDonald\u2019s)",
+    "Calories": 380.0,
+    "Total Fat (g)": 18.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 640.0
+  },
+  {
+    "name": "Mac Snack Wrap (McDonald\u2019s)",
+    "Calories": 330.0,
+    "Total Fat (g)": 19.0,
+    "Cholesterol (mg)": 45.0,
+    "Sodium (mg)": 690.0
+  },
+  {
+    "name": "Chicken Littles (KFC)",
+    "Calories": 300.0,
+    "Total Fat (g)": 15.0,
+    "Cholesterol (mg)": 30.0,
+    "Sodium (mg)": 620.0
+  },
+  {
+    "name": "Detroit Double Pepperoni Pizza Slice (Pizza Hut)",
+    "Calories": 330.0,
+    "Total Fat (g)": 17.0,
+    "Cholesterol (mg)": 40.0,
+    "Sodium (mg)": 720.0
   }
 ]
