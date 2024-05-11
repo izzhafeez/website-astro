@@ -1,940 +1,940 @@
 [
   {
-    "name": "100 AM",
-    "Latitude": 1.2749,
-    "Longitude": 103.8435,
-    "No. of Stores": 56,
-    "Opening Year": 2012
-  },
-  {
-    "name": "313 Somerset",
-    "Latitude": 1.3009,
-    "Longitude": 103.8384,
-    "No. of Stores": 147,
-    "Opening Year": 2009
-  },
-  {
-    "name": "321 Clementi",
-    "Latitude": 1.312,
-    "Longitude": 103.765,
-    "No. of Stores": 24,
-    "Opening Year": 2011
-  },
-  {
-    "name": "Alexandra Retail Centre",
-    "Latitude": 1.2739,
-    "Longitude": 103.8015,
-    "No. of Stores": 68,
-    "Opening Year": 1985
-  },
-  {
-    "name": "AMK Hub",
-    "Latitude": 1.3693,
-    "Longitude": 103.8486,
-    "No. of Stores": 215,
-    "Opening Year": 2007
-  },
-  {
-    "name": "Anchorpoint",
-    "Latitude": 1.2888,
-    "Longitude": 103.8051,
-    "No. of Stores": 53,
-    "Opening Year": 1997
-  },
-  {
-    "name": "Aperia",
-    "Latitude": 1.3105,
-    "Longitude": 103.8638,
-    "No. of Stores": 52,
-    "Opening Year": 2014
-  },
-  {
-    "name": "Bedok Mall",
-    "Latitude": 1.3247,
-    "Longitude": 103.9294,
-    "No. of Stores": 194,
-    "Opening Year": 2013
-  },
-  {
-    "name": "Bedok Point",
-    "Latitude": 1.3249,
-    "Longitude": 103.9324,
-    "No. of Stores": 27,
-    "Opening Year": 2010
-  },
-  {
-    "name": "Buangkok Square",
-    "Latitude": 1.3843,
-    "Longitude": 103.8816,
-    "No. of Stores": 43,
-    "Opening Year": 2006
-  },
-  {
-    "name": "Bugis Junction",
-    "Latitude": 1.2993,
-    "Longitude": 103.8553,
-    "No. of Stores": 248,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Bugis+",
-    "Latitude": 1.2996,
-    "Longitude": 103.8542,
-    "No. of Stores": 82,
-    "Opening Year": 2009
-  },
-  {
-    "name": "Bugis Street",
-    "Latitude": 1.3006,
-    "Longitude": 103.8549,
-    "No. of Stores": 242,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Bukit Panjang Plaza",
-    "Latitude": 1.38,
-    "Longitude": 103.7643,
-    "No. of Stores": 126,
-    "Opening Year": 1998
-  },
-  {
-    "name": "Canberra Plaza",
-    "Latitude": 1.4433,
-    "Longitude": 103.8305,
-    "No. of Stores": 45,
-    "Opening Year": 2020
-  },
-  {
-    "name": "Capitol Singapore",
-    "Latitude": 1.293,
-    "Longitude": 103.8512,
-    "No. of Stores": 67,
-    "Opening Year": 2015
-  },
-  {
-    "name": "Cathay Cineleisure Orchard",
-    "Latitude": 1.3015,
-    "Longitude": 103.8365,
-    "No. of Stores": 26,
-    "Opening Year": 1997
-  },
-  {
-    "name": "Causeway Point",
-    "Latitude": 1.4361,
-    "Longitude": 103.786,
-    "No. of Stores": 218,
-    "Opening Year": 1998
-  },
-  {
-    "name": "Century Square",
-    "Latitude": 1.3524,
-    "Longitude": 103.9438,
-    "No. of Stores": 131,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Changi Airport T3",
-    "Latitude": 1.3563,
-    "Longitude": 103.9865,
-    "No. of Stores": 115,
-    "Opening Year": 2008
-  },
-  {
-    "name": "Changi Airport T4",
-    "Latitude": 1.338,
-    "Longitude": 103.9835,
-    "No. of Stores": 81,
-    "Opening Year": 2017
-  },
-  {
-    "name": "Changi City Point",
-    "Latitude": 1.334,
-    "Longitude": 103.9627,
-    "No. of Stores": 129,
-    "Opening Year": 2011
-  },
-  {
-    "name": "Chinatown Point",
-    "Latitude": 1.2852,
-    "Longitude": 103.845,
-    "No. of Stores": 156,
-    "Opening Year": 1990
-  },
-  {
-    "name": "City Gate Mall",
-    "Latitude": 1.3023,
-    "Longitude": 103.8624,
-    "No. of Stores": 69,
-    "Opening Year": 2018
-  },
-  {
-    "name": "City Square Mall",
-    "Latitude": 1.3114,
-    "Longitude": 103.8566,
-    "No. of Stores": 186,
-    "Opening Year": 2009
-  },
-  {
-    "name": "CityLink Mall",
-    "Latitude": 1.2913,
-    "Longitude": 103.8552,
-    "No. of Stores": 70,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Clarke Quay Central",
-    "Latitude": 1.289,
-    "Longitude": 103.8466,
-    "No. of Stores": 86,
-    "Opening Year": 2007
-  },
-  {
-    "name": "Clementi Mall",
-    "Latitude": 1.3151,
-    "Longitude": 103.7645,
-    "No. of Stores": 156,
-    "Opening Year": 2011
-  },
-  {
-    "name": "Compass One",
-    "Latitude": 1.392,
-    "Longitude": 103.895,
-    "No. of Stores": 203,
-    "Opening Year": 2002
-  },
-  {
-    "name": "Downtown East",
-    "Latitude": 1.377,
-    "Longitude": 103.9551,
-    "No. of Stores": 134,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Eastpoint Mall",
-    "Latitude": 1.3427,
-    "Longitude": 103.9531,
-    "No. of Stores": 131,
-    "Opening Year": 1996
-  },
-  {
-    "name": "Elias Mall",
-    "Latitude": 1.3786,
-    "Longitude": 103.942,
-    "No. of Stores": 47,
-    "Opening Year": 1995
-  },
-  {
-    "name": "FairPrice Hub",
-    "Latitude": 1.327,
-    "Longitude": 103.6784,
-    "No. of Stores": 28,
-    "Opening Year": 2015
-  },
-  {
-    "name": "Fajar Shopping Centre",
-    "Latitude": 1.3838,
-    "Longitude": 103.771,
-    "No. of Stores": 34,
-    "Opening Year": 1996
-  },
-  {
-    "name": "Far East Plaza",
-    "Latitude": 1.3072,
-    "Longitude": 103.8336,
-    "No. of Stores": 549,
-    "Opening Year": 1982
-  },
-  {
-    "name": "Funan",
-    "Latitude": 1.2913,
-    "Longitude": 103.8501,
-    "No. of Stores": 199,
-    "Opening Year": 2019
-  },
-  {
-    "name": "Golden Mile Complex",
-    "Latitude": 1.3027,
-    "Longitude": 103.8652,
-    "No. of Stores": 411,
-    "Opening Year": 1973
-  },
-  {
-    "name": "Grandstand Car Mall",
-    "Latitude": 1.3377,
-    "Longitude": 103.7936,
-    "No. of Stores": 150,
-    "Opening Year": 2012
-  },
-  {
-    "name": "Great World City",
-    "Latitude": 1.2936,
-    "Longitude": 103.8319,
-    "No. of Stores": 303,
-    "Opening Year": 1997
-  },
-  {
-    "name": "Greenwich V",
-    "Latitude": 1.3874,
-    "Longitude": 103.8694,
-    "No. of Stores": 21,
-    "Opening Year": 2014
-  },
-  {
-    "name": "HarbourFront Centre",
-    "Latitude": 1.2642,
-    "Longitude": 103.8203,
-    "No. of Stores": 152,
-    "Opening Year": 1977
-  },
-  {
-    "name": "Heartland Mall",
-    "Latitude": 1.3595,
-    "Longitude": 103.8852,
-    "No. of Stores": 104,
-    "Opening Year": 1984
-  },
-  {
-    "name": "HillV2",
-    "Latitude": 1.3634,
-    "Longitude": 103.7643,
-    "No. of Stores": 26,
-    "Opening Year": 2014
-  },
-  {
-    "name": "Hillion Mall",
-    "Latitude": 1.3785,
-    "Longitude": 103.7633,
-    "No. of Stores": 131,
-    "Opening Year": 2017
-  },
-  {
-    "name": "Holland Road Shopping Centre",
-    "Latitude": 1.3104,
-    "Longitude": 103.7955,
-    "No. of Stores": 106,
-    "Opening Year": 1985
-  },
-  {
-    "name": "Hougang 1",
-    "Latitude": 1.3757,
-    "Longitude": 103.8795,
-    "No. of Stores": 37,
-    "Opening Year": 1999
-  },
-  {
-    "name": "Hougang Mall",
-    "Latitude": 1.3724,
-    "Longitude": 103.8938,
-    "No. of Stores": 133,
-    "Opening Year": 1997
-  },
-  {
-    "name": "I12 Katong",
-    "Latitude": 1.3052,
-    "Longitude": 103.905,
-    "No. of Stores": 67,
-    "Opening Year": 2011
-  },
-  {
-    "name": "Icon Village",
-    "Latitude": 1.2752,
-    "Longitude": 103.8446,
-    "No. of Stores": 34,
-    "Opening Year": 2007
-  },
-  {
-    "name": "IKEA Alexandra",
-    "Latitude": 1.288,
-    "Longitude": 103.806,
-    "No. of Stores": 1,
-    "Opening Year": 1995
-  },
-  {
-    "name": "IKEA Tampines",
-    "Latitude": 1.3742,
-    "Longitude": 103.9323,
-    "No. of Stores": 1,
-    "Opening Year": 2006
-  },
-  {
-    "name": "IMM",
-    "Latitude": 1.3347,
-    "Longitude": 103.7467,
-    "No. of Stores": 231,
-    "Opening Year": 1991
-  },
-  {
-    "name": "ION Orchard",
-    "Latitude": 1.304,
-    "Longitude": 103.8317,
-    "No. of Stores": 297,
-    "Opening Year": 2009
-  },
-  {
-    "name": "JCube",
-    "Latitude": 1.3333,
-    "Longitude": 103.7402,
-    "No. of Stores": 114,
-    "Opening Year": 2012
-  },
-  {
-    "name": "Jem",
-    "Latitude": 1.3332,
-    "Longitude": 103.7434,
-    "No. of Stores": 254,
-    "Opening Year": 2013
-  },
-  {
-    "name": "Jewel Changi Airport",
-    "Latitude": 1.36,
-    "Longitude": 103.9898,
-    "No. of Stores": 241,
-    "Opening Year": 2019
-  },
-  {
-    "name": "Jubilee Square",
-    "Latitude": 1.3718,
-    "Longitude": 103.8478,
-    "No. of Stores": 26,
-    "Opening Year": 1996
-  },
-  {
-    "name": "Junction 10",
-    "Latitude": 1.3803,
-    "Longitude": 103.7602,
-    "No. of Stores": 40,
-    "Opening Year": 1998
-  },
-  {
-    "name": "Junction 8",
-    "Latitude": 1.3506,
-    "Longitude": 103.8488,
-    "No. of Stores": 166,
-    "Opening Year": 1993
-  },
-  {
-    "name": "Junction Nine",
-    "Latitude": 1.4331,
-    "Longitude": 103.8416,
-    "No. of Stores": 131,
-    "Opening Year": 2013
-  },
-  {
-    "name": "Jurong Point",
-    "Latitude": 1.34,
-    "Longitude": 103.7064,
-    "No. of Stores": 354,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Kallang Wave Mall",
-    "Latitude": 1.3032,
-    "Longitude": 103.8729,
-    "No. of Stores": 74,
-    "Opening Year": 2014
-  },
-  {
-    "name": "Katong Shopping Centre",
-    "Latitude": 1.3039,
-    "Longitude": 103.9012,
-    "No. of Stores": 145,
-    "Opening Year": 1973
-  },
-  {
-    "name": "Katong V",
-    "Latitude": 1.3036,
-    "Longitude": 103.903,
-    "No. of Stores": 31,
-    "Opening Year": 2008
-  },
-  {
-    "name": "KINEX",
-    "Latitude": 1.3147,
-    "Longitude": 103.8948,
-    "No. of Stores": 88,
-    "Opening Year": 2019
-  },
-  {
-    "name": "Le Quest",
-    "Latitude": 1.3558,
-    "Longitude": 103.7412,
-    "No. of Stores": 38,
-    "Opening Year": 2020
-  },
-  {
-    "name": "Leisure Park Kallang",
-    "Latitude": 1.3022,
-    "Longitude": 103.8764,
-    "No. of Stores": 60,
-    "Opening Year": 1982
-  },
-  {
-    "name": "Lot One",
-    "Latitude": 1.3851,
-    "Longitude": 103.745,
-    "No. of Stores": 148,
-    "Opening Year": 1996
-  },
-  {
-    "name": "Loyang Point",
-    "Latitude": 1.3669,
-    "Longitude": 103.9644,
-    "No. of Stores": 77,
-    "Opening Year": 1995
+    "name": "One Holland Village",
+    "Latitude": 1.3111,
+    "Longitude": 103.794,
+    "Stores": 22,
+    "Year": 2022
   },
   {
     "name": "Lucky Plaza",
     "Latitude": 1.3045,
     "Longitude": 103.8339,
-    "No. of Stores": 513,
-    "Opening Year": 1977
+    "Stores": 513,
+    "Year": 1977
   },
   {
-    "name": "Mandarin Gallery",
-    "Latitude": 1.3019,
-    "Longitude": 103.8368,
-    "No. of Stores": 100,
-    "Opening Year": 2010
+    "name": "Far East Plaza",
+    "Latitude": 1.3072,
+    "Longitude": 103.8336,
+    "Stores": 549,
+    "Year": 1982
   },
   {
-    "name": "Marina Bay Link Mall",
-    "Latitude": 1.28,
-    "Longitude": 103.854,
-    "No. of Stores": 55,
-    "Opening Year": 2010
-  },
-  {
-    "name": "Marina Bay Sands Shoppes",
-    "Latitude": 1.2835,
-    "Longitude": 103.859,
-    "No. of Stores": 216,
-    "Opening Year": 2010
-  },
-  {
-    "name": "Marina One",
-    "Latitude": 1.2771,
-    "Longitude": 103.853,
-    "No. of Stores": 41,
-    "Opening Year": 2018
-  },
-  {
-    "name": "Marina Square",
-    "Latitude": 1.2911,
-    "Longitude": 103.8575,
-    "No. of Stores": 190,
-    "Opening Year": 1985
-  },
-  {
-    "name": "Millenia Walk",
-    "Latitude": 1.2928,
-    "Longitude": 103.8598,
-    "No. of Stores": 188,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Mustafa Centre",
-    "Latitude": 1.3097,
-    "Longitude": 103.8558,
-    "No. of Stores": 1,
-    "Opening Year": 1995
-  },
-  {
-    "name": "NEX",
-    "Latitude": 1.3507,
-    "Longitude": 103.8724,
-    "No. of Stores": 334,
-    "Opening Year": 2010
-  },
-  {
-    "name": "Ngee Ann City",
-    "Latitude": 1.3026,
-    "Longitude": 103.8346,
-    "No. of Stores": 171,
-    "Opening Year": 1993
-  },
-  {
-    "name": "Northpoint City",
-    "Latitude": 1.4282,
-    "Longitude": 103.8361,
-    "No. of Stores": 412,
-    "Opening Year": 1992
-  },
-  {
-    "name": "Northshore Plaza",
-    "Latitude": 1.4168,
-    "Longitude": 103.9018,
-    "No. of Stores": 38,
-    "Opening Year": 2021
-  },
-  {
-    "name": "Oasis Terraces",
-    "Latitude": 1.4028,
-    "Longitude": 103.9132,
-    "No. of Stores": 45,
-    "Opening Year": 2018
-  },
-  {
-    "name": "One Fullerton",
-    "Latitude": 1.2859,
-    "Longitude": 103.854,
-    "No. of Stores": 14,
-    "Opening Year": 1997
-  },
-  {
-    "name": "One Holland Village",
-    "Latitude": 1.3111,
-    "Longitude": 103.794,
-    "No. of Stores": 22,
-    "Opening Year": 2022
-  },
-  {
-    "name": "One Raffles Place",
-    "Latitude": 1.2842,
-    "Longitude": 103.8511,
-    "No. of Stores": 84,
-    "Opening Year": 1985
-  },
-  {
-    "name": "Orchard Central",
-    "Latitude": 1.3006,
-    "Longitude": 103.8399,
-    "No. of Stores": 78,
-    "Opening Year": 2009
-  },
-  {
-    "name": "Orchard Gateway",
-    "Latitude": 1.2996,
-    "Longitude": 103.8544,
-    "No. of Stores": 114,
-    "Opening Year": 2014
-  },
-  {
-    "name": "Our Tampines Hub",
-    "Latitude": 1.3529,
-    "Longitude": 103.9406,
-    "No. of Stores": 122,
-    "Opening Year": 2017
-  },
-  {
-    "name": "Parkway Parade",
-    "Latitude": 1.3014,
-    "Longitude": 103.9053,
-    "No. of Stores": 251,
-    "Opening Year": 1983
-  },
-  {
-    "name": "Paya Lebar Quarter",
-    "Latitude": 1.3175,
-    "Longitude": 103.8929,
-    "No. of Stores": 191,
-    "Opening Year": 2019
-  },
-  {
-    "name": "Paya Lebar Square",
-    "Latitude": 1.3188,
-    "Longitude": 103.8926,
-    "No. of Stores": 106,
-    "Opening Year": 2011
-  },
-  {
-    "name": "Pioneer Mall",
-    "Latitude": 1.3418,
-    "Longitude": 103.6973,
-    "No. of Stores": 30,
-    "Opening Year": 2004
-  },
-  {
-    "name": "Plaza Singapura",
-    "Latitude": 1.3007,
-    "Longitude": 103.8449,
-    "No. of Stores": 303,
-    "Opening Year": 1974
-  },
-  {
-    "name": "Punggol Plaza",
-    "Latitude": 1.3942,
-    "Longitude": 103.9131,
-    "No. of Stores": 56,
-    "Opening Year": 2004
-  },
-  {
-    "name": "Queensway Shopping Centre",
-    "Latitude": 1.2875,
-    "Longitude": 103.8036,
-    "No. of Stores": 138,
-    "Opening Year": 1976
-  },
-  {
-    "name": "Raffles City",
-    "Latitude": 1.2938,
-    "Longitude": 103.8532,
-    "No. of Stores": 239,
-    "Opening Year": 1986
-  },
-  {
-    "name": "Rail Mall",
-    "Latitude": 1.3581,
-    "Longitude": 103.7679,
-    "No. of Stores": 28,
-    "Opening Year": 1947
-  },
-  {
-    "name": "Resorts World Sentosa",
-    "Latitude": 1.2569,
-    "Longitude": 103.8202,
-    "No. of Stores": 45,
-    "Opening Year": 2010
-  },
-  {
-    "name": "Rivervale Mall",
-    "Latitude": 1.3922,
-    "Longitude": 103.9044,
-    "No. of Stores": 69,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Roxy Square",
-    "Latitude": 1.3043,
-    "Longitude": 103.9041,
-    "No. of Stores": 51,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Seletar Mall",
-    "Latitude": 1.3914,
-    "Longitude": 103.876,
-    "No. of Stores": 136,
-    "Opening Year": 2014
-  },
-  {
-    "name": "Sembawang Shopping Centre",
-    "Latitude": 1.4417,
-    "Longitude": 103.8248,
-    "No. of Stores": 72,
-    "Opening Year": 1986
-  },
-  {
-    "name": "Shaw Centre",
-    "Latitude": 1.3063,
-    "Longitude": 103.8318,
-    "No. of Stores": 49,
-    "Opening Year": 1972
-  },
-  {
-    "name": "Shaw House and Centre",
-    "Latitude": 1.3058,
-    "Longitude": 103.8315,
-    "No. of Stores": 12,
-    "Opening Year": 1993
-  },
-  {
-    "name": "Sim Lim Square",
-    "Latitude": 1.3031,
-    "Longitude": 103.8531,
-    "No. of Stores": 442,
-    "Opening Year": 1987
-  },
-  {
-    "name": "Singpost Centre",
-    "Latitude": 1.319,
-    "Longitude": 103.8944,
-    "No. of Stores": 117,
-    "Opening Year": 2017
-  },
-  {
-    "name": "Square 2",
-    "Latitude": 1.3208,
-    "Longitude": 103.8441,
-    "No. of Stores": 141,
-    "Opening Year": 2007
-  },
-  {
-    "name": "Sun Plaza",
-    "Latitude": 1.4482,
-    "Longitude": 103.8195,
-    "No. of Stores": 102,
-    "Opening Year": 1999
-  },
-  {
-    "name": "Suntec City",
-    "Latitude": 1.295,
-    "Longitude": 103.8583,
-    "No. of Stores": 351,
-    "Opening Year": 1997
-  },
-  {
-    "name": "Taman Jurong Shopping Centre",
-    "Latitude": 1.3349,
-    "Longitude": 103.7206,
-    "No. of Stores": 61,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Tampines 1",
-    "Latitude": 1.3542,
-    "Longitude": 103.945,
-    "No. of Stores": 167,
-    "Opening Year": 2009
-  },
-  {
-    "name": "Tampines Mall",
-    "Latitude": 1.3525,
-    "Longitude": 103.9447,
-    "No. of Stores": 179,
-    "Opening Year": 1995
-  },
-  {
-    "name": "Tampines Mart",
-    "Latitude": 1.3545,
-    "Longitude": 103.96,
-    "No. of Stores": 61,
-    "Opening Year": 1993
-  },
-  {
-    "name": "Tanjong Pagar Centre",
-    "Latitude": 1.2771,
-    "Longitude": 103.8455,
-    "No. of Stores": 67,
-    "Opening Year": 2016
-  },
-  {
-    "name": "Tekka Place",
-    "Latitude": 1.3051,
-    "Longitude": 103.8514,
-    "No. of Stores": 24,
-    "Opening Year": 2019
-  },
-  {
-    "name": "The Centrepoint",
-    "Latitude": 1.3015,
-    "Longitude": 103.8396,
-    "No. of Stores": 121,
-    "Opening Year": 1983
-  },
-  {
-    "name": "The Paragon",
-    "Latitude": 1.3038,
-    "Longitude": 103.8355,
-    "No. of Stores": 218,
-    "Opening Year": 1998
-  },
-  {
-    "name": "The Star Vista",
-    "Latitude": 1.3068,
-    "Longitude": 103.7884,
-    "No. of Stores": 102,
-    "Opening Year": 2012
-  },
-  {
-    "name": "Thomson Plaza",
-    "Latitude": 1.3547,
-    "Longitude": 103.8309,
-    "No. of Stores": 174,
-    "Opening Year": 1979
-  },
-  {
-    "name": "Tiong Bahru Plaza",
-    "Latitude": 1.2865,
-    "Longitude": 103.8272,
-    "No. of Stores": 152,
-    "Opening Year": 1994
-  },
-  {
-    "name": "United Square",
-    "Latitude": 1.3173,
-    "Longitude": 103.8437,
-    "No. of Stores": 114,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Velocity Novena Square",
-    "Latitude": 1.32,
-    "Longitude": 103.8439,
-    "No. of Stores": 52,
-    "Opening Year": 2000
-  },
-  {
-    "name": "Viva Vista",
-    "Latitude": 1.2797,
-    "Longitude": 103.7861,
-    "No. of Stores": 43,
-    "Opening Year": 2018
+    "name": "Golden Mile Complex",
+    "Latitude": 1.3027,
+    "Longitude": 103.8652,
+    "Stores": 411,
+    "Year": 1973
   },
   {
     "name": "VivoCity",
     "Latitude": 1.2644,
     "Longitude": 103.8222,
-    "No. of Stores": 364,
-    "Opening Year": 2006
+    "Stores": 364,
+    "Year": 2006
   },
   {
-    "name": "Waterway Point",
-    "Latitude": 1.4067,
-    "Longitude": 103.902,
-    "No. of Stores": 216,
-    "Opening Year": 2016
+    "name": "Jurong Point",
+    "Latitude": 1.34,
+    "Longitude": 103.7064,
+    "Stores": 354,
+    "Year": 1995
   },
   {
-    "name": "West Coast Plaza",
-    "Latitude": 1.3036,
-    "Longitude": 103.766,
-    "No. of Stores": 82,
-    "Opening Year": 1992
-  },
-  {
-    "name": "West Mall",
-    "Latitude": 1.35,
-    "Longitude": 103.7492,
-    "No. of Stores": 112,
-    "Opening Year": 1998
-  },
-  {
-    "name": "Westgate",
-    "Latitude": 1.3342,
-    "Longitude": 103.7429,
-    "No. of Stores": 238,
-    "Opening Year": 2013
-  },
-  {
-    "name": "Wheelock Place",
-    "Latitude": 1.3045,
-    "Longitude": 103.8306,
-    "No. of Stores": 107,
-    "Opening Year": 1993
-  },
-  {
-    "name": "White Sands",
-    "Latitude": 1.3725,
-    "Longitude": 103.9497,
-    "No. of Stores": 127,
-    "Opening Year": 1997
-  },
-  {
-    "name": "Wisma Atria",
-    "Latitude": 1.3036,
-    "Longitude": 103.833,
-    "No. of Stores": 107,
-    "Opening Year": 1986
-  },
-  {
-    "name": "Wisteria Mall",
-    "Latitude": 1.4182,
-    "Longitude": 103.8413,
-    "No. of Stores": 62,
-    "Opening Year": 2019
+    "name": "Le Quest",
+    "Latitude": 1.3558,
+    "Longitude": 103.7412,
+    "Stores": 38,
+    "Year": 2020
   },
   {
     "name": "Woods Square",
     "Latitude": 1.4352,
     "Longitude": 103.7846,
-    "No. of Stores": 33,
-    "Opening Year": 2021
+    "Stores": 33,
+    "Year": 2021
+  },
+  {
+    "name": "IKEA Tampines",
+    "Latitude": 1.3742,
+    "Longitude": 103.9323,
+    "Stores": 1,
+    "Year": 2006
+  },
+  {
+    "name": "Northshore Plaza",
+    "Latitude": 1.4168,
+    "Longitude": 103.9018,
+    "Stores": 38,
+    "Year": 2021
+  },
+  {
+    "name": "Canberra Plaza",
+    "Latitude": 1.4433,
+    "Longitude": 103.8305,
+    "Stores": 45,
+    "Year": 2020
+  },
+  {
+    "name": "FairPrice Hub",
+    "Latitude": 1.327,
+    "Longitude": 103.6784,
+    "Stores": 28,
+    "Year": 2015
+  },
+  {
+    "name": "Plaza Singapura",
+    "Latitude": 1.3007,
+    "Longitude": 103.8449,
+    "Stores": 303,
+    "Year": 1974
+  },
+  {
+    "name": "Sembawang Shopping Centre",
+    "Latitude": 1.4417,
+    "Longitude": 103.8248,
+    "Stores": 72,
+    "Year": 1986
+  },
+  {
+    "name": "Northpoint City",
+    "Latitude": 1.4282,
+    "Longitude": 103.8361,
+    "Stores": 412,
+    "Year": 1992
+  },
+  {
+    "name": "Sim Lim Square",
+    "Latitude": 1.3031,
+    "Longitude": 103.8531,
+    "Stores": 442,
+    "Year": 1987
+  },
+  {
+    "name": "Sun Plaza",
+    "Latitude": 1.4482,
+    "Longitude": 103.8195,
+    "Stores": 102,
+    "Year": 1999
+  },
+  {
+    "name": "Rail Mall",
+    "Latitude": 1.3581,
+    "Longitude": 103.7679,
+    "Stores": 28,
+    "Year": 1947
+  },
+  {
+    "name": "Jewel Changi Airport",
+    "Latitude": 1.36,
+    "Longitude": 103.9898,
+    "Stores": 241,
+    "Year": 2019
+  },
+  {
+    "name": "Causeway Point",
+    "Latitude": 1.4361,
+    "Longitude": 103.786,
+    "Stores": 218,
+    "Year": 1998
+  },
+  {
+    "name": "Tekka Place",
+    "Latitude": 1.3051,
+    "Longitude": 103.8514,
+    "Stores": 24,
+    "Year": 2019
+  },
+  {
+    "name": "HarbourFront Centre",
+    "Latitude": 1.2642,
+    "Longitude": 103.8203,
+    "Stores": 152,
+    "Year": 1977
+  },
+  {
+    "name": "Greenwich V",
+    "Latitude": 1.3874,
+    "Longitude": 103.8694,
+    "Stores": 21,
+    "Year": 2014
+  },
+  {
+    "name": "Marina One",
+    "Latitude": 1.2771,
+    "Longitude": 103.853,
+    "Stores": 41,
+    "Year": 2018
+  },
+  {
+    "name": "Jem",
+    "Latitude": 1.3332,
+    "Longitude": 103.7434,
+    "Stores": 254,
+    "Year": 2013
+  },
+  {
+    "name": "Resorts World Sentosa",
+    "Latitude": 1.2569,
+    "Longitude": 103.8202,
+    "Stores": 45,
+    "Year": 2010
+  },
+  {
+    "name": "Viva Vista",
+    "Latitude": 1.2797,
+    "Longitude": 103.7861,
+    "Stores": 43,
+    "Year": 2018
+  },
+  {
+    "name": "Katong Shopping Centre",
+    "Latitude": 1.3039,
+    "Longitude": 103.9012,
+    "Stores": 145,
+    "Year": 1973
+  },
+  {
+    "name": "Pioneer Mall",
+    "Latitude": 1.3418,
+    "Longitude": 103.6973,
+    "Stores": 30,
+    "Year": 2004
+  },
+  {
+    "name": "Loyang Point",
+    "Latitude": 1.3669,
+    "Longitude": 103.9644,
+    "Stores": 77,
+    "Year": 1995
+  },
+  {
+    "name": "Westgate",
+    "Latitude": 1.3342,
+    "Longitude": 103.7429,
+    "Stores": 238,
+    "Year": 2013
   },
   {
     "name": "Yew Tee Point",
     "Latitude": 1.397,
     "Longitude": 103.7466,
-    "No. of Stores": 71,
-    "Opening Year": 2006
+    "Stores": 71,
+    "Year": 2006
+  },
+  {
+    "name": "Changi Airport T4",
+    "Latitude": 1.338,
+    "Longitude": 103.9835,
+    "Stores": 81,
+    "Year": 2017
+  },
+  {
+    "name": "Changi Airport T3",
+    "Latitude": 1.3563,
+    "Longitude": 103.9865,
+    "Stores": 115,
+    "Year": 2008
+  },
+  {
+    "name": "Mustafa Centre",
+    "Latitude": 1.3097,
+    "Longitude": 103.8558,
+    "Stores": 1,
+    "Year": 1995
+  },
+  {
+    "name": "Tampines Mart",
+    "Latitude": 1.3545,
+    "Longitude": 103.96,
+    "Stores": 61,
+    "Year": 1993
+  },
+  {
+    "name": "Lot One",
+    "Latitude": 1.3851,
+    "Longitude": 103.745,
+    "Stores": 148,
+    "Year": 1996
+  },
+  {
+    "name": "Shaw Centre",
+    "Latitude": 1.3063,
+    "Longitude": 103.8318,
+    "Stores": 49,
+    "Year": 1972
+  },
+  {
+    "name": "Tanjong Pagar Centre",
+    "Latitude": 1.2771,
+    "Longitude": 103.8455,
+    "Stores": 67,
+    "Year": 2016
+  },
+  {
+    "name": "Funan",
+    "Latitude": 1.2913,
+    "Longitude": 103.8501,
+    "Stores": 199,
+    "Year": 2019
+  },
+  {
+    "name": "Parkway Parade",
+    "Latitude": 1.3014,
+    "Longitude": 103.9053,
+    "Stores": 251,
+    "Year": 1983
+  },
+  {
+    "name": "IKEA Alexandra",
+    "Latitude": 1.288,
+    "Longitude": 103.806,
+    "Stores": 1,
+    "Year": 1995
+  },
+  {
+    "name": "JCube",
+    "Latitude": 1.3333,
+    "Longitude": 103.7402,
+    "Stores": 114,
+    "Year": 2012
+  },
+  {
+    "name": "100 AM",
+    "Latitude": 1.2749,
+    "Longitude": 103.8435,
+    "Stores": 56,
+    "Year": 2012
+  },
+  {
+    "name": "Suntec City",
+    "Latitude": 1.295,
+    "Longitude": 103.8583,
+    "Stores": 351,
+    "Year": 1997
+  },
+  {
+    "name": "Taman Jurong Shopping Centre",
+    "Latitude": 1.3349,
+    "Longitude": 103.7206,
+    "Stores": 61,
+    "Year": 1995
+  },
+  {
+    "name": "Alexandra Retail Centre",
+    "Latitude": 1.2739,
+    "Longitude": 103.8015,
+    "Stores": 68,
+    "Year": 1985
+  },
+  {
+    "name": "One Fullerton",
+    "Latitude": 1.2859,
+    "Longitude": 103.854,
+    "Stores": 14,
+    "Year": 1997
+  },
+  {
+    "name": "Wisteria Mall",
+    "Latitude": 1.4182,
+    "Longitude": 103.8413,
+    "Stores": 62,
+    "Year": 2019
+  },
+  {
+    "name": "Queensway Shopping Centre",
+    "Latitude": 1.2875,
+    "Longitude": 103.8036,
+    "Stores": 138,
+    "Year": 1976
+  },
+  {
+    "name": "IMM",
+    "Latitude": 1.3347,
+    "Longitude": 103.7467,
+    "Stores": 231,
+    "Year": 1991
+  },
+  {
+    "name": "Bedok Point",
+    "Latitude": 1.3249,
+    "Longitude": 103.9324,
+    "Stores": 27,
+    "Year": 2010
+  },
+  {
+    "name": "Shaw House and Centre",
+    "Latitude": 1.3058,
+    "Longitude": 103.8315,
+    "Stores": 12,
+    "Year": 1993
+  },
+  {
+    "name": "Changi City Point",
+    "Latitude": 1.334,
+    "Longitude": 103.9627,
+    "Stores": 129,
+    "Year": 2011
+  },
+  {
+    "name": "Great World City",
+    "Latitude": 1.2936,
+    "Longitude": 103.8319,
+    "Stores": 303,
+    "Year": 1997
+  },
+  {
+    "name": "Oasis Terraces",
+    "Latitude": 1.4028,
+    "Longitude": 103.9132,
+    "Stores": 45,
+    "Year": 2018
+  },
+  {
+    "name": "Junction Nine",
+    "Latitude": 1.4331,
+    "Longitude": 103.8416,
+    "Stores": 131,
+    "Year": 2013
+  },
+  {
+    "name": "HillV2",
+    "Latitude": 1.3634,
+    "Longitude": 103.7643,
+    "Stores": 26,
+    "Year": 2014
+  },
+  {
+    "name": "KINEX",
+    "Latitude": 1.3147,
+    "Longitude": 103.8948,
+    "Stores": 88,
+    "Year": 2019
+  },
+  {
+    "name": "Icon Village",
+    "Latitude": 1.2752,
+    "Longitude": 103.8446,
+    "Stores": 34,
+    "Year": 2007
+  },
+  {
+    "name": "Marina Bay Sands Shoppes",
+    "Latitude": 1.2835,
+    "Longitude": 103.859,
+    "Stores": 216,
+    "Year": 2010
+  },
+  {
+    "name": "Hillion Mall",
+    "Latitude": 1.3785,
+    "Longitude": 103.7633,
+    "Stores": 131,
+    "Year": 2017
+  },
+  {
+    "name": "Downtown East",
+    "Latitude": 1.377,
+    "Longitude": 103.9551,
+    "Stores": 134,
+    "Year": 2000
+  },
+  {
+    "name": "Paya Lebar Quarter",
+    "Latitude": 1.3175,
+    "Longitude": 103.8929,
+    "Stores": 191,
+    "Year": 2019
+  },
+  {
+    "name": "Junction 10",
+    "Latitude": 1.3803,
+    "Longitude": 103.7602,
+    "Stores": 40,
+    "Year": 1998
+  },
+  {
+    "name": "Eastpoint Mall",
+    "Latitude": 1.3427,
+    "Longitude": 103.9531,
+    "Stores": 131,
+    "Year": 1996
+  },
+  {
+    "name": "Thomson Plaza",
+    "Latitude": 1.3547,
+    "Longitude": 103.8309,
+    "Stores": 174,
+    "Year": 1979
+  },
+  {
+    "name": "321 Clementi",
+    "Latitude": 1.312,
+    "Longitude": 103.765,
+    "Stores": 24,
+    "Year": 2011
+  },
+  {
+    "name": "Jubilee Square",
+    "Latitude": 1.3718,
+    "Longitude": 103.8478,
+    "Stores": 26,
+    "Year": 1996
+  },
+  {
+    "name": "White Sands",
+    "Latitude": 1.3725,
+    "Longitude": 103.9497,
+    "Stores": 127,
+    "Year": 1997
+  },
+  {
+    "name": "Tampines Mall",
+    "Latitude": 1.3525,
+    "Longitude": 103.9447,
+    "Stores": 179,
+    "Year": 1995
+  },
+  {
+    "name": "Elias Mall",
+    "Latitude": 1.3786,
+    "Longitude": 103.942,
+    "Stores": 47,
+    "Year": 1995
+  },
+  {
+    "name": "Waterway Point",
+    "Latitude": 1.4067,
+    "Longitude": 103.902,
+    "Stores": 216,
+    "Year": 2016
+  },
+  {
+    "name": "Leisure Park Kallang",
+    "Latitude": 1.3022,
+    "Longitude": 103.8764,
+    "Stores": 60,
+    "Year": 1982
+  },
+  {
+    "name": "NEX",
+    "Latitude": 1.3507,
+    "Longitude": 103.8724,
+    "Stores": 334,
+    "Year": 2010
+  },
+  {
+    "name": "Marina Bay Link Mall",
+    "Latitude": 1.28,
+    "Longitude": 103.854,
+    "Stores": 55,
+    "Year": 2010
+  },
+  {
+    "name": "Bukit Panjang Plaza",
+    "Latitude": 1.38,
+    "Longitude": 103.7643,
+    "Stores": 126,
+    "Year": 1998
+  },
+  {
+    "name": "Raffles City",
+    "Latitude": 1.2938,
+    "Longitude": 103.8532,
+    "Stores": 239,
+    "Year": 1986
+  },
+  {
+    "name": "City Gate Mall",
+    "Latitude": 1.3023,
+    "Longitude": 103.8624,
+    "Stores": 69,
+    "Year": 2018
+  },
+  {
+    "name": "Punggol Plaza",
+    "Latitude": 1.3942,
+    "Longitude": 103.9131,
+    "Stores": 56,
+    "Year": 2004
+  },
+  {
+    "name": "Century Square",
+    "Latitude": 1.3524,
+    "Longitude": 103.9438,
+    "Stores": 131,
+    "Year": 1995
+  },
+  {
+    "name": "Bugis Junction",
+    "Latitude": 1.2993,
+    "Longitude": 103.8553,
+    "Stores": 248,
+    "Year": 1995
+  },
+  {
+    "name": "Tampines 1",
+    "Latitude": 1.3542,
+    "Longitude": 103.945,
+    "Stores": 167,
+    "Year": 2009
+  },
+  {
+    "name": "ION Orchard",
+    "Latitude": 1.304,
+    "Longitude": 103.8317,
+    "Stores": 297,
+    "Year": 2009
+  },
+  {
+    "name": "Chinatown Point",
+    "Latitude": 1.2852,
+    "Longitude": 103.845,
+    "Stores": 156,
+    "Year": 1990
+  },
+  {
+    "name": "Fajar Shopping Centre",
+    "Latitude": 1.3838,
+    "Longitude": 103.771,
+    "Stores": 34,
+    "Year": 1996
+  },
+  {
+    "name": "Katong V",
+    "Latitude": 1.3036,
+    "Longitude": 103.903,
+    "Stores": 31,
+    "Year": 2008
+  },
+  {
+    "name": "Heartland Mall",
+    "Latitude": 1.3595,
+    "Longitude": 103.8852,
+    "Stores": 104,
+    "Year": 1984
+  },
+  {
+    "name": "Marina Square",
+    "Latitude": 1.2911,
+    "Longitude": 103.8575,
+    "Stores": 190,
+    "Year": 1985
+  },
+  {
+    "name": "West Mall",
+    "Latitude": 1.35,
+    "Longitude": 103.7492,
+    "Stores": 112,
+    "Year": 1998
+  },
+  {
+    "name": "Bugis Street",
+    "Latitude": 1.3006,
+    "Longitude": 103.8549,
+    "Stores": 242,
+    "Year": 1995
+  },
+  {
+    "name": "One Raffles Place",
+    "Latitude": 1.2842,
+    "Longitude": 103.8511,
+    "Stores": 84,
+    "Year": 1985
+  },
+  {
+    "name": "Rivervale Mall",
+    "Latitude": 1.3922,
+    "Longitude": 103.9044,
+    "Stores": 69,
+    "Year": 2000
+  },
+  {
+    "name": "Buangkok Square",
+    "Latitude": 1.3843,
+    "Longitude": 103.8816,
+    "Stores": 43,
+    "Year": 2006
+  },
+  {
+    "name": "Tiong Bahru Plaza",
+    "Latitude": 1.2865,
+    "Longitude": 103.8272,
+    "Stores": 152,
+    "Year": 1994
+  },
+  {
+    "name": "Our Tampines Hub",
+    "Latitude": 1.3529,
+    "Longitude": 103.9406,
+    "Stores": 122,
+    "Year": 2017
+  },
+  {
+    "name": "Cathay Cineleisure Orchard",
+    "Latitude": 1.3015,
+    "Longitude": 103.8365,
+    "Stores": 26,
+    "Year": 1997
+  },
+  {
+    "name": "The Centrepoint",
+    "Latitude": 1.3015,
+    "Longitude": 103.8396,
+    "Stores": 121,
+    "Year": 1983
+  },
+  {
+    "name": "Compass One",
+    "Latitude": 1.392,
+    "Longitude": 103.895,
+    "Stores": 203,
+    "Year": 2002
+  },
+  {
+    "name": "Capitol Singapore",
+    "Latitude": 1.293,
+    "Longitude": 103.8512,
+    "Stores": 67,
+    "Year": 2015
+  },
+  {
+    "name": "Clementi Mall",
+    "Latitude": 1.3151,
+    "Longitude": 103.7645,
+    "Stores": 156,
+    "Year": 2011
+  },
+  {
+    "name": "Hougang 1",
+    "Latitude": 1.3757,
+    "Longitude": 103.8795,
+    "Stores": 37,
+    "Year": 1999
+  },
+  {
+    "name": "Singpost Centre",
+    "Latitude": 1.319,
+    "Longitude": 103.8944,
+    "Stores": 117,
+    "Year": 2017
+  },
+  {
+    "name": "Seletar Mall",
+    "Latitude": 1.3914,
+    "Longitude": 103.876,
+    "Stores": 136,
+    "Year": 2014
+  },
+  {
+    "name": "Bedok Mall",
+    "Latitude": 1.3247,
+    "Longitude": 103.9294,
+    "Stores": 194,
+    "Year": 2013
+  },
+  {
+    "name": "Millenia Walk",
+    "Latitude": 1.2928,
+    "Longitude": 103.8598,
+    "Stores": 188,
+    "Year": 1995
+  },
+  {
+    "name": "Roxy Square",
+    "Latitude": 1.3043,
+    "Longitude": 103.9041,
+    "Stores": 51,
+    "Year": 2000
+  },
+  {
+    "name": "Holland Road Shopping Centre",
+    "Latitude": 1.3104,
+    "Longitude": 103.7955,
+    "Stores": 106,
+    "Year": 1985
+  },
+  {
+    "name": "I12 Katong",
+    "Latitude": 1.3052,
+    "Longitude": 103.905,
+    "Stores": 67,
+    "Year": 2011
+  },
+  {
+    "name": "Anchorpoint",
+    "Latitude": 1.2888,
+    "Longitude": 103.8051,
+    "Stores": 53,
+    "Year": 1997
+  },
+  {
+    "name": "Orchard Gateway",
+    "Latitude": 1.2996,
+    "Longitude": 103.8544,
+    "Stores": 114,
+    "Year": 2014
+  },
+  {
+    "name": "The Paragon",
+    "Latitude": 1.3038,
+    "Longitude": 103.8355,
+    "Stores": 218,
+    "Year": 1998
+  },
+  {
+    "name": "Clarke Quay Central",
+    "Latitude": 1.289,
+    "Longitude": 103.8466,
+    "Stores": 86,
+    "Year": 2007
+  },
+  {
+    "name": "West Coast Plaza",
+    "Latitude": 1.3036,
+    "Longitude": 103.766,
+    "Stores": 82,
+    "Year": 1992
+  },
+  {
+    "name": "Aperia",
+    "Latitude": 1.3105,
+    "Longitude": 103.8638,
+    "Stores": 52,
+    "Year": 2014
+  },
+  {
+    "name": "The Star Vista",
+    "Latitude": 1.3068,
+    "Longitude": 103.7884,
+    "Stores": 102,
+    "Year": 2012
+  },
+  {
+    "name": "Grandstand Car Mall",
+    "Latitude": 1.3377,
+    "Longitude": 103.7936,
+    "Stores": 150,
+    "Year": 2012
+  },
+  {
+    "name": "Kallang Wave Mall",
+    "Latitude": 1.3032,
+    "Longitude": 103.8729,
+    "Stores": 74,
+    "Year": 2014
+  },
+  {
+    "name": "CityLink Mall",
+    "Latitude": 1.2913,
+    "Longitude": 103.8552,
+    "Stores": 70,
+    "Year": 2000
+  },
+  {
+    "name": "Wisma Atria",
+    "Latitude": 1.3036,
+    "Longitude": 103.833,
+    "Stores": 107,
+    "Year": 1986
+  },
+  {
+    "name": "Ngee Ann City",
+    "Latitude": 1.3026,
+    "Longitude": 103.8346,
+    "Stores": 171,
+    "Year": 1993
+  },
+  {
+    "name": "AMK Hub",
+    "Latitude": 1.3693,
+    "Longitude": 103.8486,
+    "Stores": 215,
+    "Year": 2007
+  },
+  {
+    "name": "Junction 8",
+    "Latitude": 1.3506,
+    "Longitude": 103.8488,
+    "Stores": 166,
+    "Year": 1993
+  },
+  {
+    "name": "Hougang Mall",
+    "Latitude": 1.3724,
+    "Longitude": 103.8938,
+    "Stores": 133,
+    "Year": 1997
+  },
+  {
+    "name": "Bugis+",
+    "Latitude": 1.2996,
+    "Longitude": 103.8542,
+    "Stores": 82,
+    "Year": 2009
+  },
+  {
+    "name": "Orchard Central",
+    "Latitude": 1.3006,
+    "Longitude": 103.8399,
+    "Stores": 78,
+    "Year": 2009
+  },
+  {
+    "name": "313 Somerset",
+    "Latitude": 1.3009,
+    "Longitude": 103.8384,
+    "Stores": 147,
+    "Year": 2009
+  },
+  {
+    "name": "City Square Mall",
+    "Latitude": 1.3114,
+    "Longitude": 103.8566,
+    "Stores": 186,
+    "Year": 2009
+  },
+  {
+    "name": "Wheelock Place",
+    "Latitude": 1.3045,
+    "Longitude": 103.8306,
+    "Stores": 107,
+    "Year": 1993
+  },
+  {
+    "name": "Paya Lebar Square",
+    "Latitude": 1.3188,
+    "Longitude": 103.8926,
+    "Stores": 106,
+    "Year": 2011
+  },
+  {
+    "name": "Mandarin Gallery",
+    "Latitude": 1.3019,
+    "Longitude": 103.8368,
+    "Stores": 100,
+    "Year": 2010
+  },
+  {
+    "name": "Velocity Novena Square",
+    "Latitude": 1.32,
+    "Longitude": 103.8439,
+    "Stores": 52,
+    "Year": 2000
+  },
+  {
+    "name": "Square 2",
+    "Latitude": 1.3208,
+    "Longitude": 103.8441,
+    "Stores": 141,
+    "Year": 2007
+  },
+  {
+    "name": "United Square",
+    "Latitude": 1.3173,
+    "Longitude": 103.8437,
+    "Stores": 114,
+    "Year": 2000
   }
 ]
