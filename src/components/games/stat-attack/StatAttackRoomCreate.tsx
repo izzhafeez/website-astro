@@ -5,6 +5,7 @@ function StatAttackRoomCreate({ title, instructions }: { title: string, instruct
   const [gameId, setGameId] = useState('');
 
   return (
+    <>
     <div className="p-2 max-w-6xl mx-auto">
       <div className="mt-40 text-center">
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
@@ -22,6 +23,7 @@ function StatAttackRoomCreate({ title, instructions }: { title: string, instruct
         </div>
       </div>
     </div>
+    </>
   );
 }
 
