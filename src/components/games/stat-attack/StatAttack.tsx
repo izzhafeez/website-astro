@@ -78,6 +78,13 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
   const [isSpectating, setIsSpectating] = React.useState(false);
   const fields = Object.keys(deckData[0]); // we dont want 'name', so we remove it with shift
   fields.shift();
+  // for each field, i want the 10th and the 90th percentile values
+  const fieldThresholds = fields.map((field) => {
+    const values = deckData.map((card: any) => card[field]);
+    values.sort((a: number, b: number) => a - b);
+    return [values[Math.floor(values.length * 0.1)], values[Math.floor(values.length * 0.9)]];
+  });
+
   const handSize = fields.length;
 
   const sensors = useSensors(
@@ -308,12 +315,12 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
     });
   }
 
-  const names = deckData.map((card: {name: string}) => card.name).map((s: string, index: number) => <span>{s} </span>);
+  const names = deckData.map((card: {name: string}) => card.name).map((s: string, index: number) => <span className={hand.includes(index) ? 'text-gray-500/30' : ''}>{s} </span>);
   const namesLength = deckData.map((card: {name: string}) => card.name.length).reduce((a: number, b: number) => a + b, 0);
 
   return (
     <>
-    <p className="absolute h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
       {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
@@ -372,7 +379,7 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
         strategy={rectSortingStrategy}
       >
         <div className="grid lg:grid-cols-2 gap-2">
-          {hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields}/>)}
+          {hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields} fieldThresholds={fieldThresholds}/>)}
         </div>
       </SortableContext></DndContext>}
       {gameStatus === 'PLAYING' && <button onClick={play} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Play</button>}
@@ -382,12 +389,21 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
         : <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2 flex">Waiting for winner to pick a card...</h3>)}</div>
       {gameStatus === 'SELECTING' && <ul className="grid gap-2">
         {playedCards.map((card, index) => (
-          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`transition-colors animate-linear bg-[length:200%_auto] p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-dt-500 text-white' : 'bg-white/50 dark:bg-gray-700/50 hover:bg-dt-500/30'}`}>
-            <h3 className={`flex text-xl font-bold mb-2 text-dt-500 ${selectedCard === card.card_id ? 'text-white' : 'text-dt-500'}`}>{deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
+          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`transition-colors animate-linear bg-[length:200%_auto] p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-dt-500/20' : 'bg-white/50 dark:bg-gray-700/50'}`}>
+            <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
+              {deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
             </h3>
-            <ul className={`grid gap-2 ${selectedCard === card.card_id ? 'text-white' : 'text-gray-900 dark:text-white'}`}>
+            <ul className={`grid gap-2 text-gray-900 dark:text-white`}>
             {fields.map((fieldName, index) => <p className="" key={fieldName}>
-              <span key={fieldName} className={`font-bold ${selectedCard === card.card_id ? index === roundId ? 'bg-white text-dt-500' : 'bg-dt-300/50' : index === roundId ? 'bg-dt-500 dark:bg-dt-300 dark:text-black text-white' : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> {deckData[card.card_id][fieldName]}
+              <><span key={fieldName} className={`font-bold ${
+                index === roundId
+                ? 'bg-dt-500 dark:bg-dt-300 dark:text-black text-white'
+                : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> <span className={`font-medium 
+                ${deckData[card.card_id][fieldName] >= fieldThresholds[index][1]
+                ? 'text-ew-500'
+                : deckData[card.card_id][fieldName] <= fieldThresholds[index][0]
+                ? 'text-ns-500'
+                : ''}`}>{deckData[card.card_id][fieldName]}</span></>
             </p>)}
             </ul>
           </li>
