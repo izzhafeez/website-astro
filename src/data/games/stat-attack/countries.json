@@ -1,1400 +1,1234 @@
 [
   {
-    "name": "Afghanistan",
-    "Population (Thousands)": 42239,
-    "Area (km^2)": 652860,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Albania",
-    "Population (Thousands)": 2832,
-    "Area (km^2)": 27400,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Algeria",
-    "Population (Thousands)": 45606,
-    "Area (km^2)": 2381740,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "American Samoa",
-    "Population (Thousands)": 43,
-    "Area (km^2)": 200,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Andorra",
-    "Population (Thousands)": 80,
-    "Area (km^2)": 470,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "Angola",
-    "Population (Thousands)": 36684,
-    "Area (km^2)": 1246700,
-    "Median Age (Years)": 16
-  },
-  {
-    "name": "Anguilla",
-    "Population (Thousands)": 15,
-    "Area (km^2)": 90,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Antigua and Barbuda",
-    "Population (Thousands)": 94,
-    "Area (km^2)": 440,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "Argentina",
-    "Population (Thousands)": 45773,
-    "Area (km^2)": 2736690,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Armenia",
-    "Population (Thousands)": 2777,
-    "Area (km^2)": 28470,
-    "Median Age (Years)": 35
-  },
-  {
-    "name": "Aruba",
-    "Population (Thousands)": 106,
-    "Area (km^2)": 180,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Australia",
-    "Population (Thousands)": 26439,
-    "Area (km^2)": 7682300,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Austria",
-    "Population (Thousands)": 8958,
-    "Area (km^2)": 82409,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "Azerbaijan",
-    "Population (Thousands)": 10412,
-    "Area (km^2)": 82658,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Bahamas",
-    "Population (Thousands)": 412,
-    "Area (km^2)": 10010,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "Bahrain",
-    "Population (Thousands)": 1485,
-    "Area (km^2)": 760,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Bangladesh",
-    "Population (Thousands)": 172954,
-    "Area (km^2)": 130170,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Barbados",
-    "Population (Thousands)": 281,
-    "Area (km^2)": 430,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Belarus",
-    "Population (Thousands)": 9498,
-    "Area (km^2)": 202910,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Belgium",
-    "Population (Thousands)": 11686,
-    "Area (km^2)": 30280,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Belize",
-    "Population (Thousands)": 410,
-    "Area (km^2)": 22810,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Benin",
-    "Population (Thousands)": 13712,
-    "Area (km^2)": 112760,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Bermuda",
-    "Population (Thousands)": 64,
-    "Area (km^2)": 50,
-    "Median Age (Years)": 46
-  },
-  {
-    "name": "Bhutan",
-    "Population (Thousands)": 787,
-    "Area (km^2)": 38117,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Bolivia",
-    "Population (Thousands)": 12388,
-    "Area (km^2)": 1083300,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Bosnia and Herzegovina",
-    "Population (Thousands)": 3210,
-    "Area (km^2)": 51000,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Botswana",
-    "Population (Thousands)": 2675,
-    "Area (km^2)": 566730,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Brazil",
-    "Population (Thousands)": 216422,
-    "Area (km^2)": 8358140,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "British Virgin Islands",
-    "Population (Thousands)": 31,
-    "Area (km^2)": 150,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Brunei ",
-    "Population (Thousands)": 452,
-    "Area (km^2)": 5270,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "Bulgaria",
-    "Population (Thousands)": 6687,
-    "Area (km^2)": 108560,
-    "Median Age (Years)": 45
-  },
-  {
-    "name": "Burkina Faso",
-    "Population (Thousands)": 23251,
-    "Area (km^2)": 273600,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Burundi",
-    "Population (Thousands)": 13238,
-    "Area (km^2)": 25680,
-    "Median Age (Years)": 16
-  },
-  {
-    "name": "Cabo Verde",
-    "Population (Thousands)": 598,
-    "Area (km^2)": 4030,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Cambodia",
-    "Population (Thousands)": 16944,
-    "Area (km^2)": 176520,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Cameroon",
-    "Population (Thousands)": 28647,
-    "Area (km^2)": 472710,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Canada",
-    "Population (Thousands)": 38781,
-    "Area (km^2)": 9093510,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Caribbean Netherlands",
-    "Population (Thousands)": 27,
-    "Area (km^2)": 328,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Cayman Islands",
-    "Population (Thousands)": 69,
-    "Area (km^2)": 240,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Central African Republic",
-    "Population (Thousands)": 5742,
-    "Area (km^2)": 622980,
-    "Median Age (Years)": 15
-  },
-  {
-    "name": "Chad",
-    "Population (Thousands)": 18278,
-    "Area (km^2)": 1259200,
-    "Median Age (Years)": 15
-  },
-  {
-    "name": "Chile",
-    "Population (Thousands)": 19629,
-    "Area (km^2)": 743532,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "China",
-    "Population (Thousands)": 1425671,
-    "Area (km^2)": 9388211,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Colombia",
-    "Population (Thousands)": 52085,
-    "Area (km^2)": 1109500,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Comoros",
-    "Population (Thousands)": 852,
-    "Area (km^2)": 1861,
-    "Median Age (Years)": 20
-  },
-  {
-    "name": "Congo",
-    "Population (Thousands)": 6106,
-    "Area (km^2)": 341500,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Cook Islands",
-    "Population (Thousands)": 17,
-    "Area (km^2)": 240,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "Costa Rica",
-    "Population (Thousands)": 5212,
-    "Area (km^2)": 51060,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Croatia",
-    "Population (Thousands)": 4008,
-    "Area (km^2)": 55960,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Cuba",
-    "Population (Thousands)": 11194,
-    "Area (km^2)": 106440,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Cura\u00e7ao",
-    "Population (Thousands)": 192,
-    "Area (km^2)": 444,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "Cyprus",
-    "Population (Thousands)": 1260,
-    "Area (km^2)": 9240,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Czech Republic (Czechia)",
-    "Population (Thousands)": 10495,
-    "Area (km^2)": 77240,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "C\u00f4te d'Ivoire",
-    "Population (Thousands)": 28873,
-    "Area (km^2)": 318000,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Denmark",
-    "Population (Thousands)": 5910,
-    "Area (km^2)": 42430,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Djibouti",
-    "Population (Thousands)": 1136,
-    "Area (km^2)": 23180,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Dominica",
-    "Population (Thousands)": 73,
-    "Area (km^2)": 750,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Dominican Republic",
-    "Population (Thousands)": 11332,
-    "Area (km^2)": 48320,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "DR Congo",
-    "Population (Thousands)": 102262,
-    "Area (km^2)": 2267050,
-    "Median Age (Years)": 16
-  },
-  {
-    "name": "Ecuador",
-    "Population (Thousands)": 18190,
-    "Area (km^2)": 248360,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "Egypt",
-    "Population (Thousands)": 112716,
-    "Area (km^2)": 995450,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "El Salvador",
-    "Population (Thousands)": 6364,
-    "Area (km^2)": 20720,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Equatorial Guinea",
-    "Population (Thousands)": 1714,
-    "Area (km^2)": 28050,
-    "Median Age (Years)": 21
-  },
-  {
-    "name": "Eritrea",
-    "Population (Thousands)": 3748,
-    "Area (km^2)": 101000,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Estonia",
-    "Population (Thousands)": 1322,
-    "Area (km^2)": 42390,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Eswatini",
-    "Population (Thousands)": 1210,
-    "Area (km^2)": 17200,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Ethiopia",
-    "Population (Thousands)": 126527,
-    "Area (km^2)": 1000000,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Faeroe Islands",
-    "Population (Thousands)": 53,
-    "Area (km^2)": 1396,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Falkland Islands",
-    "Population (Thousands)": 3,
-    "Area (km^2)": 12170,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Fiji",
-    "Population (Thousands)": 936,
-    "Area (km^2)": 18270,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Finland",
-    "Population (Thousands)": 5545,
-    "Area (km^2)": 303890,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "France",
-    "Population (Thousands)": 64756,
-    "Area (km^2)": 547557,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "French Guiana",
-    "Population (Thousands)": 312,
-    "Area (km^2)": 82200,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "French Polynesia",
-    "Population (Thousands)": 308,
-    "Area (km^2)": 3660,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Gabon",
-    "Population (Thousands)": 2436,
-    "Area (km^2)": 257670,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Gambia",
-    "Population (Thousands)": 2773,
-    "Area (km^2)": 10120,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Georgia",
-    "Population (Thousands)": 3728,
-    "Area (km^2)": 69490,
-    "Median Age (Years)": 37
-  },
-  {
-    "name": "Germany",
-    "Population (Thousands)": 83294,
-    "Area (km^2)": 348560,
-    "Median Age (Years)": 45
-  },
-  {
-    "name": "Ghana",
-    "Population (Thousands)": 34121,
-    "Area (km^2)": 227540,
-    "Median Age (Years)": 21
-  },
-  {
-    "name": "Gibraltar",
-    "Population (Thousands)": 32,
-    "Area (km^2)": 10,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Greece",
-    "Population (Thousands)": 10341,
-    "Area (km^2)": 128900,
-    "Median Age (Years)": 45
-  },
-  {
-    "name": "Greenland",
-    "Population (Thousands)": 56,
-    "Area (km^2)": 410450,
-    "Median Age (Years)": 35
-  },
-  {
-    "name": "Grenada",
-    "Population (Thousands)": 126,
-    "Area (km^2)": 340,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Guadeloupe",
-    "Population (Thousands)": 395,
-    "Area (km^2)": 1690,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Guam",
-    "Population (Thousands)": 172,
-    "Area (km^2)": 540,
-    "Median Age (Years)": 30
-  },
-  {
-    "name": "Guatemala",
-    "Population (Thousands)": 18092,
-    "Area (km^2)": 107160,
-    "Median Age (Years)": 23
-  },
-  {
-    "name": "Guinea",
-    "Population (Thousands)": 14190,
-    "Area (km^2)": 245720,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Guinea-Bissau",
-    "Population (Thousands)": 2150,
-    "Area (km^2)": 28120,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Guyana",
-    "Population (Thousands)": 813,
-    "Area (km^2)": 196850,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Haiti",
-    "Population (Thousands)": 11724,
-    "Area (km^2)": 27560,
-    "Median Age (Years)": 23
-  },
-  {
-    "name": "Honduras",
-    "Population (Thousands)": 10593,
-    "Area (km^2)": 111890,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Hong Kong",
-    "Population (Thousands)": 7491,
-    "Area (km^2)": 1050,
-    "Median Age (Years)": 46
-  },
-  {
-    "name": "Hungary",
-    "Population (Thousands)": 10156,
-    "Area (km^2)": 90530,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Iceland",
-    "Population (Thousands)": 375,
-    "Area (km^2)": 100250,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "India",
-    "Population (Thousands)": 1428627,
-    "Area (km^2)": 2973190,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "Indonesia",
-    "Population (Thousands)": 277534,
-    "Area (km^2)": 1811570,
-    "Median Age (Years)": 30
-  },
-  {
-    "name": "Iran",
-    "Population (Thousands)": 89172,
-    "Area (km^2)": 1628550,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "Iraq",
-    "Population (Thousands)": 45504,
-    "Area (km^2)": 434320,
-    "Median Age (Years)": 20
-  },
-  {
-    "name": "Ireland",
-    "Population (Thousands)": 5056,
-    "Area (km^2)": 68890,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Isle of Man",
-    "Population (Thousands)": 84,
-    "Area (km^2)": 570,
-    "Median Age (Years)": 46
-  },
-  {
-    "name": "Israel",
-    "Population (Thousands)": 9174,
-    "Area (km^2)": 21640,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Italy",
-    "Population (Thousands)": 58870,
-    "Area (km^2)": 294140,
-    "Median Age (Years)": 48
-  },
-  {
-    "name": "Jamaica",
-    "Population (Thousands)": 2825,
-    "Area (km^2)": 10830,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Japan",
-    "Population (Thousands)": 123294,
-    "Area (km^2)": 364555,
-    "Median Age (Years)": 49
-  },
-  {
-    "name": "Jordan",
-    "Population (Thousands)": 11337,
-    "Area (km^2)": 88780,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Kazakhstan",
-    "Population (Thousands)": 19606,
-    "Area (km^2)": 2699700,
-    "Median Age (Years)": 30
-  },
-  {
-    "name": "Kenya",
-    "Population (Thousands)": 55100,
-    "Area (km^2)": 569140,
-    "Median Age (Years)": 20
-  },
-  {
-    "name": "Kiribati",
-    "Population (Thousands)": 133,
-    "Area (km^2)": 810,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Kuwait",
-    "Population (Thousands)": 4310,
-    "Area (km^2)": 17820,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Kyrgyzstan",
-    "Population (Thousands)": 6735,
-    "Area (km^2)": 191800,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Laos",
-    "Population (Thousands)": 7633,
-    "Area (km^2)": 230800,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Latvia",
-    "Population (Thousands)": 1830,
-    "Area (km^2)": 62200,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Lebanon",
-    "Population (Thousands)": 5353,
-    "Area (km^2)": 10230,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Lesotho",
-    "Population (Thousands)": 2330,
-    "Area (km^2)": 30360,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Liberia",
-    "Population (Thousands)": 5418,
-    "Area (km^2)": 96320,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Libya",
-    "Population (Thousands)": 6888,
-    "Area (km^2)": 1759540,
-    "Median Age (Years)": 27
-  },
-  {
     "name": "Liechtenstein",
-    "Population (Thousands)": 39,
-    "Area (km^2)": 160,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Lithuania",
-    "Population (Thousands)": 2718,
-    "Area (km^2)": 62674,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Luxembourg",
-    "Population (Thousands)": 654,
-    "Area (km^2)": 2590,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Macao",
-    "Population (Thousands)": 704,
-    "Area (km^2)": 30,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Madagascar",
-    "Population (Thousands)": 30325,
-    "Area (km^2)": 581795,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Malawi",
-    "Population (Thousands)": 20931,
-    "Area (km^2)": 94280,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Malaysia",
-    "Population (Thousands)": 34308,
-    "Area (km^2)": 328550,
-    "Median Age (Years)": 31
-  },
-  {
-    "name": "Maldives",
-    "Population (Thousands)": 521,
-    "Area (km^2)": 300,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Mali",
-    "Population (Thousands)": 23293,
-    "Area (km^2)": 1220190,
-    "Median Age (Years)": 15
-  },
-  {
-    "name": "Malta",
-    "Population (Thousands)": 535,
-    "Area (km^2)": 320,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Marshall Islands",
-    "Population (Thousands)": 41,
-    "Area (km^2)": 180,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Martinique",
-    "Population (Thousands)": 366,
-    "Area (km^2)": 1060,
-    "Median Age (Years)": 47
-  },
-  {
-    "name": "Mauritania",
-    "Population (Thousands)": 4862,
-    "Area (km^2)": 1030700,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Mauritius",
-    "Population (Thousands)": 1300,
-    "Area (km^2)": 2030,
-    "Median Age (Years)": 37
-  },
-  {
-    "name": "Mayotte",
-    "Population (Thousands)": 335,
-    "Area (km^2)": 375,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Mexico",
-    "Population (Thousands)": 128455,
-    "Area (km^2)": 1943950,
-    "Median Age (Years)": 30
-  },
-  {
-    "name": "Micronesia",
-    "Population (Thousands)": 544,
-    "Area (km^2)": 700,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Moldova",
-    "Population (Thousands)": 3435,
-    "Area (km^2)": 32850,
-    "Median Age (Years)": 35
-  },
-  {
-    "name": "Monaco",
-    "Population (Thousands)": 36,
-    "Area (km^2)": 1,
-    "Median Age (Years)": 54
-  },
-  {
-    "name": "Mongolia",
-    "Population (Thousands)": 3447,
-    "Area (km^2)": 1553560,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Montenegro",
-    "Population (Thousands)": 626,
-    "Area (km^2)": 13450,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Montserrat",
-    "Population (Thousands)": 4,
-    "Area (km^2)": 100,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Morocco",
-    "Population (Thousands)": 37840,
-    "Area (km^2)": 446300,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Mozambique",
-    "Population (Thousands)": 33897,
-    "Area (km^2)": 786380,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Myanmar",
-    "Population (Thousands)": 54577,
-    "Area (km^2)": 653290,
-    "Median Age (Years)": 30
-  },
-  {
-    "name": "Namibia",
-    "Population (Thousands)": 2604,
-    "Area (km^2)": 823290,
-    "Median Age (Years)": 21
-  },
-  {
-    "name": "Nauru",
-    "Population (Thousands)": 12,
-    "Area (km^2)": 20,
-    "Median Age (Years)": 20
-  },
-  {
-    "name": "Nepal",
-    "Population (Thousands)": 30896,
-    "Area (km^2)": 143350,
-    "Median Age (Years)": 24
-  },
-  {
-    "name": "Netherlands",
-    "Population (Thousands)": 17618,
-    "Area (km^2)": 33720,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "New Caledonia",
-    "Population (Thousands)": 292,
-    "Area (km^2)": 18280,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "New Zealand",
-    "Population (Thousands)": 5228,
-    "Area (km^2)": 263310,
-    "Median Age (Years)": 37
-  },
-  {
-    "name": "Nicaragua",
-    "Population (Thousands)": 7046,
-    "Area (km^2)": 120340,
-    "Median Age (Years)": 25
-  },
-  {
-    "name": "Niger",
-    "Population (Thousands)": 27202,
-    "Area (km^2)": 1266700,
-    "Median Age (Years)": 15
-  },
-  {
-    "name": "Nigeria",
-    "Population (Thousands)": 223804,
-    "Area (km^2)": 910770,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Niue",
-    "Population (Thousands)": 1,
-    "Area (km^2)": 260,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "North Korea",
-    "Population (Thousands)": 26160,
-    "Area (km^2)": 120410,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "North Macedonia",
-    "Population (Thousands)": 2085,
-    "Area (km^2)": 25220,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Northern Mariana Islands",
-    "Population (Thousands)": 49,
-    "Area (km^2)": 460,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Norway",
-    "Population (Thousands)": 5474,
-    "Area (km^2)": 365268,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Oman",
-    "Population (Thousands)": 4644,
-    "Area (km^2)": 309500,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Pakistan",
-    "Population (Thousands)": 240485,
-    "Area (km^2)": 770880,
-    "Median Age (Years)": 21
-  },
-  {
-    "name": "Palau",
-    "Population (Thousands)": 18,
-    "Area (km^2)": 460,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "Panama",
-    "Population (Thousands)": 4468,
-    "Area (km^2)": 74340,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Papua New Guinea",
-    "Population (Thousands)": 10329,
-    "Area (km^2)": 452860,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Paraguay",
-    "Population (Thousands)": 6861,
-    "Area (km^2)": 397300,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Peru",
-    "Population (Thousands)": 34352,
-    "Area (km^2)": 1280000,
-    "Median Age (Years)": 29
-  },
-  {
-    "name": "Philippines",
-    "Population (Thousands)": 117337,
-    "Area (km^2)": 298170,
-    "Median Age (Years)": 25
-  },
-  {
-    "name": "Poland",
-    "Population (Thousands)": 41026,
-    "Area (km^2)": 306230,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Portugal",
-    "Population (Thousands)": 10247,
-    "Area (km^2)": 91590,
-    "Median Age (Years)": 46
-  },
-  {
-    "name": "Puerto Rico",
-    "Population (Thousands)": 3260,
-    "Area (km^2)": 8870,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Qatar",
-    "Population (Thousands)": 2716,
-    "Area (km^2)": 11610,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Romania",
-    "Population (Thousands)": 19892,
-    "Area (km^2)": 230170,
-    "Median Age (Years)": 41
-  },
-  {
-    "name": "Russia",
-    "Population (Thousands)": 144444,
-    "Area (km^2)": 16376870,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Rwanda",
-    "Population (Thousands)": 14094,
-    "Area (km^2)": 24670,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "R\u00e9union",
-    "Population (Thousands)": 981,
-    "Area (km^2)": 2500,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Saint Barthelemy",
-    "Population (Thousands)": 10,
-    "Area (km^2)": 21,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Saint Helena",
-    "Population (Thousands)": 5,
-    "Area (km^2)": 390,
-    "Median Age (Years)": 53
-  },
-  {
-    "name": "Saint Kitts & Nevis",
-    "Population (Thousands)": 47,
-    "Area (km^2)": 260,
-    "Median Age (Years)": 35
-  },
-  {
-    "name": "Saint Lucia",
-    "Population (Thousands)": 180,
-    "Area (km^2)": 610,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "Saint Martin",
-    "Population (Thousands)": 32,
-    "Area (km^2)": 53,
-    "Median Age (Years)": 39
-  },
-  {
-    "name": "Saint Pierre & Miquelon",
-    "Population (Thousands)": 5,
-    "Area (km^2)": 230,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "Samoa",
-    "Population (Thousands)": 225,
-    "Area (km^2)": 2830,
-    "Median Age (Years)": 21
+    "Population (K)": 38,
+    "Area": 160,
+    "GDP per Capita": 172357,
+    "Highest Point": 2599
   },
   {
     "name": "San Marino",
-    "Population (Thousands)": 33,
-    "Area (km^2)": 60,
-    "Median Age (Years)": 47
+    "Population (K)": 34,
+    "Area": 61,
+    "GDP per Capita": 48374,
+    "Highest Point": 739
   },
   {
-    "name": "Sao Tome & Principe",
-    "Population (Thousands)": 231,
-    "Area (km^2)": 960,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Saudi Arabia",
-    "Population (Thousands)": 36947,
-    "Area (km^2)": 2149690,
-    "Median Age (Years)": 31
-  },
-  {
-    "name": "Senegal",
-    "Population (Thousands)": 17763,
-    "Area (km^2)": 192530,
-    "Median Age (Years)": 18
-  },
-  {
-    "name": "Serbia",
-    "Population (Thousands)": 7149,
-    "Area (km^2)": 87460,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "Seychelles",
-    "Population (Thousands)": 107,
-    "Area (km^2)": 460,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "Sierra Leone",
-    "Population (Thousands)": 8791,
-    "Area (km^2)": 72180,
-    "Median Age (Years)": 19
+    "name": "Qatar",
+    "Population (K)": 2832,
+    "Area": 11586,
+    "GDP per Capita": 64782,
+    "Highest Point": 103
   },
   {
     "name": "Singapore",
-    "Population (Thousands)": 6014,
-    "Area (km^2)": 700,
-    "Median Age (Years)": 43
+    "Population (K)": 5704,
+    "Area": 716,
+    "GDP per Capita": 65233,
+    "Highest Point": 164
   },
   {
-    "name": "Sint Maarten",
-    "Population (Thousands)": 44,
-    "Area (km^2)": 34,
-    "Median Age (Years)": 48
+    "name": "Afghanistan",
+    "Population (K)": 38042,
+    "Area": 652230,
+    "GDP per Capita": 502,
+    "Highest Point": 7492
   },
   {
-    "name": "Slovakia",
-    "Population (Thousands)": 5795,
-    "Area (km^2)": 48088,
-    "Median Age (Years)": 40
+    "name": "India",
+    "Population (K)": 1366418,
+    "Area": 3287263,
+    "GDP per Capita": 1911,
+    "Highest Point": 8586
   },
   {
-    "name": "Slovenia",
-    "Population (Thousands)": 2119,
-    "Area (km^2)": 20140,
-    "Median Age (Years)": 44
+    "name": "Luxembourg",
+    "Population (K)": 645,
+    "Area": 2586,
+    "GDP per Capita": 110172,
+    "Highest Point": 560
   },
   {
-    "name": "Solomon Islands",
-    "Population (Thousands)": 740,
-    "Area (km^2)": 27990,
-    "Median Age (Years)": 19
+    "name": "Denmark",
+    "Population (K)": 5819,
+    "Area": 43094,
+    "GDP per Capita": 59822,
+    "Highest Point": 171
   },
   {
-    "name": "Somalia",
-    "Population (Thousands)": 18143,
-    "Area (km^2)": 627340,
-    "Median Age (Years)": 15
+    "name": "Pakistan",
+    "Population (K)": 216565,
+    "Area": 796095,
+    "GDP per Capita": 1406,
+    "Highest Point": 8611
   },
   {
-    "name": "South Africa",
-    "Population (Thousands)": 60414,
-    "Area (km^2)": 1213090,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "South Korea",
-    "Population (Thousands)": 51784,
-    "Area (km^2)": 97230,
-    "Median Age (Years)": 44
-  },
-  {
-    "name": "South Sudan",
-    "Population (Thousands)": 11088,
-    "Area (km^2)": 610952,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Spain",
-    "Population (Thousands)": 47519,
-    "Area (km^2)": 498800,
-    "Median Age (Years)": 45
-  },
-  {
-    "name": "Sri Lanka",
-    "Population (Thousands)": 21893,
-    "Area (km^2)": 62710,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "St. Vincent & Grenadines",
-    "Population (Thousands)": 103,
-    "Area (km^2)": 390,
-    "Median Age (Years)": 33
-  },
-  {
-    "name": "State of Palestine",
-    "Population (Thousands)": 5371,
-    "Area (km^2)": 6020,
-    "Median Age (Years)": 20
+    "name": "Nepal",
+    "Population (K)": 28609,
+    "Area": 147181,
+    "GDP per Capita": 1071,
+    "Highest Point": 8849
   },
   {
     "name": "Sudan",
-    "Population (Thousands)": 48109,
-    "Area (km^2)": 1765048,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Suriname",
-    "Population (Thousands)": 623,
-    "Area (km^2)": 156000,
-    "Median Age (Years)": 28
-  },
-  {
-    "name": "Sweden",
-    "Population (Thousands)": 10612,
-    "Area (km^2)": 410340,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Switzerland",
-    "Population (Thousands)": 8796,
-    "Area (km^2)": 39516,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Syria",
-    "Population (Thousands)": 23227,
-    "Area (km^2)": 183630,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Taiwan",
-    "Population (Thousands)": 23923,
-    "Area (km^2)": 35410,
-    "Median Age (Years)": 42
-  },
-  {
-    "name": "Tajikistan",
-    "Population (Thousands)": 10143,
-    "Area (km^2)": 139960,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Tanzania",
-    "Population (Thousands)": 67438,
-    "Area (km^2)": 885800,
-    "Median Age (Years)": 17
-  },
-  {
-    "name": "Thailand",
-    "Population (Thousands)": 71801,
-    "Area (km^2)": 510890,
-    "Median Age (Years)": 40
-  },
-  {
-    "name": "Timor-Leste",
-    "Population (Thousands)": 1360,
-    "Area (km^2)": 14870,
-    "Median Age (Years)": 21
-  },
-  {
-    "name": "Togo",
-    "Population (Thousands)": 9053,
-    "Area (km^2)": 54390,
-    "Median Age (Years)": 19
-  },
-  {
-    "name": "Tokelau",
-    "Population (Thousands)": 1,
-    "Area (km^2)": 10,
-    "Median Age (Years)": 27
-  },
-  {
-    "name": "Tonga",
-    "Population (Thousands)": 107,
-    "Area (km^2)": 720,
-    "Median Age (Years)": 22
-  },
-  {
-    "name": "Trinidad and Tobago",
-    "Population (Thousands)": 1534,
-    "Area (km^2)": 5130,
-    "Median Age (Years)": 36
-  },
-  {
-    "name": "Tunisia",
-    "Population (Thousands)": 12458,
-    "Area (km^2)": 155360,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Turkey",
-    "Population (Thousands)": 85816,
-    "Area (km^2)": 769630,
-    "Median Age (Years)": 32
-  },
-  {
-    "name": "Turkmenistan",
-    "Population (Thousands)": 6516,
-    "Area (km^2)": 469930,
-    "Median Age (Years)": 26
-  },
-  {
-    "name": "Turks and Caicos",
-    "Population (Thousands)": 46,
-    "Area (km^2)": 950,
-    "Median Age (Years)": 38
-  },
-  {
-    "name": "Tuvalu",
-    "Population (Thousands)": 11,
-    "Area (km^2)": 30,
-    "Median Age (Years)": 25
-  },
-  {
-    "name": "U.S. Virgin Islands",
-    "Population (Thousands)": 98,
-    "Area (km^2)": 350,
-    "Median Age (Years)": 43
-  },
-  {
-    "name": "Uganda",
-    "Population (Thousands)": 48582,
-    "Area (km^2)": 199810,
-    "Median Age (Years)": 16
-  },
-  {
-    "name": "Ukraine",
-    "Population (Thousands)": 36744,
-    "Area (km^2)": 579320,
-    "Median Age (Years)": 45
-  },
-  {
-    "name": "United Arab Emirates",
-    "Population (Thousands)": 9516,
-    "Area (km^2)": 83600,
-    "Median Age (Years)": 34
-  },
-  {
-    "name": "United Kingdom",
-    "Population (Thousands)": 67736,
-    "Area (km^2)": 241930,
-    "Median Age (Years)": 40
+    "Population (K)": 42813,
+    "Area": 1861484,
+    "GDP per Capita": 442,
+    "Highest Point": 3042
   },
   {
     "name": "United States",
-    "Population (Thousands)": 339996,
-    "Area (km^2)": 9147420,
-    "Median Age (Years)": 38
+    "Population (K)": 328240,
+    "Area": 9833517,
+    "GDP per Capita": 65281,
+    "Highest Point": 6190
   },
   {
-    "name": "Uruguay",
-    "Population (Thousands)": 3423,
-    "Area (km^2)": 175020,
-    "Median Age (Years)": 36
+    "name": "Democratic Republic of the Congo",
+    "Population (K)": 86791,
+    "Area": 2344858,
+    "GDP per Capita": 545,
+    "Highest Point": 5109
   },
   {
-    "name": "Uzbekistan",
-    "Population (Thousands)": 35163,
-    "Area (km^2)": 425400,
-    "Median Age (Years)": 27
+    "name": "Tuvalu",
+    "Population (K)": 12,
+    "Area": 26,
+    "GDP per Capita": 4059,
+    "Highest Point": 5
   },
   {
-    "name": "Vanuatu",
-    "Population (Thousands)": 334,
-    "Area (km^2)": 12190,
-    "Median Age (Years)": 20
+    "name": "Iceland",
+    "Population (K)": 361,
+    "Area": 103000,
+    "GDP per Capita": 66945,
+    "Highest Point": 2110
   },
   {
-    "name": "Venezuela",
-    "Population (Thousands)": 28838,
-    "Area (km^2)": 882050,
-    "Median Age (Years)": 28
+    "name": "Palau",
+    "Population (K)": 18,
+    "Area": 459,
+    "GDP per Capita": 15576,
+    "Highest Point": 242
+  },
+  {
+    "name": "Tajikistan",
+    "Population (K)": 9321,
+    "Area": 144100,
+    "GDP per Capita": 871,
+    "Highest Point": 7495
+  },
+  {
+    "name": "Malta",
+    "Population (K)": 503,
+    "Area": 316,
+    "GDP per Capita": 29416,
+    "Highest Point": 253
+  },
+  {
+    "name": "Russia",
+    "Population (K)": 144374,
+    "Area": 17098240,
+    "GDP per Capita": 11774,
+    "Highest Point": 5642
+  },
+  {
+    "name": "Marshall Islands",
+    "Population (K)": 59,
+    "Area": 181,
+    "GDP per Capita": 3764,
+    "Highest Point": 10
+  },
+  {
+    "name": "Bhutan",
+    "Population (K)": 727,
+    "Area": 38394,
+    "GDP per Capita": 3365,
+    "Highest Point": 7570
+  },
+  {
+    "name": "Andorra",
+    "Population (K)": 77,
+    "Area": 468,
+    "GDP per Capita": 40886,
+    "Highest Point": 2942
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "Population (K)": 53,
+    "Area": 261,
+    "GDP per Capita": 19896,
+    "Highest Point": 1156
+  },
+  {
+    "name": "Bahrain",
+    "Population (K)": 1502,
+    "Area": 765,
+    "GDP per Capita": 25688,
+    "Highest Point": 122
+  },
+  {
+    "name": "Somalia",
+    "Population (K)": 15443,
+    "Area": 637657,
+    "GDP per Capita": 306,
+    "Highest Point": 2450
+  },
+  {
+    "name": "Canada",
+    "Population (K)": 36992,
+    "Area": 9984670,
+    "GDP per Capita": 46941,
+    "Highest Point": 5959
+  },
+  {
+    "name": "Indonesia",
+    "Population (K)": 270204,
+    "Area": 1904569,
+    "GDP per Capita": 4142,
+    "Highest Point": 4884
+  },
+  {
+    "name": "Ethiopia",
+    "Population (K)": 112079,
+    "Area": 1104300,
+    "GDP per Capita": 858,
+    "Highest Point": 4550
+  },
+  {
+    "name": "Burundi",
+    "Population (K)": 11531,
+    "Area": 27830,
+    "GDP per Capita": 261,
+    "Highest Point": 2684
+  },
+  {
+    "name": "Brazil",
+    "Population (K)": 212559,
+    "Area": 8515770,
+    "GDP per Capita": 8655,
+    "Highest Point": 2995
+  },
+  {
+    "name": "Kyrgyzstan",
+    "Population (K)": 6457,
+    "Area": 199951,
+    "GDP per Capita": 1309,
+    "Highest Point": 7439
+  },
+  {
+    "name": "Kiribati",
+    "Population (K)": 118,
+    "Area": 811,
+    "GDP per Capita": 1655,
+    "Highest Point": 81
+  },
+  {
+    "name": "Mozambique",
+    "Population (K)": 30366,
+    "Area": 799380,
+    "GDP per Capita": 492,
+    "Highest Point": 2436
+  },
+  {
+    "name": "Norway",
+    "Population (K)": 5348,
+    "Area": 323802,
+    "GDP per Capita": 75420,
+    "Highest Point": 2469
+  },
+  {
+    "name": "Australia",
+    "Population (K)": 25767,
+    "Area": 7741220,
+    "GDP per Capita": 54050,
+    "Highest Point": 2228
+  },
+  {
+    "name": "Eritrea",
+    "Population (K)": 6333,
+    "Area": 117600,
+    "GDP per Capita": 326,
+    "Highest Point": 3018
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "Population (K)": 97,
+    "Area": 443,
+    "GDP per Capita": 17790,
+    "Highest Point": 402
+  },
+  {
+    "name": "Niger",
+    "Population (K)": 23311,
+    "Area": 1267000,
+    "GDP per Capita": 555,
+    "Highest Point": 2022
+  },
+  {
+    "name": "Bangladesh",
+    "Population (K)": 167311,
+    "Area": 148460,
+    "GDP per Capita": 1808,
+    "Highest Point": 1063
+  },
+  {
+    "name": "Barbados",
+    "Population (K)": 287,
+    "Area": 430,
+    "GDP per Capita": 18148,
+    "Highest Point": 336
+  },
+  {
+    "name": "Central African Republic",
+    "Population (K)": 4745,
+    "Area": 622984,
+    "GDP per Capita": 468,
+    "Highest Point": 1420
+  },
+  {
+    "name": "Nigeria",
+    "Population (K)": 200964,
+    "Area": 923768,
+    "GDP per Capita": 2230,
+    "Highest Point": 2419
+  },
+  {
+    "name": "Malawi",
+    "Population (K)": 18629,
+    "Area": 118484,
+    "GDP per Capita": 412,
+    "Highest Point": 3002
+  },
+  {
+    "name": "Netherlands",
+    "Population (K)": 17333,
+    "Area": 41543,
+    "GDP per Capita": 52448,
+    "Highest Point": 887
+  },
+  {
+    "name": "Grenada",
+    "Population (K)": 112,
+    "Area": 349,
+    "GDP per Capita": 10966,
+    "Highest Point": 840
+  },
+  {
+    "name": "Kuwait",
+    "Population (K)": 4207,
+    "Area": 17818,
+    "GDP per Capita": 32032,
+    "Highest Point": 306
+  },
+  {
+    "name": "Argentina",
+    "Population (K)": 44939,
+    "Area": 2780400,
+    "GDP per Capita": 10006,
+    "Highest Point": 6960
+  },
+  {
+    "name": "Seychelles",
+    "Population (K)": 98,
+    "Area": 455,
+    "GDP per Capita": 17402,
+    "Highest Point": 905
+  },
+  {
+    "name": "Chad",
+    "Population (K)": 15947,
+    "Area": 1284000,
+    "GDP per Capita": 710,
+    "Highest Point": 3445
+  },
+  {
+    "name": "Kazakhstan",
+    "Population (K)": 18514,
+    "Area": 2724900,
+    "GDP per Capita": 9731,
+    "Highest Point": 7010
+  },
+  {
+    "name": "Dominica",
+    "Population (K)": 72,
+    "Area": 751,
+    "GDP per Capita": 8300,
+    "Highest Point": 1447
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "Population (K)": 100,
+    "Area": 389,
+    "GDP per Capita": 8216,
+    "Highest Point": 1234
+  },
+  {
+    "name": "Tanzania",
+    "Population (K)": 58005,
+    "Area": 947300,
+    "GDP per Capita": 1089,
+    "Highest Point": 5892
+  },
+  {
+    "name": "Madagascar",
+    "Population (K)": 26969,
+    "Area": 587041,
+    "GDP per Capita": 522,
+    "Highest Point": 2876
+  },
+  {
+    "name": "Mexico",
+    "Population (K)": 126014,
+    "Area": 1964375,
+    "GDP per Capita": 9985,
+    "Highest Point": 5636
+  },
+  {
+    "name": "Lithuania",
+    "Population (K)": 2787,
+    "Area": 65300,
+    "GDP per Capita": 19455,
+    "Highest Point": 294
+  },
+  {
+    "name": "Belgium",
+    "Population (K)": 11484,
+    "Area": 30528,
+    "GDP per Capita": 46117,
+    "Highest Point": 694
+  },
+  {
+    "name": "Estonia",
+    "Population (K)": 1332,
+    "Area": 45228,
+    "GDP per Capita": 23567,
+    "Highest Point": 318
+  },
+  {
+    "name": "Algeria",
+    "Population (K)": 43053,
+    "Area": 2381741,
+    "GDP per Capita": 3948,
+    "Highest Point": 3003
+  },
+  {
+    "name": "Japan",
+    "Population (K)": 126227,
+    "Area": 377944,
+    "GDP per Capita": 40259,
+    "Highest Point": 3776
+  },
+  {
+    "name": "Uganda",
+    "Population (K)": 44270,
+    "Area": 241038,
+    "GDP per Capita": 777,
+    "Highest Point": 5109
+  },
+  {
+    "name": "Latvia",
+    "Population (K)": 1913,
+    "Area": 64589,
+    "GDP per Capita": 17836,
+    "Highest Point": 312
+  },
+  {
+    "name": "Myanmar",
+    "Population (K)": 54045,
+    "Area": 676578,
+    "GDP per Capita": 1408,
+    "Highest Point": 5881
+  },
+  {
+    "name": "Peru",
+    "Population (K)": 32510,
+    "Area": 1285216,
+    "GDP per Capita": 6978,
+    "Highest Point": 6768
+  },
+  {
+    "name": "Guinea-Bissau",
+    "Population (K)": 1921,
+    "Area": 36125,
+    "GDP per Capita": 698,
+    "Highest Point": 262
+  },
+  {
+    "name": "Finland",
+    "Population (K)": 5520,
+    "Area": 338145,
+    "GDP per Capita": 48686,
+    "Highest Point": 1324
+  },
+  {
+    "name": "Bolivia",
+    "Population (K)": 11513,
+    "Area": 1098581,
+    "GDP per Capita": 3552,
+    "Highest Point": 6542
+  },
+  {
+    "name": "Chile",
+    "Population (K)": 18952,
+    "Area": 756096,
+    "GDP per Capita": 14896,
+    "Highest Point": 6893
+  },
+  {
+    "name": "Sierra Leone",
+    "Population (K)": 7813,
+    "Area": 71740,
+    "GDP per Capita": 504,
+    "Highest Point": 1948
+  },
+  {
+    "name": "Egypt",
+    "Population (K)": 100388,
+    "Area": 1001450,
+    "GDP per Capita": 3020,
+    "Highest Point": 2629
+  },
+  {
+    "name": "Sweden",
+    "Population (K)": 10285,
+    "Area": 450295,
+    "GDP per Capita": 51610,
+    "Highest Point": 2097
+  },
+  {
+    "name": "Mali",
+    "Population (K)": 19658,
+    "Area": 1240192,
+    "GDP per Capita": 891,
+    "Highest Point": 1155
+  },
+  {
+    "name": "Philippines",
+    "Population (K)": 108117,
+    "Area": 300000,
+    "GDP per Capita": 3485,
+    "Highest Point": 2954
+  },
+  {
+    "name": "Saudi Arabia",
+    "Population (K)": 34269,
+    "Area": 2149690,
+    "GDP per Capita": 23140,
+    "Highest Point": 3000
+  },
+  {
+    "name": "Saint Lucia",
+    "Population (K)": 183,
+    "Area": 616,
+    "GDP per Capita": 11611,
+    "Highest Point": 950
+  },
+  {
+    "name": "Austria",
+    "Population (K)": 8877,
+    "Area": 83871,
+    "GDP per Capita": 50277,
+    "Highest Point": 3798
+  },
+  {
+    "name": "Tonga",
+    "Population (K)": 100,
+    "Area": 747,
+    "GDP per Capita": 4494,
+    "Highest Point": 1033
   },
   {
     "name": "Vietnam",
-    "Population (Thousands)": 98858,
-    "Area (km^2)": 310070,
-    "Median Age (Years)": 33
+    "Population (K)": 96462,
+    "Area": 331210,
+    "GDP per Capita": 2715,
+    "Highest Point": 3143
   },
   {
-    "name": "Wallis & Futuna",
-    "Population (Thousands)": 11,
-    "Area (km^2)": 140,
-    "Median Age (Years)": 37
+    "name": "Brunei",
+    "Population (K)": 433,
+    "Area": 5765,
+    "GDP per Capita": 31087,
+    "Highest Point": 1850
   },
   {
-    "name": "Western Sahara",
-    "Population (Thousands)": 587,
-    "Area (km^2)": 266000,
-    "Median Age (Years)": 32
+    "name": "Federated States of Micronesia",
+    "Population (K)": 114,
+    "Area": 702,
+    "GDP per Capita": 3531,
+    "Highest Point": 782
+  },
+  {
+    "name": "Iran",
+    "Population (K)": 82914,
+    "Area": 1648195,
+    "GDP per Capita": 5371,
+    "Highest Point": 5610
+  },
+  {
+    "name": "Rwanda",
+    "Population (K)": 12627,
+    "Area": 26338,
+    "GDP per Capita": 802,
+    "Highest Point": 4507
+  },
+  {
+    "name": "Ecuador",
+    "Population (K)": 17374,
+    "Area": 283561,
+    "GDP per Capita": 6184,
+    "Highest Point": 6267
+  },
+  {
+    "name": "Mongolia",
+    "Population (K)": 3225,
+    "Area": 1564116,
+    "GDP per Capita": 4295,
+    "Highest Point": 4374
+  },
+  {
+    "name": "Liberia",
+    "Population (K)": 4937,
+    "Area": 111369,
+    "GDP per Capita": 622,
+    "Highest Point": 1440
+  },
+  {
+    "name": "Libya",
+    "Population (K)": 6777,
+    "Area": 1759540,
+    "GDP per Capita": 7684,
+    "Highest Point": 2267
+  },
+  {
+    "name": "Germany",
+    "Population (K)": 83133,
+    "Area": 357022,
+    "GDP per Capita": 46259,
+    "Highest Point": 2962
+  },
+  {
+    "name": "United Kingdom",
+    "Population (K)": 66834,
+    "Area": 243610,
+    "GDP per Capita": 42300,
+    "Highest Point": 1345
+  },
+  {
+    "name": "Turkey",
+    "Population (K)": 83430,
+    "Area": 783562,
+    "GDP per Capita": 9042,
+    "Highest Point": 5137
+  },
+  {
+    "name": "Togo",
+    "Population (K)": 8082,
+    "Area": 56785,
+    "GDP per Capita": 676,
+    "Highest Point": 986
+  },
+  {
+    "name": "Burkina Faso",
+    "Population (K)": 20321,
+    "Area": 274200,
+    "GDP per Capita": 775,
+    "Highest Point": 749
+  },
+  {
+    "name": "Kenya",
+    "Population (K)": 52574,
+    "Area": 580367,
+    "GDP per Capita": 1817,
+    "Highest Point": 5199
+  },
+  {
+    "name": "Uruguay",
+    "Population (K)": 3462,
+    "Area": 176215,
+    "GDP per Capita": 16190,
+    "Highest Point": 514
+  },
+  {
+    "name": "United Arab Emirates",
+    "Population (K)": 9771,
+    "Area": 83600,
+    "GDP per Capita": 43103,
+    "Highest Point": 1910
+  },
+  {
+    "name": "Belarus",
+    "Population (K)": 9467,
+    "Area": 207600,
+    "GDP per Capita": 6663,
+    "Highest Point": 346
+  },
+  {
+    "name": "New Zealand",
+    "Population (K)": 4841,
+    "Area": 268838,
+    "GDP per Capita": 42745,
+    "Highest Point": 3724
+  },
+  {
+    "name": "Mauritania",
+    "Population (K)": 4526,
+    "Area": 1030700,
+    "GDP per Capita": 1678,
+    "Highest Point": 915
+  },
+  {
+    "name": "Samoa",
+    "Population (K)": 203,
+    "Area": 2831,
+    "GDP per Capita": 4201,
+    "Highest Point": 1857
+  },
+  {
+    "name": "Haiti",
+    "Population (K)": 11263,
+    "Area": 27750,
+    "GDP per Capita": 755,
+    "Highest Point": 2680
+  },
+  {
+    "name": "France",
+    "Population (K)": 67060,
+    "Area": 643801,
+    "GDP per Capita": 40494,
+    "Highest Point": 4810
+  },
+  {
+    "name": "Angola",
+    "Population (K)": 31825,
+    "Area": 1246700,
+    "GDP per Capita": 2974,
+    "Highest Point": 2620
+  },
+  {
+    "name": "Georgia",
+    "Population (K)": 3720,
+    "Area": 69700,
+    "GDP per Capita": 4769,
+    "Highest Point": 5201
+  },
+  {
+    "name": "Mauritius",
+    "Population (K)": 1266,
+    "Area": 2040,
+    "GDP per Capita": 11204,
+    "Highest Point": 828
+  },
+  {
+    "name": "Thailand",
+    "Population (K)": 69626,
+    "Area": 513120,
+    "GDP per Capita": 7808,
+    "Highest Point": 2565
+  },
+  {
+    "name": "Moldova",
+    "Population (K)": 2658,
+    "Area": 33851,
+    "GDP per Capita": 4499,
+    "Highest Point": 430
   },
   {
     "name": "Yemen",
-    "Population (Thousands)": 34449,
-    "Area (km^2)": 527970,
-    "Median Age (Years)": 19
+    "Population (K)": 29162,
+    "Area": 527968,
+    "GDP per Capita": 923,
+    "Highest Point": 3666
+  },
+  {
+    "name": "Cyprus",
+    "Population (K)": 1199,
+    "Area": 9251,
+    "GDP per Capita": 20495,
+    "Highest Point": 1952
+  },
+  {
+    "name": "Vanuatu",
+    "Population (K)": 300,
+    "Area": 12189,
+    "GDP per Capita": 3058,
+    "Highest Point": 1877
+  },
+  {
+    "name": "Senegal",
+    "Population (K)": 16296,
+    "Area": 196722,
+    "GDP per Capita": 1447,
+    "Highest Point": 648
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "Population (K)": 1395,
+    "Area": 5128,
+    "GDP per Capita": 17276,
+    "Highest Point": 940
+  },
+  {
+    "name": "Italy",
+    "Population (K)": 60297,
+    "Area": 301340,
+    "GDP per Capita": 33190,
+    "Highest Point": 4810
+  },
+  {
+    "name": "Slovenia",
+    "Population (K)": 2088,
+    "Area": 20273,
+    "GDP per Capita": 25739,
+    "Highest Point": 2864
+  },
+  {
+    "name": "South Korea",
+    "Population (K)": 51709,
+    "Area": 99720,
+    "GDP per Capita": 39239,
+    "Highest Point": 1947
+  },
+  {
+    "name": "Benin",
+    "Population (K)": 11801,
+    "Area": 112622,
+    "GDP per Capita": 1219,
+    "Highest Point": 658
+  },
+  {
+    "name": "South Africa",
+    "Population (K)": 58558,
+    "Area": 1219090,
+    "GDP per Capita": 6001,
+    "Highest Point": 3450
+  },
+  {
+    "name": "Cape Verde",
+    "Population (K)": 484,
+    "Area": 4033,
+    "GDP per Capita": 4098,
+    "Highest Point": 2829
+  },
+  {
+    "name": "Belize",
+    "Population (K)": 390,
+    "Area": 22966,
+    "GDP per Capita": 4815,
+    "Highest Point": 1124
+  },
+  {
+    "name": "Comoros",
+    "Population (K)": 851,
+    "Area": 2235,
+    "GDP per Capita": 1394,
+    "Highest Point": 2360
   },
   {
     "name": "Zambia",
-    "Population (Thousands)": 20569,
-    "Area (km^2)": 743390,
-    "Median Age (Years)": 17
+    "Population (K)": 17861,
+    "Area": 752618,
+    "GDP per Capita": 1291,
+    "Highest Point": 2329
+  },
+  {
+    "name": "Uzbekistan",
+    "Population (K)": 33581,
+    "Area": 447400,
+    "GDP per Capita": 1725,
+    "Highest Point": 4668
+  },
+  {
+    "name": "Lesotho",
+    "Population (K)": 2125,
+    "Area": 30355,
+    "GDP per Capita": 1158,
+    "Highest Point": 3482
+  },
+  {
+    "name": "Ghana",
+    "Population (K)": 30793,
+    "Area": 238533,
+    "GDP per Capita": 2175,
+    "Highest Point": 880
+  },
+  {
+    "name": "Montenegro",
+    "Population (K)": 622,
+    "Area": 13812,
+    "GDP per Capita": 8832,
+    "Highest Point": 2534
+  },
+  {
+    "name": "Guinea",
+    "Population (K)": 12771,
+    "Area": 245857,
+    "GDP per Capita": 1064,
+    "Highest Point": 1752
+  },
+  {
+    "name": "Namibia",
+    "Population (K)": 2495,
+    "Area": 824292,
+    "GDP per Capita": 4957,
+    "Highest Point": 2573
+  },
+  {
+    "name": "Suriname",
+    "Population (K)": 581,
+    "Area": 163820,
+    "GDP per Capita": 6855,
+    "Highest Point": 1230
+  },
+  {
+    "name": "Venezuela",
+    "Population (K)": 28516,
+    "Area": 912050,
+    "GDP per Capita": 16915,
+    "Highest Point": 4978
+  },
+  {
+    "name": "Lebanon",
+    "Population (K)": 6856,
+    "Area": 10400,
+    "GDP per Capita": 7784,
+    "Highest Point": 3088
+  },
+  {
+    "name": "Paraguay",
+    "Population (K)": 7045,
+    "Area": 406752,
+    "GDP per Capita": 5415,
+    "Highest Point": 842
+  },
+  {
+    "name": "North Korea",
+    "Population (K)": 25666,
+    "Area": 120538,
+    "GDP per Capita": 1251,
+    "Highest Point": 2744
+  },
+  {
+    "name": "Ukraine",
+    "Population (K)": 44385,
+    "Area": 603550,
+    "GDP per Capita": 3465,
+    "Highest Point": 2061
+  },
+  {
+    "name": "Spain",
+    "Population (K)": 47077,
+    "Area": 505370,
+    "GDP per Capita": 29614,
+    "Highest Point": 3715
+  },
+  {
+    "name": "Papua New Guinea",
+    "Population (K)": 8776,
+    "Area": 462840,
+    "GDP per Capita": 2845,
+    "Highest Point": 4509
+  },
+  {
+    "name": "Cameroon",
+    "Population (K)": 25876,
+    "Area": 475440,
+    "GDP per Capita": 1498,
+    "Highest Point": 4040
+  },
+  {
+    "name": "Solomon Islands",
+    "Population (K)": 670,
+    "Area": 28896,
+    "GDP per Capita": 2128,
+    "Highest Point": 2335
+  },
+  {
+    "name": "Guyana",
+    "Population (K)": 783,
+    "Area": 214969,
+    "GDP per Capita": 5468,
+    "Highest Point": 2772
+  },
+  {
+    "name": "Czech Republic",
+    "Population (K)": 10670,
+    "Area": 78867,
+    "GDP per Capita": 23102,
+    "Highest Point": 1603
+  },
+  {
+    "name": "Armenia",
+    "Population (K)": 2958,
+    "Area": 29743,
+    "GDP per Capita": 4623,
+    "Highest Point": 4090
+  },
+  {
+    "name": "Hungary",
+    "Population (K)": 9770,
+    "Area": 93028,
+    "GDP per Capita": 16476,
+    "Highest Point": 1014
+  },
+  {
+    "name": "Jamaica",
+    "Population (K)": 2948,
+    "Area": 10991,
+    "GDP per Capita": 5582,
+    "Highest Point": 2256
+  },
+  {
+    "name": "Portugal",
+    "Population (K)": 10269,
+    "Area": 92212,
+    "GDP per Capita": 23145,
+    "Highest Point": 2351
+  },
+  {
+    "name": "Fiji",
+    "Population (K)": 890,
+    "Area": 18274,
+    "GDP per Capita": 6220,
+    "Highest Point": 1324
+  },
+  {
+    "name": "Azerbaijan",
+    "Population (K)": 10023,
+    "Area": 86600,
+    "GDP per Capita": 3912,
+    "Highest Point": 4485
   },
   {
     "name": "Zimbabwe",
-    "Population (Thousands)": 16665,
-    "Area (km^2)": 386850,
-    "Median Age (Years)": 18
+    "Population (K)": 14645,
+    "Area": 390757,
+    "GDP per Capita": 1464,
+    "Highest Point": 2592
+  },
+  {
+    "name": "Equatorial Guinea",
+    "Population (K)": 1356,
+    "Area": 28051,
+    "GDP per Capita": 8132,
+    "Highest Point": 3008
+  },
+  {
+    "name": "Iraq",
+    "Population (K)": 39310,
+    "Area": 438317,
+    "GDP per Capita": 5955,
+    "Highest Point": 3611
+  },
+  {
+    "name": "Djibouti",
+    "Population (K)": 974,
+    "Area": 23200,
+    "GDP per Capita": 3409,
+    "Highest Point": 2028
+  },
+  {
+    "name": "Republic of the Congo",
+    "Population (K)": 5381,
+    "Area": 342000,
+    "GDP per Capita": 2011,
+    "Highest Point": 1020
+  },
+  {
+    "name": "Botswana",
+    "Population (K)": 2346,
+    "Area": 581730,
+    "GDP per Capita": 7817,
+    "Highest Point": 1491
+  },
+  {
+    "name": "Guatemala",
+    "Population (K)": 16604,
+    "Area": 108889,
+    "GDP per Capita": 4620,
+    "Highest Point": 4220
+  },
+  {
+    "name": "Slovakia",
+    "Population (K)": 5454,
+    "Area": 49035,
+    "GDP per Capita": 19329,
+    "Highest Point": 2655
+  },
+  {
+    "name": "Costa Rica",
+    "Population (K)": 5048,
+    "Area": 51100,
+    "GDP per Capita": 12238,
+    "Highest Point": 3820
+  },
+  {
+    "name": "Poland",
+    "Population (K)": 37971,
+    "Area": 312685,
+    "GDP per Capita": 15595,
+    "Highest Point": 2499
+  },
+  {
+    "name": "El Salvador",
+    "Population (K)": 6454,
+    "Area": 21041,
+    "GDP per Capita": 4187,
+    "Highest Point": 2730
+  },
+  {
+    "name": "Cambodia",
+    "Population (K)": 16487,
+    "Area": 181035,
+    "GDP per Capita": 1643,
+    "Highest Point": 1810
+  },
+  {
+    "name": "Malaysia",
+    "Population (K)": 32447,
+    "Area": 329847,
+    "GDP per Capita": 11240,
+    "Highest Point": 4095
+  },
+  {
+    "name": "Greece",
+    "Population (K)": 10716,
+    "Area": 131957,
+    "GDP per Capita": 19583,
+    "Highest Point": 2917
+  },
+  {
+    "name": "Gabon",
+    "Population (K)": 2173,
+    "Area": 267667,
+    "GDP per Capita": 7667,
+    "Highest Point": 1070
+  },
+  {
+    "name": "Ivory Coast",
+    "Population (K)": 25717,
+    "Area": 322463,
+    "GDP per Capita": 2286,
+    "Highest Point": 1752
+  },
+  {
+    "name": "Panama",
+    "Population (K)": 4246,
+    "Area": 75420,
+    "GDP per Capita": 15731,
+    "Highest Point": 3475
+  },
+  {
+    "name": "Albania",
+    "Population (K)": 2854,
+    "Area": 28748,
+    "GDP per Capita": 5353,
+    "Highest Point": 2764
+  },
+  {
+    "name": "Dominican Republic",
+    "Population (K)": 10739,
+    "Area": 48670,
+    "GDP per Capita": 8282,
+    "Highest Point": 3098
+  },
+  {
+    "name": "Croatia",
+    "Population (K)": 4068,
+    "Area": 56594,
+    "GDP per Capita": 14853,
+    "Highest Point": 1831
+  },
+  {
+    "name": "Turkmenistan",
+    "Population (K)": 5942,
+    "Area": 488100,
+    "GDP per Capita": 6860,
+    "Highest Point": 3139
+  },
+  {
+    "name": "Nicaragua",
+    "Population (K)": 6546,
+    "Area": 130370,
+    "GDP per Capita": 1913,
+    "Highest Point": 2107
+  },
+  {
+    "name": "Syria",
+    "Population (K)": 17070,
+    "Area": 185180,
+    "GDP per Capita": 2367,
+    "Highest Point": 2814
+  },
+  {
+    "name": "Sri Lanka",
+    "Population (K)": 21803,
+    "Area": 65610,
+    "GDP per Capita": 3853,
+    "Highest Point": 2524
+  },
+  {
+    "name": "Oman",
+    "Population (K)": 5267,
+    "Area": 309500,
+    "GDP per Capita": 14617,
+    "Highest Point": 3009
+  },
+  {
+    "name": "Laos",
+    "Population (K)": 7169,
+    "Area": 236800,
+    "GDP per Capita": 2535,
+    "Highest Point": 2817
+  },
+  {
+    "name": "Honduras",
+    "Population (K)": 9746,
+    "Area": 112090,
+    "GDP per Capita": 2575,
+    "Highest Point": 2870
+  },
+  {
+    "name": "Tunisia",
+    "Population (K)": 11695,
+    "Area": 163610,
+    "GDP per Capita": 3318,
+    "Highest Point": 1544
+  },
+  {
+    "name": "Bulgaria",
+    "Population (K)": 6976,
+    "Area": 110879,
+    "GDP per Capita": 12328,
+    "Highest Point": 2925
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "Population (K)": 3301,
+    "Area": 51197,
+    "GDP per Capita": 6073,
+    "Highest Point": 2386
+  },
+  {
+    "name": "Romania",
+    "Population (K)": 19357,
+    "Area": 238391,
+    "GDP per Capita": 12920,
+    "Highest Point": 2544
+  },
+  {
+    "name": "Jordan",
+    "Population (K)": 10102,
+    "Area": 89342,
+    "GDP per Capita": 4330,
+    "Highest Point": 1854
+  },
+  {
+    "name": "Cuba",
+    "Population (K)": 11333,
+    "Area": 110860,
+    "GDP per Capita": 8825,
+    "Highest Point": 1974
   }
 ]
