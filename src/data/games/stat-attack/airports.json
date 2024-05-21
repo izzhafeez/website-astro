@@ -1,249 +1,51 @@
 [
   {
-    "name": "Pukaki Airport (New Zealand)",
-    "Latitude": -44.24,
-    "Longitude": 170.12,
-    "Altitude (ft)": 1549
+    "name": "Auckland Airport (New Zealand)",
+    "Latitude": -37.01,
+    "Longitude": 174.79,
+    "Altitude (ft)": 23
   },
   {
-    "name": "Marakei Airport (Kiribati)",
-    "Latitude": 2.06,
-    "Longitude": 173.27,
-    "Altitude (ft)": 29
+    "name": "Colorado Springs Airport (United States)",
+    "Latitude": 38.81,
+    "Longitude": -104.7,
+    "Altitude (ft)": 6187
   },
   {
-    "name": "Armidale Airport (Australia)",
-    "Latitude": -30.53,
-    "Longitude": 151.62,
-    "Altitude (ft)": 3556
+    "name": "Gold Coast Airport (Australia)",
+    "Latitude": -28.16,
+    "Longitude": 153.5,
+    "Altitude (ft)": 21
   },
   {
-    "name": "Ayacucho Airport (Peru)",
-    "Latitude": -13.15,
-    "Longitude": -74.2,
-    "Altitude (ft)": 8917
+    "name": "Brisbane Airport (Australia)",
+    "Latitude": -27.38,
+    "Longitude": 153.12,
+    "Altitude (ft)": 13
   },
   {
-    "name": "Mare Airport (New Caledonia)",
-    "Latitude": -21.48,
-    "Longitude": 168.04,
-    "Altitude (ft)": 141
-  },
-  {
-    "name": "Calama El Loa Airport (Chile)",
-    "Latitude": -22.5,
-    "Longitude": -68.9,
-    "Altitude (ft)": 7543
-  },
-  {
-    "name": "Upernavik Airport (Greenland)",
-    "Latitude": 72.79,
-    "Longitude": -56.13,
-    "Altitude (ft)": 414
-  },
-  {
-    "name": "Liepaja Airport (Latvia)",
-    "Latitude": 56.52,
-    "Longitude": 21.1,
-    "Altitude (ft)": 16
-  },
-  {
-    "name": "Tongoa Airport (Vanuatu)",
-    "Latitude": -16.89,
-    "Longitude": 168.55,
-    "Altitude (ft)": 443
-  },
-  {
-    "name": "Ely Airport (United States)",
-    "Latitude": 39.3,
-    "Longitude": -114.84,
-    "Altitude (ft)": 6259
-  },
-  {
-    "name": "Gillam Airport (Canada)",
-    "Latitude": 56.36,
-    "Longitude": -94.71,
-    "Altitude (ft)": 5000
-  },
-  {
-    "name": "Hoarafushi Airport (Maldives)",
-    "Latitude": 6.98,
-    "Longitude": 72.9,
-    "Altitude (ft)": 7
-  },
-  {
-    "name": "Malargue Airport (Argentina)",
-    "Latitude": -35.49,
-    "Longitude": -69.57,
-    "Altitude (ft)": 4683
-  },
-  {
-    "name": "Troll Airfield (Antarctica)",
-    "Latitude": -71.96,
-    "Longitude": 2.47,
-    "Altitude (ft)": 4042
-  },
-  {
-    "name": "Blonduos Airport (Iceland)",
-    "Latitude": 65.64,
-    "Longitude": -20.29,
-    "Altitude (ft)": 131
-  },
-  {
-    "name": "Hoskins (Papua New Guinea)",
-    "Latitude": -5.46,
-    "Longitude": 150.4,
-    "Altitude (ft)": 66
-  },
-  {
-    "name": "Matei Taveuni Airport (Fiji)",
-    "Latitude": -16.69,
-    "Longitude": -179.88,
-    "Altitude (ft)": 2986
-  },
-  {
-    "name": "Qamdo Bamda Airport (China)",
-    "Latitude": 30.55,
-    "Longitude": 97.11,
-    "Altitude (ft)": 14219
-  },
-  {
-    "name": "Tarija Airport (Bolivia)",
-    "Latitude": -21.56,
-    "Longitude": -64.7,
-    "Altitude (ft)": 6084
-  },
-  {
-    "name": "Simikot Airport (Nepal)",
-    "Latitude": 29.97,
-    "Longitude": 81.82,
-    "Altitude (ft)": 9246
-  },
-  {
-    "name": "Enontekio Airport (Finland)",
-    "Latitude": 68.36,
-    "Longitude": 23.42,
-    "Altitude (ft)": 1005
-  },
-  {
-    "name": "New Bight Airport (Bahamas)",
-    "Latitude": 24.32,
-    "Longitude": -75.45,
-    "Altitude (ft)": 14
-  },
-  {
-    "name": "Vagar Airport (Faroe Islands)",
-    "Latitude": 62.06,
-    "Longitude": -7.28,
-    "Altitude (ft)": 280
-  },
-  {
-    "name": "Eua Kaufana Airport (Tonga)",
-    "Latitude": -21.38,
-    "Longitude": -174.96,
-    "Altitude (ft)": 325
-  },
-  {
-    "name": "Koggala Airport (Sri Lanka)",
-    "Latitude": 5.99,
-    "Longitude": 80.32,
-    "Altitude (ft)": 16
-  },
-  {
-    "name": "Wamena Airport (Indonesia)",
-    "Latitude": -4.1,
-    "Longitude": 138.95,
-    "Altitude (ft)": 5431
-  },
-  {
-    "name": "Goba Robe Airport (Ethiopia)",
-    "Latitude": 7.12,
-    "Longitude": 40.05,
-    "Altitude (ft)": 8034
-  },
-  {
-    "name": "Kiruna Airport (Sweden)",
-    "Latitude": 67.82,
-    "Longitude": 20.34,
-    "Altitude (ft)": 1508
-  },
-  {
-    "name": "Gibraltar Airport (Gibraltar)",
-    "Latitude": 36.15,
-    "Longitude": -5.35,
-    "Altitude (ft)": 15
-  },
-  {
-    "name": "Sishen Airport (South Africa)",
-    "Latitude": -27.65,
-    "Longitude": 23.0,
-    "Altitude (ft)": 3848
-  },
-  {
-    "name": "Tartu Airport (Estonia)",
-    "Latitude": 58.31,
-    "Longitude": 26.69,
-    "Altitude (ft)": 219
-  },
-  {
-    "name": "Tolanaro Airport (Madagascar)",
-    "Latitude": -25.04,
-    "Longitude": 46.96,
-    "Altitude (ft)": 29
-  },
-  {
-    "name": "Colima Airport (Mexico)",
-    "Latitude": 19.28,
-    "Longitude": -103.58,
-    "Altitude (ft)": 2467
-  },
-  {
-    "name": "\u00d6lgii Airport (Mongolia)",
-    "Latitude": 48.99,
-    "Longitude": 89.92,
-    "Altitude (ft)": 7874
-  },
-  {
-    "name": "Tivat Airport (Montenegro)",
-    "Latitude": 42.4,
-    "Longitude": 18.72,
+    "name": "Adelaide Airport (Australia)",
+    "Latitude": -34.95,
+    "Longitude": 138.53,
     "Altitude (ft)": 20
   },
   {
-    "name": "Fagernes Airport (Norway)",
-    "Latitude": 61.02,
-    "Longitude": 9.29,
-    "Altitude (ft)": 2697
+    "name": "Copenhagen Airport (Denmark)",
+    "Latitude": 55.62,
+    "Longitude": 12.65,
+    "Altitude (ft)": 17
   },
   {
-    "name": "Ann Airport (Myanmar (Burma))",
-    "Latitude": 19.77,
-    "Longitude": 94.03,
-    "Altitude (ft)": 43
+    "name": "Sendai Airport (Japan)",
+    "Latitude": 38.14,
+    "Longitude": 140.92,
+    "Altitude (ft)": 15
   },
   {
-    "name": "Pitalito Airport (Colombia)",
-    "Latitude": 1.86,
-    "Longitude": -76.09,
-    "Altitude (ft)": 4212
-  },
-  {
-    "name": "Paro Airport (Bhutan)",
-    "Latitude": 27.4,
-    "Longitude": 89.42,
-    "Altitude (ft)": 7332
-  },
-  {
-    "name": "Utila Airport (Honduras)",
-    "Latitude": 16.11,
-    "Longitude": -86.88,
-    "Altitude (ft)": 30
-  },
-  {
-    "name": "Chulman Airport (Russia)",
-    "Latitude": 56.91,
-    "Longitude": 124.91,
-    "Altitude (ft)": 2812
+    "name": "Bremen Airport (Germany)",
+    "Latitude": 53.05,
+    "Longitude": 8.79,
+    "Altitude (ft)": 14
   },
   {
     "name": "Lubango Airport (Angola)",
@@ -252,202 +54,124 @@
     "Altitude (ft)": 5778
   },
   {
-    "name": "Dangriga Airport (Belize)",
-    "Latitude": 16.98,
-    "Longitude": -88.23,
-    "Altitude (ft)": 155
+    "name": "Pietermaritzburg Airport (South Africa)",
+    "Latitude": -29.65,
+    "Longitude": 30.4,
+    "Altitude (ft)": 2423
   },
   {
-    "name": "Kericho Airport (Kenya)",
-    "Latitude": -0.42,
-    "Longitude": 35.25,
-    "Altitude (ft)": 6562
+    "name": "Kimberley Airport (South Africa)",
+    "Latitude": -28.8,
+    "Longitude": 24.77,
+    "Altitude (ft)": 3950
   },
   {
-    "name": "Wonju Airport (South Korea)",
-    "Latitude": 37.43,
-    "Longitude": 127.96,
-    "Altitude (ft)": 329
+    "name": "Wuhai Airport (China)",
+    "Latitude": 39.79,
+    "Longitude": 106.8,
+    "Altitude (ft)": -1
   },
   {
-    "name": "Billund Airport (Denmark)",
-    "Latitude": 55.74,
-    "Longitude": 9.15,
-    "Altitude (ft)": 247
+    "name": "Zhaotong Airport (China)",
+    "Latitude": 27.33,
+    "Longitude": 103.76,
+    "Altitude (ft)": 6332
   },
   {
-    "name": "Skardu Airport (Pakistan)",
-    "Latitude": 35.34,
-    "Longitude": 75.54,
-    "Altitude (ft)": 7316
+    "name": "Izhevsk Airport (Russia)",
+    "Latitude": 56.83,
+    "Longitude": 53.46,
+    "Altitude (ft)": 531
   },
   {
-    "name": "Matsumoto Airport (Japan)",
-    "Latitude": 36.17,
-    "Longitude": 137.92,
-    "Altitude (ft)": 2182
+    "name": "Niigata Airport (Japan)",
+    "Latitude": 37.96,
+    "Longitude": 139.12,
+    "Altitude (ft)": 29
   },
   {
-    "name": "Tambor Airport (Costa Rica)",
-    "Latitude": 9.74,
-    "Longitude": -85.02,
-    "Altitude (ft)": 66
+    "name": "Lincang Airport (China)",
+    "Latitude": 23.74,
+    "Longitude": 100.03,
+    "Altitude (ft)": 6213
   },
   {
-    "name": "Courchevel Altiport (France)",
-    "Latitude": 45.4,
-    "Longitude": 6.63,
-    "Altitude (ft)": 6580
+    "name": "Londrina Airport (Brazil)",
+    "Latitude": -23.33,
+    "Longitude": -51.13,
+    "Altitude (ft)": 1867
   },
   {
-    "name": "Basco Airport (Philippines)",
-    "Latitude": 20.45,
-    "Longitude": 121.98,
-    "Altitude (ft)": 291
+    "name": "Handan Airport (China)",
+    "Latitude": 36.52,
+    "Longitude": 114.43,
+    "Altitude (ft)": -1
   },
   {
-    "name": "Kaunas Airport (Lithuania)",
-    "Latitude": 54.96,
-    "Longitude": 24.08,
-    "Altitude (ft)": 256
+    "name": "Sorocaba Airport (Brazil)",
+    "Latitude": -23.48,
+    "Longitude": -47.49,
+    "Altitude (ft)": 2077
   },
   {
-    "name": "Shahrekord Airport (Iran)",
-    "Latitude": 32.3,
-    "Longitude": 50.84,
-    "Altitude (ft)": 6723
+    "name": "Kolwezi Airport (Democratic Republic Of The Congo)",
+    "Latitude": -10.77,
+    "Longitude": 25.51,
+    "Altitude (ft)": 4981
   },
   {
-    "name": "Ondangwa Airport (Namibia)",
-    "Latitude": -17.88,
-    "Longitude": 15.95,
-    "Altitude (ft)": 3599
+    "name": "Nottingham Airport (United Kingdom)",
+    "Latitude": 52.92,
+    "Longitude": -1.08,
+    "Altitude (ft)": 138
   },
   {
-    "name": "Cork Airport (Ireland)",
-    "Latitude": 51.84,
-    "Longitude": -8.49,
-    "Altitude (ft)": 502
+    "name": "Santiago del Estero Airport (Argentina)",
+    "Latitude": -27.77,
+    "Longitude": -64.31,
+    "Altitude (ft)": 656
   },
   {
-    "name": "Bario Airport (Malaysia)",
-    "Latitude": 3.74,
-    "Longitude": 115.47,
-    "Altitude (ft)": 3450
+    "name": "Barinas Airport (Venezuela)",
+    "Latitude": 8.62,
+    "Longitude": -70.22,
+    "Altitude (ft)": 666
   },
   {
-    "name": "Songwe Airport (Tanzania)",
-    "Latitude": -8.92,
-    "Longitude": 33.27,
-    "Altitude (ft)": 5623
+    "name": "Penza Airport (Russia)",
+    "Latitude": 53.11,
+    "Longitude": 45.02,
+    "Altitude (ft)": 115
   },
   {
-    "name": "RAF Benson (United Kingdom)",
-    "Latitude": 51.62,
-    "Longitude": -1.1,
-    "Altitude (ft)": 226
+    "name": "Chelyabinsk Airport (Russia)",
+    "Latitude": 55.31,
+    "Longitude": 61.5,
+    "Altitude (ft)": 769
   },
   {
-    "name": "Maio Airport (Cape Verde)",
-    "Latitude": 15.16,
-    "Longitude": -23.21,
-    "Altitude (ft)": 36
+    "name": "Port Said Airport (Egypt)",
+    "Latitude": 31.28,
+    "Longitude": 32.24,
+    "Altitude (ft)": 8
   },
   {
-    "name": "Taichung Airport (Taiwan)",
-    "Latitude": 24.26,
-    "Longitude": 120.62,
-    "Altitude (ft)": 663
+    "name": "Kigali Airport (Rwanda)",
+    "Latitude": -1.97,
+    "Longitude": 30.14,
+    "Altitude (ft)": 4859
   },
   {
-    "name": "Kasane Airport (Botswana)",
-    "Latitude": -17.83,
-    "Longitude": 25.16,
-    "Altitude (ft)": 3289
+    "name": "Barnaul Airport (Russia)",
+    "Latitude": 53.36,
+    "Longitude": 83.54,
+    "Altitude (ft)": 838
   },
   {
-    "name": "Mogilev Airport (Belarus)",
-    "Latitude": 53.95,
-    "Longitude": 30.1,
-    "Altitude (ft)": 637
-  },
-  {
-    "name": "Anapolis Airport (Brazil)",
-    "Latitude": -16.23,
-    "Longitude": -48.96,
-    "Altitude (ft)": 3712
-  },
-  {
-    "name": "Saidpur Airport (Bangladesh)",
-    "Latitude": 25.76,
-    "Longitude": 88.91,
-    "Altitude (ft)": 125
-  },
-  {
-    "name": "Lichinga Airport (Mozambique)",
-    "Latitude": -13.27,
-    "Longitude": 35.27,
-    "Altitude (ft)": 4505
-  },
-  {
-    "name": "Les Cayes Airport (Haiti)",
-    "Latitude": 18.27,
-    "Longitude": -73.79,
-    "Altitude (ft)": 203
-  },
-  {
-    "name": "Pointe Noire Airport (Congo)",
-    "Latitude": -4.82,
-    "Longitude": 11.89,
-    "Altitude (ft)": 55
-  },
-  {
-    "name": "Pleiku Airport (Vietnam)",
-    "Latitude": 14.01,
-    "Longitude": 108.01,
-    "Altitude (ft)": 2434
-  },
-  {
-    "name": "RAF Akrotiri (Cyprus)",
-    "Latitude": 34.59,
-    "Longitude": 32.99,
-    "Altitude (ft)": 60
-  },
-  {
-    "name": "Kamembe Airport (Rwanda)",
-    "Latitude": -2.46,
-    "Longitude": 28.91,
-    "Altitude (ft)": 5192
-  },
-  {
-    "name": "Kasama Airport (Zambia)",
-    "Latitude": -10.22,
-    "Longitude": 31.13,
-    "Altitude (ft)": 4542
-  },
-  {
-    "name": "Xieng Khouang Airport (Laos)",
-    "Latitude": 19.45,
-    "Longitude": 103.16,
-    "Altitude (ft)": 3445
-  },
-  {
-    "name": "Liege Airport (Belgium)",
-    "Latitude": 50.64,
-    "Longitude": 5.44,
-    "Altitude (ft)": 659
-  },
-  {
-    "name": "Loei Airport (Thailand)",
-    "Latitude": 17.44,
-    "Longitude": 101.72,
-    "Altitude (ft)": 860
-  },
-  {
-    "name": "Kielce Airport (Poland)",
-    "Latitude": 50.9,
-    "Longitude": 20.73,
-    "Altitude (ft)": 971
+    "name": "Juiz de Fora Airport (Brazil)",
+    "Latitude": -21.51,
+    "Longitude": -43.17,
+    "Altitude (ft)": 1348
   },
   {
     "name": "Erzurum Airport (Turkey)",
@@ -456,64 +180,22 @@
     "Altitude (ft)": 5763
   },
   {
-    "name": "Guernsey Airport (Guernsey)",
-    "Latitude": 49.43,
-    "Longitude": -2.6,
-    "Altitude (ft)": 336
+    "name": "Matsuyama Airport (Japan)",
+    "Latitude": 33.83,
+    "Longitude": 132.7,
+    "Altitude (ft)": 25
   },
   {
-    "name": "Jersey Airport (Jersey)",
-    "Latitude": 49.21,
-    "Longitude": -2.2,
-    "Altitude (ft)": 277
+    "name": "Kochi Airport (Japan)",
+    "Latitude": 33.55,
+    "Longitude": 133.67,
+    "Altitude (ft)": 42
   },
   {
-    "name": "Al Udeid Air Base (Qatar)",
-    "Latitude": 25.11,
-    "Longitude": 51.32,
-    "Altitude (ft)": 130
-  },
-  {
-    "name": "Zhytomyr Airport (Ukraine)",
-    "Latitude": 50.27,
-    "Longitude": 28.74,
-    "Altitude (ft)": 720
-  },
-  {
-    "name": "Canaima Airport (Venezuela)",
-    "Latitude": 6.23,
-    "Longitude": -62.85,
-    "Altitude (ft)": 1317
-  },
-  {
-    "name": "Lome Tokoin Airport (Togo)",
-    "Latitude": 6.17,
-    "Longitude": 1.25,
-    "Altitude (ft)": 72
-  },
-  {
-    "name": "Ziguinchor Airport (Senegal)",
-    "Latitude": 12.56,
-    "Longitude": -16.28,
-    "Altitude (ft)": 75
-  },
-  {
-    "name": "Srinagar Airport (India)",
-    "Latitude": 33.99,
-    "Longitude": 74.77,
-    "Altitude (ft)": 5429
-  },
-  {
-    "name": "Lethem Airport (Guyana)",
-    "Latitude": 3.37,
-    "Longitude": -59.79,
-    "Altitude (ft)": 289
-  },
-  {
-    "name": "Pribram Airport (Czechia)",
-    "Latitude": 49.72,
-    "Longitude": 14.09,
-    "Altitude (ft)": 1529
+    "name": "Dortmund Airport (Germany)",
+    "Latitude": 51.52,
+    "Longitude": 7.61,
+    "Altitude (ft)": 425
   },
   {
     "name": "Bafoussam Airport (Cameroon)",
@@ -522,136 +204,100 @@
     "Altitude (ft)": 4347
   },
   {
-    "name": "Taif Airport (Saudi Arabia)",
-    "Latitude": 21.48,
-    "Longitude": 40.54,
-    "Altitude (ft)": 4848
+    "name": "Brussels Airport (Belgium)",
+    "Latitude": 50.9,
+    "Longitude": 4.48,
+    "Altitude (ft)": 184
   },
   {
-    "name": "Ouarzazate Airport (Morocco)",
-    "Latitude": 30.94,
-    "Longitude": -6.91,
-    "Altitude (ft)": 3782
+    "name": "Shizuoka Airport (Japan)",
+    "Latitude": 34.8,
+    "Longitude": 138.19,
+    "Altitude (ft)": 433
   },
   {
-    "name": "Hargeisa Airport (Somalia)",
-    "Latitude": 9.52,
-    "Longitude": 44.09,
-    "Altitude (ft)": 4423
+    "name": "Bilbao Airport (Spain)",
+    "Latitude": 43.3,
+    "Longitude": -2.91,
+    "Altitude (ft)": 138
   },
   {
-    "name": "Altenstadt Air Base (Germany)",
-    "Latitude": 47.84,
-    "Longitude": 10.87,
-    "Altitude (ft)": 2423
+    "name": "Bamenda Airport (Cameroon)",
+    "Latitude": 6.04,
+    "Longitude": 10.12,
+    "Altitude (ft)": 4065
   },
   {
-    "name": "Sliac Airport (Slovakia)",
-    "Latitude": 48.64,
-    "Longitude": 19.13,
-    "Altitude (ft)": 1043
+    "name": "Lipetsk Airport (Russia)",
+    "Latitude": 52.7,
+    "Longitude": 39.54,
+    "Altitude (ft)": 584
   },
   {
-    "name": "Bern Airport (Switzerland)",
-    "Latitude": 46.91,
-    "Longitude": 7.5,
-    "Altitude (ft)": 1674
+    "name": "Feira de Santana Airport (Brazil)",
+    "Latitude": -12.2,
+    "Longitude": -38.91,
+    "Altitude (ft)": 768
   },
   {
-    "name": "Zell am See Airport (Austria)",
-    "Latitude": 47.29,
-    "Longitude": 12.79,
-    "Altitude (ft)": 2477
+    "name": "Teresina Airport (Brazil)",
+    "Latitude": -5.06,
+    "Longitude": -42.82,
+    "Altitude (ft)": 219
   },
   {
-    "name": "Braganca Airport (Portugal)",
-    "Latitude": 41.86,
-    "Longitude": -6.71,
-    "Altitude (ft)": 2241
+    "name": "Kashgar Airport (China)",
+    "Latitude": 39.54,
+    "Longitude": 76.02,
+    "Altitude (ft)": 4529
   },
   {
-    "name": "Bo Airport (Sierra Leone)",
-    "Latitude": 7.95,
-    "Longitude": -11.77,
-    "Altitude (ft)": 328
+    "name": "Okayama Airport (Japan)",
+    "Latitude": 34.76,
+    "Longitude": 133.86,
+    "Altitude (ft)": 806
   },
   {
-    "name": "Maribor Airport (Slovenia)",
-    "Latitude": 46.48,
-    "Longitude": 15.69,
-    "Altitude (ft)": 876
+    "name": "Dresden Airport (Germany)",
+    "Latitude": 51.13,
+    "Longitude": 13.77,
+    "Altitude (ft)": 755
   },
   {
-    "name": "Eilat Ramon Airport (Israel)",
-    "Latitude": 29.72,
-    "Longitude": 35.01,
-    "Altitude (ft)": 252
+    "name": "Bunia Airport (Democratic Republic Of The Congo)",
+    "Latitude": 1.57,
+    "Longitude": 30.22,
+    "Altitude (ft)": 4045
   },
   {
-    "name": "Pecs Pogany Airport (Hungary)",
-    "Latitude": 45.99,
-    "Longitude": 18.24,
-    "Altitude (ft)": 1000
+    "name": "Fukuoka Airport (Japan)",
+    "Latitude": 33.59,
+    "Longitude": 130.45,
+    "Altitude (ft)": 32
   },
   {
-    "name": "Teruel Airport (Spain)",
-    "Latitude": 40.41,
-    "Longitude": -1.22,
-    "Altitude (ft)": 3367
+    "name": "Frankfurt Airport (Germany)",
+    "Latitude": 50.04,
+    "Longitude": 8.56,
+    "Altitude (ft)": 364
   },
   {
-    "name": "Osh Airport (Kyrgyzstan)",
-    "Latitude": 40.61,
-    "Longitude": 72.79,
-    "Altitude (ft)": 2927
+    "name": "Recife Airport (Brazil)",
+    "Latitude": -8.13,
+    "Longitude": -34.92,
+    "Altitude (ft)": 33
   },
   {
-    "name": "Namangan Airport (Uzbekistan)",
-    "Latitude": 40.98,
-    "Longitude": 71.56,
-    "Altitude (ft)": 1555
+    "name": "Nampula Airport (Mozambique)",
+    "Latitude": -15.11,
+    "Longitude": 39.28,
+    "Altitude (ft)": 1444
   },
   {
-    "name": "Taraz Airport (Kazakhstan)",
-    "Latitude": 42.85,
-    "Longitude": 71.3,
-    "Altitude (ft)": 2184
-  },
-  {
-    "name": "Brasov Airport (Romania)",
-    "Latitude": 45.71,
-    "Longitude": 25.52,
-    "Altitude (ft)": 1738
-  },
-  {
-    "name": "Bol Brac Airport (Croatia)",
-    "Latitude": 43.29,
-    "Longitude": 16.68,
-    "Altitude (ft)": 1776
-  },
-  {
-    "name": "Marmul Airport (Oman)",
-    "Latitude": 18.14,
-    "Longitude": 55.18,
-    "Altitude (ft)": 902
-  },
-  {
-    "name": "Kulob Airport (Tajikistan)",
-    "Latitude": 37.99,
-    "Longitude": 69.81,
-    "Altitude (ft)": 2293
-  },
-  {
-    "name": "Bost Airport (Afghanistan)",
-    "Latitude": 31.56,
-    "Longitude": 64.36,
-    "Altitude (ft)": 2464
-  },
-  {
-    "name": "Seiyun Airport (Yemen)",
-    "Latitude": 15.96,
-    "Longitude": 48.79,
-    "Altitude (ft)": 2097
+    "name": "Hiroshima Airport (Japan)",
+    "Latitude": 34.44,
+    "Longitude": 132.92,
+    "Altitude (ft)": 1088
   },
   {
     "name": "Kumasi Airport (Ghana)",
@@ -660,46 +306,112 @@
     "Altitude (ft)": 942
   },
   {
-    "name": "L'Aquila Airport (Italy)",
-    "Latitude": 42.38,
-    "Longitude": 13.31,
-    "Altitude (ft)": 2196
-  },
-  {
-    "name": "Sofia Airport (Bulgaria)",
-    "Latitude": 42.7,
-    "Longitude": 23.41,
-    "Altitude (ft)": 1742
-  },
-  {
-    "name": "Laghouat Airport (Algeria)",
-    "Latitude": 33.76,
-    "Longitude": 2.93,
-    "Altitude (ft)": 2510
-  },
-  {
-    "name": "Kastellorizo Airport (Greece)",
-    "Latitude": 36.14,
-    "Longitude": 29.58,
-    "Altitude (ft)": 474
-  },
-  {
-    "name": "Al-Qamishli Airport (Syria)",
-    "Latitude": 37.03,
-    "Longitude": 41.21,
-    "Altitude (ft)": 1480
-  },
-  {
-    "name": "Geneina Airport (Sudan)",
-    "Latitude": 13.48,
+    "name": "Kananga Airport (Democratic Republic Of The Congo)",
+    "Latitude": -5.9,
     "Longitude": 22.47,
-    "Altitude (ft)": 2650
+    "Altitude (ft)": 2139
   },
   {
-    "name": "Wau Airport (South Sudan)",
-    "Latitude": 7.73,
-    "Longitude": 27.97,
-    "Altitude (ft)": 1534
+    "name": "Nuremberg Airport (Germany)",
+    "Latitude": 49.5,
+    "Longitude": 11.07,
+    "Altitude (ft)": 1046
+  },
+  {
+    "name": "Stuttgart Airport (Germany)",
+    "Latitude": 48.69,
+    "Longitude": 9.22,
+    "Altitude (ft)": 1276
+  },
+  {
+    "name": "Zhongwei Airport (China)",
+    "Latitude": 37.57,
+    "Longitude": 105.15,
+    "Altitude (ft)": 4050
+  },
+  {
+    "name": "Ulsan Airport (South Korea)",
+    "Latitude": 35.59,
+    "Longitude": 129.35,
+    "Altitude (ft)": 45
+  },
+  {
+    "name": "Ouagadougou Airport (Burkina Faso)",
+    "Latitude": 12.35,
+    "Longitude": -1.51,
+    "Altitude (ft)": 1037
+  },
+  {
+    "name": "Jixi Airport (China)",
+    "Latitude": 45.29,
+    "Longitude": 131.19,
+    "Altitude (ft)": 739
+  },
+  {
+    "name": "Heihe Airport (China)",
+    "Latitude": 50.17,
+    "Longitude": 127.31,
+    "Altitude (ft)": 1023
+  },
+  {
+    "name": "Pohang Airport (South Korea)",
+    "Latitude": 35.99,
+    "Longitude": 129.42,
+    "Altitude (ft)": 70
+  },
+  {
+    "name": "Haifa Airport (Israel)",
+    "Latitude": 32.81,
+    "Longitude": 35.04,
+    "Altitude (ft)": 28
+  },
+  {
+    "name": "Kumamoto Airport (Japan)",
+    "Latitude": 32.84,
+    "Longitude": 130.85,
+    "Altitude (ft)": 642
+  },
+  {
+    "name": "Munich Airport (Germany)",
+    "Latitude": 48.35,
+    "Longitude": 11.79,
+    "Altitude (ft)": 1487
+  },
+  {
+    "name": "Kagoshima Airport (Japan)",
+    "Latitude": 31.8,
+    "Longitude": 130.72,
+    "Altitude (ft)": 906
+  },
+  {
+    "name": "Aksu Airport (China)",
+    "Latitude": 41.26,
+    "Longitude": 80.29,
+    "Altitude (ft)": 3816
+  },
+  {
+    "name": "Konya Airport (Turkey)",
+    "Latitude": 37.98,
+    "Longitude": 32.56,
+    "Altitude (ft)": 3381
+  },
+  {
+    "name": "Tongliao Airport (China)",
+    "Latitude": 43.56,
+    "Longitude": 122.2,
+    "Altitude (ft)": 144
+  },
+  {
+    "name": "Tamale Airport (Ghana)",
+    "Latitude": 9.56,
+    "Longitude": -0.86,
+    "Altitude (ft)": 553
+  },
+  {
+    "name": "Tainan Airport (Taiwan)",
+    "Latitude": 22.95,
+    "Longitude": 120.21,
+    "Altitude (ft)": 63
   },
   {
     "name": "Akure Airport (Nigeria)",
@@ -708,21 +420,147 @@
     "Altitude (ft)": 1100
   },
   {
-    "name": "Ghat Airport (Libya)",
-    "Latitude": 25.15,
-    "Longitude": 10.14,
-    "Altitude (ft)": 2296
+    "name": "Ibadan Airport (Nigeria)",
+    "Latitude": 7.36,
+    "Longitude": 3.98,
+    "Altitude (ft)": 725
   },
   {
-    "name": "Assiut Airport (Egypt)",
-    "Latitude": 27.05,
-    "Longitude": 31.01,
-    "Altitude (ft)": 772
+    "name": "Agartala Airport (India)",
+    "Latitude": 23.89,
+    "Longitude": 91.24,
+    "Altitude (ft)": 46
   },
   {
-    "name": "Amman Civil Airport (Jordan)",
-    "Latitude": 31.97,
-    "Longitude": 35.99,
-    "Altitude (ft)": 2555
+    "name": "Pune Airport (India)",
+    "Latitude": 18.58,
+    "Longitude": 73.92,
+    "Altitude (ft)": 1942
+  },
+  {
+    "name": "Sofia Airport (Bulgaria)",
+    "Latitude": 42.7,
+    "Longitude": 23.41,
+    "Altitude (ft)": 1742
+  },
+  {
+    "name": "Korla Airport (China)",
+    "Latitude": 41.69,
+    "Longitude": 86.12,
+    "Altitude (ft)": 148
+  },
+  {
+    "name": "Cabinda Airport (Angola)",
+    "Latitude": -5.6,
+    "Longitude": 12.19,
+    "Altitude (ft)": 66
+  },
+  {
+    "name": "Taichung Airport (Taiwan)",
+    "Latitude": 24.26,
+    "Longitude": 120.62,
+    "Altitude (ft)": 663
+  },
+  {
+    "name": "Kassala Airport (Sudan)",
+    "Latitude": 15.39,
+    "Longitude": 36.33,
+    "Altitude (ft)": 1671
+  },
+  {
+    "name": "Chaoyang Airport (China)",
+    "Latitude": 41.54,
+    "Longitude": 120.43,
+    "Altitude (ft)": 568
+  },
+  {
+    "name": "Weifang Airport (China)",
+    "Latitude": 36.65,
+    "Longitude": 119.12,
+    "Altitude (ft)": 156
+  },
+  {
+    "name": "Yiwu Airport (China)",
+    "Latitude": 29.34,
+    "Longitude": 120.03,
+    "Altitude (ft)": 248
+  },
+  {
+    "name": "Istanbul Airport (Turkey)",
+    "Latitude": 41.27,
+    "Longitude": 28.73,
+    "Altitude (ft)": 325
+  },
+  {
+    "name": "Jabalpur Airport (India)",
+    "Latitude": 23.18,
+    "Longitude": 80.05,
+    "Altitude (ft)": 1624
+  },
+  {
+    "name": "Quzhou Airport (China)",
+    "Latitude": 28.97,
+    "Longitude": 118.9,
+    "Altitude (ft)": 230
+  },
+  {
+    "name": "Vadodara Airport (India)",
+    "Latitude": 22.34,
+    "Longitude": 73.23,
+    "Altitude (ft)": 129
+  },
+  {
+    "name": "Namangan Airport (Uzbekistan)",
+    "Latitude": 40.98,
+    "Longitude": 71.56,
+    "Altitude (ft)": 1555
+  },
+  {
+    "name": "Antalya Airport (Turkey)",
+    "Latitude": 36.9,
+    "Longitude": 30.8,
+    "Altitude (ft)": 177
+  },
+  {
+    "name": "Madurai Airport (India)",
+    "Latitude": 9.83,
+    "Longitude": 78.09,
+    "Altitude (ft)": 459
+  },
+  {
+    "name": "Gorakhpur Airport (India)",
+    "Latitude": 26.74,
+    "Longitude": 83.45,
+    "Altitude (ft)": 259
+  },
+  {
+    "name": "Jammu Airport (India)",
+    "Latitude": 32.69,
+    "Longitude": 74.84,
+    "Altitude (ft)": 1029
+  },
+  {
+    "name": "Gwalior Airport (India)",
+    "Latitude": 26.29,
+    "Longitude": 78.23,
+    "Altitude (ft)": 617
+  },
+  {
+    "name": "Bareilly Airport (India)",
+    "Latitude": 28.42,
+    "Longitude": 79.45,
+    "Altitude (ft)": 574
+  },
+  {
+    "name": "Bahawalpur Airport (Pakistan)",
+    "Latitude": 29.35,
+    "Longitude": 71.72,
+    "Altitude (ft)": 392
+  },
+  {
+    "name": "Jodhpur Airport (India)",
+    "Latitude": 26.25,
+    "Longitude": 73.05,
+    "Altitude (ft)": 717
   }
 ]
