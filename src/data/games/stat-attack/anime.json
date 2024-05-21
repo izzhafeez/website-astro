@@ -14,13 +14,6 @@
     "Completion Rate": 5.5
   },
   {
-    "name": "Ishuzoku Reviewers",
-    "Rating": 7.58,
-    "Episodes": 12,
-    "Year": 2020,
-    "Completion Rate": 89.4
-  },
-  {
     "name": "Black Clover",
     "Rating": 7.38,
     "Episodes": 170,
@@ -35,18 +28,18 @@
     "Completion Rate": 78.5
   },
   {
-    "name": "Fate/Zero 2nd Season",
-    "Rating": 8.59,
-    "Episodes": 12,
-    "Year": 2012,
-    "Completion Rate": 99.3
-  },
-  {
     "name": "Dragon Ball Z",
     "Rating": 8.16,
     "Episodes": 291,
     "Year": 1989,
     "Completion Rate": 97.0
+  },
+  {
+    "name": "Given",
+    "Rating": 8.32,
+    "Episodes": 11,
+    "Year": 2019,
+    "Completion Rate": 96.5
   },
   {
     "name": "Gintama",
@@ -63,20 +56,6 @@
     "Completion Rate": 87.4
   },
   {
-    "name": "Given",
-    "Rating": 8.32,
-    "Episodes": 11,
-    "Year": 2019,
-    "Completion Rate": 96.5
-  },
-  {
-    "name": "One Punch Man",
-    "Rating": 8.57,
-    "Episodes": 12,
-    "Year": 2015,
-    "Completion Rate": 98.6
-  },
-  {
     "name": "Dragon Ball",
     "Rating": 8.0,
     "Episodes": 153,
@@ -84,11 +63,18 @@
     "Completion Rate": 96.2
   },
   {
-    "name": "Mob Psycho 100 II",
-    "Rating": 8.84,
-    "Episodes": 13,
-    "Year": 2019,
-    "Completion Rate": 99.4
+    "name": "Fate/Zero 2nd Season",
+    "Rating": 8.59,
+    "Episodes": 12,
+    "Year": 2012,
+    "Completion Rate": 99.3
+  },
+  {
+    "name": "Ishuzoku Reviewers",
+    "Rating": 7.58,
+    "Episodes": 12,
+    "Year": 2020,
+    "Completion Rate": 89.4
   },
   {
     "name": "Fairy Tail",
@@ -96,6 +82,13 @@
     "Episodes": 175,
     "Year": 2009,
     "Completion Rate": 83.2
+  },
+  {
+    "name": "Mob Psycho 100 II",
+    "Rating": 8.84,
+    "Episodes": 13,
+    "Year": 2019,
+    "Completion Rate": 99.4
   },
   {
     "name": "Cowboy Bebop",
@@ -119,13 +112,6 @@
     "Completion Rate": 93.6
   },
   {
-    "name": "Tokyo Ghoul \u221aA",
-    "Rating": 7.07,
-    "Episodes": 12,
-    "Year": 2015,
-    "Completion Rate": 97.3
-  },
-  {
     "name": "InuYasha",
     "Rating": 7.85,
     "Episodes": 167,
@@ -133,11 +119,25 @@
     "Completion Rate": 87.1
   },
   {
-    "name": "Mob Psycho 100",
-    "Rating": 8.49,
+    "name": "Tokyo Ghoul \u221aA",
+    "Rating": 7.07,
     "Episodes": 12,
-    "Year": 2016,
-    "Completion Rate": 98.0
+    "Year": 2015,
+    "Completion Rate": 97.3
+  },
+  {
+    "name": "Zankyou no Terror",
+    "Rating": 8.12,
+    "Episodes": 11,
+    "Year": 2014,
+    "Completion Rate": 97.0
+  },
+  {
+    "name": "One Punch Man",
+    "Rating": 8.57,
+    "Episodes": 12,
+    "Year": 2015,
+    "Completion Rate": 98.6
   },
   {
     "name": "Hajime no Ippo",
@@ -154,13 +154,6 @@
     "Completion Rate": 90.3
   },
   {
-    "name": "Zankyou no Terror",
-    "Rating": 8.12,
-    "Episodes": 11,
-    "Year": 2014,
-    "Completion Rate": 97.0
-  },
-  {
     "name": "Gintama\u00b0",
     "Rating": 9.1,
     "Episodes": 51,
@@ -168,17 +161,24 @@
     "Completion Rate": 93.6
   },
   {
+    "name": "Tokyo Ghoul",
+    "Rating": 7.81,
+    "Episodes": 12,
+    "Year": 2014,
+    "Completion Rate": 97.6
+  },
+  {
+    "name": "Grand Blue",
+    "Rating": 8.41,
+    "Episodes": 12,
+    "Year": 2018,
+    "Completion Rate": 95.4
+  },
+  {
     "name": "Clannad: After Story",
     "Rating": 8.96,
     "Episodes": 24,
     "Year": 2008,
-    "Completion Rate": 98.0
-  },
-  {
-    "name": "Noragami",
-    "Rating": 8.01,
-    "Episodes": 12,
-    "Year": 2014,
     "Completion Rate": 98.0
   },
   {
@@ -189,18 +189,18 @@
     "Completion Rate": 97.0
   },
   {
-    "name": "D.Gray-man",
-    "Rating": 8.05,
-    "Episodes": 103,
-    "Year": 2006,
-    "Completion Rate": 86.1
-  },
-  {
     "name": "Noragami Aragoto",
     "Rating": 8.22,
     "Episodes": 13,
     "Year": 2015,
     "Completion Rate": 98.8
+  },
+  {
+    "name": "D.Gray-man",
+    "Rating": 8.05,
+    "Episodes": 103,
+    "Year": 2006,
+    "Completion Rate": 86.1
   },
   {
     "name": "Kenpuu Denki Berserk",
@@ -217,11 +217,25 @@
     "Completion Rate": 94.7
   },
   {
-    "name": "Cardcaptor Sakura",
-    "Rating": 8.16,
-    "Episodes": 70,
-    "Year": 1998,
-    "Completion Rate": 93.7
+    "name": "Kimetsu no Yaiba",
+    "Rating": 8.62,
+    "Episodes": 26,
+    "Year": 2019,
+    "Completion Rate": 98.2
+  },
+  {
+    "name": "Another",
+    "Rating": 7.55,
+    "Episodes": 12,
+    "Year": 2012,
+    "Completion Rate": 96.9
+  },
+  {
+    "name": "Owari no Seraph",
+    "Rating": 7.49,
+    "Episodes": 12,
+    "Year": 2015,
+    "Completion Rate": 96.3
   },
   {
     "name": "Dragon Ball Super",
@@ -231,18 +245,39 @@
     "Completion Rate": 92.5
   },
   {
-    "name": "Kimetsu no Yaiba",
-    "Rating": 8.62,
-    "Episodes": 26,
-    "Year": 2019,
-    "Completion Rate": 98.2
-  },
-  {
-    "name": "Tokyo Ghoul",
-    "Rating": 7.81,
+    "name": "No Game No Life",
+    "Rating": 8.2,
     "Episodes": 12,
     "Year": 2014,
-    "Completion Rate": 97.6
+    "Completion Rate": 97.4
+  },
+  {
+    "name": "Cardcaptor Sakura",
+    "Rating": 8.16,
+    "Episodes": 70,
+    "Year": 1998,
+    "Completion Rate": 93.7
+  },
+  {
+    "name": "Mob Psycho 100",
+    "Rating": 8.49,
+    "Episodes": 12,
+    "Year": 2016,
+    "Completion Rate": 98.0
+  },
+  {
+    "name": "Kakegurui",
+    "Rating": 7.42,
+    "Episodes": 12,
+    "Year": 2017,
+    "Completion Rate": 95.0
+  },
+  {
+    "name": "Date A Live",
+    "Rating": 7.22,
+    "Episodes": 12,
+    "Year": 2013,
+    "Completion Rate": 96.1
   },
   {
     "name": "Vampire Knight",
@@ -259,90 +294,6 @@
     "Completion Rate": 94.5
   },
   {
-    "name": "Date A Live",
-    "Rating": 7.22,
-    "Episodes": 12,
-    "Year": 2013,
-    "Completion Rate": 96.1
-  },
-  {
-    "name": "Vinland Saga",
-    "Rating": 8.71,
-    "Episodes": 24,
-    "Year": 2019,
-    "Completion Rate": 97.1
-  },
-  {
-    "name": "Hataraku Maou-sama!",
-    "Rating": 7.83,
-    "Episodes": 13,
-    "Year": 2013,
-    "Completion Rate": 98.1
-  },
-  {
-    "name": "Grand Blue",
-    "Rating": 8.41,
-    "Episodes": 12,
-    "Year": 2018,
-    "Completion Rate": 95.4
-  },
-  {
-    "name": "Kakegurui",
-    "Rating": 7.42,
-    "Episodes": 12,
-    "Year": 2017,
-    "Completion Rate": 95.0
-  },
-  {
-    "name": "Dr. Stone",
-    "Rating": 8.34,
-    "Episodes": 24,
-    "Year": 2019,
-    "Completion Rate": 95.6
-  },
-  {
-    "name": "Made in Abyss",
-    "Rating": 8.74,
-    "Episodes": 13,
-    "Year": 2017,
-    "Completion Rate": 97.9
-  },
-  {
-    "name": "Dororo",
-    "Rating": 8.19,
-    "Episodes": 24,
-    "Year": 2019,
-    "Completion Rate": 94.0
-  },
-  {
-    "name": "Zero no Tsukaima",
-    "Rating": 7.33,
-    "Episodes": 13,
-    "Year": 2006,
-    "Completion Rate": 96.5
-  },
-  {
-    "name": "Mushishi",
-    "Rating": 8.69,
-    "Episodes": 26,
-    "Year": 2005,
-    "Completion Rate": 92.2
-  },
-  {
-    "name": "Barakamon",
-    "Rating": 8.41,
-    "Episodes": 12,
-    "Year": 2014,
-    "Completion Rate": 97.6
-  },
-  {
-    "name": "Sword Art Online",
-    "Rating": 7.25,
-    "Episodes": 25,
-    "Year": 2012,
-    "Completion Rate": 95.5
-  },
-  {
     "name": "Trigun",
     "Rating": 8.24,
     "Episodes": 26,
@@ -350,11 +301,11 @@
     "Completion Rate": 96.1
   },
   {
-    "name": "Fairy Tail (2014)",
-    "Rating": 7.73,
-    "Episodes": 102,
+    "name": "Noragami",
+    "Rating": 8.01,
+    "Episodes": 12,
     "Year": 2014,
-    "Completion Rate": 89.7
+    "Completion Rate": 98.0
   },
   {
     "name": "Banana Fish",
@@ -364,11 +315,46 @@
     "Completion Rate": 90.8
   },
   {
-    "name": "Mahoutsukai no Yome",
-    "Rating": 8.1,
-    "Episodes": 24,
-    "Year": 2017,
-    "Completion Rate": 89.4
+    "name": "Hataraku Maou-sama!",
+    "Rating": 7.83,
+    "Episodes": 13,
+    "Year": 2013,
+    "Completion Rate": 98.1
+  },
+  {
+    "name": "Sword Art Online",
+    "Rating": 7.25,
+    "Episodes": 25,
+    "Year": 2012,
+    "Completion Rate": 95.5
+  },
+  {
+    "name": "Mushishi",
+    "Rating": 8.69,
+    "Episodes": 26,
+    "Year": 2005,
+    "Completion Rate": 92.2
+  },
+  {
+    "name": "Zero no Tsukaima",
+    "Rating": 7.33,
+    "Episodes": 13,
+    "Year": 2006,
+    "Completion Rate": 96.5
+  },
+  {
+    "name": "Bungou Stray Dogs",
+    "Rating": 7.79,
+    "Episodes": 12,
+    "Year": 2016,
+    "Completion Rate": 95.0
+  },
+  {
+    "name": "Fairy Tail (2014)",
+    "Rating": 7.73,
+    "Episodes": 102,
+    "Year": 2014,
+    "Completion Rate": 89.7
   },
   {
     "name": "Youjo Senki",
@@ -378,6 +364,34 @@
     "Completion Rate": 95.1
   },
   {
+    "name": "Made in Abyss",
+    "Rating": 8.74,
+    "Episodes": 13,
+    "Year": 2017,
+    "Completion Rate": 97.9
+  },
+  {
+    "name": "Mahoutsukai no Yome",
+    "Rating": 8.1,
+    "Episodes": 24,
+    "Year": 2017,
+    "Completion Rate": 89.4
+  },
+  {
+    "name": "Dr. Stone",
+    "Rating": 8.34,
+    "Episodes": 24,
+    "Year": 2019,
+    "Completion Rate": 95.6
+  },
+  {
+    "name": "Dororo",
+    "Rating": 8.19,
+    "Episodes": 24,
+    "Year": 2019,
+    "Completion Rate": 94.0
+  },
+  {
     "name": "Shingeki no Kyojin",
     "Rating": 8.48,
     "Episodes": 25,
@@ -385,32 +399,11 @@
     "Completion Rate": 98.0
   },
   {
-    "name": "Houseki no Kuni (TV)",
-    "Rating": 8.41,
-    "Episodes": 12,
-    "Year": 2017,
-    "Completion Rate": 95.8
-  },
-  {
-    "name": "No Game No Life",
-    "Rating": 8.2,
-    "Episodes": 12,
-    "Year": 2014,
-    "Completion Rate": 97.4
-  },
-  {
-    "name": "Violet Evergarden",
-    "Rating": 8.64,
-    "Episodes": 13,
-    "Year": 2018,
-    "Completion Rate": 94.8
-  },
-  {
-    "name": "Death Note",
-    "Rating": 8.63,
-    "Episodes": 37,
-    "Year": 2006,
-    "Completion Rate": 96.4
+    "name": "Vinland Saga",
+    "Rating": 8.71,
+    "Episodes": 24,
+    "Year": 2019,
+    "Completion Rate": 97.1
   },
   {
     "name": "Fullmetal Alchemist",
@@ -418,6 +411,13 @@
     "Episodes": 51,
     "Year": 2003,
     "Completion Rate": 95.8
+  },
+  {
+    "name": "Death Note",
+    "Rating": 8.63,
+    "Episodes": 37,
+    "Year": 2006,
+    "Completion Rate": 96.4
   },
   {
     "name": "Free!",
@@ -434,6 +434,13 @@
     "Completion Rate": 94.7
   },
   {
+    "name": "Violet Evergarden",
+    "Rating": 8.64,
+    "Episodes": 13,
+    "Year": 2018,
+    "Completion Rate": 94.8
+  },
+  {
     "name": "High School DxD",
     "Rating": 7.4,
     "Episodes": 12,
@@ -448,25 +455,25 @@
     "Completion Rate": 97.9
   },
   {
-    "name": "Steins;Gate 0",
-    "Rating": 8.51,
-    "Episodes": 23,
-    "Year": 2018,
-    "Completion Rate": 95.9
-  },
-  {
-    "name": "Owari no Seraph",
-    "Rating": 7.49,
-    "Episodes": 12,
-    "Year": 2015,
-    "Completion Rate": 96.3
-  },
-  {
     "name": "Samurai Champloo",
     "Rating": 8.5,
     "Episodes": 26,
     "Year": 2004,
     "Completion Rate": 96.5
+  },
+  {
+    "name": "Barakamon",
+    "Rating": 8.41,
+    "Episodes": 12,
+    "Year": 2014,
+    "Completion Rate": 97.6
+  },
+  {
+    "name": "Houseki no Kuni (TV)",
+    "Rating": 8.41,
+    "Episodes": 12,
+    "Year": 2017,
+    "Completion Rate": 95.8
   },
   {
     "name": "Lucky\u2606Star",
@@ -483,11 +490,11 @@
     "Completion Rate": 95.3
   },
   {
-    "name": "Nana",
-    "Rating": 8.46,
-    "Episodes": 47,
-    "Year": 2006,
-    "Completion Rate": 90.9
+    "name": "Steins;Gate 0",
+    "Rating": 8.51,
+    "Episodes": 23,
+    "Year": 2018,
+    "Completion Rate": 95.9
   },
   {
     "name": "Mirai Nikki",
@@ -497,25 +504,11 @@
     "Completion Rate": 95.4
   },
   {
-    "name": "Soul Eater",
-    "Rating": 7.88,
-    "Episodes": 51,
-    "Year": 2008,
-    "Completion Rate": 92.0
-  },
-  {
-    "name": "Another",
-    "Rating": 7.55,
-    "Episodes": 12,
-    "Year": 2012,
-    "Completion Rate": 96.9
-  },
-  {
-    "name": "Nagi no Asu kara",
-    "Rating": 8.09,
-    "Episodes": 26,
-    "Year": 2013,
-    "Completion Rate": 90.7
+    "name": "Nana",
+    "Rating": 8.46,
+    "Episodes": 47,
+    "Year": 2006,
+    "Completion Rate": 90.9
   },
   {
     "name": "Charlotte",
@@ -525,6 +518,13 @@
     "Completion Rate": 97.3
   },
   {
+    "name": "Death Parade",
+    "Rating": 8.2,
+    "Episodes": 12,
+    "Year": 2015,
+    "Completion Rate": 96.9
+  },
+  {
     "name": "Haikyuu!!",
     "Rating": 8.53,
     "Episodes": 25,
@@ -532,11 +532,32 @@
     "Completion Rate": 97.7
   },
   {
+    "name": "Soul Eater",
+    "Rating": 7.88,
+    "Episodes": 51,
+    "Year": 2008,
+    "Completion Rate": 92.0
+  },
+  {
     "name": "Akame ga Kill!",
     "Rating": 7.53,
     "Episodes": 24,
     "Year": 2014,
     "Completion Rate": 96.0
+  },
+  {
+    "name": "Nagi no Asu kara",
+    "Rating": 8.09,
+    "Episodes": 26,
+    "Year": 2013,
+    "Completion Rate": 90.7
+  },
+  {
+    "name": "Black Lagoon",
+    "Rating": 8.05,
+    "Episodes": 12,
+    "Year": 2006,
+    "Completion Rate": 96.7
   },
   {
     "name": "Shinsekai yori",
@@ -553,53 +574,11 @@
     "Completion Rate": 92.7
   },
   {
-    "name": "Nanatsu no Taizai",
-    "Rating": 7.89,
-    "Episodes": 24,
-    "Year": 2014,
-    "Completion Rate": 97.3
-  },
-  {
-    "name": "Bungou Stray Dogs",
-    "Rating": 7.79,
-    "Episodes": 12,
-    "Year": 2016,
-    "Completion Rate": 95.0
-  },
-  {
     "name": "Yuri!!! on Ice",
     "Rating": 7.92,
     "Episodes": 12,
     "Year": 2016,
     "Completion Rate": 94.6
-  },
-  {
-    "name": "Nichijou",
-    "Rating": 8.48,
-    "Episodes": 26,
-    "Year": 2011,
-    "Completion Rate": 92.0
-  },
-  {
-    "name": "3-gatsu no Lion",
-    "Rating": 8.43,
-    "Episodes": 22,
-    "Year": 2016,
-    "Completion Rate": 93.0
-  },
-  {
-    "name": "Elfen Lied",
-    "Rating": 7.56,
-    "Episodes": 13,
-    "Year": 2004,
-    "Completion Rate": 95.7
-  },
-  {
-    "name": "Ao no Exorcist",
-    "Rating": 7.59,
-    "Episodes": 25,
-    "Year": 2011,
-    "Completion Rate": 96.6
   },
   {
     "name": "ReLIFE",
@@ -609,39 +588,32 @@
     "Completion Rate": 97.2
   },
   {
-    "name": "Death Parade",
-    "Rating": 8.2,
-    "Episodes": 12,
-    "Year": 2015,
-    "Completion Rate": 96.9
+    "name": "Elfen Lied",
+    "Rating": 7.56,
+    "Episodes": 13,
+    "Year": 2004,
+    "Completion Rate": 95.7
   },
   {
-    "name": "Nisekoi",
-    "Rating": 7.65,
-    "Episodes": 20,
-    "Year": 2014,
-    "Completion Rate": 95.5
-  },
-  {
-    "name": "Claymore",
-    "Rating": 7.78,
+    "name": "Nichijou",
+    "Rating": 8.48,
     "Episodes": 26,
-    "Year": 2007,
-    "Completion Rate": 94.3
+    "Year": 2011,
+    "Completion Rate": 92.0
   },
   {
-    "name": "Black Lagoon",
-    "Rating": 8.05,
-    "Episodes": 12,
-    "Year": 2006,
-    "Completion Rate": 96.7
+    "name": "Ao no Exorcist",
+    "Rating": 7.59,
+    "Episodes": 25,
+    "Year": 2011,
+    "Completion Rate": 96.6
   },
   {
-    "name": "Ergo Proxy",
-    "Rating": 7.92,
-    "Episodes": 23,
-    "Year": 2006,
-    "Completion Rate": 91.9
+    "name": "Nanatsu no Taizai",
+    "Rating": 7.89,
+    "Episodes": 24,
+    "Year": 2014,
+    "Completion Rate": 97.3
   },
   {
     "name": "Angel Beats!",
@@ -651,53 +623,18 @@
     "Completion Rate": 97.0
   },
   {
-    "name": "Shokugeki no Souma",
-    "Rating": 8.29,
-    "Episodes": 24,
-    "Year": 2015,
-    "Completion Rate": 97.0
+    "name": "3-gatsu no Lion",
+    "Rating": 8.43,
+    "Episodes": 22,
+    "Year": 2016,
+    "Completion Rate": 93.0
   },
   {
-    "name": "K-On!!",
-    "Rating": 8.15,
-    "Episodes": 26,
-    "Year": 2010,
-    "Completion Rate": 95.7
-  },
-  {
-    "name": "Gosick",
-    "Rating": 8.1,
-    "Episodes": 24,
-    "Year": 2011,
-    "Completion Rate": 92.0
-  },
-  {
-    "name": "Katanagatari",
-    "Rating": 8.36,
-    "Episodes": 12,
-    "Year": 2010,
-    "Completion Rate": 93.9
-  },
-  {
-    "name": "Kuroshitsuji",
-    "Rating": 7.75,
-    "Episodes": 24,
-    "Year": 2008,
-    "Completion Rate": 92.5
-  },
-  {
-    "name": "Overlord",
-    "Rating": 7.96,
-    "Episodes": 13,
-    "Year": 2015,
-    "Completion Rate": 96.8
-  },
-  {
-    "name": "Baccano!",
-    "Rating": 8.42,
-    "Episodes": 13,
-    "Year": 2007,
-    "Completion Rate": 95.2
+    "name": "Nisekoi",
+    "Rating": 7.65,
+    "Episodes": 20,
+    "Year": 2014,
+    "Completion Rate": 95.5
   },
   {
     "name": "NHK ni Youkoso!",
@@ -707,18 +644,60 @@
     "Completion Rate": 95.1
   },
   {
-    "name": "Ansatsu Kyoushitsu",
-    "Rating": 8.12,
-    "Episodes": 22,
-    "Year": 2015,
-    "Completion Rate": 95.6
+    "name": "Ergo Proxy",
+    "Rating": 7.92,
+    "Episodes": 23,
+    "Year": 2006,
+    "Completion Rate": 91.9
   },
   {
-    "name": "Plastic Memories",
-    "Rating": 7.94,
+    "name": "Kyoukai no Kanata",
+    "Rating": 7.78,
+    "Episodes": 12,
+    "Year": 2013,
+    "Completion Rate": 95.5
+  },
+  {
+    "name": "Katanagatari",
+    "Rating": 8.36,
+    "Episodes": 12,
+    "Year": 2010,
+    "Completion Rate": 93.9
+  },
+  {
+    "name": "Gosick",
+    "Rating": 8.1,
+    "Episodes": 24,
+    "Year": 2011,
+    "Completion Rate": 92.0
+  },
+  {
+    "name": "Overlord",
+    "Rating": 7.96,
     "Episodes": 13,
     "Year": 2015,
-    "Completion Rate": 94.6
+    "Completion Rate": 96.8
+  },
+  {
+    "name": "Claymore",
+    "Rating": 7.78,
+    "Episodes": 26,
+    "Year": 2007,
+    "Completion Rate": 94.3
+  },
+  {
+    "name": "Shokugeki no Souma",
+    "Rating": 8.29,
+    "Episodes": 24,
+    "Year": 2015,
+    "Completion Rate": 97.0
+  },
+  {
+    "name": "Kuroshitsuji",
+    "Rating": 7.75,
+    "Episodes": 24,
+    "Year": 2008,
+    "Completion Rate": 92.5
   },
   {
     "name": "Kill la Kill",
@@ -728,11 +707,32 @@
     "Completion Rate": 92.5
   },
   {
-    "name": "Kyoukai no Kanata",
-    "Rating": 7.78,
-    "Episodes": 12,
-    "Year": 2013,
-    "Completion Rate": 95.5
+    "name": "Plastic Memories",
+    "Rating": 7.94,
+    "Episodes": 13,
+    "Year": 2015,
+    "Completion Rate": 94.6
+  },
+  {
+    "name": "Baccano!",
+    "Rating": 8.42,
+    "Episodes": 13,
+    "Year": 2007,
+    "Completion Rate": 95.2
+  },
+  {
+    "name": "K-On!!",
+    "Rating": 8.15,
+    "Episodes": 26,
+    "Year": 2010,
+    "Completion Rate": 95.7
+  },
+  {
+    "name": "Ansatsu Kyoushitsu",
+    "Rating": 8.12,
+    "Episodes": 22,
+    "Year": 2015,
+    "Completion Rate": 95.6
   },
   {
     "name": "Toradora!",
@@ -763,11 +763,18 @@
     "Completion Rate": 93.4
   },
   {
-    "name": "Bakemonogatari",
-    "Rating": 8.36,
-    "Episodes": 15,
-    "Year": 2009,
-    "Completion Rate": 95.1
+    "name": "Clannad",
+    "Rating": 8.07,
+    "Episodes": 23,
+    "Year": 2007,
+    "Completion Rate": 95.2
+  },
+  {
+    "name": "Log Horizon",
+    "Rating": 8.0,
+    "Episodes": 25,
+    "Year": 2013,
+    "Completion Rate": 94.1
   },
   {
     "name": "Durarara!!",
@@ -777,9 +784,9 @@
     "Completion Rate": 93.6
   },
   {
-    "name": "Kimi ni Todoke",
-    "Rating": 8.02,
-    "Episodes": 25,
+    "name": "Bakemonogatari",
+    "Rating": 8.36,
+    "Episodes": 15,
     "Year": 2009,
     "Completion Rate": 95.1
   },
@@ -791,25 +798,11 @@
     "Completion Rate": 96.6
   },
   {
-    "name": "Clannad",
-    "Rating": 8.07,
-    "Episodes": 23,
-    "Year": 2007,
-    "Completion Rate": 95.2
-  },
-  {
-    "name": "Bakuman.",
-    "Rating": 8.23,
-    "Episodes": 25,
-    "Year": 2010,
-    "Completion Rate": 94.6
-  },
-  {
-    "name": "Log Horizon",
-    "Rating": 8.0,
-    "Episodes": 25,
-    "Year": 2013,
-    "Completion Rate": 94.1
+    "name": "Natsume Yuujinchou",
+    "Rating": 8.33,
+    "Episodes": 13,
+    "Year": 2008,
+    "Completion Rate": 95.0
   },
   {
     "name": "K-On!",
@@ -819,18 +812,25 @@
     "Completion Rate": 95.4
   },
   {
-    "name": "Natsume Yuujinchou",
-    "Rating": 8.33,
-    "Episodes": 13,
-    "Year": 2008,
-    "Completion Rate": 95.0
-  },
-  {
     "name": "Psycho-Pass",
     "Rating": 8.38,
     "Episodes": 22,
     "Year": 2012,
     "Completion Rate": 95.2
+  },
+  {
+    "name": "Kimi ni Todoke",
+    "Rating": 8.02,
+    "Episodes": 25,
+    "Year": 2009,
+    "Completion Rate": 95.1
+  },
+  {
+    "name": "Bakuman.",
+    "Rating": 8.23,
+    "Episodes": 25,
+    "Year": 2010,
+    "Completion Rate": 94.6
   },
   {
     "name": "Akatsuki no Yona",
