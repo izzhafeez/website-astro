@@ -7,13 +7,6 @@
     "Protein (mg)": 3.0
   },
   {
-    "name": "Celery, 2 medium stalks (110 g/3.9 oz)",
-    "Calories": 15.0,
-    "Potassium (mg)": 260.0,
-    "Sodium (mg)": 115.0,
-    "Protein (mg)": 0.0
-  },
-  {
     "name": "Scallops, about 6 large or 14 small",
     "Calories": 140.0,
     "Potassium (mg)": 430.0,
@@ -21,18 +14,11 @@
     "Protein (mg)": 27.0
   },
   {
-    "name": "Apple, 1 large (242 g/8 oz)",
-    "Calories": 130.0,
+    "name": "Celery, 2 medium stalks (110 g/3.9 oz)",
+    "Calories": 15.0,
     "Potassium (mg)": 260.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Salmon, Atlantic/Coho/Sockeye /Chinook",
-    "Calories": 200.0,
-    "Potassium (mg)": 430.0,
-    "Sodium (mg)": 55.0,
-    "Protein (mg)": 24.0
+    "Sodium (mg)": 115.0,
+    "Protein (mg)": 0.0
   },
   {
     "name": "Green Onion, 1/4 cup chopped (25 g/0.9 oz)",
@@ -42,18 +28,18 @@
     "Protein (mg)": 0.0
   },
   {
-    "name": "Banana, 1 medium (126 g/4.5 oz)",
-    "Calories": 110.0,
-    "Potassium (mg)": 450.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
+    "name": "Salmon, Atlantic/Coho/Sockeye /Chinook",
+    "Calories": 200.0,
+    "Potassium (mg)": 430.0,
+    "Sodium (mg)": 55.0,
+    "Protein (mg)": 24.0
   },
   {
-    "name": "Radishes, 7 radishes (85 g/3.0 oz)",
-    "Calories": 10.0,
-    "Potassium (mg)": 190.0,
-    "Sodium (mg)": 55.0,
-    "Protein (mg)": 0.0
+    "name": "Apple, 1 large (242 g/8 oz)",
+    "Calories": 130.0,
+    "Potassium (mg)": 260.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
   },
   {
     "name": "Tuna",
@@ -70,6 +56,13 @@
     "Protein (mg)": 20.0
   },
   {
+    "name": "Halibut",
+    "Calories": 120.0,
+    "Potassium (mg)": 500.0,
+    "Sodium (mg)": 60.0,
+    "Protein (mg)": 23.0
+  },
+  {
     "name": "Kiwifruit, 2 medium (148 g/5.3 oz)",
     "Calories": 90.0,
     "Potassium (mg)": 450.0,
@@ -77,11 +70,11 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Halibut",
-    "Calories": 120.0,
-    "Potassium (mg)": 500.0,
-    "Sodium (mg)": 60.0,
-    "Protein (mg)": 23.0
+    "name": "Radishes, 7 radishes (85 g/3.0 oz)",
+    "Calories": 10.0,
+    "Potassium (mg)": 190.0,
+    "Sodium (mg)": 55.0,
+    "Protein (mg)": 0.0
   },
   {
     "name": "Lemon, 1 medium (58 g/2.1 oz)",
@@ -105,18 +98,18 @@
     "Protein (mg)": 17.0
   },
   {
-    "name": "Lime, 1 medium (67 g/2.4 oz)",
+    "name": "Green (Snap) Beans, 3/4 cup cut (83 g/3.0 oz)",
     "Calories": 20.0,
-    "Potassium (mg)": 75.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 0.0
-  },
-  {
-    "name": "Cucumber, 1/3 medium (99 g/3.5 oz)",
-    "Calories": 10.0,
-    "Potassium (mg)": 140.0,
+    "Potassium (mg)": 200.0,
     "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
+  },
+  {
+    "name": "Salmon,\u00caChum/Pink",
+    "Calories": 130.0,
+    "Potassium (mg)": 420.0,
+    "Sodium (mg)": 65.0,
+    "Protein (mg)": 22.0
   },
   {
     "name": "Oysters, about 12 medium",
@@ -126,11 +119,18 @@
     "Protein (mg)": 10.0
   },
   {
-    "name": "Catfish",
-    "Calories": 130.0,
-    "Potassium (mg)": 230.0,
-    "Sodium (mg)": 40.0,
-    "Protein (mg)": 17.0
+    "name": "Lime, 1 medium (67 g/2.4 oz)",
+    "Calories": 20.0,
+    "Potassium (mg)": 75.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 0.0
+  },
+  {
+    "name": "Iceberg Lettuce, 1/6 medium head (89 g/3.2 oz)",
+    "Calories": 10.0,
+    "Potassium (mg)": 125.0,
+    "Sodium (mg)": 10.0,
+    "Protein (mg)": 1.0
   },
   {
     "name": "Clams, about 12 small",
@@ -147,27 +147,6 @@
     "Protein (mg)": 21.0
   },
   {
-    "name": "Iceberg Lettuce, 1/6 medium head (89 g/3.2 oz)",
-    "Calories": 10.0,
-    "Potassium (mg)": 125.0,
-    "Sodium (mg)": 10.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Salmon,\u00caChum/Pink",
-    "Calories": 130.0,
-    "Potassium (mg)": 420.0,
-    "Sodium (mg)": 65.0,
-    "Protein (mg)": 22.0
-  },
-  {
-    "name": "Tilapia",
-    "Calories": 110.0,
-    "Potassium (mg)": 360.0,
-    "Sodium (mg)": 30.0,
-    "Protein (mg)": 22.0
-  },
-  {
     "name": "Broccoli, 1 medium stalk (148 g/5.3 oz)",
     "Calories": 45.0,
     "Potassium (mg)": 460.0,
@@ -175,11 +154,18 @@
     "Protein (mg)": 4.0
   },
   {
-    "name": "Cod",
-    "Calories": 90.0,
-    "Potassium (mg)": 460.0,
-    "Sodium (mg)": 65.0,
-    "Protein (mg)": 20.0
+    "name": "Catfish",
+    "Calories": 130.0,
+    "Potassium (mg)": 230.0,
+    "Sodium (mg)": 40.0,
+    "Protein (mg)": 17.0
+  },
+  {
+    "name": "Cucumber, 1/3 medium (99 g/3.5 oz)",
+    "Calories": 10.0,
+    "Potassium (mg)": 140.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
   },
   {
     "name": "Pineapple, 2 slices, 3\" diameter,\u00ca3/4\" thick",
@@ -189,27 +175,6 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Rockfish",
-    "Calories": 110.0,
-    "Potassium (mg)": 440.0,
-    "Sodium (mg)": 70.0,
-    "Protein (mg)": 21.0
-  },
-  {
-    "name": "Grapes, 3/4 cup (126 g/4.5 oz)",
-    "Calories": 90.0,
-    "Potassium (mg)": 240.0,
-    "Sodium (mg)": 15.0,
-    "Protein (mg)": 0.0
-  },
-  {
-    "name": "Pollock",
-    "Calories": 90.0,
-    "Potassium (mg)": 370.0,
-    "Sodium (mg)": 110.0,
-    "Protein (mg)": 20.0
-  },
-  {
     "name": "Leaf Lettuce, 1 1/2 cups shredded (85 g/3.0 oz)",
     "Calories": 15.0,
     "Potassium (mg)": 170.0,
@@ -217,72 +182,9 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Swordfish",
-    "Calories": 120.0,
-    "Potassium (mg)": 310.0,
-    "Sodium (mg)": 100.0,
-    "Protein (mg)": 16.0
-  },
-  {
-    "name": "Avocado, California,1/5 medium (30 g/1.1 oz)",
-    "Calories": 50.0,
-    "Potassium (mg)": 140.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Haddock",
-    "Calories": 100.0,
-    "Potassium (mg)": 340.0,
-    "Sodium (mg)": 85.0,
-    "Protein (mg)": 21.0
-  },
-  {
-    "name": "Flounder/Sole",
-    "Calories": 100.0,
-    "Potassium (mg)": 390.0,
-    "Sodium (mg)": 100.0,
-    "Protein (mg)": 19.0
-  },
-  {
-    "name": "Asparagus, 5 spears (93 g/3.3 oz)",
-    "Calories": 20.0,
-    "Potassium (mg)": 230.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 2.0
-  },
-  {
-    "name": "Ocean Perch",
+    "name": "Banana, 1 medium (126 g/4.5 oz)",
     "Calories": 110.0,
-    "Potassium (mg)": 290.0,
-    "Sodium (mg)": 95.0,
-    "Protein (mg)": 21.0
-  },
-  {
-    "name": "Grapefruit, 1/2 medium, (154 g/5.5 oz)",
-    "Calories": 60.0,
-    "Potassium (mg)": 160.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Sweet Potato, 1 medium, 5\" long,\u00ca2\" diameter (130 g/4.6 oz)",
-    "Calories": 100.0,
-    "Potassium (mg)": 440.0,
-    "Sodium (mg)": 70.0,
-    "Protein (mg)": 2.0
-  },
-  {
-    "name": "Pear, 1 medium (166 g/5.9 oz)",
-    "Calories": 100.0,
-    "Potassium (mg)": 190.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Tangerine, 1 medium (109 g/3.9 oz)",
-    "Calories": 50.0,
-    "Potassium (mg)": 160.0,
+    "Potassium (mg)": 450.0,
     "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
   },
@@ -294,18 +196,102 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Mushrooms, 5 medium (84 g/3.0 oz)",
-    "Calories": 20.0,
-    "Potassium (mg)": 300.0,
-    "Sodium (mg)": 15.0,
-    "Protein (mg)": 3.0
-  },
-  {
     "name": "Sweet\u00caCherries 21 cherries;\u00ca1 cup",
     "Calories": 100.0,
     "Potassium (mg)": 350.0,
     "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
+  },
+  {
+    "name": "Tilapia",
+    "Calories": 110.0,
+    "Potassium (mg)": 360.0,
+    "Sodium (mg)": 30.0,
+    "Protein (mg)": 22.0
+  },
+  {
+    "name": "Cod",
+    "Calories": 90.0,
+    "Potassium (mg)": 460.0,
+    "Sodium (mg)": 65.0,
+    "Protein (mg)": 20.0
+  },
+  {
+    "name": "Grapes, 3/4 cup (126 g/4.5 oz)",
+    "Calories": 90.0,
+    "Potassium (mg)": 240.0,
+    "Sodium (mg)": 15.0,
+    "Protein (mg)": 0.0
+  },
+  {
+    "name": "Haddock",
+    "Calories": 100.0,
+    "Potassium (mg)": 340.0,
+    "Sodium (mg)": 85.0,
+    "Protein (mg)": 21.0
+  },
+  {
+    "name": "Pollock",
+    "Calories": 90.0,
+    "Potassium (mg)": 370.0,
+    "Sodium (mg)": 110.0,
+    "Protein (mg)": 20.0
+  },
+  {
+    "name": "Asparagus, 5 spears (93 g/3.3 oz)",
+    "Calories": 20.0,
+    "Potassium (mg)": 230.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 2.0
+  },
+  {
+    "name": "Swordfish",
+    "Calories": 120.0,
+    "Potassium (mg)": 310.0,
+    "Sodium (mg)": 100.0,
+    "Protein (mg)": 16.0
+  },
+  {
+    "name": "Ocean Perch",
+    "Calories": 110.0,
+    "Potassium (mg)": 290.0,
+    "Sodium (mg)": 95.0,
+    "Protein (mg)": 21.0
+  },
+  {
+    "name": "Avocado, California,1/5 medium (30 g/1.1 oz)",
+    "Calories": 50.0,
+    "Potassium (mg)": 140.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
+  },
+  {
+    "name": "Grapefruit, 1/2 medium, (154 g/5.5 oz)",
+    "Calories": 60.0,
+    "Potassium (mg)": 160.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
+  },
+  {
+    "name": "Flounder/Sole",
+    "Calories": 100.0,
+    "Potassium (mg)": 390.0,
+    "Sodium (mg)": 100.0,
+    "Protein (mg)": 19.0
+  },
+  {
+    "name": "Sweet Potato, 1 medium, 5\" long,\u00ca2\" diameter (130 g/4.6 oz)",
+    "Calories": 100.0,
+    "Potassium (mg)": 440.0,
+    "Sodium (mg)": 70.0,
+    "Protein (mg)": 2.0
+  },
+  {
+    "name": "Rockfish",
+    "Calories": 110.0,
+    "Potassium (mg)": 440.0,
+    "Sodium (mg)": 70.0,
+    "Protein (mg)": 21.0
   },
   {
     "name": "Strawberries, 8 medium (147 g/5.3 oz)",
@@ -315,10 +301,10 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Bell Pepper, 1 medium (148 g/5.3 oz)",
-    "Calories": 25.0,
-    "Potassium (mg)": 220.0,
-    "Sodium (mg)": 40.0,
+    "name": "Tangerine, 1 medium (109 g/3.9 oz)",
+    "Calories": 50.0,
+    "Potassium (mg)": 160.0,
+    "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
   },
   {
@@ -329,18 +315,32 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Green (Snap) Beans, 3/4 cup cut (83 g/3.0 oz)",
-    "Calories": 20.0,
-    "Potassium (mg)": 200.0,
+    "name": "Plums, 2 medium (151 g/5.4 oz)",
+    "Calories": 70.0,
+    "Potassium (mg)": 230.0,
     "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
   },
   {
-    "name": "Orange Roughy",
+    "name": "Mushrooms, 5 medium (84 g/3.0 oz)",
+    "Calories": 20.0,
+    "Potassium (mg)": 300.0,
+    "Sodium (mg)": 15.0,
+    "Protein (mg)": 3.0
+  },
+  {
+    "name": "Orange, 1 medium (154 g/5.5 oz)",
     "Calories": 80.0,
-    "Potassium (mg)": 340.0,
-    "Sodium (mg)": 70.0,
-    "Protein (mg)": 16.0
+    "Potassium (mg)": 250.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
+  },
+  {
+    "name": "Pear, 1 medium (166 g/5.9 oz)",
+    "Calories": 100.0,
+    "Potassium (mg)": 190.0,
+    "Sodium (mg)": 0.0,
+    "Protein (mg)": 1.0
   },
   {
     "name": "Sweet Corn, kernels from 1\u00camedium ear (90 g/3.2 oz)",
@@ -350,17 +350,17 @@
     "Protein (mg)": 4.0
   },
   {
-    "name": "Green\u00caCabbage, 1/12 medium head (84 g/3.0 oz)",
-    "Calories": 25.0,
+    "name": "Onion, 1 medium (148 g/5.3 oz)",
+    "Calories": 45.0,
     "Potassium (mg)": 190.0,
-    "Sodium (mg)": 20.0,
+    "Sodium (mg)": 5.0,
     "Protein (mg)": 1.0
   },
   {
-    "name": "Carrot, 1 carrot, 7\" long,\u00ca1 1/4\" diameter (78 g/2.8 oz)",
-    "Calories": 30.0,
-    "Potassium (mg)": 250.0,
-    "Sodium (mg)": 60.0,
+    "name": "Peach, 1 medium (147 g/5.3 oz)",
+    "Calories": 60.0,
+    "Potassium (mg)": 230.0,
+    "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
   },
   {
@@ -371,10 +371,31 @@
     "Protein (mg)": 2.0
   },
   {
-    "name": "Onion, 1 medium (148 g/5.3 oz)",
-    "Calories": 45.0,
+    "name": "Bell Pepper, 1 medium (148 g/5.3 oz)",
+    "Calories": 25.0,
+    "Potassium (mg)": 220.0,
+    "Sodium (mg)": 40.0,
+    "Protein (mg)": 1.0
+  },
+  {
+    "name": "Orange Roughy",
+    "Calories": 80.0,
+    "Potassium (mg)": 340.0,
+    "Sodium (mg)": 70.0,
+    "Protein (mg)": 16.0
+  },
+  {
+    "name": "Carrot, 1 carrot, 7\" long,\u00ca1 1/4\" diameter (78 g/2.8 oz)",
+    "Calories": 30.0,
+    "Potassium (mg)": 250.0,
+    "Sodium (mg)": 60.0,
+    "Protein (mg)": 1.0
+  },
+  {
+    "name": "Green\u00caCabbage, 1/12 medium head (84 g/3.0 oz)",
+    "Calories": 25.0,
     "Potassium (mg)": 190.0,
-    "Sodium (mg)": 5.0,
+    "Sodium (mg)": 20.0,
     "Protein (mg)": 1.0
   },
   {
@@ -392,30 +413,9 @@
     "Protein (mg)": 1.0
   },
   {
-    "name": "Orange, 1 medium (154 g/5.5 oz)",
-    "Calories": 80.0,
-    "Potassium (mg)": 250.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
     "name": "Watermelon, 1/18 medium melon; 2 cups diced pieces(280 g/",
     "Calories": 80.0,
     "Potassium (mg)": 270.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Peach, 1 medium (147 g/5.3 oz)",
-    "Calories": 60.0,
-    "Potassium (mg)": 230.0,
-    "Sodium (mg)": 0.0,
-    "Protein (mg)": 1.0
-  },
-  {
-    "name": "Plums, 2 medium (151 g/5.4 oz)",
-    "Calories": 70.0,
-    "Potassium (mg)": 230.0,
     "Sodium (mg)": 0.0,
     "Protein (mg)": 1.0
   },
