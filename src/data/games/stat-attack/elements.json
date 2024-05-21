@@ -84,6 +84,12 @@
     "Covalent Radius (pm)": 144
   },
   {
+    "name": "Actinium",
+    "Atomic Number": 89,
+    "Melting Point (K)": 1500.0,
+    "Covalent Radius (pm)": 215
+  },
+  {
     "name": "Beryllium",
     "Atomic Number": 4,
     "Melting Point (K)": 1560.0,
@@ -94,12 +100,6 @@
     "Atomic Number": 8,
     "Melting Point (K)": 54.36,
     "Covalent Radius (pm)": 66
-  },
-  {
-    "name": "Barium",
-    "Atomic Number": 56,
-    "Melting Point (K)": 1000.0,
-    "Covalent Radius (pm)": 215
   },
   {
     "name": "Lithium",
@@ -120,12 +120,6 @@
     "Covalent Radius (pm)": 169
   },
   {
-    "name": "Actinium",
-    "Atomic Number": 89,
-    "Melting Point (K)": 1500.0,
-    "Covalent Radius (pm)": 215
-  },
-  {
     "name": "Nitrogen",
     "Atomic Number": 7,
     "Melting Point (K)": 63.15,
@@ -136,6 +130,12 @@
     "Atomic Number": 42,
     "Melting Point (K)": 2896.0,
     "Covalent Radius (pm)": 154
+  },
+  {
+    "name": "Barium",
+    "Atomic Number": 56,
+    "Melting Point (K)": 1000.0,
+    "Covalent Radius (pm)": 215
   },
   {
     "name": "Americium",
@@ -354,16 +354,16 @@
     "Covalent Radius (pm)": 120
   },
   {
+    "name": "Europium",
+    "Atomic Number": 63,
+    "Melting Point (K)": 1099.0,
+    "Covalent Radius (pm)": 198
+  },
+  {
     "name": "Zirconium",
     "Atomic Number": 40,
     "Melting Point (K)": 2128.0,
     "Covalent Radius (pm)": 175
-  },
-  {
-    "name": "Samarium",
-    "Atomic Number": 62,
-    "Melting Point (K)": 1345.0,
-    "Covalent Radius (pm)": 198
   },
   {
     "name": "Lead",
@@ -378,9 +378,9 @@
     "Covalent Radius (pm)": 145
   },
   {
-    "name": "Europium",
-    "Atomic Number": 63,
-    "Melting Point (K)": 1099.0,
+    "name": "Samarium",
+    "Atomic Number": 62,
+    "Melting Point (K)": 1345.0,
     "Covalent Radius (pm)": 198
   },
   {
@@ -438,6 +438,12 @@
     "Covalent Radius (pm)": 126
   },
   {
+    "name": "Zinc",
+    "Atomic Number": 30,
+    "Melting Point (K)": 692.68,
+    "Covalent Radius (pm)": 122
+  },
+  {
     "name": "Palladium",
     "Atomic Number": 46,
     "Melting Point (K)": 1828.05,
@@ -468,10 +474,10 @@
     "Covalent Radius (pm)": 194
   },
   {
-    "name": "Zinc",
-    "Atomic Number": 30,
-    "Melting Point (K)": 692.68,
-    "Covalent Radius (pm)": 122
+    "name": "Yttrium",
+    "Atomic Number": 39,
+    "Melting Point (K)": 1799.0,
+    "Covalent Radius (pm)": 190
   },
   {
     "name": "Dysprosium",
@@ -484,12 +490,6 @@
     "Atomic Number": 53,
     "Melting Point (K)": 386.85,
     "Covalent Radius (pm)": 139
-  },
-  {
-    "name": "Yttrium",
-    "Atomic Number": 39,
-    "Melting Point (K)": 1799.0,
-    "Covalent Radius (pm)": 190
   },
   {
     "name": "Holmium",
@@ -522,12 +522,6 @@
     "Covalent Radius (pm)": 189
   },
   {
-    "name": "Ytterbium",
-    "Atomic Number": 70,
-    "Melting Point (K)": 1097.0,
-    "Covalent Radius (pm)": 187
-  },
-  {
     "name": "Copper",
     "Atomic Number": 29,
     "Melting Point (K)": 1357.77,
@@ -540,22 +534,28 @@
     "Covalent Radius (pm)": 139
   },
   {
+    "name": "Ytterbium",
+    "Atomic Number": 70,
+    "Melting Point (K)": 1097.0,
+    "Covalent Radius (pm)": 187
+  },
+  {
     "name": "Tellurium",
     "Atomic Number": 52,
     "Melting Point (K)": 722.66,
     "Covalent Radius (pm)": 138
   },
   {
-    "name": "Cadmium",
-    "Atomic Number": 48,
-    "Melting Point (K)": 594.22,
-    "Covalent Radius (pm)": 144
-  },
-  {
     "name": "Antimony",
     "Atomic Number": 51,
     "Melting Point (K)": 903.78,
     "Covalent Radius (pm)": 139
+  },
+  {
+    "name": "Cadmium",
+    "Atomic Number": 48,
+    "Melting Point (K)": 594.22,
+    "Covalent Radius (pm)": 144
   },
   {
     "name": "Silver",
