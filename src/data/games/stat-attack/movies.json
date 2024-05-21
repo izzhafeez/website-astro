@@ -126,13 +126,6 @@
     "Box Office (million $)": 57.3
   },
   {
-    "name": "Ultraviolet",
-    "Release Year": 2006,
-    "Duration (min)": 88,
-    "IMDB Rating": 4.3,
-    "Box Office (million $)": 18.5
-  },
-  {
     "name": "Catwoman",
     "Release Year": 2004,
     "Duration (min)": 104,
@@ -145,6 +138,13 @@
     "Duration (min)": 124,
     "IMDB Rating": 8.7,
     "Box Office (million $)": 290.48
+  },
+  {
+    "name": "Ultraviolet",
+    "Release Year": 2006,
+    "Duration (min)": 88,
+    "IMDB Rating": 4.3,
+    "Box Office (million $)": 18.5
   },
   {
     "name": "Notorious",
@@ -175,6 +175,13 @@
     "Box Office (million $)": 107.93
   },
   {
+    "name": "Police Academy 3: Back in Training",
+    "Release Year": 1986,
+    "Duration (min)": 83,
+    "IMDB Rating": 5.4,
+    "Box Office (million $)": 43.58
+  },
+  {
     "name": "Close Encounters of the Third Kind",
     "Release Year": 1977,
     "Duration (min)": 138,
@@ -182,11 +189,11 @@
     "Box Office (million $)": 132.09
   },
   {
-    "name": "Police Academy 3: Back in Training",
-    "Release Year": 1986,
-    "Duration (min)": 83,
-    "IMDB Rating": 5.4,
-    "Box Office (million $)": 43.58
+    "name": "Batman & Robin",
+    "Release Year": 1997,
+    "Duration (min)": 125,
+    "IMDB Rating": 3.8,
+    "Box Office (million $)": 107.33
   },
   {
     "name": "Marnie",
@@ -203,25 +210,11 @@
     "Box Office (million $)": 35.93
   },
   {
-    "name": "Batman & Robin",
-    "Release Year": 1997,
-    "Duration (min)": 125,
-    "IMDB Rating": 3.8,
-    "Box Office (million $)": 107.33
-  },
-  {
     "name": "Cyborg",
     "Release Year": 1989,
     "Duration (min)": 86,
     "IMDB Rating": 5.0,
     "Box Office (million $)": 10.17
-  },
-  {
-    "name": "Beethoven",
-    "Release Year": 1992,
-    "Duration (min)": 87,
-    "IMDB Rating": 5.7,
-    "Box Office (million $)": 57.11
   },
   {
     "name": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
@@ -231,18 +224,18 @@
     "Box Office (million $)": 78.66
   },
   {
+    "name": "Beethoven",
+    "Release Year": 1992,
+    "Duration (min)": 87,
+    "IMDB Rating": 5.7,
+    "Box Office (million $)": 57.11
+  },
+  {
     "name": "Speed 2: Cruise Control",
     "Release Year": 1997,
     "Duration (min)": 121,
     "IMDB Rating": 3.9,
     "Box Office (million $)": 48.61
-  },
-  {
-    "name": "Apocalypse Now",
-    "Release Year": 1979,
-    "Duration (min)": 147,
-    "IMDB Rating": 8.4,
-    "Box Office (million $)": 83.47
   },
   {
     "name": "Superman IV: The Quest for Peace",
@@ -252,6 +245,13 @@
     "Box Office (million $)": 15.68
   },
   {
+    "name": "Apocalypse Now",
+    "Release Year": 1979,
+    "Duration (min)": 147,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 83.47
+  },
+  {
     "name": "I Still Know What You Did Last Summer",
     "Release Year": 1998,
     "Duration (min)": 100,
@@ -259,11 +259,11 @@
     "Box Office (million $)": 40.0
   },
   {
-    "name": "Spawn",
+    "name": "Home Alone 3",
     "Release Year": 1997,
-    "Duration (min)": 96,
-    "IMDB Rating": 5.2,
-    "Box Office (million $)": 54.97
+    "Duration (min)": 102,
+    "IMDB Rating": 4.6,
+    "Box Office (million $)": 30.88
   },
   {
     "name": "Leprechaun",
@@ -287,18 +287,18 @@
     "Box Office (million $)": 42.77
   },
   {
-    "name": "Home Alone 3",
-    "Release Year": 1997,
-    "Duration (min)": 102,
-    "IMDB Rating": 4.6,
-    "Box Office (million $)": 30.88
-  },
-  {
     "name": "Street Fighter",
     "Release Year": 1994,
     "Duration (min)": 102,
     "IMDB Rating": 4.1,
     "Box Office (million $)": 33.42
+  },
+  {
+    "name": "Spawn",
+    "Release Year": 1997,
+    "Duration (min)": 96,
+    "IMDB Rating": 5.2,
+    "Box Office (million $)": 54.97
   },
   {
     "name": "Showgirls",
@@ -329,18 +329,11 @@
     "Box Office (million $)": 35.38
   },
   {
-    "name": "The Spy Who Loved Me",
-    "Release Year": 1977,
-    "Duration (min)": 125,
-    "IMDB Rating": 7.0,
-    "Box Office (million $)": 46.8
-  },
-  {
-    "name": "Grease 2",
-    "Release Year": 1982,
-    "Duration (min)": 115,
-    "IMDB Rating": 4.5,
-    "Box Office (million $)": 15.17
+    "name": "Judge Dredd",
+    "Release Year": 1995,
+    "Duration (min)": 96,
+    "IMDB Rating": 5.6,
+    "Box Office (million $)": 34.69
   },
   {
     "name": "Cocktail",
@@ -350,11 +343,18 @@
     "Box Office (million $)": 78.22
   },
   {
-    "name": "Under Siege 2: Dark Territory",
-    "Release Year": 1995,
-    "Duration (min)": 100,
-    "IMDB Rating": 5.5,
-    "Box Office (million $)": 50.02
+    "name": "Grease 2",
+    "Release Year": 1982,
+    "Duration (min)": 115,
+    "IMDB Rating": 4.5,
+    "Box Office (million $)": 15.17
+  },
+  {
+    "name": "The Spy Who Loved Me",
+    "Release Year": 1977,
+    "Duration (min)": 125,
+    "IMDB Rating": 7.0,
+    "Box Office (million $)": 46.8
   },
   {
     "name": "Ordinary People",
@@ -364,13 +364,6 @@
     "Box Office (million $)": 54.8
   },
   {
-    "name": "Judge Dredd",
-    "Release Year": 1995,
-    "Duration (min)": 96,
-    "IMDB Rating": 5.6,
-    "Box Office (million $)": 34.69
-  },
-  {
     "name": "Friday the 13th",
     "Release Year": 1980,
     "Duration (min)": 95,
@@ -378,11 +371,11 @@
     "Box Office (million $)": 39.75
   },
   {
-    "name": "Splash",
-    "Release Year": 1983,
-    "Duration (min)": 111,
-    "IMDB Rating": 6.3,
-    "Box Office (million $)": 62.1
+    "name": "Under Siege 2: Dark Territory",
+    "Release Year": 1995,
+    "Duration (min)": 100,
+    "IMDB Rating": 5.5,
+    "Box Office (million $)": 50.02
   },
   {
     "name": "The Blue Lagoon",
@@ -390,6 +383,13 @@
     "Duration (min)": 104,
     "IMDB Rating": 5.8,
     "Box Office (million $)": 58.85
+  },
+  {
+    "name": "Splash",
+    "Release Year": 1983,
+    "Duration (min)": 111,
+    "IMDB Rating": 6.3,
+    "Box Office (million $)": 62.1
   },
   {
     "name": "The Running Man",
