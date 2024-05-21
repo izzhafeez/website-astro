@@ -7,13 +7,6 @@
     "Screen Size (inches)": 12.5
   },
   {
-    "name": "MSI GT80S 6QF-074US",
-    "CPU (GHz)": 2.9,
-    "Weight (kg)": 4.4,
-    "Price (Euros)": 2799,
-    "Screen Size (inches)": 18.4
-  },
-  {
     "name": "Asus ROG G703VI-E5062T",
     "CPU (GHz)": 2.9,
     "Weight (kg)": 4.7,
@@ -21,31 +14,17 @@
     "Screen Size (inches)": 17.3
   },
   {
+    "name": "MSI GT80S 6QF-074US",
+    "CPU (GHz)": 2.9,
+    "Weight (kg)": 4.4,
+    "Price (Euros)": 2799,
+    "Screen Size (inches)": 18.4
+  },
+  {
     "name": "Asus Vivobook E200HA",
     "CPU (GHz)": 1.44,
     "Weight (kg)": 0.98,
     "Price (Euros)": 191,
-    "Screen Size (inches)": 11.6
-  },
-  {
-    "name": "Asus Rog G701VIK-BA060T",
-    "CPU (GHz)": 2.9,
-    "Weight (kg)": 3.6,
-    "Price (Euros)": 2999,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Razer Blade Pro",
-    "CPU (GHz)": 2.9,
-    "Weight (kg)": 3.49,
-    "Price (Euros)": 6099,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Asus VivoBook Flip",
-    "CPU (GHz)": 1.1,
-    "Weight (kg)": 1.1,
-    "Price (Euros)": 275,
     "Screen Size (inches)": 11.6
   },
   {
@@ -56,17 +35,24 @@
     "Screen Size (inches)": 10.1
   },
   {
+    "name": "Razer Blade Pro",
+    "CPU (GHz)": 2.9,
+    "Weight (kg)": 3.49,
+    "Price (Euros)": 6099,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "Asus Rog G701VIK-BA060T",
+    "CPU (GHz)": 2.9,
+    "Weight (kg)": 3.6,
+    "Price (Euros)": 2999,
+    "Screen Size (inches)": 17.3
+  },
+  {
     "name": "Dell Precision 7720",
     "CPU (GHz)": 2.9,
     "Weight (kg)": 3.42,
     "Price (Euros)": 2884,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "MSI GE73VR 7RE",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.8,
-    "Price (Euros)": 1890,
     "Screen Size (inches)": 17.3
   },
   {
@@ -84,11 +70,18 @@
     "Screen Size (inches)": 17.3
   },
   {
-    "name": "Lenovo IdeaPad 320-15IAP",
+    "name": "Lenovo IdeaPad 120S-14IAP",
     "CPU (GHz)": 1.1,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 359,
-    "Screen Size (inches)": 15.6
+    "Weight (kg)": 1.44,
+    "Price (Euros)": 249,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Asus VivoBook Flip",
+    "CPU (GHz)": 1.1,
+    "Weight (kg)": 1.1,
+    "Price (Euros)": 275,
+    "Screen Size (inches)": 11.6
   },
   {
     "name": "Acer Chromebook C910-C2ST",
@@ -98,18 +91,11 @@
     "Screen Size (inches)": 15.6
   },
   {
-    "name": "HP EliteBook x360",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 1.28,
-    "Price (Euros)": 1975,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Huawei MateBook X",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.05,
-    "Price (Euros)": 1349,
-    "Screen Size (inches)": 13.0
+    "name": "Dell Inspiron 5770",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 2.8,
+    "Price (Euros)": 979,
+    "Screen Size (inches)": 17.3
   },
   {
     "name": "Lenovo ThinkPad X1",
@@ -119,18 +105,18 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "HP ProBook 470",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 2.5,
-    "Price (Euros)": 896,
-    "Screen Size (inches)": 17.3
+    "name": "Huawei MateBook X",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.05,
+    "Price (Euros)": 1349,
+    "Screen Size (inches)": 13.0
   },
   {
-    "name": "MSI GS73VR 7RG",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.43,
-    "Price (Euros)": 2449,
-    "Screen Size (inches)": 17.3
+    "name": "Lenovo IdeaPad 320-15IAP",
+    "CPU (GHz)": 1.1,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 359,
+    "Screen Size (inches)": 15.6
   },
   {
     "name": "Acer Aspire A315-31",
@@ -140,53 +126,18 @@
     "Screen Size (inches)": 15.6
   },
   {
-    "name": "MSI GT73EVR 7RE",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 4.14,
-    "Price (Euros)": 2499,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Acer Aspire A517-51G",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 3.0,
-    "Price (Euros)": 805,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Asus ZenBook Flip",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.1,
-    "Price (Euros)": 1315,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Dell Inspiron 5770",
-    "CPU (GHz)": 1.6,
+    "name": "Lenovo IdeaPad 320-17IKB",
+    "CPU (GHz)": 2.5,
     "Weight (kg)": 2.8,
-    "Price (Euros)": 979,
+    "Price (Euros)": 589,
     "Screen Size (inches)": 17.3
   },
   {
-    "name": "Asus ROG G752VSK-GC493T",
+    "name": "HP EliteBook x360",
     "CPU (GHz)": 2.8,
-    "Weight (kg)": 4.3,
-    "Price (Euros)": 1799,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Lenovo IdeaPad 120S-14IAP",
-    "CPU (GHz)": 1.1,
-    "Weight (kg)": 1.44,
-    "Price (Euros)": 249,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Dell Inspiron 7773",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 2.77,
-    "Price (Euros)": 999,
-    "Screen Size (inches)": 17.3
+    "Weight (kg)": 1.28,
+    "Price (Euros)": 1975,
+    "Screen Size (inches)": 13.3
   },
   {
     "name": "Acer TravelMate B",
@@ -196,6 +147,27 @@
     "Screen Size (inches)": 11.6
   },
   {
+    "name": "Asus ZenBook Flip",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.1,
+    "Price (Euros)": 1315,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Acer Aspire A517-51G",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 3.0,
+    "Price (Euros)": 805,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "MSI GT73EVR 7RE",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 4.14,
+    "Price (Euros)": 2499,
+    "Screen Size (inches)": 17.3
+  },
+  {
     "name": "HP Stream 14-AX040wm",
     "CPU (GHz)": 1.6,
     "Weight (kg)": 1.44,
@@ -203,10 +175,10 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "Lenovo IdeaPad 320-17IKBR",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 2.8,
-    "Price (Euros)": 698,
+    "name": "Asus ROG G752VSK-GC493T",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 4.3,
+    "Price (Euros)": 1799,
     "Screen Size (inches)": 17.3
   },
   {
@@ -217,20 +189,6 @@
     "Screen Size (inches)": 13.3
   },
   {
-    "name": "MSI GL72M 7RDX",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.7,
-    "Price (Euros)": 1095,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Asus ROG GL703VD-GC028T",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.9,
-    "Price (Euros)": 1407,
-    "Screen Size (inches)": 17.3
-  },
-  {
     "name": "HP 255 G6",
     "CPU (GHz)": 1.5,
     "Weight (kg)": 1.86,
@@ -238,101 +196,24 @@
     "Screen Size (inches)": 15.6
   },
   {
-    "name": "HP Spectre x360",
+    "name": "Lenovo IdeaPad 320-17IKBR",
     "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.26,
-    "Price (Euros)": 1398,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Asus VivoBook Pro",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 2.1,
-    "Price (Euros)": 1145,
+    "Weight (kg)": 2.8,
+    "Price (Euros)": 698,
     "Screen Size (inches)": 17.3
   },
   {
-    "name": "MSI GP62M 7REX",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 1299,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Toshiba Portege Z30-C-16L",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.2,
-    "Price (Euros)": 1363,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "HP Omen 15-ce007nv",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.62,
-    "Price (Euros)": 1249,
-    "Screen Size (inches)": 15.6
+    "name": "HP ProBook 470",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 2.5,
+    "Price (Euros)": 896,
+    "Screen Size (inches)": 17.3
   },
   {
     "name": "Lenovo IdeaPad 720S-13IKB",
     "CPU (GHz)": 2.5,
     "Weight (kg)": 1.1,
     "Price (Euros)": 999,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "MSI GE63VR 7RE",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.4,
-    "Price (Euros)": 1799,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "HP Omen 17-W295",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 3.35,
-    "Price (Euros)": 1379,
-    "Screen Size (inches)": 17.3
-  },
-  {
-    "name": "Asus Pro P2540UA-XO0198T",
-    "CPU (GHz)": 2.4,
-    "Weight (kg)": 2.37,
-    "Price (Euros)": 398,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo Legion Y720-15IKB",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 3.2,
-    "Price (Euros)": 1749,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo ThinkPad Yoga",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.37,
-    "Price (Euros)": 1399,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Dell XPS 15",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.06,
-    "Price (Euros)": 2397,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "MSI GS63VR 7RG",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 1.8,
-    "Price (Euros)": 2241,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell XPS 13",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.22,
-    "Price (Euros)": 979,
     "Screen Size (inches)": 13.3
   },
   {
@@ -343,10 +224,66 @@
     "Screen Size (inches)": 15.6
   },
   {
-    "name": "Dell Inspiron 7567",
+    "name": "Lenovo Legion Y720-15IKB",
     "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.62,
-    "Price (Euros)": 899,
+    "Weight (kg)": 3.2,
+    "Price (Euros)": 1749,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 7773",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 2.77,
+    "Price (Euros)": 999,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "Toshiba Portege Z30-C-16L",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.2,
+    "Price (Euros)": 1363,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Apple Macbook Air",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.34,
+    "Price (Euros)": 898,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "MSI GS73VR 7RG",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.43,
+    "Price (Euros)": 2449,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "Asus Pro P2540UA-XO0198T",
+    "CPU (GHz)": 2.4,
+    "Weight (kg)": 2.37,
+    "Price (Euros)": 398,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP Omen 17-W295",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 3.35,
+    "Price (Euros)": 1379,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "MSI GE63VR 7RE",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.4,
+    "Price (Euros)": 1799,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell XPS 15",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.06,
+    "Price (Euros)": 2397,
     "Screen Size (inches)": 15.6
   },
   {
@@ -364,6 +301,83 @@
     "Screen Size (inches)": 14.0
   },
   {
+    "name": "Acer Aspire A715-71G",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.5,
+    "Price (Euros)": 979,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP Spectre x360",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.26,
+    "Price (Euros)": 1398,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "MSI GS63VR 7RG",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 1.8,
+    "Price (Euros)": 2241,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Vostro 5370",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.41,
+    "Price (Euros)": 949,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Dell Inspiron 7567",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.62,
+    "Price (Euros)": 899,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "MSI GE63VR 7RF",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.8,
+    "Price (Euros)": 2099,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell XPS 13",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.22,
+    "Price (Euros)": 979,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "MSI GL72M 7RDX",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.7,
+    "Price (Euros)": 1095,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "Lenovo IdeaPad 320-15AST",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 399,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP ProBook 430",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.49,
+    "Price (Euros)": 1103,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Acer Spin 3",
+    "CPU (GHz)": 2.4,
+    "Weight (kg)": 2.1,
+    "Price (Euros)": 479,
+    "Screen Size (inches)": 15.6
+  },
+  {
     "name": "HP Envy 17-U275cl",
     "CPU (GHz)": 1.8,
     "Weight (kg)": 2.9,
@@ -378,31 +392,17 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "MSI GE63VR 7RF",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.8,
-    "Price (Euros)": 2099,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo IdeaPad 320-15AST",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 399,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Apple MacBook Pro",
-    "CPU (GHz)": 2.3,
-    "Weight (kg)": 1.37,
-    "Price (Euros)": 1339,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Lenovo ThinkPad 13",
+    "name": "HP ProBook 450",
     "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.45,
-    "Price (Euros)": 459,
+    "Weight (kg)": 2.1,
+    "Price (Euros)": 879,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP Envy 13-AD007nv",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.32,
+    "Price (Euros)": 699,
     "Screen Size (inches)": 13.3
   },
   {
@@ -413,17 +413,31 @@
     "Screen Size (inches)": 13.5
   },
   {
+    "name": "Acer Aspire 7",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.4,
+    "Price (Euros)": 779,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo ThinkPad 13",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.45,
+    "Price (Euros)": 459,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Asus VivoBook Pro",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 2.1,
+    "Price (Euros)": 1145,
+    "Screen Size (inches)": 17.3
+  },
+  {
     "name": "Lenovo IdeaPad 310-15ABR",
     "CPU (GHz)": 2.4,
     "Weight (kg)": 2.4,
     "Price (Euros)": 499,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 7577",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.65,
-    "Price (Euros)": 1499,
     "Screen Size (inches)": 15.6
   },
   {
@@ -434,18 +448,25 @@
     "Screen Size (inches)": 13.9
   },
   {
-    "name": "Lenovo IdeaPad 320-17IKB",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.8,
-    "Price (Euros)": 589,
+    "name": "Asus ROG GL703VD-GC028T",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.9,
+    "Price (Euros)": 1407,
     "Screen Size (inches)": 17.3
   },
   {
-    "name": "Acer Spin 3",
-    "CPU (GHz)": 2.4,
-    "Weight (kg)": 2.1,
-    "Price (Euros)": 479,
-    "Screen Size (inches)": 15.6
+    "name": "Acer Aspire R7",
+    "CPU (GHz)": 2.3,
+    "Weight (kg)": 1.6,
+    "Price (Euros)": 689,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Acer Spin 5",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.5,
+    "Price (Euros)": 847,
+    "Screen Size (inches)": 13.3
   },
   {
     "name": "Asus ZenBook Pro",
@@ -455,11 +476,11 @@
     "Screen Size (inches)": 15.6
   },
   {
-    "name": "HP Envy 13-ad009n",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.38,
-    "Price (Euros)": 1119,
-    "Screen Size (inches)": 13.3
+    "name": "Lenovo Yoga 720-15IKB",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.0,
+    "Price (Euros)": 1699,
+    "Screen Size (inches)": 15.6
   },
   {
     "name": "Lenovo IdeaPad 320-15IKB",
@@ -476,325 +497,17 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "HP Envy 13-AD007nv",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.32,
-    "Price (Euros)": 699,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Lenovo IdeaPad 320-15IKBN",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 519,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire A515-51G-32MX",
+    "name": "HP Envy 13-ad009n",
     "CPU (GHz)": 2.7,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 530,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo Yoga 720-15IKB",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.0,
-    "Price (Euros)": 1699,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire E5-575",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.23,
-    "Price (Euros)": 549,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Apple Macbook Air",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.34,
-    "Price (Euros)": 898,
+    "Weight (kg)": 1.38,
+    "Price (Euros)": 1119,
     "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "HP ProBook 430",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.49,
-    "Price (Euros)": 1103,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Acer Aspire A515-51G-37JS",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 572,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire 7",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.4,
-    "Price (Euros)": 779,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire A715-71G",
-    "CPU (GHz)": 2.8,
-    "Weight (kg)": 2.5,
-    "Price (Euros)": 979,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "HP 250 G6",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.86,
-    "Price (Euros)": 575,
-    "Screen Size (inches)": 15.6
   },
   {
     "name": "Acer Aspire A515-51G",
     "CPU (GHz)": 1.6,
     "Weight (kg)": 2.2,
     "Price (Euros)": 682,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo Yoga 910-13IKB",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.38,
-    "Price (Euros)": 1079,
-    "Screen Size (inches)": 13.9
-  },
-  {
-    "name": "Asus VivoBook Max",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.0,
-    "Price (Euros)": 586,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Xiaomi Mi Notebook",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.95,
-    "Price (Euros)": 1199,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 5370",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.4,
-    "Price (Euros)": 955,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Dell Inspiron 3576",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 2.13,
-    "Price (Euros)": 767,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo Thinkpad T470",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.58,
-    "Price (Euros)": 1480,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Lenovo IdeaPad 520S-14IKB",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.7,
-    "Price (Euros)": 599,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Dell Inspiron 5570",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 800,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "HP Pavilion 15-CK000nv",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.83,
-    "Price (Euros)": 699,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 7570",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 2.16,
-    "Price (Euros)": 1130,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 5379",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.62,
-    "Price (Euros)": 819,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "HP ProBook 450",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 2.1,
-    "Price (Euros)": 879,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Vostro 5370",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.41,
-    "Price (Euros)": 949,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Toshiba Satellite Pro",
-    "CPU (GHz)": 2.3,
-    "Weight (kg)": 2.1,
-    "Price (Euros)": 602,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 5579",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.56,
-    "Price (Euros)": 1049,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Inspiron 5567",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.36,
-    "Price (Euros)": 638,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Asus ZenBook UX530UQ-PRO",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.63,
-    "Price (Euros)": 1468,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Spin 5",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.5,
-    "Price (Euros)": 847,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Dell Latitude 5590",
-    "CPU (GHz)": 1.9,
-    "Weight (kg)": 1.88,
-    "Price (Euros)": 1298,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Asus Vivobook X541UV-DM1217T",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.0,
-    "Price (Euros)": 769,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "HP EliteBook 840",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.48,
-    "Price (Euros)": 1082,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Acer Nitro AN515-51",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.5,
-    "Price (Euros)": 846,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire R7",
-    "CPU (GHz)": 2.3,
-    "Weight (kg)": 1.6,
-    "Price (Euros)": 689,
-    "Screen Size (inches)": 13.3
-  },
-  {
-    "name": "Acer Aspire E5-576G",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 2.23,
-    "Price (Euros)": 742,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Lenovo Legion Y520-15IKBN",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.5,
-    "Price (Euros)": 999,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Asus ZenBook UX410UA-GV183T",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 2.0,
-    "Price (Euros)": 1094,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Dell Vostro 3568",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 2.18,
-    "Price (Euros)": 657,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Acer Aspire 5",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 2.2,
-    "Price (Euros)": 689,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Dell Latitude 5490",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.6,
-    "Price (Euros)": 1149,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Lenovo ThinkPad E480",
-    "CPU (GHz)": 1.6,
-    "Weight (kg)": 1.75,
-    "Price (Euros)": 1116,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "Lenovo Yoga 520-14IKB",
-    "CPU (GHz)": 2.4,
-    "Weight (kg)": 1.74,
-    "Price (Euros)": 629,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "HP Pavilion 14-BK001nv",
-    "CPU (GHz)": 2.5,
-    "Weight (kg)": 1.58,
-    "Price (Euros)": 659,
-    "Screen Size (inches)": 14.0
-  },
-  {
-    "name": "HP ZBook 15u",
-    "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.9,
-    "Price (Euros)": 1269,
-    "Screen Size (inches)": 15.6
-  },
-  {
-    "name": "Asus VivoBook S15",
-    "CPU (GHz)": 1.8,
-    "Weight (kg)": 1.5,
-    "Price (Euros)": 1262,
     "Screen Size (inches)": 15.6
   },
   {
@@ -805,11 +518,179 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "Lenovo Thinkpad T570",
+    "name": "MSI GE73VR 7RE",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.8,
+    "Price (Euros)": 1890,
+    "Screen Size (inches)": 17.3
+  },
+  {
+    "name": "Lenovo ThinkPad Yoga",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.37,
+    "Price (Euros)": 1399,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Acer Aspire A515-51G-32MX",
     "CPU (GHz)": 2.7,
-    "Weight (kg)": 1.95,
-    "Price (Euros)": 1097,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 530,
     "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "CPU (GHz)": 2.3,
+    "Weight (kg)": 1.37,
+    "Price (Euros)": 1339,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Asus VivoBook Max",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.0,
+    "Price (Euros)": 586,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo IdeaPad 320-15IKBN",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 519,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Acer Aspire E5-575",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.23,
+    "Price (Euros)": 549,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "MSI GP62M 7REX",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 1299,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 5570",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 800,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo Yoga 910-13IKB",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.38,
+    "Price (Euros)": 1079,
+    "Screen Size (inches)": 13.9
+  },
+  {
+    "name": "Acer Aspire A515-51G-37JS",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 572,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Xiaomi Mi Notebook",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.95,
+    "Price (Euros)": 1199,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 7577",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.65,
+    "Price (Euros)": 1499,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo IdeaPad 520S-14IKB",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.7,
+    "Price (Euros)": 599,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "HP 250 G6",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.86,
+    "Price (Euros)": 575,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo Thinkpad T470",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.58,
+    "Price (Euros)": 1480,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Dell Inspiron 5379",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.62,
+    "Price (Euros)": 819,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Acer Aspire E5-576G",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 2.23,
+    "Price (Euros)": 742,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 5567",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.36,
+    "Price (Euros)": 638,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo ThinkPad E480",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.75,
+    "Price (Euros)": 1116,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "HP Omen 15-ce007nv",
+    "CPU (GHz)": 2.8,
+    "Weight (kg)": 2.62,
+    "Price (Euros)": 1249,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Asus ZenBook UX530UQ-PRO",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.63,
+    "Price (Euros)": 1468,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 5370",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.4,
+    "Price (Euros)": 955,
+    "Screen Size (inches)": 13.3
+  },
+  {
+    "name": "Toshiba Satellite Pro",
+    "CPU (GHz)": 2.3,
+    "Weight (kg)": 2.1,
+    "Price (Euros)": 602,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP EliteBook 840",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.48,
+    "Price (Euros)": 1082,
+    "Screen Size (inches)": 14.0
   },
   {
     "name": "Dell Vostro 5471",
@@ -819,11 +700,130 @@
     "Screen Size (inches)": 14.0
   },
   {
+    "name": "Asus ZenBook UX410UA-GV183T",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 2.0,
+    "Price (Euros)": 1094,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Dell Inspiron 7570",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 2.16,
+    "Price (Euros)": 1130,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Acer Nitro AN515-51",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.5,
+    "Price (Euros)": 846,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Lenovo Legion Y520-15IKBN",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.5,
+    "Price (Euros)": 999,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Latitude 5490",
+    "CPU (GHz)": 1.6,
+    "Weight (kg)": 1.6,
+    "Price (Euros)": 1149,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Lenovo Yoga 520-14IKB",
+    "CPU (GHz)": 2.4,
+    "Weight (kg)": 1.74,
+    "Price (Euros)": 629,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Dell Vostro 3568",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.18,
+    "Price (Euros)": 657,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Asus VivoBook S15",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.5,
+    "Price (Euros)": 1262,
+    "Screen Size (inches)": 15.6
+  },
+  {
     "name": "HP ProBook 440",
     "CPU (GHz)": 1.6,
     "Weight (kg)": 1.63,
     "Price (Euros)": 860,
     "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "HP Pavilion 14-BK001nv",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.58,
+    "Price (Euros)": 659,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Acer Aspire 5",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 2.2,
+    "Price (Euros)": 689,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP ZBook 15u",
+    "CPU (GHz)": 2.7,
+    "Weight (kg)": 1.9,
+    "Price (Euros)": 1269,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP ProBook 640",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 1.95,
+    "Price (Euros)": 980,
+    "Screen Size (inches)": 14.0
+  },
+  {
+    "name": "Dell Latitude 5590",
+    "CPU (GHz)": 1.9,
+    "Weight (kg)": 1.88,
+    "Price (Euros)": 1298,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 5579",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.56,
+    "Price (Euros)": 1049,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Dell Inspiron 3576",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 2.13,
+    "Price (Euros)": 767,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "HP Pavilion 15-CK000nv",
+    "CPU (GHz)": 1.8,
+    "Weight (kg)": 1.83,
+    "Price (Euros)": 699,
+    "Screen Size (inches)": 15.6
+  },
+  {
+    "name": "Asus Vivobook X541UV-DM1217T",
+    "CPU (GHz)": 2.5,
+    "Weight (kg)": 2.0,
+    "Price (Euros)": 769,
+    "Screen Size (inches)": 15.6
   },
   {
     "name": "Dell Vostro 5468",
@@ -833,10 +833,10 @@
     "Screen Size (inches)": 14.0
   },
   {
-    "name": "HP ProBook 640",
-    "CPU (GHz)": 2.5,
+    "name": "Lenovo Thinkpad T570",
+    "CPU (GHz)": 2.7,
     "Weight (kg)": 1.95,
-    "Price (Euros)": 980,
-    "Screen Size (inches)": 14.0
+    "Price (Euros)": 1097,
+    "Screen Size (inches)": 15.6
   }
 ]
