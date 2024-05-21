@@ -1,716 +1,842 @@
 [
   {
-    "name": "Rholang",
-    "Year Appeared": 2016,
-    "No. of Jobs": 13,
-    "No. of Books": 0
+    "name": "Morse code",
+    "Year Appeared": 1837,
+    "Daily Wikipedia Views": 5843,
+    "No. of Users": 29235
   },
   {
-    "name": "Fortran",
-    "Year Appeared": 1957,
-    "No. of Jobs": 1931,
-    "No. of Books": 321
+    "name": "NATO phonetic alphabet",
+    "Year Appeared": 1956,
+    "Daily Wikipedia Views": 13394,
+    "No. of Users": 66990
   },
   {
-    "name": "Tag Line Commands",
-    "Year Appeared": 2015,
-    "No. of Jobs": 579,
-    "No. of Books": 0
-  },
-  {
-    "name": "Idris",
-    "Year Appeared": 2014,
-    "No. of Jobs": 1,
-    "No. of Books": 1
-  },
-  {
-    "name": "COBOL",
-    "Year Appeared": 1959,
-    "No. of Jobs": 2616,
-    "No. of Books": 301
-  },
-  {
-    "name": "SQL",
-    "Year Appeared": 1974,
-    "No. of Jobs": 219617,
-    "No. of Books": 182
-  },
-  {
-    "name": "WebAssembly",
-    "Year Appeared": 2015,
-    "No. of Jobs": 5,
-    "No. of Books": 13
-  },
-  {
-    "name": "TensorFlow",
-    "Year Appeared": 2015,
-    "No. of Jobs": 721,
-    "No. of Books": 1
-  },
-  {
-    "name": "Java",
-    "Year Appeared": 1995,
-    "No. of Jobs": 85206,
-    "No. of Books": 401
-  },
-  {
-    "name": "C",
-    "Year Appeared": 1972,
-    "No. of Jobs": 59919,
-    "No. of Books": 78
-  },
-  {
-    "name": "JavaScript",
-    "Year Appeared": 1995,
-    "No. of Jobs": 63993,
-    "No. of Books": 351
-  },
-  {
-    "name": "HTTP",
-    "Year Appeared": 1989,
-    "No. of Jobs": 771996,
-    "No. of Books": 12
-  },
-  {
-    "name": "Redis",
-    "Year Appeared": 2009,
-    "No. of Jobs": 591,
-    "No. of Books": 0
-  },
-  {
-    "name": "Python",
-    "Year Appeared": 1991,
-    "No. of Jobs": 46976,
-    "No. of Books": 342
-  },
-  {
-    "name": "Lisp",
-    "Year Appeared": 1958,
-    "No. of Jobs": 303,
-    "No. of Books": 75
-  },
-  {
-    "name": "Pascal",
-    "Year Appeared": 1970,
-    "No. of Jobs": 102,
-    "No. of Books": 145
-  },
-  {
-    "name": "fish",
-    "Year Appeared": 2005,
-    "No. of Jobs": 1,
-    "No. of Books": 1
-  },
-  {
-    "name": "Protocol Buffers",
-    "Year Appeared": 2008,
-    "No. of Jobs": 94,
-    "No. of Books": 0
-  },
-  {
-    "name": "Hack",
-    "Year Appeared": 2014,
-    "No. of Jobs": 19,
-    "No. of Books": 27
-  },
-  {
-    "name": "HTML",
-    "Year Appeared": 1991,
-    "No. of Jobs": 69531,
-    "No. of Books": 116
-  },
-  {
-    "name": "C++",
-    "Year Appeared": 1985,
-    "No. of Jobs": 61098,
-    "No. of Books": 128
-  },
-  {
-    "name": "SPSS",
-    "Year Appeared": 1968,
-    "No. of Jobs": 9587,
-    "No. of Books": 14
-  },
-  {
-    "name": "Haxe",
-    "Year Appeared": 2005,
-    "No. of Jobs": 1,
-    "No. of Books": 5
-  },
-  {
-    "name": "Assembly language",
-    "Year Appeared": 1960,
-    "No. of Jobs": 1329,
-    "No. of Books": 0
-  },
-  {
-    "name": "Git",
-    "Year Appeared": 2005,
-    "No. of Jobs": 7032,
-    "No. of Books": 0
-  },
-  {
-    "name": "Perl",
-    "Year Appeared": 1987,
-    "No. of Jobs": 13482,
-    "No. of Books": 276
-  },
-  {
-    "name": "Chapel",
-    "Year Appeared": 2004,
-    "No. of Jobs": 1,
-    "No. of Books": 2
-  },
-  {
-    "name": "Qualcomm Hexagon",
-    "Year Appeared": 2006,
-    "No. of Jobs": 10,
-    "No. of Books": 0
-  },
-  {
-    "name": "Solidity",
-    "Year Appeared": 2014,
-    "No. of Jobs": 937,
-    "No. of Books": 22
-  },
-  {
-    "name": "MATLAB",
-    "Year Appeared": 1984,
-    "No. of Jobs": 32228,
-    "No. of Books": 177
-  },
-  {
-    "name": "Swift",
-    "Year Appeared": 2014,
-    "No. of Jobs": 3754,
-    "No. of Books": 125
-  },
-  {
-    "name": "PHP",
-    "Year Appeared": 1995,
-    "No. of Jobs": 30349,
-    "No. of Books": 274
-  },
-  {
-    "name": "MIME",
-    "Year Appeared": 1991,
-    "No. of Jobs": 1,
-    "No. of Books": 1
-  },
-  {
-    "name": "Prolog",
-    "Year Appeared": 1972,
-    "No. of Jobs": 446,
-    "No. of Books": 100
-  },
-  {
-    "name": "MySQL",
-    "Year Appeared": 1995,
-    "No. of Jobs": 47466,
-    "No. of Books": 168
-  },
-  {
-    "name": "AMPL",
-    "Year Appeared": 1985,
-    "No. of Jobs": 3,
-    "No. of Books": 8
-  },
-  {
-    "name": "VBA",
-    "Year Appeared": 1993,
-    "No. of Jobs": 511,
-    "No. of Books": 270
-  },
-  {
-    "name": "Tex",
-    "Year Appeared": 1978,
-    "No. of Jobs": 3,
-    "No. of Books": 3
-  },
-  {
-    "name": "LLVM IR",
-    "Year Appeared": 2003,
-    "No. of Jobs": 23,
-    "No. of Books": 0
-  },
-  {
-    "name": "Scheme",
-    "Year Appeared": 1970,
-    "No. of Jobs": 1174,
-    "No. of Books": 24
-  },
-  {
-    "name": "Elm",
-    "Year Appeared": 2012,
-    "No. of Jobs": 127,
-    "No. of Books": 5
-  },
-  {
-    "name": "Julia",
-    "Year Appeared": 2012,
-    "No. of Jobs": 85,
-    "No. of Books": 22
-  },
-  {
-    "name": "JavaCC",
-    "Year Appeared": 1996,
-    "No. of Jobs": 5,
-    "No. of Books": 0
-  },
-  {
-    "name": "ML",
-    "Year Appeared": 1973,
-    "No. of Jobs": 6,
-    "No. of Books": 33
-  },
-  {
-    "name": "Visual Basic",
-    "Year Appeared": 1991,
-    "No. of Jobs": 3294,
-    "No. of Books": 0
-  },
-  {
-    "name": "Arduino Programming Language",
-    "Year Appeared": 2005,
-    "No. of Jobs": 598,
-    "No. of Books": 265
-  },
-  {
-    "name": "ISBN",
-    "Year Appeared": 1970,
-    "No. of Jobs": 53,
-    "No. of Books": 3
-  },
-  {
-    "name": "TypeScript",
-    "Year Appeared": 2012,
-    "No. of Jobs": 1542,
-    "No. of Books": 56
-  },
-  {
-    "name": "Linux",
-    "Year Appeared": 1991,
-    "No. of Jobs": 32007,
-    "No. of Books": 2
-  },
-  {
-    "name": "CSS",
-    "Year Appeared": 1996,
-    "No. of Jobs": 45617,
-    "No. of Books": 102
-  },
-  {
-    "name": "XML",
-    "Year Appeared": 1996,
-    "No. of Jobs": 42277,
-    "No. of Books": 151
-  },
-  {
-    "name": "SAS",
-    "Year Appeared": 1976,
-    "No. of Jobs": 4682,
-    "No. of Books": 96
-  },
-  {
-    "name": "Microsoft Azure",
-    "Year Appeared": 2010,
-    "No. of Jobs": 1448,
-    "No. of Books": 1
-  },
-  {
-    "name": "YAML",
-    "Year Appeared": 2001,
-    "No. of Jobs": 61,
-    "No. of Books": 0
-  },
-  {
-    "name": "awk",
-    "Year Appeared": 1977,
-    "No. of Jobs": 7,
-    "No. of Books": 26
-  },
-  {
-    "name": "Elixir",
-    "Year Appeared": 2011,
-    "No. of Jobs": 214,
-    "No. of Books": 31
-  },
-  {
-    "name": "Visual Basic .NET",
-    "Year Appeared": 2001,
-    "No. of Jobs": 3447,
-    "No. of Books": 0
-  },
-  {
-    "name": "Kotlin",
-    "Year Appeared": 2011,
-    "No. of Jobs": 5276,
-    "No. of Books": 99
-  },
-  {
-    "name": "Applescript",
-    "Year Appeared": 1993,
-    "No. of Jobs": 6,
-    "No. of Books": 15
-  },
-  {
-    "name": "JQuery",
-    "Year Appeared": 2006,
-    "No. of Jobs": 24780,
-    "No. of Books": 2
-  },
-  {
-    "name": "Dart",
-    "Year Appeared": 2011,
-    "No. of Jobs": 208,
-    "No. of Books": 30
-  },
-  {
-    "name": "Rust",
-    "Year Appeared": 2010,
-    "No. of Jobs": 141,
-    "No. of Books": 65
-  },
-  {
-    "name": "LabVIEW G",
-    "Year Appeared": 1986,
-    "No. of Jobs": 2012,
-    "No. of Books": 0
-  },
-  {
-    "name": "Yacc",
-    "Year Appeared": 1975,
-    "No. of Jobs": 17,
-    "No. of Books": 4
-  },
-  {
-    "name": "MIPS architecture",
-    "Year Appeared": 1985,
-    "No. of Jobs": 12,
-    "No. of Books": 0
-  },
-  {
-    "name": "REST",
-    "Year Appeared": 1996,
-    "No. of Jobs": 26215,
-    "No. of Books": 5
-  },
-  {
-    "name": "CouchDB",
-    "Year Appeared": 2005,
-    "No. of Jobs": 13,
-    "No. of Books": 3
-  },
-  {
-    "name": "C#",
-    "Year Appeared": 2000,
-    "No. of Jobs": 19747,
-    "No. of Books": 3
-  },
-  {
-    "name": "Scala",
-    "Year Appeared": 2004,
-    "No. of Jobs": 4525,
-    "No. of Books": 130
-  },
-  {
-    "name": "ActionScript",
-    "Year Appeared": 1998,
-    "No. of Jobs": 88,
-    "No. of Books": 108
-  },
-  {
-    "name": "x86-64",
-    "Year Appeared": 2000,
-    "No. of Jobs": 413,
-    "No. of Books": 0
-  },
-  {
-    "name": "Ada",
-    "Year Appeared": 1980,
-    "No. of Jobs": 2184,
-    "No. of Books": 64
-  },
-  {
-    "name": "MongoDB",
-    "Year Appeared": 2009,
-    "No. of Jobs": 3787,
-    "No. of Books": 2
-  },
-  {
-    "name": "Go",
-    "Year Appeared": 2009,
-    "No. of Jobs": 6403,
-    "No. of Books": 5
-  },
-  {
-    "name": "Node.js",
-    "Year Appeared": 2009,
-    "No. of Jobs": 6864,
-    "No. of Books": 79
-  },
-  {
-    "name": "WordPress",
-    "Year Appeared": 2003,
-    "No. of Jobs": 14952,
-    "No. of Books": 3
-  },
-  {
-    "name": "Lasso",
-    "Year Appeared": 1995,
-    "No. of Jobs": 142,
-    "No. of Books": 0
-  },
-  {
-    "name": "Rexx",
-    "Year Appeared": 1979,
-    "No. of Jobs": 40,
-    "No. of Books": 19
-  },
-  {
-    "name": "CoffeeScript",
-    "Year Appeared": 2009,
-    "No. of Jobs": 216,
-    "No. of Books": 17
-  },
-  {
-    "name": "PowerShell",
-    "Year Appeared": 2006,
-    "No. of Jobs": 19576,
-    "No. of Books": 107
-  },
-  {
-    "name": "PostgreSQL",
-    "Year Appeared": 1986,
-    "No. of Jobs": 13084,
-    "No. of Books": 40
-  },
-  {
-    "name": "OpenCL",
-    "Year Appeared": 2009,
-    "No. of Jobs": 266,
-    "No. of Books": 25
-  },
-  {
-    "name": "Ruby on Rails",
-    "Year Appeared": 2005,
-    "No. of Jobs": 6343,
-    "No. of Books": 1
-  },
-  {
-    "name": "R",
-    "Year Appeared": 1993,
-    "No. of Jobs": 14173,
-    "No. of Books": 40
-  },
-  {
-    "name": "ABAP",
-    "Year Appeared": 1983,
-    "No. of Jobs": 283,
-    "No. of Books": 55
-  },
-  {
-    "name": "UDP",
-    "Year Appeared": 1980,
-    "No. of Jobs": 35,
-    "No. of Books": 1
-  },
-  {
-    "name": "Liquid",
-    "Year Appeared": 2008,
-    "No. of Jobs": 325,
-    "No. of Books": 2
+    "name": "20-GATE",
+    "Year Appeared": 1961,
+    "Daily Wikipedia Views": 1,
+    "No. of Users": 25
   },
   {
     "name": "Android",
     "Year Appeared": 2008,
-    "No. of Jobs": 9263,
-    "No. of Books": 2
+    "Daily Wikipedia Views": 9920,
+    "No. of Users": 975958
   },
   {
-    "name": "Apache Hbase",
-    "Year Appeared": 2008,
-    "No. of Jobs": 65,
-    "No. of Books": 2
+    "name": "SQL",
+    "Year Appeared": 1974,
+    "Daily Wikipedia Views": 3084,
+    "No. of Users": 7179119
   },
   {
-    "name": "Maple",
-    "Year Appeared": 1982,
-    "No. of Jobs": 511,
-    "No. of Books": 28
+    "name": "S-algol",
+    "Year Appeared": 1979,
+    "Daily Wikipedia Views": 9,
+    "No. of Users": 65
   },
   {
-    "name": "Common Lisp",
-    "Year Appeared": 1984,
-    "No. of Jobs": 24,
-    "No. of Books": 6
+    "name": "WebAssembly",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 392,
+    "No. of Users": 8291
   },
   {
-    "name": "Pandas",
-    "Year Appeared": 2008,
-    "No. of Jobs": 341,
-    "No. of Books": 3
-  },
-  {
-    "name": "Objective-C",
-    "Year Appeared": 1984,
-    "No. of Jobs": 4276,
-    "No. of Books": 15
-  },
-  {
-    "name": "ARM",
-    "Year Appeared": 1985,
-    "No. of Jobs": 7695,
-    "No. of Books": 52
-  },
-  {
-    "name": "ANTLR",
-    "Year Appeared": 1992,
-    "No. of Jobs": 30,
-    "No. of Books": 1
-  },
-  {
-    "name": "Delphi",
+    "name": "JavaScript",
     "Year Appeared": 1995,
-    "No. of Jobs": 181,
-    "No. of Books": 88
+    "Daily Wikipedia Views": 4264,
+    "No. of Users": 5962666
   },
   {
-    "name": "Ruby",
-    "Year Appeared": 1995,
-    "No. of Jobs": 11438,
-    "No. of Books": 65
+    "name": "Python",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 7204,
+    "No. of Users": 2818037
   },
   {
-    "name": "ASP",
-    "Year Appeared": 1996,
-    "No. of Jobs": 9630,
-    "No. of Books": 72
+    "name": "WFL",
+    "Year Appeared": 1961,
+    "Daily Wikipedia Views": 10,
+    "No. of Users": 70
   },
   {
-    "name": "Verilog",
-    "Year Appeared": 1984,
-    "No. of Jobs": 246,
-    "No. of Books": 34
+    "name": "HTML",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 4897,
+    "No. of Users": 5570873
   },
   {
-    "name": "Drupal",
-    "Year Appeared": 2000,
-    "No. of Jobs": 1642,
-    "No. of Books": 1
+    "name": "Dolittle",
+    "Year Appeared": 1952,
+    "Daily Wikipedia Views": 13,
+    "No. of Users": 86
   },
   {
-    "name": "Mathematica",
-    "Year Appeared": 1988,
-    "No. of Jobs": 1553,
-    "No. of Books": 72
+    "name": "Solidity",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 405,
+    "No. of Users": 31940
   },
   {
-    "name": "Racket",
-    "Year Appeared": 1994,
-    "No. of Jobs": 48,
-    "No. of Books": 4
-  },
-  {
-    "name": "XQuery",
-    "Year Appeared": 2007,
-    "No. of Jobs": 125,
-    "No. of Books": 2
-  },
-  {
-    "name": "AWS",
-    "Year Appeared": 2006,
-    "No. of Jobs": 2512,
-    "No. of Books": 2
-  },
-  {
-    "name": "Haskell",
-    "Year Appeared": 1990,
-    "No. of Jobs": 495,
-    "No. of Books": 70
-  },
-  {
-    "name": "JSON",
-    "Year Appeared": 2001,
-    "No. of Jobs": 9228,
-    "No. of Books": 17
-  },
-  {
-    "name": "PowerPC",
-    "Year Appeared": 1992,
-    "No. of Jobs": 59,
-    "No. of Books": 10
+    "name": "Babylonian numerals",
+    "Year Appeared": -2000,
+    "Daily Wikipedia Views": 210,
+    "No. of Users": 1070
   },
   {
     "name": "iOS",
     "Year Appeared": 2007,
-    "No. of Jobs": 5010,
-    "No. of Books": 9
+    "Daily Wikipedia Views": 6910,
+    "No. of Users": 535588
   },
   {
-    "name": "MediaWiki",
-    "Year Appeared": 2002,
-    "No. of Jobs": 69,
-    "No. of Books": 2
+    "name": "Visual Studio Code",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 1501,
+    "No. of Users": 8525
   },
   {
-    "name": "CUDA",
-    "Year Appeared": 2007,
-    "No. of Jobs": 769,
-    "No. of Books": 35
+    "name": "Java",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 5242,
+    "No. of Users": 5550123
   },
   {
-    "name": "SOAP",
-    "Year Appeared": 1998,
-    "No. of Jobs": 7493,
-    "No. of Books": 11
+    "name": "Euclidean geometry",
+    "Year Appeared": -300,
+    "Daily Wikipedia Views": 1084,
+    "No. of Users": 5440
+  },
+  {
+    "name": "C",
+    "Year Appeared": 1972,
+    "Daily Wikipedia Views": 6268,
+    "No. of Users": 3793768
+  },
+  {
+    "name": "Balanced ternary",
+    "Year Appeared": 1544,
+    "Daily Wikipedia Views": 72,
+    "No. of Users": 380
+  },
+  {
+    "name": "AUTOCODER",
+    "Year Appeared": 1955,
+    "Daily Wikipedia Views": 15,
+    "No. of Users": 95
+  },
+  {
+    "name": "C++",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 4307,
+    "No. of Users": 4128238
+  },
+  {
+    "name": "Swift",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 1501,
+    "No. of Users": 362590
+  },
+  {
+    "name": "Hindu-Arabic numeral system",
+    "Year Appeared": 825,
+    "Daily Wikipedia Views": 656,
+    "No. of Users": 3300
+  },
+  {
+    "name": "Nial",
+    "Year Appeared": 1981,
+    "Daily Wikipedia Views": 21,
+    "No. of Users": 125
+  },
+  {
+    "name": "Short Code computer language",
+    "Year Appeared": 1949,
+    "Daily Wikipedia Views": 31,
+    "No. of Users": 175
+  },
+  {
+    "name": "TypeScript",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 1098,
+    "No. of Users": 216959
+  },
+  {
+    "name": "HTTP",
+    "Year Appeared": 1989,
+    "Daily Wikipedia Views": 6702,
+    "No. of Users": 33780
+  },
+  {
+    "name": "Julia",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 640,
+    "No. of Users": 81911
+  },
+  {
+    "name": "Binary notation",
+    "Year Appeared": 1689,
+    "Daily Wikipedia Views": 939,
+    "No. of Users": 4715
+  },
+  {
+    "name": "Analytical engine",
+    "Year Appeared": 1837,
+    "Daily Wikipedia Views": 106,
+    "No. of Users": 550
+  },
+  {
+    "name": "Elixir",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 413,
+    "No. of Users": 55882
+  },
+  {
+    "name": "PILOT",
+    "Year Appeared": 1962,
+    "Daily Wikipedia Views": 31,
+    "No. of Users": 175
+  },
+  {
+    "name": "CSS",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 1937,
+    "No. of Users": 2881846
+  },
+  {
+    "name": "Kotlin",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 1638,
+    "No. of Users": 130094
+  },
+  {
+    "name": "Nim",
+    "Year Appeared": 2008,
+    "Daily Wikipedia Views": 176,
+    "No. of Users": 19118
+  },
+  {
+    "name": "Regular Expressions",
+    "Year Appeared": 1951,
+    "Daily Wikipedia Views": 3569,
+    "No. of Users": 23343
+  },
+  {
+    "name": "ACT-III",
+    "Year Appeared": 1956,
+    "Daily Wikipedia Views": 37,
+    "No. of Users": 205
+  },
+  {
+    "name": "Forsyth-Edwards Notation",
+    "Year Appeared": 1883,
+    "Daily Wikipedia Views": 109,
+    "No. of Users": 565
+  },
+  {
+    "name": "Autocode",
+    "Year Appeared": 1954,
+    "Daily Wikipedia Views": 47,
+    "No. of Users": 255
+  },
+  {
+    "name": "MATLAB",
+    "Year Appeared": 1984,
+    "Daily Wikipedia Views": 2338,
+    "No. of Users": 2661579
+  },
+  {
+    "name": "Microsoft Azure",
+    "Year Appeared": 2010,
+    "Daily Wikipedia Views": 1843,
+    "No. of Users": 154044
+  },
+  {
+    "name": "TLS",
+    "Year Appeared": 1999,
+    "Daily Wikipedia Views": 4915,
+    "No. of Users": 24595
+  },
+  {
+    "name": "XML",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 2861,
+    "No. of Users": 1917452
+  },
+  {
+    "name": "JQuery",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 886,
+    "No. of Users": 1553841
+  },
+  {
+    "name": "Rust",
+    "Year Appeared": 2010,
+    "Daily Wikipedia Views": 1159,
+    "No. of Users": 302193
+  },
+  {
+    "name": "Information Processing Language",
+    "Year Appeared": 1954,
+    "Daily Wikipedia Views": 50,
+    "No. of Users": 270
+  },
+  {
+    "name": "Go",
+    "Year Appeared": 2009,
+    "Daily Wikipedia Views": 2602,
+    "No. of Users": 525179
+  },
+  {
+    "name": "Rexx",
+    "Year Appeared": 1979,
+    "Daily Wikipedia Views": 43,
+    "No. of Users": 435
+  },
+  {
+    "name": "Tap code",
+    "Year Appeared": 1941,
+    "Daily Wikipedia Views": 212,
+    "No. of Users": 1080
+  },
+  {
+    "name": "Speedcoding",
+    "Year Appeared": 1953,
+    "Daily Wikipedia Views": 63,
+    "No. of Users": 335
+  },
+  {
+    "name": "WordPress",
+    "Year Appeared": 2003,
+    "Daily Wikipedia Views": 2967,
+    "No. of Users": 1350482
+  },
+  {
+    "name": "Punched tape",
+    "Year Appeared": 1943,
+    "Daily Wikipedia Views": 196,
+    "No. of Users": 1000
+  },
+  {
+    "name": "ASCII",
+    "Year Appeared": 1963,
+    "Daily Wikipedia Views": 4139,
+    "No. of Users": 20715
+  },
+  {
+    "name": "R",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 3651,
+    "No. of Users": 1075613
+  },
+  {
+    "name": "Memex",
+    "Year Appeared": 1945,
+    "Daily Wikipedia Views": 201,
+    "No. of Users": 1025
+  },
+  {
+    "name": "Plankalkul",
+    "Year Appeared": 1948,
+    "Daily Wikipedia Views": 154,
+    "No. of Users": 790
+  },
+  {
+    "name": "SNOBOL",
+    "Year Appeared": 1962,
+    "Daily Wikipedia Views": 64,
+    "No. of Users": 341
+  },
+  {
+    "name": "DOI",
+    "Year Appeared": 2000,
+    "Daily Wikipedia Views": 4196,
+    "No. of Users": 21001
+  },
+  {
+    "name": "SPSS",
+    "Year Appeared": 1968,
+    "Daily Wikipedia Views": 1898,
+    "No. of Users": 965674
   },
   {
     "name": "Clojure",
     "Year Appeared": 2007,
-    "No. of Jobs": 469,
-    "No. of Books": 60
+    "Daily Wikipedia Views": 610,
+    "No. of Users": 44933
   },
   {
-    "name": "Bash",
-    "Year Appeared": 1989,
-    "No. of Jobs": 4774,
-    "No. of Books": 33
+    "name": "PL/M",
+    "Year Appeared": 1973,
+    "Daily Wikipedia Views": 68,
+    "No. of Users": 360
   },
   {
-    "name": "Erlang",
-    "Year Appeared": 1986,
-    "No. of Jobs": 308,
-    "No. of Books": 29
+    "name": "SAS",
+    "Year Appeared": 1976,
+    "Daily Wikipedia Views": 151,
+    "No. of Users": 361103
   },
   {
-    "name": "VBScript",
-    "Year Appeared": 1996,
-    "No. of Jobs": 142,
-    "No. of Books": 40
+    "name": "JSON",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 3994,
+    "No. of Users": 355741
   },
   {
-    "name": "PL/SQL",
-    "Year Appeared": 1991,
-    "No. of Jobs": 2972,
-    "No. of Books": 5
+    "name": "G-code",
+    "Year Appeared": 1950,
+    "Daily Wikipedia Views": 1329,
+    "No. of Users": 6865
   },
   {
-    "name": "Lua",
-    "Year Appeared": 1993,
-    "No. of Jobs": 1106,
-    "No. of Books": 35
+    "name": "FM broadcasting",
+    "Year Appeared": 1950,
+    "Daily Wikipedia Views": 906,
+    "No. of Users": 4550
+  },
+  {
+    "name": "FLOW-MATIC",
+    "Year Appeared": 1955,
+    "Daily Wikipedia Views": 81,
+    "No. of Users": 425
+  },
+  {
+    "name": "Arduino Programming Language",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 2640,
+    "No. of Users": 527398
+  },
+  {
+    "name": "PowerShell",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 1173,
+    "No. of Users": 208708
+  },
+  {
+    "name": "TCP",
+    "Year Appeared": 1974,
+    "Daily Wikipedia Views": 3336,
+    "No. of Users": 16700
+  },
+  {
+    "name": "Ruby on Rails",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 1044,
+    "No. of Users": 197225
+  },
+  {
+    "name": "Modula-2",
+    "Year Appeared": 1978,
+    "Daily Wikipedia Views": 87,
+    "No. of Users": 655
+  },
+  {
+    "name": "GAMS",
+    "Year Appeared": 1963,
+    "Daily Wikipedia Views": 89,
+    "No. of Users": 465
+  },
+  {
+    "name": "A-0 system",
+    "Year Appeared": 1951,
+    "Daily Wikipedia Views": 640,
+    "No. of Users": 3220
+  },
+  {
+    "name": "ANTLR",
+    "Year Appeared": 1992,
+    "Daily Wikipedia Views": 103,
+    "No. of Users": 3048
   },
   {
     "name": "Nginx",
     "Year Appeared": 2004,
-    "No. of Jobs": 2884,
-    "No. of Books": 6
+    "Daily Wikipedia Views": 795,
+    "No. of Users": 4245
   },
   {
-    "name": "SQLite",
+    "name": "Perl",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 1299,
+    "No. of Users": 491984
+  },
+  {
+    "name": "Fortran",
+    "Year Appeared": 1957,
+    "Daily Wikipedia Views": 2052,
+    "No. of Users": 165151
+  },
+  {
+    "name": "AutoIt",
+    "Year Appeared": 1999,
+    "Daily Wikipedia Views": 158,
+    "No. of Users": 1011
+  },
+  {
+    "name": "Reverse Polish notation",
+    "Year Appeared": 1953,
+    "Daily Wikipedia Views": 836,
+    "No. of Users": 4200
+  },
+  {
+    "name": "Groovy",
+    "Year Appeared": 2003,
+    "Daily Wikipedia Views": 577,
+    "No. of Users": 6056
+  },
+  {
+    "name": "C#",
     "Year Appeared": 2000,
-    "No. of Jobs": 561,
-    "No. of Books": 11
+    "Daily Wikipedia Views": 2794,
+    "No. of Users": 217261
+  },
+  {
+    "name": "Scala",
+    "Year Appeared": 2004,
+    "Daily Wikipedia Views": 1496,
+    "No. of Users": 139471
+  },
+  {
+    "name": "ALGOL 68",
+    "Year Appeared": 1968,
+    "Daily Wikipedia Views": 121,
+    "No. of Users": 625
+  },
+  {
+    "name": "FTP",
+    "Year Appeared": 1971,
+    "Daily Wikipedia Views": 2685,
+    "No. of Users": 13916
+  },
+  {
+    "name": "COBOL",
+    "Year Appeared": 1959,
+    "Daily Wikipedia Views": 1302,
+    "No. of Users": 187188
+  },
+  {
+    "name": "Assembly language",
+    "Year Appeared": 1960,
+    "Daily Wikipedia Views": 2352,
+    "No. of Users": 26543
+  },
+  {
+    "name": "Microsoft Macro Assembler",
+    "Year Appeared": 1981,
+    "Daily Wikipedia Views": 136,
+    "No. of Users": 701
+  },
+  {
+    "name": "PostgreSQL",
+    "Year Appeared": 1986,
+    "Daily Wikipedia Views": 1262,
+    "No. of Users": 340751
+  },
+  {
+    "name": "MediaWiki",
+    "Year Appeared": 2002,
+    "Daily Wikipedia Views": 610,
+    "No. of Users": 7133
+  },
+  {
+    "name": "Unicode",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 2672,
+    "No. of Users": 13380
+  },
+  {
+    "name": "Scratch",
+    "Year Appeared": 2002,
+    "Daily Wikipedia Views": 1368,
+    "No. of Users": 16942
+  },
+  {
+    "name": "Lisp",
+    "Year Appeared": 1958,
+    "Daily Wikipedia Views": 1517,
+    "No. of Users": 61481
+  },
+  {
+    "name": "Unix",
+    "Year Appeared": 1969,
+    "Daily Wikipedia Views": 2417,
+    "No. of Users": 12105
+  },
+  {
+    "name": "Multics",
+    "Year Appeared": 1967,
+    "Daily Wikipedia Views": 190,
+    "No. of Users": 970
+  },
+  {
+    "name": "Mathematica",
+    "Year Appeared": 1988,
+    "Daily Wikipedia Views": 228,
+    "No. of Users": 148741
+  },
+  {
+    "name": "D",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 1008,
+    "No. of Users": 6311
+  },
+  {
+    "name": "ActionScript",
+    "Year Appeared": 1998,
+    "Daily Wikipedia Views": 282,
+    "No. of Users": 1630
+  },
+  {
+    "name": "ARM",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 2538,
+    "No. of Users": 123423
+  },
+  {
+    "name": "COMTRAN",
+    "Year Appeared": 1957,
+    "Daily Wikipedia Views": 547,
+    "No. of Users": 2755
+  },
+  {
+    "name": "Lex",
+    "Year Appeared": 1975,
+    "Daily Wikipedia Views": 178,
+    "No. of Users": 1110
+  },
+  {
+    "name": "BCPL",
+    "Year Appeared": 1966,
+    "Daily Wikipedia Views": 206,
+    "No. of Users": 1050
+  },
+  {
+    "name": "Visual Studio",
+    "Year Appeared": 1997,
+    "Daily Wikipedia Views": 2156,
+    "No. of Users": 10800
+  },
+  {
+    "name": "Algol",
+    "Year Appeared": 1958,
+    "Daily Wikipedia Views": 323,
+    "No. of Users": 1635
+  },
+  {
+    "name": "SOAP",
+    "Year Appeared": 1998,
+    "Daily Wikipedia Views": 2103,
+    "No. of Users": 10535
+  },
+  {
+    "name": "RPG",
+    "Year Appeared": 1959,
+    "Daily Wikipedia Views": 225,
+    "No. of Users": 1145
+  },
+  {
+    "name": "Simula",
+    "Year Appeared": 1965,
+    "Daily Wikipedia Views": 218,
+    "No. of Users": 1110
+  },
+  {
+    "name": "ECMAScript",
+    "Year Appeared": 1997,
+    "Daily Wikipedia Views": 1310,
+    "No. of Users": 6570
+  },
+  {
+    "name": "Racket",
+    "Year Appeared": 1994,
+    "Daily Wikipedia Views": 286,
+    "No. of Users": 7353
+  },
+  {
+    "name": "Maple",
+    "Year Appeared": 1982,
+    "Daily Wikipedia Views": 231,
+    "No. of Users": 53310
+  },
+  {
+    "name": "Standard ML",
+    "Year Appeared": 1990,
+    "Daily Wikipedia Views": 301,
+    "No. of Users": 1726
+  },
+  {
+    "name": "ALGOL 60",
+    "Year Appeared": 1960,
+    "Daily Wikipedia Views": 248,
+    "No. of Users": 1260
+  },
+  {
+    "name": "Emacs",
+    "Year Appeared": 1976,
+    "Daily Wikipedia Views": 605,
+    "No. of Users": 64338
+  },
+  {
+    "name": "BASIC",
+    "Year Appeared": 1964,
+    "Daily Wikipedia Views": 1401,
+    "No. of Users": 7025
+  },
+  {
+    "name": "UDP",
+    "Year Appeared": 1980,
+    "Daily Wikipedia Views": 1768,
+    "No. of Users": 8860
+  },
+  {
+    "name": "MUMPS",
+    "Year Appeared": 1966,
+    "Daily Wikipedia Views": 255,
+    "No. of Users": 1345
+  },
+  {
+    "name": "FAT",
+    "Year Appeared": 1977,
+    "Daily Wikipedia Views": 1568,
+    "No. of Users": 7860
+  },
+  {
+    "name": "JVM",
+    "Year Appeared": 1994,
+    "Daily Wikipedia Views": 918,
+    "No. of Users": 4610
+  },
+  {
+    "name": "ABAP",
+    "Year Appeared": 1983,
+    "Daily Wikipedia Views": 439,
+    "No. of Users": 2416
+  },
+  {
+    "name": "Bash",
+    "Year Appeared": 1989,
+    "Daily Wikipedia Views": 1271,
+    "No. of Users": 61747
+  },
+  {
+    "name": "Yacc",
+    "Year Appeared": 1975,
+    "Daily Wikipedia Views": 229,
+    "No. of Users": 3087
+  },
+  {
+    "name": "PostScript",
+    "Year Appeared": 1982,
+    "Daily Wikipedia Views": 473,
+    "No. of Users": 2585
+  },
+  {
+    "name": "Prolog",
+    "Year Appeared": 1972,
+    "Daily Wikipedia Views": 1127,
+    "No. of Users": 51482
+  },
+  {
+    "name": "Lua",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 1069,
+    "No. of Users": 58860
+  },
+  {
+    "name": "APL",
+    "Year Appeared": 1964,
+    "Daily Wikipedia Views": 680,
+    "No. of Users": 3670
+  },
+  {
+    "name": "PowerPC",
+    "Year Appeared": 1992,
+    "Daily Wikipedia Views": 646,
+    "No. of Users": 9126
+  },
+  {
+    "name": "Tcl",
+    "Year Appeared": 1988,
+    "Daily Wikipedia Views": 567,
+    "No. of Users": 3106
+  },
+  {
+    "name": "X86",
+    "Year Appeared": 1978,
+    "Daily Wikipedia Views": 1476,
+    "No. of Users": 7400
+  },
+  {
+    "name": "ML",
+    "Year Appeared": 1973,
+    "Daily Wikipedia Views": 541,
+    "No. of Users": 2725
+  },
+  {
+    "name": "Logo",
+    "Year Appeared": 1967,
+    "Daily Wikipedia Views": 575,
+    "No. of Users": 2895
+  },
+  {
+    "name": "Haskell",
+    "Year Appeared": 1990,
+    "Daily Wikipedia Views": 1177,
+    "No. of Users": 37628
+  },
+  {
+    "name": "SYMBOL",
+    "Year Appeared": 1971,
+    "Daily Wikipedia Views": 1206,
+    "No. of Users": 6050
+  },
+  {
+    "name": "Erlang",
+    "Year Appeared": 1986,
+    "Daily Wikipedia Views": 857,
+    "No. of Users": 27148
+  },
+  {
+    "name": "Pascal",
+    "Year Appeared": 1970,
+    "Daily Wikipedia Views": 1116,
+    "No. of Users": 7708
+  },
+  {
+    "name": "RFC",
+    "Year Appeared": 1969,
+    "Daily Wikipedia Views": 700,
+    "No. of Users": 3520
+  },
+  {
+    "name": "Scheme",
+    "Year Appeared": 1970,
+    "Daily Wikipedia Views": 705,
+    "No. of Users": 3796
+  },
+  {
+    "name": "awk",
+    "Year Appeared": 1977,
+    "Daily Wikipedia Views": 506,
+    "No. of Users": 4680
+  },
+  {
+    "name": "VHDL",
+    "Year Appeared": 1983,
+    "Daily Wikipedia Views": 731,
+    "No. of Users": 6245
+  },
+  {
+    "name": "Ada",
+    "Year Appeared": 1980,
+    "Daily Wikipedia Views": 768,
+    "No. of Users": 12116
+  },
+  {
+    "name": "Objective-C",
+    "Year Appeared": 1984,
+    "Daily Wikipedia Views": 910,
+    "No. of Users": 12380
   }
 ]
