@@ -51,6 +51,11 @@
     "artist": "Singapore",
     "link": "https://www.youtube.com/watch?v=4WWADSU9240"
   },
+  "not-alone": {
+    "artist": "NDP 2024",
+    "imgPath": "singapore.svg",
+    "link": "https://www.youtube.com/watch?v=u2VLIkH5MdI"
+  },
   "senorita": {
     "title": "Se\u00f1orita",
     "artist": "Shawn Mendes / Camilla Cabello",
@@ -81,7 +86,7 @@
     "link": "https://www.youtube.com/watch?v=JGePErnf3jU"
   },
   "the-road-ahead": {
-    "artist": "Singapore",
+    "artist": "NDP 2021",
     "link": "https://www.youtube.com/watch?v=Ysz_bKoUplQ"
   },
   "unity": {
