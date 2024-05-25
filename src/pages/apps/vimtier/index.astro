@@ -1,0 +1,57 @@
+---
+import { Image } from "astro:assets";
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import github from "/src/img/logos/github.svg";
+import Footer from "../../../components/common/Footer.astro";
+import { SEO } from "astro-seo";
+import appsData from "../../../data/apps/apps.json";
+import seoImg from "../../../img/heroes/MEETUPMAKER.jpg";
+
+export const prerender = true;
+const heroText = appsData.meetupmaker.heroText;
+---
+<SEO
+  title={`VimTier | Izz Hafeez`}
+  description={heroText}
+  canonical={`https://izzhafeez.com/apps/vimtier/`}
+  openGraph={{
+    basic: {
+      title: `VimTier | Izz Hafeez`,
+      type: "website",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/apps/vimtier/`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `VimTier | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
+  }}
+/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <div class="max-w-3xl mx-auto mt-20 place-content-center my-auto">
+      <h1 class="text-6xl text-center font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
+        Make Tier Lists with just your keyboard.
+      </h1>
+      <p class="text-center mt-8 ">VimTier provides a keyboard-centric approach to making tier lists!</p>
+      <div class="flex justify-center mt-8 gap-4">
+        <a href="/apps/vimtier/create" type="button" class="bg-ew-300 hover:bg-ew-500 dark:text-gray-800 py-2 px-4 rounded-md content-center text-gray-100">
+          Get Started
+        </a>
+      </div>
+    </div>
+    <Footer site="apps"/>
+  </div>
+</Layout>

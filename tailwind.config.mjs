@@ -58,13 +58,14 @@ module.exports = {
 					mrt: '#9D5B25',
 				},
 				jr: {
-					mrt: '#97C616',
+					// mrt: '#23CAFC',97C616
+					mrt: '#0099AA',
 				},
 				sl: {
 					mrt: '#FF86FE',
 				},
 				cr: {
-					mrt: '#23CAFC',
+					mrt: '#97C616',
 				},
 				hp: {
 					mrt: '#10C8FA',

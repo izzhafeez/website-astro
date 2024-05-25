@@ -6,6 +6,7 @@ import games from "../../img/logos/games.svg";
 
 // apps
 import meetupmaker from "../../img/logos/meetupmaker.svg";
+import vimtier from "../../img/logos/vimtier.svg";
 
 // quizzes
 import binary from "../../img/logos/binary.svg";
@@ -33,6 +34,7 @@ export default {
   quizzes,
   portfolio,
   games,
+  vimtier,
   meetupmaker,
   binary,
   compare,

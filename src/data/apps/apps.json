@@ -2,5 +2,9 @@
   "meetupmaker": {
     "title": "MeetupMaker",
     "heroText": "Plan your next meetup with MeetupMaker!"
+  },
+  "vimtier": {
+    "title": "Vimtier",
+    "heroText": "Create tier lists with just your keyboard with VimTier!"
   }
 }
