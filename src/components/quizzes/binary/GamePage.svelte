@@ -40,7 +40,7 @@
       streak = 0;
       localStorage.setItem(`binary-${title}`, bestStreak.toString());
       const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-      axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/binary/${key}`, {
+      axios.post(`${(import.meta as any).env.PUBLIC_MM}/api/quizzes/binary/${key}`, {
         name: truncatedName,
         score: bestStreak
       });

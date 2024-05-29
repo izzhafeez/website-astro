@@ -8,6 +8,7 @@
   export let data;
   export let options;
   export let key;
+  
   let isStart = false;
   let name;
 </script>
