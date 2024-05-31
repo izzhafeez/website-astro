@@ -80,6 +80,8 @@ export const fromCategory = (category: string): string => {
       return 'ne';
     case 'quizzes':
       return 'ns';
+    case 'blog':
+      return 'cc';
     default:
       return 'lrt';
   }
