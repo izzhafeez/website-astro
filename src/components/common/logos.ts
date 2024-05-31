@@ -2,6 +2,7 @@
 import apps from "../../img/logos/apps.svg";
 import quizzes from "../../img/logos/quizzes.svg";
 import portfolio from "../../img/logos/portfolio.svg";
+import blog from "../../img/logos/blog.svg";
 import games from "../../img/logos/games.svg";
 
 // apps
@@ -26,6 +27,9 @@ import music from "../../img/logos/music.svg";
 import projects from "../../img/logos/projects.svg";
 import skills from "../../img/logos/skills.svg";
 
+// blog
+import hikes from "../../img/logos/hikes.svg";
+
 // games
 import statAttack from "../../img/logos/stat-attack.svg";
 
@@ -33,6 +37,7 @@ export default {
   apps,
   quizzes,
   portfolio,
+  blog,
   games,
   vimtier,
   meetupmaker,
@@ -50,5 +55,6 @@ export default {
   music,
   projects,
   skills,
+  hikes,
   "stat-attack": statAttack
 }
