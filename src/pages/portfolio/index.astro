@@ -8,36 +8,11 @@ import homeJson from '../../data/home.json';
 import MediumCard from '../../components/common/MediumCard.astro';
 import { capitalise } from '../../utils/string';
 import seoImg from '../../img/heroes/PORTFOLIO.jpg';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 
 const heroText = homeJson.portfolio.heroText;
 ---
-<SEO
-  title={`Portfolio | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio`}
-  openGraph={{
-    basic: {
-      title: `Portfolio | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Portfolio | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Portfolio"} path="portfolio"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
