@@ -1,42 +1,15 @@
 ---
-import { Image } from "astro:assets";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
-import github from "/src/img/logos/github.svg";
 import Footer from "../../../components/common/Footer.astro";
-import { SEO } from "astro-seo";
+import Seo from "../../../components/seo/Seo.astro";
 import appsData from "../../../data/apps/apps.json";
 import seoImg from "../../../img/heroes/MEETUPMAKER.jpg";
 
 export const prerender = true;
 const heroText = appsData.meetupmaker.heroText;
 ---
-<SEO
-  title={`VimTier | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/apps/vimtier/`}
-  openGraph={{
-    basic: {
-      title: `VimTier | Izz Hafeez`,
-      type: "website",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/apps/vimtier/`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `VimTier | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"VimTier"} path="apps/vimtier"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
