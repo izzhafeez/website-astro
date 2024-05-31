@@ -7,38 +7,13 @@ import Hero from '../../components/common/Hero.astro';
 import homeJson from '../../data/home.json';
 import { capitalise } from '../../utils/string';
 import MediumCard from '../../components/common/MediumCard.astro';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from '/src/img/heroes/GAMES.jpg';
 
 const heroText = homeJson.games.heroText;
 ---
 
-<SEO
-  title={`Games | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/games`}
-  openGraph={{
-    basic: {
-      title: `Games | Izz Hafeez`,
-      type: "website",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/games`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Games | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Games"} path="games"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
