@@ -1,0 +1,32 @@
+---
+import { SEO as Seo } from 'astro-seo';
+const { heroText, seoImg, pageName, path } = Astro.props;
+console.log(heroText, seoImg.src, pageName, path);
+---
+
+<Seo
+  title={`${pageName} | Izz Hafeez`}
+  description={heroText}
+  canonical={`https://izzhafeez.com/${path}`}
+  openGraph={{
+    basic: {
+      title: `${pageName} | Izz Hafeez`,
+      type: "website",
+      image: seoImg.src,
+      url: `https://izzhafeez.com/${path}`
+    }
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.png" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: seoImg.src,
+      },
+      { name: "twitter:title", content: `${pageName} | Izz Hafeez`},
+      { name: "twitter:description", content: heroText },
+    ],
+  }}
+/>
