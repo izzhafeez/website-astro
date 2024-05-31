@@ -10,7 +10,7 @@ import quizzesData from "../data/quizzes/quizzes.json";
 import gamesData from "../data/games/games.json";
 import homeData from "../data/home.json";
 import MediumCard from "../components/common/MediumCard.astro";
-import { SEO } from 'astro-seo';
+import Seo from "../components/seo/Seo.astro";
 
 import izzhafeez from "../img/izzhafeez.png";
 import linkedin from "../img/logos/linkedin.svg";
@@ -20,33 +20,7 @@ import instagram from "../img/logos/instagram.svg";
 
 const heroText = "I'm a final year student studying computer science and mathematics at NUS. Along my journey, I've been fortunate to hold various positions, where I've learned many skills. Beyond academics, my free time is devoted to working on personal projects, that involve creating music and art. Hope you enjoy the games and quizzes I have in store for you!";
 ---
-
-<SEO
-  title={`Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/`}
-  openGraph={{
-    basic: {
-      title: `Izz Hafeez`,
-      type: "website",
-      image: izzhafeez.src,
-      url: `https://izzhafeez.com/`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: izzhafeez.src,
-      },
-      { name: "twitter:title", content: `Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} seoImg={izzhafeez} pageName={"Izz Hafeez"} path=""/>
 
 <Layout>
   <div slot="main" class="">
