@@ -1,10 +1,10 @@
 ---
 import NavBar from "../../../../components/common/NavBar.astro";
-import DateForm from "../../../../components/meetupmaker/DateForm.vue";
+import DateForm from "../../../../components/apps/meetupmaker/DateForm.vue";
 import Layout from "../../../../layouts/Layout.astro";
-import PreferenceForm from "../../../../components/meetupmaker/PreferenceForm.vue";
-import Finalised from "../../../../components/meetupmaker/Finalised.vue";
-import { SEO } from 'astro-seo';
+import PreferenceForm from "../../../../components/apps/meetupmaker/PreferenceForm.vue";
+import Finalised from "../../../../components/apps/meetupmaker/Finalised.vue";
+import Seo from "../../../../components/seo/Seo.astro";
 import appsData from "../../../../data/apps/apps.json";
 import seoImg from "../../../../img/heroes/MEETUPMAKER.jpg";
 
@@ -23,32 +23,7 @@ const location = data.location;
 const heroText = appsData.meetupmaker.heroText;
 ---
 
-<SEO
-  title={`MeetupMaker | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/apps/meetupmaker/meetup?id=${id}`}
-  openGraph={{
-    basic: {
-      title: `MeetupMaker | Izz Hafeez`,
-      type: "website",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/apps/meetupmaker/meetup?id=${id}`,
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `MeetupMaker | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path={`apps/meetupmaker/meetup?id=${id}`}/>
 
 <Layout>
   <div slot="main">
