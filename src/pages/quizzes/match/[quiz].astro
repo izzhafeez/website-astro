@@ -13,7 +13,7 @@ import sovietUnionData from "../../../data/quizzes/connect/soviet-union.json";
 import westAfricanData from "../../../data/quizzes/connect/west-africa.json";
 import romanceEuropeData from "../../../data/quizzes/connect/romance-europe.json";
 import connectData from "../../../data/quizzes/connect.json";
-import { SEO } from 'astro-seo';
+import Seo from "../../../components/seo/Seo.astro";
 import MatchQuiz from "../../../components/quizzes/match/MatchQuiz.svelte";
 
 export const getStaticPaths = (() => {
@@ -123,34 +123,9 @@ export const getStaticPaths = (() => {
 
 const instructions = Astro.props.instructions + " Match the pairs of items together as quickly as possible.";
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
-const seoImg = await images[`/src/img/quizzes/match/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
+const seoImg = await images[`/src/img/quizzes/match/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<SEO
-  title={`${Astro.props.title} | Izz Hafeez`}
-  description={Astro.props.instructions}
-  canonical={`https://izzhafeez.com/quizzes/match/${Astro.params.quiz}`}
-  openGraph={{
-    basic: {
-      title: `${Astro.props.title} | Izz Hafeez`,
-      type: "website",
-      image: seoImg,
-      url: `https://izzhafeez.com/quizzes/match/${Astro.params.quiz}`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg,
-      },
-      { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
-      { name: "twitter:description", content: Astro.props.instructions },
-    ],
-  }}
-/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/match/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
