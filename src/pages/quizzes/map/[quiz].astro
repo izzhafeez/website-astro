@@ -23,7 +23,7 @@ import usaCitiesData from "../../../data/quizzes/map/usa-cities.json";
 import canadaCitiesData from "../../../data/quizzes/map/canada-cities.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
-import { SEO } from 'astro-seo';
+import Seo from "../../../components/seo/Seo.astro";
 import Layout from "../../../layouts/Layout.astro";
 import Footer from "../../../components/common/Footer.astro";
 
@@ -231,34 +231,9 @@ for (const [k, v] of Object.entries(data)) {
   locationDict[key].push(locationDictItem);
 }
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
-const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
+const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<SEO
-  title={`${Astro.props.title} | Izz Hafeez`}
-  description={Astro.props.instructions}
-  canonical={`https://izzhafeez.com/quizzes/map/${Astro.params.quiz}`}
-  openGraph={{
-    basic: {
-      title: `${Astro.props.title} | Izz Hafeez`,
-      type: "website",
-      image: seoImg,
-      url: `https://izzhafeez.com/quizzes/map/${Astro.params.quiz}`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg,
-      },
-      { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
-      { name: "twitter:description", content: Astro.props.instructions },
-    ],
-  }}
-/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/map/${Astro.params.quiz}`}/>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
