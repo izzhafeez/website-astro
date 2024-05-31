@@ -7,7 +7,7 @@ import skillsData from '../../data/portfolio/skills.json';
 import Layout from '../../layouts/Layout.astro';
 import { toName } from '../../utils/string';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from '../../img/heroes/SKILLS.jpg';
 
 interface SkillData {
@@ -29,32 +29,7 @@ const skills = Object.entries(skillsData as SkillJson).map(([key, value]) => {
 
 const heroText = portfolioData.skills.heroText;
 ---
-<SEO
-  title={`Skills | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio/skills`}
-  openGraph={{
-    basic: {
-      title: `Skills | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio/skills`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Skills | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Skills"} path="portfolio/skills"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
