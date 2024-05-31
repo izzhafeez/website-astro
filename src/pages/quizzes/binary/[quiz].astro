@@ -5,7 +5,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import trashData from "../../../data/quizzes/binary/trash.json";
 import binaryData from "../../../data/quizzes/binary.json";
-import { SEO } from 'astro-seo';
+import Seo from "../../../components/seo/Seo.astro";
 
 export const getStaticPaths = (() => {
   return [
@@ -29,34 +29,9 @@ export const getStaticPaths = (() => {
   ];
 }) satisfies GetStaticPaths;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
-const seoImg = await images[`/src/img/quizzes/binary/${Astro.params.quiz}.jpg`]().then(img => img.default.src);
+const seoImg = await images[`/src/img/quizzes/binary/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<SEO
-  title={`${Astro.props.title} | Izz Hafeez`}
-  description={Astro.props.instructions}
-  canonical={`https://izzhafeez.com/quizzes/binary/${Astro.params.quiz}`}
-  openGraph={{
-    basic: {
-      title: `${Astro.props.title} | Izz Hafeez`,
-      type: "website",
-      image: seoImg,
-      url: `https://izzhafeez.com/quizzes/binary/${Astro.params.quiz}`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg,
-      },
-      { name: "twitter:title", content: `${Astro.props.title} | Izz Hafeez`},
-      { name: "twitter:description", content: Astro.props.instructions },
-    ],
-  }}
-/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/binary/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
