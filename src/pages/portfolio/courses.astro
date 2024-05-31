@@ -7,7 +7,7 @@ import { capitalise, toName } from '../../utils/string';
 import CoursePreview from '../../components/portfolio/CoursePreview.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from "../../img/heroes/COURSES.jpg";
 
 interface CourseData {
@@ -55,32 +55,7 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
 
 const heroText = portfolioData.courses.heroText;
 ---
-<SEO
-  title={`Courses | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio/courses`}
-  openGraph={{
-    basic: {
-      title: `Courses | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio/courses`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Courses | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Courses"} path="portfolio/courses"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
