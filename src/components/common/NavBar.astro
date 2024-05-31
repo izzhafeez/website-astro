@@ -11,6 +11,7 @@ import burger from '../../img/common/burger.svg';
 import appsData from '../../data/apps/apps.json';
 import quizzesData from '../../data/quizzes/quizzes.json';
 import portfolioData from '../../data/portfolio/portfolio.json';
+import blogData from '../../data/blog/blog.json';
 import gamesData from '../../data/games/games.json';
 
 import Drawer from "./Drawer.astro";
@@ -27,6 +28,7 @@ import HomeDrawer from "./HomeDrawer.astro";
         <button type="button" data-drawer-target="apps-drawer" data-drawer-show="apps-drawer" aria-controls="apps-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-ew-500 dark:hover:text-ew-300">Apps</button>
         <button type="button" data-drawer-target="quizzes-drawer" data-drawer-show="quizzes-drawer" aria-controls="quizzes-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-ns-500 dark:hover:text-ns-300">Quizzes</button>
         <button type="button" data-drawer-target="portfolio-drawer" data-drawer-show="portfolio-drawer" aria-controls="portfolio-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-ne-500 dark:hover:text-ne-300">Portfolio</button>
+        <button type="button" data-drawer-target="blog-drawer" data-drawer-show="blog-drawer" aria-controls="blog-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-cc-500 dark:hover:text-cc-300">Blog</button>
         <button type="button" data-drawer-target="games-drawer" data-drawer-show="games-drawer" aria-controls="games-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-dt-500 dark:hover:text-dt-300">Games</button>
       </MenuItems>
       <ThemeIcon/>
@@ -38,6 +40,7 @@ import HomeDrawer from "./HomeDrawer.astro";
 <Drawer id="apps" data={appsData} color="ew"/>
 <Drawer id="quizzes" data={quizzesData} color="ns"/>
 <Drawer id="portfolio" data={portfolioData} color="ne"/>
+<Drawer id="blog" data={blogData} color="cc"/>
 <Drawer id="games" data={gamesData} color="dt"/>
 <HomeDrawer id="home"/>
 <script src="../../../node_modules/flowbite/dist/flowbite.min.js"></script>
