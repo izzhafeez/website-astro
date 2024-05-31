@@ -1,24 +1,32 @@
 ---
-const { href, title, heroText, site, key } = Astro.props;
+const { href, title, heroText, site, color } = Astro.props;
 
 let neon = 'hover:neon-lrt';
 let text = '';
 switch (site) {
   case 'apps':
-    neon = 'hover:neon-ew';
+    neon = 'hover:neon-ew hover:border-ew-500/70';
     text = 'group-hover:text-ew-500 dark:group-hover:text-ew-300';
     break;
   case 'portfolio':
-    neon = 'hover:neon-ne';
+    neon = 'hover:neon-ne hover:border-ne-500/70';
     text = 'group-hover:text-ne-500 dark:group-hover:text-ne-300';
     break;
+  case 'blog':
+    neon = 'hover:neon-cc hover:border-cc-500/70';
+    text = 'group-hover:text-cc-500 dark:group-hover:text-cc-300';
+    break;
   case 'quizzes':
-    neon = 'hover:neon-ns';
+    neon = 'hover:neon-ns hover:border-ns-500/70';
     text = 'group-hover:text-ns-500 dark:group-hover:text-ns-300';
     break;
 }
 ---
-<a href={href} role="button" class={`${neon} p-4 rounded-lg group`}>
-  <h2 class={`font-medium  ${text}`}>{title}</h2>
+<a href={href} role="button" class={`${neon} p-4 rounded-lg group border-[1px] border-cc-500/0 transition duration-500`}>
+  <div class="flex">
+    <h2 class={`font-medium ${text}`}>{title}</h2>
+    {!!color && <span class={`w-2 h-2 rounded-md my-auto ms-2 bg-${color.replace("500", "mrt")}`}></span>}
+    <span class="bg-tw-mrt bg-hp-mrt bg-lrt-mrt bg-mp-mrt"></span>
+  </div>
   <p class="text-gray-500 text-sm">{heroText}</p>
 </a>
