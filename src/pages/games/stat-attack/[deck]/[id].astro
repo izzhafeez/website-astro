@@ -32,7 +32,7 @@ import csModsData from "../../../../data/games/stat-attack/cs-mods.json";
 import githubData from "../../../../data/games/stat-attack/github.json";
 import mineralsData from "../../../../data/games/stat-attack/minerals.json";
 import nutritionData from "../../../../data/games/stat-attack/nutrition.json";
-import { SEO } from 'astro-seo';
+import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 
 export const prerender = false;
@@ -231,35 +231,10 @@ switch (deckName) {
 
 const heroText = gamesData["stat-attack"].heroText;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
-const seoImg = await images[`/src/img/games/stat-attack/${deckName}.jpg`]().then(img => img.default.src);
+const seoImg = await images[`/src/img/games/stat-attack/${deckName}.jpg`]().then(img => img.default);
 ---
 
-<SEO
-  title={`${deck.title} | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/games/stat-attack/${deckName}/${id}`}
-  openGraph={{
-    basic: {
-      title: `${deck.title} | Izz Hafeez`,
-      type: "website",
-      image: seoImg,
-      url: `https://izzhafeez.com/games/stat-attack/${deckName}/${id}`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg,
-      },
-      { name: "twitter:title", content: `${deckName} | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={deck.title} path={`games/stat-attack/${deckName}/${id}`}/>
 
 <Layout>
   <div slot="main">
