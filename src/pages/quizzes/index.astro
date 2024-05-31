@@ -7,37 +7,12 @@ import Hero from '../../components/common/Hero.astro';
 import homeJson from '../../data/home.json';
 import { capitalise } from '../../utils/string';
 import MediumCard from '../../components/common/MediumCard.astro';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from '/src/img/heroes/QUIZZES.jpg';
 
 const heroText = homeJson.quizzes.heroText;
 ---
-<SEO
-  title={`Quizzes | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/quizzes`}
-  openGraph={{
-    basic: {
-      title: `Quizzes | Izz Hafeez`,
-      type: "website",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/quizzes`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Quizzes | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Quizzes"} path="quizzes"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
