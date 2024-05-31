@@ -1,0 +1,57 @@
+---
+import Footer from '../../../components/common/Footer.astro';
+import Hero from '../../../components/common/Hero.astro';
+import NavBar from '../../../components/common/NavBar.astro';
+import LLMap from '../../../components/blog/hikes/LLMap.svelte';
+import Seo from '../../../components/seo/Seo.astro';
+import blogData from '../../../data/blog/blog.json';
+import seoImg from '../../../img/heroes/HIKES.jpg';
+import Layout from '../../../layouts/Layout.astro';
+import hikeData from '../../../data/blog/hikes.json';
+import routesData from '../../../data/blog/hikes-routes.json';
+import SmallCard from '../../../components/common/SmallCard.astro';
+
+const heroText = blogData.hikes.heroText;
+
+const hikes = [];
+for (const [key, value] of Object.entries(hikeData)) {
+  let distance = parseFloat((routesData as any)[key].length.toFixed(2));
+  (hikeData as any)[key].distance = distance;
+  hikes.push({
+    label: `<b>${value.name}</b><br/>${distance} km`,
+    color: value.color,
+    coords: (routesData as any)[key].route,
+    link: `/blog/hikes/${key}`
+  });
+}
+
+const hikesSorted = Object.entries(hikeData).sort((a, b) => {
+  return (a[1] as any).distance < (b[1] as any).distance ? 1 : -1;
+});
+---
+
+<Seo {heroText} {seoImg} pageName={"Blog"} path={`blog`}/>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="HIKES" text={heroText} site="blog"/>
+    <LLMap client:only="svelte" lines={hikes}/>
+    <section class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {hikesSorted.map(([key, value]) => <SmallCard
+        color={value.color}
+        href={`/blog/hikes/${key}`}
+        title={value.name}
+        heroText={`${value.date} | ${(routesData as any)[key].length.toFixed(2)}km`}
+        site="blog"/>)}
+    </section>
+    <Footer site="blog"/>
+  </div>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Footer from '../../components/common/Footer.astro';
+import Hero from '../../components/common/Hero.astro';
+import MediumCard from '../../components/common/MediumCard.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import Seo from '../../components/seo/Seo.astro';
+import seoImg from '../../img/heroes/BLOG.jpg';
+import Layout from '../../layouts/Layout.astro';
+import homeJson from '../../data/home.json';
+import blogData from '../../data/blog/blog.json';
+import { capitalise } from '../../utils/string';
+
+const heroText = homeJson.blog.heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Blog"} path={`blog`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="BLOG" text={heroText} site="blog"/>
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {Object.entries(blogData).map(([key, value]) => <MediumCard href={`/blog/${key}`} title={capitalise(key)} heroText={value.heroText} site="blog" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
+    </section>
+    <Footer site="blog"/>
+  </div>
+</Layout>

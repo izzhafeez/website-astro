@@ -1,0 +1,50 @@
+---
+import hikeData from '../../../data/blog/hikes.json';
+import routesData from '../../../data/blog/hikes-routes.json';
+import LLMap from '../../../components/blog/hikes/LLMap.svelte';
+import NavBar from '../../../components/common/NavBar.astro';
+import Hero from '../../../components/common/Hero.astro';
+import Footer from '../../../components/common/Footer.astro';
+import Layout from '../../../layouts/Layout.astro';
+
+export function getStaticPaths() {
+  return Object.entries(hikeData).map(([key, value]) => {
+    let distance = parseFloat((routesData as any)[key].length.toFixed(2));
+    const label = `<b>${value.name}</b><br/>${distance} km`;
+    const color = value.color;
+    const coords = (routesData as any)[key].route;
+    return {
+      params: {
+        key
+      },
+      props: {
+        hike: {
+          ...value,
+          coords,
+          color,
+          label
+        }
+      }
+    }
+  })
+}
+
+export const prerender = true;
+const { hike } = Astro.props;
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label={hike.name} text={""} site="blog"/>
+    <LLMap client:only="svelte" lines={[hike]}/>
+    <Footer site="blog"/>
+  </div>
+</Layout>
