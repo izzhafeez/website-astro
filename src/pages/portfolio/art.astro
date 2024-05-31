@@ -7,7 +7,7 @@ import Hero from '../../components/common/Hero.astro';
 import NavBar from '../../components/common/NavBar.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from "../../img/heroes/ART.jpg";
 
 export interface ArtData {
@@ -29,32 +29,7 @@ const artworks = Object.entries(artData as ArtJson).map(([key, value]) => {
 
 const heroText = portfolioData.art.heroText;
 ---
-<SEO
-  title={`Artwork | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio/art`}
-  openGraph={{
-    basic: {
-      title: `Artwork | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio/art`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Artwork | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Artwork"} path="portfolio/art"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
