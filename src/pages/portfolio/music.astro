@@ -7,7 +7,7 @@ import NavBar from '../../components/common/NavBar.astro';
 import Hero from '../../components/common/Hero.astro';
 import Footer from '../../components/common/Footer.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from '../../img/heroes/MUSIC.jpg';
 
 interface MusicData {
@@ -29,32 +29,7 @@ const music = Object.entries(musicData as MusicJson).map(([key, value]) => {
 
 const heroText = portfolioData.music.heroText;
 ---
-<SEO
-  title={`Music | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio/music`}
-  openGraph={{
-    basic: {
-      title: `Music | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio/music`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Music | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Music"} path="portfolio/music"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
