@@ -5,7 +5,7 @@ import Hero from '../../components/common/Hero.astro';
 import experienceData from '../../data/portfolio/experience.json';
 import ExperiencePreview from '../../components/portfolio/ExperiencePreview.astro';
 import Footer from '../../components/common/Footer.astro';
-import { SEO } from 'astro-seo';
+import Seo from '../../components/seo/Seo.astro';
 import seoImg from '../../img/heroes/EXPERIENCE.jpg';
 
 interface ExperienceData {
@@ -33,32 +33,7 @@ const experiences = Object.entries(experienceData as ExperienceJson).map(([key, 
 
 const heroText = "Here are some of the invaluable experiences I've gained through internships, work and beyond."
 ---
-<SEO
-  title={`Experience | Izz Hafeez`}
-  description={heroText}
-  canonical={`https://izzhafeez.com/portfolio/experience`}
-  openGraph={{
-    basic: {
-      title: `Experience | Izz Hafeez`,
-      type: "blog",
-      image: seoImg.src,
-      url: `https://izzhafeez.com/portfolio/experience`
-    }
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.png" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: seoImg.src,
-      },
-      { name: "twitter:title", content: `Experience | Izz Hafeez`},
-      { name: "twitter:description", content: heroText },
-    ],
-  }}
-/>
+<Seo {heroText} {seoImg} pageName={"Experience"} path="portfolio/experience"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
