@@ -1,0 +1,257 @@
+{
+  "rifle-range": {
+    "name": "Rifle Range",
+    "date": "12/08/23",
+    "color": "ew-500"
+  },
+  "singapura-very-strong": {
+    "name": "Singapura Very Strong",
+    "date": "13/01/24",
+    "color": "ew-500"
+  },
+  "tel-3": {
+    "name": "Tel3portation",
+    "date": "30/11/22",
+    "color": "te-500"
+  },
+  "bukit-panjang-malls": {
+    "name": "Malls of the Long Hill",
+    "date": "23/09/21",
+    "color": "lrt-500"
+  },
+  "the-way-of-water": {
+    "name": "The Way of Water",
+    "date": "03/06/23",
+    "color": "hp-500"
+  },
+  "hawkerman": {
+    "name": "Hawkerman",
+    "date": "26/12/23",
+    "color": "mp-500"
+  },
+  "airplanes": {
+    "name": "Fly Away",
+    "date": "TBD",
+    "color": "black"
+  },
+  "river-flows-in-you": {
+    "name": "River Flows in You",
+    "date": "07/12/22",
+    "color": "hp-500"
+  },
+  "thomson-and-thomson": {
+    "name": "Thomson and Thomson",
+    "date": "07/08/23",
+    "color": "ne-500"
+  },
+  "dtl-1": {
+    "name": "Making My Way Downtown",
+    "date": "14/01/24",
+    "color": "dt-500"
+  },
+  "alexandra-malls": {
+    "name": "Malls of Alexandra",
+    "date": "25/09/21",
+    "color": "lrt-500"
+  },
+  "the-circle-of-life": {
+    "name": "The Circle of Life",
+    "date": "05/05/23",
+    "color": "cc-500"
+  },
+  "north-coast-malls": {
+    "name": "Malls of the North",
+    "date": "28/03/22",
+    "color": "lrt-500"
+  },
+  "coast-2-coast": {
+    "name": "Coast 2 Coast",
+    "date": "01/08/22",
+    "color": "ew-500"
+  },
+  "unesco": {
+    "name": "UNESCO World Heritage",
+    "date": "19/12/23",
+    "color": "ew-500"
+  },
+  "sentosa": {
+    "name": "Sentosa",
+    "date": "TBD",
+    "color": "black"
+  },
+  "deez-nutz": {
+    "name": "Deez Nutz",
+    "date": "15/01/24",
+    "color": "ew-500"
+  },
+  "tale-of-two-rivers": {
+    "name": "Tale of Two Rivers",
+    "date": "04/12/22",
+    "color": "ew-500"
+  },
+  "the-ghettos": {
+    "name": "The Ghettos",
+    "date": "08/05/24",
+    "color": "mp-500"
+  },
+  "bedok-reservoir": {
+    "name": "Bedok Reservoir",
+    "date": "03/01/23",
+    "color": "ew-500"
+  },
+  "pasir-ris-park": {
+    "name": "Pasir Ris Park",
+    "date": "27/09/23",
+    "color": "ew-500"
+  },
+  "journey-to-the-west": {
+    "name": "西游记",
+    "date": "TBD",
+    "color": "ew-500"
+  },
+  "balestier-malls": {
+    "name": "Malls of the Ancients",
+    "date": "04/08/22",
+    "color": "lrt-500"
+  },
+  "west-side-story": {
+    "name": "West Side Story",
+    "date": "11/08/23",
+    "color": "sl-500"
+  },
+  "the-forgotten-airport": {
+    "name": "The Forgotten Airport",
+    "date": "13/08/23",
+    "color": "tw-500"
+  },
+  "gangsters-paradise": {
+    "name": "Gangster's Paradise",
+    "date": "TBD",
+    "color": "black"
+  },
+  "plan-for-the-east-coast": {
+    "name": "Plan for the East Coast",
+    "date": "26/12/22",
+    "color": "ew-500"
+  },
+  "romance-of-three-kingdoms": {
+    "name": "三国演义",
+    "date": "08/08/23",
+    "color": "tw-500"
+  },
+  "aint-no-bukit-high-enough": {
+    "name": "Ain't No Bukit High Enough",
+    "date": "TBD",
+    "color": "black"
+  },
+  "what-defu": {
+    "name": "What Defu?",
+    "date": "13/05/23",
+    "color": "ne-500"
+  },
+  "sengkang-malls": {
+    "name": "Malls of the North East",
+    "date": "14/07/22",
+    "color": "lrt-500"
+  },
+  "jurong-lake": {
+    "name": "Asian Garden",
+    "date": "TBD",
+    "color": "black"
+  },
+  "hortridge-park": {
+    "name": "HortRidge Park",
+    "date": "22/12/20",
+    "color": "ew-500"
+  },
+  "thomson-malls": {
+    "name": "Malls of the Thomson",
+    "date": "05/05/22",
+    "color": "lrt-500"
+  },
+  "springleaf": {
+    "name": "Sprínglěaf",
+    "date": "TBD",
+    "color": "black"
+  },
+  "eastern-malls": {
+    "name": "Malls of the Far East",
+    "date": "17/05/22",
+    "color": "lrt-500"
+  },
+  "wheres-my-shelter": {
+    "name": "Where's My Shelter",
+    "date": "01/07/23",
+    "color": "tw-500"
+  },
+  "macritchie": {
+    "name": "MacRitchie",
+    "date": "10/08/23",
+    "color": "ew-500"
+  },
+  "bukit-brown": {
+    "name": "Bukit Brown",
+    "date": "TBD",
+    "color": "black"
+  },
+  "romance-of-two-kingdoms": {
+    "name": "两国演义",
+    "date": "29/09/22",
+    "color": "tw-500"
+  },
+  "dream-of-red-line": {
+    "name": "红线梦前段",
+    "date": "25/05/24",
+    "color": "ns-500"
+  },
+  "west-coast-malls": {
+    "name": "Malls of the West",
+    "date": "14/08/21",
+    "color": "lrt-500"
+  },
+  "journey-to-the-north-east": {
+    "name": "东北游记",
+    "date": "29/12/22",
+    "color": "ne-500"
+  },
+  "south-coast-malls": {
+    "name": "Malls of the Harbour",
+    "date": "27/10/21",
+    "color": "lrt-500"
+  },
+  "nus-smu": {
+    "name": "Bus BTC (there's also SMU)",
+    "date": "23/07/23",
+    "color": "sl-500"
+  },
+  "smu-sutd": {
+    "name": "All Unis are Good Unis",
+    "date": "TBD",
+    "color": "dt-500"
+  },
+  "ntu-nus": {
+    "name": "NUS/NTU Friendship Walk",
+    "date": "TBD",
+    "color": "black"
+  },
+  "orchard-malls": {
+    "name": "Malls of the Ang Mo",
+    "date": "05/09/21",
+    "color": "lrt-500"
+  },
+  "east-coast-malls": {
+    "name": "Malls of the East",
+    "date": "30/12/21",
+    "color": "lrt-500"
+  },
+  "sungei-buloh": {
+    "name": "Sungei Buloh",
+    "date": "TBD",
+    "color": "black"
+  },
+  "tel-4": {
+    "name": "East Side Vibe",
+    "date": "TBD",
+    "color": "te-500"
+  }
+}
