@@ -13,18 +13,14 @@ import sentry from "@sentry/astro";
 // https://astro.build/config
 export default defineConfig({
   output: "hybrid",
-  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(),
-    vue({
-      template: {
-        transformAssetUrls: false
-      }
-    }),
-    svelte(), alpine()],
+  integrations: [react(), tailwind(), metaTags(), sitemap(), sentry(), spotlightjs(), vue({
+    template: {
+      transformAssetUrls: false
+    }
+  }), svelte(), alpine()],
   adapter: netlify(),
   site: "https://izzhafeez.com",
-  renderers: [
-    '@astrojs/renderer-react'
-  ]
+  renderers: ['@astrojs/renderer-react']
   // site: "https://izzhafeez.github.io",
   // base: "/website-astro"
 });
