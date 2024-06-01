@@ -1,1 +1,0 @@
-/Users/izzhafeez/Documents/Documents\ -\ Izz’s\ MacBook\ Pro/website-astro/scripts/hikes-processor/target/debug/hikes-processor: /Users/izzhafeez/Documents/Documents\ -\ Izz’s\ MacBook\ Pro/website-astro/scripts/hikes-processor/src/main.rs
