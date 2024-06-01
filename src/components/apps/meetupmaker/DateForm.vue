@@ -101,7 +101,7 @@
 
 <script>
 import axios from 'axios';
-import { stringToHash } from '../../utils/string';
+import { stringToHash } from '../../../utils/string';
 
 export default {
   props: {

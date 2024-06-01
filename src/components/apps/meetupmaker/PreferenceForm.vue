@@ -136,7 +136,7 @@
 import "leaflet/dist/leaflet.css";
 import { LMap, LTileLayer, LMarker, LIcon, LTooltip } from "@vue-leaflet/vue-leaflet";
 import axios from "axios";
-import { stringToHash } from "../../utils/string";
+import { stringToHash } from "../../../utils/string";
 
 export default {
   components: {

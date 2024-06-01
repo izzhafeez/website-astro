@@ -43,7 +43,7 @@
 import VueDatePicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
 import axios from "axios";
-import { stringToHash } from "../../utils/string";
+import { stringToHash } from "../../../utils/string";
 
 export default {
   components: { VueDatePicker },

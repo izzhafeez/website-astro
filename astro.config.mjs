@@ -7,7 +7,6 @@ import sitemap from "@astrojs/sitemap";
 import spotlightjs from "@spotlightjs/astro";
 import svelte from "@astrojs/svelte";
 import netlify from "@astrojs/netlify";
-import alpine from "@astrojs/alpinejs";
 import sentry from "@sentry/astro";
 
 // https://astro.build/config
@@ -17,7 +16,7 @@ export default defineConfig({
     template: {
       transformAssetUrls: false
     }
-  }), svelte(), alpine()],
+  }), svelte()],
   adapter: netlify(),
   site: "https://izzhafeez.com",
   renderers: ['@astrojs/renderer-react']
