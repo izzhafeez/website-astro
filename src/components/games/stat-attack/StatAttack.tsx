@@ -4,23 +4,6 @@ import { capitalise } from '../../../utils/string';
 import gamesData from '../../../data/games/games.json';
 import Swal from 'sweetalert2';
 import party from 'party-js';
-import {
-  DndContext, 
-  closestCenter,
-  KeyboardSensor,
-  PointerSensor,
-  useSensor,
-  useSensors,
-  type DragEndEvent,
-} from '@dnd-kit/core';
-import {
-  arrayMove,
-  SortableContext,
-  sortableKeyboardCoordinates,
-  // verticalListSortingStrategy,
-  rectSortingStrategy
-} from '@dnd-kit/sortable';
-
 import {SortableItem} from './SortableItem';
 
 const crownSvg = <svg className="my-auto ms-1" width="20px" height="20px" viewBox="0 0 24 24" fill="#FA9E0D" xmlns="http://www.w3.org/2000/svg">
@@ -86,26 +69,6 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
   });
 
   const handSize = fields.length;
-
-  const sensors = useSensors(
-    useSensor(PointerSensor),
-    useSensor(KeyboardSensor, {
-      coordinateGetter: sortableKeyboardCoordinates,
-    })
-  );
-
-  function handleDragEnd(event: DragEndEvent) {
-    const {active, over} = event;
-    
-    if (active.id !== over?.id) {
-      setHand((hand) => {
-        const oldIndex = hand.indexOf((active.id as number)-1);
-        const newIndex = hand.indexOf((over?.id as number)-1);
-        
-        return arrayMove(hand, oldIndex, newIndex);
-      });
-    }
-  }
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL+id, {
     onOpen: () => {
@@ -318,6 +281,16 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
   const names = deckData.map((card: {name: string}) => card.name).map((s: string, index: number) => <span className={hand.includes(index) ? 'text-gray-500/30' : ''}>{s} </span>);
   const namesLength = deckData.map((card: {name: string}) => card.name.length).reduce((a: number, b: number) => a + b, 0);
 
+  const handleMove = (index: number, isUp: boolean) => {
+    if (isUp && index === 0) return;
+    if (!isUp && index === handSize) return;
+    const newHand = [...hand];
+    const temp = newHand[index];
+    newHand[index] = newHand[isUp ? index - 1 : index + 1];
+    newHand[isUp ? index - 1 : index + 1] = temp;
+    setHand(newHand);
+  }
+
   return (
     <>
     <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
@@ -370,18 +343,10 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       {gameStatus === 'PLAYING' && !isLost && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">Try to get the <span className="underline font-bold">{isHigher ? 'highest' : 'lowest'}</span> value for each statistic!</h3>}
       {gameStatus === 'PLAYED' && !isLost && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">Waiting for other players...</h3>}
       {isLost && isSpectating && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">You lost! So wait for the surviving players to play their cards!</h3>}
-      {(gameStatus === 'PLAYING' || gameStatus === 'PLAYED') && !isLost && <DndContext 
-        sensors={sensors}
-        collisionDetection={closestCenter}
-        onDragEnd={handleDragEnd}
-      ><SortableContext 
-        items={hand.map(h => h+1)}
-        strategy={rectSortingStrategy}
-      >
-        <div className="grid lg:grid-cols-2 gap-2">
-          {hand.map((id, i) => <SortableItem field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields} fieldThresholds={fieldThresholds}/>)}
-        </div>
-      </SortableContext></DndContext>}
+      {(gameStatus === 'PLAYING' || gameStatus === 'PLAYED') && !isLost && 
+        <div className="grid gap-2">
+          {hand.map((id, i) => <SortableItem handleMove={handleMove} index={i} field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields} fieldThresholds={fieldThresholds}/>)}
+        </div>}
       {gameStatus === 'PLAYING' && <button onClick={play} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Play</button>}
 
       <div id="winSelect">{gameStatus === 'SELECTING' && (allowSelect

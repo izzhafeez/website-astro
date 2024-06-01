@@ -4,6 +4,7 @@ import logos from "./logos";
 import appsData from '../../data/apps/apps.json';
 import quizzesData from '../../data/quizzes/quizzes.json';
 import portfolioData from '../../data/portfolio/portfolio.json';
+import blogData from '../../data/blog/blog.json';
 import gamesData from '../../data/games/games.json';
 
 const { id } = Astro.props;
@@ -70,6 +71,23 @@ type Logos = {
       <ul id="dropdown-portfolio" class="hidden py-2 space-y-2">
         {Object.entries(portfolioData).map(([key, value]) => (<li>
           <a href={`/portfolio/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
+            <h5 class="ms-3">{capitalise(value.title)}</h5>
+          </a>
+        </li>))}
+      </ul>
+    </li>
+    <li>
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-portfolio" data-collapse-toggle="dropdown-portfolio">
+        <img src={logos['blog'].src} alt="Portfolio" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
+        <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Blog</span>
+        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+        </svg>
+      </button>
+      <ul id="dropdown-blog" class="hidden py-2 space-y-2">
+        {Object.entries(blogData).map(([key, value]) => (<li>
+          <a href={`/blog/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>

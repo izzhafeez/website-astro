@@ -44,6 +44,7 @@
     "axios": "^1.6.8",
     "cjs": "^0.0.11",
     "flowbite": "^2.3.0",
+    "framer-motion": "^11.2.10",
     "leaflet": "^1.9.4",
     "leaflet.control.resizer": "^0.0.1",
     "leaflet.fullscreen": "^2.4.0",
