@@ -6,6 +6,8 @@ import NavBar from '../../../components/common/NavBar.astro';
 import Hero from '../../../components/common/Hero.astro';
 import Footer from '../../../components/common/Footer.astro';
 import Layout from '../../../layouts/Layout.astro';
+import Seo from '../../../components/seo/Seo.astro';
+import seoImg from '../../../img/heroes/HIKES.jpg';
 
 export function getStaticPaths() {
   return Object.entries(hikeData).map(([key, value]) => {
@@ -22,7 +24,8 @@ export function getStaticPaths() {
           ...value,
           coords,
           color,
-          label
+          label,
+          distance
         }
       }
     }
@@ -32,6 +35,8 @@ export function getStaticPaths() {
 export const prerender = true;
 const { hike } = Astro.props;
 ---
+
+<Seo heroText={hike.route} {seoImg} pageName={hike.name} path={`blog`}/>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -43,8 +48,28 @@ const { hike } = Astro.props;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <Hero label={hike.name} text={""} site="blog"/>
+    <Hero label={hike.name} text={``} site="blog"/>
     <LLMap client:only="svelte" lines={[hike]}/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h2 class="text-3xl text-cc-500 font-extrabold">DISTANCE</h2>
+      <p class="my-4">{hike.distance}km</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">DATE</h2>
+      <p class="my-4">{hike.date}</p>
+      {hike.route &&
+      <h2 class="text-3xl text-cc-500 font-extrabold">NUMBER OF VICTIMS</h2>
+      <p class="my-4">{'💁'.repeat(hike.victims)}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">RATING</h2>
+      <p class="my-4">{'★'.repeat(hike.rating) + '☆'.repeat(5-hike.rating)}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">ROUTE</h2>
+      <p class="my-4">{hike.route}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">REFRESHMENTS</h2>
+      <p class="my-4">{hike.refreshments}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">EXPERIENCE</h2>
+      <p class="my-4">{hike.experience}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">TIPS</h2>
+      <p class="my-4">{hike.tips}</p>
+      }
+    </div>
     <Footer site="blog"/>
   </div>
 </Layout>
