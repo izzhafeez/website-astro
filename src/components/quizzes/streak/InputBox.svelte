@@ -24,7 +24,7 @@
   let isMcq = true;
   let isWacky = true;
   let name;
-  $: difficulty = 'hard';
+  $: difficulty = 'asian';
   const MINIMUM_ACTIVE_LENGTH = 5;
   const DIFFICULTY_MAPPING = {
     easy: { optionSize: 2, windowSize: 8, toRandomise: true },

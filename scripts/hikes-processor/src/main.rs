@@ -17,6 +17,12 @@ struct HikeInfo {
 	name: String,
 	date: String,
 	color: String,
+	victims: i8,
+	rating: i8,
+	route: String,
+	experience: String,
+	refreshments: String,
+	tips: String
 }
 
 fn main() {
@@ -37,7 +43,13 @@ fn main() {
 			.or_insert(HikeInfo {
 				name: "UNKNOWN".to_string(),
 				date: "TBD".to_string(),
-				color: "WHITE".to_string()
+				color: "WHITE".to_string(),
+				victims: 0,
+				rating: 0,
+				route: "".to_string(),
+				experience: "".to_string(),
+				refreshments: "".to_string(),
+				tips: "".to_string()
 			});
 	}
 	let json = serde_json::to_string_pretty(&hikes).unwrap();

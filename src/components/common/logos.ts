@@ -31,6 +31,7 @@ import skills from "../../img/logos/skills.svg";
 import hikes from "../../img/logos/hikes.svg";
 
 // games
+import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
 
 export default {
@@ -56,5 +57,6 @@ export default {
   projects,
   skills,
   hikes,
+  "math-attack": mathAttack,
   "stat-attack": statAttack
 }

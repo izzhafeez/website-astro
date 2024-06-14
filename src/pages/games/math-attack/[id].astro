@@ -1,0 +1,14 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import MathAttack from "../../../components/games/math-attack/MathAttack";
+import Layout from "../../../layouts/Layout.astro";
+export const prerender = false;
+const { id } = Astro.params;
+---
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <MathAttack client:only="react" id={id || ""}/>
+  </div>
+</Layout>

@@ -22,6 +22,12 @@ interface CourseData {
 
 type CourseJson = {[key: string]: CourseData };
 
+const typeMap: {[key: string]: number} = {
+  pc: 2,
+  spec: 1,
+  '': 0
+};
+
 const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
   let title = value.title;
   let issuer = value.issuer;
@@ -51,7 +57,7 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
     rank: value.rank ?? 0,
     related: value.related
   }
-}).sort((a,b) => -a.rank + b.rank);
+}).sort((a,b) => a.title.localeCompare(b.title)).sort((a,b) => -typeMap[a.type] + typeMap[b.type] || a.rank - b.rank);
 
 const heroText = portfolioData.courses.heroText;
 ---

@@ -1,7 +1,6 @@
 {
   "aws-app-spec": {
     "title": "Developing Applications on AWS",
-    "rank": 2,
     "issuer": "AWS",
     "link": "https://coursera.org/verify/specialization/XWCAG7EZTXFR",
     "related": [
@@ -11,7 +10,6 @@
   },
   "aws-cloud-solutions-pc": {
     "title": "AWS Cloud Solutions Architect",
-    "rank": 3,
     "issuer": "AWS",
     "link": "https://coursera.org/verify/professional-cert/TJTY9VACM8K6",
     "related": [
@@ -39,7 +37,10 @@
   },
   "cfg1002": {
     "name": "Career Catalyst",
-    "grade": "CS"
+    "grade": "CS",
+    "related": [
+      "What Skills"
+    ]
   },
   "codio-web-technologies-and-security-spec": {
     "link": "https://coursera.org/verify/specialization/UAR9G9SZLHQ5",
@@ -52,7 +53,6 @@
   "cp2106": {
     "name": "Orbital",
     "grade": "Artemis",
-    "rank": 1,
     "related": [
       "NoteTogether"
     ]
@@ -66,15 +66,24 @@
   },
   "cs1010r": {
     "name": "Programming Methodology",
-    "grade": "A+"
+    "grade": "A+",
+    "related": [
+      "JavaScript"
+    ]
   },
   "cs1101s": {
     "name": "Programming Methodology I",
-    "grade": "A"
+    "grade": "A",
+    "related": [
+      "JavaScript"
+    ]
   },
   "cs1231s": {
     "name": "Discrete Structures",
-    "grade": "A+"
+    "grade": "A+",
+    "related": [
+      "Math"
+    ]
   },
   "cs2030s": {
     "name": "Programming Methodology II",
@@ -99,7 +108,10 @@
   },
   "cs2101": {
     "name": "Effective Communication for Computing Students",
-    "grade": "A"
+    "grade": "A",
+    "related": [
+      "Communication"
+    ]
   },
   "cs2102": {
     "name": "Database Systems",
@@ -112,7 +124,6 @@
   "cs2103t": {
     "name": "Software Engineering",
     "grade": "A+",
-    "rank": 3,
     "related": [
       "Java",
       "GitHub",
@@ -139,7 +150,6 @@
   "cs2109s": {
     "name": "AI and ML",
     "grade": "A+",
-    "rank": 1,
     "related": [
       "PyTorch",
       "Python",
@@ -151,7 +161,6 @@
   "cs3216": {
     "name": "Software Product Engineering for Digital Markets",
     "grade": "B",
-    "rank": 1,
     "related": [
       "ChitChatChampion",
       "BuilderPal",
@@ -162,7 +171,6 @@
   "cs3230": {
     "name": "Design and Analysis of Algorithms",
     "grade": "A",
-    "rank": 1,
     "related": [
       "Java"
     ] 
@@ -170,7 +178,6 @@
   "cs4243": {
     "name": "Computer Vision and Pattern Recognition",
     "grade": "B+",
-    "rank": 1,
     "related": [
       "Computer Vision",
       "Deep Learning",
@@ -178,7 +185,6 @@
     ]
   },
   "duke-rust-programming-spec": {
-    "rank": 2,
     "link": "https://coursera.org/share/422b55cee858e7554c665cd5f7dd6220",
     "related": [
       "Rust",
@@ -191,7 +197,6 @@
   "dla-machine-learning-spec": {
     "issuer": "DeepLearning.AI",
     "link": "https://coursera.org/verify/specialization/W64WX87H59SH",
-    "rank": 2,
     "related": [
       "Computer Vision",
       "TensorFlow",
@@ -202,7 +207,6 @@
   "dla-tensorflow-developer-pc": {
     "issuer": "DeepLearning.AI",
     "link": "https://coursera.org/verify/professional-cert/WQBXNV7VAXWC",
-    "rank": 3,
     "related": [
       "TensorFlow",
       "Computer Vision",
@@ -241,7 +245,8 @@
   },
   "gec1030": {
     "name": "Metropolis: City in World History",
-    "grade": "A-"
+    "grade": "A-",
+    "skills": "Geography"
   },
   "gen2002x": {
     "name": "Total Defence Project",
@@ -252,11 +257,11 @@
   },
   "gess1019": {
     "name": "Urban Planning in Singapore",
-    "grade": "A-"
+    "grade": "A-",
+    "skills": "Geography"
   },
   "google-advanced-data-analytics-pc": {
     "link": "https://www.credly.com/badges/9efde45d-8331-4ca7-90d4-ff98f1bde544/public_url",
-    "rank": 3,
     "related": [
       "Tableau",
       "Python",
@@ -274,7 +279,6 @@
     ]
   },
   "google-business-intelligence-pc": {
-    "rank": 2,
     "link": "https://www.credly.com/badges/ba69c2f0-3d08-4700-9b2a-791b67f0dfb3/public_url",
     "related": [
       "SQL",
@@ -293,7 +297,6 @@
     ]
   },
   "google-database-engineer-spec": {
-    "rank": 3,
     "title": "Google Cloud Database Engineer",
     "link": "https://coursera.org/verify/specialization/T33PPYYDUQ9S",
     "related": [
@@ -310,12 +313,14 @@
     ]
   },
   "google-professional-workspace-administrator-pc": {
-    "link": "https://coursera.org/share/66456a66d108c935f37e6fcaef6c3ec3"
+    "link": "https://coursera.org/share/66456a66d108c935f37e6fcaef6c3ec3",
+    "related": [
+      "GCP"
+    ]
   },
   "google-ux-design-pc": {
     "title": "UX Design",
     "link": "https://coursera.org/share/fd93dbe21a1be3fc20e6aae265f7ef81",
-    "rank": 3,
     "related": [
       "UX Design",
       "Figma",
@@ -325,7 +330,6 @@
   "harvardx-data-science-pc": {
     "issuer": "HarvardX",
     "link": "https://credentials.edx.org/credentials/ed430b9eb6d3496fb6fc8257b0e2a90a/",
-    "rank": 1,
     "related": [
       "R",
       "Data Science",
@@ -392,11 +396,17 @@
   },
   "is1103": {
     "name": "Ethics in Computing",
-    "grade": "A+"
+    "grade": "A+",
+    "related": [
+      "What Skills"
+    ]
   },
   "ku-arabic-for-beginners-cert": {
     "issuer": "Khalifa University",
-    "link": "https://coursera.org/verify/specialization/Q4U5KQXZBGSX"
+    "link": "https://coursera.org/verify/specialization/Q4U5KQXZBGSX",
+    "related": [
+      "Arabic"
+    ]
   },
   "learn-java-testing-spec": {
     "issuer": "LearnQuest",
@@ -426,15 +436,24 @@
   },
   "ma2101": {
     "name": "Linear Algebra II",
-    "grade": "A"
+    "grade": "A",
+    "related": [
+      "Math"
+    ]
   },
   "ma2104": {
     "name": "Multivariate Calculus",
-    "grade": "A"
+    "grade": "A",
+    "related": [
+      "Math"
+    ]
   },
   "ma2108": {
     "name": "Mathematical Analysis I",
-    "grade": "B+"
+    "grade": "B+",
+    "related": [
+      "Math"
+    ]
   },
   "ma3236": {
     "name": "Non-Linear Programming",
@@ -446,7 +465,6 @@
   "ma3238": {
     "name": "Stochastic Processes I",
     "grade": "A-",
-    "rank": 1,
     "related": [
       "Statistics"
     ]
@@ -458,9 +476,15 @@
       "MATLAB"
     ]
   },
+  "meta-frontend-developer-pc": {
+    "link": "https://coursera.org/verify/professional-cert/SXA99GKZUJ2Y",
+    "related": [
+      "Frontend Development",
+      "React"
+    ]
+  },
   "microsoft-data-engineering-pc": {
     "title": "Azure Data Engineering Associate",
-    "rank": 2,
     "link": "https://coursera.org/verify/professional-cert/3Z276QU4BE89",
     "related": [
       "Azure",
@@ -478,7 +502,10 @@
   "peking-os-cert": {
     "title": "操作系统与虚拟化安全",
     "issuer": "Peking University",
-    "link": "https://coursera.org/verify/6WRPDVYSKMRV"
+    "link": "https://coursera.org/verify/6WRPDVYSKMRV",
+    "related": [
+      "Operating Systems"
+    ]
   },
   "scrimba-ai-engineering-spec": {
     "link": "https://coursera.org/verify/specialization/3PPJUL9TK68C",
@@ -486,6 +513,13 @@
       "AI",
       "Data Science",
       "Machine Learning"
+    ]
+  },
+  "scrimba-frontend-development-spec": {
+    "link": "https://coursera.org/verify/specialization/FAA6RZ9R32X4",
+    "related": [
+      "Frontend Development",
+      "React"
     ]
   },
   "st2334": {
@@ -526,7 +560,6 @@
   },
   "vanderbilt-scalable-microservices-for-developers-spec": {
     "issuer": "Vanderbilt University",
-    "rank": 1,
     "link": "https://coursera.org/verify/specialization/2XHE6NQX5437",
     "related": [
       "Software Engineering",
