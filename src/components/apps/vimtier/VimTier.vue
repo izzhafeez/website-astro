@@ -20,6 +20,11 @@
               Upload</button>
         </li>
         <li>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">n</kbd>
+          &nbsp;
+          <span>New Item</span>
+        </li>
+        <li>
           <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">i</kbd>
           &nbsp;
           <span>Insert Mode</span>
@@ -33,11 +38,6 @@
           <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">v</kbd>
           &nbsp;
           <span>View Mode</span>
-        </li>
-        <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">n</kbd>
-          &nbsp;
-          <span>New Item</span>
         </li>
         <li>
           <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
@@ -346,7 +346,7 @@ export default {
           title: 'New Item',
           input: 'text'
         }).then((result) => {
-          if (result.isConfirmed) {
+          if (result.isConfirmed && result.value) {
             // push to the front
             this.items.unshift({ name: result.value, id: this.items.length + 1 });
             this.cursorZ = Math.max(this.cursorZ, 0);
@@ -651,7 +651,10 @@ export default {
     },
     handleCopy() {
       // copies tiers as json string
-      navigator.clipboard.writeText(JSON.stringify(this.tiers));
+      navigator.clipboard.writeText(JSON.stringify({
+        items: this.items,
+        tiers: this.tiers
+      }));
       Swal.fire({
         title: 'Copied!',
         text: 'Tiers copied to clipboard',
@@ -671,14 +674,13 @@ export default {
         confirmButtonText: 'Upload',
         showLoaderOnConfirm: true,
         preConfirm: (json) => {
-          console.log(JSON.parse(json));
+          const parsed = JSON.parse(json);
           try {
-            this.tiers = JSON.parse(json);
+            this.items = parsed.items;
+            this.tiers = parsed.tiers;
           } catch (e) {
-            console.log(e);
             Swal.showValidationMessage(`Invalid JSON: ${e}`);
           }
-          console.log(this.tiers);
         }
       });
     }
