@@ -5,6 +5,21 @@
       <h3 class="text-2xl font-bold ">COMMANDS</h3>
       <ul class="grid gap-1">
         <li>
+          <button class="px-2 py-[1px] rounded-md bg-ew-mrt hover:bg-ew-mrt/50 flex gap-1" v-on:click="handleCopy">
+            <svg class="my-auto dark:invert" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21 8C21 6.34315 19.6569 5 18 5H10C8.34315 5 7 6.34315 7 8V20C7 21.6569 8.34315 23 10 23H18C19.6569 23 21 21.6569 21 20V8ZM19 8C19 7.44772 18.5523 7 18 7H10C9.44772 7 9 7.44772 9 8V20C9 20.5523 9.44772 21 10 21H18C18.5523 21 19 20.5523 19 20V8Z" fill="#0F0F0F"/>
+              <path d="M6 3H16C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1H6C4.34315 1 3 2.34315 3 4V18C3 18.5523 3.44772 19 4 19C4.55228 19 5 18.5523 5 18V4C5 3.44772 5.44772 3 6 3Z" fill="#0F0F0F"/>
+              </svg>
+              Copy</button>
+        </li>
+        <li>
+          <button class="px-2 py-[1px] rounded-md bg-hp-mrt hover:bg-hp-mrt/50 flex gap-1" v-on:click="handleUpload">
+            <svg class="my-auto dark:invert" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17 17H17.01M15.6 14H18C18.9319 14 19.3978 14 19.7654 14.1522C20.2554 14.3552 20.6448 14.7446 20.8478 15.2346C21 15.6022 21 16.0681 21 17C21 17.9319 21 18.3978 20.8478 18.7654C20.6448 19.2554 20.2554 19.6448 19.7654 19.8478C19.3978 20 18.9319 20 18 20H6C5.06812 20 4.60218 20 4.23463 19.8478C3.74458 19.6448 3.35523 19.2554 3.15224 18.7654C3 18.3978 3 17.9319 3 17C3 16.0681 3 15.6022 3.15224 15.2346C3.35523 14.7446 3.74458 14.3552 4.23463 14.1522C4.60218 14 5.06812 14 6 14H8.4M12 15V4M12 4L15 7M12 4L9 7" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Upload</button>
+        </li>
+        <li>
           <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">i</kbd>
           &nbsp;
           <span>Insert Mode</span>
@@ -633,7 +648,40 @@ export default {
         this.items.splice(this.cursorZ + 1, 0, temp);
         this.cursorZ++;
       }
+    },
+    handleCopy() {
+      // copies tiers as json string
+      navigator.clipboard.writeText(JSON.stringify(this.tiers));
+      Swal.fire({
+        title: 'Copied!',
+        text: 'Tiers copied to clipboard',
+        icon: 'success',
+        timer: 2000,
+        timerProgressBar: true,
+        showConfirmButton: false
+      });
+    },
+    handleUpload() {
+      // uploads tiers from json string
+      Swal.fire({
+        title: 'Upload Tiers',
+        input: 'textarea',
+        inputPlaceholder: 'Paste tiers here',
+        showCancelButton: true,
+        confirmButtonText: 'Upload',
+        showLoaderOnConfirm: true,
+        preConfirm: (json) => {
+          console.log(JSON.parse(json));
+          try {
+            this.tiers = JSON.parse(json);
+          } catch (e) {
+            console.log(e);
+            Swal.showValidationMessage(`Invalid JSON: ${e}`);
+          }
+          console.log(this.tiers);
+        }
+      });
     }
-  }
+  },
 };
 </script>
