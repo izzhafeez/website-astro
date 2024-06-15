@@ -652,8 +652,8 @@ export default {
     handleCopy() {
       // copies tiers as json string
       navigator.clipboard.writeText(JSON.stringify({
-        items: this.items,
-        tiers: this.tiers
+        items: this.items.map(item => item.name),
+        tiers: this.tiers.map(tier => tier.map(item => item.name))
       }));
       Swal.fire({
         title: 'Copied!',
@@ -676,8 +676,8 @@ export default {
         preConfirm: (json) => {
           const parsed = JSON.parse(json);
           try {
-            this.items = parsed.items;
-            this.tiers = parsed.tiers;
+            this.items = parsed.items.map((name, id) => ({ name, id: id + 1 }));
+            this.tiers = parsed.tiers.map(tier => tier.map((name, id) => ({ name, id: id + 1 })));
           } catch (e) {
             Swal.showValidationMessage(`Invalid JSON: ${e}`);
           }
