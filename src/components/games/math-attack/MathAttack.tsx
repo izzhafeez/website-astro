@@ -12,70 +12,7 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
   <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" strokeWidth="2" strokeLinejoin="round"/>
 </svg>;
 
-const numberCards = [
-  { rep: '0', value: 0 },
-  { rep: '1', value: 1 },
-  { rep: '2', value: 2 },
-  { rep: '3', value: 3 },
-  { rep: '4', value: 4 },
-  { rep: '5', value: 5 },
-  { rep: '6', value: 6 },
-  { rep: '7', value: 7 },
-  { rep: '8', value: 8 },
-  { rep: '9', value: 9 },
-  { rep: '10', value: 10 },
-  { rep: '11', value: 11 },
-  { rep: '12', value: 12 },
-  { rep: '13', value: 13 },
-  { rep: '14', value: 14 },
-  { rep: '15', value: 15 },
-  { rep: '16', value: 16 },
-  { rep: '17', value: 17 },
-  { rep: '18', value: 18 },
-  { rep: '19', value: 19 },
-  { rep: '20', value: 20 },
-  { rep: '21', value: 21 },
-  { rep: '22', value: 22 },
-  { rep: '23', value: 23 },
-  { rep: '24', value: 24 },
-  { rep: '25', value: 25 },
-  { rep: '26', value: 26 },
-  { rep: '27', value: 27 },
-  { rep: '28', value: 28 },
-  { rep: '29', value: 29 },
-  { rep: '30', value: 30 },
-  { rep: '31', value: 31 },
-  { rep: '32', value: 32 },
-  { rep: '33', value: 33 },
-  { rep: '34', value: 34 },
-  { rep: '35', value: 35 },
-  { rep: '36', value: 36 },
-  { rep: '37', value: 37 },
-  { rep: '38', value: 38 },
-  { rep: '39', value: 39 },
-  { rep: '40', value: 40 },
-  { rep: '41', value: 41 },
-  { rep: '42', value: 42 },
-  { rep: '0', value: 0 },
-  { rep: '1', value: 1 },
-  { rep: '2', value: 2 },
-  { rep: '3', value: 3 },
-  { rep: '4', value: 4 },
-  { rep: '5', value: 5 },
-  { rep: '6', value: 6 },
-  { rep: '7', value: 7 },
-  { rep: '8', value: 8 },
-  { rep: '9', value: 9 },
-  { rep: '10', value: 10 },
-  { rep: '11', value: 11 },
-  { rep: '12', value: 12 },
-  { rep: '13', value: 13 },
-  { rep: '14', value: 14 },
-  { rep: '15', value: 15 },
-  { rep: '16', value: 16 },
-]
-
-const fnCards = [
+const allCards = [
   { rep: 'f(x) = -1', fn: (x: number) => -1 },
   { rep: 'f(x) = 0', fn: (x: number) => 0 },
   { rep: 'f(x) = 1', fn: (x: number) => 1 },
@@ -114,9 +51,9 @@ const fnCards = [
   { rep: 'f(x) = sin(x)', fn: (x: number) => Math.sin(x) },
   { rep: 'f(x) = cos(x)', fn: (x: number) => Math.cos(x) },
   { rep: 'f(x) = tan(x)', fn: (x: number) => Math.tan(x) },
-  { rep: 'f(x) = 1/sin(x)', fn: (x: number) => 1/Math.sin(x) },
-  { rep: 'f(x) = 1/cos(x)', fn: (x: number) => 1/Math.cos(x) },
-  { rep: 'f(x) = 1/tan(x)', fn: (x: number) => 1/Math.tan(x) },
+  { rep: 'f(x) = 10/sin(x)', fn: (x: number) => 10/Math.sin(x) },
+  { rep: 'f(x) = 10/cos(x)', fn: (x: number) => 10/Math.cos(x) },
+  { rep: 'f(x) = 10/tan(x)', fn: (x: number) => 10/Math.tan(x) },
   { rep: 'f(x) = 1/x', fn: (x: number) => 1/x },
   { rep: 'f(x) = ln(|x|+1)', fn: (x: number) => Math.log(Math.abs(x)+1) },
   { rep: 'f(x) = e^x', fn: (x: number) => Math.exp(x) },
@@ -138,9 +75,6 @@ const fnCards = [
   { rep: 'f(x) = round(x)', fn: (x: number) => Math.round(x) },
 ];
 
-const allCards = [...numberCards, ...fnCards];
-console.log(numberCards.length, fnCards.length, allCards.length);
-
 const instructions = gamesData['math-attack'].heroText;
 
 enum PlayerStates {
@@ -160,7 +94,7 @@ enum GameStates {
 enum GameResponses {
   JOIN = 'JOIN',
   CONNECT = 'CONNECT',
-  RESULT = 'RESULT',
+  PLAY = 'PLAY',
   END = 'END',
   JOIN_ERROR = 'JOIN_ERROR',
   START_ERROR = 'START_ERROR',
@@ -180,8 +114,10 @@ function MathAttack({ id }: { id: string }) {
   const [playerState, setPlayerState] = React.useState(PlayerStates.UNJOINED);
   const [gameState, setGameState] = React.useState(GameStates.LOBBY);
   const [players, setPlayers] = React.useState([] as string[]);
+  const [currentPlayer, setCurrentPlayer] = React.useState('' as string);
   const [name, setName] = React.useState('');
-  const [stack, setStack] = React.useState([] as number[]);
+  const [number, setNumber] = React.useState(0);
+  const [lastPlayed, setLastPlayed] = React.useState(-1);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL+id, {
     onOpen: () => {
@@ -209,6 +145,7 @@ function MathAttack({ id }: { id: string }) {
   }
 
   const playCard = () => {
+    console.log(selectedCard);
     if (selectedCard === -1) {
       Swal.fire({
         icon: 'error',
@@ -219,18 +156,8 @@ function MathAttack({ id }: { id: string }) {
     }
 
     const card = allCards[selectedCard];
-    const is_number = 'value' in card;
-    let result;
-    if (is_number) {
-      result = card.value;
-      for (const cardId of stack) {
-        const stackCard = fnCards[cardId - 60];
-        result = stackCard.fn(result);
-      }
-      sendJsonMessage({ method: 'result', card_id: selectedCard, is_number, name, result });
-    } else {
-      sendJsonMessage({ method: 'result', card_id: selectedCard, is_number, name });
-    }
+    const newNumber = card.fn(number);
+    sendJsonMessage({ method: 'play', card_id: selectedCard, number: newNumber, name });
     setPlayerState(PlayerStates.WAITING);
   }
 
@@ -273,6 +200,9 @@ function MathAttack({ id }: { id: string }) {
     setSelectedCard(cardId);
   }
 
+  const STARTING_NUMBER = 0
+  const LOWEST_NUMBER = -100
+  const HIGHEST_NUMBER = 100
   useEffect(() => {
     if (!lastMessage) return;
     const message = JSON.parse(lastMessage.data);
@@ -280,7 +210,9 @@ function MathAttack({ id }: { id: string }) {
     if (message.players) setPlayers(_ => message.players);
     if (message.hand) setHand(_ => message.hand);
     if (message.state) setGameState(_ => message.state);
-    if (message.stack) setStack(_ => message.stack);
+    if (message.number) setNumber(_ => message.number);
+    if (message.player) setCurrentPlayer(_ => message.player);
+    if (message.last_played) setLastPlayed(_ => message.last_played);
     if (message.players && message.players[name]) setPlayerState(_ => message.players[name]);
     const method = message.method;
 
@@ -306,17 +238,48 @@ function MathAttack({ id }: { id: string }) {
         });
       }
     } else if (method === GameResponses.WAIT) {
-      // setPlayerState(PlayerStates.WAITING);
+      Swal.fire({
+        icon: 'info',
+        title: `Wait for ${currentPlayer}`,
+        timer: 1000,
+        didOpen: () => {
+          Swal.showLoading();
+        }
+      });
     } else if (method === GameResponses.TURN) {
-      // setPlayerState(PlayerStates.TURN);
+      Swal.fire({
+        icon: 'info',
+        title: 'Your Turn!',
+        text: 'Select a card to play...',
+        timer: 1500
+      });
+    } else if (method === GameResponses.PLAY) {
+      const lastPlayer = message.last_player;
+      const lastPlayed = message.last_played;
+      const number = message.number;
+      if (number > HIGHEST_NUMBER || number < LOWEST_NUMBER) {
+        Swal.fire({
+          icon: 'error',
+          title: `${lastPlayer} lost!`,
+          text: 'They burst the limit!',
+          timer: 5000
+        })
+      } else {
+        Swal.fire({
+          icon: 'success',
+          title: `${lastPlayer} played ${allCards[lastPlayed].rep}!`,
+          text: `The number is now ${number}`,
+          timer: 3000
+        });
+      }
     } else if (method === GameResponses.LOSE) {
       Swal.fire({
         icon: 'error',
-        title: 'You lost! You burst the limit!',
-        text: 'Wait for the surviving players to play their cards...',
+        title: 'You lost!',
+        text: 'You burst the limit!',
         timer: 5000
       })
-      // setPlayerState(PlayerStates.DEAD);
+      setPlayerState(PlayerStates.DEAD);
     } else if (method === GameResponses.END) {
       Swal.fire({
         icon: 'info',
@@ -324,7 +287,7 @@ function MathAttack({ id }: { id: string }) {
         text: `The game will end in 5 seconds...`,
         timer: 5000,
       });
-      // setPlayerState(PlayerStates.LOBBY);
+      setPlayerState(PlayerStates.LOBBY);
     } else if (method === GameResponses.CONNECT_ERROR) {
       Swal.fire({
         icon: 'info',
@@ -384,7 +347,6 @@ function MathAttack({ id }: { id: string }) {
         <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
       </ul>
       </>}
-      {playerState}
       {playerState === PlayerStates.LOBBY && <>
       <div className="flex gap-2 mx-auto my-4">
         {/* start */}
@@ -393,11 +355,16 @@ function MathAttack({ id }: { id: string }) {
         <button onClick={copyGameLink} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white flex gap-1"><span className="my-auto">{copySvg}</span> Copy Link</button>
       </div>
       </>}
+      {(playerState === PlayerStates.WAITING || playerState === PlayerStates.TURN) && <div className="my-4">
+          <b>Current Number:</b> {number}<br/> <b>Limits:</b> {LOWEST_NUMBER}, {HIGHEST_NUMBER}<br/>
+          <b>Current player:</b> {currentPlayer}
+        </div>}
       {(playerState === PlayerStates.TURN || playerState === PlayerStates.WAITING) && <div className="grid grid-cols-3 gap-4 max-w-xl">
         {hand.map(cardId => <div className={`border-2 border-cc-500 aspect-square p-4 rounded-xl flex ${playerState === PlayerStates.TURN && 'cursor-pointer'} ${cardId === selectedCard && 'bg-cc-500'}`} onClick={() => handleSelect(cardId)}>
           <div className={`m-auto`}>{allCards[cardId].rep}</div>
           </div>)}
         </div>}
+      {playerState === PlayerStates.TURN && <button onClick={() => playCard()} className="px-2 py-1 rounded-md bg-ew-mrt my-2">Play Card</button>}
     </div>
   );
 };

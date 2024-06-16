@@ -670,6 +670,7 @@ export default {
         title: 'Upload Tiers',
         input: 'textarea',
         inputPlaceholder: 'Paste tiers here',
+        inputValue: '{"items":[],"tiers":[[],[],[],[],[],[]]}',
         showCancelButton: true,
         confirmButtonText: 'Upload',
         showLoaderOnConfirm: true,
