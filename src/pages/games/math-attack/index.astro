@@ -1,5 +1,18 @@
 ---
-import MathAttack from "../../../components/games/math-attack/MathAttack";
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import MathAttackRoomCreate from "../../../components/games/math-attack/MathAttackRoomCreate";
+const heroText = gamesData["stat-attack"].heroText;
 ---
 
-<MathAttack id="asdf" client:only="react"/>
+<Seo {heroText} {seoImg} pageName={"Math Attack"} path={`games/math-attack`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <MathAttackRoomCreate client:only="react"/>
+  </div>
+</Layout>

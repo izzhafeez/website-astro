@@ -319,8 +319,13 @@ function MathAttack({ id }: { id: string }) {
     }
   }, [lastMessage]);
 
+  const names = allCards.map(card => card.rep).join(' ');
+
   return (
     <div className="p-2 max-w-6xl mx-auto">
+      <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+        {Array.from({length: Math.floor(10000/allCards.length) }, () => names)}
+      </p>
       {playerState !== PlayerStates.UNJOINED && <>
       <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Math Attack</h1>
       </>}
@@ -347,17 +352,20 @@ function MathAttack({ id }: { id: string }) {
         <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
       </ul>
       </>}
-      {playerState === PlayerStates.LOBBY && <>
+      {playerState === PlayerStates.LOBBY && <div className="my-4 max-w-xl">
+      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Instructions</h3>
+      <span>{instructions}</span>
       <div className="flex gap-2 mx-auto my-4">
         {/* start */}
         <button onClick={startGame} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> Start Game</button>
         {/* copy link */}
         <button onClick={copyGameLink} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white flex gap-1"><span className="my-auto">{copySvg}</span> Copy Link</button>
       </div>
-      </>}
+      </div>}
       {(playerState === PlayerStates.WAITING || playerState === PlayerStates.TURN) && <div className="my-4">
-          <b>Current Number:</b> {number}<br/> <b>Limits:</b> {LOWEST_NUMBER}, {HIGHEST_NUMBER}<br/>
-          <b>Current player:</b> {currentPlayer}
+          <b>Current Number:</b> {number}<br/>
+          <b>Limits:</b> {LOWEST_NUMBER}, {HIGHEST_NUMBER}<br/>
+          <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">{currentPlayer === name ? "Your" : `${currentPlayer}'s`} turn!</h3>
         </div>}
       {(playerState === PlayerStates.TURN || playerState === PlayerStates.WAITING) && <div className="grid grid-cols-3 gap-4 max-w-xl">
         {hand.map(cardId => <div className={`border-2 border-cc-500 aspect-square p-4 rounded-xl flex ${playerState === PlayerStates.TURN && 'cursor-pointer'} ${cardId === selectedCard && 'bg-cc-500'}`} onClick={() => handleSelect(cardId)}>

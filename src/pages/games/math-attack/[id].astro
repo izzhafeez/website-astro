@@ -2,9 +2,15 @@
 import NavBar from "../../../components/common/NavBar.astro";
 import MathAttack from "../../../components/games/math-attack/MathAttack";
 import Layout from "../../../layouts/Layout.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../data/games/games.json";
 export const prerender = false;
 const { id } = Astro.params;
+const heroText = gamesData["stat-attack"].heroText;
 ---
+
+<Seo {heroText} {seoImg} pageName={'Math Attack'} path={`games/math-attack/${id}`}/>
 
 <Layout>
   <div slot="main">
