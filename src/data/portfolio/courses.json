@@ -158,6 +158,17 @@
       "Data Visualisation"
     ]
   },
+  "cs3211": {
+    "name": "Parallel and Concurrent Programming",
+    "grade": "B+",
+    "related": [
+      "C++",
+      "Go",
+      "Rust",
+      "Concurrency",
+      "Parallel Computing"
+    ]
+  },
   "cs3216": {
     "name": "Software Product Engineering for Digital Markets",
     "grade": "B",
@@ -168,12 +179,39 @@
       "Vue"
     ]
   },
+  "cs3223": {
+    "name": "Database Systems Implementation",
+    "grade": "B+",
+    "related": [
+      "SQL",
+      "C"
+    ]
+  },
   "cs3230": {
     "name": "Design and Analysis of Algorithms",
     "grade": "A",
     "related": [
       "Java"
     ] 
+  },
+  "cs3245": {
+    "name": "Information Retrieval",
+    "grade": "A",
+    "related": [
+      "Python",
+      "Information Retrieval",
+      "NLP"
+    ]
+  },
+  "cs4225": {
+    "name": "Big Data Systems for Data Science",
+    "grade": "A-",
+    "related": [
+      "Hadoop",
+      "Spark",
+      "Data Science",
+      "Data Engineering"
+    ]
   },
   "cs4243": {
     "name": "Computer Vision and Pattern Recognition",
@@ -236,6 +274,13 @@
       "Express"
     ]
   },
+  "es2660": {
+    "name": "Communicating in the Information Age",
+    "grade": "A-",
+    "related": [
+      "Communication"
+    ]
+  },
   "gea1000": {
     "name": "Quantitative Reasoning with Data",
     "grade": "A",
@@ -250,9 +295,11 @@
   },
   "gen2002x": {
     "name": "Total Defence Project",
-    "grade": "IP",
+    "grade": "A-",
     "related": [
-      "Figma"
+      "Figma",
+      "Svelte",
+      "Flask"
     ]
   },
   "gess1019": {
