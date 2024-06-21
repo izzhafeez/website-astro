@@ -14,11 +14,11 @@
     "Highest Point": 739
   },
   {
-    "name": "Qatar",
-    "Population (K)": 2832,
-    "Area": 11586,
-    "GDP per Capita": 64782,
-    "Highest Point": 103
+    "name": "Afghanistan",
+    "Population (K)": 38042,
+    "Area": 652230,
+    "GDP per Capita": 502,
+    "Highest Point": 7492
   },
   {
     "name": "Singapore",
@@ -28,11 +28,25 @@
     "Highest Point": 164
   },
   {
+    "name": "Qatar",
+    "Population (K)": 2832,
+    "Area": 11586,
+    "GDP per Capita": 64782,
+    "Highest Point": 103
+  },
+  {
     "name": "Luxembourg",
     "Population (K)": 645,
     "Area": 2586,
     "GDP per Capita": 110172,
     "Highest Point": 560
+  },
+  {
+    "name": "Sudan",
+    "Population (K)": 42813,
+    "Area": 1861484,
+    "GDP per Capita": 442,
+    "Highest Point": 3042
   },
   {
     "name": "United States",
@@ -49,32 +63,11 @@
     "Highest Point": 8849
   },
   {
-    "name": "Democratic Republic of the Congo",
-    "Population (K)": 86791,
-    "Area": 2344858,
-    "GDP per Capita": 545,
-    "Highest Point": 5109
-  },
-  {
-    "name": "Sudan",
-    "Population (K)": 42813,
-    "Area": 1861484,
-    "GDP per Capita": 442,
-    "Highest Point": 3042
-  },
-  {
-    "name": "Tajikistan",
-    "Population (K)": 9321,
-    "Area": 144100,
-    "GDP per Capita": 871,
-    "Highest Point": 7495
-  },
-  {
-    "name": "Palau",
-    "Population (K)": 18,
-    "Area": 459,
-    "GDP per Capita": 15576,
-    "Highest Point": 242
+    "name": "Denmark",
+    "Population (K)": 5819,
+    "Area": 43094,
+    "GDP per Capita": 59822,
+    "Highest Point": 171
   },
   {
     "name": "Iceland",
@@ -84,6 +77,13 @@
     "Highest Point": 2110
   },
   {
+    "name": "Tajikistan",
+    "Population (K)": 9321,
+    "Area": 144100,
+    "GDP per Capita": 871,
+    "Highest Point": 7495
+  },
+  {
     "name": "Bhutan",
     "Population (K)": 727,
     "Area": 38394,
@@ -91,18 +91,18 @@
     "Highest Point": 7570
   },
   {
-    "name": "Marshall Islands",
-    "Population (K)": 59,
-    "Area": 181,
-    "GDP per Capita": 3764,
-    "Highest Point": 10
+    "name": "Tuvalu",
+    "Population (K)": 12,
+    "Area": 26,
+    "GDP per Capita": 4059,
+    "Highest Point": 5
   },
   {
-    "name": "Canada",
-    "Population (K)": 36992,
-    "Area": 9984670,
-    "GDP per Capita": 46941,
-    "Highest Point": 5959
+    "name": "Russia",
+    "Population (K)": 144374,
+    "Area": 17098240,
+    "GDP per Capita": 11774,
+    "Highest Point": 5642
   },
   {
     "name": "Malta",
@@ -112,11 +112,18 @@
     "Highest Point": 253
   },
   {
-    "name": "Saint Kitts and Nevis",
-    "Population (K)": 53,
-    "Area": 261,
-    "GDP per Capita": 19896,
-    "Highest Point": 1156
+    "name": "Andorra",
+    "Population (K)": 77,
+    "Area": 468,
+    "GDP per Capita": 40886,
+    "Highest Point": 2942
+  },
+  {
+    "name": "Marshall Islands",
+    "Population (K)": 59,
+    "Area": 181,
+    "GDP per Capita": 3764,
+    "Highest Point": 10
   },
   {
     "name": "Indonesia",
@@ -126,25 +133,18 @@
     "Highest Point": 4884
   },
   {
-    "name": "Bahrain",
-    "Population (K)": 1502,
-    "Area": 765,
-    "GDP per Capita": 25688,
-    "Highest Point": 122
-  },
-  {
-    "name": "Kyrgyzstan",
-    "Population (K)": 6457,
-    "Area": 199951,
-    "GDP per Capita": 1309,
-    "Highest Point": 7439
-  },
-  {
     "name": "Somalia",
     "Population (K)": 15443,
     "Area": 637657,
     "GDP per Capita": 306,
     "Highest Point": 2450
+  },
+  {
+    "name": "Canada",
+    "Population (K)": 36992,
+    "Area": 9984670,
+    "GDP per Capita": 46941,
+    "Highest Point": 5959
   },
   {
     "name": "Ethiopia",
@@ -154,6 +154,13 @@
     "Highest Point": 4550
   },
   {
+    "name": "Kyrgyzstan",
+    "Population (K)": 6457,
+    "Area": 199951,
+    "GDP per Capita": 1309,
+    "Highest Point": 7439
+  },
+  {
     "name": "Brazil",
     "Population (K)": 212559,
     "Area": 8515770,
@@ -161,11 +168,18 @@
     "Highest Point": 2995
   },
   {
-    "name": "Kiribati",
-    "Population (K)": 118,
-    "Area": 811,
-    "GDP per Capita": 1655,
-    "Highest Point": 81
+    "name": "Barbados",
+    "Population (K)": 287,
+    "Area": 430,
+    "GDP per Capita": 18148,
+    "Highest Point": 336
+  },
+  {
+    "name": "Niger",
+    "Population (K)": 23311,
+    "Area": 1267000,
+    "GDP per Capita": 555,
+    "Highest Point": 2022
   },
   {
     "name": "Nigeria",
@@ -182,18 +196,11 @@
     "Highest Point": 2684
   },
   {
-    "name": "Australia",
-    "Population (K)": 25767,
-    "Area": 7741220,
-    "GDP per Capita": 54050,
-    "Highest Point": 2228
-  },
-  {
-    "name": "Bangladesh",
-    "Population (K)": 167311,
-    "Area": 148460,
-    "GDP per Capita": 1808,
-    "Highest Point": 1063
+    "name": "Kiribati",
+    "Population (K)": 118,
+    "Area": 811,
+    "GDP per Capita": 1655,
+    "Highest Point": 81
   },
   {
     "name": "Antigua and Barbuda",
@@ -203,18 +210,25 @@
     "Highest Point": 402
   },
   {
+    "name": "Mozambique",
+    "Population (K)": 30366,
+    "Area": 799380,
+    "GDP per Capita": 492,
+    "Highest Point": 2436
+  },
+  {
+    "name": "Bangladesh",
+    "Population (K)": 167311,
+    "Area": 148460,
+    "GDP per Capita": 1808,
+    "Highest Point": 1063
+  },
+  {
     "name": "Norway",
     "Population (K)": 5348,
     "Area": 323802,
     "GDP per Capita": 75420,
     "Highest Point": 2469
-  },
-  {
-    "name": "Barbados",
-    "Population (K)": 287,
-    "Area": 430,
-    "GDP per Capita": 18148,
-    "Highest Point": 336
   },
   {
     "name": "Eritrea",
@@ -224,67 +238,18 @@
     "Highest Point": 3018
   },
   {
-    "name": "Mozambique",
-    "Population (K)": 30366,
-    "Area": 799380,
-    "GDP per Capita": 492,
-    "Highest Point": 2436
+    "name": "Central African Republic",
+    "Population (K)": 4745,
+    "Area": 622984,
+    "GDP per Capita": 468,
+    "Highest Point": 1420
   },
   {
-    "name": "Argentina",
-    "Population (K)": 44939,
-    "Area": 2780400,
-    "GDP per Capita": 10006,
-    "Highest Point": 6960
-  },
-  {
-    "name": "Niger",
-    "Population (K)": 23311,
-    "Area": 1267000,
-    "GDP per Capita": 555,
-    "Highest Point": 2022
-  },
-  {
-    "name": "Kazakhstan",
-    "Population (K)": 18514,
-    "Area": 2724900,
-    "GDP per Capita": 9731,
-    "Highest Point": 7010
-  },
-  {
-    "name": "Malawi",
-    "Population (K)": 18629,
-    "Area": 118484,
-    "GDP per Capita": 412,
-    "Highest Point": 3002
-  },
-  {
-    "name": "Grenada",
-    "Population (K)": 112,
-    "Area": 349,
-    "GDP per Capita": 10966,
-    "Highest Point": 840
-  },
-  {
-    "name": "Seychelles",
-    "Population (K)": 98,
-    "Area": 455,
-    "GDP per Capita": 17402,
-    "Highest Point": 905
-  },
-  {
-    "name": "Kuwait",
-    "Population (K)": 4207,
-    "Area": 17818,
-    "GDP per Capita": 32032,
-    "Highest Point": 306
-  },
-  {
-    "name": "Mexico",
-    "Population (K)": 126014,
-    "Area": 1964375,
-    "GDP per Capita": 9985,
-    "Highest Point": 5636
+    "name": "Australia",
+    "Population (K)": 25767,
+    "Area": 7741220,
+    "GDP per Capita": 54050,
+    "Highest Point": 2228
   },
   {
     "name": "Chad",
@@ -294,11 +259,11 @@
     "Highest Point": 3445
   },
   {
-    "name": "Tanzania",
-    "Population (K)": 58005,
-    "Area": 947300,
-    "GDP per Capita": 1089,
-    "Highest Point": 5892
+    "name": "Kazakhstan",
+    "Population (K)": 18514,
+    "Area": 2724900,
+    "GDP per Capita": 9731,
+    "Highest Point": 7010
   },
   {
     "name": "Dominica",
@@ -308,11 +273,25 @@
     "Highest Point": 1447
   },
   {
-    "name": "Japan",
-    "Population (K)": 126227,
-    "Area": 377944,
-    "GDP per Capita": 40259,
-    "Highest Point": 3776
+    "name": "Tanzania",
+    "Population (K)": 58005,
+    "Area": 947300,
+    "GDP per Capita": 1089,
+    "Highest Point": 5892
+  },
+  {
+    "name": "Netherlands",
+    "Population (K)": 17333,
+    "Area": 41543,
+    "GDP per Capita": 52448,
+    "Highest Point": 887
+  },
+  {
+    "name": "Mexico",
+    "Population (K)": 126014,
+    "Area": 1964375,
+    "GDP per Capita": 9985,
+    "Highest Point": 5636
   },
   {
     "name": "Madagascar",
@@ -322,18 +301,18 @@
     "Highest Point": 2876
   },
   {
-    "name": "Lithuania",
-    "Population (K)": 2787,
-    "Area": 65300,
-    "GDP per Capita": 19455,
-    "Highest Point": 294
-  },
-  {
     "name": "Algeria",
     "Population (K)": 43053,
     "Area": 2381741,
     "GDP per Capita": 3948,
     "Highest Point": 3003
+  },
+  {
+    "name": "Lithuania",
+    "Population (K)": 2787,
+    "Area": 65300,
+    "GDP per Capita": 19455,
+    "Highest Point": 294
   },
   {
     "name": "Estonia",
@@ -343,6 +322,13 @@
     "Highest Point": 318
   },
   {
+    "name": "Saint Lucia",
+    "Population (K)": 183,
+    "Area": 616,
+    "GDP per Capita": 11611,
+    "Highest Point": 950
+  },
+  {
     "name": "Peru",
     "Population (K)": 32510,
     "Area": 1285216,
@@ -350,11 +336,18 @@
     "Highest Point": 6768
   },
   {
-    "name": "Egypt",
-    "Population (K)": 100388,
-    "Area": 1001450,
-    "GDP per Capita": 3020,
-    "Highest Point": 2629
+    "name": "Japan",
+    "Population (K)": 126227,
+    "Area": 377944,
+    "GDP per Capita": 40259,
+    "Highest Point": 3776
+  },
+  {
+    "name": "Latvia",
+    "Population (K)": 1913,
+    "Area": 64589,
+    "GDP per Capita": 17836,
+    "Highest Point": 312
   },
   {
     "name": "Chile",
@@ -371,67 +364,11 @@
     "Highest Point": 6542
   },
   {
-    "name": "Myanmar",
-    "Population (K)": 54045,
-    "Area": 676578,
-    "GDP per Capita": 1408,
-    "Highest Point": 5881
-  },
-  {
-    "name": "Guinea-Bissau",
-    "Population (K)": 1921,
-    "Area": 36125,
-    "GDP per Capita": 698,
-    "Highest Point": 262
-  },
-  {
-    "name": "Vietnam",
-    "Population (K)": 96462,
-    "Area": 331210,
-    "GDP per Capita": 2715,
-    "Highest Point": 3143
-  },
-  {
-    "name": "Sierra Leone",
-    "Population (K)": 7813,
-    "Area": 71740,
-    "GDP per Capita": 504,
-    "Highest Point": 1948
-  },
-  {
-    "name": "Finland",
-    "Population (K)": 5520,
-    "Area": 338145,
-    "GDP per Capita": 48686,
-    "Highest Point": 1324
-  },
-  {
-    "name": "Sweden",
-    "Population (K)": 10285,
-    "Area": 450295,
-    "GDP per Capita": 51610,
-    "Highest Point": 2097
-  },
-  {
-    "name": "Saint Lucia",
-    "Population (K)": 183,
-    "Area": 616,
-    "GDP per Capita": 11611,
-    "Highest Point": 950
-  },
-  {
-    "name": "Austria",
-    "Population (K)": 8877,
-    "Area": 83871,
-    "GDP per Capita": 50277,
-    "Highest Point": 3798
-  },
-  {
-    "name": "Federated States of Micronesia",
-    "Population (K)": 114,
-    "Area": 702,
-    "GDP per Capita": 3531,
-    "Highest Point": 782
+    "name": "Tonga",
+    "Population (K)": 100,
+    "Area": 747,
+    "GDP per Capita": 4494,
+    "Highest Point": 1033
   },
   {
     "name": "Mali",
@@ -441,11 +378,53 @@
     "Highest Point": 1155
   },
   {
+    "name": "Guinea-Bissau",
+    "Population (K)": 1921,
+    "Area": 36125,
+    "GDP per Capita": 698,
+    "Highest Point": 262
+  },
+  {
+    "name": "Saudi Arabia",
+    "Population (K)": 34269,
+    "Area": 2149690,
+    "GDP per Capita": 23140,
+    "Highest Point": 3000
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "Population (K)": 114,
+    "Area": 702,
+    "GDP per Capita": 3531,
+    "Highest Point": 782
+  },
+  {
+    "name": "Belgium",
+    "Population (K)": 11484,
+    "Area": 30528,
+    "GDP per Capita": 46117,
+    "Highest Point": 694
+  },
+  {
+    "name": "Egypt",
+    "Population (K)": 100388,
+    "Area": 1001450,
+    "GDP per Capita": 3020,
+    "Highest Point": 2629
+  },
+  {
     "name": "Rwanda",
     "Population (K)": 12627,
     "Area": 26338,
     "GDP per Capita": 802,
     "Highest Point": 4507
+  },
+  {
+    "name": "Philippines",
+    "Population (K)": 108117,
+    "Area": 300000,
+    "GDP per Capita": 3485,
+    "Highest Point": 2954
   },
   {
     "name": "Brunei",
@@ -455,25 +434,18 @@
     "Highest Point": 1850
   },
   {
-    "name": "Ecuador",
-    "Population (K)": 17374,
-    "Area": 283561,
-    "GDP per Capita": 6184,
-    "Highest Point": 6267
+    "name": "Vietnam",
+    "Population (K)": 96462,
+    "Area": 331210,
+    "GDP per Capita": 2715,
+    "Highest Point": 3143
   },
   {
-    "name": "Iran",
-    "Population (K)": 82914,
-    "Area": 1648195,
-    "GDP per Capita": 5371,
-    "Highest Point": 5610
-  },
-  {
-    "name": "Turkey",
-    "Population (K)": 83430,
-    "Area": 783562,
-    "GDP per Capita": 9042,
-    "Highest Point": 5137
+    "name": "Finland",
+    "Population (K)": 5520,
+    "Area": 338145,
+    "GDP per Capita": 48686,
+    "Highest Point": 1324
   },
   {
     "name": "Mongolia",
@@ -483,6 +455,34 @@
     "Highest Point": 4374
   },
   {
+    "name": "Ecuador",
+    "Population (K)": 17374,
+    "Area": 283561,
+    "GDP per Capita": 6184,
+    "Highest Point": 6267
+  },
+  {
+    "name": "Sweden",
+    "Population (K)": 10285,
+    "Area": 450295,
+    "GDP per Capita": 51610,
+    "Highest Point": 2097
+  },
+  {
+    "name": "Austria",
+    "Population (K)": 8877,
+    "Area": 83871,
+    "GDP per Capita": 50277,
+    "Highest Point": 3798
+  },
+  {
+    "name": "Liberia",
+    "Population (K)": 4937,
+    "Area": 111369,
+    "GDP per Capita": 622,
+    "Highest Point": 1440
+  },
+  {
     "name": "Libya",
     "Population (K)": 6777,
     "Area": 1759540,
@@ -490,11 +490,11 @@
     "Highest Point": 2267
   },
   {
-    "name": "United Kingdom",
-    "Population (K)": 66834,
-    "Area": 243610,
-    "GDP per Capita": 42300,
-    "Highest Point": 1345
+    "name": "Turkey",
+    "Population (K)": 83430,
+    "Area": 783562,
+    "GDP per Capita": 9042,
+    "Highest Point": 5137
   },
   {
     "name": "Togo",
@@ -504,32 +504,11 @@
     "Highest Point": 986
   },
   {
-    "name": "Germany",
-    "Population (K)": 83133,
-    "Area": 357022,
-    "GDP per Capita": 46259,
-    "Highest Point": 2962
-  },
-  {
     "name": "Burkina Faso",
     "Population (K)": 20321,
     "Area": 274200,
     "GDP per Capita": 775,
     "Highest Point": 749
-  },
-  {
-    "name": "United Arab Emirates",
-    "Population (K)": 9771,
-    "Area": 83600,
-    "GDP per Capita": 43103,
-    "Highest Point": 1910
-  },
-  {
-    "name": "Uruguay",
-    "Population (K)": 3462,
-    "Area": 176215,
-    "GDP per Capita": 16190,
-    "Highest Point": 514
   },
   {
     "name": "Samoa",
@@ -539,39 +518,18 @@
     "Highest Point": 1857
   },
   {
-    "name": "Belarus",
-    "Population (K)": 9467,
-    "Area": 207600,
-    "GDP per Capita": 6663,
-    "Highest Point": 346
+    "name": "United Kingdom",
+    "Population (K)": 66834,
+    "Area": 243610,
+    "GDP per Capita": 42300,
+    "Highest Point": 1345
   },
   {
-    "name": "New Zealand",
-    "Population (K)": 4841,
-    "Area": 268838,
-    "GDP per Capita": 42745,
-    "Highest Point": 3724
-  },
-  {
-    "name": "Haiti",
-    "Population (K)": 11263,
-    "Area": 27750,
-    "GDP per Capita": 755,
-    "Highest Point": 2680
-  },
-  {
-    "name": "Mauritania",
-    "Population (K)": 4526,
-    "Area": 1030700,
-    "GDP per Capita": 1678,
-    "Highest Point": 915
-  },
-  {
-    "name": "Thailand",
-    "Population (K)": 69626,
-    "Area": 513120,
-    "GDP per Capita": 7808,
-    "Highest Point": 2565
+    "name": "Germany",
+    "Population (K)": 83133,
+    "Area": 357022,
+    "GDP per Capita": 46259,
+    "Highest Point": 2962
   },
   {
     "name": "Mauritius",
@@ -581,18 +539,53 @@
     "Highest Point": 828
   },
   {
-    "name": "Angola",
-    "Population (K)": 31825,
-    "Area": 1246700,
-    "GDP per Capita": 2974,
-    "Highest Point": 2620
+    "name": "Uruguay",
+    "Population (K)": 3462,
+    "Area": 176215,
+    "GDP per Capita": 16190,
+    "Highest Point": 514
   },
   {
-    "name": "Italy",
-    "Population (K)": 60297,
-    "Area": 301340,
-    "GDP per Capita": 33190,
+    "name": "Georgia",
+    "Population (K)": 3720,
+    "Area": 69700,
+    "GDP per Capita": 4769,
+    "Highest Point": 5201
+  },
+  {
+    "name": "Mauritania",
+    "Population (K)": 4526,
+    "Area": 1030700,
+    "GDP per Capita": 1678,
+    "Highest Point": 915
+  },
+  {
+    "name": "Belarus",
+    "Population (K)": 9467,
+    "Area": 207600,
+    "GDP per Capita": 6663,
+    "Highest Point": 346
+  },
+  {
+    "name": "Haiti",
+    "Population (K)": 11263,
+    "Area": 27750,
+    "GDP per Capita": 755,
+    "Highest Point": 2680
+  },
+  {
+    "name": "France",
+    "Population (K)": 67060,
+    "Area": 643801,
+    "GDP per Capita": 40494,
     "Highest Point": 4810
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "Population (K)": 1395,
+    "Area": 5128,
+    "GDP per Capita": 17276,
+    "Highest Point": 940
   },
   {
     "name": "Vanuatu",
@@ -602,6 +595,20 @@
     "Highest Point": 1877
   },
   {
+    "name": "Yemen",
+    "Population (K)": 29162,
+    "Area": 527968,
+    "GDP per Capita": 923,
+    "Highest Point": 3666
+  },
+  {
+    "name": "Thailand",
+    "Population (K)": 69626,
+    "Area": 513120,
+    "GDP per Capita": 7808,
+    "Highest Point": 2565
+  },
+  {
     "name": "Moldova",
     "Population (K)": 2658,
     "Area": 33851,
@@ -609,18 +616,60 @@
     "Highest Point": 430
   },
   {
-    "name": "Uzbekistan",
-    "Population (K)": 33581,
-    "Area": 447400,
-    "GDP per Capita": 1725,
-    "Highest Point": 4668
+    "name": "Comoros",
+    "Population (K)": 851,
+    "Area": 2235,
+    "GDP per Capita": 1394,
+    "Highest Point": 2360
   },
   {
-    "name": "Cyprus",
-    "Population (K)": 1199,
-    "Area": 9251,
-    "GDP per Capita": 20495,
-    "Highest Point": 1952
+    "name": "Belize",
+    "Population (K)": 390,
+    "Area": 22966,
+    "GDP per Capita": 4815,
+    "Highest Point": 1124
+  },
+  {
+    "name": "United Arab Emirates",
+    "Population (K)": 9771,
+    "Area": 83600,
+    "GDP per Capita": 43103,
+    "Highest Point": 1910
+  },
+  {
+    "name": "South Africa",
+    "Population (K)": 58558,
+    "Area": 1219090,
+    "GDP per Capita": 6001,
+    "Highest Point": 3450
+  },
+  {
+    "name": "New Zealand",
+    "Population (K)": 4841,
+    "Area": 268838,
+    "GDP per Capita": 42745,
+    "Highest Point": 3724
+  },
+  {
+    "name": "Senegal",
+    "Population (K)": 16296,
+    "Area": 196722,
+    "GDP per Capita": 1447,
+    "Highest Point": 648
+  },
+  {
+    "name": "Venezuela",
+    "Population (K)": 28516,
+    "Area": 912050,
+    "GDP per Capita": 16915,
+    "Highest Point": 4978
+  },
+  {
+    "name": "Slovenia",
+    "Population (K)": 2088,
+    "Area": 20273,
+    "GDP per Capita": 25739,
+    "Highest Point": 2864
   },
   {
     "name": "South Korea",
@@ -637,18 +686,18 @@
     "Highest Point": 658
   },
   {
-    "name": "Belize",
-    "Population (K)": 390,
-    "Area": 22966,
-    "GDP per Capita": 4815,
-    "Highest Point": 1124
+    "name": "Lebanon",
+    "Population (K)": 6856,
+    "Area": 10400,
+    "GDP per Capita": 7784,
+    "Highest Point": 3088
   },
   {
-    "name": "Slovenia",
-    "Population (K)": 2088,
-    "Area": 20273,
-    "GDP per Capita": 25739,
-    "Highest Point": 2864
+    "name": "Montenegro",
+    "Population (K)": 622,
+    "Area": 13812,
+    "GDP per Capita": 8832,
+    "Highest Point": 2534
   },
   {
     "name": "Lesotho",
@@ -658,25 +707,11 @@
     "Highest Point": 3482
   },
   {
-    "name": "Cape Verde",
-    "Population (K)": 484,
-    "Area": 4033,
-    "GDP per Capita": 4098,
-    "Highest Point": 2829
-  },
-  {
-    "name": "Comoros",
-    "Population (K)": 851,
-    "Area": 2235,
-    "GDP per Capita": 1394,
-    "Highest Point": 2360
-  },
-  {
-    "name": "Venezuela",
-    "Population (K)": 28516,
-    "Area": 912050,
-    "GDP per Capita": 16915,
-    "Highest Point": 4978
+    "name": "Papua New Guinea",
+    "Population (K)": 8776,
+    "Area": 462840,
+    "GDP per Capita": 2845,
+    "Highest Point": 4509
   },
   {
     "name": "Ghana",
@@ -686,46 +721,11 @@
     "Highest Point": 880
   },
   {
-    "name": "Spain",
-    "Population (K)": 47077,
-    "Area": 505370,
-    "GDP per Capita": 29614,
-    "Highest Point": 3715
-  },
-  {
-    "name": "Papua New Guinea",
-    "Population (K)": 8776,
-    "Area": 462840,
-    "GDP per Capita": 2845,
-    "Highest Point": 4509
-  },
-  {
-    "name": "Ukraine",
-    "Population (K)": 44385,
-    "Area": 603550,
-    "GDP per Capita": 3465,
-    "Highest Point": 2061
-  },
-  {
-    "name": "North Korea",
-    "Population (K)": 25666,
-    "Area": 120538,
-    "GDP per Capita": 1251,
-    "Highest Point": 2744
-  },
-  {
-    "name": "Lebanon",
-    "Population (K)": 6856,
-    "Area": 10400,
-    "GDP per Capita": 7784,
-    "Highest Point": 3088
-  },
-  {
-    "name": "Cameroon",
-    "Population (K)": 25876,
-    "Area": 475440,
-    "GDP per Capita": 1498,
-    "Highest Point": 4040
+    "name": "Zambia",
+    "Population (K)": 17861,
+    "Area": 752618,
+    "GDP per Capita": 1291,
+    "Highest Point": 2329
   },
   {
     "name": "Suriname",
@@ -735,6 +735,13 @@
     "Highest Point": 1230
   },
   {
+    "name": "Ukraine",
+    "Population (K)": 44385,
+    "Area": 603550,
+    "GDP per Capita": 3465,
+    "Highest Point": 2061
+  },
+  {
     "name": "Namibia",
     "Population (K)": 2495,
     "Area": 824292,
@@ -742,11 +749,25 @@
     "Highest Point": 2573
   },
   {
-    "name": "Paraguay",
-    "Population (K)": 7045,
-    "Area": 406752,
-    "GDP per Capita": 5415,
-    "Highest Point": 842
+    "name": "Spain",
+    "Population (K)": 47077,
+    "Area": 505370,
+    "GDP per Capita": 29614,
+    "Highest Point": 3715
+  },
+  {
+    "name": "Guinea",
+    "Population (K)": 12771,
+    "Area": 245857,
+    "GDP per Capita": 1064,
+    "Highest Point": 1752
+  },
+  {
+    "name": "Cameroon",
+    "Population (K)": 25876,
+    "Area": 475440,
+    "GDP per Capita": 1498,
+    "Highest Point": 4040
   },
   {
     "name": "Armenia",
@@ -756,11 +777,18 @@
     "Highest Point": 4090
   },
   {
-    "name": "Guyana",
-    "Population (K)": 783,
-    "Area": 214969,
-    "GDP per Capita": 5468,
-    "Highest Point": 2772
+    "name": "North Korea",
+    "Population (K)": 25666,
+    "Area": 120538,
+    "GDP per Capita": 1251,
+    "Highest Point": 2744
+  },
+  {
+    "name": "Paraguay",
+    "Population (K)": 7045,
+    "Area": 406752,
+    "GDP per Capita": 5415,
+    "Highest Point": 842
   },
   {
     "name": "Azerbaijan",
@@ -770,18 +798,25 @@
     "Highest Point": 4485
   },
   {
-    "name": "Hungary",
-    "Population (K)": 9770,
-    "Area": 93028,
-    "GDP per Capita": 16476,
-    "Highest Point": 1014
+    "name": "Jamaica",
+    "Population (K)": 2948,
+    "Area": 10991,
+    "GDP per Capita": 5582,
+    "Highest Point": 2256
   },
   {
-    "name": "Zimbabwe",
-    "Population (K)": 14645,
-    "Area": 390757,
-    "GDP per Capita": 1464,
-    "Highest Point": 2592
+    "name": "Solomon Islands",
+    "Population (K)": 670,
+    "Area": 28896,
+    "GDP per Capita": 2128,
+    "Highest Point": 2335
+  },
+  {
+    "name": "Guyana",
+    "Population (K)": 783,
+    "Area": 214969,
+    "GDP per Capita": 5468,
+    "Highest Point": 2772
   },
   {
     "name": "Iraq",
@@ -791,18 +826,11 @@
     "Highest Point": 3611
   },
   {
-    "name": "Jamaica",
-    "Population (K)": 2948,
-    "Area": 10991,
-    "GDP per Capita": 5582,
-    "Highest Point": 2256
-  },
-  {
-    "name": "Poland",
-    "Population (K)": 37971,
-    "Area": 312685,
-    "GDP per Capita": 15595,
-    "Highest Point": 2499
+    "name": "Guatemala",
+    "Population (K)": 16604,
+    "Area": 108889,
+    "GDP per Capita": 4620,
+    "Highest Point": 4220
   },
   {
     "name": "Equatorial Guinea",
@@ -812,46 +840,32 @@
     "Highest Point": 3008
   },
   {
+    "name": "Costa Rica",
+    "Population (K)": 5048,
+    "Area": 51100,
+    "GDP per Capita": 12238,
+    "Highest Point": 3820
+  },
+  {
+    "name": "Hungary",
+    "Population (K)": 9770,
+    "Area": 93028,
+    "GDP per Capita": 16476,
+    "Highest Point": 1014
+  },
+  {
+    "name": "Poland",
+    "Population (K)": 37971,
+    "Area": 312685,
+    "GDP per Capita": 15595,
+    "Highest Point": 2499
+  },
+  {
     "name": "Djibouti",
     "Population (K)": 974,
     "Area": 23200,
     "GDP per Capita": 3409,
     "Highest Point": 2028
-  },
-  {
-    "name": "Botswana",
-    "Population (K)": 2346,
-    "Area": 581730,
-    "GDP per Capita": 7817,
-    "Highest Point": 1491
-  },
-  {
-    "name": "Slovakia",
-    "Population (K)": 5454,
-    "Area": 49035,
-    "GDP per Capita": 19329,
-    "Highest Point": 2655
-  },
-  {
-    "name": "Malaysia",
-    "Population (K)": 32447,
-    "Area": 329847,
-    "GDP per Capita": 11240,
-    "Highest Point": 4095
-  },
-  {
-    "name": "Republic of the Congo",
-    "Population (K)": 5381,
-    "Area": 342000,
-    "GDP per Capita": 2011,
-    "Highest Point": 1020
-  },
-  {
-    "name": "Greece",
-    "Population (K)": 10716,
-    "Area": 131957,
-    "GDP per Capita": 19583,
-    "Highest Point": 2917
   },
   {
     "name": "El Salvador",
@@ -861,11 +875,60 @@
     "Highest Point": 2730
   },
   {
-    "name": "Ivory Coast",
-    "Population (K)": 25717,
-    "Area": 322463,
-    "GDP per Capita": 2286,
-    "Highest Point": 1752
+    "name": "Malaysia",
+    "Population (K)": 32447,
+    "Area": 329847,
+    "GDP per Capita": 11240,
+    "Highest Point": 4095
+  },
+  {
+    "name": "Zimbabwe",
+    "Population (K)": 14645,
+    "Area": 390757,
+    "GDP per Capita": 1464,
+    "Highest Point": 2592
+  },
+  {
+    "name": "Czech Republic",
+    "Population (K)": 10670,
+    "Area": 78867,
+    "GDP per Capita": 23102,
+    "Highest Point": 1603
+  },
+  {
+    "name": "Portugal",
+    "Population (K)": 10269,
+    "Area": 92212,
+    "GDP per Capita": 23145,
+    "Highest Point": 2351
+  },
+  {
+    "name": "Botswana",
+    "Population (K)": 2346,
+    "Area": 581730,
+    "GDP per Capita": 7817,
+    "Highest Point": 1491
+  },
+  {
+    "name": "Republic of the Congo",
+    "Population (K)": 5381,
+    "Area": 342000,
+    "GDP per Capita": 2011,
+    "Highest Point": 1020
+  },
+  {
+    "name": "Cambodia",
+    "Population (K)": 16487,
+    "Area": 181035,
+    "GDP per Capita": 1643,
+    "Highest Point": 1810
+  },
+  {
+    "name": "Greece",
+    "Population (K)": 10716,
+    "Area": 131957,
+    "GDP per Capita": 19583,
+    "Highest Point": 2917
   },
   {
     "name": "Panama",
@@ -875,11 +938,18 @@
     "Highest Point": 3475
   },
   {
-    "name": "Nicaragua",
-    "Population (K)": 6546,
-    "Area": 130370,
-    "GDP per Capita": 1913,
-    "Highest Point": 2107
+    "name": "Albania",
+    "Population (K)": 2854,
+    "Area": 28748,
+    "GDP per Capita": 5353,
+    "Highest Point": 2764
+  },
+  {
+    "name": "Gabon",
+    "Population (K)": 2173,
+    "Area": 267667,
+    "GDP per Capita": 7667,
+    "Highest Point": 1070
   },
   {
     "name": "Dominican Republic",
@@ -889,11 +959,11 @@
     "Highest Point": 3098
   },
   {
-    "name": "Turkmenistan",
-    "Population (K)": 5942,
-    "Area": 488100,
-    "GDP per Capita": 6860,
-    "Highest Point": 3139
+    "name": "Sri Lanka",
+    "Population (K)": 21803,
+    "Area": 65610,
+    "GDP per Capita": 3853,
+    "Highest Point": 2524
   },
   {
     "name": "Syria",
@@ -903,11 +973,11 @@
     "Highest Point": 2814
   },
   {
-    "name": "Albania",
-    "Population (K)": 2854,
-    "Area": 28748,
-    "GDP per Capita": 5353,
-    "Highest Point": 2764
+    "name": "Nicaragua",
+    "Population (K)": 6546,
+    "Area": 130370,
+    "GDP per Capita": 1913,
+    "Highest Point": 2107
   },
   {
     "name": "Croatia",
@@ -917,11 +987,11 @@
     "Highest Point": 1831
   },
   {
-    "name": "Sri Lanka",
-    "Population (K)": 21803,
-    "Area": 65610,
-    "GDP per Capita": 3853,
-    "Highest Point": 2524
+    "name": "Turkmenistan",
+    "Population (K)": 5942,
+    "Area": 488100,
+    "GDP per Capita": 6860,
+    "Highest Point": 3139
   },
   {
     "name": "Laos",
@@ -929,6 +999,13 @@
     "Area": 236800,
     "GDP per Capita": 2535,
     "Highest Point": 2817
+  },
+  {
+    "name": "Oman",
+    "Population (K)": 5267,
+    "Area": 309500,
+    "GDP per Capita": 14617,
+    "Highest Point": 3009
   },
   {
     "name": "Honduras",
@@ -945,11 +1022,11 @@
     "Highest Point": 1544
   },
   {
-    "name": "Oman",
-    "Population (K)": 5267,
-    "Area": 309500,
-    "GDP per Capita": 14617,
-    "Highest Point": 3009
+    "name": "Romania",
+    "Population (K)": 19357,
+    "Area": 238391,
+    "GDP per Capita": 12920,
+    "Highest Point": 2544
   },
   {
     "name": "Bulgaria",
@@ -957,13 +1034,6 @@
     "Area": 110879,
     "GDP per Capita": 12328,
     "Highest Point": 2925
-  },
-  {
-    "name": "Romania",
-    "Population (K)": 19357,
-    "Area": 238391,
-    "GDP per Capita": 12920,
-    "Highest Point": 2544
   },
   {
     "name": "Jordan",

@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "902",
+    "Service No.": 902,
+    "Route Distance (km)": 1,
+    "No. of Stops": 2,
+    "Area Covered (km^2)": 0.0
+  },
+  {
+    "name": "30",
+    "Service No.": 30,
+    "Route Distance (km)": 37.9,
+    "No. of Stops": 152,
+    "Area Covered (km^2)": 1.858294
+  },
+  {
+    "name": "24",
+    "Service No.": 24,
+    "Route Distance (km)": 51.7,
+    "No. of Stops": 100,
+    "Area Covered (km^2)": 1.614921
+  },
+  {
+    "name": "981",
+    "Service No.": 981,
+    "Route Distance (km)": 8.3,
+    "No. of Stops": 42,
+    "Area Covered (km^2)": 0.044691
+  },
+  {
+    "name": "991",
+    "Service No.": 991,
+    "Route Distance (km)": 11.7,
+    "No. of Stops": 52,
+    "Area Covered (km^2)": 0.082225
+  },
+  {
+    "name": "947",
+    "Service No.": 947,
+    "Route Distance (km)": 5,
+    "No. of Stops": 14,
+    "Area Covered (km^2)": 0.135289
+  },
+  {
+    "name": "27",
+    "Service No.": 27,
+    "Route Distance (km)": 44.4,
+    "No. of Stops": 57,
+    "Area Covered (km^2)": 1.07948
+  },
+  {
+    "name": "803",
+    "Service No.": 803,
+    "Route Distance (km)": 4.2,
+    "No. of Stops": 12,
+    "Area Covered (km^2)": 0.122727
+  },
+  {
+    "name": "9",
+    "Service No.": 9,
+    "Route Distance (km)": 33.2,
+    "No. of Stops": 82,
+    "Area Covered (km^2)": 0.574781
+  },
+  {
+    "name": "518",
+    "Service No.": 518,
+    "Route Distance (km)": 59.6,
+    "No. of Stops": 89,
+    "Area Covered (km^2)": 19.571874
+  },
+  {
+    "name": "131",
+    "Service No.": 131,
+    "Route Distance (km)": 20.5,
+    "No. of Stops": 98,
+    "Area Covered (km^2)": 0.008393
+  },
+  {
+    "name": "28",
+    "Service No.": 28,
+    "Route Distance (km)": 23.3,
+    "No. of Stops": 114,
+    "Area Covered (km^2)": 1.207614
+  },
+  {
+    "name": "354",
+    "Service No.": 354,
+    "Route Distance (km)": 4.5,
+    "No. of Stops": 12,
+    "Area Covered (km^2)": 0.014446
+  },
+  {
+    "name": "15",
+    "Service No.": 15,
+    "Route Distance (km)": 32.8,
+    "No. of Stops": 69,
+    "Area Covered (km^2)": 0.417613
+  },
+  {
+    "name": "147",
+    "Service No.": 147,
+    "Route Distance (km)": 27.9,
+    "No. of Stops": 146,
+    "Area Covered (km^2)": 1.917907
+  },
+  {
+    "name": "502",
+    "Service No.": 502,
+    "Route Distance (km)": 59.5,
+    "No. of Stops": 78,
+    "Area Covered (km^2)": 18.487621
+  },
+  {
+    "name": "272",
+    "Service No.": 272,
+    "Route Distance (km)": 4,
+    "No. of Stops": 14,
+    "Area Covered (km^2)": 0.120749
+  },
+  {
+    "name": "170",
+    "Service No.": 170,
+    "Route Distance (km)": 34.2,
+    "No. of Stops": 130,
+    "Area Covered (km^2)": 2.363308
+  },
+  {
+    "name": "3",
+    "Service No.": 3,
+    "Route Distance (km)": 19.7,
+    "No. of Stops": 80,
+    "Area Covered (km^2)": 0.177214
+  },
+  {
+    "name": "807",
+    "Service No.": 807,
+    "Route Distance (km)": 13.1,
+    "No. of Stops": 38,
+    "Area Covered (km^2)": 0.014045
+  },
+  {
+    "name": "901",
+    "Service No.": 901,
+    "Route Distance (km)": 6,
+    "No. of Stops": 15,
+    "Area Covered (km^2)": 0.192859
+  },
+  {
+    "name": "34",
+    "Service No.": 34,
+    "Route Distance (km)": 40.7,
+    "No. of Stops": 54,
+    "Area Covered (km^2)": 0.923367
+  },
+  {
+    "name": "985",
+    "Service No.": 985,
+    "Route Distance (km)": 25.8,
+    "No. of Stops": 80,
+    "Area Covered (km^2)": 1.140022
+  },
+  {
+    "name": "114",
+    "Service No.": 114,
+    "Route Distance (km)": 4.9,
+    "No. of Stops": 9,
+    "Area Covered (km^2)": 0.211794
+  },
+  {
+    "name": "945",
+    "Service No.": 945,
+    "Route Distance (km)": 7.3,
+    "No. of Stops": 19,
+    "Area Covered (km^2)": 0.077377
+  },
+  {
+    "name": "4",
+    "Service No.": 4,
+    "Route Distance (km)": 10.5,
+    "No. of Stops": 26,
+    "Area Covered (km^2)": 0.501803
+  },
+  {
+    "name": "980",
+    "Service No.": 980,
+    "Route Distance (km)": 25.4,
+    "No. of Stops": 125,
+    "Area Covered (km^2)": 0.389551
+  },
+  {
+    "name": "801",
+    "Service No.": 801,
+    "Route Distance (km)": 7.7,
+    "No. of Stops": 21,
+    "Area Covered (km^2)": 0.015044
+  },
+  {
+    "name": "26",
+    "Service No.": 26,
+    "Route Distance (km)": 14.7,
+    "No. of Stops": 64,
+    "Area Covered (km^2)": 1.409078
+  },
+  {
+    "name": "196",
+    "Service No.": 196,
+    "Route Distance (km)": 31.5,
+    "No. of Stops": 134,
+    "Area Covered (km^2)": 0.897946
+  },
+  {
+    "name": "973",
+    "Service No.": 973,
+    "Route Distance (km)": 10.7,
+    "No. of Stops": 29,
+    "Area Covered (km^2)": 0.100681
+  },
+  {
+    "name": "941",
+    "Service No.": 941,
+    "Route Distance (km)": 6.8,
+    "No. of Stops": 19,
+    "Area Covered (km^2)": 0.060474
+  },
+  {
+    "name": "273",
+    "Service No.": 273,
+    "Route Distance (km)": 4.8,
+    "No. of Stops": 14,
+    "Area Covered (km^2)": 0.168163
+  },
+  {
+    "name": "160",
+    "Service No.": 160,
+    "Route Distance (km)": 49,
+    "No. of Stops": 83,
+    "Area Covered (km^2)": 0.194425
+  },
+  {
+    "name": "513",
+    "Service No.": 513,
+    "Route Distance (km)": 25.1,
+    "No. of Stops": 29,
+    "Area Covered (km^2)": 1.841945
+  },
+  {
+    "name": "979",
+    "Service No.": 979,
+    "Route Distance (km)": 11.8,
+    "No. of Stops": 36,
+    "Area Covered (km^2)": 0.207115
+  },
+  {
+    "name": "23",
+    "Service No.": 23,
+    "Route Distance (km)": 32,
+    "No. of Stops": 43,
+    "Area Covered (km^2)": 1.072913
+  },
+  {
+    "name": "89",
+    "Service No.": 89,
+    "Route Distance (km)": 43.3,
+    "No. of Stops": 95,
+    "Area Covered (km^2)": 0.52569
+  },
+  {
+    "name": "95",
+    "Service No.": 95,
+    "Route Distance (km)": 11.5,
+    "No. of Stops": 30,
+    "Area Covered (km^2)": 0.002004
+  },
+  {
+    "name": "240",
+    "Service No.": 240,
+    "Route Distance (km)": 15.4,
+    "No. of Stops": 36,
+    "Area Covered (km^2)": 0.006675
+  },
+  {
+    "name": "174",
+    "Service No.": 174,
+    "Route Distance (km)": 28.9,
+    "No. of Stops": 123,
+    "Area Covered (km^2)": 1.679936
+  },
+  {
+    "name": "6",
+    "Service No.": 6,
+    "Route Distance (km)": 11.4,
+    "No. of Stops": 30,
+    "Area Covered (km^2)": 0.089666
+  },
+  {
+    "name": "857",
+    "Service No.": 857,
+    "Route Distance (km)": 42.8,
+    "No. of Stops": 63,
+    "Area Covered (km^2)": 1.774328
+  },
+  {
+    "name": "806",
+    "Service No.": 806,
+    "Route Distance (km)": 6.5,
+    "No. of Stops": 18,
+    "Area Covered (km^2)": 0.315981
+  },
+  {
+    "name": "301",
+    "Service No.": 301,
+    "Route Distance (km)": 5.5,
+    "No. of Stops": 17,
+    "Area Covered (km^2)": 0.09365
+  },
+  {
+    "name": "974",
+    "Service No.": 974,
+    "Route Distance (km)": 35.1,
+    "No. of Stops": 50,
+    "Area Covered (km^2)": 0.379524
+  },
+  {
+    "name": "241",
+    "Service No.": 241,
+    "Route Distance (km)": 6.2,
+    "No. of Stops": 18,
+    "Area Covered (km^2)": 0.020821
+  },
+  {
+    "name": "950",
+    "Service No.": 950,
+    "Route Distance (km)": 24.4,
+    "No. of Stops": 23,
+    "Area Covered (km^2)": 0.673798
+  },
+  {
+    "name": "106",
+    "Service No.": 106,
+    "Route Distance (km)": 22.3,
+    "No. of Stops": 97,
+    "Area Covered (km^2)": 1.771117
+  },
+  {
+    "name": "972",
+    "Service No.": 972,
+    "Route Distance (km)": 40.4,
+    "No. of Stops": 56,
+    "Area Covered (km^2)": 0.840414
+  },
+  {
+    "name": "17",
+    "Service No.": 17,
+    "Route Distance (km)": 12.3,
+    "No. of Stops": 62,
+    "Area Covered (km^2)": 0.270097
+  },
+  {
+    "name": "157",
+    "Service No.": 157,
+    "Route Distance (km)": 25.5,
+    "No. of Stops": 114,
+    "Area Covered (km^2)": 1.012797
+  },
+  {
+    "name": "965",
+    "Service No.": 965,
+    "Route Distance (km)": 42.4,
+    "No. of Stops": 53,
+    "Area Covered (km^2)": 0.556091
+  },
+  {
+    "name": "255",
+    "Service No.": 255,
+    "Route Distance (km)": 8.8,
+    "No. of Stops": 24,
+    "Area Covered (km^2)": 1.390721
+  },
+  {
+    "name": "31",
+    "Service No.": 31,
+    "Route Distance (km)": 23.2,
+    "No. of Stops": 94,
+    "Area Covered (km^2)": 1.086786
+  },
+  {
+    "name": "77",
+    "Service No.": 77,
+    "Route Distance (km)": 18.8,
+    "No. of Stops": 95,
+    "Area Covered (km^2)": 1.456235
+  },
+  {
+    "name": "882",
+    "Service No.": 882,
+    "Route Distance (km)": 8.7,
+    "No. of Stops": 24,
+    "Area Covered (km^2)": 0.06792
+  },
+  {
+    "name": "18",
+    "Service No.": 18,
+    "Route Distance (km)": 12.7,
+    "No. of Stops": 62,
+    "Area Covered (km^2)": 0.290903
+  },
+  {
+    "name": "904",
+    "Service No.": 904,
+    "Route Distance (km)": 8.1,
+    "No. of Stops": 21,
+    "Area Covered (km^2)": 0.113363
+  },
+  {
+    "name": "62",
+    "Service No.": 62,
+    "Route Distance (km)": 35.4,
+    "No. of Stops": 88,
+    "Area Covered (km^2)": 0.600454
+  },
+  {
+    "name": "238",
+    "Service No.": 238,
+    "Route Distance (km)": 6.6,
+    "No. of Stops": 20,
+    "Area Covered (km^2)": 0.042625
+  },
+  {
+    "name": "96",
+    "Service No.": 96,
+    "Route Distance (km)": 6.8,
+    "No. of Stops": 15,
+    "Area Covered (km^2)": 0.310645
+  },
+  {
+    "name": "110",
+    "Service No.": 110,
+    "Route Distance (km)": 40,
+    "No. of Stops": 30,
+    "Area Covered (km^2)": 0.697453
+  },
+  {
+    "name": "19",
+    "Service No.": 19,
+    "Route Distance (km)": 21.9,
+    "No. of Stops": 56,
+    "Area Covered (km^2)": 0.439091
+  },
+  {
+    "name": "155",
+    "Service No.": 155,
+    "Route Distance (km)": 22,
+    "No. of Stops": 112,
+    "Area Covered (km^2)": 1.070692
+  },
+  {
+    "name": "268",
+    "Service No.": 268,
+    "Route Distance (km)": 17.2,
+    "No. of Stops": 48,
+    "Area Covered (km^2)": 0.028685
+  },
+  {
+    "name": "963",
+    "Service No.": 963,
+    "Route Distance (km)": 29.7,
+    "No. of Stops": 98,
+    "Area Covered (km^2)": 0.542325
+  },
+  {
+    "name": "20",
+    "Service No.": 20,
+    "Route Distance (km)": 17.9,
+    "No. of Stops": 44,
+    "Area Covered (km^2)": 0.070067
+  },
+  {
+    "name": "962",
+    "Service No.": 962,
+    "Route Distance (km)": 16.8,
+    "No. of Stops": 46,
+    "Area Covered (km^2)": 0.158701
+  },
+  {
+    "name": "920",
+    "Service No.": 920,
+    "Route Distance (km)": 9.5,
+    "No. of Stops": 32,
+    "Area Covered (km^2)": 0.095063
+  },
+  {
+    "name": "22",
+    "Service No.": 22,
+    "Route Distance (km)": 13.1,
+    "No. of Stops": 67,
+    "Area Covered (km^2)": 0.437899
+  },
+  {
+    "name": "169",
+    "Service No.": 169,
+    "Route Distance (km)": 23.7,
+    "No. of Stops": 110,
+    "Area Covered (km^2)": 0.780209
+  },
+  {
+    "name": "132",
+    "Service No.": 132,
+    "Route Distance (km)": 24.5,
+    "No. of Stops": 110,
+    "Area Covered (km^2)": 0.871959
+  },
+  {
+    "name": "59",
+    "Service No.": 59,
+    "Route Distance (km)": 26.5,
+    "No. of Stops": 99,
+    "Area Covered (km^2)": 0.261316
+  },
+  {
+    "name": "100",
+    "Service No.": 100,
+    "Route Distance (km)": 23.6,
+    "No. of Stops": 109,
+    "Area Covered (km^2)": 0.856483
+  },
+  {
+    "name": "293",
+    "Service No.": 293,
+    "Route Distance (km)": 15.1,
+    "No. of Stops": 41,
+    "Area Covered (km^2)": 0.047178
+  },
+  {
+    "name": "251",
+    "Service No.": 251,
+    "Route Distance (km)": 13,
+    "No. of Stops": 32,
+    "Area Covered (km^2)": 1.272257
+  },
+  {
+    "name": "57",
+    "Service No.": 57,
+    "Route Distance (km)": 22.4,
+    "No. of Stops": 98,
+    "Area Covered (km^2)": 0.863783
+  },
+  {
+    "name": "855",
+    "Service No.": 855,
+    "Route Distance (km)": 26,
+    "No. of Stops": 109,
+    "Area Covered (km^2)": 0.747929
+  },
+  {
+    "name": "913",
+    "Service No.": 913,
+    "Route Distance (km)": 12.9,
+    "No. of Stops": 33,
+    "Area Covered (km^2)": 0.104504
+  },
+  {
+    "name": "88",
+    "Service No.": 88,
+    "Route Distance (km)": 24.1,
+    "No. of Stops": 101,
+    "Area Covered (km^2)": 0.433232
+  },
+  {
+    "name": "81",
+    "Service No.": 81,
+    "Route Distance (km)": 34,
+    "No. of Stops": 68,
+    "Area Covered (km^2)": 0.44991
+  },
+  {
+    "name": "246",
+    "Service No.": 246,
+    "Route Distance (km)": 16.9,
+    "No. of Stops": 45,
+    "Area Covered (km^2)": 0.053781
+  },
+  {
+    "name": "162",
+    "Service No.": 162,
+    "Route Distance (km)": 21.8,
+    "No. of Stops": 102,
+    "Area Covered (km^2)": 1.047095
+  },
+  {
+    "name": "386",
+    "Service No.": 386,
+    "Route Distance (km)": 10.3,
+    "No. of Stops": 20,
+    "Area Covered (km^2)": 0.101261
+  },
+  {
+    "name": "50",
+    "Service No.": 50,
+    "Route Distance (km)": 18.6,
+    "No. of Stops": 95,
+    "Area Covered (km^2)": 0.45105
+  },
+  {
+    "name": "191",
+    "Service No.": 191,
+    "Route Distance (km)": 7.5,
+    "No. of Stops": 20,
+    "Area Covered (km^2)": 0.079939
+  },
+  {
+    "name": "39",
+    "Service No.": 39,
+    "Route Distance (km)": 26.7,
+    "No. of Stops": 83,
+    "Area Covered (km^2)": 0.489044
+  },
+  {
+    "name": "84",
+    "Service No.": 84,
+    "Route Distance (km)": 8.8,
+    "No. of Stops": 19,
+    "Area Covered (km^2)": 0.111762
+  },
+  {
+    "name": "372",
+    "Service No.": 372,
+    "Route Distance (km)": 7.9,
+    "No. of Stops": 22,
+    "Area Covered (km^2)": 0.188992
+  },
+  {
+    "name": "400",
+    "Service No.": 400,
+    "Route Distance (km)": 11.4,
+    "No. of Stops": 21,
+    "Area Covered (km^2)": 0.694835
+  },
+  {
+    "name": "101",
+    "Service No.": 101,
+    "Route Distance (km)": 15.7,
+    "No. of Stops": 46,
+    "Area Covered (km^2)": 0.063472
+  },
+  {
+    "name": "58",
+    "Service No.": 58,
+    "Route Distance (km)": 20.9,
+    "No. of Stops": 94,
+    "Area Covered (km^2)": 0.588164
+  },
+  {
+    "name": "269",
+    "Service No.": 269,
+    "Route Distance (km)": 8.5,
+    "No. of Stops": 22,
+    "Area Covered (km^2)": 0.321798
+  },
+  {
+    "name": "252",
+    "Service No.": 252,
+    "Route Distance (km)": 15.2,
+    "No. of Stops": 35,
+    "Area Covered (km^2)": 0.080159
+  },
+  {
+    "name": "54",
+    "Service No.": 54,
+    "Route Distance (km)": 17.7,
+    "No. of Stops": 84,
+    "Area Covered (km^2)": 0.480607
+  },
+  {
+    "name": "37",
+    "Service No.": 37,
+    "Route Distance (km)": 10.9,
+    "No. of Stops": 26,
+    "Area Covered (km^2)": 0.105562
+  },
+  {
+    "name": "38",
+    "Service No.": 38,
+    "Route Distance (km)": 11.6,
+    "No. of Stops": 58,
+    "Area Covered (km^2)": 0.277825
+  },
+  {
+    "name": "665",
+    "Service No.": 665,
+    "Route Distance (km)": 30.7,
+    "No. of Stops": 45,
+    "Area Covered (km^2)": 0.824024
+  },
+  {
+    "name": "46",
+    "Service No.": 46,
+    "Route Distance (km)": 11.5,
+    "No. of Stops": 60,
+    "Area Covered (km^2)": 0.089056
+  },
+  {
+    "name": "127",
+    "Service No.": 127,
+    "Route Distance (km)": 8.6,
+    "No. of Stops": 22,
+    "Area Covered (km^2)": 0.471832
+  },
+  {
+    "name": "661",
+    "Service No.": 661,
+    "Route Distance (km)": 25.8,
+    "No. of Stops": 25,
+    "Area Covered (km^2)": 0.649132
+  },
+  {
+    "name": "161",
+    "Service No.": 161,
+    "Route Distance (km)": 23.6,
+    "No. of Stops": 47,
+    "Area Covered (km^2)": 1.057552
+  },
+  {
+    "name": "47",
+    "Service No.": 47,
+    "Route Distance (km)": 22.5,
+    "No. of Stops": 51,
+    "Area Covered (km^2)": 0.47091
+  },
+  {
+    "name": "812",
+    "Service No.": 812,
+    "Route Distance (km)": 12.8,
+    "No. of Stops": 35,
+    "Area Covered (km^2)": 0.252425
+  },
+  {
+    "name": "325",
+    "Service No.": 325,
+    "Route Distance (km)": 12.3,
+    "No. of Stops": 32,
+    "Area Covered (km^2)": 0.09179
+  },
+  {
+    "name": "656",
+    "Service No.": 656,
+    "Route Distance (km)": 28.6,
+    "No. of Stops": 35,
+    "Area Covered (km^2)": 0.547934
+  },
+  {
+    "name": "670",
+    "Service No.": 670,
+    "Route Distance (km)": 28.8,
+    "No. of Stops": 39,
+    "Area Covered (km^2)": 0.253618
+  },
+  {
+    "name": "667",
+    "Service No.": 667,
+    "Route Distance (km)": 14.4,
+    "No. of Stops": 26,
+    "Area Covered (km^2)": 0.359705
+  },
+  {
+    "name": "853",
+    "Service No.": 853,
+    "Route Distance (km)": 20.5,
+    "No. of Stops": 87,
+    "Area Covered (km^2)": 0.654737
+  },
+  {
+    "name": "98",
+    "Service No.": 98,
+    "Route Distance (km)": 26.9,
+    "No. of Stops": 69,
+    "Area Covered (km^2)": 0.199315
+  },
+  {
+    "name": "116",
+    "Service No.": 116,
+    "Route Distance (km)": 13,
+    "No. of Stops": 37,
+    "Area Covered (km^2)": 0.089292
+  },
+  {
+    "name": "139",
+    "Service No.": 139,
+    "Route Distance (km)": 17.6,
+    "No. of Stops": 86,
+    "Area Covered (km^2)": 0.895485
+  },
+  {
+    "name": "672",
+    "Service No.": 672,
+    "Route Distance (km)": 22.8,
+    "No. of Stops": 33,
+    "Area Covered (km^2)": 0.804642
+  },
+  {
+    "name": "76",
+    "Service No.": 76,
+    "Route Distance (km)": 15.8,
+    "No. of Stops": 84,
+    "Area Covered (km^2)": 0.683298
+  },
+  {
+    "name": "291",
+    "Service No.": 291,
+    "Route Distance (km)": 10.6,
+    "No. of Stops": 29,
+    "Area Covered (km^2)": 0.249778
+  },
+  {
+    "name": "138",
+    "Service No.": 138,
+    "Route Distance (km)": 27.6,
+    "No. of Stops": 59,
+    "Area Covered (km^2)": 0.347921
+  },
+  {
+    "name": "153",
+    "Service No.": 153,
+    "Route Distance (km)": 20.3,
+    "No. of Stops": 90,
+    "Area Covered (km^2)": 0.602705
+  },
+  {
+    "name": "222",
+    "Service No.": 222,
+    "Route Distance (km)": 11.3,
+    "No. of Stops": 30,
+    "Area Covered (km^2)": 0.098727
+  },
+  {
+    "name": "124",
+    "Service No.": 124,
+    "Route Distance (km)": 18.5,
+    "No. of Stops": 89,
+    "Area Covered (km^2)": 0.5223
+  },
+  {
+    "name": "298",
+    "Service No.": 298,
+    "Route Distance (km)": 13.9,
+    "No. of Stops": 37,
+    "Area Covered (km^2)": 0.107908
+  },
+  {
+    "name": "78",
+    "Service No.": 78,
+    "Route Distance (km)": 24.5,
+    "No. of Stops": 56,
+    "Area Covered (km^2)": 0.144602
+  },
+  {
+    "name": "94",
+    "Service No.": 94,
+    "Route Distance (km)": 11.2,
+    "No. of Stops": 26,
+    "Area Covered (km^2)": 0.234362
+  },
+  {
+    "name": "668",
+    "Service No.": 668,
+    "Route Distance (km)": 20.6,
+    "No. of Stops": 38,
+    "Area Covered (km^2)": 0.282908
+  },
+  {
+    "name": "60",
+    "Service No.": 60,
+    "Route Distance (km)": 15.2,
+    "No. of Stops": 33,
+    "Area Covered (km^2)": 0.232601
+  },
+  {
+    "name": "193",
+    "Service No.": 193,
+    "Route Distance (km)": 16.3,
+    "No. of Stops": 86,
+    "Area Covered (km^2)": 0.31481
+  },
+  {
+    "name": "199",
+    "Service No.": 199,
+    "Route Distance (km)": 11.1,
+    "No. of Stops": 27,
+    "Area Covered (km^2)": 0.35582
+  },
+  {
+    "name": "66",
+    "Service No.": 66,
+    "Route Distance (km)": 17.3,
+    "No. of Stops": 44,
+    "Area Covered (km^2)": 0.128743
+  },
+  {
+    "name": "103",
+    "Service No.": 103,
+    "Route Distance (km)": 17.9,
+    "No. of Stops": 84,
+    "Area Covered (km^2)": 0.359625
+  },
+  {
+    "name": "257",
+    "Service No.": 257,
+    "Route Distance (km)": 14.6,
+    "No. of Stops": 39,
+    "Area Covered (km^2)": 0.706742
+  },
+  {
+    "name": "69",
+    "Service No.": 69,
+    "Route Distance (km)": 13.8,
+    "No. of Stops": 34,
+    "Area Covered (km^2)": 0.110929
+  },
+  {
+    "name": "71",
+    "Service No.": 71,
+    "Route Distance (km)": 17.1,
+    "No. of Stops": 42,
+    "Area Covered (km^2)": 0.162444
+  },
+  {
+    "name": "158",
+    "Service No.": 158,
+    "Route Distance (km)": 25.5,
+    "No. of Stops": 67,
+    "Area Covered (km^2)": 0.652682
+  },
+  {
+    "name": "117",
+    "Service No.": 117,
+    "Route Distance (km)": 21.8,
+    "No. of Stops": 83,
+    "Area Covered (km^2)": 0.2893
+  },
+  {
+    "name": "118",
+    "Service No.": 118,
+    "Route Distance (km)": 16.4,
+    "No. of Stops": 51,
+    "Area Covered (km^2)": 0.651834
+  },
+  {
+    "name": "136",
+    "Service No.": 136,
+    "Route Distance (km)": 17,
+    "No. of Stops": 81,
+    "Area Covered (km^2)": 0.353473
+  },
+  {
+    "name": "83",
+    "Service No.": 83,
+    "Route Distance (km)": 13.4,
+    "No. of Stops": 31,
+    "Area Covered (km^2)": 0.126019
+  },
+  {
+    "name": "130",
+    "Service No.": 130,
+    "Route Distance (km)": 16.2,
+    "No. of Stops": 80,
+    "Area Covered (km^2)": 0.594292
+  },
+  {
+    "name": "200",
+    "Service No.": 200,
+    "Route Distance (km)": 16.1,
+    "No. of Stops": 45,
+    "Area Covered (km^2)": 0.130945
+  },
+  {
+    "name": "107",
+    "Service No.": 107,
+    "Route Distance (km)": 17,
+    "No. of Stops": 79,
+    "Area Covered (km^2)": 0.557881
+  },
+  {
+    "name": "184",
+    "Service No.": 184,
+    "Route Distance (km)": 23.7,
+    "No. of Stops": 57,
+    "Area Covered (km^2)": 0.274742
+  },
+  {
+    "name": "129",
+    "Service No.": 129,
+    "Route Distance (km)": 22.4,
+    "No. of Stops": 80,
+    "Area Covered (km^2)": 0.46798
+  },
+  {
+    "name": "90",
+    "Service No.": 90,
+    "Route Distance (km)": 16.4,
+    "No. of Stops": 36,
+    "Area Covered (km^2)": 0.196175
+  },
+  {
+    "name": "112",
+    "Service No.": 112,
+    "Route Distance (km)": 18.3,
+    "No. of Stops": 47,
+    "Area Covered (km^2)": 0.148614
+  },
+  {
+    "name": "159",
+    "Service No.": 159,
+    "Route Distance (km)": 16.5,
+    "No. of Stops": 79,
+    "Area Covered (km^2)": 0.404966
+  },
+  {
+    "name": "183",
+    "Service No.": 183,
+    "Route Distance (km)": 22.8,
+    "No. of Stops": 58,
+    "Area Covered (km^2)": 0.264071
+  },
+  {
+    "name": "185",
+    "Service No.": 185,
+    "Route Distance (km)": 18.6,
+    "No. of Stops": 74,
+    "Area Covered (km^2)": 0.290669
+  },
+  {
+    "name": "180",
+    "Service No.": 180,
+    "Route Distance (km)": 21.3,
+    "No. of Stops": 47,
+    "Area Covered (km^2)": 0.228831
+  },
+  {
+    "name": "201",
+    "Service No.": 201,
+    "Route Distance (km)": 17.4,
+    "No. of Stops": 38,
+    "Area Covered (km^2)": 0.409317
+  },
+  {
+    "name": "120",
+    "Service No.": 120,
+    "Route Distance (km)": 19.7,
+    "No. of Stops": 48,
+    "Area Covered (km^2)": 0.353992
+  }
+]

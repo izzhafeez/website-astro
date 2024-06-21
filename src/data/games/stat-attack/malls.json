@@ -1,17 +1,17 @@
 [
   {
-    "name": "Lucky Plaza",
-    "Latitude": 1.3045,
-    "Longitude": 103.8339,
-    "Stores": 540,
-    "Year": 1977
-  },
-  {
     "name": "Golden Mile Complex",
     "Latitude": 1.3028,
     "Longitude": 103.8652,
     "Stores": 411,
     "Year": 1973
+  },
+  {
+    "name": "Lucky Plaza",
+    "Latitude": 1.3045,
+    "Longitude": 103.8339,
+    "Stores": 540,
+    "Year": 1977
   },
   {
     "name": "Far East Plaza",
@@ -35,11 +35,11 @@
     "Year": 1995
   },
   {
-    "name": "Le Quest",
-    "Latitude": 1.3558,
-    "Longitude": 103.7412,
-    "Stores": 38,
-    "Year": 2020
+    "name": "IKEA Tampines",
+    "Latitude": 1.3742,
+    "Longitude": 103.9323,
+    "Stores": 1,
+    "Year": 2006
   },
   {
     "name": "Woods Square",
@@ -63,11 +63,11 @@
     "Year": 2015
   },
   {
-    "name": "IKEA Tampines",
-    "Latitude": 1.3742,
-    "Longitude": 103.9323,
-    "Stores": 1,
-    "Year": 2006
+    "name": "Le Quest",
+    "Latitude": 1.3558,
+    "Longitude": 103.7412,
+    "Stores": 38,
+    "Year": 2020
   },
   {
     "name": "Canberra Plaza",
@@ -84,18 +84,18 @@
     "Year": 1974
   },
   {
-    "name": "Sembawang Shopping Centre",
-    "Latitude": 1.4419,
-    "Longitude": 103.8251,
-    "Stores": 72,
-    "Year": 1986
-  },
-  {
     "name": "Rail Mall",
     "Latitude": 1.3581,
     "Longitude": 103.7679,
     "Stores": 28,
     "Year": 1947
+  },
+  {
+    "name": "Sembawang Shopping Centre",
+    "Latitude": 1.4419,
+    "Longitude": 103.8251,
+    "Stores": 72,
+    "Year": 1986
   },
   {
     "name": "Sim Lim Square",
@@ -147,18 +147,11 @@
     "Year": 2023
   },
   {
-    "name": "Tekka Place",
-    "Latitude": 1.3051,
-    "Longitude": 103.8514,
-    "Stores": 24,
-    "Year": 2019
-  },
-  {
-    "name": "Katong Shopping Centre",
-    "Latitude": 1.3039,
-    "Longitude": 103.9012,
-    "Stores": 145,
-    "Year": 1973
+    "name": "Loyang Point",
+    "Latitude": 1.3669,
+    "Longitude": 103.9644,
+    "Stores": 77,
+    "Year": 1995
   },
   {
     "name": "Greenwich V",
@@ -168,10 +161,10 @@
     "Year": 2014
   },
   {
-    "name": "Viva Vista",
-    "Latitude": 1.2797,
-    "Longitude": 103.7861,
-    "Stores": 43,
+    "name": "Marina One",
+    "Latitude": 1.2772,
+    "Longitude": 103.853,
+    "Stores": 41,
     "Year": 2018
   },
   {
@@ -182,18 +175,11 @@
     "Year": 2013
   },
   {
-    "name": "Marina One",
-    "Latitude": 1.2772,
-    "Longitude": 103.853,
-    "Stores": 41,
-    "Year": 2018
-  },
-  {
-    "name": "Changi Airport T4",
-    "Latitude": 1.3384,
-    "Longitude": 103.9815,
-    "Stores": 81,
-    "Year": 2017
+    "name": "Katong Shopping Centre",
+    "Latitude": 1.3039,
+    "Longitude": 103.9012,
+    "Stores": 145,
+    "Year": 1973
   },
   {
     "name": "Resorts World Sentosa",
@@ -203,6 +189,13 @@
     "Year": 2010
   },
   {
+    "name": "Tekka Place",
+    "Latitude": 1.3051,
+    "Longitude": 103.8514,
+    "Stores": 24,
+    "Year": 2019
+  },
+  {
     "name": "Westgate",
     "Latitude": 1.3341,
     "Longitude": 103.743,
@@ -210,11 +203,11 @@
     "Year": 2013
   },
   {
-    "name": "Mustafa Centre",
-    "Latitude": 1.3097,
-    "Longitude": 103.8558,
-    "Stores": 1,
-    "Year": 1995
+    "name": "Changi Airport T4",
+    "Latitude": 1.3384,
+    "Longitude": 103.9815,
+    "Stores": 81,
+    "Year": 2017
   },
   {
     "name": "Changi Airport T3",
@@ -231,11 +224,18 @@
     "Year": 2023
   },
   {
-    "name": "Loyang Point",
-    "Latitude": 1.3669,
-    "Longitude": 103.9644,
-    "Stores": 77,
+    "name": "IKEA Alexandra",
+    "Latitude": 1.288,
+    "Longitude": 103.806,
+    "Stores": 1,
     "Year": 1995
+  },
+  {
+    "name": "Viva Vista",
+    "Latitude": 1.2797,
+    "Longitude": 103.7861,
+    "Stores": 43,
+    "Year": 2018
   },
   {
     "name": "Northshore Plaza",
@@ -259,13 +259,6 @@
     "Year": 1993
   },
   {
-    "name": "Pioneer Mall",
-    "Latitude": 1.3419,
-    "Longitude": 103.6974,
-    "Stores": 30,
-    "Year": 2004
-  },
-  {
     "name": "Tanjong Pagar Centre",
     "Latitude": 1.277,
     "Longitude": 103.8455,
@@ -273,9 +266,16 @@
     "Year": 2016
   },
   {
-    "name": "IKEA Alexandra",
-    "Latitude": 1.288,
-    "Longitude": 103.806,
+    "name": "Pioneer Mall",
+    "Latitude": 1.3419,
+    "Longitude": 103.6974,
+    "Stores": 30,
+    "Year": 2004
+  },
+  {
+    "name": "Mustafa Centre",
+    "Latitude": 1.3097,
+    "Longitude": 103.8558,
     "Stores": 1,
     "Year": 1995
   },
@@ -285,6 +285,13 @@
     "Longitude": 103.8318,
     "Stores": 49,
     "Year": 1972
+  },
+  {
+    "name": "Funan",
+    "Latitude": 1.2913,
+    "Longitude": 103.8501,
+    "Stores": 125,
+    "Year": 2019
   },
   {
     "name": "Lot One",
@@ -350,13 +357,6 @@
     "Year": 1991
   },
   {
-    "name": "Funan",
-    "Latitude": 1.2913,
-    "Longitude": 103.8501,
-    "Stores": 125,
-    "Year": 2019
-  },
-  {
     "name": "Alexandra Retail Centre",
     "Latitude": 1.2739,
     "Longitude": 103.8015,
@@ -371,13 +371,6 @@
     "Year": 1976
   },
   {
-    "name": "JCube",
-    "Latitude": 1.3333,
-    "Longitude": 103.74,
-    "Stores": 110,
-    "Year": 2012
-  },
-  {
     "name": "Oasis Terraces",
     "Latitude": 1.4028,
     "Longitude": 103.9132,
@@ -385,11 +378,18 @@
     "Year": 2018
   },
   {
-    "name": "Great World City",
-    "Latitude": 1.2936,
-    "Longitude": 103.8319,
-    "Stores": 302,
-    "Year": 1997
+    "name": "JCube",
+    "Latitude": 1.3333,
+    "Longitude": 103.74,
+    "Stores": 110,
+    "Year": 2012
+  },
+  {
+    "name": "Wisteria Mall",
+    "Latitude": 1.4182,
+    "Longitude": 103.8412,
+    "Stores": 62,
+    "Year": 2019
   },
   {
     "name": "Shaw House and Centre",
@@ -399,11 +399,11 @@
     "Year": 1993
   },
   {
-    "name": "Wisteria Mall",
-    "Latitude": 1.4182,
-    "Longitude": 103.8412,
-    "Stores": 62,
-    "Year": 2019
+    "name": "Great World City",
+    "Latitude": 1.2936,
+    "Longitude": 103.8319,
+    "Stores": 302,
+    "Year": 1997
   },
   {
     "name": "Taman Jurong Shopping Centre",
@@ -448,53 +448,11 @@
     "Year": 2007
   },
   {
-    "name": "Thomson Plaza",
-    "Latitude": 1.3547,
-    "Longitude": 103.8309,
-    "Stores": 166,
-    "Year": 1979
-  },
-  {
     "name": "321 Clementi",
     "Latitude": 1.312,
     "Longitude": 103.765,
     "Stores": 24,
     "Year": 2011
-  },
-  {
-    "name": "HillV2",
-    "Latitude": 1.3634,
-    "Longitude": 103.7643,
-    "Stores": 26,
-    "Year": 2014
-  },
-  {
-    "name": "White Sands",
-    "Latitude": 1.3725,
-    "Longitude": 103.9497,
-    "Stores": 129,
-    "Year": 1997
-  },
-  {
-    "name": "Jubilee Square",
-    "Latitude": 1.3718,
-    "Longitude": 103.8478,
-    "Stores": 25,
-    "Year": 1996
-  },
-  {
-    "name": "Junction 10",
-    "Latitude": 1.3803,
-    "Longitude": 103.7601,
-    "Stores": 40,
-    "Year": 1998
-  },
-  {
-    "name": "Hillion Mall",
-    "Latitude": 1.3785,
-    "Longitude": 103.7633,
-    "Stores": 128,
-    "Year": 2017
   },
   {
     "name": "Bukit Timah Plaza",
@@ -504,11 +462,46 @@
     "Year": 1979
   },
   {
-    "name": "Tampines Mall",
-    "Latitude": 1.3525,
-    "Longitude": 103.9447,
-    "Stores": 179,
-    "Year": 1995
+    "name": "HillV2",
+    "Latitude": 1.3634,
+    "Longitude": 103.7643,
+    "Stores": 26,
+    "Year": 2014
+  },
+  {
+    "name": "Hillion Mall",
+    "Latitude": 1.3785,
+    "Longitude": 103.7633,
+    "Stores": 128,
+    "Year": 2017
+  },
+  {
+    "name": "Jubilee Square",
+    "Latitude": 1.3718,
+    "Longitude": 103.8478,
+    "Stores": 25,
+    "Year": 1996
+  },
+  {
+    "name": "White Sands",
+    "Latitude": 1.3725,
+    "Longitude": 103.9497,
+    "Stores": 129,
+    "Year": 1997
+  },
+  {
+    "name": "Thomson Plaza",
+    "Latitude": 1.3547,
+    "Longitude": 103.8309,
+    "Stores": 166,
+    "Year": 1979
+  },
+  {
+    "name": "Junction 10",
+    "Latitude": 1.3803,
+    "Longitude": 103.7601,
+    "Stores": 40,
+    "Year": 1998
   },
   {
     "name": "Elias Mall",
@@ -518,18 +511,25 @@
     "Year": 1995
   },
   {
-    "name": "KINEX",
-    "Latitude": 1.3147,
-    "Longitude": 103.8948,
-    "Stores": 85,
-    "Year": 2019
-  },
-  {
     "name": "Waterway Point",
     "Latitude": 1.4067,
     "Longitude": 103.902,
     "Stores": 218,
     "Year": 2016
+  },
+  {
+    "name": "Tampines Mall",
+    "Latitude": 1.3525,
+    "Longitude": 103.9447,
+    "Stores": 179,
+    "Year": 1995
+  },
+  {
+    "name": "Century Square",
+    "Latitude": 1.3524,
+    "Longitude": 103.9438,
+    "Stores": 127,
+    "Year": 1995
   },
   {
     "name": "Nex",
@@ -546,6 +546,20 @@
     "Year": 2009
   },
   {
+    "name": "Marina Bay Link Mall",
+    "Latitude": 1.28,
+    "Longitude": 103.854,
+    "Stores": 55,
+    "Year": 2010
+  },
+  {
+    "name": "Paya Lebar Quarter",
+    "Latitude": 1.3175,
+    "Longitude": 103.8928,
+    "Stores": 191,
+    "Year": 2019
+  },
+  {
     "name": "Bukit Panjang Plaza",
     "Latitude": 1.38,
     "Longitude": 103.7642,
@@ -558,13 +572,6 @@
     "Longitude": 103.913,
     "Stores": 56,
     "Year": 2004
-  },
-  {
-    "name": "Marina Bay Link Mall",
-    "Latitude": 1.28,
-    "Longitude": 103.854,
-    "Stores": 55,
-    "Year": 2010
   },
   {
     "name": "Leisure Park Kallang",
@@ -581,11 +588,11 @@
     "Year": 1990
   },
   {
-    "name": "Century Square",
-    "Latitude": 1.3524,
-    "Longitude": 103.9438,
-    "Stores": 127,
-    "Year": 1995
+    "name": "Fajar Shopping Centre",
+    "Latitude": 1.3839,
+    "Longitude": 103.7707,
+    "Stores": 34,
+    "Year": 1996
   },
   {
     "name": "Tampines 1",
@@ -593,13 +600,6 @@
     "Longitude": 103.945,
     "Stores": 167,
     "Year": 2009
-  },
-  {
-    "name": "Fajar Shopping Centre",
-    "Latitude": 1.3839,
-    "Longitude": 103.7707,
-    "Stores": 34,
-    "Year": 1996
   },
   {
     "name": "Katong V",
@@ -623,11 +623,25 @@
     "Year": 1995
   },
   {
-    "name": "Paya Lebar Quarter",
-    "Latitude": 1.3175,
-    "Longitude": 103.8928,
-    "Stores": 191,
+    "name": "KINEX",
+    "Latitude": 1.3147,
+    "Longitude": 103.8948,
+    "Stores": 85,
     "Year": 2019
+  },
+  {
+    "name": "City Gate Mall",
+    "Latitude": 1.3023,
+    "Longitude": 103.8624,
+    "Stores": 69,
+    "Year": 2018
+  },
+  {
+    "name": "Heartland Mall",
+    "Latitude": 1.3595,
+    "Longitude": 103.8852,
+    "Stores": 104,
+    "Year": 1984
   },
   {
     "name": "Rivervale Mall",
@@ -644,13 +658,6 @@
     "Year": 1998
   },
   {
-    "name": "City Gate Mall",
-    "Latitude": 1.3023,
-    "Longitude": 103.8624,
-    "Stores": 69,
-    "Year": 2018
-  },
-  {
     "name": "Buangkok Square",
     "Latitude": 1.3843,
     "Longitude": 103.8816,
@@ -658,18 +665,11 @@
     "Year": 2006
   },
   {
-    "name": "Marina Square",
-    "Latitude": 1.2911,
-    "Longitude": 103.8575,
-    "Stores": 190,
-    "Year": 1985
-  },
-  {
-    "name": "Heartland Mall",
-    "Latitude": 1.3595,
-    "Longitude": 103.8852,
-    "Stores": 104,
-    "Year": 1984
+    "name": "Our Tampines Hub",
+    "Latitude": 1.3531,
+    "Longitude": 103.9405,
+    "Stores": 106,
+    "Year": 2017
   },
   {
     "name": "Tiong Bahru Plaza",
@@ -679,11 +679,11 @@
     "Year": 1994
   },
   {
-    "name": "Our Tampines Hub",
-    "Latitude": 1.3531,
-    "Longitude": 103.9405,
-    "Stores": 106,
-    "Year": 2017
+    "name": "Marina Square",
+    "Latitude": 1.2911,
+    "Longitude": 103.8575,
+    "Stores": 190,
+    "Year": 1985
   },
   {
     "name": "Raffles City Singapore",
@@ -714,13 +714,6 @@
     "Year": 2011
   },
   {
-    "name": "Liang Court",
-    "Latitude": 1.2914,
-    "Longitude": 103.8447,
-    "Stores": 53,
-    "Year": 1984
-  },
-  {
     "name": "Seletar Mall",
     "Latitude": 1.3915,
     "Longitude": 103.8761,
@@ -733,6 +726,13 @@
     "Longitude": 103.8364,
     "Stores": 29,
     "Year": 1997
+  },
+  {
+    "name": "Liang Court",
+    "Latitude": 1.2914,
+    "Longitude": 103.8447,
+    "Stores": 53,
+    "Year": 1984
   },
   {
     "name": "Bedok Mall",
@@ -749,6 +749,13 @@
     "Year": 1999
   },
   {
+    "name": "Zhongshan Mall",
+    "Latitude": 1.3269,
+    "Longitude": 103.8466,
+    "Stores": 35,
+    "Year": 2013
+  },
+  {
     "name": "Capitol Singapore",
     "Latitude": 1.293,
     "Longitude": 103.8512,
@@ -761,20 +768,6 @@
     "Longitude": 103.8598,
     "Stores": 188,
     "Year": 1995
-  },
-  {
-    "name": "Zhongshan Mall",
-    "Latitude": 1.3269,
-    "Longitude": 103.8466,
-    "Stores": 35,
-    "Year": 2013
-  },
-  {
-    "name": "Holland Road Shopping Centre",
-    "Latitude": 1.3103,
-    "Longitude": 103.7954,
-    "Stores": 106,
-    "Year": 1985
   },
   {
     "name": "Bugis Junction",
@@ -791,6 +784,13 @@
     "Year": 2000
   },
   {
+    "name": "Holland Road Shopping Centre",
+    "Latitude": 1.3103,
+    "Longitude": 103.7954,
+    "Stores": 106,
+    "Year": 1985
+  },
+  {
     "name": "I12 Katong",
     "Latitude": 1.305,
     "Longitude": 103.9051,
@@ -805,18 +805,18 @@
     "Year": 1997
   },
   {
-    "name": "Clarke Quay Central",
-    "Latitude": 1.289,
-    "Longitude": 103.8466,
-    "Stores": 84,
-    "Year": 2007
-  },
-  {
     "name": "The Paragon",
     "Latitude": 1.3038,
     "Longitude": 103.8355,
     "Stores": 213,
     "Year": 1998
+  },
+  {
+    "name": "Clarke Quay Central",
+    "Latitude": 1.289,
+    "Longitude": 103.8466,
+    "Stores": 84,
+    "Year": 2007
   },
   {
     "name": "Singpost Centre",
@@ -826,11 +826,25 @@
     "Year": 2017
   },
   {
+    "name": "CityLink Mall",
+    "Latitude": 1.2913,
+    "Longitude": 103.8552,
+    "Stores": 70,
+    "Year": 2000
+  },
+  {
     "name": "West Coast Plaza",
     "Latitude": 1.3037,
     "Longitude": 103.7659,
     "Stores": 84,
     "Year": 1992
+  },
+  {
+    "name": "Aperia",
+    "Latitude": 1.3105,
+    "Longitude": 103.8642,
+    "Stores": 49,
+    "Year": 2014
   },
   {
     "name": "AMK Hub",
@@ -840,18 +854,11 @@
     "Year": 2007
   },
   {
-    "name": "CityLink Mall",
-    "Latitude": 1.2913,
-    "Longitude": 103.8552,
-    "Stores": 70,
-    "Year": 2000
-  },
-  {
-    "name": "Aperia",
-    "Latitude": 1.3105,
-    "Longitude": 103.8642,
-    "Stores": 49,
-    "Year": 2014
+    "name": "Wisma Atria",
+    "Latitude": 1.3037,
+    "Longitude": 103.8333,
+    "Stores": 105,
+    "Year": 1986
   },
   {
     "name": "The Cathay",
@@ -868,18 +875,11 @@
     "Year": 2012
   },
   {
-    "name": "Wisma Atria",
-    "Latitude": 1.3037,
-    "Longitude": 103.8333,
-    "Stores": 105,
-    "Year": 1986
-  },
-  {
-    "name": "Orchard Gateway",
-    "Latitude": 1.3005,
-    "Longitude": 103.8394,
-    "Stores": 114,
-    "Year": 2014
+    "name": "Ngee Ann City",
+    "Latitude": 1.3026,
+    "Longitude": 103.8346,
+    "Stores": 166,
+    "Year": 1993
   },
   {
     "name": "Grandstand Car Mall",
@@ -889,11 +889,18 @@
     "Year": 2012
   },
   {
-    "name": "Ngee Ann City",
-    "Latitude": 1.3026,
-    "Longitude": 103.8346,
-    "Stores": 166,
-    "Year": 1993
+    "name": "Orchard Gateway",
+    "Latitude": 1.3005,
+    "Longitude": 103.8394,
+    "Stores": 114,
+    "Year": 2014
+  },
+  {
+    "name": "Kallang Wave Mall",
+    "Latitude": 1.3032,
+    "Longitude": 103.8729,
+    "Stores": 79,
+    "Year": 2014
   },
   {
     "name": "Junction 8 Shopping Centre",
@@ -908,13 +915,6 @@
     "Longitude": 103.8938,
     "Stores": 130,
     "Year": 1997
-  },
-  {
-    "name": "Kallang Wave Mall",
-    "Latitude": 1.3032,
-    "Longitude": 103.8729,
-    "Stores": 79,
-    "Year": 2014
   },
   {
     "name": "City Square Mall",

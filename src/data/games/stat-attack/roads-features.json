@@ -12,22 +12,34 @@
     "No. of Junctions": 0
   },
   {
-    "name": "EAST COAST PARKWAY",
-    "Total Length (km)": 17.263,
-    "No. of Bus Stops": 1,
-    "No. of Junctions": 2
-  },
-  {
     "name": "EAST PERIMETER ROAD",
     "Total Length (km)": 9.535,
     "No. of Bus Stops": 0,
     "No. of Junctions": 0
   },
   {
+    "name": "EAST COAST PARKWAY",
+    "Total Length (km)": 17.263,
+    "No. of Bus Stops": 1,
+    "No. of Junctions": 2
+  },
+  {
+    "name": "BUKIT TIMAH EXPRESSWAY",
+    "Total Length (km)": 10.738,
+    "No. of Bus Stops": 0,
+    "No. of Junctions": 2
+  },
+  {
     "name": "AYER RAJAH EXPRESSWAY",
     "Total Length (km)": 25.615,
     "No. of Bus Stops": 19,
     "No. of Junctions": 2
+  },
+  {
+    "name": "KRANJI EXPRESSWAY",
+    "Total Length (km)": 10.019,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 0
   },
   {
     "name": "CENTRAL EXPRESSWAY",
@@ -48,12 +60,6 @@
     "No. of Junctions": 14
   },
   {
-    "name": "KRANJI EXPRESSWAY",
-    "Total Length (km)": 10.019,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 0
-  },
-  {
     "name": "BUKIT TIMAH ROAD",
     "Total Length (km)": 10.562,
     "No. of Bus Stops": 28,
@@ -66,28 +72,16 @@
     "No. of Junctions": 11
   },
   {
-    "name": "SEMBAWANG ROAD",
-    "Total Length (km)": 8.395,
-    "No. of Bus Stops": 38,
-    "No. of Junctions": 76
-  },
-  {
     "name": "SOMERSET ROAD",
     "Total Length (km)": 0.42,
     "No. of Bus Stops": 1,
     "No. of Junctions": 1
   },
   {
-    "name": "BUKIT TIMAH EXPRESSWAY",
-    "Total Length (km)": 10.738,
-    "No. of Bus Stops": 0,
-    "No. of Junctions": 2
-  },
-  {
-    "name": "JALAN AHMAD IBRAHIM",
-    "Total Length (km)": 21.23,
-    "No. of Bus Stops": 32,
-    "No. of Junctions": 40
+    "name": "SEMBAWANG ROAD",
+    "Total Length (km)": 8.395,
+    "No. of Bus Stops": 38,
+    "No. of Junctions": 76
   },
   {
     "name": "TAMPINES EXPRESSWAY",
@@ -96,16 +90,22 @@
     "No. of Junctions": 4
   },
   {
+    "name": "JALAN AHMAD IBRAHIM",
+    "Total Length (km)": 21.23,
+    "No. of Bus Stops": 32,
+    "No. of Junctions": 40
+  },
+  {
     "name": "LIM CHU KANG ROAD",
     "Total Length (km)": 8.307,
     "No. of Bus Stops": 43,
     "No. of Junctions": 43
   },
   {
-    "name": "MARINA COASTAL EXPRESSWAY",
-    "Total Length (km)": 5.381,
+    "name": "BARTLEY ROAD EAST",
+    "Total Length (km)": 6.1,
     "No. of Bus Stops": 0,
-    "No. of Junctions": 0
+    "No. of Junctions": 4
   },
   {
     "name": "DELTA ROAD",
@@ -114,14 +114,8 @@
     "No. of Junctions": 7
   },
   {
-    "name": "JURONG ROAD",
-    "Total Length (km)": 5.265,
-    "No. of Bus Stops": 0,
-    "No. of Junctions": 7
-  },
-  {
-    "name": "WEST PERIMETER ROAD",
-    "Total Length (km)": 5.6,
+    "name": "MARINA COASTAL EXPRESSWAY",
+    "Total Length (km)": 5.381,
     "No. of Bus Stops": 0,
     "No. of Junctions": 0
   },
@@ -130,6 +124,12 @@
     "Total Length (km)": 7.999,
     "No. of Bus Stops": 40,
     "No. of Junctions": 20
+  },
+  {
+    "name": "WEST PERIMETER ROAD",
+    "Total Length (km)": 5.6,
+    "No. of Bus Stops": 0,
+    "No. of Junctions": 0
   },
   {
     "name": "NAPIER ROAD",
@@ -150,16 +150,16 @@
     "No. of Junctions": 47
   },
   {
-    "name": "SERANGOON ROAD",
-    "Total Length (km)": 3.399,
-    "No. of Bus Stops": 9,
-    "No. of Junctions": 71
-  },
-  {
     "name": "POTONG PASIR AVENUE 3",
     "Total Length (km)": 0.594,
     "No. of Bus Stops": 1,
     "No. of Junctions": 3
+  },
+  {
+    "name": "SERANGOON ROAD",
+    "Total Length (km)": 3.399,
+    "No. of Bus Stops": 9,
+    "No. of Junctions": 71
   },
   {
     "name": "HOLLAND ROAD",
@@ -174,22 +174,10 @@
     "No. of Junctions": 9
   },
   {
-    "name": "TEMASEK AVENUE",
-    "Total Length (km)": 0.626,
-    "No. of Bus Stops": 3,
-    "No. of Junctions": 1
-  },
-  {
     "name": "ANG MO KIO INDUSTRIAL PARK 2",
     "Total Length (km)": 6.146,
     "No. of Bus Stops": 8,
     "No. of Junctions": 58
-  },
-  {
-    "name": "BARTLEY ROAD EAST",
-    "Total Length (km)": 6.1,
-    "No. of Bus Stops": 0,
-    "No. of Junctions": 4
   },
   {
     "name": "CROSS STREET",
@@ -198,10 +186,16 @@
     "No. of Junctions": 13
   },
   {
-    "name": "PASIR PANJANG ROAD",
-    "Total Length (km)": 8.176,
-    "No. of Bus Stops": 32,
-    "No. of Junctions": 43
+    "name": "TEMASEK AVENUE",
+    "Total Length (km)": 0.626,
+    "No. of Bus Stops": 3,
+    "No. of Junctions": 1
+  },
+  {
+    "name": "JURONG ROAD",
+    "Total Length (km)": 5.265,
+    "No. of Bus Stops": 0,
+    "No. of Junctions": 7
   },
   {
     "name": "DUNEARN ROAD",
@@ -228,6 +222,12 @@
     "No. of Junctions": 22
   },
   {
+    "name": "PASIR PANJANG ROAD",
+    "Total Length (km)": 8.176,
+    "No. of Bus Stops": 32,
+    "No. of Junctions": 43
+  },
+  {
     "name": "THOMSON ROAD",
     "Total Length (km)": 4.541,
     "No. of Bus Stops": 22,
@@ -246,10 +246,10 @@
     "No. of Junctions": 36
   },
   {
-    "name": "UPPER BUKIT TIMAH ROAD",
-    "Total Length (km)": 5.585,
+    "name": "PIONEER ROAD",
+    "Total Length (km)": 8.842,
     "No. of Bus Stops": 30,
-    "No. of Junctions": 43
+    "No. of Junctions": 35
   },
   {
     "name": "BALESTIER ROAD",
@@ -270,28 +270,34 @@
     "No. of Junctions": 16
   },
   {
-    "name": "GHIM MOH ROAD",
-    "Total Length (km)": 0.934,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 2
-  },
-  {
     "name": "ANSON ROAD",
     "Total Length (km)": 0.747,
     "No. of Bus Stops": 3,
     "No. of Junctions": 10
   },
   {
-    "name": "PIONEER ROAD",
-    "Total Length (km)": 8.842,
+    "name": "UPPER BUKIT TIMAH ROAD",
+    "Total Length (km)": 5.585,
     "No. of Bus Stops": 30,
-    "No. of Junctions": 35
+    "No. of Junctions": 43
   },
   {
     "name": "CECIL STREET",
     "Total Length (km)": 0.822,
     "No. of Bus Stops": 2,
     "No. of Junctions": 13
+  },
+  {
+    "name": "TOA PAYOH EAST",
+    "Total Length (km)": 0.895,
+    "No. of Bus Stops": 4,
+    "No. of Junctions": 2
+  },
+  {
+    "name": "QUEEN STREET",
+    "Total Length (km)": 1.082,
+    "No. of Bus Stops": 1,
+    "No. of Junctions": 9
   },
   {
     "name": "RIVER VALLEY ROAD",
@@ -312,16 +318,28 @@
     "No. of Junctions": 8
   },
   {
-    "name": "FERNVALE ROAD",
-    "Total Length (km)": 1.012,
-    "No. of Bus Stops": 3,
-    "No. of Junctions": 2
+    "name": "TANAH MERAH COAST ROAD",
+    "Total Length (km)": 7.722,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 4
   },
   {
     "name": "SIXTH AVENUE",
     "Total Length (km)": 2.608,
     "No. of Bus Stops": 13,
     "No. of Junctions": 45
+  },
+  {
+    "name": "GHIM MOH ROAD",
+    "Total Length (km)": 0.934,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 2
+  },
+  {
+    "name": "BEDOK RESERVOIR ROAD",
+    "Total Length (km)": 5.695,
+    "No. of Bus Stops": 28,
+    "No. of Junctions": 25
   },
   {
     "name": "WEST COAST ROAD",
@@ -336,28 +354,10 @@
     "No. of Junctions": 44
   },
   {
-    "name": "TOA PAYOH EAST",
-    "Total Length (km)": 0.895,
-    "No. of Bus Stops": 4,
-    "No. of Junctions": 2
-  },
-  {
-    "name": "QUEEN STREET",
-    "Total Length (km)": 1.082,
-    "No. of Bus Stops": 1,
-    "No. of Junctions": 9
-  },
-  {
     "name": "CHANGI COAST ROAD",
     "Total Length (km)": 8.165,
     "No. of Bus Stops": 2,
     "No. of Junctions": 4
-  },
-  {
-    "name": "OLD CHOA CHU KANG ROAD",
-    "Total Length (km)": 6.823,
-    "No. of Bus Stops": 25,
-    "No. of Junctions": 9
   },
   {
     "name": "NEWTON ROAD",
@@ -366,22 +366,28 @@
     "No. of Junctions": 10
   },
   {
+    "name": "OLD CHOA CHU KANG ROAD",
+    "Total Length (km)": 6.823,
+    "No. of Bus Stops": 25,
+    "No. of Junctions": 9
+  },
+  {
+    "name": "FERNVALE ROAD",
+    "Total Length (km)": 1.012,
+    "No. of Bus Stops": 3,
+    "No. of Junctions": 2
+  },
+  {
     "name": "FORT ROAD",
     "Total Length (km)": 0.876,
     "No. of Bus Stops": 2,
     "No. of Junctions": 9
   },
   {
-    "name": "ROCHOR CANAL ROAD",
-    "Total Length (km)": 1.183,
+    "name": "MEDIA CIRCLE",
+    "Total Length (km)": 0.938,
     "No. of Bus Stops": 1,
-    "No. of Junctions": 12
-  },
-  {
-    "name": "BEDOK RESERVOIR ROAD",
-    "Total Length (km)": 5.695,
-    "No. of Bus Stops": 28,
-    "No. of Junctions": 25
+    "No. of Junctions": 8
   },
   {
     "name": "LENGKOK BAHRU",
@@ -396,28 +402,10 @@
     "No. of Junctions": 34
   },
   {
-    "name": "TANAH MERAH COAST ROAD",
-    "Total Length (km)": 7.722,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 4
-  },
-  {
-    "name": "LENTOR AVENUE",
-    "Total Length (km)": 3.271,
-    "No. of Bus Stops": 12,
-    "No. of Junctions": 4
-  },
-  {
-    "name": "CRANWELL ROAD",
-    "Total Length (km)": 1.642,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 25
-  },
-  {
-    "name": "GENTING LANE",
-    "Total Length (km)": 0.96,
+    "name": "ROCHOR CANAL ROAD",
+    "Total Length (km)": 1.183,
     "No. of Bus Stops": 1,
-    "No. of Junctions": 6
+    "No. of Junctions": 12
   },
   {
     "name": "KAKI BUKIT AVENUE 3",
@@ -426,34 +414,10 @@
     "No. of Junctions": 8
   },
   {
-    "name": "MEDIA CIRCLE",
-    "Total Length (km)": 0.938,
+    "name": "GENTING LANE",
+    "Total Length (km)": 0.96,
     "No. of Bus Stops": 1,
-    "No. of Junctions": 8
-  },
-  {
-    "name": "SIGLAP ROAD",
-    "Total Length (km)": 1.99,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 38
-  },
-  {
-    "name": "ULU PANDAN ROAD",
-    "Total Length (km)": 1.168,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 4
-  },
-  {
-    "name": "BURGHLEY DRIVE",
-    "Total Length (km)": 0.957,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 14
-  },
-  {
-    "name": "COMMONWEALTH AVENUE WEST",
-    "Total Length (km)": 4.734,
-    "No. of Bus Stops": 22,
-    "No. of Junctions": 25
+    "No. of Junctions": 6
   },
   {
     "name": "ALEXANDRA ROAD",
@@ -468,16 +432,28 @@
     "No. of Junctions": 38
   },
   {
-    "name": "EDGEFIELD PLAINS",
-    "Total Length (km)": 1.36,
-    "No. of Bus Stops": 9,
-    "No. of Junctions": 4
+    "name": "BURGHLEY DRIVE",
+    "Total Length (km)": 0.957,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 14
   },
   {
-    "name": "TEMBELING ROAD",
-    "Total Length (km)": 1.385,
+    "name": "SIGLAP ROAD",
+    "Total Length (km)": 1.99,
+    "No. of Bus Stops": 8,
+    "No. of Junctions": 38
+  },
+  {
+    "name": "COMMONWEALTH AVENUE WEST",
+    "Total Length (km)": 4.734,
+    "No. of Bus Stops": 22,
+    "No. of Junctions": 25
+  },
+  {
+    "name": "CHIN SWEE ROAD",
+    "Total Length (km)": 1.781,
     "No. of Bus Stops": 2,
-    "No. of Junctions": 12
+    "No. of Junctions": 10
   },
   {
     "name": "NEIL ROAD",
@@ -486,10 +462,10 @@
     "No. of Junctions": 16
   },
   {
-    "name": "SUNGEI TENGAH ROAD",
-    "Total Length (km)": 4.767,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 15
+    "name": "LENTOR AVENUE",
+    "Total Length (km)": 3.271,
+    "No. of Bus Stops": 12,
+    "No. of Junctions": 4
   },
   {
     "name": "STILL ROAD",
@@ -498,22 +474,10 @@
     "No. of Junctions": 27
   },
   {
-    "name": "CORPORATION ROAD",
-    "Total Length (km)": 3.423,
-    "No. of Bus Stops": 19,
-    "No. of Junctions": 22
-  },
-  {
-    "name": "VICTORIA STREET",
-    "Total Length (km)": 1.809,
-    "No. of Bus Stops": 13,
-    "No. of Junctions": 34
-  },
-  {
-    "name": "BRAS BASAH ROAD",
-    "Total Length (km)": 0.997,
-    "No. of Bus Stops": 3,
-    "No. of Junctions": 11
+    "name": "NEO TIEW CRESCENT",
+    "Total Length (km)": 2.452,
+    "No. of Bus Stops": 4,
+    "No. of Junctions": 4
   },
   {
     "name": "BRADDELL ROAD",
@@ -522,46 +486,46 @@
     "No. of Junctions": 35
   },
   {
+    "name": "CRANWELL ROAD",
+    "Total Length (km)": 1.642,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 25
+  },
+  {
+    "name": "ULU PANDAN ROAD",
+    "Total Length (km)": 1.168,
+    "No. of Bus Stops": 8,
+    "No. of Junctions": 4
+  },
+  {
     "name": "MARINE PARADE ROAD",
     "Total Length (km)": 4.579,
     "No. of Bus Stops": 19,
     "No. of Junctions": 32
   },
   {
-    "name": "YISHUN AVENUE 1",
-    "Total Length (km)": 5.761,
-    "No. of Bus Stops": 18,
-    "No. of Junctions": 13
+    "name": "BRAS BASAH ROAD",
+    "Total Length (km)": 0.997,
+    "No. of Bus Stops": 3,
+    "No. of Junctions": 11
   },
   {
-    "name": "FRANKEL AVENUE",
-    "Total Length (km)": 1.198,
-    "No. of Bus Stops": 10,
-    "No. of Junctions": 24
+    "name": "VICTORIA STREET",
+    "Total Length (km)": 1.809,
+    "No. of Bus Stops": 13,
+    "No. of Junctions": 34
   },
   {
-    "name": "MIDDLE ROAD",
-    "Total Length (km)": 1.038,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 12
-  },
-  {
-    "name": "NEO TIEW CRESCENT",
-    "Total Length (km)": 2.452,
-    "No. of Bus Stops": 4,
+    "name": "EDGEFIELD PLAINS",
+    "Total Length (km)": 1.36,
+    "No. of Bus Stops": 9,
     "No. of Junctions": 4
   },
   {
-    "name": "LOYANG AVENUE",
-    "Total Length (km)": 4.69,
-    "No. of Bus Stops": 18,
-    "No. of Junctions": 18
-  },
-  {
-    "name": "BUANGKOK DRIVE",
-    "Total Length (km)": 1.723,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 6
+    "name": "CORPORATION ROAD",
+    "Total Length (km)": 3.423,
+    "No. of Bus Stops": 19,
+    "No. of Junctions": 22
   },
   {
     "name": "UBI AVENUE 2",
@@ -570,10 +534,10 @@
     "No. of Junctions": 6
   },
   {
-    "name": "CASHEW ROAD",
-    "Total Length (km)": 1.109,
-    "No. of Bus Stops": 4,
-    "No. of Junctions": 12
+    "name": "FRANKEL AVENUE",
+    "Total Length (km)": 1.198,
+    "No. of Bus Stops": 10,
+    "No. of Junctions": 24
   },
   {
     "name": "PORTSDOWN ROAD",
@@ -582,10 +546,58 @@
     "No. of Junctions": 34
   },
   {
+    "name": "MIDDLE ROAD",
+    "Total Length (km)": 1.038,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 12
+  },
+  {
     "name": "PUNGGOL ROAD",
     "Total Length (km)": 5.563,
     "No. of Bus Stops": 18,
     "No. of Junctions": 22
+  },
+  {
+    "name": "SUNGEI TENGAH ROAD",
+    "Total Length (km)": 4.767,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 15
+  },
+  {
+    "name": "CASHEW ROAD",
+    "Total Length (km)": 1.109,
+    "No. of Bus Stops": 4,
+    "No. of Junctions": 12
+  },
+  {
+    "name": "BUANGKOK DRIVE",
+    "Total Length (km)": 1.723,
+    "No. of Bus Stops": 8,
+    "No. of Junctions": 6
+  },
+  {
+    "name": "SIN MING DRIVE",
+    "Total Length (km)": 1.898,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 19
+  },
+  {
+    "name": "YISHUN AVENUE 1",
+    "Total Length (km)": 5.761,
+    "No. of Bus Stops": 18,
+    "No. of Junctions": 13
+  },
+  {
+    "name": "TEMBELING ROAD",
+    "Total Length (km)": 1.385,
+    "No. of Bus Stops": 2,
+    "No. of Junctions": 12
+  },
+  {
+    "name": "LOYANG AVENUE",
+    "Total Length (km)": 4.69,
+    "No. of Bus Stops": 18,
+    "No. of Junctions": 18
   },
   {
     "name": "ORCHARD ROAD",
@@ -600,16 +612,10 @@
     "No. of Junctions": 6
   },
   {
-    "name": "SIN MING DRIVE",
-    "Total Length (km)": 1.898,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 19
-  },
-  {
-    "name": "CHIN SWEE ROAD",
-    "Total Length (km)": 1.781,
-    "No. of Bus Stops": 2,
-    "No. of Junctions": 10
+    "name": "BEACH ROAD",
+    "Total Length (km)": 1.927,
+    "No. of Bus Stops": 12,
+    "No. of Junctions": 30
   },
   {
     "name": "STEVENS ROAD",
@@ -618,10 +624,10 @@
     "No. of Junctions": 31
   },
   {
-    "name": "BEACH ROAD",
-    "Total Length (km)": 1.927,
-    "No. of Bus Stops": 12,
-    "No. of Junctions": 30
+    "name": "SHIPYARD ROAD",
+    "Total Length (km)": 2.716,
+    "No. of Bus Stops": 8,
+    "No. of Junctions": 7
   },
   {
     "name": "TUAS SOUTH AVENUE 5",
@@ -630,16 +636,22 @@
     "No. of Junctions": 23
   },
   {
+    "name": "TUAS SOUTH AVENUE 3",
+    "Total Length (km)": 5.863,
+    "No. of Bus Stops": 16,
+    "No. of Junctions": 31
+  },
+  {
     "name": "SENGKANG EAST WAY",
     "Total Length (km)": 2.447,
     "No. of Bus Stops": 16,
     "No. of Junctions": 18
   },
   {
-    "name": "TUAS SOUTH AVENUE 3",
-    "Total Length (km)": 5.863,
-    "No. of Bus Stops": 16,
-    "No. of Junctions": 31
+    "name": "LOK YANG WAY",
+    "Total Length (km)": 1.362,
+    "No. of Bus Stops": 10,
+    "No. of Junctions": 10
   },
   {
     "name": "MARGARET DRIVE",
@@ -654,9 +666,33 @@
     "No. of Junctions": 7
   },
   {
-    "name": "LOK YANG WAY",
-    "Total Length (km)": 1.362,
-    "No. of Bus Stops": 10,
+    "name": "MARYMOUNT ROAD",
+    "Total Length (km)": 2.973,
+    "No. of Bus Stops": 14,
+    "No. of Junctions": 12
+  },
+  {
+    "name": "ADAM ROAD",
+    "Total Length (km)": 1.625,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 23
+  },
+  {
+    "name": "ELIAS ROAD",
+    "Total Length (km)": 1.554,
+    "No. of Bus Stops": 12,
+    "No. of Junctions": 16
+  },
+  {
+    "name": "AIRPORT ROAD",
+    "Total Length (km)": 2.834,
+    "No. of Bus Stops": 14,
+    "No. of Junctions": 13
+  },
+  {
+    "name": "MARSILING ROAD",
+    "Total Length (km)": 1.371,
+    "No. of Bus Stops": 8,
     "No. of Junctions": 10
   },
   {
@@ -666,52 +702,10 @@
     "No. of Junctions": 7
   },
   {
-    "name": "MARSILING ROAD",
-    "Total Length (km)": 1.371,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 10
-  },
-  {
-    "name": "MARYMOUNT ROAD",
-    "Total Length (km)": 2.973,
-    "No. of Bus Stops": 14,
-    "No. of Junctions": 12
-  },
-  {
-    "name": "AIRPORT ROAD",
-    "Total Length (km)": 2.834,
-    "No. of Bus Stops": 14,
-    "No. of Junctions": 13
-  },
-  {
     "name": "ZION ROAD",
     "Total Length (km)": 1.542,
     "No. of Bus Stops": 4,
     "No. of Junctions": 7
-  },
-  {
-    "name": "ELIAS ROAD",
-    "Total Length (km)": 1.554,
-    "No. of Bus Stops": 12,
-    "No. of Junctions": 16
-  },
-  {
-    "name": "SHIPYARD ROAD",
-    "Total Length (km)": 2.716,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 7
-  },
-  {
-    "name": "ADAM ROAD",
-    "Total Length (km)": 1.625,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 23
-  },
-  {
-    "name": "KAMPONG BAHRU ROAD",
-    "Total Length (km)": 2.191,
-    "No. of Bus Stops": 10,
-    "No. of Junctions": 23
   },
   {
     "name": "CANBERRA LINK",
@@ -720,10 +714,10 @@
     "No. of Junctions": 9
   },
   {
-    "name": "BRICKLAND ROAD",
-    "Total Length (km)": 2.12,
-    "No. of Bus Stops": 8,
-    "No. of Junctions": 8
+    "name": "CIRCUIT ROAD",
+    "Total Length (km)": 1.487,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 13
   },
   {
     "name": "DUNMAN ROAD",
@@ -732,15 +726,21 @@
     "No. of Junctions": 20
   },
   {
-    "name": "CIRCUIT ROAD",
-    "Total Length (km)": 1.487,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 13
+    "name": "BRICKLAND ROAD",
+    "Total Length (km)": 2.12,
+    "No. of Bus Stops": 8,
+    "No. of Junctions": 8
   },
   {
     "name": "GRANGE ROAD",
     "Total Length (km)": 2.374,
     "No. of Bus Stops": 8,
+    "No. of Junctions": 23
+  },
+  {
+    "name": "KAMPONG BAHRU ROAD",
+    "Total Length (km)": 2.191,
+    "No. of Bus Stops": 10,
     "No. of Junctions": 23
   },
   {
@@ -756,34 +756,22 @@
     "No. of Junctions": 13
   },
   {
-    "name": "HILLVIEW AVENUE",
-    "Total Length (km)": 2.098,
-    "No. of Bus Stops": 11,
-    "No. of Junctions": 21
-  },
-  {
     "name": "HAVELOCK ROAD",
     "Total Length (km)": 2.339,
     "No. of Bus Stops": 7,
     "No. of Junctions": 22
   },
   {
-    "name": "BAYFRONT AVENUE",
-    "Total Length (km)": 1.828,
-    "No. of Bus Stops": 4,
-    "No. of Junctions": 9
+    "name": "HILLVIEW AVENUE",
+    "Total Length (km)": 2.098,
+    "No. of Bus Stops": 11,
+    "No. of Junctions": 21
   },
   {
     "name": "LOWER DELTA ROAD",
     "Total Length (km)": 2.522,
     "No. of Bus Stops": 11,
     "No. of Junctions": 19
-  },
-  {
-    "name": "NORTH BUONA VISTA ROAD",
-    "Total Length (km)": 2.921,
-    "No. of Bus Stops": 5,
-    "No. of Junctions": 18
   },
   {
     "name": "DEPOT ROAD",
@@ -798,22 +786,34 @@
     "No. of Junctions": 16
   },
   {
+    "name": "BAYFRONT AVENUE",
+    "Total Length (km)": 1.828,
+    "No. of Bus Stops": 4,
+    "No. of Junctions": 9
+  },
+  {
     "name": "NANYANG DRIVE",
     "Total Length (km)": 3.938,
     "No. of Bus Stops": 9,
     "No. of Junctions": 21
   },
   {
-    "name": "TANJONG RHU ROAD",
-    "Total Length (km)": 2.744,
-    "No. of Bus Stops": 10,
-    "No. of Junctions": 16
-  },
-  {
     "name": "DOVER ROAD",
     "Total Length (km)": 2.215,
     "No. of Bus Stops": 10,
     "No. of Junctions": 14
+  },
+  {
+    "name": "NORTH BUONA VISTA ROAD",
+    "Total Length (km)": 2.921,
+    "No. of Bus Stops": 5,
+    "No. of Junctions": 18
+  },
+  {
+    "name": "TANJONG RHU ROAD",
+    "Total Length (km)": 2.744,
+    "No. of Bus Stops": 10,
+    "No. of Junctions": 16
   },
   {
     "name": "PENJURU ROAD",

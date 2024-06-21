@@ -1,45 +1,129 @@
 [
   {
-    "name": "One Hundred and One Dalmatians",
-    "Release Year": 1961,
-    "Duration (min)": 79,
-    "IMDB Rating": 7.3,
-    "Box Office (million $)": 144.88
+    "name": "Gone with the Wind",
+    "Release Year": 1939,
+    "Duration (min)": 238,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 198.68
   },
   {
-    "name": "Lawrence of Arabia",
-    "Release Year": 1962,
-    "Duration (min)": 218,
-    "IMDB Rating": 8.3,
-    "Box Office (million $)": 44.82
+    "name": "The Lion King",
+    "Release Year": 1994,
+    "Duration (min)": 88,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 422.78
   },
   {
-    "name": "Glitter",
-    "Release Year": 2001,
-    "Duration (min)": 104,
-    "IMDB Rating": 2.4,
-    "Box Office (million $)": 4.27
+    "name": "Jurassic Park",
+    "Release Year": 1993,
+    "Duration (min)": 127,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 402.45
   },
   {
-    "name": "The Last Airbender",
+    "name": "Shutter Island",
+    "Release Year": 2010,
+    "Duration (min)": 138,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 128.01
+  },
+  {
+    "name": "Toy Story 3",
     "Release Year": 2010,
     "Duration (min)": 103,
-    "IMDB Rating": 4.0,
-    "Box Office (million $)": 131.56
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 415.0
   },
   {
-    "name": "It's a Mad, Mad, Mad, Mad World",
-    "Release Year": 1963,
+    "name": "Dear Zachary: A Letter to a Son About His Father",
+    "Release Year": 2008,
+    "Duration (min)": 95,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 0.02
+  },
+  {
+    "name": "Swades: We, the People",
+    "Release Year": 2004,
     "Duration (min)": 210,
-    "IMDB Rating": 7.5,
-    "Box Office (million $)": 46.3
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 1.22
   },
   {
-    "name": "Bratz",
-    "Release Year": 2007,
-    "Duration (min)": 110,
-    "IMDB Rating": 3.1,
-    "Box Office (million $)": 10.01
+    "name": "Shichinin no samurai",
+    "Release Year": 1954,
+    "Duration (min)": 207,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 0.27
+  },
+  {
+    "name": "12 Angry Men",
+    "Release Year": 1957,
+    "Duration (min)": 96,
+    "IMDB Rating": 9.0,
+    "Box Office (million $)": 4.36
+  },
+  {
+    "name": "The Kid",
+    "Release Year": 1921,
+    "Duration (min)": 68,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 5.45
+  },
+  {
+    "name": "The Dark Knight",
+    "Release Year": 2008,
+    "Duration (min)": 152,
+    "IMDB Rating": 9.0,
+    "Box Office (million $)": 534.86
+  },
+  {
+    "name": "Finding Nemo",
+    "Release Year": 2003,
+    "Duration (min)": 100,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 380.84
+  },
+  {
+    "name": "Up",
+    "Release Year": 2009,
+    "Duration (min)": 96,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 293.0
+  },
+  {
+    "name": "City Lights",
+    "Release Year": 1931,
+    "Duration (min)": 87,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 0.02
+  },
+  {
+    "name": "All About Eve",
+    "Release Year": 1950,
+    "Duration (min)": 138,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 0.01
+  },
+  {
+    "name": "Pan's Labyrinth",
+    "Release Year": 2006,
+    "Duration (min)": 118,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 37.63
+  },
+  {
+    "name": "Once Upon a Time in America",
+    "Release Year": 1984,
+    "Duration (min)": 229,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 5.32
+  },
+  {
+    "name": "Modern Times",
+    "Release Year": 1936,
+    "Duration (min)": 87,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 0.16
   },
   {
     "name": "The Godfather",
@@ -49,32 +133,25 @@
     "Box Office (million $)": 134.97
   },
   {
-    "name": "Dial M for Murder",
-    "Release Year": 1954,
-    "Duration (min)": 105,
-    "IMDB Rating": 8.2,
-    "Box Office (million $)": 0.01
+    "name": "Toy Story",
+    "Release Year": 1995,
+    "Duration (min)": 81,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 191.8
   },
   {
-    "name": "Rebecca",
-    "Release Year": 1940,
-    "Duration (min)": 130,
-    "IMDB Rating": 8.1,
-    "Box Office (million $)": 4.36
+    "name": "Metropolis",
+    "Release Year": 1927,
+    "Duration (min)": 153,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 1.24
   },
   {
-    "name": "Star Wars",
-    "Release Year": 1977,
-    "Duration (min)": 121,
-    "IMDB Rating": 8.6,
-    "Box Office (million $)": 322.74
-  },
-  {
-    "name": "Gigli",
-    "Release Year": 2003,
-    "Duration (min)": 121,
-    "IMDB Rating": 2.6,
-    "Box Office (million $)": 6.07
+    "name": "Lawrence of Arabia",
+    "Release Year": 1962,
+    "Duration (min)": 218,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 44.82
   },
   {
     "name": "The Shawshank Redemption",
@@ -84,39 +161,32 @@
     "Box Office (million $)": 28.34
   },
   {
-    "name": "Norbit",
-    "Release Year": 2007,
-    "Duration (min)": 103,
-    "IMDB Rating": 4.2,
-    "Box Office (million $)": 95.67
-  },
-  {
-    "name": "Battlefield Earth",
-    "Release Year": 2000,
-    "Duration (min)": 117,
-    "IMDB Rating": 2.5,
-    "Box Office (million $)": 21.47
-  },
-  {
-    "name": "Once Upon a Time in the West",
-    "Release Year": 1968,
-    "Duration (min)": 166,
-    "IMDB Rating": 8.5,
-    "Box Office (million $)": 5.32
-  },
-  {
-    "name": "Spy Kids 3: Game Over",
-    "Release Year": 2003,
-    "Duration (min)": 84,
-    "IMDB Rating": 4.4,
-    "Box Office (million $)": 111.76
-  },
-  {
-    "name": "Il buono, il brutto, il cattivo",
-    "Release Year": 1966,
-    "Duration (min)": 161,
+    "name": "Inception",
+    "Release Year": 2010,
+    "Duration (min)": 148,
     "IMDB Rating": 8.8,
-    "Box Office (million $)": 6.1
+    "Box Office (million $)": 292.58
+  },
+  {
+    "name": "WALL\u00b7E",
+    "Release Year": 2008,
+    "Duration (min)": 98,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 223.81
+  },
+  {
+    "name": "Dial M for Murder",
+    "Release Year": 1954,
+    "Duration (min)": 105,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 0.01
+  },
+  {
+    "name": "3 Idiots",
+    "Release Year": 2009,
+    "Duration (min)": 170,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 6.53
   },
   {
     "name": "The Godfather Part II",
@@ -126,46 +196,193 @@
     "Box Office (million $)": 57.3
   },
   {
-    "name": "Catwoman",
-    "Release Year": 2004,
-    "Duration (min)": 104,
-    "IMDB Rating": 3.4,
-    "Box Office (million $)": 40.2
+    "name": "The Lord of the Rings: The Return of the King",
+    "Release Year": 2003,
+    "Duration (min)": 201,
+    "IMDB Rating": 9.0,
+    "Box Office (million $)": 377.85
   },
   {
-    "name": "Star Wars: Episode V - The Empire Strikes Back",
-    "Release Year": 1980,
-    "Duration (min)": 124,
-    "IMDB Rating": 8.7,
-    "Box Office (million $)": 290.48
-  },
-  {
-    "name": "Ultraviolet",
-    "Release Year": 2006,
+    "name": "Rash\u00f4mon",
+    "Release Year": 1950,
     "Duration (min)": 88,
-    "IMDB Rating": 4.3,
-    "Box Office (million $)": 18.5
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 0.1
   },
   {
-    "name": "Notorious",
-    "Release Year": 1946,
-    "Duration (min)": 102,
-    "IMDB Rating": 7.9,
-    "Box Office (million $)": 10.46
+    "name": "M - Eine Stadt sucht einen M\u00f6rder",
+    "Release Year": 1931,
+    "Duration (min)": 117,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 0.03
   },
   {
-    "name": "Camelot",
-    "Release Year": 1967,
+    "name": "Hauru no ugoku shiro",
+    "Release Year": 2004,
+    "Duration (min)": 119,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 4.71
+  },
+  {
+    "name": "Schindler's List",
+    "Release Year": 1993,
+    "Duration (min)": 195,
+    "IMDB Rating": 9.0,
+    "Box Office (million $)": 96.9
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "Release Year": 2002,
     "Duration (min)": 179,
-    "IMDB Rating": 6.5,
-    "Box Office (million $)": 31.1
+    "IMDB Rating": 8.8,
+    "Box Office (million $)": 342.55
   },
   {
-    "name": "Death Race 2000",
+    "name": "Taare Zameen Par",
+    "Release Year": 2007,
+    "Duration (min)": 162,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 1.22
+  },
+  {
+    "name": "The Great Escape",
+    "Release Year": 1963,
+    "Duration (min)": 172,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 12.1
+  },
+  {
+    "name": "Ikiru",
+    "Release Year": 1952,
+    "Duration (min)": 143,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 0.06
+  },
+  {
+    "name": "Inglourious Basterds",
+    "Release Year": 2009,
+    "Duration (min)": 153,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 120.54
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "Release Year": 2001,
+    "Duration (min)": 178,
+    "IMDB Rating": 8.9,
+    "Box Office (million $)": 315.54
+  },
+  {
+    "name": "Some Like It Hot",
+    "Release Year": 1959,
+    "Duration (min)": 121,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 25.0
+  },
+  {
+    "name": "Ladri di biciclette",
+    "Release Year": 1948,
+    "Duration (min)": 89,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 0.33
+  },
+  {
+    "name": "The Great Dictator",
+    "Release Year": 1940,
+    "Duration (min)": 125,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 0.29
+  },
+  {
+    "name": "The Sixth Sense",
+    "Release Year": 1999,
+    "Duration (min)": 107,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 293.51
+  },
+  {
+    "name": "Casino",
+    "Release Year": 1995,
+    "Duration (min)": 178,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 42.44
+  },
+  {
+    "name": "There Will Be Blood",
+    "Release Year": 2007,
+    "Duration (min)": 158,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 40.22
+  },
+  {
+    "name": "Forrest Gump",
+    "Release Year": 1994,
+    "Duration (min)": 142,
+    "IMDB Rating": 8.8,
+    "Box Office (million $)": 330.25
+  },
+  {
+    "name": "Star Wars",
+    "Release Year": 1977,
+    "Duration (min)": 121,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 322.74
+  },
+  {
+    "name": "No Country for Old Men",
+    "Release Year": 2007,
+    "Duration (min)": 122,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 74.28
+  },
+  {
+    "name": "The Treasure of the Sierra Madre",
+    "Release Year": 1948,
+    "Duration (min)": 126,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 5.01
+  },
+  {
+    "name": "Il buono, il brutto, il cattivo",
+    "Release Year": 1966,
+    "Duration (min)": 161,
+    "IMDB Rating": 8.8,
+    "Box Office (million $)": 6.1
+  },
+  {
+    "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Release Year": 1964,
+    "Duration (min)": 95,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 0.28
+  },
+  {
+    "name": "Monty Python and the Holy Grail",
     "Release Year": 1975,
-    "Duration (min)": 80,
-    "IMDB Rating": 6.2,
-    "Box Office (million $)": 8.0
+    "Duration (min)": 91,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 1.23
+  },
+  {
+    "name": "Oldeuboi",
+    "Release Year": 2003,
+    "Duration (min)": 101,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 0.71
+  },
+  {
+    "name": "Citizen Kane",
+    "Release Year": 1941,
+    "Duration (min)": 119,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 1.59
+  },
+  {
+    "name": "The Green Mile",
+    "Release Year": 1999,
+    "Duration (min)": 189,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 136.8
   },
   {
     "name": "Pulp Fiction",
@@ -175,74 +392,424 @@
     "Box Office (million $)": 107.93
   },
   {
-    "name": "Police Academy 3: Back in Training",
-    "Release Year": 1986,
-    "Duration (min)": 83,
-    "IMDB Rating": 5.4,
-    "Box Office (million $)": 43.58
+    "name": "Batman Begins",
+    "Release Year": 2005,
+    "Duration (min)": 140,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 206.85
   },
   {
-    "name": "Close Encounters of the Third Kind",
-    "Release Year": 1977,
-    "Duration (min)": 138,
-    "IMDB Rating": 7.6,
-    "Box Office (million $)": 132.09
+    "name": "Double Indemnity",
+    "Release Year": 1944,
+    "Duration (min)": 107,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 5.72
   },
   {
-    "name": "Batman & Robin",
-    "Release Year": 1997,
-    "Duration (min)": 125,
-    "IMDB Rating": 3.8,
-    "Box Office (million $)": 107.33
+    "name": "V for Vendetta",
+    "Release Year": 2005,
+    "Duration (min)": 132,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 70.51
   },
   {
-    "name": "Marnie",
-    "Release Year": 1964,
-    "Duration (min)": 130,
-    "IMDB Rating": 7.1,
-    "Box Office (million $)": 7.0
+    "name": "Star Wars: Episode VI - Return of the Jedi",
+    "Release Year": 1983,
+    "Duration (min)": 131,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 309.13
   },
   {
-    "name": "Mortal Kombat: Annihilation",
-    "Release Year": 1997,
-    "Duration (min)": 95,
-    "IMDB Rating": 3.6,
-    "Box Office (million $)": 35.93
+    "name": "The Lives of Others",
+    "Release Year": 2006,
+    "Duration (min)": 137,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 11.29
   },
   {
-    "name": "Cyborg",
-    "Release Year": 1989,
-    "Duration (min)": 86,
-    "IMDB Rating": 5.0,
-    "Box Office (million $)": 10.17
+    "name": "The Truman Show",
+    "Release Year": 1998,
+    "Duration (min)": 103,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 125.62
   },
   {
-    "name": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
-    "Release Year": 1991,
-    "Duration (min)": 88,
-    "IMDB Rating": 6.0,
-    "Box Office (million $)": 78.66
+    "name": "Braveheart",
+    "Release Year": 1995,
+    "Duration (min)": 178,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 75.6
   },
   {
-    "name": "Beethoven",
+    "name": "Kill Bill: Vol. 1",
+    "Release Year": 2003,
+    "Duration (min)": 111,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 70.1
+  },
+  {
+    "name": "Star Wars: Episode V - The Empire Strikes Back",
+    "Release Year": 1980,
+    "Duration (min)": 124,
+    "IMDB Rating": 8.7,
+    "Box Office (million $)": 290.48
+  },
+  {
+    "name": "Fight Club",
+    "Release Year": 1999,
+    "Duration (min)": 139,
+    "IMDB Rating": 8.8,
+    "Box Office (million $)": 37.03
+  },
+  {
+    "name": "Nuovo Cinema Paradiso",
+    "Release Year": 1988,
+    "Duration (min)": 174,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 11.99
+  },
+  {
+    "name": "Raiders of the Lost Ark",
+    "Release Year": 1981,
+    "Duration (min)": 115,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 248.16
+  },
+  {
+    "name": "Requiem for a Dream",
+    "Release Year": 2000,
+    "Duration (min)": 102,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 3.64
+  },
+  {
+    "name": "Unforgiven",
     "Release Year": 1992,
-    "Duration (min)": 87,
-    "IMDB Rating": 5.7,
-    "Box Office (million $)": 57.11
+    "Duration (min)": 130,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 101.16
   },
   {
-    "name": "Speed 2: Cruise Control",
+    "name": "Der Untergang",
+    "Release Year": 2004,
+    "Duration (min)": 156,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 5.51
+  },
+  {
+    "name": "The Departed",
+    "Release Year": 2006,
+    "Duration (min)": 151,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 132.38
+  },
+  {
+    "name": "Rear Window",
+    "Release Year": 1954,
+    "Duration (min)": 112,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 36.76
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "Release Year": 2004,
+    "Duration (min)": 108,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 34.4
+  },
+  {
+    "name": "Goodfellas",
+    "Release Year": 1990,
+    "Duration (min)": 145,
+    "IMDB Rating": 8.7,
+    "Box Office (million $)": 46.84
+  },
+  {
+    "name": "Once Upon a Time in the West",
+    "Release Year": 1968,
+    "Duration (min)": 166,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 5.32
+  },
+  {
+    "name": "Singin' in the Rain",
+    "Release Year": 1952,
+    "Duration (min)": 103,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 8.82
+  },
+  {
+    "name": "Back to the Future",
+    "Release Year": 1985,
+    "Duration (min)": 116,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 210.61
+  },
+  {
+    "name": "The Prestige",
+    "Release Year": 2006,
+    "Duration (min)": 130,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 53.09
+  },
+  {
+    "name": "Scarface",
+    "Release Year": 1983,
+    "Duration (min)": 170,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 45.6
+  },
+  {
+    "name": "La vita \u00e8 bella",
     "Release Year": 1997,
-    "Duration (min)": 121,
-    "IMDB Rating": 3.9,
-    "Box Office (million $)": 48.61
+    "Duration (min)": 116,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 57.6
   },
   {
-    "name": "Superman IV: The Quest for Peace",
-    "Release Year": 1987,
-    "Duration (min)": 90,
-    "IMDB Rating": 3.7,
-    "Box Office (million $)": 15.68
+    "name": "Heat",
+    "Release Year": 1995,
+    "Duration (min)": 170,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 67.44
+  },
+  {
+    "name": "The Matrix",
+    "Release Year": 1999,
+    "Duration (min)": 136,
+    "IMDB Rating": 8.7,
+    "Box Office (million $)": 171.48
+  },
+  {
+    "name": "Snatch",
+    "Release Year": 2000,
+    "Duration (min)": 104,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 30.33
+  },
+  {
+    "name": "Saving Private Ryan",
+    "Release Year": 1998,
+    "Duration (min)": 169,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 216.54
+  },
+  {
+    "name": "Terminator 2: Judgment Day",
+    "Release Year": 1991,
+    "Duration (min)": 137,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 204.84
+  },
+  {
+    "name": "Indiana Jones and the Last Crusade",
+    "Release Year": 1989,
+    "Duration (min)": 127,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 197.17
+  },
+  {
+    "name": "Mononoke-hime",
+    "Release Year": 1997,
+    "Duration (min)": 134,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 2.38
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "Release Year": 1991,
+    "Duration (min)": 118,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 130.74
+  },
+  {
+    "name": "The Usual Suspects",
+    "Release Year": 1995,
+    "Duration (min)": 106,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 23.34
+  },
+  {
+    "name": "A Beautiful Mind",
+    "Release Year": 2001,
+    "Duration (min)": 135,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 170.74
+  },
+  {
+    "name": "Witness for the Prosecution",
+    "Release Year": 1957,
+    "Duration (min)": 116,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 8.18
+  },
+  {
+    "name": "Se7en",
+    "Release Year": 1995,
+    "Duration (min)": 127,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 100.13
+  },
+  {
+    "name": "Vertigo",
+    "Release Year": 1958,
+    "Duration (min)": 128,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 3.2
+  },
+  {
+    "name": "Cidade de Deus",
+    "Release Year": 2002,
+    "Duration (min)": 130,
+    "IMDB Rating": 8.6,
+    "Box Office (million $)": 7.56
+  },
+  {
+    "name": "Psycho",
+    "Release Year": 1960,
+    "Duration (min)": 109,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 32.0
+  },
+  {
+    "name": "Amadeus",
+    "Release Year": 1984,
+    "Duration (min)": 160,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 51.97
+  },
+  {
+    "name": "North by Northwest",
+    "Release Year": 1959,
+    "Duration (min)": 136,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 13.28
+  },
+  {
+    "name": "L\u00e9on",
+    "Release Year": 1994,
+    "Duration (min)": 110,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 19.5
+  },
+  {
+    "name": "The Sting",
+    "Release Year": 1973,
+    "Duration (min)": 129,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 159.6
+  },
+  {
+    "name": "Taxi Driver",
+    "Release Year": 1976,
+    "Duration (min)": 114,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 28.26
+  },
+  {
+    "name": "Gladiator",
+    "Release Year": 2000,
+    "Duration (min)": 155,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 187.71
+  },
+  {
+    "name": "The Apartment",
+    "Release Year": 1960,
+    "Duration (min)": 125,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 18.6
+  },
+  {
+    "name": "2001: A Space Odyssey",
+    "Release Year": 1968,
+    "Duration (min)": 149,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 56.95
+  },
+  {
+    "name": "The Pianist",
+    "Release Year": 2002,
+    "Duration (min)": 150,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 32.57
+  },
+  {
+    "name": "Memento",
+    "Release Year": 2000,
+    "Duration (min)": 113,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 25.54
+  },
+  {
+    "name": "The Thing",
+    "Release Year": 1982,
+    "Duration (min)": 109,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 13.78
+  },
+  {
+    "name": "Die Hard",
+    "Release Year": 1988,
+    "Duration (min)": 132,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 83.01
+  },
+  {
+    "name": "Good Will Hunting",
+    "Release Year": 1997,
+    "Duration (min)": 126,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 138.43
+  },
+  {
+    "name": "Per qualche dollaro in pi\u00f9",
+    "Release Year": 1965,
+    "Duration (min)": 132,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 15.0
+  },
+  {
+    "name": "Le fabuleux destin d'Am\u00e9lie Poulain",
+    "Release Year": 2001,
+    "Duration (min)": 122,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 33.23
+  },
+  {
+    "name": "Das Boot",
+    "Release Year": 1981,
+    "Duration (min)": 149,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 11.49
+  },
+  {
+    "name": "A Clockwork Orange",
+    "Release Year": 1971,
+    "Duration (min)": 136,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 6.21
+  },
+  {
+    "name": "L.A. Confidential",
+    "Release Year": 1997,
+    "Duration (min)": 138,
+    "IMDB Rating": 8.2,
+    "Box Office (million $)": 64.62
+  },
+  {
+    "name": "Alien",
+    "Release Year": 1979,
+    "Duration (min)": 117,
+    "IMDB Rating": 8.5,
+    "Box Office (million $)": 78.9
+  },
+  {
+    "name": "American Beauty",
+    "Release Year": 1999,
+    "Duration (min)": 122,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 130.1
   },
   {
     "name": "Apocalypse Now",
@@ -252,164 +819,24 @@
     "Box Office (million $)": 83.47
   },
   {
-    "name": "I Still Know What You Did Last Summer",
-    "Release Year": 1998,
-    "Duration (min)": 100,
-    "IMDB Rating": 4.7,
-    "Box Office (million $)": 40.0
-  },
-  {
-    "name": "Home Alone 3",
-    "Release Year": 1997,
-    "Duration (min)": 102,
-    "IMDB Rating": 4.6,
-    "Box Office (million $)": 30.88
-  },
-  {
-    "name": "Leprechaun",
-    "Release Year": 1992,
-    "Duration (min)": 92,
-    "IMDB Rating": 4.8,
-    "Box Office (million $)": 8.56
-  },
-  {
-    "name": "Saturday Night Fever",
-    "Release Year": 1977,
-    "Duration (min)": 118,
-    "IMDB Rating": 6.8,
-    "Box Office (million $)": 94.21
-  },
-  {
-    "name": "Cabaret",
-    "Release Year": 1972,
-    "Duration (min)": 124,
-    "IMDB Rating": 7.8,
-    "Box Office (million $)": 42.77
-  },
-  {
-    "name": "Street Fighter",
-    "Release Year": 1994,
-    "Duration (min)": 102,
-    "IMDB Rating": 4.1,
-    "Box Office (million $)": 33.42
-  },
-  {
-    "name": "Spawn",
-    "Release Year": 1997,
-    "Duration (min)": 96,
-    "IMDB Rating": 5.2,
-    "Box Office (million $)": 54.97
-  },
-  {
-    "name": "Showgirls",
-    "Release Year": 1995,
-    "Duration (min)": 128,
-    "IMDB Rating": 5.1,
-    "Box Office (million $)": 20.3
-  },
-  {
-    "name": "Cujo",
-    "Release Year": 1983,
-    "Duration (min)": 93,
-    "IMDB Rating": 6.1,
-    "Box Office (million $)": 21.2
-  },
-  {
-    "name": "Mighty Morphin Power Rangers: The Movie",
-    "Release Year": 1995,
-    "Duration (min)": 95,
-    "IMDB Rating": 5.3,
-    "Box Office (million $)": 38.19
-  },
-  {
-    "name": "Live and Let Die",
-    "Release Year": 1973,
-    "Duration (min)": 121,
-    "IMDB Rating": 6.7,
-    "Box Office (million $)": 35.38
-  },
-  {
-    "name": "Judge Dredd",
-    "Release Year": 1995,
-    "Duration (min)": 96,
-    "IMDB Rating": 5.6,
-    "Box Office (million $)": 34.69
-  },
-  {
-    "name": "Cocktail",
-    "Release Year": 1988,
-    "Duration (min)": 104,
-    "IMDB Rating": 5.9,
-    "Box Office (million $)": 78.22
-  },
-  {
-    "name": "Grease 2",
-    "Release Year": 1982,
-    "Duration (min)": 115,
-    "IMDB Rating": 4.5,
-    "Box Office (million $)": 15.17
-  },
-  {
-    "name": "The Spy Who Loved Me",
-    "Release Year": 1977,
-    "Duration (min)": 125,
-    "IMDB Rating": 7.0,
-    "Box Office (million $)": 46.8
-  },
-  {
-    "name": "Ordinary People",
+    "name": "The Shining",
     "Release Year": 1980,
-    "Duration (min)": 124,
-    "IMDB Rating": 7.7,
-    "Box Office (million $)": 54.8
+    "Duration (min)": 146,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 44.02
   },
   {
-    "name": "Friday the 13th",
-    "Release Year": 1980,
-    "Duration (min)": 95,
-    "IMDB Rating": 6.4,
-    "Box Office (million $)": 39.75
-  },
-  {
-    "name": "Under Siege 2: Dark Territory",
-    "Release Year": 1995,
-    "Duration (min)": 100,
-    "IMDB Rating": 5.5,
-    "Box Office (million $)": 50.02
-  },
-  {
-    "name": "The Blue Lagoon",
-    "Release Year": 1980,
-    "Duration (min)": 104,
-    "IMDB Rating": 5.8,
-    "Box Office (million $)": 58.85
-  },
-  {
-    "name": "Splash",
-    "Release Year": 1983,
-    "Duration (min)": 111,
-    "IMDB Rating": 6.3,
-    "Box Office (million $)": 62.1
-  },
-  {
-    "name": "The Running Man",
+    "name": "Full Metal Jacket",
     "Release Year": 1987,
-    "Duration (min)": 101,
-    "IMDB Rating": 6.6,
-    "Box Office (million $)": 38.12
+    "Duration (min)": 116,
+    "IMDB Rating": 8.3,
+    "Box Office (million $)": 46.36
   },
   {
-    "name": "Endless Love",
-    "Release Year": 1981,
-    "Duration (min)": 116,
-    "IMDB Rating": 4.9,
-    "Box Office (million $)": 31.18
-  },
-  {
-    "name": "Time Bandits",
-    "Release Year": 1981,
-    "Duration (min)": 116,
-    "IMDB Rating": 6.9,
-    "Box Office (million $)": 42.37
+    "name": "Aliens",
+    "Release Year": 1986,
+    "Duration (min)": 137,
+    "IMDB Rating": 8.4,
+    "Box Office (million $)": 85.16
   }
 ]

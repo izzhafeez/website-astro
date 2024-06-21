@@ -7,18 +7,25 @@
     "Land Area (km2)": 27.91
   },
   {
-    "name": "Murai",
-    "Longitude": 103.69,
-    "Latitude": 1.383,
-    "Population": 620,
-    "Land Area (km2)": 69.04
+    "name": "Plab",
+    "Longitude": 103.911,
+    "Latitude": 1.358,
+    "Population": 0,
+    "Land Area (km2)": 7.11
   },
   {
-    "name": "Sentosa",
-    "Longitude": 103.83,
-    "Latitude": 1.25,
-    "Population": 2280,
-    "Land Area (km2)": 4.96
+    "name": "Sudong",
+    "Longitude": 103.725,
+    "Latitude": 1.193,
+    "Population": 0,
+    "Land Area (km2)": 4.24
+  },
+  {
+    "name": "Yunnan",
+    "Longitude": 103.695,
+    "Latitude": 1.345,
+    "Population": 67050,
+    "Land Area (km2)": 2.22
   },
   {
     "name": "Changi Airport",
@@ -28,32 +35,18 @@
     "Land Area (km2)": 35.93
   },
   {
-    "name": "Jurong West Central",
-    "Longitude": 103.702,
-    "Latitude": 1.34,
-    "Population": 63060,
-    "Land Area (km2)": 1.41
+    "name": "Sentosa",
+    "Longitude": 103.83,
+    "Latitude": 1.25,
+    "Population": 2280,
+    "Land Area (km2)": 4.96
   },
   {
-    "name": "Pulau Seletar",
-    "Longitude": 103.865,
-    "Latitude": 1.444,
+    "name": "Simpang South",
+    "Longitude": 103.856,
+    "Latitude": 1.434,
     "Population": 0,
-    "Land Area (km2)": 1.62
-  },
-  {
-    "name": "City Terminals",
-    "Longitude": 103.837,
-    "Latitude": 1.265,
-    "Population": 0,
-    "Land Area (km2)": 3.48
-  },
-  {
-    "name": "Southern Group",
-    "Longitude": 103.85,
-    "Latitude": 1.228,
-    "Population": 0,
-    "Land Area (km2)": 2.22
+    "Land Area (km2)": 2.16
   },
   {
     "name": "Changi Bay",
@@ -63,130 +56,11 @@
     "Land Area (km2)": 1.99
   },
   {
-    "name": "Tampines East",
-    "Longitude": 103.951,
-    "Latitude": 1.354,
-    "Population": 126550,
-    "Land Area (km2)": 4.38
-  },
-  {
-    "name": "Senoko South",
-    "Longitude": 103.808,
-    "Latitude": 1.453,
+    "name": "Reservoir View",
+    "Longitude": 103.747,
+    "Latitude": 1.432,
     "Population": 0,
-    "Land Area (km2)": 1.76
-  },
-  {
-    "name": "Gul Basin",
-    "Longitude": 103.675,
-    "Latitude": 1.303,
-    "Population": 0,
-    "Land Area (km2)": 1.78
-  },
-  {
-    "name": "Mandai Estate",
-    "Longitude": 103.825,
-    "Latitude": 1.427,
-    "Population": 2060,
-    "Land Area (km2)": 0.14
-  },
-  {
-    "name": "Bedok North",
-    "Longitude": 103.936,
-    "Latitude": 1.33,
-    "Population": 82810,
-    "Land Area (km2)": 3.23
-  },
-  {
-    "name": "Phillip",
-    "Longitude": 103.849,
-    "Latitude": 1.285,
-    "Population": 0,
-    "Land Area (km2)": 0.04
-  },
-  {
-    "name": "Sembawang Straits",
-    "Longitude": 103.836,
-    "Latitude": 1.459,
-    "Population": 2330,
-    "Land Area (km2)": 1.55
-  },
-  {
-    "name": "Mandai East",
-    "Longitude": 103.813,
-    "Latitude": 1.427,
-    "Population": 0,
-    "Land Area (km2)": 7.29
-  },
-  {
-    "name": "North Coast",
-    "Longitude": 103.781,
-    "Latitude": 1.451,
-    "Population": 11640,
-    "Land Area (km2)": 2.47
-  },
-  {
-    "name": "Samulun",
-    "Longitude": 103.702,
-    "Latitude": 1.308,
-    "Population": 0,
-    "Land Area (km2)": 1.96
-  },
-  {
-    "name": "Istana Negara",
-    "Longitude": 103.844,
-    "Latitude": 1.305,
-    "Population": 0,
-    "Land Area (km2)": 0.55
-  },
-  {
-    "name": "Changi Point",
-    "Longitude": 103.983,
-    "Latitude": 1.39,
-    "Population": 510,
-    "Land Area (km2)": 1.01
-  },
-  {
-    "name": "Changi West",
-    "Longitude": 103.978,
-    "Latitude": 1.368,
-    "Population": 1340,
-    "Land Area (km2)": 4.84
-  },
-  {
-    "name": "Maxwell",
-    "Longitude": 103.846,
-    "Latitude": 1.279,
-    "Population": 0,
-    "Land Area (km2)": 0.06
-  },
-  {
-    "name": "Jurong River",
-    "Longitude": 103.729,
-    "Latitude": 1.319,
-    "Population": 0,
-    "Land Area (km2)": 2.58
-  },
-  {
-    "name": "Mackenzie",
-    "Longitude": 103.848,
-    "Latitude": 1.306,
-    "Population": 20,
-    "Land Area (km2)": 0.06
-  },
-  {
-    "name": "Pulau Punggol Timor",
-    "Longitude": 103.891,
-    "Latitude": 1.419,
-    "Population": 0,
-    "Land Area (km2)": 1.27
-  },
-  {
-    "name": "Keat Hong",
-    "Longitude": 103.746,
-    "Latitude": 1.375,
-    "Population": 39040,
-    "Land Area (km2)": 1.15
+    "Land Area (km2)": 3.31
   },
   {
     "name": "Jurong Port",
@@ -196,25 +70,116 @@
     "Land Area (km2)": 2.48
   },
   {
-    "name": "Bahar",
-    "Longitude": 103.699,
-    "Latitude": 1.36,
-    "Population": 0,
-    "Land Area (km2)": 0.5
+    "name": "Hong Kah",
+    "Longitude": 103.721,
+    "Latitude": 1.35,
+    "Population": 53430,
+    "Land Area (km2)": 1.81
   },
   {
-    "name": "Anson",
-    "Longitude": 103.844,
-    "Latitude": 1.274,
-    "Population": 0,
-    "Land Area (km2)": 0.1
+    "name": "Mandai Estate",
+    "Longitude": 103.825,
+    "Latitude": 1.427,
+    "Population": 2060,
+    "Land Area (km2)": 0.14
   },
   {
-    "name": "Punggol Canal",
-    "Longitude": 103.918,
-    "Latitude": 1.407,
+    "name": "Joo Koon",
+    "Longitude": 103.68,
+    "Latitude": 1.326,
     "Population": 0,
-    "Land Area (km2)": 1.26
+    "Land Area (km2)": 2.37
+  },
+  {
+    "name": "Southern Group",
+    "Longitude": 103.85,
+    "Latitude": 1.228,
+    "Population": 0,
+    "Land Area (km2)": 2.22
+  },
+  {
+    "name": "Kian Teck",
+    "Longitude": 103.698,
+    "Latitude": 1.332,
+    "Population": 0,
+    "Land Area (km2)": 2.11
+  },
+  {
+    "name": "Bedok North",
+    "Longitude": 103.936,
+    "Latitude": 1.33,
+    "Population": 82810,
+    "Land Area (km2)": 3.23
+  },
+  {
+    "name": "Mandai West",
+    "Longitude": 103.784,
+    "Latitude": 1.418,
+    "Population": 0,
+    "Land Area (km2)": 4.42
+  },
+  {
+    "name": "Xilin",
+    "Longitude": 103.969,
+    "Latitude": 1.329,
+    "Population": 1780,
+    "Land Area (km2)": 7.71
+  },
+  {
+    "name": "North Coast",
+    "Longitude": 103.781,
+    "Latitude": 1.451,
+    "Population": 11640,
+    "Land Area (km2)": 2.47
+  },
+  {
+    "name": "Sembawang Straits",
+    "Longitude": 103.836,
+    "Latitude": 1.459,
+    "Population": 2330,
+    "Land Area (km2)": 1.55
+  },
+  {
+    "name": "Taman Jurong",
+    "Longitude": 103.721,
+    "Latitude": 1.335,
+    "Population": 39660,
+    "Land Area (km2)": 1.49
+  },
+  {
+    "name": "Changi Point",
+    "Longitude": 103.983,
+    "Latitude": 1.39,
+    "Population": 510,
+    "Land Area (km2)": 1.01
+  },
+  {
+    "name": "Benoi Sector",
+    "Longitude": 103.687,
+    "Latitude": 1.318,
+    "Population": 0,
+    "Land Area (km2)": 2.06
+  },
+  {
+    "name": "Mackenzie",
+    "Longitude": 103.848,
+    "Latitude": 1.306,
+    "Population": 20,
+    "Land Area (km2)": 0.06
+  },
+  {
+    "name": "People's Park",
+    "Longitude": 103.841,
+    "Latitude": 1.282,
+    "Population": 180,
+    "Land Area (km2)": 0.09
+  },
+  {
+    "name": "Gul Basin",
+    "Longitude": 103.675,
+    "Latitude": 1.303,
+    "Population": 0,
+    "Land Area (km2)": 1.78
   },
   {
     "name": "Sembawang East",
@@ -224,39 +189,39 @@
     "Land Area (km2)": 0.76
   },
   {
-    "name": "Woodlands Regional Centre",
-    "Longitude": 103.785,
-    "Latitude": 1.439,
-    "Population": 0,
-    "Land Area (km2)": 0.6
+    "name": "Sungei Road",
+    "Longitude": 103.857,
+    "Latitude": 1.306,
+    "Population": 1930,
+    "Land Area (km2)": 0.12
   },
   {
-    "name": "Pulau Punggol Barat",
-    "Longitude": 103.879,
-    "Latitude": 1.425,
-    "Population": 0,
-    "Land Area (km2)": 2.06
+    "name": "Fernvale",
+    "Longitude": 103.877,
+    "Latitude": 1.395,
+    "Population": 65690,
+    "Land Area (km2)": 2.41
   },
   {
-    "name": "Pasir Ris Drive",
-    "Longitude": 103.959,
-    "Latitude": 1.369,
-    "Population": 52670,
-    "Land Area (km2)": 1.65
+    "name": "Sembawang Central",
+    "Longitude": 103.818,
+    "Latitude": 1.446,
+    "Population": 35720,
+    "Land Area (km2)": 0.97
   },
   {
-    "name": "Boon Lay Place",
-    "Longitude": 103.711,
-    "Latitude": 1.346,
-    "Population": 28720,
-    "Land Area (km2)": 0.91
+    "name": "Loyang West",
+    "Longitude": 103.971,
+    "Latitude": 1.377,
+    "Population": 380,
+    "Land Area (km2)": 2.12
   },
   {
-    "name": "Greenwood Park",
-    "Longitude": 103.785,
-    "Latitude": 1.447,
-    "Population": 90,
-    "Land Area (km2)": 1.29
+    "name": "China Square",
+    "Longitude": 103.847,
+    "Latitude": 1.284,
+    "Population": 1320,
+    "Land Area (km2)": 0.13
   },
   {
     "name": "Rivervale",
@@ -266,39 +231,25 @@
     "Land Area (km2)": 1.58
   },
   {
-    "name": "Paya Lebar East",
-    "Longitude": 103.924,
-    "Latitude": 1.356,
+    "name": "Loyang East",
+    "Longitude": 103.973,
+    "Latitude": 1.368,
+    "Population": 2060,
+    "Land Area (km2)": 0.98
+  },
+  {
+    "name": "Samulun",
+    "Longitude": 103.702,
+    "Latitude": 1.308,
     "Population": 0,
-    "Land Area (km2)": 2.28
+    "Land Area (km2)": 1.96
   },
   {
-    "name": "Bedok South",
-    "Longitude": 103.945,
-    "Latitude": 1.321,
-    "Population": 49060,
-    "Land Area (km2)": 3.02
-  },
-  {
-    "name": "Clifford Pier",
-    "Longitude": 103.855,
-    "Latitude": 1.286,
-    "Population": 0,
-    "Land Area (km2)": 0.26
-  },
-  {
-    "name": "Tanjong Pagar",
+    "name": "Yio Chu Kang",
     "Longitude": 103.846,
-    "Latitude": 1.276,
-    "Population": 790,
-    "Land Area (km2)": 0.15
-  },
-  {
-    "name": "Seletar Aerospace Park",
-    "Longitude": 103.866,
-    "Latitude": 1.412,
+    "Latitude": 1.386,
     "Population": 0,
-    "Land Area (km2)": 3.65
+    "Land Area (km2)": 0.92
   },
   {
     "name": "Frankel",
@@ -308,25 +259,32 @@
     "Land Area (km2)": 4.33
   },
   {
-    "name": "Brickworks",
-    "Longitude": 103.742,
-    "Latitude": 1.356,
-    "Population": 30960,
-    "Land Area (km2)": 1.24
-  },
-  {
-    "name": "Trafalgar",
-    "Longitude": 103.881,
-    "Latitude": 1.381,
-    "Population": 50220,
-    "Land Area (km2)": 1.76
-  },
-  {
     "name": "Woodlands West",
     "Longitude": 103.776,
     "Latitude": 1.437,
     "Population": 35500,
     "Land Area (km2)": 1.66
+  },
+  {
+    "name": "Cleantech",
+    "Longitude": 103.693,
+    "Latitude": 1.353,
+    "Population": 0,
+    "Land Area (km2)": 0.7
+  },
+  {
+    "name": "Tanjong Pagar",
+    "Longitude": 103.846,
+    "Latitude": 1.276,
+    "Population": 790,
+    "Land Area (km2)": 0.15
+  },
+  {
+    "name": "Matilda",
+    "Longitude": 103.897,
+    "Latitude": 1.403,
+    "Population": 53390,
+    "Land Area (km2)": 1.43
   },
   {
     "name": "Sembawang Springs",
@@ -336,207 +294,39 @@
     "Land Area (km2)": 1.11
   },
   {
-    "name": "Bencoolen",
-    "Longitude": 103.851,
-    "Latitude": 1.302,
-    "Population": 1170,
-    "Land Area (km2)": 0.17
-  },
-  {
-    "name": "Turf Club",
-    "Longitude": 103.764,
-    "Latitude": 1.419,
-    "Population": 680,
-    "Land Area (km2)": 3.32
-  },
-  {
-    "name": "Pasir Ris West",
-    "Longitude": 103.94,
-    "Latitude": 1.379,
-    "Population": 35660,
-    "Land Area (km2)": 1.59
-  },
-  {
-    "name": "Toh Tuck",
-    "Longitude": 103.756,
-    "Latitude": 1.332,
+    "name": "Liu Fang",
+    "Longitude": 103.708,
+    "Latitude": 1.318,
     "Population": 0,
-    "Land Area (km2)": 2.09
+    "Land Area (km2)": 2.36
   },
   {
-    "name": "Woodgrove",
-    "Longitude": 103.779,
-    "Latitude": 1.429,
-    "Population": 33220,
-    "Land Area (km2)": 1.68
+    "name": "Telok Blangah Rise",
+    "Longitude": 103.825,
+    "Latitude": 1.274,
+    "Population": 11860,
+    "Land Area (km2)": 0.54
   },
   {
-    "name": "Hougang West",
-    "Longitude": 103.886,
-    "Latitude": 1.374,
-    "Population": 45000,
-    "Land Area (km2)": 1.34
+    "name": "Yishun West",
+    "Longitude": 103.831,
+    "Latitude": 1.431,
+    "Population": 52380,
+    "Land Area (km2)": 1.53
   },
   {
-    "name": "Kampong Tiong Bahru",
-    "Longitude": 103.827,
-    "Latitude": 1.278,
-    "Population": 8910,
-    "Land Area (km2)": 0.37
+    "name": "Simei",
+    "Longitude": 103.954,
+    "Latitude": 1.341,
+    "Population": 39110,
+    "Land Area (km2)": 2.8
   },
   {
-    "name": "Pasir Panjang 2",
-    "Longitude": 103.795,
-    "Latitude": 1.278,
-    "Population": 3170,
-    "Land Area (km2)": 0.86
-  },
-  {
-    "name": "Oxley",
-    "Longitude": 103.841,
-    "Latitude": 1.297,
-    "Population": 1610,
-    "Land Area (km2)": 0.2
-  },
-  {
-    "name": "Choa Chu Kang North",
-    "Longitude": 103.747,
-    "Latitude": 1.392,
-    "Population": 31430,
-    "Land Area (km2)": 1.1
-  },
-  {
-    "name": "Northland",
-    "Longitude": 103.838,
-    "Latitude": 1.438,
-    "Population": 27410,
-    "Land Area (km2)": 1.52
-  },
-  {
-    "name": "Mount Emily",
+    "name": "Boat Quay",
     "Longitude": 103.848,
-    "Latitude": 1.302,
-    "Population": 2000,
-    "Land Area (km2)": 0.2
-  },
-  {
-    "name": "Kembangan",
-    "Longitude": 103.916,
-    "Latitude": 1.325,
-    "Population": 36510,
-    "Land Area (km2)": 2.4
-  },
-  {
-    "name": "Bendemeer",
-    "Longitude": 103.862,
-    "Latitude": 1.322,
-    "Population": 37500,
-    "Land Area (km2)": 1.39
-  },
-  {
-    "name": "Yishun Central",
-    "Longitude": 103.838,
-    "Latitude": 1.427,
-    "Population": 3020,
-    "Land Area (km2)": 0.44
-  },
-  {
-    "name": "Tiong Bahru Station",
-    "Longitude": 103.827,
-    "Latitude": 1.284,
-    "Population": 14850,
-    "Land Area (km2)": 0.35
-  },
-  {
-    "name": "Brickland",
-    "Longitude": 103.742,
-    "Latitude": 1.369,
-    "Population": 0,
-    "Land Area (km2)": 0.79
-  },
-  {
-    "name": "Victoria",
-    "Longitude": 103.853,
-    "Latitude": 1.3,
-    "Population": 1620,
-    "Land Area (km2)": 0.22
-  },
-  {
-    "name": "Chinatown",
-    "Longitude": 103.844,
-    "Latitude": 1.28,
-    "Population": 10300,
-    "Land Area (km2)": 0.59
-  },
-  {
-    "name": "Kaki Bukit",
-    "Longitude": 103.91,
-    "Latitude": 1.336,
-    "Population": 35910,
-    "Land Area (km2)": 2.84
-  },
-  {
-    "name": "Bukit Batok West",
-    "Longitude": 103.742,
-    "Latitude": 1.347,
-    "Population": 14600,
-    "Land Area (km2)": 0.53
-  },
-  {
-    "name": "Newton Circus",
-    "Longitude": 103.839,
-    "Latitude": 1.312,
-    "Population": 290,
-    "Land Area (km2)": 0.22
-  },
-  {
-    "name": "Yio Chu Kang North",
-    "Longitude": 103.847,
-    "Latitude": 1.394,
-    "Population": 0,
-    "Land Area (km2)": 1.48
-  },
-  {
-    "name": "Kallang Bahru",
-    "Longitude": 103.865,
-    "Latitude": 1.314,
-    "Population": 0,
-    "Land Area (km2)": 0.85
-  },
-  {
-    "name": "Bukit Merah",
-    "Longitude": 103.819,
-    "Latitude": 1.282,
-    "Population": 950,
-    "Land Area (km2)": 0.41
-  },
-  {
-    "name": "Dhoby Ghaut",
-    "Longitude": 103.845,
-    "Latitude": 1.299,
-    "Population": 370,
-    "Land Area (km2)": 0.22
-  },
-  {
-    "name": "Choa Chu Kang Central",
-    "Longitude": 103.748,
-    "Latitude": 1.385,
-    "Population": 22440,
-    "Land Area (km2)": 1.1
-  },
-  {
-    "name": "Hong Kah North",
-    "Longitude": 103.748,
-    "Latitude": 1.363,
-    "Population": 25780,
-    "Land Area (km2)": 0.87
-  },
-  {
-    "name": "Little India",
-    "Longitude": 103.854,
-    "Latitude": 1.307,
-    "Population": 3110,
-    "Land Area (km2)": 0.28
+    "Latitude": 1.287,
+    "Population": 20,
+    "Land Area (km2)": 0.16
   },
   {
     "name": "Lorong Halus",
@@ -546,53 +336,312 @@
     "Land Area (km2)": 1.34
   },
   {
-    "name": "Tanjong Rhu",
-    "Longitude": 103.876,
-    "Latitude": 1.301,
-    "Population": 11450,
-    "Land Area (km2)": 2.45
+    "name": "Yishun Central",
+    "Longitude": 103.838,
+    "Latitude": 1.427,
+    "Population": 3020,
+    "Land Area (km2)": 0.44
   },
   {
-    "name": "Jurong Gateway",
+    "name": "Northland",
+    "Longitude": 103.838,
+    "Latitude": 1.438,
+    "Population": 27410,
+    "Land Area (km2)": 1.52
+  },
+  {
+    "name": "Toh Tuck",
+    "Longitude": 103.756,
+    "Latitude": 1.332,
+    "Population": 0,
+    "Land Area (km2)": 2.09
+  },
+  {
+    "name": "Boon Lay Place",
+    "Longitude": 103.711,
+    "Latitude": 1.346,
+    "Population": 28720,
+    "Land Area (km2)": 0.91
+  },
+  {
+    "name": "Punggol Field",
+    "Longitude": 103.911,
+    "Latitude": 1.395,
+    "Population": 49030,
+    "Land Area (km2)": 1.39
+  },
+  {
+    "name": "Flora Drive",
+    "Longitude": 103.966,
+    "Latitude": 1.359,
+    "Population": 16060,
+    "Land Area (km2)": 0.95
+  },
+  {
+    "name": "Turf Club",
+    "Longitude": 103.764,
+    "Latitude": 1.419,
+    "Population": 680,
+    "Land Area (km2)": 3.32
+  },
+  {
+    "name": "Bahar",
+    "Longitude": 103.699,
+    "Latitude": 1.36,
+    "Population": 0,
+    "Land Area (km2)": 0.5
+  },
+  {
+    "name": "Penjuru Crescent",
+    "Longitude": 103.74,
+    "Latitude": 1.304,
+    "Population": 0,
+    "Land Area (km2)": 3.07
+  },
+  {
+    "name": "Telok Blangah Drive",
+    "Longitude": 103.809,
+    "Latitude": 1.277,
+    "Population": 19490,
+    "Land Area (km2)": 1.47
+  },
+  {
+    "name": "Everton Park",
+    "Longitude": 103.836,
+    "Latitude": 1.275,
+    "Population": 7740,
+    "Land Area (km2)": 0.64
+  },
+  {
+    "name": "Teban Gardens",
     "Longitude": 103.743,
-    "Latitude": 1.333,
-    "Population": 470,
-    "Land Area (km2)": 0.56
+    "Latitude": 1.315,
+    "Population": 17760,
+    "Land Area (km2)": 3.21
   },
   {
-    "name": "Bukit Ho Swee",
-    "Longitude": 103.83,
-    "Latitude": 1.29,
-    "Population": 13780,
-    "Land Area (km2)": 0.56
+    "name": "Peng Siang",
+    "Longitude": 103.739,
+    "Latitude": 1.379,
+    "Population": 34360,
+    "Land Area (km2)": 0.87
   },
   {
-    "name": "Clarke Quay",
-    "Longitude": 103.845,
-    "Latitude": 1.29,
-    "Population": 30,
-    "Land Area (km2)": 0.29
+    "name": "Pasir Ris West",
+    "Longitude": 103.94,
+    "Latitude": 1.379,
+    "Population": 35660,
+    "Land Area (km2)": 1.59
   },
   {
-    "name": "Pasir Panjang 1",
-    "Longitude": 103.78,
-    "Latitude": 1.287,
+    "name": "Park",
+    "Longitude": 103.734,
+    "Latitude": 1.365,
+    "Population": 0,
+    "Land Area (km2)": 1.47
+  },
+  {
+    "name": "Pang Sua",
+    "Longitude": 103.748,
+    "Latitude": 1.413,
+    "Population": 0,
+    "Land Area (km2)": 2.19
+  },
+  {
+    "name": "Woodgrove",
+    "Longitude": 103.779,
+    "Latitude": 1.429,
+    "Population": 33220,
+    "Land Area (km2)": 1.68
+  },
+  {
+    "name": "Wenya",
+    "Longitude": 103.707,
+    "Latitude": 1.356,
+    "Population": 8360,
+    "Land Area (km2)": 1.99
+  },
+  {
+    "name": "Upper Thomson",
+    "Longitude": 103.832,
+    "Latitude": 1.358,
+    "Population": 31150,
+    "Land Area (km2)": 3.88
+  },
+  {
+    "name": "Holland Road",
+    "Longitude": 103.784,
+    "Latitude": 1.327,
+    "Population": 11550,
+    "Land Area (km2)": 3.41
+  },
+  {
+    "name": "Kaki Bukit",
+    "Longitude": 103.91,
+    "Latitude": 1.336,
+    "Population": 35910,
+    "Land Area (km2)": 2.84
+  },
+  {
+    "name": "Clifford Pier",
+    "Longitude": 103.855,
+    "Latitude": 1.286,
+    "Population": 0,
+    "Land Area (km2)": 0.26
+  },
+  {
+    "name": "Bencoolen",
+    "Longitude": 103.851,
+    "Latitude": 1.302,
+    "Population": 1170,
+    "Land Area (km2)": 0.17
+  },
+  {
+    "name": "Tanglin",
+    "Longitude": 103.826,
+    "Latitude": 1.305,
+    "Population": 500,
+    "Land Area (km2)": 0.17
+  },
+  {
+    "name": "Tampines North",
+    "Longitude": 103.939,
+    "Latitude": 1.366,
+    "Population": 25720,
+    "Land Area (km2)": 2.56
+  },
+  {
+    "name": "Paterson",
+    "Longitude": 103.832,
+    "Latitude": 1.301,
+    "Population": 280,
+    "Land Area (km2)": 0.17
+  },
+  {
+    "name": "Depot Road",
+    "Longitude": 103.809,
+    "Latitude": 1.282,
+    "Population": 6550,
+    "Land Area (km2)": 0.45
+  },
+  {
+    "name": "Oxley",
+    "Longitude": 103.841,
+    "Latitude": 1.297,
+    "Population": 1610,
+    "Land Area (km2)": 0.2
+  },
+  {
+    "name": "Bedok Reservoir",
+    "Longitude": 103.926,
+    "Latitude": 1.34,
+    "Population": 25400,
+    "Land Area (km2)": 2.4
+  },
+  {
+    "name": "Mount Emily",
+    "Longitude": 103.848,
+    "Latitude": 1.302,
+    "Population": 2000,
+    "Land Area (km2)": 0.2
+  },
+  {
+    "name": "Tiong Bahru",
+    "Longitude": 103.831,
+    "Latitude": 1.284,
+    "Population": 12270,
+    "Land Area (km2)": 0.45
+  },
+  {
+    "name": "Brickworks",
+    "Longitude": 103.742,
+    "Latitude": 1.356,
+    "Population": 30960,
+    "Land Area (km2)": 1.24
+  },
+  {
+    "name": "Crawford",
+    "Longitude": 103.863,
+    "Latitude": 1.305,
+    "Population": 7900,
+    "Land Area (km2)": 0.24
+  },
+  {
+    "name": "Farrer Park",
+    "Longitude": 103.852,
+    "Latitude": 1.309,
+    "Population": 2530,
+    "Land Area (km2)": 0.22
+  },
+  {
+    "name": "Defu Industrial Park",
+    "Longitude": 103.896,
+    "Latitude": 1.352,
+    "Population": 0,
+    "Land Area (km2)": 1.99
+  },
+  {
+    "name": "Newton Circus",
+    "Longitude": 103.839,
+    "Latitude": 1.312,
+    "Population": 290,
+    "Land Area (km2)": 0.22
+  },
+  {
+    "name": "Hougang Central",
+    "Longitude": 103.891,
+    "Latitude": 1.37,
     "Population": 4830,
-    "Land Area (km2)": 1.09
+    "Land Area (km2)": 0.44
   },
   {
-    "name": "One North",
-    "Longitude": 103.791,
-    "Latitude": 1.298,
-    "Population": 920,
-    "Land Area (km2)": 2.02
+    "name": "Pearl's Hill",
+    "Longitude": 103.839,
+    "Latitude": 1.286,
+    "Population": 5470,
+    "Land Area (km2)": 0.57
   },
   {
-    "name": "Teck Whye",
-    "Longitude": 103.755,
-    "Latitude": 1.382,
-    "Population": 24460,
-    "Land Area (km2)": 1.01
+    "name": "Dhoby Ghaut",
+    "Longitude": 103.845,
+    "Latitude": 1.299,
+    "Population": 370,
+    "Land Area (km2)": 0.22
+  },
+  {
+    "name": "Henderson Hill",
+    "Longitude": 103.822,
+    "Latitude": 1.287,
+    "Population": 13050,
+    "Land Area (km2)": 0.6
+  },
+  {
+    "name": "Anak Bukit",
+    "Longitude": 103.772,
+    "Latitude": 1.338,
+    "Population": 22820,
+    "Land Area (km2)": 2.79
+  },
+  {
+    "name": "Bugis",
+    "Longitude": 103.856,
+    "Latitude": 1.299,
+    "Population": 940,
+    "Land Area (km2)": 0.28
+  },
+  {
+    "name": "Yuhua West",
+    "Longitude": 103.732,
+    "Latitude": 1.347,
+    "Population": 18850,
+    "Land Area (km2)": 0.78
+  },
+  {
+    "name": "Khatib",
+    "Longitude": 103.829,
+    "Latitude": 1.418,
+    "Population": 9930,
+    "Land Area (km2)": 1.44
   },
   {
     "name": "Punggol Town Centre",
@@ -602,6 +651,13 @@
     "Land Area (km2)": 1.27
   },
   {
+    "name": "Kangkar",
+    "Longitude": 103.898,
+    "Latitude": 1.37,
+    "Population": 32960,
+    "Land Area (km2)": 1.01
+  },
+  {
     "name": "Balestier",
     "Longitude": 103.851,
     "Latitude": 1.326,
@@ -609,102 +665,46 @@
     "Land Area (km2)": 1.94
   },
   {
-    "name": "Alexandra North",
-    "Longitude": 103.82,
-    "Latitude": 1.292,
-    "Population": 2970,
-    "Land Area (km2)": 0.3
+    "name": "Alexandra Hill",
+    "Longitude": 103.81,
+    "Latitude": 1.288,
+    "Population": 13320,
+    "Land Area (km2)": 1.04
   },
   {
-    "name": "City Hall",
-    "Longitude": 103.853,
-    "Latitude": 1.292,
-    "Population": 40,
-    "Land Area (km2)": 0.72
+    "name": "Plantation",
+    "Longitude": 103.734,
+    "Latitude": 1.354,
+    "Population": 0,
+    "Land Area (km2)": 0.91
   },
   {
-    "name": "Guilin",
-    "Longitude": 103.754,
-    "Latitude": 1.355,
-    "Population": 13020,
+    "name": "Bukit Batok Central",
+    "Longitude": 103.75,
+    "Latitude": 1.348,
+    "Population": 27690,
+    "Land Area (km2)": 0.81
+  },
+  {
+    "name": "Mountbatten",
+    "Longitude": 103.891,
+    "Latitude": 1.302,
+    "Population": 10220,
+    "Land Area (km2)": 1.72
+  },
+  {
+    "name": "Pasir Panjang 1",
+    "Longitude": 103.78,
+    "Latitude": 1.287,
+    "Population": 4830,
     "Land Area (km2)": 1.09
   },
   {
-    "name": "Commonwealth",
-    "Longitude": 103.8,
-    "Latitude": 1.305,
-    "Population": 6600,
-    "Land Area (km2)": 0.31
-  },
-  {
-    "name": "Lorong Ah Soo",
-    "Longitude": 103.887,
-    "Latitude": 1.357,
-    "Population": 32210,
-    "Land Area (km2)": 1.53
-  },
-  {
-    "name": "Fajar",
-    "Longitude": 103.771,
-    "Latitude": 1.385,
-    "Population": 26880,
-    "Land Area (km2)": 0.67
-  },
-  {
-    "name": "Senja",
-    "Longitude": 103.761,
-    "Latitude": 1.386,
-    "Population": 23760,
-    "Land Area (km2)": 0.63
-  },
-  {
-    "name": "Bukit Batok South",
-    "Longitude": 103.758,
-    "Latitude": 1.341,
-    "Population": 14830,
-    "Land Area (km2)": 1.82
-  },
-  {
-    "name": "International Business Park",
-    "Longitude": 103.748,
-    "Latitude": 1.326,
-    "Population": 0,
-    "Land Area (km2)": 0.49
-  },
-  {
-    "name": "One Tree Hill",
-    "Longitude": 103.827,
-    "Latitude": 1.302,
-    "Population": 2190,
-    "Land Area (km2)": 0.34
-  },
-  {
-    "name": "West Coast",
-    "Longitude": 103.755,
-    "Latitude": 1.316,
-    "Population": 10140,
-    "Land Area (km2)": 0.73
-  },
-  {
-    "name": "Serangoon North Ind Estate",
-    "Longitude": 103.865,
-    "Latitude": 1.375,
-    "Population": 0,
-    "Land Area (km2)": 0.93
-  },
-  {
-    "name": "Bukit Batok East",
-    "Longitude": 103.758,
-    "Latitude": 1.349,
-    "Population": 12270,
-    "Land Area (km2)": 0.38
-  },
-  {
-    "name": "Chatsworth",
-    "Longitude": 103.823,
-    "Latitude": 1.297,
-    "Population": 7620,
-    "Land Area (km2)": 1.36
+    "name": "Hougang East",
+    "Longitude": 103.897,
+    "Latitude": 1.376,
+    "Population": 24490,
+    "Land Area (km2)": 0.85
   },
   {
     "name": "Pei Chun",
@@ -714,81 +714,179 @@
     "Land Area (km2)": 0.41
   },
   {
-    "name": "Leonie Hill",
-    "Longitude": 103.834,
-    "Latitude": 1.298,
-    "Population": 3770,
-    "Land Area (km2)": 0.37
+    "name": "Redhill",
+    "Longitude": 103.817,
+    "Latitude": 1.288,
+    "Population": 11170,
+    "Land Area (km2)": 0.39
   },
   {
-    "name": "Toa Payoh Central",
+    "name": "Fort Canning",
     "Longitude": 103.846,
-    "Latitude": 1.333,
-    "Population": 27660,
-    "Land Area (km2)": 1.12
+    "Latitude": 1.294,
+    "Population": 170,
+    "Land Area (km2)": 0.39
   },
   {
-    "name": "Upper Paya Lebar",
-    "Longitude": 103.877,
-    "Latitude": 1.347,
-    "Population": 18750,
-    "Land Area (km2)": 0.91
+    "name": "Senja",
+    "Longitude": 103.761,
+    "Latitude": 1.386,
+    "Population": 23760,
+    "Land Area (km2)": 0.63
   },
   {
-    "name": "Kampong Bugis",
-    "Longitude": 103.87,
-    "Latitude": 1.308,
-    "Population": 1550,
+    "name": "Clementi North",
+    "Longitude": 103.767,
+    "Latitude": 1.318,
+    "Population": 29440,
+    "Land Area (km2)": 1.0
+  },
+  {
+    "name": "City Hall",
+    "Longitude": 103.853,
+    "Latitude": 1.292,
+    "Population": 40,
+    "Land Area (km2)": 0.72
+  },
+  {
+    "name": "Springleaf",
+    "Longitude": 103.824,
+    "Latitude": 1.401,
+    "Population": 4310,
+    "Land Area (km2)": 2.23
+  },
+  {
+    "name": "Lorong Ah Soo",
+    "Longitude": 103.887,
+    "Latitude": 1.357,
+    "Population": 32210,
+    "Land Area (km2)": 1.53
+  },
+  {
+    "name": "Commonwealth",
+    "Longitude": 103.8,
+    "Latitude": 1.305,
+    "Population": 6600,
+    "Land Area (km2)": 0.31
+  },
+  {
+    "name": "One North",
+    "Longitude": 103.791,
+    "Latitude": 1.298,
+    "Population": 920,
+    "Land Area (km2)": 2.02
+  },
+  {
+    "name": "Nicoll",
+    "Longitude": 103.864,
+    "Latitude": 1.299,
+    "Population": 270,
+    "Land Area (km2)": 0.62
+  },
+  {
+    "name": "Teck Whye",
+    "Longitude": 103.755,
+    "Latitude": 1.382,
+    "Population": 24460,
+    "Land Area (km2)": 1.01
+  },
+  {
+    "name": "Queensway",
+    "Longitude": 103.799,
+    "Latitude": 1.289,
+    "Population": 190,
+    "Land Area (km2)": 0.63
+  },
+  {
+    "name": "National University Of S'pore",
+    "Longitude": 103.777,
+    "Latitude": 1.296,
+    "Population": 260,
+    "Land Area (km2)": 1.77
+  },
+  {
+    "name": "Fajar",
+    "Longitude": 103.771,
+    "Latitude": 1.385,
+    "Population": 26880,
+    "Land Area (km2)": 0.67
+  },
+  {
+    "name": "Toh Guan",
+    "Longitude": 103.746,
+    "Latitude": 1.337,
+    "Population": 14180,
     "Land Area (km2)": 0.75
   },
   {
-    "name": "Potong Pasir",
-    "Longitude": 103.866,
+    "name": "Jurong Gateway",
+    "Longitude": 103.743,
     "Latitude": 1.333,
-    "Population": 12790,
-    "Land Area (km2)": 0.64
-  },
-  {
-    "name": "Bangkit",
-    "Longitude": 103.774,
-    "Latitude": 1.377,
-    "Population": 21550,
-    "Land Area (km2)": 0.77
-  },
-  {
-    "name": "Holland Drive",
-    "Longitude": 103.795,
-    "Latitude": 1.309,
-    "Population": 12280,
-    "Land Area (km2)": 0.47
-  },
-  {
-    "name": "Dairy Farm",
-    "Longitude": 103.772,
-    "Latitude": 1.368,
-    "Population": 7130,
-    "Land Area (km2)": 1.24
-  },
-  {
-    "name": "Woodleigh",
-    "Longitude": 103.866,
-    "Latitude": 1.34,
-    "Population": 3340,
-    "Land Area (km2)": 0.82
-  },
-  {
-    "name": "Cairnhill",
-    "Longitude": 103.838,
-    "Latitude": 1.307,
-    "Population": 4500,
-    "Land Area (km2)": 0.45
-  },
-  {
-    "name": "Tanglin Halt",
-    "Longitude": 103.797,
-    "Latitude": 1.301,
-    "Population": 5600,
+    "Population": 470,
     "Land Area (km2)": 0.56
+  },
+  {
+    "name": "Compassvale",
+    "Longitude": 103.89,
+    "Latitude": 1.385,
+    "Population": 20850,
+    "Land Area (km2)": 1.1
+  },
+  {
+    "name": "Bishan East",
+    "Longitude": 103.853,
+    "Latitude": 1.35,
+    "Population": 27870,
+    "Land Area (km2)": 1.81
+  },
+  {
+    "name": "Chatsworth",
+    "Longitude": 103.823,
+    "Latitude": 1.297,
+    "Population": 7620,
+    "Land Area (km2)": 1.36
+  },
+  {
+    "name": "Ghim Moh",
+    "Longitude": 103.787,
+    "Latitude": 1.311,
+    "Population": 13430,
+    "Land Area (km2)": 0.49
+  },
+  {
+    "name": "Cheng San",
+    "Longitude": 103.854,
+    "Latitude": 1.373,
+    "Population": 27290,
+    "Land Area (km2)": 0.96
+  },
+  {
+    "name": "Tyersall",
+    "Longitude": 103.813,
+    "Latitude": 1.315,
+    "Population": 4120,
+    "Land Area (km2)": 2.17
+  },
+  {
+    "name": "Tai Seng",
+    "Longitude": 103.888,
+    "Latitude": 1.344,
+    "Population": 13480,
+    "Land Area (km2)": 1.81
+  },
+  {
+    "name": "Guilin",
+    "Longitude": 103.754,
+    "Latitude": 1.355,
+    "Population": 13020,
+    "Land Area (km2)": 1.09
+  },
+  {
+    "name": "Yio Chu Kang West",
+    "Longitude": 103.84,
+    "Latitude": 1.381,
+    "Population": 23850,
+    "Land Area (km2)": 0.85
   },
   {
     "name": "Yio Chu Kang East",
@@ -798,18 +896,123 @@
     "Land Area (km2)": 1.88
   },
   {
-    "name": "Boulevard",
-    "Longitude": 103.833,
-    "Latitude": 1.305,
-    "Population": 350,
-    "Land Area (km2)": 0.46
+    "name": "Geylang Bahru",
+    "Longitude": 103.87,
+    "Latitude": 1.322,
+    "Population": 10690,
+    "Land Area (km2)": 0.74
   },
   {
-    "name": "Dover",
-    "Longitude": 103.78,
+    "name": "Potong Pasir",
+    "Longitude": 103.866,
+    "Latitude": 1.333,
+    "Population": 12790,
+    "Land Area (km2)": 0.64
+  },
+  {
+    "name": "Joo Seng",
+    "Longitude": 103.882,
+    "Latitude": 1.337,
+    "Population": 8120,
+    "Land Area (km2)": 1.06
+  },
+  {
+    "name": "Kampong Bugis",
+    "Longitude": 103.87,
+    "Latitude": 1.308,
+    "Population": 1550,
+    "Land Area (km2)": 0.75
+  },
+  {
+    "name": "Sennett",
+    "Longitude": 103.874,
+    "Latitude": 1.333,
+    "Population": 16180,
+    "Land Area (km2)": 0.87
+  },
+  {
+    "name": "Bukit Batok South",
+    "Longitude": 103.758,
+    "Latitude": 1.341,
+    "Population": 14830,
+    "Land Area (km2)": 1.82
+  },
+  {
+    "name": "Ridout",
+    "Longitude": 103.811,
+    "Latitude": 1.303,
+    "Population": 1540,
+    "Land Area (km2)": 1.97
+  },
+  {
+    "name": "Nassim",
+    "Longitude": 103.824,
+    "Latitude": 1.314,
+    "Population": 10640,
+    "Land Area (km2)": 2.11
+  },
+  {
+    "name": "Hillview",
+    "Longitude": 103.764,
+    "Latitude": 1.356,
+    "Population": 20080,
+    "Land Area (km2)": 2.01
+  },
+  {
+    "name": "Kovan",
+    "Longitude": 103.881,
+    "Latitude": 1.363,
+    "Population": 25210,
+    "Land Area (km2)": 1.96
+  },
+  {
+    "name": "Clementi West",
+    "Longitude": 103.763,
+    "Latitude": 1.303,
+    "Population": 14540,
+    "Land Area (km2)": 0.7
+  },
+  {
+    "name": "Farrer Court",
+    "Longitude": 103.805,
+    "Latitude": 1.317,
+    "Population": 6730,
+    "Land Area (km2)": 0.56
+  },
+  {
+    "name": "Clementi Woods",
+    "Longitude": 103.768,
     "Latitude": 1.304,
-    "Population": 11390,
-    "Land Area (km2)": 1.39
+    "Population": 18420,
+    "Land Area (km2)": 1.07
+  },
+  {
+    "name": "Clementi Central",
+    "Longitude": 103.763,
+    "Latitude": 1.312,
+    "Population": 14820,
+    "Land Area (km2)": 0.75
+  },
+  {
+    "name": "Faber",
+    "Longitude": 103.757,
+    "Latitude": 1.322,
+    "Population": 5460,
+    "Land Area (km2)": 0.95
+  },
+  {
+    "name": "Dairy Farm",
+    "Longitude": 103.772,
+    "Latitude": 1.368,
+    "Population": 7130,
+    "Land Area (km2)": 1.24
+  },
+  {
+    "name": "Kebun Bahru",
+    "Longitude": 103.84,
+    "Latitude": 1.373,
+    "Population": 22390,
+    "Land Area (km2)": 1.05
   },
   {
     "name": "Lorong Chuan",
@@ -819,11 +1022,18 @@
     "Land Area (km2)": 1.19
   },
   {
-    "name": "Singapore Polytechnic",
-    "Longitude": 103.777,
-    "Latitude": 1.311,
-    "Population": 90,
-    "Land Area (km2)": 0.95
+    "name": "Ulu Pandan",
+    "Longitude": 103.781,
+    "Latitude": 1.316,
+    "Population": 11420,
+    "Land Area (km2)": 1.24
+  },
+  {
+    "name": "Toa Payoh West",
+    "Longitude": 103.842,
+    "Latitude": 1.34,
+    "Population": 14160,
+    "Land Area (km2)": 1.04
   },
   {
     "name": "Coronation Road",

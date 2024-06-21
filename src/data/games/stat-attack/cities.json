@@ -1,17 +1,535 @@
 [
   {
-    "name": "Sydney (Australia)",
-    "Latitude": -33.8678,
-    "Longitude": 151.21,
-    "Population (K)": 4841,
-    "Stations": 13
-  },
-  {
     "name": "Jakarta (Indonesia)",
     "Latitude": -6.175,
     "Longitude": 106.8275,
     "Population (K)": 33756,
     "Stations": 13
+  },
+  {
+    "name": "Palembang (Indonesia)",
+    "Latitude": -2.9861,
+    "Longitude": 104.7556,
+    "Population (K)": 1536,
+    "Stations": 13
+  },
+  {
+    "name": "Delhi (India)",
+    "Latitude": 28.61,
+    "Longitude": 77.23,
+    "Population (K)": 32226,
+    "Stations": 231
+  },
+  {
+    "name": "Mumbai (India)",
+    "Latitude": 19.0761,
+    "Longitude": 72.8775,
+    "Population (K)": 24973,
+    "Stations": 43
+  },
+  {
+    "name": "Kolkata (India)",
+    "Latitude": 22.5675,
+    "Longitude": 88.37,
+    "Population (K)": 18502,
+    "Stations": 48
+  },
+  {
+    "name": "Bangalore (India)",
+    "Latitude": 12.9789,
+    "Longitude": 77.5917,
+    "Population (K)": 15386,
+    "Stations": 66
+  },
+  {
+    "name": "Chennai (India)",
+    "Latitude": 13.0825,
+    "Longitude": 80.275,
+    "Population (K)": 12395,
+    "Stations": 42
+  },
+  {
+    "name": "Hyderabad (India)",
+    "Latitude": 17.385,
+    "Longitude": 78.4867,
+    "Population (K)": 10494,
+    "Stations": 57
+  },
+  {
+    "name": "Pune (India)",
+    "Latitude": 18.5203,
+    "Longitude": 73.8567,
+    "Population (K)": 8231,
+    "Stations": 24
+  },
+  {
+    "name": "Ahmedabad (India)",
+    "Latitude": 23.03,
+    "Longitude": 72.58,
+    "Population (K)": 8009,
+    "Stations": 31
+  },
+  {
+    "name": "Lucknow (India)",
+    "Latitude": 26.85,
+    "Longitude": 80.95,
+    "Population (K)": 3382,
+    "Stations": 21
+  },
+  {
+    "name": "Jaipur (India)",
+    "Latitude": 23.4313,
+    "Longitude": 86.1493,
+    "Population (K)": 10,
+    "Stations": 11
+  },
+  {
+    "name": "Nagpur (India)",
+    "Latitude": 21.1497,
+    "Longitude": 79.0806,
+    "Population (K)": 2406,
+    "Stations": 36
+  },
+  {
+    "name": "Agra (India)",
+    "Latitude": 27.18,
+    "Longitude": 78.02,
+    "Population (K)": 1586,
+    "Stations": 6
+  },
+  {
+    "name": "Gurgaon (India)",
+    "Latitude": 28.456,
+    "Longitude": 77.029,
+    "Population (K)": 877,
+    "Stations": 11
+  },
+  {
+    "name": "Kochi (India)",
+    "Latitude": 9.97,
+    "Longitude": 76.28,
+    "Population (K)": 677,
+    "Stations": 25
+  },
+  {
+    "name": "Noida (India)",
+    "Latitude": 28.57,
+    "Longitude": 77.32,
+    "Population (K)": 637,
+    "Stations": 21
+  },
+  {
+    "name": "Guangzhou (China)",
+    "Latitude": 23.13,
+    "Longitude": 113.26,
+    "Population (K)": 26940,
+    "Stations": 265
+  },
+  {
+    "name": "Shanghai (China)",
+    "Latitude": 31.1667,
+    "Longitude": 121.4667,
+    "Population (K)": 24073,
+    "Stations": 403
+  },
+  {
+    "name": "Beijing (China)",
+    "Latitude": 39.904,
+    "Longitude": 116.4075,
+    "Population (K)": 18522,
+    "Stations": 381
+  },
+  {
+    "name": "Shenzhen (China)",
+    "Latitude": 22.535,
+    "Longitude": 114.054,
+    "Population (K)": 17619,
+    "Stations": 307
+  },
+  {
+    "name": "Chengdu (China)",
+    "Latitude": 30.66,
+    "Longitude": 104.0633,
+    "Population (K)": 14645,
+    "Stations": 291
+  },
+  {
+    "name": "Xi'an (China)",
+    "Latitude": 34.2667,
+    "Longitude": 108.9,
+    "Population (K)": 12328,
+    "Stations": 191
+  },
+  {
+    "name": "Chongqing (China)",
+    "Latitude": 29.55,
+    "Longitude": 106.5069,
+    "Population (K)": 12135,
+    "Stations": 256
+  },
+  {
+    "name": "Dongguan (China)",
+    "Latitude": 39.014,
+    "Longitude": 111.0768,
+    "Population (K)": 75,
+    "Stations": 15
+  },
+  {
+    "name": "Tianjin (China)",
+    "Latitude": 39.1467,
+    "Longitude": 117.2056,
+    "Population (K)": 10368,
+    "Stations": 192
+  },
+  {
+    "name": "Wuhan (China)",
+    "Latitude": 30.5872,
+    "Longitude": 114.2881,
+    "Population (K)": 10251,
+    "Stations": 262
+  },
+  {
+    "name": "Hangzhou (China)",
+    "Latitude": 30.25,
+    "Longitude": 120.1675,
+    "Population (K)": 9523,
+    "Stations": 254
+  },
+  {
+    "name": "Foshan (China)",
+    "Latitude": 23.0292,
+    "Longitude": 113.1056,
+    "Population (K)": 9499,
+    "Stations": 61
+  },
+  {
+    "name": "Nanjing (China)",
+    "Latitude": 32.0608,
+    "Longitude": 118.7789,
+    "Population (K)": 8422,
+    "Stations": 212
+  },
+  {
+    "name": "Shenyang (China)",
+    "Latitude": 41.8025,
+    "Longitude": 123.4281,
+    "Population (K)": 7964,
+    "Stations": 111
+  },
+  {
+    "name": "Dalian (China)",
+    "Latitude": 38.9,
+    "Longitude": 121.6,
+    "Population (K)": 5871,
+    "Stations": 100
+  },
+  {
+    "name": "Qingdao (China)",
+    "Latitude": 36.1167,
+    "Longitude": 120.4,
+    "Population (K)": 5818,
+    "Stations": 150
+  },
+  {
+    "name": "Zhengzhou (China)",
+    "Latitude": 34.7492,
+    "Longitude": 113.6605,
+    "Population (K)": 5622,
+    "Stations": 187
+  },
+  {
+    "name": "Jinan (China)",
+    "Latitude": 36.6667,
+    "Longitude": 116.9833,
+    "Population (K)": 5606,
+    "Stations": 41
+  },
+  {
+    "name": "Suzhou (China)",
+    "Latitude": 31.3,
+    "Longitude": 120.6194,
+    "Population (K)": 4330,
+    "Stations": 181
+  },
+  {
+    "name": "Taizhou (China)",
+    "Latitude": 28.6583,
+    "Longitude": 121.4221,
+    "Population (K)": 2162,
+    "Stations": 15
+  },
+  {
+    "name": "Changsha (China)",
+    "Latitude": 22.3762,
+    "Longitude": 112.6877,
+    "Population (K)": 718,
+    "Stations": 135
+  },
+  {
+    "name": "Kunming (China)",
+    "Latitude": 25.0433,
+    "Longitude": 102.7061,
+    "Population (K)": 4423,
+    "Stations": 103
+  },
+  {
+    "name": "Changchun (China)",
+    "Latitude": 43.9,
+    "Longitude": 125.2,
+    "Population (K)": 4408,
+    "Stations": 54
+  },
+  {
+    "name": "Urumqi (China)",
+    "Latitude": 43.8225,
+    "Longitude": 87.6125,
+    "Population (K)": 4335,
+    "Stations": 21
+  },
+  {
+    "name": "Hefei (China)",
+    "Latitude": 31.8639,
+    "Longitude": 117.2808,
+    "Population (K)": 4217,
+    "Stations": 154
+  },
+  {
+    "name": "Shijiazhuang (China)",
+    "Latitude": 38.0422,
+    "Longitude": 114.5086,
+    "Population (K)": 4098,
+    "Stations": 60
+  },
+  {
+    "name": "Ningbo (China)",
+    "Latitude": 29.875,
+    "Longitude": 121.5492,
+    "Population (K)": 4088,
+    "Stations": 116
+  },
+  {
+    "name": "Fuzhou (China)",
+    "Latitude": 26.0769,
+    "Longitude": 119.2917,
+    "Population (K)": 3671,
+    "Stations": 90
+  },
+  {
+    "name": "Taiyuan (China)",
+    "Latitude": 37.8733,
+    "Longitude": 112.5425,
+    "Population (K)": 3875,
+    "Stations": 23
+  },
+  {
+    "name": "Wuhu (China)",
+    "Latitude": 31.334,
+    "Longitude": 118.3622,
+    "Population (K)": 3842,
+    "Stations": 36
+  },
+  {
+    "name": "Nanning (China)",
+    "Latitude": 22.8192,
+    "Longitude": 108.315,
+    "Population (K)": 3838,
+    "Stations": 93
+  },
+  {
+    "name": "Harbin (China)",
+    "Latitude": 45.75,
+    "Longitude": 126.6333,
+    "Population (K)": 3830,
+    "Stations": 66
+  },
+  {
+    "name": "Xiamen (China)",
+    "Latitude": 24.4797,
+    "Longitude": 118.0819,
+    "Population (K)": 3707,
+    "Stations": 70
+  },
+  {
+    "name": "Wenzhou (China)",
+    "Latitude": 27.9991,
+    "Longitude": 120.6561,
+    "Population (K)": 3604,
+    "Stations": 36
+  },
+  {
+    "name": "Changzhou (China)",
+    "Latitude": 31.8122,
+    "Longitude": 119.9692,
+    "Population (K)": 3601,
+    "Stations": 43
+  },
+  {
+    "name": "Nanchang (China)",
+    "Latitude": 28.6842,
+    "Longitude": 115.8872,
+    "Population (K)": 3577,
+    "Stations": 94
+  },
+  {
+    "name": "Hohhot (China)",
+    "Latitude": 40.8151,
+    "Longitude": 111.6629,
+    "Population (K)": 3446,
+    "Stations": 43
+  },
+  {
+    "name": "Guiyang (China)",
+    "Latitude": 26.5794,
+    "Longitude": 106.7078,
+    "Population (K)": 3300,
+    "Stations": 82
+  },
+  {
+    "name": "Wuxi (China)",
+    "Latitude": 26.5895,
+    "Longitude": 111.8481,
+    "Population (K)": 853,
+    "Stations": 89
+  },
+  {
+    "name": "Lanzhou (China)",
+    "Latitude": 36.0617,
+    "Longitude": 103.8318,
+    "Population (K)": 3067,
+    "Stations": 27
+  },
+  {
+    "name": "Shaoxing (China)",
+    "Latitude": 30.0,
+    "Longitude": 120.5833,
+    "Population (K)": 2522,
+    "Stations": 38
+  },
+  {
+    "name": "Luoyang (China)",
+    "Latitude": 34.6587,
+    "Longitude": 112.4245,
+    "Population (K)": 2373,
+    "Stations": 33
+  },
+  {
+    "name": "Nantong (China)",
+    "Latitude": 31.9829,
+    "Longitude": 120.8873,
+    "Population (K)": 2261,
+    "Stations": 43
+  },
+  {
+    "name": "Jinhua (China)",
+    "Latitude": 29.1046,
+    "Longitude": 119.6494,
+    "Population (K)": 1464,
+    "Stations": 32
+  },
+  {
+    "name": "Manila (Philippines)",
+    "Latitude": 14.5958,
+    "Longitude": 120.9772,
+    "Population (K)": 24922,
+    "Stations": 33
+  },
+  {
+    "name": "Sao Paulo (Brazil)",
+    "Latitude": -23.55,
+    "Longitude": -46.6333,
+    "Population (K)": 23086,
+    "Stations": 89
+  },
+  {
+    "name": "Rio de Janeiro (Brazil)",
+    "Latitude": -22.9111,
+    "Longitude": -43.2056,
+    "Population (K)": 12592,
+    "Stations": 41
+  },
+  {
+    "name": "Belo Horizonte (Brazil)",
+    "Latitude": -19.9167,
+    "Longitude": -43.9333,
+    "Population (K)": 5328,
+    "Stations": 19
+  },
+  {
+    "name": "Brasilia (Brazil)",
+    "Latitude": -15.7939,
+    "Longitude": -47.8828,
+    "Population (K)": 3039,
+    "Stations": 27
+  },
+  {
+    "name": "Salvador (Brazil)",
+    "Latitude": -12.9747,
+    "Longitude": -38.4767,
+    "Population (K)": 2887,
+    "Stations": 20
+  },
+  {
+    "name": "Fortaleza (Brazil)",
+    "Latitude": -3.7275,
+    "Longitude": -38.5275,
+    "Population (K)": 2452,
+    "Stations": 20
+  },
+  {
+    "name": "Recife (Brazil)",
+    "Latitude": -8.05,
+    "Longitude": -34.9,
+    "Population (K)": 1653,
+    "Stations": 28
+  },
+  {
+    "name": "Porto Alegre (Brazil)",
+    "Latitude": -30.0331,
+    "Longitude": -51.23,
+    "Population (K)": 1485,
+    "Stations": 22
+  },
+  {
+    "name": "Seoul (South Korea)",
+    "Latitude": 37.56,
+    "Longitude": 126.99,
+    "Population (K)": 23016,
+    "Stations": 337
+  },
+  {
+    "name": "Busan (South Korea)",
+    "Latitude": 35.18,
+    "Longitude": 129.075,
+    "Population (K)": 3453,
+    "Stations": 125
+  },
+  {
+    "name": "Incheon (South Korea)",
+    "Latitude": 37.4833,
+    "Longitude": 126.6333,
+    "Population (K)": 2936,
+    "Stations": 56
+  },
+  {
+    "name": "Daegu (South Korea)",
+    "Latitude": 35.8717,
+    "Longitude": 128.6017,
+    "Population (K)": 2461,
+    "Stations": 88
+  },
+  {
+    "name": "Gwangju (South Korea)",
+    "Latitude": 37.3667,
+    "Longitude": 127.2833,
+    "Population (K)": 310,
+    "Stations": 20
+  },
+  {
+    "name": "Daejeon (South Korea)",
+    "Latitude": 36.351,
+    "Longitude": 127.385,
+    "Population (K)": 1475,
+    "Stations": 22
   },
   {
     "name": "Mexico City (Mexico)",
@@ -21,25 +539,144 @@
     "Stations": 163
   },
   {
-    "name": "Buenos Aires (Argentina)",
-    "Latitude": -34.5997,
-    "Longitude": -58.3819,
-    "Population (K)": 16710,
-    "Stations": 78
+    "name": "Guadalajara (Mexico)",
+    "Latitude": 20.6767,
+    "Longitude": -103.3475,
+    "Population (K)": 5525,
+    "Stations": 28
   },
   {
-    "name": "Lagos (Nigeria)",
-    "Latitude": 6.455,
-    "Longitude": 3.3841,
-    "Population (K)": 16637,
-    "Stations": 5
+    "name": "Monterrey (Mexico)",
+    "Latitude": 25.6667,
+    "Longitude": -100.3,
+    "Population (K)": 5341,
+    "Stations": 38
   },
   {
-    "name": "Gwangju (South Korea)",
-    "Latitude": 37.3667,
-    "Longitude": 127.2833,
-    "Population (K)": 310,
-    "Stations": 20
+    "name": "Cairo (Egypt)",
+    "Latitude": 30.0444,
+    "Longitude": 31.2358,
+    "Population (K)": 20296,
+    "Stations": 80
+  },
+  {
+    "name": "Los Angeles (United States)",
+    "Latitude": 34.1141,
+    "Longitude": -118.4068,
+    "Population (K)": 12121,
+    "Stations": 16
+  },
+  {
+    "name": "Chicago (United States)",
+    "Latitude": 41.8375,
+    "Longitude": -87.6866,
+    "Population (K)": 8595,
+    "Stations": 145
+  },
+  {
+    "name": "Miami (United States)",
+    "Latitude": 36.8878,
+    "Longitude": -94.8711,
+    "Population (K)": 13,
+    "Stations": 23
+  },
+  {
+    "name": "Philadelphia (United States)",
+    "Latitude": 40.0077,
+    "Longitude": -75.1339,
+    "Population (K)": 5513,
+    "Stations": 53
+  },
+  {
+    "name": "Atlanta (United States)",
+    "Latitude": 33.7628,
+    "Longitude": -84.422,
+    "Population (K)": 5047,
+    "Stations": 38
+  },
+  {
+    "name": "Boston (United States)",
+    "Latitude": 42.3188,
+    "Longitude": -71.0852,
+    "Population (K)": 4209,
+    "Stations": 125
+  },
+  {
+    "name": "Baltimore (United States)",
+    "Latitude": 39.3051,
+    "Longitude": -76.6144,
+    "Population (K)": 2205,
+    "Stations": 14
+  },
+  {
+    "name": "Cleveland (United States)",
+    "Latitude": 33.744,
+    "Longitude": -90.7285,
+    "Population (K)": 11,
+    "Stations": 18
+  },
+  {
+    "name": "Charlotte (United States)",
+    "Latitude": 42.5662,
+    "Longitude": -84.8304,
+    "Population (K)": 9,
+    "Stations": 26
+  },
+  {
+    "name": "Honolulu (United States)",
+    "Latitude": 21.3294,
+    "Longitude": -157.846,
+    "Population (K)": 835,
+    "Stations": 9
+  },
+  {
+    "name": "San Juan (United States)",
+    "Latitude": 26.1903,
+    "Longitude": -98.152,
+    "Population (K)": 35,
+    "Stations": 16
+  },
+  {
+    "name": "Dhaka (Bangladesh)",
+    "Latitude": 23.7639,
+    "Longitude": 90.3889,
+    "Population (K)": 18627,
+    "Stations": 16
+  },
+  {
+    "name": "Bangkok (Thailand)",
+    "Latitude": 13.7525,
+    "Longitude": 100.4942,
+    "Population (K)": 18007,
+    "Stations": 64
+  },
+  {
+    "name": "Moscow (Russia)",
+    "Latitude": 55.7558,
+    "Longitude": 37.6178,
+    "Population (K)": 17332,
+    "Stations": 229
+  },
+  {
+    "name": "Saint Petersburg (Russia)",
+    "Latitude": 59.95,
+    "Longitude": 30.3167,
+    "Population (K)": 5384,
+    "Stations": 72
+  },
+  {
+    "name": "Novosibirsk (Russia)",
+    "Latitude": 55.0333,
+    "Longitude": 82.9167,
+    "Population (K)": 1626,
+    "Stations": 14
+  },
+  {
+    "name": "Yekaterinburg (Russia)",
+    "Latitude": 56.8356,
+    "Longitude": 60.6128,
+    "Population (K)": 1469,
+    "Stations": 9
   },
   {
     "name": "Kazan (Russia)",
@@ -56,151 +693,102 @@
     "Stations": 10
   },
   {
-    "name": "Vancouver (Canada)",
-    "Latitude": 49.25,
-    "Longitude": -123.1,
-    "Population (K)": 2265,
-    "Stations": 53
+    "name": "Buenos Aires (Argentina)",
+    "Latitude": -34.5997,
+    "Longitude": -58.3819,
+    "Population (K)": 16710,
+    "Stations": 78
   },
   {
-    "name": "Dnipro (Ukraine)",
-    "Latitude": 48.4675,
-    "Longitude": 35.04,
-    "Population (K)": 981,
-    "Stations": 6
+    "name": "Lagos (Nigeria)",
+    "Latitude": 6.455,
+    "Longitude": 3.3841,
+    "Population (K)": 16637,
+    "Stations": 5
   },
   {
-    "name": "Shanghai (China)",
-    "Latitude": 31.1667,
-    "Longitude": 121.4667,
-    "Population (K)": 24073,
-    "Stations": 403
+    "name": "Istanbul (Turkey)",
+    "Latitude": 41.0136,
+    "Longitude": 28.955,
+    "Population (K)": 16079,
+    "Stations": 146
   },
   {
-    "name": "Helsinki (Finland)",
-    "Latitude": 60.1708,
-    "Longitude": 24.9375,
-    "Population (K)": 1268,
-    "Stations": 30
+    "name": "Ankara (Turkey)",
+    "Latitude": 39.93,
+    "Longitude": 32.85,
+    "Population (K)": 5504,
+    "Stations": 57
   },
   {
-    "name": "Oslo (Norway)",
-    "Latitude": 59.9133,
-    "Longitude": 10.7389,
-    "Population (K)": 1064,
-    "Stations": 101
+    "name": "Izmir (Turkey)",
+    "Latitude": 38.42,
+    "Longitude": 27.14,
+    "Population (K)": 4321,
+    "Stations": 24
   },
   {
-    "name": "Manila (Philippines)",
-    "Latitude": 14.5958,
-    "Longitude": 120.9772,
-    "Population (K)": 24922,
-    "Stations": 33
+    "name": "Bursa (Turkey)",
+    "Latitude": 40.1833,
+    "Longitude": 29.05,
+    "Population (K)": 2901,
+    "Stations": 40
   },
   {
-    "name": "Santiago (Chile)",
-    "Latitude": -33.4372,
-    "Longitude": -70.6506,
-    "Population (K)": 7171,
-    "Stations": 126
+    "name": "Adana (Turkey)",
+    "Latitude": 37.0,
+    "Longitude": 35.3213,
+    "Population (K)": 1766,
+    "Stations": 13
   },
   {
-    "name": "Los Angeles (United States)",
-    "Latitude": 34.1141,
-    "Longitude": -118.4068,
-    "Population (K)": 12121,
-    "Stations": 16
-  },
-  {
-    "name": "Charlotte (United States)",
-    "Latitude": 42.5662,
-    "Longitude": -84.8304,
-    "Population (K)": 9,
+    "name": "Lahore (Pakistan)",
+    "Latitude": 31.5497,
+    "Longitude": 74.3436,
+    "Population (K)": 12306,
     "Stations": 26
   },
   {
-    "name": "Rio de Janeiro (Brazil)",
-    "Latitude": -22.9111,
-    "Longitude": -43.2056,
-    "Population (K)": 12592,
-    "Stations": 41
+    "name": "Hanoi (Vietnam)",
+    "Latitude": 21.0283,
+    "Longitude": 105.8542,
+    "Population (K)": 8247,
+    "Stations": 12
   },
   {
-    "name": "Mumbai (India)",
-    "Latitude": 19.0761,
-    "Longitude": 72.8775,
-    "Population (K)": 24973,
-    "Stations": 43
+    "name": "Tehran (Iran)",
+    "Latitude": 35.6892,
+    "Longitude": 51.3889,
+    "Population (K)": 14148,
+    "Stations": 131
   },
   {
-    "name": "Novosibirsk (Russia)",
-    "Latitude": 55.0333,
-    "Longitude": 82.9167,
-    "Population (K)": 1626,
-    "Stations": 14
+    "name": "Mashhad (Iran)",
+    "Latitude": 36.3,
+    "Longitude": 59.6,
+    "Population (K)": 3372,
+    "Stations": 35
   },
   {
-    "name": "Seoul (South Korea)",
-    "Latitude": 37.56,
-    "Longitude": 126.99,
-    "Population (K)": 23016,
-    "Stations": 337
+    "name": "Karaj (Iran)",
+    "Latitude": 35.8272,
+    "Longitude": 50.9489,
+    "Population (K)": 1973,
+    "Stations": 3
   },
   {
-    "name": "Honolulu (United States)",
-    "Latitude": 21.3294,
-    "Longitude": -157.846,
-    "Population (K)": 835,
-    "Stations": 9
+    "name": "Shiraz (Iran)",
+    "Latitude": 29.61,
+    "Longitude": 52.5425,
+    "Population (K)": 1566,
+    "Stations": 24
   },
   {
-    "name": "Delhi (India)",
-    "Latitude": 28.61,
-    "Longitude": 77.23,
-    "Population (K)": 32226,
-    "Stations": 231
-  },
-  {
-    "name": "Genoa (Italy)",
-    "Latitude": 44.4111,
-    "Longitude": 8.9328,
-    "Population (K)": 580,
-    "Stations": 8
-  },
-  {
-    "name": "Lille (France)",
-    "Latitude": 50.6278,
-    "Longitude": 3.0583,
-    "Population (K)": 234,
-    "Stations": 60
-  },
-  {
-    "name": "Paris (France)",
-    "Latitude": 48.8567,
-    "Longitude": 2.3522,
-    "Population (K)": 11060,
-    "Stations": 308
-  },
-  {
-    "name": "Shenzhen (China)",
-    "Latitude": 22.535,
-    "Longitude": 114.054,
-    "Population (K)": 17619,
-    "Stations": 307
-  },
-  {
-    "name": "Beijing (China)",
-    "Latitude": 39.904,
-    "Longitude": 116.4075,
-    "Population (K)": 18522,
-    "Stations": 381
-  },
-  {
-    "name": "Jaipur (India)",
-    "Latitude": 23.4313,
-    "Longitude": 86.1493,
-    "Population (K)": 10,
-    "Stations": 11
+    "name": "Tabriz (Iran)",
+    "Latitude": 38.0814,
+    "Longitude": 46.3006,
+    "Population (K)": 1559,
+    "Stations": 18
   },
   {
     "name": "London (United Kingdom)",
@@ -210,207 +798,25 @@
     "Stations": 272
   },
   {
-    "name": "Lausanne (Switzerland)",
-    "Latitude": 46.5198,
-    "Longitude": 6.6335,
-    "Population (K)": 139,
-    "Stations": 14
-  },
-  {
-    "name": "Busan (South Korea)",
-    "Latitude": 35.18,
-    "Longitude": 129.075,
-    "Population (K)": 3453,
-    "Stations": 125
-  },
-  {
-    "name": "Stockholm (Sweden)",
-    "Latitude": 59.3294,
-    "Longitude": 18.0686,
-    "Population (K)": 1612,
-    "Stations": 100
-  },
-  {
-    "name": "Saint Petersburg (Russia)",
-    "Latitude": 59.95,
-    "Longitude": 30.3167,
-    "Population (K)": 5384,
-    "Stations": 72
-  },
-  {
-    "name": "Lima (Peru)",
-    "Latitude": -12.06,
-    "Longitude": -77.0375,
-    "Population (K)": 10320,
-    "Stations": 31
-  },
-  {
-    "name": "Cleveland (United States)",
-    "Latitude": 33.744,
-    "Longitude": -90.7285,
-    "Population (K)": 11,
-    "Stations": 18
-  },
-  {
-    "name": "Pyongyang (North Korea)",
-    "Latitude": 39.0194,
-    "Longitude": 125.7381,
-    "Population (K)": 2863,
-    "Stations": 17
-  },
-  {
-    "name": "Daegu (South Korea)",
-    "Latitude": 35.8717,
-    "Longitude": 128.6017,
-    "Population (K)": 2461,
-    "Stations": 88
-  },
-  {
-    "name": "Dongguan (China)",
-    "Latitude": 39.014,
-    "Longitude": 111.0768,
-    "Population (K)": 75,
+    "name": "Glasgow (United Kingdom)",
+    "Latitude": 55.8611,
+    "Longitude": -4.25,
+    "Population (K)": 626,
     "Stations": 15
   },
   {
-    "name": "San Juan (United States)",
-    "Latitude": 26.1903,
-    "Longitude": -98.152,
-    "Population (K)": 35,
-    "Stations": 16
+    "name": "Paris (France)",
+    "Latitude": 48.8567,
+    "Longitude": 2.3522,
+    "Population (K)": 11060,
+    "Stations": 308
   },
   {
-    "name": "Monterrey (Mexico)",
-    "Latitude": 25.6667,
-    "Longitude": -100.3,
-    "Population (K)": 5341,
-    "Stations": 38
-  },
-  {
-    "name": "Dhaka (Bangladesh)",
-    "Latitude": 23.7639,
-    "Longitude": 90.3889,
-    "Population (K)": 18627,
-    "Stations": 16
-  },
-  {
-    "name": "Madrid (Spain)",
-    "Latitude": 40.4169,
-    "Longitude": -3.7033,
-    "Population (K)": 6211,
-    "Stations": 242
-  },
-  {
-    "name": "Nuremberg (Germany)",
-    "Latitude": 49.4539,
-    "Longitude": 11.0775,
-    "Population (K)": 516,
-    "Stations": 49
-  },
-  {
-    "name": "Belo Horizonte (Brazil)",
-    "Latitude": -19.9167,
-    "Longitude": -43.9333,
-    "Population (K)": 5328,
-    "Stations": 19
-  },
-  {
-    "name": "Catania (Italy)",
-    "Latitude": 37.5,
-    "Longitude": 15.0903,
-    "Population (K)": 312,
-    "Stations": 10
-  },
-  {
-    "name": "Bangkok (Thailand)",
-    "Latitude": 13.7525,
-    "Longitude": 100.4942,
-    "Population (K)": 18007,
-    "Stations": 64
-  },
-  {
-    "name": "Hangzhou (China)",
-    "Latitude": 30.25,
-    "Longitude": 120.1675,
-    "Population (K)": 9523,
-    "Stations": 254
-  },
-  {
-    "name": "Taizhou (China)",
-    "Latitude": 28.6583,
-    "Longitude": 121.4221,
-    "Population (K)": 2162,
-    "Stations": 15
-  },
-  {
-    "name": "Minsk (Belarus)",
-    "Latitude": 53.9,
-    "Longitude": 27.5667,
-    "Population (K)": 2010,
-    "Stations": 30
-  },
-  {
-    "name": "Kuala Lumpur (Malaysia)",
-    "Latitude": 3.1478,
-    "Longitude": 101.6953,
-    "Population (K)": 8911,
-    "Stations": 138
-  },
-  {
-    "name": "Singapore (Singapore)",
-    "Latitude": 1.3,
-    "Longitude": 103.8,
-    "Population (K)": 5983,
-    "Stations": 134
-  },
-  {
-    "name": "Amsterdam (Netherlands)",
-    "Latitude": 52.3728,
-    "Longitude": 4.8936,
-    "Population (K)": 1459,
-    "Stations": 39
-  },
-  {
-    "name": "Incheon (South Korea)",
-    "Latitude": 37.4833,
-    "Longitude": 126.6333,
-    "Population (K)": 2936,
-    "Stations": 56
-  },
-  {
-    "name": "Yerevan (Armenia)",
-    "Latitude": 40.1814,
-    "Longitude": 44.5144,
-    "Population (K)": 1076,
-    "Stations": 10
-  },
-  {
-    "name": "Berlin (Germany)",
-    "Latitude": 52.52,
-    "Longitude": 13.405,
-    "Population (K)": 4473,
-    "Stations": 175
-  },
-  {
-    "name": "Brasilia (Brazil)",
-    "Latitude": -15.7939,
-    "Longitude": -47.8828,
-    "Population (K)": 3039,
-    "Stations": 27
-  },
-  {
-    "name": "Almaty (Kazakhstan)",
-    "Latitude": 43.2775,
-    "Longitude": 76.8958,
-    "Population (K)": 1917,
-    "Stations": 11
-  },
-  {
-    "name": "Taipei (Taiwan)",
-    "Latitude": 25.0375,
-    "Longitude": 121.5625,
-    "Population (K)": 9078,
-    "Stations": 119
+    "name": "Marseille (France)",
+    "Latitude": 43.2964,
+    "Longitude": 5.37,
+    "Population (K)": 871,
+    "Stations": 29
   },
   {
     "name": "Lyon (France)",
@@ -427,123 +833,32 @@
     "Stations": 37
   },
   {
-    "name": "Cairo (Egypt)",
-    "Latitude": 30.0444,
-    "Longitude": 31.2358,
-    "Population (K)": 20296,
-    "Stations": 80
+    "name": "Lille (France)",
+    "Latitude": 50.6278,
+    "Longitude": 3.0583,
+    "Population (K)": 234,
+    "Stations": 60
   },
   {
-    "name": "Kolkata (India)",
-    "Latitude": 22.5675,
-    "Longitude": 88.37,
-    "Population (K)": 18502,
-    "Stations": 48
-  },
-  {
-    "name": "Changsha (China)",
-    "Latitude": 22.3762,
-    "Longitude": 112.6877,
-    "Population (K)": 718,
-    "Stations": 135
-  },
-  {
-    "name": "Hanoi (Vietnam)",
-    "Latitude": 21.0283,
-    "Longitude": 105.8542,
-    "Population (K)": 8247,
-    "Stations": 12
-  },
-  {
-    "name": "Toronto (Canada)",
-    "Latitude": 43.7417,
-    "Longitude": -79.3733,
-    "Population (K)": 5430,
-    "Stations": 70
-  },
-  {
-    "name": "Changchun (China)",
-    "Latitude": 43.9,
-    "Longitude": 125.2,
-    "Population (K)": 4408,
-    "Stations": 54
-  },
-  {
-    "name": "Palembang (Indonesia)",
-    "Latitude": -2.9861,
-    "Longitude": 104.7556,
-    "Population (K)": 1536,
-    "Stations": 13
-  },
-  {
-    "name": "Atlanta (United States)",
-    "Latitude": 33.7628,
-    "Longitude": -84.422,
-    "Population (K)": 5047,
-    "Stations": 38
-  },
-  {
-    "name": "Bangalore (India)",
-    "Latitude": 12.9789,
-    "Longitude": 77.5917,
-    "Population (K)": 15386,
-    "Stations": 66
-  },
-  {
-    "name": "Warsaw (Poland)",
-    "Latitude": 52.23,
-    "Longitude": 21.0111,
-    "Population (K)": 1860,
-    "Stations": 39
-  },
-  {
-    "name": "Dalian (China)",
-    "Latitude": 38.9,
-    "Longitude": 121.6,
-    "Population (K)": 5871,
-    "Stations": 100
-  },
-  {
-    "name": "Recife (Brazil)",
-    "Latitude": -8.05,
-    "Longitude": -34.9,
-    "Population (K)": 1653,
+    "name": "Rennes (France)",
+    "Latitude": 48.1147,
+    "Longitude": -1.6794,
+    "Population (K)": 220,
     "Stations": 28
   },
   {
-    "name": "Suzhou (China)",
-    "Latitude": 31.3,
-    "Longitude": 120.6194,
-    "Population (K)": 4330,
-    "Stations": 181
+    "name": "Lima (Peru)",
+    "Latitude": -12.06,
+    "Longitude": -77.0375,
+    "Population (K)": 10320,
+    "Stations": 31
   },
   {
-    "name": "Tianjin (China)",
-    "Latitude": 39.1467,
-    "Longitude": 117.2056,
-    "Population (K)": 10368,
-    "Stations": 192
-  },
-  {
-    "name": "Ningbo (China)",
-    "Latitude": 29.875,
-    "Longitude": 121.5492,
-    "Population (K)": 4088,
-    "Stations": 116
-  },
-  {
-    "name": "Brussels (Belgium)",
-    "Latitude": 50.8467,
-    "Longitude": 4.3525,
-    "Population (K)": 1743,
-    "Stations": 59
-  },
-  {
-    "name": "Panama City (Panama)",
-    "Latitude": 8.9833,
-    "Longitude": -79.5167,
-    "Population (K)": 1500,
-    "Stations": 32
+    "name": "Taipei (Taiwan)",
+    "Latitude": 25.0375,
+    "Longitude": 121.5625,
+    "Population (K)": 9078,
+    "Stations": 119
   },
   {
     "name": "Taichung (Taiwan)",
@@ -553,116 +868,18 @@
     "Stations": 18
   },
   {
-    "name": "Fortaleza (Brazil)",
-    "Latitude": -3.7275,
-    "Longitude": -38.5275,
-    "Population (K)": 2452,
-    "Stations": 20
+    "name": "Kaohsiung (Taiwan)",
+    "Latitude": 22.615,
+    "Longitude": 120.2975,
+    "Population (K)": 2734,
+    "Stations": 37
   },
   {
-    "name": "Kharkiv (Ukraine)",
-    "Latitude": 49.9925,
-    "Longitude": 36.2311,
-    "Population (K)": 1446,
-    "Stations": 30
-  },
-  {
-    "name": "Quito (Ecuador)",
-    "Latitude": -0.22,
-    "Longitude": -78.5125,
-    "Population (K)": 2011,
-    "Stations": 15
-  },
-  {
-    "name": "Montreal (Canada)",
-    "Latitude": 45.5089,
-    "Longitude": -73.5617,
-    "Population (K)": 3520,
-    "Stations": 68
-  },
-  {
-    "name": "Baltimore (United States)",
-    "Latitude": 39.3051,
-    "Longitude": -76.6144,
-    "Population (K)": 2205,
-    "Stations": 14
-  },
-  {
-    "name": "Hefei (China)",
-    "Latitude": 31.8639,
-    "Longitude": 117.2808,
-    "Population (K)": 4217,
-    "Stations": 154
-  },
-  {
-    "name": "Bilbao (Spain)",
-    "Latitude": 43.2569,
-    "Longitude": -2.9236,
-    "Population (K)": 775,
-    "Stations": 42
-  },
-  {
-    "name": "Nantong (China)",
-    "Latitude": 31.9829,
-    "Longitude": 120.8873,
-    "Population (K)": 2261,
-    "Stations": 43
-  },
-  {
-    "name": "Noida (India)",
-    "Latitude": 28.57,
-    "Longitude": 77.32,
-    "Population (K)": 637,
-    "Stations": 21
-  },
-  {
-    "name": "Philadelphia (United States)",
-    "Latitude": 40.0077,
-    "Longitude": -75.1339,
-    "Population (K)": 5513,
-    "Stations": 53
-  },
-  {
-    "name": "Qingdao (China)",
-    "Latitude": 36.1167,
-    "Longitude": 120.4,
-    "Population (K)": 5818,
-    "Stations": 150
-  },
-  {
-    "name": "Istanbul (Turkey)",
-    "Latitude": 41.0136,
-    "Longitude": 28.955,
-    "Population (K)": 16079,
-    "Stations": 146
-  },
-  {
-    "name": "Turin (Italy)",
-    "Latitude": 45.0792,
-    "Longitude": 7.6761,
-    "Population (K)": 871,
-    "Stations": 23
-  },
-  {
-    "name": "Kochi (India)",
-    "Latitude": 9.97,
-    "Longitude": 76.28,
-    "Population (K)": 677,
-    "Stations": 25
-  },
-  {
-    "name": "Kyiv (Ukraine)",
-    "Latitude": 50.45,
-    "Longitude": 30.5233,
-    "Population (K)": 2963,
-    "Stations": 52
-  },
-  {
-    "name": "Barcelona (Spain)",
-    "Latitude": 41.3825,
-    "Longitude": 2.1769,
-    "Population (K)": 4800,
-    "Stations": 132
+    "name": "Kuala Lumpur (Malaysia)",
+    "Latitude": 3.1478,
+    "Longitude": 101.6953,
+    "Population (K)": 8911,
+    "Stations": 138
   },
   {
     "name": "Medellin (Colombia)",
@@ -672,81 +889,74 @@
     "Stations": 27
   },
   {
-    "name": "Hyderabad (India)",
-    "Latitude": 17.385,
-    "Longitude": 78.4867,
-    "Population (K)": 10494,
-    "Stations": 57
+    "name": "Santiago (Chile)",
+    "Latitude": -33.4372,
+    "Longitude": -70.6506,
+    "Population (K)": 7171,
+    "Stations": 126
   },
   {
-    "name": "Kaohsiung (Taiwan)",
-    "Latitude": 22.615,
-    "Longitude": 120.2975,
-    "Population (K)": 2734,
-    "Stations": 37
+    "name": "Madrid (Spain)",
+    "Latitude": 40.4169,
+    "Longitude": -3.7033,
+    "Population (K)": 6211,
+    "Stations": 242
   },
   {
-    "name": "Wuxi (China)",
-    "Latitude": 26.5895,
-    "Longitude": 111.8481,
-    "Population (K)": 853,
-    "Stations": 89
+    "name": "Barcelona (Spain)",
+    "Latitude": 41.3825,
+    "Longitude": 2.1769,
+    "Population (K)": 4800,
+    "Stations": 132
   },
   {
-    "name": "Adana (Turkey)",
-    "Latitude": 37.0,
-    "Longitude": 35.3213,
-    "Population (K)": 1766,
+    "name": "Bilbao (Spain)",
+    "Latitude": 43.2569,
+    "Longitude": -2.9236,
+    "Population (K)": 775,
+    "Stations": 42
+  },
+  {
+    "name": "Singapore (Singapore)",
+    "Latitude": 1.3,
+    "Longitude": 103.8,
+    "Population (K)": 5983,
+    "Stations": 134
+  },
+  {
+    "name": "Toronto (Canada)",
+    "Latitude": 43.7417,
+    "Longitude": -79.3733,
+    "Population (K)": 5430,
+    "Stations": 70
+  },
+  {
+    "name": "Montreal (Canada)",
+    "Latitude": 45.5089,
+    "Longitude": -73.5617,
+    "Population (K)": 3520,
+    "Stations": 68
+  },
+  {
+    "name": "Vancouver (Canada)",
+    "Latitude": 49.25,
+    "Longitude": -123.1,
+    "Population (K)": 2265,
+    "Stations": 53
+  },
+  {
+    "name": "Sydney (Australia)",
+    "Latitude": -33.8678,
+    "Longitude": 151.21,
+    "Population (K)": 4841,
     "Stations": 13
   },
   {
-    "name": "Jinhua (China)",
-    "Latitude": 29.1046,
-    "Longitude": 119.6494,
-    "Population (K)": 1464,
-    "Stations": 32
-  },
-  {
-    "name": "Shaoxing (China)",
-    "Latitude": 30.0,
-    "Longitude": 120.5833,
-    "Population (K)": 2522,
-    "Stations": 38
-  },
-  {
-    "name": "Tehran (Iran)",
-    "Latitude": 35.6892,
-    "Longitude": 51.3889,
-    "Population (K)": 14148,
-    "Stations": 131
-  },
-  {
-    "name": "Lahore (Pakistan)",
-    "Latitude": 31.5497,
-    "Longitude": 74.3436,
-    "Population (K)": 12306,
-    "Stations": 26
-  },
-  {
-    "name": "Milan (Italy)",
-    "Latitude": 45.4669,
-    "Longitude": 9.19,
-    "Population (K)": 1366,
-    "Stations": 113
-  },
-  {
-    "name": "Vienna (Austria)",
-    "Latitude": 48.2083,
-    "Longitude": 16.3725,
-    "Population (K)": 1973,
-    "Stations": 98
-  },
-  {
-    "name": "Caracas (Venezuela)",
-    "Latitude": 10.4806,
-    "Longitude": -66.9036,
-    "Population (K)": 2246,
-    "Stations": 49
+    "name": "Berlin (Germany)",
+    "Latitude": 52.52,
+    "Longitude": 13.405,
+    "Population (K)": 4473,
+    "Stations": 175
   },
   {
     "name": "Munich (Germany)",
@@ -756,123 +966,18 @@
     "Stations": 96
   },
   {
-    "name": "Pune (India)",
-    "Latitude": 18.5203,
-    "Longitude": 73.8567,
-    "Population (K)": 8231,
-    "Stations": 24
-  },
-  {
-    "name": "Santo Domingo (Dominican Republic)",
-    "Latitude": 18.4764,
-    "Longitude": -69.8933,
-    "Population (K)": 2582,
-    "Stations": 33
-  },
-  {
-    "name": "Tbilisi (Georgia)",
-    "Latitude": 41.7225,
-    "Longitude": 44.7925,
-    "Population (K)": 1118,
-    "Stations": 23
-  },
-  {
-    "name": "Budapest (Hungary)",
-    "Latitude": 47.4925,
-    "Longitude": 19.0514,
-    "Population (K)": 2998,
-    "Stations": 48
-  },
-  {
-    "name": "Foshan (China)",
-    "Latitude": 23.0292,
-    "Longitude": 113.1056,
-    "Population (K)": 9499,
-    "Stations": 61
-  },
-  {
-    "name": "Wuhu (China)",
-    "Latitude": 31.334,
-    "Longitude": 118.3622,
-    "Population (K)": 3842,
-    "Stations": 36
-  },
-  {
-    "name": "Kunming (China)",
-    "Latitude": 25.0433,
-    "Longitude": 102.7061,
-    "Population (K)": 4423,
-    "Stations": 103
-  },
-  {
-    "name": "Bucharest (Romania)",
-    "Latitude": 44.4325,
-    "Longitude": 26.1039,
-    "Population (K)": 1883,
-    "Stations": 64
-  },
-  {
-    "name": "Nanchang (China)",
-    "Latitude": 28.6842,
-    "Longitude": 115.8872,
-    "Population (K)": 3577,
-    "Stations": 94
-  },
-  {
-    "name": "Jinan (China)",
-    "Latitude": 36.6667,
-    "Longitude": 116.9833,
-    "Population (K)": 5606,
-    "Stations": 41
-  },
-  {
-    "name": "Lisbon (Portugal)",
-    "Latitude": 38.7253,
-    "Longitude": -9.15,
-    "Population (K)": 2719,
-    "Stations": 56
-  },
-  {
-    "name": "Nanning (China)",
-    "Latitude": 22.8192,
-    "Longitude": 108.315,
-    "Population (K)": 3838,
+    "name": "Hamburg (Germany)",
+    "Latitude": 53.55,
+    "Longitude": 10.0,
+    "Population (K)": 2485,
     "Stations": 93
   },
   {
-    "name": "Ahmedabad (India)",
-    "Latitude": 23.03,
-    "Longitude": 72.58,
-    "Population (K)": 8009,
-    "Stations": 31
-  },
-  {
-    "name": "Tabriz (Iran)",
-    "Latitude": 38.0814,
-    "Longitude": 46.3006,
-    "Population (K)": 1559,
-    "Stations": 18
-  },
-  {
-    "name": "Taiyuan (China)",
-    "Latitude": 37.8733,
-    "Longitude": 112.5425,
-    "Population (K)": 3875,
-    "Stations": 23
-  },
-  {
-    "name": "Sofia (Bulgaria)",
-    "Latitude": 42.7,
-    "Longitude": 23.33,
-    "Population (K)": 1548,
-    "Stations": 47
-  },
-  {
-    "name": "Shijiazhuang (China)",
-    "Latitude": 38.0422,
-    "Longitude": 114.5086,
-    "Population (K)": 4098,
-    "Stations": 60
+    "name": "Nuremberg (Germany)",
+    "Latitude": 49.4539,
+    "Longitude": 11.0775,
+    "Population (K)": 516,
+    "Stations": 49
   },
   {
     "name": "Algiers (Algeria)",
@@ -882,25 +987,46 @@
     "Stations": 19
   },
   {
-    "name": "Luoyang (China)",
-    "Latitude": 34.6587,
-    "Longitude": 112.4245,
-    "Population (K)": 2373,
-    "Stations": 33
+    "name": "Dubai (United Arab Emirates)",
+    "Latitude": 25.2631,
+    "Longitude": 55.2972,
+    "Population (K)": 3331,
+    "Stations": 53
   },
   {
-    "name": "Guiyang (China)",
-    "Latitude": 26.5794,
-    "Longitude": 106.7078,
-    "Population (K)": 3300,
-    "Stations": 82
+    "name": "Athens (Greece)",
+    "Latitude": 37.9842,
+    "Longitude": 23.7281,
+    "Population (K)": 3041,
+    "Stations": 66
   },
   {
-    "name": "Lucknow (India)",
-    "Latitude": 26.85,
-    "Longitude": 80.95,
-    "Population (K)": 3382,
-    "Stations": 21
+    "name": "Budapest (Hungary)",
+    "Latitude": 47.4925,
+    "Longitude": 19.0514,
+    "Population (K)": 2998,
+    "Stations": 48
+  },
+  {
+    "name": "Kyiv (Ukraine)",
+    "Latitude": 50.45,
+    "Longitude": 30.5233,
+    "Population (K)": 2963,
+    "Stations": 52
+  },
+  {
+    "name": "Kharkiv (Ukraine)",
+    "Latitude": 49.9925,
+    "Longitude": 36.2311,
+    "Population (K)": 1446,
+    "Stations": 30
+  },
+  {
+    "name": "Dnipro (Ukraine)",
+    "Latitude": 48.4675,
+    "Longitude": 35.04,
+    "Population (K)": 981,
+    "Stations": 6
   },
   {
     "name": "Rome (Italy)",
@@ -910,32 +1036,81 @@
     "Stations": 73
   },
   {
-    "name": "Shiraz (Iran)",
-    "Latitude": 29.61,
-    "Longitude": 52.5425,
-    "Population (K)": 1566,
-    "Stations": 24
+    "name": "Milan (Italy)",
+    "Latitude": 45.4669,
+    "Longitude": 9.19,
+    "Population (K)": 1366,
+    "Stations": 113
   },
   {
-    "name": "Hohhot (China)",
-    "Latitude": 40.8151,
-    "Longitude": 111.6629,
-    "Population (K)": 3446,
-    "Stations": 43
-  },
-  {
-    "name": "Lanzhou (China)",
-    "Latitude": 36.0617,
-    "Longitude": 103.8318,
-    "Population (K)": 3067,
+    "name": "Naples (Italy)",
+    "Latitude": 40.8333,
+    "Longitude": 14.25,
+    "Population (K)": 966,
     "Stations": 27
   },
   {
-    "name": "Izmir (Turkey)",
-    "Latitude": 38.42,
-    "Longitude": 27.14,
-    "Population (K)": 4321,
-    "Stations": 24
+    "name": "Turin (Italy)",
+    "Latitude": 45.0792,
+    "Longitude": 7.6761,
+    "Population (K)": 871,
+    "Stations": 23
+  },
+  {
+    "name": "Genoa (Italy)",
+    "Latitude": 44.4111,
+    "Longitude": 8.9328,
+    "Population (K)": 580,
+    "Stations": 8
+  },
+  {
+    "name": "Catania (Italy)",
+    "Latitude": 37.5,
+    "Longitude": 15.0903,
+    "Population (K)": 312,
+    "Stations": 10
+  },
+  {
+    "name": "Brescia (Italy)",
+    "Latitude": 45.5389,
+    "Longitude": 10.2203,
+    "Population (K)": 197,
+    "Stations": 17
+  },
+  {
+    "name": "Pyongyang (North Korea)",
+    "Latitude": 39.0194,
+    "Longitude": 125.7381,
+    "Population (K)": 2863,
+    "Stations": 17
+  },
+  {
+    "name": "Quito (Ecuador)",
+    "Latitude": -0.22,
+    "Longitude": -78.5125,
+    "Population (K)": 2011,
+    "Stations": 15
+  },
+  {
+    "name": "Lisbon (Portugal)",
+    "Latitude": 38.7253,
+    "Longitude": -9.15,
+    "Population (K)": 2719,
+    "Stations": 56
+  },
+  {
+    "name": "Caracas (Venezuela)",
+    "Latitude": 10.4806,
+    "Longitude": -66.9036,
+    "Population (K)": 2246,
+    "Stations": 49
+  },
+  {
+    "name": "Santo Domingo (Dominican Republic)",
+    "Latitude": 18.4764,
+    "Longitude": -69.8933,
+    "Population (K)": 2582,
+    "Stations": 33
   },
   {
     "name": "Tashkent (Uzbekistan)",
@@ -952,31 +1127,129 @@
     "Stations": 27
   },
   {
-    "name": "Ankara (Turkey)",
-    "Latitude": 39.93,
-    "Longitude": 32.85,
-    "Population (K)": 5504,
-    "Stations": 57
+    "name": "Minsk (Belarus)",
+    "Latitude": 53.9,
+    "Longitude": 27.5667,
+    "Population (K)": 2010,
+    "Stations": 30
   },
   {
-    "name": "Athens (Greece)",
-    "Latitude": 37.9842,
-    "Longitude": 23.7281,
-    "Population (K)": 3041,
-    "Stations": 66
+    "name": "Vienna (Austria)",
+    "Latitude": 48.2083,
+    "Longitude": 16.3725,
+    "Population (K)": 1973,
+    "Stations": 98
   },
   {
-    "name": "Bursa (Turkey)",
-    "Latitude": 40.1833,
-    "Longitude": 29.05,
-    "Population (K)": 2901,
-    "Stations": 40
+    "name": "Almaty (Kazakhstan)",
+    "Latitude": 43.2775,
+    "Longitude": 76.8958,
+    "Population (K)": 1917,
+    "Stations": 11
   },
   {
-    "name": "Mashhad (Iran)",
-    "Latitude": 36.3,
-    "Longitude": 59.6,
-    "Population (K)": 3372,
-    "Stations": 35
+    "name": "Bucharest (Romania)",
+    "Latitude": 44.4325,
+    "Longitude": 26.1039,
+    "Population (K)": 1883,
+    "Stations": 64
+  },
+  {
+    "name": "Warsaw (Poland)",
+    "Latitude": 52.23,
+    "Longitude": 21.0111,
+    "Population (K)": 1860,
+    "Stations": 39
+  },
+  {
+    "name": "Brussels (Belgium)",
+    "Latitude": 50.8467,
+    "Longitude": 4.3525,
+    "Population (K)": 1743,
+    "Stations": 59
+  },
+  {
+    "name": "Stockholm (Sweden)",
+    "Latitude": 59.3294,
+    "Longitude": 18.0686,
+    "Population (K)": 1612,
+    "Stations": 100
+  },
+  {
+    "name": "Sofia (Bulgaria)",
+    "Latitude": 42.7,
+    "Longitude": 23.33,
+    "Population (K)": 1548,
+    "Stations": 47
+  },
+  {
+    "name": "Panama City (Panama)",
+    "Latitude": 8.9833,
+    "Longitude": -79.5167,
+    "Population (K)": 1500,
+    "Stations": 32
+  },
+  {
+    "name": "Amsterdam (Netherlands)",
+    "Latitude": 52.3728,
+    "Longitude": 4.8936,
+    "Population (K)": 1459,
+    "Stations": 39
+  },
+  {
+    "name": "Rotterdam (Netherlands)",
+    "Latitude": 51.9167,
+    "Longitude": 4.5,
+    "Population (K)": 631,
+    "Stations": 71
+  },
+  {
+    "name": "Copenhagen (Denmark)",
+    "Latitude": 55.6761,
+    "Longitude": 12.5683,
+    "Population (K)": 1366,
+    "Stations": 39
+  },
+  {
+    "name": "Helsinki (Finland)",
+    "Latitude": 60.1708,
+    "Longitude": 24.9375,
+    "Population (K)": 1268,
+    "Stations": 30
+  },
+  {
+    "name": "Doha (Qatar)",
+    "Latitude": 25.2867,
+    "Longitude": 51.5333,
+    "Population (K)": 1186,
+    "Stations": 37
+  },
+  {
+    "name": "Tbilisi (Georgia)",
+    "Latitude": 41.7225,
+    "Longitude": 44.7925,
+    "Population (K)": 1118,
+    "Stations": 23
+  },
+  {
+    "name": "Yerevan (Armenia)",
+    "Latitude": 40.1814,
+    "Longitude": 44.5144,
+    "Population (K)": 1076,
+    "Stations": 10
+  },
+  {
+    "name": "Oslo (Norway)",
+    "Latitude": 59.9133,
+    "Longitude": 10.7389,
+    "Population (K)": 1064,
+    "Stations": 101
+  },
+  {
+    "name": "Lausanne (Switzerland)",
+    "Latitude": 46.5198,
+    "Longitude": 6.6335,
+    "Population (K)": 139,
+    "Stations": 14
   }
 ]

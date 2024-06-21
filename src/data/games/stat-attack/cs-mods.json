@@ -18,6 +18,12 @@
     "Class Size": 30
   },
   {
+    "name": "CS6222 Advanced Topics in Computational Biology",
+    "Module Code No.": 6222,
+    "No. of Prereqs": 1,
+    "Class Size": 30
+  },
+  {
     "name": "CS6240 Multimedia Analysis",
     "Module Code No.": 6240,
     "No. of Prereqs": 2,
@@ -30,22 +36,16 @@
     "Class Size": 500
   },
   {
-    "name": "CS6231 Advanced Topics in Security and Privacy",
-    "Module Code No.": 6231,
-    "No. of Prereqs": 3,
-    "Class Size": 30
-  },
-  {
-    "name": "CS6203 Advanced Topics in Database Systems",
-    "Module Code No.": 6203,
-    "No. of Prereqs": 1,
-    "Class Size": 30
-  },
-  {
-    "name": "CS6234 Advanced Algorithms",
-    "Module Code No.": 6234,
-    "No. of Prereqs": 1,
+    "name": "CS3281 Thematic Systems Project I",
+    "Module Code No.": 3281,
+    "No. of Prereqs": 50,
     "Class Size": 40
+  },
+  {
+    "name": "CS6204 Advanced Topics in Networking",
+    "Module Code No.": 6204,
+    "No. of Prereqs": 1,
+    "Class Size": 30
   },
   {
     "name": "CS1231 Discrete Structures",
@@ -54,28 +54,34 @@
     "Class Size": 270
   },
   {
-    "name": "CS2105 Introduction to Computer Networks",
-    "Module Code No.": 2105,
-    "No. of Prereqs": 9,
-    "Class Size": 480
-  },
-  {
-    "name": "CS2106 Introduction to Operating Systems",
-    "Module Code No.": 2106,
-    "No. of Prereqs": 4,
-    "Class Size": 400
-  },
-  {
     "name": "CS5647 Sound and Music Computing",
     "Module Code No.": 5647,
     "No. of Prereqs": 0,
     "Class Size": 80
   },
   {
-    "name": "CS6222 Advanced Topics in Computational Biology",
-    "Module Code No.": 6222,
-    "No. of Prereqs": 1,
+    "name": "CS2105 Introduction to Computer Networks",
+    "Module Code No.": 2105,
+    "No. of Prereqs": 9,
+    "Class Size": 480
+  },
+  {
+    "name": "CS6231 Advanced Topics in Security and Privacy",
+    "Module Code No.": 6231,
+    "No. of Prereqs": 3,
     "Class Size": 30
+  },
+  {
+    "name": "CS6235 Advanced Topics in Theoretical Computer Science",
+    "Module Code No.": 6235,
+    "No. of Prereqs": 1,
+    "Class Size": 40
+  },
+  {
+    "name": "CS2106 Introduction to Operating Systems",
+    "Module Code No.": 2106,
+    "No. of Prereqs": 4,
+    "Class Size": 400
   },
   {
     "name": "CS3282 Thematic Systems Project II",
@@ -90,20 +96,14 @@
     "Class Size": 20
   },
   {
-    "name": "CS3281 Thematic Systems Project I",
-    "Module Code No.": 3281,
-    "No. of Prereqs": 50,
-    "Class Size": 40
-  },
-  {
-    "name": "CS6235 Advanced Topics in Theoretical Computer Science",
-    "Module Code No.": 6235,
+    "name": "CS6220 Advanced Topics in Data Mining",
+    "Module Code No.": 6220,
     "No. of Prereqs": 1,
     "Class Size": 40
   },
   {
-    "name": "CS6204 Advanced Topics in Networking",
-    "Module Code No.": 6204,
+    "name": "CS6206 Advanced Topics in Human-Computer Interaction",
+    "Module Code No.": 6206,
     "No. of Prereqs": 1,
     "Class Size": 30
   },
@@ -120,34 +120,22 @@
     "Class Size": 75
   },
   {
-    "name": "CS6207 Advanced Natural Language Processing",
-    "Module Code No.": 6207,
+    "name": "CS6234 Advanced Algorithms",
+    "Module Code No.": 6234,
     "No. of Prereqs": 1,
     "Class Size": 40
+  },
+  {
+    "name": "CS6203 Advanced Topics in Database Systems",
+    "Module Code No.": 6203,
+    "No. of Prereqs": 1,
+    "Class Size": 30
   },
   {
     "name": "CS1101S Programming Methodology",
     "Module Code No.": 1101,
     "No. of Prereqs": 0,
     "Class Size": 80
-  },
-  {
-    "name": "CS6206 Advanced Topics in Human-Computer Interaction",
-    "Module Code No.": 6206,
-    "No. of Prereqs": 1,
-    "Class Size": 30
-  },
-  {
-    "name": "CS6220 Advanced Topics in Data Mining",
-    "Module Code No.": 6220,
-    "No. of Prereqs": 1,
-    "Class Size": 40
-  },
-  {
-    "name": "CS6208 Advanced Topics in Artificial Intelligence",
-    "Module Code No.": 6208,
-    "No. of Prereqs": 2,
-    "Class Size": 40
   },
   {
     "name": "CS5224 Cloud Computing",
@@ -168,6 +156,12 @@
     "Class Size": 180
   },
   {
+    "name": "CS6208 Advanced Topics in Artificial Intelligence",
+    "Module Code No.": 6208,
+    "No. of Prereqs": 2,
+    "Class Size": 40
+  },
+  {
     "name": "CS3244 Machine Learning",
     "Module Code No.": 3244,
     "No. of Prereqs": 24,
@@ -180,10 +174,10 @@
     "Class Size": 144
   },
   {
-    "name": "CS2109S Introduction to AI and Machine Learning",
-    "Module Code No.": 2109,
-    "No. of Prereqs": 16,
-    "Class Size": 228
+    "name": "CS6207 Advanced Natural Language Processing",
+    "Module Code No.": 6207,
+    "No. of Prereqs": 1,
+    "Class Size": 40
   },
   {
     "name": "CS5240 Theoretical Foundations in MultiMedia",
@@ -192,28 +186,10 @@
     "Class Size": 120
   },
   {
-    "name": "CS3242 3D Modeling and Animation",
-    "Module Code No.": 3242,
-    "No. of Prereqs": 17,
-    "Class Size": 40
-  },
-  {
-    "name": "CS4225 Big Data Systems for Data Science",
-    "Module Code No.": 4225,
-    "No. of Prereqs": 2,
-    "Class Size": 340
-  },
-  {
     "name": "CS2030 Programming Methodology II",
     "Module Code No.": 2030,
     "No. of Prereqs": 7,
     "Class Size": 72
-  },
-  {
-    "name": "CS5422 Wireless Networking",
-    "Module Code No.": 5422,
-    "No. of Prereqs": 10,
-    "Class Size": 30
   },
   {
     "name": "CS3219 Software Engineering Principles and Patterns",
@@ -222,10 +198,40 @@
     "Class Size": 300
   },
   {
+    "name": "CS3242 3D Modeling and Animation",
+    "Module Code No.": 3242,
+    "No. of Prereqs": 17,
+    "Class Size": 40
+  },
+  {
     "name": "CS5332 Biometric Authentication",
     "Module Code No.": 5332,
     "No. of Prereqs": 27,
     "Class Size": 110
+  },
+  {
+    "name": "CS2107 Introduction to Information Security",
+    "Module Code No.": 2107,
+    "No. of Prereqs": 8,
+    "Class Size": 220
+  },
+  {
+    "name": "CS2109S Introduction to AI and Machine Learning",
+    "Module Code No.": 2109,
+    "No. of Prereqs": 16,
+    "Class Size": 228
+  },
+  {
+    "name": "CS5422 Wireless Networking",
+    "Module Code No.": 5422,
+    "No. of Prereqs": 10,
+    "Class Size": 30
+  },
+  {
+    "name": "CS4225 Big Data Systems for Data Science",
+    "Module Code No.": 4225,
+    "No. of Prereqs": 2,
+    "Class Size": 340
   },
   {
     "name": "CS4278 Intelligent Robots: Algorithms and Systems",
@@ -240,16 +246,10 @@
     "Class Size": 50
   },
   {
-    "name": "CS5234 Algorithms at Scale",
-    "Module Code No.": 5234,
-    "No. of Prereqs": 1,
-    "Class Size": 120
-  },
-  {
-    "name": "CS2107 Introduction to Information Security",
-    "Module Code No.": 2107,
-    "No. of Prereqs": 8,
-    "Class Size": 220
+    "name": "CS5469 Fundamentals of Logic in Computer Science",
+    "Module Code No.": 5469,
+    "No. of Prereqs": 10,
+    "Class Size": 40
   },
   {
     "name": "CS4261 Algorithmic Mechanism Design",
@@ -258,10 +258,10 @@
     "Class Size": 120
   },
   {
-    "name": "CS4221 Database Applications Design and Tuning",
-    "Module Code No.": 4221,
+    "name": "CS4224 Distributed Databases",
+    "Module Code No.": 4224,
     "No. of Prereqs": 1,
-    "Class Size": 80
+    "Class Size": 100
   },
   {
     "name": "CS3203 Software Engineering Project",
@@ -276,10 +276,16 @@
     "Class Size": 320
   },
   {
-    "name": "CS2103 Software Engineering",
-    "Module Code No.": 2103,
-    "No. of Prereqs": 8,
-    "Class Size": 120
+    "name": "CS4247 Graphics Rendering Techniques",
+    "Module Code No.": 4247,
+    "No. of Prereqs": 1,
+    "Class Size": 80
+  },
+  {
+    "name": "CS3241 Computer Graphics",
+    "Module Code No.": 3241,
+    "No. of Prereqs": 10,
+    "Class Size": 260
   },
   {
     "name": "CS5461 Algorithmic Mechanism Design",
@@ -288,10 +294,10 @@
     "Class Size": 100
   },
   {
-    "name": "CS3241 Computer Graphics",
-    "Module Code No.": 3241,
-    "No. of Prereqs": 10,
-    "Class Size": 260
+    "name": "CS2103 Software Engineering",
+    "Module Code No.": 2103,
+    "No. of Prereqs": 8,
+    "Class Size": 120
   },
   {
     "name": "CS5478 Intelligent Robots: Algorithms and Systems",
@@ -306,34 +312,10 @@
     "Class Size": 240
   },
   {
-    "name": "CS3103 Computer Networks Practice",
-    "Module Code No.": 3103,
-    "No. of Prereqs": 4,
-    "Class Size": 220
-  },
-  {
-    "name": "CS2104 Programming Language Concepts",
-    "Module Code No.": 2104,
-    "No. of Prereqs": 7,
-    "Class Size": 100
-  },
-  {
-    "name": "CS5469 Fundamentals of Logic in Computer Science",
-    "Module Code No.": 5469,
-    "No. of Prereqs": 10,
+    "name": "CS4347 Sound and Music Computing",
+    "Module Code No.": 4347,
+    "No. of Prereqs": 14,
     "Class Size": 40
-  },
-  {
-    "name": "CS4248 Natural Language Processing",
-    "Module Code No.": 4248,
-    "No. of Prereqs": 17,
-    "Class Size": 140
-  },
-  {
-    "name": "CS5421 Database Applications Design and Tuning",
-    "Module Code No.": 5421,
-    "No. of Prereqs": 1,
-    "Class Size": 120
   },
   {
     "name": "CS4238 Computer Security Practice",
@@ -342,16 +324,28 @@
     "Class Size": 120
   },
   {
-    "name": "CS5322 Database Security",
-    "Module Code No.": 5322,
-    "No. of Prereqs": 1,
-    "Class Size": 80
+    "name": "CS2104 Programming Language Concepts",
+    "Module Code No.": 2104,
+    "No. of Prereqs": 7,
+    "Class Size": 100
   },
   {
-    "name": "CS5344 Big-Data Analytics Technology",
-    "Module Code No.": 5344,
+    "name": "CS4248 Natural Language Processing",
+    "Module Code No.": 4248,
+    "No. of Prereqs": 17,
+    "Class Size": 140
+  },
+  {
+    "name": "CS3103 Computer Networks Practice",
+    "Module Code No.": 3103,
+    "No. of Prereqs": 4,
+    "Class Size": 220
+  },
+  {
+    "name": "CS5421 Database Applications Design and Tuning",
+    "Module Code No.": 5421,
     "No. of Prereqs": 1,
-    "Class Size": 150
+    "Class Size": 120
   },
   {
     "name": "CS4231 Parallel and Distributed Algorithms",
@@ -366,34 +360,16 @@
     "Class Size": 220
   },
   {
-    "name": "CS4347 Sound and Music Computing",
-    "Module Code No.": 4347,
-    "No. of Prereqs": 14,
-    "Class Size": 40
-  },
-  {
-    "name": "CS4247 Graphics Rendering Techniques",
-    "Module Code No.": 4247,
-    "No. of Prereqs": 1,
-    "Class Size": 80
-  },
-  {
     "name": "CS2309 CS Research Methodology",
     "Module Code No.": 2309,
     "No. of Prereqs": 10,
     "Class Size": 40
   },
   {
-    "name": "CS5424 Distributed Databases",
-    "Module Code No.": 5424,
+    "name": "CS5223 Distributed Systems",
+    "Module Code No.": 5223,
     "No. of Prereqs": 1,
-    "Class Size": 100
-  },
-  {
-    "name": "CS2108 Introduction to Media Computing",
-    "Module Code No.": 2108,
-    "No. of Prereqs": 7,
-    "Class Size": 100
+    "Class Size": 120
   },
   {
     "name": "CS3264 Foundations of Machine Learning",
@@ -402,16 +378,46 @@
     "Class Size": 100
   },
   {
+    "name": "CS5239 Computer System Performance Analysis",
+    "Module Code No.": 5239,
+    "No. of Prereqs": 16,
+    "Class Size": 150
+  },
+  {
+    "name": "CS5234 Algorithms at Scale",
+    "Module Code No.": 5234,
+    "No. of Prereqs": 1,
+    "Class Size": 120
+  },
+  {
     "name": "CS5331 Web Security",
     "Module Code No.": 5331,
     "No. of Prereqs": 1,
     "Class Size": 120
   },
   {
-    "name": "CS5239 Computer System Performance Analysis",
-    "Module Code No.": 5239,
+    "name": "CS2108 Introduction to Media Computing",
+    "Module Code No.": 2108,
+    "No. of Prereqs": 7,
+    "Class Size": 100
+  },
+  {
+    "name": "CS3247 Game Development",
+    "Module Code No.": 3247,
+    "No. of Prereqs": 1,
+    "Class Size": 100
+  },
+  {
+    "name": "CS5246 Text Mining",
+    "Module Code No.": 5246,
     "No. of Prereqs": 16,
     "Class Size": 150
+  },
+  {
+    "name": "CS5322 Database Security",
+    "Module Code No.": 5322,
+    "No. of Prereqs": 1,
+    "Class Size": 80
   },
   {
     "name": "CS3263 Foundations of Artificial Intelligence",
@@ -426,18 +432,6 @@
     "Class Size": 220
   },
   {
-    "name": "CS4230 Foundations of Modern Cryptography",
-    "Module Code No.": 4230,
-    "No. of Prereqs": 9,
-    "Class Size": 40
-  },
-  {
-    "name": "CS5246 Text Mining",
-    "Module Code No.": 5246,
-    "No. of Prereqs": 16,
-    "Class Size": 150
-  },
-  {
     "name": "CS5562 Trustworthy Machine Learning",
     "Module Code No.": 5562,
     "No. of Prereqs": 8,
@@ -450,10 +444,10 @@
     "Class Size": 60
   },
   {
-    "name": "CS4220 Knowledge Discovery Methods in Bioinformatics",
-    "Module Code No.": 4220,
-    "No. of Prereqs": 3,
-    "Class Size": 40
+    "name": "CS2113 Software Engineering & Object-Oriented Programming",
+    "Module Code No.": 2113,
+    "No. of Prereqs": 4,
+    "Class Size": 80
   },
   {
     "name": "CS2220 Introduction to Computational Biology",
@@ -462,69 +456,27 @@
     "Class Size": 40
   },
   {
-    "name": "CS4269 Fundamentals of Logic in Computer Science",
-    "Module Code No.": 4269,
-    "No. of Prereqs": 10,
-    "Class Size": 40
-  },
-  {
-    "name": "CS2113 Software Engineering & Object-Oriented Programming",
-    "Module Code No.": 2113,
-    "No. of Prereqs": 4,
-    "Class Size": 80
-  },
-  {
-    "name": "CS3247 Game Development",
-    "Module Code No.": 3247,
-    "No. of Prereqs": 1,
-    "Class Size": 100
-  },
-  {
-    "name": "CS4268 Quantum Computing",
-    "Module Code No.": 4268,
-    "No. of Prereqs": 13,
-    "Class Size": 50
-  },
-  {
     "name": "CS3235 Computer Security",
     "Module Code No.": 3235,
     "No. of Prereqs": 7,
     "Class Size": 200
   },
   {
-    "name": "CS5260 Neural Networks and Deep Learning II",
-    "Module Code No.": 5260,
-    "No. of Prereqs": 1,
-    "Class Size": 110
-  },
-  {
-    "name": "CS3233 Competitive Programming",
-    "Module Code No.": 3233,
-    "No. of Prereqs": 7,
+    "name": "CS4230 Foundations of Modern Cryptography",
+    "Module Code No.": 4230,
+    "No. of Prereqs": 9,
     "Class Size": 40
   },
   {
-    "name": "CS5228 Knowledge Discovery and Data Mining",
-    "Module Code No.": 5228,
-    "No. of Prereqs": 14,
-    "Class Size": 220
-  },
-  {
-    "name": "CS5439 Software Security",
-    "Module Code No.": 5439,
-    "No. of Prereqs": 5,
-    "Class Size": 60
+    "name": "CS5424 Distributed Databases",
+    "Module Code No.": 5424,
+    "No. of Prereqs": 1,
+    "Class Size": 100
   },
   {
     "name": "CS5346 Information Visualisation",
     "Module Code No.": 5346,
     "No. of Prereqs": 14,
-    "Class Size": 140
-  },
-  {
-    "name": "CS5425 Big Data Systems for Data Science",
-    "Module Code No.": 5425,
-    "No. of Prereqs": 2,
     "Class Size": 140
   },
   {
@@ -534,10 +486,34 @@
     "Class Size": 120
   },
   {
-    "name": "CS5446 AI Planning and Decision Making",
-    "Module Code No.": 5446,
+    "name": "CS5228 Knowledge Discovery and Data Mining",
+    "Module Code No.": 5228,
+    "No. of Prereqs": 14,
+    "Class Size": 220
+  },
+  {
+    "name": "CS4268 Quantum Computing",
+    "Module Code No.": 4268,
     "No. of Prereqs": 13,
-    "Class Size": 120
+    "Class Size": 50
+  },
+  {
+    "name": "CS5439 Software Security",
+    "Module Code No.": 5439,
+    "No. of Prereqs": 5,
+    "Class Size": 60
+  },
+  {
+    "name": "CS3233 Competitive Programming",
+    "Module Code No.": 3233,
+    "No. of Prereqs": 7,
+    "Class Size": 40
+  },
+  {
+    "name": "CS5425 Big Data Systems for Data Science",
+    "Module Code No.": 5425,
+    "No. of Prereqs": 2,
+    "Class Size": 140
   },
   {
     "name": "CS3213 Foundations of Software Engineering",
@@ -546,40 +522,40 @@
     "Class Size": 120
   },
   {
-    "name": "CS3240 Interaction Design",
-    "Module Code No.": 3240,
-    "No. of Prereqs": 12,
-    "Class Size": 150
-  },
-  {
-    "name": "CS3237 Introduction to Internet of Things",
-    "Module Code No.": 3237,
-    "No. of Prereqs": 11,
-    "Class Size": 160
-  },
-  {
     "name": "CS4218 Software Testing",
     "Module Code No.": 4218,
     "No. of Prereqs": 2,
     "Class Size": 200
   },
   {
-    "name": "CS4211 Formal Methods for Software Engineering",
-    "Module Code No.": 4211,
-    "No. of Prereqs": 5,
-    "Class Size": 180
+    "name": "CS5344 Big-Data Analytics Technology",
+    "Module Code No.": 5344,
+    "No. of Prereqs": 1,
+    "Class Size": 150
   },
   {
-    "name": "CS5223 Distributed Systems",
-    "Module Code No.": 5223,
-    "No. of Prereqs": 1,
+    "name": "CS3240 Interaction Design",
+    "Module Code No.": 3240,
+    "No. of Prereqs": 12,
+    "Class Size": 150
+  },
+  {
+    "name": "CS4269 Fundamentals of Logic in Computer Science",
+    "Module Code No.": 4269,
+    "No. of Prereqs": 10,
+    "Class Size": 40
+  },
+  {
+    "name": "CS5446 AI Planning and Decision Making",
+    "Module Code No.": 5446,
+    "No. of Prereqs": 13,
     "Class Size": 120
   },
   {
-    "name": "CS4224 Distributed Databases",
-    "Module Code No.": 4224,
+    "name": "CS5260 Neural Networks and Deep Learning II",
+    "Module Code No.": 5260,
     "No. of Prereqs": 1,
-    "Class Size": 100
+    "Class Size": 110
   },
   {
     "name": "CS5330 Randomized Algorithms",
@@ -588,10 +564,58 @@
     "Class Size": 110
   },
   {
+    "name": "CS3237 Introduction to Internet of Things",
+    "Module Code No.": 3237,
+    "No. of Prereqs": 11,
+    "Class Size": 160
+  },
+  {
+    "name": "CS5340 Uncertainty Modelling in AI",
+    "Module Code No.": 5340,
+    "No. of Prereqs": 13,
+    "Class Size": 120
+  },
+  {
+    "name": "CS4211 Formal Methods for Software Engineering",
+    "Module Code No.": 4211,
+    "No. of Prereqs": 5,
+    "Class Size": 180
+  },
+  {
+    "name": "CS5231 Systems Security",
+    "Module Code No.": 5231,
+    "No. of Prereqs": 1,
+    "Class Size": 120
+  },
+  {
+    "name": "CS4220 Knowledge Discovery Methods in Bioinformatics",
+    "Module Code No.": 4220,
+    "No. of Prereqs": 3,
+    "Class Size": 40
+  },
+  {
     "name": "CS4246 AI Planning and Decision Making",
     "Module Code No.": 4246,
     "No. of Prereqs": 13,
     "Class Size": 120
+  },
+  {
+    "name": "CS4221 Database Applications Design and Tuning",
+    "Module Code No.": 4221,
+    "No. of Prereqs": 1,
+    "Class Size": 80
+  },
+  {
+    "name": "CS5339 Theory and Algorithms for Machine Learning",
+    "Module Code No.": 5339,
+    "No. of Prereqs": 2,
+    "Class Size": 110
+  },
+  {
+    "name": "CS5242 Neural Networks and Deep Learning",
+    "Module Code No.": 5242,
+    "No. of Prereqs": 2,
+    "Class Size": 45
   },
   {
     "name": "CS3216 Software Product Engineering for Digital Markets",
@@ -606,34 +630,10 @@
     "Class Size": 175
   },
   {
-    "name": "CS4277 3D Computer Vision",
-    "Module Code No.": 4277,
-    "No. of Prereqs": 11,
-    "Class Size": 60
-  },
-  {
     "name": "CS3217 Software Engineering on Modern Application Platforms",
     "Module Code No.": 3217,
     "No. of Prereqs": 4,
     "Class Size": 45
-  },
-  {
-    "name": "CS5242 Neural Networks and Deep Learning",
-    "Module Code No.": 5242,
-    "No. of Prereqs": 2,
-    "Class Size": 45
-  },
-  {
-    "name": "CS5340 Uncertainty Modelling in AI",
-    "Module Code No.": 5340,
-    "No. of Prereqs": 13,
-    "Class Size": 120
-  },
-  {
-    "name": "CS5231 Systems Security",
-    "Module Code No.": 5231,
-    "No. of Prereqs": 1,
-    "Class Size": 120
   },
   {
     "name": "CS3236 Introduction to Information Theory",
@@ -642,34 +642,16 @@
     "Class Size": 80
   },
   {
+    "name": "CS4277 3D Computer Vision",
+    "Module Code No.": 4277,
+    "No. of Prereqs": 11,
+    "Class Size": 60
+  },
+  {
     "name": "CS4236 Cryptography Theory and Practice",
     "Module Code No.": 4236,
     "No. of Prereqs": 11,
     "Class Size": 100
-  },
-  {
-    "name": "CS5229 Advanced Computer Networks",
-    "Module Code No.": 5229,
-    "No. of Prereqs": 2,
-    "Class Size": 130
-  },
-  {
-    "name": "CS5230 Computational Complexity",
-    "Module Code No.": 5230,
-    "No. of Prereqs": 2,
-    "Class Size": 48
-  },
-  {
-    "name": "CS5339 Theory and Algorithms for Machine Learning",
-    "Module Code No.": 5339,
-    "No. of Prereqs": 2,
-    "Class Size": 110
-  },
-  {
-    "name": "CS3231 Theory of Computation",
-    "Module Code No.": 3231,
-    "No. of Prereqs": 7,
-    "Class Size": 50
   },
   {
     "name": "CS5233 Simulation and Modelling Techniques",
@@ -678,26 +660,32 @@
     "Class Size": 80
   },
   {
+    "name": "CS5230 Computational Complexity",
+    "Module Code No.": 5230,
+    "No. of Prereqs": 2,
+    "Class Size": 48
+  },
+  {
+    "name": "CS3231 Theory of Computation",
+    "Module Code No.": 3231,
+    "No. of Prereqs": 7,
+    "Class Size": 50
+  },
+  {
     "name": "CS5222 Advanced Computer Architecture",
     "Module Code No.": 5222,
     "No. of Prereqs": 2,
     "Class Size": 48
   },
   {
+    "name": "CS5229 Advanced Computer Networks",
+    "Module Code No.": 5229,
+    "No. of Prereqs": 2,
+    "Class Size": 130
+  },
+  {
     "name": "CS5219 Automated Software Validation",
     "Module Code No.": 5219,
-    "No. of Prereqs": 2,
-    "Class Size": 60
-  },
-  {
-    "name": "CS5250 Advanced Operating Systems",
-    "Module Code No.": 5250,
-    "No. of Prereqs": 2,
-    "Class Size": 120
-  },
-  {
-    "name": "CS5218 Principles and Practice of Program Analysis",
-    "Module Code No.": 5218,
     "No. of Prereqs": 2,
     "Class Size": 60
   },
@@ -708,15 +696,33 @@
     "Class Size": 120
   },
   {
-    "name": "CS4240 Interaction Design for Virtual and Augmented Reality",
-    "Module Code No.": 4240,
-    "No. of Prereqs": 3,
-    "Class Size": 60
+    "name": "CS5250 Advanced Operating Systems",
+    "Module Code No.": 5250,
+    "No. of Prereqs": 2,
+    "Class Size": 120
+  },
+  {
+    "name": "CS4223 Multi-core Architectures",
+    "Module Code No.": 4223,
+    "No. of Prereqs": 5,
+    "Class Size": 120
   },
   {
     "name": "CS4350 Game Development Project",
     "Module Code No.": 4350,
     "No. of Prereqs": 4,
+    "Class Size": 60
+  },
+  {
+    "name": "CS4242 Social Media Computing",
+    "Module Code No.": 4242,
+    "No. of Prereqs": 2,
+    "Class Size": 80
+  },
+  {
+    "name": "CS5218 Principles and Practice of Program Analysis",
+    "Module Code No.": 5218,
+    "No. of Prereqs": 2,
     "Class Size": 60
   },
   {
@@ -726,10 +732,10 @@
     "Class Size": 120
   },
   {
-    "name": "CS4234 Optimisation Algorithms",
-    "Module Code No.": 4234,
-    "No. of Prereqs": 9,
-    "Class Size": 90
+    "name": "CS4240 Interaction Design for Virtual and Augmented Reality",
+    "Module Code No.": 4240,
+    "No. of Prereqs": 3,
+    "Class Size": 60
   },
   {
     "name": "CS5232 Formal Specification and Design Techniques",
@@ -738,22 +744,16 @@
     "Class Size": 80
   },
   {
+    "name": "CS4234 Optimisation Algorithms",
+    "Module Code No.": 4234,
+    "No. of Prereqs": 9,
+    "Class Size": 90
+  },
+  {
     "name": "CS4212 Compiler Design",
     "Module Code No.": 4212,
     "No. of Prereqs": 2,
     "Class Size": 100
-  },
-  {
-    "name": "CS4242 Social Media Computing",
-    "Module Code No.": 4242,
-    "No. of Prereqs": 2,
-    "Class Size": 80
-  },
-  {
-    "name": "CS4223 Multi-core Architectures",
-    "Module Code No.": 4223,
-    "No. of Prereqs": 5,
-    "Class Size": 120
   },
   {
     "name": "CS4249 Phenomena and Theories of Human-Computer Interaction",

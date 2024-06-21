@@ -1,842 +1,8360 @@
 [
   {
-    "name": "Dialga",
-    "Height (m)": 5.4,
-    "Weight (kg)": 683.0,
-    "HP": 100,
-    "Attack": 120
-  },
-  {
-    "name": "Gastly",
-    "Height (m)": 1.3,
-    "Weight (kg)": 0.1,
-    "HP": 30,
-    "Attack": 35
-  },
-  {
-    "name": "Shedinja",
-    "Height (m)": 0.8,
-    "Weight (kg)": 1.2,
-    "HP": 1,
-    "Attack": 90
-  },
-  {
-    "name": "Jigglypuff",
-    "Height (m)": 0.5,
-    "Weight (kg)": 5.5,
-    "HP": 115,
-    "Attack": 45
-  },
-  {
-    "name": "Gyarados",
-    "Height (m)": 6.5,
-    "Weight (kg)": 235.0,
-    "HP": 95,
-    "Attack": 125
-  },
-  {
-    "name": "Dragonite",
-    "Height (m)": 2.2,
-    "Weight (kg)": 210.0,
-    "HP": 91,
-    "Attack": 134
-  },
-  {
-    "name": "Excadrill",
+    "name": "Bulbasaur",
+    "Pokedex ID": 1,
     "Height (m)": 0.7,
-    "Weight (kg)": 40.4,
-    "HP": 110,
-    "Attack": 135
-  },
-  {
-    "name": "Steelix",
-    "Height (m)": 9.2,
-    "Weight (kg)": 400.0,
-    "HP": 75,
-    "Attack": 85
-  },
-  {
-    "name": "Tyranitar",
-    "Height (m)": 2.0,
-    "Weight (kg)": 202.0,
-    "HP": 100,
-    "Attack": 134
-  },
-  {
-    "name": "Shuckle",
-    "Height (m)": 0.6,
-    "Weight (kg)": 20.5,
-    "HP": 20,
-    "Attack": 10
-  },
-  {
-    "name": "Torterra",
-    "Height (m)": 2.2,
-    "Weight (kg)": 310.0,
-    "HP": 95,
-    "Attack": 109
-  },
-  {
-    "name": "Victini",
-    "Height (m)": 0.4,
-    "Weight (kg)": 4.0,
-    "HP": 100,
-    "Attack": 100
-  },
-  {
-    "name": "Ekans",
-    "Height (m)": 2.0,
     "Weight (kg)": 6.9,
-    "HP": 35,
-    "Attack": 60
+    "Total Stats": 318
   },
   {
-    "name": "Celebi",
-    "Height (m)": 0.6,
-    "Weight (kg)": 5.0,
-    "HP": 100,
-    "Attack": 100
-  },
-  {
-    "name": "Heatran",
-    "Height (m)": 1.7,
-    "Weight (kg)": 430.0,
-    "HP": 91,
-    "Attack": 90
-  },
-  {
-    "name": "Joltik",
-    "Height (m)": 0.1,
-    "Weight (kg)": 0.6,
-    "HP": 50,
-    "Attack": 47
-  },
-  {
-    "name": "Marill",
-    "Height (m)": 0.4,
-    "Weight (kg)": 8.5,
-    "HP": 70,
-    "Attack": 20
-  },
-  {
-    "name": "Cottonee",
-    "Height (m)": 0.3,
-    "Weight (kg)": 0.6,
-    "HP": 40,
-    "Attack": 27
-  },
-  {
-    "name": "Terrakion",
-    "Height (m)": 1.9,
-    "Weight (kg)": 260.0,
-    "HP": 91,
-    "Attack": 129
-  },
-  {
-    "name": "Abra",
-    "Height (m)": 0.9,
-    "Weight (kg)": 19.5,
-    "HP": 25,
-    "Attack": 20
-  },
-  {
-    "name": "Rotom",
-    "Height (m)": 0.3,
-    "Weight (kg)": 0.3,
-    "HP": 50,
-    "Attack": 50
-  },
-  {
-    "name": "Natu",
-    "Height (m)": 0.2,
-    "Weight (kg)": 2.0,
-    "HP": 40,
-    "Attack": 50
-  },
-  {
-    "name": "Stunfisk",
-    "Height (m)": 0.7,
-    "Weight (kg)": 11.0,
-    "HP": 109,
-    "Attack": 66
-  },
-  {
-    "name": "Hoppip",
-    "Height (m)": 0.4,
-    "Weight (kg)": 0.5,
-    "HP": 35,
-    "Attack": 35
-  },
-  {
-    "name": "Drifloon",
-    "Height (m)": 0.4,
-    "Weight (kg)": 1.2,
-    "HP": 90,
-    "Attack": 50
-  },
-  {
-    "name": "Magnemite",
-    "Height (m)": 0.3,
-    "Weight (kg)": 6.0,
-    "HP": 25,
-    "Attack": 35
-  },
-  {
-    "name": "Pidgey",
-    "Height (m)": 0.3,
-    "Weight (kg)": 1.8,
-    "HP": 40,
-    "Attack": 45
-  },
-  {
-    "name": "Cobalion",
-    "Height (m)": 2.1,
-    "Weight (kg)": 250.0,
-    "HP": 91,
-    "Attack": 90
-  },
-  {
-    "name": "Ralts",
-    "Height (m)": 0.4,
-    "Weight (kg)": 6.6,
-    "HP": 28,
-    "Attack": 25
-  },
-  {
-    "name": "Caterpie",
-    "Height (m)": 0.3,
-    "Weight (kg)": 2.9,
-    "HP": 45,
-    "Attack": 30
-  },
-  {
-    "name": "Breloom",
-    "Height (m)": 1.2,
-    "Weight (kg)": 39.2,
-    "HP": 60,
-    "Attack": 130
-  },
-  {
-    "name": "Litwick",
-    "Height (m)": 0.3,
-    "Weight (kg)": 3.1,
-    "HP": 50,
-    "Attack": 30
-  },
-  {
-    "name": "Rattata",
-    "Height (m)": 0.3,
-    "Weight (kg)": 3.5,
-    "HP": 30,
-    "Attack": 56
-  },
-  {
-    "name": "Heracross",
-    "Height (m)": 1.5,
-    "Weight (kg)": 54.0,
-    "HP": 80,
-    "Attack": 125
-  },
-  {
-    "name": "Shieldon",
-    "Height (m)": 0.5,
-    "Weight (kg)": 57.0,
-    "HP": 30,
-    "Attack": 42
-  },
-  {
-    "name": "Dratini",
-    "Height (m)": 1.8,
-    "Weight (kg)": 3.3,
-    "HP": 41,
-    "Attack": 64
-  },
-  {
-    "name": "Misdreavus",
-    "Height (m)": 0.7,
-    "Weight (kg)": 1.0,
-    "HP": 60,
-    "Attack": 60
-  },
-  {
-    "name": "Weedle",
-    "Height (m)": 0.3,
-    "Weight (kg)": 3.2,
-    "HP": 40,
-    "Attack": 35
-  },
-  {
-    "name": "Registeel",
-    "Height (m)": 1.9,
-    "Weight (kg)": 205.0,
-    "HP": 80,
-    "Attack": 75
-  },
-  {
-    "name": "Gallade",
-    "Height (m)": 1.6,
-    "Weight (kg)": 52.0,
-    "HP": 68,
-    "Attack": 125
-  },
-  {
-    "name": "Lotad",
-    "Height (m)": 0.5,
-    "Weight (kg)": 2.6,
-    "HP": 40,
-    "Attack": 30
-  },
-  {
-    "name": "Surskit",
-    "Height (m)": 0.5,
-    "Weight (kg)": 1.7,
-    "HP": 40,
-    "Attack": 30
-  },
-  {
-    "name": "Meditite",
-    "Height (m)": 0.6,
-    "Weight (kg)": 11.2,
-    "HP": 30,
-    "Attack": 40
-  },
-  {
-    "name": "Kingdra",
-    "Height (m)": 1.8,
-    "Weight (kg)": 152.0,
-    "HP": 75,
-    "Attack": 95
-  },
-  {
-    "name": "Paras",
-    "Height (m)": 0.3,
-    "Weight (kg)": 5.4,
-    "HP": 35,
-    "Attack": 70
-  },
-  {
-    "name": "Lunatone",
+    "name": "Ivysaur",
+    "Pokedex ID": 2,
     "Height (m)": 1.0,
-    "Weight (kg)": 168.0,
-    "HP": 90,
-    "Attack": 55
+    "Weight (kg)": 13.0,
+    "Total Stats": 405
   },
   {
-    "name": "Umbreon",
-    "Height (m)": 1.0,
-    "Weight (kg)": 27.0,
-    "HP": 95,
-    "Attack": 65
+    "name": "Venusaur",
+    "Pokedex ID": 3,
+    "Height (m)": 2.0,
+    "Weight (kg)": 100.0,
+    "Total Stats": 525
   },
   {
-    "name": "Lucario",
-    "Height (m)": 1.2,
-    "Weight (kg)": 54.0,
-    "HP": 70,
-    "Attack": 110
-  },
-  {
-    "name": "Omanyte",
-    "Height (m)": 0.4,
-    "Weight (kg)": 7.5,
-    "HP": 35,
-    "Attack": 40
-  },
-  {
-    "name": "Murkrow",
-    "Height (m)": 0.5,
-    "Weight (kg)": 2.1,
-    "HP": 60,
-    "Attack": 85
-  },
-  {
-    "name": "Aerodactyl",
-    "Height (m)": 1.8,
-    "Weight (kg)": 59.0,
-    "HP": 80,
-    "Attack": 105
-  },
-  {
-    "name": "Nincada",
-    "Height (m)": 0.5,
-    "Weight (kg)": 5.5,
-    "HP": 31,
-    "Attack": 45
-  },
-  {
-    "name": "Chinchou",
-    "Height (m)": 0.5,
-    "Weight (kg)": 12.0,
-    "HP": 75,
-    "Attack": 38
-  },
-  {
-    "name": "Exeggcute",
-    "Height (m)": 0.4,
-    "Weight (kg)": 2.5,
-    "HP": 60,
-    "Attack": 40
-  },
-  {
-    "name": "Aron",
-    "Height (m)": 0.4,
-    "Weight (kg)": 60.0,
-    "HP": 50,
-    "Attack": 70
-  },
-  {
-    "name": "Stunky",
-    "Height (m)": 0.4,
-    "Weight (kg)": 19.2,
-    "HP": 63,
-    "Attack": 63
-  },
-  {
-    "name": "Pikachu",
-    "Height (m)": 0.4,
-    "Weight (kg)": 6.0,
-    "HP": 35,
-    "Attack": 55
-  },
-  {
-    "name": "Dewgong",
-    "Height (m)": 1.7,
-    "Weight (kg)": 120.0,
-    "HP": 90,
-    "Attack": 70
-  },
-  {
-    "name": "Beldum",
-    "Height (m)": 0.6,
-    "Weight (kg)": 95.2,
-    "HP": 40,
-    "Attack": 55
-  },
-  {
-    "name": "Forretress",
-    "Height (m)": 1.2,
-    "Weight (kg)": 125.8,
-    "HP": 75,
-    "Attack": 90
-  },
-  {
-    "name": "Empoleon",
-    "Height (m)": 1.7,
-    "Weight (kg)": 84.5,
-    "HP": 84,
-    "Attack": 86
-  },
-  {
-    "name": "Poliwrath",
-    "Height (m)": 1.3,
-    "Weight (kg)": 54.0,
-    "HP": 90,
-    "Attack": 95
-  },
-  {
-    "name": "Swinub",
-    "Height (m)": 0.4,
-    "Weight (kg)": 6.5,
-    "HP": 50,
-    "Attack": 50
-  },
-  {
-    "name": "Spiritomb",
-    "Height (m)": 1.0,
-    "Weight (kg)": 108.0,
-    "HP": 50,
-    "Attack": 92
-  },
-  {
-    "name": "Anorith",
-    "Height (m)": 0.7,
-    "Weight (kg)": 12.5,
-    "HP": 45,
-    "Attack": 95
-  },
-  {
-    "name": "Rhyhorn",
-    "Height (m)": 1.0,
-    "Weight (kg)": 115.0,
-    "HP": 80,
-    "Attack": 85
-  },
-  {
-    "name": "Articuno",
-    "Height (m)": 1.7,
-    "Weight (kg)": 55.4,
-    "HP": 90,
-    "Attack": 85
-  },
-  {
-    "name": "Sudowoodo",
-    "Height (m)": 1.2,
-    "Weight (kg)": 38.0,
-    "HP": 70,
-    "Attack": 100
-  },
-  {
-    "name": "Spheal",
-    "Height (m)": 0.8,
-    "Weight (kg)": 39.5,
-    "HP": 70,
-    "Attack": 40
-  },
-  {
-    "name": "Togetic",
-    "Height (m)": 0.6,
-    "Weight (kg)": 3.2,
-    "HP": 55,
-    "Attack": 40
-  },
-  {
-    "name": "Slowpoke",
-    "Height (m)": 1.2,
-    "Weight (kg)": 36.0,
-    "HP": 90,
-    "Attack": 65
-  },
-  {
-    "name": "Tentacool",
-    "Height (m)": 0.9,
-    "Weight (kg)": 45.5,
-    "HP": 40,
-    "Attack": 40
+    "name": "Venusaur Mega Venusaur",
+    "Pokedex ID": 3,
+    "Height (m)": 2.4,
+    "Weight (kg)": 155.5,
+    "Total Stats": 625
   },
   {
     "name": "Charmander",
+    "Pokedex ID": 4,
     "Height (m)": 0.6,
     "Weight (kg)": 8.5,
-    "HP": 39,
-    "Attack": 52
+    "Total Stats": 309
   },
   {
-    "name": "Frillish",
-    "Height (m)": 1.2,
-    "Weight (kg)": 33.0,
-    "HP": 55,
-    "Attack": 40
-  },
-  {
-    "name": "Golett",
-    "Height (m)": 1.0,
-    "Weight (kg)": 92.0,
-    "HP": 59,
-    "Attack": 74
-  },
-  {
-    "name": "Skarmory",
-    "Height (m)": 1.7,
-    "Weight (kg)": 50.5,
-    "HP": 65,
-    "Attack": 80
+    "name": "Charmeleon",
+    "Pokedex ID": 5,
+    "Height (m)": 1.1,
+    "Weight (kg)": 19.0,
+    "Total Stats": 405
   },
   {
     "name": "Charizard",
+    "Pokedex ID": 6,
     "Height (m)": 1.7,
     "Weight (kg)": 90.5,
-    "HP": 78,
-    "Attack": 84
+    "Total Stats": 534
   },
   {
-    "name": "Sneasel",
-    "Height (m)": 0.9,
-    "Weight (kg)": 28.0,
-    "HP": 55,
-    "Attack": 95
+    "name": "Charizard Mega Charizard X",
+    "Pokedex ID": 6,
+    "Height (m)": 1.7,
+    "Weight (kg)": 110.5,
+    "Total Stats": 634
   },
   {
-    "name": "Baltoy",
-    "Height (m)": 0.5,
-    "Weight (kg)": 21.5,
-    "HP": 40,
-    "Attack": 40
-  },
-  {
-    "name": "Zapdos",
-    "Height (m)": 1.6,
-    "Weight (kg)": 52.6,
-    "HP": 90,
-    "Attack": 90
-  },
-  {
-    "name": "Nidoqueen",
-    "Height (m)": 1.3,
-    "Weight (kg)": 60.0,
-    "HP": 90,
-    "Attack": 92
-  },
-  {
-    "name": "Geodude",
-    "Height (m)": 0.4,
-    "Weight (kg)": 20.0,
-    "HP": 40,
-    "Attack": 80
-  },
-  {
-    "name": "Jynx",
-    "Height (m)": 1.4,
-    "Weight (kg)": 40.6,
-    "HP": 65,
-    "Attack": 50
-  },
-  {
-    "name": "Zubat",
-    "Height (m)": 0.8,
-    "Weight (kg)": 7.5,
-    "HP": 40,
-    "Attack": 45
-  },
-  {
-    "name": "Gligar",
-    "Height (m)": 1.1,
-    "Weight (kg)": 64.8,
-    "HP": 65,
-    "Attack": 75
-  },
-  {
-    "name": "Wooper",
-    "Height (m)": 0.4,
-    "Weight (kg)": 8.5,
-    "HP": 55,
-    "Attack": 45
-  },
-  {
-    "name": "Lileep",
-    "Height (m)": 1.0,
-    "Weight (kg)": 23.8,
-    "HP": 66,
-    "Attack": 41
-  },
-  {
-    "name": "Corsola",
-    "Height (m)": 0.6,
-    "Weight (kg)": 5.0,
-    "HP": 65,
-    "Attack": 55
-  },
-  {
-    "name": "Carvanha",
-    "Height (m)": 0.8,
-    "Weight (kg)": 20.8,
-    "HP": 45,
-    "Attack": 90
-  },
-  {
-    "name": "Skorupi",
-    "Height (m)": 0.8,
-    "Weight (kg)": 12.0,
-    "HP": 40,
-    "Attack": 50
-  },
-  {
-    "name": "Girafarig",
-    "Height (m)": 1.5,
-    "Weight (kg)": 41.5,
-    "HP": 70,
-    "Attack": 80
-  },
-  {
-    "name": "Mankey",
-    "Height (m)": 0.5,
-    "Weight (kg)": 28.0,
-    "HP": 40,
-    "Attack": 80
-  },
-  {
-    "name": "Latias",
-    "Height (m)": 1.4,
-    "Weight (kg)": 40.0,
-    "HP": 80,
-    "Attack": 80
-  },
-  {
-    "name": "Butterfree",
-    "Height (m)": 1.1,
-    "Weight (kg)": 32.0,
-    "HP": 60,
-    "Attack": 45
-  },
-  {
-    "name": "Magcargo",
-    "Height (m)": 0.8,
-    "Weight (kg)": 55.0,
-    "HP": 60,
-    "Attack": 50
-  },
-  {
-    "name": "Pawniard",
-    "Height (m)": 0.5,
-    "Weight (kg)": 10.2,
-    "HP": 45,
-    "Attack": 85
-  },
-  {
-    "name": "Sableye",
-    "Height (m)": 0.5,
-    "Weight (kg)": 11.0,
-    "HP": 50,
-    "Attack": 75
-  },
-  {
-    "name": "Clefairy",
-    "Height (m)": 0.6,
-    "Weight (kg)": 7.5,
-    "HP": 70,
-    "Attack": 45
-  },
-  {
-    "name": "Mawile",
-    "Height (m)": 0.6,
-    "Weight (kg)": 11.5,
-    "HP": 50,
-    "Attack": 85
-  },
-  {
-    "name": "Froslass",
-    "Height (m)": 1.3,
-    "Weight (kg)": 26.6,
-    "HP": 70,
-    "Attack": 80
-  },
-  {
-    "name": "Bibarel",
-    "Height (m)": 1.0,
-    "Weight (kg)": 31.5,
-    "HP": 79,
-    "Attack": 85
-  },
-  {
-    "name": "Combusken",
-    "Height (m)": 0.9,
-    "Weight (kg)": 19.5,
-    "HP": 60,
-    "Attack": 85
-  },
-  {
-    "name": "Bulbasaur",
-    "Height (m)": 0.7,
-    "Weight (kg)": 6.9,
-    "HP": 45,
-    "Attack": 49
-  },
-  {
-    "name": "Ferroseed",
-    "Height (m)": 0.6,
-    "Weight (kg)": 18.8,
-    "HP": 44,
-    "Attack": 50
-  },
-  {
-    "name": "Snover",
-    "Height (m)": 1.0,
-    "Weight (kg)": 50.5,
-    "HP": 60,
-    "Attack": 62
-  },
-  {
-    "name": "Vibrava",
-    "Height (m)": 1.1,
-    "Weight (kg)": 15.3,
-    "HP": 50,
-    "Attack": 70
+    "name": "Charizard Mega Charizard Y",
+    "Pokedex ID": 6,
+    "Height (m)": 1.7,
+    "Weight (kg)": 100.5,
+    "Total Stats": 634
   },
   {
     "name": "Squirtle",
+    "Pokedex ID": 7,
     "Height (m)": 0.5,
     "Weight (kg)": 9.0,
-    "HP": 44,
-    "Attack": 48
+    "Total Stats": 314
   },
   {
-    "name": "Larvesta",
+    "name": "Wartortle",
+    "Pokedex ID": 8,
+    "Height (m)": 1.0,
+    "Weight (kg)": 22.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Blastoise",
+    "Pokedex ID": 9,
+    "Height (m)": 1.6,
+    "Weight (kg)": 85.5,
+    "Total Stats": 530
+  },
+  {
+    "name": "Blastoise Mega Blastoise",
+    "Pokedex ID": 9,
+    "Height (m)": 1.6,
+    "Weight (kg)": 101.1,
+    "Total Stats": 630
+  },
+  {
+    "name": "Caterpie",
+    "Pokedex ID": 10,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.9,
+    "Total Stats": 195
+  },
+  {
+    "name": "Metapod",
+    "Pokedex ID": 11,
+    "Height (m)": 0.7,
+    "Weight (kg)": 9.9,
+    "Total Stats": 205
+  },
+  {
+    "name": "Butterfree",
+    "Pokedex ID": 12,
     "Height (m)": 1.1,
-    "Weight (kg)": 28.8,
-    "HP": 55,
-    "Attack": 85
+    "Weight (kg)": 32.0,
+    "Total Stats": 395
   },
   {
-    "name": "Snorunt",
-    "Height (m)": 0.7,
-    "Weight (kg)": 16.8,
-    "HP": 50,
-    "Attack": 50
+    "name": "Weedle",
+    "Pokedex ID": 13,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.2,
+    "Total Stats": 195
   },
   {
-    "name": "Tangela",
-    "Height (m)": 1.0,
-    "Weight (kg)": 35.0,
-    "HP": 65,
-    "Attack": 55
-  },
-  {
-    "name": "Houndour",
+    "name": "Kakuna",
+    "Pokedex ID": 14,
     "Height (m)": 0.6,
-    "Weight (kg)": 10.8,
-    "HP": 45,
-    "Attack": 60
+    "Weight (kg)": 10.0,
+    "Total Stats": 205
   },
   {
-    "name": "Croagunk",
-    "Height (m)": 0.7,
-    "Weight (kg)": 23.0,
-    "HP": 48,
-    "Attack": 61
-  },
-  {
-    "name": "Scraggy",
-    "Height (m)": 0.6,
-    "Weight (kg)": 11.8,
-    "HP": 50,
-    "Attack": 75
-  },
-  {
-    "name": "Nuzleaf",
+    "name": "Beedrill",
+    "Pokedex ID": 15,
     "Height (m)": 1.0,
-    "Weight (kg)": 28.0,
-    "HP": 70,
-    "Attack": 70
+    "Weight (kg)": 29.5,
+    "Total Stats": 395
+  },
+  {
+    "name": "Beedrill Mega Beedrill",
+    "Pokedex ID": 15,
+    "Height (m)": 1.4,
+    "Weight (kg)": 40.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Pidgey",
+    "Pokedex ID": 16,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.8,
+    "Total Stats": 251
+  },
+  {
+    "name": "Pidgeotto",
+    "Pokedex ID": 17,
+    "Height (m)": 1.1,
+    "Weight (kg)": 30.0,
+    "Total Stats": 349
+  },
+  {
+    "name": "Pidgeot",
+    "Pokedex ID": 18,
+    "Height (m)": 1.5,
+    "Weight (kg)": 39.5,
+    "Total Stats": 479
+  },
+  {
+    "name": "Pidgeot Mega Pidgeot",
+    "Pokedex ID": 18,
+    "Height (m)": 2.2,
+    "Weight (kg)": 50.5,
+    "Total Stats": 579
+  },
+  {
+    "name": "Rattata",
+    "Pokedex ID": 19,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.5,
+    "Total Stats": 253
+  },
+  {
+    "name": "Rattata Alolan Rattata",
+    "Pokedex ID": 19,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.8,
+    "Total Stats": 253
+  },
+  {
+    "name": "Raticate",
+    "Pokedex ID": 20,
+    "Height (m)": 0.7,
+    "Weight (kg)": 18.5,
+    "Total Stats": 413
+  },
+  {
+    "name": "Raticate Alolan Raticate",
+    "Pokedex ID": 20,
+    "Height (m)": 0.7,
+    "Weight (kg)": 25.5,
+    "Total Stats": 413
+  },
+  {
+    "name": "Spearow",
+    "Pokedex ID": 21,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.0,
+    "Total Stats": 262
+  },
+  {
+    "name": "Fearow",
+    "Pokedex ID": 22,
+    "Height (m)": 1.2,
+    "Weight (kg)": 38.0,
+    "Total Stats": 442
+  },
+  {
+    "name": "Ekans",
+    "Pokedex ID": 23,
+    "Height (m)": 2.0,
+    "Weight (kg)": 6.9,
+    "Total Stats": 288
+  },
+  {
+    "name": "Arbok",
+    "Pokedex ID": 24,
+    "Height (m)": 3.5,
+    "Weight (kg)": 65.0,
+    "Total Stats": 448
+  },
+  {
+    "name": "Pikachu",
+    "Pokedex ID": 25,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Pikachu Partner Pikachu",
+    "Pokedex ID": 25,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Raichu",
+    "Pokedex ID": 26,
+    "Height (m)": 0.8,
+    "Weight (kg)": 30.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Raichu Alolan Raichu",
+    "Pokedex ID": 26,
+    "Height (m)": 0.7,
+    "Weight (kg)": 21.0,
+    "Total Stats": 485
   },
   {
     "name": "Sandshrew",
+    "Pokedex ID": 27,
     "Height (m)": 0.6,
     "Weight (kg)": 12.0,
-    "HP": 50,
-    "Attack": 75
+    "Total Stats": 300
   },
   {
-    "name": "Sandile",
+    "name": "Sandshrew Alolan Sandshrew",
+    "Pokedex ID": 27,
     "Height (m)": 0.7,
-    "Weight (kg)": 15.2,
-    "HP": 50,
-    "Attack": 72
+    "Weight (kg)": 40.0,
+    "Total Stats": 300
   },
   {
-    "name": "Deerling",
-    "Height (m)": 0.6,
+    "name": "Sandslash",
+    "Pokedex ID": 28,
+    "Height (m)": 1.0,
+    "Weight (kg)": 29.5,
+    "Total Stats": 450
+  },
+  {
+    "name": "Sandslash Alolan Sandslash",
+    "Pokedex ID": 28,
+    "Height (m)": 1.2,
+    "Weight (kg)": 55.0,
+    "Total Stats": 450
+  },
+  {
+    "name": "Nidoran\u2640",
+    "Pokedex ID": 29,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.0,
+    "Total Stats": 275
+  },
+  {
+    "name": "Nidorina",
+    "Pokedex ID": 30,
+    "Height (m)": 0.8,
+    "Weight (kg)": 20.0,
+    "Total Stats": 365
+  },
+  {
+    "name": "Nidoqueen",
+    "Pokedex ID": 31,
+    "Height (m)": 1.3,
+    "Weight (kg)": 60.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Nidoran\u2642",
+    "Pokedex ID": 32,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.0,
+    "Total Stats": 273
+  },
+  {
+    "name": "Nidorino",
+    "Pokedex ID": 33,
+    "Height (m)": 0.9,
     "Weight (kg)": 19.5,
-    "HP": 60,
-    "Attack": 60
+    "Total Stats": 365
+  },
+  {
+    "name": "Nidoking",
+    "Pokedex ID": 34,
+    "Height (m)": 1.4,
+    "Weight (kg)": 62.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Clefairy",
+    "Pokedex ID": 35,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.5,
+    "Total Stats": 323
+  },
+  {
+    "name": "Clefable",
+    "Pokedex ID": 36,
+    "Height (m)": 1.3,
+    "Weight (kg)": 40.0,
+    "Total Stats": 483
+  },
+  {
+    "name": "Vulpix",
+    "Pokedex ID": 37,
+    "Height (m)": 0.6,
+    "Weight (kg)": 9.9,
+    "Total Stats": 299
+  },
+  {
+    "name": "Vulpix Alolan Vulpix",
+    "Pokedex ID": 37,
+    "Height (m)": 0.6,
+    "Weight (kg)": 9.9,
+    "Total Stats": 299
+  },
+  {
+    "name": "Ninetales",
+    "Pokedex ID": 38,
+    "Height (m)": 1.1,
+    "Weight (kg)": 19.9,
+    "Total Stats": 505
+  },
+  {
+    "name": "Ninetales Alolan Ninetales",
+    "Pokedex ID": 38,
+    "Height (m)": 1.1,
+    "Weight (kg)": 19.9,
+    "Total Stats": 505
+  },
+  {
+    "name": "Jigglypuff",
+    "Pokedex ID": 39,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.5,
+    "Total Stats": 270
+  },
+  {
+    "name": "Wigglytuff",
+    "Pokedex ID": 40,
+    "Height (m)": 1.0,
+    "Weight (kg)": 12.0,
+    "Total Stats": 435
+  },
+  {
+    "name": "Zubat",
+    "Pokedex ID": 41,
+    "Height (m)": 0.8,
+    "Weight (kg)": 7.5,
+    "Total Stats": 245
+  },
+  {
+    "name": "Golbat",
+    "Pokedex ID": 42,
+    "Height (m)": 1.6,
+    "Weight (kg)": 55.0,
+    "Total Stats": 455
+  },
+  {
+    "name": "Oddish",
+    "Pokedex ID": 43,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.4,
+    "Total Stats": 320
+  },
+  {
+    "name": "Gloom",
+    "Pokedex ID": 44,
+    "Height (m)": 0.8,
+    "Weight (kg)": 8.6,
+    "Total Stats": 395
+  },
+  {
+    "name": "Vileplume",
+    "Pokedex ID": 45,
+    "Height (m)": 1.2,
+    "Weight (kg)": 18.6,
+    "Total Stats": 490
+  },
+  {
+    "name": "Paras",
+    "Pokedex ID": 46,
+    "Height (m)": 0.3,
+    "Weight (kg)": 5.4,
+    "Total Stats": 285
+  },
+  {
+    "name": "Parasect",
+    "Pokedex ID": 47,
+    "Height (m)": 1.0,
+    "Weight (kg)": 29.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Venonat",
+    "Pokedex ID": 48,
+    "Height (m)": 1.0,
+    "Weight (kg)": 30.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Venomoth",
+    "Pokedex ID": 49,
+    "Height (m)": 1.5,
+    "Weight (kg)": 12.5,
+    "Total Stats": 450
+  },
+  {
+    "name": "Diglett",
+    "Pokedex ID": 50,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.8,
+    "Total Stats": 265
+  },
+  {
+    "name": "Diglett Alolan Diglett",
+    "Pokedex ID": 50,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.0,
+    "Total Stats": 265
+  },
+  {
+    "name": "Dugtrio",
+    "Pokedex ID": 51,
+    "Height (m)": 0.7,
+    "Weight (kg)": 33.3,
+    "Total Stats": 425
+  },
+  {
+    "name": "Dugtrio Alolan Dugtrio",
+    "Pokedex ID": 51,
+    "Height (m)": 0.7,
+    "Weight (kg)": 66.6,
+    "Total Stats": 425
+  },
+  {
+    "name": "Meowth",
+    "Pokedex ID": 52,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.2,
+    "Total Stats": 290
+  },
+  {
+    "name": "Meowth Alolan Meowth",
+    "Pokedex ID": 52,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.2,
+    "Total Stats": 290
+  },
+  {
+    "name": "Meowth Galarian Meowth",
+    "Pokedex ID": 52,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.5,
+    "Total Stats": 290
+  },
+  {
+    "name": "Persian",
+    "Pokedex ID": 53,
+    "Height (m)": 1.0,
+    "Weight (kg)": 32.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Persian Alolan Persian",
+    "Pokedex ID": 53,
+    "Height (m)": 1.1,
+    "Weight (kg)": 33.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Psyduck",
+    "Pokedex ID": 54,
+    "Height (m)": 0.8,
+    "Weight (kg)": 19.6,
+    "Total Stats": 320
+  },
+  {
+    "name": "Golduck",
+    "Pokedex ID": 55,
+    "Height (m)": 1.7,
+    "Weight (kg)": 76.6,
+    "Total Stats": 500
+  },
+  {
+    "name": "Mankey",
+    "Pokedex ID": 56,
+    "Height (m)": 0.5,
+    "Weight (kg)": 28.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Primeape",
+    "Pokedex ID": 57,
+    "Height (m)": 1.0,
+    "Weight (kg)": 32.0,
+    "Total Stats": 455
+  },
+  {
+    "name": "Growlithe",
+    "Pokedex ID": 58,
+    "Height (m)": 0.7,
+    "Weight (kg)": 19.0,
+    "Total Stats": 350
+  },
+  {
+    "name": "Growlithe Hisuian Growlithe",
+    "Pokedex ID": 58,
+    "Height (m)": 0.8,
+    "Weight (kg)": 22.7,
+    "Total Stats": 350
+  },
+  {
+    "name": "Arcanine",
+    "Pokedex ID": 59,
+    "Height (m)": 1.9,
+    "Weight (kg)": 155.0,
+    "Total Stats": 555
+  },
+  {
+    "name": "Arcanine Hisuian Arcanine",
+    "Pokedex ID": 59,
+    "Height (m)": 2.0,
+    "Weight (kg)": 168.0,
+    "Total Stats": 555
+  },
+  {
+    "name": "Poliwag",
+    "Pokedex ID": 60,
+    "Height (m)": 0.6,
+    "Weight (kg)": 12.4,
+    "Total Stats": 300
+  },
+  {
+    "name": "Poliwhirl",
+    "Pokedex ID": 61,
+    "Height (m)": 1.0,
+    "Weight (kg)": 20.0,
+    "Total Stats": 385
+  },
+  {
+    "name": "Poliwrath",
+    "Pokedex ID": 62,
+    "Height (m)": 1.3,
+    "Weight (kg)": 54.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Abra",
+    "Pokedex ID": 63,
+    "Height (m)": 0.9,
+    "Weight (kg)": 19.5,
+    "Total Stats": 310
+  },
+  {
+    "name": "Kadabra",
+    "Pokedex ID": 64,
+    "Height (m)": 1.3,
+    "Weight (kg)": 56.5,
+    "Total Stats": 400
+  },
+  {
+    "name": "Alakazam",
+    "Pokedex ID": 65,
+    "Height (m)": 1.5,
+    "Weight (kg)": 48.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Alakazam Mega Alakazam",
+    "Pokedex ID": 65,
+    "Height (m)": 1.2,
+    "Weight (kg)": 48.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Machop",
+    "Pokedex ID": 66,
+    "Height (m)": 0.8,
+    "Weight (kg)": 19.5,
+    "Total Stats": 305
+  },
+  {
+    "name": "Machoke",
+    "Pokedex ID": 67,
+    "Height (m)": 1.5,
+    "Weight (kg)": 70.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Machamp",
+    "Pokedex ID": 68,
+    "Height (m)": 1.6,
+    "Weight (kg)": 130.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Bellsprout",
+    "Pokedex ID": 69,
+    "Height (m)": 0.7,
+    "Weight (kg)": 4.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Weepinbell",
+    "Pokedex ID": 70,
+    "Height (m)": 1.0,
+    "Weight (kg)": 6.4,
+    "Total Stats": 390
+  },
+  {
+    "name": "Victreebel",
+    "Pokedex ID": 71,
+    "Height (m)": 1.7,
+    "Weight (kg)": 15.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Tentacool",
+    "Pokedex ID": 72,
+    "Height (m)": 0.9,
+    "Weight (kg)": 45.5,
+    "Total Stats": 335
+  },
+  {
+    "name": "Tentacruel",
+    "Pokedex ID": 73,
+    "Height (m)": 1.6,
+    "Weight (kg)": 55.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Geodude",
+    "Pokedex ID": 74,
+    "Height (m)": 0.4,
+    "Weight (kg)": 20.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Geodude Alolan Geodude",
+    "Pokedex ID": 74,
+    "Height (m)": 0.4,
+    "Weight (kg)": 20.3,
+    "Total Stats": 300
+  },
+  {
+    "name": "Graveler",
+    "Pokedex ID": 75,
+    "Height (m)": 1.0,
+    "Weight (kg)": 105.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Graveler Alolan Graveler",
+    "Pokedex ID": 75,
+    "Height (m)": 1.0,
+    "Weight (kg)": 110.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Golem",
+    "Pokedex ID": 76,
+    "Height (m)": 1.4,
+    "Weight (kg)": 300.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Golem Alolan Golem",
+    "Pokedex ID": 76,
+    "Height (m)": 1.7,
+    "Weight (kg)": 316.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Ponyta",
+    "Pokedex ID": 77,
+    "Height (m)": 1.0,
+    "Weight (kg)": 30.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Ponyta Galarian Ponyta",
+    "Pokedex ID": 77,
+    "Height (m)": 0.8,
+    "Weight (kg)": 24.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Rapidash",
+    "Pokedex ID": 78,
+    "Height (m)": 1.7,
+    "Weight (kg)": 95.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Rapidash Galarian Rapidash",
+    "Pokedex ID": 78,
+    "Height (m)": 1.7,
+    "Weight (kg)": 80.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Slowpoke",
+    "Pokedex ID": 79,
+    "Height (m)": 1.2,
+    "Weight (kg)": 36.0,
+    "Total Stats": 315
+  },
+  {
+    "name": "Slowpoke Galarian Slowpoke",
+    "Pokedex ID": 79,
+    "Height (m)": 1.2,
+    "Weight (kg)": 36.0,
+    "Total Stats": 315
+  },
+  {
+    "name": "Slowbro",
+    "Pokedex ID": 80,
+    "Height (m)": 1.6,
+    "Weight (kg)": 78.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Slowbro Mega Slowbro",
+    "Pokedex ID": 80,
+    "Height (m)": 2.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 590
+  },
+  {
+    "name": "Slowbro Galarian Slowbro",
+    "Pokedex ID": 80,
+    "Height (m)": 1.6,
+    "Weight (kg)": 70.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Magnemite",
+    "Pokedex ID": 81,
+    "Height (m)": 0.3,
+    "Weight (kg)": 6.0,
+    "Total Stats": 325
+  },
+  {
+    "name": "Magneton",
+    "Pokedex ID": 82,
+    "Height (m)": 1.0,
+    "Weight (kg)": 60.0,
+    "Total Stats": 465
+  },
+  {
+    "name": "Farfetch'd",
+    "Pokedex ID": 83,
+    "Height (m)": 0.8,
+    "Weight (kg)": 15.0,
+    "Total Stats": 377
+  },
+  {
+    "name": "Farfetch'd Galarian Farfetch'd",
+    "Pokedex ID": 83,
+    "Height (m)": 0.8,
+    "Weight (kg)": 42.0,
+    "Total Stats": 377
+  },
+  {
+    "name": "Doduo",
+    "Pokedex ID": 84,
+    "Height (m)": 1.4,
+    "Weight (kg)": 39.2,
+    "Total Stats": 310
+  },
+  {
+    "name": "Dodrio",
+    "Pokedex ID": 85,
+    "Height (m)": 1.8,
+    "Weight (kg)": 85.2,
+    "Total Stats": 470
+  },
+  {
+    "name": "Seel",
+    "Pokedex ID": 86,
+    "Height (m)": 1.1,
+    "Weight (kg)": 90.0,
+    "Total Stats": 325
+  },
+  {
+    "name": "Dewgong",
+    "Pokedex ID": 87,
+    "Height (m)": 1.7,
+    "Weight (kg)": 120.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Grimer",
+    "Pokedex ID": 88,
+    "Height (m)": 0.9,
+    "Weight (kg)": 30.0,
+    "Total Stats": 325
+  },
+  {
+    "name": "Grimer Alolan Grimer",
+    "Pokedex ID": 88,
+    "Height (m)": 0.7,
+    "Weight (kg)": 42.0,
+    "Total Stats": 325
+  },
+  {
+    "name": "Muk",
+    "Pokedex ID": 89,
+    "Height (m)": 1.2,
+    "Weight (kg)": 30.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Muk Alolan Muk",
+    "Pokedex ID": 89,
+    "Height (m)": 1.0,
+    "Weight (kg)": 52.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Shellder",
+    "Pokedex ID": 90,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Cloyster",
+    "Pokedex ID": 91,
+    "Height (m)": 1.5,
+    "Weight (kg)": 132.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Gastly",
+    "Pokedex ID": 92,
+    "Height (m)": 1.3,
+    "Weight (kg)": 0.1,
+    "Total Stats": 310
+  },
+  {
+    "name": "Haunter",
+    "Pokedex ID": 93,
+    "Height (m)": 1.6,
+    "Weight (kg)": 0.1,
+    "Total Stats": 405
+  },
+  {
+    "name": "Gengar",
+    "Pokedex ID": 94,
+    "Height (m)": 1.5,
+    "Weight (kg)": 40.5,
+    "Total Stats": 500
+  },
+  {
+    "name": "Gengar Mega Gengar",
+    "Pokedex ID": 94,
+    "Height (m)": 1.4,
+    "Weight (kg)": 40.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Onix",
+    "Pokedex ID": 95,
+    "Height (m)": 8.8,
+    "Weight (kg)": 210.0,
+    "Total Stats": 385
+  },
+  {
+    "name": "Drowzee",
+    "Pokedex ID": 96,
+    "Height (m)": 1.0,
+    "Weight (kg)": 32.4,
+    "Total Stats": 328
+  },
+  {
+    "name": "Hypno",
+    "Pokedex ID": 97,
+    "Height (m)": 1.6,
+    "Weight (kg)": 75.6,
+    "Total Stats": 483
+  },
+  {
+    "name": "Krabby",
+    "Pokedex ID": 98,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.5,
+    "Total Stats": 325
+  },
+  {
+    "name": "Kingler",
+    "Pokedex ID": 99,
+    "Height (m)": 1.3,
+    "Weight (kg)": 60.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Voltorb",
+    "Pokedex ID": 100,
+    "Height (m)": 0.5,
+    "Weight (kg)": 10.4,
+    "Total Stats": 330
+  },
+  {
+    "name": "Voltorb Hisuian Voltorb",
+    "Pokedex ID": 100,
+    "Height (m)": 0.5,
+    "Weight (kg)": 13.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Electrode",
+    "Pokedex ID": 101,
+    "Height (m)": 1.2,
+    "Weight (kg)": 66.6,
+    "Total Stats": 490
+  },
+  {
+    "name": "Electrode Hisuian Electrode",
+    "Pokedex ID": 101,
+    "Height (m)": 1.2,
+    "Weight (kg)": 71.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Exeggcute",
+    "Pokedex ID": 102,
+    "Height (m)": 0.4,
+    "Weight (kg)": 2.5,
+    "Total Stats": 325
+  },
+  {
+    "name": "Exeggutor",
+    "Pokedex ID": 103,
+    "Height (m)": 2.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Exeggutor Alolan Exeggutor",
+    "Pokedex ID": 103,
+    "Height (m)": 10.9,
+    "Weight (kg)": 415.6,
+    "Total Stats": 530
+  },
+  {
+    "name": "Cubone",
+    "Pokedex ID": 104,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.5,
+    "Total Stats": 320
+  },
+  {
+    "name": "Marowak",
+    "Pokedex ID": 105,
+    "Height (m)": 1.0,
+    "Weight (kg)": 45.0,
+    "Total Stats": 425
+  },
+  {
+    "name": "Marowak Alolan Marowak",
+    "Pokedex ID": 105,
+    "Height (m)": 1.0,
+    "Weight (kg)": 34.0,
+    "Total Stats": 425
+  },
+  {
+    "name": "Hitmonlee",
+    "Pokedex ID": 106,
+    "Height (m)": 1.5,
+    "Weight (kg)": 49.8,
+    "Total Stats": 455
+  },
+  {
+    "name": "Hitmonchan",
+    "Pokedex ID": 107,
+    "Height (m)": 1.4,
+    "Weight (kg)": 50.2,
+    "Total Stats": 455
+  },
+  {
+    "name": "Lickitung",
+    "Pokedex ID": 108,
+    "Height (m)": 1.2,
+    "Weight (kg)": 65.5,
+    "Total Stats": 385
+  },
+  {
+    "name": "Koffing",
+    "Pokedex ID": 109,
+    "Height (m)": 0.6,
+    "Weight (kg)": 1.0,
+    "Total Stats": 340
+  },
+  {
+    "name": "Weezing",
+    "Pokedex ID": 110,
+    "Height (m)": 1.2,
+    "Weight (kg)": 9.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Weezing Galarian Weezing",
+    "Pokedex ID": 110,
+    "Height (m)": 3.0,
+    "Weight (kg)": 16.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Rhyhorn",
+    "Pokedex ID": 111,
+    "Height (m)": 1.0,
+    "Weight (kg)": 115.0,
+    "Total Stats": 345
+  },
+  {
+    "name": "Rhydon",
+    "Pokedex ID": 112,
+    "Height (m)": 1.9,
+    "Weight (kg)": 120.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Chansey",
+    "Pokedex ID": 113,
+    "Height (m)": 1.1,
+    "Weight (kg)": 34.6,
+    "Total Stats": 450
+  },
+  {
+    "name": "Tangela",
+    "Pokedex ID": 114,
+    "Height (m)": 1.0,
+    "Weight (kg)": 35.0,
+    "Total Stats": 435
+  },
+  {
+    "name": "Kangaskhan",
+    "Pokedex ID": 115,
+    "Height (m)": 2.2,
+    "Weight (kg)": 80.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Kangaskhan Mega Kangaskhan",
+    "Pokedex ID": 115,
+    "Height (m)": 2.2,
+    "Weight (kg)": 100.0,
+    "Total Stats": 590
+  },
+  {
+    "name": "Horsea",
+    "Pokedex ID": 116,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.0,
+    "Total Stats": 295
+  },
+  {
+    "name": "Seadra",
+    "Pokedex ID": 117,
+    "Height (m)": 1.2,
+    "Weight (kg)": 25.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Goldeen",
+    "Pokedex ID": 118,
+    "Height (m)": 0.6,
+    "Weight (kg)": 15.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Seaking",
+    "Pokedex ID": 119,
+    "Height (m)": 1.3,
+    "Weight (kg)": 39.0,
+    "Total Stats": 450
+  },
+  {
+    "name": "Staryu",
+    "Pokedex ID": 120,
+    "Height (m)": 0.8,
+    "Weight (kg)": 34.5,
+    "Total Stats": 340
+  },
+  {
+    "name": "Starmie",
+    "Pokedex ID": 121,
+    "Height (m)": 1.1,
+    "Weight (kg)": 80.0,
+    "Total Stats": 520
+  },
+  {
+    "name": "Mr. Mime",
+    "Pokedex ID": 122,
+    "Height (m)": 1.3,
+    "Weight (kg)": 54.5,
+    "Total Stats": 460
+  },
+  {
+    "name": "Mr. Mime Galarian Mr. Mime",
+    "Pokedex ID": 122,
+    "Height (m)": 1.4,
+    "Weight (kg)": 56.8,
+    "Total Stats": 460
+  },
+  {
+    "name": "Scyther",
+    "Pokedex ID": 123,
+    "Height (m)": 1.5,
+    "Weight (kg)": 56.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Jynx",
+    "Pokedex ID": 124,
+    "Height (m)": 1.4,
+    "Weight (kg)": 40.6,
+    "Total Stats": 455
+  },
+  {
+    "name": "Electabuzz",
+    "Pokedex ID": 125,
+    "Height (m)": 1.1,
+    "Weight (kg)": 30.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Magmar",
+    "Pokedex ID": 126,
+    "Height (m)": 1.3,
+    "Weight (kg)": 44.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Pinsir",
+    "Pokedex ID": 127,
+    "Height (m)": 1.5,
+    "Weight (kg)": 55.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Pinsir Mega Pinsir",
+    "Pokedex ID": 127,
+    "Height (m)": 1.7,
+    "Weight (kg)": 59.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Tauros",
+    "Pokedex ID": 128,
+    "Height (m)": 1.4,
+    "Weight (kg)": 88.4,
+    "Total Stats": 490
+  },
+  {
+    "name": "Tauros Combat Breed",
+    "Pokedex ID": 128,
+    "Height (m)": 1.4,
+    "Weight (kg)": 115.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Tauros Blaze Breed",
+    "Pokedex ID": 128,
+    "Height (m)": 1.4,
+    "Weight (kg)": 85.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Tauros Aqua Breed",
+    "Pokedex ID": 128,
+    "Height (m)": 1.4,
+    "Weight (kg)": 110.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Magikarp",
+    "Pokedex ID": 129,
+    "Height (m)": 0.9,
+    "Weight (kg)": 10.0,
+    "Total Stats": 200
+  },
+  {
+    "name": "Gyarados",
+    "Pokedex ID": 130,
+    "Height (m)": 6.5,
+    "Weight (kg)": 235.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Gyarados Mega Gyarados",
+    "Pokedex ID": 130,
+    "Height (m)": 6.5,
+    "Weight (kg)": 305.0,
+    "Total Stats": 640
+  },
+  {
+    "name": "Lapras",
+    "Pokedex ID": 131,
+    "Height (m)": 2.5,
+    "Weight (kg)": 220.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Ditto",
+    "Pokedex ID": 132,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.0,
+    "Total Stats": 288
+  },
+  {
+    "name": "Eevee",
+    "Pokedex ID": 133,
+    "Height (m)": 0.3,
+    "Weight (kg)": 6.5,
+    "Total Stats": 325
+  },
+  {
+    "name": "Eevee Partner Eevee",
+    "Pokedex ID": 133,
+    "Height (m)": 0.3,
+    "Weight (kg)": 6.5,
+    "Total Stats": 435
+  },
+  {
+    "name": "Vaporeon",
+    "Pokedex ID": 134,
+    "Height (m)": 1.0,
+    "Weight (kg)": 29.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Jolteon",
+    "Pokedex ID": 135,
+    "Height (m)": 0.8,
+    "Weight (kg)": 24.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Flareon",
+    "Pokedex ID": 136,
+    "Height (m)": 0.9,
+    "Weight (kg)": 25.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Porygon",
+    "Pokedex ID": 137,
+    "Height (m)": 0.8,
+    "Weight (kg)": 36.5,
+    "Total Stats": 395
+  },
+  {
+    "name": "Omanyte",
+    "Pokedex ID": 138,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.5,
+    "Total Stats": 355
+  },
+  {
+    "name": "Omastar",
+    "Pokedex ID": 139,
+    "Height (m)": 1.0,
+    "Weight (kg)": 35.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Kabuto",
+    "Pokedex ID": 140,
+    "Height (m)": 0.5,
+    "Weight (kg)": 11.5,
+    "Total Stats": 355
+  },
+  {
+    "name": "Kabutops",
+    "Pokedex ID": 141,
+    "Height (m)": 1.3,
+    "Weight (kg)": 40.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Aerodactyl",
+    "Pokedex ID": 142,
+    "Height (m)": 1.8,
+    "Weight (kg)": 59.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Aerodactyl Mega Aerodactyl",
+    "Pokedex ID": 142,
+    "Height (m)": 2.1,
+    "Weight (kg)": 79.0,
+    "Total Stats": 615
+  },
+  {
+    "name": "Snorlax",
+    "Pokedex ID": 143,
+    "Height (m)": 2.1,
+    "Weight (kg)": 460.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Articuno",
+    "Pokedex ID": 144,
+    "Height (m)": 1.7,
+    "Weight (kg)": 55.4,
+    "Total Stats": 580
+  },
+  {
+    "name": "Articuno Galarian Articuno",
+    "Pokedex ID": 144,
+    "Height (m)": 1.7,
+    "Weight (kg)": 50.9,
+    "Total Stats": 580
+  },
+  {
+    "name": "Zapdos",
+    "Pokedex ID": 145,
+    "Height (m)": 1.6,
+    "Weight (kg)": 52.6,
+    "Total Stats": 580
+  },
+  {
+    "name": "Zapdos Galarian Zapdos",
+    "Pokedex ID": 145,
+    "Height (m)": 1.6,
+    "Weight (kg)": 58.2,
+    "Total Stats": 580
+  },
+  {
+    "name": "Moltres",
+    "Pokedex ID": 146,
+    "Height (m)": 2.0,
+    "Weight (kg)": 60.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Moltres Galarian Moltres",
+    "Pokedex ID": 146,
+    "Height (m)": 2.0,
+    "Weight (kg)": 66.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Dratini",
+    "Pokedex ID": 147,
+    "Height (m)": 1.8,
+    "Weight (kg)": 3.3,
+    "Total Stats": 300
+  },
+  {
+    "name": "Dragonair",
+    "Pokedex ID": 148,
+    "Height (m)": 4.0,
+    "Weight (kg)": 16.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Dragonite",
+    "Pokedex ID": 149,
+    "Height (m)": 2.2,
+    "Weight (kg)": 210.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Mewtwo",
+    "Pokedex ID": 150,
+    "Height (m)": 2.0,
+    "Weight (kg)": 122.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Mewtwo Mega Mewtwo X",
+    "Pokedex ID": 150,
+    "Height (m)": 2.3,
+    "Weight (kg)": 127.0,
+    "Total Stats": 780
+  },
+  {
+    "name": "Mewtwo Mega Mewtwo Y",
+    "Pokedex ID": 150,
+    "Height (m)": 1.5,
+    "Weight (kg)": 33.0,
+    "Total Stats": 780
+  },
+  {
+    "name": "Mew",
+    "Pokedex ID": 151,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Chikorita",
+    "Pokedex ID": 152,
+    "Height (m)": 0.9,
+    "Weight (kg)": 6.4,
+    "Total Stats": 318
+  },
+  {
+    "name": "Bayleef",
+    "Pokedex ID": 153,
+    "Height (m)": 1.2,
+    "Weight (kg)": 15.8,
+    "Total Stats": 405
+  },
+  {
+    "name": "Meganium",
+    "Pokedex ID": 154,
+    "Height (m)": 1.8,
+    "Weight (kg)": 100.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Cyndaquil",
+    "Pokedex ID": 155,
+    "Height (m)": 0.5,
+    "Weight (kg)": 7.9,
+    "Total Stats": 309
+  },
+  {
+    "name": "Quilava",
+    "Pokedex ID": 156,
+    "Height (m)": 0.9,
+    "Weight (kg)": 19.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Typhlosion",
+    "Pokedex ID": 157,
+    "Height (m)": 1.7,
+    "Weight (kg)": 79.5,
+    "Total Stats": 534
+  },
+  {
+    "name": "Typhlosion Hisuian Typhlosion",
+    "Pokedex ID": 157,
+    "Height (m)": 1.6,
+    "Weight (kg)": 69.8,
+    "Total Stats": 534
+  },
+  {
+    "name": "Totodile",
+    "Pokedex ID": 158,
+    "Height (m)": 0.6,
+    "Weight (kg)": 9.5,
+    "Total Stats": 314
+  },
+  {
+    "name": "Croconaw",
+    "Pokedex ID": 159,
+    "Height (m)": 1.1,
+    "Weight (kg)": 25.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Feraligatr",
+    "Pokedex ID": 160,
+    "Height (m)": 2.3,
+    "Weight (kg)": 88.8,
+    "Total Stats": 530
+  },
+  {
+    "name": "Sentret",
+    "Pokedex ID": 161,
+    "Height (m)": 0.8,
+    "Weight (kg)": 6.0,
+    "Total Stats": 215
+  },
+  {
+    "name": "Furret",
+    "Pokedex ID": 162,
+    "Height (m)": 1.8,
+    "Weight (kg)": 32.5,
+    "Total Stats": 415
+  },
+  {
+    "name": "Hoothoot",
+    "Pokedex ID": 163,
+    "Height (m)": 0.7,
+    "Weight (kg)": 21.2,
+    "Total Stats": 262
+  },
+  {
+    "name": "Noctowl",
+    "Pokedex ID": 164,
+    "Height (m)": 1.6,
+    "Weight (kg)": 40.8,
+    "Total Stats": 452
+  },
+  {
+    "name": "Ledyba",
+    "Pokedex ID": 165,
+    "Height (m)": 1.0,
+    "Weight (kg)": 10.8,
+    "Total Stats": 265
+  },
+  {
+    "name": "Ledian",
+    "Pokedex ID": 166,
+    "Height (m)": 1.4,
+    "Weight (kg)": 35.6,
+    "Total Stats": 390
+  },
+  {
+    "name": "Spinarak",
+    "Pokedex ID": 167,
+    "Height (m)": 0.5,
+    "Weight (kg)": 8.5,
+    "Total Stats": 250
+  },
+  {
+    "name": "Ariados",
+    "Pokedex ID": 168,
+    "Height (m)": 1.1,
+    "Weight (kg)": 33.5,
+    "Total Stats": 400
+  },
+  {
+    "name": "Crobat",
+    "Pokedex ID": 169,
+    "Height (m)": 1.8,
+    "Weight (kg)": 75.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Chinchou",
+    "Pokedex ID": 170,
+    "Height (m)": 0.5,
+    "Weight (kg)": 12.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Lanturn",
+    "Pokedex ID": 171,
+    "Height (m)": 1.2,
+    "Weight (kg)": 22.5,
+    "Total Stats": 460
+  },
+  {
+    "name": "Pichu",
+    "Pokedex ID": 172,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.0,
+    "Total Stats": 205
+  },
+  {
+    "name": "Cleffa",
+    "Pokedex ID": 173,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.0,
+    "Total Stats": 218
+  },
+  {
+    "name": "Igglybuff",
+    "Pokedex ID": 174,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.0,
+    "Total Stats": 210
+  },
+  {
+    "name": "Togepi",
+    "Pokedex ID": 175,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.5,
+    "Total Stats": 245
+  },
+  {
+    "name": "Togetic",
+    "Pokedex ID": 176,
+    "Height (m)": 0.6,
+    "Weight (kg)": 3.2,
+    "Total Stats": 405
+  },
+  {
+    "name": "Natu",
+    "Pokedex ID": 177,
+    "Height (m)": 0.2,
+    "Weight (kg)": 2.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Xatu",
+    "Pokedex ID": 178,
+    "Height (m)": 1.5,
+    "Weight (kg)": 15.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Mareep",
+    "Pokedex ID": 179,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.8,
+    "Total Stats": 280
+  },
+  {
+    "name": "Flaaffy",
+    "Pokedex ID": 180,
+    "Height (m)": 0.8,
+    "Weight (kg)": 13.3,
+    "Total Stats": 365
+  },
+  {
+    "name": "Ampharos",
+    "Pokedex ID": 181,
+    "Height (m)": 1.4,
+    "Weight (kg)": 61.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Ampharos Mega Ampharos",
+    "Pokedex ID": 181,
+    "Height (m)": 1.4,
+    "Weight (kg)": 61.5,
+    "Total Stats": 610
+  },
+  {
+    "name": "Bellossom",
+    "Pokedex ID": 182,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.8,
+    "Total Stats": 490
+  },
+  {
+    "name": "Marill",
+    "Pokedex ID": 183,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.5,
+    "Total Stats": 250
+  },
+  {
+    "name": "Azumarill",
+    "Pokedex ID": 184,
+    "Height (m)": 0.8,
+    "Weight (kg)": 28.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Sudowoodo",
+    "Pokedex ID": 185,
+    "Height (m)": 1.2,
+    "Weight (kg)": 38.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Politoed",
+    "Pokedex ID": 186,
+    "Height (m)": 1.1,
+    "Weight (kg)": 33.9,
+    "Total Stats": 500
+  },
+  {
+    "name": "Hoppip",
+    "Pokedex ID": 187,
+    "Height (m)": 0.4,
+    "Weight (kg)": 0.5,
+    "Total Stats": 250
+  },
+  {
+    "name": "Skiploom",
+    "Pokedex ID": 188,
+    "Height (m)": 0.6,
+    "Weight (kg)": 1.0,
+    "Total Stats": 340
+  },
+  {
+    "name": "Jumpluff",
+    "Pokedex ID": 189,
+    "Height (m)": 0.8,
+    "Weight (kg)": 3.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Aipom",
+    "Pokedex ID": 190,
+    "Height (m)": 0.8,
+    "Weight (kg)": 11.5,
+    "Total Stats": 360
+  },
+  {
+    "name": "Sunkern",
+    "Pokedex ID": 191,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.8,
+    "Total Stats": 180
+  },
+  {
+    "name": "Sunflora",
+    "Pokedex ID": 192,
+    "Height (m)": 0.8,
+    "Weight (kg)": 8.5,
+    "Total Stats": 425
+  },
+  {
+    "name": "Yanma",
+    "Pokedex ID": 193,
+    "Height (m)": 1.2,
+    "Weight (kg)": 38.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Wooper",
+    "Pokedex ID": 194,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.5,
+    "Total Stats": 210
+  },
+  {
+    "name": "Wooper Paldean Wooper",
+    "Pokedex ID": 194,
+    "Height (m)": 0.4,
+    "Weight (kg)": 11.0,
+    "Total Stats": 210
+  },
+  {
+    "name": "Quagsire",
+    "Pokedex ID": 195,
+    "Height (m)": 1.4,
+    "Weight (kg)": 75.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Espeon",
+    "Pokedex ID": 196,
+    "Height (m)": 0.9,
+    "Weight (kg)": 26.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Umbreon",
+    "Pokedex ID": 197,
+    "Height (m)": 1.0,
+    "Weight (kg)": 27.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Murkrow",
+    "Pokedex ID": 198,
+    "Height (m)": 0.5,
+    "Weight (kg)": 2.1,
+    "Total Stats": 405
+  },
+  {
+    "name": "Slowking",
+    "Pokedex ID": 199,
+    "Height (m)": 2.0,
+    "Weight (kg)": 79.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Slowking Galarian Slowking",
+    "Pokedex ID": 199,
+    "Height (m)": 1.8,
+    "Weight (kg)": 79.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Misdreavus",
+    "Pokedex ID": 200,
+    "Height (m)": 0.7,
+    "Weight (kg)": 1.0,
+    "Total Stats": 435
+  },
+  {
+    "name": "Unown",
+    "Pokedex ID": 201,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.0,
+    "Total Stats": 336
+  },
+  {
+    "name": "Wobbuffet",
+    "Pokedex ID": 202,
+    "Height (m)": 1.3,
+    "Weight (kg)": 28.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Girafarig",
+    "Pokedex ID": 203,
+    "Height (m)": 1.5,
+    "Weight (kg)": 41.5,
+    "Total Stats": 455
+  },
+  {
+    "name": "Pineco",
+    "Pokedex ID": 204,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.2,
+    "Total Stats": 290
+  },
+  {
+    "name": "Forretress",
+    "Pokedex ID": 205,
+    "Height (m)": 1.2,
+    "Weight (kg)": 125.8,
+    "Total Stats": 465
+  },
+  {
+    "name": "Dunsparce",
+    "Pokedex ID": 206,
+    "Height (m)": 1.5,
+    "Weight (kg)": 14.0,
+    "Total Stats": 415
+  },
+  {
+    "name": "Gligar",
+    "Pokedex ID": 207,
+    "Height (m)": 1.1,
+    "Weight (kg)": 64.8,
+    "Total Stats": 430
+  },
+  {
+    "name": "Steelix",
+    "Pokedex ID": 208,
+    "Height (m)": 9.2,
+    "Weight (kg)": 400.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Steelix Mega Steelix",
+    "Pokedex ID": 208,
+    "Height (m)": 10.5,
+    "Weight (kg)": 740.0,
+    "Total Stats": 610
+  },
+  {
+    "name": "Snubbull",
+    "Pokedex ID": 209,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.8,
+    "Total Stats": 300
+  },
+  {
+    "name": "Granbull",
+    "Pokedex ID": 210,
+    "Height (m)": 1.4,
+    "Weight (kg)": 48.7,
+    "Total Stats": 450
+  },
+  {
+    "name": "Qwilfish",
+    "Pokedex ID": 211,
+    "Height (m)": 0.5,
+    "Weight (kg)": 3.9,
+    "Total Stats": 440
+  },
+  {
+    "name": "Qwilfish Hisuian Qwilfish",
+    "Pokedex ID": 211,
+    "Height (m)": 0.5,
+    "Weight (kg)": 3.9,
+    "Total Stats": 440
+  },
+  {
+    "name": "Scizor",
+    "Pokedex ID": 212,
+    "Height (m)": 1.8,
+    "Weight (kg)": 118.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Scizor Mega Scizor",
+    "Pokedex ID": 212,
+    "Height (m)": 2.0,
+    "Weight (kg)": 125.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Shuckle",
+    "Pokedex ID": 213,
+    "Height (m)": 0.6,
+    "Weight (kg)": 20.5,
+    "Total Stats": 505
+  },
+  {
+    "name": "Heracross",
+    "Pokedex ID": 214,
+    "Height (m)": 1.5,
+    "Weight (kg)": 54.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Heracross Mega Heracross",
+    "Pokedex ID": 214,
+    "Height (m)": 1.7,
+    "Weight (kg)": 62.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Sneasel",
+    "Pokedex ID": 215,
+    "Height (m)": 0.9,
+    "Weight (kg)": 28.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Sneasel Hisuian Sneasel",
+    "Pokedex ID": 215,
+    "Height (m)": 0.9,
+    "Weight (kg)": 27.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Teddiursa",
+    "Pokedex ID": 216,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.8,
+    "Total Stats": 330
+  },
+  {
+    "name": "Ursaring",
+    "Pokedex ID": 217,
+    "Height (m)": 1.8,
+    "Weight (kg)": 125.8,
+    "Total Stats": 500
+  },
+  {
+    "name": "Slugma",
+    "Pokedex ID": 218,
+    "Height (m)": 0.7,
+    "Weight (kg)": 35.0,
+    "Total Stats": 250
+  },
+  {
+    "name": "Magcargo",
+    "Pokedex ID": 219,
+    "Height (m)": 0.8,
+    "Weight (kg)": 55.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Swinub",
+    "Pokedex ID": 220,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.5,
+    "Total Stats": 250
+  },
+  {
+    "name": "Piloswine",
+    "Pokedex ID": 221,
+    "Height (m)": 1.1,
+    "Weight (kg)": 55.8,
+    "Total Stats": 450
+  },
+  {
+    "name": "Corsola",
+    "Pokedex ID": 222,
+    "Height (m)": 0.6,
+    "Weight (kg)": 5.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Corsola Galarian Corsola",
+    "Pokedex ID": 222,
+    "Height (m)": 0.6,
+    "Weight (kg)": 0.5,
+    "Total Stats": 410
+  },
+  {
+    "name": "Remoraid",
+    "Pokedex ID": 223,
+    "Height (m)": 0.6,
+    "Weight (kg)": 12.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Octillery",
+    "Pokedex ID": 224,
+    "Height (m)": 0.9,
+    "Weight (kg)": 28.5,
+    "Total Stats": 480
+  },
+  {
+    "name": "Delibird",
+    "Pokedex ID": 225,
+    "Height (m)": 0.9,
+    "Weight (kg)": 16.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Mantine",
+    "Pokedex ID": 226,
+    "Height (m)": 2.1,
+    "Weight (kg)": 220.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Skarmory",
+    "Pokedex ID": 227,
+    "Height (m)": 1.7,
+    "Weight (kg)": 50.5,
+    "Total Stats": 465
+  },
+  {
+    "name": "Houndour",
+    "Pokedex ID": 228,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.8,
+    "Total Stats": 330
+  },
+  {
+    "name": "Houndoom",
+    "Pokedex ID": 229,
+    "Height (m)": 1.4,
+    "Weight (kg)": 35.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Houndoom Mega Houndoom",
+    "Pokedex ID": 229,
+    "Height (m)": 1.9,
+    "Weight (kg)": 49.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Kingdra",
+    "Pokedex ID": 230,
+    "Height (m)": 1.8,
+    "Weight (kg)": 152.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Phanpy",
+    "Pokedex ID": 231,
+    "Height (m)": 0.5,
+    "Weight (kg)": 33.5,
+    "Total Stats": 330
+  },
+  {
+    "name": "Donphan",
+    "Pokedex ID": 232,
+    "Height (m)": 1.1,
+    "Weight (kg)": 120.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Porygon2",
+    "Pokedex ID": 233,
+    "Height (m)": 0.6,
+    "Weight (kg)": 32.5,
+    "Total Stats": 515
+  },
+  {
+    "name": "Stantler",
+    "Pokedex ID": 234,
+    "Height (m)": 1.4,
+    "Weight (kg)": 71.2,
+    "Total Stats": 465
+  },
+  {
+    "name": "Smeargle",
+    "Pokedex ID": 235,
+    "Height (m)": 1.2,
+    "Weight (kg)": 58.0,
+    "Total Stats": 250
+  },
+  {
+    "name": "Tyrogue",
+    "Pokedex ID": 236,
+    "Height (m)": 0.7,
+    "Weight (kg)": 21.0,
+    "Total Stats": 210
+  },
+  {
+    "name": "Hitmontop",
+    "Pokedex ID": 237,
+    "Height (m)": 1.4,
+    "Weight (kg)": 48.0,
+    "Total Stats": 455
+  },
+  {
+    "name": "Smoochum",
+    "Pokedex ID": 238,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Elekid",
+    "Pokedex ID": 239,
+    "Height (m)": 0.6,
+    "Weight (kg)": 23.5,
+    "Total Stats": 360
+  },
+  {
+    "name": "Magby",
+    "Pokedex ID": 240,
+    "Height (m)": 0.7,
+    "Weight (kg)": 21.4,
+    "Total Stats": 365
+  },
+  {
+    "name": "Miltank",
+    "Pokedex ID": 241,
+    "Height (m)": 1.2,
+    "Weight (kg)": 75.5,
+    "Total Stats": 490
+  },
+  {
+    "name": "Blissey",
+    "Pokedex ID": 242,
+    "Height (m)": 1.5,
+    "Weight (kg)": 46.8,
+    "Total Stats": 540
+  },
+  {
+    "name": "Raikou",
+    "Pokedex ID": 243,
+    "Height (m)": 1.9,
+    "Weight (kg)": 178.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Entei",
+    "Pokedex ID": 244,
+    "Height (m)": 2.1,
+    "Weight (kg)": 198.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Suicune",
+    "Pokedex ID": 245,
+    "Height (m)": 2.0,
+    "Weight (kg)": 187.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Larvitar",
+    "Pokedex ID": 246,
+    "Height (m)": 0.6,
+    "Weight (kg)": 72.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Pupitar",
+    "Pokedex ID": 247,
+    "Height (m)": 1.2,
+    "Weight (kg)": 152.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Tyranitar",
+    "Pokedex ID": 248,
+    "Height (m)": 2.0,
+    "Weight (kg)": 202.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Tyranitar Mega Tyranitar",
+    "Pokedex ID": 248,
+    "Height (m)": 2.5,
+    "Weight (kg)": 255.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Lugia",
+    "Pokedex ID": 249,
+    "Height (m)": 5.2,
+    "Weight (kg)": 216.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Ho-oh",
+    "Pokedex ID": 250,
+    "Height (m)": 3.8,
+    "Weight (kg)": 199.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Celebi",
+    "Pokedex ID": 251,
+    "Height (m)": 0.6,
+    "Weight (kg)": 5.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Treecko",
+    "Pokedex ID": 252,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.0,
+    "Total Stats": 310
+  },
+  {
+    "name": "Grovyle",
+    "Pokedex ID": 253,
+    "Height (m)": 0.9,
+    "Weight (kg)": 21.6,
+    "Total Stats": 405
+  },
+  {
+    "name": "Sceptile",
+    "Pokedex ID": 254,
+    "Height (m)": 1.7,
+    "Weight (kg)": 52.2,
+    "Total Stats": 530
+  },
+  {
+    "name": "Sceptile Mega Sceptile",
+    "Pokedex ID": 254,
+    "Height (m)": 1.9,
+    "Weight (kg)": 55.2,
+    "Total Stats": 630
+  },
+  {
+    "name": "Torchic",
+    "Pokedex ID": 255,
+    "Height (m)": 0.4,
+    "Weight (kg)": 2.5,
+    "Total Stats": 310
+  },
+  {
+    "name": "Combusken",
+    "Pokedex ID": 256,
+    "Height (m)": 0.9,
+    "Weight (kg)": 19.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Blaziken",
+    "Pokedex ID": 257,
+    "Height (m)": 1.9,
+    "Weight (kg)": 52.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Blaziken Mega Blaziken",
+    "Pokedex ID": 257,
+    "Height (m)": 1.9,
+    "Weight (kg)": 52.0,
+    "Total Stats": 630
+  },
+  {
+    "name": "Mudkip",
+    "Pokedex ID": 258,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.6,
+    "Total Stats": 310
+  },
+  {
+    "name": "Marshtomp",
+    "Pokedex ID": 259,
+    "Height (m)": 0.7,
+    "Weight (kg)": 28.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Swampert",
+    "Pokedex ID": 260,
+    "Height (m)": 1.5,
+    "Weight (kg)": 81.9,
+    "Total Stats": 535
+  },
+  {
+    "name": "Swampert Mega Swampert",
+    "Pokedex ID": 260,
+    "Height (m)": 1.9,
+    "Weight (kg)": 102.0,
+    "Total Stats": 635
+  },
+  {
+    "name": "Poochyena",
+    "Pokedex ID": 261,
+    "Height (m)": 0.5,
+    "Weight (kg)": 13.6,
+    "Total Stats": 220
+  },
+  {
+    "name": "Mightyena",
+    "Pokedex ID": 262,
+    "Height (m)": 1.0,
+    "Weight (kg)": 37.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Zigzagoon",
+    "Pokedex ID": 263,
+    "Height (m)": 0.4,
+    "Weight (kg)": 17.5,
+    "Total Stats": 240
+  },
+  {
+    "name": "Zigzagoon Galarian Zigzagoon",
+    "Pokedex ID": 263,
+    "Height (m)": 0.4,
+    "Weight (kg)": 17.5,
+    "Total Stats": 240
+  },
+  {
+    "name": "Linoone",
+    "Pokedex ID": 264,
+    "Height (m)": 0.5,
+    "Weight (kg)": 32.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Linoone Galarian Linoone",
+    "Pokedex ID": 264,
+    "Height (m)": 0.5,
+    "Weight (kg)": 32.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Wurmple",
+    "Pokedex ID": 265,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.6,
+    "Total Stats": 195
+  },
+  {
+    "name": "Silcoon",
+    "Pokedex ID": 266,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.0,
+    "Total Stats": 205
+  },
+  {
+    "name": "Beautifly",
+    "Pokedex ID": 267,
+    "Height (m)": 1.0,
+    "Weight (kg)": 28.4,
+    "Total Stats": 395
+  },
+  {
+    "name": "Cascoon",
+    "Pokedex ID": 268,
+    "Height (m)": 0.7,
+    "Weight (kg)": 11.5,
+    "Total Stats": 205
+  },
+  {
+    "name": "Dustox",
+    "Pokedex ID": 269,
+    "Height (m)": 1.2,
+    "Weight (kg)": 31.6,
+    "Total Stats": 385
+  },
+  {
+    "name": "Lotad",
+    "Pokedex ID": 270,
+    "Height (m)": 0.5,
+    "Weight (kg)": 2.6,
+    "Total Stats": 220
+  },
+  {
+    "name": "Lombre",
+    "Pokedex ID": 271,
+    "Height (m)": 1.2,
+    "Weight (kg)": 32.5,
+    "Total Stats": 340
+  },
+  {
+    "name": "Ludicolo",
+    "Pokedex ID": 272,
+    "Height (m)": 1.5,
+    "Weight (kg)": 55.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Seedot",
+    "Pokedex ID": 273,
+    "Height (m)": 0.5,
+    "Weight (kg)": 4.0,
+    "Total Stats": 220
+  },
+  {
+    "name": "Nuzleaf",
+    "Pokedex ID": 274,
+    "Height (m)": 1.0,
+    "Weight (kg)": 28.0,
+    "Total Stats": 340
+  },
+  {
+    "name": "Shiftry",
+    "Pokedex ID": 275,
+    "Height (m)": 1.3,
+    "Weight (kg)": 59.6,
+    "Total Stats": 480
+  },
+  {
+    "name": "Taillow",
+    "Pokedex ID": 276,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.3,
+    "Total Stats": 270
+  },
+  {
+    "name": "Swellow",
+    "Pokedex ID": 277,
+    "Height (m)": 0.7,
+    "Weight (kg)": 19.8,
+    "Total Stats": 455
+  },
+  {
+    "name": "Wingull",
+    "Pokedex ID": 278,
+    "Height (m)": 0.6,
+    "Weight (kg)": 9.5,
+    "Total Stats": 270
+  },
+  {
+    "name": "Pelipper",
+    "Pokedex ID": 279,
+    "Height (m)": 1.2,
+    "Weight (kg)": 28.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Ralts",
+    "Pokedex ID": 280,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.6,
+    "Total Stats": 198
+  },
+  {
+    "name": "Kirlia",
+    "Pokedex ID": 281,
+    "Height (m)": 0.8,
+    "Weight (kg)": 20.2,
+    "Total Stats": 278
+  },
+  {
+    "name": "Gardevoir",
+    "Pokedex ID": 282,
+    "Height (m)": 1.6,
+    "Weight (kg)": 48.4,
+    "Total Stats": 518
+  },
+  {
+    "name": "Gardevoir Mega Gardevoir",
+    "Pokedex ID": 282,
+    "Height (m)": 1.6,
+    "Weight (kg)": 48.4,
+    "Total Stats": 618
+  },
+  {
+    "name": "Surskit",
+    "Pokedex ID": 283,
+    "Height (m)": 0.5,
+    "Weight (kg)": 1.7,
+    "Total Stats": 269
+  },
+  {
+    "name": "Masquerain",
+    "Pokedex ID": 284,
+    "Height (m)": 0.8,
+    "Weight (kg)": 3.6,
+    "Total Stats": 454
+  },
+  {
+    "name": "Shroomish",
+    "Pokedex ID": 285,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.5,
+    "Total Stats": 295
+  },
+  {
+    "name": "Breloom",
+    "Pokedex ID": 286,
+    "Height (m)": 1.2,
+    "Weight (kg)": 39.2,
+    "Total Stats": 460
+  },
+  {
+    "name": "Slakoth",
+    "Pokedex ID": 287,
+    "Height (m)": 0.8,
+    "Weight (kg)": 24.0,
+    "Total Stats": 280
+  },
+  {
+    "name": "Vigoroth",
+    "Pokedex ID": 288,
+    "Height (m)": 1.4,
+    "Weight (kg)": 46.5,
+    "Total Stats": 440
+  },
+  {
+    "name": "Slaking",
+    "Pokedex ID": 289,
+    "Height (m)": 2.0,
+    "Weight (kg)": 130.5,
+    "Total Stats": 670
+  },
+  {
+    "name": "Nincada",
+    "Pokedex ID": 290,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.5,
+    "Total Stats": 266
+  },
+  {
+    "name": "Ninjask",
+    "Pokedex ID": 291,
+    "Height (m)": 0.8,
+    "Weight (kg)": 12.0,
+    "Total Stats": 456
+  },
+  {
+    "name": "Shedinja",
+    "Pokedex ID": 292,
+    "Height (m)": 0.8,
+    "Weight (kg)": 1.2,
+    "Total Stats": 236
+  },
+  {
+    "name": "Whismur",
+    "Pokedex ID": 293,
+    "Height (m)": 0.6,
+    "Weight (kg)": 16.3,
+    "Total Stats": 240
+  },
+  {
+    "name": "Loudred",
+    "Pokedex ID": 294,
+    "Height (m)": 1.0,
+    "Weight (kg)": 40.5,
+    "Total Stats": 360
+  },
+  {
+    "name": "Exploud",
+    "Pokedex ID": 295,
+    "Height (m)": 1.5,
+    "Weight (kg)": 84.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Makuhita",
+    "Pokedex ID": 296,
+    "Height (m)": 1.0,
+    "Weight (kg)": 86.4,
+    "Total Stats": 237
+  },
+  {
+    "name": "Hariyama",
+    "Pokedex ID": 297,
+    "Height (m)": 2.3,
+    "Weight (kg)": 253.8,
+    "Total Stats": 474
+  },
+  {
+    "name": "Azurill",
+    "Pokedex ID": 298,
+    "Height (m)": 0.2,
+    "Weight (kg)": 2.0,
+    "Total Stats": 190
+  },
+  {
+    "name": "Nosepass",
+    "Pokedex ID": 299,
+    "Height (m)": 1.0,
+    "Weight (kg)": 97.0,
+    "Total Stats": 375
+  },
+  {
+    "name": "Skitty",
+    "Pokedex ID": 300,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.0,
+    "Total Stats": 260
+  },
+  {
+    "name": "Delcatty",
+    "Pokedex ID": 301,
+    "Height (m)": 1.1,
+    "Weight (kg)": 32.6,
+    "Total Stats": 400
+  },
+  {
+    "name": "Sableye",
+    "Pokedex ID": 302,
+    "Height (m)": 0.5,
+    "Weight (kg)": 11.0,
+    "Total Stats": 380
+  },
+  {
+    "name": "Sableye Mega Sableye",
+    "Pokedex ID": 302,
+    "Height (m)": 0.5,
+    "Weight (kg)": 161.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Mawile",
+    "Pokedex ID": 303,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.5,
+    "Total Stats": 380
+  },
+  {
+    "name": "Mawile Mega Mawile",
+    "Pokedex ID": 303,
+    "Height (m)": 1.0,
+    "Weight (kg)": 23.5,
+    "Total Stats": 480
+  },
+  {
+    "name": "Aron",
+    "Pokedex ID": 304,
+    "Height (m)": 0.4,
+    "Weight (kg)": 60.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Lairon",
+    "Pokedex ID": 305,
+    "Height (m)": 0.9,
+    "Weight (kg)": 120.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Aggron",
+    "Pokedex ID": 306,
+    "Height (m)": 2.1,
+    "Weight (kg)": 360.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Aggron Mega Aggron",
+    "Pokedex ID": 306,
+    "Height (m)": 2.2,
+    "Weight (kg)": 395.0,
+    "Total Stats": 630
+  },
+  {
+    "name": "Meditite",
+    "Pokedex ID": 307,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.2,
+    "Total Stats": 280
+  },
+  {
+    "name": "Medicham",
+    "Pokedex ID": 308,
+    "Height (m)": 1.3,
+    "Weight (kg)": 31.5,
+    "Total Stats": 410
+  },
+  {
+    "name": "Medicham Mega Medicham",
+    "Pokedex ID": 308,
+    "Height (m)": 1.3,
+    "Weight (kg)": 31.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Electrike",
+    "Pokedex ID": 309,
+    "Height (m)": 0.6,
+    "Weight (kg)": 15.2,
+    "Total Stats": 295
+  },
+  {
+    "name": "Manectric",
+    "Pokedex ID": 310,
+    "Height (m)": 1.5,
+    "Weight (kg)": 40.2,
+    "Total Stats": 475
+  },
+  {
+    "name": "Manectric Mega Manectric",
+    "Pokedex ID": 310,
+    "Height (m)": 1.8,
+    "Weight (kg)": 44.0,
+    "Total Stats": 575
+  },
+  {
+    "name": "Plusle",
+    "Pokedex ID": 311,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.2,
+    "Total Stats": 405
+  },
+  {
+    "name": "Minun",
+    "Pokedex ID": 312,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.2,
+    "Total Stats": 405
+  },
+  {
+    "name": "Volbeat",
+    "Pokedex ID": 313,
+    "Height (m)": 0.7,
+    "Weight (kg)": 17.7,
+    "Total Stats": 430
+  },
+  {
+    "name": "Illumise",
+    "Pokedex ID": 314,
+    "Height (m)": 0.6,
+    "Weight (kg)": 17.7,
+    "Total Stats": 430
+  },
+  {
+    "name": "Roselia",
+    "Pokedex ID": 315,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.0,
+    "Total Stats": 400
+  },
+  {
+    "name": "Gulpin",
+    "Pokedex ID": 316,
+    "Height (m)": 0.4,
+    "Weight (kg)": 10.3,
+    "Total Stats": 302
+  },
+  {
+    "name": "Swalot",
+    "Pokedex ID": 317,
+    "Height (m)": 1.7,
+    "Weight (kg)": 80.0,
+    "Total Stats": 467
+  },
+  {
+    "name": "Carvanha",
+    "Pokedex ID": 318,
+    "Height (m)": 0.8,
+    "Weight (kg)": 20.8,
+    "Total Stats": 305
+  },
+  {
+    "name": "Sharpedo",
+    "Pokedex ID": 319,
+    "Height (m)": 1.8,
+    "Weight (kg)": 88.8,
+    "Total Stats": 460
+  },
+  {
+    "name": "Sharpedo Mega Sharpedo",
+    "Pokedex ID": 319,
+    "Height (m)": 2.5,
+    "Weight (kg)": 130.3,
+    "Total Stats": 560
+  },
+  {
+    "name": "Wailmer",
+    "Pokedex ID": 320,
+    "Height (m)": 2.0,
+    "Weight (kg)": 130.0,
+    "Total Stats": 400
+  },
+  {
+    "name": "Wailord",
+    "Pokedex ID": 321,
+    "Height (m)": 14.5,
+    "Weight (kg)": 398.0,
+    "Total Stats": 500
   },
   {
     "name": "Numel",
+    "Pokedex ID": 322,
     "Height (m)": 0.7,
     "Weight (kg)": 24.0,
-    "HP": 60,
-    "Attack": 60
+    "Total Stats": 305
   },
   {
-    "name": "Deino",
+    "name": "Camerupt",
+    "Pokedex ID": 323,
+    "Height (m)": 1.9,
+    "Weight (kg)": 220.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Camerupt Mega Camerupt",
+    "Pokedex ID": 323,
+    "Height (m)": 2.5,
+    "Weight (kg)": 320.5,
+    "Total Stats": 560
+  },
+  {
+    "name": "Torkoal",
+    "Pokedex ID": 324,
+    "Height (m)": 0.5,
+    "Weight (kg)": 80.4,
+    "Total Stats": 470
+  },
+  {
+    "name": "Spoink",
+    "Pokedex ID": 325,
+    "Height (m)": 0.7,
+    "Weight (kg)": 30.6,
+    "Total Stats": 330
+  },
+  {
+    "name": "Grumpig",
+    "Pokedex ID": 326,
+    "Height (m)": 0.9,
+    "Weight (kg)": 71.5,
+    "Total Stats": 470
+  },
+  {
+    "name": "Spinda",
+    "Pokedex ID": 327,
+    "Height (m)": 1.1,
+    "Weight (kg)": 5.0,
+    "Total Stats": 360
+  },
+  {
+    "name": "Trapinch",
+    "Pokedex ID": 328,
+    "Height (m)": 0.7,
+    "Weight (kg)": 15.0,
+    "Total Stats": 290
+  },
+  {
+    "name": "Vibrava",
+    "Pokedex ID": 329,
+    "Height (m)": 1.1,
+    "Weight (kg)": 15.3,
+    "Total Stats": 340
+  },
+  {
+    "name": "Flygon",
+    "Pokedex ID": 330,
+    "Height (m)": 2.0,
+    "Weight (kg)": 82.0,
+    "Total Stats": 520
+  },
+  {
+    "name": "Cacnea",
+    "Pokedex ID": 331,
+    "Height (m)": 0.4,
+    "Weight (kg)": 51.3,
+    "Total Stats": 335
+  },
+  {
+    "name": "Cacturne",
+    "Pokedex ID": 332,
+    "Height (m)": 1.3,
+    "Weight (kg)": 77.4,
+    "Total Stats": 475
+  },
+  {
+    "name": "Swablu",
+    "Pokedex ID": 333,
+    "Height (m)": 0.4,
+    "Weight (kg)": 1.2,
+    "Total Stats": 310
+  },
+  {
+    "name": "Altaria",
+    "Pokedex ID": 334,
+    "Height (m)": 1.1,
+    "Weight (kg)": 20.6,
+    "Total Stats": 490
+  },
+  {
+    "name": "Altaria Mega Altaria",
+    "Pokedex ID": 334,
+    "Height (m)": 1.5,
+    "Weight (kg)": 20.6,
+    "Total Stats": 590
+  },
+  {
+    "name": "Zangoose",
+    "Pokedex ID": 335,
+    "Height (m)": 1.3,
+    "Weight (kg)": 40.3,
+    "Total Stats": 458
+  },
+  {
+    "name": "Seviper",
+    "Pokedex ID": 336,
+    "Height (m)": 2.7,
+    "Weight (kg)": 52.5,
+    "Total Stats": 458
+  },
+  {
+    "name": "Lunatone",
+    "Pokedex ID": 337,
+    "Height (m)": 1.0,
+    "Weight (kg)": 168.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Solrock",
+    "Pokedex ID": 338,
+    "Height (m)": 1.2,
+    "Weight (kg)": 154.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Barboach",
+    "Pokedex ID": 339,
+    "Height (m)": 0.4,
+    "Weight (kg)": 1.9,
+    "Total Stats": 288
+  },
+  {
+    "name": "Whiscash",
+    "Pokedex ID": 340,
+    "Height (m)": 0.9,
+    "Weight (kg)": 23.6,
+    "Total Stats": 468
+  },
+  {
+    "name": "Corphish",
+    "Pokedex ID": 341,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.5,
+    "Total Stats": 308
+  },
+  {
+    "name": "Crawdaunt",
+    "Pokedex ID": 342,
+    "Height (m)": 1.1,
+    "Weight (kg)": 32.8,
+    "Total Stats": 468
+  },
+  {
+    "name": "Baltoy",
+    "Pokedex ID": 343,
+    "Height (m)": 0.5,
+    "Weight (kg)": 21.5,
+    "Total Stats": 300
+  },
+  {
+    "name": "Claydol",
+    "Pokedex ID": 344,
+    "Height (m)": 1.5,
+    "Weight (kg)": 108.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Lileep",
+    "Pokedex ID": 345,
+    "Height (m)": 1.0,
+    "Weight (kg)": 23.8,
+    "Total Stats": 355
+  },
+  {
+    "name": "Cradily",
+    "Pokedex ID": 346,
+    "Height (m)": 1.5,
+    "Weight (kg)": 60.4,
+    "Total Stats": 495
+  },
+  {
+    "name": "Anorith",
+    "Pokedex ID": 347,
+    "Height (m)": 0.7,
+    "Weight (kg)": 12.5,
+    "Total Stats": 355
+  },
+  {
+    "name": "Armaldo",
+    "Pokedex ID": 348,
+    "Height (m)": 1.5,
+    "Weight (kg)": 68.2,
+    "Total Stats": 495
+  },
+  {
+    "name": "Feebas",
+    "Pokedex ID": 349,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.4,
+    "Total Stats": 200
+  },
+  {
+    "name": "Milotic",
+    "Pokedex ID": 350,
+    "Height (m)": 6.2,
+    "Weight (kg)": 162.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Castform",
+    "Pokedex ID": 351,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.8,
+    "Total Stats": 420
+  },
+  {
+    "name": "Castform Sunny Form",
+    "Pokedex ID": 351,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.8,
+    "Total Stats": 420
+  },
+  {
+    "name": "Castform Rainy Form",
+    "Pokedex ID": 351,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.8,
+    "Total Stats": 420
+  },
+  {
+    "name": "Castform Snowy Form",
+    "Pokedex ID": 351,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.8,
+    "Total Stats": 420
+  },
+  {
+    "name": "Kecleon",
+    "Pokedex ID": 352,
+    "Height (m)": 1.0,
+    "Weight (kg)": 22.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Shuppet",
+    "Pokedex ID": 353,
+    "Height (m)": 0.6,
+    "Weight (kg)": 2.3,
+    "Total Stats": 295
+  },
+  {
+    "name": "Banette",
+    "Pokedex ID": 354,
+    "Height (m)": 1.1,
+    "Weight (kg)": 12.5,
+    "Total Stats": 455
+  },
+  {
+    "name": "Banette Mega Banette",
+    "Pokedex ID": 354,
+    "Height (m)": 1.2,
+    "Weight (kg)": 13.0,
+    "Total Stats": 555
+  },
+  {
+    "name": "Duskull",
+    "Pokedex ID": 355,
     "Height (m)": 0.8,
-    "Weight (kg)": 17.3,
-    "HP": 52,
-    "Attack": 65
+    "Weight (kg)": 15.0,
+    "Total Stats": 295
+  },
+  {
+    "name": "Dusclops",
+    "Pokedex ID": 356,
+    "Height (m)": 1.6,
+    "Weight (kg)": 30.6,
+    "Total Stats": 455
+  },
+  {
+    "name": "Tropius",
+    "Pokedex ID": 357,
+    "Height (m)": 2.0,
+    "Weight (kg)": 100.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Chimecho",
+    "Pokedex ID": 358,
+    "Height (m)": 0.6,
+    "Weight (kg)": 1.0,
+    "Total Stats": 455
+  },
+  {
+    "name": "Absol",
+    "Pokedex ID": 359,
+    "Height (m)": 1.2,
+    "Weight (kg)": 47.0,
+    "Total Stats": 465
+  },
+  {
+    "name": "Absol Mega Absol",
+    "Pokedex ID": 359,
+    "Height (m)": 1.2,
+    "Weight (kg)": 49.0,
+    "Total Stats": 565
+  },
+  {
+    "name": "Wynaut",
+    "Pokedex ID": 360,
+    "Height (m)": 0.6,
+    "Weight (kg)": 14.0,
+    "Total Stats": 260
+  },
+  {
+    "name": "Snorunt",
+    "Pokedex ID": 361,
+    "Height (m)": 0.7,
+    "Weight (kg)": 16.8,
+    "Total Stats": 300
+  },
+  {
+    "name": "Glalie",
+    "Pokedex ID": 362,
+    "Height (m)": 1.5,
+    "Weight (kg)": 256.5,
+    "Total Stats": 480
+  },
+  {
+    "name": "Glalie Mega Glalie",
+    "Pokedex ID": 362,
+    "Height (m)": 2.1,
+    "Weight (kg)": 350.2,
+    "Total Stats": 580
+  },
+  {
+    "name": "Spheal",
+    "Pokedex ID": 363,
+    "Height (m)": 0.8,
+    "Weight (kg)": 39.5,
+    "Total Stats": 290
+  },
+  {
+    "name": "Sealeo",
+    "Pokedex ID": 364,
+    "Height (m)": 1.1,
+    "Weight (kg)": 87.6,
+    "Total Stats": 410
+  },
+  {
+    "name": "Walrein",
+    "Pokedex ID": 365,
+    "Height (m)": 1.4,
+    "Weight (kg)": 150.6,
+    "Total Stats": 530
+  },
+  {
+    "name": "Clamperl",
+    "Pokedex ID": 366,
+    "Height (m)": 0.4,
+    "Weight (kg)": 52.5,
+    "Total Stats": 345
+  },
+  {
+    "name": "Huntail",
+    "Pokedex ID": 367,
+    "Height (m)": 1.7,
+    "Weight (kg)": 27.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Gorebyss",
+    "Pokedex ID": 368,
+    "Height (m)": 1.8,
+    "Weight (kg)": 22.6,
+    "Total Stats": 485
+  },
+  {
+    "name": "Relicanth",
+    "Pokedex ID": 369,
+    "Height (m)": 1.0,
+    "Weight (kg)": 23.4,
+    "Total Stats": 485
+  },
+  {
+    "name": "Luvdisc",
+    "Pokedex ID": 370,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.7,
+    "Total Stats": 330
+  },
+  {
+    "name": "Bagon",
+    "Pokedex ID": 371,
+    "Height (m)": 0.6,
+    "Weight (kg)": 42.1,
+    "Total Stats": 300
+  },
+  {
+    "name": "Shelgon",
+    "Pokedex ID": 372,
+    "Height (m)": 1.1,
+    "Weight (kg)": 110.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Salamence",
+    "Pokedex ID": 373,
+    "Height (m)": 1.5,
+    "Weight (kg)": 102.6,
+    "Total Stats": 600
+  },
+  {
+    "name": "Salamence Mega Salamence",
+    "Pokedex ID": 373,
+    "Height (m)": 1.8,
+    "Weight (kg)": 112.6,
+    "Total Stats": 700
+  },
+  {
+    "name": "Beldum",
+    "Pokedex ID": 374,
+    "Height (m)": 0.6,
+    "Weight (kg)": 95.2,
+    "Total Stats": 300
+  },
+  {
+    "name": "Metang",
+    "Pokedex ID": 375,
+    "Height (m)": 1.2,
+    "Weight (kg)": 202.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Metagross",
+    "Pokedex ID": 376,
+    "Height (m)": 1.6,
+    "Weight (kg)": 550.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Metagross Mega Metagross",
+    "Pokedex ID": 376,
+    "Height (m)": 2.5,
+    "Weight (kg)": 942.9,
+    "Total Stats": 700
+  },
+  {
+    "name": "Regirock",
+    "Pokedex ID": 377,
+    "Height (m)": 1.7,
+    "Weight (kg)": 230.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Regice",
+    "Pokedex ID": 378,
+    "Height (m)": 1.8,
+    "Weight (kg)": 175.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Registeel",
+    "Pokedex ID": 379,
+    "Height (m)": 1.9,
+    "Weight (kg)": 205.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Latias",
+    "Pokedex ID": 380,
+    "Height (m)": 1.4,
+    "Weight (kg)": 40.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Latias Mega Latias",
+    "Pokedex ID": 380,
+    "Height (m)": 1.8,
+    "Weight (kg)": 52.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Latios",
+    "Pokedex ID": 381,
+    "Height (m)": 2.0,
+    "Weight (kg)": 60.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Latios Mega Latios",
+    "Pokedex ID": 381,
+    "Height (m)": 2.3,
+    "Weight (kg)": 70.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Kyogre",
+    "Pokedex ID": 382,
+    "Height (m)": 4.5,
+    "Weight (kg)": 352.0,
+    "Total Stats": 670
+  },
+  {
+    "name": "Kyogre Primal Kyogre",
+    "Pokedex ID": 382,
+    "Height (m)": 9.8,
+    "Weight (kg)": 430.0,
+    "Total Stats": 770
+  },
+  {
+    "name": "Groudon",
+    "Pokedex ID": 383,
+    "Height (m)": 3.5,
+    "Weight (kg)": 950.0,
+    "Total Stats": 670
+  },
+  {
+    "name": "Groudon Primal Groudon",
+    "Pokedex ID": 383,
+    "Height (m)": 5.0,
+    "Weight (kg)": 999.7,
+    "Total Stats": 770
+  },
+  {
+    "name": "Rayquaza",
+    "Pokedex ID": 384,
+    "Height (m)": 7.0,
+    "Weight (kg)": 206.5,
+    "Total Stats": 680
+  },
+  {
+    "name": "Rayquaza Mega Rayquaza",
+    "Pokedex ID": 384,
+    "Height (m)": 10.8,
+    "Weight (kg)": 392.0,
+    "Total Stats": 780
+  },
+  {
+    "name": "Jirachi",
+    "Pokedex ID": 385,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.1,
+    "Total Stats": 600
+  },
+  {
+    "name": "Deoxys Normal Forme",
+    "Pokedex ID": 386,
+    "Height (m)": 1.7,
+    "Weight (kg)": 60.8,
+    "Total Stats": 600
+  },
+  {
+    "name": "Deoxys Attack Forme",
+    "Pokedex ID": 386,
+    "Height (m)": 1.7,
+    "Weight (kg)": 60.8,
+    "Total Stats": 600
+  },
+  {
+    "name": "Deoxys Defense Forme",
+    "Pokedex ID": 386,
+    "Height (m)": 1.7,
+    "Weight (kg)": 60.8,
+    "Total Stats": 600
+  },
+  {
+    "name": "Deoxys Speed Forme",
+    "Pokedex ID": 386,
+    "Height (m)": 1.7,
+    "Weight (kg)": 60.8,
+    "Total Stats": 600
+  },
+  {
+    "name": "Turtwig",
+    "Pokedex ID": 387,
+    "Height (m)": 0.4,
+    "Weight (kg)": 10.2,
+    "Total Stats": 318
+  },
+  {
+    "name": "Grotle",
+    "Pokedex ID": 388,
+    "Height (m)": 1.1,
+    "Weight (kg)": 97.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Torterra",
+    "Pokedex ID": 389,
+    "Height (m)": 2.2,
+    "Weight (kg)": 310.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Chimchar",
+    "Pokedex ID": 390,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.2,
+    "Total Stats": 309
+  },
+  {
+    "name": "Monferno",
+    "Pokedex ID": 391,
+    "Height (m)": 0.9,
+    "Weight (kg)": 22.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Infernape",
+    "Pokedex ID": 392,
+    "Height (m)": 1.2,
+    "Weight (kg)": 55.0,
+    "Total Stats": 534
+  },
+  {
+    "name": "Piplup",
+    "Pokedex ID": 393,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.2,
+    "Total Stats": 314
+  },
+  {
+    "name": "Prinplup",
+    "Pokedex ID": 394,
+    "Height (m)": 0.8,
+    "Weight (kg)": 23.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Empoleon",
+    "Pokedex ID": 395,
+    "Height (m)": 1.7,
+    "Weight (kg)": 84.5,
+    "Total Stats": 530
+  },
+  {
+    "name": "Starly",
+    "Pokedex ID": 396,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.0,
+    "Total Stats": 245
+  },
+  {
+    "name": "Staravia",
+    "Pokedex ID": 397,
+    "Height (m)": 0.6,
+    "Weight (kg)": 15.5,
+    "Total Stats": 340
+  },
+  {
+    "name": "Staraptor",
+    "Pokedex ID": 398,
+    "Height (m)": 1.2,
+    "Weight (kg)": 24.9,
+    "Total Stats": 485
+  },
+  {
+    "name": "Bidoof",
+    "Pokedex ID": 399,
+    "Height (m)": 0.5,
+    "Weight (kg)": 20.0,
+    "Total Stats": 250
+  },
+  {
+    "name": "Bibarel",
+    "Pokedex ID": 400,
+    "Height (m)": 1.0,
+    "Weight (kg)": 31.5,
+    "Total Stats": 410
+  },
+  {
+    "name": "Kricketot",
+    "Pokedex ID": 401,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.2,
+    "Total Stats": 194
+  },
+  {
+    "name": "Kricketune",
+    "Pokedex ID": 402,
+    "Height (m)": 1.0,
+    "Weight (kg)": 25.5,
+    "Total Stats": 384
+  },
+  {
+    "name": "Shinx",
+    "Pokedex ID": 403,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.5,
+    "Total Stats": 263
+  },
+  {
+    "name": "Luxio",
+    "Pokedex ID": 404,
+    "Height (m)": 0.9,
+    "Weight (kg)": 30.5,
+    "Total Stats": 363
+  },
+  {
+    "name": "Luxray",
+    "Pokedex ID": 405,
+    "Height (m)": 1.4,
+    "Weight (kg)": 42.0,
+    "Total Stats": 523
+  },
+  {
+    "name": "Budew",
+    "Pokedex ID": 406,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.2,
+    "Total Stats": 280
+  },
+  {
+    "name": "Roserade",
+    "Pokedex ID": 407,
+    "Height (m)": 0.9,
+    "Weight (kg)": 14.5,
+    "Total Stats": 515
+  },
+  {
+    "name": "Cranidos",
+    "Pokedex ID": 408,
+    "Height (m)": 0.9,
+    "Weight (kg)": 31.5,
+    "Total Stats": 350
+  },
+  {
+    "name": "Rampardos",
+    "Pokedex ID": 409,
+    "Height (m)": 1.6,
+    "Weight (kg)": 102.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Shieldon",
+    "Pokedex ID": 410,
+    "Height (m)": 0.5,
+    "Weight (kg)": 57.0,
+    "Total Stats": 350
+  },
+  {
+    "name": "Bastiodon",
+    "Pokedex ID": 411,
+    "Height (m)": 1.3,
+    "Weight (kg)": 149.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Burmy Plant Cloak",
+    "Pokedex ID": 412,
+    "Height (m)": 0.2,
+    "Weight (kg)": 3.4,
+    "Total Stats": 224
+  },
+  {
+    "name": "Burmy Sandy Cloak",
+    "Pokedex ID": 412,
+    "Height (m)": 0.2,
+    "Weight (kg)": 3.4,
+    "Total Stats": 224
+  },
+  {
+    "name": "Burmy Trash Cloak",
+    "Pokedex ID": 412,
+    "Height (m)": 0.2,
+    "Weight (kg)": 3.4,
+    "Total Stats": 224
+  },
+  {
+    "name": "Wormadam Plant Cloak",
+    "Pokedex ID": 413,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.5,
+    "Total Stats": 424
+  },
+  {
+    "name": "Wormadam Sandy Cloak",
+    "Pokedex ID": 413,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.5,
+    "Total Stats": 424
+  },
+  {
+    "name": "Wormadam Trash Cloak",
+    "Pokedex ID": 413,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.5,
+    "Total Stats": 424
+  },
+  {
+    "name": "Mothim",
+    "Pokedex ID": 414,
+    "Height (m)": 0.9,
+    "Weight (kg)": 23.3,
+    "Total Stats": 424
+  },
+  {
+    "name": "Combee",
+    "Pokedex ID": 415,
+    "Height (m)": 0.3,
+    "Weight (kg)": 5.5,
+    "Total Stats": 244
+  },
+  {
+    "name": "Vespiquen",
+    "Pokedex ID": 416,
+    "Height (m)": 1.2,
+    "Weight (kg)": 38.5,
+    "Total Stats": 474
+  },
+  {
+    "name": "Pachirisu",
+    "Pokedex ID": 417,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.9,
+    "Total Stats": 405
+  },
+  {
+    "name": "Buizel",
+    "Pokedex ID": 418,
+    "Height (m)": 0.7,
+    "Weight (kg)": 29.5,
+    "Total Stats": 330
+  },
+  {
+    "name": "Floatzel",
+    "Pokedex ID": 419,
+    "Height (m)": 1.1,
+    "Weight (kg)": 33.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Cherubi",
+    "Pokedex ID": 420,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.3,
+    "Total Stats": 275
+  },
+  {
+    "name": "Cherrim",
+    "Pokedex ID": 421,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.3,
+    "Total Stats": 450
+  },
+  {
+    "name": "Shellos",
+    "Pokedex ID": 422,
+    "Height (m)": 0.3,
+    "Weight (kg)": 6.3,
+    "Total Stats": 325
+  },
+  {
+    "name": "Gastrodon",
+    "Pokedex ID": 423,
+    "Height (m)": 0.9,
+    "Weight (kg)": 29.9,
+    "Total Stats": 475
+  },
+  {
+    "name": "Ambipom",
+    "Pokedex ID": 424,
+    "Height (m)": 1.2,
+    "Weight (kg)": 20.3,
+    "Total Stats": 482
+  },
+  {
+    "name": "Drifloon",
+    "Pokedex ID": 425,
+    "Height (m)": 0.4,
+    "Weight (kg)": 1.2,
+    "Total Stats": 348
+  },
+  {
+    "name": "Drifblim",
+    "Pokedex ID": 426,
+    "Height (m)": 1.2,
+    "Weight (kg)": 15.0,
+    "Total Stats": 498
+  },
+  {
+    "name": "Buneary",
+    "Pokedex ID": 427,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.5,
+    "Total Stats": 350
+  },
+  {
+    "name": "Lopunny",
+    "Pokedex ID": 428,
+    "Height (m)": 1.2,
+    "Weight (kg)": 33.3,
+    "Total Stats": 480
+  },
+  {
+    "name": "Lopunny Mega Lopunny",
+    "Pokedex ID": 428,
+    "Height (m)": 1.3,
+    "Weight (kg)": 28.3,
+    "Total Stats": 580
+  },
+  {
+    "name": "Mismagius",
+    "Pokedex ID": 429,
+    "Height (m)": 0.9,
+    "Weight (kg)": 4.4,
+    "Total Stats": 495
+  },
+  {
+    "name": "Honchkrow",
+    "Pokedex ID": 430,
+    "Height (m)": 0.9,
+    "Weight (kg)": 27.3,
+    "Total Stats": 505
+  },
+  {
+    "name": "Glameow",
+    "Pokedex ID": 431,
+    "Height (m)": 0.5,
+    "Weight (kg)": 3.9,
+    "Total Stats": 310
+  },
+  {
+    "name": "Purugly",
+    "Pokedex ID": 432,
+    "Height (m)": 1.0,
+    "Weight (kg)": 43.8,
+    "Total Stats": 452
+  },
+  {
+    "name": "Chingling",
+    "Pokedex ID": 433,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.6,
+    "Total Stats": 285
+  },
+  {
+    "name": "Stunky",
+    "Pokedex ID": 434,
+    "Height (m)": 0.4,
+    "Weight (kg)": 19.2,
+    "Total Stats": 329
+  },
+  {
+    "name": "Skuntank",
+    "Pokedex ID": 435,
+    "Height (m)": 1.0,
+    "Weight (kg)": 38.0,
+    "Total Stats": 479
+  },
+  {
+    "name": "Bronzor",
+    "Pokedex ID": 436,
+    "Height (m)": 0.5,
+    "Weight (kg)": 60.5,
+    "Total Stats": 300
+  },
+  {
+    "name": "Bronzong",
+    "Pokedex ID": 437,
+    "Height (m)": 1.3,
+    "Weight (kg)": 187.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Bonsly",
+    "Pokedex ID": 438,
+    "Height (m)": 0.5,
+    "Weight (kg)": 15.0,
+    "Total Stats": 290
+  },
+  {
+    "name": "Mime Jr.",
+    "Pokedex ID": 439,
+    "Height (m)": 0.6,
+    "Weight (kg)": 13.0,
+    "Total Stats": 310
+  },
+  {
+    "name": "Happiny",
+    "Pokedex ID": 440,
+    "Height (m)": 0.6,
+    "Weight (kg)": 24.4,
+    "Total Stats": 220
+  },
+  {
+    "name": "Chatot",
+    "Pokedex ID": 441,
+    "Height (m)": 0.5,
+    "Weight (kg)": 1.9,
+    "Total Stats": 411
+  },
+  {
+    "name": "Spiritomb",
+    "Pokedex ID": 442,
+    "Height (m)": 1.0,
+    "Weight (kg)": 108.0,
+    "Total Stats": 485
   },
   {
     "name": "Gible",
+    "Pokedex ID": 443,
     "Height (m)": 0.7,
     "Weight (kg)": 20.5,
-    "HP": 58,
-    "Attack": 70
+    "Total Stats": 300
+  },
+  {
+    "name": "Gabite",
+    "Pokedex ID": 444,
+    "Height (m)": 1.4,
+    "Weight (kg)": 56.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Garchomp",
+    "Pokedex ID": 445,
+    "Height (m)": 1.9,
+    "Weight (kg)": 95.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Garchomp Mega Garchomp",
+    "Pokedex ID": 445,
+    "Height (m)": 1.9,
+    "Weight (kg)": 95.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Munchlax",
+    "Pokedex ID": 446,
+    "Height (m)": 0.6,
+    "Weight (kg)": 105.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Riolu",
+    "Pokedex ID": 447,
+    "Height (m)": 0.7,
+    "Weight (kg)": 20.2,
+    "Total Stats": 285
+  },
+  {
+    "name": "Lucario",
+    "Pokedex ID": 448,
+    "Height (m)": 1.2,
+    "Weight (kg)": 54.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Lucario Mega Lucario",
+    "Pokedex ID": 448,
+    "Height (m)": 1.3,
+    "Weight (kg)": 57.5,
+    "Total Stats": 625
+  },
+  {
+    "name": "Hippopotas",
+    "Pokedex ID": 449,
+    "Height (m)": 0.8,
+    "Weight (kg)": 49.5,
+    "Total Stats": 330
+  },
+  {
+    "name": "Hippowdon",
+    "Pokedex ID": 450,
+    "Height (m)": 2.0,
+    "Weight (kg)": 300.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Skorupi",
+    "Pokedex ID": 451,
+    "Height (m)": 0.8,
+    "Weight (kg)": 12.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Drapion",
+    "Pokedex ID": 452,
+    "Height (m)": 1.3,
+    "Weight (kg)": 61.5,
+    "Total Stats": 500
+  },
+  {
+    "name": "Croagunk",
+    "Pokedex ID": 453,
+    "Height (m)": 0.7,
+    "Weight (kg)": 23.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Toxicroak",
+    "Pokedex ID": 454,
+    "Height (m)": 1.3,
+    "Weight (kg)": 44.4,
+    "Total Stats": 490
+  },
+  {
+    "name": "Carnivine",
+    "Pokedex ID": 455,
+    "Height (m)": 1.4,
+    "Weight (kg)": 27.0,
+    "Total Stats": 454
+  },
+  {
+    "name": "Finneon",
+    "Pokedex ID": 456,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Lumineon",
+    "Pokedex ID": 457,
+    "Height (m)": 1.2,
+    "Weight (kg)": 24.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Mantyke",
+    "Pokedex ID": 458,
+    "Height (m)": 1.0,
+    "Weight (kg)": 65.0,
+    "Total Stats": 345
+  },
+  {
+    "name": "Snover",
+    "Pokedex ID": 459,
+    "Height (m)": 1.0,
+    "Weight (kg)": 50.5,
+    "Total Stats": 334
+  },
+  {
+    "name": "Abomasnow",
+    "Pokedex ID": 460,
+    "Height (m)": 2.2,
+    "Weight (kg)": 135.5,
+    "Total Stats": 494
+  },
+  {
+    "name": "Abomasnow Mega Abomasnow",
+    "Pokedex ID": 460,
+    "Height (m)": 2.7,
+    "Weight (kg)": 185.0,
+    "Total Stats": 594
+  },
+  {
+    "name": "Weavile",
+    "Pokedex ID": 461,
+    "Height (m)": 1.1,
+    "Weight (kg)": 34.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Magnezone",
+    "Pokedex ID": 462,
+    "Height (m)": 1.2,
+    "Weight (kg)": 180.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Lickilicky",
+    "Pokedex ID": 463,
+    "Height (m)": 1.7,
+    "Weight (kg)": 140.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Rhyperior",
+    "Pokedex ID": 464,
+    "Height (m)": 2.4,
+    "Weight (kg)": 282.8,
+    "Total Stats": 535
+  },
+  {
+    "name": "Tangrowth",
+    "Pokedex ID": 465,
+    "Height (m)": 2.0,
+    "Weight (kg)": 128.6,
+    "Total Stats": 535
+  },
+  {
+    "name": "Electivire",
+    "Pokedex ID": 466,
+    "Height (m)": 1.8,
+    "Weight (kg)": 138.6,
+    "Total Stats": 540
+  },
+  {
+    "name": "Magmortar",
+    "Pokedex ID": 467,
+    "Height (m)": 1.6,
+    "Weight (kg)": 68.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Togekiss",
+    "Pokedex ID": 468,
+    "Height (m)": 1.5,
+    "Weight (kg)": 38.0,
+    "Total Stats": 545
+  },
+  {
+    "name": "Yanmega",
+    "Pokedex ID": 469,
+    "Height (m)": 1.9,
+    "Weight (kg)": 51.5,
+    "Total Stats": 515
+  },
+  {
+    "name": "Leafeon",
+    "Pokedex ID": 470,
+    "Height (m)": 1.0,
+    "Weight (kg)": 25.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Glaceon",
+    "Pokedex ID": 471,
+    "Height (m)": 0.8,
+    "Weight (kg)": 25.9,
+    "Total Stats": 525
+  },
+  {
+    "name": "Gliscor",
+    "Pokedex ID": 472,
+    "Height (m)": 2.0,
+    "Weight (kg)": 42.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Mamoswine",
+    "Pokedex ID": 473,
+    "Height (m)": 2.5,
+    "Weight (kg)": 291.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Porygon-Z",
+    "Pokedex ID": 474,
+    "Height (m)": 0.9,
+    "Weight (kg)": 34.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Gallade",
+    "Pokedex ID": 475,
+    "Height (m)": 1.6,
+    "Weight (kg)": 52.0,
+    "Total Stats": 518
+  },
+  {
+    "name": "Gallade Mega Gallade",
+    "Pokedex ID": 475,
+    "Height (m)": 1.6,
+    "Weight (kg)": 56.4,
+    "Total Stats": 618
+  },
+  {
+    "name": "Probopass",
+    "Pokedex ID": 476,
+    "Height (m)": 1.4,
+    "Weight (kg)": 340.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Dusknoir",
+    "Pokedex ID": 477,
+    "Height (m)": 2.2,
+    "Weight (kg)": 106.6,
+    "Total Stats": 525
+  },
+  {
+    "name": "Froslass",
+    "Pokedex ID": 478,
+    "Height (m)": 1.3,
+    "Weight (kg)": 26.6,
+    "Total Stats": 480
+  },
+  {
+    "name": "Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 440
+  },
+  {
+    "name": "Rotom Heat Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Rotom Wash Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Rotom Frost Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Rotom Fan Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Rotom Mow Rotom",
+    "Pokedex ID": 479,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Uxie",
+    "Pokedex ID": 480,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 580
+  },
+  {
+    "name": "Mesprit",
+    "Pokedex ID": 481,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 580
+  },
+  {
+    "name": "Azelf",
+    "Pokedex ID": 482,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 580
+  },
+  {
+    "name": "Dialga",
+    "Pokedex ID": 483,
+    "Height (m)": 5.4,
+    "Weight (kg)": 683.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Dialga Origin Forme",
+    "Pokedex ID": 483,
+    "Height (m)": 7.0,
+    "Weight (kg)": 850.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Palkia",
+    "Pokedex ID": 484,
+    "Height (m)": 4.2,
+    "Weight (kg)": 336.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Palkia Origin Forme",
+    "Pokedex ID": 484,
+    "Height (m)": 6.3,
+    "Weight (kg)": 660.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Heatran",
+    "Pokedex ID": 485,
+    "Height (m)": 1.7,
+    "Weight (kg)": 430.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Regigigas",
+    "Pokedex ID": 486,
+    "Height (m)": 3.7,
+    "Weight (kg)": 420.0,
+    "Total Stats": 670
+  },
+  {
+    "name": "Giratina Altered Forme",
+    "Pokedex ID": 487,
+    "Height (m)": 4.5,
+    "Weight (kg)": 750.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Giratina Origin Forme",
+    "Pokedex ID": 487,
+    "Height (m)": 6.9,
+    "Weight (kg)": 650.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Cresselia",
+    "Pokedex ID": 488,
+    "Height (m)": 1.5,
+    "Weight (kg)": 85.6,
+    "Total Stats": 580
+  },
+  {
+    "name": "Phione",
+    "Pokedex ID": 489,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.1,
+    "Total Stats": 480
+  },
+  {
+    "name": "Manaphy",
+    "Pokedex ID": 490,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.4,
+    "Total Stats": 600
+  },
+  {
+    "name": "Darkrai",
+    "Pokedex ID": 491,
+    "Height (m)": 1.5,
+    "Weight (kg)": 50.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Shaymin Land Forme",
+    "Pokedex ID": 492,
+    "Height (m)": 0.2,
+    "Weight (kg)": 2.1,
+    "Total Stats": 600
+  },
+  {
+    "name": "Shaymin Sky Forme",
+    "Pokedex ID": 492,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.2,
+    "Total Stats": 600
+  },
+  {
+    "name": "Arceus",
+    "Pokedex ID": 493,
+    "Height (m)": 3.2,
+    "Weight (kg)": 320.0,
+    "Total Stats": 720
+  },
+  {
+    "name": "Victini",
+    "Pokedex ID": 494,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Snivy",
+    "Pokedex ID": 495,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.1,
+    "Total Stats": 308
+  },
+  {
+    "name": "Servine",
+    "Pokedex ID": 496,
+    "Height (m)": 0.8,
+    "Weight (kg)": 16.0,
+    "Total Stats": 413
+  },
+  {
+    "name": "Serperior",
+    "Pokedex ID": 497,
+    "Height (m)": 3.3,
+    "Weight (kg)": 63.0,
+    "Total Stats": 528
+  },
+  {
+    "name": "Tepig",
+    "Pokedex ID": 498,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.9,
+    "Total Stats": 308
+  },
+  {
+    "name": "Pignite",
+    "Pokedex ID": 499,
+    "Height (m)": 1.0,
+    "Weight (kg)": 55.5,
+    "Total Stats": 418
+  },
+  {
+    "name": "Emboar",
+    "Pokedex ID": 500,
+    "Height (m)": 1.6,
+    "Weight (kg)": 150.0,
+    "Total Stats": 528
+  },
+  {
+    "name": "Oshawott",
+    "Pokedex ID": 501,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.9,
+    "Total Stats": 308
+  },
+  {
+    "name": "Dewott",
+    "Pokedex ID": 502,
+    "Height (m)": 0.8,
+    "Weight (kg)": 24.5,
+    "Total Stats": 413
+  },
+  {
+    "name": "Samurott",
+    "Pokedex ID": 503,
+    "Height (m)": 1.5,
+    "Weight (kg)": 94.6,
+    "Total Stats": 528
+  },
+  {
+    "name": "Samurott Hisuian Samurott",
+    "Pokedex ID": 503,
+    "Height (m)": 1.5,
+    "Weight (kg)": 58.2,
+    "Total Stats": 528
+  },
+  {
+    "name": "Patrat",
+    "Pokedex ID": 504,
+    "Height (m)": 0.5,
+    "Weight (kg)": 11.6,
+    "Total Stats": 255
+  },
+  {
+    "name": "Watchog",
+    "Pokedex ID": 505,
+    "Height (m)": 1.1,
+    "Weight (kg)": 27.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Lillipup",
+    "Pokedex ID": 506,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.1,
+    "Total Stats": 275
+  },
+  {
+    "name": "Herdier",
+    "Pokedex ID": 507,
+    "Height (m)": 0.9,
+    "Weight (kg)": 14.7,
+    "Total Stats": 370
+  },
+  {
+    "name": "Stoutland",
+    "Pokedex ID": 508,
+    "Height (m)": 1.2,
+    "Weight (kg)": 61.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Purrloin",
+    "Pokedex ID": 509,
+    "Height (m)": 0.4,
+    "Weight (kg)": 10.1,
+    "Total Stats": 281
+  },
+  {
+    "name": "Liepard",
+    "Pokedex ID": 510,
+    "Height (m)": 1.1,
+    "Weight (kg)": 37.5,
+    "Total Stats": 446
+  },
+  {
+    "name": "Pansage",
+    "Pokedex ID": 511,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.5,
+    "Total Stats": 316
+  },
+  {
+    "name": "Simisage",
+    "Pokedex ID": 512,
+    "Height (m)": 1.1,
+    "Weight (kg)": 30.5,
+    "Total Stats": 498
+  },
+  {
+    "name": "Pansear",
+    "Pokedex ID": 513,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.0,
+    "Total Stats": 316
+  },
+  {
+    "name": "Simisear",
+    "Pokedex ID": 514,
+    "Height (m)": 1.0,
+    "Weight (kg)": 28.0,
+    "Total Stats": 498
+  },
+  {
+    "name": "Panpour",
+    "Pokedex ID": 515,
+    "Height (m)": 0.6,
+    "Weight (kg)": 13.5,
+    "Total Stats": 316
+  },
+  {
+    "name": "Simipour",
+    "Pokedex ID": 516,
+    "Height (m)": 1.0,
+    "Weight (kg)": 29.0,
+    "Total Stats": 498
+  },
+  {
+    "name": "Munna",
+    "Pokedex ID": 517,
+    "Height (m)": 0.6,
+    "Weight (kg)": 23.3,
+    "Total Stats": 292
+  },
+  {
+    "name": "Musharna",
+    "Pokedex ID": 518,
+    "Height (m)": 1.1,
+    "Weight (kg)": 60.5,
+    "Total Stats": 487
+  },
+  {
+    "name": "Pidove",
+    "Pokedex ID": 519,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.1,
+    "Total Stats": 264
+  },
+  {
+    "name": "Tranquill",
+    "Pokedex ID": 520,
+    "Height (m)": 0.6,
+    "Weight (kg)": 15.0,
+    "Total Stats": 358
+  },
+  {
+    "name": "Unfezant",
+    "Pokedex ID": 521,
+    "Height (m)": 1.2,
+    "Weight (kg)": 29.0,
+    "Total Stats": 488
+  },
+  {
+    "name": "Blitzle",
+    "Pokedex ID": 522,
+    "Height (m)": 0.8,
+    "Weight (kg)": 29.8,
+    "Total Stats": 295
+  },
+  {
+    "name": "Zebstrika",
+    "Pokedex ID": 523,
+    "Height (m)": 1.6,
+    "Weight (kg)": 79.5,
+    "Total Stats": 497
+  },
+  {
+    "name": "Roggenrola",
+    "Pokedex ID": 524,
+    "Height (m)": 0.4,
+    "Weight (kg)": 18.0,
+    "Total Stats": 280
+  },
+  {
+    "name": "Boldore",
+    "Pokedex ID": 525,
+    "Height (m)": 0.9,
+    "Weight (kg)": 102.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Gigalith",
+    "Pokedex ID": 526,
+    "Height (m)": 1.7,
+    "Weight (kg)": 260.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Woobat",
+    "Pokedex ID": 527,
+    "Height (m)": 0.4,
+    "Weight (kg)": 2.1,
+    "Total Stats": 323
+  },
+  {
+    "name": "Swoobat",
+    "Pokedex ID": 528,
+    "Height (m)": 0.9,
+    "Weight (kg)": 10.5,
+    "Total Stats": 425
+  },
+  {
+    "name": "Drilbur",
+    "Pokedex ID": 529,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.5,
+    "Total Stats": 328
+  },
+  {
+    "name": "Excadrill",
+    "Pokedex ID": 530,
+    "Height (m)": 0.7,
+    "Weight (kg)": 40.4,
+    "Total Stats": 508
+  },
+  {
+    "name": "Audino",
+    "Pokedex ID": 531,
+    "Height (m)": 1.1,
+    "Weight (kg)": 31.0,
+    "Total Stats": 445
+  },
+  {
+    "name": "Audino Mega Audino",
+    "Pokedex ID": 531,
+    "Height (m)": 1.5,
+    "Weight (kg)": 32.0,
+    "Total Stats": 545
+  },
+  {
+    "name": "Timburr",
+    "Pokedex ID": 532,
+    "Height (m)": 0.6,
+    "Weight (kg)": 12.5,
+    "Total Stats": 305
+  },
+  {
+    "name": "Gurdurr",
+    "Pokedex ID": 533,
+    "Height (m)": 1.2,
+    "Weight (kg)": 40.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Conkeldurr",
+    "Pokedex ID": 534,
+    "Height (m)": 1.4,
+    "Weight (kg)": 87.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Tympole",
+    "Pokedex ID": 535,
+    "Height (m)": 0.5,
+    "Weight (kg)": 4.5,
+    "Total Stats": 294
+  },
+  {
+    "name": "Palpitoad",
+    "Pokedex ID": 536,
+    "Height (m)": 0.8,
+    "Weight (kg)": 17.0,
+    "Total Stats": 384
+  },
+  {
+    "name": "Seismitoad",
+    "Pokedex ID": 537,
+    "Height (m)": 1.5,
+    "Weight (kg)": 62.0,
+    "Total Stats": 509
+  },
+  {
+    "name": "Throh",
+    "Pokedex ID": 538,
+    "Height (m)": 1.3,
+    "Weight (kg)": 55.5,
+    "Total Stats": 465
+  },
+  {
+    "name": "Sawk",
+    "Pokedex ID": 539,
+    "Height (m)": 1.4,
+    "Weight (kg)": 51.0,
+    "Total Stats": 465
+  },
+  {
+    "name": "Sewaddle",
+    "Pokedex ID": 540,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.5,
+    "Total Stats": 310
+  },
+  {
+    "name": "Swadloon",
+    "Pokedex ID": 541,
+    "Height (m)": 0.5,
+    "Weight (kg)": 7.3,
+    "Total Stats": 380
+  },
+  {
+    "name": "Leavanny",
+    "Pokedex ID": 542,
+    "Height (m)": 1.2,
+    "Weight (kg)": 20.5,
+    "Total Stats": 500
+  },
+  {
+    "name": "Venipede",
+    "Pokedex ID": 543,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.3,
+    "Total Stats": 260
+  },
+  {
+    "name": "Whirlipede",
+    "Pokedex ID": 544,
+    "Height (m)": 1.2,
+    "Weight (kg)": 58.5,
+    "Total Stats": 360
+  },
+  {
+    "name": "Scolipede",
+    "Pokedex ID": 545,
+    "Height (m)": 2.5,
+    "Weight (kg)": 200.5,
+    "Total Stats": 485
+  },
+  {
+    "name": "Cottonee",
+    "Pokedex ID": 546,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.6,
+    "Total Stats": 280
+  },
+  {
+    "name": "Whimsicott",
+    "Pokedex ID": 547,
+    "Height (m)": 0.7,
+    "Weight (kg)": 6.6,
+    "Total Stats": 480
+  },
+  {
+    "name": "Petilil",
+    "Pokedex ID": 548,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.6,
+    "Total Stats": 280
+  },
+  {
+    "name": "Lilligant",
+    "Pokedex ID": 549,
+    "Height (m)": 1.1,
+    "Weight (kg)": 16.3,
+    "Total Stats": 480
+  },
+  {
+    "name": "Lilligant Hisuian Lilligant",
+    "Pokedex ID": 549,
+    "Height (m)": 1.2,
+    "Weight (kg)": 19.2,
+    "Total Stats": 480
+  },
+  {
+    "name": "Basculin Red-Striped Form",
+    "Pokedex ID": 550,
+    "Height (m)": 1.0,
+    "Weight (kg)": 18.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Basculin Blue-Striped Form",
+    "Pokedex ID": 550,
+    "Height (m)": 1.0,
+    "Weight (kg)": 18.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Basculin White-Striped Form",
+    "Pokedex ID": 550,
+    "Height (m)": 1.0,
+    "Weight (kg)": 18.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Sandile",
+    "Pokedex ID": 551,
+    "Height (m)": 0.7,
+    "Weight (kg)": 15.2,
+    "Total Stats": 292
+  },
+  {
+    "name": "Krokorok",
+    "Pokedex ID": 552,
+    "Height (m)": 1.0,
+    "Weight (kg)": 33.4,
+    "Total Stats": 351
+  },
+  {
+    "name": "Krookodile",
+    "Pokedex ID": 553,
+    "Height (m)": 1.5,
+    "Weight (kg)": 96.3,
+    "Total Stats": 519
+  },
+  {
+    "name": "Darumaka",
+    "Pokedex ID": 554,
+    "Height (m)": 0.6,
+    "Weight (kg)": 37.5,
+    "Total Stats": 315
+  },
+  {
+    "name": "Darumaka Galarian Darumaka",
+    "Pokedex ID": 554,
+    "Height (m)": 0.7,
+    "Weight (kg)": 40.0,
+    "Total Stats": 315
+  },
+  {
+    "name": "Darmanitan Standard Mode",
+    "Pokedex ID": 555,
+    "Height (m)": 1.3,
+    "Weight (kg)": 92.9,
+    "Total Stats": 480
+  },
+  {
+    "name": "Darmanitan Zen Mode",
+    "Pokedex ID": 555,
+    "Height (m)": 1.3,
+    "Weight (kg)": 92.9,
+    "Total Stats": 540
+  },
+  {
+    "name": "Darmanitan Galarian Standard Mode",
+    "Pokedex ID": 555,
+    "Height (m)": 1.7,
+    "Weight (kg)": 120.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Darmanitan Galarian Zen Mode",
+    "Pokedex ID": 555,
+    "Height (m)": 1.7,
+    "Weight (kg)": 120.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Maractus",
+    "Pokedex ID": 556,
+    "Height (m)": 1.0,
+    "Weight (kg)": 28.0,
+    "Total Stats": 461
+  },
+  {
+    "name": "Dwebble",
+    "Pokedex ID": 557,
+    "Height (m)": 0.3,
+    "Weight (kg)": 14.5,
+    "Total Stats": 325
+  },
+  {
+    "name": "Crustle",
+    "Pokedex ID": 558,
+    "Height (m)": 1.4,
+    "Weight (kg)": 200.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Scraggy",
+    "Pokedex ID": 559,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.8,
+    "Total Stats": 348
+  },
+  {
+    "name": "Scrafty",
+    "Pokedex ID": 560,
+    "Height (m)": 1.1,
+    "Weight (kg)": 30.0,
+    "Total Stats": 488
+  },
+  {
+    "name": "Sigilyph",
+    "Pokedex ID": 561,
+    "Height (m)": 1.4,
+    "Weight (kg)": 14.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Yamask",
+    "Pokedex ID": 562,
+    "Height (m)": 0.5,
+    "Weight (kg)": 1.5,
+    "Total Stats": 303
+  },
+  {
+    "name": "Yamask Galarian Yamask",
+    "Pokedex ID": 562,
+    "Height (m)": 0.5,
+    "Weight (kg)": 1.5,
+    "Total Stats": 303
+  },
+  {
+    "name": "Cofagrigus",
+    "Pokedex ID": 563,
+    "Height (m)": 1.7,
+    "Weight (kg)": 76.5,
+    "Total Stats": 483
+  },
+  {
+    "name": "Tirtouga",
+    "Pokedex ID": 564,
+    "Height (m)": 0.7,
+    "Weight (kg)": 16.5,
+    "Total Stats": 355
+  },
+  {
+    "name": "Carracosta",
+    "Pokedex ID": 565,
+    "Height (m)": 1.2,
+    "Weight (kg)": 81.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Archen",
+    "Pokedex ID": 566,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.5,
+    "Total Stats": 401
+  },
+  {
+    "name": "Archeops",
+    "Pokedex ID": 567,
+    "Height (m)": 1.4,
+    "Weight (kg)": 32.0,
+    "Total Stats": 567
+  },
+  {
+    "name": "Trubbish",
+    "Pokedex ID": 568,
+    "Height (m)": 0.6,
+    "Weight (kg)": 31.0,
+    "Total Stats": 329
+  },
+  {
+    "name": "Garbodor",
+    "Pokedex ID": 569,
+    "Height (m)": 1.9,
+    "Weight (kg)": 107.3,
+    "Total Stats": 474
+  },
+  {
+    "name": "Zorua",
+    "Pokedex ID": 570,
+    "Height (m)": 0.7,
+    "Weight (kg)": 12.5,
+    "Total Stats": 330
+  },
+  {
+    "name": "Zorua Hisuian Zorua",
+    "Pokedex ID": 570,
+    "Height (m)": 0.7,
+    "Weight (kg)": 12.5,
+    "Total Stats": 330
+  },
+  {
+    "name": "Zoroark",
+    "Pokedex ID": 571,
+    "Height (m)": 1.6,
+    "Weight (kg)": 81.1,
+    "Total Stats": 510
+  },
+  {
+    "name": "Zoroark Hisuian Zoroark",
+    "Pokedex ID": 571,
+    "Height (m)": 1.6,
+    "Weight (kg)": 73.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Minccino",
+    "Pokedex ID": 572,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.8,
+    "Total Stats": 300
+  },
+  {
+    "name": "Cinccino",
+    "Pokedex ID": 573,
+    "Height (m)": 0.5,
+    "Weight (kg)": 7.5,
+    "Total Stats": 470
+  },
+  {
+    "name": "Gothita",
+    "Pokedex ID": 574,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.8,
+    "Total Stats": 290
+  },
+  {
+    "name": "Gothorita",
+    "Pokedex ID": 575,
+    "Height (m)": 0.7,
+    "Weight (kg)": 18.0,
+    "Total Stats": 390
+  },
+  {
+    "name": "Gothitelle",
+    "Pokedex ID": 576,
+    "Height (m)": 1.5,
+    "Weight (kg)": 44.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Solosis",
+    "Pokedex ID": 577,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.0,
+    "Total Stats": 290
+  },
+  {
+    "name": "Duosion",
+    "Pokedex ID": 578,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.0,
+    "Total Stats": 370
+  },
+  {
+    "name": "Reuniclus",
+    "Pokedex ID": 579,
+    "Height (m)": 1.0,
+    "Weight (kg)": 20.1,
+    "Total Stats": 490
+  },
+  {
+    "name": "Ducklett",
+    "Pokedex ID": 580,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.5,
+    "Total Stats": 305
+  },
+  {
+    "name": "Swanna",
+    "Pokedex ID": 581,
+    "Height (m)": 1.3,
+    "Weight (kg)": 24.2,
+    "Total Stats": 473
+  },
+  {
+    "name": "Vanillite",
+    "Pokedex ID": 582,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.7,
+    "Total Stats": 305
+  },
+  {
+    "name": "Vanillish",
+    "Pokedex ID": 583,
+    "Height (m)": 1.1,
+    "Weight (kg)": 41.0,
+    "Total Stats": 395
+  },
+  {
+    "name": "Vanilluxe",
+    "Pokedex ID": 584,
+    "Height (m)": 1.3,
+    "Weight (kg)": 57.5,
+    "Total Stats": 535
+  },
+  {
+    "name": "Deerling",
+    "Pokedex ID": 585,
+    "Height (m)": 0.6,
+    "Weight (kg)": 19.5,
+    "Total Stats": 335
+  },
+  {
+    "name": "Sawsbuck",
+    "Pokedex ID": 586,
+    "Height (m)": 1.9,
+    "Weight (kg)": 92.5,
+    "Total Stats": 475
+  },
+  {
+    "name": "Emolga",
+    "Pokedex ID": 587,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.0,
+    "Total Stats": 428
+  },
+  {
+    "name": "Karrablast",
+    "Pokedex ID": 588,
+    "Height (m)": 0.5,
+    "Weight (kg)": 5.9,
+    "Total Stats": 315
+  },
+  {
+    "name": "Escavalier",
+    "Pokedex ID": 589,
+    "Height (m)": 1.0,
+    "Weight (kg)": 33.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Foongus",
+    "Pokedex ID": 590,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.0,
+    "Total Stats": 294
+  },
+  {
+    "name": "Amoonguss",
+    "Pokedex ID": 591,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.5,
+    "Total Stats": 464
+  },
+  {
+    "name": "Frillish",
+    "Pokedex ID": 592,
+    "Height (m)": 1.2,
+    "Weight (kg)": 33.0,
+    "Total Stats": 335
+  },
+  {
+    "name": "Jellicent",
+    "Pokedex ID": 593,
+    "Height (m)": 2.2,
+    "Weight (kg)": 135.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Alomomola",
+    "Pokedex ID": 594,
+    "Height (m)": 1.2,
+    "Weight (kg)": 31.6,
+    "Total Stats": 470
+  },
+  {
+    "name": "Joltik",
+    "Pokedex ID": 595,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.6,
+    "Total Stats": 319
+  },
+  {
+    "name": "Galvantula",
+    "Pokedex ID": 596,
+    "Height (m)": 0.8,
+    "Weight (kg)": 14.3,
+    "Total Stats": 472
+  },
+  {
+    "name": "Ferroseed",
+    "Pokedex ID": 597,
+    "Height (m)": 0.6,
+    "Weight (kg)": 18.8,
+    "Total Stats": 305
+  },
+  {
+    "name": "Ferrothorn",
+    "Pokedex ID": 598,
+    "Height (m)": 1.0,
+    "Weight (kg)": 110.0,
+    "Total Stats": 489
+  },
+  {
+    "name": "Klink",
+    "Pokedex ID": 599,
+    "Height (m)": 0.3,
+    "Weight (kg)": 21.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Klang",
+    "Pokedex ID": 600,
+    "Height (m)": 0.6,
+    "Weight (kg)": 51.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Klinklang",
+    "Pokedex ID": 601,
+    "Height (m)": 0.6,
+    "Weight (kg)": 81.0,
+    "Total Stats": 520
+  },
+  {
+    "name": "Tynamo",
+    "Pokedex ID": 602,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.3,
+    "Total Stats": 275
+  },
+  {
+    "name": "Eelektrik",
+    "Pokedex ID": 603,
+    "Height (m)": 1.2,
+    "Weight (kg)": 22.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Eelektross",
+    "Pokedex ID": 604,
+    "Height (m)": 2.1,
+    "Weight (kg)": 80.5,
+    "Total Stats": 515
+  },
+  {
+    "name": "Elgyem",
+    "Pokedex ID": 605,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.0,
+    "Total Stats": 335
+  },
+  {
+    "name": "Beheeyem",
+    "Pokedex ID": 606,
+    "Height (m)": 1.0,
+    "Weight (kg)": 34.5,
+    "Total Stats": 485
+  },
+  {
+    "name": "Litwick",
+    "Pokedex ID": 607,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.1,
+    "Total Stats": 275
+  },
+  {
+    "name": "Lampent",
+    "Pokedex ID": 608,
+    "Height (m)": 0.6,
+    "Weight (kg)": 13.0,
+    "Total Stats": 370
+  },
+  {
+    "name": "Chandelure",
+    "Pokedex ID": 609,
+    "Height (m)": 1.0,
+    "Weight (kg)": 34.3,
+    "Total Stats": 520
+  },
+  {
+    "name": "Axew",
+    "Pokedex ID": 610,
+    "Height (m)": 0.6,
+    "Weight (kg)": 18.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Fraxure",
+    "Pokedex ID": 611,
+    "Height (m)": 1.0,
+    "Weight (kg)": 36.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Haxorus",
+    "Pokedex ID": 612,
+    "Height (m)": 1.8,
+    "Weight (kg)": 105.5,
+    "Total Stats": 540
+  },
+  {
+    "name": "Cubchoo",
+    "Pokedex ID": 613,
+    "Height (m)": 0.5,
+    "Weight (kg)": 8.5,
+    "Total Stats": 305
+  },
+  {
+    "name": "Beartic",
+    "Pokedex ID": 614,
+    "Height (m)": 2.6,
+    "Weight (kg)": 260.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Cryogonal",
+    "Pokedex ID": 615,
+    "Height (m)": 1.1,
+    "Weight (kg)": 148.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Shelmet",
+    "Pokedex ID": 616,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.7,
+    "Total Stats": 305
+  },
+  {
+    "name": "Accelgor",
+    "Pokedex ID": 617,
+    "Height (m)": 0.8,
+    "Weight (kg)": 25.3,
+    "Total Stats": 495
+  },
+  {
+    "name": "Stunfisk",
+    "Pokedex ID": 618,
+    "Height (m)": 0.7,
+    "Weight (kg)": 11.0,
+    "Total Stats": 471
+  },
+  {
+    "name": "Stunfisk Galarian Stunfisk",
+    "Pokedex ID": 618,
+    "Height (m)": 0.7,
+    "Weight (kg)": 20.5,
+    "Total Stats": 471
+  },
+  {
+    "name": "Mienfoo",
+    "Pokedex ID": 619,
+    "Height (m)": 0.9,
+    "Weight (kg)": 20.0,
+    "Total Stats": 350
+  },
+  {
+    "name": "Mienshao",
+    "Pokedex ID": 620,
+    "Height (m)": 1.4,
+    "Weight (kg)": 35.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Druddigon",
+    "Pokedex ID": 621,
+    "Height (m)": 1.6,
+    "Weight (kg)": 139.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Golett",
+    "Pokedex ID": 622,
+    "Height (m)": 1.0,
+    "Weight (kg)": 92.0,
+    "Total Stats": 303
+  },
+  {
+    "name": "Golurk",
+    "Pokedex ID": 623,
+    "Height (m)": 2.8,
+    "Weight (kg)": 330.0,
+    "Total Stats": 483
+  },
+  {
+    "name": "Pawniard",
+    "Pokedex ID": 624,
+    "Height (m)": 0.5,
+    "Weight (kg)": 10.2,
+    "Total Stats": 340
+  },
+  {
+    "name": "Bisharp",
+    "Pokedex ID": 625,
+    "Height (m)": 1.6,
+    "Weight (kg)": 70.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Bouffalant",
+    "Pokedex ID": 626,
+    "Height (m)": 1.6,
+    "Weight (kg)": 94.6,
+    "Total Stats": 490
+  },
+  {
+    "name": "Rufflet",
+    "Pokedex ID": 627,
+    "Height (m)": 0.5,
+    "Weight (kg)": 10.5,
+    "Total Stats": 350
+  },
+  {
+    "name": "Braviary",
+    "Pokedex ID": 628,
+    "Height (m)": 1.5,
+    "Weight (kg)": 41.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Braviary Hisuian Braviary",
+    "Pokedex ID": 628,
+    "Height (m)": 1.7,
+    "Weight (kg)": 43.4,
+    "Total Stats": 510
+  },
+  {
+    "name": "Vullaby",
+    "Pokedex ID": 629,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.0,
+    "Total Stats": 370
+  },
+  {
+    "name": "Mandibuzz",
+    "Pokedex ID": 630,
+    "Height (m)": 1.2,
+    "Weight (kg)": 39.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Heatmor",
+    "Pokedex ID": 631,
+    "Height (m)": 1.4,
+    "Weight (kg)": 58.0,
+    "Total Stats": 484
+  },
+  {
+    "name": "Durant",
+    "Pokedex ID": 632,
+    "Height (m)": 0.3,
+    "Weight (kg)": 33.0,
+    "Total Stats": 484
+  },
+  {
+    "name": "Deino",
+    "Pokedex ID": 633,
+    "Height (m)": 0.8,
+    "Weight (kg)": 17.3,
+    "Total Stats": 300
+  },
+  {
+    "name": "Zweilous",
+    "Pokedex ID": 634,
+    "Height (m)": 1.4,
+    "Weight (kg)": 50.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Hydreigon",
+    "Pokedex ID": 635,
+    "Height (m)": 1.8,
+    "Weight (kg)": 160.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Larvesta",
+    "Pokedex ID": 636,
+    "Height (m)": 1.1,
+    "Weight (kg)": 28.8,
+    "Total Stats": 360
+  },
+  {
+    "name": "Volcarona",
+    "Pokedex ID": 637,
+    "Height (m)": 1.6,
+    "Weight (kg)": 46.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Cobalion",
+    "Pokedex ID": 638,
+    "Height (m)": 2.1,
+    "Weight (kg)": 250.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Terrakion",
+    "Pokedex ID": 639,
+    "Height (m)": 1.9,
+    "Weight (kg)": 260.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Virizion",
+    "Pokedex ID": 640,
+    "Height (m)": 2.0,
+    "Weight (kg)": 200.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Tornadus Incarnate Forme",
+    "Pokedex ID": 641,
+    "Height (m)": 1.5,
+    "Weight (kg)": 63.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Tornadus Therian Forme",
+    "Pokedex ID": 641,
+    "Height (m)": 1.4,
+    "Weight (kg)": 63.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Thundurus Incarnate Forme",
+    "Pokedex ID": 642,
+    "Height (m)": 1.5,
+    "Weight (kg)": 61.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Thundurus Therian Forme",
+    "Pokedex ID": 642,
+    "Height (m)": 3.0,
+    "Weight (kg)": 61.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Reshiram",
+    "Pokedex ID": 643,
+    "Height (m)": 3.2,
+    "Weight (kg)": 330.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Zekrom",
+    "Pokedex ID": 644,
+    "Height (m)": 2.9,
+    "Weight (kg)": 345.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Landorus Incarnate Forme",
+    "Pokedex ID": 645,
+    "Height (m)": 1.5,
+    "Weight (kg)": 68.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Landorus Therian Forme",
+    "Pokedex ID": 645,
+    "Height (m)": 1.3,
+    "Weight (kg)": 68.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Kyurem",
+    "Pokedex ID": 646,
+    "Height (m)": 3.0,
+    "Weight (kg)": 325.0,
+    "Total Stats": 660
+  },
+  {
+    "name": "Kyurem White Kyurem",
+    "Pokedex ID": 646,
+    "Height (m)": 3.6,
+    "Weight (kg)": 325.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Kyurem Black Kyurem",
+    "Pokedex ID": 646,
+    "Height (m)": 3.3,
+    "Weight (kg)": 325.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Keldeo Ordinary Form",
+    "Pokedex ID": 647,
+    "Height (m)": 1.4,
+    "Weight (kg)": 48.5,
+    "Total Stats": 580
+  },
+  {
+    "name": "Keldeo Resolute Form",
+    "Pokedex ID": 647,
+    "Height (m)": 1.4,
+    "Weight (kg)": 48.5,
+    "Total Stats": 580
+  },
+  {
+    "name": "Meloetta Aria Forme",
+    "Pokedex ID": 648,
+    "Height (m)": 0.6,
+    "Weight (kg)": 6.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Meloetta Pirouette Forme",
+    "Pokedex ID": 648,
+    "Height (m)": 0.6,
+    "Weight (kg)": 6.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Genesect",
+    "Pokedex ID": 649,
+    "Height (m)": 1.5,
+    "Weight (kg)": 82.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Chespin",
+    "Pokedex ID": 650,
+    "Height (m)": 0.4,
+    "Weight (kg)": 9.0,
+    "Total Stats": 313
+  },
+  {
+    "name": "Quilladin",
+    "Pokedex ID": 651,
+    "Height (m)": 0.7,
+    "Weight (kg)": 29.0,
+    "Total Stats": 405
+  },
+  {
+    "name": "Chesnaught",
+    "Pokedex ID": 652,
+    "Height (m)": 1.6,
+    "Weight (kg)": 90.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Fennekin",
+    "Pokedex ID": 653,
+    "Height (m)": 0.4,
+    "Weight (kg)": 9.4,
+    "Total Stats": 307
+  },
+  {
+    "name": "Braixen",
+    "Pokedex ID": 654,
+    "Height (m)": 1.0,
+    "Weight (kg)": 14.5,
+    "Total Stats": 409
+  },
+  {
+    "name": "Delphox",
+    "Pokedex ID": 655,
+    "Height (m)": 1.5,
+    "Weight (kg)": 39.0,
+    "Total Stats": 534
+  },
+  {
+    "name": "Froakie",
+    "Pokedex ID": 656,
+    "Height (m)": 0.3,
+    "Weight (kg)": 7.0,
+    "Total Stats": 314
+  },
+  {
+    "name": "Frogadier",
+    "Pokedex ID": 657,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.9,
+    "Total Stats": 405
+  },
+  {
+    "name": "Greninja",
+    "Pokedex ID": 658,
+    "Height (m)": 1.5,
+    "Weight (kg)": 40.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Greninja Ash-Greninja",
+    "Pokedex ID": 658,
+    "Height (m)": 1.5,
+    "Weight (kg)": 40.0,
+    "Total Stats": 640
+  },
+  {
+    "name": "Bunnelby",
+    "Pokedex ID": 659,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.0,
+    "Total Stats": 237
+  },
+  {
+    "name": "Diggersby",
+    "Pokedex ID": 660,
+    "Height (m)": 1.0,
+    "Weight (kg)": 42.4,
+    "Total Stats": 423
+  },
+  {
+    "name": "Fletchling",
+    "Pokedex ID": 661,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.7,
+    "Total Stats": 278
+  },
+  {
+    "name": "Fletchinder",
+    "Pokedex ID": 662,
+    "Height (m)": 0.7,
+    "Weight (kg)": 16.0,
+    "Total Stats": 382
+  },
+  {
+    "name": "Talonflame",
+    "Pokedex ID": 663,
+    "Height (m)": 1.2,
+    "Weight (kg)": 24.5,
+    "Total Stats": 499
+  },
+  {
+    "name": "Scatterbug",
+    "Pokedex ID": 664,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.5,
+    "Total Stats": 200
+  },
+  {
+    "name": "Spewpa",
+    "Pokedex ID": 665,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.4,
+    "Total Stats": 213
+  },
+  {
+    "name": "Vivillon",
+    "Pokedex ID": 666,
+    "Height (m)": 1.2,
+    "Weight (kg)": 17.0,
+    "Total Stats": 411
+  },
+  {
+    "name": "Litleo",
+    "Pokedex ID": 667,
+    "Height (m)": 0.6,
+    "Weight (kg)": 13.5,
+    "Total Stats": 369
+  },
+  {
+    "name": "Pyroar",
+    "Pokedex ID": 668,
+    "Height (m)": 1.5,
+    "Weight (kg)": 81.5,
+    "Total Stats": 507
+  },
+  {
+    "name": "Flab\u00e9b\u00e9",
+    "Pokedex ID": 669,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.1,
+    "Total Stats": 303
+  },
+  {
+    "name": "Floette",
+    "Pokedex ID": 670,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.9,
+    "Total Stats": 371
+  },
+  {
+    "name": "Florges",
+    "Pokedex ID": 671,
+    "Height (m)": 1.1,
+    "Weight (kg)": 10.0,
+    "Total Stats": 552
+  },
+  {
+    "name": "Skiddo",
+    "Pokedex ID": 672,
+    "Height (m)": 0.9,
+    "Weight (kg)": 31.0,
+    "Total Stats": 350
+  },
+  {
+    "name": "Gogoat",
+    "Pokedex ID": 673,
+    "Height (m)": 1.7,
+    "Weight (kg)": 91.0,
+    "Total Stats": 531
+  },
+  {
+    "name": "Pancham",
+    "Pokedex ID": 674,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.0,
+    "Total Stats": 348
+  },
+  {
+    "name": "Pangoro",
+    "Pokedex ID": 675,
+    "Height (m)": 2.1,
+    "Weight (kg)": 136.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Furfrou",
+    "Pokedex ID": 676,
+    "Height (m)": 1.2,
+    "Weight (kg)": 28.0,
+    "Total Stats": 472
+  },
+  {
+    "name": "Espurr",
+    "Pokedex ID": 677,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.5,
+    "Total Stats": 355
+  },
+  {
+    "name": "Meowstic Male",
+    "Pokedex ID": 678,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.5,
+    "Total Stats": 466
+  },
+  {
+    "name": "Meowstic Female",
+    "Pokedex ID": 678,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.5,
+    "Total Stats": 466
+  },
+  {
+    "name": "Honedge",
+    "Pokedex ID": 679,
+    "Height (m)": 0.8,
+    "Weight (kg)": 2.0,
+    "Total Stats": 325
+  },
+  {
+    "name": "Doublade",
+    "Pokedex ID": 680,
+    "Height (m)": 0.8,
+    "Weight (kg)": 4.5,
+    "Total Stats": 448
+  },
+  {
+    "name": "Aegislash Shield Forme",
+    "Pokedex ID": 681,
+    "Height (m)": 1.7,
+    "Weight (kg)": 53.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Aegislash Blade Forme",
+    "Pokedex ID": 681,
+    "Height (m)": 1.7,
+    "Weight (kg)": 53.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Spritzee",
+    "Pokedex ID": 682,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.5,
+    "Total Stats": 341
+  },
+  {
+    "name": "Aromatisse",
+    "Pokedex ID": 683,
+    "Height (m)": 0.8,
+    "Weight (kg)": 15.5,
+    "Total Stats": 462
+  },
+  {
+    "name": "Swirlix",
+    "Pokedex ID": 684,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.5,
+    "Total Stats": 341
+  },
+  {
+    "name": "Slurpuff",
+    "Pokedex ID": 685,
+    "Height (m)": 0.8,
+    "Weight (kg)": 5.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Inkay",
+    "Pokedex ID": 686,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.5,
+    "Total Stats": 288
+  },
+  {
+    "name": "Malamar",
+    "Pokedex ID": 687,
+    "Height (m)": 1.5,
+    "Weight (kg)": 47.0,
+    "Total Stats": 482
+  },
+  {
+    "name": "Binacle",
+    "Pokedex ID": 688,
+    "Height (m)": 0.5,
+    "Weight (kg)": 31.0,
+    "Total Stats": 306
+  },
+  {
+    "name": "Barbaracle",
+    "Pokedex ID": 689,
+    "Height (m)": 1.3,
+    "Weight (kg)": 96.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Skrelp",
+    "Pokedex ID": 690,
+    "Height (m)": 0.5,
+    "Weight (kg)": 7.3,
+    "Total Stats": 320
+  },
+  {
+    "name": "Dragalge",
+    "Pokedex ID": 691,
+    "Height (m)": 1.8,
+    "Weight (kg)": 81.5,
+    "Total Stats": 494
+  },
+  {
+    "name": "Clauncher",
+    "Pokedex ID": 692,
+    "Height (m)": 0.5,
+    "Weight (kg)": 8.3,
+    "Total Stats": 330
+  },
+  {
+    "name": "Clawitzer",
+    "Pokedex ID": 693,
+    "Height (m)": 1.3,
+    "Weight (kg)": 35.3,
+    "Total Stats": 500
+  },
+  {
+    "name": "Helioptile",
+    "Pokedex ID": 694,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.0,
+    "Total Stats": 289
+  },
+  {
+    "name": "Heliolisk",
+    "Pokedex ID": 695,
+    "Height (m)": 1.0,
+    "Weight (kg)": 21.0,
+    "Total Stats": 481
+  },
+  {
+    "name": "Tyrunt",
+    "Pokedex ID": 696,
+    "Height (m)": 0.8,
+    "Weight (kg)": 26.0,
+    "Total Stats": 362
+  },
+  {
+    "name": "Tyrantrum",
+    "Pokedex ID": 697,
+    "Height (m)": 2.5,
+    "Weight (kg)": 270.0,
+    "Total Stats": 521
+  },
+  {
+    "name": "Amaura",
+    "Pokedex ID": 698,
+    "Height (m)": 1.3,
+    "Weight (kg)": 25.2,
+    "Total Stats": 362
+  },
+  {
+    "name": "Aurorus",
+    "Pokedex ID": 699,
+    "Height (m)": 2.7,
+    "Weight (kg)": 225.0,
+    "Total Stats": 521
+  },
+  {
+    "name": "Sylveon",
+    "Pokedex ID": 700,
+    "Height (m)": 1.0,
+    "Weight (kg)": 23.5,
+    "Total Stats": 525
+  },
+  {
+    "name": "Hawlucha",
+    "Pokedex ID": 701,
+    "Height (m)": 0.8,
+    "Weight (kg)": 21.5,
+    "Total Stats": 500
+  },
+  {
+    "name": "Dedenne",
+    "Pokedex ID": 702,
+    "Height (m)": 0.2,
+    "Weight (kg)": 2.2,
+    "Total Stats": 431
+  },
+  {
+    "name": "Carbink",
+    "Pokedex ID": 703,
+    "Height (m)": 0.3,
+    "Weight (kg)": 5.7,
+    "Total Stats": 500
+  },
+  {
+    "name": "Goomy",
+    "Pokedex ID": 704,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.8,
+    "Total Stats": 300
+  },
+  {
+    "name": "Sliggoo",
+    "Pokedex ID": 705,
+    "Height (m)": 0.8,
+    "Weight (kg)": 17.5,
+    "Total Stats": 452
+  },
+  {
+    "name": "Sliggoo Hisuian Sliggoo",
+    "Pokedex ID": 705,
+    "Height (m)": 0.7,
+    "Weight (kg)": 68.5,
+    "Total Stats": 452
+  },
+  {
+    "name": "Goodra",
+    "Pokedex ID": 706,
+    "Height (m)": 2.0,
+    "Weight (kg)": 150.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Goodra Hisuian Goodra",
+    "Pokedex ID": 706,
+    "Height (m)": 1.7,
+    "Weight (kg)": 334.1,
+    "Total Stats": 600
+  },
+  {
+    "name": "Klefki",
+    "Pokedex ID": 707,
+    "Height (m)": 0.2,
+    "Weight (kg)": 3.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Phantump",
+    "Pokedex ID": 708,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.0,
+    "Total Stats": 309
+  },
+  {
+    "name": "Trevenant",
+    "Pokedex ID": 709,
+    "Height (m)": 1.5,
+    "Weight (kg)": 71.0,
+    "Total Stats": 474
+  },
+  {
+    "name": "Pumpkaboo Average Size",
+    "Pokedex ID": 710,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.0,
+    "Total Stats": 335
+  },
+  {
+    "name": "Pumpkaboo Small Size",
+    "Pokedex ID": 710,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.5,
+    "Total Stats": 335
+  },
+  {
+    "name": "Pumpkaboo Large Size",
+    "Pokedex ID": 710,
+    "Height (m)": 0.5,
+    "Weight (kg)": 7.5,
+    "Total Stats": 335
+  },
+  {
+    "name": "Pumpkaboo Super Size",
+    "Pokedex ID": 710,
+    "Height (m)": 0.8,
+    "Weight (kg)": 15.0,
+    "Total Stats": 335
+  },
+  {
+    "name": "Gourgeist Average Size",
+    "Pokedex ID": 711,
+    "Height (m)": 0.9,
+    "Weight (kg)": 12.5,
+    "Total Stats": 494
+  },
+  {
+    "name": "Gourgeist Small Size",
+    "Pokedex ID": 711,
+    "Height (m)": 0.7,
+    "Weight (kg)": 9.5,
+    "Total Stats": 494
+  },
+  {
+    "name": "Gourgeist Large Size",
+    "Pokedex ID": 711,
+    "Height (m)": 1.1,
+    "Weight (kg)": 14.0,
+    "Total Stats": 494
+  },
+  {
+    "name": "Gourgeist Super Size",
+    "Pokedex ID": 711,
+    "Height (m)": 1.7,
+    "Weight (kg)": 39.0,
+    "Total Stats": 494
+  },
+  {
+    "name": "Bergmite",
+    "Pokedex ID": 712,
+    "Height (m)": 1.0,
+    "Weight (kg)": 99.5,
+    "Total Stats": 304
+  },
+  {
+    "name": "Avalugg",
+    "Pokedex ID": 713,
+    "Height (m)": 2.0,
+    "Weight (kg)": 505.0,
+    "Total Stats": 514
+  },
+  {
+    "name": "Avalugg Hisuian Avalugg",
+    "Pokedex ID": 713,
+    "Height (m)": 1.4,
+    "Weight (kg)": 262.4,
+    "Total Stats": 514
+  },
+  {
+    "name": "Noibat",
+    "Pokedex ID": 714,
+    "Height (m)": 0.5,
+    "Weight (kg)": 8.0,
+    "Total Stats": 245
+  },
+  {
+    "name": "Noivern",
+    "Pokedex ID": 715,
+    "Height (m)": 1.5,
+    "Weight (kg)": 85.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Xerneas",
+    "Pokedex ID": 716,
+    "Height (m)": 3.0,
+    "Weight (kg)": 215.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Yveltal",
+    "Pokedex ID": 717,
+    "Height (m)": 5.8,
+    "Weight (kg)": 203.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Zygarde 50% Forme",
+    "Pokedex ID": 718,
+    "Height (m)": 5.0,
+    "Weight (kg)": 305.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Zygarde 10% Forme",
+    "Pokedex ID": 718,
+    "Height (m)": 1.2,
+    "Weight (kg)": 33.5,
+    "Total Stats": 486
+  },
+  {
+    "name": "Zygarde Complete Forme",
+    "Pokedex ID": 718,
+    "Height (m)": 4.5,
+    "Weight (kg)": 610.0,
+    "Total Stats": 708
+  },
+  {
+    "name": "Diancie",
+    "Pokedex ID": 719,
+    "Height (m)": 0.7,
+    "Weight (kg)": 8.8,
+    "Total Stats": 600
+  },
+  {
+    "name": "Diancie Mega Diancie",
+    "Pokedex ID": 719,
+    "Height (m)": 1.1,
+    "Weight (kg)": 27.8,
+    "Total Stats": 700
+  },
+  {
+    "name": "Hoopa Hoopa Confined",
+    "Pokedex ID": 720,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Hoopa Hoopa Unbound",
+    "Pokedex ID": 720,
+    "Height (m)": 6.5,
+    "Weight (kg)": 490.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Volcanion",
+    "Pokedex ID": 721,
+    "Height (m)": 1.7,
+    "Weight (kg)": 195.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Rowlet",
+    "Pokedex ID": 722,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.5,
+    "Total Stats": 320
+  },
+  {
+    "name": "Dartrix",
+    "Pokedex ID": 723,
+    "Height (m)": 0.7,
+    "Weight (kg)": 16.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Decidueye",
+    "Pokedex ID": 724,
+    "Height (m)": 1.6,
+    "Weight (kg)": 36.6,
+    "Total Stats": 530
+  },
+  {
+    "name": "Decidueye Hisuian Decidueye",
+    "Pokedex ID": 724,
+    "Height (m)": 1.6,
+    "Weight (kg)": 37.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Litten",
+    "Pokedex ID": 725,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.3,
+    "Total Stats": 320
+  },
+  {
+    "name": "Torracat",
+    "Pokedex ID": 726,
+    "Height (m)": 0.7,
+    "Weight (kg)": 25.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Incineroar",
+    "Pokedex ID": 727,
+    "Height (m)": 1.8,
+    "Weight (kg)": 83.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Popplio",
+    "Pokedex ID": 728,
+    "Height (m)": 0.4,
+    "Weight (kg)": 7.5,
+    "Total Stats": 320
+  },
+  {
+    "name": "Brionne",
+    "Pokedex ID": 729,
+    "Height (m)": 0.6,
+    "Weight (kg)": 17.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Primarina",
+    "Pokedex ID": 730,
+    "Height (m)": 1.8,
+    "Weight (kg)": 44.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Pikipek",
+    "Pokedex ID": 731,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.2,
+    "Total Stats": 265
+  },
+  {
+    "name": "Trumbeak",
+    "Pokedex ID": 732,
+    "Height (m)": 0.6,
+    "Weight (kg)": 14.8,
+    "Total Stats": 355
+  },
+  {
+    "name": "Toucannon",
+    "Pokedex ID": 733,
+    "Height (m)": 1.1,
+    "Weight (kg)": 26.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Yungoos",
+    "Pokedex ID": 734,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.0,
+    "Total Stats": 253
+  },
+  {
+    "name": "Gumshoos",
+    "Pokedex ID": 735,
+    "Height (m)": 0.7,
+    "Weight (kg)": 14.2,
+    "Total Stats": 418
+  },
+  {
+    "name": "Grubbin",
+    "Pokedex ID": 736,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.4,
+    "Total Stats": 300
+  },
+  {
+    "name": "Charjabug",
+    "Pokedex ID": 737,
+    "Height (m)": 0.5,
+    "Weight (kg)": 10.5,
+    "Total Stats": 400
+  },
+  {
+    "name": "Vikavolt",
+    "Pokedex ID": 738,
+    "Height (m)": 1.5,
+    "Weight (kg)": 45.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Crabrawler",
+    "Pokedex ID": 739,
+    "Height (m)": 0.6,
+    "Weight (kg)": 7.0,
+    "Total Stats": 338
+  },
+  {
+    "name": "Crabominable",
+    "Pokedex ID": 740,
+    "Height (m)": 1.7,
+    "Weight (kg)": 180.0,
+    "Total Stats": 478
+  },
+  {
+    "name": "Oricorio Baile Style",
+    "Pokedex ID": 741,
+    "Height (m)": 0.6,
+    "Weight (kg)": 3.4,
+    "Total Stats": 476
+  },
+  {
+    "name": "Oricorio Pom-Pom Style",
+    "Pokedex ID": 741,
+    "Height (m)": 0.6,
+    "Weight (kg)": 3.4,
+    "Total Stats": 476
+  },
+  {
+    "name": "Oricorio Pa'u Style",
+    "Pokedex ID": 741,
+    "Height (m)": 0.6,
+    "Weight (kg)": 3.4,
+    "Total Stats": 476
+  },
+  {
+    "name": "Oricorio Sensu Style",
+    "Pokedex ID": 741,
+    "Height (m)": 0.6,
+    "Weight (kg)": 3.4,
+    "Total Stats": 476
+  },
+  {
+    "name": "Cutiefly",
+    "Pokedex ID": 742,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.2,
+    "Total Stats": 304
+  },
+  {
+    "name": "Ribombee",
+    "Pokedex ID": 743,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.5,
+    "Total Stats": 464
+  },
+  {
+    "name": "Rockruff",
+    "Pokedex ID": 744,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.2,
+    "Total Stats": 280
+  },
+  {
+    "name": "Rockruff Own Tempo Rockruff",
+    "Pokedex ID": 744,
+    "Height (m)": 0.5,
+    "Weight (kg)": 9.2,
+    "Total Stats": 280
+  },
+  {
+    "name": "Lycanroc Midday Form",
+    "Pokedex ID": 745,
+    "Height (m)": 0.8,
+    "Weight (kg)": 25.0,
+    "Total Stats": 487
+  },
+  {
+    "name": "Lycanroc Midnight Form",
+    "Pokedex ID": 745,
+    "Height (m)": 1.1,
+    "Weight (kg)": 25.0,
+    "Total Stats": 487
+  },
+  {
+    "name": "Lycanroc Dusk Form",
+    "Pokedex ID": 745,
+    "Height (m)": 0.8,
+    "Weight (kg)": 25.0,
+    "Total Stats": 487
+  },
+  {
+    "name": "Wishiwashi Solo Form",
+    "Pokedex ID": 746,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.3,
+    "Total Stats": 175
+  },
+  {
+    "name": "Wishiwashi School Form",
+    "Pokedex ID": 746,
+    "Height (m)": 8.2,
+    "Weight (kg)": 78.6,
+    "Total Stats": 620
+  },
+  {
+    "name": "Mareanie",
+    "Pokedex ID": 747,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Toxapex",
+    "Pokedex ID": 748,
+    "Height (m)": 0.7,
+    "Weight (kg)": 14.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Mudbray",
+    "Pokedex ID": 749,
+    "Height (m)": 1.0,
+    "Weight (kg)": 110.0,
+    "Total Stats": 385
+  },
+  {
+    "name": "Mudsdale",
+    "Pokedex ID": 750,
+    "Height (m)": 2.5,
+    "Weight (kg)": 920.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Dewpider",
+    "Pokedex ID": 751,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.0,
+    "Total Stats": 269
+  },
+  {
+    "name": "Araquanid",
+    "Pokedex ID": 752,
+    "Height (m)": 1.8,
+    "Weight (kg)": 82.0,
+    "Total Stats": 454
+  },
+  {
+    "name": "Fomantis",
+    "Pokedex ID": 753,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.5,
+    "Total Stats": 250
+  },
+  {
+    "name": "Lurantis",
+    "Pokedex ID": 754,
+    "Height (m)": 0.9,
+    "Weight (kg)": 18.5,
+    "Total Stats": 480
+  },
+  {
+    "name": "Morelull",
+    "Pokedex ID": 755,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.5,
+    "Total Stats": 285
+  },
+  {
+    "name": "Shiinotic",
+    "Pokedex ID": 756,
+    "Height (m)": 1.0,
+    "Weight (kg)": 11.5,
+    "Total Stats": 405
+  },
+  {
+    "name": "Salandit",
+    "Pokedex ID": 757,
+    "Height (m)": 0.6,
+    "Weight (kg)": 4.8,
+    "Total Stats": 320
+  },
+  {
+    "name": "Salazzle",
+    "Pokedex ID": 758,
+    "Height (m)": 1.2,
+    "Weight (kg)": 22.2,
+    "Total Stats": 480
+  },
+  {
+    "name": "Stufful",
+    "Pokedex ID": 759,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.8,
+    "Total Stats": 340
+  },
+  {
+    "name": "Bewear",
+    "Pokedex ID": 760,
+    "Height (m)": 2.1,
+    "Weight (kg)": 135.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Bounsweet",
+    "Pokedex ID": 761,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.2,
+    "Total Stats": 210
+  },
+  {
+    "name": "Steenee",
+    "Pokedex ID": 762,
+    "Height (m)": 0.7,
+    "Weight (kg)": 8.2,
+    "Total Stats": 290
+  },
+  {
+    "name": "Tsareena",
+    "Pokedex ID": 763,
+    "Height (m)": 1.2,
+    "Weight (kg)": 21.4,
+    "Total Stats": 510
+  },
+  {
+    "name": "Comfey",
+    "Pokedex ID": 764,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.3,
+    "Total Stats": 485
+  },
+  {
+    "name": "Oranguru",
+    "Pokedex ID": 765,
+    "Height (m)": 1.5,
+    "Weight (kg)": 76.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Passimian",
+    "Pokedex ID": 766,
+    "Height (m)": 2.0,
+    "Weight (kg)": 82.8,
+    "Total Stats": 490
+  },
+  {
+    "name": "Wimpod",
+    "Pokedex ID": 767,
+    "Height (m)": 0.5,
+    "Weight (kg)": 12.0,
+    "Total Stats": 230
+  },
+  {
+    "name": "Golisopod",
+    "Pokedex ID": 768,
+    "Height (m)": 2.0,
+    "Weight (kg)": 108.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Sandygast",
+    "Pokedex ID": 769,
+    "Height (m)": 0.5,
+    "Weight (kg)": 70.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Palossand",
+    "Pokedex ID": 770,
+    "Height (m)": 1.3,
+    "Weight (kg)": 250.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Pyukumuku",
+    "Pokedex ID": 771,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.2,
+    "Total Stats": 410
+  },
+  {
+    "name": "Type: Null",
+    "Pokedex ID": 772,
+    "Height (m)": 1.9,
+    "Weight (kg)": 120.5,
+    "Total Stats": 534
+  },
+  {
+    "name": "Silvally",
+    "Pokedex ID": 773,
+    "Height (m)": 2.3,
+    "Weight (kg)": 100.5,
+    "Total Stats": 570
+  },
+  {
+    "name": "Minior Meteor Form",
+    "Pokedex ID": 774,
+    "Height (m)": 0.3,
+    "Weight (kg)": 40.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Minior Core Form",
+    "Pokedex ID": 774,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.3,
+    "Total Stats": 500
+  },
+  {
+    "name": "Komala",
+    "Pokedex ID": 775,
+    "Height (m)": 0.4,
+    "Weight (kg)": 19.9,
+    "Total Stats": 480
+  },
+  {
+    "name": "Turtonator",
+    "Pokedex ID": 776,
+    "Height (m)": 2.0,
+    "Weight (kg)": 212.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Togedemaru",
+    "Pokedex ID": 777,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.3,
+    "Total Stats": 435
+  },
+  {
+    "name": "Mimikyu",
+    "Pokedex ID": 778,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.7,
+    "Total Stats": 476
+  },
+  {
+    "name": "Bruxish",
+    "Pokedex ID": 779,
+    "Height (m)": 0.9,
+    "Weight (kg)": 19.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Drampa",
+    "Pokedex ID": 780,
+    "Height (m)": 3.0,
+    "Weight (kg)": 185.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Dhelmise",
+    "Pokedex ID": 781,
+    "Height (m)": 3.9,
+    "Weight (kg)": 210.0,
+    "Total Stats": 517
+  },
+  {
+    "name": "Jangmo-o",
+    "Pokedex ID": 782,
+    "Height (m)": 0.6,
+    "Weight (kg)": 29.7,
+    "Total Stats": 300
+  },
+  {
+    "name": "Hakamo-o",
+    "Pokedex ID": 783,
+    "Height (m)": 1.2,
+    "Weight (kg)": 47.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Kommo-o",
+    "Pokedex ID": 784,
+    "Height (m)": 1.6,
+    "Weight (kg)": 78.2,
+    "Total Stats": 600
+  },
+  {
+    "name": "Tapu Koko",
+    "Pokedex ID": 785,
+    "Height (m)": 1.8,
+    "Weight (kg)": 20.5,
+    "Total Stats": 570
+  },
+  {
+    "name": "Tapu Lele",
+    "Pokedex ID": 786,
+    "Height (m)": 1.2,
+    "Weight (kg)": 18.6,
+    "Total Stats": 570
+  },
+  {
+    "name": "Tapu Bulu",
+    "Pokedex ID": 787,
+    "Height (m)": 1.9,
+    "Weight (kg)": 45.5,
+    "Total Stats": 570
+  },
+  {
+    "name": "Tapu Fini",
+    "Pokedex ID": 788,
+    "Height (m)": 1.3,
+    "Weight (kg)": 21.2,
+    "Total Stats": 570
+  },
+  {
+    "name": "Cosmog",
+    "Pokedex ID": 789,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.1,
+    "Total Stats": 200
+  },
+  {
+    "name": "Cosmoem",
+    "Pokedex ID": 790,
+    "Height (m)": 0.1,
+    "Weight (kg)": 999.9,
+    "Total Stats": 400
+  },
+  {
+    "name": "Solgaleo",
+    "Pokedex ID": 791,
+    "Height (m)": 3.4,
+    "Weight (kg)": 230.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Lunala",
+    "Pokedex ID": 792,
+    "Height (m)": 4.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Nihilego",
+    "Pokedex ID": 793,
+    "Height (m)": 1.2,
+    "Weight (kg)": 55.5,
+    "Total Stats": 570
+  },
+  {
+    "name": "Buzzwole",
+    "Pokedex ID": 794,
+    "Height (m)": 2.4,
+    "Weight (kg)": 333.6,
+    "Total Stats": 570
+  },
+  {
+    "name": "Pheromosa",
+    "Pokedex ID": 795,
+    "Height (m)": 1.8,
+    "Weight (kg)": 25.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Xurkitree",
+    "Pokedex ID": 796,
+    "Height (m)": 3.8,
+    "Weight (kg)": 100.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Celesteela",
+    "Pokedex ID": 797,
+    "Height (m)": 9.2,
+    "Weight (kg)": 999.9,
+    "Total Stats": 570
+  },
+  {
+    "name": "Kartana",
+    "Pokedex ID": 798,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.1,
+    "Total Stats": 570
+  },
+  {
+    "name": "Guzzlord",
+    "Pokedex ID": 799,
+    "Height (m)": 5.5,
+    "Weight (kg)": 888.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Necrozma",
+    "Pokedex ID": 800,
+    "Height (m)": 2.4,
+    "Weight (kg)": 230.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Necrozma Dusk Mane Necrozma",
+    "Pokedex ID": 800,
+    "Height (m)": 3.8,
+    "Weight (kg)": 460.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Necrozma Dawn Wings Necrozma",
+    "Pokedex ID": 800,
+    "Height (m)": 4.2,
+    "Weight (kg)": 350.0,
+    "Total Stats": 680
+  },
+  {
+    "name": "Necrozma Ultra Necrozma",
+    "Pokedex ID": 800,
+    "Height (m)": 7.5,
+    "Weight (kg)": 230.0,
+    "Total Stats": 754
+  },
+  {
+    "name": "Magearna",
+    "Pokedex ID": 801,
+    "Height (m)": 1.0,
+    "Weight (kg)": 80.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Marshadow",
+    "Pokedex ID": 802,
+    "Height (m)": 0.7,
+    "Weight (kg)": 22.2,
+    "Total Stats": 600
+  },
+  {
+    "name": "Poipole",
+    "Pokedex ID": 803,
+    "Height (m)": 0.6,
+    "Weight (kg)": 1.8,
+    "Total Stats": 420
+  },
+  {
+    "name": "Naganadel",
+    "Pokedex ID": 804,
+    "Height (m)": 3.6,
+    "Weight (kg)": 150.0,
+    "Total Stats": 540
+  },
+  {
+    "name": "Stakataka",
+    "Pokedex ID": 805,
+    "Height (m)": 5.5,
+    "Weight (kg)": 820.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Blacephalon",
+    "Pokedex ID": 806,
+    "Height (m)": 1.8,
+    "Weight (kg)": 13.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Zeraora",
+    "Pokedex ID": 807,
+    "Height (m)": 1.5,
+    "Weight (kg)": 44.5,
+    "Total Stats": 600
+  },
+  {
+    "name": "Meltan",
+    "Pokedex ID": 808,
+    "Height (m)": 0.2,
+    "Weight (kg)": 8.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Melmetal",
+    "Pokedex ID": 809,
+    "Height (m)": 2.5,
+    "Weight (kg)": 800.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Grookey",
+    "Pokedex ID": 810,
+    "Height (m)": 0.3,
+    "Weight (kg)": 5.0,
+    "Total Stats": 310
+  },
+  {
+    "name": "Thwackey",
+    "Pokedex ID": 811,
+    "Height (m)": 0.7,
+    "Weight (kg)": 14.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Rillaboom",
+    "Pokedex ID": 812,
+    "Height (m)": 2.1,
+    "Weight (kg)": 90.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Scorbunny",
+    "Pokedex ID": 813,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.5,
+    "Total Stats": 310
+  },
+  {
+    "name": "Raboot",
+    "Pokedex ID": 814,
+    "Height (m)": 0.6,
+    "Weight (kg)": 9.0,
+    "Total Stats": 420
+  },
+  {
+    "name": "Cinderace",
+    "Pokedex ID": 815,
+    "Height (m)": 1.4,
+    "Weight (kg)": 33.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Sobble",
+    "Pokedex ID": 816,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.0,
+    "Total Stats": 310
+  },
+  {
+    "name": "Drizzile",
+    "Pokedex ID": 817,
+    "Height (m)": 0.7,
+    "Weight (kg)": 11.5,
+    "Total Stats": 420
+  },
+  {
+    "name": "Inteleon",
+    "Pokedex ID": 818,
+    "Height (m)": 1.9,
+    "Weight (kg)": 45.2,
+    "Total Stats": 530
+  },
+  {
+    "name": "Skwovet",
+    "Pokedex ID": 819,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.5,
+    "Total Stats": 275
+  },
+  {
+    "name": "Greedent",
+    "Pokedex ID": 820,
+    "Height (m)": 0.6,
+    "Weight (kg)": 6.0,
+    "Total Stats": 460
+  },
+  {
+    "name": "Rookidee",
+    "Pokedex ID": 821,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.8,
+    "Total Stats": 245
+  },
+  {
+    "name": "Corvisquire",
+    "Pokedex ID": 822,
+    "Height (m)": 0.8,
+    "Weight (kg)": 16.0,
+    "Total Stats": 365
+  },
+  {
+    "name": "Corviknight",
+    "Pokedex ID": 823,
+    "Height (m)": 2.2,
+    "Weight (kg)": 75.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Blipbug",
+    "Pokedex ID": 824,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.0,
+    "Total Stats": 180
+  },
+  {
+    "name": "Dottler",
+    "Pokedex ID": 825,
+    "Height (m)": 0.4,
+    "Weight (kg)": 19.5,
+    "Total Stats": 335
+  },
+  {
+    "name": "Orbeetle",
+    "Pokedex ID": 826,
+    "Height (m)": 0.4,
+    "Weight (kg)": 40.8,
+    "Total Stats": 505
+  },
+  {
+    "name": "Nickit",
+    "Pokedex ID": 827,
+    "Height (m)": 0.6,
+    "Weight (kg)": 8.9,
+    "Total Stats": 245
+  },
+  {
+    "name": "Thievul",
+    "Pokedex ID": 828,
+    "Height (m)": 1.2,
+    "Weight (kg)": 19.9,
+    "Total Stats": 455
+  },
+  {
+    "name": "Gossifleur",
+    "Pokedex ID": 829,
+    "Height (m)": 0.4,
+    "Weight (kg)": 2.2,
+    "Total Stats": 250
+  },
+  {
+    "name": "Eldegoss",
+    "Pokedex ID": 830,
+    "Height (m)": 0.5,
+    "Weight (kg)": 2.5,
+    "Total Stats": 460
+  },
+  {
+    "name": "Wooloo",
+    "Pokedex ID": 831,
+    "Height (m)": 0.6,
+    "Weight (kg)": 6.0,
+    "Total Stats": 270
+  },
+  {
+    "name": "Dubwool",
+    "Pokedex ID": 832,
+    "Height (m)": 1.3,
+    "Weight (kg)": 43.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Chewtle",
+    "Pokedex ID": 833,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.5,
+    "Total Stats": 284
+  },
+  {
+    "name": "Drednaw",
+    "Pokedex ID": 834,
+    "Height (m)": 1.0,
+    "Weight (kg)": 115.5,
+    "Total Stats": 485
+  },
+  {
+    "name": "Yamper",
+    "Pokedex ID": 835,
+    "Height (m)": 0.3,
+    "Weight (kg)": 13.5,
+    "Total Stats": 270
+  },
+  {
+    "name": "Boltund",
+    "Pokedex ID": 836,
+    "Height (m)": 1.0,
+    "Weight (kg)": 34.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Rolycoly",
+    "Pokedex ID": 837,
+    "Height (m)": 0.3,
+    "Weight (kg)": 12.0,
+    "Total Stats": 240
+  },
+  {
+    "name": "Carkol",
+    "Pokedex ID": 838,
+    "Height (m)": 1.1,
+    "Weight (kg)": 78.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Coalossal",
+    "Pokedex ID": 839,
+    "Height (m)": 2.8,
+    "Weight (kg)": 310.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Applin",
+    "Pokedex ID": 840,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.5,
+    "Total Stats": 260
+  },
+  {
+    "name": "Flapple",
+    "Pokedex ID": 841,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Appletun",
+    "Pokedex ID": 842,
+    "Height (m)": 0.4,
+    "Weight (kg)": 13.0,
+    "Total Stats": 485
+  },
+  {
+    "name": "Silicobra",
+    "Pokedex ID": 843,
+    "Height (m)": 2.2,
+    "Weight (kg)": 7.6,
+    "Total Stats": 315
+  },
+  {
+    "name": "Sandaconda",
+    "Pokedex ID": 844,
+    "Height (m)": 3.8,
+    "Weight (kg)": 65.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Cramorant",
+    "Pokedex ID": 845,
+    "Height (m)": 0.8,
+    "Weight (kg)": 18.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Arrokuda",
+    "Pokedex ID": 846,
+    "Height (m)": 0.5,
+    "Weight (kg)": 1.0,
+    "Total Stats": 280
+  },
+  {
+    "name": "Barraskewda",
+    "Pokedex ID": 847,
+    "Height (m)": 1.3,
+    "Weight (kg)": 30.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Toxel",
+    "Pokedex ID": 848,
+    "Height (m)": 0.4,
+    "Weight (kg)": 11.0,
+    "Total Stats": 242
+  },
+  {
+    "name": "Toxtricity Amped Form",
+    "Pokedex ID": 849,
+    "Height (m)": 1.6,
+    "Weight (kg)": 40.0,
+    "Total Stats": 502
+  },
+  {
+    "name": "Toxtricity Low Key Form",
+    "Pokedex ID": 849,
+    "Height (m)": 1.6,
+    "Weight (kg)": 40.0,
+    "Total Stats": 502
+  },
+  {
+    "name": "Sizzlipede",
+    "Pokedex ID": 850,
+    "Height (m)": 0.7,
+    "Weight (kg)": 1.0,
+    "Total Stats": 305
+  },
+  {
+    "name": "Centiskorch",
+    "Pokedex ID": 851,
+    "Height (m)": 3.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Clobbopus",
+    "Pokedex ID": 852,
+    "Height (m)": 0.6,
+    "Weight (kg)": 4.0,
+    "Total Stats": 310
+  },
+  {
+    "name": "Grapploct",
+    "Pokedex ID": 853,
+    "Height (m)": 1.6,
+    "Weight (kg)": 39.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Sinistea",
+    "Pokedex ID": 854,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.2,
+    "Total Stats": 308
+  },
+  {
+    "name": "Polteageist",
+    "Pokedex ID": 855,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.4,
+    "Total Stats": 508
+  },
+  {
+    "name": "Hatenna",
+    "Pokedex ID": 856,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.4,
+    "Total Stats": 265
+  },
+  {
+    "name": "Hattrem",
+    "Pokedex ID": 857,
+    "Height (m)": 0.6,
+    "Weight (kg)": 4.8,
+    "Total Stats": 370
+  },
+  {
+    "name": "Hatterene",
+    "Pokedex ID": 858,
+    "Height (m)": 2.1,
+    "Weight (kg)": 5.1,
+    "Total Stats": 510
+  },
+  {
+    "name": "Impidimp",
+    "Pokedex ID": 859,
+    "Height (m)": 0.4,
+    "Weight (kg)": 5.5,
+    "Total Stats": 265
+  },
+  {
+    "name": "Morgrem",
+    "Pokedex ID": 860,
+    "Height (m)": 0.8,
+    "Weight (kg)": 12.5,
+    "Total Stats": 370
+  },
+  {
+    "name": "Grimmsnarl",
+    "Pokedex ID": 861,
+    "Height (m)": 1.5,
+    "Weight (kg)": 61.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Obstagoon",
+    "Pokedex ID": 862,
+    "Height (m)": 1.6,
+    "Weight (kg)": 46.0,
+    "Total Stats": 520
+  },
+  {
+    "name": "Perrserker",
+    "Pokedex ID": 863,
+    "Height (m)": 0.8,
+    "Weight (kg)": 28.0,
+    "Total Stats": 440
+  },
+  {
+    "name": "Cursola",
+    "Pokedex ID": 864,
+    "Height (m)": 1.0,
+    "Weight (kg)": 0.4,
+    "Total Stats": 510
+  },
+  {
+    "name": "Sirfetch'd",
+    "Pokedex ID": 865,
+    "Height (m)": 0.8,
+    "Weight (kg)": 117.0,
+    "Total Stats": 507
+  },
+  {
+    "name": "Mr. Rime",
+    "Pokedex ID": 866,
+    "Height (m)": 1.5,
+    "Weight (kg)": 58.2,
+    "Total Stats": 520
+  },
+  {
+    "name": "Runerigus",
+    "Pokedex ID": 867,
+    "Height (m)": 1.6,
+    "Weight (kg)": 66.6,
+    "Total Stats": 483
+  },
+  {
+    "name": "Milcery",
+    "Pokedex ID": 868,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.3,
+    "Total Stats": 270
+  },
+  {
+    "name": "Alcremie",
+    "Pokedex ID": 869,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.5,
+    "Total Stats": 495
+  },
+  {
+    "name": "Falinks",
+    "Pokedex ID": 870,
+    "Height (m)": 3.0,
+    "Weight (kg)": 62.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Pincurchin",
+    "Pokedex ID": 871,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.0,
+    "Total Stats": 435
+  },
+  {
+    "name": "Snom",
+    "Pokedex ID": 872,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.8,
+    "Total Stats": 185
+  },
+  {
+    "name": "Frosmoth",
+    "Pokedex ID": 873,
+    "Height (m)": 1.3,
+    "Weight (kg)": 42.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Stonjourner",
+    "Pokedex ID": 874,
+    "Height (m)": 2.5,
+    "Weight (kg)": 520.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Eiscue Ice Face",
+    "Pokedex ID": 875,
+    "Height (m)": 1.4,
+    "Weight (kg)": 89.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Eiscue Noice Face",
+    "Pokedex ID": 875,
+    "Height (m)": 1.4,
+    "Weight (kg)": 89.0,
+    "Total Stats": 470
+  },
+  {
+    "name": "Indeedee Male",
+    "Pokedex ID": 876,
+    "Height (m)": 0.9,
+    "Weight (kg)": 28.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Indeedee Female",
+    "Pokedex ID": 876,
+    "Height (m)": 0.9,
+    "Weight (kg)": 28.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Morpeko Full Belly Mode",
+    "Pokedex ID": 877,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.0,
+    "Total Stats": 436
+  },
+  {
+    "name": "Morpeko Hangry Mode",
+    "Pokedex ID": 877,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.0,
+    "Total Stats": 436
+  },
+  {
+    "name": "Cufant",
+    "Pokedex ID": 878,
+    "Height (m)": 1.2,
+    "Weight (kg)": 100.0,
+    "Total Stats": 330
+  },
+  {
+    "name": "Copperajah",
+    "Pokedex ID": 879,
+    "Height (m)": 3.0,
+    "Weight (kg)": 650.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Dracozolt",
+    "Pokedex ID": 880,
+    "Height (m)": 1.8,
+    "Weight (kg)": 190.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Arctozolt",
+    "Pokedex ID": 881,
+    "Height (m)": 2.3,
+    "Weight (kg)": 150.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Dracovish",
+    "Pokedex ID": 882,
+    "Height (m)": 2.3,
+    "Weight (kg)": 215.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Arctovish",
+    "Pokedex ID": 883,
+    "Height (m)": 2.0,
+    "Weight (kg)": 175.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Duraludon",
+    "Pokedex ID": 884,
+    "Height (m)": 1.8,
+    "Weight (kg)": 40.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Dreepy",
+    "Pokedex ID": 885,
+    "Height (m)": 0.5,
+    "Weight (kg)": 2.0,
+    "Total Stats": 270
+  },
+  {
+    "name": "Drakloak",
+    "Pokedex ID": 886,
+    "Height (m)": 1.4,
+    "Weight (kg)": 11.0,
+    "Total Stats": 410
+  },
+  {
+    "name": "Dragapult",
+    "Pokedex ID": 887,
+    "Height (m)": 3.0,
+    "Weight (kg)": 50.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Zacian Hero of Many Battles",
+    "Pokedex ID": 888,
+    "Height (m)": 2.8,
+    "Weight (kg)": 110.0,
+    "Total Stats": 660
+  },
+  {
+    "name": "Zacian Crowned Sword",
+    "Pokedex ID": 888,
+    "Height (m)": 2.8,
+    "Weight (kg)": 355.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Zamazenta Hero of Many Battles",
+    "Pokedex ID": 889,
+    "Height (m)": 2.9,
+    "Weight (kg)": 210.0,
+    "Total Stats": 660
+  },
+  {
+    "name": "Zamazenta Crowned Shield",
+    "Pokedex ID": 889,
+    "Height (m)": 2.9,
+    "Weight (kg)": 785.0,
+    "Total Stats": 700
+  },
+  {
+    "name": "Eternatus",
+    "Pokedex ID": 890,
+    "Height (m)": 20.0,
+    "Weight (kg)": 950.0,
+    "Total Stats": 690
+  },
+  {
+    "name": "Eternatus Eternamax",
+    "Pokedex ID": 890,
+    "Height (m)": 100.0,
+    "Weight (kg)": NaN,
+    "Total Stats": 1125
+  },
+  {
+    "name": "Kubfu",
+    "Pokedex ID": 891,
+    "Height (m)": 0.6,
+    "Weight (kg)": 12.0,
+    "Total Stats": 385
+  },
+  {
+    "name": "Urshifu Single Strike Style",
+    "Pokedex ID": 892,
+    "Height (m)": 1.9,
+    "Weight (kg)": 105.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Urshifu Rapid Strike Style",
+    "Pokedex ID": 892,
+    "Height (m)": 1.9,
+    "Weight (kg)": 105.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Zarude",
+    "Pokedex ID": 893,
+    "Height (m)": 1.8,
+    "Weight (kg)": 70.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Regieleki",
+    "Pokedex ID": 894,
+    "Height (m)": 1.2,
+    "Weight (kg)": 145.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Regidrago",
+    "Pokedex ID": 895,
+    "Height (m)": 2.1,
+    "Weight (kg)": 200.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Glastrier",
+    "Pokedex ID": 896,
+    "Height (m)": 2.2,
+    "Weight (kg)": 800.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Spectrier",
+    "Pokedex ID": 897,
+    "Height (m)": 2.0,
+    "Weight (kg)": 44.5,
+    "Total Stats": 580
+  },
+  {
+    "name": "Calyrex",
+    "Pokedex ID": 898,
+    "Height (m)": 1.1,
+    "Weight (kg)": 7.7,
+    "Total Stats": 500
+  },
+  {
+    "name": "Calyrex Ice Rider",
+    "Pokedex ID": 898,
+    "Height (m)": 2.4,
+    "Weight (kg)": 809.1,
+    "Total Stats": 680
+  },
+  {
+    "name": "Calyrex Shadow Rider",
+    "Pokedex ID": 898,
+    "Height (m)": 2.4,
+    "Weight (kg)": 53.6,
+    "Total Stats": 680
+  },
+  {
+    "name": "Wyrdeer",
+    "Pokedex ID": 899,
+    "Height (m)": 1.8,
+    "Weight (kg)": 95.1,
+    "Total Stats": 525
+  },
+  {
+    "name": "Kleavor",
+    "Pokedex ID": 900,
+    "Height (m)": 1.8,
+    "Weight (kg)": 89.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Ursaluna",
+    "Pokedex ID": 901,
+    "Height (m)": 2.4,
+    "Weight (kg)": 290.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Basculegion Male",
+    "Pokedex ID": 902,
+    "Height (m)": 3.0,
+    "Weight (kg)": 110.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Basculegion Female",
+    "Pokedex ID": 902,
+    "Height (m)": 3.0,
+    "Weight (kg)": 110.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Sneasler",
+    "Pokedex ID": 903,
+    "Height (m)": 1.3,
+    "Weight (kg)": 43.0,
+    "Total Stats": 510
+  },
+  {
+    "name": "Overqwil",
+    "Pokedex ID": 904,
+    "Height (m)": 2.5,
+    "Weight (kg)": 60.5,
+    "Total Stats": 510
+  },
+  {
+    "name": "Enamorus Incarnate Forme",
+    "Pokedex ID": 905,
+    "Height (m)": 1.6,
+    "Weight (kg)": 48.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Enamorus Therian Forme",
+    "Pokedex ID": 905,
+    "Height (m)": 1.6,
+    "Weight (kg)": 48.0,
+    "Total Stats": 580
+  },
+  {
+    "name": "Sprigatito",
+    "Pokedex ID": 906,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.1,
+    "Total Stats": 310
+  },
+  {
+    "name": "Floragato",
+    "Pokedex ID": 907,
+    "Height (m)": 0.9,
+    "Weight (kg)": 12.2,
+    "Total Stats": 410
+  },
+  {
+    "name": "Meowscarada",
+    "Pokedex ID": 908,
+    "Height (m)": 1.5,
+    "Weight (kg)": 31.2,
+    "Total Stats": 530
+  },
+  {
+    "name": "Fuecoco",
+    "Pokedex ID": 909,
+    "Height (m)": 0.4,
+    "Weight (kg)": 9.8,
+    "Total Stats": 310
+  },
+  {
+    "name": "Crocalor",
+    "Pokedex ID": 910,
+    "Height (m)": 1.0,
+    "Weight (kg)": 30.7,
+    "Total Stats": 411
+  },
+  {
+    "name": "Skeledirge",
+    "Pokedex ID": 911,
+    "Height (m)": 1.6,
+    "Weight (kg)": 326.5,
+    "Total Stats": 530
+  },
+  {
+    "name": "Quaxly",
+    "Pokedex ID": 912,
+    "Height (m)": 0.5,
+    "Weight (kg)": 6.1,
+    "Total Stats": 310
+  },
+  {
+    "name": "Quaxwell",
+    "Pokedex ID": 913,
+    "Height (m)": 1.2,
+    "Weight (kg)": 21.5,
+    "Total Stats": 410
+  },
+  {
+    "name": "Quaquaval",
+    "Pokedex ID": 914,
+    "Height (m)": 1.8,
+    "Weight (kg)": 61.9,
+    "Total Stats": 530
+  },
+  {
+    "name": "Lechonk",
+    "Pokedex ID": 915,
+    "Height (m)": 0.5,
+    "Weight (kg)": 10.2,
+    "Total Stats": 254
+  },
+  {
+    "name": "Oinkologne Male",
+    "Pokedex ID": 916,
+    "Height (m)": 1.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 489
+  },
+  {
+    "name": "Oinkologne Female",
+    "Pokedex ID": 916,
+    "Height (m)": 1.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 489
+  },
+  {
+    "name": "Tarountula",
+    "Pokedex ID": 917,
+    "Height (m)": 0.3,
+    "Weight (kg)": 4.0,
+    "Total Stats": 210
+  },
+  {
+    "name": "Spidops",
+    "Pokedex ID": 918,
+    "Height (m)": 1.0,
+    "Weight (kg)": 16.5,
+    "Total Stats": 404
+  },
+  {
+    "name": "Nymble",
+    "Pokedex ID": 919,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.0,
+    "Total Stats": 210
+  },
+  {
+    "name": "Lokix",
+    "Pokedex ID": 920,
+    "Height (m)": 1.0,
+    "Weight (kg)": 17.5,
+    "Total Stats": 450
+  },
+  {
+    "name": "Pawmi",
+    "Pokedex ID": 921,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.5,
+    "Total Stats": 240
+  },
+  {
+    "name": "Pawmo",
+    "Pokedex ID": 922,
+    "Height (m)": 0.4,
+    "Weight (kg)": 6.5,
+    "Total Stats": 350
+  },
+  {
+    "name": "Pawmot",
+    "Pokedex ID": 923,
+    "Height (m)": 0.9,
+    "Weight (kg)": 41.0,
+    "Total Stats": 490
+  },
+  {
+    "name": "Tandemaus",
+    "Pokedex ID": 924,
+    "Height (m)": 0.3,
+    "Weight (kg)": 1.8,
+    "Total Stats": 305
+  },
+  {
+    "name": "Maushold Family of Four",
+    "Pokedex ID": 925,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.8,
+    "Total Stats": 470
+  },
+  {
+    "name": "Maushold Family of Three",
+    "Pokedex ID": 925,
+    "Height (m)": 0.3,
+    "Weight (kg)": 2.3,
+    "Total Stats": 470
+  },
+  {
+    "name": "Fidough",
+    "Pokedex ID": 926,
+    "Height (m)": 0.3,
+    "Weight (kg)": 10.9,
+    "Total Stats": 312
+  },
+  {
+    "name": "Dachsbun",
+    "Pokedex ID": 927,
+    "Height (m)": 0.5,
+    "Weight (kg)": 14.9,
+    "Total Stats": 477
+  },
+  {
+    "name": "Smoliv",
+    "Pokedex ID": 928,
+    "Height (m)": 0.3,
+    "Weight (kg)": 6.5,
+    "Total Stats": 260
+  },
+  {
+    "name": "Dolliv",
+    "Pokedex ID": 929,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.9,
+    "Total Stats": 354
+  },
+  {
+    "name": "Arboliva",
+    "Pokedex ID": 930,
+    "Height (m)": 1.4,
+    "Weight (kg)": 48.2,
+    "Total Stats": 510
+  },
+  {
+    "name": "Squawkabilly Green Plumage",
+    "Pokedex ID": 931,
+    "Height (m)": 0.6,
+    "Weight (kg)": 2.4,
+    "Total Stats": 417
+  },
+  {
+    "name": "Squawkabilly Blue Plumage",
+    "Pokedex ID": 931,
+    "Height (m)": 0.6,
+    "Weight (kg)": 2.4,
+    "Total Stats": 417
+  },
+  {
+    "name": "Squawkabilly Yellow Plumage",
+    "Pokedex ID": 931,
+    "Height (m)": 0.6,
+    "Weight (kg)": 2.4,
+    "Total Stats": 417
+  },
+  {
+    "name": "Squawkabilly White Plumage",
+    "Pokedex ID": 931,
+    "Height (m)": 0.6,
+    "Weight (kg)": 2.4,
+    "Total Stats": 417
+  },
+  {
+    "name": "Nacli",
+    "Pokedex ID": 932,
+    "Height (m)": 0.4,
+    "Weight (kg)": 16.0,
+    "Total Stats": 280
+  },
+  {
+    "name": "Naclstack",
+    "Pokedex ID": 933,
+    "Height (m)": 0.6,
+    "Weight (kg)": 105.0,
+    "Total Stats": 355
+  },
+  {
+    "name": "Garganacl",
+    "Pokedex ID": 934,
+    "Height (m)": 2.3,
+    "Weight (kg)": 240.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Charcadet",
+    "Pokedex ID": 935,
+    "Height (m)": 0.6,
+    "Weight (kg)": 10.5,
+    "Total Stats": 255
+  },
+  {
+    "name": "Armarouge",
+    "Pokedex ID": 936,
+    "Height (m)": 1.5,
+    "Weight (kg)": 85.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Ceruledge",
+    "Pokedex ID": 937,
+    "Height (m)": 1.6,
+    "Weight (kg)": 62.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Tadbulb",
+    "Pokedex ID": 938,
+    "Height (m)": 0.3,
+    "Weight (kg)": 0.4,
+    "Total Stats": 272
+  },
+  {
+    "name": "Bellibolt",
+    "Pokedex ID": 939,
+    "Height (m)": 1.2,
+    "Weight (kg)": 113.0,
+    "Total Stats": 495
+  },
+  {
+    "name": "Wattrel",
+    "Pokedex ID": 940,
+    "Height (m)": 0.4,
+    "Weight (kg)": 3.6,
+    "Total Stats": 280
+  },
+  {
+    "name": "Kilowattrel",
+    "Pokedex ID": 941,
+    "Height (m)": 1.4,
+    "Weight (kg)": 38.6,
+    "Total Stats": 490
+  },
+  {
+    "name": "Maschiff",
+    "Pokedex ID": 942,
+    "Height (m)": 0.5,
+    "Weight (kg)": 16.0,
+    "Total Stats": 340
+  },
+  {
+    "name": "Mabosstiff",
+    "Pokedex ID": 943,
+    "Height (m)": 1.1,
+    "Weight (kg)": 61.0,
+    "Total Stats": 505
+  },
+  {
+    "name": "Shroodle",
+    "Pokedex ID": 944,
+    "Height (m)": 0.2,
+    "Weight (kg)": 0.7,
+    "Total Stats": 290
+  },
+  {
+    "name": "Grafaiai",
+    "Pokedex ID": 945,
+    "Height (m)": 0.7,
+    "Weight (kg)": 27.2,
+    "Total Stats": 485
+  },
+  {
+    "name": "Bramblin",
+    "Pokedex ID": 946,
+    "Height (m)": 0.6,
+    "Weight (kg)": 0.6,
+    "Total Stats": 275
+  },
+  {
+    "name": "Brambleghast",
+    "Pokedex ID": 947,
+    "Height (m)": 1.2,
+    "Weight (kg)": 6.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Toedscool",
+    "Pokedex ID": 948,
+    "Height (m)": 0.9,
+    "Weight (kg)": 33.0,
+    "Total Stats": 335
+  },
+  {
+    "name": "Toedscruel",
+    "Pokedex ID": 949,
+    "Height (m)": 1.9,
+    "Weight (kg)": 58.0,
+    "Total Stats": 515
+  },
+  {
+    "name": "Klawf",
+    "Pokedex ID": 950,
+    "Height (m)": 1.3,
+    "Weight (kg)": 79.0,
+    "Total Stats": 450
+  },
+  {
+    "name": "Capsakid",
+    "Pokedex ID": 951,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.0,
+    "Total Stats": 304
+  },
+  {
+    "name": "Scovillain",
+    "Pokedex ID": 952,
+    "Height (m)": 0.9,
+    "Weight (kg)": 15.0,
+    "Total Stats": 486
+  },
+  {
+    "name": "Rellor",
+    "Pokedex ID": 953,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.0,
+    "Total Stats": 270
+  },
+  {
+    "name": "Rabsca",
+    "Pokedex ID": 954,
+    "Height (m)": 0.3,
+    "Weight (kg)": 3.5,
+    "Total Stats": 470
+  },
+  {
+    "name": "Flittle",
+    "Pokedex ID": 955,
+    "Height (m)": 0.2,
+    "Weight (kg)": 1.5,
+    "Total Stats": 255
+  },
+  {
+    "name": "Espathra",
+    "Pokedex ID": 956,
+    "Height (m)": 1.9,
+    "Weight (kg)": 90.0,
+    "Total Stats": 481
+  },
+  {
+    "name": "Tinkatink",
+    "Pokedex ID": 957,
+    "Height (m)": 0.4,
+    "Weight (kg)": 8.9,
+    "Total Stats": 297
+  },
+  {
+    "name": "Tinkatuff",
+    "Pokedex ID": 958,
+    "Height (m)": 0.7,
+    "Weight (kg)": 59.1,
+    "Total Stats": 380
+  },
+  {
+    "name": "Tinkaton",
+    "Pokedex ID": 959,
+    "Height (m)": 0.7,
+    "Weight (kg)": 112.8,
+    "Total Stats": 506
+  },
+  {
+    "name": "Wiglett",
+    "Pokedex ID": 960,
+    "Height (m)": 1.2,
+    "Weight (kg)": 1.8,
+    "Total Stats": 245
+  },
+  {
+    "name": "Wugtrio",
+    "Pokedex ID": 961,
+    "Height (m)": 1.2,
+    "Weight (kg)": 5.4,
+    "Total Stats": 425
+  },
+  {
+    "name": "Bombirdier",
+    "Pokedex ID": 962,
+    "Height (m)": 1.5,
+    "Weight (kg)": 42.9,
+    "Total Stats": 485
+  },
+  {
+    "name": "Finizen",
+    "Pokedex ID": 963,
+    "Height (m)": 1.3,
+    "Weight (kg)": 60.2,
+    "Total Stats": 315
+  },
+  {
+    "name": "Palafin Zero Form",
+    "Pokedex ID": 964,
+    "Height (m)": 1.3,
+    "Weight (kg)": 60.2,
+    "Total Stats": 457
+  },
+  {
+    "name": "Palafin Hero Form",
+    "Pokedex ID": 964,
+    "Height (m)": 1.8,
+    "Weight (kg)": 97.4,
+    "Total Stats": 650
+  },
+  {
+    "name": "Varoom",
+    "Pokedex ID": 965,
+    "Height (m)": 1.0,
+    "Weight (kg)": 35.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Revavroom",
+    "Pokedex ID": 966,
+    "Height (m)": 1.8,
+    "Weight (kg)": 120.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Cyclizar",
+    "Pokedex ID": 967,
+    "Height (m)": 1.6,
+    "Weight (kg)": 63.0,
+    "Total Stats": 501
+  },
+  {
+    "name": "Orthworm",
+    "Pokedex ID": 968,
+    "Height (m)": 2.5,
+    "Weight (kg)": 310.0,
+    "Total Stats": 480
+  },
+  {
+    "name": "Glimmet",
+    "Pokedex ID": 969,
+    "Height (m)": 0.7,
+    "Weight (kg)": 8.0,
+    "Total Stats": 350
+  },
+  {
+    "name": "Glimmora",
+    "Pokedex ID": 970,
+    "Height (m)": 1.5,
+    "Weight (kg)": 45.0,
+    "Total Stats": 525
+  },
+  {
+    "name": "Greavard",
+    "Pokedex ID": 971,
+    "Height (m)": 0.6,
+    "Weight (kg)": 35.0,
+    "Total Stats": 290
+  },
+  {
+    "name": "Houndstone",
+    "Pokedex ID": 972,
+    "Height (m)": 2.0,
+    "Weight (kg)": 15.0,
+    "Total Stats": 488
+  },
+  {
+    "name": "Flamigo",
+    "Pokedex ID": 973,
+    "Height (m)": 1.6,
+    "Weight (kg)": 37.0,
+    "Total Stats": 500
+  },
+  {
+    "name": "Cetoddle",
+    "Pokedex ID": 974,
+    "Height (m)": 1.2,
+    "Weight (kg)": 45.0,
+    "Total Stats": 334
+  },
+  {
+    "name": "Cetitan",
+    "Pokedex ID": 975,
+    "Height (m)": 4.5,
+    "Weight (kg)": 700.0,
+    "Total Stats": 521
+  },
+  {
+    "name": "Veluza",
+    "Pokedex ID": 976,
+    "Height (m)": 2.5,
+    "Weight (kg)": 90.0,
+    "Total Stats": 478
+  },
+  {
+    "name": "Dondozo",
+    "Pokedex ID": 977,
+    "Height (m)": 12.0,
+    "Weight (kg)": 220.0,
+    "Total Stats": 530
+  },
+  {
+    "name": "Tatsugiri Curly Form",
+    "Pokedex ID": 978,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Tatsugiri Droopy Form",
+    "Pokedex ID": 978,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Tatsugiri Stretchy Form",
+    "Pokedex ID": 978,
+    "Height (m)": 0.3,
+    "Weight (kg)": 8.0,
+    "Total Stats": 475
+  },
+  {
+    "name": "Annihilape",
+    "Pokedex ID": 979,
+    "Height (m)": 1.2,
+    "Weight (kg)": 56.0,
+    "Total Stats": 535
+  },
+  {
+    "name": "Clodsire",
+    "Pokedex ID": 980,
+    "Height (m)": 1.8,
+    "Weight (kg)": 223.0,
+    "Total Stats": 430
+  },
+  {
+    "name": "Farigiraf",
+    "Pokedex ID": 981,
+    "Height (m)": 3.2,
+    "Weight (kg)": 160.0,
+    "Total Stats": 520
+  },
+  {
+    "name": "Dudunsparce Two-Segment Form",
+    "Pokedex ID": 982,
+    "Height (m)": 3.6,
+    "Weight (kg)": 39.2,
+    "Total Stats": 520
+  },
+  {
+    "name": "Dudunsparce Three-Segment Form",
+    "Pokedex ID": 982,
+    "Height (m)": 4.5,
+    "Weight (kg)": 47.4,
+    "Total Stats": 520
+  },
+  {
+    "name": "Kingambit",
+    "Pokedex ID": 983,
+    "Height (m)": 2.0,
+    "Weight (kg)": 120.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Great Tusk",
+    "Pokedex ID": 984,
+    "Height (m)": 2.2,
+    "Weight (kg)": 320.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Scream Tail",
+    "Pokedex ID": 985,
+    "Height (m)": 1.2,
+    "Weight (kg)": 8.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Brute Bonnet",
+    "Pokedex ID": 986,
+    "Height (m)": 1.2,
+    "Weight (kg)": 21.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Flutter Mane",
+    "Pokedex ID": 987,
+    "Height (m)": 1.4,
+    "Weight (kg)": 4.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Slither Wing",
+    "Pokedex ID": 988,
+    "Height (m)": 3.2,
+    "Weight (kg)": 92.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Sandy Shocks",
+    "Pokedex ID": 989,
+    "Height (m)": 2.3,
+    "Weight (kg)": 60.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Treads",
+    "Pokedex ID": 990,
+    "Height (m)": 0.9,
+    "Weight (kg)": 240.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Bundle",
+    "Pokedex ID": 991,
+    "Height (m)": 0.6,
+    "Weight (kg)": 11.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Hands",
+    "Pokedex ID": 992,
+    "Height (m)": 1.8,
+    "Weight (kg)": 380.7,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Jugulis",
+    "Pokedex ID": 993,
+    "Height (m)": 1.3,
+    "Weight (kg)": 111.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Moth",
+    "Pokedex ID": 994,
+    "Height (m)": 1.2,
+    "Weight (kg)": 36.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Iron Thorns",
+    "Pokedex ID": 995,
+    "Height (m)": 1.6,
+    "Weight (kg)": 303.0,
+    "Total Stats": 570
+  },
+  {
+    "name": "Frigibax",
+    "Pokedex ID": 996,
+    "Height (m)": 0.5,
+    "Weight (kg)": 17.0,
+    "Total Stats": 320
+  },
+  {
+    "name": "Arctibax",
+    "Pokedex ID": 997,
+    "Height (m)": 0.8,
+    "Weight (kg)": 30.0,
+    "Total Stats": 423
+  },
+  {
+    "name": "Baxcalibur",
+    "Pokedex ID": 998,
+    "Height (m)": 2.1,
+    "Weight (kg)": 210.0,
+    "Total Stats": 600
+  },
+  {
+    "name": "Gimmighoul Chest Form",
+    "Pokedex ID": 999,
+    "Height (m)": 0.3,
+    "Weight (kg)": 5.0,
+    "Total Stats": 300
+  },
+  {
+    "name": "Gimmighoul Roaming Form",
+    "Pokedex ID": 999,
+    "Height (m)": 0.1,
+    "Weight (kg)": 0.1,
+    "Total Stats": 300
+  },
+  {
+    "name": "Gholdengo",
+    "Pokedex ID": 1000,
+    "Height (m)": 1.2,
+    "Weight (kg)": 30.0,
+    "Total Stats": 550
+  },
+  {
+    "name": "Wo-Chien",
+    "Pokedex ID": 1001,
+    "Height (m)": 1.5,
+    "Weight (kg)": 74.2,
+    "Total Stats": 570
+  },
+  {
+    "name": "Chien-Pao",
+    "Pokedex ID": 1002,
+    "Height (m)": 1.9,
+    "Weight (kg)": 152.2,
+    "Total Stats": 570
+  },
+  {
+    "name": "Ting-Lu",
+    "Pokedex ID": 1003,
+    "Height (m)": 2.7,
+    "Weight (kg)": 699.7,
+    "Total Stats": 570
+  },
+  {
+    "name": "Chi-Yu",
+    "Pokedex ID": 1004,
+    "Height (m)": 0.4,
+    "Weight (kg)": 4.9,
+    "Total Stats": 570
+  },
+  {
+    "name": "Roaring Moon",
+    "Pokedex ID": 1005,
+    "Height (m)": 2.0,
+    "Weight (kg)": 380.0,
+    "Total Stats": 590
+  },
+  {
+    "name": "Iron Valiant",
+    "Pokedex ID": 1006,
+    "Height (m)": 1.4,
+    "Weight (kg)": 35.0,
+    "Total Stats": 590
+  },
+  {
+    "name": "Koraidon",
+    "Pokedex ID": 1007,
+    "Height (m)": 2.5,
+    "Weight (kg)": 303.0,
+    "Total Stats": 670
+  },
+  {
+    "name": "Miraidon",
+    "Pokedex ID": 1008,
+    "Height (m)": 3.5,
+    "Weight (kg)": 240.0,
+    "Total Stats": 670
+  },
+  {
+    "name": "Walking Wake",
+    "Pokedex ID": 1009,
+    "Height (m)": 3.5,
+    "Weight (kg)": 280.0,
+    "Total Stats": 590
+  },
+  {
+    "name": "Iron Leaves",
+    "Pokedex ID": 1010,
+    "Height (m)": 1.5,
+    "Weight (kg)": 125.0,
+    "Total Stats": 590
   }
 ]

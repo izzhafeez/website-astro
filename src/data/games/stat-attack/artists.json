@@ -1,15 +1,21 @@
 [
   {
-    "name": "Elton John",
-    "Tracks": 58,
+    "name": "Michael Jackson",
+    "Tracks": 41,
     "Peak Position": 1,
-    "Streams": 8437.4
+    "Streams": 9754.7
   },
   {
     "name": "Dustin Lynch",
     "Tracks": 9,
     "Peak Position": 36,
     "Streams": 1426.2
+  },
+  {
+    "name": "Elton John",
+    "Tracks": 58,
+    "Peak Position": 1,
+    "Streams": 8437.4
   },
   {
     "name": "Miley Cyrus",
@@ -24,28 +30,10 @@
     "Streams": 1748.9
   },
   {
-    "name": "Daddy Yankee",
-    "Tracks": 5,
-    "Peak Position": 24,
-    "Streams": 18075.6
-  },
-  {
-    "name": "Michael Jackson",
-    "Tracks": 41,
-    "Peak Position": 1,
-    "Streams": 9754.7
-  },
-  {
     "name": "Sia",
     "Tracks": 4,
     "Peak Position": 8,
     "Streams": 13601.3
-  },
-  {
-    "name": "Imagine Dragons",
-    "Tracks": 14,
-    "Peak Position": 3,
-    "Streams": 21812.2
   },
   {
     "name": "Toby Keith",
@@ -54,10 +42,22 @@
     "Streams": 1539.3
   },
   {
+    "name": "Daddy Yankee",
+    "Tracks": 5,
+    "Peak Position": 24,
+    "Streams": 18075.6
+  },
+  {
     "name": "Audioslave",
     "Tracks": 7,
     "Peak Position": 31,
     "Streams": 1568.2
+  },
+  {
+    "name": "Imagine Dragons",
+    "Tracks": 14,
+    "Peak Position": 3,
+    "Streams": 21812.2
   },
   {
     "name": "Glee Cast",
@@ -78,6 +78,12 @@
     "Streams": 1712.6
   },
   {
+    "name": "OneRepublic",
+    "Tracks": 11,
+    "Peak Position": 2,
+    "Streams": 9926.5
+  },
+  {
     "name": "Brad Paisley",
     "Tracks": 33,
     "Peak Position": 28,
@@ -90,28 +96,10 @@
     "Streams": 1793.6
   },
   {
-    "name": "Charlie Puth",
-    "Tracks": 4,
-    "Peak Position": 5,
-    "Streams": 9570.6
-  },
-  {
-    "name": "OneRepublic",
-    "Tracks": 11,
-    "Peak Position": 2,
-    "Streams": 9926.5
-  },
-  {
     "name": "Cardi B",
     "Tracks": 9,
     "Peak Position": 1,
     "Streams": 9066.4
-  },
-  {
-    "name": "Wiz Khalifa",
-    "Tracks": 7,
-    "Peak Position": 1,
-    "Streams": 8695.4
   },
   {
     "name": "Chris Young",
@@ -120,16 +108,10 @@
     "Streams": 1733.9
   },
   {
-    "name": "Tove Lo",
-    "Tracks": 3,
-    "Peak Position": 3,
-    "Streams": 4629.3
-  },
-  {
-    "name": "Breaking Benjamin",
-    "Tracks": 7,
-    "Peak Position": 40,
-    "Streams": 2619.6
+    "name": "Charlie Puth",
+    "Tracks": 4,
+    "Peak Position": 5,
+    "Streams": 9570.6
   },
   {
     "name": "Three Days Grace",
@@ -138,16 +120,22 @@
     "Streams": 3698.7
   },
   {
+    "name": "Wiz Khalifa",
+    "Tracks": 7,
+    "Peak Position": 1,
+    "Streams": 8695.4
+  },
+  {
     "name": "Tim McGraw",
     "Tracks": 46,
     "Peak Position": 10,
     "Streams": 2965.0
   },
   {
-    "name": "Lil Baby",
-    "Tracks": 22,
-    "Peak Position": 3,
-    "Streams": 9670.1
+    "name": "Breaking Benjamin",
+    "Tracks": 7,
+    "Peak Position": 40,
+    "Streams": 2619.6
   },
   {
     "name": "Shakira",
@@ -162,10 +150,10 @@
     "Streams": 4894.7
   },
   {
-    "name": "Pitbull",
-    "Tracks": 7,
-    "Peak Position": 2,
-    "Streams": 9426.0
+    "name": "Mike Posner",
+    "Tracks": 3,
+    "Peak Position": 4,
+    "Streams": 2987.0
   },
   {
     "name": "Brett Young",
@@ -186,6 +174,18 @@
     "Streams": 2772.8
   },
   {
+    "name": "Pitbull",
+    "Tracks": 7,
+    "Peak Position": 2,
+    "Streams": 9426.0
+  },
+  {
+    "name": "Lil Baby",
+    "Tracks": 22,
+    "Peak Position": 3,
+    "Streams": 9670.1
+  },
+  {
     "name": "System Of A Down",
     "Tracks": 5,
     "Peak Position": 27,
@@ -198,16 +198,16 @@
     "Streams": 2124.4
   },
   {
+    "name": "Tove Lo",
+    "Tracks": 3,
+    "Peak Position": 3,
+    "Streams": 4629.3
+  },
+  {
     "name": "Keith Urban",
     "Tracks": 37,
     "Peak Position": 16,
     "Streams": 2416.5
-  },
-  {
-    "name": "Fall Out Boy",
-    "Tracks": 18,
-    "Peak Position": 2,
-    "Streams": 8451.4
   },
   {
     "name": "Christina Perri",
@@ -216,16 +216,10 @@
     "Streams": 2646.6
   },
   {
-    "name": "Mike Posner",
-    "Tracks": 3,
-    "Peak Position": 4,
-    "Streams": 2987.0
-  },
-  {
-    "name": "Alan Jackson",
-    "Tracks": 24,
-    "Peak Position": 28,
-    "Streams": 2168.3
+    "name": "Ellie Goulding",
+    "Tracks": 8,
+    "Peak Position": 2,
+    "Streams": 8826.8
   },
   {
     "name": "ZZ Top",
@@ -234,28 +228,28 @@
     "Streams": 1609.9
   },
   {
+    "name": "Fall Out Boy",
+    "Tracks": 18,
+    "Peak Position": 2,
+    "Streams": 8451.4
+  },
+  {
+    "name": "Alan Jackson",
+    "Tracks": 24,
+    "Peak Position": 28,
+    "Streams": 2168.3
+  },
+  {
     "name": "George Strait",
     "Tracks": 35,
     "Peak Position": 23,
     "Streams": 2293.3
   },
   {
-    "name": "Green Day",
-    "Tracks": 8,
-    "Peak Position": 2,
-    "Streams": 7403.7
-  },
-  {
     "name": "YoungBoy Never Broke Again",
     "Tracks": 36,
     "Peak Position": 28,
     "Streams": 7762.8
-  },
-  {
-    "name": "Ellie Goulding",
-    "Tracks": 8,
-    "Peak Position": 2,
-    "Streams": 8826.8
   },
   {
     "name": "Lil Wayne",
@@ -270,10 +264,16 @@
     "Streams": 9107.4
   },
   {
-    "name": "Old Dominion",
+    "name": "The Script",
+    "Tracks": 5,
+    "Peak Position": 12,
+    "Streams": 4553.1
+  },
+  {
+    "name": "Green Day",
     "Tracks": 8,
-    "Peak Position": 20,
-    "Streams": 1846.8
+    "Peak Position": 2,
+    "Streams": 7403.7
   },
   {
     "name": "Dierks Bentley",
@@ -282,16 +282,22 @@
     "Streams": 1923.7
   },
   {
-    "name": "DaBaby",
-    "Tracks": 16,
-    "Peak Position": 7,
-    "Streams": 9326.3
+    "name": "Old Dominion",
+    "Tracks": 8,
+    "Peak Position": 20,
+    "Streams": 1846.8
   },
   {
     "name": "Jason Aldean",
     "Tracks": 33,
     "Peak Position": 7,
     "Streams": 3797.8
+  },
+  {
+    "name": "DaBaby",
+    "Tracks": 16,
+    "Peak Position": 7,
+    "Streams": 9326.3
   },
   {
     "name": "Alessia Cara",
@@ -306,16 +312,16 @@
     "Streams": 2431.6
   },
   {
-    "name": "Miguel",
-    "Tracks": 5,
-    "Peak Position": 17,
-    "Streams": 3933.5
+    "name": "Miranda Lambert",
+    "Tracks": 20,
+    "Peak Position": 20,
+    "Streams": 1938.8
   },
   {
-    "name": "The Script",
+    "name": "Niall Horan",
     "Tracks": 5,
-    "Peak Position": 12,
-    "Streams": 4553.1
+    "Peak Position": 11,
+    "Streams": 4338.7
   },
   {
     "name": "JAY-Z",
@@ -324,10 +330,16 @@
     "Streams": 6923.8
   },
   {
-    "name": "Miranda Lambert",
-    "Tracks": 20,
-    "Peak Position": 20,
-    "Streams": 1938.8
+    "name": "Miguel",
+    "Tracks": 5,
+    "Peak Position": 17,
+    "Streams": 3933.5
+  },
+  {
+    "name": "AC/DC",
+    "Tracks": 7,
+    "Peak Position": 23,
+    "Streams": 8283.4
   },
   {
     "name": "Lee Brice",
@@ -342,22 +354,10 @@
     "Streams": 9097.3
   },
   {
-    "name": "Blake Shelton",
-    "Tracks": 30,
-    "Peak Position": 13,
-    "Streams": 3044.4
-  },
-  {
-    "name": "R.E.M.",
-    "Tracks": 22,
-    "Peak Position": 4,
-    "Streams": 2665.6
-  },
-  {
-    "name": "AC/DC",
-    "Tracks": 7,
-    "Peak Position": 23,
-    "Streams": 8283.4
+    "name": "KISS",
+    "Tracks": 24,
+    "Peak Position": 7,
+    "Streams": 2222.6
   },
   {
     "name": "Ciara",
@@ -366,16 +366,10 @@
     "Streams": 1875.9
   },
   {
-    "name": "KISS",
-    "Tracks": 24,
-    "Peak Position": 7,
-    "Streams": 2222.6
-  },
-  {
-    "name": "Niall Horan",
-    "Tracks": 5,
-    "Peak Position": 11,
-    "Streams": 4338.7
+    "name": "Luke Bryan",
+    "Tracks": 30,
+    "Peak Position": 14,
+    "Streams": 4267.1
   },
   {
     "name": "Rod Wave",
@@ -384,16 +378,16 @@
     "Streams": 2598.1
   },
   {
-    "name": "Luke Bryan",
-    "Tracks": 30,
-    "Peak Position": 14,
-    "Streams": 4267.1
+    "name": "Train",
+    "Tracks": 13,
+    "Peak Position": 3,
+    "Streams": 3423.8
   },
   {
-    "name": "Metallica",
-    "Tracks": 16,
-    "Peak Position": 10,
-    "Streams": 8890.3
+    "name": "Blake Shelton",
+    "Tracks": 30,
+    "Peak Position": 13,
+    "Streams": 3044.4
   },
   {
     "name": "DMX",
@@ -402,16 +396,16 @@
     "Streams": 1959.9
   },
   {
-    "name": "Train",
-    "Tracks": 13,
-    "Peak Position": 3,
-    "Streams": 3423.8
+    "name": "Metallica",
+    "Tracks": 16,
+    "Peak Position": 10,
+    "Streams": 8890.3
   },
   {
-    "name": "Led Zeppelin",
-    "Tracks": 10,
+    "name": "R.E.M.",
+    "Tracks": 22,
     "Peak Position": 4,
-    "Streams": 5554.4
+    "Streams": 2665.6
   },
   {
     "name": "Annie Lennox",
@@ -420,16 +414,22 @@
     "Streams": 2062.3
   },
   {
-    "name": "Jason Mraz",
-    "Tracks": 6,
-    "Peak Position": 6,
-    "Streams": 4439.1
+    "name": "Led Zeppelin",
+    "Tracks": 10,
+    "Peak Position": 4,
+    "Streams": 5554.4
   },
   {
     "name": "Thomas Rhett",
     "Tracks": 16,
     "Peak Position": 21,
     "Streams": 4112.8
+  },
+  {
+    "name": "Jason Mraz",
+    "Tracks": 6,
+    "Peak Position": 6,
+    "Streams": 4439.1
   },
   {
     "name": "Eric Church",
@@ -450,16 +450,10 @@
     "Streams": 3680.7
   },
   {
-    "name": "Weezer",
+    "name": "Papa Roach",
     "Tracks": 6,
-    "Peak Position": 10,
-    "Streams": 2971.0
-  },
-  {
-    "name": "Zac Brown Band",
-    "Tracks": 18,
-    "Peak Position": 20,
-    "Streams": 3100.6
+    "Peak Position": 15,
+    "Streams": 2861.3
   },
   {
     "name": "Maren Morris",
@@ -468,10 +462,10 @@
     "Streams": 2940.8
   },
   {
-    "name": "Papa Roach",
-    "Tracks": 6,
-    "Peak Position": 15,
-    "Streams": 2861.3
+    "name": "Zac Brown Band",
+    "Tracks": 18,
+    "Peak Position": 20,
+    "Streams": 3100.6
   },
   {
     "name": "Migos",
@@ -480,22 +474,10 @@
     "Streams": 8212.7
   },
   {
-    "name": "Paul McCartney",
-    "Tracks": 16,
-    "Peak Position": 5,
-    "Streams": 2767.2
-  },
-  {
     "name": "Morgan Wallen",
     "Tracks": 19,
     "Peak Position": 6,
     "Streams": 5345.4
-  },
-  {
-    "name": "Chris Stapleton",
-    "Tracks": 8,
-    "Peak Position": 20,
-    "Streams": 3024.8
   },
   {
     "name": "John Mayer",
@@ -504,16 +486,40 @@
     "Streams": 8243.4
   },
   {
+    "name": "Chris Stapleton",
+    "Tracks": 8,
+    "Peak Position": 20,
+    "Streams": 3024.8
+  },
+  {
     "name": "Nas",
     "Tracks": 9,
     "Peak Position": 12,
     "Streams": 2255.0
   },
   {
+    "name": "Weezer",
+    "Tracks": 6,
+    "Peak Position": 10,
+    "Streams": 2971.0
+  },
+  {
+    "name": "Paul McCartney",
+    "Tracks": 16,
+    "Peak Position": 5,
+    "Streams": 2767.2
+  },
+  {
     "name": "2Pac",
     "Tracks": 9,
     "Peak Position": 9,
     "Streams": 6328.2
+  },
+  {
+    "name": "Snoop Dogg",
+    "Tracks": 7,
+    "Peak Position": 7,
+    "Streams": 4300.2
   },
   {
     "name": "Foo Fighters",
@@ -528,12 +534,6 @@
     "Streams": 2542.2
   },
   {
-    "name": "Depeche Mode",
-    "Tracks": 17,
-    "Peak Position": 8,
-    "Streams": 2784.1
-  },
-  {
     "name": "The Killers",
     "Tracks": 10,
     "Peak Position": 10,
@@ -546,16 +546,22 @@
     "Streams": 2479.5
   },
   {
-    "name": "Rae Sremmurd",
-    "Tracks": 7,
-    "Peak Position": 16,
-    "Streams": 5227.0
+    "name": "Depeche Mode",
+    "Tracks": 17,
+    "Peak Position": 8,
+    "Streams": 2784.1
   },
   {
     "name": "Sam Hunt",
     "Tracks": 11,
     "Peak Position": 6,
     "Streams": 3189.9
+  },
+  {
+    "name": "Rae Sremmurd",
+    "Tracks": 7,
+    "Peak Position": 16,
+    "Streams": 5227.0
   },
   {
     "name": "Trey Songz",
@@ -570,16 +576,10 @@
     "Streams": 5095.3
   },
   {
-    "name": "Snoop Dogg",
-    "Tracks": 7,
-    "Peak Position": 7,
-    "Streams": 4300.2
-  },
-  {
-    "name": "Florida Georgia Line",
-    "Tracks": 15,
-    "Peak Position": 11,
-    "Streams": 4609.0
+    "name": "Mumford & Sons",
+    "Tracks": 11,
+    "Peak Position": 12,
+    "Streams": 5088.1
   },
   {
     "name": "My Chemical Romance",
@@ -588,16 +588,16 @@
     "Streams": 4607.1
   },
   {
-    "name": "Mumford & Sons",
-    "Tracks": 11,
-    "Peak Position": 12,
-    "Streams": 5088.1
-  },
-  {
     "name": "Kane Brown",
     "Tracks": 11,
     "Peak Position": 15,
     "Streams": 4364.5
+  },
+  {
+    "name": "Florida Georgia Line",
+    "Tracks": 15,
+    "Peak Position": 11,
+    "Streams": 4609.0
   },
   {
     "name": "Bryson Tiller",

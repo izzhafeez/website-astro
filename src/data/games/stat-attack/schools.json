@@ -6,12 +6,6 @@
     "Opening Year": 2019
   },
   {
-    "name": "Singapore University of Technology and Design",
-    "Latitude": 1.3402,
-    "Longitude": 103.9629,
-    "Opening Year": 2009
-  },
-  {
     "name": "St. Anthony's Canossian Secondary School",
     "Latitude": 1.3347,
     "Longitude": 103.942,
@@ -22,6 +16,12 @@
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Opening Year": 1933
+  },
+  {
+    "name": "Singapore University of Technology and Design",
+    "Latitude": 1.3402,
+    "Longitude": 103.9629,
+    "Opening Year": 2009
   },
   {
     "name": "Republic Polytechnic",
@@ -36,34 +36,22 @@
     "Opening Year": 1876
   },
   {
-    "name": "Yishun Innova Junior College",
-    "Latitude": 1.4246,
-    "Longitude": 103.8296,
-    "Opening Year": 2019
-  },
-  {
     "name": "Sembawang Secondary School",
     "Latitude": 1.4453,
     "Longitude": 103.8168,
     "Opening Year": 1999
   },
   {
-    "name": "Anderson Serangoon Junior College",
-    "Latitude": 1.3784,
-    "Longitude": 103.8459,
-    "Opening Year": 2019
+    "name": "ITE College West",
+    "Latitude": 1.3751,
+    "Longitude": 103.7522,
+    "Opening Year": 2010
   },
   {
     "name": "Westwood Secondary School",
     "Latitude": 1.3537,
     "Longitude": 103.7018,
     "Opening Year": 2000
-  },
-  {
-    "name": "ITE College West",
-    "Latitude": 1.3751,
-    "Longitude": 103.7522,
-    "Opening Year": 2010
   },
   {
     "name": "Evergreen Secondary School",
@@ -78,9 +66,21 @@
     "Opening Year": 2000
   },
   {
+    "name": "Anderson Serangoon Junior College",
+    "Latitude": 1.3784,
+    "Longitude": 103.8459,
+    "Opening Year": 2019
+  },
+  {
     "name": "Tampines Meridian Junior College",
     "Latitude": 1.3767,
     "Longitude": 103.9376,
+    "Opening Year": 2019
+  },
+  {
+    "name": "Yishun Innova Junior College",
+    "Latitude": 1.4246,
+    "Longitude": 103.8296,
     "Opening Year": 2019
   },
   {
@@ -115,14 +115,14 @@
   },
   {
     "name": "St. Joseph's Institution",
-    "Latitude": 1.3236,
-    "Longitude": 103.8273,
+    "Latitude": 1.3328,
+    "Longitude": 103.8412,
     "Opening Year": 1852
   },
   {
     "name": "St. Joseph's Institution",
-    "Latitude": 1.3328,
-    "Longitude": 103.8412,
+    "Latitude": 1.3236,
+    "Longitude": 103.8273,
     "Opening Year": 1852
   },
   {
@@ -130,12 +130,6 @@
     "Latitude": 1.3666,
     "Longitude": 103.9569,
     "Opening Year": 1989
-  },
-  {
-    "name": "Singapore Management University",
-    "Latitude": 1.2968,
-    "Longitude": 103.8522,
-    "Opening Year": 2000
   },
   {
     "name": "St. Andrew's Secondary School",
@@ -150,16 +144,22 @@
     "Opening Year": 1986
   },
   {
-    "name": "School of Science and Technology, Singapore",
-    "Latitude": 1.3129,
-    "Longitude": 103.774,
-    "Opening Year": 2010
+    "name": "Singapore Management University",
+    "Latitude": 1.2968,
+    "Longitude": 103.8522,
+    "Opening Year": 2000
   },
   {
     "name": "Ngee Ann Secondary School",
     "Latitude": 1.3545,
     "Longitude": 103.9567,
     "Opening Year": 1994
+  },
+  {
+    "name": "ITE College East",
+    "Latitude": 1.3346,
+    "Longitude": 103.955,
+    "Opening Year": 2005
   },
   {
     "name": "Dunman Secondary School",
@@ -186,16 +186,10 @@
     "Opening Year": 1995
   },
   {
-    "name": "Hai Sing Catholic School",
-    "Latitude": 1.3743,
-    "Longitude": 103.955,
-    "Opening Year": 1959
-  },
-  {
-    "name": "ITE College East",
-    "Latitude": 1.3346,
-    "Longitude": 103.955,
-    "Opening Year": 2005
+    "name": "School of Science and Technology, Singapore",
+    "Latitude": 1.3129,
+    "Longitude": 103.774,
+    "Opening Year": 2010
   },
   {
     "name": "River Valley Junior College",
@@ -210,12 +204,6 @@
     "Opening Year": 1956
   },
   {
-    "name": "NUS High School of Mathematics and Science",
-    "Latitude": 1.3062,
-    "Longitude": 103.7701,
-    "Opening Year": 2005
-  },
-  {
     "name": "Yishun Town Secondary School",
     "Latitude": 1.4323,
     "Longitude": 103.8381,
@@ -228,22 +216,16 @@
     "Opening Year": 2011
   },
   {
-    "name": "Raffles Girls' School",
-    "Latitude": 1.3422,
-    "Longitude": 103.8431,
-    "Opening Year": 1879
+    "name": "Hai Sing Catholic School",
+    "Latitude": 1.3743,
+    "Longitude": 103.955,
+    "Opening Year": 1959
   },
   {
     "name": "ITE College Central",
     "Latitude": 1.3782,
     "Longitude": 103.8565,
     "Opening Year": 2013
-  },
-  {
-    "name": "Fuhua Secondary School",
-    "Latitude": 1.347,
-    "Longitude": 103.7265,
-    "Opening Year": 2000
   },
   {
     "name": "River Valley High School",
@@ -258,10 +240,22 @@
     "Opening Year": 2004
   },
   {
+    "name": "Fuhua Secondary School",
+    "Latitude": 1.347,
+    "Longitude": 103.7265,
+    "Opening Year": 2000
+  },
+  {
     "name": "Yuan Ching Secondary School",
     "Latitude": 1.342,
     "Longitude": 103.7209,
     "Opening Year": 1978
+  },
+  {
+    "name": "Raffles Girls' School",
+    "Latitude": 1.3422,
+    "Longitude": 103.8431,
+    "Opening Year": 1879
   },
   {
     "name": "Dunman High School",
@@ -288,16 +282,16 @@
     "Opening Year": 1934
   },
   {
-    "name": "Yuhua Secondary School",
-    "Latitude": 1.3472,
-    "Longitude": 103.7227,
-    "Opening Year": 1933
-  },
-  {
     "name": "Hillgrove Secondary School",
     "Latitude": 1.3527,
     "Longitude": 103.753,
     "Opening Year": 2001
+  },
+  {
+    "name": "Yuhua Secondary School",
+    "Latitude": 1.3472,
+    "Longitude": 103.7227,
+    "Opening Year": 1933
   },
   {
     "name": "Methodist Girls' School",
@@ -318,6 +312,18 @@
     "Opening Year": 1985
   },
   {
+    "name": "NUS High School of Mathematics and Science",
+    "Latitude": 1.3062,
+    "Longitude": 103.7701,
+    "Opening Year": 2005
+  },
+  {
+    "name": "Singapore Institute of Technology",
+    "Latitude": 1.4141,
+    "Longitude": 103.9107,
+    "Opening Year": 2009
+  },
+  {
     "name": "Holy Innocents' High School",
     "Latitude": 1.3715,
     "Longitude": 103.8964,
@@ -330,22 +336,16 @@
     "Opening Year": 1984
   },
   {
-    "name": "Meridian Secondary School",
-    "Latitude": 1.3672,
-    "Longitude": 103.949,
-    "Opening Year": 1999
-  },
-  {
     "name": "Jurong Secondary School",
     "Latitude": 1.33,
     "Longitude": 103.724,
     "Opening Year": 1963
   },
   {
-    "name": "Singapore Institute of Technology",
-    "Latitude": 1.4141,
-    "Longitude": 103.9107,
-    "Opening Year": 2009
+    "name": "Meridian Secondary School",
+    "Latitude": 1.3672,
+    "Longitude": 103.949,
+    "Opening Year": 1999
   },
   {
     "name": "Nanyang Academy of Fine Arts",
@@ -355,15 +355,27 @@
   },
   {
     "name": "Temasek Junior College",
+    "Latitude": 1.3185,
+    "Longitude": 103.9356,
+    "Opening Year": 1977
+  },
+  {
+    "name": "Temasek Junior College",
     "Latitude": 1.319,
     "Longitude": 103.9331,
     "Opening Year": 1976
   },
   {
-    "name": "Temasek Junior College",
-    "Latitude": 1.3185,
-    "Longitude": 103.9356,
-    "Opening Year": 1977
+    "name": "West Spring Secondary School",
+    "Latitude": 1.3878,
+    "Longitude": 103.7601,
+    "Opening Year": 2001
+  },
+  {
+    "name": "Singapore University of Social Sciences",
+    "Latitude": 1.3288,
+    "Longitude": 103.7757,
+    "Opening Year": 2005
   },
   {
     "name": "Fairfield Methodist Secondary School",
@@ -378,10 +390,16 @@
     "Opening Year": 1966
   },
   {
-    "name": "West Spring Secondary School",
-    "Latitude": 1.3878,
-    "Longitude": 103.7601,
-    "Opening Year": 2001
+    "name": "Hwa Chong Institution",
+    "Latitude": 1.3249,
+    "Longitude": 103.8057,
+    "Opening Year": 1974
+  },
+  {
+    "name": "Hwa Chong Institution",
+    "Latitude": 1.3259,
+    "Longitude": 103.8007,
+    "Opening Year": 2005
   },
   {
     "name": "St. Patrick's School",
@@ -390,10 +408,10 @@
     "Opening Year": 1933
   },
   {
-    "name": "Zhenghua Secondary School",
-    "Latitude": 1.3884,
-    "Longitude": 103.7655,
-    "Opening Year": 1999
+    "name": "Northbrooks Secondary School",
+    "Latitude": 1.4208,
+    "Longitude": 103.8451,
+    "Opening Year": 2000
   },
   {
     "name": "Greendale Secondary School",
@@ -402,10 +420,10 @@
     "Opening Year": 2006
   },
   {
-    "name": "Northbrooks Secondary School",
-    "Latitude": 1.4208,
-    "Longitude": 103.8451,
-    "Opening Year": 2000
+    "name": "Zhenghua Secondary School",
+    "Latitude": 1.3884,
+    "Longitude": 103.7655,
+    "Opening Year": 1999
   },
   {
     "name": "Queensway Secondary School",
@@ -420,12 +438,6 @@
     "Opening Year": 1999
   },
   {
-    "name": "Singapore University of Social Sciences",
-    "Latitude": 1.3288,
-    "Longitude": 103.7757,
-    "Opening Year": 2005
-  },
-  {
     "name": "Lasalle College of the Arts",
     "Latitude": 1.3029,
     "Longitude": 103.8516,
@@ -436,18 +448,6 @@
     "Latitude": 1.3571,
     "Longitude": 103.8902,
     "Opening Year": 1910
-  },
-  {
-    "name": "Hwa Chong Institution",
-    "Latitude": 1.3259,
-    "Longitude": 103.8007,
-    "Opening Year": 2005
-  },
-  {
-    "name": "Hwa Chong Institution",
-    "Latitude": 1.3249,
-    "Longitude": 103.8057,
-    "Opening Year": 1974
   },
   {
     "name": "Singapore Chinese Girls' School",
@@ -504,12 +504,6 @@
     "Opening Year": 1911
   },
   {
-    "name": "Tanjong Katong Secondary School",
-    "Latitude": 1.3087,
-    "Longitude": 103.8972,
-    "Opening Year": 1956
-  },
-  {
     "name": "Tanglin Secondary School",
     "Latitude": 1.3097,
     "Longitude": 103.7582,
@@ -528,16 +522,16 @@
     "Opening Year": 1992
   },
   {
+    "name": "Tanjong Katong Secondary School",
+    "Latitude": 1.3087,
+    "Longitude": 103.8972,
+    "Opening Year": 1956
+  },
+  {
     "name": "Temasek Polytechnic",
     "Latitude": 1.3468,
     "Longitude": 103.9291,
     "Opening Year": 1990
-  },
-  {
-    "name": "Nan Hua High School",
-    "Latitude": 1.3081,
-    "Longitude": 103.7686,
-    "Opening Year": 1917
   },
   {
     "name": "Greenridge Secondary School",
@@ -546,22 +540,16 @@
     "Opening Year": 1964
   },
   {
+    "name": "Nan Hua High School",
+    "Latitude": 1.3081,
+    "Longitude": 103.7686,
+    "Opening Year": 1917
+  },
+  {
     "name": "Geylang Methodist School",
     "Latitude": 1.3176,
     "Longitude": 103.8827,
     "Opening Year": 1924
-  },
-  {
-    "name": "Kuo Chuan Presbyterian Secondary School",
-    "Latitude": 1.3501,
-    "Longitude": 103.8554,
-    "Opening Year": 1924
-  },
-  {
-    "name": "Hougang Secondary School",
-    "Latitude": 1.3776,
-    "Longitude": 103.8825,
-    "Opening Year": 2001
   },
   {
     "name": "Nanyang Girls' High School",
@@ -574,6 +562,12 @@
     "Latitude": 1.3275,
     "Longitude": 103.9017,
     "Opening Year": 1982
+  },
+  {
+    "name": "Kuo Chuan Presbyterian Secondary School",
+    "Latitude": 1.3501,
+    "Longitude": 103.8554,
+    "Opening Year": 1924
   },
   {
     "name": "North Vista Secondary School",
@@ -592,6 +586,12 @@
     "Latitude": 1.3866,
     "Longitude": 103.8984,
     "Opening Year": 1999
+  },
+  {
+    "name": "Hougang Secondary School",
+    "Latitude": 1.3776,
+    "Longitude": 103.8825,
+    "Opening Year": 2001
   },
   {
     "name": "Singapore Polytechnic",

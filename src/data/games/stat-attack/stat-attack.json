@@ -19,6 +19,16 @@
     "instructions": "Fight using the area, population, latitude and longitude!",
     "tags": ["Geography", "Subzones"]
   },
+  "bus-services": {
+    "title": "Bus Services of Singapore",
+    "instructions": "Fight using the distance, service number, number of stops, and area covered!",
+    "tags": ["Geography", "Bus Services"]
+  },
+  "bus-stops": {
+    "title": "Bus Stops of Singapore",
+    "instructions": "Fight using the latitude, longitude, number of services and average service number!",
+    "tags": ["Geography", "Bus Stops"]
+  },
   "countries": {
     "title": "Countries of the World",
     "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",

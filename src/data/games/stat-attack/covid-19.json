@@ -36,16 +36,16 @@
     "Recovery Rate (%)": 98.33
   },
   {
-    "name": "Liechtenstein",
-    "Confirmed Cases": 86,
-    "Death Rate (%)": 1.16,
-    "Recovery Rate (%)": 94.19
-  },
-  {
     "name": "Belgium",
     "Confirmed Cases": 66428,
     "Death Rate (%)": 14.79,
     "Recovery Rate (%)": 26.27
+  },
+  {
+    "name": "Liechtenstein",
+    "Confirmed Cases": 86,
+    "Death Rate (%)": 1.16,
+    "Recovery Rate (%)": 94.19
   },
   {
     "name": "Mauritius",
@@ -156,6 +156,12 @@
     "Recovery Rate (%)": 79.63
   },
   {
+    "name": "Antigua and Barbuda",
+    "Confirmed Cases": 86,
+    "Death Rate (%)": 3.49,
+    "Recovery Rate (%)": 75.58
+  },
+  {
     "name": "San Marino",
     "Confirmed Cases": 699,
     "Death Rate (%)": 6.01,
@@ -166,12 +172,6 @@
     "Confirmed Cases": 148,
     "Death Rate (%)": 5.41,
     "Recovery Rate (%)": 86.49
-  },
-  {
-    "name": "Antigua and Barbuda",
-    "Confirmed Cases": 86,
-    "Death Rate (%)": 3.49,
-    "Recovery Rate (%)": 75.58
   },
   {
     "name": "Honduras",

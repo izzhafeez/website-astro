@@ -1,21 +1,27 @@
 [
   {
+    "name": "newzealandgirls.co.nz",
+    "Daily Visitors (K)": 2.1,
+    "Twitter Mentions": 32,
+    "Daily Time on Site (min)": 59.28
+  },
+  {
     "name": "google.com",
     "Daily Visitors (K)": 515007.3,
     "Twitter Mentions": 11200,
     "Daily Time on Site (min)": 2.22
   },
   {
-    "name": "guyanachronicle.com",
-    "Daily Visitors (K)": 6.1,
-    "Twitter Mentions": 40,
-    "Daily Time on Site (min)": 59.02
-  },
-  {
     "name": "gulfnews.com",
     "Daily Visitors (K)": 161.3,
     "Twitter Mentions": 392000,
     "Daily Time on Site (min)": 1.08
+  },
+  {
+    "name": "guyanachronicle.com",
+    "Daily Visitors (K)": 6.1,
+    "Twitter Mentions": 40,
+    "Daily Time on Site (min)": 59.02
   },
   {
     "name": "twitter.com",
@@ -30,34 +36,28 @@
     "Daily Time on Site (min)": 8.12
   },
   {
+    "name": "ask.com",
+    "Daily Visitors (K)": 8592.6,
+    "Twitter Mentions": 146000,
+    "Daily Time on Site (min)": 5.03
+  },
+  {
     "name": "stuff.co.nz",
     "Daily Visitors (K)": 391.0,
     "Twitter Mentions": 89800,
     "Daily Time on Site (min)": 59.07
   },
   {
-    "name": "vimeo.com",
-    "Daily Visitors (K)": 6682.9,
-    "Twitter Mentions": 50800,
-    "Daily Time on Site (min)": 5.07
+    "name": "hrt.hr",
+    "Daily Visitors (K)": 46.2,
+    "Twitter Mentions": 1,
+    "Daily Time on Site (min)": 39.05
   },
   {
     "name": "jamaica-gleaner.com",
     "Daily Visitors (K)": 28.1,
     "Twitter Mentions": 1290,
     "Daily Time on Site (min)": 57.05
-  },
-  {
-    "name": "cbc.ca",
-    "Daily Visitors (K)": 1087.9,
-    "Twitter Mentions": 12,
-    "Daily Time on Site (min)": 59.03
-  },
-  {
-    "name": "zillow.com",
-    "Daily Visitors (K)": 3280.0,
-    "Twitter Mentions": 38,
-    "Daily Time on Site (min)": 59.08
   },
   {
     "name": "youtube.com",
@@ -72,6 +72,30 @@
     "Daily Time on Site (min)": 26.05
   },
   {
+    "name": "cbc.ca",
+    "Daily Visitors (K)": 1087.9,
+    "Twitter Mentions": 12,
+    "Daily Time on Site (min)": 59.03
+  },
+  {
+    "name": "metservice.com",
+    "Daily Visitors (K)": 79.6,
+    "Twitter Mentions": 12,
+    "Daily Time on Site (min)": 59.02
+  },
+  {
+    "name": "zillow.com",
+    "Daily Visitors (K)": 3280.0,
+    "Twitter Mentions": 38,
+    "Daily Time on Site (min)": 59.08
+  },
+  {
+    "name": "google.co.in",
+    "Daily Visitors (K)": 66935.5,
+    "Twitter Mentions": 733,
+    "Daily Time on Site (min)": 13.1
+  },
+  {
     "name": "dwtonline.com",
     "Daily Visitors (K)": 7.1,
     "Twitter Mentions": 2600,
@@ -84,10 +108,40 @@
     "Daily Time on Site (min)": 32.08
   },
   {
-    "name": "google.co.in",
-    "Daily Visitors (K)": 66935.5,
-    "Twitter Mentions": 733,
-    "Daily Time on Site (min)": 13.1
+    "name": "wordpress.com",
+    "Daily Visitors (K)": 24736.3,
+    "Twitter Mentions": 399000,
+    "Daily Time on Site (min)": 20.05
+  },
+  {
+    "name": "google.co.uk",
+    "Daily Visitors (K)": 27164.9,
+    "Twitter Mentions": 7,
+    "Daily Time on Site (min)": 14.05
+  },
+  {
+    "name": "vimeo.com",
+    "Daily Visitors (K)": 6682.9,
+    "Twitter Mentions": 50800,
+    "Daily Time on Site (min)": 5.07
+  },
+  {
+    "name": "facebook.com",
+    "Daily Visitors (K)": 270071.3,
+    "Twitter Mentions": 64400,
+    "Daily Time on Site (min)": 37.28
+  },
+  {
+    "name": "deviantart.com",
+    "Daily Visitors (K)": 4128.1,
+    "Twitter Mentions": 22,
+    "Daily Time on Site (min)": 59.07
+  },
+  {
+    "name": "billdesk.com",
+    "Daily Visitors (K)": 1742.7,
+    "Twitter Mentions": 311,
+    "Daily Time on Site (min)": 0.03
   },
   {
     "name": "tripadvisor.com",
@@ -102,28 +156,28 @@
     "Daily Time on Site (min)": 48.05
   },
   {
-    "name": "deviantart.com",
-    "Daily Visitors (K)": 4128.1,
-    "Twitter Mentions": 22,
-    "Daily Time on Site (min)": 59.07
+    "name": "pinterest.com",
+    "Daily Visitors (K)": 18514.1,
+    "Twitter Mentions": 801000,
+    "Daily Time on Site (min)": 49.08
   },
   {
-    "name": "wordpress.com",
-    "Daily Visitors (K)": 24736.3,
-    "Twitter Mentions": 399000,
-    "Daily Time on Site (min)": 20.05
+    "name": "trustpilot.com",
+    "Daily Visitors (K)": 425.9,
+    "Twitter Mentions": 1,
+    "Daily Time on Site (min)": 14.07
   },
   {
-    "name": "facebook.com",
-    "Daily Visitors (K)": 270071.3,
-    "Twitter Mentions": 64400,
-    "Daily Time on Site (min)": 37.28
+    "name": "bongacams.com",
+    "Daily Visitors (K)": 2789.5,
+    "Twitter Mentions": 1380,
+    "Daily Time on Site (min)": 4.05
   },
   {
-    "name": "google.co.uk",
-    "Daily Visitors (K)": 27164.9,
-    "Twitter Mentions": 7,
-    "Daily Time on Site (min)": 14.05
+    "name": "abc.net.au",
+    "Daily Visitors (K)": 915.2,
+    "Twitter Mentions": 3,
+    "Daily Time on Site (min)": 53.05
   },
   {
     "name": "nzherald.co.nz",
@@ -132,10 +186,10 @@
     "Daily Time on Site (min)": 28.07
   },
   {
-    "name": "pinterest.com",
-    "Daily Visitors (K)": 18514.1,
-    "Twitter Mentions": 801000,
-    "Daily Time on Site (min)": 49.08
+    "name": "reddit.com",
+    "Daily Visitors (K)": 60614.0,
+    "Twitter Mentions": 9140,
+    "Daily Time on Site (min)": 54.08
   },
   {
     "name": "chaturbate.com",
@@ -150,22 +204,10 @@
     "Daily Time on Site (min)": 12.07
   },
   {
-    "name": "abc.net.au",
-    "Daily Visitors (K)": 915.2,
-    "Twitter Mentions": 3,
-    "Daily Time on Site (min)": 53.05
-  },
-  {
-    "name": "bongacams.com",
-    "Daily Visitors (K)": 2789.5,
-    "Twitter Mentions": 1380,
-    "Daily Time on Site (min)": 4.05
-  },
-  {
-    "name": "td.com",
-    "Daily Visitors (K)": 770.5,
-    "Twitter Mentions": 1,
-    "Daily Time on Site (min)": 17.07
+    "name": "trinituner.com",
+    "Daily Visitors (K)": 7.4,
+    "Twitter Mentions": 150,
+    "Daily Time on Site (min)": 42.08
   },
   {
     "name": "irctc.co.in",
@@ -174,88 +216,10 @@
     "Daily Time on Site (min)": 4.13
   },
   {
-    "name": "hentai-foundry.com",
-    "Daily Visitors (K)": 205.6,
+    "name": "td.com",
+    "Daily Visitors (K)": 770.5,
     "Twitter Mentions": 1,
-    "Daily Time on Site (min)": 11.07
-  },
-  {
-    "name": "trinituner.com",
-    "Daily Visitors (K)": 7.4,
-    "Twitter Mentions": 150,
-    "Daily Time on Site (min)": 42.08
-  },
-  {
-    "name": "stackoverflow.com",
-    "Daily Visitors (K)": 18173.6,
-    "Twitter Mentions": 29900,
-    "Daily Time on Site (min)": 58.08
-  },
-  {
-    "name": "reddit.com",
-    "Daily Visitors (K)": 60614.0,
-    "Twitter Mentions": 9140,
-    "Daily Time on Site (min)": 54.08
-  },
-  {
-    "name": "united.com",
-    "Daily Visitors (K)": 749.2,
-    "Twitter Mentions": 1,
-    "Daily Time on Site (min)": 34.08
-  },
-  {
-    "name": "trinidadexpress.com",
-    "Daily Visitors (K)": 31.8,
-    "Twitter Mentions": 16,
-    "Daily Time on Site (min)": 4.15
-  },
-  {
-    "name": "republictt.com",
-    "Daily Visitors (K)": 10.4,
-    "Twitter Mentions": 3,
-    "Daily Time on Site (min)": 34.1
-  },
-  {
-    "name": "nationnews.com",
-    "Daily Visitors (K)": 7.5,
-    "Twitter Mentions": 1080,
-    "Daily Time on Site (min)": 28.32
-  },
-  {
-    "name": "rfi.fr",
-    "Daily Visitors (K)": 695.5,
-    "Twitter Mentions": 2,
-    "Daily Time on Site (min)": 16.03
-  },
-  {
-    "name": "bdnews24.com",
-    "Daily Visitors (K)": 196.5,
-    "Twitter Mentions": 77200,
-    "Daily Time on Site (min)": 36.1
-  },
-  {
-    "name": "amazon.co.uk",
-    "Daily Visitors (K)": 7031.2,
-    "Twitter Mentions": 249000,
-    "Daily Time on Site (min)": 29.07
-  },
-  {
-    "name": "linkedin.com",
-    "Daily Visitors (K)": 31156.5,
-    "Twitter Mentions": 284,
-    "Daily Time on Site (min)": 28.17
-  },
-  {
-    "name": "indeed.com",
-    "Daily Visitors (K)": 5285.0,
-    "Twitter Mentions": 108,
-    "Daily Time on Site (min)": 58.08
-  },
-  {
-    "name": "google.co.nz",
-    "Daily Visitors (K)": 1524.0,
-    "Twitter Mentions": 2,
-    "Daily Time on Site (min)": 20.05
+    "Daily Time on Site (min)": 17.07
   },
   {
     "name": "b92.net",
@@ -264,10 +228,64 @@
     "Daily Time on Site (min)": 9.12
   },
   {
-    "name": "bankofamerica.com",
-    "Daily Visitors (K)": 3249.9,
-    "Twitter Mentions": 7,
-    "Daily Time on Site (min)": 5.08
+    "name": "republictt.com",
+    "Daily Visitors (K)": 10.4,
+    "Twitter Mentions": 3,
+    "Daily Time on Site (min)": 34.1
+  },
+  {
+    "name": "imgur.com",
+    "Daily Visitors (K)": 22975.3,
+    "Twitter Mentions": 134000,
+    "Daily Time on Site (min)": 51.03
+  },
+  {
+    "name": "netflix.com",
+    "Daily Visitors (K)": 32886.5,
+    "Twitter Mentions": 5140,
+    "Daily Time on Site (min)": 28.05
+  },
+  {
+    "name": "commbank.com.au",
+    "Daily Visitors (K)": 582.7,
+    "Twitter Mentions": 6,
+    "Daily Time on Site (min)": 4.08
+  },
+  {
+    "name": "nationnews.com",
+    "Daily Visitors (K)": 7.5,
+    "Twitter Mentions": 1080,
+    "Daily Time on Site (min)": 28.32
+  },
+  {
+    "name": "stackoverflow.com",
+    "Daily Visitors (K)": 18173.6,
+    "Twitter Mentions": 29900,
+    "Daily Time on Site (min)": 58.08
+  },
+  {
+    "name": "amazon.co.uk",
+    "Daily Visitors (K)": 7031.2,
+    "Twitter Mentions": 249000,
+    "Daily Time on Site (min)": 29.07
+  },
+  {
+    "name": "nytimes.com",
+    "Daily Visitors (K)": 10267.6,
+    "Twitter Mentions": 11200,
+    "Daily Time on Site (min)": 6.05
+  },
+  {
+    "name": "google.co.nz",
+    "Daily Visitors (K)": 1524.0,
+    "Twitter Mentions": 2,
+    "Daily Time on Site (min)": 20.05
+  },
+  {
+    "name": "trinidadexpress.com",
+    "Daily Visitors (K)": 31.8,
+    "Twitter Mentions": 16,
+    "Daily Time on Site (min)": 4.15
   },
   {
     "name": "twitch.tv",
@@ -276,10 +294,16 @@
     "Daily Time on Site (min)": 56.07
   },
   {
-    "name": "salesforce.com",
-    "Daily Visitors (K)": 4476.1,
-    "Twitter Mentions": 2790,
-    "Daily Time on Site (min)": 57.23
+    "name": "indeed.com",
+    "Daily Visitors (K)": 5285.0,
+    "Twitter Mentions": 108,
+    "Daily Time on Site (min)": 58.08
+  },
+  {
+    "name": "bdnews24.com",
+    "Daily Visitors (K)": 196.5,
+    "Twitter Mentions": 77200,
+    "Daily Time on Site (min)": 36.1
   },
   {
     "name": "sana.sy",
@@ -288,10 +312,10 @@
     "Daily Time on Site (min)": 26.23
   },
   {
-    "name": "guardian.co.tt",
-    "Daily Visitors (K)": 23.4,
-    "Twitter Mentions": 14,
-    "Daily Time on Site (min)": 33.05
+    "name": "rfi.fr",
+    "Daily Visitors (K)": 695.5,
+    "Twitter Mentions": 2,
+    "Daily Time on Site (min)": 16.03
   },
   {
     "name": "basnews.com",
@@ -300,28 +324,34 @@
     "Daily Time on Site (min)": 8.08
   },
   {
+    "name": "salesforce.com",
+    "Daily Visitors (K)": 4476.1,
+    "Twitter Mentions": 2790,
+    "Daily Time on Site (min)": 57.23
+  },
+  {
     "name": "aastocks.com",
     "Daily Visitors (K)": 236.4,
     "Twitter Mentions": 3,
     "Daily Time on Site (min)": 24.1
   },
   {
-    "name": "bet365.com",
-    "Daily Visitors (K)": 8558.8,
-    "Twitter Mentions": 33100,
-    "Daily Time on Site (min)": 13.03
+    "name": "bankofamerica.com",
+    "Daily Visitors (K)": 3249.9,
+    "Twitter Mentions": 7,
+    "Daily Time on Site (min)": 5.08
   },
   {
-    "name": "hdfcbank.com",
-    "Daily Visitors (K)": 2039.8,
-    "Twitter Mentions": 28,
-    "Daily Time on Site (min)": 5.1
+    "name": "mega.nz",
+    "Daily Visitors (K)": 3942.7,
+    "Twitter Mentions": 4,
+    "Daily Time on Site (min)": 44.05
   },
   {
-    "name": "ndtv.com",
-    "Daily Visitors (K)": 2851.4,
-    "Twitter Mentions": 49,
-    "Daily Time on Site (min)": 56.05
+    "name": "reliefweb.int",
+    "Daily Visitors (K)": 82.0,
+    "Twitter Mentions": 4660,
+    "Daily Time on Site (min)": 7.05
   },
   {
     "name": "bookmyshow.com",
@@ -336,28 +366,10 @@
     "Daily Time on Site (min)": 42.03
   },
   {
-    "name": "spotify.com",
-    "Daily Visitors (K)": 6808.8,
-    "Twitter Mentions": 29,
-    "Daily Time on Site (min)": 8.05
-  },
-  {
-    "name": "smh.com.au",
-    "Daily Visitors (K)": 587.0,
-    "Twitter Mentions": 16,
-    "Daily Time on Site (min)": 54.05
-  },
-  {
-    "name": "mega.nz",
-    "Daily Visitors (K)": 3942.7,
-    "Twitter Mentions": 4,
-    "Daily Time on Site (min)": 44.05
-  },
-  {
-    "name": "rbcroyalbank.com",
-    "Daily Visitors (K)": 483.0,
-    "Twitter Mentions": 39,
-    "Daily Time on Site (min)": 6.02
+    "name": "ndtv.com",
+    "Daily Visitors (K)": 2851.4,
+    "Twitter Mentions": 49,
+    "Daily Time on Site (min)": 56.05
   },
   {
     "name": "msn.com",
@@ -366,10 +378,10 @@
     "Daily Time on Site (min)": 28.05
   },
   {
-    "name": "usps.com",
-    "Daily Visitors (K)": 2360.4,
-    "Twitter Mentions": 41,
-    "Daily Time on Site (min)": 6.05
+    "name": "smh.com.au",
+    "Daily Visitors (K)": 587.0,
+    "Twitter Mentions": 16,
+    "Daily Time on Site (min)": 54.05
   },
   {
     "name": "office.com",
@@ -378,10 +390,16 @@
     "Daily Time on Site (min)": 30.12
   },
   {
-    "name": "fiverr.com",
-    "Daily Visitors (K)": 1611.8,
-    "Twitter Mentions": 50600,
-    "Daily Time on Site (min)": 50.2
+    "name": "hdfcbank.com",
+    "Daily Visitors (K)": 2039.8,
+    "Twitter Mentions": 28,
+    "Daily Time on Site (min)": 5.1
+  },
+  {
+    "name": "flipkart.com",
+    "Daily Visitors (K)": 7833.0,
+    "Twitter Mentions": 499,
+    "Daily Time on Site (min)": 7.15
   },
   {
     "name": "jamaicaobserver.com",
@@ -390,10 +408,10 @@
     "Daily Time on Site (min)": 30.07
   },
   {
-    "name": "youporn.com",
-    "Daily Visitors (K)": 3155.6,
-    "Twitter Mentions": 407,
-    "Daily Time on Site (min)": 54.1
+    "name": "github.com",
+    "Daily Visitors (K)": 15422.9,
+    "Twitter Mentions": 1310,
+    "Daily Time on Site (min)": 11.1
   },
   {
     "name": "clasificadosonline.com",
@@ -402,34 +420,22 @@
     "Daily Time on Site (min)": 22.48
   },
   {
-    "name": "tvnz.co.nz",
-    "Daily Visitors (K)": 67.5,
-    "Twitter Mentions": 2690,
-    "Daily Time on Site (min)": 26.03
-  },
-  {
     "name": "manheim.com",
     "Daily Visitors (K)": 43.4,
     "Twitter Mentions": 5,
     "Daily Time on Site (min)": 30.22
   },
   {
-    "name": "prezi.com",
-    "Daily Visitors (K)": 2551.3,
-    "Twitter Mentions": 36300,
-    "Daily Time on Site (min)": 49.03
+    "name": "rbcroyalbank.com",
+    "Daily Visitors (K)": 483.0,
+    "Twitter Mentions": 39,
+    "Daily Time on Site (min)": 6.02
   },
   {
-    "name": "givemesport.com",
-    "Daily Visitors (K)": 310.9,
-    "Twitter Mentions": 4,
-    "Daily Time on Site (min)": 23.03
-  },
-  {
-    "name": "hi5.com",
-    "Daily Visitors (K)": 200.5,
-    "Twitter Mentions": 575,
-    "Daily Time on Site (min)": 49.22
+    "name": "fiverr.com",
+    "Daily Visitors (K)": 1611.8,
+    "Twitter Mentions": 50600,
+    "Daily Time on Site (min)": 50.2
   },
   {
     "name": "kijiji.ca",
@@ -438,64 +444,16 @@
     "Daily Time on Site (min)": 35.12
   },
   {
-    "name": "huffingtonpost.com",
-    "Daily Visitors (K)": 4656.6,
-    "Twitter Mentions": 84,
-    "Daily Time on Site (min)": 9.03
+    "name": "youporn.com",
+    "Daily Visitors (K)": 3155.6,
+    "Twitter Mentions": 407,
+    "Daily Time on Site (min)": 54.1
   },
   {
-    "name": "nrl.com",
-    "Daily Visitors (K)": 89.8,
-    "Twitter Mentions": 5750,
-    "Daily Time on Site (min)": 25.07
-  },
-  {
-    "name": "bbc.co.uk",
-    "Daily Visitors (K)": 9240.3,
-    "Twitter Mentions": 21800,
-    "Daily Time on Site (min)": 22.05
-  },
-  {
-    "name": "tumblr.com",
-    "Daily Visitors (K)": 17475.8,
-    "Twitter Mentions": 5430,
-    "Daily Time on Site (min)": 52.07
-  },
-  {
-    "name": "soccerladuma.co.za",
-    "Daily Visitors (K)": 61.9,
-    "Twitter Mentions": 5,
-    "Daily Time on Site (min)": 11.12
-  },
-  {
-    "name": "adobe.com",
-    "Daily Visitors (K)": 13496.8,
-    "Twitter Mentions": 18,
-    "Daily Time on Site (min)": 39.05
-  },
-  {
-    "name": "ebay.co.uk",
-    "Daily Visitors (K)": 4546.9,
-    "Twitter Mentions": 19,
-    "Daily Time on Site (min)": 49.12
-  },
-  {
-    "name": "hp.com",
-    "Daily Visitors (K)": 2298.7,
-    "Twitter Mentions": 15,
-    "Daily Time on Site (min)": 49.05
-  },
-  {
-    "name": "livejasmin.com",
-    "Daily Visitors (K)": 6386.1,
-    "Twitter Mentions": 70,
-    "Daily Time on Site (min)": 11.03
-  },
-  {
-    "name": "ebay.com",
-    "Daily Visitors (K)": 17678.9,
-    "Twitter Mentions": 1390,
-    "Daily Time on Site (min)": 33.15
+    "name": "givemesport.com",
+    "Daily Visitors (K)": 310.9,
+    "Twitter Mentions": 4,
+    "Daily Time on Site (min)": 23.03
   },
   {
     "name": "bidorbuy.co.za",
@@ -504,16 +462,70 @@
     "Daily Time on Site (min)": 34.17
   },
   {
+    "name": "nrl.com",
+    "Daily Visitors (K)": 89.8,
+    "Twitter Mentions": 5750,
+    "Daily Time on Site (min)": 25.07
+  },
+  {
+    "name": "usps.com",
+    "Daily Visitors (K)": 2360.4,
+    "Twitter Mentions": 41,
+    "Daily Time on Site (min)": 6.05
+  },
+  {
+    "name": "spotify.com",
+    "Daily Visitors (K)": 6808.8,
+    "Twitter Mentions": 29,
+    "Daily Time on Site (min)": 8.05
+  },
+  {
+    "name": "soccerladuma.co.za",
+    "Daily Visitors (K)": 61.9,
+    "Twitter Mentions": 5,
+    "Daily Time on Site (min)": 11.12
+  },
+  {
+    "name": "tumblr.com",
+    "Daily Visitors (K)": 17475.8,
+    "Twitter Mentions": 5430,
+    "Daily Time on Site (min)": 52.07
+  },
+  {
+    "name": "prezi.com",
+    "Daily Visitors (K)": 2551.3,
+    "Twitter Mentions": 36300,
+    "Daily Time on Site (min)": 49.03
+  },
+  {
+    "name": "paypal.com",
+    "Daily Visitors (K)": 12930.9,
+    "Twitter Mentions": 524,
+    "Daily Time on Site (min)": 54.07
+  },
+  {
     "name": "airasia.com",
     "Daily Visitors (K)": 575.6,
     "Twitter Mentions": 20100,
     "Daily Time on Site (min)": 42.12
   },
   {
-    "name": "telegraph.co.uk",
-    "Daily Visitors (K)": 3681.5,
-    "Twitter Mentions": 1200,
-    "Daily Time on Site (min)": 10.03
+    "name": "ebay.com",
+    "Daily Visitors (K)": 17678.9,
+    "Twitter Mentions": 1390,
+    "Daily Time on Site (min)": 33.15
+  },
+  {
+    "name": "adobe.com",
+    "Daily Visitors (K)": 13496.8,
+    "Twitter Mentions": 18,
+    "Daily Time on Site (min)": 39.05
+  },
+  {
+    "name": "hi5.com",
+    "Daily Visitors (K)": 200.5,
+    "Twitter Mentions": 575,
+    "Daily Time on Site (min)": 49.22
   },
   {
     "name": "etisalat.ae",
@@ -522,16 +534,28 @@
     "Daily Time on Site (min)": 31.08
   },
   {
-    "name": "seek.com.au",
-    "Daily Visitors (K)": 300.0,
-    "Twitter Mentions": 13,
-    "Daily Time on Site (min)": 48.1
-  },
-  {
     "name": "imdb.com",
     "Daily Visitors (K)": 16539.2,
     "Twitter Mentions": 1180,
     "Daily Time on Site (min)": 36.05
+  },
+  {
+    "name": "hp.com",
+    "Daily Visitors (K)": 2298.7,
+    "Twitter Mentions": 15,
+    "Daily Time on Site (min)": 49.05
+  },
+  {
+    "name": "ebay.co.uk",
+    "Daily Visitors (K)": 4546.9,
+    "Twitter Mentions": 19,
+    "Daily Time on Site (min)": 49.12
+  },
+  {
+    "name": "apple.com",
+    "Daily Visitors (K)": 15494.2,
+    "Twitter Mentions": 1770,
+    "Daily Time on Site (min)": 31.05
   },
   {
     "name": "dsebd.org",
@@ -540,16 +564,16 @@
     "Daily Time on Site (min)": 28.2
   },
   {
-    "name": "xvideos.com",
-    "Daily Visitors (K)": 14858.1,
-    "Twitter Mentions": 1320,
-    "Daily Time on Site (min)": 42.22
+    "name": "seek.com.au",
+    "Daily Visitors (K)": 300.0,
+    "Twitter Mentions": 13,
+    "Daily Time on Site (min)": 48.1
   },
   {
-    "name": "dropbox.com",
-    "Daily Visitors (K)": 11247.9,
-    "Twitter Mentions": 61,
-    "Daily Time on Site (min)": 31.07
+    "name": "huffingtonpost.com",
+    "Daily Visitors (K)": 4656.6,
+    "Twitter Mentions": 84,
+    "Daily Time on Site (min)": 9.03
   },
   {
     "name": "indiansinkuwait.com",
@@ -558,28 +582,28 @@
     "Daily Time on Site (min)": 30.08
   },
   {
-    "name": "booking.com",
-    "Daily Visitors (K)": 7099.5,
-    "Twitter Mentions": 1300,
-    "Daily Time on Site (min)": 13.12
+    "name": "xnxx.com",
+    "Daily Visitors (K)": 6092.4,
+    "Twitter Mentions": 11900,
+    "Daily Time on Site (min)": 39.22
   },
   {
-    "name": "cnet.com",
-    "Daily Visitors (K)": 6369.5,
-    "Twitter Mentions": 1300,
-    "Daily Time on Site (min)": 13.03
+    "name": "livejasmin.com",
+    "Daily Visitors (K)": 6386.1,
+    "Twitter Mentions": 70,
+    "Daily Time on Site (min)": 11.03
   },
   {
-    "name": "espn.com",
-    "Daily Visitors (K)": 8122.2,
-    "Twitter Mentions": 477,
-    "Daily Time on Site (min)": 16.07
+    "name": "news.com.au",
+    "Daily Visitors (K)": 931.2,
+    "Twitter Mentions": 275,
+    "Daily Time on Site (min)": 50.1
   },
   {
-    "name": "vice.com",
-    "Daily Visitors (K)": 2896.5,
-    "Twitter Mentions": 9,
-    "Daily Time on Site (min)": 17.03
+    "name": "xvideos.com",
+    "Daily Visitors (K)": 14858.1,
+    "Twitter Mentions": 1320,
+    "Daily Time on Site (min)": 42.22
   },
   {
     "name": "nbg.gr",
@@ -588,40 +612,22 @@
     "Daily Time on Site (min)": 45.08
   },
   {
-    "name": "xnxx.com",
-    "Daily Visitors (K)": 6092.4,
-    "Twitter Mentions": 11900,
-    "Daily Time on Site (min)": 39.22
+    "name": "telegraph.co.uk",
+    "Daily Visitors (K)": 3681.5,
+    "Twitter Mentions": 1200,
+    "Daily Time on Site (min)": 10.03
   },
   {
-    "name": "straitstimes.com",
-    "Daily Visitors (K)": 301.9,
-    "Twitter Mentions": 11,
-    "Daily Time on Site (min)": 11.05
+    "name": "vice.com",
+    "Daily Visitors (K)": 2896.5,
+    "Twitter Mentions": 9,
+    "Daily Time on Site (min)": 17.03
   },
   {
-    "name": "avg.com",
-    "Daily Visitors (K)": 2187.2,
-    "Twitter Mentions": 26,
-    "Daily Time on Site (min)": 49.02
-  },
-  {
-    "name": "wellsfargo.com",
-    "Daily Visitors (K)": 3135.2,
-    "Twitter Mentions": 10,
-    "Daily Time on Site (min)": 18.08
-  },
-  {
-    "name": "globes.co.il",
-    "Daily Visitors (K)": 84.5,
-    "Twitter Mentions": 20,
-    "Daily Time on Site (min)": 25.07
-  },
-  {
-    "name": "slideshare.net",
-    "Daily Visitors (K)": 6883.9,
-    "Twitter Mentions": 75,
-    "Daily Time on Site (min)": 49.03
+    "name": "qatarairways.com",
+    "Daily Visitors (K)": 409.7,
+    "Twitter Mentions": 8,
+    "Daily Time on Site (min)": 20.08
   },
   {
     "name": "livescore.com",
@@ -630,10 +636,52 @@
     "Daily Time on Site (min)": 38.07
   },
   {
+    "name": "mozilla.org",
+    "Daily Visitors (K)": 7340.4,
+    "Twitter Mentions": 696,
+    "Daily Time on Site (min)": 13.03
+  },
+  {
+    "name": "dropbox.com",
+    "Daily Visitors (K)": 11247.9,
+    "Twitter Mentions": 61,
+    "Daily Time on Site (min)": 31.07
+  },
+  {
+    "name": "wellsfargo.com",
+    "Daily Visitors (K)": 3135.2,
+    "Twitter Mentions": 10,
+    "Daily Time on Site (min)": 18.08
+  },
+  {
+    "name": "avg.com",
+    "Daily Visitors (K)": 2187.2,
+    "Twitter Mentions": 26,
+    "Daily Time on Site (min)": 49.02
+  },
+  {
+    "name": "espn.com",
+    "Daily Visitors (K)": 8122.2,
+    "Twitter Mentions": 477,
+    "Daily Time on Site (min)": 16.07
+  },
+  {
     "name": "springer.com",
     "Daily Visitors (K)": 1862.0,
     "Twitter Mentions": 11,
     "Daily Time on Site (min)": 18.03
+  },
+  {
+    "name": "cnet.com",
+    "Daily Visitors (K)": 6369.5,
+    "Twitter Mentions": 1300,
+    "Daily Time on Site (min)": 13.03
+  },
+  {
+    "name": "booking.com",
+    "Daily Visitors (K)": 7099.5,
+    "Twitter Mentions": 1300,
+    "Daily Time on Site (min)": 13.12
   },
   {
     "name": "godaddy.com",
@@ -648,22 +696,16 @@
     "Daily Time on Site (min)": 17.07
   },
   {
+    "name": "slideshare.net",
+    "Daily Visitors (K)": 6883.9,
+    "Twitter Mentions": 75,
+    "Daily Time on Site (min)": 49.03
+  },
+  {
     "name": "diplomatie.gouv.fr",
     "Daily Visitors (K)": 154.4,
     "Twitter Mentions": 61,
     "Daily Time on Site (min)": 15.08
-  },
-  {
-    "name": "state.gov",
-    "Daily Visitors (K)": 895.3,
-    "Twitter Mentions": 1670,
-    "Daily Time on Site (min)": 47.15
-  },
-  {
-    "name": "wmtransfer.com",
-    "Daily Visitors (K)": 294.4,
-    "Twitter Mentions": 117,
-    "Daily Time on Site (min)": 46.03
   },
   {
     "name": "ubs.com",
@@ -672,16 +714,10 @@
     "Daily Time on Site (min)": 35.1
   },
   {
-    "name": "zougla.gr",
-    "Daily Visitors (K)": 183.6,
-    "Twitter Mentions": 13,
-    "Daily Time on Site (min)": 20.1
-  },
-  {
-    "name": "fnb.co.za",
-    "Daily Visitors (K)": 405.2,
-    "Twitter Mentions": 68,
-    "Daily Time on Site (min)": 46.1
+    "name": "standardbank.co.za",
+    "Daily Visitors (K)": 199.4,
+    "Twitter Mentions": 65,
+    "Daily Time on Site (min)": 44.08
   },
   {
     "name": "khaleejtimes.com",
@@ -690,28 +726,28 @@
     "Daily Time on Site (min)": 37.07
   },
   {
-    "name": "chase.com",
-    "Daily Visitors (K)": 5291.4,
-    "Twitter Mentions": 76,
-    "Daily Time on Site (min)": 47.07
+    "name": "zougla.gr",
+    "Daily Visitors (K)": 183.6,
+    "Twitter Mentions": 13,
+    "Daily Time on Site (min)": 20.1
   },
   {
-    "name": "blogger.com",
-    "Daily Visitors (K)": 7260.2,
-    "Twitter Mentions": 180,
-    "Daily Time on Site (min)": 39.23
+    "name": "wmtransfer.com",
+    "Daily Visitors (K)": 294.4,
+    "Twitter Mentions": 117,
+    "Daily Time on Site (min)": 46.03
   },
   {
-    "name": "wordreference.com",
-    "Daily Visitors (K)": 3280.9,
-    "Twitter Mentions": 3710,
-    "Daily Time on Site (min)": 35.08
+    "name": "state.gov",
+    "Daily Visitors (K)": 895.3,
+    "Twitter Mentions": 1670,
+    "Daily Time on Site (min)": 47.15
   },
   {
-    "name": "independent.co.uk",
-    "Daily Visitors (K)": 3260.1,
-    "Twitter Mentions": 98,
-    "Daily Time on Site (min)": 14.03
+    "name": "fnb.co.za",
+    "Daily Visitors (K)": 405.2,
+    "Twitter Mentions": 68,
+    "Daily Time on Site (min)": 46.1
   },
   {
     "name": "rediff.com",
@@ -726,16 +762,16 @@
     "Daily Time on Site (min)": 34.18
   },
   {
-    "name": "4chan.org",
-    "Daily Visitors (K)": 3502.3,
-    "Twitter Mentions": 352,
-    "Daily Time on Site (min)": 46.1
+    "name": "wordreference.com",
+    "Daily Visitors (K)": 3280.9,
+    "Twitter Mentions": 3710,
+    "Daily Time on Site (min)": 35.08
   },
   {
-    "name": "weather.com",
-    "Daily Visitors (K)": 4366.2,
-    "Twitter Mentions": 2190,
-    "Daily Time on Site (min)": 25.03
+    "name": "chase.com",
+    "Daily Visitors (K)": 5291.4,
+    "Twitter Mentions": 76,
+    "Daily Time on Site (min)": 47.07
   },
   {
     "name": "dailymail.co.uk",
@@ -744,22 +780,40 @@
     "Daily Time on Site (min)": 25.07
   },
   {
-    "name": "zomato.com",
-    "Daily Visitors (K)": 907.6,
-    "Twitter Mentions": 1410,
-    "Daily Time on Site (min)": 19.08
-  },
-  {
-    "name": "indiatimes.com",
-    "Daily Visitors (K)": 4380.9,
-    "Twitter Mentions": 87,
-    "Daily Time on Site (min)": 16.07
+    "name": "weather.com",
+    "Daily Visitors (K)": 4366.2,
+    "Twitter Mentions": 2190,
+    "Daily Time on Site (min)": 25.03
   },
   {
     "name": "nab.com.au",
     "Daily Visitors (K)": 267.6,
     "Twitter Mentions": 16,
     "Daily Time on Site (min)": 30.1
+  },
+  {
+    "name": "blogger.com",
+    "Daily Visitors (K)": 7260.2,
+    "Twitter Mentions": 180,
+    "Daily Time on Site (min)": 39.23
+  },
+  {
+    "name": "independent.co.uk",
+    "Daily Visitors (K)": 3260.1,
+    "Twitter Mentions": 98,
+    "Daily Time on Site (min)": 14.03
+  },
+  {
+    "name": "zomato.com",
+    "Daily Visitors (K)": 907.6,
+    "Twitter Mentions": 1410,
+    "Daily Time on Site (min)": 19.08
+  },
+  {
+    "name": "4chan.org",
+    "Daily Visitors (K)": 3502.3,
+    "Twitter Mentions": 352,
+    "Daily Time on Site (min)": 46.1
   },
   {
     "name": "azlyrics.com",
@@ -774,16 +828,16 @@
     "Daily Time on Site (min)": 29.17
   },
   {
+    "name": "indiatimes.com",
+    "Daily Visitors (K)": 4380.9,
+    "Twitter Mentions": 87,
+    "Daily Time on Site (min)": 16.07
+  },
+  {
     "name": "icicibank.com",
     "Daily Visitors (K)": 1498.1,
     "Twitter Mentions": 285,
     "Daily Time on Site (min)": 43.1
-  },
-  {
-    "name": "bayt.com",
-    "Daily Visitors (K)": 445.3,
-    "Twitter Mentions": 26,
-    "Daily Time on Site (min)": 40.05
   },
   {
     "name": "mirror.co.uk",
@@ -810,16 +864,16 @@
     "Daily Time on Site (min)": 22.07
   },
   {
+    "name": "jw.org",
+    "Daily Visitors (K)": 991.9,
+    "Twitter Mentions": 36,
+    "Daily Time on Site (min)": 25.12
+  },
+  {
     "name": "scribd.com",
     "Daily Visitors (K)": 3589.4,
     "Twitter Mentions": 235,
     "Daily Time on Site (min)": 40.03
-  },
-  {
-    "name": "tradedoubler.com",
-    "Daily Visitors (K)": 754.3,
-    "Twitter Mentions": 90,
-    "Daily Time on Site (min)": 22.02
   },
   {
     "name": "who.int",
@@ -832,6 +886,12 @@
     "Daily Visitors (K)": 1264.1,
     "Twitter Mentions": 41,
     "Daily Time on Site (min)": 25.05
+  },
+  {
+    "name": "tradedoubler.com",
+    "Daily Visitors (K)": 754.3,
+    "Twitter Mentions": 90,
+    "Daily Time on Site (min)": 22.02
   },
   {
     "name": "skysports.com",

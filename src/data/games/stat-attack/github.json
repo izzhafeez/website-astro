@@ -1,54 +1,5 @@
 [
   {
-    "name": "octocat/Spoon-Knife",
-    "No. of Forks": 142000,
-    "No. of Stars": 12200,
-    "No. of Commits": 3,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "jtleek/datasharing",
-    "No. of Forks": 243000,
-    "No. of Stars": 6500,
-    "No. of Commits": 29,
-    "No. of Contributors": 10
-  },
-  {
-    "name": "torvalds/linux",
-    "No. of Forks": 51800,
-    "No. of Stars": 170000,
-    "No. of Commits": 1266245,
-    "No. of Contributors": 15180
-  },
-  {
-    "name": "rails/rails",
-    "No. of Forks": 21300,
-    "No. of Stars": 54900,
-    "No. of Commits": 91400,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "tensorflow/tensorflow",
-    "No. of Forks": 73900,
-    "No. of Stars": 182000,
-    "No. of Commits": 163455,
-    "No. of Contributors": 3540
-  },
-  {
-    "name": "freeCodeCamp/freeCodeCamp",
-    "No. of Forks": 35400,
-    "No. of Stars": 388000,
-    "No. of Commits": 35334,
-    "No. of Contributors": 4999
-  },
-  {
-    "name": "gdagstn/alamak",
-    "No. of Forks": 0,
-    "No. of Stars": 13,
-    "No. of Commits": 32,
-    "No. of Contributors": 1
-  },
-  {
     "name": "garyyeh1/uncle-roger-favourite-recipes",
     "No. of Forks": 0,
     "No. of Stars": 0,
@@ -56,32 +7,18 @@
     "No. of Contributors": 2
   },
   {
-    "name": "wention/BeautifulSoup4",
-    "No. of Forks": 34,
-    "No. of Stars": 95,
-    "No. of Commits": 1,
+    "name": "jasonchristopher21/DiscountLah",
+    "No. of Forks": 0,
+    "No. of Stars": 1,
+    "No. of Commits": 62,
     "No. of Contributors": 1
   },
   {
-    "name": "rust-lang/rust",
-    "No. of Forks": 12000,
-    "No. of Stars": 93000,
-    "No. of Commits": 253549,
-    "No. of Contributors": 4907
-  },
-  {
-    "name": "facebook/react",
-    "No. of Forks": 45300,
-    "No. of Stars": 222000,
-    "No. of Commits": 16729,
-    "No. of Contributors": 1662
-  },
-  {
-    "name": "github/gitignore",
-    "No. of Forks": 83300,
-    "No. of Stars": 158000,
-    "No. of Commits": 3528,
-    "No. of Contributors": 1253
+    "name": "izzhafeez/website-astro",
+    "No. of Forks": 0,
+    "No. of Stars": 1,
+    "No. of Commits": 812,
+    "No. of Contributors": 1
   },
   {
     "name": "TeemSucks/roblox-free-limited-sniper",
@@ -91,143 +28,10 @@
     "No. of Contributors": 1
   },
   {
-    "name": "jasonchristopher21/DiscountLah",
+    "name": "gdagstn/alamak",
     "No. of Forks": 0,
-    "No. of Stars": 1,
-    "No. of Commits": 62,
-    "No. of Contributors": 2
-  },
-  {
-    "name": "ChitChatChampion/chit-chat-champion",
-    "No. of Forks": 2,
-    "No. of Stars": 0,
-    "No. of Commits": 574,
-    "No. of Contributors": 4
-  },
-  {
-    "name": "jestjs/jest",
-    "No. of Forks": 6300,
-    "No. of Stars": 43600,
-    "No. of Commits": 7173,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "langchain-ai/langchain",
-    "No. of Forks": 12800,
-    "No. of Stars": 83300,
-    "No. of Commits": 8957,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "izzhafeez/website-astro",
-    "No. of Forks": 0,
-    "No. of Stars": 1,
-    "No. of Commits": 955,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "python-pillow/Pillow",
-    "No. of Forks": 2100,
-    "No. of Stars": 11700,
-    "No. of Commits": 17738,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "nodejs/node",
-    "No. of Forks": 27900,
-    "No. of Stars": 104000,
-    "No. of Commits": 41170,
-    "No. of Contributors": 3414
-  },
-  {
-    "name": "labuladong/fucking-algorithm",
-    "No. of Forks": 23100,
-    "No. of Stars": 123000,
-    "No. of Commits": 487,
-    "No. of Contributors": 110
-  },
-  {
-    "name": "apple/swift",
-    "No. of Forks": 10200,
-    "No. of Stars": 65900,
-    "No. of Commits": 167470,
-    "No. of Contributors": 1082
-  },
-  {
-    "name": "python/cpython",
-    "No. of Forks": 28900,
-    "No. of Stars": 59600,
-    "No. of Commits": 121819,
-    "No. of Contributors": 2671
-  },
-  {
-    "name": "microsoft/vscode",
-    "No. of Forks": 27600,
-    "No. of Stars": 158000,
-    "No. of Commits": 121194,
-    "No. of Contributors": 2028
-  },
-  {
-    "name": "Cbeck527/is-my-train-fucked",
-    "No. of Forks": 1,
-    "No. of Stars": 15,
-    "No. of Commits": 38,
-    "No. of Contributors": 2
-  },
-  {
-    "name": "blender/blender",
-    "No. of Forks": 1800,
-    "No. of Stars": 11500,
-    "No. of Commits": 135523,
-    "No. of Contributors": 266
-  },
-  {
-    "name": "flutter/flutter",
-    "No. of Forks": 26600,
-    "No. of Stars": 162000,
-    "No. of Commits": 40528,
-    "No. of Contributors": 1351
-  },
-  {
-    "name": "vercel/next.js",
-    "No. of Forks": 25800,
-    "No. of Stars": 121000,
-    "No. of Commits": 20672,
-    "No. of Contributors": 3263
-  },
-  {
-    "name": "celery/celery",
-    "No. of Forks": 4600,
-    "No. of Stars": 23500,
-    "No. of Commits": 12517,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "opencv/opencv",
-    "No. of Forks": 55600,
-    "No. of Stars": 75600,
-    "No. of Commits": 34121,
-    "No. of Contributors": 1579
-  },
-  {
-    "name": "apachecn/sicp-js-zh",
-    "No. of Forks": 12,
-    "No. of Stars": 127,
-    "No. of Commits": 34,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "AY2223S2-CS2103T-W14-2/tp (EduMate)",
-    "No. of Forks": 5,
-    "No. of Stars": 1,
-    "No. of Commits": 2817,
-    "No. of Contributors": 4
-  },
-  {
-    "name": "facebook/create-react-app",
-    "No. of Forks": 26600,
-    "No. of Stars": 102000,
-    "No. of Commits": 2802,
+    "No. of Stars": 13,
+    "No. of Commits": 32,
     "No. of Contributors": 1
   },
   {
@@ -238,102 +42,39 @@
     "No. of Contributors": 3
   },
   {
-    "name": "izzhafeez/NoteTogether",
+    "name": "Cbeck527/is-my-train-fucked",
+    "No. of Forks": 1,
+    "No. of Stars": 15,
+    "No. of Commits": 38,
+    "No. of Contributors": 2
+  },
+  {
+    "name": "ChitChatChampion/chit-chat-champion",
+    "No. of Forks": 2,
+    "No. of Stars": 0,
+    "No. of Commits": 574,
+    "No. of Contributors": 4
+  },
+  {
+    "name": "shotnothing/NoteTogether",
     "No. of Forks": 2,
     "No. of Stars": 4,
     "No. of Commits": 368,
     "No. of Contributors": 2
   },
   {
-    "name": "pytorch/pytorch",
-    "No. of Forks": 21100,
-    "No. of Stars": 77900,
-    "No. of Commits": 72312,
-    "No. of Contributors": 3261
+    "name": "PhoenXHO/UwU",
+    "No. of Forks": 3,
+    "No. of Stars": 6,
+    "No. of Commits": 29,
+    "No. of Contributors": 2
   },
   {
-    "name": "huggingface/transformers",
-    "No. of Forks": 24800,
-    "No. of Stars": 125000,
-    "No. of Commits": 15726,
-    "No. of Contributors": 2461
-  },
-  {
-    "name": "gradle/gradle",
-    "No. of Forks": 4500,
-    "No. of Stars": 16100,
-    "No. of Commits": 114878,
-    "No. of Contributors": 723
-  },
-  {
-    "name": "mrdoob/three.js",
-    "No. of Forks": 35100,
-    "No. of Stars": 98900,
-    "No. of Commits": 43183,
-    "No. of Contributors": 1879
-  },
-  {
-    "name": "pandas-dev/pandas",
-    "No. of Forks": 17300,
-    "No. of Stars": 42000,
-    "No. of Commits": 34829,
-    "No. of Contributors": 3195
-  },
-  {
-    "name": "facebook/react-native",
-    "No. of Forks": 23900,
-    "No. of Stars": 116000,
-    "No. of Commits": 31475,
-    "No. of Contributors": 2631
-  },
-  {
-    "name": "bitcoin/bitcoin",
-    "No. of Forks": 35300,
-    "No. of Stars": 76000,
-    "No. of Commits": 40783,
-    "No. of Contributors": 952
-  },
-  {
-    "name": "golang/go",
-    "No. of Forks": 17200,
-    "No. of Stars": 120000,
-    "No. of Commits": 59815,
-    "No. of Contributors": 2075
-  },
-  {
-    "name": "facebook/docusaurus",
-    "No. of Forks": 7900,
-    "No. of Stars": 52800,
-    "No. of Commits": 5914,
+    "name": "AY2223S2-CS2103T-W14-2/tp",
+    "No. of Forks": 5,
+    "No. of Stars": 1,
+    "No. of Commits": 2817,
     "No. of Contributors": 1
-  },
-  {
-    "name": "django/django",
-    "No. of Forks": 30800,
-    "No. of Stars": 76800,
-    "No. of Commits": 32586,
-    "No. of Contributors": 2515
-  },
-  {
-    "name": "JetBrains/kotlin",
-    "No. of Forks": 5600,
-    "No. of Stars": 47500,
-    "No. of Commits": 112873,
-    "No. of Contributors": 669
-  },
-  {
-    "name": "expressjs/express",
-    "No. of Forks": 13700,
-    "No. of Stars": 63800,
-    "No. of Commits": 5830,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "samuelmarina/is-even",
-    "No. of Forks": 198,
-    "No. of Stars": 1800,
-    "No. of Commits": 39,
-    "No. of Contributors": 10
   },
   {
     "name": "reverendrainwater/PenisParser",
@@ -341,34 +82,6 @@
     "No. of Stars": 43,
     "No. of Commits": 161,
     "No. of Contributors": 22
-  },
-  {
-    "name": "mattdiamond/fuckitjs",
-    "No. of Forks": 91,
-    "No. of Stars": 4100,
-    "No. of Commits": 41,
-    "No. of Contributors": 4
-  },
-  {
-    "name": "nusskylab/nusskylab",
-    "No. of Forks": 35,
-    "No. of Stars": 14,
-    "No. of Commits": 1089,
-    "No. of Contributors": 35
-  },
-  {
-    "name": "godotengine/godot",
-    "No. of Forks": 18200,
-    "No. of Stars": 83500,
-    "No. of Commits": 63412,
-    "No. of Contributors": 2478
-  },
-  {
-    "name": "ruby/ruby",
-    "No. of Forks": 5300,
-    "No. of Stars": 21500,
-    "No. of Commits": 85188,
-    "No. of Contributors": 793
   },
   {
     "name": "Beebeeoii/lominus",
@@ -385,53 +98,11 @@
     "No. of Contributors": 4
   },
   {
-    "name": "apache/spark",
-    "No. of Forks": 27900,
-    "No. of Stars": 38400,
-    "No. of Commits": 40716,
-    "No. of Contributors": 2076
-  },
-  {
-    "name": "mongodb/mongo",
-    "No. of Forks": 5500,
-    "No. of Stars": 25400,
-    "No. of Commits": 80784,
-    "No. of Contributors": 735
-  },
-  {
-    "name": "d3/d3",
-    "No. of Forks": 22900,
-    "No. of Stars": 108000,
-    "No. of Commits": 4491,
-    "No. of Contributors": 134
-  },
-  {
-    "name": "git/git",
-    "No. of Forks": 25100,
-    "No. of Stars": 50000,
-    "No. of Commits": 73024,
-    "No. of Contributors": 1677
-  },
-  {
-    "name": "openjdk/jdk",
-    "No. of Forks": 5200,
-    "No. of Stars": 18400,
-    "No. of Commits": 78205,
-    "No. of Contributors": 763
-  },
-  {
-    "name": "electron/electron",
-    "No. of Forks": 14900,
-    "No. of Stars": 112000,
-    "No. of Commits": 28123,
-    "No. of Contributors": 1264
-  },
-  {
-    "name": "kragniz/json-sempai",
-    "No. of Forks": 59,
-    "No. of Stars": 1300,
-    "No. of Commits": 86,
-    "No. of Contributors": 6
+    "name": "apachecn/sicp-js-zh",
+    "No. of Forks": 12,
+    "No. of Stars": 127,
+    "No. of Commits": 34,
+    "No. of Contributors": 1
   },
   {
     "name": "jovyntls/cheatsheets",
@@ -441,74 +112,18 @@
     "No. of Contributors": 3
   },
   {
-    "name": "lhartikk/ArnoldC",
-    "No. of Forks": 292,
-    "No. of Stars": 6700,
-    "No. of Commits": 70,
-    "No. of Contributors": 12
-  },
-  {
-    "name": "vuejs/core",
-    "No. of Forks": 7800,
-    "No. of Stars": 44600,
-    "No. of Commits": 5756,
+    "name": "wention/BeautifulSoup4",
+    "No. of Forks": 34,
+    "No. of Stars": 95,
+    "No. of Commits": 1,
     "No. of Contributors": 1
   },
   {
-    "name": "postgres/postgres",
-    "No. of Forks": 4300,
-    "No. of Stars": 14700,
-    "No. of Commits": 58485,
-    "No. of Contributors": 54
-  },
-  {
-    "name": "angular/angular",
-    "No. of Forks": 24600,
-    "No. of Stars": 94500,
-    "No. of Commits": 30022,
-    "No. of Contributors": 1901
-  },
-  {
-    "name": "fabianishere/brainfuck",
-    "No. of Forks": 72,
-    "No. of Stars": 514,
-    "No. of Commits": 241,
-    "No. of Contributors": 13
-  },
-  {
-    "name": "nusmodifications/nusmods",
-    "No. of Forks": 268,
-    "No. of Stars": 547,
-    "No. of Commits": 4372,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "reposense/RepoSense",
-    "No. of Forks": 153,
-    "No. of Stars": 229,
-    "No. of Commits": 1015,
-    "No. of Contributors": 1
-  },
-  {
-    "name": "microsoft/TypeScript",
-    "No. of Forks": 12200,
-    "No. of Stars": 98000,
-    "No. of Commits": 35883,
-    "No. of Contributors": 776
-  },
-  {
-    "name": "matplotlib/matplotlib",
-    "No. of Forks": 7400,
-    "No. of Stars": 19300,
-    "No. of Commits": 50176,
-    "No. of Contributors": 1421
-  },
-  {
-    "name": "hakluke/how-to-exit-vim",
-    "No. of Forks": 314,
-    "No. of Stars": 6800,
-    "No. of Commits": 249,
-    "No. of Contributors": 74
+    "name": "nusskylab/nusskylab",
+    "No. of Forks": 35,
+    "No. of Stars": 14,
+    "No. of Commits": 1089,
+    "No. of Contributors": 35
   },
   {
     "name": "Rick-Lang/rickroll-lang",
@@ -518,25 +133,25 @@
     "No. of Contributors": 19
   },
   {
-    "name": "nvbn/thefuck",
-    "No. of Forks": 3400,
-    "No. of Stars": 82800,
-    "No. of Commits": 1651,
-    "No. of Contributors": 186
+    "name": "kragniz/json-sempai",
+    "No. of Forks": 59,
+    "No. of Stars": 1300,
+    "No. of Commits": 86,
+    "No. of Contributors": 6
   },
   {
-    "name": "tqdm/tqdm",
-    "No. of Forks": 1300,
-    "No. of Stars": 27400,
-    "No. of Commits": 1979,
-    "No. of Contributors": 1
+    "name": "fabianishere/brainfuck",
+    "No. of Forks": 72,
+    "No. of Stars": 514,
+    "No. of Commits": 241,
+    "No. of Contributors": 13
   },
   {
-    "name": "scala/scala3",
-    "No. of Forks": 1000,
-    "No. of Stars": 5700,
-    "No. of Commits": 38113,
-    "No. of Contributors": 450
+    "name": "mattdiamond/fuckitjs",
+    "No. of Forks": 91,
+    "No. of Stars": 4100,
+    "No. of Commits": 41,
+    "No. of Contributors": 4
   },
   {
     "name": "GeoGuess/GeoGuess",
@@ -546,95 +161,11 @@
     "No. of Contributors": 20
   },
   {
-    "name": "Ebazhanov/linkedin-skill-assessments-quizzes",
-    "No. of Forks": 13400,
-    "No. of Stars": 28100,
-    "No. of Commits": 7392,
-    "No. of Contributors": 1612
-  },
-  {
-    "name": "ikatyang/emoji-cheat-sheet",
-    "No. of Forks": 4400,
-    "No. of Stars": 11800,
-    "No. of Commits": 444,
-    "No. of Contributors": 9
-  },
-  {
-    "name": "numpy/numpy",
-    "No. of Forks": 9300,
-    "No. of Stars": 26400,
-    "No. of Commits": 35716,
-    "No. of Contributors": 1603
-  },
-  {
-    "name": "laravel/laravel",
-    "No. of Forks": 23900,
-    "No. of Stars": 76800,
-    "No. of Commits": 7034,
-    "No. of Contributors": 647
-  },
-  {
-    "name": "scipy/scipy",
-    "No. of Forks": 5000,
-    "No. of Stars": 12500,
-    "No. of Commits": 32257,
-    "No. of Contributors": 1462
-  },
-  {
-    "name": "lencx/ChatGPT",
-    "No. of Forks": 5400,
-    "No. of Stars": 46900,
-    "No. of Commits": 633,
-    "No. of Contributors": 30
-  },
-  {
-    "name": "TEAMMATES/teammates",
-    "No. of Forks": 3200,
-    "No. of Stars": 1600,
-    "No. of Commits": 18739,
-    "No. of Contributors": 643
-  },
-  {
-    "name": "tailwindlabs/tailwindcss",
-    "No. of Forks": 3900,
-    "No. of Stars": 78400,
-    "No. of Commits": 5342,
-    "No. of Contributors": 284
-  },
-  {
     "name": "dtolnay/anyhow",
     "No. of Forks": 135,
     "No. of Stars": 5100,
     "No. of Commits": 753,
     "No. of Contributors": 23
-  },
-  {
-    "name": "Shopify/hydrogen",
-    "No. of Forks": 224,
-    "No. of Stars": 1200,
-    "No. of Commits": 1870,
-    "No. of Contributors": 84
-  },
-  {
-    "name": "juliangarnier/anime",
-    "No. of Forks": 3600,
-    "No. of Stars": 48700,
-    "No. of Commits": 751,
-    "No. of Contributors": 51
-  },
-  {
-    "name": "redis/redis",
-    "No. of Forks": 23500,
-    "No. of Stars": 64800,
-    "No. of Commits": 12119,
-    "No. of Contributors": 703
-  },
-  {
-    "name": "tauri-apps/tauri",
-    "No. of Forks": 2300,
-    "No. of Stars": 77300,
-    "No. of Commits": 4520,
-    "No. of Contributors": 350
   },
   {
     "name": "pallets/quart",
@@ -644,116 +175,46 @@
     "No. of Contributors": 86
   },
   {
-    "name": "musescore/MuseScore",
-    "No. of Forks": 2500,
-    "No. of Stars": 11500,
-    "No. of Commits": 35662,
-    "No. of Contributors": 355
+    "name": "reposense/RepoSense",
+    "No. of Forks": 153,
+    "No. of Stars": 229,
+    "No. of Commits": 1015,
+    "No. of Contributors": 1
   },
   {
-    "name": "gin-gonic/gin",
-    "No. of Forks": 7800,
-    "No. of Stars": 75500,
-    "No. of Commits": 1751,
-    "No. of Contributors": 426
+    "name": "samuelmarina/is-even",
+    "No. of Forks": 198,
+    "No. of Stars": 1800,
+    "No. of Commits": 39,
+    "No. of Contributors": 10
   },
   {
-    "name": "chef/chef",
-    "No. of Forks": 2500,
-    "No. of Stars": 7500,
-    "No. of Commits": 33091,
-    "No. of Contributors": 676
+    "name": "Shopify/hydrogen",
+    "No. of Forks": 224,
+    "No. of Stars": 1200,
+    "No. of Commits": 1870,
+    "No. of Contributors": 84
   },
   {
-    "name": "elixir-lang/elixir",
-    "No. of Forks": 3300,
-    "No. of Stars": 23200,
-    "No. of Commits": 20153,
-    "No. of Contributors": 1293
+    "name": "nusmodifications/nusmods",
+    "No. of Forks": 268,
+    "No. of Stars": 547,
+    "No. of Commits": 4372,
+    "No. of Contributors": 1
   },
   {
-    "name": "nvm-sh/nvm",
-    "No. of Forks": 7600,
-    "No. of Stars": 75700,
-    "No. of Commits": 2180,
-    "No. of Contributors": 355
+    "name": "lhartikk/ArnoldC",
+    "No. of Forks": 292,
+    "No. of Stars": 6700,
+    "No. of Commits": 70,
+    "No. of Contributors": 12
   },
   {
-    "name": "openlayers/openlayers",
-    "No. of Forks": 3000,
-    "No. of Stars": 10900,
-    "No. of Commits": 33772,
-    "No. of Contributors": 361
-  },
-  {
-    "name": "apache/maven",
-    "No. of Forks": 2600,
-    "No. of Stars": 4100,
-    "No. of Commits": 12161,
-    "No. of Contributors": 186
-  },
-  {
-    "name": "keras-team/keras",
-    "No. of Forks": 19300,
-    "No. of Stars": 60900,
-    "No. of Commits": 10616,
-    "No. of Contributors": 1224
-  },
-  {
-    "name": "sveltejs/svelte",
-    "No. of Forks": 3900,
-    "No. of Stars": 76500,
-    "No. of Commits": 8394,
-    "No. of Contributors": 676
-  },
-  {
-    "name": "npm/cli",
-    "No. of Forks": 2900,
-    "No. of Stars": 8000,
-    "No. of Commits": 12319,
-    "No. of Contributors": 855
-  },
-  {
-    "name": "rust-lang/cargo",
-    "No. of Forks": 2300,
-    "No. of Stars": 12000,
-    "No. of Commits": 17326,
-    "No. of Contributors": 987
-  },
-  {
-    "name": "geopandas/geopandas",
-    "No. of Forks": 895,
-    "No. of Stars": 4200,
-    "No. of Commits": 1927,
-    "No. of Contributors": 218
-  },
-  {
-    "name": "supabase/supabase",
-    "No. of Forks": 6200,
-    "No. of Stars": 66000,
-    "No. of Commits": 27869,
-    "No. of Contributors": 1168
-  },
-  {
-    "name": "reduxjs/redux",
-    "No. of Forks": 15300,
-    "No. of Stars": 60500,
-    "No. of Commits": 3953,
-    "No. of Contributors": 983
-  },
-  {
-    "name": "pallets/flask",
-    "No. of Forks": 15900,
-    "No. of Stars": 66400,
-    "No. of Commits": 5270,
-    "No. of Contributors": 716
-  },
-  {
-    "name": "tiangolo/fastapi",
-    "No. of Forks": 6000,
-    "No. of Stars": 70900,
-    "No. of Commits": 4210,
-    "No. of Contributors": 652
+    "name": "hakluke/how-to-exit-vim",
+    "No. of Forks": 314,
+    "No. of Stars": 6800,
+    "No. of Commits": 249,
+    "No. of Contributors": 74
   },
   {
     "name": "rayon-rs/rayon",
@@ -761,27 +222,6 @@
     "No. of Stars": 10300,
     "No. of Commits": 2197,
     "No. of Contributors": 134
-  },
-  {
-    "name": "junit-team/junit5",
-    "No. of Forks": 1400,
-    "No. of Stars": 6200,
-    "No. of Commits": 8192,
-    "No. of Contributors": 221
-  },
-  {
-    "name": "oven-sh/bun",
-    "No. of Forks": 2400,
-    "No. of Stars": 70600,
-    "No. of Commits": 9353,
-    "No. of Contributors": 601
-  },
-  {
-    "name": "ziglang/zig",
-    "No. of Forks": 2200,
-    "No. of Stars": 30700,
-    "No. of Commits": 29107,
-    "No. of Contributors": 858
   },
   {
     "name": "serde-rs/serde",
@@ -798,20 +238,6 @@
     "No. of Contributors": 103
   },
   {
-    "name": "Theano/Theano",
-    "No. of Forks": 2500,
-    "No. of Stars": 9900,
-    "No. of Commits": 28133,
-    "No. of Contributors": 353
-  },
-  {
-    "name": "microsoft/dotnet",
-    "No. of Forks": 2200,
-    "No. of Stars": 14100,
-    "No. of Commits": 1238,
-    "No. of Contributors": 321
-  },
-  {
     "name": "lit/lit",
     "No. of Forks": 875,
     "No. of Stars": 17500,
@@ -819,39 +245,18 @@
     "No. of Contributors": 176
   },
   {
+    "name": "geopandas/geopandas",
+    "No. of Forks": 895,
+    "No. of Stars": 4200,
+    "No. of Commits": 1927,
+    "No. of Contributors": 218
+  },
+  {
     "name": "cat-milk/Anime-Girls-Holding-Programming-Books",
     "No. of Forks": 900,
     "No. of Stars": 18000,
     "No. of Commits": 1288,
     "No. of Contributors": 353
-  },
-  {
-    "name": "SeleniumHQ/selenium",
-    "No. of Forks": 7900,
-    "No. of Stars": 29300,
-    "No. of Commits": 31541,
-    "No. of Contributors": 738
-  },
-  {
-    "name": "tokio-rs/tokio",
-    "No. of Forks": 2200,
-    "No. of Stars": 24700,
-    "No. of Commits": 3763,
-    "No. of Contributors": 795
-  },
-  {
-    "name": "pypa/pip",
-    "No. of Forks": 3000,
-    "No. of Stars": 9300,
-    "No. of Commits": 14505,
-    "No. of Contributors": 676
-  },
-  {
-    "name": "emberjs/ember.js",
-    "No. of Forks": 4200,
-    "No. of Stars": 22400,
-    "No. of Commits": 22509,
-    "No. of Contributors": 824
   },
   {
     "name": "dotnet/csharplang",
@@ -868,18 +273,11 @@
     "No. of Contributors": 333
   },
   {
-    "name": "Leaflet/Leaflet",
-    "No. of Forks": 5700,
-    "No. of Stars": 40000,
-    "No. of Commits": 7792,
-    "No. of Contributors": 809
-  },
-  {
-    "name": "withastro/astro",
-    "No. of Forks": 2200,
-    "No. of Stars": 42400,
-    "No. of Commits": 7946,
-    "No. of Contributors": 744
+    "name": "scala/scala3",
+    "No. of Forks": 1000,
+    "No. of Stars": 5700,
+    "No. of Commits": 38113,
+    "No. of Contributors": 450
   },
   {
     "name": "alpinejs/alpine",
@@ -889,32 +287,18 @@
     "No. of Contributors": 275
   },
   {
-    "name": "google/guava",
-    "No. of Forks": 10800,
-    "No. of Stars": 49400,
-    "No. of Commits": 6457,
-    "No. of Contributors": 303
+    "name": "tqdm/tqdm",
+    "No. of Forks": 1300,
+    "No. of Stars": 27400,
+    "No. of Commits": 1979,
+    "No. of Contributors": 1
   },
   {
-    "name": "apache/hadoop",
-    "No. of Forks": 8700,
-    "No. of Stars": 14300,
-    "No. of Commits": 27253,
-    "No. of Contributors": 579
-  },
-  {
-    "name": "google/gson",
-    "No. of Forks": 4300,
-    "No. of Stars": 23000,
-    "No. of Commits": 1993,
-    "No. of Contributors": 147
-  },
-  {
-    "name": "prisma/prisma",
+    "name": "junit-team/junit5",
     "No. of Forks": 1400,
-    "No. of Stars": 37200,
-    "No. of Commits": 10653,
-    "No. of Contributors": 243
+    "No. of Stars": 6200,
+    "No. of Commits": 8192,
+    "No. of Contributors": 221
   },
   {
     "name": "microsoft/STL",
@@ -931,18 +315,11 @@
     "No. of Contributors": 157
   },
   {
-    "name": "jupyter/notebook",
-    "No. of Forks": 4600,
-    "No. of Stars": 11200,
-    "No. of Commits": 13540,
-    "No. of Contributors": 555
-  },
-  {
-    "name": "cypress-io/cypress",
-    "No. of Forks": 3100,
-    "No. of Stars": 46100,
-    "No. of Commits": 20441,
-    "No. of Contributors": 484
+    "name": "prisma/prisma",
+    "No. of Forks": 1400,
+    "No. of Stars": 37200,
+    "No. of Commits": 10653,
+    "No. of Contributors": 243
   },
   {
     "name": "actix/actix-web",
@@ -952,18 +329,11 @@
     "No. of Contributors": 355
   },
   {
-    "name": "preactjs/preact",
-    "No. of Forks": 1900,
-    "No. of Stars": 36000,
-    "No. of Commits": 5590,
-    "No. of Contributors": 314
-  },
-  {
-    "name": "nltk/nltk",
-    "No. of Forks": 2800,
-    "No. of Stars": 13000,
-    "No. of Commits": 14511,
-    "No. of Contributors": 391
+    "name": "blender/blender",
+    "No. of Forks": 1800,
+    "No. of Stars": 11500,
+    "No. of Commits": 135523,
+    "No. of Contributors": 266
   },
   {
     "name": "mwaskom/seaborn",
@@ -973,10 +343,647 @@
     "No. of Contributors": 199
   },
   {
+    "name": "preactjs/preact",
+    "No. of Forks": 1900,
+    "No. of Stars": 36000,
+    "No. of Commits": 5590,
+    "No. of Contributors": 314
+  },
+  {
+    "name": "python-pillow/Pillow",
+    "No. of Forks": 2100,
+    "No. of Stars": 11700,
+    "No. of Commits": 17738,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "microsoft/dotnet",
+    "No. of Forks": 2200,
+    "No. of Stars": 14100,
+    "No. of Commits": 1238,
+    "No. of Contributors": 321
+  },
+  {
+    "name": "tokio-rs/tokio",
+    "No. of Forks": 2200,
+    "No. of Stars": 24700,
+    "No. of Commits": 3763,
+    "No. of Contributors": 795
+  },
+  {
+    "name": "ziglang/zig",
+    "No. of Forks": 2200,
+    "No. of Stars": 30700,
+    "No. of Commits": 29107,
+    "No. of Contributors": 858
+  },
+  {
+    "name": "withastro/astro",
+    "No. of Forks": 2200,
+    "No. of Stars": 42400,
+    "No. of Commits": 7946,
+    "No. of Contributors": 744
+  },
+  {
+    "name": "rust-lang/cargo",
+    "No. of Forks": 2300,
+    "No. of Stars": 12000,
+    "No. of Commits": 17326,
+    "No. of Contributors": 987
+  },
+  {
+    "name": "tauri-apps/tauri",
+    "No. of Forks": 2300,
+    "No. of Stars": 77300,
+    "No. of Commits": 4520,
+    "No. of Contributors": 350
+  },
+  {
+    "name": "oven-sh/bun",
+    "No. of Forks": 2400,
+    "No. of Stars": 70600,
+    "No. of Commits": 9353,
+    "No. of Contributors": 601
+  },
+  {
+    "name": "chef/chef",
+    "No. of Forks": 2500,
+    "No. of Stars": 7500,
+    "No. of Commits": 33091,
+    "No. of Contributors": 676
+  },
+  {
+    "name": "Theano/Theano",
+    "No. of Forks": 2500,
+    "No. of Stars": 9900,
+    "No. of Commits": 28133,
+    "No. of Contributors": 353
+  },
+  {
+    "name": "musescore/MuseScore",
+    "No. of Forks": 2500,
+    "No. of Stars": 11500,
+    "No. of Commits": 35662,
+    "No. of Contributors": 355
+  },
+  {
+    "name": "apache/maven",
+    "No. of Forks": 2600,
+    "No. of Stars": 4100,
+    "No. of Commits": 12161,
+    "No. of Contributors": 186
+  },
+  {
+    "name": "nltk/nltk",
+    "No. of Forks": 2800,
+    "No. of Stars": 13000,
+    "No. of Commits": 14511,
+    "No. of Contributors": 391
+  },
+  {
+    "name": "npm/cli",
+    "No. of Forks": 2900,
+    "No. of Stars": 8000,
+    "No. of Commits": 12319,
+    "No. of Contributors": 855
+  },
+  {
+    "name": "pypa/pip",
+    "No. of Forks": 3000,
+    "No. of Stars": 9300,
+    "No. of Commits": 14505,
+    "No. of Contributors": 676
+  },
+  {
+    "name": "openlayers/openlayers",
+    "No. of Forks": 3000,
+    "No. of Stars": 10900,
+    "No. of Commits": 33772,
+    "No. of Contributors": 361
+  },
+  {
+    "name": "cypress-io/cypress",
+    "No. of Forks": 3100,
+    "No. of Stars": 46100,
+    "No. of Commits": 20441,
+    "No. of Contributors": 484
+  },
+  {
+    "name": "TEAMMATES/teammates",
+    "No. of Forks": 3200,
+    "No. of Stars": 1600,
+    "No. of Commits": 18739,
+    "No. of Contributors": 643
+  },
+  {
+    "name": "elixir-lang/elixir",
+    "No. of Forks": 3300,
+    "No. of Stars": 23200,
+    "No. of Commits": 20153,
+    "No. of Contributors": 1293
+  },
+  {
+    "name": "nvbn/thefuck",
+    "No. of Forks": 3400,
+    "No. of Stars": 82800,
+    "No. of Commits": 1651,
+    "No. of Contributors": 186
+  },
+  {
+    "name": "juliangarnier/anime",
+    "No. of Forks": 3600,
+    "No. of Stars": 48700,
+    "No. of Commits": 751,
+    "No. of Contributors": 51
+  },
+  {
+    "name": "sveltejs/svelte",
+    "No. of Forks": 3900,
+    "No. of Stars": 76500,
+    "No. of Commits": 8394,
+    "No. of Contributors": 676
+  },
+  {
+    "name": "tailwindlabs/tailwindcss",
+    "No. of Forks": 3900,
+    "No. of Stars": 78400,
+    "No. of Commits": 5342,
+    "No. of Contributors": 284
+  },
+  {
+    "name": "emberjs/ember.js",
+    "No. of Forks": 4200,
+    "No. of Stars": 22400,
+    "No. of Commits": 22509,
+    "No. of Contributors": 824
+  },
+  {
+    "name": "postgres/postgres",
+    "No. of Forks": 4300,
+    "No. of Stars": 14700,
+    "No. of Commits": 58485,
+    "No. of Contributors": 54
+  },
+  {
+    "name": "google/gson",
+    "No. of Forks": 4300,
+    "No. of Stars": 23000,
+    "No. of Commits": 1993,
+    "No. of Contributors": 147
+  },
+  {
+    "name": "ikatyang/emoji-cheat-sheet",
+    "No. of Forks": 4400,
+    "No. of Stars": 11800,
+    "No. of Commits": 444,
+    "No. of Contributors": 9
+  },
+  {
+    "name": "gradle/gradle",
+    "No. of Forks": 4500,
+    "No. of Stars": 16100,
+    "No. of Commits": 114878,
+    "No. of Contributors": 723
+  },
+  {
+    "name": "jupyter/notebook",
+    "No. of Forks": 4600,
+    "No. of Stars": 11200,
+    "No. of Commits": 13540,
+    "No. of Contributors": 555
+  },
+  {
+    "name": "celery/celery",
+    "No. of Forks": 4600,
+    "No. of Stars": 23500,
+    "No. of Commits": 12517,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "scipy/scipy",
+    "No. of Forks": 5000,
+    "No. of Stars": 12500,
+    "No. of Commits": 32257,
+    "No. of Contributors": 1462
+  },
+  {
+    "name": "openjdk/jdk",
+    "No. of Forks": 5200,
+    "No. of Stars": 18400,
+    "No. of Commits": 78205,
+    "No. of Contributors": 763
+  },
+  {
     "name": "cli/cli",
     "No. of Forks": 5200,
     "No. of Stars": 35400,
     "No. of Commits": 7422,
     "No. of Contributors": 490
+  },
+  {
+    "name": "ruby/ruby",
+    "No. of Forks": 5300,
+    "No. of Stars": 21500,
+    "No. of Commits": 85188,
+    "No. of Contributors": 793
+  },
+  {
+    "name": "lencx/ChatGPT",
+    "No. of Forks": 5400,
+    "No. of Stars": 46900,
+    "No. of Commits": 633,
+    "No. of Contributors": 30
+  },
+  {
+    "name": "mongodb/mongo",
+    "No. of Forks": 5500,
+    "No. of Stars": 25400,
+    "No. of Commits": 80784,
+    "No. of Contributors": 735
+  },
+  {
+    "name": "JetBrains/kotlin",
+    "No. of Forks": 5600,
+    "No. of Stars": 47500,
+    "No. of Commits": 112873,
+    "No. of Contributors": 669
+  },
+  {
+    "name": "Leaflet/Leaflet",
+    "No. of Forks": 5700,
+    "No. of Stars": 40000,
+    "No. of Commits": 7792,
+    "No. of Contributors": 809
+  },
+  {
+    "name": "tiangolo/fastapi",
+    "No. of Forks": 6000,
+    "No. of Stars": 70900,
+    "No. of Commits": 4210,
+    "No. of Contributors": 652
+  },
+  {
+    "name": "supabase/supabase",
+    "No. of Forks": 6200,
+    "No. of Stars": 66000,
+    "No. of Commits": 27869,
+    "No. of Contributors": 1168
+  },
+  {
+    "name": "jestjs/jest",
+    "No. of Forks": 6300,
+    "No. of Stars": 43600,
+    "No. of Commits": 7173,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "matplotlib/matplotlib",
+    "No. of Forks": 7400,
+    "No. of Stars": 19300,
+    "No. of Commits": 50176,
+    "No. of Contributors": 1421
+  },
+  {
+    "name": "nvm-sh/nvm",
+    "No. of Forks": 7600,
+    "No. of Stars": 75700,
+    "No. of Commits": 2180,
+    "No. of Contributors": 355
+  },
+  {
+    "name": "vuejs/core",
+    "No. of Forks": 7800,
+    "No. of Stars": 44600,
+    "No. of Commits": 5756,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "gin-gonic/gin",
+    "No. of Forks": 7800,
+    "No. of Stars": 75500,
+    "No. of Commits": 1751,
+    "No. of Contributors": 426
+  },
+  {
+    "name": "SeleniumHQ/selenium",
+    "No. of Forks": 7900,
+    "No. of Stars": 29300,
+    "No. of Commits": 31541,
+    "No. of Contributors": 738
+  },
+  {
+    "name": "facebook/docusaurus",
+    "No. of Forks": 7900,
+    "No. of Stars": 52800,
+    "No. of Commits": 5914,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "apache/hadoop",
+    "No. of Forks": 8700,
+    "No. of Stars": 14300,
+    "No. of Commits": 27253,
+    "No. of Contributors": 579
+  },
+  {
+    "name": "numpy/numpy",
+    "No. of Forks": 9300,
+    "No. of Stars": 26400,
+    "No. of Commits": 35716,
+    "No. of Contributors": 1603
+  },
+  {
+    "name": "apple/swift",
+    "No. of Forks": 10200,
+    "No. of Stars": 65900,
+    "No. of Commits": 167470,
+    "No. of Contributors": 1082
+  },
+  {
+    "name": "google/guava",
+    "No. of Forks": 10800,
+    "No. of Stars": 49400,
+    "No. of Commits": 6457,
+    "No. of Contributors": 303
+  },
+  {
+    "name": "rust-lang/rust",
+    "No. of Forks": 12000,
+    "No. of Stars": 93000,
+    "No. of Commits": 253549,
+    "No. of Contributors": 4907
+  },
+  {
+    "name": "microsoft/TypeScript",
+    "No. of Forks": 12200,
+    "No. of Stars": 98000,
+    "No. of Commits": 35883,
+    "No. of Contributors": 776
+  },
+  {
+    "name": "langchain-ai/langchain",
+    "No. of Forks": 12800,
+    "No. of Stars": 83300,
+    "No. of Commits": 8957,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "Ebazhanov/linkedin-skill-assessments-quizzes",
+    "No. of Forks": 13400,
+    "No. of Stars": 28100,
+    "No. of Commits": 7392,
+    "No. of Contributors": 1612
+  },
+  {
+    "name": "expressjs/express",
+    "No. of Forks": 13700,
+    "No. of Stars": 63800,
+    "No. of Commits": 5830,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "electron/electron",
+    "No. of Forks": 14900,
+    "No. of Stars": 112000,
+    "No. of Commits": 28123,
+    "No. of Contributors": 1264
+  },
+  {
+    "name": "reduxjs/redux",
+    "No. of Forks": 15300,
+    "No. of Stars": 60500,
+    "No. of Commits": 3953,
+    "No. of Contributors": 983
+  },
+  {
+    "name": "pallets/flask",
+    "No. of Forks": 15900,
+    "No. of Stars": 66400,
+    "No. of Commits": 5270,
+    "No. of Contributors": 716
+  },
+  {
+    "name": "golang/go",
+    "No. of Forks": 17200,
+    "No. of Stars": 120000,
+    "No. of Commits": 59815,
+    "No. of Contributors": 2075
+  },
+  {
+    "name": "pandas-dev/pandas",
+    "No. of Forks": 17300,
+    "No. of Stars": 42000,
+    "No. of Commits": 34829,
+    "No. of Contributors": 3195
+  },
+  {
+    "name": "godotengine/godot",
+    "No. of Forks": 18200,
+    "No. of Stars": 83500,
+    "No. of Commits": 63412,
+    "No. of Contributors": 2478
+  },
+  {
+    "name": "keras-team/keras",
+    "No. of Forks": 19300,
+    "No. of Stars": 60900,
+    "No. of Commits": 10616,
+    "No. of Contributors": 1224
+  },
+  {
+    "name": "pytorch/pytorch",
+    "No. of Forks": 21100,
+    "No. of Stars": 77900,
+    "No. of Commits": 72312,
+    "No. of Contributors": 3261
+  },
+  {
+    "name": "rails/rails",
+    "No. of Forks": 21300,
+    "No. of Stars": 54900,
+    "No. of Commits": 91400,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "d3/d3",
+    "No. of Forks": 22900,
+    "No. of Stars": 108000,
+    "No. of Commits": 4491,
+    "No. of Contributors": 134
+  },
+  {
+    "name": "labuladong/fucking-algorithm",
+    "No. of Forks": 23100,
+    "No. of Stars": 123000,
+    "No. of Commits": 487,
+    "No. of Contributors": 110
+  },
+  {
+    "name": "redis/redis",
+    "No. of Forks": 23500,
+    "No. of Stars": 64800,
+    "No. of Commits": 12119,
+    "No. of Contributors": 703
+  },
+  {
+    "name": "laravel/laravel",
+    "No. of Forks": 23900,
+    "No. of Stars": 76800,
+    "No. of Commits": 7034,
+    "No. of Contributors": 647
+  },
+  {
+    "name": "facebook/react-native",
+    "No. of Forks": 23900,
+    "No. of Stars": 116000,
+    "No. of Commits": 31475,
+    "No. of Contributors": 2631
+  },
+  {
+    "name": "angular/angular",
+    "No. of Forks": 24600,
+    "No. of Stars": 94500,
+    "No. of Commits": 30022,
+    "No. of Contributors": 1901
+  },
+  {
+    "name": "huggingface/transformers",
+    "No. of Forks": 24800,
+    "No. of Stars": 125000,
+    "No. of Commits": 15726,
+    "No. of Contributors": 2461
+  },
+  {
+    "name": "git/git",
+    "No. of Forks": 25100,
+    "No. of Stars": 50000,
+    "No. of Commits": 73024,
+    "No. of Contributors": 1677
+  },
+  {
+    "name": "vercel/next.js",
+    "No. of Forks": 25800,
+    "No. of Stars": 121000,
+    "No. of Commits": 20672,
+    "No. of Contributors": 3263
+  },
+  {
+    "name": "facebook/create-react-app",
+    "No. of Forks": 26600,
+    "No. of Stars": 102000,
+    "No. of Commits": 2802,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "flutter/flutter",
+    "No. of Forks": 26600,
+    "No. of Stars": 162000,
+    "No. of Commits": 40528,
+    "No. of Contributors": 1351
+  },
+  {
+    "name": "microsoft/vscode",
+    "No. of Forks": 27600,
+    "No. of Stars": 158000,
+    "No. of Commits": 121194,
+    "No. of Contributors": 2028
+  },
+  {
+    "name": "apache/spark",
+    "No. of Forks": 27900,
+    "No. of Stars": 38400,
+    "No. of Commits": 40716,
+    "No. of Contributors": 2076
+  },
+  {
+    "name": "nodejs/node",
+    "No. of Forks": 27900,
+    "No. of Stars": 104000,
+    "No. of Commits": 41170,
+    "No. of Contributors": 3414
+  },
+  {
+    "name": "python/cpython",
+    "No. of Forks": 28900,
+    "No. of Stars": 59600,
+    "No. of Commits": 121819,
+    "No. of Contributors": 2671
+  },
+  {
+    "name": "django/django",
+    "No. of Forks": 30800,
+    "No. of Stars": 76800,
+    "No. of Commits": 32586,
+    "No. of Contributors": 2515
+  },
+  {
+    "name": "mrdoob/three.js",
+    "No. of Forks": 35100,
+    "No. of Stars": 98900,
+    "No. of Commits": 43183,
+    "No. of Contributors": 1879
+  },
+  {
+    "name": "bitcoin/bitcoin",
+    "No. of Forks": 35300,
+    "No. of Stars": 76000,
+    "No. of Commits": 40783,
+    "No. of Contributors": 952
+  },
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "No. of Forks": 35400,
+    "No. of Stars": 388000,
+    "No. of Commits": 35334,
+    "No. of Contributors": 4999
+  },
+  {
+    "name": "facebook/react",
+    "No. of Forks": 45300,
+    "No. of Stars": 222000,
+    "No. of Commits": 16729,
+    "No. of Contributors": 1662
+  },
+  {
+    "name": "torvalds/linux",
+    "No. of Forks": 51800,
+    "No. of Stars": 170000,
+    "No. of Commits": 1266245,
+    "No. of Contributors": 15180
+  },
+  {
+    "name": "opencv/opencv",
+    "No. of Forks": 55600,
+    "No. of Stars": 75600,
+    "No. of Commits": 34121,
+    "No. of Contributors": 1579
+  },
+  {
+    "name": "tensorflow/tensorflow",
+    "No. of Forks": 73900,
+    "No. of Stars": 182000,
+    "No. of Commits": 163455,
+    "No. of Contributors": 3540
+  },
+  {
+    "name": "github/gitignore",
+    "No. of Forks": 83300,
+    "No. of Stars": 158000,
+    "No. of Commits": 3528,
+    "No. of Contributors": 1253
+  },
+  {
+    "name": "octocat/Spoon-Knife",
+    "No. of Forks": 142000,
+    "No. of Stars": 12200,
+    "No. of Commits": 3,
+    "No. of Contributors": 1
+  },
+  {
+    "name": "jtleek/datasharing",
+    "No. of Forks": 243000,
+    "No. of Stars": 6500,
+    "No. of Commits": 29,
+    "No. of Contributors": 10
   }
 ]
