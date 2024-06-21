@@ -29,6 +29,11 @@
     "instructions": "Fight using the latitude, longitude, number of services and average service number!",
     "tags": ["Geography", "Bus Stops"]
   },
+  "buildings": {
+    "title": "Buildings of the World",
+    "instructions": "Fight using the height, year of completion, latitude and longitude!",
+    "tags": ["Geography", "Buildings"]
+  },
   "countries": {
     "title": "Countries of the World",
     "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",
@@ -66,7 +71,7 @@
   },
   "pokemon": {
     "title": "Pokémon",
-    "instructions": "Fight using the height, weight, HP and Attack!",
+    "instructions": "Fight using the height, weight, ID and total stats!",
     "tags": ["Games", "Pokémon"]
   },
   "youtubers": {

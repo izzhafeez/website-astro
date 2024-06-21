@@ -32,6 +32,9 @@ import csModsData from "../../../../data/games/stat-attack/cs-mods.json";
 import githubData from "../../../../data/games/stat-attack/github.json";
 import mineralsData from "../../../../data/games/stat-attack/minerals.json";
 import nutritionData from "../../../../data/games/stat-attack/nutrition.json";
+import buildingsData from "../../../../data/games/stat-attack/buildings.json";
+import busStopsData from "../../../../data/games/stat-attack/bus-stops.json";
+import busServicesData from "../../../../data/games/stat-attack/bus-services.json";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 
@@ -220,6 +223,24 @@ switch (deckName) {
     deck = {
       title: "Nutrition",
       data: nutritionData
+    }
+    break;
+  case 'buildings':
+    deck = {
+      title: "Buildings of the World",
+      data: buildingsData
+    }
+    break;
+  case 'bus-stops':
+    deck = {
+      title: "Bus Stops of Singapore",
+      data: busStopsData
+    }
+    break;
+  case 'bus-services':
+    deck = {
+      title: "Bus Services of Singapore",
+      data: busServicesData
     }
     break;
   default:
