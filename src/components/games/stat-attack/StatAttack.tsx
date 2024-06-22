@@ -359,7 +359,7 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
                 {deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
               </h3>
-              <h3 className='ms-auto mb-2' data-tooltip-target={`tooltip-${card.card_id}`}>Rank {card.card_id}</h3>
+              <h3 className='ms-auto mb-2' data-tooltip-target={`tooltip-${card.card_id}`}>Rank {card.card_id + 1}</h3>
             </div>
             <ul className={`grid gap-2 text-gray-900 dark:text-white`}>
             {fields.map((fieldName, index) => <p className="" key={fieldName}>
