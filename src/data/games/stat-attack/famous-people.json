@@ -1,0 +1,975 @@
+[
+  {
+    "name": "Russell Crowe",
+    "Year of Birth": 1964,
+    "Latitude": -41.2889,
+    "Longitude": 174.7772,
+    "Monthly Wikipedia Views": 187985
+  },
+  {
+    "name": "Jojo Siwa",
+    "Year of Birth": 2003,
+    "Latitude": 41.2586,
+    "Longitude": -95.9375,
+    "Monthly Wikipedia Views": 724
+  },
+  {
+    "name": "Ros\u00e9",
+    "Year of Birth": 1997,
+    "Latitude": -36.8406,
+    "Longitude": 174.74,
+    "Monthly Wikipedia Views": 31866
+  },
+  {
+    "name": "Barack Obama",
+    "Year of Birth": 1961,
+    "Latitude": 21.3069,
+    "Longitude": -157.8583,
+    "Monthly Wikipedia Views": 1029787
+  },
+  {
+    "name": "Derek Muller",
+    "Year of Birth": 1982,
+    "Latitude": -38.1958,
+    "Longitude": 146.5403,
+    "Monthly Wikipedia Views": 13333
+  },
+  {
+    "name": "Billie Eilish",
+    "Year of Birth": 2001,
+    "Latitude": 34.05,
+    "Longitude": -118.25,
+    "Monthly Wikipedia Views": 737831
+  },
+  {
+    "name": "The Anime Man",
+    "Year of Birth": 1994,
+    "Latitude": -33.8678,
+    "Longitude": 151.21,
+    "Monthly Wikipedia Views": 14204
+  },
+  {
+    "name": "Chris Hemsworth",
+    "Year of Birth": 1983,
+    "Latitude": -37.8142,
+    "Longitude": 144.9631,
+    "Monthly Wikipedia Views": 488755
+  },
+  {
+    "name": "Olivia Rodrigo",
+    "Year of Birth": 2003,
+    "Latitude": 33.5694,
+    "Longitude": -117.2025,
+    "Monthly Wikipedia Views": 287242
+  },
+  {
+    "name": "Brett Yang",
+    "Year of Birth": 1992,
+    "Latitude": 25.0375,
+    "Longitude": 121.5625,
+    "Monthly Wikipedia Views": 186
+  },
+  {
+    "name": "Michael Reeves",
+    "Year of Birth": 1997,
+    "Latitude": 20.8,
+    "Longitude": -156.3,
+    "Monthly Wikipedia Views": 3520
+  },
+  {
+    "name": "Hugh Jackman",
+    "Year of Birth": 1968,
+    "Latitude": -33.8678,
+    "Longitude": 151.21,
+    "Monthly Wikipedia Views": 306594
+  },
+  {
+    "name": "Eddy Chen",
+    "Year of Birth": 1993,
+    "Latitude": 22.615,
+    "Longitude": 120.2975,
+    "Monthly Wikipedia Views": 279
+  },
+  {
+    "name": "Jason Momoa",
+    "Year of Birth": 1979,
+    "Latitude": 21.3069,
+    "Longitude": -157.8583,
+    "Monthly Wikipedia Views": 607194
+  },
+  {
+    "name": "Lionel Messi",
+    "Year of Birth": 1987,
+    "Latitude": -32.9575,
+    "Longitude": -60.6394,
+    "Monthly Wikipedia Views": 1136466
+  },
+  {
+    "name": "Belle Delphine",
+    "Year of Birth": 1999,
+    "Latitude": -33.9253,
+    "Longitude": 18.4239,
+    "Monthly Wikipedia Views": 118355
+  },
+  {
+    "name": "Elon Musk",
+    "Year of Birth": 1971,
+    "Latitude": -25.7461,
+    "Longitude": 28.1881,
+    "Monthly Wikipedia Views": 1476177
+  },
+  {
+    "name": "Cleopatra",
+    "Year of Birth": -69,
+    "Latitude": 31.1975,
+    "Longitude": 29.8925,
+    "Monthly Wikipedia Views": 1879698
+  },
+  {
+    "name": "Donald Trump",
+    "Year of Birth": 1946,
+    "Latitude": 40.75,
+    "Longitude": -73.8667,
+    "Monthly Wikipedia Views": 7953301
+  },
+  {
+    "name": "LiSA",
+    "Year of Birth": 1987,
+    "Latitude": 35.4958,
+    "Longitude": 136.918,
+    "Monthly Wikipedia Views": 1852
+  },
+  {
+    "name": "MrBeast",
+    "Year of Birth": 1998,
+    "Latitude": 37.6889,
+    "Longitude": -97.3361,
+    "Monthly Wikipedia Views": 261893
+  },
+  {
+    "name": "Charli D'Amelio",
+    "Year of Birth": 2004,
+    "Latitude": 41.0939,
+    "Longitude": -73.4197,
+    "Monthly Wikipedia Views": 268834
+  },
+  {
+    "name": "Tom Scott",
+    "Year of Birth": 1984,
+    "Latitude": 53.1444,
+    "Longitude": -1.1964,
+    "Monthly Wikipedia Views": 936
+  },
+  {
+    "name": "IU",
+    "Year of Birth": 1993,
+    "Latitude": 35.1333,
+    "Longitude": 126.8167,
+    "Monthly Wikipedia Views": 2065
+  },
+  {
+    "name": "Leonardo DiCaprio",
+    "Year of Birth": 1974,
+    "Latitude": 34.05,
+    "Longitude": -118.25,
+    "Monthly Wikipedia Views": 676507
+  },
+  {
+    "name": "Laozi",
+    "Year of Birth": -571,
+    "Latitude": 33.86,
+    "Longitude": 115.4839,
+    "Monthly Wikipedia Views": 78221
+  },
+  {
+    "name": "Bj\u00f6rk",
+    "Year of Birth": 1965,
+    "Latitude": 64.1467,
+    "Longitude": -21.94,
+    "Monthly Wikipedia Views": 133616
+  },
+  {
+    "name": "Stef\u00e1n_Karl_Stef\u00e1nsson",
+    "Year of Birth": 1975,
+    "Latitude": 64.02,
+    "Longitude": -21.97,
+    "Monthly Wikipedia Views": 60885
+  },
+  {
+    "name": "Trevor Rainbolt",
+    "Year of Birth": 1998,
+    "Latitude": 32.5092,
+    "Longitude": -94.7539,
+    "Monthly Wikipedia Views": 10776
+  },
+  {
+    "name": "Seth Everman",
+    "Year of Birth": 1993,
+    "Latitude": 59.3294,
+    "Longitude": 18.0686,
+    "Monthly Wikipedia Views": 6306
+  },
+  {
+    "name": "Bill Gates",
+    "Year of Birth": 1955,
+    "Latitude": 47.6097,
+    "Longitude": -122.3331,
+    "Monthly Wikipedia Views": 481347
+  },
+  {
+    "name": "Linus Sebastian",
+    "Year of Birth": 1986,
+    "Latitude": 49.0903,
+    "Longitude": -123.08,
+    "Monthly Wikipedia Views": 33317
+  },
+  {
+    "name": "Emilio Palma",
+    "Year of Birth": 1978,
+    "Latitude": -63.3983,
+    "Longitude": -56.9961,
+    "Monthly Wikipedia Views": 5406
+  },
+  {
+    "name": "David Mitchell",
+    "Year of Birth": 1974,
+    "Latitude": 51.07,
+    "Longitude": -1.79,
+    "Monthly Wikipedia Views": 1178
+  },
+  {
+    "name": "Confucius",
+    "Year of Birth": -551,
+    "Latitude": 35.5819,
+    "Longitude": 116.9861,
+    "Monthly Wikipedia Views": 110248
+  },
+  {
+    "name": "Amos Yee",
+    "Year of Birth": 1998,
+    "Latitude": 1.2833,
+    "Longitude": 103.8333,
+    "Monthly Wikipedia Views": 13081
+  },
+  {
+    "name": "Ramesses II",
+    "Year of Birth": -1303,
+    "Latitude": 25.7206,
+    "Longitude": 32.6103,
+    "Monthly Wikipedia Views": 99549
+  },
+  {
+    "name": "Sun Tzu",
+    "Year of Birth": -544,
+    "Latitude": 36.865,
+    "Longitude": 118.34,
+    "Monthly Wikipedia Views": 49538
+  },
+  {
+    "name": "Taylor Swift",
+    "Year of Birth": 1989,
+    "Latitude": 40.3342,
+    "Longitude": -75.9467,
+    "Monthly Wikipedia Views": 814300
+  },
+  {
+    "name": "Khaby Lame",
+    "Year of Birth": 2000,
+    "Latitude": 14.0,
+    "Longitude": -14.0,
+    "Monthly Wikipedia Views": 113780
+  },
+  {
+    "name": "Thales of Miletus",
+    "Year of Birth": -624,
+    "Latitude": 37.5303,
+    "Longitude": 27.2783,
+    "Monthly Wikipedia Views": 26540
+  },
+  {
+    "name": "Linus Torvalds",
+    "Year of Birth": 1969,
+    "Latitude": 60.1708,
+    "Longitude": 24.9375,
+    "Monthly Wikipedia Views": 53581
+  },
+  {
+    "name": "Erik the Red",
+    "Year of Birth": 950,
+    "Latitude": 58.7167,
+    "Longitude": 5.75,
+    "Monthly Wikipedia Views": 31838
+  },
+  {
+    "name": "Vladimir Putin",
+    "Year of Birth": 1952,
+    "Latitude": 59.9375,
+    "Longitude": 30.3086,
+    "Monthly Wikipedia Views": 687755
+  },
+  {
+    "name": "Johnny Depp",
+    "Year of Birth": 1963,
+    "Latitude": 37.7578,
+    "Longitude": -87.1183,
+    "Monthly Wikipedia Views": 717090
+  },
+  {
+    "name": "Ng Teng Fong",
+    "Year of Birth": 1928,
+    "Latitude": 25.4525,
+    "Longitude": 119.0078,
+    "Monthly Wikipedia Views": 2665
+  },
+  {
+    "name": "Pablo Escobar",
+    "Year of Birth": 1949,
+    "Latitude": 6.1535,
+    "Longitude": -75.3742,
+    "Monthly Wikipedia Views": 759230
+  },
+  {
+    "name": "The Buddha",
+    "Year of Birth": -563,
+    "Latitude": 27.4814,
+    "Longitude": 83.2758,
+    "Monthly Wikipedia Views": 40329
+  },
+  {
+    "name": "Michael Stevens",
+    "Year of Birth": 1986,
+    "Latitude": 39.0997,
+    "Longitude": -94.5783,
+    "Monthly Wikipedia Views": 1655
+  },
+  {
+    "name": "Pythagoras",
+    "Year of Birth": -570,
+    "Latitude": 37.75,
+    "Longitude": 26.8333,
+    "Monthly Wikipedia Views": 96676
+  },
+  {
+    "name": "Tan Tock Seng",
+    "Year of Birth": 1798,
+    "Latitude": 2.2,
+    "Longitude": 102.25,
+    "Monthly Wikipedia Views": 1708
+  },
+  {
+    "name": "Ariana Grande",
+    "Year of Birth": 1993,
+    "Latitude": 26.3686,
+    "Longitude": -80.1,
+    "Monthly Wikipedia Views": 711888
+  },
+  {
+    "name": "Avicii",
+    "Year of Birth": 1989,
+    "Latitude": 59.3294,
+    "Longitude": 18.0686,
+    "Monthly Wikipedia Views": 309233
+  },
+  {
+    "name": "Pope Francis",
+    "Year of Birth": 1936,
+    "Latitude": -34.6033,
+    "Longitude": -58.3817,
+    "Monthly Wikipedia Views": 285214
+  },
+  {
+    "name": "Tan Kah Kee",
+    "Year of Birth": 1874,
+    "Latitude": 24.7892,
+    "Longitude": 118.1525,
+    "Monthly Wikipedia Views": 3256
+  },
+  {
+    "name": "Lisa",
+    "Year of Birth": 1997,
+    "Latitude": 14.9942,
+    "Longitude": 103.1022,
+    "Monthly Wikipedia Views": 4533
+  },
+  {
+    "name": "Adolf Hitler",
+    "Year of Birth": 1889,
+    "Latitude": 48.2583,
+    "Longitude": 13.035,
+    "Monthly Wikipedia Views": 779966
+  },
+  {
+    "name": "Rodrigo Duterte",
+    "Year of Birth": 1945,
+    "Latitude": 10.1333,
+    "Longitude": 124.85,
+    "Monthly Wikipedia Views": 125892
+  },
+  {
+    "name": "Matt Parker",
+    "Year of Birth": 1980,
+    "Latitude": -31.9558,
+    "Longitude": 115.8597,
+    "Monthly Wikipedia Views": 5378
+  },
+  {
+    "name": "Hayao Miyazaki",
+    "Year of Birth": 1941,
+    "Latitude": 35.68,
+    "Longitude": 139.77,
+    "Monthly Wikipedia Views": 143505
+  },
+  {
+    "name": "Magnus Carlsen",
+    "Year of Birth": 1990,
+    "Latitude": 59.2675,
+    "Longitude": 10.4076,
+    "Monthly Wikipedia Views": 150858
+  },
+  {
+    "name": "Dmitri Mendeleev",
+    "Year of Birth": 1834,
+    "Latitude": 58.1953,
+    "Longitude": 68.2581,
+    "Monthly Wikipedia Views": 47704
+  },
+  {
+    "name": "Bella Poarch",
+    "Year of Birth": 1997,
+    "Latitude": 15.9167,
+    "Longitude": 120.3333,
+    "Monthly Wikipedia Views": 108191
+  },
+  {
+    "name": "Pedro Pascal",
+    "Year of Birth": 1975,
+    "Latitude": -33.4375,
+    "Longitude": -70.65,
+    "Monthly Wikipedia Views": 312115
+  },
+  {
+    "name": "Keanu Reeves",
+    "Year of Birth": 1964,
+    "Latitude": 33.8981,
+    "Longitude": 35.5058,
+    "Monthly Wikipedia Views": 766215
+  },
+  {
+    "name": "Kim Jong Un",
+    "Year of Birth": 1982,
+    "Latitude": 39.0167,
+    "Longitude": 125.7475,
+    "Monthly Wikipedia Views": 28140
+  },
+  {
+    "name": "Alan Walker",
+    "Year of Birth": 1997,
+    "Latitude": 52.2303,
+    "Longitude": -0.8939,
+    "Monthly Wikipedia Views": 13548
+  },
+  {
+    "name": "Abraham Lincoln",
+    "Year of Birth": 1809,
+    "Latitude": 37.5314,
+    "Longitude": -85.7361,
+    "Monthly Wikipedia Views": 530879
+  },
+  {
+    "name": "Justin Bieber",
+    "Year of Birth": 1994,
+    "Latitude": 42.9675,
+    "Longitude": -81.2325,
+    "Monthly Wikipedia Views": 557423
+  },
+  {
+    "name": "Leonidas I",
+    "Year of Birth": -540,
+    "Latitude": 37.0819,
+    "Longitude": 22.4236,
+    "Monthly Wikipedia Views": 61262
+  },
+  {
+    "name": "Grigori Rasputin",
+    "Year of Birth": 1869,
+    "Latitude": 57.2425,
+    "Longitude": 66.7906,
+    "Monthly Wikipedia Views": 245652
+  },
+  {
+    "name": "Alexander the Great",
+    "Year of Birth": -356,
+    "Latitude": 40.7547,
+    "Longitude": 22.521,
+    "Monthly Wikipedia Views": 367769
+  },
+  {
+    "name": "Rainych",
+    "Year of Birth": 1992,
+    "Latitude": -1.0,
+    "Longitude": 100.5,
+    "Monthly Wikipedia Views": 4023
+  },
+  {
+    "name": "James Cook",
+    "Year of Birth": 1728,
+    "Latitude": 54.5372,
+    "Longitude": -1.2047,
+    "Monthly Wikipedia Views": 98186
+  },
+  {
+    "name": "Pericles",
+    "Year of Birth": -495,
+    "Latitude": 37.9842,
+    "Longitude": 23.7281,
+    "Monthly Wikipedia Views": 38986
+  },
+  {
+    "name": "PewDiePie",
+    "Year of Birth": 1989,
+    "Latitude": 57.7075,
+    "Longitude": 11.9675,
+    "Monthly Wikipedia Views": 201459
+  },
+  {
+    "name": "Alan Becker",
+    "Year of Birth": 1989,
+    "Latitude": 40.1092,
+    "Longitude": -83.1403,
+    "Monthly Wikipedia Views": 3696
+  },
+  {
+    "name": "Moctezuma II",
+    "Year of Birth": 1471,
+    "Latitude": 19.4333,
+    "Longitude": -99.1333,
+    "Monthly Wikipedia Views": 29029
+  },
+  {
+    "name": "Christiano Ronaldo",
+    "Year of Birth": 1985,
+    "Latitude": 32.65,
+    "Longitude": -16.9167,
+    "Monthly Wikipedia Views": 3141
+  },
+  {
+    "name": "Qin Shi Huang",
+    "Year of Birth": -259,
+    "Latitude": 36.6011,
+    "Longitude": 114.4869,
+    "Monthly Wikipedia Views": 78013
+  },
+  {
+    "name": "Gordon Ramsay",
+    "Year of Birth": 1966,
+    "Latitude": 55.8346,
+    "Longitude": -4.5027,
+    "Monthly Wikipedia Views": 331992
+  },
+  {
+    "name": "Sang Nila Utama",
+    "Year of Birth": 1299,
+    "Latitude": -2.9861,
+    "Longitude": 104.7556,
+    "Monthly Wikipedia Views": 4773
+  },
+  {
+    "name": "Nelson Mandela",
+    "Year of Birth": 1918,
+    "Latitude": -31.95,
+    "Longitude": 28.516,
+    "Monthly Wikipedia Views": 341402
+  },
+  {
+    "name": "Socrates",
+    "Year of Birth": -470,
+    "Latitude": 37.95,
+    "Longitude": 23.75,
+    "Monthly Wikipedia Views": 166443
+  },
+  {
+    "name": "Che Guevara",
+    "Year of Birth": 1928,
+    "Latitude": -32.9575,
+    "Longitude": -60.6394,
+    "Monthly Wikipedia Views": 283919
+  },
+  {
+    "name": "Plato",
+    "Year of Birth": -427,
+    "Latitude": 37.97,
+    "Longitude": 23.72,
+    "Monthly Wikipedia Views": 171657
+  },
+  {
+    "name": "Rowan Atkinson",
+    "Year of Birth": 1955,
+    "Latitude": 54.85,
+    "Longitude": -1.83,
+    "Monthly Wikipedia Views": 341710
+  },
+  {
+    "name": "Jay Chou",
+    "Year of Birth": 1979,
+    "Latitude": 25.1017,
+    "Longitude": 121.3631,
+    "Monthly Wikipedia Views": 46266
+  },
+  {
+    "name": "George Washington",
+    "Year of Birth": 1732,
+    "Latitude": 38.1856,
+    "Longitude": -76.9164,
+    "Monthly Wikipedia Views": 489015
+  },
+  {
+    "name": "Aristotle",
+    "Year of Birth": -384,
+    "Latitude": 40.5917,
+    "Longitude": 23.7947,
+    "Monthly Wikipedia Views": 193322
+  },
+  {
+    "name": "Jacksfilms",
+    "Year of Birth": 1988,
+    "Latitude": 39.2036,
+    "Longitude": -76.8569,
+    "Monthly Wikipedia Views": 3765
+  },
+  {
+    "name": "Ashoka",
+    "Year of Birth": -304,
+    "Latitude": 25.6125,
+    "Longitude": 85.1283,
+    "Monthly Wikipedia Views": 144037
+  },
+  {
+    "name": "Steven He",
+    "Year of Birth": 1996,
+    "Latitude": 22.5414,
+    "Longitude": 114.0597,
+    "Monthly Wikipedia Views": 19746
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "Year of Birth": 1869,
+    "Latitude": 21.6417,
+    "Longitude": 69.6293,
+    "Monthly Wikipedia Views": 623017
+  },
+  {
+    "name": "Amelia Earhart",
+    "Year of Birth": 1897,
+    "Latitude": 39.5625,
+    "Longitude": -95.1283,
+    "Monthly Wikipedia Views": 170697
+  },
+  {
+    "name": "Isaac Newton",
+    "Year of Birth": 1643,
+    "Latitude": 52.8099,
+    "Longitude": -0.6288,
+    "Monthly Wikipedia Views": 303673
+  },
+  {
+    "name": "Ed Sheeran",
+    "Year of Birth": 1991,
+    "Latitude": 53.725,
+    "Longitude": -1.863,
+    "Monthly Wikipedia Views": 415360
+  },
+  {
+    "name": "Ludwig Ahgren",
+    "Year of Birth": 1995,
+    "Latitude": 42.7431,
+    "Longitude": -71.5917,
+    "Monthly Wikipedia Views": 47283
+  },
+  {
+    "name": "Pokimane",
+    "Year of Birth": 1996,
+    "Latitude": 32.0,
+    "Longitude": -6.0,
+    "Monthly Wikipedia Views": 82830
+  },
+  {
+    "name": "Jacksepticeye",
+    "Year of Birth": 1990,
+    "Latitude": 53.3275,
+    "Longitude": -8.2194,
+    "Monthly Wikipedia Views": 45845
+  },
+  {
+    "name": "Jesus",
+    "Year of Birth": -4,
+    "Latitude": 31.7833,
+    "Longitude": 35.2167,
+    "Monthly Wikipedia Views": 382219
+  },
+  {
+    "name": "Albert Einstein",
+    "Year of Birth": 1879,
+    "Latitude": 48.4,
+    "Longitude": 9.9833,
+    "Monthly Wikipedia Views": 614766
+  },
+  {
+    "name": "Julius Caesar",
+    "Year of Birth": -100,
+    "Latitude": 41.8933,
+    "Longitude": 12.4828,
+    "Monthly Wikipedia Views": 311180
+  },
+  {
+    "name": "Lee Hsien Loong",
+    "Year of Birth": 1952,
+    "Latitude": 1.3110198,
+    "Longitude": 103.844252,
+    "Monthly Wikipedia Views": 49901
+  },
+  {
+    "name": "Jack Ma",
+    "Year of Birth": 1964,
+    "Latitude": 30.2669,
+    "Longitude": 120.1531,
+    "Monthly Wikipedia Views": 137791
+  },
+  {
+    "name": "Henry VIII",
+    "Year of Birth": 1491,
+    "Latitude": 51.4822,
+    "Longitude": -0.0067,
+    "Monthly Wikipedia Views": 177053
+  },
+  {
+    "name": "Davie504",
+    "Year of Birth": 1994,
+    "Latitude": 44.3081,
+    "Longitude": 8.4811,
+    "Monthly Wikipedia Views": 15377
+  },
+  {
+    "name": "Lee Kuan Yew",
+    "Year of Birth": 1923,
+    "Latitude": 1.3135135,
+    "Longitude": 103.8413851,
+    "Monthly Wikipedia Views": 68262
+  },
+  {
+    "name": "Mark Antony",
+    "Year of Birth": -83,
+    "Latitude": 41.8933,
+    "Longitude": 12.4828,
+    "Monthly Wikipedia Views": 98058
+  },
+  {
+    "name": "MatPat",
+    "Year of Birth": 1986,
+    "Latitude": 41.1306,
+    "Longitude": -81.875,
+    "Monthly Wikipedia Views": 22489
+  },
+  {
+    "name": "Archimedes",
+    "Year of Birth": -287,
+    "Latitude": 37.0692,
+    "Longitude": 15.2875,
+    "Monthly Wikipedia Views": 92612
+  },
+  {
+    "name": "Nigel Ng",
+    "Year of Birth": 1991,
+    "Latitude": 3.1478,
+    "Longitude": 101.6953,
+    "Monthly Wikipedia Views": 51674
+  },
+  {
+    "name": "Devan Nair",
+    "Year of Birth": 1923,
+    "Latitude": 2.3106,
+    "Longitude": 102.4311,
+    "Monthly Wikipedia Views": 6293
+  },
+  {
+    "name": "Gavin Free",
+    "Year of Birth": 1988,
+    "Latitude": 51.75,
+    "Longitude": -0.97,
+    "Monthly Wikipedia Views": 17087
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "Year of Birth": 1984,
+    "Latitude": 41.04,
+    "Longitude": -73.7786,
+    "Monthly Wikipedia Views": 450276
+  },
+  {
+    "name": "Constantine the Great",
+    "Year of Birth": 272,
+    "Latitude": 43.3208,
+    "Longitude": 21.8958,
+    "Monthly Wikipedia Views": 111010
+  },
+  {
+    "name": "Johannes Kepler",
+    "Year of Birth": 1571,
+    "Latitude": 48.7508,
+    "Longitude": 8.8706,
+    "Monthly Wikipedia Views": 49100
+  },
+  {
+    "name": "Kurt Hugo Schneider",
+    "Year of Birth": 1988,
+    "Latitude": 39.2894,
+    "Longitude": -76.6153,
+    "Monthly Wikipedia Views": 10130
+  },
+  {
+    "name": "Yusof Ishak",
+    "Year of Birth": 1910,
+    "Latitude": 4.7167,
+    "Longitude": 100.7333,
+    "Monthly Wikipedia Views": 8182
+  },
+  {
+    "name": "Jamie Oliver",
+    "Year of Birth": 1975,
+    "Latitude": 51.965,
+    "Longitude": 0.145,
+    "Monthly Wikipedia Views": 85297
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "Year of Birth": 1770,
+    "Latitude": 50.7333,
+    "Longitude": 7.1,
+    "Monthly Wikipedia Views": 222018
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "Year of Birth": 1452,
+    "Latitude": 43.7992,
+    "Longitude": 10.9381,
+    "Monthly Wikipedia Views": 331256
+  },
+  {
+    "name": "Ke Huy Quan",
+    "Year of Birth": 1971,
+    "Latitude": 10.7756,
+    "Longitude": 106.7019,
+    "Monthly Wikipedia Views": 81257
+  },
+  {
+    "name": "Rucka Rucka Ali",
+    "Year of Birth": 1987,
+    "Latitude": 31.7789,
+    "Longitude": 35.2256,
+    "Monthly Wikipedia Views": 8799
+  },
+  {
+    "name": "Xi Jinping",
+    "Year of Birth": 1953,
+    "Latitude": 39.9067,
+    "Longitude": 116.3975,
+    "Monthly Wikipedia Views": 237548
+  },
+  {
+    "name": "Joseph-Louis Lagrange",
+    "Year of Birth": 1736,
+    "Latitude": 45.0792,
+    "Longitude": 7.6761,
+    "Monthly Wikipedia Views": 12404
+  },
+  {
+    "name": "Jackie Chan",
+    "Year of Birth": 1954,
+    "Latitude": 22.28,
+    "Longitude": 114.16,
+    "Monthly Wikipedia Views": 331716
+  },
+  {
+    "name": "Mariah Carey",
+    "Year of Birth": 1969,
+    "Latitude": 40.86,
+    "Longitude": -73.3522,
+    "Monthly Wikipedia Views": 373226
+  },
+  {
+    "name": "Ho Chi Minh",
+    "Year of Birth": 1890,
+    "Latitude": 18.8833,
+    "Longitude": 105.3167,
+    "Monthly Wikipedia Views": 93192
+  },
+  {
+    "name": "Joseph Stalin",
+    "Year of Birth": 1878,
+    "Latitude": 41.9667,
+    "Longitude": 44.1,
+    "Monthly Wikipedia Views": 412808
+  },
+  {
+    "name": "Leonhard Euler",
+    "Year of Birth": 1707,
+    "Latitude": 47.5547,
+    "Longitude": 7.5906,
+    "Monthly Wikipedia Views": 54137
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "Year of Birth": 1756,
+    "Latitude": 47.8,
+    "Longitude": 13.0433,
+    "Monthly Wikipedia Views": 231041
+  },
+  {
+    "name": "Nikola Tesla",
+    "Year of Birth": 1856,
+    "Latitude": 44.5667,
+    "Longitude": 15.3167,
+    "Monthly Wikipedia Views": 375948
+  },
+  {
+    "name": "Menelik II",
+    "Year of Birth": 1844,
+    "Latitude": 9.0,
+    "Longitude": 39.0,
+    "Monthly Wikipedia Views": 16315
+  },
+  {
+    "name": "Fidel Castro",
+    "Year of Birth": 1926,
+    "Latitude": 20.53,
+    "Longitude": -75.8956,
+    "Monthly Wikipedia Views": 244751
+  },
+  {
+    "name": "Stamford Raffles",
+    "Year of Birth": 1781,
+    "Latitude": 17.9,
+    "Longitude": -76.3167,
+    "Monthly Wikipedia Views": 13590
+  },
+  {
+    "name": "Marc Anthony",
+    "Year of Birth": 1968,
+    "Latitude": 40.7127,
+    "Longitude": -74.0059,
+    "Monthly Wikipedia Views": 124057
+  },
+  {
+    "name": "Napoleon Bonaparte",
+    "Year of Birth": 1769,
+    "Latitude": 41.9267,
+    "Longitude": 8.7369,
+    "Monthly Wikipedia Views": 25152
+  },
+  {
+    "name": "Saddam Hussein",
+    "Year of Birth": 1937,
+    "Latitude": 34.5331,
+    "Longitude": 43.7331,
+    "Monthly Wikipedia Views": 243545
+  }
+]
