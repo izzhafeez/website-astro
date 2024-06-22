@@ -18,6 +18,7 @@ const allCards = [
   { rep: 'f(x) = 1', fn: (x: number) => 1 },
   { rep: 'f(x) = 2', fn: (x: number) => 2 },
   { rep: 'f(x) = 3', fn: (x: number) => 3 },
+  { rep: 'f(x) = 4', fn: (x: number) => 4 },
   { rep: 'f(x) = 5', fn: (x: number) => 5 },
   { rep: 'f(x) = 10', fn: (x: number) => 10 },
   { rep: 'f(x) = 100', fn: (x: number) => 100 },
@@ -26,7 +27,7 @@ const allCards = [
   { rep: 'f(x) = x', fn: (x: number) => x },
   { rep: 'f(x) = πx', fn: (x: number) => Math.PI*x },
   { rep: 'f(x) = x + 5', fn: (x: number) => x+5 },
-  { rep: 'f(x) = x + 10', fn: (x: number) => x+10 },
+  { rep: 'f(x) = 100x', fn: (x: number) => 100*x },
   { rep: 'f(x) = x - 5', fn: (x: number) => x-5 },
   { rep: 'f(x) = x - 10', fn: (x: number) => x-10 },
   { rep: 'f(x) = -x', fn: (x: number) => -x },
@@ -42,14 +43,14 @@ const allCards = [
   { rep: 'f(x) = x/2', fn: (x: number) => x/2 },
   { rep: 'f(x) = x^2', fn: (x: number) => x**2 },
   { rep: 'f(x) = x^3', fn: (x: number) => x**3 },
-  { rep: 'f(x) = x^x', fn: (x: number) => x**x },
+  { rep: 'f(x) = x^|x|', fn: (x: number) => x**Math.abs(x) }, // x^x
   { rep: 'f(x) = 2x^2 - x', fn: (x: number) => 2*(x**2) - x },
   { rep: 'f(x) = 3x^2 - 2x + 1', fn: (x: number) => 3*(x**2) - 2*x + 1 },
   { rep: 'f(x) = -x^2 + 3x + 5', fn: (x: number) => -(x**2) + 3*x + 5 },
   { rep: 'f(x) = sqrt(|x|)', fn: (x: number) => Math.abs(x)**0.5 },
   { rep: 'f(x) = sqrt(|2x + 1|)', fn: (x: number) => Math.abs(2*x + 1)**0.5 },
-  { rep: 'f(x) = 200sin(x)', fn: (x: number) => 200*Math.sin(x) },
-  { rep: 'f(x) = 200cos(x)', fn: (x: number) => 200*Math.cos(x) },
+  { rep: 'f(x) = 150sin(x)', fn: (x: number) => 150*Math.sin(x) },
+  { rep: 'f(x) = 150cos(x)', fn: (x: number) => 150*Math.cos(x) },
   { rep: 'f(x) = tan(x)', fn: (x: number) => Math.tan(x) },
   { rep: 'f(x) = 10/sin(x)', fn: (x: number) => 10/Math.sin(x) },
   { rep: 'f(x) = 10/cos(x)', fn: (x: number) => 10/Math.cos(x) },
@@ -72,7 +73,7 @@ const allCards = [
   { rep: 'f(x) = cos(x)', fn: (x: number) => Math.cos(x) },
   { rep: 'f(x) = x - 10', fn: (x: number) => x - 10 },
   { rep: 'f(x) = -100', fn: (x: number) => -100 },
-  { rep: 'f(x) = 1/(fractional part of x)', fn: (x: number) => 1/(x - Math.floor(x)) },
+  { rep: 'f(x) = 1/(x % 1)', fn: (x: number) => 1/(x - Math.floor(x)) },
   { rep: 'f(x) = -100', fn: (x: number) => -100 },
   { rep: 'f(x) = 0.1', fn: (x: number) => 0.1 },
   { rep: 'f(x) = 1.5', fn: (x: number) => 1.5 },
@@ -111,7 +112,7 @@ const allCards = [
   { rep: 'f(x) = 100x - 200', fn: (x: number) => 100*x - 200 },
   { rep: 'f(x) = 10x - 20', fn: (x: number) => 10*x - 20 },
   { rep: 'f(x) = -x + 1', fn: (x: number) => -x + 1 },
-  { rep: 'f(x) = x - 10', fn: (x: number) => x - 10 },
+  { rep: 'f(x) = 1/sigmoid(x)', fn: (x: number) => 1 + Math.exp(-x) },
   { rep: 'f(x) = x + 25', fn: (x: number) => x + 25 },
   { rep: 'f(x) = x + 100', fn: (x: number) => x + 100 },
   { rep: 'f(x) = x - 100', fn: (x: number) => x - 100 },
@@ -133,6 +134,76 @@ const allCards = [
   { rep: 'f(x) = πfloor(x)', fn: (x: number) => Math.PI*Math.floor(x) },
   { rep: 'f(x) = πceil(x)', fn: (x: number) => Math.PI*Math.ceil(x) },
   { rep: 'f(x) = πround(x)', fn: (x: number) => Math.PI*Math.round(x) },
+  { rep: 'f(x) = nCr(round(x), 2)', fn: (x: number) => Math.round(x)*(Math.round(x)-1)/2 },
+  { rep: 'f(x) = nCr(round(x), 3)', fn: (x: number) => Math.round(x)*(Math.round(x)-1)*(Math.round(x)-2)/6 },
+  { rep: 'f(x) = tan(x)^round(x)', fn: (x: number) => Math.tan(x)**Math.round(x) },
+  { rep: 'f(x) = random() * 150', fn: (x: number) => Math.random()*150 },
+  { rep: 'f(x) = 1 / random()', fn: (x: number) => 1/Math.random() },
+  { rep: 'f(x) = arctan(x)', fn: (x: number) => Math.atan(x) },
+  { rep: 'f(x) = max(x^2, 10x)', fn: (x: number) => Math.max(x**2, 10*x) },
+  { rep: 'f(x) = x + 190', fn: (x: number) => x + 190 },
+  { rep: 'f(x) = x - 190', fn: (x: number) => x - 190 },
+  { rep: 'f(x) = tan(πx/2)', fn: (x: number) => Math.tan(Math.PI*x/2) },
+  { rep: 'f(x) = 10x + 10/x', fn: (x: number) => 10*x + 10/x },
+  { rep: 'f(x) = 1/(x - 10)(x + 10)', fn: (x: number) => 1/((x - 10)*(x + 10)) },
+  { rep: 'f(x) = 100/(sin(x) + cos(x))', fn: (x: number) => 100/(Math.sin(x) + Math.cos(x)) },
+  { rep: 'f(x) = 0.1^x', fn: (x: number) => 0.1**x },
+  { rep: 'f(x) = x - x', fn: (x: number) => 0 },
+  { rep: 'f(x) = 2^(x^2)', fn: (x: number) => 2**(x**2) },
+  { rep: 'f(x) = min(200relu(x), 200relu(-x))', fn: (x: number) => Math.min(200*Math.max(0, x), 200*Math.max(0, -x)) },
+  { rep: 'f(x) = 100sin(x) + 100cos(x)', fn: (x: number) => 100*Math.sin(x) + 100*Math.cos(x) },
+  { rep: 'f(x) = 150sin(2x)', fn: (x: number) => 150*Math.sin(2*x) },
+  { rep: 'f(x) = 1/sin(100x)', fn: (x: number) => 1/Math.sin(100*x) },
+  { rep: 'f(x) = x^3 - 10x^2', fn: (x: number) => x**3 - 10*(x**2) },
+  { rep: 'f(x) = 0.1x^3 - x^2 + 10x', fn: (x: number) => 0.1*(x**3) - (x**2) + 10*x },
+  { rep: 'f(x) = x^100', fn: (x: number) => x**100 },
+  { rep: 'f(x) = 2x - 6', fn: (x: number) => 2*x - 6 },
+  { rep: 'f(x) = 1.5x - 4', fn: (x: number) => 1.5*x - 4 },
+  { rep: 'f(x) = 0.75x + 4', fn: (x: number) => 0.75*x + 4 },
+  { rep: 'f(x) = 0.001e^x', fn: (x: number) => 0.001*Math.exp(x) },
+  { rep: 'f(x) = sinh(x) + cosh(x)', fn: (x: number) => Math.sinh(x) + Math.cosh(x) },
+  { rep: 'f(x) = 100sin(x)cos(x)tan(x)', fn: (x: number) => 100*Math.sin(x)*Math.cos(x)*Math.tan(x) },
+  { rep: 'f(x) = 0', fn: (x: number) => 0 },
+  { rep: 'f(x) = 1 + e^(-x)', fn: (x: number) => 1 + Math.exp(-x) },
+  { rep: 'f(x) = 1 - e^(-x)', fn: (x: number) => 1 - Math.exp(-x) },
+  { rep: 'f(x) = (1 + 1/x)^round(x)', fn: (x: number) => (1 + 1/x)**Math.round(x) },
+  { rep: 'f(x) = 1.01^(100x)', fn: (x: number) => 1.01**(100*x) },
+  { rep: 'f(x) = 150sin(x - 1)', fn: (x: number) => 150*Math.sin(x - 1) },
+  { rep: 'f(x) = 150sin(x + 1)', fn: (x: number) => 150*Math.sin(x + 1) },
+  { rep: 'f(x) = 1/(x + 1)', fn: (x: number) => 1/(x+1) },
+  { rep: 'f(x) = 1/(x - 100)', fn: (x: number) => 1/(x-100) },
+  { rep: 'f(x) = 10/x', fn: (x: number) => 10/x },
+  { rep: 'f(x) = 5000/x', fn: (x: number) => 5000/x },
+  { rep: 'f(x) = 10000/(x - 100)', fn: (x: number) => 10000/(x-100) },
+  { rep: 'f(x) = (x - 60)(x - 70)', fn: (x: number) => (x - 60)*(x - 70) },
+  { rep: 'f(x) = (x + 80)(x + 100)', fn: (x: number) => (x + 80)*(x + 100) },
+  { rep: 'f(x) = x^2 - 10000', fn: (x: number) => x**2 - 10000 },
+  { rep: 'f(x) = 99.99', fn: (x: number) => 99.99 },
+  { rep: 'f(x) = -90', fn: (x: number) => -90 },
+  { rep: 'f(x) = -67', fn: (x: number) => -67 },
+  { rep: 'f(x) = x - 69', fn: (x: number) => x - 69 },
+  { rep: 'f(x) = 1.2x - 100', fn: (x: number) => 1.2*x - 100 },
+  { rep: 'f(x) = max(100, 1000x)', fn: (x: number) => Math.max(100, 1000*x) },
+  { rep: 'f(x) = min(-100, 1000x)', fn: (x: number) => Math.min(100, 1000*x) },
+  { rep: 'f(x) = x^4 / 1000', fn: (x: number) => (x**4)/1000 },
+  { rep: 'f(x) = 0.5', fn: (x: number) => 0.5 },
+  { rep: 'f(x) = 99 + 0.01x^2', fn: (x: number) => 99 + 0.01*(x**2) },
+  { rep: 'f(x) = 90 + x^2', fn: (x: number) => 90 + (x**2) },
+  { rep: 'f(x) = g', fn: (x: number) => 9.81 },
+  { rep: 'f(x) = sqrt(2)', fn: (x: number) => Math.sqrt(2) },
+  { rep: 'f(x) = sqrt(3)', fn: (x: number) => Math.sqrt(3) },
+  { rep: 'f(x) = TREE(2)', fn: (x: number) => 3 },
+  { rep: 'f(x) = apery\'s constant', fn: (x: number) => 1.2020569031595942854 },
+  { rep: 'f(x) = euler-mascheroni constant', fn: (x: number) => 0.5772156649015328606 },
+  { rep: 'f(x) = golden ratio', fn: (x: number) => 1.618033988749895 },
+  { rep: 'f(x) = silver ratio', fn: (x: number) => 2.414213562373095 },
+  { rep: 'f(x) = feigenbaum constant', fn: (x: number) => 4.669201609102990671853203820466201617258185577475768632745651343004134 },
+  { rep: 'f(x) = khinchin constant', fn: (x: number) => 2.6854520010 },
+  { rep: 'f(x) = planck constant', fn: (x: number) => 6.62607015e-34 },
+  { rep: 'f(x) = number of stars in the solar system', fn: (x: number) => 1 },
+  { rep: 'f(x) = -2', fn: (x: number) => -2 },
+  { rep: 'f(x) = 0.5x + 0.5', fn: (x: number) => 0.5*x + 0.5 },
+  { rep: 'f(x) = 1000/(50 - x)', fn: (x: number) => 1000/(50 - x) },
 ];
 
 const instructions = gamesData['math-attack'].heroText;
@@ -189,7 +260,7 @@ function MathAttack({ id }: { id: string }) {
   // const lastMessage = null;
 
   const joinGame = () => {
-    sendJsonMessage({ method: 'join', name })
+    sendJsonMessage({ method: 'join', name, deck_size: allCards.length })
     setPlayerState(PlayerStates.LOBBY);
   };
 
@@ -217,7 +288,12 @@ function MathAttack({ id }: { id: string }) {
     }
 
     const card = allCards[selectedCard];
-    const newNumber = card.fn(number);
+    console.log(number)
+    let newNumber = card.fn(number);
+    if (newNumber === Infinity || newNumber === -Infinity || isNaN(newNumber)) {
+      // set to some ridiculously large number
+      newNumber = 1000000000000000;
+    }
     sendJsonMessage({ method: 'play', card_id: selectedCard, number: newNumber, name });
     setPlayerState(PlayerStates.WAITING);
   }
@@ -261,9 +337,9 @@ function MathAttack({ id }: { id: string }) {
     setSelectedCard(cardId);
   }
 
-  const STARTING_NUMBER = 0
-  const LOWEST_NUMBER = -100
-  const HIGHEST_NUMBER = 100
+  const STARTING_NUMBER = 0;
+  const LOWEST_NUMBER = -100;
+  const HIGHEST_NUMBER = 100;
   useEffect(() => {
     if (!lastMessage) return;
     const message = JSON.parse(lastMessage.data);
@@ -271,7 +347,7 @@ function MathAttack({ id }: { id: string }) {
     if (message.players) setPlayers(_ => message.players);
     if (message.hand) setHand(_ => message.hand);
     if (message.state) setGameState(_ => message.state);
-    if (message.number) setNumber(_ => message.number);
+    if (message.number != undefined) setNumber(_ => message.number);
     if (message.player) setCurrentPlayer(_ => message.player);
     if (message.last_played) setLastPlayed(_ => message.last_played);
     if (message.players && message.players[name]) setPlayerState(_ => message.players[name]);
@@ -429,7 +505,7 @@ function MathAttack({ id }: { id: string }) {
           <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">{currentPlayer === name ? "Your" : `${currentPlayer}'s`} turn!</h3>
         </div>}
       {(playerState === PlayerStates.TURN || playerState === PlayerStates.WAITING) && <div className="grid grid-cols-3 gap-4 max-w-xl">
-        {hand.map(cardId => <div className={`border-2 border-cc-500 aspect-square p-4 rounded-xl flex ${playerState === PlayerStates.TURN && 'cursor-pointer'} ${cardId === selectedCard && 'bg-cc-500'}`} onClick={() => handleSelect(cardId)}>
+        {hand.map(cardId => <div className={`border-2 border-cc-500 aspect-square p-4 rounded-xl flex ${playerState === PlayerStates.TURN && 'cursor-pointer'} ${cardId === selectedCard && 'bg-cc-500'}`} onClick={() => handleSelect(cardId)} key={cardId}>
           <div className={`m-auto`}>{allCards[cardId].rep}</div>
           </div>)}
         </div>}
