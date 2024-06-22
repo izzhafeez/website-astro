@@ -35,6 +35,7 @@ import nutritionData from "../../../../data/games/stat-attack/nutrition.json";
 import buildingsData from "../../../../data/games/stat-attack/buildings.json";
 import busStopsData from "../../../../data/games/stat-attack/bus-stops.json";
 import busServicesData from "../../../../data/games/stat-attack/bus-services.json";
+import famousPeopleData from "../../../../data/games/stat-attack/famous-people.json";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 
@@ -241,6 +242,12 @@ switch (deckName) {
     deck = {
       title: "Bus Services of Singapore",
       data: busServicesData
+    }
+    break;
+  case 'famous-people':
+    deck = {
+      title: "Famous People",
+      data: famousPeopleData
     }
     break;
   default:
