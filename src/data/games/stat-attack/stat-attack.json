@@ -39,6 +39,11 @@
     "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",
     "tags": ["Geography", "Countries"]
   },
+  "famous-people":{ 
+    "title": "Famous People",
+    "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",
+    "tags": ["People", "Famous"]
+  },
   "github": {
     "title": "GitHub Repositories",
     "instructions": "Fight using the number of stars, forks, commits and contributors!",
