@@ -1,0 +1,19 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import RouteWeaver from "../../../components/apps/routeweaver/RouteWeaver.vue";
+import Layout from "../../../layouts/Layout.astro";
+import appsData from "../../../data/apps/apps.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from "../../../img/heroes/ROUTEWEAVER.jpg";
+
+export const prerender = true;
+const heroText = appsData.routeweaver.heroText;
+---
+<Seo {heroText} {seoImg} pageName={"RouteWeaver"} path="apps/routeweaver/create"/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <RouteWeaver client:only/>
+  </div>
+</Layout>
