@@ -1,0 +1,438 @@
+{
+  "Ulu Pandan": [
+    103.779629,
+    1.312629
+  ],
+  "Bukit Batok West": [
+    103.751524,
+    1.35792
+  ],
+  "Bukit Timah": [
+    103.775833,
+    1.346499
+  ],
+  "West Coast Park": [
+    103.764034,
+    1.293767
+  ],
+  "Jurong": [
+    103.727921,
+    1.347031
+  ],
+  "Riverside": [
+    103.782407,
+    1.443347
+  ],
+  "Woodlands Avenue 2": [
+    103.787495,
+    1.439502
+  ],
+  "Woodlands Avenue 3": [
+    103.781708,
+    1.434355
+  ],
+  "Punggol": [
+    103.901926,
+    1.419081
+  ],
+  "Kallang": [
+    103.867659,
+    1.321207
+  ],
+  "Serangoon": [
+    103.895469,
+    1.361952
+  ],
+  "Woodsville": [
+    103.868678,
+    1.327308
+  ],
+  "Alexandra Canal Linear Park": [
+    103.808087,
+    1.295211
+  ],
+  "Alexandra Queensway": [
+    103.802209,
+    1.29502
+  ],
+  "Hougang Avenue 3": [
+    103.895373,
+    1.361898
+  ],
+  "Tampines": [
+    103.951643,
+    1.346081
+  ],
+  "Kallang Riverside Park": [
+    103.872644,
+    1.310352
+  ],
+  "Sungei Serangoon": [
+    103.911273,
+    1.385763
+  ],
+  "Whampoa": [
+    103.866969,
+    1.319674
+  ],
+  "Springleaf": [
+    103.819146,
+    1.400716
+  ],
+  "Woodlands Street 13": [
+    103.774261,
+    1.436471
+  ],
+  "Marsiling": [
+    103.771496,
+    1.444416
+  ],
+  "Admiralty West": [
+    103.795775,
+    1.439363
+  ],
+  "Woodlands Waterfront Park": [
+    103.771437,
+    1.448701
+  ],
+  "Pang Sua": [
+    103.752108,
+    1.401322
+  ],
+  "Adam": [
+    103.814142,
+    1.327956
+  ],
+  "Choa Chu Kang": [
+    103.751466,
+    1.365505
+  ],
+  "Canberra Sembawang": [
+    103.830492,
+    1.452641
+  ],
+  "Sembawang": [
+    103.812594,
+    1.445582
+  ],
+  "Central Catchment": [
+    103.778366,
+    1.405442
+  ],
+  "Dairy Farm Nature Park": [
+    103.778799,
+    1.364279
+  ],
+  "Simpang Kiri": [
+    103.830784,
+    1.441466
+  ],
+  "Khatib Bongsu": [
+    103.84374,
+    1.433081
+  ],
+  "Rochor Canal": [
+    103.859533,
+    1.305886
+  ],
+  "Balam": [
+    103.889132,
+    1.333647
+  ],
+  "Alexandra": [
+    103.821374,
+    1.291987
+  ],
+  "Sengkang Riverside Park": [
+    103.887124,
+    1.398998
+  ],
+  "Punggol Waterway": [
+    103.921816,
+    1.39769
+  ],
+  "Pelton Canal": [
+    103.872391,
+    1.31708
+  ],
+  "Henderson": [
+    103.816875,
+    1.278233
+  ],
+  "Choa Chu Kang North": [
+    103.744747,
+    1.392213
+  ],
+  "Holland Green Linear Park": [
+    103.785649,
+    1.326503
+  ],
+  "Chua Chu Kang North": [
+    103.746027,
+    1.388763
+  ],
+  "East Coast Park": [
+    103.956596,
+    1.313694
+  ],
+  "Play Corridor": [
+    103.933704,
+    1.314989
+  ],
+  "Tanjong Rhu Promenade": [
+    103.867327,
+    1.298403
+  ],
+  "Singapore River": [
+    103.853163,
+    1.288189
+  ],
+  "Empress Place": [
+    103.851708,
+    1.286591
+  ],
+  "Gardens by the Bay": [
+    103.863797,
+    1.285387
+  ],
+  "Bayfront Avenue": [
+    103.860752,
+    1.288485
+  ],
+  "Esplanade Promenade": [
+    103.855725,
+    1.288894
+  ],
+  "Gardens by the Bay East": [
+    103.868555,
+    1.288735
+  ],
+  "Marina Barrage": [
+    103.870363,
+    1.281484
+  ],
+  "Marina Bay Sands": [
+    103.860661,
+    1.285791
+  ],
+  "Youth Olympic Park": [
+    103.860219,
+    1.288716
+  ],
+  "The Float at Marina Bay": [
+    103.857945,
+    1.288804
+  ],
+  "Esplanade Park": [
+    103.854085,
+    1.288967
+  ],
+  "Rowers Bay to TPE": [
+    103.862029,
+    1.404915
+  ],
+  "Interim": [
+    103.875132,
+    1.395065
+  ],
+  "Sengkang Riverside Park Bridge": [
+    103.886025,
+    1.399941
+  ],
+  "Potong Pasir": [
+    103.862984,
+    1.334143
+  ],
+  "Woodlands Avenue 7": [
+    103.806451,
+    1.443444
+  ],
+  "Tiong Bahru Park": [
+    103.823823,
+    1.287505
+  ],
+  "Pasir Ris": [
+    103.963896,
+    1.37377
+  ],
+  "Pasir Ris Park": [
+    103.937885,
+    1.386594
+  ],
+  "Jurong Central Park": [
+    103.706726,
+    1.33595
+  ],
+  "Upper Thomson": [
+    103.828051,
+    1.36145
+  ],
+  "Zhenghua Park": [
+    103.77618,
+    1.375076
+  ],
+  "Stadium": [
+    103.870356,
+    1.304911
+  ],
+  "Canberra": [
+    103.816478,
+    1.448482
+  ],
+  "Woodlands Avenue 12": [
+    103.798521,
+    1.42693
+  ],
+  "Toa Payoh Town Park": [
+    103.849331,
+    1.33048
+  ],
+  "West Coast": [
+    103.763527,
+    1.299107
+  ],
+  "Bedok": [
+    103.935571,
+    1.339256
+  ],
+  "Mandai": [
+    103.77897,
+    1.410464
+  ],
+  "Dairy Farm": [
+    103.775307,
+    1.366753
+  ],
+  "Yishun": [
+    103.834827,
+    1.423067
+  ],
+  "Yishun Park": [
+    103.842357,
+    1.423053
+  ],
+  "Woodlands": [
+    103.786984,
+    1.426815
+  ],
+  "Siglap": [
+    103.912414,
+    1.322873
+  ],
+  "Lower Seletar Reservoir Park": [
+    103.829536,
+    1.409968
+  ],
+  "Ulu Sembawang": [
+    103.788436,
+    1.412431
+  ],
+  "Sims Avenue": [
+    103.903137,
+    1.318932
+  ],
+  "Loyang": [
+    103.978481,
+    1.382518
+  ],
+  "Simei": [
+    103.956635,
+    1.336766
+  ],
+  "Paya Lebar": [
+    103.888389,
+    1.336155
+  ],
+  "Sembawang Park": [
+    103.836462,
+    1.461746
+  ],
+  "Changi Beach Park": [
+    103.993123,
+    1.390697
+  ],
+  "Bedok Town Park": [
+    103.932649,
+    1.336559
+  ],
+  "Lornie": [
+    103.828563,
+    1.340892
+  ],
+  "Geylang": [
+    103.885367,
+    1.305192
+  ],
+  "Bukit Panjang": [
+    103.76852,
+    1.385268
+  ],
+  "Tampines Loyang": [
+    103.961776,
+    1.361068
+  ],
+  "Sun Plaza Park": [
+    103.942733,
+    1.359186
+  ],
+  "Bishan Ang Mo Kio Park": [
+    103.846262,
+    1.360892
+  ],
+  "Bedok Reservoir Park": [
+    103.921782,
+    1.346264
+  ],
+  "Clementi Wood Park": [
+    103.766831,
+    1.301065
+  ],
+  "Bukit Batok Nature Park": [
+    103.763268,
+    1.347003
+  ],
+  "Old Upper Thomson": [
+    103.820102,
+    1.380459
+  ],
+  "Woodlands Avenue 5": [
+    103.783587,
+    1.434861
+  ],
+  "Stagmont": [
+    103.74998,
+    1.389166
+  ],
+  "Jurong West": [
+    103.697421,
+    1.33745
+  ],
+  "Jalan Pelikat": [
+    103.887079,
+    1.354471
+  ],
+  "Punggol Promenade Nature Walk": [
+    103.917076,
+    1.408421
+  ],
+  "Punggol Promenade Punggol Point Walk": [
+    103.913194,
+    1.419513
+  ],
+  "Punggol Promenade Riverside Walk": [
+    103.919592,
+    1.395269
+  ],
+  "Punggol Park": [
+    103.897684,
+    1.37526
+  ],
+  "Punggol Waterway Park": [
+    103.904121,
+    1.411493
+  ],
+  "Villa Verde": [
+    103.753735,
+    1.389134
+  ]
+}
