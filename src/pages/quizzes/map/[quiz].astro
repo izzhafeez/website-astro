@@ -21,6 +21,13 @@ import indonesiaCitiesData from "../../../data/quizzes/map/indonesia-cities.json
 import philippinesCitiesData from "../../../data/quizzes/map/philippines-cities.json";
 import usaCitiesData from "../../../data/quizzes/map/usa-cities.json";
 import canadaCitiesData from "../../../data/quizzes/map/canada-cities.json";
+import monumentsData from "../../../data/quizzes/map/monuments.json";
+import librariesData from "../../../data/quizzes/map/libraries.json";
+import parksData from "../../../data/quizzes/map/parks.json";
+import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
+import hotelsData from "../../../data/quizzes/map/hotels.json";
+import ccData from "../../../data/quizzes/map/cc.json";
+import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
 import Seo from "../../../components/seo/Seo.astro";
@@ -198,6 +205,68 @@ export async function getStaticPaths() {
         data: canadaCitiesData,
         instructions: "How many Canadian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
         defaultRegex: '100K|1M|10M'
+      }
+    },
+    {
+      params: { quiz: 'monuments' },
+      props: {
+        title: 'Monuments of Singapore',
+        data: monumentsData,
+        instructions: "How many famous monuments can you name? As you answer, the marker will disappear. Use regex to select the monuments you want included in the quiz (try typing 'Museum' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'libraries' },
+      props: {
+        title: 'Libraries of Singapore',
+        data: librariesData,
+        instructions: "How many libraries in Singapore can you name? As you answer, the marker will disappear. Use regex to select the libraries you want included in the quiz (try typing 'Public' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'parks' },
+      props: {
+        title: 'Parks of Singapore',
+        data: parksData,
+        instructions: "How many parks in Singapore can you name? As you answer, the marker will disappear. Use regex to select the parks you want included in the quiz (try typing 'Park' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'park-connectors' },
+      props: {
+        title: 'Park Connectors of Singapore',
+        data: parkConnectorsData,
+        instructions: "How many park connectors in Singapore can you name? As you answer, the marker will disappear. Use regex to select the park connectors you want included in the quiz (try typing 'Park' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'hotels' },
+      props: {
+        title: 'Hotels of Singapore',
+        data: hotelsData,
+        instructions: "How many hotels in Singapore can you name? As you answer, the marker will disappear. Use regex to select the hotels you want included in the quiz (try typing 'Hotel' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cc' },
+      props: {
+        title: 'Community Centres of Singapore',
+        data: ccData,
+        instructions: "How many community centres in Singapore can you name? As you answer, the marker will disappear. Use regex to select the community centres you want included in the quiz (try typing 'CC' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+      }
+    },
+    {
+      params: { quiz: 'tourist-attractions' },
+      props: {
+        title: 'Tourist Attractions of Singapore',
+        data: touristAttractionsData,
+        instructions: "How many tourist attractions in Singapore can you name? As you answer, the marker will disappear. Use regex to select the tourist attractions you want included in the quiz (try typing 'Park' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
       }
     }
   ]
