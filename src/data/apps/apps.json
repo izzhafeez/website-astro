@@ -6,5 +6,9 @@
   "vimtier": {
     "title": "VimTier",
     "heroText": "Create tier lists with just your keyboard with VimTier!"
+  },
+  "routeweaver": {
+    "title": "RouteWeaver",
+    "heroText": "Plan your hikes with ease with RouteWeaver!"
   }
 }
