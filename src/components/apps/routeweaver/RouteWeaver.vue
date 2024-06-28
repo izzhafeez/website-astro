@@ -1,11 +1,12 @@
 <template>
-  <div class="my-4 max-w-6xl mx-auto">
+  <div class="my-4 max-w-6xl mx-auto p-2">
     <h1 class="text-6xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text my-6">RouteWeaver</h1>
     <p class="text-lg my-6">A simple route planner that helps you find the best route to visit multiple locations.</p>
     <div class="flex gap-2 my-2">
-      <button @click="handleNewLocation" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Add <img src="/img/common/plus.svg" class="h-4 w-4 dark:invert my-auto"/></button>
-      <button @click="() => generateStartingRoute(1)" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Find Interest Points <img src="/img/common/location.svg" class="h-4 w-4 dark:invert my-auto"/></button>
-      <button @click="() => getBestTravellingSalesman(100)" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Recommend Route <img src="/img/common/route.svg" class="h-4 w-4 dark:invert my-auto"/></button>
+      <input type="number" v-model="numOfRoutes" class="px-2 py-1 bg-gray-500/20 rounded-md" placeholder="Number of routes"/>
+      <button @click="handleNewLocation" class="px-2 py-1 flex gap-2 bg-black hover:bg-black/80 dark:bg-white dark:hover:bg-white/80 rounded-md"><span class="invert my-auto">Add</span> <img src="/img/common/plus.svg" class="h-4 w-4 invert dark:invert-0 my-auto"/></button>
+      <button @click="() => generateStartingRoute()" class="px-2 py-1 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md"><span class="my-auto">Find Interest Points</span> <img src="/img/common/location.svg" class="h-4 w-4 dark:invert my-auto"/></button>
+      <button @click="() => getBestTravellingSalesman(100)" class="px-2 py-1 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md"><span class="my-auto">Recommend Route</span> <img src="/img/common/route.svg" class="h-4 w-4 dark:invert my-auto"/></button>
     </div>
   </div>
   <div class="h-80 w-full mt-4">
@@ -29,8 +30,8 @@
     </l-map>
   </div>
   <!-- list to delete point -->
-  <h2 class="text-2xl font-bold mx-auto max-w-6xl mt-4">Selected Points</h2>
-  <div class="flex flex-wrap gap-2 mt-4 max-w-6xl mx-auto">
+  <h2 class="text-2xl font-bold mx-auto max-w-6xl mt-4 px-2">Selected Points</h2>
+  <div class="flex flex-wrap gap-2 mt-4 max-w-6xl mx-auto px-2">
     <div v-for="(point, index) in points" :key="index" class="bg-gray-500/20 p-2 rounded-md flex gap-2">
       <p class="my-auto">{{ point.name }}</p>
       <button @click="() => deletePoint(index)" class="p-2 bg-gray-500/30 hover:bg-gray-500/40 rounded-md my-auto">Delete</button>
@@ -60,6 +61,7 @@ export default {
   data() {
     return {
       zoom: 12,
+      numOfRoutes: 1,
       points: [],
       safePoints: [...Object.entries(mrtData)].map(([key, value]) => {
         return {
@@ -210,10 +212,10 @@ export default {
         return this.safePoints[safe];
       })
     },
-    generateStartingRoute(skips) {
+    generateStartingRoute() {
       const nearbySafes = this.findNearbySafes();
       const nearbyInterests = this.findNearbyInterests();
-      const route = [...nearbySafes, ...nearbyInterests, ...this.points, ...new Array(skips).fill({ type: 'skip', lat: 1.35, lng: 103.85 })];
+      const route = [...nearbySafes, ...nearbyInterests, ...this.points, ...new Array(this.numOfRoutes-1).fill({ type: 'skip', lat: 1.35, lng: 103.85 })];
       this.route = route;
     },
     getBestTravellingSalesman(epochs) {
