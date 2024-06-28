@@ -1,4 +1,13 @@
 <template>
+  <div class="my-4 max-w-6xl mx-auto">
+    <h1 class="text-6xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text my-6">RouteWeaver</h1>
+    <p class="text-lg my-6">A simple route planner that helps you find the best route to visit multiple locations.</p>
+    <div class="flex gap-2 my-2">
+      <button @click="handleNewLocation" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Add <img src="/img/common/plus.svg" class="h-4 w-4 dark:invert my-auto"/></button>
+      <button @click="() => generateStartingRoute(1)" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Find Interest Points <img src="/img/common/location.svg" class="h-4 w-4 dark:invert my-auto"/></button>
+      <button @click="() => getBestTravellingSalesman(100)" class="p-2 flex gap-2 bg-gray-500/20 hover:bg-gray-500/30 rounded-md">Recommend Route <img src="/img/common/route.svg" class="h-4 w-4 dark:invert my-auto"/></button>
+    </div>
+  </div>
   <div class="h-80 w-full mt-4">
     <l-map ref="map" v-model:zoom="zoom"
       :center="[1.35, 103.85]" class="z-20">
@@ -7,7 +16,7 @@
         layer-type="base"
         name="OpenStreetMap"
       ></l-tile-layer>
-      <l-marker v-for="(point, index) in route.slice(0, 20)" :key="index" :lat-lng="[point.lat, point.lng]">
+      <l-marker v-for="(point, index) in route.slice(0, 20).filter(point => point.type != 'skip' && point.type != 'wanted')" :key="index" :lat-lng="[point.lat, point.lng]">
         <l-icon icon-url='https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png' :icon-size="[10,15]" :icon-anchor="[5,15]"></l-icon>
         <l-tooltip ref="tooltip">{{ point.name }}</l-tooltip>
       </l-marker>
@@ -19,9 +28,14 @@
       </l-marker>
     </l-map>
   </div>
-  <button @click="handleNewLocation">hello</button>
-  <button @click="() => generateStartingRoute(1)">start</button>
-  <button @click="() => getBestTravellingSalesman(100)">find</button>
+  <!-- list to delete point -->
+  <h2 class="text-2xl font-bold mx-auto max-w-6xl mt-4">Selected Points</h2>
+  <div class="flex flex-wrap gap-2 mt-4 max-w-6xl mx-auto">
+    <div v-for="(point, index) in points" :key="index" class="bg-gray-500/20 p-2 rounded-md flex gap-2">
+      <p class="my-auto">{{ point.name }}</p>
+      <button @click="() => deletePoint(index)" class="p-2 bg-gray-500/30 hover:bg-gray-500/40 rounded-md my-auto">Delete</button>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -46,38 +60,7 @@ export default {
   data() {
     return {
       zoom: 12,
-      points: [
-        {
-          name: 'Bedok Mall',
-          lat: 1.3243,
-          lng: 103.9298,
-          type: 'wanted'
-        },
-        {
-          name: 'Victoria School',
-          lat: 1.3155,
-          lng: 103.8945,
-          type: 'wanted'
-        },
-        {
-          name: 'Zhenghua Nature Park',
-          lat: 1.3715,
-          lng: 103.7675,
-          type: 'wanted'
-        },
-        {
-          name: 'Dairy Farm Nature Park',
-          lat: 1.3645,
-          lng: 103.7715,
-          type: 'wanted'
-        },
-        {
-          name: 'Bedok Reservoir Park',
-          lat: 1.3365,
-          lng: 103.9305,
-          type: 'wanted'
-        }
-      ],
+      points: [],
       safePoints: [...Object.entries(mrtData)].map(([key, value]) => {
         return {
           name: key,
@@ -116,7 +99,7 @@ export default {
     },
     async getPossibleLocations(name) {
       const url = `https://www.onemap.gov.sg/api/common/elastic/search?searchVal=${name}&returnGeom=Y&getAddrDetails=Y&pageNum=1`
-      const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlNmVhOGY2ODU4ZWI2YmZmODc0N2I3ZWEyMGRmZjVkMSIsImlzcyI6Imh0dHA6Ly9pbnRlcm5hbC1hbGItb20tcHJkZXppdC1pdC0xMjIzNjk4OTkyLmFwLXNvdXRoZWFzdC0xLmVsYi5hbWF6b25hd3MuY29tL2FwaS92Mi91c2VyL3Bhc3N3b3JkIiwiaWF0IjoxNzE5MjI4MTQ3LCJleHAiOjE3MTk0ODczNDcsIm5iZiI6MTcxOTIyODE0NywianRpIjoiQnJsTVFxS3FpTkFtUlFNTiIsInVzZXJfaWQiOjMwMDMsImZvcmV2ZXIiOmZhbHNlfQ.ZpdLOQRuxtX-7cMNiTHPjFYSFTi_ipOQ30ng3hitkSY";
+      const token = import.meta.env.ONEMAP_TOKEN;
       const header = {
         "Authorization": `Bearer ${token}`
       };
@@ -166,6 +149,9 @@ export default {
           this.points.push(selected);
         }
       });
+    },
+    deletePoint(index) {
+      this.points.splice(index, 1);
     },
     evaluate(route) {
       let totalDistance = 0;
