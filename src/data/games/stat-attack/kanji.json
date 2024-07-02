@@ -1,800 +1,1052 @@
 [
   {
-    "name": "\u5c3a",
-    "No. of Strokes": 4,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 1940
-  },
-  {
-    "name": "\u4e01",
-    "No. of Strokes": 2,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 1312
-  },
-  {
-    "name": "\u5200",
-    "No. of Strokes": 2,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 1794
-  },
-  {
-    "name": "\u4e5d",
-    "No. of Strokes": 2,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 55
-  },
-  {
-    "name": "\u8b77",
-    "No. of Strokes": 20,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 351
-  },
-  {
-    "name": "\u8b70",
-    "No. of Strokes": 20,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 25
-  },
-  {
-    "name": "\u5e74",
-    "No. of Strokes": 6,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 6
-  },
-  {
-    "name": "\u4eba",
-    "No. of Strokes": 2,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 5
-  },
-  {
-    "name": "\u5165",
-    "No. of Strokes": 2,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 56
-  },
-  {
-    "name": "\u4e0a",
-    "No. of Strokes": 3,
-    "No. of Readings": 18,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 35
-  },
-  {
-    "name": "\u984c",
-    "No. of Strokes": 18,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 96
-  },
-  {
-    "name": "\u4e00",
-    "No. of Strokes": 1,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 2
-  },
-  {
-    "name": "\u8b1d",
-    "No. of Strokes": 17,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 1028
-  },
-  {
-    "name": "\u65e5",
-    "No. of Strokes": 4,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 1
-  },
-  {
-    "name": "\u53b3",
-    "No. of Strokes": 17,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 638
-  },
-  {
-    "name": "\u7af6",
-    "No. of Strokes": 20,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 610
+    "name": "\u9b31",
+    "Unicode ID": 39729,
+    "Number of Strokes": 29,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
     "name": "\u4e0b",
-    "No. of Strokes": 3,
-    "No. of Readings": 14,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 97
+    "Unicode ID": 19979,
+    "Number of Strokes": 3,
+    "Number of Readings": 12,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u672c",
-    "No. of Strokes": 5,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 10
+    "name": "\u4e0a",
+    "Unicode ID": 19978,
+    "Number of Strokes": 3,
+    "Number of Readings": 10,
+    "Japanese Grade": 1
   },
   {
     "name": "\u751f",
-    "No. of Strokes": 5,
-    "No. of Readings": 20,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 29
+    "Unicode ID": 29983,
+    "Number of Strokes": 5,
+    "Number of Readings": 12,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u8b1b",
-    "No. of Strokes": 17,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 653
+    "name": "\u4e00",
+    "Unicode ID": 19968,
+    "Number of Strokes": 1,
+    "Number of Readings": 4,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u6708",
-    "No. of Strokes": 4,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 23
+    "name": "\u96e8",
+    "Unicode ID": 38632,
+    "Number of Strokes": 8,
+    "Number of Readings": 3,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u8208",
-    "No. of Strokes": 16,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 734
+    "name": "\u4e09",
+    "Unicode ID": 19977,
+    "Number of Strokes": 3,
+    "Number of Readings": 4,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u6574",
-    "No. of Strokes": 16,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 478
+    "name": "\u4e03",
+    "Unicode ID": 19971,
+    "Number of Strokes": 2,
+    "Number of Readings": 4,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u7c21",
-    "No. of Strokes": 18,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 983
+    "name": "\u4e59",
+    "Unicode ID": 20057,
+    "Number of Strokes": 1,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u6b62",
-    "No. of Strokes": 4,
-    "No. of Readings": 15,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 310
+    "name": "\u4e9c",
+    "Unicode ID": 20124,
+    "Number of Strokes": 7,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u61b2",
-    "No. of Strokes": 16,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 551
+    "name": "\u9192",
+    "Unicode ID": 37266,
+    "Number of Strokes": 16,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u5fdc",
-    "No. of Strokes": 7,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 266
+    "name": "\u4e86",
+    "Unicode ID": 20102,
+    "Number of Strokes": 2,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u754c",
-    "No. of Strokes": 9,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 158
+    "name": "\u5e83",
+    "Unicode ID": 24195,
+    "Number of Strokes": 5,
+    "Number of Readings": 6,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u53f2",
-    "No. of Strokes": 5,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 511
+    "name": "\u7a6b",
+    "Unicode ID": 31339,
+    "Number of Strokes": 18,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u4e2d",
-    "No. of Strokes": 4,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 11
+    "name": "\u53c8",
+    "Unicode ID": 21448,
+    "Number of Strokes": 2,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u610f",
-    "No. of Strokes": 13,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 99
-  },
-  {
-    "name": "\u56fd",
-    "No. of Strokes": 8,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 3
-  },
-  {
-    "name": "\u884c",
-    "No. of Strokes": 6,
-    "No. of Readings": 11,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 20
-  },
-  {
-    "name": "\u7acb",
-    "No. of Strokes": 5,
-    "No. of Readings": 13,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 58
-  },
-  {
-    "name": "\u5927",
-    "No. of Strokes": 3,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 7
-  },
-  {
-    "name": "\u5207",
-    "No. of Strokes": 4,
-    "No. of Readings": 12,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 324
-  },
-  {
-    "name": "\u9577",
-    "No. of Strokes": 8,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 12
-  },
-  {
-    "name": "\u7de8",
-    "No. of Strokes": 15,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 591
-  },
-  {
-    "name": "\u4e38",
-    "No. of Strokes": 3,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 542
-  },
-  {
-    "name": "\u4f1a",
-    "No. of Strokes": 6,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 4
-  },
-  {
-    "name": "\u660e",
-    "No. of Strokes": 8,
-    "No. of Readings": 13,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 67
-  },
-  {
-    "name": "\u5b50",
-    "No. of Strokes": 3,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 72
-  },
-  {
-    "name": "\u5c71",
-    "No. of Strokes": 3,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 131
-  },
-  {
-    "name": "\u7b56",
-    "No. of Strokes": 12,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 209
-  },
-  {
-    "name": "\u5c06",
-    "No. of Strokes": 10,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 634
-  },
-  {
-    "name": "\u5408",
-    "No. of Strokes": 6,
-    "No. of Readings": 12,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 41
-  },
-  {
-    "name": "\u54e1",
-    "No. of Strokes": 10,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 54
-  },
-  {
-    "name": "\u6765",
-    "No. of Strokes": 7,
-    "No. of Readings": 9,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 102
-  },
-  {
-    "name": "\u6a5f",
-    "No. of Strokes": 16,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 127
-  },
-  {
-    "name": "\u5e79",
-    "No. of Strokes": 13,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 1,
-    "Frequency Rank": 364
-  },
-  {
-    "name": "\u6e08",
-    "No. of Strokes": 11,
-    "No. of Readings": 12,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 168
-  },
-  {
-    "name": "\u9078",
-    "No. of Strokes": 15,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 57
-  },
-  {
-    "name": "\u4ee3",
-    "No. of Strokes": 5,
-    "No. of Readings": 11,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 66
-  },
-  {
-    "name": "\u51fa",
-    "No. of Strokes": 5,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 13
-  },
-  {
-    "name": "\u5236",
-    "No. of Strokes": 8,
-    "No. of Readings": 1,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 108
-  },
-  {
-    "name": "\u6975",
-    "No. of Strokes": 12,
-    "No. of Readings": 9,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 460
-  },
-  {
-    "name": "\u524d",
-    "No. of Strokes": 9,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 27
+    "name": "\u66d6",
+    "Unicode ID": 26326,
+    "Number of Strokes": 17,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
     "name": "\u5916",
-    "No. of Strokes": 5,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 81
+    "Unicode ID": 22806,
+    "Number of Strokes": 5,
+    "Number of Readings": 6,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u9818",
-    "No. of Strokes": 14,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 138
+    "name": "\u5a01",
+    "Unicode ID": 23041,
+    "Number of Strokes": 9,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u6642",
-    "No. of Strokes": 10,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 16
+    "name": "\u9f3b",
+    "Unicode ID": 40763,
+    "Number of Strokes": 14,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
   },
   {
-    "name": "\u7dcf",
-    "No. of Strokes": 14,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 129
+    "name": "\u9ce5",
+    "Unicode ID": 40165,
+    "Number of Strokes": 11,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u8abf",
-    "No. of Strokes": 15,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 87
+    "name": "\u9732",
+    "Unicode ID": 38706,
+    "Number of Strokes": 21,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u6570",
-    "No. of Strokes": 13,
-    "No. of Readings": 10,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 148
+    "name": "\u9858",
+    "Unicode ID": 39000,
+    "Number of Strokes": 19,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u901a",
-    "No. of Strokes": 10,
-    "No. of Readings": 10,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 80
+    "name": "\u96a3",
+    "Unicode ID": 38563,
+    "Number of Strokes": 16,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u898b",
-    "No. of Strokes": 7,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 22
+    "name": "\u99ac",
+    "Unicode ID": 39340,
+    "Number of Strokes": 10,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u90e8",
-    "No. of Strokes": 11,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 36
+    "name": "\u66dc",
+    "Unicode ID": 26332,
+    "Number of Strokes": 18,
+    "Number of Readings": 1,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u89e3",
-    "No. of Strokes": 13,
-    "No. of Readings": 9,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 176
+    "name": "\u5165",
+    "Unicode ID": 20837,
+    "Number of Strokes": 2,
+    "Number of Readings": 4,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u56db",
-    "No. of Strokes": 5,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 47
+    "name": "\u8db3",
+    "Unicode ID": 36275,
+    "Number of Strokes": 7,
+    "Number of Readings": 5,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u66f8",
-    "No. of Strokes": 10,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 169
+    "name": "\u4eba",
+    "Unicode ID": 20154,
+    "Number of Strokes": 2,
+    "Number of Readings": 3,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u753b",
-    "No. of Strokes": 8,
-    "No. of Readings": 9,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 199
+    "name": "\u6fef",
+    "Unicode ID": 28655,
+    "Number of Strokes": 17,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u653f",
-    "No. of Strokes": 9,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 17
+    "name": "\u6c3e",
+    "Unicode ID": 27710,
+    "Number of Strokes": 5,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u5f8c",
-    "No. of Strokes": 9,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 26
+    "name": "\u6328",
+    "Unicode ID": 25384,
+    "Number of Strokes": 10,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u624b",
-    "No. of Strokes": 4,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 60
+    "name": "\u4e8c",
+    "Unicode ID": 20108,
+    "Number of Strokes": 2,
+    "Number of Readings": 3,
+    "Japanese Grade": 1
   },
   {
-    "name": "\u4e8b",
-    "No. of Strokes": 8,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 18
+    "name": "\u984d",
+    "Unicode ID": 38989,
+    "Number of Strokes": 18,
+    "Number of Readings": 2,
+    "Japanese Grade": 5
   },
   {
-    "name": "\u8a18",
-    "No. of Strokes": 10,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 149
+    "name": "\u5e06",
+    "Unicode ID": 24070,
+    "Number of Strokes": 6,
+    "Number of Readings": 2,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u95a2",
-    "No. of Strokes": 14,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 70
-  },
-  {
-    "name": "\u4e0d",
-    "No. of Strokes": 4,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 101
-  },
-  {
-    "name": "\u969b",
-    "No. of Strokes": 14,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 183
-  },
-  {
-    "name": "\u793e",
-    "No. of Strokes": 7,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 21
-  },
-  {
-    "name": "\u52e2",
-    "No. of Strokes": 13,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 260
-  },
-  {
-    "name": "\u91cd",
-    "No. of Strokes": 9,
-    "No. of Readings": 9,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 193
-  },
-  {
-    "name": "\u696d",
-    "No. of Strokes": 13,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 43
-  },
-  {
-    "name": "\u671f",
-    "No. of Strokes": 12,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 117
-  },
-  {
-    "name": "\u5bfe",
-    "No. of Strokes": 7,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 34
-  },
-  {
-    "name": "\u6539",
-    "No. of Strokes": 7,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 2,
-    "Frequency Rank": 147
-  },
-  {
-    "name": "\u65b0",
-    "No. of Strokes": 13,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 51
-  },
-  {
-    "name": "\u70b9",
-    "No. of Strokes": 9,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 165
-  },
-  {
-    "name": "\u7d4c",
-    "No. of Strokes": 11,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 79
-  },
-  {
-    "name": "\u9593",
-    "No. of Strokes": 12,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 33
-  },
-  {
-    "name": "\u548c",
-    "No. of Strokes": 8,
-    "No. of Readings": 8,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 124
-  },
-  {
-    "name": "\u7d9a",
-    "No. of Strokes": 13,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 141
-  },
-  {
-    "name": "\u6226",
-    "No. of Strokes": 13,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 78
-  },
-  {
-    "name": "\u9996",
-    "No. of Strokes": 9,
-    "No. of Readings": 2,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 98
-  },
-  {
-    "name": "\u5efa",
-    "No. of Strokes": 9,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 300
-  },
-  {
-    "name": "\u5f53",
-    "No. of Strokes": 6,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 91
-  },
-  {
-    "name": "\u9023",
-    "No. of Strokes": 10,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 30
+    "name": "\u6271",
+    "Unicode ID": 25201,
+    "Number of Strokes": 6,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
     "name": "\u4e16",
-    "No. of Strokes": 5,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 135
+    "Unicode ID": 19990,
+    "Number of Strokes": 5,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
   },
   {
-    "name": "\u5b9f",
-    "No. of Strokes": 8,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 68
+    "name": "\u9806",
+    "Unicode ID": 38918,
+    "Number of Strokes": 12,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u9ad8",
-    "No. of Strokes": 10,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 65
+    "name": "\u6cbb",
+    "Unicode ID": 27835,
+    "Number of Strokes": 8,
+    "Number of Readings": 6,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u4e3b",
-    "No. of Strokes": 5,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 95
+    "name": "\u5200",
+    "Unicode ID": 20992,
+    "Number of Strokes": 2,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
   },
   {
-    "name": "\u91d1",
-    "No. of Strokes": 8,
-    "No. of Readings": 6,
-    "JLPT Level (N)": 5,
-    "Frequency Rank": 53
+    "name": "\u5b9b",
+    "Unicode ID": 23451,
+    "Number of Strokes": 8,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u5834",
-    "No. of Strokes": 12,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 52
+    "name": "\u6d6e",
+    "Unicode ID": 28014,
+    "Number of Strokes": 10,
+    "Number of Readings": 5,
+    "Japanese Grade": 7
   },
   {
-    "name": "\u958b",
-    "No. of Strokes": 12,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 59
+    "name": "\u82e6",
+    "Unicode ID": 33510,
+    "Number of Strokes": 8,
+    "Number of Readings": 6,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u5d50",
+    "Unicode ID": 23888,
+    "Number of Strokes": 12,
+    "Number of Readings": 1,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u7e6d",
+    "Unicode ID": 32365,
+    "Number of Strokes": 18,
+    "Number of Readings": 2,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u611b",
+    "Unicode ID": 24859,
+    "Number of Strokes": 13,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u8584",
+    "Unicode ID": 34180,
+    "Number of Strokes": 16,
+    "Number of Readings": 6,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u7ffb",
+    "Unicode ID": 32763,
+    "Number of Strokes": 18,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u4f9b",
+    "Unicode ID": 20379,
+    "Number of Strokes": 8,
+    "Number of Readings": 4,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u9810",
+    "Unicode ID": 38928,
+    "Number of Strokes": 13,
+    "Number of Readings": 3,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u5207",
+    "Unicode ID": 20999,
+    "Number of Strokes": 4,
+    "Number of Readings": 4,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u7652",
+    "Unicode ID": 30290,
+    "Number of Strokes": 18,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u5727",
+    "Unicode ID": 22311,
+    "Number of Strokes": 5,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u6f0f",
+    "Unicode ID": 28431,
+    "Number of Strokes": 14,
+    "Number of Readings": 4,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u904e",
+    "Unicode ID": 36942,
+    "Number of Strokes": 12,
+    "Number of Readings": 5,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u9678",
+    "Unicode ID": 38520,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u5f93",
+    "Unicode ID": 24467,
+    "Number of Strokes": 10,
+    "Number of Readings": 5,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u4ed5",
+    "Unicode ID": 20181,
+    "Number of Strokes": 5,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u8f9b",
+    "Unicode ID": 36763,
+    "Number of Strokes": 7,
+    "Number of Readings": 2,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u6c34",
+    "Unicode ID": 27700,
+    "Number of Strokes": 4,
+    "Number of Readings": 2,
+    "Japanese Grade": 1
+  },
+  {
+    "name": "\u89e3",
+    "Unicode ID": 35299,
+    "Number of Strokes": 13,
+    "Number of Readings": 5,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u5185",
+    "Unicode ID": 20869,
+    "Number of Strokes": 4,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u92fc",
+    "Unicode ID": 37628,
+    "Number of Strokes": 16,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u5805",
+    "Unicode ID": 22533,
+    "Number of Strokes": 12,
+    "Number of Readings": 2,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u969b",
+    "Unicode ID": 38555,
+    "Number of Strokes": 14,
+    "Number of Readings": 2,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u5fb3",
+    "Unicode ID": 24499,
+    "Number of Strokes": 14,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u5f15",
+    "Unicode ID": 24341,
+    "Number of Strokes": 4,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u8aad",
+    "Unicode ID": 35501,
+    "Number of Strokes": 14,
+    "Number of Readings": 4,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u8cde",
+    "Unicode ID": 36062,
+    "Number of Strokes": 15,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u6a19",
+    "Unicode ID": 27161,
+    "Number of Strokes": 15,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u7fbd",
+    "Unicode ID": 32701,
+    "Number of Strokes": 6,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u7d19",
+    "Unicode ID": 32025,
+    "Number of Strokes": 10,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u4ee5",
+    "Unicode ID": 20197,
+    "Number of Strokes": 5,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u6975",
+    "Unicode ID": 26997,
+    "Number of Strokes": 12,
+    "Number of Readings": 5,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u65b0",
+    "Unicode ID": 26032,
+    "Number of Strokes": 13,
+    "Number of Readings": 4,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u90e8",
+    "Unicode ID": 37096,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u9031",
+    "Unicode ID": 36913,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u9152",
+    "Unicode ID": 37202,
+    "Number of Strokes": 10,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u4ed6",
+    "Unicode ID": 20182,
+    "Number of Strokes": 5,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u6848",
+    "Unicode ID": 26696,
+    "Number of Strokes": 10,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u6e05",
+    "Unicode ID": 28165,
+    "Number of Strokes": 11,
+    "Number of Readings": 5,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u5efa",
+    "Unicode ID": 24314,
+    "Number of Strokes": 9,
+    "Number of Readings": 4,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u8abf",
+    "Unicode ID": 35519,
+    "Number of Strokes": 15,
+    "Number of Readings": 4,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u6a5f",
+    "Unicode ID": 27231,
+    "Number of Strokes": 16,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u57df",
+    "Unicode ID": 22495,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u71c3",
+    "Unicode ID": 29123,
+    "Number of Strokes": 16,
+    "Number of Readings": 4,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u7a32",
+    "Unicode ID": 31282,
+    "Number of Strokes": 14,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u4fc2",
+    "Unicode ID": 20418,
+    "Number of Strokes": 9,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u907a",
+    "Unicode ID": 36986,
+    "Number of Strokes": 15,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u4f4d",
+    "Unicode ID": 20301,
+    "Number of Strokes": 7,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u54c0",
+    "Unicode ID": 21696,
+    "Number of Strokes": 9,
+    "Number of Readings": 3,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u8ca0",
+    "Unicode ID": 36000,
+    "Number of Strokes": 9,
+    "Number of Readings": 4,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u5e8f",
+    "Unicode ID": 24207,
+    "Number of Strokes": 7,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u63e1",
+    "Unicode ID": 25569,
+    "Number of Strokes": 12,
+    "Number of Readings": 2,
+    "Japanese Grade": 7
+  },
+  {
+    "name": "\u505c",
+    "Unicode ID": 20572,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u6b21",
+    "Unicode ID": 27425,
+    "Number of Strokes": 6,
+    "Number of Readings": 4,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u8a71",
+    "Unicode ID": 35441,
+    "Number of Strokes": 13,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u53bb",
+    "Unicode ID": 21435,
+    "Number of Strokes": 5,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u5019",
+    "Unicode ID": 20505,
+    "Number of Strokes": 10,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u7c73",
+    "Unicode ID": 31859,
+    "Number of Strokes": 6,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u8f9e",
+    "Unicode ID": 36766,
+    "Number of Strokes": 13,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u8d77",
+    "Unicode ID": 36215,
+    "Number of Strokes": 10,
+    "Number of Readings": 4,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u6d0b",
+    "Unicode ID": 27915,
+    "Number of Strokes": 9,
+    "Number of Readings": 1,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u71b1",
+    "Unicode ID": 29105,
+    "Number of Strokes": 15,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u718a",
+    "Unicode ID": 29066,
+    "Number of Strokes": 14,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u793a",
+    "Unicode ID": 31034,
+    "Number of Strokes": 5,
+    "Number of Readings": 3,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u5c90",
+    "Unicode ID": 23696,
+    "Number of Strokes": 7,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u80fd",
+    "Unicode ID": 33021,
+    "Number of Strokes": 10,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u7e04",
+    "Unicode ID": 32260,
+    "Number of Strokes": 15,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u7dd1",
+    "Unicode ID": 32209,
+    "Number of Strokes": 14,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u7981",
+    "Unicode ID": 31105,
+    "Number of Strokes": 13,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u897f",
+    "Unicode ID": 35199,
+    "Number of Strokes": 6,
+    "Number of Readings": 3,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u5b87",
+    "Unicode ID": 23431,
+    "Number of Strokes": 6,
+    "Number of Readings": 1,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u6279",
+    "Unicode ID": 25209,
+    "Number of Strokes": 7,
+    "Number of Readings": 1,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u56fd",
+    "Unicode ID": 22269,
+    "Number of Strokes": 8,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u8863",
+    "Unicode ID": 34915,
+    "Number of Strokes": 6,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u753b",
+    "Unicode ID": 30011,
+    "Number of Strokes": 8,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u5473",
+    "Unicode ID": 21619,
+    "Number of Strokes": 8,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u7248",
+    "Unicode ID": 29256,
+    "Number of Strokes": 8,
+    "Number of Readings": 1,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u7ba1",
+    "Unicode ID": 31649,
+    "Number of Strokes": 14,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u8cbb",
+    "Unicode ID": 36027,
+    "Number of Strokes": 12,
+    "Number of Readings": 3,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u7528",
+    "Unicode ID": 29992,
+    "Number of Strokes": 5,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u53d6",
+    "Unicode ID": 21462,
+    "Number of Strokes": 8,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u81f3",
+    "Unicode ID": 33267,
+    "Number of Strokes": 6,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u5fd7",
+    "Unicode ID": 24535,
+    "Number of Strokes": 7,
+    "Number of Readings": 3,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u5404",
+    "Unicode ID": 21508,
+    "Number of Strokes": 6,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u8a33",
+    "Unicode ID": 35379,
+    "Number of Strokes": 11,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u56f2",
+    "Unicode ID": 22258,
+    "Number of Strokes": 7,
+    "Number of Readings": 3,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u5a9b",
+    "Unicode ID": 23195,
+    "Number of Strokes": 12,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u6697",
+    "Unicode ID": 26263,
+    "Number of Strokes": 13,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u6d77",
+    "Unicode ID": 28023,
+    "Number of Strokes": 9,
+    "Number of Readings": 2,
+    "Japanese Grade": 2
+  },
+  {
+    "name": "\u5b89",
+    "Unicode ID": 23433,
+    "Number of Strokes": 6,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u8a31",
+    "Unicode ID": 35377,
+    "Number of Strokes": 11,
+    "Number of Readings": 2,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u7d79",
+    "Unicode ID": 32121,
+    "Number of Strokes": 13,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
   },
   {
     "name": "\u6c7a",
-    "No. of Strokes": 7,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 71
+    "Unicode ID": 27770,
+    "Number of Strokes": 7,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
   },
   {
-    "name": "\u6700",
-    "No. of Strokes": 12,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 82
+    "name": "\u60aa",
+    "Unicode ID": 24746,
+    "Number of Strokes": 11,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
   },
   {
-    "name": "\u52a0",
-    "No. of Strokes": 5,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 130
+    "name": "\u826f",
+    "Unicode ID": 33391,
+    "Number of Strokes": 7,
+    "Number of Readings": 2,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u5f37",
-    "No. of Strokes": 11,
-    "No. of Readings": 7,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 112
+    "name": "\u5c02",
+    "Unicode ID": 23554,
+    "Number of Strokes": 9,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
   },
   {
-    "name": "\u52d5",
-    "No. of Strokes": 11,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 73
+    "name": "\u6211",
+    "Unicode ID": 25105,
+    "Number of Strokes": 7,
+    "Number of Readings": 3,
+    "Japanese Grade": 6
   },
   {
-    "name": "\u591a",
-    "No. of Strokes": 6,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 139
+    "name": "\u6d17",
+    "Unicode ID": 27927,
+    "Number of Strokes": 9,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
   },
   {
-    "name": "\u554f",
-    "No. of Strokes": 11,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 64
+    "name": "\u5e2f",
+    "Unicode ID": 24111,
+    "Number of Strokes": 10,
+    "Number of Readings": 3,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u73fe",
-    "No. of Strokes": 11,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 85
+    "name": "\u62fe",
+    "Unicode ID": 25342,
+    "Number of Strokes": 9,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
   },
   {
-    "name": "\u5168",
-    "No. of Strokes": 6,
-    "No. of Readings": 3,
-    "JLPT Level (N)": 3,
-    "Frequency Rank": 75
+    "name": "\u7bc0",
+    "Unicode ID": 31680,
+    "Number of Strokes": 13,
+    "Number of Readings": 3,
+    "Japanese Grade": 4
   },
   {
-    "name": "\u4eac",
-    "No. of Strokes": 8,
-    "No. of Readings": 4,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 74
+    "name": "\u6cc9",
+    "Unicode ID": 27849,
+    "Number of Strokes": 9,
+    "Number of Readings": 2,
+    "Japanese Grade": 6
   },
   {
-    "name": "\u5ea6",
-    "No. of Strokes": 9,
-    "No. of Readings": 5,
-    "JLPT Level (N)": 4,
-    "Frequency Rank": 110
+    "name": "\u68b0",
+    "Unicode ID": 26800,
+    "Number of Strokes": 11,
+    "Number of Readings": 1,
+    "Japanese Grade": 4
+  },
+  {
+    "name": "\u60b2",
+    "Unicode ID": 24754,
+    "Number of Strokes": 12,
+    "Number of Readings": 3,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u62c5",
+    "Unicode ID": 25285,
+    "Number of Strokes": 8,
+    "Number of Readings": 3,
+    "Japanese Grade": 6
+  },
+  {
+    "name": "\u7ae5",
+    "Unicode ID": 31461,
+    "Number of Strokes": 12,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u6e2c",
+    "Unicode ID": 28204,
+    "Number of Strokes": 12,
+    "Number of Readings": 2,
+    "Japanese Grade": 5
+  },
+  {
+    "name": "\u6cb9",
+    "Unicode ID": 27833,
+    "Number of Strokes": 8,
+    "Number of Readings": 2,
+    "Japanese Grade": 3
+  },
+  {
+    "name": "\u72ec",
+    "Unicode ID": 29420,
+    "Number of Strokes": 9,
+    "Number of Readings": 2,
+    "Japanese Grade": 5
   }
 ]

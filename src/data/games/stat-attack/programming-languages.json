@@ -1,27 +1,51 @@
 [
   {
-    "name": "Euclidean geometry",
-    "Year Appeared": -300,
-    "Daily Wikipedia Views": 1084,
-    "No. of Users": 5440
+    "name": "NATO phonetic alphabet",
+    "Year Appeared": 1956,
+    "Daily Wikipedia Views": 13394,
+    "No. of Users": 66990
   },
   {
-    "name": "MATLAB",
-    "Year Appeared": 1984,
-    "Daily Wikipedia Views": 2338,
-    "No. of Users": 2661579
+    "name": "Bazel",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 96,
+    "No. of Users": 29776
   },
   {
-    "name": "Unicode",
-    "Year Appeared": 1987,
-    "Daily Wikipedia Views": 2672,
-    "No. of Users": 13380
+    "name": "WebAssembly",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 392,
+    "No. of Users": 8291
   },
   {
-    "name": "SMTP",
-    "Year Appeared": 1982,
-    "Daily Wikipedia Views": 2662,
-    "No. of Users": 13330
+    "name": "SQL",
+    "Year Appeared": 1974,
+    "Daily Wikipedia Views": 3084,
+    "No. of Users": 7179119
+  },
+  {
+    "name": "Balanced ternary",
+    "Year Appeared": 1544,
+    "Daily Wikipedia Views": 72,
+    "No. of Users": 380
+  },
+  {
+    "name": "Morse code",
+    "Year Appeared": 1837,
+    "Daily Wikipedia Views": 5843,
+    "No. of Users": 29235
+  },
+  {
+    "name": "ISBN",
+    "Year Appeared": 1970,
+    "Daily Wikipedia Views": 9882,
+    "No. of Users": 49430
+  },
+  {
+    "name": "C",
+    "Year Appeared": 1972,
+    "Daily Wikipedia Views": 6268,
+    "No. of Users": 3793768
   },
   {
     "name": "Visual Studio Code",
@@ -30,82 +54,370 @@
     "No. of Users": 8525
   },
   {
-    "name": "Met-English",
-    "Year Appeared": 1950,
-    "Daily Wikipedia Views": 3,
-    "No. of Users": 35
+    "name": "PyTorch",
+    "Year Appeared": 2016,
+    "Daily Wikipedia Views": 594,
+    "No. of Users": 107673
   },
   {
-    "name": "FXScript",
-    "Year Appeared": 2002,
-    "Daily Wikipedia Views": 2,
-    "No. of Users": 30
+    "name": "Babylonian numerals",
+    "Year Appeared": -2000,
+    "Daily Wikipedia Views": 210,
+    "No. of Users": 1070
   },
   {
-    "name": "Cryptol",
+    "name": "Analytical engine",
+    "Year Appeared": 1837,
+    "Daily Wikipedia Views": 106,
+    "No. of Users": 550
+  },
+  {
+    "name": "Crystal",
     "Year Appeared": 2014,
-    "Daily Wikipedia Views": 10,
-    "No. of Users": 1419
+    "Daily Wikipedia Views": 143,
+    "No. of Users": 27065
   },
   {
-    "name": "Go",
-    "Year Appeared": 2009,
-    "Daily Wikipedia Views": 2602,
-    "No. of Users": 525179
+    "name": "Keras",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 486,
+    "No. of Users": 115390
   },
   {
-    "name": "UPIC",
-    "Year Appeared": 2018,
-    "Daily Wikipedia Views": 25,
-    "No. of Users": 145
+    "name": "MicroPython",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 132,
+    "No. of Users": 34179
   },
   {
-    "name": "COMTRAN",
-    "Year Appeared": 1957,
-    "Daily Wikipedia Views": 547,
-    "No. of Users": 2755
+    "name": "Forsyth-Edwards Notation",
+    "Year Appeared": 1883,
+    "Daily Wikipedia Views": 109,
+    "No. of Users": 565
   },
   {
-    "name": "Mudlle",
-    "Year Appeared": 1998,
-    "Daily Wikipedia Views": 1,
-    "No. of Users": 43
+    "name": "HTML",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 4897,
+    "No. of Users": 5570873
   },
   {
-    "name": "Punched tape",
-    "Year Appeared": 1943,
-    "Daily Wikipedia Views": 196,
-    "No. of Users": 1000
+    "name": "JavaScript",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 4264,
+    "No. of Users": 5962666
   },
   {
-    "name": "SYMBOL",
-    "Year Appeared": 1971,
-    "Daily Wikipedia Views": 1206,
-    "No. of Users": 6050
+    "name": "Euclidean geometry",
+    "Year Appeared": -300,
+    "Daily Wikipedia Views": 1084,
+    "No. of Users": 5440
   },
   {
-    "name": "PhyloXML",
-    "Year Appeared": 2009,
-    "Daily Wikipedia Views": 6,
-    "No. of Users": 51
+    "name": "Android",
+    "Year Appeared": 2008,
+    "Daily Wikipedia Views": 9920,
+    "No. of Users": 975958
   },
   {
-    "name": "SYMBOLIC ASSEMBLY",
-    "Year Appeared": 1956,
-    "Daily Wikipedia Views": 3,
-    "No. of Users": 35
+    "name": "Python",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 7204,
+    "No. of Users": 2818037
   },
   {
-    "name": "ECL",
+    "name": "fish",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 62,
+    "No. of Users": 24362
+  },
+  {
+    "name": "C++",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 4307,
+    "No. of Users": 4128238
+  },
+  {
+    "name": "Hindu-Arabic numeral system",
+    "Year Appeared": 825,
+    "Daily Wikipedia Views": 656,
+    "No. of Users": 3300
+  },
+  {
+    "name": "x86-64",
     "Year Appeared": 2000,
     "Daily Wikipedia Views": 1,
-    "No. of Users": 1653
+    "No. of Users": 41291
   },
   {
-    "name": "IpTables Rope",
-    "Year Appeared": 2005,
-    "Daily Wikipedia Views": 4,
-    "No. of Users": 41
+    "name": "Java",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 5242,
+    "No. of Users": 5550123
+  },
+  {
+    "name": "Chapel",
+    "Year Appeared": 2004,
+    "Daily Wikipedia Views": 63,
+    "No. of Users": 16150
+  },
+  {
+    "name": "YARA",
+    "Year Appeared": 2008,
+    "Daily Wikipedia Views": 106,
+    "No. of Users": 10113
+  },
+  {
+    "name": "Binary notation",
+    "Year Appeared": 1689,
+    "Daily Wikipedia Views": 939,
+    "No. of Users": 4715
+  },
+  {
+    "name": "Linux",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 5655,
+    "No. of Users": 3229009
+  },
+  {
+    "name": "Regular Expressions",
+    "Year Appeared": 1951,
+    "Daily Wikipedia Views": 3569,
+    "No. of Users": 23343
+  },
+  {
+    "name": "iOS",
+    "Year Appeared": 2007,
+    "Daily Wikipedia Views": 6910,
+    "No. of Users": 535588
+  },
+  {
+    "name": "Solidity",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 405,
+    "No. of Users": 31940
+  },
+  {
+    "name": "Kubernetes",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 2560,
+    "No. of Users": 13820
+  },
+  {
+    "name": "HHVM",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 136,
+    "No. of Users": 26990
+  },
+  {
+    "name": "HTTP",
+    "Year Appeared": 1989,
+    "Daily Wikipedia Views": 6702,
+    "No. of Users": 33780
+  },
+  {
+    "name": "TensorFlow",
+    "Year Appeared": 2015,
+    "Daily Wikipedia Views": 1652,
+    "No. of Users": 435167
+  },
+  {
+    "name": "4G",
+    "Year Appeared": 2013,
+    "Daily Wikipedia Views": 1738,
+    "No. of Users": 8710
+  },
+  {
+    "name": "Iterm2",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 84,
+    "No. of Users": 16642
+  },
+  {
+    "name": "MATLAB",
+    "Year Appeared": 1984,
+    "Daily Wikipedia Views": 2338,
+    "No. of Users": 2661579
+  },
+  {
+    "name": "QR code",
+    "Year Appeared": 1994,
+    "Daily Wikipedia Views": 6415,
+    "No. of Users": 32095
+  },
+  {
+    "name": "Elm",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 268,
+    "No. of Users": 11377
+  },
+  {
+    "name": "Yes It Is",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 107,
+    "No. of Users": 35526
+  },
+  {
+    "name": "RDFa",
+    "Year Appeared": 2004,
+    "Daily Wikipedia Views": 1419,
+    "No. of Users": 7116
+  },
+  {
+    "name": "GraphQL",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 195,
+    "No. of Users": 18676
+  },
+  {
+    "name": "CSS",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 1937,
+    "No. of Users": 2881846
+  },
+  {
+    "name": "UTC",
+    "Year Appeared": 1960,
+    "Daily Wikipedia Views": 3949,
+    "No. of Users": 19765
+  },
+  {
+    "name": "SPSS",
+    "Year Appeared": 1968,
+    "Daily Wikipedia Views": 1898,
+    "No. of Users": 965674
+  },
+  {
+    "name": "SAS",
+    "Year Appeared": 1976,
+    "Daily Wikipedia Views": 151,
+    "No. of Users": 361103
+  },
+  {
+    "name": "ASCII",
+    "Year Appeared": 1963,
+    "Daily Wikipedia Views": 4139,
+    "No. of Users": 20715
+  },
+  {
+    "name": "Vue",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 852,
+    "No. of Users": 298982
+  },
+  {
+    "name": "MediaWiki",
+    "Year Appeared": 2002,
+    "Daily Wikipedia Views": 610,
+    "No. of Users": 7133
+  },
+  {
+    "name": "Fortran",
+    "Year Appeared": 1957,
+    "Daily Wikipedia Views": 2052,
+    "No. of Users": 165151
+  },
+  {
+    "name": "SI",
+    "Year Appeared": 1960,
+    "Daily Wikipedia Views": 2882,
+    "No. of Users": 14430
+  },
+  {
+    "name": "COBOL",
+    "Year Appeared": 1959,
+    "Daily Wikipedia Views": 1302,
+    "No. of Users": 187188
+  },
+  {
+    "name": "XAML",
+    "Year Appeared": 2008,
+    "Daily Wikipedia Views": 159,
+    "No. of Users": 202885
+  },
+  {
+    "name": "MySQL",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 2139,
+    "No. of Users": 2608362
+  },
+  {
+    "name": "Network Time Protocol",
+    "Year Appeared": 1981,
+    "Daily Wikipedia Views": 1441,
+    "No. of Users": 7225
+  },
+  {
+    "name": "Swift",
+    "Year Appeared": 2014,
+    "Daily Wikipedia Views": 1501,
+    "No. of Users": 362590
+  },
+  {
+    "name": "Natural Language Toolkit",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 111,
+    "No. of Users": 19291
+  },
+  {
+    "name": "PHP",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 3151,
+    "No. of Users": 2356101
+  },
+  {
+    "name": "Racket",
+    "Year Appeared": 1994,
+    "Daily Wikipedia Views": 286,
+    "No. of Users": 7353
+  },
+  {
+    "name": "Julia",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 640,
+    "No. of Users": 81911
+  },
+  {
+    "name": "TLS",
+    "Year Appeared": 1999,
+    "Daily Wikipedia Views": 4915,
+    "No. of Users": 24595
+  },
+  {
+    "name": "Lisp",
+    "Year Appeared": 1958,
+    "Daily Wikipedia Views": 1517,
+    "No. of Users": 61481
+  },
+  {
+    "name": "JQuery",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 886,
+    "No. of Users": 1553841
+  },
+  {
+    "name": "Nim",
+    "Year Appeared": 2008,
+    "Daily Wikipedia Views": 176,
+    "No. of Users": 19118
+  },
+  {
+    "name": "Digital Visual Interface",
+    "Year Appeared": 1999,
+    "Daily Wikipedia Views": 1473,
+    "No. of Users": 7385
+  },
+  {
+    "name": "XML",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 2861,
+    "No. of Users": 1917452
+  },
+  {
+    "name": "D3.js",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 275,
+    "No. of Users": 172549
   },
   {
     "name": "X86",
@@ -114,16 +426,304 @@
     "No. of Users": 7400
   },
   {
-    "name": "Vim",
-    "Year Appeared": 1991,
-    "Daily Wikipedia Views": 696,
-    "No. of Users": 152267
+    "name": "USB",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 4882,
+    "No. of Users": 24430
   },
   {
-    "name": "JSONiq",
+    "name": "Elixir",
     "Year Appeared": 2011,
-    "Daily Wikipedia Views": 6,
-    "No. of Users": 251
+    "Daily Wikipedia Views": 413,
+    "No. of Users": 55882
+  },
+  {
+    "name": "R",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 3651,
+    "No. of Users": 1075613
+  },
+  {
+    "name": "TypeScript",
+    "Year Appeared": 2012,
+    "Daily Wikipedia Views": 1098,
+    "No. of Users": 216959
+  },
+  {
+    "name": "REST",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 4834,
+    "No. of Users": 24190
+  },
+  {
+    "name": "Assembly language",
+    "Year Appeared": 1960,
+    "Daily Wikipedia Views": 2352,
+    "No. of Users": 26543
+  },
+  {
+    "name": "Dart",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 389,
+    "No. of Users": 38325
+  },
+  {
+    "name": "WordPress",
+    "Year Appeared": 2003,
+    "Daily Wikipedia Views": 2967,
+    "No. of Users": 1350482
+  },
+  {
+    "name": "SHA-1",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 1478,
+    "No. of Users": 7410
+  },
+  {
+    "name": "LaTeX",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 1540,
+    "No. of Users": 7721
+  },
+  {
+    "name": "Unix",
+    "Year Appeared": 1969,
+    "Daily Wikipedia Views": 2417,
+    "No. of Users": 12105
+  },
+  {
+    "name": "FTP",
+    "Year Appeared": 1971,
+    "Daily Wikipedia Views": 2685,
+    "No. of Users": 13916
+  },
+  {
+    "name": "SHA-2",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 1651,
+    "No. of Users": 8275
+  },
+  {
+    "name": "TCP",
+    "Year Appeared": 1974,
+    "Daily Wikipedia Views": 3336,
+    "No. of Users": 16700
+  },
+  {
+    "name": "LabVIEW G",
+    "Year Appeared": 1986,
+    "Daily Wikipedia Views": 556,
+    "No. of Users": 8125
+  },
+  {
+    "name": "HDMI",
+    "Year Appeared": 2002,
+    "Daily Wikipedia Views": 4233,
+    "No. of Users": 21185
+  },
+  {
+    "name": "CoffeeScript",
+    "Year Appeared": 2009,
+    "Daily Wikipedia Views": 295,
+    "No. of Users": 23320
+  },
+  {
+    "name": "DOI",
+    "Year Appeared": 2000,
+    "Daily Wikipedia Views": 4196,
+    "No. of Users": 21001
+  },
+  {
+    "name": "Mathematica",
+    "Year Appeared": 1988,
+    "Daily Wikipedia Views": 228,
+    "No. of Users": 148741
+  },
+  {
+    "name": "npm",
+    "Year Appeared": 2010,
+    "Daily Wikipedia Views": 492,
+    "No. of Users": 29587
+  },
+  {
+    "name": "Matplotlib",
+    "Year Appeared": 2003,
+    "Daily Wikipedia Views": 218,
+    "No. of Users": 36109
+  },
+  {
+    "name": "Kotlin",
+    "Year Appeared": 2011,
+    "Daily Wikipedia Views": 1638,
+    "No. of Users": 130094
+  },
+  {
+    "name": "AUTOCAD",
+    "Year Appeared": 1982,
+    "Daily Wikipedia Views": 1669,
+    "No. of Users": 8365
+  },
+  {
+    "name": "Git",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 2205,
+    "No. of Users": 714200
+  },
+  {
+    "name": "Microsoft Excel",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 3977,
+    "No. of Users": 19906
+  },
+  {
+    "name": "Perl",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 1299,
+    "No. of Users": 491984
+  },
+  {
+    "name": "JSON",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 3994,
+    "No. of Users": 355741
+  },
+  {
+    "name": "GAME",
+    "Year Appeared": 1977,
+    "Daily Wikipedia Views": 1706,
+    "No. of Users": 8550
+  },
+  {
+    "name": "Rust",
+    "Year Appeared": 2010,
+    "Daily Wikipedia Views": 1159,
+    "No. of Users": 302193
+  },
+  {
+    "name": "Maple",
+    "Year Appeared": 1982,
+    "Daily Wikipedia Views": 231,
+    "No. of Users": 53310
+  },
+  {
+    "name": "Arduino Programming Language",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 2640,
+    "No. of Users": 527398
+  },
+  {
+    "name": "Scikit-learn",
+    "Year Appeared": 2007,
+    "Daily Wikipedia Views": 360,
+    "No. of Users": 121955
+  },
+  {
+    "name": "Go",
+    "Year Appeared": 2009,
+    "Daily Wikipedia Views": 2602,
+    "No. of Users": 525179
+  },
+  {
+    "name": "Unity",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 1803,
+    "No. of Users": 9036
+  },
+  {
+    "name": "SciPy",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 237,
+    "No. of Users": 23940
+  },
+  {
+    "name": "Prolog",
+    "Year Appeared": 1972,
+    "Daily Wikipedia Views": 1127,
+    "No. of Users": 51482
+  },
+  {
+    "name": "Redis",
+    "Year Appeared": 2009,
+    "Daily Wikipedia Views": 707,
+    "No. of Users": 182783
+  },
+  {
+    "name": "DNS",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 3154,
+    "No. of Users": 15790
+  },
+  {
+    "name": "MD5",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 1753,
+    "No. of Users": 8785
+  },
+  {
+    "name": "UDP",
+    "Year Appeared": 1980,
+    "Daily Wikipedia Views": 1768,
+    "No. of Users": 8860
+  },
+  {
+    "name": "URL",
+    "Year Appeared": 1994,
+    "Daily Wikipedia Views": 3566,
+    "No. of Users": 17850
+  },
+  {
+    "name": "Microsoft Azure",
+    "Year Appeared": 2010,
+    "Daily Wikipedia Views": 1843,
+    "No. of Users": 154044
+  },
+  {
+    "name": "PostgreSQL",
+    "Year Appeared": 1986,
+    "Daily Wikipedia Views": 1262,
+    "No. of Users": 340751
+  },
+  {
+    "name": "Emacs",
+    "Year Appeared": 1976,
+    "Daily Wikipedia Views": 605,
+    "No. of Users": 64338
+  },
+  {
+    "name": "Microsoft Notepad",
+    "Year Appeared": 1983,
+    "Daily Wikipedia Views": 1881,
+    "No. of Users": 9425
+  },
+  {
+    "name": "Ruby",
+    "Year Appeared": 1995,
+    "Daily Wikipedia Views": 1731,
+    "No. of Users": 357730
+  },
+  {
+    "name": "GIF",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 3014,
+    "No. of Users": 15090
+  },
+  {
+    "name": "PowerPC",
+    "Year Appeared": 1992,
+    "Daily Wikipedia Views": 646,
+    "No. of Users": 9126
+  },
+  {
+    "name": "Eclipse",
+    "Year Appeared": 2001,
+    "Daily Wikipedia Views": 1892,
+    "No. of Users": 9480
+  },
+  {
+    "name": "MongoDB",
+    "Year Appeared": 2009,
+    "Daily Wikipedia Views": 1760,
+    "No. of Users": 318335
   },
   {
     "name": "Clojure",
@@ -132,771 +732,171 @@
     "No. of Users": 44933
   },
   {
-    "name": "Algol",
-    "Year Appeared": 1958,
-    "Daily Wikipedia Views": 323,
-    "No. of Users": 1635
+    "name": "SMTP",
+    "Year Appeared": 1982,
+    "Daily Wikipedia Views": 2662,
+    "No. of Users": 13330
   },
   {
-    "name": "Golo",
-    "Year Appeared": 2012,
-    "Daily Wikipedia Views": 12,
-    "No. of Users": 1018
-  },
-  {
-    "name": "N-Triples",
-    "Year Appeared": 2014,
-    "Daily Wikipedia Views": 91,
-    "No. of Users": 475
-  },
-  {
-    "name": "Logo",
-    "Year Appeared": 1967,
-    "Daily Wikipedia Views": 575,
-    "No. of Users": 2895
-  },
-  {
-    "name": "MakeDoc",
-    "Year Appeared": 2000,
-    "Daily Wikipedia Views": 5,
-    "No. of Users": 45
-  },
-  {
-    "name": "Revolution",
+    "name": "PDF",
     "Year Appeared": 1993,
-    "Daily Wikipedia Views": 2,
-    "No. of Users": 1149
+    "Daily Wikipedia Views": 2092,
+    "No. of Users": 10480
   },
   {
-    "name": "Logtalk",
+    "name": "DisplayPort",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 2950,
+    "No. of Users": 14770
+  },
+  {
+    "name": "SOAP",
     "Year Appeared": 1998,
-    "Daily Wikipedia Views": 2,
-    "No. of Users": 231
+    "Daily Wikipedia Views": 2103,
+    "No. of Users": 10535
   },
   {
-    "name": "Qalb",
-    "Year Appeared": 2012,
-    "Daily Wikipedia Views": 20,
-    "No. of Users": 1023
+    "name": "Visual Studio",
+    "Year Appeared": 1997,
+    "Daily Wikipedia Views": 2156,
+    "No. of Users": 10800
   },
   {
-    "name": "Matrix protocol",
-    "Year Appeared": 2014,
-    "Daily Wikipedia Views": 74,
-    "No. of Users": 390
+    "name": "UML",
+    "Year Appeared": 1996,
+    "Daily Wikipedia Views": 2203,
+    "No. of Users": 11035
   },
   {
-    "name": "Ninja",
-    "Year Appeared": 2012,
-    "Daily Wikipedia Views": 71,
-    "No. of Users": 12726
+    "name": "Base64",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 2402,
+    "No. of Users": 12030
   },
   {
-    "name": "ACT-III",
-    "Year Appeared": 1956,
-    "Daily Wikipedia Views": 37,
-    "No. of Users": 205
+    "name": "UTF-8",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 2683,
+    "No. of Users": 13435
   },
   {
-    "name": "Impala",
-    "Year Appeared": 2012,
-    "Daily Wikipedia Views": 120,
-    "No. of Users": 2616
+    "name": "Unicode",
+    "Year Appeared": 1987,
+    "Daily Wikipedia Views": 2672,
+    "No. of Users": 13380
   },
   {
-    "name": "DATATRIEVE",
-    "Year Appeared": 1970,
-    "Daily Wikipedia Views": 6,
-    "No. of Users": 50
+    "name": "Ada",
+    "Year Appeared": 1980,
+    "Daily Wikipedia Views": 768,
+    "No. of Users": 12116
   },
   {
-    "name": "Automatically Programmed Tool",
-    "Year Appeared": 1956,
-    "Daily Wikipedia Views": 64,
-    "No. of Users": 340
+    "name": "PowerShell",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 1173,
+    "No. of Users": 208708
   },
   {
-    "name": "Simula",
-    "Year Appeared": 1965,
-    "Daily Wikipedia Views": 218,
-    "No. of Users": 1110
+    "name": "AWS",
+    "Year Appeared": 2006,
+    "Daily Wikipedia Views": 2390,
+    "No. of Users": 263168
   },
   {
-    "name": "MIME",
+    "name": "C#",
+    "Year Appeared": 2000,
+    "Daily Wikipedia Views": 2794,
+    "No. of Users": 217261
+  },
+  {
+    "name": "Ruby on Rails",
+    "Year Appeared": 2005,
+    "Daily Wikipedia Views": 1044,
+    "No. of Users": 197225
+  },
+  {
+    "name": "Markdown",
+    "Year Appeared": 2004,
+    "Daily Wikipedia Views": 1954,
+    "No. of Users": 12503
+  },
+  {
+    "name": "ARM",
+    "Year Appeared": 1985,
+    "Daily Wikipedia Views": 2538,
+    "No. of Users": 123423
+  },
+  {
+    "name": "Drupal",
+    "Year Appeared": 2000,
+    "Daily Wikipedia Views": 882,
+    "No. of Users": 168605
+  },
+  {
+    "name": "CUDA",
+    "Year Appeared": 2007,
+    "Daily Wikipedia Views": 1966,
+    "No. of Users": 38623
+  },
+  {
+    "name": "Vim",
     "Year Appeared": 1991,
-    "Daily Wikipedia Views": 872,
-    "No. of Users": 4380
+    "Daily Wikipedia Views": 696,
+    "No. of Users": 152267
   },
   {
-    "name": "ML",
-    "Year Appeared": 1973,
-    "Daily Wikipedia Views": 541,
-    "No. of Users": 2725
+    "name": "Objective-C",
+    "Year Appeared": 1984,
+    "Daily Wikipedia Views": 910,
+    "No. of Users": 12380
   },
   {
-    "name": "CouchDB",
-    "Year Appeared": 2005,
-    "Daily Wikipedia Views": 70,
-    "No. of Users": 9872
-  },
-  {
-    "name": "EXEC 2",
-    "Year Appeared": 1970,
-    "Daily Wikipedia Views": 7,
-    "No. of Users": 55
-  },
-  {
-    "name": "CMS Pipelines",
-    "Year Appeared": 1986,
-    "Daily Wikipedia Views": 7,
-    "No. of Users": 55
-  },
-  {
-    "name": "Delphi",
-    "Year Appeared": 1995,
-    "Daily Wikipedia Views": 765,
-    "No. of Users": 7084
-  },
-  {
-    "name": "Django",
-    "Year Appeared": 2005,
-    "Daily Wikipedia Views": 821,
-    "No. of Users": 4375
-  },
-  {
-    "name": "Haxe",
-    "Year Appeared": 2005,
-    "Daily Wikipedia Views": 150,
-    "No. of Users": 8831
-  },
-  {
-    "name": "Stan",
-    "Year Appeared": 2012,
-    "Daily Wikipedia Views": 68,
-    "No. of Users": 561
-  },
-  {
-    "name": "BEAM Erlang virtual machine",
-    "Year Appeared": 2011,
-    "Daily Wikipedia Views": 49,
-    "No. of Users": 265
-  },
-  {
-    "name": "General Purpose Simulation System",
-    "Year Appeared": 1960,
-    "Daily Wikipedia Views": 41,
-    "No. of Users": 225
-  },
-  {
-    "name": "Lazy ML",
-    "Year Appeared": 1980,
-    "Daily Wikipedia Views": 8,
-    "No. of Users": 60
-  },
-  {
-    "name": "SNOBOL",
-    "Year Appeared": 1962,
-    "Daily Wikipedia Views": 64,
-    "No. of Users": 341
-  },
-  {
-    "name": "Ecological Metadata Language",
-    "Year Appeared": 1997,
-    "Daily Wikipedia Views": 8,
-    "No. of Users": 60
-  },
-  {
-    "name": "Polymorphic Programming Language",
-    "Year Appeared": 1969,
-    "Daily Wikipedia Views": 9,
-    "No. of Users": 65
-  },
-  {
-    "name": "LiveScript",
-    "Year Appeared": 2011,
-    "Daily Wikipedia Views": 35,
-    "No. of Users": 395
-  },
-  {
-    "name": "Leda",
-    "Year Appeared": 1995,
-    "Daily Wikipedia Views": 7,
-    "No. of Users": 68
-  },
-  {
-    "name": "TECO",
-    "Year Appeared": 1963,
-    "Daily Wikipedia Views": 43,
-    "No. of Users": 235
-  },
-  {
-    "name": "HAML",
-    "Year Appeared": 2006,
-    "Daily Wikipedia Views": 45,
-    "No. of Users": 6324
-  },
-  {
-    "name": "RISC-V",
-    "Year Appeared": 2010,
-    "Daily Wikipedia Views": 424,
-    "No. of Users": 2140
-  },
-  {
-    "name": "MACRO-11",
-    "Year Appeared": 1974,
-    "Daily Wikipedia Views": 9,
-    "No. of Users": 65
-  },
-  {
-    "name": "SipHash",
-    "Year Appeared": 2011,
-    "Daily Wikipedia Views": 70,
-    "No. of Users": 370
-  },
-  {
-    "name": "Makefile",
-    "Year Appeared": 1976,
-    "Daily Wikipedia Views": 328,
-    "No. of Users": 1861
-  },
-  {
-    "name": "JOSS",
-    "Year Appeared": 1966,
-    "Daily Wikipedia Views": 26,
-    "No. of Users": 150
-  },
-  {
-    "name": "FLEX",
-    "Year Appeared": 1987,
-    "Daily Wikipedia Views": 80,
-    "No. of Users": 4402
-  },
-  {
-    "name": "SPARC",
-    "Year Appeared": 1987,
-    "Daily Wikipedia Views": 431,
-    "No. of Users": 2175
-  },
-  {
-    "name": "Interlisp",
-    "Year Appeared": 1966,
-    "Daily Wikipedia Views": 20,
-    "No. of Users": 120
-  },
-  {
-    "name": "OpenNN",
-    "Year Appeared": 2003,
-    "Daily Wikipedia Views": 11,
-    "No. of Users": 1968
-  },
-  {
-    "name": "Snowball",
-    "Year Appeared": 1971,
-    "Daily Wikipedia Views": 10,
-    "No. of Users": 70
-  },
-  {
-    "name": "XPL",
-    "Year Appeared": 1967,
-    "Daily Wikipedia Views": 21,
-    "No. of Users": 125
-  },
-  {
-    "name": "HAGGIS",
-    "Year Appeared": 2010,
-    "Daily Wikipedia Views": 92,
-    "No. of Users": 480
-  },
-  {
-    "name": "Ioke",
-    "Year Appeared": 2008,
-    "Daily Wikipedia Views": 22,
-    "No. of Users": 565
-  },
-  {
-    "name": "MOO",
-    "Year Appeared": 1993,
-    "Daily Wikipedia Views": 12,
-    "No. of Users": 80
-  },
-  {
-    "name": "Template Attribute Language",
-    "Year Appeared": 2007,
-    "Daily Wikipedia Views": 19,
-    "No. of Users": 115
-  },
-  {
-    "name": "Wolfram Mathematica",
-    "Year Appeared": 1988,
-    "Daily Wikipedia Views": 342,
-    "No. of Users": 1730
-  },
-  {
-    "name": "WDDX",
-    "Year Appeared": 1998,
-    "Daily Wikipedia Views": 13,
-    "No. of Users": 85
-  },
-  {
-    "name": "INFER",
-    "Year Appeared": 1992,
-    "Daily Wikipedia Views": 13,
-    "No. of Users": 85
-  },
-  {
-    "name": "FASTQ",
-    "Year Appeared": 2000,
-    "Daily Wikipedia Views": 424,
-    "No. of Users": 2140
-  },
-  {
-    "name": "Pure",
-    "Year Appeared": 2008,
-    "Daily Wikipedia Views": 31,
-    "No. of Users": 176
-  },
-  {
-    "name": "Gerber Image",
-    "Year Appeared": 1980,
-    "Daily Wikipedia Views": 276,
-    "No. of Users": 1600
-  },
-  {
-    "name": "Sieve mail filtering language",
-    "Year Appeared": 2008,
-    "Daily Wikipedia Views": 78,
-    "No. of Users": 460
-  },
-  {
-    "name": "Newspeak",
-    "Year Appeared": 2006,
-    "Daily Wikipedia Views": 17,
-    "No. of Users": 106
-  },
-  {
-    "name": "Yorick",
-    "Year Appeared": 1996,
-    "Daily Wikipedia Views": 14,
-    "No. of Users": 91
-  },
-  {
-    "name": "Korn shell",
-    "Year Appeared": 1983,
-    "Daily Wikipedia Views": 66,
-    "No. of Users": 2190
-  },
-  {
-    "name": "GEL Genius",
-    "Year Appeared": 1997,
-    "Daily Wikipedia Views": 14,
-    "No. of Users": 91
-  },
-  {
-    "name": "Lex",
-    "Year Appeared": 1975,
-    "Daily Wikipedia Views": 178,
-    "No. of Users": 1110
-  },
-  {
-    "name": "GLBasic",
-    "Year Appeared": 2003,
-    "Daily Wikipedia Views": 16,
-    "No. of Users": 101
-  },
-  {
-    "name": "Augmented Backus-Naur Form",
-    "Year Appeared": 2008,
-    "Daily Wikipedia Views": 51,
-    "No. of Users": 475
-  },
-  {
-    "name": "Scratchpad",
-    "Year Appeared": 1971,
-    "Daily Wikipedia Views": 27,
-    "No. of Users": 155
-  },
-  {
-    "name": "Altair BASIC",
-    "Year Appeared": 1975,
-    "Daily Wikipedia Views": 161,
-    "No. of Users": 825
-  },
-  {
-    "name": "KML",
-    "Year Appeared": 2007,
-    "Daily Wikipedia Views": 284,
-    "No. of Users": 1440
-  },
-  {
-    "name": "G\u00f6del (Goedel)",
-    "Year Appeared": 1992,
-    "Daily Wikipedia Views": 15,
-    "No. of Users": 95
-  },
-  {
-    "name": "DBase",
-    "Year Appeared": 1979,
-    "Daily Wikipedia Views": 205,
-    "No. of Users": 1046
-  },
-  {
-    "name": "OpenVera",
+    "name": "YAML",
     "Year Appeared": 2001,
-    "Daily Wikipedia Views": 17,
-    "No. of Users": 105
+    "Daily Wikipedia Views": 1529,
+    "No. of Users": 13981
   },
   {
-    "name": "OGNL",
-    "Year Appeared": 2007,
-    "Daily Wikipedia Views": 29,
-    "No. of Users": 165
-  },
-  {
-    "name": "Microsoft Small Basic",
-    "Year Appeared": 2008,
-    "Daily Wikipedia Views": 103,
-    "No. of Users": 536
-  },
-  {
-    "name": "Open Data Protcol",
-    "Year Appeared": 2007,
-    "Daily Wikipedia Views": 244,
-    "No. of Users": 1241
-  },
-  {
-    "name": "Tiny C Compiler",
-    "Year Appeared": 2001,
-    "Daily Wikipedia Views": 97,
-    "No. of Users": 2301
-  },
-  {
-    "name": "PALASM",
-    "Year Appeared": 1980,
-    "Daily Wikipedia Views": 16,
-    "No. of Users": 100
-  },
-  {
-    "name": "basic calculator",
-    "Year Appeared": 1975,
-    "Daily Wikipedia Views": 84,
-    "No. of Users": 440
-  },
-  {
-    "name": "Semantic Patch Language",
-    "Year Appeared": 2006,
-    "Daily Wikipedia Views": 20,
-    "No. of Users": 896
-  },
-  {
-    "name": "Information Presentation Facility",
-    "Year Appeared": 1997,
-    "Daily Wikipedia Views": 17,
-    "No. of Users": 105
-  },
-  {
-    "name": "MLAB",
-    "Year Appeared": 1975,
-    "Daily Wikipedia Views": 51,
-    "No. of Users": 275
-  },
-  {
-    "name": "Ghostscript",
-    "Year Appeared": 1988,
-    "Daily Wikipedia Views": 212,
-    "No. of Users": 1080
-  },
-  {
-    "name": "Xtext",
-    "Year Appeared": 2006,
-    "Daily Wikipedia Views": 31,
-    "No. of Users": 1713
-  },
-  {
-    "name": "M4",
-    "Year Appeared": 1977,
-    "Daily Wikipedia Views": 99,
-    "No. of Users": 715
-  },
-  {
-    "name": "MMX instruction set",
-    "Year Appeared": 1997,
-    "Daily Wikipedia Views": 215,
-    "No. of Users": 1095
-  },
-  {
-    "name": "Epigram",
-    "Year Appeared": 2004,
-    "Daily Wikipedia Views": 23,
-    "No. of Users": 135
-  },
-  {
-    "name": "GDB",
+    "name": "Erlang",
     "Year Appeared": 1986,
-    "Daily Wikipedia Views": 192,
-    "No. of Users": 1181
+    "Daily Wikipedia Views": 857,
+    "No. of Users": 27148
   },
   {
-    "name": "Preferred Executable Format",
-    "Year Appeared": 1994,
-    "Daily Wikipedia Views": 18,
-    "No. of Users": 110
-  },
-  {
-    "name": "Applescript",
-    "Year Appeared": 1993,
-    "Daily Wikipedia Views": 200,
-    "No. of Users": 1221
-  },
-  {
-    "name": "EasyLanguage",
-    "Year Appeared": 1995,
-    "Daily Wikipedia Views": 18,
-    "No. of Users": 110
-  },
-  {
-    "name": "Emacs Lisp",
-    "Year Appeared": 1985,
-    "Daily Wikipedia Views": 85,
-    "No. of Users": 1645
-  },
-  {
-    "name": "Pandoc",
-    "Year Appeared": 2006,
-    "Daily Wikipedia Views": 75,
-    "No. of Users": 396
-  },
-  {
-    "name": "RATFOR",
-    "Year Appeared": 1976,
-    "Daily Wikipedia Views": 21,
-    "No. of Users": 126
-  },
-  {
-    "name": "Seed7",
-    "Year Appeared": 2005,
-    "Daily Wikipedia Views": 37,
-    "No. of Users": 206
-  },
-  {
-    "name": "ColdFusion",
-    "Year Appeared": 1995,
-    "Daily Wikipedia Views": 85,
-    "No. of Users": 1646
-  },
-  {
-    "name": "HOPE",
-    "Year Appeared": 1978,
-    "Daily Wikipedia Views": 25,
-    "No. of Users": 145
-  },
-  {
-    "name": "BIND",
-    "Year Appeared": 2000,
-    "Daily Wikipedia Views": 180,
-    "No. of Users": 920
-  },
-  {
-    "name": "UCSD Pascal",
-    "Year Appeared": 1978,
-    "Daily Wikipedia Views": 56,
-    "No. of Users": 300
-  },
-  {
-    "name": "Avionics Architecture Design Language",
-    "Year Appeared": 2003,
-    "Daily Wikipedia Views": 29,
-    "No. of Users": 166
-  },
-  {
-    "name": "Eurisko",
-    "Year Appeared": 1978,
-    "Daily Wikipedia Views": 26,
-    "No. of Users": 150
-  },
-  {
-    "name": "BASIC Programming",
-    "Year Appeared": 1979,
-    "Daily Wikipedia Views": 53,
-    "No. of Users": 285
-  },
-  {
-    "name": "Ext2",
-    "Year Appeared": 1993,
-    "Daily Wikipedia Views": 141,
-    "No. of Users": 725
-  },
-  {
-    "name": "Oberon",
-    "Year Appeared": 1986,
-    "Daily Wikipedia Views": 100,
-    "No. of Users": 810
-  },
-  {
-    "name": "SSI",
+    "name": "Scala",
     "Year Appeared": 2004,
-    "Daily Wikipedia Views": 144,
-    "No. of Users": 740
+    "Daily Wikipedia Views": 1496,
+    "No. of Users": 139471
   },
   {
-    "name": "Rapira",
-    "Year Appeared": 1987,
-    "Daily Wikipedia Views": 19,
-    "No. of Users": 151
-  },
-  {
-    "name": "A#",
-    "Year Appeared": 2004,
-    "Daily Wikipedia Views": 42,
-    "No. of Users": 230
-  },
-  {
-    "name": "TextMate",
-    "Year Appeared": 2004,
-    "Daily Wikipedia Views": 87,
-    "No. of Users": 456
-  },
-  {
-    "name": "Interchange File Format",
-    "Year Appeared": 1985,
-    "Daily Wikipedia Views": 88,
-    "No. of Users": 460
-  },
-  {
-    "name": "SuperCollider",
-    "Year Appeared": 1996,
-    "Daily Wikipedia Views": 116,
-    "No. of Users": 801
-  },
-  {
-    "name": "Angelscript",
-    "Year Appeared": 2003,
-    "Daily Wikipedia Views": 29,
-    "No. of Users": 366
-  },
-  {
-    "name": "MusicXML",
-    "Year Appeared": 2004,
-    "Daily Wikipedia Views": 70,
-    "No. of Users": 370
-  },
-  {
-    "name": "CLIPS",
-    "Year Appeared": 1985,
-    "Daily Wikipedia Views": 86,
-    "No. of Users": 651
-  },
-  {
-    "name": "IBM BASIC",
-    "Year Appeared": 1981,
-    "Daily Wikipedia Views": 36,
-    "No. of Users": 200
-  },
-  {
-    "name": "Tree and Tabular Combined Notation",
-    "Year Appeared": 1992,
-    "Daily Wikipedia Views": 21,
-    "No. of Users": 175
-  },
-  {
-    "name": "Nios II",
-    "Year Appeared": 2000,
-    "Daily Wikipedia Views": 93,
-    "No. of Users": 485
-  },
-  {
-    "name": "Uniface",
-    "Year Appeared": 1994,
-    "Daily Wikipedia Views": 35,
-    "No. of Users": 196
-  },
-  {
-    "name": "Oxygene",
-    "Year Appeared": 2002,
-    "Daily Wikipedia Views": 50,
-    "No. of Users": 271
-  },
-  {
-    "name": "Schematron",
-    "Year Appeared": 1999,
-    "Daily Wikipedia Views": 40,
-    "No. of Users": 220
-  },
-  {
-    "name": "Io",
-    "Year Appeared": 2002,
-    "Daily Wikipedia Views": 48,
-    "No. of Users": 461
-  },
-  {
-    "name": "AsciiDoc",
-    "Year Appeared": 2002,
-    "Daily Wikipedia Views": 89,
-    "No. of Users": 666
-  },
-  {
-    "name": "GRAAL",
-    "Year Appeared": 1986,
-    "Daily Wikipedia Views": 37,
-    "No. of Users": 205
-  },
-  {
-    "name": "Silicon Graphics Image",
-    "Year Appeared": 1996,
-    "Daily Wikipedia Views": 40,
-    "No. of Users": 220
-  },
-  {
-    "name": "Mercury",
-    "Year Appeared": 1995,
-    "Daily Wikipedia Views": 74,
-    "No. of Users": 939
-  },
-  {
-    "name": "Java EE version history",
-    "Year Appeared": 1998,
-    "Daily Wikipedia Views": 44,
-    "No. of Users": 240
-  },
-  {
-    "name": "A+",
-    "Year Appeared": 1988,
-    "Daily Wikipedia Views": 57,
-    "No. of Users": 306
-  },
-  {
-    "name": "X BitMap",
+    "name": "Bash",
     "Year Appeared": 1989,
-    "Daily Wikipedia Views": 69,
-    "No. of Users": 565
+    "Daily Wikipedia Views": 1271,
+    "No. of Users": 61747
   },
   {
-    "name": "Turbo Assembler",
-    "Year Appeared": 1989,
-    "Daily Wikipedia Views": 69,
-    "No. of Users": 365
+    "name": "Scratch",
+    "Year Appeared": 2002,
+    "Daily Wikipedia Views": 1368,
+    "No. of Users": 16942
   },
   {
-    "name": "F",
-    "Year Appeared": 1996,
-    "Daily Wikipedia Views": 52,
-    "No. of Users": 280
+    "name": "Lua",
+    "Year Appeared": 1993,
+    "Daily Wikipedia Views": 1069,
+    "No. of Users": 58860
   },
   {
-    "name": "Axiom",
-    "Year Appeared": 1992,
-    "Daily Wikipedia Views": 57,
-    "No. of Users": 305
+    "name": "Visual Basic",
+    "Year Appeared": 1991,
+    "Daily Wikipedia Views": 1574,
+    "No. of Users": 15898
   },
   {
-    "name": "ROOT",
-    "Year Appeared": 1994,
-    "Daily Wikipedia Views": 67,
-    "No. of Users": 356
-  },
-  {
-    "name": "Pike",
-    "Year Appeared": 1994,
-    "Daily Wikipedia Views": 45,
-    "No. of Users": 446
+    "name": "Haskell",
+    "Year Appeared": 1990,
+    "Daily Wikipedia Views": 1177,
+    "No. of Users": 37628
   }
 ]

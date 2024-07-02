@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "2019 Christchurch mosque shootings",
+    "Start Year": 2019,
+    "Deaths": 51,
+    "Latitude": -43.5321,
+    "Longitude": 172.6362
+  },
+  {
+    "name": "SQ321 Myanmar turbulence",
+    "Start Year": 2024,
+    "Deaths": 1,
+    "Latitude": 16.8661,
+    "Longitude": 96.1951
+  },
+  {
+    "name": "2021 North American cold wave",
+    "Start Year": 2021,
+    "Deaths": 978,
+    "Latitude": 37.7749,
+    "Longitude": -122.4194
+  },
+  {
+    "name": "Tunguska event",
+    "Start Year": 1908,
+    "Deaths": 3,
+    "Latitude": 60.9526,
+    "Longitude": 101.885
+  },
+  {
+    "name": "2020 Calabasas helicopter crash",
+    "Start Year": 2020,
+    "Deaths": 9,
+    "Latitude": 34.1367,
+    "Longitude": -118.6615
+  },
+  {
+    "name": "Spanish Flu",
+    "Start Year": 1918,
+    "Deaths": 100000000,
+    "Latitude": 39.1715879,
+    "Longitude": -96.987466
+  },
+  {
+    "name": "2021 United States Capitol attack",
+    "Start Year": 2021,
+    "Deaths": 2,
+    "Latitude": 38.8899,
+    "Longitude": -77.0091
+  },
+  {
+    "name": "2017 Las Vegas shooting",
+    "Start Year": 2017,
+    "Deaths": 58,
+    "Latitude": 36.1699,
+    "Longitude": -115.1398
+  },
+  {
+    "name": "HIV/AIDS pandemic",
+    "Start Year": 1981,
+    "Deaths": 43000000,
+    "Latitude": 9.082,
+    "Longitude": 8.6753
+  },
+  {
+    "name": "Cocoliztli epidemic",
+    "Start Year": 1545,
+    "Deaths": 15000000,
+    "Latitude": 19.4326,
+    "Longitude": -99.1332
+  },
+  {
+    "name": "Plague of Justinian",
+    "Start Year": 541,
+    "Deaths": 50000000,
+    "Latitude": 34.9466399,
+    "Longitude": 85.64254
+  },
+  {
+    "name": "1815 Mount Tambora eruption",
+    "Start Year": 1815,
+    "Deaths": 71000,
+    "Latitude": -8.2325,
+    "Longitude": 118.9526
+  },
+  {
+    "name": "Black Death",
+    "Start Year": 1347,
+    "Deaths": 200000000,
+    "Latitude": 42.3883,
+    "Longitude": 77.2865
+  },
+  {
+    "name": "2020 Hanau shootings",
+    "Start Year": 2020,
+    "Deaths": 11,
+    "Latitude": 50.1109,
+    "Longitude": 8.6821
+  },
+  {
+    "name": "Jack the Ripper",
+    "Start Year": 1888,
+    "Deaths": 5,
+    "Latitude": 51.5074,
+    "Longitude": -0.1278
+  },
+  {
+    "name": "Ides of March",
+    "Start Year": -44,
+    "Deaths": 1,
+    "Latitude": 41.9028,
+    "Longitude": 12.4964
+  },
+  {
+    "name": "Myanmar Civil War",
+    "Start Year": 2021,
+    "Deaths": 51767,
+    "Latitude": 16.8661,
+    "Longitude": 96.1951
+  },
+  {
+    "name": "2022 European heat wave",
+    "Start Year": 2022,
+    "Deaths": 61672,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "2018 Toronto van attack",
+    "Start Year": 2018,
+    "Deaths": 11,
+    "Latitude": 43.6511,
+    "Longitude": -79.347
+  },
+  {
+    "name": "1997 Indonesian forest fires",
+    "Start Year": 1997,
+    "Deaths": 240,
+    "Latitude": -0.7893,
+    "Longitude": 113.9213
+  },
+  {
+    "name": "Beirut explosion",
+    "Start Year": 2020,
+    "Deaths": 218,
+    "Latitude": 33.8886,
+    "Longitude": 35.4955
+  },
+  {
+    "name": "1498 Mei\u014d Nankaid\u014d earthquake",
+    "Start Year": 1498,
+    "Deaths": 31000,
+    "Latitude": 33.5904,
+    "Longitude": 135.7852
+  },
+  {
+    "name": "1520 Mexico smallpox epidemic",
+    "Start Year": 1520,
+    "Deaths": 8000000,
+    "Latitude": 19.4326,
+    "Longitude": -99.1332
+  },
+  {
+    "name": "Columbine High School massacre",
+    "Start Year": 1999,
+    "Deaths": 15,
+    "Latitude": 39.5807,
+    "Longitude": -105.2663
+  },
+  {
+    "name": "1707 H\u014dei earthquake",
+    "Start Year": 1707,
+    "Deaths": 30000,
+    "Latitude": 35.6895,
+    "Longitude": 139.6917
+  },
+  {
+    "name": "MH370 disappearance",
+    "Start Year": 2014,
+    "Deaths": 239,
+    "Latitude": 3.1357,
+    "Longitude": 101.688
+  },
+  {
+    "name": "Carolean Death March",
+    "Start Year": 1719,
+    "Deaths": 3000,
+    "Latitude": 59.3293,
+    "Longitude": 18.0686
+  },
+  {
+    "name": "Assassination of John F. Kennedy",
+    "Start Year": 1963,
+    "Deaths": 1,
+    "Latitude": 32.7767,
+    "Longitude": -96.797
+  },
+  {
+    "name": "Siege of Leningrad",
+    "Start Year": 1941,
+    "Deaths": 5500000,
+    "Latitude": 59.9343,
+    "Longitude": 30.3351
+  },
+  {
+    "name": "1970 Huascar\u00e1n avalanche",
+    "Start Year": 1970,
+    "Deaths": 22000,
+    "Latitude": -9.5261,
+    "Longitude": -77.5286
+  },
+  {
+    "name": "Pearl Harbor bombing",
+    "Start Year": 1941,
+    "Deaths": 2403,
+    "Latitude": 21.3445,
+    "Longitude": -157.974
+  },
+  {
+    "name": "1896 Sanriku earthquake",
+    "Start Year": 1896,
+    "Deaths": 27000,
+    "Latitude": 39.9334,
+    "Longitude": 143.179
+  },
+  {
+    "name": "1987 Black Dragon Fire",
+    "Start Year": 1987,
+    "Deaths": 211,
+    "Latitude": 45.75,
+    "Longitude": 128.6
+  },
+  {
+    "name": "1883 Krakatoa eruption",
+    "Start Year": 1883,
+    "Deaths": 36000,
+    "Latitude": -6.1024,
+    "Longitude": 105.4234
+  },
+  {
+    "name": "Siege of Osaka",
+    "Start Year": 1614,
+    "Deaths": 500000,
+    "Latitude": 34.6937,
+    "Longitude": 135.5023
+  },
+  {
+    "name": "COVID-19 pandemic",
+    "Start Year": 2019,
+    "Deaths": 35000000,
+    "Latitude": 30.5928,
+    "Longitude": 114.3055
+  },
+  {
+    "name": "Trojan War",
+    "Start Year": -1194,
+    "Deaths": 100000,
+    "Latitude": 39.9631,
+    "Longitude": 26.0092
+  },
+  {
+    "name": "Battle of the Little Bighorn",
+    "Start Year": 1876,
+    "Deaths": 368,
+    "Latitude": 45.5469,
+    "Longitude": -107.3248
+  },
+  {
+    "name": "Minoan eruption",
+    "Start Year": -1628,
+    "Deaths": 100000,
+    "Latitude": 35.2401,
+    "Longitude": 24.8093
+  },
+  {
+    "name": "2016 Brussels bombings",
+    "Start Year": 2016,
+    "Deaths": 35,
+    "Latitude": 50.8503,
+    "Longitude": 4.3517
+  },
+  {
+    "name": "1868 Arica earthquake",
+    "Start Year": 1868,
+    "Deaths": 25000,
+    "Latitude": -18.4783,
+    "Longitude": -70.3126
+  },
+  {
+    "name": "Assassination of Abraham Lincoln",
+    "Start Year": 1865,
+    "Deaths": 1,
+    "Latitude": 38.8899,
+    "Longitude": -77.0091
+  },
+  {
+    "name": "Russian Revolution",
+    "Start Year": 1917,
+    "Deaths": 5000000,
+    "Latitude": 55.7558,
+    "Longitude": 37.6176
+  },
+  {
+    "name": "Battle of Marathon",
+    "Start Year": -490,
+    "Deaths": 5192,
+    "Latitude": 37.9838,
+    "Longitude": 23.7275
+  },
+  {
+    "name": "2004 Indian Ocean earthquake and tsunami",
+    "Start Year": 2004,
+    "Deaths": 227898,
+    "Latitude": 3.2028,
+    "Longitude": 94.7278
+  },
+  {
+    "name": "Challenger disaster",
+    "Start Year": 1986,
+    "Deaths": 7,
+    "Latitude": 28.5623,
+    "Longitude": -80.5774
+  },
+  {
+    "name": "Antonine Plague",
+    "Start Year": 165,
+    "Deaths": 10000000,
+    "Latitude": 41.9028,
+    "Longitude": 12.4964
+  },
+  {
+    "name": "Battle of Thermopylae",
+    "Start Year": -480,
+    "Deaths": 300,
+    "Latitude": 38.7979,
+    "Longitude": 22.691
+  },
+  {
+    "name": "2010 Russian heat wave",
+    "Start Year": 2010,
+    "Deaths": 56000,
+    "Latitude": 55.7558,
+    "Longitude": 37.6176
+  },
+  {
+    "name": "Third plague pandemic",
+    "Start Year": 1855,
+    "Deaths": 15000000,
+    "Latitude": 22.3964,
+    "Longitude": 114.1095
+  },
+  {
+    "name": "2015 Paris attacks",
+    "Start Year": 2015,
+    "Deaths": 130,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "Sook Ching massacre",
+    "Start Year": 1942,
+    "Deaths": 50000,
+    "Latitude": 1.3521,
+    "Longitude": 103.8198
+  },
+  {
+    "name": "Great Chinese Famine",
+    "Start Year": 1959,
+    "Deaths": 40000000,
+    "Latitude": 35.8617,
+    "Longitude": 104.1954
+  },
+  {
+    "name": "Soviet famine of 1932-1933",
+    "Start Year": 1932,
+    "Deaths": 8000000,
+    "Latitude": 55.7558,
+    "Longitude": 37.6176
+  },
+  {
+    "name": "1792 Unzen earthquake and tsunami",
+    "Start Year": 1792,
+    "Deaths": 15000,
+    "Latitude": 32.7617,
+    "Longitude": 130.7234
+  },
+  {
+    "name": "Battle of Singapore",
+    "Start Year": 1942,
+    "Deaths": 85000,
+    "Latitude": 1.3521,
+    "Longitude": 103.8198
+  },
+  {
+    "name": "Hiroshima bombing",
+    "Start Year": 1945,
+    "Deaths": 140000,
+    "Latitude": 34.3853,
+    "Longitude": 132.4553
+  },
+  {
+    "name": "St. Lucia's flood",
+    "Start Year": 1287,
+    "Deaths": 80000,
+    "Latitude": 51.4416,
+    "Longitude": 5.4697
+  },
+  {
+    "name": "Holocaust",
+    "Start Year": 1941,
+    "Deaths": 6000000,
+    "Latitude": 52.52,
+    "Longitude": 13.405
+  },
+  {
+    "name": "Siege of Gaza",
+    "Start Year": -332,
+    "Deaths": 14000,
+    "Latitude": 31.5,
+    "Longitude": 34.4667
+  },
+  {
+    "name": "Siege of Carthage",
+    "Start Year": -149,
+    "Deaths": 450000,
+    "Latitude": 36.8065,
+    "Longitude": 10.1815
+  },
+  {
+    "name": "Cloquet fire",
+    "Start Year": 1918,
+    "Deaths": 453,
+    "Latitude": 46.7219,
+    "Longitude": -92.459
+  },
+  {
+    "name": "Chinese famine of 1906-1907",
+    "Start Year": 1906,
+    "Deaths": 25000000,
+    "Latitude": 35.8617,
+    "Longitude": 104.1954
+  },
+  {
+    "name": "1918-1922 Russia typhus epidemic",
+    "Start Year": 1918,
+    "Deaths": 2500000,
+    "Latitude": 55.7558,
+    "Longitude": 37.6176
+  },
+  {
+    "name": "Nagasaki bombing",
+    "Start Year": 1945,
+    "Deaths": 70000,
+    "Latitude": 32.7503,
+    "Longitude": 129.8777
+  },
+  {
+    "name": "Armero tragedy",
+    "Start Year": 1985,
+    "Deaths": 23000,
+    "Latitude": 4.9631,
+    "Longitude": -75.3962
+  },
+  {
+    "name": "North Sea flood of 1953",
+    "Start Year": 1953,
+    "Deaths": 2551,
+    "Latitude": 51.6909,
+    "Longitude": 4.213
+  },
+  {
+    "name": "Siege of Tyre",
+    "Start Year": -332,
+    "Deaths": 39000,
+    "Latitude": 33.269,
+    "Longitude": 35.203
+  },
+  {
+    "name": "Lake Monoun disaster",
+    "Start Year": 1984,
+    "Deaths": 37,
+    "Latitude": 5.9631,
+    "Longitude": 10.1596
+  },
+  {
+    "name": "Battle of Berlin",
+    "Start Year": 1945,
+    "Deaths": 1286000,
+    "Latitude": 52.52,
+    "Longitude": 13.405
+  },
+  {
+    "name": "Siege of Athens",
+    "Start Year": -87,
+    "Deaths": 400000,
+    "Latitude": 37.9838,
+    "Longitude": 23.7275
+  },
+  {
+    "name": "Siege of Syracuse",
+    "Start Year": -214,
+    "Deaths": 40000,
+    "Latitude": 37.0755,
+    "Longitude": 15.2866
+  },
+  {
+    "name": "St. Felix's Flood",
+    "Start Year": 1530,
+    "Deaths": 100000,
+    "Latitude": 51.4416,
+    "Longitude": 5.4697
+  },
+  {
+    "name": "Doji bara famine",
+    "Start Year": 1791,
+    "Deaths": 11000000,
+    "Latitude": 28.7041,
+    "Longitude": 77.1025
+  },
+  {
+    "name": "Peshtigo fire",
+    "Start Year": 1871,
+    "Deaths": 2500,
+    "Latitude": 45.0564,
+    "Longitude": -87.9344
+  },
+  {
+    "name": "Vargas tragedy",
+    "Start Year": 1999,
+    "Deaths": 30000,
+    "Latitude": 10.162,
+    "Longitude": -66.8828
+  },
+  {
+    "name": "Great Bengal famine of 1770",
+    "Start Year": 1770,
+    "Deaths": 10000000,
+    "Latitude": 22.5726,
+    "Longitude": 88.3639
+  },
+  {
+    "name": "Lake Nyos disaster",
+    "Start Year": 1986,
+    "Deaths": 1744,
+    "Latitude": 6.5423,
+    "Longitude": 10.2924
+  },
+  {
+    "name": "Chalisa famine",
+    "Start Year": 1783,
+    "Deaths": 11000000,
+    "Latitude": 28.7041,
+    "Longitude": 77.1025
+  },
+  {
+    "name": "Schoolhouse Blizzard",
+    "Start Year": 1888,
+    "Deaths": 235,
+    "Latitude": 43.0389,
+    "Longitude": -87.9065
+  },
+  {
+    "name": "Great European Famine",
+    "Start Year": 1315,
+    "Deaths": 7500000,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "Korean War",
+    "Start Year": 1950,
+    "Deaths": 3000000,
+    "Latitude": 35.9078,
+    "Longitude": 127.7669
+  },
+  {
+    "name": "Battle of Kock",
+    "Start Year": 1939,
+    "Deaths": 800,
+    "Latitude": 51.3583,
+    "Longitude": 22.7086
+  },
+  {
+    "name": "2010 Haiti earthquake",
+    "Start Year": 2010,
+    "Deaths": 316000,
+    "Latitude": 18.9712,
+    "Longitude": -72.2852
+  },
+  {
+    "name": "Chinese Civil War",
+    "Start Year": 1927,
+    "Deaths": 13000000,
+    "Latitude": 35.8617,
+    "Longitude": 104.1954
+  },
+  {
+    "name": "Salem witch trials",
+    "Start Year": 1692,
+    "Deaths": 20,
+    "Latitude": 42.5195,
+    "Longitude": -70.8967
+  },
+  {
+    "name": "Battle of Shanghai",
+    "Start Year": 1937,
+    "Deaths": 426140,
+    "Latitude": 31.2304,
+    "Longitude": 121.4737
+  },
+  {
+    "name": "Battle of An Loc",
+    "Start Year": 1972,
+    "Deaths": 14000,
+    "Latitude": 11.2254,
+    "Longitude": 106.2253
+  },
+  {
+    "name": "Vietnam War",
+    "Start Year": 1955,
+    "Deaths": 3447494,
+    "Latitude": 14.0583,
+    "Longitude": 108.2772
+  },
+  {
+    "name": "Thumb Fire",
+    "Start Year": 1881,
+    "Deaths": 282,
+    "Latitude": 43.5918,
+    "Longitude": -83.985
+  },
+  {
+    "name": "Pompeii eruption",
+    "Start Year": 79,
+    "Deaths": 13000,
+    "Latitude": 40.7496,
+    "Longitude": 14.4896
+  },
+  {
+    "name": "Cyclone Nargis",
+    "Start Year": 2008,
+    "Deaths": 138366,
+    "Latitude": 16.8661,
+    "Longitude": 96.1951
+  },
+  {
+    "name": "Siege of Jerusalem",
+    "Start Year": -63,
+    "Deaths": 12000,
+    "Latitude": 31.7683,
+    "Longitude": 35.2137
+  },
+  {
+    "name": "Deccan famine of 1630-1632",
+    "Start Year": 1630,
+    "Deaths": 7400000,
+    "Latitude": 19.8762,
+    "Longitude": 75.3433
+  },
+  {
+    "name": "1931 China floods",
+    "Start Year": 1931,
+    "Deaths": 4000000,
+    "Latitude": 32.8768618,
+    "Longitude": 119.07382
+  },
+  {
+    "name": "Cambodian Genocide",
+    "Start Year": 1975,
+    "Deaths": 2000000,
+    "Latitude": 12.5657,
+    "Longitude": 104.991
+  },
+  {
+    "name": "Siege of Changchun",
+    "Start Year": 1948,
+    "Deaths": 425000,
+    "Latitude": 43.8171,
+    "Longitude": 125.3235
+  },
+  {
+    "name": "115 Antioch earthquake",
+    "Start Year": 115,
+    "Deaths": 260000,
+    "Latitude": 36.2021,
+    "Longitude": 36.1602
+  },
+  {
+    "name": "Super Typhoon Nina",
+    "Start Year": 1975,
+    "Deaths": 229000,
+    "Latitude": 22.3964,
+    "Longitude": 114.1095
+  },
+  {
+    "name": "Nanjing Massacre",
+    "Start Year": 1937,
+    "Deaths": 300000,
+    "Latitude": 32.0603,
+    "Longitude": 118.7969
+  },
+  {
+    "name": "9/11",
+    "Start Year": 2001,
+    "Deaths": 2996,
+    "Latitude": 40.7128,
+    "Longitude": -74.006
+  },
+  {
+    "name": "Battle of the Bulge",
+    "Start Year": 1944,
+    "Deaths": 218900,
+    "Latitude": 50.7374,
+    "Longitude": 5.5086
+  },
+  {
+    "name": "Battle of Waterloo",
+    "Start Year": 1815,
+    "Deaths": 47000,
+    "Latitude": 50.7171,
+    "Longitude": 4.3963
+  },
+  {
+    "name": "Normandy landings",
+    "Start Year": 1944,
+    "Deaths": 13414,
+    "Latitude": 49.4657,
+    "Longitude": -0.2339
+  },
+  {
+    "name": "American Civil War",
+    "Start Year": 1861,
+    "Deaths": 620000,
+    "Latitude": 38.9072,
+    "Longitude": -77.0369
+  },
+  {
+    "name": "2008 Afghanistan blizzard",
+    "Start Year": 2008,
+    "Deaths": 926,
+    "Latitude": 33.9391,
+    "Longitude": 67.7099
+  },
+  {
+    "name": "1303 Hongdong earthquake",
+    "Start Year": 1303,
+    "Deaths": 270000,
+    "Latitude": 35.6203,
+    "Longitude": 111.6738
+  },
+  {
+    "name": "526 Antioch earthquake",
+    "Start Year": 526,
+    "Deaths": 300000,
+    "Latitude": 36.2021,
+    "Longitude": 36.1602
+  },
+  {
+    "name": "Syrian Civil War",
+    "Start Year": 2011,
+    "Deaths": 500000,
+    "Latitude": 33.5138,
+    "Longitude": 36.2765
+  },
+  {
+    "name": "1993 Storm of the Century",
+    "Start Year": 1993,
+    "Deaths": 318,
+    "Latitude": 40.7128,
+    "Longitude": -74.006
+  },
+  {
+    "name": "Siege of Constantinople",
+    "Start Year": 717,
+    "Deaths": 170000,
+    "Latitude": 41.0082,
+    "Longitude": 28.9784
+  },
+  {
+    "name": "2003 European heat wave",
+    "Start Year": 2003,
+    "Deaths": 72000,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "Siege of Baghdad",
+    "Start Year": 1258,
+    "Deaths": 2000000,
+    "Latitude": 33.3152,
+    "Longitude": 44.3661
+  },
+  {
+    "name": "1976 Tangshan earthquake",
+    "Start Year": 1976,
+    "Deaths": 655000,
+    "Latitude": 39.6354,
+    "Longitude": 118.1759
+  },
+  {
+    "name": "365 Crete earthquake",
+    "Start Year": 365,
+    "Deaths": 50000,
+    "Latitude": 35.2401,
+    "Longitude": 24.8093
+  },
+  {
+    "name": "Siege of Paris",
+    "Start Year": 1871,
+    "Deaths": 332142,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "Siege of Gurganj",
+    "Start Year": 1221,
+    "Deaths": 1200000,
+    "Latitude": 42.5708,
+    "Longitude": 59.6156
+  },
+  {
+    "name": "1825 Miramichi fire",
+    "Start Year": 1825,
+    "Deaths": 300,
+    "Latitude": 47.0299,
+    "Longitude": -65.5019
+  },
+  {
+    "name": "Indian Great Famine",
+    "Start Year": 1876,
+    "Deaths": 5500000,
+    "Latitude": 28.7041,
+    "Longitude": 77.1025
+  },
+  {
+    "name": "Battle of Kiev",
+    "Start Year": 1941,
+    "Deaths": 761783,
+    "Latitude": 50.4501,
+    "Longitude": 30.5234
+  },
+  {
+    "name": "French Revolution",
+    "Start Year": 1789,
+    "Deaths": 250000,
+    "Latitude": 48.8566,
+    "Longitude": 2.3522
+  },
+  {
+    "name": "1839 Coringa cyclone",
+    "Start Year": 1839,
+    "Deaths": 300000,
+    "Latitude": 16.6667,
+    "Longitude": 81.7833
+  },
+  {
+    "name": "856 Damghan earthquake",
+    "Start Year": 856,
+    "Deaths": 200000,
+    "Latitude": 36.1683,
+    "Longitude": 54.3481
+  },
+  {
+    "name": "1139 Ganja earthquake",
+    "Start Year": 1139,
+    "Deaths": 230000,
+    "Latitude": 40.6828,
+    "Longitude": 46.3606
+  },
+  {
+    "name": "1138 Aleppo earthquake",
+    "Start Year": 1138,
+    "Deaths": 230000,
+    "Latitude": 36.2021,
+    "Longitude": 36.1602
+  },
+  {
+    "name": "1902 Mount Pel\u00e9e eruption",
+    "Start Year": 1902,
+    "Deaths": 30000,
+    "Latitude": 14.6669,
+    "Longitude": -61.0416
+  },
+  {
+    "name": "1991 Bangladesh cyclone",
+    "Start Year": 1991,
+    "Deaths": 138866,
+    "Latitude": 22.3569,
+    "Longitude": 90.3585
+  },
+  {
+    "name": "1887 Yellow River flood",
+    "Start Year": 1887,
+    "Deaths": 2000000,
+    "Latitude": 34.8748017,
+    "Longitude": 113.6519214
+  },
+  {
+    "name": "1975 Banqiao Dam failure",
+    "Start Year": 1975,
+    "Deaths": 171000,
+    "Latitude": 32.9702028,
+    "Longitude": 113.4923593
+  },
+  {
+    "name": "1911 Yangtze River floods",
+    "Start Year": 1911,
+    "Deaths": 100000,
+    "Latitude": 29.5630093,
+    "Longitude": 106.551556
+  },
+  {
+    "name": "1935 Yangtze River floods",
+    "Start Year": 1935,
+    "Deaths": 145000,
+    "Latitude": 29.5630093,
+    "Longitude": 106.551556
+  },
+  {
+    "name": "Siege of Stalingrad",
+    "Start Year": 1942,
+    "Deaths": 4170000,
+    "Latitude": 48.708,
+    "Longitude": 44.5133
+  },
+  {
+    "name": "Daulatpur-Saturia tornado",
+    "Start Year": 1989,
+    "Deaths": 1300,
+    "Latitude": 23.8639516,
+    "Longitude": 89.98298
+  },
+  {
+    "name": "1970 Bhola cyclone",
+    "Start Year": 1970,
+    "Deaths": 500000,
+    "Latitude": 22.3569,
+    "Longitude": 90.3585
+  },
+  {
+    "name": "1718 Gansu earthquake",
+    "Start Year": 1718,
+    "Deaths": 70000,
+    "Latitude": 35.7518,
+    "Longitude": 104.2861
+  },
+  {
+    "name": "1973 Dhaka tornado",
+    "Start Year": 1973,
+    "Deaths": 681,
+    "Latitude": 23.685,
+    "Longitude": 90.3563
+  },
+  {
+    "name": "1755 Lisbon earthquake",
+    "Start Year": 1755,
+    "Deaths": 50000,
+    "Latitude": 38.7223,
+    "Longitude": -9.1393
+  },
+  {
+    "name": "1920 Haiyuan earthquake",
+    "Start Year": 1920,
+    "Deaths": 273407,
+    "Latitude": 36.6064,
+    "Longitude": 105.3196
+  },
+  {
+    "name": "1851 Sicily tornado",
+    "Start Year": 1851,
+    "Deaths": 500,
+    "Latitude": 37.5999938,
+    "Longitude": 14.0153557
+  },
+  {
+    "name": "Tri-State Tornado",
+    "Start Year": 1925,
+    "Deaths": 751,
+    "Latitude": 37.2083,
+    "Longitude": 89.9246
+  },
+  {
+    "name": "First Siege of Sevastopol",
+    "Start Year": 1854,
+    "Deaths": 230000,
+    "Latitude": 44.6166,
+    "Longitude": 33.5254
+  },
+  {
+    "name": "1737 Calcutta cyclone",
+    "Start Year": 1737,
+    "Deaths": 300000,
+    "Latitude": 22.5726,
+    "Longitude": 88.3639
+  },
+  {
+    "name": "Armenian Genocide",
+    "Start Year": 1915,
+    "Deaths": 1500000,
+    "Latitude": 40.0691,
+    "Longitude": 45.0382
+  },
+  {
+    "name": "1786 Dadu River landslide",
+    "Start Year": 1786,
+    "Deaths": 100000,
+    "Latitude": 30.3753,
+    "Longitude": 102.8992
+  },
+  {
+    "name": "Valletta tornado",
+    "Start Year": 1551,
+    "Deaths": 600,
+    "Latitude": 35.8989,
+    "Longitude": 14.5146
+  },
+  {
+    "name": "1864 Calcutta cyclone",
+    "Start Year": 1864,
+    "Deaths": 60000,
+    "Latitude": 22.5726,
+    "Longitude": 88.3639
+  },
+  {
+    "name": "1972 Iran blizzard",
+    "Start Year": 1972,
+    "Deaths": 4000,
+    "Latitude": 32.4279,
+    "Longitude": 53.688
+  },
+  {
+    "name": "1908 Messina earthquake",
+    "Start Year": 1908,
+    "Deaths": 123000,
+    "Latitude": 38.1937,
+    "Longitude": 15.5542
+  }
+]

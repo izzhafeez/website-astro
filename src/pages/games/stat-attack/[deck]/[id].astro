@@ -36,6 +36,9 @@ import buildingsData from "../../../../data/games/stat-attack/buildings.json";
 import busStopsData from "../../../../data/games/stat-attack/bus-stops.json";
 import busServicesData from "../../../../data/games/stat-attack/bus-services.json";
 import famousPeopleData from "../../../../data/games/stat-attack/famous-people.json";
+import unescoData from "../../../../data/games/stat-attack/unesco.json";
+import colorsData from "../../../../data/games/stat-attack/colors.json";
+import deathsData from "../../../../data/games/stat-attack/deaths.json";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 
@@ -248,6 +251,24 @@ switch (deckName) {
     deck = {
       title: "Famous People",
       data: famousPeopleData
+    }
+    break;
+  case 'unesco':
+    deck = {
+      title: "UNESCO World Heritage Sites",
+      data: unescoData
+    }
+    break;
+  case 'colors':
+    deck = {
+      title: "Colors",
+      data: colorsData
+    }
+    break;
+  case 'deaths':
+    deck = {
+      title: "Deadly Events",
+      data: deathsData,
     }
     break;
   default:

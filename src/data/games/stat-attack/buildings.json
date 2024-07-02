@@ -1,24 +1,24 @@
 [
   {
+    "name": "SEASCAPE Auckland",
+    "Construction Year": 2024,
+    "Height (m)": 187,
+    "Latitude": -36.8446,
+    "Longitude": 174.766
+  },
+  {
+    "name": "LORAN-C transmitter Port Clarence",
+    "Construction Year": 1961,
+    "Height (m)": 412,
+    "Latitude": 65.253,
+    "Longitude": -166.858
+  },
+  {
     "name": "Auckland Sky Tower",
     "Construction Year": 1997,
     "Height (m)": 328,
     "Latitude": -36.8485,
     "Longitude": 174.7623
-  },
-  {
-    "name": "Salesforce Tower",
-    "Construction Year": 2018,
-    "Height (m)": 326,
-    "Latitude": 37.7899,
-    "Longitude": -122.3966
-  },
-  {
-    "name": "Sydney Opera House",
-    "Construction Year": 1973,
-    "Height (m)": 65,
-    "Latitude": -33.8568,
-    "Longitude": 151.2153
   },
   {
     "name": "658 Punggol",
@@ -28,11 +28,25 @@
     "Longitude": 103.9198
   },
   {
-    "name": "Kinka-kuji",
-    "Construction Year": 1397,
-    "Height (m)": 15,
-    "Latitude": 35.0326,
-    "Longitude": 135.721
+    "name": "The Leonardo",
+    "Construction Year": 2019,
+    "Height (m)": 234,
+    "Latitude": -26.103964012359413,
+    "Longitude": 28.05603102303394
+  },
+  {
+    "name": "Sphere at the Venetian Resort",
+    "Construction Year": 2023,
+    "Height (m)": 112,
+    "Latitude": 36.1206,
+    "Longitude": -115.1613
+  },
+  {
+    "name": "Salesforce Tower",
+    "Construction Year": 2018,
+    "Height (m)": 326,
+    "Latitude": 37.7899,
+    "Longitude": -122.3966
   },
   {
     "name": "Great Wall of China",
@@ -42,25 +56,67 @@
     "Longitude": 116.5704
   },
   {
-    "name": "Merdeka 118",
-    "Construction Year": 2022,
-    "Height (m)": 644,
-    "Latitude": 3.1489,
-    "Longitude": 101.6934
+    "name": "Kinka-kuji",
+    "Construction Year": 1397,
+    "Height (m)": 15,
+    "Latitude": 35.0326,
+    "Longitude": 135.721
   },
   {
-    "name": "CN Tower",
-    "Construction Year": 1976,
-    "Height (m)": 553,
-    "Latitude": 43.6426,
-    "Longitude": -79.3871
+    "name": "Lualualei VLF Transmitter",
+    "Construction Year": 1972,
+    "Height (m)": 458,
+    "Latitude": 21.43996698508429,
+    "Longitude": -158.11365952741343
   },
   {
-    "name": "Wembley Stadium",
-    "Construction Year": 2007,
-    "Height (m)": 133,
-    "Latitude": 51.556,
-    "Longitude": -0.2795
+    "name": "KVLY-TV Mast",
+    "Construction Year": 1963,
+    "Height (m)": 628.8,
+    "Latitude": 47.524,
+    "Longitude": -97.177
+  },
+  {
+    "name": "Apple Park",
+    "Construction Year": 2017,
+    "Height (m)": 15,
+    "Latitude": 37.3349,
+    "Longitude": -122.009
+  },
+  {
+    "name": "Petronius Oil Platform",
+    "Construction Year": 2000,
+    "Height (m)": 610,
+    "Latitude": 29.10833,
+    "Longitude": -87.9417
+  },
+  {
+    "name": "Alnwick Castle",
+    "Construction Year": 1096,
+    "Height (m)": 31,
+    "Latitude": 55.4154,
+    "Longitude": -1.7064
+  },
+  {
+    "name": "Itsuku-shima Shrine",
+    "Construction Year": 593,
+    "Height (m)": 27,
+    "Latitude": 34.2967,
+    "Longitude": 132.3194
+  },
+  {
+    "name": "Warsaw Radio Mast",
+    "Construction Year": 1974,
+    "Height (m)": 646.38,
+    "Latitude": 52.2947,
+    "Longitude": 19.6496
+  },
+  {
+    "name": "Tokyo Skytree",
+    "Construction Year": 2012,
+    "Height (m)": 634,
+    "Latitude": 35.7101,
+    "Longitude": 139.8107
   },
   {
     "name": "St Basil's Cathedral",
@@ -70,32 +126,60 @@
     "Longitude": 37.6231
   },
   {
-    "name": "Buckingham Palace",
-    "Construction Year": 1703,
-    "Height (m)": 24,
-    "Latitude": 51.5014,
-    "Longitude": -0.1419
+    "name": "Ciel Tower",
+    "Construction Year": 2024,
+    "Height (m)": 366,
+    "Latitude": 25.08739411090156,
+    "Longitude": 55.14469150985968
   },
   {
-    "name": "Borobudur",
-    "Construction Year": 825,
-    "Height (m)": 35,
-    "Latitude": -7.6079,
-    "Longitude": 110.2036
+    "name": "G\u00f6bekli Tepe",
+    "Construction Year": -9600,
+    "Height (m)": 15,
+    "Latitude": 37.2231,
+    "Longitude": 38.9227
   },
   {
-    "name": "Space Needle",
-    "Construction Year": 1962,
-    "Height (m)": 184,
-    "Latitude": 47.6205,
-    "Longitude": -122.3493
+    "name": "687D Woodlands",
+    "Construction Year": 2002,
+    "Height (m)": 4.1,
+    "Latitude": 1.4417,
+    "Longitude": 103.807
   },
   {
-    "name": "One World Trade Center",
-    "Construction Year": 2014,
-    "Height (m)": 541,
-    "Latitude": 40.7127,
-    "Longitude": -74.0134
+    "name": "Tower of Jericho",
+    "Construction Year": -8000,
+    "Height (m)": 8,
+    "Latitude": 31.8714,
+    "Longitude": 35.4433
+  },
+  {
+    "name": "Studentskrapan",
+    "Construction Year": 2006,
+    "Height (m)": 50,
+    "Latitude": 59.31215878614555,
+    "Longitude": 18.07421416280211
+  },
+  {
+    "name": "Shanghai Tower",
+    "Construction Year": 2015,
+    "Height (m)": 632,
+    "Latitude": 31.2335,
+    "Longitude": 121.5055
+  },
+  {
+    "name": "Himeji Castle",
+    "Construction Year": 1333,
+    "Height (m)": 46,
+    "Latitude": 34.839,
+    "Longitude": 134.6935
+  },
+  {
+    "name": "CN Tower",
+    "Construction Year": 1976,
+    "Height (m)": 553,
+    "Latitude": 43.6426,
+    "Longitude": -79.3871
   },
   {
     "name": "Guoco Tower",
@@ -112,116 +196,18 @@
     "Longitude": 103.8434
   },
   {
-    "name": "Burj Khalifa",
-    "Construction Year": 2010,
-    "Height (m)": 828,
-    "Latitude": 25.1972,
-    "Longitude": 55.2744
+    "name": "Golden Gate Bridge",
+    "Construction Year": 1937,
+    "Height (m)": 227,
+    "Latitude": 37.8199,
+    "Longitude": -122.4783
   },
   {
-    "name": "Transamerica Pyramid",
-    "Construction Year": 1972,
-    "Height (m)": 260,
-    "Latitude": 37.7953,
-    "Longitude": -122.4028
-  },
-  {
-    "name": "The Gherkin",
-    "Construction Year": 2003,
-    "Height (m)": 180,
-    "Latitude": 51.5146,
-    "Longitude": -0.0804
-  },
-  {
-    "name": "Landmark 81",
-    "Construction Year": 2018,
-    "Height (m)": 461,
-    "Latitude": 10.7847,
-    "Longitude": 106.7031
-  },
-  {
-    "name": "The Shard",
-    "Construction Year": 2012,
-    "Height (m)": 309,
-    "Latitude": 51.5045,
-    "Longitude": -0.0865
-  },
-  {
-    "name": "Mall of America",
-    "Construction Year": 1992,
-    "Height (m)": 32,
-    "Latitude": 44.8541,
-    "Longitude": -93.2427
-  },
-  {
-    "name": "Alcatraz",
-    "Construction Year": 1859,
-    "Height (m)": 41,
-    "Latitude": 37.8267,
-    "Longitude": -122.4233
-  },
-  {
-    "name": "Shanghai Tower",
-    "Construction Year": 2015,
-    "Height (m)": 632,
-    "Latitude": 31.2335,
-    "Longitude": 121.5055
-  },
-  {
-    "name": "DUO Tower",
-    "Construction Year": 2018,
-    "Height (m)": 186,
-    "Latitude": 1.3036,
-    "Longitude": 103.8603
-  },
-  {
-    "name": "687D Woodlands",
-    "Construction Year": 2002,
-    "Height (m)": 4.1,
-    "Latitude": 1.4417,
-    "Longitude": 103.807
-  },
-  {
-    "name": "Willis Tower",
-    "Construction Year": 1973,
-    "Height (m)": 442,
-    "Latitude": 41.8789,
-    "Longitude": -87.6359
-  },
-  {
-    "name": "Bent Pyramid",
-    "Construction Year": -2600,
-    "Height (m)": 105,
-    "Latitude": 29.821,
-    "Longitude": 31.2137
-  },
-  {
-    "name": "Castle of Good Hope",
-    "Construction Year": 1666,
-    "Height (m)": 17,
-    "Latitude": -33.9272,
-    "Longitude": 18.4251
-  },
-  {
-    "name": "Himeji Castle",
-    "Construction Year": 1333,
-    "Height (m)": 46,
-    "Latitude": 34.839,
-    "Longitude": 134.6935
-  },
-  {
-    "name": "London Eye",
-    "Construction Year": 1999,
-    "Height (m)": 135,
-    "Latitude": 51.5033,
-    "Longitude": -0.1195
-  },
-  {
-    "name": "Louvres Pyramid",
-    "Construction Year": 1989,
-    "Height (m)": 21.6,
-    "Latitude": 48.8606,
-    "Longitude": 2.3376
+    "name": "Space Needle",
+    "Construction Year": 1962,
+    "Height (m)": 184,
+    "Latitude": 47.6205,
+    "Longitude": -122.3493
   },
   {
     "name": "Raffles Lighthouse",
@@ -231,25 +217,18 @@
     "Longitude": 103.8617
   },
   {
-    "name": "Tokyo Tower",
-    "Construction Year": 1958,
-    "Height (m)": 333,
-    "Latitude": 35.6586,
-    "Longitude": 139.7454
+    "name": "Boeing Everett Factory",
+    "Construction Year": 1967,
+    "Height (m)": 35,
+    "Latitude": 47.9189,
+    "Longitude": -122.2818
   },
   {
-    "name": "Lotte Tower",
-    "Construction Year": 2016,
-    "Height (m)": 555,
-    "Latitude": 37.5665,
-    "Longitude": 126.978
-  },
-  {
-    "name": "Great Pyramid of Giza",
-    "Construction Year": -2600,
-    "Height (m)": 138.5,
-    "Latitude": 29.9791,
-    "Longitude": 31.1316
+    "name": "Buckingham Palace",
+    "Construction Year": 1703,
+    "Height (m)": 24,
+    "Latitude": 51.5014,
+    "Longitude": -0.1419
   },
   {
     "name": "Osaka Castle",
@@ -259,18 +238,18 @@
     "Longitude": 135.5262
   },
   {
-    "name": "Westminster Abbey",
-    "Construction Year": 960,
-    "Height (m)": 34,
-    "Latitude": 51.4994,
-    "Longitude": -0.1276
+    "name": "Transamerica Pyramid",
+    "Construction Year": 1972,
+    "Height (m)": 260,
+    "Latitude": 37.7953,
+    "Longitude": -122.4028
   },
   {
-    "name": "Mecca Royal Clock Tower",
-    "Construction Year": 2012,
-    "Height (m)": 601,
-    "Latitude": 21.3891,
-    "Longitude": 39.8579
+    "name": "Castle of Good Hope",
+    "Construction Year": 1666,
+    "Height (m)": 17,
+    "Latitude": -33.9272,
+    "Longitude": 18.4251
   },
   {
     "name": "Merlion",
@@ -280,32 +259,88 @@
     "Longitude": 103.8545
   },
   {
-    "name": "Pyramid of Khafre",
-    "Construction Year": -2570,
-    "Height (m)": 136.4,
-    "Latitude": 29.9753,
-    "Longitude": 31.1313
-  },
-  {
-    "name": "Statue of Unity",
+    "name": "Landmark 81",
     "Construction Year": 2018,
-    "Height (m)": 182,
-    "Latitude": 21.8389,
-    "Longitude": 73.7147
+    "Height (m)": 461,
+    "Latitude": 10.7847,
+    "Longitude": 106.7031
   },
   {
-    "name": "Elizabeth Tower",
-    "Construction Year": 1859,
-    "Height (m)": 96,
-    "Latitude": 51.5007,
-    "Longitude": -0.1246
+    "name": "One World Trade Center",
+    "Construction Year": 2014,
+    "Height (m)": 541,
+    "Latitude": 40.7127,
+    "Longitude": -74.0134
   },
   {
-    "name": "312A Clementi",
+    "name": "Tokyo Tower",
+    "Construction Year": 1958,
+    "Height (m)": 333,
+    "Latitude": 35.6586,
+    "Longitude": 139.7454
+  },
+  {
+    "name": "Moscow State University",
+    "Construction Year": 1953,
+    "Height (m)": 240,
+    "Latitude": 55.7028,
+    "Longitude": 37.5306
+  },
+  {
+    "name": "Fort Jesus",
+    "Construction Year": 1593,
+    "Height (m)": 12,
+    "Latitude": -4.0635,
+    "Longitude": 39.6783
+  },
+  {
+    "name": "Cairo Flagpole",
+    "Construction Year": 2021,
+    "Height (m)": 160,
+    "Latitude": 30.0135,
+    "Longitude": 31.7549
+  },
+  {
+    "name": "Lotte Tower",
     "Construction Year": 2016,
-    "Height (m)": 113.3,
-    "Latitude": 1.319,
-    "Longitude": 103.7627
+    "Height (m)": 555,
+    "Latitude": 37.5665,
+    "Longitude": 126.978
+  },
+  {
+    "name": "Battlestar Galactica Cylon Roller Coaster",
+    "Construction Year": 2010,
+    "Height (m)": 43,
+    "Latitude": 1.256,
+    "Longitude": 103.8198
+  },
+  {
+    "name": "Bent Pyramid",
+    "Construction Year": -2600,
+    "Height (m)": 105,
+    "Latitude": 29.821,
+    "Longitude": 31.2137
+  },
+  {
+    "name": "Alcatraz",
+    "Construction Year": 1859,
+    "Height (m)": 41,
+    "Latitude": 37.8267,
+    "Longitude": -122.4233
+  },
+  {
+    "name": "Wembley Stadium",
+    "Construction Year": 2007,
+    "Height (m)": 133,
+    "Latitude": 51.556,
+    "Longitude": -0.2795
+  },
+  {
+    "name": "Mecca Royal Clock Tower",
+    "Construction Year": 2012,
+    "Height (m)": 601,
+    "Latitude": 21.3891,
+    "Longitude": 39.8579
   },
   {
     "name": "Fountain of Wealth",
@@ -315,18 +350,25 @@
     "Longitude": 103.8574
   },
   {
-    "name": "432 Park Avenue",
-    "Construction Year": 2015,
-    "Height (m)": 425,
-    "Latitude": 40.7616,
-    "Longitude": -73.9712
+    "name": "Great Pyramid of Giza",
+    "Construction Year": -2600,
+    "Height (m)": 138.5,
+    "Latitude": 29.9791,
+    "Longitude": 31.1316
   },
   {
-    "name": "Palace of Westminster",
-    "Construction Year": 1876,
-    "Height (m)": 96,
-    "Latitude": 51.4995,
-    "Longitude": -0.1248
+    "name": "Westminster Abbey",
+    "Construction Year": 960,
+    "Height (m)": 34,
+    "Latitude": 51.4994,
+    "Longitude": -0.1276
+  },
+  {
+    "name": "Louvres Pyramid",
+    "Construction Year": 1989,
+    "Height (m)": 21.6,
+    "Latitude": 48.8606,
+    "Longitude": 2.3376
   },
   {
     "name": "Gyeongbokgung",
@@ -336,6 +378,34 @@
     "Longitude": 126.977
   },
   {
+    "name": "Pyramid of Khafre",
+    "Construction Year": -2570,
+    "Height (m)": 136.4,
+    "Latitude": 29.9753,
+    "Longitude": 31.1313
+  },
+  {
+    "name": "The Shard",
+    "Construction Year": 2012,
+    "Height (m)": 309,
+    "Latitude": 51.5045,
+    "Longitude": -0.0865
+  },
+  {
+    "name": "The Gherkin",
+    "Construction Year": 2003,
+    "Height (m)": 180,
+    "Latitude": 51.5146,
+    "Longitude": -0.0804
+  },
+  {
+    "name": "The Hive",
+    "Construction Year": 2017,
+    "Height (m)": 38,
+    "Latitude": 1.3432,
+    "Longitude": 103.6826
+  },
+  {
     "name": "The Pinnacle@Duxton",
     "Construction Year": 2009,
     "Height (m)": 156,
@@ -343,18 +413,18 @@
     "Longitude": 103.8416
   },
   {
-    "name": "Pyramid of Menkaure",
-    "Construction Year": -2510,
-    "Height (m)": 65,
-    "Latitude": 29.972,
-    "Longitude": 31.1303
+    "name": "Willis Tower",
+    "Construction Year": 1973,
+    "Height (m)": 442,
+    "Latitude": 41.8789,
+    "Longitude": -87.6359
   },
   {
-    "name": "Sistine Chapel",
-    "Construction Year": 1473,
-    "Height (m)": 20,
-    "Latitude": 41.9029,
-    "Longitude": 12.4541
+    "name": "Statue of Unity",
+    "Construction Year": 2018,
+    "Height (m)": 182,
+    "Latitude": 21.8389,
+    "Longitude": 73.7147
   },
   {
     "name": "Ziggurat of Ur",
@@ -364,25 +434,11 @@
     "Longitude": 46.1033
   },
   {
-    "name": "The Colosseum",
-    "Construction Year": 80,
-    "Height (m)": 48,
-    "Latitude": 41.8902,
-    "Longitude": 12.4922
-  },
-  {
-    "name": "Bass Pro Shops Pyramid",
-    "Construction Year": 1991,
-    "Height (m)": 101,
-    "Latitude": 35.1554,
-    "Longitude": -90.0526
-  },
-  {
-    "name": "Chichen Itza",
-    "Construction Year": 600,
-    "Height (m)": 24,
-    "Latitude": 20.6843,
-    "Longitude": -88.5678
+    "name": "Pyramid of Menkaure",
+    "Construction Year": -2510,
+    "Height (m)": 65,
+    "Latitude": 29.972,
+    "Longitude": 31.1303
   },
   {
     "name": "Taipei 101",
@@ -392,18 +448,11 @@
     "Longitude": 121.5654
   },
   {
-    "name": "Marina Bay Residences",
-    "Construction Year": 2010,
-    "Height (m)": 245,
-    "Latitude": 1.2829,
-    "Longitude": 103.8616
-  },
-  {
-    "name": "World Trade Center",
-    "Construction Year": 1973,
-    "Height (m)": 415,
-    "Latitude": 40.7127,
-    "Longitude": -74.0134
+    "name": "London Eye",
+    "Construction Year": 1999,
+    "Height (m)": 135,
+    "Latitude": 51.5033,
+    "Longitude": -0.1195
   },
   {
     "name": "103 Spottiswoode",
@@ -420,18 +469,32 @@
     "Longitude": 12.4768
   },
   {
+    "name": "Mall of America",
+    "Construction Year": 1992,
+    "Height (m)": 32,
+    "Latitude": 44.8541,
+    "Longitude": -93.2427
+  },
+  {
+    "name": "Marina Bay Residences",
+    "Construction Year": 2010,
+    "Height (m)": 245,
+    "Latitude": 1.2829,
+    "Longitude": 103.8616
+  },
+  {
+    "name": "Dongdae-mun Design Plaza",
+    "Construction Year": 2014,
+    "Height (m)": 86,
+    "Latitude": 37.5704,
+    "Longitude": 127.0094
+  },
+  {
     "name": "Mont Saint-Michel",
     "Construction Year": 709,
     "Height (m)": 170,
     "Latitude": 48.6365,
     "Longitude": -1.5115
-  },
-  {
-    "name": "Acropolis of Athens",
-    "Construction Year": -447,
-    "Height (m)": 156,
-    "Latitude": 37.9715,
-    "Longitude": 23.7263
   },
   {
     "name": "Marina Bay Sands",
@@ -441,39 +504,25 @@
     "Longitude": 103.8607
   },
   {
-    "name": "Arc de Triomphe",
-    "Construction Year": 1836,
-    "Height (m)": 50,
-    "Latitude": 48.8738,
-    "Longitude": 2.295
+    "name": "Acropolis of Athens",
+    "Construction Year": -447,
+    "Height (m)": 156,
+    "Latitude": 37.9715,
+    "Longitude": 23.7263
   },
   {
-    "name": "Shanghai World Financial Center",
-    "Construction Year": 2008,
-    "Height (m)": 492,
-    "Latitude": 31.2335,
-    "Longitude": 121.5055
+    "name": "Sistine Chapel",
+    "Construction Year": 1473,
+    "Height (m)": 20,
+    "Latitude": 41.9029,
+    "Longitude": 12.4541
   },
   {
-    "name": "Arts Science Museum",
-    "Construction Year": 2011,
-    "Height (m)": 60,
-    "Latitude": 1.2862,
-    "Longitude": 103.8597
-  },
-  {
-    "name": "Great Mosque of Djenn\u00e9",
-    "Construction Year": 1907,
-    "Height (m)": 16,
-    "Latitude": 13.905,
-    "Longitude": -4.552
-  },
-  {
-    "name": "Empire State Building",
-    "Construction Year": 1931,
-    "Height (m)": 381,
-    "Latitude": 40.7484,
-    "Longitude": -73.9857
+    "name": "Mohamed VI Bridge",
+    "Construction Year": 2016,
+    "Height (m)": 200,
+    "Latitude": 35.7595,
+    "Longitude": -5.8333
   },
   {
     "name": "Hagia Sophia",
@@ -483,6 +532,27 @@
     "Longitude": 28.9802
   },
   {
+    "name": "Shanghai World Financial Center",
+    "Construction Year": 2008,
+    "Height (m)": 492,
+    "Latitude": 31.2335,
+    "Longitude": 121.5055
+  },
+  {
+    "name": "Elizabeth Tower",
+    "Construction Year": 1859,
+    "Height (m)": 96,
+    "Latitude": 51.5007,
+    "Longitude": -0.1246
+  },
+  {
+    "name": "Hoover Dam",
+    "Construction Year": 1936,
+    "Height (m)": 221,
+    "Latitude": 36.0156,
+    "Longitude": -114.7378
+  },
+  {
     "name": "International Commerce Centre",
     "Construction Year": 2010,
     "Height (m)": 484,
@@ -490,18 +560,18 @@
     "Longitude": 114.1614
   },
   {
-    "name": "Notre Dame Cathedral",
-    "Construction Year": 1345,
-    "Height (m)": 69,
-    "Latitude": 48.853,
-    "Longitude": 2.3499
+    "name": "Arts Science Museum",
+    "Construction Year": 2011,
+    "Height (m)": 60,
+    "Latitude": 1.2862,
+    "Longitude": 103.8597
   },
   {
-    "name": "Lighthouse of Alexandria",
-    "Construction Year": -280,
-    "Height (m)": 120,
-    "Latitude": 31.2001,
-    "Longitude": 29.9187
+    "name": "312A Clementi",
+    "Construction Year": 2016,
+    "Height (m)": 113.3,
+    "Latitude": 1.319,
+    "Longitude": 103.7627
   },
   {
     "name": "One Raffles Place",
@@ -511,32 +581,25 @@
     "Longitude": 103.8515
   },
   {
-    "name": "Ryugyong Hotel",
-    "Construction Year": 1987,
-    "Height (m)": 330,
-    "Latitude": 39.0392,
-    "Longitude": 125.7625
+    "name": "Palace of Westminster",
+    "Construction Year": 1876,
+    "Height (m)": 96,
+    "Latitude": 51.4995,
+    "Longitude": -0.1248
   },
   {
-    "name": "Eiffel Tower",
-    "Construction Year": 1889,
-    "Height (m)": 300,
-    "Latitude": 48.8584,
-    "Longitude": 2.2945
+    "name": "432 Park Avenue",
+    "Construction Year": 2015,
+    "Height (m)": 425,
+    "Latitude": 40.7616,
+    "Longitude": -73.9712
   },
   {
-    "name": "Stadium",
-    "Construction Year": 2014,
-    "Height (m)": 165,
-    "Latitude": 1.3036,
-    "Longitude": 103.8754
-  },
-  {
-    "name": "Washington Monument",
-    "Construction Year": 1884,
-    "Height (m)": 169,
-    "Latitude": 38.8895,
-    "Longitude": -77.0353
+    "name": "Lighthouse of Alexandria",
+    "Construction Year": -280,
+    "Height (m)": 120,
+    "Latitude": 31.2001,
+    "Longitude": 29.9187
   },
   {
     "name": "Temple of Heaven",
@@ -546,32 +609,11 @@
     "Longitude": 116.4074
   },
   {
-    "name": "Statue of Liberty",
-    "Construction Year": 1886,
-    "Height (m)": 93,
-    "Latitude": 40.6892,
-    "Longitude": -74.0445
-  },
-  {
-    "name": "Petronas Towers",
-    "Construction Year": 1998,
-    "Height (m)": 452,
-    "Latitude": 3.1578,
-    "Longitude": 101.7114
-  },
-  {
-    "name": "Chrysler Building",
-    "Construction Year": 1930,
-    "Height (m)": 319,
-    "Latitude": 40.7517,
-    "Longitude": -73.9756
-  },
-  {
-    "name": "Palace of Versailles",
-    "Construction Year": 1682,
-    "Height (m)": 67,
-    "Latitude": 48.8048,
-    "Longitude": 2.1204
+    "name": "Notre Dame Cathedral",
+    "Construction Year": 1345,
+    "Height (m)": 69,
+    "Latitude": 48.853,
+    "Longitude": 2.3499
   },
   {
     "name": "Forbidden City",
@@ -581,39 +623,74 @@
     "Longitude": 116.3972
   },
   {
-    "name": "Ilham Tower",
-    "Construction Year": 2015,
-    "Height (m)": 274,
-    "Latitude": 3.1616,
-    "Longitude": 101.7184
+    "name": "World Trade Center",
+    "Construction Year": 1973,
+    "Height (m)": 415,
+    "Latitude": 40.7127,
+    "Longitude": -74.0134
   },
   {
-    "name": "Buda Castle",
-    "Construction Year": 1265,
-    "Height (m)": 48,
-    "Latitude": 47.4969,
-    "Longitude": 19.0348
+    "name": "Ryugyong Hotel",
+    "Construction Year": 1987,
+    "Height (m)": 330,
+    "Latitude": 39.0392,
+    "Longitude": 125.7625
   },
   {
-    "name": "Bedok Mall",
-    "Construction Year": 2013,
-    "Height (m)": 60,
-    "Latitude": 1.324,
-    "Longitude": 103.9298
+    "name": "Petronas Towers",
+    "Construction Year": 1998,
+    "Height (m)": 452,
+    "Latitude": 3.1578,
+    "Longitude": 101.7114
   },
   {
-    "name": "Flatiron Building",
-    "Construction Year": 1902,
-    "Height (m)": 87,
-    "Latitude": 40.7411,
-    "Longitude": -73.9897
+    "name": "National Stadium",
+    "Construction Year": 2014,
+    "Height (m)": 165,
+    "Latitude": 1.3036,
+    "Longitude": 103.8754
   },
   {
-    "name": "Doge's Palace",
-    "Construction Year": 1340,
-    "Height (m)": 35,
-    "Latitude": 45.4344,
-    "Longitude": 12.3396
+    "name": "Great Mosque of Djenn\u00e9",
+    "Construction Year": 1907,
+    "Height (m)": 16,
+    "Latitude": 13.905,
+    "Longitude": -4.552
+  },
+  {
+    "name": "Gateway Arch",
+    "Construction Year": 1965,
+    "Height (m)": 192,
+    "Latitude": 38.6247,
+    "Longitude": -90.1848
+  },
+  {
+    "name": "Chichen Itza",
+    "Construction Year": 600,
+    "Height (m)": 24,
+    "Latitude": 20.6843,
+    "Longitude": -88.5678
+  },
+  {
+    "name": "Arc de Triomphe",
+    "Construction Year": 1836,
+    "Height (m)": 50,
+    "Latitude": 48.8738,
+    "Longitude": 2.295
+  },
+  {
+    "name": "Chimney #2 of Mitchell Power Plant",
+    "Construction Year": 2006,
+    "Height (m)": 304.8,
+    "Latitude": 39.830858228334485,
+    "Longitude": -80.80859783960808
+  },
+  {
+    "name": "Angkor Wat",
+    "Construction Year": 1113,
+    "Height (m)": 65,
+    "Latitude": 13.4125,
+    "Longitude": 103.866
   },
   {
     "name": "Singapore Flyer",
@@ -623,11 +700,46 @@
     "Longitude": 103.863
   },
   {
-    "name": "Alhambra",
-    "Construction Year": 1238,
-    "Height (m)": 26,
-    "Latitude": 37.176,
-    "Longitude": -3.5881
+    "name": "Atomium",
+    "Construction Year": 1958,
+    "Height (m)": 102,
+    "Latitude": 50.8949,
+    "Longitude": 4.3416
+  },
+  {
+    "name": "The Pentagon",
+    "Construction Year": 1943,
+    "Height (m)": 23,
+    "Latitude": 38.87199041871163,
+    "Longitude": -77.05583774978999
+  },
+  {
+    "name": "Benjamin Sheares Bridge",
+    "Construction Year": 1981,
+    "Height (m)": 29,
+    "Latitude": 1.2917,
+    "Longitude": 103.8656
+  },
+  {
+    "name": "Ilham Tower",
+    "Construction Year": 2015,
+    "Height (m)": 274,
+    "Latitude": 3.1616,
+    "Longitude": 101.7184
+  },
+  {
+    "name": "Zumanjaro: Drop of Doom",
+    "Construction Year": 2014,
+    "Height (m)": 126,
+    "Latitude": 40.134,
+    "Longitude": -74.4386
+  },
+  {
+    "name": "Empire State Building",
+    "Construction Year": 1931,
+    "Height (m)": 381,
+    "Latitude": 40.7484,
+    "Longitude": -73.9857
   },
   {
     "name": "Fullerton Hotel",
@@ -637,11 +749,18 @@
     "Longitude": 103.8526
   },
   {
-    "name": "Gul Circle MRT Station",
-    "Construction Year": 2009,
-    "Height (m)": 33,
-    "Latitude": 1.3194,
-    "Longitude": 103.6606
+    "name": "Buda Castle",
+    "Construction Year": 1265,
+    "Height (m)": 48,
+    "Latitude": 47.4969,
+    "Longitude": 19.0348
+  },
+  {
+    "name": "Bass Pro Shops Pyramid",
+    "Construction Year": 1991,
+    "Height (m)": 101,
+    "Latitude": 35.1554,
+    "Longitude": -90.0526
   },
   {
     "name": "Two International Finance Centre",
@@ -651,18 +770,11 @@
     "Longitude": 114.158
   },
   {
-    "name": "Great Mosque of Mecca",
-    "Construction Year": 638,
-    "Height (m)": 89,
-    "Latitude": 21.4225,
-    "Longitude": 39.8262
-  },
-  {
-    "name": "Angkor Wat",
-    "Construction Year": 1113,
-    "Height (m)": 65,
-    "Latitude": 13.4125,
-    "Longitude": 103.866
+    "name": "Eiffel Tower",
+    "Construction Year": 1889,
+    "Height (m)": 300,
+    "Latitude": 48.8584,
+    "Longitude": 2.2945
   },
   {
     "name": "Esplanade - Theatres on the Bay",
@@ -679,11 +791,25 @@
     "Longitude": 35.2345
   },
   {
-    "name": "Neuschwanstein Castle",
-    "Construction Year": 1886,
-    "Height (m)": 65,
-    "Latitude": 47.5576,
-    "Longitude": 10.7498
+    "name": "Palace of Versailles",
+    "Construction Year": 1682,
+    "Height (m)": 67,
+    "Latitude": 48.8048,
+    "Longitude": 2.1204
+  },
+  {
+    "name": "Doge's Palace",
+    "Construction Year": 1340,
+    "Height (m)": 35,
+    "Latitude": 45.4344,
+    "Longitude": 12.3396
+  },
+  {
+    "name": "Bedok Mall",
+    "Construction Year": 2013,
+    "Height (m)": 60,
+    "Latitude": 1.324,
+    "Longitude": 103.9298
   },
   {
     "name": "Mezquita of Cordoba",
@@ -693,25 +819,11 @@
     "Longitude": -4.7794
   },
   {
-    "name": "Petronas Tower 3",
-    "Construction Year": 2012,
-    "Height (m)": 267,
-    "Latitude": 3.1578,
-    "Longitude": 101.7114
-  },
-  {
-    "name": "Leaning Tower of Pisa",
-    "Construction Year": 1372,
-    "Height (m)": 56,
-    "Latitude": 43.723,
-    "Longitude": 10.3966
-  },
-  {
-    "name": "103 Toa Payoh",
-    "Construction Year": 1967,
-    "Height (m)": 29.3,
-    "Latitude": 1.3402,
-    "Longitude": 103.83
+    "name": "Changi Airport Control Tower",
+    "Construction Year": 2007,
+    "Height (m)": 80,
+    "Latitude": 1.3644,
+    "Longitude": 103.9915
   },
   {
     "name": "Millennia Tower",
@@ -721,25 +833,18 @@
     "Longitude": 103.8583
   },
   {
-    "name": "Changi Airport Control Tower",
-    "Construction Year": 2007,
-    "Height (m)": 80,
-    "Latitude": 1.3644,
-    "Longitude": 103.9915
+    "name": "Alhambra",
+    "Construction Year": 1238,
+    "Height (m)": 26,
+    "Latitude": 37.176,
+    "Longitude": -3.5881
   },
   {
-    "name": "34 Whampoa West",
-    "Construction Year": 1971,
-    "Height (m)": 34.9,
-    "Latitude": 1.3203,
-    "Longitude": 103.8602
-  },
-  {
-    "name": "Swissotel The Stamford",
-    "Construction Year": 1986,
-    "Height (m)": 226,
-    "Latitude": 1.2933,
-    "Longitude": 103.8533
+    "name": "Leaning Tower of Pisa",
+    "Construction Year": 1372,
+    "Height (m)": 56,
+    "Latitude": 43.723,
+    "Longitude": 10.3966
   },
   {
     "name": "Suntec City Tower 1",
@@ -749,11 +854,25 @@
     "Longitude": 103.8573
   },
   {
-    "name": "NEX",
-    "Construction Year": 2010,
-    "Height (m)": 50,
-    "Latitude": 1.3508,
-    "Longitude": 103.872
+    "name": "Chrysler Building",
+    "Construction Year": 1930,
+    "Height (m)": 319,
+    "Latitude": 40.7517,
+    "Longitude": -73.9756
+  },
+  {
+    "name": "Gul Circle MRT Station",
+    "Construction Year": 2009,
+    "Height (m)": 33,
+    "Latitude": 1.3194,
+    "Longitude": 103.6606
+  },
+  {
+    "name": "Vehicle Assembly Building",
+    "Construction Year": 1966,
+    "Height (m)": 160,
+    "Latitude": 28.5733,
+    "Longitude": -80.6469
   },
   {
     "name": "The Concourse",
@@ -763,6 +882,48 @@
     "Longitude": 103.8611
   },
   {
+    "name": "Shuibuya Dam",
+    "Construction Year": 2008,
+    "Height (m)": 233,
+    "Latitude": 30.4384,
+    "Longitude": 110.3377
+  },
+  {
+    "name": "Millau Viaduct",
+    "Construction Year": 2004,
+    "Height (m)": 336,
+    "Latitude": 44.0816,
+    "Longitude": 3.0226
+  },
+  {
+    "name": "Swissotel The Stamford",
+    "Construction Year": 1986,
+    "Height (m)": 226,
+    "Latitude": 1.2933,
+    "Longitude": 103.8533
+  },
+  {
+    "name": "NEX",
+    "Construction Year": 2010,
+    "Height (m)": 50,
+    "Latitude": 1.3508,
+    "Longitude": 103.872
+  },
+  {
+    "name": "103 Toa Payoh",
+    "Construction Year": 1967,
+    "Height (m)": 29.3,
+    "Latitude": 1.3402,
+    "Longitude": 103.83
+  },
+  {
+    "name": "The Motherland Calls",
+    "Construction Year": 1967,
+    "Height (m)": 85,
+    "Latitude": 48.74253559828707,
+    "Longitude": 44.53640792475183
+  },
+  {
     "name": "Sultan Mosque",
     "Construction Year": 1824,
     "Height (m)": 41,
@@ -770,11 +931,11 @@
     "Longitude": 103.8564
   },
   {
-    "name": "839 Yishun",
-    "Construction Year": 1987,
-    "Height (m)": 34.9,
-    "Latitude": 1.4158,
-    "Longitude": 103.8325
+    "name": "Washington Monument",
+    "Construction Year": 1884,
+    "Height (m)": 169,
+    "Latitude": 38.8895,
+    "Longitude": -77.0353
   },
   {
     "name": "142 Potong Pasir",
@@ -784,18 +945,46 @@
     "Longitude": 103.8646
   },
   {
-    "name": "Sagrada Familia",
-    "Construction Year": 1882,
-    "Height (m)": 170,
-    "Latitude": 41.4036,
-    "Longitude": 2.1744
+    "name": "Statue of Liberty",
+    "Construction Year": 1886,
+    "Height (m)": 93,
+    "Latitude": 40.6892,
+    "Longitude": -74.0445
   },
   {
-    "name": "Golden Temple",
-    "Construction Year": 1577,
-    "Height (m)": 35,
-    "Latitude": 31.62,
-    "Longitude": 74.8765
+    "name": "34 Whampoa West",
+    "Construction Year": 1971,
+    "Height (m)": 34.9,
+    "Latitude": 1.3203,
+    "Longitude": 103.8602
+  },
+  {
+    "name": "Neuschwanstein Castle",
+    "Construction Year": 1886,
+    "Height (m)": 65,
+    "Latitude": 47.5576,
+    "Longitude": 10.7498
+  },
+  {
+    "name": "Petronas Tower 3",
+    "Construction Year": 2012,
+    "Height (m)": 267,
+    "Latitude": 3.1578,
+    "Longitude": 101.7114
+  },
+  {
+    "name": "Flatiron Building",
+    "Construction Year": 1902,
+    "Height (m)": 87,
+    "Latitude": 40.7411,
+    "Longitude": -73.9897
+  },
+  {
+    "name": "839 Yishun",
+    "Construction Year": 1987,
+    "Height (m)": 34.9,
+    "Latitude": 1.4158,
+    "Longitude": 103.8325
   },
   {
     "name": "Blue Mosque",
@@ -805,18 +994,32 @@
     "Longitude": 28.9768
   },
   {
-    "name": "Lotus Temple",
-    "Construction Year": 1986,
-    "Height (m)": 40,
-    "Latitude": 28.5535,
-    "Longitude": 77.2588
-  },
-  {
     "name": "128 Bishan",
     "Construction Year": 1986,
     "Height (m)": 71.3,
     "Latitude": 1.3463,
     "Longitude": 103.8502
+  },
+  {
+    "name": "Sagrada Familia",
+    "Construction Year": 1882,
+    "Height (m)": 170,
+    "Latitude": 41.4036,
+    "Longitude": 2.1744
+  },
+  {
+    "name": "Great Mosque of Mecca",
+    "Construction Year": 1570,
+    "Height (m)": 139,
+    "Latitude": 21.4225,
+    "Longitude": 39.8262
+  },
+  {
+    "name": "Lotus Temple",
+    "Construction Year": 1986,
+    "Height (m)": 40,
+    "Latitude": 28.5535,
+    "Longitude": 77.2588
   },
   {
     "name": "Potala Palace",
@@ -826,18 +1029,18 @@
     "Longitude": 91.1167
   },
   {
-    "name": "Grand Palace",
-    "Construction Year": 1782,
-    "Height (m)": 44,
-    "Latitude": 13.75,
-    "Longitude": 100.491
-  },
-  {
     "name": "Taj Mahal",
     "Construction Year": 1653,
     "Height (m)": 73,
     "Latitude": 27.1751,
     "Longitude": 78.0421
+  },
+  {
+    "name": "Grand Palace",
+    "Construction Year": 1782,
+    "Height (m)": 44,
+    "Latitude": 13.75,
+    "Longitude": 100.491
   },
   {
     "name": "Mysore Palace",

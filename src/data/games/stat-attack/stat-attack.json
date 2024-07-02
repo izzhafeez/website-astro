@@ -4,11 +4,6 @@
     "instructions": "Fight using the latitude, longitude, number of stores and opening year!",
     "tags": ["Geography", "Malls"]
   },
-  "cities": {
-    "title": "Cities of the World",
-    "instructions": "Fight using the latitude, longitude and population!",
-    "tags": ["Geography", "Cities"]
-  },
   "mrt": {
     "title": "MRT Stations of Singapore",
     "instructions": "Fight using the latitude, longitude, opening year and passenger volume!",
@@ -18,6 +13,41 @@
     "title": "Subzones of Singapore",
     "instructions": "Fight using the area, population, latitude and longitude!",
     "tags": ["Geography", "Subzones"]
+  },
+  "famous-people":{ 
+    "title": "Famous People",
+    "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",
+    "tags": ["People", "Famous"]
+  },
+  "buildings": {
+    "title": "Buildings of the World",
+    "instructions": "Fight using the height, year of completion, latitude and longitude!",
+    "tags": ["Geography", "Buildings"]
+  },
+  "kanji": {
+    "title": "Japanese Kanji",
+    "instructions": "Fight using the stroke count, unicode ID, grade and number of readings!",
+    "tags": ["Languages", "Japanese"]
+  },
+  "unesco": {
+    "title": "UNESCO World Heritage Sites",
+    "instructions": "Fight using the year of inscription, area, latitude and longitude!",
+    "tags": ["Geography", "UNESCO"]
+  },
+  "cities": {
+    "title": "Cities of the World",
+    "instructions": "Fight using the latitude, longitude and population!",
+    "tags": ["Geography", "Cities"]
+  },
+  "countries": {
+    "title": "Countries of the World",
+    "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",
+    "tags": ["Geography", "Countries"]
+  },
+  "colors": {
+    "title": "Colors",
+    "instructions": "Fight using the red, green, blue and saturation values!",
+    "tags": ["Colors"]
   },
   "bus-services": {
     "title": "Bus Services of Singapore",
@@ -29,25 +59,15 @@
     "instructions": "Fight using the latitude, longitude, number of services and average service number!",
     "tags": ["Geography", "Bus Stops"]
   },
-  "buildings": {
-    "title": "Buildings of the World",
-    "instructions": "Fight using the height, year of completion, latitude and longitude!",
-    "tags": ["Geography", "Buildings"]
-  },
-  "countries": {
-    "title": "Countries of the World",
-    "instructions": "Fight using the population, area, GDP per capita and tallest mountain!",
-    "tags": ["Geography", "Countries"]
-  },
-  "famous-people":{ 
-    "title": "Famous People",
-    "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",
-    "tags": ["People", "Famous"]
-  },
   "github": {
     "title": "GitHub Repositories",
     "instructions": "Fight using the number of stars, forks, commits and contributors!",
     "tags": ["Internet", "GitHub"]
+  },
+  "deaths": {
+    "title": "Deadly Events",
+    "instructions": "Fight using the year, number of deaths, latitude and longitude!",
+    "tags": ["People", "Deaths"]
   },
   "universities": {
     "title": "University Rankings",
@@ -63,11 +83,6 @@
     "title": "Anime Shows",
     "instructions": "Fight using the number of episodes, average rating and premiere year!",
     "tags": ["Anime", "Shows"]
-  },
-  "kanji": {
-    "title": "Japanese Kanji",
-    "instructions": "Fight using the stroke count, JLPT level, frequency and number of readings!",
-    "tags": ["Languages", "Japanese"]
   },
   "songs-youtube": {
     "title": "Songs on YouTube",

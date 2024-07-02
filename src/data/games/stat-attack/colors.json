@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "White",
+    "Red Value": 255,
+    "Blue Value": 255,
+    "Green Value": 255,
+    "Saturation (HSL)": 0
+  },
+  {
+    "name": "Blue",
+    "Red Value": 0,
+    "Blue Value": 0,
+    "Green Value": 255,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Red",
+    "Red Value": 255,
+    "Blue Value": 0,
+    "Green Value": 0,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Green",
+    "Red Value": 0,
+    "Blue Value": 255,
+    "Green Value": 0,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Fuchsia",
+    "Red Value": 255,
+    "Blue Value": 0,
+    "Green Value": 255,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Technobotanica",
+    "Red Value": 0,
+    "Blue Value": 255,
+    "Green Value": 191,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Viridian green",
+    "Red Value": 0,
+    "Blue Value": 150,
+    "Green Value": 152,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "British racing green",
+    "Red Value": 0,
+    "Blue Value": 66,
+    "Green Value": 37,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Flirt",
+    "Red Value": 162,
+    "Blue Value": 0,
+    "Green Value": 109,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Black",
+    "Red Value": 0,
+    "Blue Value": 0,
+    "Green Value": 0,
+    "Saturation (HSL)": 0
+  },
+  {
+    "name": "Safety yellow",
+    "Red Value": 238,
+    "Blue Value": 210,
+    "Green Value": 2,
+    "Saturation (HSL)": 98
+  },
+  {
+    "name": "Purple (X11)",
+    "Red Value": 160,
+    "Blue Value": 32,
+    "Green Value": 240,
+    "Saturation (HSL)": 87
+  },
+  {
+    "name": "Veronica",
+    "Red Value": 160,
+    "Blue Value": 32,
+    "Green Value": 240,
+    "Saturation (HSL)": 87
+  },
+  {
+    "name": "Salmon pink",
+    "Red Value": 255,
+    "Blue Value": 145,
+    "Green Value": 164,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Laser lemon",
+    "Red Value": 255,
+    "Blue Value": 255,
+    "Green Value": 102,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Light gray",
+    "Red Value": 211,
+    "Blue Value": 211,
+    "Green Value": 211,
+    "Saturation (HSL)": 0
+  },
+  {
+    "name": "Platinum",
+    "Red Value": 229,
+    "Blue Value": 228,
+    "Green Value": 226,
+    "Saturation (HSL)": 6
+  },
+  {
+    "name": "Isabelline",
+    "Red Value": 244,
+    "Blue Value": 240,
+    "Green Value": 236,
+    "Saturation (HSL)": 27
+  },
+  {
+    "name": "Medium candy apple red",
+    "Red Value": 226,
+    "Blue Value": 6,
+    "Green Value": 44,
+    "Saturation (HSL)": 95
+  },
+  {
+    "name": "Silver",
+    "Red Value": 192,
+    "Blue Value": 192,
+    "Green Value": 192,
+    "Saturation (HSL)": 0
+  },
+  {
+    "name": "Mango Tango",
+    "Red Value": 255,
+    "Blue Value": 130,
+    "Green Value": 67,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "UP Forest green",
+    "Red Value": 1,
+    "Blue Value": 68,
+    "Green Value": 33,
+    "Saturation (HSL)": 97
+  },
+  {
+    "name": "Dark goldenrod",
+    "Red Value": 184,
+    "Blue Value": 134,
+    "Green Value": 11,
+    "Saturation (HSL)": 89
+  },
+  {
+    "name": "International orange (engineering)",
+    "Red Value": 186,
+    "Blue Value": 22,
+    "Green Value": 12,
+    "Saturation (HSL)": 88
+  },
+  {
+    "name": "French sky blue",
+    "Red Value": 119,
+    "Blue Value": 181,
+    "Green Value": 254,
+    "Saturation (HSL)": 99
+  },
+  {
+    "name": "Persian rose",
+    "Red Value": 254,
+    "Blue Value": 40,
+    "Green Value": 162,
+    "Saturation (HSL)": 99
+  },
+  {
+    "name": "Tiffany Blue",
+    "Red Value": 10,
+    "Blue Value": 186,
+    "Green Value": 181,
+    "Saturation (HSL)": 90
+  },
+  {
+    "name": "Mona Lisa",
+    "Red Value": 255,
+    "Blue Value": 148,
+    "Green Value": 142,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Jazzberry jam",
+    "Red Value": 165,
+    "Blue Value": 11,
+    "Green Value": 94,
+    "Saturation (HSL)": 88
+  },
+  {
+    "name": "Beige",
+    "Red Value": 245,
+    "Blue Value": 245,
+    "Green Value": 220,
+    "Saturation (HSL)": 56
+  },
+  {
+    "name": "Lavender (web)",
+    "Red Value": 230,
+    "Blue Value": 230,
+    "Green Value": 250,
+    "Saturation (HSL)": 67
+  },
+  {
+    "name": "Macaroni and Cheese",
+    "Red Value": 255,
+    "Blue Value": 189,
+    "Green Value": 136,
+    "Saturation (HSL)": 100
+  },
+  {
+    "name": "Linen",
+    "Red Value": 250,
+    "Blue Value": 240,
+    "Green Value": 230,
+    "Saturation (HSL)": 67
+  },
+  {
+    "name": "Crimson",
+    "Red Value": 220,
+    "Blue Value": 20,
+    "Green Value": 60,
+    "Saturation (HSL)": 83
+  },
+  {
+    "name": "Eggshell",
+    "Red Value": 240,
+    "Blue Value": 234,
+    "Green Value": 214,
+    "Saturation (HSL)": 46
+  },
+  {
+    "name": "Pacific blue",
+    "Red Value": 28,
+    "Blue Value": 169,
+    "Green Value": 201,
+    "Saturation (HSL)": 76
+  },
+  {
+    "name": "Yellow-green (Color Wheel)",
+    "Red Value": 48,
+    "Blue Value": 178,
+    "Green Value": 26,
+    "Saturation (HSL)": 75
+  },
+  {
+    "name": "Old silver",
+    "Red Value": 132,
+    "Blue Value": 132,
+    "Green Value": 130,
+    "Saturation (HSL)": 1
+  },
+  {
+    "name": "Seal brown",
+    "Red Value": 89,
+    "Blue Value": 38,
+    "Green Value": 11,
+    "Saturation (HSL)": 43
+  },
+  {
+    "name": "Cornflower blue",
+    "Red Value": 100,
+    "Blue Value": 149,
+    "Green Value": 237,
+    "Saturation (HSL)": 79
+  },
+  {
+    "name": "Red (pigment)",
+    "Red Value": 237,
+    "Blue Value": 28,
+    "Green Value": 36,
+    "Saturation (HSL)": 85
+  },
+  {
+    "name": "Nickel",
+    "Red Value": 114,
+    "Blue Value": 116,
+    "Green Value": 114,
+    "Saturation (HSL)": 1
+  },
+  {
+    "name": "Light orange",
+    "Red Value": 254,
+    "Blue Value": 216,
+    "Green Value": 177,
+    "Saturation (HSL)": 98
+  },
+  {
+    "name": "Champagne",
+    "Red Value": 247,
+    "Blue Value": 231,
+    "Green Value": 206,
+    "Saturation (HSL)": 72
+  },
+  {
+    "name": "Taupe gray",
+    "Red Value": 139,
+    "Blue Value": 133,
+    "Green Value": 137,
+    "Saturation (HSL)": 3
+  },
+  {
+    "name": "Falu red",
+    "Red Value": 128,
+    "Blue Value": 24,
+    "Green Value": 24,
+    "Saturation (HSL)": 68
+  },
+  {
+    "name": "Medium slate blue",
+    "Red Value": 123,
+    "Blue Value": 104,
+    "Green Value": 238,
+    "Saturation (HSL)": 80
+  },
+  {
+    "name": "Blue sapphire",
+    "Red Value": 18,
+    "Blue Value": 97,
+    "Green Value": 128,
+    "Saturation (HSL)": 75
+  },
+  {
+    "name": "Sepia",
+    "Red Value": 112,
+    "Blue Value": 66,
+    "Green Value": 20,
+    "Saturation (HSL)": 70
+  },
+  {
+    "name": "Royal blue (light)",
+    "Red Value": 65,
+    "Blue Value": 105,
+    "Green Value": 225,
+    "Saturation (HSL)": 73
+  },
+  {
+    "name": "Strong Lime Green",
+    "Red Value": 51,
+    "Blue Value": 204,
+    "Green Value": 51,
+    "Saturation (HSL)": 60
+  },
+  {
+    "name": "Bright lilac",
+    "Red Value": 216,
+    "Blue Value": 145,
+    "Green Value": 239,
+    "Saturation (HSL)": 75
+  },
+  {
+    "name": "Banana Mania",
+    "Red Value": 250,
+    "Blue Value": 231,
+    "Green Value": 181,
+    "Saturation (HSL)": 87
+  },
+  {
+    "name": "Tufts blue",
+    "Red Value": 62,
+    "Blue Value": 142,
+    "Green Value": 222,
+    "Saturation (HSL)": 71
+  },
+  {
+    "name": "Manatee",
+    "Red Value": 151,
+    "Blue Value": 154,
+    "Green Value": 170,
+    "Saturation (HSL)": 10
+  },
+  {
+    "name": "Marigold",
+    "Red Value": 234,
+    "Blue Value": 162,
+    "Green Value": 33,
+    "Saturation (HSL)": 83
+  },
+  {
+    "name": "Sky blue (Crayola)",
+    "Red Value": 118,
+    "Blue Value": 215,
+    "Green Value": 234,
+    "Saturation (HSL)": 73
+  },
+  {
+    "name": "Xanadu",
+    "Red Value": 115,
+    "Blue Value": 134,
+    "Green Value": 120,
+    "Saturation (HSL)": 8
+  },
+  {
+    "name": "Russian violet",
+    "Red Value": 50,
+    "Blue Value": 23,
+    "Green Value": 77,
+    "Saturation (HSL)": 54
+  },
+  {
+    "name": "Chocolate (web)",
+    "Red Value": 210,
+    "Blue Value": 105,
+    "Green Value": 30,
+    "Saturation (HSL)": 75
+  },
+  {
+    "name": "Salmon",
+    "Red Value": 250,
+    "Blue Value": 128,
+    "Green Value": 114,
+    "Saturation (HSL)": 93
+  },
+  {
+    "name": "Rhythm",
+    "Red Value": 119,
+    "Blue Value": 118,
+    "Green Value": 150,
+    "Saturation (HSL)": 13
+  },
+  {
+    "name": "Crimson (UA)",
+    "Red Value": 158,
+    "Blue Value": 27,
+    "Green Value": 50,
+    "Saturation (HSL)": 71
+  },
+  {
+    "name": "Aero",
+    "Red Value": 124,
+    "Blue Value": 185,
+    "Green Value": 232,
+    "Saturation (HSL)": 70
+  },
+  {
+    "name": "Khaki (X11) (Light khaki)",
+    "Red Value": 240,
+    "Blue Value": 230,
+    "Green Value": 140,
+    "Saturation (HSL)": 77
+  },
+  {
+    "name": "Cadet grey",
+    "Red Value": 145,
+    "Blue Value": 163,
+    "Green Value": 176,
+    "Saturation (HSL)": 16
+  },
+  {
+    "name": "Space cadet",
+    "Red Value": 29,
+    "Blue Value": 41,
+    "Green Value": 81,
+    "Saturation (HSL)": 47
+  },
+  {
+    "name": "Pale aqua",
+    "Red Value": 190,
+    "Blue Value": 211,
+    "Green Value": 229,
+    "Saturation (HSL)": 43
+  },
+  {
+    "name": "YInMn Blue",
+    "Red Value": 46,
+    "Blue Value": 80,
+    "Green Value": 144,
+    "Saturation (HSL)": 52
+  },
+  {
+    "name": "Medium champagne",
+    "Red Value": 243,
+    "Blue Value": 229,
+    "Green Value": 171,
+    "Saturation (HSL)": 75
+  },
+  {
+    "name": "Fuzzy Wuzzy",
+    "Red Value": 135,
+    "Blue Value": 66,
+    "Green Value": 31,
+    "Saturation (HSL)": 63
+  },
+  {
+    "name": "Olive Drab #7",
+    "Red Value": 60,
+    "Blue Value": 52,
+    "Green Value": 31,
+    "Saturation (HSL)": 32
+  },
+  {
+    "name": "Maximum red",
+    "Red Value": 217,
+    "Blue Value": 33,
+    "Green Value": 33,
+    "Saturation (HSL)": 74
+  },
+  {
+    "name": "Keppel",
+    "Red Value": 58,
+    "Blue Value": 176,
+    "Green Value": 158,
+    "Saturation (HSL)": 50
+  },
+  {
+    "name": "Zomp",
+    "Red Value": 57,
+    "Blue Value": 167,
+    "Green Value": 142,
+    "Saturation (HSL)": 49
+  },
+  {
+    "name": "Rifle green",
+    "Red Value": 68,
+    "Blue Value": 76,
+    "Green Value": 56,
+    "Saturation (HSL)": 15
+  },
+  {
+    "name": "Mandarin",
+    "Red Value": 243,
+    "Blue Value": 122,
+    "Green Value": 72,
+    "Saturation (HSL)": 88
+  },
+  {
+    "name": "Deep taupe",
+    "Red Value": 126,
+    "Blue Value": 94,
+    "Green Value": 96,
+    "Saturation (HSL)": 15
+  },
+  {
+    "name": "Flame",
+    "Red Value": 226,
+    "Blue Value": 88,
+    "Green Value": 34,
+    "Saturation (HSL)": 77
+  },
+  {
+    "name": "Champagne pink",
+    "Red Value": 241,
+    "Blue Value": 221,
+    "Green Value": 207,
+    "Saturation (HSL)": 55
+  },
+  {
+    "name": "Razzmatazz",
+    "Red Value": 227,
+    "Blue Value": 37,
+    "Green Value": 107,
+    "Saturation (HSL)": 77
+  },
+  {
+    "name": "Russian green",
+    "Red Value": 103,
+    "Blue Value": 146,
+    "Green Value": 103,
+    "Saturation (HSL)": 17
+  },
+  {
+    "name": "Pink Sherbet",
+    "Red Value": 247,
+    "Blue Value": 143,
+    "Green Value": 167,
+    "Saturation (HSL)": 87
+  },
+  {
+    "name": "Little boy blue",
+    "Red Value": 108,
+    "Blue Value": 160,
+    "Green Value": 220,
+    "Saturation (HSL)": 62
+  },
+  {
+    "name": "Yellow-green (Crayola)",
+    "Red Value": 197,
+    "Blue Value": 227,
+    "Green Value": 132,
+    "Saturation (HSL)": 63
+  },
+  {
+    "name": "Middle blue green",
+    "Red Value": 141,
+    "Blue Value": 217,
+    "Green Value": 204,
+    "Saturation (HSL)": 50
+  },
+  {
+    "name": "Seance",
+    "Red Value": 97,
+    "Blue Value": 32,
+    "Green Value": 134,
+    "Saturation (HSL)": 61
+  },
+  {
+    "name": "Independence",
+    "Red Value": 76,
+    "Blue Value": 81,
+    "Green Value": 109,
+    "Saturation (HSL)": 18
+  },
+  {
+    "name": "Blue bell",
+    "Red Value": 162,
+    "Blue Value": 162,
+    "Green Value": 208,
+    "Saturation (HSL)": 33
+  },
+  {
+    "name": "Straw",
+    "Red Value": 228,
+    "Blue Value": 217,
+    "Green Value": 111,
+    "Saturation (HSL)": 68
+  },
+  {
+    "name": "Deep Space Sparkle",
+    "Red Value": 74,
+    "Blue Value": 100,
+    "Green Value": 108,
+    "Saturation (HSL)": 19
+  },
+  {
+    "name": "Almond",
+    "Red Value": 238,
+    "Blue Value": 217,
+    "Green Value": 196,
+    "Saturation (HSL)": 55
+  },
+  {
+    "name": "Eggplant",
+    "Red Value": 97,
+    "Blue Value": 64,
+    "Green Value": 81,
+    "Saturation (HSL)": 21
+  },
+  {
+    "name": "Orchid pink",
+    "Red Value": 242,
+    "Blue Value": 189,
+    "Green Value": 205,
+    "Saturation (HSL)": 67
+  },
+  {
+    "name": "English violet",
+    "Red Value": 86,
+    "Blue Value": 60,
+    "Green Value": 92,
+    "Saturation (HSL)": 21
+  },
+  {
+    "name": "Queen blue",
+    "Red Value": 67,
+    "Blue Value": 107,
+    "Green Value": 149,
+    "Saturation (HSL)": 38
+  },
+  {
+    "name": "Raspberry glac\u00e9",
+    "Red Value": 145,
+    "Blue Value": 95,
+    "Green Value": 109,
+    "Saturation (HSL)": 21
+  },
+  {
+    "name": "Dark olive green",
+    "Red Value": 85,
+    "Blue Value": 107,
+    "Green Value": 47,
+    "Saturation (HSL)": 39
+  },
+  {
+    "name": "Tuscany",
+    "Red Value": 192,
+    "Blue Value": 153,
+    "Green Value": 153,
+    "Saturation (HSL)": 24
+  },
+  {
+    "name": "Antique fuchsia",
+    "Red Value": 145,
+    "Blue Value": 92,
+    "Green Value": 131,
+    "Saturation (HSL)": 22
+  },
+  {
+    "name": "Maximum green",
+    "Red Value": 94,
+    "Blue Value": 140,
+    "Green Value": 49,
+    "Saturation (HSL)": 48
+  },
+  {
+    "name": "Frostbite",
+    "Red Value": 233,
+    "Blue Value": 54,
+    "Green Value": 167,
+    "Saturation (HSL)": 80
+  },
+  {
+    "name": "Pistachio",
+    "Red Value": 147,
+    "Blue Value": 197,
+    "Green Value": 114,
+    "Saturation (HSL)": 42
+  },
+  {
+    "name": "Byzantium",
+    "Red Value": 112,
+    "Blue Value": 41,
+    "Green Value": 99,
+    "Saturation (HSL)": 46
+  },
+  {
+    "name": "Orchid (Crayola)",
+    "Red Value": 226,
+    "Blue Value": 156,
+    "Green Value": 210,
+    "Saturation (HSL)": 55
+  },
+  {
+    "name": "Violet-red(PerBang)",
+    "Red Value": 240,
+    "Blue Value": 89,
+    "Green Value": 156,
+    "Saturation (HSL)": 83
+  },
+  {
+    "name": "Dark byzantium",
+    "Red Value": 93,
+    "Blue Value": 57,
+    "Green Value": 84,
+    "Saturation (HSL)": 24
+  },
+  {
+    "name": "Satin sheen gold",
+    "Red Value": 203,
+    "Blue Value": 161,
+    "Green Value": 53,
+    "Saturation (HSL)": 59
+  },
+  {
+    "name": "Plump Purple",
+    "Red Value": 89,
+    "Blue Value": 70,
+    "Green Value": 178,
+    "Saturation (HSL)": 44
+  },
+  {
+    "name": "Turtle green",
+    "Red Value": 138,
+    "Blue Value": 154,
+    "Green Value": 91,
+    "Saturation (HSL)": 26
+  },
+  {
+    "name": "French raspberry",
+    "Red Value": 199,
+    "Blue Value": 44,
+    "Green Value": 72,
+    "Saturation (HSL)": 64
+  },
+  {
+    "name": "Shiny Shamrock",
+    "Red Value": 95,
+    "Blue Value": 167,
+    "Green Value": 120,
+    "Saturation (HSL)": 29
+  },
+  {
+    "name": "Light coral",
+    "Red Value": 240,
+    "Blue Value": 128,
+    "Green Value": 128,
+    "Saturation (HSL)": 79
+  },
+  {
+    "name": "Amaranth deep purple",
+    "Red Value": 159,
+    "Blue Value": 43,
+    "Green Value": 104,
+    "Saturation (HSL)": 57
+  },
+  {
+    "name": "Artichoke green",
+    "Red Value": 75,
+    "Blue Value": 111,
+    "Green Value": 68,
+    "Saturation (HSL)": 24
+  },
+  {
+    "name": "Spanish bistre",
+    "Red Value": 128,
+    "Blue Value": 117,
+    "Green Value": 50,
+    "Saturation (HSL)": 44
+  },
+  {
+    "name": "Cerulean frost",
+    "Red Value": 109,
+    "Blue Value": 155,
+    "Green Value": 195,
+    "Saturation (HSL)": 42
+  },
+  {
+    "name": "Eminence",
+    "Red Value": 108,
+    "Blue Value": 48,
+    "Green Value": 130,
+    "Saturation (HSL)": 46
+  },
+  {
+    "name": "Glaucous",
+    "Red Value": 96,
+    "Blue Value": 130,
+    "Green Value": 182,
+    "Saturation (HSL)": 37
+  },
+  {
+    "name": "Air superiority blue",
+    "Red Value": 114,
+    "Blue Value": 160,
+    "Green Value": 193,
+    "Saturation (HSL)": 39
+  },
+  {
+    "name": "Olive green",
+    "Red Value": 181,
+    "Blue Value": 179,
+    "Green Value": 92,
+    "Saturation (HSL)": 38
+  },
+  {
+    "name": "Burnt sienna",
+    "Red Value": 233,
+    "Blue Value": 116,
+    "Green Value": 81,
+    "Saturation (HSL)": 78
+  },
+  {
+    "name": "Telemagenta",
+    "Red Value": 207,
+    "Blue Value": 52,
+    "Green Value": 118,
+    "Saturation (HSL)": 62
+  },
+  {
+    "name": "Mauvelous",
+    "Red Value": 239,
+    "Blue Value": 152,
+    "Green Value": 170,
+    "Saturation (HSL)": 73
+  },
+  {
+    "name": "Old mauve",
+    "Red Value": 103,
+    "Blue Value": 49,
+    "Green Value": 71,
+    "Saturation (HSL)": 36
+  },
+  {
+    "name": "Maximum purple",
+    "Red Value": 115,
+    "Blue Value": 51,
+    "Green Value": 128,
+    "Saturation (HSL)": 43
+  },
+  {
+    "name": "Secret",
+    "Red Value": 118,
+    "Blue Value": 67,
+    "Green Value": 116,
+    "Saturation (HSL)": 28
+  },
+  {
+    "name": "Tuscan brown",
+    "Red Value": 111,
+    "Blue Value": 78,
+    "Green Value": 55,
+    "Saturation (HSL)": 34
+  },
+  {
+    "name": "Razzmic Berry",
+    "Red Value": 141,
+    "Blue Value": 78,
+    "Green Value": 133,
+    "Saturation (HSL)": 29
+  },
+  {
+    "name": "Fuchsia (Crayola)",
+    "Red Value": 193,
+    "Blue Value": 84,
+    "Green Value": 193,
+    "Saturation (HSL)": 47
+  },
+  {
+    "name": "Metallic Sunburst",
+    "Red Value": 156,
+    "Blue Value": 124,
+    "Green Value": 56,
+    "Saturation (HSL)": 47
+  },
+  {
+    "name": "Dark salmon",
+    "Red Value": 233,
+    "Blue Value": 150,
+    "Green Value": 122,
+    "Saturation (HSL)": 72
+  },
+  {
+    "name": "Burlywood",
+    "Red Value": 222,
+    "Blue Value": 184,
+    "Green Value": 135,
+    "Saturation (HSL)": 57
+  },
+  {
+    "name": "Quinacridone magenta",
+    "Red Value": 142,
+    "Blue Value": 58,
+    "Green Value": 89,
+    "Saturation (HSL)": 42
+  },
+  {
+    "name": "Cordovan",
+    "Red Value": 137,
+    "Blue Value": 63,
+    "Green Value": 69,
+    "Saturation (HSL)": 37
+  },
+  {
+    "name": "Brick red",
+    "Red Value": 203,
+    "Blue Value": 65,
+    "Green Value": 84,
+    "Saturation (HSL)": 57
+  },
+  {
+    "name": "Terra cotta",
+    "Red Value": 226,
+    "Blue Value": 114,
+    "Green Value": 91,
+    "Saturation (HSL)": 70
+  },
+  {
+    "name": "Middle red",
+    "Red Value": 229,
+    "Blue Value": 142,
+    "Green Value": 115,
+    "Saturation (HSL)": 69
+  },
+  {
+    "name": "Fawn",
+    "Red Value": 229,
+    "Blue Value": 170,
+    "Green Value": 112,
+    "Saturation (HSL)": 69
+  },
+  {
+    "name": "Wood brown",
+    "Red Value": 193,
+    "Blue Value": 154,
+    "Green Value": 107,
+    "Saturation (HSL)": 41
+  },
+  {
+    "name": "Sky magenta",
+    "Red Value": 207,
+    "Blue Value": 113,
+    "Green Value": 175,
+    "Saturation (HSL)": 50
+  },
+  {
+    "name": "English red",
+    "Red Value": 171,
+    "Blue Value": 75,
+    "Green Value": 82,
+    "Saturation (HSL)": 39
+  },
+  {
+    "name": "Pink (Pantone)",
+    "Red Value": 215,
+    "Blue Value": 72,
+    "Green Value": 148,
+    "Saturation (HSL)": 64
+  },
+  {
+    "name": "Mystic maroon",
+    "Red Value": 173,
+    "Blue Value": 67,
+    "Green Value": 121,
+    "Saturation (HSL)": 44
+  },
+  {
+    "name": "Irresistible",
+    "Red Value": 179,
+    "Blue Value": 68,
+    "Green Value": 108,
+    "Saturation (HSL)": 45
+  },
+  {
+    "name": "Thulian pink",
+    "Red Value": 222,
+    "Blue Value": 111,
+    "Green Value": 161,
+    "Saturation (HSL)": 63
+  },
+  {
+    "name": "Mulberry",
+    "Red Value": 197,
+    "Blue Value": 75,
+    "Green Value": 140,
+    "Saturation (HSL)": 51
+  },
+  {
+    "name": "Shimmering Blush",
+    "Red Value": 217,
+    "Blue Value": 134,
+    "Green Value": 149,
+    "Saturation (HSL)": 52
+  },
+  {
+    "name": "Antique brass",
+    "Red Value": 200,
+    "Blue Value": 138,
+    "Green Value": 101,
+    "Saturation (HSL)": 47
+  },
+  {
+    "name": "New York pink",
+    "Red Value": 215,
+    "Blue Value": 131,
+    "Green Value": 127,
+    "Saturation (HSL)": 52
+  }
+]
