@@ -17,6 +17,8 @@ import gamesData from '../../data/games/games.json';
 import Drawer from "./Drawer.astro";
 import HomeDrawer from "./HomeDrawer.astro";
 // https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
+
+const { withDarkMode=true } = Astro.props;
 ---
 <nav class="lg:flex justify-between p-5 gap-5 mx-auto container z-30 w-full">
   <Astronav closeOnClick>
@@ -31,7 +33,7 @@ import HomeDrawer from "./HomeDrawer.astro";
         <button type="button" data-drawer-target="blog-drawer" data-drawer-show="blog-drawer" aria-controls="blog-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-cc-500 dark:hover:text-cc-300">Blog</button>
         <button type="button" data-drawer-target="games-drawer" data-drawer-show="games-drawer" aria-controls="games-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-dt-500 dark:hover:text-dt-300">Games</button>
       </MenuItems>
-      <ThemeIcon/>
+      {withDarkMode && <ThemeIcon/>}
       <button class="cursor-pointer flex lg:hidden" type="button" data-drawer-target="home-drawer" data-drawer-show="home-drawer" aria-controls="home-drawer" data-drawer-backdrop-classes="bg-lrt-300"><Image src={burger} alt="burger" width="20" height="20" class="dark:invert w-6 h-6"/></button>
     </div>
   </Astronav>
