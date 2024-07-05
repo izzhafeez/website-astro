@@ -1,0 +1,37 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import BurningBridges from "../../../../components/games/burning-bridges/BurningBridges";
+import CoolBackground, { Color } from "../../../../components/common/CoolBackground";
+import Layout from "../../../../layouts/Layout.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../../data/games/games.json";
+
+export const prerender = false;
+const { id } = Astro.params;
+const heroText = gamesData["burning-bridges"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={'Burning Bridges'} path={`games/burning-bridges/${id}`}/>
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  charset="UTF-8"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col bg-ns-700">
+    <NavBar withDarkMode={false}/>
+    <CoolBackground client:only="react" color={Color.NS}/>
+    <div class="z-10 p-2">
+      <BurningBridges client:only="react" id={id || ""}/>
+    </div>
+  </div>
+</Layout>

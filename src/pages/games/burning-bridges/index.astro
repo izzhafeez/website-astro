@@ -1,0 +1,22 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import BurningBridgesRoomCreate from "../../../components/games/burning-bridges/BurningBridgesRoomCreate";
+import CoolBackground, { Color } from "../../../components/common/CoolBackground";
+const heroText = gamesData["burning-bridges"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Burning Bridges"} path={`games/burning-bridges`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col bg-ns-700">
+    <NavBar withDarkMode={false}/>
+    <CoolBackground client:only="react" color={Color.NS}/>
+    <div class="z-10">
+      <BurningBridgesRoomCreate client:only="react"/>
+    </div>
+  </div>
+</Layout>
