@@ -44,7 +44,7 @@ function ConvoStarter({ id }: { id: string }) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto mt-40">
+    <div className="max-w-3xl mx-auto mt-40 text-white">
       <h1 className="text-6xl font-bold text-center">Convo Starter</h1>
       {questions.length == 1 && <div className={`bg-dt-500 p-12 text-center rounded-3xl`}>
         <p>{questions[0]}</p>
