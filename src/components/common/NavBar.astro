@@ -34,7 +34,7 @@ const { withDarkMode=true } = Astro.props;
         <button type="button" data-drawer-target="games-drawer" data-drawer-show="games-drawer" aria-controls="games-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-dt-500 dark:hover:text-dt-300">Games</button>
       </MenuItems>
       {withDarkMode && <ThemeIcon/>}
-      <button class="cursor-pointer flex lg:hidden" type="button" data-drawer-target="home-drawer" data-drawer-show="home-drawer" aria-controls="home-drawer" data-drawer-backdrop-classes="bg-lrt-300"><Image src={burger} alt="burger" width="20" height="20" class="dark:invert w-6 h-6"/></button>
+      <button class={`cursor-pointer flex lg:hidden`} type="button" data-drawer-target="home-drawer" data-drawer-show="home-drawer" aria-controls="home-drawer" data-drawer-backdrop-classes="bg-lrt-300"><Image src={burger} alt="burger" width="20" height="20" class={`${withDarkMode ? 'dark:invert' : 'invert'} w-6 h-6`}/></button>
     </div>
   </Astronav>
 </nav>
