@@ -32,6 +32,7 @@ import skills from "../../img/logos/skills.svg";
 import hikes from "../../img/logos/hikes.svg";
 
 // games
+import burningBridges from "../../img/logos/burning-bridges.svg";
 import convoStarter from "../../img/logos/convo-starter.svg";
 import dataHedger from "../../img/logos/math-attack.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
@@ -65,4 +66,5 @@ export default {
   "math-attack": mathAttack,
   "stat-attack": statAttack,
   "convo-starter": convoStarter,
+  "burning-bridges": burningBridges,
 }
