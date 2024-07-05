@@ -5,7 +5,7 @@ import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
 import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import ConvoStarterRoomCreate from "../../../components/games/convo-starter/ConvoStarterRoomCreate";
-import CoolBackground from "../../../components/common/CoolBackground.tsx";
+import CoolBackground, { Color } from "../../../components/common/CoolBackground.tsx";
 const heroText = gamesData["convo-starter"].heroText;
 ---
 
@@ -14,7 +14,7 @@ const heroText = gamesData["convo-starter"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-dt-700">
     <NavBar withDarkMode={false}/>
-    <CoolBackground client:only="react"/>
+    <CoolBackground client:only="react" color={Color.DT}/>
     <div class="z-10">
       <ConvoStarterRoomCreate client:only="react"/>
     </div>
