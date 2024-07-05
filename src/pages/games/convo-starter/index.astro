@@ -1,0 +1,22 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import ConvoStarterRoomCreate from "../../../components/games/convo-starter/ConvoStarterRoomCreate";
+import CoolBackground from "../../../components/common/CoolBackground.tsx";
+const heroText = gamesData["stat-attack"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Math Attack"} path={`games/math-attack`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col bg-dt-700">
+    <NavBar withDarkMode={false}/>
+    <CoolBackground client:only="react"/>
+    <div class="z-10">
+      <ConvoStarterRoomCreate client:only="react"/>
+    </div>
+  </div>
+</Layout>
