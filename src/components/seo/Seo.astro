@@ -1,10 +1,10 @@
 ---
-import { SEO as Seo } from 'astro-seo';
+import { SEO } from 'astro-seo';
 const { heroText, seoImg, pageName, path } = Astro.props;
 console.log(heroText, seoImg.src, pageName, path);
 ---
 
-<Seo
+<SEO
   title={`${pageName} | Izz Hafeez`}
   description={heroText}
   canonical={`https://izzhafeez.com/${path}`}
