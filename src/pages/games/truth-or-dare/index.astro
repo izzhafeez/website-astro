@@ -1,0 +1,22 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import TruthDareRoomCreate from "../../../components/games/truth-or-dare/TruthDareRoomCreate";
+import CoolBackground, { Color } from "../../../components/common/CoolBackground";
+const heroText = gamesData["truth-or-dare"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Truth or Dare"} path={`games/truth-or-dare`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col bg-ew-700">
+    <NavBar withDarkMode={false}/>
+    <CoolBackground client:only="react" color={Color.EW}/>
+    <div class="z-10">
+      <TruthDareRoomCreate client:only="react"/>
+    </div>
+  </div>
+</Layout>
