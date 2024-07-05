@@ -4,7 +4,12 @@ import type { Container, Engine } from "tsparticles-engine";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
-const CoolBackground = () => {
+export enum Color {
+    DT = '#004A9B',
+    NS = '#7A1800',
+}
+
+const CoolBackground = ({ color }: { color: Color }) => {
     const particlesInit = useCallback(async (engine: Engine) => {
         console.log(engine);
 
@@ -28,7 +33,7 @@ const CoolBackground = () => {
             options={{
                 background: {
                     color: {
-                        value: "#004A9B",
+                        value: color,
                     },
                 },
                 fpsLimit: 120,
