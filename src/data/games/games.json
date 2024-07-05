@@ -28,5 +28,15 @@
   "stat-attack": {
     "title": "Stat Attack",
     "heroText": "Strategically arrange your cards to outwit your opponents, becoming the ultimate Stat Attack champion! Best played with 2-6 players."
+  },
+  "truth-or-dare": {
+    "title": "Truth or Dare",
+    "heroText": "Get ready for a night of fun and laughter with Truth or Dare! Spin the wheel and let the game decide your fate. Best played with 3-6 players.",
+    "instructions": [
+      "Have someone create a game.",
+      "Join the game on any device, preferably a phone.",
+      "Sit in a circle and pass the device between players in a clockwise manner.",
+      "Choose either Truth or Dare."
+    ]
   }
 }
