@@ -21,7 +21,7 @@ function ConvoStarterRoomCreate() {
       <div className="p-4 md:p-6 rounded-3xl shadow-md max-w-3xl mt-60 mx-auto bg-dt-500/50">
       <div className="text-left lg:text-center">
         <h1 className="text-white text-3xl lg:text-6xl font-extrabold my-4 inline-block">Convo Starter</h1>
-        <p className="max-w-3xl mb-4 ">{gamesData['convo-starter'].heroText} <span className="underline hover:text-ne-300 cursor-pointer" onClick={showInstructions}>How to Play.</span></p>
+        <p className="max-w-3xl mb-4 text-white">{gamesData['convo-starter'].heroText} <span className="underline hover:text-ne-300 cursor-pointer" onClick={showInstructions}>How to Play.</span></p>
         <div className="flex flex-wrap lg:place-content-center">
           <input
             name="gameId"

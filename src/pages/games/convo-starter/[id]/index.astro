@@ -9,10 +9,10 @@ import gamesData from "../../../../data/games/games.json";
 
 export const prerender = false;
 const { id } = Astro.params;
-const heroText = gamesData["stat-attack"].heroText;
+const heroText = gamesData["convo-starter"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={'Math Attack'} path={`games/math-attack/${id}`}/>
+<Seo {heroText} {seoImg} pageName={'Convo Starter'} path={`games/convo-starter/${id}`}/>
 
 <link
   rel="stylesheet"

@@ -96,10 +96,10 @@ function ConvoStarterGameCreate({ id }: { id: string }) {
       <div className={`p-4 md:p-6 rounded-3xl shadow-md max-w-3xl ${questions.length > 0 ? 'mt-4' : 'mt-40'} mx-auto bg-dt-500/50`}>
         <div className="text-left lg:text-center">
           <h1 className="text-white text-3xl lg:text-6xl font-extrabold my-4 inline-block">Convo Starter</h1>
-          <p className="max-w-3xl mb-4">Create a new Convo Starter game by filling out the form below.</p>
+          <p className="max-w-3xl mb-4 text-white">Create a new Convo Starter game by filling out the form below. We will take your preferences into account and give you a custom experience.</p>
           <div className="grid gap-2">
             <div className="grid">
-              <label className="text-left font-bold min-w-10">Purpose:</label>
+              <label className="text-left font-bold min-w-10 text-white">Purpose:</label>
               <textarea
                 name="purpose"
                 value={purpose}
@@ -108,7 +108,7 @@ function ConvoStarterGameCreate({ id }: { id: string }) {
                 className="transition duration-500 bg-white text-black rounded-md"/>
             </div>
             <div className="grid">
-              <label className="text-left font-bold min-w-10">Participant Description:</label>
+              <label className="text-left font-bold min-w-10 text-white">Participant Description:</label>
               <textarea
                 name="information"
                 value={information}
@@ -117,7 +117,7 @@ function ConvoStarterGameCreate({ id }: { id: string }) {
                 className="transition duration-500 bg-white text-black rounded-md"/>
             </div>
             <div className="grid">
-              <label className="text-left font-bold min-w-10">Quantity:</label>
+              <label className="text-left font-bold min-w-10 text-white">Quantity:</label>
               <input
                 name="quantity"
                 type="number"

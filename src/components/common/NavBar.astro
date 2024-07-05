@@ -20,11 +20,11 @@ import HomeDrawer from "./HomeDrawer.astro";
 
 const { withDarkMode=true } = Astro.props;
 ---
-<nav class="lg:flex justify-between p-5 gap-5 mx-auto container z-30 w-full">
+<nav class={`lg:flex justify-between p-5 gap-5 mx-auto container z-30 w-full ${!withDarkMode && 'text-white'}`}>
   <Astronav closeOnClick>
     <div class="w-full flex gap-4">
       <div class="flex w-full lg:w-auto justify-between items-center me-auto">
-        <a href="/"><Image src={logo} alt="logo" width="20" height="20" class="dark:invert w-6 h-6"/></a>
+        <a href="/"><Image src={logo} alt="logo" width="20" height="20" class={`${withDarkMode ? 'dark:invert' : 'invert'} w-6 h-6`}/></a>
       </div>
       <MenuItems class="hidden lg:flex gap-4">
         <button type="button" data-drawer-target="apps-drawer" data-drawer-show="apps-drawer" aria-controls="apps-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-ew-500 dark:hover:text-ew-300">Apps</button>

@@ -6,10 +6,10 @@ import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import ConvoStarterRoomCreate from "../../../components/games/convo-starter/ConvoStarterRoomCreate";
 import CoolBackground from "../../../components/common/CoolBackground.tsx";
-const heroText = gamesData["stat-attack"].heroText;
+const heroText = gamesData["convo-starter"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={"Math Attack"} path={`games/math-attack`}/>
+<Seo {heroText} {seoImg} pageName={"Convo Starter"} path={`games/convo-starter`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-dt-700">
