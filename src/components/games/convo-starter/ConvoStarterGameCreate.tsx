@@ -126,14 +126,14 @@ function ConvoStarterGameCreate({ id }: { id: string }) {
                 placeholder='Enter Quantity...'
                 className="transition duration-500 bg-white text-black rounded-md"/>
             </div>
-            <button onClick={onGenerate} type="button" className="ms-auto w-40 mt-4 p-2 rounded-md bg-cc-500 dark:bg-dt-200 hover:opacity-80 text-white">Generate Cards</button>
+            <button onClick={onGenerate} type="button" className="ms-auto w-40 mt-4 p-2 rounded-md bg-cc-700 dark:bg-dt-200 hover:opacity-80 text-white">Generate Cards</button>
           </div>
           {questions.length > 0 && <div className="grid gap-2">
             <h2 className="text-white text-2xl font-extrabold my-4">Generated Cards</h2>
             <div className="grid gap-2">
               {questions.map((question, index) => (
                 <div key={index} className="grid">
-                  <label className="text-left font-bold min-w-10">Question {index + 1}:</label>
+                  <label className="text-left font-bold min-w-10 text-white">Question {index + 1}:</label>
                   <div className="flex">
                     <input
                       name={`question-${index}`}
