@@ -1,0 +1,13 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import NavBar from '../../../components/common/NavBar.astro';
+import DataHedger from '../../../components/games/data-hedger/DataHedger';
+import mrtData from '../../../data/games/stat-attack/mrt.json';
+---
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <DataHedger client:only="react" deck={mrtData} deckName="MRT" id="hello"/>
+  </div>
+</Layout>
