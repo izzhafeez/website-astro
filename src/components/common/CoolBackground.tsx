@@ -7,6 +7,7 @@ import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSli
 export enum Color {
     DT = '#004A9B',
     NS = '#7A1800',
+    EW = '#1F5D3A'
 }
 
 const CoolBackground = ({ color }: { color: Color }) => {
