@@ -37,6 +37,7 @@ import convoStarter from "../../img/logos/convo-starter.svg";
 import dataHedger from "../../img/logos/math-attack.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
+import truthDare from "../../img/logos/truth-or-dare.svg";
 
 export default {
   apps,
@@ -67,4 +68,5 @@ export default {
   "stat-attack": statAttack,
   "convo-starter": convoStarter,
   "burning-bridges": burningBridges,
+  "truth-or-dare": truthDare,
 }
