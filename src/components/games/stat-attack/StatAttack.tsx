@@ -19,25 +19,6 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
   <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" strokeWidth="2" strokeLinejoin="round"/>
 </svg>;
 
-const leaveSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-  <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-      <g id="Session-Leave">
-          <rect id="Rectangle" fillRule="nonzero" x="0" y="0" width="24" height="24">
-
-  </rect>
-          <line x1="9" y1="12" x2="19" y2="12" id="Path" stroke="#0C0310" strokeWidth="2" strokeLinecap="round">
-
-  </line>
-          <path d="M16,8 L18.5858,10.5858 C19.3668,11.3668 19.3668,12.6332 18.5858,13.4142 L16,16" id="Path" stroke="#0C0310" strokeWidth="2" strokeLinecap="round">
-
-  </path>
-          <path d="M16,4 L6,4 C4.89543,4 4,4.89543 4,6 L4,18 C4,19.1046 4.89543,20 6,20 L16,20" id="Path" stroke="#0C0310" strokeWidth="2" strokeLinecap="round">
-
-  </path>
-      </g>
-  </g>
-</svg>;
-
 const instructions = gamesData['stat-attack'].heroText;
 type PlayedCard = {
   card_id: number;
