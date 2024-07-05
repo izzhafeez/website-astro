@@ -7,7 +7,7 @@ import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
 import gamesData from "../../../data/games/games.json";
 export const prerender = false;
 const { id } = Astro.params;
-const heroText = gamesData["stat-attack"].heroText;
+const heroText = gamesData["math-attack"].heroText;
 ---
 
 <Seo {heroText} {seoImg} pageName={'Math Attack'} path={`games/math-attack/${id}`}/>
