@@ -32,6 +32,8 @@ import skills from "../../img/logos/skills.svg";
 import hikes from "../../img/logos/hikes.svg";
 
 // games
+import convoStarter from "../../img/logos/convo-starter.svg";
+import dataHedger from "../../img/logos/math-attack.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
 
@@ -59,6 +61,8 @@ export default {
   projects,
   skills,
   hikes,
+  "data-hedger": dataHedger,
   "math-attack": mathAttack,
-  "stat-attack": statAttack
+  "stat-attack": statAttack,
+  "convo-starter": convoStarter,
 }
