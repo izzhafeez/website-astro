@@ -17,7 +17,7 @@ const heroText = gamesData["truth-or-dare"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-ew-700">
     <NavBar withDarkMode={false}/>
     <CoolBackground client:only="react" color={Color.EW}/>
-    <div class="z-10">
+    <div class="z-10 fixed w-screen h-screen grid place-items-center overflow-scroll py-20">
       <TruthDareGameCreate client:only="react" id={id || ""}/>
     </div>
   </div>
