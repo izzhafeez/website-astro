@@ -34,7 +34,7 @@ import hikes from "../../img/logos/hikes.svg";
 // games
 import burningBridges from "../../img/logos/burning-bridges.svg";
 import convoStarter from "../../img/logos/convo-starter.svg";
-import dataHedger from "../../img/logos/math-attack.svg";
+import dataHedger from "../../img/logos/data-hedger.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
 import truthDare from "../../img/logos/truth-or-dare.svg";
