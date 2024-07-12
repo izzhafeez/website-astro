@@ -64,7 +64,7 @@ function TruthDare({ id }: { id: string }) {
   };
 
   return (
-    <div className="max-w-sm lg:max-w-3xl mx-auto mt-10 text-white">
+    <div className="max-w-sm lg:max-w-3xl mx-auto text-white">
       <h1 className="text-6xl font-bold text-center">Truth...</h1>
       {truths.length == 1 && <div className={`bg-ew-500 p-12 text-center rounded-3xl`}>
         <p>{truths[0]}</p>
