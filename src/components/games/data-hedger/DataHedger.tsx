@@ -1,13 +1,8 @@
 import React, { useEffect } from 'react';
 import useWebSocket from 'react-use-websocket';
-import { capitalise } from '../../../utils/string';
 import gamesData from '../../../data/games/games.json';
 import Swal from 'sweetalert2';
-import party from 'party-js';
-
-const crownSvg = <svg className="my-auto ms-1" width="20px" height="20px" viewBox="0 0 24 24" fill="#FA9E0D" xmlns="http://www.w3.org/2000/svg">
-  <path d="M21.609 13.5616L21.8382 11.1263C22.0182 9.2137 22.1082 8.25739 21.781 7.86207C21.604 7.64823 21.3633 7.5172 21.106 7.4946C20.6303 7.45282 20.0329 8.1329 18.8381 9.49307C18.2202 10.1965 17.9113 10.5482 17.5666 10.6027C17.3757 10.6328 17.1811 10.6018 17.0047 10.5131C16.6865 10.3529 16.4743 9.91812 16.0499 9.04851L13.8131 4.46485C13.0112 2.82162 12.6102 2 12 2C11.3898 2 10.9888 2.82162 10.1869 4.46486L7.95007 9.04852C7.5257 9.91812 7.31351 10.3529 6.99526 10.5131C6.81892 10.6018 6.62434 10.6328 6.43337 10.6027C6.08872 10.5482 5.77977 10.1965 5.16187 9.49307C3.96708 8.1329 3.36968 7.45282 2.89399 7.4946C2.63666 7.5172 2.39598 7.64823 2.21899 7.86207C1.8918 8.25739 1.9818 9.2137 2.16181 11.1263L2.391 13.5616C2.76865 17.5742 2.95748 19.5805 4.14009 20.7902C5.32271 22 7.09517 22 10.6401 22H13.3599C16.9048 22 18.6773 22 19.8599 20.7902C21.0425 19.5805 21.2313 17.5742 21.609 13.5616Z" fill="#FA9E0D"/>
-</svg>;
+import { capitalise } from '../../../utils/string';
 
 const copySvg = <svg className="invert dark:invert-0" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path fillRule="evenodd" clipRule="evenodd" d="M21 8C21 6.34315 19.6569 5 18 5H10C8.34315 5 7 6.34315 7 8V20C7 21.6569 8.34315 23 10 23H18C19.6569 23 21 21.6569 21 20V8ZM19 8C19 7.44772 18.5523 7 18 7H10C9.44772 7 9 7.44772 9 8V20C9 20.5523 9.44772 21 10 21H18C18.5523 21 19 20.5523 19 20V8Z" fill="#0F0F0F"/>
@@ -20,18 +15,30 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
 
 const instructions = gamesData['data-hedger'].heroText;
 const title = "Data Hedger";
-type PlayedCard = {
-  card_id: number;
-  name: string;
-};
+
+type PlayerData = {
+  points: number;
+  played_card: number;
+}
+
+type FieldWinnerData = {
+  best_value: number;
+  winners: string[];
+}
 
 function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/data-hedger/${id}/`;
-  const [players, setPlayers] = React.useState({} as {[name: string]: number});
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/data-hedger/${deckName}/${id}`;
+  const deckData = deck.data;
+  const fields = Object.keys(deckData[0]);
+  fields.shift();
+  const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
-  const [gameStatus, setGameStatus] = React.useState('');
-  const [playedCards, setPlayedCards] = React.useState([] as PlayedCard[]);
-  const [usedCardIds, setUsedCardIds] = React.useState([] as number[]);
+  const [gameStatus, setGameStatus] = React.useState('UNJOINED');
+  const [options, setOptions] = React.useState([] as number[])
+  const [selectedCard, setSelectedCard] = React.useState({} as number);
+  const [roundId, setRoundId] = React.useState(0);
+  const [isHigher, setIsHigher] = React.useState(false);
+  const [winningValues, setWinningValues] = React.useState([] as number[]);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
@@ -47,6 +54,9 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
     console.log(message);
 
     if (message.players) setPlayers(_ => message.players);
+    if (message.options) setOptions(_ => message.options);
+    if (message.round_id) setRoundId(_ => message.round_id);
+    setIsHigher(_ => message.is_higher);
 
     if (method === 'connect') {
       Swal.fire({
@@ -74,6 +84,71 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       }
     } else if (method === 'start') {
       setGameStatus('PLAYING');
+    } else if (method === 'next') {
+      setGameStatus('PLAYING');
+      console.log(isHigher);
+      Swal.fire({
+        icon: 'info',
+        title: `Round ${message.round_id}!`,
+        text: `${message.is_higher ? 'Highest' : 'Lowest'} card wins!`,
+        timer: 1500,
+      })
+    } else if (method === 'evaluate') {
+      setGameStatus('EVALUATING');
+
+      // check who played the same cards
+      const mostPopularCard = message.most_popular_card;
+      const failedPlayers = message.failed_players;
+
+      const winners: FieldWinnerData[] = message.winners;
+
+      const entries = [];
+      const newWinningValues = [];
+      for (let i = 0; i < fields.length; i++) {
+        const field = fields[i];
+        const fieldWinners = winners[i];
+        newWinningValues.push(fieldWinners.best_value);
+        entries.push({
+          field: capitalise(field),
+          value: fieldWinners.best_value,
+          winners: fieldWinners.winners.join(', ')
+        });
+      }
+      setWinningValues(newWinningValues);
+
+      Swal.fire({
+        icon: 'info',
+        title: `Winners of each field`,
+        html: `
+          <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+              <tr>
+                <th scope="col" class="px-6 py-3">Field</th>
+                <th scope="col" class="px-6 py-3">Value</th>
+                <th scope="col" class="px-6 py-3">Winners</th>
+              </tr>
+            </thead>
+            ${entries.map((entry) => `
+              <tr class="bg-white border-b">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${entry.field}</th>
+                <td class="px-6 py-4 font-light">${entry.value}</td>
+                <td class="px-6 py-4 font-light">${entry.winners}</td>
+              </tr>
+            `).join('')}
+          </table>
+        `,
+        timer: 5000,
+      }).then(() => {
+        if (mostPopularCard != -1) {
+          // notify that these players have played the same card, and lose 5 points
+          Swal.fire({
+            icon: 'warning',
+            title: `Popular!`,
+            text: `Players who played the most popular card lose 5 points: ${failedPlayers.join(', ')}`,
+            timer: 5000,
+          });
+        }
+      });
     } else if (method === 'end') {
       Swal.fire({
         icon: 'info',
@@ -157,12 +232,52 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
     });
   }
 
+  const submitCard = () => {
+    Swal.fire({
+      title: 'Waiting for other players...',
+      didOpen: () => {
+        Swal.showLoading();
+      }
+    })
+    sendJsonMessage({ method: 'play', card_id: selectedCard, data: Object.values(deckData[selectedCard]).slice(1), name: name });
+    setGameStatus('PLAYED');
+  }
+
+  const acknowledge = () => {
+    sendJsonMessage({ method: 'acknowledge', name });
+    Swal.fire({
+      icon: 'info',
+      title: 'Waiting for other players to press ready...',
+      didOpen: () => {
+        Swal.showLoading();
+      }
+    })
+  };
+
+  const fieldsString = fields.join(', ');
+
+  const showHowToPlay = () => {
+    Swal.fire({
+      icon: 'info',
+      title: 'How to Play',
+      text: `Each card has a set of fields (${fieldsString}). Pick a card that will win the most fields! But be warned... if you make the most popular choice, you will lose 5 points!`,
+    });
+  }
+
   return <>
     <div className="p-2 max-w-6xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-      <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Data Hedger</h1>
-      </>}
-      {gameStatus === 'JOINED' && <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>}
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Data Hedger</h1>
+        </>}
+      {gameStatus === 'JOINED' && <>
+        <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
+        <div className="flex gap-2 mx-auto my-4">
+          {/* start */}
+          <button onClick={startGame} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> Start Game</button>
+          {/* copy link */}
+          <button onClick={copyGameLink} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white flex gap-1"><span className="my-auto">{copySvg}</span> Copy Link</button>
+        </div>
+        </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Data Hedger</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
@@ -180,12 +295,57 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       {gameStatus !== 'UNJOINED' && <>
       <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
-        {Object.entries(players).map(([playerName, count]) => (
-          <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {count} Cards</li>
+        {Object.entries(players).map(([playerName, playerData]) => (
+          <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {playerData.points} Points</li>
         ))}
+        <li><span onClick={showHowToPlay} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
         <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
       </ul>
       </>}
+
+      {/* selected card */}
+      {gameStatus === 'PLAYING' && <>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: {isHigher ? 'Highest': 'Lowest'} wins!</h3>
+      </>}
+
+      {gameStatus === 'PLAYING' && <div className='flex flex-wrap gap-2'>
+        {options.map((option) => (
+          <li key={option} onClick={() => {setSelectedCard(option);}} className={`list-none text-white ${selectedCard === option ? 'bg-ew-500 dark:bg-ew-300 hover:bg-ew-300 dark:hover:bg-ew-500' : 'bg-dt-500 dark:bg-dt-300 hover:bg-dt-300 dark:hover:bg-dt-500'} dark:text-black rounded-md p-2 me-1 cursor-pointer`}>
+            <h3 className={`my-auto`}>
+              {deckData[option].name}
+            </h3>
+          </li>))
+          }</div>}
+
+      {/* play selected card */}
+      {gameStatus === 'PLAYING' && <>
+        <button onClick={submitCard} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Play Card</button>
+      </>}
+
+      {/* played card */}
+      {gameStatus === 'EVALUATING' && <>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
+        <ul className="grid gap-2">
+          {Object.entries(players).map(([name, playerData]) => (
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+            <div className='flex w-full'>
+              <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
+                {deckData[playerData.played_card].name} ({name})
+              </h3>
+            </div>
+            <ul className={`grid gap-2 text-gray-900 dark:text-white md:grid-cols-4 grid-cols-2`}>
+              {fields.map((fieldName, index) => <p className="" key={fieldName}>
+                <><span key={fieldName} className={`font-bold ${deckData[playerData.played_card][fieldName] == winningValues[index] ? 'bg-dt-500' : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> <span className={`font-medium`}>{deckData[playerData.played_card][fieldName]}</span></>
+              </p>)}
+            </ul>
+          </li>))
+          }
+        </ul>
+      </>}
+
+      {/* acknowledge */}
+      {gameStatus === 'EVALUATING' && <>
+        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }
