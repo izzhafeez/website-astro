@@ -15,7 +15,7 @@ const heroText = gamesData["convo-starter"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-dt-700">
     <NavBar withDarkMode={false}/>
     <CoolBackground client:only="react" color={Color.DT}/>
-    <div class="z-10">
+    <div class="z-10 fixed w-screen h-screen grid place-items-center p-4">
       <ConvoStarterRoomCreate client:only="react"/>
     </div>
   </div>
