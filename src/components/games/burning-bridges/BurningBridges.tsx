@@ -45,7 +45,7 @@ function ConvoStarter({ id }: { id: string }) {
   }
 
   return (
-    <div className="max-w-sm lg:max-w-3xl mx-auto mt-40 text-white">
+    <div className="max-w-sm lg:max-w-3xl mx-auto text-white">
       <h1 className="text-6xl font-bold text-center">Burning Bridges</h1>
       {questions.length == 1 && <div className={`bg-ns-500 p-12 text-center rounded-3xl`}>
         <p>{questions[0]}</p>
