@@ -1,13 +1,52 @@
 ---
-import Layout from '../../../layouts/Layout.astro';
-import NavBar from '../../../components/common/NavBar.astro';
-import DataHedger from '../../../components/games/data-hedger/DataHedger';
-import mrtData from '../../../data/games/stat-attack/mrt.json';
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
+import Hero from "../../../components/common/Hero.astro";
+import gamesData from "../../../data/games/games.json";
+import MediumCard from "../../../components/common/MediumCard.astro";
+import statAttackData from "../../../data/games/stat-attack/stat-attack.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/STAT-ATTACK.jpg';
+
+type DeckJson = {[k: string]: {
+  title: string,
+  instructions: string,
+  rank?: number,
+  tags?: string[]
+}}
+
+const decks = Object.entries(statAttackData as DeckJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/games/data-hedger/${key}`,
+    title: value.title,
+    instructions: value.instructions,
+    rank: value.rank || 0,
+    imgPath: `/img/games/stat-attack/${key}.jpg`,
+    tags: value.tags || []
+  }
+});
+
+const heroText = gamesData["data-hedger"].heroText;
 ---
+<Seo {heroText} {seoImg} pageName={"Data Hedger"} path="games/data-hedger"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <DataHedger client:only="react" deck={mrtData} deckName="MRT" id="hello"/>
+    <Hero label="DATA HEDGER" text={heroText} site="games"/>
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {decks.map(deck => <MediumCard
+        href={deck.href}
+        title={deck.title}
+        site="games"
+        heroText={deck.instructions}
+        key={deck.key}
+        imgPath={deck.imgPath}
+        isEager={true}
+        tags={deck.tags}/>)}
+    </section>
+    <Footer site="games"/>
   </div>
 </Layout>
