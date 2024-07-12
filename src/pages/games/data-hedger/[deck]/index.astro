@@ -1,0 +1,362 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../../../layouts/Layout.astro';
+import NavBar from '../../../../components/common/NavBar.astro';
+import statAttackData from '../../../../data/games/stat-attack/stat-attack.json';
+import DataHedgerRoomCreate from '../../../../components/games/data-hedger/DataHedgerRoomCreate';
+import Seo from '../../../../components/seo/Seo.astro';
+import gamesData from '../../../../data/games/games.json';
+
+export const getStaticPaths = (() => {  
+  return [
+    {
+      params: {
+        deck: "malls",
+      },
+      props: {
+        title: statAttackData.malls.title,
+        instructions: statAttackData.malls.instructions
+      }
+    },
+    {
+      params: {
+        deck: "cities"
+      },
+      props: {
+        title: statAttackData.cities.title,
+        instructions: statAttackData.cities.instructions
+      }
+    },
+    {
+      params: {
+        deck: "mrt"
+      },
+      props: {
+        title: statAttackData.mrt.title,
+        instructions: statAttackData.mrt.instructions
+      }
+    },
+    {
+      params: {
+        deck: "countries"
+      },
+      props: {
+        title: statAttackData["countries"].title,
+        instructions: statAttackData["countries"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "universities"
+      },
+      props: {
+        title: statAttackData.universities.title,
+        instructions: statAttackData.universities.instructions
+      }
+    },
+    {
+      params: {
+        deck: "anime"
+      },
+      props: {
+        title: statAttackData.anime.title,
+        instructions: statAttackData.anime.instructions
+      }
+    },
+    {
+      params: {
+        deck: "songs-youtube" // https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube
+      },
+      props: {
+        title: statAttackData["songs-youtube"].title,
+        instructions: statAttackData["songs-youtube"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "pokemon"
+      },
+      props: {
+        title: statAttackData.pokemon.title, // https://www.kaggle.com/datasets/onurgitmez/pokemon-stats-gen-1-9
+        instructions: statAttackData.pokemon.instructions
+      }
+    },
+    {
+      params: {
+        deck: "youtubers"
+      },
+      props: {
+        title: statAttackData.youtubers.title, // https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide
+        instructions: statAttackData.youtubers.instructions
+      }
+    },
+    {
+      params: {
+        deck: "fast-food"
+      },
+      props: {
+        title: statAttackData["fast-food"].title, // https://www.kaggle.com/datasets/shrutimehta/fast-food-chain-restaurants
+        instructions: statAttackData["fast-food"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "schools"
+      },
+      props: {
+        title: statAttackData.schools.title,
+        instructions: statAttackData.schools.instructions
+      }
+    },
+    {
+      params: {
+        deck: "airports"
+      },
+      props: {
+        title: statAttackData.airports.title,
+        instructions: statAttackData.airports.instructions
+      }
+    },
+    {
+      params: {
+        deck: "movies"
+      },
+      props: {
+        title: statAttackData.movies.title,
+        instructions: statAttackData.movies.instructions
+      }
+    },
+    {
+      params: {
+        deck: "programming",
+      },
+      props: {
+        title: statAttackData.programming.title,
+        instructions: statAttackData.programming.instructions
+      }
+    },
+    {
+      params: {
+        deck: "elements"
+      },
+      props: {
+        title: statAttackData.elements.title,
+        instructions: statAttackData.elements.instructions
+      }
+    },
+    {
+      params: {
+        deck: "leaders"
+      },
+      props: {
+        title: statAttackData.leaders.title,
+        instructions: statAttackData.leaders.instructions
+      }
+    },
+    {
+      params: {
+        deck: "video-games"
+      },
+      props: {
+        title: statAttackData["video-games"].title,
+        instructions: statAttackData["video-games"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "covid"
+      },
+      props: {
+        title: statAttackData.covid.title,
+        instructions: statAttackData.covid.instructions
+      }
+    },
+    {
+      params: {
+        deck: "laptops"
+      },
+      props: {
+        title: statAttackData.laptops.title,
+        instructions: statAttackData.laptops.instructions
+      }
+    },
+    {
+      params: {
+        deck: 'artists'
+      },
+      props: {
+        title: statAttackData.artists.title,
+        instructions: statAttackData.artists.instructions
+      }
+    },
+    {
+      params: {
+        deck: "roads-features"
+      },
+      props: {
+        title: statAttackData["roads-features"].title,
+        instructions: statAttackData["roads-features"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "roads-coords"
+      },
+      props: {
+        title: statAttackData["roads-coords"].title,
+        instructions: statAttackData["roads-coords"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "indo-attractions"
+      },
+      props: {
+        title: statAttackData["indo-attractions"].title,
+        instructions: statAttackData["indo-attractions"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "websites"
+      },
+      props: {
+        title: statAttackData.websites.title,
+        instructions: statAttackData.websites.instructions
+      }
+    },
+    {
+      params: {
+        deck: "subzones"
+      },
+      props: {
+        title: statAttackData.subzones.title,
+        instructions: statAttackData.subzones.instructions
+      }
+    },
+    {
+      params: {
+        deck: "kanji"
+      },
+      props: {
+        title: statAttackData.kanji.title,
+        instructions: statAttackData.kanji.instructions
+      }
+    },
+    {
+      params: {
+        deck: "cs-mods"
+      },
+      props: {
+        title: statAttackData["cs-mods"].title,
+        instructions: statAttackData["cs-mods"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "github"
+      },
+      props: {
+        title: statAttackData.github.title,
+        instructions: statAttackData.github.instructions
+      }
+    },
+    {
+      params: {
+        deck: "minerals"
+      },
+      props: {
+        title: statAttackData.minerals.title,
+        instructions: statAttackData.minerals.instructions
+      }
+    },
+    {
+      params: {
+        deck: "nutrition"
+      },
+      props: {
+        title: statAttackData.nutrition.title,
+        instructions: statAttackData.nutrition.instructions
+      }
+    },
+    {
+      params: {
+        deck: "buildings",
+      },
+      props: {
+        title: statAttackData.buildings.title,
+        instructions: statAttackData.buildings.instructions
+      }
+    },
+    {
+      params: {
+        deck: "bus-stops"
+      },
+      props: {
+        title: statAttackData["bus-stops"].title,
+        instructions: statAttackData["bus-stops"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "bus-services"
+      },
+      props: {
+        title: statAttackData["bus-services"].title,
+        instructions: statAttackData["bus-services"].instructions
+      }
+    },
+    {
+      params: {
+        deck: "famous-people"
+      },
+      props: {
+        title: statAttackData["famous-people"].title,
+        instructions: statAttackData["famous-people"].instructions
+      }
+    },
+    {
+      params: {
+        deck: 'unesco'
+      },
+      props: {
+        title: statAttackData.unesco.title,
+        instructions: statAttackData.unesco.instructions
+      }
+    },
+    {
+      params: {
+        deck: 'colors'
+      },
+      props: {
+        title: statAttackData.colors.title,
+        instructions: statAttackData.colors.instructions
+      }
+    },
+    {
+      params: {
+        deck: 'deaths'
+      },
+      props: {
+        title: statAttackData.deaths.title,
+        instructions: statAttackData.deaths.instructions
+      }
+    }
+  ];
+}) satisfies GetStaticPaths;
+
+const { deck } = Astro.params;
+const { instructions, title } = Astro.props;
+const heroText = gamesData["data-hedger"].heroText;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/games/stat-attack/${deck}.jpg`]().then(img => img.default);
+---
+
+<Seo {heroText} {seoImg} pageName={title} path={`games/data-hedger/${deck}`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <DataHedgerRoomCreate client:only="react" title={title} instructions={instructions}/>
+  </div>
+</Layout>
