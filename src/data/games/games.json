@@ -21,6 +21,10 @@
       "Pick a topic to talk about and share your experiences. Feel free to keep it lightheated and fun, and encourage open and honest sharing!"
     ]
   },
+  "data-hedger": {
+    "title": "Data Hedger",
+    "heroText": "Pick the card you think will win the most fields! Don't pick the most popular choice. Best played with 2-6 players."
+  },
   "math-attack": {
     "title": "Math Attack",
     "heroText": "Stay within the bounds and be the last player standing in this math-based card game. Best played with 2-6 players."
@@ -31,7 +35,7 @@
   },
   "truth-or-dare": {
     "title": "Truth or Dare",
-    "heroText": "Get ready for a night of fun and laughter with Truth or Dare! Spin the wheel and let the game decide your fate. Best played with 3-6 players.",
+    "heroText": "Get ready for a night of fun and laughter with Truth or Dare! Are you gonna pick truth? Or dare? Best played with 3-6 players.",
     "instructions": [
       "Have someone create a game.",
       "Join the game on any device, preferably a phone.",
