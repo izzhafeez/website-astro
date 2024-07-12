@@ -117,8 +117,8 @@ function TruthDareGameCreate({ id }: { id: string }) {
 
   // floating form in the centre
   return (
-    <div className="p-2 h-screen">
-      <div className={`p-4 md:p-6 rounded-3xl shadow-md max-w-3xl ${truths.length + dares.length > 0 ? 'mt-4' : 'mt-40'} mx-auto bg-ew-500/50`}>
+    <div className="p-2">
+      <div className={`p-4 md:p-6 rounded-3xl shadow-md max-w-3xl ${truths.length + dares.length > 0 ? 'mt-4' : 'mt-10 lg:mt-20'} mx-auto bg-ew-500/50`}>
         <div className="text-left lg:text-center">
           <h1 className="text-white text-3xl lg:text-6xl font-extrabold my-4 inline-block">Truth or Dare</h1>
           <p className="max-w-3xl mb-4 text-white">Create a new Truth or Dare game by filling out the form below. We will take your preferences into account and give you a custom experience.</p>
