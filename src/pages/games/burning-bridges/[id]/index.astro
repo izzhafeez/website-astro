@@ -30,7 +30,7 @@ const heroText = gamesData["burning-bridges"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-ns-700">
     <NavBar withDarkMode={false}/>
     <CoolBackground client:only="react" color={Color.NS}/>
-    <div class="z-10 p-2">
+    <div class="z-10 fixed w-screen h-screen grid place-items-center p-2">
       <BurningBridges client:only="react" id={id || ""}/>
     </div>
   </div>
