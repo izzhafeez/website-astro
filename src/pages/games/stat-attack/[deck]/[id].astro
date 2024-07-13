@@ -39,6 +39,7 @@ import famousPeopleData from "../../../../data/games/stat-attack/famous-people.j
 import unescoData from "../../../../data/games/stat-attack/unesco.json";
 import colorsData from "../../../../data/games/stat-attack/colors.json";
 import deathsData from "../../../../data/games/stat-attack/deaths.json";
+import amazonData from "../../../../data/games/stat-attack/amazon.json";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 
@@ -269,6 +270,12 @@ switch (deckName) {
     deck = {
       title: "Deadly Events",
       data: deathsData,
+    }
+    break;
+  case 'amazon':
+    deck = {
+      title: "Amazon Products",
+      data: amazonData
     }
     break;
   default:
