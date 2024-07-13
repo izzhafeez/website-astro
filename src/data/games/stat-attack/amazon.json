@@ -1,0 +1,856 @@
+[
+  {
+    "name": "Silicone Football Teether",
+    "Price (USD)": 8.98,
+    "Monthly Purchases": 50,
+    "Reviews": 1,
+    "Star Rating": 5.0
+  },
+  {
+    "name": "HTC VIVE Pro 2 Virtual Reality System",
+    "Price (USD)": 1399.0,
+    "Monthly Purchases": 100,
+    "Reviews": 358,
+    "Star Rating": 3.7
+  },
+  {
+    "name": "Minecraft Legends - Deluxe Edition (PS5)",
+    "Price (USD)": 49.9,
+    "Monthly Purchases": 50,
+    "Reviews": 1,
+    "Star Rating": 5.0
+  },
+  {
+    "name": "Minnie Mouse Spider Glow Accordion Wallet",
+    "Price (USD)": 29.99,
+    "Monthly Purchases": 50,
+    "Reviews": 3,
+    "Star Rating": 5.0
+  },
+  {
+    "name": "Staci Saffiano Leather Flap Shoulder Bag",
+    "Price (USD)": 168.0,
+    "Monthly Purchases": 50,
+    "Reviews": 6,
+    "Star Rating": 5.0
+  },
+  {
+    "name": "Valve Steam Deck Handheld Console 256 GB",
+    "Price (USD)": 587.0,
+    "Monthly Purchases": 100,
+    "Reviews": 6,
+    "Star Rating": 4.0
+  },
+  {
+    "name": "Meta Quest Pro",
+    "Price (USD)": 995.25,
+    "Monthly Purchases": 400,
+    "Reviews": 591,
+    "Star Rating": 4.0
+  },
+  {
+    "name": "Wet n Wild Mega Clear Brow & Lash Mascara",
+    "Price (USD)": 2.28,
+    "Monthly Purchases": 6000,
+    "Reviews": 9574,
+    "Star Rating": 4.2
+  },
+  {
+    "name": "Pure Graphite Powder - 4 OZ",
+    "Price (USD)": 9.99,
+    "Monthly Purchases": 100,
+    "Reviews": 4,
+    "Star Rating": 5.0
+  },
+  {
+    "name": "Airspun Loose Powder Translucent",
+    "Price (USD)": 6.99,
+    "Monthly Purchases": 10000,
+    "Reviews": 3254,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Badgy100 Color Plastic Card Printer",
+    "Price (USD)": 549.0,
+    "Monthly Purchases": 100,
+    "Reviews": 180,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "PowerA USB Charging Cable for PlayStation 4",
+    "Price (USD)": 6.99,
+    "Monthly Purchases": 4000,
+    "Reviews": 45238,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Mario Kart 8 Deluxe - US Version",
+    "Price (USD)": 48.58,
+    "Monthly Purchases": 9000,
+    "Reviews": 71575,
+    "Star Rating": 4.9
+  },
+  {
+    "name": "PlayStation DualSense Edge Stick Module",
+    "Price (USD)": 19.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 90649,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "PlayStation 5 Console (PS5)",
+    "Price (USD)": 499.99,
+    "Monthly Purchases": 10000,
+    "Reviews": 6614,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Xbox Series X",
+    "Price (USD)": 489.99,
+    "Monthly Purchases": 10000,
+    "Reviews": 24023,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Hot Wheels '95 Mazda RX-7",
+    "Price (USD)": 7.99,
+    "Monthly Purchases": 50,
+    "Reviews": 81,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Warhammer 40,000 Combat Patrol: World Eaters",
+    "Price (USD)": 154.0,
+    "Monthly Purchases": 100,
+    "Reviews": 26,
+    "Star Rating": 4.9
+  },
+  {
+    "name": "Swedish Dream Seaweed Hand Cream",
+    "Price (USD)": 12.0,
+    "Monthly Purchases": 50,
+    "Reviews": 249,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Cra-Z-Art Jumbo Crayons, 8 Count",
+    "Price (USD)": 0.84,
+    "Monthly Purchases": 1000,
+    "Reviews": 1142,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "36 Mini Yo Yo Assorted Colors",
+    "Price (USD)": 6.3,
+    "Monthly Purchases": 50,
+    "Reviews": 476,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "Nintendo Switch Lite - Blue",
+    "Price (USD)": 198.0,
+    "Monthly Purchases": 3000,
+    "Reviews": 51474,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Royal 69149V Scriptor Typewriter",
+    "Price (USD)": 220.83,
+    "Monthly Purchases": 100,
+    "Reviews": 176,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "Crayola Bathtub Markers, Assorted Colors 5 each",
+    "Price (USD)": 9.67,
+    "Monthly Purchases": 100,
+    "Reviews": 357,
+    "Star Rating": 2.3
+  },
+  {
+    "name": "MUJI Cordless Aroma Diffuser",
+    "Price (USD)": 46.92,
+    "Monthly Purchases": 50,
+    "Reviews": 17,
+    "Star Rating": 3.8
+  },
+  {
+    "name": "Cactus Juice Jungle Duty Combo-Pack",
+    "Price (USD)": 36.99,
+    "Monthly Purchases": 50,
+    "Reviews": 8,
+    "Star Rating": 4.0
+  },
+  {
+    "name": "Wave Crasher Surf Slide",
+    "Price (USD)": 29.5,
+    "Monthly Purchases": 100,
+    "Reviews": 412,
+    "Star Rating": 3.6
+  },
+  {
+    "name": "Mandalorian Grogu Valentines Zip Around Wallet",
+    "Price (USD)": 22.49,
+    "Monthly Purchases": 50,
+    "Reviews": 255,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Eureka Grape Stickers - Scented",
+    "Price (USD)": 1.74,
+    "Monthly Purchases": 300,
+    "Reviews": 193,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "MicroTouch Titanium Head Shaver",
+    "Price (USD)": 59.99,
+    "Monthly Purchases": 4000,
+    "Reviews": 2782,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "Clearblue Early Detection Pregnancy Test, 5 Count",
+    "Price (USD)": 18.98,
+    "Monthly Purchases": 10000,
+    "Reviews": 14664,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Wet n Wild Megalast Eyeshadow Primer",
+    "Price (USD)": 4.98,
+    "Monthly Purchases": 2000,
+    "Reviews": 436,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "Minecraft - Nintendo Switch",
+    "Price (USD)": 29.83,
+    "Monthly Purchases": 7000,
+    "Reviews": 40685,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Minecraft - Nintendo Switch",
+    "Price (USD)": 33.75,
+    "Monthly Purchases": 50,
+    "Reviews": 524,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Hot Wheels Porsche 911 GT3 RS",
+    "Price (USD)": 15.69,
+    "Monthly Purchases": 50,
+    "Reviews": 7,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Mortal Kombat 1 - PlayStation5",
+    "Price (USD)": 69.0,
+    "Monthly Purchases": 5000,
+    "Reviews": 14,
+    "Star Rating": 4.3
+  },
+  {
+    "name": "20-Inch Hardside Spinner, Black",
+    "Price (USD)": 88.0,
+    "Monthly Purchases": 1000,
+    "Reviews": 41646,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Casio HS-4G Handheld Solar Calculator, Small",
+    "Price (USD)": 4.6,
+    "Monthly Purchases": 400,
+    "Reviews": 158,
+    "Star Rating": 4.1
+  },
+  {
+    "name": "Paw Patrol Standard Stickers - 4 Sheet",
+    "Price (USD)": 4.0,
+    "Monthly Purchases": 400,
+    "Reviews": 746,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Infantino 3-Pack Water Teethers",
+    "Price (USD)": 7.29,
+    "Monthly Purchases": 5000,
+    "Reviews": 12451,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Clearblue Fertility Monitor Test Sticks, 30 count",
+    "Price (USD)": 44.49,
+    "Monthly Purchases": 6000,
+    "Reviews": 3311,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Yeowww! Catnip Toy, Yellow Banana",
+    "Price (USD)": 8.53,
+    "Monthly Purchases": 5000,
+    "Reviews": 25388,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "UPPAbaby MESA Base",
+    "Price (USD)": 129.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 2314,
+    "Star Rating": 4.9
+  },
+  {
+    "name": "Bissell 1984 Air Ram Cordless Vacuum",
+    "Price (USD)": 267.79,
+    "Monthly Purchases": 600,
+    "Reviews": 2522,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "CoComelon MagnaDoodle Travel Size",
+    "Price (USD)": 11.77,
+    "Monthly Purchases": 100,
+    "Reviews": 5,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Baggallini",
+    "Price (USD)": 20.0,
+    "Monthly Purchases": 50,
+    "Reviews": 191,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "PlayStation 5 DualSense Wireless Controller",
+    "Price (USD)": 69.99,
+    "Monthly Purchases": 2000,
+    "Reviews": 40977,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "PlayStation 5 DualSense Wireless Controller",
+    "Price (USD)": 74.9,
+    "Monthly Purchases": 1000,
+    "Reviews": 315,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Safety 1st Baby On Board Sign Magnet",
+    "Price (USD)": 4.99,
+    "Monthly Purchases": 800,
+    "Reviews": 6374,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Dyson Cyclone V10 Animal Cordless Vacuum Cleaner",
+    "Price (USD)": 460.95,
+    "Monthly Purchases": 900,
+    "Reviews": 793,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Finishing Touch Lumina Painless Hair Remover",
+    "Price (USD)": 7.49,
+    "Monthly Purchases": 5000,
+    "Reviews": 20840,
+    "Star Rating": 4.3
+  },
+  {
+    "name": "Tweezerman Dual Surface Nail Brush",
+    "Price (USD)": 5.49,
+    "Monthly Purchases": 2000,
+    "Reviews": 7346,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Ring Fit Adventure - Nintendo Switch",
+    "Price (USD)": 79.99,
+    "Monthly Purchases": 700,
+    "Reviews": 30177,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Mia Secret Clear Acrylic Powder (4oz)",
+    "Price (USD)": 17.5,
+    "Monthly Purchases": 3000,
+    "Reviews": 33769,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "CPS VG200: Vacuum Gauge with Digital LCD Display",
+    "Price (USD)": 170.48,
+    "Monthly Purchases": 400,
+    "Reviews": 1605,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Amazon Basics Nail Clippers 2-Pack",
+    "Price (USD)": 5.99,
+    "Monthly Purchases": 2000,
+    "Reviews": 735,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Large Nylon Crescent Bag",
+    "Price (USD)": 62.0,
+    "Monthly Purchases": 50,
+    "Reviews": 11,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Canon\u00ae PIXMA\u2122 TR150 Wireless Mobile Color Printer",
+    "Price (USD)": 219.0,
+    "Monthly Purchases": 2000,
+    "Reviews": 3256,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Toddler Girls' Tag-Free Cotton Underwear",
+    "Price (USD)": 11.98,
+    "Monthly Purchases": 6000,
+    "Reviews": 20259,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Gillette Sensor2 Plus Disposable Razor (52 Pack)",
+    "Price (USD)": 30.49,
+    "Monthly Purchases": 6000,
+    "Reviews": 5783,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Tweezerman Facial Razor",
+    "Price (USD)": 16.65,
+    "Monthly Purchases": 6000,
+    "Reviews": 2775,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Crayola Chalk 12ct",
+    "Price (USD)": 6.78,
+    "Monthly Purchases": 2000,
+    "Reviews": 2401,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Mario Kart 8 Deluxe",
+    "Price (USD)": 49.64,
+    "Monthly Purchases": 3000,
+    "Reviews": 10592,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Crayola 24 Ct Crayons - 3 Boxes",
+    "Price (USD)": 6.99,
+    "Monthly Purchases": 3000,
+    "Reviews": 1124,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Disney Lilo and Stitch Angel Crossbody",
+    "Price (USD)": 53.8,
+    "Monthly Purchases": 50,
+    "Reviews": 81,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Sassy Busy Ball",
+    "Price (USD)": 7.99,
+    "Monthly Purchases": 50,
+    "Reviews": 11,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Triple Zip Small Crossbody Bag",
+    "Price (USD)": 21.9,
+    "Monthly Purchases": 2000,
+    "Reviews": 29169,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Tinkle Hair Cutter",
+    "Price (USD)": 6.98,
+    "Monthly Purchases": 900,
+    "Reviews": 8192,
+    "Star Rating": 4.3
+  },
+  {
+    "name": "Pokemon GO Plus +",
+    "Price (USD)": 64.79,
+    "Monthly Purchases": 1000,
+    "Reviews": 16,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Canon PGI-1200 XL 4 Color Value Pack",
+    "Price (USD)": 80.99,
+    "Monthly Purchases": 400,
+    "Reviews": 68,
+    "Star Rating": 4.3
+  },
+  {
+    "name": "BabyBj\u00f6rn Toy for Bouncer, Googly Eyes Pastels",
+    "Price (USD)": 57.32,
+    "Monthly Purchases": 1000,
+    "Reviews": 1269,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Nintendo Switch Lite - Yellow",
+    "Price (USD)": 189.0,
+    "Monthly Purchases": 1000,
+    "Reviews": 15798,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Madden NFL 24 - PlayStation 4",
+    "Price (USD)": 69.0,
+    "Monthly Purchases": 4000,
+    "Reviews": 79,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Xbox One Chat Headset",
+    "Price (USD)": 15.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 10483,
+    "Star Rating": 4.2
+  },
+  {
+    "name": "Q-tips Cotton Swabs 500 ea (Pack of 2)",
+    "Price (USD)": 13.16,
+    "Monthly Purchases": 3000,
+    "Reviews": 10447,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Footner Exfoliating Socks",
+    "Price (USD)": 14.49,
+    "Monthly Purchases": 50,
+    "Reviews": 9112,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Little Tikes Rocking Horse Magenta Small",
+    "Price (USD)": 34.69,
+    "Monthly Purchases": 1000,
+    "Reviews": 23667,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Taylor Swift",
+    "Price (USD)": 14.19,
+    "Monthly Purchases": 500,
+    "Reviews": 155,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "The Original Rainbow Loom",
+    "Price (USD)": 9.99,
+    "Monthly Purchases": 3000,
+    "Reviews": 17412,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Canon CanoScan Lide 300 Scanner",
+    "Price (USD)": 57.58,
+    "Monthly Purchases": 1000,
+    "Reviews": 4699,
+    "Star Rating": 4.2
+  },
+  {
+    "name": "NIVEA MEN Sensitive Shaving Cream, 3.5 oz Tube",
+    "Price (USD)": 6.85,
+    "Monthly Purchases": 400,
+    "Reviews": 381,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "PlayStation PULSE 3D Wireless Headset",
+    "Price (USD)": 99.0,
+    "Monthly Purchases": 3000,
+    "Reviews": 21496,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Fluke 17B+/IN CATIII Digital Multimeter",
+    "Price (USD)": 127.5,
+    "Monthly Purchases": 400,
+    "Reviews": 262,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Texas Instruments TI-83 Plus Graphing Calculator",
+    "Price (USD)": 74.99,
+    "Monthly Purchases": 5000,
+    "Reviews": 8165,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Rit 8 Fl. Oz. Liquid Black Dye",
+    "Price (USD)": 9.31,
+    "Monthly Purchases": 1000,
+    "Reviews": 641,
+    "Star Rating": 4.2
+  },
+  {
+    "name": "Thrustmaster T.Flight HOTAS 4 (PS5, PS4 and PC)",
+    "Price (USD)": 85.14,
+    "Monthly Purchases": 400,
+    "Reviews": 14678,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Proraso Refreshing Shaving Cream for Men",
+    "Price (USD)": 10.0,
+    "Monthly Purchases": 4000,
+    "Reviews": 10251,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Pokemon Battle Academy 2 Board Game",
+    "Price (USD)": 12.89,
+    "Monthly Purchases": 4000,
+    "Reviews": 3454,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Proraso Shaving Soap",
+    "Price (USD)": 10.0,
+    "Monthly Purchases": 3000,
+    "Reviews": 15136,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Proraso Shaving Soap",
+    "Price (USD)": 10.0,
+    "Monthly Purchases": 1000,
+    "Reviews": 7114,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Proraso Shaving Soap",
+    "Price (USD)": 10.0,
+    "Monthly Purchases": 900,
+    "Reviews": 5112,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Monopoly Scrabble, 2-4 Players",
+    "Price (USD)": 34.99,
+    "Monthly Purchases": 500,
+    "Reviews": 36,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "CCS Foot Care Cream 60ml",
+    "Price (USD)": 7.89,
+    "Monthly Purchases": 50,
+    "Reviews": 1433,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Boys' Flannel Pajama Set",
+    "Price (USD)": 18.2,
+    "Monthly Purchases": 400,
+    "Reviews": 145,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Little Tikes 2-in-1 Snug 'n Secure Swing Magenta",
+    "Price (USD)": 29.94,
+    "Monthly Purchases": 1000,
+    "Reviews": 5084,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Radio Flyer 2-in-1 Kids' Trampoline",
+    "Price (USD)": 63.88,
+    "Monthly Purchases": 500,
+    "Reviews": 96,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "TI-84 Plus CE Color Graphing Calculator, Red",
+    "Price (USD)": 127.0,
+    "Monthly Purchases": 1000,
+    "Reviews": 2137,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Meta Quest 2 Active Pack",
+    "Price (USD)": 69.99,
+    "Monthly Purchases": 700,
+    "Reviews": 300,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Intex 42\" Jumbo Beach Ball",
+    "Price (USD)": 8.15,
+    "Monthly Purchases": 1000,
+    "Reviews": 3986,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Canon PG-245 XL / CL-246 XL Amazon Pack",
+    "Price (USD)": 49.6,
+    "Monthly Purchases": 3000,
+    "Reviews": 14490,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "VTech Learn and Spin Aquarium",
+    "Price (USD)": 17.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 5758,
+    "Star Rating": 4.8
+  },
+  {
+    "name": "Pro-Tec Spiky Massage Ball",
+    "Price (USD)": 8.65,
+    "Monthly Purchases": 400,
+    "Reviews": 1248,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "Disney Princess Style Collection Phone",
+    "Price (USD)": 13.97,
+    "Monthly Purchases": 400,
+    "Reviews": 353,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Epson T232 Black Ink Cartridge, Standard Capacity",
+    "Price (USD)": 19.97,
+    "Monthly Purchases": 3000,
+    "Reviews": 546,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "TI-34 Multi View Calculator",
+    "Price (USD)": 26.98,
+    "Monthly Purchases": 700,
+    "Reviews": 285,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Nerf Zipfire 2 Pack Combat Blaster",
+    "Price (USD)": 18.01,
+    "Monthly Purchases": 600,
+    "Reviews": 1639,
+    "Star Rating": 4.4
+  },
+  {
+    "name": "9-Hole Honeycomb Glass Bowl (6pack)",
+    "Price (USD)": 9.0,
+    "Monthly Purchases": 800,
+    "Reviews": 301,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Chic",
+    "Price (USD)": 65.45,
+    "Monthly Purchases": 700,
+    "Reviews": 966,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "doTERRA Breathe Touch",
+    "Price (USD)": 25.33,
+    "Monthly Purchases": 400,
+    "Reviews": 1747,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Volkswagen Emblem - 5G0-853-601-2ZZ",
+    "Price (USD)": 14.86,
+    "Monthly Purchases": 600,
+    "Reviews": 214,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Disney Moana Squeeze and Scream HeiHei Toy Figure",
+    "Price (USD)": 14.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 7935,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Yeowww My Cats Balls, 3 Balls per Pack",
+    "Price (USD)": 11.99,
+    "Monthly Purchases": 500,
+    "Reviews": 2453,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Fisher Price Classic Record Player",
+    "Price (USD)": 29.45,
+    "Monthly Purchases": 1000,
+    "Reviews": 8155,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Too Faced Natural Eyes Eyeshadow Palette",
+    "Price (USD)": 30.9,
+    "Monthly Purchases": 900,
+    "Reviews": 342,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "HERBALIFE - French Vanilla 750g (Vainilla)",
+    "Price (USD)": 37.02,
+    "Monthly Purchases": 1000,
+    "Reviews": 7792,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Hogwarts Legacy - PlayStation 4",
+    "Price (USD)": 55.97,
+    "Monthly Purchases": 1000,
+    "Reviews": 486,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Satin Smooth Zinc Oxide Hair Removal Wax 14oz.",
+    "Price (USD)": 15.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 2110,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "HP 10bII+ Financial Calculator",
+    "Price (USD)": 30.08,
+    "Monthly Purchases": 2000,
+    "Reviews": 865,
+    "Star Rating": 4.7
+  },
+  {
+    "name": "Xbox Rechargeable Battery + USB-C\u00ae Cable",
+    "Price (USD)": 24.99,
+    "Monthly Purchases": 1000,
+    "Reviews": 5451,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Playstation HD Camera, Black",
+    "Price (USD)": 52.99,
+    "Monthly Purchases": 700,
+    "Reviews": 5008,
+    "Star Rating": 4.6
+  },
+  {
+    "name": "Prextex Nylon Bean Bags",
+    "Price (USD)": 28.99,
+    "Monthly Purchases": 600,
+    "Reviews": 2927,
+    "Star Rating": 4.5
+  },
+  {
+    "name": "Mia Secret - Cover Nude Blush Acrylic Powder 4oz",
+    "Price (USD)": 24.8,
+    "Monthly Purchases": 1000,
+    "Reviews": 2555,
+    "Star Rating": 4.6
+  }
+]
