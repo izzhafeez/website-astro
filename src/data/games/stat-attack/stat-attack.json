@@ -49,6 +49,11 @@
     "instructions": "Fight using the red, green, blue and saturation values!",
     "tags": ["Colors"]
   },
+  "amazon": {
+    "title": "Amazon Products",
+    "instructions": "Fight using the price, rating, number of reviews and number of monthly purchases!",
+    "tags": ["Internet", "Amazon"]
+  },
   "bus-services": {
     "title": "Bus Services of Singapore",
     "instructions": "Fight using the distance, service number, number of stops, and area covered!",
