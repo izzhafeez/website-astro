@@ -14,7 +14,6 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
 </svg>;
 
 const instructions = gamesData['data-hedger'].heroText;
-const title = "Data Hedger";
 
 type PlayerData = {
   points: number;
@@ -27,6 +26,7 @@ type FieldWinnerData = {
 }
 
 function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: string }) {
+  const title = deckName;
   const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/data-hedger/${deckName}/${id}`;
   const deckData = deck.data;
   const fields = Object.keys(deckData[0]);
