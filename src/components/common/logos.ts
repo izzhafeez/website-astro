@@ -6,9 +6,9 @@ import blog from "../../img/logos/blog.svg";
 import games from "../../img/logos/games.svg";
 
 // apps
-import meetupmaker from "../../img/logos/meetupmaker.svg";
-import vimtier from "../../img/logos/vimtier.svg";
-import routeweaver from "../../img/logos/routeweaver.svg";
+import meetupMaker from "../../img/logos/meetup-maker.svg";
+import vimTier from "../../img/logos/vim-tier.svg";
+import routeWeaver from "../../img/logos/route-weaver.svg";
 
 // quizzes
 import binary from "../../img/logos/binary.svg";
@@ -46,9 +46,9 @@ export default {
   portfolio,
   blog,
   games,
-  vimtier,
-  meetupmaker,
-  routeweaver,
+  "vim-tier": vimTier,
+  "meetup-maker": meetupMaker,
+  "route-weaver": routeWeaver,
   binary,
   compare,
   connect,
