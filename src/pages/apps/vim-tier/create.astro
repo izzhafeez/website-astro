@@ -1,0 +1,19 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import appsData from "../../../data/apps/apps.json";
+import seoImg from "../../../img/heroes/VIM-TIER.jpg";
+import VimTier from "../../../components/apps/vim-tier/VimTier.vue";
+
+export const prerender = true;
+const heroText = appsData["vim-tier"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"VimTier"} path="apps/vim-tier/create"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <VimTier client:only="vue"/>
+  </div>
+</Layout>
