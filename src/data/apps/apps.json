@@ -1,13 +1,13 @@
 {
-  "meetupmaker": {
+  "meetup-maker": {
     "title": "MeetupMaker",
     "heroText": "Plan your next meetup with MeetupMaker!"
   },
-  "vimtier": {
+  "vim-tier": {
     "title": "VimTier",
     "heroText": "Create tier lists with just your keyboard with VimTier!"
   },
-  "routeweaver": {
+  "route-weaver": {
     "title": "RouteWeaver",
     "heroText": "Plan your hikes with ease with RouteWeaver!"
   }
