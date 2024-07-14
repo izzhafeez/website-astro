@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import github from "/src/img/logos/github.svg";
+import Footer from "../../../components/common/Footer.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import appsData from "../../../data/apps/apps.json";
+import seoImg from "../../../img/heroes/MEETUP-MAKER.jpg";
+
+export const prerender = true;
+const heroText = appsData["meetup-maker"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path="apps/meetup-maker"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <div class="max-w-xl mx-auto mt-20 place-content-center my-auto">
+      <h1 class="text-6xl text-center font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
+        Plan your meetups with ease.
+      </h1>
+      <p class="text-center mt-8 ">MeetupMaker makes it easier to decide on a meetup time and location. Just create a meetup, invite people, and let the recommender handle the rest!</p>
+      <div class="flex justify-center mt-8 gap-4">
+        <a href="/apps/meetup-maker/create" type="button" class="bg-ew-300 hover:bg-ew-500 dark:text-gray-800 py-2 px-4 rounded-md content-center text-gray-100">
+          Get Started
+        </a>
+        <a href="https://github.com/izzhafeez/mmaker" type="button" class="group border border-ew-300 hover:bg-ew-300 hover:text-gray-800 py-2 px-4 rounded-md flex gap-2 content-center">
+          <Image src={github} class="brightness-0 dark:invert group-hover:invert dark:group-hover:invert-0 my-auto" alt="LinkedIn" width="15" height="15"/> View Repository
+        </a>
+      </div>
+    </div>
+    <Footer site="apps"/>
+  </div>
+</Layout>

@@ -1,0 +1,40 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import DateForm from "../../../../components/apps/meetup-maker/DateForm.vue";
+import Layout from "../../../../layouts/Layout.astro";
+import PreferenceForm from "../../../../components/apps/meetup-maker/PreferenceForm.vue";
+import Finalised from "../../../../components/apps/meetup-maker/Finalised.vue";
+import Seo from "../../../../components/seo/Seo.astro";
+import appsData from "../../../../data/apps/apps.json";
+import seoImg from "../../../../img/heroes/MEETUP-MAKER.jpg";
+
+export const prerender = false;
+const id = Astro.url.searchParams.get('id');
+const data = await fetch(`${import.meta.env.PUBLIC_MM}/api/apps/meetup-maker/dates/${id}`).then(res => res.json());
+const dates = data.dates;
+const participants = data.participants;
+const meetupName = data.meetup_name;
+const passwordHash = data.password_hash;
+const hostName = data.host_name;
+const date = data.date;
+const recommendations = data.recommendations;
+const timing = data.timing;
+const location = data.location;
+const heroText = appsData["meetup-maker"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path={`apps/meetup-maker/meetup?id=${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <!-- if date exists -->    
+    {!date && !timing && <DateForm client:only="vue" dates={dates} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash}/>}
+    <!-- if date does not exist -->
+    {date && !timing && <PreferenceForm client:only="vue" date={date} id={id} meetupName={meetupName} participants={participants} passwordHash={passwordHash} recommendations={recommendations}/>}
+    <!-- if date and timing exist -->
+    {date && timing && <Finalised client:load id={id} participants={participants} hostName={hostName} meetupName={meetupName} timing={timing} date={date} location={location}/>}
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
