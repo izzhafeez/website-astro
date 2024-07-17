@@ -6,7 +6,6 @@ import {
 import ThemeIcon from "./ThemeIcon.astro";
 import { Image } from "astro:assets";
 import logo from '../../img/desmosito-black-trans.png';
-import burger from '../../img/common/burger.svg';
 
 import appsData from '../../data/apps/apps.json';
 import quizzesData from '../../data/quizzes/quizzes.json';
@@ -16,13 +15,28 @@ import gamesData from '../../data/games/games.json';
 
 import Drawer from "./Drawer.astro";
 import HomeDrawer from "./HomeDrawer.astro";
+
+import Search from "astro-pagefind/components/Search";
 // https://github.com/surjithctly/astro-navbar?tab=readme-ov-file
 
 const { withDarkMode=true } = Astro.props;
 ---
+
+<script>
+  // toggle the search bar when the search button is clicked
+  const searchButton = document.getElementById('searchButton');
+  const searchComponent = document.getElementById('search');
+
+  if (searchButton && searchComponent) {
+    searchButton.addEventListener('click', () => {
+      searchComponent.classList.toggle('hidden');
+    });
+  }
+</script>
+
 <nav class={`lg:flex justify-between p-5 gap-5 mx-auto container z-30 w-full ${!withDarkMode && 'text-white'}`}>
   <Astronav closeOnClick>
-    <div class="w-full flex gap-4">
+    <div class="w-full flex gap-4" data-pagefind-ignore="all">
       <div class="flex w-full lg:w-auto justify-between items-center me-auto">
         <a href="/"><Image src={logo} alt="logo" width="20" height="20" class={`${withDarkMode ? 'dark:invert' : 'invert'} w-6 h-6`}/></a>
       </div>
@@ -34,10 +48,23 @@ const { withDarkMode=true } = Astro.props;
         <button type="button" data-drawer-target="games-drawer" data-drawer-show="games-drawer" aria-controls="games-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-dt-500 dark:hover:text-dt-300">Games</button>
       </MenuItems>
       {withDarkMode && <ThemeIcon/>}
-      <button class={`cursor-pointer flex lg:hidden`} type="button" data-drawer-target="home-drawer" data-drawer-show="home-drawer" aria-controls="home-drawer" data-drawer-backdrop-classes="bg-lrt-300"><Image src={burger} alt="burger" width="20" height="20" class={`${withDarkMode ? 'dark:invert' : 'invert'} w-6 h-6`}/></button>
+      <button id="searchButton" class="dark:invert">
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class={`cursor-pointer lg:hidden dark:invert`} type="button" data-drawer-target="home-drawer" data-drawer-show="home-drawer" aria-controls="home-drawer" data-drawer-backdrop-classes="bg-lrt-300">
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12H20" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+          <path d="M5 17H20" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+          <path d="M5 7H20" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
     </div>
   </Astronav>
 </nav>
+
+<Search id="search" className="pagefind-ui hidden max-w-lg mx-auto px-4" uiOptions={{ showImages: false }}/>
 
 <Drawer id="apps" data={appsData} color="ew"/>
 <Drawer id="quizzes" data={quizzesData} color="ns"/>
@@ -46,3 +73,17 @@ const { withDarkMode=true } = Astro.props;
 <Drawer id="games" data={gamesData} color="dt"/>
 <HomeDrawer id="home"/>
 <script src="../../../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+<style>
+  :global {
+    --pagefind-ui-scale: 0.8;
+  }
+
+  :global(.dark) {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #161616;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
