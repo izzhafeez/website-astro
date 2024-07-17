@@ -223,6 +223,7 @@ const seoImg = await images[`/src/img/quizzes/compare/${Astro.params.quiz}.jpg`]
     <div class="fixed z-50 w-screen">
       <NavBar/>
     </div>
+    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{title} (Compare Quiz)</h1>
     <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
   </div>
 </Layout>
