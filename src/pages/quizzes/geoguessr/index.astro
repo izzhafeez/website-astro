@@ -21,6 +21,7 @@ const heroText = quizzesData.geoguessr.heroText;
 <Layout>
   <div slot="main">
     <NavBar/>
+    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">GeoGuessr</h1>
     <GeoGuessr client:only="svelte" data={geoguessrData}/>
   </div>
 </Layout>
