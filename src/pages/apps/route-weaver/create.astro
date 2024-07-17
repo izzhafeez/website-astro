@@ -9,11 +9,12 @@ import seoImg from "../../../img/heroes/ROUTE-WEAVER.jpg";
 export const prerender = true;
 const heroText = appsData["route-weaver"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"RouteWeaver"} path="apps/route-weaver/create"/>
+<Seo {heroText} {seoImg} pageName={"RouteWeaver"} path="apps/route-weaver"/>
 
 <Layout>
   <div slot="main">
     <NavBar/>
-    <RouteWeaver client:only/>
+    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">RouteWeaver (Create Route)</h1>
+    <RouteWeaver client:only="vue"/>
   </div>
 </Layout>
