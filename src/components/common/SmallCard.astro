@@ -22,11 +22,14 @@ switch (site) {
     break;
 }
 ---
-<a href={href} role="button" class={`${neon} p-4 rounded-lg group border-[1px] border-cc-500/0 transition duration-500`}>
+<a href={href} role="button" class={`${neon} p-4 rounded-lg group border-[1px] border-cc-500/0 transition duration-500`} data-pagefind-ignore="all">
   <div class="flex">
     <h2 class={`font-medium ${text}`}>{title}</h2>
     {!!color && <span class={`w-2 h-2 rounded-md my-auto ms-2 bg-${color.replace("500", "mrt")}`}></span>}
-    <span class="bg-tw-mrt bg-hp-mrt bg-lrt-mrt bg-mp-mrt"></span>
+    <span class="bg-tw-mrt"></span>
+    <span class="bg-hp-mrt"></span>
+    <span class="bg-lrt-mrt"></span>
+    <span class="bg-mp-mrt"></span>
   </div>
   <p class="text-gray-500 text-sm">{heroText}</p>
 </a>
