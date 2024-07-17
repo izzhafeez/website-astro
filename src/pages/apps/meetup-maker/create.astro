@@ -9,11 +9,12 @@ import seoImg from "../../../img/heroes/MEETUP-MAKER.jpg";
 export const prerender = true;
 const heroText = appsData["meetup-maker"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path="apps/meetup-maker/create"/>
+<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path="apps/meetup-maker"/>
 
 <Layout>
   <div slot="main">
     <NavBar/>
+    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">MeetupMaker (Create Meetup)</h1>
     <h1 class="my-8 text-6xl max-w-xl mx-2 sm:mx-auto font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
       Create Meetup
     </h1>
