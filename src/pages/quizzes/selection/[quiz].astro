@@ -44,6 +44,7 @@ const seoImg = await images[`/src/img/quizzes/selection/${Astro.params.quiz}.jpg
 <Layout>
   <div slot="main">
     <NavBar/>
+    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{Astro.props.title} (Selection Quiz)</h1>
     <SelectionQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} key={Astro.params.quiz} oneChoice={Astro.props.oneChoice || false} passingScore={Astro.props.passingScore}/>
   </div>
 </Layout> 
