@@ -51,22 +51,22 @@ const { hike } = Astro.props;
     <Hero label={hike.name} text={``} site="blog"/>
     <LLMap client:only="svelte" lines={[hike]}/>
     <div class="mx-auto max-w-6xl mt-10 p-2">
-      <h2 class="text-3xl text-cc-500 font-extrabold">DISTANCE</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">DISTANCE</h4>
       <p class="my-4">{hike.distance}km</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">DATE</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">DATE</h4>
       <p class="my-4">{hike.date}</p>
       {hike.route &&
-      <h2 class="text-3xl text-cc-500 font-extrabold">NUMBER OF VICTIMS</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">NUMBER OF VICTIMS</h4>
       <p class="my-4">{'💁'.repeat(hike.victims)}</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">RATING</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">RATING</h4>
       <p class="my-4">{'★'.repeat(hike.rating) + '☆'.repeat(5-hike.rating)}</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">ROUTE</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">ROUTE</h4>
       <p class="my-4">{hike.route}</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">REFRESHMENTS</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">REFRESHMENTS</h4>
       <p class="my-4">{hike.refreshments}</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">EXPERIENCE</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">EXPERIENCE</h4>
       <p class="my-4">{hike.experience}</p>
-      <h2 class="text-3xl text-cc-500 font-extrabold">TIPS</h2>
+      <h4 class="text-3xl text-cc-500 font-extrabold">TIPS</h4>
       <p class="my-4">{hike.tips}</p>
       }
     </div>
