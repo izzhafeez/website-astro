@@ -63,7 +63,7 @@ const { withDarkMode=true } = Astro.props;
           <button type="button" data-drawer-target="blog-drawer" data-drawer-show="blog-drawer" aria-controls="blog-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-cc-500 dark:hover:text-cc-300">Blog</button>
           <button type="button" data-drawer-target="games-drawer" data-drawer-show="games-drawer" aria-controls="games-drawer" data-drawer-backdrop-classes="bg-lrt-300" class="hover:text-dt-500 dark:hover:text-dt-300">Games</button>
         </MenuItems>
-        {withDarkMode && <ThemeIcon/>}
+        <ThemeIcon/>
       </div>
       <div id="searchButton" class="flex">
         <button id="searchIcon" class="dark:invert my-auto">
@@ -106,8 +106,8 @@ const { withDarkMode=true } = Astro.props;
   :global(.dark) {
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #161616;
+    --pagefind-ui-background: #232323;
+    --pagefind-ui-border: #333333;
     --pagefind-ui-tag: #152028;
   }
 </style>
