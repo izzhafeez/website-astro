@@ -5,6 +5,7 @@ import seoImg from '/src/img/heroes/MATH-ATTACK.jpg';
 import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import MathAttackRoomCreate from "../../../components/games/math-attack/MathAttackRoomCreate";
+import PageFind from "../../../components/common/PageFind.astro";
 const heroText = gamesData["math-attack"].heroText;
 ---
 
@@ -13,6 +14,7 @@ const heroText = gamesData["math-attack"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
+    <PageFind pageName={"Math Attack"} heroText={heroText}/>
     <MathAttackRoomCreate client:only="react"/>
   </div>
 </Layout>
