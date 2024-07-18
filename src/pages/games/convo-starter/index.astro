@@ -6,6 +6,7 @@ import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import ConvoStarterRoomCreate from "../../../components/games/convo-starter/ConvoStarterRoomCreate";
 import CoolBackground, { Color } from "../../../components/common/CoolBackground.tsx";
+import PageFind from "../../../components/common/PageFind.astro";
 const heroText = gamesData["convo-starter"].heroText;
 ---
 
@@ -14,6 +15,7 @@ const heroText = gamesData["convo-starter"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-dt-700">
     <NavBar withDarkMode={false}/>
+    <PageFind pageName={"Convo Starter"} heroText={heroText}/>
     <CoolBackground client:only="react" color={Color.DT}/>
     <div class="z-10 fixed w-screen h-screen grid place-items-center p-4">
       <ConvoStarterRoomCreate client:only="react"/>
