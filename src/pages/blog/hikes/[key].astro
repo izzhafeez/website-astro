@@ -7,7 +7,6 @@ import Hero from '../../../components/common/Hero.astro';
 import Footer from '../../../components/common/Footer.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/seo/Seo.astro';
-import seoImg from '../../../img/heroes/HIKES.jpg';
 
 export function getStaticPaths() {
   return Object.entries(hikeData).map(([key, value]) => {
@@ -34,6 +33,10 @@ export function getStaticPaths() {
 
 export const prerender = true;
 const { hike } = Astro.props;
+const { key } = Astro.params;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/blog/hikes/${key}.jpg`]().then(img => img.default);
 ---
 
 <Seo heroText={hike.route} {seoImg} pageName={hike.name} path={`blog`}/>
