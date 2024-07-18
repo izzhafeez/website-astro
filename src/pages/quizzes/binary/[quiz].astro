@@ -6,6 +6,7 @@ import NavBar from "../../../components/common/NavBar.astro";
 import trashData from "../../../data/quizzes/binary/trash.json";
 import binaryData from "../../../data/quizzes/binary.json";
 import Seo from "../../../components/seo/Seo.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export const getStaticPaths = (() => {
   return [
@@ -36,7 +37,7 @@ const seoImg = await images[`/src/img/quizzes/binary/${Astro.params.quiz}.jpg`](
 <Layout>
   <div slot="main">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{Astro.props.title} (Binary Quiz)</h1>
+    <PageFind pageName={`${Astro.props.title} (Binary Quiz)`} heroText={Astro.props.instructions}/>
     <BinaryQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={Astro.props.instructions} fields={Astro.props.fields} options={Astro.props.options} key={Astro.params.quiz}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
