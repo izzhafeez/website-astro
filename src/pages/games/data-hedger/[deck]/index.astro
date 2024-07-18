@@ -6,6 +6,7 @@ import statAttackData from '../../../../data/games/stat-attack/stat-attack.json'
 import DataHedgerRoomCreate from '../../../../components/games/data-hedger/DataHedgerRoomCreate';
 import Seo from '../../../../components/seo/Seo.astro';
 import gamesData from '../../../../data/games/games.json';
+import PageFind from '../../../../components/common/PageFind.astro';
 
 export const getStaticPaths = (() => {  
   return [
@@ -366,11 +367,11 @@ const seoImg = await images[`/src/img/games/stat-attack/${deck}.jpg`]().then(img
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
+    <PageFind pageName={`${title} (Data Hedger)`} heroText={heroText}/>
     <div class="p-2 max-w-6xl mx-auto">
       <div class="mt-40 text-center">
         <h1 class="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">{title}</h1>
-        <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{title} (Data Hedger)</h1>
-        <p class="max-w-3xl mx-auto mb-4 "><span data-pagefind-weight="8.0" class="text-dt-500 dark:text-dt-200 font-bold">Data Hedger:</span> {gamesData['data-hedger'].heroText} {instructions}</p>
+        <p class="max-w-3xl mx-auto mb-4 "><span class="text-dt-500 dark:text-dt-200 font-bold">Data Hedger:</span> {gamesData['data-hedger'].heroText} {instructions}</p>
         <DataHedgerRoomCreate client:only="react"/>
       </div>
     </div>
