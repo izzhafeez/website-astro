@@ -6,6 +6,7 @@ import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import BurningBridgesRoomCreate from "../../../components/games/burning-bridges/BurningBridgesRoomCreate";
 import CoolBackground, { Color } from "../../../components/common/CoolBackground";
+import PageFind from "../../../components/common/PageFind.astro";
 const heroText = gamesData["burning-bridges"].heroText;
 ---
 
@@ -14,6 +15,7 @@ const heroText = gamesData["burning-bridges"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-ns-700">
     <NavBar withDarkMode={false}/>
+    <PageFind pageName={"Burning Bridges"} heroText={heroText}/>
     <CoolBackground client:only="react" color={Color.NS}/>
     <div class="z-10 fixed w-screen h-screen grid place-items-center p-4">
       <BurningBridgesRoomCreate client:only="react"/>
