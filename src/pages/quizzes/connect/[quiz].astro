@@ -17,6 +17,7 @@ import romanceEuropeData from "../../../data/quizzes/connect/romance-europe.json
 import olympicData from "../../../data/quizzes/connect/olympics.json";
 import connectData from "../../../data/quizzes/connect.json";
 import Seo from "../../../components/seo/Seo.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export const getStaticPaths = (() => {
   return [
@@ -152,7 +153,7 @@ const seoImg = await images[`/src/img/quizzes/connect/${Astro.params.quiz}.jpg`]
 <Layout>
   <div slot="main">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{Astro.props.title} (Connect Quiz)</h1>
+    <PageFind pageName={`${Astro.props.title} (Connect Quiz)`} heroText={Astro.props.instructions}/>
     <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={instructions}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
