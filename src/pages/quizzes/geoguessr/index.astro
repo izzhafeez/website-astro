@@ -3,6 +3,7 @@ import geoguessrData from "../../../data/quizzes/geoguessr.json";
 import GeoGuessr from "../../../components/quizzes/geoguessr/GeoGuessr.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 import seoImg from '/src/img/heroes/GEOGUESSR.jpg';
 import quizzesData from "../../../data/quizzes/quizzes.json";
 import Seo from "../../../components/seo/Seo.astro";
@@ -21,7 +22,7 @@ const heroText = quizzesData.geoguessr.heroText;
 <Layout>
   <div slot="main">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">GeoGuessr</h1>
+    <PageFind pageName={"GeoGuessr"} heroText={heroText}/>
     <GeoGuessr client:only="svelte" data={geoguessrData}/>
   </div>
 </Layout>
