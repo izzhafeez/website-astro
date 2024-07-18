@@ -5,6 +5,7 @@ import Footer from "../../../components/common/Footer.astro";
 import Seo from "../../../components/seo/Seo.astro";
 import appsData from "../../../data/apps/apps.json";
 import seoImg from "../../../img/heroes/VIM-TIER.jpg";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export const prerender = true;
 const heroText = appsData["vim-tier"].heroText;
@@ -14,7 +15,7 @@ const heroText = appsData["vim-tier"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">VimTier</h1>
+    <PageFind pageName={"VimTier"} heroText={heroText}/>
     <div class="max-w-3xl mx-auto mt-20 place-content-center my-auto">
       <h1 class="text-6xl text-center font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
         Make Tier Lists with just your keyboard.
