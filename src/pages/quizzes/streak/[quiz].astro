@@ -12,6 +12,7 @@ import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
 import { fullSanitise } from "../../../utils/string";
 import Seo from "../../../components/seo/Seo.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export async function getStaticPaths() {
   return [
@@ -114,7 +115,7 @@ const seoImg = await images[`/src/img/quizzes/streak/${Astro.params.quiz}.jpg`](
 <Layout>
   <div slot="main">
     <NavBar transition:persist/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{Astro.props.title} (Streak Quiz)</h1>
+    <PageFind pageName={`${Astro.props.title} (Streak Quiz)`} heroText={Astro.props.instructions}/>
     <div class="max-w-6xl mx-auto">
       <div class="p-2">
         <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
