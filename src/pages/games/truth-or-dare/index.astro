@@ -6,6 +6,7 @@ import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
 import TruthDareRoomCreate from "../../../components/games/truth-or-dare/TruthDareRoomCreate";
 import CoolBackground, { Color } from "../../../components/common/CoolBackground";
+import PageFind from "../../../components/common/PageFind.astro";
 const heroText = gamesData["truth-or-dare"].heroText;
 ---
 
@@ -14,6 +15,7 @@ const heroText = gamesData["truth-or-dare"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-ew-700">
     <NavBar withDarkMode={false}/>
+    <PageFind pageName={"Truth or Dare"} heroText={heroText}/>
     <CoolBackground client:only="react" color={Color.EW}/>
     <div class="z-10 fixed w-screen h-screen grid place-items-center p-4">
       <TruthDareRoomCreate client:only="react"/>
