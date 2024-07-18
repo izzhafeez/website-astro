@@ -21,6 +21,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import compareQuizData from "../../../data/quizzes/compare.json";
 import Seo from "../../../components/seo/Seo.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export function getStaticPaths() {
   return [
@@ -222,8 +223,8 @@ const seoImg = await images[`/src/img/quizzes/compare/${Astro.params.quiz}.jpg`]
   <div slot="main">
     <div class="fixed z-50 w-screen">
       <NavBar/>
+      <PageFind pageName={`${title} (Compare Quiz)`} heroText={Astro.props.instructions}/>
     </div>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{title} (Compare Quiz)</h1>
     <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
   </div>
 </Layout>
