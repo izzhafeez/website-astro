@@ -30,6 +30,7 @@ import ccData from "../../../data/quizzes/map/cc.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
+import PageFind from "../../../components/common/PageFind.astro";
 import Seo from "../../../components/seo/Seo.astro";
 import Layout from "../../../layouts/Layout.astro";
 import Footer from "../../../components/common/Footer.astro";
@@ -313,7 +314,7 @@ const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().t
 <Layout>
   <div slot="main" class="">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">{Astro.props.title} (Map Quiz)</h1>
+    <PageFind pageName={`${Astro.props.title} (Map Quiz)`} heroText={Astro.props.instructions}/>
     <div class="max-w-3xl mx-auto p-2">
       <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
       <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
