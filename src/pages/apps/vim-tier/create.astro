@@ -5,6 +5,7 @@ import Seo from "../../../components/seo/Seo.astro";
 import appsData from "../../../data/apps/apps.json";
 import seoImg from "../../../img/heroes/VIM-TIER.jpg";
 import VimTier from "../../../components/apps/vim-tier/VimTier.vue";
+import PageFind from "../../../components/common/PageFind.astro";
 
 export const prerender = true;
 const heroText = appsData["vim-tier"].heroText;
@@ -14,7 +15,7 @@ const heroText = appsData["vim-tier"].heroText;
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <h1 class="hidden" data-pagefind-weight="10.0" data-pagefind-meta="title">VimTier (Create Tierlist)</h1>
+    <PageFind pageName={"VimTier (Create Tierlist)"} heroText={heroText}/>
     <VimTier client:only="vue"/>
   </div>
 </Layout>
