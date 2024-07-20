@@ -12,7 +12,7 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
   <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" strokeWidth="2" strokeLinejoin="round"/>
 </svg>;
 
-const instructions = gamesData['color-guessr'].heroText;
+const instructions = gamesData['midpoint-master'].heroText;
 
 type PlayerData = {
   points: number;
@@ -83,7 +83,7 @@ function MidpointMaster({ id }: { id: string }) {
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
-        text: `Pick a coordinate!`,
+        text: `Pick a cell!`,
         timer: 1500,
       })
     } else if (method === 'evaluate') {
@@ -116,7 +116,7 @@ function MidpointMaster({ id }: { id: string }) {
           Swal.fire({
             icon: 'warning',
             title: `Clash!`,
-            text: `Players who played clashing coordinates lose 50 points: ${failedPlayers.join(', ')}`,
+            text: `Players who played clashing cells lose 50 points: ${failedPlayers.join(', ')}`,
             timer: 5000,
           });
         }
@@ -230,7 +230,7 @@ function MidpointMaster({ id }: { id: string }) {
     Swal.fire({
       icon: 'info',
       title: 'How to Play',
-      text: `Based on the given color, guess the hex code of the color. The the number of points you get is based on how close you are to the actual color. The player with the most points at the end of the game wins!`,
+      text: `Players each pick a cell below. Then, your score is calculated based on how close you are to the midpoint of all cells. But be warned, if you choose the same cell as another player, you will lose 50 points!`,
     });
   }
 
