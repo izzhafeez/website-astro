@@ -36,6 +36,7 @@ import buildingsData from "../../../../data/games/stat-attack/buildings.json";
 import busStopsData from "../../../../data/games/stat-attack/bus-stops.json";
 import busServicesData from "../../../../data/games/stat-attack/bus-services.json";
 import famousPeopleData from "../../../../data/games/stat-attack/famous-people.json";
+import placesInSingaporeData from "../../../../data/games/stat-attack/places-in-singapore.json";
 import unescoData from "../../../../data/games/stat-attack/unesco.json";
 import colorsData from "../../../../data/games/stat-attack/colors.json";
 import deathsData from "../../../../data/games/stat-attack/deaths.json";
@@ -252,6 +253,12 @@ switch (deckName) {
     deck = {
       title: "Famous People",
       data: famousPeopleData
+    }
+    break;
+  case "places-in-singapore":
+    deck = {
+      title: "Places in Singapore",
+      data: placesInSingaporeData
     }
     break;
   case 'unesco':

@@ -1,4 +1,19 @@
 {
+  "places-in-singapore": {
+    "title": "Places in Singapore",
+    "instructions": "Fight using the latitude, longitude, number of Google reviews and Google rating!",
+    "tags": ["Geography", "Singapore"]
+  },
+  "famous-people":{ 
+    "title": "Famous People",
+    "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",
+    "tags": ["People", "Famous"]
+  },
+  "buildings": {
+    "title": "Buildings of the World",
+    "instructions": "Fight using the height, year of completion, latitude and longitude!",
+    "tags": ["Geography", "Buildings"]
+  },
   "malls": {
     "title": "Malls of Singapore",
     "instructions": "Fight using the latitude, longitude, number of stores and opening year!",
@@ -13,16 +28,6 @@
     "title": "Subzones of Singapore",
     "instructions": "Fight using the area, population, latitude and longitude!",
     "tags": ["Geography", "Subzones"]
-  },
-  "famous-people":{ 
-    "title": "Famous People",
-    "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",
-    "tags": ["People", "Famous"]
-  },
-  "buildings": {
-    "title": "Buildings of the World",
-    "instructions": "Fight using the height, year of completion, latitude and longitude!",
-    "tags": ["Geography", "Buildings"]
   },
   "kanji": {
     "title": "Japanese Kanji",

@@ -318,6 +318,15 @@ export const getStaticPaths = (() => {
     },
     {
       params: {
+        deck: "places-in-singapore"
+      },
+      props: {
+        title: statAttackData["places-in-singapore"].title,
+        instructions: statAttackData["places-in-singapore"].instructions
+      }
+    },
+    {
+      params: {
         deck: 'unesco'
       },
       props: {
