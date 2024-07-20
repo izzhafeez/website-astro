@@ -18,6 +18,7 @@ const instructions = gamesData['data-hedger'].heroText;
 type PlayerData = {
   points: number;
   played_card: number;
+  acknowledged: boolean;
 }
 
 type FieldWinnerData = {
@@ -140,11 +141,11 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
         timer: 5000,
       }).then(() => {
         if (mostPopularCard != -1) {
-          // notify that these players have played the same card, and lose 5 points
+          // notify that these players have played the same card, and lose 3 points
           Swal.fire({
             icon: 'warning',
             title: `Popular!`,
-            text: `Players who played the most popular card lose 5 points: ${failedPlayers.join(', ')}`,
+            text: `Players who played the most popular card lose 3 points: ${failedPlayers.join(', ')}`,
             timer: 5000,
           });
         }
@@ -296,7 +297,9 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
-          <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {playerData.points} Points</li>
+          <li key={playerName} className="">
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_card && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+          </li>
         ))}
         <li><span onClick={showHowToPlay} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
         <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>

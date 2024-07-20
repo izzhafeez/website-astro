@@ -18,6 +18,7 @@ type PlayerData = {
   points: number;
   played_color: string;
   added_score: number;
+  acknowledged: boolean;
 }
 
 function ColorGuessr({ id }: { id: string }) {
@@ -205,7 +206,7 @@ function ColorGuessr({ id }: { id: string }) {
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', color: selectedColor, name: name });
+    sendJsonMessage({ method: 'play', color: removedHash, name: name });
     setGameStatus('PLAYED');
   }
 
@@ -259,7 +260,9 @@ function ColorGuessr({ id }: { id: string }) {
       <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
-          <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {playerData.points} Points</li>
+          <li key={playerName} className="">
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_color && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+          </li>
         ))}
         <li><span onClick={showHowToPlay} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
         <li><span onClick={promptLeave} className="bg-ns-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">Leave Game</span></li>
@@ -297,6 +300,7 @@ function ColorGuessr({ id }: { id: string }) {
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
+            <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.played_color}` }}></div>
               <span className="my-auto">#{playerData.played_color} ({name})</span>
               <span className="my-auto ms-auto">Score: {playerData.added_score}</span>
