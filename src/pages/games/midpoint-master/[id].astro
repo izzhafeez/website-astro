@@ -1,0 +1,20 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import MidpointMaster from "../../../components/games/midpoint-master/MidpointMaster";
+import Layout from "../../../layouts/Layout.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/MIDPOINT-MASTER.jpg';
+import gamesData from "../../../data/games/games.json";
+export const prerender = false;
+const { id } = Astro.params;
+const heroText = gamesData["midpoint-master"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={'Midpoint Master'} path={`games/midpoint-master/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <MidpointMaster client:only="react" id={id || ""}/>
+  </div>
+</Layout>
