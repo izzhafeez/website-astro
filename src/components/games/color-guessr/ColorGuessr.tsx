@@ -300,7 +300,7 @@ function ColorGuessr({ id }: { id: string }) {
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
-            <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
+              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.played_color}` }}></div>
               <span className="my-auto">#{playerData.played_color} ({name})</span>
               <span className="my-auto ms-auto">Score: {playerData.added_score}</span>

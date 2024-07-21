@@ -29,6 +29,10 @@
     "title": "Data Hedger",
     "heroText": "Pick the card you think will win the most fields! Don't pick the most popular choice. Best played with 3-8 players."
   },
+  "location-guessr": {
+    "title": "Location Guessr",
+    "heroText": "Test your geography skills by guessing where the location is. Make the second closest guess to gain the point! Best played with 3-8 players."
+  },
   "math-attack": {
     "title": "Math Attack",
     "heroText": "Stay within the bounds and be the last player standing in this math-based card game. Best played with 2-6 players."

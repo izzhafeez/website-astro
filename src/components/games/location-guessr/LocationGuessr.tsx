@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import useWebSocket from 'react-use-websocket';
 import gamesData from '../../../data/games/games.json';
 import Swal from 'sweetalert2';
+import { CircleMarker, MapContainer, TileLayer, Tooltip, useMapEvents } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css'
 
 const copySvg = <svg className="invert dark:invert-0" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path fillRule="evenodd" clipRule="evenodd" d="M21 8C21 6.34315 19.6569 5 18 5H10C8.34315 5 7 6.34315 7 8V20C7 21.6569 8.34315 23 10 23H18C19.6569 23 21 21.6569 21 20V8ZM19 8C19 7.44772 18.5523 7 18 7H10C9.44772 7 9 7.44772 9 8V20C9 20.5523 9.44772 21 10 21H18C18.5523 21 19 20.5523 19 20V8Z" fill="#0F0F0F"/>
@@ -12,7 +14,7 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
   <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" strokeWidth="2" strokeLinejoin="round"/>
 </svg>;
 
-const instructions = gamesData['color-guessr'].heroText;
+const instructions = gamesData['location-guessr'].heroText;
 
 type PlayerData = {
   points: number;
@@ -21,15 +23,29 @@ type PlayerData = {
   acknowledged: boolean;
 }
 
-function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
+const colors = [
+  '#3CA877',
+  '#FF3E00',
+  '#673AB8',
+  '#FA9E0D',
+  '#139ECA',
+  '#C6732F',
+  '#00B8CC',
+  '#FF0AFF',
+  '#97C616',
+  '#10C8FA'
+];
+
+function LocationGuessr({ id, data, title }: { id: string, data: {name: string, Latitude: number, Longitude: number}[], title: string }) {
   const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
-  const [locationId, setLocationId] = React.useState(undefined);
-  const [guess, setGuess] = React.useState(undefined);
+  const [locationId, setLocationId] = React.useState(null as number | null);
+  const [guess, setGuess] = React.useState(null as [number, number] | null);
   const [secondClosest, setSecondClosest] = React.useState('');
   const [roundId, setRoundId] = React.useState(0);
+  const [distance, setDistance] = React.useState(0);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
@@ -49,6 +65,7 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
     if (message.location) setLocationId(_ => message.location);
     if (message.second_closest) setSecondClosest(_ => message.second_closest);
     if (message.round_id) setRoundId(_ => message.round_id);
+    if (message.distance) setDistance(_ => message.distance);
 
     if (method === 'connect') {
       Swal.fire({
@@ -78,31 +95,29 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
       setGameStatus('PLAYING');
     } else if (method === 'next') {
       setGameStatus('PLAYING');
-      setGuess(undefined);
+      setGuess(null);
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
-        text: `Guess that color!`,
+        text: `Find: ${data[message.location].name}!`,
         timer: 1500,
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
       Swal.fire({
         icon: 'info',
-        title: `The second closest person was ${message.second_closest} with a distance of !`,
+        title: `The second closest person was ${message.second_closest} with a distance of ${message.distance.toFixed(3)}km!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
-              <th scope="col" class="px-6 py-3">Guess</th>
-              <th scope="col" class="px-6 py-3">Score</th>
+              <th scope="col" class="px-6 py-3">Distance</th>
             </tr>
           </thead>
-          ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
+          ${Object.entries(message.players as {[name: string]: PlayerData}).sort(([_, playerData]) => playerData.distance).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-              <td class="px-6 py-4 font-light">#${playerData.played_color}</td>
-              <td class="px-6 py-4 font-light">${playerData.added_score}</td>
+              <td class="px-6 py-4 font-light">${playerData.distance.toFixed(3)}km</td>
             </tr>
           `).join('')}
         </table>`
@@ -142,7 +157,7 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
   }, [lastMessage]);
 
   const joinGame = () => {
-    sendJsonMessage({ method: 'join', name })
+    sendJsonMessage({ method: 'join', name, num_of_locations: 100 })
     setGameStatus('JOINED');
   };
 
@@ -191,13 +206,12 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
   }
 
   const submitGuess = () => {
-    // validate hex code
-    const removedHash = selectedColor.replace('#', '');
-    if (!/^([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(removedHash)) {
+    // validate guess
+    if (!guess) {
       Swal.fire({
         icon: 'error',
-        title: 'Invalid Hex Code!',
-        text: 'Please enter a valid hex code!'
+        title: 'Oops...',
+        text: 'Please select a location!'
       });
       return;
     }
@@ -208,7 +222,7 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', color: removedHash, name: name });
+    sendJsonMessage({ method: 'play', guess: guess, name: name, actual: [data[locationId || 0].Latitude, data[locationId || 0].Longitude] });
     setGameStatus('PLAYED');
   }
 
@@ -231,12 +245,25 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
     });
   }
 
+  const LocationFinderDummy = () => {
+    const map = useMapEvents({
+        click(e) {
+            console.log(e.latlng);
+            const lat = e.latlng.lat;
+            const lng = e.latlng.lng;
+            setGuess(_ => ([lat, lng]));
+        },
+    });
+    return null;
+  };
+
   return <>
     <div className="p-2 max-w-3xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">LocationGuessr</h1>
         </>}
       {gameStatus === 'JOINED' && <>
+        <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
         <div className="flex gap-2 mx-auto my-4">
           {/* start */}
           <button onClick={startGame} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> Start Game</button>
@@ -263,7 +290,7 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_color && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.guess && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={showHowToPlay} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -273,48 +300,85 @@ function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
 
       {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: Find {locationId && data[locationId].name}</h3>
 
-        {/* color to guess */}
-        <div className="flex gap-2">
-          <div className="w-20 h-20 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
-          <p className="my-auto">Guess the color!</p>
-        </div>
-
-        {/* input box for hex code */}
-        <input
-          name="color"
-          type="text"
-          value={selectedColor}
-          onChange={(e) => setSelectedColor(e.target.value)}
-          placeholder='Enter hex code...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
-        
         {/* submit guess */}
         <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
+
+        {/* leaflet map to guess location */}
+        <MapContainer
+          center={[1.35, 103.85]}
+          zoom={11}
+          scrollWheelZoom={true}
+          style={{ height: "400px", width: "100%" }}
+          className='mb-8'>
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+
+          {guess && <CircleMarker center={guess} radius={5}>
+            <Tooltip>
+              Your guess
+            </Tooltip>
+          </CircleMarker>}
+
+          <LocationFinderDummy />
+        </MapContainer>
         </>}
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The color was #{color}! Players guessed:</h3>
-        <ul className="grid gap-2">
-          {Object.entries(players).map(([name, playerData]) => (
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {secondClosest} is the second closest!</h3>
+        <ul className="grid gap-2 mt-4">
+          {Object.entries(players).map(([name, playerData], index) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
-            <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
-              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.played_color}` }}></div>
-              <span className="my-auto">#{playerData.played_color} ({name})</span>
-              <span className="my-auto ms-auto">Score: {playerData.added_score}</span>
+              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `${colors[index]}` }}></div>
+              <span className="my-auto">{name}</span>
+              <span className="my-auto ms-auto">{playerData.distance.toFixed(3)}km</span>
             </div>
           </li>))
           }
         </ul>
-      </>}
 
-      {/* acknowledge */}
-      {gameStatus === 'EVALUATING' && <>
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
+        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Ready</button>
+
+        <MapContainer
+          center={[1.35, 103.85]}
+          zoom={11}
+          scrollWheelZoom={true}
+          style={{ height: "400px", width: "100%" }}
+          className="mb-8">
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+
+          {/* show all players' guesses */}
+          {Object.entries(players).map(([playerName, playerData], index) => (
+            <CircleMarker key={playerName}
+              center={playerData.guess}
+              radius={5}
+              pathOptions={{ color: colors[index % 10] }}>
+              <Tooltip>
+                {playerName}
+              </Tooltip>
+            </CircleMarker>
+          ))}
+
+          {/* actual marker */}
+          {locationId && <CircleMarker
+            center={[data[locationId].Latitude, data[locationId].Longitude]}
+            radius={5}
+            pathOptions={{ color: 'black' }}>
+            <Tooltip>
+              {data[locationId].name}
+            </Tooltip>
+          </CircleMarker>}
+        </MapContainer>
+      </>}
     </div>
   </>;
 }

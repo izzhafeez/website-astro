@@ -36,6 +36,7 @@ import burningBridges from "../../img/logos/burning-bridges.svg";
 import colorGuessr from "../../img/logos/color-guessr.svg";
 import convoStarter from "../../img/logos/convo-starter.svg";
 import dataHedger from "../../img/logos/data-hedger.svg";
+import locationGuessr from "../../img/logos/location-guessr.svg";
 import midpointMaster from "../../img/logos/midpoint-master.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
@@ -73,4 +74,5 @@ export default {
   "truth-or-dare": truthDare,
   "color-guessr": colorGuessr,
   "midpoint-master": midpointMaster,
+  "location-guessr": locationGuessr
 }
