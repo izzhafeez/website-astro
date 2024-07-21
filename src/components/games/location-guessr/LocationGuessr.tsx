@@ -12,26 +12,23 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
   <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" strokeWidth="2" strokeLinejoin="round"/>
 </svg>;
 
-const instructions = gamesData['midpoint-master'].heroText;
+const instructions = gamesData['color-guessr'].heroText;
 
 type PlayerData = {
   points: number;
-  played_coordinate: [number, number];
-  added_score: number;
-  letter: string;
+  guess: [number, number];
+  distance: number;
   acknowledged: boolean;
 }
 
-const coordinateAsString = (coordinate: number[]) => `(${coordinate[0]}, ${coordinate[1]})`;
-
-function MidpointMaster({ id }: { id: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/midpoint-master/${id}`;
+function LocationGuessr({ id, data }: { id: string, data: [number, number] }) {
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
-  const [coordinate, setCoordinate] = React.useState(null as null | [number, number]);
-  const [midpoint, setMidpoint] = React.useState([0, 0]);
-  const [playedGrid, setPlayedGrid] = React.useState([] as string[][][]);
+  const [locationId, setLocationId] = React.useState(undefined);
+  const [guess, setGuess] = React.useState(undefined);
+  const [secondClosest, setSecondClosest] = React.useState('');
   const [roundId, setRoundId] = React.useState(0);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
@@ -49,8 +46,9 @@ function MidpointMaster({ id }: { id: string }) {
 
     // deep copy of message.players object
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
+    if (message.location) setLocationId(_ => message.location);
+    if (message.second_closest) setSecondClosest(_ => message.second_closest);
     if (message.round_id) setRoundId(_ => message.round_id);
-    if (message.played_grid) setPlayedGrid(_ => message.played_grid);
 
     if (method === 'connect') {
       Swal.fire({
@@ -80,20 +78,18 @@ function MidpointMaster({ id }: { id: string }) {
       setGameStatus('PLAYING');
     } else if (method === 'next') {
       setGameStatus('PLAYING');
-      setCoordinate([0, 0]);
+      setGuess(undefined);
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
-        text: `Pick a cell!`,
+        text: `Guess that color!`,
         timer: 1500,
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
-      setMidpoint(_ => message.midpoint);
-      const failedPlayers = message.failed_players;
       Swal.fire({
         icon: 'info',
-        title: `The midpoint was ${coordinateAsString(message.midpoint)}!`,
+        title: `The second closest person was ${message.second_closest} with a distance of !`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
@@ -105,22 +101,12 @@ function MidpointMaster({ id }: { id: string }) {
           ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-              <td class="px-6 py-4 font-light">#${coordinateAsString(playerData.played_coordinate)}</td>
+              <td class="px-6 py-4 font-light">#${playerData.played_color}</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
             </tr>
           `).join('')}
         </table>`
-      }).then(() => {
-        if (failedPlayers && failedPlayers.length > 0) {
-          // notify that these players have played the same card, and lose 50 points
-          Swal.fire({
-            icon: 'warning',
-            title: `Clash!`,
-            text: `Players who played clashing cells lose 50 points: ${failedPlayers.join(', ')}`,
-            timer: 5000,
-          });
-        }
-      });
+      })
     } else if (method === 'end') {
       Swal.fire({
         icon: 'info',
@@ -205,20 +191,24 @@ function MidpointMaster({ id }: { id: string }) {
   }
 
   const submitGuess = () => {
-    if (!coordinate) {
+    // validate hex code
+    const removedHash = selectedColor.replace('#', '');
+    if (!/^([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(removedHash)) {
       Swal.fire({
         icon: 'error',
-        title: 'Oops...',
-        text: 'Please pick a cell!'
+        title: 'Invalid Hex Code!',
+        text: 'Please enter a valid hex code!'
       });
+      return;
     }
+
     Swal.fire({
       title: 'Waiting for other players...',
       didOpen: () => {
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', played_coordinate: coordinate, name: name });
+    sendJsonMessage({ method: 'play', color: removedHash, name: name });
     setGameStatus('PLAYED');
   }
 
@@ -237,14 +227,14 @@ function MidpointMaster({ id }: { id: string }) {
     Swal.fire({
       icon: 'info',
       title: 'How to Play',
-      text: `Players each pick a cell below. Then, your score is calculated based on how close you are to the midpoint of all cells. But be warned, if you choose the same cell as another player, you will lose 50 points!`,
+      text: `Based on the given color, guess the hex code of the color. The the number of points you get is based on how close you are to the actual color. The player with the most points at the end of the game wins!`,
     });
   }
 
   return <>
     <div className="p-2 max-w-3xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">MidpointMaster</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">LocationGuessr</h1>
         </>}
       {gameStatus === 'JOINED' && <>
         <div className="flex gap-2 mx-auto my-4">
@@ -255,7 +245,7 @@ function MidpointMaster({ id }: { id: string }) {
         </div>
         </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">MidpointMaster</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">LocationGuessr</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions}</p>
         <input
           name="name"
@@ -273,7 +263,7 @@ function MidpointMaster({ id }: { id: string }) {
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_coordinate && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_color && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={showHowToPlay} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -281,70 +271,52 @@ function MidpointMaster({ id }: { id: string }) {
       </ul>
       </>}
 
-      {gameStatus === 'PLAYING' && <div className="grid">
+      {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2 mx-auto">Round {roundId}/10</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
 
-        {/* submit guess */}
-        <button onClick={submitGuess} className="my-2 mx-auto p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Select Cell</button>
-
-        {/* grid of 10 x 10 cells for selecting coordinate */}
-        <div className="grid grid-cols-10 gap-1 justify-self-center mt-4 mb-8">
-          {Array.from({ length: 100 }).map((_, i) => {
-            const x = i % 10;
-            const y = Math.floor(i / 10);
-            return <div key={i} onClick={
-              () => {
-                console.log(playedGrid[x][y])
-                if (playedGrid[x][y].length > 0 && playedGrid[x][y][0] == 'AA') return;
-                setCoordinate([x, y])
-              }
-            } className={`w-10 h-10 rounded-md ${
-              playedGrid[x][y].length > 0 && playedGrid[x][y][0] == 'AA'
-              ? 'bg-ns-500'
-              : coordinate && coordinate[0] === x && coordinate[1] === y
-              ? 'bg-cc-500'
-              : 'bg-white dark:bg-gray-700'} cursor-pointer`}></div>
-          })}
+        {/* color to guess */}
+        <div className="flex gap-2">
+          <div className="w-20 h-20 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
+          <p className="my-auto">Guess the color!</p>
         </div>
-      </div>}
+
+        {/* input box for hex code */}
+        <input
+          name="color"
+          type="text"
+          value={selectedColor}
+          onChange={(e) => setSelectedColor(e.target.value)}
+          placeholder='Enter hex code...'
+          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+        
+        {/* submit guess */}
+        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
+        </>}
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The midpoint was {coordinateAsString(midpoint)}! Players guessed:</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The color was #{color}! Players guessed:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
-              <span className="my-auto">{name} played {playerData.letter}{coordinateAsString(playerData.played_coordinate)}</span>
+            <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
+              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.played_color}` }}></div>
+              <span className="my-auto">#{playerData.played_color} ({name})</span>
               <span className="my-auto ms-auto">Score: {playerData.added_score}</span>
             </div>
           </li>))
           }
         </ul>
-
-        {/* ready button */}
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Ready</button>
-
-        {/* grid of what players played */}
-        <div className="grid">
-          <div className="grid grid-cols-10 gap-1 justify-self-center mb-8">
-            {Array.from({ length: 100 }).map((_, i) => {
-              const x = i % 10;
-              const y = Math.floor(i / 10);
-              return <div key={i} className={`w-10 h-10 rounded-md text-white text-center flex ${
-                playedGrid[x][y].length > 0 && playedGrid[x][y][0] == 'AA'
-                ? 'bg-ns-500'
-                : playedGrid[x][y].length == 1
-                ? 'bg-cc-500'
-                : 'bg-white dark:bg-gray-700'}`}><span className="my-auto mx-auto">{playedGrid[x][y] && playedGrid[x][y][0] != 'AA' && playedGrid[x][y].join(", ")}</span></div>
-            })}
-          </div>
-        </div>
       </>}
+
+      {/* acknowledge */}
+      {gameStatus === 'EVALUATING' && <>
+        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }
 
-export default MidpointMaster;
+export default LocationGuessr;
