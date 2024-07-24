@@ -41,6 +41,16 @@
     "title": "Midpoint Master",
     "heroText": "Become the midpoint of your friends' guesses in this fun and engaging game. Best played with 3-12 players."
   },
+  "quip-ai": {
+    "title": "Quip AI",
+    "heroText": "Come up with the funniest responses for our AI-generated prompts and vote for the best one! Best played with 3-8 players.",
+    "instructions": [
+      "Have someone create a game.",
+      "Join the game on any device, preferably a phone.",
+      "Read the prompt and come up with the funniest response.",
+      "Vote for the funniest response."
+    ]
+  },
   "stat-attack": {
     "title": "Stat Attack",
     "heroText": "Strategically arrange your cards to outwit your opponents, becoming the ultimate Stat Attack champion! Best played with 2-6 players."

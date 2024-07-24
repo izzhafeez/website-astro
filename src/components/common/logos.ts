@@ -41,6 +41,7 @@ import midpointMaster from "../../img/logos/midpoint-master.svg";
 import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
 import truthDare from "../../img/logos/truth-or-dare.svg";
+import quipAI from "../../img/logos/quip-ai.svg";
 
 export default {
   apps,
@@ -74,5 +75,6 @@ export default {
   "truth-or-dare": truthDare,
   "color-guessr": colorGuessr,
   "midpoint-master": midpointMaster,
-  "location-guessr": locationGuessr
+  "location-guessr": locationGuessr,
+  "quip-ai": quipAI
 }

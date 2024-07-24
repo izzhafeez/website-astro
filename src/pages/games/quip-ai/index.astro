@@ -1,0 +1,24 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/QUIP-AI.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import QuipAIRoomCreate from "../../../components/games/quip-ai/QuipAIRoomCreate";
+import CoolBackground, { Color } from "../../../components/common/CoolBackground";
+import PageFind from "../../../components/common/PageFind.astro";
+const heroText = gamesData["quip-ai"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Quip AI"} path={`games/quip-ai`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col bg-[#6A4C93]">
+    <NavBar withDarkMode={false}/>
+    <PageFind pageName={"Quip AI"} heroText={heroText}/>
+    <CoolBackground client:only="react" color={Color.SL}/>
+    <div class="z-10 fixed w-screen h-screen grid place-items-center p-4">
+      <QuipAIRoomCreate client:only="react"/>
+    </div>
+  </div>
+</Layout>

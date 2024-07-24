@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
@@ -7,7 +7,8 @@ import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSli
 export enum Color {
     DT = '#004A9B',
     NS = '#7A1800',
-    EW = '#1F5D3A'
+    EW = '#1F5D3A',
+    SL = '#6A4C93',
 }
 
 const CoolBackground = ({ color }: { color: Color }) => {
