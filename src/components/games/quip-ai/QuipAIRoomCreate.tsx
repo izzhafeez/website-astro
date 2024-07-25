@@ -17,7 +17,7 @@ function BurningBridgesRoomCreate() {
   }
 
   return (
-    <div className="p-4 md:p-6 rounded-3xl shadow-md max-w-3xl mx-auto bg-sl-500/50">
+    <div className="p-4 md:p-6 rounded-3xl shadow-md max-w-3xl mx-auto bg-ne-500">
     <div className="text-left lg:text-center">
       <h1 className="text-white text-3xl lg:text-6xl font-extrabold my-4 inline-block">Quip AI</h1>
       <p className="max-w-3xl mb-4 text-white">{gamesData['quip-ai'].heroText} <span className="underline hover:text-ne-300 cursor-pointer" onClick={showInstructions}>How to Play.</span></p>
