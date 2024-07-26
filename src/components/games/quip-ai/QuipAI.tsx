@@ -315,11 +315,11 @@ function QuipAI({ id }: { id: string }) {
   return <>
     <div className="p-2 max-w-3xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-        <h1 className="text-white text-6xl font-extrabold my-4 inline-block">QuipAI</h1>
+        <h1 className="text-white text-6xl font-extrabold my-4 inline-block">Quip AI</h1>
         </>}
 
       {gameStatus === 'UNJOINED' && <div className="text-center mt-40">
-        <h1 className="text-white text-6xl font-extrabold my-4 inline-block">QuipAI</h1>
+        <h1 className="text-white text-6xl font-extrabold my-4 inline-block">Quip AI</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions}</p>
         <input
           name="name"
