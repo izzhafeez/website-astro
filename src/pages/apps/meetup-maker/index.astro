@@ -12,12 +12,12 @@ import PageFind from "../../../components/common/PageFind.astro";
 export const prerender = true;
 const heroText = appsData["meetup-maker"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"MeetupMaker"} path="apps/meetup-maker"/>
+<Seo {heroText} {seoImg} pageName={"Meetup Maker"} path="apps/meetup-maker"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <PageFind pageName={"MeetupMaker"} heroText={heroText}/>
+    <PageFind pageName={"Meetup Maker"} heroText={heroText}/>
     <div class="max-w-xl mx-auto mt-20 place-content-center my-auto">
       <h1 class="text-6xl text-center font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
         Plan your meetups with ease.
