@@ -10,15 +10,15 @@ import PageFind from "../../../components/common/PageFind.astro";
 export const prerender = true;
 const heroText = appsData["route-weaver"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"RouteWeaver"} path="apps/route-weaver"/>
+<Seo {heroText} {seoImg} pageName={"Route Weaver"} path="apps/route-weaver"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <PageFind pageName={"RouteWeaver"} heroText={heroText}/>
+    <PageFind pageName={"Route Weaver"} heroText={heroText}/>
     <div class="max-w-3xl mx-auto mt-20 place-content-center my-auto">
       <h1 class="text-6xl text-center font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
-        Plan your next walk with RouteWeaver.
+        Plan your next walk with Route Weaver.
       </h1>
       <p class="text-center mt-8">Select places you want to visit, and let the algorithm take care of the rest!</p>
       <div class="flex justify-center mt-8 gap-4">
