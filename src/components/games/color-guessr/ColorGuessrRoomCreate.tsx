@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import gamesData from "../../../data/games/games.json";
 
 function ColorGuessrRoomCreate() {
