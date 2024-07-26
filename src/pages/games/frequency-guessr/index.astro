@@ -1,0 +1,20 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/COLOR-GUESSR.jpg';
+import gamesData from "../../../data/games/games.json";
+import Layout from "../../../layouts/Layout.astro";
+import ColorGuessrRoomCreate from "../../../components/games/color-guessr/ColorGuessrRoomCreate";
+import PageFind from "../../../components/common/PageFind.astro";
+const heroText = gamesData["color-guessr"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"ColorGuessr"} path={`games/color-guessr`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={"ColorGuessr"} heroText={heroText}/>
+    <ColorGuessrRoomCreate client:only="react"/>
+  </div>
+</Layout>
