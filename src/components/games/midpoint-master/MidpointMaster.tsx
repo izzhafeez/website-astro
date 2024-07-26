@@ -249,7 +249,7 @@ function MidpointMaster({ id }: { id: string }) {
   return <>
     <div className="p-2 max-w-3xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">MidpointMaster</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Midpoint Master</h1>
         </>}
       {gameStatus === 'JOINED' && <>
         <div className="flex gap-2 mx-auto my-4">
@@ -260,7 +260,7 @@ function MidpointMaster({ id }: { id: string }) {
         </div>
         </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">MidpointMaster</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Midpoint Master</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions}</p>
         <input
           name="name"
