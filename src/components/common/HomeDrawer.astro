@@ -25,7 +25,7 @@ type Logos = {
     <span class="sr-only">Close menu</span>
   </button>
   <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold text-gray-500 dark:text-gray-300`}>{capitalise(id)}</h3>
-  <ul class="space-y-2 font-medium h-auto">
+  <ul class="space-y-2 font-medium h-auto mb-20">
     <li>
       <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-apps" data-collapse-toggle="dropdown-apps">
         <img src={logos['apps'].src} alt="Apps" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
@@ -34,7 +34,7 @@ type Logos = {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg>
       </button>
-      <ul id="dropdown-apps" class="hidden py-2 space-y-2">
+      <ul id="dropdown-apps" class="hidden pt-2 space-y-2">
         {Object.entries(appsData).map(([key, value]) => (<li>
           <a href={`/apps/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
@@ -51,7 +51,7 @@ type Logos = {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg>
       </button>
-      <ul id="dropdown-quizzes" class="hidden py-2 space-y-2">
+      <ul id="dropdown-quizzes" class="hidden pt-2 space-y-2">
         {Object.entries(quizzesData).map(([key, value]) => (<li>
           <a href={`/quizzes/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
@@ -68,7 +68,7 @@ type Logos = {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg>
       </button>
-      <ul id="dropdown-portfolio" class="hidden py-2 space-y-2">
+      <ul id="dropdown-portfolio" class="hidden pt-2 space-y-2">
         {Object.entries(portfolioData).map(([key, value]) => (<li>
           <a href={`/portfolio/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
@@ -85,7 +85,7 @@ type Logos = {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg>
       </button>
-      <ul id="dropdown-blog" class="hidden py-2 space-y-2">
+      <ul id="dropdown-blog" class="hidden pt-2 space-y-2">
         {Object.entries(blogData).map(([key, value]) => (<li>
           <a href={`/blog/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
@@ -102,7 +102,7 @@ type Logos = {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg>
       </button>
-      <ul id="dropdown-games" class="hidden py-2 space-y-2">
+      <ul id="dropdown-games" class="hidden pt-2 space-y-2">
         {Object.entries(gamesData).map(([key, value]) => (<li>
           <a href={`/games/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
