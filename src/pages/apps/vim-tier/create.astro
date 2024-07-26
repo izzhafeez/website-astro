@@ -10,12 +10,12 @@ import PageFind from "../../../components/common/PageFind.astro";
 export const prerender = true;
 const heroText = appsData["vim-tier"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"VimTier"} path="apps/vim-tier"/>
+<Seo {heroText} {seoImg} pageName={"Vim Tier"} path="apps/vim-tier"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <PageFind pageName={"VimTier (Create Tierlist)"} heroText={heroText}/>
+    <PageFind pageName={"Vim Tier (Create Tierlist)"} heroText={heroText}/>
     <VimTier client:only="vue"/>
   </div>
 </Layout>
