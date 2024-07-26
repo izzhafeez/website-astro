@@ -10,12 +10,12 @@ import PageFind from "../../../components/common/PageFind.astro";
 export const prerender = true;
 const heroText = appsData["route-weaver"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"RouteWeaver"} path="apps/route-weaver"/>
+<Seo {heroText} {seoImg} pageName={"Route Weaver"} path="apps/route-weaver"/>
 
 <Layout>
   <div slot="main">
     <NavBar/>
-    <PageFind pageName={"RouteWeaver (Create Route)"} heroText={heroText}/>
+    <PageFind pageName={"Route Weaver (Create Route)"} heroText={heroText}/>
     <RouteWeaver client:only="vue"/>
   </div>
 </Layout>
