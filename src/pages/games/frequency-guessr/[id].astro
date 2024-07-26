@@ -3,11 +3,11 @@ import NavBar from "../../../components/common/NavBar.astro";
 import FrequencyGuessr from "../../../components/games/frequency-guessr/FrequencyGuessr";
 import Layout from "../../../layouts/Layout.astro";
 import Seo from "../../../components/seo/Seo.astro";
-import seoImg from '/src/img/heroes/COLOR-GUESSR.jpg';
+import seoImg from '/src/img/heroes/FREQUENCY-GUESSR.jpg';
 import gamesData from "../../../data/games/games.json";
 export const prerender = false;
 const { id } = Astro.params;
-const heroText = gamesData["color-guessr"].heroText;
+const heroText = gamesData["frequency-guessr"].heroText;
 ---
 
 <Seo {heroText} {seoImg} pageName={'FrequencyGuessr'} path={`games/frequency-guessr/${id}`}/>
