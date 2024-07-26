@@ -142,6 +142,11 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       }).then(() => {
         if (mostPopularCard != -1) {
           // notify that these players have played the same card, and lose 3 points
+          if (failedPlayers.includes(name)) {
+            var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+            audio.play();
+          }
+
           Swal.fire({
             icon: 'warning',
             title: `Popular!`,
@@ -265,7 +270,13 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
     });
   }
 
+  const names = deckData.map((card: {name: string}) => card.name).map((s: string, index: number) => <span className={options.includes(index) ? 'text-gray-500/30' : ''}>{s} </span>);
+  const namesLength = deckData.map((card: {name: string}) => card.name.length).reduce((a: number, b: number) => a + b, 0);
+
   return <>
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+      {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
+    </p>
     <div className="p-2 max-w-6xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Data Hedger</h1>
