@@ -260,7 +260,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
   return <>
     <div className="p-2 max-w-3xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">LocationGuessr</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Location Guessr</h1>
         </>}
       {gameStatus === 'JOINED' && <>
         <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
@@ -272,7 +272,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
         </div>
         </>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
-        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">LocationGuessr</h1>
+        <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Location Guessr</h1>
         <p className="max-w-3xl mx-auto mb-4 ">{instructions}</p>
         <input
           name="name"
