@@ -9,12 +9,12 @@ import PageFind from "../../../components/common/PageFind.astro";
 const heroText = gamesData["color-guessr"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={"ColorGuessr"} path={`games/color-guessr`}/>
+<Seo {heroText} {seoImg} pageName={"Color Guessr"} path={`games/color-guessr`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <PageFind pageName={"ColorGuessr"} heroText={heroText}/>
+    <PageFind pageName={"Color Guessr"} heroText={heroText}/>
     <ColorGuessrRoomCreate client:only="react"/>
   </div>
 </Layout>
