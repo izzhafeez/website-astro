@@ -42,6 +42,7 @@ import mathAttack from "../../img/logos/math-attack.svg";
 import statAttack from "../../img/logos/stat-attack.svg";
 import truthDare from "../../img/logos/truth-or-dare.svg";
 import quipAI from "../../img/logos/quip-ai.svg";
+import frequencyGuessr from "../../img/logos/frequency-guessr.svg";
 
 export default {
   apps,
@@ -76,5 +77,6 @@ export default {
   "color-guessr": colorGuessr,
   "midpoint-master": midpointMaster,
   "location-guessr": locationGuessr,
-  "quip-ai": quipAI
+  "quip-ai": quipAI,
+  "frequency-guessr": frequencyGuessr,
 }
