@@ -112,6 +112,11 @@ function MidpointMaster({ id }: { id: string }) {
         </table>`
       }).then(() => {
         if (failedPlayers && failedPlayers.length > 0) {
+          if (failedPlayers.includes(name)) {
+            var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+            audio.play();
+          }
+          
           // notify that these players have played the same card, and lose 50 points
           Swal.fire({
             icon: 'warning',
