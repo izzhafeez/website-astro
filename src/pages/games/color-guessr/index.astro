@@ -4,8 +4,8 @@ import Seo from "../../../components/seo/Seo.astro";
 import seoImg from '/src/img/heroes/COLOR-GUESSR.jpg';
 import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
-import ColorGuessrRoomCreate from "../../../components/games/color-guessr/ColorGuessrRoomCreate";
 import PageFind from "../../../components/common/PageFind.astro";
+import RoomCreateContainer from "../common/RoomCreateContainer.astro";
 const heroText = gamesData["color-guessr"].heroText;
 ---
 
@@ -15,6 +15,6 @@ const heroText = gamesData["color-guessr"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <PageFind pageName={"Color Guessr"} heroText={heroText}/>
-    <ColorGuessrRoomCreate client:only="react"/>
+    <RoomCreateContainer title="Color Guessr" heroText={heroText} />
   </div>
 </Layout>
