@@ -59,6 +59,10 @@
     "title": "Stat Attack",
     "heroText": "Strategically arrange your cards to outwit your opponents, becoming the ultimate Stat Attack champion! Best played with 2-6 players."
   },
+  "stat-guessr": {
+    "title": "Stat Guessr",
+    "heroText": "Guess the statistics of the given data. The closer you are to the actual statistics, the more points you get! Best played with 2-6 players."
+  },
   "truth-or-dare": {
     "title": "Truth or Dare",
     "heroText": "Get ready for a night of fun and laughter with Truth or Dare! Are you gonna pick truth? Or dare? Best played with 3-6 players.",
