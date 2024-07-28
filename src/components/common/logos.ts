@@ -43,6 +43,7 @@ import statAttack from "../../img/logos/stat-attack.svg";
 import truthDare from "../../img/logos/truth-or-dare.svg";
 import quipAI from "../../img/logos/quip-ai.svg";
 import frequencyGuessr from "../../img/logos/frequency-guessr.svg";
+import statGuessr from "../../img/logos/stat-guessr.svg";
 
 export default {
   apps,
@@ -79,4 +80,5 @@ export default {
   "location-guessr": locationGuessr,
   "quip-ai": quipAI,
   "frequency-guessr": frequencyGuessr,
+  "stat-guessr": statGuessr,
 }
