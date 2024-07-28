@@ -1,0 +1,52 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
+import Hero from "../../../components/common/Hero.astro";
+import gamesData from "../../../data/games/games.json";
+import MediumCard from "../../../components/common/MediumCard.astro";
+import statAttackData from "../../../data/games/stat-attack/stat-attack.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/STAT-GUESSR.jpg';
+
+type DeckJson = {[k: string]: {
+  title: string,
+  instructions: string,
+  rank?: number,
+  tags?: string[]
+}}
+
+const decks = Object.entries(statAttackData as DeckJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/games/stat-guessr/${key}`,
+    title: value.title,
+    instructions: value.instructions,
+    rank: value.rank || 0,
+    imgPath: `/img/games/stat-attack/${key}.jpg`,
+    tags: value.tags || []
+  }
+});
+
+const heroText = gamesData["stat-guessr"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"Stat Guessr"} path="games/stat-guessr"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="STAT GUESSR" text={heroText} site="games"/>
+    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {decks.map(deck => <MediumCard
+        href={deck.href}
+        title={deck.title}
+        site="games"
+        heroText={deck.instructions}
+        key={deck.key}
+        imgPath={deck.imgPath}
+        isEager={true}
+        tags={deck.tags}/>)}
+    </section>
+    <Footer site="games"/>
+  </div>
+</Layout>

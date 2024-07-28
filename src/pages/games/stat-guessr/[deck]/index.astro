@@ -1,0 +1,30 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../../../layouts/Layout.astro';
+import NavBar from '../../../../components/common/NavBar.astro';
+import Seo from '../../../../components/seo/Seo.astro';
+import gamesData from '../../../../data/games/games.json';
+import PageFind from '../../../../components/common/PageFind.astro';
+import RoomCreateContainer from '../../common/RoomCreateContainer.astro';
+import { decks } from '../../common/decks';
+
+export const getStaticPaths = (() => {  
+  return decks;
+}) satisfies GetStaticPaths;
+
+const { deck } = Astro.params;
+const { instructions, title } = Astro.props;
+const heroText = gamesData["data-hedger"].heroText;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/games/stat-attack/${deck}.jpg`]().then(img => img.default);
+---
+
+<Seo {heroText} {seoImg} pageName={title} path={`games/data-hedger/${deck}`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={`${title} (Stat Guessr)`} heroText={heroText}/>
+    <RoomCreateContainer title={title} heroText={`Stat Guessr: ${heroText}`} instructions={instructions} />
+  </div>
+</Layout>

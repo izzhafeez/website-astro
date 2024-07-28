@@ -1,0 +1,28 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import StatGuessr from "../../../../components/games/stat-guessr/StatGuessr";
+import Layout from "../../../../layouts/Layout.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import { getData } from "../../common/decks";
+
+export const prerender = false;
+const { id } = Astro.params;
+const splitPath = Astro.url.pathname.split("/");
+const deckName: string = splitPath[splitPath.length - 2];
+
+let deck = getData(deckName);
+
+const heroText = gamesData["stat-guessr"].heroText;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/games/stat-attack/${deckName}.jpg`]().then(img => img.default);
+---
+
+<Seo {heroText} {seoImg} pageName={deck.title} path={`games/stat-guessr/${deckName}/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <StatGuessr client:only="react" id={id || ""} deck={deck}/>
+  </div>
+</Layout>
