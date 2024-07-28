@@ -4,8 +4,8 @@ import Seo from "../../../components/seo/Seo.astro";
 import seoImg from '/src/img/heroes/MIDPOINT-MASTER.jpg';
 import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
-import MidpointMasterRoomCreate from "../../../components/games/midpoint-master/MidpointMasterRoomCreate";
 import PageFind from "../../../components/common/PageFind.astro";
+import RoomCreateContainer from "../common/RoomCreateContainer.astro";
 const heroText = gamesData["midpoint-master"].heroText;
 ---
 
@@ -15,6 +15,6 @@ const heroText = gamesData["midpoint-master"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <PageFind pageName={"Midpoint Master"} heroText={heroText}/>
-    <MidpointMasterRoomCreate client:only="react"/>
+    <RoomCreateContainer title="Midpoint Master" heroText={heroText} />
   </div>
 </Layout>
