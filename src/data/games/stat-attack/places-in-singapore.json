@@ -1,1052 +1,1052 @@
 [
   {
     "name": "BMTC School 4",
-    "Latitude": 1.402534,
-    "Longitude": 104.0541536,
     "Google Reviews": 21,
-    "Google Rating": 4.0
+    "Google Rating": 4.0,
+    "Latitude": 1.40034,
+    "Longitude": 104.05079
   },
   {
     "name": "Universal Studios Singapore",
-    "Latitude": 1.2541673,
-    "Longitude": 103.8204697,
     "Google Reviews": 97287,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.25397,
+    "Longitude": 103.82384
   },
   {
     "name": "Resorts World Sentosa",
-    "Latitude": 1.2555448,
-    "Longitude": 103.8186002,
     "Google Reviews": 86777,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.25517,
+    "Longitude": 103.82182
   },
   {
     "name": "Raffles Lighthouse",
-    "Latitude": 1.159974,
-    "Longitude": 103.73829,
     "Google Reviews": 88,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Woodlands Checkpoint",
-    "Latitude": 1.447375,
-    "Longitude": 103.7638381,
-    "Google Reviews": 1145,
-    "Google Rating": 3.2
+    "Google Rating": 4.7,
+    "Latitude": 1.15996,
+    "Longitude": 103.74088
   },
   {
     "name": "The Hive",
-    "Latitude": 1.3447708,
-    "Longitude": 103.6808125,
     "Google Reviews": 339,
-    "Google Rating": 4.7
+    "Google Rating": 4.7,
+    "Latitude": 1.34322,
+    "Longitude": 103.68276
   },
   {
     "name": "Khoo Teck Puat Hospital",
-    "Latitude": 1.4241168,
-    "Longitude": 103.833576,
     "Google Reviews": 1010,
-    "Google Rating": 2.7
+    "Google Rating": 2.7,
+    "Latitude": 1.42429,
+    "Longitude": 103.83861
   },
   {
-    "name": "Cloud Forest",
-    "Latitude": 1.2822196,
-    "Longitude": 103.8618771,
-    "Google Reviews": 26106,
-    "Google Rating": 4.8
-  },
-  {
-    "name": "Faber Point",
-    "Latitude": 1.2717503,
-    "Longitude": 103.8166305,
-    "Google Reviews": 183,
-    "Google Rating": 4.7
+    "name": "Woodlands Checkpoint",
+    "Google Reviews": 1145,
+    "Google Rating": 3.2,
+    "Latitude": 1.44586,
+    "Longitude": 103.7687
   },
   {
     "name": "Teck Lee LRT Station",
-    "Latitude": 1.4127696,
-    "Longitude": 103.9039977,
     "Google Reviews": 32,
-    "Google Rating": 3.1
+    "Google Rating": 3.1,
+    "Latitude": 1.41276,
+    "Longitude": 103.90657
   },
   {
-    "name": "Pedra Branca",
-    "Latitude": 1.330277,
-    "Longitude": 104.39,
-    "Google Reviews": 137,
-    "Google Rating": 4.1
+    "name": "Cloud Forest",
+    "Google Reviews": 26106,
+    "Google Rating": 4.8,
+    "Latitude": 1.28385,
+    "Longitude": 103.86602
   },
   {
     "name": "Revenge of the Mummy",
-    "Latitude": 1.2535651,
-    "Longitude": 103.820369,
     "Google Reviews": 156,
-    "Google Rating": 4.7
+    "Google Rating": 4.7,
+    "Latitude": 1.25358,
+    "Longitude": 103.82297
   },
   {
-    "name": "SAF Yacht Club",
-    "Latitude": 1.4670402,
-    "Longitude": 103.8171447,
-    "Google Reviews": 538,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Jewel Changi Airport",
-    "Latitude": 1.3602094,
-    "Longitude": 103.9871849,
-    "Google Reviews": 67645,
-    "Google Rating": 4.8
-  },
-  {
-    "name": "Pasir Laba Bunker",
-    "Latitude": 1.3476683,
-    "Longitude": 103.6384729,
-    "Google Reviews": 2,
-    "Google Rating": 4
-  },
-  {
-    "name": "Marina Bay Sands",
-    "Latitude": 1.2837575,
-    "Longitude": 103.8565316,
-    "Google Reviews": 50463,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Sarimbun Scout Camp",
-    "Latitude": 1.4304921,
-    "Longitude": 103.7040525,
-    "Google Reviews": 325,
-    "Google Rating": 3.6
-  },
-  {
-    "name": "Supertree Grove",
-    "Latitude": 1.281319,
-    "Longitude": 103.8633613,
-    "Google Reviews": 44564,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "NUS The Terrace",
-    "Latitude": 1.2936956,
-    "Longitude": 103.7731441,
-    "Google Reviews": 2,
-    "Google Rating": 2
+    "name": "Pedra Branca",
+    "Google Reviews": 137,
+    "Google Rating": 4.1,
+    "Latitude": 1.33028,
+    "Longitude": 104.40806
   },
   {
     "name": "Sungei Buloh Wetland Reserve",
-    "Latitude": 1.4396406,
-    "Longitude": 103.725084,
     "Google Reviews": 4331,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "SUTD Drop-off",
-    "Latitude": 1.3403183,
-    "Longitude": 103.9606941,
-    "Google Reviews": 22,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Lamp Post #1",
-    "Latitude": 1.241808,
-    "Longitude": 103.612355,
-    "Google Reviews": 779,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "YCK Road Heavy Vehicle Park",
-    "Latitude": 1.3908806,
-    "Longitude": 103.8604569,
-    "Google Reviews": 10,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Rasa Istimewa Waterfront Restaurant",
-    "Latitude": 1.4529103,
-    "Longitude": 103.7773455,
-    "Google Reviews": 1930,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Victoria School",
-    "Latitude": 1.3087386,
-    "Longitude": 103.9256187,
-    "Google Reviews": 146,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Sungei Gedong Camp",
-    "Latitude": 1.4186492,
-    "Longitude": 103.6961095,
-    "Google Reviews": 40,
-    "Google Rating": 3.5
-  },
-  {
-    "name": "NUS School of Computing",
-    "Latitude": 1.294661,
-    "Longitude": 103.772153,
-    "Google Reviews": 82,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Tuas Checkpoint",
-    "Latitude": 1.3424148,
-    "Longitude": 103.6335592,
-    "Google Reviews": 644,
-    "Google Rating": 3.2
+    "Google Rating": 4.6,
+    "Latitude": 1.4464,
+    "Longitude": 103.7234
   },
   {
     "name": "Henderson Waves",
-    "Latitude": 1.2770319,
-    "Longitude": 103.8159162,
     "Google Reviews": 406,
-    "Google Rating": 4.7
+    "Google Rating": 4.7,
+    "Latitude": 1.27602,
+    "Longitude": 103.81551
   },
   {
-    "name": "Semakau Island",
-    "Latitude": 1.2034094,
-    "Longitude": 103.7591493,
-    "Google Reviews": 75,
-    "Google Rating": 4.5
+    "name": "SAF Yacht Club",
+    "Google Reviews": 538,
+    "Google Rating": 4.1,
+    "Latitude": 1.46981,
+    "Longitude": 103.81967
   },
   {
-    "name": "Chemperai Hut",
-    "Latitude": 1.3426242,
-    "Longitude": 103.8211305,
-    "Google Reviews": 3,
-    "Google Rating": 3.3
+    "name": "Jewel Changi Airport",
+    "Google Reviews": 67645,
+    "Google Rating": 4.8,
+    "Latitude": 1.36016,
+    "Longitude": 103.98975
+  },
+  {
+    "name": "Anderson JC Soccer Field",
+    "Google Reviews": 2,
+    "Google Rating": 3.5,
+    "Latitude": 1.37811,
+    "Longitude": 103.84666
+  },
+  {
+    "name": "Pasir Laba Bunker",
+    "Google Reviews": 2,
+    "Google Rating": 4,
+    "Latitude": 1.35104,
+    "Longitude": 103.64506
+  },
+  {
+    "name": "Sungei Gedong Camp",
+    "Google Reviews": 40,
+    "Google Rating": 3.5,
+    "Latitude": 1.41864,
+    "Longitude": 103.6987
+  },
+  {
+    "name": "Sarimbun Scout Camp",
+    "Google Reviews": 325,
+    "Google Rating": 3.6,
+    "Latitude": 1.43735,
+    "Longitude": 103.70104
+  },
+  {
+    "name": "Marina Bay Sands",
+    "Google Reviews": 50463,
+    "Google Rating": 4.7,
+    "Latitude": 1.28375,
+    "Longitude": 103.85912
+  },
+  {
+    "name": "SUTD Drop-off",
+    "Google Reviews": 22,
+    "Google Rating": 4.6,
+    "Latitude": 1.34028,
+    "Longitude": 103.96327
+  },
+  {
+    "name": "Lamp Post #1",
+    "Google Reviews": 779,
+    "Google Rating": 4.4,
+    "Latitude": 1.24179,
+    "Longitude": 103.61493
+  },
+  {
+    "name": "Merlion Park",
+    "Google Reviews": 65756,
+    "Google Rating": 4.6,
+    "Latitude": 1.28677,
+    "Longitude": 103.85441
+  },
+  {
+    "name": "Rasa Istimewa Waterfront Restaurant",
+    "Google Reviews": 1930,
+    "Google Rating": 4.3,
+    "Latitude": 1.45394,
+    "Longitude": 103.77769
+  },
+  {
+    "name": "Supertree Grove",
+    "Google Reviews": 44564,
+    "Google Rating": 4.7,
+    "Latitude": 1.28194,
+    "Longitude": 103.86394
   },
   {
     "name": "Woodlands North MRT Station",
-    "Latitude": 1.4455166,
-    "Longitude": 103.7826525,
     "Google Reviews": 111,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.44786,
+    "Longitude": 103.78542
   },
   {
-    "name": "Singapore Zoo",
-    "Latitude": 1.4002666,
-    "Longitude": 103.7869311,
-    "Google Reviews": 44912,
-    "Google Rating": 4.6
+    "name": "Semakau Island",
+    "Google Reviews": 75,
+    "Google Rating": 4.5,
+    "Latitude": 1.20635,
+    "Longitude": 103.77082
   },
   {
-    "name": "Lazarus Island",
-    "Latitude": 1.222724,
-    "Longitude": 103.84938,
-    "Google Reviews": 198,
-    "Google Rating": 4.6
+    "name": "Tuas Checkpoint",
+    "Google Reviews": 644,
+    "Google Rating": 3.2,
+    "Latitude": 1.34839,
+    "Longitude": 103.63561
   },
   {
-    "name": "Sembawang Park",
-    "Latitude": 1.4585057,
-    "Longitude": 103.8320437,
-    "Google Reviews": 5409,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Yunnan Garden",
-    "Latitude": 1.3430724,
-    "Longitude": 103.682201,
-    "Google Reviews": 526,
-    "Google Rating": 4.6
+    "name": "YCK Road Heavy Vehicle Park",
+    "Google Reviews": 10,
+    "Google Rating": 4.6,
+    "Latitude": 1.39085,
+    "Longitude": 103.86305
   },
   {
     "name": "Changi Exhibition Centre",
-    "Latitude": 1.3600267,
-    "Longitude": 104.022122,
     "Google Reviews": 937,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "Singapore Tanah Merah Port",
-    "Latitude": 1.3137981,
-    "Longitude": 103.9890711,
-    "Google Reviews": 763,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Raffles Marina Lighthouse",
-    "Latitude": 1.34449,
-    "Longitude": 103.6313554,
-    "Google Reviews": 305,
-    "Google Rating": 4.5
+    "Google Rating": 4.2,
+    "Latitude": 1.364,
+    "Longitude": 104.02228
   },
   {
     "name": "NUS S9 Wet Science Building",
-    "Latitude": 1.2958822,
-    "Longitude": 103.7776331,
     "Google Reviews": 5,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.2959,
+    "Longitude": 103.78022
   },
   {
-    "name": "Lau Pa Sat",
-    "Latitude": 1.2805121,
-    "Longitude": 103.847806,
-    "Google Reviews": 28187,
-    "Google Rating": 4.3
+    "name": "Victoria School",
+    "Google Reviews": 146,
+    "Google Rating": 4.7,
+    "Latitude": 1.30872,
+    "Longitude": 103.92819
   },
   {
-    "name": "TheSmartLocal HQ",
-    "Latitude": 1.3194279,
-    "Longitude": 103.8636631,
-    "Google Reviews": 54,
-    "Google Rating": 4.7
+    "name": "Chemperai Hut",
+    "Google Reviews": 3,
+    "Google Rating": 3.3,
+    "Latitude": 1.34262,
+    "Longitude": 103.82373
   },
   {
-    "name": "PCN Coast to Coast CP2",
-    "Latitude": 1.3478768,
-    "Longitude": 103.7583902,
-    "Google Reviews": 4,
-    "Google Rating": 4.5
+    "name": "Lazarus Island",
+    "Google Reviews": 198,
+    "Google Rating": 4.6,
+    "Latitude": 1.22298,
+    "Longitude": 103.85402
   },
   {
-    "name": "Kusu Island",
-    "Latitude": 1.2230965,
-    "Longitude": 103.8579483,
-    "Google Reviews": 491,
-    "Google Rating": 4.5
+    "name": "NUS School of Computing",
+    "Google Reviews": 82,
+    "Google Rating": 4.7,
+    "Latitude": 1.29487,
+    "Longitude": 103.77369
+  },
+  {
+    "name": "Sembawang Park",
+    "Google Reviews": 5409,
+    "Google Rating": 4.4,
+    "Latitude": 1.46167,
+    "Longitude": 103.83691
   },
   {
     "name": "High Commission of Malaysia",
-    "Latitude": 1.2941866,
-    "Longitude": 103.82182,
     "Google Reviews": 1632,
-    "Google Rating": 2.5
+    "Google Rating": 2.5,
+    "Latitude": 1.2942,
+    "Longitude": 103.8249
   },
   {
-    "name": "Woodlands Mart",
-    "Latitude": 1.4436767,
-    "Longitude": 103.7940694,
-    "Google Reviews": 2591,
-    "Google Rating": 4.1
+    "name": "Raffles Marina Lighthouse",
+    "Google Reviews": 305,
+    "Google Rating": 4.5,
+    "Latitude": 1.34448,
+    "Longitude": 103.63393
   },
   {
     "name": "Grab HQ @ One-North",
-    "Latitude": 1.2918178,
-    "Longitude": 103.7904713,
     "Google Reviews": 334,
-    "Google Rating": 2.4
+    "Google Rating": 2.4,
+    "Latitude": 1.29181,
+    "Longitude": 103.79306
   },
   {
-    "name": "The Slide @ T3",
-    "Latitude": 1.3578927,
-    "Longitude": 103.9887319,
-    "Google Reviews": 155,
-    "Google Rating": 4.3
+    "name": "Singapore Zoo",
+    "Google Reviews": 44912,
+    "Google Rating": 4.6,
+    "Latitude": 1.40429,
+    "Longitude": 103.79303
   },
   {
-    "name": "Singapore Navy Museum",
-    "Latitude": 1.3153712,
-    "Longitude": 104.0075488,
-    "Google Reviews": 546,
-    "Google Rating": 4.5
+    "name": "Kusu Island",
+    "Google Reviews": 491,
+    "Google Rating": 4.5,
+    "Latitude": 1.2232,
+    "Longitude": 103.86108
   },
   {
-    "name": "Maxwell Food Centre",
-    "Latitude": 1.2794925,
-    "Longitude": 103.8414601,
-    "Google Reviews": 18769,
-    "Google Rating": 4.3
+    "name": "TheSmartLocal HQ",
+    "Google Reviews": 54,
+    "Google Rating": 4.7,
+    "Latitude": 1.31942,
+    "Longitude": 103.86626
   },
   {
-    "name": "Ketam Quarry",
-    "Latitude": 1.4113023,
-    "Longitude": 103.9470928,
-    "Google Reviews": 39,
-    "Google Rating": 4.53
+    "name": "Faber Point",
+    "Google Reviews": 183,
+    "Google Rating": 4.7,
+    "Latitude": 1.27358,
+    "Longitude": 103.81767
   },
   {
-    "name": "Tuas Link MRT Station",
-    "Latitude": 1.3407108,
-    "Longitude": 103.6362409,
-    "Google Reviews": 267,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Marsiling Park",
-    "Latitude": 1.4358759,
-    "Longitude": 103.7698126,
-    "Google Reviews": 1779,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Singapore Botanic Gardens",
-    "Latitude": 1.3094517,
-    "Longitude": 103.8102,
-    "Google Reviews": 41629,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Canberra MRT Station",
-    "Latitude": 1.4442415,
-    "Longitude": 103.8203857,
-    "Google Reviews": 323,
-    "Google Rating": 4.5
+    "name": "PCN Coast to Coast CP2",
+    "Google Reviews": 4,
+    "Google Rating": 4.5,
+    "Latitude": 1.34786,
+    "Longitude": 103.76097
   },
   {
     "name": "East Coast Park BBQ Pit C12",
-    "Latitude": 1.2980713,
-    "Longitude": 103.9036467,
     "Google Reviews": 26,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Changi Village Hawker Centre",
-    "Latitude": 1.3885294,
-    "Longitude": 103.9851703,
-    "Google Reviews": 13109,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "Singapore Cable Car",
-    "Latitude": 1.2711448,
-    "Longitude": 103.8170243,
-    "Google Reviews": 3757,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Tanjong Beach",
-    "Latitude": 1.2425532,
-    "Longitude": 103.824831,
-    "Google Reviews": 194,
-    "Google Rating": 4.5
+    "Google Rating": 4.6,
+    "Latitude": 1.29806,
+    "Longitude": 103.90623
   },
   {
     "name": "Labrador Park Car Park C",
-    "Latitude": 1.264046,
-    "Longitude": 103.8021668,
     "Google Reviews": 22,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "KF1 Karting Circuit",
-    "Latitude": 1.4230445,
-    "Longitude": 103.7562756,
-    "Google Reviews": 1159,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "SAFTI Military Institute",
-    "Latitude": 1.3318393,
-    "Longitude": 103.6771733,
-    "Google Reviews": 81,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Tan Tock Seng Hospital",
-    "Latitude": 1.3213889,
-    "Longitude": 103.8432584,
-    "Google Reviews": 897,
-    "Google Rating": 3.1
-  },
-  {
-    "name": "Esplanade",
-    "Latitude": 1.2897001,
-    "Longitude": 103.8552531,
-    "Google Reviews": 18625,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "NTU North Spine Plaza",
-    "Latitude": 1.3457941,
-    "Longitude": 103.6782468,
-    "Google Reviews": 1307,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Civil Defence Academy",
-    "Latitude": 1.3710115,
-    "Longitude": 103.6898665,
-    "Google Reviews": 109,
-    "Google Rating": 3.8
-  },
-  {
-    "name": "Kranji War Memorial",
-    "Latitude": 1.414306,
-    "Longitude": 103.7541461,
-    "Google Reviews": 666,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Southernmost Point of Continental Asia",
-    "Latitude": 1.2476364,
-    "Longitude": 103.819821,
-    "Google Reviews": 1408,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "iFly Singapore",
-    "Latitude": 1.2520666,
-    "Longitude": 103.8149975,
-    "Google Reviews": 1788,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "SCDF HQ",
-    "Latitude": 1.3342729,
-    "Longitude": 103.8905381,
-    "Google Reviews": 40,
-    "Google Rating": 3.7
+    "Google Rating": 4.6,
+    "Latitude": 1.26404,
+    "Longitude": 103.80474
   },
   {
     "name": "Chek Jawa Wetlands",
-    "Latitude": 1.4060631,
-    "Longitude": 103.983159,
     "Google Reviews": 1010,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.40872,
+    "Longitude": 103.99103
   },
   {
-    "name": "Orchard MRT Station Exit 13",
-    "Latitude": 1.3030769,
-    "Longitude": 103.8292956,
-    "Google Reviews": 14,
-    "Google Rating": 4.1
+    "name": "Singapore Navy Museum",
+    "Google Reviews": 546,
+    "Google Rating": 4.5,
+    "Latitude": 1.31658,
+    "Longitude": 104.01716
   },
   {
-    "name": "Siloso Beach",
-    "Latitude": 1.2521825,
-    "Longitude": 103.8096448,
-    "Google Reviews": 631,
-    "Google Rating": 4.5
+    "name": "Lau Pa Sat",
+    "Google Reviews": 28187,
+    "Google Rating": 4.3,
+    "Latitude": 1.28058,
+    "Longitude": 103.85041
   },
   {
-    "name": "NTU Hall 15",
-    "Latitude": 1.3542412,
-    "Longitude": 103.682394,
-    "Google Reviews": 54,
-    "Google Rating": 4.2
+    "name": "Ketam Quarry",
+    "Google Reviews": 39,
+    "Google Rating": 4.53,
+    "Latitude": 1.41295,
+    "Longitude": 103.94936
+  },
+  {
+    "name": "Woodlands Mart",
+    "Google Reviews": 2591,
+    "Google Rating": 4.1,
+    "Latitude": 1.44546,
+    "Longitude": 103.79799
+  },
+  {
+    "name": "Singapore Tanah Merah Port",
+    "Google Reviews": 763,
+    "Google Rating": 4.1,
+    "Latitude": 1.31421,
+    "Longitude": 103.98848
+  },
+  {
+    "name": "Marsiling Park",
+    "Google Reviews": 1779,
+    "Google Rating": 4.1,
+    "Latitude": 1.43786,
+    "Longitude": 103.76994
+  },
+  {
+    "name": "Tuas Link MRT Station",
+    "Google Reviews": 267,
+    "Google Rating": 4.4,
+    "Latitude": 1.33975,
+    "Longitude": 103.6367
+  },
+  {
+    "name": "Tanjong Beach",
+    "Google Reviews": 194,
+    "Google Rating": 4.5,
+    "Latitude": 1.24169,
+    "Longitude": 103.82938
+  },
+  {
+    "name": "Changi Village Hawker Centre",
+    "Google Reviews": 13109,
+    "Google Rating": 4.2,
+    "Latitude": 1.38922,
+    "Longitude": 103.98831
+  },
+  {
+    "name": "Yunnan Garden",
+    "Google Reviews": 526,
+    "Google Rating": 4.6,
+    "Latitude": 1.34288,
+    "Longitude": 103.68481
+  },
+  {
+    "name": "Maxwell Food Centre",
+    "Google Reviews": 18769,
+    "Google Rating": 4.3,
+    "Latitude": 1.2803,
+    "Longitude": 103.84477
+  },
+  {
+    "name": "Tan Tock Seng Hospital",
+    "Google Reviews": 897,
+    "Google Rating": 3.1,
+    "Latitude": 1.32136,
+    "Longitude": 103.84583
+  },
+  {
+    "name": "Singapore Botanic Gardens",
+    "Google Reviews": 41629,
+    "Google Rating": 4.7,
+    "Latitude": 1.31383,
+    "Longitude": 103.81591
+  },
+  {
+    "name": "SAFTI Military Institute",
+    "Google Reviews": 81,
+    "Google Rating": 4.1,
+    "Latitude": 1.33367,
+    "Longitude": 103.68034
+  },
+  {
+    "name": "The Slide @ T3",
+    "Google Reviews": 155,
+    "Google Rating": 4.3,
+    "Latitude": 1.35699,
+    "Longitude": 103.98762
   },
   {
     "name": "Hotel 81 Geylang",
-    "Latitude": 1.3117788,
-    "Longitude": 103.8782436,
     "Google Reviews": 541,
-    "Google Rating": 3.5
+    "Google Rating": 3.5,
+    "Latitude": 1.31179,
+    "Longitude": 103.87971
+  },
+  {
+    "name": "KF1 Karting Circuit",
+    "Google Reviews": 1159,
+    "Google Rating": 4.4,
+    "Latitude": 1.42305,
+    "Longitude": 103.75891
+  },
+  {
+    "name": "Canberra MRT Station",
+    "Google Reviews": 323,
+    "Google Rating": 4.5,
+    "Latitude": 1.44348,
+    "Longitude": 103.82944
+  },
+  {
+    "name": "NTU North Spine Plaza",
+    "Google Reviews": 1307,
+    "Google Rating": 4.3,
+    "Latitude": 1.34703,
+    "Longitude": 103.68082
+  },
+  {
+    "name": "Civil Defence Academy",
+    "Google Reviews": 109,
+    "Google Rating": 3.8,
+    "Latitude": 1.36588,
+    "Longitude": 103.6925
+  },
+  {
+    "name": "Southernmost Point of Continental Asia",
+    "Google Reviews": 1408,
+    "Google Rating": 4.4,
+    "Latitude": 1.24796,
+    "Longitude": 103.82127
+  },
+  {
+    "name": "iFly Singapore",
+    "Google Reviews": 1788,
+    "Google Rating": 4.3,
+    "Latitude": 1.25203,
+    "Longitude": 103.81757
+  },
+  {
+    "name": "NTU Hall 15",
+    "Google Reviews": 54,
+    "Google Rating": 4.2,
+    "Latitude": 1.35424,
+    "Longitude": 103.6836
+  },
+  {
+    "name": "Orchard MRT Station Exit 13",
+    "Google Reviews": 14,
+    "Google Rating": 4.1,
+    "Latitude": 1.30248,
+    "Longitude": 103.83244
+  },
+  {
+    "name": "Kranji War Memorial",
+    "Google Reviews": 666,
+    "Google Rating": 4.6,
+    "Latitude": 1.41834,
+    "Longitude": 103.75817
+  },
+  {
+    "name": "Esplanade",
+    "Google Reviews": 18625,
+    "Google Rating": 4.6,
+    "Latitude": 1.28978,
+    "Longitude": 103.85582
   },
   {
     "name": "Ord Bridge",
-    "Latitude": 1.2908657,
-    "Longitude": 103.841429,
     "Google Reviews": 19,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Tampines Mart",
-    "Latitude": 1.3524339,
-    "Longitude": 103.9554055,
-    "Google Reviews": 1526,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Snow City Singapore",
-    "Latitude": 1.3351884,
-    "Longitude": 103.7325944,
-    "Google Reviews": 2002,
-    "Google Rating": 3.5
+    "Google Rating": 4.3,
+    "Latitude": 1.29089,
+    "Longitude": 103.84399
   },
   {
     "name": "Changi Jurassic Mile",
-    "Latitude": 1.3348184,
-    "Longitude": 103.9809304,
     "Google Reviews": 2263,
-    "Google Rating": 4.3
+    "Google Rating": 4.3,
+    "Latitude": 1.33482,
+    "Longitude": 103.98353
+  },
+  {
+    "name": "Tampines Mart",
+    "Google Reviews": 1526,
+    "Google Rating": 4.1,
+    "Latitude": 1.35392,
+    "Longitude": 103.95988
+  },
+  {
+    "name": "SCDF HQ",
+    "Google Reviews": 40,
+    "Google Rating": 3.7,
+    "Latitude": 1.33426,
+    "Longitude": 103.89312
   },
   {
     "name": "Qian Hu Fish Farm",
-    "Latitude": 1.3839272,
-    "Longitude": 103.7233533,
     "Google Reviews": 1545,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "ArtScience Museum",
-    "Latitude": 1.2862738,
-    "Longitude": 103.8572979,
-    "Google Reviews": 14907,
-    "Google Rating": 4.5
+    "Google Rating": 4.2,
+    "Latitude": 1.385,
+    "Longitude": 103.72167
   },
   {
     "name": "Sultan Mosque",
-    "Latitude": 1.3005697,
-    "Longitude": 103.8486481,
     "Google Reviews": 10804,
-    "Google Rating": 4.7
-  },
-  {
-    "name": "Berlayer Creek Boardwalk",
-    "Latitude": 1.2653499,
-    "Longitude": 103.796222,
-    "Google Reviews": 107,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Punggol Plaza",
-    "Latitude": 1.3942801,
-    "Longitude": 103.9103307,
-    "Google Reviews": 3386,
-    "Google Rating": 3.9
-  },
-  {
-    "name": "IKEA Tampines",
-    "Latitude": 1.372538,
-    "Longitude": 103.9301632,
-    "Google Reviews": 18102,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Gan Eng Seng School",
-    "Latitude": 1.2900347,
-    "Longitude": 103.8209368,
-    "Google Reviews": 83,
-    "Google Rating": 3.3
-  },
-  {
-    "name": "National Gallery Singapore",
-    "Latitude": 1.2902217,
-    "Longitude": 103.8489418,
-    "Google Reviews": 14314,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Lot One",
-    "Latitude": 1.3876417,
-    "Longitude": 103.7406753,
-    "Google Reviews": 7524,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Singapore Science Centre",
-    "Latitude": 1.3333543,
-    "Longitude": 103.7331611,
-    "Google Reviews": 6971,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Wild Wild Wet",
-    "Latitude": 1.3780636,
-    "Longitude": 103.9535904,
-    "Google Reviews": 4112,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Ngee Ann City",
-    "Latitude": 1.3025572,
-    "Longitude": 103.8319931,
-    "Google Reviews": 15550,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Plantation Plaza",
-    "Latitude": 1.3566488,
-    "Longitude": 103.7311834,
-    "Google Reviews": 38,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Bishan Loft",
-    "Latitude": 1.3473252,
-    "Longitude": 103.8498585,
-    "Google Reviews": 31,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Singtel Serangoon Hub",
-    "Latitude": 1.3725271,
-    "Longitude": 103.8645758,
-    "Google Reviews": 71,
-    "Google Rating": 3.7
-  },
-  {
-    "name": "Pasir Panjang Terminal 5 Canteen",
-    "Latitude": 1.2639898,
-    "Longitude": 103.7821534,
-    "Google Reviews": 273,
-    "Google Rating": 3.7
-  },
-  {
-    "name": "Yishun Dam",
-    "Latitude": 1.4186685,
-    "Longitude": 103.8602935,
-    "Google Reviews": 942,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Hillion Mall",
-    "Latitude": 1.3785144,
-    "Longitude": 103.7604447,
-    "Google Reviews": 8338,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "Heartland Mall",
-    "Latitude": 1.359469,
-    "Longitude": 103.882554,
-    "Google Reviews": 6108,
-    "Google Rating": 3.9
-  },
-  {
-    "name": "NEWater Visitor Centre",
-    "Latitude": 1.3213462,
-    "Longitude": 103.9512529,
-    "Google Reviews": 635,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "Siemens Centre",
-    "Latitude": 1.3271133,
-    "Longitude": 103.8689505,
-    "Google Reviews": 44,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Lion City Sailors Training Centre",
-    "Latitude": 1.3245654,
-    "Longitude": 103.8803619,
-    "Google Reviews": 51,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Marina Barrage",
-    "Latitude": 1.2818785,
-    "Longitude": 103.8680453,
-    "Google Reviews": 7358,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Fort Siloso",
-    "Latitude": 1.2661423,
-    "Longitude": 103.8074001,
-    "Google Reviews": 1974,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "The Oval",
-    "Latitude": 1.4081975,
-    "Longitude": 103.8665354,
-    "Google Reviews": 180,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Bird Paradise",
-    "Latitude": 1.4071539,
-    "Longitude": 103.7786935,
-    "Google Reviews": 4113,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "Jacob Ballas Children's Garden",
-    "Latitude": 1.3198023,
-    "Longitude": 103.8120388,
-    "Google Reviews": 1758,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Fort Canning Park",
-    "Latitude": 1.2943876,
-    "Longitude": 103.8432284,
-    "Google Reviews": 9804,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "Japanese Garden",
-    "Latitude": 1.3358655,
-    "Longitude": 103.7250603,
-    "Google Reviews": 611,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Road Safety Community Park",
-    "Latitude": 1.298322,
-    "Longitude": 103.9003521,
-    "Google Reviews": 155,
-    "Google Rating": 4.0
+    "Google Rating": 4.7,
+    "Latitude": 1.30225,
+    "Longitude": 103.85902
   },
   {
     "name": "Marina Bay Cruise Centre",
-    "Latitude": 1.2805418,
-    "Longitude": 103.8449021,
     "Google Reviews": 6500,
-    "Google Rating": 4.4
+    "Google Rating": 4.4,
+    "Latitude": 1.26688,
+    "Longitude": 103.85997
+  },
+  {
+    "name": "Gan Eng Seng School",
+    "Google Reviews": 83,
+    "Google Rating": 3.3,
+    "Latitude": 1.29002,
+    "Longitude": 103.82351
+  },
+  {
+    "name": "National Gallery Singapore",
+    "Google Reviews": 14314,
+    "Google Rating": 4.6,
+    "Latitude": 1.29021,
+    "Longitude": 103.85153
+  },
+  {
+    "name": "ArtScience Museum",
+    "Google Reviews": 14907,
+    "Google Rating": 4.5,
+    "Latitude": 1.28623,
+    "Longitude": 103.85924
+  },
+  {
+    "name": "Siloso Beach",
+    "Google Reviews": 631,
+    "Google Rating": 4.5,
+    "Latitude": 1.25462,
+    "Longitude": 103.8113
+  },
+  {
+    "name": "Punggol Plaza",
+    "Google Reviews": 3386,
+    "Google Rating": 3.9,
+    "Latitude": 1.39429,
+    "Longitude": 103.91289
+  },
+  {
+    "name": "Snow City Singapore",
+    "Google Reviews": 2002,
+    "Google Rating": 3.5,
+    "Latitude": 1.33517,
+    "Longitude": 103.73517
+  },
+  {
+    "name": "IKEA Tampines",
+    "Google Reviews": 18102,
+    "Google Rating": 4.4,
+    "Latitude": 1.37416,
+    "Longitude": 103.9323
+  },
+  {
+    "name": "Fort Siloso",
+    "Google Reviews": 1974,
+    "Google Rating": 4.5,
+    "Latitude": 1.25937,
+    "Longitude": 103.80865
+  },
+  {
+    "name": "Singapore Science Centre",
+    "Google Reviews": 6971,
+    "Google Rating": 4.4,
+    "Latitude": 1.33312,
+    "Longitude": 103.73565
+  },
+  {
+    "name": "Yishun Dam",
+    "Google Reviews": 942,
+    "Google Rating": 4.4,
+    "Latitude": 1.42369,
+    "Longitude": 103.86091
+  },
+  {
+    "name": "Singtel Serangoon Hub",
+    "Google Reviews": 71,
+    "Google Rating": 3.7,
+    "Latitude": 1.37249,
+    "Longitude": 103.86716
+  },
+  {
+    "name": "Plantation Plaza",
+    "Google Reviews": 38,
+    "Google Rating": 4.4,
+    "Latitude": 1.35752,
+    "Longitude": 103.73415
+  },
+  {
+    "name": "Bishan Loft",
+    "Google Reviews": 31,
+    "Google Rating": 4.1,
+    "Latitude": 1.3473,
+    "Longitude": 103.8524
+  },
+  {
+    "name": "Berlayer Creek Boardwalk",
+    "Google Reviews": 107,
+    "Google Rating": 4.6,
+    "Latitude": 1.26822,
+    "Longitude": 103.80431
+  },
+  {
+    "name": "Lot One",
+    "Google Reviews": 7524,
+    "Google Rating": 4.1,
+    "Latitude": 1.38513,
+    "Longitude": 103.7449
+  },
+  {
+    "name": "NEWater Visitor Centre",
+    "Google Reviews": 635,
+    "Google Rating": 4.5,
+    "Latitude": 1.32425,
+    "Longitude": 103.95868
+  },
+  {
+    "name": "Ngee Ann City",
+    "Google Reviews": 15550,
+    "Google Rating": 4.4,
+    "Latitude": 1.30255,
+    "Longitude": 103.83459
+  },
+  {
+    "name": "Heartland Mall",
+    "Google Reviews": 6108,
+    "Google Rating": 3.9,
+    "Latitude": 1.35948,
+    "Longitude": 103.88513
+  },
+  {
+    "name": "Wild Wild Wet",
+    "Google Reviews": 4112,
+    "Google Rating": 4.3,
+    "Latitude": 1.37759,
+    "Longitude": 103.95444
+  },
+  {
+    "name": "Hillion Mall",
+    "Google Reviews": 8338,
+    "Google Rating": 4.2,
+    "Latitude": 1.37851,
+    "Longitude": 103.76303
+  },
+  {
+    "name": "Singapore Cable Car",
+    "Google Reviews": 3757,
+    "Google Rating": 4.6,
+    "Latitude": 1.27114,
+    "Longitude": 103.81961
+  },
+  {
+    "name": "Pasir Panjang Terminal 5 Canteen",
+    "Google Reviews": 273,
+    "Google Rating": 3.7,
+    "Latitude": 1.26364,
+    "Longitude": 103.78581
+  },
+  {
+    "name": "Siemens Centre",
+    "Google Reviews": 44,
+    "Google Rating": 4.1,
+    "Latitude": 1.32719,
+    "Longitude": 103.87058
+  },
+  {
+    "name": "Lion City Sailors Training Centre",
+    "Google Reviews": 51,
+    "Google Rating": 4.6,
+    "Latitude": 1.32457,
+    "Longitude": 103.88295
+  },
+  {
+    "name": "Marina Barrage",
+    "Google Reviews": 7358,
+    "Google Rating": 4.6,
+    "Latitude": 1.28066,
+    "Longitude": 103.8711
+  },
+  {
+    "name": "Road Safety Community Park",
+    "Google Reviews": 155,
+    "Google Rating": 4.0,
+    "Latitude": 1.29839,
+    "Longitude": 103.90291
+  },
+  {
+    "name": "Bird Paradise",
+    "Google Reviews": 4113,
+    "Google Rating": 4.5,
+    "Latitude": 1.40715,
+    "Longitude": 103.78128
+  },
+  {
+    "name": "The Oval",
+    "Google Reviews": 180,
+    "Google Rating": 4.4,
+    "Latitude": 1.40798,
+    "Longitude": 103.86782
   },
   {
     "name": "BreadTalk IHQ",
-    "Latitude": 1.3342817,
-    "Longitude": 103.8873113,
     "Google Reviews": 1552,
-    "Google Rating": 4
+    "Google Rating": 4,
+    "Latitude": 1.33429,
+    "Longitude": 103.88989
   },
   {
-    "name": "Upper Peirce Reservoir Park",
-    "Latitude": 1.3586951,
-    "Longitude": 103.8021873,
-    "Google Reviews": 1561,
-    "Google Rating": 4.6
+    "name": "Fort Canning Park",
+    "Google Reviews": 9804,
+    "Google Rating": 4.5,
+    "Latitude": 1.29437,
+    "Longitude": 103.84581
+  },
+  {
+    "name": "Japanese Garden",
+    "Google Reviews": 611,
+    "Google Rating": 4.4,
+    "Latitude": 1.33527,
+    "Longitude": 103.73112
   },
   {
     "name": "Decathlon Bedok",
-    "Latitude": 1.322927,
-    "Longitude": 103.9198192,
     "Google Reviews": 4699,
-    "Google Rating": 4.6
+    "Google Rating": 4.6,
+    "Latitude": 1.32294,
+    "Longitude": 103.92242
+  },
+  {
+    "name": "Upper Peirce Reservoir Park",
+    "Google Reviews": 1561,
+    "Google Rating": 4.6,
+    "Latitude": 1.37312,
+    "Longitude": 103.81191
   },
   {
     "name": "Danish Seamen's Church",
-    "Latitude": 1.2733415,
-    "Longitude": 103.8123375,
     "Google Reviews": 48,
-    "Google Rating": 4.5
+    "Google Rating": 4.5,
+    "Latitude": 1.27331,
+    "Longitude": 103.8149
   },
   {
     "name": "HomeTeamNS Bedok Reservoir",
-    "Latitude": 1.3415331,
-    "Longitude": 103.9165483,
     "Google Reviews": 388,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Funan",
-    "Latitude": 1.2897967,
-    "Longitude": 103.8497504,
-    "Google Reviews": 7344,
-    "Google Rating": 4.4
+    "Google Rating": 4.3,
+    "Latitude": 1.34152,
+    "Longitude": 103.91912
   },
   {
     "name": "Beach Road Prawn Noodle House",
-    "Latitude": 1.3085722,
-    "Longitude": 103.9084725,
     "Google Reviews": 2632,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "Satay by the Bay",
-    "Latitude": 1.2815446,
-    "Longitude": 103.8641034,
-    "Google Reviews": 6044,
-    "Google Rating": 4.1
+    "Google Rating": 4.2,
+    "Latitude": 1.30855,
+    "Longitude": 103.91105
   },
   {
     "name": "Le Quest Shopping Mall",
-    "Latitude": 1.3557406,
-    "Longitude": 103.7383093,
     "Google Reviews": 573,
-    "Google Rating": 4.1
-  },
-  {
-    "name": "Bishan Ang Mo Kio Park",
-    "Latitude": 1.366823,
-    "Longitude": 103.8351014,
-    "Google Reviews": 8445,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "McDonald's West Coast Park",
-    "Latitude": 1.2963004,
-    "Longitude": 103.7564236,
-    "Google Reviews": 5440,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "HortPark",
-    "Latitude": 1.2791307,
-    "Longitude": 103.7972436,
-    "Google Reviews": 3192,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "Bukit Timah Summit",
-    "Latitude": 1.357244,
-    "Longitude": 103.772709,
-    "Google Reviews": 238,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "ALICE@MEDIAPOLIS",
-    "Latitude": 1.2938457,
-    "Longitude": 103.7908503,
-    "Google Reviews": 64,
-    "Google Rating": 3.8
-  },
-  {
-    "name": "Stevens MRT Station",
-    "Latitude": 1.320778,
-    "Longitude": 103.8150737,
-    "Google Reviews": 55,
-    "Google Rating": 3.9
-  },
-  {
-    "name": "Pinnacle@Duxton",
-    "Latitude": 1.2769228,
-    "Longitude": 103.8386211,
-    "Google Reviews": 911,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Anytime Fitness SKH Campus",
-    "Latitude": 1.3963094,
-    "Longitude": 103.8885607,
-    "Google Reviews": 187,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Stephen Riady Centre",
-    "Latitude": 1.301686,
-    "Longitude": 103.7701362,
-    "Google Reviews": 66,
-    "Google Rating": 4.6
+    "Google Rating": 4.1,
+    "Latitude": 1.35573,
+    "Longitude": 103.74091
   },
   {
     "name": "Seletar Rocket Tower",
-    "Latitude": 1.3996567,
-    "Longitude": 103.8065788,
     "Google Reviews": 453,
-    "Google Rating": 4.5
+    "Google Rating": 4.5,
+    "Latitude": 1.4007,
+    "Longitude": 103.80666
+  },
+  {
+    "name": "ALICE@MEDIAPOLIS",
+    "Google Reviews": 64,
+    "Google Rating": 3.8,
+    "Latitude": 1.29382,
+    "Longitude": 103.79344
+  },
+  {
+    "name": "Funan",
+    "Google Reviews": 7344,
+    "Google Rating": 4.4,
+    "Latitude": 1.29125,
+    "Longitude": 103.85019
+  },
+  {
+    "name": "Satay by the Bay",
+    "Google Reviews": 6044,
+    "Google Rating": 4.1,
+    "Latitude": 1.2821,
+    "Longitude": 103.86887
+  },
+  {
+    "name": "Bishan Ang Mo Kio Park",
+    "Google Reviews": 8445,
+    "Google Rating": 4.5,
+    "Latitude": 1.3634,
+    "Longitude": 103.84356
+  },
+  {
+    "name": "HortPark",
+    "Google Reviews": 3192,
+    "Google Rating": 4.5,
+    "Latitude": 1.27912,
+    "Longitude": 103.79984
+  },
+  {
+    "name": "Anytime Fitness SKH Campus",
+    "Google Reviews": 187,
+    "Google Rating": 4.6,
+    "Latitude": 1.39633,
+    "Longitude": 103.89112
+  },
+  {
+    "name": "McDonald's West Coast Park",
+    "Google Reviews": 5440,
+    "Google Rating": 4.3,
+    "Latitude": 1.29752,
+    "Longitude": 103.76337
+  },
+  {
+    "name": "Bukit Timah Summit",
+    "Google Reviews": 238,
+    "Google Rating": 4.6,
+    "Latitude": 1.35464,
+    "Longitude": 103.77645
+  },
+  {
+    "name": "Stevens MRT Station",
+    "Google Reviews": 55,
+    "Google Rating": 3.9,
+    "Latitude": 1.31884,
+    "Longitude": 103.8257
   },
   {
     "name": "Springleaf Prata Place (Springleaf)",
-    "Latitude": 1.3975414,
-    "Longitude": 103.8186531,
     "Google Reviews": 2555,
-    "Google Rating": 4.2
+    "Google Rating": 4.2,
+    "Latitude": 1.397,
+    "Longitude": 103.81885
+  },
+  {
+    "name": "Stephen Riady Centre",
+    "Google Reviews": 66,
+    "Google Rating": 4.6,
+    "Latitude": 1.30451,
+    "Longitude": 103.77207
   },
   {
     "name": "Little Guilin",
-    "Latitude": 1.3526056,
-    "Longitude": 103.7499115,
     "Google Reviews": 1439,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "National Heart Centre Singapore",
-    "Latitude": 1.2785753,
-    "Longitude": 103.8258087,
-    "Google Reviews": 176,
-    "Google Rating": 4.0
+    "Google Rating": 4.4,
+    "Latitude": 1.35575,
+    "Longitude": 103.75412
   },
   {
     "name": "The Seletar Mall",
-    "Latitude": 1.3931376,
-    "Longitude": 103.8746472,
     "Google Reviews": 6458,
-    "Google Rating": 4.2
+    "Google Rating": 4.2,
+    "Latitude": 1.3915,
+    "Longitude": 103.87612
+  },
+  {
+    "name": "Pinnacle@Duxton",
+    "Google Reviews": 911,
+    "Google Rating": 4.4,
+    "Latitude": 1.27694,
+    "Longitude": 103.8412
+  },
+  {
+    "name": "National Heart Centre Singapore",
+    "Google Reviews": 176,
+    "Google Rating": 4.0,
+    "Latitude": 1.27859,
+    "Longitude": 103.8361
   },
   {
     "name": "Pandan Reservoir Park",
-    "Latitude": 1.3179854,
-    "Longitude": 103.7417245,
     "Google Reviews": 154,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "Bukit Brown Cemetery",
-    "Latitude": 1.3361057,
-    "Longitude": 103.82704097,
-    "Google Reviews": 75,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "National Stadium",
-    "Latitude": 1.3032009,
-    "Longitude": 103.8741999,
-    "Google Reviews": 5552,
-    "Google Rating": 4.5
-  },
-  {
-    "name": "Makansutra Gluttons Bay",
-    "Latitude": 1.2894024,
-    "Longitude": 103.8542949,
-    "Google Reviews": 3884,
-    "Google Rating": 4.1
+    "Google Rating": 4.3,
+    "Latitude": 1.31877,
+    "Longitude": 103.74266
   },
   {
     "name": "Reflections at Bukit Chandu",
-    "Latitude": 1.2849862,
-    "Longitude": 103.7874193,
     "Google Reviews": 667,
-    "Google Rating": 4.5
+    "Google Rating": 4.5,
+    "Latitude": 1.27972,
+    "Longitude": 103.79423
+  },
+  {
+    "name": "Bukit Brown Cemetery",
+    "Google Reviews": 75,
+    "Google Rating": 4.5,
+    "Latitude": 1.33608,
+    "Longitude": 103.823
+  },
+  {
+    "name": "Makansutra Gluttons Bay",
+    "Google Reviews": 3884,
+    "Google Rating": 4.1,
+    "Latitude": 1.28938,
+    "Longitude": 103.85687
   },
   {
     "name": "National Library",
-    "Latitude": 1.2975884,
-    "Longitude": 103.8517332,
     "Google Reviews": 1537,
-    "Google Rating": 4.6
-  },
-  {
-    "name": "Hong Lim Park",
-    "Latitude": 1.2853541,
-    "Longitude": 103.8433694,
-    "Google Reviews": 845,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "McDonald's Bishan Park",
-    "Latitude": 1.3608791,
-    "Longitude": 103.8438688,
-    "Google Reviews": 2292,
-    "Google Rating": 4.2
-  },
-  {
-    "name": "Fountain of Wealth",
-    "Latitude": 1.2947425,
-    "Longitude": 103.8563277,
-    "Google Reviews": 3600,
-    "Google Rating": 4.4
-  },
-  {
-    "name": "Food Republic Wisma Atria",
-    "Latitude": 1.3038568,
-    "Longitude": 103.8304809,
-    "Google Reviews": 1434,
-    "Google Rating": 4.1
+    "Google Rating": 4.6,
+    "Latitude": 1.29758,
+    "Longitude": 103.85433
   },
   {
     "name": "UTown Residence",
-    "Latitude": 1.3051716,
-    "Longitude": 103.7740097,
     "Google Reviews": 215,
-    "Google Rating": 4.5
+    "Google Rating": 4.5,
+    "Latitude": 1.30518,
+    "Longitude": 103.77392
+  },
+  {
+    "name": "Fountain of Wealth",
+    "Google Reviews": 3600,
+    "Google Rating": 4.4,
+    "Latitude": 1.29476,
+    "Longitude": 103.8589
+  },
+  {
+    "name": "Hong Lim Park",
+    "Google Reviews": 845,
+    "Google Rating": 4.2,
+    "Latitude": 1.28654,
+    "Longitude": 103.84654
+  },
+  {
+    "name": "Jacob Ballas Children's Garden",
+    "Google Reviews": 1758,
+    "Google Rating": 4.6,
+    "Latitude": 1.32068,
+    "Longitude": 103.81794
+  },
+  {
+    "name": "Food Republic Wisma Atria",
+    "Google Reviews": 1434,
+    "Google Rating": 4.1,
+    "Latitude": 1.30384,
+    "Longitude": 103.83306
+  },
+  {
+    "name": "McDonald's Bishan Park",
+    "Google Reviews": 2292,
+    "Google Rating": 4.2,
+    "Latitude": 1.36089,
+    "Longitude": 103.84644
   },
   {
     "name": "Pororo Park Singapore",
-    "Latitude": 1.2906102,
-    "Longitude": 103.8571115,
     "Google Reviews": 1278,
-    "Google Rating": 4.3
-  },
-  {
-    "name": "TreeTop Walk",
-    "Latitude": 1.3495861,
-    "Longitude": 103.8006207,
-    "Google Reviews": 3322,
-    "Google Rating": 4.6
+    "Google Rating": 4.3,
+    "Latitude": 1.29091,
+    "Longitude": 103.85739
   },
   {
     "name": "SAFRA Toa Payoh",
-    "Latitude": 1.3302722,
-    "Longitude": 103.8520967,
     "Google Reviews": 3332,
-    "Google Rating": 4.3
+    "Google Rating": 4.3,
+    "Latitude": 1.33025,
+    "Longitude": 103.85468
   },
   {
-    "name": "Suntec City Tower 1",
-    "Latitude": 1.2955249,
-    "Longitude": 103.8559203,
+    "name": "TreeTop Walk",
+    "Google Reviews": 3322,
+    "Google Rating": 4.6,
+    "Latitude": 1.36072,
+    "Longitude": 103.81253
+  },
+  {
+    "name": "Suntec Tower 1",
     "Google Reviews": 546,
-    "Google Rating": 4.3
+    "Google Rating": 4.3,
+    "Latitude": 1.29549,
+    "Longitude": 103.8585
   },
   {
     "name": "Dempsey Hill",
-    "Latitude": 1.3066997,
-    "Longitude": 103.80402,
     "Google Reviews": 2180,
-    "Google Rating": 4.5
+    "Google Rating": 4.5,
+    "Latitude": 1.30399,
+    "Longitude": 103.80985
   },
   {
     "name": "Synapxe",
-    "Latitude": 1.3063029,
-    "Longitude": 103.7900805,
     "Google Reviews": 224,
-    "Google Rating": 4.2
+    "Google Rating": 4.2,
+    "Latitude": 1.30629,
+    "Longitude": 103.79267
   }
 ]
