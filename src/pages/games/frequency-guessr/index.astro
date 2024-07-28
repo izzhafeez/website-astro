@@ -4,8 +4,8 @@ import Seo from "../../../components/seo/Seo.astro";
 import seoImg from '/src/img/heroes/FREQUENCY-GUESSR.jpg';
 import gamesData from "../../../data/games/games.json";
 import Layout from "../../../layouts/Layout.astro";
-import FrequencyGuessrRoomCreate from "../../../components/games/frequency-guessr/FrequencyGuessrRoomCreate";
 import PageFind from "../../../components/common/PageFind.astro";
+import RoomCreateContainer from "../common/RoomCreateContainer.astro";
 const heroText = gamesData["frequency-guessr"].heroText;
 ---
 
@@ -15,6 +15,6 @@ const heroText = gamesData["frequency-guessr"].heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <PageFind pageName={"Frequency Guessr"} heroText={heroText}/>
-    <FrequencyGuessrRoomCreate client:only="react"/>
+    <RoomCreateContainer title="Frequency Guessr" heroText={heroText} />
   </div>
 </Layout>
