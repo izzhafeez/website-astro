@@ -4,113 +4,14 @@ import LocationGuessr from "../../../../components/games/location-guessr/Locatio
 import Layout from "../../../../layouts/Layout.astro";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
-
-import mallsData from "../../../../data/games/stat-attack/malls.json";
-import citiesData from "../../../../data/games/stat-attack/cities.json";
-import mrtData from "../../../../data/games/stat-attack/mrt.json";
-import universitiesData from "../../../../data/games/stat-attack/universities.json";
-import schoolData from "../../../../data/games/stat-attack/schools.json";
-import airportsData from "../../../../data/games/stat-attack/airports.json";
-import indoAttractionsData from "../../../../data/games/stat-attack/indo-attractions.json";
-import subzonesData from "../../../../data/games/stat-attack/subzones.json";
-import buildingsData from "../../../../data/games/stat-attack/buildings.json";
-import busStopsData from "../../../../data/games/stat-attack/bus-stops.json";
-import famousPeopleData from "../../../../data/games/stat-attack/famous-people.json";
-import placesInSingaporeData from "../../../../data/games/stat-attack/places-in-singapore.json";
-import unescoData from "../../../../data/games/stat-attack/unesco.json";
+import { getData } from "../../common/decks";
 
 export const prerender = false;
 const { id } = Astro.params;
 const splitPath = Astro.url.pathname.split("/");
 const deckName: string = splitPath[splitPath.length - 2];
 
-let deck;
-switch (deckName) {
-  case "malls":
-    deck = {
-      title: "Malls of Singapore",
-      data: mallsData
-    };
-    break;
-  case "cities":
-    deck = {
-      title: "Cities of the World",
-      data: citiesData
-    }
-    break;
-  case "mrt":
-    deck = {
-      title: "MRT Stations of Singapore",
-      data: mrtData
-    }
-    break;
-  case "universities":
-    deck = {
-      title: "Universities",
-      data: universitiesData
-    };
-    break;
-  case "schools":
-    deck = {
-      title: "Schools in Singapore",
-      data: schoolData
-    };
-    break;
-  case "airports":
-    deck = {
-      title: "Airports of the World",
-      data: airportsData
-    };
-    break;
-  case "indo-attractions":
-    deck = {
-      title: "Indonesian Attractions",
-      data: indoAttractionsData
-    };
-    break;
-  case "subzones":
-    deck = {
-      title: "Subzones of Singapore",
-      data: subzonesData
-    };
-    break;
-  case "buildings":
-    deck = {
-      title: "Buildings of Singapore",
-      data: buildingsData
-    };
-    break;
-  case "bus-stops":
-    deck = {
-      title: "Bus Stops of Singapore",
-      data: busStopsData
-    };
-    break;
-  case "famous-people":
-    deck = {
-      title: "Famous People",
-      data: famousPeopleData
-    };
-    break;
-  case "places-in-singapore":
-    deck = {
-      title: "Places in Singapore",
-      data: placesInSingaporeData
-    };
-    break;
-  case "unesco":
-    deck = {
-      title: "UNESCO World Heritage Sites",
-      data: unescoData
-    };
-    break;
-  default:
-    deck = {
-      title: "",
-      data: []
-    };
-    break;
-}
+let deck = getData(deckName);
 
 const heroText = gamesData["location-guessr"].heroText;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
