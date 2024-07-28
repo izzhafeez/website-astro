@@ -180,7 +180,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
-      {gameStatus !== 'UNJOINED' && <GameTitle title="Data Hedger"/>}
+      {gameStatus !== 'UNJOINED' && <GameTitle title={deck.title}/>}
       {gameStatus === 'JOINED' && <GameStart instructions={instructions} startGame={startGame}/>}
       {gameStatus === 'UNJOINED' && <GameJoin title={deck.title} instructions={instructions} name={name} setName={setName} joinGame={joinGame}/>}
 
