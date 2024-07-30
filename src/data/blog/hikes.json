@@ -259,7 +259,7 @@
     "victims": 5,
     "rating": 4,
     "route": "This walk follows the course of the Circle Line, starting at HarbourFront and ending at Nicoll Highway. I know we're supposed to end at Dhoby Ghaut, but it was already so late at night, that we didn't bother. There's also a break at Bukit Brown, because no way we're gonna go in there.",
-    "experience": "Okay maybe not the most scenic route, but it wasn't bad either. It was mostly for the sense of accomplishment, as we made it quite far along the Circle Line.",
+    "experience": "Okay maybe not the most scenic route, but it wasn't bad either. It was mostly for the sense of accomplishment, as we made it quite far along the Circle Line. The start of the journey was quite mid, mostly seeing the West Coast Highway and the ports and industrial areas. One notable portion was of course the Reflections at Keppel Bay, which are some of the most picturesque houses in Singapore. Once we reached Haw Par Villa, the shortcut to Kent Ridge was rather difficult to find. Indeed, we were deep in the Science Park, taking the direct route to NUS. Lots of stairs, lots of back alleyways, but we made it. Going past Buona Vista and Holland Village, it started to rain quite heavily, which severely impacted our journey. It was just a short rain, yet we made the hasty decision to back track to Buona Vista to have a light lunch. But we didn't end up eating much at Buona Vista, just wasting time. The next few  stations were not super interesting, just passing by landed property and schools at Lorong Chuan and Bartley. We also took a wrong turn at Dakota MRT station, wasting quite a bit of time as well. At the Stadium, there was also an underpass, which required us to walk down and up multiple ramps. Due to our tired legs, this part was torture. The segment between Stadium and Nicoll Highway wasn't to pleasant as well, as it was pretty much darkness by then.",
     "refreshments": "Bought drinks at Vivo, had a break at Star Vista while waiting for the rain to stop, had lunch at Junction 8 (food court on the top floor), bought drinks at Serangoon Bus Interchange, ice cream at Paya Lebar Square, and had dinner at Suntec (Ichikokudo).",
     "tips": "Not for the faint of heart, as it's quite a long walk. But it's quite easy to navigate, as the Circle Line is quite straightforward. Just make sure you have enough water and food to last the whole walk. Don't rest for more than 30 minutes, or else your legs will give up on you. So lunch has to be fast."
   },
@@ -270,7 +270,7 @@
     "victims": 2,
     "rating": 2,
     "route": "The route starts at Yio Chu Kang and goes through AMK Linear Park, then Punggol Park, then Serangoon River, then Defu and finally following the river to Boon Keng. This is part of the Central Urban Loop.",
-    "experience": "This was the hottest day in Singapore's history. So we had to cut it short. The journey was so unpleasantly hot, even with an umbrella on. Punggol Park was nice, very lively with people playing all sorts of things like Devil Sticks, but even at 9am it was already very hot. Moving onto Defu, it was obviously boring, with the main attraction being the numbers on the buildings counting up. The river was also average, and hot obviously.",
+    "experience": "This was the hottest day in Singapore's history. So we had to cut it short. The journey was so unpleasantly hot, even with an umbrella on. Punggol Park was nice, very lively with people playing all sorts of things like Devil Sticks, but even at 9am it was already very hot. Moving onto Defu, it was obviously boring, with the main attraction being the numbers on the buildings counting up. The river was also average, and hot obviously. So overall, I'm not quite sure why NParks considers this a good urban loop to follow. Probably just spend some time in Punggol Park and you should be good to go. No need for the rest of the journey.",
     "refreshments": "We had Subway at BreadTalk HQ at Tai Seng. And we took a train to Woodleigh Mall for it's first weekend of opening.",
     "tips": "IDK maybe don't go on a hot day? Places like Serangoon River legit had no shelter from the sun."
   },
@@ -324,7 +324,7 @@
     "color": "lrt-500",
     "victims": 1,
     "rating": 2,
-    "route": "Visit the malls in Ang Mo Kio, then down to Bishan-Ang Mo Kio Park, then Junction 9, then Thomson Plaza.",
+    "route": "Visit the malls in Ang Mo Kio (Broadway Plaza, Jubilee Square, AMK Hub), then down to Bishan-Ang Mo Kio Park, then Junction 8, then Thomson Plaza.",
     "experience": "I personally think the malls are not bad, but they don't really have much oersonality. Junction 8 is just messy and the exterior is not well-maintained. AMK Hub is much neater, but the inside looks pretty generic to me. Thomson Plaza on the other hand, looks pretty bad on the outside, but the inside is quite nice. Thanks to the MRT there, it was relatively easy to get back.",
     "refreshments": "I ate my lunch with a friend at AMK Hub (food court). Yea... that's it.",
     "tips": "No."
@@ -335,8 +335,8 @@
     "color": "ew-500",
     "victims": 2,
     "rating": 3,
-    "route": "Pretty much a standard route through the Southern Ridges. Starting in Buona Vista, we made our way down to Kent Ridge Park, then Hort Park, Southern Ridges, and ending just before we entered the Mount Faber Park. Then we walked the rest of the way along the West Coast Highway.",
-    "experience": "There were just too many tall buildings around in plain sight to feel like an actual nature place. But the view was still quite nice. The Hort Park was the best part of the journey, with the many different types of plants and flowers. The Southern Ridges was also quite nice, with the Henderson Waves being the highlight. But the walk was quite long, and the sun was quite hot, so it was quite tiring, especially with the mask on.",
+    "route": "Pretty much a standard route through the Southern Ridges. Starting in Buona Vista, we made our way down to Kent Ridge Park, then Hort Park, Southern Ridges, and ending just before we entered the Mount Faber Park. Then we walked the rest of the way along the West Coast Highway until we reached HarbourFront.",
+    "experience": "There were just too many tall buildings around in plain sight to feel like an actual nature place. But the view was still quite nice. The Hort Park was the best part of the journey, with the many different types of plants and flowers. It indeed feels like a place primary school kids would go to. The Southern Ridges was also quite nice, with the Henderson Waves being the highlight. But the walk itself was quite long, and the sun was quite hot, so it was quite tiring, especially with the mask on.",
     "refreshments": "We ate at Pizza Hut at HarbourFront Centre. You can also eat at Vivo, of course.",
     "tips": "Bring water? I guess?"
   },
@@ -369,7 +369,7 @@
     "victims": 2,
     "rating": 5,
     "route": "I disagree with the route NPark provides. Ending at Coney Island? Nah I't not gonna walk back to civilisation from there. And starting at Jurong Lake Gardens without going in? Nah. So I did my own, with a few detours along the way. The route starts at Bukit Batok and West Mall, then go west to Le Quest, then go to Hillview to see HillV2 and Rail Mall, then go down the Rail Corridor to Beauty World, then saw the old railway station near KAP. Walk a bit further to Grandstand Mall, then Adam Food Centre. Go up to Lornie Road and MacRitchie Reservoir, then to BAMK park. AMK Linear Park, Sengkang Riverside Park and finally Northshore.",
-    "experience": "I think this was the most rewarding walk. It was one of my earliest ones, and one of the longest as well. We saw so many different parts of Singapore, different challenges, different views. One notable moment was the AMK Linear Park, which was nearing the end of the journey. As we were entering the park, we ran out of water. And guess what? The water cooler was all the way on the other side of the park. It was a quest to get that water haha.",
+    "experience": "I think this was the most rewarding walk. It was one of my earliest ones, and one of the longest as well. We saw so many different parts of Singapore, different challenges, different views. One notable moment was the AMK Linear Park, which was nearing the end of the journey. As we were entering the park, we ran out of water. And guess what? The water cooler was all the way on the other side of the park. It was a quest to get that water! Other notable portions of the walk was the Rail Corridor, where it started to get cloudy really quickly. As such, we had to quicken the pace to get to Beauty World before the rain came. The final stretch of the journey was also quite memorable, seeing the new Punggol development, including the Northshore Plaza. At this point, our speed was pretty much a tortoise's pace, not more than 4kmph. But we made it at 7pm exactly, and it was a great feeling.",
     "refreshments": "We bought ILT at the Toast Box in the Rail Mall, and a quick 15-minute lunch at Subway at Bukit Timah Plaza. It was raining when we were reaching Botanic Gardens, so we stopped by at Adam Food Centre to have a drink for like an hour. We also had quite a few rest stops at the railway station, a bus stop at Lornie Road, beside the water cooler at AMK Linear Park, and a bus stop in Sumang. Finally having dinner at Northshore Plaza (A&W). Of course, you can always have a meal at AMK, or Thomson.",
     "tips": "Lots of uphill sections, especially near the MacRitchie side. But other than that, the main difficulty was the long walk, and the AMK Linear Park problem I've mentioned earlier. GET WATER AT AMK, DON'T BE LIKE US."
   },
@@ -399,12 +399,12 @@
     "name": "红线梦",
     "date": "27/07/24",
     "color": "ns-500",
-    "victims": 0,
-    "rating": 0,
-    "route": "",
-    "experience": "",
-    "refreshments": "",
-    "tips": ""
+    "victims": 4,
+    "rating": 4,
+    "route": "The route takes us through the Eastern portion of the North South Line, visiting every station starting from Sembawang all the way to Marina South Pier. Since it was a very hot day, however, we stopped at Orchard instead. Close enough. Throughout the walk, we visited many places along the way, including Sun Plaza, Bukit Canberra, HomeTeamNS Khatib, Yishun Stadium, Lower Seletar Reservoir Park, Lentor, BAMK Park (Bubble Playground + McDonald's), Bishan Loft, Toa Payoh Block 107/109, HDB Hub, Balestier Road, Novena Squares, and finally Orchard Road.",
+    "experience": "I was alone for the first hour of the journey from Sembawang to Khatib. Sun Plaza was pretty mid, with the insides looking so white and generic. Afterwards, I managed to visit Bukit Canberra for the first time, and I must say I quite liked it. Very fancy hawker centre and swimming pool, with that hexagonal look. Yishun Stadium was also fine, but it took me a while to find the water cooler (it was inside the sports hall). I've passed by Lower Seletar Reservoir Park a few times now, and each time, I quite liked the view, as is expected from our reservoirs. Due to the construction of the North South Corridor, many parts of the journey were very difficult to navigate. The first would be the long section between Khatib and Yio Chu Kang. This section largely follows alongside the MRT track, one of the few places where it remains on the ground. But further along the track, we were forced to divert into the Lentor estate. With tall barriers on one side and landed property on the other side, there was not much to see other than peoples' houses. The section between Yio Chu Kang and Ang Mo Kio was much better, as we followed the cycling path right underneath the MRT line. It's quite a unique vibe, with multiple exercise stations, and quite a number of people hanging out. After Ang Mo Kio, we headed into the Bishan Ang Mo Kio Park, heading straight for the Bubble Playground (which was featured in the 2023 NDP Song). Took a picture and continued on to the McDonald's followed by Bishan and Junction 8. Due to National Day vibes, there was a huge flag hanging outside of Bishan North Shopping Centre, so that was pretty good and unexpected to see. After lunch at Junction 8, we made the arduous and confusing journey to Toa Payoh, through its industrial estate in the North. No choice, that's the shortest path into Toa Payoh. I'm not sure if you know about this, but there is a housing estate (Blk 107/109) right outside Braddell MRT that often hangs lots of flags, along with a giant banner signifying Singapore's current age. Pretty cool, and I totally forgot about that when I was planning the walk. Western Toa Payoh is full of super tall residential buildings, in contrast with the older, original Toa Payoh HDB blocks. Southern Toa Payoh leans towards the low-tier side, with the only good part being the design of the interchange (it's circular btw). HDB Hub's atrium was fine, but the rest of the mall didn't quite meet expectations. There also used to be a park to the south of Toa Payoh, but due to construction, it was impassable, which meant we had to take a different way into Balestier. At this point, the sun was scorching, so the shophouses in the Balestier area proved to be quite useful as shelter. We also took refuge in the Novena Squares, preparing for the last portion of our journey. In Novena, also due to the construction, it was pretty confusing to navigate, with traffic lights pointing in all directions. But nothing compares to the ultimate failure of Newton's roundabout. So confusing, so difficult to get around. With Novena, I understand, as it's all under construction. But Newton? Haiyaaaa lamentable.",
+    "refreshments": "Bought drinks at Khatib MRT 7-11, refilled water at Yishun Stadium's water cooler, bought ice cream at BAMK McDonald's, ate at Junction 8 Food Junction, refilled water at a VERY SLOW water cooler in Bishan Loft, bought drinks at a random shophouse in Balestier.",
+    "tips": "The North South Corridor construction was a major hindrance, causing the route to be both longer than planned, and less attractive visually. But it's still worth a go, as it's a relatively safe walk with lots of places to buy refreshments and to sit down and eat. Just make sure you have enough water, as the journey is quite long."
   },
   "eastern-malls": {
     "name": "Malls of the Far East",
@@ -413,9 +413,9 @@
     "victims": 1,
     "rating": 2,
     "route": "Start at Tanah Merah, visit Simpang Bedok and East Village, visit Eastpoint Mall, Tampines Mall and friends, then finally to White Sands.",
-    "experience": "I go to these malls quite often, so there was nothing much new to see. The road between Tampines and Pasir Ris was quite long as well, and it was getting quite dark by the time I arrived in Pasir Ris. A bit scary, but okay since there are cars around.",
+    "experience": "I go to these malls quite often, so there was nothing much new to see. The road between Tampines and Pasir Ris was quite long as well, and it was getting quite dark by the time I arrived in Pasir Ris. A bit scary, but okay since there are many cars around.",
     "refreshments": "Had my dinner at Tampines Hub (Subway) with a friend.",
-    "tips": "Maybe don't need to walk to Pasir Ris."
+    "tips": "Maybe don't need to walk to Pasir Ris, as the route has changed quite a bit since then."
   },
   "springleaf": {
     "name": "Sprínglěaf",
@@ -436,7 +436,7 @@
     "rating": 2,
     "route": "Literally my way back to class from the mosque.",
     "experience": "MA2108 lecture at 2pm??",
-    "refreshments": "?",
+    "refreshments": "Wudhu?",
     "tips": "?"
   },
   "the-forgotten-airport": {
