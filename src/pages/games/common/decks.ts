@@ -74,6 +74,7 @@ const deckNames = [
   "bus-stops",
   "bus-services",
   "famous-people",
+  "youtube-videos",
   "places-in-singapore",
   "unesco",
   "colors",

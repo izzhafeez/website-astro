@@ -24,6 +24,11 @@
     "instructions": "Fight using the latitude, longitude, opening year and passenger volume!",
     "tags": ["Geography", "MRT"]
   },
+  "youtube-videos": {
+    "title": "Youtube Videos",
+    "instructions": "Fight using the views, video length, release year and number of subscribers!",
+    "tags": ["Internet", "YouTube"]
+  },
   "subzones": {
     "title": "Subzones of Singapore",
     "instructions": "Fight using the area, population, latitude and longitude!",

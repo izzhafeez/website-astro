@@ -42,6 +42,7 @@ import unescoData from "../../../../data/games/stat-attack/unesco.json";
 import colorsData from "../../../../data/games/stat-attack/colors.json";
 import deathsData from "../../../../data/games/stat-attack/deaths.json";
 import amazonData from "../../../../data/games/stat-attack/amazon.json";
+import youtubeVideosData from "../../../../data/games/stat-attack/youtube-videos.json";
 import gamesData from "../../../../data/games/games.json";
 
 export const prerender = false;
@@ -283,6 +284,12 @@ switch (deckName) {
     deck = {
       title: "Amazon Products",
       data: amazonData
+    }
+    break;
+  case 'youtube-videos':
+    deck = {
+      title: "YouTube Videos",
+      data: youtubeVideosData
     }
     break;
   default:
