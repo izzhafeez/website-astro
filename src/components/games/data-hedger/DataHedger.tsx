@@ -94,6 +94,12 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       }
       setWinningValues(newWinningValues);
 
+      const playerWonAllFields = winners.every((fieldWinner) => fieldWinner.winners.includes(name));
+      if (playerWonAllFields) {
+        var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+        audio.play();
+      }
+
       Swal.fire({
         icon: 'info',
         title: `Winners of each field`,
@@ -154,7 +160,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: 100 });
+    sendJsonMessage({ method: 'start', deck_size: deckData.length });
     setGameStatus('PLAYING')
   }
 
@@ -199,11 +205,11 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       </>}
 
       {/* selected card */}
-      {gameStatus === 'PLAYING' && <>
+      {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: {isHigher ? 'Highest': 'Lowest'} wins!</h3>
       </>}
 
-      {gameStatus === 'PLAYING' && <div className='flex flex-wrap gap-2'>
+      {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <div className='flex flex-wrap gap-2'>
         {options.map((option) => (
           <li key={option} onClick={() => {setSelectedCard(option);}} className={`list-none text-white ${selectedCard === option ? 'bg-ew-500 dark:bg-ew-300 hover:bg-ew-300 dark:hover:bg-ew-500' : 'bg-dt-500 dark:bg-dt-300 hover:bg-dt-300 dark:hover:bg-dt-500'} dark:text-black rounded-md p-2 me-1 cursor-pointer`}>
             <h3 className={`my-auto`}>

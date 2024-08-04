@@ -1,0 +1,21 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import NavBar from '../../../components/common/NavBar.astro';
+import Seo from '../../../components/seo/Seo.astro';
+import gamesData from '../../../data/games/games.json';
+import PageFind from '../../../components/common/PageFind.astro';
+import RoomCreateContainer from '../common/RoomCreateContainer.astro';
+import seoImg from '../../../img/heroes/COLOR-GUESSR.jpg';
+
+const heroText = gamesData["data-hedger"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Number Nightmare"} path={`games/number-nightmare`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={`Number Nightmare`} heroText={heroText}/>
+    <RoomCreateContainer title={"Number Nightmare"} heroText={`${heroText}`} />
+  </div>
+</Layout>

@@ -1,0 +1,22 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import NumberNightmare from "../../../components/games/number-nightmare/NumberNightmare";
+import Layout from "../../../layouts/Layout.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import gamesData from "../../../data/games/games.json";
+import seoImg from "../../../img/heroes/NUMBER-NIGHTMARE.jpg";
+
+export const prerender = false;
+const { id } = Astro.params;
+
+const heroText = gamesData["number-nightmare"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Number Nightmare"} path={`games/number-nightmare/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <NumberNightmare client:only="react" id={id || ""}/>
+  </div>
+</Layout>

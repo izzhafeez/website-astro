@@ -191,10 +191,12 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
       </ul>
       </>}
 
-      {gameStatus === 'PLAYING' && <>
+      {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
         {/* round counter */}
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: Find {locationId && data[locationId].name}</h3>
-
+        </>}
+      
+      {gameStatus === 'PLAYING' && <>
         {/* submit guess */}
         <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
 

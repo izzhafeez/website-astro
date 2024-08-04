@@ -71,6 +71,13 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
+
+      const playerScoredAbove95 = message.players[name].added_score > 95;
+      if (playerScoredAbove95) {
+        var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+        audio.play();
+      }
+
       Swal.fire({
         icon: 'info',
         title: `The value was ${message.value}!`,

@@ -44,6 +44,7 @@ import truthDare from "../../img/logos/truth-or-dare.svg";
 import quipAI from "../../img/logos/quip-ai.svg";
 import frequencyGuessr from "../../img/logos/frequency-guessr.svg";
 import statGuessr from "../../img/logos/stat-guessr.svg";
+import numberNightmare from "../../img/logos/number-nightmare.svg";
 
 export default {
   apps,
@@ -81,4 +82,5 @@ export default {
   "quip-ai": quipAI,
   "frequency-guessr": frequencyGuessr,
   "stat-guessr": statGuessr,
+  "number-nightmare": numberNightmare,
 }

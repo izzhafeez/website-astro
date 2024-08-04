@@ -65,6 +65,13 @@ function FrequencyGuessr({ id }: { id: string }) {
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
+
+      const playerScoredAbove95 = message.players[name].added_score > 95;
+      if (playerScoredAbove95) {
+        var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+        audio.play();
+      }
+
       Swal.fire({
         icon: 'info',
         title: `The frequency was ${frequency}Hz!`,
@@ -219,7 +226,7 @@ function FrequencyGuessr({ id }: { id: string }) {
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The frequency was {frequency}Hz! Players guessed:</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: The frequency was {frequency}Hz! Players guessed:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
