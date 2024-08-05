@@ -16,15 +16,22 @@ type PlayerData = {
   acknowledged: boolean;
 }
 
-// numbers from 1 to 100
+// numbers from 1 to 99
 const convertNumberToEnglish = (num: number) => {
   const ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
   const tens = ['zero', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 
-  if (num === 100) return 'one hundred';
   if (num < 10) return ones[num];
   if (num % 10 === 0) return tens[num / 10];
   return `${tens[Math.floor(num / 10)]} ${ones[num % 10]}`;
+}
+
+const isPrime = (num: number) => {
+  if (num < 2) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
 }
 
 type Condition = {
@@ -33,7 +40,6 @@ type Condition = {
 }
 
 const conditions: Condition[] = [
-  { rep: "Name contains 'd'", condition: (num: number) => convertNumberToEnglish(num).includes('d') },
   { rep: "Name contains 'e'", condition: (num: number) => convertNumberToEnglish(num).includes('e') },
   { rep: "Name contains 'i'", condition: (num: number) => convertNumberToEnglish(num).includes('i') },
   { rep: "Name contains 'o'", condition: (num: number) => convertNumberToEnglish(num).includes('o') },
@@ -43,6 +49,21 @@ const conditions: Condition[] = [
   { rep: "Name contains 'g'", condition: (num: number) => convertNumberToEnglish(num).includes('g') },
   { rep: "Name contains 'h'", condition: (num: number) => convertNumberToEnglish(num).includes('h') },
   { rep: "Name contains 'n'", condition: (num: number) => convertNumberToEnglish(num).includes('n') },
+  { rep: "Name contains 'r'", condition: (num: number) => convertNumberToEnglish(num).includes('r') },
+  { rep: "Name contains 's'", condition: (num: number) => convertNumberToEnglish(num).includes('s') },
+  { rep: "Name contains 't'", condition: (num: number) => convertNumberToEnglish(num).includes('t') },
+  { rep: "Name doesn't contain 'e'", condition: (num: number) => !convertNumberToEnglish(num).includes('e') },
+  { rep: "Name doesn't contain 'i'", condition: (num: number) => !convertNumberToEnglish(num).includes('i') },
+  { rep: "Name doesn't contain 'o'", condition: (num: number) => !convertNumberToEnglish(num).includes('o') },
+  { rep: "Name doesn't contain 'u'", condition: (num: number) => !convertNumberToEnglish(num).includes('u') },
+  { rep: "Name doesn't contain 'y'", condition: (num: number) => !convertNumberToEnglish(num).includes('y') },
+  { rep: "Name doesn't contain 'f'", condition: (num: number) => !convertNumberToEnglish(num).includes('f') },
+  { rep: "Name doesn't contain 'g'", condition: (num: number) => !convertNumberToEnglish(num).includes('g') },
+  { rep: "Name doesn't contain 'h'", condition: (num: number) => !convertNumberToEnglish(num).includes('h') },
+  { rep: "Name doesn't contain 'n'", condition: (num: number) => !convertNumberToEnglish(num).includes('n') },
+  { rep: "Name doesn't contain 'r'", condition: (num: number) => !convertNumberToEnglish(num).includes('r') },
+  { rep: "Name doesn't contain 's'", condition: (num: number) => !convertNumberToEnglish(num).includes('s') },
+  { rep: "Name doesn't contain 't'", condition: (num: number) => !convertNumberToEnglish(num).includes('t') },
   { rep: "Multiple of 2", condition: (num: number) => num % 2 === 0 },
   { rep: "Multiple of 3", condition: (num: number) => num % 3 === 0 },
   { rep: "Multiple of 5", condition: (num: number) => num % 5 === 0 },
@@ -100,15 +121,16 @@ const conditions: Condition[] = [
   { rep: "sin(x) < 0", condition: (num: number) => Math.sin(num) < 0 },
   { rep: "cos(x) < 0", condition: (num: number) => Math.cos(num) < 0 },
   { rep: "tan(x) < 0", condition: (num: number) => Math.tan(num) < 0 },
-  { rep: "Name has 4 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 4 },
-  { rep: "Name has 6 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 6 },
-  { rep: "Name has 8 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 8 },
-  { rep: "Name has 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 10 },
-  { rep: "Name has 12 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 12 },
-  { rep: "Name has 14 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 14 },
-  { rep: "Name has 16 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length === 16 },
-  { rep: "Name has > 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 10 },
+  { rep: "Name has < 6 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 6 },
+  { rep: "Name has < 8 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 8 },
   { rep: "Name has < 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 10 },
+  { rep: "Name has < 12 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 12 },
+  { rep: "Name has < 14 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 14 },
+  { rep: "Name has > 4 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 4 },
+  { rep: "Name has > 6 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 6 },
+  { rep: "Name has > 8 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 8 },
+  { rep: "Name has > 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 10 },
+  { rep: "Name has > 12 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 12 },
   { rep: "Name has repeated letters", condition: (num: number) => {
     const letters = convertNumberToEnglish(num).split(' ').join('');
     return new Set(letters).size !== letters.length;
@@ -116,10 +138,6 @@ const conditions: Condition[] = [
   { rep: "Name has no repeated letters", condition: (num: number) => {
     const letters = convertNumberToEnglish(num).split(' ').join('');
     return new Set(letters).size === letters.length;
-  }},
-  { rep: "Name has 1 vowel", condition: (num: number) => {
-    const letters = convertNumberToEnglish(num).split(' ').join('');
-    return letters.match(/[aeiou]/g)?.length === 1;
   }},
   { rep: "Name has 2 vowels", condition: (num: number) => {
     const letters = convertNumberToEnglish(num).split(' ').join('');
@@ -133,6 +151,38 @@ const conditions: Condition[] = [
     const letters = convertNumberToEnglish(num).split(' ').join('');
     return letters.match(/[aeiou]/g)?.length === 4;
   }},
+  { rep: "Palindrome Number", condition: (num: number) => {
+    if (num < 10) return true;
+    const str = num.toString();
+    if (str[0] === str[1]) return true;
+    return false;
+  }},
+  { rep: "Name starts with vowel", condition: (num: number) => {
+    const letters = convertNumberToEnglish(num).split(' ').join('');
+    return ['a', 'e', 'i', 'o', 'u'].includes(letters[0]);
+  }},
+  { rep: "Name starts with consonant", condition: (num: number) => {
+    const letters = convertNumberToEnglish(num).split(' ').join('');
+    return !['a', 'e', 'i', 'o', 'u'].includes(letters[0]);
+  }},
+  { rep: "Name ends with vowel", condition: (num: number) => {
+    const letters = convertNumberToEnglish(num).split(' ').join('');
+    return ['a', 'e', 'i', 'o', 'u'].includes(letters[letters.length - 1]);
+  }},
+  { rep: "Name ends with consonant", condition: (num: number) => {
+    const letters = convertNumberToEnglish(num).split(' ').join('');
+    return !['a', 'e', 'i', 'o', 'u'].includes(letters[letters.length - 1]);
+  }},
+  { rep: "Tens digit > Ones digit", condition: (num: number) => Math.floor(num / 10) > num % 10 },
+  { rep: "Tens digit < Ones digit", condition: (num: number) => Math.floor(num / 10) < num % 10 },
+  { rep: "Tens digit is even", condition: (num: number) => Math.floor(num / 10) % 2 === 0 },
+  { rep: "Tens digit is odd", condition: (num: number) => Math.floor(num / 10) % 2 !== 0 },
+  { rep: "Ones digit < 5", condition: (num: number) => num % 10 < 5 },
+  { rep: "Ones digit > 5", condition: (num: number) => num % 10 > 5 },
+  { rep: "Ones digit is prime", condition: (num: number) => isPrime(num % 10) },
+  { rep: "Ones digit is not prime", condition: (num: number) => !isPrime(num % 10) },
+  { rep: "Tens digit is prime", condition: (num: number) => isPrime(Math.floor(num / 10)) },
+  { rep: "Tens digit is not prime", condition: (num: number) => !isPrime(Math.floor(num / 10)) },
 ]
 
 function NumberNightmare({ id }: { id: string }) {
@@ -268,12 +318,12 @@ function NumberNightmare({ id }: { id: string }) {
       return;
     }
 
-    // if not between 1 and 100
-    if (parseInt(selectedNumber) < 1 || parseInt(selectedNumber) > 100) {
+    // if not between 1 and 99
+    if (parseInt(selectedNumber) < 1 || parseInt(selectedNumber) > 99) {
       Swal.fire({
         icon: 'error',
         title: 'Invalid number!',
-        text: 'You must select a number between 1 and 100!',
+        text: 'You must select a number between 1 and 99 inclusive!',
       });
       return;
     }
@@ -291,7 +341,7 @@ function NumberNightmare({ id }: { id: string }) {
     lifecycle.showAcknowledgeSwal();
   };
 
-  const howToPlay = `Pick a number from 1 to 100 that will satisfy the most conditions. If you play the same number as someone else, you will lose 3 points!`;
+  const howToPlay = `Pick a number from 1 to 99 that will satisfy the most conditions. If you play the same number as someone else, you will lose 3 points!`;
 
   const names = conditions.map((condition) => condition.rep).map((s: string, index: number) => <span className={options.includes(index) ? 'text-gray-500/30' : ''}>{s} </span>);
   const namesLength = conditions.map((condition) => condition.rep.length).reduce((a: number, b: number) => a + b, 0);
@@ -335,7 +385,7 @@ function NumberNightmare({ id }: { id: string }) {
 
       {/* input box to selectNumber */}
       {gameStatus === 'PLAYING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Select a number between 1 and 100 inclusive:</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Select a number between 1 and 99 inclusive:</h3>
         <input type="number" value={selectedNumber} onChange={(e) => setSelectedNumber(e.target.value)} className="p-2 rounded-md border-[1px] border-dt-500 dark:border-dt-300 bg-white dark:bg-gray-700" />
       </>}
 
