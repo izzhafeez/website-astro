@@ -169,7 +169,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
 
       {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: What's the {fields[fieldId]} of {deckData[itemId].name}?</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: What's the {fields[fieldId]} of {deckData[itemId] ? deckData[itemId].name : ''}?</h3>
 
         {/* input box for frequency */}
         <input
