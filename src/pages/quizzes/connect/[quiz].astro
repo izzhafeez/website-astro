@@ -148,7 +148,7 @@ const instructions = Astro.props.instructions + " Make your guess by selecting f
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 const seoImg = await images[`/src/img/quizzes/connect/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/connect/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Connect Quiz)`} path={`quizzes/connect/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
