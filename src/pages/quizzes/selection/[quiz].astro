@@ -40,7 +40,7 @@ export const prerender = true;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 const seoImg = await images[`/src/img/quizzes/selection/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/selection/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Selection Quiz)`} path={`quizzes/selection/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
