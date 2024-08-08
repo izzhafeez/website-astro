@@ -126,7 +126,7 @@ const instructions = Astro.props.instructions + " Match the pairs of items toget
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 const seoImg = await images[`/src/img/quizzes/match/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={Astro.props.title} path={`quizzes/match/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Match Quiz)`} path={`quizzes/match/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
