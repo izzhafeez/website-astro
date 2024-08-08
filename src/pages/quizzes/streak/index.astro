@@ -31,7 +31,7 @@ const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.streak.heroText;
 const title = quizzesData.streak.title;
 ---
-<Seo {heroText} {seoImg} pageName={title} path="quizzes/streak"/>
+<Seo {heroText} {seoImg} pageName="Streak Quizzes" path="quizzes/streak"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
