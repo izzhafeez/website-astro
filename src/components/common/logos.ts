@@ -29,6 +29,7 @@ import projects from "../../img/logos/projects.svg";
 import skills from "../../img/logos/skills.svg";
 
 // blog
+import modReviews from "../../img/logos/mod-reviews.svg";
 import hikes from "../../img/logos/hikes.svg";
 
 // games
@@ -69,6 +70,7 @@ export default {
   music,
   projects,
   skills,
+  "mod-reviews": modReviews,
   hikes,
   "data-hedger": dataHedger,
   "math-attack": mathAttack,
