@@ -31,7 +31,7 @@ const quizzes = Object.entries(selectionData as QuizJson).map(([key, value]) => 
 const heroText = quizzesData.selection.heroText;
 const title = quizzesData.selection.title;
 ---
-<Seo {heroText} {seoImg} pageName={title} path="quizzes/selection"/>
+<Seo {heroText} {seoImg} pageName="Selection Quizzes" path="quizzes/selection"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
