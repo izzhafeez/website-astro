@@ -31,7 +31,7 @@ const quizzes = Object.entries(binaryData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.binary.heroText;
 const title = quizzesData.binary.title;
 ---
-<Seo {heroText} {seoImg} pageName={title} path={`quizzes/binary`}/>
+<Seo {heroText} {seoImg} pageName={"Binary Quizzes"} path={`quizzes/binary`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
