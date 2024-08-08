@@ -1,0 +1,44 @@
+---
+import Footer from '../../../components/common/Footer.astro';
+import Hero from '../../../components/common/Hero.astro';
+import NavBar from '../../../components/common/NavBar.astro';
+import courseData from '../../../data/blog/mod-reviews.json';
+import Layout from '../../../layouts/Layout.astro';
+import seoImg from '../../../img/heroes/MOD-REVIEWS.jpg';
+import Seo from '../../../components/seo/Seo.astro';
+
+export function getStaticPaths() {
+  return Object.entries(courseData).map(([key, value]) => {
+    return {
+      params: {
+        key
+      },
+      props: {
+        data: value
+      }
+    }
+  })
+}
+
+export const prerender = true;
+const { data } = Astro.props;
+const { key } = Astro.params;
+---
+
+<Seo heroText={data.review} {seoImg} pageName={`${key} Review`} path={`blog/mod-reviews/${key}`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label={key} text={``} site="blog"/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h4 class="text-3xl text-cc-500 font-extrabold">Course Title</h4>
+      <p class="my-4">{data.title}</p>
+      <h4 class="text-3xl text-cc-500 font-extrabold">Review</h4>
+      {data.review.split("\n").map(paragraph => (
+        <p class="my-4">{paragraph}</p>
+      ))}
+    </div>
+    <Footer site="blog"/>
+  </div>
+</Layout>

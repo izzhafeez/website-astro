@@ -1,0 +1,50 @@
+---
+import Footer from '../../../components/common/Footer.astro';
+import Hero from '../../../components/common/Hero.astro';
+import NavBar from '../../../components/common/NavBar.astro';
+import Seo from '../../../components/seo/Seo.astro';
+import blogData from '../../../data/blog/blog.json';
+import seoImg from '../../../img/heroes/MOD-REVIEWS.jpg';
+import Layout from '../../../layouts/Layout.astro';
+import modData from '../../../data/blog/mod-reviews.json';
+import SmallCard from '../../../components/common/SmallCard.astro';
+
+const heroText = blogData["mod-reviews"].heroText;
+
+const getScoreFromGrade = (grade: string) => {
+  if (grade == "A+") return 5;
+  if (grade == "A") return 4;
+  if (grade == "A-") return 3;
+  if (grade == "B+" || grade == "B") return 2;
+  return 1;
+}
+
+const getColorFromGrade = (grade: string) => {
+  if (grade == "A+") return "cr-500";
+  if (grade == "A") return "ew-500";
+  if (grade == "A-") return "cc-500";
+  if (grade == "B+" || grade == "B") return "ns-500";
+  return "black";
+}
+
+const sortedCourses = Object.entries(modData).sort((a, b) => getScoreFromGrade(b[1].grade) - getScoreFromGrade(a[1].grade));
+console.log(sortedCourses.map(([key, value]) => key));
+---
+
+<Seo {heroText} {seoImg} pageName={"Module Reviews"} path={`blog/mod-reviews`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="MODULE REVIEWS" text={heroText} site="blog"/>
+    <section class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {sortedCourses.map(([key, value]) => <SmallCard
+        color={getColorFromGrade(value.grade)}
+        href={`/blog/mod-reviews/${key}`}
+        title={`${key} (${value.grade})`}
+        heroText={`${value.title}`}
+        site="blog"/>)}
+    </section>
+    <Footer site="blog"/>
+  </div>
+</Layout>
