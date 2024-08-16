@@ -1,8 +1,4 @@
 {
-  "背の子": {
-    "title": "背の子",
-    "artist": "Izz Hafeez"
-  },
   "alone-part-ii": {
     "title": "Alone Part II",
     "artist": "Alan Walker",
@@ -56,6 +52,10 @@
     "imgPath": "singapore.svg",
     "link": "https://www.youtube.com/watch?v=u2VLIkH5MdI"
   },
+  "secrets": {
+    "artist": "OneRepublic",
+    "link": "https://youtu.be/3Gs1TLiNC30"
+  },
   "senorita": {
     "title": "Se\u00f1orita",
     "artist": "Shawn Mendes / Camilla Cabello",
@@ -70,6 +70,10 @@
   "so-am-i": {
     "artist": "Ava Max",
     "link": "https://www.youtube.com/watch?v=-Fs_Hoi9qZ4"
+  },
+  "someone-like-you": {
+    "artist": "Adele",
+    "link": "https://youtu.be/l8VJydmjJ4I"
   },
   "speechless": {
     "title": "Speechless",
@@ -96,5 +100,9 @@
   "what-ive-done": {
     "title": "What I've Done",
     "artist": "Linkin Park"
+  },
+  "背の子": {
+    "title": "背の子",
+    "artist": "Izz Hafeez"
   }
 }

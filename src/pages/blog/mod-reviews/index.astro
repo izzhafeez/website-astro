@@ -15,8 +15,9 @@ const getScoreFromGrade = (grade: string) => {
   if (grade == "A+") return 5;
   if (grade == "A") return 4;
   if (grade == "A-") return 3;
-  if (grade == "B+" || grade == "B") return 2;
-  return 1;
+  if (grade == "B+") return 2;
+  if (grade == "B") return 1;
+  return 0;
 }
 
 const getColorFromGrade = (grade: string) => {
@@ -27,20 +28,7 @@ const getColorFromGrade = (grade: string) => {
   return "black";
 }
 
-enum SortKey {
-  GRADE = "GRADE",
-  CODE = "CODE",
-}
-
-let sortKey = SortKey.GRADE;
-
-const toggleSortKey = () => {
-  if (sortKey == SortKey.GRADE) sortKey = SortKey.CODE;
-  else sortKey = SortKey.GRADE;
-}
-
 const sortedCourses = Object.entries(modData).sort((a, b) => getScoreFromGrade(b[1].grade) - getScoreFromGrade(a[1].grade));
-console.log(sortedCourses.map(([key, value]) => key));
 ---
 
 <Seo {heroText} {seoImg} pageName={"Module Reviews"} path={`blog/mod-reviews`}/>
@@ -49,10 +37,7 @@ console.log(sortedCourses.map(([key, value]) => key));
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="MODULE REVIEWS" text={heroText} site="blog"/>
-    <section class="flex justify-center items-center">
-      <button class="bg-ew-500 text-white font-bold py-2 px-4 rounded" onclick={toggleSortKey}>Sort by {sortKey == SortKey.GRADE ? "Code" : "Grade"}</button>
-    </section>
-    <section class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+    <section id="review-container" class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
       {sortedCourses.map(([key, value]) => <SmallCard
         color={getColorFromGrade(value.grade)}
         href={`/blog/mod-reviews/${key}`}
