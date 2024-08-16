@@ -1,23 +1,34 @@
 {
-  "scdf-data-analytics": {
-    "title": "Data Analytics",
-    "organisation": "Singapore Civil Defence Force",
-    "duration": "Feb 2019 - Jan 2021",
-    "overview": "Leveraged an emergency vehicle placement machine learning application to recommend effective placement of 8 fire bases and 35 ambulances over a 13-year period. Led a cross-functional team of 4 in utilising Tableau and TensorFlow to uncover trends in false fire alarm reports. Devised a recommendation engine detecting 43 anomalies in call centre system triaging processes. Executed exploratory data analysis for 12 projects across 6 departments, enabling data-driven decision-making to improve operational efficiency.",
+  "wavescan-software-engineering": {
+    "title": "Software Engineering Intern",
+    "organisation": "WaveScan Technologies",
+    "duration": "May 2024 - Aug 2024",
+    "overview": "Streamlined operations by unifying various robotic control applications into a single platform written in Electron and Svelte. Enabled rapid, actionable insights and improved decision-making by implementing real-time data visualisations using D3 and VTK. Migrated IPv4 routes to IPv6 on the Amazon Web Services (AWS) platform.",
     "related": [
-      "Python",
-      "Pandas",
-      "R",
-      "Tableau",
-      "Data Analytics",
-      "Dynamic Resource Optimiser"
+      "Svelte",
+      "Electron",
+      "TypeScript",
+      "AWS"
+    ]
+  },
+  "qi-software-engineering": {
+    "title": "Software Engineering Intern",
+    "organisation": "Quantum Inventions",
+    "duration": "May 2023 - Aug 2023",
+    "overview": "Enhanced client acquisition by developing an API showcase platform developed in React and Rails. Improved the visual experience for users by implementing an interactive OpenLayers map for demonstrating API outputs.",
+    "related": [
+      "React",
+      "Ruby",
+      "Ruby on Rails",
+      "Software Testing",
+      "Web Development"
     ]
   },
   "mom-data-management": {
     "title": "Data Management",
     "organisation": "Ministry of Manpower",
     "duration": "Feb 2021 - Jul 2021",
-    "overview": "Developed data architecture models, PostgreSQL data pipelines and Power BI dashboards to enable manpower analysis. Published an organisation-wide SharePoint portal to effectively communicate data governance policies.",
+    "overview": "Promoted good data governance practices to 2400+ employees by translating technical documents into accessible language for a non-technical audience. Facilitated analysis of foreign worker dormitory data by developing PowerBI dashboards, ERStudio data models, and ETL scripts on Oracle. Achieved 82% speed-up in monthly reporting of user accounts data by implementing scripts and functions in Excel.",
     "related": [
       "SQL",
       "ER Studio",
@@ -26,17 +37,18 @@
       "Data Visualisation"
     ]
   },
-  "qi-software-engineering": {
-    "title": "Software Engineering Intern",
-    "organisation": "Quantum Inventions",
-    "duration": "May 2023 - Aug 2023",
-    "overview": "Designed and built a web application using React and Ruby on Rails to feature company optimisation models, using Postman and Selenium to create comprehensive test suites. Created and deployed a tailored map solution with OpenLayers and React to effectively communicate model outputs, enhancing the interactive experience for potential clients.",
+  "scdf-data-analytics": {
+    "title": "Data Analytics",
+    "organisation": "Singapore Civil Defence Force",
+    "duration": "Feb 2019 - Jan 2021",
+    "overview": "Shortened Singapore’s emergency response times during COVID by enhancing and leveraging a resource optimisation application written in Flask. Achieved 88% speed-up and 96% reduction in Google API costs by implementing location-caching strategies using Python. Future-proofed Singapore’s emergency response times by projecting 13-year performance and proposing future placement of fire bases and appliances. Improved ease of maintenance of 7 data cleaning scripts by migrating them from R to Python. Facilitated auditing and analysis of call centre data by designing a recommendation engine in Python that identified 43 anomalies. Investigated the root causes of false fire alarms by working in a team of 4 to analyse and visualise data using Tableau. Ensured continuity of work output by training and mentoring 4 juniors in data science projects.",
     "related": [
-      "React",
-      "Ruby",
-      "Ruby on Rails",
-      "Software Testing",
-      "Web Development"
+      "Python",
+      "Pandas",
+      "R",
+      "Tableau",
+      "Data Analytics",
+      "Dynamic Resource Optimiser"
     ]
   },
   "vrmc-robotics": {
