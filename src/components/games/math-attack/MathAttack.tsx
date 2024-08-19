@@ -238,6 +238,12 @@ enum GameResponses {
   LOSE = 'LOSE',
 }
 
+type HistoryState = {
+  player: string;
+  card_id: number;
+  number: number;
+}
+
 function MathAttack({ id }: { id: string }) {
   const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/math-attack/`;
   const [hand, setHand] = React.useState([] as number[]);
@@ -249,6 +255,7 @@ function MathAttack({ id }: { id: string }) {
   const [name, setName] = React.useState('');
   const [number, setNumber] = React.useState(0);
   const [lastPlayed, setLastPlayed] = React.useState(-1);
+  const [history, setHistory] = React.useState([] as HistoryState[]);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL+id, {
     onOpen: () => {
@@ -351,6 +358,7 @@ function MathAttack({ id }: { id: string }) {
     if (message.player) setCurrentPlayer(_ => message.player);
     if (message.last_played) setLastPlayed(_ => message.last_played);
     if (message.players && message.players[name]) setPlayerState(_ => message.players[name]);
+    if (message.history) setHistory(_ => message.history);
     const method = message.method;
 
     if (method === GameResponses.CONNECT) {
@@ -510,6 +518,15 @@ function MathAttack({ id }: { id: string }) {
           </div>)}
         </div>}
       {playerState === PlayerStates.TURN && <button onClick={() => playCard()} className="px-2 py-1 rounded-md bg-ew-mrt my-2">Play Card</button>}
+
+      {/* History */}
+      {history.length > 0 && playerState !== PlayerStates.UNJOINED && <>
+      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2 mt-4">History</h3>
+      <ul className="mb-8">
+        {history.map(({player, card_id, number}, i) => (
+          <li key={i}>{player} played {allCards[card_id].rep} to get {number}</li>
+        ))}
+      </ul></>}
     </div>
   );
 };
