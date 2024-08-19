@@ -27,7 +27,7 @@ type Logos = {
   <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold text-gray-500 dark:text-gray-300`}>{capitalise(id)}</h3>
   <ul class="space-y-2 font-medium h-auto mb-20">
     <li>
-      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-apps" data-collapse-toggle="dropdown-apps">
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-ew-500" aria-controls="dropdown-apps" data-collapse-toggle="dropdown-apps">
         <img src={logos['apps'].src} alt="Apps" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Apps</span>
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -36,7 +36,7 @@ type Logos = {
       </button>
       <ul id="dropdown-apps" class="hidden pt-2 space-y-2">
         {Object.entries(appsData).map(([key, value]) => (<li>
-          <a href={`/apps/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+          <a href={`/apps/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-ew-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>
@@ -44,7 +44,7 @@ type Logos = {
       </ul>
     </li>
     <li>
-      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-quizzes" data-collapse-toggle="dropdown-quizzes">
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-ns-500" aria-controls="dropdown-quizzes" data-collapse-toggle="dropdown-quizzes">
         <img src={logos['quizzes'].src} alt="Quizzes" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Quizzes</span>
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -53,7 +53,7 @@ type Logos = {
       </button>
       <ul id="dropdown-quizzes" class="hidden pt-2 space-y-2">
         {Object.entries(quizzesData).map(([key, value]) => (<li>
-          <a href={`/quizzes/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+          <a href={`/quizzes/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-ns-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>
@@ -61,7 +61,7 @@ type Logos = {
       </ul>
     </li>
     <li>
-      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-portfolio" data-collapse-toggle="dropdown-portfolio">
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-ne-500" aria-controls="dropdown-portfolio" data-collapse-toggle="dropdown-portfolio">
         <img src={logos['portfolio'].src} alt="Portfolio" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Portfolio</span>
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -70,7 +70,7 @@ type Logos = {
       </button>
       <ul id="dropdown-portfolio" class="hidden pt-2 space-y-2">
         {Object.entries(portfolioData).map(([key, value]) => (<li>
-          <a href={`/portfolio/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+          <a href={`/portfolio/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-ne-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>
@@ -78,7 +78,7 @@ type Logos = {
       </ul>
     </li>
     <li>
-      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-blog" data-collapse-toggle="dropdown-blog">
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-cc-500" aria-controls="dropdown-blog" data-collapse-toggle="dropdown-blog">
         <img src={logos['blog'].src} alt="Portfolio" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Blog</span>
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -87,7 +87,7 @@ type Logos = {
       </button>
       <ul id="dropdown-blog" class="hidden pt-2 space-y-2">
         {Object.entries(blogData).map(([key, value]) => (<li>
-          <a href={`/blog/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+          <a href={`/blog/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-cc-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>
@@ -95,7 +95,7 @@ type Logos = {
       </ul>
     </li>
     <li>
-      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-games" data-collapse-toggle="dropdown-games">
+      <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-dt-500" aria-controls="dropdown-games" data-collapse-toggle="dropdown-games">
         <img src={logos['games'].src} alt="Games" class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100" />
         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Games</span>
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -104,7 +104,7 @@ type Logos = {
       </button>
       <ul id="dropdown-games" class="hidden pt-2 space-y-2">
         {Object.entries(gamesData).map(([key, value]) => (<li>
-          <a href={`/games/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+          <a href={`/games/${key}`} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-dt-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>
