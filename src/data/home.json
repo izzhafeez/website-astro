@@ -1,22 +1,22 @@
 {
   "apps": {
     "title": "Apps",
-    "heroText": "Here are some of the apps I've created over the years. Hope you enjoy them!"
+    "heroText": "Check out the apps I've built over the years with Vue. Hope you enjoy exploring them!"
   },
   "portfolio": {
     "title": "Portfolio",
-    "heroText": "Check out some of the things I've made and the experiences I've gained over the years!"
+    "heroText": "Explore the creations I've built and the experiences I've gained over the years!"
   },
   "quizzes": {
     "title": "Quizzes",
-    "heroText": "Hope you enjoy the Quizzes that I've created for you!"
+    "heroText": "Enjoy the Quizzes and single-player activities I've crafted with Svelte!"
   },
   "blog": {
     "title": "Blog",
-    "heroText": "Welcome to my blog, where I share some of my experiences and thoughts on various topics."
+    "heroText": "Welcome to my blog, where I dive into my experiences and share insights on a range of topics."
   },
   "games": {
     "title": "Games",
-    "heroText": "Come and play some of my games with your friends!"
+    "heroText": "Challenge your friends to online multiplayer games I've built with React. Let's play!"
   }
 }
