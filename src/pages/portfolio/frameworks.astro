@@ -1,0 +1,62 @@
+---
+import Hero from "../../components/common/Hero.astro";
+import NavBar from "../../components/common/NavBar.astro";
+import Seo from "../../components/seo/Seo.astro";
+import Layout from "../../layouts/Layout.astro";
+import seoImg from "../../img/heroes/SKILLS.jpg";
+import frameworksData from "../../data/portfolio/frameworks.json";
+import Footer from "../../components/common/Footer.astro";
+import { toName } from "../../utils/string";
+import FrameworkPreview from "../../components/portfolio/FrameworkPreview.astro";
+import portfolioData from "../../data/portfolio/portfolio.json";
+
+interface FrameworkData {
+  title?: string,
+  lines?: number
+  description?: string
+}
+
+type FrameworkJson = {[key: string]: FrameworkData};
+
+const frameworks = Object.entries(frameworksData as FrameworkJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    lines: value.lines || 0,
+    description: value.description || ""
+  };
+}).sort((a,b) => -a.lines + b.lines);
+
+const heroText = portfolioData.frameworks.heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Frameworks"} path="portfolio/frameworks"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="FRAMEWORKS" text={heroText} site="portfolio"/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 10000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {frameworks.filter(framework => framework.lines == 10000).map(framework => <FrameworkPreview framework={framework}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 5000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {frameworks.filter(framework => framework.lines == 5000).map(framework => <FrameworkPreview framework={framework}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 2000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {frameworks.filter(framework => framework.lines == 2000).map(framework => <FrameworkPreview framework={framework}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 1000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {frameworks.filter(framework => framework.lines == 1000).map(framework => <FrameworkPreview framework={framework}/>)}
+      </section>
+    </div>
+    <Footer site="portfolio"/>
+  </div>
+</Layout>
