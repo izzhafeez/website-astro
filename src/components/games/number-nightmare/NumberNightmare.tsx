@@ -19,11 +19,28 @@ type PlayerData = {
 // numbers from 1 to 99
 const convertNumberToEnglish = (num: number) => {
   const ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+  const teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
   const tens = ['zero', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 
   if (num < 10) return ones[num];
+  if (num < 20) return teens[num - 10];
   if (num % 10 === 0) return tens[num / 10];
   return `${tens[Math.floor(num / 10)]} ${ones[num % 10]}`;
+}
+
+const convertNumberToStrokes = (num: number) => {
+  const numOfStrokes = [0, 1, 2, 3, 5, 4, 4, 2, 2, 2];
+  if (num < 10) return numOfStrokes[num];
+  if (num === 10) return 2;
+  if (num % 10 === 0) return numOfStrokes[num / 10] + 2;
+  return numOfStrokes[Math.floor(num / 10)] + numOfStrokes[num % 10] + 2;
+}
+
+const getRadicals = (num: number) => {
+  const radicals = ["", "一", "二", "一", "囗", "二", "八", "一", "八", "丿"];
+  if (num < 10) return [radicals[num]];
+  if (num % 10 === 0) return [radicals[num / 10], "十"];
+  return [radicals[Math.floor(num / 10)], radicals[num % 10], "十"];
 }
 
 const isPrime = (num: number) => {
@@ -107,13 +124,8 @@ const conditions: Condition[] = [
     return false;
   }},
   { rep: "Fibonacci Number", condition: (num: number) => {
-    let a = 0, b = 1;
-    while (b < num) {
-      let temp = b;
-      b = a + b;
-      a = temp;
-    }
-    return b === num;
+    const listOfFibonacciUnder99 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+    return listOfFibonacciUnder99.includes(num);
   }},
   { rep: "sin(x) > 0", condition: (num: number) => Math.sin(num) > 0 },
   { rep: "cos(x) > 0", condition: (num: number) => Math.cos(num) > 0 },
@@ -125,12 +137,10 @@ const conditions: Condition[] = [
   { rep: "Name has < 8 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 8 },
   { rep: "Name has < 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 10 },
   { rep: "Name has < 12 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 12 },
-  { rep: "Name has < 14 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length < 14 },
   { rep: "Name has > 4 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 4 },
   { rep: "Name has > 6 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 6 },
   { rep: "Name has > 8 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 8 },
   { rep: "Name has > 10 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 10 },
-  { rep: "Name has > 12 letters", condition: (num: number) => convertNumberToEnglish(num).split(' ').join('').length > 12 },
   { rep: "Name has repeated letters", condition: (num: number) => {
     const letters = convertNumberToEnglish(num).split(' ').join('');
     return new Set(letters).size !== letters.length;
@@ -183,6 +193,17 @@ const conditions: Condition[] = [
   { rep: "Ones digit is not prime", condition: (num: number) => !isPrime(num % 10) },
   { rep: "Tens digit is prime", condition: (num: number) => isPrime(Math.floor(num / 10)) },
   { rep: "Tens digit is not prime", condition: (num: number) => !isPrime(Math.floor(num / 10)) },
+  { rep: "Chinese name has < 3 strokes", condition: (num: number) => convertNumberToStrokes(num) < 3 },
+  { rep: "Chinese name has < 5 strokes", condition: (num: number) => convertNumberToStrokes(num) < 5 },
+  { rep: "Chinese name has < 7 strokes", condition: (num: number) => convertNumberToStrokes(num) < 7 },
+  { rep: "Chinese name has < 9 strokes", condition: (num: number) => convertNumberToStrokes(num) < 9 },
+  { rep: "Chinese name has > 3 strokes", condition: (num: number) => convertNumberToStrokes(num) > 3 },
+  { rep: "Chinese name has > 5 strokes", condition: (num: number) => convertNumberToStrokes(num) > 5 },
+  { rep: "Chinese name has > 7 strokes", condition: (num: number) => convertNumberToStrokes(num) > 7 },
+  { rep: "Chinese name has > 9 strokes", condition: (num: number) => convertNumberToStrokes(num) > 9 },
+  { rep: "Chinese name contains '一' radical", condition: (num: number) => getRadicals(num).includes("一") },
+  { rep: "Chinese name contains '二' radical", condition: (num: number) => getRadicals(num).includes("二") },
+  { rep: "Chinese name contains '八' radical", condition: (num: number) => getRadicals(num).includes("八") },
 ]
 
 function NumberNightmare({ id }: { id: string }) {
