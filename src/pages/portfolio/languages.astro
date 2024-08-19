@@ -1,0 +1,62 @@
+---
+import Hero from "../../components/common/Hero.astro";
+import NavBar from "../../components/common/NavBar.astro";
+import Seo from "../../components/seo/Seo.astro";
+import Layout from "../../layouts/Layout.astro";
+import seoImg from "../../img/heroes/SKILLS.jpg";
+import languagesData from "../../data/portfolio/languages.json";
+import Footer from "../../components/common/Footer.astro";
+import { toName } from "../../utils/string";
+import LanguagePreview from "../../components/portfolio/LanguagePreview.astro";
+import portfolioData from "../../data/portfolio/portfolio.json";
+
+interface LanguageData {
+  title?: string,
+  level?: number
+  description?: string
+}
+
+type LanguageJson = {[key: string]: LanguageData};
+
+const languages = Object.entries(languagesData as LanguageJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    level: value.level || 0,
+    description: value.description || ""
+  };
+}).sort((a,b) => -a.level + b.level);
+
+const heroText = portfolioData.languages.heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Skills"} path="portfolio/skills"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="LANGUAGES" text={heroText} site="portfolio"/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Business-Level</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {languages.filter(language => language.level == 4).map(language => <LanguagePreview language={language}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Interview-Level</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {languages.filter(language => language.level == 3).map(language => <LanguagePreview language={language}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Conversational-Level</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {languages.filter(language => language.level == 2).map(language => <LanguagePreview language={language}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Survival-Level</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {languages.filter(language => language.level == 1).map(language => <LanguagePreview language={language}/>)}
+      </section>
+    </div>
+    <Footer site="portfolio"/>
+  </div>
+</Layout>
