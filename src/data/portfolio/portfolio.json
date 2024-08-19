@@ -3,13 +3,25 @@
     "title": "Artwork",
     "heroText": "Check out some of the art I've created using Desmos!"
   },
+  "coding": {
+    "title": "Coding Languages",
+    "heroText": "Here are some of the coding languages I've picked up over the years."
+  },
   "courses": {
     "title": "Courses",
     "heroText": "Here are some of the courses I've taken in NUS, on Coursera, and more."
   },
+  "frameworks": {
+    "title": "Frameworks",
+    "heroText": "Here are some of the web frameworks I've used in my projects, sorted by how many lines of code I've written in them."
+  },
   "experience": {
     "title": "Experience",
     "heroText": "Here are some of the invaluable experiences I've gained through internships, work and beyond."
+  },
+  "languages": {
+    "title": "Languages",
+    "heroText": "My language-learning journey has been a long one. Here are some of the highlights."
   },
   "music": {
     "title": "Music",
@@ -21,6 +33,10 @@
   },
   "skills": {
     "title": "Skills",
-    "heroText": "Here are some of my more important languages and technologies that I've picked up over the years"
+    "heroText": "Here are some of my more important technical skills I have acquired, falling under various categories"
+  },
+  "technologies": {
+    "title": "Technologies",
+    "heroText": "Over my years of coding, I've picked up quite a few technologies. Here are some of the more important ones."
   }
 }
