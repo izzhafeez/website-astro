@@ -27,6 +27,10 @@ import experience from "../../img/logos/experience.svg";
 import music from "../../img/logos/music.svg";
 import projects from "../../img/logos/projects.svg";
 import skills from "../../img/logos/skills.svg";
+import frameworks from "../../img/logos/frameworks.svg";
+import languages from "../../img/logos/languages.svg";
+import technologies from "../../img/logos/technologies.svg";
+import coding from "../../img/logos/coding.svg";
 
 // blog
 import modReviews from "../../img/logos/mod-reviews.svg";
@@ -70,6 +74,10 @@ export default {
   music,
   projects,
   skills,
+  frameworks,
+  languages,
+  technologies,
+  coding,
   "mod-reviews": modReviews,
   hikes,
   "data-hedger": dataHedger,
