@@ -1,0 +1,62 @@
+---
+import Hero from "../../components/common/Hero.astro";
+import NavBar from "../../components/common/NavBar.astro";
+import Seo from "../../components/seo/Seo.astro";
+import Layout from "../../layouts/Layout.astro";
+import seoImg from "../../img/heroes/SKILLS.jpg";
+import technologiesData from "../../data/portfolio/technologies.json";
+import Footer from "../../components/common/Footer.astro";
+import { toName } from "../../utils/string";
+import TechnologyPreview from "../../components/portfolio/TechnologyPreview.astro";
+import portfolioData from "../../data/portfolio/portfolio.json";
+
+interface TechnologyData {
+  title?: string,
+  level?: number
+  description?: string
+}
+
+type TechnologyJson = {[key: string]: TechnologyData};
+
+const technologys = Object.entries(technologiesData as TechnologyJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    level: value.level || 0,
+    description: value.description || ""
+  };
+}).sort((a,b) => -a.level + b.level);
+
+const heroText = portfolioData.technologies.heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"technology"} path="portfolio/technology"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="TECHNOLOGIES" text={heroText} site="portfolio"/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Use in every project</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {technologys.filter(technology => technology.level == 4).map(technology => <TechnologyPreview technology={technology}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Use in every other project</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {technologys.filter(technology => technology.level == 3).map(technology => <TechnologyPreview technology={technology}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Used regularly in the past</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {technologys.filter(technology => technology.level == 2).map(technology => <TechnologyPreview technology={technology}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">Used it to accomplish something</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {technologys.filter(technology => technology.level == 1).map(technology => <TechnologyPreview technology={technology}/>)}
+      </section>
+    </div>
+    <Footer site="portfolio"/>
+  </div>
+</Layout>
