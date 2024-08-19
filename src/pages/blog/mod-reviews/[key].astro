@@ -32,9 +32,13 @@ const { key } = Astro.params;
     <NavBar/>
     <Hero label={key} text={``} site="blog"/>
     <div class="mx-auto max-w-6xl mt-10 p-2">
-      <h4 class="text-3xl text-cc-500 font-extrabold">Course Title</h4>
+      <h2 class="text-3xl text-cc-500 font-extrabold">Course Title</h2>
       <p class="my-4">{data.title}</p>
-      <h4 class="text-3xl text-cc-500 font-extrabold">Review</h4>
+      <h2 class="text-3xl text-cc-500 font-extrabold">Grade</h2>
+      <p class="my-4">{data.grade}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">Semester</h2>
+      <p class="my-4">{data.semester}</p>
+      <h2 class="text-3xl text-cc-500 font-extrabold">Review</h2>
       {data.review.split("\n").map(paragraph => (
         <p class="my-4">{paragraph}</p>
       ))}
