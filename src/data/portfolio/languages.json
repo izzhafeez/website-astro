@@ -1,0 +1,42 @@
+{
+  "english": {
+    "level": 4,
+    "description": "Spoken everyday"
+  },
+  "malay": {
+    "level": 4,
+    "description": "Spoken almost everyday"
+  },
+  "chinese": {
+    "level": 3,
+    "description": "Daily 早报 readings, weekly spoken practice, scored 157/300 for HSK 6"
+  },
+  "japanese": {
+    "level": 3,
+    "description": "Watches anime without subtitles, scored 87/180 for JLPT N3"
+  },
+  "spanish": {
+    "level": 2,
+    "description": "Weekly El Pais readings, completed exercise books at the B2 level, completed Duolingo course"
+  },
+  "french": {
+    "level": 2,
+    "description": "Weekly Le Monde readings, completed exercise books at the B2 level, completed Duolingo course"
+  },
+  "korean": {
+    "level": 1,
+    "description": "Occasional Naver readings, attended beginner course"
+  },
+  "italian": {
+    "level": 1,
+    "description": "Induced knowledge from French and Spanish"
+  },
+  "arabic": {
+    "level": 1,
+    "description": "Finished reading the Quran, attended beginner course"
+  },
+  "german": {
+    "level": 1,
+    "description": "Occasional article readings, made progress on Duolingo"
+  }
+}
