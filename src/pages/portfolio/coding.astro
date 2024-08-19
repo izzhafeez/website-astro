@@ -1,0 +1,62 @@
+---
+import Hero from "../../components/common/Hero.astro";
+import NavBar from "../../components/common/NavBar.astro";
+import Seo from "../../components/seo/Seo.astro";
+import Layout from "../../layouts/Layout.astro";
+import seoImg from "../../img/heroes/SKILLS.jpg";
+import codingsData from "../../data/portfolio/coding.json";
+import Footer from "../../components/common/Footer.astro";
+import { toName } from "../../utils/string";
+import CodingPreview from "../../components/portfolio/CodingPreview.astro";
+import portfolioData from "../../data/portfolio/portfolio.json";
+
+interface CodingData {
+  title?: string,
+  lines?: number
+  description?: string
+}
+
+type CodingJson = {[key: string]: CodingData};
+
+const codings = Object.entries(codingsData as CodingJson).map(([key, value]) => {
+  return {
+    key,
+    title: value.title || toName(key),
+    lines: value.lines || 0,
+    description: value.description || ""
+  };
+}).sort((a,b) => -a.lines + b.lines);
+
+const heroText = portfolioData.coding.heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"coding"} path="portfolio/coding"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="CODING LANGUAGES" text={heroText} site="portfolio"/>
+    <div class="mx-auto max-w-6xl mt-10 p-2">
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 10000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {codings.filter(coding => coding.lines == 10000).map(coding => <CodingPreview coding={coding}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 5000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {codings.filter(coding => coding.lines == 5000).map(coding => <CodingPreview coding={coding}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 2000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {codings.filter(coding => coding.lines == 2000).map(coding => <CodingPreview coding={coding}/>)}
+      </section>
+
+      <h2 class="text-3xl text-ne-500 dark:text-ne-300 font-extrabold">&gt; 1000 Lines of Code</h2>
+      <section class="my-4 grid gap-4 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+        {codings.filter(coding => coding.lines == 1000).map(coding => <CodingPreview coding={coding}/>)}
+      </section>
+    </div>
+    <Footer site="portfolio"/>
+  </div>
+</Layout>
