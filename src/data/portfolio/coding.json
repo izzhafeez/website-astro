@@ -1,0 +1,66 @@
+{
+  "python": {
+    "lines": 10000,
+    "description": "Over 200 Jupyter workbooks in and out of SCDF, 5 apps and 13 websocket-based games"
+  },
+  "javascript": {
+    "title": "JavaScript",
+    "lines": 10000,
+    "description": "Used in every tech role I've had, used with Vue, Electron, and Node"
+  },
+  "java": {
+    "lines": 10000,
+    "description": "Lots of coursework in NUS and Coursera, including 6k+ lines in a single project"
+  },
+  "typescript": {
+    "title": "TypeScript",
+    "lines": 10000,
+    "description": "Used in WaveScan internship, used with React, Svelte and Astro"
+  },
+  "html": {
+    "title": "HTML",
+    "lines": 10000,
+    "description": "Used in the Ministry of Manpower, and in earlier editions of my site"
+  },
+  "ruby": {
+    "lines": 5000,
+    "description": "Used in SCDF and Quantum Inventions internships as part of the Rails framework"
+  },
+  "rust": {
+    "lines": 5000,
+    "description": "Courses in NUS and Coursera, and many projects including Neothesia and RouteWeaver"
+  },
+  "css": {
+    "title": "CSS",
+    "lines": 5000,
+    "description": "Used in past iterations of this site"
+  },
+  "r": {
+    "lines": 2000,
+    "description": "Data Cleaning, Data Science, Data Visualization in SCDF"
+  },
+  "c++": {
+    "title": "C++",
+    "lines": 2000,
+    "description": "Lots of practice on LeetCode in the past"
+  },
+  "latex": {
+    "title": "LaTeX",
+    "lines": 2000,
+    "description": "Heavy reliance to typeset notes, reports, and cheatsheets"
+  },
+  "go": {
+    "lines": 2000,
+    "description": "Courses in NUS and Coursera, and many web projects that have since been converted to FastAPI"
+  },
+  "matlab": {
+    "title": "MATLAB",
+    "lines": 2000,
+    "description": "Courses in NUS"
+  },
+  "php": {
+    "title": "PHP",
+    "lines": 1000,
+    "description": "Courses on Coursera, minimal usage in past iterations of my site"
+  }
+}
