@@ -1,33 +1,24 @@
 ---
 import { Image } from 'astro:assets';
-import Tags from '../common/Tags.astro';
 import type { ImageMetadata } from 'astro';
-import github from '/src/img/logos/github.svg';
-import link from '/src/img/common/link.svg';
 
 const { project } = Astro.props;
-const imgPath = `/src/img/portfolio/projects/${project.imgPath}`;
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/img/portfolio/projects/*.jpg");
+const heroImages = import.meta.glob<{ default: ImageMetadata }>("/src/img/heroes/*.png");
+const img = project.imgPath ? heroImages[`/src/img/heroes/${project.imgPath}`] : images[`/src/img/portfolio/projects/${project.key}.jpg`];
 ---
-<div id={project.key} class="reveal load-hidden group w-full p-4 rounded-lg flex gap-6 bg-white/70 transition duration-500 dark:bg-gray-700/70 border-[1px] border-gray-100/0 hover:border-ne-500/70">
-  {imgPath && <Image src={images[imgPath]()} alt={project.title} width="250" height="150" class="h-24 w-32 lg:h-44 lg:w-60 object-cover aspect-video hidden lg:block"/>}
-  <div>
-    <h2 class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium flex items-center gap-4">  
+
+<a href={project.link || project.repo} id={project.key} class="cursor-pointer w-80 reveal load-hidden grid group rounded-lg bg-white dark:bg-gray-700 border-2 border-gray-500/10 hover:border-ne-500 transition transition-color duration-100">
+  <Image src={img()} alt={project.title} width="400" height="300" class="h-45 w-80 object-cover aspect-video rounded-t-lg"/>
+  <div class="p-2 text-left grid">
+    <h2 class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium">  
       {project.title}
     </h2>
-    <p class="text-gray-500 text-sm my-2">{project.overview}</p>
-    <div class="flex flex-wrap gap-1">
+    <p class="text-gray-500 text-sm">{project.overview}</p>
+    <div class="flex flex-wrap gap-1 my-1">
       {project.related.map((r: string) => (
-        <span class="text-ne-900 dark:text-ne-100 bg-ne-100 dark:bg-ne-900 text-xs px-2 py-1 rounded-md">{r}</span>
+        <span class="text-white bg-ne-500 text-xs px-2 py-1 rounded-md">{r}</span>
       ))}
-      {project.link && <a type="button" href={project.link} class="text-white cursor-pointer bg-dt-500 hover:bg-dt-300 flex items-center text-xs no-underline px-2 py-1 rounded-md my-auto gap-1">
-        Site
-        <Image alt="link" src={link} class="invert h-4" width="15" height="15"/>
-        </a>} 
-      {project.repo && <a type="button" href={project.repo} class="text-white cursor-pointer bg-black hover:bg-gray-800 flex items-center text-xs no-underline px-2 py-1 rounded-md my-auto gap-1">
-        Code
-        <Image alt="repo" src={github} class="invert h-4" width="15" height="15"/>
-        </a>}
     </div>
   </div>
-</div>
+</a>
