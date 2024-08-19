@@ -17,21 +17,27 @@ type Logos = {
 };
 
 let col;
+let border = "";
 switch (color) {
   case 'ew': 
     col = 'text-ew-500 dark:text-ew-300';
+    border = 'border-black/0 hover:border-ew-500';
     break;
   case 'ns': 
     col = 'text-ns-500 dark:text-ns-300';
+    border = 'border-black/0 hover:border-ns-500';
     break;
   case 'ne':
     col = 'text-ne-500 dark:text-ne-300';
+    border = 'border-black/0 hover:border-ne-500';
     break;
   case 'cc':
     col = 'text-cc-500 dark:text-cc-300';
+    border = 'border-black/0 hover:border-cc-500';
     break;
   case 'dt':
     col = 'text-dt-500 dark:text-dt-300';
+    border = 'border-black/0 hover:border-dt-500';
     break;
 }
 ---
@@ -49,7 +55,7 @@ switch (color) {
     {Object.entries(data as Data).map(([key, value]) => {
       const href = `/${id}/${key}`;
       return <li>
-        <a href={href} class="flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+        <a href={href} class={`flex items-center p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group border-2 transition transition-color ${border}`}>
           <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
           <h5 class="ms-3">{capitalise(value.title)}</h5>
         </a>
