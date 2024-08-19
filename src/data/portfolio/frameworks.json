@@ -1,0 +1,47 @@
+{
+  "react": {
+    "lines": 10000,
+    "description": "Used in Quantum Inventions internship, and built 2 apps and 13 websocket-based games"
+  },
+  "svelte": {
+    "lines": 10000,
+    "description": "Used in WaveScan internship, and built 8 quiz games"
+  },
+  "fastapi": {
+    "title": "FastAPI",
+    "lines": 5000,
+    "description": "Built 3 apps and 13 websocket-based games"
+  },
+  "vue": {
+    "lines": 5000,
+    "description": "Built 4 apps, and 3 LLM-powered games"
+  },
+  "ruby-on-rails": {
+    "lines": 5000,
+    "description": "Used in Quantum Inventions internship, and in SCDF"
+  },
+  "astro": {
+    "lines": 5000,
+    "description": "Built this entire website with it"
+  },
+  "flask": {
+    "lines": 2000,
+    "description": "Used in SCDF, and built 2 apps"
+  },
+  "django": {
+    "lines": 2000,
+    "description": "Built 3 apps, and had ample experience through Coursera"
+  },
+  "electron": {
+    "lines": 2000,
+    "description": "Used in WaveScan internship"
+  },
+  "spring": {
+    "lines": 1000,
+    "description": "Built 2 apps, and had ample experience through Coursera"
+  },
+  "next": {
+    "lines": 1000,
+    "description": "Built 1 app"
+  }
+}
