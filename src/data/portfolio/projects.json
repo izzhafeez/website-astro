@@ -1,158 +1,132 @@
 {
-  "builder-pal": {
-    "repo": "https://github.com/orgs/BuilderPal/repositories",
-    "link": "https://builderpal.netlify.app/",
-    "imgPath": "builder-pal.jpg",
-    "overview": "AI-powered project recommender for kids",
+  "website-v7": {
+    "repo": "https://github.com/izzhafeez/website-astro",
+    "link": "https://izzhafeez.com",
+    "overview": "Site featuring apps, quizzes and games",
     "related": [
-      "React",
-      "Generative AI",
-      "JavaScript",
-      "UX Design"
+      "Astro",
+      "Svelte",
+      "Vue",
+      "React"
     ]
   },
   "chit-chat-champion": {
     "repo": "https://github.com/ChitChatChampion",
     "link": "https://chitchatchampion.netlify.app/",
-    "overview": "AI-powered online party games platform that offers endless replayability and tailored experiences",
-    "imgPath": "chit-chat-champion.jpg",
-    "rank": 2,
+    "overview": "AI-powered online party games platform",
     "related": [
       "Vue",
-      "Generative AI",
       "Flask",
-      "Tailwind",
-      "JavaScript",
+      "LLMs",
       "UX Design"
-    ]
-  },
-  "edu-mate": {
-    "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
-    "overview": "Address book that facilitates scheduling meetups with friends based on location and availability",
-    "imgPath": "edu-mate.jpg",
-    "related": [
-      "Java",
-      "PlantUML",
-      "Software Engineering",
-      "Software Testing",
-      "JUnit",
-      "Documentation"
-    ]
-  },
-  "malls-card-game": {
-    "repo": "https://github.com/izzhafeez/malls",
-    "overview": "Statistics-driven card game centered around the malls of Singapore",
-    "imgPath": "malls-card-game.jpg",
-    "related": [
-      "Data Science",
-      "Selenium",
-      "Pandas",
-      "Python",
-      "Go",
-      "Angular",
-      "TypeScript"
-    ]
-  },
-  "note-together": {
-    "repo": "https://github.com/shotnothing/NoteTogether",
-    "overview": "Note-sharing platform that incorporates Reddit and GitHub-like features",
-    "imgPath": "note-together.jpg",
-    "related": [
-      "JavaScript",
-      "Vue",
-      "Express",
-      "MongoDB",
-      "Postman"
-    ]
-  },
-  "website-v0": {
-    "link": "https://blueticker117.wixsite.com/dontbluetickme",
-    "imgPath": "website-v0.jpg",
-    "overview": "Personal website focused on showcasing the puzzles I've created"
-  },
-  "website-v1": {
-    "repo": "https://github.com/izzhafeez/website-v1",
-    "link": "https://izzhafeez.github.io/website-v1/",
-    "imgPath": "website-v1.jpg",
-    "overview": "Personal website focused on creating modals, navigation tools and aesthetic animations",
-    "related": [
-      "HTML",
-      "CSS"
-    ]
-  },
-  "website-v2": {
-    "repo": "https://github.com/izzhafeez/website-v2",
-    "link": "https://izzhafeez.github.io/website-v2/",
-    "imgPath": "website-v2.jpg",
-    "overview": "Personal website focused on neatly hiding away content behind dropdowns",
-    "related": [
-      "HTML",
-      "CSS"
-    ]
-  },
-  "website-v3": {
-    "repo": "https://github.com/izzhafeez/website-v3",
-    "link": "https://izzhafeez.github.io/website-v3/",
-    "imgPath": "website-v3.jpg",
-    "overview": "Personal website focused on CSS selectors and a static sidemenu",
-    "related": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ]
-  },
-  "website-v4": {
-    "repo": "https://github.com/izzhafeez/website-v3",
-    "link": "https://mynameizzhafeez.netlify.app/",
-    "imgPath": "website-v4.jpg",
-    "overview": "Personal website featuring improved search functionality and more vibrant color scheme",
-    "related": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ]
-  },
-  "website-v5": {
-    "repo": "https://github.com/izzhafeez/website-react/tree/master",
-    "link": "https://izzhafeez.github.io/website-react/",
-    "imgPath": "website-v5.jpg",
-    "overview": "Personal website featuring React SPA and a notes renderer",
-    "related": [
-      "React",
-      "JavaScript",
-      "Bootstrap",
-      "HTML",
-      "CSS"
     ]
   },
   "website-v6": {
     "repo": "https://github.com/izzhafeez/website-react",
     "link": "https://v6-izzhafeez.netlify.app/",
-    "imgPath": "website-v6.jpg",
-    "rank": 2,
-    "overview": "Personal website featuring quizzes, games and OpenLayers integration for showcasing hikes",
+    "overview": "Site featuring quizzes and maps",
     "related": [
       "React",
-      "JavaScript",
       "OpenLayers",
       "Tailwind"
     ]
   },
-  "website-v7": {
-    "repo": "https://github.com/izzhafeez/website-astro",
-    "link": "https://izzhafeez.com",
-    "rank": 3,
-    "imgPath": "website-v7.jpg",
-    "overview": "Personal website featuring multiple frameworks, apps and paradigms",
+  "builder-pal": {
+    "repo": "https://github.com/orgs/BuilderPal/repositories",
+    "link": "https://builderpal.netlify.app/",
+    "overview": "AI-powered project recommender for kids",
     "related": [
-      "Astro",
-      "Svelte",
-      "TypeScript",
-      "OpenLayers",
+      "React",
+      "FastAPI",
+      "LLMs",
+      "UX Design"
+    ]
+  },
+  "edu-mate": {
+    "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
+    "overview": "Timetable-based meeting scheduler",
+    "related": [
+      "Java",
+      "JUnit",
+      "PlantUML",
+      "CI/CD"
+    ]
+  },
+  "note-together": {
+    "repo": "https://github.com/shotnothing/NoteTogether",
+    "overview": "Reddit-like platform for sharing notes",
+    "related": [
+      "MongoDB",
+      "Express",
       "Vue",
-      "Tailwind"
+      "NodeJS"
+    ]
+  },
+  "malls-card-game": {
+    "repo": "https://github.com/izzhafeez/malls",
+    "overview": "Data-driven card game based on local malls",
+    "related": [
+      "Go",
+      "Angular",
+      "Selenium"
+    ]
+  },
+  "website-v5": {
+    "repo": "https://github.com/izzhafeez/website-react/tree/master",
+    "link": "https://izzhafeez.github.io/website-react/",
+    "overview": "Site featuring a notes renderer",
+    "related": [
+      "React",
+      "Bootstrap",
+      "HTML",
+      "CSS"
+    ]
+  },
+  "website-v4": {
+    "repo": "https://github.com/izzhafeez/website-v3",
+    "link": "https://mynameizzhafeez.netlify.app/",
+    "overview": "Site featuring search bars and color scheme",
+    "related": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "PHP"
+    ]
+  },
+  "website-v3": {
+    "repo": "https://github.com/izzhafeez/website-v3",
+    "link": "https://izzhafeez.github.io/website-v3/",
+    "overview": "Site featuring CSS selectors and side menus",
+    "related": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "PHP"
+    ]
+  },
+  "website-v2": {
+    "repo": "https://github.com/izzhafeez/website-v2",
+    "link": "https://izzhafeez.github.io/website-v2/",
+    "overview": "Site featuring dropdowns and progress bars",
+    "related": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  "website-v1": {
+    "repo": "https://github.com/izzhafeez/website-v1",
+    "link": "https://izzhafeez.github.io/website-v1/",
+    "overview": "Site featuring modals and animations",
+    "related": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  "website-v0": {
+    "link": "https://blueticker117.wixsite.com/dontbluetickme",
+    "overview": "Site for showcasing puzzles",
+    "related": [
+      "Wix"
     ]
   }
 }
