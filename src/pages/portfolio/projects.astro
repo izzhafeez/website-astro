@@ -33,7 +33,7 @@ const projects = Object.entries(projectsData as ProjectJson).map(([key, value]) 
     rank: value.rank ?? 0,
     related: value.related ?? []
   }
-}).sort((a,b) => -a.rank + b.rank);
+});
 
 const heroText = portfolioData.projects.heroText;
 ---
@@ -43,7 +43,7 @@ const heroText = portfolioData.projects.heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="PROJECTS" text={heroText} site="portfolio"/>
-    <section class="my-auto grid grid-cols-1 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
+    <section class="my-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 relative p-2 max-w-6xl mx-auto" transition:animate="slide">
       {projects.map(project => <ProjectPreview project={project}/>)}
     </section>
     <Footer site="portfolio"/>
