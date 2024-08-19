@@ -1,0 +1,77 @@
+{
+  "github": {
+    "level": 4,
+    "description": "Used for everything, including CI/CD, issue trackers, and version control"
+  },
+  "figma": {
+    "level": 4,
+    "description": "Used for planning and designing, and for creating assets and thumbnails"
+  },
+  "pandas": {
+    "level": 4,
+    "description": "Used to extract and format data for use in my projects"
+  },
+  "mongo-db": {
+    "title": "MongoDB",
+    "level": 3,
+    "description": "Used for simple storage of data in my projects"
+  },
+  "netlify": {
+    "level": 3,
+    "description": "Default deployment platform for my sites, including for group projects"
+  },
+  "selenium": {
+    "level": 3,
+    "description": "Scrape data for use in my data-related projects (including geospatial ones)"
+  },
+  "docker": {
+    "level": 2,
+    "description": "Used for deploying microservices and for testing"
+  },
+  "postgresql": {
+    "title": "PostgreSQL",
+    "level": 2,
+    "description": "Mostly used for courses, but also when managing data in Ministry of Manpower"
+  },
+  "aws": {
+    "title": "AWS",
+    "level": 2,
+    "description": "Some experience in internship, lots of experience in Coursera courses"
+  },
+  "gcp": {
+    "title": "GCP",
+    "level": 2,
+    "description": "Some experience in SCDF, lots of experience in Coursera courses"
+  },
+  "power-bi": {
+    "title": "PowerBI",
+    "level": 2,
+    "description": "Built a few dashboards in Ministry of Manpower"
+  },
+  "tableau": {
+    "level": 2,
+    "description": "Built a few dashboards in SCDF"
+  },
+  "postman": {
+    "level": 2,
+    "description": "Sufficient API testing for my projects"
+  },
+  "tensorflow": {
+    "title": "TensorFlow",
+    "level": 2,
+    "description": "Some usage in SCDF, lots of experience in Coursera courses"
+  },
+  "qgis": {
+    "title": "QGIS",
+    "level": 1,
+    "description": "Some usage in SCDF"
+  },
+  "azure": {
+    "level": 1,
+    "description": "Experience in Coursera courses"
+  },
+  "pytorch": {
+    "level": 1,
+    "description": "Experience in NUS"
+  }
+}
