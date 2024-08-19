@@ -1,0 +1,20 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import FactionChess from "../../../components/games/faction-chess/FactionChess";
+import Layout from "../../../layouts/Layout.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/FREQUENCY-GUESSR.jpg';
+import gamesData from "../../../data/games/games.json";
+export const prerender = false;
+const { id } = Astro.params;
+const heroText = gamesData["frequency-guessr"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={'Frequency Guessr'} path={`games/frequency-guessr/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <FactionChess client:only="react"/>
+  </div>
+</Layout>
