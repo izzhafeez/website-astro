@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+const { coding } = Astro.props;
+const imgPath = `/src/img/portfolio/coding/${coding.key}.svg`;
+const images = import.meta.glob<{ default: ImageMetadata }>("/src/img/portfolio/coding/*.svg");
+---
+<div id={coding.key} class='reveal load-hidden flex gap-3 justify-items-center text-center'>
+  <Image alt={coding.key} class="h-20 w-20 aspect-square object-cover bg-white rounded-full p-1" src={images[imgPath]()} width="100" height="100"/>
+  <div class="my-auto text-left">
+    <h2 class="">{coding.title}</h2>
+    <desc class="text-sm text-gray-500">{coding.description}</desc>
+  </div>
+</div>
