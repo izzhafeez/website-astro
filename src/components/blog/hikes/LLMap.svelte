@@ -68,7 +68,6 @@ function createFeatures() {
   featureGroup = L.featureGroup();
   let featureCount = 0;
   for (const line of lines) {
-    console.log(line);
     if (line === null) continue;
     const feature = createLineFeature(line);
     featureList.push(feature);

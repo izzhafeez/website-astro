@@ -7,28 +7,9 @@ import blogData from '../../../data/blog/blog.json';
 import seoImg from '../../../img/heroes/MOD-REVIEWS.jpg';
 import Layout from '../../../layouts/Layout.astro';
 import modData from '../../../data/blog/mod-reviews.json';
-import SmallCard from '../../../components/common/SmallCard.astro';
+import ModulesSection from '../../../components/blog/ModulesSection.tsx';
 
 const heroText = blogData["mod-reviews"].heroText;
-
-const getScoreFromGrade = (grade: string) => {
-  if (grade == "A+") return 5;
-  if (grade == "A") return 4;
-  if (grade == "A-") return 3;
-  if (grade == "B+") return 2;
-  if (grade == "B") return 1;
-  return 0;
-}
-
-const getColorFromGrade = (grade: string) => {
-  if (grade == "A+") return "cr-500";
-  if (grade == "A") return "ew-500";
-  if (grade == "A-") return "cc-500";
-  if (grade == "B+" || grade == "B") return "ns-500";
-  return "black";
-}
-
-const sortedCourses = Object.entries(modData).sort((a, b) => getScoreFromGrade(b[1].grade) - getScoreFromGrade(a[1].grade));
 ---
 
 <Seo {heroText} {seoImg} pageName={"Module Reviews"} path={`blog/mod-reviews`}/>
@@ -37,14 +18,7 @@ const sortedCourses = Object.entries(modData).sort((a, b) => getScoreFromGrade(b
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="MODULE REVIEWS" text={heroText} site="blog"/>
-    <section id="review-container" class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {sortedCourses.map(([key, value]) => <SmallCard
-        color={getColorFromGrade(value.grade)}
-        href={`/blog/mod-reviews/${key}`}
-        title={`${key} (${value.grade})`}
-        heroText={`${value.title}`}
-        site="blog"/>)}
-    </section>
+    <ModulesSection modData={modData} client:load/>
     <Footer site="blog"/>
   </div>
 </Layout>

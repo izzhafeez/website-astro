@@ -89,6 +89,7 @@ module.exports = {
 				},
 				hp: {
 					mrt: '#10C8FA',
+					500: '#10C8FA',
 				},
 				mp: {
 					mrt: '#9B9900',

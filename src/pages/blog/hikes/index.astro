@@ -9,7 +9,7 @@ import seoImg from '../../../img/heroes/HIKES.jpg';
 import Layout from '../../../layouts/Layout.astro';
 import hikeData from '../../../data/blog/hikes.json';
 import routesData from '../../../data/blog/hikes-routes.json';
-import SmallCard from '../../../components/common/SmallCard.astro';
+import HikesSection from '../../../components/blog/HikesSection';
 
 const heroText = blogData.hikes.heroText;
 
@@ -24,10 +24,6 @@ for (const [key, value] of Object.entries(hikeData)) {
     link: `/blog/hikes/${key}`
   });
 }
-
-const hikesSorted = Object.entries(hikeData).sort((a, b) => {
-  return (a[1] as any).distance < (b[1] as any).distance ? 1 : -1;
-});
 ---
 
 <Seo {heroText} {seoImg} pageName={"Hikes"} path={`blog`}/>
@@ -44,14 +40,7 @@ const hikesSorted = Object.entries(hikeData).sort((a, b) => {
     <NavBar/>
     <Hero label="HIKES" text={heroText} site="blog"/>
     <LLMap client:only="svelte" lines={hikes}/>
-    <section class="my-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {hikesSorted.map(([key, value]) => <SmallCard
-        color={value.color}
-        href={`/blog/hikes/${key}`}
-        title={value.name}
-        heroText={`${value.date} | ${(routesData as any)[key].length.toFixed(2)}km`}
-        site="blog"/>)}
-    </section>
+    <HikesSection hikeData={hikeData} client:load/>
     <Footer site="blog"/>
   </div>
 </Layout>

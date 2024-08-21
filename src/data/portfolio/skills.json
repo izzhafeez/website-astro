@@ -1,14 +1,20 @@
 {
   "Web Development": "Software Engineering",
   "Geospatial Analytics": "Data Science",
-  "Frontend Development": "Software Engineering",
+  "Creativity": "Soft Skills",
+  "Graphs": "Mathematics",
   "Piano Arrangement": "Music",
+  "Frontend Development": "Software Engineering",
   "Web Scraping": "Data Science",
+  "Convex Optimisation": "Mathematics",
+  "Divergent Thinking": "Soft Skills",
   "Backend Development": "Software Engineering",
   "Data Wrangling": "Data Science",
+  "Independent Learning": "Soft Skills",
+  "Stochastic Processes": "Mathematics",
   "Operational Analytics": "Data Science",
   "Music Composition": "Music",
-  "Database Engineering": "Software Engineering",
+  "UX Design": "Software Engineering",
   "Software Testing": "Software Engineering",
   "Machine Learning": "Data Science"
 }

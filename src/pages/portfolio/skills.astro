@@ -7,19 +7,9 @@ import Layout from '../../layouts/Layout.astro';
 import portfolioData from '../../data/portfolio/portfolio.json';
 import Seo from '../../components/seo/Seo.astro';
 import seoImg from '../../img/heroes/SKILLS.jpg';
+import SkillsSection from '../../components/portfolio/SkillsSection.tsx';
 
 const heroText = portfolioData.skills.heroText;
-
-const getColorFromCategory = (category: string) => {
-  switch (category) {
-    case "Software Engineering":
-      return "text-ew-500 dark:text-ew-300";
-    case "Data Science": 
-      return "text-ns-500 dark:text-ns-300";
-    case "Music": 
-      return "text-ne-500 dark:text-ne-300";
-  }
-};
 ---
 <Seo {heroText} {seoImg} pageName={"Skills"} path="portfolio/skills"/>
 
@@ -27,12 +17,7 @@ const getColorFromCategory = (category: string) => {
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="SKILLS" text={heroText} site="portfolio"/>
-    <section class="flex flex-wrap mx-auto max-w-3xl gap-2 content-center">
-      <span class="p-2 bg-ew-500 text-white border-2 border-gray-300/20 rounded-md">Software Engineering</span>
-      <span class="p-2 bg-ns-500 text-white border-2 border-gray-300/20 rounded-md">Data Science</span>
-      <span class="p-2 bg-ne-500 text-white border-2 border-gray-300/20 rounded-md">Music</span>
-      {Object.entries(skillsData).map(([skill, category]) => <span class="p-2 bg-white/50 dark:bg-gray-700/50 border-2 border-gray-300/20 rounded-md"><span class={"my-2 " + getColorFromCategory(category)}>• </span>{skill}</span>)}
-    </section>
+    <SkillsSection data={skillsData} client:load>
     <Footer site="portfolio"/>
   </div>
 </Layout>
