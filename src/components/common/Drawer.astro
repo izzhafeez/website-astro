@@ -18,26 +18,32 @@ type Logos = {
 
 let col;
 let border = "";
+let label = "";
 switch (color) {
   case 'ew': 
     col = 'text-ew-500 dark:text-ew-300';
     border = 'border-black/0 hover:border-ew-500';
+    label = 'hover:bg-ew-500 hover:text-white dark:hover:text-white';
     break;
   case 'ns': 
     col = 'text-ns-500 dark:text-ns-300';
     border = 'border-black/0 hover:border-ns-500';
+    label = 'hover:bg-ns-500 hover:text-white dark:hover:text-white';
     break;
   case 'ne':
     col = 'text-ne-500 dark:text-ne-300';
     border = 'border-black/0 hover:border-ne-500';
+    label = 'hover:bg-ne-500 hover:text-white dark:hover:text-white';
     break;
   case 'cc':
     col = 'text-cc-500 dark:text-cc-300';
     border = 'border-black/0 hover:border-cc-500';
+    label = 'hover:bg-cc-500 hover:text-white dark:hover:text-white';
     break;
   case 'dt':
     col = 'text-dt-500 dark:text-dt-300';
     border = 'border-black/0 hover:border-dt-500';
+    label = 'hover:bg-dt-500 hover:text-white dark:hover:text-white';
     break;
 }
 ---
@@ -50,7 +56,9 @@ switch (color) {
     </svg>
     <span class="sr-only">Close menu</span>
   </button>
-  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold ${col}`}>{capitalise(id)}</h3>
+  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold ${col} ${label} p-2 rounded-md`}>
+    <a href={`/${id}`}>{capitalise(id)}</a>
+  </h3>
   <ul class="space-y-2 font-medium h-auto">
     {Object.entries(data as Data).map(([key, value]) => {
       const href = `/${id}/${key}`;

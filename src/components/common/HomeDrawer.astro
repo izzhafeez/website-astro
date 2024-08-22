@@ -24,7 +24,9 @@ type Logos = {
     </svg>
     <span class="sr-only">Close menu</span>
   </button>
-  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold text-gray-500 dark:text-gray-300`}>{capitalise(id)}</h3>
+  <h3 id={`${id}-drawer-label`} class={`inline-flex items-center mb-4 text-3xl font-semibold text-gray-500 dark:text-gray-300 p-2 rounded-md hover:bg-gray-500 dark:hover:text-white hover:text-white`}>
+    <a href="/">{capitalise(id)}</a>
+  </h3>
   <ul class="space-y-2 font-medium h-auto mb-20">
     <li>
       <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 border-2 transition-color border-black/0 hover:border-ew-500" aria-controls="dropdown-apps" data-collapse-toggle="dropdown-apps">

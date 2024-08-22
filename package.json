@@ -63,6 +63,7 @@
     "react-slick": "^0.30.2",
     "react-tsparticles": "^2.12.2",
     "react-use-websocket": "^4.8.1",
+    "roughjs": "^4.6.6",
     "svelte": "^4.2.12",
     "sweetalert2": "^11.10.7",
     "tailwind-scrollbar": "^3.1.0",
