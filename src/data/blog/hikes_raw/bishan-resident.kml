@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Directions from Bishan Road, Bishan MRT Station (NS17), Singapore to Bishan Street 11, Bishan Loft, Singapore</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Directions from Bishan Road, Bishan MRT Station (NS17), Singapore to Bishan Street 11, Bishan Loft, Singapore</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          103.84908,1.35057,0
+          103.84906,1.35048,0
+          103.84904,1.35042,0
+          103.84899,1.35014,0
+          103.84895,1.34999,0
+          103.84902,1.35003,0
+          103.8494,1.34994,0
+          103.84948,1.34991,0
+          103.85018,1.34974,0
+          103.85012,1.34946,0
+          103.85007,1.34936,0
+          103.85001,1.34911,0
+          103.85,1.34902,0
+          103.84993,1.34869,0
+          103.84992,1.34862,0
+          103.8498,1.34811,0
+          103.84997,1.34807,0
+          103.85081,1.34788,0
+          103.85105,1.34783,0
+          103.85114,1.34781,0
+          103.85128,1.34778,0
+          103.85132,1.34777,0
+          103.85142,1.34774,0
+          103.85144,1.34773,0
+          103.85149,1.34772,0
+          103.85155,1.34769,0
+          103.85161,1.34767,0
+          103.85165,1.34764,0
+          103.85166,1.34762,0
+          103.85174,1.34769,0
+          103.85181,1.34768,0
+          103.85182,1.34768,0
+          103.85182,1.34767,0
+          103.85182,1.34766,0
+          103.85183,1.34766,0
+          103.85184,1.34766,0
+          103.85184,1.34759,0
+          103.85191,1.34762,0
+          103.85193,1.34757,0
+          103.85193,1.34752,0
+          103.85197,1.34744,0
+          103.85214,1.34715,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bishan Road, Bishan MRT Station (NS17), Singapore</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          103.8490766,1.3505701,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bishan Street 11, Bishan Loft, Singapore</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          103.8521389,1.347152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
