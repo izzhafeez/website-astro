@@ -1,0 +1,54 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../../../layouts/Layout.astro';
+import NavBar from '../../../../components/common/NavBar.astro';
+import Seo from '../../../../components/seo/Seo.astro';
+import gamesData from '../../../../data/games/games.json';
+import PageFind from '../../../../components/common/PageFind.astro';
+import RoomCreateContainer from '../../common/RoomCreateContainer.astro';
+import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
+
+export const getStaticPaths = (() => {  
+  return [
+    {
+      params: { deck: 'mrt', },
+      props: { title: "MRT Stations of Singapore" }
+    },
+    {
+      params: { deck: 'london-underground' },
+      props: { title: "London Underground Stations" }
+    },
+    {
+      params: { deck: 'bus-stops' },
+      props: { title: "Bus Stops of Singapore" }
+    },
+    {
+      params: { deck: 'tokyo-metro' },
+      props: { title: "Tokyo Metro Stations" }
+    },
+    {
+      params: { deck: 'malls' },
+      props: { title: "Malls of Singapore" }
+    },
+    {
+      params: { deck: 'chengyu' },
+      props: { title: "Chinese Chengyu" }
+    }
+  ];
+}) satisfies GetStaticPaths;
+
+const { deck } = Astro.params;
+const { title } = Astro.props;
+const instructions = `How well do you know the ${title}?`;
+const heroText = gamesData["blurry-battle"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={title} path={`games/blurry-battle/${deck}`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={`${title} (Blurry Battle)`} heroText={heroText}/>
+    <RoomCreateContainer title={title} heroText={`Blurry Battle: ${heroText}`} instructions={instructions} />
+  </div>
+</Layout>

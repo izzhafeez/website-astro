@@ -1,0 +1,36 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
+import Hero from "../../../components/common/Hero.astro";
+import gamesData from "../../../data/games/games.json";
+import blurryData from "../../../data/games/blurry-battle/blurry-battle.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
+
+type DeckJson = {[k: string]: {
+  title: string,
+}}
+
+const decks = Object.entries(blurryData as DeckJson).map(([key, value]) => {
+  return {
+    key,
+    href: `/games/blurry-battle/${key}`,
+    title: value.title,
+  }
+});
+
+const heroText = gamesData["blurry-battle"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"Blurry Battle"} path="games/blurry-battle"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="BLURRY BATTLE" text={heroText} site="games"/>
+    <section class="my-auto flex flex-wrap gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {decks.map(deck => <a href={deck.href} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">{deck.title}</a>)}
+    </section>
+    <Footer site="games"/>
+  </div>
+</Layout>

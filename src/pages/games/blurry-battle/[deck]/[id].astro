@@ -1,0 +1,75 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import BlurryBattle from "../../../../components/games/blurry-battle/BlurryBattle.tsx";
+import Layout from "../../../../layouts/Layout.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import mrtData from "../../../../data/games/blurry-battle/mrt.json";
+import mallsData from "../../../../data/games/blurry-battle/malls.json";
+import londonData from "../../../../data/games/blurry-battle/london-underground.json";
+import busData from "../../../../data/games/blurry-battle/bus-stops.json";
+import tokyoMetroData from "../../../../data/games/blurry-battle/tokyo-metro.json";
+import chengyuData from "../../../../data/games/blurry-battle/chengyu.json";
+import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
+
+export const prerender = false;
+const { id } = Astro.params;
+const splitPath = Astro.url.pathname.split("/");
+const deckName: string = splitPath[splitPath.length - 2];
+
+let deck;
+switch (deckName) {
+  case "mrt":
+    deck = {
+      title: "MRT Stations",
+      data: mrtData
+    };
+    break;
+  case "malls": 
+    deck = {
+      title: "Malls of Singapore",
+      data: mallsData
+    }
+    break;
+  case "london-underground":
+    deck = {
+      title: "London Underground Stations",
+      data: londonData
+    }
+    break;
+  case "bus-stops":
+    deck = {
+      title: "Bus Stops of Singapore",
+      data: busData
+    }
+    break;
+  case "tokyo-metro":
+    deck = {
+      title: "Tokyo Metro Stations",
+      data: tokyoMetroData
+    }
+    break;
+  case "chengyu":
+    deck = {
+      title: "Chinese Chengyu",
+      data: chengyuData
+    }
+    break;
+  default:
+    deck = {
+      title: '',
+      data: []
+    };
+}
+
+const heroText = gamesData["blurry-battle"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={deck.title} path={`games/blurry-battle/${deckName}/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <BlurryBattle client:only="react" id={id || ""} deck={deck} deckName={deckName}/>
+  </div>
+</Layout>

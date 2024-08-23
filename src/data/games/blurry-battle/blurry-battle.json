@@ -1,0 +1,20 @@
+{
+  "mrt": {
+    "title": "MRT Stations of Singapore"
+  },
+  "malls": {
+    "title": "Shopping Malls of Singapore"
+  },
+  "chengyu": {
+    "title": "Chengyu (Chinese Idioms)"
+  },
+  "london-underground": {
+    "title": "London Underground Stations"
+  },
+  "bus-stops": {
+    "title": "Bus Stops of Singapore"
+  },
+  "tokyo-metro": {
+    "title": "Tokyo Metro Stations"
+  }
+}
