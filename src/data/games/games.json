@@ -18,7 +18,7 @@
   },
   "color-guessr": {
     "title": "Color Guessr",
-    "heroText": "See how well you can guess color hexcodes! Score points based on how close you are the to answer. Best played with 2-6 players."
+    "heroText": "See how well you can guess color hexcodes! Score points based on how close you are the to answer. Best played with 1-4 players."
   },
   "convo-starter": {
     "title": "Convo Starter",
@@ -35,7 +35,7 @@
   },
   "frequency-guessr": {
     "title": "Frequency Guessr",
-    "heroText": "Guess the frequency of the given sound. The closer you are to the actual frequency, the more points you get! Best played with 2-6 players."
+    "heroText": "Guess the frequency of the given sound. The closer you are to the actual frequency, the more points you get! Best played with 1-4 players."
   },
   "location-guessr": {
     "title": "Location Guessr",
@@ -51,7 +51,7 @@
   },
   "number-nightmare": {
     "title": "Number Nightmare",
-    "heroText": "Pick a number that will satisfy the most conditions! Try to be unique with your choice. Best played with 3-8 players."
+    "heroText": "Pick a number that will satisfy the most conditions! Try to be unique with your choice. Best played with 1-6 players."
   },
   "quip-ai": {
     "title": "Quip AI",
@@ -69,7 +69,7 @@
   },
   "stat-guessr": {
     "title": "Stat Guessr",
-    "heroText": "Guess the statistics of the given data. The closer you are to the actual statistics, the more points you get! Best played with 2-6 players."
+    "heroText": "Guess the statistics of the given data. The closer you are to the actual statistics, the more points you get! Best played with 1-4 players."
   },
   "truth-or-dare": {
     "title": "Truth or Dare",

@@ -118,16 +118,10 @@ function FrequencyGuessr({ id }: { id: string }) {
     setGameStatus('PLAYING')
   }
 
-  const submitGuess = () => {
+  const submitGuess = (e: any) => {
+    e.preventDefault();
     // check if the frequency is a valid integer > 0
-    if (!selectedFrequency) {
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Please enter a valid frequency!'
-      });
-      return;
-    }
+    if (!selectedFrequency) return;
 
     const parsedFrequency = parseInt(selectedFrequency);
 
@@ -147,6 +141,7 @@ function FrequencyGuessr({ id }: { id: string }) {
       }
     })
     sendJsonMessage({ method: 'play', frequency: parsedFrequency, name: name });
+    setSelectedFrequency('');
     setGameStatus('PLAYED');
   }
 
@@ -212,16 +207,18 @@ function FrequencyGuessr({ id }: { id: string }) {
         </div>
 
         {/* input box for frequency */}
-        <input
-          name="frequency"
-          type="text"
-          value={selectedFrequency}
-          onChange={(e) => setSelectedFrequency(e.target.value)}
-          placeholder='Enter frequency (Hz)...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
-        
-        {/* submit guess */}
-        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
+        <form onSubmit={submitGuess} className="">
+          <input
+            autoFocus
+            name="frequency"
+            type="text"
+            value={selectedFrequency}
+            onChange={(e) => setSelectedFrequency(e.target.value)}
+            placeholder='Enter frequency (Hz)...'
+            className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          {/* submit guess */}
+          <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
+        </form>
         </>}
 
       {/* played card */}
@@ -247,7 +244,7 @@ function FrequencyGuessr({ id }: { id: string }) {
 
       {/* acknowledge */}
       {gameStatus === 'EVALUATING' && <>
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
+        <button autoFocus onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }

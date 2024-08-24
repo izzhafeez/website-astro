@@ -33,6 +33,34 @@ export const getStaticPaths = (() => {
     {
       params: { deck: 'chengyu' },
       props: { title: "Chinese Chengyu" }
+    },
+    {
+      params: { deck: 'countries' },
+      props: { title: "Countries of the World" }
+    },
+    {
+      params: { deck: 'schools' },
+      props: { title: "Schools of Singapore" }
+    },
+    {
+      params: { deck: 'subzones' },
+      props: { title: "Subzones of Singapore" }
+    },
+    {
+      params: { deck: 'nus-mods' },
+      props: { title: "NUSMods Venues" }
+    },
+    {
+      params: { deck: 'cities' },
+      props: { title: "Cities of the World" }
+    },
+    {
+      params: { deck: 'pokemon' },
+      props: { title: "Pokémon" }
+    },
+    {
+      params: { deck: 'fast-food' },
+      props: { title: "Fast Food Chains" }
     }
   ];
 }) satisfies GetStaticPaths;

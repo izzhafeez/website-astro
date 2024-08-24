@@ -124,9 +124,12 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
     setGameStatus('PLAYING')
   }
 
-  const submitGuess = () => {
+  const submitGuess = (e: any) => {
+    e.preventDefault();
+
+    if (!guess) return;
     // validate guess must be number
-    if (!guess || isNaN(parseFloat(guess))) {
+    if (isNaN(parseFloat(guess))) {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -137,6 +140,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
 
     lifecycle.showSubmitSwal()
     sendJsonMessage({ method: 'play', guess: parseFloat(guess), name: name, value: deckData[itemId][fields[fieldId]] });
+    setGuess('');
     setGameStatus('PLAYED');
   }
 
@@ -172,16 +176,17 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: What's the {fields[fieldId]} of {deckData[itemId] ? deckData[itemId].name : ''}?</h3>
 
         {/* input box for frequency */}
-        <input
-          name="frequency"
-          type="text"
-          value={guess || ''}
-          onChange={(e) => setGuess(e.target.value)}
-          placeholder='Enter guess...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
-        
-        {/* submit guess */}
-        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
+        <form onSubmit={submitGuess} className="">
+          <input
+            autoFocus
+            name="frequency"
+            type="text"
+            value={guess || ''}
+            onChange={(e) => setGuess(e.target.value)}
+            placeholder='Enter guess...'
+            className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
+        </form>
         </>}
 
       {/* played card */}
@@ -199,7 +204,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
           }
         </ul>
 
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Ready</button>
+        <button autoFocus onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Ready</button>
       </>}
     </div>
   </>;

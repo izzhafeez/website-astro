@@ -115,7 +115,9 @@ function ColorGuessr({ id }: { id: string }) {
     setGameStatus('PLAYING')
   }
 
-  const submitGuess = () => {
+  const submitGuess = (e: any) => {
+    e.preventDefault();
+    if (!selectedColor) return;
     // validate hex code
     const removedHash = selectedColor.replace('#', '');
     if (!/^([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(removedHash)) {
@@ -129,6 +131,7 @@ function ColorGuessr({ id }: { id: string }) {
 
     sendJsonMessage({ method: 'play', color: removedHash, name: name });
     setGameStatus('PLAYED');
+    setSelectedColor('');
     lifecycle.showSubmitSwal();
   }
 
@@ -170,16 +173,18 @@ function ColorGuessr({ id }: { id: string }) {
         </div>
 
         {/* input box for hex code */}
-        <input
-          name="color"
-          type="text"
-          value={selectedColor}
-          onChange={(e) => setSelectedColor(e.target.value)}
-          placeholder='Enter hex code...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
-        
-        {/* submit guess */}
-        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
+        <form onSubmit={submitGuess} className="my-4">
+          <input
+            autoFocus
+            name="color"
+            type="text"
+            value={selectedColor}
+            onChange={(e) => setSelectedColor(e.target.value)}
+            placeholder='Enter hex code...'
+            className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          {/* submit guess */}
+          <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
+        </form>
         </>}
 
       {/* played card */}
@@ -202,7 +207,7 @@ function ColorGuessr({ id }: { id: string }) {
 
       {/* acknowledge */}
       {gameStatus === 'EVALUATING' && <>
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
+        <button autoFocus onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }

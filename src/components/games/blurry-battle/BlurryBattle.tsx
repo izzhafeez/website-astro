@@ -7,7 +7,7 @@ import GameStart from '../common/GameStart';
 import GameJoin from '../common/GameJoin';
 import lifecycle from '../common/GameLifecycle';
 
-const instructions = gamesData['data-hedger'].heroText;
+const instructions = gamesData['blurry-battle'].heroText;
 
 type PlayerData = {
   points: number;
@@ -115,9 +115,12 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
     setGameStatus('PLAYING')
   }
 
-  const submitGuess = () => {
+  const submitGuess = (e: any) => {
+    e.preventDefault();
+    if (!guess) return;
     sendJsonMessage({ method: 'play', guess, name: name, answer: deckData[answerId] });
     setGameStatus('PLAYED');
+    setGuess('');
     lifecycle.showSubmitSwal();
   }
 
@@ -161,24 +164,26 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
       {/* blurred answer */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Guess what this says:</h3>
-        <span className="dark:text-white p-2 my-4 rounded-md blur-md text-6xl">{deckData[answerId]}</span>
+        <span className="dark:text-white p-2 my-4 rounded-md blur-md text-6xl select-none">{deckData[answerId]}</span>
       </>}
 
       {/* guess */}
-      {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
+      {(gameStatus === 'PLAYING') && <>
         <br/>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Your Guess:</h3>
-        <input type="text" value={guess} onChange={e => setGuess(e.target.value)} className="p-2 rounded-md border-[1px] border-gray-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"/>
+        <form onSubmit={submitGuess} className="flex">
+          <input autoFocus type="text" value={guess} onChange={(e) => setGuess(e.target.value)} className="p-2 rounded-md border-[1px] border-gray-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"/>
+        </form>
       </>}
 
       {/* play selected card */}
       {gameStatus === 'PLAYING' && <>
-        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Play Card</button>
+        <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Guess</button>
       </>}
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The answer was {deckData[answerId]}! Players played:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
@@ -195,7 +200,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
 
       {/* acknowledge */}
       {gameStatus === 'EVALUATING' && <>
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
+        <button autoFocus onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }

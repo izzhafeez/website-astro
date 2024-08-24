@@ -8,6 +8,27 @@
   "chengyu": {
     "title": "Chengyu (Chinese Idioms)"
   },
+  "countries": {
+    "title": "Countries of the World"
+  },
+  "schools": {
+    "title": "Schools of Singapore"
+  },
+  "nus-mods": {
+    "title": "NUS Modules"
+  },
+  "pokemon": {
+    "title": "Pokémon"
+  },
+  "fast-food": {
+    "title": "Fast Food Items"
+  },
+  "cities": {
+    "title": "Cities of the World"
+  },
+  "subzones": {
+    "title": "Subzones of Singapore"
+  },
   "london-underground": {
     "title": "London Underground Stations"
   },

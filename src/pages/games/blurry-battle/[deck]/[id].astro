@@ -10,6 +10,13 @@ import londonData from "../../../../data/games/blurry-battle/london-underground.
 import busData from "../../../../data/games/blurry-battle/bus-stops.json";
 import tokyoMetroData from "../../../../data/games/blurry-battle/tokyo-metro.json";
 import chengyuData from "../../../../data/games/blurry-battle/chengyu.json";
+import countriesData from "../../../../data/games/blurry-battle/countries.json";
+import schoolsData from "../../../../data/games/blurry-battle/schools.json";
+import subzonesData from "../../../../data/games/blurry-battle/subzones.json";
+import nusModsData from "../../../../data/games/blurry-battle/nus-mods.json";
+import citiesData from "../../../../data/games/blurry-battle/cities.json";
+import pokemonData from "../../../../data/games/blurry-battle/pokemon.json";
+import fastFoodData from "../../../../data/games/blurry-battle/fast-food.json";
 import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
 
 export const prerender = false;
@@ -53,6 +60,48 @@ switch (deckName) {
     deck = {
       title: "Chinese Chengyu",
       data: chengyuData
+    }
+    break;
+  case "countries":
+    deck = {
+      title: "Countries of the World",
+      data: countriesData
+    }
+    break;
+  case "schools":
+    deck = {
+      title: "Schools of Singapore",
+      data: schoolsData
+    }
+    break;
+  case "subzones":
+    deck = {
+      title: "Subzones of Singapore",
+      data: subzonesData
+    }
+    break;
+  case "nus-mods":
+    deck = {
+      title: "NUS Modules",
+      data: nusModsData
+    }
+    break;
+  case "cities":
+    deck = {
+      title: "Cities of the World",
+      data: citiesData
+    }
+    break;
+  case "pokemon":
+    deck = {
+      title: "Pokemon",
+      data: pokemonData
+    }
+    break;
+  case "fast-food":
+    deck = {
+      title: "Fast Food Items",
+      data: fastFoodData
     }
     break;
   default:

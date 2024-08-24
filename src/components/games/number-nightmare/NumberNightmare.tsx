@@ -257,14 +257,14 @@ function NumberNightmare({ id }: { id: string }) {
 
       Swal.fire({
         icon: 'info',
-        title: `Winners of each field`,
+        title: `What each person played`,
         html: `
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
             <thead class="text-xs text-gray-700 uppercase bg-gray-100">
               <tr>
-                <th scope="col" class="px-6 py-3">Field</th>
-                <th scope="col" class="px-6 py-3">Value</th>
-                <th scope="col" class="px-6 py-3">Winners</th>
+                <th scope="col" class="px-6 py-3">Name</th>
+                <th scope="col" class="px-6 py-3">Number</th>
+                <th scope="col" class="px-6 py-3">Points</th>
               </tr>
             </thead>
             ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
@@ -319,15 +319,9 @@ function NumberNightmare({ id }: { id: string }) {
     setGameStatus('PLAYING')
   }
 
-  const submitCard = () => {
-    if (!selectedNumber) {
-      Swal.fire({
-        icon: 'error',
-        title: 'Select a number!',
-        text: 'You must select a number to play!',
-      });
-      return;
-    }
+  const submitCard = (e: any) => {
+    e.preventDefault();
+    if (!selectedNumber) return;
 
     // if not number
     if (isNaN(parseInt(selectedNumber))) {
@@ -350,10 +344,10 @@ function NumberNightmare({ id }: { id: string }) {
     }
 
     const satisfied_conditions = options.filter(option => conditions[option].condition(parseInt(selectedNumber)));
-    console.log(satisfied_conditions);
 
     sendJsonMessage({ method: 'play', played_number: selectedNumber, satisfy_count: satisfied_conditions.length, name });
     setGameStatus('PLAYED');
+    setSelectedNumber('');
     lifecycle.showSubmitSwal();
   }
 
@@ -407,12 +401,10 @@ function NumberNightmare({ id }: { id: string }) {
       {/* input box to selectNumber */}
       {gameStatus === 'PLAYING' && <>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Select a number between 1 and 99 inclusive:</h3>
-        <input type="number" value={selectedNumber} onChange={(e) => setSelectedNumber(e.target.value)} className="p-2 rounded-md border-[1px] border-dt-500 dark:border-dt-300 bg-white dark:bg-gray-700" />
-      </>}
-
-      {/* play selected card */}
-      {gameStatus === 'PLAYING' && <>
-        <button onClick={submitCard} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white ms-2">Play Card</button>
+        <form onSubmit={submitCard}>
+          <input type="number" value={selectedNumber} onChange={(e) => setSelectedNumber(e.target.value)} className="p-2 rounded-md border-[1px] border-dt-500 dark:border-dt-300 bg-white dark:bg-gray-700" />
+          <button onClick={submitCard} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white ms-2">Play Card</button>
+        </form>
       </>}
 
       {/* played card */}
@@ -439,7 +431,7 @@ function NumberNightmare({ id }: { id: string }) {
 
       {/* acknowledge */}
       {gameStatus === 'EVALUATING' && <>
-        <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
+        <button autoFocus onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-2">Ready</button></>}
     </div>
   </>;
 }
