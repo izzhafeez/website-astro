@@ -17,6 +17,10 @@ import nusModsData from "../../../../data/games/blurry-battle/nus-mods.json";
 import citiesData from "../../../../data/games/blurry-battle/cities.json";
 import pokemonData from "../../../../data/games/blurry-battle/pokemon.json";
 import fastFoodData from "../../../../data/games/blurry-battle/fast-food.json";
+import chineseVocabData from "../../../../data/games/blurry-battle/chinese-vocab.json";
+import csModsData from "../../../../data/games/blurry-battle/cs-mods.json";
+import elementsData from "../../../../data/games/blurry-battle/elements.json";
+import programmingLanguagesData from "../../../../data/games/blurry-battle/programming-languages.json";
 import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
 
 export const prerender = false;
@@ -102,6 +106,30 @@ switch (deckName) {
     deck = {
       title: "Fast Food Items",
       data: fastFoodData
+    }
+    break;
+  case "chinese-vocab":
+    deck = {
+      title: "Chinese Vocabulary",
+      data: chineseVocabData
+    }
+    break;
+  case "cs-mods":
+    deck = {
+      title: "CS Modules",
+      data: csModsData
+    }
+    break;
+  case "elements":
+    deck = {
+      title: "Elements",
+      data: elementsData
+    }
+    break;
+  case "programming-languages":
+    deck = {
+      title: "Programming Languages",
+      data: programmingLanguagesData
     }
     break;
   default:

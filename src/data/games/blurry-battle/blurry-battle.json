@@ -17,11 +17,23 @@
   "nus-mods": {
     "title": "NUS Modules"
   },
+  "cs-mods": {
+    "title": "NUS CS Modules"
+  },
+  "chinese-vocab": {
+    "title": "Chinese Vocabulary"
+  },
   "pokemon": {
     "title": "Pokémon"
   },
+  "elements": {
+    "title": "Chemical Elements"
+  },
   "fast-food": {
     "title": "Fast Food Items"
+  },
+  "programming-languages": {
+    "title": "Programming Languages"
   },
   "cities": {
     "title": "Cities of the World"

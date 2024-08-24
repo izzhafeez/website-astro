@@ -61,6 +61,22 @@ export const getStaticPaths = (() => {
     {
       params: { deck: 'fast-food' },
       props: { title: "Fast Food Chains" }
+    },
+    {
+      params: { deck: 'chinese-vocab' },
+      props: { title: "Chinese Vocabulary" }
+    },
+    {
+      params: { deck: 'cs-mods' },
+      props: { title: "NUS CS Modules" }
+    },
+    {
+      params: { deck: 'elements' },
+      props: { title: "Chemical Elements" }
+    },
+    {
+      params: { deck: 'programming-languages' },
+      props: { title: "Programming Languages" }
     }
   ];
 }) satisfies GetStaticPaths;
