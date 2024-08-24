@@ -164,7 +164,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
       {/* blurred answer */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Guess what this says:</h3>
-        <span className="dark:text-white p-2 my-4 rounded-md blur-md text-6xl select-none">{deckData[answerId]}</span>
+        <span className={`dark:text-white p-2 my-4 rounded-md ${deckData[answerId].length > 3 ? 'blur-md text-6xl' : 'blur-sm text-3xl'} select-none`}>{deckData[answerId]}</span>
       </>}
 
       {/* guess */}
