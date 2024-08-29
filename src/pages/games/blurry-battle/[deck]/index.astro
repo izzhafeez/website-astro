@@ -77,13 +77,17 @@ export const getStaticPaths = (() => {
     {
       params: { deck: 'programming-languages' },
       props: { title: "Programming Languages" }
+    },
+    {
+      params: { deck: 'uncle-roger-quotes' },
+      props: { title: "Uncle Roger Quotes" }
     }
   ];
 }) satisfies GetStaticPaths;
 
 const { deck } = Astro.params;
 const { title } = Astro.props;
-const instructions = `How well do you know the ${title}?`;
+const instructions = `How well do you know ${title}?`;
 const heroText = gamesData["blurry-battle"].heroText;
 ---
 
