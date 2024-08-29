@@ -21,6 +21,7 @@ import chineseVocabData from "../../../../data/games/blurry-battle/chinese-vocab
 import csModsData from "../../../../data/games/blurry-battle/cs-mods.json";
 import elementsData from "../../../../data/games/blurry-battle/elements.json";
 import programmingLanguagesData from "../../../../data/games/blurry-battle/programming-languages.json";
+import randomQuotesData from "../../../../data/games/blurry-battle/random-quotes.json";
 import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
 
 export const prerender = false;
@@ -130,6 +131,12 @@ switch (deckName) {
     deck = {
       title: "Programming Languages",
       data: programmingLanguagesData
+    }
+    break;
+  case "uncle-roger-quotes":
+    deck = {
+      title: "Uncle Roger Quotes",
+      data: randomQuotesData
     }
     break;
   default:
