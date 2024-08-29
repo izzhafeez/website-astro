@@ -94,6 +94,7 @@ const HikesSection = ({ hikeData }: { hikeData: HikeData }) => {
           <span className="bg-hp-500"></span>
           <span className="bg-lrt-500"></span>
           <span className="bg-mp-500"></span>
+          <span className="bg-black/50"></span>
         </div>
         <p className="text-gray-500 text-sm">{`${value.date} | ${value.distance.toFixed(2)}km`}</p>
       </a>)}
