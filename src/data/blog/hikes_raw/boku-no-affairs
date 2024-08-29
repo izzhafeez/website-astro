@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boku No Affairs</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Boku No Affairs</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          103.84334,1.32007,0
+          103.84322,1.31993,0
+          103.84318,1.31988,0
+          103.84316,1.31991,0
+          103.84307,1.32001,0
+          103.84294,1.32018,0
+          103.84289,1.32025,0
+          103.84279,1.32037,0
+          103.84273,1.32043,0
+          103.84258,1.32063,0
+          103.8426,1.32065,0
+          103.84261,1.32068,0
+          103.84258,1.32071,0
+          103.84253,1.32076,0
+          103.84258,1.32079,0
+          103.84263,1.32082,0
+          103.84283,1.32088,0
+          103.84298,1.32092,0
+          103.84302,1.32094,0
+          103.84331,1.32104,0
+          103.84336,1.32106,0
+          103.84361,1.32116,0
+          103.84366,1.32118,0
+          103.8438,1.32124,0
+          103.84382,1.32125,0
+          103.84403,1.32134,0
+          103.84412,1.32137,0
+          103.84429,1.32144,0
+          103.84436,1.32146,0
+          103.84443,1.32149,0
+          103.84462,1.32162,0
+          103.84469,1.32166,0
+          103.84481,1.3218,0
+          103.84484,1.32196,0
+          103.84499,1.32213,0
+          103.845,1.32214,0
+          103.84503,1.32219,0
+          103.84512,1.32232,0
+          103.84514,1.32236,0
+          103.84519,1.32242,0
+          103.84523,1.32246,0
+          103.84526,1.32251,0
+          103.84528,1.32253,0
+          103.84536,1.3227,0
+          103.84539,1.32275,0
+          103.84536,1.32276,0
+          103.84533,1.32277,0
+          103.84529,1.32279,0
+          103.84525,1.3228,0
+          103.84524,1.32287,0
+          103.84523,1.32296,0
+          103.84522,1.32302,0
+          103.84522,1.32303,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Thomson Road, Novena MRT Station (NS20), Singapore</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          103.8433445,1.3200658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Irrawaddy Road, Ministry of Home Affairs, Singapore</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          103.8452236,1.3230318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
