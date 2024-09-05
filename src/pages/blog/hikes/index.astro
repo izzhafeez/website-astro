@@ -14,9 +14,16 @@ import HikesSection from '../../../components/blog/HikesSection';
 const heroText = blogData.hikes.heroText;
 
 const hikes = [];
+let totalDistance = 0;
+let futureDistance = 0;
 for (const [key, value] of Object.entries(hikeData)) {
   let distance = parseFloat((routesData as any)[key].length.toFixed(2));
   (hikeData as any)[key].distance = distance;
+  if (value.date != "TBD") {
+    totalDistance += distance;
+  } else {
+    futureDistance += distance;
+  }
   hikes.push({
     label: `<b>${value.name}</b><br/>${distance} km`,
     color: value.color,
@@ -38,7 +45,7 @@ for (const [key, value] of Object.entries(hikeData)) {
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
-    <Hero label="HIKES" text={heroText} site="blog"/>
+    <Hero label="HIKES" text={`${heroText} So far, I've walked ${totalDistance.toFixed(0)}km, and I'm planning for ${futureDistance.toFixed(0)}km more.`} site="blog"/>
     <LLMap client:only="svelte" lines={hikes}/>
     <HikesSection hikeData={hikeData} client:load/>
     <Footer site="blog"/>
