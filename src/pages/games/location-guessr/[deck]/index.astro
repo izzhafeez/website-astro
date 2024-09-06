@@ -127,6 +127,15 @@ export const getStaticPaths = (() => {
         title: statAttackData.unesco.title,
         instructions: statAttackData.unesco.instructions
       }
+    },
+    {
+      params: {
+        deck: "hikes"
+      },
+      props: {
+        title: statAttackData.hikes.title,
+        instructions: statAttackData.hikes.instructions
+      }
     }
   ];
 }) satisfies GetStaticPaths;

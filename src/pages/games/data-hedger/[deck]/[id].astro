@@ -44,6 +44,7 @@ import colorsData from "../../../../data/games/stat-attack/colors.json";
 import deathsData from "../../../../data/games/stat-attack/deaths.json";
 import amazonData from "../../../../data/games/stat-attack/amazon.json";
 import youtubeVideosData from "../../../../data/games/stat-attack/youtube-videos.json";
+import hikesData from "../../../../data/games/stat-attack/hikes.json";
 
 export const prerender = false;
 const { id } = Astro.params;
@@ -290,6 +291,12 @@ switch (deckName) {
     deck = {
       title: "YouTube Videos",
       data: youtubeVideosData
+    }
+    break;
+  case 'hikes':
+    deck = {
+      title: "My Hikes",
+      data: hikesData
     }
     break;
   default:

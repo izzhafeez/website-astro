@@ -4,6 +4,11 @@
     "instructions": "Fight using the latitude, longitude, number of Google reviews and Google rating!",
     "tags": ["Geography", "Singapore"]
   },
+  "hikes": {
+    "title": "My Hikes",
+    "instructions": "Fight using the distance, start latitude and longitude!",
+    "tags": ["Geography", "Hiking"]
+  },
   "famous-people":{ 
     "title": "Famous People",
     "instructions": "Fight using the birth year, number of monthly wikipedia views, and where they were born!",

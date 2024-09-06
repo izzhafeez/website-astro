@@ -1,75 +1,9 @@
 [
   {
-    "name": "The Circle of Life",
-    "Distance (km)": 42.812,
-    "Start Latitude": 1.2651,
-    "Start Longitude": 103.82187
-  },
-  {
-    "name": "Coast 2 Coast",
-    "Distance (km)": 42.378,
-    "Start Latitude": 1.34912,
-    "Start Longitude": 103.74954
-  },
-  {
-    "name": "Malls of the Best Town",
-    "Distance (km)": 4.151,
-    "Start Latitude": 1.37132,
-    "Start Longitude": 103.96404
-  },
-  {
-    "name": "Sungei Buloh",
-    "Distance (km)": 9.296,
-    "Start Latitude": 1.44616,
-    "Start Longitude": 103.72947
-  },
-  {
-    "name": "Pulau NTU",
-    "Distance (km)": 29.561,
-    "Start Latitude": 1.33753,
-    "Start Longitude": 103.69737
-  },
-  {
-    "name": "The Ghettos",
-    "Distance (km)": 17.856,
-    "Start Latitude": 1.44902,
-    "Start Longitude": 103.81987
-  },
-  {
-    "name": "\u4e09\u56fd\u6f14\u4e49",
-    "Distance (km)": 32.495,
-    "Start Latitude": 1.4481,
-    "Start Longitude": 103.78547
-  },
-  {
     "name": "\u7ea2\u7ebf\u68a6",
     "Distance (km)": 28.733,
     "Start Latitude": 1.44902,
     "Start Longitude": 103.81987
-  },
-  {
-    "name": "Pasir Ris Park",
-    "Distance (km)": 11.252,
-    "Start Latitude": 1.3731,
-    "Start Longitude": 103.94939
-  },
-  {
-    "name": "Boku no Affairs",
-    "Distance (km)": 0.604,
-    "Start Latitude": 1.32007,
-    "Start Longitude": 103.84334
-  },
-  {
-    "name": "\u4e1c\u5317\u6e38\u8bb0",
-    "Distance (km)": 24.595,
-    "Start Latitude": 1.2651,
-    "Start Longitude": 103.82187
-  },
-  {
-    "name": "\u897f\u6e38\u8bb0",
-    "Distance (km)": 14.37,
-    "Start Latitude": 1.33977,
-    "Start Longitude": 103.63667
   },
   {
     "name": "Where's My Shelter",
@@ -78,292 +12,10 @@
     "Start Longitude": 103.94939
   },
   {
-    "name": "Bishan Resident",
-    "Distance (km)": 0.711,
-    "Start Latitude": 1.35057,
-    "Start Longitude": 103.84908
-  },
-  {
-    "name": "The Forgotten Airport",
-    "Distance (km)": 25.081,
-    "Start Latitude": 1.3731,
-    "Start Longitude": 103.94939
-  },
-  {
-    "name": "Ichikokudo",
-    "Distance (km)": 0.817,
-    "Start Latitude": 1.29953,
-    "Start Longitude": 103.85499
-  },
-  {
-    "name": "Sentosa",
-    "Distance (km)": 14.693,
-    "Start Latitude": 1.2651,
-    "Start Longitude": 103.82187
-  },
-  {
-    "name": "Malls of the Long Hill",
-    "Distance (km)": 9.549,
-    "Start Latitude": 1.39732,
-    "Start Longitude": 103.74761
-  },
-  {
-    "name": "Quantum Inventions",
-    "Distance (km)": 1.382,
-    "Start Latitude": 1.31158,
-    "Start Longitude": 103.87121
-  },
-  {
-    "name": "Bedok Reservoir",
-    "Distance (km)": 28.548,
-    "Start Latitude": 1.3731,
-    "Start Longitude": 103.94939
-  },
-  {
-    "name": "Tale of Two Rivers",
-    "Distance (km)": 19.803,
-    "Start Latitude": 1.33332,
-    "Start Longitude": 103.74264
-  },
-  {
-    "name": "\u4e24\u56fd\u6f14\u4e49",
-    "Distance (km)": 17.807,
-    "Start Latitude": 1.43686,
-    "Start Longitude": 103.78659
-  },
-  {
-    "name": "We Care at East Coast",
-    "Distance (km)": 30.929,
-    "Start Latitude": 1.31887,
-    "Start Longitude": 103.82572
-  },
-  {
-    "name": "Malls of the East",
-    "Distance (km)": 24.667,
-    "Start Latitude": 1.28419,
-    "Start Longitude": 103.85086
-  },
-  {
-    "name": "\u7ea2\u7ebf\u68a6\u524d\u6bb5",
-    "Distance (km)": 16.081,
-    "Start Latitude": 1.43241,
-    "Start Longitude": 103.77411
-  },
-  {
-    "name": "Malls of the North",
-    "Distance (km)": 12.922,
-    "Start Latitude": 1.43686,
-    "Start Longitude": 103.78659
-  },
-  {
-    "name": "Singapura Very Strong",
-    "Distance (km)": 14.184,
-    "Start Latitude": 1.27243,
-    "Start Longitude": 103.80303
-  },
-  {
-    "name": "SCDF HQ",
-    "Distance (km)": 2.278,
-    "Start Latitude": 1.33593,
-    "Start Longitude": 103.88778
-  },
-  {
-    "name": "Plabians",
-    "Distance (km)": 9.924,
-    "Start Latitude": 1.327,
-    "Start Longitude": 103.94646
-  },
-  {
-    "name": "Malls of the Harbour",
-    "Distance (km)": 16.114,
-    "Start Latitude": 1.27251,
-    "Start Longitude": 103.80275
-  },
-  {
-    "name": "Malls of the Far East",
-    "Distance (km)": 9.15,
-    "Start Latitude": 1.3274,
-    "Start Longitude": 103.9463
-  },
-  {
-    "name": "Tentera di Raja",
-    "Distance (km)": 1.662,
-    "Start Latitude": 1.29936,
-    "Start Longitude": 103.76934
-  },
-  {
     "name": "Making My Way Downtown",
     "Distance (km)": 23.819,
     "Start Latitude": 1.37913,
     "Start Longitude": 103.76183
-  },
-  {
-    "name": "Haiya My Sister La",
-    "Distance (km)": 2.39,
-    "Start Latitude": 1.31635,
-    "Start Longitude": 103.88311
-  },
-  {
-    "name": "BP in Your Area",
-    "Distance (km)": 19.474,
-    "Start Latitude": 1.35921,
-    "Start Longitude": 103.75184
-  },
-  {
-    "name": "I Took D1 by Accident",
-    "Distance (km)": 2.031,
-    "Start Latitude": 1.30347,
-    "Start Longitude": 103.77409
-  },
-  {
-    "name": "Welcome to Hell",
-    "Distance (km)": 8.139,
-    "Start Latitude": 1.28304,
-    "Start Longitude": 103.7819
-  },
-  {
-    "name": "River Flows in You",
-    "Distance (km)": 26.087,
-    "Start Latitude": 1.41721,
-    "Start Longitude": 103.83314
-  },
-  {
-    "name": "Bismillah",
-    "Distance (km)": 11.719,
-    "Start Latitude": 1.30986,
-    "Start Longitude": 103.92963
-  },
-  {
-    "name": "Plan for the East Coast",
-    "Distance (km)": 12.744,
-    "Start Latitude": 1.32379,
-    "Start Longitude": 103.93022
-  },
-  {
-    "name": "Cow Car Water",
-    "Distance (km)": 7.033,
-    "Start Latitude": 1.28505,
-    "Start Longitude": 103.84378
-  },
-  {
-    "name": "Malls of the North East",
-    "Distance (km)": 24.986,
-    "Start Latitude": 1.40513,
-    "Start Longitude": 103.90242
-  },
-  {
-    "name": "I Teck Leave for This",
-    "Distance (km)": 21.987,
-    "Start Latitude": 1.40507,
-    "Start Longitude": 103.90238
-  },
-  {
-    "name": "Deez Nutz",
-    "Distance (km)": 13.205,
-    "Start Latitude": 1.36237,
-    "Start Longitude": 103.76735
-  },
-  {
-    "name": "West Side Story",
-    "Distance (km)": 13.883,
-    "Start Latitude": 1.31543,
-    "Start Longitude": 103.76508
-  },
-  {
-    "name": "Malls of Alexandra",
-    "Distance (km)": 8.901,
-    "Start Latitude": 1.28965,
-    "Start Longitude": 103.8025
-  },
-  {
-    "name": "Bus BTC (there's also SMU)",
-    "Distance (km)": 17.964,
-    "Start Latitude": 1.29369,
-    "Start Longitude": 103.78427
-  },
-  {
-    "name": "Spr\u00edngl\u011baf",
-    "Distance (km)": 15.292,
-    "Start Latitude": 1.39738,
-    "Start Longitude": 103.81843
-  },
-  {
-    "name": "Faber Castell",
-    "Distance (km)": 7.99,
-    "Start Latitude": 1.29369,
-    "Start Longitude": 103.78427
-  },
-  {
-    "name": "Malls of the Foreign",
-    "Distance (km)": 4.368,
-    "Start Latitude": 1.31891,
-    "Start Longitude": 103.82571
-  },
-  {
-    "name": "All Unis are Good Unis",
-    "Distance (km)": 20.881,
-    "Start Latitude": 1.29823,
-    "Start Longitude": 103.84971
-  },
-  {
-    "name": "Malls of the West",
-    "Distance (km)": 5.061,
-    "Start Latitude": 1.29484,
-    "Start Longitude": 103.77366
-  },
-  {
-    "name": "The Way of Water",
-    "Distance (km)": 23.776,
-    "Start Latitude": 1.38289,
-    "Start Longitude": 103.89322
-  },
-  {
-    "name": "Malls of the Thomson",
-    "Distance (km)": 7.816,
-    "Start Latitude": 1.3698,
-    "Start Longitude": 103.84917
-  },
-  {
-    "name": "L\u014dr \u00d3ng Ly\u0113",
-    "Distance (km)": 10.321,
-    "Start Latitude": 1.34234,
-    "Start Longitude": 103.88042
-  },
-  {
-    "name": "Malls of the Ancients",
-    "Distance (km)": 10.351,
-    "Start Latitude": 1.30739,
-    "Start Longitude": 103.86306
-  },
-  {
-    "name": "What Defu?",
-    "Distance (km)": 19.366,
-    "Start Latitude": 1.38177,
-    "Start Longitude": 103.8451
-  },
-  {
-    "name": "Bukit Brown",
-    "Distance (km)": 23.815,
-    "Start Latitude": 1.34862,
-    "Start Longitude": 103.83971
-  },
-  {
-    "name": "Ain't No Bukit High Enough",
-    "Distance (km)": 14.37,
-    "Start Latitude": 1.34088,
-    "Start Longitude": 103.77583
-  },
-  {
-    "name": "Thomson and Thomson",
-    "Distance (km)": 15.826,
-    "Start Latitude": 1.31995,
-    "Start Longitude": 103.86171
-  },
-  {
-    "name": "The Farrerst of Them All",
-    "Distance (km)": 9.001,
-    "Start Latitude": 1.3174,
-    "Start Longitude": 103.80782
   },
   {
     "name": "HortRidge Park",
@@ -372,22 +24,58 @@
     "Start Longitude": 103.79061
   },
   {
-    "name": "Hawkerman",
-    "Distance (km)": 13.69,
-    "Start Latitude": 1.37264,
-    "Start Longitude": 103.83706
+    "name": "Malls of the East",
+    "Distance (km)": 24.667,
+    "Start Latitude": 1.28419,
+    "Start Longitude": 103.85086
   },
   {
-    "name": "Rifle Range",
-    "Distance (km)": 14.722,
-    "Start Latitude": 1.36326,
-    "Start Longitude": 103.83315
+    "name": "The Way of Water",
+    "Distance (km)": 23.776,
+    "Start Latitude": 1.38289,
+    "Start Longitude": 103.89322
   },
   {
-    "name": "UNESCO World Heritage",
-    "Distance (km)": 12.158,
-    "Start Latitude": 1.31887,
-    "Start Longitude": 103.82572
+    "name": "Ichikokudo",
+    "Distance (km)": 0.817,
+    "Start Latitude": 1.29953,
+    "Start Longitude": 103.85499
+  },
+  {
+    "name": "Deez Nutz",
+    "Distance (km)": 13.205,
+    "Start Latitude": 1.36237,
+    "Start Longitude": 103.76735
+  },
+  {
+    "name": "Malls of the Ancients",
+    "Distance (km)": 10.351,
+    "Start Latitude": 1.30739,
+    "Start Longitude": 103.86306
+  },
+  {
+    "name": "Boku no Affairs",
+    "Distance (km)": 0.604,
+    "Start Latitude": 1.32007,
+    "Start Longitude": 103.84334
+  },
+  {
+    "name": "Malls of the Thomson",
+    "Distance (km)": 7.816,
+    "Start Latitude": 1.3698,
+    "Start Longitude": 103.84917
+  },
+  {
+    "name": "\u7ea2\u7ebf\u68a6\u524d\u6bb5",
+    "Distance (km)": 16.081,
+    "Start Latitude": 1.43241,
+    "Start Longitude": 103.77411
+  },
+  {
+    "name": "Sentosa",
+    "Distance (km)": 14.693,
+    "Start Latitude": 1.2651,
+    "Start Longitude": 103.82187
   },
   {
     "name": "Alhamdulillah",
@@ -396,15 +84,357 @@
     "Start Longitude": 103.84334
   },
   {
+    "name": "Singapura Very Strong",
+    "Distance (km)": 14.184,
+    "Start Latitude": 1.27243,
+    "Start Longitude": 103.80303
+  },
+  {
+    "name": "\u4e24\u56fd\u6f14\u4e49",
+    "Distance (km)": 17.807,
+    "Start Latitude": 1.43686,
+    "Start Longitude": 103.78659
+  },
+  {
+    "name": "\u4e1c\u5317\u6e38\u8bb0",
+    "Distance (km)": 24.595,
+    "Start Latitude": 1.2651,
+    "Start Longitude": 103.82187
+  },
+  {
+    "name": "Mm Yes Very Wet",
+    "Distance (km)": 9.296,
+    "Start Latitude": 1.44616,
+    "Start Longitude": 103.72947
+  },
+  {
+    "name": "Cow Car Water",
+    "Distance (km)": 7.033,
+    "Start Latitude": 1.28505,
+    "Start Longitude": 103.84378
+  },
+  {
+    "name": "Malls of the North",
+    "Distance (km)": 12.922,
+    "Start Latitude": 1.43686,
+    "Start Longitude": 103.78659
+  },
+  {
+    "name": "Malls of the Far East",
+    "Distance (km)": 9.15,
+    "Start Latitude": 1.3274,
+    "Start Longitude": 103.9463
+  },
+  {
+    "name": "Coast 2 Coast",
+    "Distance (km)": 42.378,
+    "Start Latitude": 1.34912,
+    "Start Longitude": 103.74954
+  },
+  {
+    "name": "Bukit Brown",
+    "Distance (km)": 23.815,
+    "Start Latitude": 1.34862,
+    "Start Longitude": 103.83971
+  },
+  {
+    "name": "SCDF HQ",
+    "Distance (km)": 2.278,
+    "Start Latitude": 1.33593,
+    "Start Longitude": 103.88778
+  },
+  {
+    "name": "I am Speed",
+    "Distance (km)": 5.265,
+    "Start Latitude": 1.29151,
+    "Start Longitude": 103.86418
+  },
+  {
+    "name": "Rifle Range",
+    "Distance (km)": 14.722,
+    "Start Latitude": 1.36326,
+    "Start Longitude": 103.83315
+  },
+  {
+    "name": "Pulau NTU",
+    "Distance (km)": 29.561,
+    "Start Latitude": 1.33753,
+    "Start Longitude": 103.69737
+  },
+  {
+    "name": "Spr\u00edngl\u011baf",
+    "Distance (km)": 15.292,
+    "Start Latitude": 1.39738,
+    "Start Longitude": 103.81843
+  },
+  {
+    "name": "\u4e09\u56fd\u6f14\u4e49",
+    "Distance (km)": 32.495,
+    "Start Latitude": 1.4481,
+    "Start Longitude": 103.78547
+  },
+  {
+    "name": "The Ghettos",
+    "Distance (km)": 17.856,
+    "Start Latitude": 1.44902,
+    "Start Longitude": 103.81987
+  },
+  {
+    "name": "Welcome to Malaysia",
+    "Distance (km)": 9.599,
+    "Start Latitude": 1.4481,
+    "Start Longitude": 103.78547
+  },
+  {
+    "name": "Bismillah",
+    "Distance (km)": 11.719,
+    "Start Latitude": 1.30986,
+    "Start Longitude": 103.92963
+  },
+  {
+    "name": "What Defu?",
+    "Distance (km)": 19.366,
+    "Start Latitude": 1.38177,
+    "Start Longitude": 103.8451
+  },
+  {
+    "name": "Malls of the Best Town",
+    "Distance (km)": 4.151,
+    "Start Latitude": 1.37132,
+    "Start Longitude": 103.96404
+  },
+  {
+    "name": "Quantum Inventions",
+    "Distance (km)": 1.382,
+    "Start Latitude": 1.31158,
+    "Start Longitude": 103.87121
+  },
+  {
+    "name": "BP in Your Area",
+    "Distance (km)": 19.474,
+    "Start Latitude": 1.35921,
+    "Start Longitude": 103.75184
+  },
+  {
+    "name": "Lazada",
+    "Distance (km)": 1.522,
+    "Start Latitude": 1.22227,
+    "Start Longitude": 103.84597
+  },
+  {
+    "name": "Malls of the Foreign",
+    "Distance (km)": 4.368,
+    "Start Latitude": 1.31891,
+    "Start Longitude": 103.82571
+  },
+  {
+    "name": "Malls of Alexandra",
+    "Distance (km)": 8.901,
+    "Start Latitude": 1.28965,
+    "Start Longitude": 103.8025
+  },
+  {
+    "name": "Bedok Reservoir",
+    "Distance (km)": 28.548,
+    "Start Latitude": 1.3731,
+    "Start Longitude": 103.94939
+  },
+  {
+    "name": "Plan for the East Coast",
+    "Distance (km)": 12.744,
+    "Start Latitude": 1.32379,
+    "Start Longitude": 103.93022
+  },
+  {
+    "name": "Pasir Ris Park",
+    "Distance (km)": 11.252,
+    "Start Latitude": 1.3731,
+    "Start Longitude": 103.94939
+  },
+  {
+    "name": "The Forgotten Airport",
+    "Distance (km)": 25.081,
+    "Start Latitude": 1.3731,
+    "Start Longitude": 103.94939
+  },
+  {
+    "name": "Welcome to Hell",
+    "Distance (km)": 8.139,
+    "Start Latitude": 1.28304,
+    "Start Longitude": 103.7819
+  },
+  {
+    "name": "L\u014dr \u00d3ng Ly\u0113",
+    "Distance (km)": 11.189,
+    "Start Latitude": 1.33816,
+    "Start Longitude": 103.87078
+  },
+  {
+    "name": "I Took D1 by Accident",
+    "Distance (km)": 2.031,
+    "Start Latitude": 1.30347,
+    "Start Longitude": 103.77409
+  },
+  {
+    "name": "Tentera di Raja",
+    "Distance (km)": 1.662,
+    "Start Latitude": 1.29936,
+    "Start Longitude": 103.76934
+  },
+  {
+    "name": "Haiya My Sister La",
+    "Distance (km)": 2.39,
+    "Start Latitude": 1.31635,
+    "Start Longitude": 103.88311
+  },
+  {
     "name": "Tel3portation",
     "Distance (km)": 15.168,
     "Start Latitude": 1.31891,
     "Start Longitude": 103.82571
   },
   {
+    "name": "Malls of the West",
+    "Distance (km)": 5.061,
+    "Start Latitude": 1.29484,
+    "Start Longitude": 103.77366
+  },
+  {
+    "name": "\u897f\u6e38\u8bb0",
+    "Distance (km)": 14.37,
+    "Start Latitude": 1.33977,
+    "Start Longitude": 103.63667
+  },
+  {
+    "name": "West Side Story",
+    "Distance (km)": 13.883,
+    "Start Latitude": 1.31543,
+    "Start Longitude": 103.76508
+  },
+  {
+    "name": "Ain't No Bukit High Enough",
+    "Distance (km)": 14.37,
+    "Start Latitude": 1.34088,
+    "Start Longitude": 103.77583
+  },
+  {
+    "name": "UNESCO World Heritage",
+    "Distance (km)": 12.158,
+    "Start Latitude": 1.31887,
+    "Start Longitude": 103.82572
+  },
+  {
+    "name": "The Circle of Life",
+    "Distance (km)": 42.812,
+    "Start Latitude": 1.2651,
+    "Start Longitude": 103.82187
+  },
+  {
+    "name": "Malls of the North East",
+    "Distance (km)": 24.986,
+    "Start Latitude": 1.40513,
+    "Start Longitude": 103.90242
+  },
+  {
+    "name": "The Farrerst of Them All",
+    "Distance (km)": 9.001,
+    "Start Latitude": 1.3174,
+    "Start Longitude": 103.80782
+  },
+  {
+    "name": "Thomson and Thomson",
+    "Distance (km)": 15.826,
+    "Start Latitude": 1.31995,
+    "Start Longitude": 103.86171
+  },
+  {
+    "name": "We Care at East Coast",
+    "Distance (km)": 30.929,
+    "Start Latitude": 1.31887,
+    "Start Longitude": 103.82572
+  },
+  {
+    "name": "Bishan Resident",
+    "Distance (km)": 0.711,
+    "Start Latitude": 1.35057,
+    "Start Longitude": 103.84908
+  },
+  {
+    "name": "Bus BTC (there's also SMU)",
+    "Distance (km)": 17.964,
+    "Start Latitude": 1.29369,
+    "Start Longitude": 103.78427
+  },
+  {
+    "name": "All Unis are Good Unis",
+    "Distance (km)": 20.881,
+    "Start Latitude": 1.29823,
+    "Start Longitude": 103.84971
+  },
+  {
+    "name": "Malls of the Harbour",
+    "Distance (km)": 16.114,
+    "Start Latitude": 1.27251,
+    "Start Longitude": 103.80275
+  },
+  {
+    "name": "I Teck Leave for This",
+    "Distance (km)": 21.987,
+    "Start Latitude": 1.40507,
+    "Start Longitude": 103.90238
+  },
+  {
+    "name": "Two Point Four",
+    "Distance (km)": 2.018,
+    "Start Latitude": 1.30874,
+    "Start Longitude": 103.92825
+  },
+  {
+    "name": "Plabians",
+    "Distance (km)": 9.924,
+    "Start Latitude": 1.327,
+    "Start Longitude": 103.94646
+  },
+  {
+    "name": "River Flows in You",
+    "Distance (km)": 26.087,
+    "Start Latitude": 1.41721,
+    "Start Longitude": 103.83314
+  },
+  {
     "name": "MacRitchie",
     "Distance (km)": 13.419,
     "Start Latitude": 1.34862,
     "Start Longitude": 103.83971
+  },
+  {
+    "name": "Faber Castell",
+    "Distance (km)": 7.99,
+    "Start Latitude": 1.29369,
+    "Start Longitude": 103.78427
+  },
+  {
+    "name": "Astaghfirullah",
+    "Distance (km)": 1.37,
+    "Start Latitude": 1.36518,
+    "Start Longitude": 103.68957
+  },
+  {
+    "name": "Malls of the Long Hill",
+    "Distance (km)": 9.549,
+    "Start Latitude": 1.39732,
+    "Start Longitude": 103.74761
+  },
+  {
+    "name": "Tale of Two Rivers",
+    "Distance (km)": 19.803,
+    "Start Latitude": 1.33332,
+    "Start Longitude": 103.74264
+  },
+  {
+    "name": "Hawkerman",
+    "Distance (km)": 13.69,
+    "Start Latitude": 1.37264,
+    "Start Longitude": 103.83706
   }
 ]
