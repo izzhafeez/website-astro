@@ -736,19 +736,8 @@
     "refreshments": "Bought drinks in the market opposite West Coast Plaza, and had dinner at Clementi Mall (McDonald's).",
     "tips": "Boring."
   },
-  "very-wet": {
-    "name": "Mm Yes Very Wet",
-    "date": "TBD",
-    "color": "black",
-    "victims": 0,
-    "rating": 0,
-    "route": "",
-    "experience": "",
-    "refreshments": "",
-    "tips": ""
-  },
-  "bukit-brown": {
-    "name": "Bukit Brown",
+  "water-margin": {
+    "name": "水滸傳",
     "date": "TBD",
     "color": "black",
     "victims": 0,

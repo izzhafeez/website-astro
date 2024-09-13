@@ -179,6 +179,11 @@
       "Vue"
     ]
   },
+  "cs3219": {
+    "name": "Software Engineering Principles and Patterns",
+    "grade": "IP",
+    "related": []
+  },
   "cs3223": {
     "name": "Database Systems Implementation",
     "grade": "B+",
@@ -194,6 +199,11 @@
       "Java"
     ] 
   },
+  "cs3231": {
+    "name": "Theory of Computation",
+    "grade": "IP",
+    "related": []
+  },
   "cs3245": {
     "name": "Information Retrieval",
     "grade": "A",
@@ -202,6 +212,11 @@
       "Information Retrieval",
       "NLP"
     ]
+  },
+  "cs4211": {
+    "name": "Formal Methods for Software Engineering",
+    "grade": "IP",
+    "related": []
   },
   "cs4225": {
     "name": "Big Data Systems for Data Science",
@@ -221,6 +236,11 @@
       "Deep Learning",
       "Machine Learning"
     ]
+  },
+  "cs4347": {
+    "name": "Sound and Music Computing",
+    "grade": "IP",
+    "related": []
   },
   "duke-rust-programming-spec": {
     "link": "https://coursera.org/share/422b55cee858e7554c665cd5f7dd6220",
@@ -469,6 +489,11 @@
     "related": [
       "Agile"
     ]
+  },
+  "lsm1301": {
+    "name": "General Biology",
+    "grade": "S",
+    "related": []
   },
   "ma1521": {
     "name": "Calculus for Computing",

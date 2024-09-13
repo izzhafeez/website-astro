@@ -22,6 +22,9 @@ import csModsData from "../../../../data/games/blurry-battle/cs-mods.json";
 import elementsData from "../../../../data/games/blurry-battle/elements.json";
 import programmingLanguagesData from "../../../../data/games/blurry-battle/programming-languages.json";
 import randomQuotesData from "../../../../data/games/blurry-battle/random-quotes.json";
+import kabupatenData from "../../../../data/games/blurry-battle/kabupaten.json";
+import roadsData from "../../../../data/games/blurry-battle/roads.json";
+import japanesePrefecturesData from "../../../../data/games/blurry-battle/japanese-prefectures.json";
 import seoImg from '/src/img/heroes/BLURRY-BATTLE.jpg';
 
 export const prerender = false;
@@ -139,6 +142,23 @@ switch (deckName) {
       data: randomQuotesData
     }
     break;
+  case "kabupaten":
+    deck = {
+      title: "Kabupaten of Indonesia",
+      data: kabupatenData
+    }
+    break;
+  case "roads":
+    deck = {
+      title: 'Roads of Singapore',
+      data: roadsData
+    }
+    break;
+  case "japanese-prefectures":
+    deck = {
+      title: 'Japanese Prefectures',
+      data: japanesePrefecturesData
+    }
   default:
     deck = {
       title: '',

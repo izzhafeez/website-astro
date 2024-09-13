@@ -81,6 +81,18 @@ export const getStaticPaths = (() => {
     {
       params: { deck: 'uncle-roger-quotes' },
       props: { title: "Uncle Roger Quotes" }
+    },
+    {
+      params: { deck: 'kabupaten' },
+      props: { title: "Kabupaten of Indonesia" }
+    },
+    {
+      params: { deck: 'roads' },
+      props: { title: 'Roads of Singapore' }
+    },
+    {
+      params: { deck: 'japanese-prefectures' },
+      props: { title: 'Japanese Prefectures' }
     }
   ];
 }) satisfies GetStaticPaths;

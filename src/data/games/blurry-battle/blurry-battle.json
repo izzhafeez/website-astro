@@ -11,11 +11,20 @@
   "countries": {
     "title": "Countries of the World"
   },
+  "kabupaten": {
+    "title": "Kabupaten of Indonesia"
+  },
+  "roads": {
+    "title": "Roads in Singapore"
+  },
   "uncle-roger-quotes": {
     "title": "Uncle Roger Quotes"
   },
   "schools": {
     "title": "Schools of Singapore"
+  },
+  "japanese-prefectures": {
+    "title": "Japanese Prefectures"
   },
   "nus-mods": {
     "title": "NUS Modules"

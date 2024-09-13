@@ -8,6 +8,10 @@
     "artist": "Imagine Dragons",
     "link": "https://www.youtube.com/watch?v=UNK6bLcbynA"
   },
+  "demons": {
+    "artist": "Imagine Dragons",
+    "link": "https://www.youtube.com/watch?v=aJLGuHXfccc"
+  },
   "down": {
     "artist": "Jay Sean",
     "link": "https://www.youtube.com/watch?v=uJFLbX_tDOE"
@@ -100,6 +104,14 @@
   "what-ive-done": {
     "title": "What I've Done",
     "artist": "Linkin Park"
+  },
+  "you-belong-with-me": {
+    "artist": "Taylor Swift",
+    "link": "https://www.youtube.com/watch?v=REdIYMbWxqI"
+  },
+  "萱草花": {
+    "artist": "张小斐",
+    "link": "https://www.youtube.com/watch?v=QtbyF5zJ1qI"
   },
   "背の子": {
     "title": "背の子",
