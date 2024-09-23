@@ -1,6 +1,5 @@
 ---
 import compareData from "../../../data/quizzes/compare.json";
-import MediumCard from "../../../components/common/MediumCard.astro";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
@@ -37,16 +36,8 @@ const title = quizzesData.compare.title;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label={title} text={heroText} site="quizzes"/>
-    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {quizzes.map(quiz => <MediumCard
-        href={quiz.href}
-        title={quiz.title}
-        site="quizzes"
-        heroText={quiz.instructions}
-        key={quiz.key}
-        imgPath={quiz.imgPath}
-        isEager={true}
-        tags={quiz.tags}/>)}
+    <section class="my-auto flex flex-wrap gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
+      {quizzes.map(quiz => <a href={quiz.href} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-ns-500">{quiz.title}</a>)}
     </section>
     <Footer site="quizzes"/>
   </div>

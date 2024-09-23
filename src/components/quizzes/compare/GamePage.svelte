@@ -11,6 +11,7 @@
   export let decimalPlaces = 0;
   export let startNumber = 0;
   export let name: string;
+  export let count: number;
   
   let dataList: Data[] = Object.entries(data).map(([k, v]) => {
     const { cleanText, searchTerms } = fullSanitise(k);
@@ -71,6 +72,7 @@
           bind:isGuessing={isGuessing}
           bind:rightPlaceholder={rightPlaceholder}
           bind:showNextButton={showNextButton}
+          {count}
         />
         {/if}
       </div>

@@ -1,5 +1,4 @@
 <script>
-  import party, { Color } from 'party-js';
   export let title;
   export let data;
   export let instructions;
@@ -14,6 +13,16 @@
   let canNext = false;
   let wrong = {};
   let N = 6;
+  let difficulty = 3;
+  let possible_difficulty = [1, 2, 3, 4, 5];
+
+  const difficultyMappings = {
+    1: 4,
+    2: 8,
+    3: 16,
+    4: 32,
+    5: 64
+  };
 
   function handleStart() {
     handleNext();
@@ -39,8 +48,8 @@
 
       let groupItems = data[randomGroup];
 
-      let firstChoice = groupItems[Math.floor(Math.random() * groupItems.length)];
-      let secondChoice = groupItems[Math.floor(Math.random() * groupItems.length)];
+      let firstChoice = groupItems[Math.floor(Math.random() * Math.min(difficultyMappings[difficulty], groupItems.length))];
+      let secondChoice = groupItems[Math.floor(Math.random() * Math.min(difficultyMappings[difficulty], groupItems.length))];
 
       if (firstChoice === secondChoice || answers[firstChoice] || answers[secondChoice]) {
         continue;
@@ -117,7 +126,13 @@
     {title}
   </h1>
   <p class=" my-4">{instructions}</p>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4'>Start</button>
+  <label for="difficulty" class="">Difficulty: </label>
+  <div class="flex gap-2 my-2">
+    {#each possible_difficulty as n (n)}
+    <button on:click={() => {difficulty = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={difficulty == n} class:text-white={difficulty == n}>{n}</button>
+    {/each}
+  </div>
+  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
   {:else}
   <p class='text-3xl text-center my-2 bg-dt-500 text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
   <div class="grid gap-2">

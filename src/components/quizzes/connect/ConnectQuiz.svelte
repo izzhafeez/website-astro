@@ -13,6 +13,15 @@
   let canNext = false;
   let tileCounts = {};
   let answered = [];
+  let difficulty = 3; // out of 5
+
+  const difficultyMappings = {
+    1: 4,
+    2: 8,
+    3: 16,
+    4: 32,
+    5: 64
+  };
 
   function handleNext() {
     // select N random keys from data
@@ -52,7 +61,7 @@
       let randomTiles = [];
       let indexes = {};
       while (randomTiles.length < 4) {
-        let randomIndex = Math.floor(Math.random() * candidateTiles.length);
+        let randomIndex = Math.floor(Math.random() * Math.min(candidateTiles.length, difficultyMappings[difficulty]));
         if (indexes[randomIndex]) {
           continue;
         }
@@ -84,7 +93,7 @@
   </h1>
   <p class=" my-4">{instructions}</p>
   {#if !isStart}
-  <StartPage N={N} handleNext={handleNext} bind:isStart={isStart}/>
+  <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} bind:difficulty={difficulty}/>
   {:else}
   <GamePage {data} {answers} {tiles} {handleNext}
     bind:guesses={guesses}

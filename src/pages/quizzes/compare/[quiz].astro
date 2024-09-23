@@ -16,12 +16,31 @@ import indonesiaCitiesLatitude from "../../../data/quizzes/compare/indonesia-lat
 import indonesiaCitiesLongitude from "../../../data/quizzes/compare/indonesia-longitude.json";
 import malaysiaCitiesLatitude from "../../../data/quizzes/compare/malaysia-latitude.json";
 import malaysiaCitiesLongitude from "../../../data/quizzes/compare/malaysia-longitude.json";
+import japanCitiesLatitude from "../../../data/quizzes/compare/japan-latitude.json";
+import japanCitiesLongitude from "../../../data/quizzes/compare/japan-longitude.json";
+import koreaCitiesLatitude from "../../../data/quizzes/compare/south-korea-latitude.json";
+import koreaCitiesLongitude from "../../../data/quizzes/compare/south-korea-longitude.json";
+import chinaCitiesLatitude from "../../../data/quizzes/compare/china-latitude.json";
+import chinaCitiesLongitude from "../../../data/quizzes/compare/china-longitude.json";
+import thailandCitiesLatitude from "../../../data/quizzes/compare/thailand-latitude.json";
+import thailandCitiesLongitude from "../../../data/quizzes/compare/thailand-longitude.json";
+import vietnamCitiesLatitude from "../../../data/quizzes/compare/vietnam-latitude.json";
+import vietnamCitiesLongitude from "../../../data/quizzes/compare/vietnam-longitude.json";
+import philippinesCitiesLatitude from "../../../data/quizzes/compare/philippines-latitude.json";
+import philippinesCitiesLongitude from "../../../data/quizzes/compare/philippines-longitude.json";
+import americaCitiesLatitude from "../../../data/quizzes/compare/america-latitude.json";
+import americaCitiesLongitude from "../../../data/quizzes/compare/america-longitude.json";
+import canadaCitiesLatitude from "../../../data/quizzes/compare/canada-latitude.json";
+import canadaCitiesLongitude from "../../../data/quizzes/compare/canada-longitude.json";
+import mexicoCitiesLatitude from "../../../data/quizzes/compare/mexico-latitude.json";
+import mexicoCitiesLongitude from "../../../data/quizzes/compare/mexico-longitude.json";
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
-import compareQuizData from "../../../data/quizzes/compare.json";
 import Seo from "../../../components/seo/Seo.astro";
 import PageFind from "../../../components/common/PageFind.astro";
+import seoImg from '/src/img/heroes/COMPARE.jpg';
+import compareData from "../../../data/quizzes/compare.json";
 
 export function getStaticPaths() {
   return [
@@ -30,9 +49,8 @@ export function getStaticPaths() {
         quiz: "subzone-population"
       },
       props: {
-        title: "Subzone Population",
+        title: "Subzones by Population",
         data: subzonePopulationData,
-        instructions: compareQuizData["subzone-population"].instructions
       }
     },
     {
@@ -40,9 +58,8 @@ export function getStaticPaths() {
         quiz: "mrt-longitude"
       },
       props: {
-        title: "MRT Longitude",
+        title: "MRT by Longitude",
         data: mrtLongitudeData,
-        instructions: compareQuizData["mrt-longitude"].instructions,
         decimalPlaces: 4,
         startNumber: 103.6,
       }
@@ -52,9 +69,8 @@ export function getStaticPaths() {
         quiz: "mrt-latitude"
       },
       props: {
-        title: "MRT Latitude",
+        title: "MRT by Latitude",
         data: mrtLatitudeData,
-        instructions: compareQuizData["mrt-latitude"].instructions,
         decimalPlaces: 4,
         startNumber: 1.2,
       }
@@ -64,9 +80,8 @@ export function getStaticPaths() {
         quiz: "malls-longitude"
       },
       props: {
-        title: "Malls Longitude",
+        title: "Malls by Longitude",
         data: mallsLongitudeData,
-        instructions: compareQuizData["malls-longitude"].instructions,
         decimalPlaces: 4,
         startNumber: 103.6,
       }
@@ -76,9 +91,8 @@ export function getStaticPaths() {
         quiz: "malls-latitude"
       },
       props: {
-        title: "Malls Latitude",
+        title: "Malls by Latitude",
         data: mallsLatitudeData,
-        instructions: compareQuizData["malls-latitude"].instructions,
         decimalPlaces: 4,
         startNumber: 1.2,
       }
@@ -88,9 +102,8 @@ export function getStaticPaths() {
         quiz: "malls-area"
       },
       props: {
-        title: "Malls Area",
+        title: "Malls by Area",
         data: mallsAreaData,
-        instructions: compareQuizData["malls-area"].instructions
       }
     },
     {
@@ -98,9 +111,8 @@ export function getStaticPaths() {
         quiz: "malls-year"
       },
       props: {
-        title: "Malls Year",
+        title: "Malls by Year",
         data: mallsYearData,
-        instructions: compareQuizData["malls-year"].instructions
       }
     },
     {
@@ -108,9 +120,8 @@ export function getStaticPaths() {
         quiz: "malls-stores"
       },
       props: {
-        title: "Malls Stores",
+        title: "Malls by # Stores",
         data: mallsStoresData,
-        instructions: compareQuizData["malls-stores"].instructions
       }
     },
     {
@@ -120,7 +131,6 @@ export function getStaticPaths() {
       props: {
         title: "Food Waste Per Capita",
         data: foodWasteCapita,
-        instructions: compareQuizData["food-waste-capita"].instructions
       }
     },
     {
@@ -128,9 +138,8 @@ export function getStaticPaths() {
         quiz: "food-waste-nominal"
       },
       props: {
-        title: "Food Waste Nominal",
+        title: "Food Waste by Nominal",
         data: foodWasteNominal,
-        instructions: compareQuizData["food-waste-nominal"].instructions
       }
     },
     {
@@ -138,9 +147,8 @@ export function getStaticPaths() {
         quiz: "expiry",
       },
       props: {
-        title: "Food Expiry Dates",
+        title: "Food by Expiry Dates",
         data: foodExpiryData,
-        instructions: compareQuizData["expiry"].instructions
       }
     },
     {
@@ -148,9 +156,8 @@ export function getStaticPaths() {
         quiz: "cities-latitude"
       },
       props: {
-        title: "Cities Latitude",
+        title: "Cities by Latitude",
         data: citiesLatitude,
-        instructions: compareQuizData["cities-latitude"].instructions,
         decimalPlaces: 4,
       }
     },
@@ -159,9 +166,8 @@ export function getStaticPaths() {
         quiz: "cities-longitude"
       },
       props: {
-        title: "Cities Longitude",
+        title: "Cities by Longitude",
         data: citiesLongitude,
-        instructions: compareQuizData["cities-longitude"].instructions,
         decimalPlaces: 4,
       }
     },
@@ -170,9 +176,8 @@ export function getStaticPaths() {
         quiz: "indonesia-latitude"
       },
       props: {
-        title: "Indonesia Cities Latitude",
+        title: "Indonesia Cities by Latitude",
         data: indonesiaCitiesLatitude,
-        instructions: compareQuizData["indonesia-latitude"].instructions,
         decimalPlaces: 4,
       }
     },
@@ -181,9 +186,8 @@ export function getStaticPaths() {
         quiz: "indonesia-longitude"
       },
       props: {
-        title: "Indonesia Cities Longitude",
+        title: "Indonesia Cities by Longitude",
         data: indonesiaCitiesLongitude,
-        instructions: compareQuizData["indonesia-longitude"].instructions,
         decimalPlaces: 4,
       }
     },
@@ -192,9 +196,8 @@ export function getStaticPaths() {
         quiz: "malaysia-latitude"
       },
       props: {
-        title: "Malaysia Cities Latitude",
+        title: "Malaysia Cities by Latitude",
         data: malaysiaCitiesLatitude,
-        instructions: compareQuizData["malaysia-latitude"].instructions,
         decimalPlaces: 4,
       }
     },
@@ -203,27 +206,208 @@ export function getStaticPaths() {
         quiz: "malaysia-longitude"
       },
       props: {
-        title: "Malaysia Cities Longitude",
+        title: "Malaysia Cities by Longitude",
         data: malaysiaCitiesLongitude,
-        instructions: compareQuizData["malaysia-longitude"].instructions,
         decimalPlaces: 4,
       }
-    }
+    },
+    {
+      params: {
+        quiz: "japan-latitude"
+      },
+      props: {
+        title: "Japan Cities by Latitude",
+        data: japanCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "japan-longitude"
+      },
+      props: {
+        title: "Japan Cities by Longitude",
+        data: japanCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "south-korea-latitude"
+      },
+      props: {
+        title: "Korea Cities by Latitude",
+        data: koreaCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "south-korea-longitude"
+      },
+      props: {
+        title: "Korea Cities by Longitude",
+        data: koreaCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "china-latitude"
+      },
+      props: {
+        title: "China Cities by Latitude",
+        data: chinaCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "china-longitude"
+      },
+      props: {
+        title: "China Cities by Longitude",
+        data: chinaCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "thailand-latitude"
+      },
+      props: {
+        title: "Thailand Cities by Latitude",
+        data: thailandCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "thailand-longitude"
+      },
+      props: {
+        title: "Thailand Cities by Longitude",
+        data: thailandCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "vietnam-latitude"
+      },
+      props: {
+        title: "Vietnam Cities by Latitude",
+        data: vietnamCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "vietnam-longitude"
+      },
+      props: {
+        title: "Vietnam Cities by Longitude",
+        data: vietnamCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "philippines-latitude"
+      },
+      props: {
+        title: "Philippines Cities by Latitude",
+        data: philippinesCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "philippines-longitude"
+      },
+      props: {
+        title: "Philippines Cities by Longitude",
+        data: philippinesCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    // america
+    // canada
+    // mexico
+    {
+      params: {
+        quiz: "america-latitude"
+      },
+      props: {
+        title: "American Cities by Latitude",
+        data: americaCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "america-longitude"
+      },
+      props: {
+        title: "American Cities by Longitude",
+        data: americaCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "canada-latitude"
+      },
+      props: {
+        title: "Canada Cities by Latitude",
+        data: canadaCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "canada-longitude"
+      },
+      props: {
+        title: "Canada Cities by Longitude",
+        data: canadaCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "mexico-latitude"
+      },
+      props: {
+        title: "Mexico Cities by Latitude",
+        data: mexicoCitiesLatitude,
+        decimalPlaces: 4,
+      }
+    },
+    {
+      params: {
+        quiz: "mexico-longitude"
+      },
+      props: {
+        title: "Mexico Cities by Longitude",
+        data: mexicoCitiesLongitude,
+        decimalPlaces: 4,
+      }
+    },
   ]
 }
 
 export const prerender = true;
-const { data, title, instructions, decimalPlaces, startNumber } = Astro.props;
-const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
-const seoImg = await images[`/src/img/quizzes/compare/${Astro.params.quiz}.jpg`]().then(img => img.default);
+const { data, title, decimalPlaces, startNumber } = Astro.props;
+const instructions = compareData[Astro.params.quiz].instructions;
 ---
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${title} (Compare Quiz)`} path={`quizzes/compare/${Astro.params.quiz}`}/>
+<Seo heroText={instructions} {seoImg} pageName={`${title} (Compare Quiz)`} path={`quizzes/compare/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
     <div class="fixed z-50 w-screen">
       <NavBar/>
-      <PageFind pageName={`${title} (Compare Quiz)`} heroText={Astro.props.instructions}/>
+      <PageFind pageName={`${title} (Compare Quiz)`} heroText={instructions}/>
     </div>
     <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
   </div>
