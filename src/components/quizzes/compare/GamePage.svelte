@@ -20,7 +20,7 @@
   
   let left = dataList[Math.floor(Math.random() * dataList.length)];
   let right = left;
-  while (right === left) right = dataList[Math.floor(Math.random() * dataList.length)];
+  while (right === left) right = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
   
   let rightPlaceholder = '0';
   let isGuessing = true;
