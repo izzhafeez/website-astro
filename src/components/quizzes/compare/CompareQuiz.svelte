@@ -11,11 +11,11 @@ export let startNumber = 0;
 export let difficulty = 2;
 
 const difficultyMappings = {
-  1: 8,
-  2: 16,
-  3: 32,
-  4: 64,
-  5: 128
+  1: 5,
+  2: 15,
+  3: 50,
+  4: 150,
+  5: 10000
 }
 
 let name;

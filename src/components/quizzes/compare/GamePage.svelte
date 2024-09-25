@@ -18,7 +18,7 @@
     return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v as number }
   });
   
-  let left = dataList[Math.floor(Math.random() * dataList.length)];
+  let left = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
   let right = left;
   while (right === left) right = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
   

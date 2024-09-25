@@ -16,12 +16,12 @@
   let difficulty = 3; // out of 5
 
   const difficultyMappings = {
-    1: 4,
-    2: 8,
-    3: 16,
-    4: 32,
-    5: 64
-  };
+    1: 5,
+    2: 15,
+    3: 50,
+    4: 150,
+    5: 10000
+  }
 
   function handleNext() {
     // select N random keys from data
