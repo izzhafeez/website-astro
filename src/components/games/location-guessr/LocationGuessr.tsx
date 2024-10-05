@@ -38,7 +38,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
   const [locationId, setLocationId] = React.useState(null as number | null);
   const [guess, setGuess] = React.useState(null as [number, number] | null);
-  const [secondClosest, setSecondClosest] = React.useState('');
+  const [closest, setClosest] = React.useState('');
   const [roundId, setRoundId] = React.useState(0);
   const [distance, setDistance] = React.useState(0);
 
@@ -58,7 +58,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
     // deep copy of message.players object
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
     if (message.location) setLocationId(_ => message.location);
-    if (message.second_closest) setSecondClosest(_ => message.second_closest);
+    if (message.closest) setClosest(_ => message.closest);
     if (message.round_id) setRoundId(_ => message.round_id);
     if (message.distance) setDistance(_ => message.distance);
 
@@ -83,7 +83,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
       setGameStatus('EVALUATING');
       Swal.fire({
         icon: 'info',
-        title: `The second closest person was ${message.second_closest} with a distance of ${message.distance.toFixed(3)}km!`,
+        title: `The closest person was ${message.closest} with a distance of ${message.distance.toFixed(3)}km!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
@@ -157,7 +157,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
     })
   };
 
-  const howToPlay = `Based on the given name, guess the location on the map. The player with the SECOND closest guess gets a point!`;
+  const howToPlay = `Based on the given name, guess the location on the map. The player with the closest guess gets a point!`;
 
   const LocationFinderDummy = () => {
     const map = useMapEvents({
@@ -224,7 +224,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {secondClosest} is the second closest!</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {closest} is the closest!</h3>
         <ul className="grid gap-2 mt-4">
           {Object.entries(players).map(([name, playerData], index) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>

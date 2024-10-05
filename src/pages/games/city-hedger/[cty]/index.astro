@@ -1,0 +1,23 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import Layout from "../../../../layouts/Layout.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import RoomCreateContainer from "../../common/RoomCreateContainer.astro";
+import seoImg from '/src/img/heroes/LOCATION-GUESSR.jpg';
+
+export const prerender = false;
+const cty = Astro.params.cty;
+const heroText = gamesData["location-guessr"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"Location Guessr"} path={`games/location-guessr`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={`City Hedger (${cty})`} heroText={heroText}/>
+    <RoomCreateContainer title={"City Hedger"} heroText={`City Hedger: ${heroText}`} instructions={heroText} />
+  </div>
+</Layout>

@@ -39,7 +39,7 @@
   },
   "location-guessr": {
     "title": "Location Guessr",
-    "heroText": "Test your geography skills by guessing where the location is. Make the second closest guess to gain the point! Best played with 3-8 players."
+    "heroText": "Test your geography skills by guessing where the location is. Make the closest guess to gain the point! Best played with 3-8 players."
   },
   "math-attack": {
     "title": "Math Attack",

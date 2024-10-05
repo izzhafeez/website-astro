@@ -1,0 +1,32 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
+import Hero from "../../../components/common/Hero.astro";
+import gamesData from "../../../data/games/games.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from '/src/img/heroes/LOCATION-GUESSR.jpg';
+import countriesData from "../../../data/games/city-hedger/countries.json";
+
+const heroText = gamesData["location-guessr"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"Location Guessr"} path="games/location-guessr"/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <Hero label="CITY HEDGER" text={heroText} site="games"/>
+
+    <div class="flex flex-col items-center justify-center">
+      <h1 class="text-3xl font-bold text-center">Select a country to play</h1>
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-4 mt-4">
+        {countriesData.map((country) => (
+          <a href={`/games/city-hedger/${country}`} class="bg-gray-800 text-white p-4 rounded-lg hover:bg-gray-700">
+            {country}
+          </a>
+        ))}
+      </div>
+    </div>
+    <Footer site="games"/>
+  </div>
+</Layout>
