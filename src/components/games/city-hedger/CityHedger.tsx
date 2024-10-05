@@ -40,7 +40,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
     lng: number
   }[]
 }, title: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${id}`;
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${title}+${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
@@ -137,7 +137,6 @@ function CityHedger({ id, data, title }: { id: string, data: {
         </table>`
       }).then(() => {
         if (message.most_popular_city != -1) {
-
           Swal.fire({
             icon: 'warning',
             title: `Popular!`,
