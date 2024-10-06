@@ -243,9 +243,9 @@ function CityHedger({ id, data, title }: { id: string, data: {
 
   return <>
     <div className="p-2 max-w-3xl mx-auto">
-      {gameStatus !== 'UNJOINED' && <GameTitle title={countryCodes[title as keyof typeof countryCodes]}/>}
+      {gameStatus !== 'UNJOINED' && <GameTitle title={countryCodes[title.toUpperCase() as keyof typeof countryCodes]}/>}
       {gameStatus === 'JOINED' && <GameStart instructions={instructions} startGame={startGame}/>}
-      {gameStatus === 'UNJOINED' && <GameJoin title={countryCodes[title as keyof typeof countryCodes]} instructions={instructions} name={name} setName={setName} joinGame={joinGame}/>}
+      {gameStatus === 'UNJOINED' && <GameJoin title={countryCodes[title.toUpperCase() as keyof typeof countryCodes]} instructions={instructions} name={name} setName={setName} joinGame={joinGame}/>}
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
