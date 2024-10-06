@@ -41,7 +41,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
     lng: number
   }[]
 }, title: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${title}+${id}`;
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${title.toUpperCase()}+${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');

@@ -11,13 +11,16 @@ import countriesData from "../../../../data/games/city-hedger/countries.json";
 export const prerender = true;
 
 export const getStaticPaths = () => {
-  return Object.entries(countriesData).map(([ctyName, data]) => {
-    return {
-      params: {
-        cty: ctyName
+  return [
+    { params: { cty: "ALL" } },
+    ...Object.entries(countriesData).map(([ctyName, data]) => {
+      return {
+        params: {
+          cty: ctyName
+        }
       }
-    }
-  });
+    })
+  ];
 };
 
 const cty = Astro.params.cty;
