@@ -16,6 +16,10 @@
       "Pass the device to the next person and continue at step 4."
     ]
   },
+  "city-hedger": {
+    "title": "City Hedger",
+    "heroText": "Pick a city you think is the closest to the given point. But don't pick the most popular city! Best played with 1-6 players."
+  },
   "color-guessr": {
     "title": "Color Guessr",
     "heroText": "See how well you can guess color hexcodes! Score points based on how close you are the to answer. Best played with 1-4 players."

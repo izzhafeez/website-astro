@@ -32,7 +32,7 @@ const colors = [
 ];
 
 function LocationGuessr({ id, data, title }: { id: string, data: {name: string, Latitude: number, Longitude: number}[], title: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${id}`;
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${title}+${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
@@ -65,7 +65,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      setGameStatus('JOINED');
+      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -209,7 +209,8 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
           className='mb-8'>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
           {guess && <CircleMarker center={guess} radius={5}>

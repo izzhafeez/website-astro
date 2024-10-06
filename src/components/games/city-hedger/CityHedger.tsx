@@ -8,8 +8,9 @@ import lifecycle from '../common/GameLifecycle';
 import GameStart from '../common/GameStart';
 import GameTitle from '../common/GameTitle';
 import GameJoin from '../common/GameJoin';
+import countryCodes from '../../../data/games/city-hedger/country-codes.json';
 
-const instructions = gamesData['location-guessr'].heroText;
+const instructions = gamesData['city-hedger'].heroText;
 
 type PlayerData = {
   points: number;
@@ -82,7 +83,9 @@ function CityHedger({ id, data, title }: { id: string, data: {
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      setGameStatus('JOINED');
+      if (gameStatus === 'UNJOINED') {
+        setGameStatus('JOINED');
+      }
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -100,7 +103,6 @@ function CityHedger({ id, data, title }: { id: string, data: {
             closestDist = dist;
             closestCity = cityData.name;
             closestLatLng = [cityData.lat, cityData.lng];
-            console.log(closestCity, closestDist, closestLatLng, message.lat, message.lng);
           }
         }
       }
@@ -140,7 +142,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
           Swal.fire({
             icon: 'warning',
             title: `Popular!`,
-            text: `Players who played the most popular city lose 50 points: ${message.failed.join(', ')}`,
+            text: `Players who played the most popular city (${message.most_popular_city}) lose 50 points: ${message.failed.join(', ')}`,
             timer: 5000,
           });
         }
@@ -157,19 +159,19 @@ function CityHedger({ id, data, title }: { id: string, data: {
   }, [lastMessage]);
 
   const joinGame = () => {
-    let max_lat = -90;
-    let min_lat = 90;
-    let max_lng = -180;
-    let min_lng = 180;
+    const latSorted = Object.values(data).map(cityData => cityData[0].lat).sort((a, b) => a - b);
+    const lngSorted = Object.values(data).map(cityData => cityData[0].lng).sort((a, b) => a - b);
+    const twentyPercentileLat = latSorted[Math.floor(latSorted.length * 0.2)];
+    const eightyPercentileLat = latSorted[Math.floor(latSorted.length * 0.8)];
+    const twentyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.2)];
+    const eightyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.8)];
+    const bufferLat = (eightyPercentileLat - twentyPercentileLat) * 0.2;
+    const bufferLng = (eightyPercentileLng - twentyPercentileLng) * 0.2;
 
-    for (let [code, cityDatas] of Object.entries(data)) {
-      for (let cityData of cityDatas) {
-        max_lat = Math.max(max_lat, cityData.lat);
-        min_lat = Math.min(min_lat, cityData.lat);
-        max_lng = Math.max(max_lng, cityData.lng);
-        min_lng = Math.min(min_lng, cityData.lng);
-      }
-    }
+    const max_lat = eightyPercentileLat + bufferLat;
+    const min_lat = twentyPercentileLat - bufferLat;
+    const max_lng = eightyPercentileLng + bufferLng;
+    const min_lng = twentyPercentileLng - bufferLng;
 
     setMidLat((max_lat + min_lat) / 2);
     setMidLng((max_lng + min_lng) / 2);
@@ -241,9 +243,9 @@ function CityHedger({ id, data, title }: { id: string, data: {
 
   return <>
     <div className="p-2 max-w-3xl mx-auto">
-      {gameStatus !== 'UNJOINED' && <GameTitle title={title}/>}
+      {gameStatus !== 'UNJOINED' && <GameTitle title={countryCodes[title as keyof typeof countryCodes]}/>}
       {gameStatus === 'JOINED' && <GameStart instructions={instructions} startGame={startGame}/>}
-      {gameStatus === 'UNJOINED' && <GameJoin title={title} instructions={instructions} name={name} setName={setName} joinGame={joinGame}/>}
+      {gameStatus === 'UNJOINED' && <GameJoin title={countryCodes[title as keyof typeof countryCodes]} instructions={instructions} name={name} setName={setName} joinGame={joinGame}/>}
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
@@ -286,7 +288,10 @@ function CityHedger({ id, data, title }: { id: string, data: {
           className='mb-8'>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            // url="http://tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg"
+            // url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
+            // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
           {lat && lng && <CircleMarker center={[lat, lng]} radius={5}>
@@ -301,15 +306,15 @@ function CityHedger({ id, data, title }: { id: string, data: {
       {gameStatus === 'EVALUATING' && <>
         <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {closestCity} is the closest city!</h3>
         <ul className="grid gap-2 mt-4">
-          {Object.entries(players).map(([name, playerData], index) => (
+          {Object.entries(players).filter(([_, playerData]) => !!playerData.city).map(([name, playerData], index) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `${colors[index]}` }}></div>
               <span className="my-auto">{name}</span>
               <span className="my-auto ms-auto">{playerData.city}</span>
-              <span className="my-auto ms-2">{playerData.distance.toFixed(3)}km</span>
-              <span className="my-auto ms-2">{gained[name].points} points</span>
+              <span className="my-auto ms-2">{(playerData.distance ).toFixed(3)}km</span>
+              <span className="my-auto ms-2">{(gained[name]).points} points</span>
             </div>
           </li>))
           }
@@ -329,7 +334,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
           />
 
           {/* show all players' guesses */}
-          {Object.entries(players).map(([playerName, playerData], index) => (
+          {Object.entries(players).filter(([_, playerData]) => !!playerData.city).map(([playerName, playerData], index) => (
             <CircleMarker key={playerName}
               center={playerData.guess}
               radius={5}

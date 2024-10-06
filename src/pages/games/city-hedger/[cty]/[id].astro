@@ -5,13 +5,13 @@ import Layout from "../../../../layouts/Layout.astro";
 import Seo from "../../../../components/seo/Seo.astro";
 import gamesData from "../../../../data/games/games.json";
 import citiesData from "../../../../data/games/city-hedger/cities.json";
-import seoImg from '/src/img/heroes/LOCATION-GUESSR.jpg';
+import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
 
 export const prerender = false;
 var { id, cty } = Astro.params;
 
 // assign deck to citiesData[cty] if cty is a valid key in citiesData
-let deck = {};
+let deck = {} as { [city: string]: { cty: string }[] };
 Object.entries(citiesData).forEach(([code, cities]) => {
   const passedCities = cities.filter((city: { cty: string }) => city.cty === cty);
   if (passedCities.length > 0) {
@@ -19,10 +19,10 @@ Object.entries(citiesData).forEach(([code, cities]) => {
   }
 });
 
-const heroText = gamesData["location-guessr"].heroText;
+const heroText = gamesData["city-hedger"].heroText;
 ---
 
-<!-- <Seo {heroText} {seoImg} pageName={'City Hedger'} path={`games/city-hedger/${id}`}/> -->
+<Seo {heroText} {seoImg} pageName={'City Hedger'} path={`games/city-hedger/${id}`}/>
 
 <Layout>
   <div slot="main">

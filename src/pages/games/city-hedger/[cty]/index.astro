@@ -5,14 +5,14 @@ import gamesData from "../../../../data/games/games.json";
 import Layout from "../../../../layouts/Layout.astro";
 import PageFind from "../../../../components/common/PageFind.astro";
 import RoomCreateContainer from "../../common/RoomCreateContainer.astro";
-import seoImg from '/src/img/heroes/LOCATION-GUESSR.jpg';
+import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
 
 export const prerender = false;
 const cty = Astro.params.cty;
-const heroText = gamesData["location-guessr"].heroText;
+const heroText = gamesData["city-hedger"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={"Location Guessr"} path={`games/location-guessr`}/>
+<Seo {heroText} {seoImg} pageName={"City Hedger"} path={`games/city-hedger`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

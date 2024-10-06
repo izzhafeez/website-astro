@@ -49,7 +49,7 @@ function FrequencyGuessr({ id }: { id: string }) {
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      setGameStatus('JOINED');
+      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -65,12 +65,6 @@ function FrequencyGuessr({ id }: { id: string }) {
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
-
-      const playerScoredAbove95 = message.players[name].added_score > 95;
-      if (playerScoredAbove95) {
-        var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
-        audio.play();
-      }
 
       Swal.fire({
         icon: 'info',
