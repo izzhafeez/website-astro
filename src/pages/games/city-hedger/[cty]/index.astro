@@ -6,8 +6,20 @@ import Layout from "../../../../layouts/Layout.astro";
 import PageFind from "../../../../components/common/PageFind.astro";
 import RoomCreateContainer from "../../common/RoomCreateContainer.astro";
 import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
+import countriesData from "../../../../data/games/city-hedger/countries.json";
 
-export const prerender = false;
+export const prerender = true;
+
+export const getStaticPaths = () => {
+  return Object.entries(countriesData).map(([ctyName, data]) => {
+    return {
+      params: {
+        cty: ctyName
+      }
+    }
+  });
+};
+
 const cty = Astro.params.cty;
 const heroText = gamesData["city-hedger"].heroText;
 ---
