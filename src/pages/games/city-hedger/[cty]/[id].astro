@@ -13,7 +13,7 @@ var { id, cty } = Astro.params;
 // assign deck to citiesData[cty] if cty is a valid key in citiesData
 let deck = {} as { [city: string]: { cty: string }[] };
 Object.entries(citiesData).forEach(([code, cities]) => {
-  const passedCities = cities.filter((city: { cty: string }) => city.cty === cty);
+  const passedCities = cities.filter((city: { cty: string }) => city.cty.toLowerCase() === cty.toLowerCase());
   if (passedCities.length > 0) {
     deck[code] = passedCities;
   }
