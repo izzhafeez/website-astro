@@ -13,9 +13,9 @@ var { id, cty } = Astro.params;
 
 // assign deck to citiesData[cty] if cty is a valid key in citiesData
 let deck = {} as { [city: string]: { cty: string }[] };
-if (cty === "ALL") {
+if (cty === "ALL" || cty === "all") {
   deck = citiesData;
-} else if (cty === "MRT") {
+} else if (cty === "MRT" || cty === "mrt") {
   deck = mrtData;
 } else {
   Object.entries(citiesData).forEach(([code, cities]) => {
