@@ -236,7 +236,7 @@ function NumberNightmare({ id }: { id: string }) {
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      setGameStatus('JOINED');
+      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {

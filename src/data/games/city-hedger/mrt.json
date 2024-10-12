@@ -1,0 +1,2144 @@
+{
+  "choachukang": [
+    {
+      "cty": "Singapore",
+      "name": "Choa Chu Kang (BP1)",
+      "lat": 1.385,
+      "lng": 103.744444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Choa Chu Kang (JS1)",
+      "lat": 1.385,
+      "lng": 103.744444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Choa Chu Kang (NS4)",
+      "lat": 1.385,
+      "lng": 103.744444
+    }
+  ],
+  "fajar": [
+    {
+      "cty": "Singapore",
+      "name": "Fajar (BP10)",
+      "lat": 1.384444,
+      "lng": 103.770833
+    }
+  ],
+  "segar": [
+    {
+      "cty": "Singapore",
+      "name": "Segar (BP11)",
+      "lat": 1.387778,
+      "lng": 103.769444
+    }
+  ],
+  "jelapang": [
+    {
+      "cty": "Singapore",
+      "name": "Jelapang (BP12)",
+      "lat": 1.386667,
+      "lng": 103.764444
+    }
+  ],
+  "senja": [
+    {
+      "cty": "Singapore",
+      "name": "Senja (BP13)",
+      "lat": 1.382778,
+      "lng": 103.762222
+    }
+  ],
+  "tenmilejunction": [
+    {
+      "cty": "Singapore",
+      "name": "Ten Mile Junction (BP14)",
+      "lat": 1.380278,
+      "lng": 103.76
+    }
+  ],
+  "southview": [
+    {
+      "cty": "Singapore",
+      "name": "South View (BP2)",
+      "lat": 1.380278,
+      "lng": 103.745278
+    }
+  ],
+  "keathong": [
+    {
+      "cty": "Singapore",
+      "name": "Keat Hong (BP3)",
+      "lat": 1.378611,
+      "lng": 103.748889
+    }
+  ],
+  "teckwhye": [
+    {
+      "cty": "Singapore",
+      "name": "Teck Whye (BP4)",
+      "lat": 1.376667,
+      "lng": 103.753611
+    }
+  ],
+  "phoenix": [
+    {
+      "cty": "Singapore",
+      "name": "Phoenix (BP5)",
+      "lat": 1.378611,
+      "lng": 103.758056
+    }
+  ],
+  "bukitpanjang": [
+    {
+      "cty": "Singapore",
+      "name": "Bukit Panjang (BP6)",
+      "lat": 1.378333,
+      "lng": 103.761667
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bukit Panjang (DT1)",
+      "lat": 1.378333,
+      "lng": 103.761667
+    }
+  ],
+  "petir": [
+    {
+      "cty": "Singapore",
+      "name": "Petir (BP7)",
+      "lat": 1.377778,
+      "lng": 103.766667
+    }
+  ],
+  "pending": [
+    {
+      "cty": "Singapore",
+      "name": "Pending (BP8)",
+      "lat": 1.376111,
+      "lng": 103.771111
+    }
+  ],
+  "bangkit": [
+    {
+      "cty": "Singapore",
+      "name": "Bangkit (BP9)",
+      "lat": 1.38,
+      "lng": 103.7725
+    }
+  ],
+  "dhobyghaut": [
+    {
+      "cty": "Singapore",
+      "name": "Dhoby Ghaut (CC1)",
+      "lat": 1.299167,
+      "lng": 103.845833
+    },
+    {
+      "cty": "Singapore",
+      "name": "Dhoby Ghaut (NE6)",
+      "lat": 1.299167,
+      "lng": 103.845833
+    },
+    {
+      "cty": "Singapore",
+      "name": "Dhoby Ghaut (NS24)",
+      "lat": 1.299167,
+      "lng": 103.845833
+    }
+  ],
+  "macpherson": [
+    {
+      "cty": "Singapore",
+      "name": "MacPherson (CC10)",
+      "lat": 1.326667,
+      "lng": 103.89
+    },
+    {
+      "cty": "Singapore",
+      "name": "MacPherson (DT26)",
+      "lat": 1.326667,
+      "lng": 103.89
+    }
+  ],
+  "taiseng": [
+    {
+      "cty": "Singapore",
+      "name": "Tai Seng (CC11)",
+      "lat": 1.335833,
+      "lng": 103.888056
+    }
+  ],
+  "bartley": [
+    {
+      "cty": "Singapore",
+      "name": "Bartley (CC12)",
+      "lat": 1.342778,
+      "lng": 103.879722
+    }
+  ],
+  "serangoon": [
+    {
+      "cty": "Singapore",
+      "name": "Serangoon (CC13)",
+      "lat": 1.35,
+      "lng": 103.873056
+    },
+    {
+      "cty": "Singapore",
+      "name": "Serangoon (NE12)",
+      "lat": 1.35,
+      "lng": 103.873056
+    }
+  ],
+  "lorongchuan": [
+    {
+      "cty": "Singapore",
+      "name": "Lorong Chuan (CC14)",
+      "lat": 1.351667,
+      "lng": 103.864167
+    }
+  ],
+  "bishan": [
+    {
+      "cty": "Singapore",
+      "name": "Bishan (CC15)",
+      "lat": 1.351111,
+      "lng": 103.848333
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bishan (NS17)",
+      "lat": 1.351111,
+      "lng": 103.848333
+    }
+  ],
+  "marymount": [
+    {
+      "cty": "Singapore",
+      "name": "Marymount (CC16)",
+      "lat": 1.349167,
+      "lng": 103.839444
+    }
+  ],
+  "caldecott": [
+    {
+      "cty": "Singapore",
+      "name": "Caldecott (CC17)",
+      "lat": 1.337778,
+      "lng": 103.839444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Caldecott (TE9)",
+      "lat": 1.337778,
+      "lng": 103.839444
+    }
+  ],
+  "bukitbrown": [
+    {
+      "cty": "Singapore",
+      "name": "Bukit Brown (CC18)",
+      "lat": 1.333611,
+      "lng": 103.83
+    }
+  ],
+  "botanicgardens": [
+    {
+      "cty": "Singapore",
+      "name": "Botanic Gardens (CC19)",
+      "lat": 1.3225,
+      "lng": 103.815278
+    },
+    {
+      "cty": "Singapore",
+      "name": "Botanic Gardens (DT9)",
+      "lat": 1.3225,
+      "lng": 103.815278
+    }
+  ],
+  "brasbasah": [
+    {
+      "cty": "Singapore",
+      "name": "Bras Basah (CC2)",
+      "lat": 1.296944,
+      "lng": 103.850556
+    }
+  ],
+  "farrerroad": [
+    {
+      "cty": "Singapore",
+      "name": "Farrer Road (CC20)",
+      "lat": 1.317222,
+      "lng": 103.8075
+    }
+  ],
+  "hollandvillage": [
+    {
+      "cty": "Singapore",
+      "name": "Holland Village (CC21)",
+      "lat": 1.311944,
+      "lng": 103.796111
+    }
+  ],
+  "buonavista": [
+    {
+      "cty": "Singapore",
+      "name": "Buona Vista (CC22)",
+      "lat": 1.307333,
+      "lng": 103.790028
+    },
+    {
+      "cty": "Singapore",
+      "name": "Buona Vista (EW21)",
+      "lat": 1.307333,
+      "lng": 103.790028
+    }
+  ],
+  "one-north": [
+    {
+      "cty": "Singapore",
+      "name": "one-north (CC23)",
+      "lat": 1.299444,
+      "lng": 103.786944
+    }
+  ],
+  "kentridge": [
+    {
+      "cty": "Singapore",
+      "name": "Kent Ridge (CC24)",
+      "lat": 1.293333,
+      "lng": 103.784444
+    }
+  ],
+  "hawparvilla": [
+    {
+      "cty": "Singapore",
+      "name": "Haw Par Villa (CC25)",
+      "lat": 1.2825,
+      "lng": 103.781944
+    }
+  ],
+  "pasirpanjang": [
+    {
+      "cty": "Singapore",
+      "name": "Pasir Panjang (CC26)",
+      "lat": 1.276111,
+      "lng": 103.791389
+    }
+  ],
+  "labradorpark": [
+    {
+      "cty": "Singapore",
+      "name": "Labrador Park (CC27)",
+      "lat": 1.272222,
+      "lng": 103.802778
+    }
+  ],
+  "telokblangah": [
+    {
+      "cty": "Singapore",
+      "name": "Telok Blangah (CC28)",
+      "lat": 1.270556,
+      "lng": 103.809722
+    }
+  ],
+  "harbourfront": [
+    {
+      "cty": "Singapore",
+      "name": "HarbourFront (CC29)",
+      "lat": 1.265278,
+      "lng": 103.822222
+    },
+    {
+      "cty": "Singapore",
+      "name": "HarbourFront (NE1)",
+      "lat": 1.265278,
+      "lng": 103.822222
+    }
+  ],
+  "esplanade": [
+    {
+      "cty": "Singapore",
+      "name": "Esplanade (CC3)",
+      "lat": 1.293333,
+      "lng": 103.855278
+    }
+  ],
+  "keppel": [
+    {
+      "cty": "Singapore",
+      "name": "Keppel (CC30)",
+      "lat": 1.27,
+      "lng": 103.830278
+    }
+  ],
+  "cantonment": [
+    {
+      "cty": "Singapore",
+      "name": "Cantonment (CC31)",
+      "lat": 1.272778,
+      "lng": 103.836667
+    }
+  ],
+  "princeedwardroad": [
+    {
+      "cty": "Singapore",
+      "name": "Prince Edward Road (CC32)",
+      "lat": 1.273333,
+      "lng": 103.847222
+    }
+  ],
+  "promenade": [
+    {
+      "cty": "Singapore",
+      "name": "Promenade (CC4)",
+      "lat": 1.293056,
+      "lng": 103.861111
+    },
+    {
+      "cty": "Singapore",
+      "name": "Promenade (CE)",
+      "lat": 1.293056,
+      "lng": 103.861111
+    },
+    {
+      "cty": "Singapore",
+      "name": "Promenade (CC35)",
+      "lat": 1.293056,
+      "lng": 103.861111
+    },
+    {
+      "cty": "Singapore",
+      "name": "Promenade (DT15)",
+      "lat": 1.293056,
+      "lng": 103.861111
+    }
+  ],
+  "nicollhighway": [
+    {
+      "cty": "Singapore",
+      "name": "Nicoll Highway (CC5)",
+      "lat": 1.299722,
+      "lng": 103.863611
+    }
+  ],
+  "stadium": [
+    {
+      "cty": "Singapore",
+      "name": "Stadium (CC6)",
+      "lat": 1.302778,
+      "lng": 103.875278
+    }
+  ],
+  "mountbatten": [
+    {
+      "cty": "Singapore",
+      "name": "Mountbatten (CC7)",
+      "lat": 1.306389,
+      "lng": 103.8825
+    }
+  ],
+  "dakota": [
+    {
+      "cty": "Singapore",
+      "name": "Dakota (CC8)",
+      "lat": 1.308333,
+      "lng": 103.888333
+    }
+  ],
+  "payalebar": [
+    {
+      "cty": "Singapore",
+      "name": "Paya Lebar (CC9)",
+      "lat": 1.317778,
+      "lng": 103.8925
+    },
+    {
+      "cty": "Singapore",
+      "name": "Paya Lebar (EW8)",
+      "lat": 1.317778,
+      "lng": 103.8925
+    }
+  ],
+  "bayfront": [
+    {
+      "cty": "Singapore",
+      "name": "Bayfront (CE1)",
+      "lat": 1.282222,
+      "lng": 103.859444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bayfront (CC34)",
+      "lat": 1.282222,
+      "lng": 103.859444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bayfront (DT16)",
+      "lat": 1.282222,
+      "lng": 103.859444
+    }
+  ],
+  "marinabay": [
+    {
+      "cty": "Singapore",
+      "name": "Marina Bay (CE2)",
+      "lat": 1.276097,
+      "lng": 103.854675
+    },
+    {
+      "cty": "Singapore",
+      "name": "Marina Bay (CC33)",
+      "lat": 1.276097,
+      "lng": 103.854675
+    },
+    {
+      "cty": "Singapore",
+      "name": "Marina Bay (NS27)",
+      "lat": 1.276097,
+      "lng": 103.854675
+    },
+    {
+      "cty": "Singapore",
+      "name": "Marina Bay (TE20)",
+      "lat": 1.276097,
+      "lng": 103.854675
+    }
+  ],
+  "tanahmerah": [
+    {
+      "cty": "Singapore",
+      "name": "Tanah Merah (CG)",
+      "lat": 1.327358,
+      "lng": 103.946344
+    },
+    {
+      "cty": "Singapore",
+      "name": "Tanah Merah (EW4)",
+      "lat": 1.327358,
+      "lng": 103.946344
+    }
+  ],
+  "expo": [
+    {
+      "cty": "Singapore",
+      "name": "Expo (CG1)",
+      "lat": 1.335469,
+      "lng": 103.961767
+    },
+    {
+      "cty": "Singapore",
+      "name": "Expo (DT35)",
+      "lat": 1.335469,
+      "lng": 103.961767
+    }
+  ],
+  "changiairport": [
+    {
+      "cty": "Singapore",
+      "name": "Changi Airport (CG2)",
+      "lat": 1.357372,
+      "lng": 103.988836
+    }
+  ],
+  "pasirris": [
+    {
+      "cty": "Singapore",
+      "name": "Pasir Ris (CP1)",
+      "lat": 1.372411,
+      "lng": 103.949369
+    },
+    {
+      "cty": "Singapore",
+      "name": "Pasir Ris (CR5)",
+      "lat": 1.372411,
+      "lng": 103.949369
+    },
+    {
+      "cty": "Singapore",
+      "name": "Pasir Ris (EW1)",
+      "lat": 1.372411,
+      "lng": 103.949369
+    }
+  ],
+  "elias": [
+    {
+      "cty": "Singapore",
+      "name": "Elias (CP2)",
+      "lat": 1.383889,
+      "lng": 103.938056
+    }
+  ],
+  "riviera": [
+    {
+      "cty": "Singapore",
+      "name": "Riviera (CP3)",
+      "lat": 1.394439,
+      "lng": 103.916772
+    },
+    {
+      "cty": "Singapore",
+      "name": "Riviera (PE4)",
+      "lat": 1.394439,
+      "lng": 103.916772
+    }
+  ],
+  "punggol": [
+    {
+      "cty": "Singapore",
+      "name": "Punggol (CP4)",
+      "lat": 1.405278,
+      "lng": 103.9025
+    },
+    {
+      "cty": "Singapore",
+      "name": "Punggol (NE17)",
+      "lat": 1.405278,
+      "lng": 103.9025
+    },
+    {
+      "cty": "Singapore",
+      "name": "Punggol (PTC)",
+      "lat": 1.405278,
+      "lng": 103.9025
+    }
+  ],
+  "tavistock": [
+    {
+      "cty": "Singapore",
+      "name": "Tavistock (CR10)",
+      "lat": 1.37,
+      "lng": 103.863333
+    }
+  ],
+  "angmokio": [
+    {
+      "cty": "Singapore",
+      "name": "Ang Mo Kio (CR11)",
+      "lat": 1.370017,
+      "lng": 103.84945
+    },
+    {
+      "cty": "Singapore",
+      "name": "Ang Mo Kio (NS16)",
+      "lat": 1.370017,
+      "lng": 103.84945
+    }
+  ],
+  "teckghee": [
+    {
+      "cty": "Singapore",
+      "name": "Teck Ghee (CR12)",
+      "lat": 1.365556,
+      "lng": 103.843611
+    }
+  ],
+  "brighthill": [
+    {
+      "cty": "Singapore",
+      "name": "Bright Hill (CR13)",
+      "lat": 1.361667,
+      "lng": 103.832222
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bright Hill (TE7)",
+      "lat": 1.361667,
+      "lng": 103.832222
+    }
+  ],
+  "turfcity": [
+    {
+      "cty": "Singapore",
+      "name": "Turf City (CR14)",
+      "lat": 1.340603,
+      "lng": 103.793536
+    }
+  ],
+  "kingalbertpark": [
+    {
+      "cty": "Singapore",
+      "name": "King Albert Park (CR15)",
+      "lat": 1.335283,
+      "lng": 103.783365
+    },
+    {
+      "cty": "Singapore",
+      "name": "King Albert Park (DT6)",
+      "lat": 1.335556,
+      "lng": 103.783889
+    }
+  ],
+  "maju": [
+    {
+      "cty": "Singapore",
+      "name": "Maju (CR16)",
+      "lat": 1.3272925,
+      "lng": 103.776148
+    }
+  ],
+  "clementi": [
+    {
+      "cty": "Singapore",
+      "name": "Clementi (CR17)",
+      "lat": 1.314732,
+      "lng": 103.765116
+    },
+    {
+      "cty": "Singapore",
+      "name": "Clementi (EW23)",
+      "lat": 1.315303,
+      "lng": 103.765244
+    }
+  ],
+  "westcoast": [
+    {
+      "cty": "Singapore",
+      "name": "West Coast (CR18)",
+      "lat": 1.310367,
+      "lng": 103.757727
+    }
+  ],
+  "juronglakedistrict": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong Lake District (CR19)",
+      "lat": 1.32726,
+      "lng": 103.739188
+    }
+  ],
+  "aviationpark": [
+    {
+      "cty": "Singapore",
+      "name": "Aviation Park (CR2)",
+      "lat": 1.37,
+      "lng": 104.003056
+    }
+  ],
+  "loyang": [
+    {
+      "cty": "Singapore",
+      "name": "Loyang (CR3)",
+      "lat": 1.371944,
+      "lng": 103.971944
+    }
+  ],
+  "pasirriseast": [
+    {
+      "cty": "Singapore",
+      "name": "Pasir Ris East (CR4)",
+      "lat": 1.366111,
+      "lng": 103.961111
+    }
+  ],
+  "tampinesnorth": [
+    {
+      "cty": "Singapore",
+      "name": "Tampines North (CR6)",
+      "lat": 1.369167,
+      "lng": 103.937778
+    }
+  ],
+  "defu": [
+    {
+      "cty": "Singapore",
+      "name": "Defu (CR7)",
+      "lat": 1.362222,
+      "lng": 103.898889
+    }
+  ],
+  "hougang": [
+    {
+      "cty": "Singapore",
+      "name": "Hougang (CR8)",
+      "lat": 1.371389,
+      "lng": 103.892222
+    },
+    {
+      "cty": "Singapore",
+      "name": "Hougang (NE14)",
+      "lat": 1.371389,
+      "lng": 103.892222
+    }
+  ],
+  "serangoonnorth": [
+    {
+      "cty": "Singapore",
+      "name": "Serangoon North (CR9)",
+      "lat": 1.370556,
+      "lng": 103.873611
+    }
+  ],
+  "sungeikadut": [
+    {
+      "cty": "Singapore",
+      "name": "Sungei Kadut (DT)",
+      "lat": 1.413204,
+      "lng": 103.748711
+    },
+    {
+      "cty": "Singapore",
+      "name": "Sungei Kadut (NS6)",
+      "lat": 1.413204,
+      "lng": 103.748711
+    }
+  ],
+  "stevens": [
+    {
+      "cty": "Singapore",
+      "name": "Stevens (DT10)",
+      "lat": 1.32,
+      "lng": 103.826111
+    },
+    {
+      "cty": "Singapore",
+      "name": "Stevens (TE11)",
+      "lat": 1.32,
+      "lng": 103.826111
+    }
+  ],
+  "newton": [
+    {
+      "cty": "Singapore",
+      "name": "Newton (DT11)",
+      "lat": 1.313056,
+      "lng": 103.838333
+    },
+    {
+      "cty": "Singapore",
+      "name": "Newton (NS21)",
+      "lat": 1.313056,
+      "lng": 103.838333
+    }
+  ],
+  "littleindia": [
+    {
+      "cty": "Singapore",
+      "name": "Little India (DT12)",
+      "lat": 1.306667,
+      "lng": 103.849167
+    },
+    {
+      "cty": "Singapore",
+      "name": "Little India (NE7)",
+      "lat": 1.306667,
+      "lng": 103.849167
+    }
+  ],
+  "rochor": [
+    {
+      "cty": "Singapore",
+      "name": "Rochor (DT13)",
+      "lat": 1.303764,
+      "lng": 103.852581
+    }
+  ],
+  "bugis": [
+    {
+      "cty": "Singapore",
+      "name": "Bugis (DT14)",
+      "lat": 1.300278,
+      "lng": 103.856111
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bugis (EW12)",
+      "lat": 1.300278,
+      "lng": 103.856111
+    }
+  ],
+  "downtown": [
+    {
+      "cty": "Singapore",
+      "name": "Downtown (DT17)",
+      "lat": 1.279444,
+      "lng": 103.853056
+    }
+  ],
+  "telokayer": [
+    {
+      "cty": "Singapore",
+      "name": "Telok Ayer (DT18)",
+      "lat": 1.282222,
+      "lng": 103.848333
+    }
+  ],
+  "chinatown": [
+    {
+      "cty": "Singapore",
+      "name": "Chinatown (DT19)",
+      "lat": 1.284722,
+      "lng": 103.843889
+    },
+    {
+      "cty": "Singapore",
+      "name": "Chinatown (NE4)",
+      "lat": 1.284722,
+      "lng": 103.843889
+    }
+  ],
+  "cashew": [
+    {
+      "cty": "Singapore",
+      "name": "Cashew (DT2)",
+      "lat": 1.368889,
+      "lng": 103.764722
+    }
+  ],
+  "fortcanning": [
+    {
+      "cty": "Singapore",
+      "name": "Fort Canning (DT20)",
+      "lat": 1.292481,
+      "lng": 103.844325
+    }
+  ],
+  "bencoolen": [
+    {
+      "cty": "Singapore",
+      "name": "Bencoolen (DT21)",
+      "lat": 1.298889,
+      "lng": 103.850278
+    }
+  ],
+  "jalanbesar": [
+    {
+      "cty": "Singapore",
+      "name": "Jalan Besar (DT22)",
+      "lat": 1.305556,
+      "lng": 103.855278
+    }
+  ],
+  "bendemeer": [
+    {
+      "cty": "Singapore",
+      "name": "Bendemeer (DT23)",
+      "lat": 1.314167,
+      "lng": 103.861389
+    }
+  ],
+  "geylangbahru": [
+    {
+      "cty": "Singapore",
+      "name": "Geylang Bahru (DT24)",
+      "lat": 1.321389,
+      "lng": 103.871389
+    }
+  ],
+  "mattar": [
+    {
+      "cty": "Singapore",
+      "name": "Mattar (DT25)",
+      "lat": 1.327222,
+      "lng": 103.882778
+    }
+  ],
+  "ubi": [
+    {
+      "cty": "Singapore",
+      "name": "Ubi (DT27)",
+      "lat": 1.33,
+      "lng": 103.9
+    }
+  ],
+  "kakibukit": [
+    {
+      "cty": "Singapore",
+      "name": "Kaki Bukit (DT28)",
+      "lat": 1.335,
+      "lng": 103.908889
+    }
+  ],
+  "bedoknorth": [
+    {
+      "cty": "Singapore",
+      "name": "Bedok North (DT29)",
+      "lat": 1.336389,
+      "lng": 103.917778
+    }
+  ],
+  "hillview": [
+    {
+      "cty": "Singapore",
+      "name": "Hillview (DT3)",
+      "lat": 1.3625,
+      "lng": 103.7675
+    }
+  ],
+  "bedokreservoir": [
+    {
+      "cty": "Singapore",
+      "name": "Bedok Reservoir (DT30)",
+      "lat": 1.336667,
+      "lng": 103.930833
+    }
+  ],
+  "tampineswest": [
+    {
+      "cty": "Singapore",
+      "name": "Tampines West (DT31)",
+      "lat": 1.345556,
+      "lng": 103.938333
+    }
+  ],
+  "tampines": [
+    {
+      "cty": "Singapore",
+      "name": "Tampines (DT32)",
+      "lat": 1.352528,
+      "lng": 103.945322
+    },
+    {
+      "cty": "Singapore",
+      "name": "Tampines (EW2)",
+      "lat": 1.352528,
+      "lng": 103.945322
+    }
+  ],
+  "tampineseast": [
+    {
+      "cty": "Singapore",
+      "name": "Tampines East (DT33)",
+      "lat": 1.356389,
+      "lng": 103.954722
+    }
+  ],
+  "upperchangi": [
+    {
+      "cty": "Singapore",
+      "name": "Upper Changi (DT34)",
+      "lat": 1.341944,
+      "lng": 103.961389
+    }
+  ],
+  "xilin": [
+    {
+      "cty": "Singapore",
+      "name": "Xilin (DT36)",
+      "lat": 1.328889,
+      "lng": 103.965
+    }
+  ],
+  "sungeibedok": [
+    {
+      "cty": "Singapore",
+      "name": "Sungei Bedok (DT37)",
+      "lat": 1.320278,
+      "lng": 103.957222
+    },
+    {
+      "cty": "Singapore",
+      "name": "Sungei Bedok (TE31)",
+      "lat": 1.320278,
+      "lng": 103.957222
+    }
+  ],
+  "hume": [
+    {
+      "cty": "Singapore",
+      "name": "Hume (DT4)",
+      "lat": 1.354722,
+      "lng": 103.769167
+    }
+  ],
+  "beautyworld": [
+    {
+      "cty": "Singapore",
+      "name": "Beauty World (DT5)",
+      "lat": 1.341111,
+      "lng": 103.775833
+    }
+  ],
+  "sixthavenue": [
+    {
+      "cty": "Singapore",
+      "name": "Sixth Avenue (DT7)",
+      "lat": 1.330833,
+      "lng": 103.7975
+    }
+  ],
+  "tankahkee": [
+    {
+      "cty": "Singapore",
+      "name": "Tan Kah Kee (DT8)",
+      "lat": 1.326111,
+      "lng": 103.807222
+    }
+  ],
+  "kallang": [
+    {
+      "cty": "Singapore",
+      "name": "Kallang (EW10)",
+      "lat": 1.311469,
+      "lng": 103.8714
+    }
+  ],
+  "lavender": [
+    {
+      "cty": "Singapore",
+      "name": "Lavender (EW11)",
+      "lat": 1.307167,
+      "lng": 103.863008
+    }
+  ],
+  "cityhall": [
+    {
+      "cty": "Singapore",
+      "name": "City Hall (EW13)",
+      "lat": 1.293239,
+      "lng": 103.852219
+    },
+    {
+      "cty": "Singapore",
+      "name": "City Hall (NS25)",
+      "lat": 1.293239,
+      "lng": 103.852219
+    }
+  ],
+  "rafflesplace": [
+    {
+      "cty": "Singapore",
+      "name": "Raffles Place (EW14)",
+      "lat": 1.283881,
+      "lng": 103.851533
+    },
+    {
+      "cty": "Singapore",
+      "name": "Raffles Place (NS26)",
+      "lat": 1.283881,
+      "lng": 103.851533
+    }
+  ],
+  "tanjongpagar": [
+    {
+      "cty": "Singapore",
+      "name": "Tanjong Pagar (EW15)",
+      "lat": 1.276439,
+      "lng": 103.845711
+    }
+  ],
+  "outrampark": [
+    {
+      "cty": "Singapore",
+      "name": "Outram Park (EW16)",
+      "lat": 1.280278,
+      "lng": 103.839444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Outram Park (NE3)",
+      "lat": 1.280278,
+      "lng": 103.839444
+    },
+    {
+      "cty": "Singapore",
+      "name": "Outram Park (TE17)",
+      "lat": 1.280278,
+      "lng": 103.839444
+    }
+  ],
+  "tiongbahru": [
+    {
+      "cty": "Singapore",
+      "name": "Tiong Bahru (EW17)",
+      "lat": 1.286081,
+      "lng": 103.826958
+    }
+  ],
+  "redhill": [
+    {
+      "cty": "Singapore",
+      "name": "Redhill (EW18)",
+      "lat": 1.289733,
+      "lng": 103.81675
+    }
+  ],
+  "queenstown": [
+    {
+      "cty": "Singapore",
+      "name": "Queenstown (EW19)",
+      "lat": 1.294442,
+      "lng": 103.806114
+    }
+  ],
+  "commonwealth": [
+    {
+      "cty": "Singapore",
+      "name": "Commonwealth (EW20)",
+      "lat": 1.302558,
+      "lng": 103.798225
+    }
+  ],
+  "dover": [
+    {
+      "cty": "Singapore",
+      "name": "Dover (EW22)",
+      "lat": 1.311314,
+      "lng": 103.778658
+    }
+  ],
+  "jurongeast": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong East (EW24)",
+      "lat": 1.333333,
+      "lng": 103.742222
+    },
+    {
+      "cty": "Singapore",
+      "name": "Jurong East (JE5)",
+      "lat": 1.333333,
+      "lng": 103.742222
+    },
+    {
+      "cty": "Singapore",
+      "name": "Jurong East (NS1)",
+      "lat": 1.333333,
+      "lng": 103.742222
+    }
+  ],
+  "chinesegarden": [
+    {
+      "cty": "Singapore",
+      "name": "Chinese Garden (EW25)",
+      "lat": 1.342711,
+      "lng": 103.732467
+    }
+  ],
+  "lakeside": [
+    {
+      "cty": "Singapore",
+      "name": "Lakeside (EW26)",
+      "lat": 1.344589,
+      "lng": 103.721139
+    }
+  ],
+  "boonlay": [
+    {
+      "cty": "Singapore",
+      "name": "Boon Lay (EW27)",
+      "lat": 1.338883,
+      "lng": 103.706208
+    },
+    {
+      "cty": "Singapore",
+      "name": "Boon Lay (JS8)",
+      "lat": 1.338883,
+      "lng": 103.706208
+    }
+  ],
+  "pioneer": [
+    {
+      "cty": "Singapore",
+      "name": "Pioneer (EW28)",
+      "lat": 1.337578,
+      "lng": 103.697217
+    }
+  ],
+  "jookoon": [
+    {
+      "cty": "Singapore",
+      "name": "Joo Koon (EW29)",
+      "lat": 1.327739,
+      "lng": 103.678486
+    }
+  ],
+  "simei": [
+    {
+      "cty": "Singapore",
+      "name": "Simei (EW3)",
+      "lat": 1.343444,
+      "lng": 103.953172
+    }
+  ],
+  "gulcircle": [
+    {
+      "cty": "Singapore",
+      "name": "Gul Circle (EW30)",
+      "lat": 1.3212,
+      "lng": 103.6657
+    }
+  ],
+  "tuascrescent": [
+    {
+      "cty": "Singapore",
+      "name": "Tuas Crescent (EW31)",
+      "lat": 1.321139,
+      "lng": 103.649
+    }
+  ],
+  "tuaswestroad": [
+    {
+      "cty": "Singapore",
+      "name": "Tuas West Road (EW32)",
+      "lat": 1.330056,
+      "lng": 103.639611
+    }
+  ],
+  "tuaslink": [
+    {
+      "cty": "Singapore",
+      "name": "Tuas Link (EW33)",
+      "lat": 1.340278,
+      "lng": 103.636806
+    }
+  ],
+  "bedok": [
+    {
+      "cty": "Singapore",
+      "name": "Bedok (EW5)",
+      "lat": 1.324039,
+      "lng": 103.930036
+    }
+  ],
+  "kembangan": [
+    {
+      "cty": "Singapore",
+      "name": "Kembangan (EW6)",
+      "lat": 1.320983,
+      "lng": 103.912842
+    }
+  ],
+  "eunos": [
+    {
+      "cty": "Singapore",
+      "name": "Eunos (EW7)",
+      "lat": 1.319725,
+      "lng": 103.903108
+    }
+  ],
+  "aljunied": [
+    {
+      "cty": "Singapore",
+      "name": "Aljunied (EW9)",
+      "lat": 1.316442,
+      "lng": 103.882981
+    }
+  ],
+  "tengahplantation": [
+    {
+      "cty": "Singapore",
+      "name": "Tengah Plantation (JE1)",
+      "lat": 1.357222,
+      "lng": 103.733333
+    }
+  ],
+  "tengahpark": [
+    {
+      "cty": "Singapore",
+      "name": "Tengah Park (JE2)",
+      "lat": 1.352222,
+      "lng": 103.736667
+    }
+  ],
+  "bukitbatokwest": [
+    {
+      "cty": "Singapore",
+      "name": "Bukit Batok West (JE3)",
+      "lat": 1.345556,
+      "lng": 103.739722
+    }
+  ],
+  "tohguan": [
+    {
+      "cty": "Singapore",
+      "name": "Toh Guan (JE4)",
+      "lat": 1.339722,
+      "lng": 103.7425
+    }
+  ],
+  "jurongtownhall": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong Town Hall (JE6)",
+      "lat": 1.326111,
+      "lng": 103.746111
+    }
+  ],
+  "pandanreservoir": [
+    {
+      "cty": "Singapore",
+      "name": "Pandan Reservoir (JE7)",
+      "lat": 1.32,
+      "lng": 103.745
+    }
+  ],
+  "tukang": [
+    {
+      "cty": "Singapore",
+      "name": "Tukang (JS10)",
+      "lat": 1.325278,
+      "lng": 103.709167
+    }
+  ],
+  "juronghill": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong Hill (JS11)",
+      "lat": 1.318611,
+      "lng": 103.710278
+    }
+  ],
+  "jurongpier": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong Pier (JS12)",
+      "lat": 1.313056,
+      "lng": 103.710278
+    }
+  ],
+  "choachukangwest": [
+    {
+      "cty": "Singapore",
+      "name": "Choa Chu Kang West (JS2)",
+      "lat": 1.3791,
+      "lng": 103.737821
+    }
+  ],
+  "tengah": [
+    {
+      "cty": "Singapore",
+      "name": "Tengah (JS3)",
+      "lat": 1.366389,
+      "lng": 103.73
+    },
+    {
+      "cty": "Singapore",
+      "name": "Tengah (JE)",
+      "lat": 1.366389,
+      "lng": 103.73
+    }
+  ],
+  "hongkah": [
+    {
+      "cty": "Singapore",
+      "name": "Hong Kah (JS4)",
+      "lat": 1.358056,
+      "lng": 103.725833
+    }
+  ],
+  "corporation": [
+    {
+      "cty": "Singapore",
+      "name": "Corporation (JS5)",
+      "lat": 1.353056,
+      "lng": 103.713889
+    }
+  ],
+  "jurongwest": [
+    {
+      "cty": "Singapore",
+      "name": "Jurong West (JS6)",
+      "lat": 1.349167,
+      "lng": 103.708333
+    }
+  ],
+  "baharjunction": [
+    {
+      "cty": "Singapore",
+      "name": "Bahar Junction (JS7)",
+      "lat": 1.345422,
+      "lng": 103.702542
+    },
+    {
+      "cty": "Singapore",
+      "name": "Bahar Junction (JW)",
+      "lat": 1.345422,
+      "lng": 103.702542
+    }
+  ],
+  "enterprise": [
+    {
+      "cty": "Singapore",
+      "name": "Enterprise (JS9)",
+      "lat": 1.332778,
+      "lng": 103.708611
+    }
+  ],
+  "gekpoh": [
+    {
+      "cty": "Singapore",
+      "name": "Gek Poh (JW1)",
+      "lat": 1.348333,
+      "lng": 103.698056
+    }
+  ],
+  "tawas": [
+    {
+      "cty": "Singapore",
+      "name": "Tawas (JW2)",
+      "lat": 1.350556,
+      "lng": 103.691944
+    }
+  ],
+  "nanyanggateway": [
+    {
+      "cty": "Singapore",
+      "name": "Nanyang Gateway (JW3)",
+      "lat": 1.353611,
+      "lng": 103.686667
+    }
+  ],
+  "nanyangcrescent": [
+    {
+      "cty": "Singapore",
+      "name": "Nanyang Crescent (JW4)",
+      "lat": 1.348333,
+      "lng": 103.680833
+    }
+  ],
+  "pengkanghill": [
+    {
+      "cty": "Singapore",
+      "name": "Peng Kang Hill (JW5)",
+      "lat": 1.343333,
+      "lng": 103.678611
+    }
+  ],
+  "potongpasir": [
+    {
+      "cty": "Singapore",
+      "name": "Potong Pasir (NE10)",
+      "lat": 1.331111,
+      "lng": 103.869167
+    }
+  ],
+  "woodleigh": [
+    {
+      "cty": "Singapore",
+      "name": "Woodleigh (NE11)",
+      "lat": 1.339167,
+      "lng": 103.870833
+    }
+  ],
+  "kovan": [
+    {
+      "cty": "Singapore",
+      "name": "Kovan (NE13)",
+      "lat": 1.360278,
+      "lng": 103.885
+    }
+  ],
+  "buangkok": [
+    {
+      "cty": "Singapore",
+      "name": "Buangkok (NE15)",
+      "lat": 1.382778,
+      "lng": 103.892778
+    }
+  ],
+  "sengkang": [
+    {
+      "cty": "Singapore",
+      "name": "Sengkang (NE16)",
+      "lat": 1.391667,
+      "lng": 103.895
+    },
+    {
+      "cty": "Singapore",
+      "name": "Sengkang (STC)",
+      "lat": 1.391667,
+      "lng": 103.895
+    }
+  ],
+  "punggolcoast": [
+    {
+      "cty": "Singapore",
+      "name": "Punggol Coast (NE18)",
+      "lat": 1.415833,
+      "lng": 103.913333
+    }
+  ],
+  "clarkequay": [
+    {
+      "cty": "Singapore",
+      "name": "Clarke Quay (NE5)",
+      "lat": 1.288611,
+      "lng": 103.846667
+    }
+  ],
+  "farrerpark": [
+    {
+      "cty": "Singapore",
+      "name": "Farrer Park (NE8)",
+      "lat": 1.312222,
+      "lng": 103.854167
+    }
+  ],
+  "boonkeng": [
+    {
+      "cty": "Singapore",
+      "name": "Boon Keng (NE9)",
+      "lat": 1.319444,
+      "lng": 103.861667
+    }
+  ],
+  "admiralty": [
+    {
+      "cty": "Singapore",
+      "name": "Admiralty (NS10)",
+      "lat": 1.440689,
+      "lng": 103.800933
+    }
+  ],
+  "sembawang": [
+    {
+      "cty": "Singapore",
+      "name": "Sembawang (NS11)",
+      "lat": 1.449025,
+      "lng": 103.820153
+    }
+  ],
+  "canberra": [
+    {
+      "cty": "Singapore",
+      "name": "Canberra (NS12)",
+      "lat": 1.443056,
+      "lng": 103.829722
+    }
+  ],
+  "yishun": [
+    {
+      "cty": "Singapore",
+      "name": "Yishun (NS13)",
+      "lat": 1.429464,
+      "lng": 103.835239
+    }
+  ],
+  "khatib": [
+    {
+      "cty": "Singapore",
+      "name": "Khatib (NS14)",
+      "lat": 1.417167,
+      "lng": 103.8329
+    }
+  ],
+  "yiochukang": [
+    {
+      "cty": "Singapore",
+      "name": "Yio Chu Kang (NS15)",
+      "lat": 1.381906,
+      "lng": 103.844817
+    }
+  ],
+  "braddell": [
+    {
+      "cty": "Singapore",
+      "name": "Braddell (NS18)",
+      "lat": 1.340339,
+      "lng": 103.846725
+    }
+  ],
+  "toapayoh": [
+    {
+      "cty": "Singapore",
+      "name": "Toa Payoh (NS19)",
+      "lat": 1.332778,
+      "lng": 103.8475
+    }
+  ],
+  "bukitbatok": [
+    {
+      "cty": "Singapore",
+      "name": "Bukit Batok (NS2)",
+      "lat": 1.349167,
+      "lng": 103.749722
+    }
+  ],
+  "novena": [
+    {
+      "cty": "Singapore",
+      "name": "Novena (NS20)",
+      "lat": 1.320394,
+      "lng": 103.843689
+    }
+  ],
+  "orchard": [
+    {
+      "cty": "Singapore",
+      "name": "Orchard (NS22)",
+      "lat": 1.303333,
+      "lng": 103.831667
+    },
+    {
+      "cty": "Singapore",
+      "name": "Orchard (TE14)",
+      "lat": 1.303333,
+      "lng": 103.831667
+    }
+  ],
+  "somerset": [
+    {
+      "cty": "Singapore",
+      "name": "Somerset (NS23)",
+      "lat": 1.300514,
+      "lng": 103.839028
+    }
+  ],
+  "marinasouthpier": [
+    {
+      "cty": "Singapore",
+      "name": "Marina South Pier (NS28)",
+      "lat": 1.270958,
+      "lng": 103.863242
+    }
+  ],
+  "bukitgombak": [
+    {
+      "cty": "Singapore",
+      "name": "Bukit Gombak (NS3)",
+      "lat": 1.358611,
+      "lng": 103.751667
+    }
+  ],
+  "brickland": [
+    {
+      "cty": "Singapore",
+      "name": "Brickland (NS3A)",
+      "lat": 1.369722,
+      "lng": 103.747778
+    }
+  ],
+  "yewtee": [
+    {
+      "cty": "Singapore",
+      "name": "Yew Tee (NS5)",
+      "lat": 1.396986,
+      "lng": 103.747239
+    }
+  ],
+  "kranji": [
+    {
+      "cty": "Singapore",
+      "name": "Kranji (NS7)",
+      "lat": 1.425047,
+      "lng": 103.761853
+    }
+  ],
+  "marsiling": [
+    {
+      "cty": "Singapore",
+      "name": "Marsiling (NS8)",
+      "lat": 1.432636,
+      "lng": 103.774283
+    }
+  ],
+  "woodlands": [
+    {
+      "cty": "Singapore",
+      "name": "Woodlands (NS9)",
+      "lat": 1.437094,
+      "lng": 103.786483
+    },
+    {
+      "cty": "Singapore",
+      "name": "Woodlands (TE2)",
+      "lat": 1.437094,
+      "lng": 103.786483
+    }
+  ],
+  "cove": [
+    {
+      "cty": "Singapore",
+      "name": "Cove (PE1)",
+      "lat": 1.398111,
+      "lng": 103.905725
+    }
+  ],
+  "meridian": [
+    {
+      "cty": "Singapore",
+      "name": "Meridian (PE2)",
+      "lat": 1.397364,
+      "lng": 103.908592
+    }
+  ],
+  "coraledge": [
+    {
+      "cty": "Singapore",
+      "name": "Coral Edge (PE3)",
+      "lat": 1.394647,
+      "lng": 103.912039
+    }
+  ],
+  "kadaloor": [
+    {
+      "cty": "Singapore",
+      "name": "Kadaloor (PE5)",
+      "lat": 1.399686,
+      "lng": 103.916353
+    }
+  ],
+  "oasis": [
+    {
+      "cty": "Singapore",
+      "name": "Oasis (PE6)",
+      "lat": 1.402369,
+      "lng": 103.912422
+    }
+  ],
+  "damai": [
+    {
+      "cty": "Singapore",
+      "name": "Damai (PE7)",
+      "lat": 1.404814,
+      "lng": 103.908875
+    }
+  ],
+  "samkee": [
+    {
+      "cty": "Singapore",
+      "name": "Sam Kee (PW1)",
+      "lat": 1.40975,
+      "lng": 103.904583
+    }
+  ],
+  "tecklee": [
+    {
+      "cty": "Singapore",
+      "name": "Teck Lee (PW2)",
+      "lat": 1.4128,
+      "lng": 103.906233
+    }
+  ],
+  "punggolpoint": [
+    {
+      "cty": "Singapore",
+      "name": "Punggol Point (PW3)",
+      "lat": 1.416883,
+      "lng": 103.906353
+    }
+  ],
+  "samudera": [
+    {
+      "cty": "Singapore",
+      "name": "Samudera (PW4)",
+      "lat": 1.41595,
+      "lng": 103.901856
+    }
+  ],
+  "nibong": [
+    {
+      "cty": "Singapore",
+      "name": "Nibong (PW5)",
+      "lat": 1.411878,
+      "lng": 103.900028
+    }
+  ],
+  "sumang": [
+    {
+      "cty": "Singapore",
+      "name": "Sumang (PW6)",
+      "lat": 1.408056,
+      "lng": 103.898611
+    }
+  ],
+  "sooteck": [
+    {
+      "cty": "Singapore",
+      "name": "Soo Teck (PW7)",
+      "lat": 1.405417,
+      "lng": 103.896944
+    }
+  ],
+  "compassvale": [
+    {
+      "cty": "Singapore",
+      "name": "Compassvale (SE1)",
+      "lat": 1.394444,
+      "lng": 103.900278
+    }
+  ],
+  "rumbia": [
+    {
+      "cty": "Singapore",
+      "name": "Rumbia (SE2)",
+      "lat": 1.391094,
+      "lng": 103.906306
+    }
+  ],
+  "bakau": [
+    {
+      "cty": "Singapore",
+      "name": "Bakau (SE3)",
+      "lat": 1.387853,
+      "lng": 103.905267
+    }
+  ],
+  "kangkar": [
+    {
+      "cty": "Singapore",
+      "name": "Kangkar (SE4)",
+      "lat": 1.383739,
+      "lng": 103.902194
+    }
+  ],
+  "ranggung": [
+    {
+      "cty": "Singapore",
+      "name": "Ranggung (SE5)",
+      "lat": 1.383619,
+      "lng": 103.897736
+    }
+  ],
+  "chenglim": [
+    {
+      "cty": "Singapore",
+      "name": "Cheng Lim (SW1)",
+      "lat": 1.396389,
+      "lng": 103.893611
+    }
+  ],
+  "farmway": [
+    {
+      "cty": "Singapore",
+      "name": "Farmway (SW2)",
+      "lat": 1.398978,
+      "lng": 103.888911
+    }
+  ],
+  "kupang": [
+    {
+      "cty": "Singapore",
+      "name": "Kupang (SW3)",
+      "lat": 1.399228,
+      "lng": 103.881319
+    }
+  ],
+  "thanggam": [
+    {
+      "cty": "Singapore",
+      "name": "Thanggam (SW4)",
+      "lat": 1.399356,
+      "lng": 103.874794
+    }
+  ],
+  "fernvale": [
+    {
+      "cty": "Singapore",
+      "name": "Fernvale (SW5)",
+      "lat": 1.393208,
+      "lng": 103.876303
+    }
+  ],
+  "layar": [
+    {
+      "cty": "Singapore",
+      "name": "Layar (SW6)",
+      "lat": 1.394025,
+      "lng": 103.879753
+    }
+  ],
+  "tongkang": [
+    {
+      "cty": "Singapore",
+      "name": "Tongkang (SW7)",
+      "lat": 1.391078,
+      "lng": 103.885772
+    }
+  ],
+  "renjong": [
+    {
+      "cty": "Singapore",
+      "name": "Renjong (SW8)",
+      "lat": 1.386614,
+      "lng": 103.890425
+    }
+  ],
+  "woodlandsnorth": [
+    {
+      "cty": "Singapore",
+      "name": "Woodlands North (TE1)",
+      "lat": 1.448333,
+      "lng": 103.785
+    }
+  ],
+  "mountpleasant": [
+    {
+      "cty": "Singapore",
+      "name": "Mount Pleasant (TE10)",
+      "lat": 1.328611,
+      "lng": 103.835556
+    }
+  ],
+  "napier": [
+    {
+      "cty": "Singapore",
+      "name": "Napier (TE12)",
+      "lat": 1.306944,
+      "lng": 103.819167
+    }
+  ],
+  "orchardboulevard": [
+    {
+      "cty": "Singapore",
+      "name": "Orchard Boulevard (TE13)",
+      "lat": 1.3025,
+      "lng": 103.825
+    }
+  ],
+  "greatworld": [
+    {
+      "cty": "Singapore",
+      "name": "Great World (TE15)",
+      "lat": 1.295,
+      "lng": 103.833611
+    }
+  ],
+  "havelock": [
+    {
+      "cty": "Singapore",
+      "name": "Havelock (TE16)",
+      "lat": 1.287778,
+      "lng": 103.833611
+    }
+  ],
+  "maxwell": [
+    {
+      "cty": "Singapore",
+      "name": "Maxwell (TE18)",
+      "lat": 1.280278,
+      "lng": 103.843889
+    }
+  ],
+  "shentonway": [
+    {
+      "cty": "Singapore",
+      "name": "Shenton Way (TE19)",
+      "lat": 1.2775,
+      "lng": 103.850833
+    }
+  ],
+  "marinasouth": [
+    {
+      "cty": "Singapore",
+      "name": "Marina South (TE21)",
+      "lat": 1.273889,
+      "lng": 103.863056
+    }
+  ],
+  "gardensbythebay": [
+    {
+      "cty": "Singapore",
+      "name": "Gardens by the Bay (TE22)",
+      "lat": 1.278333,
+      "lng": 103.868056
+    }
+  ],
+  "founders'memorial": [
+    {
+      "cty": "Singapore",
+      "name": "Founders' Memorial (TE22A)",
+      "lat": 1.291111,
+      "lng": 103.868611
+    }
+  ],
+  "tanjongrhu": [
+    {
+      "cty": "Singapore",
+      "name": "Tanjong Rhu (TE23)",
+      "lat": 1.297222,
+      "lng": 103.873333
+    }
+  ],
+  "katongpark": [
+    {
+      "cty": "Singapore",
+      "name": "Katong Park (TE24)",
+      "lat": 1.297778,
+      "lng": 103.885278
+    }
+  ],
+  "tanjongkatong": [
+    {
+      "cty": "Singapore",
+      "name": "Tanjong Katong (TE25)",
+      "lat": 1.299167,
+      "lng": 103.897778
+    }
+  ],
+  "marineparade": [
+    {
+      "cty": "Singapore",
+      "name": "Marine Parade (TE26)",
+      "lat": 1.3025,
+      "lng": 103.905
+    }
+  ],
+  "marineterrace": [
+    {
+      "cty": "Singapore",
+      "name": "Marine Terrace (TE27)",
+      "lat": 1.306111,
+      "lng": 103.913333
+    }
+  ],
+  "siglap": [
+    {
+      "cty": "Singapore",
+      "name": "Siglap (TE28)",
+      "lat": 1.309722,
+      "lng": 103.928889
+    }
+  ],
+  "bayshore": [
+    {
+      "cty": "Singapore",
+      "name": "Bayshore (TE29)",
+      "lat": 1.314722,
+      "lng": 103.943611
+    }
+  ],
+  "woodlandssouth": [
+    {
+      "cty": "Singapore",
+      "name": "Woodlands South (TE3)",
+      "lat": 1.427222,
+      "lng": 103.793889
+    }
+  ],
+  "bedoksouth": [
+    {
+      "cty": "Singapore",
+      "name": "Bedok South (TE30)",
+      "lat": 1.316667,
+      "lng": 103.948333
+    }
+  ],
+  "springleaf": [
+    {
+      "cty": "Singapore",
+      "name": "Springleaf (TE4)",
+      "lat": 1.397778,
+      "lng": 103.818333
+    }
+  ],
+  "lentor": [
+    {
+      "cty": "Singapore",
+      "name": "Lentor (TE5)",
+      "lat": 1.384722,
+      "lng": 103.836667
+    }
+  ],
+  "mayflower": [
+    {
+      "cty": "Singapore",
+      "name": "Mayflower (TE6)",
+      "lat": 1.3725,
+      "lng": 103.837222
+    }
+  ],
+  "upperthomson": [
+    {
+      "cty": "Singapore",
+      "name": "Upper Thomson (TE8)",
+      "lat": 1.354167,
+      "lng": 103.833333
+    }
+  ]
+}

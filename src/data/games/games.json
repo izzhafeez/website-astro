@@ -16,6 +16,10 @@
       "Pass the device to the next person and continue at step 4."
     ]
   },
+  "city-hedger": {
+    "title": "City Hedger",
+    "heroText": "Pick a city you think is the closest to the given point. But don't pick the most popular city! Best played with 1-6 players."
+  },
   "color-guessr": {
     "title": "Color Guessr",
     "heroText": "See how well you can guess color hexcodes! Score points based on how close you are the to answer. Best played with 1-4 players."
@@ -39,7 +43,7 @@
   },
   "location-guessr": {
     "title": "Location Guessr",
-    "heroText": "Test your geography skills by guessing where the location is. Make the second closest guess to gain the point! Best played with 3-8 players."
+    "heroText": "Test your geography skills by guessing where the location is. Make the closest guess to gain the point! Best played with 3-8 players."
   },
   "math-attack": {
     "title": "Math Attack",

@@ -51,6 +51,7 @@ import frequencyGuessr from "../../img/logos/frequency-guessr.svg";
 import statGuessr from "../../img/logos/stat-guessr.svg";
 import numberNightmare from "../../img/logos/number-nightmare.svg";
 import blurryBattle from "../../img/logos/blurry-battle.svg";
+import cityHedger from "../../img/logos/city-hedger.svg";
 
 export default {
   apps,
@@ -94,5 +95,6 @@ export default {
   "frequency-guessr": frequencyGuessr,
   "stat-guessr": statGuessr,
   "number-nightmare": numberNightmare,
-  "blurry-battle": blurryBattle
+  "blurry-battle": blurryBattle,
+  "city-hedger": cityHedger,
 }

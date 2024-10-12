@@ -1,5 +1,4 @@
 ---
-import compareData from "../../../data/quizzes/compare.json";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import Hero from "../../../components/common/Hero.astro"
@@ -7,25 +6,28 @@ import Footer from "../../../components/common/Footer.astro"
 import Seo from "../../../components/seo/Seo.astro";
 import quizzesData from "../../../data/quizzes/quizzes.json";
 import seoImg from '/src/img/heroes/COMPARE.jpg';
+import countriesData from "../../../data/games/city-hedger/countries.json";
+import countryCodesData from "../../../data/games/city-hedger/country-codes.json";
 
-type QuizJson = {[k: string]: {
-  title: string,
-  instructions: string,
-  rank?: number,
-  tags?: string[]
-}}
-
-const quizzes = Object.entries(compareData as QuizJson).map(([key, value]) => {
-  return {
-    key,
-    href: `/quizzes/compare/${key}`,
-    title: value.title,
-    instructions: value.instructions,
-    rank: value.rank || 0,
-    imgPath: `/img/quizzes/compare/${key}.jpg`,
-    tags: value.tags || []
-  }
-}).sort((a,b) => -a.rank + b.rank);
+const quizzes = Object.entries(countriesData).filter(([_, data]) => data > 2).map(([countryCode, countryData]) => {
+  const countryName = countryCodesData[countryCode];
+  return [
+    {
+      key: `${countryCode}-lat`,
+      href: `/quizzes/compare/${countryCode}-city-lat`,
+      title: `${countryName} Cities (Lat)`,
+      instructions: countryName,
+      rank: 0
+    },
+    {
+      key: `${countryCode}-long`,
+      href: `/quizzes/compare/${countryCode}-city-long`,
+      title: `${countryName} Cities (Long)`,
+      instructions: countryName,
+      rank: 0
+    }
+  ]
+}).flat().sort((a,b) => -a.rank + b.rank);
 
 const heroText = quizzesData.compare.heroText;
 const title = quizzesData.compare.title;

@@ -1,0 +1,41 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import CityHedger from "../../../../components/games/city-hedger/CityHedger";
+import Layout from "../../../../layouts/Layout.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import citiesData from "../../../../data/games/city-hedger/cities.json";
+import mrtData from "../../../../data/games/city-hedger/mrt.json";
+import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
+
+export const prerender = false;
+var { id, cty } = Astro.params;
+
+// assign deck to citiesData[cty] if cty is a valid key in citiesData
+let deck = {} as { [city: string]: { cty: string }[] };
+if (cty === "ALL") {
+  deck = citiesData;
+} else if (cty === "MRT") {
+  deck = mrtData;
+} else {
+  Object.entries(citiesData).forEach(([code, cities]) => {
+    const passedCities = cities.filter((city: { cty: string }) => city.cty.toLowerCase() === (cty || "").toLowerCase());
+    if (passedCities.length > 0) {
+      deck[code] = passedCities;
+    }
+  });
+}
+
+const heroText = gamesData["city-hedger"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={'City Hedger'} path={`games/city-hedger/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <CityHedger client:only="react" id={id || ""} data={deck} title={cty || ""}/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  </div>
+</Layout>
