@@ -24,9 +24,10 @@ for (const [key, value] of Object.entries(hikeData)) {
   } else {
     futureDistance += distance;
   }
+
   hikes.push({
     label: `<b>${value.name}</b><br/>${distance} km`,
-    color: value.color,
+    color: value.date == "TBD" ? "BLACK" : value.color,
     coords: (routesData as any)[key].route,
     link: `/blog/hikes/${key}`
   });
