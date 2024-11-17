@@ -40,7 +40,7 @@ export function getStaticPaths() {
 
 export const prerender = true;
 const { data, title } = Astro.props;
-const instructions = `Compare the coordinates of the given locations.`;
+const instructions = `Which one is higher? Pick a field below and test your knowledge!`;
 ---
 <Seo heroText={instructions} {seoImg} pageName={`${title} (Compare Quiz)`} path={`quizzes/compare/${Astro.params.quiz}`}/>
 
