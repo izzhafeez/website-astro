@@ -8,31 +8,36 @@ import quizzesData from "../../../data/quizzes/quizzes.json";
 import seoImg from '/src/img/heroes/COMPARE.jpg';
 import countriesData from "../../../data/games/city-hedger/countries.json";
 import countryCodesData from "../../../data/games/city-hedger/country-codes.json";
+import { decks } from "../../games/common/decks";
 
-const quizzes = Object.entries(countriesData).filter(([_, data]) => data > 2).map(([countryCode, countryData]) => {
-  const countryName = countryCodesData[countryCode];
-  return [
-    {
-      key: `${countryCode}-lat`,
-      href: `/quizzes/compare/${countryCode}-city-lat`,
-      title: `${countryName} Cities (Lat)`,
-      instructions: countryName,
-      rank: 0
-    },
-    {
-      key: `${countryCode}-long`,
-      href: `/quizzes/compare/${countryCode}-city-long`,
-      title: `${countryName} Cities (Long)`,
-      instructions: countryName,
-      rank: 0
-    }
-  ]
-}).flat().sort((a,b) => -a.rank + b.rank);
+console.log(decks);
+const quizzes = [
+  ...decks.map(deck => ({
+    key: deck.params.deck,
+    href: `/quizzes/compare/${deck.params.deck}`,
+    title: deck.props.title,
+    instructions: deck.props.instructions,
+    rank: 0
+  })),
+  ...Object.entries(countriesData).filter(([_, data]) => data > 5).map(([countryCode, countryData]) => {
+    const countryName = (countryCodesData as { [name: string]: string})[countryCode];
+    if (!countryName) return [];
+    return [
+      {
+        key: `${countryCode}`,
+        href: `/quizzes/compare/${countryCode}-city`,
+        title: `${countryName} Cities`,
+        instructions: countryName,
+        rank: 0
+      },
+    ]
+  }).flat().sort((a,b) => a.title.localeCompare(b.title))
+];
 
-const heroText = quizzesData.compare.heroText;
-const title = quizzesData.compare.title;
+const heroText = quizzesData["compare"].heroText;
+const title = quizzesData["compare"].title;
 ---
-<Seo {heroText} {seoImg} pageName={"Compare Quizzes"} path={`quizzes/compare`}/>
+<Seo {heroText} {seoImg} pageName={"Coordinate Compare Quizzes"} path={`quizzes/compare`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

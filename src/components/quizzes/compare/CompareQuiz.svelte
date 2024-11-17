@@ -6,8 +6,6 @@ export let key;
 export let title;
 export let data;
 export let instructions;
-export let decimalPlaces = 0;
-export let startNumber = 0;
 export let difficulty = 2;
 
 const difficultyMappings = {
@@ -20,12 +18,14 @@ const difficultyMappings = {
 
 let name;
 let isPlaying = false;
+let fields = Object.keys(Object.values(data)[0]);
+let field = fields[0];
 </script>
 
 <div class="fixed">
 {#if !isPlaying}
-<StartPage {title} {instructions} {key} bind:name={name} bind:isPlaying={isPlaying} bind:difficulty={difficulty}/>
+<StartPage {title} {instructions} {key} bind:name={name} bind:isPlaying={isPlaying} bind:difficulty={difficulty} bind:field={field} {fields}/>
 {:else}
-<GamePage {key} {data} {decimalPlaces} {startNumber} {name} count={difficultyMappings[difficulty]}/>
+<GamePage {key} {data} {name} count={difficultyMappings[difficulty]} {field}/>
 {/if}
 </div>

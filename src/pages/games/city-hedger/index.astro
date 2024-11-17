@@ -10,6 +10,7 @@ import countriesData from "../../../data/games/city-hedger/countries.json";
 import countryCodes from "../../../data/games/city-hedger/country-codes.json";
 
 const heroText = gamesData["city-hedger"].heroText;
+console.log(countriesData);
 ---
 <Seo {heroText} {seoImg} pageName={"City Hedger"} path="games/city-hedger"/>
 
@@ -27,9 +28,9 @@ const heroText = gamesData["city-hedger"].heroText;
         <a href={`/games/city-hedger/ALL`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
           ALL CITIES
         </a>
-        {Object.entries(countriesData).map(([countryCode, countryData]) => (
+        {Object.entries(countriesData).sort((a,b) => a[0].localeCompare(b[0])).filter(([countryCode, countryData]) => countryData > 5 && !!(countryCodes as {[code: string]: string})[countryCode]).map(([countryCode, countryData]) => (
           <a href={`/games/city-hedger/${countryCode}`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
-            {countryCodes[countryCode] || countryCode}
+            {(countryCodes as {[code: string]: string})[countryCode]}
           </a>
         ))}
       </div>

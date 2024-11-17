@@ -2,6 +2,7 @@
   import Swal from "sweetalert2";
   import type { Data } from "./Data";
   import axios from "axios";
+  import party from "party-js";
 
   export let left: Data;
   export let right: Data;
@@ -16,10 +17,12 @@
   export let name: string;
 
   function handleAnswer(isHigher: boolean) {
+    const winSelectElement = document.getElementById('hl-label');
     if (isHigher) {
       if (left.quantity <= right.quantity) {
         streak++;
         bestStreak = Math.max(streak, bestStreak);
+        if (winSelectElement) party.confetti(winSelectElement);
       } else {
         handleFail();
         streak = 0;
@@ -28,6 +31,7 @@
       if (left.quantity >= right.quantity) {
         streak++;
         bestStreak = Math.max(streak, bestStreak);
+        if (winSelectElement) party.confetti(winSelectElement);
       } else {
         handleFail();
         streak = 0;
@@ -133,7 +137,7 @@
   }
 </script>
 
-<div class="grid grid-cols-2 divide-x-0 mx-auto shadow-solid-black dark:shadow-none">
+<div id="hl-input" class="grid grid-cols-2 divide-x-0 mx-auto shadow-solid-black dark:shadow-none">
   <button on:click={() => handleAnswer(true)} class='p-4 h-20 bg-ew-500 text-white hover:bg-opacity-80 font-bold text-xl'>Higher</button>
   <button on:click={() => handleAnswer(false)} class='p-4 h-20 bg-ns-500 text-white hover:bg-opacity-80 font-bold text-xl'>Lower</button>
 </div>

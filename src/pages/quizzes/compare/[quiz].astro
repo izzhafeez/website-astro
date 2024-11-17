@@ -1,7 +1,4 @@
 ---
-import subzonePopulationData from "../../../data/quizzes/compare/subzone-population.json";
-import mrtLongitudeData from "../../../data/quizzes/compare/mrt-longitude.json";
-import mrtLatitudeData from "../../../data/quizzes/compare/mrt-latitude.json";
 import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -11,49 +8,41 @@ import seoImg from '/src/img/heroes/COMPARE.jpg';
 import countriesData from "../../../data/games/city-hedger/countries.json";
 import citiesData from "../../../data/quizzes/compare/cities.json";
 import countryCodesData from "../../../data/games/city-hedger/country-codes.json";
+import { decks, getDataAsDict } from "../../games/common/decks";
 
 export function getStaticPaths() {
-  return Object.entries(countriesData).map(([countryCode, countryData]) => {
-    const countryName = countryCodesData[countryCode];
-    return [
-      {
-        params: {
-          quiz: `${countryCode}-city-lat`
-        },
-        props: {
-          // data should be {city: lat}
-          data: Object.entries(citiesData[countryCode]).reduce((acc, [cityName, cityData]) => {
-            acc[cityName] = cityData.lat;
-            return acc;
-          }, {}),
-          title: `${countryName} Cities (Latitude)`,
-          decimalPlaces: 4,
-          startNumber: 0
-        }
+  return [
+    ...decks.map(deck => ({
+      params: {
+        quiz: deck.params.deck
       },
-      {
-        params: {
-          quiz: `${countryCode}-city-long`
+      props: {
+        data: getDataAsDict(deck.params.deck),
+        title: deck.props.title,
+        startNumber: 0
+      }
+    })),
+    ...Object.entries(countriesData).map(([countryCode, countryData]) => {
+      const countryName = (countryCodesData as {[code: string]: string})[countryCode];
+      return [
+        {
+          params: {
+            quiz: `${countryCode}-city`
+          },
+          props: {
+            data: (citiesData as {[name: string]: any})[countryCode],
+            title: `${countryName}`,
+            startNumber: 0
+          }
         },
-        props: {
-          // data should be {city: lat}
-          data: Object.entries(citiesData[countryCode]).reduce((acc, [cityName, cityData]) => {
-            acc[cityName] = cityData.long;
-            return acc;
-          }, {}),
-          title: `${countryName} Cities (Longitude)`,
-          decimalPlaces: 4,
-          startNumber: 0
-        }
-      },
-    ]
-  }).flat();
+      ]
+    }).flat()
+  ];
 }
 
 export const prerender = true;
-const { data, title, decimalPlaces, startNumber } = Astro.props;
-const comparator = title.split("(")[1].split(")")[0];
-const instructions = `Compare the ${comparator} of the given cities.`;
+const { data, title, startNumber } = Astro.props;
+const instructions = `Compare the coordinates of the given locations.`;
 ---
 <Seo heroText={instructions} {seoImg} pageName={`${title} (Compare Quiz)`} path={`quizzes/compare/${Astro.params.quiz}`}/>
 
@@ -63,7 +52,7 @@ const instructions = `Compare the ${comparator} of the given cities.`;
       <NavBar/>
       <PageFind pageName={`${title} (Compare Quiz)`} heroText={instructions}/>
     </div>
-    <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} decimalPlaces={decimalPlaces} startNumber={startNumber || 0}/>
+    <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} startNumber={startNumber || 0}/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">

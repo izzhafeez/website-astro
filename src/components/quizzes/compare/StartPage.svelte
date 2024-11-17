@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Swal from "sweetalert2";
   import Leaderboard from "../Leaderboard.svelte";
   import { fly } from 'svelte/transition';
 
@@ -8,10 +9,20 @@
   export let name: string;
   export let isPlaying: boolean;
   export let difficulty = 2;
+  export let fields: string[];
+  export let field: string;
 
   const possibleDifficulties = [1, 2, 3, 4, 5];
 
   function handleStart() {
+    if (!field) {
+      Swal.fire({
+        title: "Error",
+        text: "Please select a field",
+        icon: "error",
+      });
+      return;
+    }
     isPlaying = true;
   }
 </script>
@@ -22,6 +33,14 @@
   <div class="flex content-center gap-2">
     <label for="name" class="my-auto">Your Name (Optional):</label>
     <input type="text" id="name" bind:value={name} class="transition duration-500 bg-white dark:bg-gray-700 p-2 rounded-md"/>
+  </div>
+  <label for="field">Field: </label>
+  <div class="flex gap-2 my-2">
+    {#each fields as f (f)}
+    <button on:click={() => {field = f;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
+      field == f
+    } class:text-white={field == f}>{f.toUpperCase()}</button>
+    {/each}
   </div>
   <label for="N" class="">Difficulty: </label>
   <div class="flex gap-2 my-2">

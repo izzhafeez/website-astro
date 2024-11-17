@@ -14,6 +14,7 @@ import routeWeaver from "../../img/logos/route-weaver.svg";
 import binary from "../../img/logos/binary.svg";
 import compare from "../../img/logos/compare.svg";
 import connect from "../../img/logos/connect.svg";
+import coordCompare from "../../img/logos/coord-compare.svg";
 import geoguessr from "../../img/logos/geoguessr.svg";
 import map from "../../img/logos/map.svg";
 import match from "../../img/logos/match.svg";
@@ -65,6 +66,7 @@ export default {
   binary,
   compare,
   connect,
+  "coord-compare": coordCompare,
   geoguessr,
   map,
   match,

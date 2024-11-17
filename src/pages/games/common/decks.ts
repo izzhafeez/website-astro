@@ -83,7 +83,7 @@ const deckNames = [
 ];
 
 export const decks = deckNames.map(deckName => {
-  const deck = statAttackData[deckName];
+  const deck = (statAttackData as {[name: string]: any})[deckName];
   return {
     params: {
       deck: deckName,
@@ -298,4 +298,14 @@ export const getData = (deckName: string) => {
       data: []
     };
   }
+}
+
+export const getDataAsDict = (deckName: string) => {
+  const data = getData(deckName).data;
+  return data.reduce((acc, item) => {
+    // remove name from item
+    const { name, ...rest } = item;
+    (acc as any)[name] = rest;
+    return acc;
+  }, {});
 }

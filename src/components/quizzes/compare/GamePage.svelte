@@ -8,16 +8,28 @@
 
   export let key: string;
   export let data;
-  export let decimalPlaces = 0;
-  export let startNumber = 0;
   export let name: string;
   export let count: number;
-  
+  export let field: string;
+
   let dataList: Data[] = Object.entries(data).map(([k, v]) => {
     const { cleanText, searchTerms } = fullSanitise(k);
-    return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v as number }
+    // round to 6 significant figures
+    return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v[field] as number }
   });
   
+  // find minimum sigfigs
+  let decimalPlaces = 0;
+  for (let i = 0; i < dataList.length; i++) {
+    const numSeparated = dataList[i].quantity.toString().split(".");
+    if (numSeparated.length === 1) continue;
+    const sigFigs = numSeparated[1].length;
+    if (sigFigs > decimalPlaces) decimalPlaces = sigFigs;
+  }
+
+  // get start number from lowest value
+  let startNumber = dataList.reduce((acc, cur) => cur.quantity < acc ? cur.quantity : acc, dataList[0].quantity);
+
   let left = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
   let right = left;
   while (right === left) right = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
@@ -41,21 +53,23 @@
     <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 -z-10">
       <div class='mx-auto flex lg:block items-center gap-8'>
         <p class='lg:text-center opacity-0'>
+          <span class='font-bold'>{field}</span><br/>
           Score: {streak}<br/>
           Best Score: {bestStreak}
         </p>
         <h2 class='rounded-full text-6xl text-center lg:mb-4'>VS</h2>
         <p class='lg:text-center'>
+          <span class='font-bold'>{field}</span><br/>
           Score: {streak}<br/>
           Best Score: {bestStreak}
         </p>
       </div>
     </div>
     <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
-      <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
+      <h2 id="hl-label" class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
       {#if isGuessing}
       <HigherLowerInput
-        {left} {right} {startNumber} {decimalPlaces} {key} {name}
+        {left} {right} {startNumber} decimalPlaces={decimalPlaces} {key} {name}
         bind:streak={streak}
         bind:bestStreak={bestStreak}
         bind:isGuessing={isGuessing}
