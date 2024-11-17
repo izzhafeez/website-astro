@@ -38,6 +38,7 @@ import unescoData from "../../../data/games/stat-attack/unesco.json";
 import colorsData from "../../../data/games/stat-attack/colors.json";
 import deathsData from "../../../data/games/stat-attack/deaths.json";
 import amazonData from "../../../data/games/stat-attack/amazon.json";
+import youtubeVideosData from "../../../data/games/stat-attack/youtube-videos.json";
 
 const deckNames = [
   "malls",
@@ -291,6 +292,11 @@ export const getData = (deckName: string) => {
     return {
       title: "Amazon Products",
       data: amazonData
+    }
+  case 'youtube-videos':
+    return {
+      title: "YouTube Videos",
+      data: youtubeVideosData
     }
   default:
     return {

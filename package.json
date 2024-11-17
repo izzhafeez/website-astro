@@ -35,7 +35,7 @@
     "@vuepic/vue-datepicker": "^8.3.1",
     "@webcomponents/template-shadowroot": "^0.2.1",
     "alpinejs": "^3.13.7",
-    "astro": "^4.5.5",
+    "astro": "^4.16.9",
     "astro-google-fonts-optimizer": "^0.2.2",
     "astro-meta-tags": "^0.2.1",
     "astro-navbar": "^2.3.1",
