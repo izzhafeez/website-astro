@@ -1,0 +1,24 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import CityHedger from "../../../../components/games/city-hedger/CityHedger";
+import Layout from "../../../../layouts/Layout.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
+
+export const prerender = false;
+var { id, country } = Astro.params;
+
+const heroText = gamesData["city-hedger"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={'City Hedger'} path={`games/city-hedger/${id}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <CityHedger client:only="react" id={id || ""} country={country || ""} title={country || ""}/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  </div>
+</Layout>

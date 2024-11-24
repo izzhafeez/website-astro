@@ -11,7 +11,7 @@ const instructions = gamesData['number-nightmare'].heroText;
 
 type PlayerData = {
   points: number;
-  played_number: number;
+  played: number;
   satisfy_count: number;
   acknowledged: boolean;
 }
@@ -207,7 +207,7 @@ const conditions: Condition[] = [
 ]
 
 function NumberNightmare({ id }: { id: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/number-nightmare/${id}`;
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/number-nightmare/${id}/${conditions.length}`;
 
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
@@ -236,7 +236,8 @@ function NumberNightmare({ id }: { id: string }) {
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      if (message.game_state === 'lobby') setGameStatus('JOINED');
+      if (message.game_state === 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -270,7 +271,7 @@ function NumberNightmare({ id }: { id: string }) {
             ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
               <tr class="bg-white border-b">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-                <td class="px-6 py-4 font-light">${playerData.played_number}</td>
+                <td class="px-6 py-4 font-light">${playerData.played}</td>
                 <td class="px-6 py-4 font-light">${playerData.satisfy_count}</td>
               </tr>
             `).join('')}
@@ -315,7 +316,8 @@ function NumberNightmare({ id }: { id: string }) {
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: conditions.length });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
@@ -345,7 +347,7 @@ function NumberNightmare({ id }: { id: string }) {
 
     const satisfied_conditions = options.filter(option => conditions[option].condition(parseInt(selectedNumber)));
 
-    sendJsonMessage({ method: 'play', played_number: selectedNumber, satisfy_count: satisfied_conditions.length, name });
+    sendJsonMessage({ method: 'play', played: selectedNumber, satisfy_count: satisfied_conditions.length, name });
     setGameStatus('PLAYED');
     setSelectedNumber('');
     lifecycle.showSubmitSwal();
@@ -376,7 +378,7 @@ function NumberNightmare({ id }: { id: string }) {
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_number && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={() => lifecycle.showHowToPlay(howToPlay)} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -415,12 +417,12 @@ function NumberNightmare({ id }: { id: string }) {
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500 my-auto`}>
-                {name} ({playerData.played_number})
+                {name} ({playerData.played})
               </h3>
               <span className="my-auto ms-auto">Score: {playerData.satisfy_count}</span>
             </div>
             <div className="flex gap-2">
-              {options.filter(option => conditions[option].condition(playerData.played_number)).map((option, index) => (
+              {options.filter(option => conditions[option].condition(playerData.played)).map((option, index) => (
                 <span key={index} className="bg-ew-500 text-white rounded-md p-1">{conditions[option].rep}</span>
               ))}
             </div>

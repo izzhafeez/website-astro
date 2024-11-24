@@ -6,11 +6,10 @@ import Hero from "../../../components/common/Hero.astro";
 import gamesData from "../../../data/games/games.json";
 import Seo from "../../../components/seo/Seo.astro";
 import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
-import countriesData from "../../../data/games/city-hedger/countries.json";
+import boundsData from "../../../data/games/city-hedger/country-bounds.json";
 import countryCodes from "../../../data/games/city-hedger/country-codes.json";
 
 const heroText = gamesData["city-hedger"].heroText;
-console.log(countriesData);
 ---
 <Seo {heroText} {seoImg} pageName={"City Hedger"} path="games/city-hedger"/>
 
@@ -22,13 +21,7 @@ console.log(countriesData);
     <div class="flex flex-col items-center justify-center">
       <h1 class="text-3xl font-bold text-center">Select a country to play</h1>
       <div class="my-auto flex flex-wrap gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-        <a href={`/games/city-hedger/MRT`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
-          MRT Stations
-        </a>
-        <a href={`/games/city-hedger/ALL`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
-          ALL CITIES
-        </a>
-        {Object.entries(countriesData).sort((a,b) => a[0].localeCompare(b[0])).filter(([countryCode, countryData]) => countryData > 5 && !!(countryCodes as {[code: string]: string})[countryCode]).map(([countryCode, countryData]) => (
+        {Object.entries(boundsData).sort((a,b) => a[0].localeCompare(b[0])).filter(a => !!countryCodes[a[0] as keyof typeof countryCodes]).map(([countryCode, countryData]) => (
           <a href={`/games/city-hedger/${countryCode}`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
             {(countryCodes as {[code: string]: string})[countryCode]}
           </a>

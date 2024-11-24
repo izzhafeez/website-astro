@@ -1,0 +1,37 @@
+---
+import NavBar from "../../../../components/common/NavBar.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import gamesData from "../../../../data/games/games.json";
+import Layout from "../../../../layouts/Layout.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import RoomCreateContainer from "../../common/RoomCreateContainer.astro";
+import seoImg from '/src/img/heroes/CITY-HEDGER.jpg';
+import countriesData from "../../../../data/games/city-hedger/country-bounds.json";
+
+export const prerender = true;
+
+export const getStaticPaths = () => {
+  return [
+    ...Object.entries(countriesData).map(([countryName, data]) => {
+      return {
+        params: {
+          country: countryName
+        }
+      }
+    })
+  ];
+};
+
+const country = Astro.params.country;
+const heroText = gamesData["city-hedger"].heroText;
+---
+
+<Seo {heroText} {seoImg} pageName={"City Hedger"} path={`games/city-hedger`}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    <PageFind pageName={`City Hedger (${country})`} heroText={heroText}/>
+    <RoomCreateContainer title={"City Hedger"} heroText={`City Hedger: ${heroText}`} instructions={heroText} />
+  </div>
+</Layout>

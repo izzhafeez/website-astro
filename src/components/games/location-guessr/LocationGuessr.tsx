@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import useWebSocket from 'react-use-websocket';
 import gamesData from '../../../data/games/games.json';
 import Swal from 'sweetalert2';
@@ -14,6 +14,7 @@ const instructions = gamesData['location-guessr'].heroText;
 type PlayerData = {
   points: number;
   guess: [number, number];
+  added_score: number;
   distance: number;
   acknowledged: boolean;
 }
@@ -32,15 +33,41 @@ const colors = [
 ];
 
 function LocationGuessr({ id, data, title }: { id: string, data: {name: string, Latitude: number, Longitude: number}[], title: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${title}+${id}`;
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
   const [locationId, setLocationId] = React.useState(null as number | null);
   const [guess, setGuess] = React.useState(null as [number, number] | null);
-  const [closest, setClosest] = React.useState('');
   const [roundId, setRoundId] = React.useState(0);
-  const [distance, setDistance] = React.useState(0);
+  const [midLat, setMidLat] = React.useState(1.35);
+  const [midLng, setMidLng] = React.useState(103.85);
+  const [zoom, setZoom] = React.useState(11);
+  const [maxDistance, setMaxDistance] = React.useState(0);
+
+  useMemo(() => {
+    const latSorted = Object.values(data).map(locData => locData.Latitude).sort((a, b) => a - b);
+    const lngSorted = Object.values(data).map(locData => locData.Longitude).sort((a, b) => a - b);
+    const twentyPercentileLat = latSorted[Math.floor(latSorted.length * 0.2)];
+    const eightyPercentileLat = latSorted[Math.floor(latSorted.length * 0.8)];
+    const twentyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.2)];
+    const eightyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.8)];
+    const bufferLat = (eightyPercentileLat - twentyPercentileLat) * 0.2;
+    const bufferLng = (eightyPercentileLng - twentyPercentileLng) * 0.2;
+
+    const max_lat = eightyPercentileLat + bufferLat;
+    const min_lat = twentyPercentileLat - bufferLat;
+    const max_lng = eightyPercentileLng + bufferLng;
+    const min_lng = twentyPercentileLng - bufferLng;
+
+    setMidLat((max_lat + min_lat) / 2);
+    setMidLng((max_lng + min_lng) / 2);
+    // set zoom based on the distance between the max and min lat/lng
+    const max_distance = 111.33 * Math.sqrt((max_lat - min_lat)**2 + (max_lng - min_lng)**2);
+    setZoom(13 - Math.log2(max_distance));
+    setMaxDistance(max_distance);
+  }, [data]);
+
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/location-guessr/${title}+${id}/${data.length}/${maxDistance}`;
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
@@ -57,15 +84,15 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
     // deep copy of message.players object
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
-    if (message.location) setLocationId(_ => message.location);
-    if (message.closest) setClosest(_ => message.closest);
+    if (message.target) setLocationId(_ => message.target);
     if (message.round_id) setRoundId(_ => message.round_id);
-    if (message.distance) setDistance(_ => message.distance);
 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      const gameState = message.game_state;
+      if (gameState === 'lobby') setGameStatus('JOINED');
+      if (gameState == 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -76,25 +103,31 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
-        text: `Find: ${data[message.location].name}!`,
+        text: `Find: ${data[message.target].name}!`,
         timer: 1500,
       })
     } else if (method === 'evaluate') {
       setGameStatus('EVALUATING');
+      const players = JSON.parse(JSON.stringify(message.players)) as {[name: string]: PlayerData};
+      const closest = Object.entries(players).sort(([_, playerData]) => playerData.distance)[0];
+      const distance = closest[1].distance;
+      const closestName = closest[0];
       Swal.fire({
         icon: 'info',
-        title: `The closest person was ${message.closest} with a distance of ${message.distance.toFixed(3)}km!`,
+        title: `The closest person was ${closestName} with a distance of ${distance.toFixed(3)}km!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">Distance</th>
+              <th scope="col" class="px-6 py-3">Points</th>
             </tr>
           </thead>
           ${Object.entries(message.players as {[name: string]: PlayerData}).sort(([_, playerData]) => playerData.distance).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${playerData.distance.toFixed(3)}km</td>
+              <td class="px-6 py-4 font-light">${playerData.added_score} points</td>
             </tr>
           `).join('')}
         </table>`
@@ -111,7 +144,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
   }, [lastMessage]);
 
   const joinGame = () => {
-    sendJsonMessage({ method: 'join', name, num_of_locations: 100 })
+    sendJsonMessage({ method: 'join', name })
     setGameStatus('JOINED');
   };
 
@@ -121,7 +154,8 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: 100 });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
@@ -142,7 +176,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', guess: guess, name: name, actual: [data[locationId || 0].Latitude, data[locationId || 0].Longitude] });
+    sendJsonMessage({ method: 'play', guess: { guess, target_coords: [data[locationId || 0].Latitude, data[locationId || 0].Longitude] }, name });
     setGameStatus('PLAYED');
   }
 
@@ -202,8 +236,8 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
         {/* leaflet map to guess location */}
         <MapContainer
-          center={[1.35, 103.85]}
-          zoom={11}
+          center={[midLat, midLng]}
+          zoom={zoom}
           scrollWheelZoom={true}
           style={{ height: "400px", width: "100%" }}
           className='mb-8'>
@@ -225,7 +259,6 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {closest} is the closest!</h3>
         <ul className="grid gap-2 mt-4">
           {Object.entries(players).map(([name, playerData], index) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
@@ -234,6 +267,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `${colors[index]}` }}></div>
               <span className="my-auto">{name}</span>
               <span className="my-auto ms-auto">{playerData.distance.toFixed(3)}km</span>
+              <span className="my-auto ms-auto">{playerData.added_score} points</span>
             </div>
           </li>))
           }

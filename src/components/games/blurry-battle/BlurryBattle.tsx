@@ -17,8 +17,8 @@ type PlayerData = {
 }
 
 function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/blurry-battle/${deckName}/${id}`;
   const deckData = deck.data;
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/blurry-battle/${deckName}+${id}/${deckData.length}`;
 
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
@@ -30,8 +30,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
       console.log('WebSocket connection established.');
-    },
-    share: true
+    }
   });
 
   useEffect(() => {
@@ -41,13 +40,15 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
     console.log(message);
 
     if (message.players) setPlayers(_ => message.players);
-    if (message.answer_id) setAnswerId(_ => message.answer_id);
+    if (message.target) setAnswerId(_ => message.target);
     if (message.round_id) setRoundId(_ => message.round_id);
 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      const gameState = message.game_state;
+      if (gameState === 'lobby') setGameStatus('JOINED');
+      if (gameState === 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -111,14 +112,15 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: deckData.length });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
   const submitGuess = (e: any) => {
     e.preventDefault();
     if (!guess) return;
-    sendJsonMessage({ method: 'play', guess, name: name, answer: deckData[answerId] });
+    sendJsonMessage({ method: 'play', guess: { guess, answer: deckData[answerId] }, name });
     setGameStatus('PLAYED');
     setGuess('');
     lifecycle.showSubmitSwal();

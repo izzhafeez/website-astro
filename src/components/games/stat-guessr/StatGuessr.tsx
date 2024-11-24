@@ -18,10 +18,10 @@ type PlayerData = {
 }
 
 function StatGuessr({ id, deck }: { id: string, deck: any }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/stat-guessr/${id}`;
   const deckData = deck.data;
   const fields = Object.keys(deckData[0]);
   fields.shift(); // remove the name from the list of fields
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/stat-guessr/${deck.title}+${id}/${deckData.length}/${fields.length}`;
 
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
@@ -49,13 +49,17 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
     if (message.value !== undefined) setValue(_ => message.value);
     if (message.round_id !== undefined) setRoundId(_ => message.round_id);
-    if (message.field_id !== undefined) setFieldId(_ => message.field_id);
-    if (message.item_id !== undefined) setItemId(_ => message.item_id);
+    if (message.target !== undefined) {
+      console.log(message.target);
+      setFieldId(_ => message.target.field_id);
+      setItemId(_ => message.target.item_id);
+    }
 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      if (message.game_state === 'start') setGameStatus('PLAYING');
+      if (message.game_state === 'lobby') setGameStatus('JOINED');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -66,7 +70,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
-        text: `What is the ${fields[message.field_id]} of ${deckData[message.item_id].name}?`,
+        text: `What is the ${fields[message.target.field_id]} of ${deckData[message.target.item_id].name}?`,
         timer: 1500,
       })
     } else if (method === 'evaluate') {
@@ -120,7 +124,8 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start' });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
@@ -139,7 +144,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
     }
 
     lifecycle.showSubmitSwal()
-    sendJsonMessage({ method: 'play', guess: parseFloat(guess), name: name, value: deckData[itemId][fields[fieldId]] });
+    sendJsonMessage({ method: 'play', guess: { guess: parseFloat(guess), value: deckData[itemId][fields[fieldId]] }, name: name, });
     setGuess('');
     setGameStatus('PLAYED');
   }

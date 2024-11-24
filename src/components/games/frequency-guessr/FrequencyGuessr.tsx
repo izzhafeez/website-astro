@@ -14,7 +14,7 @@ const startSvg = <svg className="invert" width="20px" height="20px" viewBox="0 0
 
 type PlayerData = {
   points: number;
-  played_frequency: number;
+  guess: number;
   added_score: number;
   acknowledged: boolean;
 }
@@ -43,13 +43,15 @@ function FrequencyGuessr({ id }: { id: string }) {
 
     // deep copy of message.players object
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
-    if (message.frequency) setFrequency(_ => message.frequency);
+    if (message.target) setFrequency(_ => message.target);
     if (message.round_id) setRoundId(_ => message.round_id);
 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      const gameState = message.game_state;
+      if (gameState === 'lobby') setGameStatus('JOINED');
+      if (gameState == 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -80,7 +82,7 @@ function FrequencyGuessr({ id }: { id: string }) {
           ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-              <td class="px-6 py-4 font-light">${playerData.played_frequency}Hz</td>
+              <td class="px-6 py-4 font-light">${playerData.guess}Hz</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
             </tr>
           `).join('')}
@@ -108,7 +110,8 @@ function FrequencyGuessr({ id }: { id: string }) {
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: 100 });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
@@ -134,7 +137,7 @@ function FrequencyGuessr({ id }: { id: string }) {
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', frequency: parsedFrequency, name: name });
+    sendJsonMessage({ method: 'play', guess: parsedFrequency, name: name });
     setSelectedFrequency('');
     setGameStatus('PLAYED');
   }
@@ -179,7 +182,7 @@ function FrequencyGuessr({ id }: { id: string }) {
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_frequency && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.guess && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={() => lifecycle.showHowToPlay(howToPlay)} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -227,7 +230,7 @@ function FrequencyGuessr({ id }: { id: string }) {
               
               {/* two buttons: one for correct, one for guessed */}
               <button onClick={() => playSoundFor1Second(frequency)} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> {frequency}Hz</button>
-              <button onClick={() => playSoundFor1Second(playerData.played_frequency)} className="p-2 rounded-md bg-cc-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> {playerData.played_frequency}Hz</button>
+              <button onClick={() => playSoundFor1Second(playerData.guess)} className="p-2 rounded-md bg-cc-500 hover:opacity-80 text-white flex gap-1"><span className="my-auto">{startSvg}</span> {playerData.guess}Hz</button>
 
               <span className="my-auto ms-auto">Score: {playerData.added_score}</span>
             </div>

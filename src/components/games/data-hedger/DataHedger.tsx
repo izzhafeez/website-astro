@@ -12,7 +12,7 @@ const instructions = gamesData['data-hedger'].heroText;
 
 type PlayerData = {
   points: number;
-  played_card: number;
+  played: { card_id: number, data: number[] };
   acknowledged: boolean;
 }
 
@@ -22,7 +22,6 @@ type FieldWinnerData = {
 }
 
 function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/data-hedger/${deckName}/${id}`;
   const deckData = deck.data;
   const fields = Object.keys(deckData[0]);
   fields.shift(); // remove the name from the list of fields
@@ -36,6 +35,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
   const [isHigher, setIsHigher] = React.useState(false);
   const [winningValues, setWinningValues] = React.useState([] as number[]);
 
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/data-hedger/${deckName}+${id}/${deckData.length}`;
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
       console.log('WebSocket connection established.');
@@ -57,7 +57,8 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      if (message.game_state === 'lobby') setGameStatus('JOINED');
+      if (message.game_state === 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -160,12 +161,13 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: deckData.length });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
   const submitCard = () => {
-    sendJsonMessage({ method: 'play', card_id: selectedCard, data: Object.values(deckData[selectedCard]).slice(1), name: name });
+    sendJsonMessage({ method: 'play', played: { card_id: selectedCard, data: Object.values(deckData[selectedCard]).slice(1) }, name: name });
     setGameStatus('PLAYED');
     lifecycle.showSubmitSwal();
   }
@@ -196,7 +198,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_card && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={() => lifecycle.showHowToPlay(howToPlay)} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -231,12 +233,12 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
-                {deckData[playerData.played_card].name} ({name})
+                {deckData[playerData.played.card_id].name} ({name})
               </h3>
             </div>
             <ul className={`grid gap-2 text-gray-900 dark:text-white md:grid-cols-4 grid-cols-2`}>
               {fields.map((fieldName, index) => <p className="" key={fieldName}>
-                <><span key={fieldName} className={`font-bold ${deckData[playerData.played_card][fieldName] == winningValues[index] ? 'bg-dt-500' : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> <span className={`font-medium`}>{deckData[playerData.played_card][fieldName]}</span></>
+                <><span key={fieldName} className={`font-bold ${deckData[playerData.played.card_id][fieldName] == winningValues[index] ? 'bg-dt-500' : 'bg-gray-500/20'} rounded-md p-1`}>{capitalise(fieldName)}</span> <span className={`font-medium`}>{deckData[playerData.played.card_id][fieldName]}</span></>
               </p>)}
             </ul>
           </li>))

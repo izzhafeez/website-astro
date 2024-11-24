@@ -2,20 +2,20 @@ import React, { useEffect } from 'react';
 import useWebSocket from 'react-use-websocket';
 import gamesData from '../../../data/games/games.json';
 import Swal from 'sweetalert2';
-import { CircleMarker, MapContainer, TileLayer, Tooltip, useMapEvents } from 'react-leaflet';
+import { CircleMarker, MapContainer, TileLayer, Tooltip } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import lifecycle from '../common/GameLifecycle';
 import GameStart from '../common/GameStart';
 import GameTitle from '../common/GameTitle';
 import GameJoin from '../common/GameJoin';
 import countryCodes from '../../../data/games/city-hedger/country-codes.json';
+import countryBounds from '../../../data/games/city-hedger/country-bounds.json';
 
 const instructions = gamesData['city-hedger'].heroText;
 
 type PlayerData = {
   points: number;
-  city: string;
-  guess: [number, number];
+  played: { name: string, lat: number, lng: number };
   distance: number;
   acknowledged: boolean;
 }
@@ -32,31 +32,22 @@ const colors = [
   '#10C8FA'
 ];
 
-function CityHedger({ id, data, title }: { id: string, data: {
-  [code: string]: {
-    cty: string,
-    name: string,
-    pop: string,
-    lat: number,
-    lng: number
-  }[]
-}, title: string }) {
-  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${title.toUpperCase()}+${id}`;
+function CityHedger({ id, title, country }: { id: string, title: string, country: string }) {
   const [players, setPlayers] = React.useState({} as {[name: string]: PlayerData});
   const [name, setName] = React.useState('');
   const [gameStatus, setGameStatus] = React.useState('UNJOINED');
   const [lat, setLat] = React.useState(0);
   const [lng, setLng] = React.useState(0);
-  const [midLat, setMidLat] = React.useState(1.35);
-  const [midLng, setMidLng] = React.useState(103.85);
-  const [zoom, setZoom] = React.useState(12);
   const [city, setCity] = React.useState('');
   const [roundId, setRoundId] = React.useState(0);
-  const [closestCity, setClosestCity] = React.useState('');
-  const [closestLatLng, setClosestLatLng] = React.useState([0, 0]);
   const [gained, setGained] = React.useState({} as { [name: string]: { points: number } })
   const [mostPopularCity, setMostPopularCity] = React.useState('');
   const [failedPlayers, setFailedPlayers] = React.useState([] as string[]);
+
+  const { min_lat, max_lat, min_lng, max_lng } = countryBounds[country as keyof typeof countryBounds];
+  const WS_URL = `${import.meta.env.PUBLIC_WS}/api/games/city-hedger/${title.toUpperCase()}+${id}/${country}/${min_lat}/${max_lat}/${min_lng}/${max_lng}`;
+  const distance = Math.sqrt((max_lat - min_lat)**2 + (max_lng - min_lng)**2);
+  const zoom = Math.floor(8 - Math.log2(distance) + 1);
 
   const { sendJsonMessage, lastMessage } = useWebSocket(WS_URL, {
     onOpen: () => {
@@ -83,33 +74,14 @@ function CityHedger({ id, data, title }: { id: string, data: {
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') {
-        setGameStatus('JOINED');
-      }
+      if (message.game_state === 'lobby') setGameStatus('JOINED');
+      if (message.game_state === 'start') setGameStatus('PLAYING');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
       setGameStatus('PLAYING');
     } else if (method === 'next') {
       setGameStatus('PLAYING');
-
-      let closestCity = ''
-      let closestDist = Infinity;
-      let closestLatLng = [0, 0];
-      for (let [code, cityDatas] of Object.entries(data)) {
-        for (let cityData of cityDatas) {
-          const dist = Math.sqrt((cityData.lat - message.lat)**2 + (cityData.lng - message.lng)**2);
-          if (dist < closestDist) {
-            closestDist = dist;
-            closestCity = cityData.name;
-            closestLatLng = [cityData.lat, cityData.lng];
-          }
-        }
-      }
-      setClosestCity(_ => closestCity);
-      setClosestLatLng(_ => closestLatLng);
-
-      setCity('');
       Swal.fire({
         icon: 'info',
         title: `Round ${message.round_id}!`,
@@ -120,7 +92,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
       setGameStatus('EVALUATING');
       Swal.fire({
         icon: 'info',
-        title: `The closest city was ${closestCity}!`,
+        title: `Results`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
@@ -132,7 +104,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
           ${Object.entries(message.players as {[name: string]: PlayerData}).sort(([_, playerData]) => playerData.distance).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-              <td class="px-6 py-4 font-light">${playerData.city}</td>
+              <td class="px-6 py-4 font-light">${playerData.played.name}</td>
               <td class="px-6 py-4 font-light">${playerData.distance.toFixed(1)}km</td>
             </tr>
           `).join('')}
@@ -147,6 +119,13 @@ function CityHedger({ id, data, title }: { id: string, data: {
           });
         }
       });
+    } else if (method === 'play_error') {
+      setGameStatus('PLAYING');
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: "Invalid city name! Please try again."
+      })
     } else if (method === 'end') {
       lifecycle.handleEndGame(message.winner, setGameStatus);
     } else if (method === 'connect_error') {
@@ -159,27 +138,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
   }, [lastMessage]);
 
   const joinGame = () => {
-    const latSorted = Object.values(data).map(cityData => cityData[0].lat).sort((a, b) => a - b);
-    const lngSorted = Object.values(data).map(cityData => cityData[0].lng).sort((a, b) => a - b);
-    const twentyPercentileLat = latSorted[Math.floor(latSorted.length * 0.2)];
-    const eightyPercentileLat = latSorted[Math.floor(latSorted.length * 0.8)];
-    const twentyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.2)];
-    const eightyPercentileLng = lngSorted[Math.floor(lngSorted.length * 0.8)];
-    const bufferLat = (eightyPercentileLat - twentyPercentileLat) * 0.2;
-    const bufferLng = (eightyPercentileLng - twentyPercentileLng) * 0.2;
-
-    const max_lat = eightyPercentileLat + bufferLat;
-    const min_lat = twentyPercentileLat - bufferLat;
-    const max_lng = eightyPercentileLng + bufferLng;
-    const min_lng = twentyPercentileLng - bufferLng;
-
-    setMidLat((max_lat + min_lat) / 2);
-    setMidLng((max_lng + min_lng) / 2);
-    // set zoom based on the distance between the max and min lat/lng
-    const distance = Math.sqrt((max_lat - min_lat)**2 + (max_lng - min_lng)**2);
-    setZoom(_ => Math.floor(8 - Math.log2(distance) + 1));
-
-    sendJsonMessage({ method: 'join', name, max_lat, min_lat, max_lng, min_lng });
+    sendJsonMessage({ method: 'join', name });
     setGameStatus('JOINED');
   };
 
@@ -189,42 +148,20 @@ function CityHedger({ id, data, title }: { id: string, data: {
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start' });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
   const submitGuess = () => {
-    const code = city.toLowerCase().replace(/ /g, '');
-
-    // validate guess
-    if (!data[code]) {
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Please select a valid city!'
-      });
-      return;
-    }
-
-    let guess: number[] = [];
-    let bestName = '';
-    let bestDist = Infinity;
-    for (let cityData of data[code]) {
-      const dist = Math.sqrt((cityData.lat - lat)**2 + (cityData.lng - lng)**2);
-      if (dist < bestDist) {
-        bestDist = dist;
-        bestName = cityData.name;
-        guess = [cityData.lat, cityData.lng];
-      }
-    }
-
     Swal.fire({
       title: 'Waiting for other players...',
       didOpen: () => {
         Swal.showLoading();
       }
     })
-    sendJsonMessage({ method: 'play', guess, name, city: bestName, closest_city: closestCity, closest_lat_lng: closestLatLng });
+    
+    sendJsonMessage({ method: 'play', name, played: city });
     setGameStatus('PLAYED');
   }
 
@@ -253,7 +190,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
-            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.guess && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+            <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
           </li>
         ))}
         <li><span onClick={() => lifecycle.showHowToPlay(howToPlay)} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -281,7 +218,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
 
         {/* leaflet map to guess location */}
         <MapContainer
-          center={[midLat, midLng]}
+          center={[(max_lat+min_lat)/2, (max_lng+min_lng)/2]}
           zoom={zoom}
           scrollWheelZoom={true}
           style={{ height: "400px", width: "100%" }}
@@ -304,15 +241,15 @@ function CityHedger({ id, data, title }: { id: string, data: {
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: {closestCity} is the closest city!</h3>
+        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10</h3>
         <ul className="grid gap-2 mt-4">
-          {Object.entries(players).filter(([_, playerData]) => !!playerData.city).map(([name, playerData], index) => (
+          {Object.entries(players).filter(([_, playerData]) => !!playerData.played).map(([name, playerData], index) => (
           <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `${colors[index]}` }}></div>
               <span className="my-auto">{name}</span>
-              <span className="my-auto ms-auto">{playerData.city}</span>
+              <span className="my-auto ms-auto">{playerData.played.name}</span>
               <span className="my-auto ms-2">{(playerData.distance ).toFixed(3)}km</span>
               <span className="my-auto ms-2">{(gained[name]).points} points</span>
             </div>
@@ -323,7 +260,7 @@ function CityHedger({ id, data, title }: { id: string, data: {
         <button onClick={acknowledge} className="p-2 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Ready</button>
 
         <MapContainer
-          center={[midLat, midLng]}
+          center={[(max_lat+min_lat)/2, (max_lng+min_lng)/2]}
           zoom={zoom}
           scrollWheelZoom={true}
           style={{ height: "400px", width: "100%" }}
@@ -334,9 +271,9 @@ function CityHedger({ id, data, title }: { id: string, data: {
           />
 
           {/* show all players' guesses */}
-          {Object.entries(players).filter(([_, playerData]) => !!playerData.city).map(([playerName, playerData], index) => (
+          {Object.entries(players).filter(([_, playerData]) => !!playerData.played).map(([playerName, playerData], index) => (
             <CircleMarker key={playerName}
-              center={playerData.guess}
+              center={[playerData.played.lat, playerData.played.lng]}
               radius={5}
               pathOptions={{ color: colors[index % 9] }}>
               <Tooltip>
@@ -352,16 +289,6 @@ function CityHedger({ id, data, title }: { id: string, data: {
             pathOptions={{ color: 'black' }}>
             <Tooltip>
               Target
-            </Tooltip>
-          </CircleMarker>}
-
-          {/* closest city */}
-          {closestLatLng && <CircleMarker
-            center={[closestLatLng[0], closestLatLng[1]]}
-            radius={5}
-            pathOptions={{ color: '#3CA877' }}>
-            <Tooltip>
-              {closestCity} (Closest)
             </Tooltip>
           </CircleMarker>}
         </MapContainer>

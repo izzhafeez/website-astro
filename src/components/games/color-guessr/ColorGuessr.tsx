@@ -11,7 +11,7 @@ const instructions = gamesData['color-guessr'].heroText;
 
 type PlayerData = {
   points: number;
-  played_color: string;
+  guess: string;
   added_score: number;
   acknowledged: boolean;
 }
@@ -40,13 +40,14 @@ function ColorGuessr({ id }: { id: string }) {
 
     // deep copy of message.players object
     if (message.players) setPlayers(_ => JSON.parse(JSON.stringify(message.players)));
-    if (message.color) setColor(_ => message.color);
+    if (message.target) setColor(_ => message.target);
     if (message.round_id) setRoundId(_ => message.round_id);
 
     if (method === 'connect') {
       lifecycle.handleConnect(setGameStatus);
     } else if (method === 'join') {
-      if (gameStatus === 'UNJOINED') setGameStatus('JOINED');
+      if (message.game_state === 'start') setGameStatus('PLAYING');
+      if (message.game_state === 'lobby') setGameStatus('JOINED');
     } else if (method === 'leave') {
       lifecycle.handleLeave(message.name === name, setGameStatus);
     } else if (method === 'start') {
@@ -77,7 +78,7 @@ function ColorGuessr({ id }: { id: string }) {
           ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
             <tr class="bg-white border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
-              <td class="px-6 py-4 font-light">#${playerData.played_color}</td>
+              <td class="px-6 py-4 font-light">#${playerData.guess}</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
             </tr>
           `).join('')}
@@ -105,7 +106,8 @@ function ColorGuessr({ id }: { id: string }) {
   };
 
   const startGame = () => {
-    sendJsonMessage({ method: 'start', deck_size: 100 });
+    const seed = Math.floor(Math.random() * 16777215);
+    sendJsonMessage({ method: 'start', seed });
     setGameStatus('PLAYING')
   }
 
@@ -123,7 +125,7 @@ function ColorGuessr({ id }: { id: string }) {
       return;
     }
 
-    sendJsonMessage({ method: 'play', color: removedHash, name: name });
+    sendJsonMessage({ method: 'play', guess: removedHash, name: name });
     setGameStatus('PLAYED');
     setSelectedColor('');
     lifecycle.showSubmitSwal();
@@ -148,7 +150,7 @@ function ColorGuessr({ id }: { id: string }) {
         <ul className="grid gap-2">
           {Object.entries(players).map(([playerName, playerData]) => (
             <li key={playerName} className="">
-              <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.played_color && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
+              <span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}{playerData.guess && gameStatus !== 'EVALUATING' && ' (played)'}{playerData.acknowledged && ' (ready)'}</span> {playerData.points} Points
             </li>
           ))}
           <li><span onClick={() => lifecycle.showHowToPlay(howToPlay)} className="bg-cc-500 text-white rounded-md p-1 hover:opacity-50 cursor-pointer">How to Play</span></li>
@@ -190,8 +192,8 @@ function ColorGuessr({ id }: { id: string }) {
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${color}` }}></div>
-              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.played_color}` }}></div>
-              <span className="my-auto">#{playerData.played_color} ({name})</span>
+              <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `#${playerData.guess}` }}></div>
+              <span className="my-auto">#{playerData.guess} ({name})</span>
               <span className="my-auto ms-auto">Score: {playerData.added_score}</span>
             </div>
           </li>))
