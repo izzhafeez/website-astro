@@ -28,7 +28,11 @@
   }
 
   // get start number from lowest value
-  let startNumber = dataList.reduce((acc, cur) => cur.quantity < acc ? cur.quantity : acc, dataList[0].quantity);
+  let highestNumber = Math.max(...dataList.map(d => d.quantity));
+  let lowestNumber = Math.min(...dataList.map(d => d.quantity));
+  let startNumber = 0;
+  if (lowestNumber > 0) startNumber = lowestNumber;
+  else if (highestNumber < 0) startNumber = highestNumber;
 
   let left = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
   let right = left;
