@@ -10,5 +10,9 @@
   "route-weaver": {
     "title": "RouteWeaver",
     "heroText": "Plan your hikes with ease with RouteWeaver!"
+  },
+  "mrt-router": {
+    "title": "MRT Router",
+    "heroText": "Simulate the MRT network with MRT Router!"
   }
 }

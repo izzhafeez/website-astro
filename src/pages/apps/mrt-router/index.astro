@@ -1,0 +1,21 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import MrtRouter from "../../../components/apps/mrt-router/MrtRouter.vue";
+import Layout from "../../../layouts/Layout.astro";
+import appsData from "../../../data/apps/apps.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from "../../../img/heroes/MRT-ROUTER.jpg";
+import PageFind from "../../../components/common/PageFind.astro";
+
+export const prerender = true;
+const heroText = appsData["mrt-router"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"MRT Router"} path="apps/mrt-router"/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <PageFind pageName={"MRT Router"} heroText={heroText}/>
+    <MrtRouter client:only="vue"/>
+  </div>
+</Layout>
