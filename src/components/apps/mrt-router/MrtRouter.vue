@@ -106,6 +106,7 @@ export default {
       return this.getLinesAsDict();
     },
     transitions() {
+      console.log(this.labelMappings);
       const transitions = {};
       Object.values(this.labelMappings).forEach(platforms => {
         if (platforms.length == 1) return;
@@ -159,8 +160,6 @@ export default {
       return labelMappings;
     },
     dijkstra(start_name, end_name) {
-      const start = this.labelMappings[start_name][0];
-      const end = this.labelMappings[end_name][0];
       const distances = {};
       const visited = {};
       const previous = {};
