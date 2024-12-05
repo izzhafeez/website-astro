@@ -7,6 +7,7 @@ import Hero from '../../../components/common/Hero.astro';
 import Footer from '../../../components/common/Footer.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/seo/Seo.astro';
+import CommentsSection from '../../../components/blog/comments/CommentsSection.tsx';
 
 export function getStaticPaths() {
   return Object.entries(hikeData).map(([key, value]) => {
@@ -72,6 +73,7 @@ const seoImg = await images[`/src/img/blog/hikes/${key}.jpg`]().then(img => img.
       <h4 class="text-3xl text-cc-500 font-extrabold">TIPS</h4>
       <p class="my-4">{hike.tips}</p>
       }
+      <CommentsSection id={`hikes+${key}`} client:load/>
     </div>
     <Footer site="blog"/>
   </div>
