@@ -5,7 +5,23 @@ export default function CommentEditor({ id, refreshComments }: { id: string, ref
   const [value, setValue] = React.useState("");
   const [name, setName] = React.useState("Anonymous");
 
+  const toast = Swal.mixin({
+    toast: true,
+    position: "top-end",
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.onmouseenter = Swal.stopTimer;
+      toast.onmouseleave = Swal.resumeTimer;
+    }
+  });
+
   const handleSubmit = () => {
+    toast.fire({
+      icon: "info",
+      title: "Adding comment..."
+    })
     const MM = import.meta.env.PUBLIC_MM;
     const url = `${MM}/api/comments`;
     const payload = {
@@ -23,7 +39,10 @@ export default function CommentEditor({ id, refreshComments }: { id: string, ref
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Success:", data);
+        toast.fire({
+          icon: "success",
+          title: "Comment added!"
+        });
         const commentId = data.id;
         setValue("");
         // add the id of the added comment to localStorage

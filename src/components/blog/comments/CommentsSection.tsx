@@ -25,19 +25,17 @@ const CommentsSection = ({ id }: { id: string }) => {
 
   // retrieve a list of comments that the user has liked from localStorage
   React.useEffect(() => {
-    const likedComments = localStorage.getItem('comments-liked');
-    const addedComments = localStorage.getItem('comments-added');
-    if (likedComments && addedComments) {
-      const likedCommentsArray = likedComments.split(',');
-      const addedCommentsArray = addedComments.split(',');
-      const newComments = comments.map((comment) => {
-        const newComment = { ...comment };
-        newComment.liked = likedCommentsArray.includes(comment.id);
-        newComment.added = addedCommentsArray.includes(comment.id);
-        return newComment;
-      });
-      setComments(newComments);
-    }
+    const likedComments = localStorage.getItem('comments-liked') || '';
+    const addedComments = localStorage.getItem('comments-added') || '';
+    const likedCommentsArray = likedComments.split(',');
+    const addedCommentsArray = addedComments.split(',');
+    const newComments = comments.map((comment) => {
+      const newComment = { ...comment };
+      newComment.liked = likedCommentsArray.includes(comment.id);
+      newComment.added = addedCommentsArray.includes(comment.id);
+      return newComment;
+    });
+    setComments(newComments);
   }, [loaded]);
 
   const deleteComment = (id: string) => {
@@ -61,6 +59,7 @@ const CommentsSection = ({ id }: { id: string }) => {
     <div className=''>
       <h2 className='text-3xl text-cc-500 font-extrabold'>COMMENTS</h2>
       <CommentEditor id={id} refreshComments={refreshComments}/>
+      {!loaded && <p>Loading comments...</p>}
       {comments.map((comment, index) => (
         <Comment
           key={index}
