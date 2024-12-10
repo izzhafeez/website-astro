@@ -6,6 +6,7 @@ import courseData from '../../../data/blog/mod-reviews.json';
 import Layout from '../../../layouts/Layout.astro';
 import seoImg from '../../../img/heroes/MOD-REVIEWS.jpg';
 import Seo from '../../../components/seo/Seo.astro';
+import CommentsSection from '../../../components/blog/comments/CommentsSection';
 
 export function getStaticPaths() {
   return Object.entries(courseData).map(([key, value]) => {
@@ -42,6 +43,7 @@ const { key } = Astro.params;
       {data.review.split("\n").map(paragraph => (
         <p class="my-4">{paragraph}</p>
       ))}
+      <CommentsSection id={`mod-reviews+${key}`} client:load/>
     </div>
     <Footer site="blog"/>
   </div>
