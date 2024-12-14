@@ -1,0 +1,40 @@
+---
+import type { GetStaticPaths } from "astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import CollabTier from "../../../../components/apps/collab-tier/CollabTier.vue";
+import collabTierCategories from '../../../../data/apps/collab-tier/categories.json';
+import seoImg from "../../../../img/heroes/COLLAB-TIER.jpg";
+import appsData from "../../../../data/apps/apps.json";
+import Seo from "../../../../components/seo/Seo.astro";
+
+export const prerender = true;
+
+export const getStaticPaths = (() => {
+  return collabTierCategories.map((category) => {
+    return {
+      params: {
+        id: category.key,
+      },
+      props: {
+        title: category.title,
+        fields: category.fields
+      }
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { id } = Astro.params;
+const { title, fields } = Astro.props;
+const heroText = appsData["collab-tier"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"CollabTier"} path="apps/collab-tier"/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <CollabTier title={title} fields={fields} id={id} client:load>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

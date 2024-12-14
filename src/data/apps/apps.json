@@ -14,5 +14,9 @@
   "mrt-router": {
     "title": "MRT Router",
     "heroText": "Simulate the MRT network with MRT Router!"
+  },
+  "collab-tier": {
+    "title": "CollabTier",
+    "heroText": "Create community tier lists with CollabTier!"
   }
 }

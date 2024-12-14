@@ -13,9 +13,10 @@ export type CommentProps = {
   added: boolean;
   deleteComment?: (id: string) => void;
   replyOf?: number;
+  color: string;
 }
 
-const Comment = ({ id, poster, content, datetime, likes, liked, added, deleteComment }: CommentProps) => {
+const Comment = ({ id, poster, content, datetime, likes, liked, added, deleteComment, color }: CommentProps) => {
   const [hasLiked, setHasLiked] = React.useState(liked);
   const [numLikes, setLikes] = React.useState(likes);
   const currentTime = new Date().getTime();
@@ -101,7 +102,7 @@ const Comment = ({ id, poster, content, datetime, likes, liked, added, deleteCom
 
   return (
     <div className='grid my-2'>
-      <div className='text-cc-mrt text-lg font-bold'>
+      <div className={`text-${color}-500 text-lg font-bold`}>
         {poster}
       </div>
       <div className='dark:text-white text-sm italic'>

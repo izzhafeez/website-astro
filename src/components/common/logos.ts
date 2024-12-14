@@ -10,6 +10,7 @@ import meetupMaker from "../../img/logos/meetup-maker.svg";
 import vimTier from "../../img/logos/vim-tier.svg";
 import routeWeaver from "../../img/logos/route-weaver.svg";
 import mrtRouter from "../../img/logos/mrt-router.svg";
+import collabTier from "../../img/logos/collab-tier.svg";
 
 // quizzes
 import binary from "../../img/logos/binary.svg";
@@ -65,6 +66,7 @@ export default {
   "meetup-maker": meetupMaker,
   "route-weaver": routeWeaver,
   "mrt-router": mrtRouter,
+  "collab-tier": collabTier,
   binary,
   compare,
   connect,

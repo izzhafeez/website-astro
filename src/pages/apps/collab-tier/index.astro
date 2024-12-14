@@ -1,0 +1,23 @@
+---
+import NavBar from "../../../components/common/NavBar.astro";
+import Layout from "../../../layouts/Layout.astro";
+import appsData from "../../../data/apps/apps.json";
+import Seo from "../../../components/seo/Seo.astro";
+import seoImg from "../../../img/heroes/COLLAB-TIER.jpg";
+import PageFind from "../../../components/common/PageFind.astro";
+import CollabTierHome from "../../../components/apps/collab-tier/CollabTierHome.vue";
+
+export const prerender = true;
+const heroText = appsData["collab-tier"].heroText;
+---
+<Seo {heroText} {seoImg} pageName={"CollabTier"} path="apps/collab-tier"/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <PageFind pageName={"CollabTier"} heroText={heroText}/>
+    <CollabTierHome client:load>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

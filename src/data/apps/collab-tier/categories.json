@@ -1,0 +1,49 @@
+[
+  {
+    "title": "NUS Modules",
+    "key": "nus-modules",
+    "fields": [
+      {
+        "title": "Fairness",
+        "description": "How well does your grade reflect your ability?",
+        "full": "Unfair mods are those that test you on things you were never taught, or have nothing to do with the course objectives. They heavily punish careless mistakes, including error-carried-forward, question misinterpretation, and unclear expectations. They are also unreasonably opaque in their grading criteria, leaving it open to subjective and vibes-based marking."
+      },
+      {
+        "title": "Learnability",
+        "description": "How easy is it to build your skill level?",
+        "full": "How much resources do they provide you? PYPs with answers, optional practice sheets. Do they give timely feedback on your assignments? If not, then is there some external resource that can help you? Maybe some other university's lecture notes? Or maybe some Indian guy on YouTube?"
+      },
+      {
+        "title": "Retention",
+        "description": "How much will you remember 1 year after taking it?",
+        "full": "How well was the content taught? Did you end up throwing everything out of your head after the exam, or will you still retain some of that information for future use?"
+      },
+      {
+        "title": "Usefulness",
+        "description": "How much will you actually use in the future?",
+        "full": "Is what's being taught consistent with what you'll be doing in the future? Is it a good foundation for future modules? Or is it just a bunch of random facts that you'll never use again?"
+      }
+    ]
+  },
+  { 
+    "title": "MRT Stations",
+    "key": "mrt-stations",
+    "fields": [
+      {
+        "title": "Value",
+        "description": "Is it actually better than bus or walking?",
+        "full": "If that station is removed, how much longer will your journey be to your destination? If the answer is not much, then what's the point of the station?"
+      },
+      {
+        "title": "User Experience",
+        "description": "How easy is it to use the station?",
+        "full": "Is it hard to navigate? Is it too deep or inaccessible? Is it too crowded?"
+      },
+      {
+        "title": "Activities",
+        "description": "What can you do there?",
+        "full": "Is there malls, sports facilities, or other public amenities nearby? Is it a good variety?"
+      }
+    ]
+  }
+]

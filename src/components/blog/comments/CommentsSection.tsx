@@ -2,7 +2,14 @@ import React from 'react';
 import Comment, { type CommentProps } from './Comment';
 import CommentEditor from './CommentEditor';
 
-const CommentsSection = ({ id }: { id: string }) => {
+type CommentsSectionProps = {
+  id: string;
+  color?: string;
+  label?: string;
+  fields?: any[];
+};
+
+const CommentsSection = ({ id, color='cc', label='Comment', fields=[] }: CommentsSectionProps) => {
   const [comments, setComments] = React.useState([] as CommentProps[]);
   const [loaded, setLoaded] = React.useState(false);
   const refreshComments = () => {
@@ -57,10 +64,10 @@ const CommentsSection = ({ id }: { id: string }) => {
 
   return (
     <div className=''>
-      <h2 className='text-3xl text-cc-500 font-extrabold'>COMMENTS</h2>
-      <CommentEditor id={id} refreshComments={refreshComments}/>
+      <h2 className={`text-3xl text-${color}-500 font-extrabold`}>{label.toUpperCase()}S</h2>
+      <CommentEditor id={id} refreshComments={refreshComments} color={color} fields={fields} label={label}/>
       {!loaded && <p>Loading comments...</p>}
-      {comments.map((comment, index) => (
+      {comments.filter(comment => !!comment.content).map((comment, index) => (
         <Comment
           key={index}
           id={comment.id}
@@ -71,6 +78,7 @@ const CommentsSection = ({ id }: { id: string }) => {
           content={comment.content}
           datetime={comment.datetime}
           likes={comment.likes}
+          color={color}
         />
       ))}
     </div>
