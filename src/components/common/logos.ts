@@ -14,6 +14,7 @@ import collabTier from "../../img/logos/collab-tier.svg";
 
 // quizzes
 import binary from "../../img/logos/binary.svg";
+import color from "../../img/logos/color.svg";
 import compare from "../../img/logos/compare.svg";
 import connect from "../../img/logos/connect.svg";
 import coordCompare from "../../img/logos/coord-compare.svg";
@@ -68,6 +69,7 @@ export default {
   "mrt-router": mrtRouter,
   "collab-tier": collabTier,
   binary,
+  color,
   compare,
   connect,
   "coord-compare": coordCompare,

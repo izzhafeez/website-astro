@@ -17,12 +17,25 @@
   let score = 0;
   $: time = totalScore * 5;
   let toStop = true;
-  const FEATURE_LIMIT = 1000;
+  const FEATURE_LIMIT = 10000;
   let answeredDict = {};
   let regexInput = defaultRegex;
+  let allTags = [];
+  let currentActiveTags = [];
 
   onMount(() => {
     handleRegex(null);
+    const allSearchTerms = new Set();
+    for (let answer of Object.values(answers)) {
+      for (let location of answer) {
+        const searchTerms = location.searchTerms.split(', ').map(s => s.trim().replace("[", "").replace("]", ""));
+        for (let term of searchTerms) {
+          if (term === "") continue;
+          allSearchTerms.add(term);
+        }
+      }
+    }
+    allTags = Array.from(allSearchTerms);
   })
 
   async function handleEnd(_) {
@@ -169,6 +182,8 @@
     try {
       if (!e) {
         regex = new RegExp(defaultRegex, 'g');
+      } else if (e === "from-input") {
+        regex = new RegExp(regexInput, 'g');
       } else {
         regex = new RegExp(e.target.value, 'g');
         regexInput = e.target.value;
@@ -191,17 +206,35 @@
       }
     }
   }
+
+  function addRemoveTag(tag) {
+    currentActiveTags = regexInput.split("|");
+    if (currentActiveTags.includes(tag)) {
+      currentActiveTags = currentActiveTags.filter(t => t !== tag);
+      regexInput = currentActiveTags.filter(t => t).join("|");
+    } else {
+      currentActiveTags.push(tag);
+      regexInput = currentActiveTags.filter(t => t).join("|");
+    }
+    handleRegex("from-input");
+  }
 </script>
 
 <div class='h-30 flex items-center mb-4 mt-2'>
   {#if toStop}
-  <div class='p-2'>
+  <div class='py-2'>
     <label for="regex" class="">Your Name (Optional):</label>
     <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     <br/><br/>
     <label for="regex" class="">Regex:</label>
     <input name="regex" on:input={handleRegex} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder="" value={regexInput}/>
     <br/><br/>
+    <label for="tags" class="">{allTags.length > 0 ? "Tags:" : ""}</label>
+    <div class="flex gap-2 my-2">
+      {#each allTags as tag (tag)}
+      <button on:click={() => {addRemoveTag(tag)}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={currentActiveTags.includes(tag)} class:text-white={currentActiveTags.includes(tag)}>{tag}</button>
+      {/each}
+    </div>
     <Leaderboard type="map" key={key}/>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   </div>

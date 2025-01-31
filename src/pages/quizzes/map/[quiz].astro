@@ -52,7 +52,7 @@ export async function getStaticPaths() {
         title: 'Malls of Singapore',
         data: mallsData,
         instructions: "How many malls in Singapore can you name? As you answer, the marker will disappear. Use regex to select the malls you want included in the quiz (tip: try using '300S', '200S', '100S' and '50S' to filter based on the number of stores). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100S|200S|300S'
+        defaultRegex: ''
       }
     },
     {
@@ -61,7 +61,7 @@ export async function getStaticPaths() {
         title: "Schools of Singapore",
         data: schoolsData,
         instructions: "How many schools in Singapore can you name? As you answer, the marker will disappear. Use regex to select the schools you want included in the quiz (tip: try typing 'Secondary' or 'ang' and see what they do). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: 'Secondary|Primary'
+        defaultRegex: ''
       }
     },
     {
@@ -70,7 +70,7 @@ export async function getStaticPaths() {
         title: "Bus Stops of Singapore",
         data: busStopData,
         instructions: "How many bus stops in Singapore can you name? As you answer, the marker will disappear. Use regex to select the bus stops you want included in the quiz (tip: try typing 'BUS126' or 'oo' and see what they do). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: 'Bt'
+        defaultRegex: ''
       }
     },
     {
@@ -97,7 +97,7 @@ export async function getStaticPaths() {
         title: 'Cities of the World',
         data: citiesData,
         instructions: "How many cities with at least 100K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M or 100K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -106,7 +106,7 @@ export async function getStaticPaths() {
         title: 'Cities of Japan',
         data: japanCitiesData,
         instructions: "How many Japanese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -115,7 +115,7 @@ export async function getStaticPaths() {
         title: 'Cities of France',
         data: franceCitiesData,
         instructions: "How many French cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -124,7 +124,7 @@ export async function getStaticPaths() {
         title: 'Cities of China',
         data: chinaCitiesData,
         instructions: "How many Chinese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -133,7 +133,7 @@ export async function getStaticPaths() {
         title: 'Cities of the UK',
         data: ukCitiesData,
         instructions: "How many UK cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -142,7 +142,7 @@ export async function getStaticPaths() {
         title: 'Cities of Spain',
         data: spainCitiesData,
         instructions: "How many Spanish cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -151,7 +151,7 @@ export async function getStaticPaths() {
         title: 'Cities of Portugal',
         data: portugalCitiesData,
         instructions: "How many Portuguese cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -160,7 +160,7 @@ export async function getStaticPaths() {
         title: 'Cities of Italy',
         data: italyCitiesData,
         instructions: "How many Italian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -169,7 +169,7 @@ export async function getStaticPaths() {
         title: 'Cities of India',
         data: indiaCitiesData,
         instructions: "How many Indian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -178,7 +178,7 @@ export async function getStaticPaths() {
         title: 'Cities of Indonesia',
         data: indonesiaCitiesData,
         instructions: "How many Indonesian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -187,7 +187,7 @@ export async function getStaticPaths() {
         title: 'Cities of the Philippines',
         data: philippinesCitiesData,
         instructions: "How many Filipino cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -196,7 +196,7 @@ export async function getStaticPaths() {
         title: 'Cities of the United States',
         data: usaCitiesData,
         instructions: "How many American cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -205,7 +205,7 @@ export async function getStaticPaths() {
         title: 'Cities of Canada',
         data: canadaCitiesData,
         instructions: "How many Canadian cities with at least 1K population can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 10M, 1M, 100K, 10K or 1K to see what happens). You get 5 seconds for every possible answer. Good luck!",
-        defaultRegex: '100K|1M|10M'
+        defaultRegex: ''
       }
     },
     {
@@ -317,7 +317,7 @@ const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().t
     <PageFind pageName={`${Astro.props.title} (Map Quiz)`} heroText={Astro.props.instructions}/>
     <div class="max-w-3xl mx-auto p-2">
       <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
-      <p transition:name={Astro.props.instructions} class="text-gray-500 max-w-3xl">{Astro.props.instructions}</p>
+      <p transition:name={Astro.props.instructions} class="text-black dark:text-white max-w-3xl">{Astro.props.instructions}</p>
     </div>
     <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
     <Footer site="quizzes"/>

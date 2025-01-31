@@ -8,7 +8,7 @@ export let lines;
 let featureList = [];
 let featureGroup;
 let tooltips = [];
-const FEATURE_LIMIT = 1000;
+const FEATURE_LIMIT = 10000;
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },

@@ -12,9 +12,11 @@
   let time = 0;
   let canNext = false;
   let wrong = {};
-  let N = 6;
   let difficulty = 3;
   let possible_difficulty = [1, 2, 3, 4, 5];
+  let N = 6;
+  let possible_option_counts = Array.from(Array(Object.keys(data).length).keys()).slice(2);
+  let wrongCount = 0;
 
   const difficultyMappings = {
     1: 5,
@@ -27,6 +29,7 @@
   function handleStart() {
     handleNext();
     isStart = true;
+    wrongCount = 0;
   }
 
   function handleNext() {
@@ -75,6 +78,9 @@
   }
 
   function handleSelect(tile) {
+    // reset wrongs
+    wrong = {};
+
     if (answered[tile]) {
       return;
     }
@@ -102,7 +108,7 @@
       Swal.fire({
         title: 'Congratulations!',
         icon: 'success',
-        text: `You have completed the quiz in ${time.toFixed(2)} seconds!`,
+        text: `You have completed the quiz in ${time.toFixed(2)} seconds with ${wrongCount} mistakes!`,
         confirmButtonText: 'Next'
       }).then(_ => {
         handleNext();
@@ -111,20 +117,21 @@
   }
 
   function handleColorTransition(selected, tile) {
+    wrongCount++;
     wrong[selected] = true;
     wrong[tile] = true;
+  }
 
-    setTimeout(() => {
-      wrong = {};
-    }, 1000)
+  function goBack() {
+    isStart = false;
   }
 </script>
 
 <div class="max-w-3xl mx-auto p-2">
-  {#if !isStart}
-  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text my-12 text-6xl">
+  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 text-transparent bg-clip-text my-12 text-6xl">
     {title}
   </h1>
+  {#if !isStart}
   <p class=" my-4">{instructions}</p>
   <label for="difficulty" class="">Difficulty: </label>
   <div class="flex gap-2 my-2">
@@ -132,15 +139,40 @@
     <button on:click={() => {difficulty = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={difficulty == n} class:text-white={difficulty == n}>{n}</button>
     {/each}
   </div>
+  <label for="difficulty" class="">Number of Groups: </label>
+  <div class="flex gap-2 my-2">
+    {#each possible_option_counts as n (n)}
+    <button on:click={() => {N = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={N == n} class:text-white={N == n}>{n}</button>
+    {/each}
+  </div>
   <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
   {:else}
-  <p class='text-3xl text-center my-2 bg-dt-500 text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
+  <div class="grid grid-cols-2">
+    <p class='text-3xl text-center my-2 dark:text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>
+    <p class='text-3xl text-center my-2 dark:text-white px-4 py-2 rounded-md'>{wrongCount} Mistakes</p>
+  </div>
   <div class="grid gap-2">
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
-        <button id={tile} on:click={() => handleSelect(tile)} class:bg-ns-500={wrong[tile] && selected !== tile} class:bg-cc-500={selected === tile && !answered[tile]} class:text-white={selected === tile || answered[tile] || wrong[tile]} class:bg-ew-500={answered[tile]} class="h-24 transition border-[3px] hover:border-cc-500 cursor-pointer  rounded-lg py-2 px-4 text-center">{tile}</button>
+        <button id={tile}
+          on:click={() => handleSelect(tile)}
+          class="h-24 transition cursor-pointer rounded-lg py-2 px-4 text-center"
+          class:text-white={selected === tile || answered[tile] || wrong[tile]}
+          class:dark:text-black={selected === tile || answered[tile] || wrong[tile]}
+          class:bg-cc-700={!answered[tile] && !wrong[tile]}
+          class:dark:bg-cc-300={!answered[tile] && !wrong[tile]}
+          class:bg-opacity-50={selected !== tile && !answered[tile] && !wrong[tile]}
+          class:dark:bg-opacity-50={selected !== tile && !answered[tile] && !wrong[tile]}
+          class:bg-ns-500={wrong[tile] && selected !== tile}
+          class:dark:bg-ns-500={wrong[tile] && selected !== tile}
+          class:bg-ew-500={answered[tile]}
+          class:dark:bg-ew-500={answered[tile]}
+          >{tile}</button>
       {/each}
     </div>
+  </div>
+  <div class="grid">
+    <button on:click={goBack} class='bg-ns-500 hover:bg-ns-300 text-white rounded-lg py-2 px-4 my-8 ms-auto'>End</button>
   </div>
   {/if}
 </div>

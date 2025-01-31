@@ -135,7 +135,10 @@
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
       {#each tiles as tile}
-      <button on:click={() => handleSelect(tile)} class:border-ew-300={!!selected[tile]} class="border-[3px] hover:border-ew-500 cursor-pointer  rounded-lg py-2 px-4 text-center">{tile}</button>
+      <button on:click={() => handleSelect(tile)}
+        class:bg-opacity-20={!selected[tile]} class:dark:bg-opacity-20={!selected[tile]}
+        class:text-white={selected[tile]} class:dark:text-black={selected[tile]}
+        class="bg-black dark:bg-white cursor-pointer rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}
     </div>
   </div>
