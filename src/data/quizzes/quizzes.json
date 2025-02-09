@@ -3,6 +3,10 @@
     "title": "Binary Quest",
     "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
   },
+  "color": {
+    "title": "ColorGuessr",
+    "heroText": "Guess the hexcode of the given color. Try to get an accurate guess!"
+  },
   "compare": {
     "title": "Comparator",
     "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
