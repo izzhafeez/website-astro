@@ -19,6 +19,10 @@
     "title": "GeoGuessr",
     "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
   },
+  "jumble": {
+    "title": "Jumble Jam",
+    "heroText": "Unscrambling but on steroids! Separate the jumbled letters to form many words at once!"
+  },
   "map": {
     "title": "Map Mania",
     "heroText": "How many locations can you name in a short time?"
