@@ -87,12 +87,10 @@
         </div>
 
         <!-- one text field per N -->
-        <div class="grid my-4">
-            <div class="grid grid-cols-2 me-auto place-content-center gap-2">
+        <div class="grid my-4 max-w-xl">
+            <div class="grid grid-cols-2 place-content-center gap-2">
                 {#each responses as response, i}
-                <div class="flex my-1 mx-auto">
-                    <input type="text" class="border-[1px] rounded-md px-2 py-1 dark:bg-gray-700" on:keyup={handleType(i)} bind:value={responses[i]} placeholder={`Guess ${i+1}`}/>
-                </div>
+                <input type="text" class="border-[1px] rounded-md px-2 py-1 dark:bg-gray-700 my-1" on:keyup={handleType(i)} bind:value={responses[i]} placeholder={`Guess ${i+1}`}/>
                 {/each}
             </div>
         </div>
