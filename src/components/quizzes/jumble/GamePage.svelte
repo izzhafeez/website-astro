@@ -5,15 +5,24 @@
     export let title;
     export let instructions;
     export let isStart;
+    export let scrambleFactor = 3;
+    export let mixFactor = 3;
     let givenUp = false;
     // all the individual letters in the chosen words
-    let letters = chosen.join('').split('').sort((a, b) => 0.5 - Math.random());
-    let badLetters = [];
+    let letters = chosen
+        .map((chose: string, i: number) => chose
+            .split('')
+            .map(letter => [letter, i])
+            .sort((a: any, b: any) => Math.random() - (scrambleFactor / 10)))
+        .flat()
+        .sort((a: any, b: any) => a[1] == b[1] ? 0 : Math.random() - (mixFactor / 10))
+        .map((a: any) => a[0]);
+    let badLetters: string[] = [];
     // same length as letters
     let used = Array(letters.length).fill(false);
     let responses = Array(chosen.length).fill('');
 
-    const handleType = (responseId) => (event) => {
+    const handleType = (responseId: number) => (event) => {
         responses[responseId] = event.target.value;
 
         // refresh used

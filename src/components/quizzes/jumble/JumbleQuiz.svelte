@@ -10,6 +10,8 @@
     let MAX_LENGTH = 10;
     let isStart = false;
     let chosen = [];
+    let mixFactor = 3;
+    let scrambleFactor = 3;
 
     function handleNext() {
         // choose N random names from options
@@ -37,5 +39,5 @@
 {#if isStart}
     <GamePage {chosen} bind:isStart={isStart} {title} {instructions}/>
 {:else}
-    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} {handleNext} {title} {instructions}/>
+    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor}/>
 {/if}
