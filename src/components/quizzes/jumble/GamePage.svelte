@@ -71,10 +71,10 @@
     }
 </script>
 
-<div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: -200, duration: 500 }}>
-    <div class="max-w-3xl mx-auto">
+<div class="top-0 h-screen w-screen grid content-center justify-center p-2 -z-10" transition:fly={{ y: -200, duration: 500 }}>
+    <div class="max-w-4xl mx-auto">
         <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
-        <p class="text-lg my-4">{instructions}</p>
+        <p class="my-4">{instructions}</p>
         <!-- letters as tiles in a grid -->
         <div class="flex flex-wrap gap-2">
             {#each letters as letter, i}
