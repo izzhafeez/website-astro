@@ -37,7 +37,7 @@
     }
 </script>
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {instructions}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor}/>
 {:else}
     <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor}/>
 {/if}

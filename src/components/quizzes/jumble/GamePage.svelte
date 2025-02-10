@@ -5,8 +5,8 @@
     export let title;
     export let instructions;
     export let isStart;
-    export let scrambleFactor = 3;
-    export let mixFactor = 3;
+    export let scrambleFactor;
+    export let mixFactor;
     let givenUp = false;
     // all the individual letters in the chosen words
     let letters = chosen
