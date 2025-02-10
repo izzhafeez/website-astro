@@ -44,11 +44,11 @@
     isGuessing = false;
     let score = 0;
     for (let i = 0; i < 3; i++) {
-      let colorScore = 128 - Math.abs(guessedRgb[i] - rgb[i]);
-      colorScore = Math.max(colorScore, 0);
+      let colorScore = Math.pow(guessedRgb[i] - rgb[i], 2);
       score += colorScore;
     }
-    score = (score / 384) * 100;
+    score = Math.pow(score, 0.5);
+    score = 100 - (score / (256 * Math.pow(3, 0.5))) * 100;
     score = Math.round(score * 100) / 100;
     return score;
   }
