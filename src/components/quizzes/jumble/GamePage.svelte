@@ -13,16 +13,19 @@
         .map((chose: string, i: number) => chose
             .split('')
             .map(letter => [letter, i])
-            .sort((a: any, b: any) => Math.random() - (scrambleFactor / 10)))
+            .map((a: any, j: number) => [a, j])
+            .sort((a: any, b: any) => (Math.random() * (scrambleFactor+1)) - 1 > 0 ? Math.random() - 0.5 : 0)
+            .map((a: any) => a[0])
+        )
         .flat()
-        .sort((a: any, b: any) => a[1] == b[1] ? 0 : Math.random() - (mixFactor / 10))
+        .sort((a: any, b: any) => a[1] == b[1] ? 0 : (Math.random() * (mixFactor+1)) - 1 > 0 ? Math.random() - 0.5 : 0)
         .map((a: any) => a[0]);
     let badLetters: string[] = [];
     // same length as letters
     let used = Array(letters.length).fill(false);
     let responses = Array(chosen.length).fill('');
 
-    const handleType = (responseId: number) => (event) => {
+    const handleType = (responseId: number) => (event: any) => {
         responses[responseId] = event.target.value;
 
         // refresh used
@@ -50,7 +53,7 @@
 
         // compare set of responses to set of chosens, regardless of order
         let setOfResponses = new Set(responses.map(response => response.toUpperCase()));
-        let setOfChosens = new Set(chosen.map(chosen => chosen.toUpperCase()));
+        let setOfChosens = new Set(chosen.map((chosen: string) => chosen.toUpperCase()));
 
         if (setOfResponses.size === setOfChosens.size && [...setOfResponses].every(response => setOfChosens.has(response))) {
             if (givenUp) {

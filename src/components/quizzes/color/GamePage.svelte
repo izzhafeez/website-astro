@@ -4,7 +4,7 @@
 
   export let isStart: boolean;
   let roundNumber = 0;
-  let MAX_ROUNDS = 10;
+  let MAX_ROUNDS = 5;
   let rgb = [0, 0, 0];
   let guess = "";
   let roundScore = 0;
@@ -78,7 +78,7 @@
 
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: -200, duration: 500 }}>
   <div class="max-w-3xl mx-auto">
-    <h2 class="text-ns-500 font-bold text-3xl mb-2">Round {roundNumber}/10</h2>
+    <h2 class="text-ns-500 font-bold text-3xl mb-2">Round {roundNumber}/5</h2>
     <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode.</p>
     <!--  -->
     <div class="my-4 mx-auto">

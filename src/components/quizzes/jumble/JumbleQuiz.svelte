@@ -5,11 +5,11 @@
     export let title;
     export let instructions;
     // remove contents of parantheses and brackets
-    let options = names.map(name => name.replace(/[\(\[].*?[\)\]]/g, '').trim().toUpperCase());
+    let options = names;
     let N = 4;
     let MAX_LENGTH = 10;
     let isStart = false;
-    let chosen = [];
+    let chosen: string[] = [];
     let mixFactor = 3;
     let scrambleFactor = 3;
 

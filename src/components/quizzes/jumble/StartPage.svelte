@@ -4,10 +4,10 @@
     export let title;
     export let instructions;
     export let isStart = false;
-    export let N;
-    export let MAX_LENGTH;
-    export let mixFactor;
-    export let scrambleFactor;
+    export let N: number;
+    export let MAX_LENGTH: number;
+    export let mixFactor: number;
+    export let scrambleFactor: number;
     export let handleNext: () => void;
     let possible_N = [2, 3, 4, 5, 6, 7, 8];
     let possible_max_length = [6, 8, 10, 12, 14, 16, 18, 20];
@@ -20,9 +20,9 @@
     }
   </script>
   
-  <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: 200, duration: 500 }}>
+  <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: 200, duration: 500 }}>
     <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
-    <p class="text-lg my-4 max-w-3xl">{instructions}</p>
+    <p class="my-4 max-w-3xl">{instructions}</p>
     <label for="N" class="">Number of Names: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}

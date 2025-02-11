@@ -7,7 +7,7 @@
   export let isStart: boolean;
 
   const title = "Color Quiz";
-  const instructions = "Given a color, guess the hexcode in RGB format. For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. You have 10 rounds. Good luck!";
+  const instructions = "Given a color, guess the hexcode in RGB format. For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. You have 5 rounds. Good luck!";
 
   function handleStart() {
     isStart = true;
