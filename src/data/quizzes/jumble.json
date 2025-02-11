@@ -3,5 +3,10 @@
         "title": "MRT Stations of Singapore",
         "instructions": "Unmix and unscramble the letters to form the names of MRT stations.",
         "tags": ["MRT", "Singapore"]
+    },
+    "mrt-hard": {
+        "title": "MRT Stations of Singapore (Hard)",
+        "instructions": "Unmix and unscramble the letters to form the names of LRT and future MRT stations.",
+        "tags": ["MRT", "Singapore"]
     }
 }
