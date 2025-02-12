@@ -31,6 +31,10 @@
     "title": "Match Master",
     "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
   },
+  "regex": {
+    "title": "Regex Warrior",
+    "heroText": "Find the shortest regex that perfectly matches the given strings. The shorter the better!"
+  },
   "selection": {
     "title": "Selection Showdown",
     "heroText": "Select all the correct answers from the list. Try to get a high score!"

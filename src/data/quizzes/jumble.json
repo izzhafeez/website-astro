@@ -4,9 +4,19 @@
         "instructions": "Unmix and unscramble the letters to form the names of MRT stations.",
         "tags": ["MRT", "Singapore"]
     },
+    "countries": {
+        "title": "Countries of the World",
+        "instructions": "Unmix and unscramble the letters to form the names of countries.",
+        "tags": ["Countries"]
+    },
     "mrt-hard": {
         "title": "MRT Stations of Singapore (Hard)",
         "instructions": "Unmix and unscramble the letters to form the names of LRT and future MRT stations.",
         "tags": ["MRT", "Singapore"]
+    },
+    "fruit-veg": {
+        "title": "Fruits and Vegetables",
+        "instructions": "Unmix and unscramble the letters to form the names of fruits and vegetables.",
+        "tags": ["Fruits", "Vegetables"]
     }
 }

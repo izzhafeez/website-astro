@@ -3,13 +3,14 @@ import Seo from "../../../components/seo/Seo.astro";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import PageFind from "../../../components/common/PageFind.astro";
-import JumbleQuiz from "../../../components/quizzes/jumble/JumbleQuiz.svelte";
+import RegexWarrior from "../../../components/quizzes/regex/RegexWarrior.svelte";
 import mrtData from "../../../data/quizzes/map/mrt.json";
 import countriesData from "../../../data/quizzes/jumble/countries.json";
 import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
 
 export const getStaticPaths = (() => {
-    const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim().toUpperCase();
+    const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
+    const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
     return [
         {
             params: {
@@ -17,17 +18,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'MRT Stations of Singapore',
-                instructions: 'A certain number of MRT stations have their letters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: Object.keys(mrtData).filter(name => /EW|CG|CE|CC|NS|NE|DT|TE/.test(name)).map(normaliseString)
-            }
-        },
-        {
-            params: {
-                quiz: 'mrt-hard'
-            },
-            props: {
-                title: 'MRT Stations of Singapore (Hard)',
-                instructions: 'A certain number of MRT stations have their letters jumbled and mixed up. This includes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: instructions,
                 data: Object.keys(mrtData).map(normaliseString)
             }
         },
@@ -37,7 +28,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Countries of the World',
-                instructions: 'A certain number of countries have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: instructions,
                 data: countriesData.map(normaliseString)
             }
         },
@@ -47,7 +38,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Fruits and Vegetables',
-                instructions: 'A certain number of fruits and vegetables have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: instructions,
                 data: fruitVegData.map(normaliseString)
             }
         }
@@ -64,7 +55,7 @@ const seoImg = await images[`/src/img/quizzes/jumble/${Astro.params.quiz}.jpg`](
   <div slot="main">
     <NavBar/>
     <PageFind pageName={`${Astro.props.title} (Connect Quiz)`} heroText={Astro.props.instructions}/>
-    <JumbleQuiz client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions}/>
+    <RegexWarrior client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>

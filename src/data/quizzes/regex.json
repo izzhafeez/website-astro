@@ -1,0 +1,17 @@
+{
+    "mrt": {
+        "title": "MRT Stations of Singapore",
+        "instructions": "Find the shortest regex that matches the right stations.",
+        "tags": ["MRT", "Singapore"]
+    },
+    "countries": {
+        "title": "Countries of the World",
+        "instructions": "Find the shortest regex that matches the right countries!",
+        "tags": ["Countries"]
+    },
+    "fruit-veg": {
+        "title": "Fruits and Vegetables",
+        "instructions": "Find the shortest regex that matches the right fruits and vegetables!",
+        "tags": ["Fruits", "Vegetables"]
+    }
+}
