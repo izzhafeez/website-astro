@@ -83,7 +83,7 @@
             {:else if countCorrect === chosen.length}
                 <p class="text-ew-500 my-auto ms-2">Success! Score: {guess.length}</p>
             {:else}
-                <p class="text-cc-500 my-auto ms-2">{countCorrect}/{chosen.length} successful matches</p>
+                <p class="text-cc-500 my-auto ms-2">{countCorrect}/{chosen.length} correct</p>
             {/if}
         </div>
 
