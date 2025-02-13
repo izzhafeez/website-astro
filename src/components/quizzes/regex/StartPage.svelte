@@ -8,7 +8,7 @@
     export let randomiseSeed: () => void;
     export let seed: string;
     export let inputSeed: () => void;
-    let possible_N = [6, 8, 10, 15, 20, 25, 30, 40, 50];
+    let possible_N = [6, 8, 12, 16, 20, 24, 30, 40, 50];
   </script>
   
   <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>

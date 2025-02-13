@@ -11,6 +11,8 @@ import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
 export const getStaticPaths = (() => {
     const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
     const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
+    const filterDuplicates = (array: string[]) => array.filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => a.localeCompare(b));
+
     return [
         {
             params: {
@@ -19,7 +21,7 @@ export const getStaticPaths = (() => {
             props: {
                 title: 'MRT Stations of Singapore',
                 instructions: instructions,
-                data: Object.keys(mrtData).map(normaliseString)
+                data: filterDuplicates(Object.keys(mrtData).map(normaliseString))
             }
         },
         {
@@ -29,7 +31,7 @@ export const getStaticPaths = (() => {
             props: {
                 title: 'Countries of the World',
                 instructions: instructions,
-                data: countriesData.map(normaliseString)
+                data: filterDuplicates(countriesData.map(normaliseString))
             }
         },
         {
@@ -39,7 +41,7 @@ export const getStaticPaths = (() => {
             props: {
                 title: 'Fruits and Vegetables',
                 instructions: instructions,
-                data: fruitVegData.map(normaliseString)
+                data: filterDuplicates(fruitVegData.map(normaliseString))
             }
         }
     ]

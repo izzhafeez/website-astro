@@ -9,39 +9,49 @@
     let uninputted = false;
     let isStart;
     let options = names;
-    let N = 10;
+    let N = 8;
     let chosenIndices = [];
     let assignments = [];
     let chosen = [];
 
     const parseSeed = () => {
-        // for every 2 characters in seed, convert to number and add to gaps
-        let gaps = [];
+        N = parseInt(seed[0], 36) * 2;
+        let firstDigitsBase = parseInt(seed[1], 36);
+        let secondDigits = seed.slice(2, N + 2);
+        let firstDigitsAsCustomBase = seed.slice(N + 2);
+        let firstDigits = parseInt(firstDigitsAsCustomBase, 36).toString(firstDigitsBase).padStart(N, '0').split('');
+
         assignments = [];
-        for (let i = 0; i < seed.length; i += 3) {
-            gaps.push(parseInt(seed.slice(i, i + 2), 36));
-            assignments.push(seed[i + 2] === '1');
+        chosenIndices = [];
+        let acc = 0;
+        for (let i = 0; i < N; i++) {
+            let gap = parseInt(`${firstDigits[i]}${secondDigits[i]}`, 36);
+            assignments.push(gap % 2 === 1);
+            acc += gap >> 1;
+            chosenIndices.push(acc);
         }
-        
-        chosenIndices = gaps.reduce((acc, gap, i) => {
-            if (i === 0) {
-                return [gap];
-            }
-            return [...acc, acc[i - 1] + gap];
-        }, []);
     }
 
     const encodeSeed = (gaps: numer[]) => {
-        seed = '';
+        let firstDigits = '';
+        let secondDigits = '';
         for (let i = 0; i < gaps.length; i++) {
             let gap = gaps[i];
-            seed += gap.toString(36).padStart(2, '0');
+            gap *= 2;
             if (assignments[i]) {
-                seed += '1';
-            } else {
-                seed += '0';
+                gap += 1;
             }
+            let rawGap = gap.toString(36).padStart(2, '0').split('');
+            firstDigits += rawGap[0];
+            secondDigits += rawGap[1];
         }
+
+        let firstDigitsArray = firstDigits.split('').map(d => parseInt(d, 36));
+        let firstDigitsMax = Math.max(...firstDigitsArray);
+        let firstDigitsBase = Math.max(firstDigitsMax + 1, 2);
+        let firstDigitsAsNewBase = parseInt(firstDigits, firstDigitsBase).toString(36);
+
+        seed = (N/2).toString(36) + firstDigitsBase.toString(36) + secondDigits + firstDigitsAsNewBase;
     }
 
     function inputSeed() {
@@ -84,6 +94,7 @@
         }
     }
 </script>
+
 {#if isStart}
     <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed}/>
 {/if}
