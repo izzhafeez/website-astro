@@ -7,6 +7,13 @@ import JumbleQuiz from "../../../components/quizzes/jumble/JumbleQuiz.svelte";
 import mrtData from "../../../data/quizzes/map/mrt.json";
 import countriesData from "../../../data/quizzes/jumble/countries.json";
 import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
+import spotifyData from "../../../data/quizzes/jumble/spotify.json";
+import billboard2010Data from "../../../data/quizzes/jumble/billboard-2010.json";
+import billboard2011Data from "../../../data/quizzes/jumble/billboard-2011.json";
+import billboard2012Data from "../../../data/quizzes/jumble/billboard-2012.json";
+import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json";
+import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
+import awsData from "../../../data/quizzes/jumble/aws.json";
 
 export const getStaticPaths = (() => {
     const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim().toUpperCase();
@@ -17,7 +24,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'MRT Stations of Singapore',
-                instructions: 'A certain number of MRT stations have their letters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: 'Some MRT stations have their letters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
                 data: Object.keys(mrtData).filter(name => /EW|CG|CE|CC|NS|NE|DT|TE/.test(name)).map(normaliseString)
             }
         },
@@ -27,7 +34,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'MRT Stations of Singapore (Hard)',
-                instructions: 'A certain number of MRT stations have their letters jumbled and mixed up. This includes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: 'Some MRT stations have their letters jumbled and mixed up. This includes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
                 data: Object.keys(mrtData).map(normaliseString)
             }
         },
@@ -37,7 +44,7 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Countries of the World',
-                instructions: 'A certain number of countries have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: 'Some countries have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
                 data: countriesData.map(normaliseString)
             }
         },
@@ -47,8 +54,78 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Fruits and Vegetables',
-                instructions: 'A certain number of fruits and vegetables have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                instructions: 'Some fruits and vegetables have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
                 data: fruitVegData.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'spotify',
+            },
+            props: {
+                title: 'Top Spotify Artists',
+                instructions: 'Some Spotify artists have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: spotifyData.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2010',
+            },
+            props: {
+                title: 'Billboard Top 100 Songs of 2010',
+                instructions: 'Some Billboard Top 100 songs of 2010 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: billboard2010Data.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2011',
+            },
+            props: {
+                title: 'Billboard Top 100 Songs of 2011',
+                instructions: 'Some Billboard Top 100 songs of 2011 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: billboard2011Data.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2012',
+            },
+            props: {
+                title: 'Billboard Top 100 Songs of 2012',
+                instructions: 'Some Billboard Top 100 songs of 2012 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: billboard2012Data.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2013',
+            },
+            props: {
+                title: 'Billboard Top 100 Songs of 2013',
+                instructions: 'Some Billboard Top 100 songs of 2013 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: billboard2013Data.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2014',
+            },
+            props: {
+                title: 'Billboard Top 100 Songs of 2014',
+                instructions: 'Some Billboard Top 100 songs of 2014 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: billboard2014Data.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'aws',
+            },
+            props: {
+                title: 'AWS Services',
+                instructions: 'Some AWS services have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: awsData.map(normaliseString)
             }
         }
     ]

@@ -7,6 +7,13 @@ import RegexWarrior from "../../../components/quizzes/regex/RegexWarrior.svelte"
 import mrtData from "../../../data/quizzes/map/mrt.json";
 import countriesData from "../../../data/quizzes/jumble/countries.json";
 import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
+import spotifyData from "../../../data/quizzes/jumble/spotify.json";
+import billboard2010Data from "../../../data/quizzes/jumble/billboard-2010.json";
+import billboard2011Data from "../../../data/quizzes/jumble/billboard-2011.json";
+import billboard2012Data from "../../../data/quizzes/jumble/billboard-2012.json";
+import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json";
+import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
+import awsData from "../../../data/quizzes/jumble/aws.json";
 
 export const getStaticPaths = (() => {
     const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
@@ -42,6 +49,76 @@ export const getStaticPaths = (() => {
                 title: 'Fruits and Vegetables',
                 instructions: instructions,
                 data: filterDuplicates(fruitVegData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'spotify',
+            },
+            props: {
+                title: 'Top Spotify Artists',
+                instructions: instructions,
+                data: filterDuplicates(spotifyData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2010',
+            },
+            props: {
+                title: 'Billboard Top 100 (2010)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2010Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2011',
+            },
+            props: {
+                title: 'Billboard Top 100 (2011)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2011Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2012',
+            },
+            props: {
+                title: 'Billboard Top 100 (2012)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2012Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2013',
+            },
+            props: {
+                title: 'Billboard Top 100 (2013)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2013Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2014',
+            },
+            props: {
+                title: 'Billboard Top 100 (2014)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2014Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'aws',
+            },
+            props: {
+                title: 'AWS Services',
+                instructions: instructions,
+                data: filterDuplicates(awsData.map(normaliseString))
             }
         }
     ]

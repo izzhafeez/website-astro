@@ -18,5 +18,40 @@
         "title": "Fruits and Vegetables",
         "instructions": "Unmix and unscramble the letters to form the names of fruits and vegetables.",
         "tags": ["Fruits", "Vegetables"]
+    },
+    "aws": {
+        "title": "AWS Services",
+        "instructions": "Unmix and unscramble the letters to form the names of AWS services.",
+        "tags": ["AWS"]
+    },
+    "spotify": {
+        "title": "Top Spotify Artists",
+        "instructions": "Unmix and unscramble the letters to form the names of top Spotify artists.",
+        "tags": ["Music", "Spotify"]
+    },
+    "billboard-2014": {
+        "title": "Billboard Top 100 Songs of 2014",
+        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2014.",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2013": {
+        "title": "Billboard Top 100 Songs of 2013",
+        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2013.",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2012": {
+        "title": "Billboard Top 100 Songs of 2012",
+        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2012.",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2011": {
+        "title": "Billboard Top 100 Songs of 2011",
+        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2011.",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2010": {
+        "title": "Billboard Top 100 Songs of 2010",
+        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2010.",
+        "tags": ["Music", "Billboard"]
     }
 }

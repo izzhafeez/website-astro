@@ -13,5 +13,40 @@
         "title": "Fruits and Vegetables",
         "instructions": "Find the shortest regex that matches the right fruits and vegetables!",
         "tags": ["Fruits", "Vegetables"]
+    },
+    "aws": {
+        "title": "AWS Services",
+        "instructions": "Find the shortest regex that matches the right services!",
+        "tags": ["AWS"]
+    },
+    "spotify": {
+        "title": "Top Spotify Artists",
+        "instructions": "Find the shortest regex that matches the right artists!",
+        "tags": ["Music", "Spotify"]
+    },
+    "billboard-2014": {
+        "title": "Billboard Top 100 Songs of 2014",
+        "instructions": "Find the shortest regex that matches the right songs!",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2013": {
+        "title": "Billboard Top 100 Songs of 2013",
+        "instructions": "Find the shortest regex that matches the right songs!",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2012": {
+        "title": "Billboard Top 100 Songs of 2012",
+        "instructions": "Find the shortest regex that matches the right songs!",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2011": {
+        "title": "Billboard Top 100 Songs of 2011",
+        "instructions": "Find the shortest regex that matches the right songs!",
+        "tags": ["Music", "Billboard"]
+    },
+    "billboard-2010": {
+        "title": "Billboard Top 100 Songs of 2010",
+        "instructions": "Find the shortest regex that matches the right songs!",
+        "tags": ["Music", "Billboard"]
     }
 }
