@@ -13,26 +13,40 @@
     let chosenIndices = [];
     let assignments = [];
     let chosen = [];
+    let possible_N = [6, 8, 12, 16, 20, 24, 30, 40, 50];
+
+    function convert(value, radix) {
+        return [...value.toString()]
+            .reduce((r, v) => r * BigInt(radix) + BigInt(parseInt(v, radix)), 0n);
+    }
 
     const parseSeed = () => {
-        N = parseInt(seed[0], 36) * 2;
-        let firstDigitsBase = parseInt(seed[1], 36);
-        let secondDigits = seed.slice(2, N + 2);
-        let firstDigitsAsCustomBase = seed.slice(N + 2);
-        let firstDigits = parseInt(firstDigitsAsCustomBase, 36).toString(firstDigitsBase).padStart(N, '0').split('');
+        let sqrtNames = Math.sqrt(options.length * 2);
+        let numBase = Math.ceil(sqrtNames);
+        let seedInWrongBase = convert(seed, 36).toString(numBase);
+
+        N = possible_N[parseInt(seedInWrongBase[0], numBase)];
+        let firstDigitsBase = parseInt(seedInWrongBase[1], numBase);
+        let secondDigits = seedInWrongBase.slice(2, N + 2);
+        let firstDigitsAsCustomBase = seedInWrongBase.slice(N + 2);
+        let firstDigits = convert(firstDigitsAsCustomBase, numBase).toString(firstDigitsBase).padStart(N, '0').split('');
 
         assignments = [];
         chosenIndices = [];
         let acc = 0;
         for (let i = 0; i < N; i++) {
-            let gap = parseInt(`${firstDigits[i]}${secondDigits[i]}`, 36);
+            let gap = parseInt(`${firstDigits[i]}${secondDigits[i]}`, numBase);
             assignments.push(gap % 2 === 1);
             acc += gap >> 1;
             chosenIndices.push(acc);
         }
+        console.log(chosenIndices);
     }
 
     const encodeSeed = (gaps: numer[]) => {
+        let sqrtNames = Math.sqrt(options.length * 2);
+        let numBase = Math.ceil(sqrtNames);
+
         let firstDigits = '';
         let secondDigits = '';
         for (let i = 0; i < gaps.length; i++) {
@@ -41,17 +55,20 @@
             if (assignments[i]) {
                 gap += 1;
             }
-            let rawGap = gap.toString(36).padStart(2, '0').split('');
+            let rawGap = gap.toString(numBase).padStart(2, '0').split('');
             firstDigits += rawGap[0];
             secondDigits += rawGap[1];
         }
 
-        let firstDigitsArray = firstDigits.split('').map(d => parseInt(d, 36));
+        let firstDigitsArray = firstDigits.split('').map(d => parseInt(d, numBase));
         let firstDigitsMax = Math.max(...firstDigitsArray);
         let firstDigitsBase = Math.max(firstDigitsMax + 1, 2);
-        let firstDigitsAsNewBase = parseInt(firstDigits, firstDigitsBase).toString(36);
+        let firstDigitsNewBase = convert(firstDigits, firstDigitsBase).toString(numBase);
 
-        seed = (N/2).toString(36) + firstDigitsBase.toString(36) + secondDigits + firstDigitsAsNewBase;
+        let N_index = possible_N.indexOf(N);
+        let seedInWrongBase = N_index.toString(numBase) + firstDigitsBase.toString(numBase) + secondDigits + firstDigitsNewBase;
+        seed = convert(seedInWrongBase, numBase).toString(36);
+        console.log(chosenIndices);
     }
 
     function inputSeed() {
@@ -95,6 +112,7 @@
     }
 </script>
 
+{chosenIndices}
 {#if isStart}
     <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed}/>
 {/if}
