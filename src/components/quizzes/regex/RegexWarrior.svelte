@@ -112,7 +112,6 @@
     }
 </script>
 
-{chosenIndices}
 {#if isStart}
     <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed}/>
 {/if}
