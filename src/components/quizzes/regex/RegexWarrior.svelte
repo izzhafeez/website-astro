@@ -6,16 +6,15 @@
     export let title;
     export let instructions;
     let seed = '';
-    let uninputted = false;
-    let isStart;
+    let isStart: boolean = false;
     let options = names;
     let N = 8;
-    let chosenIndices = [];
-    let assignments = [];
-    let chosen = [];
+    let chosenIndices: number[] = [];
+    let assignments: boolean[] = [];
+    let chosen: number[] = [];
     let possible_N = [6, 8, 12, 16, 20, 24, 30, 40, 50];
 
-    function convert(value, radix) {
+    function convert(value: string, radix: number) {
         return [...value.toString()]
             .reduce((r, v) => r * BigInt(radix) + BigInt(parseInt(v, radix)), 0n);
     }
@@ -43,7 +42,7 @@
         console.log(chosenIndices);
     }
 
-    const encodeSeed = (gaps: numer[]) => {
+    const encodeSeed = (gaps: number[]) => {
         let sqrtNames = Math.sqrt(options.length * 2);
         let numBase = Math.ceil(sqrtNames);
 
@@ -76,7 +75,7 @@
     }
 
     function randomiseSeed() {
-        let chosen = [];
+        let chosen: number[] = [];
         while (chosen.length < N) {
             let index = Math.floor(Math.random() * options.length);
             if (!chosen.includes(index)) {
@@ -98,6 +97,7 @@
 
         // try to assign chosen names
         try {
+            parseSeed();
             chosen = chosenIndices.map(i => options[i]);
             isStart = true;
         } catch (e) {

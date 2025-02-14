@@ -24,6 +24,11 @@
         "instructions": "Unmix and unscramble the letters to form the names of AWS services.",
         "tags": ["AWS"]
     },
+    "elements": {
+        "title": "Periodic Table Elements",
+        "instructions": "Unmix and unscramble the letters to form the names of periodic table elements.",
+        "tags": ["Chemistry", "Periodic Table"]
+    },
     "spotify": {
         "title": "Top Spotify Artists",
         "instructions": "Unmix and unscramble the letters to form the names of top Spotify artists.",

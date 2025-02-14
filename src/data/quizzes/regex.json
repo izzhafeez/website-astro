@@ -14,6 +14,11 @@
         "instructions": "Find the shortest regex that matches the right fruits and vegetables!",
         "tags": ["Fruits", "Vegetables"]
     },
+    "elements": {
+        "title": "Periodic Table Elements",
+        "instructions": "Find the shortest regex that matches the right elements!",
+        "tags": ["Chemistry", "Periodic Table"]
+    },
     "aws": {
         "title": "AWS Services",
         "instructions": "Find the shortest regex that matches the right services!",
