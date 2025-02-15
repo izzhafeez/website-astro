@@ -7,6 +7,8 @@
     export let isStart;
     export let scrambleFactor;
     export let mixFactor;
+    export let randomiser;
+    export let changeSeed;
     let givenUp = false;
     // all the individual letters in the chosen words
     let letters = chosen
@@ -14,11 +16,11 @@
             .split('')
             .map(letter => [letter, i])
             .map((a: any, j: number) => [a, j])
-            .sort((a: any, b: any) => (scrambleFactor/5) - Math.pow(Math.random(), 2) > 0 ? Math.random() - 0.5 : 0)
+            .sort((a: any, b: any) => (scrambleFactor/5) - Math.pow(randomiser(), 2) > 0 ? randomiser() - 0.5 : 0)
             .map((a: any) => a[0])
         )
         .flat()
-        .sort((a: any, b: any) => a[1] == b[1] ? 0 : (mixFactor/5) - Math.pow(Math.random(), 2) > 0 ? Math.random() - 0.5 : 0)
+        .sort((a: any, b: any) => a[1] == b[1] ? 0 : (mixFactor/5) - Math.pow(randomiser(), 2) > 0 ? randomiser() - 0.5 : 0)
         .map((a: any) => a[0]);
     let badLetters: string[] = [];
     // same length as letters
@@ -78,6 +80,7 @@
                     responses[i] = chosen[i];
                 });
                 givenUp = true;
+                changeSeed();
             }
         });
     }
