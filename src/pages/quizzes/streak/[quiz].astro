@@ -118,7 +118,7 @@ const seoImg = await images[`/src/img/quizzes/streak/${Astro.params.quiz}.jpg`](
     <PageFind pageName={`${Astro.props.title} (Streak Quiz)`} heroText={Astro.props.instructions}/>
     <div class="max-w-6xl mx-auto">
       <div class="p-2">
-        <h1 transition:name={Astro.params.quiz} class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 text-transparent bg-clip-text my-6">{Astro.props.title}</h1>
+        <h1 transition:name={Astro.params.quiz} class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent my-6">{Astro.props.title.toUpperCase()}</h1>
         <p transition:name={Astro.props.instructions} class="">{Astro.props.instructions}</p>
       </div>
       <StreakQuiz client:load answerDict={answerDict} answerList={answerList} defaultRegex={Astro.props.defaultRegex ?? ''} key={Astro.params.quiz}/>

@@ -1,8 +1,12 @@
 <script lang="ts">
   import { fly } from 'svelte/transition';
   import Swal from 'sweetalert2';
+  import seededRandom from "../../common/seededRandom";
 
   export let isStart: boolean;
+  export let randomiserSeed: string;
+  export let decodeSeed: () => void;
+  export let randomiser: () => number;
   let roundNumber = 0;
   let MAX_ROUNDS = 5;
   let rgb = [0, 0, 0];
@@ -20,7 +24,7 @@
 
   let generateColor = () => {
     for (let i = 0; i < 3; i++) {
-      rgb[i] = Math.floor(Math.random() * 256);
+      rgb[i] = Math.floor(randomiser() * 256);
     }
   }
 
@@ -44,11 +48,10 @@
     isGuessing = false;
     let score = 0;
     for (let i = 0; i < 3; i++) {
-      let colorScore = Math.pow(guessedRgb[i] - rgb[i], 2);
+      let colorScore = Math.abs(guessedRgb[i] - rgb[i]) * 2;
       score += colorScore;
     }
-    score = Math.pow(score, 0.5);
-    score = 100 - (score / (256 * Math.pow(3, 0.5))) * 100;
+    score = 100 - (score / (256 * 3)) * 100;
     score = Math.round(score * 100) / 100;
     return score;
   }
@@ -66,20 +69,100 @@
   }
 
   let endGame = () => {
+    let imgSrc: string;
+    if (totalScore == 500) {
+      imgSrc = "perfect";
+    } else if (totalScore >= 490) {
+      // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
+      // audio.play();
+      imgSrc = "fuiyoh";
+    } else if (totalScore >= 480) {
+      imgSrc = "very-impressive";
+    } else if (totalScore >= 460) {
+      imgSrc = "pretty-impressive";
+    } else if (totalScore >= 440) {
+      imgSrc = "oh-wow";
+    } else if (totalScore >= 420) {
+      imgSrc = "practice";
+    } else if (totalScore >= 400) {
+      imgSrc = "you-fked-up";
+    } else if (totalScore >= 370) {
+      imgSrc = "where-my-slipper";
+    } else if (totalScore >= 340) {
+      // var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
+      // audio.play();
+      imgSrc = "oh-no";
+    } else if (totalScore >= 300) {
+      imgSrc = "are-you-serious";
+    } else if (totalScore >= 270) {
+      // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
+      // audio.play();
+      imgSrc = "haiya";
+    } else if (totalScore >= 240) {
+      imgSrc = "sacrilegious";
+    } else if (totalScore >= 200) {
+      // var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
+      // audio.play();
+      imgSrc = "so-weak";
+    } else if (totalScore >= 170) {
+      imgSrc = "lamentable";
+    } else if (totalScore >= 140) {
+      // var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
+      // audio.play();
+      imgSrc = "what-da-hail";
+    } else if (totalScore >= 100) {
+      // var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
+      // audio.play();
+      imgSrc = "emotional-damage";
+    } else if (totalScore >= 70) {
+      imgSrc = "terrible";
+    } else if (totalScore >= 50) {
+      // var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
+      // audio.play();
+      imgSrc = "send-u-to-jesus";
+    } else if (totalScore >= 30) {
+      imgSrc = "low-iq";
+    } else if (totalScore >= 10) {
+      imgSrc = "language-failure";
+    } else {
+      // var audio = new Audio(`/sound/quizzes/failure.mp3`);
+      // audio.play();
+      imgSrc = "failure";
+    }
     Swal.fire({
-      title: 'Game Over',
-      text: `You scored ${totalScore} points!`,
-      icon: 'success',
-      confirmButtonText: 'OK'
-    })
+      title: `Your Score: ${totalScore}`,
+      html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
+      color: "#FFF"
+    });
     isStart = false;
+    decodeSeed();
+  }
+
+  const toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      showConfirmButton: false,
+      timer: 1000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+          toast.onmouseenter = Swal.stopTimer;
+          toast.onmouseleave = Swal.resumeTimer;
+      }
+  });
+
+  const copySeed = () => {
+      navigator.clipboard.writeText(randomiserSeed);
+      toast.fire({
+          icon: 'success',
+          text: 'Copied Seed',
+      });
   }
 </script>
 
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: -200, duration: 500 }}>
   <div class="max-w-3xl mx-auto">
     <h2 class="text-ns-500 font-bold text-3xl mb-2">Round {roundNumber}/5</h2>
-    <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode.</p>
+    <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
     <!--  -->
     <div class="my-4 mx-auto">
       <div class="flex gap-2 my-4">

@@ -162,7 +162,7 @@ function handleSelect(option) {
 {#if !isStart}
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10">
   <div class="max-w-3xl mx-auto">
-    <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
     <p class=" mt-2">{instructions}</p>
     <label for="regex" class="">Your Name (Optional):</label>
     <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>

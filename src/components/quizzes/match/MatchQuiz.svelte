@@ -127,9 +127,9 @@
   }
 </script>
 
-<div class="max-w-3xl mx-auto p-2">
-  <h1 class="font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300 text-transparent bg-clip-text my-12 text-6xl">
-    {title}
+<div class="max-w-3xl mx-auto p-2 my-8 md:my-20">
+  <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">
+    {title.toUpperCase()}
   </h1>
   {#if !isStart}
   <p class=" my-4">{instructions}</p>
