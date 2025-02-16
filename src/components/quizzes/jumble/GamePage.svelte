@@ -9,6 +9,7 @@
     export let mixFactor;
     export let randomiser;
     export let changeSeed;
+    export let seed;
     let givenUp = false;
     // all the individual letters in the chosen words
     let letters = chosen
@@ -68,6 +69,26 @@
         }
     };
 
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+        }
+    });
+
+    const copySeed = () => {
+        navigator.clipboard.writeText(seed);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Seed',
+        });
+    }
+
     const giveUp = () => {
         // confirmation
         Swal.fire({
@@ -89,7 +110,7 @@
 <div class="top-0 h-screen w-screen grid content-center justify-center p-2 -z-10" transition:fly={{ y: -200, duration: 500 }}>
     <div class="max-w-4xl mx-auto">
         <h1 class="text-5xl font-extrabold animate-linear bg-[length:200%_auto] bg-gradient-to-r from-ns-500 to-ns-300  text-transparent bg-clip-text">{title}</h1>
-        <p class="my-4">{instructions}</p>
+        <p class="my-4">{instructions} <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
         <!-- letters as tiles in a grid -->
         <div class="flex flex-wrap gap-2">
             {#each letters as letter, i}

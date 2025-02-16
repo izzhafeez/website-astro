@@ -79,7 +79,7 @@
     }
 </script>
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed}/>
 {:else}
     <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {changeSeed} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {randomiseSeed}/>
 {/if}

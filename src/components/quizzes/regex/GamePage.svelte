@@ -48,7 +48,6 @@
 
     const copySeed = () => {
         navigator.clipboard.writeText(seed);
-        console.log('copied');
         toast.fire({
             icon: 'success',
             text: 'Copied Seed',

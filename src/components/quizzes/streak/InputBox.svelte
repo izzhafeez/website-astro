@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { fullSanitise } from "../../../utils/string";
+  import seededRandom from "../../common/seededRandom";
   import Leaderboard from "../Leaderboard.svelte";
   import axios from "axios";
   import party from "party-js";
@@ -24,6 +25,7 @@
   let isMcq = true;
   let isWacky = true;
   let name;
+
   $: difficulty = 'asian';
   const MINIMUM_ACTIVE_LENGTH = 5;
   const DIFFICULTY_MAPPING = {
@@ -64,7 +66,79 @@
     }
   }
 
+  // seed must be 6 digits long
+  let randomiserSeed = Math.floor(Math.random() * 899999 + 100000);
+  let randomiser = seededRandom(randomiserSeed);
+  let encodeSeed = () => {
+    const mcqEncoded = isMcq ? 2 : 1;
+    const wackyEncoded = isWacky ? 1 : 0;
+    const difficultyIndex = Object.keys(DIFFICULTY_MAPPING).indexOf(difficulty || 'asian');
+    const encodedNumberSeed = `${mcqEncoded}${wackyEncoded}${difficultyIndex}${randomiserSeed}`;
+    const encodedSeed = `${encodedNumberSeed}${regexInput}`;
+    return encodedSeed;
+  }
+  let decodeSeed = () => {
+    const encodedSeedString = seed.toString(10);
+    const mcqEncoded = parseInt(encodedSeedString[0]);
+    const wackyEncoded = parseInt(encodedSeedString[1]);
+    const difficultyIndex = parseInt(encodedSeedString[2]);
+    // decoded is 6 digits long
+    const decodedSeed = parseInt(encodedSeedString.slice(3, 9));
+    isMcq = mcqEncoded === 2;
+    isWacky = wackyEncoded === 1;
+    difficulty = Object.keys(DIFFICULTY_MAPPING)[difficultyIndex];
+    regexInput = encodedSeedString.slice(9);
+    handleRegex(null, true);
+    return decodedSeed;
+  }
+  let seed = encodeSeed();
+  let changeSeed = () => {
+    randomiserSeed = decodeSeed();
+    randomiser = seededRandom(randomiserSeed);
+  }
+  let randomiseSeed = () => {
+    randomiserSeed = Math.floor(Math.random() * 899999 + 100000);
+    randomiser = seededRandom(randomiserSeed);
+    seed = encodeSeed(randomiserSeed);
+  }
+
   function handleStart() {
+    // check if seed is valid
+    if (seed.toString().length < 9) {
+      Swal.fire({
+        title: "Invalid seed! Please try again!",
+        icon: 'error',
+        color: "#FFF",
+        timer: 2000
+      });
+      return;
+    }
+
+    // check if first 9 characters are digits using regex
+    // afterwards, no need
+    if (!/^\d{9}$/.test(seed.toString()) ) {
+      Swal.fire({
+        title: "Invalid seed! Please try again!",
+        icon: 'error',
+        color: "#FFF",
+        timer: 2000
+      });
+      return;
+    }
+
+    // check if first digit is 2 or 1
+    // check if second digit is 1 or 0
+    // check if third digit is 0, 1, 2, 3 or 4
+    if (!/^[1-2][0-1][0-4]/.test(seed.toString())) {
+      Swal.fire({
+        title: "Invalid seed! Please try again!",
+        icon: 'error',
+        color: "#FFF",
+        timer: 2000
+      });
+      return;
+    }
+
     if (activeAnswerList.length < MINIMUM_ACTIVE_LENGTH) {
       Swal.fire({
         title: "Not enough options! Please choose a different regex!",
@@ -75,7 +149,7 @@
       return;
     }
     if (DIFFICULTY_MAPPING[difficulty].toRandomise) {
-      activeAnswerList.sort((a,b) => Math.random() - 0.5);
+      activeAnswerList.sort((a,b) => randomiser() - 0.5);
     }
     toStop = false;
     windowSize = Math.min(DIFFICULTY_MAPPING[difficulty].windowSize, activeAnswerList.length);
@@ -84,6 +158,8 @@
   }
 
   function handleStop() {
+    // reset randomiser
+    randomiser = seededRandom(randomiserSeed);
     toStop = true;
   }
 
@@ -91,7 +167,7 @@
     let randomId;
     let prevAnswer = answer;
     while (true) {
-      randomId = Math.floor(Math.random() * windowSize);
+      randomId = Math.floor(randomiser() * windowSize);
       answer = activeAnswerList[randomId].answer;
       if (answer !== prevAnswer) break;
     }
@@ -102,7 +178,7 @@
     for (let i=0; i<optionSize; i++) {
       options.push(activeAnswerList[(randomId+i) % activeAnswerList.length]);
     }
-    options.sort((a,b) => Math.random() - 0.5);
+    options.sort((a,b) => randomiser() - 0.5);
     promptColorStyle = "bg-dt-500 text-white";
   }
 
@@ -170,24 +246,29 @@
   {#if toStop}
   <div class="grid gap-2">
     <div class="flex items-center gap-4 h-10">
+      <label for="seed" class="">Seed: </label>
+      <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+      <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
+    </div>
+    <div class="flex items-center gap-4 h-10">
       <label for="mcq" class=" font-bold">Enable MCQ:</label>
-      <input type="checkbox" name="mcq" bind:checked={isMcq} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500"/>
+      <input type="checkbox" name="mcq" bind:checked={isMcq} on:change={() => {seed = (isMcq ? '2' : '1') + seed.slice(1); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500"/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="wacky" class=" font-bold">Include prompt in regex:</label>
-      <input type="checkbox" name="wacky" bind:checked={isWacky} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500" on:change={handleWacky}/>
-    </div>
-    <div class="flex items-center gap-4 h-10">
-      <label for="regex" class=" font-bold">Regex:</label>
-      <input name="regex" on:input={handleRegex} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 transition duration-500 bg-white dark:bg-gray-700 '/>
+      <input type="checkbox" name="wacky" bind:checked={isWacky} on:change={() => {seed = seed[0] + (isWacky ? '1': '0') + seed.slice(2); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500" on:change={handleWacky}/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="regex" class=" font-bold">Difficulty:</label>
-      <select name="difficulty" bind:value={difficulty} class="transition duration-500 bg-white dark:bg-gray-700  rounded-md p-1">
+      <select name="difficulty" bind:value={difficulty} on:change={() => {seed = seed.slice(0, 2) + Object.keys(DIFFICULTY_MAPPING).indexOf(difficulty).toString() + seed.slice(3); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700  rounded-md p-1">
         {#each Object.keys(DIFFICULTY_MAPPING) as diff}
         <option value={diff}>{diff.toUpperCase()}</option>
         {/each}
       </select>
+    </div>
+    <div class="flex items-center gap-4 h-10">
+      <label for="regex" class=" font-bold">Regex:</label>
+      <input name="regex" on:input={handleRegex} on:keyup={(e) => {seed = seed.slice(0, 9) + e.target.value;}} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 transition duration-500 bg-white dark:bg-gray-700 '/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="regex" class=" font-bold">Your Name (Optional):</label>

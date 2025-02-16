@@ -6,6 +6,6 @@
   export let key;
 </script>
 
-<div class=''>
+<div class='my-4'>
   <InputBox defaultRegex={defaultRegex} answerDict={answerDict} answerList={answerList} key={key}/>
 </div>
