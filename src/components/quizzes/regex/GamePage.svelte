@@ -12,7 +12,7 @@
     let guess = '';
     let isValidRegex = true;
     let regex = new RegExp(guess);
-    let countCorrect = '?';
+    let countCorrect = -1;
     const handleGuess = () => {
         // check if guess is valid regex
         try {
@@ -71,7 +71,7 @@
         <!-- give one tile per chosen name -->
         <!-- color is based on assignments -->
         <div class="flex flex-wrap gap-2 mb-4">
-            {#each chosen as name, i (name)}
+            {#each chosen.sort() as name, i (name)}
                 <div class="flex gap-2">
                     <div class:border-ew-500="{assignments[i]}" class:border-ns-500="{!assignments[i]}" class:text-ew-500="{name.match(regex)}" class:text-ns-500="{!name.match(regex)}" class="border-2 rounded-lg py-2 px-4 font-bold">{name}</div>
                 </div>
@@ -86,7 +86,7 @@
             {:else if countCorrect === chosen.length}
                 <p class="text-ew-500 my-auto ms-2">Success! Score: {guess.length}</p>
             {:else}
-                <p class="text-cc-500 my-auto ms-2">{countCorrect}/{chosen.length} correct</p>
+                <p class="text-cc-500 my-auto ms-2">{countCorrect >= 0 ? countCorrect : '?'}/{chosen.length} correct</p>
             {/if}
         </div>
 

@@ -1,4 +1,9 @@
 {
+    "all": {
+        "title": "Everything",
+        "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of everything.",
+        "tags": ["Hell"]
+    },
     "mrt": {
         "title": "MRT Stations of Singapore",
         "instructions": "Find the shortest regex that matches the right stations.",
@@ -19,15 +24,45 @@
         "instructions": "Find the shortest regex that matches the right products!",
         "tags": ["IKEA"]
     },
+    "states": {
+        "title": "States of the USA",
+        "instructions": "Find the shortest regex that matches the right states!",
+        "tags": ["USA"]
+    },
     "mrt-chinese": {
         "title": "MRT Stations of Singapore (Chinese)",
         "instructions": "Find the shortest regex that matches the right stations.",
         "tags": ["MRT", "Singapore"]
     },
+    "pokemon": {
+        "title": "Pokémon",
+        "instructions": "Find the shortest regex that matches the right Pokémon!",
+        "tags": ["Pokémon"]
+    },
+    "openings": {
+        "title": "Chess Openings",
+        "instructions": "Find the shortest regex that matches the right openings!",
+        "tags": ["Chess"]
+    },
+    "dinosaurs": {
+        "title": "Dinosaurs",
+        "instructions": "Find the shortest regex that matches the right dinosaurs!",
+        "tags": ["Dinosaurs"]
+    },
     "elements": {
         "title": "Periodic Table Elements",
         "instructions": "Find the shortest regex that matches the right elements!",
         "tags": ["Chemistry", "Periodic Table"]
+    },
+    "chengyu": {
+        "title": "Chinese Chengyu",
+        "instructions": "Find the shortest regex that matches the right chengyu!",
+        "tags": ["Chinese"]
+    },
+    "deck-of-cards": {
+        "title": "Deck of Cards",
+        "instructions": "Find the shortest regex that matches the right cards!",
+        "tags": ["Cards"]
     },
     "aws": {
         "title": "AWS Services",
