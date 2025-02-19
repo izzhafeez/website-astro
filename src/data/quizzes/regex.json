@@ -19,6 +19,11 @@
         "instructions": "Find the shortest regex that matches the right products!",
         "tags": ["IKEA"]
     },
+    "mrt-chinese": {
+        "title": "MRT Stations of Singapore (Chinese)",
+        "instructions": "Find the shortest regex that matches the right stations.",
+        "tags": ["MRT", "Singapore"]
+    },
     "elements": {
         "title": "Periodic Table Elements",
         "instructions": "Find the shortest regex that matches the right elements!",

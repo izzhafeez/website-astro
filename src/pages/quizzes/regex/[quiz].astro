@@ -16,6 +16,7 @@ import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json"
 import awsData from "../../../data/quizzes/jumble/aws.json";
 import elementsData from "../../../data/quizzes/jumble/elements.json";
 import ikeaData from "../../../data/quizzes/jumble/ikea.json";
+import mrtChineseData from "../../../data/quizzes/jumble/mrt-chinese.json";
 
 export const getStaticPaths = (() => {
     const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
@@ -141,6 +142,16 @@ export const getStaticPaths = (() => {
                 title: 'IKEA Products',
                 instructions: instructions,
                 data: filterDuplicates(ikeaData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'mrt-chinese',
+            },
+            props: {
+                title: 'MRT Stations of Singapore (Chinese)',
+                instructions: instructions,
+                data: filterDuplicates(mrtChineseData.map(normaliseString))
             }
         }
     ]

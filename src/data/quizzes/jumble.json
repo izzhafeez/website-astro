@@ -14,6 +14,11 @@
         "instructions": "Unmix and unscramble the letters to form the names of LRT and future MRT stations.",
         "tags": ["MRT", "Singapore"]
     },
+    "mrt-chinese": {
+        "title": "MRT Stations of Singapore (Chinese)",
+        "instructions": "Unmix and unscramble the letters to form the names of MRT stations in Chinese.",
+        "tags": ["MRT", "Singapore"]
+    },
     "fruit-veg": {
         "title": "Fruits and Vegetables",
         "instructions": "Unmix and unscramble the letters to form the names of fruits and vegetables.",

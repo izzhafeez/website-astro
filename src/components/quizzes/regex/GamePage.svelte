@@ -57,6 +57,10 @@
     const end = () => {
         isStart = false;
     }
+
+    
+    // check assignments on mount
+    $: checkAssignmentsCorrect();
 </script>
 
 <div class="top-0 h-screen w-screen grid content-center justify-center p-2 -z-10" in:fly={{ y: 200 }} out:fade>

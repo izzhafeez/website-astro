@@ -15,6 +15,7 @@ import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json"
 import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
 import awsData from "../../../data/quizzes/jumble/aws.json";
 import elementsData from "../../../data/quizzes/jumble/elements.json";
+import mrtChineseData from "../../../data/quizzes/jumble/mrt-chinese.json";
 
 export const getStaticPaths = (() => {
     const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim().toUpperCase();
@@ -137,6 +138,16 @@ export const getStaticPaths = (() => {
                 title: 'Periodic Table Elements',
                 instructions: 'Some periodic table elements have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
                 data: elementsData.map(normaliseString)
+            }
+        },
+        {
+            params: {
+                quiz: 'mrt-chinese',
+            },
+            props: {
+                title: 'MRT Stations of Singapore (Chinese)',
+                instructions: 'Some MRT stations have their Chinese characters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
+                data: mrtChineseData.map(normaliseString)
             }
         }
     ]
