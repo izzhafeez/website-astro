@@ -24,6 +24,16 @@
         "instructions": "Find the shortest regex that matches the right products!",
         "tags": ["IKEA"]
     },
+    "anime": {
+        "title": "Anime",
+        "instructions": "Find the shortest regex that matches the right anime!",
+        "tags": ["Anime"]
+    },
+    "spells": {
+        "title": "Harry Potter Spells",
+        "instructions": "Find the shortest regex that matches the right spells!",
+        "tags": ["Harry Potter"]
+    },
     "states": {
         "title": "States of the USA",
         "instructions": "Find the shortest regex that matches the right states!",

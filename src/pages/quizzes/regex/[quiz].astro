@@ -23,6 +23,8 @@ import dinosaursData from "../../../data/quizzes/jumble/dinosaurs.json";
 import pokemonData from "../../../data/quizzes/jumble/pokemon.json";
 import chengyuData from "../../../data/quizzes/jumble/chengyu.json";
 import deckOfCardsData from "../../../data/quizzes/jumble/deck-of-cards.json";
+import spellsData from "../../../data/quizzes/jumble/spells.json";
+import animeData from "../../../data/quizzes/jumble/anime.json";
 
 export const getStaticPaths = (() => {
     const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
@@ -213,6 +215,36 @@ export const getStaticPaths = (() => {
         },
         {
             params: {
+                quiz: 'deck-of-cards',
+            },
+            props: {
+                title: 'Deck of Cards',
+                instructions: instructions,
+                data: filterDuplicates(deckOfCardsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'spells',
+            },
+            props: {
+                title: 'Harry Potter Spells',
+                instructions: instructions,
+                data: filterDuplicates(spellsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'anime',
+            },
+            props: {
+                title: 'Anime',
+                instructions: instructions,
+                data: filterDuplicates(animeData.map(normaliseString))
+            }
+        },
+        {
+            params: {
                 quiz: 'all',
             },
             props: {
@@ -222,14 +254,14 @@ export const getStaticPaths = (() => {
                     ...Object.keys(mrtData).map(normaliseString),
                     ...countriesData.map(normaliseString),
                     ...fruitVegData.map(normaliseString),
-                    ...spotifyData.map(normaliseString),
-                    ...billboard2010Data.map(normaliseString).slice(0, 50),
-                    ...billboard2011Data.map(normaliseString).slice(0, 50),
-                    ...billboard2012Data.map(normaliseString).slice(0, 50),
-                    ...billboard2013Data.map(normaliseString).slice(0, 50),
-                    ...billboard2014Data.map(normaliseString).slice(0, 50),
+                    ...spotifyData.map(normaliseString).slice(25),
+                    ...billboard2010Data.map(normaliseString).slice(0, 10),
+                    ...billboard2011Data.map(normaliseString).slice(0, 10),
+                    ...billboard2012Data.map(normaliseString).slice(0, 10),
+                    ...billboard2013Data.map(normaliseString).slice(0, 10),
+                    ...billboard2014Data.map(normaliseString).slice(0, 10),
                     ...awsData.map(normaliseString),
-                    ...elementsData.map(normaliseString),
+                    ...elementsData.map(normaliseString).slice(50),
                     ...ikeaData.map(normaliseString),
                     ...mrtChineseData.map(normaliseString),
                     ...openingsData.map(normaliseString),
@@ -237,7 +269,9 @@ export const getStaticPaths = (() => {
                     ...dinosaursData.map(capitaliseFirstLetter).map(normaliseString),
                     ...pokemonData.map(capitaliseFirstLetter).map(normaliseString),
                     ...chengyuData.map(normaliseString),
-                    ...deckOfCardsData.map(normaliseString)
+                    ...deckOfCardsData.map(normaliseString),
+                    ...spellsData.map(normaliseString),
+                    ...animeData.map(normaliseString)
                 ])
             }
         }
