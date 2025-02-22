@@ -2,6 +2,7 @@
   import { fly } from 'svelte/transition';
   import Swal from 'sweetalert2';
   import seededRandom from "../../common/seededRandom";
+  import party from 'party-js';
 
   export let isStart: boolean;
   export let randomiserSeed: string;
@@ -56,7 +57,7 @@
     return score;
   }
 
-  let nextRound = () => {
+  let nextRound = async () => {
     if (roundNumber >= MAX_ROUNDS) {
       endGame();
     } else {
@@ -65,6 +66,15 @@
       generateColor();
       roundScore = 0;
       guess = "";
+      // focus on the input box after waiting 0.1
+      while (true) {
+        try {
+          document.getElementById('input-box').focus();
+          break;
+        } catch (e) {
+          await new Promise(r => setTimeout(r, 100));
+        }
+      }
     }
   }
 
@@ -157,6 +167,38 @@
           text: 'Copied Seed',
       });
   }
+
+  const submitGuess = () => {
+    if (isValidHex(guess)) {
+      roundScore = evaluate();
+      totalScore += roundScore;
+      if (roundScore > 70) {
+        party.confetti(document.getElementById('action-button'), {
+          count: party.variation.range(25, 50),
+          size: party.variation.range(1, 2),
+          velocity: party.variation.range(2, 3),
+          angularVelocity: party.variation.range(0, 4),
+          colors: [`#${renderColorAsHex()}`, `#${guess}`]
+        });
+      }
+      totalScore = Math.round(totalScore * 100) / 100;
+    } else {
+      Swal.fire({
+        title: 'Invalid Hexcode',
+        text: 'Please enter a valid hexcode in the format #RRGGBB',
+        icon: 'error',
+        confirmButtonText: 'OK'
+      })
+    }
+  }
+
+  const handleType = (e) => {
+    if (e.key === "Enter" && guess.length > 0) {
+      submitGuess();
+      // focus on the button
+      document.getElementById('action-button').focus();
+    }
+  }
 </script>
 
 <div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: -200, duration: 500 }}>
@@ -187,26 +229,13 @@
       {#if isGuessing}
         <div class="gap-2">
           <label for="guess" class="my-auto">Your Guess: </label>
-          #<input type="text" name="guess" bind:value={guess} class="w-30 h-10 rounded-lg dark:bg-gray-700"/>
+          #<input type="text" id="input-box" name="guess" bind:value={guess} on:keyup={handleType} class="w-30 h-10 rounded-lg dark:bg-gray-700"/>
         </div>
-        <button class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50" on:click={() => {
-          if (isValidHex(guess)) {
-            roundScore = evaluate();
-            totalScore += roundScore;
-            totalScore = Math.round(totalScore * 100) / 100;
-          } else {
-            Swal.fire({
-              title: 'Invalid Hexcode',
-              text: 'Please enter a valid hexcode in the format #RRGGBB',
-              icon: 'error',
-              confirmButtonText: 'OK'
-            })
-          }
-        }}>Submit</button>
       {:else}
         <p class="">Round Score: {roundScore}</p>
-        <button class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 my-2" on:click={nextRound}>Next Round</button>
       {/if}
+
+      <button id="action-button" class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 my-2" on:click={isGuessing ? submitGuess : nextRound}>{isGuessing ? "Submit" : "Next Round"}</button>
     </div>
   </div>
 </div>

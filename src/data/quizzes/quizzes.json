@@ -3,6 +3,10 @@
     "title": "Binary Quest",
     "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
   },
+  "blurry": {
+    "title": "Blurry Vision",
+    "heroText": "Guess what the blurred text says. The more accurate your guess, the higher your score!"
+  },
   "color": {
     "title": "ColorGuessr",
     "heroText": "Guess the hexcode of the given color. Try to get an accurate guess!"

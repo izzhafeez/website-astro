@@ -1,0 +1,41 @@
+<script lang="ts">
+    import { fade, fly } from "svelte/transition";
+  
+    export let title;
+    export let instructions;
+    export let fontSize: number;
+    export let blurValue: number;
+    export let handleStart: () => void;
+    export let randomiseSeed: () => void;
+    export let seed: string;
+    export let decodeSeed: () => void;
+    let possible_fontSizes = [20, 30, 40, 60, 80, 120, 160];
+    let possible_blurValues = ["XS", "SM", "MD", "LG", "XL", "2XL", "3XL"];
+  </script>
+  
+  <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
+    <p class="my-4 max-w-3xl">{instructions}</p>
+    <label for="N" class="">Font Size: </label>
+    <div class="flex gap-2 my-2">
+      {#each possible_fontSizes as n (n)}
+      <button on:click={() => {fontSize = n; seed = (possible_fontSizes.indexOf(n)).toString() + seed.slice(1); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={fontSize == n} class:text-white={fontSize == n}>{n}</button>
+      {/each}
+    </div>
+    <label for="N" class="">Blur Value: </label>
+    <div class="flex gap-2 my-2">
+      {#each possible_blurValues as n (n)}
+      <button on:click={() => {blurValue = n; seed = seed[0] + possible_blurValues.indexOf(n).toString() + seed.slice(2); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
+        blurValue == n
+      } class:text-white={
+        blurValue == n
+      }>{n}</button>
+      {/each}
+    </div>
+    <label for="seed" class="">Seed: </label>
+    <div class="flex gap-2">
+      <input type="text" id="seed" bind:value={seed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+      <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
+    </div>
+    <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2 me-auto'>Start</button>
+  </div>
