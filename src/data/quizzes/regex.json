@@ -4,6 +4,31 @@
         "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of everything.",
         "tags": ["Hell"]
     },
+    "geography": {
+        "title": "Everything (Geography)",
+        "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of countries, states, and MRT.",
+        "tags": ["Geography"]
+    },
+    "chinese": {
+        "title": "Everything (Chinese)",
+        "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of chengyu and MRT names.",
+        "tags": ["Chinese"]
+    },
+    "fiction": {
+        "title": "Everything (Fiction)",
+        "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of Pokémon, Harry Potter, and anime.",
+        "tags": ["Fiction"]
+    },
+    "products": {
+        "title": "Everything (Products)",
+        "instructions": "Find the shortest regex that matches the right words! IKEA products, AWS services, drinks, and fruits/veggies.",
+        "tags": ["Products"]
+    },
+    "music": {
+        "title": "Everything (Music)",
+        "instructions": "Find the shortest regex that matches the right words! This quiz contains a mix of Spotify artists and Billboard songs.",
+        "tags": ["Music"]
+    },
     "mrt": {
         "title": "MRT Stations of Singapore",
         "instructions": "Find the shortest regex that matches the right stations.",
@@ -23,6 +48,11 @@
         "title": "IKEA Products",
         "instructions": "Find the shortest regex that matches the right products!",
         "tags": ["IKEA"]
+    },
+    "drinks": {
+        "title": "Drinks",
+        "instructions": "Find the shortest regex that matches the right drinks!",
+        "tags": ["Drinks"]
     },
     "anime": {
         "title": "Anime",
