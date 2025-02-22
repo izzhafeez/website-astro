@@ -3,33 +3,31 @@
   
     export let title;
     export let instructions;
-    export let fontSize: number;
-    export let blurValue: string;
+    export let N: number;
     export let handleStart: () => void;
     export let randomiseSeed: () => void;
     export let seed: string;
     export let decodeSeed: () => void;
-    let possible_fontSizes = [20, 30, 40, 60, 80, 120, 160];
-    let possible_blurValues = ["XS", "SM", "MD", "LG", "XL", "2XL", "3XL"];
+    let possible_N = [4, 5, 6, 8, 10, 12, 16];
+    export let possible_fields: string[];
+    export let field: string;
   </script>
   
   <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
     <p class="my-4 max-w-3xl">{instructions}</p>
-    <label for="N" class="">Font Size: </label>
+    <label for="N" class="">How many to Rank: </label>
     <div class="flex gap-2 my-2">
-      {#each possible_fontSizes as n (n)}
-      <button on:click={() => {fontSize = n; seed = (possible_fontSizes.indexOf(n)).toString() + seed.slice(1); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={fontSize == n} class:text-white={fontSize == n}>{n}</button>
+      {#each possible_N as n (n)}
+      <button on:click={() => {N = n; seed = (possible_N.indexOf(n)).toString() + seed.slice(1); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={N == n} class:text-white={N == n}>{n}</button>
       {/each}
     </div>
-    <label for="N" class="">Blur Value: </label>
+    <label for="field" class="">Basis of Comparison: </label>
     <div class="flex gap-2 my-2">
-      {#each possible_blurValues as n (n)}
-      <button on:click={() => {blurValue = n; seed = seed[0] + possible_blurValues.indexOf(n).toString() + seed.slice(2); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
-        blurValue == n
-      } class:text-white={
-        blurValue == n
-      }>{n}</button>
+      {#each possible_fields as f (f)}
+      <button on:click={() => {field = f; seed = seed[0] + (possible_fields.indexOf(f)).toString() + seed.slice(2); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
+        field == f
+      } class:text-white={field == f}>{f}</button>
       {/each}
     </div>
     <label for="seed" class="">Seed: </label>

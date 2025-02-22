@@ -8,7 +8,7 @@
     export let randomiserSeed: number;
     export let isStart: boolean;
     export let seed: string;
-    export let blurValue: number;
+    export let blurValue: string;
     export let fontSize: number;
     export let toGuess: string;
     export let encodeSeed: () => void;
@@ -98,7 +98,7 @@
             toGuess = names[Math.floor(randomiser() * names.length)];
             guess = "";
             const guessBox = document.getElementById('guess');
-            guessBox.focus();
+            guessBox?.focus();
         }
     }
 
@@ -120,7 +120,7 @@
 
         if (roundScore > 70) {
             const winSelectElement = document.getElementById('to-guess');
-            party.confetti(winSelectElement);
+            if (winSelectElement) party.confetti(winSelectElement);
         }
 
         score += overallSimilarity;
@@ -128,12 +128,12 @@
         isWaiting = true;
     }
 
-    function handleType() {
+    function handleType(event: any) {
         // check for enter key press
         if (event.key === "Enter" && guess.length > 0) {
             handleGuess();
             const nextRoundButton = document.getElementById('action-button');
-            nextRoundButton.focus();
+            if (nextRoundButton) nextRoundButton.focus();
         }
     }
 
