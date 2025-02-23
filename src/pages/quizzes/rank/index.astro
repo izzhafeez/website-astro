@@ -12,7 +12,7 @@ import { decks } from "../../games/common/decks";
 const quizzes = [
   ...decks.map(deck => ({
     key: deck.params.deck,
-    href: `/quizzes/compare/${deck.params.deck}`,
+    href: `/quizzes/rank/${deck.params.deck}`,
     title: deck.props.title,
     instructions: deck.props.instructions.replace("Fight using", "Compare"),
     imgPath: `/img/games/stat-attack/${deck.params.deck}.jpg`,
@@ -20,10 +20,10 @@ const quizzes = [
   })),
 ];
 
-const heroText = quizzesData["compare"].heroText;
-const title = quizzesData["compare"].title;
+const heroText = quizzesData["rank"].heroText;
+const title = quizzesData["rank"].title;
 ---
-<Seo {heroText} {seoImg} pageName={"Compare Quizzes"} path={`quizzes/compare`}/>
+<Seo {heroText} {seoImg} pageName={"Rank Master"} path={`quizzes/rank`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

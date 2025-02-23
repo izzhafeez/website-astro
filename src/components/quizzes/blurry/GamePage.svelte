@@ -2,6 +2,7 @@
     import { fade, fly } from "svelte/transition";
     import Swal from "sweetalert2";
     import seededRandom from "../../common/seededRandom";
+    import levenshtein from "fast-levenshtein";
     import party from "party-js";
 
     export let randomiser: () => number;
@@ -104,17 +105,8 @@
 
     function handleGuess() {
         // use Jaccard similarity to compare guess and toGuess
-        const guessSet = new Set(guess);
-        const toGuessSet = new Set(toGuess);
-        const intersection = new Set([...guessSet].filter(x => toGuessSet.has(x)));
-        const union = new Set([...guessSet, ...toGuessSet]);
-        const similarity = intersection.size / union.size;
-
-        const lengthSimilarity = Math.min(guess.length, toGuess.length) / Math.max(guess.length, toGuess.length);
-        let overallSimilarity = Math.round(Math.pow(similarity * lengthSimilarity, 0.5) * 100);
-        if (overallSimilarity == 100 && guess != toGuess) {
-            overallSimilarity = 95;
-        }
+        const levenshteinDistance = levenshtein.get(guess, toGuess);
+        const overallSimilarity = 100 - (levenshteinDistance / toGuess.length) * 100;
 
         roundScore = overallSimilarity;
 

@@ -4,16 +4,113 @@
     import seededRandom from "../../common/seededRandom";
     import party from "party-js";
 
+    export const title: string = "";
+    export const instructions: string = "";
     export let randomiser: () => number;
     export let randomiserSeed: number;
     export let isStart: boolean;
     export let seed: string;
     export let N: number;
     export let field: string;
-    export let toGuess: string;
     export let encodeSeed: () => void;
     export let options: string[];
     export let data: {[field: string]: number};
+
+    let currentOptionId = 0;
+    let guesses: string[] = []
+    let score: number = 0;
+    let isPlaying: boolean = true;
+
+    const handlePlace = (i: number) => {
+        guesses[i] = {
+            name: options[currentOptionId],
+            value: data[options[currentOptionId]][field],
+        };
+        currentOptionId++;
+
+        if (currentOptionId === N) {
+            isPlaying = false;
+            evaluate();
+        }
+    }
+
+    const endGame = () => {
+        randomiser = seededRandom(randomiserSeed);
+        encodeSeed();
+        isStart = false;
+        isPlaying = true;
+        currentOptionId = 0;
+    }
+
+    const evaluate = () => {
+        // count inversions in guesses
+        let inversions = 0;
+        for (let i = 0; i < N; i++) {
+            for (let j = i+1; j < N; j++) {
+                if (guesses[i].value < guesses[j].value) {
+                    inversions++;
+                }
+            }
+        }
+
+        const totalPossibleInversions = N * (N - 1) / 2;
+        score = (1 - (inversions / totalPossibleInversions)) * 100;
+
+        // party
+        if (score >= 80) {
+            party.confetti(document.getElementById("rankings"));
+        }
+
+        let imgSrc = "";
+            if ((score * 5) == 500) {
+                imgSrc = "perfect";
+            } else if ((score * 5) >= 490) {
+                imgSrc = "fuiyoh";
+            } else if ((score * 5) >= 480) {
+                imgSrc = "very-impressive";
+            } else if ((score * 5) >= 460) {
+                imgSrc = "pretty-impressive";
+            } else if ((score * 5) >= 440) {
+                imgSrc = "oh-wow";
+            } else if ((score * 5) >= 420) {
+                imgSrc = "practice";
+            } else if ((score * 5) >= 400) {
+                imgSrc = "you-fked-up";
+            } else if ((score * 5) >= 370) {
+                imgSrc = "where-my-slipper";
+            } else if ((score * 5) >= 340) {
+                imgSrc = "oh-no";
+            } else if ((score * 5) >= 300) {
+                imgSrc = "are-you-serious";
+            } else if ((score * 5) >= 270) {
+                imgSrc = "haiya";
+            } else if ((score * 5) >= 240) {
+                imgSrc = "sacrilegious";
+            } else if ((score * 5) >= 200) {
+                imgSrc = "so-weak";
+            } else if ((score * 5) >= 170) {
+                imgSrc = "lamentable";
+            } else if ((score * 5) >= 140) {
+                imgSrc = "what-da-hail";
+            } else if ((score * 5) >= 100) {
+                imgSrc = "emotional-damage";
+            } else if ((score * 5) >= 70) {
+                imgSrc = "terrible";
+            } else if ((score * 5) >= 50) {
+                imgSrc = "send-u-to-jesus";
+            } else if ((score * 5) >= 30) {
+                imgSrc = "low-iq";
+            } else if ((score * 5) >= 10) {
+                imgSrc = "language-failure";
+            } else {
+                imgSrc = "failure";
+            }
+            Swal.fire({
+                title: `Your Score: ${Math.round(score)}/100`,
+                html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
+                color: "#FFF"
+            })
+    }
 
     const toast = Swal.mixin({
         toast: true,
@@ -36,8 +133,41 @@
     }
 </script>
 
-<div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
-    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">Round {round}/{maxRounds}</h1>
+<div class="top-0 grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
+    <div class="max-w-4xl mx-auto my-20">
+        <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{field.toUpperCase()}</h1>
+        <p class="my-4">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
 
-    <p class="my-4 max-w-3xl">You will be given 10 blurred texts. Try your best to figure out what they say and type your guess below. After submitting, you will be scored based on your accuracy. <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends! Good luck!</p>
+        Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀 <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
+
+        <!-- current one to rank -->
+        {#if isPlaying}
+            <div class="my-6">
+                <h2 class="text-center font-bold">Next: {options[currentOptionId]}</h2>
+            </div>
+        {:else}
+            <div class="my-6 grid">
+                <h2 class="text-center font-bold">Score: {Math.round(score)}%</h2>
+                <!-- button -->
+                <button on:click={endGame} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 mt-4 mx-auto'>Play Again</button>
+            </div>
+        {/if}
+
+        <!-- there are N empty places to click -->
+        <div class="grid max-w-xl gap-4 mx-auto text-center" id="rankings">
+            Highest
+            {#each Array(N) as _, i}
+                <button
+                    class:bg-black={!!guesses[i]} class:dark:bg-white={!!guesses[i]}
+                    class:text-white={!!guesses[i]} class:dark:text-black={!!guesses[i]}
+                    class:border-black={!!guesses[i]} class:dark:border-white={!!guesses[i]}
+                    class:hover:bg-gray-500={!guesses[i]}
+                    class="rounded-lg py-2 px-4 text-center border-2"
+                    on:click={() => handlePlace(i)}
+                    disabled={!!guesses[i]}
+                >{!!guesses[i] ? `${guesses[i].name} (${guesses[i].value})` : `Rank ${i+1}`}</button>
+            {/each}
+            Lowest
+        </div>
+    </div>
 </div>

@@ -4,7 +4,7 @@
     import seededRandom from "../../common/seededRandom";
 
     export let title: string;
-    export let key: string;
+    export const key: string = "0";
     export let instructions: string;
     export let data: {[field: string]: number};
 
@@ -19,12 +19,12 @@
 
     let randomiserSeed = Math.round(Math.random() * 1000000);
     let randomiser = seededRandom(randomiserSeed);
-    let seed = `${possible_N.indexOf(N)}${randomiserSeed}`;
+    let seed = `${possible_N.indexOf(N)}${possible_fields.indexOf(field)}${randomiserSeed}`;
 
     function decodeSeed() {
         const N_index = parseInt(seed[0]);
         N = possible_N[N_index];
-        const field_id = parseInt(seed.slice(1));
+        const field_id = parseInt(seed[1]);
         field = possible_fields[field_id];
         randomiserSeed = parseInt(seed.slice(2));
         randomiser = seededRandom(randomiserSeed);
@@ -50,7 +50,7 @@
 </script>
 
 {#if isStart}
-    <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {N} {encodeSeed} {field} {options}/>
+    <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {N} {encodeSeed} {field} {options} {title} {instructions} {data}/>
 {:else}
     <StartPage bind:N={N} {handleStart} {title} {instructions} bind:seed={seed} {randomiseSeed} {decodeSeed} bind:field={field} {possible_fields}/>
 {/if}

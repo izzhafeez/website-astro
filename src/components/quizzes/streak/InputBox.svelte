@@ -5,6 +5,7 @@
   import Leaderboard from "../Leaderboard.svelte";
   import axios from "axios";
   import party from "party-js";
+  import levenshtein from "fast-levenshtein";
 
   export let answerDict;
   export let answerList;
@@ -116,7 +117,7 @@
 
     // check if first 9 characters are digits using regex
     // afterwards, no need
-    if (!/^\d{9}$/.test(seed.toString()) ) {
+    if (!/^\d{9}/.test(seed.toString()) ) {
       Swal.fire({
         title: "Invalid seed! Please try again!",
         icon: 'error',
@@ -154,6 +155,7 @@
     toStop = false;
     windowSize = Math.min(DIFFICULTY_MAPPING[difficulty].windowSize, activeAnswerList.length);
     optionSize = Math.min(DIFFICULTY_MAPPING[difficulty].optionSize, activeAnswerList.length);
+    randomiser = seededRandom(randomiserSeed);
     handleGenerate();
   }
 
@@ -218,7 +220,8 @@
     if (!e.target.value) return;
     userInput = e.target.value;
     const guess = fullSanitise(userInput).key;
-    if (guess === sanitisedAnswer) return handleCorrect(e);
+    const levenshteinDistance = levenshtein.get(guess, sanitisedAnswer);
+    if (levenshteinDistance < sanitisedAnswer.length / 5 || (sanitisedAnswer.length > 10 && guess.length > 3 && sanitisedAnswer.includes(guess))) return handleCorrect(e);
     if (!(guess in answerDict)) return handleWrong(e);
     for (const possibleAnswer of answerDict[guess]) {
       if (possibleAnswer.prompt === prompt) return handleCorrect(e);
@@ -246,17 +249,17 @@
   {#if toStop}
   <div class="grid gap-2">
     <div class="flex items-center gap-4 h-10">
-      <label for="seed" class="">Seed: </label>
+      <label for="regex" class=" font-bold">Your Name (Optional):</label>
+      <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+    </div>
+    <div class="flex items-center gap-4 h-10">
+      <label for="seed" class="font-bold">Seed: </label>
       <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
       <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="mcq" class=" font-bold">Enable MCQ:</label>
       <input type="checkbox" name="mcq" bind:checked={isMcq} on:change={() => {seed = (isMcq ? '2' : '1') + seed.slice(1); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500"/>
-    </div>
-    <div class="flex items-center gap-4 h-10">
-      <label for="wacky" class=" font-bold">Include prompt in regex:</label>
-      <input type="checkbox" name="wacky" bind:checked={isWacky} on:change={() => {seed = seed[0] + (isWacky ? '1': '0') + seed.slice(2); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500" on:change={handleWacky}/>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="regex" class=" font-bold">Difficulty:</label>
@@ -271,8 +274,8 @@
       <input name="regex" on:input={handleRegex} on:keyup={(e) => {seed = seed.slice(0, 9) + e.target.value;}} placeholder="" value={regexInput} class='border-gray-500/50 border-[1px] rounded-md p-1 transition duration-500 bg-white dark:bg-gray-700 '/>
     </div>
     <div class="flex items-center gap-4 h-10">
-      <label for="regex" class=" font-bold">Your Name (Optional):</label>
-      <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+      <label for="wacky" class=" font-bold">Regex will match both the answer and its description:</label>
+      <input type="checkbox" name="wacky" bind:checked={isWacky} on:change={() => {seed = seed[0] + (isWacky ? '1': '0') + seed.slice(2); changeSeed();}} class="transition duration-500 bg-white dark:bg-gray-700 text-dt-500" on:change={handleWacky}/>
     </div>
   </div>
 
@@ -291,7 +294,7 @@
   <div class="grid gap-8">
     <div class={`${promptColorStyle} h-60 w-full mx-auto rounded-3xl grid items-center text-center p-4`}>
       <div>
-        <p><span class='font-bold'>Prompt: </span>{prompt}</p>
+        <p class={`${prompt.length < 20 && 'text-3xl'}`}><span class={`font-bold`}>Prompt: </span>{prompt}</p>
         {#if !isActive && streak === 0}
         <p><span class='font-bold'>Wrong! The answer was: </span>{answer}</p>
         <p><span class='font-bold'>You answered: </span>{userInput}</p>

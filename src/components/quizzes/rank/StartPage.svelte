@@ -2,7 +2,7 @@
     import { fade, fly } from "svelte/transition";
   
     export let title;
-    export let instructions;
+    export const instructions = "";
     export let N: number;
     export let handleStart: () => void;
     export let randomiseSeed: () => void;
@@ -15,7 +15,9 @@
   
   <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-    <p class="my-4 max-w-3xl">{instructions}</p>
+    <p class="my-4 max-w-3xl">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
+
+      Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀</p>
     <label for="N" class="">How many to Rank: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}
