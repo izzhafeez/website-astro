@@ -50,6 +50,7 @@ const { withDarkMode=true } = Astro.props;
 
 <nav class={`lg:flex p-5 gap-5 mx-auto container z-30 w-full ${!withDarkMode && 'text-white'}`}>
   <Astronav closeOnClick>
+    <div id="astronav-menu"/>
     <div class="w-full flex gap-4" data-pagefind-ignore="all">
       <div class="flex w-auto items-center">
         <a href="/"><Image src={logo} alt="logo" width="20" height="20" class={`${withDarkMode ? 'dark:invert' : 'invert'} w-6 h-6`}/></a>
