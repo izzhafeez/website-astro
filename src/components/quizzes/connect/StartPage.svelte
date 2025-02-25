@@ -50,7 +50,7 @@
 <div transition:fade={{ duration: 200 }}>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
-    <input type="text" id="seed" bind:value={seed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+    <input type="text" id="seed" bind:value={seed} on:change={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
     <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
   </div>
   <label for="N" class="">Number of Groups: </label>

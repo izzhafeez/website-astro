@@ -4,6 +4,7 @@
     import seededRandom from "../../common/seededRandom";
     import levenshtein from "fast-levenshtein";
     import party from "party-js";
+    import axios from "axios";
 
     export let randomiser: () => number;
     export let randomiserSeed: number;
@@ -14,6 +15,8 @@
     export let toGuess: string;
     export let encodeSeed: () => void;
     export let names: string[];
+    export let name: string;
+    export let key: string;
     
     let score = 0;
     let roundScore = 0;
@@ -28,72 +31,74 @@
         if (round > maxRounds) {
             let imgSrc = "";
             if ((score / 2) == 500) {
-                imgSrc = "perfect";
+                    imgSrc = "perfect";
                 } else if ((score / 2) >= 490) {
                 // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
                 // audio.play();
-                imgSrc = "fuiyoh";
+                    imgSrc = "fuiyoh";
                 } else if ((score / 2) >= 480) {
-                imgSrc = "very-impressive";
+                    imgSrc = "very-impressive";
                 } else if ((score / 2) >= 460) {
-                imgSrc = "pretty-impressive";
+                    imgSrc = "pretty-impressive";
                 } else if ((score / 2) >= 440) {
-                imgSrc = "oh-wow";
+                    imgSrc = "oh-wow";
                 } else if ((score / 2) >= 420) {
-                imgSrc = "practice";
+                    imgSrc = "practice";
                 } else if ((score / 2) >= 400) {
-                imgSrc = "you-fked-up";
+                    imgSrc = "you-fked-up";
                 } else if ((score / 2) >= 370) {
-                imgSrc = "where-my-slipper";
+                    imgSrc = "where-my-slipper";
                 } else if ((score / 2) >= 340) {
                 // var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
                 // audio.play();
-                imgSrc = "oh-no";
+                    imgSrc = "oh-no";
                 } else if ((score / 2) >= 300) {
-                imgSrc = "are-you-serious";
+                    imgSrc = "are-you-serious";
                 } else if ((score / 2) >= 270) {
                 // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
                 // audio.play();
-                imgSrc = "haiya";
+                    imgSrc = "haiya";
                 } else if ((score / 2) >= 240) {
-                imgSrc = "sacrilegious";
+                    imgSrc = "sacrilegious";
                 } else if ((score / 2) >= 200) {
                 // var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
                 // audio.play();
-                imgSrc = "so-weak";
+                    imgSrc = "so-weak";
                 } else if ((score / 2) >= 170) {
-                imgSrc = "lamentable";
+                    imgSrc = "lamentable";
                 } else if ((score / 2) >= 140) {
                 // var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
                 // audio.play();
-                imgSrc = "what-da-hail";
+                    imgSrc = "what-da-hail";
                 } else if ((score / 2) >= 100) {
                 // var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
                 // audio.play();
-                imgSrc = "emotional-damage";
+                    imgSrc = "emotional-damage";
                 } else if ((score / 2) >= 70) {
-                imgSrc = "terrible";
+                    imgSrc = "terrible";
                 } else if ((score / 2) >= 50) {
                 // var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
                 // audio.play();
-                imgSrc = "send-u-to-jesus";
+                    imgSrc = "send-u-to-jesus";
                 } else if ((score / 2) >= 30) {
-                imgSrc = "low-iq";
+                    imgSrc = "low-iq";
                 } else if ((score / 2) >= 10) {
-                imgSrc = "language-failure";
+                    imgSrc = "language-failure";
                 } else {
                 // var audio = new Audio(`/sound/quizzes/failure.mp3`);
                 // audio.play();
-                imgSrc = "failure";
+                    imgSrc = "failure";
                 }
                 Swal.fire({
                     title: `Your Score: ${score}/1000`,
                     html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
                     color: "#FFF"
-                }).then(() => {
+                }).then(async () => {
                     isStart = false;
                     encodeSeed();
                     randomiser = seededRandom(randomiserSeed);
+                    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec?siteUrl=__quizzes__blurry__${key}&params=${seed}&name=${name}&score=${score}`;
+                    await axios.get(url);
                 })
         } else {
             toGuess = names[Math.floor(randomiser() * names.length)];

@@ -6,6 +6,8 @@
     export let names: string[];
     export let title;
     export let instructions;
+    export let key: string;
+    let name: string;
     let isStart: boolean = false;
     let N = 8;
     let assignments: boolean[] = [];
@@ -53,8 +55,8 @@
 </script>
 
 {#if isStart}
-    <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed}/>
+    <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed} {name} {key}/>
 {/if}
 {#if !isStart}
-    <StartPage bind:N={N} {handleStart} {title} {instructions} {randomiseSeed} bind:seed={seed} {decodeSeed}/>
+    <StartPage bind:N={N} {handleStart} {title} {instructions} {randomiseSeed} bind:seed={seed} {decodeSeed} {key} bind:name={name}/>
 {/if}

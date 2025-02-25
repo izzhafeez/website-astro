@@ -45,10 +45,8 @@
     }
 
     const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-    axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/map/${key}`, {
-      name: truncatedName,
-      score: score
-    });
+    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+    await fetch(`${url}?siteUrl=__quizzes__map__${key}&name=${truncatedName}&score=${score}&params=${regexInput}`);
 
     var imgSrc;
     const scorePercentage = score / totalScore;
@@ -235,7 +233,7 @@
       <button on:click={() => {addRemoveTag(tag)}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={currentActiveTags.includes(tag)} class:text-white={currentActiveTags.includes(tag)}>{tag}</button>
       {/each}
     </div>
-    <Leaderboard type="map" key={key}/>
+    <Leaderboard type="map" key={key} params={regexInput}/>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   </div>
   {:else}

@@ -79,7 +79,7 @@
   </div>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
-    <input type="text" id="seed" bind:value={seed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+    <input type="text" id="seed" bind:value={seed} on:change={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
     <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
   </div>
   <div class="flex content-center gap-2">
@@ -87,7 +87,7 @@
     <input type="text" id="name" bind:value={name} class="transition duration-500 bg-white dark:bg-gray-700 p-2 rounded-md"/>
   </div>
   <div class="flex gap-2 py-2">
-    <Leaderboard type="compare" key={key}/>
+    <Leaderboard type="compare" key={key} params={seed} settingsLabel="Seed"/>
     <button on:click={handleStart} class='me-auto bg-ew-300/20 py-2 px-4 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start</button>
   </div>
 </div>

@@ -8,6 +8,8 @@
     export let seed;
     export let isStart;
     export let assignments;
+    export let name: string;
+    export let key: string;
 
     let guess = '';
     let isValidRegex = true;
@@ -31,6 +33,10 @@
             if ((chosen[i].match(regex) && assignments[i]) || (!chosen[i].match(regex) && !assignments[i])) {
                 countCorrect++;   
             }
+        }
+        if (countCorrect === chosen.length) {
+            const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+            fetch(`${url}?siteUrl=__quizzes__regex__${key}&name=${name}&score=${-guess.length}&params=${seed}`);
         }
     }
 

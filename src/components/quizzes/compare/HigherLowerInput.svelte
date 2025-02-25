@@ -15,6 +15,7 @@
   export let decimalPlaces: number;
   export let key: string;
   export let name: string;
+  export let seed: string;
 
   function handleAnswer(isHigher: boolean) {
     const winSelectElement = document.getElementById('hl-label');
@@ -64,6 +65,8 @@
       name: truncatedName,
       score: bestStreak
     });
+    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+    await fetch(`${url}?siteUrl=__quizzes__compare__${key}&name=${truncatedName}&score=${bestStreak}&params=${seed}`);
   
     if (streak >= 200) {
       imgSrc = "perfect";

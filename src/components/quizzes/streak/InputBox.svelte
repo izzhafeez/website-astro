@@ -205,10 +205,8 @@
     promptColorStyle = "bg-ns-500 text-white";
 
     const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-    axios.post(`${import.meta.env.PUBLIC_MM}/api/quizzes/streak/${key}`, {
-      name: truncatedName,
-      score: prevStreak
-    });
+    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+    await fetch(`${url}?siteUrl=__quizzes__streak__${key}&name=${truncatedName}&score=${prevStreak}&params=${seed}`);
   }
 
   function onKeyDown(e) {
@@ -255,7 +253,7 @@
     <div class="flex items-center gap-4 h-10">
       <label for="seed" class="font-bold">Seed: </label>
       <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
-      <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
+      <button on:click={randomiseSeed} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 my-auto'>Randomise</button>
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="mcq" class=" font-bold">Enable MCQ:</label>
@@ -288,7 +286,7 @@
     </div>
     {/each}
   </div>
-  <Leaderboard type="streak" key={key}/>
+  <Leaderboard type="streak" key={key} params={seed}/>
   <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   {:else}
   <div class="grid gap-8">

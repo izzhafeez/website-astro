@@ -14,7 +14,7 @@
   let answer = data[Math.floor(Math.random() * data.length)];
   let streak = 0;
   let bestStreak = 0;
-  let name: string;
+  export let name: string;
 
   onMount(() => {
     bestStreak = parseInt(localStorage.getItem(`binary-${title}`) || '0');
@@ -40,10 +40,8 @@
       streak = 0;
       localStorage.setItem(`binary-${title}`, bestStreak.toString());
       const truncatedName = !!name ? name.length > 20 ? name.slice(0, 20) : name : '';
-      axios.post(`${(import.meta as any).env.PUBLIC_MM}/api/quizzes/binary/${key}`, {
-        name: truncatedName,
-        score: bestStreak
-      });
+      const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec?siteUrl=__quizzes__binary__${key}&params=`
+      await fetch(`${url}&name=${truncatedName}&score=${bestStreak}`);
     }
   }
 

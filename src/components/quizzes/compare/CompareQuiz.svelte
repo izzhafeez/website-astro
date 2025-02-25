@@ -46,6 +46,6 @@ let decodeSeed = () => {
 {#if !isPlaying}
 <StartPage {title} {instructions} {key} bind:name={name} bind:isPlaying={isPlaying} bind:difficulty={difficulty} bind:field={field} {fields} bind:seed={seed} {randomiseSeed} {decodeSeed}/>
 {:else}
-<GamePage {key} {data} {name} count={difficultyMappings[difficulty]} {field} {seed} {randomiser}/>
+<GamePage {key} {data} {name} count={difficultyMappings[difficulty]} {field} {seed} {randomiser} {difficulty}/>
 {/if}
 </div>

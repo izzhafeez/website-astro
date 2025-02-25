@@ -23,13 +23,13 @@
     <p class="my-2">{instructions}</p>
     <label for="seed" class="">Seed: </label>
     <div class="flex gap-2">
-      <input type="text" id="seed" bind:value={randomiserSeed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+      <input type="text" id="seed" bind:value={randomiserSeed} on:change={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
       <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
     </div>
     <label for="regex" class="">Your Name (Optional):</label>
     <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
     <div class="flex py-2 gap-2">
-      <Leaderboard type="color" key={key}/>
+      <Leaderboard type="color" key="" params={randomiserSeed}/>
       <button
         class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
         on:click={handleStart}

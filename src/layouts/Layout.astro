@@ -17,9 +17,20 @@
           }
         }
       }
-    
+
       // Runs on initial navigation
       setDarkMode()
+
+      const fetchData = async () => {
+        const api = (siteUrl, month) => `https://script.google.com/macros/s/AKfycbz7Kt4QU2ZdK2Hl3CJG3AmiyMA5YNF0aP2vLKIMagKpqXMmmGJ5SlbPVsK9nw8ZUG04/exec?siteUrl=${siteUrl}&month=M${month}`;
+        // site Url is the suburl
+        const siteUrl = document.location.pathname.replaceAll('/', '__');
+        const month = new Date().toLocaleDateString('en-US', { month: '2-digit', year: 'numeric' }).replace('/', '');
+        try {
+          await fetch(api(siteUrl, month));
+        } catch (e) {}
+      };
+      fetchData();
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

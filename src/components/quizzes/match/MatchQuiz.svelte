@@ -1,7 +1,10 @@
 <script>
+  import Swal from 'sweetalert2';
+  import Leaderboard from "../Leaderboard.svelte";
   export let title;
   export let data;
   export let instructions;
+  export let key;
 
   let answers = {};
   let groups = {};
@@ -17,6 +20,7 @@
   let N = 6;
   let possible_option_counts = Array.from(Array(Object.keys(data).length).keys()).slice(2);
   let wrongCount = 0;
+  let name = "";
 
   const difficultyMappings = {
     1: 5,
@@ -95,7 +99,7 @@
     }
   }
 
-  function handleGuess(selected, tile) {
+  async function handleGuess(selected, tile) {
     if (answers[selected] === answers[tile]) {
       answered[selected] = true;
       answered[tile] = true;
@@ -113,6 +117,9 @@
       }).then(_ => {
         handleNext();
       });
+
+      const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+      await fetch(`${url}?siteUrl=__quizzes__match__${key}&name=${name}&score=${-time.toFixed(2)}&params=${difficulty}, ${N}`);
     }
   }
 
@@ -145,7 +152,17 @@
     <button on:click={() => {N = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={N == n} class:text-white={N == n}>{n}</button>
     {/each}
   </div>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
+  <label for="regex" class="">Your Name (Optional):</label>
+  <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+  <div class="flex py-2 gap-2">
+    <Leaderboard type="match" key={key} params={`${difficulty}, ${N}`}/>
+    <button
+      class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
+      on:click={handleStart}
+    >
+      Start Quiz
+    </button>
+  </div>
   {:else}
   <div class="grid grid-cols-2">
     <p class='text-3xl text-center my-2 dark:text-white px-4 py-2 rounded-md'>{time.toFixed(2)}s</p>

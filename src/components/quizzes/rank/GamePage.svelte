@@ -15,9 +15,11 @@
     export let encodeSeed: () => void;
     export let options: string[];
     export let data: {[field: string]: number};
+    export let key: string;
+    export let name: string;
 
     let currentOptionId = 0;
-    let guesses: string[] = []
+    let guesses: any[] = []
     let score: number = 0;
     let isPlaying: boolean = true;
 
@@ -42,7 +44,7 @@
         currentOptionId = 0;
     }
 
-    const evaluate = () => {
+    const evaluate = async () => {
         // count inversions in guesses
         let inversions = 0;
         for (let i = 0; i < N; i++) {
@@ -58,7 +60,8 @@
 
         // party
         if (score >= 80) {
-            party.confetti(document.getElementById("rankings"));
+            const rankings = document.getElementById("rankings");
+            if (rankings) party.confetti(rankings);
         }
 
         let imgSrc = "";
@@ -110,6 +113,8 @@
                 html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
                 color: "#FFF"
             })
+            const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+            await fetch(`${url}?siteUrl=__quizzes__rank__${key}&name=${name}&score=${score}&params=${seed}`);
     }
 
     const toast = Swal.mixin({

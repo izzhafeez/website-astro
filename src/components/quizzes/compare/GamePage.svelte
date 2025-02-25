@@ -13,12 +13,12 @@
   export let count: number;
   export let field: string;
   export let randomiser: () => number;
-  export let seed: number;
+  export let seed: string;
 
   let dataList: Data[] = Object.entries(data).map(([k, v]) => {
     const { cleanText, searchTerms } = fullSanitise(k);
     // round to 6 significant figures
-    return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: v[field] as number }
+    return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: (v as any)[field] as number }
   });
   
   // find minimum sigfigs
@@ -77,7 +77,7 @@
       <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
       <p class='text-5xl h-20 grid items-center p-4 mx-auto transition duration-500 bg-white dark:bg-gray-700'>{left.quantity}</p>
     </div>
-    <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 z-10">
+    <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 -z-10">
       <div class='mx-auto flex lg:block items-center gap-8'>
         <p class='lg:text-center opacity-0'>
           <span class='font-bold'>{field}</span><br/>
@@ -103,7 +103,9 @@
         bind:bestStreak={bestStreak}
         bind:isGuessing={isGuessing}
         bind:showNextButton={showNextButton}
-        bind:rightPlaceholder={rightPlaceholder}/>
+        bind:rightPlaceholder={rightPlaceholder}
+        {seed}
+        />
       {:else}
       <div class='flex gap-0 mx-auto'>
         <p class="text-5xl h-20 grid items-center p-4 transition duration-500 bg-white dark:bg-gray-700">{rightPlaceholder}</p>

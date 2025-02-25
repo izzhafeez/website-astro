@@ -8,6 +8,7 @@
   export let randomiserSeed: string;
   export let decodeSeed: () => void;
   export let randomiser: () => number;
+  export let name: string;
   let roundNumber = 0;
   let MAX_ROUNDS = 5;
   let rgb = [0, 0, 0];
@@ -54,7 +55,7 @@
     }
     score = 100 - (score / (256 * 3)) * 100;
     score = Math.round(score * 100) / 100;
-    return score;
+    return Math.max(score, 0);
   }
 
   let nextRound = async () => {
@@ -69,7 +70,10 @@
       // focus on the input box after waiting 0.1
       while (true) {
         try {
-          document.getElementById('input-box').focus();
+          const inputBox = document.getElementById('input-box');
+          if (!!inputBox) {
+            inputBox.focus();
+          }
           break;
         } catch (e) {
           await new Promise(r => setTimeout(r, 100));
@@ -146,6 +150,8 @@
     });
     isStart = false;
     decodeSeed();
+    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
+    fetch(`${url}?siteUrl=__quizzes__color__&name=${name}&score=${totalScore}&params=${randomiserSeed}`);
   }
 
   const toast = Swal.mixin({
@@ -173,12 +179,13 @@
       roundScore = evaluate();
       totalScore += roundScore;
       if (roundScore > 70) {
-        party.confetti(document.getElementById('action-button'), {
+        const actionButton = document.getElementById('action-button');
+        if (!actionButton) {
+          return;
+        }
+        party.confetti(actionButton, {
           count: party.variation.range(25, 50),
           size: party.variation.range(1, 2),
-          velocity: party.variation.range(2, 3),
-          angularVelocity: party.variation.range(0, 4),
-          colors: [`#${renderColorAsHex()}`, `#${guess}`]
         });
       }
       totalScore = Math.round(totalScore * 100) / 100;
@@ -192,11 +199,14 @@
     }
   }
 
-  const handleType = (e) => {
+  const handleType = (e: any) => {
     if (e.key === "Enter" && guess.length > 0) {
       submitGuess();
       // focus on the button
-      document.getElementById('action-button').focus();
+      const actionButton = document.getElementById('action-button');
+      if (actionButton) {
+        actionButton.focus();
+      }
     }
   }
 </script>

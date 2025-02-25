@@ -1,5 +1,6 @@
 <script lang="ts">
     import { fade, fly } from "svelte/transition";
+    import Leaderboard from "../Leaderboard.svelte";
   
     export let title;
     export let instructions;
@@ -9,6 +10,8 @@
     export let randomiseSeed: () => void;
     export let seed: string;
     export let decodeSeed: () => void;
+    export let name: string;
+    export let key: string;
     let possible_fontSizes = [20, 30, 40, 60, 80, 120, 160];
     let possible_blurValues = ["XS", "SM", "MD", "LG", "XL", "2XL", "3XL"];
   </script>
@@ -34,8 +37,19 @@
     </div>
     <label for="seed" class="">Seed: </label>
     <div class="flex gap-2">
-      <input type="text" id="seed" bind:value={seed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
-      <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
+      <input type="text" id="seed" bind:value={seed} on:change={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+      <button on:click={randomiseSeed} class='bg-ew-300/20 my-auto py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Randomise</button>
     </div>
-    <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2 me-auto'>Start</button>
+    <label for="regex" class="">Your Name (Optional):</label>
+    <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1 w-60' placeholder=""/>
+    <div class="flex py-2 gap-2">
+      <Leaderboard type="blurry" key={key} params={seed} settingsLabel="Seed"/>
+      <button
+        class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
+        on:click={handleStart}
+      >
+        Start Quiz
+      </button>
+    </div>
+    <!-- <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2 me-auto'>Start</button> -->
   </div>
