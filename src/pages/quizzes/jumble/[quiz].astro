@@ -4,7 +4,7 @@ import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
 import PageFind from "../../../components/common/PageFind.astro";
 import JumbleQuiz from "../../../components/quizzes/jumble/JumbleQuiz.svelte";
-import mrtData from "../../../data/quizzes/map/mrt.json";
+import mrtData from "../../../data/quizzes/jumble/mrt.json";
 import countriesData from "../../../data/quizzes/jumble/countries.json";
 import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
 import spotifyData from "../../../data/quizzes/jumble/spotify.json";
@@ -15,10 +15,24 @@ import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json"
 import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
 import awsData from "../../../data/quizzes/jumble/aws.json";
 import elementsData from "../../../data/quizzes/jumble/elements.json";
+import ikeaData from "../../../data/quizzes/jumble/ikea.json";
 import mrtChineseData from "../../../data/quizzes/jumble/mrt-chinese.json";
+import openingsData from "../../../data/quizzes/jumble/openings.json";
+import statesData from "../../../data/quizzes/jumble/states.json";
+import dinosaursData from "../../../data/quizzes/jumble/dinosaurs.json";
+import pokemonData from "../../../data/quizzes/jumble/pokemon.json";
+import chengyuData from "../../../data/quizzes/jumble/chengyu.json";
+import deckOfCardsData from "../../../data/quizzes/jumble/deck-of-cards.json";
+import spellsData from "../../../data/quizzes/jumble/spells.json";
+import animeData from "../../../data/quizzes/jumble/anime.json";
+import drinksData from "../../../data/quizzes/jumble/drinks.json";
 
 export const getStaticPaths = (() => {
-    const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim().toUpperCase();
+    const instructions = "Unmix and unscramble letters to form the correct words. There is only one correct solution, so be wary of red herrings."
+    const capitaliseFirstLetter = (string: string) => string.charAt(0).toUpperCase() + string.slice(1);
+    const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
+    const filterDuplicates = (array: string[]) => array.filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => a.localeCompare(b));
+
     return [
         {
             params: {
@@ -26,18 +40,8 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'MRT Stations of Singapore',
-                instructions: 'Some MRT stations have their letters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: Object.keys(mrtData).filter(name => /EW|CG|CE|CC|NS|NE|DT|TE/.test(name)).map(normaliseString)
-            }
-        },
-        {
-            params: {
-                quiz: 'mrt-hard'
-            },
-            props: {
-                title: 'MRT Stations of Singapore (Hard)',
-                instructions: 'Some MRT stations have their letters jumbled and mixed up. This includes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: Object.keys(mrtData).map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(mrtData.map(normaliseString))
             }
         },
         {
@@ -46,8 +50,8 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Countries of the World',
-                instructions: 'Some countries have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: countriesData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(countriesData.map(normaliseString))
             }
         },
         {
@@ -56,8 +60,8 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Fruits and Vegetables',
-                instructions: 'Some fruits and vegetables have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: fruitVegData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(fruitVegData.map(normaliseString))
             }
         },
         {
@@ -66,8 +70,8 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Top Spotify Artists',
-                instructions: 'Some Spotify artists have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: spotifyData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(spotifyData.map(normaliseString))
             }
         },
         {
@@ -75,9 +79,9 @@ export const getStaticPaths = (() => {
                 quiz: 'billboard-2010',
             },
             props: {
-                title: 'Billboard Top 100 Songs of 2010',
-                instructions: 'Some Billboard Top 100 songs of 2010 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: billboard2010Data.map(normaliseString)
+                title: 'Billboard Top 100 (2010)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2010Data.map(normaliseString))
             }
         },
         {
@@ -85,9 +89,9 @@ export const getStaticPaths = (() => {
                 quiz: 'billboard-2011',
             },
             props: {
-                title: 'Billboard Top 100 Songs of 2011',
-                instructions: 'Some Billboard Top 100 songs of 2011 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: billboard2011Data.map(normaliseString)
+                title: 'Billboard Top 100 (2011)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2011Data.map(normaliseString))
             }
         },
         {
@@ -95,9 +99,9 @@ export const getStaticPaths = (() => {
                 quiz: 'billboard-2012',
             },
             props: {
-                title: 'Billboard Top 100 Songs of 2012',
-                instructions: 'Some Billboard Top 100 songs of 2012 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: billboard2012Data.map(normaliseString)
+                title: 'Billboard Top 100 (2012)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2012Data.map(normaliseString))
             }
         },
         {
@@ -105,9 +109,9 @@ export const getStaticPaths = (() => {
                 quiz: 'billboard-2013',
             },
             props: {
-                title: 'Billboard Top 100 Songs of 2013',
-                instructions: 'Some Billboard Top 100 songs of 2013 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: billboard2013Data.map(normaliseString)
+                title: 'Billboard Top 100 (2013)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2013Data.map(normaliseString))
             }
         },
         {
@@ -115,9 +119,9 @@ export const getStaticPaths = (() => {
                 quiz: 'billboard-2014',
             },
             props: {
-                title: 'Billboard Top 100 Songs of 2014',
-                instructions: 'Some Billboard Top 100 songs of 2014 have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: billboard2014Data.map(normaliseString)
+                title: 'Billboard Top 100 (2014)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2014Data.map(normaliseString))
             }
         },
         {
@@ -126,8 +130,8 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'AWS Services',
-                instructions: 'Some AWS services have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: awsData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(awsData.map(normaliseString))
             }
         },
         {
@@ -136,8 +140,18 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'Periodic Table Elements',
-                instructions: 'Some periodic table elements have their letters jumbled and mixed up. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: elementsData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(elementsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'ikea',
+            },
+            props: {
+                title: 'IKEA Products',
+                instructions: instructions,
+                data: filterDuplicates(ikeaData.map(normaliseString))
             }
         },
         {
@@ -146,8 +160,217 @@ export const getStaticPaths = (() => {
             },
             props: {
                 title: 'MRT Stations of Singapore (Chinese)',
-                instructions: 'Some MRT stations have their Chinese characters jumbled and mixed up. This excludes LRTs and future planned MRTs. Can you unscramble them? Green letters mean accepted, yellow means unused, and red means overused.',
-                data: mrtChineseData.map(normaliseString)
+                instructions: instructions,
+                data: filterDuplicates(mrtChineseData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'openings',
+            },
+            props: {
+                title: 'Chess Openings',
+                instructions: instructions,
+                data: filterDuplicates(openingsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'states',
+            },
+            props: {
+                title: 'States of the USA',
+                instructions: instructions,
+                data: filterDuplicates(statesData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'dinosaurs',
+            },
+            props: {
+                title: 'Dinosaurs',
+                instructions: instructions,
+                data: filterDuplicates(dinosaursData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'pokemon',
+            },
+            props: {
+                title: 'Pokémon',
+                instructions: instructions,
+                data: filterDuplicates(pokemonData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'chengyu',
+            },
+            props: {
+                title: 'Chengyu (Chinese Idioms)',
+                instructions: instructions,
+                data: filterDuplicates(chengyuData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'deck-of-cards',
+            },
+            props: {
+                title: 'Deck of Cards',
+                instructions: instructions,
+                data: filterDuplicates(deckOfCardsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'spells',
+            },
+            props: {
+                title: 'Harry Potter Spells',
+                instructions: instructions,
+                data: filterDuplicates(spellsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'anime',
+            },
+            props: {
+                title: 'Anime',
+                instructions: instructions,
+                data: filterDuplicates(animeData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'all',
+            },
+            props: {
+                title: 'Everything',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...mrtData.map(normaliseString).slice(0, 50),
+                    ...countriesData.map(normaliseString).slice(0, 50),
+                    ...fruitVegData.map(normaliseString).slice(0, 50),
+                    ...spotifyData.map(normaliseString).slice(0, 25),
+                    ...billboard2010Data.map(normaliseString).slice(0, 10),
+                    ...billboard2011Data.map(normaliseString).slice(0, 10),
+                    ...billboard2012Data.map(normaliseString).slice(0, 10),
+                    ...billboard2013Data.map(normaliseString).slice(0, 10),
+                    ...billboard2014Data.map(normaliseString).slice(0, 10),
+                    ...awsData.map(normaliseString).slice(0, 50),
+                    ...elementsData.map(normaliseString).slice(0, 50),
+                    ...ikeaData.map(normaliseString).slice(0, 50),
+                    ...mrtChineseData.map(normaliseString).slice(0, 50),
+                    ...openingsData.map(normaliseString).slice(0, 50),
+                    ...statesData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...dinosaursData.map(capitaliseFirstLetter).map(normaliseString).slice(0, 50),
+                    ...pokemonData.map(capitaliseFirstLetter).map(normaliseString).slice(0, 50),
+                    ...chengyuData.map(normaliseString).slice(0, 50),
+                    ...deckOfCardsData.map(normaliseString),
+                    ...spellsData.map(normaliseString).slice(0, 50),
+                    ...animeData.map(normaliseString).slice(0, 50),
+                    ...drinksData.map(normaliseString).slice(0, 50),
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'music',
+            },
+            props: {
+                title: 'Everything (Music)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...spotifyData.map(normaliseString),
+                    ...billboard2010Data.map(normaliseString),
+                    ...billboard2011Data.map(normaliseString),
+                    ...billboard2012Data.map(normaliseString),
+                    ...billboard2013Data.map(normaliseString),
+                    ...billboard2014Data.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'chinese',
+            },
+            props: {
+                title: 'Everything (Chinese)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...mrtChineseData.map(normaliseString),
+                    ...chengyuData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'geography',
+            },
+            props: {
+                title: 'Everything (Geography)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...countriesData.map(normaliseString),
+                    ...statesData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...mrtData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'fiction',
+            },
+            props: {
+                title: 'Everything (Fiction)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...pokemonData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...spellsData.map(normaliseString),
+                    ...animeData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'products',
+            },
+            props: {
+                title: 'Everything (Products)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...ikeaData.map(normaliseString),
+                    ...awsData.map(normaliseString),
+                    ...fruitVegData.map(normaliseString),
+                    ...drinksData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'science',
+            },
+            props: {
+                title: 'Everything (Science)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...elementsData.map(normaliseString),
+                    ...dinosaursData.map(capitaliseFirstLetter).map(normaliseString),
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'drinks',
+            },
+            props: {
+                title: 'Drinks',
+                instructions: instructions,
+                data: filterDuplicates(drinksData.map(normaliseString))
             }
         }
     ]

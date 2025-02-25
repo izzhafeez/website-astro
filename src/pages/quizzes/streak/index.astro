@@ -26,7 +26,7 @@ const quizzes = Object.entries(streakData as QuizJson).map(([key, value]) => {
     imgPath: `/img/quizzes/streak/${key}.jpg`,
     tags: value.tags || []
   }
-}).sort((a,b) => -a.rank + b.rank);
+}).sort((a,b) => a.title.localeCompare(b.title));
 
 const heroText = quizzesData.streak.heroText;
 const title = quizzesData.streak.title;

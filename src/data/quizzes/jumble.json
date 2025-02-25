@@ -1,67 +1,142 @@
 {
+    "all": {
+        "title": "Everything",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of everything.",
+        "tags": ["Hell"]
+    },
+    "geography": {
+        "title": "Everything (Geography)",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of countries, states, and MRT.",
+        "tags": ["Geography"]
+    },
+    "chinese": {
+        "title": "Everything (Chinese)",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of chengyu and MRT names.",
+        "tags": ["Chinese"]
+    },
+    "fiction": {
+        "title": "Everything (Fiction)",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of Pokémon, Harry Potter, and anime.",
+        "tags": ["Fiction"]
+    },
+    "products": {
+        "title": "Everything (Products)",
+        "instructions": "Unmix and unscramble letters to form the right words! IKEA products, AWS services, drinks, and fruits/veggies.",
+        "tags": ["Products"]
+    },
+    "music": {
+        "title": "Everything (Music)",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of Spotify artists and Billboard songs.",
+        "tags": ["Music"]
+    },
     "mrt": {
         "title": "MRT Stations of Singapore",
-        "instructions": "Unmix and unscramble the letters to form the names of MRT stations.",
+        "instructions": "Unmix and unscramble letters to find the right stations.",
         "tags": ["MRT", "Singapore"]
     },
     "countries": {
         "title": "Countries of the World",
-        "instructions": "Unmix and unscramble the letters to form the names of countries.",
+        "instructions": "Unmix and unscramble letters to find the right countries!",
         "tags": ["Countries"]
-    },
-    "mrt-hard": {
-        "title": "MRT Stations of Singapore (Hard)",
-        "instructions": "Unmix and unscramble the letters to form the names of LRT and future MRT stations.",
-        "tags": ["MRT", "Singapore"]
-    },
-    "mrt-chinese": {
-        "title": "MRT Stations of Singapore (Chinese)",
-        "instructions": "Unmix and unscramble the letters to form the names of MRT stations in Chinese.",
-        "tags": ["MRT", "Singapore"]
     },
     "fruit-veg": {
         "title": "Fruits and Vegetables",
-        "instructions": "Unmix and unscramble the letters to form the names of fruits and vegetables.",
+        "instructions": "Unmix and unscramble letters to find the right fruits and vegetables!",
         "tags": ["Fruits", "Vegetables"]
     },
-    "aws": {
-        "title": "AWS Services",
-        "instructions": "Unmix and unscramble the letters to form the names of AWS services.",
-        "tags": ["AWS"]
+    "ikea": {
+        "title": "IKEA Products",
+        "instructions": "Unmix and unscramble letters to find the right products!",
+        "tags": ["IKEA"]
+    },
+    "drinks": {
+        "title": "Drinks",
+        "instructions": "Unmix and unscramble letters to find the right drinks!",
+        "tags": ["Drinks"]
+    },
+    "anime": {
+        "title": "Anime",
+        "instructions": "Unmix and unscramble letters to find the right anime!",
+        "tags": ["Anime"]
+    },
+    "spells": {
+        "title": "Harry Potter Spells",
+        "instructions": "Unmix and unscramble letters to find the right spells!",
+        "tags": ["Harry Potter"]
+    },
+    "states": {
+        "title": "States of the USA",
+        "instructions": "Unmix and unscramble letters to find the right states!",
+        "tags": ["USA"]
+    },
+    "mrt-chinese": {
+        "title": "MRT Stations of Singapore (Chinese)",
+        "instructions": "Unmix and unscramble letters to find the right stations.",
+        "tags": ["MRT", "Singapore"]
+    },
+    "pokemon": {
+        "title": "Pokémon",
+        "instructions": "Unmix and unscramble letters to find the right Pokémon!",
+        "tags": ["Pokémon"]
+    },
+    "openings": {
+        "title": "Chess Openings",
+        "instructions": "Unmix and unscramble letters to find the right openings!",
+        "tags": ["Chess"]
+    },
+    "dinosaurs": {
+        "title": "Dinosaurs",
+        "instructions": "Unmix and unscramble letters to find the right dinosaurs!",
+        "tags": ["Dinosaurs"]
     },
     "elements": {
         "title": "Periodic Table Elements",
-        "instructions": "Unmix and unscramble the letters to form the names of periodic table elements.",
+        "instructions": "Unmix and unscramble letters to find the right elements!",
         "tags": ["Chemistry", "Periodic Table"]
+    },
+    "chengyu": {
+        "title": "Chinese Chengyu",
+        "instructions": "Unmix and unscramble letters to find the right chengyu!",
+        "tags": ["Chinese"]
+    },
+    "deck-of-cards": {
+        "title": "Deck of Cards",
+        "instructions": "Unmix and unscramble letters to find the right cards!",
+        "tags": ["Cards"]
+    },
+    "aws": {
+        "title": "AWS Services",
+        "instructions": "Unmix and unscramble letters to find the right services!",
+        "tags": ["AWS"]
     },
     "spotify": {
         "title": "Top Spotify Artists",
-        "instructions": "Unmix and unscramble the letters to form the names of top Spotify artists.",
+        "instructions": "Unmix and unscramble letters to find the right artists!",
         "tags": ["Music", "Spotify"]
     },
     "billboard-2014": {
         "title": "Billboard Top 100 Songs of 2014",
-        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2014.",
+        "instructions": "Unmix and unscramble letters to find the right songs!",
         "tags": ["Music", "Billboard"]
     },
     "billboard-2013": {
         "title": "Billboard Top 100 Songs of 2013",
-        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2013.",
+        "instructions": "Unmix and unscramble letters to find the right songs!",
         "tags": ["Music", "Billboard"]
     },
     "billboard-2012": {
         "title": "Billboard Top 100 Songs of 2012",
-        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2012.",
+        "instructions": "Unmix and unscramble letters to find the right songs!",
         "tags": ["Music", "Billboard"]
     },
     "billboard-2011": {
         "title": "Billboard Top 100 Songs of 2011",
-        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2011.",
+        "instructions": "Unmix and unscramble letters to find the right songs!",
         "tags": ["Music", "Billboard"]
     },
     "billboard-2010": {
         "title": "Billboard Top 100 Songs of 2010",
-        "instructions": "Unmix and unscramble the letters to form the names of Billboard Top 100 songs of 2010.",
+        "instructions": "Unmix and unscramble letters to find the right songs!",
         "tags": ["Music", "Billboard"]
     }
 }

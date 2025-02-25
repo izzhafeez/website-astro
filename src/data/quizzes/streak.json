@@ -57,5 +57,82 @@
     "tags": [
       "HTTP"
     ]
+  },
+  "thailand-thai": {
+    "title": "Thai Cities in Thai",
+    "instructions": "Guess the translation of Thai cities in Thai.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "mrt-chinese": {
+    "title": "MRT Stations in Chinese",
+    "instructions": "Guess the translation of MRT stations in Chinese.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "school-chinese": {
+    "title": "Schools in Chinese",
+    "instructions": "Guess the translation of Singapore schools in Chinese.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "vietnam-chinese": {
+    "title": "Vietnam Cities in Chinese",
+    "instructions": "Guess the translation of Vietnamese cities in Chinese.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "indian-cities": {
+    "title": "Indian Cities",
+    "instructions": "Guess the city based on its local name.",
+    "tags": [
+      "Geography"
+    ]
+  },
+  "tokyo-metro": {
+    "title": "Tokyo Metro Stations",
+    "instructions": "Guess the English name of Tokyo Metro Stations.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "hong-kong-towns": {
+    "title": "Hong Kong Towns",
+    "instructions": "Guess the English name of Hong Kong towns.",
+    "tags": [
+      "Language"
+    ]
+  },
+  "korean-cities": {
+    "title": "Korean Cities",
+    "instructions": "Guess the city based on its Hanja/Chinese name.",
+    "tags": [
+      "Geography"
+    ]
+  },
+  "china-cities": {
+    "title": "China Cities",
+    "instructions": "Guess the city based on its Chinese name.",
+    "tags": [
+      "Geography"
+    ]
+  },
+  "taiwan-cities": {
+    "title": "Taiwan Cities",
+    "instructions": "Guess the city based on its Chinese name.",
+    "tags": [
+      "Geography"
+    ]
+  },
+  "japanese-cities": {
+    "title": "Japanese Cities",
+    "instructions": "Guess the city based on its Japanese name.",
+    "tags": [
+      "Geography"
+    ]
   }
 }

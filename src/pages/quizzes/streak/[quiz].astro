@@ -87,6 +87,135 @@ export async function getStaticPaths() {
         instructions: "Guess the status code based on the given prompt. Answers are case and space-insensitive. Use regex to choose what status codes you would like to include in the quiz (tip: try typing '2' or 'OK' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
       }
+    },
+    {
+      params: { quiz: 'thailand-thai' },
+      props: {
+        title: "Thai Cities in Thai",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Thailand, Local"))
+        ),
+        instructions: "Guess the Thai city based on its Thai name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Bangkok' or 'เมือง' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'mrt-chinese' },
+      props: {
+        title: "MRT Stations in Chinese",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("MRT]"))
+        ),
+        instructions: "Guess the MRT station based on its Chinese name. Answers are case and space-insensitive. Use regex to choose what stations you would like to include in the quiz (tip: try typing 'Dhoby' or '道' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'school-chinese' },
+      props: {
+        title: "Schools in Chinese",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("School)"))
+        ),
+        instructions: "Guess the school based on its Chinese name. Answers are case and space-insensitive. Use regex to choose what schools you would like to include in the quiz (tip: try typing 'NUS' or '大学' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: "vietnam-chinese" },
+      props: {
+        title: "Vietnamese Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Vietnam, Chinese"))
+        ),
+        instructions: "Guess the Vietnamese city based on its Chinese name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Hanoi' or '河内' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: "indian-cities" },
+      props: {
+        title: "Indian Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("India, Local"))
+        ),
+        instructions: "Guess the Indian city based on its local name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Mumbai' or 'city' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: {
+        quiz: "tokyo-metro",
+      },
+      props: {
+        title: "Tokyo Metro Stations",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Japan, Chinese, MRT"))
+        ),
+        instructions: "Guess the Tokyo Metro station based on its Japanese name. Answers are case and space-insensitive. Use regex to choose what stations you would like to include in the quiz (tip: try typing 'Shinjuku' or '新宿' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: {
+        quiz: 'hong-kong-towns'
+      },
+      props: {
+        title: "Hong Kong Towns",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Hong Kong, Local"))
+        ),
+        instructions: "Guess the Hong Kong town based on its local name. Answers are case and space-insensitive. Use regex to choose what towns you would like to include in the quiz (tip: try typing 'Central' or '中' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: {
+        quiz: "korean-cities"
+      },
+      props: {
+        title: "Korean Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Korea, Chinese"))
+        ),
+        instructions: "Guess the Korean city based on its Hanja/Chinese name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Seoul' or 'city' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: {
+        quiz: "china-cities"
+      },
+      props: {
+        title: "Chinese Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("China, Local, Chinese, City"))
+        ),
+        instructions: "Guess the Chinese city based on its local name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Beijing' or '京' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      },
+    },
+    {
+      params: { quiz: "taiwan-cities" },
+      props: {
+        title: "Taiwanese Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Taiwan, Local"))
+        ),
+        instructions: "Guess the Taiwanese city based on its local name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Taipei' or '北' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: "japanese-cities" },
+      props: {
+        title: "Japanese Cities",
+        data: Object.fromEntries(
+            Object.entries(placeNameData).filter(([key, _]) => key.includes("Japan, Local"))
+        ),
+        instructions: "Guess the Japanese city based on its local name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Tokyo' or '京' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
+        defaultRegex: ''
+      }
     }
   ];
 };
