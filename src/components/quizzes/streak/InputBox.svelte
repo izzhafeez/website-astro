@@ -252,7 +252,7 @@
     </div>
     <div class="flex items-center gap-4 h-10">
       <label for="seed" class="font-bold">Seed: </label>
-      <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
+      <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} on:change={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
       <button on:click={randomiseSeed} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 my-auto'>Randomise</button>
     </div>
     <div class="flex items-center gap-4 h-10">

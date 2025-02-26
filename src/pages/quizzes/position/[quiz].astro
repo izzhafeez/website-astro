@@ -1,0 +1,302 @@
+---
+import PositionPuzzle from "../../../components/quizzes/position/PositionPuzzle.svelte";
+import mrtData from "../../../data/quizzes/map/mrt.json";
+import mallsData from "../../../data/quizzes/map/malls.json";
+import schoolsData from "../../../data/quizzes/map/schools.json";
+import busStopData from "../../../data/quizzes/map/bus-stops.json";
+import londonUndergroundData from "../../../data/quizzes/map/london-underground.json";
+import tokyoMetroData from "../../../data/quizzes/map/tokyo-metro.json";
+import citiesData from "../../../data/quizzes/map/cities.json";
+import japanCitiesData from "../../../data/quizzes/map/japan-cities.json";
+import franceCitiesData from "../../../data/quizzes/map/france-cities.json";
+import chinaCitiesData from "../../../data/quizzes/map/china-cities.json";
+import ukCitiesData from "../../../data/quizzes/map/uk-cities.json";
+import spainCitiesData from "../../../data/quizzes/map/spain-cities.json";
+import portugalCitiesData from "../../../data/quizzes/map/portugal-cities.json";
+import italyCitiesData from "../../../data/quizzes/map/italy-cities.json";
+import indiaCitiesData from "../../../data/quizzes/map/india-cities.json";
+import indonesiaCitiesData from "../../../data/quizzes/map/indonesia-cities.json";
+import philippinesCitiesData from "../../../data/quizzes/map/philippines-cities.json";
+import usaCitiesData from "../../../data/quizzes/map/usa-cities.json";
+import canadaCitiesData from "../../../data/quizzes/map/canada-cities.json";
+import monumentsData from "../../../data/quizzes/map/monuments.json";
+import librariesData from "../../../data/quizzes/map/libraries.json";
+import parksData from "../../../data/quizzes/map/parks.json";
+import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
+import hotelsData from "../../../data/quizzes/map/hotels.json";
+import ccData from "../../../data/quizzes/map/cc.json";
+import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
+import NavBar from "../../../components/common/NavBar.astro";
+import PageFind from "../../../components/common/PageFind.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Footer from "../../../components/common/Footer.astro";
+
+export async function getStaticPaths() {
+  const instructionFormat = (name: string) => `You will be presented with a few random points on a map, each representing a distinct ${name}. The goal is to correctly identify and match each point to its real-world counterpart. All the best, and if you don't like the points, feel free to refresh the seed, yeah?`;
+  return [
+    {
+      params: { quiz: 'mrt' },
+      props: {
+        title: 'MRT Stations of Singapore',
+        data: mrtData,
+        instructions: instructionFormat('MRT/LRT station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'malls' },
+      props: {
+        title: 'Malls of Singapore',
+        data: mallsData,
+        instructions: instructionFormat('mall'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'schools' },
+      props: {
+        title: "Schools of Singapore",
+        data: schoolsData,
+        instructions: instructionFormat('school'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'bus-stops' },
+      props: {
+        title: "Bus Stops of Singapore",
+        data: busStopData,
+        instructions: instructionFormat('bus stop'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'london-underground' },
+      props: {
+        title: "London Underground Stations",
+        data: londonUndergroundData,
+        instructions: instructionFormat('tube station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'tokyo-metro' },
+      props: {
+        title: "Tokyo Metro Stations",
+        data: tokyoMetroData,
+        instructions: instructionFormat('metro station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World',
+        data: citiesData,
+        instructions: instructionFormat('city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'japan-cities' },
+      props: {
+        title: 'Cities of Japan',
+        data: japanCitiesData,
+        instructions: instructionFormat('Japanese city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'france-cities' },
+      props: {
+        title: 'Cities of France',
+        data: franceCitiesData,
+        instructions: instructionFormat('French city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'china-cities' },
+      props: {
+        title: 'Cities of China',
+        data: chinaCitiesData,
+        instructions: instructionFormat('Chinese city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'uk-cities' },
+      props: {
+        title: 'Cities of the UK',
+        data: ukCitiesData,
+        instructions: instructionFormat('UK city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'spain-cities' },
+      props: {
+        title: 'Cities of Spain',
+        data: spainCitiesData,
+        instructions: instructionFormat('Spanish city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'portugal-cities' },
+      props: {
+        title: 'Cities of Portugal',
+        data: portugalCitiesData,
+        instructions: instructionFormat('Portuguese city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'italy-cities' },
+      props: {
+        title: 'Cities of Italy',
+        data: italyCitiesData,
+        instructions: instructionFormat('Italian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'india-cities' },
+      props: {
+        title: 'Cities of India',
+        data: indiaCitiesData,
+        instructions: instructionFormat('Indian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'indonesia-cities' },
+      props: {
+        title: 'Cities of Indonesia',
+        data: indonesiaCitiesData,
+        instructions: instructionFormat('Indonesian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'philippines-cities' },
+      props: {
+        title: 'Cities of the Philippines',
+        data: philippinesCitiesData,
+        instructions: instructionFormat('Filipino city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'usa-cities' },
+      props: {
+        title: 'Cities of the United States',
+        data: usaCitiesData,
+        instructions: instructionFormat('American city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'canada-cities' },
+      props: {
+        title: 'Cities of Canada',
+        data: canadaCitiesData,
+        instructions: instructionFormat('Canadian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'monuments' },
+      props: {
+        title: 'Monuments of Singapore',
+        data: monumentsData,
+        instructions: instructionFormat('monument'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'libraries' },
+      props: {
+        title: 'Libraries of Singapore',
+        data: librariesData,
+        instructions: instructionFormat('library'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'parks' },
+      props: {
+        title: 'Parks of Singapore',
+        data: parksData,
+        instructions: instructionFormat('park'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'park-connectors' },
+      props: {
+        title: 'Park Connectors of Singapore',
+        data: parkConnectorsData,
+        instructions: instructionFormat('park connector'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'hotels' },
+      props: {
+        title: 'Hotels of Singapore',
+        data: hotelsData,
+        instructions: instructionFormat('hotel'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cc' },
+      props: {
+        title: 'Community Centres of Singapore',
+        data: ccData,
+        instructions: instructionFormat('community centre'),
+      }
+    },
+    {
+      params: { quiz: 'tourist-attractions' },
+      props: {
+        title: 'Tourist Attractions of Singapore',
+        data: touristAttractionsData,
+        instructions: instructionFormat('tourist attraction'),
+        defaultRegex: ''
+      }
+    }
+  ]
+}
+
+export const prerender = true;
+const { data } = Astro.props;
+// we want to get rid of the []
+const dataAsList = Object.entries(data).filter(([k, v]) => !k.includes("1K") && !k.includes("10K")).map(([key, value]) => ({
+  name: key.replace(/\[.*\]/gi, "").trim(),
+  lat: value[1],
+  lng: value[0],
+}));
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default);
+---
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Position Puzzle)`} path={`quizzes/position/${Astro.params.quiz}`}/>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+<Layout>
+  <div slot="main" class="">
+    <NavBar/>
+    <PageFind pageName={`${Astro.props.title} (Position Puzzle)`} heroText={Astro.props.instructions}/>
+    <PositionPuzzle client:only="svelte" key={Astro.params.quiz} data={dataAsList} title={Astro.props.title} instructions={Astro.props.instructions}/>
+    <Footer site="quizzes"/>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

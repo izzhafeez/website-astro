@@ -23,6 +23,7 @@ import geoguessr from "../../img/logos/geoguessr.svg";
 import jumble from "../../img/logos/jumble.svg";
 import map from "../../img/logos/map.svg";
 import match from "../../img/logos/match.svg";
+import position from "../../img/logos/position.svg";
 import rank from "../../img/logos/rank.svg";
 import regex from "../../img/logos/regex.svg";
 import selection from "../../img/logos/selection.svg";
@@ -82,6 +83,7 @@ export default {
   jumble,
   map,
   match,
+  position,
   rank,
   regex,
   selection,

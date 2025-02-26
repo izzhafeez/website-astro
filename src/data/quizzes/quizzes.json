@@ -35,6 +35,10 @@
     "title": "Match Master",
     "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
   },
+  "position": {
+    "title": "Position Puzzle",
+    "heroText": "Given random points on a blank map, must match them to their correct IRL locations!"
+  },
   "rank": {
     "title": "Rank Master",
     "heroText": "Rank the items in the correct order. Try to be accurate with your ranking!"
