@@ -1,5 +1,5 @@
 ---
-import mapData from "../../../data/quizzes/map.json";
+import positionData from "../../../data/quizzes/position.json";
 import MediumCard from "../../../components/common/MediumCard.astro";
 import Layout from "../../../layouts/Layout.astro";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -16,7 +16,7 @@ type QuizJson = {[k: string]: {
   tags?: string[]
 }}
 
-const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
+const quizzes = Object.entries(positionData as QuizJson).map(([key, value]) => {
   return {
     key,
     href: `/quizzes/position/${key}`,
@@ -26,7 +26,7 @@ const quizzes = Object.entries(mapData as QuizJson).map(([key, value]) => {
     imgPath: `/img/quizzes/map/${key}.jpg`,
     tags: value.tags || []
   }
-}).sort((a,b) => -a.rank + b.rank);
+}).sort((a,b) => -a.title + b.rank);
 
 const heroText = quizzesData.position.heroText;
 const title = quizzesData.position.title;

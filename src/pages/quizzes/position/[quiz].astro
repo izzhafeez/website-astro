@@ -26,6 +26,10 @@ import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
 import hotelsData from "../../../data/quizzes/map/hotels.json";
 import ccData from "../../../data/quizzes/map/cc.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
+import capitalCitiesData from "../../../data/quizzes/map/capital-cities.json";
+import buildingsData from "../../../data/games/stat-attack/buildings.json";
+import airportsData from "../../../data/games/stat-attack/airports.json";
+import placesInSingaporeData from "../../../data/games/stat-attack/places-in-singapore.json";
 import NavBar from "../../../components/common/NavBar.astro";
 import PageFind from "../../../components/common/PageFind.astro";
 import Seo from "../../../components/seo/Seo.astro";
@@ -265,6 +269,67 @@ export async function getStaticPaths() {
         title: 'Tourist Attractions of Singapore',
         data: touristAttractionsData,
         instructions: instructionFormat('tourist attraction'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities' },
+      props: {
+        title: 'Capital Cities of the World',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'buildings' },
+      props: {
+        title: 'Random Buildings in the World',
+        data: (() => {
+          const newData = {};
+          buildingsData.forEach((building) => {
+            if (Math.floor(building.Latitude) == 1 || Math.floor(building.Longitude) == 103 || Math.floor(building.Longitude) == 104) return;
+            (newData as any)[building.name] = [building.Longitude, building.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('random building'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'airports' },
+      props: {
+        title: 'Airports of the World',
+        data: (() => {
+          const newData = {};
+          airportsData.forEach((airport) => {
+            (newData as any)[airport.name] = [airport.Longitude, airport.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('airport'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'places-in-singapore' },
+      props: {
+        title: 'Places in Singapore',
+        data: (() => {
+          const newData = {};
+          placesInSingaporeData.forEach((place) => {
+            (newData as any)[place.name] = [place.Longitude, place.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('place in Singapore'),
         defaultRegex: ''
       }
     }
