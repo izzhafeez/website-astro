@@ -274,7 +274,7 @@ export async function getStaticPaths() {
 export const prerender = true;
 const { data } = Astro.props;
 // we want to get rid of the []
-const dataAsList = Object.entries(data).filter(([k, v]) => !k.includes("1K") && !k.includes("10K")).map(([key, value]) => ({
+const dataAsList = Object.entries(data).filter(([k, v]) => !k.includes("1K") && !k.includes("10K") && !(Astro.params.quiz == "cities" && k.includes("100K"))).map(([key, value]) => ({
   name: key.replace(/\[.*\]/gi, "").trim(),
   lat: value[1],
   lng: value[0],
