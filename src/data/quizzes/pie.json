@@ -1,0 +1,885 @@
+{
+    "Atmospheric Composition of Dry Air": {
+        "pie": {
+            "Nitrogen": 78.08,
+            "Oxygen": 20.95,
+            "Argon": 0.93,
+            "Carbon Dioxide": 0.04
+        },
+        "link": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Ethnic Composition of Singapore (2020)" :{
+        "pie": {
+            "Chinese": 75.9,
+            "Malay": 15.0,
+            "Indian": 7.5
+        },
+        "link": "https://en.wikipedia.org/wiki/Demographics_of_Singapore",
+        "tags": [
+            "Geography",
+            "Singapore"
+        ]
+    },
+    "Global Religious Composition (2020)": {
+        "pie": {
+            "Christianity": 31.1,
+            "Islam": 24.9,
+            "Irreligion": 15.6,
+            "Hinduism": 15.2,
+            "Buddhism": 6.6,
+            "Folk Religion": 5.6
+        },
+        "link": "https://en.wikipedia.org/wiki/Major_religious_groups",
+        "tags": [
+            "Religion",
+            "Geography"
+        ]
+    },
+    "Religious Composition of Singapore (2020)": {
+        "pie": {
+            "Buddhism": 31.1,
+            "No Religion": 20,
+            "Christianity": 18.9,
+            "Islam": 15.6,
+            "Taoism": 8.8,
+            "Hinduism": 5.0
+        },
+        "link": "https://en.wikipedia.org/wiki/Religion_in_Singapore",
+        "tags": [
+            "Religion",
+            "Geography",
+            "Singapore"
+        ]
+    },
+    "Most Spoken First Languages (2022)": {
+        "pie": {
+            "Mandarin Chinese": 12.3,
+            "Spanish": 6.0,
+            "English": 5.1,
+            "Arabic": 5.1,
+            "Hindi": 3.5,
+            "Bengali": 3.3,
+            "Portuguese": 3.0,
+            "Russian": 2.1,
+            "Japanese": 1.7
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers",
+        "tags": [
+            "Language",
+            "Geography"
+        ]
+    },
+    "Global Smartphone Market Share (Q3 2024)": {
+        "pie": {
+            "Samsung": 19,
+            "Apple": 17,
+            "Xiaomi": 14,
+            "Oppo": 9,
+            "Vivo": 9
+        },
+        "link": "https://www.counterpointresearch.com/global-smartphone-share/",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Earth's Crust Mass Composition": {
+        "pie": {
+            "Oxygen": 46.6,
+            "Silicon": 27.7,
+            "Aluminium": 8.1,
+            "Iron": 5.0,
+            "Calcium": 3.6,
+            "Sodium": 2.8,
+            "Potassium": 2.6,
+            "Magnesium": 2.1
+        },
+        "link": "https://study.com/academy/lesson/the-earths-crust-facts-layers-temperature-composition.html#:~:text=or%2020%20miles.-,What%20is%20the%20earth's%20crust%20made%20of%3F,of%20Earth's%20crust%20by%20mass.",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Global Energy Consumption by Source (2020)": {
+        "pie": {
+            "Oil": 31.2,
+            "Coal": 27.2,
+            "Natural Gas": 24.7,
+            "Hydro": 6.9,
+            "Nuclear": 4.3
+        },
+        "link": "https://en.wikipedia.org/wiki/World_energy_supply_and_consumption",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Languages Used on the Internet (2025)": {
+        "pie": {
+            "English": 49.3,
+            "Spanish": 6.0,
+            "Russian": 3.9,
+            "German": 5.6,
+            "French": 4.4,
+            "Japanese": 5.1,
+            "Portuguese": 3.8
+        },
+        "link": "https://en.wikipedia.org/wiki/Languages_used_on_the_Internet",
+        "tags": [
+            "Language",
+            "Technology"
+        ]
+    },
+    "Internet Users by Language (2020)": {
+        "pie": {
+            "English": 25.9,
+            "Chinese": 19.4,
+            "Spanish": 7.9,
+            "Arabic": 5.2,
+            "Indonesian": 4.3,
+            "Portuguese": 3.7,
+            "French": 3.3,
+            "Japanese": 2.6
+        },
+        "link": "https://en.wikipedia.org/wiki/Languages_used_on_the_Internet",
+        "tags": [
+            "Language",
+            "Technology"
+        ]
+    },
+    "Most Used Scripts on the Internet": {
+        "pie": {
+            "Latin": 85.2,
+            "Hiragana": 5.1,
+            "Cyrillic": 4.8,
+            "Arabic": 1.7,
+            "Hanzi": 1.2,
+            "Hangul": 0.8
+        },
+        "link": "https://en.wikipedia.org/wiki/Languages_used_on_the_Internet",
+        "tags": [
+            "Language",
+            "Technology"
+        ]
+    },
+    "Console Operating System Market Share (2025 StatCounter)": {
+        "pie": {
+            "Xbox": 65.64,
+            "PlayStation": 34.34,
+            "Nintendo": 0.02
+        },
+        "link": "https://gs.statcounter.com/os-market-share/console/worldwide",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Operating System Market Share (2025 StatCounter)": {
+        "pie": {
+            "Android": 46.18,
+            "Windows": 25.46,
+            "iOS": 18.1,
+            "OS X": 5.32,
+            "Linux": 1.32
+        },
+        "link": "https://gs.statcounter.com/os-market-share",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Screen Resolution Stats (Jan 2025)": {
+        "pie": {
+            "1920x1080": 8.46,
+            "360x800": 7.38,
+            "390x844": 4.25,
+            "1536x864": 3.88,
+            "393x873": 3.82,
+            "1366x768": 3.78
+        },
+        "link": "https://gs.statcounter.com/screen-resolution-stats",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Source Languages of the English Vocabulary": {
+        "pie": {
+            "French": 28.3,
+            "Latin": 28.24,
+            "Germanic Languages": 25,
+            "Greek": 5.32,
+            "Derived from proper names": 3.28
+        },
+        "link": "https://en.wikipedia.org/wiki/English_language",
+        "tags": [
+            "Language"
+        ]
+    },
+    "Search Engine Global Market Share (2022)": {
+        "pie": {
+            "Google": 90,
+            "Bing": 4,
+            "Yandex": 2,
+            "Yahoo!": 1
+        },
+        "link": "https://en.wikipedia.org/wiki/Search_engine#Market_share",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Search Engine Russia Market Share (2023)": {
+        "pie": {
+            "Yandex": 62.6,
+            "Google": 28.3
+        },
+        "link": "https://en.wikipedia.org/wiki/Search_engine#Market_share",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Usage Share of All Browsers (2024 Wikimedia)": {
+        "pie": {
+            "Chrome": 52.5,
+            "Safari": 23.9,
+            "Firefox": 4.4,
+            "Edge": 3,
+            "Samsung Internet": 2.2,
+            "Opera": 1
+        },
+        "link": "https://en.wikipedia.org/wiki/Usage_share_of_web_browsers",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Usage Share of Desktop Browsers (2024 Wikimedia)": {
+        "pie": {
+            "Chrome": 56.1,
+            "Firefox": 15.3,
+            "Edge": 11.6,
+            "Safari": 9.4,
+            "Opera": 2.4
+        },
+        "link": "https://en.wikipedia.org/wiki/Usage_share_of_web_browsers",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Usage Share of Mobile Browsers (2024 Wikimedia)": {
+        "pie": {
+            "Chrome": 51.4,
+            "Safari": 31.9,
+            "Samsung Internet": 3.5,
+            "Firefox": 1.6,
+            "Opera": 0.6,
+            "UC Browser": 0.1
+        },
+        "link": "https://en.wikipedia.org/wiki/Usage_share_of_web_browsers",
+        "tags": [
+            "Technology"
+        ]
+    },
+    "Mass Distribution of Solar System": {
+        "pie": {
+            "Sun": 99.86,
+            "Planets": 0.135,
+            "Comets": 0.01
+        },
+        "link": "https://geol105.sitehost.iu.edu/1425chap2.htm#:~:text=The%20Sun%20contains%2099.85%25%20of,all%20the%20other%20planets%20combined.",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Letter Frequencies in English Texts": {
+        "pie": {
+            "E": 12.7,
+            "T": 9.1,
+            "A": 8.2,
+            "O": 7.5,
+            "I": 7.0,
+            "N": 6.7,
+            "S": 6.3,
+            "H": 6.1,
+            "R": 6.0
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in English Words (Dictionary Entry)": {
+        "pie": {
+            "E": 11.0,
+            "S": 8.7,
+            "I": 8.6,
+            "A": 7.8,
+            "R": 7.3,
+            "N": 7.2,
+            "T": 6.7,
+            "O": 6.1,
+            "L": 5.3
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies for First Letters in English Texts": {
+        "pie": {
+            "T": 16,
+            "A": 11.7,
+            "O": 7.6,
+            "I": 7.3,
+            "S": 6.7,
+            "W": 5.5,
+            "C": 5.2
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies for First Letters in English Words (Dictionary Entry)": {
+        "pie": {
+            "S": 11,
+            "C": 9.4,
+            "P": 7.7,
+            "D": 6.1,
+            "B": 6,
+            "R": 6,
+            "A": 5.7,
+            "M": 5.6,
+            "T": 5
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in French": {
+        "pie": {
+            "E": 14.715,
+            "S": 7.948,
+            "A": 7.636,
+            "I": 7.529,
+            "T": 7.244,
+            "N": 7.095,
+            "R": 6.693,
+            "U": 6.311,
+            "O": 5.796,
+            "L": 5.456
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in German": {
+        "pie": {
+            "E": 16.93,
+            "N": 9.78,
+            "S": 7.27,
+            "R": 7.003,
+            "I": 6.55,
+            "A": 6.516,
+            "T": 6.154
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Spanish": {
+        "pie": {
+            "E": 13.702,
+            "A": 11.525,
+            "O": 8.683,
+            "S": 7.977,
+            "R": 6.871,
+            "N": 6.711,
+            "I": 6.247,
+            "D": 5.010
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Portuguese": {
+        "pie": {
+            "A": 14.634,
+            "E": 13.101,
+            "O": 9.735,
+            "S": 6.805,
+            "R": 6.530,
+            "I": 6.186
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Italian": {
+        "pie": {
+            "E": 11.74,
+            "A": 11.79,
+            "I": 10.14,
+            "O": 9.832,
+            "N": 6.88,
+            "L": 6.51,
+            "R": 6.37,
+            "T": 5.623
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Turkish": {
+        "pie": {
+            "A": 11.92,
+            "E": 8.912,
+            "I": 8.60,
+            "N": 7.487,
+            "R": 6.722,
+            "L": 5.922
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Swedish": {
+        "pie": {
+            "E": 10.149,
+            "A": 9.383,
+            "N": 8.542,
+            "R": 8.431,
+            "T": 7.691,
+            "I": 5.817,
+            "L": 5.275
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Letter Frequencies in Polish": {
+        "pie": {
+            "A": 8.965,
+            "I": 8.286,
+            "E": 7.921,
+            "O": 7.590,
+            "Z": 5.620,
+            "N": 5.600
+        },
+        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
+        "tags": [
+            "Language"
+        ],
+        "down": true
+    },
+    "Colgate Dentist Recommendations": {
+        "pie": {
+            "Recommend": 90,
+            "Not Recommend": 10
+        },
+        "link": "https://www.reddit.com/r/explainlikeimfive/comments/6sil6u/eli5_why_do_toothpaste_ads_say_9_out_of_10/",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Dettol Antiseptic Germicide Liquid Kill Rate": {
+        "pie": {
+            "Kill": 99.9,
+            "Not Kill": 0.1
+        },
+        "link": "https://www.watsons.com.sg/antiseptic-germicide-liquid-kills-99.9-germs-1l/p/BP_30773?srsltid=AfmBOoqVTufJocwfXceaffCDge2r6KC6f7P0OasFb6sZ8fv208Zi1caZ",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Nutella Ingredients (Singapore)": {
+        "pie": {
+            "Hazelnuts": 13,
+            "Skimmed Milk Powder": 8.7,
+            "Fat-reduced Cocoa": 7.4
+        },
+        "link": "https://www.nutella.com/sg/en/products/nutella",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Atmospheric Composition of Mars": {
+        "pie": {
+            "Carbon Dioxide": 95.9,
+            "Argon": 2,
+            "Nitrogen": 1.9,
+            "Oxygen": 0.146,
+            "Carbon Monoxide": 0.06
+        },
+        "link": "https://en.wikipedia.org/wiki/Composition_of_Mars#/media/File:PIA16460_Mars_Atmosphere_Gases_20121102.svg",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Earth Surface Water Composition": {
+        "pie": {
+            "Oceans": 96.5,
+            "Ice Caps": 1.74,
+            "Groundwater": 1.69,
+            "Lakes": 0.013
+        },
+        "link": "https://water.usgs.gov/edu/earthhowmuch.html",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Agricultural Land Usage Types (2019)": {
+        "pie": {
+            "Livestock": 77,
+            "Crops": 23
+        },
+        "link": "https://en.wikipedia.org/wiki/Earth#/media/File:Global-land-use-graphic.png",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Earth's Surface (Land vs Water)": {
+        "pie": {
+            "Water": 71,
+            "Land": 29
+        },
+        "link": "https://en.wikipedia.org/wiki/Earth#/media/File:Earth%27s_Sphere_Biosphere_Hydrosphere_Lithosphere_Atmosphere.svg",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Breakdown of Habitable Land on Earth": {
+        "pie": {
+            "Agriculture": 50,
+            "Forests": 37,
+            "Shrub": 11,
+            "Urban": 1,
+            "Freshwater": 1
+        },
+        "link": "https://en.wikipedia.org/wiki/Earth#/media/File:Global-land-use-graphic.png",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Elemental Composition of Jupiter": {
+        "pie": {
+            "Hydrogen": 89,
+            "Helium": 10,
+            "Methane": 0.3,
+            "Ammonia": 0.026,
+            "Hydrogen Deuteride": 0.0026
+        },
+        "link": "https://en.wikipedia.org/wiki/Jupiter",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Elemental Composition of the Sun": {
+        "pie": {
+            "Hydrogen": 73.46,
+            "Helium": 24.85,
+            "Oxygen": 0.77,
+            "Carbon": 0.29,
+            "Iron": 0.16,
+            "Neon": 0.12,
+            "Nitrogen": 0.091,
+            "Silicon": 0.065,
+            "Magnesium": 0.055,
+            "Sulfur": 0.04
+        },
+        "link": "https://en.wikipedia.org/wiki/Sun",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Atmospheric Composition of Venus": {
+        "pie": {
+            "Carbon Dioxide": 96.5,
+            "Nitrogen": 3.5,
+            "Sulfur Dioxide": 0.015,
+            "Argon": 0.007
+        },
+        "link": "https://en.wikipedia.org/wiki/Venus",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Elemental Composition of Saturn": {
+        "pie": {
+            "Hydrogen": 96.3,
+            "Helium": 3.25,
+            "Methane": 0.45,
+            "Ammonia": 0.0125,
+            "Hydrogen Deuteride": 0.011
+        },
+        "link": "https://en.wikipedia.org/wiki/Saturn",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Elemental Composition of Uranus": {
+        "pie": {
+            "Hydrogen": 83,
+            "Helium": 15,
+            "Methane": 2.3,
+            "Hydrogen Deuteride": 0.009
+        },
+        "link": "https://en.wikipedia.org/wiki/Uranus",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Elemental Composition of Neptune": {
+        "pie": {
+            "Hydrogen": 80,
+            "Helium": 19,
+            "Methane": 1.5,
+            "Hydrogen Deuteride": 0.019
+        },
+        "link": "https://en.wikipedia.org/wiki/Neptune",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Ethnic Composition of United States (2020)": {
+        "pie": {
+            "White": 61.6,
+            "Black": 12.4,
+            "Asian": 6,
+            "Native American": 1.1,
+            "Pacific Islander": 0.2
+        },
+        "link": "https://en.wikipedia.org/wiki/United_States",
+        "tags": [
+            "Geography"
+        ],
+        "down": true
+    },
+    "Religion Composition of United States (2023)": {
+        "pie": {
+            "Christianity": 67,
+            "Unaffiliated": 22,
+            "Judaism": 2
+        },
+        "link": "https://en.wikipedia.org/wiki/Religion_in_the_United_States",
+        "tags": [
+            "Religion",
+            "Geography"
+        ],
+        "down": true
+    },
+    "Ethnic Composition of United Kingdom (2021)": {
+        "pie": {
+            "White": 83.0,
+            "Asian": 8.6,
+            "Black": 3.7,
+            "Mixed": 2.7
+        },
+        "link": "https://en.wikipedia.org/wiki/United_Kingdom",
+        "tags": [
+            "Geography"
+        ],
+        "down": true
+    },
+    "Religion Composition of United Kingdom (2021)": {
+        "pie": {
+            "Christianity": 46.5,
+            "No Religion": 37.8,
+            "Islam": 6.0,
+            "Hinduism": 1.6,
+            "Sikhism": 0.8
+        },
+        "link": "https://en.wikipedia.org/wiki/United_Kingdom",
+        "tags": [
+            "Religion",
+            "Geography"
+        ],
+        "down": true
+    },
+    "Ethnic Composition of China (2020)": {
+        "pie": {
+            "Han": 91.1
+        },
+        "link": "https://en.wikipedia.org/wiki/China",
+        "tags": [
+            "Geography"
+        ],
+        "down": true
+    },
+    "Religion Composition of China (2023)": {
+        "pie": {
+            "Buddhism": 33.4,
+            "No Religion": 25.2,
+            "Taoism": 19.6,
+            "Christianity": 2.5,
+            "Islam": 1.6
+        },
+        "link": "https://en.wikipedia.org/wiki/Religion_in_China",
+        "tags": [
+            "Religion",
+            "Geography"
+        ],
+        "down": true
+    },
+    "Religion Composition of India (2011)": {
+        "pie": {
+            "Hinduism": 79.8,
+            "Islam": 14.2,
+            "Christianity": 2.3,
+            "Sikhism": 1.7,
+            "Buddhism": 0.7
+        },
+        "link": "https://en.wikipedia.org/wiki/India",
+        "tags": [
+            "Religion",
+            "Geography"
+        ],
+        "down": true
+    },
+    "Country Population Share (2025)": {
+        "pie": {
+            "India": 17.78,
+            "China": 17.39,
+            "United States": 4.23,
+            "Indonesia": 3.47,
+            "Pakistan": 3.08,
+            "Nigeria": 2.85
+        },
+        "link": "https://www.worldometers.info/world-population/population-by-country/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Continent Population Share (2021)": {
+        "pie": {
+            "Asia": 59.4,
+            "Africa": 17.6,
+            "Europe": 9.4,
+            "North America": 7.5,
+            "South America": 5.5,
+            "Oceania": 0.6
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_continents_and_continental_subregions_by_population",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Continental Subregion Population Share (2021)": {
+        "pie": {
+            "Southern Asia": 25.2,
+            "Eastern Asia": 21.0,
+            "South-Eastern Asia": 8.5,
+            "Eastern Africa": 5.8,
+            "South America": 5.5,
+            "Western Africa": 5.3,
+            "Northern America": 4.7,
+            "Eastern Europe": 3.7
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_continents_and_continental_subregions_by_population",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Country Population Share (1900)": {
+        "pie": {
+            "British Empire": 23.51,
+            "Qing China": 23.5,
+            "Russian Empire": 8,
+            "United States": 4.6,
+            "French Empire": 4.6,
+            "German Empire": 4.0,
+            "Austria-Hungary": 2.8,
+            "Dutch Empire": 2.8
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1900",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Country Population Share (1800)": {
+        "pie": {
+            "Qing China": 30.4,
+            "Maratha Confederacy": 14.5,
+            "Britain": 5,
+            "Holy Roman Empire": 4.2,
+            "France": 4,
+            "Russian Empire": 3.6,
+            "Tokugawa Japan": 3,
+            "Spain": 2.7
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1800",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Country Population Share (1700)": {
+        "pie": {
+            "Mughal Empire": 23,
+            "Qing Empire": 22,
+            "Ottoman Empire": 4,
+            "Holy Roman Empire": 4,
+            "Tokugawa Japan": 4,
+            "Spain": 3.6,
+            "France": 3.1,
+            "Tsardom of Russia": 2
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1700",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Country Population Share (1600)": {
+        "pie": {
+            "Ming China": 27.6,
+            "Mughal Empire": 19.9,
+            "Holy Roman Empire": 5.2,
+            "Iberian Union": 5,
+            "Ottoman Empire": 5,
+            "Kingdom of France": 3.5
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1600",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Country Population Share (1 C.E.)": {
+        "pie": {
+            "Han China": 22.62,
+            "Roman Empire": 21.18,
+            "Satavahana Dynasty": 7.84,
+            "Parthian Empire": 7.84,
+            "Xiongnu Empire": 0.78
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1_CE",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Singapore 2020 Election Party Results": {
+        "pie": {
+            "PAP": 61.23,
+            "WP": 11.22,
+            "PSP": 10.18
+        },
+        "link": "https://en.wikipedia.org/wiki/2020_Singaporean_general_election",
+        "tags": [
+            "Geography",
+            "Singapore"
+        ]
+    }
+}

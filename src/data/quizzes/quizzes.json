@@ -35,6 +35,10 @@
     "title": "Match Master",
     "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
   },
+  "pie": {
+    "title": "Pie Chart Puzzle",
+    "heroText": "Given a random pie chart, guess what the chart represents! MCQ of course."
+  },
   "position": {
     "title": "Position Puzzle",
     "heroText": "Given random points on a blank map, must match them to their correct IRL locations!"

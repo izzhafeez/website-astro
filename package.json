@@ -43,6 +43,7 @@
     "astro-seo": "^0.8.3",
     "axios": "^1.6.8",
     "cjs": "^0.0.11",
+    "d3": "^7.9.0",
     "fast-levenshtein": "^3.0.0",
     "flowbite": "^2.3.0",
     "framer-motion": "^11.2.10",
