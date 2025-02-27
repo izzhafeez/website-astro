@@ -61,7 +61,7 @@ const seoImg = await images[`/src/img/quizzes/pie/${Astro.params.quiz}.jpg`]().t
 <Layout>
   <div slot="main" class="">
     <NavBar/>
-    <PageFind pageName={`${Astro.props.title} (Position Puzzle)`} heroText={Astro.props.instructions}/>
+    <PageFind pageName={`${Astro.props.title} (Pie Chart Puzzle)`} heroText={Astro.props.instructions}/>
     <PiePuzzle client:only="svelte" key={Astro.params.quiz} data={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions}/>
     <Footer site="quizzes"/>
   </div>
