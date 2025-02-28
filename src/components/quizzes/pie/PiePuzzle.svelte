@@ -34,15 +34,45 @@
   function handleNext() {
     // select N random distinct options in the data
     options = [];
+    // each chosen option must not have an overlapping biword with any other chosen option
+    let biwords = new Set();
+    let count = 0;
     for (let i = 0; i < N; i++) {
       let index = Math.floor(randomiser() * data.length);
-      while (options.includes(data[index])) {
+      while (true) {
+        count++;
+        // check for overlapping biword
+        let newBiwords = getBiwords(data[index][0]);
+        let overlap = false;
+        for (let biword of newBiwords) {
+          if (biwords.has(biword)) {
+            overlap = true;
+            break;
+          }
+        }
+
+        if ((!options.includes(data[index]) && (!overlap || count > 100))) {
+          for (let biword of newBiwords) {
+            biwords.add(biword);
+          }
+          break;
+        }
+
         index = Math.floor(randomiser() * data.length);
       }
       options.push(data[index]);
     }
     // answer is a random index
     answer = Math.floor(randomiser() * N);
+  }
+
+  function getBiwords(text) {
+    let words = text.split(' ');
+    let biwords = new Set();
+    for (let i = 0; i < words.length - 1; i++) {
+      biwords.add(words[i] + ' ' + words[i + 1]);
+    }
+    return biwords;
   }
 
   const toast = Swal.mixin({
@@ -72,6 +102,6 @@
   {#if !isStart}
     <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} {decodeSeed} {randomiseSeed} bind:seed={seed}/>
   {:else}
-    <GamePage {options} bind:randomiser={randomiser} bind:isStart={isStart} {answer} {handleNext} {randomiserSeed}/>
+    <GamePage {options} bind:randomiser={randomiser} bind:isStart={isStart} {answer} {handleNext} {randomiserSeed} {toast}/>
   {/if}
 </div>

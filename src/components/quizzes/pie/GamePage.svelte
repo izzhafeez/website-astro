@@ -12,6 +12,7 @@
   export let randomiserSeed: string;
   export let randomiser: () => number;
   export let handleNext: () => void;
+  export let toast;
 
   let isPlaying = true;
   let selectedOption = null;
@@ -84,6 +85,16 @@
     selectedOption = null;
     handleNext();
   }
+
+  const handleCopyData = () => {
+    // from link
+    const link = options[answer][1].link;
+    navigator.clipboard.writeText(link);
+    toast.fire({
+      icon: 'success',
+      title: 'Link copied to clipboard',
+    });
+  }
 </script>
 
 <div class="grid">
@@ -111,7 +122,7 @@
     </g>
   </svg>
   <!-- legend -->
-  <div class="mx-auto grid grid-cols-3 gap-x-4 my-2">
+  <div class="mx-auto grid grid-cols-2 md:grid-cols-3 gap-x-4 my-2">
     {#each values.sort((a, b) => a.name == "Others" ? 1 : (-a.value +b.value)) as value, i}
       <div class="flex items-center gap-2">
         <div class="w-4 h-4 rounded-full" style="background-color: {colourScale(value.name)}"></div>
@@ -158,6 +169,10 @@
     >End</button>
     <button
       class="bg-cc-500 hover:bg-cc-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
+      on:click={handleCopyData}
+    >See Data</button>
+    <button
+      class="bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
       on:click={gameHandleNext}
     >Next</button>
   </div>

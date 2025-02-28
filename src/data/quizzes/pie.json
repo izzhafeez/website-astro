@@ -82,7 +82,8 @@
         },
         "link": "https://www.counterpointresearch.com/global-smartphone-share/",
         "tags": [
-            "Technology"
+            "Technology",
+            "Economy"
         ]
     },
     "Earth's Crust Mass Composition": {
@@ -98,7 +99,8 @@
         },
         "link": "https://study.com/academy/lesson/the-earths-crust-facts-layers-temperature-composition.html#:~:text=or%2020%20miles.-,What%20is%20the%20earth's%20crust%20made%20of%3F,of%20Earth's%20crust%20by%20mass.",
         "tags": [
-            "Science"
+            "Science",
+            "Geography"
         ]
     },
     "Global Energy Consumption by Source (2020)": {
@@ -159,44 +161,6 @@
         "link": "https://en.wikipedia.org/wiki/Languages_used_on_the_Internet",
         "tags": [
             "Language",
-            "Technology"
-        ]
-    },
-    "Console Operating System Market Share (2025 StatCounter)": {
-        "pie": {
-            "Xbox": 65.64,
-            "PlayStation": 34.34,
-            "Nintendo": 0.02
-        },
-        "link": "https://gs.statcounter.com/os-market-share/console/worldwide",
-        "tags": [
-            "Technology"
-        ]
-    },
-    "Operating System Market Share (2025 StatCounter)": {
-        "pie": {
-            "Android": 46.18,
-            "Windows": 25.46,
-            "iOS": 18.1,
-            "OS X": 5.32,
-            "Linux": 1.32
-        },
-        "link": "https://gs.statcounter.com/os-market-share",
-        "tags": [
-            "Technology"
-        ]
-    },
-    "Screen Resolution Stats (Jan 2025)": {
-        "pie": {
-            "1920x1080": 8.46,
-            "360x800": 7.38,
-            "390x844": 4.25,
-            "1536x864": 3.88,
-            "393x873": 3.82,
-            "1366x768": 3.78
-        },
-        "link": "https://gs.statcounter.com/screen-resolution-stats",
-        "tags": [
             "Technology"
         ]
     },
@@ -305,7 +269,7 @@
         ],
         "down": true
     },
-    "Letter Frequencies in English Words (Dictionary Entry)": {
+    "Letter Frequencies in English Words": {
         "pie": {
             "E": 11.0,
             "S": 8.7,
@@ -323,7 +287,7 @@
         ],
         "down": true
     },
-    "Letter Frequencies for First Letters in English Texts": {
+    "First Letter Frequencies in English Texts": {
         "pie": {
             "T": 16,
             "A": 11.7,
@@ -339,7 +303,7 @@
         ],
         "down": true
     },
-    "Letter Frequencies for First Letters in English Words (Dictionary Entry)": {
+    "First Letter Frequencies in English Words": {
         "pie": {
             "S": 11,
             "C": 9.4,
@@ -878,8 +842,342 @@
         },
         "link": "https://en.wikipedia.org/wiki/2020_Singaporean_general_election",
         "tags": [
-            "Geography",
+            "Politics",
             "Singapore"
+        ]
+    },
+    "US 2024 Presidential Election": {
+        "pie": {
+            "Trump": 49.8,
+            "Harris": 48.3
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "US 2020 Presidential Election": {
+        "pie": {
+            "Biden": 51.3,
+            "Trump": 46.8
+        },
+        "link": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "US 2016 Presidential Election": {
+        "pie": {
+            "Trump": 46.1,
+            "Clinton": 48.2
+        },
+        "link": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "US 1992 Presidential Election": {
+        "pie": {
+            "Clinton": 43,
+            "Bush": 37.4,
+            "Perot": 18.9
+        },
+        "link": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "2024 Taiwanese Presidential Election": {
+        "pie": {
+            "Lai Ching-te": 40.05,
+            "Hou Yu-ih": 33.49,
+            "Ko Wen-je": 26.46
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_Taiwanese_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "2024 Russian Presidential Election": {
+        "pie": {
+            "Putin": 88.48,
+            "Kharitonov": 4.37
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_Russian_presidential_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "2024 UK General Election": {
+        "pie": {
+            "Starmer": 33.7,
+            "Sunak": 23.7,
+            "Davey": 12.2
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_United_Kingdom_general_election",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "2024 Japanese General Election (Constituency)": {
+        "pie": {
+            "Ishiba": 38.46,
+            "Noda": 29.01,
+            "Baba": 11.15,
+            "Tamaki": 4.33,
+            "Ishii": 1.35
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_Japanese_general_election",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "2019 North Korean Parliamentary Election": {
+        "pie": {
+            "WPK": 100
+        },
+        "link": "https://en.wikipedia.org/wiki/2019_North_Korean_parliamentary_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "2024 Indonesian General Election": {
+        "pie": {
+            "Prabowo": 58.59,
+            "Anies": 24.95,
+            "Ganjar": 16.47
+
+        },
+        "link": "https://en.wikipedia.org/wiki/2024_Indonesian_general_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "Singapore GDP by Sector (2017)": {
+        "pie": {
+            "Services": 75.2,
+            "Industry": 24.8,
+            "Agriculture": 0.5
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Singapore",
+        "tags": [
+            "Geography",
+            "Economy",
+            "Singapore"
+        ]
+    },
+    "US GDP by Sector (2017)": {
+        "pie": {
+            "Services": 80.2,
+            "Industry": 18.9,
+            "Agriculture": 0.9
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "US Main Export Partners (2024)": {
+        "pie": {
+            "European Union": 17.9,
+            "Canada": 16.9,
+            "Mexico": 16.2,
+            "China": 7.0,
+            "Japan": 3.9
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Singapore Main Import Partners (2021)": {
+        "pie": {
+            "United States": 22.43,
+            "China": 10.65,
+            "Japan": 4.71,
+            "United Kingdom": 3.59
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Singapore",
+        "tags": [
+            "Geography",
+            "Economy",
+            "Singapore"
+        ]
+    },
+    "China GDP by Sector (2024)": {
+        "pie": {
+            "Services": 56.8,
+            "Industry": 36.5,
+            "Agriculture": 6.8
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_China",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "China Main Export Partners (2024)": {
+        "pie": {
+            "ASEAN": 16.4,
+            "United States": 14.7,
+            "European Union": 14.4,
+            "Hong Kong": 8.1,
+            "Japan": 4.2,
+            "South Korea": 4.1,
+            "India": 3.7
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_China",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Ethiopia GDP by Sector (2020)": {
+        "pie": {
+            "Services": 36.81,
+            "Agriculture": 35.5,
+            "Industry": 23.11
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Ethiopia",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "North Korea GDP by Sector (2023)": {
+        "pie": {
+            "Industry": 47.1,
+            "Services": 30.9,
+            "Agriculture": 22 
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_North_Korea",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Japan Export Goods (2024)": {
+        "pie": {
+            "Transport Equipment": 21,
+            "Machinery": 19.9,
+            "Electrical Machinery": 18.7,
+            "Chemicals": 12.4,
+            "Manufactured Goods": 10.4,
+            "Raw Materials": 1.7
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Japan",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Canada Main Export Partners (2023)": {
+        "pie": {
+            "United States": 76.9,
+            "European Union": 4.6,
+            "China": 3.7,
+            "United Kingdom": 2.4,
+            "Japan": 2.3
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Canada",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Russia Main Import Partners (2023)": {
+        "pie": {
+            "China": 54.3,
+            "Turkey": 5.2,
+            "Germany": 4.7,
+            "Kazakhstan": 4.7
+        },
+        "link": "https://en.wikipedia.org/wiki/Economy_of_Russia",
+        "tags": [
+            "Geography",
+            "Economy"
+        ]
+    },
+    "Contents of 9K Gold": {
+        "pie": {
+            "Gold": 37.5
+        },
+        "link": "https://www.onecklace.com/tips/karat-gold-understanding-gold-purity/?srsltid=AfmBOoo97_HXLSWRWs7ResG98YrzKJvEyINivjKonfL2ZAMgzqNILFrE",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Contents of 22K Gold": {
+        "pie": {
+            "Gold": 91.7
+        },
+        "link": "https://www.onecklace.com/tips/karat-gold-understanding-gold-purity/?srsltid=AfmBOoo97_HXLSWRWs7ResG98YrzKJvEyINivjKonfL2ZAMgzqNILFrE",
+        "tags": [
+            "Science"
+        ]
+    },
+    "1938 German Parliamentary Election": {
+        "pie": {
+            "Hitler": 99.1
+        },
+        "link": "https://en.wikipedia.org/wiki/1938_German_federal_election",
+        "tags": [
+            "Politics"
+        ]
+    },
+    "Languages of India by Language Family": {
+        "pie": {
+            "Sino-Tibetan": 34.9,
+            "Indo-European": 33.01,
+            "Dravidian": 19.81,
+            "Austroasiatic": 7.54,
+            "Andamanese": 3.3,
+            "Kra-Dai": 1.17
+        },
+        "link": "https://en.wikipedia.org/wiki/Languages_of_India",
+        "tags": [
+            "Language"
+        ]
+    },
+    "Character Frequency of 阳光彩虹小白马 Chorus": {
+        "pie": {
+            "内": 43.24,
+            "个": 16.22,
+            "滴": 10.81,
+            "哒": 5.41
+        },
+        "link": "https://genius.com/Wowkie-da-sunshine-rainbow-white-pony-lyrics",
+        "tags": [
+            "Language",
+            "Music"
+        ]
+    },
+    "Word Frequency of Baby Justin Bieber Chorus": { 
+        "pie": {
+            "Baby": 42.857,
+            "Oh": 9.524,
+            "Like": 9.523,
+            "Mine": 9.523
+        },
+        "link": "https://genius.com/Justin-bieber-baby-lyrics",
+        "tags": [
+            "Language",
+            "Music"
+        ]
+    },
+    "Word Frequency of Halo Beyonce Post-Chorus": {
+        "pie": {
+            "Halo": 41.38,
+            "I": 13.79,
+            "Can": 13.79,
+            "Your": 13.79
+        },
+        "link": "https://genius.com/Beyonce-halo-lyrics",
+        "tags": [
+            "Language",
+            "Music"
         ]
     }
 }
