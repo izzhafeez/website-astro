@@ -1179,5 +1179,152 @@
             "Language",
             "Music"
         ]
+    },
+    "Word Frequency of Never Gonne Give You Up Chorus": {
+        "pie": {
+            "Never": 17.64,
+            "Gonna": 17.64,
+            "You": 14.71,
+            "And": 5.88
+        },
+        "link": "https://genius.com/Rick-astley-never-gonna-give-you-up-lyrics",
+        "tags": [
+            "Language",
+            "Music"
+        ]
+    },
+    "Philippines Religion Breakdown (2020)": {
+        "pie": {
+            "Christianity": 91.5,
+            "Islam": 6.4,
+            "No Religion": 2
+        },
+        "link": "https://en.wikipedia.org/wiki/Philippines",
+        "tags": [
+            "Religion",
+            "Geography"
+        ]
+    },
+    "Highest Human Body Water Content": {
+        "pie": {
+            "Water": 78
+        },
+        "link": "https://en.wikipedia.org/wiki/Body_water",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Sugars Composition of Apples": {
+        "pie": {
+            "Fructose": 56.7,
+            "Glucose": 23.08,
+            "Sucrose": 20.19
+        },
+        "link": "https://en.wikipedia.org/wiki/Glucose",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Sugars Composition of Peaches": {
+        "pie": {
+            "Fructose": 17.86,
+            "Glucose": 23.81,
+            "Sucrose": 57.14
+        },
+        "link": "https://en.wikipedia.org/wiki/Glucose",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Sugars Composition of Beets": {
+        "pie": {
+            "Fructose": 1.47,
+            "Glucose": 1.47,
+            "Sucrose": 95.59
+        },
+        "link": "https://en.wikipedia.org/wiki/Glucose",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Sugars Composition of Onions": {
+        "pie": {
+            "Fructose": 40,
+            "Glucose": 46,
+            "Sucrose": 14
+        },
+        "link": "https://en.wikipedia.org/wiki/Glucose",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Durian Nutritional Composition": {
+        "pie": {
+            "Carbohydrates": 27,
+            "Fat": 5,
+            "Protein": 1,
+            "Water": 65
+        },
+        "link": "https://en.wikipedia.org/wiki/Durian",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Watermelon Nutritional Composition": {
+        "pie": {
+            "Sugars": 6,
+            "Water": 91
+        },
+        "link": "https://en.wikipedia.org/wiki/Watermelon",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Lays Chips Bag Air Content": {
+        "pie": {
+            "Air": 41,
+            "Chips": 59
+        },
+        "link": "https://kitchencabinetkings.com/ideas/how-much-air-is-in-your-bag-of-chips?srsltid=AfmBOoo0duMrwxnuZQtT4DryV9Tt9wedMSFsCB7V3nC7ryxt_13kZqCm",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Percentage Breakdown in 'Remember the Name'": {
+        "pie": {
+            "Luck": 10,
+            "Skill": 20,
+            "Will": 15,
+            "Pleasure": 5,
+            "Pain": 50
+        },
+        "link": "https://genius.com/Fort-minor-remember-the-name-lyrics",
+        "tags": [
+            "Language",
+            "Music"
+        ]
+    },
+    "Cambridge O Level Physics Assessment Weightages (2025)": {
+        "pie": {
+            "Paper 1": 30,
+            "Paper 2": 50,
+            "Paper 3/4": 20
+        },
+        "link": "https://www.cambridgeinternational.org/Images/595446-2023-2025-syllabus.pdf",
+        "tags": [
+            "Science"
+        ]
+    },
+    "Assessment Components for CS1231S Discrete Structures": {
+        "pie": {
+            "Midterm": 25,
+            "Finals": 50,
+            "Assignments": 20,
+            "Tutorial Attendance": 5
+        },
+        "link": "https://www.comp.nus.edu.sg/~cs1231/",
+        "tags": [
+            "Science"
+        ]
     }
 }

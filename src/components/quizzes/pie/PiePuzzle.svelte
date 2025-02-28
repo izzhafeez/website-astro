@@ -9,7 +9,7 @@
   export let key;
 
   let N = 4;
-  let possible_N = [2, 3, 4, 5, 6, 7, 8];
+  let possible_N = [2, 4, 6, 8, 10, 12, 16, 20];
   let options = [];
   let answer = 0;
 
@@ -17,7 +17,8 @@
   let randomiserSeed = Math.floor(Math.random() * 1000000);
   let randomiser = seededRandom(randomiserSeed);
   let encodeSeed = () => {
-    return `${N}${randomiserSeed}`;
+    const N_index = possible_N.indexOf(N);
+    return `${N_index}${randomiserSeed}`;
   }
   let randomiseSeed = () => {
     randomiserSeed = Math.floor(Math.random() * 1000000);
@@ -26,7 +27,7 @@
   }
   let seed = encodeSeed();
   let decodeSeed = () => {
-    N = parseInt(seed[0]);
+    N = possible_N[parseInt(seed[0])];
     randomiserSeed = parseInt(seed.slice(1));
     randomiser = seededRandom(randomiserSeed);
   }
@@ -36,8 +37,9 @@
     options = [];
     // each chosen option must not have an overlapping biword with any other chosen option
     let biwords = new Set();
+    let maxPercentages = new Set();
     let count = 0;
-    for (let i = 0; i < N; i++) {
+    for (let i = 0; i < Math.min(N, data.length); i++) {
       let index = Math.floor(randomiser() * data.length);
       while (true) {
         count++;
@@ -51,7 +53,14 @@
           }
         }
 
-        if ((!options.includes(data[index]) && (!overlap || count > 100))) {
+        let newMaxPercentage = getMaxPercentage(data[index][1]);
+        if (maxPercentages.has(newMaxPercentage)) {
+          overlap = true;
+        } else {
+          maxPercentages.add(newMaxPercentage);
+        }
+
+        if ((!options.includes(data[index]) && ((!overlap) || count > 100))) {
           for (let biword of newBiwords) {
             biwords.add(biword);
           }
@@ -73,6 +82,10 @@
       biwords.add(words[i] + ' ' + words[i + 1]);
     }
     return biwords;
+  }
+
+  function getMaxPercentage(pie) {
+    return Math.max(Object.values(pie));
   }
 
   const toast = Swal.mixin({
