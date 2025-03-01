@@ -82,7 +82,7 @@
     <div class="flex gap-2 mt-2">
       Select to assign:
       {#each colors.slice(0, N) as color, i}
-        <button aria-label="wah" class={`border-4 ${colorId == i ? "border-opacity-100 dark:border-opacity-100" : "border-opacity-0 dark:border-opacity-0"} border-black dark:border-white w-4 h-4 grid bg-[${color}] my-auto`} on:click={() => {colorId = i}}></button>
+        <button aria-label="wah" class={`border-2 ${colorId == i ? "border-opacity-100 dark:border-opacity-100" : "border-opacity-0 dark:border-opacity-0"} border-black dark:border-white w-4 h-4 grid bg-[${color}] my-auto`} on:click={() => {colorId = i}}></button>
       {/each}
     </div>
   {:else}
