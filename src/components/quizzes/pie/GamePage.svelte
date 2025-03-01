@@ -1,39 +1,33 @@
 <script lang="ts">
   import party from 'party-js';
-  import { fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
-  import { Canvas, Layer } from 'svelte-canvas';
   import * as d3 from 'd3';
-  import seededRandom from '../../common/seededRandom';
 
   export let options: any[];
   export let isStart: boolean;
   export let answer: number;
-  export let randomiserSeed: string;
-  export let randomiser: () => number;
   export let handleNext: () => void;
   export let toast;
 
   let isPlaying = true;
-  let selectedOption = null;
+  let selectedOption: any = null;
 
   $: rawValues = Object.entries(options[answer][1].pie).map(([k, v]) => ({ name: k, value: v }));
-  $: sumValues = rawValues.reduce((acc, cur) => acc + cur.value, 0);
-  $: remainingValue = 100 - sumValues;
-  $: values = rawValues.concat([{ name: "Others", value: remainingValue.toFixed(1) }]);
+  $: sumValues = rawValues.reduce((acc, cur) => acc + (cur.value as number), 0);
+  $: remainingValue = Math.max(100 - sumValues, 0);
+  $: values = rawValues.concat(remainingValue > 1 ? [{ name: "Others", value: remainingValue.toFixed(1) }] : []);
 
-  let colors = ['#009645', '#D42E12', '#9900AA', '#FA9E0D', "#005EC4", "#DDDD55", "#0099AA", "#777777"];
   const width = 300;
   const height = 300;
   // let colors = ['green', 'red', 'purple', 'orange', 'blue', 'yellow', 'gray', 'pink']
   $: colourScale = d3.scaleOrdinal()
 		.domain((values||[]).map(d => d.name))
-		.range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), (values||[]).length).reverse())
+		.range(d3.quantize((t: any) => d3.interpolateSpectral(t * 0.8 + 0.1), (values||[]).length).reverse())
 
   // Create the pie layout and arc generator.
   $: pie = d3.pie()
-		.sort(null)
-		.value(d => d.value);
+		.sort((a: any, b: any) => d3.descending(a.name, b.name))
+		.value((d: any) => d.value);
 
   $: arcPath = d3.arc()
 		// control the style of the pie slices;
@@ -42,11 +36,6 @@
 		.outerRadius(Math.min(width, height) / 2 - 1);
 
   $: labelRadius = arcPath.outerRadius()() * 0.8;
-
-  // A separate arc generator for labels.
-  $: arcLabel = d3.arc()
-		.innerRadius(labelRadius)
-		.outerRadius(labelRadius);
 
   $: arcs = pie(values||[]);
 
@@ -62,22 +51,16 @@
     isPlaying = false;
 
     if (selectedOption === options[answer][0]) {
-      Swal.fire({
-        title: 'Correct',
-        html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
-      })
-    } else {
-      Swal.fire({
-        title: 'Incorrect',
-        html: `<img src="/img/quizzes/haiya.gif"/>`,
-      });
+      const optionsSection = document.getElementById('options-section');
+      if (optionsSection) {
+        party.confetti(optionsSection);
+      }
     }
   };
 
   const handleEnd = () => {
     isPlaying = true;
     isStart = false;
-    randomiser = seededRandom(randomiserSeed);
   };
 
   const gameHandleNext = () => {
@@ -132,7 +115,7 @@
   </div>
 
   <!-- options -->
-  <div class="grid grid-cols-2 gap-4">
+  <div class="grid grid-cols-2 gap-4" id="options-section">
     {#each options as option, i}
       <button
         class="rounded-md px-2 py-1"

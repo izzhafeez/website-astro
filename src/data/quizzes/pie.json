@@ -11,7 +11,7 @@
             "Science"
         ]
     },
-    "Ethnic Composition of Singapore (2020)" :{
+    "Ethnicities in Singapore (2020)" :{
         "pie": {
             "Chinese": 75.9,
             "Malay": 15.0,
@@ -23,7 +23,7 @@
             "Singapore"
         ]
     },
-    "Global Religious Composition (2020)": {
+    "Global Religions (2020)": {
         "pie": {
             "Christianity": 31.1,
             "Islam": 24.9,
@@ -38,7 +38,7 @@
             "Geography"
         ]
     },
-    "Religious Composition of Singapore (2020)": {
+    "Religions in Singapore (2020)": {
         "pie": {
             "Buddhism": 31.1,
             "No Religion": 20,
@@ -373,38 +373,6 @@
         ],
         "down": true
     },
-    "Letter Frequencies in Portuguese": {
-        "pie": {
-            "A": 14.634,
-            "E": 13.101,
-            "O": 9.735,
-            "S": 6.805,
-            "R": 6.530,
-            "I": 6.186
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in Italian": {
-        "pie": {
-            "E": 11.74,
-            "A": 11.79,
-            "I": 10.14,
-            "O": 9.832,
-            "N": 6.88,
-            "L": 6.51,
-            "R": 6.37,
-            "T": 5.623
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
     "Letter Frequencies in Turkish": {
         "pie": {
             "A": 11.92,
@@ -495,7 +463,7 @@
             "Science"
         ]
     },
-    "Earth Surface Water Composition": {
+    "Sources of Earth's Surface Water": {
         "pie": {
             "Oceans": 96.5,
             "Ice Caps": 1.74,
@@ -517,7 +485,7 @@
             "Geography"
         ]
     },
-    "Earth's Surface (Land vs Water)": {
+    "Earth's Surface Land and Water": {
         "pie": {
             "Water": 71,
             "Land": 29
@@ -527,7 +495,7 @@
             "Geography"
         ]
     },
-    "Breakdown of Habitable Land on Earth": {
+    "Types of Habitable Land on Earth": {
         "pie": {
             "Agriculture": 50,
             "Forests": 37,
@@ -620,7 +588,7 @@
             "Science"
         ]
     },
-    "Ethnic Composition of United States (2020)": {
+    "Ethnicities in the United States (2020)": {
         "pie": {
             "White": 61.6,
             "Black": 12.4,
@@ -634,7 +602,7 @@
         ],
         "down": true
     },
-    "Religion Composition of United States (2023)": {
+    "Religions in the United States (2023)": {
         "pie": {
             "Christianity": 67,
             "Unaffiliated": 22,
@@ -647,7 +615,7 @@
         ],
         "down": true
     },
-    "Ethnic Composition of United Kingdom (2021)": {
+    "Ethnicities in the United Kingdom (2021)": {
         "pie": {
             "White": 83.0,
             "Asian": 8.6,
@@ -660,7 +628,7 @@
         ],
         "down": true
     },
-    "Religion Composition of United Kingdom (2021)": {
+    "Religions in the United Kingdom (2021)": {
         "pie": {
             "Christianity": 46.5,
             "No Religion": 37.8,
@@ -675,7 +643,7 @@
         ],
         "down": true
     },
-    "Ethnic Composition of China (2020)": {
+    "Ethnicities in China (2020)": {
         "pie": {
             "Han": 91.1
         },
@@ -685,7 +653,7 @@
         ],
         "down": true
     },
-    "Religion Composition of China (2023)": {
+    "Religions in China (2023)": {
         "pie": {
             "Buddhism": 33.4,
             "No Religion": 25.2,
@@ -700,7 +668,7 @@
         ],
         "down": true
     },
-    "Religion Composition of India (2011)": {
+    "Religions in India (2011)": {
         "pie": {
             "Hinduism": 79.8,
             "Islam": 14.2,
@@ -1193,6 +1161,21 @@
             "Music"
         ]
     },
+    "Word Frequency of 'Gimme Gimme Gimme' Chorus": {
+        "pie": {
+            "Gimme": 18.18,
+            "The": 12.12,
+            "A": 6.06,
+            "Man": 6.06,
+            "After": 6.06,
+            "Midnight": 6.06
+        },
+        "link": "https://genius.com/Abba-gimme-gimme-gimme-a-man-after-midnight-lyrics",
+        "tags": [
+            "Language",
+            "Music"
+        ]
+    },
     "Philippines Religion Breakdown (2020)": {
         "pie": {
             "Christianity": 91.5,
@@ -1290,7 +1273,7 @@
             "Science"
         ]
     },
-    "Percentage Breakdown in 'Remember the Name'": {
+    "'Remember the Name' Chorus": {
         "pie": {
             "Luck": 10,
             "Skill": 20,
@@ -1325,6 +1308,144 @@
         "link": "https://www.comp.nus.edu.sg/~cs1231/",
         "tags": [
             "Science"
+        ]
+    },
+    "Percentage of Colors in World Flags": {
+        "pie": {
+            "Red": 28.5,
+            "Blue": 24.6,
+            "White": 18.7,
+            "Green": 13.4,
+            "Yellow": 8.7,
+            "Black": 4.7
+        },
+        "link": "https://www.reddit.com/r/dataisbeautiful/comments/17g8cz7/oc_global_flag_colors_percentage_of_colors_in_the/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Percentage of Colors in European Flags": {
+        "pie": {
+            "Red": 36.5,
+            "Blue": 20.3,
+            "White": 25.4,
+            "Yellow": 9.4,
+            "Green": 4.5
+        },
+        "link": "https://www.reddit.com/r/dataisbeautiful/comments/17g8cz7/oc_global_flag_colors_percentage_of_colors_in_the/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Percentage of Colors in Oceania Flags": {
+        "pie": {
+            "Blue": 47,
+            "Red": 19.8,
+            "White": 9.7,
+            "Yellow": 7.5,
+            "Green": 11.8
+        },
+        "link": "https://www.reddit.com/r/dataisbeautiful/comments/17g8cz7/oc_global_flag_colors_percentage_of_colors_in_the/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Percentage of Colors in Asia Flags": {
+        "pie": {
+            "Red": 38.2,
+            "White": 23.2,
+            "Green": 15.5,
+            "Blue": 11.1,
+            "Black": 5.1,
+            "Yellow": 4.5
+        },
+        "link": "https://www.reddit.com/r/dataisbeautiful/comments/17g8cz7/oc_global_flag_colors_percentage_of_colors_in_the/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on Indonesian Flag": {
+        "pie": {
+            "Red": 50,
+            "White": 50
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on Saudi Arabia Flag": {
+        "pie": {
+            "Green": 94,
+            "White": 6
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on India Flag": {
+        "pie": {
+            "Orange": 33,
+            "Green": 33,
+            "White": 31,
+            "Blue": 2
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on Singapore Flag": {
+        "pie": {
+            "Red": 46,
+            "White": 54
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on China Flag": {
+        "pie": {
+            "Red": 97,
+            "Yellow": 3
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on Austria Flag": {
+        "pie": {
+            "Red": 67,
+            "White": 33
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on UAE Flag": {
+        "pie": {
+            "Red": 25,
+            "Green": 25,
+            "White": 25,
+            "Black": 25
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
+        ]
+    },
+    "Colors on Japan Flag": {
+        "pie": {
+            "Red": 18,
+            "White": 82
+        },
+        "link": "https://gramener.com/flags/",
+        "tags": [
+            "Geography"
         ]
     }
 }

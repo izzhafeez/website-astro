@@ -1,7 +1,6 @@
 <script>
   import GamePage from './GamePage.svelte';
   import StartPage from './StartPage.svelte';
-  import seededRandom from '../../common/seededRandom';
   import Swal from 'sweetalert2';
   export let title;
   export let data;
@@ -9,28 +8,10 @@
   export let key;
 
   let N = 4;
-  let possible_N = [2, 4, 6, 8, 10, 12, 16, 20];
   let options = [];
   let answer = 0;
 
   let isStart = false;
-  let randomiserSeed = Math.floor(Math.random() * 1000000);
-  let randomiser = seededRandom(randomiserSeed);
-  let encodeSeed = () => {
-    const N_index = possible_N.indexOf(N);
-    return `${N_index}${randomiserSeed}`;
-  }
-  let randomiseSeed = () => {
-    randomiserSeed = Math.floor(Math.random() * 1000000);
-    randomiser = seededRandom(randomiserSeed);
-    seed = encodeSeed();
-  }
-  let seed = encodeSeed();
-  let decodeSeed = () => {
-    N = possible_N[parseInt(seed[0])];
-    randomiserSeed = parseInt(seed.slice(1));
-    randomiser = seededRandom(randomiserSeed);
-  }
 
   function handleNext() {
     // select N random distinct options in the data
@@ -40,7 +21,7 @@
     let maxPercentages = new Set();
     let count = 0;
     for (let i = 0; i < Math.min(N, data.length); i++) {
-      let index = Math.floor(randomiser() * data.length);
+      let index = Math.floor(Math.random() * data.length);
       while (true) {
         count++;
         // check for overlapping biword
@@ -67,12 +48,12 @@
           break;
         }
 
-        index = Math.floor(randomiser() * data.length);
+        index = Math.floor(Math.random() * data.length);
       }
       options.push(data[index]);
     }
     // answer is a random index
-    answer = Math.floor(randomiser() * N);
+    answer = Math.floor(Math.random() * N);
   }
 
   function getBiwords(text) {
@@ -99,22 +80,14 @@
           toast.onmouseleave = Swal.resumeTimer;
       }
   });
-
-  const copySeed = () => {
-      navigator.clipboard.writeText(seed);
-      toast.fire({
-          icon: 'success',
-          text: 'Copied Seed',
-      });
-  }
 </script>
 
 <div class="max-w-3xl mx-auto p-2 my-8 md:my-20">
   <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-  <p class=" my-4">{instructions} <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
+  <p class="my-4">{instructions}</p>
   {#if !isStart}
-    <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} {decodeSeed} {randomiseSeed} bind:seed={seed}/>
+    <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart}/>
   {:else}
-    <GamePage {options} bind:randomiser={randomiser} bind:isStart={isStart} {answer} {handleNext} {randomiserSeed} {toast}/>
+    <GamePage {options} bind:isStart={isStart} {answer} {handleNext} {toast}/>
   {/if}
 </div>
