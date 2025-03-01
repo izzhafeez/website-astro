@@ -1,7 +1,5 @@
 <script lang="ts">
   import party from 'party-js';
-  import { fade } from 'svelte/transition';
-  import Swal from 'sweetalert2';
   import { Canvas, Layer } from 'svelte-canvas';
 
   export let locations: string[];
@@ -81,10 +79,11 @@
   </div>
   <div class="grid" id="action-button">
   {#if !isEnd}
-    <div class="flex mx-auto">
-      <button class="hover:opacity-50" on:click={() => {colorId = (colorId + N - 1) % N}}>&lt;</button>
-      &nbsp;<p class="my-2 text-center">Which one is</p> &nbsp; <span class={`bg-[${colors[colorId]}] w-2 h-2 rounded-full my-auto`}></span> &nbsp;<p class="my-auto">?</p>
-      &nbsp;<button class="hover:opacity-50" on:click={() => {colorId = (colorId + 1) % N}}>&gt;</button>
+    <div class="flex gap-2 mt-2">
+      Select to assign:
+      {#each colors.slice(0, N) as color, i}
+        <button aria-label="wah" class={`border-4 ${colorId == i ? "border-opacity-100" : "border-opacity-0"} border-black dark:border-white w-4 h-4 grid bg-[${color}] my-auto`} on:click={() => {colorId = i}}></button>
+      {/each}
     </div>
   {:else}
     <div class="flex mx-auto">

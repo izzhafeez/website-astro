@@ -1447,5 +1447,19 @@
         "tags": [
             "Geography"
         ]
+    },
+    "Eurovision Winners by Country": {
+        "pie": {
+            "Ireland": 9.86,
+            "Sweden": 9.86,
+            "Netherlands": 7.04,
+            "France": 7.04,
+            "United Kingdom": 7.04,
+            "Luxembourg": 7.04
+        },
+        "link": "https://en.wikipedia.org/wiki/List_of_Eurovision_Song_Contest_winners",
+        "tags": [
+            "Music"
+        ]
     }
 }
