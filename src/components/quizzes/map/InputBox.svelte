@@ -24,7 +24,6 @@
   let currentActiveTags = [];
 
   onMount(() => {
-    handleRegex(null);
     const allSearchTerms = new Set();
     for (let answer of Object.values(answers)) {
       for (let location of answer) {
@@ -36,6 +35,7 @@
       }
     }
     allTags = Array.from(allSearchTerms);
+    handleRegex(null);
   })
 
   async function handleEnd(_) {
@@ -180,28 +180,46 @@
     try {
       if (!e) {
         regex = new RegExp(defaultRegex, 'g');
+        currentActiveTags = [];
+        for (let tag of allTags) {
+          if (defaultRegex.includes(tag)) {
+            currentActiveTags.push(tag);
+          }
+        }
       } else if (e === "from-input") {
         regex = new RegExp(regexInput, 'g');
+        currentActiveTags = [];
+        for (let tag of allTags) {
+          if (regexInput.includes(tag)) {
+            currentActiveTags.push(tag);
+          }
+        }
       } else {
         regex = new RegExp(e.target.value, 'g');
         regexInput = e.target.value;
+        currentActiveTags = [];
+        for (let tag of allTags) {
+          if (regexInput.includes(tag)) {
+            currentActiveTags.push(tag);
+          }
+        }
       };
-    } catch(_) {
-      return;
-    }
-    totalScore = 0;
-    for (const v of Object.values(answers)) {
-      for (let i=0; i<v.length; i++) {
-        if (v[i].cleanText.match(regex) || v[i].searchTerms.match(regex)) {
-          totalScore += 1;
-          if (totalScore > FEATURE_LIMIT) continue;
-          v[i].toInclude = true;
-          toAdd.set(v[i].id);
-        } else {
-          v[i].toInclude = false;
-          toRemove.set(v[i].id);
+      totalScore = 0;
+      for (const v of Object.values(answers)) {
+        for (let i=0; i<v.length; i++) {
+          if (v[i].cleanText.match(regex) || v[i].searchTerms.match(regex)) {
+            totalScore += 1;
+            v[i].toInclude = true;
+            toAdd.set(v[i].id);
+          } else {
+            v[i].toInclude = false;
+            toRemove.set(v[i].id);
+          }
         }
       }
+    } catch(err) {
+      console.log(err);
+      return;
     }
   }
 
@@ -229,7 +247,7 @@
     <br/><br/>
     <label for="tags" class="">{allTags.length > 0 ? "Tags:" : ""}</label>
     <div class="flex gap-2 my-2">
-      {#each allTags as tag (tag)}
+      {#each allTags.sort().filter(tag => tag != "None" && tag != "VV") as tag (tag)}
       <button on:click={() => {addRemoveTag(tag)}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={currentActiveTags.includes(tag)} class:text-white={currentActiveTags.includes(tag)}>{tag}</button>
       {/each}
     </div>

@@ -5,6 +5,7 @@ class Location {
     this.label = props.label;
     this.color = props.color || "white";
     this.link = props.link || "";
+    this.searchTerms = props.searchTerms || [];
   }
 }
 

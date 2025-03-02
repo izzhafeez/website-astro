@@ -5,18 +5,12 @@ export const getLocationColor = (colorComparator: string, locationType: string) 
     case "schools":
       return getSchoolColor(colorComparator);
     case "cities":
-    case "japan-cities":
-    case "france-cities":
-    case "china-cities":
-    case "uk-cities":
-    case "spain-cities":
-    case "portugal-cities":
-    case "italy-cities":
-    case "india-cities":
-    case "indonesia-cities":
-    case "philippines-cities":
-    case "usa-cities":
-    case "canada-cities":
+    case "cities-asia":
+    case "cities-europe":
+    case "cities-north-america":
+    case "cities-oceania":
+    case "cities-south-america":
+    case "cities-africa":
       return getCityColor(colorComparator);
     case "bus-stops":
       return getBusStopColor(colorComparator);
@@ -86,9 +80,15 @@ const getCityColor = (colorComparator: string) => {
   const bracketValues = colorComparator.match(bracketRegex);
   if (!bracketValues) return "lrt-500";
   const bracketValue = bracketValues[0];
-  if (bracketValue.includes("1M") || bracketValue.includes("10M")) return "hp-700";
-  if (bracketValue.includes("100K")) return "hp-300";
-  if (bracketValue.includes("10K")) return "hp-100";
+  if (bracketValue.includes("10M")) return "ne-300";
+  if (bracketValue.includes("5M")) return "dt-300";
+  if (bracketValue.includes("2M")) return "ew-300";
+  if (bracketValue.includes("1M")) return "ns-300";
+  if (bracketValue.includes("500K")) return "cc-700";
+  if (bracketValue.includes("200K")) return "cc-500";
+  if (bracketValue.includes("100K")) return "cc-300";
+  if (bracketValue.includes("75K")) return "cc-100";
+  if (bracketValue.includes("50K")) return "white";
   return "white";
 }
 

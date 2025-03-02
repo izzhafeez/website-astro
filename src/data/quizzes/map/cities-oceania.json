@@ -1,0 +1,226 @@
+{
+  "Sydney (AUSTRALIA) [2M]": [
+    151.20732,
+    -33.86785
+  ],
+  "Melbourne (AUSTRALIA) [2M]": [
+    144.96332,
+    -37.814
+  ],
+  "Brisbane (AUSTRALIA) [2M]": [
+    153.02809,
+    -27.46794
+  ],
+  "Perth (AUSTRALIA) [2M]": [
+    115.83333,
+    -31.93333
+  ],
+  "Auckland (NEW ZEALAND) [1M]": [
+    174.766,
+    -36.847
+  ],
+  "Adelaide (AUSTRALIA) [1M]": [
+    138.6,
+    -34.93333
+  ],
+  "Gold Coast - Tweed Heads (AUSTRALIA) [500K]": [
+    153.4,
+    -28.016667
+  ],
+  "Canberra (AUSTRALIA) [200K]": [
+    149.12807,
+    -35.28346
+  ],
+  "Christchurch (NEW ZEALAND) [200K]": [
+    172.637,
+    -43.532
+  ],
+  "Port Moresby (PAPUA NEW GUINEA) [200K]": [
+    147.17972,
+    -9.44314
+  ],
+  "Honolulu, HI (UNITED STATES) [200K]": [
+    -157.86,
+    21.306
+  ],
+  "Newcastle (AUSTRALIA) [200K]": [
+    151.77647,
+    -32.92715
+  ],
+  "Central Coast (AUSTRALIA) [200K]": [
+    151.192222,
+    -33.299167
+  ],
+  "Sunshine Coast (AUSTRALIA) [200K]": [
+    153.05,
+    -26.68
+  ],
+  "Wollongong (AUSTRALIA) [200K]": [
+    150.88333,
+    -34.43333
+  ],
+  "Wellington (NEW ZEALAND) [200K]": [
+    174.776,
+    -41.286
+  ],
+  "Hobart (AUSTRALIA) [100K]": [
+    147.32941,
+    -42.87936
+  ],
+  "Geelong (AUSTRALIA) [100K]": [
+    144.36069,
+    -38.14711
+  ],
+  "Hamilton (NEW ZEALAND) [100K]": [
+    175.284,
+    -37.788
+  ],
+  "Townsville (AUSTRALIA) [100K]": [
+    146.8,
+    -19.25
+  ],
+  "Tauranga (NEW ZEALAND) [100K]": [
+    176.167,
+    -37.687
+  ],
+  "Cairns (AUSTRALIA) [100K]": [
+    145.7666667,
+    -16.9166667
+  ],
+  "Lae (PAPUA NEW GUINEA) [100K]": [
+    147.0,
+    -6.733333
+  ],
+  "Honiara (SOLOMON ISLANDS) [100K]": [
+    159.9546777,
+    -9.4317649
+  ],
+  "Darwin (AUSTRALIA) [100K]": [
+    130.841,
+    -12.438
+  ],
+  "Lower Hutt (NEW ZEALAND) [100K]": [
+    174.905,
+    -41.208
+  ],
+  "Toowoomba (AUSTRALIA) [100K]": [
+    151.9666667,
+    -27.55
+  ],
+  "Ballarat (AUSTRALIA) [100K]": [
+    143.85,
+    -37.55
+  ],
+  "Dunedin (NEW ZEALAND) [100K]": [
+    170.503,
+    -45.875
+  ],
+  "Bendigo (AUSTRALIA) [100K]": [
+    144.28024,
+    -36.75818
+  ],
+  "Noumea (FRANCE) [75K]": [
+    166.458,
+    -22.2758
+  ],
+  "Suva (FIJI) [75K]": [
+    178.4419,
+    -18.1416
+  ],
+  "Nasinu (FIJI) [75K]": [
+    178.5,
+    -18.066667
+  ],
+  "Albury-Wodonga (AUSTRALIA) [75K]": [
+    146.91667,
+    -36.08333
+  ],
+  "Maitland (AUSTRALIA) [75K]": [
+    151.551,
+    -32.732
+  ],
+  "Palmerston North (NEW ZEALAND) [75K]": [
+    175.612,
+    -40.356
+  ],
+  "Launceston (AUSTRALIA) [75K]": [
+    147.1666667,
+    -41.45
+  ],
+  "Mackay (AUSTRALIA) [75K]": [
+    149.04265,
+    -21.08189
+  ],
+  "Melton (AUSTRALIA) [75K]": [
+    144.62292,
+    -37.68144
+  ],
+  "Bunbury (AUSTRALIA) [75K]": [
+    115.66214,
+    -33.35487
+  ],
+  "Lautoka (FIJI) [50K]": [
+    177.456650763215,
+    -17.6059957047882
+  ],
+  "Nadi (FIJI) [50K]": [
+    177.415204671544,
+    -17.8035856957409
+  ],
+  "Napier (NEW ZEALAND) [50K]": [
+    176.916,
+    -39.492
+  ],
+  "Rockhampton (AUSTRALIA) [50K]": [
+    150.511,
+    -23.378
+  ],
+  "Porirua (NEW ZEALAND) [50K]": [
+    174.841,
+    -41.134
+  ],
+  "Hibiscus Coast (NEW ZEALAND) [50K]": [
+    174.701,
+    -36.605
+  ],
+  "New Plymouth (NEW ZEALAND) [50K]": [
+    174.076,
+    -39.058
+  ],
+  "Rotorua (NEW ZEALAND) [50K]": [
+    176.247,
+    -38.14
+  ],
+  "Nausori (FIJI) [50K]": [
+    178.530070802906,
+    -18.029646992813
+  ],
+  "Hervey Bay (AUSTRALIA) [50K]": [
+    152.8333,
+    -25.2833
+  ],
+  "Whangarei (NEW ZEALAND) [50K]": [
+    174.323,
+    -35.723
+  ],
+  "Bundaberg (AUSTRALIA) [50K]": [
+    151.98442,
+    -24.97305
+  ],
+  "Coffs Harbour (AUSTRALIA) [50K]": [
+    153.116,
+    -30.298
+  ],
+  "East Honolulu, HI (UNITED STATES) [50K]": [
+    -157.707,
+    21.286
+  ],
+  "Nelson (NEW ZEALAND) [50K]": [
+    173.284,
+    -41.271
+  ],
+  "Hastings (NEW ZEALAND) [50K]": [
+    176.843,
+    -39.644
+  ]
+}

@@ -9,6 +9,76 @@
       "Train"
     ]
   },
+  "cities": {
+    "title": "Cities of the World",
+    "instructions": "How many cities in the world can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "World",
+      "Cities"
+    ]
+  },
+  "cities-asia": {
+    "title": "Cities of Asia",
+    "instructions": "How many cities in Asia can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Asia",
+      "Cities"
+    ]
+  },
+  "cities-europe": {
+    "title": "Cities of Europe",
+    "instructions": "How many cities in Europe can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Europe",
+      "Cities"
+    ]
+  },
+  "cities-africa": {
+    "title": "Cities of Africa",
+    "instructions": "How many cities in Africa can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Africa",
+      "Cities"
+    ]
+  },
+  "cities-north-america": {
+    "title": "Cities of North America",
+    "instructions": "How many cities in North America can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "North America",
+      "Cities"
+    ]
+  },
+  "cities-south-america": {
+    "title": "Cities of South America",
+    "instructions": "How many cities in South America can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "South America",
+      "Cities"
+    ]
+  },
+  "cities-oceania": {
+    "title": "Cities of Oceania",
+    "instructions": "How many cities in Oceania can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Oceania",
+      "Cities"
+    ]
+  },
   "schools": {
     "title": "Schools of Singapore",
     "instructions": "How many schools in Singapore can you name?",

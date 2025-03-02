@@ -14,7 +14,7 @@ export const sanitise = (text: string) => {
   var searchTerms: string = '';
   if (!!searchTermsMatches) searchTerms = searchTermsMatches[0];
   return {
-    searchTerms, // []
+    searchTerms: searchTerms, // []
     cleanText: text.replace(/\[.*?\]/g, '') // with ()
   }
 }
@@ -30,6 +30,7 @@ export const fullSanitise = (text: string) => {
       .replace(/\([^)]*\)/g, ''))
       .replaceAll(' ', '')
       .toLowerCase()
+      .split(',')[0]
       .replace(/[^0-9a-z]/gi, '') // without ()[]
   }
 }

@@ -1,0 +1,5350 @@
+{
+  "Mexico City (MEXICO) [5M]": [
+    -99.153,
+    19.321
+  ],
+  "New York, NY (UNITED STATES) [5M]": [
+    -74.007,
+    40.714
+  ],
+  "Los Angeles, CA (UNITED STATES) [2M]": [
+    -118.243,
+    34.052
+  ],
+  "Toronto (CANADA) [2M]": [
+    -79.4163,
+    43.70011
+  ],
+  "Santo Domingo (DOMINICAN REPUBLIC) [2M]": [
+    -69.98857,
+    18.50012
+  ],
+  "Chicago, IL (UNITED STATES) [2M]": [
+    -87.628,
+    41.882
+  ],
+  "Houston, TX (UNITED STATES) [2M]": [
+    -95.363,
+    29.76
+  ],
+  "Havana (CUBA) [2M]": [
+    -82.38304,
+    23.13302
+  ],
+  "Montreal (CANADA) [1M]": [
+    -73.58781,
+    45.50884
+  ],
+  "Tijuana (MEXICO) [1M]": [
+    -117.033,
+    32.522
+  ],
+  "Ecatepec de Morelos (MEXICO) [1M]": [
+    -99.054,
+    19.605
+  ],
+  "Phoenix, AZ (UNITED STATES) [1M]": [
+    -112.074,
+    33.448
+  ],
+  "Philadelphia, PA (UNITED STATES) [1M]": [
+    -75.164,
+    39.952
+  ],
+  "Leon (MEXICO) [1M]": [
+    -101.683,
+    21.122
+  ],
+  "Puebla (MEXICO) [1M]": [
+    -98.198,
+    19.043
+  ],
+  "Ciudad Juarez (MEXICO) [1M]": [
+    -106.483,
+    31.738
+  ],
+  "Calgary (CANADA) [1M]": [
+    -114.08529,
+    51.05011
+  ],
+  "San Antonio, TX (UNITED STATES) [1M]": [
+    -98.49,
+    29.423
+  ],
+  "San Diego, CA (UNITED STATES) [1M]": [
+    -117.165,
+    32.716
+  ],
+  "Guadalajara (MEXICO) [1M]": [
+    -103.341,
+    20.677
+  ],
+  "Dallas, TX (UNITED STATES) [1M]": [
+    -96.797,
+    32.781
+  ],
+  "Zapopan (MEXICO) [1M]": [
+    -103.391,
+    20.721
+  ],
+  "Monterrey (MEXICO) [1M]": [
+    -100.309,
+    25.672
+  ],
+  "Panama City (PANAMA) [1M]": [
+    -79.53,
+    8.97
+  ],
+  "Tegucigalpa (HONDURAS) [1M]": [
+    -87.21,
+    14.094
+  ],
+  "Edmonton (CANADA) [1M]": [
+    -113.46871,
+    53.55014
+  ],
+  "Ottawa (CANADA) [1M]": [
+    -75.69812,
+    45.41117
+  ],
+  "Nezahualcoyotl (MEXICO) [1M]": [
+    -99.004,
+    19.395
+  ],
+  "Managua (NICARAGUA) [1M]": [
+    -86.2736974854418,
+    12.1548599286556
+  ],
+  "San Jose, CA (UNITED STATES) [1M]": [
+    -121.891,
+    37.336
+  ],
+  "Austin, TX (UNITED STATES) [700K]": [
+    -97.743,
+    30.268
+  ],
+  "Jacksonville, FL (UNITED STATES) [700K]": [
+    -81.657,
+    30.328
+  ],
+  "Chihuahua (MEXICO) [700K]": [
+    -106.077,
+    28.636
+  ],
+  "Guatemala City (GUATEMALA) [700K]": [
+    -90.496,
+    14.628
+  ],
+  "Merida (MEXICO) [700K]": [
+    -89.624,
+    20.967
+  ],
+  "Fort Worth, TX (UNITED STATES) [700K]": [
+    -97.331,
+    32.754
+  ],
+  "Naucalpan de Juarez (MEXICO) [700K]": [
+    -99.234,
+    19.474
+  ],
+  "Columbus, OH (UNITED STATES) [700K]": [
+    -83.001,
+    39.962
+  ],
+  "Cancun (MEXICO) [700K]": [
+    -86.845,
+    21.16
+  ],
+  "Indianapolis, IN (UNITED STATES) [700K]": [
+    -86.158,
+    39.769
+  ],
+  "Port-au-Prince (HAITI) [700K]": [
+    -72.335,
+    18.53917
+  ],
+  "Charlotte, NC (UNITED STATES) [700K]": [
+    -80.843,
+    35.227
+  ],
+  "San Francisco, CA (UNITED STATES) [700K]": [
+    -122.414,
+    37.78
+  ],
+  "Saltillo (MEXICO) [700K]": [
+    -101.0,
+    25.41667
+  ],
+  "Aguascalientes (MEXICO) [700K]": [
+    -102.296,
+    21.881
+  ],
+  "Hermosillo (MEXICO) [700K]": [
+    -110.951,
+    29.098
+  ],
+  "Mexicali (MEXICO) [700K]": [
+    -115.473,
+    32.651
+  ],
+  "San Luis Potosi (MEXICO) [700K]": [
+    -100.976,
+    22.152
+  ],
+  "Winnipeg (CANADA) [700K]": [
+    -97.14704,
+    49.8844
+  ],
+  "Culiacan (MEXICO) [700K]": [
+    -107.389,
+    24.803
+  ],
+  "Queretaro (MEXICO) [700K]": [
+    -100.38333,
+    20.6
+  ],
+  "Mississauga (CANADA) [700K]": [
+    -79.6583,
+    43.5789
+  ],
+  "Brampton (CANADA) [700K]": [
+    -79.76633,
+    43.68341
+  ],
+  "Morelia (MEXICO) [700K]": [
+    -101.185556,
+    19.702222
+  ],
+  "Seattle, WA (UNITED STATES) [700K]": [
+    -122.338,
+    47.607
+  ],
+  "Vancouver (CANADA) [700K]": [
+    -123.11934,
+    49.24966
+  ],
+  "Denver, CO (UNITED STATES) [700K]": [
+    -104.987,
+    39.739
+  ],
+  "Chimalhuacan (MEXICO) [700K]": [
+    -98.96,
+    19.438
+  ],
+  "San Pedro Sula (HONDURAS) [700K]": [
+    -88.025,
+    15.505
+  ],
+  "Reynosa (MEXICO) [500K]": [
+    -98.289,
+    26.069
+  ],
+  "Torreon (MEXICO) [500K]": [
+    -103.43333,
+    25.55
+  ],
+  "Washington, DC (UNITED STATES) [500K]": [
+    -77.036,
+    38.895
+  ],
+  "Nashville, TN (UNITED STATES) [500K]": [
+    -86.783,
+    36.164
+  ],
+  "Oklahoma City, OK (UNITED STATES) [500K]": [
+    -97.516,
+    35.468
+  ],
+  "El Paso, TX (UNITED STATES) [500K]": [
+    -106.488,
+    31.76
+  ],
+  "Boston, MA (UNITED STATES) [500K]": [
+    -71.057,
+    42.359
+  ],
+  "Tlalnepantla (MEXICO) [500K]": [
+    -99.195,
+    19.537
+  ],
+  "Acapulco (MEXICO) [500K]": [
+    -99.888,
+    16.861
+  ],
+  "Surrey (CANADA) [500K]": [
+    -122.82509,
+    49.10635
+  ],
+  "Portland, OR (UNITED STATES) [500K]": [
+    -122.679,
+    45.519
+  ],
+  "Tlaquepaque (MEXICO) [500K]": [
+    -103.312,
+    20.64
+  ],
+  "Las Vegas, NV (UNITED STATES) [500K]": [
+    -115.144,
+    36.171
+  ],
+  "Detroit, MI (UNITED STATES) [500K]": [
+    -83.047,
+    42.332
+  ],
+  "Guadalupe (MEXICO) [500K]": [
+    -100.234,
+    25.678
+  ],
+  "Memphis, TN (UNITED STATES) [500K]": [
+    -90.052,
+    35.146
+  ],
+  "Louisville, KY (UNITED STATES) [500K]": [
+    -85.757,
+    38.257
+  ],
+  "Durango (MEXICO) [500K]": [
+    -104.664,
+    24.02
+  ],
+  "Hamilton (CANADA) [500K]": [
+    -79.84963,
+    43.25011
+  ],
+  "Santiago (DOMINICAN REPUBLIC) [500K]": [
+    -70.7,
+    19.45
+  ],
+  "Baltimore, MD (UNITED STATES) [500K]": [
+    -76.615,
+    39.289
+  ],
+  "Kingston (JAMAICA) [500K]": [
+    -76.79358,
+    17.99702
+  ],
+  "Tuxtla Gutierrez (MEXICO) [500K]": [
+    -93.116,
+    16.754
+  ],
+  "Quebec (CANADA) [500K]": [
+    -71.21454,
+    46.81228
+  ],
+  "Milwaukee, WI (UNITED STATES) [500K]": [
+    -87.905,
+    43.042
+  ],
+  "Albuquerque, NM (UNITED STATES) [500K]": [
+    -106.652,
+    35.084
+  ],
+  "Tucson, AZ (UNITED STATES) [500K]": [
+    -110.973,
+    32.222
+  ],
+  "Fresno, CA (UNITED STATES) [500K]": [
+    -119.789,
+    36.737
+  ],
+  "Veracruz (MEXICO) [500K]": [
+    -96.13333,
+    19.2
+  ],
+  "Ciudad Apodaca (MEXICO) [500K]": [
+    -100.189,
+    25.782
+  ],
+  "Sacramento, CA (UNITED STATES) [500K]": [
+    -121.496,
+    38.577
+  ],
+  "Ciudad Lopez Mateos (MEXICO) [500K]": [
+    -99.235,
+    19.543
+  ],
+  "Cuautitlan Izcalli (MEXICO) [500K]": [
+    -99.209,
+    19.657
+  ],
+  "Matamoros (MEXICO) [500K]": [
+    -97.504,
+    25.871
+  ],
+  "Kansas City, MO (UNITED STATES) [500K]": [
+    -94.583,
+    39.104
+  ],
+  "Mesa, AZ (UNITED STATES) [500K]": [
+    -111.831,
+    33.415
+  ],
+  "Atlanta, GA (UNITED STATES) [200K]": [
+    -84.39,
+    33.749
+  ],
+  "Halifax (CANADA) [200K]": [
+    -63.573,
+    44.649
+  ],
+  "Omaha, NE (UNITED STATES) [200K]": [
+    -95.94,
+    41.26
+  ],
+  "Colorado Springs, CO (UNITED STATES) [200K]": [
+    -104.822,
+    38.832
+  ],
+  "London (CANADA) [200K]": [
+    -81.23304,
+    42.98339
+  ],
+  "Raleigh, NC (UNITED STATES) [200K]": [
+    -78.639,
+    35.78
+  ],
+  "Long Beach, CA (UNITED STATES) [200K]": [
+    -118.192,
+    33.768
+  ],
+  "Mixco (GUATEMALA) [200K]": [
+    -90.601,
+    14.621
+  ],
+  "Virginia Beach, VA (UNITED STATES) [200K]": [
+    -75.974,
+    36.845
+  ],
+  "General Escobedo (MEXICO) [200K]": [
+    -100.311,
+    25.801
+  ],
+  "Irapuato (MEXICO) [200K]": [
+    -101.348,
+    20.673
+  ],
+  "Laval (CANADA) [200K]": [
+    -73.74918,
+    45.58338
+  ],
+  "Xalapa Enriquez (MEXICO) [200K]": [
+    -96.92,
+    19.53
+  ],
+  "Tonala (MEXICO) [200K]": [
+    -103.242,
+    20.624
+  ],
+  "Miami, FL (UNITED STATES) [200K]": [
+    -80.192,
+    25.774
+  ],
+  "Mazatlan (MEXICO) [200K]": [
+    -106.422,
+    23.2
+  ],
+  "Oakland, CA (UNITED STATES) [200K]": [
+    -122.271,
+    37.804
+  ],
+  "Santiago De Cuba (CUBA) [200K]": [
+    -75.82194,
+    20.02472
+  ],
+  "Carrefour (HAITI) [200K]": [
+    -72.39922,
+    18.54114
+  ],
+  "Minneapolis, MN (UNITED STATES) [200K]": [
+    -93.272,
+    44.977
+  ],
+  "Villa Nueva (GUATEMALA) [200K]": [
+    -90.605,
+    14.537
+  ],
+  "Nuevo Laredo (MEXICO) [200K]": [
+    -99.508,
+    27.486
+  ],
+  "Tulsa, OK (UNITED STATES) [200K]": [
+    -95.991,
+    36.153
+  ],
+  "San Nicolas De Los Garza (MEXICO) [200K]": [
+    -100.293,
+    25.743
+  ],
+  "Bakersfield, CA (UNITED STATES) [200K]": [
+    -119.019,
+    35.373
+  ],
+  "Wichita, KS (UNITED STATES) [200K]": [
+    -97.338,
+    37.686
+  ],
+  "Arlington, TX (UNITED STATES) [200K]": [
+    -97.107,
+    32.737
+  ],
+  "Ojo De Agua (MEXICO) [200K]": [
+    -99.014,
+    19.676
+  ],
+  "Aurora, CO (UNITED STATES) [200K]": [
+    -104.847,
+    39.726
+  ],
+  "Tampa, FL (UNITED STATES) [200K]": [
+    -82.458,
+    27.949
+  ],
+  "Xico (MEXICO) [200K]": [
+    -98.943,
+    19.279
+  ],
+  "New Orleans, LA (UNITED STATES) [200K]": [
+    -90.063,
+    29.957
+  ],
+  "Celaya (MEXICO) [200K]": [
+    -100.814,
+    20.522
+  ],
+  "Cleveland, OH (UNITED STATES) [200K]": [
+    -81.694,
+    41.5
+  ],
+  "Tepic (MEXICO) [200K]": [
+    -104.894,
+    21.507
+  ],
+  "Ixtapaluca (MEXICO) [200K]": [
+    -98.901,
+    19.311
+  ],
+  "Delmas (HAITI) [200K]": [
+    -72.28,
+    18.55
+  ],
+  "Markham (CANADA) [200K]": [
+    -79.2663,
+    43.86682
+  ],
+  "San Jose (COSTA RICA) [200K]": [
+    -84.08333,
+    9.93333
+  ],
+  "Anaheim, CA (UNITED STATES) [200K]": [
+    -117.913,
+    33.833
+  ],
+  "Vaughan (CANADA) [200K]": [
+    -79.49827,
+    43.8361
+  ],
+  "Cuernavaca (MEXICO) [200K]": [
+    -99.236,
+    18.921
+  ],
+  "Villahermosa (MEXICO) [200K]": [
+    -92.919,
+    17.988
+  ],
+  "Ciudad Victoria (MEXICO) [200K]": [
+    -99.151,
+    23.731
+  ],
+  "Ensenada (MEXICO) [200K]": [
+    -116.595,
+    31.809
+  ],
+  "Ciudad Obregon (MEXICO) [200K]": [
+    -109.933,
+    27.496
+  ],
+  "Ciudad Nicolas Romero (MEXICO) [200K]": [
+    -99.316,
+    19.626
+  ],
+  "San Juan, PR (UNITED STATES) [200K]": [
+    -66.117,
+    18.465
+  ],
+  "Lexington, KY (UNITED STATES) [200K]": [
+    -84.498,
+    38.047
+  ],
+  "Stockton, CA (UNITED STATES) [200K]": [
+    -121.293,
+    37.955
+  ],
+  "Corpus Christi, TX (UNITED STATES) [200K]": [
+    -97.395,
+    27.797
+  ],
+  "Henderson, NV (UNITED STATES) [200K]": [
+    -114.983,
+    36.03
+  ],
+  "Riverside, CA (UNITED STATES) [200K]": [
+    -117.374,
+    33.983
+  ],
+  "Newark, NJ (UNITED STATES) [200K]": [
+    -74.172,
+    40.736
+  ],
+  "St Paul, MN (UNITED STATES) [200K]": [
+    -93.094,
+    44.946
+  ],
+  "Camaguey (CUBA) [200K]": [
+    -77.91694,
+    21.38083
+  ],
+  "Santa Ana, CA (UNITED STATES) [200K]": [
+    -117.868,
+    33.745
+  ],
+  "Soledad de Graciano Sanchez (MEXICO) [200K]": [
+    -100.937,
+    22.187
+  ],
+  "Cincinnati, OH (UNITED STATES) [200K]": [
+    -84.514,
+    39.105
+  ],
+  "Ciudad Benito Juarez (MEXICO) [200K]": [
+    -100.097,
+    25.646
+  ],
+  "Irvine, CA (UNITED STATES) [200K]": [
+    -117.796,
+    33.684
+  ],
+  "Orlando, FL (UNITED STATES) [200K]": [
+    -81.378,
+    28.543
+  ],
+  "Playa Del Carmen (MEXICO) [200K]": [
+    -87.076,
+    20.628
+  ],
+  "Ciudad Santa Catarina (MEXICO) [200K]": [
+    -100.465,
+    25.674
+  ],
+  "Pittsburgh, PA (UNITED STATES) [200K]": [
+    -80.003,
+    40.441
+  ],
+  "Holguin (CUBA) [200K]": [
+    -76.26306,
+    20.88722
+  ],
+  "Gomez Palacio (MEXICO) [200K]": [
+    -103.5,
+    25.568
+  ],
+  "St Louis, MO (UNITED STATES) [200K]": [
+    -90.191,
+    38.626
+  ],
+  "Kitchener (CANADA) [200K]": [
+    -80.48333,
+    43.45
+  ],
+  "Uruapan del Progreso (MEXICO) [200K]": [
+    -102.06667,
+    19.41667
+  ],
+  "Greensboro, NC (UNITED STATES) [200K]": [
+    -79.792,
+    36.073
+  ],
+  "Gatineau (CANADA) [200K]": [
+    -75.65,
+    45.48333
+  ],
+  "Los Mochis (MEXICO) [200K]": [
+    -108.994,
+    25.783
+  ],
+  "Pachuca de Soto (MEXICO) [200K]": [
+    -98.737,
+    20.122
+  ],
+  "Tampico (MEXICO) [200K]": [
+    -97.866,
+    22.25
+  ],
+  "Nassau (BAHAMAS) [200K]": [
+    -77.345,
+    25.06
+  ],
+  "Saskatoon (CANADA) [200K]": [
+    -106.63452,
+    52.11679
+  ],
+  "Tehuacan (MEXICO) [200K]": [
+    -97.392,
+    18.462
+  ],
+  "San Francisco Coacalco (MEXICO) [200K]": [
+    -99.104,
+    19.629
+  ],
+  "Jersey City, NJ (UNITED STATES) [200K]": [
+    -74.063,
+    40.732
+  ],
+  "Anchorage, AK (UNITED STATES) [200K]": [
+    -149.885,
+    61.218
+  ],
+  "Lincoln, NE (UNITED STATES) [200K]": [
+    -96.7,
+    40.809
+  ],
+  "Plano, TX (UNITED STATES) [200K]": [
+    -96.698,
+    33.02
+  ],
+  "Soyapango (EL SALVADOR) [200K]": [
+    -89.149840649741,
+    13.7033157413326
+  ],
+  "Burnaby (CANADA) [200K]": [
+    -122.95263,
+    49.26636
+  ],
+  "Durham, NC (UNITED STATES) [200K]": [
+    -78.901,
+    35.995
+  ],
+  "Los Alcarrizos (DOMINICAN REPUBLIC) [200K]": [
+    -70.02,
+    18.52
+  ],
+  "Buffalo, NY (UNITED STATES) [200K]": [
+    -78.878,
+    42.886
+  ],
+  "Chandler, AZ (UNITED STATES) [200K]": [
+    -111.841,
+    33.306
+  ],
+  "Chula Vista, CA (UNITED STATES) [200K]": [
+    -117.082,
+    32.64
+  ],
+  "Petionville (HAITI) [200K]": [
+    -72.28528,
+    18.5125
+  ],
+  "Toledo, OH (UNITED STATES) [200K]": [
+    -83.542,
+    41.651
+  ],
+  "Madison, WI (UNITED STATES) [200K]": [
+    -89.383,
+    43.074
+  ],
+  "Gilbert, AZ (UNITED STATES) [200K]": [
+    -111.79,
+    33.354
+  ],
+  "La Romana (DOMINICAN REPUBLIC) [200K]": [
+    -68.97285,
+    18.42734
+  ],
+  "Reno, NV (UNITED STATES) [200K]": [
+    -119.814,
+    39.529
+  ],
+  "Fort Wayne, IN (UNITED STATES) [200K]": [
+    -85.14,
+    41.08
+  ],
+  "Longueuil (CANADA) [200K]": [
+    -73.51806,
+    45.53121
+  ],
+  "North Las Vegas, NV (UNITED STATES) [200K]": [
+    -115.12,
+    36.202
+  ],
+  "Nogales (MEXICO) [200K]": [
+    -110.946,
+    31.326
+  ],
+  "Oaxaca de Juarez (MEXICO) [200K]": [
+    -96.725,
+    17.06
+  ],
+  "St Petersburg, FL (UNITED STATES) [200K]": [
+    -82.637,
+    27.771
+  ],
+  "Lubbock, TX (UNITED STATES) [200K]": [
+    -101.846,
+    33.585
+  ],
+  "Irving, TX (UNITED STATES) [200K]": [
+    -96.946,
+    32.814
+  ],
+  "Windsor (CANADA) [200K]": [
+    -83.0,
+    42.28333
+  ],
+  "Laredo, TX (UNITED STATES) [200K]": [
+    -99.503,
+    27.506
+  ],
+  "La Paz (MEXICO) [200K]": [
+    -110.307,
+    24.149
+  ],
+  "Campeche (MEXICO) [200K]": [
+    -90.54,
+    19.845
+  ],
+  "Winston Salem, NC (UNITED STATES) [200K]": [
+    -80.244,
+    36.095
+  ],
+  "Chesapeake, VA (UNITED STATES) [200K]": [
+    -76.271,
+    36.809
+  ],
+  "Glendale, AZ (UNITED STATES) [200K]": [
+    -112.186,
+    33.539
+  ],
+  "Garland, TX (UNITED STATES) [200K]": [
+    -96.639,
+    32.913
+  ],
+  "Regina (CANADA) [200K]": [
+    -104.6178,
+    50.45008
+  ],
+  "Scottsdale, AZ (UNITED STATES) [200K]": [
+    -111.926,
+    33.495
+  ],
+  "Cite Soleil (HAITI) [200K]": [
+    -72.34,
+    18.58
+  ],
+  "Norfolk, VA (UNITED STATES) [200K]": [
+    -76.292,
+    36.848
+  ],
+  "Monclova (MEXICO) [200K]": [
+    -101.41667,
+    26.9
+  ],
+  "Boise, ID (UNITED STATES) [200K]": [
+    -116.202,
+    43.615
+  ],
+  "Richmond (CANADA) [200K]": [
+    -123.1333,
+    49.16667
+  ],
+  "Garcia (MEXICO) [200K]": [
+    -100.585,
+    25.8
+  ],
+  "Oakville (CANADA) [200K]": [
+    -79.68292,
+    43.45011
+  ],
+  "Santa Ana (EL SALVADOR) [200K]": [
+    -89.55972,
+    13.99417
+  ],
+  "Fremont, CA (UNITED STATES) [200K]": [
+    -121.988,
+    37.549
+  ],
+  "Spokane, WA (UNITED STATES) [200K]": [
+    -117.418,
+    47.657
+  ],
+  "Gonaives (HAITI) [200K]": [
+    -72.68333,
+    19.45
+  ],
+  "Santa Clarita, CA (UNITED STATES) [200K]": [
+    -118.541,
+    34.38
+  ],
+  "Baton Rouge, LA (UNITED STATES) [200K]": [
+    -91.184,
+    30.443
+  ],
+  "Richmond, VA (UNITED STATES) [200K]": [
+    -77.453,
+    37.546
+  ],
+  "Chilpancingo de los Bravo (MEXICO) [200K]": [
+    -99.501,
+    17.552
+  ],
+  "Puerto Vallarta (MEXICO) [200K]": [
+    -105.227,
+    20.614
+  ],
+  "Toluca (MEXICO) [200K]": [
+    -99.657,
+    19.293
+  ],
+  "Hialeah, FL (UNITED STATES) [200K]": [
+    -80.268,
+    25.846
+  ],
+  "San Bernardino, CA (UNITED STATES) [200K]": [
+    -117.292,
+    34.106
+  ],
+  "Choloma (HONDURAS) [200K]": [
+    -87.95,
+    15.606
+  ],
+  "Tacoma, WA (UNITED STATES) [200K]": [
+    -122.44,
+    47.253
+  ],
+  "Modesto, CA (UNITED STATES) [200K]": [
+    -120.997,
+    37.639
+  ],
+  "Santa Clara (CUBA) [200K]": [
+    -79.96667,
+    22.4
+  ],
+  "Tapachula de Cordova y Ordonez (MEXICO) [200K]": [
+    -92.264,
+    14.911
+  ],
+  "Buenavista (MEXICO) [200K]": [
+    -99.167,
+    19.608
+  ],
+  "Huntsville, AL (UNITED STATES) [200K]": [
+    -86.586,
+    34.73
+  ],
+  "Des Moines, IA (UNITED STATES) [200K]": [
+    -93.626,
+    41.587
+  ],
+  "Guantanamo (CUBA) [200K]": [
+    -75.20917,
+    20.14444
+  ],
+  "Coatzacoalcos (MEXICO) [200K]": [
+    -94.41667,
+    18.15
+  ],
+  "Richmond Hill (CANADA) [200K]": [
+    -79.43725,
+    43.87111
+  ],
+  "Coban (GUATEMALA) [200K]": [
+    -90.512,
+    15.663
+  ],
+  "Yonkers, NY (UNITED STATES) [200K]": [
+    -73.899,
+    40.932
+  ],
+  "Rochester, NY (UNITED STATES) [200K]": [
+    -77.613,
+    43.156
+  ],
+  "Higuey (DOMINICAN REPUBLIC) [200K]": [
+    -68.70798,
+    18.61501
+  ],
+  "San Salvador (EL SALVADOR) [200K]": [
+    -89.1911899657577,
+    13.6977077058042
+  ],
+  "La Ceiba (HONDURAS) [200K]": [
+    -86.791,
+    15.785
+  ],
+  "Moreno Valley, CA (UNITED STATES) [200K]": [
+    -117.229,
+    33.936
+  ],
+  "Fayetteville, NC (UNITED STATES) [200K]": [
+    -78.878,
+    35.053
+  ],
+  "Fontana, CA (UNITED STATES) [200K]": [
+    -117.436,
+    34.101
+  ],
+  "San Pedro De Macoris (DOMINICAN REPUBLIC) [200K]": [
+    -69.29718,
+    18.46156
+  ],
+  "Columbus, GA (UNITED STATES) [200K]": [
+    -84.988,
+    32.469
+  ],
+  "Worcester, MA (UNITED STATES) [200K]": [
+    -71.802,
+    42.263
+  ],
+  "La Chorrera (PANAMA) [200K]": [
+    -79.78333,
+    8.88028
+  ],
+  "Ciudad Madero (MEXICO) [200K]": [
+    -97.832,
+    22.277
+  ],
+  "Port St Lucie, FL (UNITED STATES) [200K]": [
+    -80.355,
+    27.276
+  ],
+  "Cabo San Lucas (MEXICO) [200K]": [
+    -109.925,
+    22.897
+  ],
+  "Little Rock, AR (UNITED STATES) [200K]": [
+    -92.288,
+    34.747
+  ],
+  "Augusta, GA (UNITED STATES) [200K]": [
+    -81.966,
+    33.476
+  ],
+  "Oxnard, CA (UNITED STATES) [200K]": [
+    -119.177,
+    34.198
+  ],
+  "San Miguel (EL SALVADOR) [200K]": [
+    -88.17,
+    13.47
+  ],
+  "Birmingham, AL (UNITED STATES) [200K]": [
+    -86.806,
+    33.514
+  ],
+  "Montgomery, AL (UNITED STATES) [200K]": [
+    -86.301,
+    32.378
+  ],
+  "Frisco, TX (UNITED STATES) [200K]": [
+    -96.825,
+    33.151
+  ],
+  "Amarillo, TX (UNITED STATES) [200K]": [
+    -101.836,
+    35.207
+  ],
+  "Salt Lake City, UT (UNITED STATES) [100K]": [
+    -111.891,
+    40.769
+  ],
+  "Grand Rapids, MI (UNITED STATES) [100K]": [
+    -85.668,
+    42.963
+  ],
+  "Huntington Beach, CA (UNITED STATES) [100K]": [
+    -118.0,
+    33.659
+  ],
+  "Apopa (EL SALVADOR) [100K]": [
+    -89.1789513384523,
+    13.8019293336928
+  ],
+  "Overland Park, KS (UNITED STATES) [100K]": [
+    -94.668,
+    38.986
+  ],
+  "Glendale, CA (UNITED STATES) [100K]": [
+    -118.258,
+    34.143
+  ],
+  "Tallahassee, FL (UNITED STATES) [100K]": [
+    -84.282,
+    30.438
+  ],
+  "Oshawa (CANADA) [100K]": [
+    -78.84957,
+    43.90012
+  ],
+  "Grand Prairie, TX (UNITED STATES) [100K]": [
+    -97.004,
+    32.745
+  ],
+  "Burlington (CANADA) [100K]": [
+    -79.8,
+    43.325
+  ],
+  "McKinney, TX (UNITED STATES) [100K]": [
+    -96.616,
+    33.197
+  ],
+  "Cape Coral, FL (UNITED STATES) [100K]": [
+    -81.95,
+    26.563
+  ],
+  "Chicoloapan De Juarez (MEXICO) [100K]": [
+    -98.902,
+    19.417
+  ],
+  "Sioux Falls, SD (UNITED STATES) [100K]": [
+    -96.727,
+    43.547
+  ],
+  "Ciudad Del Carmen (MEXICO) [100K]": [
+    -91.836,
+    18.638
+  ],
+  "Peoria, AZ (UNITED STATES) [100K]": [
+    -112.238,
+    33.582
+  ],
+  "Providence, RI (UNITED STATES) [100K]": [
+    -71.413,
+    41.824
+  ],
+  "Vancouver, WA (UNITED STATES) [100K]": [
+    -122.677,
+    45.63
+  ],
+  "Knoxville, TN (UNITED STATES) [100K]": [
+    -83.918,
+    35.962
+  ],
+  "Akron, OH (UNITED STATES) [100K]": [
+    -81.517,
+    41.085
+  ],
+  "Langley (CANADA) [100K]": [
+    -122.5827,
+    49.10444
+  ],
+  "Shreveport, LA (UNITED STATES) [100K]": [
+    -93.748,
+    32.514
+  ],
+  "Mobile, AL (UNITED STATES) [100K]": [
+    -88.046,
+    30.691
+  ],
+  "Brownsville, TX (UNITED STATES) [100K]": [
+    -97.498,
+    25.902
+  ],
+  "Newport News, VA (UNITED STATES) [100K]": [
+    -76.431,
+    36.98
+  ],
+  "San Cristobal De Las Casas (MEXICO) [100K]": [
+    -92.638,
+    16.737
+  ],
+  "Fort Lauderdale, FL (UNITED STATES) [100K]": [
+    -80.143,
+    26.119
+  ],
+  "Portmore (JAMAICA) [100K]": [
+    -76.86722,
+    17.97024
+  ],
+  "Chattanooga, TN (UNITED STATES) [100K]": [
+    -85.31,
+    35.05
+  ],
+  "Sherbrooke (CANADA) [100K]": [
+    -71.88333,
+    45.4
+  ],
+  "Quetzaltenango (GUATEMALA) [100K]": [
+    -91.529,
+    14.844
+  ],
+  "Tempe, AZ (UNITED STATES) [100K]": [
+    -111.909,
+    33.415
+  ],
+  "Aurora, IL (UNITED STATES) [100K]": [
+    -88.315,
+    41.758
+  ],
+  "Poza Rica De Hidalgo (MEXICO) [100K]": [
+    -97.45946,
+    20.53315
+  ],
+  "Greater Sudbury (CANADA) [100K]": [
+    -80.99001,
+    46.49
+  ],
+  "Santa Rosa, CA (UNITED STATES) [100K]": [
+    -122.713,
+    38.44
+  ],
+  "San Juan Del Rio (MEXICO) [100K]": [
+    -100.0,
+    20.38333
+  ],
+  "Leon (NICARAGUA) [100K]": [
+    -86.87804,
+    12.43787
+  ],
+  "San Luis Rio Colorado (MEXICO) [100K]": [
+    -114.781,
+    32.466
+  ],
+  "Eugene, OR (UNITED STATES) [100K]": [
+    -123.093,
+    44.05
+  ],
+  "Victoria de Las Tunas (CUBA) [100K]": [
+    -76.95,
+    20.96
+  ],
+  "Elk Grove, CA (UNITED STATES) [100K]": [
+    -121.371,
+    38.409
+  ],
+  "Salem, OR (UNITED STATES) [100K]": [
+    -123.032,
+    44.939
+  ],
+  "Ontario, CA (UNITED STATES) [100K]": [
+    -117.651,
+    34.063
+  ],
+  "Cary, NC (UNITED STATES) [100K]": [
+    -78.783,
+    35.787
+  ],
+  "Chalco de Diaz Covarrubias (MEXICO) [100K]": [
+    -98.896,
+    19.261
+  ],
+  "Jiutepec (MEXICO) [100K]": [
+    -99.177,
+    18.882
+  ],
+  "Rancho Cucamonga, CA (UNITED STATES) [100K]": [
+    -117.594,
+    34.107
+  ],
+  "Oceanside, CA (UNITED STATES) [100K]": [
+    -117.384,
+    33.195
+  ],
+  "Piedras Negras (MEXICO) [100K]": [
+    -100.51667,
+    28.7
+  ],
+  "Lancaster, CA (UNITED STATES) [100K]": [
+    -118.148,
+    34.697
+  ],
+  "Garden Grove, CA (UNITED STATES) [100K]": [
+    -117.941,
+    33.775
+  ],
+  "Pembroke Pines, FL (UNITED STATES) [100K]": [
+    -80.223,
+    26.002
+  ],
+  "Guadalupe (MEXICO) [100K]": [
+    -102.519,
+    22.747
+  ],
+  "Fort Collins, CO (UNITED STATES) [100K]": [
+    -105.077,
+    40.587
+  ],
+  "Palmdale, CA (UNITED STATES) [100K]": [
+    -118.117,
+    34.58
+  ],
+  "Springfield, MO (UNITED STATES) [100K]": [
+    -93.292,
+    37.209
+  ],
+  "Chetumal (MEXICO) [100K]": [
+    -88.298,
+    18.494
+  ],
+  "San Cristobal (DOMINICAN REPUBLIC) [100K]": [
+    -70.1,
+    18.41667
+  ],
+  "Abbotsford (CANADA) [100K]": [
+    -122.328,
+    49.05461
+  ],
+  "Clarksville, TN (UNITED STATES) [100K]": [
+    -87.361,
+    36.528
+  ],
+  "Coquitlam (CANADA) [100K]": [
+    -122.79194,
+    49.28389
+  ],
+  "Bayamon, PR (UNITED STATES) [100K]": [
+    -66.158,
+    18.398
+  ],
+  "Barrie (CANADA) [100K]": [
+    -79.66634,
+    44.40011
+  ],
+  "Salinas, CA (UNITED STATES) [100K]": [
+    -121.655,
+    36.678
+  ],
+  "Hayward, CA (UNITED STATES) [100K]": [
+    -122.085,
+    37.671
+  ],
+  "Miramar (MEXICO) [100K]": [
+    -97.869,
+    22.336
+  ],
+  "North Vancouver (CANADA) [100K]": [
+    -123.01944,
+    49.31111
+  ],
+  "Kelowna (CANADA) [100K]": [
+    -119.48568,
+    49.88307
+  ],
+  "Salamanca (MEXICO) [100K]": [
+    -101.2,
+    20.569
+  ],
+  "Ciudad Acuna (MEXICO) [100K]": [
+    -100.95217,
+    29.32322
+  ],
+  "Manzanillo (MEXICO) [100K]": [
+    -104.316,
+    19.053
+  ],
+  "Jalapa (GUATEMALA) [100K]": [
+    -90.038,
+    14.611
+  ],
+  "Paterson, NJ (UNITED STATES) [100K]": [
+    -74.172,
+    40.917
+  ],
+  "Alexandria, VA (UNITED STATES) [100K]": [
+    -77.047,
+    38.805
+  ],
+  "Colon (PANAMA) [100K]": [
+    -79.9,
+    9.333333
+  ],
+  "Bayamo (CUBA) [100K]": [
+    -76.64333,
+    20.37917
+  ],
+  "San Pablo de las Salinas (MEXICO) [100K]": [
+    -99.091,
+    19.666
+  ],
+  "Macon, GA (UNITED STATES) [100K]": [
+    -83.628,
+    32.838
+  ],
+  "Cuautla (MEXICO) [100K]": [
+    -98.955,
+    18.813
+  ],
+  "Corona, CA (UNITED STATES) [100K]": [
+    -117.567,
+    33.876
+  ],
+  "Guelph (CANADA) [100K]": [
+    -80.24967,
+    43.5501
+  ],
+  "Kansas City, KS (UNITED STATES) [100K]": [
+    -94.627,
+    39.116
+  ],
+  "Cambridge (CANADA) [100K]": [
+    -80.31389,
+    43.35833
+  ],
+  "Escuintla (GUATEMALA) [100K]": [
+    -90.792,
+    14.298
+  ],
+  "Levis (CANADA) [100K]": [
+    -71.17793,
+    46.80326
+  ],
+  "Lakewood, CO (UNITED STATES) [100K]": [
+    -105.081,
+    39.705
+  ],
+  "San Juan Sacatepequez (GUATEMALA) [100K]": [
+    -90.664,
+    14.752
+  ],
+  "Springfield, MA (UNITED STATES) [100K]": [
+    -72.589,
+    42.101
+  ],
+  "Sunnyvale, CA (UNITED STATES) [100K]": [
+    -122.037,
+    37.369
+  ],
+  "Cap-Haitien (HAITI) [100K]": [
+    -72.20417,
+    19.75778
+  ],
+  "Zamora De Hidalgo (MEXICO) [100K]": [
+    -102.26667,
+    19.98333
+  ],
+  "Whitby (CANADA) [100K]": [
+    -78.93287,
+    43.88342
+  ],
+  "Jackson, MS (UNITED STATES) [100K]": [
+    -90.186,
+    32.3
+  ],
+  "Killeen, TX (UNITED STATES) [100K]": [
+    -97.73,
+    31.117
+  ],
+  "Hollywood, FL (UNITED STATES) [100K]": [
+    -80.149,
+    26.011
+  ],
+  "Cienfuegos (CUBA) [100K]": [
+    -80.43556,
+    22.14611
+  ],
+  "Murfreesboro, TN (UNITED STATES) [100K]": [
+    -86.392,
+    35.846
+  ],
+  "Pasadena, TX (UNITED STATES) [100K]": [
+    -95.209,
+    29.691
+  ],
+  "Bellevue, WA (UNITED STATES) [100K]": [
+    -122.202,
+    47.617
+  ],
+  "Pomona, CA (UNITED STATES) [100K]": [
+    -117.752,
+    34.059
+  ],
+  "Escondido, CA (UNITED STATES) [100K]": [
+    -117.081,
+    33.122
+  ],
+  "Tipitapa (NICARAGUA) [100K]": [
+    -86.1,
+    12.2
+  ],
+  "Joliet, IL (UNITED STATES) [100K]": [
+    -88.082,
+    41.525
+  ],
+  "Charleston, SC (UNITED STATES) [100K]": [
+    -79.931,
+    32.776
+  ],
+  "Mesquite, TX (UNITED STATES) [100K]": [
+    -96.599,
+    32.767
+  ],
+  "Saguenay (CANADA) [100K]": [
+    -71.06573,
+    48.41675
+  ],
+  "St Catharines (CANADA) [100K]": [
+    -79.24958,
+    43.16681
+  ],
+  "Naperville, IL (UNITED STATES) [100K]": [
+    -88.148,
+    41.774
+  ],
+  "Minatitlan (MEXICO) [100K]": [
+    -94.51667,
+    17.98333
+  ],
+  "Rockford, IL (UNITED STATES) [100K]": [
+    -89.095,
+    42.271
+  ],
+  "Bridgeport, CT (UNITED STATES) [100K]": [
+    -73.194,
+    41.198
+  ],
+  "Syracuse, NY (UNITED STATES) [100K]": [
+    -76.149,
+    43.047
+  ],
+  "Milton (CANADA) [100K]": [
+    -79.946561,
+    43.516305
+  ],
+  "Savannah, GA (UNITED STATES) [100K]": [
+    -81.091,
+    32.079
+  ],
+  "Roseville, CA (UNITED STATES) [100K]": [
+    -121.288,
+    38.752
+  ],
+  "Villa De Alvarez (MEXICO) [100K]": [
+    -103.737,
+    19.265
+  ],
+  "Spanish Town (JAMAICA) [100K]": [
+    -76.95742,
+    17.99107
+  ],
+  "Torrance, CA (UNITED STATES) [100K]": [
+    -118.34,
+    33.836
+  ],
+  "Colima (MEXICO) [100K]": [
+    -103.728,
+    19.243
+  ],
+  "Tonacatepeque (EL SALVADOR) [100K]": [
+    -89.1181213301346,
+    13.7799859007961
+  ],
+  "Jutiapa (GUATEMALA) [100K]": [
+    -89.908,
+    14.268
+  ],
+  "Trois Rivieres (CANADA) [100K]": [
+    -72.55,
+    46.35
+  ],
+  "Kingston (CANADA) [100K]": [
+    -76.5,
+    44.23
+  ],
+  "Matanzas (CUBA) [100K]": [
+    -81.5775,
+    23.04111
+  ],
+  "Pinar Del Rio (CUBA) [100K]": [
+    -83.69806,
+    22.4175
+  ],
+  "San Francisco De Macoris (DOMINICAN REPUBLIC) [100K]": [
+    -70.25543,
+    19.29518
+  ],
+  "Fullerton, CA (UNITED STATES) [100K]": [
+    -117.924,
+    33.87
+  ],
+  "Fresnillo (MEXICO) [100K]": [
+    -102.868,
+    23.175
+  ],
+  "Surprise, AZ (UNITED STATES) [100K]": [
+    -112.377,
+    33.63
+  ],
+  "Ilopango (EL SALVADOR) [100K]": [
+    -89.1101542399374,
+    13.6941317187495
+  ],
+  "Colon (EL SALVADOR) [100K]": [
+    -89.3686367735284,
+    13.7231553140513
+  ],
+  "McAllen, TX (UNITED STATES) [100K]": [
+    -98.231,
+    26.203
+  ],
+  "Thornton, CO (UNITED STATES) [100K]": [
+    -104.972,
+    39.871
+  ],
+  "Mejicanos (EL SALVADOR) [100K]": [
+    -89.188072898475,
+    13.7228855432671
+  ],
+  "Visalia, CA (UNITED STATES) [100K]": [
+    -119.292,
+    36.33
+  ],
+  "Olathe, KS (UNITED STATES) [100K]": [
+    -94.82,
+    38.882
+  ],
+  "Gainesville, FL (UNITED STATES) [100K]": [
+    -82.325,
+    29.652
+  ],
+  "Masaya (NICARAGUA) [100K]": [
+    -86.1,
+    11.966667
+  ],
+  "West Valley City, UT (UNITED STATES) [100K]": [
+    -111.996,
+    40.697
+  ],
+  "Orange, CA (UNITED STATES) [100K]": [
+    -117.853,
+    33.788
+  ],
+  "Denton, TX (UNITED STATES) [100K]": [
+    -97.132,
+    33.215
+  ],
+  "Kanasin (MEXICO) [100K]": [
+    -89.558,
+    20.935
+  ],
+  "Waterloo (CANADA) [100K]": [
+    -80.51667,
+    43.46667
+  ],
+  "Warren, MI (UNITED STATES) [100K]": [
+    -83.028,
+    42.492
+  ],
+  "Hacienda Santa Fe (MEXICO) [100K]": [
+    -103.381,
+    20.518
+  ],
+  "Cordoba (MEXICO) [100K]": [
+    -96.93333,
+    18.88333
+  ],
+  "Pasadena, CA (UNITED STATES) [100K]": [
+    -118.143,
+    34.148
+  ],
+  "Waco, TX (UNITED STATES) [100K]": [
+    -97.132,
+    31.557
+  ],
+  "Zacatecas (MEXICO) [100K]": [
+    -102.572,
+    22.776
+  ],
+  "Carolina, PR (UNITED STATES) [100K]": [
+    -65.984,
+    18.408
+  ],
+  "Cedar Rapids, IA (UNITED STATES) [100K]": [
+    -91.664,
+    41.978
+  ],
+  "Dayton, OH (UNITED STATES) [100K]": [
+    -84.191,
+    39.758
+  ],
+  "Elizabeth, NJ (UNITED STATES) [100K]": [
+    -74.215,
+    40.665
+  ],
+  "Hampton, VA (UNITED STATES) [100K]": [
+    -76.344,
+    37.026
+  ],
+  "Willemstad (NETHERLANDS) [100K]": [
+    -68.933,
+    12.117
+  ],
+  "Columbia, SC (UNITED STATES) [100K]": [
+    -81.034,
+    34.001
+  ],
+  "Kent, WA (UNITED STATES) [100K]": [
+    -122.231,
+    47.381
+  ],
+  "Ciudad Valles (MEXICO) [100K]": [
+    -99.019,
+    21.987
+  ],
+  "San Jose del Cabo (MEXICO) [100K]": [
+    -109.695,
+    23.062
+  ],
+  "Ajax (CANADA) [100K]": [
+    -79.03288,
+    43.85012
+  ],
+  "Cuauhtemoc (MEXICO) [100K]": [
+    -106.866,
+    28.406
+  ],
+  "Stamford, CT (UNITED STATES) [100K]": [
+    -73.567,
+    41.124
+  ],
+  "Lakewood, NJ (UNITED STATES) [100K]": [
+    -74.199,
+    40.076
+  ],
+  "Victorville, CA (UNITED STATES) [100K]": [
+    -117.294,
+    34.537
+  ],
+  "Miramar, FL (UNITED STATES) [100K]": [
+    -80.238,
+    25.987
+  ],
+  "Coral Springs, FL (UNITED STATES) [100K]": [
+    -80.266,
+    26.273
+  ],
+  "Sterling Heights, MI (UNITED STATES) [100K]": [
+    -83.03,
+    42.58
+  ],
+  "New Haven, CT (UNITED STATES) [100K]": [
+    -72.931,
+    41.313
+  ],
+  "Carrollton, TX (UNITED STATES) [100K]": [
+    -96.89,
+    32.954
+  ],
+  "Puerto Plata (DOMINICAN REPUBLIC) [100K]": [
+    -70.68333,
+    19.8
+  ],
+  "Iguala de la Independencia (MEXICO) [100K]": [
+    -99.538,
+    18.345
+  ],
+  "Midland, TX (UNITED STATES) [100K]": [
+    -102.074,
+    31.998
+  ],
+  "San Pedro Garza Garcia (MEXICO) [100K]": [
+    -100.402,
+    25.662
+  ],
+  "Ciudad Sandino (NICARAGUA) [100K]": [
+    -86.35243579882,
+    12.1656729642105
+  ],
+  "San Miguel Petapa (GUATEMALA) [100K]": [
+    -90.559,
+    14.501
+  ],
+  "Vista Alegre (PANAMA) [100K]": [
+    -79.68333,
+    8.91667
+  ],
+  "Delicias (MEXICO) [100K]": [
+    -105.471,
+    28.193
+  ],
+  "Norman, OK (UNITED STATES) [100K]": [
+    -97.443,
+    35.221
+  ],
+  "Santa Clara, CA (UNITED STATES) [100K]": [
+    -121.954,
+    37.354
+  ],
+  "Athens, GA (UNITED STATES) [100K]": [
+    -83.375,
+    33.958
+  ],
+  "Thousand Oaks, CA (UNITED STATES) [100K]": [
+    -118.845,
+    34.175
+  ],
+  "Topeka, KS (UNITED STATES) [100K]": [
+    -95.677,
+    39.05
+  ],
+  "Simi Valley, CA (UNITED STATES) [100K]": [
+    -118.779,
+    34.272
+  ],
+  "Columbia, MO (UNITED STATES) [100K]": [
+    -92.329,
+    38.952
+  ],
+  "Vallejo, CA (UNITED STATES) [100K]": [
+    -122.255,
+    38.101
+  ],
+  "Fargo, ND (UNITED STATES) [100K]": [
+    -96.788,
+    46.874
+  ],
+  "Allentown, PA (UNITED STATES) [100K]": [
+    -75.472,
+    40.602
+  ],
+  "Pearland, TX (UNITED STATES) [100K]": [
+    -95.286,
+    29.564
+  ],
+  "Concord, CA (UNITED STATES) [100K]": [
+    -122.034,
+    37.977
+  ],
+  "Saanich (CANADA) [100K]": [
+    -123.36931,
+    48.54964
+  ],
+  "Abilene, TX (UNITED STATES) [100K]": [
+    -99.733,
+    32.449
+  ],
+  "Santa Tecla (EL SALVADOR) [100K]": [
+    -89.2886716904636,
+    13.6738129037325
+  ],
+  "Villa Canales (GUATEMALA) [100K]": [
+    -90.504,
+    14.397
+  ],
+  "Arvada, CO (UNITED STATES) [100K]": [
+    -105.081,
+    39.802
+  ],
+  "Berkeley, CA (UNITED STATES) [100K]": [
+    -122.268,
+    37.871
+  ],
+  "Ann Arbor, MI (UNITED STATES) [100K]": [
+    -83.748,
+    42.281
+  ],
+  "La Vega (DOMINICAN REPUBLIC) [100K]": [
+    -70.52,
+    19.22
+  ],
+  "Terrebonne (CANADA) [100K]": [
+    -73.65,
+    45.7
+  ],
+  "Independence, MO (UNITED STATES) [100K]": [
+    -94.416,
+    39.092
+  ],
+  "Saint-Marc (HAITI) [100K]": [
+    -72.69379,
+    19.10819
+  ],
+  "Ciego De Avila (CUBA) [100K]": [
+    -78.76194,
+    21.84
+  ],
+  "St Johns (CANADA) [100K]": [
+    -52.70931,
+    47.56494
+  ],
+  "Rochester, MN (UNITED STATES) [100K]": [
+    -92.463,
+    44.023
+  ],
+  "Lafayette, LA (UNITED STATES) [100K]": [
+    -92.02,
+    30.223
+  ],
+  "Hartford, CT (UNITED STATES) [100K]": [
+    -72.689,
+    41.761
+  ],
+  "Navojoa (MEXICO) [100K]": [
+    -109.446,
+    27.082
+  ],
+  "Tepexpan (MEXICO) [100K]": [
+    -98.936,
+    19.614
+  ],
+  "El Progreso (HONDURAS) [100K]": [
+    -87.809,
+    15.402
+  ],
+  "College Station, TX (UNITED STATES) [100K]": [
+    -96.335,
+    30.628
+  ],
+  "Comayagua (HONDURAS) [100K]": [
+    -87.643,
+    14.453
+  ],
+  "Orizaba (MEXICO) [100K]": [
+    -97.1,
+    18.85
+  ],
+  "Clovis, CA (UNITED STATES) [100K]": [
+    -119.7,
+    36.825
+  ],
+  "Delta (CANADA) [100K]": [
+    -122.9068,
+    49.14399
+  ],
+  "Fairfield, CA (UNITED STATES) [100K]": [
+    -122.04,
+    38.249
+  ],
+  "Palm Bay, FL (UNITED STATES) [100K]": [
+    -80.622,
+    28.035
+  ],
+  "Richardson, TX (UNITED STATES) [100K]": [
+    -96.732,
+    32.949
+  ],
+  "Round Rock, TX (UNITED STATES) [100K]": [
+    -97.679,
+    30.509
+  ],
+  "Cambridge, MA (UNITED STATES) [100K]": [
+    -71.117,
+    42.376
+  ],
+  "Delgado (EL SALVADOR) [100K]": [
+    -89.1689439040707,
+    13.7215887285441
+  ],
+  "Cuautitlan (MEXICO) [100K]": [
+    -99.179,
+    19.665
+  ],
+  "Huehuetenango (GUATEMALA) [100K]": [
+    -91.444,
+    15.303
+  ],
+  "Meridian, ID (UNITED STATES) [100K]": [
+    -116.392,
+    43.605
+  ],
+  "West Palm Beach, FL (UNITED STATES) [100K]": [
+    -80.052,
+    26.713
+  ],
+  "Evansville, IN (UNITED STATES) [100K]": [
+    -87.574,
+    37.97
+  ],
+  "Clearwater, FL (UNITED STATES) [100K]": [
+    -82.8,
+    27.966
+  ],
+  "Guaymas (MEXICO) [100K]": [
+    -110.889,
+    27.923
+  ],
+  "Billings, MT (UNITED STATES) [100K]": [
+    -108.507,
+    45.783
+  ],
+  "West Jordan, UT (UNITED STATES) [100K]": [
+    -111.939,
+    40.61
+  ],
+  "Brantford (CANADA) [100K]": [
+    -80.26636,
+    43.1334
+  ],
+  "Richmond, CA (UNITED STATES) [100K]": [
+    -122.348,
+    37.936
+  ],
+  "Westminster, CO (UNITED STATES) [100K]": [
+    -105.034,
+    39.835
+  ],
+  "Thunder Bay (CANADA) [100K]": [
+    -89.31683,
+    48.4001
+  ],
+  "Chinandega (NICARAGUA) [100K]": [
+    -87.1282633656627,
+    12.631468237156
+  ],
+  "Manchester, NH (UNITED STATES) [100K]": [
+    -71.463,
+    42.991
+  ],
+  "Lowell, MA (UNITED STATES) [100K]": [
+    -71.313,
+    42.645
+  ],
+  "Wilmington, NC (UNITED STATES) [100K]": [
+    -77.949,
+    34.235
+  ],
+  "Antioch, CA (UNITED STATES) [100K]": [
+    -121.806,
+    38.005
+  ],
+  "Beaumont, TX (UNITED STATES) [100K]": [
+    -94.098,
+    30.082
+  ],
+  "El Pueblito (MEXICO) [100K]": [
+    -100.442,
+    20.531
+  ],
+  "Provo, UT (UNITED STATES) [100K]": [
+    -111.659,
+    40.234
+  ],
+  "North Charleston, SC (UNITED STATES) [100K]": [
+    -79.974,
+    32.854
+  ],
+  "Elgin, IL (UNITED STATES) [100K]": [
+    -88.284,
+    42.037
+  ],
+  "Carlsbad, CA (UNITED STATES) [100K]": [
+    -117.351,
+    33.158
+  ],
+  "Odessa, TX (UNITED STATES) [100K]": [
+    -102.369,
+    31.848
+  ],
+  "Waterbury, CT (UNITED STATES) [100K]": [
+    -73.043,
+    41.554
+  ],
+  "Springfield, IL (UNITED STATES) [100K]": [
+    -89.655,
+    39.801
+  ],
+  "League City, TX (UNITED STATES) [100K]": [
+    -95.095,
+    29.508
+  ],
+  "Downey, CA (UNITED STATES) [100K]": [
+    -118.133,
+    33.94
+  ],
+  "Gresham, OR (UNITED STATES) [100K]": [
+    -122.431,
+    45.498
+  ],
+  "Matagalpa (NICARAGUA) [100K]": [
+    -85.9184745661228,
+    12.9280279438881
+  ],
+  "High Point, NC (UNITED STATES) [100K]": [
+    -80.006,
+    35.957
+  ],
+  "Ramos Arizpe (MEXICO) [100K]": [
+    -100.94772,
+    25.54227
+  ],
+  "Hidalgo Del Parral (MEXICO) [100K]": [
+    -105.667,
+    26.922
+  ],
+  "Broken Arrow, OK (UNITED STATES) [100K]": [
+    -95.791,
+    36.052
+  ],
+  "Comitan de Dominguez (MEXICO) [100K]": [
+    -92.136,
+    16.252
+  ],
+  "Peoria, IL (UNITED STATES) [100K]": [
+    -89.591,
+    40.693
+  ],
+  "Lansing, MI (UNITED STATES) [100K]": [
+    -84.552,
+    42.734
+  ],
+  "Lakeland, FL (UNITED STATES) [100K]": [
+    -81.956,
+    28.045
+  ],
+  "Esteli (NICARAGUA) [100K]": [
+    -86.3562043256446,
+    13.092947115967
+  ],
+  "Pompano Beach, FL (UNITED STATES) [100K]": [
+    -80.126,
+    26.232
+  ],
+  "Ciudad Guzman (MEXICO) [100K]": [
+    -103.464,
+    19.709
+  ],
+  "Costa Mesa, CA (UNITED STATES) [100K]": [
+    -117.919,
+    33.641
+  ],
+  "Pueblo, CO (UNITED STATES) [100K]": [
+    -104.624,
+    38.256
+  ],
+  "Lewisville, TX (UNITED STATES) [100K]": [
+    -96.994,
+    33.046
+  ],
+  "Miami Gardens, FL (UNITED STATES) [100K]": [
+    -80.245,
+    25.941
+  ],
+  "Lagos de Moreno (MEXICO) [100K]": [
+    -101.929,
+    21.356
+  ],
+  "Chiquimula (GUATEMALA) [100K]": [
+    -89.532,
+    14.805
+  ],
+  "Clarington (CANADA) [100K]": [
+    -78.67486,
+    43.99482
+  ],
+  "Las Cruces, NM (UNITED STATES) [100K]": [
+    -106.779,
+    32.31
+  ],
+  "Rio Bravo (MEXICO) [100K]": [
+    -98.09,
+    25.981
+  ],
+  "Sugar Land, TX (UNITED STATES) [100K]": [
+    -95.621,
+    29.595
+  ],
+  "Murrieta, CA (UNITED STATES) [100K]": [
+    -117.214,
+    33.554
+  ],
+  "Ventura, CA (UNITED STATES) [100K]": [
+    -119.301,
+    34.281
+  ],
+  "Chatham Kent (CANADA) [100K]": [
+    -82.1831,
+    42.40009
+  ],
+  "Everett, WA (UNITED STATES) [100K]": [
+    -122.202,
+    47.979
+  ],
+  "Montego Bay (JAMAICA) [100K]": [
+    -77.91667,
+    18.46667
+  ],
+  "Temecula, CA (UNITED STATES) [100K]": [
+    -117.149,
+    33.493
+  ],
+  "Dearborn, MI (UNITED STATES) [100K]": [
+    -83.176,
+    42.322
+  ],
+  "Santa Maria, CA (UNITED STATES) [100K]": [
+    -120.436,
+    34.953
+  ],
+  "West Covina, CA (UNITED STATES) [100K]": [
+    -117.938,
+    34.069
+  ],
+  "El Monte, CA (UNITED STATES) [100K]": [
+    -118.032,
+    34.073
+  ],
+  "Red Deer (CANADA) [100K]": [
+    -113.802,
+    52.26682
+  ],
+  "Pickering (CANADA) [100K]": [
+    -79.089,
+    43.835
+  ],
+  "Sancti Spiritus (CUBA) [100K]": [
+    -79.43333,
+    21.93333
+  ],
+  "Greeley, CO (UNITED STATES) [100K]": [
+    -104.694,
+    40.425
+  ],
+  "Sparks, NV (UNITED STATES) [100K]": [
+    -119.753,
+    39.535
+  ],
+  "Centennial, CO (UNITED STATES) [100K]": [
+    -104.885,
+    39.586
+  ],
+  "Nanaimo (CANADA) [100K]": [
+    -123.93601,
+    49.16634
+  ],
+  "Boulder, CO (UNITED STATES) [100K]": [
+    -105.278,
+    40.018
+  ],
+  "Sandy Springs, GA (UNITED STATES) [100K]": [
+    -84.379,
+    33.925
+  ],
+  "Ponce, PR (UNITED STATES) [100K]": [
+    -66.614,
+    18.012
+  ],
+  "Inglewood, CA (UNITED STATES) [100K]": [
+    -118.352,
+    33.962
+  ],
+  "Edison, NJ (UNITED STATES) [100K]": [
+    -74.387,
+    40.512
+  ],
+  "South Fulton, GA (UNITED STATES) [100K]": [
+    -84.573,
+    33.657
+  ],
+  "Green Bay, WI (UNITED STATES) [100K]": [
+    -88.008,
+    44.516
+  ],
+  "Burbank, CA (UNITED STATES) [100K]": [
+    -118.31,
+    34.182
+  ],
+  "Lethbridge (CANADA) [100K]": [
+    -112.83278,
+    49.69417
+  ],
+  "Kamloops (CANADA) [100K]": [
+    -120.3192,
+    50.66648
+  ],
+  "Renton, WA (UNITED STATES) [100K]": [
+    -122.208,
+    47.48
+  ],
+  "Granada (NICARAGUA) [100K]": [
+    -85.9566057660406,
+    11.9292242449432
+  ],
+  "Hillsboro, OR (UNITED STATES) [100K]": [
+    -122.99,
+    45.523
+  ],
+  "El Cajon, CA (UNITED STATES) [100K]": [
+    -116.962,
+    32.795
+  ],
+  "Tulancingo de Bravo (MEXICO) [100K]": [
+    -98.368,
+    20.081
+  ],
+  "Tyler, TX (UNITED STATES) [100K]": [
+    -95.301,
+    32.351
+  ],
+  "Davie, FL (UNITED STATES) [100K]": [
+    -80.232,
+    26.073
+  ],
+  "San Mateo, CA (UNITED STATES) [100K]": [
+    -122.324,
+    37.564
+  ],
+  "Brockton, MA (UNITED STATES) [100K]": [
+    -71.02,
+    42.083
+  ],
+  "Niagara Falls (CANADA) [100K]": [
+    -79.06627,
+    43.10012
+  ],
+  "Concord, NC (UNITED STATES) [100K]": [
+    -80.581,
+    35.411
+  ],
+  "Jurupa Valley, CA (UNITED STATES) [100K]": [
+    -117.475,
+    33.999
+  ],
+  "Chinautla (GUATEMALA) [100K]": [
+    -90.491,
+    14.709
+  ],
+  "Daly City, CA (UNITED STATES) [100K]": [
+    -122.462,
+    37.706
+  ],
+  "Cape Breton (CANADA) [100K]": [
+    -60.192,
+    46.137
+  ],
+  "Allen, TX (UNITED STATES) [100K]": [
+    -96.67,
+    33.103
+  ],
+  "Temixco (MEXICO) [100K]": [
+    -99.224,
+    18.845
+  ],
+  "Strathcona County (CANADA) [100K]": [
+    -113.30889,
+    53.52333
+  ],
+  "Rio Rancho, NM (UNITED STATES) [100K]": [
+    -106.656,
+    35.241
+  ],
+  "Rialto, CA (UNITED STATES) [100K]": [
+    -117.37,
+    34.099
+  ],
+  "Totonicapan (GUATEMALA) [100K]": [
+    -91.362,
+    14.912
+  ],
+  "David (PANAMA) [100K]": [
+    -82.43333,
+    8.45
+  ],
+  "Woodbridge, NJ (UNITED STATES) [100K]": [
+    -74.301,
+    40.564
+  ],
+  "San Juan Bautista Tuxtepec (MEXICO) [100K]": [
+    -96.118,
+    18.081
+  ],
+  "South Bend, IN (UNITED STATES) [100K]": [
+    -86.252,
+    41.676
+  ],
+  "Spokane Valley, WA (UNITED STATES) [100K]": [
+    -117.24,
+    47.657
+  ],
+  "Norwalk, CA (UNITED STATES) [100K]": [
+    -118.083,
+    33.902
+  ],
+  "Menifee, CA (UNITED STATES) [100K]": [
+    -117.189,
+    33.685
+  ],
+  "Maple Ridge (CANADA) [100K]": [
+    -122.60193,
+    49.21939
+  ],
+  "Vacaville, CA (UNITED STATES) [100K]": [
+    -121.986,
+    38.357
+  ],
+  "Apatzingan de la Constitucion (MEXICO) [100K]": [
+    -102.35162,
+    19.09522
+  ],
+  "Wichita Falls, TX (UNITED STATES) [100K]": [
+    -98.492,
+    33.912
+  ],
+  "Cholula de Rivadavia (MEXICO) [100K]": [
+    -98.308,
+    19.062
+  ],
+  "Chilliwack (CANADA) [100K]": [
+    -121.95092,
+    49.15772
+  ],
+  "Davenport, IA (UNITED STATES) [100K]": [
+    -90.576,
+    41.522
+  ],
+  "San Martin (EL SALVADOR) [100K]": [
+    -89.0557065057641,
+    13.73938179448
+  ],
+  "Quincy, MA (UNITED STATES) [100K]": [
+    -71.004,
+    42.252
+  ],
+  "Chico, CA (UNITED STATES) [100K]": [
+    -121.839,
+    39.728
+  ],
+  "Lynn, MA (UNITED STATES) [100K]": [
+    -70.951,
+    42.464
+  ],
+  "Lees Summit, MO (UNITED STATES) [100K]": [
+    -94.378,
+    38.912
+  ],
+  "New Bedford, MA (UNITED STATES) [100K]": [
+    -70.926,
+    41.635
+  ],
+  "Federal Way, WA (UNITED STATES) [100K]": [
+    -122.313,
+    47.315
+  ],
+  "Rosarito (MEXICO) [100K]": [
+    -117.054,
+    32.364
+  ],
+  "Puerto Barrios (GUATEMALA) [100K]": [
+    -88.589,
+    15.698
+  ],
+  "Clinton, MI (UNITED STATES) [100K]": [
+    -82.936,
+    42.591
+  ],
+  "Victoria (CANADA) [100K]": [
+    -123.3657,
+    48.42215
+  ],
+  "Edinburg, TX (UNITED STATES) [100K]": [
+    -98.162,
+    26.301
+  ],
+  "Nampa, ID (UNITED STATES) [100K]": [
+    -116.562,
+    43.579
+  ],
+  "St Jean sur Richelieu (CANADA) [100K]": [
+    -73.26667,
+    45.31667
+  ],
+  "Roanoke, VA (UNITED STATES) [100K]": [
+    -79.939,
+    37.272
+  ],
+  "Kenosha, WI (UNITED STATES) [75K]": [
+    -87.823,
+    42.584
+  ],
+  "Choluteca (HONDURAS) [75K]": [
+    -87.193,
+    13.302
+  ],
+  "San Angelo, TX (UNITED STATES) [75K]": [
+    -100.437,
+    31.464
+  ],
+  "Hesperia, CA (UNITED STATES) [75K]": [
+    -117.302,
+    34.422
+  ],
+  "Carmel, IN (UNITED STATES) [75K]": [
+    -86.127,
+    39.978
+  ],
+  "San Bernardino Tlaxcalancingo (MEXICO) [75K]": [
+    -98.276,
+    19.029
+  ],
+  "Tuscaloosa, AL (UNITED STATES) [75K]": [
+    -87.567,
+    33.206
+  ],
+  "Port-de-Paix (HAITI) [75K]": [
+    -72.833333,
+    19.95
+  ],
+  "Albany, NY (UNITED STATES) [75K]": [
+    -73.758,
+    42.653
+  ],
+  "Bend, OR (UNITED STATES) [75K]": [
+    -121.313,
+    44.058
+  ],
+  "Tabarre (HAITI) [75K]": [
+    -72.26667,
+    18.58333
+  ],
+  "Fishers, IN (UNITED STATES) [75K]": [
+    -86.017,
+    39.957
+  ],
+  "Manzanillo (CUBA) [75K]": [
+    -77.11667,
+    20.35
+  ],
+  "Longmont, CO (UNITED STATES) [75K]": [
+    -105.103,
+    40.167
+  ],
+  "Tepatitlan de Morelos (MEXICO) [75K]": [
+    -102.757,
+    20.818
+  ],
+  "Canton, MI (UNITED STATES) [75K]": [
+    -83.487,
+    42.307
+  ],
+  "Vista, CA (UNITED STATES) [75K]": [
+    -117.244,
+    33.202
+  ],
+  "Amatitlan (GUATEMALA) [75K]": [
+    -90.619,
+    14.466
+  ],
+  "Orem, UT (UNITED STATES) [75K]": [
+    -111.695,
+    40.297
+  ],
+  "Portsmouth, VA (UNITED STATES) [75K]": [
+    -76.299,
+    36.835
+  ],
+  "Beaverton, OR (UNITED STATES) [75K]": [
+    -122.804,
+    45.487
+  ],
+  "Boca Raton, FL (UNITED STATES) [75K]": [
+    -80.086,
+    26.351
+  ],
+  "Sunrise, FL (UNITED STATES) [75K]": [
+    -80.284,
+    26.17
+  ],
+  "Chimaltenango (GUATEMALA) [75K]": [
+    -90.813,
+    14.68
+  ],
+  "Yakima, WA (UNITED STATES) [75K]": [
+    -120.506,
+    46.602
+  ],
+  "Sandy, UT (UNITED STATES) [75K]": [
+    -111.853,
+    40.573
+  ],
+  "Bridgetown (BARBADOS) [75K]": [
+    -59.613056,
+    13.105833
+  ],
+  "Lerdo (MEXICO) [75K]": [
+    -103.525,
+    25.537
+  ],
+  "Compton, CA (UNITED STATES) [75K]": [
+    -118.22,
+    33.896
+  ],
+  "Carson, CA (UNITED STATES) [75K]": [
+    -118.278,
+    33.832
+  ],
+  "Yuma, AZ (UNITED STATES) [75K]": [
+    -114.625,
+    32.713
+  ],
+  "Livonia, MI (UNITED STATES) [75K]": [
+    -83.353,
+    42.376
+  ],
+  "Toms River, NJ (UNITED STATES) [75K]": [
+    -74.191,
+    39.991
+  ],
+  "Brossard (CANADA) [75K]": [
+    -73.45,
+    45.46667
+  ],
+  "St George, UT (UNITED STATES) [75K]": [
+    -113.583,
+    37.108
+  ],
+  "Amozoc de Mota (MEXICO) [75K]": [
+    -98.045,
+    19.045
+  ],
+  "Goodyear, AZ (UNITED STATES) [75K]": [
+    -112.409,
+    33.435
+  ],
+  "Reading, PA (UNITED STATES) [75K]": [
+    -75.928,
+    40.335
+  ],
+  "Ocotlan (MEXICO) [75K]": [
+    -102.768,
+    20.351
+  ],
+  "Lawrence, KS (UNITED STATES) [75K]": [
+    -95.236,
+    38.971
+  ],
+  "San Marcos, CA (UNITED STATES) [75K]": [
+    -117.166,
+    33.141
+  ],
+  "Erie, PA (UNITED STATES) [75K]": [
+    -80.085,
+    42.129
+  ],
+  "Asheville, NC (UNITED STATES) [75K]": [
+    -82.552,
+    35.595
+  ],
+  "Edmond, OK (UNITED STATES) [75K]": [
+    -97.481,
+    35.655
+  ],
+  "Suffolk, VA (UNITED STATES) [75K]": [
+    -76.583,
+    36.73
+  ],
+  "Fall River, MA (UNITED STATES) [75K]": [
+    -71.155,
+    41.702
+  ],
+  "Fayetteville, AR (UNITED STATES) [75K]": [
+    -94.161,
+    36.063
+  ],
+  "Deltona, FL (UNITED STATES) [75K]": [
+    -81.263,
+    28.901
+  ],
+  "Mission Viejo, CA (UNITED STATES) [75K]": [
+    -117.669,
+    33.597
+  ],
+  "Redding, CA (UNITED STATES) [75K]": [
+    -122.39,
+    40.586
+  ],
+  "Santa Monica, CA (UNITED STATES) [75K]": [
+    -118.491,
+    34.019
+  ],
+  "Tracy, CA (UNITED STATES) [75K]": [
+    -121.426,
+    37.74
+  ],
+  "Roswell, GA (UNITED STATES) [75K]": [
+    -84.359,
+    34.022
+  ],
+  "South Gate, CA (UNITED STATES) [75K]": [
+    -118.212,
+    33.955
+  ],
+  "Hoover, AL (UNITED STATES) [75K]": [
+    -86.806,
+    33.4
+  ],
+  "Newmarket (CANADA) [75K]": [
+    -79.46631,
+    44.05011
+  ],
+  "Hamilton, NJ (UNITED STATES) [75K]": [
+    -74.686,
+    40.222
+  ],
+  "Peterborough (CANADA) [75K]": [
+    -78.31623,
+    44.30012
+  ],
+  "Kirkland, WA (UNITED STATES) [75K]": [
+    -122.203,
+    47.675
+  ],
+  "Plantation, FL (UNITED STATES) [75K]": [
+    -80.252,
+    26.121
+  ],
+  "Tesistan (MEXICO) [75K]": [
+    -103.486,
+    20.798
+  ],
+  "Buckeye, AZ (UNITED STATES) [75K]": [
+    -112.583,
+    33.371
+  ],
+  "Bellingham, WA (UNITED STATES) [75K]": [
+    -122.479,
+    48.75
+  ],
+  "Chino, CA (UNITED STATES) [75K]": [
+    -117.689,
+    34.012
+  ],
+  "Nashua, NH (UNITED STATES) [75K]": [
+    -71.468,
+    42.765
+  ],
+  "OFallon, MO (UNITED STATES) [75K]": [
+    -90.7,
+    38.811
+  ],
+  "Norwalk, CT (UNITED STATES) [75K]": [
+    -73.429,
+    41.13
+  ],
+  "Moncton (CANADA) [75K]": [
+    -64.80186,
+    46.11594
+  ],
+  "Agua Prieta (MEXICO) [75K]": [
+    -109.546,
+    31.328
+  ],
+  "San Leandro, CA (UNITED STATES) [75K]": [
+    -122.154,
+    37.723
+  ],
+  "Westminster, CA (UNITED STATES) [75K]": [
+    -118.007,
+    33.759
+  ],
+  "Trenton, NJ (UNITED STATES) [75K]": [
+    -74.766,
+    40.22
+  ],
+  "Mount Pleasant, SC (UNITED STATES) [75K]": [
+    -79.872,
+    32.792
+  ],
+  "Punta Cana (DOMINICAN REPUBLIC) [75K]": [
+    -68.367,
+    18.533
+  ],
+  "Retalhuleu (GUATEMALA) [75K]": [
+    -91.744,
+    14.441
+  ],
+  "New Braunfels, TX (UNITED STATES) [75K]": [
+    -98.125,
+    29.703
+  ],
+  "Lawton, OK (UNITED STATES) [75K]": [
+    -98.392,
+    34.605
+  ],
+  "Clifton, NJ (UNITED STATES) [75K]": [
+    -74.154,
+    40.867
+  ],
+  "Bloomington, MN (UNITED STATES) [75K]": [
+    -93.298,
+    44.841
+  ],
+  "Conroe, TX (UNITED STATES) [75K]": [
+    -95.458,
+    30.312
+  ],
+  "Hemet, CA (UNITED STATES) [75K]": [
+    -116.972,
+    33.748
+  ],
+  "Tuxpam de Rodriguez Cano (MEXICO) [75K]": [
+    -97.4,
+    20.95
+  ],
+  "Avondale, AZ (UNITED STATES) [75K]": [
+    -112.35,
+    33.435
+  ],
+  "Waukegan, IL (UNITED STATES) [75K]": [
+    -87.831,
+    42.36
+  ],
+  "Atlixco (MEXICO) [75K]": [
+    -98.434,
+    18.909
+  ],
+  "Palm Coast, FL (UNITED STATES) [75K]": [
+    -81.211,
+    29.555
+  ],
+  "Petite-Anse (HAITI) [75K]": [
+    -72.1825,
+    19.73944
+  ],
+  "Lawrence, MA (UNITED STATES) [75K]": [
+    -71.162,
+    42.708
+  ],
+  "Fort Smith, AR (UNITED STATES) [75K]": [
+    -94.421,
+    35.383
+  ],
+  "Indio, CA (UNITED STATES) [75K]": [
+    -116.216,
+    33.719
+  ],
+  "Cardenas (CUBA) [75K]": [
+    -81.2,
+    23.03333
+  ],
+  "Newton, MA (UNITED STATES) [75K]": [
+    -71.208,
+    42.337
+  ],
+  "San Mateo Atenco (MEXICO) [75K]": [
+    -99.53,
+    19.261
+  ],
+  "Santa Barbara, CA (UNITED STATES) [75K]": [
+    -119.702,
+    34.421
+  ],
+  "Solola (GUATEMALA) [75K]": [
+    -91.181,
+    14.768
+  ],
+  "Repentigny (CANADA) [75K]": [
+    -73.45,
+    45.73333
+  ],
+  "New Westminster (CANADA) [75K]": [
+    -122.91111,
+    49.20694
+  ],
+  "Tecoman (MEXICO) [75K]": [
+    -103.874,
+    18.911
+  ],
+  "Champaign, IL (UNITED STATES) [75K]": [
+    -88.243,
+    40.116
+  ],
+  "Juchitan de Zaragoza (MEXICO) [75K]": [
+    -95.022,
+    16.433
+  ],
+  "Hawthorne, CA (UNITED STATES) [75K]": [
+    -118.353,
+    33.916
+  ],
+  "Livermore, CA (UNITED STATES) [75K]": [
+    -121.768,
+    37.682
+  ],
+  "Citrus Heights, CA (UNITED STATES) [75K]": [
+    -121.29,
+    38.707
+  ],
+  "Greenville, NC (UNITED STATES) [75K]": [
+    -77.373,
+    35.611
+  ],
+  "Santa Fe, NM (UNITED STATES) [75K]": [
+    -105.939,
+    35.687
+  ],
+  "Ogden, UT (UNITED STATES) [75K]": [
+    -111.972,
+    41.221
+  ],
+  "Whittier, CA (UNITED STATES) [75K]": [
+    -118.033,
+    33.979
+  ],
+  "Troy, MI (UNITED STATES) [75K]": [
+    -83.15,
+    42.606
+  ],
+  "Auburn, WA (UNITED STATES) [75K]": [
+    -122.229,
+    47.307
+  ],
+  "La Piedad de Cabadas (MEXICO) [75K]": [
+    -102.025,
+    20.339167
+  ],
+  "Zitacuaro (MEXICO) [75K]": [
+    -100.35691,
+    19.43661
+  ],
+  "Deerfield Beach, FL (UNITED STATES) [75K]": [
+    -80.101,
+    26.319
+  ],
+  "Duluth, MN (UNITED STATES) [75K]": [
+    -92.099,
+    46.788
+  ],
+  "Matehuala (MEXICO) [75K]": [
+    -100.644,
+    23.646
+  ],
+  "Danbury, CT (UNITED STATES) [75K]": [
+    -73.468,
+    41.408
+  ],
+  "Brooklyn Park, MN (UNITED STATES) [75K]": [
+    -93.356,
+    45.094
+  ],
+  "Fort Myers, FL (UNITED STATES) [75K]": [
+    -81.87,
+    26.643
+  ],
+  "Merced, CA (UNITED STATES) [75K]": [
+    -120.485,
+    37.302
+  ],
+  "Puerto Cabezas (NICARAGUA) [75K]": [
+    -83.394,
+    14.033
+  ],
+  "Lake Forest, CA (UNITED STATES) [75K]": [
+    -117.686,
+    33.647
+  ],
+  "Medford, OR (UNITED STATES) [75K]": [
+    -122.872,
+    42.327
+  ],
+  "Sioux City, IA (UNITED STATES) [75K]": [
+    -96.403,
+    42.494
+  ],
+  "Mission, TX (UNITED STATES) [75K]": [
+    -98.326,
+    26.216
+  ],
+  "Westland, MI (UNITED STATES) [75K]": [
+    -83.399,
+    42.324
+  ],
+  "Cicero, IL (UNITED STATES) [75K]": [
+    -87.754,
+    41.846
+  ],
+  "Newport Beach, CA (UNITED STATES) [75K]": [
+    -117.929,
+    33.619
+  ],
+  "Kawartha Lakes (CANADA) [75K]": [
+    -78.83288,
+    44.58342
+  ],
+  "Barahona (DOMINICAN REPUBLIC) [75K]": [
+    -71.103,
+    18.211
+  ],
+  "Caledon (CANADA) [75K]": [
+    -80.0,
+    43.86667
+  ],
+  "Lake Charles, LA (UNITED STATES) [75K]": [
+    -93.217,
+    30.229
+  ],
+  "Croix-des-Bouquets (HAITI) [75K]": [
+    -72.236,
+    18.579
+  ],
+  "Melbourne, FL (UNITED STATES) [75K]": [
+    -80.604,
+    28.08
+  ],
+  "San Ramon, CA (UNITED STATES) [75K]": [
+    -121.978,
+    37.776
+  ],
+  "Arraijan (PANAMA) [75K]": [
+    -79.65,
+    8.95
+  ],
+  "Cozumel (MEXICO) [75K]": [
+    -86.958,
+    20.504
+  ],
+  "Los Reyes Acaquilpan (MEXICO) [75K]": [
+    -98.977,
+    19.359
+  ],
+  "Redwood City, CA (UNITED STATES) [75K]": [
+    -122.226,
+    37.484
+  ],
+  "Springdale, AR (UNITED STATES) [75K]": [
+    -94.129,
+    36.185
+  ],
+  "Buena Park, CA (UNITED STATES) [75K]": [
+    -117.998,
+    33.868
+  ],
+  "Farmington Hills, MI (UNITED STATES) [75K]": [
+    -83.378,
+    42.499
+  ],
+  "Bryan, TX (UNITED STATES) [75K]": [
+    -96.373,
+    30.674
+  ],
+  "Airdrie (CANADA) [75K]": [
+    -114.03528,
+    51.30011
+  ],
+  "Kennewick, WA (UNITED STATES) [75K]": [
+    -119.117,
+    46.209
+  ],
+  "Baytown, TX (UNITED STATES) [75K]": [
+    -94.978,
+    29.735
+  ],
+  "Villanueva (HONDURAS) [75K]": [
+    -87.993,
+    15.315
+  ],
+  "Lazaro Cardenas (MEXICO) [75K]": [
+    -102.192222,
+    17.956111
+  ],
+  "Chaguanas (TRINIDAD AND TOBAGO) [75K]": [
+    -61.41503,
+    10.51718
+  ],
+  "Manteca, CA (UNITED STATES) [75K]": [
+    -121.216,
+    37.797
+  ],
+  "Franklin, TN (UNITED STATES) [75K]": [
+    -86.869,
+    35.925
+  ],
+  "Silao (MEXICO) [75K]": [
+    -101.426,
+    20.944
+  ],
+  "St Jerome (CANADA) [75K]": [
+    -74.0,
+    45.78333
+  ],
+  "Drummondville (CANADA) [75K]": [
+    -72.48333,
+    45.88333
+  ],
+  "Cranston, RI (UNITED STATES) [75K]": [
+    -71.437,
+    41.779
+  ],
+  "Miami Beach, FL (UNITED STATES) [75K]": [
+    -80.13,
+    25.791
+  ],
+  "Alhambra, CA (UNITED STATES) [75K]": [
+    -118.127,
+    34.095
+  ],
+  "Warwick, RI (UNITED STATES) [75K]": [
+    -71.46,
+    41.699
+  ],
+  "Prince George (CANADA) [75K]": [
+    -122.75301,
+    53.9166
+  ],
+  "Lakewood, CA (UNITED STATES) [75K]": [
+    -118.142,
+    33.854
+  ],
+  "Largo, FL (UNITED STATES) [75K]": [
+    -82.788,
+    27.909
+  ],
+  "Johns Creek, GA (UNITED STATES) [75K]": [
+    -84.223,
+    34.046
+  ],
+  "Mountain View, CA (UNITED STATES) [75K]": [
+    -122.081,
+    37.39
+  ],
+  "Fuentes del Valle (MEXICO) [75K]": [
+    -99.137,
+    19.631
+  ],
+  "Temple, TX (UNITED STATES) [75K]": [
+    -97.343,
+    31.097
+  ],
+  "Santa Cruz Xoxocotlan (MEXICO) [75K]": [
+    -96.734,
+    17.027
+  ],
+  "Layton, UT (UNITED STATES) [75K]": [
+    -111.966,
+    41.06
+  ],
+  "Longview, TX (UNITED STATES) [75K]": [
+    -94.74,
+    32.495
+  ],
+  "Flint, MI (UNITED STATES) [75K]": [
+    -83.691,
+    43.017
+  ],
+  "Parma, OH (UNITED STATES) [75K]": [
+    -81.723,
+    41.405
+  ],
+  "Tecate (MEXICO) [75K]": [
+    -116.627,
+    32.573
+  ],
+  "Somerville, MA (UNITED STATES) [75K]": [
+    -71.103,
+    42.388
+  ],
+  "Plymouth, MN (UNITED STATES) [75K]": [
+    -93.472,
+    45.015
+  ],
+  "La Lima (HONDURAS) [75K]": [
+    -87.927,
+    15.438
+  ],
+  "Homestead, FL (UNITED STATES) [75K]": [
+    -80.477,
+    25.47
+  ],
+  "Cardenas (MEXICO) [75K]": [
+    -93.377,
+    17.989
+  ],
+  "Folsom, CA (UNITED STATES) [75K]": [
+    -121.176,
+    38.678
+  ],
+  "Gastonia, NC (UNITED STATES) [75K]": [
+    -81.184,
+    35.264
+  ],
+  "Boynton Beach, FL (UNITED STATES) [75K]": [
+    -80.064,
+    26.529
+  ],
+  "Warner Robins, GA (UNITED STATES) [75K]": [
+    -83.633,
+    32.618
+  ],
+  "Tustin, CA (UNITED STATES) [75K]": [
+    -117.825,
+    33.746
+  ],
+  "Milpitas, CA (UNITED STATES) [75K]": [
+    -121.907,
+    37.431
+  ],
+  "Danli (HONDURAS) [75K]": [
+    -86.57,
+    14.031
+  ],
+  "Pleasanton, CA (UNITED STATES) [75K]": [
+    -121.875,
+    37.663
+  ],
+  "Altamira (MEXICO) [75K]": [
+    -97.937,
+    22.392
+  ],
+  "San Francisco del Rincon (MEXICO) [75K]": [
+    -101.859,
+    21.019
+  ],
+  "New Rochelle, NY (UNITED STATES) [75K]": [
+    -73.784,
+    40.907
+  ],
+  "Pharr, TX (UNITED STATES) [75K]": [
+    -98.184,
+    26.195
+  ],
+  "Siguatepeque (HONDURAS) [75K]": [
+    -87.831,
+    14.594
+  ],
+  "Ciudad Mante (MEXICO) [75K]": [
+    -98.972,
+    22.744
+  ],
+  "Shelby, MI (UNITED STATES) [75K]": [
+    -83.04,
+    42.674
+  ],
+  "Rancho Cordova, CA (UNITED STATES) [75K]": [
+    -121.297,
+    38.592
+  ],
+  "Napa, CA (UNITED STATES) [75K]": [
+    -122.289,
+    38.298
+  ],
+  "Kissimmee, FL (UNITED STATES) [75K]": [
+    -81.408,
+    28.292
+  ],
+  "Bellflower, CA (UNITED STATES) [75K]": [
+    -118.125,
+    33.882
+  ],
+  "Bloomington, IN (UNITED STATES) [75K]": [
+    -86.535,
+    39.167
+  ],
+  "Upland, CA (UNITED STATES) [75K]": [
+    -117.651,
+    34.094
+  ],
+  "Lynchburg, VA (UNITED STATES) [75K]": [
+    -79.142,
+    37.415
+  ],
+  "Schaumburg, IL (UNITED STATES) [75K]": [
+    -88.08,
+    42.027
+  ],
+  "San Juan (DOMINICAN REPUBLIC) [75K]": [
+    -71.23,
+    18.81
+  ],
+  "Perris, CA (UNITED STATES) [75K]": [
+    -117.229,
+    33.782
+  ],
+  "Bloomington, IL (UNITED STATES) [75K]": [
+    -88.994,
+    40.479
+  ],
+  "Jonesboro, AR (UNITED STATES) [75K]": [
+    -90.705,
+    35.842
+  ],
+  "Sault Ste Marie (CANADA) [75K]": [
+    -84.33325,
+    46.51677
+  ],
+  "Leogane (HAITI) [75K]": [
+    -72.75,
+    18.41667
+  ],
+  "Chino Hills, CA (UNITED STATES) [75K]": [
+    -117.72,
+    33.977
+  ],
+  "Sarnia (CANADA) [75K]": [
+    -82.40407,
+    42.97866
+  ],
+  "Alameda, CA (UNITED STATES) [75K]": [
+    -122.243,
+    37.764
+  ],
+  "Santa Cruz del Quiche (GUATEMALA) [75K]": [
+    -91.135,
+    15.031
+  ],
+  "San Martin Texmelucan de Labastida (MEXICO) [75K]": [
+    -98.436,
+    19.283
+  ],
+  "Frederick, MD (UNITED STATES) [75K]": [
+    -77.411,
+    39.414
+  ],
+  "Evanston, IL (UNITED STATES) [75K]": [
+    -87.69,
+    42.041
+  ],
+  "Hammond, IN (UNITED STATES) [75K]": [
+    -87.481,
+    41.585
+  ],
+  "Guasave (MEXICO) [75K]": [
+    -108.472,
+    25.566
+  ],
+  "Racine, WI (UNITED STATES) [75K]": [
+    -87.783,
+    42.727
+  ],
+  "Arlington Heights, IL (UNITED STATES) [75K]": [
+    -87.983,
+    42.083
+  ],
+  "Cedar Park, TX (UNITED STATES) [75K]": [
+    -97.823,
+    30.51
+  ],
+  "South Jordan, UT (UNITED STATES) [75K]": [
+    -111.929,
+    40.562
+  ],
+  "Mazatenango (GUATEMALA) [75K]": [
+    -91.507,
+    14.533
+  ],
+  "Bani (DOMINICAN REPUBLIC) [75K]": [
+    -70.332,
+    18.279
+  ],
+  "Pasco, WA (UNITED STATES) [75K]": [
+    -119.092,
+    46.231
+  ],
+  "Wood Buffalo (CANADA) [75K]": [
+    -111.37972,
+    56.72667
+  ],
+  "Flagstaff, AZ (UNITED STATES) [75K]": [
+    -111.648,
+    35.198
+  ],
+  "Salina Cruz (MEXICO) [75K]": [
+    -95.192,
+    16.176
+  ],
+  "Southfield, MI (UNITED STATES) [75K]": [
+    -83.221,
+    42.473
+  ],
+  "Wyoming, MI (UNITED STATES) [75K]": [
+    -85.705,
+    42.914
+  ],
+  "Pittsburg, CA (UNITED STATES) [75K]": [
+    -121.886,
+    38.025
+  ],
+  "Loveland, CO (UNITED STATES) [75K]": [
+    -105.074,
+    40.395
+  ],
+  "Scranton, PA (UNITED STATES) [75K]": [
+    -75.662,
+    41.409
+  ],
+  "Rochester Hills, MI (UNITED STATES) [75K]": [
+    -83.153,
+    42.652
+  ],
+  "Petit-Goave (HAITI) [75K]": [
+    -72.91667,
+    18.33333
+  ],
+  "Auburn, AL (UNITED STATES) [75K]": [
+    -85.482,
+    32.607
+  ],
+  "Boca Chica (DOMINICAN REPUBLIC) [75K]": [
+    -69.606389,
+    18.453889
+  ],
+  "Flower Mound, TX (UNITED STATES) [75K]": [
+    -97.071,
+    33.014
+  ],
+  "Lehi, UT (UNITED STATES) [75K]": [
+    -111.849,
+    40.388
+  ],
+  "Doral, FL (UNITED STATES) [75K]": [
+    -80.353,
+    25.812
+  ],
+  "Apple Valley, CA (UNITED STATES) [75K]": [
+    -117.19,
+    34.501
+  ],
+  "Juticalpa (HONDURAS) [75K]": [
+    -86.22,
+    14.668
+  ],
+  "Bethlehem, PA (UNITED STATES) [75K]": [
+    -75.375,
+    40.622
+  ],
+  "Bajos de Haina (DOMINICAN REPUBLIC) [75K]": [
+    -70.033333,
+    18.416667
+  ],
+  "Cadereyta Jimenez (MEXICO) [75K]": [
+    -100.002,
+    25.591
+  ],
+  "Appleton, WI (UNITED STATES) [75K]": [
+    -88.407,
+    44.262
+  ],
+  "Pawtucket, RI (UNITED STATES) [75K]": [
+    -71.384,
+    41.877
+  ],
+  "Jardines de la Silla (MEXICO) [75K]": [
+    -100.181,
+    25.635
+  ],
+  "Frontera (MEXICO) [75K]": [
+    -101.4525,
+    26.926667
+  ],
+  "Woodbury, MN (UNITED STATES) [75K]": [
+    -92.96,
+    44.925
+  ],
+  "St John (CANADA) [75K]": [
+    -66.06766,
+    45.27271
+  ],
+  "Palma Soriano (CUBA) [50K]": [
+    -76.0,
+    20.21667
+  ],
+  "Fort-de-France (FRANCE) [50K]": [
+    -61.0694,
+    14.6072
+  ],
+  "Iowa City, IA (UNITED STATES) [50K]": [
+    -91.535,
+    41.661
+  ],
+  "North Port, FL (UNITED STATES) [50K]": [
+    -82.236,
+    27.044
+  ],
+  "Rapid City, SD (UNITED STATES) [50K]": [
+    -103.227,
+    44.081
+  ],
+  "Cherry Hill, NJ (UNITED STATES) [50K]": [
+    -74.986,
+    39.892
+  ],
+  "Lauderhill, FL (UNITED STATES) [50K]": [
+    -80.212,
+    26.15
+  ],
+  "Rock Hill, SC (UNITED STATES) [50K]": [
+    -81.025,
+    34.925
+  ],
+  "Missouri City, TX (UNITED STATES) [50K]": [
+    -95.527,
+    29.596
+  ],
+  "New Britain, CT (UNITED STATES) [50K]": [
+    -72.785,
+    41.676
+  ],
+  "Broomfield, CO (UNITED STATES) [50K]": [
+    -105.053,
+    39.925
+  ],
+  "Bolingbrook, IL (UNITED STATES) [50K]": [
+    -88.068,
+    41.698
+  ],
+  "Mount Vernon, NY (UNITED STATES) [50K]": [
+    -73.837,
+    40.913
+  ],
+  "Bismarck, ND (UNITED STATES) [50K]": [
+    -100.788,
+    46.805
+  ],
+  "Brick, NJ (UNITED STATES) [50K]": [
+    -74.121,
+    40.058
+  ],
+  "Kalamazoo, MI (UNITED STATES) [50K]": [
+    -85.583,
+    42.292
+  ],
+  "Missoula, MT (UNITED STATES) [50K]": [
+    -113.994,
+    46.872
+  ],
+  "Redmond, WA (UNITED STATES) [50K]": [
+    -122.122,
+    47.674
+  ],
+  "Redlands, CA (UNITED STATES) [50K]": [
+    -117.183,
+    34.057
+  ],
+  "Castle Rock, CO (UNITED STATES) [50K]": [
+    -104.856,
+    39.372
+  ],
+  "Puerto Cortes (HONDURAS) [50K]": [
+    -87.945,
+    15.846
+  ],
+  "Norfolk (CANADA) [50K]": [
+    -80.38297,
+    42.8334
+  ],
+  "Gulfport, MS (UNITED STATES) [50K]": [
+    -89.093,
+    30.369
+  ],
+  "Turlock, CA (UNITED STATES) [50K]": [
+    -120.845,
+    37.495
+  ],
+  "Jacksonville, NC (UNITED STATES) [50K]": [
+    -77.431,
+    34.751
+  ],
+  "Valle de Santiago (MEXICO) [50K]": [
+    -101.181,
+    20.391
+  ],
+  "Daytona Beach, FL (UNITED STATES) [50K]": [
+    -81.023,
+    29.211
+  ],
+  "Mansfield, TX (UNITED STATES) [50K]": [
+    -97.142,
+    32.563
+  ],
+  "Dublin, CA (UNITED STATES) [50K]": [
+    -121.924,
+    37.706
+  ],
+  "Tultepec (MEXICO) [50K]": [
+    -99.129,
+    19.686
+  ],
+  "St Joseph, MO (UNITED STATES) [50K]": [
+    -94.853,
+    39.767
+  ],
+  "San Miguel de Allende (MEXICO) [50K]": [
+    -100.713,
+    20.904
+  ],
+  "Framingham, MA (UNITED STATES) [50K]": [
+    -71.441,
+    42.31
+  ],
+  "Bowling Green, KY (UNITED STATES) [50K]": [
+    -86.443,
+    36.995
+  ],
+  "Baldwin Park, CA (UNITED STATES) [50K]": [
+    -117.965,
+    34.086
+  ],
+  "St Albert (CANADA) [50K]": [
+    -113.63533,
+    53.63344
+  ],
+  "Tamarac, FL (UNITED STATES) [50K]": [
+    -80.269,
+    26.208
+  ],
+  "Harlingen, TX (UNITED STATES) [50K]": [
+    -97.697,
+    26.193
+  ],
+  "Camden, NJ (UNITED STATES) [50K]": [
+    -75.119,
+    39.944
+  ],
+  "Bonao (DOMINICAN REPUBLIC) [50K]": [
+    -70.41,
+    18.95
+  ],
+  "Bayonne, NJ (UNITED STATES) [50K]": [
+    -74.117,
+    40.666
+  ],
+  "Rocklin, CA (UNITED STATES) [50K]": [
+    -121.236,
+    38.791
+  ],
+  "Redondo Beach, CA (UNITED STATES) [50K]": [
+    -118.388,
+    33.844
+  ],
+  "Ciudad Hidalgo (MEXICO) [50K]": [
+    -100.553611,
+    19.691667
+  ],
+  "Chichicastenango (GUATEMALA) [50K]": [
+    -91.099,
+    14.907
+  ],
+  "Les Cayes (HAITI) [50K]": [
+    -73.76,
+    18.205
+  ],
+  "Waukesha, WI (UNITED STATES) [50K]": [
+    -88.232,
+    43.012
+  ],
+  "Dothan, AL (UNITED STATES) [50K]": [
+    -85.392,
+    31.224
+  ],
+  "Johnson City, TN (UNITED STATES) [50K]": [
+    -82.353,
+    36.316
+  ],
+  "Santa Catarina Pinula (GUATEMALA) [50K]": [
+    -90.466,
+    14.56
+  ],
+  "Wilmington, DE (UNITED STATES) [50K]": [
+    -75.553,
+    39.738
+  ],
+  "Canton, OH (UNITED STATES) [50K]": [
+    -81.375,
+    40.798
+  ],
+  "Granby (CANADA) [50K]": [
+    -72.73333,
+    45.4
+  ],
+  "Lafayette, IN (UNITED STATES) [50K]": [
+    -86.893,
+    40.419
+  ],
+  "Zihuatanejo (MEXICO) [50K]": [
+    -101.548,
+    17.65
+  ],
+  "Camarillo, CA (UNITED STATES) [50K]": [
+    -119.039,
+    34.217
+  ],
+  "Greenville, SC (UNITED STATES) [50K]": [
+    -82.399,
+    34.851
+  ],
+  "Marysville, WA (UNITED STATES) [50K]": [
+    -122.177,
+    48.052
+  ],
+  "Waterford, MI (UNITED STATES) [50K]": [
+    -83.389,
+    42.66
+  ],
+  "Passaic, NJ (UNITED STATES) [50K]": [
+    -74.127,
+    40.863
+  ],
+  "Decatur, IL (UNITED STATES) [50K]": [
+    -88.954,
+    39.843
+  ],
+  "St Charles, MO (UNITED STATES) [50K]": [
+    -90.481,
+    38.782
+  ],
+  "Linares (MEXICO) [50K]": [
+    -99.568,
+    24.86
+  ],
+  "Caguas, PR (UNITED STATES) [50K]": [
+    -66.035,
+    18.235
+  ],
+  "Azua (DOMINICAN REPUBLIC) [50K]": [
+    -70.734,
+    18.453
+  ],
+  "Lake Elsinore, CA (UNITED STATES) [50K]": [
+    -117.328,
+    33.668
+  ],
+  "Maple Grove, MN (UNITED STATES) [50K]": [
+    -93.456,
+    45.072
+  ],
+  "Villa Vicente Guerrero (MEXICO) [50K]": [
+    -98.17,
+    19.12
+  ],
+  "Blaine, MN (UNITED STATES) [50K]": [
+    -93.235,
+    45.161
+  ],
+  "Union City, CA (UNITED STATES) [50K]": [
+    -122.019,
+    37.595
+  ],
+  "Walnut Creek, CA (UNITED STATES) [50K]": [
+    -122.06,
+    37.897
+  ],
+  "Yuba City, CA (UNITED STATES) [50K]": [
+    -121.618,
+    39.141
+  ],
+  "Guanajuato (MEXICO) [50K]": [
+    -101.254,
+    21.016
+  ],
+  "Sahuayo de Morelos (MEXICO) [50K]": [
+    -102.71575,
+    20.05858
+  ],
+  "San Salvador Tizatlalli (MEXICO) [50K]": [
+    -99.578,
+    19.272
+  ],
+  "North Richland Hills, TX (UNITED STATES) [50K]": [
+    -97.228,
+    32.839
+  ],
+  "Rogers, AR (UNITED STATES) [50K]": [
+    -94.116,
+    36.333
+  ],
+  "Eastvale, CA (UNITED STATES) [50K]": [
+    -117.579,
+    33.962
+  ],
+  "Santiago Teyahualco (MEXICO) [50K]": [
+    -99.126,
+    19.661
+  ],
+  "Gaithersburg, MD (UNITED STATES) [50K]": [
+    -77.202,
+    39.144
+  ],
+  "Albany, GA (UNITED STATES) [50K]": [
+    -84.156,
+    31.577
+  ],
+  "East Orange, NJ (UNITED STATES) [50K]": [
+    -74.211,
+    40.761
+  ],
+  "Noblesville, IN (UNITED STATES) [50K]": [
+    -86.014,
+    40.046
+  ],
+  "Lakeville, MN (UNITED STATES) [50K]": [
+    -93.243,
+    44.65
+  ],
+  "Eau Claire, WI (UNITED STATES) [50K]": [
+    -91.498,
+    44.811
+  ],
+  "Fredericton (CANADA) [50K]": [
+    -66.66667,
+    45.95
+  ],
+  "Cortazar (MEXICO) [50K]": [
+    -100.964,
+    20.484
+  ],
+  "Gary, IN (UNITED STATES) [50K]": [
+    -87.337,
+    41.6
+  ],
+  "St Cloud, MN (UNITED STATES) [50K]": [
+    -94.162,
+    45.56
+  ],
+  "Tulare, CA (UNITED STATES) [50K]": [
+    -119.347,
+    36.208
+  ],
+  "Eagan, MN (UNITED STATES) [50K]": [
+    -93.167,
+    44.805
+  ],
+  "West Des Moines, IA (UNITED STATES) [50K]": [
+    -93.709,
+    41.571
+  ],
+  "Union City, NJ (UNITED STATES) [50K]": [
+    -74.024,
+    40.779
+  ],
+  "Palo Alto, CA (UNITED STATES) [50K]": [
+    -122.162,
+    37.445
+  ],
+  "Guaynabo, PR (UNITED STATES) [50K]": [
+    -66.111,
+    18.358
+  ],
+  "Portland, ME (UNITED STATES) [50K]": [
+    -70.257,
+    43.659
+  ],
+  "Franklin, NJ (UNITED STATES) [50K]": [
+    -74.533,
+    40.499
+  ],
+  "Yorba Linda, CA (UNITED STATES) [50K]": [
+    -117.813,
+    33.889
+  ],
+  "Jackson, TN (UNITED STATES) [50K]": [
+    -88.819,
+    35.614
+  ],
+  "Weston, FL (UNITED STATES) [50K]": [
+    -80.383,
+    26.1
+  ],
+  "Palatine, IL (UNITED STATES) [50K]": [
+    -88.034,
+    42.11
+  ],
+  "Ankeny, IA (UNITED STATES) [50K]": [
+    -93.6,
+    41.732
+  ],
+  "Skokie, IL (UNITED STATES) [50K]": [
+    -87.747,
+    42.034
+  ],
+  "Haverhill, MA (UNITED STATES) [50K]": [
+    -71.077,
+    42.777
+  ],
+  "Heroica Caborca (MEXICO) [50K]": [
+    -112.148,
+    30.714
+  ],
+  "San Marcos, TX (UNITED STATES) [50K]": [
+    -97.941,
+    29.883
+  ],
+  "Sammamish, WA (UNITED STATES) [50K]": [
+    -122.035,
+    47.602
+  ],
+  "San Jose Pinula (GUATEMALA) [50K]": [
+    -90.414,
+    14.544
+  ],
+  "Waterloo, IA (UNITED STATES) [50K]": [
+    -92.336,
+    42.498
+  ],
+  "Shawnee, KS (UNITED STATES) [50K]": [
+    -94.742,
+    39.014
+  ],
+  "Grande Prairie (CANADA) [50K]": [
+    -118.80271,
+    55.16667
+  ],
+  "Lynwood, CA (UNITED STATES) [50K]": [
+    -118.212,
+    33.93
+  ],
+  "Halton Hills (CANADA) [50K]": [
+    -79.93146,
+    43.6403
+  ],
+  "Georgetown, TX (UNITED STATES) [50K]": [
+    -97.677,
+    30.633
+  ],
+  "Rockville, MD (UNITED STATES) [50K]": [
+    -77.153,
+    39.084
+  ],
+  "Middletown, NJ (UNITED STATES) [50K]": [
+    -74.099,
+    40.392
+  ],
+  "Dolores Hidalgo Cuna de la Independencia Nacional (MEXICO) [50K]": [
+    -100.917,
+    21.159
+  ],
+  "Schenectady, NY (UNITED STATES) [50K]": [
+    -73.939,
+    42.812
+  ],
+  "Port Coquitlam (CANADA) [50K]": [
+    -122.76932,
+    49.26637
+  ],
+  "Old Bridge, NJ (UNITED STATES) [50K]": [
+    -74.324,
+    40.395
+  ],
+  "Davis, CA (UNITED STATES) [50K]": [
+    -121.74,
+    38.543
+  ],
+  "Delray Beach, FL (UNITED STATES) [50K]": [
+    -80.073,
+    26.462
+  ],
+  "Oshkosh, WI (UNITED STATES) [50K]": [
+    -88.538,
+    44.018
+  ],
+  "Kenner, LA (UNITED STATES) [50K]": [
+    -90.242,
+    29.994
+  ],
+  "Ames, IA (UNITED STATES) [50K]": [
+    -93.62,
+    42.023
+  ],
+  "Cuscatancingo (EL SALVADOR) [50K]": [
+    -89.1807075356201,
+    13.7258328085059
+  ],
+  "Medicine Hat (CANADA) [50K]": [
+    -110.66834,
+    50.05006
+  ],
+  "Lodi, CA (UNITED STATES) [50K]": [
+    -121.272,
+    38.13
+  ],
+  "Malden, MA (UNITED STATES) [50K]": [
+    -71.067,
+    42.426
+  ],
+  "Novi, MI (UNITED STATES) [50K]": [
+    -83.476,
+    42.481
+  ],
+  "Madera, CA (UNITED STATES) [50K]": [
+    -120.061,
+    36.961
+  ],
+  "Mirabel (CANADA) [50K]": [
+    -74.1,
+    45.65
+  ],
+  "South San Francisco, CA (UNITED STATES) [50K]": [
+    -122.41,
+    37.655
+  ],
+  "Gloucester, NJ (UNITED STATES) [50K]": [
+    -75.049,
+    39.807
+  ],
+  "Aurora (CANADA) [50K]": [
+    -79.46632,
+    44.00011
+  ],
+  "West Bloomfield, MI (UNITED STATES) [50K]": [
+    -83.409,
+    42.55
+  ],
+  "Alpharetta, GA (UNITED STATES) [50K]": [
+    -84.295,
+    34.076
+  ],
+  "Janesville, WI (UNITED STATES) [50K]": [
+    -89.023,
+    42.683
+  ],
+  "Grand Junction, CO (UNITED STATES) [50K]": [
+    -108.564,
+    39.067
+  ],
+  "Victoria, TX (UNITED STATES) [50K]": [
+    -97.006,
+    28.799
+  ],
+  "Utica, NY (UNITED STATES) [50K]": [
+    -75.233,
+    43.101
+  ],
+  "Salama (GUATEMALA) [50K]": [
+    -90.324,
+    15.103
+  ],
+  "Belize City (BELIZE) [50K]": [
+    -88.186667,
+    17.504722
+  ],
+  "Waltham, MA (UNITED STATES) [50K]": [
+    -71.236,
+    42.375
+  ],
+  "Guamuchil (MEXICO) [50K]": [
+    -108.081,
+    25.457
+  ],
+  "Lorain, OH (UNITED STATES) [50K]": [
+    -82.175,
+    41.466
+  ],
+  "Muncie, IN (UNITED STATES) [50K]": [
+    -85.386,
+    40.194
+  ],
+  "Pflugerville, TX (UNITED STATES) [50K]": [
+    -97.62,
+    30.439
+  ],
+  "Cheyenne, WY (UNITED STATES) [50K]": [
+    -104.82,
+    41.14
+  ],
+  "Liberia (COSTA RICA) [50K]": [
+    -85.43772,
+    10.63504
+  ],
+  "Coyula (MEXICO) [50K]": [
+    -103.227,
+    20.658
+  ],
+  "Idaho Falls, ID (UNITED STATES) [50K]": [
+    -112.039,
+    43.491
+  ],
+  "Martinez de la Torre (MEXICO) [50K]": [
+    -97.05,
+    20.0667
+  ],
+  "North Little Rock, AR (UNITED STATES) [50K]": [
+    -92.267,
+    34.769
+  ],
+  "San Andres Tuxtla (MEXICO) [50K]": [
+    -95.21327,
+    18.4487
+  ],
+  "Laguna Niguel, CA (UNITED STATES) [50K]": [
+    -117.713,
+    33.527
+  ],
+  "Burnsville, MN (UNITED STATES) [50K]": [
+    -93.278,
+    44.766
+  ],
+  "San Clemente, CA (UNITED STATES) [50K]": [
+    -117.613,
+    33.428
+  ],
+  "Brentwood, CA (UNITED STATES) [50K]": [
+    -121.695,
+    37.933
+  ],
+  "Eden Prairie, MN (UNITED STATES) [50K]": [
+    -93.47,
+    44.854
+  ],
+  "Bellevue, NE (UNITED STATES) [50K]": [
+    -95.911,
+    41.143
+  ],
+  "Conway, AR (UNITED STATES) [50K]": [
+    -92.441,
+    35.089
+  ],
+  "Emiliano Zapata (MEXICO) [50K]": [
+    -99.183,
+    18.841
+  ],
+  "West Hartford, CT (UNITED STATES) [50K]": [
+    -72.751,
+    41.771
+  ],
+  "Ahuachapan (EL SALVADOR) [50K]": [
+    -89.8488007035526,
+    13.9192104281675
+  ],
+  "Greenwood, IN (UNITED STATES) [50K]": [
+    -86.11,
+    39.614
+  ],
+  "Jesus Maria (MEXICO) [50K]": [
+    -102.343,
+    21.961
+  ],
+  "Mateare (NICARAGUA) [50K]": [
+    -86.4301928332826,
+    12.2359748762384
+  ],
+  "Lakewood, WA (UNITED STATES) [50K]": [
+    -122.518,
+    47.172
+  ],
+  "Coon Rapids, MN (UNITED STATES) [50K]": [
+    -93.285,
+    45.146
+  ],
+  "Ocala, FL (UNITED STATES) [50K]": [
+    -82.136,
+    29.187
+  ],
+  "Greenwich, CT (UNITED STATES) [50K]": [
+    -73.644,
+    41.076
+  ],
+  "Taylor, MI (UNITED STATES) [50K]": [
+    -83.27,
+    42.241
+  ],
+  "Hamilton, OH (UNITED STATES) [50K]": [
+    -84.56,
+    39.399
+  ],
+  "Millcreek, UT (UNITED STATES) [50K]": [
+    -111.863,
+    40.687
+  ],
+  "North Bergen, NJ (UNITED STATES) [50K]": [
+    -74.021,
+    40.805
+  ],
+  "Tocoa (HONDURAS) [50K]": [
+    -86.006,
+    15.652
+  ],
+  "Catacamas (HONDURAS) [50K]": [
+    -85.893,
+    14.851
+  ],
+  "Dearborn Heights, MI (UNITED STATES) [50K]": [
+    -83.273,
+    42.334
+  ],
+  "San Marcos (EL SALVADOR) [50K]": [
+    -89.1825676372198,
+    13.6571433227406
+  ],
+  "Brookline, MA (UNITED STATES) [50K]": [
+    -71.15,
+    42.316
+  ],
+  "Moca (DOMINICAN REPUBLIC) [50K]": [
+    -70.516667,
+    19.383333
+  ],
+  "La Habra, CA (UNITED STATES) [50K]": [
+    -117.946,
+    33.932
+  ],
+  "Santa Cruz, CA (UNITED STATES) [50K]": [
+    -122.026,
+    36.974
+  ],
+  "Teziutlan (MEXICO) [50K]": [
+    -97.361,
+    19.818
+  ],
+  "Council Bluffs, IA (UNITED STATES) [50K]": [
+    -95.85,
+    41.261
+  ],
+  "Moore, OK (UNITED STATES) [50K]": [
+    -97.487,
+    35.338
+  ],
+  "Welland (CANADA) [50K]": [
+    -79.24958,
+    42.98342
+  ],
+  "Bossier City, LA (UNITED STATES) [50K]": [
+    -93.737,
+    32.521
+  ],
+  "Montebello, CA (UNITED STATES) [50K]": [
+    -118.108,
+    34.01
+  ],
+  "Porterville, CA (UNITED STATES) [50K]": [
+    -119.016,
+    36.065
+  ],
+  "Port Orange, FL (UNITED STATES) [50K]": [
+    -80.993,
+    29.143
+  ],
+  "Kyle, TX (UNITED STATES) [50K]": [
+    -97.875,
+    29.989
+  ],
+  "Rowlett, TX (UNITED STATES) [50K]": [
+    -96.569,
+    32.905
+  ],
+  "Commerce City, CO (UNITED STATES) [50K]": [
+    -104.932,
+    39.806
+  ],
+  "Puerto Penasco (MEXICO) [50K]": [
+    -113.54,
+    31.307
+  ],
+  "Nueva Esperanza (PANAMA) [50K]": [
+    -79.329,
+    9.103
+  ],
+  "Revere, MA (UNITED STATES) [50K]": [
+    -71.012,
+    42.41
+  ],
+  "Palin (GUATEMALA) [50K]": [
+    -90.709,
+    14.392
+  ],
+  "Pico Rivera, CA (UNITED STATES) [50K]": [
+    -118.097,
+    33.983
+  ],
+  "Nuevo Casas Grandes (MEXICO) [50K]": [
+    -107.912,
+    30.414
+  ],
+  "Encinitas, CA (UNITED STATES) [50K]": [
+    -117.292,
+    33.037
+  ],
+  "Chapel Hill, NC (UNITED STATES) [50K]": [
+    -79.056,
+    35.913
+  ],
+  "Springfield, OR (UNITED STATES) [50K]": [
+    -123.022,
+    44.046
+  ],
+  "Santa Rosa de Copan (HONDURAS) [50K]": [
+    -88.778,
+    14.767
+  ],
+  "Hendersonville, TN (UNITED STATES) [50K]": [
+    -86.62,
+    36.305
+  ],
+  "Wellington, FL (UNITED STATES) [50K]": [
+    -80.257,
+    26.667
+  ],
+  "Pontiac, MI (UNITED STATES) [50K]": [
+    -83.293,
+    42.639
+  ],
+  "May Pen (JAMAICA) [50K]": [
+    -77.24515,
+    17.96454
+  ],
+  "Fairfield, CT (UNITED STATES) [50K]": [
+    -73.274,
+    41.175
+  ],
+  "Jacona de Plancarte (MEXICO) [50K]": [
+    -102.30615,
+    19.95675
+  ],
+  "Huntersville, NC (UNITED STATES) [50K]": [
+    -80.841,
+    35.411
+  ],
+  "San Rafael, CA (UNITED STATES) [50K]": [
+    -122.527,
+    37.973
+  ],
+  "Blainville (CANADA) [50K]": [
+    -73.87083,
+    45.68278
+  ],
+  "Plymouth, MA (UNITED STATES) [50K]": [
+    -70.611,
+    41.873
+  ],
+  "Irvington, NJ (UNITED STATES) [50K]": [
+    -74.234,
+    40.722
+  ],
+  "Hamden, CT (UNITED STATES) [50K]": [
+    -72.915,
+    41.425
+  ],
+  "Limon (COSTA RICA) [50K]": [
+    -83.084037,
+    10.002216
+  ],
+  "La Mesa, CA (UNITED STATES) [50K]": [
+    -117.02,
+    32.765
+  ],
+  "Monterey Park, CA (UNITED STATES) [50K]": [
+    -118.123,
+    34.063
+  ],
+  "Sanford, FL (UNITED STATES) [50K]": [
+    -81.268,
+    28.812
+  ],
+  "Jupiter, FL (UNITED STATES) [50K]": [
+    -80.094,
+    26.934
+  ],
+  "Euless, TX (UNITED STATES) [50K]": [
+    -97.083,
+    32.837
+  ],
+  "Woodland, CA (UNITED STATES) [50K]": [
+    -121.773,
+    38.677
+  ],
+  "Gardena, CA (UNITED STATES) [50K]": [
+    -118.309,
+    33.882
+  ],
+  "Marietta, GA (UNITED STATES) [50K]": [
+    -84.55,
+    33.953
+  ],
+  "Meriden, CT (UNITED STATES) [50K]": [
+    -72.784,
+    41.538
+  ],
+  "Bristol, CT (UNITED STATES) [50K]": [
+    -72.94,
+    41.681
+  ],
+  "Patzcuaro (MEXICO) [50K]": [
+    -101.609722,
+    19.516389
+  ],
+  "Piscataway, NJ (UNITED STATES) [50K]": [
+    -74.466,
+    40.543
+  ],
+  "Vineland, NJ (UNITED STATES) [50K]": [
+    -75.026,
+    39.486
+  ],
+  "Des Plaines, IL (UNITED STATES) [50K]": [
+    -87.886,
+    42.042
+  ],
+  "Belleville (CANADA) [50K]": [
+    -77.38333,
+    44.16667
+  ],
+  "Richland, WA (UNITED STATES) [50K]": [
+    -119.274,
+    46.275
+  ],
+  "Taylorsville, UT (UNITED STATES) [50K]": [
+    -111.939,
+    40.664
+  ],
+  "Great Falls, MT (UNITED STATES) [50K]": [
+    -111.303,
+    47.505
+  ],
+  "Hoboken, NJ (UNITED STATES) [50K]": [
+    -74.032,
+    40.742
+  ],
+  "Cupertino, CA (UNITED STATES) [50K]": [
+    -122.03,
+    37.318
+  ],
+  "Zacapa (GUATEMALA) [50K]": [
+    -89.535,
+    14.971
+  ],
+  "West Allis, WI (UNITED STATES) [50K]": [
+    -88.007,
+    43.017
+  ],
+  "Moa (CUBA) [50K]": [
+    -74.94028,
+    20.65694
+  ],
+  "Tizayuca (MEXICO) [50K]": [
+    -98.979,
+    19.84
+  ],
+  "North Miami, FL (UNITED STATES) [50K]": [
+    -80.186,
+    25.89
+  ],
+  "Owensboro, KY (UNITED STATES) [50K]": [
+    -87.111,
+    37.774
+  ],
+  "Youngstown, OH (UNITED STATES) [50K]": [
+    -80.649,
+    41.1
+  ],
+  "Santee, CA (UNITED STATES) [50K]": [
+    -116.984,
+    32.839
+  ],
+  "Caldwell, ID (UNITED STATES) [50K]": [
+    -116.687,
+    43.666
+  ],
+  "Corvallis, OR (UNITED STATES) [50K]": [
+    -123.262,
+    44.564
+  ],
+  "Huamantla (MEXICO) [50K]": [
+    -97.923,
+    19.313
+  ],
+  "St Hyacinthe (CANADA) [50K]": [
+    -72.93333,
+    45.63333
+  ],
+  "Petaluma, CA (UNITED STATES) [50K]": [
+    -122.639,
+    38.233
+  ],
+  "Matamoros (MEXICO) [50K]": [
+    -103.25,
+    25.533
+  ],
+  "Union, NJ (UNITED STATES) [50K]": [
+    -74.263,
+    40.701
+  ],
+  "Mao (DOMINICAN REPUBLIC) [50K]": [
+    -71.073,
+    19.554
+  ],
+  "Manchester, CT (UNITED STATES) [50K]": [
+    -72.53,
+    41.776
+  ],
+  "Dubuque, IA (UNITED STATES) [50K]": [
+    -90.667,
+    42.5
+  ],
+  "Medford, MA (UNITED STATES) [50K]": [
+    -71.11,
+    42.418
+  ],
+  "Arandas (MEXICO) [50K]": [
+    -102.34,
+    20.706
+  ],
+  "Kokomo, IN (UNITED STATES) [50K]": [
+    -86.131,
+    40.487
+  ],
+  "Tlapa de Comonfort (MEXICO) [50K]": [
+    -98.582,
+    17.547
+  ],
+  "White Plains, NY (UNITED STATES) [50K]": [
+    -73.763,
+    41.034
+  ],
+  "Gilroy, CA (UNITED STATES) [50K]": [
+    -121.568,
+    37.004
+  ],
+  "Queen Creek, AZ (UNITED STATES) [50K]": [
+    -111.634,
+    33.249
+  ],
+  "Taunton, MA (UNITED STATES) [50K]": [
+    -71.093,
+    41.902
+  ],
+  "Moron (CUBA) [50K]": [
+    -78.63333,
+    22.11667
+  ],
+  "Leander, TX (UNITED STATES) [50K]": [
+    -97.853,
+    30.579
+  ],
+  "Sabinas (MEXICO) [50K]": [
+    -101.133,
+    27.865
+  ],
+  "Stonecrest, GA (UNITED STATES) [50K]": [
+    -84.17,
+    33.706
+  ],
+  "Palm Beach Gardens, FL (UNITED STATES) [50K]": [
+    -80.118,
+    26.82
+  ],
+  "Hempstead, NY (UNITED STATES) [50K]": [
+    -73.625,
+    40.709
+  ],
+  "Grand Forks, ND (UNITED STATES) [50K]": [
+    -97.031,
+    47.924
+  ],
+  "Casper, WY (UNITED STATES) [50K]": [
+    -106.325,
+    42.85
+  ],
+  "St Cloud, FL (UNITED STATES) [50K]": [
+    -81.292,
+    28.246
+  ],
+  "Huauchinango (MEXICO) [50K]": [
+    -98.051,
+    20.175
+  ],
+  "Santa Lucia Cotzumalguapa (GUATEMALA) [50K]": [
+    -91.03,
+    14.331
+  ],
+  "St Clair Shores, MI (UNITED STATES) [50K]": [
+    -82.889,
+    42.496
+  ],
+  "Apex, NC (UNITED STATES) [50K]": [
+    -78.85,
+    35.732
+  ],
+  "Margate, FL (UNITED STATES) [50K]": [
+    -80.207,
+    26.244
+  ],
+  "Orland Park, IL (UNITED STATES) [50K]": [
+    -87.853,
+    41.616
+  ],
+  "Springfield, OH (UNITED STATES) [50K]": [
+    -83.808,
+    39.925
+  ],
+  "Carson City, NV (UNITED STATES) [50K]": [
+    -119.767,
+    39.164
+  ],
+  "Shoreline, WA (UNITED STATES) [50K]": [
+    -122.346,
+    47.756
+  ],
+  "Blue Springs, MO (UNITED STATES) [50K]": [
+    -94.278,
+    39.018
+  ],
+  "Jackson, NJ (UNITED STATES) [50K]": [
+    -74.373,
+    40.097
+  ],
+  "Parker, CO (UNITED STATES) [50K]": [
+    -104.761,
+    39.518
+  ],
+  "Little Elm, TX (UNITED STATES) [50K]": [
+    -96.943,
+    33.154
+  ],
+  "Midwest City, OK (UNITED STATES) [50K]": [
+    -97.406,
+    35.45
+  ],
+  "Terre Haute, IN (UNITED STATES) [50K]": [
+    -87.414,
+    39.466
+  ],
+  "North Bay (CANADA) [50K]": [
+    -79.46633,
+    46.3168
+  ],
+  "Oak Lawn, IL (UNITED STATES) [50K]": [
+    -87.749,
+    41.719
+  ],
+  "Bowie, MD (UNITED STATES) [50K]": [
+    -76.742,
+    38.978
+  ],
+  "Ouanaminthe (HAITI) [50K]": [
+    -71.78333,
+    19.48333
+  ],
+  "Royal Oak, MI (UNITED STATES) [50K]": [
+    -83.144,
+    42.49
+  ],
+  "Rioverde (MEXICO) [50K]": [
+    -99.993,
+    21.932
+  ],
+  "Maricopa, AZ (UNITED STATES) [50K]": [
+    -112.048,
+    33.057
+  ],
+  "Lancaster, PA (UNITED STATES) [50K]": [
+    -76.306,
+    40.038
+  ],
+  "Hanford, CA (UNITED STATES) [50K]": [
+    -119.646,
+    36.328
+  ],
+  "Decatur, AL (UNITED STATES) [50K]": [
+    -86.985,
+    34.604
+  ],
+  "Kettering, OH (UNITED STATES) [50K]": [
+    -84.169,
+    39.69
+  ],
+  "Coconut Creek, FL (UNITED STATES) [50K]": [
+    -80.177,
+    26.252
+  ],
+  "Bartlett, TN (UNITED STATES) [50K]": [
+    -89.869,
+    35.204
+  ],
+  "Westfield, IN (UNITED STATES) [50K]": [
+    -86.128,
+    40.043
+  ],
+  "St Peters, MO (UNITED STATES) [50K]": [
+    -90.602,
+    38.785
+  ],
+  "Jinotega (NICARAGUA) [50K]": [
+    -86.0028504451204,
+    13.0919652548306
+  ],
+  "Mayaguez, PR (UNITED STATES) [50K]": [
+    -67.139,
+    18.201
+  ],
+  "Wylie, TX (UNITED STATES) [50K]": [
+    -96.539,
+    33.014
+  ],
+  "Weymouth, MA (UNITED STATES) [50K]": [
+    -70.937,
+    42.218
+  ],
+  "Lenexa, KS (UNITED STATES) [50K]": [
+    -94.728,
+    38.957
+  ],
+  "Chitre (PANAMA) [50K]": [
+    -80.41667,
+    7.98333
+  ],
+  "Burlington, NC (UNITED STATES) [50K]": [
+    -79.436,
+    36.094
+  ],
+  "Berwyn, IL (UNITED STATES) [50K]": [
+    -87.793,
+    41.851
+  ],
+  "Lake Havasu City, AZ (UNITED STATES) [50K]": [
+    -114.338,
+    34.477
+  ],
+  "Winter Haven, FL (UNITED STATES) [50K]": [
+    -81.733,
+    28.022
+  ],
+  "Fountain Valley, CA (UNITED STATES) [50K]": [
+    -117.954,
+    33.709
+  ],
+  "Highland, CA (UNITED STATES) [50K]": [
+    -117.209,
+    34.128
+  ],
+  "Madison, AL (UNITED STATES) [50K]": [
+    -86.752,
+    34.677
+  ],
+  "Eagle Mountain, UT (UNITED STATES) [50K]": [
+    -112.004,
+    40.305
+  ],
+  "Mount Prospect, IL (UNITED STATES) [50K]": [
+    -87.937,
+    42.066
+  ],
+  "Arcadia, CA (UNITED STATES) [50K]": [
+    -118.041,
+    34.136
+  ],
+  "Acambaro (MEXICO) [50K]": [
+    -100.719,
+    20.035
+  ],
+  "Valladolid (MEXICO) [50K]": [
+    -88.201,
+    20.69
+  ],
+  "Albany, OR (UNITED STATES) [50K]": [
+    -123.104,
+    44.635
+  ],
+  "Colonia Santa Teresa (MEXICO) [50K]": [
+    -99.241,
+    19.841
+  ],
+  "Bluefields (NICARAGUA) [50K]": [
+    -83.764,
+    12.012
+  ],
+  "Uman (MEXICO) [50K]": [
+    -89.748,
+    20.882
+  ],
+  "Apple Valley, MN (UNITED STATES) [50K]": [
+    -93.218,
+    44.732
+  ],
+  "Pocatello, ID (UNITED STATES) [50K]": [
+    -112.451,
+    42.862
+  ],
+  "National City, CA (UNITED STATES) [50K]": [
+    -117.098,
+    32.676
+  ],
+  "Huajuapan de Leon (MEXICO) [50K]": [
+    -97.776,
+    17.807
+  ],
+  "Parsippany-Troy Hills, NJ (UNITED STATES) [50K]": [
+    -74.397,
+    40.865
+  ],
+  "DeSoto, TX (UNITED STATES) [50K]": [
+    -96.857,
+    32.59
+  ],
+  "Port Arthur, TX (UNITED STATES) [50K]": [
+    -93.936,
+    29.871
+  ],
+  "Tinley Park, IL (UNITED STATES) [50K]": [
+    -87.784,
+    41.575
+  ],
+  "Chiapa de Corzo (MEXICO) [50K]": [
+    -93.016,
+    16.708
+  ],
+  "Brandon (CANADA) [50K]": [
+    -99.955,
+    49.847
+  ],
+  "Coatepec (MEXICO) [50K]": [
+    -96.959088,
+    19.45332
+  ],
+  "Bradenton, FL (UNITED STATES) [50K]": [
+    -82.571,
+    27.495
+  ],
+  "Ypsilanti, MI (UNITED STATES) [50K]": [
+    -83.614,
+    42.2
+  ],
+  "Smyrna, GA (UNITED STATES) [50K]": [
+    -84.516,
+    33.886
+  ],
+  "Olympia, WA (UNITED STATES) [50K]": [
+    -122.9,
+    47.043
+  ],
+  "West Haven, CT (UNITED STATES) [50K]": [
+    -72.96,
+    41.275
+  ],
+  "Chicopee, MA (UNITED STATES) [50K]": [
+    -72.609,
+    42.145
+  ],
+  "Papantla de Olarte (MEXICO) [50K]": [
+    -97.32495,
+    20.44655
+  ],
+  "Kingsport, TN (UNITED STATES) [50K]": [
+    -82.56,
+    36.547
+  ],
+  "Perth Amboy, NJ (UNITED STATES) [50K]": [
+    -74.266,
+    40.506
+  ],
+  "Valdosta, GA (UNITED STATES) [50K]": [
+    -83.279,
+    30.832
+  ],
+  "Zacapu (MEXICO) [50K]": [
+    -101.79042,
+    19.81389
+  ],
+  "New Brunswick, NJ (UNITED STATES) [50K]": [
+    -74.446,
+    40.496
+  ],
+  "Burleson, TX (UNITED STATES) [50K]": [
+    -97.321,
+    32.543
+  ],
+  "Brookhaven, GA (UNITED STATES) [50K]": [
+    -84.33,
+    33.861
+  ],
+  "Herriman, UT (UNITED STATES) [50K]": [
+    -112.033,
+    40.514
+  ],
+  "Diamond Bar, CA (UNITED STATES) [50K]": [
+    -117.811,
+    34.029
+  ],
+  "Langford (CANADA) [50K]": [
+    -123.5,
+    48.449
+  ],
+  "Las Garzas (PANAMA) [50K]": [
+    -79.26325,
+    9.118139
+  ],
+  "Whitchurch-Stouffville (CANADA) [50K]": [
+    -79.322,
+    44.015
+  ],
+  "Huntington Park, CA (UNITED STATES) [50K]": [
+    -118.225,
+    33.982
+  ],
+  "Apopka, FL (UNITED STATES) [50K]": [
+    -81.511,
+    28.672
+  ],
+  "Sarasota, FL (UNITED STATES) [50K]": [
+    -82.532,
+    27.336
+  ],
+  "Wayne, NJ (UNITED STATES) [50K]": [
+    -74.241,
+    40.948
+  ],
+  "Anderson, IN (UNITED STATES) [50K]": [
+    -85.678,
+    40.105
+  ],
+  "Mascouche (CANADA) [50K]": [
+    -73.597,
+    45.76
+  ],
+  "Southaven, MS (UNITED STATES) [50K]": [
+    -90.016,
+    34.984
+  ],
+  "Coeur dAlene, ID (UNITED STATES) [50K]": [
+    -116.784,
+    47.674
+  ],
+  "Plainfield, NJ (UNITED STATES) [50K]": [
+    -74.421,
+    40.619
+  ],
+  "Oak Park, IL (UNITED STATES) [50K]": [
+    -87.785,
+    41.887
+  ],
+  "Yucaipa, CA (UNITED STATES) [50K]": [
+    -117.041,
+    34.034
+  ],
+  "Tigard, OR (UNITED STATES) [50K]": [
+    -122.771,
+    45.431
+  ],
+  "Lincoln, CA (UNITED STATES) [50K]": [
+    -121.293,
+    38.892
+  ],
+  "Peabody, MA (UNITED STATES) [50K]": [
+    -70.927,
+    42.526
+  ],
+  "Montemorelos (MEXICO) [50K]": [
+    -99.827,
+    25.189
+  ],
+  "Rocky Mount, NC (UNITED STATES) [50K]": [
+    -77.795,
+    35.942
+  ],
+  "Wake Forest, NC (UNITED STATES) [50K]": [
+    -78.509,
+    35.979
+  ],
+  "Pensacola, FL (UNITED STATES) [50K]": [
+    -87.214,
+    30.409
+  ],
+  "Kentwood, MI (UNITED STATES) [50K]": [
+    -85.645,
+    42.869
+  ],
+  "Haldimand County (CANADA) [50K]": [
+    -79.856,
+    42.95
+  ],
+  "Florida (CUBA) [50K]": [
+    -78.21667,
+    21.53333
+  ],
+  "Bentonville, AR (UNITED STATES) [50K]": [
+    -94.209,
+    36.372
+  ],
+  "Juigalpa (NICARAGUA) [50K]": [
+    -85.3650747765386,
+    12.1061912535174
+  ],
+  "Manhattan, KS (UNITED STATES) [50K]": [
+    -96.576,
+    39.186
+  ],
+  "Georgetown, MI (UNITED STATES) [50K]": [
+    -85.834,
+    42.907
+  ],
+  "Wheaton, IL (UNITED STATES) [50K]": [
+    -88.106,
+    41.867
+  ],
+  "Elkhart, IN (UNITED STATES) [50K]": [
+    -85.974,
+    41.685
+  ],
+  "West Sacramento, CA (UNITED STATES) [50K]": [
+    -121.531,
+    38.58
+  ],
+  "Colton, CA (UNITED STATES) [50K]": [
+    -117.314,
+    34.074
+  ],
+  "San Jacinto, CA (UNITED STATES) [50K]": [
+    -116.959,
+    33.787
+  ],
+  "Minnetonka, MN (UNITED STATES) [50K]": [
+    -93.503,
+    44.914
+  ],
+  "Paramount, CA (UNITED STATES) [50K]": [
+    -118.16,
+    33.889
+  ],
+  "Galveston, TX (UNITED STATES) [50K]": [
+    -94.794,
+    29.305
+  ],
+  "Casa Grande, AZ (UNITED STATES) [50K]": [
+    -111.757,
+    32.879
+  ],
+  "Bonita Springs, FL (UNITED STATES) [50K]": [
+    -81.779,
+    26.346
+  ],
+  "San Juan de los Lagos (MEXICO) [50K]": [
+    -102.333,
+    21.248
+  ],
+  "Howell, NJ (UNITED STATES) [50K]": [
+    -74.206,
+    40.162
+  ],
+  "Lacey, WA (UNITED STATES) [50K]": [
+    -122.829,
+    47.038
+  ],
+  "Edina, MN (UNITED STATES) [50K]": [
+    -93.35,
+    44.89
+  ],
+  "Villas del Poniente (MEXICO) [50K]": [
+    -100.43,
+    25.781
+  ],
+  "El Viejo (NICARAGUA) [50K]": [
+    -87.169,
+    12.663
+  ],
+  "Chiautempan (MEXICO) [50K]": [
+    -98.193,
+    19.314
+  ],
+  "Zumpango de Ocampo (MEXICO) [50K]": [
+    -99.101,
+    19.797
+  ],
+  "Bozeman, MT (UNITED STATES) [50K]": [
+    -111.037,
+    45.679
+  ],
+  "Novato, CA (UNITED STATES) [50K]": [
+    -122.57,
+    38.108
+  ],
+  "Grand Island, NE (UNITED STATES) [50K]": [
+    -98.339,
+    40.924
+  ],
+  "Kannapolis, NC (UNITED STATES) [50K]": [
+    -80.628,
+    35.489
+  ],
+  "Bloomfield, NJ (UNITED STATES) [50K]": [
+    -74.191,
+    40.793
+  ],
+  "Pinellas Park, FL (UNITED STATES) [50K]": [
+    -82.7,
+    27.839
+  ],
+  "Smyrna, TN (UNITED STATES) [50K]": [
+    -86.52,
+    35.982
+  ],
+  "Methuen, MA (UNITED STATES) [50K]": [
+    -71.189,
+    42.729
+  ],
+  "Beaumont, CA (UNITED STATES) [50K]": [
+    -116.977,
+    33.929
+  ],
+  "Rockwall, TX (UNITED STATES) [50K]": [
+    -96.46,
+    32.931
+  ],
+  "West New York, NJ (UNITED STATES) [50K]": [
+    -74.013,
+    40.787
+  ],
+  "Teoloyucan (MEXICO) [50K]": [
+    -99.183,
+    19.745
+  ],
+  "Logan, UT (UNITED STATES) [50K]": [
+    -111.835,
+    41.731
+  ],
+  "Normal, IL (UNITED STATES) [50K]": [
+    -88.995,
+    40.511
+  ],
+  "Battle Creek, MI (UNITED STATES) [50K]": [
+    -85.182,
+    42.319
+  ],
+  "La Crosse, WI (UNITED STATES) [50K]": [
+    -91.251,
+    43.812
+  ],
+  "Elyria, OH (UNITED STATES) [50K]": [
+    -82.107,
+    41.368
+  ],
+  "Tizimin (MEXICO) [50K]": [
+    -88.152,
+    21.144
+  ],
+  "Watsonville, CA (UNITED STATES) [50K]": [
+    -121.756,
+    36.91
+  ],
+  "Glendora, CA (UNITED STATES) [50K]": [
+    -117.865,
+    34.136
+  ],
+  "Cotui (DOMINICAN REPUBLIC) [50K]": [
+    -70.15,
+    19.06
+  ],
+  "Florissant, MO (UNITED STATES) [50K]": [
+    -90.323,
+    38.789
+  ],
+  "Saratoga Springs, UT (UNITED STATES) [50K]": [
+    -111.909,
+    40.333
+  ],
+  "Hoffman Estates, IL (UNITED STATES) [50K]": [
+    -88.08,
+    42.047
+  ],
+  "Stratford, CT (UNITED STATES) [50K]": [
+    -73.134,
+    41.212
+  ],
+  "Chateauguay (CANADA) [50K]": [
+    -73.74,
+    45.366
+  ],
+  "Purisima de Bustos (MEXICO) [50K]": [
+    -101.878,
+    21.03
+  ],
+  "Aliso Viejo, CA (UNITED STATES) [50K]": [
+    -117.725,
+    33.575
+  ],
+  "Uriangato (MEXICO) [50K]": [
+    -101.178,
+    20.141
+  ],
+  "Woodstock (CANADA) [50K]": [
+    -80.755,
+    43.13
+  ],
+  "Les Abymes (FRANCE) [50K]": [
+    -61.5,
+    16.26667
+  ],
+  "Burien, WA (UNITED STATES) [50K]": [
+    -122.339,
+    47.467
+  ],
+  "Autlan de Navarro (MEXICO) [50K]": [
+    -104.365,
+    19.771
+  ],
+  "Marana, AZ (UNITED STATES) [50K]": [
+    -111.209,
+    32.436
+  ],
+  "Texas City, TX (UNITED STATES) [50K]": [
+    -94.903,
+    29.384
+  ],
+  "San Luis de la Paz (MEXICO) [50K]": [
+    -100.515,
+    21.299
+  ],
+  "Placentia, CA (UNITED STATES) [50K]": [
+    -117.87,
+    33.872
+  ],
+  "Harrisonburg, VA (UNITED STATES) [50K]": [
+    -78.869,
+    38.449
+  ],
+  "Twin Falls, ID (UNITED STATES) [50K]": [
+    -114.47,
+    42.556
+  ],
+  "Palenque (MEXICO) [50K]": [
+    -91.981,
+    17.509
+  ],
+  "Joplin, MO (UNITED STATES) [50K]": [
+    -94.513,
+    37.084
+  ],
+  "Dunwoody, GA (UNITED STATES) [50K]": [
+    -84.334,
+    33.946
+  ],
+  "Cornwall (CANADA) [50K]": [
+    -74.729,
+    45.018
+  ],
+  "Usulutan (EL SALVADOR) [50K]": [
+    -88.4397836658205,
+    13.3450062344935
+  ],
+  "Cathedral City, CA (UNITED STATES) [50K]": [
+    -116.467,
+    33.78
+  ],
+  "Delano, CA (UNITED STATES) [50K]": [
+    -119.246,
+    35.77
+  ],
+  "Troy, NY (UNITED STATES) [50K]": [
+    -73.692,
+    42.724
+  ],
+  "Santiago de Veraguas (PANAMA) [50K]": [
+    -80.98333,
+    8.1
+  ],
+  "Collierville, TN (UNITED STATES) [50K]": [
+    -89.664,
+    35.042
+  ],
+  "Enid, OK (UNITED STATES) [50K]": [
+    -97.878,
+    36.397
+  ],
+  "Covina, CA (UNITED STATES) [50K]": [
+    -117.89,
+    34.09
+  ],
+  "Jeffersonville, IN (UNITED STATES) [50K]": [
+    -85.742,
+    38.274
+  ],
+  "Rosemead, CA (UNITED STATES) [50K]": [
+    -118.073,
+    34.081
+  ],
+  "Palm Desert, CA (UNITED STATES) [50K]": [
+    -116.374,
+    33.721
+  ],
+  "Georgina (CANADA) [50K]": [
+    -79.475,
+    44.241
+  ],
+  "Shawinigan (CANADA) [50K]": [
+    -72.742,
+    46.563
+  ],
+  "Cuyahoga Falls, OH (UNITED STATES) [50K]": [
+    -81.484,
+    41.134
+  ],
+  "Mishawaka, IN (UNITED STATES) [50K]": [
+    -86.181,
+    41.661
+  ],
+  "Newark, OH (UNITED STATES) [50K]": [
+    -82.403,
+    40.058
+  ],
+  "East Hartford, CT (UNITED STATES) [50K]": [
+    -72.614,
+    41.764
+  ],
+  "Draper, UT (UNITED STATES) [50K]": [
+    -111.864,
+    40.525
+  ],
+  "Middletown, OH (UNITED STATES) [50K]": [
+    -84.405,
+    39.517
+  ],
+  "Lakewood, OH (UNITED STATES) [50K]": [
+    -81.8,
+    41.485
+  ],
+  "Summerville, SC (UNITED STATES) [50K]": [
+    -80.177,
+    33.019
+  ],
+  "Murray, UT (UNITED STATES) [50K]": [
+    -111.888,
+    40.659
+  ],
+  "Grapevine, TX (UNITED STATES) [50K]": [
+    -97.078,
+    32.934
+  ],
+  "Rimouski (CANADA) [50K]": [
+    -68.524,
+    48.449
+  ],
+  "Milford, CT (UNITED STATES) [50K]": [
+    -73.07,
+    41.231
+  ],
+  "Columbus, IN (UNITED STATES) [50K]": [
+    -85.921,
+    39.201
+  ],
+  "Taxco de Alarcon (MEXICO) [50K]": [
+    -99.605,
+    18.557
+  ],
+  "Gallatin, TN (UNITED STATES) [50K]": [
+    -86.446,
+    36.388
+  ],
+  "Everett, MA (UNITED STATES) [50K]": [
+    -71.056,
+    42.407
+  ],
+  "Downers Grove, IL (UNITED STATES) [50K]": [
+    -88.01,
+    41.796
+  ],
+  "Quinte West (CANADA) [50K]": [
+    -77.578,
+    44.101
+  ],
+  "Bothell, WA (UNITED STATES) [50K]": [
+    -122.207,
+    47.76
+  ],
+  "Mooresville, NC (UNITED STATES) [50K]": [
+    -80.81,
+    35.585
+  ],
+  "Cypress, CA (UNITED STATES) [50K]": [
+    -118.037,
+    33.817
+  ],
+  "Harrisburg, PA (UNITED STATES) [50K]": [
+    -76.887,
+    40.263
+  ],
+  "Prescott Valley, AZ (UNITED STATES) [50K]": [
+    -112.316,
+    34.603
+  ],
+  "St Louis Park, MN (UNITED STATES) [50K]": [
+    -93.348,
+    44.948
+  ],
+  "Spring Hill, TN (UNITED STATES) [50K]": [
+    -86.929,
+    35.752
+  ],
+  "Azusa, CA (UNITED STATES) [50K]": [
+    -117.907,
+    34.134
+  ]
+}

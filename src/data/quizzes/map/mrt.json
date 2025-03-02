@@ -1,1125 +1,1133 @@
 {
-  "Choa Chu Kang (BP1)": [
+  "Choa Chu Kang (BP1) [BP]": [
     103.744444,
     1.385
   ],
-  "Fajar (BP10)": [
+  "Fajar (BP10) [BP]": [
     103.770833,
     1.384444
   ],
-  "Segar (BP11)": [
+  "Segar (BP11) [BP]": [
     103.769444,
     1.387778
   ],
-  "Jelapang (BP12)": [
+  "Jelapang (BP12) [BP]": [
     103.764444,
     1.386667
   ],
-  "Senja (BP13)": [
+  "Senja (BP13) [BP]": [
     103.762222,
     1.382778
   ],
-  "Ten Mile Junction (BP14)": [
+  "Ten Mile Junction (BP14) [BP]": [
     103.76,
     1.380278
   ],
-  "South View (BP2)": [
+  "South View (BP2) [BP]": [
     103.745278,
     1.380278
   ],
-  "Keat Hong (BP3)": [
+  "Keat Hong (BP3) [BP]": [
     103.748889,
     1.378611
   ],
-  "Teck Whye (BP4)": [
+  "Teck Whye (BP4) [BP]": [
     103.753611,
     1.376667
   ],
-  "Phoenix (BP5)": [
+  "Phoenix (BP5) [BP]": [
     103.758056,
     1.378611
   ],
-  "Bukit Panjang (BP6)": [
+  "Bukit Panjang (BP6) [BP]": [
     103.761667,
     1.378333
   ],
-  "Petir (BP7)": [
+  "Petir (BP7) [BP]": [
     103.766667,
     1.377778
   ],
-  "Pending (BP8)": [
+  "Pending (BP8) [BP]": [
     103.771111,
     1.376111
   ],
-  "Bangkit (BP9)": [
+  "Bangkit (BP9) [BP]": [
     103.7725,
     1.38
   ],
-  "Dhoby Ghaut (CC1)": [
+  "Dhoby Ghaut (CC1) [CC]": [
     103.845833,
     1.299167
   ],
-  "MacPherson (CC10)": [
+  "MacPherson (CC10) [CC]": [
     103.89,
     1.326667
   ],
-  "Tai Seng (CC11)": [
+  "Tai Seng (CC11) [CC]": [
     103.888056,
     1.335833
   ],
-  "Bartley (CC12)": [
+  "Bartley (CC12) [CC]": [
     103.879722,
     1.342778
   ],
-  "Serangoon (CC13)": [
+  "Serangoon (CC13) [CC]": [
     103.873056,
     1.35
   ],
-  "Lorong Chuan (CC14)": [
+  "Lorong Chuan (CC14) [CC]": [
     103.864167,
     1.351667
   ],
-  "Bishan (CC15)": [
+  "Bishan (CC15) [CC]": [
     103.848333,
     1.351111
   ],
-  "Marymount (CC16)": [
+  "Marymount (CC16) [CC]": [
     103.839444,
     1.349167
   ],
-  "Caldecott (CC17)": [
+  "Caldecott (CC17) [CC]": [
     103.839444,
     1.337778
   ],
-  "Bukit Brown (CC18)": [
+  "Bukit Brown (CC18) [CC]": [
     103.83,
     1.333611
   ],
-  "Botanic Gardens (CC19)": [
+  "Botanic Gardens (CC19) [CC]": [
     103.815278,
     1.3225
   ],
-  "Bras Basah (CC2)": [
+  "Bras Basah (CC2) [CC]": [
     103.850556,
     1.296944
   ],
-  "Farrer Road (CC20)": [
+  "Farrer Road (CC20) [CC]": [
     103.8075,
     1.317222
   ],
-  "Holland Village (CC21)": [
+  "Holland Village (CC21) [CC]": [
     103.796111,
     1.311944
   ],
-  "Buona Vista (CC22)": [
+  "Buona Vista (CC22) [CC]": [
     103.790028,
     1.307333
   ],
-  "one-north (CC23)": [
+  "one-north (CC23) [CC]": [
     103.786944,
     1.299444
   ],
-  "Kent Ridge (CC24)": [
+  "Kent Ridge (CC24) [CC]": [
     103.784444,
     1.293333
   ],
-  "Haw Par Villa (CC25)": [
+  "Haw Par Villa (CC25) [CC]": [
     103.781944,
     1.2825
   ],
-  "Pasir Panjang (CC26)": [
+  "Pasir Panjang (CC26) [CC]": [
     103.791389,
     1.276111
   ],
-  "Labrador Park (CC27)": [
+  "Labrador Park (CC27) [CC]": [
     103.802778,
     1.272222
   ],
-  "Telok Blangah (CC28)": [
+  "Telok Blangah (CC28) [CC]": [
     103.809722,
     1.270556
   ],
-  "HarbourFront (CC29)": [
+  "HarbourFront (CC29) [CC]": [
     103.822222,
     1.265278
   ],
-  "Esplanade (CC3)": [
+  "Esplanade (CC3) [CC]": [
     103.855278,
     1.293333
   ],
-  "Keppel (CC30)": [
+  "Keppel (CC30) [CC]": [
     103.830278,
     1.27
   ],
-  "Cantonment (CC31)": [
+  "Cantonment (CC31) [CC]": [
     103.836667,
     1.272778
   ],
-  "Prince Edward Road (CC32)": [
+  "Prince Edward Road (CC32) [CC]": [
     103.847222,
     1.273333
   ],
-  "Promenade (CC4)": [
+  "Promenade (CC4) [CC]": [
     103.861111,
     1.293056
   ],
-  "Nicoll Highway (CC5)": [
+  "Nicoll Highway (CC5) [CC]": [
     103.863611,
     1.299722
   ],
-  "Stadium (CC6)": [
+  "Stadium (CC6) [CC]": [
     103.875278,
     1.302778
   ],
-  "Mountbatten (CC7)": [
+  "Mountbatten (CC7) [CC]": [
     103.8825,
     1.306389
   ],
-  "Dakota (CC8)": [
+  "Dakota (CC8) [CC]": [
     103.888333,
     1.308333
   ],
-  "Paya Lebar (CC9)": [
+  "Paya Lebar (CC9) [CC]": [
     103.8925,
     1.317778
   ],
-  "Promenade (CE)": [
+  "Promenade (CE) [CC]": [
     103.861111,
     1.293056
   ],
-  "Bayfront (CE1)": [
+  "Bayfront (CE1) [CC]": [
     103.859444,
     1.282222
   ],
-  "Marina Bay (CE2)": [
+  "Marina Bay (CE2) [CC]": [
     103.854675,
     1.276097
   ],
-  "Promenade (CC35)": [
+  "Promenade (CC35) [CC]": [
     103.861111,
     1.293056
   ],
-  "Bayfront (CC34)": [
+  "Bayfront (CC34) [CC]": [
     103.859444,
     1.282222
   ],
-  "Marina Bay (CC33)": [
+  "Marina Bay (CC33) [CC]": [
     103.854675,
     1.276097
   ],
-  "Tanah Merah (CG)": [
+  "Tanah Merah (CG) [EW]": [
     103.946344,
     1.327358
   ],
-  "Expo (CG1)": [
+  "Expo (CG1) [EW]": [
     103.961767,
     1.335469
   ],
-  "Changi Airport (CG2)": [
+  "Changi Airport (CG2) [EW]": [
     103.988836,
     1.357372
   ],
-  "Pasir Ris (CP1)": [
+  "Pasir Ris (CP1) [CR]": [
     103.949369,
     1.372411
   ],
-  "Elias (CP2)": [
+  "Elias (CP2) [CR]": [
     103.938056,
     1.383889
   ],
-  "Riviera (CP3)": [
+  "Riviera (CP3) [CR]": [
     103.916772,
     1.394439
   ],
-  "Punggol (CP4)": [
+  "Punggol (CP4) [CR]": [
     103.9025,
     1.405278
   ],
-  "Tavistock (CR10)": [
+  "Tavistock (CR10) [CR]": [
     103.863333,
     1.37
   ],
-  "Ang Mo Kio (CR11)": [
+  "Ang Mo Kio (CR11) [CR]": [
     103.84945,
     1.370017
   ],
-  "Teck Ghee (CR12)": [
+  "Teck Ghee (CR12) [CR]": [
     103.843611,
     1.365556
   ],
-  "Bright Hill (CR13)": [
+  "Bright Hill (CR13) [CR]": [
     103.832222,
     1.361667
   ],
-  "Turf City (CR14)": [	
+  "Turf City (CR14) [CR]": [	
     103.793536,
     1.340603
   ],
-  "King Albert Park (CR15)": [	
+  "King Albert Park (CR15) [CR]": [	
     103.783365,    	
     1.335283
   ],
-  "Maju (CR16)": [	
+  "Maju (CR16) [CR]": [	
     103.776148,
     1.3272925
   ],
-  "Clementi (CR17)": [	
+  "Clementi (CR17) [CR]": [	
     103.765116,
     1.314732
   ],
-  "West Coast (CR18)": [
+  "West Coast (CR18) [CR]": [
     103.757727,
     1.310367
   ],
-  "Jurong Lake District (CR19)": [
+  "Jurong Lake District (CR19) [CR]": [
     103.739188,
     1.327260
   ],
-  "Aviation Park (CR2)": [
+  "Aviation Park (CR2) [CR]": [
     104.003056,
     1.37
   ],
-  "Loyang (CR3)": [
+  "Loyang (CR3) [CR]": [
     103.971944,
     1.371944
   ],
-  "Pasir Ris East (CR4)": [
+  "Pasir Ris East (CR4) [CR]": [
     103.961111,
     1.366111
   ],
-  "Pasir Ris (CR5)": [
+  "Pasir Ris (CR5) [CR]": [
     103.949369,
     1.372411
   ],
-  "Tampines North (CR6)": [
+  "Tampines North (CR6) [CR]": [
     103.937778,
     1.369167
   ],
-  "Defu (CR7)": [
+  "Defu (CR7) [CR]": [
     103.898889,
     1.362222
   ],
-  "Hougang (CR8)": [
+  "Hougang (CR8) [CR]": [
     103.892222,
     1.371389
   ],
-  "Serangoon North (CR9)": [
+  "Serangoon North (CR9) [CR]": [
     103.873611,
     1.370556
   ],
-  "Sungei Kadut (DT)": [
+  "Sungei Kadut (DT) [DT]": [
     103.748711,
     1.413204
   ],
-  "Bukit Panjang (DT1)": [
+  "Bukit Panjang (DT1) [DT]": [
     103.761667,
     1.378333
   ],
-  "Stevens (DT10)": [
+  "Stevens (DT10) [DT]": [
     103.826111,
     1.32
   ],
-  "Newton (DT11)": [
+  "Newton (DT11) [DT]": [
     103.838333,
     1.313056
   ],
-  "Little India (DT12)": [
+  "Little India (DT12) [DT]": [
     103.849167,
     1.306667
   ],
-  "Rochor (DT13)": [
+  "Rochor (DT13) [DT]": [
     103.852581,
     1.303764
   ],
-  "Bugis (DT14)": [
+  "Bugis (DT14) [DT]": [
     103.856111,
     1.300278
   ],
-  "Promenade (DT15)": [
+  "Promenade (DT15) [DT]": [
     103.861111,
     1.293056
   ],
-  "Bayfront (DT16)": [
+  "Bayfront (DT16) [DT]": [
     103.859444,
     1.282222
   ],
-  "Downtown (DT17)": [
+  "Downtown (DT17) [DT]": [
     103.853056,
     1.279444
   ],
-  "Telok Ayer (DT18)": [
+  "Telok Ayer (DT18) [DT]": [
     103.848333,
     1.282222
   ],
-  "Chinatown (DT19)": [
+  "Chinatown (DT19) [DT]": [
     103.843889,
     1.284722
   ],
-  "Cashew (DT2)": [
+  "Cashew (DT2) [DT]": [
     103.764722,
     1.368889
   ],
-  "Fort Canning (DT20)": [
+  "Fort Canning (DT20) [DT]": [
     103.844325,
     1.292481
   ],
-  "Bencoolen (DT21)": [
+  "Bencoolen (DT21) [DT]": [
     103.850278,
     1.298889
   ],
-  "Jalan Besar (DT22)": [
+  "Jalan Besar (DT22) [DT]": [
     103.855278,
     1.305556
   ],
-  "Bendemeer (DT23)": [
+  "Bendemeer (DT23) [DT]": [
     103.861389,
     1.314167
   ],
-  "Geylang Bahru (DT24)": [
+  "Geylang Bahru (DT24) [DT]": [
     103.871389,
     1.321389
   ],
-  "Mattar (DT25)": [
+  "Mattar (DT25) [DT]": [
     103.882778,
     1.327222
   ],
-  "MacPherson (DT26)": [
+  "MacPherson (DT26) [DT]": [
     103.89,
     1.326667
   ],
-  "Ubi (DT27)": [
+  "Ubi (DT27) [DT]": [
     103.9,
     1.33
   ],
-  "Kaki Bukit (DT28)": [
+  "Kaki Bukit (DT28) [DT]": [
     103.908889,
     1.335
   ],
-  "Bedok North (DT29)": [
+  "Bedok North (DT29) [DT]": [
     103.917778,
     1.336389
   ],
-  "Hillview (DT3)": [
+  "Hillview (DT3) [DT]": [
     103.7675,
     1.3625
   ],
-  "Bedok Reservoir (DT30)": [
+  "Bedok Reservoir (DT30) [DT]": [
     103.930833,
     1.336667
   ],
-  "Tampines West (DT31)": [
+  "Tampines West (DT31) [DT]": [
     103.938333,
     1.345556
   ],
-  "Tampines (DT32)": [
+  "Tampines (DT32) [DT]": [
     103.945322,
     1.352528
   ],
-  "Tampines East (DT33)": [
+  "Tampines East (DT33) [DT]": [
     103.954722,
     1.356389
   ],
-  "Upper Changi (DT34)": [
+  "Upper Changi (DT34) [DT]": [
     103.961389,
     1.341944
   ],
-  "Expo (DT35)": [
+  "Expo (DT35) [DT]": [
     103.961767,
     1.335469
   ],
-  "Xilin (DT36)": [
+  "Xilin (DT36) [DT]": [
     103.965,
     1.328889
   ],
-  "Sungei Bedok (DT37)": [
+  "Sungei Bedok (DT37) [DT]": [
     103.957222,
     1.320278
   ],
-  "Hume (DT4)": [
+  "Hume (DT4) [DT]": [
     103.769167,
     1.354722
   ],
-  "Beauty World (DT5)": [
+  "Beauty World (DT5) [DT]": [
     103.775833,
     1.341111
   ],
-  "King Albert Park (DT6)": [
+  "King Albert Park (DT6) [DT]": [
     103.783889,
     1.335556
   ],
-  "Sixth Avenue (DT7)": [
+  "Sixth Avenue (DT7) [DT]": [
     103.7975,
     1.330833
   ],
-  "Tan Kah Kee (DT8)": [
+  "Tan Kah Kee (DT8) [DT]": [
     103.807222,
     1.326111
   ],
-  "Botanic Gardens (DT9)": [
+  "Botanic Gardens (DT9) [DT]": [
     103.815278,
     1.3225
   ],
-  "Pasir Ris (EW1)": [
+  "Pasir Ris (EW1) [EW]": [
     103.949369,
     1.372411
   ],
-  "Kallang (EW10)": [
+  "Kallang (EW10) [EW]": [
     103.8714,
     1.311469
   ],
-  "Lavender (EW11)": [
+  "Lavender (EW11) [EW]": [
     103.863008,
     1.307167
   ],
-  "Bugis (EW12)": [
+  "Bugis (EW12) [EW]": [
     103.856111,
     1.300278
   ],
-  "City Hall (EW13)": [
+  "City Hall (EW13) [EW]": [
     103.852219,
     1.293239
   ],
-  "Raffles Place (EW14)": [
+  "Raffles Place (EW14) [EW]": [
     103.851533,
     1.283881
   ],
-  "Tanjong Pagar (EW15)": [
+  "Tanjong Pagar (EW15) [EW]": [
     103.845711,
     1.276439
   ],
-  "Outram Park (EW16)": [
+  "Outram Park (EW16) [EW]": [
     103.839444,
     1.280278
   ],
-  "Tiong Bahru (EW17)": [
+  "Tiong Bahru (EW17) [EW]": [
     103.826958,
     1.286081
   ],
-  "Redhill (EW18)": [
+  "Redhill (EW18) [EW]": [
     103.81675,
     1.289733
   ],
-  "Queenstown (EW19)": [
+  "Queenstown (EW19) [EW]": [
     103.806114,
     1.294442
   ],
-  "Tampines (EW2)": [
+  "Tampines (EW2) [EW]": [
     103.945322,
     1.352528
   ],
-  "Commonwealth (EW20)": [
+  "Commonwealth (EW20) [EW]": [
     103.798225,
     1.302558
   ],
-  "Buona Vista (EW21)": [
+  "Buona Vista (EW21) [EW]": [
     103.790028,
     1.307333
   ],
-  "Dover (EW22)": [
+  "Dover (EW22) [EW]": [
     103.778658,
     1.311314
   ],
-  "Clementi (EW23)": [
+  "Clementi (EW23) [EW]": [
     103.765244,
     1.315303
   ],
-  "Jurong East (EW24)": [
+  "Jurong East (EW24) [EW]": [
     103.742222,
     1.333333
   ],
-  "Chinese Garden (EW25)": [
+  "Chinese Garden (EW25) [EW]": [
     103.732467,
     1.342711
   ],
-  "Lakeside (EW26)": [
+  "Lakeside (EW26) [EW]": [
     103.721139,
     1.344589
   ],
-  "Boon Lay (EW27)": [
+  "Boon Lay (EW27) [EW]": [
     103.706208,
     1.338883
   ],
-  "Pioneer (EW28)": [
+  "Pioneer (EW28) [EW]": [
     103.697217,
     1.337578
   ],
-  "Joo Koon (EW29)": [
+  "Joo Koon (EW29) [EW]": [
     103.678486,
     1.327739
   ],
-  "Simei (EW3)": [
+  "Simei (EW3) [EW]": [
     103.953172,
     1.343444
   ],
-  "Gul Circle (EW30)": [
+  "Gul Circle (EW30) [EW]": [
     103.6657,
     1.3212
   ],
-  "Tuas Crescent (EW31)": [
+  "Tuas Crescent (EW31) [EW]": [
     103.649,
     1.321139
   ],
-  "Tuas West Road (EW32)": [
+  "Tuas West Road (EW32) [EW]": [
     103.639611,
     1.330056
   ],
-  "Tuas Link (EW33)": [
+  "Tuas Link (EW33) [EW]": [
     103.636806,
     1.340278
   ],
-  "Tanah Merah (EW4)": [
+  "Tanah Merah (EW4) [EW]": [
     103.946344,
     1.327358
   ],
-  "Bedok (EW5)": [
+  "Bedok (EW5) [EW]": [
     103.930036,
     1.324039
   ],
-  "Kembangan (EW6)": [
+  "Kembangan (EW6) [EW]": [
     103.912842,
     1.320983
   ],
-  "Eunos (EW7)": [
+  "Eunos (EW7) [EW]": [
     103.903108,
     1.319725
   ],
-  "Paya Lebar (EW8)": [
+  "Paya Lebar (EW8) [EW]": [
     103.8925,
     1.317778
   ],
-  "Aljunied (EW9)": [
+  "Aljunied (EW9) [EW]": [
     103.882981,
     1.316442
   ],
-  "Tengah Plantation (JE1)": [
+  "Tengah Plantation (JE1) [JR]": [
     103.733333,
     1.357222
   ],
-  "Tengah Park (JE2)": [
+  "Tengah Park (JE2) [JR]": [
     103.736667,
     1.352222
   ],
-  "Bukit Batok West (JE3)": [
+  "Bukit Batok West (JE3) [JR]": [
     103.739722,
     1.345556
   ],
-  "Toh Guan (JE4)": [
+  "Toh Guan (JE4) [JR]": [
     103.7425,
     1.339722
   ],
-  "Jurong East (JE5)": [
+  "Jurong East (JE5) [JR]": [
     103.742222,
     1.333333
   ],
-  "Jurong Town Hall (JE6)": [
+  "Jurong Town Hall (JE6) [JR]": [
     103.746111,
     1.326111
   ],
-  "Pandan Reservoir (JE7)": [
+  "Pandan Reservoir (JE7) [JR]": [
     103.745,
     1.32
   ],
-  "Choa Chu Kang (JS1)": [
+  "Choa Chu Kang (JS1) [JR]": [
     103.744444,
     1.385
   ],
-  "Tukang (JS10)": [
+  "Tukang (JS10) [JR]": [
     103.709167,
     1.325278
   ],
-  "Jurong Hill (JS11)": [
+  "Jurong Hill (JS11) [JR]": [
     103.710278,
     1.318611
   ],
-  "Jurong Pier (JS12)": [
+  "Jurong Pier (JS12) [JR]": [
     103.710278,
     1.313056
   ],
-  "Choa Chu Kang West (JS2)": [
+  "Choa Chu Kang West (JS2) [JR]": [
     103.737821,
     1.3791
   ],
-  "Tengah (JS3)": [
+  "Tengah (JS3) [JR]": [
     103.73,
     1.366389
   ],
-  "Tengah (JE)": [
+  "Tengah (JE) [JR]": [
     103.73,
     1.366389
   ],
-  "Hong Kah (JS4)": [
+  "Hong Kah (JS4) [JR]": [
     103.725833,
     1.358056
   ],
-  "Corporation (JS5)": [
+  "Corporation (JS5) [JR]": [
     103.713889,
     1.353056
   ],
-  "Jurong West (JS6)": [
+  "Jurong West (JS6) [JR]": [
     103.708333,
     1.349167
   ],
-  "Bahar Junction (JS7)": [
+  "Bahar Junction (JS7) [JR]": [
     103.702542,
     1.345422
   ],
-  "Bahar Junction (JW)": [
+  "Bahar Junction (JW) [JR]": [
     103.702542,
     1.345422
   ],
-  "Boon Lay (JS8)": [
+  "Boon Lay (JS8) [JR]": [
     103.706208,
     1.338883
   ],
-  "Enterprise (JS9)": [
+  "Enterprise (JS9) [JR]": [
     103.708611,
     1.332778
   ],
-  "Gek Poh (JW1)": [
+  "Gek Poh (JW1) [JR]": [
     103.698056,
     1.348333
   ],
-  "Tawas (JW2)": [
+  "Tawas (JW2) [JR]": [
     103.691944,
     1.350556
   ],
-  "Nanyang Gateway (JW3)": [
+  "Nanyang Gateway (JW3) [JR]": [
     103.686667,
     1.353611
   ],
-  "Nanyang Crescent (JW4)": [
+  "Nanyang Crescent (JW4) [JR]": [
     103.680833,
     1.348333
   ],
-  "Peng Kang Hill (JW5)": [
+  "Peng Kang Hill (JW5) [JR]": [
     103.678611,
     1.343333
   ],
-  "HarbourFront (NE1)": [
+  "HarbourFront (NE1) [NE]": [
     103.822222,
     1.265278
   ],
-  "Potong Pasir (NE10)": [
+  "Potong Pasir (NE10) [NE]": [
     103.869167,
     1.331111
   ],
-  "Woodleigh (NE11)": [
+  "Woodleigh (NE11) [NE]": [
     103.870833,
     1.339167
   ],
-  "Serangoon (NE12)": [
+  "Serangoon (NE12) [NE]": [
     103.873056,
     1.35
   ],
-  "Kovan (NE13)": [
+  "Kovan (NE13) [NE]": [
     103.885,
     1.360278
   ],
-  "Hougang (NE14)": [
+  "Hougang (NE14) [NE]": [
     103.892222,
     1.371389
   ],
-  "Buangkok (NE15)": [
+  "Buangkok (NE15) [NE]": [
     103.892778,
     1.382778
   ],
-  "Sengkang (NE16)": [
+  "Sengkang (NE16) [NE]": [
     103.895,
     1.391667
   ],
-  "Punggol (NE17)": [
+  "Punggol (NE17) [NE]": [
     103.9025,
     1.405278
   ],
-  "Punggol Coast (NE18)": [
+  "Punggol Coast (NE18) [NE]": [
     103.913333,
     1.415833
   ],
-  "Outram Park (NE3)": [
+  "Outram Park (NE3) [NE]": [
     103.839444,
     1.280278
   ],
-  "Chinatown (NE4)": [
+  "Chinatown (NE4) [NE]": [
     103.843889,
     1.284722
   ],
-  "Clarke Quay (NE5)": [
+  "Clarke Quay (NE5) [NE]": [
     103.846667,
     1.288611
   ],
-  "Dhoby Ghaut (NE6)": [
+  "Dhoby Ghaut (NE6) [NE]": [
     103.845833,
     1.299167
   ],
-  "Little India (NE7)": [
+  "Little India (NE7) [NE]": [
     103.849167,
     1.306667
   ],
-  "Farrer Park (NE8)": [
+  "Farrer Park (NE8) [NE]": [
     103.854167,
     1.312222
   ],
-  "Boon Keng (NE9)": [
+  "Boon Keng (NE9) [NE]": [
     103.861667,
     1.319444
   ],
-  "Jurong East (NS1)": [
+  "Jurong East (NS1) [NS]": [
     103.742222,
     1.333333
   ],
-  "Admiralty (NS10)": [
+  "Admiralty (NS10) [NS]": [
     103.800933,
     1.440689
   ],
-  "Sembawang (NS11)": [
+  "Sembawang (NS11) [NS]": [
     103.820153,
     1.449025
   ],
-  "Canberra (NS12)": [
+  "Canberra (NS12) [NS]": [
     103.829722,
     1.443056
   ],
-  "Yishun (NS13)": [
+  "Yishun (NS13) [NS]": [
     103.835239,
     1.429464
   ],
-  "Khatib (NS14)": [
+  "Khatib (NS14) [NS]": [
     103.8329,
     1.417167
   ],
-  "Yio Chu Kang (NS15)": [
+  "Yio Chu Kang (NS15) [NS]": [
     103.844817,
     1.381906
   ],
-  "Ang Mo Kio (NS16)": [
+  "Ang Mo Kio (NS16) [NS]": [
     103.84945,
     1.370017
   ],
-  "Bishan (NS17)": [
+  "Bishan (NS17) [NS]": [
     103.848333,
     1.351111
   ],
-  "Braddell (NS18)": [
+  "Braddell (NS18) [NS]": [
     103.846725,
     1.340339
   ],
-  "Toa Payoh (NS19)": [
+  "Toa Payoh (NS19) [NS]": [
     103.8475,
     1.332778
   ],
-  "Bukit Batok (NS2)": [
+  "Bukit Batok (NS2) [NS]": [
     103.749722,
     1.349167
   ],
-  "Novena (NS20)": [
+  "Novena (NS20) [NS]": [
     103.843689,
     1.320394
   ],
-  "Newton (NS21)": [
+  "Newton (NS21) [NS]": [
     103.838333,
     1.313056
   ],
-  "Orchard (NS22)": [
+  "Orchard (NS22) [NS]": [
     103.831667,
     1.303333
   ],
-  "Somerset (NS23)": [
+  "Somerset (NS23) [NS]": [
     103.839028,
     1.300514
   ],
-  "Dhoby Ghaut (NS24)": [
+  "Dhoby Ghaut (NS24) [NS]": [
     103.845833,
     1.299167
   ],
-  "City Hall (NS25)": [
+  "City Hall (NS25) [NS]": [
     103.852219,
     1.293239
   ],
-  "Raffles Place (NS26)": [
+  "Raffles Place (NS26) [NS]": [
     103.851533,
     1.283881
   ],
-  "Marina Bay (NS27)": [
+  "Marina Bay (NS27) [NS]": [
     103.854675,
     1.276097
   ],
-  "Marina South Pier (NS28)": [
+  "Marina South Pier (NS28) [NS]": [
     103.863242,
     1.270958
   ],
-  "Bukit Gombak (NS3)": [
+  "Bukit Gombak (NS3) [NS]": [
     103.751667,
     1.358611
   ],
-  "Brickland (NS3A)": [
+  "Brickland (NS3A) [NS]": [
     103.747778,
     1.369722
   ],
-  "Choa Chu Kang (NS4)": [
+  "Choa Chu Kang (NS4) [NS]": [
     103.744444,
     1.385
   ],
-  "Yew Tee (NS5)": [
+  "Yew Tee (NS5) [NS]": [
     103.747239,
     1.396986
   ],
-  "Sungei Kadut (NS6)": [
+  "Sungei Kadut (NS6) [NS]": [
     103.748711,
     1.413204
   ],
-  "Kranji (NS7)": [
+  "Kranji (NS7) [NS]": [
     103.761853,
     1.425047
   ],
-  "Marsiling (NS8)": [
+  "Marsiling (NS8) [NS]": [
     103.774283,
     1.432636
   ],
-  "Woodlands (NS9)": [
+  "Woodlands (NS9) [NS]": [
     103.786483,
     1.437094
   ],
-  "Cove (PE1)": [
+  "Cove (PE1) [PE]": [
     103.905725,
     1.398111
   ],
-  "Meridian (PE2)": [
+  "Meridian (PE2) [PE]": [
     103.908592,
     1.397364
   ],
-  "Coral Edge (PE3)": [
+  "Coral Edge (PE3) [PE]": [
     103.912039,
     1.394647
   ],
-  "Riviera (PE4)": [
+  "Riviera (PE4) [PE]": [
     103.916772,
     1.394439
   ],
-  "Kadaloor (PE5)": [
+  "Kadaloor (PE5) [PE]": [
     103.916353,
     1.399686
   ],
-  "Oasis (PE6)": [
+  "Oasis (PE6) [PE]": [
     103.912422,
     1.402369
   ],
-  "Damai (PE7)": [
+  "Damai (PE7) [PE]": [
     103.908875,
     1.404814
   ],
-  "Punggol (PTC)": [
+  "Punggol (PTC) [PW]": [
     103.9025,
     1.405278
   ],
-  "Sam Kee (PW1)": [
+  "Punggol (PTC) [PE]": [
+    103.9025,
+    1.405278
+  ],
+  "Sam Kee (PW1) [PW]": [
     103.904583,
     1.40975
   ],
-  "Teck Lee (PW2)": [
+  "Teck Lee (PW2) [PW]": [
     103.906233,
     1.4128
   ],
-  "Punggol Point (PW3)": [
+  "Punggol Point (PW3) [PW]": [
     103.906353,
     1.416883
   ],
-  "Samudera (PW4)": [
+  "Samudera (PW4) [PW]": [
     103.901856,
     1.41595
   ],
-  "Nibong (PW5)": [
+  "Nibong (PW5) [PW]": [
     103.900028,
     1.411878
   ],
-  "Sumang (PW6)": [
+  "Sumang (PW6) [PW]": [
     103.898611,
     1.408056
   ],
-  "Soo Teck (PW7)": [
+  "Soo Teck (PW7) [PW]": [
     103.896944,
     1.405417
   ],
-  "Compassvale (SE1)": [
+  "Compassvale (SE1) [SE]": [
     103.900278,
     1.394444
   ],
-  "Rumbia (SE2)": [
+  "Rumbia (SE2) [SE]": [
     103.906306,
     1.391094
   ],
-  "Bakau (SE3)": [
+  "Bakau (SE3) [SE]": [
     103.905267,
     1.387853
   ],
-  "Kangkar (SE4)": [
+  "Kangkar (SE4) [SE]": [
     103.902194,
     1.383739
   ],
-  "Ranggung (SE5)": [
+  "Ranggung (SE5) [SE]": [
     103.897736,
     1.383619
   ],
-  "Sengkang (STC)": [
+  "Sengkang (STC) [SW]": [
     103.895,
     1.391667
   ],
-  "Cheng Lim (SW1)": [
+  "Sengkang (STC) [SE]": [
+    103.895,
+    1.391667
+  ],
+  "Cheng Lim (SW1) [SW]": [
     103.893611,
     1.396389
   ],
-  "Farmway (SW2)": [
+  "Farmway (SW2) [SW]": [
     103.888911,
     1.398978
   ],
-  "Kupang (SW3)": [
+  "Kupang (SW3) [SW]": [
     103.881319,
     1.399228
   ],
-  "Thanggam (SW4)": [
+  "Thanggam (SW4) [SW]": [
     103.874794,
     1.399356
   ],
-  "Fernvale (SW5)": [
+  "Fernvale (SW5) [SW]": [
     103.876303,
     1.393208
   ],
-  "Layar (SW6)": [
+  "Layar (SW6) [SW]": [
     103.879753,
     1.394025
   ],
-  "Tongkang (SW7)": [
+  "Tongkang (SW7) [SW]": [
     103.885772,
     1.391078
   ],
-  "Renjong (SW8)": [
+  "Renjong (SW8) [SW]": [
     103.890425,
     1.386614
   ],
-  "Woodlands North (TE1)": [
+  "Woodlands North (TE1) [TE]": [
     103.785,
     1.448333
   ],
-  "Mount Pleasant (TE10)": [
+  "Mount Pleasant (TE10) [TE]": [
     103.835556,
     1.328611
   ],
-  "Stevens (TE11)": [
+  "Stevens (TE11) [TE]": [
     103.826111,
     1.32
   ],
-  "Napier (TE12)": [
+  "Napier (TE12) [TE]": [
     103.819167,
     1.306944
   ],
-  "Orchard Boulevard (TE13)": [
+  "Orchard Boulevard (TE13) [TE]": [
     103.825,
     1.3025
   ],
-  "Orchard (TE14)": [
+  "Orchard (TE14) [TE]": [
     103.831667,
     1.303333
   ],
-  "Great World (TE15)": [
+  "Great World (TE15) [TE]": [
     103.833611,
     1.295
   ],
-  "Havelock (TE16)": [
+  "Havelock (TE16) [TE]": [
     103.833611,
     1.287778
   ],
-  "Outram Park (TE17)": [
+  "Outram Park (TE17) [TE]": [
     103.839444,
     1.280278
   ],
-  "Maxwell (TE18)": [
+  "Maxwell (TE18) [TE]": [
     103.843889,
     1.280278
   ],
-  "Shenton Way (TE19)": [
+  "Shenton Way (TE19) [TE]": [
     103.850833,
     1.2775
   ],
-  "Woodlands (TE2)": [
+  "Woodlands (TE2) [TE]": [
     103.786483,
     1.437094
   ],
-  "Marina Bay (TE20)": [
+  "Marina Bay (TE20) [TE]": [
     103.854675,
     1.276097
   ],
-  "Marina South (TE21)": [
+  "Marina South (TE21) [TE]": [
     103.863056,
     1.273889
   ],
-  "Gardens by the Bay (TE22)": [
+  "Gardens by the Bay (TE22) [TE]": [
     103.868056,
     1.278333
   ],
-  "Founders' Memorial (TE22A)": [
+  "Founders' Memorial (TE22A) [TE]": [
     103.868611,
     1.291111
   ],
-  "Tanjong Rhu (TE23)": [
+  "Tanjong Rhu (TE23) [TE]": [
     103.873333,
     1.297222
   ],
-  "Katong Park (TE24)": [
+  "Katong Park (TE24) [TE]": [
     103.885278,
     1.297778
   ],
-  "Tanjong Katong (TE25)": [
+  "Tanjong Katong (TE25) [TE]": [
     103.897778,
     1.299167
   ],
-  "Marine Parade (TE26)": [
+  "Marine Parade (TE26) [TE]": [
     103.905,
     1.3025
   ],
-  "Marine Terrace (TE27)": [
+  "Marine Terrace (TE27) [TE]": [
     103.913333,
     1.306111
   ],
-  "Siglap (TE28)": [
+  "Siglap (TE28) [TE]": [
     103.928889,
     1.309722
   ],
-  "Bayshore (TE29)": [
+  "Bayshore (TE29) [TE]": [
     103.943611,
     1.314722
   ],
-  "Woodlands South (TE3)": [
+  "Woodlands South (TE3) [TE]": [
     103.793889,
     1.427222
   ],
-  "Bedok South (TE30)": [
+  "Bedok South (TE30) [TE]": [
     103.948333,
     1.316667
   ],
-  "Sungei Bedok (TE31)": [
+  "Sungei Bedok (TE31) [TE]": [
     103.957222,
     1.320278
   ],
-  "Springleaf (TE4)": [
+  "Springleaf (TE4) [TE]": [
     103.818333,
     1.397778
   ],
-  "Lentor (TE5)": [
+  "Lentor (TE5) [TE]": [
     103.836667,
     1.384722
   ],
-  "Mayflower (TE6)": [
+  "Mayflower (TE6) [TE]": [
     103.837222,
     1.3725
   ],
-  "Bright Hill (TE7)": [
+  "Bright Hill (TE7) [TE]": [
     103.832222,
     1.361667
   ],
-  "Upper Thomson (TE8)": [
+  "Upper Thomson (TE8) [TE]": [
     103.833333,
     1.354167
   ],
-  "Caldecott (TE9)": [
+  "Caldecott (TE9) [TE]": [
     103.839444,
     1.337778
   ]

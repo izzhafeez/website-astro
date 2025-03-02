@@ -1,0 +1,5042 @@
+{
+  "Lagos (NIGERIA) [5M]": [
+    3.39583,
+    6.45306
+  ],
+  "Cairo (EGYPT) [5M]": [
+    31.24967,
+    30.06263
+  ],
+  "Johannesburg (SOUTH AFRICA) [5M]": [
+    28.047,
+    -26.196
+  ],
+  "Kinshasa (DEMOCRATIC REPUBLIC OF THE CONGO) [5M]": [
+    15.3084984505141,
+    -4.30367069565848
+  ],
+  "Luanda (ANGOLA) [5M]": [
+    13.2335951496881,
+    -8.81404680697242
+  ],
+  "Abidjan (COTE DIVOIRE) [5M]": [
+    -4.02063248164975,
+    5.323126965675
+  ],
+  "Dar Es Salaam (TANZANIA) [5M]": [
+    39.2865912437547,
+    -6.81900376436904
+  ],
+  "Alexandria (EGYPT) [5M]": [
+    29.9,
+    31.2
+  ],
+  "Ibadan (NIGERIA) [5M]": [
+    3.89892581846119,
+    7.37945857849092
+  ],
+  "Giza (EGYPT) [2M]": [
+    31.2089230948904,
+    30.013488732172
+  ],
+  "Nairobi (KENYA) [2M]": [
+    36.81667,
+    -1.28333
+  ],
+  "Bamako (MALI) [2M]": [
+    -8.0,
+    12.65
+  ],
+  "Addis Ababa (ETHIOPIA) [2M]": [
+    38.74,
+    9.03
+  ],
+  "Cape Town (SOUTH AFRICA) [2M]": [
+    18.427,
+    -33.919
+  ],
+  "Casablanca (MOROCCO) [2M]": [
+    -7.61916,
+    33.59278
+  ],
+  "Dakar (SENEGAL) [2M]": [
+    -17.432059536033,
+    14.6695600938191
+  ],
+  "Durban (SOUTH AFRICA) [2M]": [
+    31.026,
+    -29.857
+  ],
+  "Douala (CAMEROON) [2M]": [
+    9.70235640917786,
+    4.05054970061315
+  ],
+  "Yaounde (CAMEROON) [2M]": [
+    11.51667,
+    3.86667
+  ],
+  "Ouagadougou (BURKINA FASO) [2M]": [
+    -1.53834,
+    12.36423
+  ],
+  "Benin City (NIGERIA) [2M]": [
+    5.62749,
+    6.33504
+  ],
+  "Kano (NIGERIA) [2M]": [
+    8.51240644955899,
+    12.0028304461011
+  ],
+  "Algiers (ALGERIA) [2M]": [
+    3.06226859092691,
+    36.7811319168518
+  ],
+  "Lusaka (ZAMBIA) [2M]": [
+    28.28636,
+    -15.40809
+  ],
+  "Lome (TOGO) [2M]": [
+    1.21227,
+    6.13748
+  ],
+  "Brazzaville (CONGO) [2M]": [
+    15.28327,
+    -4.2669
+  ],
+  "Port Harcourt (NIGERIA) [2M]": [
+    7.0134,
+    4.77742
+  ],
+  "Accra (GHANA) [2M]": [
+    -0.1969,
+    5.55602
+  ],
+  "Kaduna (NIGERIA) [2M]": [
+    7.43828,
+    10.52224
+  ],
+  "Kumasi (GHANA) [2M]": [
+    -1.61667,
+    6.68333
+  ],
+  "Omdurman (SUDAN) [1M]": [
+    32.4829147799616,
+    15.6482869840027
+  ],
+  "Pretoria (SOUTH AFRICA) [1M]": [
+    28.188,
+    -25.746
+  ],
+  "Monrovia (LIBERIA) [1M]": [
+    -10.8073574323504,
+    6.31569986764719
+  ],
+  "Kampala (UGANDA) [1M]": [
+    32.58219,
+    0.31628
+  ],
+  "Conakry (GUINEA) [1M]": [
+    -13.67729,
+    9.53795
+  ],
+  "Mogadishu (SOMALIA) [1M]": [
+    45.34375,
+    2.03711
+  ],
+  "Aba (NIGERIA) [1M]": [
+    7.36667,
+    5.10658
+  ],
+  "Kigali (RWANDA) [1M]": [
+    30.05885,
+    -1.94995
+  ],
+  "Harare (ZIMBABWE) [1M]": [
+    31.05389,
+    -17.82935
+  ],
+  "Nouakchott (MAURITANIA) [1M]": [
+    -15.9814371479694,
+    18.0821366402718
+  ],
+  "Khartoum (SUDAN) [1M]": [
+    32.5351442760986,
+    15.5993809399672
+  ],
+  "Pointe Noire (CONGO) [1M]": [
+    11.8648892758231,
+    -4.78809492306801
+  ],
+  "Abuja (NIGERIA) [1M]": [
+    7.48976,
+    9.05735
+  ],
+  "Lubumbashi (DEMOCRATIC REPUBLIC OF THE CONGO) [1M]": [
+    27.477002420749,
+    -11.6510833925968
+  ],
+  "Shubra El Kheima (EGYPT) [1M]": [
+    31.25,
+    30.11
+  ],
+  "Tangier (MOROCCO) [1M]": [
+    -5.81365,
+    35.78058
+  ],
+  "Antananarivo (MADAGASCAR) [1M]": [
+    47.5225479605654,
+    -18.9029880446477
+  ],
+  "Maputo (MOZAMBIQUE) [1M]": [
+    32.58917,
+    -25.96528
+  ],
+  "Mbuji Mayi (DEMOCRATIC REPUBLIC OF THE CONGO) [1M]": [
+    23.5920066232829,
+    -6.1146522005825
+  ],
+  "Mombasa (KENYA) [1M]": [
+    39.6605,
+    -4.055
+  ],
+  "Fes (MOROCCO) [1M]": [
+    -4.9998,
+    34.03715
+  ],
+  "Lilongwe (MALAWI) [1M]": [
+    33.78333,
+    -13.98333
+  ],
+  "Maiduguri (NIGERIA) [1M]": [
+    13.16027,
+    11.84644
+  ],
+  "Bujumbura (BURUNDI) [1M]": [
+    29.3644,
+    -3.3822
+  ],
+  "Touba (SENEGAL) [1M]": [
+    -15.88,
+    14.87
+  ],
+  "Mwanza (TANZANIA) [1M]": [
+    32.9,
+    -2.51667
+  ],
+  "Ilorin (NIGERIA) [1M]": [
+    4.55,
+    8.5
+  ],
+  "Matola (MOZAMBIQUE) [1M]": [
+    32.45889,
+    -25.96222
+  ],
+  "Tripoli (LIBYA) [1M]": [
+    13.18746,
+    32.87519
+  ],
+  "Marrakesh (MOROCCO) [1M]": [
+    -8.00828,
+    31.63148
+  ],
+  "Khartoum North (SUDAN) [1M]": [
+    32.548448507377,
+    15.6542629158835
+  ],
+  "Niamey (NIGER) [700K]": [
+    2.11178,
+    13.5125
+  ],
+  "Ndjamena (CHAD) [700K]": [
+    15.0504375482336,
+    12.1096633773285
+  ],
+  "Sale (MOROCCO) [700K]": [
+    -6.8166,
+    34.03892
+  ],
+  "Warri (NIGERIA) [700K]": [
+    5.75,
+    5.51667
+  ],
+  "Onitsha (NIGERIA) [700K]": [
+    6.78845,
+    6.14543
+  ],
+  "Bobo Dioulasso (BURKINA FASO) [700K]": [
+    -4.2979,
+    11.17715
+  ],
+  "Asmara (ERITREA) [700K]": [
+    38.93,
+    15.33
+  ],
+  "Gqeberha (SOUTH AFRICA) [700K]": [
+    25.612,
+    -33.962
+  ],
+  "Blantyre (MALAWI) [700K]": [
+    35.01387,
+    -15.78682
+  ],
+  "Akure (NIGERIA) [700K]": [
+    5.19312,
+    7.25256
+  ],
+  "Bangui (CENTRAL AFRICAN REPUBLIC) [700K]": [
+    18.582859026611,
+    4.36197661534273
+  ],
+  "Oran (ALGERIA) [700K]": [
+    -0.64167,
+    35.69111
+  ],
+  "Abeokuta (NIGERIA) [700K]": [
+    3.35,
+    7.15
+  ],
+  "Port Said (EGYPT) [700K]": [
+    32.28412,
+    31.25654
+  ],
+  "Djibouti (DJIBOUTI) [700K]": [
+    43.14468,
+    11.58767
+  ],
+  "Dodoma (TANZANIA) [700K]": [
+    35.73792,
+    -6.17486
+  ],
+  "Hargeisa (SOMALIA) [700K]": [
+    44.065,
+    9.56
+  ],
+  "Bouake (COTE DIVOIRE) [700K]": [
+    -5.02177,
+    7.68949
+  ],
+  "Soshanguve (SOUTH AFRICA) [700K]": [
+    28.086,
+    -25.491
+  ],
+  "Kananga (DEMOCRATIC REPUBLIC OF THE CONGO) [700K]": [
+    22.4125288574816,
+    -5.89370098460733
+  ],
+  "Suez (EGYPT) [700K]": [
+    32.52627,
+    29.97371
+  ],
+  "Enugu (NIGERIA) [700K]": [
+    7.4943,
+    6.4402
+  ],
+  "Zanzibar (TANZANIA) [700K]": [
+    39.19793,
+    -6.16394
+  ],
+  "Libreville (GABON) [700K]": [
+    9.44295591600945,
+    0.410270499948017
+  ],
+  "Kisangani (DEMOCRATIC REPUBLIC OF THE CONGO) [500K]": [
+    25.1938272559023,
+    0.51184392240577
+  ],
+  "Cotonou (BENIN) [500K]": [
+    2.41833,
+    6.36536
+  ],
+  "Osogbo (NIGERIA) [500K]": [
+    4.56,
+    7.77
+  ],
+  "Zaria (NIGERIA) [500K]": [
+    7.70182777231445,
+    11.0590632754833
+  ],
+  "Kitwe (ZAMBIA) [500K]": [
+    28.2097440656012,
+    -12.8152009375555
+  ],
+  "Bulawayo (ZIMBABWE) [500K]": [
+    28.58333,
+    -20.15
+  ],
+  "Nampula (MOZAMBIQUE) [500K]": [
+    39.2666,
+    -15.11646
+  ],
+  "Ife (NIGERIA) [500K]": [
+    4.56,
+    7.48
+  ],
+  "Mansoura (EGYPT) [500K]": [
+    31.38,
+    31.04
+  ],
+  "Benghazi (LIBYA) [500K]": [
+    20.06667,
+    32.11667
+  ],
+  "Ndola (ZAMBIA) [500K]": [
+    28.63659,
+    -12.95867
+  ],
+  "Jos (NIGERIA) [500K]": [
+    8.9,
+    9.91667
+  ],
+  "Arusha (TANZANIA) [500K]": [
+    36.68333,
+    -3.36667
+  ],
+  "Mahalla El Kubra (EGYPT) [500K]": [
+    31.17,
+    30.98
+  ],
+  "Freetown (SIERRA LEONE) [500K]": [
+    -13.22994,
+    8.484
+  ],
+  "Evaton (SOUTH AFRICA) [500K]": [
+    27.852,
+    -26.534
+  ],
+  "Lubango (ANGOLA) [500K]": [
+    13.5,
+    -14.91667
+  ],
+  "Tunis (TUNISIA) [500K]": [
+    10.1789270340158,
+    36.7996907686141
+  ],
+  "Tanta (EGYPT) [500K]": [
+    31.00192,
+    30.78847
+  ],
+  "Huambo (ANGOLA) [500K]": [
+    15.73917,
+    -12.77611
+  ],
+  "Beira (MOZAMBIQUE) [500K]": [
+    34.83889,
+    -19.84361
+  ],
+  "Nakuru (KENYA) [500K]": [
+    36.06667,
+    -0.28333
+  ],
+  "Asyut (EGYPT) [500K]": [
+    31.18368,
+    27.18096
+  ],
+  "Meknes (MOROCCO) [500K]": [
+    -5.54727,
+    33.89352
+  ],
+  "Benguela (ANGOLA) [500K]": [
+    13.40722,
+    -12.57833
+  ],
+  "Cabinda (ANGOLA) [500K]": [
+    12.192993388683,
+    -5.55822163910365
+  ],
+  "Mbeya (TANZANIA) [500K]": [
+    33.463242611715,
+    -8.90584703731116
+  ],
+  "Nansana (UGANDA) [500K]": [
+    32.53,
+    0.37
+  ],
+  "Faiyum (EGYPT) [500K]": [
+    30.84,
+    29.31
+  ],
+  "Rabat (MOROCCO) [500K]": [
+    -6.83657143306591,
+    34.026476964848
+  ],
+  "Kenitra (MOROCCO) [500K]": [
+    -6.5802,
+    34.26101
+  ],
+  "Oujda (MOROCCO) [500K]": [
+    -1.90764,
+    34.68052
+  ],
+  "Agadir (MOROCCO) [500K]": [
+    -9.59815,
+    30.42018
+  ],
+  "Al Khusus (EGYPT) [500K]": [
+    31.312743,
+    30.159797
+  ],
+  "Merca (SOMALIA) [200K]": [
+    44.7696294685824,
+    1.71566887242026
+  ],
+  "Ondo (NIGERIA) [200K]": [
+    4.84093660035255,
+    7.09798840539274
+  ],
+  "Nyala (SUDAN) [200K]": [
+    24.89,
+    12.06
+  ],
+  "Ruiru (KENYA) [200K]": [
+    36.9604148033734,
+    -1.14826741769193
+  ],
+  "Windhoek (NAMIBIA) [200K]": [
+    17.08323,
+    -22.55941
+  ],
+  "Gboko (NIGERIA) [200K]": [
+    9.0,
+    7.33
+  ],
+  "Masina (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    15.39139,
+    -4.38361
+  ],
+  "Eldoret (KENYA) [200K]": [
+    35.26992,
+    0.52036
+  ],
+  "Pietermaritzburg (SOUTH AFRICA) [200K]": [
+    30.38,
+    -29.602
+  ],
+  "Owerri (NIGERIA) [200K]": [
+    7.03041,
+    5.48333
+  ],
+  "Bukavu (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    28.83,
+    -2.5
+  ],
+  "Morogoro (TANZANIA) [200K]": [
+    37.66667,
+    -6.81667
+  ],
+  "Gondar (ETHIOPIA) [200K]": [
+    37.46667,
+    12.6
+  ],
+  "Bloemfontein (SOUTH AFRICA) [200K]": [
+    26.222,
+    -29.118
+  ],
+  "Kira (UGANDA) [200K]": [
+    32.638889,
+    0.397222
+  ],
+  "Zagazig (EGYPT) [200K]": [
+    31.5,
+    30.58
+  ],
+  "Mekele (ETHIOPIA) [200K]": [
+    39.4685629742722,
+    13.4888249170922
+  ],
+  "Adama (ETHIOPIA) [200K]": [
+    39.2688893509669,
+    8.54142304110089
+  ],
+  "Kolwezi (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    25.4991118803234,
+    -10.7092309321247
+  ],
+  "Malanje (ANGOLA) [200K]": [
+    16.34528,
+    -9.54472
+  ],
+  "Kahama (TANZANIA) [200K]": [
+    32.5988536509813,
+    -3.82821124080328
+  ],
+  "Ismailia (EGYPT) [200K]": [
+    32.27225,
+    30.60427
+  ],
+  "Constantine (ALGERIA) [200K]": [
+    6.61472,
+    36.365
+  ],
+  "Jalingo (NIGERIA) [200K]": [
+    11.36667,
+    8.88333
+  ],
+  "Tetouan (MOROCCO) [200K]": [
+    -5.37242,
+    35.57109
+  ],
+  "Awasa (ETHIOPIA) [200K]": [
+    38.46667,
+    7.05
+  ],
+  "Makindye Ssabagabo (UGANDA) [200K]": [
+    32.56,
+    0.242778
+  ],
+  "Asaba (NIGERIA) [200K]": [
+    6.73384,
+    6.20064
+  ],
+  "Ijebu Ode (NIGERIA) [200K]": [
+    3.91588,
+    6.81609
+  ],
+  "Aswan (EGYPT) [200K]": [
+    32.90704,
+    24.09343
+  ],
+  "Kisumu (KENYA) [200K]": [
+    34.76171,
+    -0.10221
+  ],
+  "Port Sudan (SUDAN) [200K]": [
+    37.21639,
+    19.61583
+  ],
+  "Tanga (TANZANIA) [200K]": [
+    39.1,
+    -5.06667
+  ],
+  "Saurimo (ANGOLA) [200K]": [
+    20.39,
+    -9.66
+  ],
+  "Thies (SENEGAL) [200K]": [
+    -16.9256427195908,
+    14.7916067207263
+  ],
+  "Bissau (GUINEA BISSAU) [200K]": [
+    -15.584370896103,
+    11.8632361360127
+  ],
+  "Oyo (NIGERIA) [200K]": [
+    3.93333,
+    7.85
+  ],
+  "Las Palmas (SPAIN) [200K]": [
+    -15.41343,
+    28.09973
+  ],
+  "Ado (NIGERIA) [200K]": [
+    5.22438421781356,
+    7.61793415825636
+  ],
+  "Vereeniging (SOUTH AFRICA) [200K]": [
+    27.932,
+    -26.674
+  ],
+  "Sixth Of October City (EGYPT) [200K]": [
+    30.91,
+    29.94
+  ],
+  "Ilesha (NIGERIA) [200K]": [
+    4.74,
+    7.63
+  ],
+  "Berbera (SOMALIA) [200K]": [
+    45.01282,
+    10.43901
+  ],
+  "Tamale (GHANA) [200K]": [
+    -0.842547216012231,
+    9.40558115925726
+  ],
+  "Chitungwiza (ZIMBABWE) [200K]": [
+    31.07555,
+    -18.01274
+  ],
+  "Likasi (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    26.7409606536077,
+    -10.9853824431216
+  ],
+  "Tshikapa (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    20.8,
+    -6.42
+  ],
+  "Chimoio (MOZAMBIQUE) [200K]": [
+    33.48333,
+    -19.11639
+  ],
+  "Sokoto (NIGERIA) [200K]": [
+    5.23902,
+    13.06092
+  ],
+  "Kismayo (SOMALIA) [200K]": [
+    42.53,
+    -0.37
+  ],
+  "Lobito (ANGOLA) [200K]": [
+    13.54556,
+    -12.34806
+  ],
+  "Kuito (ANGOLA) [200K]": [
+    16.9383919590409,
+    -12.3921775972411
+  ],
+  "Bahir Dar (ETHIOPIA) [200K]": [
+    37.38333,
+    11.6
+  ],
+  "Bimbo (CENTRAL AFRICAN REPUBLIC) [200K]": [
+    18.5232861861446,
+    4.32266554533303
+  ],
+  "El Obeid (SUDAN) [200K]": [
+    30.21667,
+    13.18333
+  ],
+  "Maseru (LESOTHO) [200K]": [
+    27.48333,
+    -29.31667
+  ],
+  "Dire Dawa (ETHIOPIA) [200K]": [
+    41.86611,
+    9.59306
+  ],
+  "Annaba (ALGERIA) [200K]": [
+    7.76667,
+    36.9
+  ],
+  "Blida (ALGERIA) [200K]": [
+    2.83014984198642,
+    36.4726233129314
+  ],
+  "Damanhour (EGYPT) [200K]": [
+    30.46914,
+    31.03917
+  ],
+  "Toamasina (MADAGASCAR) [200K]": [
+    49.4096237190816,
+    -18.1554201225501
+  ],
+  "Safi (MOROCCO) [200K]": [
+    -9.23718,
+    32.29939
+  ],
+  "Kikuyu (KENYA) [200K]": [
+    36.66667,
+    -1.25
+  ],
+  "Uige (ANGOLA) [200K]": [
+    15.05,
+    -7.61667
+  ],
+  "Minna (NIGERIA) [200K]": [
+    6.55694,
+    9.61389
+  ],
+  "Uyo (NIGERIA) [200K]": [
+    7.93,
+    5.03
+  ],
+  "New Cairo (EGYPT) [200K]": [
+    31.47,
+    30.03
+  ],
+  "Calabar (NIGERIA) [200K]": [
+    8.322,
+    4.9517
+  ],
+  "Geita (TANZANIA) [200K]": [
+    32.229,
+    -2.871
+  ],
+  "Damietta (EGYPT) [200K]": [
+    31.8129064933436,
+    31.4170813467176
+  ],
+  "Rustenburg (SOUTH AFRICA) [200K]": [
+    27.239,
+    -25.668
+  ],
+  "Witbank (SOUTH AFRICA) [200K]": [
+    29.211,
+    -25.875
+  ],
+  "Takoradi (GHANA) [200K]": [
+    -1.75,
+    4.88333
+  ],
+  "Tete (MOZAMBIQUE) [200K]": [
+    33.58667,
+    -16.15639
+  ],
+  "Dar Bouazza (MOROCCO) [200K]": [
+    -7.82,
+    33.52
+  ],
+  "Solwezi (ZAMBIA) [200K]": [
+    26.4,
+    -12.183333
+  ],
+  "Kaolack (SENEGAL) [200K]": [
+    -16.0763863653789,
+    14.1388574337057
+  ],
+  "Kassala (SUDAN) [200K]": [
+    36.4001,
+    15.457
+  ],
+  "Al Minya (EGYPT) [200K]": [
+    30.75,
+    28.09
+  ],
+  "Temara (MOROCCO) [200K]": [
+    -6.912222,
+    33.926667
+  ],
+  "East London (SOUTH AFRICA) [200K]": [
+    27.904,
+    -33.016
+  ],
+  "Rufisque (SENEGAL) [200K]": [
+    -17.27,
+    14.72
+  ],
+  "Bauchi (NIGERIA) [200K]": [
+    9.84327,
+    10.31344
+  ],
+  "Kikwit (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    18.8238766122364,
+    -5.03638774578594
+  ],
+  "Beni Suef (EGYPT) [200K]": [
+    31.09,
+    29.06
+  ],
+  "Newcastle (SOUTH AFRICA) [200K]": [
+    29.936,
+    -27.757
+  ],
+  "Bata (EQUATORIAL GUINEA) [200K]": [
+    9.76828,
+    1.86453
+  ],
+  "Batna (ALGERIA) [200K]": [
+    6.17414,
+    35.55597
+  ],
+  "Medani (SUDAN) [200K]": [
+    33.4989,
+    14.4056
+  ],
+  "Kabwe (ZAMBIA) [200K]": [
+    28.45174,
+    -14.44322
+  ],
+  "Sfax (TUNISIA) [200K]": [
+    10.76028,
+    34.74056
+  ],
+  "Songea (TANZANIA) [200K]": [
+    35.65,
+    -10.68333
+  ],
+  "Kyengera (UGANDA) [200K]": [
+    32.5014444538175,
+    0.292548869268462
+  ],
+  "Luxor (EGYPT) [200K]": [
+    32.6421,
+    25.69893
+  ],
+  "Mbour (SENEGAL) [200K]": [
+    -16.97,
+    14.4
+  ],
+  "Sohag (EGYPT) [200K]": [
+    31.7,
+    26.55
+  ],
+  "Shebeen El Kom (EGYPT) [200K]": [
+    31.0,
+    30.56
+  ],
+  "Luena (ANGOLA) [200K]": [
+    19.9,
+    -11.79
+  ],
+  "Mzuzu (MALAWI) [200K]": [
+    34.0147968289639,
+    -11.4606574340277
+  ],
+  "Jimeta (NIGERIA) [200K]": [
+    12.4514036748551,
+    9.27916980529725
+  ],
+  "Dessie (ETHIOPIA) [200K]": [
+    39.63333,
+    11.13333
+  ],
+  "Bamenda (CAMEROON) [200K]": [
+    10.15824,
+    5.95266
+  ],
+  "Gedaref (SUDAN) [200K]": [
+    35.4,
+    14.02
+  ],
+  "Ogbomosho (NIGERIA) [200K]": [
+    4.24771412224197,
+    8.13003309089679
+  ],
+  "Maradi (NIGER) [200K]": [
+    7.10174,
+    13.5
+  ],
+  "Djelfa (ALGERIA) [200K]": [
+    3.25,
+    34.67
+  ],
+  "Kibaha (TANZANIA) [200K]": [
+    38.993611,
+    -6.782729
+  ],
+  "Qena (EGYPT) [200K]": [
+    32.7168946381729,
+    26.1627528338168
+  ],
+  "Ilobu (NIGERIA) [200K]": [
+    4.48333,
+    7.83333
+  ],
+  "Porto Novo (BENIN) [200K]": [
+    2.62599219769073,
+    6.47122722015394
+  ],
+  "Begoua (CENTRAL AFRICAN REPUBLIC) [200K]": [
+    18.535,
+    4.451
+  ],
+  "Tenth of Ramadan City (EGYPT) [200K]": [
+    31.75,
+    30.3
+  ],
+  "Mbandaka (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    18.2694867039129,
+    0.0514971317724671
+  ],
+  "Laayoune (MOROCCO) [200K]": [
+    -13.2,
+    27.15
+  ],
+  "Bariadi (TANZANIA) [200K]": [
+    33.989,
+    -2.792
+  ],
+  "Misrata (LIBYA) [200K]": [
+    15.09,
+    32.38
+  ],
+  "Malabo (EQUATORIAL GUINEA) [200K]": [
+    8.78333,
+    3.75
+  ],
+  "Chingola (ZAMBIA) [200K]": [
+    27.88382,
+    -12.52897
+  ],
+  "Parakou (BENIN) [200K]": [
+    2.63031,
+    9.33716
+  ],
+  "Kenema (SIERRA LEONE) [200K]": [
+    -11.1875,
+    7.87667
+  ],
+  "Mocamedes (ANGOLA) [200K]": [
+    12.16,
+    -15.19
+  ],
+  "Saint Louis (SENEGAL) [200K]": [
+    -16.48962,
+    16.01793
+  ],
+  "Godomey (BENIN) [200K]": [
+    2.34703400113002,
+    6.39268651832985
+  ],
+  "Setif (ALGERIA) [200K]": [
+    5.4,
+    36.18
+  ],
+  "Gisenyi (RWANDA) [200K]": [
+    29.25639,
+    -1.70278
+  ],
+  "Thika (KENYA) [200K]": [
+    37.0724973082186,
+    -1.03741651370584
+  ],
+  "Menongue (ANGOLA) [200K]": [
+    17.684167,
+    -14.655556
+  ],
+  "Jimma (ETHIOPIA) [200K]": [
+    36.834277147862,
+    7.67621212770923
+  ],
+  "Susah (TUNISIA) [200K]": [
+    10.6375990565833,
+    35.8249151225892
+  ],
+  "Bayda (LIBYA) [200K]": [
+    21.74167,
+    32.76639
+  ],
+  "Goma (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    29.23,
+    -1.68
+  ],
+  "Quelimane (MOZAMBIQUE) [200K]": [
+    36.88833,
+    -17.87861
+  ],
+  "Antsirabe (MADAGASCAR) [200K]": [
+    47.0277755454313,
+    -19.8633050479259
+  ],
+  "Gaborone (BOTSWANA) [200K]": [
+    25.90859,
+    -24.65451
+  ],
+  "Mahajanga (MADAGASCAR) [200K]": [
+    46.31667,
+    -15.71667
+  ],
+  "Matadi (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    13.4648129943498,
+    -5.82636738613637
+  ],
+  "Daloa (COTE DIVOIRE) [200K]": [
+    -6.45022,
+    6.87736
+  ],
+  "Galkayo (SOMALIA) [200K]": [
+    47.43083,
+    6.76972
+  ],
+  "Nacala Porto (MOZAMBIQUE) [200K]": [
+    40.68,
+    -14.56
+  ],
+  "Korhogo (COTE DIVOIRE) [200K]": [
+    -5.63333,
+    9.45
+  ],
+  "Uitenhage (SOUTH AFRICA) [200K]": [
+    25.394,
+    -33.766
+  ],
+  "Abakaliki (NIGERIA) [200K]": [
+    8.10861149912182,
+    6.32587796408733
+  ],
+  "Lichinga (MOZAMBIQUE) [200K]": [
+    35.24056,
+    -13.31278
+  ],
+  "Bafoussam (CAMEROON) [200K]": [
+    10.41786,
+    5.47366
+  ],
+  "Kasulu (TANZANIA) [200K]": [
+    30.099964,
+    -4.582756
+  ],
+  "El Jadida (MOROCCO) [200K]": [
+    -8.50602,
+    33.25492
+  ],
+  "Garoua (CAMEROON) [200K]": [
+    13.4,
+    9.3
+  ],
+  "Zinder (NIGER) [200K]": [
+    8.98837,
+    13.80487
+  ],
+  "Uvira (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    29.15,
+    -3.4
+  ],
+  "Kigoma (TANZANIA) [200K]": [
+    29.62667,
+    -4.87694
+  ],
+  "Bunia (DEMOCRATIC REPUBLIC OF THE CONGO) [200K]": [
+    30.2507731361521,
+    1.56130185541353
+  ],
+  "Juba (SOUTH SUDAN) [200K]": [
+    31.58247,
+    4.85165
+  ],
+  "Sekondi (GHANA) [200K]": [
+    -1.7137,
+    4.934
+  ],
+  "Pietersburg (SOUTH AFRICA) [200K]": [
+    29.45,
+    -23.905
+  ],
+  "Sikasso (MALI) [200K]": [
+    -5.6697,
+    11.3135
+  ],
+  "Kimberley (SOUTH AFRICA) [200K]": [
+    24.762,
+    -28.742
+  ],
+  "Mocuba (MOZAMBIQUE) [200K]": [
+    36.983333,
+    -16.85
+  ],
+  "Mutare (ZIMBABWE) [200K]": [
+    32.67086,
+    -18.9707
+  ],
+  "Mallawi (EGYPT) [200K]": [
+    30.84165,
+    27.7314
+  ],
+  "Bo (SIERRA LEONE) [200K]": [
+    -11.73833,
+    7.96472
+  ],
+  "Moshi (TANZANIA) [200K]": [
+    37.33333,
+    -3.35
+  ],
+  "Tabora (TANZANIA) [200K]": [
+    32.8,
+    -5.01667
+  ],
+  "Mbarara (UGANDA) [200K]": [
+    30.6618199181372,
+    -0.606111009417626
+  ],
+  "Tunduma (TANZANIA) [200K]": [
+    32.764084,
+    -9.308382
+  ],
+  "Sapele (NIGERIA) [200K]": [
+    5.67666,
+    5.89405
+  ],
+  "El Fasher (SUDAN) [200K]": [
+    25.35,
+    13.63333
+  ],
+  "Ziguinchor (SENEGAL) [200K]": [
+    -16.27194,
+    12.58333
+  ],
+  "Hurghada (EGYPT) [200K]": [
+    33.84,
+    27.24
+  ],
+  "Katsina (NIGERIA) [200K]": [
+    7.60063,
+    12.98943
+  ],
+  "Kosti (SUDAN) [200K]": [
+    32.66667,
+    13.16667
+  ],
+  "Yamoussoukro (COTE DIVOIRE) [200K]": [
+    -5.27674,
+    6.82055
+  ],
+  "Welkom (SOUTH AFRICA) [200K]": [
+    26.738,
+    -27.981
+  ],
+  "Ait Melloul (MOROCCO) [200K]": [
+    -9.497,
+    30.334
+  ],
+  "Tarhunah (LIBYA) [200K]": [
+    13.6332,
+    32.43502
+  ],
+  "Santa Cruz de Tenerife (SPAIN) [200K]": [
+    -16.25462,
+    28.46824
+  ],
+  "Sidi Bel Abbes (ALGERIA) [200K]": [
+    -0.63085,
+    35.18994
+  ],
+  "Beni Mellal (MOROCCO) [200K]": [
+    -6.34984,
+    32.33725
+  ],
+  "Pemba (MOZAMBIQUE) [200K]": [
+    40.4942285989267,
+    -12.9616320569627
+  ],
+  "Shashamane (ETHIOPIA) [200K]": [
+    38.6,
+    7.2
+  ],
+  "Gurue (MOZAMBIQUE) [200K]": [
+    36.98,
+    -15.46
+  ],
+  "Kasangati (UGANDA) [200K]": [
+    32.6025,
+    0.437778
+  ],
+  "Debre Zeyit (ETHIOPIA) [200K]": [
+    38.98333,
+    8.75
+  ],
+  "Epworth (ZIMBABWE) [200K]": [
+    31.1475,
+    -17.89
+  ],
+  "Ifakara (TANZANIA) [200K]": [
+    36.683,
+    -8.1
+  ],
+  "Sumbe (ANGOLA) [200K]": [
+    13.85,
+    -11.21
+  ],
+  "Biskra (ALGERIA) [200K]": [
+    5.73,
+    34.85
+  ],
+  "Mpanda (TANZANIA) [200K]": [
+    31.072083,
+    -6.347374
+  ],
+  "Sodo (ETHIOPIA) [200K]": [
+    37.7622951572715,
+    6.86498911082356
+  ],
+  "Iringa (TANZANIA) [200K]": [
+    35.7,
+    -7.76667
+  ],
+  "Al Khums (LIBYA) [200K]": [
+    14.26191,
+    32.64861
+  ],
+  "Maroua (CAMEROON) [200K]": [
+    14.3296150811021,
+    10.6038781628348
+  ],
+  "Arba Minch (ETHIOPIA) [200K]": [
+    37.55,
+    6.04
+  ],
+  "Soyo (ANGOLA) [200K]": [
+    12.37,
+    -6.13
+  ],
+  "Bouskoura (MOROCCO) [200K]": [
+    -7.648611,
+    33.448889
+  ],
+  "Naivasha (KENYA) [100K]": [
+    36.4362864914966,
+    -0.7156860279358
+  ],
+  "Kafr el Sheikh (EGYPT) [100K]": [
+    30.93,
+    31.11
+  ],
+  "Bilbeis (EGYPT) [100K]": [
+    31.56223,
+    30.42039
+  ],
+  "Jijiga (ETHIOPIA) [100K]": [
+    42.8,
+    9.35
+  ],
+  "Paarl (SOUTH AFRICA) [100K]": [
+    18.963,
+    -33.729
+  ],
+  "Gombe (NIGERIA) [100K]": [
+    11.16729,
+    10.28969
+  ],
+  "Koidu Town (SIERRA LEONE) [100K]": [
+    -10.9717,
+    8.6439
+  ],
+  "Khouribga (MOROCCO) [100K]": [
+    -6.9063,
+    32.88108
+  ],
+  "Nzerekore (GUINEA) [100K]": [
+    -8.82389,
+    7.74722
+  ],
+  "Tebessa (ALGERIA) [100K]": [
+    8.12,
+    35.4
+  ],
+  "Mohammedia (MOROCCO) [100K]": [
+    -7.39442,
+    33.70659
+  ],
+  "Karuri (KENYA) [100K]": [
+    36.7590520134586,
+    -1.17446986881542
+  ],
+  "Mersa Matruh (EGYPT) [100K]": [
+    27.24528,
+    31.35254
+  ],
+  "Luanshya (ZAMBIA) [100K]": [
+    28.41661,
+    -13.13667
+  ],
+  "Fianarantsoa (MADAGASCAR) [100K]": [
+    47.0860770614567,
+    -21.4499986598261
+  ],
+  "Mukono (UGANDA) [100K]": [
+    32.76,
+    0.36
+  ],
+  "Ashiaman (GHANA) [100K]": [
+    -0.03,
+    5.7
+  ],
+  "Kankan (GUINEA) [100K]": [
+    -9.3,
+    10.38333
+  ],
+  "Klerksdorp (SOUTH AFRICA) [100K]": [
+    26.666,
+    -26.866
+  ],
+  "Hosaena (ETHIOPIA) [100K]": [
+    37.85,
+    7.55
+  ],
+  "Nametil (MOZAMBIQUE) [100K]": [
+    39.3421410274256,
+    -15.7180267981359
+  ],
+  "Somerset West (SOUTH AFRICA) [100K]": [
+    18.84,
+    -34.075
+  ],
+  "Chipata (ZAMBIA) [100K]": [
+    32.6458702309063,
+    -13.639940463359
+  ],
+  "Banha (EGYPT) [100K]": [
+    31.1837036301852,
+    30.4659891955521
+  ],
+  "El Oued (ALGERIA) [100K]": [
+    6.85160916748533,
+    33.3675491495141
+  ],
+  "Idku (EGYPT) [100K]": [
+    30.3,
+    31.3
+  ],
+  "Bunda (TANZANIA) [100K]": [
+    33.873124,
+    -2.021194
+  ],
+  "Sumbawanga (TANZANIA) [100K]": [
+    31.62,
+    -7.96
+  ],
+  "Skikda (ALGERIA) [100K]": [
+    6.90921,
+    36.87617
+  ],
+  "Botshabelo (SOUTH AFRICA) [100K]": [
+    26.705,
+    -29.232
+  ],
+  "Kasama (ZAMBIA) [100K]": [
+    31.18084,
+    -10.21289
+  ],
+  "Tiaret (ALGERIA) [100K]": [
+    1.32182044540988,
+    35.3709009010136
+  ],
+  "Njeru (UGANDA) [100K]": [
+    33.1510477161764,
+    0.432822470266089
+  ],
+  "Livingstone (ZAMBIA) [100K]": [
+    25.85425,
+    -17.84194
+  ],
+  "Dolisie (CONGO) [100K]": [
+    12.6741237979815,
+    -4.19575635226856
+  ],
+  "Dundo (ANGOLA) [100K]": [
+    20.8358847805536,
+    -7.38528104381711
+  ],
+  "Gulu (UGANDA) [100K]": [
+    32.30556,
+    2.76667
+  ],
+  "Bejaia (ALGERIA) [100K]": [
+    5.08433,
+    36.75587
+  ],
+  "Potiskum (NIGERIA) [100K]": [
+    11.0694,
+    11.7091
+  ],
+  "Tlemcen (ALGERIA) [100K]": [
+    -1.315,
+    34.87833
+  ],
+  "Nouadhibou (MAURITANIA) [100K]": [
+    -17.033333,
+    20.933333
+  ],
+  "Ongata Rongai (KENYA) [100K]": [
+    36.752,
+    -1.397
+  ],
+  "Settat (MOROCCO) [100K]": [
+    -7.62035,
+    33.0007
+  ],
+  "Boma (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    13.05,
+    -5.83
+  ],
+  "Mdantsane (SOUTH AFRICA) [100K]": [
+    27.739,
+    -32.936
+  ],
+  "Makurdi (NIGERIA) [100K]": [
+    8.5121,
+    7.7411
+  ],
+  "Mansa (ZAMBIA) [100K]": [
+    28.89,
+    -11.2
+  ],
+  "Mwene Ditu (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    23.45,
+    -7.0
+  ],
+  "Shagamu (NIGERIA) [100K]": [
+    3.64776,
+    6.84323
+  ],
+  "Manhica (MOZAMBIQUE) [100K]": [
+    32.8044204985512,
+    -25.4033358510282
+  ],
+  "Ouargla (ALGERIA) [100K]": [
+    5.32502,
+    31.94932
+  ],
+  "Cape Coast (GHANA) [100K]": [
+    -1.2466,
+    5.10535
+  ],
+  "Mufulira (ZAMBIA) [100K]": [
+    28.24071,
+    -12.54982
+  ],
+  "Toliara (MADAGASCAR) [100K]": [
+    43.66667,
+    -23.35
+  ],
+  "Berrechid (MOROCCO) [100K]": [
+    -7.59,
+    33.28
+  ],
+  "Owo (NIGERIA) [100K]": [
+    5.58681,
+    7.1962
+  ],
+  "Maneah (GUINEA) [100K]": [
+    -13.411111,
+    9.718611
+  ],
+  "Karsana (NIGERIA) [100K]": [
+    7.34,
+    9.15
+  ],
+  "Singida (TANZANIA) [100K]": [
+    34.74,
+    -4.82
+  ],
+  "Dakhla (MOROCCO) [100K]": [
+    -15.9297691186538,
+    23.6990963471346
+  ],
+  "Butembo (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    29.2925181433175,
+    0.128694774265573
+  ],
+  "Abu Kabir (EGYPT) [100K]": [
+    31.67148,
+    30.72508
+  ],
+  "Bechar (ALGERIA) [100K]": [
+    -2.21667,
+    31.61667
+  ],
+  "San Pedro (COTE DIVOIRE) [100K]": [
+    -6.61667,
+    4.73333
+  ],
+  "Bosaso (SOMALIA) [100K]": [
+    49.18,
+    11.28
+  ],
+  "El Matareya (EGYPT) [100K]": [
+    32.0266137814138,
+    31.1799741036398
+  ],
+  "Musoma (TANZANIA) [100K]": [
+    33.8,
+    -1.5
+  ],
+  "Middelburg (SOUTH AFRICA) [100K]": [
+    29.466,
+    -25.77
+  ],
+  "Garissa (KENYA) [100K]": [
+    39.64011,
+    -0.45355
+  ],
+  "Mostaganem (ALGERIA) [100K]": [
+    0.08918,
+    35.93115
+  ],
+  "Kitale (KENYA) [100K]": [
+    35.0021098978773,
+    1.01848205997724
+  ],
+  "Ndalatando (ANGOLA) [100K]": [
+    14.916667,
+    -9.3
+  ],
+  "La Laguna (SPAIN) [100K]": [
+    -16.32014,
+    28.4853
+  ],
+  "Qalyub (EGYPT) [100K]": [
+    31.2056,
+    30.17922
+  ],
+  "Gagnoa (COTE DIVOIRE) [100K]": [
+    -5.94371,
+    6.12926
+  ],
+  "Koudougou (BURKINA FASO) [100K]": [
+    -2.37,
+    12.25
+  ],
+  "Gweru (ZIMBABWE) [100K]": [
+    29.81667,
+    -19.45
+  ],
+  "Bordj Bou Arreridj (ALGERIA) [100K]": [
+    4.76215710656074,
+    36.0742183685036
+  ],
+  "Dila (ETHIOPIA) [100K]": [
+    38.31,
+    6.41
+  ],
+  "Ikire (NIGERIA) [100K]": [
+    4.185382915317,
+    7.36744135620114
+  ],
+  "Al Hawamidiyah (EGYPT) [100K]": [
+    31.25,
+    29.9
+  ],
+  "Nador (MOROCCO) [100K]": [
+    -2.92866,
+    35.17404
+  ],
+  "Kara (TOGO) [100K]": [
+    1.19,
+    9.55
+  ],
+  "Akhmim (EGYPT) [100K]": [
+    31.74503,
+    26.56217
+  ],
+  "Girga (EGYPT) [100K]": [
+    31.89161,
+    26.33826
+  ],
+  "Diourbel (SENEGAL) [100K]": [
+    -16.24,
+    14.66
+  ],
+  "Baidoa (SOMALIA) [100K]": [
+    43.65,
+    3.11667
+  ],
+  "Okitipupa (NIGERIA) [100K]": [
+    4.78,
+    6.51
+  ],
+  "George (SOUTH AFRICA) [100K]": [
+    22.455,
+    -33.961
+  ],
+  "Dubreka (GUINEA) [100K]": [
+    -13.516667,
+    9.783333
+  ],
+  "Harar (ETHIOPIA) [100K]": [
+    42.1261428060163,
+    9.31198975634896
+  ],
+  "Mit Ghamr (EGYPT) [100K]": [
+    31.2600608826336,
+    30.7161817867882
+  ],
+  "Juja (KENYA) [100K]": [
+    37.017,
+    -1.097
+  ],
+  "Nekemte (ETHIOPIA) [100K]": [
+    36.5487720332662,
+    9.08774024757367
+  ],
+  "Offa (NIGERIA) [100K]": [
+    4.71667,
+    8.15
+  ],
+  "Chlef (ALGERIA) [100K]": [
+    1.33,
+    36.16
+  ],
+  "Saint Denis (FRANCE) [100K]": [
+    55.4504,
+    -20.88231
+  ],
+  "Kitengela (KENYA) [100K]": [
+    36.962085,
+    -1.475492
+  ],
+  "Bizerte (TUNISIA) [100K]": [
+    9.87,
+    37.29
+  ],
+  "Katabi (UGANDA) [100K]": [
+    32.5047227240401,
+    0.0964113655087723
+  ],
+  "Kairouan (TUNISIA) [100K]": [
+    10.1,
+    35.68
+  ],
+  "Souk Ahras (ALGERIA) [100K]": [
+    7.95,
+    36.29
+  ],
+  "Ruhengeri (RWANDA) [100K]": [
+    29.63497,
+    -1.49984
+  ],
+  "La Soukra (TUNISIA) [100K]": [
+    10.25,
+    36.883333
+  ],
+  "Ngaoundere (CAMEROON) [100K]": [
+    13.58333,
+    7.31667
+  ],
+  "Desouk (EGYPT) [100K]": [
+    30.64649,
+    31.13305
+  ],
+  "Tivaouane Peulh - Niaga (SENEGAL) [100K]": [
+    -17.271,
+    14.809
+  ],
+  "Ikare (NIGERIA) [100K]": [
+    5.75217118216924,
+    7.52422794448815
+  ],
+  "Taza (MOROCCO) [100K]": [
+    -4.01,
+    34.21
+  ],
+  "Samalut (EGYPT) [100K]": [
+    30.710833,
+    28.309722
+  ],
+  "Tambacounda (SENEGAL) [100K]": [
+    -13.6698386984843,
+    13.7717480799228
+  ],
+  "Carletonville (SOUTH AFRICA) [100K]": [
+    27.4,
+    -26.357
+  ],
+  "Man (COTE DIVOIRE) [100K]": [
+    -7.5475,
+    7.4052778
+  ],
+  "Suleja (NIGERIA) [100K]": [
+    7.18,
+    9.19
+  ],
+  "Potchefstroom (SOUTH AFRICA) [100K]": [
+    27.097,
+    -26.717
+  ],
+  "Mbanza-Kongo (ANGOLA) [100K]": [
+    14.248056,
+    -6.267778
+  ],
+  "Kiambu (KENYA) [100K]": [
+    36.825191272986,
+    -1.17206602571411
+  ],
+  "Isiro (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    27.6151659825355,
+    2.77920057213786
+  ],
+  "Gusau (NIGERIA) [100K]": [
+    6.67558902790894,
+    12.1678744982781
+  ],
+  "Nasir Bush (EGYPT) [100K]": [
+    31.126,
+    29.146
+  ],
+  "Debre Berhan (ETHIOPIA) [100K]": [
+    39.53,
+    9.68
+  ],
+  "Keren (ERITREA) [100K]": [
+    38.45,
+    15.78333
+  ],
+  "Ikirun (NIGERIA) [100K]": [
+    4.66667,
+    7.91667
+  ],
+  "Medea (ALGERIA) [100K]": [
+    2.75393,
+    36.26417
+  ],
+  "El Eulma (ALGERIA) [100K]": [
+    5.69016,
+    36.15281
+  ],
+  "Bukoba (TANZANIA) [100K]": [
+    31.8078831254728,
+    -1.33017835936314
+  ],
+  "Kumba (CAMEROON) [100K]": [
+    9.4469,
+    4.6363
+  ],
+  "Obuasi (GHANA) [100K]": [
+    -1.68938507990787,
+    6.21157171582402
+  ],
+  "Touggourt (ALGERIA) [100K]": [
+    6.0667477192095,
+    33.10487764163
+  ],
+  "El Ubour (EGYPT) [100K]": [
+    31.463296,
+    30.217776
+  ],
+  "Ghardaia (ALGERIA) [100K]": [
+    3.67,
+    32.48
+  ],
+  "Saida (ALGERIA) [100K]": [
+    0.15171,
+    34.83034
+  ],
+  "Koutiala (MALI) [100K]": [
+    -5.466667,
+    12.383333
+  ],
+  "Mtwara (TANZANIA) [100K]": [
+    40.19,
+    -10.27
+  ],
+  "Debre Marqos (ETHIOPIA) [100K]": [
+    37.72,
+    10.34
+  ],
+  "Kirdasah (EGYPT) [100K]": [
+    31.11,
+    30.03
+  ],
+  "Port Louis (MAURITIUS) [100K]": [
+    57.49889,
+    -20.16194
+  ],
+  "Tahta (EGYPT) [100K]": [
+    31.5,
+    26.76
+  ],
+  "Tema (GHANA) [100K]": [
+    -0.0214352660756026,
+    5.65462928392161
+  ],
+  "Shinyanga (TANZANIA) [100K]": [
+    33.42,
+    -3.66
+  ],
+  "Asella (ETHIOPIA) [100K]": [
+    39.14,
+    7.95
+  ],
+  "Belqas (EGYPT) [100K]": [
+    31.35,
+    31.22
+  ],
+  "Kindia (GUINEA) [100K]": [
+    -12.8540045269108,
+    10.0496848910996
+  ],
+  "Praia (CAPE VERDE) [100K]": [
+    -23.50868,
+    14.92148
+  ],
+  "Umtata (SOUTH AFRICA) [100K]": [
+    28.788,
+    -31.589
+  ],
+  "Inezgane (MOROCCO) [100K]": [
+    -9.54564401035186,
+    30.3560925460968
+  ],
+  "Moundou (CHAD) [100K]": [
+    16.08333,
+    8.56667
+  ],
+  "El Daein (SUDAN) [100K]": [
+    26.121,
+    11.459
+  ],
+  "Sinnuris (EGYPT) [100K]": [
+    30.866561,
+    29.407582
+  ],
+  "Ad Damazin (SUDAN) [100K]": [
+    34.35,
+    11.77
+  ],
+  "Bida (NIGERIA) [100K]": [
+    6.01055397809343,
+    9.07552988011245
+  ],
+  "Port Gentil (GABON) [100K]": [
+    8.78333,
+    -0.71667
+  ],
+  "Mlolongo (KENYA) [100K]": [
+    36.942,
+    -1.396
+  ],
+  "Kajjansi (UGANDA) [100K]": [
+    32.55,
+    0.215
+  ],
+  "Kindu (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    25.9178376283961,
+    -2.95080209934752
+  ],
+  "Ogwashi Uku (NIGERIA) [100K]": [
+    6.52,
+    6.18
+  ],
+  "Stanger (SOUTH AFRICA) [100K]": [
+    31.292,
+    -29.339
+  ],
+  "Laghouat (ALGERIA) [100K]": [
+    2.86514,
+    33.8
+  ],
+  "Geneina (SUDAN) [100K]": [
+    22.45,
+    13.45
+  ],
+  "Larache (MOROCCO) [100K]": [
+    -6.15572,
+    35.19321
+  ],
+  "Segou (MALI) [100K]": [
+    -6.26488385993482,
+    13.4476856202376
+  ],
+  "Tubruq (LIBYA) [100K]": [
+    23.96,
+    32.08
+  ],
+  "Kafr el Dawwar (EGYPT) [100K]": [
+    30.12,
+    31.13
+  ],
+  "Tarime (TANZANIA) [100K]": [
+    34.383,
+    -1.35
+  ],
+  "MSila (ALGERIA) [100K]": [
+    4.55,
+    35.7
+  ],
+  "Xai Xai (MOZAMBIQUE) [100K]": [
+    33.64417,
+    -25.05194
+  ],
+  "Kombolcha (ETHIOPIA) [100K]": [
+    39.74,
+    11.08
+  ],
+  "Jijel (ALGERIA) [100K]": [
+    5.76629062902644,
+    36.8217423913219
+  ],
+  "Minuf (EGYPT) [100K]": [
+    30.9358661342234,
+    30.464130786621
+  ],
+  "Rosetta (EGYPT) [100K]": [
+    30.4148012501431,
+    31.3939625698422
+  ],
+  "Sidi Hassine (TUNISIA) [100K]": [
+    10.112778,
+    36.760278
+  ],
+  "Agbor (NIGERIA) [100K]": [
+    6.19337,
+    6.25183
+  ],
+  "Caala (ANGOLA) [100K]": [
+    15.560556,
+    -12.8525
+  ],
+  "Iwo (NIGERIA) [100K]": [
+    4.18333,
+    7.63333
+  ],
+  "Maxixe (MOZAMBIQUE) [100K]": [
+    35.34722,
+    -23.85972
+  ],
+  "Manzala (EGYPT) [100K]": [
+    31.9362387276407,
+    31.1608144209988
+  ],
+  "Antsiranana (MADAGASCAR) [100K]": [
+    49.291213603472,
+    -12.2778175126693
+  ],
+  "Jamame (SOMALIA) [100K]": [
+    42.74497,
+    0.06968
+  ],
+  "Ashmoun (EGYPT) [100K]": [
+    30.97,
+    30.3
+  ],
+  "Carnot (CENTRAL AFRICAN REPUBLIC) [100K]": [
+    15.87,
+    4.94
+  ],
+  "Lugazi (UGANDA) [100K]": [
+    32.924167,
+    0.383333
+  ],
+  "Siguiri (GUINEA) [100K]": [
+    -9.166667,
+    11.416667
+  ],
+  "Guelmim (MOROCCO) [100K]": [
+    -10.07,
+    28.98
+  ],
+  "Kabinda (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    24.4866087423801,
+    -6.13409524901409
+  ],
+  "Kayes (MALI) [100K]": [
+    -11.4341,
+    14.4417
+  ],
+  "El Senbellawein (EGYPT) [100K]": [
+    31.45,
+    30.88
+  ],
+  "Gitega (BURUNDI) [100K]": [
+    29.925,
+    -3.428333
+  ],
+  "Khemisset (MOROCCO) [100K]": [
+    -6.06627,
+    33.82404
+  ],
+  "Manfalut (EGYPT) [100K]": [
+    30.966667,
+    27.316667
+  ],
+  "Debre Tabor (ETHIOPIA) [100K]": [
+    38.01,
+    11.86
+  ],
+  "Nzega (TANZANIA) [100K]": [
+    33.186,
+    -4.217
+  ],
+  "Faqous (EGYPT) [100K]": [
+    31.7973639858014,
+    30.7290493855933
+  ],
+  "Ksar El Kebir (MOROCCO) [100K]": [
+    -5.90534,
+    35.00174
+  ],
+  "Ouahigouya (BURKINA FASO) [100K]": [
+    -2.42,
+    13.57
+  ],
+  "Ekpoma (NIGERIA) [100K]": [
+    6.139,
+    6.74206
+  ],
+  "Maghaghah (EGYPT) [100K]": [
+    30.84,
+    28.65
+  ],
+  "Raoued (TUNISIA) [100K]": [
+    10.191389,
+    36.954444
+  ],
+  "Shaki (NIGERIA) [100K]": [
+    3.38333,
+    8.66667
+  ],
+  "Rabak (SUDAN) [100K]": [
+    32.73333,
+    13.15
+  ],
+  "Khenifra (MOROCCO) [100K]": [
+    -5.67,
+    32.95
+  ],
+  "Relizane (ALGERIA) [100K]": [
+    0.56,
+    35.74
+  ],
+  "Sennar (SUDAN) [100K]": [
+    33.63,
+    13.55
+  ],
+  "Aryanah (TUNISIA) [100K]": [
+    10.1858950757227,
+    36.864598893829
+  ],
+  "Kom Ombo (EGYPT) [100K]": [
+    32.95,
+    24.47
+  ],
+  "Skhirat (MOROCCO) [100K]": [
+    -7.03,
+    33.85
+  ],
+  "Hoima (UGANDA) [100K]": [
+    31.3525,
+    1.431944
+  ],
+  "Okene (NIGERIA) [100K]": [
+    6.23684146106315,
+    7.54976354120128
+  ],
+  "Kaya (BURKINA FASO) [100K]": [
+    -1.09,
+    13.09
+  ],
+  "Adigrat (ETHIOPIA) [100K]": [
+    39.47,
+    14.28
+  ],
+  "Al Fashn (EGYPT) [100K]": [
+    30.8991156923166,
+    28.8239425784243
+  ],
+  "Beni Mazar (EGYPT) [100K]": [
+    30.81,
+    28.49
+  ],
+  "Mubende (UGANDA) [100K]": [
+    31.395,
+    0.5575
+  ],
+  "Ondjiva (ANGOLA) [100K]": [
+    15.726898654766,
+    -17.0694327893511
+  ],
+  "Koforidua (GHANA) [100K]": [
+    -0.25,
+    6.08333
+  ],
+  "Mopti (MALI) [100K]": [
+    -4.1942,
+    14.49302
+  ],
+  "El Mourouj (TUNISIA) [100K]": [
+    10.21,
+    36.72
+  ],
+  "Iseyin (NIGERIA) [100K]": [
+    3.59,
+    7.97
+  ],
+  "Burao (SOMALIA) [100K]": [
+    45.53,
+    9.52
+  ],
+  "Gandajika (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    23.95,
+    -6.75
+  ],
+  "Guelma (ALGERIA) [100K]": [
+    7.42608,
+    36.46214
+  ],
+  "Kwekwe (ZIMBABWE) [100K]": [
+    29.81,
+    -18.926
+  ],
+  "Malindi (KENYA) [100K]": [
+    40.1207349783047,
+    -3.217130057518
+  ],
+  "Ladysmith (SOUTH AFRICA) [100K]": [
+    29.781,
+    -28.56
+  ],
+  "Amanfrom (GHANA) [100K]": [
+    -0.392058240314419,
+    5.54271051648789
+  ],
+  "Birnin Kebbi (NIGERIA) [100K]": [
+    4.1975,
+    12.45389
+  ],
+  "Embalenhle (SOUTH AFRICA) [100K]": [
+    29.078,
+    -26.546
+  ],
+  "Abnub (EGYPT) [100K]": [
+    31.15,
+    27.27
+  ],
+  "Rundu (NAMIBIA) [100K]": [
+    19.75,
+    -17.92
+  ],
+  "Wau (SOUTH SUDAN) [100K]": [
+    28.0,
+    7.7
+  ],
+  "Tahoua (NIGER) [100K]": [
+    5.2692,
+    14.8888
+  ],
+  "Abomey Calavi (BENIN) [100K]": [
+    2.35391703221183,
+    6.44746460547741
+  ],
+  "Ibanda (UGANDA) [100K]": [
+    30.4960051956847,
+    -0.133213953941245
+  ],
+  "Dapaong (TOGO) [100K]": [
+    0.205428066917191,
+    10.869058086311
+  ],
+  "Rouiba (ALGERIA) [100K]": [
+    3.283333,
+    36.733333
+  ],
+  "Banfora (BURKINA FASO) [100K]": [
+    -4.76,
+    10.63
+  ],
+  "Kadoma (ZIMBABWE) [100K]": [
+    29.91,
+    -18.33
+  ],
+  "Bandundu (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    17.37,
+    -3.32
+  ],
+  "Gabela (ANGOLA) [100K]": [
+    14.366667,
+    -10.85
+  ],
+  "Zomba (MALAWI) [100K]": [
+    35.317893659935,
+    -15.3864205949064
+  ],
+  "Masaka (UGANDA) [100K]": [
+    31.7380166748677,
+    -0.344058393684879
+  ],
+  "Lira (UGANDA) [100K]": [
+    32.90972,
+    2.235
+  ],
+  "Makambako (TANZANIA) [100K]": [
+    34.833827,
+    -8.849729
+  ],
+  "Ain Beida (ALGERIA) [100K]": [
+    7.39278,
+    35.79639
+  ],
+  "Alto Molocue (MOZAMBIQUE) [100K]": [
+    37.6819569047919,
+    -15.6404963386078
+  ],
+  "Zifta (EGYPT) [100K]": [
+    31.25,
+    30.7
+  ],
+  "Kamina (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    24.99,
+    -8.74
+  ],
+  "Chunga (ZAMBIA) [100K]": [
+    28.269,
+    -15.317
+  ],
+  "Sokode (TOGO) [100K]": [
+    1.15,
+    8.99
+  ],
+  "Kasese (UGANDA) [100K]": [
+    30.0848556304157,
+    0.173373752810289
+  ],
+  "Oturkpo (NIGERIA) [100K]": [
+    8.13,
+    7.19
+  ],
+  "Benguerir (MOROCCO) [100K]": [
+    -7.96,
+    32.25
+  ],
+  "Talkha (EGYPT) [100K]": [
+    31.375644,
+    31.054735
+  ],
+  "Mandera (KENYA) [100K]": [
+    41.86,
+    3.94
+  ],
+  "Malakal (SOUTH SUDAN) [100K]": [
+    31.65611,
+    9.53694
+  ],
+  "Khenchela (ALGERIA) [100K]": [
+    7.14,
+    35.44
+  ],
+  "Gemena (DEMOCRATIC REPUBLIC OF THE CONGO) [100K]": [
+    19.7744225582186,
+    3.25550856632516
+  ],
+  "Chililabombwe (ZAMBIA) [100K]": [
+    27.82,
+    -12.37
+  ],
+  "Sasolburg (SOUTH AFRICA) [100K]": [
+    27.843,
+    -26.825
+  ],
+  "Louga (SENEGAL) [100K]": [
+    -16.216667,
+    15.616667
+  ],
+  "Dcheira El Jihadia (MOROCCO) [100K]": [
+    -9.52891198598312,
+    30.3692584990409
+  ],
+  "Kisii (KENYA) [100K]": [
+    34.7710908474883,
+    -0.671571406261549
+  ],
+  "Ouislane (MOROCCO) [100K]": [
+    -5.4866,
+    33.9107
+  ],
+  "Abu Tij (EGYPT) [100K]": [
+    31.3210220115546,
+    27.0427259996231
+  ],
+  "Atbarah (SUDAN) [100K]": [
+    33.9852,
+    17.6925
+  ],
+  "Yola (NIGERIA) [100K]": [
+    12.48333,
+    9.2
+  ],
+  "Bou Saada (ALGERIA) [100K]": [
+    4.19,
+    35.21
+  ],
+  "Mongu (ZAMBIA) [100K]": [
+    23.1373355,
+    -15.2714944
+  ],
+  "Mbale (UGANDA) [100K]": [
+    34.1769117724107,
+    1.0744437402465
+  ],
+  "Sangalkam (SENEGAL) [100K]": [
+    -17.228,
+    14.779
+  ],
+  "Franceville (GABON) [100K]": [
+    13.583333,
+    -1.633333
+  ],
+  "Masindi (UGANDA) [100K]": [
+    31.72,
+    1.68
+  ],
+  "Agadez (NIGER) [100K]": [
+    7.98646347476879,
+    16.9714026019756
+  ],
+  "Lucapa (ANGOLA) [100K]": [
+    20.75,
+    -8.416667
+  ],
+  "Sengerema (TANZANIA) [100K]": [
+    32.643,
+    -2.65
+  ],
+  "Zlitan (LIBYA) [100K]": [
+    14.56874,
+    32.46738
+  ],
+  "Dairut (EGYPT) [100K]": [
+    30.81,
+    27.56
+  ],
+  "Handeni (TANZANIA) [100K]": [
+    38.029046,
+    -5.433225
+  ],
+  "Mascara (ALGERIA) [100K]": [
+    0.140548,
+    35.398531
+  ],
+  "Angoche (MOZAMBIQUE) [100K]": [
+    39.91,
+    -16.23
+  ],
+  "Cuamba (MOZAMBIQUE) [100K]": [
+    36.5344114642672,
+    -14.8013611062877
+  ],
+  "Qabis (TUNISIA) [100K]": [
+    10.1,
+    33.9
+  ],
+  "Vacoas Phoenix (MAURITIUS) [100K]": [
+    57.4937767890734,
+    -20.2983105065646
+  ],
+  "Kakamega (KENYA) [100K]": [
+    34.7519756171738,
+    0.282858148854359
+  ],
+  "Lqliaa (MOROCCO) [100K]": [
+    -9.466111,
+    30.290833
+  ],
+  "Al Munastir (TUNISIA) [100K]": [
+    10.8311303426197,
+    35.7757375458226
+  ],
+  "Kalaat Sraghna (MOROCCO) [100K]": [
+    -7.40200965977214,
+    32.0563084284086
+  ],
+  "Minya al Qamh (EGYPT) [100K]": [
+    31.3444400485436,
+    30.5147889003747
+  ],
+  "Al Qusiyah (EGYPT) [100K]": [
+    30.807016,
+    27.441416
+  ],
+  "Yambio (SOUTH SUDAN) [100K]": [
+    28.3966749531436,
+    4.56871148096247
+  ],
+  "Funchal (PORTUGAL) [100K]": [
+    -16.916667,
+    32.65
+  ],
+  "Tima (EGYPT) [100K]": [
+    31.4337747500971,
+    26.9079858073128
+  ],
+  "Divo (COTE DIVOIRE) [100K]": [
+    -5.36,
+    5.8397222
+  ],
+  "Saint Paul (FRANCE) [100K]": [
+    55.27071,
+    -21.00963
+  ],
+  "Mityana (UGANDA) [100K]": [
+    32.042222,
+    0.400556
+  ],
+  "Ho (GHANA) [100K]": [
+    0.47034611793638,
+    6.60356824250038
+  ],
+  "Mazabuka (ZAMBIA) [100K]": [
+    27.76,
+    -15.86
+  ],
+  "Tizi Ouzou (ALGERIA) [100K]": [
+    4.05,
+    36.716667
+  ],
+  "Kafue (ZAMBIA) [100K]": [
+    28.18,
+    -15.78
+  ],
+  "Nkayi (CONGO) [100K]": [
+    13.2861302158976,
+    -4.18885060553415
+  ],
+  "Nkongsamba (CAMEROON) [100K]": [
+    9.9404,
+    4.9547
+  ],
+  "Kalulushi (ZAMBIA) [100K]": [
+    28.09,
+    -12.84
+  ],
+  "Weldiya (ETHIOPIA) [100K]": [
+    39.59,
+    11.83
+  ],
+  "Tiflet (MOROCCO) [100K]": [
+    -6.31,
+    33.9
+  ],
+  "Berberati (CENTRAL AFRICAN REPUBLIC) [100K]": [
+    15.7875519734866,
+    4.25701618223515
+  ],
+  "Telde (SPAIN) [100K]": [
+    -15.41915,
+    27.99242
+  ],
+  "Kolda (SENEGAL) [100K]": [
+    -14.95,
+    12.883333
+  ],
+  "Ihiala (NIGERIA) [100K]": [
+    6.86026,
+    5.85377
+  ],
+  "Francistown (BOTSWANA) [100K]": [
+    27.5,
+    -21.17
+  ],
+  "Qafsah (TUNISIA) [100K]": [
+    8.78,
+    34.42
+  ],
+  "Anyama (COTE DIVOIRE) [100K]": [
+    -4.05472,
+    5.49583
+  ],
+  "Namacurra (MOZAMBIQUE) [100K]": [
+    37.028889,
+    -17.491944
+  ],
+  "Dikirnis (EGYPT) [100K]": [
+    31.6,
+    31.08
+  ],
+  "Walvis Bay (NAMIBIA) [100K]": [
+    14.5,
+    -22.95
+  ],
+  "Esna (EGYPT) [100K]": [
+    32.55,
+    25.29
+  ],
+  "Tivaouane (SENEGAL) [100K]": [
+    -16.816667,
+    14.95
+  ],
+  "Entebbe (UGANDA) [100K]": [
+    32.46,
+    0.06
+  ],
+  "Ngong (KENYA) [100K]": [
+    36.6551673846403,
+    -1.36215730721622
+  ],
+  "Sebeta (ETHIOPIA) [100K]": [
+    38.62,
+    8.92
+  ],
+  "Sabratah (LIBYA) [100K]": [
+    12.48845,
+    32.79335
+  ],
+  "Biba (EGYPT) [100K]": [
+    30.9810339116597,
+    28.9210823850462
+  ],
+  "La Marsa (TUNISIA) [100K]": [
+    10.34,
+    36.88
+  ],
+  "Ijebu Igbo (NIGERIA) [100K]": [
+    4.0,
+    6.97
+  ],
+  "Mbacke (SENEGAL) [100K]": [
+    -15.908333,
+    14.791667
+  ],
+  "Burayu (ETHIOPIA) [100K]": [
+    38.6650679485232,
+    9.03320274606884
+  ],
+  "Al Jamaliyah (EGYPT) [100K]": [
+    31.860051,
+    31.179396
+  ],
+  "Al Qurayn (EGYPT) [100K]": [
+    31.73,
+    30.61
+  ],
+  "Lokoja (NIGERIA) [100K]": [
+    6.743,
+    7.80236
+  ],
+  "Soubre (COTE DIVOIRE) [100K]": [
+    -6.59364436662896,
+    5.78431733314784
+  ],
+  "Abengourou (COTE DIVOIRE) [100K]": [
+    -3.49801344891265,
+    6.72749616961298
+  ],
+  "Idah (NIGERIA) [100K]": [
+    6.73415,
+    7.10651
+  ],
+  "Taourirt (MOROCCO) [100K]": [
+    -2.89680551849961,
+    34.4104420386779
+  ],
+  "Oulad Teima (MOROCCO) [100K]": [
+    -9.22,
+    30.4
+  ],
+  "Awka (NIGERIA) [100K]": [
+    7.07411,
+    6.21009
+  ],
+  "Inda Silase (ETHIOPIA) [100K]": [
+    38.283333,
+    14.1
+  ],
+  "Tagiura (LIBYA) [75K]": [
+    13.35056,
+    32.88167
+  ],
+  "Kissidougou (GUINEA) [75K]": [
+    -10.1,
+    9.18333
+  ],
+  "Hagere Hiywet (ETHIOPIA) [75K]": [
+    37.85,
+    8.98
+  ],
+  "Al Manaqil (SUDAN) [75K]": [
+    32.98,
+    14.25
+  ],
+  "Mafinga (TANZANIA) [75K]": [
+    35.292163,
+    -8.303375
+  ],
+  "Berkane (MOROCCO) [75K]": [
+    -2.33,
+    34.93
+  ],
+  "Sabha (LIBYA) [75K]": [
+    14.43,
+    27.03
+  ],
+  "Queenstown (SOUTH AFRICA) [75K]": [
+    26.871,
+    -31.896
+  ],
+  "Choma (ZAMBIA) [75K]": [
+    26.9866402361806,
+    -16.8083443163355
+  ],
+  "Ain El Aouda (MOROCCO) [75K]": [
+    -6.796,
+    33.803
+  ],
+  "Atakpame (TOGO) [75K]": [
+    1.12,
+    7.53
+  ],
+  "Barika (ALGERIA) [75K]": [
+    5.36584,
+    35.38901
+  ],
+  "Ain Oussera (ALGERIA) [75K]": [
+    2.90583,
+    35.45139
+  ],
+  "Arsi Negele (ETHIOPIA) [75K]": [
+    38.6729023941236,
+    7.35543139645548
+  ],
+  "Kipushi (DEMOCRATIC REPUBLIC OF THE CONGO) [75K]": [
+    27.25,
+    -11.76
+  ],
+  "Abeche (CHAD) [75K]": [
+    20.826137309224,
+    13.8286265136277
+  ],
+  "Sheikh Zayed City (EGYPT) [75K]": [
+    30.9796855854451,
+    30.0378304285978
+  ],
+  "Kroonstad (SOUTH AFRICA) [75K]": [
+    27.235,
+    -27.667
+  ],
+  "Namalombwe (ZAMBIA) [75K]": [
+    28.19,
+    -15.39
+  ],
+  "Errachidia (MOROCCO) [75K]": [
+    -4.44179915625326,
+    31.925181425488
+  ],
+  "Gambela (ETHIOPIA) [75K]": [
+    34.59,
+    8.25
+  ],
+  "Fkih Ben Salah (MOROCCO) [75K]": [
+    -6.68871512942232,
+    32.5001731752524
+  ],
+  "Sarh (CHAD) [75K]": [
+    18.38,
+    9.15
+  ],
+  "Messaad (ALGERIA) [75K]": [
+    3.5,
+    34.166667
+  ],
+  "Worcester (SOUTH AFRICA) [75K]": [
+    19.444,
+    -33.645
+  ],
+  "Deroua (MOROCCO) [75K]": [
+    -7.531,
+    33.373
+  ],
+  "Bin Arus (TUNISIA) [75K]": [
+    10.2338291927641,
+    36.744274910558
+  ],
+  "Pouytenga (BURKINA FASO) [75K]": [
+    -0.43,
+    12.25
+  ],
+  "Montepuez (MOZAMBIQUE) [75K]": [
+    39.0,
+    -13.12
+  ],
+  "Kalabancoro (MALI) [75K]": [
+    -8.028889,
+    12.572222
+  ],
+  "Awsim (EGYPT) [75K]": [
+    31.1383395599329,
+    30.1192891207826
+  ],
+  "Martil (MOROCCO) [75K]": [
+    -5.266667,
+    35.616667
+  ],
+  "Muyinga (BURUNDI) [75K]": [
+    30.333333,
+    -2.85
+  ],
+  "Tweefontein (SOUTH AFRICA) [75K]": [
+    28.785,
+    -25.399
+  ],
+  "Fuwah (EGYPT) [75K]": [
+    30.5500043950674,
+    31.2037192537207
+  ],
+  "Sidi Slimane (MOROCCO) [75K]": [
+    -5.93,
+    34.27
+  ],
+  "Lindi (TANZANIA) [75K]": [
+    39.7166400366266,
+    -9.99784752475482
+  ],
+  "Al Manshah (EGYPT) [75K]": [
+    31.81,
+    26.47
+  ],
+  "Catumbela (ANGOLA) [75K]": [
+    13.54325,
+    -12.433917
+  ],
+  "Mbabane (SWAZILAND) [75K]": [
+    31.14,
+    -26.32
+  ],
+  "Abu Qirqas (EGYPT) [75K]": [
+    30.82,
+    27.93
+  ],
+  "Djougou (BENIN) [75K]": [
+    1.66598,
+    9.70853
+  ],
+  "Axum (ETHIOPIA) [75K]": [
+    38.72,
+    14.13
+  ],
+  "Hammanskraal (SOUTH AFRICA) [75K]": [
+    28.266,
+    -25.404
+  ],
+  "Ruwa (ZIMBABWE) [75K]": [
+    31.24,
+    -17.89
+  ],
+  "Oued Zem (MOROCCO) [75K]": [
+    -6.58,
+    32.87
+  ],
+  "Ash Shuruq (EGYPT) [75K]": [
+    31.612661,
+    30.147252
+  ],
+  "Bohicon (BENIN) [75K]": [
+    2.07,
+    7.17
+  ],
+  "Aflou (ALGERIA) [75K]": [
+    2.09,
+    34.12
+  ],
+  "Kalemie (DEMOCRATIC REPUBLIC OF THE CONGO) [75K]": [
+    29.1919039185012,
+    -5.91111498189411
+  ],
+  "Negage (ANGOLA) [75K]": [
+    15.266667,
+    -7.766667
+  ],
+  "Badrshein (EGYPT) [75K]": [
+    31.276,
+    29.852
+  ],
+  "Labe (GUINEA) [75K]": [
+    -12.283333,
+    11.316667
+  ],
+  "Njombe (TANZANIA) [75K]": [
+    34.769506841114,
+    -9.33867683163513
+  ],
+  "Bonon (COTE DIVOIRE) [75K]": [
+    -6.05,
+    6.933333
+  ],
+  "Beau Bassin Rose Hill (MAURITIUS) [75K]": [
+    57.4707680870766,
+    -20.2344014248128
+  ],
+  "Robe (ETHIOPIA) [75K]": [
+    40.003,
+    7.125
+  ],
+  "Orkney (SOUTH AFRICA) [75K]": [
+    26.669,
+    -26.979
+  ],
+  "Porto Amboim (ANGOLA) [75K]": [
+    13.75,
+    -10.718333
+  ],
+  "Douar Hicher (TUNISIA) [75K]": [
+    10.089444,
+    36.829167
+  ],
+  "Samannud (EGYPT) [75K]": [
+    31.23,
+    30.96
+  ],
+  "Nakonde (ZAMBIA) [75K]": [
+    32.7514318,
+    -9.33229
+  ],
+  "Chinhoyi (ZIMBABWE) [75K]": [
+    30.18,
+    -17.36
+  ],
+  "Bani Walid (LIBYA) [75K]": [
+    14.0,
+    31.75
+  ],
+  "Biyala (EGYPT) [75K]": [
+    31.2216410092714,
+    31.1722663223157
+  ],
+  "Mtwapa (KENYA) [75K]": [
+    39.745,
+    -3.948
+  ],
+  "Ziway (ETHIOPIA) [75K]": [
+    38.71,
+    7.93
+  ],
+  "Al Qasrayn (TUNISIA) [75K]": [
+    8.83,
+    35.18
+  ],
+  "Cubal (ANGOLA) [75K]": [
+    14.25,
+    -13.033333
+  ],
+  "Duekoue (COTE DIVOIRE) [75K]": [
+    -7.35,
+    6.733333
+  ],
+  "El Khroub (ALGERIA) [75K]": [
+    6.69361,
+    36.26333
+  ],
+  "Wajir (KENYA) [75K]": [
+    40.058,
+    1.75
+  ],
+  "Buea (CAMEROON) [75K]": [
+    9.23,
+    4.16
+  ],
+  "Cafunfo (ANGOLA) [75K]": [
+    18.0,
+    -8.766667
+  ],
+  "Cela (ANGOLA) [75K]": [
+    15.119444,
+    -11.358333
+  ],
+  "Butajira (ETHIOPIA) [75K]": [
+    38.3796742238467,
+    8.12244530429062
+  ],
+  "Masasi (TANZANIA) [75K]": [
+    38.802338,
+    -10.726604
+  ],
+  "Bni Yakhlef (MOROCCO) [75K]": [
+    -7.338,
+    33.686
+  ],
+  "Thohoyandou (SOUTH AFRICA) [75K]": [
+    30.471,
+    -22.948
+  ],
+  "Bumba (DEMOCRATIC REPUBLIC OF THE CONGO) [75K]": [
+    22.46,
+    2.19
+  ],
+  "Kousseri (CAMEROON) [75K]": [
+    15.03,
+    12.08
+  ],
+  "Bondoukou (COTE DIVOIRE) [75K]": [
+    -2.8,
+    8.033333
+  ],
+  "Gueznaia (MOROCCO) [75K]": [
+    -5.882,
+    35.703
+  ],
+  "Bertoua (CAMEROON) [75K]": [
+    13.68,
+    4.58
+  ],
+  "Abu an Numrus (EGYPT) [75K]": [
+    31.224555,
+    29.952275
+  ],
+  "Ibsheway (EGYPT) [75K]": [
+    30.682328220632,
+    29.3589507514247
+  ],
+  "Qus (EGYPT) [75K]": [
+    32.759733342755,
+    25.9180930783127
+  ],
+  "Le Kram (TUNISIA) [75K]": [
+    10.316308426178,
+    36.8331866854534
+  ],
+  "Mogoditshane (BOTSWANA) [75K]": [
+    25.87,
+    -24.63
+  ],
+  "Lahraouyine (MOROCCO) [75K]": [
+    -7.52885228090358,
+    33.538797162733
+  ],
+  "Masvingo (ZIMBABWE) [75K]": [
+    30.8343757180699,
+    -20.0719651523156
+  ],
+  "Wakiso (UGANDA) [75K]": [
+    32.478056,
+    0.398056
+  ],
+  "Arona (SPAIN) [75K]": [
+    -16.666667,
+    28.1
+  ],
+  "Kharga (EGYPT) [75K]": [
+    30.559502,
+    25.439012
+  ],
+  "Kpalime (TOGO) [75K]": [
+    0.63,
+    6.9
+  ],
+  "Maghnia (ALGERIA) [75K]": [
+    -1.72712622093059,
+    34.8487450633168
+  ],
+  "Zawiya (LIBYA) [75K]": [
+    12.73,
+    32.76
+  ],
+  "Hounde (BURKINA FASO) [75K]": [
+    -3.516667,
+    11.5
+  ],
+  "Norton (ZIMBABWE) [75K]": [
+    30.6659005313169,
+    -17.8817387920533
+  ],
+  "Sefrou (MOROCCO) [75K]": [
+    -4.8374893083947,
+    33.8289676345461
+  ],
+  "Tamesna (MOROCCO) [75K]": [
+    -6.924,
+    33.829
+  ],
+  "Ngozi (BURUNDI) [75K]": [
+    29.826944,
+    -2.908333
+  ],
+  "Diyarb Najm (EGYPT) [75K]": [
+    31.44,
+    30.75
+  ],
+  "Tiznit (MOROCCO) [75K]": [
+    -9.74,
+    29.71
+  ],
+  "Matai (EGYPT) [75K]": [
+    30.787227,
+    28.422264
+  ],
+  "Kafr az Zayyat (EGYPT) [75K]": [
+    30.82,
+    30.82
+  ],
+  "Gao (MALI) [75K]": [
+    -0.05,
+    16.266667
+  ],
+  "Sheema (UGANDA) [75K]": [
+    30.379444,
+    -0.581111
+  ],
+  "Hosh Essa (EGYPT) [75K]": [
+    30.2947438439132,
+    30.9140022756306
+  ],
+  "Al Qanatir (EGYPT) [75K]": [
+    31.132064,
+    30.193583
+  ],
+  "Adwa (ETHIOPIA) [75K]": [
+    38.9,
+    14.166667
+  ],
+  "El Bayadh (ALGERIA) [75K]": [
+    1.01,
+    33.69
+  ],
+  "Melilla (SPAIN) [75K]": [
+    -2.95,
+    35.3
+  ],
+  "Maun (BOTSWANA) [75K]": [
+    23.42,
+    -19.99
+  ],
+  "At Tadaman (TUNISIA) [75K]": [
+    10.10869530599,
+    36.8342198499873
+  ],
+  "Makeni (SIERRA LEONE) [75K]": [
+    -12.0441429682532,
+    8.88827459392717
+  ],
+  "Vwawa (TANZANIA) [75K]": [
+    32.933,
+    -9.117
+  ],
+  "Areka (ETHIOPIA) [75K]": [
+    37.7064314381539,
+    7.06885954690805
+  ],
+  "Kati (MALI) [75K]": [
+    -8.071389,
+    12.746667
+  ],
+  "Jarbah hawmat as Suq (TUNISIA) [75K]": [
+    10.85,
+    33.88
+  ],
+  "Standerton (SOUTH AFRICA) [75K]": [
+    29.246,
+    -26.95
+  ],
+  "Limbe (CAMEROON) [75K]": [
+    9.21305437296028,
+    4.00833636921554
+  ],
+  "Ceuta (SPAIN) [75K]": [
+    -5.315556,
+    35.888333
+  ],
+  "Edfu (EGYPT) [75K]": [
+    32.87,
+    24.98
+  ],
+  "Saint Pierre (FRANCE) [75K]": [
+    55.4778,
+    -21.3419
+  ],
+  "Sambava (MADAGASCAR) [75K]": [
+    50.166667,
+    -14.266667
+  ],
+  "Al Khankah (EGYPT) [75K]": [
+    31.36,
+    30.21
+  ],
+  "Minyat an Nasr (EGYPT) [75K]": [
+    31.6482577852371,
+    31.1210501805908
+  ],
+  "Ermelo (SOUTH AFRICA) [75K]": [
+    29.985,
+    -26.52
+  ],
+  "Hamma Bouziane (ALGERIA) [75K]": [
+    6.59640442295532,
+    36.4113465671375
+  ],
+  "Foumban (CAMEROON) [75K]": [
+    10.9,
+    5.73
+  ],
+  "Taroudant (MOROCCO) [75K]": [
+    -8.88,
+    30.48
+  ],
+  "Armant (EGYPT) [75K]": [
+    32.5452296123073,
+    25.6206624279624
+  ],
+  "Kamsar (GUINEA) [75K]": [
+    -14.5834284665528,
+    10.6650760546452
+  ],
+  "Jinja (UGANDA) [75K]": [
+    33.203889,
+    0.423333
+  ],
+  "Kapiri Mposhi (ZAMBIA) [75K]": [
+    28.6729361,
+    -13.9702061
+  ],
+  "Bambari (CENTRAL AFRICAN REPUBLIC) [75K]": [
+    20.674,
+    5.765
+  ],
+  "Lodwar (KENYA) [75K]": [
+    35.597,
+    3.118
+  ],
+  "Essaouira (MOROCCO) [75K]": [
+    -9.77,
+    31.52
+  ],
+  "Muhanga (RWANDA) [75K]": [
+    29.752695,
+    -2.08452
+  ],
+  "Mbanza Ngungu (DEMOCRATIC REPUBLIC OF THE CONGO) [75K]": [
+    14.86,
+    -5.25
+  ],
+  "Inhambane (MOZAMBIQUE) [75K]": [
+    35.38,
+    -23.87
+  ],
+  "Le Tampon (FRANCE) [75K]": [
+    55.5153,
+    -21.2781
+  ],
+  "Tamanrasset (ALGERIA) [75K]": [
+    5.52,
+    22.79
+  ],
+  "Irgalem (ETHIOPIA) [75K]": [
+    38.4067211164533,
+    6.74723614741769
+  ],
+  "Limuru (KENYA) [75K]": [
+    36.6418932387032,
+    -1.10847523654852
+  ],
+  "Athi River (KENYA) [75K]": [
+    36.9747630911487,
+    -1.45699927826704
+  ],
+  "Beni (DEMOCRATIC REPUBLIC OF THE CONGO) [75K]": [
+    29.4718931697276,
+    0.493764619388959
+  ],
+  "Nabul (TUNISIA) [75K]": [
+    10.73,
+    36.46
+  ],
+  "Mashtul as Suq (EGYPT) [75K]": [
+    31.3752152,
+    30.3604586
+  ],
+  "Sirs al Layyanah (EGYPT) [75K]": [
+    30.966457,
+    30.442116
+  ],
+  "Brikama (GAMBIA) [75K]": [
+    -16.65,
+    13.266667
+  ],
+  "Madido (ZAMBIA) [75K]": [
+    28.374,
+    -15.354
+  ],
+  "Guercif (MOROCCO) [75K]": [
+    -3.3516383531601,
+    34.2262494039852
+  ],
+  "Sinfra (COTE DIVOIRE) [75K]": [
+    -5.91078872374911,
+    6.6183378864309
+  ],
+  "Khemis Miliana (ALGERIA) [75K]": [
+    2.23541589067391,
+    36.2607629232453
+  ],
+  "Kondoa (TANZANIA) [75K]": [
+    35.782,
+    -4.905
+  ],
+  "Bouafle (COTE DIVOIRE) [75K]": [
+    -5.75,
+    6.983333
+  ],
+  "Ityay al Barud (EGYPT) [75K]": [
+    30.6532582,
+    30.8825046
+  ],
+  "Stellenbosch (SOUTH AFRICA) [75K]": [
+    18.86,
+    -33.938
+  ],
+  "Kumbo (CAMEROON) [75K]": [
+    10.68,
+    6.22
+  ],
+  "Meru (KENYA) [75K]": [
+    37.655,
+    0.047
+  ],
+  "Nyeri (KENYA) [75K]": [
+    36.9546397223913,
+    -0.42499591907026
+  ],
+  "Hihya (EGYPT) [75K]": [
+    31.584227,
+    30.669611
+  ],
+  "Juhaynah (EGYPT) [75K]": [
+    31.4917282,
+    26.675237
+  ],
+  "Madina (GHANA) [75K]": [
+    -0.16667,
+    5.68333
+  ],
+  "Ajdabiya (LIBYA) [75K]": [
+    20.22,
+    30.75
+  ],
+  "Hammamet (TUNISIA) [75K]": [
+    10.62,
+    36.4
+  ],
+  "Owendo (GABON) [75K]": [
+    9.5,
+    0.283333
+  ],
+  "Ouarzazate (MOROCCO) [75K]": [
+    -6.91308473933973,
+    30.9270684203385
+  ],
+  "Madanin (TUNISIA) [75K]": [
+    10.49,
+    33.35
+  ],
+  "Ash Shuhada (EGYPT) [75K]": [
+    30.902109,
+    30.603935
+  ],
+  "Drargua (MOROCCO) [75K]": [
+    -9.48,
+    30.38
+  ],
+  "Arlit (NIGER) [75K]": [
+    7.38835260069412,
+    18.740432106653
+  ],
+  "Isiolo (KENYA) [75K]": [
+    37.583,
+    0.35
+  ],
+  "Waliso (ETHIOPIA) [75K]": [
+    37.967,
+    8.533
+  ],
+  "Sirte (LIBYA) [75K]": [
+    16.58,
+    31.2
+  ],
+  "Ait Amira (MOROCCO) [75K]": [
+    -9.49,
+    30.177
+  ],
+  "Santa Lucia de Tirajana (SPAIN) [75K]": [
+    -15.4667,
+    27.85
+  ],
+  "Matala (ANGOLA) [75K]": [
+    15.033333,
+    -14.733333
+  ],
+  "Basyoun (EGYPT) [75K]": [
+    30.8177453169173,
+    30.9404888999794
+  ],
+  "Nchelenge (ZAMBIA) [75K]": [
+    28.735328,
+    -9.3531652
+  ],
+  "Ukunda (KENYA) [75K]": [
+    39.566667,
+    -4.283333
+  ],
+  "King William's Town (SOUTH AFRICA) [75K]": [
+    27.391,
+    -32.881
+  ],
+  "Welkite (ETHIOPIA) [75K]": [
+    37.783,
+    8.283
+  ],
+  "Shirbin (EGYPT) [75K]": [
+    31.52,
+    31.19
+  ],
+  "Fnideq (MOROCCO) [75K]": [
+    -5.35,
+    35.85
+  ],
+  "Ruyigi (BURUNDI) [75K]": [
+    30.25,
+    -3.483333
+  ],
+  "Dondo (MOZAMBIQUE) [75K]": [
+    34.73,
+    -19.62
+  ],
+  "Al-Munayhilah (TUNISIA) [75K]": [
+    10.1115690274626,
+    36.84638223324
+  ],
+  "Hassi Bahbah (ALGERIA) [75K]": [
+    3.02,
+    35.08
+  ],
+  "Kiserian (KENYA) [75K]": [
+    36.687,
+    -1.43
+  ],
+  "Tsevie (TOGO) [75K]": [
+    1.21,
+    6.42
+  ],
+  "Monapo (MOZAMBIQUE) [75K]": [
+    40.302222,
+    -14.916944
+  ],
+  "Itsa (EGYPT) [75K]": [
+    30.781971,
+    29.235587
+  ],
+  "Tan Tan (MOROCCO) [75K]": [
+    -11.1,
+    28.43
+  ],
+  "Bethlehem (SOUTH AFRICA) [75K]": [
+    28.306,
+    -28.233
+  ],
+  "Mohamedia (TUNISIA) [75K]": [
+    10.1548467440712,
+    36.6748295399404
+  ],
+  "Swakopmund (NAMIBIA) [75K]": [
+    14.533333,
+    -22.683333
+  ],
+  "Jarjis (TUNISIA) [75K]": [
+    11.11,
+    33.51
+  ],
+  "Shibin el Qanater (EGYPT) [75K]": [
+    31.31,
+    30.32
+  ],
+  "Kotido (UGANDA) [75K]": [
+    34.1125,
+    3.006111
+  ],
+  "Al Qanayat (EGYPT) [75K]": [
+    31.458213,
+    30.617117
+  ],
+  "Potgietersrus (SOUTH AFRICA) [75K]": [
+    29.013,
+    -24.184
+  ],
+  "El Ghanayem (EGYPT) [75K]": [
+    31.323916,
+    26.875629
+  ],
+  "Ekpe (BENIN) [75K]": [
+    2.533333,
+    6.4
+  ],
+  "Tala (EGYPT) [75K]": [
+    30.940495,
+    30.679441
+  ],
+  "Meki (ETHIOPIA) [75K]": [
+    38.817,
+    8.15
+  ],
+  "Ouesso (CONGO) [75K]": [
+    16.051389,
+    1.610556
+  ],
+  "Sidi Kacem (MOROCCO) [75K]": [
+    -5.71275809691503,
+    34.2259869363613
+  ],
+  "Barra do Dande (ANGOLA) [50K]": [
+    13.373056,
+    -8.472778
+  ],
+  "Katoro (TANZANIA) [50K]": [
+    31.929,
+    -3.006
+  ],
+  "Chibuto (MOZAMBIQUE) [50K]": [
+    33.53,
+    -24.68
+  ],
+  "Tamiya (EGYPT) [50K]": [
+    30.960239,
+    29.477159
+  ],
+  "Molepolole (BOTSWANA) [50K]": [
+    25.51,
+    -24.4
+  ],
+  "Soualem (MOROCCO) [50K]": [
+    -7.852,
+    33.42
+  ],
+  "Moroni (COMOROS) [50K]": [
+    43.256,
+    -11.699
+  ],
+  "Grand Bassam (COTE DIVOIRE) [50K]": [
+    -3.73545191006632,
+    5.20676464001748
+  ],
+  "Moanda (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    12.377,
+    -5.921
+  ],
+  "Farshut (EGYPT) [50K]": [
+    32.157435,
+    26.056213
+  ],
+  "Kilifi (KENYA) [50K]": [
+    39.853,
+    -3.627
+  ],
+  "Sunyani (GHANA) [50K]": [
+    -2.333333,
+    7.333333
+  ],
+  "Sadat City (EGYPT) [50K]": [
+    30.529509,
+    30.356465
+  ],
+  "Ain Attig (MOROCCO) [50K]": [
+    -6.968,
+    33.888
+  ],
+  "Ad Damir (SUDAN) [50K]": [
+    33.96,
+    17.59
+  ],
+  "Hohoe (GHANA) [50K]": [
+    0.4746,
+    7.149039
+  ],
+  "Ed Dueim (SUDAN) [50K]": [
+    32.3,
+    13.99
+  ],
+  "Jarbah Midun (TUNISIA) [50K]": [
+    10.9910170798382,
+    33.8074313660166
+  ],
+  "Fada Ngourma (BURKINA FASO) [50K]": [
+    0.366667,
+    12.05
+  ],
+  "Richard Toll (SENEGAL) [50K]": [
+    -15.69,
+    16.47
+  ],
+  "Negele Boran (ETHIOPIA) [50K]": [
+    39.583,
+    5.333
+  ],
+  "Manzini (SWAZILAND) [50K]": [
+    31.38,
+    -26.49
+  ],
+  "Nanyuki (KENYA) [50K]": [
+    37.077,
+    0.016
+  ],
+  "Bin Qirdan (TUNISIA) [50K]": [
+    11.22,
+    33.14
+  ],
+  "Arua (UGANDA) [50K]": [
+    30.9,
+    3.02
+  ],
+  "Radis (TUNISIA) [50K]": [
+    10.283679,
+    36.763702
+  ],
+  "Alaba Kulito (ETHIOPIA) [50K]": [
+    38.089,
+    7.312
+  ],
+  "Busia (KENYA) [50K]": [
+    34.109,
+    0.461
+  ],
+  "Bouar (CENTRAL AFRICAN REPUBLIC) [50K]": [
+    15.587,
+    5.931
+  ],
+  "Migori (KENYA) [50K]": [
+    34.4692481599577,
+    -1.06830963847809
+  ],
+  "Heidelberg (SOUTH AFRICA) [50K]": [
+    28.361,
+    -26.508
+  ],
+  "Kintele (CONGO) [50K]": [
+    15.349167,
+    -4.135833
+  ],
+  "Mamoudzou (FRANCE) [50K]": [
+    45.2278,
+    -12.7806
+  ],
+  "Bardaw (TUNISIA) [50K]": [
+    10.13,
+    36.82
+  ],
+  "Ad Dilinjat (EGYPT) [50K]": [
+    30.535829,
+    30.827085
+  ],
+  "El Balyana (EGYPT) [50K]": [
+    32.000493,
+    26.231908
+  ],
+  "Quatre Bornes (MAURITIUS) [50K]": [
+    57.479053,
+    -20.265357
+  ],
+  "Wa (GHANA) [50K]": [
+    -2.5,
+    10.066667
+  ],
+  "Sougueur (ALGERIA) [50K]": [
+    1.5,
+    35.2
+  ],
+  "Jaxaay - Parcelles (SENEGAL) [50K]": [
+    -17.281,
+    14.775
+  ],
+  "Souk El Arbaa (MOROCCO) [50K]": [
+    -5.98,
+    34.68
+  ],
+  "Ain Temouchent (ALGERIA) [50K]": [
+    -1.15,
+    35.3
+  ],
+  "Kayanza (BURUNDI) [50K]": [
+    29.616667,
+    -2.916667
+  ],
+  "Bir El Ater (ALGERIA) [50K]": [
+    8.05,
+    34.75
+  ],
+  "Bailundo (ANGOLA) [50K]": [
+    15.855556,
+    -12.195833
+  ],
+  "Alamata (ETHIOPIA) [50K]": [
+    39.561,
+    12.417
+  ],
+  "Tatawin (TUNISIA) [50K]": [
+    10.45,
+    32.93
+  ],
+  "Curepipe (MAURITIUS) [50K]": [
+    57.526297,
+    -20.318777
+  ],
+  "Vikindu (TANZANIA) [50K]": [
+    39.308349765909,
+    -7.0062585819514
+  ],
+  "Sumusta al Waqf (EGYPT) [50K]": [
+    30.8514465,
+    28.9195587
+  ],
+  "Imerintsiatosika (MADAGASCAR) [50K]": [
+    47.316667,
+    -18.983333
+  ],
+  "Chiro (ETHIOPIA) [50K]": [
+    40.87,
+    9.083
+  ],
+  "Yei (SOUTH SUDAN) [50K]": [
+    30.68333,
+    4.08333
+  ],
+  "Asosa (ETHIOPIA) [50K]": [
+    34.5406201724873,
+    10.0634271697543
+  ],
+  "Oduponkpehe (GHANA) [50K]": [
+    -0.416667,
+    5.518333
+  ],
+  "Gbawe (GHANA) [50K]": [
+    -0.310833,
+    5.576667
+  ],
+  "Abou el Matamer (EGYPT) [50K]": [
+    30.148487,
+    30.908411
+  ],
+  "Bargny (SENEGAL) [50K]": [
+    -17.233611,
+    14.693889
+  ],
+  "Renk (SOUTH SUDAN) [50K]": [
+    32.8102713540251,
+    11.7505348553633
+  ],
+  "Atlantis (SOUTH AFRICA) [50K]": [
+    18.495,
+    -33.567
+  ],
+  "Mindelo (CAPE VERDE) [50K]": [
+    -24.99,
+    16.89
+  ],
+  "Ihnasiya (EGYPT) [50K]": [
+    31.019185,
+    29.09217
+  ],
+  "Bouira (ALGERIA) [50K]": [
+    3.9,
+    36.38
+  ],
+  "Nakivale Refugee Camp (UGANDA) [50K]": [
+    30.9524024950982,
+    -0.776487737120459
+  ],
+  "Tamensourt (MOROCCO) [50K]": [
+    -8.111,
+    31.754
+  ],
+  "Adrar (ALGERIA) [50K]": [
+    -0.29,
+    27.87
+  ],
+  "Quweisna (EGYPT) [50K]": [
+    31.13152,
+    30.544964
+  ],
+  "Mamou (GUINEA) [50K]": [
+    -12.0867202123485,
+    10.373398901273
+  ],
+  "Bungoma (KENYA) [50K]": [
+    34.56,
+    0.57
+  ],
+  "Arrecife (SPAIN) [50K]": [
+    -13.5475,
+    28.959444
+  ],
+  "Gode (ETHIOPIA) [50K]": [
+    43.5536848923568,
+    5.9511874961636
+  ],
+  "Antalaha (MADAGASCAR) [50K]": [
+    50.283333,
+    -14.883333
+  ],
+  "Abomey (BENIN) [50K]": [
+    1.99280055392826,
+    7.18058417266494
+  ],
+  "Lisala (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    21.51,
+    2.14
+  ],
+  "Kamuli (UGANDA) [50K]": [
+    33.125,
+    0.945
+  ],
+  "Ilebo (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    20.5787612101999,
+    -4.3305727385719
+  ],
+  "Dishna (EGYPT) [50K]": [
+    32.47,
+    26.12
+  ],
+  "Apac (UGANDA) [50K]": [
+    32.5342110231669,
+    1.98476672302868
+  ],
+  "Mdiq (MOROCCO) [50K]": [
+    -5.325278,
+    35.685833
+  ],
+  "Upington (SOUTH AFRICA) [50K]": [
+    21.245,
+    -28.458
+  ],
+  "Babati (TANZANIA) [50K]": [
+    35.749555,
+    -4.216077
+  ],
+  "Benslimane (MOROCCO) [50K]": [
+    -7.116667,
+    33.616667
+  ],
+  "Taolagnaro (MADAGASCAR) [50K]": [
+    46.983333,
+    -25.033333
+  ],
+  "Grahamstown (SOUTH AFRICA) [50K]": [
+    26.529,
+    -33.309
+  ],
+  "Sidi Taibi (MOROCCO) [50K]": [
+    -6.691,
+    34.191
+  ],
+  "Techiman (GHANA) [50K]": [
+    -1.929167,
+    7.577222
+  ],
+  "Oum El Bouaghi (ALGERIA) [50K]": [
+    7.11353,
+    35.87541
+  ],
+  "Beledweyne (SOMALIA) [50K]": [
+    45.2,
+    4.74
+  ],
+  "Vavoua (COTE DIVOIRE) [50K]": [
+    -6.483333,
+    7.383333
+  ],
+  "Kaduqli (SUDAN) [50K]": [
+    29.7,
+    11.01
+  ],
+  "Tshilenge (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    23.7560756690289,
+    -6.23562842985995
+  ],
+  "Borama (SOMALIA) [50K]": [
+    43.18,
+    9.94
+  ],
+  "San (MALI) [50K]": [
+    -4.9,
+    13.3
+  ],
+  "Sao Tome (SAO TOME AND PRINCIPE) [50K]": [
+    6.73084570778362,
+    0.338580964932607
+  ],
+  "Sidi Aissa (ALGERIA) [50K]": [
+    3.77,
+    35.9
+  ],
+  "Tepi (ETHIOPIA) [50K]": [
+    35.4240744423734,
+    7.19672859105686
+  ],
+  "Inkisi (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    15.0585965069584,
+    -5.13509664169868
+  ],
+  "Edea (CAMEROON) [50K]": [
+    10.12,
+    3.8
+  ],
+  "Goba (ETHIOPIA) [50K]": [
+    39.976,
+    7.006
+  ],
+  "Virginia (SOUTH AFRICA) [50K]": [
+    26.866,
+    -28.107
+  ],
+  "Marondera (ZIMBABWE) [50K]": [
+    31.55,
+    -18.19
+  ],
+  "Gama (ANGOLA) [50K]": [
+    13.49694,
+    -12.50611
+  ],
+  "Chokwe (MOZAMBIQUE) [50K]": [
+    32.9989477783839,
+    -24.5313795795992
+  ],
+  "En Nahud (SUDAN) [50K]": [
+    28.42839,
+    12.689935
+  ],
+  "Cheria (ALGERIA) [50K]": [
+    7.75,
+    35.28
+  ],
+  "Kamuhanda (RWANDA) [50K]": [
+    29.9846116437311,
+    -1.96557938354516
+  ],
+  "Nikki (BENIN) [50K]": [
+    3.208333,
+    9.933333
+  ],
+  "Wadi al Layl (TUNISIA) [50K]": [
+    10.041418,
+    36.837866
+  ],
+  "Tissemsilt (ALGERIA) [50K]": [
+    1.81282066916851,
+    35.6053823532275
+  ],
+  "Durame (ETHIOPIA) [50K]": [
+    37.898,
+    7.24
+  ],
+  "Mossel Bay (SOUTH AFRICA) [50K]": [
+    22.143,
+    -34.183
+  ],
+  "Chegutu (ZIMBABWE) [50K]": [
+    30.1389432001253,
+    -18.1258355270219
+  ],
+  "Youssoufia (MOROCCO) [50K]": [
+    -8.53,
+    32.26
+  ],
+  "Bolgatanga (GHANA) [50K]": [
+    -0.85,
+    10.783333
+  ],
+  "Iganga (UGANDA) [50K]": [
+    33.47,
+    0.62
+  ],
+  "Buram (SUDAN) [50K]": [
+    25.159743,
+    10.856151
+  ],
+  "Narok (KENYA) [50K]": [
+    35.875,
+    -1.087
+  ],
+  "Ambovombe (MADAGASCAR) [50K]": [
+    46.086944,
+    -25.176944
+  ],
+  "Daraw (EGYPT) [50K]": [
+    32.914441,
+    24.405075
+  ],
+  "Ain Mlila (ALGERIA) [50K]": [
+    6.583686,
+    36.033067
+  ],
+  "El Bagour (EGYPT) [50K]": [
+    31.033991,
+    30.422808
+  ],
+  "Brits (SOUTH AFRICA) [50K]": [
+    27.781,
+    -25.634
+  ],
+  "Nyamata (RWANDA) [50K]": [
+    30.0893541375491,
+    -2.14227172705719
+  ],
+  "Mecheria (ALGERIA) [50K]": [
+    -0.29,
+    33.56
+  ],
+  "Ganda (ANGOLA) [50K]": [
+    14.633333,
+    -13.016667
+  ],
+  "Ebolowa (CAMEROON) [50K]": [
+    11.1516710072455,
+    2.9193657740728
+  ],
+  "Embu (KENYA) [50K]": [
+    37.452,
+    -0.537
+  ],
+  "Boditi (ETHIOPIA) [50K]": [
+    37.8575002498242,
+    6.95481234073006
+  ],
+  "Bajah (TUNISIA) [50K]": [
+    9.19,
+    36.73
+  ],
+  "Busia (UGANDA) [50K]": [
+    34.09,
+    0.466944
+  ],
+  "Teseney (ERITREA) [50K]": [
+    36.65,
+    15.12
+  ],
+  "Dondo (ANGOLA) [50K]": [
+    14.422778,
+    -9.694167
+  ],
+  "Malanville (BENIN) [50K]": [
+    3.383333,
+    11.866667
+  ],
+  "Marromeu (MOZAMBIQUE) [50K]": [
+    35.945278,
+    -18.290833
+  ],
+  "Koboko (UGANDA) [50K]": [
+    30.96,
+    3.41
+  ],
+  "Mafikeng (SOUTH AFRICA) [50K]": [
+    25.638,
+    -25.854
+  ],
+  "Gimbi (ETHIOPIA) [50K]": [
+    35.8342734014615,
+    9.17353153860788
+  ],
+  "La Nouvelle Ville Ali Mendjeli (ALGERIA) [50K]": [
+    6.57476950614416,
+    36.2498178138521
+  ],
+  "Bingerville (COTE DIVOIRE) [50K]": [
+    -3.9,
+    5.35
+  ],
+  "Wukro (ETHIOPIA) [50K]": [
+    39.6,
+    13.783
+  ],
+  "Masakin (TUNISIA) [50K]": [
+    10.58,
+    35.73
+  ],
+  "Deir Mawas (EGYPT) [50K]": [
+    30.85,
+    27.633333
+  ],
+  "Dschang (CAMEROON) [50K]": [
+    10.0544573752,
+    5.44512690632207
+  ],
+  "Stilfontein (SOUTH AFRICA) [50K]": [
+    26.774,
+    -26.844
+  ],
+  "Machakos (KENYA) [50K]": [
+    37.27,
+    -1.52
+  ],
+  "Shandi (SUDAN) [50K]": [
+    33.42,
+    16.68
+  ],
+  "Odendaalsrus (SOUTH AFRICA) [50K]": [
+    26.688,
+    -27.873
+  ],
+  "Mpika (ZAMBIA) [50K]": [
+    31.4465861,
+    -11.828432
+  ],
+  "Haramaya (ETHIOPIA) [50K]": [
+    42.017,
+    9.4
+  ],
+  "Dedougou (BURKINA FASO) [50K]": [
+    -3.45940069737654,
+    12.463364568547
+  ],
+  "Oyo (CONGO) [50K]": [
+    15.973611,
+    -1.160278
+  ],
+  "New Halfa (SUDAN) [50K]": [
+    35.596948,
+    15.329966
+  ],
+  "Abou Homs (EGYPT) [50K]": [
+    30.310063,
+    31.100643
+  ],
+  "Mendefera (ERITREA) [50K]": [
+    38.816667,
+    14.883333
+  ],
+  "New Salhia (EGYPT) [50K]": [
+    31.9376871578189,
+    30.6330155554176
+  ],
+  "Githunguri (KENYA) [50K]": [
+    36.99,
+    -1.3
+  ],
+  "Mila (ALGERIA) [50K]": [
+    6.26,
+    36.45
+  ],
+  "Birni Nkonni (NIGER) [50K]": [
+    5.25,
+    13.791667
+  ],
+  "Butare (RWANDA) [50K]": [
+    29.73944,
+    -2.59667
+  ],
+  "As Saff (EGYPT) [50K]": [
+    31.305516,
+    29.573698
+  ],
+  "Al Muknin (TUNISIA) [50K]": [
+    10.9,
+    35.633333
+  ],
+  "Midelt (MOROCCO) [50K]": [
+    -4.73,
+    32.68
+  ],
+  "Mohammadia (ALGERIA) [50K]": [
+    0.0708235879361336,
+    35.590023299309
+  ],
+  "Mpumalanga (SOUTH AFRICA) [50K]": [
+    30.623,
+    -29.804
+  ],
+  "Zouerat (MAURITANIA) [50K]": [
+    -12.4694998507773,
+    22.7332111270014
+  ],
+  "Gueckedou (GUINEA) [50K]": [
+    -10.1325,
+    8.5625
+  ],
+  "Ambilobe (MADAGASCAR) [50K]": [
+    49.05,
+    -13.2
+  ],
+  "Naj Hammadi (EGYPT) [50K]": [
+    32.2377519,
+    26.0485779
+  ],
+  "Al Wasita (EGYPT) [50K]": [
+    31.196994,
+    29.33893
+  ],
+  "Korogwe (TANZANIA) [50K]": [
+    38.450496,
+    -5.155958
+  ],
+  "Mizan (ETHIOPIA) [50K]": [
+    35.583,
+    7.0
+  ],
+  "Jowhar (SOMALIA) [50K]": [
+    45.5,
+    2.78
+  ],
+  "Dabou (COTE DIVOIRE) [50K]": [
+    -4.38020215444605,
+    5.32472749659113
+  ],
+  "Tenkodogo (BURKINA FASO) [50K]": [
+    -0.366667,
+    11.783333
+  ],
+  "Mandela (GHANA) [50K]": [
+    -0.34131924196705,
+    5.55225050864887
+  ],
+  "Kolea (ALGERIA) [50K]": [
+    2.765,
+    36.640556
+  ],
+  "Karonga (MALAWI) [50K]": [
+    33.933333,
+    -9.933333
+  ],
+  "Joal - Fadiouth (SENEGAL) [50K]": [
+    -16.853,
+    14.174
+  ],
+  "Oudtshoorn (SOUTH AFRICA) [50K]": [
+    22.205,
+    -33.591
+  ],
+  "Burj al Barlus (EGYPT) [50K]": [
+    30.9902982558749,
+    31.5826656211205
+  ],
+  "Djibo (BURKINA FASO) [50K]": [
+    -1.62298026792285,
+    14.1004417145919
+  ],
+  "Sig (ALGERIA) [50K]": [
+    -0.18,
+    35.53
+  ],
+  "Mojo (ETHIOPIA) [50K]": [
+    39.083,
+    8.65
+  ],
+  "Bawku (GHANA) [50K]": [
+    -0.233333,
+    11.05
+  ],
+  "Dembi Dolo (ETHIOPIA) [50K]": [
+    34.802,
+    8.533
+  ],
+  "Bambylor (SENEGAL) [50K]": [
+    -17.189,
+    14.801
+  ],
+  "Anie (TOGO) [50K]": [
+    1.195,
+    7.76
+  ],
+  "Sawla (ETHIOPIA) [50K]": [
+    36.889,
+    6.294
+  ],
+  "Bukama (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    25.8503414273424,
+    -9.20171344493182
+  ],
+  "Halq al-Wadi (TUNISIA) [50K]": [
+    10.3068366137707,
+    36.8196154342467
+  ],
+  "Soroti (UGANDA) [50K]": [
+    33.611111,
+    1.715
+  ],
+  "Mbinga (TANZANIA) [50K]": [
+    34.985,
+    -10.963
+  ],
+  "Ain Harrouda (MOROCCO) [50K]": [
+    -7.448333,
+    33.637222
+  ],
+  "Fort Portal (UGANDA) [50K]": [
+    30.275,
+    0.66
+  ],
+  "Tiko (CAMEROON) [50K]": [
+    9.37,
+    4.08
+  ],
+  "Bethal (SOUTH AFRICA) [50K]": [
+    29.464,
+    -26.458
+  ],
+  "Elwak (KENYA) [50K]": [
+    40.93,
+    2.807
+  ],
+  "Gilgil (KENYA) [50K]": [
+    36.326,
+    -0.498
+  ],
+  "Thaba Nchu (SOUTH AFRICA) [50K]": [
+    26.841,
+    -29.215
+  ],
+  "Oyem (GABON) [50K]": [
+    11.566667,
+    1.6
+  ],
+  "Danane (COTE DIVOIRE) [50K]": [
+    -8.16,
+    7.26
+  ],
+  "Faranah (GUINEA) [50K]": [
+    -10.73,
+    10.03
+  ],
+  "Taher (ALGERIA) [50K]": [
+    5.9,
+    36.77
+  ],
+  "Ambanja (MADAGASCAR) [50K]": [
+    48.452222,
+    -13.678611
+  ],
+  "Oulad Nemma (MOROCCO) [50K]": [
+    -6.704112,
+    32.293278
+  ],
+  "Monze (ZAMBIA) [50K]": [
+    27.4661685,
+    -16.2796737
+  ],
+  "Marj (LIBYA) [50K]": [
+    20.83,
+    32.49
+  ],
+  "Saqiyat az-Zayt (TUNISIA) [50K]": [
+    10.77,
+    34.8
+  ],
+  "Nabaruh (EGYPT) [50K]": [
+    31.299156,
+    31.092567
+  ],
+  "Chettia (ALGERIA) [50K]": [
+    1.25689108501725,
+    36.1945298042439
+  ],
+  "Nzagi (ANGOLA) [50K]": [
+    21.3633910834748,
+    -7.69535989810632
+  ],
+  "El Kef (TUNISIA) [50K]": [
+    8.70538282723666,
+    36.1724287257208
+  ],
+  "Kribi (CAMEROON) [50K]": [
+    9.91,
+    2.94
+  ],
+  "Zvishavane (ZIMBABWE) [50K]": [
+    30.0544725863808,
+    -20.3157680682055
+  ],
+  "Metu (ETHIOPIA) [50K]": [
+    35.5815904818476,
+    8.29744213770583
+  ],
+  "Ksar El Boukhari (ALGERIA) [50K]": [
+    2.74,
+    35.89
+  ],
+  "Al Badari (EGYPT) [50K]": [
+    31.4156,
+    26.9925
+  ],
+  "Betou (CONGO) [50K]": [
+    18.514167,
+    3.059444
+  ],
+  "Al Hamul (EGYPT) [50K]": [
+    31.139072,
+    31.313132
+  ],
+  "Aleta Wendo (ETHIOPIA) [50K]": [
+    38.4248283240471,
+    6.60583313684879
+  ],
+  "Kedougou (SENEGAL) [50K]": [
+    -12.183,
+    12.556
+  ],
+  "Aweil (SOUTH SUDAN) [50K]": [
+    27.3993580493783,
+    8.76857877318866
+  ],
+  "Moanda (GABON) [50K]": [
+    13.2182873718984,
+    -1.56000260055888
+  ],
+  "Maputsoe (LESOTHO) [50K]": [
+    27.907,
+    -28.895
+  ],
+  "Dalang (SUDAN) [50K]": [
+    29.651048,
+    12.045941
+  ],
+  "Camacupa (ANGOLA) [50K]": [
+    17.468611,
+    -12.025556
+  ],
+  "Mota (ETHIOPIA) [50K]": [
+    37.8786149238834,
+    11.0798055580331
+  ],
+  "Manzil Bu Ruqayba (TUNISIA) [50K]": [
+    9.783333,
+    37.15
+  ],
+  "Tema New Town (GHANA) [50K]": [
+    0.0221445468113825,
+    5.65162821639452
+  ],
+  "Adzope (COTE DIVOIRE) [50K]": [
+    -3.86465552698269,
+    6.10809566420716
+  ],
+  "Ar Rusayris (SUDAN) [50K]": [
+    34.37,
+    11.86
+  ],
+  "Oshakati (NAMIBIA) [50K]": [
+    15.699389,
+    -17.783611
+  ],
+  "Dosso (NIGER) [50K]": [
+    3.2,
+    13.05
+  ],
+  "Mbombela (SOUTH AFRICA) [50K]": [
+    30.977,
+    -25.473
+  ],
+  "Kasungu (MALAWI) [50K]": [
+    33.483333,
+    -13.033333
+  ],
+  "Mpondwe Lhubiriha (UGANDA) [50K]": [
+    29.7596829570618,
+    0.0344577049712818
+  ],
+  "Macenta (GUINEA) [50K]": [
+    -9.48,
+    8.55
+  ],
+  "Beitbridge (ZIMBABWE) [50K]": [
+    29.9912945129265,
+    -22.2129316795415
+  ],
+  "El Guerrara (ALGERIA) [50K]": [
+    4.49,
+    32.79
+  ],
+  "Mehdya (MOROCCO) [50K]": [
+    -6.675,
+    34.256
+  ],
+  "Bougouni (MALI) [50K]": [
+    -7.49,
+    11.42
+  ],
+  "Ouled Djellal (ALGERIA) [50K]": [
+    5.06,
+    34.43
+  ],
+  "Finote Selam (ETHIOPIA) [50K]": [
+    37.2600913207518,
+    10.6801436805982
+  ],
+  "Larbaa (ALGERIA) [50K]": [
+    3.15,
+    36.57
+  ],
+  "Arzew (ALGERIA) [50K]": [
+    -0.308578513124723,
+    35.8592614987983
+  ],
+  "Petauke (ZAMBIA) [50K]": [
+    31.3232768,
+    -14.2493623
+  ],
+  "Bakwa Kalonji (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    23.6503346751107,
+    -6.4906929971495
+  ],
+  "Ribaue (MOZAMBIQUE) [50K]": [
+    38.3232822894494,
+    -14.9444947344803
+  ],
+  "Kelo (CHAD) [50K]": [
+    15.81,
+    9.31
+  ],
+  "Ouezzane (MOROCCO) [50K]": [
+    -5.57907681524914,
+    34.7965847155583
+  ],
+  "Bule Hora (ETHIOPIA) [50K]": [
+    38.2381372250857,
+    5.63672632072082
+  ],
+  "Kambove (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    26.6,
+    -10.87
+  ],
+  "Azrou (MOROCCO) [50K]": [
+    -5.224722,
+    33.441667
+  ],
+  "Granadilla de Abona (SPAIN) [50K]": [
+    -16.577,
+    28.123
+  ],
+  "Kawm Hamadah (EGYPT) [50K]": [
+    30.6895178,
+    30.7597407
+  ],
+  "Al Ibrahimiyah (EGYPT) [50K]": [
+    31.5520229,
+    30.7172569
+  ],
+  "Sahel Selim (EGYPT) [50K]": [
+    31.3446280969048,
+    27.0668260375246
+  ],
+  "Bururi (BURUNDI) [50K]": [
+    29.616667,
+    -3.95
+  ],
+  "Chongwe (ZAMBIA) [50K]": [
+    28.6743382,
+    -15.332586
+  ],
+  "Piet Retief (SOUTH AFRICA) [50K]": [
+    30.803,
+    -27.006
+  ],
+  "Meagui (COTE DIVOIRE) [50K]": [
+    -6.55695708627937,
+    5.40637278822687
+  ],
+  "Boujdour (MOROCCO) [50K]": [
+    -14.466944,
+    26.133056
+  ],
+  "El Meniaa (ALGERIA) [50K]": [
+    2.883333,
+    30.583333
+  ],
+  "Kaffrine (SENEGAL) [50K]": [
+    -15.55,
+    14.103
+  ],
+  "Al Mahdiyah (TUNISIA) [50K]": [
+    11.066667,
+    35.5
+  ],
+  "Boufarik (ALGERIA) [50K]": [
+    2.9,
+    36.58
+  ],
+  "Saint Andre (FRANCE) [50K]": [
+    55.6506,
+    -20.9606
+  ],
+  "Fiche (ETHIOPIA) [50K]": [
+    38.733,
+    9.792
+  ],
+  "Moramanga (MADAGASCAR) [50K]": [
+    48.23,
+    -18.95
+  ],
+  "Winneba (GHANA) [50K]": [
+    -0.616667,
+    5.333333
+  ],
+  "Moyale (ETHIOPIA) [50K]": [
+    39.0515004085281,
+    3.53607679555342
+  ],
+  "Al Qalah (TUNISIA) [50K]": [
+    10.533333,
+    35.866667
+  ],
+  "Gbarnga (LIBERIA) [50K]": [
+    -9.47493305689231,
+    7.00156120846965
+  ],
+  "Ait Ourir (MOROCCO) [50K]": [
+    -7.663,
+    31.563
+  ],
+  "Umm Ruwaba (SUDAN) [50K]": [
+    31.2,
+    12.91
+  ],
+  "Cinkasse (TOGO) [50K]": [
+    0.015,
+    11.106
+  ],
+  "Vilankulo (MOZAMBIQUE) [50K]": [
+    35.316667,
+    -22.0
+  ],
+  "Smara (MOROCCO) [50K]": [
+    -11.670278,
+    26.739444
+  ],
+  "Berekum (GHANA) [50K]": [
+    -2.583333,
+    7.45
+  ],
+  "Boudouaou (ALGERIA) [50K]": [
+    3.41,
+    36.72
+  ],
+  "Phuthaditjhaba (SOUTH AFRICA) [50K]": [
+    28.817,
+    -28.522
+  ],
+  "Sidi Bennour (MOROCCO) [50K]": [
+    -8.433333,
+    32.65
+  ],
+  "Dongola (SUDAN) [50K]": [
+    30.47,
+    19.17
+  ],
+  "Kobo (ETHIOPIA) [50K]": [
+    39.633,
+    12.15
+  ],
+  "Singa (SUDAN) [50K]": [
+    33.93,
+    13.16
+  ],
+  "Kimilili (KENYA) [50K]": [
+    34.719,
+    0.783
+  ],
+  "Kandi (BENIN) [50K]": [
+    2.93861,
+    11.13417
+  ],
+  "Tit Mellil (MOROCCO) [50K]": [
+    -7.484,
+    33.552
+  ],
+  "Bonga (ETHIOPIA) [50K]": [
+    36.249,
+    7.259
+  ],
+  "Dangila (ETHIOPIA) [50K]": [
+    36.833,
+    11.267
+  ],
+  "El Maragha (EGYPT) [50K]": [
+    31.6046915642681,
+    26.7025378866181
+  ],
+  "Ferkessedougou (COTE DIVOIRE) [50K]": [
+    -5.2,
+    9.6
+  ],
+  "Binga (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    20.521806978553,
+    2.37485288323212
+  ],
+  "Mocambique (MOZAMBIQUE) [50K]": [
+    40.732778,
+    -15.036667
+  ],
+  "Berrouaghia (ALGERIA) [50K]": [
+    2.91,
+    36.14
+  ],
+  "New Damietta City (EGYPT) [50K]": [
+    31.664656,
+    31.435585
+  ],
+  "Ain Touta (ALGERIA) [50K]": [
+    5.89,
+    35.39
+  ],
+  "Bouznika (MOROCCO) [50K]": [
+    -7.161,
+    33.782
+  ],
+  "Serowe (BOTSWANA) [50K]": [
+    26.71,
+    -22.39
+  ],
+  "Ardamata (SUDAN) [50K]": [
+    22.467191,
+    13.482973
+  ],
+  "Maridi (SOUTH SUDAN) [50K]": [
+    29.45,
+    4.91
+  ],
+  "Tlokweng (BOTSWANA) [50K]": [
+    25.967,
+    -24.667
+  ],
+  "Mocimboa da Praia (MOZAMBIQUE) [50K]": [
+    40.3568982480624,
+    -11.3431972395817
+  ],
+  "Safaga (EGYPT) [50K]": [
+    33.933333,
+    26.733333
+  ],
+  "Luau (ANGOLA) [50K]": [
+    22.228333,
+    -10.704444
+  ],
+  "Oued Rhiou (ALGERIA) [50K]": [
+    0.917227957701414,
+    35.9614893460844
+  ],
+  "Qasr Hilal (TUNISIA) [50K]": [
+    10.8890098810081,
+    35.6444720024484
+  ],
+  "Mpulungu (ZAMBIA) [50K]": [
+    31.1129789,
+    -8.7718969
+  ],
+  "Bundunka Kunda (GAMBIA) [50K]": [
+    -16.688975,
+    13.429149
+  ],
+  "Bossangoa (CENTRAL AFRICAN REPUBLIC) [50K]": [
+    17.45,
+    6.483
+  ],
+  "Jemmal (TUNISIA) [50K]": [
+    10.759456,
+    35.620935
+  ],
+  "Fria (GUINEA) [50K]": [
+    -13.5825029943078,
+    10.36742381449
+  ],
+  "Ain Defla (ALGERIA) [50K]": [
+    1.96,
+    36.27
+  ],
+  "Kas (SUDAN) [50K]": [
+    24.288111,
+    12.503579
+  ],
+  "Kaga-Bandoro (CENTRAL AFRICAN REPUBLIC) [50K]": [
+    19.181,
+    7.001
+  ],
+  "Caxito (ANGOLA) [50K]": [
+    13.664167,
+    -8.58
+  ],
+  "Cuango (ANGOLA) [50K]": [
+    18.046389,
+    -9.144444
+  ],
+  "Bagamoyo (TANZANIA) [50K]": [
+    38.903,
+    -6.444
+  ],
+  "San Bartolome de Tirajana (SPAIN) [50K]": [
+    -15.55,
+    27.85
+  ],
+  "Boke (GUINEA) [50K]": [
+    -14.3,
+    10.93333
+  ],
+  "Timbuktu (MALI) [50K]": [
+    -3.01,
+    16.78
+  ],
+  "Chelghoum Laid (ALGERIA) [50K]": [
+    6.17,
+    36.16
+  ],
+  "Agona Swedru (GHANA) [50K]": [
+    -0.702778,
+    5.530556
+  ],
+  "Jinka (ETHIOPIA) [50K]": [
+    36.567,
+    5.783
+  ],
+  "Izbat al Burj (EGYPT) [50K]": [
+    31.841111,
+    31.503056
+  ],
+  "Kerou (BENIN) [50K]": [
+    2.109444,
+    10.825
+  ],
+  "El Husseiniya (EGYPT) [50K]": [
+    31.905924,
+    30.8558389
+  ],
+  "Tongaat (SOUTH AFRICA) [50K]": [
+    31.118,
+    -29.574
+  ],
+  "Tukh (EGYPT) [50K]": [
+    31.20071,
+    30.35394
+  ],
+  "Bangassou (CENTRAL AFRICAN REPUBLIC) [50K]": [
+    22.819,
+    4.737
+  ],
+  "Chilanga (ZAMBIA) [50K]": [
+    28.2683433,
+    -15.5706676
+  ],
+  "Saint Louis (FRANCE) [50K]": [
+    55.4092,
+    -21.2867
+  ],
+  "Kericho (KENYA) [50K]": [
+    35.282,
+    -0.369
+  ],
+  "Hassi Bounif (ALGERIA) [50K]": [
+    -0.500374867719853,
+    35.6942416742666
+  ],
+  "Kongoussi (BURKINA FASO) [50K]": [
+    -1.52611065617174,
+    13.3221440581078
+  ],
+  "Morondava (MADAGASCAR) [50K]": [
+    44.2959887416559,
+    -20.2969165879114
+  ],
+  "Moatize (MOZAMBIQUE) [50K]": [
+    33.733333,
+    -16.116667
+  ],
+  "Mangochi (MALAWI) [50K]": [
+    35.266667,
+    -14.466667
+  ],
+  "Voi (KENYA) [50K]": [
+    38.562,
+    -3.396
+  ],
+  "Fouchana (TUNISIA) [50K]": [
+    10.1665884738739,
+    36.6985019140753
+  ],
+  "Natitingou (BENIN) [50K]": [
+    1.37959864441192,
+    10.3061330824459
+  ],
+  "Kabale (UGANDA) [50K]": [
+    29.99,
+    -1.25
+  ],
+  "Birket el Sab (EGYPT) [50K]": [
+    31.0830355424105,
+    30.6356133143383
+  ],
+  "Mbalmayo (CAMEROON) [50K]": [
+    11.5,
+    3.52
+  ],
+  "Agaro (ETHIOPIA) [50K]": [
+    36.586,
+    7.854
+  ],
+  "Chiure (MOZAMBIQUE) [50K]": [
+    39.781667,
+    -13.3825
+  ],
+  "Lodja (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    23.5977479214186,
+    -3.52567805330485
+  ],
+  "Issia (COTE DIVOIRE) [50K]": [
+    -6.583333,
+    6.483333
+  ],
+  "Gamboma (CONGO) [50K]": [
+    15.878056,
+    -1.871111
+  ],
+  "Palapye (BOTSWANA) [50K]": [
+    27.133,
+    -22.55
+  ],
+  "Ech Challalate (MOROCCO) [50K]": [
+    -7.44,
+    33.624
+  ],
+  "El Qoseir (EGYPT) [50K]": [
+    34.281111,
+    26.103889
+  ],
+  "Guiglo (COTE DIVOIRE) [50K]": [
+    -7.483333,
+    6.55
+  ],
+  "Milange (MOZAMBIQUE) [50K]": [
+    35.766,
+    -16.099
+  ],
+  "Guider (CAMEROON) [50K]": [
+    13.948611,
+    9.934167
+  ],
+  "Chagni (ETHIOPIA) [50K]": [
+    36.5,
+    10.95
+  ],
+  "Sidi Bu Zayd (TUNISIA) [50K]": [
+    9.4834173753273,
+    35.0392784424979
+  ],
+  "Am Timan (CHAD) [50K]": [
+    20.283333,
+    11.033333
+  ],
+  "Baltim (EGYPT) [50K]": [
+    31.0940294907566,
+    31.5553668268774
+  ],
+  "Delmas (SOUTH AFRICA) [50K]": [
+    28.682,
+    -26.147
+  ],
+  "Chake Chake (TANZANIA) [50K]": [
+    39.767,
+    -5.246
+  ],
+  "Ntoum (GABON) [50K]": [
+    9.753889,
+    0.384444
+  ],
+  "Leo (BURKINA FASO) [50K]": [
+    -2.1,
+    11.1
+  ],
+  "Yendi (GHANA) [50K]": [
+    -0.004258,
+    9.432436
+  ],
+  "Wanguru (KENYA) [50K]": [
+    37.356,
+    -0.685
+  ],
+  "En Nedjma (ALGERIA) [50K]": [
+    -0.570786838157965,
+    35.6469387908917
+  ],
+  "Katwa (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    29.32,
+    0.1
+  ],
+  "Mulongo (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    27.0,
+    -7.83
+  ],
+  "Songo (MOZAMBIQUE) [50K]": [
+    32.7696899583363,
+    -15.6141081056393
+  ],
+  "Kokstad (SOUTH AFRICA) [50K]": [
+    29.426,
+    -30.553
+  ],
+  "Muramvya (BURUNDI) [50K]": [
+    29.6170879992283,
+    -3.26752071895213
+  ],
+  "Ksar Chellala (ALGERIA) [50K]": [
+    2.31770639986864,
+    35.2114881080338
+  ],
+  "Samfya (ZAMBIA) [50K]": [
+    29.5461231,
+    -11.3636197
+  ],
+  "Sangmelima (CAMEROON) [50K]": [
+    11.9777712692377,
+    2.92833578826102
+  ],
+  "Akim Oda (GHANA) [50K]": [
+    -0.985873,
+    5.926313
+  ],
+  "Ain Oulmane (ALGERIA) [50K]": [
+    5.3,
+    35.93
+  ],
+  "Kapchorwa (UGANDA) [50K]": [
+    34.45,
+    1.4
+  ],
+  "Adeje (SPAIN) [50K]": [
+    -16.725,
+    28.122
+  ],
+  "Agboville (COTE DIVOIRE) [50K]": [
+    -4.2139255310497,
+    5.93094594243024
+  ],
+  "Idiofa (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    19.5924703096598,
+    -4.96623773680147
+  ],
+  "Biougra (MOROCCO) [50K]": [
+    -9.369,
+    30.216
+  ],
+  "Bou Mhel El Bassatine (TUNISIA) [50K]": [
+    10.297222,
+    36.733889
+  ],
+  "Tolga (ALGERIA) [50K]": [
+    5.38,
+    34.73
+  ],
+  "Buduburam (GHANA) [50K]": [
+    -0.466667,
+    5.533333
+  ],
+  "Richards Bay (SOUTH AFRICA) [50K]": [
+    32.1,
+    -28.783
+  ],
+  "Beni Ensar (MOROCCO) [50K]": [
+    -2.9333,
+    35.266701
+  ],
+  "Kelibia (TUNISIA) [50K]": [
+    11.1,
+    36.85
+  ],
+  "Bindura (ZIMBABWE) [50K]": [
+    31.3319948654772,
+    -17.3084378914923
+  ],
+  "Derna (LIBYA) [50K]": [
+    22.64,
+    32.76
+  ],
+  "Mochudi (BOTSWANA) [50K]": [
+    26.1449874638491,
+    -24.3929754741579
+  ],
+  "Sekota (ETHIOPIA) [50K]": [
+    39.038,
+    12.624
+  ],
+  "Andoany (MADAGASCAR) [50K]": [
+    48.266667,
+    -13.4
+  ],
+  "Buchanan (LIBERIA) [50K]": [
+    -10.05,
+    5.88
+  ],
+  "Al Hoceima (MOROCCO) [50K]": [
+    -3.93015794238065,
+    35.245276742655
+  ],
+  "Kongolo (DEMOCRATIC REPUBLIC OF THE CONGO) [50K]": [
+    27.0062805931163,
+    -5.38594823900171
+  ],
+  "Kiffa (MAURITANIA) [50K]": [
+    -11.3985219610566,
+    16.6218132953318
+  ],
+  "Mellit (SUDAN) [50K]": [
+    25.554285,
+    14.139655
+  ],
+  "Kibaigwa (TANZANIA) [50K]": [
+    36.65,
+    -6.085
+  ],
+  "Knysna (SOUTH AFRICA) [50K]": [
+    23.046,
+    -34.037
+  ],
+  "Andulo (ANGOLA) [50K]": [
+    16.7042884027758,
+    -11.4854695072377
+  ],
+  "Masumbwe (TANZANIA) [50K]": [
+    32.161,
+    -3.647
+  ],
+  "Tukuyu (TANZANIA) [50K]": [
+    33.65,
+    -9.25
+  ],
+  "Utengule (TANZANIA) [50K]": [
+    33.35135114688,
+    -8.93531946045451
+  ]
+}

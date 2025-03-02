@@ -14,6 +14,13 @@ import parksData from "../../../data/quizzes/map/parks.json";
 import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
 import hotelsData from "../../../data/quizzes/map/hotels.json";
 import ccData from "../../../data/quizzes/map/cc.json";
+import citiesData from "../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../data/quizzes/map/cities-europe.json";
+import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
+import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
+import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -139,6 +146,69 @@ export async function getStaticPaths() {
         instructions: "How many tourist attractions in Singapore can you name? As you answer, the marker will disappear. Use regex to select the tourist attractions you want included in the quiz (try typing 'Park' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
         defaultRegex: ''
       }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World',
+        data: citiesData,
+        instructions: "How many cities in the world can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'London' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-asia' },
+      props: {
+        title: 'Cities of Asia',
+        data: citiesAsiaData,
+        instructions: "How many cities in Asia can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'Tokyo' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-europe' },
+      props: {
+        title: 'Cities of Europe',
+        data: citiesEuropeData,
+        instructions: "How many cities in Europe can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'London' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-africa' },
+      props: {
+        title: 'Cities of Africa',
+        data: citiesAfricaData,
+        instructions: "How many cities in Africa can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'Cairo' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-north-america' },
+      props: {
+        title: 'Cities of North America',
+        data: citiesNorthAmericaData,
+        instructions: "How many cities in North America can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'New York' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-south-america' },
+      props: {
+        title: 'Cities of South America',
+        data: citiesSouthAmericaData,
+        instructions: "How many cities in South America can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'Sao Paulo' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-oceania' },
+      props: {
+        title: 'Cities of Oceania',
+        data: citiesOceaniaData,
+        instructions: "How many cities in Oceania can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'Sydney' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '10M|5M|2M|1M'
+      }
     }
   ]
 }
@@ -158,12 +228,12 @@ for (const [k, v] of Object.entries(data)) {
   const { searchTerms, key, cleanText } = fullSanitise(k);
   const [lng, lat] = v as number[];
   const location = new Location({
-    lat, lng, label: cleanText, color: getLocationColor(k, Astro.params.quiz)
+    lat, lng, label: cleanText, color: getLocationColor(k, Astro.params.quiz), searchTerms
   });
   locationList.push(location);
   if (!(key in locationDict)) locationDict[key] = [];
   const locationDictItem = {
-    searchTerms,
+    searchTerms: searchTerms,
     cleanText,
     id: locationList.length-1,
     toInclude: true
