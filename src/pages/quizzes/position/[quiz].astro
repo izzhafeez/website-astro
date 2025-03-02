@@ -27,6 +27,8 @@ import hotelsData from "../../../data/quizzes/map/hotels.json";
 import ccData from "../../../data/quizzes/map/cc.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 import capitalCitiesData from "../../../data/quizzes/map/capital-cities.json";
+import capitalCitiesAsiaData from "../../../data/quizzes/map/capital-cities-asia.json";
+import capitalCitiesEuropeData from "../../../data/quizzes/map/capital-cities-europe.json";
 import buildingsData from "../../../data/games/stat-attack/buildings.json";
 import airportsData from "../../../data/games/stat-attack/airports.json";
 import placesInSingaporeData from "../../../data/games/stat-attack/places-in-singapore.json";
@@ -284,6 +286,36 @@ export async function getStaticPaths() {
           return newData;
         })(),
         instructions: instructionFormat('capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities-asia' },
+      props: {
+        title: 'Capital Cities of Asia',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesAsiaData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('Asian capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities-europe' },
+      props: {
+        title: 'Capital Cities of Europe',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesEuropeData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('European capital city'),
         defaultRegex: ''
       }
     },

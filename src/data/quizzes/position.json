@@ -28,6 +28,16 @@
       "Buildings"
     ]
   },
+  "capital-cities-europe": {
+    "title": "Capital Cities of Europe",
+    "instructions": "How many capital cities in Europe can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Europe",
+      "Cities"
+    ]
+  },
   "places-in-singapore": {
     "title": "Places in Singapore",
     "instructions": "How many places in Singapore can you name?",
@@ -44,6 +54,16 @@
     "tags": [
       "Geography",
       "Airports"
+    ]
+  },
+  "capital-cities-asia": {
+    "title": "Capital Cities of Asia",
+    "instructions": "How many capital cities in Asia can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Asia",
+      "Cities"
     ]
   },
   "schools": {

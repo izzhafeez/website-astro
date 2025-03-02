@@ -18,7 +18,6 @@
 
   let colors = ['#00BB45', '#D42E12', '#FA9E0D', "#005EC4", "#9D5B25", '#9900AA', "#005500", "#FF88FF", "#10C8FA", "#C9C9C9", "#748477", "#B9E935"]
   let assignments = {};
-  // let colors = ['green', 'red', 'purple', 'orange', 'blue', 'yellow', 'gray', 'pink']
 
   const render = ({ context, width, height }) => {
     for (let i = 0; i < positions.length; i++) {
@@ -98,7 +97,7 @@
           {location}
           {#if assignments[location] != undefined}
             &nbsp;
-            <span class={`bg-[${colors[assignments[location]]}] w-2 h-2 rounded-full my-auto`}></span>
+            <span class={`bg-[${colors[assignments[location]]}] w-4 h-4 my-auto`}></span>
           {/if}
         </div>
       </button>
