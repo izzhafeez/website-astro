@@ -12,15 +12,16 @@
     const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec?siteUrl=__quizzes__${type}__${key}&params=${params}&toRetrieve=true`;
     await axios.get(
       url
-      ).then(
-        res => {
-          return res.data
-        }
-      ).then(data => {
-        const { plays, players } = data;
-        leaderboard = {
-          plays,
-          players
+      ).then(res => {
+        return res.data;
+      }).then(data => {
+        try {
+          leaderboard = JSON.parse(data.slice(0, -108));
+        } catch (e) {
+          leaderboard = {
+            plays: 0,
+            players: []
+          };
         }
       });
     }
