@@ -9,7 +9,7 @@
   export let key;
 
   let N = 4;
-  let possible_N = [3, 4, 5, 6, 7, 8];
+  let possible_N = [3, 4, 6, 8, 10, 12];
   let isRotate = false;
   let locations = [];
   let positions = [];
@@ -18,7 +18,7 @@
   let randomiserSeed = Math.floor(Math.random() * 1000000);
   let randomiser = seededRandom(randomiserSeed);
   let encodeSeed = () => {
-    return `${N}${isRotate ? 1 : 0}${randomiserSeed}`;
+    return `${possible_N.indexOf(N)}${isRotate ? 1 : 0}${randomiserSeed}`;
   }
   let randomiseSeed = () => {
     randomiserSeed = Math.floor(Math.random() * 1000000);
@@ -27,7 +27,7 @@
   }
   let seed = encodeSeed();
   let decodeSeed = () => {
-    N = parseInt(seed[0]);
+    N = possible_N[parseInt(seed[0])];
     isRotate = parseInt(seed[1]) === 1;
     randomiserSeed = parseInt(seed.slice(2));
     randomiser = seededRandom(randomiserSeed);

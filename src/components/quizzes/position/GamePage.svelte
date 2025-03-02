@@ -16,7 +16,7 @@
     correctAnswers[locations[i]] = i;
   }
 
-  let colors = ['#009645', '#D42E12', '#9900AA', '#FA9E0D', "#005EC4", "#DDDD55", "#0099AA", "#777777"]
+  let colors = ['#00BB45', '#D42E12', '#FA9E0D', "#005EC4", "#9D5B25", '#9900AA', "#005500", "#FF88FF", "#10C8FA", "#C9C9C9", "#748477", "#B9E935"]
   let assignments = {};
   // let colors = ['green', 'red', 'purple', 'orange', 'blue', 'yellow', 'gray', 'pink']
 
@@ -80,7 +80,7 @@
   <div class="grid" id="action-button">
   {#if !isEnd}
     <div class="flex gap-2 mt-2">
-      Select to assign:
+      Select to assign: 
       {#each colors.slice(0, N) as color, i}
         <button aria-label="wah" class={`border-2 ${colorId == i ? "border-opacity-100 dark:border-opacity-100" : "border-opacity-0 dark:border-opacity-0"} border-black dark:border-white w-4 h-4 grid bg-[${color}] my-auto`} on:click={() => {colorId = i}}></button>
       {/each}
@@ -118,12 +118,17 @@
       on:click={handleEnd}>Restart</button>
     {/if}
   </div>
-  <span class="bg-[#009645] border-[#009645]"></span>
-  <span class="bg-[#D42E12] border-[#D42E12]"></span>
-  <span class="bg-[#9900AA] border-[#9900AA]"></span>
-  <span class="bg-[#FA9E0D] border-[#FA9E0D]"></span>
-  <span class="bg-[#005EC4] border-[#005EC4]"></span>
-  <span class="bg-[#DDDD55] border-[#DDDD55]"></span>
-  <span class="bg-[#0099AA] border-[#0099AA]"></span>
-  <span class="bg-[#777777] border-[#777777]"></span>
+
+  <span class="border-[#00BB45] bg-[#00BB45]"></span>
+  <span class="border-[#D42E12] bg-[#D42E12]"></span>
+  <span class="border-[#9900AA] bg-[#9900AA]"></span>
+  <span class="border-[#FA9E0D] bg-[#FA9E0D]"></span>
+  <span class="border-[#005EC4] bg-[#005EC4]"></span>
+  <span class="border-[#9D5B25] bg-[#9D5B25]"></span>
+  <span class="border-[#005500] bg-[#005500]"></span>
+  <span class="border-[#B9E935] bg-[#B9E935]"></span>
+  <span class="border-[#FF88FF] bg-[#FF88FF]"></span>
+  <span class="border-[#10C8FA] bg-[#10C8FA]"></span>
+  <span class="border-[#C9C9C9] bg-[#C9C9C9]"></span>
+  <span class="border-[#748477] bg-[#748477]"></span>
 </div>
