@@ -140,7 +140,7 @@
 
 <div class="top-0 grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
     <div class="max-w-4xl mx-auto my-20">
-        <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{field.toUpperCase()}</h1>
+        <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{field == '0' ? "LONGITUDE" : field == '1' ? "LATITUDE" : field.toUpperCase()}</h1>
         <p class="my-4">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
 
         Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀 <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>

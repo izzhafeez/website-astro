@@ -7,6 +7,25 @@ import PageFind from "../../../components/common/PageFind.astro";
 import seoImg from '/src/img/heroes/COMPARE.jpg';
 import { decks, getDataAsDict } from "../../games/common/decks";
 
+import schoolsData from "../../../data/quizzes/map/schools.json";
+import busStopData from "../../../data/quizzes/map/bus-stops.json";
+import londonUndergroundData from "../../../data/quizzes/map/london-underground.json";
+import tokyoMetroData from "../../../data/quizzes/map/tokyo-metro.json";
+import monumentsData from "../../../data/quizzes/map/monuments.json";
+import librariesData from "../../../data/quizzes/map/libraries.json";
+import parksData from "../../../data/quizzes/map/parks.json";
+import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
+import hotelsData from "../../../data/quizzes/map/hotels.json";
+import ccData from "../../../data/quizzes/map/cc.json";
+import citiesData from "../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../data/quizzes/map/cities-europe.json";
+import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
+import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
+import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
+import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
+
 export function getStaticPaths() {
   return [
     ...decks.map(deck => ({
@@ -18,6 +37,132 @@ export function getStaticPaths() {
         title: deck.props.title,
       }
     })),
+    {
+      params: { quiz: 'schools' },
+      props: {
+        title: "Schools of Singapore",
+        data: schoolsData
+      }
+    },
+    {
+      params: { quiz: 'bus-stops' },
+      props: {
+        title: "Bus Stops of Singapore",
+        data: busStopData
+      }
+    },
+    {
+      params: { quiz: 'london-underground' },
+      props: {
+        title: "London Underground Stations",
+        data: londonUndergroundData
+      }
+    },
+    {
+      params: { quiz: 'tokyo-metro' },
+      props: {
+        title: "Tokyo Metro Stations",
+        data: tokyoMetroData
+      }
+    },
+    {
+      params: { quiz: 'monuments' },
+      props: {
+        title: 'Monuments of Singapore',
+        data: monumentsData
+      }
+    },
+    {
+      params: { quiz: 'libraries' },
+      props: {
+        title: 'Libraries of Singapore',
+        data: librariesData
+      }
+    },
+    {
+      params: { quiz: 'parks' },
+      props: {
+        title: 'Parks of Singapore',
+        data: parksData
+      }
+    },
+    {
+      params: { quiz: 'park-connectors' },
+      props: {
+        title: 'Park Connectors of Singapore',
+        data: parkConnectorsData
+      }
+    },
+    {
+      params: { quiz: 'hotels' },
+      props: {
+        title: 'Hotels of Singapore',
+        data: hotelsData
+      }
+    },
+    {
+      params: { quiz: 'cc' },
+      props: {
+        title: 'Community Centres of Singapore',
+        data: ccData
+      }
+    },
+    {
+      params: { quiz: 'tourist-attractions' },
+      props: {
+        title: 'Tourist Attractions of Singapore',
+        data: touristAttractionsData
+      }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World',
+        data: citiesData
+      }
+    },
+    {
+      params: { quiz: 'cities-asia' },
+      props: {
+        title: 'Cities of Asia',
+        data: citiesAsiaData
+      }
+    },
+    {
+      params: { quiz: 'cities-europe' },
+      props: {
+        title: 'Cities of Europe',
+        data: citiesEuropeData
+      }
+    },
+    {
+      params: { quiz: 'cities-africa' },
+      props: {
+        title: 'Cities of Africa',
+        data: citiesAfricaData
+      }
+    },
+    {
+      params: { quiz: 'cities-north-america' },
+      props: {
+        title: 'Cities of North America',
+        data: citiesNorthAmericaData
+      }
+    },
+    {
+      params: { quiz: 'cities-south-america' },
+      props: {
+        title: 'Cities of South America',
+        data: citiesSouthAmericaData
+      }
+    },
+    {
+      params: { quiz: 'cities-oceania' },
+      props: {
+        title: 'Cities of Oceania',
+        data: citiesOceaniaData
+      }
+    }
   ];
 }
 

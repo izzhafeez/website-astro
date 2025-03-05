@@ -8,6 +8,7 @@ import Seo from "../../../components/seo/Seo.astro";
 import quizzesData from "../../../data/quizzes/quizzes.json";
 import seoImg from '/src/img/heroes/RANK.jpg';
 import { decks } from "../../games/common/decks";
+import mapData from "../../../data/quizzes/map.json";
 
 const quizzes = [
   ...decks.map(deck => ({
@@ -18,7 +19,14 @@ const quizzes = [
     imgPath: `/img/games/stat-attack/${deck.params.deck}.jpg`,
     rank: 0
   })),
-];
+  ...Object.entries(mapData).map(([k, v]) => ({
+    key: k,
+    href: `/quizzes/rank/${k}`,
+    title: v.title,
+    instructions: `Compare the Latitude and Longitude of ${v.title}`,
+    imgPath: `/img/quizzes/map/${k}.jpg`,
+  }))
+].filter((deck) => !["/img/games/stat-attack/cities.jpg", "/img/games/stat-attack/schools.jpg", "/img/games/stat-attack/bus-stops.jpg", "/img/quizzes/map/mrt.jpg", "/img/quizzes/map/malls.jpg"].includes(deck.imgPath));
 
 const heroText = quizzesData["rank"].heroText;
 const title = quizzesData["rank"].title;

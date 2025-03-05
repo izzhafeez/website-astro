@@ -105,7 +105,7 @@ export const getData = (deckName: string) => {
     };
   case "cities":
     return {
-      title: "Cities of the World",
+      title: "Major Cities of the World",
       data: citiesData
     }
   case "mrt":

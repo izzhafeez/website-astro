@@ -32,7 +32,7 @@
       {#each possible_fields as f (f)}
       <button on:click={() => {field = f; seed = seed[0] + (possible_fields.indexOf(f)).toString() + seed.slice(2); decodeSeed();}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
         field == f
-      } class:text-white={field == f}>{f}</button>
+      } class:text-white={field == f}>{f === '0' ? "Longitude" : f === '1' ? "Latitude" : f}</button>
       {/each}
     </div>
     <label for="seed" class="">Seed: </label>
