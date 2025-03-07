@@ -79,6 +79,16 @@
       "Cities"
     ]
   },
+  "cities-us": {
+    "title": "Cities of the United States",
+    "instructions": "How many cities in the United States can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "United States",
+      "Cities"
+    ]
+  },
   "schools": {
     "title": "Schools of Singapore",
     "instructions": "How many schools in Singapore can you name?",

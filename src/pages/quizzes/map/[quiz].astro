@@ -21,6 +21,7 @@ import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
 import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
 import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
 import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
+import citiesUsData from "../../../data/quizzes/map/cities-us.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 import { getLocationColor } from "../../../components/quizzes/map/colors";
 import NavBar from "../../../components/common/NavBar.astro";
@@ -208,6 +209,15 @@ export async function getStaticPaths() {
         data: citiesOceaniaData,
         instructions: "How many cities in Oceania can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'Sydney' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
         defaultRegex: '10M|5M|2M|1M'
+      }
+    },
+    {
+      params: { quiz: 'cities-us' },
+      props: {
+        title: 'Cities of the United States',
+        data: citiesUsData,
+        instructions: "How many cities in the United States can you name? As you answer, the marker will disappear. Use regex to select the cities you want included in the quiz (try typing 'New York' or 'oo' to see what happens). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: '5M|2M|1M|500K'
       }
     }
   ]

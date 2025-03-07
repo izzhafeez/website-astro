@@ -3,7 +3,6 @@
   import { fullSanitise } from "../../../utils/string";
   import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
   import { onMount } from "svelte";
-  import axios from "axios";
   import Leaderboard from "../Leaderboard.svelte";
   import party from "party-js";
 
@@ -17,7 +16,6 @@
   let score = 0;
   $: time = totalScore * 5;
   let toStop = true;
-  const FEATURE_LIMIT = 10000;
   let answeredDict = {};
   let regexInput = defaultRegex;
   let allTags = [];
@@ -126,14 +124,6 @@
       for (const value of Object.values(answers)) {
         totalScore += value.list.length;
       }
-    }
-    if (totalScore > FEATURE_LIMIT) {
-      Swal.fire({
-        title: "There are too many locations in the quiz. Try using a different regex.",
-        icon: 'error',
-        timer: 2000
-      })
-      return;
     }
     if (totalScore === 0) {
       Swal.fire({

@@ -7,7 +7,6 @@ export let locations;
 export let defaultRegex;
 let featureList = [];
 let tooltips = [];
-const FEATURE_LIMIT = 10000;
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },

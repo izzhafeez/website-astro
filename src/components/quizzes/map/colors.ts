@@ -11,6 +11,7 @@ export const getLocationColor = (colorComparator: string, locationType: string) 
     case "cities-oceania":
     case "cities-south-america":
     case "cities-africa":
+    case "cities-us":
       return getCityColor(colorComparator);
     case "bus-stops":
       return getBusStopColor(colorComparator);
@@ -84,6 +85,7 @@ const getCityColor = (colorComparator: string) => {
   if (bracketValue.includes("5M")) return "dt-300";
   if (bracketValue.includes("2M")) return "ew-300";
   if (bracketValue.includes("1M")) return "ns-300";
+  if (bracketValue.includes("700K")) return "ns-500";
   if (bracketValue.includes("500K")) return "cc-700";
   if (bracketValue.includes("200K")) return "cc-500";
   if (bracketValue.includes("100K")) return "cc-300";

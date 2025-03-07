@@ -107,7 +107,7 @@
     -99.153,
     19.321
   ],
-  "New York, NY (UNITED STATES) [5M]": [
+  "New York (UNITED STATES, NY) [5M]": [
     -74.007,
     40.714
   ],
@@ -319,7 +319,7 @@
     120.28857,
     31.56887
   ],
-  "Los Angeles, CA (UNITED STATES) [2M]": [
+  "Los Angeles (UNITED STATES, CA) [2M]": [
     -118.243,
     34.052
   ],
@@ -515,7 +515,7 @@
     117.999454000902,
     36.806288539183
   ],
-  "Chicago, IL (UNITED STATES) [2M]": [
+  "Chicago (UNITED STATES, IL) [2M]": [
     -87.628,
     41.882
   ],
@@ -631,7 +631,7 @@
     121.442590134619,
     37.4617051327111
   ],
-  "Houston, TX (UNITED STATES) [2M]": [
+  "Houston (UNITED STATES, TX) [2M]": [
     -95.363,
     29.76
   ],
@@ -983,7 +983,7 @@
     130.402,
     33.591
   ],
-  "Phoenix, AZ (UNITED STATES) [1M]": [
+  "Phoenix (UNITED STATES, AZ) [1M]": [
     -112.074,
     33.448
   ],
@@ -991,7 +991,7 @@
     125.0,
     46.58333
   ],
-  "Philadelphia, PA (UNITED STATES) [1M]": [
+  "Philadelphia (UNITED STATES, PA) [1M]": [
     -75.164,
     39.952
   ],
@@ -1163,7 +1163,7 @@
     174.766,
     -36.847
   ],
-  "San Antonio, TX (UNITED STATES) [1M]": [
+  "San Antonio (UNITED STATES, TX) [1M]": [
     -98.49,
     29.423
   ],
@@ -1215,7 +1215,7 @@
     -48.5033104951606,
     -1.45516704800787
   ],
-  "San Diego, CA (UNITED STATES) [1M]": [
+  "San Diego (UNITED STATES, CA) [1M]": [
     -117.165,
     32.716
   ],
@@ -1331,7 +1331,7 @@
     -56.187,
     -34.891
   ],
-  "Dallas, TX (UNITED STATES) [1M]": [
+  "Dallas (UNITED STATES, TX) [1M]": [
     -96.797,
     32.781
   ],
@@ -1859,7 +1859,7 @@
     121.150821887399,
     30.0417331005494
   ],
-  "San Jose, CA (UNITED STATES) [1M]": [
+  "San Jose (UNITED STATES, CA) [1M]": [
     -121.891,
     37.336
   ],
@@ -1939,7 +1939,7 @@
     123.902,
     10.293
   ],
-  "Austin, TX (UNITED STATES) [700K]": [
+  "Austin (UNITED STATES, TX) [700K]": [
     -97.743,
     30.268
   ],
@@ -1987,7 +1987,7 @@
     112.207860644594,
     30.3416706122043
   ],
-  "Jacksonville, FL (UNITED STATES) [700K]": [
+  "Jacksonville (UNITED STATES, FL) [700K]": [
     -81.657,
     30.328
   ],
@@ -2071,7 +2071,7 @@
     116.958803073733,
     33.6468808321792
   ],
-  "Fort Worth, TX (UNITED STATES) [700K]": [
+  "Fort Worth (UNITED STATES, TX) [700K]": [
     -97.331,
     32.754
   ],
@@ -2095,7 +2095,7 @@
     6.78845,
     6.14543
   ],
-  "Columbus, OH (UNITED STATES) [700K]": [
+  "Columbus (UNITED STATES, OH) [700K]": [
     -83.001,
     39.962
   ],
@@ -2159,7 +2159,7 @@
     78.78333,
     28.83333
   ],
-  "Indianapolis, IN (UNITED STATES) [700K]": [
+  "Indianapolis (UNITED STATES, IN) [700K]": [
     -86.158,
     39.769
   ],
@@ -2215,7 +2215,7 @@
     113.253326608266,
     35.2078811743462
   ],
-  "Charlotte, NC (UNITED STATES) [700K]": [
+  "Charlotte (UNITED STATES, NC) [700K]": [
     -80.843,
     35.227
   ],
@@ -2223,7 +2223,7 @@
     78.08333,
     27.88333
   ],
-  "San Francisco, CA (UNITED STATES) [700K]": [
+  "San Francisco (UNITED STATES, CA) [700K]": [
     -122.414,
     37.78
   ],
@@ -2691,7 +2691,7 @@
     114.411156903368,
     27.8171012811047
   ],
-  "Seattle, WA (UNITED STATES) [700K]": [
+  "Seattle (UNITED STATES, WA) [700K]": [
     -122.338,
     47.607
   ],
@@ -2791,7 +2791,7 @@
     7.4943,
     6.4402
   ],
-  "Denver, CO (UNITED STATES) [700K]": [
+  "Denver (UNITED STATES, CO) [700K]": [
     -104.987,
     39.739
   ],
@@ -2927,11 +2927,11 @@
     120.991668838518,
     14.5007085657478
   ],
-  "Washington, DC (UNITED STATES) [500K]": [
+  "Washington (UNITED STATES, DC) [500K]": [
     -77.036,
     38.895
   ],
-  "Nashville, TN (UNITED STATES) [500K]": [
+  "Nashville (UNITED STATES, TN) [500K]": [
     -86.783,
     36.164
   ],
@@ -2971,7 +2971,7 @@
     113.54335786964,
     22.1899642858112
   ],
-  "Oklahoma City, OK (UNITED STATES) [500K]": [
+  "Oklahoma City (UNITED STATES, OK) [500K]": [
     -97.516,
     35.468
   ],
@@ -2991,7 +2991,7 @@
     2.41833,
     6.36536
   ],
-  "El Paso, TX (UNITED STATES) [500K]": [
+  "El Paso (UNITED STATES, TX) [500K]": [
     -106.488,
     31.76
   ],
@@ -3011,7 +3011,7 @@
     45.43,
     35.55
   ],
-  "Boston, MA (UNITED STATES) [500K]": [
+  "Boston (UNITED STATES, MA) [500K]": [
     -71.057,
     42.359
   ],
@@ -3111,7 +3111,7 @@
     36.72,
     34.73
   ],
-  "Portland, OR (UNITED STATES) [500K]": [
+  "Portland (UNITED STATES, OR) [500K]": [
     -122.679,
     45.519
   ],
@@ -3195,7 +3195,7 @@
     139.983,
     35.697
   ],
-  "Las Vegas, NV (UNITED STATES) [500K]": [
+  "Las Vegas (UNITED STATES, NV) [500K]": [
     -115.144,
     36.171
   ],
@@ -3203,7 +3203,7 @@
     36.33,
     41.28667
   ],
-  "Detroit, MI (UNITED STATES) [500K]": [
+  "Detroit (UNITED STATES, MI) [500K]": [
     -83.047,
     42.332
   ],
@@ -3235,11 +3235,11 @@
     -48.8464202405308,
     -26.3036930535571
   ],
-  "Memphis, TN (UNITED STATES) [500K]": [
+  "Memphis (UNITED STATES, TN) [500K]": [
     -90.052,
     35.146
   ],
-  "Louisville, KY (UNITED STATES) [500K]": [
+  "Louisville (UNITED STATES, KY) [500K]": [
     -85.757,
     38.257
   ],
@@ -3567,7 +3567,7 @@
     121.12711816743,
     31.4582476640017
   ],
-  "Baltimore, MD (UNITED STATES) [500K]": [
+  "Baltimore (UNITED STATES, MD) [500K]": [
     -76.615,
     39.289
   ],
@@ -3619,7 +3619,7 @@
     39.894,
     57.627
   ],
-  "Milwaukee, WI (UNITED STATES) [500K]": [
+  "Milwaukee (UNITED STATES, WI) [500K]": [
     -87.905,
     43.042
   ],
@@ -3711,7 +3711,7 @@
     113.481615945922,
     34.1417327049369
   ],
-  "Albuquerque, NM (UNITED STATES) [500K]": [
+  "Albuquerque (UNITED STATES, NM) [500K]": [
     -106.652,
     35.084
   ],
@@ -3899,7 +3899,7 @@
     121.044981992564,
     14.3891746234723
   ],
-  "Tucson, AZ (UNITED STATES) [500K]": [
+  "Tucson (UNITED STATES, AZ) [500K]": [
     -110.973,
     32.222
   ],
@@ -3915,7 +3915,7 @@
     74.63333,
     26.45
   ],
-  "Fresno, CA (UNITED STATES) [500K]": [
+  "Fresno (UNITED STATES, CA) [500K]": [
     -119.789,
     36.737
   ],
@@ -4087,7 +4087,7 @@
     43.38311,
     38.49239
   ],
-  "Sacramento, CA (UNITED STATES) [500K]": [
+  "Sacramento (UNITED STATES, CA) [500K]": [
     -121.496,
     38.577
   ],
@@ -4231,7 +4231,7 @@
     -63.17667,
     9.75
   ],
-  "Kansas City, MO (UNITED STATES) [500K]": [
+  "Kansas City (UNITED STATES, MO) [500K]": [
     -94.583,
     39.104
   ],
@@ -4267,7 +4267,7 @@
     -9.59815,
     30.42018
   ],
-  "Mesa, AZ (UNITED STATES) [500K]": [
+  "Mesa (UNITED STATES, AZ) [500K]": [
     -111.831,
     33.415
   ],
@@ -4339,7 +4339,7 @@
     44.7696294685824,
     1.71566887242026
   ],
-  "Atlanta, GA (UNITED STATES) [200K]": [
+  "Atlanta (UNITED STATES, GA) [200K]": [
     -84.39,
     33.749
   ],
@@ -4487,7 +4487,7 @@
     17.08323,
     -22.55941
   ],
-  "Omaha, NE (UNITED STATES) [200K]": [
+  "Omaha (UNITED STATES, NE) [200K]": [
     -95.94,
     41.26
   ],
@@ -4539,7 +4539,7 @@
     70.06667,
     22.46667
   ],
-  "Colorado Springs, CO (UNITED STATES) [200K]": [
+  "Colorado Springs (UNITED STATES, CO) [200K]": [
     -104.822,
     38.832
   ],
@@ -4667,7 +4667,7 @@
     102.637,
     37.928
   ],
-  "Raleigh, NC (UNITED STATES) [200K]": [
+  "Raleigh (UNITED STATES, NC) [200K]": [
     -78.639,
     35.78
   ],
@@ -4679,7 +4679,7 @@
     44.02,
     13.58
   ],
-  "Long Beach, CA (UNITED STATES) [200K]": [
+  "Long Beach (UNITED STATES, CA) [200K]": [
     -118.192,
     33.768
   ],
@@ -4771,7 +4771,7 @@
     135.398,
     34.735
   ],
-  "Virginia Beach, VA (UNITED STATES) [200K]": [
+  "Virginia Beach (UNITED STATES, VA) [200K]": [
     -75.974,
     36.845
   ],
@@ -4987,7 +4987,7 @@
     -103.242,
     20.624
   ],
-  "Miami, FL (UNITED STATES) [200K]": [
+  "Miami (UNITED STATES, FL) [200K]": [
     -80.192,
     25.774
   ],
@@ -5003,7 +5003,7 @@
     120.994602725377,
     14.5431537964691
   ],
-  "Oakland, CA (UNITED STATES) [200K]": [
+  "Oakland (UNITED STATES, CA) [200K]": [
     -122.271,
     37.804
   ],
@@ -5119,7 +5119,7 @@
     112.694323909205,
     22.3778296115815
   ],
-  "Minneapolis, MN (UNITED STATES) [200K]": [
+  "Minneapolis (UNITED STATES, MN) [200K]": [
     -93.272,
     44.977
   ],
@@ -5351,7 +5351,7 @@
     107.386339242909,
     40.7418110160402
   ],
-  "Tulsa, OK (UNITED STATES) [200K]": [
+  "Tulsa (UNITED STATES, OK) [200K]": [
     -95.991,
     36.153
   ],
@@ -5447,7 +5447,7 @@
     44.93,
     31.99
   ],
-  "Bakersfield, CA (UNITED STATES) [200K]": [
+  "Bakersfield (UNITED STATES, CA) [200K]": [
     -119.019,
     35.373
   ],
@@ -5543,7 +5543,7 @@
     110.98,
     22.92
   ],
-  "Wichita, KS (UNITED STATES) [200K]": [
+  "Wichita (UNITED STATES, KS) [200K]": [
     -97.338,
     37.686
   ],
@@ -5599,7 +5599,7 @@
     113.131757765914,
     40.9959990927132
   ],
-  "Arlington, TX (UNITED STATES) [200K]": [
+  "Arlington (UNITED STATES, TX) [200K]": [
     -97.107,
     32.737
   ],
@@ -5703,7 +5703,7 @@
     -99.014,
     19.676
   ],
-  "Aurora, CO (UNITED STATES) [200K]": [
+  "Aurora (UNITED STATES, CO) [200K]": [
     -104.847,
     39.726
   ],
@@ -5727,7 +5727,7 @@
     127.299,
     37.42
   ],
-  "Tampa, FL (UNITED STATES) [200K]": [
+  "Tampa (UNITED STATES, FL) [200K]": [
     -82.458,
     27.949
   ],
@@ -5759,7 +5759,7 @@
     90.25,
     23.84
   ],
-  "New Orleans, LA (UNITED STATES) [200K]": [
+  "New Orleans (UNITED STATES, LA) [200K]": [
     -90.063,
     29.957
   ],
@@ -5899,7 +5899,7 @@
     138.194,
     36.649
   ],
-  "Cleveland, OH (UNITED STATES) [200K]": [
+  "Cleveland (UNITED STATES, OH) [200K]": [
     -81.694,
     41.5
   ],
@@ -6259,7 +6259,7 @@
     129.039,
     35.343
   ],
-  "Honolulu, HI (UNITED STATES) [200K]": [
+  "Honolulu (UNITED STATES, HI) [200K]": [
     -157.86,
     21.306
   ],
@@ -6331,7 +6331,7 @@
     -2.923,
     43.257
   ],
-  "Anaheim, CA (UNITED STATES) [200K]": [
+  "Anaheim (UNITED STATES, CA) [200K]": [
     -117.913,
     33.833
   ],
@@ -6735,7 +6735,7 @@
     -1.557,
     47.217
   ],
-  "San Juan, PR (UNITED STATES) [200K]": [
+  "San Juan (UNITED STATES, PR) [200K]": [
     -66.117,
     18.465
   ],
@@ -6747,7 +6747,7 @@
     75.56667,
     13.91667
   ],
-  "Lexington, KY (UNITED STATES) [200K]": [
+  "Lexington (UNITED STATES, KY) [200K]": [
     -84.498,
     38.047
   ],
@@ -6779,7 +6779,7 @@
     -58.62,
     -34.65
   ],
-  "Stockton, CA (UNITED STATES) [200K]": [
+  "Stockton (UNITED STATES, CA) [200K]": [
     -121.293,
     37.955
   ],
@@ -6843,7 +6843,7 @@
     32.229,
     -2.871
   ],
-  "Corpus Christi, TX (UNITED STATES) [200K]": [
+  "Corpus Christi (UNITED STATES, TX) [200K]": [
     -97.395,
     27.797
   ],
@@ -6851,7 +6851,7 @@
     127.681,
     26.214
   ],
-  "Henderson, NV (UNITED STATES) [200K]": [
+  "Henderson (UNITED STATES, NV) [200K]": [
     -114.983,
     36.03
   ],
@@ -6911,7 +6911,7 @@
     103.21053,
     35.601183
   ],
-  "Riverside, CA (UNITED STATES) [200K]": [
+  "Riverside (UNITED STATES, CA) [200K]": [
     -117.374,
     33.983
   ],
@@ -7015,11 +7015,11 @@
     29.211,
     -25.875
   ],
-  "Newark, NJ (UNITED STATES) [200K]": [
+  "Newark (UNITED STATES, NJ) [200K]": [
     -74.172,
     40.736
   ],
-  "St Paul, MN (UNITED STATES) [200K]": [
+  "St Paul (UNITED STATES, MN) [200K]": [
     -93.094,
     44.946
   ],
@@ -7059,7 +7059,7 @@
     103.158464718451,
     23.3594469412
   ],
-  "Santa Ana, CA (UNITED STATES) [200K]": [
+  "Santa Ana (UNITED STATES, CA) [200K]": [
     -117.868,
     33.745
   ],
@@ -7091,7 +7091,7 @@
     -66.88333,
     10.43333
   ],
-  "Cincinnati, OH (UNITED STATES) [200K]": [
+  "Cincinnati (UNITED STATES, OH) [200K]": [
     -84.514,
     39.105
   ],
@@ -7131,11 +7131,11 @@
     140.106,
     39.719
   ],
-  "Irvine, CA (UNITED STATES) [200K]": [
+  "Irvine (UNITED STATES, CA) [200K]": [
     -117.796,
     33.684
   ],
-  "Orlando, FL (UNITED STATES) [200K]": [
+  "Orlando (UNITED STATES, FL) [200K]": [
     -81.378,
     28.543
   ],
@@ -7231,7 +7231,7 @@
     105.99381,
     31.55037
   ],
-  "Pittsburgh, PA (UNITED STATES) [200K]": [
+  "Pittsburgh (UNITED STATES, PA) [200K]": [
     -80.003,
     40.441
   ],
@@ -7259,7 +7259,7 @@
     -103.5,
     25.568
   ],
-  "St Louis, MO (UNITED STATES) [200K]": [
+  "St Louis (UNITED STATES, MO) [200K]": [
     -90.191,
     38.626
   ],
@@ -7319,7 +7319,7 @@
     46.36,
     40.68
   ],
-  "Greensboro, NC (UNITED STATES) [200K]": [
+  "Greensboro (UNITED STATES, NC) [200K]": [
     -79.792,
     36.073
   ],
@@ -7535,7 +7535,7 @@
     -58.5129230303231,
     -34.4729970762897
   ],
-  "Jersey City, NJ (UNITED STATES) [200K]": [
+  "Jersey City (UNITED STATES, NJ) [200K]": [
     -74.063,
     40.732
   ],
@@ -7571,7 +7571,7 @@
     7.744,
     48.583
   ],
-  "Anchorage, AK (UNITED STATES) [200K]": [
+  "Anchorage (UNITED STATES, AK) [200K]": [
     -149.885,
     61.218
   ],
@@ -7579,7 +7579,7 @@
     125.67528,
     42.52722
   ],
-  "Lincoln, NE (UNITED STATES) [200K]": [
+  "Lincoln (UNITED STATES, NE) [200K]": [
     -96.7,
     40.809
   ],
@@ -7699,7 +7699,7 @@
     75.88333,
     19.83333
   ],
-  "Plano, TX (UNITED STATES) [200K]": [
+  "Plano (UNITED STATES, TX) [200K]": [
     -96.698,
     33.02
   ],
@@ -7767,7 +7767,7 @@
     -122.95263,
     49.26636
   ],
-  "Durham, NC (UNITED STATES) [200K]": [
+  "Durham (UNITED STATES, NC) [200K]": [
     -78.901,
     35.995
   ],
@@ -7911,7 +7911,7 @@
     31.7,
     26.55
   ],
-  "Buffalo, NY (UNITED STATES) [200K]": [
+  "Buffalo (UNITED STATES, NY) [200K]": [
     -78.878,
     42.886
   ],
@@ -7963,7 +7963,7 @@
     -58.712,
     -34.542
   ],
-  "Chandler, AZ (UNITED STATES) [200K]": [
+  "Chandler (UNITED STATES, AZ) [200K]": [
     -111.841,
     33.306
   ],
@@ -7975,7 +7975,7 @@
     126.942,
     37.366
   ],
-  "Chula Vista, CA (UNITED STATES) [200K]": [
+  "Chula Vista (UNITED STATES, CA) [200K]": [
     -117.082,
     32.64
   ],
@@ -8099,7 +8099,7 @@
     -53.804,
     -29.69
   ],
-  "Toledo, OH (UNITED STATES) [200K]": [
+  "Toledo (UNITED STATES, OH) [200K]": [
     -83.542,
     41.651
   ],
@@ -8131,7 +8131,7 @@
     107.08,
     20.95111
   ],
-  "Madison, WI (UNITED STATES) [200K]": [
+  "Madison (UNITED STATES, WI) [200K]": [
     -89.383,
     43.074
   ],
@@ -8207,7 +8207,7 @@
     108.081926876138,
     24.6959240866371
   ],
-  "Gilbert, AZ (UNITED STATES) [200K]": [
+  "Gilbert (UNITED STATES, AZ) [200K]": [
     -111.79,
     33.354
   ],
@@ -8335,7 +8335,7 @@
     116.56667,
     38.06667
   ],
-  "Reno, NV (UNITED STATES) [200K]": [
+  "Reno (UNITED STATES, NV) [200K]": [
     -119.814,
     39.529
   ],
@@ -8359,7 +8359,7 @@
     109.18,
     13.78
   ],
-  "Fort Wayne, IN (UNITED STATES) [200K]": [
+  "Fort Wayne (UNITED STATES, IN) [200K]": [
     -85.14,
     41.08
   ],
@@ -8403,7 +8403,7 @@
     -73.51806,
     45.53121
   ],
-  "North Las Vegas, NV (UNITED STATES) [200K]": [
+  "North Las Vegas (UNITED STATES, NV) [200K]": [
     -115.12,
     36.202
   ],
@@ -8535,7 +8535,7 @@
     139.35,
     35.33
   ],
-  "St Petersburg, FL (UNITED STATES) [200K]": [
+  "St Petersburg (UNITED STATES, FL) [200K]": [
     -82.637,
     27.771
   ],
@@ -8571,7 +8571,7 @@
     -2.673,
     42.849
   ],
-  "Lubbock, TX (UNITED STATES) [200K]": [
+  "Lubbock (UNITED STATES, TX) [200K]": [
     -101.846,
     33.585
   ],
@@ -8599,7 +8599,7 @@
     79.0239,
     26.7769
   ],
-  "Irving, TX (UNITED STATES) [200K]": [
+  "Irving (UNITED STATES, TX) [200K]": [
     -96.946,
     32.814
   ],
@@ -8627,7 +8627,7 @@
     37.759,
     55.916
   ],
-  "Laredo, TX (UNITED STATES) [200K]": [
+  "Laredo (UNITED STATES, TX) [200K]": [
     -99.503,
     27.506
   ],
@@ -8855,7 +8855,7 @@
     -1.404,
     50.904
   ],
-  "Winston Salem, NC (UNITED STATES) [200K]": [
+  "Winston Salem (UNITED STATES, NC) [200K]": [
     -80.244,
     36.095
   ],
@@ -8863,7 +8863,7 @@
     80.3,
     13.16
   ],
-  "Chesapeake, VA (UNITED STATES) [200K]": [
+  "Chesapeake (UNITED STATES, VA) [200K]": [
     -76.271,
     36.809
   ],
@@ -8911,7 +8911,7 @@
     -48.175511833111,
     -21.7946536854624
   ],
-  "Glendale, AZ (UNITED STATES) [200K]": [
+  "Glendale (UNITED STATES, AZ) [200K]": [
     -112.186,
     33.539
   ],
@@ -9015,7 +9015,7 @@
     46.31667,
     -15.71667
   ],
-  "Garland, TX (UNITED STATES) [200K]": [
+  "Garland (UNITED STATES, TX) [200K]": [
     -96.639,
     32.913
   ],
@@ -9195,7 +9195,7 @@
     111.66778,
     32.38583
   ],
-  "Scottsdale, AZ (UNITED STATES) [200K]": [
+  "Scottsdale (UNITED STATES, AZ) [200K]": [
     -111.926,
     33.495
   ],
@@ -9339,7 +9339,7 @@
     116.567874054273,
     30.644608695647
   ],
-  "Norfolk, VA (UNITED STATES) [200K]": [
+  "Norfolk (UNITED STATES, VA) [200K]": [
     -76.292,
     36.848
   ],
@@ -9423,7 +9423,7 @@
     103.3328,
     2.0251
   ],
-  "Boise, ID (UNITED STATES) [200K]": [
+  "Boise (UNITED STATES, ID) [200K]": [
     -116.202,
     43.615
   ],
@@ -9611,7 +9611,7 @@
     30.2507731361521,
     1.56130185541353
   ],
-  "Fremont, CA (UNITED STATES) [200K]": [
+  "Fremont (UNITED STATES, CA) [200K]": [
     -121.988,
     37.549
   ],
@@ -9655,7 +9655,7 @@
     -49.2265918916384,
     -25.2919501123698
   ],
-  "Spokane, WA (UNITED STATES) [200K]": [
+  "Spokane (UNITED STATES, WA) [200K]": [
     -117.418,
     47.657
   ],
@@ -9671,7 +9671,7 @@
     -72.68333,
     19.45
   ],
-  "Santa Clarita, CA (UNITED STATES) [200K]": [
+  "Santa Clarita (UNITED STATES, CA) [200K]": [
     -118.541,
     34.38
   ],
@@ -9715,7 +9715,7 @@
     -78.50027,
     -7.16378
   ],
-  "Baton Rouge, LA (UNITED STATES) [200K]": [
+  "Baton Rouge (UNITED STATES, LA) [200K]": [
     -91.184,
     30.443
   ],
@@ -9751,7 +9751,7 @@
     -5.6697,
     11.3135
   ],
-  "Richmond, VA (UNITED STATES) [200K]": [
+  "Richmond (UNITED STATES, VA) [200K]": [
     -77.453,
     37.546
   ],
@@ -9955,7 +9955,7 @@
     -1.092,
     50.797
   ],
-  "Hialeah, FL (UNITED STATES) [200K]": [
+  "Hialeah (UNITED STATES, FL) [200K]": [
     -80.268,
     25.846
   ],
@@ -10003,7 +10003,7 @@
     34.49,
     31.53
   ],
-  "San Bernardino, CA (UNITED STATES) [200K]": [
+  "San Bernardino (UNITED STATES, CA) [200K]": [
     -117.292,
     34.106
   ],
@@ -10127,7 +10127,7 @@
     120.71667,
     40.61667
   ],
-  "Tacoma, WA (UNITED STATES) [200K]": [
+  "Tacoma (UNITED STATES, WA) [200K]": [
     -122.44,
     47.253
   ],
@@ -10167,7 +10167,7 @@
     121.18,
     14.08
   ],
-  "Modesto, CA (UNITED STATES) [200K]": [
+  "Modesto (UNITED STATES, CA) [200K]": [
     -120.997,
     37.639
   ],
@@ -10295,7 +10295,7 @@
     33.41,
     49.066
   ],
-  "Huntsville, AL (UNITED STATES) [200K]": [
+  "Huntsville (UNITED STATES, AL) [200K]": [
     -86.586,
     34.73
   ],
@@ -10327,7 +10327,7 @@
     33.84,
     27.24
   ],
-  "Des Moines, IA (UNITED STATES) [200K]": [
+  "Des Moines (UNITED STATES, IA) [200K]": [
     -93.626,
     41.587
   ],
@@ -10431,7 +10431,7 @@
     139.197,
     36.311
   ],
-  "Yonkers, NY (UNITED STATES) [200K]": [
+  "Yonkers (UNITED STATES, NY) [200K]": [
     -73.899,
     40.932
   ],
@@ -10443,7 +10443,7 @@
     105.08333,
     10.01667
   ],
-  "Rochester, NY (UNITED STATES) [200K]": [
+  "Rochester (UNITED STATES, NY) [200K]": [
     -77.613,
     43.156
   ],
@@ -10559,7 +10559,7 @@
     97.85,
     24.01
   ],
-  "Moreno Valley, CA (UNITED STATES) [200K]": [
+  "Moreno Valley (UNITED STATES, CA) [200K]": [
     -117.229,
     33.936
   ],
@@ -10571,7 +10571,7 @@
     40.4942285989267,
     -12.9616320569627
   ],
-  "Fayetteville, NC (UNITED STATES) [200K]": [
+  "Fayetteville (UNITED STATES, NC) [200K]": [
     -78.878,
     35.053
   ],
@@ -10587,7 +10587,7 @@
     36.98,
     -15.46
   ],
-  "Fontana, CA (UNITED STATES) [200K]": [
+  "Fontana (UNITED STATES, CA) [200K]": [
     -117.436,
     34.101
   ],
@@ -10647,7 +10647,7 @@
     124.285,
     8.003
   ],
-  "Columbus, GA (UNITED STATES) [200K]": [
+  "Columbus (UNITED STATES, GA) [200K]": [
     -84.988,
     32.469
   ],
@@ -10655,7 +10655,7 @@
     6.17,
     46.2
   ],
-  "Worcester, MA (UNITED STATES) [200K]": [
+  "Worcester (UNITED STATES, MA) [200K]": [
     -71.802,
     42.263
   ],
@@ -10727,7 +10727,7 @@
     68.642,
     27.959
   ],
-  "Port St Lucie, FL (UNITED STATES) [200K]": [
+  "Port St Lucie (UNITED STATES, FL) [200K]": [
     -80.355,
     27.276
   ],
@@ -10815,7 +10815,7 @@
     -109.925,
     22.897
   ],
-  "Little Rock, AR (UNITED STATES) [200K]": [
+  "Little Rock (UNITED STATES, AR) [200K]": [
     -92.288,
     34.747
   ],
@@ -10831,11 +10831,11 @@
     108.44193,
     11.94646
   ],
-  "Augusta, GA (UNITED STATES) [200K]": [
+  "Augusta (UNITED STATES, GA) [200K]": [
     -81.966,
     33.476
   ],
-  "Oxnard, CA (UNITED STATES) [200K]": [
+  "Oxnard (UNITED STATES, CA) [200K]": [
     -119.177,
     34.198
   ],
@@ -10899,7 +10899,7 @@
     76.33333,
     21.83333
   ],
-  "Birmingham, AL (UNITED STATES) [200K]": [
+  "Birmingham (UNITED STATES, AL) [200K]": [
     -86.806,
     33.514
   ],
@@ -10907,7 +10907,7 @@
     113.92,
     -2.21
   ],
-  "Montgomery, AL (UNITED STATES) [200K]": [
+  "Montgomery (UNITED STATES, AL) [200K]": [
     -86.301,
     32.378
   ],
@@ -10923,7 +10923,7 @@
     78.48333,
     15.48333
   ],
-  "Frisco, TX (UNITED STATES) [200K]": [
+  "Frisco (UNITED STATES, TX) [200K]": [
     -96.825,
     33.151
   ],
@@ -10935,7 +10935,7 @@
     51.161,
     35.562
   ],
-  "Amarillo, TX (UNITED STATES) [200K]": [
+  "Amarillo (UNITED STATES, TX) [200K]": [
     -101.836,
     35.207
   ],
@@ -10967,7 +10967,7 @@
     -3.364,
     40.482
   ],
-  "Salt Lake City, UT (UNITED STATES) [100K]": [
+  "Salt Lake City (UNITED STATES, UT) [100K]": [
     -111.891,
     40.769
   ],
@@ -10991,7 +10991,7 @@
     41.03808,
     30.97531
   ],
-  "Grand Rapids, MI (UNITED STATES) [100K]": [
+  "Grand Rapids (UNITED STATES, MI) [100K]": [
     -85.668,
     42.963
   ],
@@ -11015,7 +11015,7 @@
     139.488,
     35.731
   ],
-  "Huntington Beach, CA (UNITED STATES) [100K]": [
+  "Huntington Beach (UNITED STATES, CA) [100K]": [
     -118.0,
     33.659
   ],
@@ -11115,7 +11115,7 @@
     87.274514,
     26.662958
   ],
-  "Overland Park, KS (UNITED STATES) [100K]": [
+  "Overland Park (UNITED STATES, KS) [100K]": [
     -94.668,
     38.986
   ],
@@ -11151,7 +11151,7 @@
     132.745,
     34.426
   ],
-  "Glendale, CA (UNITED STATES) [100K]": [
+  "Glendale (UNITED STATES, CA) [100K]": [
     -118.258,
     34.143
   ],
@@ -11179,7 +11179,7 @@
     -71.25417,
     -29.90778
   ],
-  "Tallahassee, FL (UNITED STATES) [100K]": [
+  "Tallahassee (UNITED STATES, FL) [100K]": [
     -84.282,
     30.438
   ],
@@ -11191,7 +11191,7 @@
     88.4535808128216,
     22.6952599239974
   ],
-  "Grand Prairie, TX (UNITED STATES) [100K]": [
+  "Grand Prairie (UNITED STATES, TX) [100K]": [
     -97.004,
     32.745
   ],
@@ -11235,7 +11235,7 @@
     139.571,
     35.689
   ],
-  "McKinney, TX (UNITED STATES) [100K]": [
+  "McKinney (UNITED STATES, TX) [100K]": [
     -96.616,
     33.197
   ],
@@ -11303,7 +11303,7 @@
     46.416,
     33.638
   ],
-  "Cape Coral, FL (UNITED STATES) [100K]": [
+  "Cape Coral (UNITED STATES, FL) [100K]": [
     -81.95,
     26.563
   ],
@@ -11363,7 +11363,7 @@
     126.55444,
     37.97083
   ],
-  "Sioux Falls, SD (UNITED STATES) [100K]": [
+  "Sioux Falls (UNITED STATES, SD) [100K]": [
     -96.727,
     43.547
   ],
@@ -11435,7 +11435,7 @@
     -68.0125,
     10.47306
   ],
-  "Peoria, AZ (UNITED STATES) [100K]": [
+  "Peoria (UNITED STATES, AZ) [100K]": [
     -112.238,
     33.582
   ],
@@ -11447,15 +11447,15 @@
     112.7914,
     34.907314
   ],
-  "Providence, RI (UNITED STATES) [100K]": [
+  "Providence (UNITED STATES, RI) [100K]": [
     -71.413,
     41.824
   ],
-  "Vancouver, WA (UNITED STATES) [100K]": [
+  "Vancouver (UNITED STATES, WA) [100K]": [
     -122.677,
     45.63
   ],
-  "Knoxville, TN (UNITED STATES) [100K]": [
+  "Knoxville (UNITED STATES, TN) [100K]": [
     -83.918,
     35.962
   ],
@@ -11479,7 +11479,7 @@
     -3.8,
     40.283
   ],
-  "Akron, OH (UNITED STATES) [100K]": [
+  "Akron (UNITED STATES, OH) [100K]": [
     -81.517,
     41.085
   ],
@@ -11635,7 +11635,7 @@
     37.341,
     55.816
   ],
-  "Shreveport, LA (UNITED STATES) [100K]": [
+  "Shreveport (UNITED STATES, LA) [100K]": [
     -93.748,
     32.514
   ],
@@ -11667,7 +11667,7 @@
     -52.0964903711712,
     -32.0305070400136
   ],
-  "Mobile, AL (UNITED STATES) [100K]": [
+  "Mobile (UNITED STATES, AL) [100K]": [
     -88.046,
     30.691
   ],
@@ -11683,7 +11683,7 @@
     17.24,
     40.469
   ],
-  "Brownsville, TX (UNITED STATES) [100K]": [
+  "Brownsville (UNITED STATES, TX) [100K]": [
     -97.498,
     25.902
   ],
@@ -11715,7 +11715,7 @@
     112.9075,
     -7.6453
   ],
-  "Newport News, VA (UNITED STATES) [100K]": [
+  "Newport News (UNITED STATES, VA) [100K]": [
     -76.431,
     36.98
   ],
@@ -11879,7 +11879,7 @@
     13.053,
     52.398
   ],
-  "Fort Lauderdale, FL (UNITED STATES) [100K]": [
+  "Fort Lauderdale (UNITED STATES, FL) [100K]": [
     -80.143,
     26.119
   ],
@@ -11951,7 +11951,7 @@
     50.985,
     35.729
   ],
-  "Chattanooga, TN (UNITED STATES) [100K]": [
+  "Chattanooga (UNITED STATES, TN) [100K]": [
     -85.31,
     35.05
   ],
@@ -11975,11 +11975,11 @@
     129.41667,
     44.58333
   ],
-  "Tempe, AZ (UNITED STATES) [100K]": [
+  "Tempe (UNITED STATES, AZ) [100K]": [
     -111.909,
     33.415
   ],
-  "Aurora, IL (UNITED STATES) [100K]": [
+  "Aurora (UNITED STATES, IL) [100K]": [
     -88.315,
     41.758
   ],
@@ -12135,7 +12135,7 @@
     12.6741237979815,
     -4.19575635226856
   ],
-  "Santa Rosa, CA (UNITED STATES) [100K]": [
+  "Santa Rosa (UNITED STATES, CA) [100K]": [
     -122.713,
     38.44
   ],
@@ -12231,7 +12231,7 @@
     -114.781,
     32.466
   ],
-  "Eugene, OR (UNITED STATES) [100K]": [
+  "Eugene (UNITED STATES, OR) [100K]": [
     -123.093,
     44.05
   ],
@@ -12275,7 +12275,7 @@
     -76.95,
     20.96
   ],
-  "Elk Grove, CA (UNITED STATES) [100K]": [
+  "Elk Grove (UNITED STATES, CA) [100K]": [
     -121.371,
     38.409
   ],
@@ -12295,7 +12295,7 @@
     95.38333,
     21.46667
   ],
-  "Salem, OR (UNITED STATES) [100K]": [
+  "Salem (UNITED STATES, OR) [100K]": [
     -123.032,
     44.939
   ],
@@ -12311,7 +12311,7 @@
     111.372,
     35.619106
   ],
-  "Ontario, CA (UNITED STATES) [100K]": [
+  "Ontario (UNITED STATES, CA) [100K]": [
     -117.651,
     34.063
   ],
@@ -12339,7 +12339,7 @@
     -3.828,
     40.349
   ],
-  "Cary, NC (UNITED STATES) [100K]": [
+  "Cary (UNITED STATES, NC) [100K]": [
     -78.783,
     35.787
   ],
@@ -12367,7 +12367,7 @@
     88.209,
     69.344
   ],
-  "Rancho Cucamonga, CA (UNITED STATES) [100K]": [
+  "Rancho Cucamonga (UNITED STATES, CA) [100K]": [
     -117.594,
     34.107
   ],
@@ -12403,7 +12403,7 @@
     -1.857,
     38.996
   ],
-  "Oceanside, CA (UNITED STATES) [100K]": [
+  "Oceanside (UNITED STATES, CA) [100K]": [
     -117.384,
     33.195
   ],
@@ -12455,7 +12455,7 @@
     -17.033333,
     20.933333
   ],
-  "Lancaster, CA (UNITED STATES) [100K]": [
+  "Lancaster (UNITED STATES, CA) [100K]": [
     -118.148,
     34.697
   ],
@@ -12551,7 +12551,7 @@
     120.98,
     15.146
   ],
-  "Garden Grove, CA (UNITED STATES) [100K]": [
+  "Garden Grove (UNITED STATES, CA) [100K]": [
     -117.941,
     33.775
   ],
@@ -12607,7 +12607,7 @@
     68.717,
     25.463
   ],
-  "Pembroke Pines, FL (UNITED STATES) [100K]": [
+  "Pembroke Pines (UNITED STATES, FL) [100K]": [
     -80.223,
     26.002
   ],
@@ -12727,7 +12727,7 @@
     21.73,
     38.24
   ],
-  "Fort Collins, CO (UNITED STATES) [100K]": [
+  "Fort Collins (UNITED STATES, CO) [100K]": [
     -105.077,
     40.587
   ],
@@ -12755,7 +12755,7 @@
     77.16667,
     31.1
   ],
-  "Palmdale, CA (UNITED STATES) [100K]": [
+  "Palmdale (UNITED STATES, CA) [100K]": [
     -118.117,
     34.58
   ],
@@ -12771,7 +12771,7 @@
     105.208,
     25.439
   ],
-  "Springfield, MO (UNITED STATES) [100K]": [
+  "Springfield (UNITED STATES, MO) [100K]": [
     -93.292,
     37.209
   ],
@@ -12943,7 +12943,7 @@
     -122.328,
     49.05461
   ],
-  "Clarksville, TN (UNITED STATES) [100K]": [
+  "Clarksville (UNITED STATES, TN) [100K]": [
     -87.361,
     36.528
   ],
@@ -13051,7 +13051,7 @@
     -15.9297691186538,
     23.6990963471346
   ],
-  "Bayamon, PR (UNITED STATES) [100K]": [
+  "Bayamon (UNITED STATES, PR) [100K]": [
     -66.158,
     18.398
   ],
@@ -13175,7 +13175,7 @@
     126.05611,
     42.94222
   ],
-  "Salinas, CA (UNITED STATES) [100K]": [
+  "Salinas (UNITED STATES, CA) [100K]": [
     -121.655,
     36.678
   ],
@@ -13203,7 +13203,7 @@
     81.036,
     21.093
   ],
-  "Hayward, CA (UNITED STATES) [100K]": [
+  "Hayward (UNITED STATES, CA) [100K]": [
     -122.085,
     37.671
   ],
@@ -13379,7 +13379,7 @@
     -90.038,
     14.611
   ],
-  "Paterson, NJ (UNITED STATES) [100K]": [
+  "Paterson (UNITED STATES, NJ) [100K]": [
     -74.172,
     40.917
   ],
@@ -13391,7 +13391,7 @@
     102.249857537203,
     5.95814320645323
   ],
-  "Alexandria, VA (UNITED STATES) [100K]": [
+  "Alexandria (UNITED STATES, VA) [100K]": [
     -77.047,
     38.805
   ],
@@ -13583,7 +13583,7 @@
     22.455,
     -33.961
   ],
-  "Macon, GA (UNITED STATES) [100K]": [
+  "Macon (UNITED STATES, GA) [100K]": [
     -83.628,
     32.838
   ],
@@ -13607,7 +13607,7 @@
     -0.549,
     47.469
   ],
-  "Corona, CA (UNITED STATES) [100K]": [
+  "Corona (UNITED STATES, CA) [100K]": [
     -117.567,
     33.876
   ],
@@ -13659,7 +13659,7 @@
     75.20278,
     31.81861
   ],
-  "Kansas City, KS (UNITED STATES) [100K]": [
+  "Kansas City (UNITED STATES, KS) [100K]": [
     -94.627,
     39.116
   ],
@@ -13739,7 +13739,7 @@
     65.33,
     40.07
   ],
-  "Lakewood, CO (UNITED STATES) [100K]": [
+  "Lakewood (UNITED STATES, CO) [100K]": [
     -105.081,
     39.705
   ],
@@ -13751,7 +13751,7 @@
     77.81667,
     23.53333
   ],
-  "Springfield, MA (UNITED STATES) [100K]": [
+  "Springfield (UNITED STATES, MA) [100K]": [
     -72.589,
     42.101
   ],
@@ -13759,7 +13759,7 @@
     4.71667,
     8.15
   ],
-  "Sunnyvale, CA (UNITED STATES) [100K]": [
+  "Sunnyvale (UNITED STATES, CA) [100K]": [
     -122.037,
     37.369
   ],
@@ -13963,7 +13963,7 @@
     79.09,
     13.21
   ],
-  "Jackson, MS (UNITED STATES) [100K]": [
+  "Jackson (UNITED STATES, MS) [100K]": [
     -90.186,
     32.3
   ],
@@ -14003,7 +14003,7 @@
     145.7666667,
     -16.9166667
   ],
-  "Killeen, TX (UNITED STATES) [100K]": [
+  "Killeen (UNITED STATES, TX) [100K]": [
     -97.73,
     31.117
   ],
@@ -14011,7 +14011,7 @@
     6.692,
     51.199
   ],
-  "Hollywood, FL (UNITED STATES) [100K]": [
+  "Hollywood (UNITED STATES, FL) [100K]": [
     -80.149,
     26.011
   ],
@@ -14027,7 +14027,7 @@
     88.3773134413701,
     22.7643458673882
   ],
-  "Murfreesboro, TN (UNITED STATES) [100K]": [
+  "Murfreesboro (UNITED STATES, TN) [100K]": [
     -86.392,
     35.846
   ],
@@ -14079,7 +14079,7 @@
     80.76667,
     27.95
   ],
-  "Pasadena, TX (UNITED STATES) [100K]": [
+  "Pasadena (UNITED STATES, TX) [100K]": [
     -95.209,
     29.691
   ],
@@ -14087,7 +14087,7 @@
     55.167,
     37.252
   ],
-  "Bellevue, WA (UNITED STATES) [100K]": [
+  "Bellevue (UNITED STATES, WA) [100K]": [
     -122.202,
     47.617
   ],
@@ -14107,7 +14107,7 @@
     69.60929,
     21.64219
   ],
-  "Pomona, CA (UNITED STATES) [100K]": [
+  "Pomona (UNITED STATES, CA) [100K]": [
     -117.752,
     34.059
   ],
@@ -14155,7 +14155,7 @@
     75.71667,
     13.86667
   ],
-  "Escondido, CA (UNITED STATES) [100K]": [
+  "Escondido (UNITED STATES, CA) [100K]": [
     -117.081,
     33.122
   ],
@@ -14223,7 +14223,7 @@
     75.16667,
     30.8
   ],
-  "Joliet, IL (UNITED STATES) [100K]": [
+  "Joliet (UNITED STATES, IL) [100K]": [
     -88.082,
     41.525
   ],
@@ -14231,7 +14231,7 @@
     12.563,
     44.059
   ],
-  "Charleston, SC (UNITED STATES) [100K]": [
+  "Charleston (UNITED STATES, SC) [100K]": [
     -79.931,
     32.776
   ],
@@ -14247,7 +14247,7 @@
     -66.04,
     -17.4
   ],
-  "Mesquite, TX (UNITED STATES) [100K]": [
+  "Mesquite (UNITED STATES, TX) [100K]": [
     -96.599,
     32.767
   ],
@@ -14287,7 +14287,7 @@
     -79.24958,
     43.16681
   ],
-  "Naperville, IL (UNITED STATES) [100K]": [
+  "Naperville (UNITED STATES, IL) [100K]": [
     -88.148,
     41.774
   ],
@@ -14399,15 +14399,15 @@
     139.414,
     35.857
   ],
-  "Rockford, IL (UNITED STATES) [100K]": [
+  "Rockford (UNITED STATES, IL) [100K]": [
     -89.095,
     42.271
   ],
-  "Bridgeport, CT (UNITED STATES) [100K]": [
+  "Bridgeport (UNITED STATES, CT) [100K]": [
     -73.194,
     41.198
   ],
-  "Syracuse, NY (UNITED STATES) [100K]": [
+  "Syracuse (UNITED STATES, NY) [100K]": [
     -76.149,
     43.047
   ],
@@ -14471,11 +14471,11 @@
     101.04237,
     4.470586
   ],
-  "Savannah, GA (UNITED STATES) [100K]": [
+  "Savannah (UNITED STATES, GA) [100K]": [
     -81.091,
     32.079
   ],
-  "Roseville, CA (UNITED STATES) [100K]": [
+  "Roseville (UNITED STATES, CA) [100K]": [
     -121.288,
     38.752
   ],
@@ -14567,7 +14567,7 @@
     37.535,
     48.725
   ],
-  "Torrance, CA (UNITED STATES) [100K]": [
+  "Torrance (UNITED STATES, CA) [100K]": [
     -118.34,
     33.836
   ],
@@ -14847,7 +14847,7 @@
     73.63333,
     22.75
   ],
-  "Fullerton, CA (UNITED STATES) [100K]": [
+  "Fullerton (UNITED STATES, CA) [100K]": [
     -117.924,
     33.87
   ],
@@ -14911,7 +14911,7 @@
     91.88313,
     25.56892
   ],
-  "Surprise, AZ (UNITED STATES) [100K]": [
+  "Surprise (UNITED STATES, AZ) [100K]": [
     -112.377,
     33.63
   ],
@@ -14987,7 +14987,7 @@
     106.05,
     38.03
   ],
-  "McAllen, TX (UNITED STATES) [100K]": [
+  "McAllen (UNITED STATES, TX) [100K]": [
     -98.231,
     26.203
   ],
@@ -15019,7 +15019,7 @@
     69.59,
     40.85
   ],
-  "Thornton, CO (UNITED STATES) [100K]": [
+  "Thornton (UNITED STATES, CO) [100K]": [
     -104.972,
     39.871
   ],
@@ -15067,7 +15067,7 @@
     -89.188072898475,
     13.7228855432671
   ],
-  "Visalia, CA (UNITED STATES) [100K]": [
+  "Visalia (UNITED STATES, CA) [100K]": [
     -119.292,
     36.33
   ],
@@ -15079,7 +15079,7 @@
     -51.1013389579939,
     -29.9516684847436
   ],
-  "Olathe, KS (UNITED STATES) [100K]": [
+  "Olathe (UNITED STATES, KS) [100K]": [
     -94.82,
     38.882
   ],
@@ -15091,7 +15091,7 @@
     139.285,
     36.193
   ],
-  "Gainesville, FL (UNITED STATES) [100K]": [
+  "Gainesville (UNITED STATES, FL) [100K]": [
     -82.325,
     29.652
   ],
@@ -15171,7 +15171,7 @@
     117.5,
     0.13333
   ],
-  "West Valley City, UT (UNITED STATES) [100K]": [
+  "West Valley City (UNITED STATES, UT) [100K]": [
     -111.996,
     40.697
   ],
@@ -15215,7 +15215,7 @@
     132.857,
     42.788
   ],
-  "Orange, CA (UNITED STATES) [100K]": [
+  "Orange (UNITED STATES, CA) [100K]": [
     -117.853,
     33.788
   ],
@@ -15227,7 +15227,7 @@
     116.233333,
     6.183333
   ],
-  "Denton, TX (UNITED STATES) [100K]": [
+  "Denton (UNITED STATES, TX) [100K]": [
     -97.132,
     33.215
   ],
@@ -15275,7 +15275,7 @@
     121.286,
     14.497
   ],
-  "Warren, MI (UNITED STATES) [100K]": [
+  "Warren (UNITED STATES, MI) [100K]": [
     -83.028,
     42.492
   ],
@@ -15327,7 +15327,7 @@
     105.6975,
     28.591869
   ],
-  "Pasadena, CA (UNITED STATES) [100K]": [
+  "Pasadena (UNITED STATES, CA) [100K]": [
     -118.143,
     34.148
   ],
@@ -15343,7 +15343,7 @@
     -47.2897775668479,
     -23.204136633553
   ],
-  "Waco, TX (UNITED STATES) [100K]": [
+  "Waco (UNITED STATES, TX) [100K]": [
     -97.132,
     31.557
   ],
@@ -15359,7 +15359,7 @@
     89.075,
     22.716667
   ],
-  "Carolina, PR (UNITED STATES) [100K]": [
+  "Carolina (UNITED STATES, PR) [100K]": [
     -65.984,
     18.408
   ],
@@ -15403,7 +15403,7 @@
     -23.50868,
     14.92148
   ],
-  "Cedar Rapids, IA (UNITED STATES) [100K]": [
+  "Cedar Rapids (UNITED STATES, IA) [100K]": [
     -91.664,
     41.978
   ],
@@ -15411,7 +15411,7 @@
     0.689,
     47.39
   ],
-  "Dayton, OH (UNITED STATES) [100K]": [
+  "Dayton (UNITED STATES, OH) [100K]": [
     -84.191,
     39.758
   ],
@@ -15447,7 +15447,7 @@
     105.98,
     9.60333
   ],
-  "Elizabeth, NJ (UNITED STATES) [100K]": [
+  "Elizabeth (UNITED STATES, NJ) [100K]": [
     -74.215,
     40.665
   ],
@@ -15475,7 +15475,7 @@
     84.185,
     24.904
   ],
-  "Hampton, VA (UNITED STATES) [100K]": [
+  "Hampton (UNITED STATES, VA) [100K]": [
     -76.344,
     37.026
   ],
@@ -15535,7 +15535,7 @@
     46.173,
     35.523
   ],
-  "Columbia, SC (UNITED STATES) [100K]": [
+  "Columbia (UNITED STATES, SC) [100K]": [
     -81.034,
     34.001
   ],
@@ -15543,7 +15543,7 @@
     6.01055397809343,
     9.07552988011245
   ],
-  "Kent, WA (UNITED STATES) [100K]": [
+  "Kent (UNITED STATES, WA) [100K]": [
     -122.231,
     47.381
   ],
@@ -15687,7 +15687,7 @@
     109.675333489355,
     37.1430883036965
   ],
-  "Stamford, CT (UNITED STATES) [100K]": [
+  "Stamford (UNITED STATES, CT) [100K]": [
     -73.567,
     41.124
   ],
@@ -15707,7 +15707,7 @@
     42.69974,
     42.24961
   ],
-  "Lakewood, NJ (UNITED STATES) [100K]": [
+  "Lakewood (UNITED STATES, NJ) [100K]": [
     -74.199,
     40.076
   ],
@@ -15739,7 +15739,7 @@
     38.756,
     55.101
   ],
-  "Victorville, CA (UNITED STATES) [100K]": [
+  "Victorville (UNITED STATES, CA) [100K]": [
     -117.294,
     34.537
   ],
@@ -15751,7 +15751,7 @@
     136.78,
     35.248
   ],
-  "Miramar, FL (UNITED STATES) [100K]": [
+  "Miramar (UNITED STATES, FL) [100K]": [
     -80.238,
     25.987
   ],
@@ -15775,7 +15775,7 @@
     46.106,
     36.966
   ],
-  "Coral Springs, FL (UNITED STATES) [100K]": [
+  "Coral Springs (UNITED STATES, FL) [100K]": [
     -80.266,
     26.273
   ],
@@ -15783,7 +15783,7 @@
     2.86514,
     33.8
   ],
-  "Sterling Heights, MI (UNITED STATES) [100K]": [
+  "Sterling Heights (UNITED STATES, MI) [100K]": [
     -83.03,
     42.58
   ],
@@ -15807,7 +15807,7 @@
     42.19028,
     37.32722
   ],
-  "New Haven, CT (UNITED STATES) [100K]": [
+  "New Haven (UNITED STATES, CT) [100K]": [
     -72.931,
     41.313
   ],
@@ -15871,7 +15871,7 @@
     76.09944,
     13.00056
   ],
-  "Carrollton, TX (UNITED STATES) [100K]": [
+  "Carrollton (UNITED STATES, TX) [100K]": [
     -96.89,
     32.954
   ],
@@ -15971,7 +15971,7 @@
     -43.7862634620251,
     -20.6603210504671
   ],
-  "Midland, TX (UNITED STATES) [100K]": [
+  "Midland (UNITED STATES, TX) [100K]": [
     -102.074,
     31.998
   ],
@@ -16387,7 +16387,7 @@
     79.066667,
     39.866667
   ],
-  "Norman, OK (UNITED STATES) [100K]": [
+  "Norman (UNITED STATES, OK) [100K]": [
     -97.443,
     35.221
   ],
@@ -16415,7 +16415,7 @@
     120.77,
     15.66
   ],
-  "Santa Clara, CA (UNITED STATES) [100K]": [
+  "Santa Clara (UNITED STATES, CA) [100K]": [
     -121.954,
     37.354
   ],
@@ -16455,7 +16455,7 @@
     140.955,
     38.577
   ],
-  "Athens, GA (UNITED STATES) [100K]": [
+  "Athens (UNITED STATES, GA) [100K]": [
     -83.375,
     33.958
   ],
@@ -16491,7 +16491,7 @@
     39.753,
     47.138
   ],
-  "Thousand Oaks, CA (UNITED STATES) [100K]": [
+  "Thousand Oaks (UNITED STATES, CA) [100K]": [
     -118.845,
     34.175
   ],
@@ -16527,7 +16527,7 @@
     14.766,
     40.678
   ],
-  "Topeka, KS (UNITED STATES) [100K]": [
+  "Topeka (UNITED STATES, KS) [100K]": [
     -95.677,
     39.05
   ],
@@ -16551,7 +16551,7 @@
     130.691,
     33.645
   ],
-  "Simi Valley, CA (UNITED STATES) [100K]": [
+  "Simi Valley (UNITED STATES, CA) [100K]": [
     -118.779,
     34.272
   ],
@@ -16575,7 +16575,7 @@
     -43.3591034242876,
     -4.86487425997046
   ],
-  "Columbia, MO (UNITED STATES) [100K]": [
+  "Columbia (UNITED STATES, MO) [100K]": [
     -92.329,
     38.952
   ],
@@ -16603,7 +16603,7 @@
     -71.23333,
     -34.98333
   ],
-  "Vallejo, CA (UNITED STATES) [100K]": [
+  "Vallejo (UNITED STATES, CA) [100K]": [
     -122.255,
     38.101
   ],
@@ -16619,7 +16619,7 @@
     139.506,
     35.7
   ],
-  "Fargo, ND (UNITED STATES) [100K]": [
+  "Fargo (UNITED STATES, ND) [100K]": [
     -96.788,
     46.874
   ],
@@ -16639,7 +16639,7 @@
     -70.91667,
     -53.15
   ],
-  "Allentown, PA (UNITED STATES) [100K]": [
+  "Allentown (UNITED STATES, PA) [100K]": [
     -75.472,
     40.602
   ],
@@ -16647,7 +16647,7 @@
     -6.06627,
     33.82404
   ],
-  "Pearland, TX (UNITED STATES) [100K]": [
+  "Pearland (UNITED STATES, TX) [100K]": [
     -95.286,
     29.564
   ],
@@ -16679,7 +16679,7 @@
     72.174,
     29.804
   ],
-  "Concord, CA (UNITED STATES) [100K]": [
+  "Concord (UNITED STATES, CA) [100K]": [
     -122.034,
     37.977
   ],
@@ -16739,7 +16739,7 @@
     33.186,
     -4.217
   ],
-  "Abilene, TX (UNITED STATES) [100K]": [
+  "Abilene (UNITED STATES, TX) [100K]": [
     -99.733,
     32.449
   ],
@@ -16839,7 +16839,7 @@
     6.139,
     6.74206
   ],
-  "Arvada, CO (UNITED STATES) [100K]": [
+  "Arvada (UNITED STATES, CO) [100K]": [
     -105.081,
     39.802
   ],
@@ -16851,7 +16851,7 @@
     106.33333,
     20.45
   ],
-  "Berkeley, CA (UNITED STATES) [100K]": [
+  "Berkeley (UNITED STATES, CA) [100K]": [
     -122.268,
     37.871
   ],
@@ -16903,7 +16903,7 @@
     34.71222,
     38.625
   ],
-  "Ann Arbor, MI (UNITED STATES) [100K]": [
+  "Ann Arbor (UNITED STATES, MI) [100K]": [
     -83.748,
     42.281
   ],
@@ -16987,7 +16987,7 @@
     32.95,
     24.47
   ],
-  "Independence, MO (UNITED STATES) [100K]": [
+  "Independence (UNITED STATES, MO) [100K]": [
     -94.416,
     39.092
   ],
@@ -17195,11 +17195,11 @@
     -3.634,
     40.541
   ],
-  "Rochester, MN (UNITED STATES) [100K]": [
+  "Rochester (UNITED STATES, MN) [100K]": [
     -92.463,
     44.023
   ],
-  "Lafayette, LA (UNITED STATES) [100K]": [
+  "Lafayette (UNITED STATES, LA) [100K]": [
     -92.02,
     30.223
   ],
@@ -17243,7 +17243,7 @@
     141.523,
     43.095
   ],
-  "Hartford, CT (UNITED STATES) [100K]": [
+  "Hartford (UNITED STATES, CT) [100K]": [
     -72.689,
     41.761
   ],
@@ -17331,7 +17331,7 @@
     -0.19,
     51.115
   ],
-  "College Station, TX (UNITED STATES) [100K]": [
+  "College Station (UNITED STATES, TX) [100K]": [
     -96.335,
     30.628
   ],
@@ -17395,7 +17395,7 @@
     100.634,
     13.53
   ],
-  "Clovis, CA (UNITED STATES) [100K]": [
+  "Clovis (UNITED STATES, CA) [100K]": [
     -119.7,
     36.825
   ],
@@ -17415,7 +17415,7 @@
     47.048186,
     40.768169
   ],
-  "Fairfield, CA (UNITED STATES) [100K]": [
+  "Fairfield (UNITED STATES, CA) [100K]": [
     -122.04,
     38.249
   ],
@@ -17447,7 +17447,7 @@
     135.592,
     34.74
   ],
-  "Palm Bay, FL (UNITED STATES) [100K]": [
+  "Palm Bay (UNITED STATES, FL) [100K]": [
     -80.622,
     28.035
   ],
@@ -17491,11 +17491,11 @@
     120.83,
     15.09
   ],
-  "Richardson, TX (UNITED STATES) [100K]": [
+  "Richardson (UNITED STATES, TX) [100K]": [
     -96.732,
     32.949
   ],
-  "Round Rock, TX (UNITED STATES) [100K]": [
+  "Round Rock (UNITED STATES, TX) [100K]": [
     -97.679,
     30.509
   ],
@@ -17619,7 +17619,7 @@
     120.768356915051,
     14.9158917814359
   ],
-  "Cambridge, MA (UNITED STATES) [100K]": [
+  "Cambridge (UNITED STATES, MA) [100K]": [
     -71.117,
     42.376
   ],
@@ -17771,7 +17771,7 @@
     135.554,
     34.577
   ],
-  "Meridian, ID (UNITED STATES) [100K]": [
+  "Meridian (UNITED STATES, ID) [100K]": [
     -116.392,
     43.605
   ],
@@ -17803,7 +17803,7 @@
     -4.76,
     10.63
   ],
-  "West Palm Beach, FL (UNITED STATES) [100K]": [
+  "West Palm Beach (UNITED STATES, FL) [100K]": [
     -80.052,
     26.713
   ],
@@ -17823,11 +17823,11 @@
     124.53,
     7.19
   ],
-  "Evansville, IN (UNITED STATES) [100K]": [
+  "Evansville (UNITED STATES, IN) [100K]": [
     -87.574,
     37.97
   ],
-  "Clearwater, FL (UNITED STATES) [100K]": [
+  "Clearwater (UNITED STATES, FL) [100K]": [
     -82.8,
     27.966
   ],
@@ -17863,11 +17863,11 @@
     120.758814341311,
     14.9502805676062
   ],
-  "Billings, MT (UNITED STATES) [100K]": [
+  "Billings (UNITED STATES, MT) [100K]": [
     -108.507,
     45.783
   ],
-  "West Jordan, UT (UNITED STATES) [100K]": [
+  "West Jordan (UNITED STATES, UT) [100K]": [
     -111.939,
     40.61
   ],
@@ -17975,7 +17975,7 @@
     75.55,
     30.3833333
   ],
-  "Richmond, CA (UNITED STATES) [100K]": [
+  "Richmond (UNITED STATES, CA) [100K]": [
     -122.348,
     37.936
   ],
@@ -17991,7 +17991,7 @@
     35.83306,
     40.65333
   ],
-  "Westminster, CO (UNITED STATES) [100K]": [
+  "Westminster (UNITED STATES, CO) [100K]": [
     -105.034,
     39.835
   ],
@@ -18107,7 +18107,7 @@
     -87.1282633656627,
     12.631468237156
   ],
-  "Manchester, NH (UNITED STATES) [100K]": [
+  "Manchester (UNITED STATES, NH) [100K]": [
     -71.463,
     42.991
   ],
@@ -18127,7 +18127,7 @@
     53.464,
     54.484
   ],
-  "Lowell, MA (UNITED STATES) [100K]": [
+  "Lowell (UNITED STATES, MA) [100K]": [
     -71.313,
     42.645
   ],
@@ -18159,7 +18159,7 @@
     143.895,
     43.804
   ],
-  "Wilmington, NC (UNITED STATES) [100K]": [
+  "Wilmington (UNITED STATES, NC) [100K]": [
     -77.949,
     34.235
   ],
@@ -18191,11 +18191,11 @@
     -1.603,
     54.961
   ],
-  "Antioch, CA (UNITED STATES) [100K]": [
+  "Antioch (UNITED STATES, CA) [100K]": [
     -121.806,
     38.005
   ],
-  "Beaumont, TX (UNITED STATES) [100K]": [
+  "Beaumont (UNITED STATES, TX) [100K]": [
     -94.098,
     30.082
   ],
@@ -18223,7 +18223,7 @@
     140.058,
     36.971
   ],
-  "Provo, UT (UNITED STATES) [100K]": [
+  "Provo (UNITED STATES, UT) [100K]": [
     -111.659,
     40.234
   ],
@@ -18259,7 +18259,7 @@
     -7.96,
     32.25
   ],
-  "North Charleston, SC (UNITED STATES) [100K]": [
+  "North Charleston (UNITED STATES, SC) [100K]": [
     -79.974,
     32.854
   ],
@@ -18267,7 +18267,7 @@
     -67.71813,
     10.29644
   ],
-  "Elgin, IL (UNITED STATES) [100K]": [
+  "Elgin (UNITED STATES, IL) [100K]": [
     -88.284,
     42.037
   ],
@@ -18275,7 +18275,7 @@
     88.4369919444903,
     22.6512375665287
   ],
-  "Carlsbad, CA (UNITED STATES) [100K]": [
+  "Carlsbad (UNITED STATES, CA) [100K]": [
     -117.351,
     33.158
   ],
@@ -18347,7 +18347,7 @@
     120.859568988226,
     14.8859636612428
   ],
-  "Odessa, TX (UNITED STATES) [100K]": [
+  "Odessa (UNITED STATES, TX) [100K]": [
     -102.369,
     31.848
   ],
@@ -18355,15 +18355,15 @@
     68.536,
     25.123
   ],
-  "Waterbury, CT (UNITED STATES) [100K]": [
+  "Waterbury (UNITED STATES, CT) [100K]": [
     -73.043,
     41.554
   ],
-  "Springfield, IL (UNITED STATES) [100K]": [
+  "Springfield (UNITED STATES, IL) [100K]": [
     -89.655,
     39.801
   ],
-  "League City, TX (UNITED STATES) [100K]": [
+  "League City (UNITED STATES, TX) [100K]": [
     -95.095,
     29.508
   ],
@@ -18375,7 +18375,7 @@
     36.35,
     33.48
   ],
-  "Downey, CA (UNITED STATES) [100K]": [
+  "Downey (UNITED STATES, CA) [100K]": [
     -118.133,
     33.94
   ],
@@ -18387,7 +18387,7 @@
     89.42105,
     23.492125
   ],
-  "Gresham, OR (UNITED STATES) [100K]": [
+  "Gresham (UNITED STATES, OR) [100K]": [
     -122.431,
     45.498
   ],
@@ -18427,7 +18427,7 @@
     121.4,
     13.83
   ],
-  "High Point, NC (UNITED STATES) [100K]": [
+  "High Point (UNITED STATES, NC) [100K]": [
     -80.006,
     35.957
   ],
@@ -18511,7 +18511,7 @@
     5.908,
     51.982
   ],
-  "Broken Arrow, OK (UNITED STATES) [100K]": [
+  "Broken Arrow (UNITED STATES, OK) [100K]": [
     -95.791,
     36.052
   ],
@@ -18599,7 +18599,7 @@
     72.496,
     23.246
   ],
-  "Peoria, IL (UNITED STATES) [100K]": [
+  "Peoria (UNITED STATES, IL) [100K]": [
     -89.591,
     40.693
   ],
@@ -18663,11 +18663,11 @@
     -55.723702634831,
     -12.5442760675878
   ],
-  "Lansing, MI (UNITED STATES) [100K]": [
+  "Lansing (UNITED STATES, MI) [100K]": [
     -84.552,
     42.734
   ],
-  "Lakeland, FL (UNITED STATES) [100K]": [
+  "Lakeland (UNITED STATES, FL) [100K]": [
     -81.956,
     28.045
   ],
@@ -18759,7 +18759,7 @@
     -53.3116359494108,
     -23.7620442285992
   ],
-  "Pompano Beach, FL (UNITED STATES) [100K]": [
+  "Pompano Beach (UNITED STATES, FL) [100K]": [
     -80.126,
     26.232
   ],
@@ -18787,7 +18787,7 @@
     141.136,
     38.93
   ],
-  "Costa Mesa, CA (UNITED STATES) [100K]": [
+  "Costa Mesa (UNITED STATES, CA) [100K]": [
     -117.919,
     33.641
   ],
@@ -18795,7 +18795,7 @@
     120.23,
     14.88
   ],
-  "Pueblo, CO (UNITED STATES) [100K]": [
+  "Pueblo (UNITED STATES, CO) [100K]": [
     -104.624,
     38.256
   ],
@@ -18815,7 +18815,7 @@
     76.05,
     18.1666667
   ],
-  "Lewisville, TX (UNITED STATES) [100K]": [
+  "Lewisville (UNITED STATES, TX) [100K]": [
     -96.994,
     33.046
   ],
@@ -18843,7 +18843,7 @@
     37.115,
     36.71611
   ],
-  "Miami Gardens, FL (UNITED STATES) [100K]": [
+  "Miami Gardens (UNITED STATES, FL) [100K]": [
     -80.245,
     25.941
   ],
@@ -18891,7 +18891,7 @@
     -65.45783,
     -33.67571
   ],
-  "Las Cruces, NM (UNITED STATES) [100K]": [
+  "Las Cruces (UNITED STATES, NM) [100K]": [
     -106.779,
     32.31
   ],
@@ -18963,7 +18963,7 @@
     74.25,
     21.3666667
   ],
-  "Sugar Land, TX (UNITED STATES) [100K]": [
+  "Sugar Land (UNITED STATES, TX) [100K]": [
     -95.621,
     29.595
   ],
@@ -18983,7 +18983,7 @@
     -17.228,
     14.779
   ],
-  "Murrieta, CA (UNITED STATES) [100K]": [
+  "Murrieta (UNITED STATES, CA) [100K]": [
     -117.214,
     33.554
   ],
@@ -19015,7 +19015,7 @@
     120.85,
     14.42
   ],
-  "Ventura, CA (UNITED STATES) [100K]": [
+  "Ventura (UNITED STATES, CA) [100K]": [
     -119.301,
     34.281
   ],
@@ -19035,7 +19035,7 @@
     106.65031217687,
     35.2169067529022
   ],
-  "Everett, WA (UNITED STATES) [100K]": [
+  "Everett (UNITED STATES, WA) [100K]": [
     -122.202,
     47.979
   ],
@@ -19103,7 +19103,7 @@
     102.216073688132,
     5.76438020728622
   ],
-  "Temecula, CA (UNITED STATES) [100K]": [
+  "Temecula (UNITED STATES, CA) [100K]": [
     -117.149,
     33.493
   ],
@@ -19115,7 +19115,7 @@
     32.643,
     -2.65
   ],
-  "Dearborn, MI (UNITED STATES) [100K]": [
+  "Dearborn (UNITED STATES, MI) [100K]": [
     -83.176,
     42.322
   ],
@@ -19159,7 +19159,7 @@
     73.829,
     31.741
   ],
-  "Santa Maria, CA (UNITED STATES) [100K]": [
+  "Santa Maria (UNITED STATES, CA) [100K]": [
     -120.436,
     34.953
   ],
@@ -19191,7 +19191,7 @@
     133.798,
     34.29
   ],
-  "West Covina, CA (UNITED STATES) [100K]": [
+  "West Covina (UNITED STATES, CA) [100K]": [
     -117.938,
     34.069
   ],
@@ -19211,7 +19211,7 @@
     110.1,
     34.58
   ],
-  "El Monte, CA (UNITED STATES) [100K]": [
+  "El Monte (UNITED STATES, CA) [100K]": [
     -118.032,
     34.073
   ],
@@ -19307,7 +19307,7 @@
     120.848357979385,
     14.9023928269117
   ],
-  "Greeley, CO (UNITED STATES) [100K]": [
+  "Greeley (UNITED STATES, CO) [100K]": [
     -104.694,
     40.425
   ],
@@ -19355,7 +19355,7 @@
     122.62,
     9.97
   ],
-  "Sparks, NV (UNITED STATES) [100K]": [
+  "Sparks (UNITED STATES, NV) [100K]": [
     -119.753,
     39.535
   ],
@@ -19363,7 +19363,7 @@
     -51.2808525837221,
     -23.2789312796453
   ],
-  "Centennial, CO (UNITED STATES) [100K]": [
+  "Centennial (UNITED STATES, CO) [100K]": [
     -104.885,
     39.586
   ],
@@ -19399,7 +19399,7 @@
     -43.2256435465386,
     -19.6220510480925
   ],
-  "Boulder, CO (UNITED STATES) [100K]": [
+  "Boulder (UNITED STATES, CO) [100K]": [
     -105.278,
     40.018
   ],
@@ -19419,7 +19419,7 @@
     19.692,
     46.908
   ],
-  "Sandy Springs, GA (UNITED STATES) [100K]": [
+  "Sandy Springs (UNITED STATES, GA) [100K]": [
     -84.379,
     33.925
   ],
@@ -19443,7 +19443,7 @@
     14.45,
     45.33
   ],
-  "Ponce, PR (UNITED STATES) [100K]": [
+  "Ponce (UNITED STATES, PR) [100K]": [
     -66.614,
     18.012
   ],
@@ -19471,7 +19471,7 @@
     138.915,
     35.119
   ],
-  "Inglewood, CA (UNITED STATES) [100K]": [
+  "Inglewood (UNITED STATES, CA) [100K]": [
     -118.352,
     33.962
   ],
@@ -19499,7 +19499,7 @@
     10.1,
     33.9
   ],
-  "Edison, NJ (UNITED STATES) [100K]": [
+  "Edison (UNITED STATES, NJ) [100K]": [
     -74.387,
     40.512
   ],
@@ -19527,7 +19527,7 @@
     86.52,
     21.0527778
   ],
-  "South Fulton, GA (UNITED STATES) [100K]": [
+  "South Fulton (UNITED STATES, GA) [100K]": [
     -84.573,
     33.657
   ],
@@ -19539,7 +19539,7 @@
     78.6,
     27.1
   ],
-  "Green Bay, WI (UNITED STATES) [100K]": [
+  "Green Bay (UNITED STATES, WI) [100K]": [
     -88.008,
     44.516
   ],
@@ -19547,7 +19547,7 @@
     88.73333,
     26.51667
   ],
-  "Burbank, CA (UNITED STATES) [100K]": [
+  "Burbank (UNITED STATES, CA) [100K]": [
     -118.31,
     34.182
   ],
@@ -19619,7 +19619,7 @@
     121.14444,
     22.75833
   ],
-  "Renton, WA (UNITED STATES) [100K]": [
+  "Renton (UNITED STATES, WA) [100K]": [
     -122.208,
     47.48
   ],
@@ -19699,7 +19699,7 @@
     75.6,
     21.8166667
   ],
-  "Hillsboro, OR (UNITED STATES) [100K]": [
+  "Hillsboro (UNITED STATES, OR) [100K]": [
     -122.99,
     45.523
   ],
@@ -19759,7 +19759,7 @@
     136.447,
     36.408
   ],
-  "El Cajon, CA (UNITED STATES) [100K]": [
+  "El Cajon (UNITED STATES, CA) [100K]": [
     -116.962,
     32.795
   ],
@@ -19787,7 +19787,7 @@
     36.2021390019669,
     32.342152379399
   ],
-  "Tyler, TX (UNITED STATES) [100K]": [
+  "Tyler (UNITED STATES, TX) [100K]": [
     -95.301,
     32.351
   ],
@@ -19823,15 +19823,15 @@
     79.52,
     11.57
   ],
-  "Davie, FL (UNITED STATES) [100K]": [
+  "Davie (UNITED STATES, FL) [100K]": [
     -80.232,
     26.073
   ],
-  "San Mateo, CA (UNITED STATES) [100K]": [
+  "San Mateo (UNITED STATES, CA) [100K]": [
     -122.324,
     37.564
   ],
-  "Brockton, MA (UNITED STATES) [100K]": [
+  "Brockton (UNITED STATES, MA) [100K]": [
     -71.02,
     42.083
   ],
@@ -19907,7 +19907,7 @@
     55.27071,
     -21.00963
   ],
-  "Concord, NC (UNITED STATES) [100K]": [
+  "Concord (UNITED STATES, NC) [100K]": [
     -80.581,
     35.411
   ],
@@ -19943,7 +19943,7 @@
     -44.9987548460815,
     -21.240761914848
   ],
-  "Jurupa Valley, CA (UNITED STATES) [100K]": [
+  "Jurupa Valley (UNITED STATES, CA) [100K]": [
     -117.475,
     33.999
   ],
@@ -19971,7 +19971,7 @@
     43.815,
     55.386
   ],
-  "Daly City, CA (UNITED STATES) [100K]": [
+  "Daly City (UNITED STATES, CA) [100K]": [
     -122.462,
     37.706
   ],
@@ -19991,7 +19991,7 @@
     -7.865,
     42.34
   ],
-  "Allen, TX (UNITED STATES) [100K]": [
+  "Allen (UNITED STATES, TX) [100K]": [
     -96.67,
     33.103
   ],
@@ -20079,7 +20079,7 @@
     9.9404,
     4.9547
   ],
-  "Rio Rancho, NM (UNITED STATES) [100K]": [
+  "Rio Rancho (UNITED STATES, NM) [100K]": [
     -106.656,
     35.241
   ],
@@ -20087,7 +20087,7 @@
     28.09,
     -12.84
   ],
-  "Rialto, CA (UNITED STATES) [100K]": [
+  "Rialto (UNITED STATES, CA) [100K]": [
     -117.37,
     34.099
   ],
@@ -20159,7 +20159,7 @@
     30.42658,
     54.5116
   ],
-  "Woodbridge, NJ (UNITED STATES) [100K]": [
+  "Woodbridge (UNITED STATES, NJ) [100K]": [
     -74.301,
     40.564
   ],
@@ -20195,7 +20195,7 @@
     4.75,
     52.631
   ],
-  "South Bend, IN (UNITED STATES) [100K]": [
+  "South Bend (UNITED STATES, IN) [100K]": [
     -86.252,
     41.676
   ],
@@ -20279,7 +20279,7 @@
     -39.8570417647214,
     -18.7142882134926
   ],
-  "Spokane Valley, WA (UNITED STATES) [100K]": [
+  "Spokane Valley (UNITED STATES, WA) [100K]": [
     -117.24,
     47.657
   ],
@@ -20315,7 +20315,7 @@
     -47.354896045607,
     -2.99560861043003
   ],
-  "Norwalk, CA (UNITED STATES) [100K]": [
+  "Norwalk (UNITED STATES, CA) [100K]": [
     -118.083,
     33.902
   ],
@@ -20371,7 +20371,7 @@
     44.63,
     34.88
   ],
-  "Menifee, CA (UNITED STATES) [100K]": [
+  "Menifee (UNITED STATES, CA) [100K]": [
     -117.189,
     33.685
   ],
@@ -20391,7 +20391,7 @@
     170.503,
     -45.875
   ],
-  "Vacaville, CA (UNITED STATES) [100K]": [
+  "Vacaville (UNITED STATES, CA) [100K]": [
     -121.986,
     38.357
   ],
@@ -20411,7 +20411,7 @@
     36.6551673846403,
     -1.36215730721622
   ],
-  "Wichita Falls, TX (UNITED STATES) [100K]": [
+  "Wichita Falls (UNITED STATES, TX) [100K]": [
     -98.492,
     33.912
   ],
@@ -20531,7 +20531,7 @@
     31.79305,
     41.45139
   ],
-  "Davenport, IA (UNITED STATES) [100K]": [
+  "Davenport (UNITED STATES, IA) [100K]": [
     -90.576,
     41.522
   ],
@@ -20563,7 +20563,7 @@
     -3.534,
     40.353
   ],
-  "Quincy, MA (UNITED STATES) [100K]": [
+  "Quincy (UNITED STATES, MA) [100K]": [
     -71.004,
     42.252
   ],
@@ -20599,7 +20599,7 @@
     88.35056,
     22.82444
   ],
-  "Chico, CA (UNITED STATES) [100K]": [
+  "Chico (UNITED STATES, CA) [100K]": [
     -121.839,
     39.728
   ],
@@ -20635,7 +20635,7 @@
     78.65,
     27.8166667
   ],
-  "Lynn, MA (UNITED STATES) [100K]": [
+  "Lynn (UNITED STATES, MA) [100K]": [
     -70.951,
     42.464
   ],
@@ -20655,7 +20655,7 @@
     125.42,
     6.83
   ],
-  "Lees Summit, MO (UNITED STATES) [100K]": [
+  "Lees Summit (UNITED STATES, MO) [100K]": [
     -94.378,
     38.912
   ],
@@ -20663,7 +20663,7 @@
     130.852,
     31.383
   ],
-  "New Bedford, MA (UNITED STATES) [100K]": [
+  "New Bedford (UNITED STATES, MA) [100K]": [
     -70.926,
     41.635
   ],
@@ -20675,7 +20675,7 @@
     124.82,
     6.22
   ],
-  "Federal Way, WA (UNITED STATES) [100K]": [
+  "Federal Way (UNITED STATES, WA) [100K]": [
     -122.313,
     47.315
   ],
@@ -20759,7 +20759,7 @@
     50.525556,
     26.151944
   ],
-  "Clinton, MI (UNITED STATES) [100K]": [
+  "Clinton (UNITED STATES, MI) [100K]": [
     -82.936,
     42.591
   ],
@@ -20835,11 +20835,11 @@
     139.837,
     38.915
   ],
-  "Edinburg, TX (UNITED STATES) [100K]": [
+  "Edinburg (UNITED STATES, TX) [100K]": [
     -98.162,
     26.301
   ],
-  "Nampa, ID (UNITED STATES) [100K]": [
+  "Nampa (UNITED STATES, ID) [100K]": [
     -116.562,
     43.579
   ],
@@ -20895,7 +20895,7 @@
     103.96687,
     22.498497
   ],
-  "Roanoke, VA (UNITED STATES) [100K]": [
+  "Roanoke (UNITED STATES, VA) [100K]": [
     -79.939,
     37.272
   ],
@@ -20903,7 +20903,7 @@
     13.35056,
     32.88167
   ],
-  "Kenosha, WI (UNITED STATES) [75K]": [
+  "Kenosha (UNITED STATES, WI) [75K]": [
     -87.823,
     42.584
   ],
@@ -20943,7 +20943,7 @@
     81.81667,
     7.41667
   ],
-  "San Angelo, TX (UNITED STATES) [75K]": [
+  "San Angelo (UNITED STATES, TX) [75K]": [
     -100.437,
     31.464
   ],
@@ -20959,7 +20959,7 @@
     38.5,
     52.622
   ],
-  "Hesperia, CA (UNITED STATES) [75K]": [
+  "Hesperia (UNITED STATES, CA) [75K]": [
     -117.302,
     34.422
   ],
@@ -20967,7 +20967,7 @@
     32.98,
     14.25
   ],
-  "Carmel, IN (UNITED STATES) [75K]": [
+  "Carmel (UNITED STATES, IN) [75K]": [
     -86.127,
     39.978
   ],
@@ -20991,7 +20991,7 @@
     -81.271878,
     -4.579903
   ],
-  "Tuscaloosa, AL (UNITED STATES) [75K]": [
+  "Tuscaloosa (UNITED STATES, AL) [75K]": [
     -87.567,
     33.206
   ],
@@ -21059,7 +21059,7 @@
     13.519,
     43.616
   ],
-  "Albany, NY (UNITED STATES) [75K]": [
+  "Albany (UNITED STATES, NY) [75K]": [
     -73.758,
     42.653
   ],
@@ -21075,7 +21075,7 @@
     0.286,
     50.768
   ],
-  "Bend, OR (UNITED STATES) [75K]": [
+  "Bend (UNITED STATES, OR) [75K]": [
     -121.313,
     44.058
   ],
@@ -21119,7 +21119,7 @@
     26.871,
     -31.896
   ],
-  "Fishers, IN (UNITED STATES) [75K]": [
+  "Fishers (UNITED STATES, IN) [75K]": [
     -86.017,
     39.957
   ],
@@ -21159,7 +21159,7 @@
     3.173,
     50.691
   ],
-  "Longmont, CO (UNITED STATES) [75K]": [
+  "Longmont (UNITED STATES, CO) [75K]": [
     -105.103,
     40.167
   ],
@@ -21199,7 +21199,7 @@
     27.60945,
     39.18554
   ],
-  "Canton, MI (UNITED STATES) [75K]": [
+  "Canton (UNITED STATES, MI) [75K]": [
     -83.487,
     42.307
   ],
@@ -21243,7 +21243,7 @@
     120.87273,
     24.687183
   ],
-  "Vista, CA (UNITED STATES) [75K]": [
+  "Vista (UNITED STATES, CA) [75K]": [
     -117.244,
     33.202
   ],
@@ -21311,7 +21311,7 @@
     102.53437,
     3.248495
   ],
-  "Orem, UT (UNITED STATES) [75K]": [
+  "Orem (UNITED STATES, UT) [75K]": [
     -111.695,
     40.297
   ],
@@ -21371,7 +21371,7 @@
     -65.30505,
     -43.24895
   ],
-  "Portsmouth, VA (UNITED STATES) [75K]": [
+  "Portsmouth (UNITED STATES, VA) [75K]": [
     -76.299,
     36.835
   ],
@@ -21455,7 +21455,7 @@
     90.008194,
     23.858747
   ],
-  "Beaverton, OR (UNITED STATES) [75K]": [
+  "Beaverton (UNITED STATES, OR) [75K]": [
     -122.804,
     45.487
   ],
@@ -21471,7 +21471,7 @@
     50.966,
     35.472
   ],
-  "Boca Raton, FL (UNITED STATES) [75K]": [
+  "Boca Raton (UNITED STATES, FL) [75K]": [
     -80.086,
     26.351
   ],
@@ -21487,7 +21487,7 @@
     2.197,
     48.89
   ],
-  "Sunrise, FL (UNITED STATES) [75K]": [
+  "Sunrise (UNITED STATES, FL) [75K]": [
     -80.284,
     26.17
   ],
@@ -21551,7 +21551,7 @@
     129.42333,
     42.77139
   ],
-  "Yakima, WA (UNITED STATES) [75K]": [
+  "Yakima (UNITED STATES, WA) [75K]": [
     -120.506,
     46.602
   ],
@@ -21559,7 +21559,7 @@
     72.996,
     31.217
   ],
-  "Sandy, UT (UNITED STATES) [75K]": [
+  "Sandy (UNITED STATES, UT) [75K]": [
     -111.853,
     40.573
   ],
@@ -21791,7 +21791,7 @@
     37.50139,
     41.02778
   ],
-  "Compton, CA (UNITED STATES) [75K]": [
+  "Compton (UNITED STATES, CA) [75K]": [
     -118.22,
     33.896
   ],
@@ -21827,7 +21827,7 @@
     78.591667,
     9.541667
   ],
-  "Carson, CA (UNITED STATES) [75K]": [
+  "Carson (UNITED STATES, CA) [75K]": [
     -118.278,
     33.832
   ],
@@ -21835,11 +21835,11 @@
     76.82,
     30.65
   ],
-  "Yuma, AZ (UNITED STATES) [75K]": [
+  "Yuma (UNITED STATES, AZ) [75K]": [
     -114.625,
     32.713
   ],
-  "Livonia, MI (UNITED STATES) [75K]": [
+  "Livonia (UNITED STATES, MI) [75K]": [
     -83.353,
     42.376
   ],
@@ -21863,7 +21863,7 @@
     140.656,
     35.898
   ],
-  "Toms River, NJ (UNITED STATES) [75K]": [
+  "Toms River (UNITED STATES, NJ) [75K]": [
     -74.191,
     39.991
   ],
@@ -21887,7 +21887,7 @@
     103.485731169867,
     2.80053102774577
   ],
-  "St George, UT (UNITED STATES) [75K]": [
+  "St George (UNITED STATES, UT) [75K]": [
     -113.583,
     37.108
   ],
@@ -21899,7 +21899,7 @@
     -98.045,
     19.045
   ],
-  "Goodyear, AZ (UNITED STATES) [75K]": [
+  "Goodyear (UNITED STATES, AZ) [75K]": [
     -112.409,
     33.435
   ],
@@ -21963,7 +21963,7 @@
     35.81573,
     37.45517
   ],
-  "Reading, PA (UNITED STATES) [75K]": [
+  "Reading (UNITED STATES, PA) [75K]": [
     -75.928,
     40.335
   ],
@@ -22027,7 +22027,7 @@
     88.292,
     22.681
   ],
-  "Lawrence, KS (UNITED STATES) [75K]": [
+  "Lawrence (UNITED STATES, KS) [75K]": [
     -95.236,
     38.971
   ],
@@ -22039,11 +22039,11 @@
     30.82,
     27.93
   ],
-  "San Marcos, CA (UNITED STATES) [75K]": [
+  "San Marcos (UNITED STATES, CA) [75K]": [
     -117.166,
     33.141
   ],
-  "Erie, PA (UNITED STATES) [75K]": [
+  "Erie (UNITED STATES, PA) [75K]": [
     -80.085,
     42.129
   ],
@@ -22067,7 +22067,7 @@
     82.566667,
     25.416667
   ],
-  "Asheville, NC (UNITED STATES) [75K]": [
+  "Asheville (UNITED STATES, NC) [75K]": [
     -82.552,
     35.595
   ],
@@ -22111,7 +22111,7 @@
     18.174,
     40.353
   ],
-  "Edmond, OK (UNITED STATES) [75K]": [
+  "Edmond (UNITED STATES, OK) [75K]": [
     -97.481,
     35.655
   ],
@@ -22139,7 +22139,7 @@
     30.132,
     59.577
   ],
-  "Suffolk, VA (UNITED STATES) [75K]": [
+  "Suffolk (UNITED STATES, VA) [75K]": [
     -76.583,
     36.73
   ],
@@ -22207,7 +22207,7 @@
     139.749,
     36.567
   ],
-  "Fall River, MA (UNITED STATES) [75K]": [
+  "Fall River (UNITED STATES, MA) [75K]": [
     -71.155,
     41.702
   ],
@@ -22219,7 +22219,7 @@
     178.4419,
     -18.1416
   ],
-  "Fayetteville, AR (UNITED STATES) [75K]": [
+  "Fayetteville (UNITED STATES, AR) [75K]": [
     -94.161,
     36.063
   ],
@@ -22271,11 +22271,11 @@
     56.2732799821909,
     38.9750798992637
   ],
-  "Deltona, FL (UNITED STATES) [75K]": [
+  "Deltona (UNITED STATES, FL) [75K]": [
     -81.263,
     28.901
   ],
-  "Mission Viejo, CA (UNITED STATES) [75K]": [
+  "Mission Viejo (UNITED STATES, CA) [75K]": [
     -117.669,
     33.597
   ],
@@ -22283,7 +22283,7 @@
     8.917,
     50.135
   ],
-  "Redding, CA (UNITED STATES) [75K]": [
+  "Redding (UNITED STATES, CA) [75K]": [
     -122.39,
     40.586
   ],
@@ -22387,7 +22387,7 @@
     74.726425,
     27.039208
   ],
-  "Santa Monica, CA (UNITED STATES) [75K]": [
+  "Santa Monica (UNITED STATES, CA) [75K]": [
     -118.491,
     34.019
   ],
@@ -22399,7 +22399,7 @@
     -1.553,
     54.53
   ],
-  "Tracy, CA (UNITED STATES) [75K]": [
+  "Tracy (UNITED STATES, CA) [75K]": [
     -121.426,
     37.74
   ],
@@ -22423,7 +22423,7 @@
     -66.8161,
     10.42994
   ],
-  "Roswell, GA (UNITED STATES) [75K]": [
+  "Roswell (UNITED STATES, GA) [75K]": [
     -84.359,
     34.022
   ],
@@ -22443,7 +22443,7 @@
     -2.892,
     53.192
   ],
-  "South Gate, CA (UNITED STATES) [75K]": [
+  "South Gate (UNITED STATES, CA) [75K]": [
     -118.212,
     33.955
   ],
@@ -22471,7 +22471,7 @@
     77.058611,
     21.096389
   ],
-  "Hoover, AL (UNITED STATES) [75K]": [
+  "Hoover (UNITED STATES, AL) [75K]": [
     -86.806,
     33.4
   ],
@@ -22535,7 +22535,7 @@
     76.594444,
     30.475
   ],
-  "Hamilton, NJ (UNITED STATES) [75K]": [
+  "Hamilton (UNITED STATES, NJ) [75K]": [
     -74.686,
     40.222
   ],
@@ -22563,7 +22563,7 @@
     120.401,
     16.003
   ],
-  "Kirkland, WA (UNITED STATES) [75K]": [
+  "Kirkland (UNITED STATES, WA) [75K]": [
     -122.203,
     47.675
   ],
@@ -22635,7 +22635,7 @@
     139.402,
     36.038
   ],
-  "Plantation, FL (UNITED STATES) [75K]": [
+  "Plantation (UNITED STATES, FL) [75K]": [
     -80.252,
     26.121
   ],
@@ -22703,7 +22703,7 @@
     45.136,
     36.691
   ],
-  "Buckeye, AZ (UNITED STATES) [75K]": [
+  "Buckeye (UNITED STATES, AZ) [75K]": [
     -112.583,
     33.371
   ],
@@ -22711,7 +22711,7 @@
     10.089444,
     36.829167
   ],
-  "Bellingham, WA (UNITED STATES) [75K]": [
+  "Bellingham (UNITED STATES, WA) [75K]": [
     -122.479,
     48.75
   ],
@@ -22727,7 +22727,7 @@
     43.09495,
     40.60199
   ],
-  "Chino, CA (UNITED STATES) [75K]": [
+  "Chino (UNITED STATES, CA) [75K]": [
     -117.689,
     34.012
   ],
@@ -22751,11 +22751,11 @@
     124.07,
     6.63
   ],
-  "Nashua, NH (UNITED STATES) [75K]": [
+  "Nashua (UNITED STATES, NH) [75K]": [
     -71.468,
     42.765
   ],
-  "OFallon, MO (UNITED STATES) [75K]": [
+  "OFallon (UNITED STATES, MO) [75K]": [
     -90.7,
     38.811
   ],
@@ -22787,7 +22787,7 @@
     77.554167,
     28.55
   ],
-  "Norwalk, CT (UNITED STATES) [75K]": [
+  "Norwalk (UNITED STATES, CT) [75K]": [
     -73.429,
     41.13
   ],
@@ -22827,7 +22827,7 @@
     -109.546,
     31.328
   ],
-  "San Leandro, CA (UNITED STATES) [75K]": [
+  "San Leandro (UNITED STATES, CA) [75K]": [
     -122.154,
     37.723
   ],
@@ -22851,7 +22851,7 @@
     81.1525723665283,
     28.6277577708934
   ],
-  "Westminster, CA (UNITED STATES) [75K]": [
+  "Westminster (UNITED STATES, CA) [75K]": [
     -118.007,
     33.759
   ],
@@ -22863,7 +22863,7 @@
     -3.165,
     40.631
   ],
-  "Trenton, NJ (UNITED STATES) [75K]": [
+  "Trenton (UNITED STATES, NJ) [75K]": [
     -74.766,
     40.22
   ],
@@ -22875,7 +22875,7 @@
     121.01,
     13.79
   ],
-  "Mount Pleasant, SC (UNITED STATES) [75K]": [
+  "Mount Pleasant (UNITED STATES, SC) [75K]": [
     -79.872,
     32.792
   ],
@@ -22983,7 +22983,7 @@
     -6.228,
     36.597
   ],
-  "New Braunfels, TX (UNITED STATES) [75K]": [
+  "New Braunfels (UNITED STATES, TX) [75K]": [
     -98.125,
     29.703
   ],
@@ -22991,7 +22991,7 @@
     121.49,
     13.04
   ],
-  "Lawton, OK (UNITED STATES) [75K]": [
+  "Lawton (UNITED STATES, OK) [75K]": [
     -98.392,
     34.605
   ],
@@ -23007,7 +23007,7 @@
     4.806,
     43.949
   ],
-  "Clifton, NJ (UNITED STATES) [75K]": [
+  "Clifton (UNITED STATES, NJ) [75K]": [
     -74.154,
     40.867
   ],
@@ -23079,11 +23079,11 @@
     15.119444,
     -11.358333
   ],
-  "Bloomington, MN (UNITED STATES) [75K]": [
+  "Bloomington (UNITED STATES, MN) [75K]": [
     -93.298,
     44.841
   ],
-  "Conroe, TX (UNITED STATES) [75K]": [
+  "Conroe (UNITED STATES, TX) [75K]": [
     -95.458,
     30.312
   ],
@@ -23115,7 +23115,7 @@
     81.118219,
     28.528767
   ],
-  "Hemet, CA (UNITED STATES) [75K]": [
+  "Hemet (UNITED STATES, CA) [75K]": [
     -116.972,
     33.748
   ],
@@ -23231,11 +23231,11 @@
     10.397,
     43.716
   ],
-  "Avondale, AZ (UNITED STATES) [75K]": [
+  "Avondale (UNITED STATES, AZ) [75K]": [
     -112.35,
     33.435
   ],
-  "Waukegan, IL (UNITED STATES) [75K]": [
+  "Waukegan (UNITED STATES, IL) [75K]": [
     -87.831,
     42.36
   ],
@@ -23271,7 +23271,7 @@
     49.689,
     33.4
   ],
-  "Palm Coast, FL (UNITED STATES) [75K]": [
+  "Palm Coast (UNITED STATES, FL) [75K]": [
     -81.211,
     29.555
   ],
@@ -23287,15 +23287,15 @@
     -72.1825,
     19.73944
   ],
-  "Lawrence, MA (UNITED STATES) [75K]": [
+  "Lawrence (UNITED STATES, MA) [75K]": [
     -71.162,
     42.708
   ],
-  "Fort Smith, AR (UNITED STATES) [75K]": [
+  "Fort Smith (UNITED STATES, AR) [75K]": [
     -94.421,
     35.383
   ],
-  "Indio, CA (UNITED STATES) [75K]": [
+  "Indio (UNITED STATES, CA) [75K]": [
     -116.216,
     33.719
   ],
@@ -23363,7 +23363,7 @@
     27.11896,
     38.15525
   ],
-  "Newton, MA (UNITED STATES) [75K]": [
+  "Newton (UNITED STATES, MA) [75K]": [
     -71.208,
     42.337
   ],
@@ -23411,7 +23411,7 @@
     -5.882,
     35.703
   ],
-  "Santa Barbara, CA (UNITED STATES) [75K]": [
+  "Santa Barbara (UNITED STATES, CA) [75K]": [
     -119.702,
     34.421
   ],
@@ -23495,7 +23495,7 @@
     30.682328220632,
     29.3589507514247
   ],
-  "Champaign, IL (UNITED STATES) [75K]": [
+  "Champaign (UNITED STATES, IL) [75K]": [
     -88.243,
     40.116
   ],
@@ -23547,7 +23547,7 @@
     85.4395273647299,
     27.7056619349799
   ],
-  "Hawthorne, CA (UNITED STATES) [75K]": [
+  "Hawthorne (UNITED STATES, CA) [75K]": [
     -118.353,
     33.916
   ],
@@ -23575,7 +23575,7 @@
     -0.813,
     51.817
   ],
-  "Livermore, CA (UNITED STATES) [75K]": [
+  "Livermore (UNITED STATES, CA) [75K]": [
     -121.768,
     37.682
   ],
@@ -23659,7 +23659,7 @@
     -41.889379442115,
     -21.2061565644974
   ],
-  "Citrus Heights, CA (UNITED STATES) [75K]": [
+  "Citrus Heights (UNITED STATES, CA) [75K]": [
     -121.29,
     38.707
   ],
@@ -23675,7 +23675,7 @@
     97.0469500210219,
     40.2889656214285
   ],
-  "Greenville, NC (UNITED STATES) [75K]": [
+  "Greenville (UNITED STATES, NC) [75K]": [
     -77.373,
     35.611
   ],
@@ -23687,7 +23687,7 @@
     -60.94332,
     -34.58382
   ],
-  "Santa Fe, NM (UNITED STATES) [75K]": [
+  "Santa Fe (UNITED STATES, NM) [75K]": [
     -105.939,
     35.687
   ],
@@ -23759,7 +23759,7 @@
     50.0042895395209,
     26.5630177024733
   ],
-  "Ogden, UT (UNITED STATES) [75K]": [
+  "Ogden (UNITED STATES, UT) [75K]": [
     -111.972,
     41.221
   ],
@@ -23767,7 +23767,7 @@
     12.73,
     32.76
   ],
-  "Whittier, CA (UNITED STATES) [75K]": [
+  "Whittier (UNITED STATES, CA) [75K]": [
     -118.033,
     33.979
   ],
@@ -23775,7 +23775,7 @@
     -4.101,
     36.779
   ],
-  "Troy, MI (UNITED STATES) [75K]": [
+  "Troy (UNITED STATES, MI) [75K]": [
     -83.15,
     42.606
   ],
@@ -23787,7 +23787,7 @@
     -68.53333,
     -31.48333
   ],
-  "Auburn, WA (UNITED STATES) [75K]": [
+  "Auburn (UNITED STATES, WA) [75K]": [
     -122.229,
     47.307
   ],
@@ -23855,7 +23855,7 @@
     -58.95914,
     -34.16874
   ],
-  "Deerfield Beach, FL (UNITED STATES) [75K]": [
+  "Deerfield Beach (UNITED STATES, FL) [75K]": [
     -80.101,
     26.319
   ],
@@ -23915,7 +23915,7 @@
     -75.2,
     7.983333
   ],
-  "Duluth, MN (UNITED STATES) [75K]": [
+  "Duluth (UNITED STATES, MN) [75K]": [
     -92.099,
     46.788
   ],
@@ -23963,7 +23963,7 @@
     83.009081,
     17.688364
   ],
-  "Danbury, CT (UNITED STATES) [75K]": [
+  "Danbury (UNITED STATES, CT) [75K]": [
     -73.468,
     41.408
   ],
@@ -23975,7 +23975,7 @@
     64.2,
     41.58
   ],
-  "Brooklyn Park, MN (UNITED STATES) [75K]": [
+  "Brooklyn Park (UNITED STATES, MN) [75K]": [
     -93.356,
     45.094
   ],
@@ -23987,7 +23987,7 @@
     9.175,
     47.664
   ],
-  "Fort Myers, FL (UNITED STATES) [75K]": [
+  "Fort Myers (UNITED STATES, FL) [75K]": [
     -81.87,
     26.643
   ],
@@ -24011,7 +24011,7 @@
     80.21605,
     6.031542
   ],
-  "Merced, CA (UNITED STATES) [75K]": [
+  "Merced (UNITED STATES, CA) [75K]": [
     -120.485,
     37.302
   ],
@@ -24099,11 +24099,11 @@
     -73.01667,
     -36.91667
   ],
-  "Lake Forest, CA (UNITED STATES) [75K]": [
+  "Lake Forest (UNITED STATES, CA) [75K]": [
     -117.686,
     33.647
   ],
-  "Medford, OR (UNITED STATES) [75K]": [
+  "Medford (UNITED STATES, OR) [75K]": [
     -122.872,
     42.327
   ],
@@ -24111,11 +24111,11 @@
     22.94583,
     39.36667
   ],
-  "Sioux City, IA (UNITED STATES) [75K]": [
+  "Sioux City (UNITED STATES, IA) [75K]": [
     -96.403,
     42.494
   ],
-  "Mission, TX (UNITED STATES) [75K]": [
+  "Mission (UNITED STATES, TX) [75K]": [
     -98.326,
     26.216
   ],
@@ -24187,7 +24187,7 @@
     74.75,
     30.666667
   ],
-  "Westland, MI (UNITED STATES) [75K]": [
+  "Westland (UNITED STATES, MI) [75K]": [
     -83.399,
     42.324
   ],
@@ -24231,7 +24231,7 @@
     46.054,
     37.338
   ],
-  "Cicero, IL (UNITED STATES) [75K]": [
+  "Cicero (UNITED STATES, IL) [75K]": [
     -87.754,
     41.846
   ],
@@ -24239,7 +24239,7 @@
     100.635,
     13.989
   ],
-  "Newport Beach, CA (UNITED STATES) [75K]": [
+  "Newport Beach (UNITED STATES, CA) [75K]": [
     -117.929,
     33.619
   ],
@@ -24335,7 +24335,7 @@
     89.026283,
     25.102506
   ],
-  "Lake Charles, LA (UNITED STATES) [75K]": [
+  "Lake Charles (UNITED STATES, LA) [75K]": [
     -93.217,
     30.229
   ],
@@ -24375,7 +24375,7 @@
     61.0006663574405,
     41.5507138583844
   ],
-  "Melbourne, FL (UNITED STATES) [75K]": [
+  "Melbourne (UNITED STATES, FL) [75K]": [
     -80.604,
     28.08
   ],
@@ -24395,7 +24395,7 @@
     -2.978,
     51.348
   ],
-  "San Ramon, CA (UNITED STATES) [75K]": [
+  "San Ramon (UNITED STATES, CA) [75K]": [
     -121.978,
     37.776
   ],
@@ -24487,7 +24487,7 @@
     -98.977,
     19.359
   ],
-  "Redwood City, CA (UNITED STATES) [75K]": [
+  "Redwood City (UNITED STATES, CA) [75K]": [
     -122.226,
     37.484
   ],
@@ -24503,7 +24503,7 @@
     -5.315556,
     35.888333
   ],
-  "Springdale, AR (UNITED STATES) [75K]": [
+  "Springdale (UNITED STATES, AR) [75K]": [
     -94.129,
     36.185
   ],
@@ -24531,7 +24531,7 @@
     50.166667,
     -14.266667
   ],
-  "Buena Park, CA (UNITED STATES) [75K]": [
+  "Buena Park (UNITED STATES, CA) [75K]": [
     -117.998,
     33.868
   ],
@@ -24555,7 +24555,7 @@
     139.612,
     35.788
   ],
-  "Farmington Hills, MI (UNITED STATES) [75K]": [
+  "Farmington Hills (UNITED STATES, MI) [75K]": [
     -83.378,
     42.499
   ],
@@ -24563,7 +24563,7 @@
     31.36,
     30.21
   ],
-  "Bryan, TX (UNITED STATES) [75K]": [
+  "Bryan (UNITED STATES, TX) [75K]": [
     -96.373,
     30.674
   ],
@@ -24583,7 +24583,7 @@
     -114.03528,
     51.30011
   ],
-  "Kennewick, WA (UNITED STATES) [75K]": [
+  "Kennewick (UNITED STATES, WA) [75K]": [
     -119.117,
     46.209
   ],
@@ -24639,7 +24639,7 @@
     72.616667,
     22.3
   ],
-  "Baytown, TX (UNITED STATES) [75K]": [
+  "Baytown (UNITED STATES, TX) [75K]": [
     -94.978,
     29.735
   ],
@@ -24687,7 +24687,7 @@
     -66.706774,
     10.270541
   ],
-  "Manteca, CA (UNITED STATES) [75K]": [
+  "Manteca (UNITED STATES, CA) [75K]": [
     -121.216,
     37.797
   ],
@@ -24699,7 +24699,7 @@
     32.5452296123073,
     25.6206624279624
   ],
-  "Franklin, TN (UNITED STATES) [75K]": [
+  "Franklin (UNITED STATES, TN) [75K]": [
     -86.869,
     35.925
   ],
@@ -24807,7 +24807,7 @@
     38.273,
     46.712
   ],
-  "Cranston, RI (UNITED STATES) [75K]": [
+  "Cranston (UNITED STATES, RI) [75K]": [
     -71.437,
     41.779
   ],
@@ -24819,11 +24819,11 @@
     43.49,
     34.93
   ],
-  "Miami Beach, FL (UNITED STATES) [75K]": [
+  "Miami Beach (UNITED STATES, FL) [75K]": [
     -80.13,
     25.791
   ],
-  "Alhambra, CA (UNITED STATES) [75K]": [
+  "Alhambra (UNITED STATES, CA) [75K]": [
     -118.127,
     34.095
   ],
@@ -24835,7 +24835,7 @@
     37.926,
     55.971
   ],
-  "Warwick, RI (UNITED STATES) [75K]": [
+  "Warwick (UNITED STATES, RI) [75K]": [
     -71.46,
     41.699
   ],
@@ -24923,7 +24923,7 @@
     12.23,
     41.772
   ],
-  "Lakewood, CA (UNITED STATES) [75K]": [
+  "Lakewood (UNITED STATES, CA) [75K]": [
     -118.142,
     33.854
   ],
@@ -24931,7 +24931,7 @@
     46.121,
     37.945
   ],
-  "Largo, FL (UNITED STATES) [75K]": [
+  "Largo (UNITED STATES, FL) [75K]": [
     -82.788,
     27.909
   ],
@@ -24939,7 +24939,7 @@
     14.86,
     -5.25
   ],
-  "Johns Creek, GA (UNITED STATES) [75K]": [
+  "Johns Creek (UNITED STATES, GA) [75K]": [
     -84.223,
     34.046
   ],
@@ -24951,7 +24951,7 @@
     140.972,
     42.316
   ],
-  "Mountain View, CA (UNITED STATES) [75K]": [
+  "Mountain View (UNITED STATES, CA) [75K]": [
     -122.081,
     37.39
   ],
@@ -25015,7 +25015,7 @@
     -72.88139,
     -13.63389
   ],
-  "Temple, TX (UNITED STATES) [75K]": [
+  "Temple (UNITED STATES, TX) [75K]": [
     -97.343,
     31.097
   ],
@@ -25083,7 +25083,7 @@
     106.758,
     22.111
   ],
-  "Layton, UT (UNITED STATES) [75K]": [
+  "Layton (UNITED STATES, UT) [75K]": [
     -111.966,
     41.06
   ],
@@ -25107,7 +25107,7 @@
     52.803,
     54.54
   ],
-  "Longview, TX (UNITED STATES) [75K]": [
+  "Longview (UNITED STATES, TX) [75K]": [
     -94.74,
     32.495
   ],
@@ -25215,7 +25215,7 @@
     140.112,
     37.914
   ],
-  "Flint, MI (UNITED STATES) [75K]": [
+  "Flint (UNITED STATES, MI) [75K]": [
     -83.691,
     43.017
   ],
@@ -25239,7 +25239,7 @@
     81.190047,
     26.926975
   ],
-  "Parma, OH (UNITED STATES) [75K]": [
+  "Parma (UNITED STATES, OH) [75K]": [
     -81.723,
     41.405
   ],
@@ -25283,7 +25283,7 @@
     82.183333,
     27.433333
   ],
-  "Somerville, MA (UNITED STATES) [75K]": [
+  "Somerville (UNITED STATES, MA) [75K]": [
     -71.103,
     42.388
   ],
@@ -25291,7 +25291,7 @@
     77.7,
     28.45
   ],
-  "Plymouth, MN (UNITED STATES) [75K]": [
+  "Plymouth (UNITED STATES, MN) [75K]": [
     -93.472,
     45.015
   ],
@@ -25367,7 +25367,7 @@
     -87.927,
     15.438
   ],
-  "Homestead, FL (UNITED STATES) [75K]": [
+  "Homestead (UNITED STATES, FL) [75K]": [
     -80.477,
     25.47
   ],
@@ -25419,7 +25419,7 @@
     -93.377,
     17.989
   ],
-  "Folsom, CA (UNITED STATES) [75K]": [
+  "Folsom (UNITED STATES, CA) [75K]": [
     -121.176,
     38.678
   ],
@@ -25435,7 +25435,7 @@
     128.99722,
     42.53974
   ],
-  "Gastonia, NC (UNITED STATES) [75K]": [
+  "Gastonia (UNITED STATES, NC) [75K]": [
     -81.184,
     35.264
   ],
@@ -25455,7 +25455,7 @@
     -5.75,
     6.983333
   ],
-  "Boynton Beach, FL (UNITED STATES) [75K]": [
+  "Boynton Beach (UNITED STATES, FL) [75K]": [
     -80.064,
     26.529
   ],
@@ -25503,7 +25503,7 @@
     78.340981,
     18.319189
   ],
-  "Warner Robins, GA (UNITED STATES) [75K]": [
+  "Warner Robins (UNITED STATES, GA) [75K]": [
     -83.633,
     32.618
   ],
@@ -25511,11 +25511,11 @@
     49.7,
     36.071
   ],
-  "Tustin, CA (UNITED STATES) [75K]": [
+  "Tustin (UNITED STATES, CA) [75K]": [
     -117.825,
     33.746
   ],
-  "Milpitas, CA (UNITED STATES) [75K]": [
+  "Milpitas (UNITED STATES, CA) [75K]": [
     -121.907,
     37.431
   ],
@@ -25599,7 +25599,7 @@
     53.665,
     63.567
   ],
-  "Pleasanton, CA (UNITED STATES) [75K]": [
+  "Pleasanton (UNITED STATES, CA) [75K]": [
     -121.875,
     37.663
   ],
@@ -25651,7 +25651,7 @@
     126.893,
     35.799
   ],
-  "New Rochelle, NY (UNITED STATES) [75K]": [
+  "New Rochelle (UNITED STATES, NY) [75K]": [
     -73.784,
     40.907
   ],
@@ -25659,7 +25659,7 @@
     20.22,
     30.75
   ],
-  "Pharr, TX (UNITED STATES) [75K]": [
+  "Pharr (UNITED STATES, TX) [75K]": [
     -98.184,
     26.195
   ],
@@ -25747,7 +25747,7 @@
     72.42,
     32.928
   ],
-  "Shelby, MI (UNITED STATES) [75K]": [
+  "Shelby (UNITED STATES, MI) [75K]": [
     -83.04,
     42.674
   ],
@@ -25767,7 +25767,7 @@
     84.3918767396021,
     27.7057165552269
   ],
-  "Rancho Cordova, CA (UNITED STATES) [75K]": [
+  "Rancho Cordova (UNITED STATES, CA) [75K]": [
     -121.297,
     38.592
   ],
@@ -25803,11 +25803,11 @@
     89.543481,
     25.329678
   ],
-  "Napa, CA (UNITED STATES) [75K]": [
+  "Napa (UNITED STATES, CA) [75K]": [
     -122.289,
     38.298
   ],
-  "Kissimmee, FL (UNITED STATES) [75K]": [
+  "Kissimmee (UNITED STATES, FL) [75K]": [
     -81.408,
     28.292
   ],
@@ -25819,11 +25819,11 @@
     42.8025,
     18.199167
   ],
-  "Bellflower, CA (UNITED STATES) [75K]": [
+  "Bellflower (UNITED STATES, CA) [75K]": [
     -118.125,
     33.882
   ],
-  "Bloomington, IN (UNITED STATES) [75K]": [
+  "Bloomington (UNITED STATES, IN) [75K]": [
     -86.535,
     39.167
   ],
@@ -25839,7 +25839,7 @@
     78.833333,
     24.738889
   ],
-  "Upland, CA (UNITED STATES) [75K]": [
+  "Upland (UNITED STATES, CA) [75K]": [
     -117.651,
     34.094
   ],
@@ -25859,7 +25859,7 @@
     87.516667,
     26.15
   ],
-  "Lynchburg, VA (UNITED STATES) [75K]": [
+  "Lynchburg (UNITED STATES, VA) [75K]": [
     -79.142,
     37.415
   ],
@@ -25919,7 +25919,7 @@
     36.2342,
     33.461344
   ],
-  "Schaumburg, IL (UNITED STATES) [75K]": [
+  "Schaumburg (UNITED STATES, IL) [75K]": [
     -88.08,
     42.027
   ],
@@ -25935,7 +25935,7 @@
     20.08222,
     41.1125
   ],
-  "Perris, CA (UNITED STATES) [75K]": [
+  "Perris (UNITED STATES, CA) [75K]": [
     -117.229,
     33.782
   ],
@@ -25947,7 +25947,7 @@
     48.497222,
     28.439167
   ],
-  "Bloomington, IL (UNITED STATES) [75K]": [
+  "Bloomington (UNITED STATES, IL) [75K]": [
     -88.994,
     40.479
   ],
@@ -25987,7 +25987,7 @@
     4.71,
     52.011
   ],
-  "Jonesboro, AR (UNITED STATES) [75K]": [
+  "Jonesboro (UNITED STATES, AR) [75K]": [
     -90.705,
     35.842
   ],
@@ -26019,7 +26019,7 @@
     -72.75,
     18.41667
   ],
-  "Chino Hills, CA (UNITED STATES) [75K]": [
+  "Chino Hills (UNITED STATES, CA) [75K]": [
     -117.72,
     33.977
   ],
@@ -26087,7 +26087,7 @@
     -66.95179,
     10.38854
   ],
-  "Alameda, CA (UNITED STATES) [75K]": [
+  "Alameda (UNITED STATES, CA) [75K]": [
     -122.243,
     37.764
   ],
@@ -26147,7 +26147,7 @@
     -46.7876546587059,
     -23.2054670104009
   ],
-  "Frederick, MD (UNITED STATES) [75K]": [
+  "Frederick (UNITED STATES, MD) [75K]": [
     -77.411,
     39.414
   ],
@@ -26167,7 +26167,7 @@
     135.689,
     34.546
   ],
-  "Evanston, IL (UNITED STATES) [75K]": [
+  "Evanston (UNITED STATES, IL) [75K]": [
     -87.69,
     42.041
   ],
@@ -26231,7 +26231,7 @@
     -76.0467896454562,
     1.85179366386475
   ],
-  "Hammond, IN (UNITED STATES) [75K]": [
+  "Hammond (UNITED STATES, IN) [75K]": [
     -87.481,
     41.585
   ],
@@ -26255,7 +26255,7 @@
     30.8177453169173,
     30.9404888999794
   ],
-  "Racine, WI (UNITED STATES) [75K]": [
+  "Racine (UNITED STATES, WI) [75K]": [
     -87.783,
     42.727
   ],
@@ -26307,7 +26307,7 @@
     27.391,
     -32.881
   ],
-  "Arlington Heights, IL (UNITED STATES) [75K]": [
+  "Arlington Heights (UNITED STATES, IL) [75K]": [
     -87.983,
     42.083
   ],
@@ -26331,7 +26331,7 @@
     -74.92063,
     10.629617
   ],
-  "Cedar Park, TX (UNITED STATES) [75K]": [
+  "Cedar Park (UNITED STATES, TX) [75K]": [
     -97.823,
     30.51
   ],
@@ -26359,7 +26359,7 @@
     134.82,
     35.547
   ],
-  "South Jordan, UT (UNITED STATES) [75K]": [
+  "South Jordan (UNITED STATES, UT) [75K]": [
     -111.929,
     40.562
   ],
@@ -26443,7 +26443,7 @@
     5.897,
     51.959
   ],
-  "Pasco, WA (UNITED STATES) [75K]": [
+  "Pasco (UNITED STATES, WA) [75K]": [
     -119.092,
     46.231
   ],
@@ -26535,7 +26535,7 @@
     88.170278,
     22.474722
   ],
-  "Flagstaff, AZ (UNITED STATES) [75K]": [
+  "Flagstaff (UNITED STATES, AZ) [75K]": [
     -111.648,
     35.198
   ],
@@ -26575,7 +26575,7 @@
     77.25993,
     28.70743
   ],
-  "Southfield, MI (UNITED STATES) [75K]": [
+  "Southfield (UNITED STATES, MI) [75K]": [
     -83.221,
     42.473
   ],
@@ -26607,7 +26607,7 @@
     -2.226,
     53.012
   ],
-  "Wyoming, MI (UNITED STATES) [75K]": [
+  "Wyoming (UNITED STATES, MI) [75K]": [
     -85.705,
     42.914
   ],
@@ -26623,7 +26623,7 @@
     140.183,
     35.911
   ],
-  "Pittsburg, CA (UNITED STATES) [75K]": [
+  "Pittsburg (UNITED STATES, CA) [75K]": [
     -121.886,
     38.025
   ],
@@ -26647,7 +26647,7 @@
     136.108,
     34.628
   ],
-  "Loveland, CO (UNITED STATES) [75K]": [
+  "Loveland (UNITED STATES, CO) [75K]": [
     -105.074,
     40.395
   ],
@@ -26667,11 +26667,11 @@
     7.438,
     52.279
   ],
-  "Scranton, PA (UNITED STATES) [75K]": [
+  "Scranton (UNITED STATES, PA) [75K]": [
     -75.662,
     41.409
   ],
-  "Rochester Hills, MI (UNITED STATES) [75K]": [
+  "Rochester Hills (UNITED STATES, MI) [75K]": [
     -83.153,
     42.652
   ],
@@ -26731,7 +26731,7 @@
     6.395,
     51.253
   ],
-  "Auburn, AL (UNITED STATES) [75K]": [
+  "Auburn (UNITED STATES, AL) [75K]": [
     -85.482,
     32.607
   ],
@@ -26807,7 +26807,7 @@
     58.307,
     51.196
   ],
-  "Flower Mound, TX (UNITED STATES) [75K]": [
+  "Flower Mound (UNITED STATES, TX) [75K]": [
     -97.071,
     33.014
   ],
@@ -26823,7 +26823,7 @@
     14.533333,
     -22.683333
   ],
-  "Lehi, UT (UNITED STATES) [75K]": [
+  "Lehi (UNITED STATES, UT) [75K]": [
     -111.849,
     40.388
   ],
@@ -26839,7 +26839,7 @@
     4.834,
     52.661
   ],
-  "Doral, FL (UNITED STATES) [75K]": [
+  "Doral (UNITED STATES, FL) [75K]": [
     -80.353,
     25.812
   ],
@@ -26883,7 +26883,7 @@
     -72.35569,
     7.70131
   ],
-  "Apple Valley, CA (UNITED STATES) [75K]": [
+  "Apple Valley (UNITED STATES, CA) [75K]": [
     -117.19,
     34.501
   ],
@@ -26895,7 +26895,7 @@
     130.194,
     32.456
   ],
-  "Bethlehem, PA (UNITED STATES) [75K]": [
+  "Bethlehem (UNITED STATES, PA) [75K]": [
     -75.375,
     40.622
   ],
@@ -26951,7 +26951,7 @@
     102.9103,
     35.0002
   ],
-  "Appleton, WI (UNITED STATES) [75K]": [
+  "Appleton (UNITED STATES, WI) [75K]": [
     -88.407,
     44.262
   ],
@@ -26963,7 +26963,7 @@
     -49.7510353832235,
     -21.6746749061068
   ],
-  "Pawtucket, RI (UNITED STATES) [75K]": [
+  "Pawtucket (UNITED STATES, RI) [75K]": [
     -71.384,
     41.877
   ],
@@ -27131,7 +27131,7 @@
     -38.2994919556978,
     -7.99162239986609
   ],
-  "Woodbury, MN (UNITED STATES) [75K]": [
+  "Woodbury (UNITED STATES, MN) [75K]": [
     -92.96,
     44.925
   ],
@@ -27219,11 +27219,11 @@
     90.219125,
     25.519592
   ],
-  "Iowa City, IA (UNITED STATES) [50K]": [
+  "Iowa City (UNITED STATES, IA) [50K]": [
     -91.535,
     41.661
   ],
-  "North Port, FL (UNITED STATES) [50K]": [
+  "North Port (UNITED STATES, FL) [50K]": [
     -82.236,
     27.044
   ],
@@ -27247,7 +27247,7 @@
     140.05,
     39.387
   ],
-  "Rapid City, SD (UNITED STATES) [50K]": [
+  "Rapid City (UNITED STATES, SD) [50K]": [
     -103.227,
     44.081
   ],
@@ -27307,7 +27307,7 @@
     -46.9020836555519,
     -16.360960130074
   ],
-  "Cherry Hill, NJ (UNITED STATES) [50K]": [
+  "Cherry Hill (UNITED STATES, NJ) [50K]": [
     -74.986,
     39.892
   ],
@@ -27335,7 +27335,7 @@
     8.879,
     51.934
   ],
-  "Lauderhill, FL (UNITED STATES) [50K]": [
+  "Lauderhill (UNITED STATES, FL) [50K]": [
     -80.212,
     26.15
   ],
@@ -27383,7 +27383,7 @@
     12.377,
     -5.921
   ],
-  "Rock Hill, SC (UNITED STATES) [50K]": [
+  "Rock Hill (UNITED STATES, SC) [50K]": [
     -81.025,
     34.925
   ],
@@ -27427,7 +27427,7 @@
     39.853,
     -3.627
   ],
-  "Missouri City, TX (UNITED STATES) [50K]": [
+  "Missouri City (UNITED STATES, TX) [50K]": [
     -95.527,
     29.596
   ],
@@ -27479,7 +27479,7 @@
     -71.6,
     -35.85
   ],
-  "New Britain, CT (UNITED STATES) [50K]": [
+  "New Britain (UNITED STATES, CT) [50K]": [
     -72.785,
     41.676
   ],
@@ -27491,7 +27491,7 @@
     68.952,
     26.044
   ],
-  "Broomfield, CO (UNITED STATES) [50K]": [
+  "Broomfield (UNITED STATES, CO) [50K]": [
     -105.053,
     39.925
   ],
@@ -27551,7 +27551,7 @@
     72.99025,
     21.631439
   ],
-  "Bolingbrook, IL (UNITED STATES) [50K]": [
+  "Bolingbrook (UNITED STATES, IL) [50K]": [
     -88.068,
     41.698
   ],
@@ -27559,7 +27559,7 @@
     90.6749322993325,
     23.8544056804569
   ],
-  "Mount Vernon, NY (UNITED STATES) [50K]": [
+  "Mount Vernon (UNITED STATES, NY) [50K]": [
     -73.837,
     40.913
   ],
@@ -27627,11 +27627,11 @@
     32.3,
     13.99
   ],
-  "Bismarck, ND (UNITED STATES) [50K]": [
+  "Bismarck (UNITED STATES, ND) [50K]": [
     -100.788,
     46.805
   ],
-  "Brick, NJ (UNITED STATES) [50K]": [
+  "Brick (UNITED STATES, NJ) [50K]": [
     -74.121,
     40.058
   ],
@@ -27643,7 +27643,7 @@
     80.569183,
     16.433656
   ],
-  "Kalamazoo, MI (UNITED STATES) [50K]": [
+  "Kalamazoo (UNITED STATES, MI) [50K]": [
     -85.583,
     42.292
   ],
@@ -27679,7 +27679,7 @@
     -72.545,
     10.06444
   ],
-  "Missoula, MT (UNITED STATES) [50K]": [
+  "Missoula (UNITED STATES, MT) [50K]": [
     -113.994,
     46.872
   ],
@@ -27727,7 +27727,7 @@
     29.49866,
     39.54237
   ],
-  "Redmond, WA (UNITED STATES) [50K]": [
+  "Redmond (UNITED STATES, WA) [50K]": [
     -122.122,
     47.674
   ],
@@ -27767,7 +27767,7 @@
     57.077,
     27.15
   ],
-  "Redlands, CA (UNITED STATES) [50K]": [
+  "Redlands (UNITED STATES, CA) [50K]": [
     -117.183,
     34.057
   ],
@@ -27775,7 +27775,7 @@
     130.515,
     33.512
   ],
-  "Castle Rock, CO (UNITED STATES) [50K]": [
+  "Castle Rock (UNITED STATES, CO) [50K]": [
     -104.856,
     39.372
   ],
@@ -27859,7 +27859,7 @@
     39.033056,
     22.800556
   ],
-  "Gulfport, MS (UNITED STATES) [50K]": [
+  "Gulfport (UNITED STATES, MS) [50K]": [
     -89.093,
     30.369
   ],
@@ -27931,11 +27931,11 @@
     44.28716,
     37.57362
   ],
-  "Turlock, CA (UNITED STATES) [50K]": [
+  "Turlock (UNITED STATES, CA) [50K]": [
     -120.845,
     37.495
   ],
-  "Jacksonville, NC (UNITED STATES) [50K]": [
+  "Jacksonville (UNITED STATES, NC) [50K]": [
     -77.431,
     34.751
   ],
@@ -27951,7 +27951,7 @@
     -71.21667,
     -33.7
   ],
-  "Daytona Beach, FL (UNITED STATES) [50K]": [
+  "Daytona Beach (UNITED STATES, FL) [50K]": [
     -81.023,
     29.211
   ],
@@ -27959,7 +27959,7 @@
     -44.4285918073251,
     -18.7531888628795
   ],
-  "Mansfield, TX (UNITED STATES) [50K]": [
+  "Mansfield (UNITED STATES, TX) [50K]": [
     -97.142,
     32.563
   ],
@@ -27967,7 +27967,7 @@
     50.6135537276106,
     26.1631143174467
   ],
-  "Dublin, CA (UNITED STATES) [50K]": [
+  "Dublin (UNITED STATES, CA) [50K]": [
     -121.924,
     37.706
   ],
@@ -28007,7 +28007,7 @@
     85.7798536690027,
     26.9179138165065
   ],
-  "St Joseph, MO (UNITED STATES) [50K]": [
+  "St Joseph (UNITED STATES, MO) [50K]": [
     -94.853,
     39.767
   ],
@@ -28047,7 +28047,7 @@
     30.9,
     3.02
   ],
-  "Framingham, MA (UNITED STATES) [50K]": [
+  "Framingham (UNITED STATES, MA) [50K]": [
     -71.441,
     42.31
   ],
@@ -28087,7 +28087,7 @@
     77.955556,
     9.584722
   ],
-  "Bowling Green, KY (UNITED STATES) [50K]": [
+  "Bowling Green (UNITED STATES, KY) [50K]": [
     -86.443,
     36.995
   ],
@@ -28111,7 +28111,7 @@
     137.046,
     35.006
   ],
-  "Baldwin Park, CA (UNITED STATES) [50K]": [
+  "Baldwin Park (UNITED STATES, CA) [50K]": [
     -117.965,
     34.086
   ],
@@ -28171,7 +28171,7 @@
     77.216667,
     12.65
   ],
-  "Tamarac, FL (UNITED STATES) [50K]": [
+  "Tamarac (UNITED STATES, FL) [50K]": [
     -80.269,
     26.208
   ],
@@ -28191,11 +28191,11 @@
     75.7,
     11.43
   ],
-  "Harlingen, TX (UNITED STATES) [50K]": [
+  "Harlingen (UNITED STATES, TX) [50K]": [
     -97.697,
     26.193
   ],
-  "Camden, NJ (UNITED STATES) [50K]": [
+  "Camden (UNITED STATES, NJ) [50K]": [
     -75.119,
     39.944
   ],
@@ -28231,7 +28231,7 @@
     39.039,
     55.381
   ],
-  "Bayonne, NJ (UNITED STATES) [50K]": [
+  "Bayonne (UNITED STATES, NJ) [50K]": [
     -74.117,
     40.666
   ],
@@ -28267,7 +28267,7 @@
     -59.26256,
     -29.14003
   ],
-  "Rocklin, CA (UNITED STATES) [50K]": [
+  "Rocklin (UNITED STATES, CA) [50K]": [
     -121.236,
     38.791
   ],
@@ -28275,7 +28275,7 @@
     77.691622,
     11.441233
   ],
-  "Redondo Beach, CA (UNITED STATES) [50K]": [
+  "Redondo Beach (UNITED STATES, CA) [50K]": [
     -118.388,
     33.844
   ],
@@ -28415,7 +28415,7 @@
     121.51667,
     50.78333
   ],
-  "Waukesha, WI (UNITED STATES) [50K]": [
+  "Waukesha (UNITED STATES, WI) [50K]": [
     -88.232,
     43.012
   ],
@@ -28467,7 +28467,7 @@
     57.479053,
     -20.265357
   ],
-  "Dothan, AL (UNITED STATES) [50K]": [
+  "Dothan (UNITED STATES, AL) [50K]": [
     -85.392,
     31.224
   ],
@@ -28483,7 +28483,7 @@
     177.415204671544,
     -17.8035856957409
   ],
-  "Johnson City, TN (UNITED STATES) [50K]": [
+  "Johnson City (UNITED STATES, TN) [50K]": [
     -82.353,
     36.316
   ],
@@ -28559,7 +28559,7 @@
     87.638001470126,
     26.6638397733837
   ],
-  "Wilmington, DE (UNITED STATES) [50K]": [
+  "Wilmington (UNITED STATES, DE) [50K]": [
     -75.553,
     39.738
   ],
@@ -28567,7 +28567,7 @@
     -5.98,
     34.68
   ],
-  "Canton, OH (UNITED STATES) [50K]": [
+  "Canton (UNITED STATES, OH) [50K]": [
     -81.375,
     40.798
   ],
@@ -28611,7 +28611,7 @@
     86.766,
     26.547
   ],
-  "Lafayette, IN (UNITED STATES) [50K]": [
+  "Lafayette (UNITED STATES, IN) [50K]": [
     -86.893,
     40.419
   ],
@@ -28643,11 +28643,11 @@
     8.05,
     34.75
   ],
-  "Camarillo, CA (UNITED STATES) [50K]": [
+  "Camarillo (UNITED STATES, CA) [50K]": [
     -119.039,
     34.217
   ],
-  "Greenville, SC (UNITED STATES) [50K]": [
+  "Greenville (UNITED STATES, SC) [50K]": [
     -82.399,
     34.851
   ],
@@ -28655,7 +28655,7 @@
     101.168,
     12.713
   ],
-  "Marysville, WA (UNITED STATES) [50K]": [
+  "Marysville (UNITED STATES, WA) [50K]": [
     -122.177,
     48.052
   ],
@@ -28679,7 +28679,7 @@
     -58.446137214465,
     -3.14772811307293
   ],
-  "Waterford, MI (UNITED STATES) [50K]": [
+  "Waterford (UNITED STATES, MI) [50K]": [
     -83.389,
     42.66
   ],
@@ -28695,7 +28695,7 @@
     77.3,
     8.966667
   ],
-  "Passaic, NJ (UNITED STATES) [50K]": [
+  "Passaic (UNITED STATES, NJ) [50K]": [
     -74.127,
     40.863
   ],
@@ -28703,7 +28703,7 @@
     73.9,
     29.319444
   ],
-  "Decatur, IL (UNITED STATES) [50K]": [
+  "Decatur (UNITED STATES, IL) [50K]": [
     -88.954,
     39.843
   ],
@@ -28719,7 +28719,7 @@
     78.293375,
     30.107431
   ],
-  "St Charles, MO (UNITED STATES) [50K]": [
+  "St Charles (UNITED STATES, MO) [50K]": [
     -90.481,
     38.782
   ],
@@ -28783,7 +28783,7 @@
     -50.2488542611435,
     -20.2823190472373
   ],
-  "Caguas, PR (UNITED STATES) [50K]": [
+  "Caguas (UNITED STATES, PR) [50K]": [
     -66.035,
     18.235
   ],
@@ -28803,11 +28803,11 @@
     -70.734,
     18.453
   ],
-  "Lake Elsinore, CA (UNITED STATES) [50K]": [
+  "Lake Elsinore (UNITED STATES, CA) [50K]": [
     -117.328,
     33.668
   ],
-  "Maple Grove, MN (UNITED STATES) [50K]": [
+  "Maple Grove (UNITED STATES, MN) [50K]": [
     -93.456,
     45.072
   ],
@@ -28827,7 +28827,7 @@
     -98.17,
     19.12
   ],
-  "Blaine, MN (UNITED STATES) [50K]": [
+  "Blaine (UNITED STATES, MN) [50K]": [
     -93.235,
     45.161
   ],
@@ -28855,7 +28855,7 @@
     -51.3673894216216,
     -23.3125341817592
   ],
-  "Union City, CA (UNITED STATES) [50K]": [
+  "Union City (UNITED STATES, CA) [50K]": [
     -122.019,
     37.595
   ],
@@ -28863,7 +28863,7 @@
     -1.124,
     50.795
   ],
-  "Walnut Creek, CA (UNITED STATES) [50K]": [
+  "Walnut Creek (UNITED STATES, CA) [50K]": [
     -122.06,
     37.897
   ],
@@ -28875,7 +28875,7 @@
     139.394,
     35.943
   ],
-  "Yuba City, CA (UNITED STATES) [50K]": [
+  "Yuba City (UNITED STATES, CA) [50K]": [
     -121.618,
     39.141
   ],
@@ -28963,11 +28963,11 @@
     28.835,
     45.341
   ],
-  "North Richland Hills, TX (UNITED STATES) [50K]": [
+  "North Richland Hills (UNITED STATES, TX) [50K]": [
     -97.228,
     32.839
   ],
-  "Rogers, AR (UNITED STATES) [50K]": [
+  "Rogers (UNITED STATES, AR) [50K]": [
     -94.116,
     36.333
   ],
@@ -29003,7 +29003,7 @@
     -66.95,
     10.6
   ],
-  "Eastvale, CA (UNITED STATES) [50K]": [
+  "Eastvale (UNITED STATES, CA) [50K]": [
     -117.579,
     33.962
   ],
@@ -29043,11 +29043,11 @@
     77.298611,
     28.498611
   ],
-  "Gaithersburg, MD (UNITED STATES) [50K]": [
+  "Gaithersburg (UNITED STATES, MD) [50K]": [
     -77.202,
     39.144
   ],
-  "Albany, GA (UNITED STATES) [50K]": [
+  "Albany (UNITED STATES, GA) [50K]": [
     -84.156,
     31.577
   ],
@@ -29055,11 +29055,11 @@
     42.830833,
     16.968611
   ],
-  "East Orange, NJ (UNITED STATES) [50K]": [
+  "East Orange (UNITED STATES, NJ) [50K]": [
     -74.211,
     40.761
   ],
-  "Noblesville, IN (UNITED STATES) [50K]": [
+  "Noblesville (UNITED STATES, IN) [50K]": [
     -86.014,
     40.046
   ],
@@ -29075,7 +29075,7 @@
     72.687,
     33.824
   ],
-  "Lakeville, MN (UNITED STATES) [50K]": [
+  "Lakeville (UNITED STATES, MN) [50K]": [
     -93.243,
     44.65
   ],
@@ -29095,7 +29095,7 @@
     38.545619,
     35.832858
   ],
-  "Eau Claire, WI (UNITED STATES) [50K]": [
+  "Eau Claire (UNITED STATES, WI) [50K]": [
     -91.498,
     44.811
   ],
@@ -29191,7 +29191,7 @@
     -52.5528685326365,
     -17.5634107331728
   ],
-  "Gary, IN (UNITED STATES) [50K]": [
+  "Gary (UNITED STATES, IN) [50K]": [
     -87.337,
     41.6
   ],
@@ -29239,7 +29239,7 @@
     72.75,
     19.683333
   ],
-  "St Cloud, MN (UNITED STATES) [50K]": [
+  "St Cloud (UNITED STATES, MN) [50K]": [
     -94.162,
     45.56
   ],
@@ -29247,11 +29247,11 @@
     -46.9963602970754,
     -24.3237928709749
   ],
-  "Tulare, CA (UNITED STATES) [50K]": [
+  "Tulare (UNITED STATES, CA) [50K]": [
     -119.347,
     36.208
   ],
-  "Eagan, MN (UNITED STATES) [50K]": [
+  "Eagan (UNITED STATES, MN) [50K]": [
     -93.167,
     44.805
   ],
@@ -29299,7 +29299,7 @@
     63.112,
     26.303
   ],
-  "West Des Moines, IA (UNITED STATES) [50K]": [
+  "West Des Moines (UNITED STATES, IA) [50K]": [
     -93.709,
     41.571
   ],
@@ -29327,7 +29327,7 @@
     63.63,
     56.087
   ],
-  "Union City, NJ (UNITED STATES) [50K]": [
+  "Union City (UNITED STATES, NJ) [50K]": [
     -74.024,
     40.779
   ],
@@ -29343,7 +29343,7 @@
     2.273,
     48.823
   ],
-  "Palo Alto, CA (UNITED STATES) [50K]": [
+  "Palo Alto (UNITED STATES, CA) [50K]": [
     -122.162,
     37.445
   ],
@@ -29363,7 +29363,7 @@
     86.303,
     54.419
   ],
-  "Guaynabo, PR (UNITED STATES) [50K]": [
+  "Guaynabo (UNITED STATES, PR) [50K]": [
     -66.111,
     18.358
   ],
@@ -29383,7 +29383,7 @@
     79.494444,
     28.775
   ],
-  "Portland, ME (UNITED STATES) [50K]": [
+  "Portland (UNITED STATES, ME) [50K]": [
     -70.257,
     43.659
   ],
@@ -29407,7 +29407,7 @@
     85.6444717676553,
     27.0041687350493
   ],
-  "Franklin, NJ (UNITED STATES) [50K]": [
+  "Franklin (UNITED STATES, NJ) [50K]": [
     -74.533,
     40.499
   ],
@@ -29419,7 +29419,7 @@
     2.039,
     49.053
   ],
-  "Yorba Linda, CA (UNITED STATES) [50K]": [
+  "Yorba Linda (UNITED STATES, CA) [50K]": [
     -117.813,
     33.889
   ],
@@ -29467,7 +29467,7 @@
     128.199,
     36.595
   ],
-  "Jackson, TN (UNITED STATES) [50K]": [
+  "Jackson (UNITED STATES, TN) [50K]": [
     -88.819,
     35.614
   ],
@@ -29507,7 +29507,7 @@
     47.12,
     42.82
   ],
-  "Weston, FL (UNITED STATES) [50K]": [
+  "Weston (UNITED STATES, FL) [50K]": [
     -80.383,
     26.1
   ],
@@ -29563,7 +29563,7 @@
     4.587,
     51.94
   ],
-  "Palatine, IL (UNITED STATES) [50K]": [
+  "Palatine (UNITED STATES, IL) [50K]": [
     -88.034,
     42.11
   ],
@@ -29579,7 +29579,7 @@
     50.283333,
     -14.883333
   ],
-  "Ankeny, IA (UNITED STATES) [50K]": [
+  "Ankeny (UNITED STATES, IA) [50K]": [
     -93.6,
     41.732
   ],
@@ -29603,7 +29603,7 @@
     21.51,
     2.14
   ],
-  "Skokie, IL (UNITED STATES) [50K]": [
+  "Skokie (UNITED STATES, IL) [50K]": [
     -87.747,
     42.034
   ],
@@ -29619,7 +29619,7 @@
     73.883333,
     25.066667
   ],
-  "Haverhill, MA (UNITED STATES) [50K]": [
+  "Haverhill (UNITED STATES, MA) [50K]": [
     -71.077,
     42.777
   ],
@@ -29703,7 +29703,7 @@
     24.71,
     51.214
   ],
-  "San Marcos, TX (UNITED STATES) [50K]": [
+  "San Marcos (UNITED STATES, TX) [50K]": [
     -97.941,
     29.883
   ],
@@ -29743,7 +29743,7 @@
     140.32,
     35.662
   ],
-  "Sammamish, WA (UNITED STATES) [50K]": [
+  "Sammamish (UNITED STATES, WA) [50K]": [
     -122.035,
     47.602
   ],
@@ -29835,11 +29835,11 @@
     -7.116667,
     33.616667
   ],
-  "Waterloo, IA (UNITED STATES) [50K]": [
+  "Waterloo (UNITED STATES, IA) [50K]": [
     -92.336,
     42.498
   ],
-  "Shawnee, KS (UNITED STATES) [50K]": [
+  "Shawnee (UNITED STATES, KS) [50K]": [
     -94.742,
     39.014
   ],
@@ -29863,7 +29863,7 @@
     -118.80271,
     55.16667
   ],
-  "Lynwood, CA (UNITED STATES) [50K]": [
+  "Lynwood (UNITED STATES, CA) [50K]": [
     -118.212,
     33.93
   ],
@@ -29911,7 +29911,7 @@
     2.02,
     41.316
   ],
-  "Georgetown, TX (UNITED STATES) [50K]": [
+  "Georgetown (UNITED STATES, TX) [50K]": [
     -97.677,
     30.633
   ],
@@ -29939,11 +29939,11 @@
     20.38194,
     45.38361
   ],
-  "Rockville, MD (UNITED STATES) [50K]": [
+  "Rockville (UNITED STATES, MD) [50K]": [
     -77.153,
     39.084
   ],
-  "Middletown, NJ (UNITED STATES) [50K]": [
+  "Middletown (UNITED STATES, NJ) [50K]": [
     -74.099,
     40.392
   ],
@@ -29971,7 +29971,7 @@
     18.251,
     52.228
   ],
-  "Schenectady, NY (UNITED STATES) [50K]": [
+  "Schenectady (UNITED STATES, NY) [50K]": [
     -73.939,
     42.812
   ],
@@ -30031,7 +30031,7 @@
     6.73084570778362,
     0.338580964932607
   ],
-  "Old Bridge, NJ (UNITED STATES) [50K]": [
+  "Old Bridge (UNITED STATES, NJ) [50K]": [
     -74.324,
     40.395
   ],
@@ -30047,7 +30047,7 @@
     131.903,
     32.956
   ],
-  "Davis, CA (UNITED STATES) [50K]": [
+  "Davis (UNITED STATES, CA) [50K]": [
     -121.74,
     38.543
   ],
@@ -30055,11 +30055,11 @@
     74.916667,
     31.45
   ],
-  "Delray Beach, FL (UNITED STATES) [50K]": [
+  "Delray Beach (UNITED STATES, FL) [50K]": [
     -80.073,
     26.462
   ],
-  "Oshkosh, WI (UNITED STATES) [50K]": [
+  "Oshkosh (UNITED STATES, WI) [50K]": [
     -88.538,
     44.018
   ],
@@ -30187,7 +30187,7 @@
     -42.1404001147217,
     -19.7900717796656
   ],
-  "Kenner, LA (UNITED STATES) [50K]": [
+  "Kenner (UNITED STATES, LA) [50K]": [
     -90.242,
     29.994
   ],
@@ -30195,7 +30195,7 @@
     107.828,
     21.563
   ],
-  "Ames, IA (UNITED STATES) [50K]": [
+  "Ames (UNITED STATES, IA) [50K]": [
     -93.62,
     42.023
   ],
@@ -30219,7 +30219,7 @@
     4.884,
     45.696
   ],
-  "Lodi, CA (UNITED STATES) [50K]": [
+  "Lodi (UNITED STATES, CA) [50K]": [
     -121.272,
     38.13
   ],
@@ -30231,7 +30231,7 @@
     59.326,
     22.017
   ],
-  "Malden, MA (UNITED STATES) [50K]": [
+  "Malden (UNITED STATES, MA) [50K]": [
     -71.067,
     42.426
   ],
@@ -30243,7 +30243,7 @@
     23.031,
     42.606
   ],
-  "Novi, MI (UNITED STATES) [50K]": [
+  "Novi (UNITED STATES, MI) [50K]": [
     -83.476,
     42.481
   ],
@@ -30255,7 +30255,7 @@
     -36.4237536254525,
     -8.33573654917636
   ],
-  "Madera, CA (UNITED STATES) [50K]": [
+  "Madera (UNITED STATES, CA) [50K]": [
     -120.061,
     36.961
   ],
@@ -30335,7 +30335,7 @@
     100.266,
     16.817
   ],
-  "South San Francisco, CA (UNITED STATES) [50K]": [
+  "South San Francisco (UNITED STATES, CA) [50K]": [
     -122.41,
     37.655
   ],
@@ -30367,7 +30367,7 @@
     77.398201,
     9.173304
   ],
-  "Gloucester, NJ (UNITED STATES) [50K]": [
+  "Gloucester (UNITED STATES, NJ) [50K]": [
     -75.049,
     39.807
   ],
@@ -30431,7 +30431,7 @@
     -67.91982,
     10.08621
   ],
-  "West Bloomfield, MI (UNITED STATES) [50K]": [
+  "West Bloomfield (UNITED STATES, MI) [50K]": [
     -83.409,
     42.55
   ],
@@ -30447,7 +30447,7 @@
     31.888,
     51.039
   ],
-  "Alpharetta, GA (UNITED STATES) [50K]": [
+  "Alpharetta (UNITED STATES, GA) [50K]": [
     -84.295,
     34.076
   ],
@@ -30507,7 +30507,7 @@
     28.804,
     45.178
   ],
-  "Janesville, WI (UNITED STATES) [50K]": [
+  "Janesville (UNITED STATES, WI) [50K]": [
     -89.023,
     42.683
   ],
@@ -30527,7 +30527,7 @@
     37.519,
     56.346
   ],
-  "Grand Junction, CO (UNITED STATES) [50K]": [
+  "Grand Junction (UNITED STATES, CO) [50K]": [
     -108.564,
     39.067
   ],
@@ -30543,7 +30543,7 @@
     73.837,
     30.578
   ],
-  "Victoria, TX (UNITED STATES) [50K]": [
+  "Victoria (UNITED STATES, TX) [50K]": [
     -97.006,
     28.799
   ],
@@ -30671,7 +30671,7 @@
     25.839,
     66.638
   ],
-  "Utica, NY (UNITED STATES) [50K]": [
+  "Utica (UNITED STATES, NY) [50K]": [
     -75.233,
     43.101
   ],
@@ -30707,7 +30707,7 @@
     -88.186667,
     17.504722
   ],
-  "Waltham, MA (UNITED STATES) [50K]": [
+  "Waltham (UNITED STATES, MA) [50K]": [
     -71.236,
     42.375
   ],
@@ -30719,7 +30719,7 @@
     37.901,
     55.578
   ],
-  "Lorain, OH (UNITED STATES) [50K]": [
+  "Lorain (UNITED STATES, OH) [50K]": [
     -82.175,
     41.466
   ],
@@ -30731,11 +30731,11 @@
     51.421,
     36.655
   ],
-  "Muncie, IN (UNITED STATES) [50K]": [
+  "Muncie (UNITED STATES, IN) [50K]": [
     -85.386,
     40.194
   ],
-  "Pflugerville, TX (UNITED STATES) [50K]": [
+  "Pflugerville (UNITED STATES, TX) [50K]": [
     -97.62,
     30.439
   ],
@@ -30747,7 +30747,7 @@
     78.846397,
     18.100683
   ],
-  "Cheyenne, WY (UNITED STATES) [50K]": [
+  "Cheyenne (UNITED STATES, WY) [50K]": [
     -104.82,
     41.14
   ],
@@ -30851,7 +30851,7 @@
     2.304,
     48.903
   ],
-  "Idaho Falls, ID (UNITED STATES) [50K]": [
+  "Idaho Falls (UNITED STATES, ID) [50K]": [
     -112.039,
     43.491
   ],
@@ -30931,7 +30931,7 @@
     -5.669,
     54.661
   ],
-  "North Little Rock, AR (UNITED STATES) [50K]": [
+  "North Little Rock (UNITED STATES, AR) [50K]": [
     -92.267,
     34.769
   ],
@@ -31015,11 +31015,11 @@
     -8.229,
     43.486
   ],
-  "Laguna Niguel, CA (UNITED STATES) [50K]": [
+  "Laguna Niguel (UNITED STATES, CA) [50K]": [
     -117.713,
     33.527
   ],
-  "Burnsville, MN (UNITED STATES) [50K]": [
+  "Burnsville (UNITED STATES, MN) [50K]": [
     -93.278,
     44.766
   ],
@@ -31043,7 +31043,7 @@
     24.234,
     50.385
   ],
-  "San Clemente, CA (UNITED STATES) [50K]": [
+  "San Clemente (UNITED STATES, CA) [50K]": [
     -117.613,
     33.428
   ],
@@ -31051,7 +31051,7 @@
     130.55,
     32.928
   ],
-  "Brentwood, CA (UNITED STATES) [50K]": [
+  "Brentwood (UNITED STATES, CA) [50K]": [
     -121.695,
     37.933
   ],
@@ -31083,11 +31083,11 @@
     23.571,
     46.068
   ],
-  "Eden Prairie, MN (UNITED STATES) [50K]": [
+  "Eden Prairie (UNITED STATES, MN) [50K]": [
     -93.47,
     44.854
   ],
-  "Bellevue, NE (UNITED STATES) [50K]": [
+  "Bellevue (UNITED STATES, NE) [50K]": [
     -95.911,
     41.143
   ],
@@ -31095,7 +31095,7 @@
     10.047,
     56.465
   ],
-  "Conway, AR (UNITED STATES) [50K]": [
+  "Conway (UNITED STATES, AR) [50K]": [
     -92.441,
     35.089
   ],
@@ -31135,7 +31135,7 @@
     -99.183,
     18.841
   ],
-  "West Hartford, CT (UNITED STATES) [50K]": [
+  "West Hartford (UNITED STATES, CT) [50K]": [
     -72.751,
     41.771
   ],
@@ -31251,7 +31251,7 @@
     26.774,
     -26.844
   ],
-  "Greenwood, IN (UNITED STATES) [50K]": [
+  "Greenwood (UNITED STATES, IN) [50K]": [
     -86.11,
     39.614
   ],
@@ -31375,7 +31375,7 @@
     -3.45940069737654,
     12.463364568547
   ],
-  "Lakewood, WA (UNITED STATES) [50K]": [
+  "Lakewood (UNITED STATES, WA) [50K]": [
     -122.518,
     47.172
   ],
@@ -31383,7 +31383,7 @@
     -66.38139,
     9.86005
   ],
-  "Coon Rapids, MN (UNITED STATES) [50K]": [
+  "Coon Rapids (UNITED STATES, MN) [50K]": [
     -93.285,
     45.146
   ],
@@ -31391,7 +31391,7 @@
     15.973611,
     -1.160278
   ],
-  "Ocala, FL (UNITED STATES) [50K]": [
+  "Ocala (UNITED STATES, FL) [50K]": [
     -82.136,
     29.187
   ],
@@ -31427,7 +31427,7 @@
     5.085,
     52.029
   ],
-  "Greenwich, CT (UNITED STATES) [50K]": [
+  "Greenwich (UNITED STATES, CT) [50K]": [
     -73.644,
     41.076
   ],
@@ -31503,7 +31503,7 @@
     73.03,
     32.187
   ],
-  "Taylor, MI (UNITED STATES) [50K]": [
+  "Taylor (UNITED STATES, MI) [50K]": [
     -83.27,
     42.241
   ],
@@ -31511,7 +31511,7 @@
     19.033,
     50.302
   ],
-  "Hamilton, OH (UNITED STATES) [50K]": [
+  "Hamilton (UNITED STATES, OH) [50K]": [
     -84.56,
     39.399
   ],
@@ -31519,7 +31519,7 @@
     89.966667,
     26.033333
   ],
-  "Millcreek, UT (UNITED STATES) [50K]": [
+  "Millcreek (UNITED STATES, UT) [50K]": [
     -111.863,
     40.687
   ],
@@ -31531,7 +31531,7 @@
     106.37647,
     10.236353
   ],
-  "North Bergen, NJ (UNITED STATES) [50K]": [
+  "North Bergen (UNITED STATES, NJ) [50K]": [
     -74.021,
     40.805
   ],
@@ -31563,7 +31563,7 @@
     -1.789,
     43.338
   ],
-  "Dearborn Heights, MI (UNITED STATES) [50K]": [
+  "Dearborn Heights (UNITED STATES, MI) [50K]": [
     -83.273,
     42.334
   ],
@@ -31615,7 +31615,7 @@
     -63.80131,
     -22.51636
   ],
-  "Brookline, MA (UNITED STATES) [50K]": [
+  "Brookline (UNITED STATES, MA) [50K]": [
     -71.15,
     42.316
   ],
@@ -31647,7 +31647,7 @@
     -74.886,
     10.898
   ],
-  "La Habra, CA (UNITED STATES) [50K]": [
+  "La Habra (UNITED STATES, CA) [50K]": [
     -117.946,
     33.932
   ],
@@ -31699,7 +31699,7 @@
     -6.598,
     42.548
   ],
-  "Santa Cruz, CA (UNITED STATES) [50K]": [
+  "Santa Cruz (UNITED STATES, CA) [50K]": [
     -122.026,
     36.974
   ],
@@ -31763,11 +31763,11 @@
     -73.700556,
     3.538611
   ],
-  "Council Bluffs, IA (UNITED STATES) [50K]": [
+  "Council Bluffs (UNITED STATES, IA) [50K]": [
     -95.85,
     41.261
   ],
-  "Moore, OK (UNITED STATES) [50K]": [
+  "Moore (UNITED STATES, OK) [50K]": [
     -97.487,
     35.338
   ],
@@ -31787,7 +31787,7 @@
     77.6125,
     26.652778
   ],
-  "Bossier City, LA (UNITED STATES) [50K]": [
+  "Bossier City (UNITED STATES, LA) [50K]": [
     -93.737,
     32.521
   ],
@@ -31815,7 +31815,7 @@
     -4.73,
     32.68
   ],
-  "Montebello, CA (UNITED STATES) [50K]": [
+  "Montebello (UNITED STATES, CA) [50K]": [
     -118.108,
     34.01
   ],
@@ -31823,7 +31823,7 @@
     -47.0037471153802,
     -21.4683644937305
   ],
-  "Porterville, CA (UNITED STATES) [50K]": [
+  "Porterville (UNITED STATES, CA) [50K]": [
     -119.016,
     36.065
   ],
@@ -31843,7 +31843,7 @@
     -74.185037,
     10.520664
   ],
-  "Port Orange, FL (UNITED STATES) [50K]": [
+  "Port Orange (UNITED STATES, FL) [50K]": [
     -80.993,
     29.143
   ],
@@ -31855,7 +31855,7 @@
     79.983333,
     12.7
   ],
-  "Kyle, TX (UNITED STATES) [50K]": [
+  "Kyle (UNITED STATES, TX) [50K]": [
     -97.875,
     29.989
   ],
@@ -31863,7 +31863,7 @@
     -2.32,
     53.425
   ],
-  "Rowlett, TX (UNITED STATES) [50K]": [
+  "Rowlett (UNITED STATES, TX) [50K]": [
     -96.569,
     32.905
   ],
@@ -31907,7 +31907,7 @@
     -64.49778,
     -31.42414
   ],
-  "Commerce City, CO (UNITED STATES) [50K]": [
+  "Commerce City (UNITED STATES, CO) [50K]": [
     -104.932,
     39.806
   ],
@@ -32007,7 +32007,7 @@
     -42.6933373578175,
     -21.389096923515
   ],
-  "Revere, MA (UNITED STATES) [50K]": [
+  "Revere (UNITED STATES, MA) [50K]": [
     -71.012,
     42.41
   ],
@@ -32051,7 +32051,7 @@
     76.116667,
     29.593056
   ],
-  "Pico Rivera, CA (UNITED STATES) [50K]": [
+  "Pico Rivera (UNITED STATES, CA) [50K]": [
     -118.097,
     33.983
   ],
@@ -32099,7 +32099,7 @@
     36.08111,
     40.3875
   ],
-  "Encinitas, CA (UNITED STATES) [50K]": [
+  "Encinitas (UNITED STATES, CA) [50K]": [
     -117.292,
     33.037
   ],
@@ -32127,7 +32127,7 @@
     74.852778,
     27.145833
   ],
-  "Chapel Hill, NC (UNITED STATES) [50K]": [
+  "Chapel Hill (UNITED STATES, NC) [50K]": [
     -79.056,
     35.913
   ],
@@ -32171,7 +32171,7 @@
     133.715,
     34.183
   ],
-  "Springfield, OR (UNITED STATES) [50K]": [
+  "Springfield (UNITED STATES, OR) [50K]": [
     -123.022,
     44.046
   ],
@@ -32211,7 +32211,7 @@
     100.599,
     7.195
   ],
-  "Hendersonville, TN (UNITED STATES) [50K]": [
+  "Hendersonville (UNITED STATES, TN) [50K]": [
     -86.62,
     36.305
   ],
@@ -32259,7 +32259,7 @@
     45.866667,
     35.35
   ],
-  "Wellington, FL (UNITED STATES) [50K]": [
+  "Wellington (UNITED STATES, FL) [50K]": [
     -80.257,
     26.667
   ],
@@ -32279,7 +32279,7 @@
     21.7675,
     39.55528
   ],
-  "Pontiac, MI (UNITED STATES) [50K]": [
+  "Pontiac (UNITED STATES, MI) [50K]": [
     -83.293,
     42.639
   ],
@@ -32311,7 +32311,7 @@
     38.42495,
     36.97614
   ],
-  "Fairfield, CT (UNITED STATES) [50K]": [
+  "Fairfield (UNITED STATES, CT) [50K]": [
     -73.274,
     41.175
   ],
@@ -32407,7 +32407,7 @@
     74.469146,
     21.542969
   ],
-  "Huntersville, NC (UNITED STATES) [50K]": [
+  "Huntersville (UNITED STATES, NC) [50K]": [
     -80.841,
     35.411
   ],
@@ -32447,7 +32447,7 @@
     78.329167,
     25.884722
   ],
-  "San Rafael, CA (UNITED STATES) [50K]": [
+  "San Rafael (UNITED STATES, CA) [50K]": [
     -122.527,
     37.973
   ],
@@ -32471,7 +32471,7 @@
     51.323645,
     51.188056
   ],
-  "Plymouth, MA (UNITED STATES) [50K]": [
+  "Plymouth (UNITED STATES, MA) [50K]": [
     -70.611,
     41.873
   ],
@@ -32483,11 +32483,11 @@
     78.2,
     29.508333
   ],
-  "Irvington, NJ (UNITED STATES) [50K]": [
+  "Irvington (UNITED STATES, NJ) [50K]": [
     -74.234,
     40.722
   ],
-  "Hamden, CT (UNITED STATES) [50K]": [
+  "Hamden (UNITED STATES, CT) [50K]": [
     -72.915,
     41.425
   ],
@@ -32511,7 +32511,7 @@
     77.240278,
     10.581944
   ],
-  "La Mesa, CA (UNITED STATES) [50K]": [
+  "La Mesa (UNITED STATES, CA) [50K]": [
     -117.02,
     32.765
   ],
@@ -32535,7 +32535,7 @@
     74.467339,
     34.284422
   ],
-  "Monterey Park, CA (UNITED STATES) [50K]": [
+  "Monterey Park (UNITED STATES, CA) [50K]": [
     -118.123,
     34.063
   ],
@@ -32555,23 +32555,23 @@
     7.138,
     51.593
   ],
-  "Sanford, FL (UNITED STATES) [50K]": [
+  "Sanford (UNITED STATES, FL) [50K]": [
     -81.268,
     28.812
   ],
-  "Jupiter, FL (UNITED STATES) [50K]": [
+  "Jupiter (UNITED STATES, FL) [50K]": [
     -80.094,
     26.934
   ],
-  "Euless, TX (UNITED STATES) [50K]": [
+  "Euless (UNITED STATES, TX) [50K]": [
     -97.083,
     32.837
   ],
-  "Woodland, CA (UNITED STATES) [50K]": [
+  "Woodland (UNITED STATES, CA) [50K]": [
     -121.773,
     38.677
   ],
-  "Gardena, CA (UNITED STATES) [50K]": [
+  "Gardena (UNITED STATES, CA) [50K]": [
     -118.309,
     33.882
   ],
@@ -32599,7 +32599,7 @@
     79.516667,
     27.15
   ],
-  "Marietta, GA (UNITED STATES) [50K]": [
+  "Marietta (UNITED STATES, GA) [50K]": [
     -84.55,
     33.953
   ],
@@ -32651,7 +32651,7 @@
     85.3167298707998,
     26.9510693728479
   ],
-  "Meriden, CT (UNITED STATES) [50K]": [
+  "Meriden (UNITED STATES, CT) [50K]": [
     -72.784,
     41.538
   ],
@@ -32667,7 +32667,7 @@
     139.991,
     36.023
   ],
-  "Bristol, CT (UNITED STATES) [50K]": [
+  "Bristol (UNITED STATES, CT) [50K]": [
     -72.94,
     41.681
   ],
@@ -32711,7 +32711,7 @@
     -7.448333,
     33.637222
   ],
-  "Piscataway, NJ (UNITED STATES) [50K]": [
+  "Piscataway (UNITED STATES, NJ) [50K]": [
     -74.466,
     40.543
   ],
@@ -32739,7 +32739,7 @@
     29.464,
     -26.458
   ],
-  "Vineland, NJ (UNITED STATES) [50K]": [
+  "Vineland (UNITED STATES, NJ) [50K]": [
     -75.026,
     39.486
   ],
@@ -32779,7 +32779,7 @@
     85.916667,
     25.4
   ],
-  "Des Plaines, IL (UNITED STATES) [50K]": [
+  "Des Plaines (UNITED STATES, IL) [50K]": [
     -87.886,
     42.042
   ],
@@ -32843,7 +32843,7 @@
     79.251389,
     20.019444
   ],
-  "Richland, WA (UNITED STATES) [50K]": [
+  "Richland (UNITED STATES, WA) [50K]": [
     -119.274,
     46.275
   ],
@@ -32871,7 +32871,7 @@
     -10.73,
     10.03
   ],
-  "Taylorsville, UT (UNITED STATES) [50K]": [
+  "Taylorsville (UNITED STATES, UT) [50K]": [
     -111.939,
     40.664
   ],
@@ -32883,7 +32883,7 @@
     8.918,
     45.594
   ],
-  "Great Falls, MT (UNITED STATES) [50K]": [
+  "Great Falls (UNITED STATES, MT) [50K]": [
     -111.303,
     47.505
   ],
@@ -32895,7 +32895,7 @@
     5.9,
     36.77
   ],
-  "Hoboken, NJ (UNITED STATES) [50K]": [
+  "Hoboken (UNITED STATES, NJ) [50K]": [
     -74.032,
     40.742
   ],
@@ -32911,7 +32911,7 @@
     -65.044,
     10.062
   ],
-  "Cupertino, CA (UNITED STATES) [50K]": [
+  "Cupertino (UNITED STATES, CA) [50K]": [
     -122.03,
     37.318
   ],
@@ -32955,7 +32955,7 @@
     35.303244,
     32.461181
   ],
-  "West Allis, WI (UNITED STATES) [50K]": [
+  "West Allis (UNITED STATES, WI) [50K]": [
     -88.007,
     43.017
   ],
@@ -33015,7 +33015,7 @@
     35.832,
     32.058
   ],
-  "North Miami, FL (UNITED STATES) [50K]": [
+  "North Miami (UNITED STATES, FL) [50K]": [
     -80.186,
     25.89
   ],
@@ -33027,7 +33027,7 @@
     52.061,
     27.836
   ],
-  "Owensboro, KY (UNITED STATES) [50K]": [
+  "Owensboro (UNITED STATES, KY) [50K]": [
     -87.111,
     37.774
   ],
@@ -33095,7 +33095,7 @@
     -39.0720726998232,
     -13.3700431583336
   ],
-  "Youngstown, OH (UNITED STATES) [50K]": [
+  "Youngstown (UNITED STATES, OH) [50K]": [
     -80.649,
     41.1
   ],
@@ -33107,7 +33107,7 @@
     79.895,
     6.928333
   ],
-  "Santee, CA (UNITED STATES) [50K]": [
+  "Santee (UNITED STATES, CA) [50K]": [
     -116.984,
     32.839
   ],
@@ -33127,7 +33127,7 @@
     8.70538282723666,
     36.1724287257208
   ],
-  "Caldwell, ID (UNITED STATES) [50K]": [
+  "Caldwell (UNITED STATES, ID) [50K]": [
     -116.687,
     43.666
   ],
@@ -33167,7 +33167,7 @@
     9.91,
     2.94
   ],
-  "Corvallis, OR (UNITED STATES) [50K]": [
+  "Corvallis (UNITED STATES, OR) [50K]": [
     -123.262,
     44.564
   ],
@@ -33243,7 +33243,7 @@
     68.521,
     27.352
   ],
-  "Petaluma, CA (UNITED STATES) [50K]": [
+  "Petaluma (UNITED STATES, CA) [50K]": [
     -122.639,
     38.233
   ],
@@ -33263,7 +33263,7 @@
     100.117778,
     -0.626389
   ],
-  "Union, NJ (UNITED STATES) [50K]": [
+  "Union (UNITED STATES, NJ) [50K]": [
     -74.263,
     40.701
   ],
@@ -33279,7 +33279,7 @@
     30.0544725863808,
     -20.3157680682055
   ],
-  "Manchester, CT (UNITED STATES) [50K]": [
+  "Manchester (UNITED STATES, CT) [50K]": [
     -72.53,
     41.776
   ],
@@ -33303,7 +33303,7 @@
     76.693056,
     20.794444
   ],
-  "Dubuque, IA (UNITED STATES) [50K]": [
+  "Dubuque (UNITED STATES, IA) [50K]": [
     -90.667,
     42.5
   ],
@@ -33311,7 +33311,7 @@
     -47.1966473231898,
     -22.6466820321572
   ],
-  "Medford, MA (UNITED STATES) [50K]": [
+  "Medford (UNITED STATES, MA) [50K]": [
     -71.11,
     42.418
   ],
@@ -33359,7 +33359,7 @@
     73.47,
     22.5
   ],
-  "Kokomo, IN (UNITED STATES) [50K]": [
+  "Kokomo (UNITED STATES, IN) [50K]": [
     -86.131,
     40.487
   ],
@@ -33379,7 +33379,7 @@
     18.514167,
     3.059444
   ],
-  "White Plains, NY (UNITED STATES) [50K]": [
+  "White Plains (UNITED STATES, NY) [50K]": [
     -73.763,
     41.034
   ],
@@ -33403,11 +33403,11 @@
     31.139072,
     31.313132
   ],
-  "Gilroy, CA (UNITED STATES) [50K]": [
+  "Gilroy (UNITED STATES, CA) [50K]": [
     -121.568,
     37.004
   ],
-  "Queen Creek, AZ (UNITED STATES) [50K]": [
+  "Queen Creek (UNITED STATES, AZ) [50K]": [
     -111.634,
     33.249
   ],
@@ -33471,7 +33471,7 @@
     85.0540612678301,
     26.9860725461909
   ],
-  "Taunton, MA (UNITED STATES) [50K]": [
+  "Taunton (UNITED STATES, MA) [50K]": [
     -71.093,
     41.902
   ],
@@ -33563,7 +33563,7 @@
     -3.438,
     40.301
   ],
-  "Leander, TX (UNITED STATES) [50K]": [
+  "Leander (UNITED STATES, TX) [50K]": [
     -97.853,
     30.579
   ],
@@ -33575,7 +33575,7 @@
     54.125,
     54.111
   ],
-  "Stonecrest, GA (UNITED STATES) [50K]": [
+  "Stonecrest (UNITED STATES, GA) [50K]": [
     -84.17,
     33.706
   ],
@@ -33587,15 +33587,15 @@
     51.715,
     35.307
   ],
-  "Palm Beach Gardens, FL (UNITED STATES) [50K]": [
+  "Palm Beach Gardens (UNITED STATES, FL) [50K]": [
     -80.118,
     26.82
   ],
-  "Hempstead, NY (UNITED STATES) [50K]": [
+  "Hempstead (UNITED STATES, NY) [50K]": [
     -73.625,
     40.709
   ],
-  "Grand Forks, ND (UNITED STATES) [50K]": [
+  "Grand Forks (UNITED STATES, ND) [50K]": [
     -97.031,
     47.924
   ],
@@ -33647,7 +33647,7 @@
     82.5195457250569,
     27.8743687283962
   ],
-  "Casper, WY (UNITED STATES) [50K]": [
+  "Casper (UNITED STATES, WY) [50K]": [
     -106.325,
     42.85
   ],
@@ -33667,7 +33667,7 @@
     88.4951197243787,
     22.9578066990681
   ],
-  "St Cloud, FL (UNITED STATES) [50K]": [
+  "St Cloud (UNITED STATES, FL) [50K]": [
     -81.292,
     28.246
   ],
@@ -33695,7 +33695,7 @@
     91.983,
     23.112
   ],
-  "St Clair Shores, MI (UNITED STATES) [50K]": [
+  "St Clair Shores (UNITED STATES, MI) [50K]": [
     -82.889,
     42.496
   ],
@@ -33755,7 +33755,7 @@
     130.466,
     33.734
   ],
-  "Apex, NC (UNITED STATES) [50K]": [
+  "Apex (UNITED STATES, NC) [50K]": [
     -78.85,
     35.732
   ],
@@ -33791,7 +33791,7 @@
     34.37,
     11.86
   ],
-  "Margate, FL (UNITED STATES) [50K]": [
+  "Margate (UNITED STATES, FL) [50K]": [
     -80.207,
     26.244
   ],
@@ -33799,7 +33799,7 @@
     136.836,
     34.891
   ],
-  "Orland Park, IL (UNITED STATES) [50K]": [
+  "Orland Park (UNITED STATES, IL) [50K]": [
     -87.853,
     41.616
   ],
@@ -33831,7 +33831,7 @@
     79.2,
     22.95
   ],
-  "Springfield, OH (UNITED STATES) [50K]": [
+  "Springfield (UNITED STATES, OH) [50K]": [
     -83.808,
     39.925
   ],
@@ -33839,7 +33839,7 @@
     33.483333,
     -13.033333
   ],
-  "Carson City, NV (UNITED STATES) [50K]": [
+  "Carson City (UNITED STATES, NV) [50K]": [
     -119.767,
     39.164
   ],
@@ -33851,11 +33851,11 @@
     -35.3058052529672,
     -5.70726087821368
   ],
-  "Shoreline, WA (UNITED STATES) [50K]": [
+  "Shoreline (UNITED STATES, WA) [50K]": [
     -122.346,
     47.756
   ],
-  "Blue Springs, MO (UNITED STATES) [50K]": [
+  "Blue Springs (UNITED STATES, MO) [50K]": [
     -94.278,
     39.018
   ],
@@ -33895,7 +33895,7 @@
     -6.675,
     34.256
   ],
-  "Jackson, NJ (UNITED STATES) [50K]": [
+  "Jackson (UNITED STATES, NJ) [50K]": [
     -74.373,
     40.097
   ],
@@ -33907,7 +33907,7 @@
     71.044444,
     20.822222
   ],
-  "Parker, CO (UNITED STATES) [50K]": [
+  "Parker (UNITED STATES, CO) [50K]": [
     -104.761,
     39.518
   ],
@@ -33935,7 +33935,7 @@
     174.076,
     -39.058
   ],
-  "Little Elm, TX (UNITED STATES) [50K]": [
+  "Little Elm (UNITED STATES, TX) [50K]": [
     -96.943,
     33.154
   ],
@@ -33963,7 +33963,7 @@
     2.379,
     48.996
   ],
-  "Midwest City, OK (UNITED STATES) [50K]": [
+  "Midwest City (UNITED STATES, OK) [50K]": [
     -97.406,
     35.45
   ],
@@ -33979,7 +33979,7 @@
     21.888,
     45.289
   ],
-  "Terre Haute, IN (UNITED STATES) [50K]": [
+  "Terre Haute (UNITED STATES, IN) [50K]": [
     -87.414,
     39.466
   ],
@@ -33991,7 +33991,7 @@
     72.747222,
     41.041667
   ],
-  "Oak Lawn, IL (UNITED STATES) [50K]": [
+  "Oak Lawn (UNITED STATES, IL) [50K]": [
     -87.749,
     41.719
   ],
@@ -34003,7 +34003,7 @@
     14.063,
     37.49
   ],
-  "Bowie, MD (UNITED STATES) [50K]": [
+  "Bowie (UNITED STATES, MD) [50K]": [
     -76.742,
     38.978
   ],
@@ -34075,7 +34075,7 @@
     27.333,
     44.2
   ],
-  "Royal Oak, MI (UNITED STATES) [50K]": [
+  "Royal Oak (UNITED STATES, MI) [50K]": [
     -83.144,
     42.49
   ],
@@ -34119,7 +34119,7 @@
     -60.01667,
     -34.89566
   ],
-  "Maricopa, AZ (UNITED STATES) [50K]": [
+  "Maricopa (UNITED STATES, AZ) [50K]": [
     -112.048,
     33.057
   ],
@@ -34159,7 +34159,7 @@
     74.342575,
     34.208047
   ],
-  "Lancaster, PA (UNITED STATES) [50K]": [
+  "Lancaster (UNITED STATES, PA) [50K]": [
     -76.306,
     40.038
   ],
@@ -34183,7 +34183,7 @@
     84.1969779416501,
     27.6707247087691
   ],
-  "Hanford, CA (UNITED STATES) [50K]": [
+  "Hanford (UNITED STATES, CA) [50K]": [
     -119.646,
     36.328
   ],
@@ -34203,7 +34203,7 @@
     91.058333,
     23.375
   ],
-  "Decatur, AL (UNITED STATES) [50K]": [
+  "Decatur (UNITED STATES, AL) [50K]": [
     -86.985,
     34.604
   ],
@@ -34243,7 +34243,7 @@
     -43.0222196324519,
     -6.76758257996729
   ],
-  "Kettering, OH (UNITED STATES) [50K]": [
+  "Kettering (UNITED STATES, OH) [50K]": [
     -84.169,
     39.69
   ],
@@ -34263,7 +34263,7 @@
     87.788889,
     24.181944
   ],
-  "Coconut Creek, FL (UNITED STATES) [50K]": [
+  "Coconut Creek (UNITED STATES, FL) [50K]": [
     -80.177,
     26.252
   ],
@@ -34283,7 +34283,7 @@
     68.230278,
     38.510833
   ],
-  "Bartlett, TN (UNITED STATES) [50K]": [
+  "Bartlett (UNITED STATES, TN) [50K]": [
     -89.869,
     35.204
   ],
@@ -34291,7 +34291,7 @@
     2.366,
     48.795
   ],
-  "Westfield, IN (UNITED STATES) [50K]": [
+  "Westfield (UNITED STATES, IN) [50K]": [
     -86.128,
     40.043
   ],
@@ -34299,7 +34299,7 @@
     -5.57907681524914,
     34.7965847155583
   ],
-  "St Peters, MO (UNITED STATES) [50K]": [
+  "St Peters (UNITED STATES, MO) [50K]": [
     -90.602,
     38.785
   ],
@@ -34375,7 +34375,7 @@
     77.799906,
     16.235083
   ],
-  "Mayaguez, PR (UNITED STATES) [50K]": [
+  "Mayaguez (UNITED STATES, PR) [50K]": [
     -67.139,
     18.201
   ],
@@ -34395,7 +34395,7 @@
     81.927778,
     21.730556
   ],
-  "Wylie, TX (UNITED STATES) [50K]": [
+  "Wylie (UNITED STATES, TX) [50K]": [
     -96.539,
     33.014
   ],
@@ -34435,11 +34435,11 @@
     20.006,
     51.531
   ],
-  "Weymouth, MA (UNITED STATES) [50K]": [
+  "Weymouth (UNITED STATES, MA) [50K]": [
     -70.937,
     42.218
   ],
-  "Lenexa, KS (UNITED STATES) [50K]": [
+  "Lenexa (UNITED STATES, KS) [50K]": [
     -94.728,
     38.957
   ],
@@ -34519,7 +34519,7 @@
     -15.55,
     14.103
   ],
-  "Burlington, NC (UNITED STATES) [50K]": [
+  "Burlington (UNITED STATES, NC) [50K]": [
     -79.436,
     36.094
   ],
@@ -34547,7 +34547,7 @@
     78.4,
     13.1667
   ],
-  "Berwyn, IL (UNITED STATES) [50K]": [
+  "Berwyn (UNITED STATES, IL) [50K]": [
     -87.793,
     41.851
   ],
@@ -34611,7 +34611,7 @@
     83.305,
     54.633
   ],
-  "Lake Havasu City, AZ (UNITED STATES) [50K]": [
+  "Lake Havasu City (UNITED STATES, AZ) [50K]": [
     -114.338,
     34.477
   ],
@@ -34627,7 +34627,7 @@
     72.469,
     34.936
   ],
-  "Winter Haven, FL (UNITED STATES) [50K]": [
+  "Winter Haven (UNITED STATES, FL) [50K]": [
     -81.733,
     28.022
   ],
@@ -34671,7 +34671,7 @@
     38.728,
     56.398
   ],
-  "Fountain Valley, CA (UNITED STATES) [50K]": [
+  "Fountain Valley (UNITED STATES, CA) [50K]": [
     -117.954,
     33.709
   ],
@@ -34735,7 +34735,7 @@
     6.697,
     51.245
   ],
-  "Highland, CA (UNITED STATES) [50K]": [
+  "Highland (UNITED STATES, CA) [50K]": [
     -117.209,
     34.128
   ],
@@ -34783,11 +34783,11 @@
     -2.147,
     52.458
   ],
-  "Madison, AL (UNITED STATES) [50K]": [
+  "Madison (UNITED STATES, AL) [50K]": [
     -86.752,
     34.677
   ],
-  "Eagle Mountain, UT (UNITED STATES) [50K]": [
+  "Eagle Mountain (UNITED STATES, UT) [50K]": [
     -112.004,
     40.305
   ],
@@ -34819,7 +34819,7 @@
     92.355556,
     24.852778
   ],
-  "Mount Prospect, IL (UNITED STATES) [50K]": [
+  "Mount Prospect (UNITED STATES, IL) [50K]": [
     -87.937,
     42.066
   ],
@@ -34879,7 +34879,7 @@
     137.018,
     35.442
   ],
-  "Arcadia, CA (UNITED STATES) [50K]": [
+  "Arcadia (UNITED STATES, CA) [50K]": [
     -118.041,
     34.136
   ],
@@ -34947,7 +34947,7 @@
     75.1,
     21.6833
   ],
-  "Albany, OR (UNITED STATES) [50K]": [
+  "Albany (UNITED STATES, OR) [50K]": [
     -123.104,
     44.635
   ],
@@ -35019,7 +35019,7 @@
     77.305556,
     21.1625
   ],
-  "Apple Valley, MN (UNITED STATES) [50K]": [
+  "Apple Valley (UNITED STATES, MN) [50K]": [
     -93.218,
     44.732
   ],
@@ -35031,7 +35031,7 @@
     76.27,
     28.59
   ],
-  "Pocatello, ID (UNITED STATES) [50K]": [
+  "Pocatello (UNITED STATES, ID) [50K]": [
     -112.451,
     42.862
   ],
@@ -35075,7 +35075,7 @@
     38.146,
     48.04
   ],
-  "National City, CA (UNITED STATES) [50K]": [
+  "National City (UNITED STATES, CA) [50K]": [
     -117.098,
     32.676
   ],
@@ -35087,7 +35087,7 @@
     -97.776,
     17.807
   ],
-  "Parsippany-Troy Hills, NJ (UNITED STATES) [50K]": [
+  "Parsippany-Troy Hills (UNITED STATES, NJ) [50K]": [
     -74.397,
     40.865
   ],
@@ -35095,7 +35095,7 @@
     5.067,
     51.687
   ],
-  "DeSoto, TX (UNITED STATES) [50K]": [
+  "DeSoto (UNITED STATES, TX) [50K]": [
     -96.857,
     32.59
   ],
@@ -35167,7 +35167,7 @@
     14.781,
     41.13
   ],
-  "Port Arthur, TX (UNITED STATES) [50K]": [
+  "Port Arthur (UNITED STATES, TX) [50K]": [
     -93.936,
     29.871
   ],
@@ -35235,7 +35235,7 @@
     7.185,
     50.773
   ],
-  "Tinley Park, IL (UNITED STATES) [50K]": [
+  "Tinley Park (UNITED STATES, IL) [50K]": [
     -87.784,
     41.575
   ],
@@ -35411,7 +35411,7 @@
     71.97,
     40.3
   ],
-  "Bradenton, FL (UNITED STATES) [50K]": [
+  "Bradenton (UNITED STATES, FL) [50K]": [
     -82.571,
     27.495
   ],
@@ -35427,7 +35427,7 @@
     26.71,
     -22.39
   ],
-  "Ypsilanti, MI (UNITED STATES) [50K]": [
+  "Ypsilanti (UNITED STATES, MI) [50K]": [
     -83.614,
     42.2
   ],
@@ -35435,7 +35435,7 @@
     105.719,
     18.795
   ],
-  "Smyrna, GA (UNITED STATES) [50K]": [
+  "Smyrna (UNITED STATES, GA) [50K]": [
     -84.516,
     33.886
   ],
@@ -35479,7 +35479,7 @@
     2.882,
     48.958
   ],
-  "Olympia, WA (UNITED STATES) [50K]": [
+  "Olympia (UNITED STATES, WA) [50K]": [
     -122.9,
     47.043
   ],
@@ -35495,7 +35495,7 @@
     -49.2998626542407,
     -28.7143395850817
   ],
-  "West Haven, CT (UNITED STATES) [50K]": [
+  "West Haven (UNITED STATES, CT) [50K]": [
     -72.96,
     41.275
   ],
@@ -35503,7 +35503,7 @@
     141.101,
     39.754
   ],
-  "Chicopee, MA (UNITED STATES) [50K]": [
+  "Chicopee (UNITED STATES, MA) [50K]": [
     -72.609,
     42.145
   ],
@@ -35575,11 +35575,11 @@
     -97.32495,
     20.44655
   ],
-  "Kingsport, TN (UNITED STATES) [50K]": [
+  "Kingsport (UNITED STATES, TN) [50K]": [
     -82.56,
     36.547
   ],
-  "Perth Amboy, NJ (UNITED STATES) [50K]": [
+  "Perth Amboy (UNITED STATES, NJ) [50K]": [
     -74.266,
     40.506
   ],
@@ -35611,7 +35611,7 @@
     31.1129789,
     -8.7718969
   ],
-  "Valdosta, GA (UNITED STATES) [50K]": [
+  "Valdosta (UNITED STATES, GA) [50K]": [
     -83.279,
     30.832
   ],
@@ -35711,7 +35711,7 @@
     -40.5091879694423,
     -11.1840481261899
   ],
-  "New Brunswick, NJ (UNITED STATES) [50K]": [
+  "New Brunswick (UNITED STATES, NJ) [50K]": [
     -74.446,
     40.496
   ],
@@ -35751,7 +35751,7 @@
     41.383,
     56.848
   ],
-  "Burleson, TX (UNITED STATES) [50K]": [
+  "Burleson (UNITED STATES, TX) [50K]": [
     -97.321,
     32.543
   ],
@@ -35787,7 +35787,7 @@
     21.087,
     46.684
   ],
-  "Brookhaven, GA (UNITED STATES) [50K]": [
+  "Brookhaven (UNITED STATES, GA) [50K]": [
     -84.33,
     33.861
   ],
@@ -35803,7 +35803,7 @@
     78.166667,
     11.233333
   ],
-  "Herriman, UT (UNITED STATES) [50K]": [
+  "Herriman (UNITED STATES, UT) [50K]": [
     -112.033,
     40.514
   ],
@@ -35855,7 +35855,7 @@
     35.18596,
     39.81012
   ],
-  "Diamond Bar, CA (UNITED STATES) [50K]": [
+  "Diamond Bar (UNITED STATES, CA) [50K]": [
     -117.811,
     34.029
   ],
@@ -35955,7 +35955,7 @@
     -14.3,
     10.93333
   ],
-  "Huntington Park, CA (UNITED STATES) [50K]": [
+  "Huntington Park (UNITED STATES, CA) [50K]": [
     -118.225,
     33.982
   ],
@@ -35963,7 +35963,7 @@
     85.1171974178487,
     26.8895181310684
   ],
-  "Apopka, FL (UNITED STATES) [50K]": [
+  "Apopka (UNITED STATES, FL) [50K]": [
     -81.511,
     28.672
   ],
@@ -35983,7 +35983,7 @@
     138.878,
     37.063
   ],
-  "Sarasota, FL (UNITED STATES) [50K]": [
+  "Sarasota (UNITED STATES, FL) [50K]": [
     -82.532,
     27.336
   ],
@@ -35991,7 +35991,7 @@
     -48.6661106323121,
     -28.2407076053942
   ],
-  "Wayne, NJ (UNITED STATES) [50K]": [
+  "Wayne (UNITED STATES, NJ) [50K]": [
     -74.241,
     40.948
   ],
@@ -36003,7 +36003,7 @@
     8.617,
     50.227
   ],
-  "Anderson, IN (UNITED STATES) [50K]": [
+  "Anderson (UNITED STATES, IN) [50K]": [
     -85.678,
     40.105
   ],
@@ -36083,7 +36083,7 @@
     24.334,
     42.192
   ],
-  "Southaven, MS (UNITED STATES) [50K]": [
+  "Southaven (UNITED STATES, MS) [50K]": [
     -90.016,
     34.984
   ],
@@ -36099,7 +36099,7 @@
     -3.01,
     16.78
   ],
-  "Coeur dAlene, ID (UNITED STATES) [50K]": [
+  "Coeur dAlene (UNITED STATES, ID) [50K]": [
     -116.784,
     47.674
   ],
@@ -36135,11 +36135,11 @@
     90.1167932,
     23.6178655
   ],
-  "Plainfield, NJ (UNITED STATES) [50K]": [
+  "Plainfield (UNITED STATES, NJ) [50K]": [
     -74.421,
     40.619
   ],
-  "Oak Park, IL (UNITED STATES) [50K]": [
+  "Oak Park (UNITED STATES, IL) [50K]": [
     -87.785,
     41.887
   ],
@@ -36179,7 +36179,7 @@
     71.97,
     21.7
   ],
-  "Yucaipa, CA (UNITED STATES) [50K]": [
+  "Yucaipa (UNITED STATES, CA) [50K]": [
     -117.041,
     34.034
   ],
@@ -36191,11 +36191,11 @@
     -8.80705,
     39.74362
   ],
-  "Tigard, OR (UNITED STATES) [50K]": [
+  "Tigard (UNITED STATES, OR) [50K]": [
     -122.771,
     45.431
   ],
-  "Lincoln, CA (UNITED STATES) [50K]": [
+  "Lincoln (UNITED STATES, CA) [50K]": [
     -121.293,
     38.892
   ],
@@ -36223,7 +36223,7 @@
     2.262,
     48.799
   ],
-  "Peabody, MA (UNITED STATES) [50K]": [
+  "Peabody (UNITED STATES, MA) [50K]": [
     -70.927,
     42.526
   ],
@@ -36303,7 +36303,7 @@
     46.492,
     34.806
   ],
-  "Rocky Mount, NC (UNITED STATES) [50K]": [
+  "Rocky Mount (UNITED STATES, NC) [50K]": [
     -77.795,
     35.942
   ],
@@ -36315,7 +36315,7 @@
     -2.126,
     53.26
   ],
-  "Wake Forest, NC (UNITED STATES) [50K]": [
+  "Wake Forest (UNITED STATES, NC) [50K]": [
     -78.509,
     35.979
   ],
@@ -36327,7 +36327,7 @@
     139.311,
     35.768
   ],
-  "Pensacola, FL (UNITED STATES) [50K]": [
+  "Pensacola (UNITED STATES, FL) [50K]": [
     -87.214,
     30.409
   ],
@@ -36335,7 +36335,7 @@
     2.594,
     48.881
   ],
-  "Kentwood, MI (UNITED STATES) [50K]": [
+  "Kentwood (UNITED STATES, MI) [50K]": [
     -85.645,
     42.869
   ],
@@ -36415,7 +36415,7 @@
     120.181,
     50.243
   ],
-  "Bentonville, AR (UNITED STATES) [50K]": [
+  "Bentonville (UNITED STATES, AR) [50K]": [
     -94.209,
     36.372
   ],
@@ -36451,7 +36451,7 @@
     141.198,
     41.295
   ],
-  "Manhattan, KS (UNITED STATES) [50K]": [
+  "Manhattan (UNITED STATES, KS) [50K]": [
     -96.576,
     39.186
   ],
@@ -36471,7 +36471,7 @@
     21.94611,
     42.99806
   ],
-  "Georgetown, MI (UNITED STATES) [50K]": [
+  "Georgetown (UNITED STATES, MI) [50K]": [
     -85.834,
     42.907
   ],
@@ -36547,7 +36547,7 @@
     54.07,
     36.893
   ],
-  "Wheaton, IL (UNITED STATES) [50K]": [
+  "Wheaton (UNITED STATES, IL) [50K]": [
     -88.106,
     41.867
   ],
@@ -36587,11 +36587,11 @@
     -0.792,
     38.476
   ],
-  "Elkhart, IN (UNITED STATES) [50K]": [
+  "Elkhart (UNITED STATES, IN) [50K]": [
     -85.974,
     41.685
   ],
-  "West Sacramento, CA (UNITED STATES) [50K]": [
+  "West Sacramento (UNITED STATES, CA) [50K]": [
     -121.531,
     38.58
   ],
@@ -36599,11 +36599,11 @@
     80.3627081793958,
     28.6818963382708
   ],
-  "Colton, CA (UNITED STATES) [50K]": [
+  "Colton (UNITED STATES, CA) [50K]": [
     -117.314,
     34.074
   ],
-  "San Jacinto, CA (UNITED STATES) [50K]": [
+  "San Jacinto (UNITED STATES, CA) [50K]": [
     -116.959,
     33.787
   ],
@@ -36675,7 +36675,7 @@
     82.1,
     21.1
   ],
-  "Minnetonka, MN (UNITED STATES) [50K]": [
+  "Minnetonka (UNITED STATES, MN) [50K]": [
     -93.503,
     44.914
   ],
@@ -36695,7 +36695,7 @@
     104.666667,
     12.25
   ],
-  "Paramount, CA (UNITED STATES) [50K]": [
+  "Paramount (UNITED STATES, CA) [50K]": [
     -118.16,
     33.889
   ],
@@ -36723,7 +36723,7 @@
     44.043575,
     36.120789
   ],
-  "Galveston, TX (UNITED STATES) [50K]": [
+  "Galveston (UNITED STATES, TX) [50K]": [
     -94.794,
     29.305
   ],
@@ -36735,11 +36735,11 @@
     77.05948,
     28.72714
   ],
-  "Casa Grande, AZ (UNITED STATES) [50K]": [
+  "Casa Grande (UNITED STATES, AZ) [50K]": [
     -111.757,
     32.879
   ],
-  "Bonita Springs, FL (UNITED STATES) [50K]": [
+  "Bonita Springs (UNITED STATES, FL) [50K]": [
     -81.779,
     26.346
   ],
@@ -36807,7 +36807,7 @@
     90.8422348,
     23.1020936
   ],
-  "Howell, NJ (UNITED STATES) [50K]": [
+  "Howell (UNITED STATES, NJ) [50K]": [
     -74.206,
     40.162
   ],
@@ -36819,7 +36819,7 @@
     88.32,
     25.63
   ],
-  "Lacey, WA (UNITED STATES) [50K]": [
+  "Lacey (UNITED STATES, WA) [50K]": [
     -122.829,
     47.038
   ],
@@ -36851,7 +36851,7 @@
     80.9684585056741,
     28.4925273584737
   ],
-  "Edina, MN (UNITED STATES) [50K]": [
+  "Edina (UNITED STATES, MN) [50K]": [
     -93.35,
     44.89
   ],
@@ -36967,7 +36967,7 @@
     74.02,
     28.08
   ],
-  "Bozeman, MT (UNITED STATES) [50K]": [
+  "Bozeman (UNITED STATES, MT) [50K]": [
     -111.037,
     45.679
   ],
@@ -37003,7 +37003,7 @@
     1.432,
     38.909
   ],
-  "Novato, CA (UNITED STATES) [50K]": [
+  "Novato (UNITED STATES, CA) [50K]": [
     -122.57,
     38.108
   ],
@@ -37055,7 +37055,7 @@
     77.9,
     17.33
   ],
-  "Grand Island, NE (UNITED STATES) [50K]": [
+  "Grand Island (UNITED STATES, NE) [50K]": [
     -98.339,
     40.924
   ],
@@ -37075,7 +37075,7 @@
     8.502,
     50.556
   ],
-  "Kannapolis, NC (UNITED STATES) [50K]": [
+  "Kannapolis (UNITED STATES, NC) [50K]": [
     -80.628,
     35.489
   ],
@@ -37083,7 +37083,7 @@
     22.908,
     45.874
   ],
-  "Bloomfield, NJ (UNITED STATES) [50K]": [
+  "Bloomfield (UNITED STATES, NJ) [50K]": [
     -74.191,
     40.793
   ],
@@ -37095,7 +37095,7 @@
     -63.943,
     11.012
   ],
-  "Pinellas Park, FL (UNITED STATES) [50K]": [
+  "Pinellas Park (UNITED STATES, FL) [50K]": [
     -82.7,
     27.839
   ],
@@ -37103,7 +37103,7 @@
     16.691,
     41.108
   ],
-  "Smyrna, TN (UNITED STATES) [50K]": [
+  "Smyrna (UNITED STATES, TN) [50K]": [
     -86.52,
     35.982
   ],
@@ -37115,7 +37115,7 @@
     75.22,
     12.77
   ],
-  "Methuen, MA (UNITED STATES) [50K]": [
+  "Methuen (UNITED STATES, MA) [50K]": [
     -71.189,
     42.729
   ],
@@ -37123,7 +37123,7 @@
     7.778,
     43.818
   ],
-  "Beaumont, CA (UNITED STATES) [50K]": [
+  "Beaumont (UNITED STATES, CA) [50K]": [
     -116.977,
     33.929
   ],
@@ -37175,11 +37175,11 @@
     125.281,
     24.806
   ],
-  "Rockwall, TX (UNITED STATES) [50K]": [
+  "Rockwall (UNITED STATES, TX) [50K]": [
     -96.46,
     32.931
   ],
-  "West New York, NJ (UNITED STATES) [50K]": [
+  "West New York (UNITED STATES, NJ) [50K]": [
     -74.013,
     40.787
   ],
@@ -37303,7 +37303,7 @@
     86.592728515663,
     26.6531596597446
   ],
-  "Logan, UT (UNITED STATES) [50K]": [
+  "Logan (UNITED STATES, UT) [50K]": [
     -111.835,
     41.731
   ],
@@ -37331,7 +37331,7 @@
     36.159978,
     33.442778
   ],
-  "Normal, IL (UNITED STATES) [50K]": [
+  "Normal (UNITED STATES, IL) [50K]": [
     -88.995,
     40.511
   ],
@@ -37339,7 +37339,7 @@
     23.493,
     46.746
   ],
-  "Battle Creek, MI (UNITED STATES) [50K]": [
+  "Battle Creek (UNITED STATES, MI) [50K]": [
     -85.182,
     42.319
   ],
@@ -37367,7 +37367,7 @@
     2.479,
     48.611
   ],
-  "La Crosse, WI (UNITED STATES) [50K]": [
+  "La Crosse (UNITED STATES, WI) [50K]": [
     -91.251,
     43.812
   ],
@@ -37387,7 +37387,7 @@
     -2.798,
     54.048
   ],
-  "Elyria, OH (UNITED STATES) [50K]": [
+  "Elyria (UNITED STATES, OH) [50K]": [
     -82.107,
     41.368
   ],
@@ -37443,7 +37443,7 @@
     -42.978473506908,
     -22.5228117669714
   ],
-  "Watsonville, CA (UNITED STATES) [50K]": [
+  "Watsonville (UNITED STATES, CA) [50K]": [
     -121.756,
     36.91
   ],
@@ -37459,7 +37459,7 @@
     34.281111,
     26.103889
   ],
-  "Glendora, CA (UNITED STATES) [50K]": [
+  "Glendora (UNITED STATES, CA) [50K]": [
     -117.865,
     34.136
   ],
@@ -37475,15 +37475,15 @@
     -70.15,
     19.06
   ],
-  "Florissant, MO (UNITED STATES) [50K]": [
+  "Florissant (UNITED STATES, MO) [50K]": [
     -90.323,
     38.789
   ],
-  "Saratoga Springs, UT (UNITED STATES) [50K]": [
+  "Saratoga Springs (UNITED STATES, UT) [50K]": [
     -111.909,
     40.333
   ],
-  "Hoffman Estates, IL (UNITED STATES) [50K]": [
+  "Hoffman Estates (UNITED STATES, IL) [50K]": [
     -88.08,
     42.047
   ],
@@ -37591,7 +37591,7 @@
     -1.215,
     52.927
   ],
-  "Stratford, CT (UNITED STATES) [50K]": [
+  "Stratford (UNITED STATES, CT) [50K]": [
     -73.134,
     41.212
   ],
@@ -37699,7 +37699,7 @@
     -54.0931810885147,
     -25.2953232121573
   ],
-  "Aliso Viejo, CA (UNITED STATES) [50K]": [
+  "Aliso Viejo (UNITED STATES, CA) [50K]": [
     -117.725,
     33.575
   ],
@@ -37763,7 +37763,7 @@
     74.616667,
     15.266667
   ],
-  "Burien, WA (UNITED STATES) [50K]": [
+  "Burien (UNITED STATES, WA) [50K]": [
     -122.339,
     47.467
   ],
@@ -37859,7 +37859,7 @@
     27.306,
     61.677
   ],
-  "Marana, AZ (UNITED STATES) [50K]": [
+  "Marana (UNITED STATES, AZ) [50K]": [
     -111.209,
     32.436
   ],
@@ -37871,7 +37871,7 @@
     -2.169,
     52.497
   ],
-  "Texas City, TX (UNITED STATES) [50K]": [
+  "Texas City (UNITED STATES, TX) [50K]": [
     -94.903,
     29.384
   ],
@@ -37947,7 +37947,7 @@
     76.723,
     23.018
   ],
-  "Placentia, CA (UNITED STATES) [50K]": [
+  "Placentia (UNITED STATES, CA) [50K]": [
     -117.87,
     33.872
   ],
@@ -37955,7 +37955,7 @@
     72.415,
     34.925
   ],
-  "Harrisonburg, VA (UNITED STATES) [50K]": [
+  "Harrisonburg (UNITED STATES, VA) [50K]": [
     -78.869,
     38.449
   ],
@@ -37963,7 +37963,7 @@
     2.474,
     48.851
   ],
-  "Twin Falls, ID (UNITED STATES) [50K]": [
+  "Twin Falls (UNITED STATES, ID) [50K]": [
     -114.47,
     42.556
   ],
@@ -37995,7 +37995,7 @@
     26.978,
     39.504
   ],
-  "Joplin, MO (UNITED STATES) [50K]": [
+  "Joplin (UNITED STATES, MO) [50K]": [
     -94.513,
     37.084
   ],
@@ -38055,7 +38055,7 @@
     34.968611,
     32.190278
   ],
-  "Dunwoody, GA (UNITED STATES) [50K]": [
+  "Dunwoody (UNITED STATES, GA) [50K]": [
     -84.334,
     33.946
   ],
@@ -38155,7 +38155,7 @@
     -88.4397836658205,
     13.3450062344935
   ],
-  "Cathedral City, CA (UNITED STATES) [50K]": [
+  "Cathedral City (UNITED STATES, CA) [50K]": [
     -116.467,
     33.78
   ],
@@ -38187,7 +38187,7 @@
     48.185,
     31.559
   ],
-  "Delano, CA (UNITED STATES) [50K]": [
+  "Delano (UNITED STATES, CA) [50K]": [
     -119.246,
     35.77
   ],
@@ -38203,7 +38203,7 @@
     -43.416361139422,
     -20.3779233087514
   ],
-  "Troy, NY (UNITED STATES) [50K]": [
+  "Troy (UNITED STATES, NY) [50K]": [
     -73.692,
     42.724
   ],
@@ -38251,7 +38251,7 @@
     73.213,
     32.555
   ],
-  "Collierville, TN (UNITED STATES) [50K]": [
+  "Collierville (UNITED STATES, TN) [50K]": [
     -89.664,
     35.042
   ],
@@ -38279,7 +38279,7 @@
     11.9777712692377,
     2.92833578826102
   ],
-  "Enid, OK (UNITED STATES) [50K]": [
+  "Enid (UNITED STATES, OK) [50K]": [
     -97.878,
     36.397
   ],
@@ -38303,7 +38303,7 @@
     78.73,
     12.939
   ],
-  "Covina, CA (UNITED STATES) [50K]": [
+  "Covina (UNITED STATES, CA) [50K]": [
     -117.89,
     34.09
   ],
@@ -38323,7 +38323,7 @@
     73.433333,
     22.183333
   ],
-  "Jeffersonville, IN (UNITED STATES) [50K]": [
+  "Jeffersonville (UNITED STATES, IN) [50K]": [
     -85.742,
     38.274
   ],
@@ -38363,7 +38363,7 @@
     89.858583,
     25.1860195
   ],
-  "Rosemead, CA (UNITED STATES) [50K]": [
+  "Rosemead (UNITED STATES, CA) [50K]": [
     -118.073,
     34.081
   ],
@@ -38383,7 +38383,7 @@
     19.69,
     44.74667
   ],
-  "Palm Desert, CA (UNITED STATES) [50K]": [
+  "Palm Desert (UNITED STATES, CA) [50K]": [
     -116.374,
     33.721
   ],
@@ -38415,7 +38415,7 @@
     -3.161,
     56.113
   ],
-  "Cuyahoga Falls, OH (UNITED STATES) [50K]": [
+  "Cuyahoga Falls (UNITED STATES, OH) [50K]": [
     -81.484,
     41.134
   ],
@@ -38451,7 +38451,7 @@
     153.116,
     -30.298
   ],
-  "Mishawaka, IN (UNITED STATES) [50K]": [
+  "Mishawaka (UNITED STATES, IN) [50K]": [
     -86.181,
     41.661
   ],
@@ -38459,11 +38459,11 @@
     85.28,
     25.32
   ],
-  "Newark, OH (UNITED STATES) [50K]": [
+  "Newark (UNITED STATES, OH) [50K]": [
     -82.403,
     40.058
   ],
-  "East Hartford, CT (UNITED STATES) [50K]": [
+  "East Hartford (UNITED STATES, CT) [50K]": [
     -72.614,
     41.764
   ],
@@ -38475,7 +38475,7 @@
     32.016,
     59.45
   ],
-  "Draper, UT (UNITED STATES) [50K]": [
+  "Draper (UNITED STATES, UT) [50K]": [
     -111.864,
     40.525
   ],
@@ -38491,7 +38491,7 @@
     78.508611,
     29.307778
   ],
-  "Middletown, OH (UNITED STATES) [50K]": [
+  "Middletown (UNITED STATES, OH) [50K]": [
     -84.405,
     39.517
   ],
@@ -38515,7 +38515,7 @@
     21.90028,
     42.55139
   ],
-  "Lakewood, OH (UNITED STATES) [50K]": [
+  "Lakewood (UNITED STATES, OH) [50K]": [
     -81.8,
     41.485
   ],
@@ -38527,7 +38527,7 @@
     -16.725,
     28.122
   ],
-  "East Honolulu, HI (UNITED STATES) [50K]": [
+  "East Honolulu (UNITED STATES, HI) [50K]": [
     -157.707,
     21.286
   ],
@@ -38535,7 +38535,7 @@
     37.1800449391196,
     55.8407084751299
   ],
-  "Summerville, SC (UNITED STATES) [50K]": [
+  "Summerville (UNITED STATES, SC) [50K]": [
     -80.177,
     33.019
   ],
@@ -38675,11 +38675,11 @@
     139.877,
     36.305
   ],
-  "Murray, UT (UNITED STATES) [50K]": [
+  "Murray (UNITED STATES, UT) [50K]": [
     -111.888,
     40.659
   ],
-  "Grapevine, TX (UNITED STATES) [50K]": [
+  "Grapevine (UNITED STATES, TX) [50K]": [
     -97.078,
     32.934
   ],
@@ -38735,7 +38735,7 @@
     -0.466667,
     5.533333
   ],
-  "Milford, CT (UNITED STATES) [50K]": [
+  "Milford (UNITED STATES, CT) [50K]": [
     -73.07,
     41.231
   ],
@@ -38807,7 +38807,7 @@
     87.25,
     26.3
   ],
-  "Columbus, IN (UNITED STATES) [50K]": [
+  "Columbus (UNITED STATES, IN) [50K]": [
     -85.921,
     39.201
   ],
@@ -38883,7 +38883,7 @@
     104.5,
     11.45
   ],
-  "Gallatin, TN (UNITED STATES) [50K]": [
+  "Gallatin (UNITED STATES, TN) [50K]": [
     -86.446,
     36.388
   ],
@@ -38907,7 +38907,7 @@
     71.818,
     30.039
   ],
-  "Everett, MA (UNITED STATES) [50K]": [
+  "Everett (UNITED STATES, MA) [50K]": [
     -71.056,
     42.407
   ],
@@ -38959,7 +38959,7 @@
     -54.0297,
     5.5013
   ],
-  "Downers Grove, IL (UNITED STATES) [50K]": [
+  "Downers Grove (UNITED STATES, IL) [50K]": [
     -88.01,
     41.796
   ],
@@ -38991,7 +38991,7 @@
     10.661,
     59.435
   ],
-  "Bothell, WA (UNITED STATES) [50K]": [
+  "Bothell (UNITED STATES, WA) [50K]": [
     -122.207,
     47.76
   ],
@@ -39011,7 +39011,7 @@
     49.8222,
     40.4758
   ],
-  "Mooresville, NC (UNITED STATES) [50K]": [
+  "Mooresville (UNITED STATES, NC) [50K]": [
     -80.81,
     35.585
   ],
@@ -39035,7 +39035,7 @@
     25.554285,
     14.139655
   ],
-  "Cypress, CA (UNITED STATES) [50K]": [
+  "Cypress (UNITED STATES, CA) [50K]": [
     -118.037,
     33.817
   ],
@@ -39083,7 +39083,7 @@
     11.7872586372647,
     45.0711691107619
   ],
-  "Harrisburg, PA (UNITED STATES) [50K]": [
+  "Harrisburg (UNITED STATES, PA) [50K]": [
     -76.887,
     40.263
   ],
@@ -39107,7 +39107,7 @@
     36.65,
     -6.085
   ],
-  "Prescott Valley, AZ (UNITED STATES) [50K]": [
+  "Prescott Valley (UNITED STATES, AZ) [50K]": [
     -112.316,
     34.603
   ],
@@ -39123,11 +39123,11 @@
     47.604,
     35.87
   ],
-  "St Louis Park, MN (UNITED STATES) [50K]": [
+  "St Louis Park (UNITED STATES, MN) [50K]": [
     -93.348,
     44.948
   ],
-  "Spring Hill, TN (UNITED STATES) [50K]": [
+  "Spring Hill (UNITED STATES, TN) [50K]": [
     -86.929,
     35.752
   ],
@@ -39155,7 +39155,7 @@
     33.35135114688,
     -8.93531946045451
   ],
-  "Azusa, CA (UNITED STATES) [50K]": [
+  "Azusa (UNITED STATES, CA) [50K]": [
     -117.907,
     34.134
   ]
