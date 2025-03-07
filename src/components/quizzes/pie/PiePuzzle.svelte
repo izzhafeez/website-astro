@@ -19,9 +19,9 @@
     // each chosen option must not have an overlapping biword with any other chosen option
     let biwords = new Set();
     let maxPercentages = new Set();
-    let count = 0;
     for (let i = 0; i < Math.min(N, data.length); i++) {
       let index = Math.floor(Math.random() * data.length);
+      let count = 0;
       while (true) {
         count++;
         // check for overlapping biword
@@ -30,7 +30,6 @@
         for (let biword of newBiwords) {
           if (biwords.has(biword)) {
             overlap = true;
-            break;
           }
         }
 
@@ -41,14 +40,15 @@
           maxPercentages.add(newMaxPercentage);
         }
 
-        if ((!options.includes(data[index]) && ((!overlap) || count > 100))) {
-          for (let biword of newBiwords) {
-            biwords.add(biword);
-          }
-          break;
+        if ((overlap && count <= 100) || options.includes(data[index])) {
+          index = Math.floor(Math.random() * data.length);
+          continue;
         }
 
-        index = Math.floor(Math.random() * data.length);
+        for (let biword of newBiwords) {
+          biwords.add(biword);
+        }
+        break;
       }
       options.push(data[index]);
     }
