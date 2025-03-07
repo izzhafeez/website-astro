@@ -1,6 +1,7 @@
 <script lang="ts">
   import party from 'party-js';
   import { Canvas, Layer } from 'svelte-canvas';
+  import seededRandom from '../../common/seededRandom';
 
   export let locations: string[];
   export let positions: { lat: number, lng: number }[];

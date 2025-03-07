@@ -34,9 +34,9 @@
   }
 
   function handleNext() {
-    // select N random locations from the data
     randomiser = seededRandom(randomiserSeed);
-    const chosen = data.sort((a,b) => randomiser() - 0.5).slice(0, N);
+    // select N random locations from the data
+    const chosen = [...data].sort((a,b) => randomiser() - 0.5).slice(0, N);
     locations = chosen.map((d) => d.name);
     positions = chosen.map((d) => [d.lat, d.lng]);
     if (isRotate) {

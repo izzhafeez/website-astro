@@ -185,5 +185,85 @@
       "Tokyo",
       "Train"
     ]
+  },
+  "cities": {
+    "title": "Cities of the World (1M)",
+    "instructions": "How many cities in the world can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "World",
+      "Cities"
+    ]
+  },
+  "cities-asia": {
+    "title": "Cities of Asia (500K)",
+    "instructions": "How many cities in Asia can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Asia",
+      "Cities"
+    ]
+  },
+  "cities-europe": {
+    "title": "Cities of Europe (100K)",
+    "instructions": "How many cities in Europe can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Europe",
+      "Cities"
+    ]
+  },
+  "cities-north-america": {
+    "title": "Cities of North America (200K)",
+    "instructions": "How many cities in North America can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "North America",
+      "Cities"
+    ]
+  },
+  "cities-south-america": {
+    "title": "Cities of South America (200K)",
+    "instructions": "How many cities in South America can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "South America",
+      "Cities"
+    ]
+  },
+  "cities-oceania": {
+    "title": "Cities of Oceania (50K)",
+    "instructions": "How many cities in Oceania can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Oceania",
+      "Cities"
+    ]
+  },
+  "cities-africa": {
+    "title": "Cities of Africa (200K)",
+    "instructions": "How many cities in Africa can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Africa",
+      "Cities"
+    ]
+  },
+  "cities-us": {
+    "title": "Cities of the US (100K)",
+    "instructions": "How many cities in the US can you name?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "US",
+      "Cities"
+    ]
   }
 }

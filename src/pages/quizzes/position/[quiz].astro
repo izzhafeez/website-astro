@@ -7,6 +7,12 @@ import busStopData from "../../../data/quizzes/map/bus-stops.json";
 import londonUndergroundData from "../../../data/quizzes/map/london-underground.json";
 import tokyoMetroData from "../../../data/quizzes/map/tokyo-metro.json";
 import citiesData from "../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../data/quizzes/map/cities-europe.json";
+import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
+import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
+import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
 import monumentsData from "../../../data/quizzes/map/monuments.json";
 import librariesData from "../../../data/quizzes/map/libraries.json";
 import parksData from "../../../data/quizzes/map/parks.json";
@@ -235,7 +241,133 @@ export async function getStaticPaths() {
         instructions: instructionFormat('place in Singapore'),
         defaultRegex: ''
       }
-    }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World (1M)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesData)) {
+            const accepted = ["10M", "5M", "2M", "1M"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-asia' },
+      props: {
+        title: 'Cities of Asia (500K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesAsiaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('Asian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-europe' },
+      props: {
+        title: 'Cities of Europe (100K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesEuropeData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('European city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-north-america' },
+      props: {
+        title: 'Cities of North America (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesNorthAmericaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('North American city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-south-america' },
+      props: {
+        title: 'Cities of South America (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesSouthAmericaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('South American city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-africa' },
+      props: {
+        title: 'Cities of Africa (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesAfricaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('African city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-oceania' },
+      props: {
+        title: 'Cities of Oceania (50K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesOceaniaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K", "75K", "50K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('Oceanian city'),
+        defaultRegex: ''
+      }
+    },
   ]
 }
 

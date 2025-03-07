@@ -24,6 +24,7 @@ import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
 import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
 import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
 import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
+import citiesUsData from "../../../data/quizzes/map/cities-us.json";
 import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
 
 export function getStaticPaths() {
@@ -161,6 +162,13 @@ export function getStaticPaths() {
       props: {
         title: 'Cities of Oceania',
         data: citiesOceaniaData
+      }
+    },
+    {
+      params: { quiz: 'cities-us' },
+      props: {
+        title: 'Cities of the United States',
+        data: citiesUsData
       }
     }
   ];
