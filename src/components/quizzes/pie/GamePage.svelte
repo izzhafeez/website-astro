@@ -26,7 +26,8 @@
 
   // Create the pie layout and arc generator.
   $: pie = d3.pie()
-		.sort((a: any, b: any) => d3.descending(a.name, b.name))
+		// .sort((a: any, b: any) => d3.descending(a.name, b.name))
+    .sort((a: any, b: any) => a.name == "Others" ? 1 : -a.value +b.value)
 		.value((d: any) => d.value);
 
   $: arcPath = d3.arc()
