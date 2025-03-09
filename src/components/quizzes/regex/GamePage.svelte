@@ -38,6 +38,8 @@
         if (countCorrect === chosen.length) {
             const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
             fetch(`${url}?siteUrl=__quizzes__regex__${key}&name=${name}&score=${-guess.length}&params=${seed}`);
+
+            if (date) localStorage.setItem(`regex-${key}-${date}`, guess.length.toString());
         }
     }
 

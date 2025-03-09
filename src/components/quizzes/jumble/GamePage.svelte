@@ -11,6 +11,7 @@
     export let changeSeed;
     export let seed;
     export let date;
+    export let key;
     
     let givenUp = false;
     // all the individual letters in the chosen words
@@ -68,20 +69,12 @@
                 html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
             });
             givenUp = true;
+
+            if (date) {
+                localStorage.setItem(`jumble-${key}-${date}`, "✓");
+            }
         }
     };
-
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        }
-    });
 
     const giveUp = () => {
         // confirmation
@@ -94,6 +87,9 @@
                 responses.forEach((response, i) => {
                     responses[i] = chosen[i];
                 });
+                if (date) {
+                    localStorage.setItem(`jumble-${key}-${date}`, "✗");
+                }
                 givenUp = true;
                 changeSeed();
             }

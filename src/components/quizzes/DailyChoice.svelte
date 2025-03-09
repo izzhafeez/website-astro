@@ -6,7 +6,7 @@
     export let randomiser;
     export let date;
     export let handleStart;
-    export let name;
+    export let fullKey;
 
     const START_DATE = new Date('2025-01-01');
     const TODAY = new Date();
@@ -23,6 +23,13 @@
         randomiser = seededRandom(randomiserSeed);
         handleStart();
     }
+
+    const getLocalStorageItem = (key) => {
+        if (typeof localStorage !== 'undefined') {
+            return localStorage.getItem(key);
+        }
+        return null;
+    }
 </script>
 
 <div in:fade={{}}>
@@ -31,7 +38,7 @@
     <!-- options from START_DATE to today -->
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 max-w-3xl mx-auto my-8">
         {#each options.reverse() as option, i}
-            <button on:click={() => parseDate(option)} class="p-2 bg-white dark:bg-black hover:bg-ns-300 dark:hover:bg-ns-300 rounded-md">#{options.length - i} {option.toDateString().slice(4)}</button>
+            <button on:click={() => parseDate(option)} class="p-2 bg-white dark:bg-black hover:bg-ns-300 dark:hover:bg-ns-300 rounded-md">#{options.length - i} {option.toDateString().slice(4)} {getLocalStorageItem(`${fullKey}-${option.toDateString()}`) ? "(" + getLocalStorageItem(`${fullKey}-${option.toDateString()}`) + ")" : ""}</button>
         {/each}
     </div>
 </div>

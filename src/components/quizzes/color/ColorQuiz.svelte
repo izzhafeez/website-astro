@@ -36,7 +36,7 @@
     {#if !isDaily}
       <StartPage {key} bind:name={name} bind:isStart={isStart} bind:randomiserSeed={randomiserSeed} {decodeSeed} {randomiseSeed}/>
     {:else}
-      <DailyChoice {key} name="COLOR QUIZ" bind:date={date} bind:isStart={isStart} bind:randomiserSeed={randomiserSeed} bind:randomiser={randomiser} {handleStart}/>
+      <DailyChoice {key} name="COLOR QUIZ" bind:date={date} bind:isStart={isStart} bind:randomiserSeed={randomiserSeed} bind:randomiser={randomiser} {handleStart} fullKey={`color`}/>
     {/if}
   </div>
 {:else}

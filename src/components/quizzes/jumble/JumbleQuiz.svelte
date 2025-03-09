@@ -105,10 +105,10 @@
         {/if}
     </p>
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed} {date}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed} {date} {key}/>
 {:else}
     {#if isDaily}
-        <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`JUMBLE QUIZ: ${title}`} bind:date={date}/>
+        <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`JUMBLE QUIZ: ${title}`} bind:date={date} fullKey={`jumble-${key}`}/>
     {:else}
         <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {changeSeed} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {randomiseSeed} {key}/>
     {/if}

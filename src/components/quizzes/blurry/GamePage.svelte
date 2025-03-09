@@ -31,6 +31,9 @@
         isWaiting = false;
         if (round > maxRounds) {
             let imgSrc = "";
+            if (date) {
+                localStorage.setItem(`blurry-${key}-${date}`, score.toString());
+            }
             if ((score / 2) == 500) {
                     imgSrc = "perfect";
                 } else if ((score / 2) >= 490) {

@@ -8,6 +8,8 @@
   export let positions: { lat: number, lng: number }[];
   export let randomiser: () => number;
   export let isStart: boolean;
+  export let key: string;
+  export let date: string;
 
   let isEnd = false;
   let colorId = 0;
@@ -64,6 +66,7 @@
   }
 
   const handleEnd = () => {
+    if (date) localStorage.setItem(`position-${key}-${date}`, score.toString());
     isEnd = false;
     isStart = false;
     assignments = {};

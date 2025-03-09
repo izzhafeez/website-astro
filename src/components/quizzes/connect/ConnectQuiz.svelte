@@ -147,7 +147,7 @@
   </p>
   {#if !isStart}
   {#if isDaily}
-    <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`CATEGORY CONNECT: ${title}`} bind:date={date}/>
+    <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`CATEGORY CONNECT: ${title}`} bind:date={date} fullKey={`connect-${key}`}/>
   {:else}
     <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} bind:difficulty={difficulty} {decodeSeed} {randomiseSeed} bind:seed={seed} {key}/>
   {/if}
@@ -156,6 +156,8 @@
     bind:guesses={guesses}
     bind:answered={answered}
     bind:tileCounts={tileCounts}
-    bind:canNext={canNext}/>
+    bind:canNext={canNext}
+    {key}
+    {date}/>
   {/if}
 </div>

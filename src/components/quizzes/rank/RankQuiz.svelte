@@ -98,7 +98,7 @@
         <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {N} {encodeSeed} {field} {options} {title} {instructions} {data} {key} {name} {date}/>
     {:else}
         {#if isDaily}
-            <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`RANK MASTER: ${title}`} bind:date={date}/>
+            <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`RANK MASTER: ${title}`} bind:date={date} fullKey={`rank-${key}`}/>
         {:else}
             <StartPage bind:N={N} {handleStart} {title} {instructions} bind:seed={seed} {randomiseSeed} {decodeSeed} bind:field={field} {possible_fields} bind:name={name} {key}/>
         {/if}

@@ -116,6 +116,8 @@
             })
             const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
             await fetch(`${url}?siteUrl=__quizzes__rank__${key}&name=${name}&score=${score}&params=${seed}`);
+
+            if (date) localStorage.setItem(`rank-${key}-${date}`, score.toString());
     }
 </script>
 

@@ -13,6 +13,7 @@ import citiesNorthAmericaData from "../../../../data/quizzes/map/cities-north-am
 import citiesSouthAmericaData from "../../../../data/quizzes/map/cities-south-america.json";
 import citiesAfricaData from "../../../../data/quizzes/map/cities-africa.json";
 import citiesOceaniaData from "../../../../data/quizzes/map/cities-oceania.json";
+import citiesUsData from "../../../../data/quizzes/map/cities-us.json";
 import monumentsData from "../../../../data/quizzes/map/monuments.json";
 import librariesData from "../../../../data/quizzes/map/libraries.json";
 import parksData from "../../../../data/quizzes/map/parks.json";
@@ -365,6 +366,24 @@ export async function getStaticPaths() {
           return newData;
         })(),
         instructions: instructionFormat('Oceanian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-us' },
+      props: {
+        title: 'Cities of the United States (100K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesUsData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('US city'),
         defaultRegex: ''
       }
     },

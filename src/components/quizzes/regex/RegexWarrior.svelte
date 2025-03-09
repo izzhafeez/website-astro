@@ -92,7 +92,7 @@
     <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed} {name} {key} {date}/>
 {:else}
     {#if isDaily}
-        <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`REGEX WARRIOR: ${title}`} bind:date={date}/>
+        <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`REGEX WARRIOR: ${title}`} bind:date={date} fullKey={`regex-${key}`}/>
     {:else}
         <StartPage bind:N={N} {handleStart} {title} {instructions} {randomiseSeed} bind:seed={seed} {decodeSeed} {key} bind:name={name}/>
     {/if}

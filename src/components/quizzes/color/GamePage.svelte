@@ -62,6 +62,9 @@
 
   let nextRound = async () => {
     if (roundNumber >= MAX_ROUNDS) {
+      if (date) {
+        localStorage.setItem(`color-${date}`, totalScore.toString());
+      }
       endGame();
     } else {
       isGuessing = true;

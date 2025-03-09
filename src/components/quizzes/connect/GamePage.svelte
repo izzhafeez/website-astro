@@ -13,6 +13,8 @@
   export let answered: string[] = [];
   let numSelected = 0;
   export let tileCounts: Record<string, number> = {};
+  export let key: string;
+  export let date: string;
 
   function handleSelect(tile: string) {
     if (selected[tile]) {
@@ -38,6 +40,10 @@
     numSelected = 0;
 
     if (guesses === 0) {
+      if (date) {
+        localStorage.setItem(`connect-${key}-${date}`, "✗");
+      }
+
       Swal.fire({
         title: 'No more guesses...',
         html: `<img src="/img/quizzes/haiya.gif"/>`,
@@ -58,6 +64,10 @@
     }
 
     if (tiles.length === 0 && guesses > 0) {
+      if (date) {
+        localStorage.setItem(`connect-${key}-${date}`, "✓");
+      }
+
       Swal.fire({
         html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
       })
