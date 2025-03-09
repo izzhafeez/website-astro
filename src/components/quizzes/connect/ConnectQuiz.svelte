@@ -3,9 +3,15 @@
   import StartPage from './StartPage.svelte';
   import seededRandom from '../../common/seededRandom';
   import Swal from 'sweetalert2';
+  import DailyChoice from '../DailyChoice.svelte';
+
   export let title;
   export let data;
   export let instructions;
+  export let isDaily = false;
+  export let key;
+
+  let date;
 
   let isStart = false;
   let N = 4;
@@ -105,6 +111,8 @@
     answered = [];
 
     randomiser = seededRandom(randomiserSeed);
+
+    isStart = true;
   }
 
   const toast = Swal.mixin({
@@ -128,11 +136,21 @@
   }
 </script>
 
-<div class="max-w-3xl mx-auto p-2 my-8 md:my-20">
+<div class="max-w-3xl mx-auto p-2 my-8">
   <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-  <p class=" my-4">{instructions} <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
+  <p class=" my-4">{instructions} 
+    {#if !isDaily}
+      <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
+    {:else if isStart}
+      Daily Challenge for {date}.
+    {/if}
+  </p>
   {#if !isStart}
-  <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} bind:difficulty={difficulty} {decodeSeed} {randomiseSeed} bind:seed={seed}/>
+  {#if isDaily}
+    <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`CATEGORY CONNECT: ${title}`} bind:date={date}/>
+  {:else}
+    <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} bind:difficulty={difficulty} {decodeSeed} {randomiseSeed} bind:seed={seed} {key}/>
+  {/if}
   {:else}
   <GamePage {data} {answers} {tiles} {handleNext}
     bind:guesses={guesses}

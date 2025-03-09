@@ -21,9 +21,9 @@ const quizzes = Object.entries(regexData as QuizJson).map(([key, value]) => {
     key,
     href: `/quizzes/blurry/${key}`,
     title: value.title,
-    instructions: value.instructions,
+    instructions: `How well can you see blurry ${value.title}?`,
     rank: value.rank || 0,
-    imgPath: `/img/quizzes/jumble/${key}.jpg`,
+    imgPath: key === "all" ? `/img/heroes/BLURRY.jpg` : `/img/quizzes/jumble/${key}.jpg`,
     tags: value.tags || []
   }
 }).sort((a,b) => a.title.localeCompare(b.title));

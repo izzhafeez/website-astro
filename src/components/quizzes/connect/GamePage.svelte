@@ -1,6 +1,6 @@
 <script lang="ts">
   import party from 'party-js';
-  import { fade } from 'svelte/transition';
+  import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
 
   export let data: Record<string, string[]> = {};
@@ -123,7 +123,7 @@
   }
 </script>
 
-<div transition:fade={{ delay: 200, duration: 500 }}>
+<div in:fade={{}}>
   <div class="grid gap-2">
     <div class="grid gap-2">
       {#each answered as answer}

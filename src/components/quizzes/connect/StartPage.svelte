@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
 
   export let isStart = false;
   export let N = 4;
@@ -8,6 +8,8 @@
   export let seed: string;
   export let randomiseSeed: () => void;
   export let decodeSeed: () => void;
+  export let key: string;
+
   let possible_N = [2, 3, 4, 5, 6, 7, 8];
   let possible_difficulty = [1, 2, 3, 4, 5];
 
@@ -43,11 +45,10 @@
     }
 
     handleNext();
-    isStart = true;
   }
 </script>
 
-<div transition:fade={{ duration: 200 }}>
+<div in:fade={{}}>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
     <input type="text" id="seed" bind:value={seed} on:change={decodeSeed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
@@ -65,5 +66,8 @@
     <button on:click={() => {difficulty = n; seed = seed[0] + n.toString() + seed.slice(2);}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={difficulty == n} class:text-white={difficulty == n}>{n}</button>
     {/each}
   </div>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
+  <div class="flex py-2 gap-2">
+    <a href={`/quizzes/connect/${key}/daily-challenge`} class="bg-cc-300/20 py-1 px-2 rounded-md text-cc-500 dark:text-cc-300 hover:bg-cc-300/50">Daily Challenge</a>
+    <button on:click={handleStart} class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50">Start</button>
+  </div>
 </div>

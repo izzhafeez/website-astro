@@ -1,31 +1,31 @@
 ---
-import RankQuiz from "../../../components/quizzes/rank/RankQuiz.svelte";
-import Layout from "../../../layouts/Layout.astro";
-import NavBar from "../../../components/common/NavBar.astro";
-import Seo from "../../../components/seo/Seo.astro";
-import PageFind from "../../../components/common/PageFind.astro";
+import RankQuiz from "../../../../components/quizzes/rank/RankQuiz.svelte";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
 import seoImg from '/src/img/heroes/COMPARE.jpg';
-import { decks, getDataAsDict } from "../../games/common/decks";
+import { decks, getDataAsDict } from "../../../games/common/decks";
 
-import schoolsData from "../../../data/quizzes/map/schools.json";
-import busStopData from "../../../data/quizzes/map/bus-stops.json";
-import londonUndergroundData from "../../../data/quizzes/map/london-underground.json";
-import tokyoMetroData from "../../../data/quizzes/map/tokyo-metro.json";
-import monumentsData from "../../../data/quizzes/map/monuments.json";
-import librariesData from "../../../data/quizzes/map/libraries.json";
-import parksData from "../../../data/quizzes/map/parks.json";
-import parkConnectorsData from "../../../data/quizzes/map/park-connectors.json";
-import hotelsData from "../../../data/quizzes/map/hotels.json";
-import ccData from "../../../data/quizzes/map/cc.json";
-import citiesData from "../../../data/quizzes/map/cities.json";
-import citiesAsiaData from "../../../data/quizzes/map/cities-asia.json";
-import citiesEuropeData from "../../../data/quizzes/map/cities-europe.json";
-import citiesAfricaData from "../../../data/quizzes/map/cities-africa.json";
-import citiesNorthAmericaData from "../../../data/quizzes/map/cities-north-america.json";
-import citiesSouthAmericaData from "../../../data/quizzes/map/cities-south-america.json";
-import citiesOceaniaData from "../../../data/quizzes/map/cities-oceania.json";
-import citiesUsData from "../../../data/quizzes/map/cities-us.json";
-import touristAttractionsData from "../../../data/quizzes/map/tourist-attractions.json";
+import schoolsData from "../../../../data/quizzes/map/schools.json";
+import busStopData from "../../../../data/quizzes/map/bus-stops.json";
+import londonUndergroundData from "../../../../data/quizzes/map/london-underground.json";
+import tokyoMetroData from "../../../../data/quizzes/map/tokyo-metro.json";
+import monumentsData from "../../../../data/quizzes/map/monuments.json";
+import librariesData from "../../../../data/quizzes/map/libraries.json";
+import parksData from "../../../../data/quizzes/map/parks.json";
+import parkConnectorsData from "../../../../data/quizzes/map/park-connectors.json";
+import hotelsData from "../../../../data/quizzes/map/hotels.json";
+import ccData from "../../../../data/quizzes/map/cc.json";
+import citiesData from "../../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../../data/quizzes/map/cities-europe.json";
+import citiesAfricaData from "../../../../data/quizzes/map/cities-africa.json";
+import citiesNorthAmericaData from "../../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../../data/quizzes/map/cities-south-america.json";
+import citiesOceaniaData from "../../../../data/quizzes/map/cities-oceania.json";
+import citiesUsData from "../../../../data/quizzes/map/cities-us.json";
+import touristAttractionsData from "../../../../data/quizzes/map/tourist-attractions.json";
 
 export function getStaticPaths() {
   return [
@@ -182,11 +182,9 @@ const instructions = `Ever played Higher or Lower? Here is my version of it! Pic
 
 <Layout>
   <div slot="main">
-    <div class="fixed z-50 w-screen">
-      <NavBar/>
-      <PageFind pageName={`${title} (Rank Master)`} heroText={instructions}/>
-    </div>
-    <RankQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz}/>
+    <NavBar/>
+    <PageFind pageName={`${title} (Rank Master)`} heroText={instructions}/>
+    <RankQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz} isDaily={true}/>
   </div>
 </Layout>
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">

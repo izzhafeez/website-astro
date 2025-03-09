@@ -1,0 +1,393 @@
+---
+import Seo from "../../../../components/seo/Seo.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import BlurryQuiz from "../../../../components/quizzes/blurry/BlurryQuiz.svelte";
+import mrtData from "../../../../data/quizzes/jumble/mrt.json";
+import countriesData from "../../../../data/quizzes/jumble/countries.json";
+import fruitVegData from "../../../../data/quizzes/jumble/fruit-veg.json";
+import spotifyData from "../../../../data/quizzes/jumble/spotify.json";
+import billboard2010Data from "../../../../data/quizzes/jumble/billboard-2010.json";
+import billboard2011Data from "../../../../data/quizzes/jumble/billboard-2011.json";
+import billboard2012Data from "../../../../data/quizzes/jumble/billboard-2012.json";
+import billboard2013Data from "../../../../data/quizzes/jumble/billboard-2013.json";
+import billboard2014Data from "../../../../data/quizzes/jumble/billboard-2014.json";
+import awsData from "../../../../data/quizzes/jumble/aws.json";
+import elementsData from "../../../../data/quizzes/jumble/elements.json";
+import ikeaData from "../../../../data/quizzes/jumble/ikea.json";
+import mrtChineseData from "../../../../data/quizzes/jumble/mrt-chinese.json";
+import openingsData from "../../../../data/quizzes/jumble/openings.json";
+import statesData from "../../../../data/quizzes/jumble/states.json";
+import dinosaursData from "../../../../data/quizzes/jumble/dinosaurs.json";
+import pokemonData from "../../../../data/quizzes/jumble/pokemon.json";
+import chengyuData from "../../../../data/quizzes/jumble/chengyu.json";
+import deckOfCardsData from "../../../../data/quizzes/jumble/deck-of-cards.json";
+import spellsData from "../../../../data/quizzes/jumble/spells.json";
+import animeData from "../../../../data/quizzes/jumble/anime.json";
+import drinksData from "../../../../data/quizzes/jumble/drinks.json";
+
+export const getStaticPaths = (() => {
+    const instructions = "How good is your eyesight? Can you identify the blurred texts?";
+    const capitaliseFirstLetter = (string: string) => string.charAt(0).toUpperCase() + string.slice(1);
+    const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
+    const filterDuplicates = (array: string[]) => array.filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => a.localeCompare(b));
+
+    return [
+        {
+            params: {
+                quiz: 'mrt'
+            },
+            props: {
+                title: 'MRT Stations of Singapore',
+                instructions: instructions,
+                data: filterDuplicates(mrtData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'countries',
+            },
+            props: {
+                title: 'Countries of the World',
+                instructions: instructions,
+                data: filterDuplicates(countriesData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'fruit-veg',
+            },
+            props: {
+                title: 'Fruits and Vegetables',
+                instructions: instructions,
+                data: filterDuplicates(fruitVegData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'spotify',
+            },
+            props: {
+                title: 'Top Spotify Artists',
+                instructions: instructions,
+                data: filterDuplicates(spotifyData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2010',
+            },
+            props: {
+                title: 'Billboard Top 100 (2010)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2010Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2011',
+            },
+            props: {
+                title: 'Billboard Top 100 (2011)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2011Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2012',
+            },
+            props: {
+                title: 'Billboard Top 100 (2012)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2012Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2013',
+            },
+            props: {
+                title: 'Billboard Top 100 (2013)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2013Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'billboard-2014',
+            },
+            props: {
+                title: 'Billboard Top 100 (2014)',
+                instructions: instructions,
+                data: filterDuplicates(billboard2014Data.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'aws',
+            },
+            props: {
+                title: 'AWS Services',
+                instructions: instructions,
+                data: filterDuplicates(awsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'elements',
+            },
+            props: {
+                title: 'Periodic Table Elements',
+                instructions: instructions,
+                data: filterDuplicates(elementsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'ikea',
+            },
+            props: {
+                title: 'IKEA Products',
+                instructions: instructions,
+                data: filterDuplicates(ikeaData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'mrt-chinese',
+            },
+            props: {
+                title: 'MRT Stations of Singapore (Chinese)',
+                instructions: instructions,
+                data: filterDuplicates(mrtChineseData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'openings',
+            },
+            props: {
+                title: 'Chess Openings',
+                instructions: instructions,
+                data: filterDuplicates(openingsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'states',
+            },
+            props: {
+                title: 'States of the USA',
+                instructions: instructions,
+                data: filterDuplicates(statesData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'dinosaurs',
+            },
+            props: {
+                title: 'Dinosaurs',
+                instructions: instructions,
+                data: filterDuplicates(dinosaursData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'pokemon',
+            },
+            props: {
+                title: 'Pokémon',
+                instructions: instructions,
+                data: filterDuplicates(pokemonData.map(capitaliseFirstLetter).map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'chengyu',
+            },
+            props: {
+                title: 'Chengyu (Chinese Idioms)',
+                instructions: instructions,
+                data: filterDuplicates(chengyuData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'deck-of-cards',
+            },
+            props: {
+                title: 'Deck of Cards',
+                instructions: instructions,
+                data: filterDuplicates(deckOfCardsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'spells',
+            },
+            props: {
+                title: 'Harry Potter Spells',
+                instructions: instructions,
+                data: filterDuplicates(spellsData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'anime',
+            },
+            props: {
+                title: 'Anime',
+                instructions: instructions,
+                data: filterDuplicates(animeData.map(normaliseString))
+            }
+        },
+        {
+            params: {
+                quiz: 'all',
+            },
+            props: {
+                title: 'Everything',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...mrtData.map(normaliseString).slice(0, 50),
+                    ...countriesData.map(normaliseString).slice(0, 50),
+                    ...fruitVegData.map(normaliseString).slice(0, 50),
+                    ...spotifyData.map(normaliseString).slice(0, 25),
+                    ...billboard2010Data.map(normaliseString).slice(0, 10),
+                    ...billboard2011Data.map(normaliseString).slice(0, 10),
+                    ...billboard2012Data.map(normaliseString).slice(0, 10),
+                    ...billboard2013Data.map(normaliseString).slice(0, 10),
+                    ...billboard2014Data.map(normaliseString).slice(0, 10),
+                    ...awsData.map(normaliseString).slice(0, 50),
+                    ...elementsData.map(normaliseString).slice(0, 50),
+                    ...ikeaData.map(normaliseString).slice(0, 50),
+                    ...mrtChineseData.map(normaliseString).slice(0, 50),
+                    ...openingsData.map(normaliseString).slice(0, 50),
+                    ...statesData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...dinosaursData.map(capitaliseFirstLetter).map(normaliseString).slice(0, 50),
+                    ...pokemonData.map(capitaliseFirstLetter).map(normaliseString).slice(0, 50),
+                    ...chengyuData.map(normaliseString).slice(0, 50),
+                    ...deckOfCardsData.map(normaliseString),
+                    ...spellsData.map(normaliseString).slice(0, 50),
+                    ...animeData.map(normaliseString).slice(0, 50),
+                    ...drinksData.map(normaliseString).slice(0, 50),
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'music',
+            },
+            props: {
+                title: 'Everything (Music)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...spotifyData.map(normaliseString),
+                    ...billboard2010Data.map(normaliseString),
+                    ...billboard2011Data.map(normaliseString),
+                    ...billboard2012Data.map(normaliseString),
+                    ...billboard2013Data.map(normaliseString),
+                    ...billboard2014Data.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'chinese',
+            },
+            props: {
+                title: 'Everything (Chinese)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...mrtChineseData.map(normaliseString),
+                    ...chengyuData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'geography',
+            },
+            props: {
+                title: 'Everything (Geography)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...countriesData.map(normaliseString),
+                    ...statesData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...mrtData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'fiction',
+            },
+            props: {
+                title: 'Everything (Fiction)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...pokemonData.map(capitaliseFirstLetter).map(normaliseString),
+                    ...spellsData.map(normaliseString),
+                    ...animeData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'products',
+            },
+            props: {
+                title: 'Everything (Products)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...ikeaData.map(normaliseString),
+                    ...awsData.map(normaliseString),
+                    ...fruitVegData.map(normaliseString),
+                    ...drinksData.map(normaliseString)
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'science',
+            },
+            props: {
+                title: 'Everything (Science)',
+                instructions: instructions,
+                data: filterDuplicates([
+                    ...elementsData.map(normaliseString),
+                    ...dinosaursData.map(capitaliseFirstLetter).map(normaliseString),
+                ])
+            }
+        },
+        {
+            params: {
+                quiz: 'drinks',
+            },
+            props: {
+                title: 'Drinks',
+                instructions: instructions,
+                data: filterDuplicates(drinksData.map(normaliseString))
+            }
+        }
+    ]
+});
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/jumble/${Astro.params.quiz}.jpg`]().then(img => img.default);
+---
+
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Blurry Battle)`} path={`quizzes/regex/${Astro.params.quiz}`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <PageFind pageName={`${Astro.props.title} (Blurry Battle)`} heroText={Astro.props.instructions}/>
+    <BlurryQuiz client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </div>
+</Layout>

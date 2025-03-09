@@ -2,14 +2,20 @@
     import GamePage from './GamePage.svelte';
     import StartPage from './StartPage.svelte';
     import seededRandom from '../../common/seededRandom';
+    import DailyChoice from '../DailyChoice.svelte';
+
     export let names;
     export let title;
     export let instructions;
+    export let isDaily = false;
+    export let key;
 
     let possible_N = [2, 3, 4, 5, 6, 7, 8];
     let possible_max_length = [6, 8, 10, 12, 14, 16, 18, 20];
     let possible_mixFactor = [0, 1, 2, 3, 4, 5];
     let possible_scrambleFactor = [0, 1, 2, 3, 4, 5];
+
+    let date;
 
     // remove contents of parantheses and brackets
     let options = names;
@@ -17,9 +23,10 @@
     let MAX_LENGTH = 10;
     let isStart = false;
     let chosen: string[] = [];
-    let mixFactor = 3;
-    let scrambleFactor = 3;
-    let randomiserSeed = Math.floor(Math.random() * 1000000);
+    let mixFactor = 4;
+    let scrambleFactor = 4;
+
+    let randomiserSeed: number = Math.floor(Math.random() * 1000000);
     let randomiser = seededRandom(randomiserSeed);
     let seed = encodeSeed(randomiserSeed);
     let changeSeed = () => {
@@ -76,10 +83,34 @@
                 break;
             }
         }
+        isStart = true;
+    }
+
+    const copySeed = () => {
+        navigator.clipboard.writeText(seed);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Seed',
+        });
     }
 </script>
+
+<div class="my-8 mx-auto max-w-3xl">
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
+    <p class="my-4">{instructions} 
+        {#if date}
+            Daily Challenge for {date}.
+        {:else if isStart}
+            <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
+        {/if}
+    </p>
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed} {date}/>
 {:else}
-    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {changeSeed} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {randomiseSeed}/>
+    {#if isDaily}
+        <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`JUMBLE QUIZ: ${title}`} bind:date={date}/>
+    {:else}
+        <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {changeSeed} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {randomiseSeed} {key}/>
+    {/if}
 {/if}
+</div>

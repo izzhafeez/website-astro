@@ -3,7 +3,7 @@
   import axios from "axios";
   import party from "party-js";
   import { capitalise } from "../../../utils/string";
-  import { fly } from 'svelte/transition';
+  import { fly, fade } from 'svelte/transition';
   import { onMount } from "svelte";
 
   export let title: string;

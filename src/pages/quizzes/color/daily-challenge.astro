@@ -1,0 +1,19 @@
+---
+import ColorQuiz from "../../../components/quizzes/color/ColorQuiz.svelte";
+import Layout from "../../../layouts/Layout.astro";
+import NavBar from "../../../components/common/NavBar.astro";
+import Seo from "../../../components/seo/Seo.astro";
+import PageFind from "../../../components/common/PageFind.astro";
+import seoImg from "../../../img/heroes/COLOR.jpg";
+---
+<Seo heroText={Astro.props.instructions} {seoImg} pageName="Color Quiz" path={`quizzes/color`}/>
+
+<Layout>
+  <div slot="main">
+    <NavBar/>
+    <PageFind pageName="Color Quiz" heroText={Astro.props.instructions}/>
+    <ColorQuiz client:load key="color-quiz" isDaily={true}/>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </div>
+</Layout>

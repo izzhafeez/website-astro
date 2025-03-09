@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fly } from 'svelte/transition';
+  import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
   import seededRandom from "../../common/seededRandom";
   import party from 'party-js';
@@ -9,6 +9,8 @@
   export let decodeSeed: () => void;
   export let randomiser: () => number;
   export let name: string;
+  export let date: string;
+
   let roundNumber = 0;
   let MAX_ROUNDS = 5;
   let rgb = [0, 0, 0];
@@ -211,10 +213,16 @@
   }
 </script>
 
-<div class="fixed top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: -200, duration: 500 }}>
+<div class="my-8" in:fade={{}}>
   <div class="max-w-3xl mx-auto">
-    <h2 class="text-ns-500 font-bold text-3xl mb-2">Round {roundNumber}/5</h2>
-    <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
+    <h2 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">ROUND {roundNumber}/5</h2>
+    <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode.
+      {#if !date}
+        <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
+      {:else}
+        Daily Challenge for {date}.
+      {/if}
+    </p>
     <!--  -->
     <div class="my-4 mx-auto">
       <div class="flex gap-2 my-4">

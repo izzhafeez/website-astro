@@ -10,6 +10,7 @@
     export let assignments;
     export let name: string;
     export let key: string;
+    export let date;
 
     let guess = '';
     let isValidRegex = true;
@@ -40,26 +41,6 @@
         }
     }
 
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        }
-    });
-
-    const copySeed = () => {
-        navigator.clipboard.writeText(seed);
-        toast.fire({
-            icon: 'success',
-            text: 'Copied Seed',
-        });
-    }
-
     const end = () => {
         isStart = false;
     }
@@ -69,11 +50,8 @@
     $: checkAssignmentsCorrect();
 </script>
 
-<div class="w-screen grid content-center justify-center p-2 -z-10 my-8" in:fly={{ y: 200 }} out:fade>
+<div in:fade={{}}>
     <div class="max-w-4xl mx-auto">
-        <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-        <p class="my-4">{instructions} <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
-        
         <!-- give one tile per chosen name -->
         <!-- color is based on assignments -->
         <div class="flex flex-wrap gap-2 mb-4">

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { fly } from 'svelte/transition';
+    import { fly, fade } from 'svelte/transition';
     import Swal from 'sweetalert2';
     export let chosen;
     export let title;
@@ -10,6 +10,8 @@
     export let randomiser;
     export let changeSeed;
     export let seed;
+    export let date;
+    
     let givenUp = false;
     // all the individual letters in the chosen words
     let letters = chosen
@@ -40,7 +42,7 @@
             for (let letter of response.split('')) {
                 let isFound = false;
                 for (let i = 0; i < letters.length; i++) {
-                    if (letters[i].toUpperCase() === letter.toUpperCase() && !used[i]) {
+                    if (letters[i] === letter && !used[i]) {
                         used[i] = true;
                         isFound = true;
                         break;
@@ -49,7 +51,7 @@
 
                 // if the letter is not found, add it to badLetters
                 if (!isFound) {
-                    badLetters.push(letter.toUpperCase());
+                    badLetters.push(letter);
                 }
             }
         }
@@ -81,14 +83,6 @@
         }
     });
 
-    const copySeed = () => {
-        navigator.clipboard.writeText(seed);
-        toast.fire({
-            icon: 'success',
-            text: 'Copied Seed',
-        });
-    }
-
     const giveUp = () => {
         // confirmation
         Swal.fire({
@@ -107,10 +101,8 @@
     }
 </script>
 
-<div class="top-0 h-screen w-screen grid content-center justify-center p-2 -z-10" transition:fly={{ y: -200, duration: 500 }}>
+<div class="" in:fade={{}}>
     <div class="max-w-4xl mx-auto">
-        <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-        <p class="my-4">{instructions} <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!</p>
         <!-- letters as tiles in a grid -->
         <div class="flex flex-wrap gap-2">
             {#each letters as letter, i}

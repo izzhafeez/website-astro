@@ -1,23 +1,23 @@
 ---
 import type { GetStaticPaths } from "astro";
-import ConnectQuiz from "../../../components/quizzes/connect/ConnectQuiz.svelte";
-import Layout from "../../../layouts/Layout.astro";
-import NavBar from "../../../components/common/NavBar.astro";
-import chengyuData from "../../../data/quizzes/connect/chengyu.json";
-import balkanData from "../../../data/quizzes/connect/balkan.json";
-import seaData from "../../../data/quizzes/connect/south-east-asia.json";
-import centralAsianData from "../../../data/quizzes/connect/central-asia.json";
-import southAmericanData from "../../../data/quizzes/connect/south-america.json";
-import middleEastData from "../../../data/quizzes/connect/middle-east.json";
-import centralAmericaData from "../../../data/quizzes/connect/central-america.json";
-import germanicData from "../../../data/quizzes/connect/germanic.json";
-import sovietUnionData from "../../../data/quizzes/connect/soviet-union.json";
-import westAfricanData from "../../../data/quizzes/connect/west-africa.json";
-import romanceEuropeData from "../../../data/quizzes/connect/romance-europe.json";
-import olympicData from "../../../data/quizzes/connect/olympics.json";
-import connectData from "../../../data/quizzes/connect.json";
-import Seo from "../../../components/seo/Seo.astro";
-import PageFind from "../../../components/common/PageFind.astro";
+import ConnectQuiz from "../../../../components/quizzes/connect/ConnectQuiz.svelte";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import chengyuData from "../../../../data/quizzes/connect/chengyu.json";
+import balkanData from "../../../../data/quizzes/connect/balkan.json";
+import seaData from "../../../../data/quizzes/connect/south-east-asia.json";
+import centralAsianData from "../../../../data/quizzes/connect/central-asia.json";
+import southAmericanData from "../../../../data/quizzes/connect/south-america.json";
+import middleEastData from "../../../../data/quizzes/connect/middle-east.json";
+import centralAmericaData from "../../../../data/quizzes/connect/central-america.json";
+import germanicData from "../../../../data/quizzes/connect/germanic.json";
+import sovietUnionData from "../../../../data/quizzes/connect/soviet-union.json";
+import westAfricanData from "../../../../data/quizzes/connect/west-africa.json";
+import romanceEuropeData from "../../../../data/quizzes/connect/romance-europe.json";
+import olympicData from "../../../../data/quizzes/connect/olympics.json";
+import connectData from "../../../../data/quizzes/connect.json";
+import Seo from "../../../../components/seo/Seo.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
 
 export const getStaticPaths = (() => {
   return [
@@ -154,7 +154,7 @@ const seoImg = await images[`/src/img/quizzes/connect/${Astro.params.quiz}.jpg`]
   <div slot="main">
     <NavBar/>
     <PageFind pageName={`${Astro.props.title} (Connect Quiz)`} heroText={Astro.props.instructions}/>
-    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={instructions}/>
+    <ConnectQuiz client:load title={Astro.props.title} data={Astro.props.data} instructions={instructions} isDaily={true} key={Astro.params.quiz}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>

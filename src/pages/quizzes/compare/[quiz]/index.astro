@@ -1,11 +1,11 @@
 ---
-import CompareQuiz from "../../../components/quizzes/compare/CompareQuiz.svelte";
-import Layout from "../../../layouts/Layout.astro";
-import NavBar from "../../../components/common/NavBar.astro";
-import Seo from "../../../components/seo/Seo.astro";
-import PageFind from "../../../components/common/PageFind.astro";
+import CompareQuiz from "../../../../components/quizzes/compare/CompareQuiz.svelte";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
 import seoImg from '/src/img/heroes/COMPARE.jpg';
-import { decks, getDataAsDict } from "../../games/common/decks";
+import { decks, getDataAsDict } from "../../../games/common/decks";
 
 export function getStaticPaths() {
   return [
@@ -29,10 +29,8 @@ const instructions = `Ever played Higher or Lower? Here is my version of it! Pic
 
 <Layout>
   <div slot="main">
-    <div class="fixed z-50 w-screen">
-      <NavBar/>
-      <PageFind pageName={`${title} (Compare Quiz)`} heroText={instructions}/>
-    </div>
+    <NavBar/>
+    <PageFind pageName={`${title} (Compare Quiz)`} heroText={instructions}/>
     <CompareQuiz client:load data={data} title={title} instructions={instructions} key={Astro.params.quiz}/>
   </div>
 </Layout>

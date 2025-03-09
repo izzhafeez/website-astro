@@ -3,10 +3,16 @@
     import StartPage from './StartPage.svelte';
     import Swal from 'sweetalert2';
     import seededRandom from '../../common/seededRandom';
+    import DailyChoice from '../DailyChoice.svelte';
+
     export let names: string[];
     export let title;
     export let instructions;
     export let key: string;
+    export let isDaily = false;
+
+    let date;
+
     let name: string;
     let isStart: boolean = false;
     let N = 8;
@@ -32,7 +38,10 @@
         N = possible_N[N_index];
         randomiserSeed = parseInt(seed.slice(1));
         randomiser = seededRandom(randomiserSeed);
+        randomiser();
+    }
 
+    function handleStart() {
         // try to assign chosen names
         chosen = [];
         assignments = [];
@@ -46,17 +55,46 @@
             // assign true or false randomly
             assignments.push(randomiser() > 0.5);
         }
+        isStart = true;
     }
 
-    function handleStart() {
-        decodeSeed();
-        isStart = true;
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+        }
+    });
+
+    const copySeed = () => {
+        navigator.clipboard.writeText(seed);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Seed',
+        });
     }
 </script>
 
+<div class="mx-auto my-8 max-w-3xl">
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
+    <p class="my-4">{instructions}
+        {#if !date && isStart}
+            <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
+        {:else if date}
+            Daily Challenge for {date}.
+        {/if}
+    </p>
 {#if isStart}
-    <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed} {name} {key}/>
+    <GamePage bind:isStart={isStart} {title} {instructions} {chosen} {assignments} {seed} {name} {key} {date}/>
+{:else}
+    {#if isDaily}
+        <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`REGEX WARRIOR: ${title}`} bind:date={date}/>
+    {:else}
+        <StartPage bind:N={N} {handleStart} {title} {instructions} {randomiseSeed} bind:seed={seed} {decodeSeed} {key} bind:name={name}/>
+    {/if}
 {/if}
-{#if !isStart}
-    <StartPage bind:N={N} {handleStart} {title} {instructions} {randomiseSeed} bind:seed={seed} {decodeSeed} {key} bind:name={name}/>
-{/if}
+</div>

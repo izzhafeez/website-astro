@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
   import Swal from "sweetalert2";
 
   export let isStart = false;
@@ -9,6 +9,8 @@
   export let seed: string;
   export let randomiseSeed: () => void;
   export let decodeSeed: () => void;
+  export let key: string;
+
   let possible_N = [3, 4, 6, 8, 10, 12];
 
   function handleStart() {
@@ -43,11 +45,10 @@
     }
 
     handleNext();
-    isStart = true;
   }
 </script>
 
-<div transition:fade={{ duration: 200 }}>
+<div in:fade={{}}>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
     <input type="text" id="seed" bind:value={seed} on:change={decodeSeed} on:keyup={decodeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
@@ -63,5 +64,8 @@
     <label for="isRotate" class="">Randomly Rotate Points: </label>
     <input type="checkbox" id="isRotate" bind:checked={isRotate} on:click={() => seed = seed[0] + (isRotate ? 0 : 1) + seed.slice(2) } class="dark:bg-gray-700 rounded-md px-2 py-2 my-auto" />
   </div>
-  <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Start</button>
+  <div class="flex py-2 gap-2">
+    <a href={`/quizzes/position/${key}/daily-challenge`} class="bg-cc-300/20 py-1 px-2 rounded-md text-cc-500 dark:text-cc-300 hover:bg-cc-300/50">Daily Challenge</a>
+    <button on:click={handleStart} class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50">Start</button>
+  </div>
 </div>

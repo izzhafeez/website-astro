@@ -1,7 +1,7 @@
 <script lang="ts">
   import Swal from "sweetalert2";
   import Leaderboard from "../Leaderboard.svelte";
-  import { fly } from 'svelte/transition';
+  import { fly, fade } from 'svelte/transition';
 
   export let title: string;
   export let instructions: string;

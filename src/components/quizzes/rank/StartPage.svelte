@@ -16,11 +16,7 @@
     export let key: string;
   </script>
   
-  <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
-    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-    <p class="my-4 max-w-3xl">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
-
-      Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀</p>
+  <div class="max-w-3xl mx-auto p-2" in:fade={{}}>
     <label for="N" class="">How many to Rank: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}
@@ -44,6 +40,7 @@
     <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1 w-60' placeholder=""/>
     <div class="flex py-2 gap-2">
       <Leaderboard type="rank" key={key} params={seed} settingsLabel="Seed"/>
+      <a href={`/quizzes/rank/${key}/daily-challenge`} class="bg-cc-300/20 py-1 px-2 rounded-md text-cc-500 dark:text-cc-300 hover:bg-cc-300/50">Daily Challenge</a>
       <button
         class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
         on:click={handleStart}

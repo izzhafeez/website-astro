@@ -1,34 +1,34 @@
 ---
-import Seo from "../../../components/seo/Seo.astro";
-import Layout from "../../../layouts/Layout.astro";
-import NavBar from "../../../components/common/NavBar.astro";
-import PageFind from "../../../components/common/PageFind.astro";
-import JumbleQuiz from "../../../components/quizzes/jumble/JumbleQuiz.svelte";
-import mrtData from "../../../data/quizzes/jumble/mrt.json";
-import countriesData from "../../../data/quizzes/jumble/countries.json";
-import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
-import spotifyData from "../../../data/quizzes/jumble/spotify.json";
-import billboard2010Data from "../../../data/quizzes/jumble/billboard-2010.json";
-import billboard2011Data from "../../../data/quizzes/jumble/billboard-2011.json";
-import billboard2012Data from "../../../data/quizzes/jumble/billboard-2012.json";
-import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json";
-import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
-import awsData from "../../../data/quizzes/jumble/aws.json";
-import elementsData from "../../../data/quizzes/jumble/elements.json";
-import ikeaData from "../../../data/quizzes/jumble/ikea.json";
-import mrtChineseData from "../../../data/quizzes/jumble/mrt-chinese.json";
-import openingsData from "../../../data/quizzes/jumble/openings.json";
-import statesData from "../../../data/quizzes/jumble/states.json";
-import dinosaursData from "../../../data/quizzes/jumble/dinosaurs.json";
-import pokemonData from "../../../data/quizzes/jumble/pokemon.json";
-import chengyuData from "../../../data/quizzes/jumble/chengyu.json";
-import deckOfCardsData from "../../../data/quizzes/jumble/deck-of-cards.json";
-import spellsData from "../../../data/quizzes/jumble/spells.json";
-import animeData from "../../../data/quizzes/jumble/anime.json";
-import drinksData from "../../../data/quizzes/jumble/drinks.json";
+import Seo from "../../../../components/seo/Seo.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import RegexWarrior from "../../../../components/quizzes/regex/RegexWarrior.svelte";
+import mrtData from "../../../../data/quizzes/jumble/mrt.json";
+import countriesData from "../../../../data/quizzes/jumble/countries.json";
+import fruitVegData from "../../../../data/quizzes/jumble/fruit-veg.json";
+import spotifyData from "../../../../data/quizzes/jumble/spotify.json";
+import billboard2010Data from "../../../../data/quizzes/jumble/billboard-2010.json";
+import billboard2011Data from "../../../../data/quizzes/jumble/billboard-2011.json";
+import billboard2012Data from "../../../../data/quizzes/jumble/billboard-2012.json";
+import billboard2013Data from "../../../../data/quizzes/jumble/billboard-2013.json";
+import billboard2014Data from "../../../../data/quizzes/jumble/billboard-2014.json";
+import awsData from "../../../../data/quizzes/jumble/aws.json";
+import elementsData from "../../../../data/quizzes/jumble/elements.json";
+import ikeaData from "../../../../data/quizzes/jumble/ikea.json";
+import mrtChineseData from "../../../../data/quizzes/jumble/mrt-chinese.json";
+import openingsData from "../../../../data/quizzes/jumble/openings.json";
+import statesData from "../../../../data/quizzes/jumble/states.json";
+import dinosaursData from "../../../../data/quizzes/jumble/dinosaurs.json";
+import pokemonData from "../../../../data/quizzes/jumble/pokemon.json";
+import chengyuData from "../../../../data/quizzes/jumble/chengyu.json";
+import deckOfCardsData from "../../../../data/quizzes/jumble/deck-of-cards.json";
+import spellsData from "../../../../data/quizzes/jumble/spells.json";
+import animeData from "../../../../data/quizzes/jumble/anime.json";
+import drinksData from "../../../../data/quizzes/jumble/drinks.json";
 
 export const getStaticPaths = (() => {
-    const instructions = "Unmix and unscramble letters to form the correct words. There is only one correct solution, so be wary of red herrings."
+    const instructions = "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means matched and red text means unmatched. The objective is to get all the texts to be the same color as their corresponding borders. Your score is based on the length of your final regex (lower is better)."
     const capitaliseFirstLetter = (string: string) => string.charAt(0).toUpperCase() + string.slice(1);
     const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
     const filterDuplicates = (array: string[]) => array.filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => a.localeCompare(b));
@@ -380,13 +380,13 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg')
 const seoImg = await images[`/src/img/quizzes/jumble/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
 
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Jumble Jam)`} path={`quizzes/jumble/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Regex Warrior)`} path={`quizzes/regex/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
     <NavBar/>
-    <PageFind pageName={`${Astro.props.title} (Jumble Jam)`} heroText={Astro.props.instructions}/>
-    <JumbleQuiz client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions}/>
+    <PageFind pageName={`${Astro.props.title} (Regex Warrior)`} heroText={Astro.props.instructions}/>
+    <RegexWarrior client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>

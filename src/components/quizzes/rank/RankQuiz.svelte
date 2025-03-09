@@ -2,11 +2,16 @@
     import StartPage from "./StartPage.svelte";
     import GamePage from "./GamePage.svelte";
     import seededRandom from "../../common/seededRandom";
+    import DailyChoice from "../DailyChoice.svelte";
+    import Swal from "sweetalert2";
 
     export let title: string;
     export let key: string;
     export let instructions: string;
     export let data: {[field: string]: number};
+    export let isDaily = false;
+
+    let date;
 
     let isStart = false;
     let possible_N = [4, 5, 6, 8, 10, 12, 16];
@@ -46,14 +51,56 @@
 
     function handleStart() {
         // options is chosen randomly without replacement from the keys of the data
+        if (isDaily) {
+            randomiser = seededRandom(randomiserSeed);
+            randomiser();
+            const randomFieldIndex = Math.floor(randomiser() * possible_fields.length);
+            field = possible_fields[randomFieldIndex];
+            console.log(field)
+        }
         options = Object.keys(data).sort(() => randomiser() - 0.5).slice(0, N);
         isStart = true;
     }
+
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+        }
+    });
+
+    const copySeed = () => {
+        navigator.clipboard.writeText(seed);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Seed',
+        });
+    }
 </script>
 
-{#if isStart}
-    <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {N} {encodeSeed} {field} {options} {title} {instructions} {data} {key} {name}/>
-{:else}
-    <StartPage bind:N={N} {handleStart} {title} {instructions} bind:seed={seed} {randomiseSeed} {decodeSeed} bind:field={field} {possible_fields} bind:name={name} {key}/>
-{/if}
+<div class="my-8 mx-auto max-w-3xl">
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{isStart ? (field == '0' ? "LONGITUDE" : field == '1' ? "LATITUDE" : field.toUpperCase()) : title.toUpperCase()}</h1>
+    <p class="my-4">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
 
+        Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀 
+        {#if !date}
+            <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
+        {:else}
+            Daily Challenge for {date}.
+        {/if}
+    </p>
+    {#if isStart}
+        <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {N} {encodeSeed} {field} {options} {title} {instructions} {data} {key} {name} {date}/>
+    {:else}
+        {#if isDaily}
+            <DailyChoice bind:randomiserSeed={randomiserSeed} {handleStart} bind:randomiser={randomiser} name={`RANK MASTER: ${title}`} bind:date={date}/>
+        {:else}
+            <StartPage bind:N={N} {handleStart} {title} {instructions} bind:seed={seed} {randomiseSeed} {decodeSeed} bind:field={field} {possible_fields} bind:name={name} {key}/>
+        {/if}
+    {/if}
+</div>

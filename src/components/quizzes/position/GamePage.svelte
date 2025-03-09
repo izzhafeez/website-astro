@@ -2,6 +2,7 @@
   import party from 'party-js';
   import { Canvas, Layer } from 'svelte-canvas';
   import seededRandom from '../../common/seededRandom';
+  import { fly, fade } from 'svelte/transition';
 
   export let locations: string[];
   export let positions: { lat: number, lng: number }[];
@@ -69,7 +70,7 @@
   }
 </script>
 
-<div>
+<div in:fade={{}}>
   <div class="grid">
     <div class="mx-auto border-2 border-gray-500/50">
       <Canvas width=300 height=300>

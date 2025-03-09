@@ -17,6 +17,7 @@
     export let names: string[];
     export let name: string;
     export let key: string;
+    export let date: string;
     
     let score = 0;
     let roundScore = 0;
@@ -155,10 +156,16 @@
     }
 </script>
 
-<div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" in:fly={{ y: 200 }} out:fade>
-    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">Round {round}/{maxRounds}</h1>
+<div class="my-8 mx-auto max-w-3xl" in:fade={{}}>
+    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">ROUND {round}/{maxRounds}</h1>
 
-    <p class="my-4 max-w-3xl">You will be given 10 blurred texts. Try your best to figure out what they say and type your guess below. After submitting, you will be scored based on your accuracy. <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends! Good luck!</p>
+    <p class="my-4 max-w-3xl">You will be given 10 blurred texts. Try your best to figure out what they say and type your guess below. After submitting, you will be scored based on your accuracy.
+        {#if !date}
+            <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends! Good luck!
+        {:else}
+            Daily Challenge for {date}.
+        {/if}
+    </p>
 
     <span class={`dark:text-white p-2 my-4 blur-${isWaiting ? "none" : blurValue.toLowerCase()} text-[${fontSize}px] rounded-md select-none`} id="to-guess">{toGuess}</span>
 

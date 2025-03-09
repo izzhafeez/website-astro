@@ -16,6 +16,7 @@
     export let possible_max_length;
     export let possible_mixFactor;
     export let possible_scrambleFactor;
+    export let key: string;
   
     function handleStart() {
       // check valid seed
@@ -52,13 +53,10 @@
       }
 
       handleNext();
-      isStart = true;
     }
   </script>
   
-  <div class="top-0 h-screen w-screen grid content-center justify-center p-8 -z-10" transition:fly={{ y: 200, duration: 500 }}>
-    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-    <p class="my-4 max-w-3xl">{instructions}</p>
+  <div class="" in:fade={{}}>
     <label for="N" class="">Number of Names: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}
@@ -90,5 +88,8 @@
       <input type="text" id="seed" bind:value={seed} on:keyup={changeSeed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2" />
       <button on:click={randomiseSeed} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Randomise</button>
     </div>
-    <button on:click={handleStart} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2 me-auto'>Start</button>
+    <div class="flex py-2 gap-2">
+      <a href={`/quizzes/jumble/${key}/daily-challenge`} class="bg-cc-300/20 py-1 px-2 rounded-md text-cc-500 dark:text-cc-300 hover:bg-cc-300/50">Daily Challenge</a>
+      <button on:click={handleStart} class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50">Start</button>
+    </div>
   </div>

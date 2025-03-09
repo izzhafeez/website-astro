@@ -1,0 +1,402 @@
+---
+import PositionPuzzle from "../../../../components/quizzes/position/PositionPuzzle.svelte";
+import mrtData from "../../../../data/quizzes/map/mrt.json";
+import mallsData from "../../../../data/quizzes/map/malls.json";
+import schoolsData from "../../../../data/quizzes/map/schools.json";
+import busStopData from "../../../../data/quizzes/map/bus-stops.json";
+import londonUndergroundData from "../../../../data/quizzes/map/london-underground.json";
+import tokyoMetroData from "../../../../data/quizzes/map/tokyo-metro.json";
+import citiesData from "../../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../../data/quizzes/map/cities-europe.json";
+import citiesNorthAmericaData from "../../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../../data/quizzes/map/cities-south-america.json";
+import citiesAfricaData from "../../../../data/quizzes/map/cities-africa.json";
+import citiesOceaniaData from "../../../../data/quizzes/map/cities-oceania.json";
+import monumentsData from "../../../../data/quizzes/map/monuments.json";
+import librariesData from "../../../../data/quizzes/map/libraries.json";
+import parksData from "../../../../data/quizzes/map/parks.json";
+import parkConnectorsData from "../../../../data/quizzes/map/park-connectors.json";
+import hotelsData from "../../../../data/quizzes/map/hotels.json";
+import ccData from "../../../../data/quizzes/map/cc.json";
+import touristAttractionsData from "../../../../data/quizzes/map/tourist-attractions.json";
+import capitalCitiesData from "../../../../data/quizzes/map/capital-cities.json";
+import capitalCitiesAsiaData from "../../../../data/quizzes/map/capital-cities-asia.json";
+import capitalCitiesEuropeData from "../../../../data/quizzes/map/capital-cities-europe.json";
+import buildingsData from "../../../../data/games/stat-attack/buildings.json";
+import airportsData from "../../../../data/games/stat-attack/airports.json";
+import placesInSingaporeData from "../../../../data/games/stat-attack/places-in-singapore.json";
+import NavBar from "../../../../components/common/NavBar.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import Seo from "../../../../components/seo/Seo.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import Footer from "../../../../components/common/Footer.astro";
+
+export async function getStaticPaths() {
+  const instructionFormat = (name: string) => `You will be presented with a few random points on a map, each representing a distinct ${name}. The goal is to correctly identify and match each point to its real-world counterpart. All the best, and if you don't like the points, feel free to refresh the seed, yeah?`;
+  return [
+    {
+      params: { quiz: 'mrt' },
+      props: {
+        title: 'MRT Stations of Singapore',
+        data: mrtData,
+        instructions: instructionFormat('MRT/LRT station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'malls' },
+      props: {
+        title: 'Malls of Singapore',
+        data: mallsData,
+        instructions: instructionFormat('mall'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'schools' },
+      props: {
+        title: "Schools of Singapore",
+        data: schoolsData,
+        instructions: instructionFormat('school'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'bus-stops' },
+      props: {
+        title: "Bus Stops of Singapore",
+        data: busStopData,
+        instructions: instructionFormat('bus stop'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'london-underground' },
+      props: {
+        title: "London Underground Stations",
+        data: londonUndergroundData,
+        instructions: instructionFormat('tube station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'tokyo-metro' },
+      props: {
+        title: "Tokyo Metro Stations",
+        data: tokyoMetroData,
+        instructions: instructionFormat('metro station'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'monuments' },
+      props: {
+        title: 'Monuments of Singapore',
+        data: monumentsData,
+        instructions: instructionFormat('monument'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'libraries' },
+      props: {
+        title: 'Libraries of Singapore',
+        data: librariesData,
+        instructions: instructionFormat('library'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'parks' },
+      props: {
+        title: 'Parks of Singapore',
+        data: parksData,
+        instructions: instructionFormat('park'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'park-connectors' },
+      props: {
+        title: 'Park Connectors of Singapore',
+        data: parkConnectorsData,
+        instructions: instructionFormat('park connector'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'hotels' },
+      props: {
+        title: 'Hotels of Singapore',
+        data: hotelsData,
+        instructions: instructionFormat('hotel'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cc' },
+      props: {
+        title: 'Community Centres of Singapore',
+        data: ccData,
+        instructions: instructionFormat('community centre'),
+      }
+    },
+    {
+      params: { quiz: 'tourist-attractions' },
+      props: {
+        title: 'Tourist Attractions of Singapore',
+        data: touristAttractionsData,
+        instructions: instructionFormat('tourist attraction'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities' },
+      props: {
+        title: 'Capital Cities of the World',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities-asia' },
+      props: {
+        title: 'Capital Cities of Asia',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesAsiaData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('Asian capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'capital-cities-europe' },
+      props: {
+        title: 'Capital Cities of Europe',
+        data: (() => {
+          const newData = {};
+          Object.entries(capitalCitiesEuropeData).forEach(([key, value]) => {
+            (newData as any)[key] = [value[1], value[0]];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('European capital city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'buildings' },
+      props: {
+        title: 'Random Buildings in the World',
+        data: (() => {
+          const newData = {};
+          buildingsData.forEach((building) => {
+            if (Math.floor(building.Latitude) == 1 || Math.floor(building.Longitude) == 103 || Math.floor(building.Longitude) == 104) return;
+            (newData as any)[building.name] = [building.Longitude, building.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('random building'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'airports' },
+      props: {
+        title: 'Airports of the World',
+        data: (() => {
+          const newData = {};
+          airportsData.forEach((airport) => {
+            (newData as any)[airport.name] = [airport.Longitude, airport.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('airport'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'places-in-singapore' },
+      props: {
+        title: 'Places in Singapore',
+        data: (() => {
+          const newData = {};
+          placesInSingaporeData.forEach((place) => {
+            (newData as any)[place.name] = [place.Longitude, place.Latitude];
+          });
+          return newData;
+        })(),
+        instructions: instructionFormat('place in Singapore'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities' },
+      props: {
+        title: 'Cities of the World (1M)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesData)) {
+            const accepted = ["10M", "5M", "2M", "1M"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-asia' },
+      props: {
+        title: 'Cities of Asia (500K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesAsiaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('Asian city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-europe' },
+      props: {
+        title: 'Cities of Europe (100K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesEuropeData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('European city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-north-america' },
+      props: {
+        title: 'Cities of North America (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesNorthAmericaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('North American city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-south-america' },
+      props: {
+        title: 'Cities of South America (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesSouthAmericaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('South American city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-africa' },
+      props: {
+        title: 'Cities of Africa (200K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesAfricaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('African city'),
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'cities-oceania' },
+      props: {
+        title: 'Cities of Oceania (50K)',
+        data: (() => {
+          const newData = {};
+          for (const [key, value] of Object.entries(citiesOceaniaData)) {
+            const accepted = ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K", "75K", "50K"];
+            if (accepted.some((a) => key.includes(a))) {
+              (newData as any)[key] = value;
+            }
+          }
+          return newData;
+        })(),
+        instructions: instructionFormat('Oceanian city'),
+        defaultRegex: ''
+      }
+    },
+  ]
+}
+
+export const prerender = true;
+const { data } = Astro.props;
+// we want to get rid of the []
+const dataAsList = Object.entries(data).filter(([k, v]) => !k.includes("1K") && !k.includes("10K") && !(Astro.params.quiz == "cities" && k.includes("100K"))).map(([key, value]) => ({
+  name: key.replace(/\[.*\]/gi, "").trim(),
+  lat: value[1],
+  lng: value[0],
+}));
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
+const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default);
+---
+<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Position Puzzle)`} path={`quizzes/position/${Astro.params.quiz}`}/>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+<Layout>
+  <div slot="main" class="">
+    <NavBar/>
+    <PageFind pageName={`${Astro.props.title} (Position Puzzle)`} heroText={Astro.props.instructions}/>
+    <PositionPuzzle client:only="svelte" key={Astro.params.quiz} data={dataAsList} title={Astro.props.title} instructions={Astro.props.instructions} isDaily={true}/>
+    <Footer site="quizzes"/>
+  </div>
+</Layout>
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
+<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>

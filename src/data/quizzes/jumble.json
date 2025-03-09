@@ -6,7 +6,7 @@
     },
     "geography": {
         "title": "Everything (Geography)",
-        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of countries, states, and MRT.",
+        "instructions": "Unmix and unscramble letters to form the right words! This quiz contains a mix of countries and states.",
         "tags": ["Geography"]
     },
     "chinese": {

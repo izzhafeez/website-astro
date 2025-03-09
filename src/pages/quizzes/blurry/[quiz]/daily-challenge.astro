@@ -1,31 +1,31 @@
 ---
-import Seo from "../../../components/seo/Seo.astro";
-import Layout from "../../../layouts/Layout.astro";
-import NavBar from "../../../components/common/NavBar.astro";
-import PageFind from "../../../components/common/PageFind.astro";
-import BlurryQuiz from "../../../components/quizzes/blurry/BlurryQuiz.svelte";
-import mrtData from "../../../data/quizzes/jumble/mrt.json";
-import countriesData from "../../../data/quizzes/jumble/countries.json";
-import fruitVegData from "../../../data/quizzes/jumble/fruit-veg.json";
-import spotifyData from "../../../data/quizzes/jumble/spotify.json";
-import billboard2010Data from "../../../data/quizzes/jumble/billboard-2010.json";
-import billboard2011Data from "../../../data/quizzes/jumble/billboard-2011.json";
-import billboard2012Data from "../../../data/quizzes/jumble/billboard-2012.json";
-import billboard2013Data from "../../../data/quizzes/jumble/billboard-2013.json";
-import billboard2014Data from "../../../data/quizzes/jumble/billboard-2014.json";
-import awsData from "../../../data/quizzes/jumble/aws.json";
-import elementsData from "../../../data/quizzes/jumble/elements.json";
-import ikeaData from "../../../data/quizzes/jumble/ikea.json";
-import mrtChineseData from "../../../data/quizzes/jumble/mrt-chinese.json";
-import openingsData from "../../../data/quizzes/jumble/openings.json";
-import statesData from "../../../data/quizzes/jumble/states.json";
-import dinosaursData from "../../../data/quizzes/jumble/dinosaurs.json";
-import pokemonData from "../../../data/quizzes/jumble/pokemon.json";
-import chengyuData from "../../../data/quizzes/jumble/chengyu.json";
-import deckOfCardsData from "../../../data/quizzes/jumble/deck-of-cards.json";
-import spellsData from "../../../data/quizzes/jumble/spells.json";
-import animeData from "../../../data/quizzes/jumble/anime.json";
-import drinksData from "../../../data/quizzes/jumble/drinks.json";
+import Seo from "../../../../components/seo/Seo.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import NavBar from "../../../../components/common/NavBar.astro";
+import PageFind from "../../../../components/common/PageFind.astro";
+import BlurryQuiz from "../../../../components/quizzes/blurry/BlurryQuiz.svelte";
+import mrtData from "../../../../data/quizzes/jumble/mrt.json";
+import countriesData from "../../../../data/quizzes/jumble/countries.json";
+import fruitVegData from "../../../../data/quizzes/jumble/fruit-veg.json";
+import spotifyData from "../../../../data/quizzes/jumble/spotify.json";
+import billboard2010Data from "../../../../data/quizzes/jumble/billboard-2010.json";
+import billboard2011Data from "../../../../data/quizzes/jumble/billboard-2011.json";
+import billboard2012Data from "../../../../data/quizzes/jumble/billboard-2012.json";
+import billboard2013Data from "../../../../data/quizzes/jumble/billboard-2013.json";
+import billboard2014Data from "../../../../data/quizzes/jumble/billboard-2014.json";
+import awsData from "../../../../data/quizzes/jumble/aws.json";
+import elementsData from "../../../../data/quizzes/jumble/elements.json";
+import ikeaData from "../../../../data/quizzes/jumble/ikea.json";
+import mrtChineseData from "../../../../data/quizzes/jumble/mrt-chinese.json";
+import openingsData from "../../../../data/quizzes/jumble/openings.json";
+import statesData from "../../../../data/quizzes/jumble/states.json";
+import dinosaursData from "../../../../data/quizzes/jumble/dinosaurs.json";
+import pokemonData from "../../../../data/quizzes/jumble/pokemon.json";
+import chengyuData from "../../../../data/quizzes/jumble/chengyu.json";
+import deckOfCardsData from "../../../../data/quizzes/jumble/deck-of-cards.json";
+import spellsData from "../../../../data/quizzes/jumble/spells.json";
+import animeData from "../../../../data/quizzes/jumble/anime.json";
+import drinksData from "../../../../data/quizzes/jumble/drinks.json";
 
 export const getStaticPaths = (() => {
     const instructions = "How good is your eyesight? Can you identify the blurred texts?";
@@ -386,7 +386,7 @@ const seoImg = await images[`/src/img/quizzes/jumble/${Astro.params.quiz}.jpg`](
   <div slot="main">
     <NavBar/>
     <PageFind pageName={`${Astro.props.title} (Blurry Battle)`} heroText={Astro.props.instructions}/>
-    <BlurryQuiz client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions} key={Astro.params.quiz}/>
+    <BlurryQuiz client:load names={Astro.props.data} title={Astro.props.title} instructions={Astro.props.instructions} key={Astro.params.quiz} isDaily={true}/>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet">
     <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </div>
