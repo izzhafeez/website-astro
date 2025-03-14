@@ -401,7 +401,7 @@ const dataAsList = Object.entries(data).filter(([k, v]) => !k.includes("1K") && 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Position Puzzle)`} path={`quizzes/position/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} pageName={`${Astro.props.title} (Position Puzzle)`} path={`quizzes/position/${Astro.params.quiz}`}/>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="

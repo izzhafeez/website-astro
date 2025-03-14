@@ -178,7 +178,7 @@ export const prerender = true;
 const { data, title } = Astro.props;
 const instructions = `Ever played Higher or Lower? Here is my version of it! Pick a field, which will be the basis of comparison, and difficulty, where lower difficulties will have frequent repeats. You will be shown two options, and you have to guess which one is higher or lower. The game will continue until you get one wrong. Good luck!`;
 ---
-<Seo heroText={instructions} {seoImg} pageName={`${title} (Rank Master)`} path={`quizzes/rank/${Astro.params.quiz}`}/>
+<Seo heroText={instructions} pageName={`${title} (Rank Master)`} path={`quizzes/rank/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">
