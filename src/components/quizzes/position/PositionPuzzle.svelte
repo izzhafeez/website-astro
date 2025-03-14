@@ -1,7 +1,7 @@
 <script>
   import GamePage from './GamePage.svelte';
   import StartPage from './StartPage.svelte';
-  import seededRandom from '../../common/seededRandom';
+  import seededRandom, {shuffle} from '../../common/seededRandom';
   import Swal from 'sweetalert2';
   import DailyChoice from '../DailyChoice.svelte';
 
@@ -41,7 +41,7 @@
   function handleNext() {
     randomiser = seededRandom(randomiserSeed);
     // select N random locations from the data
-    const chosen = [...data].sort((a,b) => randomiser() - 0.5).slice(0, N);
+    const chosen = shuffle([...data], randomiser).slice(0, N);
     locations = chosen.map((d) => d.name);
     positions = chosen.map((d) => [d.lat, d.lng]);
     if (isRotate) {

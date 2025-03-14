@@ -1,7 +1,7 @@
 <script lang="ts">
   import party from 'party-js';
   import { Canvas, Layer } from 'svelte-canvas';
-  import seededRandom from '../../common/seededRandom';
+  import seededRandom, {shuffle} from '../../common/seededRandom';
   import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
 
@@ -119,7 +119,7 @@
   {/if}
   </div>
   <div class="grid grid-cols-2 gap-2 my-2">
-    {#each locations.sort((a, b) => randomiser()-0.5) as location, i (location)}
+    {#each shuffle(locations, randomiser) as location, i (location)}
       <button class={`border-2 p-2 grid border-${isEnd ? "["+colors[correctAnswers[location]]+"]" : "gray-500/50"}`} on:click={() => {handleClick(location)}}>
         <div class="flex mx-auto">
           {showHint ? location : location.split(" (")[0]}
