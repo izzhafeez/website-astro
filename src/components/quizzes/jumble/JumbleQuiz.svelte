@@ -24,8 +24,8 @@
     let MAX_LENGTH = 10;
     let isStart = false;
     let chosen: string[] = [];
-    let mixFactor = 4;
-    let scrambleFactor = 4;
+    let mixFactor = 3;
+    let scrambleFactor = 3;
 
     let randomiserSeed: number = Math.floor(Math.random() * 1000000);
     let randomiser = seededRandom(randomiserSeed);

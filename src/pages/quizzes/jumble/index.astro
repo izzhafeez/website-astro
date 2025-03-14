@@ -26,7 +26,7 @@ const quizzes = Object.entries(jumbleData as QuizJson).map(([key, value]) => {
     imgPath: key === "all" ? `/img/heroes/JUMBLE.jpg` : `/img/quizzes/jumble/${key}.jpg`,
     tags: value.tags || []
   }
-}).sort((a,b) => -a.rank + b.rank);
+}).sort((a,b) => a.title.localeCompare(b.title));
 
 const heroText = quizzesData.jumble.heroText;
 const title = quizzesData.jumble.title;
