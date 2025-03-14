@@ -31,7 +31,7 @@ const quizzes = Object.entries(jumbleData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.jumble.heroText;
 const title = quizzesData.jumble.title;
 ---
-<Seo {heroText} {seoImg} pageName={"Jumble Quizzes"} path={`quizzes/jumble`}/>
+<Seo {heroText} pageName={"Jumble Quizzes"} path={`quizzes/jumble`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

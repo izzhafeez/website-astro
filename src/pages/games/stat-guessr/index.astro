@@ -30,7 +30,7 @@ const decks = Object.entries(statAttackData as DeckJson).map(([key, value]) => {
 
 const heroText = gamesData["stat-guessr"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Stat Guessr"} path="games/stat-guessr"/>
+<Seo {heroText} pageName={"Stat Guessr"} path="games/stat-guessr"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

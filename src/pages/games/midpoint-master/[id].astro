@@ -10,7 +10,7 @@ const { id } = Astro.params;
 const heroText = gamesData["midpoint-master"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={'Midpoint Master'} path={`games/midpoint-master/${id}`}/>
+<Seo {heroText} pageName={'Midpoint Master'} path={`games/midpoint-master/${id}`}/>
 
 <Layout>
   <div slot="main">

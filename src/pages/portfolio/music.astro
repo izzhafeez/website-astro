@@ -29,7 +29,7 @@ const music = Object.entries(musicData as MusicJson).map(([key, value]) => {
 
 const heroText = portfolioData.music.heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Music"} path="portfolio/music"/>
+<Seo {heroText} pageName={"Music"} path="portfolio/music"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

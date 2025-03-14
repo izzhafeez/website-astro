@@ -311,7 +311,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg')
 const seoImg = await images[`/src/img/games/stat-attack/${deckName}.jpg`]().then(img => img.default);
 ---
 
-<Seo {heroText} {seoImg} pageName={deck.title} path={`games/data-hedger/${deckName}/${id}`}/>
+<Seo {heroText} pageName={deck.title} path={`games/data-hedger/${deckName}/${id}`}/>
 
 <Layout>
   <div slot="main">

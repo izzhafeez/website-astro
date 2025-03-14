@@ -31,7 +31,7 @@ const quizzes = Object.entries(regexData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.regex.heroText;
 const title = quizzesData.regex.title;
 ---
-<Seo {heroText} {seoImg} pageName={"Regex Warrior"} path={`quizzes/regex`}/>
+<Seo {heroText} pageName={"Regex Warrior"} path={`quizzes/regex`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

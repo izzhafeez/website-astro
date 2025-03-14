@@ -26,7 +26,7 @@ const country = Astro.params.country;
 const heroText = gamesData["city-hedger"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={"City Hedger"} path={`games/city-hedger`}/>
+<Seo {heroText} pageName={"City Hedger"} path={`games/city-hedger`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

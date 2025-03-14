@@ -26,7 +26,7 @@ const { data } = Astro.props;
 const { key } = Astro.params;
 ---
 
-<Seo heroText={data.review} {seoImg} pageName={`${key} Review`} path={`blog/mod-reviews/${key}`}/>
+<Seo heroText={data.review} pageName={`${key} Review`} path={`blog/mod-reviews/${key}`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

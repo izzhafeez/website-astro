@@ -29,7 +29,7 @@ const artworks = Object.entries(artData as ArtJson).map(([key, value]) => {
 
 const heroText = portfolioData.art.heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Artwork"} path="portfolio/art"/>
+<Seo {heroText} pageName={"Artwork"} path="portfolio/art"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

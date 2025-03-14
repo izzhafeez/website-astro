@@ -37,7 +37,7 @@ const projects = Object.entries(projectsData as ProjectJson).map(([key, value]) 
 
 const heroText = portfolioData.projects.heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Projects"} path="portfolio/projects"/>
+<Seo {heroText} pageName={"Projects"} path="portfolio/projects"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

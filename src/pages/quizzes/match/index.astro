@@ -31,7 +31,7 @@ const quizzes = Object.entries(matchData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.match.heroText;
 const title = quizzesData.match.title;
 ---
-<Seo {heroText} {seoImg} pageName={"Match Quizzes"} path={`quizzes/match`}/>
+<Seo {heroText} pageName={"Match Quizzes"} path={`quizzes/match`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

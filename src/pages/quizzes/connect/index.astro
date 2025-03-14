@@ -31,7 +31,7 @@ const quizzes = Object.entries(connectData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.connect.heroText;
 const title = quizzesData.connect.title;
 ---
-<Seo {heroText} {seoImg} pageName={"Connect Quizzes"} path={`quizzes/connect`}/>
+<Seo {heroText} pageName={"Connect Quizzes"} path={`quizzes/connect`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

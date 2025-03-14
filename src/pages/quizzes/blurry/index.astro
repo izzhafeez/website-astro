@@ -31,7 +31,7 @@ const quizzes = Object.entries(regexData as QuizJson).map(([key, value]) => {
 const heroText = quizzesData.blurry.heroText;
 const title = quizzesData.blurry.title;
 ---
-<Seo {heroText} {seoImg} pageName={"BlurryGuessr"} path={`quizzes/blurry`}/>
+<Seo {heroText} pageName={"BlurryGuessr"} path={`quizzes/blurry`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

@@ -12,7 +12,7 @@ const { id } = Astro.params;
 const heroText = gamesData["truth-or-dare"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={'Truth or Dare'} path={`games/truth-or-dare/${id}`}/>
+<Seo {heroText} pageName={'Truth or Dare'} path={`games/truth-or-dare/${id}`}/>
 
 <link
   rel="stylesheet"

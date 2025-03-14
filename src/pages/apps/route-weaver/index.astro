@@ -10,7 +10,7 @@ import PageFind from "../../../components/common/PageFind.astro";
 export const prerender = true;
 const heroText = appsData["route-weaver"].heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Route Weaver"} path="apps/route-weaver"/>
+<Seo {heroText} pageName={"Route Weaver"} path="apps/route-weaver"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

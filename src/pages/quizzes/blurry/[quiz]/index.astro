@@ -380,7 +380,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg')
 const seoImg = await images[`/src/img/quizzes/jumble/${Astro.params.quiz}.jpg`]().then(img => img.default);
 ---
 
-<Seo heroText={Astro.props.instructions} {seoImg} pageName={`${Astro.props.title} (Blurry Battle)`} path={`quizzes/regex/${Astro.params.quiz}`}/>
+<Seo heroText={Astro.props.instructions} pageName={`${Astro.props.title} (Blurry Battle)`} path={`quizzes/regex/${Astro.params.quiz}`}/>
 
 <Layout>
   <div slot="main">

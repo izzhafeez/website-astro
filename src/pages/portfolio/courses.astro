@@ -61,7 +61,7 @@ const courses = Object.entries(courseData as CourseJson).map(([key, value]) => {
 
 const heroText = portfolioData.courses.heroText;
 ---
-<Seo {heroText} {seoImg} pageName={"Courses"} path="portfolio/courses"/>
+<Seo {heroText} pageName={"Courses"} path="portfolio/courses"/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col">

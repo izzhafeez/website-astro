@@ -10,7 +10,7 @@ const { id } = Astro.params;
 const heroText = gamesData["frequency-guessr"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={'Frequency Guessr'} path={`games/frequency-guessr/${id}`}/>
+<Seo {heroText} pageName={'Frequency Guessr'} path={`games/frequency-guessr/${id}`}/>
 
 <Layout>
   <div slot="main">

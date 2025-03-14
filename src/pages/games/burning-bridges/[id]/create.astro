@@ -11,7 +11,7 @@ const { id } = Astro.params;
 const heroText = gamesData["burning-bridges"].heroText;
 ---
 
-<Seo {heroText} {seoImg} pageName={'Burning Bridges'} path={`games/burning-bridges/${id}/create`}/>
+<Seo {heroText} pageName={'Burning Bridges'} path={`games/burning-bridges/${id}/create`}/>
 
 <Layout>
   <div slot="main" class="min-h-screen h-auto flex flex-col bg-ns-700">
