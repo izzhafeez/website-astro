@@ -13,7 +13,7 @@
 
   let date;
 
-  let N = 6;
+  let N = 8;
   let possible_N = [3, 4, 6, 8, 10, 12];
   let isRotate = true;
   let locations = [];
