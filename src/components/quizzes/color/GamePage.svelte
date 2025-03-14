@@ -151,8 +151,16 @@
     Swal.fire({
       title: `Your Score: ${totalScore}`,
       html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-      color: "#FFF"
+      color: "#FFF",
+      showDenyButton: !!date,
+      denyButtonText: "Share Results",
+      denyButtonColor: "#BB0",
+    }).then((result) => {
+      if (result.isDenied) {
+        copyResults();
+      }
     });
+
     isStart = false;
     decodeSeed();
     const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
@@ -160,16 +168,11 @@
   }
 
   const toast = Swal.mixin({
-      toast: true,
-      position: "top-end",
-      showConfirmButton: false,
-      timer: 1000,
-      timerProgressBar: true,
-      didOpen: (toast) => {
-          toast.onmouseenter = Swal.stopTimer;
-          toast.onmouseleave = Swal.resumeTimer;
-      }
-  });
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
 
   const copySeed = () => {
       navigator.clipboard.writeText(randomiserSeed);
@@ -214,15 +217,24 @@
       }
     }
   }
+
+  const copyResults = () => {
+      let text = `BlurryGuessr Daily Challenge on ${date}:\nI scored ${totalScore}/500 points! Can you beat me?\nizzhafeez.com/quizzes/color/daily-challenge`;
+      navigator.clipboard.writeText(text);
+      toast.fire({
+          icon: 'success',
+          text: 'Copied Results',
+      });
+  }
 </script>
 
 <div class="my-8" in:fade={{}}>
   <div class="max-w-3xl mx-auto">
     <h2 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">ROUND {roundNumber}/5</h2>
     <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode.
-      {#if !date}
+      {#if !date && !isStart}
         <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-      {:else}
+      {:else if date}
         Daily Challenge for {date}.
       {/if}
     </p>

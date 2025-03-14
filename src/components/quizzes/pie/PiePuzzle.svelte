@@ -70,16 +70,11 @@
   }
 
   const toast = Swal.mixin({
-      toast: true,
-      position: "top-end",
-      showConfirmButton: false,
-      timer: 1000,
-      timerProgressBar: true,
-      didOpen: (toast) => {
-          toast.onmouseenter = Swal.stopTimer;
-          toast.onmouseleave = Swal.resumeTimer;
-      }
-  });
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
 </script>
 
 <div class="max-w-3xl mx-auto p-2 my-8 md:my-20">

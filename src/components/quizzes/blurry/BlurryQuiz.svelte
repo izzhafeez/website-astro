@@ -18,7 +18,7 @@
     let possible_blurValues = ["XS", "SM", "MD", "LG", "XL", "2XL", "3XL"];
     let possible_fontSizes = [20, 30, 40, 60, 80, 120, 160];
     let blurValue = "MD";
-    let fontSize = 40;
+    let fontSize = 60;
     let randomiserSeed = Math.round(Math.random() * 1000000);
     let randomiser = seededRandom(randomiserSeed);
     let seed = encodeSeed(randomiserSeed);

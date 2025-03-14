@@ -112,12 +112,38 @@
             Swal.fire({
                 title: `Your Score: ${Math.round(score)}/100`,
                 html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-                color: "#FFF"
-            })
+                color: "#FFF",
+                showDenyButton: !!date,
+                denyButtonText: "Share Results",
+                denyButtonColor: "#BB0",
+            }).then((result) => {
+                if (result.isDenied) {
+                    copyResults();
+                }
+            });
+
             const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
             await fetch(`${url}?siteUrl=__quizzes__rank__${key}&name=${name}&score=${score}&params=${seed}`);
 
             if (date) localStorage.setItem(`rank-${key}-${date}`, score.toString());
+    }
+
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
+
+    const copyResults = () => {
+        let text = `Rank Master Daily Challenge on ${date}\n`;
+        text += `I scored ${Math.round(score)}/100 points! Can you beat me?\n`;
+        text += `izzhafeez.com/quizzes/rank/${key}/daily-challenge`;
+        navigator.clipboard.writeText(text);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Results',
+        });
     }
 </script>
 
@@ -126,7 +152,7 @@
         <!-- current one to rank -->
         {#if isPlaying}
             <div class="my-6">
-                <h2 class="text-center font-bold">Next: {options[currentOptionId]}</h2>
+                <h2 class="text-center font-bold">Next: {options[currentOptionId].split(" [")[0]}</h2>
             </div>
         {:else}
             <div class="my-6 grid">
@@ -148,7 +174,7 @@
                     class="rounded-lg py-2 px-4 text-center border-2"
                     on:click={() => handlePlace(i)}
                     disabled={!!guesses[i]}
-                >{!!guesses[i] ? `${guesses[i].name} (${guesses[i].value})` : `Rank ${i+1}`}</button>
+                >{!!guesses[i] ? `${guesses[i].name.split(" [")[0]} (${guesses[i].value})` : `Rank ${i+1}`}</button>
             {/each}
             Lowest
         </div>

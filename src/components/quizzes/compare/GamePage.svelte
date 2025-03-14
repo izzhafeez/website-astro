@@ -52,16 +52,11 @@
   })
 
   const toast = Swal.mixin({
-      toast: true,
-      position: "top-end",
-      showConfirmButton: false,
-      timer: 1000,
-      timerProgressBar: true,
-      didOpen: (toast) => {
-          toast.onmouseenter = Swal.stopTimer;
-          toast.onmouseleave = Swal.resumeTimer;
-      }
-  });
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
 
   const copySeed = () => {
       navigator.clipboard.writeText(seed);

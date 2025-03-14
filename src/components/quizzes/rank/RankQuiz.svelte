@@ -15,7 +15,7 @@
 
     let isStart = false;
     let possible_N = [4, 5, 6, 8, 10, 12, 16];
-    let N = 5;
+    let N = 8;
 
     // we get fields from the first data object
     let possible_fields = Object.keys(data[Object.keys(data)[0]]);
@@ -67,11 +67,6 @@
         position: "top-end",
         showConfirmButton: false,
         timer: 1000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        }
     });
 
     const copySeed = () => {
@@ -85,12 +80,12 @@
 
 <div class="my-8 mx-auto max-w-3xl">
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{isStart ? (field == '0' ? "LONGITUDE" : field == '1' ? "LATITUDE" : field.toUpperCase()) : title.toUpperCase()}</h1>
-    <p class="my-4">In this game, you'll rank 5 items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
+    <p class="my-4">In this game, you'll rank {N} items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in!
 
         Without knowing the future items, you’ll need to predict, strategize, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master? 🚀 
-        {#if !date}
+        {#if !isDaily}
             <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-        {:else}
+        {:else if date}
             Daily Challenge for {date}.
         {/if}
     </p>

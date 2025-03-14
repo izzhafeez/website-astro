@@ -3,6 +3,7 @@
   import { Canvas, Layer } from 'svelte-canvas';
   import seededRandom from '../../common/seededRandom';
   import { fly, fade } from 'svelte/transition';
+  import Swal from 'sweetalert2';
 
   export let locations: string[];
   export let positions: { lat: number, lng: number }[];
@@ -19,6 +20,7 @@
   for (let i = 0; i < N; i++) {
     correctAnswers[locations[i]] = i;
   }
+  let showHint = false;
 
   let colors = ['#00BB45', '#D42E12', '#FA9E0D', "#005EC4", "#9D5B25", '#9900AA', "#005500", "#FF88FF", "#10C8FA", "#C9C9C9", "#748477", "#B9E935"]
   let assignments = {};
@@ -71,6 +73,25 @@
     isStart = false;
     assignments = {};
   }
+
+  const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
+
+  const copyResults = () => {
+    let text = `Position Puzzle Daily Challenge on ${date}\n`;
+    text += `I scored ${score}/${N} points! Can you beat me?\n`;
+    text += `izzhafeez.com/quizzes/position/${key}/daily-challenge\n`;
+    navigator.clipboard.writeText(text);
+
+    toast.fire({
+      icon: 'success',
+      title: 'Copied to clipboard'
+    });
+  }
 </script>
 
 <div in:fade={{}}>
@@ -99,7 +120,7 @@
     {#each locations.sort((a, b) => randomiser()-0.5) as location, i (location)}
       <button class={`border-2 p-2 grid border-${isEnd ? "["+colors[correctAnswers[location]]+"]" : "gray-500/50"}`} on:click={() => {handleClick(location)}}>
         <div class="flex mx-auto">
-          {location}
+          {showHint ? location : location.split(" (")[0]}
           {#if assignments[location] != undefined}
             &nbsp;
             <span class={`bg-[${colors[assignments[location]]}] w-4 h-4 my-auto`}></span>
@@ -111,15 +132,25 @@
   <!-- submit -->
   <div class="grid">
     {#if !isEnd}
-    <button class="text-white rounded-lg py-2 px-4 my-2 mx-auto"
-      on:click={handleSubmit}
-      disabled={Object.keys(assignments).length < N}
-      class:bg-gray-500={Object.keys(assignments).length < N}
-      class:bg-ew-500={Object.keys(assignments).length == N}
-      class:hover:bg-ew-300={Object.keys(assignments).length == N}>Submit</button>
+    <div class="flex mx-auto gap-2">
+      <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
+        on:click={() => {showHint = !showHint}}>{showHint ? "Hide" : "Show"} Hint</button>
+      <button class="text-white rounded-lg px-2 py-1 mx-auto"
+        on:click={handleSubmit}
+        disabled={Object.keys(assignments).length < N}
+        class:bg-gray-500={Object.keys(assignments).length < N}
+        class:bg-ew-500={Object.keys(assignments).length == N}
+        class:hover:bg-ew-300={Object.keys(assignments).length == N}>Submit</button>
+    </div>
     {:else}
-    <button class="text-white bg-ew-500 hover:bg-ew-300 rounded-lg py-2 px-4 my-2 mx-auto"
-      on:click={handleEnd}>Restart</button>
+    <div class="flex mx-auto gap-2">
+      {#if date}
+      <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
+        on:click={copyResults}>Copy Results</button>
+      {/if}
+      <button class="text-white bg-ew-500 hover:bg-ew-300 rounded-lg py-1 px-2 my-auto mx-auto"
+        on:click={handleEnd}>Restart</button>
+    </div>
     {/if}
   </div>
 

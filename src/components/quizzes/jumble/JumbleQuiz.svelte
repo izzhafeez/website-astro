@@ -3,6 +3,7 @@
     import StartPage from './StartPage.svelte';
     import seededRandom from '../../common/seededRandom';
     import DailyChoice from '../DailyChoice.svelte';
+    import Swal from 'sweetalert2';
 
     export let names;
     export let title;
@@ -86,6 +87,18 @@
         isStart = true;
     }
 
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+        toast.onmouseenter = Swal.stopTimer;
+        toast.onmouseleave = Swal.resumeTimer;
+        }
+    });
+
     const copySeed = () => {
         navigator.clipboard.writeText(seed);
         toast.fire({
@@ -95,12 +108,12 @@
     }
 </script>
 
-<div class="my-8 mx-auto max-w-3xl">
+<div class="my-8 mx-auto max-w-3xl px-2">
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
     <p class="my-4">{instructions} 
         {#if date}
             Daily Challenge for {date}.
-        {:else if isStart}
+        {:else if !isDaily}
             <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
         {/if}
     </p>

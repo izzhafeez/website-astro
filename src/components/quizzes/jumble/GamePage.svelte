@@ -30,6 +30,8 @@
     // same length as letters
     let used = Array(letters.length).fill(false);
     let responses = Array(chosen.length).fill('');
+    let setOfResponses = new Set();
+    let score = 0;
 
     const handleType = (responseId: number) => (event: any) => {
         responses[responseId] = event.target.value;
@@ -58,13 +60,16 @@
         }
 
         // compare set of responses to set of chosens, regardless of order
-        let setOfResponses = new Set(responses.map(response => response.toUpperCase()));
-        let setOfChosens = new Set(chosen.map((chosen: string) => chosen.toUpperCase()));
+        setOfResponses = new Set(responses);
+        let setOfChosens = new Set(chosen);
 
         if (setOfResponses.size === setOfChosens.size && [...setOfResponses].every(response => setOfChosens.has(response))) {
             if (givenUp) {
                 return;
             }
+
+            score = chosen.length;
+
             Swal.fire({
                 html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
             });
@@ -83,16 +88,50 @@
             text: 'You will not be able to recover your answers!',
         }).then((result) => {
             if (result.isConfirmed) {
+                // all unique responses
+                setOfResponses = new Set(responses);
+
+                // calculate score
+                score = 0;
+                for (let c of chosen) {
+                    if (setOfResponses.has(c)) {
+                        score++;
+                    }
+                }
+
                 // reveal all responses
                 responses.forEach((response, i) => {
                     responses[i] = chosen[i];
                 });
+
                 if (date) {
                     localStorage.setItem(`jumble-${key}-${date}`, "✗");
                 }
                 givenUp = true;
                 changeSeed();
             }
+        });
+    }
+
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
+
+    const copyResults = () => {
+        const green = "🟩";
+        const red = "🟥";
+        let text = `Jumble Master Daily Challenge on ${date}:\n`;
+        for (let i = 0; i < chosen.length; i++) {
+            text += setOfResponses.has(chosen[i]) ? green : red;
+        }
+        text += `\nizzhafeez.com/quizzes/jumble/${key}/daily-challenge`
+        navigator.clipboard.writeText(text);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Results',
         });
     }
 </script>
@@ -114,17 +153,27 @@
         <div class="grid my-4 max-w-xl">
             <div class="grid grid-cols-2 place-content-center gap-2">
                 {#each responses as response, i}
-                <input type="text" class="border-[1px] rounded-md px-2 py-1 dark:bg-gray-700 my-1" on:keyup={handleType(i)} bind:value={responses[i]} placeholder={`Guess ${i+1}`}/>
+                <input type="text" class={`border-[1px] rounded-md px-2 py-1 dark:bg-gray-700 my-1 ${givenUp ? setOfResponses.has(response) ? "border-ew-300" : "border-ns-300" : ""}`} on:keyup={handleType(i)} bind:value={responses[i]} placeholder={`Guess ${i+1}`} disabled={givenUp}/>
                 {/each}
             </div>
         </div>
 
         <!-- give up -->
         {#if !givenUp}
-            <button on:click={giveUp} class='bg-ns-500 hover:bg-ns-300 text-white rounded-lg py-2 px-4 my-2'>Give Up</button>
+            <button on:click={giveUp} class='bg-ns-300/20 hover:bg-ns-300/50 text-ns-500 dark:text-ns-300 rounded-lg py-1 px-2'>Give Up</button>
         {:else}
+        <div class="flex gap-4">
+            <!-- score -->
+            <h2 class="my-auto">Score: {score}/{chosen.length}</h2>
+
+            <!-- copy results -->
+            {#if date}
+                <button on:click={copyResults} class='bg-cc-300/20 hover:bg-cc-300/50 text-cc-500 dark:text-cc-300 rounded-lg py-1 px-2'>Copy Results</button>
+            {/if}
+
             <!-- handle next -->
-            <button on:click={() => {isStart = false;}} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-2'>Next</button>
+            <button on:click={() => {isStart = false;}} class='bg-ew-300/20 hover:bg-ew-300/50 text-ew-500 dark:text-ew-300 rounded-lg py-1 px-2'>Next</button>
+        </div>
         {/if}
     </div>
 </div>

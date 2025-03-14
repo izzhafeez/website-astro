@@ -93,11 +93,19 @@
                 // audio.play();
                     imgSrc = "failure";
                 }
+
                 Swal.fire({
                     title: `Your Score: ${score}/1000`,
                     html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-                    color: "#FFF"
-                }).then(async () => {
+                    color: "#BB0",
+                    showDenyButton: !!date,
+                    denyButtonText: "Share Results",
+                    denyButtonColor: "#BB0",
+                }).then(async (result) => {
+                    if (result.isDenied) {
+                        copyResults();
+                    }
+
                     isStart = false;
                     encodeSeed();
                     randomiser = seededRandom(randomiserSeed);
@@ -115,7 +123,7 @@
     function handleGuess() {
         // use Jaccard similarity to compare guess and toGuess
         const levenshteinDistance = levenshtein.get(guess, toGuess);
-        const overallSimilarity = 100 - (levenshteinDistance / toGuess.length) * 100;
+        const overallSimilarity = Math.ceil(100 - (levenshteinDistance / toGuess.length) * 100);
 
         roundScore = overallSimilarity;
 
@@ -143,11 +151,6 @@
         position: "top-end",
         showConfirmButton: false,
         timer: 1000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        }
     });
 
     const copySeed = () => {
@@ -157,15 +160,24 @@
             text: 'Copied Seed',
         });
     }
+
+    const copyResults = () => {
+        let text = `BlurryGuessr Daily Challenge on ${date}:\nI scored ${score}/1000 points! Can you beat me?\nizzhafeez.com/quizzes/blurry/${key}/daily-challenge`;
+        navigator.clipboard.writeText(text);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Results',
+        });
+    }
 </script>
 
 <div class="my-8 mx-auto max-w-3xl" in:fade={{}}>
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">ROUND {round}/{maxRounds}</h1>
 
     <p class="my-4 max-w-3xl">You will be given 10 blurred texts. Try your best to figure out what they say and type your guess below. After submitting, you will be scored based on your accuracy.
-        {#if !date}
+        {#if !isDaily}
             <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends! Good luck!
-        {:else}
+        {:else if date}
             Daily Challenge for {date}.
         {/if}
     </p>
@@ -180,7 +192,9 @@
         <label for="guess" class="">Your Guess: </label>
         <input type="text" id="guess" bind:value={guess} on:keyup={handleType} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2"/>
         <br>
-        <button on:click={isWaiting ? nextRound : handleGuess} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-4' id="action-button">{isWaiting ? "Next Round" : "Submit"}</button>
+        <div class="flex gap-2">
+            <button on:click={isWaiting ? nextRound : handleGuess} class='bg-ew-500/20 hover:bg-ew-300/50 text-ew-500 dark:text-ew-300 rounded-lg py-1 px-2' id="action-button">{isWaiting ? "Next Round" : "Submit"}</button>
+        </div>
     </div>
 
     <!-- fake -->

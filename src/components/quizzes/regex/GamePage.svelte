@@ -50,6 +50,25 @@
     
     // check assignments on mount
     $: checkAssignmentsCorrect();
+
+    const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
+
+    const copyResults = () => {
+        let text = `Regex Warrior Daily Challenge on ${date}\n`;
+        text += `I scored ${guess.length} points! Can you get lower than me?\n`;
+        text += `izzhafeez.com/quizzes/regex/${key}/daily-challenge`;
+
+        navigator.clipboard.writeText(text);
+        toast.fire({
+            icon: 'success',
+            text: 'Copied Results',
+        });
+    }
 </script>
 
 <div in:fade={{}}>
@@ -77,6 +96,7 @@
         </div>
 
         <!-- end buttonn -->
-        <button on:click={end} class="bg-ns-500 hover:bg-ns-300 text-white rounded-lg py-2 px-4 my-2">End</button>
+        <button on:click={copyResults} disabled={countCorrect !== chosen.length} class={`${countCorrect !== chosen.length ? "bg-gray-300/20 text-gray-300" : "bg-cc-300/20 hover:bg-cc-300/50 text-cc-500 hover:text-cc-300"} rounded-lg py-1 px-2 my-2`}>Copy Results</button>
+        <button on:click={end} class="bg-ns-300/20 hover:bg-ns-300/50 text-ns-500 hover:text-ns-300 rounded-lg py-1 px-2 my-2">End</button>
     </div>
 </div>

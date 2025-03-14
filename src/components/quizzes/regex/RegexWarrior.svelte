@@ -63,11 +63,6 @@
         position: "top-end",
         showConfirmButton: false,
         timer: 1000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        }
     });
 
     const copySeed = () => {
@@ -82,7 +77,7 @@
 <div class="mx-auto my-8 max-w-3xl">
     <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
     <p class="my-4">{instructions}
-        {#if !date && isStart}
+        {#if !isDaily}
             <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
         {:else if date}
             Daily Challenge for {date}.

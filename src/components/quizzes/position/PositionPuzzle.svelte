@@ -93,16 +93,11 @@
   }
 
   const toast = Swal.mixin({
-      toast: true,
-      position: "top-end",
-      showConfirmButton: false,
-      timer: 1000,
-      timerProgressBar: true,
-      didOpen: (toast) => {
-          toast.onmouseenter = Swal.stopTimer;
-          toast.onmouseleave = Swal.resumeTimer;
-      }
-  });
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
 
   const copySeed = () => {
       navigator.clipboard.writeText(seed);
@@ -118,7 +113,7 @@
   <p class=" my-4">{instructions}
     {#if !isDaily}
       <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-    {:else}
+    {:else if date}
       Daily Challenge for {date}.
     {/if}
   </p>
