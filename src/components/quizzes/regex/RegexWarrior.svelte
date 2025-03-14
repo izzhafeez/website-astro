@@ -15,7 +15,7 @@
 
     let name: string;
     let isStart: boolean = false;
-    let N = 8;
+    let N = 12;
     let assignments: boolean[] = [];
     let chosen: string[] = [];
     let possible_N = [6, 8, 12, 16, 20, 24, 30, 40, 50];

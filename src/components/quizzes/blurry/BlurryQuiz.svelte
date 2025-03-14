@@ -66,7 +66,7 @@
 </script>
 
 {#if isStart}
-    <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {blurValue} {fontSize} bind:toGuess={toGuess} {encodeSeed} {names} {name} {key} {date}/>
+    <GamePage bind:randomiser={randomiser} {seed} {randomiserSeed} bind:isStart={isStart} {blurValue} {fontSize} bind:toGuess={toGuess} {encodeSeed} {names} {name} {key} {date} {title} {isDaily}/>
 {:else}
     <div class="max-w-3xl mx-auto my-8">
         <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>

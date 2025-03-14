@@ -123,11 +123,12 @@
     const copyResults = () => {
         const green = "🟩";
         const red = "🟥";
-        let text = `Jumble Master Daily Challenge on ${date}:\n`;
+        let text = `Jumble Master: ${title}\n`;
+        text += `Daily Challenge on ${date}\n`;
         for (let i = 0; i < chosen.length; i++) {
             text += setOfResponses.has(chosen[i]) ? green : red;
         }
-        text += `\nizzhafeez.com/quizzes/jumble/${key}/daily-challenge`
+        text += `\nhttps://izzhafeez.com/quizzes/jumble/${key}/daily-challenge`
         navigator.clipboard.writeText(text);
         toast.fire({
             icon: 'success',

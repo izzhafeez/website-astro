@@ -124,6 +124,6 @@
       <StartPage bind:N={N} bind:isRotate={isRotate} handleNext={handleNext} bind:isStart={isStart} {decodeSeed} {randomiseSeed} bind:seed={seed} {key}/>
     {/if}
   {:else}
-    <GamePage {positions} {locations} {randomiser} bind:isStart={isStart} {key} {date}/>
+    <GamePage {positions} {locations} {randomiser} bind:isStart={isStart} {key} {date} {title}/>
   {/if}
 </div>

@@ -38,7 +38,7 @@
     <!-- options from START_DATE to today -->
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 max-w-3xl mx-auto my-8">
         {#each options.reverse() as option, i}
-            <button on:click={() => parseDate(option)} class="p-2 bg-white dark:bg-black hover:bg-ns-300 dark:hover:bg-ns-300 rounded-md">#{options.length - i} {option.toDateString().slice(4)} {getLocalStorageItem(`${fullKey}-${option.toDateString()}`) ? "(" + getLocalStorageItem(`${fullKey}-${option.toDateString()}`) + ")" : ""}</button>
+            <button on:click={() => parseDate(option)} class={`p-2 ${getLocalStorageItem(`${fullKey}-${option.toDateString()}`) == null  ? "bg-white dark:bg-black" : "bg-ns-500/50 dark:bg-ns-500/50"} hover:bg-ns-300 dark:hover:bg-ns-300 rounded-md`}>#{options.length - i} {option.toDateString().slice(4)} {getLocalStorageItem(`${fullKey}-${option.toDateString()}`) ? "(" + getLocalStorageItem(`${fullKey}-${option.toDateString()}`) + ")" : ""}</button>
         {/each}
     </div>
 </div>

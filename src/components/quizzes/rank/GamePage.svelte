@@ -4,7 +4,6 @@
     import seededRandom from "../../common/seededRandom";
     import party from "party-js";
 
-    export const title: string = "";
     export const instructions: string = "";
     export let randomiser: () => number;
     export let randomiserSeed: number;
@@ -18,6 +17,7 @@
     export let key: string;
     export let name: string;
     export let date;
+    export let title;
 
     let currentOptionId = 0;
     let guesses: any[] = []
@@ -110,7 +110,7 @@
                 imgSrc = "failure";
             }
             Swal.fire({
-                title: `Your Score: ${Math.round(score)}/100`,
+                title: `Your Score: ${Math.round(score)}%`,
                 html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
                 color: "#FFF",
                 showDenyButton: !!date,
@@ -136,9 +136,10 @@
     });
 
     const copyResults = () => {
-        let text = `Rank Master Daily Challenge on ${date}\n`;
-        text += `I scored ${Math.round(score)}/100 points! Can you beat me?\n`;
-        text += `izzhafeez.com/quizzes/rank/${key}/daily-challenge`;
+        let text = `Rank Master: ${title}\n`;
+        text += `Daily Challenge on ${date}\n`;
+        text += `I scored ${Math.round(score)}%! Can you beat me?\n`;
+        text += `https://izzhafeez.com/quizzes/rank/${key}/daily-challenge`;
         navigator.clipboard.writeText(text);
         toast.fire({
             icon: 'success',

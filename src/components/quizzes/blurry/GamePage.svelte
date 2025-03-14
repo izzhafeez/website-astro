@@ -18,6 +18,8 @@
     export let name: string;
     export let key: string;
     export let date: string;
+    export let title: string;
+    export let isDaily: boolean;
     
     let score = 0;
     let roundScore = 0;
@@ -162,7 +164,10 @@
     }
 
     const copyResults = () => {
-        let text = `BlurryGuessr Daily Challenge on ${date}:\nI scored ${score}/1000 points! Can you beat me?\nizzhafeez.com/quizzes/blurry/${key}/daily-challenge`;
+        let text = `BlurryGuessr: ${title}\n`;
+        text += `Daily Challenge on ${date}\n`;
+        text += `I scored ${score}/1000 points! Can you beat me?\n`;
+        text += `https://izzhafeez.com/quizzes/blurry/${key}/daily-challenge`;
         navigator.clipboard.writeText(text);
         toast.fire({
             icon: 'success',

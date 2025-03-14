@@ -11,6 +11,7 @@
   export let isStart: boolean;
   export let key: string;
   export let date: string;
+  export let title: string;
 
   let isEnd = false;
   let colorId = 0;
@@ -82,9 +83,10 @@
     });
 
   const copyResults = () => {
-    let text = `Position Puzzle Daily Challenge on ${date}\n`;
+    let text = `Position Puzzle: ${title}\n`;
+    text += `Daily Challenge on ${date}\n`;
     text += `I scored ${score}/${N} points! Can you beat me?\n`;
-    text += `izzhafeez.com/quizzes/position/${key}/daily-challenge\n`;
+    text += `https://izzhafeez.com/quizzes/position/${key}/daily-challenge\n`;
     navigator.clipboard.writeText(text);
 
     toast.fire({
@@ -133,8 +135,10 @@
   <div class="grid">
     {#if !isEnd}
     <div class="flex mx-auto gap-2">
-      <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
-        on:click={() => {showHint = !showHint}}>{showHint ? "Hide" : "Show"} Hint</button>
+      {#if locations[0].includes("(")}
+        <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
+          on:click={() => {showHint = !showHint}}>{showHint ? "Hide" : "Show"} Hint</button>
+      {/if}
       <button class="text-white rounded-lg px-2 py-1 mx-auto"
         on:click={handleSubmit}
         disabled={Object.keys(assignments).length < N}

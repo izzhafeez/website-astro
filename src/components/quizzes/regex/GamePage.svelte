@@ -59,9 +59,10 @@
     });
 
     const copyResults = () => {
-        let text = `Regex Warrior Daily Challenge on ${date}\n`;
-        text += `I scored ${guess.length} points! Can you get lower than me?\n`;
-        text += `izzhafeez.com/quizzes/regex/${key}/daily-challenge`;
+        let text = `Regex Warrior: ${title}\n`;
+        text += `Daily Challenge on ${date}\n`;
+        text += `I scored ${guess.length} points! Can you score lower than me?\n`;
+        text += `https://izzhafeez.com/quizzes/regex/${key}/daily-challenge`;
 
         navigator.clipboard.writeText(text);
         toast.fire({
