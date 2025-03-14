@@ -1,7 +1,7 @@
 <script>
   import GamePage from './GamePage.svelte';
   import StartPage from './StartPage.svelte';
-  import seededRandom from '../../common/seededRandom';
+  import seededRandom, {shuffle} from '../../common/seededRandom';
   import Swal from 'sweetalert2';
   import DailyChoice from '../DailyChoice.svelte';
 
@@ -105,7 +105,7 @@
       tiles = [...tiles, ...randomTiles];
     }
 
-    tiles.sort((a, b) => 0.5 - randomiser());
+    tiles = shuffle([...tiles], randomiser);
 
     guesses = N;
     answered = [];

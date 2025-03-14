@@ -1,7 +1,7 @@
 <script lang="ts">
     import StartPage from "./StartPage.svelte";
     import GamePage from "./GamePage.svelte";
-    import seededRandom from "../../common/seededRandom";
+    import seededRandom, {shuffle} from "../../common/seededRandom";
     import DailyChoice from "../DailyChoice.svelte";
     import Swal from "sweetalert2";
 
@@ -58,7 +58,7 @@
             field = possible_fields[randomFieldIndex];
             console.log(field)
         }
-        options = Object.keys(data).sort(() => randomiser() - 0.5).slice(0, N);
+        options = shuffle([...Object.keys(data)], randomiser).slice(0, N);
         isStart = true;
     }
 
