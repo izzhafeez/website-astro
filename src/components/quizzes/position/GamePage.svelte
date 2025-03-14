@@ -85,7 +85,7 @@
   const copyResults = () => {
     let text = `Position Puzzle: ${title}\n`;
     text += `Daily Challenge on ${date}\n`;
-    text += `I scored ${score}/${N} points! Can you beat me?\n`;
+    text += `I scored ${score}/${N} points!\n`;
     text += `https://izzhafeez.com/quizzes/position/${key}/daily-challenge\n`;
     navigator.clipboard.writeText(text);
 

@@ -138,7 +138,7 @@
     const copyResults = () => {
         let text = `Rank Master: ${title}\n`;
         text += `Daily Challenge on ${date}\n`;
-        text += `I scored ${Math.round(score)}%! Can you beat me?\n`;
+        text += `I scored ${Math.round(score)}%!\n`;
         text += `https://izzhafeez.com/quizzes/rank/${key}/daily-challenge`;
         navigator.clipboard.writeText(text);
         toast.fire({

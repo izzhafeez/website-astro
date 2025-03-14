@@ -221,7 +221,7 @@
   const copyResults = () => {
       let text = `ColorGuessr\n`;
       text += `Daily Challenge on ${date}\n`;
-      text += `I scored ${totalScore}/500 points! Can you beat me?\n`;
+      text += `I scored ${totalScore}/500 points!\n`;
       text += `https://izzhafeez.com/quizzes/color/daily-challenge`;
       navigator.clipboard.writeText(text);
       toast.fire({

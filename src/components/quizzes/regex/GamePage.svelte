@@ -61,7 +61,7 @@
     const copyResults = () => {
         let text = `Regex Warrior: ${title}\n`;
         text += `Daily Challenge on ${date}\n`;
-        text += `I scored ${guess.length} points! Can you score lower than me?\n`;
+        text += `I scored ${guess.length} points!\n`;
         text += `https://izzhafeez.com/quizzes/regex/${key}/daily-challenge`;
 
         navigator.clipboard.writeText(text);

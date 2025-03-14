@@ -166,7 +166,7 @@
     const copyResults = () => {
         let text = `BlurryGuessr: ${title}\n`;
         text += `Daily Challenge on ${date}\n`;
-        text += `I scored ${score}/1000 points! Can you beat me?\n`;
+        text += `I scored ${score}/1000 points!\n`;
         text += `https://izzhafeez.com/quizzes/blurry/${key}/daily-challenge`;
         navigator.clipboard.writeText(text);
         toast.fire({
