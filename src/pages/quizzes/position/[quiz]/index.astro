@@ -34,7 +34,7 @@ import Layout from "../../../../layouts/Layout.astro";
 import Footer from "../../../../components/common/Footer.astro";
 
 export async function getStaticPaths() {
-  const instructionFormat = (name: string) => `You will be presented with a few random points on a map, each representing a distinct ${name}. The goal is to correctly identify and match each point to its real-world counterpart. All the best, and if you don't like the points, feel free to refresh the seed, yeah?`;
+  const instructionFormat = (name: string) => `You will be given a set of points that represent real-world locations, but the map they were placed on has been removed. These points may also be randomly rotated. Your goal is to correctly identify and match each point to its actual location. Pay close attention to their relative positions and patterns—good luck!`;
   return [
     {
       params: { quiz: 'mrt' },

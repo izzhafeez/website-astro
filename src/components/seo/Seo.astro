@@ -1,6 +1,6 @@
 ---
 import { SEO } from 'astro-seo';
-const { heroText, seoImg, pageName, path } = Astro.props;
+const { heroText, seoImg, pageName, path, showImg } = Astro.props;
 ---
 
 <SEO
@@ -26,6 +26,7 @@ const { heroText, seoImg, pageName, path } = Astro.props;
       },
       { name: "twitter:title", content: `${pageName} | Izz Hafeez`},
       { name: "twitter:description", content: heroText },
+      { name: "twitter:card", content: "summary" },
     ],
   }}
 />
