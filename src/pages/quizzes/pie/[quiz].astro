@@ -40,7 +40,7 @@ export async function getStaticPaths() {
       params: { quiz: key },
       props: {
         title,
-        instructions: `Given a random pie chart, can you identify which is the correct label? After you answer, you can check out the data source to learn more about the data! Also, sometimes, the 'Others' category may be excluded if it is smaller than 1%.`,
+        instructions: `Given a random pie chart, can you identify which is the correct title? After you answer, you can check out the data source to learn more about the data! Also, sometimes, the 'Others' category may be excluded if it is smaller than 1%.`,
         data: Object.entries(pieData).filter(([k, d]) => d.tags.includes(key[0].toUpperCase() + key.slice(1)))
       }
     })),
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
       params: { quiz: "all" },
       props: {
         title: "All Pie Charts",
-        instructions: `Given a random pie chart, can you identify which is the correct label? After you answer, you can check out the data source to learn more about the data! Also, sometimes, the 'Others' category may be excluded if it is smaller than 1%.`,
+        instructions: `Given a random pie chart, can you identify which is the correct title? After you answer, you can check out the data source to learn more about the data! Also, sometimes, the 'Others' category may be excluded if it is smaller than 1%.`,
         data: Object.entries(pieData)
       }
     }

@@ -28,7 +28,7 @@ import animeData from "../../../../data/quizzes/jumble/anime.json";
 import drinksData from "../../../../data/quizzes/jumble/drinks.json";
 
 export const getStaticPaths = (() => {
-    const instructions = "How good is your eyesight? Can you identify the blurred texts?";
+    const instructions = "You will be given 10 texts with a blur filter on them. Your task is to guess what they actually say, caps-sensitive and all. Your score for each guess will be based on how close your guess is to the actual. Good luck!";
     const capitaliseFirstLetter = (string: string) => string.charAt(0).toUpperCase() + string.slice(1);
     const normaliseString = (name: string) => name.replace(/[\(\[].*?[\)\]]/g, '').trim();
     const filterDuplicates = (array: string[]) => array.filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => a.localeCompare(b));
