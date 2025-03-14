@@ -1,5 +1,5 @@
 {
-    "Atmospheric Composition of Dry Air": {
+    "Gases in Dry Air": {
         "pie": {
             "Nitrogen": 78.08,
             "Oxygen": 20.95,
@@ -23,7 +23,7 @@
             "Singapore"
         ]
     },
-    "Global Religions (2020)": {
+    "Religions in the World (2020)": {
         "pie": {
             "Christianity": 31.1,
             "Islam": 24.9,
@@ -86,7 +86,7 @@
             "Economy"
         ]
     },
-    "Earth's Crust Mass Composition": {
+    "Elements in the Earth's Crust by Mass": {
         "pie": {
             "Oxygen": 46.6,
             "Silicon": 27.7,
@@ -149,7 +149,7 @@
             "Technology"
         ]
     },
-    "Most Used Scripts on the Internet": {
+    "Most Used Written Scripts on the Internet": {
         "pie": {
             "Latin": 85.2,
             "Hiragana": 5.1,
@@ -251,7 +251,7 @@
             "Science"
         ]
     },
-    "Letter Frequencies in English Texts": {
+    "Letter Distribution of English Texts": {
         "pie": {
             "E": 12.7,
             "T": 9.1,
@@ -269,41 +269,7 @@
         ],
         "down": true
     },
-    "Letter Frequencies in English Words": {
-        "pie": {
-            "E": 11.0,
-            "S": 8.7,
-            "I": 8.6,
-            "A": 7.8,
-            "R": 7.3,
-            "N": 7.2,
-            "T": 6.7,
-            "O": 6.1,
-            "L": 5.3
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "First Letter Frequencies in English Texts": {
-        "pie": {
-            "T": 16,
-            "A": 11.7,
-            "O": 7.6,
-            "I": 7.3,
-            "S": 6.7,
-            "W": 5.5,
-            "C": 5.2
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "First Letter Frequencies in English Words": {
+    "First Letters of Words in OEDictionary": {
         "pie": {
             "S": 11,
             "C": 9.4,
@@ -314,104 +280,6 @@
             "A": 5.7,
             "M": 5.6,
             "T": 5
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in French": {
-        "pie": {
-            "E": 14.715,
-            "S": 7.948,
-            "A": 7.636,
-            "I": 7.529,
-            "T": 7.244,
-            "N": 7.095,
-            "R": 6.693,
-            "U": 6.311,
-            "O": 5.796,
-            "L": 5.456
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in German": {
-        "pie": {
-            "E": 16.93,
-            "N": 9.78,
-            "S": 7.27,
-            "R": 7.003,
-            "I": 6.55,
-            "A": 6.516,
-            "T": 6.154
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in Spanish": {
-        "pie": {
-            "E": 13.702,
-            "A": 11.525,
-            "O": 8.683,
-            "S": 7.977,
-            "R": 6.871,
-            "N": 6.711,
-            "I": 6.247,
-            "D": 5.010
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in Turkish": {
-        "pie": {
-            "A": 11.92,
-            "E": 8.912,
-            "I": 8.60,
-            "N": 7.487,
-            "R": 6.722,
-            "L": 5.922
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in Swedish": {
-        "pie": {
-            "E": 10.149,
-            "A": 9.383,
-            "N": 8.542,
-            "R": 8.431,
-            "T": 7.691,
-            "I": 5.817,
-            "L": 5.275
-        },
-        "link": "https://en.wikipedia.org/wiki/Letter_frequency",
-        "tags": [
-            "Language"
-        ],
-        "down": true
-    },
-    "Letter Frequencies in Polish": {
-        "pie": {
-            "A": 8.965,
-            "I": 8.286,
-            "E": 7.921,
-            "O": 7.590,
-            "Z": 5.620,
-            "N": 5.600
         },
         "link": "https://en.wikipedia.org/wiki/Letter_frequency",
         "tags": [
@@ -683,7 +551,7 @@
         ],
         "down": true
     },
-    "Country Population Share (2025)": {
+    "Country Populations (2025)": {
         "pie": {
             "India": 17.78,
             "China": 17.39,
@@ -697,7 +565,7 @@
             "Geography"
         ]
     },
-    "Continent Population Share (2021)": {
+    "Continent Populations (2021)": {
         "pie": {
             "Asia": 59.4,
             "Africa": 17.6,
@@ -711,7 +579,7 @@
             "Geography"
         ]
     },
-    "Continental Subregion Population Share (2021)": {
+    "Continental Subregion Populations (2021)": {
         "pie": {
             "Southern Asia": 25.2,
             "Eastern Asia": 21.0,
@@ -727,7 +595,7 @@
             "Geography"
         ]
     },
-    "Country Population Share (1900)": {
+    "Country Populations (1900)": {
         "pie": {
             "British Empire": 23.51,
             "Qing China": 23.5,
@@ -743,7 +611,7 @@
             "Geography"
         ]
     },
-    "Country Population Share (1800)": {
+    "Country Populations (1800)": {
         "pie": {
             "Qing China": 30.4,
             "Maratha Confederacy": 14.5,
@@ -759,7 +627,7 @@
             "Geography"
         ]
     },
-    "Country Population Share (1700)": {
+    "Country Populations (1700)": {
         "pie": {
             "Mughal Empire": 23,
             "Qing Empire": 22,
@@ -775,7 +643,7 @@
             "Geography"
         ]
     },
-    "Country Population Share (1600)": {
+    "Country Populations (1600)": {
         "pie": {
             "Ming China": 27.6,
             "Mughal Empire": 19.9,
@@ -789,7 +657,7 @@
             "Geography"
         ]
     },
-    "Country Population Share (1 C.E.)": {
+    "Country Populations (1 C.E.)": {
         "pie": {
             "Han China": 22.62,
             "Roman Empire": 21.18,
@@ -909,7 +777,7 @@
             "Politics"
         ]
     },
-    "2024 Indonesian General Election": {
+    "2024 Indonesian Presidential Election": {
         "pie": {
             "Prabowo": 58.59,
             "Anies": 24.95,
@@ -1176,7 +1044,7 @@
             "Music"
         ]
     },
-    "Philippines Religion Breakdown (2020)": {
+    "Religions of the Philippines (2020)": {
         "pie": {
             "Christianity": 91.5,
             "Islam": 6.4,
@@ -1188,7 +1056,7 @@
             "Geography"
         ]
     },
-    "Highest Human Body Water Content": {
+    "Water Content of Human Body (High-End)": {
         "pie": {
             "Water": 78
         },
@@ -1197,7 +1065,7 @@
             "Science"
         ]
     },
-    "Sugars Composition of Apples": {
+    "Sugars Found in Apples": {
         "pie": {
             "Fructose": 56.7,
             "Glucose": 23.08,
@@ -1208,7 +1076,7 @@
             "Science"
         ]
     },
-    "Sugars Composition of Peaches": {
+    "Sugars Found in Peaches": {
         "pie": {
             "Fructose": 17.86,
             "Glucose": 23.81,
@@ -1219,7 +1087,7 @@
             "Science"
         ]
     },
-    "Sugars Composition of Beets": {
+    "Sugars Found in Beets": {
         "pie": {
             "Fructose": 1.47,
             "Glucose": 1.47,
@@ -1230,7 +1098,7 @@
             "Science"
         ]
     },
-    "Sugars Composition of Onions": {
+    "Sugars Found in Onions": {
         "pie": {
             "Fructose": 40,
             "Glucose": 46,
@@ -1241,7 +1109,7 @@
             "Science"
         ]
     },
-    "Durian Nutritional Composition": {
+    "Durian Nutritional Value": {
         "pie": {
             "Carbohydrates": 27,
             "Fat": 5,
@@ -1253,7 +1121,7 @@
             "Science"
         ]
     },
-    "Watermelon Nutritional Composition": {
+    "Watermelon Nutritional Value": {
         "pie": {
             "Sugars": 6,
             "Water": 91
@@ -1287,7 +1155,7 @@
             "Music"
         ]
     },
-    "Cambridge O Level Physics Assessment Weightages (2025)": {
+    "Assessment Weightages Cambridge O Level Physics (2025)": {
         "pie": {
             "Paper 1": 30,
             "Paper 2": 50,
@@ -1310,7 +1178,7 @@
             "Science"
         ]
     },
-    "Percentage of Colors in World Flags": {
+    "Colors in World Flags": {
         "pie": {
             "Red": 28.5,
             "Blue": 24.6,
@@ -1324,7 +1192,7 @@
             "Geography"
         ]
     },
-    "Percentage of Colors in European Flags": {
+    "Colors in European Flags": {
         "pie": {
             "Red": 36.5,
             "Blue": 20.3,
@@ -1337,7 +1205,7 @@
             "Geography"
         ]
     },
-    "Percentage of Colors in Oceania Flags": {
+    "Colors in Oceania Flags": {
         "pie": {
             "Blue": 47,
             "Red": 19.8,
@@ -1350,7 +1218,7 @@
             "Geography"
         ]
     },
-    "Percentage of Colors in Asia Flags": {
+    "Colors in Asia Flags": {
         "pie": {
             "Red": 38.2,
             "White": 23.2,

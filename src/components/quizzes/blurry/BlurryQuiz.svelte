@@ -72,7 +72,7 @@
         <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
         <p class="my-4 max-w-3xl">{instructions}</p>
         {#if isDaily}
-            <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleStart} bind:randomiser={randomiser} name={`BLURRY QUIZ: ${title}`} bind:date={date} fullKey={`blurry-${key}`}/>
+            <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleStart} bind:randomiser={randomiser} name={`BLURRYGUESSR: ${title}`} bind:date={date} fullKey={`blurry-${key}`}/>
         {:else}
             <StartPage bind:blurValue={blurValue} bind:fontSize={fontSize} {handleStart} {title} {instructions} bind:seed={seed} {randomiseSeed} {decodeSeed} bind:name={name} {key}/>
         {/if}

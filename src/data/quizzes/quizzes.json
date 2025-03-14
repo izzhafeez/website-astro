@@ -4,7 +4,7 @@
     "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
   },
   "blurry": {
-    "title": "Blurry Vision",
+    "title": "BlurryGuessr",
     "heroText": "Guess what the blurred text says. The more accurate your guess, the higher your score!"
   },
   "color": {
@@ -24,7 +24,7 @@
     "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
   },
   "jumble": {
-    "title": "Jumble Jam",
+    "title": "Jumble Master",
     "heroText": "Unscrambling but on steroids! Separate the jumbled letters to form many words at once!"
   },
   "map": {
