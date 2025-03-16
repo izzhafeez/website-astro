@@ -197,7 +197,7 @@
       totalScore = 0;
       for (const v of Object.values(answers)) {
         for (let i=0; i<v.length; i++) {
-          if (v[i].cleanText.match(regex) || v[i].searchTerms.match(regex)) {
+          if ((v[i].cleanText+v[i].searchTerms).match(regex)) {
             totalScore += 1;
             v[i].toInclude = true;
             toAdd.set(v[i].id);
