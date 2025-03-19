@@ -20,6 +20,7 @@
   let regexInput = defaultRegex;
   let allTags = [];
   let currentActiveTags = [];
+  let isUntimed = false;
 
   onMount(() => {
     const allSearchTerms = new Set();
@@ -240,6 +241,10 @@
       {#each allTags.sort().filter(tag => tag != "None" && tag != "VV") as tag (tag)}
       <button on:click={() => {addRemoveTag(tag)}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={currentActiveTags.includes(tag)} class:text-white={currentActiveTags.includes(tag)}>{tag}</button>
       {/each}
+    </div>
+    <div class="flex gap-2 my-2">
+      <label for="isUntimed" class="">Untimed:</label>
+      <input type="checkbox" bind:checked={isUntimed} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto' on:change={() => {time = isUntimed ? 10000000000 : totalScore * 5}}/>
     </div>
     <Leaderboard type="map" key={key} params={regexInput}/>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>

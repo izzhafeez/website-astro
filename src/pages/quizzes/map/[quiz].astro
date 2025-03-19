@@ -3,6 +3,7 @@ import MapQuiz from "../../../components/quizzes/map/MapQuiz.svelte";
 import { fullSanitise } from "../../../utils/string";
 import Location from "../../../components/quizzes/map/Location";
 import mrtData from "../../../data/quizzes/map/mrt.json";
+import mrtChineseData from "../../../data/quizzes/map/mrt-chinese.json";
 import mallsData from "../../../data/quizzes/map/malls.json";
 import schoolsData from "../../../data/quizzes/map/schools.json";
 import busStopData from "../../../data/quizzes/map/bus-stops.json";
@@ -38,6 +39,15 @@ export async function getStaticPaths() {
         title: 'MRT Stations of Singapore',
         data: mrtData,
         instructions: "How many MRT/LRT stations can you name? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (tip: try typing 'EW' or 'oo' and see what they do). You get 5 seconds for every possible answer. Good luck!",
+        defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: 'mrt-chinese' },
+      props: {
+        title: 'MRT Stations of Singapore (Chinese)',
+        data: mrtChineseData,
+        instructions: "How many MRT/LRT stations can you name in Chinese? As you answer, the marker will disappear. Use regex to select the stations you want included in the quiz (tip: try typing '东' or 'oo' and see what they do). You get 5 seconds for every possible answer. Good luck!",
         defaultRegex: ''
       }
     },

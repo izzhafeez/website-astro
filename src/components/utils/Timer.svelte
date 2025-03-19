@@ -45,5 +45,9 @@
 </script>
 
 <span class="text-ew-500 text-2xl">
-  {f(mm)}:{f(ss)}
+  {#if mm > 1000000}
+  <span class="text-6xl">∞</span>
+  {:else}
+    {f(mm)}:{f(ss)}
+  {/if}
 </span>

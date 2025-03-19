@@ -89,6 +89,16 @@
       "Cities"
     ]
   },
+  "mrt-chinese": {
+    "title": "MRT Stations of Singapore (Chinese)",
+    "instructions": "How many MRT/LRT stations in Singapore can you name in Chinese?",
+    "rank": 1,
+    "tags": [
+      "Geography",
+      "Singapore",
+      "Train"
+    ]
+  },
   "schools": {
     "title": "Schools of Singapore",
     "instructions": "How many schools in Singapore can you name?",

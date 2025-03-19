@@ -1,6 +1,7 @@
 export const getLocationColor = (colorComparator: string, locationType: string) => {
   switch (locationType) {
     case "mrt":
+    case "mrt-chinese":
       return getMrtColor(colorComparator);
     case "schools":
       return getSchoolColor(colorComparator);
