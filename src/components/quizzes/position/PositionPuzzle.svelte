@@ -41,7 +41,33 @@
   function handleNext() {
     randomiser = seededRandom(randomiserSeed);
     // select N random locations from the data
-    const chosen = shuffle([...data], randomiser).slice(0, N);
+    const allPositions = data.map((d) => [d.lat, d.lng]);
+    const maxLat = Math.max(...allPositions.map(([lat, lng]) => lat));
+    const minLat = Math.min(...allPositions.map(([lat, lng]) => lat));
+    const maxLng = Math.max(...allPositions.map(([lat, lng]) => lng));
+    const minLng = Math.min(...allPositions.map(([lat, lng]) => lng));
+    const latDiff = maxLat - minLat;
+    const lngDiff = maxLng - minLng;
+    const maxDiff = Math.max(latDiff, lngDiff);
+    const threshold = 0.01 * maxDiff;
+    let chosen = shuffle([...data], randomiser).slice(0, 2*N);
+    let newChosen = [];
+    for (let i = 0; i < chosen.length; i++) {
+      let isClose = false;
+      for (let j = 0; j < newChosen.length; j++) {
+        if (Math.abs(chosen[i].lat - newChosen[j].lat) < threshold && Math.abs(chosen[i].lng - newChosen[j].lng) < threshold) {
+          isClose = true;
+          break;
+        }
+      }
+      if (!isClose) {
+        newChosen.push(chosen[i]);
+      }
+      if (newChosen.length === N) {
+        break;
+      }
+    }
+    chosen = newChosen;
     locations = chosen.map((d) => d.name);
     positions = chosen.map((d) => [d.lat, d.lng]);
     if (isRotate) {
