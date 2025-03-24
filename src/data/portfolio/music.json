@@ -17,7 +17,7 @@
     "link": "https://www.youtube.com/watch?v=uJFLbX_tDOE"
   },
   "eight": {
-    "title": "eight 에잇",
+    "title": "eight",
     "artist": "IU",
     "link": "https://www.youtube.com/watch?v=gn7FoUIMuxA"
   },
@@ -61,10 +61,16 @@
     "link": "https://youtu.be/3Gs1TLiNC30"
   },
   "senorita": {
-    "title": "Se\u00f1orita",
+    "title": "Senorita",
     "artist": "Shawn Mendes / Camilla Cabello",
     "imgPath": "shawn-mendes-camilla-cabello.jpeg",
     "link": "https://www.youtube.com/watch?v=EI30ZmLLp_0"
+  },
+  "sg-60": {
+    "title": "SG60 Medley",
+    "artist": "Various",
+    "imgPath": "singapore.svg",
+    "link": ""
   },
   "shine-your-light": {
     "artist": "NDP 2023",
@@ -92,6 +98,10 @@
   "the-last-time": {
     "artist": "The Script",
     "link": "https://www.youtube.com/watch?v=JGePErnf3jU"
+  },
+  "the-one-that-got-away": {
+    "artist": "Katy Perry",
+    "link": ""
   },
   "the-road-ahead": {
     "artist": "NDP 2021",
