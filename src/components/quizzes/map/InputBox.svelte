@@ -5,6 +5,7 @@
   import { onMount } from "svelte";
   import Leaderboard from "../Leaderboard.svelte";
   import party from "party-js";
+  import Swal from "sweetalert2";
 
   export let answers;
   export let defaultRegex;
@@ -225,6 +226,23 @@
     }
     handleRegex("from-input");
   }
+
+  const toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 1000,
+    });
+
+  function copyLink() {
+    const baseUrl = window.location.href.split('?')[0];
+    const url = `${baseUrl}?regex=${regexInput}`;
+    navigator.clipboard.writeText(url);
+    toast.fire({
+      icon: 'success',
+      title: 'Link Copied!'
+    });
+  }
 </script>
 
 <div class='h-30 flex items-center mb-4 mt-2'>
@@ -247,6 +265,7 @@
       <input type="checkbox" bind:checked={isUntimed} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto' on:change={() => {time = isUntimed ? 10000000000 : totalScore * 5}}/>
     </div>
     <Leaderboard type="map" key={key} params={regexInput}/>
+    <button on:click={copyLink} class='bg-cc-300/20 py-1 px-2 rounded-md text-cc-500 dark:text-cc-300 hover:bg-cc-300/50'>Copy Link</button>
     <button on:click={handleStart} class='bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50'>Start Quiz</button>
   </div>
   {:else}

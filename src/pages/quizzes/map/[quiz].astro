@@ -262,6 +262,7 @@ for (const [k, v] of Object.entries(data)) {
 }
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg');
 const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().then(img => img.default);
+const initialRegexInput = Astro.url.searchParams.get('regex') || Astro.props.defaultRegex || '';
 ---
 <Seo heroText={Astro.props.instructions} pageName={`${Astro.props.title} (Map Quiz)`} path={`quizzes/map/${Astro.params.quiz}`}/>
 
@@ -279,7 +280,7 @@ const seoImg = await images[`/src/img/quizzes/map/${Astro.params.quiz}.jpg`]().t
       <h1 transition:name={Astro.params.quiz} class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent my-6">{Astro.props.title.toUpperCase()}</h1>
       <p transition:name={Astro.props.instructions} class="text-black dark:text-white max-w-3xl">{Astro.props.instructions}</p>
     </div>
-    <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={Astro.props.defaultRegex || ''}/>
+    <MapQuiz client:only="svelte" key={Astro.params.quiz} locationDict={locationDict} locationList={locationList} defaultRegex={initialRegexInput}/>
     <Footer site="quizzes"/>
   </div>
 </Layout>
