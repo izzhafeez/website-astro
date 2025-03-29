@@ -26,6 +26,14 @@ import deckOfCardsData from "../../../../data/quizzes/jumble/deck-of-cards.json"
 import spellsData from "../../../../data/quizzes/jumble/spells.json";
 import animeData from "../../../../data/quizzes/jumble/anime.json";
 import drinksData from "../../../../data/quizzes/jumble/drinks.json";
+import citiesData from "../../../../data/quizzes/map/cities.json";
+import citiesAsiaData from "../../../../data/quizzes/map/cities-asia.json";
+import citiesEuropeData from "../../../../data/quizzes/map/cities-europe.json";
+import citiesNorthAmericaData from "../../../../data/quizzes/map/cities-north-america.json";
+import citiesSouthAmericaData from "../../../../data/quizzes/map/cities-south-america.json";
+import citiesAfricaData from "../../../../data/quizzes/map/cities-africa.json";
+import citiesOceaniaData from "../../../../data/quizzes/map/cities-oceania.json";
+import citiesUsData from "../../../../data/quizzes/map/cities-us.json";
 
 export const getStaticPaths = (() => {
     const instructions = "You will be given 10 texts with a blur filter on them. Your task is to guess what they actually say, caps-sensitive and all. Your score for each guess will be based on how close your guess is to the actual. Good luck!";
@@ -274,6 +282,30 @@ export const getStaticPaths = (() => {
                     ...spellsData.map(normaliseString).slice(0, 50),
                     ...animeData.map(normaliseString).slice(0, 50),
                     ...drinksData.map(normaliseString).slice(0, 50),
+                    ...Object.entries(citiesData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesAsiaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesEuropeData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesNorthAmericaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesSouthAmericaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesAfricaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesOceaniaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K", "50K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesUsData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0])
                 ])
             }
         },
@@ -317,7 +349,31 @@ export const getStaticPaths = (() => {
                 data: filterDuplicates([
                     ...countriesData.map(normaliseString),
                     ...statesData.map(capitaliseFirstLetter).map(normaliseString),
-                    ...mrtData.map(normaliseString)
+                    ...Object.entries(citiesData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesAsiaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesEuropeData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesNorthAmericaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesSouthAmericaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesAfricaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesOceaniaData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K", "50K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0]),
+                    ...Object.entries(citiesUsData)
+                        .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                        .map(([key, value]) => key.split(" (")[0])
+                    // ...mrtData.map(normaliseString)
                 ])
             }
         },
@@ -372,7 +428,95 @@ export const getStaticPaths = (() => {
                 instructions: instructions,
                 data: filterDuplicates(drinksData.map(normaliseString))
             }
+        },
+        {
+        params: { quiz: 'cities' },
+        props: {
+            title: 'Cities of the World (1M)',
+            data: Object.entries(citiesData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
         }
+        },
+        {
+        params: { quiz: 'cities-asia' },
+        props: {
+            title: 'Cities of Asia (500K)',
+            data: Object.entries(citiesAsiaData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-europe' },
+        props: {
+            title: 'Cities of Europe (100K)',
+            data: Object.entries(citiesEuropeData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-north-america' },
+        props: {
+            title: 'Cities of North America (200K)',
+            data: Object.entries(citiesNorthAmericaData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-south-america' },
+        props: {
+            title: 'Cities of South America (200K)',
+            data: Object.entries(citiesSouthAmericaData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-africa' },
+        props: {
+            title: 'Cities of Africa (200K)',
+            data: Object.entries(citiesAfricaData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-oceania' },
+        props: {
+            title: 'Cities of Oceania (50K)',
+            data: Object.entries(citiesOceaniaData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K", "50K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
+        {
+        params: { quiz: 'cities-us' },
+        props: {
+            title: 'Cities of the United States (100K)',
+            data: Object.entries(citiesUsData)
+                .filter(([key, value]) => ["10M", "5M", "2M", "1M", "700K", "500K", "200K", "100K"].some((a) => key.includes(a)))
+                .map(([key, value]) => key.split(" (")[0]),
+            instructions: instructions,
+            defaultRegex: ''
+        }
+        },
     ]
 });
 

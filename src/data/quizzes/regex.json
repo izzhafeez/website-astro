@@ -138,5 +138,45 @@
         "title": "Billboard Top 100 Songs of 2010",
         "instructions": "Find the shortest regex that matches the right songs!",
         "tags": ["Music", "Billboard"]
+    },
+    "cities": {
+        "title": "Cities of the World (1M)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities"]
+    },
+    "cities-asia": {
+        "title": "Cities of Asia (500K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "Asia"]
+    },
+    "cities-europe": {
+        "title": "Cities of Europe (100K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "Europe"]
+    },
+    "cities-africa": {
+        "title": "Cities of Africa (200K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "Africa"]
+    },
+    "cities-north-america": {
+        "title": "Cities of North America (200K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "North America"]
+    },
+    "cities-south-america": {
+        "title": "Cities of South America (200K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "South America"]
+    },
+    "cities-oceania": {
+        "title": "Cities of Oceania (50K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "Oceania"]
+    },
+    "cities-us": {
+        "title": "Cities of the US (100K)",
+        "instructions": "Find the shortest regex that matches the right cities!",
+        "tags": ["Cities", "USA"]
     }
 }

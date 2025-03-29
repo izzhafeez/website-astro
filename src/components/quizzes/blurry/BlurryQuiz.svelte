@@ -45,7 +45,7 @@
     const randomiseSeed = () => {
         randomiserSeed = Math.round(Math.random() * 1000000);
         randomiser = seededRandom(randomiserSeed);
-        encodeSeed();
+        seed = encodeSeed(randomiserSeed);
     };
 
     function handleStart() {
