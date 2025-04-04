@@ -17,10 +17,12 @@
     }
 
     const parseDate = (newDate) => {
-        date = newDate.toDateString();
-        const isoString = newDate.toISOString();
-        randomiserSeed = parseInt(isoString.slice(0, 4) + isoString.slice(5, 7) + isoString.slice(8, 10));
+        const localDate = new Date(newDate.getFullYear(), newDate.getMonth(), newDate.getDate()); // Strips time
+        date = localDate.toDateString();
+        const isoString = localDate.toISOString().split("T")[0]; // Ensures UTC day matches local day
+        randomiserSeed = parseInt(isoString.replace(/-/g, ''), 10);
         randomiser = seededRandom(randomiserSeed);
+        console.log("Date:", date, "ISO:", isoString, "Seed:", randomiserSeed);
         handleStart();
     }
 
