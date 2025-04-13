@@ -134,5 +134,45 @@
     "tags": [
       "Geography"
     ]
+  },
+  "jap-n5": {
+    "title": "Japanese N5 Kanji",
+    "instructions": "Guess the kana for these N5 kanji!",
+    "tags": [
+      "Japanese",
+      "Language"
+    ]
+  },
+  "jap-n4": {
+    "title": "Japanese N4 Kanji",
+    "instructions": "Guess the kana for these N4 kanji!",
+    "tags": [
+      "Japanese",
+      "Language"
+    ]
+  },
+  "jap-n3": {
+    "title": "Japanese N3 Kanji",
+    "instructions": "Guess the kana for these N3 kanji!",
+    "tags": [
+      "Japanese",
+      "Language"
+    ]
+  },
+  "jap-n2": {
+    "title": "Japanese N2 Kanji",
+    "instructions": "Guess the kana for these N2 kanji!",
+    "tags": [
+      "Japanese",
+      "Language"
+    ]
+  },
+  "jap-n1": {
+    "title": "Japanese N1 Kanji",
+    "instructions": "Guess the kana for these N1 kanji!",
+    "tags": [
+      "Japanese",
+      "Language"
+    ]
   }
 }

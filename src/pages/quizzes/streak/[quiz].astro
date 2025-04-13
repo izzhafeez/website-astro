@@ -7,6 +7,11 @@ import nusModsData from "../../../data/quizzes/streak/nus-mods.json";
 import ntuModsData from "../../../data/quizzes/streak/ntu-mods.json";
 import pythonLibrariesData from "../../../data/quizzes/streak/python-libraries.json";
 import statusCodesData from "../../../data/quizzes/streak/status-codes.json";
+import japn5Data from "../../../data/quizzes/streak/jap-n5.json";
+import japn4Data from "../../../data/quizzes/streak/jap-n4.json";
+import japn3Data from "../../../data/quizzes/streak/jap-n3.json";
+import japn2Data from "../../../data/quizzes/streak/jap-n2.json";
+import japn1Data from "../../../data/quizzes/streak/jap-n1.json";
 import StreakQuiz from "../../../components/quizzes/streak/StreakQuiz.svelte";
 import NavBar from "../../../components/common/NavBar.astro";
 import Layout from "../../../layouts/Layout.astro";
@@ -215,6 +220,46 @@ export async function getStaticPaths() {
         ),
         instructions: "Guess the Japanese city based on its local name. Answers are case and space-insensitive. Use regex to choose what cities you would like to include in the quiz (tip: try typing 'Tokyo' or '京' and see what you get). Feel free to choose your preferred difficulty; they all become more difficult the higher your streak goes! Good luck!",
         defaultRegex: ''
+      }
+    },
+    {
+      params: { quiz: "jap-n5" },
+      props: {
+        title: "Japanese N5 Kanji",
+        data: japn5Data,
+        instructions: "Guess the kana for these N5 kanji. Most of the answers are in hiragana, but the loan words are in katakana."
+      }
+    },
+    {
+      params: { quiz: "jap-n4" },
+      props: {
+        title: "Japanese N4 Kanji",
+        data: japn4Data,
+        instructions: "Guess the kana for these N4 kanji. Most of the answers are in hiragana, but the loan words are in katakana."
+      }
+    },
+    {
+      params: { quiz: "jap-n2" },
+      props: {
+        title: "Japanese N2 Kanji",
+        data: japn2Data,
+        instructions: "Guess the kana for these N2 kanji. Most of the answers are in hiragana, but the loan words are in katakana."
+      }
+    },
+    {
+      params: { quiz: "jap-n2" },
+      props: {
+        title: "Japanese N2 Kanji",
+        data: japn2Data,
+        instructions: "Guess the kana for these N2 kanji. Most of the answers are in hiragana, but the loan words are in katakana."
+      }
+    },
+    {
+      params: { quiz: "jap-n1" },
+      props: {
+        title: "Japanese N1 Kanji",
+        data: japn1Data,
+        instructions: "Guess the kana for these N1 kanji. Most of the answers are in hiragana, but the loan words are in katakana."
       }
     }
   ];
