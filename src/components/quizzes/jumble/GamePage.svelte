@@ -1,17 +1,16 @@
 <script lang="ts">
     import { fly, fade } from 'svelte/transition';
     import Swal from 'sweetalert2';
+    import showResults, { shareResults } from '../../common/showResults';
     export let chosen;
     export let title;
-    export let instructions;
     export let isStart;
     export let scrambleFactor;
     export let mixFactor;
     export let randomiser;
-    export let changeSeed;
     export let seed;
-    export let date;
-    export let key;
+    export let randomiseSeed;
+    export let MAX_LENGTH;
     
     let givenUp = false;
     // all the individual letters in the chosen words
@@ -20,11 +19,21 @@
             .split('')
             .map(letter => [letter, i])
             .map((a: any, j: number) => [a, j])
-            .sort((a: any, b: any) => (scrambleFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0)
+            .sort((a: any, b: any) => {
+                if (isNaN(scrambleFactor)) scrambleFactor = 3;
+                if (scrambleFactor < 0) scrambleFactor = 0;
+                if (scrambleFactor > 5) scrambleFactor = 5;
+                return (scrambleFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0
+            })
             .map((a: any) => a[0])
         )
         .flat()
-        .sort((a: any, b: any) => a[1] == b[1] ? 0 : (mixFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0)
+        .sort((a: any, b: any) => {
+            if (isNaN(mixFactor)) mixFactor = 3;
+            if (mixFactor < 0) mixFactor = 0;
+            if (mixFactor > 5) mixFactor = 5;
+            return a[1] == b[1] ? 0 : (mixFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0
+        })
         .map((a: any) => a[0]);
     let badLetters: string[] = [];
     // same length as letters
@@ -69,15 +78,19 @@
             }
 
             score = chosen.length;
-
-            Swal.fire({
-                html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
-            });
+            
             givenUp = true;
 
-            if (date) {
-                localStorage.setItem(`jumble-${key}-${date}`, "✓");
+            let text = `Jumble Master: ${title}\n`;
+            let seedString = seed.toString();
+            if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+                text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
             }
+            text += `I got all ${setOfResponses.size}/${setOfResponses.size}!\n`;
+            text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}&scramble=${scrambleFactor}&mix=${mixFactor}\n`;
+
+            showResults(setOfResponses.size, setOfChosens.size, null, text);
+            randomiseSeed();
         }
     };
 
@@ -101,39 +114,26 @@
 
                 // reveal all responses
                 responses.forEach((response, i) => {
-                    responses[i] = chosen[i];
+                    if (responses[i] != chosen[i]) {
+                        responses[i] = `${chosen[i]} ${responses[i] ? "(" + responses[i] + ")" : ""}`;
+                    }
                 });
 
-                if (date) {
-                    localStorage.setItem(`jumble-${key}-${date}`, "✗");
-                }
                 givenUp = true;
-                changeSeed();
+                randomiseSeed();
             }
         });
     }
 
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
     const copyResults = () => {
-        const green = "🟩";
-        const red = "🟥";
-        let text = `Jumble Master: ${title}\n`;
-        text += `Daily Challenge on ${date}\n`;
-        for (let i = 0; i < chosen.length; i++) {
-            text += setOfResponses.has(chosen[i]) ? green : red;
+        let text = `${title}\n`;
+        let seedString = seed.toString();
+        if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+            text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
         }
-        text += `\nhttps://izzhafeez.com/quizzes/jumble/${key}/daily-challenge`
-        navigator.clipboard.writeText(text);
-        toast.fire({
-            icon: 'success',
-            text: 'Copied Results',
-        });
+        text += `I got ${score}/${chosen.length} correct!\n`;
+        text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}&scramble=${scrambleFactor}&mix=${mixFactor}\n`;
+        shareResults(text);
     }
 </script>
 
@@ -161,19 +161,17 @@
 
         <!-- give up -->
         {#if !givenUp}
-            <button on:click={giveUp} class='bg-ns-300/20 hover:bg-ns-300/50 text-ns-500 dark:text-ns-300 rounded-lg py-1 px-2'>Give Up</button>
+            <button on:click={giveUp} class='bg-ns-300/20 hover:bg-ns-300/50 text-ns-700 dark:text-ns-300 rounded-lg py-1 px-2'>Give Up</button>
         {:else}
         <div class="flex gap-4">
             <!-- score -->
             <h2 class="my-auto">Score: {score}/{chosen.length}</h2>
 
             <!-- copy results -->
-            {#if date}
-                <button on:click={copyResults} class='bg-cc-300/20 hover:bg-cc-300/50 text-cc-500 dark:text-cc-300 rounded-lg py-1 px-2'>Copy Results</button>
-            {/if}
+            <button on:click={copyResults} class='bg-cc-300/20 hover:bg-cc-300/50 text-cc-700 dark:text-cc-300 rounded-lg py-1 px-2'>Share Results</button>
 
             <!-- handle next -->
-            <button on:click={() => {isStart = false;}} class='bg-ew-300/20 hover:bg-ew-300/50 text-ew-500 dark:text-ew-300 rounded-lg py-1 px-2'>Next</button>
+            <button on:click={() => {isStart = false;}} class='bg-ew-300/20 hover:bg-ew-300/50 text-ew-700 dark:text-ew-300 rounded-lg py-1 px-2'>Play Again</button>
         </div>
         {/if}
     </div>
