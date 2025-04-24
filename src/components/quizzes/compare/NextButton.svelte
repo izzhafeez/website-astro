@@ -8,14 +8,13 @@
   export let rightPlaceholder: string;
   export let startNumber: number;
   export let showNextButton: boolean;
-  export let count: number;
 
   async function handleNext() {
     left.quantity = right.quantity
     await changeToTarget(right.name);
   
     while (right.name === left.name) {
-      right = dataList[Math.floor(Math.random() * Math.min(count, dataList.length))];
+      right = dataList[Math.floor(Math.random() * dataList.length)];
     }
 
     isGuessing = true;
