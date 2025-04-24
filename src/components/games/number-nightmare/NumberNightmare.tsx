@@ -261,7 +261,7 @@ function NumberNightmare({ id }: { id: string }) {
         title: `What each person played`,
         html: `
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+            <thead class="text-xs text-gray-700 uppercase bg-white">
               <tr>
                 <th scope="col" class="px-6 py-3">Name</th>
                 <th scope="col" class="px-6 py-3">Number</th>
@@ -269,7 +269,7 @@ function NumberNightmare({ id }: { id: string }) {
               </tr>
             </thead>
             ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
-              <tr class="bg-white border-b">
+              <tr class="bg-gray-100 border-b">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
                 <td class="px-6 py-4 font-light">${playerData.played}</td>
                 <td class="px-6 py-4 font-light">${playerData.satisfy_count}</td>
@@ -364,7 +364,7 @@ function NumberNightmare({ id }: { id: string }) {
   const namesLength = conditions.map((condition) => condition.rep.length).reduce((a: number, b: number) => a + b, 0);
 
   return <>
-    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-white dark:bg-gray-800 w-full -z-10 text-wrap">
       {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
@@ -374,7 +374,7 @@ function NumberNightmare({ id }: { id: string }) {
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -388,7 +388,7 @@ function NumberNightmare({ id }: { id: string }) {
 
       {/* selected card */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
       </>}
 
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <div className='flex flex-wrap gap-2'>
@@ -402,19 +402,19 @@ function NumberNightmare({ id }: { id: string }) {
 
       {/* input box to selectNumber */}
       {gameStatus === 'PLAYING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Select a number between 1 and 99 inclusive:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Select a number between 1 and 99 inclusive:</h3>
         <form onSubmit={submitCard}>
-          <input type="number" value={selectedNumber} onChange={(e) => setSelectedNumber(e.target.value)} className="p-2 rounded-md border-[1px] border-dt-500 dark:border-dt-300 bg-white dark:bg-gray-700" />
+          <input type="number" value={selectedNumber} onChange={(e) => setSelectedNumber(e.target.value)} className="p-2 rounded-md border-[1px] border-dt-500 dark:border-dt-300 bg-gray-100 dark:bg-gray-700" />
           <button onClick={submitCard} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white ms-2">Play Card</button>
         </form>
       </>}
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500 my-auto`}>
                 {name} ({playerData.played})
