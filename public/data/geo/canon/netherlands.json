@@ -1,0 +1,1712 @@
+{
+    "Amsterdam [amsterdam0] |amsterdam|amsterdam #XXX#": [
+        4.9,
+        52.373,
+        935793
+    ],
+    "Rotterdam [rotterdam0] |rotterdam|rotterdam #XXX#": [
+        4.489,
+        51.92,
+        672330
+    ],
+    "The Hague [the_hague0] |the_hague|den_haag #XXX#": [
+        4.313,
+        52.079,
+        568419
+    ],
+    "Utrecht [utrecht0] |utrecht|utrecht #XXX#": [
+        5.119,
+        52.093,
+        376435
+    ],
+    "Eindhoven [eindhoven0] |eindhoven|eindhoven #XXX#": [
+        5.479,
+        51.439,
+        249054
+    ],
+    "Groningen [groningen0] |groningen|groningen #XXX#": [
+        6.568,
+        53.219,
+        244807
+    ],
+    "Tilburg [tilburg0] |tilburg|tilburg #XXX#": [
+        5.09,
+        51.557,
+        230359
+    ],
+    "Almere [almere0] |almere|almere #XXX#": [
+        5.22,
+        52.372,
+        229570
+    ],
+    "Nijmegen [nijmegen0] |nijmegen|nijmegen #XXX#": [
+        5.864,
+        51.848,
+        188981
+    ],
+    "Breda [breda0] |breda|breda #XXX#": [
+        4.774,
+        51.589,
+        188834
+    ],
+    "Arnhem [arnhem0] |arnhem|arnhem #XXX#": [
+        5.903,
+        52.001,
+        169302
+    ],
+    "Haarlem [haarlem0] |haarlem|haarlem #XXX#": [
+        4.649,
+        52.385,
+        168655
+    ],
+    "Apeldoorn [apeldoorn0] |apeldoorn|apeldoorn #XXX#": [
+        5.947,
+        52.186,
+        168563
+    ],
+    "Haarlemmermeer [haarlemmermeer0] |haarlemmermeer|haarlemmermeer #XXX#": [
+        4.686,
+        52.3,
+        165220
+    ],
+    "Amersfoort [amersfoort0] |amersfoort|amersfoort #XXX#": [
+        5.385,
+        52.17,
+        163310
+    ],
+    "Zaanstad [zaanstad0] |zaanstad|zaanstad #XXX#": [
+        4.761,
+        52.467,
+        162784
+    ],
+    "Enschede [enschede0] |enschede|enschede #XXX#": [
+        6.906,
+        52.229,
+        162337
+    ],
+    "Den Bosch [den_bosch0] |den_bosch|s_hertogenbosch #XXX#": [
+        5.319,
+        51.707,
+        161557
+    ],
+    "Zwolle [zwolle0] |zwolle|zwolle #XXX#": [
+        6.122,
+        52.51,
+        133830
+    ],
+    "Leiden [leiden0] |leiden|leiden #XXX#": [
+        4.489,
+        52.153,
+        130613
+    ],
+    "Leeuwarden [leeuwarden0] |leeuwarden|leeuwarden #XXX#": [
+        5.821,
+        53.135,
+        129970
+    ],
+    "Zoetermeer [zoetermeer0] |zoetermeer|zoetermeer #XXX#": [
+        4.496,
+        52.06,
+        129941
+    ],
+    "Maastricht [maastricht0] |maastricht|maastricht #XXX#": [
+        5.702,
+        50.85,
+        125666
+    ],
+    "Ede [ede0] |ede|ede #XXX#": [
+        5.675,
+        52.064,
+        124262
+    ],
+    "Dordrecht [dordrecht0] |dordrecht|dordrecht #XXX#": [
+        4.68,
+        51.775,
+        122847
+    ],
+    "Westland [westland0] |westland|westland #XXX#": [
+        4.223,
+        51.992,
+        116897
+    ],
+    "Alphen aan den Rijn [alphen_aan_den_rijn0] |alphen_aan_den_rijn|alphen_aan_den_rijn #XXX#": [
+        4.656,
+        52.116,
+        115746
+    ],
+    "Alkmaar [alkmaar0] |alkmaar|alkmaar #XXX#": [
+        4.804,
+        52.599,
+        112923
+    ],
+    "Delft [delft0] |delft|delft #XXX#": [
+        4.364,
+        52.0,
+        110224
+    ],
+    "Emmen [emmen0] |emmen|emmen #XXX#": [
+        6.965,
+        52.746,
+        109698
+    ],
+    "Deventer [deventer0] |deventer|deventer #XXX#": [
+        6.218,
+        52.273,
+        104301
+    ],
+    "Venlo [venlo0] |venlo|venlo #XXX#": [
+        6.168,
+        51.368,
+        103982
+    ],
+    "Helmond [helmond0] |helmond|helmond #XXX#": [
+        5.656,
+        51.48,
+        96540
+    ],
+    "Purmerend [purmerend0] |purmerend|purmerend #XXX#": [
+        4.972,
+        52.501,
+        95921
+    ],
+    "Amstelveen [amstelveen0] |amstelveen|amstelveen #XXX#": [
+        4.852,
+        52.285,
+        95862
+    ],
+    "Oss [oss0] |oss|oss #XXX#": [
+        5.553,
+        51.778,
+        95233
+    ],
+    "Hilversum [hilversum0] |hilversum|hilversum #XXX#": [
+        5.176,
+        52.214,
+        94351
+    ],
+    "Land van Cuijk [land_van_cuijk0] |land_van_cuijk|land_van_cuijk #XXX#": [
+        5.852,
+        51.656,
+        92774
+    ],
+    "Sittard Geleen [sittard_geleen0] |sittard_geleen|sittard_geleen #XXX#": [
+        5.827,
+        51.0,
+        92487
+    ],
+    "Hoeksche Waard [hoeksche_waard0] |hoeksche_waard|hoeksche_waard #XXX#": [
+        4.511,
+        51.769,
+        90768
+    ],
+    "Dijk en Waard [dijk_en_waard0] |dijk_en_waard|dijk_en_waard #XXX#": [
+        4.832,
+        52.683,
+        90745
+    ],
+    "Sudwest Fryslan [sudwest_fryslan0] |sudwest_fryslan|sudwest_fryslan #XXX#": [
+        5.504,
+        53.023,
+        90532
+    ],
+    "Nissewaard [nissewaard0] |nissewaard|nissewaard #XXX#": [
+        4.283,
+        51.835,
+        88355
+    ],
+    "Heerlen [heerlen0] |heerlen|heerlen #XXX#": [
+        5.963,
+        50.904,
+        87514
+    ],
+    "Lelystad [lelystad0] |lelystad|lelystad #XXX#": [
+        5.5,
+        52.485,
+        84722
+    ],
+    "Meierijstad [meierijstad0] |meierijstad|meierijstad #XXX#": [
+        5.574,
+        51.601,
+        84696
+    ],
+    "Hengelo [hengelo0] |hengelo|hengelo #XXX#": [
+        6.795,
+        52.268,
+        83644
+    ],
+    "Schiedam [schiedam0] |schiedam|schiedam #XXX#": [
+        4.389,
+        51.921,
+        82559
+    ],
+    "Leidschendam Voorburg [leidschendam_voorburg0] |leidschendam_voorburg|leidschendam_voorburg #XXX#": [
+        4.425,
+        52.085,
+        78309
+    ],
+    "Roosendaal [roosendaal0] |roosendaal|roosendaal #XXX#": [
+        4.431,
+        51.51,
+        77722
+    ],
+    "Vlaardingen [vlaardingen0] |vlaardingen|vlaardingen #XXX#": [
+        4.336,
+        51.92,
+        77234
+    ],
+    "Gouda [gouda0] |gouda|gouda #XXX#": [
+        4.702,
+        52.018,
+        76536
+    ],
+    "Hoorn [hoorn0] |hoorn|hoorn #XXX#": [
+        5.065,
+        52.655,
+        76050
+    ],
+    "Almelo [almelo0] |almelo|almelo #XXX#": [
+        6.658,
+        52.346,
+        74752
+    ],
+    "Voorne aan Zee [voorne_aan_zee0] |voorne_aan_zee|voorne_aan_zee #XXX#": [
+        4.145,
+        51.847,
+        74544
+    ],
+    "Assen [assen0] |assen|assen #XXX#": [
+        6.558,
+        52.999,
+        70395
+    ],
+    "Veenendaal [veenendaal0] |veenendaal|veenendaal #XXX#": [
+        5.554,
+        52.024,
+        70339
+    ],
+    "Bergen op Zoom [bergen_op_zoom0] |bergen_op_zoom|bergen_op_zoom #XXX#": [
+        4.275,
+        51.51,
+        70216
+    ],
+    "Velsen [velsen0] |velsen|velsen #XXX#": [
+        4.632,
+        52.451,
+        70004
+    ],
+    "Capelle aan den IJssel [capelle_aan_den_ijssel0] |capelle_aan_den_ijssel|capelle_aan_den_ijssel #XXX#": [
+        4.588,
+        51.939,
+        68673
+    ],
+    "Katwijk [katwijk0] |katwijk|katwijk #XXX#": [
+        4.413,
+        52.192,
+        67085
+    ],
+    "Nieuwegein [nieuwegein0] |nieuwegein|nieuwegein #XXX#": [
+        5.091,
+        52.029,
+        66750
+    ],
+    "Zeist [zeist0] |zeist|zeist #XXX#": [
+        5.251,
+        52.095,
+        66740
+    ],
+    "Stichtse Vecht [stichtse_vecht0] |stichtse_vecht|stichtse_vecht #XXX#": [
+        4.989,
+        52.174,
+        66124
+    ],
+    "Lansingerland [lansingerland0] |lansingerland|lansingerland #XXX#": [
+        4.513,
+        52.001,
+        66093
+    ],
+    "Westerkwartier [westerkwartier0] |westerkwartier|westerkwartier #XXX#": [
+        6.333,
+        53.227,
+        64834
+    ],
+    "Hardenberg [hardenberg0] |hardenberg|hardenberg #XXX#": [
+        6.605,
+        52.59,
+        63423
+    ],
+    "Barneveld [barneveld0] |barneveld|barneveld #XXX#": [
+        5.682,
+        52.18,
+        63160
+    ],
+    "Vijfheerenlanden [vijfheerenlanden0] |vijfheerenlanden|vijfheerenlanden #XXX#": [
+        5.084,
+        51.942,
+        62554
+    ],
+    "Midden Groningen [midden_groningen0] |midden_groningen|midden_groningen #XXX#": [
+        6.799,
+        53.205,
+        61374
+    ],
+    "Roermond [roermond0] |roermond|roermond #XXX#": [
+        6.024,
+        51.205,
+        61227
+    ],
+    "Gooise Meren [gooise_meren0] |gooise_meren|gooise_meren #XXX#": [
+        5.135,
+        52.299,
+        61015
+    ],
+    "Rijswijk [rijswijk0] |rijswijk|rijswijk #XXX#": [
+        4.329,
+        52.036,
+        60710
+    ],
+    "Doetinchem [doetinchem0] |doetinchem|doetinchem #XXX#": [
+        6.301,
+        51.966,
+        60051
+    ],
+    "Maashorst [maashorst0] |maashorst|maashorst #XXX#": [
+        5.654,
+        51.687,
+        59668
+    ],
+    "Altena [altena0] |altena|altena #XXX#": [
+        4.93,
+        51.774,
+        58736
+    ],
+    "Oosterhout [oosterhout0] |oosterhout|oosterhout #XXX#": [
+        4.871,
+        51.639,
+        58381
+    ],
+    "Pijnacker Nootdorp [pijnacker_nootdorp0] |pijnacker_nootdorp|pijnacker_nootdorp #XXX#": [
+        4.424,
+        52.019,
+        58120
+    ],
+    "Krimpenerwaard [krimpenerwaard0] |krimpenerwaard|krimpenerwaard #XXX#": [
+        4.752,
+        51.945,
+        57800
+    ],
+    "Smallingerland [smallingerland0] |smallingerland|smallingerland #XXX#": [
+        6.063,
+        53.114,
+        57095
+    ],
+    "Hoogeveen [hoogeveen0] |hoogeveen|hoogeveen #XXX#": [
+        6.525,
+        52.717,
+        56917
+    ],
+    "Den Helder [den_helder0] |den_helder|den_helder #XXX#": [
+        4.753,
+        52.923,
+        56655
+    ],
+    "Kampen [kampen0] |kampen|kampen #XXX#": [
+        5.929,
+        52.556,
+        56541
+    ],
+    "Terneuzen [terneuzen0] |terneuzen|terneuzen #XXX#": [
+        3.878,
+        51.279,
+        55663
+    ],
+    "Woerden [woerden0] |woerden|woerden #XXX#": [
+        4.896,
+        52.107,
+        53974
+    ],
+    "West Betuwe [west_betuwe0] |west_betuwe|west_betuwe #XXX#": [
+        5.21,
+        51.868,
+        53263
+    ],
+    "De Fryske Marren [de_fryske_marren0] |de_fryske_marren|de_fryske_marren #XXX#": [
+        5.792,
+        52.931,
+        52234
+    ],
+    "Goeree Overflakkee [goeree_overflakkee0] |goeree_overflakkee|goeree_overflakkee #XXX#": [
+        4.084,
+        51.756,
+        52208
+    ],
+    "Heerenveen [heerenveen0] |heerenveen|heerenveen #XXX#": [
+        5.93,
+        52.996,
+        51859
+    ],
+    "Weert [weert0] |weert|weert #XXX#": [
+        5.698,
+        51.233,
+        51378
+    ],
+    "Waalwijk [waalwijk0] |waalwijk|waalwijk #XXX#": [
+        4.97,
+        51.693,
+        51238
+    ],
+    "Houten [houten0] |houten|houten #XXX#": [
+        5.17,
+        52.008,
+        50943
+    ],
+    "Utrechtse Heuvelrug [utrechtse_heuvelrug0] |utrechtse_heuvelrug|utrechtse_heuvelrug #XXX#": [
+        5.375,
+        52.043,
+        50941
+    ],
+    "Noordoostpolder [noordoostpolder0] |noordoostpolder|noordoostpolder #XXX#": [
+        5.741,
+        52.718,
+        50803
+    ],
+    "Middelburg [middelburg0] |middelburg|middelburg #XXX#": [
+        3.665,
+        51.497,
+        50167
+    ],
+    "Harderwijk [harderwijk0] |harderwijk|harderwijk #XXX#": [
+        5.67,
+        52.339,
+        50070
+    ],
+    "Hollands Kroon [hollands_kroon0] |hollands_kroon|hollands_kroon #XXX#": [
+        5.002,
+        52.841,
+        49984
+    ],
+    "Zutphen [zutphen0] |zutphen|zutphen #XXX#": [
+        6.212,
+        52.135,
+        49038
+    ],
+    "Overbetuwe [overbetuwe0] |overbetuwe|overbetuwe #XXX#": [
+        5.774,
+        51.921,
+        48943
+    ],
+    "Zuidplas [zuidplas0] |zuidplas|zuidplas #XXX#": [
+        4.623,
+        51.991,
+        48705
+    ],
+    "Barendrecht [barendrecht0] |barendrecht|barendrecht #XXX#": [
+        4.53,
+        51.85,
+        48568
+    ],
+    "Schagen [schagen0] |schagen|schagen #XXX#": [
+        4.74,
+        52.784,
+        48402
+    ],
+    "Het Hogeland [het_hogeland0] |het_hogeland|het_hogeland #XXX#": [
+        6.532,
+        53.363,
+        48190
+    ],
+    "Ridderkerk [ridderkerk0] |ridderkerk|ridderkerk #XXX#": [
+        4.592,
+        51.869,
+        48011
+    ],
+    "Soest [soest0] |soest|soest #XXX#": [
+        5.296,
+        52.156,
+        48001
+    ],
+    "Lingewaard [lingewaard0] |lingewaard|lingewaard #XXX#": [
+        5.935,
+        51.912,
+        47655
+    ],
+    "Veldhoven [veldhoven0] |veldhoven|veldhoven #XXX#": [
+        5.396,
+        51.408,
+        47604
+    ],
+    "Waadhoeke [waadhoeke0] |waadhoeke|waadhoeke #XXX#": [
+        5.605,
+        53.221,
+        46865
+    ],
+    "Heusden [heusden0] |heusden|heusden #XXX#": [
+        5.164,
+        51.704,
+        46345
+    ],
+    "Noordwijk [noordwijk0] |noordwijk|noordwijk #XXX#": [
+        4.442,
+        52.231,
+        45946
+    ],
+    "Medemblik [medemblik0] |medemblik|medemblik #XXX#": [
+        5.09,
+        52.726,
+        45943
+    ],
+    "De Ronde Venen [de_ronde_venen0] |de_ronde_venen|de_ronde_venen #XXX#": [
+        4.898,
+        52.209,
+        45924
+    ],
+    "Peel en Maas [peel_en_maas0] |peel_en_maas|peel_en_maas #XXX#": [
+        6.027,
+        51.333,
+        45899
+    ],
+    "Noardeast Fryslan [noardeast_fryslan0] |noardeast_fryslan|noardeast_fryslan #XXX#": [
+        5.996,
+        53.357,
+        45875
+    ],
+    "Vlissingen [vlissingen0] |vlissingen|vlissingen #XXX#": [
+        3.63,
+        51.46,
+        45768
+    ],
+    "Nijkerk [nijkerk0] |nijkerk|nijkerk #XXX#": [
+        5.469,
+        52.212,
+        45725
+    ],
+    "Steenwijkerland [steenwijkerland0] |steenwijkerland|steenwijkerland #XXX#": [
+        6.04,
+        52.734,
+        45706
+    ],
+    "Kerkrade [kerkrade0] |kerkrade|kerkrade #XXX#": [
+        6.06,
+        50.876,
+        45485
+    ],
+    "Etten Leur [etten_leur0] |etten_leur|etten_leur #XXX#": [
+        4.638,
+        51.583,
+        45475
+    ],
+    "Molenlanden [molenlanden0] |molenlanden|molenlanden #XXX#": [
+        4.889,
+        51.888,
+        45373
+    ],
+    "Zevenaar [zevenaar0] |zevenaar|zevenaar #XXX#": [
+        6.075,
+        51.96,
+        45212
+    ],
+    "Dronten [dronten0] |dronten|dronten #XXX#": [
+        5.706,
+        52.501,
+        44883
+    ],
+    "Eemsdelta [eemsdelta0] |eemsdelta|eemsdelta #XXX#": [
+        6.817,
+        53.353,
+        44813
+    ],
+    "Venray [venray0] |venray|venray #XXX#": [
+        5.942,
+        51.509,
+        44810
+    ],
+    "Zwijndrecht [zwijndrecht0] |zwijndrecht|zwijndrecht #XXX#": [
+        4.584,
+        51.826,
+        44680
+    ],
+    "Horst aan de Maas [horst_aan_de_maas0] |horst_aan_de_maas|horst_aan_de_maas #XXX#": [
+        6.006,
+        51.428,
+        44276
+    ],
+    "Berkelland [berkelland0] |berkelland|berkelland #XXX#": [
+        6.558,
+        52.107,
+        43922
+    ],
+    "De Bilt [de_bilt0] |de_bilt|de_bilt #XXX#": [
+        5.187,
+        52.139,
+        43794
+    ],
+    "Rheden [rheden0] |rheden|rheden #XXX#": [
+        6.059,
+        52.046,
+        43785
+    ],
+    "Beverwijk [beverwijk0] |beverwijk|beverwijk #XXX#": [
+        4.678,
+        52.479,
+        43005
+    ],
+    "Wageningen [wageningen0] |wageningen|wageningen #XXX#": [
+        5.657,
+        51.974,
+        42802
+    ],
+    "Tiel [tiel0] |tiel|tiel #XXX#": [
+        5.402,
+        51.876,
+        42590
+    ],
+    "Wijchen [wijchen0] |wijchen|wijchen #XXX#": [
+        5.721,
+        51.808,
+        41833
+    ],
+    "Huizen [huizen0] |huizen|huizen #XXX#": [
+        5.244,
+        52.296,
+        41197
+    ],
+    "Geldrop Mierlo [geldrop_mierlo0] |geldrop_mierlo|geldrop_mierlo #XXX#": [
+        5.59,
+        51.436,
+        40765
+    ],
+    "Goes [goes0] |goes|goes #XXX#": [
+        3.822,
+        51.516,
+        40125
+    ],
+    "Oldambt [oldambt0] |oldambt|oldambt #XXX#": [
+        7.016,
+        53.188,
+        39576
+    ],
+    "Oude IJsselstreek [oude_ijsselstreek0] |oude_ijsselstreek|oude_ijsselstreek #XXX#": [
+        6.428,
+        51.918,
+        39502
+    ],
+    "Heemskerk [heemskerk0] |heemskerk|heemskerk #XXX#": [
+        4.623,
+        52.514,
+        39387
+    ],
+    "Gorinchem [gorinchem0] |gorinchem|gorinchem #XXX#": [
+        4.965,
+        51.842,
+        38852
+    ],
+    "Rijssen Holten [rijssen_holten0] |rijssen_holten|rijssen_holten #XXX#": [
+        6.408,
+        52.284,
+        38830
+    ],
+    "Raalte [raalte0] |raalte|raalte #XXX#": [
+        6.284,
+        52.374,
+        38616
+    ],
+    "Teylingen [teylingen0] |teylingen|teylingen #XXX#": [
+        4.515,
+        52.213,
+        38410
+    ],
+    "Moerdijk [moerdijk0] |moerdijk|moerdijk #XXX#": [
+        4.518,
+        51.649,
+        38274
+    ],
+    "Bodegraven Reeuwijk [bodegraven_reeuwijk0] |bodegraven_reeuwijk|bodegraven_reeuwijk #XXX#": [
+        4.77,
+        52.063,
+        37220
+    ],
+    "Edam Volendam [edam_volendam0] |edam_volendam|edam_volendam #XXX#": [
+        5.06,
+        52.507,
+        37145
+    ],
+    "Montferland [montferland0] |montferland|montferland #XXX#": [
+        6.239,
+        51.907,
+        36994
+    ],
+    "Landgraaf [landgraaf0] |landgraaf|landgraaf #XXX#": [
+        6.021,
+        50.904,
+        36850
+    ],
+    "Castricum [castricum0] |castricum|castricum #XXX#": [
+        4.665,
+        52.558,
+        36616
+    ],
+    "Maassluis [maassluis0] |maassluis|maassluis #XXX#": [
+        4.24,
+        51.93,
+        36437
+    ],
+    "Meppel [meppel0] |meppel|meppel #XXX#": [
+        6.171,
+        52.725,
+        36288
+    ],
+    "Hellendoorn [hellendoorn0] |hellendoorn|hellendoorn #XXX#": [
+        6.445,
+        52.376,
+        36211
+    ],
+    "Leudal [leudal0] |leudal|leudal #XXX#": [
+        5.925,
+        51.257,
+        36108
+    ],
+    "Bronckhorst [bronckhorst0] |bronckhorst|bronckhorst #XXX#": [
+        6.328,
+        52.063,
+        36007
+    ],
+    "Coevorden [coevorden0] |coevorden|coevorden #XXX#": [
+        6.737,
+        52.736,
+        35868
+    ],
+    "Beekdaelen [beekdaelen0] |beekdaelen|beekdaelen #XXX#": [
+        5.87,
+        50.91,
+        35817
+    ],
+    "Hof van Twente [hof_van_twente0] |hof_van_twente|hof_van_twente #XXX#": [
+        6.527,
+        52.231,
+        35669
+    ],
+    "Berg en Dal [berg_en_dal0] |berg_en_dal|berg_en_dal #XXX#": [
+        5.926,
+        51.847,
+        35556
+    ],
+    "Waddinxveen [waddinxveen0] |waddinxveen|waddinxveen #XXX#": [
+        4.637,
+        52.04,
+        35043
+    ],
+    "Tynaarlo [tynaarlo0] |tynaarlo|tynaarlo #XXX#": [
+        6.573,
+        53.102,
+        35013
+    ],
+    "Schouwen Duiveland [schouwen_duiveland0] |schouwen_duiveland|schouwen_duiveland #XXX#": [
+        3.945,
+        51.684,
+        34424
+    ],
+    "Lochem [lochem0] |lochem|lochem #XXX#": [
+        6.384,
+        52.186,
+        34314
+    ],
+    "Boxtel [boxtel0] |boxtel|boxtel #XXX#": [
+        5.312,
+        51.578,
+        34237
+    ],
+    "Twenterand [twenterand0] |twenterand|twenterand #XXX#": [
+        6.634,
+        52.433,
+        34115
+    ],
+    "Midden Drenthe [midden_drenthe0] |midden_drenthe|midden_drenthe #XXX#": [
+        6.571,
+        52.844,
+        34021
+    ],
+    "Epe [epe0] |epe|epe #XXX#": [
+        5.943,
+        52.334,
+        33469
+    ],
+    "Deurne [deurne0] |deurne|deurne #XXX#": [
+        5.823,
+        51.451,
+        33388
+    ],
+    "IJsselstein [ijsselstein0] |ijsselstein|ijsselstein #XXX#": [
+        5.016,
+        52.041,
+        33349
+    ],
+    "Diemen [diemen0] |diemen|diemen #XXX#": [
+        4.971,
+        52.341,
+        33256
+    ],
+    "Aalsmeer [aalsmeer0] |aalsmeer|aalsmeer #XXX#": [
+        4.744,
+        52.248,
+        33209
+    ],
+    "Oisterwijk [oisterwijk0] |oisterwijk|oisterwijk #XXX#": [
+        5.192,
+        51.55,
+        33120
+    ],
+    "Vught [vught0] |vught|vught #XXX#": [
+        5.275,
+        51.653,
+        33024
+    ],
+    "Hendrik Ido Ambacht [hendrik_ido_ambacht0] |hendrik_ido_ambacht|hendrik_ido_ambacht #XXX#": [
+        4.646,
+        51.841,
+        32852
+    ],
+    "Tytsjerksteradiel [tytsjerksteradiel0] |tytsjerksteradiel|tietjerksteradeel #XXX#": [
+        5.984,
+        53.188,
+        32823
+    ],
+    "Bernheze [bernheze0] |bernheze|bernheze #XXX#": [
+        5.529,
+        51.684,
+        32618
+    ],
+    "Papendrecht [papendrecht0] |papendrecht|papendrecht #XXX#": [
+        4.689,
+        51.833,
+        32300
+    ],
+    "Echt Susteren [echt_susteren0] |echt_susteren|echt_susteren #XXX#": [
+        5.887,
+        51.094,
+        32273
+    ],
+    "Uithoorn [uithoorn0] |uithoorn|uithoorn #XXX#": [
+        4.8,
+        52.243,
+        32117
+    ],
+    "Stadskanaal [stadskanaal0] |stadskanaal|stadskanaal #XXX#": [
+        7.018,
+        52.999,
+        32045
+    ],
+    "Oldenzaal [oldenzaal0] |oldenzaal|oldenzaal #XXX#": [
+        6.918,
+        52.307,
+        32021
+    ],
+    "Valkenswaard [valkenswaard0] |valkenswaard|valkenswaard #XXX#": [
+        5.456,
+        51.311,
+        31958
+    ],
+    "Leusden [leusden0] |leusden|leusden #XXX#": [
+        5.435,
+        52.131,
+        31911
+    ],
+    "Noordenveld [noordenveld0] |noordenveld|noordenveld #XXX#": [
+        6.431,
+        53.073,
+        31772
+    ],
+    "Best [best0] |best|best #XXX#": [
+        5.397,
+        51.515,
+        31652
+    ],
+    "Gemert Bakel [gemert_bakel0] |gemert_bakel|gemert_bakel #XXX#": [
+        5.755,
+        51.54,
+        31534
+    ],
+    "Renkum [renkum0] |renkum|renkum #XXX#": [
+        5.774,
+        51.991,
+        31498
+    ],
+    "Halderberge [halderberge0] |halderberge|halderberge #XXX#": [
+        4.562,
+        51.591,
+        31351
+    ],
+    "Zaltbommel [zaltbommel0] |zaltbommel|zaltbommel #XXX#": [
+        5.165,
+        51.789,
+        30396
+    ],
+    "Culemborg [culemborg0] |culemborg|culemborg #XXX#": [
+        5.221,
+        51.942,
+        30293
+    ],
+    "Sint Michielsgestel [sint_michielsgestel0] |sint_michielsgestel|sint_michielsgestel #XXX#": [
+        5.394,
+        51.672,
+        30169
+    ],
+    "Dalfsen [dalfsen0] |dalfsen|dalfsen #XXX#": [
+        6.265,
+        52.527,
+        30051
+    ],
+    "Oost Gelre [oost_gelre0] |oost_gelre|groenlo #XXX#": [
+        6.615,
+        52.01,
+        30048
+    ],
+    "Opsterland [opsterland0] |opsterland|opsterland #XXX#": [
+        6.167,
+        53.069,
+        30007
+    ],
+    "Krimpen aan den IJssel [krimpen_aan_den_ijssel0] |krimpen_aan_den_ijssel|krimpen_aan_den_ijssel #XXX#": [
+        4.602,
+        51.917,
+        29782
+    ],
+    "Bergen [bergen0] |bergen|bergen #XXX#": [
+        4.677,
+        52.675,
+        29718
+    ],
+    "Nieuwkoop [nieuwkoop0] |nieuwkoop|nieuwkoop #XXX#": [
+        4.78,
+        52.172,
+        29530
+    ],
+    "Nunspeet [nunspeet0] |nunspeet|nunspeet #XXX#": [
+        5.799,
+        52.341,
+        29390
+    ],
+    "Kaag en Braassem [kaag_en_braassem0] |kaag_en_braassem|kaag_en_braassem #XXX#": [
+        4.619,
+        52.188,
+        29305
+    ],
+    "Winterswijk [winterswijk0] |winterswijk|winterswijk #XXX#": [
+        6.726,
+        51.971,
+        29217
+    ],
+    "Gilze en Rijen [gilze_en_rijen0] |gilze_en_rijen|gilze_en_rijen #XXX#": [
+        4.913,
+        51.555,
+        28611
+    ],
+    "Drimmelen [drimmelen0] |drimmelen|drimmelen #XXX#": [
+        4.767,
+        51.705,
+        28294
+    ],
+    "Achtkarspelen [achtkarspelen0] |achtkarspelen|achtkarspelen #XXX#": [
+        6.146,
+        53.213,
+        28197
+    ],
+    "Ermelo [ermelo0] |ermelo|ermelo #XXX#": [
+        5.708,
+        52.28,
+        28127
+    ],
+    "Buren [buren0] |buren|buren #XXX#": [
+        5.361,
+        51.926,
+        27976
+    ],
+    "Leiderdorp [leiderdorp0] |leiderdorp|leiderdorp #XXX#": [
+        4.537,
+        52.157,
+        27774
+    ],
+    "Veendam [veendam0] |veendam|veendam #XXX#": [
+        6.879,
+        53.085,
+        27688
+    ],
+    "Heemstede [heemstede0] |heemstede|heemstede #XXX#": [
+        4.614,
+        52.347,
+        27639
+    ],
+    "Dongen [dongen0] |dongen|dongen #XXX#": [
+        4.945,
+        51.633,
+        27565
+    ],
+    "Wassenaar [wassenaar0] |wassenaar|wassenaar #XXX#": [
+        4.377,
+        52.139,
+        27534
+    ],
+    "Brunssum [brunssum0] |brunssum|brunssum #XXX#": [
+        5.983,
+        50.944,
+        27531
+    ],
+    "Aalten [aalten0] |aalten|aalten #XXX#": [
+        6.56,
+        51.93,
+        27471
+    ],
+    "Westerwolde [westerwolde0] |westerwolde|westerwolde #XXX#": [
+        7.141,
+        53.047,
+        27464
+    ],
+    "Hulst [hulst0] |hulst|hulst #XXX#": [
+        4.046,
+        51.307,
+        27385
+    ],
+    "Tholen [tholen0] |tholen|tholen #XXX#": [
+        4.132,
+        51.564,
+        26944
+    ],
+    "Beuningen [beuningen0] |beuningen|beuningen #XXX#": [
+        5.707,
+        51.866,
+        26742
+    ],
+    "Dinkelland [dinkelland0] |dinkelland|dinkelland #XXX#": [
+        6.915,
+        52.383,
+        26727
+    ],
+    "Albrandswaard [albrandswaard0] |albrandswaard|albrandswaard #XXX#": [
+        4.445,
+        51.85,
+        26710
+    ],
+    "Sliedrecht [sliedrecht0] |sliedrecht|sliedrecht #XXX#": [
+        4.782,
+        51.83,
+        26601
+    ],
+    "Weststellingwerf [weststellingwerf0] |weststellingwerf|weststellingwerf #XXX#": [
+        6.009,
+        52.876,
+        26595
+    ],
+    "Maasdriel [maasdriel0] |maasdriel|maasdriel #XXX#": [
+        5.315,
+        51.779,
+        26288
+    ],
+    "Eijsden Margraten [eijsden_margraten0] |eijsden_margraten|eijsden_margraten #XXX#": [
+        5.782,
+        50.815,
+        26180
+    ],
+    "Oegstgeest [oegstgeest0] |oegstgeest|oegstgeest #XXX#": [
+        4.475,
+        52.19,
+        26054
+    ],
+    "Borger Odoorn [borger_odoorn0] |borger_odoorn|borger_odoorn #XXX#": [
+        6.861,
+        52.901,
+        26052
+    ],
+    "Aa en Hunze [aa_en_hunze0] |aa_en_hunze|aa_en_hunze #XXX#": [
+        6.766,
+        53.022,
+        25936
+    ],
+    "Ooststellingwerf [ooststellingwerf0] |ooststellingwerf|ooststellingwerf #XXX#": [
+        6.302,
+        52.993,
+        25924
+    ],
+    "Voorschoten [voorschoten0] |voorschoten|voorschoten #XXX#": [
+        4.439,
+        52.126,
+        25914
+    ],
+    "Neder Betuwe [neder_betuwe0] |neder_betuwe|neder_betuwe #XXX#": [
+        5.595,
+        51.922,
+        25800
+    ],
+    "Voorst [voorst0] |voorst|voorst #XXX#": [
+        6.103,
+        52.205,
+        25567
+    ],
+    "Wierden [wierden0] |wierden|wierden #XXX#": [
+        6.561,
+        52.363,
+        25349
+    ],
+    "Baarn [baarn0] |baarn|baarn #XXX#": [
+        5.241,
+        52.2,
+        25187
+    ],
+    "Putten [putten0] |putten|putten #XXX#": [
+        5.572,
+        52.243,
+        24953
+    ],
+    "Duiven [duiven0] |duiven|duiven #XXX#": [
+        6.017,
+        51.945,
+        24937
+    ],
+    "Borne [borne0] |borne|borne #XXX#": [
+        6.747,
+        52.308,
+        24738
+    ],
+    "De Wolden [de_wolden0] |de_wolden|de_wolden #XXX#": [
+        6.344,
+        52.723,
+        24665
+    ],
+    "Wijdemeren [wijdemeren0] |wijdemeren|wijdemeren #XXX#": [
+        5.086,
+        52.212,
+        24662
+    ],
+    "Stein [stein0] |stein|stein #XXX#": [
+        5.766,
+        50.973,
+        24652
+    ],
+    "Steenbergen [steenbergen0] |steenbergen|steenbergen #XXX#": [
+        4.359,
+        51.597,
+        24584
+    ],
+    "Maasgouw [maasgouw0] |maasgouw|maasgouw #XXX#": [
+        5.889,
+        51.166,
+        24501
+    ],
+    "Goirle [goirle0] |goirle|goirle #XXX#": [
+        5.02,
+        51.509,
+        24461
+    ],
+    "Oldebroek [oldebroek0] |oldebroek|oldebroek #XXX#": [
+        5.948,
+        52.44,
+        24426
+    ],
+    "Heiloo [heiloo0] |heiloo|heiloo #XXX#": [
+        4.707,
+        52.601,
+        24342
+    ],
+    "Zeewolde [zeewolde0] |zeewolde|zeewolde #XXX#": [
+        5.454,
+        52.34,
+        24296
+    ],
+    "Nuenen, Gerwen en Nederwetten [nuenen0] |nuenen|gerwen #XXX#": [
+        5.551,
+        51.477,
+        24291
+    ],
+    "Haaksbergen [haaksbergen0] |haaksbergen|haaksbergen #XXX#": [
+        6.73,
+        52.159,
+        24223
+    ],
+    "Loon op Zand [loon_op_zand0] |loon_op_zand|loon_op_zand #XXX#": [
+        5.028,
+        51.637,
+        24148
+    ],
+    "Rucphen [rucphen0] |rucphen|rucphen #XXX#": [
+        4.549,
+        51.518,
+        23992
+    ],
+    "Elburg [elburg0] |elburg|elburg #XXX#": [
+        5.857,
+        52.41,
+        23903
+    ],
+    "Wijk bij Duurstede [wijk_bij_duurstede0] |wijk_bij_duurstede|wijk_bij_duurstede #XXX#": [
+        5.322,
+        51.99,
+        23826
+    ],
+    "Koggenland [koggenland0] |koggenland|koggenland #XXX#": [
+        4.978,
+        52.64,
+        23826
+    ],
+    "Bloemendaal [bloemendaal0] |bloemendaal|bloemendaal #XXX#": [
+        4.588,
+        52.413,
+        23583
+    ],
+    "Lisse [lisse0] |lisse|lisse #XXX#": [
+        4.547,
+        52.256,
+        23583
+    ],
+    "Zwartewaterland [zwartewaterland0] |zwartewaterland|zwartewaterland #XXX#": [
+        6.055,
+        52.608,
+        23510
+    ],
+    "Losser [losser0] |losser|losser #XXX#": [
+        6.994,
+        52.314,
+        23467
+    ],
+    "Reimerswaal [reimerswaal0] |reimerswaal|reimerswaal #XXX#": [
+        4.073,
+        51.436,
+        23334
+    ],
+    "Laarbeek [laarbeek0] |laarbeek|laarbeek #XXX#": [
+        5.584,
+        51.532,
+        23324
+    ],
+    "Borsele [borsele0] |borsele|borsele #XXX#": [
+        3.833,
+        51.437,
+        23127
+    ],
+    "Sluis [sluis0] |sluis|sluis #XXX#": [
+        3.455,
+        51.321,
+        23098
+    ],
+    "Zundert [zundert0] |zundert|zundert #XXX#": [
+        4.631,
+        51.469,
+        22804
+    ],
+    "Hillegom [hillegom0] |hillegom|hillegom #XXX#": [
+        4.576,
+        52.295,
+        22788
+    ],
+    "Bunschoten [bunschoten0] |bunschoten|bunschoten #XXX#": [
+        5.363,
+        52.237,
+        22690
+    ],
+    "Stede Broec [stede_broec0] |stede_broec|stede_broec #XXX#": [
+        5.219,
+        52.701,
+        22252
+    ],
+    "Woensdrecht [woensdrecht0] |woensdrecht|woensdrecht #XXX#": [
+        4.333,
+        51.418,
+        22194
+    ],
+    "Urk [urk0] |urk|urk #XXX#": [
+        5.624,
+        52.666,
+        22172
+    ],
+    "Geertruidenberg [geertruidenberg0] |geertruidenberg|geertruidenberg #XXX#": [
+        4.884,
+        51.697,
+        21948
+    ],
+    "Veere [veere0] |veere|veere #XXX#": [
+        3.533,
+        51.529,
+        21944
+    ],
+    "Cranendonck [cranendonck0] |cranendonck|cranendonck #XXX#": [
+        5.59,
+        51.287,
+        21739
+    ],
+    "Tubbergen [tubbergen0] |tubbergen|tubbergen #XXX#": [
+        6.757,
+        52.408,
+        21508
+    ],
+    "Brummen [brummen0] |brummen|brummen #XXX#": [
+        6.119,
+        52.115,
+        21394
+    ],
+    "Bladel [bladel0] |bladel|bladel #XXX#": [
+        5.237,
+        51.365,
+        21009
+    ],
+    "Roerdalen [roerdalen0] |roerdalen|roerdalen #XXX#": [
+        6.039,
+        51.136,
+        20830
+    ],
+    "West Maas en Waal [west_maas_en_waal0] |west_maas_en_waal|west_maas_en_waal #XXX#": [
+        5.519,
+        51.858,
+        20601
+    ],
+    "Drechterland [drechterland0] |drechterland|drechterland #XXX#": [
+        5.159,
+        52.663,
+        20485
+    ],
+    "Rhenen [rhenen0] |rhenen|rhenen #XXX#": [
+        5.587,
+        51.976,
+        20399
+    ],
+    "Eersel [eersel0] |eersel|eersel #XXX#": [
+        5.311,
+        51.36,
+        20389
+    ],
+    "Alblasserdam [alblasserdam0] |alblasserdam|alblasserdam #XXX#": [
+        4.668,
+        51.861,
+        20247
+    ],
+    "Someren [someren0] |someren|someren #XXX#": [
+        5.697,
+        51.364,
+        20214
+    ],
+    "Westerveld [westerveld0] |westerveld|westerveld #XXX#": [
+        6.272,
+        52.854,
+        19987
+    ],
+    "Druten [druten0] |druten|druten #XXX#": [
+        5.608,
+        51.87,
+        19748
+    ],
+    "Oirschot [oirschot0] |oirschot|oirschot #XXX#": [
+        5.299,
+        51.503,
+        19546
+    ],
+    "Midden Delfland [midden_delfland0] |midden_delfland|midden_delfland #XXX#": [
+        4.298,
+        51.951,
+        19422
+    ],
+    "Heerde [heerde0] |heerde|heerde #XXX#": [
+        6.054,
+        52.405,
+        19305
+    ],
+    "Bergeijk [bergeijk0] |bergeijk|bergeijk #XXX#": [
+        5.361,
+        51.307,
+        19260
+    ],
+    "Ommen [ommen0] |ommen|ommen #XXX#": [
+        6.417,
+        52.514,
+        19249
+    ],
+    "Dantumadiel [dantumadiel0] |dantumadiel|dantumadeel #XXX#": [
+        5.985,
+        53.27,
+        19138
+    ],
+    "Hardinxveld Giessendam [hardinxveld_giessendam0] |hardinxveld_giessendam|hardinxveld_giessendam #XXX#": [
+        4.827,
+        51.837,
+        19126
+    ],
+    "Olst Wijhe [olst_wijhe0] |olst_wijhe|olst_wijhe #XXX#": [
+        6.149,
+        52.348,
+        19001
+    ],
+    "Enkhuizen [enkhuizen0] |enkhuizen|enkhuizen #XXX#": [
+        5.273,
+        52.712,
+        18843
+    ],
+    "Meerssen [meerssen0] |meerssen|meerssen #XXX#": [
+        5.745,
+        50.917,
+        18459
+    ],
+    "Son en Breugel [son_en_breugel0] |son_en_breugel|son_en_breugel #XXX#": [
+        5.471,
+        51.518,
+        18130
+    ],
+    "Staphorst [staphorst0] |staphorst|staphorst #XXX#": [
+        6.192,
+        52.633,
+        17973
+    ],
+    "Waalre [waalre0] |waalre|waalre #XXX#": [
+        5.449,
+        51.386,
+        17894
+    ],
+    "Gennep [gennep0] |gennep|gennep #XXX#": [
+        5.993,
+        51.701,
+        17783
+    ],
+    "Waterland [waterland0] |waterland|waterland #XXX#": [
+        5.003,
+        52.456,
+        17547
+    ],
+    "Nederweert [nederweert0] |nederweert|nederweert #XXX#": [
+        5.793,
+        51.293,
+        17516
+    ],
+    "Asten [asten0] |asten|asten #XXX#": [
+        5.788,
+        51.375,
+        17390
+    ],
+    "Zandvoort [zandvoort0] |zandvoort|zandvoort #XXX#": [
+        4.543,
+        52.356,
+        17370
+    ],
+    "Heeze Leende [heeze_leende0] |heeze_leende|heeze_leende #XXX#": [
+        5.585,
+        51.37,
+        17079
+    ],
+    "Heumen [heumen0] |heumen|heumen #XXX#": [
+        5.845,
+        51.783,
+        16866
+    ],
+    "Valkenburg aan de Geul [valkenburg_aan_de_geul0] |valkenburg_aan_de_geul|valkenburg_aan_de_geul #XXX#": [
+        5.82,
+        50.863,
+        16460
+    ],
+    "Wormerland [wormerland0] |wormerland|wormerland #XXX#": [
+        4.859,
+        52.497,
+        16421
+    ],
+    "Bunnik [bunnik0] |bunnik|bunnik #XXX#": [
+        5.225,
+        52.037,
+        16281
+    ],
+    "Beek [beek0] |beek|beek #XXX#": [
+        5.811,
+        50.933,
+        16245
+    ],
+    "Harlingen [harlingen0] |harlingen|harlingen #XXX#": [
+        5.456,
+        53.174,
+        16210
+    ],
+    "Hilvarenbeek [hilvarenbeek0] |hilvarenbeek|hilvarenbeek #XXX#": [
+        5.137,
+        51.476,
+        16147
+    ],
+    "Westervoort [westervoort0] |westervoort|westervoort #XXX#": [
+        5.97,
+        51.957,
+        15202
+    ],
+    "Lopik [lopik0] |lopik|lopik #XXX#": [
+        4.902,
+        51.974,
+        14805
+    ],
+    "Woudenberg [woudenberg0] |woudenberg|woudenberg #XXX#": [
+        5.415,
+        52.086,
+        14764
+    ],
+    "Ouder Amstel [ouder_amstel0] |ouder_amstel|ouder_amstel #XXX#": [
+        4.904,
+        52.275,
+        14526
+    ],
+    "Gulpen Wittem [gulpen_wittem0] |gulpen_wittem|gulpen_wittem #XXX#": [
+        5.903,
+        50.806,
+        14016
+    ],
+    "Texel [texel0] |texel|texel #XXX#": [
+        4.812,
+        53.08,
+        13844
+    ],
+    "Montfoort [montfoort0] |montfoort|montfoort #XXX#": [
+        4.947,
+        52.045,
+        13779
+    ],
+    "Reusel De Mierden [reusel_de_mierden0] |reusel_de_mierden|reusel_de_mierden #XXX#": [
+        5.146,
+        51.389,
+        13653
+    ],
+    "Beesel [beesel0] |beesel|beesel #XXX#": [
+        6.077,
+        51.27,
+        13525
+    ],
+    "Uitgeest [uitgeest0] |uitgeest|uitgeest #XXX#": [
+        4.727,
+        52.523,
+        13423
+    ],
+    "Bergen [bergen1] |bergen|bergen #XXX#": [
+        6.058,
+        51.625,
+        13063
+    ],
+    "Kapelle [kapelle0] |kapelle|kapelle #XXX#": [
+        3.98,
+        51.487,
+        13024
+    ],
+    "Blaricum [blaricum0] |blaricum|blaricum #XXX#": [
+        5.243,
+        52.271,
+        12951
+    ],
+    "Hattem [hattem0] |hattem|hattem #XXX#": [
+        6.056,
+        52.47,
+        12744
+    ],
+    "Voerendaal [voerendaal0] |voerendaal|voerendaal #XXX#": [
+        5.917,
+        50.873,
+        12583
+    ],
+    "Opmeer [opmeer0] |opmeer|opmeer #XXX#": [
+        4.945,
+        52.712,
+        12468
+    ],
+    "Pekela [pekela0] |pekela|pekela #XXX#": [
+        6.974,
+        53.074,
+        12465
+    ],
+    "Landsmeer [landsmeer0] |landsmeer|landsmeer #XXX#": [
+        4.923,
+        52.449,
+        11748
+    ],
+    "Laren [laren0] |laren|laren #XXX#": [
+        5.218,
+        52.249,
+        11474
+    ],
+    "Boekel [boekel0] |boekel|boekel #XXX#": [
+        5.672,
+        51.606,
+        11461
+    ],
+    "Doesburg [doesburg0] |doesburg|doesburg #XXX#": [
+        6.149,
+        52.021,
+        11120
+    ],
+    "Scherpenzeel [scherpenzeel0] |scherpenzeel|scherpenzeel #XXX#": [
+        5.502,
+        52.093,
+        10541
+    ],
+    "Alphen Chaam [alphen_chaam0] |alphen_chaam|alphen_chaam #XXX#": [
+        4.863,
+        51.507,
+        10510
+    ],
+    "Oudewater [oudewater0] |oudewater|oudewater #XXX#": [
+        4.873,
+        52.03,
+        10350
+    ],
+    "Simpelveld [simpelveld0] |simpelveld|simpelveld #XXX#": [
+        5.993,
+        50.825,
+        10272
+    ],
+    "Zoeterwoude [zoeterwoude0] |zoeterwoude|zoeterwoude #XXX#": [
+        4.513,
+        52.114,
+        10142
+    ],
+    "Vaals [vaals0] |vaals|vaals #XXX#": [
+        5.973,
+        50.778,
+        10015
+    ],
+    "Eemnes [eemnes0] |eemnes|eemnes #XXX#": [
+        5.281,
+        52.252,
+        9927
+    ],
+    "Oostzaan [oostzaan0] |oostzaan|oostzaan #XXX#": [
+        4.873,
+        52.45,
+        9727
+    ],
+    "Mook en Middelaar [mook_en_middelaar0] |mook_en_middelaar|mook_en_middelaar #XXX#": [
+        5.902,
+        51.741,
+        8103
+    ],
+    "Noord Beveland [noord_beveland0] |noord_beveland|noord_beveland #XXX#": [
+        3.801,
+        51.577,
+        8045
+    ],
+    "Baarle Nassau [baarle_nassau0] |baarle_nassau|baarle_nassau #XXX#": [
+        4.877,
+        51.447,
+        7205
+    ],
+    "Renswoude [renswoude0] |renswoude|renswoude #XXX#": [
+        5.537,
+        52.065,
+        5781
+    ],
+    "Terschelling [terschelling0] |terschelling|terschelling #XXX#": [
+        5.204,
+        53.376,
+        4923
+    ],
+    "Ameland [ameland0] |ameland|ameland #XXX#": [
+        5.656,
+        53.445,
+        3807
+    ],
+    "Rozendaal [rozendaal0] |rozendaal|rozendaal #XXX#": [
+        5.962,
+        52.035,
+        1836
+    ],
+    "Vlieland [vlieland0] |vlieland|vlieland #XXX#": [
+        4.91,
+        53.231,
+        1212
+    ],
+    "Schiermonnikoog [schiermonnikoog0] |schiermonnikoog|schiermonnikoog #XXX#": [
+        6.186,
+        53.488,
+        968
+    ]
+}

@@ -1,0 +1,8597 @@
+{
+    "Tokyo [tokyo0] |tokyo|tokyo #Tokyo#": [
+        139.777,
+        35.674,
+        9733276
+    ],
+    "Yokohama [yokohama0] |yokohama|yokohama #Kanagawa#": [
+        139.637,
+        35.443,
+        3777491
+    ],
+    "Osaka [osaka0] |osaka|osaka #Osaka#": [
+        135.502,
+        34.694,
+        2752412
+    ],
+    "Nagoya [nagoya0] |nagoya|nagoya #Aichi#": [
+        136.905,
+        35.182,
+        2332176
+    ],
+    "Sapporo [sapporo0] |sapporo|sapporo #Hokkaido#": [
+        141.35,
+        43.067,
+        1973395
+    ],
+    "Fukuoka [fukuoka0] |fukuoka|fukuoka #Fukuoka#": [
+        130.402,
+        33.591,
+        1612392
+    ],
+    "Kawasaki [kawasaki0] |kawasaki|kawasaki #Kanagawa#": [
+        139.703,
+        35.532,
+        1538262
+    ],
+    "Kobe [kobe0] |kobe|kobe #Hyogo#": [
+        135.196,
+        34.691,
+        1525152
+    ],
+    "Kyoto [kyoto0] |kyoto|kyoto #Kyoto#": [
+        135.768,
+        35.011,
+        1463723
+    ],
+    "Saitama [saitama0] |saitama|saitama #Saitama#": [
+        139.65,
+        35.858,
+        1324025
+    ],
+    "Hiroshima [hiroshima0] |hiroshima|hiroshima #Hiroshima#": [
+        132.454,
+        34.385,
+        1200754
+    ],
+    "Sendai [sendai0] |sendai|sendai #Miyagi#": [
+        140.875,
+        38.261,
+        1096704
+    ],
+    "Chiba [chiba0] |chiba|chiba #Chiba#": [
+        140.113,
+        35.611,
+        974951
+    ],
+    "Kitakyushu [kitakyushu0] |kitakyushu|kitakyushu #Fukuoka#": [
+        130.879,
+        33.882,
+        939029
+    ],
+    "Sakai [sakai0] |sakai|sakai #Osaka#": [
+        135.479,
+        34.572,
+        826161
+    ],
+    "Hamamatsu [hamamatsu0] |hamamatsu|hamamatsu #Shizuoka#": [
+        137.734,
+        34.705,
+        790718
+    ],
+    "Niigata [niigata0] |niigata|niigata #Niigata#": [
+        139.046,
+        37.922,
+        789275
+    ],
+    "Kumamoto [kumamoto0] |kumamoto|kumamoto #Kumamoto#": [
+        130.708,
+        32.804,
+        738865
+    ],
+    "Sagamihara [sagamihara0] |sagamihara|sagamihara #Kanagawa#": [
+        139.374,
+        35.571,
+        725493
+    ],
+    "Okayama [okayama0] |okayama|okayama #Okayama#": [
+        133.919,
+        34.656,
+        724691
+    ],
+    "Shizuoka [shizuoka0] |shizuoka|shizuoka #Shizuoka#": [
+        138.383,
+        34.976,
+        693389
+    ],
+    "Funabashi [funabashi0] |funabashi|funabashi #Chiba#": [
+        139.983,
+        35.697,
+        642907
+    ],
+    "Kawaguchi [kawaguchi0] |kawaguchi|kawaguchi #Saitama#": [
+        139.722,
+        35.8,
+        594274
+    ],
+    "Kagoshima [kagoshima0] |kagoshima|kagoshima #Kagoshima#": [
+        130.559,
+        31.596,
+        593128
+    ],
+    "Hachioji [hachioji0] |hachioji|hachioji #Tokyo#": [
+        139.339,
+        35.658,
+        579355
+    ],
+    "Himeji [himeji0] |himeji|himeji #Hyogo#": [
+        134.691,
+        34.827,
+        530495
+    ],
+    "Utsunomiya [utsunomiya0] |utsunomiya|utsunomiya #Tochigi#": [
+        139.892,
+        36.56,
+        518757
+    ],
+    "Matsuyama [matsuyama0] |matsuyama|matsuyama #Ehime#": [
+        132.762,
+        33.838,
+        511192
+    ],
+    "Matsudo [matsudo0] |matsudo|matsudo #Chiba#": [
+        139.898,
+        35.785,
+        498232
+    ],
+    "Ichikawa [ichikawa0] |ichikawa|ichikawa #Chiba#": [
+        139.926,
+        35.723,
+        496676
+    ],
+    "Higashiosaka [higashiosaka0] |higashiosaka|higashiosaka #Osaka#": [
+        135.603,
+        34.671,
+        493940
+    ],
+    "Nishinomiya [nishinomiya0] |nishinomiya|nishinomiya #Hyogo#": [
+        135.34,
+        34.738,
+        485587
+    ],
+    "Oita [oita0] |oita|oita #Oita#": [
+        131.607,
+        33.239,
+        475614
+    ],
+    "Kurashiki [kurashiki0] |kurashiki|kurashiki #Okayama#": [
+        133.773,
+        34.588,
+        474592
+    ],
+    "Kanazawa [kanazawa0] |kanazawa|kanazawa #Ishikawa#": [
+        136.656,
+        36.563,
+        463254
+    ],
+    "Fukuyama [fukuyama0] |fukuyama|fukuyama #Hiroshima#": [
+        133.361,
+        34.489,
+        460930
+    ],
+    "Amagasaki [amagasaki0] |amagasaki|amagasaki #Hyogo#": [
+        135.398,
+        34.735,
+        459593
+    ],
+    "Fujisawa [fujisawa0] |fujisawa|fujisawa #Kanagawa#": [
+        139.488,
+        35.34,
+        436905
+    ],
+    "Machida [machida0] |machida|machida #Tokyo#": [
+        139.446,
+        35.545,
+        431079
+    ],
+    "Kashiwa [kashiwa0] |kashiwa|kashiwa #Chiba#": [
+        139.969,
+        35.863,
+        426468
+    ],
+    "Toyota [toyota0] |toyota|toyota #Aichi#": [
+        137.156,
+        35.087,
+        422330
+    ],
+    "Takamatsu [takamatsu0] |takamatsu|takamatsu #Kagawa#": [
+        134.049,
+        34.349,
+        417496
+    ],
+    "Toyama [toyama0] |toyama|toyama #Toyama#": [
+        137.213,
+        36.701,
+        413938
+    ],
+    "Nagasaki [nagasaki0] |nagasaki|nagasaki #Nagasaki#": [
+        129.875,
+        32.747,
+        409118
+    ],
+    "Gifu [gifu0] |gifu|gifu #Gifu#": [
+        136.757,
+        35.42,
+        402557
+    ],
+    "Toyonaka [toyonaka0] |toyonaka|toyonaka #Osaka#": [
+        135.469,
+        34.783,
+        401558
+    ],
+    "Miyazaki [miyazaki0] |miyazaki|miyazaki #Miyazaki#": [
+        131.422,
+        31.91,
+        401339
+    ],
+    "Hirakata [hirakata0] |hirakata|hirakata #Osaka#": [
+        135.65,
+        34.815,
+        397289
+    ],
+    "Yokosuka [yokosuka0] |yokosuka|yokosuka #Kanagawa#": [
+        139.675,
+        35.279,
+        388078
+    ],
+    "Suita [suita0] |suita|suita #Osaka#": [
+        135.514,
+        34.757,
+        385567
+    ],
+    "Okazaki [okazaki0] |okazaki|okazaki #Aichi#": [
+        137.174,
+        34.954,
+        384654
+    ],
+    "Ichinomiya [ichinomiya0] |ichinomiya|ichinomiya #Aichi#": [
+        136.801,
+        35.304,
+        380073
+    ],
+    "Takasaki [takasaki0] |takasaki|takasaki #Gunma#": [
+        139.004,
+        36.322,
+        372973
+    ],
+    "Nagano [nagano0] |nagano|nagano #Nagano#": [
+        138.194,
+        36.649,
+        372760
+    ],
+    "Toyohashi [toyohashi0] |toyohashi|toyohashi #Aichi#": [
+        137.388,
+        34.763,
+        371920
+    ],
+    "Wakayama [wakayama0] |wakayama|wakayama #Wakayama#": [
+        135.174,
+        34.233,
+        356729
+    ],
+    "Nara [nara0] |nara|nara #Nara#": [
+        135.812,
+        34.685,
+        354630
+    ],
+    "Kawagoe [kawagoe0] |kawagoe|kawagoe #Saitama#": [
+        139.484,
+        35.919,
+        354571
+    ],
+    "Takatsuki [takatsuki0] |takatsuki|takatsuki #Osaka#": [
+        135.618,
+        34.85,
+        352698
+    ],
+    "Otsu [otsu0] |otsu|otsu #Shiga#": [
+        135.867,
+        35.006,
+        345070
+    ],
+    "Tokorozawa [tokorozawa0] |tokorozawa|tokorozawa #Saitama#": [
+        139.468,
+        35.802,
+        342464
+    ],
+    "Koshigaya [koshigaya0] |koshigaya|koshigaya #Saitama#": [
+        139.788,
+        35.889,
+        341621
+    ],
+    "Iwaki [iwaki0] |iwaki|iwaki #Fukushima#": [
+        140.893,
+        37.053,
+        332931
+    ],
+    "Maebashi [maebashi0] |maebashi|maebashi #Gunma#": [
+        139.073,
+        36.389,
+        332149
+    ],
+    "Asahikawa [asahikawa0] |asahikawa|asahikawa #Hokkaido#": [
+        142.362,
+        43.768,
+        329306
+    ],
+    "Koriyama [koriyama0] |koriyama|koriyama #Fukushima#": [
+        140.382,
+        37.396,
+        327692
+    ],
+    "Kochi [kochi0] |kochi|kochi #Kochi#": [
+        133.532,
+        33.558,
+        326545
+    ],
+    "Naha [naha0] |naha|naha #Okinawa#": [
+        127.681,
+        26.214,
+        317625
+    ],
+    "Kasugai [kasugai0] |kasugai|kasugai #Aichi#": [
+        136.972,
+        35.248,
+        308681
+    ],
+    "Akita [akita0] |akita|akita #Akita#": [
+        140.106,
+        39.719,
+        307672
+    ],
+    "Yokkaichi [yokkaichi0] |yokkaichi|yokkaichi #Mie#": [
+        136.622,
+        34.965,
+        305424
+    ],
+    "Akashi [akashi0] |akashi|akashi #Hyogo#": [
+        134.994,
+        34.648,
+        303601
+    ],
+    "Kurume [kurume0] |kurume|kurume #Fukuoka#": [
+        130.515,
+        33.314,
+        303316
+    ],
+    "Morioka [morioka0] |morioka|morioka #Iwate#": [
+        141.153,
+        39.702,
+        289731
+    ],
+    "Ibaraki [ibaraki0] |ibaraki|ibaraki #Osaka#": [
+        135.568,
+        34.817,
+        287730
+    ],
+    "Fukushima [fukushima0] |fukushima|fukushima #Fukushima#": [
+        140.469,
+        37.758,
+        282693
+    ],
+    "Aomori [aomori0] |aomori|aomori #Aomori#": [
+        140.746,
+        40.823,
+        275192
+    ],
+    "Tsu [tsu0] |tsu|tsu #Mie#": [
+        136.506,
+        34.718,
+        274537
+    ],
+    "Mito [mito0] |mito|mito #Ibaraki#": [
+        140.466,
+        36.38,
+        270685
+    ],
+    "Ichihara [ichihara0] |ichihara|ichihara #Chiba#": [
+        140.068,
+        35.516,
+        269524
+    ],
+    "Nagaoka [nagaoka0] |nagaoka|nagaoka #Niigata#": [
+        138.85,
+        37.447,
+        266936
+    ],
+    "Yao [yao0] |yao|yao #Osaka#": [
+        135.6,
+        34.628,
+        264642
+    ],
+    "Fuchu [fuchu0] |fuchu|fuchu #Tokyo#": [
+        139.479,
+        35.67,
+        262790
+    ],
+    "Fukui [fukui0] |fukui|fukui #Fukui#": [
+        136.219,
+        36.064,
+        262328
+    ],
+    "Kakogawa [kakogawa0] |kakogawa|kakogawa #Hyogo#": [
+        134.836,
+        34.761,
+        260878
+    ],
+    "Hiratsuka [hiratsuka0] |hiratsuka|hiratsuka #Kanagawa#": [
+        139.35,
+        35.33,
+        258422
+    ],
+    "Shimonoseki [shimonoseki0] |shimonoseki|shimonoseki #Yamaguchi#": [
+        130.944,
+        33.958,
+        255051
+    ],
+    "Tokushima [tokushima0] |tokushima|tokushima #Tokushima#": [
+        134.553,
+        34.072,
+        252391
+    ],
+    "Hakodate [hakodate0] |hakodate|hakodate #Hokkaido#": [
+        140.733,
+        41.774,
+        251084
+    ],
+    "Soka [soka0] |soka|soka #Saitama#": [
+        139.808,
+        35.829,
+        248304
+    ],
+    "Yamagata [yamagata0] |yamagata|yamagata #Yamagata#": [
+        140.338,
+        38.252,
+        247590
+    ],
+    "Fuji [fuji0] |fuji|fuji #Shizuoka#": [
+        138.673,
+        35.162,
+        245392
+    ],
+    "Sasebo [sasebo0] |sasebo|sasebo #Nagasaki#": [
+        129.723,
+        33.171,
+        243223
+    ],
+    "Chofu [chofu0] |chofu|chofu #Tokyo#": [
+        139.546,
+        35.651,
+        242614
+    ],
+    "Chigasaki [chigasaki0] |chigasaki|chigasaki #Kanagawa#": [
+        139.406,
+        35.332,
+        242389
+    ],
+    "Tsukuba [tsukuba0] |tsukuba|tsukuba #Ibaraki#": [
+        140.114,
+        36.081,
+        241656
+    ],
+    "Matsumoto [matsumoto0] |matsumoto|matsumoto #Nagano#": [
+        137.972,
+        36.238,
+        241145
+    ],
+    "Yamato [yamato0] |yamato|yamato #Kanagawa#": [
+        139.458,
+        35.488,
+        239169
+    ],
+    "Saga [saga0] |saga|saga #Saga#": [
+        130.299,
+        33.26,
+        233301
+    ],
+    "Kasukabe [kasukabe0] |kasukabe|kasukabe #Saitama#": [
+        139.751,
+        35.977,
+        229792
+    ],
+    "Neyagawa [neyagawa0] |neyagawa|neyagawa #Osaka#": [
+        135.622,
+        34.767,
+        229733
+    ],
+    "Ageo [ageo0] |ageo|ageo #Saitama#": [
+        139.588,
+        35.974,
+        226940
+    ],
+    "Takarazuka [takarazuka0] |takarazuka|takarazuka #Hyogo#": [
+        135.36,
+        34.798,
+        226432
+    ],
+    "Atsugi [atsugi0] |atsugi|atsugi #Kanagawa#": [
+        139.364,
+        35.44,
+        223705
+    ],
+    "Hachinohe [hachinohe0] |hachinohe|hachinohe #Aomori#": [
+        141.495,
+        40.516,
+        223415
+    ],
+    "Ota [ota0] |ota|ota #Gunma#": [
+        139.379,
+        36.29,
+        223014
+    ],
+    "Kure [kure0] |kure|kure #Hiroshima#": [
+        132.56,
+        34.248,
+        214592
+    ],
+    "Isesaki [isesaki0] |isesaki|isesaki #Gunma#": [
+        139.197,
+        36.311,
+        211850
+    ],
+    "Nishitokyo [nishitokyo0] |nishitokyo|nishitokyo #Tokyo#": [
+        139.54,
+        35.73,
+        207388
+    ],
+    "Matsue [matsue0] |matsue|matsue #Shimane#": [
+        133.059,
+        35.464,
+        203616
+    ],
+    "Nagareyama [nagareyama0] |nagareyama|nagareyama #Chiba#": [
+        139.903,
+        35.856,
+        199849
+    ],
+    "Yachiyo [yachiyo0] |yachiyo|yachiyo #Chiba#": [
+        140.105,
+        35.724,
+        199498
+    ],
+    "Kodaira [kodaira0] |kodaira|kodaira #Tokyo#": [
+        139.488,
+        35.731,
+        198739
+    ],
+    "Itami [itami0] |itami|itami #Hyogo#": [
+        135.413,
+        34.782,
+        198138
+    ],
+    "Higashihiroshima [higashihiroshima0] |higashihiroshima|higashihiroshima #Hiroshima#": [
+        132.745,
+        34.426,
+        196608
+    ],
+    "Suzuka [suzuka0] |suzuka|suzuka #Mie#": [
+        136.583,
+        34.883,
+        195670
+    ],
+    "Mitaka [mitaka0] |mitaka|mitaka #Tokyo#": [
+        139.571,
+        35.689,
+        195391
+    ],
+    "Kumagaya [kumagaya0] |kumagaya|kumagaya #Saitama#": [
+        139.39,
+        36.142,
+        194415
+    ],
+    "Yamaguchi [yamaguchi0] |yamaguchi|yamaguchi #Yamaguchi#": [
+        131.475,
+        34.177,
+        193966
+    ],
+    "Kishiwada [kishiwada0] |kishiwada|kishiwada #Osaka#": [
+        135.378,
+        34.461,
+        190658
+    ],
+    "Hino [hino0] |hino|hino #Tokyo#": [
+        139.393,
+        35.672,
+        190435
+    ],
+    "Kofu [kofu0] |kofu|kofu #Yamanashi#": [
+        138.568,
+        35.663,
+        189591
+    ],
+    "Numazu [numazu0] |numazu|numazu #Shizuoka#": [
+        138.859,
+        35.099,
+        189386
+    ],
+    "Odawara [odawara0] |odawara|odawara #Kanagawa#": [
+        139.158,
+        35.255,
+        188856
+    ],
+    "Tottori [tottori0] |tottori|tottori #Tottori#": [
+        134.226,
+        35.496,
+        188465
+    ],
+    "Joetsu [joetsu0] |joetsu|joetsu #Niigata#": [
+        138.244,
+        37.114,
+        188047
+    ],
+    "Anjo [anjo0] |anjo|anjo #Aichi#": [
+        137.084,
+        34.961,
+        187990
+    ],
+    "Toyokawa [toyokawa0] |toyokawa|toyokawa #Aichi#": [
+        137.374,
+        34.825,
+        184661
+    ],
+    "Izumi [izumi0] |izumi|izumi #Osaka#": [
+        135.433,
+        34.487,
+        184495
+    ],
+    "Tachikawa [tachikawa0] |tachikawa|tachikawa #Tokyo#": [
+        139.415,
+        35.701,
+        183581
+    ],
+    "Uji [uji0] |uji|uji #Kyoto#": [
+        135.802,
+        34.889,
+        179630
+    ],
+    "Narashino [narashino0] |narashino|narashino #Chiba#": [
+        140.042,
+        35.684,
+        176197
+    ],
+    "Hitachi [hitachi0] |hitachi|hitachi #Ibaraki#": [
+        140.661,
+        36.592,
+        174508
+    ],
+    "Izumo [izumo0] |izumo|izumo #Shimane#": [
+        132.757,
+        35.362,
+        172775
+    ],
+    "Kamakura [kamakura0] |kamakura|kamakura #Kanagawa#": [
+        139.55,
+        35.316,
+        172710
+    ],
+    "Urayasu [urayasu0] |urayasu|urayasu #Chiba#": [
+        139.9,
+        35.653,
+        171362
+    ],
+    "Tomakomai [tomakomai0] |tomakomai|tomakomai #Hokkaido#": [
+        141.596,
+        42.63,
+        170113
+    ],
+    "Nishio [nishio0] |nishio|nishio #Aichi#": [
+        137.06,
+        34.864,
+        169046
+    ],
+    "Sakura [sakura0] |sakura|sakura #Chiba#": [
+        140.229,
+        35.725,
+        168743
+    ],
+    "Hirosaki [hirosaki0] |hirosaki|hirosaki #Aomori#": [
+        140.469,
+        40.601,
+        168466
+    ],
+    "Iwata [iwata0] |iwata|iwata #Shizuoka#": [
+        137.852,
+        34.712,
+        166672
+    ],
+    "Oyama [oyama0] |oyama|oyama #Tochigi#": [
+        139.803,
+        36.314,
+        166666
+    ],
+    "Obihiro [obihiro0] |obihiro|obihiro #Hokkaido#": [
+        143.203,
+        42.919,
+        166536
+    ],
+    "Takaoka [takaoka0] |takaoka|takaoka #Toyama#": [
+        137.028,
+        36.754,
+        166393
+    ],
+    "Niiza [niiza0] |niiza|niiza #Saitama#": [
+        139.558,
+        35.802,
+        166017
+    ],
+    "Kushiro [kushiro0] |kushiro|kushiro #Hokkaido#": [
+        144.384,
+        42.984,
+        165077
+    ],
+    "Ube [ube0] |ube|ube #Yamaguchi#": [
+        131.249,
+        33.949,
+        162570
+    ],
+    "Hadano [hadano0] |hadano|hadano #Kanagawa#": [
+        139.227,
+        35.37,
+        162439
+    ],
+    "Miyakonojo [miyakonojo0] |miyakonojo|miyakonojo #Miyazaki#": [
+        131.061,
+        31.724,
+        160640
+    ],
+    "Matsusaka [matsusaka0] |matsusaka|matsusaka #Mie#": [
+        136.531,
+        34.577,
+        159145
+    ],
+    "Ogaki [ogaki0] |ogaki|ogaki #Gifu#": [
+        136.617,
+        35.36,
+        158286
+    ],
+    "Hitachinaka [hitachinaka0] |hitachinaka|hitachinaka #Ibaraki#": [
+        140.525,
+        36.395,
+        156581
+    ],
+    "Tochigi [tochigi0] |tochigi|tochigi #Tochigi#": [
+        139.73,
+        36.383,
+        155549
+    ],
+    "Ueda [ueda0] |ueda|ueda #Nagano#": [
+        138.249,
+        36.402,
+        154055
+    ],
+    "Kariya [kariya0] |kariya|kariya #Aichi#": [
+        137.002,
+        34.989,
+        153834
+    ],
+    "Noda [noda0] |noda|noda #Chiba#": [
+        139.871,
+        35.943,
+        152638
+    ],
+    "Kawanishi [kawanishi0] |kawanishi|kawanishi #Hyogo#": [
+        135.414,
+        34.83,
+        152321
+    ],
+    "Higashimurayama [higashimurayama0] |higashimurayama|higashimurayama #Tokyo#": [
+        139.468,
+        35.761,
+        151815
+    ],
+    "Imabari [imabari0] |imabari|imabari #Ehime#": [
+        132.999,
+        34.065,
+        151672
+    ],
+    "Kuki [kuki0] |kuki|kuki #Saitama#": [
+        139.677,
+        36.067,
+        150582
+    ],
+    "Musashino [musashino0] |musashino|musashino #Tokyo#": [
+        139.563,
+        35.707,
+        150149
+    ],
+    "Komaki [komaki0] |komaki|komaki #Aichi#": [
+        136.917,
+        35.289,
+        148831
+    ],
+    "Sayama [sayama0] |sayama|sayama #Saitama#": [
+        139.414,
+        35.857,
+        148699
+    ],
+    "Yonago [yonago0] |yonago|yonago #Tottori#": [
+        133.331,
+        35.428,
+        147317
+    ],
+    "Tama [tama0] |tama|tama #Tokyo#": [
+        139.448,
+        35.633,
+        146951
+    ],
+    "Iruma [iruma0] |iruma|iruma #Saitama#": [
+        139.388,
+        35.84,
+        145651
+    ],
+    "Ashikaga [ashikaga0] |ashikaga|ashikaga #Tochigi#": [
+        139.453,
+        36.334,
+        144746
+    ],
+    "Kakamigahara [kakamigahara0] |kakamigahara|kakamigahara #Gifu#": [
+        136.848,
+        35.399,
+        144521
+    ],
+    "Kusatsu [kusatsu0] |kusatsu|kusatsu #Shiga#": [
+        135.958,
+        35.008,
+        143913
+    ],
+    "Moriguchi [moriguchi0] |moriguchi|moriguchi #Osaka#": [
+        135.567,
+        34.735,
+        143096
+    ],
+    "Okinawa [okinawa0] |okinawa|okinawa #Okinawa#": [
+        127.804,
+        26.337,
+        142752
+    ],
+    "Misato [misato0] |misato|misato #Saitama#": [
+        139.873,
+        35.829,
+        142145
+    ],
+    "Tsuchiura [tsuchiura0] |tsuchiura|tsuchiura #Ibaraki#": [
+        140.205,
+        36.078,
+        142074
+    ],
+    "Fujieda [fujieda0] |fujieda|fujieda #Shizuoka#": [
+        138.257,
+        34.867,
+        141342
+    ],
+    "Fukaya [fukaya0] |fukaya|fukaya #Saitama#": [
+        139.285,
+        36.193,
+        141268
+    ],
+    "Asaka [asaka0] |asaka|asaka #Saitama#": [
+        139.6,
+        35.797,
+        141083
+    ],
+    "Toda [toda0] |toda|toda #Saitama#": [
+        139.681,
+        35.809,
+        140899
+    ],
+    "Ishinomaki [ishinomaki0] |ishinomaki|ishinomaki #Miyagi#": [
+        141.303,
+        38.421,
+        140151
+    ],
+    "Koga [koga0] |koga|koga #Ibaraki#": [
+        139.709,
+        36.195,
+        139344
+    ],
+    "Kuwana [kuwana0] |kuwana|kuwana #Mie#": [
+        136.685,
+        35.067,
+        138613
+    ],
+    "Shunan [shunan0] |shunan|shunan #Yamaguchi#": [
+        131.806,
+        34.055,
+        137540
+    ],
+    "Mino [mino0] |mino|mino #Osaka#": [
+        135.468,
+        34.826,
+        136868
+    ],
+    "Yaizu [yaizu0] |yaizu|yaizu #Shizuoka#": [
+        138.32,
+        34.869,
+        136845
+    ],
+    "Ebina [ebina0] |ebina|ebina #Kanagawa#": [
+        139.394,
+        35.452,
+        136516
+    ],
+    "Kisarazu [kisarazu0] |kisarazu|kisarazu #Chiba#": [
+        139.917,
+        35.375,
+        136166
+    ],
+    "Inazawa [inazawa0] |inazawa|inazawa #Aichi#": [
+        136.78,
+        35.248,
+        134751
+    ],
+    "Isahaya [isahaya0] |isahaya|isahaya #Nagasaki#": [
+        130.053,
+        32.844,
+        133852
+    ],
+    "Ome [ome0] |ome|ome #Tokyo#": [
+        139.273,
+        35.79,
+        133535
+    ],
+    "Narita [narita0] |narita|narita #Chiba#": [
+        140.315,
+        35.778,
+        132906
+    ],
+    "Zama [zama0] |zama|zama #Kanagawa#": [
+        139.407,
+        35.491,
+        132325
+    ],
+    "Onomichi [onomichi0] |onomichi|onomichi #Hiroshima#": [
+        133.207,
+        34.411,
+        131170
+    ],
+    "Abiko [abiko0] |abiko|abiko #Chiba#": [
+        140.027,
+        35.869,
+        130510
+    ],
+    "Kokubunji [kokubunji0] |kokubunji|kokubunji #Tokyo#": [
+        139.464,
+        35.71,
+        129242
+    ],
+    "Iwakuni [iwakuni0] |iwakuni|iwakuni #Yamaguchi#": [
+        132.22,
+        34.168,
+        129125
+    ],
+    "Fujinomiya [fujinomiya0] |fujinomiya|fujinomiya #Shizuoka#": [
+        138.615,
+        35.224,
+        128105
+    ],
+    "Seto [seto0] |seto|seto #Aichi#": [
+        137.084,
+        35.224,
+        127792
+    ],
+    "Osaki [osaki0] |osaki|osaki #Miyagi#": [
+        140.955,
+        38.577,
+        127330
+    ],
+    "Iizuka [iizuka0] |iizuka|iizuka #Fukuoka#": [
+        130.691,
+        33.645,
+        126364
+    ],
+    "Koganei [koganei0] |koganei|koganei #Tokyo#": [
+        139.506,
+        35.7,
+        126074
+    ],
+    "Uruma [uruma0] |uruma|uruma #Okinawa#": [
+        127.827,
+        26.428,
+        125303
+    ],
+    "Kirishima [kirishima0] |kirishima|kirishima #Kagoshima#": [
+        130.764,
+        31.743,
+        123135
+    ],
+    "Yatsushiro [yatsushiro0] |yatsushiro|yatsushiro #Kumamoto#": [
+        130.603,
+        32.505,
+        123067
+    ],
+    "Ise [ise0] |ise|ise #Mie#": [
+        136.711,
+        34.489,
+        122765
+    ],
+    "Tsuruoka [tsuruoka0] |tsuruoka|tsuruoka #Yamagata#": [
+        139.828,
+        38.727,
+        122347
+    ],
+    "Ebetsu [ebetsu0] |ebetsu|ebetsu #Hokkaido#": [
+        141.523,
+        43.095,
+        121056
+    ],
+    "Kashihara [kashihara0] |kashihara|kashihara #Nara#": [
+        135.792,
+        34.51,
+        120922
+    ],
+    "Kadoma [kadoma0] |kadoma|kadoma #Osaka#": [
+        135.592,
+        34.74,
+        119764
+    ],
+    "Daito [daito0] |daito|daito #Osaka#": [
+        135.621,
+        34.71,
+        119367
+    ],
+    "Nobeoka [nobeoka0] |nobeoka|nobeoka #Miyazaki#": [
+        131.67,
+        32.581,
+        118394
+    ],
+    "Handa [handa0] |handa|handa #Aichi#": [
+        136.931,
+        34.896,
+        117884
+    ],
+    "Matsubara [matsubara0] |matsubara|matsubara #Osaka#": [
+        135.554,
+        34.577,
+        117641
+    ],
+    "Aizuwakamatsu [aizuwakamatsu0] |aizuwakamatsu|aizuwakamatsu #Fukushima#": [
+        139.93,
+        37.494,
+        117376
+    ],
+    "Karatsu [karatsu0] |karatsu|karatsu #Saga#": [
+        129.968,
+        33.45,
+        117373
+    ],
+    "Konosu [konosu0] |konosu|konosu #Saitama#": [
+        139.515,
+        36.062,
+        116828
+    ],
+    "Ikoma [ikoma0] |ikoma|ikoma #Nara#": [
+        135.698,
+        34.692,
+        116675
+    ],
+    "Sano [sano0] |sano|sano #Tochigi#": [
+        139.573,
+        36.312,
+        116228
+    ],
+    "Niihama [niihama0] |niihama|niihama #Ehime#": [
+        133.285,
+        33.961,
+        115938
+    ],
+    "Urasoe [urasoe0] |urasoe|urasoe #Okinawa#": [
+        127.714,
+        26.25,
+        115690
+    ],
+    "Kitami [kitami0] |kitami|kitami #Hokkaido#": [
+        143.895,
+        43.804,
+        115480
+    ],
+    "Beppu [beppu0] |beppu|beppu #Oita#": [
+        131.502,
+        33.279,
+        115321
+    ],
+    "Higashikurume [higashikurume0] |higashikurume|higashikurume #Tokyo#": [
+        139.534,
+        35.761,
+        115271
+    ],
+    "Nasushiobara [nasushiobara0] |nasushiobara|nasushiobara #Tochigi#": [
+        140.058,
+        36.971,
+        115210
+    ],
+    "Kakegawa [kakegawa0] |kakegawa|kakegawa #Shizuoka#": [
+        138.014,
+        34.771,
+        114954
+    ],
+    "Hatsukaichi [hatsukaichi0] |hatsukaichi|hatsukaichi #Hiroshima#": [
+        132.329,
+        34.351,
+        114173
+    ],
+    "Hofu [hofu0] |hofu|hofu #Yamaguchi#": [
+        131.572,
+        34.05,
+        113979
+    ],
+    "Akishima [akishima0] |akishima|akishima #Tokyo#": [
+        139.361,
+        35.713,
+        113949
+    ],
+    "Tokai [tokai0] |tokai|tokai #Aichi#": [
+        136.905,
+        35.025,
+        113787
+    ],
+    "Hikone [hikone0] |hikone|hikone #Shiga#": [
+        136.259,
+        35.274,
+        113647
+    ],
+    "Nagahama [nagahama0] |nagahama|nagahama #Shiga#": [
+        136.278,
+        35.382,
+        113636
+    ],
+    "Fujimino [fujimino0] |fujimino|fujimino #Saitama#": [
+        139.513,
+        35.875,
+        113597
+    ],
+    "Oshu [oshu0] |oshu|oshu #Iwate#": [
+        141.143,
+        39.14,
+        112937
+    ],
+    "Higashiomi [higashiomi0] |higashiomi|higashiomi #Shiga#": [
+        136.202,
+        35.111,
+        112819
+    ],
+    "Ichinoseki [ichinoseki0] |ichinoseki|ichinoseki #Iwate#": [
+        141.136,
+        38.93,
+        111932
+    ],
+    "Fujimi [fujimi0] |fujimi|fujimi #Saitama#": [
+        139.539,
+        35.846,
+        111859
+    ],
+    "Kazo [kazo0] |kazo|kazo #Saitama#": [
+        139.598,
+        36.127,
+        111623
+    ],
+    "Otaru [otaru0] |otaru|otaru #Hokkaido#": [
+        140.999,
+        43.199,
+        111299
+    ],
+    "Omuta [omuta0] |omuta|omuta #Fukuoka#": [
+        130.446,
+        33.029,
+        111281
+    ],
+    "Kasuga [kasuga0] |kasuga|kasuga #Fukuoka#": [
+        130.462,
+        33.528,
+        111023
+    ],
+    "Hakusan [hakusan0] |hakusan|hakusan #Ishikawa#": [
+        136.566,
+        36.525,
+        110408
+    ],
+    "Kamagaya [kamagaya0] |kamagaya|kamagaya #Chiba#": [
+        140.0,
+        35.771,
+        109932
+    ],
+    "Marugame [marugame0] |marugame|marugame #Kagawa#": [
+        133.798,
+        34.29,
+        109513
+    ],
+    "Sanda [sanda0] |sanda|sanda #Hyogo#": [
+        135.229,
+        34.888,
+        109238
+    ],
+    "Habikino [habikino0] |habikino|habikino #Osaka#": [
+        135.609,
+        34.555,
+        108736
+    ],
+    "Tondabayashi [tondabayashi0] |tondabayashi|tondabayashi #Osaka#": [
+        135.602,
+        34.505,
+        108699
+    ],
+    "Mishima [mishima0] |mishima|mishima #Shizuoka#": [
+        138.915,
+        35.119,
+        107783
+    ],
+    "Tajimi [tajimi0] |tajimi|tajimi #Gifu#": [
+        137.13,
+        35.333,
+        106732
+    ],
+    "Kiryu [kiryu0] |kiryu|kiryu #Gunma#": [
+        139.331,
+        36.405,
+        106445
+    ],
+    "Komatsu [komatsu0] |komatsu|komatsu #Ishikawa#": [
+        136.447,
+        36.408,
+        106216
+    ],
+    "Ikeda [ikeda0] |ikeda|ikeda #Osaka#": [
+        135.432,
+        34.819,
+        104993
+    ],
+    "Saijo [saijo0] |saijo|saijo #Ehime#": [
+        133.179,
+        33.92,
+        104791
+    ],
+    "Toride [toride0] |toride|toride #Ibaraki#": [
+        140.064,
+        35.895,
+        104524
+    ],
+    "Chikushino [chikushino0] |chikushino|chikushino #Fukuoka#": [
+        130.516,
+        33.494,
+        103311
+    ],
+    "Inzai [inzai0] |inzai|inzai #Chiba#": [
+        140.146,
+        35.834,
+        102609
+    ],
+    "Onojo [onojo0] |onojo|onojo #Fukuoka#": [
+        130.483,
+        33.537,
+        102085
+    ],
+    "Isehara [isehara0] |isehara|isehara #Kanagawa#": [
+        139.313,
+        35.396,
+        101780
+    ],
+    "Kawachinagano [kawachinagano0] |kawachinagano|kawachinagano #Osaka#": [
+        135.566,
+        34.469,
+        101692
+    ],
+    "Kanoya [kanoya0] |kanoya|kanoya #Kagoshima#": [
+        130.852,
+        31.383,
+        101096
+    ],
+    "Chikusei [chikusei0] |chikusei|chikusei #Ibaraki#": [
+        139.981,
+        36.307,
+        100753
+    ],
+    "Sakado [sakado0] |sakado|sakado #Saitama#": [
+        139.401,
+        35.968,
+        100275
+    ],
+    "Sakata [sakata0] |sakata|sakata #Yamagata#": [
+        139.837,
+        38.915,
+        100273
+    ],
+    "Izumisano [izumisano0] |izumisano|izumisano #Osaka#": [
+        135.318,
+        34.408,
+        100131
+    ],
+    "Ginowan [ginowan0] |ginowan|ginowan #Okinawa#": [
+        127.748,
+        26.28,
+        100125
+    ],
+    "Kani [kani0] |kani|kani #Gifu#": [
+        137.061,
+        35.422,
+        99968
+    ],
+    "Tsuyama [tsuyama0] |tsuyama|tsuyama #Okayama#": [
+        134.001,
+        35.06,
+        99937
+    ],
+    "Itoshima [itoshima0] |itoshima|itoshima #Fukuoka#": [
+        130.198,
+        33.559,
+        98877
+    ],
+    "Konan [konan0] |konan|konan #Aichi#": [
+        136.871,
+        35.335,
+        98255
+    ],
+    "Saku [saku0] |saku|saku #Nagano#": [
+        138.472,
+        36.254,
+        98199
+    ],
+    "Iida [iida0] |iida|iida #Nagano#": [
+        137.822,
+        35.515,
+        98164
+    ],
+    "Chitose [chitose0] |chitose|chitose #Hokkaido#": [
+        141.649,
+        42.824,
+        97950
+    ],
+    "Munakata [munakata0] |munakata|munakata #Fukuoka#": [
+        130.541,
+        33.803,
+        97095
+    ],
+    "Shimada [shimada0] |shimada|shimada #Shizuoka#": [
+        138.174,
+        34.833,
+        95719
+    ],
+    "Kamisu [kamisu0] |kamisu|kamisu #Ibaraki#": [
+        140.656,
+        35.898,
+        95454
+    ],
+    "Omura [omura0] |omura|omura #Nagasaki#": [
+        129.958,
+        32.909,
+        95397
+    ],
+    "Shibata [shibata0] |shibata|shibata #Niigata#": [
+        139.325,
+        37.953,
+        94927
+    ],
+    "Sanjo [sanjo0] |sanjo|sanjo #Niigata#": [
+        138.96,
+        37.63,
+        94642
+    ],
+    "Azumino [azumino0] |azumino|azumino #Nagano#": [
+        137.9,
+        36.303,
+        94222
+    ],
+    "Kanuma [kanuma0] |kanuma|kanuma #Tochigi#": [
+        139.749,
+        36.567,
+        94033
+    ],
+    "Ashiya [ashiya0] |ashiya|ashiya #Hyogo#": [
+        135.309,
+        34.734,
+        93922
+    ],
+    "Yotsukaido [yotsukaido0] |yotsukaido|yotsukaido #Chiba#": [
+        140.168,
+        35.67,
+        93576
+    ],
+    "Yashio [yashio0] |yashio|yashio #Saitama#": [
+        139.839,
+        35.822,
+        93363
+    ],
+    "Hanamaki [hanamaki0] |hanamaki|hanamaki #Iwate#": [
+        141.116,
+        39.39,
+        93193
+    ],
+    "Inagi [inagi0] |inagi|inagi #Tokyo#": [
+        139.499,
+        35.637,
+        93151
+    ],
+    "Obu [obu0] |obu|obu #Aichi#": [
+        136.963,
+        35.013,
+        93123
+    ],
+    "Kitakami [kitakami0] |kitakami|kitakami #Iwate#": [
+        141.114,
+        39.287,
+        93045
+    ],
+    "Satsumasendai [satsumasendai0] |satsumasendai|satsumasendai #Kagoshima#": [
+        130.306,
+        31.816,
+        92403
+    ],
+    "Higashimatsuyama [higashimatsuyama0] |higashimatsuyama|higashimatsuyama #Saitama#": [
+        139.402,
+        36.038,
+        91791
+    ],
+    "Nisshin [nisshin0] |nisshin|nisshin #Aichi#": [
+        137.04,
+        35.131,
+        91520
+    ],
+    "Imizu [imizu0] |imizu|imizu #Toyama#": [
+        137.092,
+        36.719,
+        90742
+    ],
+    "Mihara [mihara0] |mihara|mihara #Hiroshima#": [
+        133.082,
+        34.399,
+        90573
+    ],
+    "Iga [iga0] |iga|iga #Mie#": [
+        136.131,
+        34.767,
+        88766
+    ],
+    "Sakai [sakai1] |sakai|sakai #Fukui#": [
+        136.27,
+        36.15,
+        88481
+    ],
+    "Koka [koka0] |koka|koka #Shiga#": [
+        136.17,
+        34.971,
+        88358
+    ],
+    "Fukuroi [fukuroi0] |fukuroi|fukuroi #Shizuoka#": [
+        137.922,
+        34.749,
+        87864
+    ],
+    "Takasago [takasago0] |takasago|takasago #Hyogo#": [
+        134.788,
+        34.77,
+        87722
+    ],
+    "Settsu [settsu0] |settsu|settsu #Osaka#": [
+        135.57,
+        34.766,
+        87456
+    ],
+    "Mobara [mobara0] |mobara|mobara #Chiba#": [
+        140.293,
+        35.427,
+        86782
+    ],
+    "Gotemba [gotemba0] |gotemba|gotemba #Shizuoka#": [
+        138.932,
+        35.302,
+        86614
+    ],
+    "Kitanagoya [kitanagoya0] |kitanagoya|kitanagoya #Aichi#": [
+        136.866,
+        35.246,
+        86385
+    ],
+    "Kameoka [kameoka0] |kameoka|kameoka #Kyoto#": [
+        135.582,
+        35.015,
+        86174
+    ],
+    "Ama [ama0] |ama|ama #Aichi#": [
+        136.825,
+        35.196,
+        86126
+    ],
+    "Yokote [yokote0] |yokote|yokote #Akita#": [
+        140.56,
+        39.31,
+        85555
+    ],
+    "Seki [seki0] |seki|seki #Gifu#": [
+        136.917,
+        35.484,
+        85283
+    ],
+    "Komae [komae0] |komae|komae #Tokyo#": [
+        139.578,
+        35.634,
+        84772
+    ],
+    "Ushiku [ushiku0] |ushiku|ushiku #Ibaraki#": [
+        140.14,
+        35.975,
+        84651
+    ],
+    "Kaizuka [kaizuka0] |kaizuka|kaizuka #Osaka#": [
+        135.357,
+        34.446,
+        84443
+    ],
+    "Takayama [takayama0] |takayama|takayama #Gifu#": [
+        137.252,
+        36.146,
+        84419
+    ],
+    "Chita [chita0] |chita|chita #Aichi#": [
+        136.862,
+        34.991,
+        84364
+    ],
+    "Wako [wako0] |wako|wako #Saitama#": [
+        139.612,
+        35.788,
+        83989
+    ],
+    "Ayase [ayase0] |ayase|ayase #Kanagawa#": [
+        139.433,
+        35.44,
+        83913
+    ],
+    "Higashiyamato [higashiyamato0] |higashiyamato|higashiyamato #Tokyo#": [
+        139.429,
+        35.745,
+        83901
+    ],
+    "Yamatokoriyama [yamatokoriyama0] |yamatokoriyama|yamatokoriyama #Nara#": [
+        135.782,
+        34.648,
+        83285
+    ],
+    "Moriyama [moriyama0] |moriyama|moriyama #Shiga#": [
+        135.994,
+        35.053,
+        83236
+    ],
+    "Owariasahi [owariasahi0] |owariasahi|owariasahi #Aichi#": [
+        137.034,
+        35.216,
+        83144
+    ],
+    "Nakatsu [nakatsu0] |nakatsu|nakatsu #Oita#": [
+        131.19,
+        33.598,
+        82863
+    ],
+    "Shikokuchuo [shikokuchuo0] |shikokuchuo|shikokuchuo #Ehime#": [
+        133.555,
+        33.992,
+        82754
+    ],
+    "Muroran [muroran0] |muroran|muroran #Hokkaido#": [
+        140.972,
+        42.316,
+        82383
+    ],
+    "Kimitsu [kimitsu0] |kimitsu|kimitsu #Chiba#": [
+        139.896,
+        35.334,
+        82206
+    ],
+    "Kashiwazaki [kashiwazaki0] |kashiwazaki|kashiwazaki #Niigata#": [
+        138.56,
+        37.37,
+        81526
+    ],
+    "Yonezawa [yonezawa0] |yonezawa|yonezawa #Yamagata#": [
+        140.112,
+        37.914,
+        81252
+    ],
+    "Omihachiman [omihachiman0] |omihachiman|omihachiman #Shiga#": [
+        136.103,
+        35.123,
+        81122
+    ],
+    "Echizen [echizen0] |echizen|echizen #Fukui#": [
+        136.17,
+        35.904,
+        80611
+    ],
+    "Nagaokakyo [nagaokakyo0] |nagaokakyo|nagaokakyo #Kyoto#": [
+        135.7,
+        34.924,
+        80608
+    ],
+    "Hanno [hanno0] |hanno|hanno #Saitama#": [
+        139.327,
+        35.852,
+        80361
+    ],
+    "Maizuru [maizuru0] |maizuru|maizuru #Kyoto#": [
+        135.331,
+        35.442,
+        80336
+    ],
+    "Gamagori [gamagori0] |gamagori|gamagori #Aichi#": [
+        137.226,
+        34.827,
+        79538
+    ],
+    "Iwamizawa [iwamizawa0] |iwamizawa|iwamizawa #Hokkaido#": [
+        141.762,
+        43.201,
+        79306
+    ],
+    "Akiruno [akiruno0] |akiruno|akiruno #Tokyo#": [
+        139.293,
+        35.729,
+        79292
+    ],
+    "Natori [natori0] |natori|natori #Miyagi#": [
+        140.886,
+        38.173,
+        78718
+    ],
+    "Gyoda [gyoda0] |gyoda|gyoda #Saitama#": [
+        139.459,
+        36.141,
+        78617
+    ],
+    "Honjo [honjo0] |honjo|honjo #Saitama#": [
+        139.189,
+        36.241,
+        78569
+    ],
+    "Mo'oka [mooka0] |mooka|mooka #Tochigi#": [
+        140.013,
+        36.441,
+        78190
+    ],
+    "Kashiba [kashiba0] |kashiba|kashiba #Nara#": [
+        135.689,
+        34.546,
+        78113
+    ],
+    "Kizugawa [kizugawa0] |kizugawa|kizugawa #Kyoto#": [
+        135.821,
+        34.737,
+        77907
+    ],
+    "Nikko [nikko0] |nikko|nikko #Tochigi#": [
+        139.615,
+        36.749,
+        77661
+    ],
+    "Daisen [daisen0] |daisen|daisen #Akita#": [
+        140.476,
+        39.453,
+        77657
+    ],
+    "Toyooka [toyooka0] |toyooka|toyooka #Hyogo#": [
+        134.82,
+        35.547,
+        77489
+    ],
+    "Fukuchiyama [fukuchiyama0] |fukuchiyama|fukuchiyama #Kyoto#": [
+        135.119,
+        35.298,
+        77306
+    ],
+    "Tsubame [tsubame0] |tsubame|tsubame #Niigata#": [
+        138.927,
+        37.664,
+        77201
+    ],
+    "Kunitachi [kunitachi0] |kunitachi|kunitachi #Tokyo#": [
+        139.447,
+        35.688,
+        77130
+    ],
+    "Nakatsugawa [nakatsugawa0] |nakatsugawa|nakatsugawa #Gifu#": [
+        137.504,
+        35.497,
+        76570
+    ],
+    "Ryugasaki [ryugasaki0] |ryugasaki|ryugasaki #Ibaraki#": [
+        140.183,
+        35.911,
+        76420
+    ],
+    "Nabari [nabari0] |nabari|nabari #Mie#": [
+        136.108,
+        34.628,
+        76387
+    ],
+    "Aira [aira0] |aira|aira #Kagoshima#": [
+        130.629,
+        31.723,
+        76348
+    ],
+    "Kiyose [kiyose0] |kiyose|kiyose #Tokyo#": [
+        139.527,
+        35.785,
+        76208
+    ],
+    "Tome [tome0] |tome|tome #Miyagi#": [
+        141.195,
+        38.689,
+        76037
+    ],
+    "Amakusa [amakusa0] |amakusa|amakusa #Kumamoto#": [
+        130.194,
+        32.456,
+        75783
+    ],
+    "Shiki [shiki0] |shiki|shiki #Saitama#": [
+        139.578,
+        35.826,
+        75346
+    ],
+    "Kai [kai0] |kai|kai #Yamanashi#": [
+        138.518,
+        35.664,
+        75313
+    ],
+    "Tatebayashi [tatebayashi0] |tatebayashi|tatebayashi #Gunma#": [
+        139.534,
+        36.246,
+        75309
+    ],
+    "Miki [miki0] |miki|miki #Hyogo#": [
+        134.982,
+        34.796,
+        75294
+    ],
+    "Katano [katano0] |katano|katano #Osaka#": [
+        135.68,
+        34.788,
+        75033
+    ],
+    "Sukagawa [sukagawa0] |sukagawa|sukagawa #Fukushima#": [
+        140.373,
+        37.286,
+        74992
+    ],
+    "Okegawa [okegawa0] |okegawa|okegawa #Saitama#": [
+        139.558,
+        35.999,
+        74748
+    ],
+    "Yurihonjo [yurihonjo0] |yurihonjo|yurihonjo #Akita#": [
+        140.05,
+        39.387,
+        74707
+    ],
+    "Joyo [joyo0] |joyo|joyo #Kyoto#": [
+        135.775,
+        34.853,
+        74607
+    ],
+    "Shibukawa [shibukawa0] |shibukawa|shibukawa #Gunma#": [
+        139.0,
+        36.489,
+        74581
+    ],
+    "Izumiotsu [izumiotsu0] |izumiotsu|izumiotsu #Osaka#": [
+        135.408,
+        34.503,
+        74412
+    ],
+    "Tatsuno [tatsuno0] |tatsuno|tatsuno #Hyogo#": [
+        134.55,
+        34.862,
+        74316
+    ],
+    "Warabi [warabi0] |warabi|warabi #Saitama#": [
+        139.689,
+        35.825,
+        74283
+    ],
+    "Tosu [tosu0] |tosu|tosu #Saga#": [
+        130.517,
+        33.376,
+        74196
+    ],
+    "Kyotanabe [kyotanabe0] |kyotanabe|kyotanabe #Kyoto#": [
+        135.771,
+        34.821,
+        73753
+    ],
+    "Kasama [kasama0] |kasama|kasama #Ibaraki#": [
+        140.307,
+        36.349,
+        73173
+    ],
+    "Dazaifu [dazaifu0] |dazaifu|dazaifu #Fukuoka#": [
+        130.515,
+        33.512,
+        73164
+    ],
+    "Inuyama [inuyama0] |inuyama|inuyama #Aichi#": [
+        136.943,
+        35.381,
+        73090
+    ],
+    "Ishioka [ishioka0] |ishioka|ishioka #Ibaraki#": [
+        140.28,
+        36.191,
+        73061
+    ],
+    "Hekinan [hekinan0] |hekinan|hekinan #Aichi#": [
+        136.997,
+        34.883,
+        72458
+    ],
+    "Katori [katori0] |katori|katori #Chiba#": [
+        140.493,
+        35.894,
+        72356
+    ],
+    "Chiryu [chiryu0] |chiryu|chiryu #Aichi#": [
+        137.046,
+        35.006,
+        72193
+    ],
+    "Otawara [otawara0] |otawara|otawara #Tochigi#": [
+        140.016,
+        36.872,
+        72087
+    ],
+    "Yoshikawa [yoshikawa0] |yoshikawa|yoshikawa #Saitama#": [
+        139.844,
+        35.879,
+        71979
+    ],
+    "Yukuhashi [yukuhashi0] |yukuhashi|yukuhashi #Fukuoka#": [
+        130.977,
+        33.73,
+        71426
+    ],
+    "Musashimurayama [musashimurayama0] |musashimurayama|musashimurayama #Tokyo#": [
+        139.386,
+        35.756,
+        70829
+    ],
+    "Uwajima [uwajima0] |uwajima|uwajima #Ehime#": [
+        132.56,
+        33.217,
+        70809
+    ],
+    "Yawata [yawata0] |yawata|yawata #Kyoto#": [
+        135.706,
+        34.873,
+        70433
+    ],
+    "Eniwa [eniwa0] |eniwa|eniwa #Hokkaido#": [
+        141.578,
+        42.88,
+        70331
+    ],
+    "Tsurugashima [tsurugashima0] |tsurugashima|tsurugashima #Saitama#": [
+        139.394,
+        35.943,
+        70117
+    ],
+    "Tanabe [tanabe0] |tanabe|tanabe #Wakayama#": [
+        135.38,
+        33.728,
+        69870
+    ],
+    "Anan [anan0] |anan|anan #Tokushima#": [
+        134.666,
+        33.919,
+        69470
+    ],
+    "Minamiarupusu [minamiarupusu0] |minamiarupusu|minamiarupusu #Yamanashi#": [
+        138.465,
+        35.609,
+        69459
+    ],
+    "Toyoake [toyoake0] |toyoake|toyoake #Aichi#": [
+        137.013,
+        35.054,
+        69295
+    ],
+    "Odate [odate0] |odate|odate #Akita#": [
+        140.561,
+        40.271,
+        69237
+    ],
+    "Soja [soja0] |soja|soja #Okayama#": [
+        133.749,
+        34.674,
+        69030
+    ],
+    "Ritto [ritto0] |ritto|ritto #Shiga#": [
+        135.998,
+        35.022,
+        68820
+    ],
+    "Kashiwara [kashiwara0] |kashiwara|kashiwara #Osaka#": [
+        135.624,
+        34.587,
+        68775
+    ],
+    "Moriya [moriya0] |moriya|moriya #Ibaraki#": [
+        139.982,
+        35.956,
+        68421
+    ],
+    "Sabae [sabae0] |sabae|sabae #Fukui#": [
+        136.193,
+        35.95,
+        68302
+    ],
+    "Yachimata [yachimata0] |yachimata|yachimata #Chiba#": [
+        140.32,
+        35.662,
+        67455
+    ],
+    "Kiyosu [kiyosu0] |kiyosu|kiyosu #Aichi#": [
+        136.838,
+        35.214,
+        67352
+    ],
+    "Shiojiri [shiojiri0] |shiojiri|shiojiri #Nagano#": [
+        137.953,
+        36.115,
+        67241
+    ],
+    "Fukutsu [fukutsu0] |fukutsu|fukutsu #Fukuoka#": [
+        130.474,
+        33.765,
+        67033
+    ],
+    "Kashima [kashima0] |kashima|kashima #Ibaraki#": [
+        140.643,
+        35.965,
+        66950
+    ],
+    "Fuefuki [fuefuki0] |fuefuki|fuefuki #Yamanashi#": [
+        138.638,
+        35.65,
+        66947
+    ],
+    "Saiki [saiki0] |saiki|saiki #Oita#": [
+        131.903,
+        32.956,
+        66851
+    ],
+    "Ina [ina0] |ina|ina #Nagano#": [
+        137.954,
+        35.827,
+        66125
+    ],
+    "Hashima [hashima0] |hashima|hashima #Gifu#": [
+        136.704,
+        35.32,
+        65649
+    ],
+    "Ito [ito0] |ito|ito #Shizuoka#": [
+        139.096,
+        34.971,
+        65491
+    ],
+    "Kitamoto [kitamoto0] |kitamoto|kitamoto #Saitama#": [
+        139.533,
+        36.032,
+        65201
+    ],
+    "Kurihara [kurihara0] |kurihara|kurihara #Miyagi#": [
+        141.022,
+        38.734,
+        64637
+    ],
+    "Tomigusuku [tomigusuku0] |tomigusuku|tomigusuku #Okinawa#": [
+        127.684,
+        26.178,
+        64612
+    ],
+    "Yanagawa [yanagawa0] |yanagawa|yanagawa #Fukuoka#": [
+        130.404,
+        33.161,
+        64475
+    ],
+    "Tamana [tamana0] |tamana|tamana #Kumamoto#": [
+        130.55,
+        32.928,
+        64292
+    ],
+    "Tsuruga [tsuruga0] |tsuruga|tsuruga #Fukui#": [
+        136.068,
+        35.654,
+        64264
+    ],
+    "Tenri [tenri0] |tenri|tenri #Nara#": [
+        135.834,
+        34.601,
+        63889
+    ],
+    "Sodegaura [sodegaura0] |sodegaura|sodegaura #Chiba#": [
+        139.991,
+        35.444,
+        63883
+    ],
+    "Asahi [asahi0] |asahi|asahi #Chiba#": [
+        140.65,
+        35.721,
+        63745
+    ],
+    "Fujiidera [fujiidera0] |fujiidera|fujiidera #Osaka#": [
+        135.594,
+        34.572,
+        63688
+    ],
+    "Nago [nago0] |nago|nago #Okinawa#": [
+        127.985,
+        26.588,
+        63554
+    ],
+    "Fujioka [fujioka0] |fujioka|fujioka #Gunma#": [
+        139.078,
+        36.248,
+        63261
+    ],
+    "Kaga [kaga0] |kaga|kaga #Ishikawa#": [
+        136.315,
+        36.305,
+        63220
+    ],
+    "Tagajo [tagajo0] |tagajo|tagajo #Miyagi#": [
+        141.012,
+        38.298,
+        62827
+    ],
+    "Hita [hita0] |hita|hita #Oita#": [
+        130.934,
+        33.322,
+        62657
+    ],
+    "Shiroi [shiroi0] |shiroi|shiroi #Chiba#": [
+        140.056,
+        35.783,
+        62441
+    ],
+    "Tendo [tendo0] |tendo|tendo #Yamagata#": [
+        140.377,
+        38.363,
+        62140
+    ],
+    "Miyoshi [miyoshi0] |miyoshi|miyoshi #Aichi#": [
+        137.076,
+        35.089,
+        61952
+    ],
+    "Mitoyo [mitoyo0] |mitoyo|mitoyo #Kagawa#": [
+        133.715,
+        34.183,
+        61857
+    ],
+    "Koshi [koshi0] |koshi|koshi #Kumamoto#": [
+        130.769,
+        32.869,
+        61772
+    ],
+    "Yamatotakada [yamatotakada0] |yamatotakada|yamatotakada #Nara#": [
+        135.744,
+        34.52,
+        61744
+    ],
+    "Hasuda [hasuda0] |hasuda|hasuda #Saitama#": [
+        139.664,
+        35.995,
+        61499
+    ],
+    "Tamba [tamba0] |tamba|tamba #Hyogo#": [
+        135.031,
+        35.175,
+        61471
+    ],
+    "Kesennuma [kesennuma0] |kesennuma|kesennuma #Miyagi#": [
+        141.579,
+        38.895,
+        61147
+    ],
+    "Itoman [itoman0] |itoman|itoman #Okinawa#": [
+        127.67,
+        26.129,
+        61007
+    ],
+    "Tsushima [tsushima0] |tsushima|tsushima #Aichi#": [
+        136.731,
+        35.178,
+        60942
+    ],
+    "Joso [joso0] |joso|joso #Ibaraki#": [
+        139.991,
+        36.023,
+        60834
+    ],
+    "Aisai [aisai0] |aisai|aisai #Aichi#": [
+        136.718,
+        35.149,
+        60829
+    ],
+    "Hashimoto [hashimoto0] |hashimoto|hashimoto #Wakayama#": [
+        135.615,
+        34.318,
+        60818
+    ],
+    "Yame [yame0] |yame|yame #Fukuoka#": [
+        130.559,
+        33.211,
+        60608
+    ],
+    "Towada [towada0] |towada|towada #Aomori#": [
+        141.206,
+        40.613,
+        60378
+    ],
+    "San'yo-Onoda [sanyoonoda0] |sanyoonoda|sanyoonoda #Yamaguchi#": [
+        131.181,
+        33.998,
+        60326
+    ],
+    "Nagakute [nagakute0] |nagakute|nagakute #Aichi#": [
+        137.042,
+        35.176,
+        60162
+    ],
+    "Sennan [sennan0] |sennan|sennan #Osaka#": [
+        135.262,
+        34.373,
+        60102
+    ],
+    "Chichibu [chichibu0] |chichibu|chichibu #Saitama#": [
+        139.084,
+        35.991,
+        59674
+    ],
+    "Hyuga [hyuga0] |hyuga|hyuga #Miyazaki#": [
+        131.627,
+        32.426,
+        59629
+    ],
+    "Shimotsuke [shimotsuke0] |shimotsuke|shimotsuke #Tochigi#": [
+        139.844,
+        36.383,
+        59507
+    ],
+    "Shirakawa [shirakawa0] |shirakawa|shirakawa #Fukushima#": [
+        140.211,
+        37.126,
+        59491
+    ],
+    "Tahara [tahara0] |tahara|tahara #Aichi#": [
+        137.269,
+        34.669,
+        59360
+    ],
+    "Ogori [ogori0] |ogori|ogori #Fukuoka#": [
+        130.556,
+        33.397,
+        59360
+    ],
+    "Minamisoma [minamisoma0] |minamisoma|minamisoma #Fukushima#": [
+        140.956,
+        37.638,
+        59005
+    ],
+    "Chikuma [chikuma0] |chikuma|chikuma #Nagano#": [
+        138.12,
+        36.534,
+        58852
+    ],
+    "Kinokawa [kinokawa0] |kinokawa|kinokawa #Wakayama#": [
+        135.363,
+        34.262,
+        58816
+    ],
+    "Koga [koga1] |koga|koga #Fukuoka#": [
+        130.466,
+        33.734,
+        58786
+    ],
+    "Tokoname [tokoname0] |tokoname|tokoname #Aichi#": [
+        136.836,
+        34.891,
+        58710
+    ],
+    "Osakasayama [osakasayama0] |osakasayama|osakasayama #Osaka#": [
+        135.546,
+        34.491,
+        58435
+    ],
+    "Choshi [choshi0] |choshi|choshi #Chiba#": [
+        140.827,
+        35.729,
+        58431
+    ],
+    "Date [date0] |date|date #Fukushima#": [
+        140.555,
+        37.82,
+        58240
+    ],
+    "Togane [togane0] |togane|togane #Chiba#": [
+        140.366,
+        35.559,
+        58219
+    ],
+    "Kitahiroshima [kitahiroshima0] |kitahiroshima|kitahiroshima #Hokkaido#": [
+        141.565,
+        42.98,
+        58171
+    ],
+    "Kosai [kosai0] |kosai|kosai #Shizuoka#": [
+        137.542,
+        34.714,
+        57885
+    ],
+    "Kan'onji [kanonji0] |kanonji|kanonji #Kagawa#": [
+        133.656,
+        34.129,
+        57438
+    ],
+    "Murakami [murakami0] |murakami|murakami #Niigata#": [
+        139.478,
+        38.223,
+        57418
+    ],
+    "Nonoichi [nonoichi0] |nonoichi|nonoichi #Ishikawa#": [
+        136.609,
+        36.533,
+        57238
+    ],
+    "Zushi [zushi0] |zushi|zushi #Kanagawa#": [
+        139.58,
+        35.297,
+        57060
+    ],
+    "Uki [uki0] |uki|uki #Kumamoto#": [
+        130.679,
+        32.649,
+        57032
+    ],
+    "Ishikari [ishikari0] |ishikari|ishikari #Hokkaido#": [
+        141.313,
+        43.162,
+        56869
+    ],
+    "Muko [muko0] |muko|muko #Kyoto#": [
+        135.704,
+        34.953,
+        56859
+    ],
+    "Minokamo [minokamo0] |minokamo|minokamo #Gifu#": [
+        137.018,
+        35.442,
+        56689
+    ],
+    "Tamano [tamano0] |tamano|tamano #Okayama#": [
+        133.948,
+        34.492,
+        56531
+    ],
+    "Fussa [fussa0] |fussa|fussa #Tokyo#": [
+        139.328,
+        35.743,
+        56414
+    ],
+    "Chino [chino0] |chino|chino #Nagano#": [
+        138.159,
+        35.996,
+        56400
+    ],
+    "Mizuho [mizuho0] |mizuho|mizuho #Gifu#": [
+        136.674,
+        35.388,
+        56388
+    ],
+    "Nogata [nogata0] |nogata|nogata #Fukuoka#": [
+        130.728,
+        33.749,
+        56212
+    ],
+    "Kudamatsu [kudamatsu0] |kudamatsu|kudamatsu #Yamaguchi#": [
+        131.869,
+        34.01,
+        55887
+    ],
+    "Takaishi [takaishi0] |takaishi|takaishi #Osaka#": [
+        135.437,
+        34.521,
+        55635
+    ],
+    "Takizawa [takizawa0] |takizawa|takizawa #Iwate#": [
+        141.101,
+        39.754,
+        55579
+    ],
+    "Toki [toki0] |toki|toki #Gifu#": [
+        137.184,
+        35.358,
+        55348
+    ],
+    "Shijonawate [shijonawate0] |shijonawate|shijonawate #Osaka#": [
+        135.636,
+        34.74,
+        55177
+    ],
+    "Annaka [annaka0] |annaka|annaka #Gunma#": [
+        138.885,
+        36.325,
+        54907
+    ],
+    "Sakurai [sakurai0] |sakurai|sakurai #Nara#": [
+        135.847,
+        34.513,
+        54857
+    ],
+    "Minamiuonuma [minamiuonuma0] |minamiuonuma|minamiuonuma #Niigata#": [
+        138.878,
+        37.063,
+        54851
+    ],
+    "Naruto [naruto0] |naruto|naruto #Tokushima#": [
+        134.609,
+        34.174,
+        54622
+    ],
+    "Hamada [hamada0] |hamada|hamada #Shimane#": [
+        132.086,
+        34.899,
+        54592
+    ],
+    "Hidaka [hidaka0] |hidaka|hidaka #Saitama#": [
+        139.345,
+        35.898,
+        54571
+    ],
+    "Konan [konan1] |konan|konan #Shiga#": [
+        136.085,
+        35.004,
+        54460
+    ],
+    "Hamura [hamura0] |hamura|hamura #Tokyo#": [
+        139.311,
+        35.768,
+        54326
+    ],
+    "Mutsu [mutsu0] |mutsu|mutsu #Aomori#": [
+        141.198,
+        41.295,
+        54103
+    ],
+    "Iwade [iwade0] |iwade|iwade #Wakayama#": [
+        135.313,
+        34.254,
+        53967
+    ],
+    "Nihonmatsu [nihonmatsu0] |nihonmatsu|nihonmatsu #Fukushima#": [
+        140.431,
+        37.585,
+        53557
+    ],
+    "Naka [naka0] |naka|naka #Ibaraki#": [
+        140.497,
+        36.45,
+        53502
+    ],
+    "Miyakojima [miyakojima0] |miyakojima|miyakojima #Okinawa#": [
+        125.281,
+        24.806,
+        52931
+    ],
+    "Hanyu [hanyu0] |hanyu|hanyu #Saitama#": [
+        139.539,
+        36.171,
+        52862
+    ],
+    "Usa [usa0] |usa|usa #Oita#": [
+        131.349,
+        33.533,
+        52771
+    ],
+    "Imari [imari0] |imari|imari #Saga#": [
+        129.877,
+        33.274,
+        52629
+    ],
+    "Bando [bando0] |bando|bando #Ibaraki#": [
+        139.889,
+        36.043,
+        52265
+    ],
+    "Shiraoka [shiraoka0] |shiraoka|shiraoka #Saitama#": [
+        139.667,
+        36.017,
+        52214
+    ],
+    "Shiogama [shiogama0] |shiogama|shiogama #Miyagi#": [
+        141.02,
+        38.317,
+        52203
+    ],
+    "Izumi [izumi1] |izumi|izumi #Kagoshima#": [
+        130.353,
+        32.089,
+        51994
+    ],
+    "Tomiya [tomiya0] |tomiya|tomiya #Miyagi#": [
+        140.888,
+        38.399,
+        51651
+    ],
+    "Sado [sado0] |sado|sado #Niigata#": [
+        138.34,
+        37.988,
+        51492
+    ],
+    "Goshogawara [goshogawara0] |goshogawara|goshogawara #Aomori#": [
+        140.445,
+        40.809,
+        51415
+    ],
+    "Hannan [hannan0] |hannan|hannan #Osaka#": [
+        135.241,
+        34.36,
+        51254
+    ],
+    "Fuchu [fuchu1] |fuchu|fuchu #Hiroshima#": [
+        132.51,
+        34.388,
+        51155
+    ],
+    "Susono [susono0] |susono|susono #Shizuoka#": [
+        138.912,
+        35.179,
+        50911
+    ],
+    "Kyotango [kyotango0] |kyotango|kyotango #Kyoto#": [
+        135.061,
+        35.624,
+        50860
+    ],
+    "Nichinan [nichinan0] |nichinan|nichinan #Miyazaki#": [
+        131.383,
+        31.599,
+        50848
+    ],
+    "Arao [arao0] |arao|arao #Kumamoto#": [
+        130.434,
+        32.989,
+        50832
+    ],
+    "Miyoshi [miyoshi1] |miyoshi|miyoshi #Hiroshima#": [
+        132.856,
+        34.805,
+        50681
+    ],
+    "Yuki [yuki0] |yuki|yuki #Ibaraki#": [
+        139.877,
+        36.305,
+        50645
+    ],
+    "Sakaide [sakaide0] |sakaide|sakaide #Kagawa#": [
+        133.861,
+        34.316,
+        50624
+    ],
+    "Yasu [yasu0] |yasu|yasu #Shiga#": [
+        136.026,
+        35.068,
+        50513
+    ],
+    "Miyako [miyako0] |miyako|miyako #Iwate#": [
+        141.951,
+        39.642,
+        50369
+    ],
+    "Nanao [nanao0] |nanao|nanao #Ishikawa#": [
+        136.964,
+        37.044,
+        50300
+    ],
+    "Asakura [asakura0] |asakura|asakura #Fukuoka#": [
+        130.663,
+        33.42,
+        50273
+    ],
+    "Nakagawa [nakagawa0] |nakagawa|nakagawa #Fukuoka#": [
+        130.429,
+        33.512,
+        50112
+    ],
+    "Satte [satte0] |satte|satte #Saitama#": [
+        139.718,
+        36.077,
+        50066
+    ],
+    "Noshiro [noshiro0] |noshiro|noshiro #Akita#": [
+        140.027,
+        40.212,
+        49968
+    ],
+    "Tsukubamirai [tsukubamirai0] |tsukubamirai|tsukubamirai #Ibaraki#": [
+        140.05,
+        35.953,
+        49872
+    ],
+    "Kameyama [kameyama0] |kameyama|kameyama #Mie#": [
+        136.45,
+        34.851,
+        49835
+    ],
+    "Tokamachi [tokamachi0] |tokamachi|tokamachi #Niigata#": [
+        138.755,
+        37.13,
+        49820
+    ],
+    "Hikari [hikari0] |hikari|hikari #Yamaguchi#": [
+        131.949,
+        33.957,
+        49798
+    ],
+    "Tomisato [tomisato0] |tomisato|tomisato #Chiba#": [
+        140.328,
+        35.736,
+        49735
+    ],
+    "Midori [midori0] |midori|midori #Gunma#": [
+        139.281,
+        36.395,
+        49648
+    ],
+    "Higashiura [higashiura0] |higashiura|higashiura #Aichi#": [
+        136.962,
+        34.969,
+        49596
+    ],
+    "Suzaka [suzaka0] |suzaka|suzaka #Nagano#": [
+        138.318,
+        36.647,
+        49559
+    ],
+    "Yamaga [yamaga0] |yamaga|yamaga #Kumamoto#": [
+        130.69,
+        33.014,
+        49025
+    ],
+    "Omitama [omitama0] |omitama|omitama #Ibaraki#": [
+        140.353,
+        36.239,
+        48870
+    ],
+    "Chikugo [chikugo0] |chikugo|chikugo #Fukuoka#": [
+        130.502,
+        33.21,
+        48827
+    ],
+    "Suwa [suwa0] |suwa|suwa #Nagano#": [
+        138.114,
+        36.039,
+        48729
+    ],
+    "Hitachiota [hitachiota0] |hitachiota|hitachiota #Ibaraki#": [
+        140.524,
+        36.539,
+        48602
+    ],
+    "Ami [ami0] |ami|ami #Ibaraki#": [
+        140.215,
+        36.038,
+        48553
+    ],
+    "Nomi [nomi0] |nomi|nomi #Ishikawa#": [
+        136.458,
+        36.451,
+        48523
+    ],
+    "Sanmu [sanmu0] |sanmu|sanmu #Chiba#": [
+        140.41,
+        35.605,
+        48444
+    ],
+    "Kainan [kainan0] |kainan|kainan #Wakayama#": [
+        135.21,
+        34.155,
+        48369
+    ],
+    "Samukawa [samukawa0] |samukawa|samukawa #Kanagawa#": [
+        139.389,
+        35.37,
+        48348
+    ],
+    "Kasuya [kasuya0] |kasuya|kasuya #Fukuoka#": [
+        130.476,
+        33.617,
+        48190
+    ],
+    "Tonami [tonami0] |tonami|tonami #Toyama#": [
+        136.959,
+        36.637,
+        48154
+    ],
+    "Oamishirasato [oamishirasato0] |oamishirasato|oamishirasato #Chiba#": [
+        140.346,
+        35.511,
+        48129
+    ],
+    "Iwakura [iwakura0] |iwakura|iwakura #Aichi#": [
+        136.872,
+        35.278,
+        47983
+    ],
+    "Nanto [nanto0] |nanto|nanto #Toyama#": [
+        136.873,
+        36.558,
+        47937
+    ],
+    "Takeo [takeo0] |takeo|takeo #Saga#": [
+        130.02,
+        33.194,
+        47914
+    ],
+    "Okaya [okaya0] |okaya|okaya #Nagano#": [
+        138.049,
+        36.067,
+        47790
+    ],
+    "Kikugawa [kikugawa0] |kikugawa|kikugawa #Shizuoka#": [
+        138.086,
+        34.76,
+        47789
+    ],
+    "Ena [ena0] |ena|ena #Gifu#": [
+        137.413,
+        35.449,
+        47774
+    ],
+    "Higashine [higashine0] |higashine|higashine #Yamagata#": [
+        140.388,
+        38.436,
+        47682
+    ],
+    "Ishigaki [ishigaki0] |ishigaki|ishigaki #Okinawa#": [
+        124.156,
+        24.341,
+        47637
+    ],
+    "Gosen [gosen0] |gosen|gosen #Niigata#": [
+        139.181,
+        37.741,
+        47625
+    ],
+    "Ono [ono0] |ono|ono #Hyogo#": [
+        134.936,
+        34.847,
+        47562
+    ],
+    "Tomioka [tomioka0] |tomioka|tomioka #Gunma#": [
+        138.894,
+        36.259,
+        47446
+    ],
+    "Hioki [hioki0] |hioki|hioki #Kagoshima#": [
+        130.401,
+        31.635,
+        47153
+    ],
+    "Sanuki [sanuki0] |sanuki|sanuki #Kagawa#": [
+        134.178,
+        34.319,
+        47003
+    ],
+    "Izunokuni [izunokuni0] |izunokuni|izunokuni #Shizuoka#": [
+        138.93,
+        35.032,
+        46804
+    ],
+    "Nankoku [nankoku0] |nankoku|nankoku #Kochi#": [
+        133.648,
+        33.576,
+        46664
+    ],
+    "Fujiyoshida [fujiyoshida0] |fujiyoshida|fujiyoshida #Yamanashi#": [
+        138.807,
+        35.488,
+        46530
+    ],
+    "Kurayoshi [kurayoshi0] |kurayoshi|kurayoshi #Tottori#": [
+        133.826,
+        35.43,
+        46485
+    ],
+    "Kikuchi [kikuchi0] |kikuchi|kikuchi #Kumamoto#": [
+        130.813,
+        32.979,
+        46416
+    ],
+    "Noboribetsu [noboribetsu0] |noboribetsu|noboribetsu #Hokkaido#": [
+        141.105,
+        42.412,
+        46391
+    ],
+    "Shime [shime0] |shime|shime #Fukuoka#": [
+        130.482,
+        33.587,
+        46377
+    ],
+    "Takashima [takashima0] |takashima|takashima #Shiga#": [
+        136.033,
+        35.349,
+        46377
+    ],
+    "Tagawa [tagawa0] |tagawa|tagawa #Fukuoka#": [
+        130.806,
+        33.639,
+        46203
+    ],
+    "Takahama [takahama0] |takahama|takahama #Aichi#": [
+        136.988,
+        34.928,
+        46106
+    ],
+    "Kasaoka [kasaoka0] |kasaoka|kasaoka #Okayama#": [
+        133.505,
+        34.505,
+        46088
+    ],
+    "Shima [shima0] |shima|shima #Mie#": [
+        136.828,
+        34.329,
+        46057
+    ],
+    "Hokota [hokota0] |hokota|hokota #Ibaraki#": [
+        140.511,
+        36.154,
+        45953
+    ],
+    "Ako [ako0] |ako|ako #Hyogo#": [
+        134.39,
+        34.751,
+        45892
+    ],
+    "Numata [numata0] |numata|numata #Gunma#": [
+        139.044,
+        36.646,
+        45337
+    ],
+    "Tateyama [tateyama0] |tateyama|tateyama #Chiba#": [
+        139.867,
+        34.996,
+        45153
+    ],
+    "Masuda [masuda0] |masuda|masuda #Shimane#": [
+        131.841,
+        34.677,
+        45003
+    ],
+    "Inabe [inabe0] |inabe|inabe #Mie#": [
+        136.533,
+        35.134,
+        44973
+    ],
+    "Ina [ina1] |ina|ina #Saitama#": [
+        139.616,
+        36.0,
+        44841
+    ],
+    "Kitakata [kitakata0] |kitakata|kitakata #Fukushima#": [
+        139.875,
+        37.651,
+        44760
+    ],
+    "Hagi [hagi0] |hagi|hagi #Yamaguchi#": [
+        131.399,
+        34.409,
+        44626
+    ],
+    "Sakura [sakura1] |sakura|sakura #Tochigi#": [
+        139.964,
+        36.684,
+        44513
+    ],
+    "Shinshiro [shinshiro0] |shinshiro|shinshiro #Aichi#": [
+        137.501,
+        34.901,
+        44355
+    ],
+    "Hokuto [hokuto0] |hokuto|hokuto #Hokkaido#": [
+        140.645,
+        41.82,
+        44302
+    ],
+    "Minamiawaji [minamiawaji0] |minamiawaji|minamiawaji #Hyogo#": [
+        134.736,
+        34.334,
+        44137
+    ],
+    "Iwanuma [iwanuma0] |iwanuma|iwanuma #Miyagi#": [
+        140.868,
+        38.11,
+        44068
+    ],
+    "Hokuto [hokuto1] |hokuto|hokuto #Yamanashi#": [
+        138.424,
+        35.777,
+        44053
+    ],
+    "Nanjo [nanjo0] |nanjo|nanjo #Okinawa#": [
+        127.767,
+        26.144,
+        44043
+    ],
+    "Ogi [ogi0] |ogi|ogi #Saga#": [
+        130.196,
+        33.293,
+        43952
+    ],
+    "Himi [himi0] |himi|himi #Toyama#": [
+        136.987,
+        36.857,
+        43950
+    ],
+    "Togo [togo0] |togo|togo #Aichi#": [
+        137.052,
+        35.104,
+        43903
+    ],
+    "Sugito [sugito0] |sugito|sugito #Saitama#": [
+        139.739,
+        36.026,
+        43845
+    ],
+    "Kumatori [kumatori0] |kumatori|kumatori #Osaka#": [
+        135.348,
+        34.403,
+        43763
+    ],
+    "Kobayashi [kobayashi0] |kobayashi|kobayashi #Miyazaki#": [
+        130.977,
+        31.994,
+        43670
+    ],
+    "Otofuke [otofuke0] |otofuke|otofuke #Hokkaido#": [
+        143.204,
+        42.961,
+        43576
+    ],
+    "Taketoyo [taketoyo0] |taketoyo|taketoyo #Aichi#": [
+        136.917,
+        34.852,
+        43535
+    ],
+    "Makinohara [makinohara0] |makinohara|makinohara #Shizuoka#": [
+        138.224,
+        34.736,
+        43502
+    ],
+    "Shimabara [shimabara0] |shimabara|shimabara #Nagasaki#": [
+        130.368,
+        32.786,
+        43338
+    ],
+    "Kikuyo [kikuyo0] |kikuyo|kikuyo #Kumamoto#": [
+        130.796,
+        32.859,
+        43337
+    ],
+    "Nagaizumi [nagaizumi0] |nagaizumi|nagaizumi #Shizuoka#": [
+        138.896,
+        35.132,
+        43336
+    ],
+    "Yatomi [yatomi0] |yatomi|yatomi #Aichi#": [
+        136.725,
+        35.11,
+        43025
+    ],
+    "Maniwa [maniwa0] |maniwa|maniwa #Okayama#": [
+        133.693,
+        35.081,
+        42725
+    ],
+    "Kasai [kasai0] |kasai|kasai #Hyogo#": [
+        134.832,
+        34.933,
+        42700
+    ],
+    "Akaiwa [akaiwa0] |akaiwa|akaiwa #Okayama#": [
+        134.02,
+        34.754,
+        42661
+    ],
+    "Shimotsuma [shimotsuma0] |shimotsuma|shimotsuma #Ibaraki#": [
+        139.965,
+        36.182,
+        42521
+    ],
+    "Futtsu [futtsu0] |futtsu|futtsu #Chiba#": [
+        139.818,
+        35.314,
+        42465
+    ],
+    "Kota [kota0] |kota|kota #Aichi#": [
+        137.171,
+        34.875,
+        42449
+    ],
+    "Nakano [nakano0] |nakano|nakano #Nagano#": [
+        138.369,
+        36.745,
+        42338
+    ],
+    "Minamishimabara [minamishimabara0] |minamishimabara|minamishimabara #Nagasaki#": [
+        130.293,
+        32.654,
+        42330
+    ],
+    "Yuzawa [yuzawa0] |yuzawa|yuzawa #Akita#": [
+        140.491,
+        39.165,
+        42091
+    ],
+    "Oizumi [oizumi0] |oizumi|oizumi #Gunma#": [
+        139.409,
+        36.253,
+        42089
+    ],
+    "Miura [miura0] |miura|miura #Kanagawa#": [
+        139.62,
+        35.144,
+        42069
+    ],
+    "Awaji [awaji0] |awaji|awaji #Hyogo#": [
+        134.918,
+        34.448,
+        41967
+    ],
+    "Kitaibaraki [kitaibaraki0] |kitaibaraki|kitaibaraki #Ibaraki#": [
+        140.748,
+        36.797,
+        41801
+    ],
+    "Amami [amami0] |amami|amami #Kagoshima#": [
+        129.495,
+        28.38,
+        41390
+    ],
+    "Sumoto [sumoto0] |sumoto|sumoto #Hyogo#": [
+        134.895,
+        34.342,
+        41236
+    ],
+    "Yomitan [yomitan0] |yomitan|yomitan #Okinawa#": [
+        127.732,
+        26.408,
+        41206
+    ],
+    "Unzen [unzen0] |unzen|unzen #Nagasaki#": [
+        130.191,
+        32.84,
+        41096
+    ],
+    "Komoro [komoro0] |komoro|komoro #Nagano#": [
+        138.424,
+        36.329,
+        40991
+    ],
+    "Minamiashigara [minamiashigara0] |minamiashigara|minamiashigara #Kanagawa#": [
+        139.103,
+        35.319,
+        40841
+    ],
+    "Nagayo [nagayo0] |nagayo|nagayo #Nagasaki#": [
+        129.88,
+        32.819,
+        40780
+    ],
+    "Itoigawa [itoigawa0] |itoigawa|itoigawa #Niigata#": [
+        137.859,
+        37.043,
+        40765
+    ],
+    "Agano [agano0] |agano|agano #Niigata#": [
+        139.224,
+        37.837,
+        40696
+    ],
+    "Kato [kato0] |kato|kato #Hyogo#": [
+        134.973,
+        34.918,
+        40645
+    ],
+    "Ozu [ozu0] |ozu|ozu #Ehime#": [
+        132.543,
+        33.507,
+        40575
+    ],
+    "Komono [komono0] |komono|komono #Mie#": [
+        136.497,
+        35.047,
+        40559
+    ],
+    "Uozu [uozu0] |uozu|uozu #Toyama#": [
+        137.408,
+        36.826,
+        40535
+    ],
+    "Haebaru [haebaru0] |haebaru|haebaru #Okinawa#": [
+        127.727,
+        26.195,
+        40440
+    ],
+    "Nakama [nakama0] |nakama|nakama #Fukuoka#": [
+        130.716,
+        33.816,
+        40362
+    ],
+    "Sagae [sagae0] |sagae|sagae #Yamagata#": [
+        140.277,
+        38.379,
+        40189
+    ],
+    "Kasumigaura [kasumigaura0] |kasumigaura|kasumigaura #Ibaraki#": [
+        140.24,
+        36.132,
+        40087
+    ],
+    "Aikawa [aikawa0] |aikawa|aikawa #Kanagawa#": [
+        139.34,
+        35.523,
+        39869
+    ],
+    "Kurobe [kurobe0] |kurobe|kurobe #Toyama#": [
+        137.449,
+        36.869,
+        39638
+    ],
+    "Tamba-Sasayama [tambasasayama0] |tambasasayama|tambasasayama #Hyogo#": [
+        135.218,
+        35.073,
+        39611
+    ],
+    "Takikawa [takikawa0] |takikawa|takikawa #Hokkaido#": [
+        141.908,
+        43.558,
+        39490
+    ],
+    "Mibu [mibu0] |mibu|mibu #Tochigi#": [
+        139.827,
+        36.463,
+        39474
+    ],
+    "Hitachiomiya [hitachiomiya0] |hitachiomiya|hitachiomiya #Ibaraki#": [
+        140.414,
+        36.55,
+        39267
+    ],
+    "Mitsuke [mitsuke0] |mitsuke|mitsuke #Niigata#": [
+        138.924,
+        37.527,
+        39237
+    ],
+    "Misawa [misawa0] |misawa|misawa #Aomori#": [
+        141.371,
+        40.683,
+        39152
+    ],
+    "Sakuragawa [sakuragawa0] |sakuragawa|sakuragawa #Ibaraki#": [
+        140.108,
+        36.361,
+        39122
+    ],
+    "Higashimatsushima [higashimatsushima0] |higashimatsushima|higashimatsushima #Miyagi#": [
+        141.22,
+        38.423,
+        39098
+    ],
+    "Inashiki [inashiki0] |inashiki|inashiki #Ibaraki#": [
+        140.321,
+        35.958,
+        39039
+    ],
+    "Ibusuki [ibusuki0] |ibusuki|ibusuki #Kagoshima#": [
+        130.645,
+        31.24,
+        39011
+    ],
+    "Gujo [gujo0] |gujo|gujo #Gifu#": [
+        136.958,
+        35.749,
+        38997
+    ],
+    "Yoshinogawa [yoshinogawa0] |yoshinogawa|yoshinogawa #Tokushima#": [
+        134.231,
+        34.057,
+        38772
+    ],
+    "Nishiwaki [nishiwaki0] |nishiwaki|nishiwaki #Hyogo#": [
+        134.973,
+        34.979,
+        38673
+    ],
+    "Miyoshi [miyoshi2] |miyoshi|miyoshi #Saitama#": [
+        139.54,
+        35.827,
+        38434
+    ],
+    "Ibara [ibara0] |ibara|ibara #Okayama#": [
+        133.467,
+        34.597,
+        38384
+    ],
+    "Shibata [shibata1] |shibata|shibata #Miyagi#": [
+        140.769,
+        38.058,
+        38271
+    ],
+    "Tokai [tokai1] |tokai|tokai #Ibaraki#": [
+        140.574,
+        36.468,
+        37891
+    ],
+    "Kanda [kanda0] |kanda|kanda #Fukuoka#": [
+        130.982,
+        33.774,
+        37684
+    ],
+    "Umi [umi0] |umi|umi #Fukuoka#": [
+        130.513,
+        33.567,
+        37671
+    ],
+    "Fuchu [fuchu2] |fuchu|fuchu #Hiroshima#": [
+        133.238,
+        34.571,
+        37655
+    ],
+    "Kanie [kanie0] |kanie|kanie #Aichi#": [
+        136.786,
+        35.133,
+        37338
+    ],
+    "Maibara [maibara0] |maibara|maibara #Shiga#": [
+        136.288,
+        35.315,
+        37225
+    ],
+    "Mizunami [mizunami0] |mizunami|mizunami #Gifu#": [
+        137.255,
+        35.362,
+        37150
+    ],
+    "Yasugi [yasugi0] |yasugi|yasugi #Shimane#": [
+        133.255,
+        35.43,
+        37062
+    ],
+    "Tsubata [tsubata0] |tsubata|tsubata #Ishikawa#": [
+        136.733,
+        36.67,
+        36957
+    ],
+    "Katsuragi [katsuragi0] |katsuragi|katsuragi #Nara#": [
+        135.708,
+        34.51,
+        36832
+    ],
+    "Kannami [kannami0] |kannami|kannami #Shizuoka#": [
+        138.946,
+        35.087,
+        36794
+    ],
+    "Seika [seika0] |seika|seika #Kyoto#": [
+        135.793,
+        34.76,
+        36198
+    ],
+    "Usuki [usuki0] |usuki|usuki #Oita#": [
+        131.804,
+        33.124,
+        36158
+    ],
+    "Komatsushima [komatsushima0] |komatsushima|komatsushima #Tokushima#": [
+        134.588,
+        34.003,
+        36149
+    ],
+    "Uto [uto0] |uto|uto #Kumamoto#": [
+        130.664,
+        32.684,
+        36122
+    ],
+    "Tamamura [tamamura0] |tamamura|tamamura #Gunma#": [
+        139.111,
+        36.303,
+        36054
+    ],
+    "Setouchi [setouchi0] |setouchi|setouchi #Okayama#": [
+        134.093,
+        34.665,
+        36048
+    ],
+    "Unnan [unnan0] |unnan|unnan #Shimane#": [
+        132.901,
+        35.288,
+        36007
+    ],
+    "Miyama [miyama0] |miyama|miyama #Fukuoka#": [
+        130.485,
+        33.157,
+        35861
+    ],
+    "Minamiboso [minamiboso0] |minamiboso|minamiboso #Chiba#": [
+        139.835,
+        35.045,
+        35831
+    ],
+    "Abashiri [abashiri0] |abashiri|abashiri #Hokkaido#": [
+        144.268,
+        44.021,
+        35759
+    ],
+    "Isumi [isumi0] |isumi|isumi #Chiba#": [
+        140.393,
+        35.249,
+        35544
+    ],
+    "Kama [kama0] |kama|kama #Fukuoka#": [
+        130.765,
+        33.561,
+        35473
+    ],
+    "Seiyo [seiyo0] |seiyo|seiyo #Ehime#": [
+        132.513,
+        33.362,
+        35388
+    ],
+    "Moroyama [moroyama0] |moroyama|moroyama #Saitama#": [
+        139.322,
+        35.943,
+        35366
+    ],
+    "Aizumi [aizumi0] |aizumi|aizumi #Tokushima#": [
+        134.49,
+        34.129,
+        35246
+    ],
+    "Ozu [ozu1] |ozu|ozu #Kumamoto#": [
+        130.869,
+        32.879,
+        35187
+    ],
+    "Rifu [rifu0] |rifu|rifu #Miyagi#": [
+        140.97,
+        38.332,
+        35182
+    ],
+    "Tamura [tamura0] |tamura|tamura #Fukushima#": [
+        140.572,
+        37.441,
+        35169
+    ],
+    "Iyo [iyo0] |iyo|iyo #Ehime#": [
+        132.704,
+        33.758,
+        35133
+    ],
+    "Sosa [sosa0] |sosa|sosa #Chiba#": [
+        140.549,
+        35.701,
+        35040
+    ],
+    "Nishihara [nishihara0] |nishihara|nishihara #Okinawa#": [
+        127.766,
+        26.225,
+        34984
+    ],
+    "Kahoku [kahoku0] |kahoku|kahoku #Ishikawa#": [
+        136.701,
+        36.733,
+        34889
+    ],
+    "Soma [soma0] |soma|soma #Fukushima#": [
+        140.925,
+        37.801,
+        34865
+    ],
+    "Shiso [shiso0] |shiso|shiso #Hyogo#": [
+        134.549,
+        35.006,
+        34819
+    ],
+    "Ofunato [ofunato0] |ofunato|ofunato #Iwate#": [
+        141.72,
+        39.07,
+        34728
+    ],
+    "Awa [awa0] |awa|awa #Tokushima#": [
+        134.236,
+        34.078,
+        34713
+    ],
+    "Uonuma [uonuma0] |uonuma|uonuma #Niigata#": [
+        138.96,
+        37.231,
+        34483
+    ],
+    "Shinjo [shinjo0] |shinjo|shinjo #Yamagata#": [
+        140.304,
+        38.763,
+        34432
+    ],
+    "Goto [goto0] |goto|goto #Nagasaki#": [
+        128.842,
+        32.696,
+        34391
+    ],
+    "Atami [atami0] |atami|atami #Shizuoka#": [
+        139.072,
+        35.096,
+        34208
+    ],
+    "Miyashiro [miyashiro0] |miyashiro|miyashiro #Saitama#": [
+        139.725,
+        36.024,
+        34147
+    ],
+    "Fuso [fuso0] |fuso|fuso #Aichi#": [
+        136.91,
+        35.358,
+        34133
+    ],
+    "Ojiya [ojiya0] |ojiya|ojiya #Niigata#": [
+        138.796,
+        37.31,
+        34096
+    ],
+    "Toon [toon0] |toon|toon #Ehime#": [
+        132.88,
+        33.793,
+        33903
+    ],
+    "Koryo [koryo0] |koryo|koryo #Nara#": [
+        135.738,
+        34.547,
+        33810
+    ],
+    "Bungo-ono [bungoono0] |bungoono|bungoono #Oita#": [
+        131.583,
+        32.977,
+        33695
+    ],
+    "Shobara [shobara0] |shobara|shobara #Hiroshima#": [
+        133.016,
+        34.858,
+        33633
+    ],
+    "Harima [harima0] |harima|harima #Hyogo#": [
+        134.868,
+        34.716,
+        33604
+    ],
+    "Wakkanai [wakkanai0] |wakkanai|wakkanai #Hokkaido#": [
+        141.676,
+        45.417,
+        33563
+    ],
+    "Taishi [taishi0] |taishi|taishi #Hyogo#": [
+        134.58,
+        34.834,
+        33477
+    ],
+    "Yamanashi [yamanashi0] |yamanashi|yamanashi #Yamanashi#": [
+        138.686,
+        35.692,
+        33435
+    ],
+    "Soo [soo0] |soo|soo #Kagoshima#": [
+        131.02,
+        31.653,
+        33310
+    ],
+    "Watari [watari0] |watari|watari #Miyagi#": [
+        140.862,
+        38.038,
+        33087
+    ],
+    "Minamikyushu [minamikyushu0] |minamikyushu|minamikyushu #Kagoshima#": [
+        130.442,
+        31.377,
+        33080
+    ],
+    "Kuji [kuji0] |kuji|kuji #Iwate#": [
+        141.772,
+        40.19,
+        33043
+    ],
+    "Okawa [okawa0] |okawa|okawa #Fukuoka#": [
+        130.382,
+        33.206,
+        32988
+    ],
+    "Motosu [motosu0] |motosu|motosu #Gifu#": [
+        136.672,
+        35.487,
+        32928
+    ],
+    "Shingu [shingu0] |shingu|shingu #Fukuoka#": [
+        130.443,
+        33.71,
+        32927
+    ],
+    "Minamisatsuma [minamisatsuma0] |minamisatsuma|minamisatsuma #Kagoshima#": [
+        130.324,
+        31.421,
+        32887
+    ],
+    "Oda [oda0] |oda|oda #Shimane#": [
+        132.501,
+        35.194,
+        32846
+    ],
+    "Date [date1] |date|date #Hokkaido#": [
+        140.866,
+        42.469,
+        32826
+    ],
+    "Yufu [yufu0] |yufu|yufu #Oita#": [
+        131.431,
+        33.184,
+        32772
+    ],
+    "Asakuchi [asakuchi0] |asakuchi|asakuchi #Okayama#": [
+        133.588,
+        34.527,
+        32772
+    ],
+    "Shiroishi [shiroishi0] |shiroishi|shiroishi #Miyagi#": [
+        140.623,
+        38.001,
+        32758
+    ],
+    "Sakaiminato [sakaiminato0] |sakaiminato|sakaiminato #Tottori#": [
+        133.231,
+        35.54,
+        32740
+    ],
+    "Kaizu [kaizu0] |kaizu|kaizu #Gifu#": [
+        136.631,
+        35.221,
+        32735
+    ],
+    "Shimanto [shimanto0] |shimanto|shimanto #Kochi#": [
+        132.935,
+        32.993,
+        32694
+    ],
+    "Nagato [nagato0] |nagato|nagato #Yamaguchi#": [
+        131.182,
+        34.373,
+        32519
+    ],
+    "Mashiki [mashiki0] |mashiki|mashiki #Kumamoto#": [
+        130.8,
+        32.783,
+        32510
+    ],
+    "Oharu [oharu0] |oharu|oharu #Aichi#": [
+        136.82,
+        35.175,
+        32399
+    ],
+    "Yorii [yorii0] |yorii|yorii #Saitama#": [
+        139.195,
+        36.117,
+        32374
+    ],
+    "Namerikawa [namerikawa0] |namerikawa|namerikawa #Toyama#": [
+        137.342,
+        36.765,
+        32349
+    ],
+    "Bizen [bizen0] |bizen|bizen #Okayama#": [
+        134.185,
+        34.744,
+        32320
+    ],
+    "Konan [konan2] |konan|konan #Kochi#": [
+        133.699,
+        33.564,
+        32207
+    ],
+    "Komagane [komagane0] |komagane|komagane #Nagano#": [
+        137.934,
+        35.729,
+        32202
+    ],
+    "Namegata [namegata0] |namegata|namegata #Ibaraki#": [
+        140.484,
+        35.987,
+        32185
+    ],
+    "Shiwa [shiwa0] |shiwa|shiwa #Iwate#": [
+        141.164,
+        39.553,
+        32147
+    ],
+    "Kamogawa [kamogawa0] |kamogawa|kamogawa #Chiba#": [
+        140.103,
+        35.106,
+        32116
+    ],
+    "Kamaishi [kamaishi0] |kamaishi|kamaishi #Iwate#": [
+        141.882,
+        39.274,
+        32078
+    ],
+    "Yawatahama [yawatahama0] |yawatahama|yawatahama #Ehime#": [
+        132.424,
+        33.46,
+        31987
+    ],
+    "Kuroishi [kuroishi0] |kuroishi|kuroishi #Aomori#": [
+        140.596,
+        40.643,
+        31946
+    ],
+    "Ayabe [ayabe0] |ayabe|ayabe #Kyoto#": [
+        135.257,
+        35.3,
+        31846
+    ],
+    "Mizuho [mizuho1] |mizuho|mizuho #Tokyo#": [
+        139.347,
+        35.771,
+        31765
+    ],
+    "Katagami [katagami0] |katagami|katagami #Akita#": [
+        139.989,
+        39.883,
+        31720
+    ],
+    "Shimizu [shimizu0] |shimizu|shimizu #Shizuoka#": [
+        138.901,
+        35.108,
+        31710
+    ],
+    "Hayama [hayama0] |hayama|hayama #Kanagawa#": [
+        139.573,
+        35.275,
+        31665
+    ],
+    "Oiso [oiso0] |oiso|oiso #Kanagawa#": [
+        139.315,
+        35.309,
+        31634
+    ],
+    "Zentsuji [zentsuji0] |zentsuji|zentsuji #Kagawa#": [
+        133.784,
+        34.225,
+        31631
+    ],
+    "Nantan [nantan0] |nantan|nantan #Kyoto#": [
+        135.475,
+        35.112,
+        31629
+    ],
+    "Ibaraki [ibaraki1] |ibaraki|ibaraki #Ibaraki#": [
+        140.425,
+        36.295,
+        31401
+    ],
+    "Ono [ono1] |ono|ono #Fukui#": [
+        136.494,
+        35.984,
+        31286
+    ],
+    "Chuo [chuo0] |chuo|chuo #Yamanashi#": [
+        138.521,
+        35.594,
+        31216
+    ],
+    "Sasaguri [sasaguri0] |sasaguri|sasaguri #Fukuoka#": [
+        130.524,
+        33.623,
+        31209
+    ],
+    "Tawaramoto [tawaramoto0] |tawaramoto|tawaramoto #Nara#": [
+        135.794,
+        34.552,
+        31177
+    ],
+    "Yaita [yaita0] |yaita|yaita #Tochigi#": [
+        139.926,
+        36.808,
+        31165
+    ],
+    "Hitoyoshi [hitoyoshi0] |hitoyoshi|hitoyoshi #Kumamoto#": [
+        130.757,
+        32.214,
+        31108
+    ],
+    "Omaezaki [omaezaki0] |omaezaki|omaezaki #Shizuoka#": [
+        138.128,
+        34.638,
+        31103
+    ],
+    "Kanzaki [kanzaki0] |kanzaki|kanzaki #Saga#": [
+        130.374,
+        33.309,
+        31022
+    ],
+    "Tsuru [tsuru0] |tsuru|tsuru #Yamanashi#": [
+        138.907,
+        35.552,
+        31016
+    ],
+    "Okagaki [okagaki0] |okagaki|okagaki #Fukuoka#": [
+        130.624,
+        33.844,
+        31007
+    ],
+    "Yaese [yaese0] |yaese|yaese #Okinawa#": [
+        127.721,
+        26.153,
+        30941
+    ],
+    "Tsugaru [tsugaru0] |tsugaru|tsugaru #Aomori#": [
+        140.384,
+        40.809,
+        30934
+    ],
+    "Shimamoto [shimamoto0] |shimamoto|shimamoto #Osaka#": [
+        135.671,
+        34.885,
+        30927
+    ],
+    "Kaminokawa [kaminokawa0] |kaminokawa|kaminokawa #Tochigi#": [
+        139.913,
+        36.434,
+        30806
+    ],
+    "Yanai [yanai0] |yanai|yanai #Yamaguchi#": [
+        132.109,
+        33.968,
+        30799
+    ],
+    "Hirakawa [hirakawa0] |hirakawa|hirakawa #Aomori#": [
+        140.566,
+        40.584,
+        30567
+    ],
+    "Gero [gero0] |gero|gero #Gifu#": [
+        137.244,
+        35.806,
+        30428
+    ],
+    "Nan'yo [nanyo0] |nanyo|nanyo #Yamagata#": [
+        140.138,
+        38.072,
+        30420
+    ],
+    "Myoko [myoko0] |myoko|myoko #Niigata#": [
+        138.253,
+        37.025,
+        30383
+    ],
+    "Kamisato [kamisato0] |kamisato|kamisato #Saitama#": [
+        139.149,
+        36.253,
+        30343
+    ],
+    "Inami [inami0] |inami|inami #Hyogo#": [
+        134.913,
+        34.748,
+        30268
+    ],
+    "Motomiya [motomiya0] |motomiya|motomiya #Fukushima#": [
+        140.397,
+        37.516,
+        30236
+    ],
+    "Kitaakita [kitaakita0] |kitaakita|kitaakita #Akita#": [
+        140.371,
+        40.226,
+        30198
+    ],
+    "Tomi [tomi0] |tomi|tomi #Nagano#": [
+        138.33,
+        36.359,
+        30122
+    ],
+    "Inagawa [inagawa0] |inagawa|inagawa #Hyogo#": [
+        135.365,
+        34.9,
+        29680
+    ],
+    "Kaita [kaita0] |kaita|kaita #Hiroshima#": [
+        132.54,
+        34.37,
+        29636
+    ],
+    "Masaki [masaki0] |masaki|masaki #Ehime#": [
+        132.705,
+        33.788,
+        29630
+    ],
+    "Chikuzen [chikuzen0] |chikuzen|chikuzen #Fukuoka#": [
+        130.596,
+        33.456,
+        29591
+    ],
+    "Hirado [hirado0] |hirado|hirado #Nagasaki#": [
+        129.553,
+        33.367,
+        29365
+    ],
+    "Togitsu [togitsu0] |togitsu|togitsu #Nagasaki#": [
+        129.848,
+        32.83,
+        29339
+    ],
+    "Shibushi [shibushi0] |shibushi|shibushi #Kagoshima#": [
+        131.101,
+        31.475,
+        29329
+    ],
+    "Koshu [koshu0] |koshu|koshu #Yamanashi#": [
+        138.731,
+        35.706,
+        29237
+    ],
+    "Takanezawa [takanezawa0] |takanezawa|takanezawa #Tochigi#": [
+        139.983,
+        36.629,
+        29229
+    ],
+    "Kaminoyama [kaminoyama0] |kaminoyama|kaminoyama #Yamagata#": [
+        140.276,
+        38.155,
+        29110
+    ],
+    "Kazuno [kazuno0] |kazuno|kazuno #Akita#": [
+        140.789,
+        40.19,
+        29088
+    ],
+    "Takahashi [takahashi0] |takahashi|takahashi #Okayama#": [
+        133.616,
+        34.791,
+        29072
+    ],
+    "Nirasaki [nirasaki0] |nirasaki|nirasaki #Yamanashi#": [
+        138.45,
+        35.709,
+        29067
+    ],
+    "Obama [obama0] |obama|obama #Fukui#": [
+        135.747,
+        35.496,
+        28991
+    ],
+    "Asago [asago0] |asago|asago #Hyogo#": [
+        134.86,
+        35.336,
+        28989
+    ],
+    "Oyabe [oyabe0] |oyabe|oyabe #Toyama#": [
+        136.866,
+        36.676,
+        28983
+    ],
+    "Yoshida [yoshida0] |yoshida|yoshida #Shizuoka#": [
+        138.254,
+        34.77,
+        28919
+    ],
+    "Taiwa [taiwa0] |taiwa|taiwa #Miyagi#": [
+        140.887,
+        38.445,
+        28786
+    ],
+    "Sue [sue0] |sue|sue #Fukuoka#": [
+        130.506,
+        33.591,
+        28628
+    ],
+    "Saito [saito0] |saito|saito #Miyazaki#": [
+        131.405,
+        32.108,
+        28610
+    ],
+    "Ogawa [ogawa0] |ogawa|ogawa #Saitama#": [
+        139.261,
+        36.056,
+        28524
+    ],
+    "Tainai [tainai0] |tainai|tainai #Niigata#": [
+        139.406,
+        38.059,
+        28509
+    ],
+    "Tsushima [tsushima1] |tsushima|tsushima #Nagasaki#": [
+        129.291,
+        34.203,
+        28502
+    ],
+    "Agui [agui0] |agui|agui #Aichi#": [
+        136.914,
+        34.935,
+        28383
+    ],
+    "Aioi [aioi0] |aioi|aioi #Hyogo#": [
+        134.47,
+        34.81,
+        28355
+    ],
+    "Higashikagawa [higashikagawa0] |higashikagawa|higashikagawa #Kagawa#": [
+        134.341,
+        34.25,
+        28279
+    ],
+    "Matsubushi [matsubushi0] |matsubushi|matsubushi #Saitama#": [
+        139.823,
+        35.933,
+        28266
+    ],
+    "Chatan [chatan0] |chatan|chatan #Okinawa#": [
+        127.763,
+        26.309,
+        28201
+    ],
+    "Izu [izu0] |izu|izu #Shizuoka#": [
+        138.949,
+        34.978,
+        28190
+    ],
+    "Uda [uda0] |uda|uda #Nara#": [
+        135.959,
+        34.531,
+        28121
+    ],
+    "Mizumaki [mizumaki0] |mizumaki|mizumaki #Fukuoka#": [
+        130.694,
+        33.854,
+        28114
+    ],
+    "Niimi [niimi0] |niimi|niimi #Okayama#": [
+        133.467,
+        34.986,
+        28079
+    ],
+    "Yahaba [yahaba0] |yahaba|yahaba #Iwate#": [
+        141.147,
+        39.611,
+        28056
+    ],
+    "Mima [mima0] |mima|mima #Tokushima#": [
+        134.15,
+        34.068,
+        28055
+    ],
+    "Kitsuki [kitsuki0] |kitsuki|kitsuki #Oita#": [
+        131.622,
+        33.418,
+        27999
+    ],
+    "Ukiha [ukiha0] |ukiha|ukiha #Fukuoka#": [
+        130.755,
+        33.347,
+        27981
+    ],
+    "Kakuda [kakuda0] |kakuda|kakuda #Miyagi#": [
+        140.783,
+        37.968,
+        27976
+    ],
+    "Gojo [gojo0] |gojo|gojo #Nara#": [
+        135.693,
+        34.35,
+        27927
+    ],
+    "Kashima [kashima1] |kashima|kashima #Saga#": [
+        130.095,
+        33.104,
+        27892
+    ],
+    "Hiji [hiji0] |hiji|hiji #Oita#": [
+        131.534,
+        33.369,
+        27723
+    ],
+    "Takahagi [takahagi0] |takahagi|takahagi #Ibaraki#": [
+        140.716,
+        36.715,
+        27699
+    ],
+    "Nanae [nanae0] |nanae|nanae #Hokkaido#": [
+        140.69,
+        41.889,
+        27686
+    ],
+    "Itako [itako0] |itako|itako #Ibaraki#": [
+        140.554,
+        35.944,
+        27604
+    ],
+    "Ikaruga [ikaruga0] |ikaruga|ikaruga #Nara#": [
+        135.735,
+        34.609,
+        27587
+    ],
+    "Ninomiya [ninomiya0] |ninomiya|ninomiya #Kanagawa#": [
+        139.259,
+        35.298,
+        27564
+    ],
+    "Awara [awara0] |awara|awara #Fukui#": [
+        136.229,
+        36.215,
+        27524
+    ],
+    "Ichikikushikino [ichikikushikino0] |ichikikushikino|ichikikushikino #Kagoshima#": [
+        130.267,
+        31.717,
+        27490
+    ],
+    "Nayoro [nayoro0] |nayoro|nayoro #Hokkaido#": [
+        142.461,
+        44.351,
+        27282
+    ],
+    "Shingu [shingu1] |shingu|shingu #Wakayama#": [
+        135.995,
+        33.723,
+        27171
+    ],
+    "Yoro [yoro0] |yoro|yoro #Gifu#": [
+        136.554,
+        35.31,
+        26882
+    ],
+    "Miki [miki1] |miki|miki #Kagawa#": [
+        134.134,
+        34.269,
+        26878
+    ],
+    "Uchinada [uchinada0] |uchinada|uchinada #Ishikawa#": [
+        136.638,
+        36.642,
+        26574
+    ],
+    "Nagai [nagai0] |nagai|nagai #Yamagata#": [
+        140.038,
+        38.107,
+        26543
+    ],
+    "Arida [arida0] |arida|arida #Wakayama#": [
+        135.124,
+        34.085,
+        26538
+    ],
+    "Kami [kami0] |kami|kami #Kochi#": [
+        133.686,
+        33.604,
+        26513
+    ],
+    "Akitakata [akitakata0] |akitakata|akitakata #Hiroshima#": [
+        132.704,
+        34.666,
+        26448
+    ],
+    "Tarui [tarui0] |tarui|tarui #Gifu#": [
+        136.53,
+        35.371,
+        26402
+    ],
+    "Otake [otake0] |otake|otake #Hiroshima#": [
+        132.222,
+        34.238,
+        26319
+    ],
+    "Miyawaka [miyawaka0] |miyawaka|miyawaka #Fukuoka#": [
+        130.667,
+        33.726,
+        26298
+    ],
+    "Saikai [saikai0] |saikai|saikai #Nagasaki#": [
+        129.641,
+        32.933,
+        26275
+    ],
+    "Kunisaki [kunisaki0] |kunisaki|kunisaki #Oita#": [
+        131.732,
+        33.565,
+        26232
+    ],
+    "Fujikawaguchiko [fujikawaguchiko0] |fujikawaguchiko|fujikawaguchiko #Yamanashi#": [
+        138.748,
+        35.507,
+        26082
+    ],
+    "Omachi [omachi0] |omachi|omachi #Nagano#": [
+        137.863,
+        36.501,
+        26029
+    ],
+    "Mimasaka [mimasaka0] |mimasaka|mimasaka #Okayama#": [
+        134.147,
+        35.002,
+        25939
+    ],
+    "Ginan [ginan0] |ginan|ginan #Gifu#": [
+        136.785,
+        35.388,
+        25881
+    ],
+    "Ureshino [ureshino0] |ureshino|ureshino #Saga#": [
+        129.984,
+        33.097,
+        25848
+    ],
+    "Toin [toin0] |toin|toin #Mie#": [
+        136.601,
+        35.095,
+        25784
+    ],
+    "Makubetsu [makubetsu0] |makubetsu|makubetsu #Hokkaido#": [
+        143.25,
+        42.916,
+        25766
+    ],
+    "Tosa [tosa0] |tosa|tosa #Kochi#": [
+        133.427,
+        33.497,
+        25732
+    ],
+    "Mimata [mimata0] |mimata|mimata #Miyazaki#": [
+        131.115,
+        31.734,
+        25591
+    ],
+    "Ora [ora0] |ora|ora #Gunma#": [
+        139.459,
+        36.248,
+        25522
+    ],
+    "Ninohe [ninohe0] |ninohe|ninohe #Iwate#": [
+        141.302,
+        40.271,
+        25513
+    ],
+    "Miyaki [miyaki0] |miyaki|miyaki #Saga#": [
+        130.445,
+        33.334,
+        25511
+    ],
+    "Kamo [kamo0] |kamo|kamo #Niigata#": [
+        139.049,
+        37.659,
+        25441
+    ],
+    "Tono [tono0] |tono|tono #Iwate#": [
+        141.534,
+        39.333,
+        25366
+    ],
+    "Yamagata [yamagata1] |yamagata|yamagata #Gifu#": [
+        136.781,
+        35.506,
+        25280
+    ],
+    "Aridagawa [aridagawa0] |aridagawa|aridagawa #Wakayama#": [
+        135.247,
+        34.064,
+        25258
+    ],
+    "Oga [oga0] |oga|oga #Akita#": [
+        139.848,
+        39.885,
+        25154
+    ],
+    "Minowa [minowa0] |minowa|minowa #Nagano#": [
+        137.981,
+        35.917,
+        24989
+    ],
+    "Iki [iki0] |iki|iki #Nagasaki#": [
+        129.691,
+        33.748,
+        24948
+    ],
+    "Aso [aso0] |aso|aso #Kumamoto#": [
+        131.117,
+        32.938,
+        24930
+    ],
+    "Nogi [nogi0] |nogi|nogi #Tochigi#": [
+        139.735,
+        36.231,
+        24913
+    ],
+    "Nasukarasuyama [nasukarasuyama0] |nasukarasuyama|nasukarasuyama #Tochigi#": [
+        140.154,
+        36.652,
+        24875
+    ],
+    "Ishii [ishii0] |ishii|ishii #Tokushima#": [
+        134.436,
+        34.08,
+        24833
+    ],
+    "Tateyama [tateyama1] |tateyama|tateyama #Toyama#": [
+        137.318,
+        36.665,
+        24792
+    ],
+    "Nemuro [nemuro0] |nemuro|nemuro #Hokkaido#": [
+        145.585,
+        43.331,
+        24636
+    ],
+    "Semboku [semboku0] |semboku|semboku #Akita#": [
+        140.727,
+        39.703,
+        24610
+    ],
+    "Wajima [wajima0] |wajima|wajima #Ishikawa#": [
+        136.901,
+        37.395,
+        24608
+    ],
+    "Kamiamakusa [kamiamakusa0] |kamiamakusa|kamiamakusa #Kumamoto#": [
+        130.43,
+        32.587,
+        24563
+    ],
+    "Isa [isa0] |isa|isa #Kagoshima#": [
+        130.609,
+        32.061,
+        24453
+    ],
+    "Buzen [buzen0] |buzen|buzen #Fukuoka#": [
+        131.122,
+        33.617,
+        24391
+    ],
+    "Oguchi [oguchi0] |oguchi|oguchi #Aichi#": [
+        136.911,
+        35.341,
+        24305
+    ],
+    "Oirase [oirase0] |oirase|oirase #Aomori#": [
+        141.444,
+        40.635,
+        24273
+    ],
+    "Sakai [sakai2] |sakai|sakai #Ibaraki#": [
+        139.793,
+        36.107,
+        24201
+    ],
+    "Gose [gose0] |gose|gose #Nara#": [
+        135.734,
+        34.465,
+        24096
+    ],
+    "Oji [oji0] |oji|oji #Nara#": [
+        135.704,
+        34.599,
+        24043
+    ],
+    "Hachimantai [hachimantai0] |hachimantai|hachimantai #Iwate#": [
+        141.097,
+        39.912,
+        24023
+    ],
+    "Misato [misato1] |misato|misato #Miyagi#": [
+        141.062,
+        38.539,
+        23994
+    ],
+    "Takehara [takehara0] |takehara|takehara #Hiroshima#": [
+        132.911,
+        34.343,
+        23993
+    ],
+    "Nasu [nasu0] |nasu|nasu #Tochigi#": [
+        140.12,
+        37.02,
+        23956
+    ],
+    "Nyuzen [nyuzen0] |nyuzen|nyuzen #Toyama#": [
+        137.503,
+        36.936,
+        23839
+    ],
+    "Miyoshi [miyoshi3] |miyoshi|miyoshi #Tokushima#": [
+        133.806,
+        34.028,
+        23605
+    ],
+    "Ogawara [ogawara0] |ogawara|ogawara #Miyagi#": [
+        140.735,
+        38.049,
+        23571
+    ],
+    "Minamata [minamata0] |minamata|minamata #Kumamoto#": [
+        130.401,
+        32.211,
+        23557
+    ],
+    "Gobo [gobo0] |gobo|gobo #Wakayama#": [
+        135.157,
+        33.888,
+        23481
+    ],
+    "Nikaho [nikaho0] |nikaho|nikaho #Akita#": [
+        139.899,
+        39.207,
+        23435
+    ],
+    "Yugawara [yugawara0] |yugawara|yugawara #Kanagawa#": [
+        139.113,
+        35.146,
+        23426
+    ],
+    "Ikeda [ikeda1] |ikeda|ikeda #Gifu#": [
+        136.573,
+        35.438,
+        23360
+    ],
+    "Mine [mine0] |mine|mine #Yamaguchi#": [
+        131.206,
+        34.167,
+        23247
+    ],
+    "Sango [sango0] |sango|sango #Nara#": [
+        135.695,
+        34.601,
+        23219
+    ],
+    "Nakashibetsu [nakashibetsu0] |nakashibetsu|nakashibetsu #Hokkaido#": [
+        144.976,
+        43.549,
+        23010
+    ],
+    "Gotsu [gotsu0] |gotsu|gotsu #Shimane#": [
+        132.225,
+        35.015,
+        22959
+    ],
+    "Kumano [kumano0] |kumano|kumano #Hiroshima#": [
+        132.57,
+        34.333,
+        22834
+    ],
+    "Kitajima [kitajima0] |kitajima|kitajima #Tokushima#": [
+        134.548,
+        34.125,
+        22745
+    ],
+    "Ayagawa [ayagawa0] |ayagawa|ayagawa #Kagawa#": [
+        133.922,
+        34.249,
+        22693
+    ],
+    "Uenohara [uenohara0] |uenohara|uenohara #Yamanashi#": [
+        139.111,
+        35.629,
+        22669
+    ],
+    "Hida [hida0] |hida|hida #Gifu#": [
+        137.186,
+        36.234,
+        22538
+    ],
+    "Murayama [murayama0] |murayama|murayama #Yamagata#": [
+        140.388,
+        38.477,
+        22516
+    ],
+    "Otsuki [otsuki0] |otsuki|otsuki #Yamanashi#": [
+        138.943,
+        35.612,
+        22512
+    ],
+    "Mihama [mihama0] |mihama|mihama #Aichi#": [
+        136.858,
+        34.784,
+        22496
+    ],
+    "Takahata [takahata0] |takahata|takahata #Yamagata#": [
+        140.197,
+        38.004,
+        22463
+    ],
+    "Tadotsu [tadotsu0] |tadotsu|tadotsu #Kagawa#": [
+        133.752,
+        34.27,
+        22445
+    ],
+    "Meiwa [meiwa0] |meiwa|meiwa #Mie#": [
+        136.617,
+        34.536,
+        22445
+    ],
+    "Kasamatsu [kasamatsu0] |kasamatsu|kasamatsu #Gifu#": [
+        136.761,
+        35.368,
+        22208
+    ],
+    "Nakagusuku [nakagusuku0] |nakagusuku|nakagusuku #Okinawa#": [
+        127.791,
+        26.267,
+        22157
+    ],
+    "Katsuyama [katsuyama0] |katsuyama|katsuyama #Fukui#": [
+        136.502,
+        36.06,
+        22150
+    ],
+    "Yabu [yabu0] |yabu|yabu #Hyogo#": [
+        134.77,
+        35.405,
+        22129
+    ],
+    "Bungotakada [bungotakada0] |bungotakada|bungotakada #Oita#": [
+        131.445,
+        33.557,
+        22112
+    ],
+    "Yokoshibahikari [yokoshibahikari0] |yokoshibahikari|yokoshibahikari #Chiba#": [
+        140.488,
+        35.66,
+        22075
+    ],
+    "Shiroishi [shiroishi1] |shiroishi|shiroishi #Saga#": [
+        130.138,
+        33.183,
+        22051
+    ],
+    "Ono [ono2] |ono|ono #Gifu#": [
+        136.635,
+        35.468,
+        22041
+    ],
+    "Kami [kami1] |kami|kami #Miyagi#": [
+        140.857,
+        38.571,
+        21943
+    ],
+    "Etajima [etajima0] |etajima|etajima #Hiroshima#": [
+        132.442,
+        34.221,
+        21930
+    ],
+    "Mashiko [mashiko0] |mashiko|mashiko #Tochigi#": [
+        140.097,
+        36.466,
+        21898
+    ],
+    "Yoshioka [yoshioka0] |yoshioka|yoshioka #Gunma#": [
+        139.01,
+        36.448,
+        21792
+    ],
+    "Kanmaki [kanmaki0] |kanmaki|kanmaki #Nara#": [
+        135.715,
+        34.57,
+        21714
+    ],
+    "Shinhidaka [shinhidaka0] |shinhidaka|shinhidaka #Hokkaido#": [
+        142.367,
+        42.34,
+        21517
+    ],
+    "Fukuchi [fukuchi0] |fukuchi|fukuchi #Fukuoka#": [
+        130.763,
+        33.695,
+        21398
+    ],
+    "Ino [ino0] |ino|ino #Kochi#": [
+        133.428,
+        33.547,
+        21374
+    ],
+    "Matsuura [matsuura0] |matsuura|matsuura #Nagasaki#": [
+        129.707,
+        33.343,
+        21271
+    ],
+    "Mombetsu [mombetsu0] |mombetsu|mombetsu #Hokkaido#": [
+        143.355,
+        44.35,
+        21215
+    ],
+    "Furano [furano0] |furano|furano #Hokkaido#": [
+        142.388,
+        43.344,
+        21131
+    ],
+    "Yachiyo [yachiyo1] |yachiyo|yachiyo #Ibaraki#": [
+        139.891,
+        36.182,
+        21026
+    ],
+    "Hino [hino1] |hino|hino #Shiga#": [
+        136.243,
+        35.016,
+        20964
+    ],
+    "Showa [showa0] |showa|showa #Yamanashi#": [
+        138.535,
+        35.628,
+        20909
+    ],
+    "Aisho [aisho0] |aisho|aisho #Shiga#": [
+        136.211,
+        35.17,
+        20893
+    ],
+    "Nishigo [nishigo0] |nishigo|nishigo #Fukushima#": [
+        140.155,
+        37.142,
+        20808
+    ],
+    "Shisui [shisui0] |shisui|shisui #Chiba#": [
+        140.275,
+        35.732,
+        20745
+    ],
+    "Susaki [susaki0] |susaki|susaki #Kochi#": [
+        133.289,
+        33.391,
+        20590
+    ],
+    "Tobe [tobe0] |tobe|tobe #Ehime#": [
+        132.793,
+        33.74,
+        20480
+    ],
+    "Bibai [bibai0] |bibai|bibai #Hokkaido#": [
+        141.861,
+        43.333,
+        20413
+    ],
+    "Hakui [hakui0] |hakui|hakui #Ishikawa#": [
+        136.777,
+        36.894,
+        20407
+    ],
+    "Taketa [taketa0] |taketa|taketa #Oita#": [
+        131.392,
+        32.968,
+        20332
+    ],
+    "Shirahama [shirahama0] |shirahama|shirahama #Wakayama#": [
+        135.395,
+        33.649,
+        20262
+    ],
+    "Satsuma [satsuma0] |satsuma|satsuma #Kagoshima#": [
+        130.453,
+        31.905,
+        20243
+    ],
+    "Shimoda [shimoda0] |shimoda|shimoda #Shizuoka#": [
+        138.944,
+        34.679,
+        20183
+    ],
+    "Shonai [shonai0] |shonai|shonai #Yamagata#": [
+        139.906,
+        38.845,
+        20151
+    ],
+    "Sakae [sakae0] |sakae|sakae #Chiba#": [
+        140.241,
+        35.842,
+        20127
+    ],
+    "Echizen [echizen1] |echizen|echizen #Fukui#": [
+        136.064,
+        35.955,
+        20118
+    ],
+    "Rumoi [rumoi0] |rumoi|rumoi #Hokkaido#": [
+        141.641,
+        43.941,
+        20114
+    ],
+    "Yosano [yosano0] |yosano|yosano #Kyoto#": [
+        135.101,
+        35.53,
+        20092
+    ],
+    "Fukagawa [fukagawa0] |fukagawa|fukagawa #Hokkaido#": [
+        142.045,
+        43.72,
+        20039
+    ],
+    "Makurazaki [makurazaki0] |makurazaki|makurazaki #Kagoshima#": [
+        130.296,
+        31.272,
+        20033
+    ],
+    "Hirokawa [hirokawa0] |hirokawa|hirokawa #Fukuoka#": [
+        130.552,
+        33.243,
+        19969
+    ],
+    "Takanabe [takanabe0] |takanabe|takanabe #Miyazaki#": [
+        131.51,
+        32.13,
+        19922
+    ],
+    "Namegawa [namegawa0] |namegawa|namegawa #Saitama#": [
+        139.361,
+        36.066,
+        19732
+    ],
+    "Yonabaru [yonabaru0] |yonabaru|yonabaru #Okinawa#": [
+        127.755,
+        26.2,
+        19695
+    ],
+    "Ainan [ainan0] |ainan|ainan #Ehime#": [
+        132.562,
+        32.962,
+        19601
+    ],
+    "Iiyama [iiyama0] |iiyama|iiyama #Nagano#": [
+        138.364,
+        36.853,
+        19539
+    ],
+    "Ibigawa [ibigawa0] |ibigawa|ibigawa #Gifu#": [
+        136.573,
+        35.487,
+        19529
+    ],
+    "Kawajima [kawajima0] |kawajima|kawajima #Saitama#": [
+        139.467,
+        35.968,
+        19378
+    ],
+    "Fukusaki [fukusaki0] |fukusaki|fukusaki #Hyogo#": [
+        134.753,
+        34.955,
+        19377
+    ],
+    "Kamiichi [kamiichi0] |kamiichi|kamiichi #Toyama#": [
+        137.364,
+        36.706,
+        19351
+    ],
+    "Akune [akune0] |akune|akune #Kagoshima#": [
+        130.195,
+        32.02,
+        19270
+    ],
+    "Taka [taka0] |taka|taka #Hyogo#": [
+        134.925,
+        35.052,
+        19261
+    ],
+    "Mino [mino1] |mino|mino #Gifu#": [
+        136.912,
+        35.546,
+        19247
+    ],
+    "Engaru [engaru0] |engaru|engaru #Hokkaido#": [
+        143.519,
+        44.056,
+        19241
+    ],
+    "Karuizawa [karuizawa0] |karuizawa|karuizawa #Nagano#": [
+        138.597,
+        36.348,
+        19188
+    ],
+    "Shimosuwa [shimosuwa0] |shimosuwa|shimosuwa #Nagano#": [
+        138.085,
+        36.074,
+        19155
+    ],
+    "Kushiro [kushiro1] |kushiro|kushiro #Hokkaido#": [
+        144.416,
+        43.011,
+        19105
+    ],
+    "Sukumo [sukumo0] |sukumo|sukumo #Kochi#": [
+        132.721,
+        32.934,
+        19033
+    ],
+    "Aizumisato [aizumisato0] |aizumisato|aizumisato #Fukushima#": [
+        139.839,
+        37.461,
+        19014
+    ],
+    "Arita [arita0] |arita|arita #Saga#": [
+        129.882,
+        33.183,
+        19010
+    ],
+    "Eiheiji [eiheiji0] |eiheiji|eiheiji #Fukui#": [
+        136.325,
+        36.089,
+        18965
+    ],
+    "Miyako [miyako1] |miyako|miyako #Fukuoka#": [
+        130.976,
+        33.678,
+        18825
+    ],
+    "Onga [onga0] |onga|onga #Fukuoka#": [
+        130.668,
+        33.848,
+        18723
+    ],
+    "Utazu [utazu0] |utazu|utazu #Kagawa#": [
+        133.826,
+        34.31,
+        18699
+    ],
+    "Bihoro [bihoro0] |bihoro|bihoro #Hokkaido#": [
+        144.108,
+        43.827,
+        18697
+    ],
+    "Shika [shika0] |shika|shika #Ishikawa#": [
+        136.773,
+        37.001,
+        18630
+    ],
+    "Misato [misato2] |misato|misato #Akita#": [
+        140.548,
+        39.423,
+        18613
+    ],
+    "Godo [godo0] |godo|godo #Gifu#": [
+        136.605,
+        35.419,
+        18585
+    ],
+    "Oyama [oyama1] |oyama|oyama #Shizuoka#": [
+        138.988,
+        35.36,
+        18568
+    ],
+    "Tatsuno [tatsuno1] |tatsuno|tatsuno #Nagano#": [
+        138.013,
+        35.981,
+        18555
+    ],
+    "Kunitomi [kunitomi0] |kunitomi|kunitomi #Miyazaki#": [
+        131.35,
+        31.992,
+        18398
+    ],
+    "Kaisei [kaisei0] |kaisei|kaisei #Kanagawa#": [
+        139.123,
+        35.336,
+        18329
+    ],
+    "Taku [taku0] |taku|taku #Saga#": [
+        130.112,
+        33.286,
+        18295
+    ],
+    "Toyono [toyono0] |toyono|toyono #Osaka#": [
+        135.444,
+        34.903,
+        18279
+    ],
+    "Rikuzentakata [rikuzentakata0] |rikuzentakata|rikuzentakata #Iwate#": [
+        141.629,
+        39.015,
+        18262
+    ],
+    "Yoshimi [yoshimi0] |yoshimi|yoshimi #Saitama#": [
+        139.454,
+        36.039,
+        18192
+    ],
+    "Kitagata [kitagata0] |kitagata|kitagata #Gifu#": [
+        136.686,
+        35.437,
+        18139
+    ],
+    "Shichigahama [shichigahama0] |shichigahama|shichigahama #Miyagi#": [
+        141.053,
+        38.301,
+        18132
+    ],
+    "Shirosato [shirosato0] |shirosato|shirosato #Ibaraki#": [
+        140.374,
+        36.482,
+        18097
+    ],
+    "Memuro [memuro0] |memuro|memuro #Hokkaido#": [
+        143.051,
+        42.912,
+        18048
+    ],
+    "Heguri [heguri0] |heguri|heguri #Nara#": [
+        135.7,
+        34.63,
+        18009
+    ],
+    "Yoichi [yoichi0] |yoichi|yoichi #Hokkaido#": [
+        140.793,
+        43.192,
+        18000
+    ],
+    "Kitanakagusuku [kitanakagusuku0] |kitanakagusuku|kitanakagusuku #Okinawa#": [
+        127.793,
+        26.301,
+        17969
+    ],
+    "Ranzan [ranzan0] |ranzan|ranzan #Saitama#": [
+        139.321,
+        36.057,
+        17889
+    ],
+    "Shibetsu [shibetsu0] |shibetsu|shibetsu #Hokkaido#": [
+        142.4,
+        44.179,
+        17858
+    ],
+    "Kitahiroshima [kitahiroshima1] |kitahiroshima|kitahiroshima #Hiroshima#": [
+        132.535,
+        34.675,
+        17763
+    ],
+    "Kahoku [kahoku1] |kahoku|kahoku #Yamagata#": [
+        140.313,
+        38.425,
+        17641
+    ],
+    "Ebino [ebino0] |ebino|ebino #Miyazaki#": [
+        130.827,
+        32.044,
+        17638
+    ],
+    "Toba [toba0] |toba|toba #Mie#": [
+        136.844,
+        34.482,
+        17525
+    ],
+    "Mitake [mitake0] |mitake|mitake #Gifu#": [
+        137.131,
+        35.434,
+        17516
+    ],
+    "Shinkamigoto [shinkamigoto0] |shinkamigoto|shinkamigoto #Nagasaki#": [
+        129.115,
+        32.983,
+        17503
+    ],
+    "Mori [mori0] |mori|mori #Shizuoka#": [
+        137.928,
+        34.836,
+        17457
+    ],
+    "Manno [manno0] |manno|manno #Kagawa#": [
+        133.841,
+        34.192,
+        17401
+    ],
+    "Kadogawa [kadogawa0] |kadogawa|kadogawa #Miyazaki#": [
+        131.649,
+        32.47,
+        17379
+    ],
+    "Yabuki [yabuki0] |yabuki|yabuki #Fukushima#": [
+        140.339,
+        37.201,
+        17287
+    ],
+    "Kiyama [kiyama0] |kiyama|kiyama #Saga#": [
+        130.523,
+        33.427,
+        17250
+    ],
+    "Minakami [minakami0] |minakami|minakami #Gunma#": [
+        138.992,
+        36.683,
+        17195
+    ],
+    "Chikujo [chikujo0] |chikujo|chikujo #Fukuoka#": [
+        131.061,
+        33.652,
+        17189
+    ],
+    "Oi [oi0] |oi|oi #Kanagawa#": [
+        139.157,
+        35.327,
+        17129
+    ],
+    "Miharu [miharu0] |miharu|miharu #Fukushima#": [
+        140.493,
+        37.441,
+        17018
+    ],
+    "Kawai [kawai0] |kawai|kawai #Nara#": [
+        135.729,
+        34.583,
+        17018
+    ],
+    "Hinode [hinode0] |hinode|hinode #Tokyo#": [
+        139.257,
+        35.742,
+        16958
+    ],
+    "Katsuura [katsuura0] |katsuura|katsuura #Chiba#": [
+        140.314,
+        35.15,
+        16927
+    ],
+    "Kushima [kushima0] |kushima|kushima #Miyazaki#": [
+        131.229,
+        31.464,
+        16822
+    ],
+    "Nanbu [nanbu0] |nanbu|nanbu #Aomori#": [
+        141.28,
+        40.411,
+        16809
+    ],
+    "Miyazu [miyazu0] |miyazu|miyazu #Kyoto#": [
+        135.196,
+        35.537,
+        16758
+    ],
+    "Oyodo [oyodo0] |oyodo|oyodo #Nara#": [
+        135.788,
+        34.383,
+        16728
+    ],
+    "Minamichita [minamichita0] |minamichita|minamichita #Aichi#": [
+        136.934,
+        34.709,
+        16617
+    ],
+    "Tadaoka [tadaoka0] |tadaoka|tadaoka #Osaka#": [
+        135.401,
+        34.487,
+        16567
+    ],
+    "Shintomi [shintomi0] |shintomi|shintomi #Miyazaki#": [
+        131.488,
+        32.069,
+        16564
+    ],
+    "Nakanoto [nakanoto0] |nakanoto|nakanoto #Ishikawa#": [
+        136.902,
+        36.989,
+        16540
+    ],
+    "Sunagawa [sunagawa0] |sunagawa|sunagawa #Hokkaido#": [
+        141.907,
+        43.492,
+        16486
+    ],
+    "Tohoku [tohoku0] |tohoku|tohoku #Aomori#": [
+        141.278,
+        40.775,
+        16428
+    ],
+    "Kotoura [kotoura0] |kotoura|kotoura #Tottori#": [
+        133.671,
+        35.499,
+        16365
+    ],
+    "Yoshinogari [yoshinogari0] |yoshinogari|yoshinogari #Saga#": [
+        130.398,
+        33.352,
+        16323
+    ],
+    "Mifune [mifune0] |mifune|mifune #Kumamoto#": [
+        130.802,
+        32.715,
+        16303
+    ],
+    "Owase [owase0] |owase|owase #Mie#": [
+        136.194,
+        34.074,
+        16252
+    ],
+    "Aki [aki0] |aki|aki #Kochi#": [
+        133.905,
+        33.504,
+        16243
+    ],
+    "Shiraoi [shiraoi0] |shiraoi|shiraoi #Hokkaido#": [
+        141.361,
+        42.554,
+        16212
+    ],
+    "Tsukumi [tsukumi0] |tsukumi|tsukumi #Oita#": [
+        131.862,
+        33.076,
+        16100
+    ],
+    "Kami [kami2] |kami|kami #Hyogo#": [
+        134.627,
+        35.637,
+        16064
+    ],
+    "Yurihama [yurihama0] |yurihama|yurihama #Tottori#": [
+        133.896,
+        35.468,
+        16055
+    ],
+    "Gonohe [gonohe0] |gonohe|gonohe #Aomori#": [
+        141.306,
+        40.523,
+        16042
+    ],
+    "Katsuragi [katsuragi1] |katsuragi|katsuragi #Wakayama#": [
+        135.48,
+        34.291,
+        15967
+    ],
+    "Kumano [kumano1] |kumano|kumano #Mie#": [
+        136.099,
+        33.889,
+        15965
+    ],
+    "Oyamazaki [oyamazaki0] |oyamazaki|oyamazaki #Kyoto#": [
+        135.688,
+        34.903,
+        15953
+    ],
+    "Yazu [yazu0] |yazu|yazu #Tottori#": [
+        134.252,
+        35.411,
+        15937
+    ],
+    "Tobetsu [tobetsu0] |tobetsu|tobetsu #Hokkaido#": [
+        141.516,
+        43.22,
+        15916
+    ],
+    "Sayo [sayo0] |sayo|sayo #Hyogo#": [
+        134.36,
+        35.008,
+        15863
+    ],
+    "Yakumo [yakumo0] |yakumo|yakumo #Hokkaido#": [
+        140.272,
+        42.254,
+        15826
+    ],
+    "Minamiminowa [minamiminowa0] |minamiminowa|minamiminowa #Nagano#": [
+        137.975,
+        35.873,
+        15797
+    ],
+    "Daigo [daigo0] |daigo|daigo #Ibaraki#": [
+        140.355,
+        36.77,
+        15736
+    ],
+    "Shizukuishi [shizukuishi0] |shizukuishi|shizukuishi #Iwate#": [
+        140.976,
+        39.696,
+        15731
+    ],
+    "Oarai [oarai0] |oarai|oarai #Ibaraki#": [
+        140.575,
+        36.313,
+        15715
+    ],
+    "Kanan [kanan0] |kanan|kanan #Osaka#": [
+        135.63,
+        34.492,
+        15697
+    ],
+    "Noto [noto0] |noto|noto #Ishikawa#": [
+        137.148,
+        37.3,
+        15687
+    ],
+    "Ashikita [ashikita0] |ashikita|ashikita #Kumamoto#": [
+        130.505,
+        32.302,
+        15681
+    ],
+    "Toyoyama [toyoyama0] |toyoyama|toyoyama #Aichi#": [
+        136.912,
+        35.25,
+        15613
+    ],
+    "Shimanto [shimanto1] |shimanto|shimanto #Kochi#": [
+        133.136,
+        33.211,
+        15607
+    ],
+    "Miyota [miyota0] |miyota|miyota #Nagano#": [
+        138.509,
+        36.321,
+        15555
+    ],
+    "Kanegasaki [kanegasaki0] |kanegasaki|kanegasaki #Iwate#": [
+        141.116,
+        39.196,
+        15535
+    ],
+    "Tachiarai [tachiarai0] |tachiarai|tachiarai #Fukuoka#": [
+        130.622,
+        33.372,
+        15521
+    ],
+    "Wakuya [wakuya0] |wakuya|wakuya #Miyagi#": [
+        141.128,
+        38.54,
+        15388
+    ],
+    "Nakanojo [nakanojo0] |nakanojo|nakanojo #Gunma#": [
+        138.841,
+        36.59,
+        15386
+    ],
+    "Nagasu [nagasu0] |nagasu|nagasu #Kumamoto#": [
+        130.453,
+        32.93,
+        15372
+    ],
+    "Daisen [daisen1] |daisen|daisen #Tottori#": [
+        133.496,
+        35.511,
+        15370
+    ],
+    "Tone [tone0] |tone|tone #Ibaraki#": [
+        140.139,
+        35.858,
+        15340
+    ],
+    "Uchiko [uchiko0] |uchiko|uchiko #Ehime#": [
+        132.653,
+        33.553,
+        15322
+    ],
+    "Mitane [mitane0] |mitane|mitane #Akita#": [
+        140.006,
+        40.103,
+        15254
+    ],
+    "Kumiyama [kumiyama0] |kumiyama|kumiyama #Kyoto#": [
+        135.733,
+        34.881,
+        15250
+    ],
+    "Kamitonda [kamitonda0] |kamitonda|kamitonda #Wakayama#": [
+        135.429,
+        33.696,
+        15236
+    ],
+    "Nakagawa [nakagawa1] |nakagawa|nakagawa #Tochigi#": [
+        140.169,
+        36.736,
+        15215
+    ],
+    "Kawaminami [kawaminami0] |kawaminami|kawaminami #Miyazaki#": [
+        131.526,
+        32.192,
+        15194
+    ],
+    "Kawasaki [kawasaki1] |kawasaki|kawasaki #Fukuoka#": [
+        130.824,
+        33.597,
+        15176
+    ],
+    "Kutchan [kutchan0] |kutchan|kutchan #Hokkaido#": [
+        140.759,
+        42.902,
+        15129
+    ],
+    "Sera [sera0] |sera|sera #Hiroshima#": [
+        133.057,
+        34.587,
+        15125
+    ],
+    "Kawagoe [kawagoe1] |kawagoe|kawagoe #Mie#": [
+        136.674,
+        35.023,
+        15123
+    ],
+    "Hirono [hirono0] |hirono|hirono #Iwate#": [
+        141.625,
+        40.284,
+        15091
+    ],
+    "Kurate [kurate0] |kurate|kurate #Fukuoka#": [
+        130.674,
+        33.792,
+        15080
+    ],
+    "Aizubange [aizubange0] |aizubange|aizubange #Fukushima#": [
+        139.822,
+        37.561,
+        15068
+    ],
+    "Tamaki [tamaki0] |tamaki|tamaki #Mie#": [
+        136.631,
+        34.49,
+        15041
+    ],
+    "Obanazawa [obanazawa0] |obanazawa|obanazawa #Yamagata#": [
+        140.406,
+        38.606,
+        14971
+    ],
+    "Haga [haga0] |haga|haga #Tochigi#": [
+        140.058,
+        36.548,
+        14961
+    ],
+    "Kushimoto [kushimoto0] |kushimoto|kushimoto #Wakayama#": [
+        135.78,
+        33.471,
+        14959
+    ],
+    "Suo-Oshima [suooshima0] |suooshima|suooshima #Yamaguchi#": [
+        132.265,
+        33.944,
+        14798
+    ],
+    "Misaki [misaki0] |misaki|misaki #Osaka#": [
+        135.142,
+        34.317,
+        14741
+    ],
+    "Nishinoomote [nishinoomote0] |nishinoomote|nishinoomote #Kagoshima#": [
+        130.997,
+        30.732,
+        14708
+    ],
+    "Ichikawamisato [ichikawamisato0] |ichikawamisato|ichikawamisato #Yamanashi#": [
+        138.502,
+        35.565,
+        14700
+    ],
+    "Asagiri [asagiri0] |asagiri|asagiri #Kumamoto#": [
+        130.898,
+        32.24,
+        14676
+    ],
+    "Ishikawa [ishikawa0] |ishikawa|ishikawa #Fukushima#": [
+        140.452,
+        37.144,
+        14644
+    ],
+    "Kujukuri [kujukuri0] |kujukuri|kujukuri #Chiba#": [
+        140.445,
+        35.529,
+        14639
+    ],
+    "Kihoku [kihoku0] |kihoku|kihoku #Mie#": [
+        136.335,
+        34.2,
+        14604
+    ],
+    "Miho [miho0] |miho|miho #Ibaraki#": [
+        140.302,
+        36.005,
+        14602
+    ],
+    "Matsushige [matsushige0] |matsushige|matsushige #Tokushima#": [
+        134.581,
+        34.134,
+        14583
+    ],
+    "Fujisaki [fujisaki0] |fujisaki|fujisaki #Aomori#": [
+        140.503,
+        40.656,
+        14573
+    ],
+    "Kawanishi [kawanishi1] |kawanishi|kawanishi #Yamagata#": [
+        140.046,
+        38.004,
+        14558
+    ],
+    "Shichinohe [shichinohe0] |shichinohe|shichinohe #Aomori#": [
+        141.151,
+        40.697,
+        14556
+    ],
+    "Tabuse [tabuse0] |tabuse|tabuse #Yamaguchi#": [
+        132.041,
+        33.955,
+        14483
+    ],
+    "Minamiaizu [minamiaizu0] |minamiaizu|minamiaizu #Fukushima#": [
+        139.773,
+        37.2,
+        14451
+    ],
+    "Kusu [kusu0] |kusu|kusu #Oita#": [
+        131.152,
+        33.283,
+        14386
+    ],
+    "Betsukai [betsukai0] |betsukai|betsukai #Hokkaido#": [
+        145.117,
+        43.394,
+        14380
+    ],
+    "Anpachi [anpachi0] |anpachi|anpachi #Gifu#": [
+        136.665,
+        35.335,
+        14355
+    ],
+    "Mori [mori1] |mori|mori #Hokkaido#": [
+        140.577,
+        42.107,
+        14338
+    ],
+    "Yamada [yamada0] |yamada|yamada #Iwate#": [
+        141.951,
+        39.465,
+        14320
+    ],
+    "Hasami [hasami0] |hasami|hasami #Nagasaki#": [
+        129.896,
+        33.138,
+        14291
+    ],
+    "Seiro [seiro0] |seiro|seiro #Niigata#": [
+        139.274,
+        37.975,
+        14259
+    ],
+    "Hokuei [hokuei0] |hokuei|hokuei #Tottori#": [
+        133.758,
+        35.49,
+        14228
+    ],
+    "Kimotsuki [kimotsuki0] |kimotsuki|kimotsuki #Kagoshima#": [
+        130.945,
+        31.344,
+        14227
+    ],
+    "Fujikawa [fujikawa0] |fujikawa|fujikawa #Yamanashi#": [
+        138.461,
+        35.561,
+        14219
+    ],
+    "Shinto [shinto0] |shinto|shinto #Gunma#": [
+        138.967,
+        36.439,
+        14216
+    ],
+    "Nachikatsuura [nachikatsuura0] |nachikatsuura|nachikatsuura #Wakayama#": [
+        135.941,
+        33.626,
+        14137
+    ],
+    "Fujimi [fujimi1] |fujimi|fujimi #Nagano#": [
+        138.241,
+        35.915,
+        14084
+    ],
+    "Itakura [itakura0] |itakura|itakura #Gunma#": [
+        139.61,
+        36.223,
+        14083
+    ],
+    "Taki [taki0] |taki|taki #Mie#": [
+        136.546,
+        34.496,
+        14021
+    ],
+    "Sakaki [sakaki0] |sakaki|sakaki #Nagano#": [
+        138.18,
+        36.462,
+        14004
+    ],
+    "Wakasa [wakasa0] |wakasa|wakasa #Fukui#": [
+        135.857,
+        35.462,
+        14003
+    ],
+    "Saza [saza0] |saza|saza #Nagasaki#": [
+        129.65,
+        33.238,
+        13912
+    ],
+    "Kamigori [kamigori0] |kamigori|kamigori #Hyogo#": [
+        134.356,
+        34.874,
+        13879
+    ],
+    "Shodoshima [shodoshima0] |shodoshima|shodoshima #Kagawa#": [
+        134.234,
+        34.482,
+        13870
+    ],
+    "Ugo [ugo0] |ugo|ugo #Akita#": [
+        140.413,
+        39.199,
+        13825
+    ],
+    "Oki [oki0] |oki|oki #Fukuoka#": [
+        130.44,
+        33.21,
+        13820
+    ],
+    "Tarumizu [tarumizu0] |tarumizu|tarumizu #Kagoshima#": [
+        130.702,
+        31.492,
+        13819
+    ],
+    "Chosei [chosei0] |chosei|chosei #Chiba#": [
+        140.354,
+        35.412,
+        13803
+    ],
+    "Tako [tako0] |tako|tako #Chiba#": [
+        140.468,
+        35.735,
+        13735
+    ],
+    "Yamanobe [yamanobe0] |yamanobe|yamanobe #Yamagata#": [
+        140.262,
+        38.289,
+        13725
+    ],
+    "Wake [wake0] |wake|wake #Okayama#": [
+        134.098,
+        34.85,
+        13623
+    ],
+    "Higashimiyoshi [higashimiyoshi0] |higashimiyoshi|higashimiyoshi #Tokushima#": [
+        133.937,
+        34.037,
+        13622
+    ],
+    "Hatoyama [hatoyama0] |hatoyama|hatoyama #Saitama#": [
+        139.334,
+        35.981,
+        13560
+    ],
+    "Inawashiro [inawashiro0] |inawashiro|inawashiro #Fukushima#": [
+        140.062,
+        37.497,
+        13552
+    ],
+    "Ashiya [ashiya1] |ashiya|ashiya #Fukuoka#": [
+        130.664,
+        33.894,
+        13545
+    ],
+    "Kadena [kadena0] |kadena|kadena #Okinawa#": [
+        127.755,
+        26.362,
+        13521
+    ],
+    "Yamato [yamato1] |yamato|yamato #Kumamoto#": [
+        130.988,
+        32.685,
+        13503
+    ],
+    "Hashikami [hashikami0] |hashikami|hashikami #Aomori#": [
+        141.621,
+        40.452,
+        13496
+    ],
+    "Okinoshima [okinoshima0] |okinoshima|okinoshima #Shimane#": [
+        133.322,
+        36.209,
+        13433
+    ],
+    "Yakage [yakage0] |yakage|yakage #Okayama#": [
+        133.587,
+        34.628,
+        13414
+    ],
+    "Kawatana [kawatana0] |kawatana|kawatana #Nagasaki#": [
+        129.861,
+        33.073,
+        13377
+    ],
+    "Kamikawa [kamikawa0] |kamikawa|kamikawa #Saitama#": [
+        139.102,
+        36.214,
+        13359
+    ],
+    "Tanagura [tanagura0] |tanagura|tanagura #Fukushima#": [
+        140.38,
+        37.03,
+        13343
+    ],
+    "Matsushima [matsushima0] |matsushima|matsushima #Miyagi#": [
+        141.069,
+        38.381,
+        13323
+    ],
+    "Shin'onsen [shinonsen0] |shinonsen|shinonsen #Hyogo#": [
+        134.449,
+        35.623,
+        13318
+    ],
+    "Tonosho [tonosho0] |tonosho|tonosho #Chiba#": [
+        140.669,
+        35.837,
+        13228
+    ],
+    "Misaki [misaki1] |misaki|misaki #Okayama#": [
+        133.958,
+        34.998,
+        13053
+    ],
+    "Itano [itano0] |itano|itano #Tokushima#": [
+        134.463,
+        34.144,
+        13042
+    ],
+    "Yuza [yuza0] |yuza|yuza #Yamagata#": [
+        139.907,
+        39.015,
+        13032
+    ],
+    "Taishi [taishi1] |taishi|taishi #Osaka#": [
+        135.648,
+        34.519,
+        13009
+    ],
+    "Suzu [suzu0] |suzu|suzu #Ishikawa#": [
+        137.26,
+        37.436,
+        12929
+    ],
+    "Kyotamba [kyotamba0] |kyotamba|kyotamba #Kyoto#": [
+        135.423,
+        35.164,
+        12907
+    ],
+    "Shirataka [shirataka0] |shirataka|shirataka #Yamagata#": [
+        140.099,
+        38.183,
+        12890
+    ],
+    "Keisen [keisen0] |keisen|keisen #Fukuoka#": [
+        130.678,
+        33.579,
+        12878
+    ],
+    "Tonosho [tonosho1] |tonosho|tonosho #Kagawa#": [
+        134.186,
+        34.486,
+        12846
+    ],
+    "Takamori [takamori0] |takamori|takamori #Nagano#": [
+        137.878,
+        35.551,
+        12811
+    ],
+    "Higashiagatsuma [higashiagatsuma0] |higashiagatsuma|higashiagatsuma #Gunma#": [
+        138.825,
+        36.571,
+        12728
+    ],
+    "Itayanagi [itayanagi0] |itayanagi|itayanagi #Aomori#": [
+        140.457,
+        40.696,
+        12700
+    ],
+    "Saka [saka0] |saka|saka #Hiroshima#": [
+        132.514,
+        34.341,
+        12582
+    ],
+    "Ashibetsu [ashibetsu0] |ashibetsu|ashibetsu #Hokkaido#": [
+        142.187,
+        43.518,
+        12555
+    ],
+    "Matsukawa [matsukawa0] |matsukawa|matsukawa #Nagano#": [
+        137.916,
+        35.596,
+        12530
+    ],
+    "Motobu [motobu0] |motobu|motobu #Okinawa#": [
+        127.898,
+        26.658,
+        12530
+    ],
+    "Kanra [kanra0] |kanra|kanra #Gunma#": [
+        138.922,
+        36.243,
+        12491
+    ],
+    "Tosashimizu [tosashimizu0] |tosashimizu|tosashimizu #Kochi#": [
+        132.955,
+        32.782,
+        12388
+    ],
+    "Osaki [osaki1] |osaki|osaki #Kagoshima#": [
+        131.006,
+        31.429,
+        12385
+    ],
+    "Noheji [noheji0] |noheji|noheji #Aomori#": [
+        141.129,
+        40.864,
+        12374
+    ],
+    "Hayashima [hayashima0] |hayashima|hayashima #Okayama#": [
+        133.828,
+        34.601,
+        12368
+    ],
+    "Sakawa [sakawa0] |sakawa|sakawa #Kochi#": [
+        133.287,
+        33.501,
+        12323
+    ],
+    "Kagamiishi [kagamiishi0] |kagamiishi|kagamiishi #Fukushima#": [
+        140.343,
+        37.253,
+        12318
+    ],
+    "Iwate [iwate0] |iwate|iwate #Iwate#": [
+        141.213,
+        39.973,
+        12285
+    ],
+    "Marumori [marumori0] |marumori|marumori #Miyagi#": [
+        140.766,
+        37.911,
+        12262
+    ],
+    "Minamisanriku [minamisanriku0] |minamisanriku|minamisanriku #Miyagi#": [
+        141.446,
+        38.677,
+        12225
+    ],
+    "Kawamata [kawamata0] |kawamata|kawamata #Fukushima#": [
+        140.598,
+        37.665,
+        12170
+    ],
+    "Hodatsushimizu [hodatsushimizu0] |hodatsushimizu|hodatsushimizu #Ishikawa#": [
+        136.798,
+        36.863,
+        12121
+    ],
+    "Tsuruta [tsuruta0] |tsuruta|tsuruta #Aomori#": [
+        140.428,
+        40.759,
+        12074
+    ],
+    "Urakawa [urakawa0] |urakawa|urakawa #Hokkaido#": [
+        142.768,
+        42.169,
+        12074
+    ],
+    "Kagamino [kagamino0] |kagamino|kagamino #Okayama#": [
+        133.933,
+        35.092,
+        12062
+    ],
+    "Yamamoto [yamamoto0] |yamamoto|yamamoto #Miyagi#": [
+        140.877,
+        37.962,
+        12046
+    ],
+    "Hirao [hirao0] |hirao|hirao #Yamaguchi#": [
+        132.073,
+        33.938,
+        11914
+    ],
+    "Ichinomiya [ichinomiya1] |ichinomiya|ichinomiya #Chiba#": [
+        140.369,
+        35.373,
+        11897
+    ],
+    "Motegi [motegi0] |motegi|motegi #Tochigi#": [
+        140.188,
+        36.532,
+        11891
+    ],
+    "Yakushima [yakushima0] |yakushima|yakushima #Kagoshima#": [
+        130.666,
+        30.371,
+        11858
+    ],
+    "Okuizumo [okuizumo0] |okuizumo|okuizumo #Shimane#": [
+        133.003,
+        35.197,
+        11849
+    ],
+    "Minabe [minabe0] |minabe|minabe #Wakayama#": [
+        135.33,
+        33.791,
+        11818
+    ],
+    "Ryuo [ryuo0] |ryuo|ryuo #Shiga#": [
+        136.125,
+        35.061,
+        11789
+    ],
+    "Muroto [muroto0] |muroto|muroto #Kochi#": [
+        134.152,
+        33.29,
+        11742
+    ],
+    "Iwanai [iwanai0] |iwanai|iwanai #Hokkaido#": [
+        140.509,
+        42.979,
+        11648
+    ],
+    "Takachiho [takachiho0] |takachiho|takachiho #Miyazaki#": [
+        131.308,
+        32.712,
+        11642
+    ],
+    "Ichinohe [ichinohe0] |ichinohe|ichinohe #Iwate#": [
+        141.296,
+        40.213,
+        11494
+    ],
+    "Higashiizu [higashiizu0] |higashiizu|higashiizu #Shizuoka#": [
+        139.041,
+        34.773,
+        11488
+    ],
+    "Kori [kori0] |kori|kori #Fukushima#": [
+        140.516,
+        37.85,
+        11459
+    ],
+    "Shari [shari0] |shari|shari #Hokkaido#": [
+        144.671,
+        43.912,
+        11418
+    ],
+    "Zao [zao0] |zao|zao #Miyagi#": [
+        140.658,
+        38.098,
+        11418
+    ],
+    "Kamiita [kamiita0] |kamiita|kamiita #Tokushima#": [
+        134.405,
+        34.121,
+        11384
+    ],
+    "Yamanouchi [yamanouchi0] |yamanouchi|yamanouchi #Nagano#": [
+        138.413,
+        36.745,
+        11352
+    ],
+    "Hakone [hakone0] |hakone|hakone #Kanagawa#": [
+        139.107,
+        35.232,
+        11293
+    ],
+    "Hidaka [hidaka1] |hidaka|hidaka #Hokkaido#": [
+        142.074,
+        42.48,
+        11279
+    ],
+    "Kuriyama [kuriyama0] |kuriyama|kuriyama #Hokkaido#": [
+        141.784,
+        43.056,
+        11272
+    ],
+    "Ichikai [ichikai0] |ichikai|ichikai #Tochigi#": [
+        140.102,
+        36.543,
+        11262
+    ],
+    "Ichikawa [ichikawa1] |ichikawa|ichikawa #Hyogo#": [
+        134.763,
+        34.989,
+        11231
+    ],
+    "Tagami [tagami0] |tagami|tagami #Niigata#": [
+        139.058,
+        37.699,
+        11227
+    ],
+    "Yuasa [yuasa0] |yuasa|yuasa #Wakayama#": [
+        135.179,
+        34.033,
+        11122
+    ],
+    "Hikawa [hikawa0] |hikawa|hikawa #Kumamoto#": [
+        130.674,
+        32.583,
+        11094
+    ],
+    "Asahi [asahi1] |asahi|asahi #Toyama#": [
+        137.56,
+        36.946,
+        11081
+    ],
+    "Misato [misato3] |misato|misato #Saitama#": [
+        139.168,
+        36.167,
+        11039
+    ],
+    "Ogose [ogose0] |ogose|ogose #Saitama#": [
+        139.294,
+        35.964,
+        11029
+    ],
+    "Asahi [asahi2] |asahi|asahi #Mie#": [
+        136.664,
+        35.034,
+        11021
+    ],
+    "Otsuchi [otsuchi0] |otsuchi|otsuchi #Iwate#": [
+        141.907,
+        39.36,
+        11004
+    ],
+    "Minamiise [minamiise0] |minamiise|minamiise #Mie#": [
+        136.704,
+        34.352,
+        10989
+    ],
+    "Satosho [satosho0] |satosho|satosho #Okayama#": [
+        133.557,
+        34.514,
+        10950
+    ],
+    "Ogano [ogano0] |ogano|ogano #Saitama#": [
+        139.009,
+        36.017,
+        10928
+    ],
+    "Shoo [shoo0] |shoo|shoo #Okayama#": [
+        134.116,
+        35.042,
+        10888
+    ],
+    "Kibichuo [kibichuo0] |kibichuo|kibichuo #Okayama#": [
+        133.812,
+        34.861,
+        10886
+    ],
+    "Meiwa [meiwa1] |meiwa|meiwa #Gunma#": [
+        139.534,
+        36.211,
+        10882
+    ],
+    "Onna [onna0] |onna|onna #Okinawa#": [
+        127.854,
+        26.497,
+        10869
+    ],
+    "Chiyoda [chiyoda0] |chiyoda|chiyoda #Gunma#": [
+        139.442,
+        36.218,
+        10861
+    ],
+    "Matsuda [matsuda0] |matsuda|matsuda #Kanagawa#": [
+        139.139,
+        35.348,
+        10836
+    ],
+    "Kin [kin0] |kin|kin #Okinawa#": [
+        127.926,
+        26.456,
+        10806
+    ],
+    "Iwami [iwami0] |iwami|iwami #Tottori#": [
+        134.332,
+        35.576,
+        10799
+    ],
+    "Nakayama [nakayama0] |nakayama|nakayama #Yamagata#": [
+        140.283,
+        38.333,
+        10746
+    ],
+    "Hoki [hoki0] |hoki|hoki #Tottori#": [
+        133.407,
+        35.385,
+        10696
+    ],
+    "Murata [murata0] |murata|murata #Miyagi#": [
+        140.722,
+        38.119,
+        10666
+    ],
+    "Minobu [minobu0] |minobu|minobu #Yamanashi#": [
+        138.442,
+        35.467,
+        10663
+    ],
+    "Obuse [obuse0] |obuse|obuse #Nagano#": [
+        138.312,
+        36.697,
+        10660
+    ],
+    "Kamikawa [kamikawa1] |kamikawa|kamikawa #Hyogo#": [
+        134.74,
+        35.064,
+        10616
+    ],
+    "Kiso [kiso0] |kiso|kiso #Nagano#": [
+        137.692,
+        35.842,
+        10584
+    ],
+    "Tokigawa [tokigawa0] |tokigawa|tokigawa #Saitama#": [
+        139.297,
+        36.009,
+        10540
+    ],
+    "Rokunohe [rokunohe0] |rokunohe|rokunohe #Aomori#": [
+        141.325,
+        40.61,
+        10447
+    ],
+    "Rokkasho [rokkasho0] |rokkasho|rokkasho #Aomori#": [
+        141.374,
+        40.967,
+        10367
+    ],
+    "Shioya [shioya0] |shioya|shioya #Tochigi#": [
+        139.851,
+        36.778,
+        10354
+    ],
+    "Kamifurano [kamifurano0] |kamifurano|kamifurano #Hokkaido#": [
+        142.467,
+        43.455,
+        10348
+    ],
+    "Takahama [takahama1] |takahama|takahama #Fukui#": [
+        135.551,
+        35.49,
+        10326
+    ],
+    "Nanbu [nanbu1] |nanbu|nanbu #Tottori#": [
+        133.362,
+        35.371,
+        10323
+    ],
+    "Kiho [kiho0] |kiho|kiho #Mie#": [
+        136.01,
+        33.734,
+        10321
+    ],
+    "Shirako [shirako0] |shirako|shirako #Chiba#": [
+        140.374,
+        35.454,
+        10305
+    ],
+    "Iizuna [iizuna0] |iizuna|iizuna #Nagano#": [
+        138.255,
+        36.763,
+        10296
+    ],
+    "Naganuma [naganuma0] |naganuma|naganuma #Hokkaido#": [
+        141.695,
+        43.01,
+        10289
+    ],
+    "Nishiki [nishiki0] |nishiki|nishiki #Kumamoto#": [
+        130.841,
+        32.201,
+        10288
+    ],
+    "Kuroshio [kuroshio0] |kuroshio|kuroshio #Kochi#": [
+        133.011,
+        33.025,
+        10262
+    ],
+    "Sakuho [sakuho0] |sakuho|sakuho #Nagano#": [
+        138.483,
+        36.161,
+        10218
+    ],
+    "Yaotsu [yaotsu0] |yaotsu|yaotsu #Gifu#": [
+        137.142,
+        35.476,
+        10195
+    ],
+    "Kawara [kawara0] |kawara|kawara #Fukuoka#": [
+        130.847,
+        33.668,
+        10191
+    ],
+    "Onan [onan0] |onan|onan #Shimane#": [
+        132.438,
+        34.894,
+        10163
+    ],
+    "Tokunoshima [tokunoshima0] |tokunoshima|tokunoshima #Kagoshima#": [
+        129.018,
+        27.727,
+        10147
+    ],
+    "Kosa [kosa0] |kosa|kosa #Kumamoto#": [
+        130.811,
+        32.652,
+        10132
+    ],
+    "Higashikagura [higashikagura0] |higashikagura|higashikagura #Hokkaido#": [
+        142.451,
+        43.697,
+        10127
+    ],
+    "Hiranai [hiranai0] |hiranai|hiranai #Aomori#": [
+        140.956,
+        40.926,
+        10126
+    ],
+    "Minamiechizen [minamiechizen0] |minamiechizen|minamiechizen #Fukui#": [
+        136.194,
+        35.835,
+        10002
+    ],
+    "Aga [aga0] |aga|aga #Niigata#": [
+        139.459,
+        37.675,
+        9965
+    ],
+    "Tsuno [tsuno0] |tsuno|tsuno #Miyazaki#": [
+        131.56,
+        32.256,
+        9906
+    ],
+    "Kawabe [kawabe0] |kawabe|kawabe #Gifu#": [
+        137.071,
+        35.487,
+        9860
+    ],
+    "Minamiaso [minamiaso0] |minamiaso|minamiaso #Kumamoto#": [
+        131.031,
+        32.822,
+        9836
+    ],
+    "Yamakita [yamakita0] |yamakita|yamakita #Kanagawa#": [
+        139.084,
+        35.361,
+        9761
+    ],
+    "Nagashima [nagashima0] |nagashima|nagashima #Kagoshima#": [
+        130.177,
+        32.199,
+        9705
+    ],
+    "Akabira [akabira0] |akabira|akabira #Hokkaido#": [
+        142.044,
+        43.558,
+        9698
+    ],
+    "Kihoku [kihoku1] |kihoku|kihoku #Ehime#": [
+        132.684,
+        33.256,
+        9682
+    ],
+    "Biei [biei0] |biei|biei #Hokkaido#": [
+        142.467,
+        43.588,
+        9668
+    ],
+    "Nakadomari [nakadomari0] |nakadomari|nakadomari #Aomori#": [
+        140.44,
+        40.965,
+        9657
+    ],
+    "Wanouchi [wanouchi0] |wanouchi|wanouchi #Gifu#": [
+        136.637,
+        35.285,
+        9654
+    ],
+    "Matsukawa [matsukawa1] |matsukawa|matsukawa #Nagano#": [
+        137.854,
+        36.424,
+        9599
+    ],
+    "Kohoku [kohoku0] |kohoku|kohoku #Saga#": [
+        130.158,
+        33.221,
+        9566
+    ],
+    "Kashima [kashima2] |kashima|kashima #Kumamoto#": [
+        130.757,
+        32.74,
+        9547
+    ],
+    "Ono [ono3] |ono|ono #Fukushima#": [
+        140.626,
+        37.287,
+        9471
+    ],
+    "Misato [misato4] |misato|misato #Kumamoto#": [
+        130.789,
+        32.64,
+        9392
+    ],
+    "Ikeda [ikeda2] |ikeda|ikeda #Nagano#": [
+        137.875,
+        36.421,
+        9382
+    ],
+    "Nagomi [nagomi0] |nagomi|nagomi #Kumamoto#": [
+        130.606,
+        32.978,
+        9342
+    ],
+    "Minano [minano0] |minano|minano #Saitama#": [
+        139.099,
+        36.071,
+        9302
+    ],
+    "Nakai [nakai0] |nakai|nakai #Kanagawa#": [
+        139.219,
+        35.331,
+        9300
+    ],
+    "Kamimine [kamimine0] |kamimine|kamimine #Saga#": [
+        130.426,
+        33.32,
+        9286
+    ],
+    "Oshino [oshino0] |oshino|oshino #Yamanashi#": [
+        138.848,
+        35.46,
+        9237
+    ],
+    "Hidakagawa [hidakagawa0] |hidakagawa|hidakagawa #Wakayama#": [
+        135.186,
+        33.912,
+        9219
+    ],
+    "Mihama [mihama1] |mihama|mihama #Fukui#": [
+        135.941,
+        35.601,
+        9179
+    ],
+    "Yusui [yusui0] |yusui|yusui #Kagoshima#": [
+        130.721,
+        31.952,
+        9119
+    ],
+    "Shimizu [shimizu1] |shimizu|shimizu #Hokkaido#": [
+        142.885,
+        43.011,
+        9094
+    ],
+    "Sannohe [sannohe0] |sannohe|sannohe #Aomori#": [
+        141.259,
+        40.378,
+        9082
+    ],
+    "Nose [nose0] |nose|nose #Osaka#": [
+        135.414,
+        34.973,
+        9079
+    ],
+    "Taragi [taragi0] |taragi|taragi #Kumamoto#": [
+        130.936,
+        32.264,
+        9076
+    ],
+    "Hisayama [hisayama0] |hisayama|hisayama #Fukuoka#": [
+        130.5,
+        33.647,
+        9068
+    ],
+    "Ajigasawa [ajigasawa0] |ajigasawa|ajigasawa #Aomori#": [
+        140.209,
+        40.78,
+        9044
+    ],
+    "Iijima [iijima0] |iijima|iijima #Nagano#": [
+        137.92,
+        35.677,
+        9004
+    ],
+    "Tsunan [tsunan0] |tsunan|tsunan #Niigata#": [
+        138.653,
+        37.014,
+        8989
+    ],
+    "Nankan [nankan0] |nankan|nankan #Kumamoto#": [
+        130.541,
+        33.062,
+        8979
+    ],
+    "Ujitawara [ujitawara0] |ujitawara|ujitawara #Kyoto#": [
+        135.857,
+        34.853,
+        8911
+    ],
+    "Otama [otama0] |otama|otama #Fukushima#": [
+        140.371,
+        37.534,
+        8900
+    ],
+    "Nakijin [nakijin0] |nakijin|nakijin #Okinawa#": [
+        127.973,
+        26.683,
+        8894
+    ],
+    "Akkeshi [akkeshi0] |akkeshi|akkeshi #Hokkaido#": [
+        144.847,
+        43.052,
+        8892
+    ],
+    "Otaki [otaki0] |otaki|otaki #Chiba#": [
+        140.245,
+        35.285,
+        8885
+    ],
+    "Tsumagoi [tsumagoi0] |tsumagoi|tsumagoi #Gunma#": [
+        138.53,
+        36.517,
+        8850
+    ],
+    "Soeda [soeda0] |soeda|soeda #Fukuoka#": [
+        130.854,
+        33.572,
+        8801
+    ],
+    "Iwaizumi [iwaizumi0] |iwaizumi|iwaizumi #Iwate#": [
+        141.796,
+        39.843,
+        8726
+    ],
+    "Odai [odai0] |odai|odai #Mie#": [
+        136.408,
+        34.393,
+        8668
+    ],
+    "Owani [owani0] |owani|owani #Aomori#": [
+        140.568,
+        40.518,
+        8665
+    ],
+    "Kunimi [kunimi0] |kunimi|kunimi #Fukushima#": [
+        140.549,
+        37.877,
+        8639
+    ],
+    "Takaharu [takaharu0] |takaharu|takaharu #Miyazaki#": [
+        131.008,
+        31.928,
+        8639
+    ],
+    "Hakuba [hakuba0] |hakuba|hakuba #Nagano#": [
+        137.862,
+        36.698,
+        8575
+    ],
+    "Miyada [miyada0] |miyada|miyada #Nagano#": [
+        137.944,
+        35.769,
+        8569
+    ],
+    "Setouchi [setouchi1] |setouchi|setouchi #Kagoshima#": [
+        129.315,
+        28.146,
+        8546
+    ],
+    "Kokonoe [kokonoe0] |kokonoe|kokonoe #Oita#": [
+        131.189,
+        33.229,
+        8541
+    ],
+    "Gojome [gojome0] |gojome|gojome #Akita#": [
+        140.111,
+        39.944,
+        8538
+    ],
+    "Kotohira [kotohira0] |kotohira|kotohira #Kagawa#": [
+        133.823,
+        34.191,
+        8468
+    ],
+    "Toyako [toyako0] |toyako|toyako #Hokkaido#": [
+        140.764,
+        42.551,
+        8442
+    ],
+    "Tajiri [tajiri0] |tajiri|tajiri #Osaka#": [
+        135.291,
+        34.394,
+        8434
+    ],
+    "Karumai [karumai0] |karumai|karumai #Iwate#": [
+        141.461,
+        40.327,
+        8421
+    ],
+    "Itoda [itoda0] |itoda|itoda #Fukuoka#": [
+        130.779,
+        33.653,
+        8407
+    ],
+    "Yamagata [yamagata2] |yamagata|yamagata #Nagano#": [
+        137.879,
+        36.168,
+        8400
+    ],
+    "Ikata [ikata0] |ikata|ikata #Ehime#": [
+        132.354,
+        33.489,
+        8397
+    ],
+    "Kaiyo [kaiyo0] |kaiyo|kaiyo #Tokushima#": [
+        134.352,
+        33.602,
+        8358
+    ],
+    "Kawasaki [kawasaki2] |kawasaki|kawasaki #Miyagi#": [
+        140.643,
+        38.178,
+        8345
+    ],
+    "Higashikawa [higashikawa0] |higashikawa|higashikawa #Hokkaido#": [
+        142.51,
+        43.699,
+        8314
+    ],
+    "Hanawa [hanawa0] |hanawa|hanawa #Fukushima#": [
+        140.41,
+        36.957,
+        8302
+    ],
+    "Yubetsu [yubetsu0] |yubetsu|yubetsu #Hokkaido#": [
+        143.573,
+        44.152,
+        8270
+    ],
+    "Kimino [kimino0] |kimino|kimino #Wakayama#": [
+        135.307,
+        34.167,
+        8256
+    ],
+    "Jinsekikogen [jinsekikogen0] |jinsekikogen|jinsekikogen #Hiroshima#": [
+        133.248,
+        34.704,
+        8250
+    ],
+    "Kawachi [kawachi0] |kawachi|kawachi #Ibaraki#": [
+        140.244,
+        35.885,
+        8231
+    ],
+    "Kawanishi [kawanishi2] |kawanishi|kawanishi #Nara#": [
+        135.774,
+        34.584,
+        8167
+    ],
+    "Tara [tara0] |tara|tara #Saga#": [
+        130.179,
+        33.019,
+        8121
+    ],
+    "Goka [goka0] |goka|goka #Ibaraki#": [
+        139.746,
+        36.114,
+        8093
+    ],
+    "Mogami [mogami0] |mogami|mogami #Yamagata#": [
+        140.519,
+        38.758,
+        8080
+    ],
+    "Mihama [mihama2] |mihama|mihama #Mie#": [
+        136.049,
+        33.814,
+        8079
+    ],
+    "Sakahogi [sakahogi0] |sakahogi|sakahogi #Gifu#": [
+        136.985,
+        35.427,
+        8071
+    ],
+    "Mikasa [mikasa0] |mikasa|mikasa #Hokkaido#": [
+        141.875,
+        43.245,
+        8040
+    ],
+    "Yokoze [yokoze0] |yokoze|yokoze #Saitama#": [
+        139.1,
+        35.987,
+        7979
+    ],
+    "Oi [oi1] |oi|oi #Fukui#": [
+        135.617,
+        35.481,
+        7910
+    ],
+    "Shinchi [shinchi0] |shinchi|shinchi #Fukushima#": [
+        140.92,
+        37.876,
+        7905
+    ],
+    "Anamizu [anamizu0] |anamizu|anamizu #Ishikawa#": [
+        136.912,
+        37.231,
+        7890
+    ],
+    "Minamiizu [minamiizu0] |minamiizu|minamiizu #Shizuoka#": [
+        138.859,
+        34.651,
+        7877
+    ],
+    "Watarai [watarai0] |watarai|watarai #Mie#": [
+        136.622,
+        34.439,
+        7847
+    ],
+    "Taiki [taiki0] |taiki|taiki #Mie#": [
+        136.416,
+        34.358,
+        7815
+    ],
+    "Osato [osato0] |osato|osato #Miyagi#": [
+        141.004,
+        38.424,
+        7813
+    ],
+    "Yuzawa [yuzawa1] |yuzawa|yuzawa #Niigata#": [
+        138.817,
+        36.934,
+        7767
+    ],
+    "Shinano [shinano0] |shinano|shinano #Nagano#": [
+        138.207,
+        36.807,
+        7739
+    ],
+    "Higashisonogi [higashisonogi0] |higashisonogi|higashisonogi #Nagasaki#": [
+        129.917,
+        33.037,
+        7721
+    ],
+    "Inami [inami1] |inami|inami #Wakayama#": [
+        135.218,
+        33.818,
+        7720
+    ],
+    "Tsurugi [tsurugi0] |tsurugi|tsurugi #Tokushima#": [
+        134.064,
+        34.037,
+        7715
+    ],
+    "Yahiko [yahiko0] |yahiko|yahiko #Niigata#": [
+        138.855,
+        37.691,
+        7705
+    ],
+    "Hara [hara0] |hara|hara #Nagano#": [
+        138.218,
+        35.964,
+        7680
+    ],
+    "Hidaka [hidaka2] |hidaka|hidaka #Wakayama#": [
+        135.141,
+        33.926,
+        7673
+    ],
+    "Mukawa [mukawa0] |mukawa|mukawa #Hokkaido#": [
+        141.927,
+        42.575,
+        7651
+    ],
+    "Oe [oe0] |oe|oe #Yamagata#": [
+        140.207,
+        38.381,
+        7646
+    ],
+    "Mikawa [mikawa0] |mikawa|mikawa #Yamagata#": [
+        139.85,
+        38.794,
+        7601
+    ],
+    "Esashi [esashi0] |esashi|esashi #Hokkaido#": [
+        142.581,
+        44.938,
+        7565
+    ],
+    "Nakatane [nakatane0] |nakatane|nakatane #Kagoshima#": [
+        130.959,
+        30.533,
+        7539
+    ],
+    "Esashi [esashi1] |esashi|esashi #Hokkaido#": [
+        140.127,
+        41.869,
+        7428
+    ],
+    "Shirakawa [shirakawa1] |shirakawa|shirakawa #Gifu#": [
+        137.263,
+        35.548,
+        7412
+    ],
+    "Ide [ide0] |ide|ide #Kyoto#": [
+        135.803,
+        34.798,
+        7406
+    ],
+    "Kumakogen [kumakogen0] |kumakogen|kumakogen #Ehime#": [
+        132.902,
+        33.656,
+        7404
+    ],
+    "Setana [setana0] |setana|setana #Hokkaido#": [
+        139.883,
+        42.417,
+        7398
+    ],
+    "Naka [naka1] |naka|naka #Tokushima#": [
+        134.479,
+        33.821,
+        7367
+    ],
+    "Fukaura [fukaura0] |fukaura|fukaura #Aomori#": [
+        139.927,
+        40.648,
+        7346
+    ],
+    "Abira [abira0] |abira|abira #Hokkaido#": [
+        141.818,
+        42.763,
+        7340
+    ],
+    "Yubari [yubari0] |yubari|yubari #Hokkaido#": [
+        141.974,
+        43.057,
+        7334
+    ],
+    "Inakadate [inakadate0] |inakadate|inakadate #Aomori#": [
+        140.55,
+        40.631,
+        7326
+    ],
+    "Nanporo [nanporo0] |nanporo|nanporo #Hokkaido#": [
+        141.65,
+        43.064,
+        7319
+    ],
+    "Shiranuka [shiranuka0] |shiranuka|shiranuka #Hokkaido#": [
+        144.072,
+        42.956,
+        7289
+    ],
+    "Taga [taga0] |taga|taga #Shiga#": [
+        136.292,
+        35.222,
+        7274
+    ],
+    "Hiraizumi [hiraizumi0] |hiraizumi|hiraizumi #Iwate#": [
+        141.114,
+        38.987,
+        7252
+    ],
+    "Koge [koge0] |koge|koge #Fukuoka#": [
+        131.164,
+        33.578,
+        7251
+    ],
+    "Shibecha [shibecha0] |shibecha|shibecha #Hokkaido#": [
+        144.601,
+        43.303,
+        7230
+    ],
+    "Ando [ando0] |ando|ando #Nara#": [
+        135.757,
+        34.606,
+        7225
+    ],
+    "Mamurogawa [mamurogawa0] |mamurogawa|mamurogawa #Yamagata#": [
+        140.252,
+        38.858,
+        7203
+    ],
+    "Chonan [chonan0] |chonan|chonan #Chiba#": [
+        140.237,
+        35.386,
+        7198
+    ],
+    "Kumejima [kumejima0] |kumejima|kumejima #Okinawa#": [
+        126.747,
+        26.349,
+        7192
+    ],
+    "Osakikamijima [osakikamijima0] |osakikamijima|osakikamijima #Hiroshima#": [
+        132.915,
+        34.27,
+        7158
+    ],
+    "Nanbu [nanbu2] |nanbu|nanbu #Yamanashi#": [
+        138.486,
+        35.242,
+        7156
+    ],
+    "Kotake [kotake0] |kotake|kotake #Fukuoka#": [
+        130.713,
+        33.692,
+        7151
+    ],
+    "Toyosato [toyosato0] |toyosato|toyosato #Shiga#": [
+        136.23,
+        35.2,
+        7132
+    ],
+    "Reihoku [reihoku0] |reihoku|reihoku #Kumamoto#": [
+        130.055,
+        32.513,
+        7114
+    ],
+    "Oguni [oguni0] |oguni|oguni #Yamagata#": [
+        139.744,
+        38.061,
+        7107
+    ],
+    "Oshima [oshima0] |oshima|oshima #Tokyo#": [
+        139.356,
+        34.75,
+        7102
+    ],
+    "Nishiizu [nishiizu0] |nishiizu|nishiizu #Shizuoka#": [
+        138.775,
+        34.772,
+        7090
+    ],
+    "Hachijo [hachijo0] |hachijo|hachijo #Tokyo#": [
+        139.791,
+        33.109,
+        7042
+    ],
+    "Shibayama [shibayama0] |shibayama|shibayama #Chiba#": [
+        140.414,
+        35.693,
+        7033
+    ],
+    "Kyonan [kyonan0] |kyonan|kyonan #Chiba#": [
+        139.836,
+        35.111,
+        6993
+    ],
+    "Teshikaga [teshikaga0] |teshikaga|teshikaga #Hokkaido#": [
+        144.459,
+        43.485,
+        6955
+    ],
+    "Showa [showa1] |showa|showa #Gunma#": [
+        139.066,
+        36.64,
+        6953
+    ],
+    "Kinko [kinko0] |kinko|kinko #Kagoshima#": [
+        130.788,
+        31.244,
+        6944
+    ],
+    "Aya [aya0] |aya|aya #Miyazaki#": [
+        131.253,
+        31.999,
+        6934
+    ],
+    "Tsuwano [tsuwano0] |tsuwano|tsuwano #Shimane#": [
+        131.773,
+        34.467,
+        6875
+    ],
+    "Onjuku [onjuku0] |onjuku|onjuku #Chiba#": [
+        140.349,
+        35.192,
+        6874
+    ],
+    "Kawazu [kawazu0] |kawazu|kawazu #Shizuoka#": [
+        138.988,
+        34.757,
+        6870
+    ],
+    "Mihama [mihama3] |mihama|mihama #Wakayama#": [
+        135.133,
+        33.894,
+        6867
+    ],
+    "Nagatoro [nagatoro0] |nagatoro|nagatoro #Saitama#": [
+        139.11,
+        36.115,
+        6807
+    ],
+    "Hirogawa [hirogawa0] |hirogawa|hirogawa #Wakayama#": [
+        135.173,
+        34.03,
+        6781
+    ],
+    "Ozora [ozora0] |ozora|ozora #Hokkaido#": [
+        144.173,
+        43.912,
+        6775
+    ],
+    "Mutsuzawa [mutsuzawa0] |mutsuzawa|mutsuzawa #Chiba#": [
+        140.319,
+        35.361,
+        6760
+    ],
+    "Takatori [takatori0] |takatori|takatori #Nara#": [
+        135.793,
+        34.45,
+        6729
+    ],
+    "Manazuru [manazuru0] |manazuru|manazuru #Kanagawa#": [
+        139.137,
+        35.158,
+        6722
+    ],
+    "Nagara [nagara0] |nagara|nagara #Chiba#": [
+        140.227,
+        35.431,
+        6721
+    ],
+    "Shikama [shikama0] |shikama|shikama #Miyagi#": [
+        140.85,
+        38.549,
+        6698
+    ],
+    "Kikai [kikai0] |kikai|kikai #Kagoshima#": [
+        129.94,
+        28.317,
+        6629
+    ],
+    "Honbetsu [honbetsu0] |honbetsu|honbetsu #Hokkaido#": [
+        143.611,
+        43.124,
+        6618
+    ],
+    "Takayama [takayama1] |takayama|takayama #Nagano#": [
+        138.363,
+        36.68,
+        6617
+    ],
+    "Iide [iide0] |iide|iide #Yamagata#": [
+        139.988,
+        38.046,
+        6613
+    ],
+    "Tateshina [tateshina0] |tateshina|tateshina #Nagano#": [
+        138.316,
+        36.272,
+        6612
+    ],
+    "Sekigahara [sekigahara0] |sekigahara|sekigahara #Gifu#": [
+        136.467,
+        35.366,
+        6610
+    ],
+    "Oguni [oguni1] |oguni|oguni #Kumamoto#": [
+        131.068,
+        33.122,
+        6590
+    ],
+    "Happo [happo0] |happo|happo #Akita#": [
+        140.039,
+        40.319,
+        6577
+    ],
+    "Oishida [oishida0] |oishida|oishida #Yamagata#": [
+        140.373,
+        38.594,
+        6577
+    ],
+    "Shimonita [shimonita0] |shimonita|shimonita #Gunma#": [
+        138.789,
+        36.212,
+        6576
+    ],
+    "Takasu [takasu0] |takasu|takasu #Hokkaido#": [
+        142.354,
+        43.843,
+        6567
+    ],
+    "Ashoro [ashoro0] |ashoro|ashoro #Hokkaido#": [
+        143.554,
+        43.245,
+        6563
+    ],
+    "Haboro [haboro0] |haboro|haboro #Hokkaido#": [
+        141.697,
+        44.361,
+        6548
+    ],
+    "Yoshitomi [yoshitomi0] |yoshitomi|yoshitomi #Fukuoka#": [
+        131.176,
+        33.603,
+        6536
+    ],
+    "Kamijima [kamijima0] |kamijima|kamijima #Ehime#": [
+        133.205,
+        34.257,
+        6509
+    ],
+    "Shintotsukawa [shintotsukawa0] |shintotsukawa|shintotsukawa #Hokkaido#": [
+        141.877,
+        43.549,
+        6484
+    ],
+    "Minamiosumi [minamiosumi0] |minamiosumi|minamiosumi #Kagoshima#": [
+        130.768,
+        31.217,
+        6481
+    ],
+    "Miyake [miyake0] |miyake|miyake #Nara#": [
+        135.773,
+        34.574,
+        6439
+    ],
+    "Onagawa [onagawa0] |onagawa|onagawa #Miyagi#": [
+        141.444,
+        38.445,
+        6430
+    ],
+    "Chizu [chizu0] |chizu|chizu #Tottori#": [
+        134.227,
+        35.265,
+        6427
+    ],
+    "Nishihara [nishihara1] |nishihara|nishihara #Kumamoto#": [
+        130.903,
+        32.835,
+        6426
+    ],
+    "Toyooka [toyooka1] |toyooka|toyooka #Nagano#": [
+        137.896,
+        35.551,
+        6426
+    ],
+    "Tamakawa [tamakawa0] |tamakawa|tamakawa #Fukushima#": [
+        140.409,
+        37.211,
+        6392
+    ],
+    "Hiroo [hiroo0] |hiroo|hiroo #Hokkaido#": [
+        143.312,
+        42.286,
+        6387
+    ],
+    "Asahi [asahi3] |asahi|asahi #Yamagata#": [
+        140.146,
+        38.299,
+        6366
+    ],
+    "Kora [kora0] |kora|kora #Shiga#": [
+        136.261,
+        35.204,
+        6362
+    ],
+    "Toma [toma0] |toma|toma #Hokkaido#": [
+        142.508,
+        43.828,
+        6319
+    ],
+    "Ikeda [ikeda3] |ikeda|ikeda #Hokkaido#": [
+        143.448,
+        42.929,
+        6294
+    ],
+    "Omachi [omachi1] |omachi|omachi #Saga#": [
+        130.116,
+        33.214,
+        6293
+    ],
+    "Matsumae [matsumae0] |matsumae|matsumae #Hokkaido#": [
+        140.11,
+        41.43,
+        6260
+    ],
+    "Wadomari [wadomari0] |wadomari|wadomari #Kagoshima#": [
+        128.655,
+        27.392,
+        6246
+    ],
+    "Higashikushira [higashikushira0] |higashikushira|higashikushira #Kagoshima#": [
+        130.973,
+        31.386,
+        6237
+    ],
+    "Yoshino [yoshino0] |yoshino|yoshino #Nara#": [
+        135.858,
+        34.396,
+        6229
+    ],
+    "Minami [minami0] |minami|minami #Tokushima#": [
+        134.535,
+        33.735,
+        6222
+    ],
+    "Izumizaki [izumizaki0] |izumizaki|izumizaki #Fukushima#": [
+        140.295,
+        37.157,
+        6213
+    ],
+    "Kawanehon [kawanehon0] |kawanehon|kawanehon #Shizuoka#": [
+        138.082,
+        35.047,
+        6206
+    ],
+    "Isen [isen0] |isen|isen #Kagoshima#": [
+        128.938,
+        27.674,
+        6139
+    ],
+    "Kawakita [kawakita0] |kawakita|kawakita #Ishikawa#": [
+        136.542,
+        36.469,
+        6135
+    ],
+    "Yoshika [yoshika0] |yoshika|yoshika #Shimane#": [
+        131.868,
+        34.442,
+        6077
+    ],
+    "Achi [achi0] |achi|achi #Nagano#": [
+        137.748,
+        35.444,
+        6068
+    ],
+    "Misasa [misasa0] |misasa|misasa #Tottori#": [
+        133.862,
+        35.409,
+        6060
+    ],
+    "Kusatsu [kusatsu1] |kusatsu|kusatsu #Gunma#": [
+        138.596,
+        36.621,
+        6049
+    ],
+    "Matsuzaki [matsuzaki0] |matsuzaki|matsuzaki #Shizuoka#": [
+        138.779,
+        34.753,
+        6038
+    ],
+    "Asakawa [asakawa0] |asakawa|asakawa #Fukushima#": [
+        140.413,
+        37.081,
+        6036
+    ],
+    "Waki [waki0] |waki|waki #Yamaguchi#": [
+        132.22,
+        34.202,
+        6034
+    ],
+    "Kisosaki [kisosaki0] |kisosaki|kisosaki #Mie#": [
+        136.731,
+        35.076,
+        6023
+    ],
+    "Nakatosa [nakatosa0] |nakatosa|nakatosa #Kochi#": [
+        133.14,
+        33.338,
+        6002
+    ],
+    "Takagi [takagi0] |takagi|takagi #Nagano#": [
+        137.874,
+        35.514,
+        5973
+    ],
+    "Higashidori [higashidori0] |higashidori|higashidori #Aomori#": [
+        141.329,
+        41.278,
+        5955
+    ],
+    "Ohira [ohira0] |ohira|ohira #Miyagi#": [
+        140.88,
+        38.467,
+        5849
+    ],
+    "Shihoro [shihoro0] |shihoro|shihoro #Hokkaido#": [
+        143.241,
+        43.168,
+        5848
+    ],
+    "Ginoza [ginoza0] |ginoza|ginoza #Okinawa#": [
+        127.975,
+        26.482,
+        5833
+    ],
+    "Hirata [hirata0] |hirata|hirata #Fukushima#": [
+        140.57,
+        37.218,
+        5826
+    ],
+    "Shintoku [shintoku0] |shintoku|shintoku #Hokkaido#": [
+        142.839,
+        43.08,
+        5817
+    ],
+    "Tatsugo [tatsugo0] |tatsugo|tatsugo #Kagoshima#": [
+        129.589,
+        28.413,
+        5817
+    ],
+    "Kozaki [kozaki0] |kozaki|kozaki #Chiba#": [
+        140.405,
+        35.902,
+        5816
+    ],
+    "Takamori [takamori1] |takamori|takamori #Kumamoto#": [
+        131.122,
+        32.827,
+        5789
+    ],
+    "Kyowa [kyowa0] |kyowa|kyowa #Hokkaido#": [
+        140.611,
+        42.98,
+        5772
+    ],
+    "Nishiaizu [nishiaizu0] |nishiaizu|nishiaizu #Fukushima#": [
+        139.647,
+        37.589,
+        5770
+    ],
+    "China [china0] |china|china #Kagoshima#": [
+        128.574,
+        27.334,
+        5750
+    ],
+    "Akiota [akiota0] |akiota|akiota #Hiroshima#": [
+        132.227,
+        34.577,
+        5740
+    ],
+    "Kuzumaki [kuzumaki0] |kuzumaki|kuzumaki #Iwate#": [
+        141.436,
+        40.04,
+        5634
+    ],
+    "Tomika [tomika0] |tomika|tomika #Gifu#": [
+        136.98,
+        35.485,
+        5626
+    ],
+    "Genkai [genkai0] |genkai|genkai #Saga#": [
+        129.875,
+        33.472,
+        5609
+    ],
+    "Nagawa [nagawa0] |nagawa|nagawa #Nagano#": [
+        138.268,
+        36.256,
+        5600
+    ],
+    "Hachirogata [hachirogata0] |hachirogata|hachirogata #Akita#": [
+        140.079,
+        39.946,
+        5583
+    ],
+    "Nagi [nagi0] |nagi|nagi #Okayama#": [
+        134.177,
+        35.123,
+        5578
+    ],
+    "Amagi [amagi0] |amagi|amagi #Kagoshima#": [
+        128.897,
+        27.811,
+        5517
+    ],
+    "Hamanaka [hamanaka0] |hamanaka|hamanaka #Hokkaido#": [
+        145.129,
+        43.077,
+        5507
+    ],
+    "Minamitane [minamitane0] |minamitane|minamitane #Kagoshima#": [
+        130.901,
+        30.414,
+        5445
+    ],
+    "Taiki [taiki1] |taiki|taiki #Hokkaido#": [
+        143.279,
+        42.498,
+        5420
+    ],
+    "Hirono [hirono1] |hirono|hirono #Fukushima#": [
+        140.994,
+        37.215,
+        5412
+    ],
+    "Sotogahama [sotogahama0] |sotogahama|sotogahama #Aomori#": [
+        140.632,
+        41.043,
+        5401
+    ],
+    "Yamatsuri [yamatsuri0] |yamatsuri|yamatsuri #Fukushima#": [
+        140.425,
+        36.871,
+        5392
+    ],
+    "Kunohe [kunohe0] |kunohe|kunohe #Iwate#": [
+        141.419,
+        40.211,
+        5378
+    ],
+    "Yura [yura0] |yura|yura #Wakayama#": [
+        135.118,
+        33.959,
+        5364
+    ],
+    "Niikappu [niikappu0] |niikappu|niikappu #Hokkaido#": [
+        142.318,
+        42.362,
+        5309
+    ],
+    "Tsuno [tsuno1] |tsuno|tsuno #Kochi#": [
+        133.199,
+        33.447,
+        5291
+    ],
+    "Shikaoi [shikaoi0] |shikaoi|shikaoi #Hokkaido#": [
+        142.989,
+        43.099,
+        5266
+    ],
+    "Shimogo [shimogo0] |shimogo|shimogo #Fukushima#": [
+        139.872,
+        37.256,
+        5264
+    ],
+    "Ten'ei [tenei0] |tenei|tenei #Fukushima#": [
+        140.247,
+        37.256,
+        5194
+    ],
+    "Ochi [ochi0] |ochi|ochi #Kochi#": [
+        133.252,
+        33.533,
+        5187
+    ],
+    "Asuka [asuka0] |asuka|asuka #Nara#": [
+        135.821,
+        34.471,
+        5179
+    ],
+    "Yamanakako [yamanakako0] |yamanakako|yamanakako #Yamanashi#": [
+        138.861,
+        35.411,
+        5179
+    ],
+    "Sekikawa [sekikawa0] |sekikawa|sekikawa #Niigata#": [
+        139.565,
+        38.089,
+        5144
+    ],
+    "Nishiwaga [nishiwaga0] |nishiwaga|nishiwaga #Iwate#": [
+        140.75,
+        39.435,
+        5134
+    ],
+    "Naie [naie0] |naie|naie #Hokkaido#": [
+        141.883,
+        43.425,
+        5120
+    ],
+    "Yoron [yoron0] |yoron|yoron #Kagoshima#": [
+        128.415,
+        27.048,
+        5115
+    ],
+    "Oshamambe [oshamambe0] |oshamambe|oshamambe #Hokkaido#": [
+        140.381,
+        42.514,
+        5109
+    ],
+    "Naganohara [naganohara0] |naganohara|naganohara #Gunma#": [
+        138.637,
+        36.552,
+        5095
+    ],
+    "Niseko [niseko0] |niseko|niseko #Hokkaido#": [
+        140.687,
+        42.805,
+        5074
+    ],
+    "Imakane [imakane0] |imakane|imakane #Hokkaido#": [
+        140.009,
+        42.429,
+        5072
+    ],
+    "Kaneyama [kaneyama0] |kaneyama|kaneyama #Yamagata#": [
+        140.339,
+        38.883,
+        5071
+    ],
+    "Sumita [sumita0] |sumita|sumita #Iwate#": [
+        141.576,
+        39.142,
+        5045
+    ],
+    "Gyokuto [gyokuto0] |gyokuto|gyokuto #Kumamoto#": [
+        130.629,
+        32.919,
+        5045
+    ],
+    "Shimoichi [shimoichi0] |shimoichi|shimoichi #Nara#": [
+        135.792,
+        34.361,
+        5037
+    ],
+    "Shibetsu [shibetsu1] |shibetsu|shibetsu #Hokkaido#": [
+        145.131,
+        43.659,
+        5023
+    ],
+    "Oto [oto0] |oto|oto #Fukuoka#": [
+        130.854,
+        33.612,
+        5008
+    ],
+    "Funagata [funagata0] |funagata|funagata #Yamagata#": [
+        140.32,
+        38.691,
+        5007
+    ],
+    "Takko [takko0] |takko|takko #Aomori#": [
+        141.152,
+        40.34,
+        4968
+    ],
+    "Nishikawa [nishikawa0] |nishikawa|nishikawa #Yamagata#": [
+        140.147,
+        38.427,
+        4956
+    ],
+    "Chihayaakasaka [chihayaakasaka0] |chihayaakasaka|chihayaakasaka #Osaka#": [
+        135.623,
+        34.465,
+        4909
+    ],
+    "Kijo [kijo0] |kijo|kijo #Miyazaki#": [
+        131.474,
+        32.164,
+        4895
+    ],
+    "Nakajima [nakajima0] |nakajima|nakajima #Fukushima#": [
+        140.35,
+        37.149,
+        4885
+    ],
+    "Saroma [saroma0] |saroma|saroma #Hokkaido#": [
+        143.802,
+        44.131,
+        4875
+    ],
+    "Katsuura [katsuura1] |katsuura|katsuura #Tokushima#": [
+        134.511,
+        33.931,
+        4837
+    ],
+    "Niyodogawa [niyodogawa0] |niyodogawa|niyodogawa #Kochi#": [
+        133.169,
+        33.575,
+        4827
+    ],
+    "Misato [misato5] |misato|misato #Miyazaki#": [
+        131.423,
+        32.44,
+        4826
+    ],
+    "Furudono [furudono0] |furudono|furudono #Fukushima#": [
+        140.556,
+        37.089,
+        4825
+    ],
+    "Yuni [yuni0] |yuni|yuni #Hokkaido#": [
+        141.79,
+        43.0,
+        4822
+    ],
+    "Hidaka [hidaka3] |hidaka|hidaka #Kochi#": [
+        133.373,
+        33.535,
+        4812
+    ],
+    "Kosaka [kosaka0] |kosaka|kosaka #Akita#": [
+        140.747,
+        40.328,
+        4780
+    ],
+    "Kamishihoro [kamishihoro0] |kamishihoro|kamishihoro #Hokkaido#": [
+        143.296,
+        43.233,
+        4778
+    ],
+    "Biratori [biratori0] |biratori|biratori #Hokkaido#": [
+        142.129,
+        42.585,
+        4776
+    ],
+    "Okutama [okutama0] |okutama|okutama #Tokyo#": [
+        139.096,
+        35.81,
+        4750
+    ],
+    "Nakafurano [nakafurano0] |nakafurano|nakafurano #Hokkaido#": [
+        142.425,
+        43.406,
+        4733
+    ],
+    "Rausu [rausu0] |rausu|rausu #Hokkaido#": [
+        145.19,
+        44.022,
+        4722
+    ],
+    "Oma [oma0] |oma|oma #Aomori#": [
+        140.907,
+        41.527,
+        4718
+    ],
+    "Kunneppu [kunneppu0] |kunneppu|kunneppu #Hokkaido#": [
+        143.742,
+        43.725,
+        4677
+    ],
+    "Nakagawa [nakagawa2] |nakagawa|nakagawa #Nagano#": [
+        137.946,
+        35.635,
+        4651
+    ],
+    "Kamiyama [kamiyama0] |kamiyama|kamiyama #Tokushima#": [
+        134.35,
+        33.967,
+        4647
+    ],
+    "Koshimizu [koshimizu0] |koshimizu|koshimizu #Hokkaido#": [
+        144.462,
+        43.857,
+        4623
+    ],
+    "Iinan [iinan0] |iinan|iinan #Shimane#": [
+        132.714,
+        35.0,
+        4577
+    ],
+    "Tobishima [tobishima0] |tobishima|tobishima #Aichi#": [
+        136.791,
+        35.079,
+        4575
+    ],
+    "Rankoshi [rankoshi0] |rankoshi|rankoshi #Hokkaido#": [
+        140.528,
+        42.809,
+        4568
+    ],
+    "Ikawa [ikawa0] |ikawa|ikawa #Akita#": [
+        140.081,
+        39.914,
+        4566
+    ],
+    "Kumenan [kumenan0] |kumenan|kumenan #Okayama#": [
+        133.961,
+        34.929,
+        4530
+    ],
+    "Kunigami [kunigami0] |kunigami|kunigami #Okinawa#": [
+        128.178,
+        26.746,
+        4517
+    ],
+    "Shitara [shitara0] |shitara|shitara #Aichi#": [
+        137.57,
+        35.098,
+        4437
+    ],
+    "Otsuki [otsuki1] |otsuki|otsuki #Kochi#": [
+        132.707,
+        32.841,
+        4434
+    ],
+    "Atsuma [atsuma0] |atsuma|atsuma #Hokkaido#": [
+        141.878,
+        42.724,
+        4432
+    ],
+    "Urahoro [urahoro0] |urahoro|urahoro #Hokkaido#": [
+        143.659,
+        42.809,
+        4387
+    ],
+    "Kariwa [kariwa0] |kariwa|kariwa #Niigata#": [
+        138.622,
+        37.422,
+        4380
+    ],
+    "Kijimadaira [kijimadaira0] |kijimadaira|kijimadaira #Nagano#": [
+        138.407,
+        36.858,
+        4375
+    ],
+    "Erimo [erimo0] |erimo|erimo #Hokkaido#": [
+        143.148,
+        42.016,
+        4374
+    ],
+    "Tsubetsu [tsubetsu0] |tsubetsu|tsubetsu #Hokkaido#": [
+        144.025,
+        43.706,
+        4373
+    ],
+    "Misato [misato6] |misato|misato #Shimane#": [
+        132.591,
+        35.077,
+        4355
+    ],
+    "Koumi [koumi0] |koumi|koumi #Nagano#": [
+        138.483,
+        36.095,
+        4353
+    ],
+    "Kawakami [kawakami0] |kawakami|kawakami #Nagano#": [
+        138.579,
+        35.975,
+        4344
+    ],
+    "Kaminokuni [kaminokuni0] |kaminokuni|kaminokuni #Hokkaido#": [
+        140.121,
+        41.801,
+        4306
+    ],
+    "Anan [anan1] |anan|anan #Nagano#": [
+        137.816,
+        35.324,
+        4299
+    ],
+    "Asahi [asahi4] |asahi|asahi #Nagano#": [
+        137.866,
+        36.124,
+        4279
+    ],
+    "Tsunagi [tsunagi0] |tsunagi|tsunagi #Kumamoto#": [
+        130.44,
+        32.234,
+        4254
+    ],
+    "Yokohama [yokohama1] |yokohama|yokohama #Aomori#": [
+        141.248,
+        41.083,
+        4229
+    ],
+    "Omu [omu0] |omu|omu #Hokkaido#": [
+        142.962,
+        44.583,
+        4199
+    ],
+    "Tozawa [tozawa0] |tozawa|tozawa #Yamagata#": [
+        140.143,
+        38.737,
+        4199
+    ],
+    "Nichinan [nichinan1] |nichinan|nichinan #Tottori#": [
+        133.306,
+        35.163,
+        4196
+    ],
+    "Shiriuchi [shiriuchi0] |shiriuchi|shiriuchi #Hokkaido#": [
+        140.419,
+        41.598,
+        4167
+    ],
+    "Chikuhoku [chikuhoku0] |chikuhoku|chikuhoku #Nagano#": [
+        138.015,
+        36.426,
+        4149
+    ],
+    "Bifuka [bifuka0] |bifuka|bifuka #Hokkaido#": [
+        142.343,
+        44.481,
+        4145
+    ],
+    "Agematsu [agematsu0] |agematsu|agematsu #Nagano#": [
+        137.694,
+        35.784,
+        4131
+    ],
+    "Aoki [aoki0] |aoki|aoki #Nagano#": [
+        138.129,
+        36.37,
+        4121
+    ],
+    "Ie [ie0] |ie|ie #Okinawa#": [
+        127.807,
+        26.713,
+        4118
+    ],
+    "Izumozaki [izumozaki0] |izumozaki|izumozaki #Niigata#": [
+        138.709,
+        37.531,
+        4113
+    ],
+    "Sagara [sagara0] |sagara|sagara #Kumamoto#": [
+        130.798,
+        32.235,
+        4070
+    ],
+    "Tadami [tadami0] |tadami|tadami #Fukushima#": [
+        139.316,
+        37.349,
+        4044
+    ],
+    "Samani [samani0] |samani|samani #Hokkaido#": [
+        142.934,
+        42.128,
+        4043
+    ],
+    "Nishikatsura [nishikatsura0] |nishikatsura|nishikatsura #Yamanashi#": [
+        138.847,
+        35.524,
+        4041
+    ],
+    "Katashina [katashina0] |katashina|katashina #Gunma#": [
+        139.225,
+        36.773,
+        3993
+    ],
+    "Toyotomi [toyotomi0] |toyotomi|toyotomi #Hokkaido#": [
+        141.777,
+        45.103,
+        3974
+    ],
+    "Taketomi [taketomi0] |taketomi|taketomi #Okinawa#": [
+        123.819,
+        24.33,
+        3942
+    ],
+    "Noda [noda1] |noda|noda #Iwate#": [
+        141.818,
+        40.11,
+        3936
+    ],
+    "Nagiso [nagiso0] |nagiso|nagiso #Nagano#": [
+        137.609,
+        35.604,
+        3915
+    ],
+    "Mashike [mashike0] |mashike|mashike #Hokkaido#": [
+        141.525,
+        43.856,
+        3908
+    ],
+    "Sakegawa [sakegawa0] |sakegawa|sakegawa #Yamagata#": [
+        140.222,
+        38.796,
+        3902
+    ],
+    "Nakasatsunai [nakasatsunai0] |nakasatsunai|nakasatsunai #Hokkaido#": [
+        143.132,
+        42.698,
+        3884
+    ],
+    "Kiyosato [kiyosato0] |kiyosato|kiyosato #Hokkaido#": [
+        144.595,
+        43.835,
+        3883
+    ],
+    "Kudoyama [kudoyama0] |kudoyama|kudoyama #Wakayama#": [
+        135.562,
+        34.287,
+        3856
+    ],
+    "Kikonai [kikonai0] |kikonai|kikonai #Hokkaido#": [
+        140.438,
+        41.678,
+        3832
+    ],
+    "Toyoura [toyoura0] |toyoura|toyoura #Hokkaido#": [
+        140.712,
+        42.583,
+        3821
+    ],
+    "Fukushima [fukushima1] |fukushima|fukushima #Hokkaido#": [
+        140.251,
+        41.484,
+        3794
+    ],
+    "Shikabe [shikabe0] |shikabe|shikabe #Hokkaido#": [
+        140.816,
+        42.038,
+        3760
+    ],
+    "Tosa [tosa1] |tosa|tosa #Kochi#": [
+        133.535,
+        33.737,
+        3753
+    ],
+    "Minamioguni [minamioguni0] |minamioguni|minamioguni #Kumamoto#": [
+        131.071,
+        33.098,
+        3750
+    ],
+    "Mugi [mugi0] |mugi|mugi #Tokushima#": [
+        134.421,
+        33.668,
+        3743
+    ],
+    "Naraha [naraha0] |naraha|naraha #Fukushima#": [
+        140.993,
+        37.283,
+        3710
+    ],
+    "Geisei [geisei0] |geisei|geisei #Kochi#": [
+        133.809,
+        33.527,
+        3694
+    ],
+    "Tsukigata [tsukigata0] |tsukigata|tsukigata #Hokkaido#": [
+        141.669,
+        43.338,
+        3691
+    ],
+    "Susami [susami0] |susami|susami #Wakayama#": [
+        135.497,
+        33.55,
+        3685
+    ],
+    "Matsuno [matsuno0] |matsuno|matsuno #Ehime#": [
+        132.711,
+        33.227,
+        3674
+    ],
+    "Hinokage [hinokage0] |hinokage|hinokage #Miyazaki#": [
+        131.388,
+        32.654,
+        3635
+    ],
+    "Okoppe [okoppe0] |okoppe|okoppe #Hokkaido#": [
+        143.124,
+        44.47,
+        3628
+    ],
+    "Yunomae [yunomae0] |yunomae|yunomae #Kumamoto#": [
+        130.981,
+        32.276,
+        3627
+    ],
+    "Assabu [assabu0] |assabu|assabu #Hokkaido#": [
+        140.225,
+        41.921,
+        3592
+    ],
+    "Shimojo [shimojo0] |shimojo|shimojo #Nagano#": [
+        137.786,
+        35.397,
+        3545
+    ],
+    "Pippu [pippu0] |pippu|pippu #Hokkaido#": [
+        142.478,
+        43.875,
+        3520
+    ],
+    "Takayama [takayama2] |takayama|takayama #Gunma#": [
+        138.943,
+        36.621,
+        3511
+    ],
+    "Hiezu [hiezu0] |hiezu|hiezu #Tottori#": [
+        133.381,
+        35.44,
+        3501
+    ],
+    "Kamikawa [kamikawa2] |kamikawa|kamikawa #Hokkaido#": [
+        142.77,
+        43.848,
+        3500
+    ],
+    "Kawaba [kawaba0] |kawaba|kawaba #Gunma#": [
+        139.107,
+        36.695,
+        3480
+    ],
+    "Wazuka [wazuka0] |wazuka|wazuka #Kyoto#": [
+        135.905,
+        34.796,
+        3478
+    ],
+    "Gokase [gokase0] |gokase|gokase #Miyazaki#": [
+        131.196,
+        32.683,
+        3472
+    ],
+    "Hamatombetsu [hamatombetsu0] |hamatombetsu|hamatombetsu #Hokkaido#": [
+        142.36,
+        45.124,
+        3448
+    ],
+    "Okuwa [okuwa0] |okuwa|okuwa #Nagano#": [
+        137.665,
+        35.683,
+        3439
+    ],
+    "Otobe [otobe0] |otobe|otobe #Hokkaido#": [
+        140.136,
+        41.969,
+        3403
+    ],
+    "Hichiso [hichiso0] |hichiso|hichiso #Gifu#": [
+        137.12,
+        35.544,
+        3402
+    ],
+    "Bandai [bandai0] |bandai|bandai #Fukushima#": [
+        139.989,
+        37.562,
+        3322
+    ],
+    "Yusuhara [yusuhara0] |yusuhara|yusuhara #Kochi#": [
+        132.927,
+        33.392,
+        3307
+    ],
+    "Nozawaonsen [nozawaonsen0] |nozawaonsen|nozawaonsen #Nagano#": [
+        138.441,
+        36.923,
+        3279
+    ],
+    "Motoyama [motoyama0] |motoyama|motoyama #Kochi#": [
+        133.591,
+        33.757,
+        3261
+    ],
+    "Otoyo [otoyo0] |otoyo|otoyo #Kochi#": [
+        133.664,
+        33.764,
+        3252
+    ],
+    "Kawamoto [kawamoto0] |kawamoto|kawamoto #Shimane#": [
+        132.495,
+        34.994,
+        3248
+    ],
+    "Minamimaki [minamimaki0] |minamimaki|minamimaki #Nagano#": [
+        138.492,
+        36.021,
+        3242
+    ],
+    "Yamae [yamae0] |yamae|yamae #Kumamoto#": [
+        130.767,
+        32.247,
+        3238
+    ],
+    "Yamazoe [yamazoe0] |yamazoe|yamazoe #Nara#": [
+        136.044,
+        34.681,
+        3226
+    ],
+    "Wassamu [wassamu0] |wassamu|wassamu #Hokkaido#": [
+        142.413,
+        44.023,
+        3192
+    ],
+    "Niki [niki0] |niki|niki #Hokkaido#": [
+        140.766,
+        43.152,
+        3180
+    ],
+    "Funahashi [funahashi0] |funahashi|funahashi #Toyama#": [
+        137.307,
+        36.704,
+        3132
+    ],
+    "Shimokawa [shimokawa0] |shimokawa|shimokawa #Hokkaido#": [
+        142.635,
+        44.303,
+        3126
+    ],
+    "Naoshima [naoshima0] |naoshima|naoshima #Kagawa#": [
+        133.996,
+        34.46,
+        3103
+    ],
+    "Ogimi [ogimi0] |ogimi|ogimi #Okinawa#": [
+        128.183,
+        26.7,
+        3092
+    ],
+    "Yanaizu [yanaizu0] |yanaizu|yanaizu #Fukushima#": [
+        139.72,
+        37.526,
+        3081
+    ],
+    "Yugawa [yugawa0] |yugawa|yugawa #Fukushima#": [
+        139.887,
+        37.566,
+        3081
+    ],
+    "Sarabetsu [sarabetsu0] |sarabetsu|sarabetsu #Hokkaido#": [
+        143.188,
+        42.65,
+        3080
+    ],
+    "Totsukawa [totsukawa0] |totsukawa|totsukawa #Nara#": [
+        135.793,
+        33.989,
+        3061
+    ],
+    "Tanohata [tanohata0] |tanohata|tanohata #Iwate#": [
+        141.889,
+        39.93,
+        3059
+    ],
+    "Abu [abu0] |abu|abu #Yamaguchi#": [
+        131.471,
+        34.504,
+        3055
+    ],
+    "Samegawa [samegawa0] |samegawa|samegawa #Fukushima#": [
+        140.51,
+        37.042,
+        3049
+    ],
+    "Shinshinotsu [shinshinotsu0] |shinshinotsu|shinshinotsu #Hokkaido#": [
+        141.649,
+        43.225,
+        3044
+    ],
+    "Kiyokawa [kiyokawa0] |kiyokawa|kiyokawa #Kanagawa#": [
+        139.276,
+        35.482,
+        3038
+    ],
+    "Nahari [nahari0] |nahari|nahari #Kochi#": [
+        134.021,
+        33.424,
+        3034
+    ],
+    "Okura [okura0] |okura|okura #Yamagata#": [
+        140.23,
+        38.704,
+        3028
+    ],
+    "Toyokoro [toyokoro0] |toyokoro|toyokoro #Hokkaido#": [
+        143.506,
+        42.801,
+        3022
+    ],
+    "Ogata [ogata0] |ogata|ogata #Akita#": [
+        139.96,
+        40.018,
+        3011
+    ],
+    "Obira [obira0] |obira|obira #Hokkaido#": [
+        141.663,
+        44.015,
+        2994
+    ],
+    "Utashinai [utashinai0] |utashinai|utashinai #Hokkaido#": [
+        142.035,
+        43.521,
+        2989
+    ],
+    "Koya [koya0] |koya|koya #Wakayama#": [
+        135.587,
+        34.216,
+        2970
+    ],
+    "Teshio [teshio0] |teshio|teshio #Hokkaido#": [
+        141.745,
+        44.888,
+        2950
+    ],
+    "Toei [toei0] |toei|toei #Aichi#": [
+        137.698,
+        35.077,
+        2942
+    ],
+    "Kyogoku [kyogoku0] |kyogoku|kyogoku #Hokkaido#": [
+        140.884,
+        42.858,
+        2941
+    ],
+    "Tomamae [tomamae0] |tomamae|tomamae #Hokkaido#": [
+        141.653,
+        44.306,
+        2936
+    ],
+    "Ogasawara [ogasawara0] |ogasawara|ogasawara #Tokyo#": [
+        142.192,
+        27.094,
+        2929
+    ],
+    "Kembuchi [kembuchi0] |kembuchi|kembuchi #Hokkaido#": [
+        142.361,
+        44.096,
+        2926
+    ],
+    "Numata [numata1] |numata|numata #Hokkaido#": [
+        141.934,
+        43.807,
+        2909
+    ],
+    "Hino [hino2] |hino|hino #Tottori#": [
+        133.443,
+        35.241,
+        2907
+    ],
+    "Fujisato [fujisato0] |fujisato|fujisato #Akita#": [
+        140.262,
+        40.278,
+        2896
+    ],
+    "Wakasa [wakasa1] |wakasa|wakasa #Tottori#": [
+        134.401,
+        35.34,
+        2864
+    ],
+    "Kamisunagawa [kamisunagawa0] |kamisunagawa|kamisunagawa #Hokkaido#": [
+        141.984,
+        43.483,
+        2841
+    ],
+    "Suttsu [suttsu0] |suttsu|suttsu #Hokkaido#": [
+        140.229,
+        42.791,
+        2838
+    ],
+    "Narusawa [narusawa0] |narusawa|narusawa #Yamanashi#": [
+        138.706,
+        35.481,
+        2824
+    ],
+    "Kuromatsunai [kuromatsunai0] |kuromatsunai|kuromatsunai #Hokkaido#": [
+        140.308,
+        42.668,
+        2791
+    ],
+    "Taiji [taiji0] |taiji|taiji #Wakayama#": [
+        135.944,
+        33.594,
+        2791
+    ],
+    "Nishinoshima [nishinoshima0] |nishinoshima|nishinoshima #Shimane#": [
+        132.994,
+        36.093,
+        2788
+    ],
+    "Oketo [oketo0] |oketo|oketo #Hokkaido#": [
+        143.586,
+        43.676,
+        2775
+    ],
+    "Aka [aka0] |aka|aka #Fukuoka#": [
+        130.871,
+        33.617,
+        2774
+    ],
+    "Furubira [furubira0] |furubira|furubira #Hokkaido#": [
+        140.639,
+        43.265,
+        2745
+    ],
+    "Sobetsu [sobetsu0] |sobetsu|sobetsu #Hokkaido#": [
+        140.886,
+        42.552,
+        2743
+    ],
+    "Higashichichibu [higashichichibu0] |higashichichibu|higashichichibu #Saitama#": [
+        139.195,
+        36.058,
+        2709
+    ],
+    "Higashinaruse [higashinaruse0] |higashinaruse|higashinaruse #Akita#": [
+        140.649,
+        39.179,
+        2704
+    ],
+    "Moseushi [moseushi0] |moseushi|moseushi #Hokkaido#": [
+        141.962,
+        43.7,
+        2693
+    ],
+    "Kiso [kiso1] |kiso|kiso #Nagano#": [
+        137.766,
+        35.993,
+        2692
+    ],
+    "Kofu [kofu1] |kofu|kofu #Tottori#": [
+        133.489,
+        35.283,
+        2672
+    ],
+    "Otari [otari0] |otari|otari #Nagano#": [
+        137.908,
+        36.779,
+        2647
+    ],
+    "Sarufutsu [sarufutsu0] |sarufutsu|sarufutsu #Hokkaido#": [
+        142.109,
+        45.331,
+        2611
+    ],
+    "Aibetsu [aibetsu0] |aibetsu|aibetsu #Hokkaido#": [
+        142.578,
+        43.907,
+        2605
+    ],
+    "Omi [omi0] |omi|omi #Nagano#": [
+        138.045,
+        36.456,
+        2593
+    ],
+    "Tsurui [tsurui0] |tsurui|tsurui #Hokkaido#": [
+        144.321,
+        43.23,
+        2558
+    ],
+    "Kitashiobara [kitashiobara0] |kitashiobara|kitashiobara #Fukushima#": [
+        139.937,
+        37.656,
+        2556
+    ],
+    "Yomogita [yomogita0] |yomogita|yomogita #Aomori#": [
+        140.656,
+        40.972,
+        2540
+    ],
+    "Enbetsu [enbetsu0] |enbetsu|enbetsu #Hokkaido#": [
+        141.792,
+        44.722,
+        2520
+    ],
+    "Rebun [rebun0] |rebun|rebun #Hokkaido#": [
+        141.048,
+        45.303,
+        2509
+    ],
+    "Shiba [shiba0] |shiba|shiba #Miyazaki#": [
+        131.158,
+        32.467,
+        2503
+    ],
+    "Tano [tano0] |tano|tano #Kochi#": [
+        134.008,
+        33.428,
+        2498
+    ],
+    "Fudai [fudai0] |fudai|fudai #Iwate#": [
+        141.886,
+        40.005,
+        2487
+    ],
+    "Kozagawa [kozagawa0] |kozagawa|kozagawa #Wakayama#": [
+        135.815,
+        33.532,
+        2480
+    ],
+    "Rishirifuji [rishirifuji0] |rishirifuji|rishirifuji #Hokkaido#": [
+        141.214,
+        45.248,
+        2458
+    ],
+    "Niijima [niijima0] |niijima|niijima #Tokyo#": [
+        139.257,
+        34.377,
+        2441
+    ],
+    "Kuma [kuma0] |kuma|kuma #Kumamoto#": [
+        130.651,
+        32.253,
+        2433
+    ],
+    "Ikeda [ikeda4] |ikeda|ikeda #Fukui#": [
+        136.344,
+        35.89,
+        2423
+    ],
+    "Takinoue [takinoue0] |takinoue|takinoue #Hokkaido#": [
+        143.0,
+        44.0,
+        2421
+    ],
+    "Okushiri [okushiri0] |okushiri|okushiri #Hokkaido#": [
+        139.514,
+        42.172,
+        2410
+    ],
+    "Minamiyamashiro [minamiyamashiro0] |minamiyamashiro|minamiyamashiro #Kyoto#": [
+        135.994,
+        34.773,
+        2391
+    ],
+    "Uryu [uryu0] |uryu|uryu #Hokkaido#": [
+        141.889,
+        43.644,
+        2389
+    ],
+    "Minamifurano [minamifurano0] |minamifurano|minamifurano #Hokkaido#": [
+        142.569,
+        43.164,
+        2376
+    ],
+    "Horonobe [horonobe0] |horonobe|horonobe #Hokkaido#": [
+        141.849,
+        45.018,
+        2371
+    ],
+    "Yasuda [yasuda0] |yasuda|yasuda #Kochi#": [
+        133.981,
+        33.439,
+        2370
+    ],
+    "Kaminoseki [kaminoseki0] |kaminoseki|kaminoseki #Yamaguchi#": [
+        132.111,
+        33.831,
+        2342
+    ],
+    "Imabetsu [imabetsu0] |imabetsu|imabetsu #Aomori#": [
+        140.482,
+        41.182,
+        2334
+    ],
+    "Chippubetsu [chippubetsu0] |chippubetsu|chippubetsu #Hokkaido#": [
+        141.958,
+        43.767,
+        2329
+    ],
+    "Ojika [ojika0] |ojika|ojika #Nagasaki#": [
+        129.059,
+        33.191,
+        2288
+    ],
+    "Miyake [miyake1] |miyake|miyake #Tokyo#": [
+        139.559,
+        34.08,
+        2273
+    ],
+    "Ama [ama1] |ama|ama #Shimane#": [
+        133.097,
+        36.097,
+        2267
+    ],
+    "Rikubetsu [rikubetsu0] |rikubetsu|rikubetsu #Hokkaido#": [
+        143.747,
+        43.469,
+        2264
+    ],
+    "Ogawa [ogawa1] |ogawa|ogawa #Nagano#": [
+        137.975,
+        36.617,
+        2215
+    ],
+    "Shingo [shingo0] |shingo|shingo #Aomori#": [
+        141.173,
+        40.466,
+        2197
+    ],
+    "Toyo [toyo0] |toyo|toyo #Kochi#": [
+        134.28,
+        33.528,
+        2194
+    ],
+    "Kimobetsu [kimobetsu0] |kimobetsu|kimobetsu #Hokkaido#": [
+        140.934,
+        42.795,
+        2156
+    ],
+    "Tomioka [tomioka1] |tomioka|tomioka #Fukushima#": [
+        141.009,
+        37.346,
+        2128
+    ],
+    "Kamikoani [kamikoani0] |kamikoani|kamikoani #Akita#": [
+        140.296,
+        40.063,
+        2063
+    ],
+    "Sanagochi [sanagochi0] |sanagochi|sanagochi #Tokushima#": [
+        134.453,
+        33.993,
+        2058
+    ],
+    "Makkari [makkari0] |makkari|makkari #Hokkaido#": [
+        140.803,
+        42.763,
+        2045
+    ],
+    "Kawauchi [kawauchi0] |kawauchi|kawauchi #Fukushima#": [
+        140.809,
+        37.338,
+        2044
+    ],
+    "Mizukami [mizukami0] |mizukami|mizukami #Kumamoto#": [
+        131.046,
+        32.321,
+        2033
+    ],
+    "Higashishirakawa [higashishirakawa0] |higashishirakawa|higashishirakawa #Gifu#": [
+        137.324,
+        35.643,
+        2016
+    ],
+    "Rishiri [rishiri0] |rishiri|rishiri #Hokkaido#": [
+        141.139,
+        45.187,
+        2004
+    ],
+    "Hinohara [hinohara0] |hinohara|hinohara #Tokyo#": [
+        139.149,
+        35.727,
+        2003
+    ],
+    "Ine [ine0] |ine|ine #Kyoto#": [
+        135.273,
+        35.675,
+        1928
+    ],
+    "Namie [namie0] |namie|namie #Fukushima#": [
+        140.994,
+        37.493,
+        1923
+    ],
+    "Rusutsu [rusutsu0] |rusutsu|rusutsu #Hokkaido#": [
+        140.875,
+        42.737,
+        1911
+    ],
+    "Toho [toho0] |toho|toho #Fukuoka#": [
+        130.826,
+        33.464,
+        1899
+    ],
+    "Kaneyama [kaneyama1] |kaneyama|kaneyama #Fukushima#": [
+        139.524,
+        37.454,
+        1862
+    ],
+    "Kozushima [kozushima0] |kozushima|kozushima #Tokyo#": [
+        139.134,
+        34.205,
+        1855
+    ],
+    "Shakotan [shakotan0] |shakotan|shakotan #Hokkaido#": [
+        140.598,
+        43.299,
+        1831
+    ],
+    "Sai [sai0] |sai|sai #Aomori#": [
+        140.859,
+        41.43,
+        1788
+    ],
+    "Urausu [urausu0] |urausu|urausu #Hokkaido#": [
+        141.819,
+        43.43,
+        1732
+    ],
+    "Himeshima [himeshima0] |himeshima|himeshima #Oita#": [
+        131.646,
+        33.724,
+        1725
+    ],
+    "Hokuryu [hokuryu0] |hokuryu|hokuryu #Hokkaido#": [
+        141.879,
+        43.731,
+        1724
+    ],
+    "Yonaguni [yonaguni0] |yonaguni|yonaguni #Okinawa#": [
+        123.005,
+        24.468,
+        1676
+    ],
+    "Sakae [sakae1] |sakae|sakae #Nagano#": [
+        138.577,
+        36.988,
+        1660
+    ],
+    "Kanna [kanna0] |kanna|kanna #Gunma#": [
+        138.917,
+        36.116,
+        1645
+    ],
+    "Ikusaka [ikusaka0] |ikusaka|ikusaka #Nagano#": [
+        137.927,
+        36.425,
+        1639
+    ],
+    "Nakatombetsu [nakatombetsu0] |nakatombetsu|nakatombetsu #Hokkaido#": [
+        142.287,
+        44.97,
+        1637
+    ],
+    "Kazamaura [kazamaura0] |kazamaura|kazamaura #Aomori#": [
+        140.996,
+        41.488,
+        1636
+    ],
+    "Uken [uken0] |uken|uken #Kagoshima#": [
+        129.297,
+        28.281,
+        1621
+    ],
+    "Nanmoku [nanmoku0] |nanmoku|nanmoku #Gunma#": [
+        138.711,
+        36.159,
+        1611
+    ],
+    "Doshi [doshi0] |doshi|doshi #Yamanashi#": [
+        139.033,
+        35.528,
+        1607
+    ],
+    "Higashi [higashi0] |higashi|higashi #Okinawa#": [
+        128.157,
+        26.633,
+        1598
+    ],
+    "Tomari [tomari0] |tomari|tomari #Hokkaido#": [
+        140.499,
+        43.063,
+        1569
+    ],
+    "Yasuoka [yasuoka0] |yasuoka|yasuoka #Nagano#": [
+        137.846,
+        35.378,
+        1542
+    ],
+    "Nakagawa [nakagawa3] |nakagawa|nakagawa #Hokkaido#": [
+        142.071,
+        44.811,
+        1528
+    ],
+    "Shirakawa [shirakawa2] |shirakawa|shirakawa #Gifu#": [
+        136.9,
+        36.272,
+        1511
+    ],
+    "Higashiyoshino [higashiyoshino0] |higashiyoshino|higashiyoshino #Nara#": [
+        135.968,
+        34.404,
+        1502
+    ],
+    "Morotsuka [morotsuka0] |morotsuka|morotsuka #Miyazaki#": [
+        131.33,
+        32.512,
+        1486
+    ],
+    "Mitsue [mitsue0] |mitsue|mitsue #Nara#": [
+        136.166,
+        34.488,
+        1479
+    ],
+    "Mishima [mishima1] |mishima|mishima #Fukushima#": [
+        139.644,
+        37.47,
+        1452
+    ],
+    "Mihara [mihara1] |mihara|mihara #Kochi#": [
+        132.847,
+        32.906,
+        1437
+    ],
+    "Nishiawakura [nishiawakura0] |nishiawakura|nishiawakura #Okayama#": [
+        134.336,
+        35.171,
+        1398
+    ],
+    "Ubuyama [ubuyama0] |ubuyama|ubuyama #Kumamoto#": [
+        131.217,
+        32.996,
+        1382
+    ],
+    "Kamikatsu [kamikatsu0] |kamikatsu|kamikatsu #Tokushima#": [
+        134.402,
+        33.889,
+        1380
+    ],
+    "Horokanai [horokanai0] |horokanai|horokanai #Hokkaido#": [
+        142.154,
+        44.01,
+        1370
+    ],
+    "Yamato [yamato2] |yamato|yamato #Kagoshima#": [
+        129.395,
+        28.358,
+        1364
+    ],
+    "Shimamaki [shimamaki0] |shimamaki|shimamaki #Hokkaido#": [
+        140.061,
+        42.701,
+        1356
+    ],
+    "Izena [izena0] |izena|izena #Okinawa#": [
+        127.941,
+        26.928,
+        1322
+    ],
+    "Iitate [iitate0] |iitate|iitate #Fukushima#": [
+        140.735,
+        37.679,
+        1318
+    ],
+    "Shimukappu [shimukappu0] |shimukappu|shimukappu #Hokkaido#": [
+        142.398,
+        42.98,
+        1306
+    ],
+    "Soni [soni0] |soni|soni #Nara#": [
+        136.124,
+        34.511,
+        1295
+    ],
+    "Minamidaito [minamidaito0] |minamidaito|minamidaito #Okinawa#": [
+        131.232,
+        25.829,
+        1285
+    ],
+    "Nishimeya [nishimeya0] |nishimeya|nishimeya #Aomori#": [
+        140.296,
+        40.577,
+        1265
+    ],
+    "Shichikashuku [shichikashuku0] |shichikashuku|shichikashuku #Miyagi#": [
+        140.442,
+        37.993,
+        1262
+    ],
+    "Showa [showa2] |showa|showa #Fukushima#": [
+        139.611,
+        37.335,
+        1246
+    ],
+    "Tenryu [tenryu0] |tenryu|tenryu #Nagano#": [
+        137.854,
+        35.276,
+        1178
+    ],
+    "Tenkawa [tenkawa0] |tenkawa|tenkawa #Nara#": [
+        135.855,
+        34.242,
+        1176
+    ],
+    "Akaigawa [akaigawa0] |akaigawa|akaigawa #Hokkaido#": [
+        140.813,
+        43.083,
+        1165
+    ],
+    "Kawakami [kawakami1] |kawakami|kawakami #Nara#": [
+        135.954,
+        34.338,
+        1156
+    ],
+    "Kitagawa [kitagawa0] |kitagawa|kitagawa #Kochi#": [
+        134.042,
+        33.448,
+        1146
+    ],
+    "Kasagi [kasagi0] |kasagi|kasagi #Kyoto#": [
+        135.939,
+        34.76,
+        1144
+    ],
+    "Ueno [ueno0] |ueno|ueno #Gunma#": [
+        138.777,
+        36.083,
+        1128
+    ],
+    "Iheya [iheya0] |iheya|iheya #Okinawa#": [
+        127.969,
+        27.039,
+        1126
+    ],
+    "Hayakawa [hayakawa0] |hayakawa|hayakawa #Yamanashi#": [
+        138.363,
+        35.413,
+        1098
+    ],
+    "Shosambetsu [shosambetsu0] |shosambetsu|shosambetsu #Hokkaido#": [
+        141.766,
+        44.532,
+        1080
+    ],
+    "Tarama [tarama0] |tarama|tarama #Okinawa#": [
+        124.702,
+        24.669,
+        1058
+    ],
+    "Nishiokoppe [nishiokoppe0] |nishiokoppe|nishiokoppe #Hokkaido#": [
+        142.945,
+        44.329,
+        1053
+    ],
+    "Oshika [oshika0] |oshika|oshika #Nagano#": [
+        138.034,
+        35.578,
+        1023
+    ],
+    "Toyone [toyone0] |toyone|toyone #Aichi#": [
+        137.72,
+        35.147,
+        1017
+    ],
+    "Nishimera [nishimera0] |nishimera|nishimera #Miyazaki#": [
+        131.154,
+        32.226,
+        1000
+    ],
+    "Minamiaiki [minamiaiki0] |minamiaiki|minamiaiki #Nagano#": [
+        138.547,
+        36.036,
+        962
+    ],
+    "Itsuki [itsuki0] |itsuki|itsuki #Kumamoto#": [
+        130.828,
+        32.398,
+        931
+    ],
+    "Zamami [zamami0] |zamami|zamami #Okinawa#": [
+        127.303,
+        26.229,
+        892
+    ],
+    "Kamoenai [kamoenai0] |kamoenai|kamoenai #Hokkaido#": [
+        140.431,
+        43.144,
+        870
+    ],
+    "Neba [neba0] |neba|neba #Nagano#": [
+        137.581,
+        35.253,
+        852
+    ],
+    "Okuma [okuma0] |okuma|okuma #Fukushima#": [
+        140.983,
+        37.404,
+        847
+    ],
+    "Shinjo [shinjo1] |shinjo|shinjo #Okayama#": [
+        133.568,
+        35.179,
+        813
+    ],
+    "Shimokitayama [shimokitayama0] |shimokitayama|shimokitayama #Nara#": [
+        135.955,
+        34.005,
+        753
+    ],
+    "Kitaaiki [kitaaiki0] |kitaaiki|kitaaiki #Nagano#": [
+        138.551,
+        36.059,
+        752
+    ],
+    "Umaji [umaji0] |umaji|umaji #Kochi#": [
+        134.048,
+        33.555,
+        745
+    ],
+    "Toshima [toshima0] |toshima|toshima #Kagoshima#": [
+        129.868,
+        29.838,
+        740
+    ],
+    "Tokashiki [tokashiki0] |tokashiki|tokashiki #Okinawa#": [
+        127.364,
+        26.197,
+        718
+    ],
+    "Otaki [otaki1] |otaki|otaki #Nagano#": [
+        137.551,
+        35.809,
+        715
+    ],
+    "Otoineppu [otoineppu0] |otoineppu|otoineppu #Hokkaido#": [
+        142.262,
+        44.725,
+        706
+    ],
+    "Kosuge [kosuge0] |kosuge|kosuge #Yamanashi#": [
+        138.94,
+        35.76,
+        684
+    ],
+    "Aguni [aguni0] |aguni|aguni #Okinawa#": [
+        127.227,
+        26.582,
+        683
+    ],
+    "Chibu [chibu0] |chibu|chibu #Shimane#": [
+        133.039,
+        36.014,
+        634
+    ],
+    "Kurotaki [kurotaki0] |kurotaki|kurotaki #Nara#": [
+        135.852,
+        34.309,
+        623
+    ],
+    "Kitadaito [kitadaito0] |kitadaito|kitadaito #Okinawa#": [
+        131.299,
+        25.946,
+        590
+    ],
+    "Urugi [urugi0] |urugi|urugi #Nagano#": [
+        137.711,
+        35.271,
+        548
+    ],
+    "Tabayama [tabayama0] |tabayama|tabayama #Yamanashi#": [
+        138.922,
+        35.79,
+        530
+    ],
+    "Hinoemata [hinoemata0] |hinoemata|hinoemata #Fukushima#": [
+        139.389,
+        37.024,
+        504
+    ],
+    "Kamikitayama [kamikitayama0] |kamikitayama|kamikitayama #Nara#": [
+        136.0,
+        34.134,
+        444
+    ],
+    "Katsurao [katsurao0] |katsurao|katsurao #Fukushima#": [
+        140.764,
+        37.504,
+        420
+    ],
+    "Mishima [mishima2] |mishima|mishima #Kagoshima#": [
+        130.304,
+        30.792,
+        405
+    ],
+    "Kitayama [kitayama0] |kitayama|kitayama #Wakayama#": [
+        135.969,
+        33.932,
+        404
+    ],
+    "Hiraya [hiraya0] |hiraya|hiraya #Nagano#": [
+        137.63,
+        35.323,
+        387
+    ],
+    "Okawa [okawa1] |okawa|okawa #Kochi#": [
+        133.467,
+        33.784,
+        366
+    ],
+    "Nosegawa [nosegawa0] |nosegawa|nosegawa #Nara#": [
+        135.633,
+        34.166,
+        357
+    ],
+    "Awashimaura [awashimaura0] |awashimaura|awashimaura #Niigata#": [
+        139.254,
+        38.468,
+        353
+    ],
+    "Tonaki [tonaki0] |tonaki|tonaki #Okinawa#": [
+        127.141,
+        26.372,
+        346
+    ],
+    "Toshima [toshima1] |toshima|toshima #Tokyo#": [
+        139.281,
+        34.53,
+        327
+    ],
+    "Mikurajima [mikurajima0] |mikurajima|mikurajima #Tokyo#": [
+        139.596,
+        33.897,
+        323
+    ],
+    "Aogashima [aogashima0] |aogashima|aogashima #Tokyo#": [
+        139.763,
+        32.466,
+        169
+    ],
+    "Futaba [futaba0] |futaba|futaba #Fukushima#": [
+        141.012,
+        37.449,
+        0
+    ]
+}

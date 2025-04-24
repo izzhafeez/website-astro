@@ -1,0 +1,979 @@
+Warsaw;Mazowieckie;warsaw;warsaw;1861599;warsaw0;52.238;21.018;1;1
+Krakow;Malopolskie;krakow;krakow;806201;krakow0;50.061;19.938;1;2
+Wroclaw;Dolnoslaskie;wroclaw;wroclaw;673743;wroclaw0;51.11;17.031;1;3
+Lodz;Lodzkie;lodz;lodz;652015;lodz0;51.771;19.466;1;4
+Poznan;Wielkopolskie;poznan;poznan;538439;poznan0;52.408;16.934;1;5
+Gdansk;Pomorskie;gdansk;gdansk;487371;gdansk0;54.35;18.653;1;6
+Szczecin;Zachodniopomorskie;szczecin;szczecin;389066;szczecin0;53.426;14.555;1;7
+Lublin;Lubelskie;lublin;lublin;329565;lublin0;51.249;22.569;1;8
+Bydgoszcz;Kujawsko-Pomorskie;bydgoszcz;bydgoszcz;326434;bydgoszcz0;53.125;18.003;1;9
+Bialystok;Podlaskie;bialystok;bialystok;291688;bialystok0;53.131;23.169;1;10
+Katowice;Slaskie;katowice;katowice;279190;katowice0;50.26;19.013;1;11
+Gdynia;Pomorskie;gdynia;gdynia;241189;gdynia0;54.523;18.543;2;12
+Czestochowa;Slaskie;czestochowa;czestochowa;205969;czestochowa0;50.812;19.128;2;13
+Rzeszow;Podkarpackie;rzeszow;rzeszow;197268;rzeszow0;50.038;22.005;1;14
+Radom;Mazowieckie;radom;radom;196005;radom0;51.401;21.158;2;15
+Torun;Kujawsko-Pomorskie;torun;torun;194771;torun0;53.01;18.605;2;16
+Sosnowiec;Slaskie;sosnowiec;sosnowiec;187115;sosnowiec0;50.275;19.128;3;17
+Kielce;Swietokrzyskie;kielce;kielce;182295;kielce0;50.872;20.632;1;18
+Gliwice;Slaskie;gliwice;gliwice;169915;gliwice0;50.294;18.666;4;19
+Olsztyn;Warminsko-Mazurskie;olsztyn;olsztyn;167311;olsztyn0;53.777;20.476;1;20
+Bielsko-Biala;Slaskie;bielskobiala;bielskobiala;165766;bielskobiala0;49.823;19.051;5;21
+Zabrze;Slaskie;zabrze;zabrze;153838;zabrze0;50.302;18.785;6;22
+Bytom;Slaskie;bytom;bytom;147759;bytom0;50.347;18.924;7;23
+Zielona Gora;Lubuskie;zielonagora;zielonagora;138932;zielonagora0;51.938;15.505;1;24
+Rybnik;Slaskie;rybnik;rybnik;130887;rybnik0;50.096;18.542;8;25
+Ruda Slaska;Slaskie;rudaslaska;rudaslaska;130302;rudaslaska0;50.273;18.864;9;26
+Opole;Opolskie;opole;opole;126077;opole0;50.668;17.929;1;27
+Tychy;Slaskie;tychy;tychy;122045;tychy0;50.108;19.002;10;28
+Gorzow Wielkopolski;Lubuskie;gorzowwielkopolski;gorzowwielkopolski;115247;gorzowwielkopolski0;52.731;15.24;2;29
+Dabrowa Gornicza;Slaskie;dabrowagornicza;dabrowagornicza;113460;dabrowagornicza0;50.323;19.184;11;30
+Elblag;Warminsko-Mazurskie;elblag;elblag;112923;elblag0;54.162;19.408;2;31
+Plock;Mazowieckie;plock;plock;111190;plock0;52.545;19.685;3;32
+Koszalin;Zachodniopomorskie;koszalin;koszalin;105540;koszalin0;54.19;16.177;2;33
+Tarnow;Malopolskie;tarnow;tarnow;103129;tarnow0;50.013;20.989;2;34
+Wloclawek;Kujawsko-Pomorskie;wloclawek;wloclawek;100807;wloclawek0;52.655;19.066;3;35
+Chorzow;Slaskie;chorzow;chorzow;100593;chorzow0;50.297;18.951;12;36
+Walbrzych;Dolnoslaskie;walbrzych;walbrzych;100294;walbrzych0;50.766;16.283;2;37
+Kalisz;Wielkopolskie;kalisz;kalisz;93137;kalisz0;51.762;18.089;2;38
+Legnica;Dolnoslaskie;legnica;legnica;91948;legnica0;51.208;16.161;3;39
+Grudziadz;Kujawsko-Pomorskie;grudziadz;grudziadz;88658;grudziadz0;53.491;18.753;4;40
+Jaworzno;Slaskie;jaworzno;jaworzno;86812;jaworzno0;50.203;19.276;13;41
+Slupsk;Pomorskie;slupsk;slupsk;85504;slupsk0;54.466;17.031;3;42
+Jastrzebie-Zdroj;Slaskie;jastrzebiezdroj;jastrzebiezdroj;82301;jastrzebiezdroj0;49.955;18.577;14;43
+Nowy Sacz;Malopolskie;nowysacz;nowysacz;80358;nowysacz0;49.625;20.691;3;44
+Siedlce;Mazowieckie;siedlce;siedlce;75297;siedlce0;52.168;22.282;4;45
+Jelenia Gora;Dolnoslaskie;jeleniagora;jeleniagora;75124;jeleniagora0;50.903;15.734;4;46
+Myslowice;Slaskie;myslowice;myslowice;71280;myslowice0;50.241;19.141;15;47
+Pila;Wielkopolskie;pila;pila;70054;pila0;53.156;16.738;3;48
+Ostrow Wielkopolski;Wielkopolskie;ostrowwielkopolski;ostrowwielkopolski;69260;ostrowwielkopolski0;51.65;17.816;4;49
+Suwalki;Podlaskie;suwalki;suwalki;68231;suwalki0;54.104;22.935;2;50
+Lubin;Dolnoslaskie;lubin;lubin;67620;lubin0;51.397;16.206;5;51
+Inowroclaw;Kujawsko-Pomorskie;inowroclaw;inowroclaw;67378;inowroclaw0;52.795;18.26;5;52
+Konin;Wielkopolskie;konin;konin;67066;konin0;52.228;18.251;5;53
+Stargard Szczecinski;Zachodniopomorskie;stargard;stargard;66604;stargard0;53.339;15.045;3;54
+Piotrkow Trybunalski;Lodzkie;piotrkowtrybunalski;piotrkowtrybunalski;66519;piotrkowtrybunalski0;51.409;19.69;2;55
+Pruszkow;Mazowieckie;pruszkow;pruszkow;65461;pruszkow0;52.163;20.809;5;56
+Gniezno;Wielkopolskie;gniezno;gniezno;63549;gniezno0;52.536;17.596;6;57
+Siemianowice Slaskie;Slaskie;siemianowiceslaskie;siemianowiceslaskie;63401;siemianowiceslaskie0;50.302;19.033;16;58
+Ostrowiec Swietokrzyski;Swietokrzyskie;ostrowiecswietokrzyski;ostrowiecswietokrzyski;62093;ostrowiecswietokrzyski0;50.94;21.388;2;59
+Glogow;Dolnoslaskie;glogow;glogow;62049;glogow0;51.663;16.093;6;60
+Zory;Slaskie;zory;zory;61774;zory0;50.045;18.694;17;61
+Tarnowskie Gory;Slaskie;tarnowskiegory;tarnowskiegory;61321;tarnowskiegory0;50.444;18.856;18;62
+Pabianice;Lodzkie;pabianice;pabianice;60598;pabianice0;51.663;19.363;3;63
+Leszno;Wielkopolskie;leszno;leszno;60051;leszno0;51.844;16.574;7;64
+Elk;Warminsko-Mazurskie;elk;elk;59759;elk0;53.825;22.351;3;65
+Lomza;Podlaskie;lomza;lomza;59711;lomza0;53.179;22.081;3;66
+Zamosc;Lubelskie;zamosc;zamosc;58231;zamosc0;50.723;23.264;2;67
+Tomaszow Mazowiecki;Lodzkie;tomaszowmazowiecki;tomaszowmazowiecki;57438;tomaszowmazowiecki0;51.531;20.006;4;68
+Chelm;Lubelskie;chelm;chelm;57214;chelm0;51.133;23.474;3;69
+Mielec;Podkarpackie;mielec;mielec;56972;mielec0;50.287;21.422;2;70
+Tczew;Pomorskie;tczew;tczew;56936;tczew0;54.087;18.8;4;71
+Przemysl;Podkarpackie;przemysl;przemysl;56050;przemysl0;49.782;22.773;3;72
+Stalowa Wola;Podkarpackie;stalowawola;stalowawola;55127;stalowawola0;50.576;22.061;4;73
+Biala Podlaska;Lubelskie;bialapodlaska;bialapodlaska;54453;bialapodlaska0;52.034;23.119;4;74
+Kedzierzyn-Kozle;Opolskie;kedzierzynkozle;kedzierzynkozle;54387;kedzierzynkozle0;50.344;18.211;2;75
+Bedzin;Slaskie;bedzin;bedzin;53848;bedzin0;50.322;19.131;19;76
+Zgierz;Lodzkie;zgierz;zgierz;53543;zgierz0;51.855;19.408;5;77
+Rumia;Pomorskie;rumia;rumia;53316;rumia0;54.569;18.391;5;78
+Swidnica;Dolnoslaskie;swidnica;swidnica;52874;swidnica0;50.843;16.488;7;79
+Legionowo;Mazowieckie;legionowo;legionowo;52630;legionowo0;52.4;20.938;6;80
+Belchatow;Lodzkie;belchatow;belchatow;52331;belchatow0;51.363;19.378;6;81
+Piaseczno;Mazowieckie;piaseczno;piaseczno;51971;piaseczno0;52.075;21.028;7;82
+Piekary Slaskie;Slaskie;piekaryslaskie;piekaryslaskie;51707;piekaryslaskie0;50.378;18.945;20;83
+Raciborz;Slaskie;raciborz;raciborz;49650;raciborz0;50.092;18.22;21;84
+Ostroleka;Mazowieckie;ostroleka;ostroleka;48229;ostroleka0;53.082;21.572;8;85
+Zawiercie;Slaskie;zawiercie;zawiercie;46106;zawiercie0;50.486;19.417;22;86
+Wejherowo;Pomorskie;wejherowo;wejherowo;46097;wejherowo0;54.602;18.239;6;87
+Swietochlowice;Slaskie;swietochlowice;swietochlowice;45434;swietochlowice0;50.291;18.916;23;88
+Marki;Mazowieckie;marki;marki;45365;marki0;52.321;21.105;9;89
+Zabki;Mazowieckie;zabki;zabki;45347;zabki0;52.291;21.112;10;90
+Starogard Gdanski;Pomorskie;starogardgdanski;starogardgdanski;45295;starogardgdanski0;53.967;18.532;7;91
+Skierniewice;Lodzkie;skierniewice;skierniewice;45184;skierniewice0;51.957;20.142;7;92
+Wodzislaw Slaski;Slaskie;wodzislawslaski;wodzislawslaski;44833;wodzislawslaski0;50.003;18.463;24;93
+Starachowice;Swietokrzyskie;starachowice;starachowice;44416;starachowice0;51.041;21.084;3;94
+Krosno;Podkarpackie;krosno;krosno;44060;krosno0;49.694;21.765;5;95
+Otwock;Mazowieckie;otwock;otwock;43895;otwock0;52.107;21.262;11;96
+Pulawy;Lubelskie;pulawy;pulawy;43860;pulawy0;51.417;21.972;5;97
+Tarnobrzeg;Podkarpackie;tarnobrzeg;tarnobrzeg;43712;tarnobrzeg0;50.574;21.672;6;98
+Kolobrzeg;Zachodniopomorskie;kolobrzeg;kolobrzeg;43426;kolobrzeg0;54.177;15.575;4;99
+Debica;Podkarpackie;debica;debica;42986;debica0;50.051;21.41;7;100
+Radomsko;Lodzkie;radomsko;radomsko;42973;radomsko0;51.067;19.444;8;101
+Ciechanow;Mazowieckie;ciechanow;ciechanow;41740;ciechanow0;52.879;20.618;12;102
+Mikolow;Slaskie;mikolow;mikolow;41618;mikolow0;50.169;18.905;25;103
+Skarzysko-Kamienna;Swietokrzyskie;skarzyskokamienna;skarzyskokamienna;41224;skarzyskokamienna0;51.12;20.882;4;104
+Kutno;Lodzkie;kutno;kutno;40723;kutno0;52.233;19.357;9;105
+Nysa;Opolskie;nysa;nysa;40685;nysa0;50.474;17.334;3;106
+Minsk Mazowiecki;Mazowieckie;minskmazowiecki;minskmazowiecki;39837;minskmazowiecki0;52.18;21.567;13;107
+Swinoujscie;Zachodniopomorskie;swinoujscie;swinoujscie;38904;swinoujscie0;53.907;14.246;5;108
+Sieradz;Lodzkie;sieradz;sieradz;38729;sieradz0;51.593;18.727;10;109
+Chojnice;Pomorskie;chojnice;chojnice;38729;chojnice0;53.695;17.561;8;110
+Zyrardow;Mazowieckie;zyrardow;zyrardow;38594;zyrardow0;52.056;20.439;14;111
+Zdunska Wola;Lodzkie;zdunskawola;zdunskawola;38402;zdunskawola0;51.599;18.941;11;112
+Szczecinek;Zachodniopomorskie;szczecinek;szczecinek;37557;szczecinek0;53.71;16.693;6;113
+Boleslawiec;Dolnoslaskie;boleslawiec;boleslawiec;37055;boleslawiec0;51.263;15.565;8;114
+Kwidzyn;Pomorskie;kwidzyn;kwidzyn;36854;kwidzyn0;53.73;18.929;9;115
+Malbork;Pomorskie;malbork;malbork;36709;malbork0;54.034;19.028;10;116
+Swidnik;Lubelskie;swidnik;swidnik;36680;swidnik0;51.22;22.7;6;117
+Nowa Sol;Lubuskie;nowasol;nowasol;36040;nowasol0;51.803;15.719;3;118
+Wolomin;Mazowieckie;wolomin;wolomin;35620;wolomin0;52.345;21.246;15;119
+Knurow;Slaskie;knurow;knurow;35619;knurow0;50.222;18.671;26;120
+Oswiecim;Malopolskie;oswiecim;oswiecim;35577;oswiecim0;50.038;19.222;4;121
+Jaroslaw;Podkarpackie;jaroslaw;jaroslaw;35298;jaroslaw0;50.018;22.683;8;122
+Olesnica;Dolnoslaskie;olesnica;olesnica;35132;olesnica0;51.21;17.379;9;123
+Zary;Lubuskie;zary;zary;34837;zary0;51.638;15.138;4;124
+Czechowice-Dziedzice;Slaskie;czechowicedziedzice;czechowicedziedzice;34783;czechowicedziedzice0;49.911;19.008;27;125
+Grodzisk Mazowiecki;Mazowieckie;grodziskmazowiecki;grodziskmazowiecki;34718;grodziskmazowiecki0;52.104;20.624;16;126
+Sanok;Podkarpackie;sanok;sanok;34345;sanok0;49.558;22.202;9;127
+Lebork;Pomorskie;lebork;lebork;34000;lebork0;54.544;17.75;11;128
+Chrzanow;Malopolskie;chrzanow;chrzanow;33928;chrzanow0;50.142;19.405;5;129
+Sochaczew;Mazowieckie;sochaczew;sochaczew;33456;sochaczew0;52.23;20.238;17;130
+Brzeg;Opolskie;brzeg;brzeg;33403;brzeg0;50.86;17.47;4;131
+Olawa;Dolnoslaskie;olawa;olawa;33166;olawa0;50.945;17.295;10;132
+Nowy Targ;Malopolskie;nowytarg;nowytarg;33065;nowytarg0;49.479;20.03;6;133
+Cieszyn;Slaskie;cieszyn;cieszyn;32947;cieszyn0;49.749;18.633;28;134
+Lubon;Wielkopolskie;lubon;lubon;32835;lubon0;52.347;16.879;8;135
+Jaslo;Podkarpackie;jaslo;jaslo;32727;jaslo0;49.747;21.473;10;136
+Olkusz;Malopolskie;olkusz;olkusz;32261;olkusz0;50.279;19.56;7;137
+Ilawa;Warminsko-Mazurskie;ilawa;ilawa;32188;ilawa0;53.596;19.567;4;138
+Pruszcz Gdanski;Pomorskie;pruszczgdanski;pruszczgdanski;32171;pruszczgdanski0;54.261;18.638;12;139
+Sopot;Pomorskie;sopot;sopot;31903;sopot0;54.445;18.568;13;140
+Wrzesnia;Wielkopolskie;wrzesnia;wrzesnia;31759;wrzesnia0;52.325;17.57;9;141
+Ostroda;Warminsko-Mazurskie;ostroda;ostroda;31336;ostroda0;53.7;19.964;5;142
+Krasnik;Lubelskie;krasnik;krasnik;31296;krasnik0;50.922;22.225;7;143
+Mlawa;Mazowieckie;mlawa;mlawa;30802;mlawa0;53.112;20.384;18;144
+Dzierzoniow;Dolnoslaskie;dzierzoniow;dzierzoniow;30614;dzierzoniow0;50.728;16.651;11;145
+Czeladz;Slaskie;czeladz;czeladz;29876;czeladz0;50.319;19.071;29;146
+Zywiec;Slaskie;zywiec;zywiec;29732;zywiec0;49.689;19.203;30;147
+Police;Zachodniopomorskie;police;police;29627;police0;53.552;14.573;7;148
+Myszkow;Slaskie;myszkow;myszkow;29379;myszkow0;50.573;19.318;31;149
+Augustow;Podlaskie;augustow;augustow;28995;augustow0;53.844;22.979;4;150
+Zgorzelec;Dolnoslaskie;zgorzelec;zgorzelec;28931;zgorzelec0;51.15;15.01;12;151
+Reda;Pomorskie;reda;reda;28704;reda0;54.602;18.353;14;152
+Nowy Dwor Mazowiecki;Mazowieckie;nowydwormazowiecki;nowydwormazowiecki;28548;nowydwormazowiecki0;52.43;20.715;19;153
+Bochnia;Malopolskie;bochnia;bochnia;28441;bochnia0;49.969;20.43;8;154
+Kobylka;Mazowieckie;kobylka;kobylka;28339;kobylka0;52.339;21.196;20;155
+Swarzedz;Wielkopolskie;swarzedz;swarzedz;28254;swarzedz0;52.41;17.078;10;156
+Brodnica;Kujawsko-Pomorskie;brodnica;brodnica;28190;brodnica0;53.257;19.403;6;157
+Krotoszyn;Wielkopolskie;krotoszyn;krotoszyn;28126;krotoszyn0;51.696;17.437;11;158
+Bielawa;Dolnoslaskie;bielawa;bielawa;28027;bielawa0;50.684;16.612;13;159
+Wieliczka;Malopolskie;wieliczka;wieliczka;27845;wieliczka0;49.984;20.061;9;160
+Srem;Wielkopolskie;srem;srem;27817;srem0;52.088;17.019;12;161
+Gizycko;Warminsko-Mazurskie;gizycko;gizycko;27310;gizycko0;54.037;21.767;6;162
+Lukow;Lubelskie;lukow;lukow;27159;lukow0;51.929;22.382;8;163
+Czerwionka-Leszczyny;Slaskie;czerwionkaleszczyny;czerwionkaleszczyny;26522;czerwionkaleszczyny0;50.149;18.677;32;164
+Jarocin;Wielkopolskie;jarocin;jarocin;26286;jarocin0;51.972;17.502;13;165
+Wyszkow;Mazowieckie;wyszkow;wyszkow;26019;wyszkow0;52.595;21.457;21;166
+Lowicz;Lodzkie;lowicz;lowicz;25972;lowicz0;52.108;19.945;12;167
+Gorlice;Malopolskie;gorlice;gorlice;25523;gorlice0;49.658;21.16;10;168
+Wagrowiec;Wielkopolskie;wagrowiec;wagrowiec;25398;wagrowiec0;52.809;17.203;14;169
+Zakopane;Malopolskie;zakopane;zakopane;25204;zakopane0;49.298;19.949;11;170
+Ketrzyn;Warminsko-Mazurskie;ketrzyn;ketrzyn;25113;ketrzyn0;54.077;21.373;7;171
+Pszczyna;Slaskie;pszczyna;pszczyna;25031;pszczyna0;49.978;18.943;33;172
+Swiecie;Kujawsko-Pomorskie;swiecie;swiecie;24841;swiecie0;53.409;18.451;7;173
+Klodzko;Dolnoslaskie;klodzko;klodzko;24810;klodzko0;50.434;16.661;14;174
+Bilgoraj;Lubelskie;bilgoraj;bilgoraj;24769;bilgoraj0;50.54;22.72;9;175
+Turek;Wielkopolskie;turek;turek;24463;turek0;52.016;18.501;15;176
+Sroda Wielkopolska;Wielkopolskie;srodawielkopolska;srodawielkopolska;24324;srodawielkopolska0;52.229;17.28;16;177
+Skawina;Malopolskie;skawina;skawina;23967;skawina0;49.976;19.828;12;178
+Bielsk Podlaski;Podlaskie;bielskpodlaski;bielskpodlaski;23823;bielskpodlaski0;52.768;23.191;5;179
+Walcz;Zachodniopomorskie;walcz;walcz;23578;walcz0;53.272;16.471;8;180
+Zagan;Lubuskie;zagan;zagan;23462;zagan0;51.615;15.324;5;181
+Koscian;Wielkopolskie;koscian;koscian;23398;koscian0;52.081;16.637;17;182
+Lubliniec;Slaskie;lubliniec;lubliniec;23347;lubliniec0;50.669;18.683;34;183
+Koscierzyna;Pomorskie;koscierzyna;koscierzyna;23296;koscierzyna0;54.123;17.978;15;184
+Piastow;Mazowieckie;piastow;piastow;22932;piastow0;52.19;20.841;22;185
+Bialogard;Zachodniopomorskie;bialogard;bialogard;22418;bialogard0;54.005;15.991;9;186
+Kluczbork;Opolskie;kluczbork;kluczbork;22033;kluczbork0;50.973;18.218;5;187
+Aleksandrow Lodzki;Lodzkie;aleksandrowlodzki;aleksandrowlodzki;22002;aleksandrowlodzki0;51.819;19.306;13;188
+Orzesze;Slaskie;orzesze;orzesze;21986;orzesze0;50.112;18.793;35;189
+Szczytno;Warminsko-Mazurskie;szczytno;szczytno;21878;szczytno0;53.565;20.993;8;190
+Swiebodzice;Dolnoslaskie;swiebodzice;swiebodzice;21805;swiebodzice0;50.86;16.32;15;191
+Plonsk;Mazowieckie;plonsk;plonsk;21530;plonsk0;52.623;20.375;23;192
+Ostrow Mazowiecka;Mazowieckie;ostrowmazowiecka;ostrowmazowiecka;21530;ostrowmazowiecka0;52.804;21.896;24;193
+Goleniow;Zachodniopomorskie;goleniow;goleniow;21462;goleniow0;53.564;14.828;10;194
+Sulejowek;Mazowieckie;sulejowek;sulejowek;21428;sulejowek0;52.252;21.269;25;195
+Polkowice;Dolnoslaskie;polkowice;polkowice;21350;polkowice0;51.504;16.068;16;196
+Bartoszyce;Warminsko-Mazurskie;bartoszyce;bartoszyce;21314;bartoszyce0;54.251;20.812;9;197
+Sandomierz;Swietokrzyskie;sandomierz;sandomierz;21273;sandomierz0;50.68;21.749;5;198
+Jozefow;Mazowieckie;jozefow;jozefow;21217;jozefow0;52.137;21.235;26;199
+Laziska Gorne;Slaskie;laziskagorne;laziskagorne;21116;laziskagorne0;50.15;18.845;36;200
+Grajewo;Podlaskie;grajewo;grajewo;20899;grajewo0;53.649;22.455;6;201
+Zambrow;Podlaskie;zambrow;zambrow;20848;zambrow0;52.985;22.241;7;202
+Swiebodzin;Lubuskie;swiebodzin;swiebodzin;20778;swiebodzin0;52.248;15.535;6;203
+Mragowo;Warminsko-Mazurskie;mragowo;mragowo;20533;mragowo0;53.863;21.307;10;204
+Jawor;Dolnoslaskie;jawor;jawor;20503;jawor0;51.05;16.193;17;205
+Wielun;Lodzkie;wielun;wielun;20448;wielun0;51.221;18.57;14;206
+Nowa Ruda;Dolnoslaskie;nowaruda;nowaruda;20421;nowaruda0;50.579;16.502;18;207
+Rydultowy;Slaskie;rydultowy;rydultowy;20168;rydultowy0;50.058;18.417;37;208
+Dzialdowo;Warminsko-Mazurskie;dzialdowo;dzialdowo;20125;dzialdowo0;53.236;20.179;11;209
+Gostyn;Wielkopolskie;gostyn;gostyn;19814;gostyn0;51.879;17.012;18;210
+Lubartow;Lubelskie;lubartow;lubartow;19734;lubartow0;51.462;22.61;10;211
+Gryfino;Zachodniopomorskie;gryfino;gryfino;19691;gryfino0;53.253;14.488;11;212
+Rawicz;Wielkopolskie;rawicz;rawicz;19655;rawicz0;51.609;16.858;19;213
+Luban;Dolnoslaskie;luban;luban;19545;luban0;51.117;15.29;19;214
+Kolo;Wielkopolskie;kolo;kolo;19417;kolo0;52.199;18.637;20;215
+Konstantynow Lodzki;Lodzkie;konstantynowlodzki;konstantynowlodzki;19231;konstantynowlodzki0;51.748;19.325;15;216
+Pultusk;Mazowieckie;pultusk;pultusk;19064;pultusk0;52.697;21.085;27;217
+Hajnowka;Podlaskie;hajnowka;hajnowka;18976;hajnowka0;52.738;23.589;8;218
+Prudnik;Opolskie;prudnik;prudnik;18974;prudnik0;50.322;17.574;6;219
+Opoczno;Lodzkie;opoczno;opoczno;18913;opoczno0;51.377;20.286;16;220
+Bierun;Slaskie;bierun;bierun;18835;bierun0;50.093;19.092;38;221
+Trzebinia;Malopolskie;trzebinia;trzebinia;18502;trzebinia0;50.16;19.471;13;222
+Sokolow Podlaski;Mazowieckie;sokolowpodlaski;sokolowpodlaski;18361;sokolowpodlaski0;52.407;22.253;28;223
+Andrychow;Malopolskie;andrychow;andrychow;18311;andrychow0;49.854;19.34;14;224
+Lomianki;Mazowieckie;lomianki;lomianki;18226;lomianki0;52.334;20.887;29;225
+Szamotuly;Wielkopolskie;szamotuly;szamotuly;18219;szamotuly0;52.612;16.579;21;226
+Zielonka;Mazowieckie;zielonka;zielonka;18143;zielonka0;52.303;21.161;30;227
+Zlotow;Wielkopolskie;zlotow;zlotow;18138;zlotow0;53.364;17.04;22;228
+Ozorkow;Lodzkie;ozorkow;ozorkow;18064;ozorkow0;51.964;19.292;17;229
+Chelmno;Kujawsko-Pomorskie;chelmno;chelmno;18052;chelmno0;53.35;18.434;8;230
+Tomaszow Lubelski;Lubelskie;tomaszowlubelski;tomaszowlubelski;17848;tomaszowlubelski0;50.453;23.419;11;231
+Myslenice;Malopolskie;myslenice;myslenice;17745;myslenice0;49.834;19.938;15;232
+Lancut;Podkarpackie;lancut;lancut;17703;lancut0;50.069;22.232;11;233
+Pisz;Warminsko-Mazurskie;pisz;pisz;17672;pisz0;53.629;21.809;12;234
+Kety;Malopolskie;kety;kety;17669;kety0;49.881;19.223;16;235
+Leczna;Lubelskie;leczna;leczna;17665;leczna0;51.306;22.882;12;236
+Kostrzyn nad Odra;Lubuskie;kostrzynnadodra;kostrzynnadodra;17591;kostrzynnadodra0;52.587;14.649;7;237
+Konskie;Swietokrzyskie;konskie;konskie;17384;konskie0;51.191;20.407;6;238
+Krasnystaw;Lubelskie;krasnystaw;krasnystaw;17366;krasnystaw0;50.984;23.173;13;239
+Chodziez;Wielkopolskie;chodziez;chodziez;17321;chodziez0;52.992;16.917;23;240
+Garwolin;Mazowieckie;garwolin;garwolin;17268;garwolin0;51.897;21.615;31;241
+Oborniki;Wielkopolskie;oborniki;oborniki;17238;oborniki0;52.645;16.814;24;242
+Pyskowice;Slaskie;pyskowice;pyskowice;17236;pyskowice0;50.398;18.627;39;243
+Wadowice;Malopolskie;wadowice;wadowice;17196;wadowice0;49.883;19.494;17;244
+Kamienna Gora;Dolnoslaskie;kamiennagora;kamiennagora;17110;kamiennagora0;50.785;16.025;20;245
+Sokolka;Podlaskie;sokolka;sokolka;17087;sokolka0;53.406;23.503;9;246
+Naklo nad Notecia;Kujawsko-Pomorskie;naklonadnotecia;naklonadnotecia;17002;naklonadnotecia0;53.14;17.603;9;247
+Gostynin;Mazowieckie;gostynin;gostynin;16986;gostynin0;52.429;19.461;32;248
+Strzelce Opolskie;Opolskie;strzelceopolskie;strzelceopolskie;16975;strzelceopolskie0;50.511;18.303;7;249
+Sierpc;Mazowieckie;sierpc;sierpc;16941;sierpc0;52.857;19.669;33;250
+Konstancin-Jeziorna;Mazowieckie;konstancinjeziorna;konstancinjeziorna;16894;konstancinjeziorna0;52.094;21.118;34;251
+Miedzyrzecz;Lubuskie;miedzyrzecz;miedzyrzecz;16831;miedzyrzecz0;52.444;15.578;8;252
+Radlin;Slaskie;radlin;radlin;16829;radlin0;50.049;18.477;40;253
+Namyslow;Opolskie;namyslow;namyslow;16818;namyslow0;51.074;17.722;8;254
+Grojec;Mazowieckie;grojec;grojec;16807;grojec0;51.866;20.867;35;255
+Niepolomice;Malopolskie;niepolomice;niepolomice;16805;niepolomice0;50.041;20.223;18;256
+Pleszew;Wielkopolskie;pleszew;pleszew;16610;pleszew0;51.896;17.787;25;257
+Milanowek;Mazowieckie;milanowek;milanowek;16424;milanowek0;52.119;20.672;36;258
+Trzcianka;Wielkopolskie;trzcianka;trzcianka;16422;trzcianka0;53.042;16.459;26;259
+Przasnysz;Mazowieckie;przasnysz;przasnysz;16357;przasnysz0;53.019;20.88;37;260
+Bytow;Pomorskie;bytow;bytow;16339;bytow0;54.171;17.492;16;261
+Ledziny;Slaskie;ledziny;ledziny;16333;ledziny0;50.143;19.131;41;262
+Slubice;Lubuskie;slubice;slubice;16255;slubice0;52.351;14.56;9;263
+Pionki;Mazowieckie;pionki;pionki;16089;pionki0;51.478;21.442;38;264
+Lask;Lodzkie;lask;lask;16058;lask0;51.59;19.133;18;265
+Radzionkow;Slaskie;radzionkow;radzionkow;16034;radzionkow0;50.4;18.902;42;266
+Bogatynia;Dolnoslaskie;bogatynia;bogatynia;16020;bogatynia0;50.907;14.956;21;267
+Braniewo;Warminsko-Mazurskie;braniewo;braniewo;16015;braniewo0;54.38;19.82;13;268
+Rawa Mazowiecka;Lodzkie;rawamazowiecka;rawamazowiecka;15941;rawamazowiecka0;51.766;20.256;19;269
+Hrubieszow;Lubelskie;hrubieszow;hrubieszow;15935;hrubieszow0;50.803;23.892;14;270
+Brzesko;Malopolskie;brzesko;brzesko;15928;brzesko0;49.965;20.603;19;271
+Libiaz;Malopolskie;libiaz;libiaz;15912;libiaz0;50.104;19.317;20;272
+Ustron;Slaskie;ustron;ustron;15853;ustron0;49.72;18.812;43;273
+Ropczyce;Podkarpackie;ropczyce;ropczyce;15794;ropczyce0;50.052;21.609;12;274
+Olecko;Warminsko-Mazurskie;olecko;olecko;15721;olecko0;54.034;22.507;14;275
+Nowogard;Zachodniopomorskie;nowogard;nowogard;15695;nowogard0;53.674;15.116;12;276
+Ozarow Mazowiecki;Mazowieckie;ozarowmazowiecki;ozarowmazowiecki;15623;ozarowmazowiecki0;52.21;20.797;39;277
+Gubin;Lubuskie;gubin;gubin;15606;gubin0;51.949;14.728;10;278
+Kozienice;Mazowieckie;kozienice;kozienice;15530;kozienice0;51.585;21.551;40;279
+Sulechow;Lubuskie;sulechow;sulechow;15467;sulechow0;52.083;15.625;11;280
+Miedzyrzec Podlaski;Lubelskie;miedzyrzecpodlaski;miedzyrzecpodlaski;15389;miedzyrzecpodlaski0;51.985;22.785;15;281
+Rypin;Kujawsko-Pomorskie;rypin;rypin;15379;rypin0;53.066;19.409;10;282
+Gryfice;Zachodniopomorskie;gryfice;gryfice;15343;gryfice0;53.917;15.2;13;283
+Krapkowice;Opolskie;krapkowice;krapkowice;15282;krapkowice0;50.475;17.965;9;284
+Solec Kujawski;Kujawsko-Pomorskie;soleckujawski;soleckujawski;15249;soleckujawski0;53.083;18.226;11;285
+Grodzisk Wielkopolski;Wielkopolskie;grodziskwielkopolski;grodziskwielkopolski;15124;grodziskwielkopolski0;52.226;16.365;27;286
+Jelcz-Laskowice;Dolnoslaskie;jelczlaskowice;jelczlaskowice;15004;jelczlaskowice0;51.021;17.316;22;287
+Radzymin;Mazowieckie;radzymin;radzymin;14962;radzymin0;52.418;21.18;41;288
+Strzegom;Dolnoslaskie;strzegom;strzegom;14940;strzegom0;50.96;16.351;23;289
+Brwinow;Mazowieckie;brwinow;brwinow;14568;brwinow0;52.143;20.718;42;290
+Swidwin;Zachodniopomorskie;swidwin;swidwin;14547;swidwin0;53.776;15.773;14;291
+Przeworsk;Podkarpackie;przeworsk;przeworsk;14523;przeworsk0;50.059;22.495;13;292
+Mosina;Wielkopolskie;mosina;mosina;14501;mosina0;52.245;16.846;28;293
+Nisko;Podkarpackie;nisko;nisko;14477;nisko0;50.52;22.14;14;294
+Lidzbark Warminski;Warminsko-Mazurskie;lidzbarkwarminski;lidzbarkwarminski;14459;lidzbarkwarminski0;54.125;20.586;15;295
+Lapy;Podlaskie;lapy;lapy;14436;lapy0;52.991;22.884;10;296
+Limanowa;Malopolskie;limanowa;limanowa;14430;limanowa0;49.706;20.422;21;297
+Busko-Zdroj;Swietokrzyskie;buskozdroj;buskozdroj;14365;buskozdroj0;50.47;20.719;7;298
+Radzyn Podlaski;Lubelskie;radzynpodlaski;radzynpodlaski;14293;radzynpodlaski0;51.783;22.622;16;299
+Zabkowice Slaskie;Dolnoslaskie;zabkowiceslaskie;zabkowiceslaskie;14240;zabkowiceslaskie0;50.589;16.813;24;300
+Zlotoryja;Dolnoslaskie;zlotoryja;zlotoryja;14168;zlotoryja0;51.126;15.921;25;301
+Boguszow-Gorce;Dolnoslaskie;boguszowgorce;boguszowgorce;14166;boguszowgorce0;50.756;16.205;26;302
+Deblin;Lubelskie;deblin;deblin;14132;deblin0;51.559;21.849;17;303
+Jedrzejow;Swietokrzyskie;jedrzejow;jedrzejow;14029;jedrzejow0;50.639;20.304;8;304
+Choszczno;Zachodniopomorskie;choszczno;choszczno;13895;choszczno0;53.169;15.42;15;305
+Kartuzy;Pomorskie;kartuzy;kartuzy;13796;kartuzy0;54.334;18.198;17;306
+Ustka;Pomorskie;ustka;ustka;13722;ustka0;54.581;16.862;18;307
+Chelmza;Kujawsko-Pomorskie;chelmza;chelmza;13691;chelmza0;53.184;18.605;12;308
+Trzebnica;Dolnoslaskie;trzebnica;trzebnica;13655;trzebnica0;51.31;17.063;27;309
+Staszow;Swietokrzyskie;staszow;staszow;13596;staszow0;50.564;21.173;9;310
+Ostrzeszow;Wielkopolskie;ostrzeszow;ostrzeszow;13593;ostrzeszow0;51.427;17.93;29;311
+Nowy Tomysl;Wielkopolskie;nowytomysl;nowytomysl;13591;nowytomysl0;52.318;16.128;30;312
+Kepno;Wielkopolskie;kepno;kepno;13530;kepno0;51.278;17.989;31;313
+Skoczow;Slaskie;skoczow;skoczow;13423;skoczow0;49.803;18.791;44;314
+Siemiatycze;Podlaskie;siemiatycze;siemiatycze;13391;siemiatycze0;52.427;22.864;11;315
+Lipno;Kujawsko-Pomorskie;lipno;lipno;13380;lipno0;52.844;19.181;13;316
+Goldap;Warminsko-Mazurskie;goldap;goldap;13184;goldap0;54.307;22.303;16;317
+Glowno;Lodzkie;glowno;glowno;13116;glowno0;51.964;19.715;20;318
+Leczyca;Lodzkie;leczyca;leczyca;13065;leczyca0;52.059;19.198;21;319
+Znin;Kujawsko-Pomorskie;znin;znin;13040;znin0;52.849;17.72;14;320
+Czluchow;Pomorskie;czluchow;czluchow;13031;czluchow0;53.667;17.359;19;321
+Pszow;Slaskie;pszow;pszow;13007;pszow0;50.04;18.394;45;322
+Wschowa;Lubuskie;wschowa;wschowa;12991;wschowa0;51.807;16.316;12;323
+Tuchola;Kujawsko-Pomorskie;tuchola;tuchola;12969;tuchola0;53.588;17.861;15;324
+Slupca;Wielkopolskie;slupca;slupca;12952;slupca0;52.288;17.874;32;325
+Barlinek;Zachodniopomorskie;barlinek;barlinek;12935;barlinek0;52.994;15.219;16;326
+Wabrzezno;Kujawsko-Pomorskie;wabrzezno;wabrzezno;12892;wabrzezno0;53.281;18.948;16;327
+Debno;Zachodniopomorskie;debno;debno;12885;debno0;52.739;14.697;17;328
+Lubsko;Lubuskie;lubsko;lubsko;12858;lubsko0;51.784;14.972;13;329
+Wasilkow;Podlaskie;wasilkow;wasilkow;12768;wasilkow0;53.199;23.208;12;330
+Morag;Warminsko-Mazurskie;morag;morag;12757;morag0;53.916;19.928;17;331
+Lezajsk;Podkarpackie;lezajsk;lezajsk;12697;lezajsk0;50.263;22.419;15;332
+Nidzica;Warminsko-Mazurskie;nidzica;nidzica;12629;nidzica0;53.361;20.427;18;333
+Glucholazy;Opolskie;glucholazy;glucholazy;12621;glucholazy0;50.315;17.384;10;334
+Brzeg Dolny;Dolnoslaskie;brzegdolny;brzegdolny;12536;brzegdolny0;51.273;16.709;28;335
+Darlowo;Zachodniopomorskie;darlowo;darlowo;12512;darlowo0;54.421;16.411;18;336
+Sedziszow Malopolski;Podkarpackie;sedziszowmalopolski;sedziszowmalopolski;12368;sedziszowmalopolski0;50.071;21.703;16;337
+Chojnow;Dolnoslaskie;chojnow;chojnow;12361;chojnow0;51.273;15.937;29;338
+Rabka-Zdroj;Malopolskie;rabkazdroj;rabkazdroj;12233;rabkazdroj0;49.609;19.967;22;339
+Klobuck;Slaskie;klobuck;klobuck;12220;klobuck0;50.901;18.937;46;340
+Blonie;Mazowieckie;blonie;blonie;12172;blonie0;52.199;20.617;43;341
+Gora Kalwaria;Mazowieckie;gorakalwaria;gorakalwaria;12129;gorakalwaria0;51.976;21.215;44;342
+Wlodawa;Lubelskie;wlodawa;wlodawa;12123;wlodawa0;51.544;23.554;18;343
+Zlocieniec;Zachodniopomorskie;zlocieniec;zlocieniec;12046;zlocieniec0;53.531;16.011;19;344
+Koluszki;Lodzkie;koluszki;koluszki;12046;koluszki0;51.738;19.82;22;345
+Wolow;Dolnoslaskie;wolow;wolow;12010;wolow0;51.336;16.644;30;346
+Brzeziny;Lodzkie;brzeziny;brzeziny;11949;brzeziny0;51.8;19.752;23;347
+Strzelin;Dolnoslaskie;strzelin;strzelin;11936;strzelin0;50.781;17.065;31;348
+Wolsztyn;Wielkopolskie;wolsztyn;wolsztyn;11935;wolsztyn0;52.115;16.117;33;349
+Warka;Mazowieckie;warka;warka;11889;warka0;51.783;21.188;45;350
+Wegrow;Mazowieckie;wegrow;wegrow;11844;wegrow0;52.399;22.017;46;351
+Pyrzyce;Zachodniopomorskie;pyrzyce;pyrzyce;11824;pyrzyce0;53.146;14.892;20;352
+Slawno;Zachodniopomorskie;slawno;slawno;11777;slawno0;54.362;16.68;21;353
+Paslek;Warminsko-Mazurskie;paslek;paslek;11728;paslek0;54.062;19.664;19;354
+Glubczyce;Opolskie;glubczyce;glubczyce;11651;glubczyce0;50.201;17.83;11;355
+Aleksandrow Kujawski;Kujawsko-Pomorskie;aleksandrowkujawski;aleksandrowkujawski;11474;aleksandrowkujawski0;52.877;18.693;17;356
+Dabrowa Tarnowska;Malopolskie;dabrowatarnowska;dabrowatarnowska;11458;dabrowatarnowska0;50.174;20.984;23;357
+Lubaczow;Podkarpackie;lubaczow;lubaczow;11313;lubaczow0;50.155;23.121;17;358
+Golub-Dobrzyn;Kujawsko-Pomorskie;golubdobrzyn;golubdobrzyn;11261;golubdobrzyn0;53.111;19.054;18;359
+Drawsko Pomorskie;Zachodniopomorskie;drawskopomorskie;drawskopomorskie;11224;drawskopomorskie0;53.532;15.814;22;360
+Siechnice;Dolnoslaskie;siechnice;siechnice;10991;siechnice0;51.036;17.15;32;361
+Mogilno;Kujawsko-Pomorskie;mogilno;mogilno;10972;mogilno0;52.658;17.956;19;362
+Miechow;Malopolskie;miechow;miechow;10918;miechow0;50.357;20.027;24;363
+Janow Lubelski;Lubelskie;janowlubelski;janowlubelski;10894;janowlubelski0;50.705;22.419;19;364
+Rogozno;Wielkopolskie;rogozno;rogozno;10771;rogozno0;52.75;17.002;34;365
+Milicz;Dolnoslaskie;milicz;milicz;10771;milicz0;51.528;17.271;33;366
+Koronowo;Kujawsko-Pomorskie;koronowo;koronowo;10743;koronowo0;53.316;17.925;20;367
+Gora;Dolnoslaskie;gora;gora;10700;gora0;51.67;16.538;34;368
+Brzeszcze;Malopolskie;brzeszcze;brzeszcze;10657;brzeszcze0;49.985;19.144;25;369
+Wisla;Slaskie;wisla;wisla;10637;wisla0;49.647;18.868;47;370
+Lubawa;Warminsko-Mazurskie;lubawa;lubawa;10633;lubawa0;53.503;19.75;20;371
+Glogow Malopolski;Podkarpackie;glogowmalopolski;glogowmalopolski;10583;glogowmalopolski0;50.151;21.968;18;372
+Wegorzewo;Warminsko-Mazurskie;wegorzewo;wegorzewo;10563;wegorzewo0;54.209;21.744;21;373
+Szydlowiec;Mazowieckie;szydlowiec;szydlowiec;10556;szydlowiec0;51.228;20.861;47;374
+Szprotawa;Lubuskie;szprotawa;szprotawa;10554;szprotawa0;51.566;15.536;14;375
+Krosno Odrzanskie;Lubuskie;krosnoodrzanskie;krosnoodrzanskie;10533;krosnoodrzanskie0;52.055;15.097;15;376
+Wronki;Wielkopolskie;wronki;wronki;10505;wronki0;52.708;16.379;35;377
+Puck;Pomorskie;puck;puck;10463;puck0;54.718;18.409;20;378
+Nowa Deba;Podkarpackie;nowadeba;nowadeba;10381;nowadeba0;50.429;21.751;19;379
+Mysliborz;Zachodniopomorskie;mysliborz;mysliborz;10353;mysliborz0;52.924;14.868;23;380
+Murowana Goslina;Wielkopolskie;murowanagoslina;murowanagoslina;10287;murowanagoslina0;52.574;17.009;36;381
+Parczew;Lubelskie;parczew;parczew;10185;parczew0;51.639;22.897;20;382
+Zdzieszowice;Opolskie;zdzieszowice;zdzieszowice;10157;zdzieszowice0;50.424;18.127;12;383
+Ciechocinek;Kujawsko-Pomorskie;ciechocinek;ciechocinek;10153;ciechocinek0;52.879;18.795;21;384
+Nowe Miasto Lubawskie;Warminsko-Mazurskie;nowemiastolubawskie;nowemiastolubawskie;10089;nowemiastolubawskie0;53.423;19.591;22;385
+Miedzychod;Wielkopolskie;miedzychod;miedzychod;9956;miedzychod0;52.602;15.889;37;386
+Sycow;Dolnoslaskie;sycow;sycow;9938;sycow0;51.308;17.721;35;387
+Biskupiec;Warminsko-Mazurskie;biskupiec;biskupiec;9924;biskupiec0;53.863;20.955;23;388
+Czarnkow;Wielkopolskie;czarnkow;czarnkow;9916;czarnkow0;52.905;16.564;38;389
+Pobiedziska;Wielkopolskie;pobiedziska;pobiedziska;9891;pobiedziska0;52.478;17.289;39;390
+Kostrzyn;Wielkopolskie;kostrzyn;kostrzyn;9855;kostrzyn0;52.398;17.229;40;391
+Czersk;Pomorskie;czersk;czersk;9852;czersk0;53.795;17.976;21;392
+Kolno;Podlaskie;kolno;kolno;9839;kolno0;53.408;21.933;13;393
+Kowary;Dolnoslaskie;kowary;kowary;9745;kowary0;50.792;15.838;36;394
+Krzeszowice;Malopolskie;krzeszowice;krzeszowice;9743;krzeszowice0;50.142;19.634;26;395
+Sulecin;Lubuskie;sulecin;sulecin;9738;sulecin0;52.442;15.113;16;396
+Pinczow;Swietokrzyskie;pinczow;pinczow;9721;pinczow0;50.52;20.526;10;397
+Strzelce Krajenskie;Lubuskie;strzelcekrajenskie;strzelcekrajenskie;9705;strzelcekrajenskie0;52.879;15.535;17;398
+Krynica-Zdroj;Malopolskie;krynicazdroj;krynicazdroj;9597;krynicazdroj0;49.422;20.959;27;399
+Sroda Slaska;Dolnoslaskie;srodaslaska;srodaslaska;9540;srodaslaska0;51.164;16.593;37;400
+Wloszczowa;Swietokrzyskie;wloszczowa;wloszczowa;9520;wloszczowa0;50.851;19.973;11;401
+Lobez;Zachodniopomorskie;lobez;lobez;9516;lobez0;53.639;15.621;24;402
+Nowy Dwor Gdanski;Pomorskie;nowydworgdanski;nowydworgdanski;9471;nowydworgdanski0;54.208;19.117;22;403
+Bukowno;Malopolskie;bukowno;bukowno;9467;bukowno0;50.263;19.458;28;404
+Drezdenko;Lubuskie;drezdenko;drezdenko;9455;drezdenko0;52.838;15.831;18;405
+Monki;Podlaskie;monki;monki;9449;monki0;53.405;22.797;14;406
+Szubin;Kujawsko-Pomorskie;szubin;szubin;9402;szubin0;53.008;17.741;22;407
+Imielin;Slaskie;imielin;imielin;9398;imielin0;50.145;19.186;48;408
+Miastko;Pomorskie;miastko;miastko;9395;miastko0;54.003;16.982;23;409
+Trzebiatow;Zachodniopomorskie;trzebiatow;trzebiatow;9314;trzebiatow0;54.061;15.265;25;410
+Opalenica;Wielkopolskie;opalenica;opalenica;9303;opalenica0;52.309;16.41;41;411
+Puszczykowo;Wielkopolskie;puszczykowo;puszczykowo;9292;puszczykowo0;52.284;16.854;42;412
+Kudowa-Zdroj;Dolnoslaskie;kudowazdroj;kudowazdroj;9280;kudowazdroj0;50.443;16.243;38;413
+Dobre Miasto;Warminsko-Mazurskie;dobremiasto;dobremiasto;9255;dobremiasto0;53.987;20.397;24;414
+Karczew;Mazowieckie;karczew;karczew;9245;karczew0;52.076;21.25;48;415
+Wladyslawowo;Pomorskie;wladyslawowo;wladyslawowo;9235;wladyslawowo0;54.791;18.403;24;416
+Sztum;Pomorskie;sztum;sztum;9104;sztum0;53.921;19.03;25;417
+Skwierzyna;Lubuskie;skwierzyna;skwierzyna;9078;skwierzyna0;52.599;15.506;19;418
+Kruszwica;Kujawsko-Pomorskie;kruszwica;kruszwica;9070;kruszwica0;52.674;18.33;23;419
+Olesno;Opolskie;olesno;olesno;9047;olesno0;50.875;18.415;13;420
+Blachownia;Slaskie;blachownia;blachownia;9041;blachownia0;50.776;18.974;49;421
+Wysokie Mazowieckie;Podlaskie;wysokiemazowieckie;wysokiemazowieckie;9017;wysokiemazowieckie0;52.915;22.51;15;422
+Oborniki Slaskie;Dolnoslaskie;obornikislaskie;obornikislaskie;8990;obornikislaskie0;51.301;16.916;39;423
+Ryki;Lubelskie;ryki;ryki;8985;ryki0;51.625;21.933;21;424
+Makow Mazowiecki;Mazowieckie;makowmazowiecki;makowmazowiecki;8939;makowmazowiecki0;52.865;21.1;49;425
+Bystrzyca Klodzka;Dolnoslaskie;bystrzycaklodzka;bystrzycaklodzka;8939;bystrzycaklodzka0;50.299;16.642;40;426
+Kozuchow;Lubuskie;kozuchow;kozuchow;8892;kozuchow0;51.747;15.597;20;427
+Sucha Beskidzka;Malopolskie;suchabeskidzka;suchabeskidzka;8868;suchabeskidzka0;49.742;19.591;29;428
+Sepolno Krajenskie;Kujawsko-Pomorskie;sepolnokrajenskie;sepolnokrajenskie;8720;sepolnokrajenskie0;53.455;17.534;24;429
+Stary Sacz;Malopolskie;starysacz;starysacz;8701;starysacz0;49.564;20.633;30;430
+Czarna Bialostocka;Podlaskie;czarnabialostocka;czarnabialostocka;8579;czarnabialostocka0;53.306;23.283;16;431
+Kolbuszowa;Podkarpackie;kolbuszowa;kolbuszowa;8495;kolbuszowa0;50.244;21.776;20;432
+Wojkowice;Slaskie;wojkowice;wojkowice;8477;wojkowice0;50.365;19.037;50;433
+Zuromin;Mazowieckie;zuromin;zuromin;8437;zuromin0;53.067;19.907;50;434
+Chelmek;Malopolskie;chelmek;chelmek;8413;chelmek0;50.1;19.249;31;435
+Ustrzyki Dolne;Podkarpackie;ustrzykidolne;ustrzykidolne;8410;ustrzykidolne0;49.43;22.594;21;436
+Strzyzow;Podkarpackie;strzyzow;strzyzow;8402;strzyzow0;49.871;21.795;22;437
+Wieruszow;Lodzkie;wieruszow;wieruszow;8332;wieruszow0;51.295;18.161;24;438
+Kamien Pomorski;Zachodniopomorskie;kamienpomorski;kamienpomorski;8291;kamienpomorski0;53.967;14.771;26;439
+Jastrowie;Wielkopolskie;jastrowie;jastrowie;8258;jastrowie0;53.421;16.815;43;440
+Poniatowa;Lubelskie;poniatowa;poniatowa;8246;poniatowa0;51.193;22.065;22;441
+Kalety;Slaskie;kalety;kalety;8170;kalety0;50.562;18.893;51;442
+Kornik;Wielkopolskie;kornik;kornik;8141;kornik0;52.247;17.09;44;443
+Janikowo;Kujawsko-Pomorskie;janikowo;janikowo;8136;janikowo0;52.754;18.114;25;444
+Lwowek Slaski;Dolnoslaskie;lwowekslaski;lwowekslaski;8132;lwowekslaski0;51.109;15.581;41;445
+Poreba;Slaskie;poreba;poreba;8104;poreba0;50.488;19.339;52;446
+Prabuty;Pomorskie;prabuty;prabuty;8091;prabuty0;53.756;19.205;26;447
+Pniewy;Wielkopolskie;pniewy;pniewy;8080;pniewy0;52.507;16.26;45;448
+Wolbrom;Malopolskie;wolbrom;wolbrom;8045;wolbrom0;50.379;19.758;32;449
+Tluszcz;Mazowieckie;tluszcz;tluszcz;8032;tluszcz0;52.427;21.427;51;450
+Orneta;Warminsko-Mazurskie;orneta;orneta;8007;orneta0;54.115;20.13;25;451
+Ziebice;Dolnoslaskie;ziebice;ziebice;7981;ziebice0;50.601;17.043;42;452
+Ozimek;Opolskie;ozimek;ozimek;7962;ozimek0;50.677;18.214;14;453
+Grodkow;Opolskie;grodkow;grodkow;7902;grodkow0;50.7;17.385;15;454
+Opole Lubelskie;Lubelskie;opolelubelskie;opolelubelskie;7864;opolelubelskie0;51.147;21.969;23;455
+Mszana Dolna;Malopolskie;mszanadolna;mszanadolna;7826;mszanadolna0;49.674;20.08;33;456
+Zychlin;Lodzkie;zychlin;zychlin;7494;zychlin0;52.244;19.626;25;457
+Polaniec;Swietokrzyskie;polaniec;polaniec;7453;polaniec0;50.432;21.281;12;458
+Suchedniow;Swietokrzyskie;suchedniow;suchedniow;7452;suchedniow0;51.048;20.829;13;459
+Witkowo;Wielkopolskie;witkowo;witkowo;7427;witkowo0;52.439;17.773;46;460
+Barczewo;Warminsko-Mazurskie;barczewo;barczewo;7377;barczewo0;53.829;20.69;26;461
+Chocianow;Dolnoslaskie;chocianow;chocianow;7356;chocianow0;51.417;15.905;43;462
+Chojna;Zachodniopomorskie;chojna;chojna;7316;chojna0;52.963;14.427;27;463
+Nasielsk;Mazowieckie;nasielsk;nasielsk;7315;nasielsk0;52.59;20.807;52;464
+Trzemeszno;Wielkopolskie;trzemeszno;trzemeszno;7272;trzemeszno0;52.564;17.828;47;465
+Polczyn-Zdroj;Zachodniopomorskie;polczynzdroj;polczynzdroj;7243;polczynzdroj0;53.767;16.092;28;466
+Lidzbark;Warminsko-Mazurskie;lidzbark;lidzbark;7182;lidzbark0;53.262;19.823;27;467
+Tuszyn;Lodzkie;tuszyn;tuszyn;7171;tuszyn0;51.61;19.535;26;468
+Katy Wroclawskie;Dolnoslaskie;katywroclawskie;katywroclawskie;7168;katywroclawskie0;51.031;16.768;44;469
+Olsztynek;Warminsko-Mazurskie;olsztynek;olsztynek;7165;olsztynek0;53.584;20.284;28;470
+Zwolen;Mazowieckie;zwolen;zwolen;7162;zwolen0;51.355;21.588;53;471
+Brzozow;Podkarpackie;brzozow;brzozow;7158;brzozow0;49.694;22.018;23;472
+Pelplin;Pomorskie;pelplin;pelplin;7124;pelplin0;53.928;18.698;27;473
+Praszka;Opolskie;praszka;praszka;7110;praszka0;51.055;18.45;16;474
+Zelow;Lodzkie;zelow;zelow;7059;zelow0;51.466;19.221;27;475
+Sobotka;Dolnoslaskie;sobotka;sobotka;7022;sobotka0;50.898;16.746;45;476
+Zbaszyn;Wielkopolskie;zbaszyn;zbaszyn;7016;zbaszyn0;52.251;15.925;48;477
+Miasteczko Slaskie;Slaskie;miasteczkoslaskie;miasteczkoslaskie;6961;miasteczkoslaskie0;50.502;18.939;53;478
+Barcin;Kujawsko-Pomorskie;barcin;barcin;6926;barcin0;52.866;17.946;26;479
+Slawkow;Slaskie;slawkow;slawkow;6842;slawkow0;50.305;19.388;54;480
+Losice;Mazowieckie;losice;losice;6808;losice0;52.212;22.718;54;481
+Pieszyce;Dolnoslaskie;pieszyce;pieszyce;6765;pieszyce0;50.712;16.582;46;482
+Poddebice;Lodzkie;poddebice;poddebice;6756;poddebice0;51.893;18.957;28;483
+Zukowo;Pomorskie;zukowo;zukowo;6709;zukowo0;54.342;18.365;28;484
+Gniewkowo;Kujawsko-Pomorskie;gniewkowo;gniewkowo;6677;gniewkowo0;52.893;18.413;27;485
+Czaplinek;Zachodniopomorskie;czaplinek;czaplinek;6663;czaplinek0;53.558;16.233;29;486
+Paczkow;Opolskie;paczkow;paczkow;6607;paczkow0;50.463;17.004;17;487
+Skarszewy;Pomorskie;skarszewy;skarszewy;6598;skarszewy0;54.069;18.446;29;488
+Sianow;Zachodniopomorskie;sianow;sianow;6564;sianow0;54.226;16.292;30;489
+Lochow;Mazowieckie;lochow;lochow;6545;lochow0;52.533;21.707;55;490
+Sulkowice;Malopolskie;sulkowice;sulkowice;6464;sulkowice0;49.853;19.8;34;491
+Witnica;Lubuskie;witnica;witnica;6434;witnica0;52.673;14.898;21;492
+Zarow;Dolnoslaskie;zarow;zarow;6424;zarow0;50.942;16.498;47;493
+Gogolin;Opolskie;gogolin;gogolin;6418;gogolin0;50.492;18.02;18;494
+Bialobrzegi;Mazowieckie;bialobrzegi;bialobrzegi;6407;bialobrzegi0;51.647;20.957;56;495
+Rzepin;Lubuskie;rzepin;rzepin;6404;rzepin0;52.347;14.832;22;496
+Lazy;Slaskie;lazy;lazy;6378;lazy0;50.427;19.395;55;497
+Rudnik nad Sanem;Podkarpackie;rudniknadsanem;rudniknadsanem;6375;rudniknadsanem0;50.444;22.245;24;498
+Pajeczno;Lodzkie;pajeczno;pajeczno;6370;pajeczno0;51.145;18.999;29;499
+Zawadzkie;Opolskie;zawadzkie;zawadzkie;6358;zawadzkie0;50.612;18.473;19;500
+Boguchwala;Podkarpackie;boguchwala;boguchwala;6291;boguchwala0;49.985;21.944;25;501
+Otmuchow;Opolskie;otmuchow;otmuchow;6179;otmuchow0;50.466;17.173;20;502
+Zmigrod;Dolnoslaskie;zmigrod;zmigrod;6177;zmigrod0;51.467;16.906;48;503
+Twardogora;Dolnoslaskie;twardogora;twardogora;6177;twardogora0;51.368;17.465;49;504
+Tuchow;Malopolskie;tuchow;tuchow;6176;tuchow0;49.895;21.054;35;505
+Dobczyce;Malopolskie;dobczyce;dobczyce;6163;dobczyce0;49.881;20.089;36;506
+Gniew;Pomorskie;gniew;gniew;6149;gniew0;53.837;18.821;30;507
+Kozmin Wielkopolski;Wielkopolskie;kozminwielkopolski;kozminwielkopolski;6117;kozminwielkopolski0;51.827;17.454;49;508
+Sedziszow;Swietokrzyskie;sedziszow;sedziszow;6108;sedziszow0;50.572;20.072;14;509
+Gryfow Slaski;Dolnoslaskie;gryfowslaski;gryfowslaski;6104;gryfowslaski0;51.035;15.412;50;510
+Mszczonow;Mazowieckie;mszczonow;mszczonow;6090;mszczonow0;51.982;20.522;57;511
+Choroszcz;Podlaskie;choroszcz;choroszcz;6089;choroszcz0;53.143;22.986;17;512
+Dynow;Podkarpackie;dynow;dynow;5997;dynow0;49.815;22.234;26;513
+Grybow;Malopolskie;grybow;grybow;5947;grybow0;49.617;20.947;37;514
+Polanica-Zdroj;Dolnoslaskie;polanicazdroj;polanicazdroj;5937;polanicazdroj0;50.405;16.513;51;515
+Opatow;Swietokrzyskie;opatow;opatow;5937;opatow0;50.801;21.427;15;516
+Belzyce;Lubelskie;belzyce;belzyce;5936;belzyce0;51.175;22.283;24;517
+Sulejow;Lodzkie;sulejow;sulejow;5932;sulejow0;51.355;19.882;30;518
+Gluszyca;Dolnoslaskie;gluszyca;gluszyca;5924;gluszyca0;50.685;16.372;52;519
+Pilawa Gorna;Dolnoslaskie;pilawagorna;pilawagorna;5904;pilawagorna0;50.682;16.743;53;520
+Krzyz Wielkopolski;Wielkopolskie;krzyzwielkopolski;krzyzwielkopolski;5882;krzyzwielkopolski0;52.879;16.015;50;521
+Steszew;Wielkopolskie;steszew;steszew;5874;steszew0;52.284;16.701;51;522
+Klodawa;Wielkopolskie;klodawa;klodawa;5870;klodawa0;52.254;18.915;52;523
+Niemodlin;Opolskie;niemodlin;niemodlin;5853;niemodlin0;50.639;17.627;21;524
+Sierakow;Wielkopolskie;sierakow;sierakow;5820;sierakow0;52.647;16.085;53;525
+Szklarska Poreba;Dolnoslaskie;szklarskaporeba;szklarskaporeba;5776;szklarskaporeba0;50.827;15.526;54;526
+Proszowice;Malopolskie;proszowice;proszowice;5744;proszowice0;50.192;20.289;38;527
+Piechowice;Dolnoslaskie;piechowice;piechowice;5743;piechowice0;50.848;15.601;55;528
+Siewierz;Slaskie;siewierz;siewierz;5730;siewierz0;50.467;19.23;56;529
+Wielen;Wielkopolskie;wielen;wielen;5677;wielen0;52.895;16.171;54;530
+Wiecbork;Kujawsko-Pomorskie;wiecbork;wiecbork;5619;wiecbork0;53.354;17.491;28;531
+Smigiel;Wielkopolskie;smigiel;smigiel;5616;smigiel0;52.013;16.527;55;532
+Przemkow;Dolnoslaskie;przemkow;przemkow;5598;przemkow0;51.527;15.785;56;533
+Lewin Brzeski;Opolskie;lewinbrzeski;lewinbrzeski;5585;lewinbrzeski0;50.751;17.62;22;534
+Czarne;Pomorskie;czarne;czarne;5572;czarne0;53.684;16.938;31;535
+Lubawka;Dolnoslaskie;lubawka;lubawka;5536;lubawka0;50.703;16;57;536
+Makow Podhalanski;Malopolskie;makowpodhalanski;makowpodhalanski;5534;makowpodhalanski0;49.73;19.677;39;537
+Jedlicze;Podkarpackie;jedlicze;jedlicze;5530;jedlicze0;49.719;21.653;27;538
+Buk;Wielkopolskie;buk;buk;5502;buk0;52.355;16.52;56;539
+Karlino;Zachodniopomorskie;karlino;karlino;5477;karlino0;54.036;15.879;31;540
+Piensk;Dolnoslaskie;piensk;piensk;5454;piensk0;51.25;15.043;58;541
+Kietrz;Opolskie;kietrz;kietrz;5447;kietrz0;50.085;18.004;23;542
+Glogowek;Opolskie;glogowek;glogowek;5445;glogowek0;50.353;17.865;24;543
+Nowe;Kujawsko-Pomorskie;nowe;nowe;5413;nowe0;53.649;18.727;29;544
+Jordanow;Malopolskie;jordanow;jordanow;5403;jordanow0;49.648;19.83;40;545
+Piwniczna-Zdroj;Malopolskie;piwnicznazdroj;piwnicznazdroj;5385;piwnicznazdroj0;49.438;20.711;41;546
+Nowa Sarzyna;Podkarpackie;nowasarzyna;nowasarzyna;5357;nowasarzyna0;50.324;22.332;28;547
+Koniecpol;Slaskie;koniecpol;koniecpol;5355;koniecpol0;50.774;19.689;57;548
+Wolczyn;Opolskie;wolczyn;wolczyn;5320;wolczyn0;51.018;18.052;25;549
+Przysucha;Mazowieckie;przysucha;przysucha;5293;przysucha0;51.359;20.628;58;550
+Szczyrk;Slaskie;szczyrk;szczyrk;5283;szczyrk0;49.715;19.024;58;551
+Orzysz;Warminsko-Mazurskie;orzysz;orzysz;5279;orzysz0;53.81;21.949;29;552
+Serock;Mazowieckie;serock;serock;5277;serock0;52.51;21.069;59;553
+Scinawa;Dolnoslaskie;scinawa;scinawa;5251;scinawa0;51.413;16.433;59;554
+Susz;Warminsko-Mazurskie;susz;susz;5245;susz0;53.717;19.336;30;555
+Szczawno-Zdroj;Dolnoslaskie;szczawnozdroj;szczawnozdroj;5240;szczawnozdroj0;50.811;16.247;60;556
+Dzialoszyn;Lodzkie;dzialoszyn;dzialoszyn;5239;dzialoszyn0;51.116;18.864;31;557
+Strzelno;Kujawsko-Pomorskie;strzelno;strzelno;5230;strzelno0;52.628;18.173;30;558
+Szczawnica;Malopolskie;szczawnica;szczawnica;5208;szczawnica0;49.423;20.483;42;559
+Pakosc;Kujawsko-Pomorskie;pakosc;pakosc;5136;pakosc0;52.801;18.085;31;560
+Terespol;Lubelskie;terespol;terespol;5121;terespol0;52.075;23.615;25;561
+Lesko;Podkarpackie;lesko;lesko;5098;lesko0;49.474;22.325;29;562
+Czempin;Wielkopolskie;czempin;czempin;5096;czempin0;52.143;16.759;57;563
+Staporkow;Swietokrzyskie;staporkow;staporkow;5091;staporkow0;51.137;20.572;16;564
+Wyrzysk;Wielkopolskie;wyrzysk;wyrzysk;5077;wyrzysk0;53.151;17.269;58;565
+Brusy;Pomorskie;brusy;brusy;5063;brusy0;53.887;17.719;32;566
+Radziejow;Kujawsko-Pomorskie;radziejow;radziejow;5055;radziejow0;52.625;18.524;32;567
+Jaworzyna Slaska;Dolnoslaskie;jaworzynaslaska;jaworzynaslaska;5035;jaworzynaslaska0;50.912;16.435;61;568
+Dabrowa Bialostocka;Podlaskie;dabrowabialostocka;dabrowabialostocka;5008;dabrowabialostocka0;53.653;23.348;18;569
+Kazimierza Wielka;Swietokrzyskie;kazimierzawielka;kazimierzawielka;4995;kazimierzawielka0;50.265;20.494;17;570
+Pilzno;Podkarpackie;pilzno;pilzno;4994;pilzno0;49.98;21.295;30;571
+Stronie Slaskie;Dolnoslaskie;stronieslaskie;stronieslaskie;4992;stronieslaskie0;50.296;16.873;62;572
+Lipsko;Mazowieckie;lipsko;lipsko;4948;lipsko0;51.159;21.649;60;573
+Ladek-Zdroj;Dolnoslaskie;ladekzdroj;ladekzdroj;4946;ladekzdroj0;50.343;16.88;63;574
+Odolanow;Wielkopolskie;odolanow;odolanow;4941;odolanow0;51.574;17.674;59;575
+Radymno;Podkarpackie;radymno;radymno;4935;radymno0;49.947;22.823;31;576
+Zagorz;Podkarpackie;zagorz;zagorz;4913;zagorz0;49.514;22.267;32;577
+Zbaszynek;Lubuskie;zbaszynek;zbaszynek;4898;zbaszynek0;52.242;15.815;23;578
+Miedzyzdroje;Zachodniopomorskie;miedzyzdroje;miedzyzdroje;4893;miedzyzdroje0;53.929;14.452;32;579
+Dzierzgon;Pomorskie;dzierzgon;dzierzgon;4893;dzierzgon0;53.921;19.347;33;580
+Sejny;Podlaskie;sejny;sejny;4889;sejny0;54.108;23.347;19;581
+Borne Sulinowo;Zachodniopomorskie;bornesulinowo;bornesulinowo;4843;bornesulinowo0;53.581;16.547;33;582
+Debrzno;Pomorskie;debrzno;debrzno;4834;debrzno0;53.538;17.236;34;583
+Szczytna;Dolnoslaskie;szczytna;szczytna;4788;szczytna0;50.412;16.446;64;584
+Skoki;Wielkopolskie;skoki;skoki;4773;skoki0;52.671;17.157;60;585
+Nowogrod Bobrzanski;Lubuskie;nowogrodbobrzanski;nowogrodbobrzanski;4767;nowogrodbobrzanski0;51.801;15.247;24;586
+Szczebrzeszyn;Lubelskie;szczebrzeszyn;szczebrzeszyn;4744;szczebrzeszyn0;50.695;22.98;26;587
+Budzyn;Wielkopolskie;budzyn;budzyn;4668;budzyn0;52.89;16.988;61;588
+Wolin;Zachodniopomorskie;wolin;wolin;4639;wolin0;53.842;14.614;34;589
+Bolkow;Dolnoslaskie;bolkow;bolkow;4632;bolkow0;50.925;16.104;65;590
+Jedlina-Zdroj;Dolnoslaskie;jedlinazdroj;jedlinazdroj;4623;jedlinazdroj0;50.726;16.349;66;591
+Kuznia Raciborska;Slaskie;kuzniaraciborska;kuzniaraciborska;4598;kuzniaraciborska0;50.2;18.311;59;592
+Nowe Skalmierzyce;Wielkopolskie;noweskalmierzyce;noweskalmierzyce;4578;noweskalmierzyce0;51.711;17.993;62;593
+Tyczyn;Podkarpackie;tyczyn;tyczyn;4562;tyczyn0;49.964;22.034;33;594
+Brzesc Kujawski;Kujawsko-Pomorskie;brzesckujawski;brzesckujawski;4525;brzesckujawski0;52.607;18.901;33;595
+Krobia;Wielkopolskie;krobia;krobia;4513;krobia0;51.775;16.986;63;596
+Laskarzew;Mazowieckie;laskarzew;laskarzew;4489;laskarzew0;51.789;21.592;61;597
+Bychawa;Lubelskie;bychawa;bychawa;4476;bychawa0;51.015;22.535;27;598
+Bierutow;Dolnoslaskie;bierutow;bierutow;4459;bierutow0;51.125;17.547;67;599
+Skaryszew;Mazowieckie;skaryszew;skaryszew;4456;skaryszew0;51.311;21.252;62;600
+Muszyna;Malopolskie;muszyna;muszyna;4433;muszyna0;49.353;20.892;43;601
+Pilawa;Mazowieckie;pilawa;pilawa;4431;pilawa0;51.959;21.529;63;602
+Ciechanowiec;Podlaskie;ciechanowiec;ciechanowiec;4372;ciechanowiec0;52.678;22.498;20;603
+Labiszyn;Kujawsko-Pomorskie;labiszyn;labiszyn;4352;labiszyn0;52.951;17.92;34;604
+Sokolow Malopolski;Podkarpackie;sokolowmalopolski;sokolowmalopolski;4346;sokolowmalopolski0;50.229;22.119;34;605
+Tarczyn;Mazowieckie;tarczyn;tarczyn;4343;tarczyn0;51.981;20.833;64;606
+Suprasl;Podlaskie;suprasl;suprasl;4332;suprasl0;53.205;23.339;21;607
+Zarki;Slaskie;zarki;zarki;4325;zarki0;50.624;19.364;60;608
+Checiny;Swietokrzyskie;checiny;checiny;4316;checiny0;50.801;20.461;18;609
+Zduny;Wielkopolskie;zduny;zduny;4314;zduny0;51.647;17.378;64;610
+Biecz;Malopolskie;biecz;biecz;4313;biecz0;49.733;21.258;44;611
+Kamieniec Zabkowicki;Dolnoslaskie;kamienieczabkowicki;kamienieczabkowicki;4309;kamienieczabkowicki0;50.524;16.876;68;612
+Kalwaria Zebrzydowska;Malopolskie;kalwariazebrzydowska;kalwariazebrzydowska;4300;kalwariazebrzydowska0;49.867;19.677;45;613
+Olszyna;Dolnoslaskie;olszyna;olszyna;4288;olszyna0;51.065;15.376;69;614
+Golina;Wielkopolskie;golina;golina;4284;golina0;52.242;18.095;65;615
+Ilza;Mazowieckie;ilza;ilza;4280;ilza0;51.163;21.24;65;616
+Kcynia;Kujawsko-Pomorskie;kcynia;kcynia;4238;kcynia0;52.992;17.49;35;617
+Karpacz;Dolnoslaskie;karpacz;karpacz;4208;karpacz0;50.776;15.756;70;618
+Ozarow;Swietokrzyskie;ozarow;ozarow;4203;ozarow0;50.885;21.665;19;619
+Piotrkow Kujawski;Kujawsko-Pomorskie;piotrkowkujawski;piotrkowkujawski;4185;piotrkowkujawski0;52.551;18.499;36;620
+Slomniki;Malopolskie;slomniki;slomniki;4161;slomniki0;50.241;20.082;46;621
+Mrocza;Kujawsko-Pomorskie;mrocza;mrocza;4129;mrocza0;53.247;17.608;37;622
+Gabin;Mazowieckie;gabin;gabin;4124;gabin0;52.397;19.736;66;623
+Wozniki;Slaskie;wozniki;wozniki;4121;wozniki0;50.625;19.065;61;624
+Ogrodzieniec;Slaskie;ogrodzieniec;ogrodzieniec;4110;ogrodzieniec0;50.452;19.521;62;625
+Slawa;Lubuskie;slawa;slawa;4103;slawa0;51.876;16.072;25;626
+Nowogrodziec;Dolnoslaskie;nowogrodziec;nowogrodziec;4102;nowogrodziec0;51.197;15.399;71;627
+Krzepice;Slaskie;krzepice;krzepice;4101;krzepice0;50.97;18.729;63;628
+Zabno;Malopolskie;zabno;zabno;4100;zabno0;50.133;20.886;47;629
+Szczucin;Malopolskie;szczucin;szczucin;4086;szczucin0;50.309;21.075;48;630
+Ruciane-Nida;Warminsko-Mazurskie;rucianenida;rucianenida;4073;rucianenida0;53.642;21.54;31;631
+Kowalewo Pomorskie;Kujawsko-Pomorskie;kowalewopomorskie;kowalewopomorskie;4063;kowalewopomorskie0;53.155;18.901;38;632
+Reszel;Warminsko-Mazurskie;reszel;reszel;4045;reszel0;54.05;21.147;32;633
+Kalisz Pomorski;Zachodniopomorskie;kaliszpomorski;kaliszpomorski;4039;kaliszpomorski0;53.299;15.906;35;634
+Jasien;Lubuskie;jasien;jasien;4037;jasien0;51.753;15.011;26;635
+Rejowiec Fabryczny;Lubelskie;rejowiecfabryczny;rejowiecfabryczny;4003;rejowiecfabryczny0;51.115;23.246;28;636
+Nowy Staw;Pomorskie;nowystaw;nowystaw;4001;nowystaw0;54.135;19.003;35;637
+Duszniki-Zdroj;Dolnoslaskie;dusznikizdroj;dusznikizdroj;4001;dusznikizdroj0;50.396;16.389;72;638
+Lesna;Dolnoslaskie;lesna;lesna;3995;lesna0;51.023;15.264;73;639
+Krosniewice;Lodzkie;krosniewice;krosniewice;3991;krosniewice0;52.252;19.17;32;640
+Raciaz;Mazowieckie;raciaz;raciaz;3966;raciaz0;52.782;20.118;67;641
+Swieradow-Zdroj;Dolnoslaskie;swieradowzdroj;swieradowzdroj;3960;swieradowzdroj0;50.909;15.343;74;642
+Jedlnia-Letnisko;Mazowieckie;jedlnialetnisko;jedlnialetnisko;3957;jedlnialetnisko0;51.431;21.328;68;643
+Korsze;Warminsko-Mazurskie;korsze;korsze;3934;korsze0;54.17;21.139;33;644
+Bytom Odrzanski;Lubuskie;bytomodrzanski;bytomodrzanski;3910;bytomodrzanski0;51.731;15.822;27;645
+Szamocin;Wielkopolskie;szamocin;szamocin;3900;szamocin0;53.03;17.124;66;646
+Kleczew;Wielkopolskie;kleczew;kleczew;3893;kleczew0;52.37;18.172;67;647
+Resko;Zachodniopomorskie;resko;resko;3892;resko0;53.773;15.407;36;648
+Osno Lubuskie;Lubuskie;osnolubuskie;osnolubuskie;3889;osnolubuskie0;52.452;14.878;28;649
+Skala;Malopolskie;skala;skala;3880;skala0;50.23;19.854;49;650
+Kargowa;Lubuskie;kargowa;kargowa;3827;kargowa0;52.072;15.865;29;651
+Nekla;Wielkopolskie;nekla;nekla;3826;nekla0;52.366;17.408;68;652
+Babimost;Lubuskie;babimost;babimost;3818;babimost0;52.165;15.828;30;653
+Podkowa Lesna;Mazowieckie;podkowalesna;podkowalesna;3799;podkowalesna0;52.12;20.727;69;654
+Lipiany;Zachodniopomorskie;lipiany;lipiany;3798;lipiany0;53.003;14.97;37;655
+Czerwiensk;Lubuskie;czerwiensk;czerwiensk;3776;czerwiensk0;52.013;15.423;31;656
+Zawidow;Dolnoslaskie;zawidow;zawidow;3761;zawidow0;51.025;15.062;75;657
+Halinow;Mazowieckie;halinow;halinow;3752;halinow0;52.228;21.355;70;658
+Mieroszow;Dolnoslaskie;mieroszow;mieroszow;3729;mieroszow0;50.665;16.189;76;659
+Bobolice;Zachodniopomorskie;bobolice;bobolice;3723;bobolice0;53.955;16.587;38;660
+Zelechow;Mazowieckie;zelechow;zelechow;3719;zelechow0;51.811;21.896;71;661
+Ploty;Zachodniopomorskie;ploty;ploty;3705;ploty0;53.801;15.267;39;662
+Czarny Dunajec;Malopolskie;czarnydunajec;czarnydunajec;3680;czarnydunajec0;49.441;19.853;50;663
+Janowiec Wielkopolski;Kujawsko-Pomorskie;janowiecwielkopolski;janowiecwielkopolski;3675;janowiecwielkopolski0;52.76;17.489;39;664
+Biala Piska;Warminsko-Mazurskie;bialapiska;bialapiska;3673;bialapiska0;53.612;22.063;34;665
+Jablonowo Pomorskie;Kujawsko-Pomorskie;jablonowopomorskie;jablonowopomorskie;3648;jablonowopomorskie0;53.389;19.154;40;666
+Gorowo Ilaweckie;Warminsko-Mazurskie;gorowoilaweckie;gorowoilaweckie;3627;gorowoilaweckie0;54.286;20.491;35;667
+Pruchnik;Podkarpackie;pruchnik;pruchnik;3625;pruchnik0;49.906;22.516;35;668
+Mrozy;Mazowieckie;mrozy;mrozy;3623;mrozy0;52.166;21.803;72;669
+Tulowice;Opolskie;tulowice;tulowice;3622;tulowice0;50.595;17.653;26;670
+Mirsk;Dolnoslaskie;mirsk;mirsk;3619;mirsk0;50.969;15.386;77;671
+Okonek;Wielkopolskie;okonek;okonek;3616;okonek0;53.536;16.852;69;672
+Naleczow;Lubelskie;naleczow;naleczow;3611;naleczow0;51.286;22.215;29;673
+Zator;Malopolskie;zator;zator;3601;zator0;49.994;19.438;51;674
+Ilowa;Lubuskie;ilowa;ilowa;3593;ilowa0;51.5;15.193;32;675
+Rakoniewice;Wielkopolskie;rakoniewice;rakoniewice;3590;rakoniewice0;52.139;16.274;70;676
+Strumien;Slaskie;strumien;strumien;3558;strumien0;49.916;18.76;64;677
+Rymanow;Podkarpackie;rymanow;rymanow;3545;rymanow0;49.575;21.868;36;678
+Drzewica;Lodzkie;drzewica;drzewica;3526;drzewica0;51.451;20.477;33;679
+Krajenka;Wielkopolskie;krajenka;krajenka;3498;krajenka0;53.298;16.991;71;680
+Prochowice;Dolnoslaskie;prochowice;prochowice;3496;prochowice0;51.274;16.365;78;681
+Bransk;Podlaskie;bransk;bransk;3494;bransk0;52.742;22.839;22;682
+Opatowek;Wielkopolskie;opatowek;opatowek;3493;opatowek0;51.74;18.215;72;683
+Toszek;Slaskie;toszek;toszek;3489;toszek0;50.454;18.522;65;684
+Nowe Miasto nad Pilica;Mazowieckie;nowemiastonadpilica;nowemiastonadpilica;3484;nowemiastonadpilica0;51.618;20.577;73;685
+Barwice;Zachodniopomorskie;barwice;barwice;3475;barwice0;53.744;16.355;40;686
+Rzgow;Lodzkie;rzgow;rzgow;3457;rzgow0;51.663;19.49;34;687
+Dobrodzien;Opolskie;dobrodzien;dobrodzien;3447;dobrodzien0;50.729;18.445;27;688
+Skorcz;Pomorskie;skorcz;skorcz;3439;skorcz0;53.794;18.525;36;689
+Chmielnik;Swietokrzyskie;chmielnik;chmielnik;3434;chmielnik0;50.614;20.752;20;690
+Wojcieszow;Dolnoslaskie;wojcieszow;wojcieszow;3431;wojcieszow0;50.952;15.923;79;691
+Malomice;Lubuskie;malomice;malomice;3420;malomice0;51.554;15.449;33;692
+Skepe;Kujawsko-Pomorskie;skepe;skepe;3415;skepe0;52.867;19.346;41;693
+Radomysl Wielki;Podkarpackie;radomyslwielki;radomyslwielki;3409;radomyslwielki0;50.196;21.278;37;694
+Zloczew;Lodzkie;zloczew;zloczew;3403;zloczew0;51.419;18.606;35;695
+Miloslaw;Wielkopolskie;miloslaw;miloslaw;3391;miloslaw0;52.203;17.49;73;696
+Strykow;Lodzkie;strykow;strykow;3363;strykow0;51.902;19.605;36;697
+Mikolajki;Warminsko-Mazurskie;mikolajki;mikolajki;3361;mikolajki0;53.803;21.571;36;698
+Malogoszcz;Swietokrzyskie;malogoszcz;malogoszcz;3356;malogoszcz0;50.812;20.265;21;699
+Ujscie;Wielkopolskie;ujscie;ujscie;3355;ujscie0;53.053;16.732;74;700
+Byczyna;Opolskie;byczyna;byczyna;3353;byczyna0;51.113;18.212;28;701
+Mieszkowice;Zachodniopomorskie;mieszkowice;mieszkowice;3343;mieszkowice0;52.788;14.493;41;702
+Sompolno;Wielkopolskie;sompolno;sompolno;3336;sompolno0;52.388;18.503;75;703
+Szczekociny;Slaskie;szczekociny;szczekociny;3329;szczekociny0;50.627;19.826;66;704
+Maszewo;Zachodniopomorskie;maszewo;maszewo;3303;maszewo0;53.497;15.06;42;705
+Kepice;Pomorskie;kepice;kepice;3283;kepice0;54.242;16.89;37;706
+Kowal;Kujawsko-Pomorskie;kowal;kowal;3278;kowal0;52.53;19.148;42;707
+Alwernia;Malopolskie;alwernia;alwernia;3244;alwernia0;50.06;19.539;52;708
+Kazimierz Dolny;Lubelskie;kazimierzdolny;kazimierzdolny;3239;kazimierzdolny0;51.318;21.954;30;709
+Kolonowskie;Opolskie;kolonowskie;kolonowskie;3207;kolonowskie0;50.653;18.386;29;710
+Kobylin;Wielkopolskie;kobylin;kobylin;3203;kobylin0;51.716;17.226;76;711
+Myszyniec;Mazowieckie;myszyniec;myszyniec;3189;myszyniec0;53.38;21.35;74;712
+Przedborz;Lodzkie;przedborz;przedborz;3182;przedborz0;51.088;19.874;37;713
+Golancz;Wielkopolskie;golancz;golancz;3180;golancz0;52.943;17.3;77;714
+Wilamowice;Slaskie;wilamowice;wilamowice;3167;wilamowice0;49.914;19.152;67;715
+Wojnicz;Malopolskie;wojnicz;wojnicz;3141;wojnicz0;49.958;20.839;53;716
+Szczuczyn;Podlaskie;szczuczyn;szczuczyn;3139;szczuczyn0;53.563;22.286;23;717
+Zakroczym;Mazowieckie;zakroczym;zakroczym;3129;zakroczym0;52.438;20.612;75;718
+Tarnogrod;Lubelskie;tarnogrod;tarnogrod;3109;tarnogrod0;50.36;22.742;31;719
+Slesin;Wielkopolskie;slesin;slesin;3098;slesin0;52.37;18.305;78;720
+Lasin;Kujawsko-Pomorskie;lasin;lasin;3060;lasin0;53.518;19.084;43;721
+Bobowa;Malopolskie;bobowa;bobowa;3060;bobowa0;49.709;20.945;54;722
+Miejska Gorka;Wielkopolskie;miejskagorka;miejskagorka;3054;miejskagorka0;51.655;16.955;79;723
+Tuliszkow;Wielkopolskie;tuliszkow;tuliszkow;3038;tuliszkow0;52.077;18.296;80;724
+Leba;Pomorskie;leba;leba;3024;leba0;54.76;17.556;38;725
+Miroslawiec;Zachodniopomorskie;miroslawiec;miroslawiec;3018;miroslawiec0;53.343;16.089;43;726
+Biala Rawska;Lodzkie;bialarawska;bialarawska;3001;bialarawska0;51.808;20.473;38;727
+Chociwel;Zachodniopomorskie;chociwel;chociwel;2989;chociwel0;53.464;15.333;44;728
+Dobiegniew;Lubuskie;dobiegniew;dobiegniew;2985;dobiegniew0;52.97;15.753;34;729
+Uniejow;Lodzkie;uniejow;uniejow;2982;uniejow0;51.97;18.797;39;730
+Wielbark;Warminsko-Mazurskie;wielbark;wielbark;2979;wielbark0;53.399;20.951;37;731
+Margonin;Wielkopolskie;margonin;margonin;2967;margonin0;52.973;17.095;81;732
+Krasnobrod;Lubelskie;krasnobrod;krasnobrod;2967;krasnobrod0;50.545;23.218;32;733
+Pyzdry;Wielkopolskie;pyzdry;pyzdry;2958;pyzdry0;52.17;17.69;82;734
+Piekoszow;Swietokrzyskie;piekoszow;piekoszow;2948;piekoszow0;50.882;20.463;22;735
+Jeziorany;Warminsko-Mazurskie;jeziorany;jeziorany;2943;jeziorany0;53.979;20.747;38;736
+Warta;Lodzkie;warta;warta;2935;warta0;51.711;18.625;40;737
+Lwowek;Wielkopolskie;lwowek;lwowek;2923;lwowek0;52.448;16.178;83;738
+Dobrzyca;Wielkopolskie;dobrzyca;dobrzyca;2922;dobrzyca0;51.867;17.602;84;739
+Poniec;Wielkopolskie;poniec;poniec;2918;poniec0;51.766;16.809;85;740
+Kanczuga;Podkarpackie;kanczuga;kanczuga;2900;kanczuga0;49.984;22.412;38;741
+Chorzele;Mazowieckie;chorzele;chorzele;2894;chorzele0;53.259;20.897;76;742
+Kock;Lubelskie;kock;kock;2870;kock0;51.639;22.448;33;743
+Rydzyna;Wielkopolskie;rydzyna;rydzyna;2869;rydzyna0;51.789;16.669;86;744
+Radoszyce;Swietokrzyskie;radoszyce;radoszyce;2831;radoszyce0;51.074;20.255;23;745
+Polanow;Zachodniopomorskie;polanow;polanow;2824;polanow0;54.119;16.688;45;746
+Baborow;Opolskie;baborow;baborow;2823;baborow0;50.156;17.987;30;747
+Oleszyce;Podkarpackie;oleszyce;oleszyce;2816;oleszyce0;50.168;23.036;39;748
+Bojanowo;Wielkopolskie;bojanowo;bojanowo;2790;bojanowo0;51.707;16.751;87;749
+Glinojeck;Mazowieckie;glinojeck;glinojeck;2788;glinojeck0;52.818;20.284;77;750
+Cmielow;Swietokrzyskie;cmielow;cmielow;2788;cmielow0;50.89;21.516;24;751
+Hel;Pomorskie;hel;hel;2786;hel0;54.608;18.801;39;752
+Zwierzyniec;Lubelskie;zwierzyniec;zwierzyniec;2780;zwierzyniec0;50.614;22.975;34;753
+Zaklikow;Podkarpackie;zaklikow;zaklikow;2780;zaklikow0;50.756;22.102;40;754
+Kaczory;Wielkopolskie;kaczory;kaczory;2777;kaczory0;53.102;16.884;88;755
+Lobzenica;Wielkopolskie;lobzenica;lobzenica;2764;lobzenica0;53.26;17.259;89;756
+Pruszcz;Kujawsko-Pomorskie;pruszcz;pruszcz;2759;pruszcz0;53.331;18.197;44;757
+Michalowo;Podlaskie;michalowo;michalowo;2753;michalowo0;53.037;23.604;24;758
+Daleszyce;Swietokrzyskie;daleszyce;daleszyce;2750;daleszyce0;50.803;20.81;25;759
+Mielno;Zachodniopomorskie;mielno;mielno;2737;mielno0;54.26;16.061;46;760
+Goscino;Zachodniopomorskie;goscino;goscino;2734;goscino0;54.05;15.654;47;761
+Nowy Wisnicz;Malopolskie;nowywisnicz;nowywisnicz;2730;nowywisnicz0;49.915;20.461;55;762
+Zagorow;Wielkopolskie;zagorow;zagorow;2729;zagorow0;52.169;17.898;90;763
+Gozdnica;Lubuskie;gozdnica;gozdnica;2726;gozdnica0;51.44;15.102;35;764
+Sulmierzyce;Wielkopolskie;sulmierzyce;sulmierzyce;2722;sulmierzyce0;51.606;17.532;91;765
+Kunow;Swietokrzyskie;kunow;kunow;2699;kunow0;50.961;21.28;26;766
+Kaluszyn;Mazowieckie;kaluszyn;kaluszyn;2699;kaluszyn0;52.207;21.81;78;767
+Radlow;Malopolskie;radlow;radlow;2698;radlow0;50.084;20.85;56;768
+Lubraniec;Kujawsko-Pomorskie;lubraniec;lubraniec;2696;lubraniec0;52.541;18.831;45;769
+Brzostek;Podkarpackie;brzostek;brzostek;2688;brzostek0;49.879;21.412;41;770
+Niemcza;Dolnoslaskie;niemcza;niemcza;2683;niemcza0;50.721;16.832;80;771
+Ryn;Warminsko-Mazurskie;ryn;ryn;2678;ryn0;53.938;21.546;39;772
+Ryglice;Malopolskie;ryglice;ryglice;2673;ryglice0;49.88;21.138;57;773
+Wegliniec;Dolnoslaskie;wegliniec;wegliniec;2662;wegliniec0;51.289;15.218;81;774
+Cybinka;Lubuskie;cybinka;cybinka;2656;cybinka0;52.195;14.797;36;775
+Recz;Zachodniopomorskie;recz;recz;2647;recz0;53.26;15.551;48;776
+Czarna Woda;Pomorskie;czarnawoda;czarnawoda;2644;czarnawoda0;53.845;18.1;40;777
+Knyszyn;Podlaskie;knyszyn;knyszyn;2643;knyszyn0;53.313;22.92;25;778
+Nowe Miasteczko;Lubuskie;nowemiasteczko;nowemiasteczko;2636;nowemiasteczko0;51.69;15.732;37;779
+Drobin;Mazowieckie;drobin;drobin;2631;drobin0;52.737;19.992;79;780
+Wegorzyno;Zachodniopomorskie;wegorzyno;wegorzyno;2628;wegorzyno0;53.541;15.559;49;781
+Rozan;Mazowieckie;rozan;rozan;2616;rozan0;52.887;21.391;80;782
+Jastarnia;Pomorskie;jastarnia;jastarnia;2604;jastarnia0;54.696;18.679;41;783
+Kamiensk;Lodzkie;kamiensk;kamiensk;2599;kamiensk0;51.203;19.498;41;784
+Czerniejewo;Wielkopolskie;czerniejewo;czerniejewo;2555;czerniejewo0;52.428;17.49;92;785
+Proszkow;Opolskie;proszkow;proszkow;2552;proszkow0;50.577;17.871;31;786
+Wasosz;Dolnoslaskie;wasosz;wasosz;2551;wasosz0;51.565;16.694;82;787
+Lesnica;Opolskie;lesnica;lesnica;2546;lesnica0;50.431;18.187;32;788
+Ksiaz Wielkopolski;Wielkopolskie;ksiazwielkopolski;ksiazwielkopolski;2544;ksiazwielkopolski0;52.064;17.241;93;789
+Stepnica;Zachodniopomorskie;stepnica;stepnica;2520;stepnica0;53.652;14.625;50;790
+Klecko;Wielkopolskie;klecko;klecko;2520;klecko0;52.632;17.431;94;791
+Wysoka;Wielkopolskie;wysoka;wysoka;2511;wysoka0;53.182;17.08;95;792
+Golczewo;Zachodniopomorskie;golczewo;golczewo;2504;golczewo0;53.824;14.978;51;793
+Olsztyn;Slaskie;olsztyn;olsztyn;2492;olsztyn1;50.751;19.267;68;794
+Zabludow;Podlaskie;zabludow;zabludow;2485;zabludow0;53.015;23.339;26;795
+Ciezkowice;Malopolskie;ciezkowice;ciezkowice;2482;ciezkowice0;49.783;20.974;58;796
+Czyzew;Podlaskie;czyzew;czyzew;2480;czyzew0;52.797;22.312;27;797
+Wachock;Swietokrzyskie;wachock;wachock;2466;wachock0;51.074;21.01;27;798
+Izbica Kujawska;Kujawsko-Pomorskie;izbicakujawska;izbicakujawska;2460;izbicakujawska0;52.421;18.762;46;799
+Osieczna;Wielkopolskie;osieczna;osieczna;2443;osieczna0;51.904;16.678;96;800
+Borek Wielkopolski;Wielkopolskie;borekwielkopolski;borekwielkopolski;2436;borekwielkopolski0;51.916;17.241;97;801
+Zloty Stok;Dolnoslaskie;zlotystok;zlotystok;2432;zlotystok0;50.443;16.872;83;802
+Pieniezno;Warminsko-Mazurskie;pieniezno;pieniezno;2420;pieniezno0;54.235;20.127;40;803
+Gorzow Slaski;Opolskie;gorzowslaski;gorzowslaski;2420;gorzowslaski0;51.028;18.422;33;804
+Piaski;Lubelskie;piaski;piaski;2416;piaski0;51.134;22.839;35;805
+Milomlyn;Warminsko-Mazurskie;milomlyn;milomlyn;2410;milomlyn0;53.764;19.835;41;806
+Pelczyce;Zachodniopomorskie;pelczyce;pelczyce;2402;pelczyce0;53.043;15.305;52;807
+Wyszogrod;Mazowieckie;wyszogrod;wyszogrod;2400;wyszogrod0;52.392;20.19;81;808
+Milakowo;Warminsko-Mazurskie;milakowo;milakowo;2399;milakowo0;54.009;20.07;42;809
+Tolkmicko;Warminsko-Mazurskie;tolkmicko;tolkmicko;2395;tolkmicko0;54.32;19.528;43;810
+Torzym;Lubuskie;torzym;torzym;2391;torzym0;52.312;15.082;38;811
+Obrzycko;Wielkopolskie;obrzycko;obrzycko;2391;obrzycko0;52.709;16.525;98;812
+Pasym;Warminsko-Mazurskie;pasym;pasym;2390;pasym0;53.65;20.792;44;813
+Swiatniki Gorne;Malopolskie;swiatnikigorne;swiatnikigorne;2385;swiatnikigorne0;49.934;19.954;59;814
+Rychwal;Wielkopolskie;rychwal;rychwal;2383;rychwal0;52.07;18.167;99;815
+Kozieglowy;Slaskie;kozieglowy;kozieglowy;2382;kozieglowy0;50.6;19.163;69;816
+Miedzylesie;Dolnoslaskie;miedzylesie;miedzylesie;2375;miedzylesie0;50.147;16.666;84;817
+Koprzywnica;Swietokrzyskie;koprzywnica;koprzywnica;2368;koprzywnica0;50.592;21.584;28;818
+Stoczek Lukowski;Lubelskie;stoczeklukowski;stoczeklukowski;2362;stoczeklukowski0;51.961;21.971;36;819
+Tychowo;Zachodniopomorskie;tychowo;tychowo;2332;tychowo0;53.928;16.258;53;820
+Kamien Krajenski;Kujawsko-Pomorskie;kamienkrajenski;kamienkrajenski;2321;kamienkrajenski0;53.534;17.521;47;821
+Jozefow;Lubelskie;jozefow;jozefow;2319;jozefow1;50.481;23.057;37;822
+Miedzyborz;Dolnoslaskie;miedzyborz;miedzyborz;2314;miedzyborz0;51.397;17.667;85;823
+Ceglow;Mazowieckie;ceglow;ceglow;2311;ceglow0;52.147;21.74;82;824
+Bardo;Dolnoslaskie;bardo;bardo;2309;bardo0;50.505;16.74;86;825
+Dziwnow;Zachodniopomorskie;dziwnow;dziwnow;2302;dziwnow0;54.027;14.758;54;826
+Annopol;Lubelskie;annopol;annopol;2300;annopol0;50.889;21.866;38;827
+Czchow;Malopolskie;czchow;czchow;2276;czchow0;49.837;20.68;60;828
+Wolborz;Lodzkie;wolborz;wolborz;2270;wolborz0;51.502;19.83;42;829
+Biala;Opolskie;biala;biala;2256;biala0;50.386;17.664;34;830
+Wiazow;Dolnoslaskie;wiazow;wiazow;2254;wiazow0;50.814;17.202;87;831
+Radkow;Dolnoslaskie;radkow;radkow;2245;radkow0;50.505;16.398;88;832
+Leknica;Lubuskie;leknica;leknica;2238;leknica0;51.541;14.739;39;833
+Trzciel;Lubuskie;trzciel;trzciel;2221;trzciel0;52.364;15.875;40;834
+Lututow;Lodzkie;lututow;lututow;2200;lututow0;51.371;18.434;43;835
+Dobrzany;Zachodniopomorskie;dobrzany;dobrzany;2159;dobrzany0;53.361;15.429;55;836
+Czlopa;Zachodniopomorskie;czlopa;czlopa;2158;czlopa0;53.089;16.121;56;837
+Drawno;Zachodniopomorskie;drawno;drawno;2156;drawno0;53.22;15.759;57;838
+Bisztynek;Warminsko-Mazurskie;bisztynek;bisztynek;2156;bisztynek0;54.086;20.905;45;839
+Prusice;Dolnoslaskie;prusice;prusice;2144;prusice0;51.371;16.96;89;840
+Lubycza Krolewska;Lubelskie;lubyczakrolewska;lubyczakrolewska;2142;lubyczakrolewska0;50.34;23.523;39;841
+Bialy Bor;Zachodniopomorskie;bialybor;bialybor;2142;bialybor0;53.896;16.835;58;842
+Krynki;Podlaskie;krynki;krynki;2132;krynki0;53.265;23.772;28;843
+Mogielnica;Mazowieckie;mogielnica;mogielnica;2118;mogielnica0;51.694;20.723;83;844
+Trzcinsko-Zdroj;Zachodniopomorskie;trzcinskozdroj;trzcinskozdroj;2114;trzcinskozdroj0;52.965;14.605;59;845
+Raszkow;Wielkopolskie;raszkow;raszkow;2099;raszkow0;51.72;17.732;100;846
+Blazowa;Podkarpackie;blazowa;blazowa;2096;blazowa0;49.886;22.101;42;847
+Miekinia;Dolnoslaskie;miekinia;miekinia;2094;miekinia0;51.189;16.736;90;848
+Bodzentyn;Swietokrzyskie;bodzentyn;bodzentyn;2091;bodzentyn0;50.94;20.957;29;849
+Nowogrod;Podlaskie;nowogrod;nowogrod;2087;nowogrod0;53.226;21.883;29;850
+Zerkow;Wielkopolskie;zerkow;zerkow;2080;zerkow0;52.069;17.565;101;851
+Lipsk;Podlaskie;lipsk;lipsk;2052;lipsk0;53.737;23.392;30;852
+Suchowola;Podlaskie;suchowola;suchowola;2034;suchowola0;53.577;23.105;31;853
+Pogorzela;Wielkopolskie;pogorzela;pogorzela;2032;pogorzela0;51.823;17.234;102;854
+Frombork;Warminsko-Mazurskie;frombork;frombork;2029;frombork0;54.357;19.679;46;855
+Zalewo;Warminsko-Mazurskie;zalewo;zalewo;2026;zalewo0;53.846;19.604;47;856
+Dobra;Zachodniopomorskie;dobra;dobra;2019;dobra0;53.586;15.31;60;857
+Szepietowo;Podlaskie;szepietowo;szepietowo;2018;szepietowo0;52.87;22.544;32;858
+Sieniawa;Podkarpackie;sieniawa;sieniawa;2007;sieniawa0;50.176;22.608;43;859
+Kisielice;Warminsko-Mazurskie;kisielice;kisielice;2005;kisielice0;53.608;19.267;48;860
+Lubniewice;Lubuskie;lubniewice;lubniewice;2004;lubniewice0;52.516;15.25;41;861
+Swierzawa;Dolnoslaskie;swierzawa;swierzawa;2003;swierzawa0;51.014;15.896;91;862
+Stawiski;Podlaskie;stawiski;stawiski;2003;stawiski0;53.38;22.155;33;863
+Krzanowice;Slaskie;krzanowice;krzanowice;2000;krzanowice0;50.018;18.125;70;864
+Blaszki;Lodzkie;blaszki;blaszki;1987;blaszki0;51.652;18.434;44;865
+Rejowiec;Lubelskie;rejowiec;rejowiec;1982;rejowiec0;51.091;23.281;40;866
+Narol;Podkarpackie;narol;narol;1979;narol0;50.349;23.327;44;867
+Dukla;Podkarpackie;dukla;dukla;1971;dukla0;49.556;21.683;45;868
+Osiek;Swietokrzyskie;osiek;osiek;1970;osiek0;50.52;21.442;30;869
+Ostrow Lubelski;Lubelskie;ostrowlubelski;ostrowlubelski;1964;ostrowlubelski0;51.494;22.853;41;870
+Kosow Lacki;Mazowieckie;kosowlacki;kosowlacki;1962;kosowlacki0;52.596;22.147;84;871
+Dobrzyn nad Wisla;Kujawsko-Pomorskie;dobrzynnadwisla;dobrzynnadwisla;1962;dobrzynnadwisla0;52.639;19.319;48;872
+Laszczow;Lubelskie;laszczow;laszczow;1961;laszczow0;50.533;23.726;42;873
+Sosnicowice;Slaskie;sosnicowice;sosnicowice;1958;sosnicowice0;50.272;18.53;71;874
+Sochocin;Mazowieckie;sochocin;sochocin;1925;sochocin0;52.69;20.474;85;875
+Grabow nad Prosna;Wielkopolskie;grabownadprosna;grabownadprosna;1908;grabownadprosna0;51.506;18.119;103;876
+Sepopol;Warminsko-Mazurskie;sepopol;sepopol;1890;sepopol0;54.269;21.014;49;877
+Jutrosin;Wielkopolskie;jutrosin;jutrosin;1850;jutrosin0;51.652;17.169;104;878
+Tykocin;Podlaskie;tykocin;tykocin;1844;tykocin0;53.207;22.774;34;879
+Ostrorog;Wielkopolskie;ostrorog;ostrorog;1836;ostrorog0;52.627;16.456;105;880
+Kozminek;Wielkopolskie;kozminek;kozminek;1823;kozminek0;51.798;18.334;106;881
+Tyszowce;Lubelskie;tyszowce;tyszowce;1821;tyszowce0;50.615;23.702;43;882
+Przeclaw;Podkarpackie;przeclaw;przeclaw;1820;przeclaw0;50.193;21.479;46;883
+Ujazd;Opolskie;ujazd;ujazd;1818;ujazd0;50.389;18.353;35;884
+Cieszanow;Podkarpackie;cieszanow;cieszanow;1815;cieszanow0;50.245;23.131;47;885
+Radzyn Chelminski;Kujawsko-Pomorskie;radzynchelminski;radzynchelminski;1795;radzynchelminski0;53.384;18.939;49;886
+Tuczno;Zachodniopomorskie;tuczno;tuczno;1780;tuczno0;53.194;16.155;61;887
+Lubomierz;Dolnoslaskie;lubomierz;lubomierz;1775;lubomierz0;51.012;15.51;92;888
+Insko;Zachodniopomorskie;insko;insko;1772;insko0;53.436;15.55;62;889
+Morawica;Swietokrzyskie;morawica;morawica;1768;morawica0;50.747;20.618;31;890
+Szadek;Lodzkie;szadek;szadek;1761;szadek0;51.692;18.976;45;891
+Pilica;Slaskie;pilica;pilica;1761;pilica0;50.468;19.657;72;892
+Otyn;Lubuskie;otyn;otyn;1758;otyn0;51.847;15.71;42;893
+Klimontow;Swietokrzyskie;klimontow;klimontow;1758;klimontow0;50.657;21.447;32;894
+Drohiczyn;Podlaskie;drohiczyn;drohiczyn;1747;drohiczyn0;52.4;22.659;35;895
+Nieszawa;Kujawsko-Pomorskie;nieszawa;nieszawa;1740;nieszawa0;52.834;18.899;50;896
+Brok;Mazowieckie;brok;brok;1731;brok0;52.698;21.847;86;897
+Sanniki;Mazowieckie;sanniki;sanniki;1721;sanniki0;52.332;19.862;87;898
+Goniadz;Podlaskie;goniadz;goniadz;1717;goniadz0;53.489;22.734;36;899
+Kamionka;Lubelskie;kamionka;kamionka;1714;kamionka0;51.47;22.462;44;900
+Biezun;Mazowieckie;biezun;biezun;1713;biezun0;52.963;19.886;88;901
+Olesnica;Swietokrzyskie;olesnica;olesnica;1710;olesnica1;50.453;21.064;33;902
+Urzedow;Lubelskie;urzedow;urzedow;1708;urzedow0;50.994;22.143;45;903
+Chodecz;Kujawsko-Pomorskie;chodecz;chodecz;1705;chodecz0;52.404;19.028;51;904
+Dabie;Wielkopolskie;dabie;dabie;1703;dabie0;52.088;18.822;107;905
+Mikstat;Wielkopolskie;mikstat;mikstat;1702;mikstat0;51.533;17.975;108;906
+Korfantow;Opolskie;korfantow;korfantow;1689;korfantow0;50.489;17.599;36;907
+Izbica;Lubelskie;izbica;izbica;1684;izbica0;50.89;23.167;46;908
+Mlynary;Warminsko-Mazurskie;mlynary;mlynary;1681;mlynary0;54.189;19.725;50;909
+Jedwabne;Podlaskie;jedwabne;jedwabne;1676;jedwabne0;53.285;22.3;37;910
+Wielichowo;Wielkopolskie;wielichowo;wielichowo;1665;wielichowo0;52.116;16.351;109;911
+Krzywin;Wielkopolskie;krzywin;krzywin;1662;krzywin0;51.963;16.82;110;912
+Chocz;Wielkopolskie;chocz;chocz;1625;chocz0;51.975;17.871;111;913
+Rozprza;Lodzkie;rozprza;rozprza;1622;rozprza0;51.303;19.646;46;914
+Moryn;Zachodniopomorskie;moryn;moryn;1622;moryn0;52.858;14.399;63;915
+Nowe Brzesko;Malopolskie;nowebrzesko;nowebrzesko;1604;nowebrzesko0;50.132;20.377;61;916
+Mordy;Mazowieckie;mordy;mordy;1599;mordy0;52.212;22.518;89;917
+Zawichost;Swietokrzyskie;zawichost;zawichost;1596;zawichost0;50.808;21.846;34;918
+Zakliczyn;Malopolskie;zakliczyn;zakliczyn;1579;zakliczyn0;49.856;20.814;62;919
+Lutomiersk;Lodzkie;lutomiersk;lutomiersk;1574;lutomiersk0;51.754;19.212;47;920
+Wlen;Dolnoslaskie;wlen;wlen;1569;wlen0;51.015;15.675;93;921
+Piatek;Lodzkie;piatek;piatek;1551;piatek0;52.069;19.48;48;922
+Dolsk;Wielkopolskie;dolsk;dolsk;1550;dolsk0;51.982;17.066;112;923
+Iwonicz-Zdroj;Podkarpackie;iwoniczzdroj;iwoniczzdroj;1540;iwoniczzdroj0;49.567;21.793;48;924
+Przedecz;Wielkopolskie;przedecz;przedecz;1534;przedecz0;52.334;18.904;113;925
+Ujazd;Lodzkie;ujazd;ujazd;1533;ujazd1;51.599;19.921;49;926
+Lagow;Swietokrzyskie;lagow;lagow;1521;lagow0;50.775;21.084;35;927
+Nowe Miasto;Mazowieckie;nowemiasto;nowemiasto;1514;nowemiasto0;52.656;20.629;90;928
+Lubowidz;Mazowieckie;lubowidz;lubowidz;1499;lubowidz0;53.121;19.842;91;929
+Cedynia;Zachodniopomorskie;cedynia;cedynia;1459;cedynia0;52.878;14.201;64;930
+Lopuszno;Swietokrzyskie;lopuszno;lopuszno;1445;lopuszno0;50.949;20.251;36;931
+Wiskitki;Mazowieckie;wiskitki;wiskitki;1442;wiskitki0;52.086;20.384;92;932
+Modliborzyce;Lubelskie;modliborzyce;modliborzyce;1416;modliborzyce0;50.753;22.33;47;933
+Baranow Sandomierski;Podkarpackie;baranowsandomierski;baranowsandomierski;1395;baranowsandomierski0;50.494;21.545;49;934
+Suchan;Zachodniopomorskie;suchan;suchan;1393;suchan0;53.28;15.325;65;935
+Gorzno;Kujawsko-Pomorskie;gorzno;gorzno;1391;gorzno0;53.197;19.643;52;936
+Rajgrod;Podlaskie;rajgrod;rajgrod;1388;rajgrod0;53.731;22.704;38;937
+Ulanow;Podkarpackie;ulanow;ulanow;1368;ulanow0;50.491;22.269;50;938
+Jaraczewo;Wielkopolskie;jaraczewo;jaraczewo;1368;jaraczewo0;51.969;17.298;114;939
+Kolaczyce;Podkarpackie;kolaczyce;kolaczyce;1359;kolaczyce0;49.807;21.433;51;940
+Stawiszyn;Wielkopolskie;stawiszyn;stawiszyn;1356;stawiszyn0;51.916;18.109;115;941
+Latowicz;Mazowieckie;latowicz;latowicz;1339;latowicz0;52.027;21.806;93;942
+Frampol;Lubelskie;frampol;frampol;1330;frampol0;50.672;22.671;48;943
+Dobra;Wielkopolskie;dobra;dobra;1328;dobra1;51.916;18.616;116;944
+Siedliszcze;Lubelskie;siedliszcze;siedliszcze;1325;siedliszcze0;51.196;23.162;49;945
+Lubien Kujawski;Kujawsko-Pomorskie;lubienkujawski;lubienkujawski;1307;lubienkujawski0;52.406;19.165;53;946
+Nowa Slupia;Swietokrzyskie;nowaslupia;nowaslupia;1288;nowaslupia0;50.863;21.088;37;947
+Pierzchnica;Swietokrzyskie;pierzchnica;pierzchnica;1269;pierzchnica0;50.697;20.754;38;948
+Szlichtyngowa;Lubuskie;szlichtyngowa;szlichtyngowa;1257;szlichtyngowa0;51.713;16.243;43;949
+Jezow;Lodzkie;jezow;jezow;1254;jezow0;51.814;19.969;50;950
+Iwaniska;Swietokrzyskie;iwaniska;iwaniska;1215;iwaniska0;50.731;21.278;39;951
+Skalbmierz;Swietokrzyskie;skalbmierz;skalbmierz;1187;skalbmierz0;50.32;20.399;40;952
+Jastrzab;Mazowieckie;jastrzab;jastrzab;1178;jastrzab0;51.247;20.947;94;953
+Krynica Morska;Pomorskie;krynicamorska;krynicamorska;1165;krynicamorska0;54.38;19.444;42;954
+Wlodowice;Slaskie;wlodowice;wlodowice;1152;wlodowice0;50.553;19.45;73;955
+Stopnica;Swietokrzyskie;stopnica;stopnica;1124;stopnica0;50.44;20.938;41;956
+Bodzanow;Mazowieckie;bodzanow;bodzanow;1121;bodzanow0;52.501;20.029;95;957
+Miasteczko Krajenskie;Wielkopolskie;miasteczkokrajenskie;miasteczkokrajenskie;1069;miasteczkokrajenskie0;53.097;17.006;117;958
+Nowe Warpno;Zachodniopomorskie;nowewarpno;nowewarpno;1049;nowewarpno0;53.723;14.287;66;959
+Kleszczele;Podlaskie;kleszczele;kleszczele;1049;kleszczele0;52.572;23.325;39;960
+Pacanow;Swietokrzyskie;pacanow;pacanow;1033;pacanow0;50.4;21.041;42;961
+Czerwinsk nad Wisla;Mazowieckie;czerwinsknadwisla;czerwinsknadwisla;981;czerwinsknadwisla0;52.394;20.312;96;962
+Szydlow;Swietokrzyskie;szydlow;szydlow;967;szydlow0;50.591;21.007;43;963
+Suraz;Podlaskie;suraz;suraz;965;suraz0;52.95;22.957;40;964
+Wodzislaw;Swietokrzyskie;wodzislaw;wodzislaw;961;wodzislaw0;50.52;20.191;44;965
+Dabrowice;Lodzkie;dabrowice;dabrowice;951;dabrowice0;52.316;19.084;51;966
+Solec nad Wisla;Mazowieckie;solecnadwisla;solecnadwisla;933;solecnadwisla0;51.135;21.767;97;967
+Jadow;Mazowieckie;jadow;jadow;907;jadow0;52.479;21.633;98;968
+Bolimow;Lodzkie;bolimow;bolimow;900;bolimow0;52.076;20.164;52;969
+Nowy Korczyn;Swietokrzyskie;nowykorczyn;nowykorczyn;899;nowykorczyn0;50.3;20.808;45;970
+Goraj;Lubelskie;goraj;goraj;896;goraj0;50.721;22.667;50;971
+Wysmierzyce;Mazowieckie;wysmierzyce;wysmierzyce;877;wysmierzyce0;51.624;20.814;99;972
+Dzialoszyce;Swietokrzyskie;dzialoszyce;dzialoszyce;847;dzialoszyce0;50.365;20.352;46;973
+Ksiaz Wielki;Malopolskie;ksiazwielki;ksiazwielki;839;ksiazwielki0;50.443;20.141;63;974
+Jozefow nad Wisla;Lubelskie;jozefownadwisla;jozefownadwisla;803;jozefownadwisla0;51.041;21.83;51;975
+Dubiecko;Podkarpackie;dubiecko;dubiecko;801;dubiecko0;49.827;22.392;52;976
+Koszyce;Malopolskie;koszyce;koszyce;759;koszyce0;50.169;20.578;64;977
+Wislica;Swietokrzyskie;wislica;wislica;444;wislica0;50.349;20.674;47;978
+Opatowiec;Swietokrzyskie;opatowiec;opatowiec;308;opatowiec0;50.244;20.724;48;979

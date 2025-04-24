@@ -1,0 +1,2817 @@
+{
+    "Brussels [brussels0] |brussels|brussels #Brussels#": [
+        4.363,
+        50.839,
+        1249597
+    ],
+    "Antwerp [antwerp0] |antwerp|antwerpen #Antwerpen#": [
+        4.4,
+        51.221,
+        544759
+    ],
+    "Ghent [gent0] |ghent|gent #Oost-Vlaanderen#": [
+        3.725,
+        51.054,
+        269597
+    ],
+    "Charleroi [charleroi0] |charleroi|charleroi #Hainaut#": [
+        4.445,
+        50.412,
+        204322
+    ],
+    "Liege [liege0] |liege|luik #Liege#": [
+        5.572,
+        50.641,
+        195778
+    ],
+    "Bruges [brugge0] |bruges|brugge #West-Vlaanderen#": [
+        3.224,
+        51.209,
+        119869
+    ],
+    "Namur [namur0] |namur|namen #Namur#": [
+        4.867,
+        50.463,
+        114142
+    ],
+    "Leuven [leuven0] |leuven|louvain #Vlaams-Brabant#": [
+        4.701,
+        50.88,
+        104009
+    ],
+    "Mons [mons0] |mons|bergen #Hainaut#": [
+        3.949,
+        50.453,
+        96358
+    ],
+    "Aalst [aalst0] |aalst|alost #Oost-Vlaanderen#": [
+        4.039,
+        50.938,
+        90995
+    ],
+    "Mechelen [mechelen0] |mechelen|malines #Antwerpen#": [
+        4.48,
+        51.028,
+        89313
+    ],
+    "Sint Niklaas [sintniklaas0] |sintniklaas|stnicolas #Oost-Vlaanderen#": [
+        4.14,
+        51.164,
+        81863
+    ],
+    "La Louviere [lalouviere0] |lalouviere|lalouviere #Hainaut#": [
+        4.188,
+        50.478,
+        81241
+    ],
+    "Hasselt [hasselt0] |hasselt|hasselt #Limburg#": [
+        5.338,
+        50.93,
+        80828
+    ],
+    "Kortrijk [kortrijk0] |kortrijk|courtrai #West-Vlaanderen#": [
+        3.265,
+        50.828,
+        80032
+    ],
+    "Oostende [oostende0] |oostende|ostend #West-Vlaanderen#": [
+        2.913,
+        51.225,
+        72586
+    ],
+    "Tournai [tournai0] |tournai|doornik #Hainaut#": [
+        3.389,
+        50.606,
+        68554
+    ],
+    "Genk [genk0] |genk|genk #Limburg#": [
+        5.5,
+        50.965,
+        67877
+    ],
+    "Roeselare [roeselare0] |roeselare|roulers #West-Vlaanderen#": [
+        3.123,
+        50.945,
+        66262
+    ],
+    "Seraing [seraing0] |seraing|seraing #Liege#": [
+        5.512,
+        50.599,
+        64266
+    ],
+    "Mouscron [mouscron0] |mouscron|moeskroen #Hainaut#": [
+        3.216,
+        50.744,
+        59987
+    ],
+    "Verviers [verviers0] |verviers|verviers #Liege#": [
+        5.862,
+        50.593,
+        55770
+    ],
+    "Beveren [beveren0] |beveren|beveren #Oost-Vlaanderen#": [
+        4.258,
+        51.214,
+        50838
+    ],
+    "Beringen [beringen0] |beringen|beringen #Limburg#": [
+        5.224,
+        51.048,
+        48353
+    ],
+    "Vilvoorde [vilvoorde0] |vilvoorde|vilvorde #Vlaams-Brabant#": [
+        4.425,
+        50.927,
+        47445
+    ],
+    "Turnhout [turnhout0] |turnhout|turnhout #Antwerpen#": [
+        4.948,
+        51.323,
+        47305
+    ],
+    "Dendermonde [dendermonde0] |dendermonde|termonde #Oost-Vlaanderen#": [
+        4.099,
+        51.028,
+        47185
+    ],
+    "Deinze [deinze0] |deinze|deinze #Oost-Vlaanderen#": [
+        3.527,
+        50.984,
+        45471
+    ],
+    "Dilbeek [dilbeek0] |dilbeek|dilbeek #Vlaams-Brabant#": [
+        4.264,
+        50.845,
+        44878
+    ],
+    "Heist op den Berg [heistopdenberg0] |heistopdenberg|heist #Antwerpen#": [
+        4.729,
+        51.076,
+        44505
+    ],
+    "Lokeren [lokeren0] |lokeren|lokeren #Oost-Vlaanderen#": [
+        3.989,
+        51.104,
+        43554
+    ],
+    "Halle [halle0] |halle|hal #Vlaams-Brabant#": [
+        4.237,
+        50.736,
+        42595
+    ],
+    "Geel [geel0] |geel|geel #Antwerpen#": [
+        4.991,
+        51.162,
+        42331
+    ],
+    "Sint Truiden [sinttruiden0] |sinttruiden|sttruiden #Limburg#": [
+        5.186,
+        50.816,
+        41469
+    ],
+    "Herstal [herstal0] |herstal|herstal #Liege#": [
+        5.63,
+        50.665,
+        40814
+    ],
+    "Braine lAlleud [brainelalleud0] |brainelalleud|eigenbrakel #Brabant Wallon#": [
+        4.371,
+        50.683,
+        40461
+    ],
+    "Ninove [ninove0] |ninove|ninove #Oost-Vlaanderen#": [
+        4.021,
+        50.837,
+        40363
+    ],
+    "Maasmechelen [maasmechelen0] |maasmechelen|maasmechelen #Limburg#": [
+        5.696,
+        50.965,
+        40219
+    ],
+    "Waregem [waregem0] |waregem|waregem #West-Vlaanderen#": [
+        3.432,
+        50.887,
+        39997
+    ],
+    "Grimbergen [grimbergen0] |grimbergen|grimbergen #Vlaams-Brabant#": [
+        4.371,
+        50.933,
+        39860
+    ],
+    "Mol [mol0] |mol|mol #Antwerpen#": [
+        5.116,
+        51.186,
+        38534
+    ],
+    "Brasschaat [brasschaat0] |brasschaat|brasschaat #Antwerpen#": [
+        4.492,
+        51.29,
+        38470
+    ],
+    "Lier [lier0] |lier|lierre #Antwerpen#": [
+        4.571,
+        51.13,
+        38210
+    ],
+    "Evergem [evergem0] |evergem|evergem #Oost-Vlaanderen#": [
+        3.708,
+        51.109,
+        36860
+    ],
+    "Zaventem [zaventem0] |zaventem|zaventem #Vlaams-Brabant#": [
+        4.471,
+        50.888,
+        36676
+    ],
+    "Tienen [tienen0] |tienen|tirlemont #Vlaams-Brabant#": [
+        4.941,
+        50.806,
+        36581
+    ],
+    "Sint Pieters Leeuw [sintpietersleeuw0] |sintpietersleeuw|stpietersleeuw #Vlaams-Brabant#": [
+        4.243,
+        50.779,
+        36525
+    ],
+    "Asse [asse0] |asse|asse #Vlaams-Brabant#": [
+        4.2,
+        50.91,
+        35755
+    ],
+    "Chatelet [chatelet0] |chatelet|chatelet #Hainaut#": [
+        4.522,
+        50.404,
+        35595
+    ],
+    "Wavre [wavre0] |wavre|waver #Brabant Wallon#": [
+        4.611,
+        50.715,
+        35558
+    ],
+    "Ieper [ieper0] |ieper|ypres #West-Vlaanderen#": [
+        2.887,
+        50.852,
+        35550
+    ],
+    "Heusden Zolder [heusdenzolder0] |heusdenzolder|heusdenzolder #Limburg#": [
+        5.283,
+        51.034,
+        35017
+    ],
+    "Geraardsbergen [geraardsbergen0] |geraardsbergen|grammont #Oost-Vlaanderen#": [
+        3.883,
+        50.772,
+        34999
+    ],
+    "Lommel [lommel0] |lommel|lommel #Limburg#": [
+        5.309,
+        51.231,
+        34913
+    ],
+    "Schoten [schoten0] |schoten|schoten #Antwerpen#": [
+        4.498,
+        51.251,
+        34641
+    ],
+    "Pelt [pelt0] |pelt|pelt #Limburg#": [
+        5.423,
+        51.212,
+        34433
+    ],
+    "Menen [menen0] |menen|menin #West-Vlaanderen#": [
+        3.116,
+        50.797,
+        34417
+    ],
+    "Binche [binche0] |binche|binche #Hainaut#": [
+        4.166,
+        50.412,
+        33651
+    ],
+    "Bilzen [bilzen0] |bilzen|bilzen #Limburg#": [
+        5.518,
+        50.871,
+        32782
+    ],
+    "Oudenaarde [oudenaarde0] |oudenaarde|audenarde #Oost-Vlaanderen#": [
+        3.604,
+        50.843,
+        32702
+    ],
+    "Knokke Heist [knokkeheist0] |knokkeheist|knokkeheist #West-Vlaanderen#": [
+        3.286,
+        51.342,
+        32514
+    ],
+    "Tongeren [tongeren0] |tongeren|tongres #Limburg#": [
+        5.464,
+        50.781,
+        32138
+    ],
+    "Wevelgem [wevelgem0] |wevelgem|wevelgem #West-Vlaanderen#": [
+        3.185,
+        50.809,
+        31884
+    ],
+    "Ottignies Louvain la Neuve [ottignieslouvainlaneuve0] |ottignieslouvainlaneuve|ottignieslouvainlaneuve #Brabant Wallon#": [
+        4.567,
+        50.665,
+        31648
+    ],
+    "Courcelles [courcelles0] |courcelles|courcelles #Hainaut#": [
+        4.381,
+        50.456,
+        31337
+    ],
+    "Arlon [arlon0] |arlon|aarlen #Luxembourg#": [
+        5.816,
+        49.684,
+        31310
+    ],
+    "Temse [temse0] |temse|tamise #Oost-Vlaanderen#": [
+        4.214,
+        51.124,
+        31271
+    ],
+    "Aarschot [aarschot0] |aarschot|aarschot #Vlaams-Brabant#": [
+        4.831,
+        50.986,
+        31138
+    ],
+    "Houthalen Helchteren [houthalenhelchteren0] |houthalenhelchteren|houthalenhelchteren #Limburg#": [
+        5.372,
+        51.032,
+        30896
+    ],
+    "Brecht [brecht0] |brecht|brecht #Antwerpen#": [
+        4.641,
+        51.351,
+        30610
+    ],
+    "Waterloo [waterloo0] |waterloo|waterloo #Brabant Wallon#": [
+        4.398,
+        50.718,
+        30596
+    ],
+    "Ath [ath0] |ath|aat #Hainaut#": [
+        3.778,
+        50.629,
+        30048
+    ],
+    "Harelbeke [harelbeke0] |harelbeke|harelbeke #West-Vlaanderen#": [
+        3.313,
+        50.858,
+        29904
+    ],
+    "Aalter [aalter0] |aalter|aalter #Oost-Vlaanderen#": [
+        3.448,
+        51.084,
+        29787
+    ],
+    "Izegem [izegem0] |izegem|izegem #West-Vlaanderen#": [
+        3.216,
+        50.917,
+        29227
+    ],
+    "Nivelles [nivelles0] |nivelles|nijvel #Brabant Wallon#": [
+        4.323,
+        50.597,
+        29070
+    ],
+    "Soignies [soignies0] |soignies|zinnik #Hainaut#": [
+        4.071,
+        50.579,
+        29032
+    ],
+    "Ans [ans0] |ans|ans #Liege#": [
+        5.521,
+        50.66,
+        28989
+    ],
+    "Herentals [herentals0] |herentals|herentals #Antwerpen#": [
+        4.836,
+        51.178,
+        28865
+    ],
+    "Sambreville [sambreville0] |sambreville|sambreville #Namur#": [
+        4.635,
+        50.447,
+        28615
+    ],
+    "Tubize [tubize0] |tubize|tubeke #Brabant Wallon#": [
+        4.205,
+        50.693,
+        28381
+    ],
+    "Willebroek [willebroek0] |willebroek|willebroek #Antwerpen#": [
+        4.36,
+        51.061,
+        28248
+    ],
+    "Andenne [andenne0] |andenne|andenne #Namur#": [
+        5.097,
+        50.49,
+        28187
+    ],
+    "Zottegem [zottegem0] |zottegem|zottegem #Oost-Vlaanderen#": [
+        3.811,
+        50.87,
+        28085
+    ],
+    "Kapellen [kapellen0] |kapellen|kapellen #Antwerpen#": [
+        4.428,
+        51.317,
+        27782
+    ],
+    "Ronse [ronse0] |ronse|renaix #Oost-Vlaanderen#": [
+        3.603,
+        50.746,
+        27356
+    ],
+    "Lievegem [lievegem0] |lievegem|lievegem #Oost-Vlaanderen#": [
+        3.606,
+        51.151,
+        27225
+    ],
+    "Flemalle [flemalle0] |flemalle|flemalle #Liege#": [
+        5.468,
+        50.599,
+        27002
+    ],
+    "Wetteren [wetteren0] |wetteren|wetteren #Oost-Vlaanderen#": [
+        3.885,
+        51.007,
+        26960
+    ],
+    "Puurs Sint Amands [puurs0] |puurs|sintamands #Antwerpen#": [
+        4.276,
+        51.076,
+        26957
+    ],
+    "Mortsel [mortsel0] |mortsel|mortsel #Antwerpen#": [
+        4.451,
+        51.171,
+        26588
+    ],
+    "Beersel [beersel0] |beersel|beersel #Vlaams-Brabant#": [
+        4.307,
+        50.767,
+        26505
+    ],
+    "Gembloux [gembloux0] |gembloux|gembloux #Namur#": [
+        4.694,
+        50.561,
+        26496
+    ],
+    "Lanaken [lanaken0] |lanaken|lanaken #Limburg#": [
+        5.652,
+        50.89,
+        26366
+    ],
+    "Overijse [overijse0] |overijse|overijse #Vlaams-Brabant#": [
+        4.538,
+        50.772,
+        25970
+    ],
+    "Maaseik [maaseik0] |maaseik|maaseik #Limburg#": [
+        5.795,
+        51.095,
+        25823
+    ],
+    "Zwevegem [zwevegem0] |zwevegem|zwevegem #West-Vlaanderen#": [
+        3.334,
+        50.813,
+        25785
+    ],
+    "Oupeye [oupeye0] |oupeye|oupeye #Liege#": [
+        5.644,
+        50.709,
+        25743
+    ],
+    "Westerlo [westerlo0] |westerlo|westerlo #Antwerpen#": [
+        4.918,
+        51.088,
+        25625
+    ],
+    "Hamme [hamme0] |hamme|hamme #Oost-Vlaanderen#": [
+        4.137,
+        51.098,
+        25554
+    ],
+    "Merelbeke [merelbeke0] |merelbeke|merelbeke #Oost-Vlaanderen#": [
+        3.745,
+        50.995,
+        25229
+    ],
+    "Diest [diest0] |diest|diest #Vlaams-Brabant#": [
+        5.05,
+        50.985,
+        24971
+    ],
+    "Maldegem [maldegem0] |maldegem|maldegem #Oost-Vlaanderen#": [
+        3.447,
+        51.209,
+        24744
+    ],
+    "Saint Nicolas [saintnicolas0] |saintnicolas|stnicolas #Liege#": [
+        5.538,
+        50.63,
+        24491
+    ],
+    "Oostkamp [oostkamp0] |oostkamp|oostkamp #West-Vlaanderen#": [
+        3.236,
+        51.155,
+        24275
+    ],
+    "Manage [manage0] |manage|manage #Hainaut#": [
+        4.235,
+        50.504,
+        24108
+    ],
+    "Scherpenheuvel Zichem [scherpenheuvelzichem0] |scherpenheuvelzichem|montaiguzichem #Vlaams-Brabant#": [
+        4.975,
+        50.979,
+        24001
+    ],
+    "Oudsbergen [oudsbergen0] |oudsbergen|oudsbergen #Limburg#": [
+        5.521,
+        51.096,
+        23875
+    ],
+    "Saint Ghislain [saintghislain0] |saintghislain|stghislain #Hainaut#": [
+        3.82,
+        50.448,
+        23743
+    ],
+    "Nijlen [nijlen0] |nijlen|nijlen #Antwerpen#": [
+        4.67,
+        51.161,
+        23707
+    ],
+    "Balen [balen0] |balen|balen #Antwerpen#": [
+        5.168,
+        51.171,
+        23523
+    ],
+    "Zedelgem [zedelgem0] |zedelgem|zedelgem #West-Vlaanderen#": [
+        3.137,
+        51.143,
+        23460
+    ],
+    "Braine le Comte [brainelecomte0] |brainelecomte|sgravenbrakel #Hainaut#": [
+        4.136,
+        50.611,
+        23443
+    ],
+    "Zemst [zemst0] |zemst|zemst #Vlaams-Brabant#": [
+        4.465,
+        50.984,
+        23401
+    ],
+    "Grace Hollogne [gracehollogne0] |gracehollogne|gracehollogne #Liege#": [
+        5.5,
+        50.643,
+        23261
+    ],
+    "Rixensart [rixensart0] |rixensart|rixensart #Brabant Wallon#": [
+        4.533,
+        50.715,
+        23096
+    ],
+    "Tervuren [tervuren0] |tervuren|tervuren #Vlaams-Brabant#": [
+        4.513,
+        50.824,
+        23077
+    ],
+    "Lochristi [lochristi0] |lochristi|lochristi #Oost-Vlaanderen#": [
+        3.833,
+        51.096,
+        23028
+    ],
+    "Edegem [edegem0] |edegem|edegem #Antwerpen#": [
+        4.444,
+        51.157,
+        23009
+    ],
+    "Herent [herent0] |herent|herent #Vlaams-Brabant#": [
+        4.674,
+        50.907,
+        23007
+    ],
+    "Fleurus [fleurus0] |fleurus|fleurus #Hainaut#": [
+        4.551,
+        50.483,
+        22915
+    ],
+    "Zoersel [zoersel0] |zoersel|zoersel #Antwerpen#": [
+        4.712,
+        51.268,
+        22557
+    ],
+    "Eeklo [eeklo0] |eeklo|eeklo #Oost-Vlaanderen#": [
+        3.566,
+        51.185,
+        22401
+    ],
+    "Hoogstraten [hoogstraten0] |hoogstraten|hoogstraten #Antwerpen#": [
+        4.761,
+        51.401,
+        22278
+    ],
+    "Bornem [bornem0] |bornem|bornem #Antwerpen#": [
+        4.234,
+        51.1,
+        22076
+    ],
+    "Zonhoven [zonhoven0] |zonhoven|zonhoven #Limburg#": [
+        5.367,
+        50.989,
+        21845
+    ],
+    "Wuustwezel [wuustwezel0] |wuustwezel|wuustwezel #Antwerpen#": [
+        4.591,
+        51.391,
+        21794
+    ],
+    "Sint Katelijne Waver [sintkatelijnewaver0] |sintkatelijnewaver|stkatelijnewaver #Antwerpen#": [
+        4.531,
+        51.07,
+        21792
+    ],
+    "Huy [huy0] |huy|hoei #Liege#": [
+        5.235,
+        50.521,
+        21706
+    ],
+    "Kontich [kontich0] |kontich|kontich #Antwerpen#": [
+        4.445,
+        51.135,
+        21693
+    ],
+    "Frameries [frameries0] |frameries|frameries #Hainaut#": [
+        3.894,
+        50.41,
+        21671
+    ],
+    "Koksijde [koksijde0] |koksijde|koksijde #West-Vlaanderen#": [
+        2.638,
+        51.116,
+        21546
+    ],
+    "Zele [zele0] |zele|zele #Oost-Vlaanderen#": [
+        4.04,
+        51.069,
+        21501
+    ],
+    "Dilsen Stokkem [dilsenstokkem0] |dilsenstokkem|dilsenstokkem #Limburg#": [
+        5.743,
+        51.021,
+        21346
+    ],
+    "Kortenberg [kortenberg0] |kortenberg|kortenberg #Vlaams-Brabant#": [
+        4.544,
+        50.888,
+        21165
+    ],
+    "Denderleeuw [denderleeuw0] |denderleeuw|denderleeuw #Oost-Vlaanderen#": [
+        4.076,
+        50.885,
+        21056
+    ],
+    "Erpe Mere [erpemere0] |erpemere|erpemere #Oost-Vlaanderen#": [
+        3.97,
+        50.923,
+        21013
+    ],
+    "Torhout [torhout0] |torhout|torhout #West-Vlaanderen#": [
+        3.101,
+        51.066,
+        20965
+    ],
+    "Colfontaine [colfontaine0] |colfontaine|colfontaine #Hainaut#": [
+        3.847,
+        50.415,
+        20745
+    ],
+    "Tielt [tielt0] |tielt|tielt #West-Vlaanderen#": [
+        3.325,
+        51.0,
+        20627
+    ],
+    "Chaudfontaine [chaudfontaine0] |chaudfontaine|chaudfontaine #Liege#": [
+        5.643,
+        50.586,
+        20600
+    ],
+    "Blankenberge [blankenberge0] |blankenberge|blankenberge #West-Vlaanderen#": [
+        3.131,
+        51.315,
+        20559
+    ],
+    "Schilde [schilde0] |schilde|schilde #Antwerpen#": [
+        4.583,
+        51.232,
+        20319
+    ],
+    "Meise [meise0] |meise|meise #Vlaams-Brabant#": [
+        4.327,
+        50.934,
+        20299
+    ],
+    "Boussu [boussu0] |boussu|boussu #Hainaut#": [
+        3.796,
+        50.434,
+        20283
+    ],
+    "Sint Gillis Waas [sintgilliswaas0] |sintgilliswaas|stgilliswaas #Oost-Vlaanderen#": [
+        4.128,
+        51.218,
+        20144
+    ],
+    "Eupen [eupen0] |eupen|eupen #Liege#": [
+        6.032,
+        50.631,
+        20093
+    ],
+    "Lebbeke [lebbeke0] |lebbeke|lebbeke #Oost-Vlaanderen#": [
+        4.129,
+        51.001,
+        20059
+    ],
+    "Poperinge [poperinge0] |poperinge|poperinge #West-Vlaanderen#": [
+        2.727,
+        50.856,
+        19921
+    ],
+    "Middelkerke [middelkerke0] |middelkerke|middelkerke #West-Vlaanderen#": [
+        2.821,
+        51.185,
+        19855
+    ],
+    "Ranst [ranst0] |ranst|ranst #Antwerpen#": [
+        4.561,
+        51.19,
+        19776
+    ],
+    "Kalmthout [kalmthout0] |kalmthout|kalmthout #Antwerpen#": [
+        4.476,
+        51.383,
+        19672
+    ],
+    "Kasterlee [kasterlee0] |kasterlee|kasterlee #Antwerpen#": [
+        4.966,
+        51.241,
+        19648
+    ],
+    "Essen [essen0] |essen|essen #Antwerpen#": [
+        4.451,
+        51.465,
+        19630
+    ],
+    "Diepenbeek [diepenbeek0] |diepenbeek|diepenbeek #Limburg#": [
+        5.42,
+        50.908,
+        19607
+    ],
+    "Stekene [stekene0] |stekene|stekene #Oost-Vlaanderen#": [
+        4.041,
+        51.206,
+        19589
+    ],
+    "Zwijndrecht [zwijndrecht0] |zwijndrecht|zwijndrecht #Antwerpen#": [
+        4.326,
+        51.219,
+        19580
+    ],
+    "Boom [boom0] |boom|boom #Antwerpen#": [
+        4.363,
+        51.086,
+        19431
+    ],
+    "Londerzeel [londerzeel0] |londerzeel|londerzeel #Vlaams-Brabant#": [
+        4.302,
+        51.002,
+        19404
+    ],
+    "Haaltert [haaltert0] |haaltert|haaltert #Oost-Vlaanderen#": [
+        4.005,
+        50.902,
+        19402
+    ],
+    "Lede [lede0] |lede|lede #Oost-Vlaanderen#": [
+        3.977,
+        50.966,
+        19310
+    ],
+    "Jemeppe sur Sambre [jemeppe0] |jemeppe|jemeppe #Namur#": [
+        4.668,
+        50.466,
+        19225
+    ],
+    "Wervik [wervik0] |wervik|wervik #West-Vlaanderen#": [
+        3.046,
+        50.78,
+        19209
+    ],
+    "Morlanwelz [morlanwelz0] |morlanwelz|morlanwelz #Hainaut#": [
+        4.244,
+        50.456,
+        19172
+    ],
+    "Destelbergen [destelbergen0] |destelbergen|destelbergen #Oost-Vlaanderen#": [
+        3.799,
+        51.056,
+        19110
+    ],
+    "Tessenderlo [tessenderlo0] |tessenderlo|tessenderlo #Limburg#": [
+        5.088,
+        51.068,
+        19011
+    ],
+    "Quaregnon [quaregnon0] |quaregnon|quaregnon #Hainaut#": [
+        3.866,
+        50.441,
+        18959
+    ],
+    "Herzele [herzele0] |herzele|herzele #Oost-Vlaanderen#": [
+        3.891,
+        50.888,
+        18928
+    ],
+    "Putte [putte0] |putte|putte #Antwerpen#": [
+        4.629,
+        51.056,
+        18914
+    ],
+    "Stabroek [stabroek0] |stabroek|stabroek #Antwerpen#": [
+        4.365,
+        51.332,
+        18826
+    ],
+    "Lessines [lessines0] |lessines|lessen #Hainaut#": [
+        3.831,
+        50.712,
+        18735
+    ],
+    "Sint Genesius Rode [sintgenesiusrode0] |sintgenesiusrode|stgenesiusrode #Vlaams-Brabant#": [
+        4.346,
+        50.745,
+        18693
+    ],
+    "Beerse [beerse0] |beerse|beerse #Antwerpen#": [
+        4.856,
+        51.32,
+        18601
+    ],
+    "Walcourt [walcourt0] |walcourt|walcourt #Namur#": [
+        4.432,
+        50.252,
+        18465
+    ],
+    "Comines Warneton [comineswarneton0] |comineswarneton|komenwaasten #Hainaut#": [
+        2.944,
+        50.753,
+        18391
+    ],
+    "Bredene [bredene0] |bredene|bredene #West-Vlaanderen#": [
+        2.977,
+        51.235,
+        18180
+    ],
+    "Wemmel [wemmel0] |wemmel|wemmel #Vlaams-Brabant#": [
+        4.304,
+        50.91,
+        18179
+    ],
+    "Vise [vise0] |vise|wezet #Liege#": [
+        5.696,
+        50.733,
+        18154
+    ],
+    "Fontaine lEveque [fontaineleveque0] |fontaineleveque|fontaineleveque #Hainaut#": [
+        4.321,
+        50.412,
+        18122
+    ],
+    "Duffel [duffel0] |duffel|duffel #Antwerpen#": [
+        4.5,
+        51.095,
+        18062
+    ],
+    "Merchtem [merchtem0] |merchtem|merchtem #Vlaams-Brabant#": [
+        4.233,
+        50.96,
+        18029
+    ],
+    "Marche en Famenne [marcheenfamenne0] |marcheenfamenne|marcheenfamenne #Luxembourg#": [
+        5.344,
+        50.229,
+        17972
+    ],
+    "Herve [herve0] |herve|herve #Liege#": [
+        5.794,
+        50.639,
+        17850
+    ],
+    "Aubange [aubange0] |aubange|aubange #Luxembourg#": [
+        5.806,
+        49.57,
+        17845
+    ],
+    "Rotselaar [rotselaar0] |rotselaar|rotselaar #Vlaams-Brabant#": [
+        4.709,
+        50.951,
+        17672
+    ],
+    "Pont a Celles [pontacelles0] |pontacelles|pontacelles #Hainaut#": [
+        4.362,
+        50.512,
+        17650
+    ],
+    "Soumagne [soumagne0] |soumagne|soumagne #Liege#": [
+        5.748,
+        50.612,
+        17351
+    ],
+    "Peruwelz [peruwelz0] |peruwelz|peruwelz #Hainaut#": [
+        3.591,
+        50.507,
+        17318
+    ],
+    "Diksmuide [diksmuide0] |diksmuide|dixmude #West-Vlaanderen#": [
+        2.864,
+        51.032,
+        17228
+    ],
+    "Ciney [ciney0] |ciney|ciney #Namur#": [
+        5.1,
+        50.296,
+        17183
+    ],
+    "Hannut [hannut0] |hannut|hannuit #Liege#": [
+        5.078,
+        50.671,
+        17134
+    ],
+    "Kruibeke [kruibeke0] |kruibeke|kruibeke #Oost-Vlaanderen#": [
+        4.313,
+        51.171,
+        17072
+    ],
+    "Lille [lille0] |lille|lille #Antwerpen#": [
+        4.824,
+        51.239,
+        17026
+    ],
+    "Bree [bree0] |bree|bree #Limburg#": [
+        5.598,
+        51.141,
+        16967
+    ],
+    "Bastogne [bastogne0] |bastogne|bastenaken #Luxembourg#": [
+        5.721,
+        50.006,
+        16921
+    ],
+    "Riemst [riemst0] |riemst|riemst #Limburg#": [
+        5.602,
+        50.809,
+        16896
+    ],
+    "Eghezee [eghezee0] |eghezee|eghezee #Namur#": [
+        4.906,
+        50.592,
+        16866
+    ],
+    "Laakdal [laakdal0] |laakdal|laakdal #Antwerpen#": [
+        5.015,
+        51.076,
+        16753
+    ],
+    "Leopoldsburg [leopoldsburg0] |leopoldsburg|bourgleopold #Limburg#": [
+        5.263,
+        51.117,
+        16607
+    ],
+    "Peer [peer0] |peer|peer #Limburg#": [
+        5.452,
+        51.133,
+        16585
+    ],
+    "Ternat [ternat0] |ternat|ternat #Vlaams-Brabant#": [
+        4.176,
+        50.872,
+        16578
+    ],
+    "Machelen [machelen0] |machelen|machelen #Vlaams-Brabant#": [
+        4.435,
+        50.912,
+        16576
+    ],
+    "Dour [dour0] |dour|dour #Hainaut#": [
+        3.779,
+        50.397,
+        16567
+    ],
+    "Landen [landen0] |landen|landen #Vlaams-Brabant#": [
+        5.08,
+        50.756,
+        16390
+    ],
+    "Fleron [fleron0] |fleron|fleron #Liege#": [
+        5.686,
+        50.621,
+        16380
+    ],
+    "Beernem [beernem0] |beernem|beernem #West-Vlaanderen#": [
+        3.341,
+        51.143,
+        16259
+    ],
+    "Malle [malle0] |malle|malle #Antwerpen#": [
+        4.705,
+        51.285,
+        16194
+    ],
+    "Zulte [zulte0] |zulte|zulte #Oost-Vlaanderen#": [
+        3.444,
+        50.922,
+        16095
+    ],
+    "Genappe [genappe0] |genappe|genepien #Brabant Wallon#": [
+        4.451,
+        50.611,
+        16068
+    ],
+    "Kruisem [kruisem0] |kruisem|kruisem #Oost-Vlaanderen#": [
+        3.528,
+        50.905,
+        15961
+    ],
+    "Rumst [rumst0] |rumst|rumst #Antwerpen#": [
+        4.423,
+        51.078,
+        15536
+    ],
+    "Haacht [haacht0] |haacht|haacht #Vlaams-Brabant#": [
+        4.638,
+        50.977,
+        15516
+    ],
+    "Ravels [ravels0] |ravels|ravels #Antwerpen#": [
+        4.994,
+        51.372,
+        15514
+    ],
+    "Waremme [waremme0] |waremme|borgworm #Liege#": [
+        5.255,
+        50.698,
+        15489
+    ],
+    "Berlare [berlare0] |berlare|berlare #Oost-Vlaanderen#": [
+        4.002,
+        51.025,
+        15486
+    ],
+    "Bonheiden [bonheiden0] |bonheiden|bonheiden #Antwerpen#": [
+        4.548,
+        51.022,
+        15454
+    ],
+    "Tremelo [tremelo0] |tremelo|tremelo #Vlaams-Brabant#": [
+        4.705,
+        50.992,
+        15417
+    ],
+    "Lummen [lummen0] |lummen|lummen #Limburg#": [
+        5.191,
+        50.986,
+        15320
+    ],
+    "Dison [dison0] |dison|dison #Liege#": [
+        5.854,
+        50.61,
+        15260
+    ],
+    "Wingene [wingene0] |wingene|wingene #West-Vlaanderen#": [
+        3.279,
+        51.058,
+        15161
+    ],
+    "Anzegem [anzegem0] |anzegem|anzegem #West-Vlaanderen#": [
+        3.479,
+        50.833,
+        15148
+    ],
+    "Sprimont [sprimont0] |sprimont|sprimont #Liege#": [
+        5.664,
+        50.503,
+        15141
+    ],
+    "Lubbeek [lubbeek0] |lubbeek|lubbeek #Vlaams-Brabant#": [
+        4.841,
+        50.882,
+        15124
+    ],
+    "Brakel [brakel0] |brakel|brakel #Oost-Vlaanderen#": [
+        3.766,
+        50.803,
+        15073
+    ],
+    "Buggenhout [buggenhout0] |buggenhout|buggenhout #Oost-Vlaanderen#": [
+        4.202,
+        51.015,
+        14957
+    ],
+    "Jodoigne [jodoigne0] |jodoigne|geldenaken #Brabant Wallon#": [
+        4.864,
+        50.723,
+        14899
+    ],
+    "Aartselaar [aartselaar0] |aartselaar|aartselaar #Antwerpen#": [
+        4.388,
+        51.134,
+        14890
+    ],
+    "Thuin [thuin0] |thuin|thuin #Hainaut#": [
+        4.288,
+        50.34,
+        14871
+    ],
+    "Opwijk [opwijk0] |opwijk|opwijk #Vlaams-Brabant#": [
+        4.189,
+        50.97,
+        14866
+    ],
+    "Chapelle lez Herlaimont [chapellelezherlaimont0] |chapellelezherlaimont|chapellelezherlaimont #Hainaut#": [
+        4.285,
+        50.47,
+        14839
+    ],
+    "Herselt [herselt0] |herselt|herselt #Antwerpen#": [
+        4.881,
+        51.053,
+        14838
+    ],
+    "Jabbeke [jabbeke0] |jabbeke|jabbeke #West-Vlaanderen#": [
+        3.093,
+        51.182,
+        14832
+    ],
+    "Oud Turnhout [oudturnhout0] |oudturnhout|oudturnhout #Antwerpen#": [
+        4.985,
+        51.322,
+        14828
+    ],
+    "Wezembeek Oppem [wezembeekoppem0] |wezembeekoppem|wezembeekoppem #Vlaams-Brabant#": [
+        4.488,
+        50.844,
+        14742
+    ],
+    "Assenede [assenede0] |assenede|assenede #Oost-Vlaanderen#": [
+        3.754,
+        51.228,
+        14650
+    ],
+    "Amay [amay0] |amay|amay #Liege#": [
+        5.318,
+        50.549,
+        14531
+    ],
+    "Ichtegem [ichtegem0] |ichtegem|ichtegem #West-Vlaanderen#": [
+        3.011,
+        51.093,
+        14516
+    ],
+    "Enghien [enghien0] |enghien|edingen #Hainaut#": [
+        4.037,
+        50.693,
+        14509
+    ],
+    "Hamont Achel [hamontachel0] |hamontachel|hamontachel #Limburg#": [
+        5.479,
+        51.255,
+        14507
+    ],
+    "Beloeil [beloeil0] |beloeil|beloeil #Hainaut#": [
+        3.732,
+        50.549,
+        14244
+    ],
+    "Leuze en Hainaut [leuze0] |leuze|leuze #Hainaut#": [
+        3.622,
+        50.6,
+        14201
+    ],
+    "Lasne [lasne0] |lasne|lasne #Brabant Wallon#": [
+        4.484,
+        50.687,
+        14198
+    ],
+    "Kuurne [kuurne0] |kuurne|kuurne #West-Vlaanderen#": [
+        3.287,
+        50.851,
+        14145
+    ],
+    "Grez Doiceau [grezdoiceau0] |grezdoiceau|graven #Brabant Wallon#": [
+        4.696,
+        50.738,
+        14064
+    ],
+    "Oosterzele [oosterzele0] |oosterzele|oosterzele #Oost-Vlaanderen#": [
+        3.804,
+        50.946,
+        14062
+    ],
+    "Liedekerke [liedekerke0] |liedekerke|liedekerke #Vlaams-Brabant#": [
+        4.083,
+        50.871,
+        14013
+    ],
+    "Wanze [wanze0] |wanze|wanze #Liege#": [
+        5.214,
+        50.538,
+        14010
+    ],
+    "Kraainem [kraainem0] |kraainem|kraainem #Vlaams-Brabant#": [
+        4.467,
+        50.862,
+        13962
+    ],
+    "Couvin [couvin0] |couvin|couvin #Namur#": [
+        4.497,
+        50.052,
+        13907
+    ],
+    "Boechout [boechout0] |boechout|boechout #Antwerpen#": [
+        4.489,
+        51.162,
+        13831
+    ],
+    "Ham sur Heure Nalinnes [ham0] |ham|ham #Hainaut#": [
+        4.445,
+        50.325,
+        13825
+    ],
+    "Bocholt [bocholt0] |bocholt|bocholt #Limburg#": [
+        5.578,
+        51.173,
+        13753
+    ],
+    "Zelzate [zelzate0] |zelzate|zelzate #Oost-Vlaanderen#": [
+        3.812,
+        51.199,
+        13704
+    ],
+    "Affligem [affligem0] |affligem|affligem #Vlaams-Brabant#": [
+        4.112,
+        50.908,
+        13651
+    ],
+    "Mettet [mettet0] |mettet|mettet #Namur#": [
+        4.658,
+        50.32,
+        13529
+    ],
+    "Blegny [blegny0] |blegny|blegny #Liege#": [
+        5.725,
+        50.672,
+        13482
+    ],
+    "Zandhoven [zandhoven0] |zandhoven|zandhoven #Antwerpen#": [
+        4.66,
+        51.215,
+        13445
+    ],
+    "Arendonk [arendonk0] |arendonk|arendonk #Antwerpen#": [
+        5.085,
+        51.32,
+        13391
+    ],
+    "Wommelgem [wommelgem0] |wommelgem|wommelgem #Antwerpen#": [
+        4.523,
+        51.204,
+        13370
+    ],
+    "Boortmeerbeek [boortmeerbeek0] |boortmeerbeek|boortmeerbeek #Vlaams-Brabant#": [
+        4.572,
+        50.982,
+        13348
+    ],
+    "Dinant [dinant0] |dinant|dinant #Namur#": [
+        4.912,
+        50.261,
+        13328
+    ],
+    "Gavere [gavere0] |gavere|gavere #Oost-Vlaanderen#": [
+        3.662,
+        50.929,
+        13311
+    ],
+    "Keerbergen [keerbergen0] |keerbergen|keerbergen #Vlaams-Brabant#": [
+        4.629,
+        51.003,
+        13298
+    ],
+    "Hechtel Eksel [hechteleksel0] |hechteleksel|hechteleksel #Limburg#": [
+        5.365,
+        51.126,
+        12965
+    ],
+    "Malmedy [malmedy0] |malmedy|malmedy #Liege#": [
+        6.033,
+        50.425,
+        12950
+    ],
+    "Aywaille [aywaille0] |aywaille|aywaille #Liege#": [
+        5.675,
+        50.474,
+        12880
+    ],
+    "Gerpinnes [gerpinnes0] |gerpinnes|gerpinnes #Hainaut#": [
+        4.526,
+        50.337,
+        12863
+    ],
+    "Herk de Stad [herkdestad0] |herkdestad|hercklaville #Limburg#": [
+        5.167,
+        50.941,
+        12841
+    ],
+    "Esneux [esneux0] |esneux|esneux #Liege#": [
+        5.569,
+        50.534,
+        12827
+    ],
+    "Olen [olen0] |olen|olen #Antwerpen#": [
+        4.86,
+        51.144,
+        12824
+    ],
+    "Kortemark [kortemark0] |kortemark|kortemark #West-Vlaanderen#": [
+        3.044,
+        51.029,
+        12815
+    ],
+    "Anderlues [anderlues0] |anderlues|anderlues #Hainaut#": [
+        4.27,
+        50.408,
+        12809
+    ],
+    "De Haan [dehaan0] |dehaan|dehaan #West-Vlaanderen#": [
+        3.035,
+        51.271,
+        12718
+    ],
+    "Rochefort [rochefort0] |rochefort|rochefort #Namur#": [
+        5.222,
+        50.162,
+        12716
+    ],
+    "Zonnebeke [zonnebeke0] |zonnebeke|zonnebeke #West-Vlaanderen#": [
+        2.988,
+        50.873,
+        12705
+    ],
+    "Deerlijk [deerlijk0] |deerlijk|deerlijk #West-Vlaanderen#": [
+        3.355,
+        50.854,
+        12670
+    ],
+    "Steenokkerzeel [steenokkerzeel0] |steenokkerzeel|steenokkerzeel #Vlaams-Brabant#": [
+        4.513,
+        50.91,
+        12663
+    ],
+    "Rijkevorsel [rijkevorsel0] |rijkevorsel|rijkevorsel #Antwerpen#": [
+        4.76,
+        51.349,
+        12561
+    ],
+    "Veurne [veurne0] |veurne|furnes #West-Vlaanderen#": [
+        2.663,
+        51.073,
+        12542
+    ],
+    "Laarne [laarne0] |laarne|laarne #Oost-Vlaanderen#": [
+        3.85,
+        51.03,
+        12532
+    ],
+    "Kampenhout [kampenhout0] |kampenhout|kampenhout #Vlaams-Brabant#": [
+        4.549,
+        50.942,
+        12528
+    ],
+    "Kinrooi [kinrooi0] |kinrooi|kinrooi #Limburg#": [
+        5.741,
+        51.145,
+        12406
+    ],
+    "Hemiksem [hemiksem0] |hemiksem|hemiksem #Antwerpen#": [
+        4.346,
+        51.144,
+        12396
+    ],
+    "Profondeville [profondeville0] |profondeville|profondeville #Namur#": [
+        4.87,
+        50.378,
+        12318
+    ],
+    "Nazareth [nazareth0] |nazareth|nazareth #Oost-Vlaanderen#": [
+        3.596,
+        50.96,
+        12305
+    ],
+    "Gistel [gistel0] |gistel|gistel #West-Vlaanderen#": [
+        2.967,
+        51.156,
+        12244
+    ],
+    "Frasnes lez Anvaing [frasneslezanvaing0] |frasneslezanvaing|frasneslezanvaing #Hainaut#": [
+        3.561,
+        50.683,
+        12134
+    ],
+    "Berlaar [berlaar0] |berlaar|berlaar #Antwerpen#": [
+        4.66,
+        51.118,
+        12061
+    ],
+    "Theux [theux0] |theux|theux #Liege#": [
+        5.813,
+        50.536,
+        12052
+    ],
+    "Wichelen [wichelen0] |wichelen|wichelen #Oost-Vlaanderen#": [
+        3.976,
+        51.006,
+        12032
+    ],
+    "Beyne Heusay [beyneheusay0] |beyneheusay|beyneheusay #Liege#": [
+        5.654,
+        50.623,
+        12018
+    ],
+    "Melle [melle0] |melle|melle #Oost-Vlaanderen#": [
+        3.802,
+        51.005,
+        11981
+    ],
+    "Libramont Chevigny [libramontchevigny0] |libramontchevigny|libramontchevigny #Luxembourg#": [
+        5.375,
+        49.919,
+        11972
+    ],
+    "Roosdaal [roosdaal0] |roosdaal|roosdaal #Vlaams-Brabant#": [
+        4.083,
+        50.838,
+        11958
+    ],
+    "Alken [alken0] |alken|alken #Limburg#": [
+        5.308,
+        50.876,
+        11918
+    ],
+    "Bernissart [bernissart0] |bernissart|bernissart #Hainaut#": [
+        3.65,
+        50.475,
+        11878
+    ],
+    "Retie [retie0] |retie|retie #Antwerpen#": [
+        5.084,
+        51.267,
+        11867
+    ],
+    "Chaumont Gistoux [chaumontgistoux0] |chaumontgistoux|chaumontgistoux #Brabant Wallon#": [
+        4.695,
+        50.684,
+        11818
+    ],
+    "Vosselaar [vosselaar0] |vosselaar|vosselaar #Antwerpen#": [
+        4.892,
+        51.308,
+        11801
+    ],
+    "Staden [staden0] |staden|staden #West-Vlaanderen#": [
+        3.015,
+        50.975,
+        11677
+    ],
+    "Hoeilaart [hoeilaart0] |hoeilaart|hoeilaart #Vlaams-Brabant#": [
+        4.473,
+        50.767,
+        11636
+    ],
+    "Seneffe [seneffe0] |seneffe|seneffe #Hainaut#": [
+        4.257,
+        50.529,
+        11624
+    ],
+    "Grobbendonk [grobbendonk0] |grobbendonk|grobbendonk #Antwerpen#": [
+        4.739,
+        51.191,
+        11607
+    ],
+    "Tielt Winge [tieltwinge0] |tieltwinge|tieltwinge #Vlaams-Brabant#": [
+        4.902,
+        50.94,
+        11604
+    ],
+    "Borgloon [borgloon0] |borgloon|looz #Limburg#": [
+        5.345,
+        50.801,
+        11580
+    ],
+    "Ecaussinnes [ecaussinnes0] |ecaussinnes|ecaussinnes #Hainaut#": [
+        4.176,
+        50.561,
+        11572
+    ],
+    "Ingelmunster [ingelmunster0] |ingelmunster|ingelmunster #West-Vlaanderen#": [
+        3.254,
+        50.921,
+        11537
+    ],
+    "Durbuy [durbuy0] |durbuy|durbuy #Luxembourg#": [
+        5.457,
+        50.353,
+        11506
+    ],
+    "Oud Heverlee [oudheverlee0] |oudheverlee|oudheverlee #Vlaams-Brabant#": [
+        4.663,
+        50.838,
+        11474
+    ],
+    "Moorslede [moorslede0] |moorslede|moorslede #West-Vlaanderen#": [
+        3.062,
+        50.892,
+        11473
+    ],
+    "Nieuwpoort [nieuwpoort0] |nieuwpoort|nieuport #West-Vlaanderen#": [
+        2.75,
+        51.129,
+        11455
+    ],
+    "Farciennes [farciennes0] |farciennes|farciennes #Hainaut#": [
+        4.554,
+        50.429,
+        11394
+    ],
+    "Borsbeek [borsbeek0] |borsbeek|borsbeek #Antwerpen#": [
+        4.487,
+        51.194,
+        11379
+    ],
+    "Florennes [florennes0] |florennes|florennes #Namur#": [
+        4.604,
+        50.251,
+        11378
+    ],
+    "Virton [virton0] |virton|virton #Luxembourg#": [
+        5.532,
+        49.568,
+        11368
+    ],
+    "Kelmis [kelmis0] |kelmis|lacalamine #Liege#": [
+        6.014,
+        50.716,
+        11352
+    ],
+    "Ham [ham1] |ham|ham #Limburg#": [
+        5.163,
+        51.107,
+        11338
+    ],
+    "Waasmunster [waasmunster0] |waasmunster|waasmunster #Oost-Vlaanderen#": [
+        4.085,
+        51.106,
+        11296
+    ],
+    "Damme [damme0] |damme|damme #West-Vlaanderen#": [
+        3.281,
+        51.252,
+        11207
+    ],
+    "Raeren [raeren0] |raeren|raeren #Liege#": [
+        6.111,
+        50.676,
+        11136
+    ],
+    "Rebecq [rebecq0] |rebecq|rebecq #Brabant Wallon#": [
+        4.132,
+        50.666,
+        11133
+    ],
+    "Meulebeke [meulebeke0] |meulebeke|meulebeke #West-Vlaanderen#": [
+        3.288,
+        50.95,
+        11123
+    ],
+    "Villers la Ville [villerslaville0] |villerslaville|villerslaville #Brabant Wallon#": [
+        4.53,
+        50.577,
+        11114
+    ],
+    "De Pinte [depinte0] |depinte|depinte #Oost-Vlaanderen#": [
+        3.649,
+        50.992,
+        11091
+    ],
+    "De Panne [depanne0] |depanne|lapanne #West-Vlaanderen#": [
+        2.592,
+        51.102,
+        11021
+    ],
+    "Aiseau Presles [aiseaupresles0] |aiseaupresles|aiseaupresles #Hainaut#": [
+        4.579,
+        50.385,
+        10978
+    ],
+    "Niel [niel0] |niel|niel #Antwerpen#": [
+        4.327,
+        51.11,
+        10966
+    ],
+    "Jurbise [jurbise0] |jurbise|jurbise #Hainaut#": [
+        3.911,
+        50.533,
+        10868
+    ],
+    "Court Saint Etienne [courtsaintetienne0] |courtsaintetienne|courtstetienne #Brabant Wallon#": [
+        4.568,
+        50.642,
+        10854
+    ],
+    "Plombieres [plombieres0] |plombieres|plombieres #Liege#": [
+        5.962,
+        50.737,
+        10771
+    ],
+    "Estaimpuis [estaimpuis0] |estaimpuis|estaimpuis #Hainaut#": [
+        3.264,
+        50.707,
+        10748
+    ],
+    "Sint Lievens Houtem [sintlievenshoutem0] |sintlievenshoutem|stlievenshoutem #Oost-Vlaanderen#": [
+        3.859,
+        50.921,
+        10687
+    ],
+    "Braine le Chateau [brainelechateau0] |brainelechateau|brainelechateau #Brabant Wallon#": [
+        4.266,
+        50.682,
+        10646
+    ],
+    "Begijnendijk [begijnendijk0] |begijnendijk|begijnendijk #Vlaams-Brabant#": [
+        4.783,
+        51.019,
+        10615
+    ],
+    "Hulshout [hulshout0] |hulshout|hulshout #Antwerpen#": [
+        4.791,
+        51.075,
+        10594
+    ],
+    "Wijnegem [wijnegem0] |wijnegem|wijnegem #Antwerpen#": [
+        4.524,
+        51.228,
+        10580
+    ],
+    "Bierbeek [bierbeek0] |bierbeek|bierbeek #Vlaams-Brabant#": [
+        4.759,
+        50.828,
+        10534
+    ],
+    "Welkenraedt [welkenraedt0] |welkenraedt|welkenraedt #Liege#": [
+        5.971,
+        50.66,
+        10464
+    ],
+    "Houthulst [houthulst0] |houthulst|houthulst #West-Vlaanderen#": [
+        2.951,
+        50.978,
+        10464
+    ],
+    "Fosses la Ville [fosseslaville0] |fosseslaville|fosseslaville #Namur#": [
+        4.697,
+        50.397,
+        10418
+    ],
+    "Avelgem [avelgem0] |avelgem|avelgem #West-Vlaanderen#": [
+        3.445,
+        50.776,
+        10406
+    ],
+    "Meerhout [meerhout0] |meerhout|meerhout #Antwerpen#": [
+        5.079,
+        51.132,
+        10396
+    ],
+    "Bertem [bertem0] |bertem|bertem #Vlaams-Brabant#": [
+        4.629,
+        50.863,
+        10242
+    ],
+    "Hooglede [hooglede0] |hooglede|hooglede #West-Vlaanderen#": [
+        3.082,
+        50.978,
+        10235
+    ],
+    "Holsbeek [holsbeek0] |holsbeek|holsbeek #Vlaams-Brabant#": [
+        4.756,
+        50.921,
+        10207
+    ],
+    "Montigny le Tilleul [montignyletilleul0] |montignyletilleul|montignyletilleul #Hainaut#": [
+        4.38,
+        50.379,
+        10141
+    ],
+    "Wielsbeke [wielsbeke0] |wielsbeke|wielsbeke #West-Vlaanderen#": [
+        3.37,
+        50.91,
+        10138
+    ],
+    "Huldenberg [huldenberg0] |huldenberg|huldenberg #Vlaams-Brabant#": [
+        4.583,
+        50.789,
+        10083
+    ],
+    "Hoeselt [hoeselt0] |hoeselt|hoeselt #Limburg#": [
+        5.486,
+        50.85,
+        10080
+    ],
+    "Sankt Vith [sankt_vith0] |sankt_vith|stvith #Liege#": [
+        6.144,
+        50.291,
+        10071
+    ],
+    "Erquelinnes [erquelinnes0] |erquelinnes|erquelinnes #Hainaut#": [
+        4.119,
+        50.309,
+        10039
+    ],
+    "Neupre [neupre0] |neupre|neupre #Liege#": [
+        5.489,
+        50.546,
+        10010
+    ],
+    "Oudenburg [oudenburg0] |oudenburg|oudenburg #West-Vlaanderen#": [
+        3.005,
+        51.185,
+        9933
+    ],
+    "Dessel [dessel0] |dessel|dessel #Antwerpen#": [
+        5.113,
+        51.24,
+        9892
+    ],
+    "Spa [spa0] |spa|spa #Liege#": [
+        5.863,
+        50.492,
+        9812
+    ],
+    "Ledegem [ledegem0] |ledegem|ledegem #West-Vlaanderen#": [
+        3.127,
+        50.853,
+        9779
+    ],
+    "Juprelle [juprelle0] |juprelle|juprelle #Liege#": [
+        5.528,
+        50.712,
+        9733
+    ],
+    "Perwez [perwez0] |perwez|perwez #Brabant Wallon#": [
+        4.812,
+        50.622,
+        9704
+    ],
+    "Kapelle op den Bos [kapelleopdenbos0] |kapelleopdenbos|kapelle #Vlaams-Brabant#": [
+        4.36,
+        51.014,
+        9703
+    ],
+    "Chimay [chimay0] |chimay|chimay #Hainaut#": [
+        4.312,
+        50.048,
+        9691
+    ],
+    "Les Bons Villers [les_bons_villers0] |les_bons_villers|les_bons_villers #Hainaut#": [
+        4.476,
+        50.522,
+        9586
+    ],
+    "Halen [halen0] |halen|halen #Limburg#": [
+        5.115,
+        50.948,
+        9545
+    ],
+    "Gooik [gooik0] |gooik|gooik #Vlaams-Brabant#": [
+        4.117,
+        50.795,
+        9527
+    ],
+    "Philippeville [philippeville0] |philippeville|philippeville #Namur#": [
+        4.545,
+        50.196,
+        9521
+    ],
+    "Beauraing [beauraing0] |beauraing|beauraing #Namur#": [
+        4.958,
+        50.109,
+        9490
+    ],
+    "Lennik [lennik0] |lennik|lennik #Vlaams-Brabant#": [
+        4.16,
+        50.811,
+        9471
+    ],
+    "Herenthout [herenthout0] |herenthout|herenthout #Antwerpen#": [
+        4.755,
+        51.14,
+        9454
+    ],
+    "Ardooie [ardooie0] |ardooie|ardooie #West-Vlaanderen#": [
+        3.199,
+        50.979,
+        9355
+    ],
+    "La Bruyere [la_bruyere0] |la_bruyere|la_bruyere #Namur#": [
+        4.821,
+        50.53,
+        9351
+    ],
+    "Awans [awans0] |awans|awans #Liege#": [
+        5.461,
+        50.664,
+        9344
+    ],
+    "Lichtervelde [lichtervelde0] |lichtervelde|lichtervelde #West-Vlaanderen#": [
+        3.141,
+        51.028,
+        9319
+    ],
+    "Pepinster [pepinster0] |pepinster|pepinster #Liege#": [
+        5.803,
+        50.567,
+        9274
+    ],
+    "Yvoir [yvoir0] |yvoir|yvoir #Namur#": [
+        4.879,
+        50.327,
+        9136
+    ],
+    "Orp Jauche [orpjauche0] |orpjauche|orpjauche #Brabant Wallon#": [
+        4.955,
+        50.682,
+        9094
+    ],
+    "Bassenge [bassenge0] |bassenge|bassenge #Liege#": [
+        5.61,
+        50.759,
+        9028
+    ],
+    "Bertrix [bertrix0] |bertrix|bertrix #Luxembourg#": [
+        5.253,
+        49.854,
+        9017
+    ],
+    "Galmaarden [galmaarden0] |galmaarden|galmaarden #Vlaams-Brabant#": [
+        3.97,
+        50.753,
+        8931
+    ],
+    "Merksplas [merksplas0] |merksplas|merksplas #Antwerpen#": [
+        4.863,
+        51.358,
+        8883
+    ],
+    "Koekelare [koekelare0] |koekelare|koekelare #West-Vlaanderen#": [
+        2.98,
+        51.091,
+        8827
+    ],
+    "Jalhay [jalhay0] |jalhay|jalhay #Liege#": [
+        5.965,
+        50.559,
+        8777
+    ],
+    "Kortessem [kortessem0] |kortessem|kortessem #Limburg#": [
+        5.389,
+        50.859,
+        8757
+    ],
+    "Zoutleeuw [zoutleeuw0] |zoutleeuw|zoutleeuw #Vlaams-Brabant#": [
+        5.104,
+        50.833,
+        8734
+    ],
+    "Gingelom [gingelom0] |gingelom|gingelom #Limburg#": [
+        5.135,
+        50.75,
+        8732
+    ],
+    "Habay [habay0] |habay|habay #Luxembourg#": [
+        5.644,
+        49.731,
+        8723
+    ],
+    "Dentergem [dentergem0] |dentergem|dentergem #West-Vlaanderen#": [
+        3.419,
+        50.964,
+        8722
+    ],
+    "Le Roeulx [le_roeulx0] |le_roeulx|le_roeulx #Hainaut#": [
+        4.109,
+        50.503,
+        8708
+    ],
+    "Boutersem [boutersem0] |boutersem|boutersem #Vlaams-Brabant#": [
+        4.832,
+        50.84,
+        8634
+    ],
+    "Schelle [schelle0] |schelle|schelle #Antwerpen#": [
+        4.336,
+        51.129,
+        8614
+    ],
+    "Messancy [messancy0] |messancy|messancy #Luxembourg#": [
+        5.815,
+        49.592,
+        8549
+    ],
+    "Lint [lint0] |lint|lint #Antwerpen#": [
+        4.495,
+        51.128,
+        8505
+    ],
+    "Silly [silly0] |silly|silly #Hainaut#": [
+        3.924,
+        50.65,
+        8475
+    ],
+    "Mont Saint Guibert [montsaintguibert0] |montsaintguibert|montstguibert #Brabant Wallon#": [
+        4.611,
+        50.634,
+        8407
+    ],
+    "Hove [hove0] |hove|hove #Antwerpen#": [
+        4.471,
+        51.154,
+        8406
+    ],
+    "Sombreffe [sombreffe0] |sombreffe|sombreffe #Namur#": [
+        4.601,
+        50.523,
+        8388
+    ],
+    "Zwalm [zwalm0] |zwalm|zwalm #Oost-Vlaanderen#": [
+        3.717,
+        50.873,
+        8340
+    ],
+    "Neufchateau [neufchateau0] |neufchateau|neufchateau #Luxembourg#": [
+        5.435,
+        49.839,
+        8260
+    ],
+    "As [as0] |as|as #Limburg#": [
+        5.584,
+        51.007,
+        8259
+    ],
+    "Fernelmont [fernelmont0] |fernelmont|fernelmont #Namur#": [
+        4.986,
+        50.562,
+        8210
+    ],
+    "Sint Martens Latem [sintmartenslatem0] |sintmartenslatem|stmartenslatem #Oost-Vlaanderen#": [
+        3.639,
+        51.021,
+        8208
+    ],
+    "Quevy [quevy0] |quevy|quevy #Hainaut#": [
+        3.958,
+        50.368,
+        8168
+    ],
+    "Langemark Poelkapelle [langemarkpoelkapelle0] |langemarkpoelkapelle|langemarkpoelkapelle #West-Vlaanderen#": [
+        2.958,
+        50.918,
+        8100
+    ],
+    "Brunehaut [brunehaut0] |brunehaut|brunehaut #Hainaut#": [
+        3.393,
+        50.522,
+        8099
+    ],
+    "Floreffe [floreffe0] |floreffe|floreffe #Namur#": [
+        4.758,
+        50.435,
+        8082
+    ],
+    "Oostrozebeke [oostrozebeke0] |oostrozebeke|oostrozebeke #West-Vlaanderen#": [
+        3.335,
+        50.92,
+        8064
+    ],
+    "Trooz [trooz0] |trooz|trooz #Liege#": [
+        5.695,
+        50.57,
+        8058
+    ],
+    "Vorselaar [vorselaar0] |vorselaar|vorselaar #Antwerpen#": [
+        4.771,
+        51.202,
+        8034
+    ],
+    "Heuvelland [heuvelland0] |heuvelland|heuvelland #West-Vlaanderen#": [
+        2.837,
+        50.768,
+        7969
+    ],
+    "Estinnes [estinnes0] |estinnes|estinnes #Hainaut#": [
+        4.107,
+        50.38,
+        7955
+    ],
+    "Kortenaken [kortenaken0] |kortenaken|kortenaken #Vlaams-Brabant#": [
+        5.058,
+        50.91,
+        7949
+    ],
+    "Vielsalm [vielsalm0] |vielsalm|vielsalm #Luxembourg#": [
+        5.915,
+        50.286,
+        7940
+    ],
+    "Wachtebeke [wachtebeke0] |wachtebeke|wachtebeke #Oost-Vlaanderen#": [
+        3.857,
+        51.168,
+        7897
+    ],
+    "Chastre [chastre0] |chastre|chastre #Brabant Wallon#": [
+        4.638,
+        50.608,
+        7728
+    ],
+    "Dalhem [dalhem0] |dalhem|dalhem #Liege#": [
+        5.724,
+        50.713,
+        7712
+    ],
+    "Antoing [antoing0] |antoing|antoing #Hainaut#": [
+        3.45,
+        50.568,
+        7623
+    ],
+    "Walhain [walhain0] |walhain|walhain #Brabant Wallon#": [
+        4.698,
+        50.617,
+        7607
+    ],
+    "Heers [heers0] |heers|heers #Limburg#": [
+        5.301,
+        50.755,
+        7593
+    ],
+    "Waimes [waimes0] |waimes|waimes #Liege#": [
+        6.111,
+        50.415,
+        7563
+    ],
+    "La Hulpe [la_hulpe0] |la_hulpe|la_hulpe #Brabant Wallon#": [
+        4.492,
+        50.731,
+        7530
+    ],
+    "Wellen [wellen0] |wellen|wellen #Limburg#": [
+        5.343,
+        50.84,
+        7490
+    ],
+    "Gesves [gesves0] |gesves|gesves #Namur#": [
+        5.075,
+        50.402,
+        7481
+    ],
+    "Hamois [hamois0] |hamois|hamois #Namur#": [
+        5.161,
+        50.341,
+        7469
+    ],
+    "Zutendaal [zutendaal0] |zutendaal|zutendaal #Limburg#": [
+        5.572,
+        50.932,
+        7384
+    ],
+    "Assesse [assesse0] |assesse|assesse #Namur#": [
+        5.022,
+        50.372,
+        7325
+    ],
+    "Linter [linter0] |linter|linter #Vlaams-Brabant#": [
+        5.043,
+        50.822,
+        7323
+    ],
+    "Nieuwerkerken [nieuwerkerken0] |nieuwerkerken|nieuwerkerken #Limburg#": [
+        5.193,
+        50.865,
+        7295
+    ],
+    "Stavelot [stavelot0] |stavelot|stavelot #Liege#": [
+        5.929,
+        50.394,
+        7271
+    ],
+    "Beauvechain [beauvechain0] |beauvechain|beauvechain #Brabant Wallon#": [
+        4.773,
+        50.78,
+        7233
+    ],
+    "Saint Georges sur Meuse [saintgeorgessurmeuse0] |saintgeorgessurmeuse|saintgeorges #Liege#": [
+        5.358,
+        50.6,
+        7230
+    ],
+    "Chievres [chievres0] |chievres|chievres #Hainaut#": [
+        3.807,
+        50.588,
+        7168
+    ],
+    "Beaumont [beaumont0] |beaumont|beaumont #Hainaut#": [
+        4.235,
+        50.237,
+        7140
+    ],
+    "Anhee [anhee0] |anhee|anhee #Namur#": [
+        4.879,
+        50.31,
+        7135
+    ],
+    "Sint Laureins [sintlaureins0] |sintlaureins|stlaureins #Oost-Vlaanderen#": [
+        3.527,
+        51.241,
+        7016
+    ],
+    "Ittre [ittre0] |ittre|ittre #Brabant Wallon#": [
+        4.264,
+        50.65,
+        7013
+    ],
+    "Pittem [pittem0] |pittem|pittem #West-Vlaanderen#": [
+        3.268,
+        50.995,
+        6946
+    ],
+    "Kluisbergen [kluisbergen0] |kluisbergen|kluisbergen #Oost-Vlaanderen#": [
+        3.524,
+        50.784,
+        6888
+    ],
+    "Lierde [lierde0] |lierde|lierde #Oost-Vlaanderen#": [
+        3.849,
+        50.819,
+        6874
+    ],
+    "Hoegaarden [hoegaarden0] |hoegaarden|hoegaarden #Vlaams-Brabant#": [
+        4.888,
+        50.773,
+        6873
+    ],
+    "Quievrain [quievrain0] |quievrain|quievrain #Hainaut#": [
+        3.683,
+        50.408,
+        6865
+    ],
+    "Villers le Bouillet [villerslebouillet0] |villerslebouillet|villerslebouillet #Liege#": [
+        5.271,
+        50.567,
+        6836
+    ],
+    "Herne [herne0] |herne|herne #Vlaams-Brabant#": [
+        4.029,
+        50.725,
+        6825
+    ],
+    "Hensies [hensies0] |hensies|hensies #Hainaut#": [
+        3.685,
+        50.432,
+        6816
+    ],
+    "Bekkevoort [bekkevoort0] |bekkevoort|bekkevoort #Vlaams-Brabant#": [
+        4.973,
+        50.944,
+        6771
+    ],
+    "Moerbeke [moerbeke0] |moerbeke|moerbeke #Oost-Vlaanderen#": [
+        3.944,
+        51.173,
+        6758
+    ],
+    "Ramillies [ramillies0] |ramillies|ramillies #Brabant Wallon#": [
+        4.886,
+        50.659,
+        6700
+    ],
+    "Kaprijke [kaprijke0] |kaprijke|kaprijke #Oost-Vlaanderen#": [
+        3.618,
+        51.218,
+        6660
+    ],
+    "Braives [braives0] |braives|braives #Liege#": [
+        5.146,
+        50.63,
+        6554
+    ],
+    "Wortegem Petegem [wortegempetegem0] |wortegempetegem|wortegempetegem #Oost-Vlaanderen#": [
+        3.51,
+        50.852,
+        6552
+    ],
+    "Maarkedal [maarkedal0] |maarkedal|maarkedal #Oost-Vlaanderen#": [
+        3.645,
+        50.798,
+        6323
+    ],
+    "Engis [engis0] |engis|engis #Liege#": [
+        5.405,
+        50.582,
+        6296
+    ],
+    "Vaux sur Sure [vauxsursure0] |vauxsursure|vaux #Luxembourg#": [
+        5.572,
+        49.911,
+        6269
+    ],
+    "Geetbets [geetbets0] |geetbets|geetbets #Vlaams-Brabant#": [
+        5.116,
+        50.89,
+        6261
+    ],
+    "Hastiere [hastiere0] |hastiere|hastiere #Namur#": [
+        4.826,
+        50.198,
+        6148
+    ],
+    "Somme Leuze [sommeleuze0] |sommeleuze|sommeleuze #Namur#": [
+        5.367,
+        50.337,
+        6099
+    ],
+    "Lontzen [lontzen0] |lontzen|lontzen #Liege#": [
+        6.008,
+        50.68,
+        6058
+    ],
+    "Etalle [etalle0] |etalle|etalle #Luxembourg#": [
+        5.601,
+        49.674,
+        6024
+    ],
+    "Remicourt [remicourt0] |remicourt|remicourt #Liege#": [
+        5.328,
+        50.68,
+        6009
+    ],
+    "Ellezelles [ellezelles0] |ellezelles|ellezelles #Hainaut#": [
+        3.68,
+        50.734,
+        5970
+    ],
+    "Pecq [pecq0] |pecq|pecq #Hainaut#": [
+        3.34,
+        50.685,
+        5966
+    ],
+    "Lobbes [lobbes0] |lobbes|lobbes #Hainaut#": [
+        4.266,
+        50.346,
+        5949
+    ],
+    "Drogenbos [drogenbos0] |drogenbos|drogenbos #Vlaams-Brabant#": [
+        4.317,
+        50.788,
+        5944
+    ],
+    "Lendelede [lendelede0] |lendelede|lendelede #West-Vlaanderen#": [
+        3.238,
+        50.886,
+        5881
+    ],
+    "Leglise [leglise0] |leglise|leglise #Luxembourg#": [
+        5.539,
+        49.801,
+        5839
+    ],
+    "Attert [attert0] |attert|attert #Luxembourg#": [
+        5.788,
+        49.751,
+        5797
+    ],
+    "Florenville [florenville0] |florenville|florenville #Luxembourg#": [
+        5.311,
+        49.7,
+        5787
+    ],
+    "Nandrin [nandrin0] |nandrin|nandrin #Liege#": [
+        5.419,
+        50.507,
+        5745
+    ],
+    "Nassogne [nassogne0] |nassogne|nassogne #Luxembourg#": [
+        5.341,
+        50.129,
+        5735
+    ],
+    "Celles [celles0] |celles|celles #Hainaut#": [
+        3.457,
+        50.712,
+        5722
+    ],
+    "Hotton [hotton0] |hotton|hotton #Luxembourg#": [
+        5.447,
+        50.268,
+        5706
+    ],
+    "Saint Hubert [sainthubert0] |sainthubert|sthubert #Luxembourg#": [
+        5.374,
+        50.026,
+        5693
+    ],
+    "Incourt [incourt0] |incourt|incourt #Brabant Wallon#": [
+        4.798,
+        50.692,
+        5662
+    ],
+    "Limbourg [limbourg0] |limbourg|limbourg #Liege#": [
+        5.941,
+        50.612,
+        5654
+    ],
+    "Butgenbach [butgenbach0] |butgenbach|butgenbach #Liege#": [
+        6.205,
+        50.427,
+        5652
+    ],
+    "Viroinval [viroinval0] |viroinval|viroinval #Namur#": [
+        4.624,
+        50.05,
+        5649
+    ],
+    "Marchin [marchin0] |marchin|marchin #Liege#": [
+        5.226,
+        50.481,
+        5612
+    ],
+    "Amel [amel0] |amel|amel #Liege#": [
+        6.169,
+        50.354,
+        5612
+    ],
+    "Heron [heron0] |heron|heron #Liege#": [
+        5.098,
+        50.551,
+        5598
+    ],
+    "Thimister Clermont [thimisterclermont0] |thimisterclermont|thimisterclermont #Liege#": [
+        5.864,
+        50.654,
+        5587
+    ],
+    "Bullingen [bullingen0] |bullingen|bullingen #Liege#": [
+        6.258,
+        50.407,
+        5544
+    ],
+    "Paliseul [paliseul0] |paliseul|paliseul #Luxembourg#": [
+        5.135,
+        49.904,
+        5530
+    ],
+    "Ruiselede [ruiselede0] |ruiselede|ruiselede #West-Vlaanderen#": [
+        3.393,
+        51.043,
+        5484
+    ],
+    "Gouvy [gouvy0] |gouvy|gouvy #Luxembourg#": [
+        5.943,
+        50.186,
+        5474
+    ],
+    "Havelange [havelange0] |havelange|havelange #Namur#": [
+        5.242,
+        50.388,
+        5428
+    ],
+    "Glabbeek [glabbeek0] |glabbeek|glabbeek #Vlaams-Brabant#": [
+        4.948,
+        50.873,
+        5425
+    ],
+    "Bouillon [bouillon0] |bouillon|bouillon #Luxembourg#": [
+        5.068,
+        49.796,
+        5377
+    ],
+    "Rumes [rumes0] |rumes|rumes #Hainaut#": [
+        3.304,
+        50.556,
+        5351
+    ],
+    "Libin [libin0] |libin|libin #Luxembourg#": [
+        5.256,
+        49.981,
+        5351
+    ],
+    "Comblain au Pont [comblainaupont0] |comblainaupont|comblain #Liege#": [
+        5.575,
+        50.475,
+        5319
+    ],
+    "Chiny [chiny0] |chiny|chiny #Luxembourg#": [
+        5.341,
+        49.739,
+        5308
+    ],
+    "Houffalize [houffalize0] |houffalize|houffalize #Luxembourg#": [
+        5.789,
+        50.133,
+        5307
+    ],
+    "Momignies [momignies0] |momignies|momignies #Hainaut#": [
+        4.167,
+        50.03,
+        5234
+    ],
+    "Ohey [ohey0] |ohey|ohey #Namur#": [
+        5.121,
+        50.436,
+        5226
+    ],
+    "Houyet [houyet0] |houyet|houyet #Namur#": [
+        5.012,
+        50.185,
+        5183
+    ],
+    "Honnelles [honnelles0] |honnelles|honnelles #Hainaut#": [
+        3.694,
+        50.367,
+        5176
+    ],
+    "Ferrieres [ferrieres0] |ferrieres|ferrieres #Liege#": [
+        5.606,
+        50.4,
+        5122
+    ],
+    "Alveringem [alveringem0] |alveringem|alveringem #West-Vlaanderen#": [
+        2.71,
+        51.011,
+        5023
+    ],
+    "Cerfontaine [cerfontaine0] |cerfontaine|cerfontaine #Namur#": [
+        4.412,
+        50.171,
+        4991
+    ],
+    "Clavier [clavier0] |clavier|clavier #Liege#": [
+        5.358,
+        50.411,
+        4946
+    ],
+    "Sivry Rance [sivryrance0] |sivryrance|sivryrance #Hainaut#": [
+        4.269,
+        50.143,
+        4871
+    ],
+    "Gedinne [gedinne0] |gedinne|gedinne #Namur#": [
+        4.937,
+        49.981,
+        4681
+    ],
+    "Linkebeek [linkebeek0] |linkebeek|linkebeek #Vlaams-Brabant#": [
+        4.336,
+        50.772,
+        4674
+    ],
+    "Musson [musson0] |musson|musson #Luxembourg#": [
+        5.706,
+        49.559,
+        4668
+    ],
+    "Lens [lens0] |lens|lens #Hainaut#": [
+        3.901,
+        50.558,
+        4636
+    ],
+    "Tintigny [tintigny0] |tintigny|tintigny #Luxembourg#": [
+        5.514,
+        49.684,
+        4605
+    ],
+    "Pepingen [pepingen0] |pepingen|pepingen #Vlaams-Brabant#": [
+        4.16,
+        50.759,
+        4592
+    ],
+    "Baelen [baelen0] |baelen|baelen #Liege#": [
+        5.97,
+        50.631,
+        4487
+    ],
+    "Voeren [voeren0] |voeren|voeren #Limburg#": [
+        5.797,
+        50.747,
+        4406
+    ],
+    "Verlaine [verlaine0] |verlaine|verlaine #Liege#": [
+        5.318,
+        50.607,
+        4361
+    ],
+    "Aubel [aubel0] |aubel|aubel #Liege#": [
+        5.858,
+        50.705,
+        4252
+    ],
+    "Anthisnes [anthisnes0] |anthisnes|anthisnes #Liege#": [
+        5.523,
+        50.48,
+        4220
+    ],
+    "Modave [modave0] |modave|modave #Liege#": [
+        5.301,
+        50.442,
+        4207
+    ],
+    "Merbes le Chateau [merbeslechateau0] |merbeslechateau|merbeslechateau #Hainaut#": [
+        4.164,
+        50.324,
+        4171
+    ],
+    "Olne [olne0] |olne|olne #Liege#": [
+        5.749,
+        50.591,
+        4142
+    ],
+    "Faimes [faimes0] |faimes|faimes #Liege#": [
+        5.26,
+        50.662,
+        4128
+    ],
+    "La Roche en Ardenne [larocheenardenne0] |larocheenardenne|laroche #Luxembourg#": [
+        5.576,
+        50.183,
+        4100
+    ],
+    "Froidchapelle [froidchapelle0] |froidchapelle|froidchapelle #Hainaut#": [
+        4.327,
+        50.151,
+        4084
+    ],
+    "Oreye [oreye0] |oreye|oreye #Liege#": [
+        5.354,
+        50.729,
+        4028
+    ],
+    "Burg Reuland [burgreuland0] |burgreuland|burgreuland #Liege#": [
+        6.134,
+        50.197,
+        3961
+    ],
+    "Mont de lEnclus [montdelenclus0] |montdelenclus|montdelenclus #Hainaut#": [
+        3.501,
+        50.737,
+        3879
+    ],
+    "Brugelette [brugelette0] |brugelette|brugelette #Hainaut#": [
+        3.852,
+        50.596,
+        3853
+    ],
+    "Helecine [helecine0] |helecine|helecine #Brabant Wallon#": [
+        4.973,
+        50.747,
+        3848
+    ],
+    "Hamoir [hamoir0] |hamoir|hamoir #Liege#": [
+        5.532,
+        50.427,
+        3780
+    ],
+    "Bertogne [bertogne0] |bertogne|bertogne #Luxembourg#": [
+        5.668,
+        50.085,
+        3767
+    ],
+    "Saint Leger [saintleger0] |saintleger|stleger #Luxembourg#": [
+        5.655,
+        49.611,
+        3716
+    ],
+    "Manhay [manhay0] |manhay|manhay #Luxembourg#": [
+        5.676,
+        50.292,
+        3715
+    ],
+    "Lierneux [lierneux0] |lierneux|lierneux #Liege#": [
+        5.795,
+        50.284,
+        3644
+    ],
+    "Vleteren [vleteren0] |vleteren|vleteren #West-Vlaanderen#": [
+        2.75,
+        50.919,
+        3600
+    ],
+    "Geer [geer0] |geer|geer #Liege#": [
+        5.171,
+        50.669,
+        3558
+    ],
+    "Crisnee [crisnee0] |crisnee|crisnee #Liege#": [
+        5.398,
+        50.718,
+        3539
+    ],
+    "Bievre [bievre0] |bievre|bievre #Namur#": [
+        5.016,
+        49.941,
+        3476
+    ],
+    "Flobecq [flobecq0] |flobecq|flobecq #Hainaut#": [
+        3.738,
+        50.737,
+        3434
+    ],
+    "Fexhe le Haut Clocher [fexhelehautclocher0] |fexhelehautclocher|fexhelehautclocher #Liege#": [
+        5.399,
+        50.665,
+        3426
+    ],
+    "Lincent [lincent0] |lincent|lincent #Liege#": [
+        5.031,
+        50.713,
+        3375
+    ],
+    "Erezee [erezee0] |erezee|erezee #Luxembourg#": [
+        5.559,
+        50.292,
+        3345
+    ],
+    "Berloz [berloz0] |berloz|berloz #Liege#": [
+        5.213,
+        50.698,
+        3344
+    ],
+    "Burdinne [burdinne0] |burdinne|burdinne #Liege#": [
+        5.072,
+        50.583,
+        3295
+    ],
+    "Onhaye [onhaye0] |onhaye|onhaye #Namur#": [
+        4.84,
+        50.24,
+        3231
+    ],
+    "Lo Reninge [loreninge0] |loreninge|loreninge #West-Vlaanderen#": [
+        2.789,
+        50.948,
+        3216
+    ],
+    "Stoumont [stoumont0] |stoumont|stoumont #Liege#": [
+        5.809,
+        50.407,
+        3150
+    ],
+    "Wellin [wellin0] |wellin|wellin #Luxembourg#": [
+        5.114,
+        50.082,
+        3147
+    ],
+    "Wasseiges [wasseiges0] |wasseiges|wasseiges #Liege#": [
+        5.005,
+        50.623,
+        3138
+    ],
+    "Donceel [donceel0] |donceel|donceel #Liege#": [
+        5.32,
+        50.648,
+        3119
+    ],
+    "Baarle Hertog [baarlehertog0] |baarlehertog|baarlehertog #Antwerpen#": [
+        4.931,
+        51.442,
+        3001
+    ],
+    "Doische [doische0] |doische|doische #Namur#": [
+        4.745,
+        50.135,
+        2952
+    ],
+    "Tenneville [tenneville0] |tenneville|tenneville #Luxembourg#": [
+        5.524,
+        50.092,
+        2881
+    ],
+    "Meix devant Virton [meixdevantvirton0] |meixdevantvirton|meix #Luxembourg#": [
+        5.481,
+        49.605,
+        2819
+    ],
+    "Ouffet [ouffet0] |ouffet|ouffet #Liege#": [
+        5.467,
+        50.437,
+        2788
+    ],
+    "Tinlot [tinlot0] |tinlot|tinlot #Liege#": [
+        5.377,
+        50.478,
+        2777
+    ],
+    "Sainte Ode [sainteode0] |sainteode|steode #Luxembourg#": [
+        5.522,
+        50.017,
+        2720
+    ],
+    "Rendeux [rendeux0] |rendeux|rendeux #Luxembourg#": [
+        5.504,
+        50.234,
+        2707
+    ],
+    "Zuienkerke [zuienkerke0] |zuienkerke|zuienkerke #West-Vlaanderen#": [
+        3.156,
+        51.265,
+        2676
+    ],
+    "Trois Ponts [troisponts0] |troisponts|troisponts #Liege#": [
+        5.87,
+        50.371,
+        2547
+    ],
+    "Tellin [tellin0] |tellin|tellin #Luxembourg#": [
+        5.217,
+        50.081,
+        2539
+    ],
+    "Vresse sur Semois [vressesursemois0] |vressesursemois|vresse #Namur#": [
+        4.932,
+        49.873,
+        2470
+    ],
+    "Fauvillers [fauvillers0] |fauvillers|fauvillers #Luxembourg#": [
+        5.664,
+        49.851,
+        2453
+    ],
+    "Bever [bever0] |bever|bever #Vlaams-Brabant#": [
+        3.941,
+        50.717,
+        2276
+    ],
+    "Rouvroy [rouvroy0] |rouvroy|rouvroy #Luxembourg#": [
+        5.491,
+        49.539,
+        2144
+    ],
+    "Martelange [martelange0] |martelange|martelange #Luxembourg#": [
+        5.741,
+        49.832,
+        2064
+    ],
+    "Spiere Helkijn [spierehelkijn0] |spierehelkijn|spierehelkijn #West-Vlaanderen#": [
+        3.383,
+        50.73,
+        2063
+    ],
+    "Horebeke [horebeke0] |horebeke|horebeke #Oost-Vlaanderen#": [
+        3.694,
+        50.831,
+        2012
+    ],
+    "Herbeumont [herbeumont0] |herbeumont|herbeumont #Luxembourg#": [
+        5.235,
+        49.782,
+        1750
+    ],
+    "Daverdisse [daverdisse0] |daverdisse|daverdisse #Luxembourg#": [
+        5.118,
+        50.021,
+        1426
+    ],
+    "Mesen [mesen0] |mesen|mesen #West-Vlaanderen#": [
+        2.899,
+        50.764,
+        1075
+    ],
+    "Herstappe [herstappe0] |herstappe|herstappe #Limburg#": [
+        5.426,
+        50.727,
+        76
+    ]
+}

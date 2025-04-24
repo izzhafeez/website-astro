@@ -1,0 +1,4897 @@
+{
+    "Warsaw [warsaw0] |warsaw|warsaw #Mazowieckie#": [
+        21.018,
+        52.238,
+        1861599
+    ],
+    "Krakow [krakow0] |krakow|krakow #Malopolskie#": [
+        19.938,
+        50.061,
+        806201
+    ],
+    "Wroclaw [wroclaw0] |wroclaw|wroclaw #Dolnoslaskie#": [
+        17.031,
+        51.11,
+        673743
+    ],
+    "Lodz [lodz0] |lodz|lodz #Lodzkie#": [
+        19.466,
+        51.771,
+        652015
+    ],
+    "Poznan [poznan0] |poznan|poznan #Wielkopolskie#": [
+        16.934,
+        52.408,
+        538439
+    ],
+    "Gdansk [gdansk0] |gdansk|gdansk #Pomorskie#": [
+        18.653,
+        54.35,
+        487371
+    ],
+    "Szczecin [szczecin0] |szczecin|szczecin #Zachodniopomorskie#": [
+        14.555,
+        53.426,
+        389066
+    ],
+    "Lublin [lublin0] |lublin|lublin #Lubelskie#": [
+        22.569,
+        51.249,
+        329565
+    ],
+    "Bydgoszcz [bydgoszcz0] |bydgoszcz|bydgoszcz #Kujawsko-Pomorskie#": [
+        18.003,
+        53.125,
+        326434
+    ],
+    "Bialystok [bialystok0] |bialystok|bialystok #Podlaskie#": [
+        23.169,
+        53.131,
+        291688
+    ],
+    "Katowice [katowice0] |katowice|katowice #Slaskie#": [
+        19.013,
+        50.26,
+        279190
+    ],
+    "Gdynia [gdynia0] |gdynia|gdynia #Pomorskie#": [
+        18.543,
+        54.523,
+        241189
+    ],
+    "Czestochowa [czestochowa0] |czestochowa|czestochowa #Slaskie#": [
+        19.128,
+        50.812,
+        205969
+    ],
+    "Rzeszow [rzeszow0] |rzeszow|rzeszow #Podkarpackie#": [
+        22.005,
+        50.038,
+        197268
+    ],
+    "Radom [radom0] |radom|radom #Mazowieckie#": [
+        21.158,
+        51.401,
+        196005
+    ],
+    "Torun [torun0] |torun|torun #Kujawsko-Pomorskie#": [
+        18.605,
+        53.01,
+        194771
+    ],
+    "Sosnowiec [sosnowiec0] |sosnowiec|sosnowiec #Slaskie#": [
+        19.128,
+        50.275,
+        187115
+    ],
+    "Kielce [kielce0] |kielce|kielce #Swietokrzyskie#": [
+        20.632,
+        50.872,
+        182295
+    ],
+    "Gliwice [gliwice0] |gliwice|gliwice #Slaskie#": [
+        18.666,
+        50.294,
+        169915
+    ],
+    "Olsztyn [olsztyn0] |olsztyn|olsztyn #Warminsko-Mazurskie#": [
+        20.476,
+        53.777,
+        167311
+    ],
+    "Bielsko-Biala [bielskobiala0] |bielskobiala|bielskobiala #Slaskie#": [
+        19.051,
+        49.823,
+        165766
+    ],
+    "Zabrze [zabrze0] |zabrze|zabrze #Slaskie#": [
+        18.785,
+        50.302,
+        153838
+    ],
+    "Bytom [bytom0] |bytom|bytom #Slaskie#": [
+        18.924,
+        50.347,
+        147759
+    ],
+    "Zielona Gora [zielonagora0] |zielonagora|zielonagora #Lubuskie#": [
+        15.505,
+        51.938,
+        138932
+    ],
+    "Rybnik [rybnik0] |rybnik|rybnik #Slaskie#": [
+        18.542,
+        50.096,
+        130887
+    ],
+    "Ruda Slaska [rudaslaska0] |rudaslaska|rudaslaska #Slaskie#": [
+        18.864,
+        50.273,
+        130302
+    ],
+    "Opole [opole0] |opole|opole #Opolskie#": [
+        17.929,
+        50.668,
+        126077
+    ],
+    "Tychy [tychy0] |tychy|tychy #Slaskie#": [
+        19.002,
+        50.108,
+        122045
+    ],
+    "Gorzow Wielkopolski [gorzowwielkopolski0] |gorzowwielkopolski|gorzowwielkopolski #Lubuskie#": [
+        15.24,
+        52.731,
+        115247
+    ],
+    "Dabrowa Gornicza [dabrowagornicza0] |dabrowagornicza|dabrowagornicza #Slaskie#": [
+        19.184,
+        50.323,
+        113460
+    ],
+    "Elblag [elblag0] |elblag|elblag #Warminsko-Mazurskie#": [
+        19.408,
+        54.162,
+        112923
+    ],
+    "Plock [plock0] |plock|plock #Mazowieckie#": [
+        19.685,
+        52.545,
+        111190
+    ],
+    "Koszalin [koszalin0] |koszalin|koszalin #Zachodniopomorskie#": [
+        16.177,
+        54.19,
+        105540
+    ],
+    "Tarnow [tarnow0] |tarnow|tarnow #Malopolskie#": [
+        20.989,
+        50.013,
+        103129
+    ],
+    "Wloclawek [wloclawek0] |wloclawek|wloclawek #Kujawsko-Pomorskie#": [
+        19.066,
+        52.655,
+        100807
+    ],
+    "Chorzow [chorzow0] |chorzow|chorzow #Slaskie#": [
+        18.951,
+        50.297,
+        100593
+    ],
+    "Walbrzych [walbrzych0] |walbrzych|walbrzych #Dolnoslaskie#": [
+        16.283,
+        50.766,
+        100294
+    ],
+    "Kalisz [kalisz0] |kalisz|kalisz #Wielkopolskie#": [
+        18.089,
+        51.762,
+        93137
+    ],
+    "Legnica [legnica0] |legnica|legnica #Dolnoslaskie#": [
+        16.161,
+        51.208,
+        91948
+    ],
+    "Grudziadz [grudziadz0] |grudziadz|grudziadz #Kujawsko-Pomorskie#": [
+        18.753,
+        53.491,
+        88658
+    ],
+    "Jaworzno [jaworzno0] |jaworzno|jaworzno #Slaskie#": [
+        19.276,
+        50.203,
+        86812
+    ],
+    "Slupsk [slupsk0] |slupsk|slupsk #Pomorskie#": [
+        17.031,
+        54.466,
+        85504
+    ],
+    "Jastrzebie-Zdroj [jastrzebiezdroj0] |jastrzebiezdroj|jastrzebiezdroj #Slaskie#": [
+        18.577,
+        49.955,
+        82301
+    ],
+    "Nowy Sacz [nowysacz0] |nowysacz|nowysacz #Malopolskie#": [
+        20.691,
+        49.625,
+        80358
+    ],
+    "Siedlce [siedlce0] |siedlce|siedlce #Mazowieckie#": [
+        22.282,
+        52.168,
+        75297
+    ],
+    "Jelenia Gora [jeleniagora0] |jeleniagora|jeleniagora #Dolnoslaskie#": [
+        15.734,
+        50.903,
+        75124
+    ],
+    "Myslowice [myslowice0] |myslowice|myslowice #Slaskie#": [
+        19.141,
+        50.241,
+        71280
+    ],
+    "Pila [pila0] |pila|pila #Wielkopolskie#": [
+        16.738,
+        53.156,
+        70054
+    ],
+    "Ostrow Wielkopolski [ostrowwielkopolski0] |ostrowwielkopolski|ostrowwielkopolski #Wielkopolskie#": [
+        17.816,
+        51.65,
+        69260
+    ],
+    "Suwalki [suwalki0] |suwalki|suwalki #Podlaskie#": [
+        22.935,
+        54.104,
+        68231
+    ],
+    "Lubin [lubin0] |lubin|lubin #Dolnoslaskie#": [
+        16.206,
+        51.397,
+        67620
+    ],
+    "Inowroclaw [inowroclaw0] |inowroclaw|inowroclaw #Kujawsko-Pomorskie#": [
+        18.26,
+        52.795,
+        67378
+    ],
+    "Konin [konin0] |konin|konin #Wielkopolskie#": [
+        18.251,
+        52.228,
+        67066
+    ],
+    "Stargard Szczecinski [stargard0] |stargard|stargard #Zachodniopomorskie#": [
+        15.045,
+        53.339,
+        66604
+    ],
+    "Piotrkow Trybunalski [piotrkowtrybunalski0] |piotrkowtrybunalski|piotrkowtrybunalski #Lodzkie#": [
+        19.69,
+        51.409,
+        66519
+    ],
+    "Pruszkow [pruszkow0] |pruszkow|pruszkow #Mazowieckie#": [
+        20.809,
+        52.163,
+        65461
+    ],
+    "Gniezno [gniezno0] |gniezno|gniezno #Wielkopolskie#": [
+        17.596,
+        52.536,
+        63549
+    ],
+    "Siemianowice Slaskie [siemianowiceslaskie0] |siemianowiceslaskie|siemianowiceslaskie #Slaskie#": [
+        19.033,
+        50.302,
+        63401
+    ],
+    "Ostrowiec Swietokrzyski [ostrowiecswietokrzyski0] |ostrowiecswietokrzyski|ostrowiecswietokrzyski #Swietokrzyskie#": [
+        21.388,
+        50.94,
+        62093
+    ],
+    "Glogow [glogow0] |glogow|glogow #Dolnoslaskie#": [
+        16.093,
+        51.663,
+        62049
+    ],
+    "Zory [zory0] |zory|zory #Slaskie#": [
+        18.694,
+        50.045,
+        61774
+    ],
+    "Tarnowskie Gory [tarnowskiegory0] |tarnowskiegory|tarnowskiegory #Slaskie#": [
+        18.856,
+        50.444,
+        61321
+    ],
+    "Pabianice [pabianice0] |pabianice|pabianice #Lodzkie#": [
+        19.363,
+        51.663,
+        60598
+    ],
+    "Leszno [leszno0] |leszno|leszno #Wielkopolskie#": [
+        16.574,
+        51.844,
+        60051
+    ],
+    "Elk [elk0] |elk|elk #Warminsko-Mazurskie#": [
+        22.351,
+        53.825,
+        59759
+    ],
+    "Lomza [lomza0] |lomza|lomza #Podlaskie#": [
+        22.081,
+        53.179,
+        59711
+    ],
+    "Zamosc [zamosc0] |zamosc|zamosc #Lubelskie#": [
+        23.264,
+        50.723,
+        58231
+    ],
+    "Tomaszow Mazowiecki [tomaszowmazowiecki0] |tomaszowmazowiecki|tomaszowmazowiecki #Lodzkie#": [
+        20.006,
+        51.531,
+        57438
+    ],
+    "Chelm [chelm0] |chelm|chelm #Lubelskie#": [
+        23.474,
+        51.133,
+        57214
+    ],
+    "Mielec [mielec0] |mielec|mielec #Podkarpackie#": [
+        21.422,
+        50.287,
+        56972
+    ],
+    "Tczew [tczew0] |tczew|tczew #Pomorskie#": [
+        18.8,
+        54.087,
+        56936
+    ],
+    "Przemysl [przemysl0] |przemysl|przemysl #Podkarpackie#": [
+        22.773,
+        49.782,
+        56050
+    ],
+    "Stalowa Wola [stalowawola0] |stalowawola|stalowawola #Podkarpackie#": [
+        22.061,
+        50.576,
+        55127
+    ],
+    "Biala Podlaska [bialapodlaska0] |bialapodlaska|bialapodlaska #Lubelskie#": [
+        23.119,
+        52.034,
+        54453
+    ],
+    "Kedzierzyn-Kozle [kedzierzynkozle0] |kedzierzynkozle|kedzierzynkozle #Opolskie#": [
+        18.211,
+        50.344,
+        54387
+    ],
+    "Bedzin [bedzin0] |bedzin|bedzin #Slaskie#": [
+        19.131,
+        50.322,
+        53848
+    ],
+    "Zgierz [zgierz0] |zgierz|zgierz #Lodzkie#": [
+        19.408,
+        51.855,
+        53543
+    ],
+    "Rumia [rumia0] |rumia|rumia #Pomorskie#": [
+        18.391,
+        54.569,
+        53316
+    ],
+    "Swidnica [swidnica0] |swidnica|swidnica #Dolnoslaskie#": [
+        16.488,
+        50.843,
+        52874
+    ],
+    "Legionowo [legionowo0] |legionowo|legionowo #Mazowieckie#": [
+        20.938,
+        52.4,
+        52630
+    ],
+    "Belchatow [belchatow0] |belchatow|belchatow #Lodzkie#": [
+        19.378,
+        51.363,
+        52331
+    ],
+    "Piaseczno [piaseczno0] |piaseczno|piaseczno #Mazowieckie#": [
+        21.028,
+        52.075,
+        51971
+    ],
+    "Piekary Slaskie [piekaryslaskie0] |piekaryslaskie|piekaryslaskie #Slaskie#": [
+        18.945,
+        50.378,
+        51707
+    ],
+    "Raciborz [raciborz0] |raciborz|raciborz #Slaskie#": [
+        18.22,
+        50.092,
+        49650
+    ],
+    "Ostroleka [ostroleka0] |ostroleka|ostroleka #Mazowieckie#": [
+        21.572,
+        53.082,
+        48229
+    ],
+    "Zawiercie [zawiercie0] |zawiercie|zawiercie #Slaskie#": [
+        19.417,
+        50.486,
+        46106
+    ],
+    "Wejherowo [wejherowo0] |wejherowo|wejherowo #Pomorskie#": [
+        18.239,
+        54.602,
+        46097
+    ],
+    "Swietochlowice [swietochlowice0] |swietochlowice|swietochlowice #Slaskie#": [
+        18.916,
+        50.291,
+        45434
+    ],
+    "Marki [marki0] |marki|marki #Mazowieckie#": [
+        21.105,
+        52.321,
+        45365
+    ],
+    "Zabki [zabki0] |zabki|zabki #Mazowieckie#": [
+        21.112,
+        52.291,
+        45347
+    ],
+    "Starogard Gdanski [starogardgdanski0] |starogardgdanski|starogardgdanski #Pomorskie#": [
+        18.532,
+        53.967,
+        45295
+    ],
+    "Skierniewice [skierniewice0] |skierniewice|skierniewice #Lodzkie#": [
+        20.142,
+        51.957,
+        45184
+    ],
+    "Wodzislaw Slaski [wodzislawslaski0] |wodzislawslaski|wodzislawslaski #Slaskie#": [
+        18.463,
+        50.003,
+        44833
+    ],
+    "Starachowice [starachowice0] |starachowice|starachowice #Swietokrzyskie#": [
+        21.084,
+        51.041,
+        44416
+    ],
+    "Krosno [krosno0] |krosno|krosno #Podkarpackie#": [
+        21.765,
+        49.694,
+        44060
+    ],
+    "Otwock [otwock0] |otwock|otwock #Mazowieckie#": [
+        21.262,
+        52.107,
+        43895
+    ],
+    "Pulawy [pulawy0] |pulawy|pulawy #Lubelskie#": [
+        21.972,
+        51.417,
+        43860
+    ],
+    "Tarnobrzeg [tarnobrzeg0] |tarnobrzeg|tarnobrzeg #Podkarpackie#": [
+        21.672,
+        50.574,
+        43712
+    ],
+    "Kolobrzeg [kolobrzeg0] |kolobrzeg|kolobrzeg #Zachodniopomorskie#": [
+        15.575,
+        54.177,
+        43426
+    ],
+    "Debica [debica0] |debica|debica #Podkarpackie#": [
+        21.41,
+        50.051,
+        42986
+    ],
+    "Radomsko [radomsko0] |radomsko|radomsko #Lodzkie#": [
+        19.444,
+        51.067,
+        42973
+    ],
+    "Ciechanow [ciechanow0] |ciechanow|ciechanow #Mazowieckie#": [
+        20.618,
+        52.879,
+        41740
+    ],
+    "Mikolow [mikolow0] |mikolow|mikolow #Slaskie#": [
+        18.905,
+        50.169,
+        41618
+    ],
+    "Skarzysko-Kamienna [skarzyskokamienna0] |skarzyskokamienna|skarzyskokamienna #Swietokrzyskie#": [
+        20.882,
+        51.12,
+        41224
+    ],
+    "Kutno [kutno0] |kutno|kutno #Lodzkie#": [
+        19.357,
+        52.233,
+        40723
+    ],
+    "Nysa [nysa0] |nysa|nysa #Opolskie#": [
+        17.334,
+        50.474,
+        40685
+    ],
+    "Minsk Mazowiecki [minskmazowiecki0] |minskmazowiecki|minskmazowiecki #Mazowieckie#": [
+        21.567,
+        52.18,
+        39837
+    ],
+    "Swinoujscie [swinoujscie0] |swinoujscie|swinoujscie #Zachodniopomorskie#": [
+        14.246,
+        53.907,
+        38904
+    ],
+    "Sieradz [sieradz0] |sieradz|sieradz #Lodzkie#": [
+        18.727,
+        51.593,
+        38729
+    ],
+    "Chojnice [chojnice0] |chojnice|chojnice #Pomorskie#": [
+        17.561,
+        53.695,
+        38729
+    ],
+    "Zyrardow [zyrardow0] |zyrardow|zyrardow #Mazowieckie#": [
+        20.439,
+        52.056,
+        38594
+    ],
+    "Zdunska Wola [zdunskawola0] |zdunskawola|zdunskawola #Lodzkie#": [
+        18.941,
+        51.599,
+        38402
+    ],
+    "Szczecinek [szczecinek0] |szczecinek|szczecinek #Zachodniopomorskie#": [
+        16.693,
+        53.71,
+        37557
+    ],
+    "Boleslawiec [boleslawiec0] |boleslawiec|boleslawiec #Dolnoslaskie#": [
+        15.565,
+        51.263,
+        37055
+    ],
+    "Kwidzyn [kwidzyn0] |kwidzyn|kwidzyn #Pomorskie#": [
+        18.929,
+        53.73,
+        36854
+    ],
+    "Malbork [malbork0] |malbork|malbork #Pomorskie#": [
+        19.028,
+        54.034,
+        36709
+    ],
+    "Swidnik [swidnik0] |swidnik|swidnik #Lubelskie#": [
+        22.7,
+        51.22,
+        36680
+    ],
+    "Nowa Sol [nowasol0] |nowasol|nowasol #Lubuskie#": [
+        15.719,
+        51.803,
+        36040
+    ],
+    "Wolomin [wolomin0] |wolomin|wolomin #Mazowieckie#": [
+        21.246,
+        52.345,
+        35620
+    ],
+    "Knurow [knurow0] |knurow|knurow #Slaskie#": [
+        18.671,
+        50.222,
+        35619
+    ],
+    "Oswiecim [oswiecim0] |oswiecim|oswiecim #Malopolskie#": [
+        19.222,
+        50.038,
+        35577
+    ],
+    "Jaroslaw [jaroslaw0] |jaroslaw|jaroslaw #Podkarpackie#": [
+        22.683,
+        50.018,
+        35298
+    ],
+    "Olesnica [olesnica0] |olesnica|olesnica #Dolnoslaskie#": [
+        17.379,
+        51.21,
+        35132
+    ],
+    "Zary [zary0] |zary|zary #Lubuskie#": [
+        15.138,
+        51.638,
+        34837
+    ],
+    "Czechowice-Dziedzice [czechowicedziedzice0] |czechowicedziedzice|czechowicedziedzice #Slaskie#": [
+        19.008,
+        49.911,
+        34783
+    ],
+    "Grodzisk Mazowiecki [grodziskmazowiecki0] |grodziskmazowiecki|grodziskmazowiecki #Mazowieckie#": [
+        20.624,
+        52.104,
+        34718
+    ],
+    "Sanok [sanok0] |sanok|sanok #Podkarpackie#": [
+        22.202,
+        49.558,
+        34345
+    ],
+    "Lebork [lebork0] |lebork|lebork #Pomorskie#": [
+        17.75,
+        54.544,
+        34000
+    ],
+    "Chrzanow [chrzanow0] |chrzanow|chrzanow #Malopolskie#": [
+        19.405,
+        50.142,
+        33928
+    ],
+    "Sochaczew [sochaczew0] |sochaczew|sochaczew #Mazowieckie#": [
+        20.238,
+        52.23,
+        33456
+    ],
+    "Brzeg [brzeg0] |brzeg|brzeg #Opolskie#": [
+        17.47,
+        50.86,
+        33403
+    ],
+    "Olawa [olawa0] |olawa|olawa #Dolnoslaskie#": [
+        17.295,
+        50.945,
+        33166
+    ],
+    "Nowy Targ [nowytarg0] |nowytarg|nowytarg #Malopolskie#": [
+        20.03,
+        49.479,
+        33065
+    ],
+    "Cieszyn [cieszyn0] |cieszyn|cieszyn #Slaskie#": [
+        18.633,
+        49.749,
+        32947
+    ],
+    "Lubon [lubon0] |lubon|lubon #Wielkopolskie#": [
+        16.879,
+        52.347,
+        32835
+    ],
+    "Jaslo [jaslo0] |jaslo|jaslo #Podkarpackie#": [
+        21.473,
+        49.747,
+        32727
+    ],
+    "Olkusz [olkusz0] |olkusz|olkusz #Malopolskie#": [
+        19.56,
+        50.279,
+        32261
+    ],
+    "Ilawa [ilawa0] |ilawa|ilawa #Warminsko-Mazurskie#": [
+        19.567,
+        53.596,
+        32188
+    ],
+    "Pruszcz Gdanski [pruszczgdanski0] |pruszczgdanski|pruszczgdanski #Pomorskie#": [
+        18.638,
+        54.261,
+        32171
+    ],
+    "Sopot [sopot0] |sopot|sopot #Pomorskie#": [
+        18.568,
+        54.445,
+        31903
+    ],
+    "Wrzesnia [wrzesnia0] |wrzesnia|wrzesnia #Wielkopolskie#": [
+        17.57,
+        52.325,
+        31759
+    ],
+    "Ostroda [ostroda0] |ostroda|ostroda #Warminsko-Mazurskie#": [
+        19.964,
+        53.7,
+        31336
+    ],
+    "Krasnik [krasnik0] |krasnik|krasnik #Lubelskie#": [
+        22.225,
+        50.922,
+        31296
+    ],
+    "Mlawa [mlawa0] |mlawa|mlawa #Mazowieckie#": [
+        20.384,
+        53.112,
+        30802
+    ],
+    "Dzierzoniow [dzierzoniow0] |dzierzoniow|dzierzoniow #Dolnoslaskie#": [
+        16.651,
+        50.728,
+        30614
+    ],
+    "Czeladz [czeladz0] |czeladz|czeladz #Slaskie#": [
+        19.071,
+        50.319,
+        29876
+    ],
+    "Zywiec [zywiec0] |zywiec|zywiec #Slaskie#": [
+        19.203,
+        49.689,
+        29732
+    ],
+    "Police [police0] |police|police #Zachodniopomorskie#": [
+        14.573,
+        53.552,
+        29627
+    ],
+    "Myszkow [myszkow0] |myszkow|myszkow #Slaskie#": [
+        19.318,
+        50.573,
+        29379
+    ],
+    "Augustow [augustow0] |augustow|augustow #Podlaskie#": [
+        22.979,
+        53.844,
+        28995
+    ],
+    "Zgorzelec [zgorzelec0] |zgorzelec|zgorzelec #Dolnoslaskie#": [
+        15.01,
+        51.15,
+        28931
+    ],
+    "Reda [reda0] |reda|reda #Pomorskie#": [
+        18.353,
+        54.602,
+        28704
+    ],
+    "Nowy Dwor Mazowiecki [nowydwormazowiecki0] |nowydwormazowiecki|nowydwormazowiecki #Mazowieckie#": [
+        20.715,
+        52.43,
+        28548
+    ],
+    "Bochnia [bochnia0] |bochnia|bochnia #Malopolskie#": [
+        20.43,
+        49.969,
+        28441
+    ],
+    "Kobylka [kobylka0] |kobylka|kobylka #Mazowieckie#": [
+        21.196,
+        52.339,
+        28339
+    ],
+    "Swarzedz [swarzedz0] |swarzedz|swarzedz #Wielkopolskie#": [
+        17.078,
+        52.41,
+        28254
+    ],
+    "Brodnica [brodnica0] |brodnica|brodnica #Kujawsko-Pomorskie#": [
+        19.403,
+        53.257,
+        28190
+    ],
+    "Krotoszyn [krotoszyn0] |krotoszyn|krotoszyn #Wielkopolskie#": [
+        17.437,
+        51.696,
+        28126
+    ],
+    "Bielawa [bielawa0] |bielawa|bielawa #Dolnoslaskie#": [
+        16.612,
+        50.684,
+        28027
+    ],
+    "Wieliczka [wieliczka0] |wieliczka|wieliczka #Malopolskie#": [
+        20.061,
+        49.984,
+        27845
+    ],
+    "Srem [srem0] |srem|srem #Wielkopolskie#": [
+        17.019,
+        52.088,
+        27817
+    ],
+    "Gizycko [gizycko0] |gizycko|gizycko #Warminsko-Mazurskie#": [
+        21.767,
+        54.037,
+        27310
+    ],
+    "Lukow [lukow0] |lukow|lukow #Lubelskie#": [
+        22.382,
+        51.929,
+        27159
+    ],
+    "Czerwionka-Leszczyny [czerwionkaleszczyny0] |czerwionkaleszczyny|czerwionkaleszczyny #Slaskie#": [
+        18.677,
+        50.149,
+        26522
+    ],
+    "Jarocin [jarocin0] |jarocin|jarocin #Wielkopolskie#": [
+        17.502,
+        51.972,
+        26286
+    ],
+    "Wyszkow [wyszkow0] |wyszkow|wyszkow #Mazowieckie#": [
+        21.457,
+        52.595,
+        26019
+    ],
+    "Lowicz [lowicz0] |lowicz|lowicz #Lodzkie#": [
+        19.945,
+        52.108,
+        25972
+    ],
+    "Gorlice [gorlice0] |gorlice|gorlice #Malopolskie#": [
+        21.16,
+        49.658,
+        25523
+    ],
+    "Wagrowiec [wagrowiec0] |wagrowiec|wagrowiec #Wielkopolskie#": [
+        17.203,
+        52.809,
+        25398
+    ],
+    "Zakopane [zakopane0] |zakopane|zakopane #Malopolskie#": [
+        19.949,
+        49.298,
+        25204
+    ],
+    "Ketrzyn [ketrzyn0] |ketrzyn|ketrzyn #Warminsko-Mazurskie#": [
+        21.373,
+        54.077,
+        25113
+    ],
+    "Pszczyna [pszczyna0] |pszczyna|pszczyna #Slaskie#": [
+        18.943,
+        49.978,
+        25031
+    ],
+    "Swiecie [swiecie0] |swiecie|swiecie #Kujawsko-Pomorskie#": [
+        18.451,
+        53.409,
+        24841
+    ],
+    "Klodzko [klodzko0] |klodzko|klodzko #Dolnoslaskie#": [
+        16.661,
+        50.434,
+        24810
+    ],
+    "Bilgoraj [bilgoraj0] |bilgoraj|bilgoraj #Lubelskie#": [
+        22.72,
+        50.54,
+        24769
+    ],
+    "Turek [turek0] |turek|turek #Wielkopolskie#": [
+        18.501,
+        52.016,
+        24463
+    ],
+    "Sroda Wielkopolska [srodawielkopolska0] |srodawielkopolska|srodawielkopolska #Wielkopolskie#": [
+        17.28,
+        52.229,
+        24324
+    ],
+    "Skawina [skawina0] |skawina|skawina #Malopolskie#": [
+        19.828,
+        49.976,
+        23967
+    ],
+    "Bielsk Podlaski [bielskpodlaski0] |bielskpodlaski|bielskpodlaski #Podlaskie#": [
+        23.191,
+        52.768,
+        23823
+    ],
+    "Walcz [walcz0] |walcz|walcz #Zachodniopomorskie#": [
+        16.471,
+        53.272,
+        23578
+    ],
+    "Zagan [zagan0] |zagan|zagan #Lubuskie#": [
+        15.324,
+        51.615,
+        23462
+    ],
+    "Koscian [koscian0] |koscian|koscian #Wielkopolskie#": [
+        16.637,
+        52.081,
+        23398
+    ],
+    "Lubliniec [lubliniec0] |lubliniec|lubliniec #Slaskie#": [
+        18.683,
+        50.669,
+        23347
+    ],
+    "Koscierzyna [koscierzyna0] |koscierzyna|koscierzyna #Pomorskie#": [
+        17.978,
+        54.123,
+        23296
+    ],
+    "Piastow [piastow0] |piastow|piastow #Mazowieckie#": [
+        20.841,
+        52.19,
+        22932
+    ],
+    "Bialogard [bialogard0] |bialogard|bialogard #Zachodniopomorskie#": [
+        15.991,
+        54.005,
+        22418
+    ],
+    "Kluczbork [kluczbork0] |kluczbork|kluczbork #Opolskie#": [
+        18.218,
+        50.973,
+        22033
+    ],
+    "Aleksandrow Lodzki [aleksandrowlodzki0] |aleksandrowlodzki|aleksandrowlodzki #Lodzkie#": [
+        19.306,
+        51.819,
+        22002
+    ],
+    "Orzesze [orzesze0] |orzesze|orzesze #Slaskie#": [
+        18.793,
+        50.112,
+        21986
+    ],
+    "Szczytno [szczytno0] |szczytno|szczytno #Warminsko-Mazurskie#": [
+        20.993,
+        53.565,
+        21878
+    ],
+    "Swiebodzice [swiebodzice0] |swiebodzice|swiebodzice #Dolnoslaskie#": [
+        16.32,
+        50.86,
+        21805
+    ],
+    "Plonsk [plonsk0] |plonsk|plonsk #Mazowieckie#": [
+        20.375,
+        52.623,
+        21530
+    ],
+    "Ostrow Mazowiecka [ostrowmazowiecka0] |ostrowmazowiecka|ostrowmazowiecka #Mazowieckie#": [
+        21.896,
+        52.804,
+        21530
+    ],
+    "Goleniow [goleniow0] |goleniow|goleniow #Zachodniopomorskie#": [
+        14.828,
+        53.564,
+        21462
+    ],
+    "Sulejowek [sulejowek0] |sulejowek|sulejowek #Mazowieckie#": [
+        21.269,
+        52.252,
+        21428
+    ],
+    "Polkowice [polkowice0] |polkowice|polkowice #Dolnoslaskie#": [
+        16.068,
+        51.504,
+        21350
+    ],
+    "Bartoszyce [bartoszyce0] |bartoszyce|bartoszyce #Warminsko-Mazurskie#": [
+        20.812,
+        54.251,
+        21314
+    ],
+    "Sandomierz [sandomierz0] |sandomierz|sandomierz #Swietokrzyskie#": [
+        21.749,
+        50.68,
+        21273
+    ],
+    "Jozefow [jozefow0] |jozefow|jozefow #Mazowieckie#": [
+        21.235,
+        52.137,
+        21217
+    ],
+    "Laziska Gorne [laziskagorne0] |laziskagorne|laziskagorne #Slaskie#": [
+        18.845,
+        50.15,
+        21116
+    ],
+    "Grajewo [grajewo0] |grajewo|grajewo #Podlaskie#": [
+        22.455,
+        53.649,
+        20899
+    ],
+    "Zambrow [zambrow0] |zambrow|zambrow #Podlaskie#": [
+        22.241,
+        52.985,
+        20848
+    ],
+    "Swiebodzin [swiebodzin0] |swiebodzin|swiebodzin #Lubuskie#": [
+        15.535,
+        52.248,
+        20778
+    ],
+    "Mragowo [mragowo0] |mragowo|mragowo #Warminsko-Mazurskie#": [
+        21.307,
+        53.863,
+        20533
+    ],
+    "Jawor [jawor0] |jawor|jawor #Dolnoslaskie#": [
+        16.193,
+        51.05,
+        20503
+    ],
+    "Wielun [wielun0] |wielun|wielun #Lodzkie#": [
+        18.57,
+        51.221,
+        20448
+    ],
+    "Nowa Ruda [nowaruda0] |nowaruda|nowaruda #Dolnoslaskie#": [
+        16.502,
+        50.579,
+        20421
+    ],
+    "Rydultowy [rydultowy0] |rydultowy|rydultowy #Slaskie#": [
+        18.417,
+        50.058,
+        20168
+    ],
+    "Dzialdowo [dzialdowo0] |dzialdowo|dzialdowo #Warminsko-Mazurskie#": [
+        20.179,
+        53.236,
+        20125
+    ],
+    "Gostyn [gostyn0] |gostyn|gostyn #Wielkopolskie#": [
+        17.012,
+        51.879,
+        19814
+    ],
+    "Lubartow [lubartow0] |lubartow|lubartow #Lubelskie#": [
+        22.61,
+        51.462,
+        19734
+    ],
+    "Gryfino [gryfino0] |gryfino|gryfino #Zachodniopomorskie#": [
+        14.488,
+        53.253,
+        19691
+    ],
+    "Rawicz [rawicz0] |rawicz|rawicz #Wielkopolskie#": [
+        16.858,
+        51.609,
+        19655
+    ],
+    "Luban [luban0] |luban|luban #Dolnoslaskie#": [
+        15.29,
+        51.117,
+        19545
+    ],
+    "Kolo [kolo0] |kolo|kolo #Wielkopolskie#": [
+        18.637,
+        52.199,
+        19417
+    ],
+    "Konstantynow Lodzki [konstantynowlodzki0] |konstantynowlodzki|konstantynowlodzki #Lodzkie#": [
+        19.325,
+        51.748,
+        19231
+    ],
+    "Pultusk [pultusk0] |pultusk|pultusk #Mazowieckie#": [
+        21.085,
+        52.697,
+        19064
+    ],
+    "Hajnowka [hajnowka0] |hajnowka|hajnowka #Podlaskie#": [
+        23.589,
+        52.738,
+        18976
+    ],
+    "Prudnik [prudnik0] |prudnik|prudnik #Opolskie#": [
+        17.574,
+        50.322,
+        18974
+    ],
+    "Opoczno [opoczno0] |opoczno|opoczno #Lodzkie#": [
+        20.286,
+        51.377,
+        18913
+    ],
+    "Bierun [bierun0] |bierun|bierun #Slaskie#": [
+        19.092,
+        50.093,
+        18835
+    ],
+    "Trzebinia [trzebinia0] |trzebinia|trzebinia #Malopolskie#": [
+        19.471,
+        50.16,
+        18502
+    ],
+    "Sokolow Podlaski [sokolowpodlaski0] |sokolowpodlaski|sokolowpodlaski #Mazowieckie#": [
+        22.253,
+        52.407,
+        18361
+    ],
+    "Andrychow [andrychow0] |andrychow|andrychow #Malopolskie#": [
+        19.34,
+        49.854,
+        18311
+    ],
+    "Lomianki [lomianki0] |lomianki|lomianki #Mazowieckie#": [
+        20.887,
+        52.334,
+        18226
+    ],
+    "Szamotuly [szamotuly0] |szamotuly|szamotuly #Wielkopolskie#": [
+        16.579,
+        52.612,
+        18219
+    ],
+    "Zielonka [zielonka0] |zielonka|zielonka #Mazowieckie#": [
+        21.161,
+        52.303,
+        18143
+    ],
+    "Zlotow [zlotow0] |zlotow|zlotow #Wielkopolskie#": [
+        17.04,
+        53.364,
+        18138
+    ],
+    "Ozorkow [ozorkow0] |ozorkow|ozorkow #Lodzkie#": [
+        19.292,
+        51.964,
+        18064
+    ],
+    "Chelmno [chelmno0] |chelmno|chelmno #Kujawsko-Pomorskie#": [
+        18.434,
+        53.35,
+        18052
+    ],
+    "Tomaszow Lubelski [tomaszowlubelski0] |tomaszowlubelski|tomaszowlubelski #Lubelskie#": [
+        23.419,
+        50.453,
+        17848
+    ],
+    "Myslenice [myslenice0] |myslenice|myslenice #Malopolskie#": [
+        19.938,
+        49.834,
+        17745
+    ],
+    "Lancut [lancut0] |lancut|lancut #Podkarpackie#": [
+        22.232,
+        50.069,
+        17703
+    ],
+    "Pisz [pisz0] |pisz|pisz #Warminsko-Mazurskie#": [
+        21.809,
+        53.629,
+        17672
+    ],
+    "Kety [kety0] |kety|kety #Malopolskie#": [
+        19.223,
+        49.881,
+        17669
+    ],
+    "Leczna [leczna0] |leczna|leczna #Lubelskie#": [
+        22.882,
+        51.306,
+        17665
+    ],
+    "Kostrzyn nad Odra [kostrzynnadodra0] |kostrzynnadodra|kostrzynnadodra #Lubuskie#": [
+        14.649,
+        52.587,
+        17591
+    ],
+    "Konskie [konskie0] |konskie|konskie #Swietokrzyskie#": [
+        20.407,
+        51.191,
+        17384
+    ],
+    "Krasnystaw [krasnystaw0] |krasnystaw|krasnystaw #Lubelskie#": [
+        23.173,
+        50.984,
+        17366
+    ],
+    "Chodziez [chodziez0] |chodziez|chodziez #Wielkopolskie#": [
+        16.917,
+        52.992,
+        17321
+    ],
+    "Garwolin [garwolin0] |garwolin|garwolin #Mazowieckie#": [
+        21.615,
+        51.897,
+        17268
+    ],
+    "Oborniki [oborniki0] |oborniki|oborniki #Wielkopolskie#": [
+        16.814,
+        52.645,
+        17238
+    ],
+    "Pyskowice [pyskowice0] |pyskowice|pyskowice #Slaskie#": [
+        18.627,
+        50.398,
+        17236
+    ],
+    "Wadowice [wadowice0] |wadowice|wadowice #Malopolskie#": [
+        19.494,
+        49.883,
+        17196
+    ],
+    "Kamienna Gora [kamiennagora0] |kamiennagora|kamiennagora #Dolnoslaskie#": [
+        16.025,
+        50.785,
+        17110
+    ],
+    "Sokolka [sokolka0] |sokolka|sokolka #Podlaskie#": [
+        23.503,
+        53.406,
+        17087
+    ],
+    "Naklo nad Notecia [naklonadnotecia0] |naklonadnotecia|naklonadnotecia #Kujawsko-Pomorskie#": [
+        17.603,
+        53.14,
+        17002
+    ],
+    "Gostynin [gostynin0] |gostynin|gostynin #Mazowieckie#": [
+        19.461,
+        52.429,
+        16986
+    ],
+    "Strzelce Opolskie [strzelceopolskie0] |strzelceopolskie|strzelceopolskie #Opolskie#": [
+        18.303,
+        50.511,
+        16975
+    ],
+    "Sierpc [sierpc0] |sierpc|sierpc #Mazowieckie#": [
+        19.669,
+        52.857,
+        16941
+    ],
+    "Konstancin-Jeziorna [konstancinjeziorna0] |konstancinjeziorna|konstancinjeziorna #Mazowieckie#": [
+        21.118,
+        52.094,
+        16894
+    ],
+    "Miedzyrzecz [miedzyrzecz0] |miedzyrzecz|miedzyrzecz #Lubuskie#": [
+        15.578,
+        52.444,
+        16831
+    ],
+    "Radlin [radlin0] |radlin|radlin #Slaskie#": [
+        18.477,
+        50.049,
+        16829
+    ],
+    "Namyslow [namyslow0] |namyslow|namyslow #Opolskie#": [
+        17.722,
+        51.074,
+        16818
+    ],
+    "Grojec [grojec0] |grojec|grojec #Mazowieckie#": [
+        20.867,
+        51.866,
+        16807
+    ],
+    "Niepolomice [niepolomice0] |niepolomice|niepolomice #Malopolskie#": [
+        20.223,
+        50.041,
+        16805
+    ],
+    "Pleszew [pleszew0] |pleszew|pleszew #Wielkopolskie#": [
+        17.787,
+        51.896,
+        16610
+    ],
+    "Milanowek [milanowek0] |milanowek|milanowek #Mazowieckie#": [
+        20.672,
+        52.119,
+        16424
+    ],
+    "Trzcianka [trzcianka0] |trzcianka|trzcianka #Wielkopolskie#": [
+        16.459,
+        53.042,
+        16422
+    ],
+    "Przasnysz [przasnysz0] |przasnysz|przasnysz #Mazowieckie#": [
+        20.88,
+        53.019,
+        16357
+    ],
+    "Bytow [bytow0] |bytow|bytow #Pomorskie#": [
+        17.492,
+        54.171,
+        16339
+    ],
+    "Ledziny [ledziny0] |ledziny|ledziny #Slaskie#": [
+        19.131,
+        50.143,
+        16333
+    ],
+    "Slubice [slubice0] |slubice|slubice #Lubuskie#": [
+        14.56,
+        52.351,
+        16255
+    ],
+    "Pionki [pionki0] |pionki|pionki #Mazowieckie#": [
+        21.442,
+        51.478,
+        16089
+    ],
+    "Lask [lask0] |lask|lask #Lodzkie#": [
+        19.133,
+        51.59,
+        16058
+    ],
+    "Radzionkow [radzionkow0] |radzionkow|radzionkow #Slaskie#": [
+        18.902,
+        50.4,
+        16034
+    ],
+    "Bogatynia [bogatynia0] |bogatynia|bogatynia #Dolnoslaskie#": [
+        14.956,
+        50.907,
+        16020
+    ],
+    "Braniewo [braniewo0] |braniewo|braniewo #Warminsko-Mazurskie#": [
+        19.82,
+        54.38,
+        16015
+    ],
+    "Rawa Mazowiecka [rawamazowiecka0] |rawamazowiecka|rawamazowiecka #Lodzkie#": [
+        20.256,
+        51.766,
+        15941
+    ],
+    "Hrubieszow [hrubieszow0] |hrubieszow|hrubieszow #Lubelskie#": [
+        23.892,
+        50.803,
+        15935
+    ],
+    "Brzesko [brzesko0] |brzesko|brzesko #Malopolskie#": [
+        20.603,
+        49.965,
+        15928
+    ],
+    "Libiaz [libiaz0] |libiaz|libiaz #Malopolskie#": [
+        19.317,
+        50.104,
+        15912
+    ],
+    "Ustron [ustron0] |ustron|ustron #Slaskie#": [
+        18.812,
+        49.72,
+        15853
+    ],
+    "Ropczyce [ropczyce0] |ropczyce|ropczyce #Podkarpackie#": [
+        21.609,
+        50.052,
+        15794
+    ],
+    "Olecko [olecko0] |olecko|olecko #Warminsko-Mazurskie#": [
+        22.507,
+        54.034,
+        15721
+    ],
+    "Nowogard [nowogard0] |nowogard|nowogard #Zachodniopomorskie#": [
+        15.116,
+        53.674,
+        15695
+    ],
+    "Ozarow Mazowiecki [ozarowmazowiecki0] |ozarowmazowiecki|ozarowmazowiecki #Mazowieckie#": [
+        20.797,
+        52.21,
+        15623
+    ],
+    "Gubin [gubin0] |gubin|gubin #Lubuskie#": [
+        14.728,
+        51.949,
+        15606
+    ],
+    "Kozienice [kozienice0] |kozienice|kozienice #Mazowieckie#": [
+        21.551,
+        51.585,
+        15530
+    ],
+    "Sulechow [sulechow0] |sulechow|sulechow #Lubuskie#": [
+        15.625,
+        52.083,
+        15467
+    ],
+    "Miedzyrzec Podlaski [miedzyrzecpodlaski0] |miedzyrzecpodlaski|miedzyrzecpodlaski #Lubelskie#": [
+        22.785,
+        51.985,
+        15389
+    ],
+    "Rypin [rypin0] |rypin|rypin #Kujawsko-Pomorskie#": [
+        19.409,
+        53.066,
+        15379
+    ],
+    "Gryfice [gryfice0] |gryfice|gryfice #Zachodniopomorskie#": [
+        15.2,
+        53.917,
+        15343
+    ],
+    "Krapkowice [krapkowice0] |krapkowice|krapkowice #Opolskie#": [
+        17.965,
+        50.475,
+        15282
+    ],
+    "Solec Kujawski [soleckujawski0] |soleckujawski|soleckujawski #Kujawsko-Pomorskie#": [
+        18.226,
+        53.083,
+        15249
+    ],
+    "Grodzisk Wielkopolski [grodziskwielkopolski0] |grodziskwielkopolski|grodziskwielkopolski #Wielkopolskie#": [
+        16.365,
+        52.226,
+        15124
+    ],
+    "Jelcz-Laskowice [jelczlaskowice0] |jelczlaskowice|jelczlaskowice #Dolnoslaskie#": [
+        17.316,
+        51.021,
+        15004
+    ],
+    "Radzymin [radzymin0] |radzymin|radzymin #Mazowieckie#": [
+        21.18,
+        52.418,
+        14962
+    ],
+    "Strzegom [strzegom0] |strzegom|strzegom #Dolnoslaskie#": [
+        16.351,
+        50.96,
+        14940
+    ],
+    "Brwinow [brwinow0] |brwinow|brwinow #Mazowieckie#": [
+        20.718,
+        52.143,
+        14568
+    ],
+    "Swidwin [swidwin0] |swidwin|swidwin #Zachodniopomorskie#": [
+        15.773,
+        53.776,
+        14547
+    ],
+    "Przeworsk [przeworsk0] |przeworsk|przeworsk #Podkarpackie#": [
+        22.495,
+        50.059,
+        14523
+    ],
+    "Mosina [mosina0] |mosina|mosina #Wielkopolskie#": [
+        16.846,
+        52.245,
+        14501
+    ],
+    "Nisko [nisko0] |nisko|nisko #Podkarpackie#": [
+        22.14,
+        50.52,
+        14477
+    ],
+    "Lidzbark Warminski [lidzbarkwarminski0] |lidzbarkwarminski|lidzbarkwarminski #Warminsko-Mazurskie#": [
+        20.586,
+        54.125,
+        14459
+    ],
+    "Lapy [lapy0] |lapy|lapy #Podlaskie#": [
+        22.884,
+        52.991,
+        14436
+    ],
+    "Limanowa [limanowa0] |limanowa|limanowa #Malopolskie#": [
+        20.422,
+        49.706,
+        14430
+    ],
+    "Busko-Zdroj [buskozdroj0] |buskozdroj|buskozdroj #Swietokrzyskie#": [
+        20.719,
+        50.47,
+        14365
+    ],
+    "Radzyn Podlaski [radzynpodlaski0] |radzynpodlaski|radzynpodlaski #Lubelskie#": [
+        22.622,
+        51.783,
+        14293
+    ],
+    "Zabkowice Slaskie [zabkowiceslaskie0] |zabkowiceslaskie|zabkowiceslaskie #Dolnoslaskie#": [
+        16.813,
+        50.589,
+        14240
+    ],
+    "Zlotoryja [zlotoryja0] |zlotoryja|zlotoryja #Dolnoslaskie#": [
+        15.921,
+        51.126,
+        14168
+    ],
+    "Boguszow-Gorce [boguszowgorce0] |boguszowgorce|boguszowgorce #Dolnoslaskie#": [
+        16.205,
+        50.756,
+        14166
+    ],
+    "Deblin [deblin0] |deblin|deblin #Lubelskie#": [
+        21.849,
+        51.559,
+        14132
+    ],
+    "Jedrzejow [jedrzejow0] |jedrzejow|jedrzejow #Swietokrzyskie#": [
+        20.304,
+        50.639,
+        14029
+    ],
+    "Choszczno [choszczno0] |choszczno|choszczno #Zachodniopomorskie#": [
+        15.42,
+        53.169,
+        13895
+    ],
+    "Kartuzy [kartuzy0] |kartuzy|kartuzy #Pomorskie#": [
+        18.198,
+        54.334,
+        13796
+    ],
+    "Ustka [ustka0] |ustka|ustka #Pomorskie#": [
+        16.862,
+        54.581,
+        13722
+    ],
+    "Chelmza [chelmza0] |chelmza|chelmza #Kujawsko-Pomorskie#": [
+        18.605,
+        53.184,
+        13691
+    ],
+    "Trzebnica [trzebnica0] |trzebnica|trzebnica #Dolnoslaskie#": [
+        17.063,
+        51.31,
+        13655
+    ],
+    "Staszow [staszow0] |staszow|staszow #Swietokrzyskie#": [
+        21.173,
+        50.564,
+        13596
+    ],
+    "Ostrzeszow [ostrzeszow0] |ostrzeszow|ostrzeszow #Wielkopolskie#": [
+        17.93,
+        51.427,
+        13593
+    ],
+    "Nowy Tomysl [nowytomysl0] |nowytomysl|nowytomysl #Wielkopolskie#": [
+        16.128,
+        52.318,
+        13591
+    ],
+    "Kepno [kepno0] |kepno|kepno #Wielkopolskie#": [
+        17.989,
+        51.278,
+        13530
+    ],
+    "Skoczow [skoczow0] |skoczow|skoczow #Slaskie#": [
+        18.791,
+        49.803,
+        13423
+    ],
+    "Siemiatycze [siemiatycze0] |siemiatycze|siemiatycze #Podlaskie#": [
+        22.864,
+        52.427,
+        13391
+    ],
+    "Lipno [lipno0] |lipno|lipno #Kujawsko-Pomorskie#": [
+        19.181,
+        52.844,
+        13380
+    ],
+    "Goldap [goldap0] |goldap|goldap #Warminsko-Mazurskie#": [
+        22.303,
+        54.307,
+        13184
+    ],
+    "Glowno [glowno0] |glowno|glowno #Lodzkie#": [
+        19.715,
+        51.964,
+        13116
+    ],
+    "Leczyca [leczyca0] |leczyca|leczyca #Lodzkie#": [
+        19.198,
+        52.059,
+        13065
+    ],
+    "Znin [znin0] |znin|znin #Kujawsko-Pomorskie#": [
+        17.72,
+        52.849,
+        13040
+    ],
+    "Czluchow [czluchow0] |czluchow|czluchow #Pomorskie#": [
+        17.359,
+        53.667,
+        13031
+    ],
+    "Pszow [pszow0] |pszow|pszow #Slaskie#": [
+        18.394,
+        50.04,
+        13007
+    ],
+    "Wschowa [wschowa0] |wschowa|wschowa #Lubuskie#": [
+        16.316,
+        51.807,
+        12991
+    ],
+    "Tuchola [tuchola0] |tuchola|tuchola #Kujawsko-Pomorskie#": [
+        17.861,
+        53.588,
+        12969
+    ],
+    "Slupca [slupca0] |slupca|slupca #Wielkopolskie#": [
+        17.874,
+        52.288,
+        12952
+    ],
+    "Barlinek [barlinek0] |barlinek|barlinek #Zachodniopomorskie#": [
+        15.219,
+        52.994,
+        12935
+    ],
+    "Wabrzezno [wabrzezno0] |wabrzezno|wabrzezno #Kujawsko-Pomorskie#": [
+        18.948,
+        53.281,
+        12892
+    ],
+    "Debno [debno0] |debno|debno #Zachodniopomorskie#": [
+        14.697,
+        52.739,
+        12885
+    ],
+    "Lubsko [lubsko0] |lubsko|lubsko #Lubuskie#": [
+        14.972,
+        51.784,
+        12858
+    ],
+    "Wasilkow [wasilkow0] |wasilkow|wasilkow #Podlaskie#": [
+        23.208,
+        53.199,
+        12768
+    ],
+    "Morag [morag0] |morag|morag #Warminsko-Mazurskie#": [
+        19.928,
+        53.916,
+        12757
+    ],
+    "Lezajsk [lezajsk0] |lezajsk|lezajsk #Podkarpackie#": [
+        22.419,
+        50.263,
+        12697
+    ],
+    "Nidzica [nidzica0] |nidzica|nidzica #Warminsko-Mazurskie#": [
+        20.427,
+        53.361,
+        12629
+    ],
+    "Glucholazy [glucholazy0] |glucholazy|glucholazy #Opolskie#": [
+        17.384,
+        50.315,
+        12621
+    ],
+    "Brzeg Dolny [brzegdolny0] |brzegdolny|brzegdolny #Dolnoslaskie#": [
+        16.709,
+        51.273,
+        12536
+    ],
+    "Darlowo [darlowo0] |darlowo|darlowo #Zachodniopomorskie#": [
+        16.411,
+        54.421,
+        12512
+    ],
+    "Sedziszow Malopolski [sedziszowmalopolski0] |sedziszowmalopolski|sedziszowmalopolski #Podkarpackie#": [
+        21.703,
+        50.071,
+        12368
+    ],
+    "Chojnow [chojnow0] |chojnow|chojnow #Dolnoslaskie#": [
+        15.937,
+        51.273,
+        12361
+    ],
+    "Rabka-Zdroj [rabkazdroj0] |rabkazdroj|rabkazdroj #Malopolskie#": [
+        19.967,
+        49.609,
+        12233
+    ],
+    "Klobuck [klobuck0] |klobuck|klobuck #Slaskie#": [
+        18.937,
+        50.901,
+        12220
+    ],
+    "Blonie [blonie0] |blonie|blonie #Mazowieckie#": [
+        20.617,
+        52.199,
+        12172
+    ],
+    "Gora Kalwaria [gorakalwaria0] |gorakalwaria|gorakalwaria #Mazowieckie#": [
+        21.215,
+        51.976,
+        12129
+    ],
+    "Wlodawa [wlodawa0] |wlodawa|wlodawa #Lubelskie#": [
+        23.554,
+        51.544,
+        12123
+    ],
+    "Zlocieniec [zlocieniec0] |zlocieniec|zlocieniec #Zachodniopomorskie#": [
+        16.011,
+        53.531,
+        12046
+    ],
+    "Koluszki [koluszki0] |koluszki|koluszki #Lodzkie#": [
+        19.82,
+        51.738,
+        12046
+    ],
+    "Wolow [wolow0] |wolow|wolow #Dolnoslaskie#": [
+        16.644,
+        51.336,
+        12010
+    ],
+    "Brzeziny [brzeziny0] |brzeziny|brzeziny #Lodzkie#": [
+        19.752,
+        51.8,
+        11949
+    ],
+    "Strzelin [strzelin0] |strzelin|strzelin #Dolnoslaskie#": [
+        17.065,
+        50.781,
+        11936
+    ],
+    "Wolsztyn [wolsztyn0] |wolsztyn|wolsztyn #Wielkopolskie#": [
+        16.117,
+        52.115,
+        11935
+    ],
+    "Warka [warka0] |warka|warka #Mazowieckie#": [
+        21.188,
+        51.783,
+        11889
+    ],
+    "Wegrow [wegrow0] |wegrow|wegrow #Mazowieckie#": [
+        22.017,
+        52.399,
+        11844
+    ],
+    "Pyrzyce [pyrzyce0] |pyrzyce|pyrzyce #Zachodniopomorskie#": [
+        14.892,
+        53.146,
+        11824
+    ],
+    "Slawno [slawno0] |slawno|slawno #Zachodniopomorskie#": [
+        16.68,
+        54.362,
+        11777
+    ],
+    "Paslek [paslek0] |paslek|paslek #Warminsko-Mazurskie#": [
+        19.664,
+        54.062,
+        11728
+    ],
+    "Glubczyce [glubczyce0] |glubczyce|glubczyce #Opolskie#": [
+        17.83,
+        50.201,
+        11651
+    ],
+    "Aleksandrow Kujawski [aleksandrowkujawski0] |aleksandrowkujawski|aleksandrowkujawski #Kujawsko-Pomorskie#": [
+        18.693,
+        52.877,
+        11474
+    ],
+    "Dabrowa Tarnowska [dabrowatarnowska0] |dabrowatarnowska|dabrowatarnowska #Malopolskie#": [
+        20.984,
+        50.174,
+        11458
+    ],
+    "Lubaczow [lubaczow0] |lubaczow|lubaczow #Podkarpackie#": [
+        23.121,
+        50.155,
+        11313
+    ],
+    "Golub-Dobrzyn [golubdobrzyn0] |golubdobrzyn|golubdobrzyn #Kujawsko-Pomorskie#": [
+        19.054,
+        53.111,
+        11261
+    ],
+    "Drawsko Pomorskie [drawskopomorskie0] |drawskopomorskie|drawskopomorskie #Zachodniopomorskie#": [
+        15.814,
+        53.532,
+        11224
+    ],
+    "Siechnice [siechnice0] |siechnice|siechnice #Dolnoslaskie#": [
+        17.15,
+        51.036,
+        10991
+    ],
+    "Mogilno [mogilno0] |mogilno|mogilno #Kujawsko-Pomorskie#": [
+        17.956,
+        52.658,
+        10972
+    ],
+    "Miechow [miechow0] |miechow|miechow #Malopolskie#": [
+        20.027,
+        50.357,
+        10918
+    ],
+    "Janow Lubelski [janowlubelski0] |janowlubelski|janowlubelski #Lubelskie#": [
+        22.419,
+        50.705,
+        10894
+    ],
+    "Rogozno [rogozno0] |rogozno|rogozno #Wielkopolskie#": [
+        17.002,
+        52.75,
+        10771
+    ],
+    "Milicz [milicz0] |milicz|milicz #Dolnoslaskie#": [
+        17.271,
+        51.528,
+        10771
+    ],
+    "Koronowo [koronowo0] |koronowo|koronowo #Kujawsko-Pomorskie#": [
+        17.925,
+        53.316,
+        10743
+    ],
+    "Gora [gora0] |gora|gora #Dolnoslaskie#": [
+        16.538,
+        51.67,
+        10700
+    ],
+    "Brzeszcze [brzeszcze0] |brzeszcze|brzeszcze #Malopolskie#": [
+        19.144,
+        49.985,
+        10657
+    ],
+    "Wisla [wisla0] |wisla|wisla #Slaskie#": [
+        18.868,
+        49.647,
+        10637
+    ],
+    "Lubawa [lubawa0] |lubawa|lubawa #Warminsko-Mazurskie#": [
+        19.75,
+        53.503,
+        10633
+    ],
+    "Glogow Malopolski [glogowmalopolski0] |glogowmalopolski|glogowmalopolski #Podkarpackie#": [
+        21.968,
+        50.151,
+        10583
+    ],
+    "Wegorzewo [wegorzewo0] |wegorzewo|wegorzewo #Warminsko-Mazurskie#": [
+        21.744,
+        54.209,
+        10563
+    ],
+    "Szydlowiec [szydlowiec0] |szydlowiec|szydlowiec #Mazowieckie#": [
+        20.861,
+        51.228,
+        10556
+    ],
+    "Szprotawa [szprotawa0] |szprotawa|szprotawa #Lubuskie#": [
+        15.536,
+        51.566,
+        10554
+    ],
+    "Krosno Odrzanskie [krosnoodrzanskie0] |krosnoodrzanskie|krosnoodrzanskie #Lubuskie#": [
+        15.097,
+        52.055,
+        10533
+    ],
+    "Wronki [wronki0] |wronki|wronki #Wielkopolskie#": [
+        16.379,
+        52.708,
+        10505
+    ],
+    "Puck [puck0] |puck|puck #Pomorskie#": [
+        18.409,
+        54.718,
+        10463
+    ],
+    "Nowa Deba [nowadeba0] |nowadeba|nowadeba #Podkarpackie#": [
+        21.751,
+        50.429,
+        10381
+    ],
+    "Mysliborz [mysliborz0] |mysliborz|mysliborz #Zachodniopomorskie#": [
+        14.868,
+        52.924,
+        10353
+    ],
+    "Murowana Goslina [murowanagoslina0] |murowanagoslina|murowanagoslina #Wielkopolskie#": [
+        17.009,
+        52.574,
+        10287
+    ],
+    "Parczew [parczew0] |parczew|parczew #Lubelskie#": [
+        22.897,
+        51.639,
+        10185
+    ],
+    "Zdzieszowice [zdzieszowice0] |zdzieszowice|zdzieszowice #Opolskie#": [
+        18.127,
+        50.424,
+        10157
+    ],
+    "Ciechocinek [ciechocinek0] |ciechocinek|ciechocinek #Kujawsko-Pomorskie#": [
+        18.795,
+        52.879,
+        10153
+    ],
+    "Nowe Miasto Lubawskie [nowemiastolubawskie0] |nowemiastolubawskie|nowemiastolubawskie #Warminsko-Mazurskie#": [
+        19.591,
+        53.423,
+        10089
+    ],
+    "Miedzychod [miedzychod0] |miedzychod|miedzychod #Wielkopolskie#": [
+        15.889,
+        52.602,
+        9956
+    ],
+    "Sycow [sycow0] |sycow|sycow #Dolnoslaskie#": [
+        17.721,
+        51.308,
+        9938
+    ],
+    "Biskupiec [biskupiec0] |biskupiec|biskupiec #Warminsko-Mazurskie#": [
+        20.955,
+        53.863,
+        9924
+    ],
+    "Czarnkow [czarnkow0] |czarnkow|czarnkow #Wielkopolskie#": [
+        16.564,
+        52.905,
+        9916
+    ],
+    "Pobiedziska [pobiedziska0] |pobiedziska|pobiedziska #Wielkopolskie#": [
+        17.289,
+        52.478,
+        9891
+    ],
+    "Kostrzyn [kostrzyn0] |kostrzyn|kostrzyn #Wielkopolskie#": [
+        17.229,
+        52.398,
+        9855
+    ],
+    "Czersk [czersk0] |czersk|czersk #Pomorskie#": [
+        17.976,
+        53.795,
+        9852
+    ],
+    "Kolno [kolno0] |kolno|kolno #Podlaskie#": [
+        21.933,
+        53.408,
+        9839
+    ],
+    "Kowary [kowary0] |kowary|kowary #Dolnoslaskie#": [
+        15.838,
+        50.792,
+        9745
+    ],
+    "Krzeszowice [krzeszowice0] |krzeszowice|krzeszowice #Malopolskie#": [
+        19.634,
+        50.142,
+        9743
+    ],
+    "Sulecin [sulecin0] |sulecin|sulecin #Lubuskie#": [
+        15.113,
+        52.442,
+        9738
+    ],
+    "Pinczow [pinczow0] |pinczow|pinczow #Swietokrzyskie#": [
+        20.526,
+        50.52,
+        9721
+    ],
+    "Strzelce Krajenskie [strzelcekrajenskie0] |strzelcekrajenskie|strzelcekrajenskie #Lubuskie#": [
+        15.535,
+        52.879,
+        9705
+    ],
+    "Krynica-Zdroj [krynicazdroj0] |krynicazdroj|krynicazdroj #Malopolskie#": [
+        20.959,
+        49.422,
+        9597
+    ],
+    "Sroda Slaska [srodaslaska0] |srodaslaska|srodaslaska #Dolnoslaskie#": [
+        16.593,
+        51.164,
+        9540
+    ],
+    "Wloszczowa [wloszczowa0] |wloszczowa|wloszczowa #Swietokrzyskie#": [
+        19.973,
+        50.851,
+        9520
+    ],
+    "Lobez [lobez0] |lobez|lobez #Zachodniopomorskie#": [
+        15.621,
+        53.639,
+        9516
+    ],
+    "Nowy Dwor Gdanski [nowydworgdanski0] |nowydworgdanski|nowydworgdanski #Pomorskie#": [
+        19.117,
+        54.208,
+        9471
+    ],
+    "Bukowno [bukowno0] |bukowno|bukowno #Malopolskie#": [
+        19.458,
+        50.263,
+        9467
+    ],
+    "Drezdenko [drezdenko0] |drezdenko|drezdenko #Lubuskie#": [
+        15.831,
+        52.838,
+        9455
+    ],
+    "Monki [monki0] |monki|monki #Podlaskie#": [
+        22.797,
+        53.405,
+        9449
+    ],
+    "Szubin [szubin0] |szubin|szubin #Kujawsko-Pomorskie#": [
+        17.741,
+        53.008,
+        9402
+    ],
+    "Imielin [imielin0] |imielin|imielin #Slaskie#": [
+        19.186,
+        50.145,
+        9398
+    ],
+    "Miastko [miastko0] |miastko|miastko #Pomorskie#": [
+        16.982,
+        54.003,
+        9395
+    ],
+    "Trzebiatow [trzebiatow0] |trzebiatow|trzebiatow #Zachodniopomorskie#": [
+        15.265,
+        54.061,
+        9314
+    ],
+    "Opalenica [opalenica0] |opalenica|opalenica #Wielkopolskie#": [
+        16.41,
+        52.309,
+        9303
+    ],
+    "Puszczykowo [puszczykowo0] |puszczykowo|puszczykowo #Wielkopolskie#": [
+        16.854,
+        52.284,
+        9292
+    ],
+    "Kudowa-Zdroj [kudowazdroj0] |kudowazdroj|kudowazdroj #Dolnoslaskie#": [
+        16.243,
+        50.443,
+        9280
+    ],
+    "Dobre Miasto [dobremiasto0] |dobremiasto|dobremiasto #Warminsko-Mazurskie#": [
+        20.397,
+        53.987,
+        9255
+    ],
+    "Karczew [karczew0] |karczew|karczew #Mazowieckie#": [
+        21.25,
+        52.076,
+        9245
+    ],
+    "Wladyslawowo [wladyslawowo0] |wladyslawowo|wladyslawowo #Pomorskie#": [
+        18.403,
+        54.791,
+        9235
+    ],
+    "Sztum [sztum0] |sztum|sztum #Pomorskie#": [
+        19.03,
+        53.921,
+        9104
+    ],
+    "Skwierzyna [skwierzyna0] |skwierzyna|skwierzyna #Lubuskie#": [
+        15.506,
+        52.599,
+        9078
+    ],
+    "Kruszwica [kruszwica0] |kruszwica|kruszwica #Kujawsko-Pomorskie#": [
+        18.33,
+        52.674,
+        9070
+    ],
+    "Olesno [olesno0] |olesno|olesno #Opolskie#": [
+        18.415,
+        50.875,
+        9047
+    ],
+    "Blachownia [blachownia0] |blachownia|blachownia #Slaskie#": [
+        18.974,
+        50.776,
+        9041
+    ],
+    "Wysokie Mazowieckie [wysokiemazowieckie0] |wysokiemazowieckie|wysokiemazowieckie #Podlaskie#": [
+        22.51,
+        52.915,
+        9017
+    ],
+    "Oborniki Slaskie [obornikislaskie0] |obornikislaskie|obornikislaskie #Dolnoslaskie#": [
+        16.916,
+        51.301,
+        8990
+    ],
+    "Ryki [ryki0] |ryki|ryki #Lubelskie#": [
+        21.933,
+        51.625,
+        8985
+    ],
+    "Makow Mazowiecki [makowmazowiecki0] |makowmazowiecki|makowmazowiecki #Mazowieckie#": [
+        21.1,
+        52.865,
+        8939
+    ],
+    "Bystrzyca Klodzka [bystrzycaklodzka0] |bystrzycaklodzka|bystrzycaklodzka #Dolnoslaskie#": [
+        16.642,
+        50.299,
+        8939
+    ],
+    "Kozuchow [kozuchow0] |kozuchow|kozuchow #Lubuskie#": [
+        15.597,
+        51.747,
+        8892
+    ],
+    "Sucha Beskidzka [suchabeskidzka0] |suchabeskidzka|suchabeskidzka #Malopolskie#": [
+        19.591,
+        49.742,
+        8868
+    ],
+    "Sepolno Krajenskie [sepolnokrajenskie0] |sepolnokrajenskie|sepolnokrajenskie #Kujawsko-Pomorskie#": [
+        17.534,
+        53.455,
+        8720
+    ],
+    "Stary Sacz [starysacz0] |starysacz|starysacz #Malopolskie#": [
+        20.633,
+        49.564,
+        8701
+    ],
+    "Czarna Bialostocka [czarnabialostocka0] |czarnabialostocka|czarnabialostocka #Podlaskie#": [
+        23.283,
+        53.306,
+        8579
+    ],
+    "Kolbuszowa [kolbuszowa0] |kolbuszowa|kolbuszowa #Podkarpackie#": [
+        21.776,
+        50.244,
+        8495
+    ],
+    "Wojkowice [wojkowice0] |wojkowice|wojkowice #Slaskie#": [
+        19.037,
+        50.365,
+        8477
+    ],
+    "Zuromin [zuromin0] |zuromin|zuromin #Mazowieckie#": [
+        19.907,
+        53.067,
+        8437
+    ],
+    "Chelmek [chelmek0] |chelmek|chelmek #Malopolskie#": [
+        19.249,
+        50.1,
+        8413
+    ],
+    "Ustrzyki Dolne [ustrzykidolne0] |ustrzykidolne|ustrzykidolne #Podkarpackie#": [
+        22.594,
+        49.43,
+        8410
+    ],
+    "Strzyzow [strzyzow0] |strzyzow|strzyzow #Podkarpackie#": [
+        21.795,
+        49.871,
+        8402
+    ],
+    "Wieruszow [wieruszow0] |wieruszow|wieruszow #Lodzkie#": [
+        18.161,
+        51.295,
+        8332
+    ],
+    "Kamien Pomorski [kamienpomorski0] |kamienpomorski|kamienpomorski #Zachodniopomorskie#": [
+        14.771,
+        53.967,
+        8291
+    ],
+    "Jastrowie [jastrowie0] |jastrowie|jastrowie #Wielkopolskie#": [
+        16.815,
+        53.421,
+        8258
+    ],
+    "Poniatowa [poniatowa0] |poniatowa|poniatowa #Lubelskie#": [
+        22.065,
+        51.193,
+        8246
+    ],
+    "Kalety [kalety0] |kalety|kalety #Slaskie#": [
+        18.893,
+        50.562,
+        8170
+    ],
+    "Kornik [kornik0] |kornik|kornik #Wielkopolskie#": [
+        17.09,
+        52.247,
+        8141
+    ],
+    "Janikowo [janikowo0] |janikowo|janikowo #Kujawsko-Pomorskie#": [
+        18.114,
+        52.754,
+        8136
+    ],
+    "Lwowek Slaski [lwowekslaski0] |lwowekslaski|lwowekslaski #Dolnoslaskie#": [
+        15.581,
+        51.109,
+        8132
+    ],
+    "Poreba [poreba0] |poreba|poreba #Slaskie#": [
+        19.339,
+        50.488,
+        8104
+    ],
+    "Prabuty [prabuty0] |prabuty|prabuty #Pomorskie#": [
+        19.205,
+        53.756,
+        8091
+    ],
+    "Pniewy [pniewy0] |pniewy|pniewy #Wielkopolskie#": [
+        16.26,
+        52.507,
+        8080
+    ],
+    "Wolbrom [wolbrom0] |wolbrom|wolbrom #Malopolskie#": [
+        19.758,
+        50.379,
+        8045
+    ],
+    "Tluszcz [tluszcz0] |tluszcz|tluszcz #Mazowieckie#": [
+        21.427,
+        52.427,
+        8032
+    ],
+    "Orneta [orneta0] |orneta|orneta #Warminsko-Mazurskie#": [
+        20.13,
+        54.115,
+        8007
+    ],
+    "Ziebice [ziebice0] |ziebice|ziebice #Dolnoslaskie#": [
+        17.043,
+        50.601,
+        7981
+    ],
+    "Ozimek [ozimek0] |ozimek|ozimek #Opolskie#": [
+        18.214,
+        50.677,
+        7962
+    ],
+    "Grodkow [grodkow0] |grodkow|grodkow #Opolskie#": [
+        17.385,
+        50.7,
+        7902
+    ],
+    "Opole Lubelskie [opolelubelskie0] |opolelubelskie|opolelubelskie #Lubelskie#": [
+        21.969,
+        51.147,
+        7864
+    ],
+    "Mszana Dolna [mszanadolna0] |mszanadolna|mszanadolna #Malopolskie#": [
+        20.08,
+        49.674,
+        7826
+    ],
+    "Zychlin [zychlin0] |zychlin|zychlin #Lodzkie#": [
+        19.626,
+        52.244,
+        7494
+    ],
+    "Polaniec [polaniec0] |polaniec|polaniec #Swietokrzyskie#": [
+        21.281,
+        50.432,
+        7453
+    ],
+    "Suchedniow [suchedniow0] |suchedniow|suchedniow #Swietokrzyskie#": [
+        20.829,
+        51.048,
+        7452
+    ],
+    "Witkowo [witkowo0] |witkowo|witkowo #Wielkopolskie#": [
+        17.773,
+        52.439,
+        7427
+    ],
+    "Barczewo [barczewo0] |barczewo|barczewo #Warminsko-Mazurskie#": [
+        20.69,
+        53.829,
+        7377
+    ],
+    "Chocianow [chocianow0] |chocianow|chocianow #Dolnoslaskie#": [
+        15.905,
+        51.417,
+        7356
+    ],
+    "Chojna [chojna0] |chojna|chojna #Zachodniopomorskie#": [
+        14.427,
+        52.963,
+        7316
+    ],
+    "Nasielsk [nasielsk0] |nasielsk|nasielsk #Mazowieckie#": [
+        20.807,
+        52.59,
+        7315
+    ],
+    "Trzemeszno [trzemeszno0] |trzemeszno|trzemeszno #Wielkopolskie#": [
+        17.828,
+        52.564,
+        7272
+    ],
+    "Polczyn-Zdroj [polczynzdroj0] |polczynzdroj|polczynzdroj #Zachodniopomorskie#": [
+        16.092,
+        53.767,
+        7243
+    ],
+    "Lidzbark [lidzbark0] |lidzbark|lidzbark #Warminsko-Mazurskie#": [
+        19.823,
+        53.262,
+        7182
+    ],
+    "Tuszyn [tuszyn0] |tuszyn|tuszyn #Lodzkie#": [
+        19.535,
+        51.61,
+        7171
+    ],
+    "Katy Wroclawskie [katywroclawskie0] |katywroclawskie|katywroclawskie #Dolnoslaskie#": [
+        16.768,
+        51.031,
+        7168
+    ],
+    "Olsztynek [olsztynek0] |olsztynek|olsztynek #Warminsko-Mazurskie#": [
+        20.284,
+        53.584,
+        7165
+    ],
+    "Zwolen [zwolen0] |zwolen|zwolen #Mazowieckie#": [
+        21.588,
+        51.355,
+        7162
+    ],
+    "Brzozow [brzozow0] |brzozow|brzozow #Podkarpackie#": [
+        22.018,
+        49.694,
+        7158
+    ],
+    "Pelplin [pelplin0] |pelplin|pelplin #Pomorskie#": [
+        18.698,
+        53.928,
+        7124
+    ],
+    "Praszka [praszka0] |praszka|praszka #Opolskie#": [
+        18.45,
+        51.055,
+        7110
+    ],
+    "Zelow [zelow0] |zelow|zelow #Lodzkie#": [
+        19.221,
+        51.466,
+        7059
+    ],
+    "Sobotka [sobotka0] |sobotka|sobotka #Dolnoslaskie#": [
+        16.746,
+        50.898,
+        7022
+    ],
+    "Zbaszyn [zbaszyn0] |zbaszyn|zbaszyn #Wielkopolskie#": [
+        15.925,
+        52.251,
+        7016
+    ],
+    "Miasteczko Slaskie [miasteczkoslaskie0] |miasteczkoslaskie|miasteczkoslaskie #Slaskie#": [
+        18.939,
+        50.502,
+        6961
+    ],
+    "Barcin [barcin0] |barcin|barcin #Kujawsko-Pomorskie#": [
+        17.946,
+        52.866,
+        6926
+    ],
+    "Slawkow [slawkow0] |slawkow|slawkow #Slaskie#": [
+        19.388,
+        50.305,
+        6842
+    ],
+    "Losice [losice0] |losice|losice #Mazowieckie#": [
+        22.718,
+        52.212,
+        6808
+    ],
+    "Pieszyce [pieszyce0] |pieszyce|pieszyce #Dolnoslaskie#": [
+        16.582,
+        50.712,
+        6765
+    ],
+    "Poddebice [poddebice0] |poddebice|poddebice #Lodzkie#": [
+        18.957,
+        51.893,
+        6756
+    ],
+    "Zukowo [zukowo0] |zukowo|zukowo #Pomorskie#": [
+        18.365,
+        54.342,
+        6709
+    ],
+    "Gniewkowo [gniewkowo0] |gniewkowo|gniewkowo #Kujawsko-Pomorskie#": [
+        18.413,
+        52.893,
+        6677
+    ],
+    "Czaplinek [czaplinek0] |czaplinek|czaplinek #Zachodniopomorskie#": [
+        16.233,
+        53.558,
+        6663
+    ],
+    "Paczkow [paczkow0] |paczkow|paczkow #Opolskie#": [
+        17.004,
+        50.463,
+        6607
+    ],
+    "Skarszewy [skarszewy0] |skarszewy|skarszewy #Pomorskie#": [
+        18.446,
+        54.069,
+        6598
+    ],
+    "Sianow [sianow0] |sianow|sianow #Zachodniopomorskie#": [
+        16.292,
+        54.226,
+        6564
+    ],
+    "Lochow [lochow0] |lochow|lochow #Mazowieckie#": [
+        21.707,
+        52.533,
+        6545
+    ],
+    "Sulkowice [sulkowice0] |sulkowice|sulkowice #Malopolskie#": [
+        19.8,
+        49.853,
+        6464
+    ],
+    "Witnica [witnica0] |witnica|witnica #Lubuskie#": [
+        14.898,
+        52.673,
+        6434
+    ],
+    "Zarow [zarow0] |zarow|zarow #Dolnoslaskie#": [
+        16.498,
+        50.942,
+        6424
+    ],
+    "Gogolin [gogolin0] |gogolin|gogolin #Opolskie#": [
+        18.02,
+        50.492,
+        6418
+    ],
+    "Bialobrzegi [bialobrzegi0] |bialobrzegi|bialobrzegi #Mazowieckie#": [
+        20.957,
+        51.647,
+        6407
+    ],
+    "Rzepin [rzepin0] |rzepin|rzepin #Lubuskie#": [
+        14.832,
+        52.347,
+        6404
+    ],
+    "Lazy [lazy0] |lazy|lazy #Slaskie#": [
+        19.395,
+        50.427,
+        6378
+    ],
+    "Rudnik nad Sanem [rudniknadsanem0] |rudniknadsanem|rudniknadsanem #Podkarpackie#": [
+        22.245,
+        50.444,
+        6375
+    ],
+    "Pajeczno [pajeczno0] |pajeczno|pajeczno #Lodzkie#": [
+        18.999,
+        51.145,
+        6370
+    ],
+    "Zawadzkie [zawadzkie0] |zawadzkie|zawadzkie #Opolskie#": [
+        18.473,
+        50.612,
+        6358
+    ],
+    "Boguchwala [boguchwala0] |boguchwala|boguchwala #Podkarpackie#": [
+        21.944,
+        49.985,
+        6291
+    ],
+    "Otmuchow [otmuchow0] |otmuchow|otmuchow #Opolskie#": [
+        17.173,
+        50.466,
+        6179
+    ],
+    "Zmigrod [zmigrod0] |zmigrod|zmigrod #Dolnoslaskie#": [
+        16.906,
+        51.467,
+        6177
+    ],
+    "Twardogora [twardogora0] |twardogora|twardogora #Dolnoslaskie#": [
+        17.465,
+        51.368,
+        6177
+    ],
+    "Tuchow [tuchow0] |tuchow|tuchow #Malopolskie#": [
+        21.054,
+        49.895,
+        6176
+    ],
+    "Dobczyce [dobczyce0] |dobczyce|dobczyce #Malopolskie#": [
+        20.089,
+        49.881,
+        6163
+    ],
+    "Gniew [gniew0] |gniew|gniew #Pomorskie#": [
+        18.821,
+        53.837,
+        6149
+    ],
+    "Kozmin Wielkopolski [kozminwielkopolski0] |kozminwielkopolski|kozminwielkopolski #Wielkopolskie#": [
+        17.454,
+        51.827,
+        6117
+    ],
+    "Sedziszow [sedziszow0] |sedziszow|sedziszow #Swietokrzyskie#": [
+        20.072,
+        50.572,
+        6108
+    ],
+    "Gryfow Slaski [gryfowslaski0] |gryfowslaski|gryfowslaski #Dolnoslaskie#": [
+        15.412,
+        51.035,
+        6104
+    ],
+    "Mszczonow [mszczonow0] |mszczonow|mszczonow #Mazowieckie#": [
+        20.522,
+        51.982,
+        6090
+    ],
+    "Choroszcz [choroszcz0] |choroszcz|choroszcz #Podlaskie#": [
+        22.986,
+        53.143,
+        6089
+    ],
+    "Dynow [dynow0] |dynow|dynow #Podkarpackie#": [
+        22.234,
+        49.815,
+        5997
+    ],
+    "Grybow [grybow0] |grybow|grybow #Malopolskie#": [
+        20.947,
+        49.617,
+        5947
+    ],
+    "Polanica-Zdroj [polanicazdroj0] |polanicazdroj|polanicazdroj #Dolnoslaskie#": [
+        16.513,
+        50.405,
+        5937
+    ],
+    "Opatow [opatow0] |opatow|opatow #Swietokrzyskie#": [
+        21.427,
+        50.801,
+        5937
+    ],
+    "Belzyce [belzyce0] |belzyce|belzyce #Lubelskie#": [
+        22.283,
+        51.175,
+        5936
+    ],
+    "Sulejow [sulejow0] |sulejow|sulejow #Lodzkie#": [
+        19.882,
+        51.355,
+        5932
+    ],
+    "Gluszyca [gluszyca0] |gluszyca|gluszyca #Dolnoslaskie#": [
+        16.372,
+        50.685,
+        5924
+    ],
+    "Pilawa Gorna [pilawagorna0] |pilawagorna|pilawagorna #Dolnoslaskie#": [
+        16.743,
+        50.682,
+        5904
+    ],
+    "Krzyz Wielkopolski [krzyzwielkopolski0] |krzyzwielkopolski|krzyzwielkopolski #Wielkopolskie#": [
+        16.015,
+        52.879,
+        5882
+    ],
+    "Steszew [steszew0] |steszew|steszew #Wielkopolskie#": [
+        16.701,
+        52.284,
+        5874
+    ],
+    "Klodawa [klodawa0] |klodawa|klodawa #Wielkopolskie#": [
+        18.915,
+        52.254,
+        5870
+    ],
+    "Niemodlin [niemodlin0] |niemodlin|niemodlin #Opolskie#": [
+        17.627,
+        50.639,
+        5853
+    ],
+    "Sierakow [sierakow0] |sierakow|sierakow #Wielkopolskie#": [
+        16.085,
+        52.647,
+        5820
+    ],
+    "Szklarska Poreba [szklarskaporeba0] |szklarskaporeba|szklarskaporeba #Dolnoslaskie#": [
+        15.526,
+        50.827,
+        5776
+    ],
+    "Proszowice [proszowice0] |proszowice|proszowice #Malopolskie#": [
+        20.289,
+        50.192,
+        5744
+    ],
+    "Piechowice [piechowice0] |piechowice|piechowice #Dolnoslaskie#": [
+        15.601,
+        50.848,
+        5743
+    ],
+    "Siewierz [siewierz0] |siewierz|siewierz #Slaskie#": [
+        19.23,
+        50.467,
+        5730
+    ],
+    "Wielen [wielen0] |wielen|wielen #Wielkopolskie#": [
+        16.171,
+        52.895,
+        5677
+    ],
+    "Wiecbork [wiecbork0] |wiecbork|wiecbork #Kujawsko-Pomorskie#": [
+        17.491,
+        53.354,
+        5619
+    ],
+    "Smigiel [smigiel0] |smigiel|smigiel #Wielkopolskie#": [
+        16.527,
+        52.013,
+        5616
+    ],
+    "Przemkow [przemkow0] |przemkow|przemkow #Dolnoslaskie#": [
+        15.785,
+        51.527,
+        5598
+    ],
+    "Lewin Brzeski [lewinbrzeski0] |lewinbrzeski|lewinbrzeski #Opolskie#": [
+        17.62,
+        50.751,
+        5585
+    ],
+    "Czarne [czarne0] |czarne|czarne #Pomorskie#": [
+        16.938,
+        53.684,
+        5572
+    ],
+    "Lubawka [lubawka0] |lubawka|lubawka #Dolnoslaskie#": [
+        16.0,
+        50.703,
+        5536
+    ],
+    "Makow Podhalanski [makowpodhalanski0] |makowpodhalanski|makowpodhalanski #Malopolskie#": [
+        19.677,
+        49.73,
+        5534
+    ],
+    "Jedlicze [jedlicze0] |jedlicze|jedlicze #Podkarpackie#": [
+        21.653,
+        49.719,
+        5530
+    ],
+    "Buk [buk0] |buk|buk #Wielkopolskie#": [
+        16.52,
+        52.355,
+        5502
+    ],
+    "Karlino [karlino0] |karlino|karlino #Zachodniopomorskie#": [
+        15.879,
+        54.036,
+        5477
+    ],
+    "Piensk [piensk0] |piensk|piensk #Dolnoslaskie#": [
+        15.043,
+        51.25,
+        5454
+    ],
+    "Kietrz [kietrz0] |kietrz|kietrz #Opolskie#": [
+        18.004,
+        50.085,
+        5447
+    ],
+    "Glogowek [glogowek0] |glogowek|glogowek #Opolskie#": [
+        17.865,
+        50.353,
+        5445
+    ],
+    "Nowe [nowe0] |nowe|nowe #Kujawsko-Pomorskie#": [
+        18.727,
+        53.649,
+        5413
+    ],
+    "Jordanow [jordanow0] |jordanow|jordanow #Malopolskie#": [
+        19.83,
+        49.648,
+        5403
+    ],
+    "Piwniczna-Zdroj [piwnicznazdroj0] |piwnicznazdroj|piwnicznazdroj #Malopolskie#": [
+        20.711,
+        49.438,
+        5385
+    ],
+    "Nowa Sarzyna [nowasarzyna0] |nowasarzyna|nowasarzyna #Podkarpackie#": [
+        22.332,
+        50.324,
+        5357
+    ],
+    "Koniecpol [koniecpol0] |koniecpol|koniecpol #Slaskie#": [
+        19.689,
+        50.774,
+        5355
+    ],
+    "Wolczyn [wolczyn0] |wolczyn|wolczyn #Opolskie#": [
+        18.052,
+        51.018,
+        5320
+    ],
+    "Przysucha [przysucha0] |przysucha|przysucha #Mazowieckie#": [
+        20.628,
+        51.359,
+        5293
+    ],
+    "Szczyrk [szczyrk0] |szczyrk|szczyrk #Slaskie#": [
+        19.024,
+        49.715,
+        5283
+    ],
+    "Orzysz [orzysz0] |orzysz|orzysz #Warminsko-Mazurskie#": [
+        21.949,
+        53.81,
+        5279
+    ],
+    "Serock [serock0] |serock|serock #Mazowieckie#": [
+        21.069,
+        52.51,
+        5277
+    ],
+    "Scinawa [scinawa0] |scinawa|scinawa #Dolnoslaskie#": [
+        16.433,
+        51.413,
+        5251
+    ],
+    "Susz [susz0] |susz|susz #Warminsko-Mazurskie#": [
+        19.336,
+        53.717,
+        5245
+    ],
+    "Szczawno-Zdroj [szczawnozdroj0] |szczawnozdroj|szczawnozdroj #Dolnoslaskie#": [
+        16.247,
+        50.811,
+        5240
+    ],
+    "Dzialoszyn [dzialoszyn0] |dzialoszyn|dzialoszyn #Lodzkie#": [
+        18.864,
+        51.116,
+        5239
+    ],
+    "Strzelno [strzelno0] |strzelno|strzelno #Kujawsko-Pomorskie#": [
+        18.173,
+        52.628,
+        5230
+    ],
+    "Szczawnica [szczawnica0] |szczawnica|szczawnica #Malopolskie#": [
+        20.483,
+        49.423,
+        5208
+    ],
+    "Pakosc [pakosc0] |pakosc|pakosc #Kujawsko-Pomorskie#": [
+        18.085,
+        52.801,
+        5136
+    ],
+    "Terespol [terespol0] |terespol|terespol #Lubelskie#": [
+        23.615,
+        52.075,
+        5121
+    ],
+    "Lesko [lesko0] |lesko|lesko #Podkarpackie#": [
+        22.325,
+        49.474,
+        5098
+    ],
+    "Czempin [czempin0] |czempin|czempin #Wielkopolskie#": [
+        16.759,
+        52.143,
+        5096
+    ],
+    "Staporkow [staporkow0] |staporkow|staporkow #Swietokrzyskie#": [
+        20.572,
+        51.137,
+        5091
+    ],
+    "Wyrzysk [wyrzysk0] |wyrzysk|wyrzysk #Wielkopolskie#": [
+        17.269,
+        53.151,
+        5077
+    ],
+    "Brusy [brusy0] |brusy|brusy #Pomorskie#": [
+        17.719,
+        53.887,
+        5063
+    ],
+    "Radziejow [radziejow0] |radziejow|radziejow #Kujawsko-Pomorskie#": [
+        18.524,
+        52.625,
+        5055
+    ],
+    "Jaworzyna Slaska [jaworzynaslaska0] |jaworzynaslaska|jaworzynaslaska #Dolnoslaskie#": [
+        16.435,
+        50.912,
+        5035
+    ],
+    "Dabrowa Bialostocka [dabrowabialostocka0] |dabrowabialostocka|dabrowabialostocka #Podlaskie#": [
+        23.348,
+        53.653,
+        5008
+    ],
+    "Kazimierza Wielka [kazimierzawielka0] |kazimierzawielka|kazimierzawielka #Swietokrzyskie#": [
+        20.494,
+        50.265,
+        4995
+    ],
+    "Pilzno [pilzno0] |pilzno|pilzno #Podkarpackie#": [
+        21.295,
+        49.98,
+        4994
+    ],
+    "Stronie Slaskie [stronieslaskie0] |stronieslaskie|stronieslaskie #Dolnoslaskie#": [
+        16.873,
+        50.296,
+        4992
+    ],
+    "Lipsko [lipsko0] |lipsko|lipsko #Mazowieckie#": [
+        21.649,
+        51.159,
+        4948
+    ],
+    "Ladek-Zdroj [ladekzdroj0] |ladekzdroj|ladekzdroj #Dolnoslaskie#": [
+        16.88,
+        50.343,
+        4946
+    ],
+    "Odolanow [odolanow0] |odolanow|odolanow #Wielkopolskie#": [
+        17.674,
+        51.574,
+        4941
+    ],
+    "Radymno [radymno0] |radymno|radymno #Podkarpackie#": [
+        22.823,
+        49.947,
+        4935
+    ],
+    "Zagorz [zagorz0] |zagorz|zagorz #Podkarpackie#": [
+        22.267,
+        49.514,
+        4913
+    ],
+    "Zbaszynek [zbaszynek0] |zbaszynek|zbaszynek #Lubuskie#": [
+        15.815,
+        52.242,
+        4898
+    ],
+    "Miedzyzdroje [miedzyzdroje0] |miedzyzdroje|miedzyzdroje #Zachodniopomorskie#": [
+        14.452,
+        53.929,
+        4893
+    ],
+    "Dzierzgon [dzierzgon0] |dzierzgon|dzierzgon #Pomorskie#": [
+        19.347,
+        53.921,
+        4893
+    ],
+    "Sejny [sejny0] |sejny|sejny #Podlaskie#": [
+        23.347,
+        54.108,
+        4889
+    ],
+    "Borne Sulinowo [bornesulinowo0] |bornesulinowo|bornesulinowo #Zachodniopomorskie#": [
+        16.547,
+        53.581,
+        4843
+    ],
+    "Debrzno [debrzno0] |debrzno|debrzno #Pomorskie#": [
+        17.236,
+        53.538,
+        4834
+    ],
+    "Szczytna [szczytna0] |szczytna|szczytna #Dolnoslaskie#": [
+        16.446,
+        50.412,
+        4788
+    ],
+    "Skoki [skoki0] |skoki|skoki #Wielkopolskie#": [
+        17.157,
+        52.671,
+        4773
+    ],
+    "Nowogrod Bobrzanski [nowogrodbobrzanski0] |nowogrodbobrzanski|nowogrodbobrzanski #Lubuskie#": [
+        15.247,
+        51.801,
+        4767
+    ],
+    "Szczebrzeszyn [szczebrzeszyn0] |szczebrzeszyn|szczebrzeszyn #Lubelskie#": [
+        22.98,
+        50.695,
+        4744
+    ],
+    "Budzyn [budzyn0] |budzyn|budzyn #Wielkopolskie#": [
+        16.988,
+        52.89,
+        4668
+    ],
+    "Wolin [wolin0] |wolin|wolin #Zachodniopomorskie#": [
+        14.614,
+        53.842,
+        4639
+    ],
+    "Bolkow [bolkow0] |bolkow|bolkow #Dolnoslaskie#": [
+        16.104,
+        50.925,
+        4632
+    ],
+    "Jedlina-Zdroj [jedlinazdroj0] |jedlinazdroj|jedlinazdroj #Dolnoslaskie#": [
+        16.349,
+        50.726,
+        4623
+    ],
+    "Kuznia Raciborska [kuzniaraciborska0] |kuzniaraciborska|kuzniaraciborska #Slaskie#": [
+        18.311,
+        50.2,
+        4598
+    ],
+    "Nowe Skalmierzyce [noweskalmierzyce0] |noweskalmierzyce|noweskalmierzyce #Wielkopolskie#": [
+        17.993,
+        51.711,
+        4578
+    ],
+    "Tyczyn [tyczyn0] |tyczyn|tyczyn #Podkarpackie#": [
+        22.034,
+        49.964,
+        4562
+    ],
+    "Brzesc Kujawski [brzesckujawski0] |brzesckujawski|brzesckujawski #Kujawsko-Pomorskie#": [
+        18.901,
+        52.607,
+        4525
+    ],
+    "Krobia [krobia0] |krobia|krobia #Wielkopolskie#": [
+        16.986,
+        51.775,
+        4513
+    ],
+    "Laskarzew [laskarzew0] |laskarzew|laskarzew #Mazowieckie#": [
+        21.592,
+        51.789,
+        4489
+    ],
+    "Bychawa [bychawa0] |bychawa|bychawa #Lubelskie#": [
+        22.535,
+        51.015,
+        4476
+    ],
+    "Bierutow [bierutow0] |bierutow|bierutow #Dolnoslaskie#": [
+        17.547,
+        51.125,
+        4459
+    ],
+    "Skaryszew [skaryszew0] |skaryszew|skaryszew #Mazowieckie#": [
+        21.252,
+        51.311,
+        4456
+    ],
+    "Muszyna [muszyna0] |muszyna|muszyna #Malopolskie#": [
+        20.892,
+        49.353,
+        4433
+    ],
+    "Pilawa [pilawa0] |pilawa|pilawa #Mazowieckie#": [
+        21.529,
+        51.959,
+        4431
+    ],
+    "Ciechanowiec [ciechanowiec0] |ciechanowiec|ciechanowiec #Podlaskie#": [
+        22.498,
+        52.678,
+        4372
+    ],
+    "Labiszyn [labiszyn0] |labiszyn|labiszyn #Kujawsko-Pomorskie#": [
+        17.92,
+        52.951,
+        4352
+    ],
+    "Sokolow Malopolski [sokolowmalopolski0] |sokolowmalopolski|sokolowmalopolski #Podkarpackie#": [
+        22.119,
+        50.229,
+        4346
+    ],
+    "Tarczyn [tarczyn0] |tarczyn|tarczyn #Mazowieckie#": [
+        20.833,
+        51.981,
+        4343
+    ],
+    "Suprasl [suprasl0] |suprasl|suprasl #Podlaskie#": [
+        23.339,
+        53.205,
+        4332
+    ],
+    "Zarki [zarki0] |zarki|zarki #Slaskie#": [
+        19.364,
+        50.624,
+        4325
+    ],
+    "Checiny [checiny0] |checiny|checiny #Swietokrzyskie#": [
+        20.461,
+        50.801,
+        4316
+    ],
+    "Zduny [zduny0] |zduny|zduny #Wielkopolskie#": [
+        17.378,
+        51.647,
+        4314
+    ],
+    "Biecz [biecz0] |biecz|biecz #Malopolskie#": [
+        21.258,
+        49.733,
+        4313
+    ],
+    "Kamieniec Zabkowicki [kamienieczabkowicki0] |kamienieczabkowicki|kamienieczabkowicki #Dolnoslaskie#": [
+        16.876,
+        50.524,
+        4309
+    ],
+    "Kalwaria Zebrzydowska [kalwariazebrzydowska0] |kalwariazebrzydowska|kalwariazebrzydowska #Malopolskie#": [
+        19.677,
+        49.867,
+        4300
+    ],
+    "Olszyna [olszyna0] |olszyna|olszyna #Dolnoslaskie#": [
+        15.376,
+        51.065,
+        4288
+    ],
+    "Golina [golina0] |golina|golina #Wielkopolskie#": [
+        18.095,
+        52.242,
+        4284
+    ],
+    "Ilza [ilza0] |ilza|ilza #Mazowieckie#": [
+        21.24,
+        51.163,
+        4280
+    ],
+    "Kcynia [kcynia0] |kcynia|kcynia #Kujawsko-Pomorskie#": [
+        17.49,
+        52.992,
+        4238
+    ],
+    "Karpacz [karpacz0] |karpacz|karpacz #Dolnoslaskie#": [
+        15.756,
+        50.776,
+        4208
+    ],
+    "Ozarow [ozarow0] |ozarow|ozarow #Swietokrzyskie#": [
+        21.665,
+        50.885,
+        4203
+    ],
+    "Piotrkow Kujawski [piotrkowkujawski0] |piotrkowkujawski|piotrkowkujawski #Kujawsko-Pomorskie#": [
+        18.499,
+        52.551,
+        4185
+    ],
+    "Slomniki [slomniki0] |slomniki|slomniki #Malopolskie#": [
+        20.082,
+        50.241,
+        4161
+    ],
+    "Mrocza [mrocza0] |mrocza|mrocza #Kujawsko-Pomorskie#": [
+        17.608,
+        53.247,
+        4129
+    ],
+    "Gabin [gabin0] |gabin|gabin #Mazowieckie#": [
+        19.736,
+        52.397,
+        4124
+    ],
+    "Wozniki [wozniki0] |wozniki|wozniki #Slaskie#": [
+        19.065,
+        50.625,
+        4121
+    ],
+    "Ogrodzieniec [ogrodzieniec0] |ogrodzieniec|ogrodzieniec #Slaskie#": [
+        19.521,
+        50.452,
+        4110
+    ],
+    "Slawa [slawa0] |slawa|slawa #Lubuskie#": [
+        16.072,
+        51.876,
+        4103
+    ],
+    "Nowogrodziec [nowogrodziec0] |nowogrodziec|nowogrodziec #Dolnoslaskie#": [
+        15.399,
+        51.197,
+        4102
+    ],
+    "Krzepice [krzepice0] |krzepice|krzepice #Slaskie#": [
+        18.729,
+        50.97,
+        4101
+    ],
+    "Zabno [zabno0] |zabno|zabno #Malopolskie#": [
+        20.886,
+        50.133,
+        4100
+    ],
+    "Szczucin [szczucin0] |szczucin|szczucin #Malopolskie#": [
+        21.075,
+        50.309,
+        4086
+    ],
+    "Ruciane-Nida [rucianenida0] |rucianenida|rucianenida #Warminsko-Mazurskie#": [
+        21.54,
+        53.642,
+        4073
+    ],
+    "Kowalewo Pomorskie [kowalewopomorskie0] |kowalewopomorskie|kowalewopomorskie #Kujawsko-Pomorskie#": [
+        18.901,
+        53.155,
+        4063
+    ],
+    "Reszel [reszel0] |reszel|reszel #Warminsko-Mazurskie#": [
+        21.147,
+        54.05,
+        4045
+    ],
+    "Kalisz Pomorski [kaliszpomorski0] |kaliszpomorski|kaliszpomorski #Zachodniopomorskie#": [
+        15.906,
+        53.299,
+        4039
+    ],
+    "Jasien [jasien0] |jasien|jasien #Lubuskie#": [
+        15.011,
+        51.753,
+        4037
+    ],
+    "Rejowiec Fabryczny [rejowiecfabryczny0] |rejowiecfabryczny|rejowiecfabryczny #Lubelskie#": [
+        23.246,
+        51.115,
+        4003
+    ],
+    "Nowy Staw [nowystaw0] |nowystaw|nowystaw #Pomorskie#": [
+        19.003,
+        54.135,
+        4001
+    ],
+    "Duszniki-Zdroj [dusznikizdroj0] |dusznikizdroj|dusznikizdroj #Dolnoslaskie#": [
+        16.389,
+        50.396,
+        4001
+    ],
+    "Lesna [lesna0] |lesna|lesna #Dolnoslaskie#": [
+        15.264,
+        51.023,
+        3995
+    ],
+    "Krosniewice [krosniewice0] |krosniewice|krosniewice #Lodzkie#": [
+        19.17,
+        52.252,
+        3991
+    ],
+    "Raciaz [raciaz0] |raciaz|raciaz #Mazowieckie#": [
+        20.118,
+        52.782,
+        3966
+    ],
+    "Swieradow-Zdroj [swieradowzdroj0] |swieradowzdroj|swieradowzdroj #Dolnoslaskie#": [
+        15.343,
+        50.909,
+        3960
+    ],
+    "Jedlnia-Letnisko [jedlnialetnisko0] |jedlnialetnisko|jedlnialetnisko #Mazowieckie#": [
+        21.328,
+        51.431,
+        3957
+    ],
+    "Korsze [korsze0] |korsze|korsze #Warminsko-Mazurskie#": [
+        21.139,
+        54.17,
+        3934
+    ],
+    "Bytom Odrzanski [bytomodrzanski0] |bytomodrzanski|bytomodrzanski #Lubuskie#": [
+        15.822,
+        51.731,
+        3910
+    ],
+    "Szamocin [szamocin0] |szamocin|szamocin #Wielkopolskie#": [
+        17.124,
+        53.03,
+        3900
+    ],
+    "Kleczew [kleczew0] |kleczew|kleczew #Wielkopolskie#": [
+        18.172,
+        52.37,
+        3893
+    ],
+    "Resko [resko0] |resko|resko #Zachodniopomorskie#": [
+        15.407,
+        53.773,
+        3892
+    ],
+    "Osno Lubuskie [osnolubuskie0] |osnolubuskie|osnolubuskie #Lubuskie#": [
+        14.878,
+        52.452,
+        3889
+    ],
+    "Skala [skala0] |skala|skala #Malopolskie#": [
+        19.854,
+        50.23,
+        3880
+    ],
+    "Kargowa [kargowa0] |kargowa|kargowa #Lubuskie#": [
+        15.865,
+        52.072,
+        3827
+    ],
+    "Nekla [nekla0] |nekla|nekla #Wielkopolskie#": [
+        17.408,
+        52.366,
+        3826
+    ],
+    "Babimost [babimost0] |babimost|babimost #Lubuskie#": [
+        15.828,
+        52.165,
+        3818
+    ],
+    "Podkowa Lesna [podkowalesna0] |podkowalesna|podkowalesna #Mazowieckie#": [
+        20.727,
+        52.12,
+        3799
+    ],
+    "Lipiany [lipiany0] |lipiany|lipiany #Zachodniopomorskie#": [
+        14.97,
+        53.003,
+        3798
+    ],
+    "Czerwiensk [czerwiensk0] |czerwiensk|czerwiensk #Lubuskie#": [
+        15.423,
+        52.013,
+        3776
+    ],
+    "Zawidow [zawidow0] |zawidow|zawidow #Dolnoslaskie#": [
+        15.062,
+        51.025,
+        3761
+    ],
+    "Halinow [halinow0] |halinow|halinow #Mazowieckie#": [
+        21.355,
+        52.228,
+        3752
+    ],
+    "Mieroszow [mieroszow0] |mieroszow|mieroszow #Dolnoslaskie#": [
+        16.189,
+        50.665,
+        3729
+    ],
+    "Bobolice [bobolice0] |bobolice|bobolice #Zachodniopomorskie#": [
+        16.587,
+        53.955,
+        3723
+    ],
+    "Zelechow [zelechow0] |zelechow|zelechow #Mazowieckie#": [
+        21.896,
+        51.811,
+        3719
+    ],
+    "Ploty [ploty0] |ploty|ploty #Zachodniopomorskie#": [
+        15.267,
+        53.801,
+        3705
+    ],
+    "Czarny Dunajec [czarnydunajec0] |czarnydunajec|czarnydunajec #Malopolskie#": [
+        19.853,
+        49.441,
+        3680
+    ],
+    "Janowiec Wielkopolski [janowiecwielkopolski0] |janowiecwielkopolski|janowiecwielkopolski #Kujawsko-Pomorskie#": [
+        17.489,
+        52.76,
+        3675
+    ],
+    "Biala Piska [bialapiska0] |bialapiska|bialapiska #Warminsko-Mazurskie#": [
+        22.063,
+        53.612,
+        3673
+    ],
+    "Jablonowo Pomorskie [jablonowopomorskie0] |jablonowopomorskie|jablonowopomorskie #Kujawsko-Pomorskie#": [
+        19.154,
+        53.389,
+        3648
+    ],
+    "Gorowo Ilaweckie [gorowoilaweckie0] |gorowoilaweckie|gorowoilaweckie #Warminsko-Mazurskie#": [
+        20.491,
+        54.286,
+        3627
+    ],
+    "Pruchnik [pruchnik0] |pruchnik|pruchnik #Podkarpackie#": [
+        22.516,
+        49.906,
+        3625
+    ],
+    "Mrozy [mrozy0] |mrozy|mrozy #Mazowieckie#": [
+        21.803,
+        52.166,
+        3623
+    ],
+    "Tulowice [tulowice0] |tulowice|tulowice #Opolskie#": [
+        17.653,
+        50.595,
+        3622
+    ],
+    "Mirsk [mirsk0] |mirsk|mirsk #Dolnoslaskie#": [
+        15.386,
+        50.969,
+        3619
+    ],
+    "Okonek [okonek0] |okonek|okonek #Wielkopolskie#": [
+        16.852,
+        53.536,
+        3616
+    ],
+    "Naleczow [naleczow0] |naleczow|naleczow #Lubelskie#": [
+        22.215,
+        51.286,
+        3611
+    ],
+    "Zator [zator0] |zator|zator #Malopolskie#": [
+        19.438,
+        49.994,
+        3601
+    ],
+    "Ilowa [ilowa0] |ilowa|ilowa #Lubuskie#": [
+        15.193,
+        51.5,
+        3593
+    ],
+    "Rakoniewice [rakoniewice0] |rakoniewice|rakoniewice #Wielkopolskie#": [
+        16.274,
+        52.139,
+        3590
+    ],
+    "Strumien [strumien0] |strumien|strumien #Slaskie#": [
+        18.76,
+        49.916,
+        3558
+    ],
+    "Rymanow [rymanow0] |rymanow|rymanow #Podkarpackie#": [
+        21.868,
+        49.575,
+        3545
+    ],
+    "Drzewica [drzewica0] |drzewica|drzewica #Lodzkie#": [
+        20.477,
+        51.451,
+        3526
+    ],
+    "Krajenka [krajenka0] |krajenka|krajenka #Wielkopolskie#": [
+        16.991,
+        53.298,
+        3498
+    ],
+    "Prochowice [prochowice0] |prochowice|prochowice #Dolnoslaskie#": [
+        16.365,
+        51.274,
+        3496
+    ],
+    "Bransk [bransk0] |bransk|bransk #Podlaskie#": [
+        22.839,
+        52.742,
+        3494
+    ],
+    "Opatowek [opatowek0] |opatowek|opatowek #Wielkopolskie#": [
+        18.215,
+        51.74,
+        3493
+    ],
+    "Toszek [toszek0] |toszek|toszek #Slaskie#": [
+        18.522,
+        50.454,
+        3489
+    ],
+    "Nowe Miasto nad Pilica [nowemiastonadpilica0] |nowemiastonadpilica|nowemiastonadpilica #Mazowieckie#": [
+        20.577,
+        51.618,
+        3484
+    ],
+    "Barwice [barwice0] |barwice|barwice #Zachodniopomorskie#": [
+        16.355,
+        53.744,
+        3475
+    ],
+    "Rzgow [rzgow0] |rzgow|rzgow #Lodzkie#": [
+        19.49,
+        51.663,
+        3457
+    ],
+    "Dobrodzien [dobrodzien0] |dobrodzien|dobrodzien #Opolskie#": [
+        18.445,
+        50.729,
+        3447
+    ],
+    "Skorcz [skorcz0] |skorcz|skorcz #Pomorskie#": [
+        18.525,
+        53.794,
+        3439
+    ],
+    "Chmielnik [chmielnik0] |chmielnik|chmielnik #Swietokrzyskie#": [
+        20.752,
+        50.614,
+        3434
+    ],
+    "Wojcieszow [wojcieszow0] |wojcieszow|wojcieszow #Dolnoslaskie#": [
+        15.923,
+        50.952,
+        3431
+    ],
+    "Malomice [malomice0] |malomice|malomice #Lubuskie#": [
+        15.449,
+        51.554,
+        3420
+    ],
+    "Skepe [skepe0] |skepe|skepe #Kujawsko-Pomorskie#": [
+        19.346,
+        52.867,
+        3415
+    ],
+    "Radomysl Wielki [radomyslwielki0] |radomyslwielki|radomyslwielki #Podkarpackie#": [
+        21.278,
+        50.196,
+        3409
+    ],
+    "Zloczew [zloczew0] |zloczew|zloczew #Lodzkie#": [
+        18.606,
+        51.419,
+        3403
+    ],
+    "Miloslaw [miloslaw0] |miloslaw|miloslaw #Wielkopolskie#": [
+        17.49,
+        52.203,
+        3391
+    ],
+    "Strykow [strykow0] |strykow|strykow #Lodzkie#": [
+        19.605,
+        51.902,
+        3363
+    ],
+    "Mikolajki [mikolajki0] |mikolajki|mikolajki #Warminsko-Mazurskie#": [
+        21.571,
+        53.803,
+        3361
+    ],
+    "Malogoszcz [malogoszcz0] |malogoszcz|malogoszcz #Swietokrzyskie#": [
+        20.265,
+        50.812,
+        3356
+    ],
+    "Ujscie [ujscie0] |ujscie|ujscie #Wielkopolskie#": [
+        16.732,
+        53.053,
+        3355
+    ],
+    "Byczyna [byczyna0] |byczyna|byczyna #Opolskie#": [
+        18.212,
+        51.113,
+        3353
+    ],
+    "Mieszkowice [mieszkowice0] |mieszkowice|mieszkowice #Zachodniopomorskie#": [
+        14.493,
+        52.788,
+        3343
+    ],
+    "Sompolno [sompolno0] |sompolno|sompolno #Wielkopolskie#": [
+        18.503,
+        52.388,
+        3336
+    ],
+    "Szczekociny [szczekociny0] |szczekociny|szczekociny #Slaskie#": [
+        19.826,
+        50.627,
+        3329
+    ],
+    "Maszewo [maszewo0] |maszewo|maszewo #Zachodniopomorskie#": [
+        15.06,
+        53.497,
+        3303
+    ],
+    "Kepice [kepice0] |kepice|kepice #Pomorskie#": [
+        16.89,
+        54.242,
+        3283
+    ],
+    "Kowal [kowal0] |kowal|kowal #Kujawsko-Pomorskie#": [
+        19.148,
+        52.53,
+        3278
+    ],
+    "Alwernia [alwernia0] |alwernia|alwernia #Malopolskie#": [
+        19.539,
+        50.06,
+        3244
+    ],
+    "Kazimierz Dolny [kazimierzdolny0] |kazimierzdolny|kazimierzdolny #Lubelskie#": [
+        21.954,
+        51.318,
+        3239
+    ],
+    "Kolonowskie [kolonowskie0] |kolonowskie|kolonowskie #Opolskie#": [
+        18.386,
+        50.653,
+        3207
+    ],
+    "Kobylin [kobylin0] |kobylin|kobylin #Wielkopolskie#": [
+        17.226,
+        51.716,
+        3203
+    ],
+    "Myszyniec [myszyniec0] |myszyniec|myszyniec #Mazowieckie#": [
+        21.35,
+        53.38,
+        3189
+    ],
+    "Przedborz [przedborz0] |przedborz|przedborz #Lodzkie#": [
+        19.874,
+        51.088,
+        3182
+    ],
+    "Golancz [golancz0] |golancz|golancz #Wielkopolskie#": [
+        17.3,
+        52.943,
+        3180
+    ],
+    "Wilamowice [wilamowice0] |wilamowice|wilamowice #Slaskie#": [
+        19.152,
+        49.914,
+        3167
+    ],
+    "Wojnicz [wojnicz0] |wojnicz|wojnicz #Malopolskie#": [
+        20.839,
+        49.958,
+        3141
+    ],
+    "Szczuczyn [szczuczyn0] |szczuczyn|szczuczyn #Podlaskie#": [
+        22.286,
+        53.563,
+        3139
+    ],
+    "Zakroczym [zakroczym0] |zakroczym|zakroczym #Mazowieckie#": [
+        20.612,
+        52.438,
+        3129
+    ],
+    "Tarnogrod [tarnogrod0] |tarnogrod|tarnogrod #Lubelskie#": [
+        22.742,
+        50.36,
+        3109
+    ],
+    "Slesin [slesin0] |slesin|slesin #Wielkopolskie#": [
+        18.305,
+        52.37,
+        3098
+    ],
+    "Lasin [lasin0] |lasin|lasin #Kujawsko-Pomorskie#": [
+        19.084,
+        53.518,
+        3060
+    ],
+    "Bobowa [bobowa0] |bobowa|bobowa #Malopolskie#": [
+        20.945,
+        49.709,
+        3060
+    ],
+    "Miejska Gorka [miejskagorka0] |miejskagorka|miejskagorka #Wielkopolskie#": [
+        16.955,
+        51.655,
+        3054
+    ],
+    "Tuliszkow [tuliszkow0] |tuliszkow|tuliszkow #Wielkopolskie#": [
+        18.296,
+        52.077,
+        3038
+    ],
+    "Leba [leba0] |leba|leba #Pomorskie#": [
+        17.556,
+        54.76,
+        3024
+    ],
+    "Miroslawiec [miroslawiec0] |miroslawiec|miroslawiec #Zachodniopomorskie#": [
+        16.089,
+        53.343,
+        3018
+    ],
+    "Biala Rawska [bialarawska0] |bialarawska|bialarawska #Lodzkie#": [
+        20.473,
+        51.808,
+        3001
+    ],
+    "Chociwel [chociwel0] |chociwel|chociwel #Zachodniopomorskie#": [
+        15.333,
+        53.464,
+        2989
+    ],
+    "Dobiegniew [dobiegniew0] |dobiegniew|dobiegniew #Lubuskie#": [
+        15.753,
+        52.97,
+        2985
+    ],
+    "Uniejow [uniejow0] |uniejow|uniejow #Lodzkie#": [
+        18.797,
+        51.97,
+        2982
+    ],
+    "Wielbark [wielbark0] |wielbark|wielbark #Warminsko-Mazurskie#": [
+        20.951,
+        53.399,
+        2979
+    ],
+    "Margonin [margonin0] |margonin|margonin #Wielkopolskie#": [
+        17.095,
+        52.973,
+        2967
+    ],
+    "Krasnobrod [krasnobrod0] |krasnobrod|krasnobrod #Lubelskie#": [
+        23.218,
+        50.545,
+        2967
+    ],
+    "Pyzdry [pyzdry0] |pyzdry|pyzdry #Wielkopolskie#": [
+        17.69,
+        52.17,
+        2958
+    ],
+    "Piekoszow [piekoszow0] |piekoszow|piekoszow #Swietokrzyskie#": [
+        20.463,
+        50.882,
+        2948
+    ],
+    "Jeziorany [jeziorany0] |jeziorany|jeziorany #Warminsko-Mazurskie#": [
+        20.747,
+        53.979,
+        2943
+    ],
+    "Warta [warta0] |warta|warta #Lodzkie#": [
+        18.625,
+        51.711,
+        2935
+    ],
+    "Lwowek [lwowek0] |lwowek|lwowek #Wielkopolskie#": [
+        16.178,
+        52.448,
+        2923
+    ],
+    "Dobrzyca [dobrzyca0] |dobrzyca|dobrzyca #Wielkopolskie#": [
+        17.602,
+        51.867,
+        2922
+    ],
+    "Poniec [poniec0] |poniec|poniec #Wielkopolskie#": [
+        16.809,
+        51.766,
+        2918
+    ],
+    "Kanczuga [kanczuga0] |kanczuga|kanczuga #Podkarpackie#": [
+        22.412,
+        49.984,
+        2900
+    ],
+    "Chorzele [chorzele0] |chorzele|chorzele #Mazowieckie#": [
+        20.897,
+        53.259,
+        2894
+    ],
+    "Kock [kock0] |kock|kock #Lubelskie#": [
+        22.448,
+        51.639,
+        2870
+    ],
+    "Rydzyna [rydzyna0] |rydzyna|rydzyna #Wielkopolskie#": [
+        16.669,
+        51.789,
+        2869
+    ],
+    "Radoszyce [radoszyce0] |radoszyce|radoszyce #Swietokrzyskie#": [
+        20.255,
+        51.074,
+        2831
+    ],
+    "Polanow [polanow0] |polanow|polanow #Zachodniopomorskie#": [
+        16.688,
+        54.119,
+        2824
+    ],
+    "Baborow [baborow0] |baborow|baborow #Opolskie#": [
+        17.987,
+        50.156,
+        2823
+    ],
+    "Oleszyce [oleszyce0] |oleszyce|oleszyce #Podkarpackie#": [
+        23.036,
+        50.168,
+        2816
+    ],
+    "Bojanowo [bojanowo0] |bojanowo|bojanowo #Wielkopolskie#": [
+        16.751,
+        51.707,
+        2790
+    ],
+    "Glinojeck [glinojeck0] |glinojeck|glinojeck #Mazowieckie#": [
+        20.284,
+        52.818,
+        2788
+    ],
+    "Cmielow [cmielow0] |cmielow|cmielow #Swietokrzyskie#": [
+        21.516,
+        50.89,
+        2788
+    ],
+    "Hel [hel0] |hel|hel #Pomorskie#": [
+        18.801,
+        54.608,
+        2786
+    ],
+    "Zwierzyniec [zwierzyniec0] |zwierzyniec|zwierzyniec #Lubelskie#": [
+        22.975,
+        50.614,
+        2780
+    ],
+    "Zaklikow [zaklikow0] |zaklikow|zaklikow #Podkarpackie#": [
+        22.102,
+        50.756,
+        2780
+    ],
+    "Kaczory [kaczory0] |kaczory|kaczory #Wielkopolskie#": [
+        16.884,
+        53.102,
+        2777
+    ],
+    "Lobzenica [lobzenica0] |lobzenica|lobzenica #Wielkopolskie#": [
+        17.259,
+        53.26,
+        2764
+    ],
+    "Pruszcz [pruszcz0] |pruszcz|pruszcz #Kujawsko-Pomorskie#": [
+        18.197,
+        53.331,
+        2759
+    ],
+    "Michalowo [michalowo0] |michalowo|michalowo #Podlaskie#": [
+        23.604,
+        53.037,
+        2753
+    ],
+    "Daleszyce [daleszyce0] |daleszyce|daleszyce #Swietokrzyskie#": [
+        20.81,
+        50.803,
+        2750
+    ],
+    "Mielno [mielno0] |mielno|mielno #Zachodniopomorskie#": [
+        16.061,
+        54.26,
+        2737
+    ],
+    "Goscino [goscino0] |goscino|goscino #Zachodniopomorskie#": [
+        15.654,
+        54.05,
+        2734
+    ],
+    "Nowy Wisnicz [nowywisnicz0] |nowywisnicz|nowywisnicz #Malopolskie#": [
+        20.461,
+        49.915,
+        2730
+    ],
+    "Zagorow [zagorow0] |zagorow|zagorow #Wielkopolskie#": [
+        17.898,
+        52.169,
+        2729
+    ],
+    "Gozdnica [gozdnica0] |gozdnica|gozdnica #Lubuskie#": [
+        15.102,
+        51.44,
+        2726
+    ],
+    "Sulmierzyce [sulmierzyce0] |sulmierzyce|sulmierzyce #Wielkopolskie#": [
+        17.532,
+        51.606,
+        2722
+    ],
+    "Kunow [kunow0] |kunow|kunow #Swietokrzyskie#": [
+        21.28,
+        50.961,
+        2699
+    ],
+    "Kaluszyn [kaluszyn0] |kaluszyn|kaluszyn #Mazowieckie#": [
+        21.81,
+        52.207,
+        2699
+    ],
+    "Radlow [radlow0] |radlow|radlow #Malopolskie#": [
+        20.85,
+        50.084,
+        2698
+    ],
+    "Lubraniec [lubraniec0] |lubraniec|lubraniec #Kujawsko-Pomorskie#": [
+        18.831,
+        52.541,
+        2696
+    ],
+    "Brzostek [brzostek0] |brzostek|brzostek #Podkarpackie#": [
+        21.412,
+        49.879,
+        2688
+    ],
+    "Niemcza [niemcza0] |niemcza|niemcza #Dolnoslaskie#": [
+        16.832,
+        50.721,
+        2683
+    ],
+    "Ryn [ryn0] |ryn|ryn #Warminsko-Mazurskie#": [
+        21.546,
+        53.938,
+        2678
+    ],
+    "Ryglice [ryglice0] |ryglice|ryglice #Malopolskie#": [
+        21.138,
+        49.88,
+        2673
+    ],
+    "Wegliniec [wegliniec0] |wegliniec|wegliniec #Dolnoslaskie#": [
+        15.218,
+        51.289,
+        2662
+    ],
+    "Cybinka [cybinka0] |cybinka|cybinka #Lubuskie#": [
+        14.797,
+        52.195,
+        2656
+    ],
+    "Recz [recz0] |recz|recz #Zachodniopomorskie#": [
+        15.551,
+        53.26,
+        2647
+    ],
+    "Czarna Woda [czarnawoda0] |czarnawoda|czarnawoda #Pomorskie#": [
+        18.1,
+        53.845,
+        2644
+    ],
+    "Knyszyn [knyszyn0] |knyszyn|knyszyn #Podlaskie#": [
+        22.92,
+        53.313,
+        2643
+    ],
+    "Nowe Miasteczko [nowemiasteczko0] |nowemiasteczko|nowemiasteczko #Lubuskie#": [
+        15.732,
+        51.69,
+        2636
+    ],
+    "Drobin [drobin0] |drobin|drobin #Mazowieckie#": [
+        19.992,
+        52.737,
+        2631
+    ],
+    "Wegorzyno [wegorzyno0] |wegorzyno|wegorzyno #Zachodniopomorskie#": [
+        15.559,
+        53.541,
+        2628
+    ],
+    "Rozan [rozan0] |rozan|rozan #Mazowieckie#": [
+        21.391,
+        52.887,
+        2616
+    ],
+    "Jastarnia [jastarnia0] |jastarnia|jastarnia #Pomorskie#": [
+        18.679,
+        54.696,
+        2604
+    ],
+    "Kamiensk [kamiensk0] |kamiensk|kamiensk #Lodzkie#": [
+        19.498,
+        51.203,
+        2599
+    ],
+    "Czerniejewo [czerniejewo0] |czerniejewo|czerniejewo #Wielkopolskie#": [
+        17.49,
+        52.428,
+        2555
+    ],
+    "Proszkow [proszkow0] |proszkow|proszkow #Opolskie#": [
+        17.871,
+        50.577,
+        2552
+    ],
+    "Wasosz [wasosz0] |wasosz|wasosz #Dolnoslaskie#": [
+        16.694,
+        51.565,
+        2551
+    ],
+    "Lesnica [lesnica0] |lesnica|lesnica #Opolskie#": [
+        18.187,
+        50.431,
+        2546
+    ],
+    "Ksiaz Wielkopolski [ksiazwielkopolski0] |ksiazwielkopolski|ksiazwielkopolski #Wielkopolskie#": [
+        17.241,
+        52.064,
+        2544
+    ],
+    "Stepnica [stepnica0] |stepnica|stepnica #Zachodniopomorskie#": [
+        14.625,
+        53.652,
+        2520
+    ],
+    "Klecko [klecko0] |klecko|klecko #Wielkopolskie#": [
+        17.431,
+        52.632,
+        2520
+    ],
+    "Wysoka [wysoka0] |wysoka|wysoka #Wielkopolskie#": [
+        17.08,
+        53.182,
+        2511
+    ],
+    "Golczewo [golczewo0] |golczewo|golczewo #Zachodniopomorskie#": [
+        14.978,
+        53.824,
+        2504
+    ],
+    "Olsztyn [olsztyn1] |olsztyn|olsztyn #Slaskie#": [
+        19.267,
+        50.751,
+        2492
+    ],
+    "Zabludow [zabludow0] |zabludow|zabludow #Podlaskie#": [
+        23.339,
+        53.015,
+        2485
+    ],
+    "Ciezkowice [ciezkowice0] |ciezkowice|ciezkowice #Malopolskie#": [
+        20.974,
+        49.783,
+        2482
+    ],
+    "Czyzew [czyzew0] |czyzew|czyzew #Podlaskie#": [
+        22.312,
+        52.797,
+        2480
+    ],
+    "Wachock [wachock0] |wachock|wachock #Swietokrzyskie#": [
+        21.01,
+        51.074,
+        2466
+    ],
+    "Izbica Kujawska [izbicakujawska0] |izbicakujawska|izbicakujawska #Kujawsko-Pomorskie#": [
+        18.762,
+        52.421,
+        2460
+    ],
+    "Osieczna [osieczna0] |osieczna|osieczna #Wielkopolskie#": [
+        16.678,
+        51.904,
+        2443
+    ],
+    "Borek Wielkopolski [borekwielkopolski0] |borekwielkopolski|borekwielkopolski #Wielkopolskie#": [
+        17.241,
+        51.916,
+        2436
+    ],
+    "Zloty Stok [zlotystok0] |zlotystok|zlotystok #Dolnoslaskie#": [
+        16.872,
+        50.443,
+        2432
+    ],
+    "Pieniezno [pieniezno0] |pieniezno|pieniezno #Warminsko-Mazurskie#": [
+        20.127,
+        54.235,
+        2420
+    ],
+    "Gorzow Slaski [gorzowslaski0] |gorzowslaski|gorzowslaski #Opolskie#": [
+        18.422,
+        51.028,
+        2420
+    ],
+    "Piaski [piaski0] |piaski|piaski #Lubelskie#": [
+        22.839,
+        51.134,
+        2416
+    ],
+    "Milomlyn [milomlyn0] |milomlyn|milomlyn #Warminsko-Mazurskie#": [
+        19.835,
+        53.764,
+        2410
+    ],
+    "Pelczyce [pelczyce0] |pelczyce|pelczyce #Zachodniopomorskie#": [
+        15.305,
+        53.043,
+        2402
+    ],
+    "Wyszogrod [wyszogrod0] |wyszogrod|wyszogrod #Mazowieckie#": [
+        20.19,
+        52.392,
+        2400
+    ],
+    "Milakowo [milakowo0] |milakowo|milakowo #Warminsko-Mazurskie#": [
+        20.07,
+        54.009,
+        2399
+    ],
+    "Tolkmicko [tolkmicko0] |tolkmicko|tolkmicko #Warminsko-Mazurskie#": [
+        19.528,
+        54.32,
+        2395
+    ],
+    "Torzym [torzym0] |torzym|torzym #Lubuskie#": [
+        15.082,
+        52.312,
+        2391
+    ],
+    "Obrzycko [obrzycko0] |obrzycko|obrzycko #Wielkopolskie#": [
+        16.525,
+        52.709,
+        2391
+    ],
+    "Pasym [pasym0] |pasym|pasym #Warminsko-Mazurskie#": [
+        20.792,
+        53.65,
+        2390
+    ],
+    "Swiatniki Gorne [swiatnikigorne0] |swiatnikigorne|swiatnikigorne #Malopolskie#": [
+        19.954,
+        49.934,
+        2385
+    ],
+    "Rychwal [rychwal0] |rychwal|rychwal #Wielkopolskie#": [
+        18.167,
+        52.07,
+        2383
+    ],
+    "Kozieglowy [kozieglowy0] |kozieglowy|kozieglowy #Slaskie#": [
+        19.163,
+        50.6,
+        2382
+    ],
+    "Miedzylesie [miedzylesie0] |miedzylesie|miedzylesie #Dolnoslaskie#": [
+        16.666,
+        50.147,
+        2375
+    ],
+    "Koprzywnica [koprzywnica0] |koprzywnica|koprzywnica #Swietokrzyskie#": [
+        21.584,
+        50.592,
+        2368
+    ],
+    "Stoczek Lukowski [stoczeklukowski0] |stoczeklukowski|stoczeklukowski #Lubelskie#": [
+        21.971,
+        51.961,
+        2362
+    ],
+    "Tychowo [tychowo0] |tychowo|tychowo #Zachodniopomorskie#": [
+        16.258,
+        53.928,
+        2332
+    ],
+    "Kamien Krajenski [kamienkrajenski0] |kamienkrajenski|kamienkrajenski #Kujawsko-Pomorskie#": [
+        17.521,
+        53.534,
+        2321
+    ],
+    "Jozefow [jozefow1] |jozefow|jozefow #Lubelskie#": [
+        23.057,
+        50.481,
+        2319
+    ],
+    "Miedzyborz [miedzyborz0] |miedzyborz|miedzyborz #Dolnoslaskie#": [
+        17.667,
+        51.397,
+        2314
+    ],
+    "Ceglow [ceglow0] |ceglow|ceglow #Mazowieckie#": [
+        21.74,
+        52.147,
+        2311
+    ],
+    "Bardo [bardo0] |bardo|bardo #Dolnoslaskie#": [
+        16.74,
+        50.505,
+        2309
+    ],
+    "Dziwnow [dziwnow0] |dziwnow|dziwnow #Zachodniopomorskie#": [
+        14.758,
+        54.027,
+        2302
+    ],
+    "Annopol [annopol0] |annopol|annopol #Lubelskie#": [
+        21.866,
+        50.889,
+        2300
+    ],
+    "Czchow [czchow0] |czchow|czchow #Malopolskie#": [
+        20.68,
+        49.837,
+        2276
+    ],
+    "Wolborz [wolborz0] |wolborz|wolborz #Lodzkie#": [
+        19.83,
+        51.502,
+        2270
+    ],
+    "Biala [biala0] |biala|biala #Opolskie#": [
+        17.664,
+        50.386,
+        2256
+    ],
+    "Wiazow [wiazow0] |wiazow|wiazow #Dolnoslaskie#": [
+        17.202,
+        50.814,
+        2254
+    ],
+    "Radkow [radkow0] |radkow|radkow #Dolnoslaskie#": [
+        16.398,
+        50.505,
+        2245
+    ],
+    "Leknica [leknica0] |leknica|leknica #Lubuskie#": [
+        14.739,
+        51.541,
+        2238
+    ],
+    "Trzciel [trzciel0] |trzciel|trzciel #Lubuskie#": [
+        15.875,
+        52.364,
+        2221
+    ],
+    "Lututow [lututow0] |lututow|lututow #Lodzkie#": [
+        18.434,
+        51.371,
+        2200
+    ],
+    "Dobrzany [dobrzany0] |dobrzany|dobrzany #Zachodniopomorskie#": [
+        15.429,
+        53.361,
+        2159
+    ],
+    "Czlopa [czlopa0] |czlopa|czlopa #Zachodniopomorskie#": [
+        16.121,
+        53.089,
+        2158
+    ],
+    "Drawno [drawno0] |drawno|drawno #Zachodniopomorskie#": [
+        15.759,
+        53.22,
+        2156
+    ],
+    "Bisztynek [bisztynek0] |bisztynek|bisztynek #Warminsko-Mazurskie#": [
+        20.905,
+        54.086,
+        2156
+    ],
+    "Prusice [prusice0] |prusice|prusice #Dolnoslaskie#": [
+        16.96,
+        51.371,
+        2144
+    ],
+    "Lubycza Krolewska [lubyczakrolewska0] |lubyczakrolewska|lubyczakrolewska #Lubelskie#": [
+        23.523,
+        50.34,
+        2142
+    ],
+    "Bialy Bor [bialybor0] |bialybor|bialybor #Zachodniopomorskie#": [
+        16.835,
+        53.896,
+        2142
+    ],
+    "Krynki [krynki0] |krynki|krynki #Podlaskie#": [
+        23.772,
+        53.265,
+        2132
+    ],
+    "Mogielnica [mogielnica0] |mogielnica|mogielnica #Mazowieckie#": [
+        20.723,
+        51.694,
+        2118
+    ],
+    "Trzcinsko-Zdroj [trzcinskozdroj0] |trzcinskozdroj|trzcinskozdroj #Zachodniopomorskie#": [
+        14.605,
+        52.965,
+        2114
+    ],
+    "Raszkow [raszkow0] |raszkow|raszkow #Wielkopolskie#": [
+        17.732,
+        51.72,
+        2099
+    ],
+    "Blazowa [blazowa0] |blazowa|blazowa #Podkarpackie#": [
+        22.101,
+        49.886,
+        2096
+    ],
+    "Miekinia [miekinia0] |miekinia|miekinia #Dolnoslaskie#": [
+        16.736,
+        51.189,
+        2094
+    ],
+    "Bodzentyn [bodzentyn0] |bodzentyn|bodzentyn #Swietokrzyskie#": [
+        20.957,
+        50.94,
+        2091
+    ],
+    "Nowogrod [nowogrod0] |nowogrod|nowogrod #Podlaskie#": [
+        21.883,
+        53.226,
+        2087
+    ],
+    "Zerkow [zerkow0] |zerkow|zerkow #Wielkopolskie#": [
+        17.565,
+        52.069,
+        2080
+    ],
+    "Lipsk [lipsk0] |lipsk|lipsk #Podlaskie#": [
+        23.392,
+        53.737,
+        2052
+    ],
+    "Suchowola [suchowola0] |suchowola|suchowola #Podlaskie#": [
+        23.105,
+        53.577,
+        2034
+    ],
+    "Pogorzela [pogorzela0] |pogorzela|pogorzela #Wielkopolskie#": [
+        17.234,
+        51.823,
+        2032
+    ],
+    "Frombork [frombork0] |frombork|frombork #Warminsko-Mazurskie#": [
+        19.679,
+        54.357,
+        2029
+    ],
+    "Zalewo [zalewo0] |zalewo|zalewo #Warminsko-Mazurskie#": [
+        19.604,
+        53.846,
+        2026
+    ],
+    "Dobra [dobra0] |dobra|dobra #Zachodniopomorskie#": [
+        15.31,
+        53.586,
+        2019
+    ],
+    "Szepietowo [szepietowo0] |szepietowo|szepietowo #Podlaskie#": [
+        22.544,
+        52.87,
+        2018
+    ],
+    "Sieniawa [sieniawa0] |sieniawa|sieniawa #Podkarpackie#": [
+        22.608,
+        50.176,
+        2007
+    ],
+    "Kisielice [kisielice0] |kisielice|kisielice #Warminsko-Mazurskie#": [
+        19.267,
+        53.608,
+        2005
+    ],
+    "Lubniewice [lubniewice0] |lubniewice|lubniewice #Lubuskie#": [
+        15.25,
+        52.516,
+        2004
+    ],
+    "Swierzawa [swierzawa0] |swierzawa|swierzawa #Dolnoslaskie#": [
+        15.896,
+        51.014,
+        2003
+    ],
+    "Stawiski [stawiski0] |stawiski|stawiski #Podlaskie#": [
+        22.155,
+        53.38,
+        2003
+    ],
+    "Krzanowice [krzanowice0] |krzanowice|krzanowice #Slaskie#": [
+        18.125,
+        50.018,
+        2000
+    ],
+    "Blaszki [blaszki0] |blaszki|blaszki #Lodzkie#": [
+        18.434,
+        51.652,
+        1987
+    ],
+    "Rejowiec [rejowiec0] |rejowiec|rejowiec #Lubelskie#": [
+        23.281,
+        51.091,
+        1982
+    ],
+    "Narol [narol0] |narol|narol #Podkarpackie#": [
+        23.327,
+        50.349,
+        1979
+    ],
+    "Dukla [dukla0] |dukla|dukla #Podkarpackie#": [
+        21.683,
+        49.556,
+        1971
+    ],
+    "Osiek [osiek0] |osiek|osiek #Swietokrzyskie#": [
+        21.442,
+        50.52,
+        1970
+    ],
+    "Ostrow Lubelski [ostrowlubelski0] |ostrowlubelski|ostrowlubelski #Lubelskie#": [
+        22.853,
+        51.494,
+        1964
+    ],
+    "Kosow Lacki [kosowlacki0] |kosowlacki|kosowlacki #Mazowieckie#": [
+        22.147,
+        52.596,
+        1962
+    ],
+    "Dobrzyn nad Wisla [dobrzynnadwisla0] |dobrzynnadwisla|dobrzynnadwisla #Kujawsko-Pomorskie#": [
+        19.319,
+        52.639,
+        1962
+    ],
+    "Laszczow [laszczow0] |laszczow|laszczow #Lubelskie#": [
+        23.726,
+        50.533,
+        1961
+    ],
+    "Sosnicowice [sosnicowice0] |sosnicowice|sosnicowice #Slaskie#": [
+        18.53,
+        50.272,
+        1958
+    ],
+    "Sochocin [sochocin0] |sochocin|sochocin #Mazowieckie#": [
+        20.474,
+        52.69,
+        1925
+    ],
+    "Grabow nad Prosna [grabownadprosna0] |grabownadprosna|grabownadprosna #Wielkopolskie#": [
+        18.119,
+        51.506,
+        1908
+    ],
+    "Sepopol [sepopol0] |sepopol|sepopol #Warminsko-Mazurskie#": [
+        21.014,
+        54.269,
+        1890
+    ],
+    "Jutrosin [jutrosin0] |jutrosin|jutrosin #Wielkopolskie#": [
+        17.169,
+        51.652,
+        1850
+    ],
+    "Tykocin [tykocin0] |tykocin|tykocin #Podlaskie#": [
+        22.774,
+        53.207,
+        1844
+    ],
+    "Ostrorog [ostrorog0] |ostrorog|ostrorog #Wielkopolskie#": [
+        16.456,
+        52.627,
+        1836
+    ],
+    "Kozminek [kozminek0] |kozminek|kozminek #Wielkopolskie#": [
+        18.334,
+        51.798,
+        1823
+    ],
+    "Tyszowce [tyszowce0] |tyszowce|tyszowce #Lubelskie#": [
+        23.702,
+        50.615,
+        1821
+    ],
+    "Przeclaw [przeclaw0] |przeclaw|przeclaw #Podkarpackie#": [
+        21.479,
+        50.193,
+        1820
+    ],
+    "Ujazd [ujazd0] |ujazd|ujazd #Opolskie#": [
+        18.353,
+        50.389,
+        1818
+    ],
+    "Cieszanow [cieszanow0] |cieszanow|cieszanow #Podkarpackie#": [
+        23.131,
+        50.245,
+        1815
+    ],
+    "Radzyn Chelminski [radzynchelminski0] |radzynchelminski|radzynchelminski #Kujawsko-Pomorskie#": [
+        18.939,
+        53.384,
+        1795
+    ],
+    "Tuczno [tuczno0] |tuczno|tuczno #Zachodniopomorskie#": [
+        16.155,
+        53.194,
+        1780
+    ],
+    "Lubomierz [lubomierz0] |lubomierz|lubomierz #Dolnoslaskie#": [
+        15.51,
+        51.012,
+        1775
+    ],
+    "Insko [insko0] |insko|insko #Zachodniopomorskie#": [
+        15.55,
+        53.436,
+        1772
+    ],
+    "Morawica [morawica0] |morawica|morawica #Swietokrzyskie#": [
+        20.618,
+        50.747,
+        1768
+    ],
+    "Szadek [szadek0] |szadek|szadek #Lodzkie#": [
+        18.976,
+        51.692,
+        1761
+    ],
+    "Pilica [pilica0] |pilica|pilica #Slaskie#": [
+        19.657,
+        50.468,
+        1761
+    ],
+    "Otyn [otyn0] |otyn|otyn #Lubuskie#": [
+        15.71,
+        51.847,
+        1758
+    ],
+    "Klimontow [klimontow0] |klimontow|klimontow #Swietokrzyskie#": [
+        21.447,
+        50.657,
+        1758
+    ],
+    "Drohiczyn [drohiczyn0] |drohiczyn|drohiczyn #Podlaskie#": [
+        22.659,
+        52.4,
+        1747
+    ],
+    "Nieszawa [nieszawa0] |nieszawa|nieszawa #Kujawsko-Pomorskie#": [
+        18.899,
+        52.834,
+        1740
+    ],
+    "Brok [brok0] |brok|brok #Mazowieckie#": [
+        21.847,
+        52.698,
+        1731
+    ],
+    "Sanniki [sanniki0] |sanniki|sanniki #Mazowieckie#": [
+        19.862,
+        52.332,
+        1721
+    ],
+    "Goniadz [goniadz0] |goniadz|goniadz #Podlaskie#": [
+        22.734,
+        53.489,
+        1717
+    ],
+    "Kamionka [kamionka0] |kamionka|kamionka #Lubelskie#": [
+        22.462,
+        51.47,
+        1714
+    ],
+    "Biezun [biezun0] |biezun|biezun #Mazowieckie#": [
+        19.886,
+        52.963,
+        1713
+    ],
+    "Olesnica [olesnica1] |olesnica|olesnica #Swietokrzyskie#": [
+        21.064,
+        50.453,
+        1710
+    ],
+    "Urzedow [urzedow0] |urzedow|urzedow #Lubelskie#": [
+        22.143,
+        50.994,
+        1708
+    ],
+    "Chodecz [chodecz0] |chodecz|chodecz #Kujawsko-Pomorskie#": [
+        19.028,
+        52.404,
+        1705
+    ],
+    "Dabie [dabie0] |dabie|dabie #Wielkopolskie#": [
+        18.822,
+        52.088,
+        1703
+    ],
+    "Mikstat [mikstat0] |mikstat|mikstat #Wielkopolskie#": [
+        17.975,
+        51.533,
+        1702
+    ],
+    "Korfantow [korfantow0] |korfantow|korfantow #Opolskie#": [
+        17.599,
+        50.489,
+        1689
+    ],
+    "Izbica [izbica0] |izbica|izbica #Lubelskie#": [
+        23.167,
+        50.89,
+        1684
+    ],
+    "Mlynary [mlynary0] |mlynary|mlynary #Warminsko-Mazurskie#": [
+        19.725,
+        54.189,
+        1681
+    ],
+    "Jedwabne [jedwabne0] |jedwabne|jedwabne #Podlaskie#": [
+        22.3,
+        53.285,
+        1676
+    ],
+    "Wielichowo [wielichowo0] |wielichowo|wielichowo #Wielkopolskie#": [
+        16.351,
+        52.116,
+        1665
+    ],
+    "Krzywin [krzywin0] |krzywin|krzywin #Wielkopolskie#": [
+        16.82,
+        51.963,
+        1662
+    ],
+    "Chocz [chocz0] |chocz|chocz #Wielkopolskie#": [
+        17.871,
+        51.975,
+        1625
+    ],
+    "Rozprza [rozprza0] |rozprza|rozprza #Lodzkie#": [
+        19.646,
+        51.303,
+        1622
+    ],
+    "Moryn [moryn0] |moryn|moryn #Zachodniopomorskie#": [
+        14.399,
+        52.858,
+        1622
+    ],
+    "Nowe Brzesko [nowebrzesko0] |nowebrzesko|nowebrzesko #Malopolskie#": [
+        20.377,
+        50.132,
+        1604
+    ],
+    "Mordy [mordy0] |mordy|mordy #Mazowieckie#": [
+        22.518,
+        52.212,
+        1599
+    ],
+    "Zawichost [zawichost0] |zawichost|zawichost #Swietokrzyskie#": [
+        21.846,
+        50.808,
+        1596
+    ],
+    "Zakliczyn [zakliczyn0] |zakliczyn|zakliczyn #Malopolskie#": [
+        20.814,
+        49.856,
+        1579
+    ],
+    "Lutomiersk [lutomiersk0] |lutomiersk|lutomiersk #Lodzkie#": [
+        19.212,
+        51.754,
+        1574
+    ],
+    "Wlen [wlen0] |wlen|wlen #Dolnoslaskie#": [
+        15.675,
+        51.015,
+        1569
+    ],
+    "Piatek [piatek0] |piatek|piatek #Lodzkie#": [
+        19.48,
+        52.069,
+        1551
+    ],
+    "Dolsk [dolsk0] |dolsk|dolsk #Wielkopolskie#": [
+        17.066,
+        51.982,
+        1550
+    ],
+    "Iwonicz-Zdroj [iwoniczzdroj0] |iwoniczzdroj|iwoniczzdroj #Podkarpackie#": [
+        21.793,
+        49.567,
+        1540
+    ],
+    "Przedecz [przedecz0] |przedecz|przedecz #Wielkopolskie#": [
+        18.904,
+        52.334,
+        1534
+    ],
+    "Ujazd [ujazd1] |ujazd|ujazd #Lodzkie#": [
+        19.921,
+        51.599,
+        1533
+    ],
+    "Lagow [lagow0] |lagow|lagow #Swietokrzyskie#": [
+        21.084,
+        50.775,
+        1521
+    ],
+    "Nowe Miasto [nowemiasto0] |nowemiasto|nowemiasto #Mazowieckie#": [
+        20.629,
+        52.656,
+        1514
+    ],
+    "Lubowidz [lubowidz0] |lubowidz|lubowidz #Mazowieckie#": [
+        19.842,
+        53.121,
+        1499
+    ],
+    "Cedynia [cedynia0] |cedynia|cedynia #Zachodniopomorskie#": [
+        14.201,
+        52.878,
+        1459
+    ],
+    "Lopuszno [lopuszno0] |lopuszno|lopuszno #Swietokrzyskie#": [
+        20.251,
+        50.949,
+        1445
+    ],
+    "Wiskitki [wiskitki0] |wiskitki|wiskitki #Mazowieckie#": [
+        20.384,
+        52.086,
+        1442
+    ],
+    "Modliborzyce [modliborzyce0] |modliborzyce|modliborzyce #Lubelskie#": [
+        22.33,
+        50.753,
+        1416
+    ],
+    "Baranow Sandomierski [baranowsandomierski0] |baranowsandomierski|baranowsandomierski #Podkarpackie#": [
+        21.545,
+        50.494,
+        1395
+    ],
+    "Suchan [suchan0] |suchan|suchan #Zachodniopomorskie#": [
+        15.325,
+        53.28,
+        1393
+    ],
+    "Gorzno [gorzno0] |gorzno|gorzno #Kujawsko-Pomorskie#": [
+        19.643,
+        53.197,
+        1391
+    ],
+    "Rajgrod [rajgrod0] |rajgrod|rajgrod #Podlaskie#": [
+        22.704,
+        53.731,
+        1388
+    ],
+    "Ulanow [ulanow0] |ulanow|ulanow #Podkarpackie#": [
+        22.269,
+        50.491,
+        1368
+    ],
+    "Jaraczewo [jaraczewo0] |jaraczewo|jaraczewo #Wielkopolskie#": [
+        17.298,
+        51.969,
+        1368
+    ],
+    "Kolaczyce [kolaczyce0] |kolaczyce|kolaczyce #Podkarpackie#": [
+        21.433,
+        49.807,
+        1359
+    ],
+    "Stawiszyn [stawiszyn0] |stawiszyn|stawiszyn #Wielkopolskie#": [
+        18.109,
+        51.916,
+        1356
+    ],
+    "Latowicz [latowicz0] |latowicz|latowicz #Mazowieckie#": [
+        21.806,
+        52.027,
+        1339
+    ],
+    "Frampol [frampol0] |frampol|frampol #Lubelskie#": [
+        22.671,
+        50.672,
+        1330
+    ],
+    "Dobra [dobra1] |dobra|dobra #Wielkopolskie#": [
+        18.616,
+        51.916,
+        1328
+    ],
+    "Siedliszcze [siedliszcze0] |siedliszcze|siedliszcze #Lubelskie#": [
+        23.162,
+        51.196,
+        1325
+    ],
+    "Lubien Kujawski [lubienkujawski0] |lubienkujawski|lubienkujawski #Kujawsko-Pomorskie#": [
+        19.165,
+        52.406,
+        1307
+    ],
+    "Nowa Slupia [nowaslupia0] |nowaslupia|nowaslupia #Swietokrzyskie#": [
+        21.088,
+        50.863,
+        1288
+    ],
+    "Pierzchnica [pierzchnica0] |pierzchnica|pierzchnica #Swietokrzyskie#": [
+        20.754,
+        50.697,
+        1269
+    ],
+    "Szlichtyngowa [szlichtyngowa0] |szlichtyngowa|szlichtyngowa #Lubuskie#": [
+        16.243,
+        51.713,
+        1257
+    ],
+    "Jezow [jezow0] |jezow|jezow #Lodzkie#": [
+        19.969,
+        51.814,
+        1254
+    ],
+    "Iwaniska [iwaniska0] |iwaniska|iwaniska #Swietokrzyskie#": [
+        21.278,
+        50.731,
+        1215
+    ],
+    "Skalbmierz [skalbmierz0] |skalbmierz|skalbmierz #Swietokrzyskie#": [
+        20.399,
+        50.32,
+        1187
+    ],
+    "Jastrzab [jastrzab0] |jastrzab|jastrzab #Mazowieckie#": [
+        20.947,
+        51.247,
+        1178
+    ],
+    "Krynica Morska [krynicamorska0] |krynicamorska|krynicamorska #Pomorskie#": [
+        19.444,
+        54.38,
+        1165
+    ],
+    "Wlodowice [wlodowice0] |wlodowice|wlodowice #Slaskie#": [
+        19.45,
+        50.553,
+        1152
+    ],
+    "Stopnica [stopnica0] |stopnica|stopnica #Swietokrzyskie#": [
+        20.938,
+        50.44,
+        1124
+    ],
+    "Bodzanow [bodzanow0] |bodzanow|bodzanow #Mazowieckie#": [
+        20.029,
+        52.501,
+        1121
+    ],
+    "Miasteczko Krajenskie [miasteczkokrajenskie0] |miasteczkokrajenskie|miasteczkokrajenskie #Wielkopolskie#": [
+        17.006,
+        53.097,
+        1069
+    ],
+    "Nowe Warpno [nowewarpno0] |nowewarpno|nowewarpno #Zachodniopomorskie#": [
+        14.287,
+        53.723,
+        1049
+    ],
+    "Kleszczele [kleszczele0] |kleszczele|kleszczele #Podlaskie#": [
+        23.325,
+        52.572,
+        1049
+    ],
+    "Pacanow [pacanow0] |pacanow|pacanow #Swietokrzyskie#": [
+        21.041,
+        50.4,
+        1033
+    ],
+    "Czerwinsk nad Wisla [czerwinsknadwisla0] |czerwinsknadwisla|czerwinsknadwisla #Mazowieckie#": [
+        20.312,
+        52.394,
+        981
+    ],
+    "Szydlow [szydlow0] |szydlow|szydlow #Swietokrzyskie#": [
+        21.007,
+        50.591,
+        967
+    ],
+    "Suraz [suraz0] |suraz|suraz #Podlaskie#": [
+        22.957,
+        52.95,
+        965
+    ],
+    "Wodzislaw [wodzislaw0] |wodzislaw|wodzislaw #Swietokrzyskie#": [
+        20.191,
+        50.52,
+        961
+    ],
+    "Dabrowice [dabrowice0] |dabrowice|dabrowice #Lodzkie#": [
+        19.084,
+        52.316,
+        951
+    ],
+    "Solec nad Wisla [solecnadwisla0] |solecnadwisla|solecnadwisla #Mazowieckie#": [
+        21.767,
+        51.135,
+        933
+    ],
+    "Jadow [jadow0] |jadow|jadow #Mazowieckie#": [
+        21.633,
+        52.479,
+        907
+    ],
+    "Bolimow [bolimow0] |bolimow|bolimow #Lodzkie#": [
+        20.164,
+        52.076,
+        900
+    ],
+    "Nowy Korczyn [nowykorczyn0] |nowykorczyn|nowykorczyn #Swietokrzyskie#": [
+        20.808,
+        50.3,
+        899
+    ],
+    "Goraj [goraj0] |goraj|goraj #Lubelskie#": [
+        22.667,
+        50.721,
+        896
+    ],
+    "Wysmierzyce [wysmierzyce0] |wysmierzyce|wysmierzyce #Mazowieckie#": [
+        20.814,
+        51.624,
+        877
+    ],
+    "Dzialoszyce [dzialoszyce0] |dzialoszyce|dzialoszyce #Swietokrzyskie#": [
+        20.352,
+        50.365,
+        847
+    ],
+    "Ksiaz Wielki [ksiazwielki0] |ksiazwielki|ksiazwielki #Malopolskie#": [
+        20.141,
+        50.443,
+        839
+    ],
+    "Jozefow nad Wisla [jozefownadwisla0] |jozefownadwisla|jozefownadwisla #Lubelskie#": [
+        21.83,
+        51.041,
+        803
+    ],
+    "Dubiecko [dubiecko0] |dubiecko|dubiecko #Podkarpackie#": [
+        22.392,
+        49.827,
+        801
+    ],
+    "Koszyce [koszyce0] |koszyce|koszyce #Malopolskie#": [
+        20.578,
+        50.169,
+        759
+    ],
+    "Wislica [wislica0] |wislica|wislica #Swietokrzyskie#": [
+        20.674,
+        50.349,
+        444
+    ],
+    "Opatowiec [opatowiec0] |opatowiec|opatowiec #Swietokrzyskie#": [
+        20.724,
+        50.244,
+        308
+    ]
+}

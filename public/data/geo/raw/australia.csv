@@ -1,0 +1,1813 @@
+Sydney;New South Wales;sydney;sydney;4713092;sydney0;-33.866;151.206;1;1
+Melbourne;Victoria;melbourne;melbourne;4504305;melbourne0;-37.814;144.963;1;2
+Brisbane;Queensland;brisbane;brisbane;2275734;brisbane0;-27.467;153.027;1;3
+Perth;Western Australia;perth;perth;2040281;perth0;-31.955;115.865;1;4
+Adelaide;South Australia;adelaide;adelaide;1243655;adelaide0;-34.924;138.6;1;5
+Gold Coast - Tweed Heads;Queensland;gold_coast;tweed_heads;673771;gold_coast0;-27.972;153.411;2;6
+Canberra;Australian Capital Territory / ACT;canberra;queanbeyan;478584;canberra0;-35.282;149.129;1;7
+Newcastle;New South Wales;newcastle;newcastle;350745;newcastle0;-32.928;151.773;2;8
+Central Coast;New South Wales;central_coast;central_coast;326451;central_coast0;-33.426;151.343;3;9
+Wollongong;New South Wales;wollongong;wollongong;279736;wollongong0;-34.426;150.898;4;10
+Sunshine Coast;Queensland;sunshine_coast;sunshine_coast;275063;sunshine_coast0;-26.805;153.131;3;11
+Hobart;Tasmania;hobart;hobart;198207;hobart0;-42.883;147.33;1;12
+Geelong;Victoria;geelong;geelong;180096;geelong0;-38.145;144.362;2;13
+Townsville;Queensland;townsville;townsville;173247;townsville0;-19.259;146.816;4;14
+Cairns;Queensland;cairns;cairns;154931;cairns0;-16.923;145.778;5;15
+Darwin;Northern Territory;darwin;darwin;122659;darwin0;-12.463;130.842;1;16
+Toowoomba;Queensland;toowoomba;toowoomba;108149;toowoomba0;-27.561;151.953;6;17
+Ballarat;Victoria;ballarat;ballarat;104014;ballarat0;-37.562;143.858;3;18
+Bendigo;Victoria;bendigo;bendigo;100726;bendigo0;-36.759;144.283;4;19
+Maitland;New South Wales;maitland;maitland;95731;maitland0;-32.75;151.589;5;20
+Albury - Wodonga;New South Wales;albury;wodonga;88799;albury0;-36.081;146.917;6;21
+Mackay;Queensland;mackay;mackay;81246;mackay0;-21.141;149.186;7;22
+Launceston;Tasmania;launceston;launceston;80964;launceston0;-41.436;147.138;2;23
+Bunbury;Western Australia;bunbury;bunbury;74956;bunbury0;-33.326;115.637;2;24
+Rockhampton;Queensland;rockhampton;rockhampton;61985;rockhampton0;-23.381;150.514;8;25
+Melton;Victoria;melton;melton;61956;melton0;-37.683;144.58;5;26
+Hervey Bay;Queensland;hervey_bay;hervey_bay;57734;hervey_bay0;-25.285;152.87;9;27
+Bundaberg;Queensland;bundaberg;bundaberg;52124;bundaberg0;-24.866;152.35;10;28
+Coffs Harbour;New South Wales;coffs_harbour;coffs_harbour;51074;coffs_harbour0;-30.298;153.116;7;29
+Shepparton - Mooroopna;Victoria;shepparton;mooroopna;50761;shepparton0;-36.381;145.401;6;30
+Wagga Wagga;New South Wales;wagga_wagga;wagga_wagga;49704;wagga_wagga0;-35.114;147.37;8;31
+Port Macquarie;New South Wales;port_macquarie;port_macquarie;47737;port_macquarie0;-31.431;152.91;9;32
+Orange;New South Wales;orange;orange;40974;orange0;-33.283;149.102;10;33
+Dubbo;New South Wales;dubbo;dubbo;39033;dubbo0;-32.248;148.606;11;34
+Mildura - Buronga;Victoria;mildura;buronga;37812;mildura0;-34.187;142.161;7;35
+Sunbury;Victoria;sunbury;sunbury;35563;sunbury0;-37.58;144.729;8;36
+Tamworth;New South Wales;tamworth;tamworth;35413;tamworth0;-31.092;150.931;12;37
+Bathurst;New South Wales;bathurst;bathurst;34863;bathurst0;-33.419;149.578;13;38
+Gladstone;Queensland;gladstone;gladstone;34431;gladstone0;-23.842;151.255;11;39
+Nowra - Bomaderry;New South Wales;nowra;bomaderry;33582;nowra0;-34.875;150.603;14;40
+Geraldton;Western Australia;geraldton;geraldton;32758;geraldton0;-28.774;114.609;3;41
+Warrnambool;Victoria;warrnambool;warrnambool;31714;warrnambool0;-38.383;142.481;9;42
+Albany;Western Australia;albany;albany;31107;albany0;-35.025;117.884;4;43
+Blue Mountains;New South Wales;blue_mountains;blue_mountains;30047;blue_mountains0;-33.715;150.311;15;44
+Busselton;Western Australia;busselton;busselton;29265;busselton0;-33.651;115.348;5;45
+Kalgoorlie-Boulder;Western Australia;kalgoorlie;boulder;29098;kalgoorlie0;-30.746;121.474;6;46
+Gawler;South Australia;gawler;gawler;28546;gawler0;-34.6;138.749;2;47
+Lismore;New South Wales;lismore;lismore;27898;lismore0;-28.81;153.278;16;48
+Cessnock;New South Wales;cessnock;cessnock;27517;cessnock0;-32.834;151.354;17;49
+Traralgon;Victoria;traralgon;traralgon;26926;traralgon0;-38.194;146.536;10;50
+Mount Gambier;South Australia;mount_gambier;mt_gambier;26598;mount_gambier0;-37.829;140.781;3;51
+Alice Springs;Northern Territory;alice_springs;alice_springs;24860;alice_springs0;-23.7;133.883;2;52
+Devonport;Tasmania;devonport;devonport;24354;devonport0;-41.179;146.361;3;53
+Bowral - Mittagong;New South Wales;bowral;mittagong;24225;bowral0;-34.48;150.418;18;54
+Goulburn;New South Wales;goulburn;goulburn;23965;goulburn0;-34.755;149.72;19;55
+Morisset - Cooranbong;New South Wales;morisset;cooranbong;23124;morisset0;-33.108;151.488;20;56
+Torquay - Jan Juc;Victoria;torquay;jan_juc;22973;torquay0;-38.333;144.324;11;57
+Ocean Grove - Barwon Heads;Victoria;ocean_grove;barwon_heads;22750;ocean_grove0;-38.268;144.523;12;58
+Maryborough;Queensland;maryborough;maryborough;22357;maryborough0;-25.538;152.705;12;59
+Bongaree - Woorim;Queensland;bongaree;woorim;20981;bongaree0;-27.081;153.161;13;60
+Whyalla;South Australia;whyalla;whyalla;20908;whyalla0;-33.035;137.585;4;61
+Armidale;New South Wales;armidale;armidale;20652;armidale0;-30.514;151.667;21;62
+Nambour;Queensland;nambour;nambour;20576;nambour0;-26.629;152.96;14;63
+Forster - Tuncurry;New South Wales;forster;tuncurry;20566;forster0;-32.18;152.512;22;64
+Griffith;New South Wales;griffith;griffith;20296;griffith0;-34.288;146.047;23;65
+Burnie - Somerset;Tasmania;burnie;somerset;20255;burnie0;-41.052;145.906;4;66
+Echuca - Moama;Victoria;echuca;moama;20208;echuca0;-36.128;144.75;13;67
+Kurri Kurri;New South Wales;kurri_kurri;kurri_kurri;20190;kurri_kurri0;-32.817;151.483;24;68
+Gympie;Queensland;gympie;gympie;19953;gympie0;-26.189;152.66;15;69
+Wangaratta;Victoria;wangaratta;wangaratta;19704;wangaratta0;-36.358;146.318;14;70
+Bacchus Marsh;Victoria;bacchus_marsh;bacchus_marsh;19500;bacchus_marsh0;-37.676;144.44;15;71
+Taree;New South Wales;taree;taree;18598;taree0;-31.911;152.46;25;72
+Mount Isa;Queensland;mount_isa;mt_isa;18312;mount_isa0;-20.726;139.492;16;73
+Mount Barker;South Australia;mount_barker;mt_barker;17979;mount_barker0;-35.067;138.86;5;74
+Yeppoon;Queensland;yeppoon;yeppoon;17552;yeppoon0;-23.129;150.748;17;75
+Broken Hill;New South Wales;broken_hill;broken_hill;17491;broken_hill0;-31.959;141.466;26;76
+Murray Bridge;South Australia;murray_bridge;murray_bridge;17467;murray_bridge0;-35.12;139.274;6;77
+Grafton;New South Wales;grafton;grafton;17165;grafton0;-29.691;152.933;27;78
+Ballina;New South Wales;ballina;ballina;17104;ballina0;-28.87;153.562;28;79
+Karratha;Western Australia;karratha;karratha;17026;karratha0;-20.735;116.845;7;80
+Victor Harbor;South Australia;victor_harbor;victor_harbor;16698;victor_harbor0;-35.554;138.623;7;81
+Ulladulla;New South Wales;ulladulla;ulladulla;16467;ulladulla0;-35.358;150.474;29;82
+Horsham;Victoria;horsham;horsham;16290;horsham0;-36.716;142.2;16;83
+Crafers - Bridgewater;South Australia;crafers;bridgewater;15785;crafers0;-35.006;138.718;8;84
+Moe - Newborough;Victoria;moe;newborough;15776;moe0;-38.179;146.263;17;85
+Drysdale - Clifton Springs;Victoria;drysdale;clifton_springs;15503;drysdale0;-38.173;144.571;18;86
+Lara;Victoria;lara;lara;15487;lara0;-38.023;144.408;19;87
+Port Hedland;Western Australia;port_hedland;port_hedland;15275;port_hedland0;-20.312;118.576;8;88
+Warragul;Victoria;warragul;warragul;15037;warragul0;-38.163;145.931;20;89
+Broome;Western Australia;broome;broome;14652;broome0;-17.956;122.241;9;90
+Nelson Bay;New South Wales;nelson_bay;nelson_bay;14609;nelson_bay0;-32.722;152.144;30;91
+Kiama;New South Wales;kiama;kiama;14494;kiama0;-34.67;150.855;31;92
+Port Lincoln;South Australia;port_lincoln;port_lincoln;14386;port_lincoln0;-34.723;135.86;9;93
+Drouin;Victoria;drouin;drouin;14379;drouin0;-38.137;145.859;21;94
+Warwick;Queensland;warwick;warwick;14115;warwick0;-28.213;152.032;18;95
+Sale;Victoria;sale;sale;14098;sale0;-38.107;147.065;22;96
+Emerald;Queensland;emerald;emerald;14081;emerald0;-23.526;148.163;19;97
+Raymond Terrace;New South Wales;raymond_terrace;raymond_terrace;14076;raymond_terrace0;-32.763;151.744;32;98
+Morwell;Victoria;morwell;morwell;14064;morwell0;-38.237;146.395;23;99
+Singleton;New South Wales;singleton;singleton;13745;singleton0;-32.566;151.167;33;100
+Port Pirie;South Australia;port_pirie;port_pirie;13712;port_pirie0;-33.177;138.01;10;101
+Bairnsdale;Victoria;bairnsdale;bairnsdale;13307;bairnsdale0;-37.826;147.632;24;102
+Bargara - Innes Park;Queensland;bargara;innes_park;13004;bargara0;-24.815;152.463;20;103
+Port Augusta;South Australia;port_augusta;port_augusta;12775;port_augusta0;-32.492;137.764;11;104
+Ulverstone;Tasmania;ulverstone;ulverstone;12738;ulverstone0;-41.157;146.172;5;105
+Colac;Victoria;colac;colac;12333;colac0;-38.34;143.584;25;106
+Leopold;Victoria;leopold;leopold;12315;leopold0;-38.188;144.465;26;107
+Batemans Bay;New South Wales;batemans_bay;batemans_bay;12259;batemans_bay0;-35.708;150.178;34;108
+Dalby;Queensland;dalby;dalby;12098;dalby0;-27.184;151.263;21;109
+Mudgee;New South Wales;mudgee;mudgee;11659;mudgee0;-32.591;149.586;35;110
+Gracemere;Queensland;gracemere;gracemere;11542;gracemere0;-23.436;150.455;22;111
+Lithgow;New South Wales;lithgow;lithgow;11209;lithgow0;-33.481;150.157;36;112
+Kempsey;New South Wales;kempsey;kempsey;11152;kempsey0;-31.081;152.842;37;113
+St Georges Basin - Sanctuary Point;New South Wales;st_georges_basin;sanctuary_point;11090;st_georges_basin0;-35.092;150.609;38;114
+Yanchep;Western Australia;yanchep;yanchep;11003;yanchep0;-31.547;115.632;10;115
+Gisborne;Victoria;gisborne;gisborne;10994;gisborne0;-37.488;144.591;27;116
+Yarrawonga - Mulwala;Victoria;yarrawonga;mulwala;10954;yarrawonga0;-36.014;146.004;28;117
+Swan Hill;Victoria;swan_hill;swan_hill;10860;swan_hill0;-35.336;143.56;29;118
+Yarrabilba;Queensland;yarrabilba;yarrabilba;10701;yarrabilba0;-27.801;153.109;23;119
+Muswellbrook;New South Wales;muswellbrook;muswellbrook;10597;muswellbrook0;-32.265;150.888;39;120
+Castlemaine;Victoria;castlemaine;castlemaine;10567;castlemaine0;-37.064;144.217;30;121
+Byron Bay;New South Wales;byron_bay;byron_bay;10546;byron_bay0;-28.643;153.612;40;122
+Airlie Beach - Cannonvale;Queensland;airlie_beach;cannonvale;10476;airlie_beach0;-20.268;148.716;24;123
+Portland;Victoria;portland;portland;10447;portland0;-38.351;141.588;31;124
+Kingaroy;Queensland;kingaroy;kingaroy;10316;kingaroy0;-26.541;151.836;25;125
+Highfields;Queensland;highfields;highfields;10272;highfields0;-27.464;151.954;26;126
+Esperance;Western Australia;esperance;esperance;10223;esperance0;-33.861;121.891;11;127
+Casino;New South Wales;casino;casino;9968;casino0;-28.864;153.046;41;128
+Sandstone Point - Ningi;Queensland;sandstone_point;ningi;9934;sandstone_point0;-27.084;153.133;27;129
+Parkes;New South Wales;parkes;parkes;9836;parkes0;-33.137;148.175;42;130
+Murwillumbah;New South Wales;murwillumbah;murwillumbah;9813;murwillumbah0;-28.326;153.396;43;131
+Benalla;Victoria;benalla;benalla;9736;benalla0;-36.552;145.983;32;132
+Tannum Sands - Boyne Island;Queensland;tannum_sands;boyne_island;9725;tannum_sands0;-23.949;151.366;28;133
+Inverell;New South Wales;inverell;inverell;9671;inverell0;-29.776;151.113;44;134
+Wallan;Victoria;wallan;wallan;9606;wallan0;-37.413;144.979;33;135
+Bowen;Queensland;bowen;bowen;9599;bowen0;-20.012;148.246;29;136
+Medowie;New South Wales;medowie;medowie;9387;medowie0;-32.741;151.868;45;137
+Hamilton;Victoria;hamilton;hamilton;9114;hamilton0;-37.743;142.02;34;138
+Moranbah;Queensland;moranbah;moranbah;8887;moranbah0;-22.002;148.046;30;139
+Goolwa;South Australia;goolwa;goolwa;8812;goolwa0;-35.502;138.783;12;140
+Healesville;Victoria;healesville;healesville;8689;healesville0;-37.654;145.516;35;141
+Wonthaggi;Victoria;wonthaggi;wonthaggi;8435;wonthaggi0;-38.606;145.589;36;142
+Portarlington - St Leonards;Victoria;portarlington;st_leonards;8333;portarlington0;-38.115;144.651;37;143
+Gunnedah;New South Wales;gunnedah;gunnedah;8324;gunnedah0;-30.979;150.255;46;144
+Cowra;New South Wales;cowra;cowra;8279;cowra0;-33.835;148.691;47;145
+Merimbula;New South Wales;merimbula;merimbula;8218;merimbula0;-36.888;149.911;48;146
+Ayr;Queensland;ayr;ayr;8192;ayr0;-19.576;147.405;31;147
+Moss Vale;New South Wales;moss_vale;moss_vale;8161;moss_vale0;-34.548;150.373;49;148
+Charters Towers;Queensland;charters_towers;charters_towers;8046;charters_towers0;-20.078;146.259;32;149
+Camden Haven;New South Wales;camden_haven;camden_haven;8038;camden_haven0;-31.638;152.826;50;150
+Mareeba;Queensland;mareeba;mareeba;8021;mareeba0;-16.992;145.422;33;151
+Tamborine Mountain;Queensland;tamborine_mountain;tamborine_mountain;8015;tamborine_mountain0;-27.973;153.202;34;152
+Maryborough;Victoria;maryborough;maryborough;7606;maryborough1;-37.048;143.735;38;153
+Wauchope;New South Wales;wauchope;wauchope;7585;wauchope0;-31.457;152.732;51;154
+Margaret River;Western Australia;margaret_river;margaret_river;7391;margaret_river0;-33.951;115.074;12;155
+Leeton;New South Wales;leeton;leeton;7324;leeton0;-34.552;146.406;52;156
+Kilmore;Victoria;kilmore;kilmore;7315;kilmore0;-37.296;144.952;39;157
+Young;New South Wales;young;young;7270;young0;-34.313;148.298;53;158
+Atherton;Queensland;atherton;atherton;7201;atherton0;-17.268;145.475;35;159
+Collie;Western Australia;collie;collie;7183;collie0;-33.36;116.153;13;160
+Innisfail;Queensland;innisfail;innisfail;7179;innisfail0;-17.524;146.031;36;161
+Dunsborough;Western Australia;dunsborough;dunsborough;7162;dunsborough0;-33.616;115.107;14;162
+Pottsville;New South Wales;pottsville;pottsville;7113;pottsville0;-28.379;153.569;54;163
+Moree;New South Wales;moree;moree;7048;moree0;-29.463;149.842;55;164
+Ararat;Victoria;ararat;ararat;7012;ararat0;-37.284;142.928;40;165
+Forbes;New South Wales;forbes;forbes;6848;forbes0;-33.385;148.008;56;166
+Roma;Queensland;roma;roma;6841;roma0;-26.574;148.791;37;167
+Gatton;Queensland;gatton;gatton;6688;gatton0;-27.556;152.28;38;168
+Lennox Head;New South Wales;lennox_head;lennox_head;6688;lennox_head0;-28.796;153.594;57;169
+Nambucca Heads;New South Wales;nambucca_heads;nambucca_heads;6676;nambucca_heads0;-30.642;153.003;58;170
+Northam;Western Australia;northam;northam;6676;northam0;-31.655;116.67;15;171
+Cowes;Victoria;cowes;cowes;6536;cowes0;-38.45;145.239;41;172
+Tumut;New South Wales;tumut;tumut;6521;tumut0;-35.301;148.225;59;173
+Lakes Entrance;Victoria;lakes_entrance;lakes_entrance;6518;lakes_entrance0;-37.881;147.983;42;174
+Summerland Point - Gwandalan;New South Wales;summerland_point;gwandalan;6499;summerland_point0;-33.138;151.564;60;175
+Cooma;New South Wales;cooma;cooma;6459;cooma0;-36.237;149.125;61;176
+Corowa - Wahgunyah;New South Wales;corowa;wahgunyah;6457;corowa0;-35.989;146.356;62;177
+New Norfolk;Tasmania;new_norfolk;new_norfolk;6454;new_norfolk0;-42.782;147.059;6;178
+Deniliquin;New South Wales;deniliquin;deniliquin;6422;deniliquin0;-35.529;144.959;63;179
+Yamba;New South Wales;yamba;yamba;6337;yamba0;-29.437;153.361;64;180
+Helensburgh;New South Wales;helensburgh;helensburgh;6315;helensburgh0;-34.191;150.982;65;181
+Chinchilla;Queensland;chinchilla;chinchilla;6292;chinchilla0;-26.74;150.625;39;182
+Clyde;Victoria;clyde;clyde;6233;clyde0;-38.135;145.348;43;183
+Nuriootpa;South Australia;nuriootpa;nuriootpa;6204;nuriootpa0;-34.473;138.996;13;184
+Bannockburn;Victoria;bannockburn;bannockburn;6181;bannockburn0;-38.047;144.171;44;185
+Mount Cotton;Queensland;mount_cotton;mt_cotton;6082;mount_cotton0;-27.636;153.249;40;186
+Inverloch;Victoria;inverloch;inverloch;6039;inverloch0;-38.633;145.73;45;187
+Gordonvale;Queensland;gordonvale;gordonvale;6022;gordonvale0;-17.093;145.785;41;188
+Kyabram;Victoria;kyabram;kyabram;6019;kyabram0;-36.308;145.05;46;189
+Seymour;Victoria;seymour;seymour;6013;seymour0;-37.025;145.134;47;190
+Beaudesert;Queensland;beaudesert;beaudesert;5998;beaudesert0;-27.986;152.996;42;191
+Flagstone;Queensland;flagstone;jimboomba_west;5971;jimboomba_west0;-27.809;152.956;43;192
+Katherine;Northern Territory;katherine;katherine;5969;katherine0;-14.465;132.265;3;193
+Strathalbyn;South Australia;strathalbyn;strathalbyn;5969;strathalbyn0;-35.259;138.891;14;194
+Googong;New South Wales;googong;googong;5950;googong0;-35.418;149.234;66;195
+Beerwah;Queensland;beerwah;beerwah;5931;beerwah0;-26.857;152.957;44;196
+Woolgoolga;New South Wales;woolgoolga;woolgoolga;5803;woolgoolga0;-30.113;153.193;67;197
+Cootamundra;New South Wales;cootamundra;cootamundra;5730;cootamundra0;-34.639;148.025;68;198
+Yass;New South Wales;yass;yass;5688;yass0;-34.842;148.911;69;199
+Biloela;Queensland;biloela;biloela;5659;biloela0;-24.401;150.511;45;200
+Stawell;Victoria;stawell;stawell;5626;stawell0;-37.056;142.779;48;201
+Salamander Bay - Soldiers Point;New South Wales;salamander_bay;soldiers_point;5604;salamander_bay0;-32.724;152.078;70;202
+Jimboomba;Queensland;jimboomba;jimboomba;5588;jimboomba0;-27.831;153.028;46;203
+Narrabri;New South Wales;narrabri;narrabri;5581;narrabri0;-30.325;149.783;71;204
+Kensington Grove - Regency Downs;Queensland;kensington_grove;regency_downs;5520;kensington_grove0;-27.536;152.441;47;205
+South West Rocks;New South Wales;south_west_rocks;south_west_rocks;5456;south_west_rocks0;-30.884;153.04;72;206
+Leongatha;Victoria;leongatha;leongatha;5452;leongatha0;-38.476;145.946;49;207
+Goondiwindi;Queensland;goondiwindi;goondiwindi;5436;goondiwindi0;-28.547;150.308;48;208
+Cobram;Victoria;cobram;cobram;5409;cobram0;-35.917;145.651;50;209
+Wynyard;Tasmania;wynyard;wynyard;5389;wynyard0;-40.989;145.728;7;210
+Naracoorte;South Australia;naracoorte;naracoorte;5235;naracoorte0;-36.956;140.741;15;211
+Dodges Ferry - Lewisham;Tasmania;dodges_ferry;lewisham;5213;dodges_ferry0;-42.853;147.625;8;212
+Glen Innes;New South Wales;glen_innes;glen_innes;5196;glen_innes0;-29.736;151.739;73;213
+Alstonville;New South Wales;alstonville;alstonville;5181;alstonville0;-28.842;153.44;74;214
+Kyneton;Victoria;kyneton;kyneton;5150;kyneton0;-37.248;144.453;51;215
+Nairne;South Australia;nairne;nairne;5078;nairne0;-35.036;138.913;16;216
+Anna Bay - Boat Harbour;New South Wales;anna_bay;boat_harbour;5066;anna_bay0;-32.777;152.083;75;217
+Tahmoor;New South Wales;tahmoor;tahmoor;5019;tahmoor0;-34.223;150.593;76;218
+Scone;New South Wales;scone;scone;5004;scone0;-32.051;150.868;77;219
+Stanthorpe;Queensland;stanthorpe;stanthorpe;4886;stanthorpe0;-28.656;151.934;49;220
+Junee;New South Wales;junee;junee;4881;junee0;-34.871;147.585;78;221
+Emu Park;Queensland;emu_park;emu_park;4861;emu_park0;-23.257;150.826;50;222
+Ocean Shores;New South Wales;ocean_shores;ocean_shores;4813;ocean_shores0;-28.528;153.544;79;223
+Bega;New South Wales;bega;bega;4781;bega0;-36.674;149.843;80;224
+Millicent;South Australia;millicent;millicent;4761;millicent0;-37.595;140.354;17;225
+Silverdale - Warragamba;New South Wales;silverdale;warragamba;4724;silverdale0;-33.899;150.612;81;226
+Estella;New South Wales;estella;estella;4712;estella0;-35.066;147.353;82;227
+Renmark;South Australia;renmark;renmark;4709;renmark0;-34.176;140.748;18;228
+Kadina;South Australia;kadina;kadina;4680;kadina0;-33.963;137.715;19;229
+Port Douglas - Craiglie;Queensland;port_douglas;craiglie;4629;port_douglas0;-16.484;145.466;51;230
+Moonta;South Australia;moonta;moonta;4615;moonta0;-34.067;137.592;20;231
+Wellington;New South Wales;wellington;wellington;4583;wellington0;-32.556;148.945;83;232
+Blackwater;Queensland;blackwater;blackwater;4570;blackwater0;-23.586;148.88;52;233
+Gerringong;New South Wales;gerringong;gerringong;4567;gerringong0;-34.746;150.827;84;234
+Wingham;New South Wales;wingham;wingham;4551;wingham0;-31.869;152.374;85;235
+Churchill;Victoria;churchill;churchill;4534;churchill0;-38.315;146.419;52;236
+Kununurra;Western Australia;kununurra;kununurra;4508;kununurra0;-15.774;128.739;16;237
+Blackheath;New South Wales;blackheath;blackheath;4489;blackheath0;-33.636;150.285;86;238
+Palmwoods;Queensland;palmwoods;palmwoods;4479;palmwoods0;-26.686;152.959;53;239
+Woodend;Victoria;woodend;woodend;4465;woodend0;-37.357;144.527;53;240
+Beachmere;Queensland;beachmere;beachmere;4445;beachmere0;-27.129;153.052;54;241
+George Town;Tasmania;george_town;george_town;4401;george_town0;-41.107;146.824;9;242
+Ingham;Queensland;ingham;ingham;4401;ingham0;-18.65;146.155;55;243
+Tanunda;South Australia;tanunda;tanunda;4389;tanunda0;-34.525;138.959;21;244
+Wallaroo;South Australia;wallaroo;wallaroo;4380;wallaroo0;-33.932;137.628;22;245
+Mullumbimby;New South Wales;mullumbimby;mullumbimby;4367;mullumbimby0;-28.553;153.5;87;246
+Old Bar;New South Wales;old_bar;old_bar;4365;old_bar0;-31.969;152.585;88;247
+Point Lonsdale - Queenscliff;Victoria;point_lonsdale;queenscliff;4346;point_lonsdale0;-38.267;144.661;54;248
+Oakey;Queensland;oakey;oakey;4328;oakey0;-27.433;151.721;56;249
+Romsey;Victoria;romsey;romsey;4318;romsey0;-37.349;144.742;55;250
+Tatura;Victoria;tatura;tatura;4255;tatura0;-36.44;145.228;56;251
+Newman;Western Australia;newman;newman;4234;newman0;-23.357;119.737;17;252
+Maffra;Victoria;maffra;maffra;4230;maffra0;-37.967;146.975;57;253
+Woori Yallock - Launching Place;Victoria;woori_yallock;launching_place;4190;woori_yallock0;-37.78;145.53;58;254
+Meringandan West;Queensland;meringandan_west;meringandan_west;4175;meringandan_west0;-27.42;151.883;57;255
+Tanilba Bay;New South Wales;tanilba_bay;tanilba_bay;4171;tanilba_bay0;-32.733;152.002;89;256
+Beveridge;Victoria;beveridge;beveridge;4159;beveridge0;-37.476;144.955;59;257
+Carnarvon;Western Australia;carnarvon;carnarvon;4159;carnarvon0;-24.884;113.657;18;258
+Berri;South Australia;berri;berri;4154;berri0;-34.285;140.602;23;259
+Manjimup;Western Australia;manjimup;manjimup;4131;manjimup0;-34.243;116.145;19;260
+Landsborough;Queensland;landsborough;landsborough;4119;landsborough0;-26.809;152.964;58;261
+Weipa;Queensland;weipa;weipa;4102;weipa0;-12.642;141.861;59;262
+Broadford;Victoria;broadford;broadford;4085;broadford0;-37.203;145.05;60;263
+Glass House Mountains;Queensland;glass_house_mountains;glass_house_mountains;4066;glass_house_mountains0;-26.904;152.952;60;264
+Temora;New South Wales;temora;temora;4015;temora0;-34.447;147.534;90;265
+Loxton;South Australia;loxton;loxton;3947;loxton0;-34.451;140.57;24;266
+Bungendore;New South Wales;bungendore;bungendore;3935;bungendore0;-35.256;149.44;91;267
+Whittlesea;Victoria;whittlesea;whittlesea;3926;whittlesea0;-37.514;145.115;61;268
+Narrogin;Western Australia;narrogin;narrogin;3925;narrogin0;-32.933;117.176;20;269
+Pinjarra;Western Australia;pinjarra;pinjarra;3888;pinjarra0;-32.629;115.875;21;270
+Latrobe;Tasmania;latrobe;latrobe;3886;latrobe0;-41.235;146.411;10;271
+Legana;Tasmania;legana;legana;3882;legana0;-41.367;147.045;11;272
+Port Sorell;Tasmania;port_sorell;port_sorell;3871;port_sorell0;-41.166;146.55;12;273
+Lowood;Queensland;lowood;lowood;3870;lowood0;-27.463;152.581;61;274
+Korumburra;Victoria;korumburra;korumburra;3869;korumburra0;-38.432;145.824;62;275
+Westbrook;Queensland;westbrook;westbrook;3862;westbrook0;-27.603;151.873;62;276
+Picton;New South Wales;picton;picton;3846;picton0;-34.186;150.606;92;277
+Trafalgar;Victoria;trafalgar;trafalgar;3833;trafalgar0;-38.208;146.151;63;278
+Numurkah;Victoria;numurkah;numurkah;3808;numurkah0;-36.092;145.432;64;279
+Narrandera;New South Wales;narrandera;narrandera;3780;narrandera0;-34.745;146.557;93;280
+Daylesford - Hepburn Springs;Victoria;daylesford;hepburn_springs;3723;daylesford0;-37.344;144.142;65;281
+Longford;Tasmania;longford;longford;3721;longford0;-41.596;147.122;13;282
+Kerang;Victoria;kerang;kerang;3708;kerang0;-35.735;143.919;66;283
+Russell Island;Queensland;russell_island;russell_island;3703;russell_island0;-27.674;153.382;63;284
+Richmond North;New South Wales;richmond_north;richmond_north;3693;richmond_north0;-33.582;150.715;94;285
+Roxby Downs;South Australia;roxby_downs;roxby_downs;3666;roxby_downs0;-30.563;136.895;25;286
+Sussex Inlet;New South Wales;sussex_inlet;sussex_inlet;3657;sussex_inlet0;-35.157;150.596;95;287
+Mansfield;Victoria;mansfield;mansfield;3639;mansfield0;-37.052;146.088;67;288
+Katanning;Western Australia;katanning;katanning;3632;katanning0;-33.69;117.556;22;289
+Sandy Beach - Emerald Beach;New South Wales;sandy_beach;emerald_beach;3630;sandy_beach0;-30.148;153.192;96;290
+Culburra Beach - Orient Point;New South Wales;culburra_beach;orient_point;3582;culburra_beach0;-34.913;150.759;97;291
+Riddells Creek;Victoria;riddells_creek;riddells_creek;3572;riddells_creek0;-37.463;144.677;68;292
+Calliope;Queensland;calliope;calliope;3559;calliope0;-24.007;151.201;64;293
+Paynesville;Victoria;paynesville;paynesville;3506;paynesville0;-37.919;147.72;69;294
+Laidley;Queensland;laidley;laidley;3505;laidley0;-27.63;152.394;65;295
+Narromine;New South Wales;narromine;narromine;3495;narromine0;-32.232;148.24;98;296
+Sarina;Queensland;sarina;sarina;3491;sarina0;-21.421;149.217;66;297
+Cooroy;Queensland;cooroy;cooroy;3483;cooroy0;-26.417;152.91;67;298
+Proserpine;Queensland;proserpine;proserpine;3451;proserpine0;-20.402;148.581;68;299
+Walkerston;Queensland;walkerston;walkerston;3442;walkerston0;-21.16;149.065;69;300
+Nanango;Queensland;nanango;nanango;3440;nanango0;-26.673;152;70;301
+Narooma;New South Wales;narooma;narooma;3433;narooma0;-36.218;150.132;99;302
+Port Fairy;Victoria;port_fairy;port_fairy;3420;port_fairy0;-38.386;142.237;70;303
+Clare;South Australia;clare;clare;3385;clare0;-33.834;138.612;26;304
+Midway Point;Tasmania;midway_point;midway_point;3383;midway_point0;-42.794;147.529;14;305
+Woodford;Queensland;woodford;woodford;3378;woodford0;-26.955;152.778;71;306
+Cobar;New South Wales;cobar;cobar;3370;cobar0;-31.498;145.841;100;307
+Logan Village;Queensland;logan_village;logan_village;3349;logan_village0;-27.777;153.115;72;308
+Penguin;Tasmania;penguin;penguin;3333;penguin0;-41.11;146.069;15;309
+Mooloolah;Queensland;mooloolah;mooloolah;3331;mooloolah0;-26.765;152.962;73;310
+Pitt Town;New South Wales;pitt_town;pitt_town;3324;pitt_town0;-33.586;150.86;101;311
+Bargo;New South Wales;bargo;bargo;3308;bargo0;-34.289;150.58;102;312
+Beechworth;Victoria;beechworth;beechworth;3290;beechworth0;-36.36;146.688;71;313
+McLaren Vale;South Australia;mclaren_vale;mclaren_vale;3282;mclaren_vale0;-35.218;138.542;27;314
+Yarra Junction - Wesburn;Victoria;yarra_junction;wesburn;3279;yarra_junction0;-37.781;145.613;72;315
+Diggers Rest;Victoria;diggers_rest;diggers_rest;3275;diggers_rest0;-37.628;144.721;73;316
+Smithton;Tasmania;smithton;smithton;3275;smithton0;-40.842;145.123;16;317
+Nhulunbuy;Northern Territory;nhulunbuy;nhulunbuy;3263;nhulunbuy0;-12.192;136.774;4;318
+Shoalhaven Heads;New South Wales;shoalhaven_heads;shoalhaven_heads;3257;shoalhaven_heads0;-34.851;150.745;103;319
+Greta;New South Wales;greta;greta;3236;greta0;-32.676;151.392;104;320
+Harrington;New South Wales;harrington;harrington;3233;harrington0;-31.872;152.69;105;321
+Eden;New South Wales;eden;eden;3225;eden0;-37.063;149.904;106;322
+Thirlmere;New South Wales;thirlmere;thirlmere;3216;thirlmere0;-34.204;150.571;107;323
+Bellingen;New South Wales;bellingen;bellingen;3196;bellingen0;-30.452;152.898;108;324
+Fernvale;Queensland;fernvale;fernvale;3195;fernvale0;-27.453;152.658;74;325
+Anglesea;Victoria;anglesea;anglesea;3193;anglesea0;-38.405;144.189;74;326
+Macleay Island;Queensland;macleay_island;macleay_island;3189;macleay_island0;-27.611;153.36;75;327
+Sorell;Tasmania;sorell;sorell;3174;sorell0;-42.782;147.557;17;328
+Euroa;Victoria;euroa;euroa;3115;euroa0;-36.756;145.571;75;329
+Tennant Creek;Northern Territory;tennant_creek;tennant_creek;3080;tennant_creek0;-19.65;134.19;5;330
+Red Cliffs;Victoria;red_cliffs;red_cliffs;3078;red_cliffs0;-34.308;142.187;76;331
+Callala Bay;New South Wales;callala_bay;callala_bay;3071;callala_bay0;-35.007;150.703;109;332
+Angle Vale;South Australia;angle_vale;angle_vale;3042;angle_vale0;-34.641;138.647;28;333
+Derby;Western Australia;derby;derby;3009;derby0;-17.305;123.632;23;334
+Macksville;New South Wales;macksville;macksville;2997;macksville0;-30.706;152.921;110;335
+Blayney;New South Wales;blayney;blayney;2994;blayney0;-33.532;149.255;111;336
+Lake Cathie;New South Wales;lake_cathie;lake_cathie;2994;lake_cathie0;-31.552;152.855;112;337
+Maleny;Queensland;maleny;maleny;2981;maleny0;-26.758;152.853;76;338
+Perth;Tasmania;perth;perth;2941;perth1;-41.576;147.174;18;339
+Cooloola Village;Queensland;cooloola_village;cooloola_village;2932;cooloola_village0;-25.974;152.985;77;340
+Macedon;Victoria;macedon;macedon;2929;macedon0;-37.416;144.584;77;341
+Calala;New South Wales;calala;calala;2927;calala0;-31.128;150.943;113;342
+Pittsworth;Queensland;pittsworth;pittsworth;2924;pittsworth0;-27.716;151.634;78;343
+Burnett Heads;Queensland;burnett_heads;burnett_heads;2913;burnett_heads0;-24.764;152.406;79;344
+Tom Price;Western Australia;tom_price;tom_price;2911;tom_price0;-22.689;117.79;24;345
+Evans Head;New South Wales;evans_head;evans_head;2892;evans_head0;-29.116;153.429;114;346
+Camperdown;Victoria;camperdown;camperdown;2888;camperdown0;-38.233;143.147;78;347
+Branxton;New South Wales;branxton;branxton;2880;branxton0;-32.662;151.346;115;348
+Jacobs Well;Queensland;jacobs_well;jacobs_well;2864;jacobs_well0;-27.781;153.365;80;349
+Home Hill;Queensland;home_hill;home_hill;2860;home_hill0;-19.666;147.415;81;350
+Myrtleford;Victoria;myrtleford;myrtleford;2857;myrtleford0;-36.561;146.724;79;351
+Bordertown;South Australia;bordertown;bordertown;2841;bordertown0;-36.311;140.77;29;352
+Port Denison - Dongara;Western Australia;port_denison;dongara;2836;port_denison0;-29.251;114.935;25;353
+Eynesbury;Victoria;eynesbury;eynesbury;2828;eynesbury0;-37.793;144.558;80;354
+Tenterfield;New South Wales;tenterfield;tenterfield;2828;tenterfield0;-29.042;152.021;116;355
+Forest Hill;New South Wales;forest_hill;forest_hill;2825;forest_hill0;-35.147;147.463;117;356
+Bonny Hills;New South Wales;bonny_hills;bonny_hills;2824;bonny_hills0;-31.595;152.841;118;357
+Moruya;New South Wales;moruya;moruya;2823;moruya0;-35.912;150.078;119;358
+Thursday Island;Queensland;thursday_island;thursday_island;2807;thursday_island0;-10.584;142.221;82;359
+Rochester;Victoria;rochester;rochester;2805;rochester0;-36.361;144.701;81;360
+Kyogle;New South Wales;kyogle;kyogle;2803;kyogle0;-28.622;153.004;120;361
+Exmouth;Western Australia;exmouth;exmouth;2802;exmouth0;-21.928;114.126;26;362
+Creswick;Victoria;creswick;creswick;2791;creswick0;-37.425;143.894;82;363
+Harvey;Western Australia;harvey;harvey;2791;harvey0;-33.08;115.896;27;364
+Maclean;New South Wales;maclean;maclean;2787;maclean0;-29.458;153.197;121;365
+Longreach;Queensland;longreach;longreach;2731;longreach0;-23.44;144.25;83;366
+Urunga;New South Wales;urunga;urunga;2731;urunga0;-30.497;153.015;122;367
+Boonah;Queensland;boonah;boonah;2727;boonah0;-27.997;152.681;84;368
+Charleville;Queensland;charleville;charleville;2725;charleville0;-26.402;146.238;85;369
+Glenview;Queensland;glenview;glenview;2717;glenview0;-26.769;153.022;86;370
+Vincentia;New South Wales;vincentia;vincentia;2706;vincentia0;-35.072;150.682;123;371
+West Wyalong;New South Wales;west_wyalong;west_wyalong;2686;west_wyalong0;-33.923;147.205;124;372
+Donnybrook;Western Australia;donnybrook;donnybrook;2675;donnybrook0;-33.576;115.826;28;373
+Lemon Tree Passage;New South Wales;lemon_tree_passage;lemon_tree_passage;2670;lemon_tree_passage0;-32.731;152.04;125;374
+Howlong;New South Wales;howlong;howlong;2661;howlong0;-35.979;146.625;126;375
+Bundanoon;New South Wales;bundanoon;bundanoon;2637;bundanoon0;-34.656;150.3;127;376
+Kapunda;South Australia;kapunda;kapunda;2632;kapunda0;-34.341;138.915;30;377
+Koo Wee Rup;Victoria;koo_wee_rup;koo_wee_rup;2627;koo_wee_rup0;-38.199;145.491;83;378
+Deloraine;Tasmania;deloraine;deloraine;2626;deloraine0;-41.525;146.657;19;379
+Cedar Vale;Queensland;cedar_vale;cedar_vale;2623;cedar_vale0;-27.88;153.004;87;380
+Quirindi;New South Wales;quirindi;quirindi;2609;quirindi0;-31.508;150.68;128;381
+Denmark;Western Australia;denmark;denmark;2603;denmark0;-34.961;117.353;29;382
+Condobolin;New South Wales;condobolin;condobolin;2601;condobolin0;-33.089;147.152;129;383
+Yandina;Queensland;yandina;yandina;2598;yandina0;-26.561;152.956;88;384
+Ballan;Victoria;ballan;ballan;2597;ballan0;-37.6;144.225;84;385
+Tocumwal;New South Wales;tocumwal;tocumwal;2575;tocumwal0;-35.812;145.567;130;386
+Glossodia;New South Wales;glossodia;glossodia;2558;glossodia0;-33.536;150.766;131;387
+Bunyip;Victoria;bunyip;bunyip;2554;bunyip0;-38.097;145.715;85;388
+Oberon;New South Wales;oberon;oberon;2543;oberon0;-33.704;149.855;132;389
+Mannum;South Australia;mannum;mannum;2537;mannum0;-34.913;139.313;31;390
+Marian;Queensland;marian;marian;2536;marian0;-21.144;148.943;89;391
+Balnarring - Balnarring Beach;Victoria;balnarring;balnarring_beach;2529;balnarring0;-38.385;145.116;86;392
+Cloncurry;Queensland;cloncurry;cloncurry;2521;cloncurry0;-20.704;140.505;90;393
+Freeling;South Australia;freeling;freeling;2521;freeling0;-34.454;138.813;32;394
+Maningrida;Northern Territory;maningrida;maningrida;2518;maningrida0;-12.055;134.231;6;395
+Margate;Tasmania;margate;margate;2518;margate0;-43.024;147.26;20;396
+St George;Queensland;st_george;saint_george;2511;st_george0;-28.039;148.59;91;397
+Yarrabah;Queensland;yarrabah;yarrabah;2504;yarrabah0;-17.002;145.88;92;398
+Broulee - Mossy Point;New South Wales;broulee;mossy_point;2502;broulee0;-35.843;150.176;133;399
+Bright;Victoria;bright;bright;2482;bright0;-36.727;146.96;87;400
+Mount Morgan;Queensland;mount_morgan;mt_morgan;2482;mount_morgan0;-23.645;150.387;93;401
+Gloucester;New South Wales;gloucester;gloucester;2481;gloucester0;-32.007;151.958;134;402
+Alexandra;Victoria;alexandra;alexandra;2475;alexandra0;-37.191;145.711;88;403
+Berry;New South Wales;berry;berry;2471;berry0;-34.775;150.697;135;404
+Kuranda;Queensland;kuranda;kuranda;2456;kuranda0;-16.821;145.634;94;405
+Robinvale;Victoria;robinvale;robinvale;2448;robinvale0;-34.59;142.772;89;406
+Gilgandra;New South Wales;gilgandra;gilgandra;2425;gilgandra0;-31.712;148.663;136;407
+Yarra Glen;Victoria;yarra_glen;yarra_glen;2419;yarra_glen0;-37.658;145.374;90;408
+Oakhurst;Queensland;oakhurst;oakhurst;2407;oakhurst0;-25.514;152.633;95;409
+York;Western Australia;york;york;2404;york0;-31.888;116.768;30;410
+Coonabarabran;New South Wales;coonabarabran;coonabarabran;2394;coonabarabran0;-31.273;149.277;137;411
+Two Rocks;Western Australia;two_rocks;two_rocks;2391;two_rocks0;-31.501;115.588;31;412
+Uralla;New South Wales;uralla;uralla;2386;uralla0;-30.643;151.503;138;413
+Merredin;Western Australia;merredin;merredin;2378;merredin0;-31.482;118.279;32;414
+Malua Bay;New South Wales;malua_bay;malua_bay;2376;malua_bay0;-35.783;150.232;139;415
+Coonamble;New South Wales;coonamble;coonamble;2369;coonamble0;-30.954;148.388;140;416
+Waroona;Western Australia;waroona;waroona;2368;waroona0;-32.845;115.922;33;417
+Tuross Head;New South Wales;tuross_head;tuross_head;2358;tuross_head0;-36.054;150.131;141;418
+Toogoom;Queensland;toogoom;toogoom;2353;toogoom0;-25.255;152.691;96;419
+Tea Gardens;New South Wales;tea_gardens;tea_gardens;2344;tea_gardens0;-32.667;152.16;142;420
+Hadspen;Tasmania;hadspen;hadspen;2333;hadspen0;-41.504;147.069;21;421
+Rutherglen;Victoria;rutherglen;rutherglen;2325;rutherglen0;-36.054;146.459;91;422
+Rosewood;Queensland;rosewood;rosewood;2324;rosewood0;-27.638;152.592;97;423
+Hahndorf;South Australia;hahndorf;hahndorf;2312;hahndorf0;-35.03;138.81;33;424
+Cape Woolamai;Victoria;cape_woolamai;cape_woolamai;2302;cape_woolamai0;-38.527;145.336;92;425
+Dysart;Queensland;dysart;dysart;2301;dysart0;-22.588;148.349;98;426
+Willunga;South Australia;willunga;willunga;2299;willunga0;-35.272;138.554;34;427
+Moore Park;Queensland;moore_park;moore_park;2291;moore_park0;-24.709;152.262;99;428
+Ceduna;South Australia;ceduna;ceduna;2287;ceduna0;-32.126;133.675;35;429
+Tin Can Bay;Queensland;tin_can_bay;tin_can_bay;2286;tin_can_bay0;-25.911;153.007;100;430
+Beaconsfield Upper;Victoria;beaconsfield_upper;beaconsfield_upper;2274;beaconsfield_upper0;-38.005;145.41;93;431
+Normanville;South Australia;normanville;normanville;2266;normanville0;-35.448;138.318;36;432
+Hill Top;New South Wales;hill_top;hill_top;2262;hill_top0;-34.356;150.494;143;433
+Tully;Queensland;tully;tully;2250;tully0;-17.934;145.923;101;434
+Teesdale;Victoria;teesdale;teesdale;2248;teesdale0;-38.028;144.049;94;435
+Williamstown;South Australia;williamstown;williamstown;2234;williamstown0;-34.671;138.89;37;436
+Warracknabeal;Victoria;warracknabeal;warracknabeal;2232;warracknabeal0;-36.253;142.403;95;437
+Bullsbrook;Western Australia;bullsbrook;bullsbrook;2225;bullsbrook0;-31.671;116.031;34;438
+Fitzroy Crossing;Western Australia;fitzroy_crossing;fitzroy_crossing;2222;fitzroy_crossing0;-18.194;125.569;35;439
+Samford Valley - Highvale;Queensland;samford_valley;highvale;2219;samford_valley0;-27.365;152.841;102;440
+Drummond Cove;Western Australia;drummond_cove;drummond_cove;2215;drummond_cove0;-28.676;114.612;36;441
+South Golden Beach;New South Wales;south_golden_beach;south_golden_beach;2213;south_golden_beach0;-28.501;153.544;144;442
+Hay;New South Wales;hay;hay;2204;hay0;-34.501;144.845;145;443
+Galiwinku;Northern Territory;galiwinku;galiwinku;2199;galiwinku0;-12.025;135.573;7;444
+Dalmeny;New South Wales;dalmeny;dalmeny;2192;dalmeny0;-36.171;150.131;146;445
+Dayboro;Queensland;dayboro;dayboro;2190;dayboro0;-27.196;152.824;103;446
+Angaston;South Australia;angaston;angaston;2183;angaston0;-34.501;139.047;38;447
+Stratford;Victoria;stratford;stratford;2179;stratford0;-37.966;147.08;96;448
+Dungog;New South Wales;dungog;dungog;2168;dungog0;-32.404;151.757;147;449
+Lobethal;South Australia;lobethal;lobethal;2168;lobethal0;-34.904;138.875;39;450
+Gowrie Junction;Queensland;gowrie_junction;gowrie_junction;2147;gowrie_junction0;-27.491;151.894;104;451
+Capel;Western Australia;capel;capel;2133;capel0;-33.558;115.559;37;452
+Cowaramup;Western Australia;cowaramup;cowaramup;2126;cowaramup0;-33.851;115.103;38;453
+St Arnaud;Victoria;st_arnaud;saint_arnaud;2122;st_arnaud0;-36.615;143.257;97;454
+Bangalow;New South Wales;bangalow;bangalow;2119;bangalow0;-28.686;153.525;148;455
+Wollongbar;New South Wales;wollongbar;wollongbar;2107;wollongbar0;-28.828;153.421;149;456
+Two Wells;South Australia;two_wells;two_wells;2104;two_wells0;-34.595;138.516;40;457
+Crookwell;New South Wales;crookwell;crookwell;2098;crookwell0;-34.458;149.47;150;458
+Palm Island;Queensland;palm_island;palm_island;2098;palm_island0;-18.736;146.618;105;459
+Bundeena;New South Wales;bundeena;bundeena;2097;bundeena0;-34.085;151.151;151;460
+Alice River;Queensland;alice_river;alice_river;2093;alice_river0;-19.327;146.6;106;461
+Merbein;Victoria;merbein;merbein;2084;merbein0;-34.168;142.061;98;462
+Wallerawang;New South Wales;wallerawang;wallerawang;2079;wallerawang0;-33.411;150.063;152;463
+Guyra;New South Wales;guyra;guyra;2078;guyra0;-30.217;151.673;153;464
+Huonville;Tasmania;huonville;huonville;2066;huonville0;-43.024;147.045;22;465
+Barham - Koondrook;New South Wales;barham;koondrook;2065;barham0;-35.648;144.126;154;466
+Gulgong;New South Wales;gulgong;gulgong;2047;gulgong0;-32.363;149.534;155;467
+River Heads;Queensland;river_heads;river_heads;2045;river_heads0;-25.414;152.912;107;468
+Nagambie;Victoria;nagambie;nagambie;2033;nagambie0;-36.786;145.154;99;469
+Grenfell;New South Wales;grenfell;grenfell;2027;grenfell0;-33.895;148.161;156;470
+Terang;Victoria;terang;terang;2024;terang0;-38.241;142.92;100;471
+Murrays Beach;New South Wales;murrays_beach;murrays_beach;2023;murrays_beach0;-33.117;151.618;157;472
+Orbost;Victoria;orbost;orbost;2023;orbost0;-37.707;148.455;101;473
+Jindabyne;New South Wales;jindabyne;jindabyne;2022;jindabyne0;-36.415;148.619;158;474
+Manilla;New South Wales;manilla;manilla;2011;manilla0;-30.748;150.72;159;475
+Glenwood;Queensland;glenwood;glenwood;1996;glenwood0;-25.949;152.635;108;476
+Kilcoy;Queensland;kilcoy;kilcoy;1993;kilcoy0;-26.94;152.564;109;477
+Cooroibah;Queensland;cooroibah;cooroibah;1991;cooroibah0;-26.36;152.998;110;478
+Scottsdale;Tasmania;scottsdale;scottsdale;1982;scottsdale0;-41.161;147.516;23;479
+Wyee;New South Wales;wyee;wyee;1979;wyee0;-33.176;151.485;160;480
+Wilberforce;New South Wales;wilberforce;wilberforce;1977;wilberforce0;-33.558;150.848;161;481
+Gundagai;New South Wales;gundagai;gundagai;1967;gundagai0;-35.066;148.108;162;482
+Curra;Queensland;curra;curra;1960;curra0;-26.084;152.582;111;483
+Murgon;Queensland;murgon;murgon;1960;murgon0;-26.243;151.943;112;484
+Nhill;Victoria;nhill;nhill;1956;nhill0;-36.333;141.651;102;485
+Balaklava;South Australia;balaklava;balaklava;1955;balaklava0;-34.147;138.416;41;486
+Baranduda;Victoria;baranduda;baranduda;1952;baranduda0;-36.189;146.95;103;487
+Clermont;Queensland;clermont;clermont;1940;clermont0;-22.826;147.64;113;488
+Cedar Grove;Queensland;cedar_grove;cedar_grove;1932;cedar_grove0;-27.862;152.986;114;489
+Wadeye;Northern Territory;wadeye;wadeye;1924;wadeye0;-14.237;129.522;8;490
+Mount Beauty - Tawonga South;Victoria;mount_beauty;tawonga_south;1923;mount_beauty0;-36.745;147.171;104;491
+Seville;Victoria;seville;seville;1919;seville0;-37.775;145.459;105;492
+Kingscote;South Australia;kingscote;kingscote;1917;kingscote0;-35.657;137.638;42;493
+Longwarry;Victoria;longwarry;longwarry;1915;longwarry0;-38.111;145.771;106;494
+Warburton;Victoria;warburton;warburton;1914;warburton0;-37.754;145.689;107;495
+Mount Barker;Western Australia;mount_barker;mt_barker;1899;mount_barker1;-34.626;117.662;39;496
+Barmera;South Australia;barmera;barmera;1894;barmera0;-34.252;140.467;43;497
+Woodside;South Australia;woodside;woodside;1894;woodside0;-34.952;138.876;44;498
+Middlemount;Queensland;middlemount;middlemount;1885;middlemount0;-22.81;148.699;115;499
+Lyndoch;South Australia;lyndoch;lyndoch;1878;lyndoch0;-34.6;138.889;45;500
+Finley;New South Wales;finley;finley;1874;finley0;-35.645;145.575;163;501
+Cohuna;Victoria;cohuna;cohuna;1872;cohuna0;-35.809;144.221;108;502
+Aberdeen;New South Wales;aberdeen;aberdeen;1867;aberdeen0;-32.162;150.89;164;503
+Kootingal;New South Wales;kootingal;kootingal;1863;kootingal0;-31.057;151.054;165;504
+King Creek;New South Wales;king_creek;king_creek;1859;king_creek0;-31.492;152.757;166;505
+Snug;Tasmania;snug;snug;1847;snug0;-43.066;147.255;24;506
+Gulmarrad;New South Wales;gulmarrad;gulmarrad;1842;gulmarrad0;-29.487;153.233;167;507
+Portland;New South Wales;portland;portland;1842;portland1;-33.353;149.982;168;508
+Heathcote;Victoria;heathcote;heathcote;1837;heathcote0;-36.922;144.709;109;509
+Lang Lang;Victoria;lang_lang;lang_lang;1836;lang_lang0;-38.265;145.565;110;510
+Cambooya;Queensland;cambooya;cambooya;1835;cambooya0;-27.707;151.864;116;511
+Harden - Murrumburrah;New South Wales;harden;murrumburrah;1833;harden0;-34.556;148.36;169;512
+Long Beach;New South Wales;long_beach;long_beach;1821;long_beach0;-35.699;150.234;170;513
+Arrawarra;New South Wales;arrawarra;arrawarra;1818;arrawarra0;-30.06;153.188;171;514
+Murrumbateman;New South Wales;murrumbateman;murrumbateman;1816;murrumbateman0;-34.97;149.03;172;515
+Withcott;Queensland;withcott;withcott;1802;withcott0;-27.55;152.036;117;516
+Bermagui;New South Wales;bermagui;bermagui;1799;bermagui0;-36.423;150.064;173;517
+Cooktown;Queensland;cooktown;cooktown;1799;cooktown0;-15.467;145.25;118;518
+Crows Nest;Queensland;crows_nest;crows_nest;1798;crows_nest0;-27.262;152.055;119;519
+Old Erowal Bay;New South Wales;old_erowal_bay;old_erowal_bay;1793;old_erowal_bay0;-35.084;150.647;174;520
+Winchelsea;Victoria;winchelsea;winchelsea;1791;winchelsea0;-38.243;143.989;111;521
+Yerrinbool;New South Wales;yerrinbool;yerrinbool;1788;yerrinbool0;-34.376;150.538;175;522
+Wondai;Queensland;wondai;wondai;1787;wondai0;-26.317;151.875;120;523
+Queenstown;Tasmania;queenstown;queenstown;1779;queenstown0;-42.08;145.556;25;524
+Iluka;New South Wales;iluka;iluka;1767;iluka0;-29.407;153.351;176;525
+Hamilton Island;Queensland;hamilton_island;hamilton_island;1759;hamilton_island0;-20.348;148.953;121;526
+Mossman;Queensland;mossman;mossman;1757;mossman0;-16.459;145.372;122;527
+Kingsthorpe;Queensland;kingsthorpe;kingsthorpe;1756;kingsthorpe0;-27.477;151.814;123;528
+Barooga;New South Wales;barooga;barooga;1755;barooga0;-35.914;145.689;177;529
+Nyngan;New South Wales;nyngan;nyngan;1753;nyngan0;-31.562;147.192;178;530
+Coolamon;New South Wales;coolamon;coolamon;1745;coolamon0;-34.816;147.2;179;531
+Mirboo North;Victoria;mirboo_north;mirboo_north;1743;mirboo_north0;-38.401;146.161;112;532
+Buxton;New South Wales;buxton;buxton;1741;buxton0;-34.254;150.534;180;533
+Little Grove;Western Australia;little_grove;little_grove;1738;little_grove0;-35.071;117.87;40;534
+Yarram;Victoria;yarram;yarram;1731;yarram0;-38.562;146.676;113;535
+Pomona;Queensland;pomona;pomona;1728;pomona0;-26.366;152.853;124;536
+Malanda;Queensland;malanda;malanda;1710;malanda0;-17.352;145.593;125;537
+Wandong - Heathcote Junction;Victoria;wandong;heathcote_junction;1703;wandong0;-37.359;145.029;114;538
+Koroit;Victoria;koroit;koroit;1701;koroit0;-38.292;142.367;115;539
+Lancefield;Victoria;lancefield;lancefield;1693;lancefield0;-37.277;144.732;116;540
+Gayndah;Queensland;gayndah;gayndah;1692;gayndah0;-25.625;151.61;126;541
+Brunswick Heads;New South Wales;brunswick_heads;brunswick_heads;1691;brunswick_heads0;-28.539;153.548;181;542
+Virginia;South Australia;virginia;virginia;1691;virginia0;-34.667;138.56;46;543
+Moura;Queensland;moura;moura;1681;moura0;-24.571;149.977;127;544
+Waikerie;South Australia;waikerie;waikerie;1675;waikerie0;-34.179;139.987;47;545
+Westbury;Tasmania;westbury;westbury;1667;westbury0;-41.528;146.833;26;546
+San Remo;Victoria;san_remo;san_remo;1664;san_remo0;-38.521;145.373;117;547
+The Oaks;New South Wales;the_oaks;the_oaks;1664;the_oaks0;-34.077;150.571;182;548
+Kambalda West;Western Australia;kambalda_west;kambalda_west;1659;kambalda_west0;-31.212;121.623;41;549
+Balhannah;South Australia;balhannah;balhannah;1658;balhannah0;-34.99;138.828;48;550
+Corindi Beach;New South Wales;corindi_beach;corindi_beach;1656;corindi_beach0;-30.029;153.2;183;551
+Kooralbyn;Queensland;kooralbyn;kooralbyn;1644;kooralbyn0;-28.085;152.843;128;552
+Garfield;Victoria;garfield;garfield;1641;garfield0;-38.092;145.677;118;553
+Kingston SE;South Australia;kingston_se;kingston_se;1640;kingston_se0;-36.829;139.852;49;554
+Fingal Bay;New South Wales;fingal_bay;fingal_bay;1633;fingal_bay0;-32.748;152.17;184;555
+Pambula;New South Wales;pambula;pambula;1629;pambula0;-36.929;149.875;185;556
+Molong;New South Wales;molong;molong;1615;molong0;-33.092;148.869;186;557
+Metung;Victoria;metung;metung;1609;metung0;-37.891;147.852;119;558
+Halls Creek;Western Australia;halls_creek;halls_creek;1604;halls_creek0;-18.224;127.667;42;559
+Jurien Bay;Western Australia;jurien_bay;jurien_bay;1604;jurien_bay0;-30.308;115.036;43;560
+Appin;New South Wales;appin;appin;1598;appin0;-34.201;150.787;187;561
+Bakers Creek;Queensland;bakers_creek;bakers_creek;1589;bakers_creek0;-21.206;149.151;129;562
+Moora;Western Australia;moora;moora;1589;moora0;-30.641;116.008;44;563
+Basin View;New South Wales;basin_view;basin_view;1584;basin_view0;-35.091;150.562;188;564
+Millgrove;Victoria;millgrove;millgrove;1583;millgrove0;-37.755;145.653;120;565
+Wee Waa;New South Wales;wee_waa;wee_waa;1575;wee_waa0;-30.225;149.444;189;566
+St Helens;Tasmania;st_helens;saint_helens;1568;st_helens0;-41.334;148.258;27;567
+Plainland;Queensland;plainland;plainland;1564;plainland0;-27.574;152.421;130;568
+Wonga Park;Victoria;wonga_park;wonga_park;1548;wonga_park0;-37.736;145.274;121;569
+Colo Vale;New South Wales;colo_vale;colo_vale;1535;colo_vale0;-34.402;150.485;190;570
+Heyfield;Victoria;heyfield;heyfield;1533;heyfield0;-37.978;146.784;122;571
+Bourke;New South Wales;bourke;bourke;1529;bourke0;-30.089;145.938;191;572
+Nathalia;Victoria;nathalia;nathalia;1525;nathalia0;-36.061;145.204;123;573
+Tumby Bay;South Australia;tumby_bay;tumby_bay;1512;tumby_bay0;-34.375;136.103;50;574
+Burrum Heads;Queensland;burrum_heads;burrum_heads;1511;burrum_heads0;-25.184;152.614;131;575
+Marong;Victoria;marong;marong;1508;marong0;-36.737;144.133;124;576
+Tumbarumba;New South Wales;tumbarumba;tumbarumba;1508;tumbarumba0;-35.777;148.013;192;577
+Clunes;Victoria;clunes;clunes;1507;clunes0;-37.294;143.787;125;578
+Stanwell Park;New South Wales;stanwell_park;stanwell_park;1506;stanwell_park0;-34.226;150.986;193;579
+Cobden;Victoria;cobden;cobden;1505;cobden0;-38.329;143.077;126;580
+Lewiston;South Australia;lewiston;lewiston;1504;lewiston0;-34.6;138.608;51;581
+Bowen Mountain;New South Wales;bowen_mountain;bowen_mountain;1498;bowen_mountain0;-33.574;150.628;194;582
+Apollo Bay;Victoria;apollo_bay;apollo_bay;1492;apollo_bay0;-38.753;143.667;127;583
+Robertson;New South Wales;robertson;robertson;1477;robertson0;-34.589;150.596;195;584
+Mundijong;Western Australia;mundijong;mundijong;1474;mundijong0;-32.295;115.986;45;585
+Valla Beach;New South Wales;valla_beach;valla_beach;1457;valla_beach0;-30.592;153.008;196;586
+Karuah;New South Wales;karuah;karuah;1456;karuah0;-32.654;151.961;197;587
+Canowindra;New South Wales;canowindra;canowindra;1447;canowindra0;-33.562;148.665;198;588
+Coober Pedy;South Australia;coober_pedy;coober_pedy;1439;coober_pedy0;-29.012;134.755;52;589
+Tathra;New South Wales;tathra;tathra;1435;tathra0;-36.73;149.986;199;590
+Bridgetown;Western Australia;bridgetown;bridgetown;1432;bridgetown0;-33.957;116.137;46;591
+Peterborough;South Australia;peterborough;peterborough;1431;peterborough0;-32.973;138.838;53;592
+Wickham;Western Australia;wickham;wickham;1427;wickham0;-20.675;117.139;47;593
+Emerald Beach West;New South Wales;emerald_beach_west;emerald_beach_west;1426;emerald_beach_west0;-30.174;153.162;200;594
+Wurrumiyanga;Northern Territory;wurrumiyanga;wurrumiyanga;1421;wurrumiyanga0;-11.762;130.63;9;595
+Hawks Nest;New South Wales;hawks_nest;hawks_nest;1418;hawks_nest0;-32.672;152.178;201;596
+Braidwood;New South Wales;braidwood;braidwood;1416;braidwood0;-35.438;149.801;202;597
+Tailem Bend;South Australia;tailem_bend;tailem_bend;1415;tailem_bend0;-35.254;139.454;54;598
+Tolga West;Queensland;tolga_west;tolga_west;1410;tolga_west0;-17.205;145.452;132;599
+Boorowa;New South Wales;boorowa;boorowa;1404;boorowa0;-34.439;148.716;203;600
+Aireys Inlet - Fairhaven;Victoria;aireys_inlet;fairhaven;1401;aireys_inlet0;-38.462;144.092;128;601
+Wyreema;Queensland;wyreema;wyreema;1392;wyreema0;-27.656;151.855;133;602
+Lightning Ridge;New South Wales;lightning_ridge;lightning_ridge;1390;lightning_ridge0;-29.428;147.979;204;603
+Junction Hill;New South Wales;junction_hill;junction_hill;1388;junction_hill0;-29.641;152.925;205;604
+Doomadgee;Queensland;doomadgee;doomadgee;1387;doomadgee0;-17.939;138.823;134;605
+Denman;New South Wales;denman;denman;1386;denman0;-32.389;150.686;206;606
+Walgett;New South Wales;walgett;walgett;1385;walgett0;-30.022;148.117;207;607
+Jamestown;South Australia;jamestown;jamestown;1384;jamestown0;-33.204;138.605;55;608
+Jindera;New South Wales;jindera;jindera;1384;jindera0;-35.956;146.889;208;609
+Maldon;Victoria;maldon;maldon;1381;maldon0;-36.996;144.068;129;610
+Yarragon;Victoria;yarragon;yarragon;1381;yarragon0;-38.208;146.062;130;611
+Penola;South Australia;penola;penola;1376;penola0;-37.381;140.838;56;612
+Millmerran;Queensland;millmerran;millmerran;1374;millmerran0;-27.873;151.271;135;613
+Donald;Victoria;donald;donald;1372;donald0;-36.371;142.982;131;614
+Bridport;Tasmania;bridport;bridport;1371;bridport0;-41.003;147.394;28;615
+Walcha;New South Wales;walcha;walcha;1369;walcha0;-30.992;151.592;209;616
+Warren;New South Wales;warren;warren;1367;warren0;-31.699;147.837;210;617
+Childers;Queensland;childers;childers;1366;childers0;-25.236;152.278;136;618
+Serpentine;Western Australia;serpentine;serpentine;1366;serpentine0;-32.364;115.98;48;619
+Wilton;New South Wales;wilton;wilton;1364;wilton0;-34.24;150.696;211;620
+Miles;Queensland;miles;miles;1358;miles0;-26.658;150.185;137;621
+Woodgate;Queensland;woodgate;woodgate;1357;woodgate0;-25.102;152.56;138;622
+Wyee Point;New South Wales;wyee_point;wyee_point;1356;wyee_point0;-33.144;151.521;212;623
+Gleneagle;Queensland;gleneagle;gleneagle;1351;gleneagle0;-27.942;152.992;139;624
+Werris Creek;New South Wales;werris_creek;werris_creek;1348;werris_creek0;-31.349;150.647;213;625
+Freemans Reach;New South Wales;freemans_reach;freemans_reach;1346;freemans_reach0;-33.565;150.785;214;626
+Casterton;Victoria;casterton;casterton;1342;casterton0;-37.584;141.406;132;627
+Smiths Lake;New South Wales;smiths_lake;smiths_lake;1327;smiths_lake0;-32.382;152.502;215;628
+Tongala;Victoria;tongala;tongala;1327;tongala0;-36.249;144.948;133;629
+Wongaling Beach;Queensland;wongaling_beach;wongaling_beach;1327;wongaling_beach0;-17.905;146.092;140;630
+Crystal Brook;South Australia;crystal_brook;crystal_brook;1326;crystal_brook0;-33.353;138.206;57;631
+Meridan Plains;Queensland;meridan_plains;meridan_plains;1325;meridan_plains0;-26.755;153.103;141;632
+Normanton;Queensland;normanton;normanton;1324;normanton0;-17.67;141.079;142;633
+Heywood;Victoria;heywood;heywood;1321;heywood0;-38.131;141.63;134;634
+Paraburdoo;Western Australia;paraburdoo;paraburdoo;1316;paraburdoo0;-23.204;117.668;49;635
+Dimboola;Victoria;dimboola;dimboola;1315;dimboola0;-36.456;142.028;135;636
+Wagin;Western Australia;wagin;wagin;1311;wagin0;-33.309;117.344;50;637
+Foster;Victoria;foster;foster;1309;foster0;-38.653;146.202;136;638
+Hay Point;Queensland;hay_point;hay_point;1309;hay_point0;-21.295;149.291;143;639
+Collinsville;Queensland;collinsville;collinsville;1307;collinsville0;-20.553;147.845;144;640
+Wentworth;New South Wales;wentworth;wentworth;1306;wentworth0;-34.107;141.919;216;641
+Willowbank;Queensland;willowbank;willowbank;1306;willowbank0;-27.659;152.691;145;642
+Milton;New South Wales;milton;milton;1304;milton0;-35.315;150.435;217;643
+Clifton;Queensland;clifton;clifton;1296;clifton0;-27.931;151.906;146;644
+Dampier;Western Australia;dampier;dampier;1283;dampier0;-20.662;116.707;51;645
+Allingham;Queensland;allingham;allingham;1277;allingham0;-18.708;146.294;147;646
+Yea;Victoria;yea;yea;1276;yea0;-37.212;145.424;137;647
+Binningup;Western Australia;binningup;binningup;1275;binningup0;-33.15;115.688;52;648
+Ardrossan;South Australia;ardrossan;ardrossan;1274;ardrossan0;-34.423;137.917;58;649
+Kalbarri;Western Australia;kalbarri;kalbarri;1274;kalbarri0;-27.711;114.164;53;650
+Laidley Heights;Queensland;laidley_heights;laidley_heights;1271;laidley_heights0;-27.633;152.37;148;651
+Holbrook;New South Wales;holbrook;holbrook;1254;holbrook0;-35.729;147.31;218;652
+Barcaldine;Queensland;barcaldine;barcaldine;1252;barcaldine0;-23.552;145.289;149;653
+Rosedale;Victoria;rosedale;rosedale;1252;rosedale0;-38.151;146.787;138;654
+Lorne;Victoria;lorne;lorne;1250;lorne0;-38.542;143.976;139;655
+Kinglake;Victoria;kinglake;kinglake;1248;kinglake0;-37.53;145.341;140;656
+Cardwell;Queensland;cardwell;cardwell;1244;cardwell0;-18.266;146.028;150;657
+Greenwell Point;New South Wales;greenwell_point;greenwell_point;1240;greenwell_point0;-34.908;150.73;219;658
+Tomakin;New South Wales;tomakin;tomakin;1238;tomakin0;-35.822;150.193;220;659
+Mount Compass;South Australia;mount_compass;mt_compass;1236;mount_compass0;-35.353;138.61;59;660
+Blind Bight;Victoria;blind_bight;blind_bight;1234;blind_bight0;-38.211;145.34;141;661
+Esk;Queensland;esk;esk;1234;esk0;-27.24;152.422;151;662
+Beauty Point;Tasmania;beauty_point;beauty_point;1233;beauty_point0;-41.158;146.822;29;663
+Gembrook;Victoria;gembrook;gembrook;1227;gembrook0;-37.952;145.55;142;664
+Cambewarra Village;New South Wales;cambewarra_village;cambewarra_village;1213;cambewarra_village0;-34.822;150.559;221;665
+Primrose Sands;Tasmania;primrose_sands;primrose_sands;1212;primrose_sands0;-42.89;147.67;30;666
+Augusta;Western Australia;augusta;augusta;1209;augusta0;-34.316;115.16;54;667
+Mundoolun;Queensland;mundoolun;mundoolun;1209;mundoolun0;-27.866;153.076;152;668
+Agnes Water;Queensland;agnes_water;agnes_water;1205;agnes_water0;-24.213;151.903;153;669
+Chiltern;Victoria;chiltern;chiltern;1204;chiltern0;-36.148;146.61;143;670
+Kandos;New South Wales;kandos;kandos;1201;kandos0;-32.857;149.969;222;671
+Frederickton;New South Wales;frederickton;frederickton;1197;frederickton0;-31.038;152.879;223;672
+Tooradin;Victoria;tooradin;tooradin;1196;tooradin0;-38.211;145.38;144;673
+Sheffield;Tasmania;sheffield;sheffield;1195;sheffield0;-41.382;146.325;31;674
+Cherbourg;Queensland;cherbourg;cherbourg;1194;cherbourg0;-26.294;151.946;154;675
+Nelly Bay;Queensland;nelly_bay;nelly_bay;1190;nelly_bay0;-19.157;146.853;155;676
+Corryong;Victoria;corryong;corryong;1182;corryong0;-36.197;147.905;145;677
+Jandowae;Queensland;jandowae;jandowae;1181;jandowae0;-26.781;151.11;156;678
+Bamaga;Queensland;bamaga;bamaga;1180;bamaga0;-10.893;142.395;157;679
+Galston;New South Wales;galston;galston;1178;galston0;-33.65;151.043;224;680
+Grantville;Victoria;grantville;grantville;1178;grantville0;-38.408;145.532;146;681
+Rainbow Beach;Queensland;rainbow_beach;rainbow_beach;1176;rainbow_beach0;-25.902;153.092;158;682
+Oakdale;New South Wales;oakdale;oakdale;1175;oakdale0;-34.078;150.514;225;683
+Beaufort;Victoria;beaufort;beaufort;1172;beaufort0;-37.43;143.384;147;684
+McLaren Flat;South Australia;mclaren_flat;mclaren_flat;1171;mclaren_flat0;-35.207;138.589;60;685
+Kiels Mountain;Queensland;kiels_mountain;kiels_mountain;1170;kiels_mountain0;-26.648;153.005;159;686
+Lake Cargelligo;New South Wales;lake_cargelligo;lake_cargelligo;1168;lake_cargelligo0;-33.299;146.37;226;687
+Paxton;New South Wales;paxton;paxton;1165;paxton0;-32.903;151.291;227;688
+Bulahdelah;New South Wales;bulahdelah;bulahdelah;1163;bulahdelah0;-32.413;152.208;228;689
+Kurrajong;New South Wales;kurrajong;kurrajong;1160;kurrajong0;-33.547;150.661;229;690
+Coraki;New South Wales;coraki;coraki;1157;coraki0;-28.99;153.289;230;691
+Robe;South Australia;robe;robe;1154;robe0;-37.163;139.756;61;692
+Gunbalanya;Northern Territory;gunbalanya;gunbalanya;1153;gunbalanya0;-12.326;133.009;10;693
+Hillston;New South Wales;hillston;hillston;1153;hillston0;-33.481;145.535;231;694
+Quorn;South Australia;quorn;quorn;1153;quorn0;-32.345;138.042;62;695
+Mortlake;Victoria;mortlake;mortlake;1145;mortlake0;-38.081;142.808;148;696
+Walloon;Queensland;walloon;walloon;1145;walloon0;-27.603;152.672;160;697
+Keith;South Australia;keith;keith;1141;keith0;-36.098;140.355;63;698
+Boddington - Ranford;Western Australia;boddington;ranford;1134;boddington0;-32.804;116.474;55;699
+Bombala;New South Wales;bombala;bombala;1133;bombala0;-36.91;149.242;232;700
+Meadows;South Australia;meadows;meadows;1129;meadows0;-35.181;138.763;64;701
+Avoca;Victoria;avoca;avoca;1128;avoca0;-37.089;143.474;149;702
+Warialda;New South Wales;warialda;warialda;1125;warialda0;-29.541;150.576;233;703
+Cunnamulla;Queensland;cunnamulla;cunnamulla;1124;cunnamulla0;-28.069;145.683;161;704
+Ellalong;New South Wales;ellalong;ellalong;1124;ellalong0;-32.912;151.311;234;705
+Moruya Heads;New South Wales;moruya_heads;moruya_heads;1122;moruya_heads0;-35.914;150.133;235;706
+Port Broughton;South Australia;port_broughton;port_broughton;1121;port_broughton0;-33.6;137.931;65;707
+Eumundi;Queensland;eumundi;eumundi;1119;eumundi0;-26.477;152.952;162;708
+Mallacoota;Victoria;mallacoota;mallacoota;1119;mallacoota0;-37.559;149.754;150;709
+Culcairn;New South Wales;culcairn;culcairn;1118;culcairn0;-35.668;147.037;236;710
+Yackandandah;Victoria;yackandandah;yackandandah;1115;yackandandah0;-36.313;146.838;151;711
+Coronet Bay;Victoria;coronet_bay;coronet_bay;1112;coronet_bay0;-38.435;145.442;152;712
+Yallourn North;Victoria;yallourn_north;yallourn_north;1111;yallourn_north0;-38.164;146.362;153;713
+Mirani;Queensland;mirani;mirani;1108;mirani0;-21.159;148.862;163;714
+Hallidays Point Black Head;New South Wales;hallidays_point_black_head;hallidays_point_black_head;1105;hallidays_point_black_head0;-32.071;152.534;237;715
+Safety Beach;New South Wales;safety_beach;safety_beach;1102;safety_beach0;-30.097;153.192;238;716
+Aurukun;Queensland;aurukun;aurukun;1101;aurukun0;-13.349;141.727;164;717
+Salt Ash;New South Wales;salt_ash;salt_ash;1101;salt_ash0;-32.789;151.907;239;718
+Milingimbi;Northern Territory;milingimbi;milingimbi;1097;milingimbi0;-12.094;134.894;11;719
+Douglas Park;New South Wales;douglas_park;douglas_park;1096;douglas_park0;-34.176;150.714;240;720
+Beaconsfield;Tasmania;beaconsfield;beaconsfield;1093;beaconsfield0;-41.201;146.817;32;721
+Ngukurr;Northern Territory;ngukurr;ngukurr;1088;ngukurr0;-14.728;134.734;12;722
+Neerim South;Victoria;neerim_south;neerim_south;1086;neerim_south0;-38.017;145.955;154;723
+Goldsborough;Queensland;goldsborough;goldsborough;1085;goldsborough0;-17.146;145.752;165;724
+Wallacia;New South Wales;wallacia;wallacia;1084;wallacia0;-33.865;150.64;241;725
+Jamberoo;New South Wales;jamberoo;jamberoo;1080;jamberoo0;-34.648;150.777;242;726
+Kowanyama;Queensland;kowanyama;kowanyama;1079;kowanyama0;-15.483;141.743;166;727
+The Palms;Queensland;the_palms;the_palms;1075;the_palms0;-26.205;152.591;167;728
+Delaneys Creek;Queensland;delaneys_creek;delaneys_creek;1074;delaneys_creek0;-27.005;152.795;168;729
+Maitland;South Australia;maitland;maitland;1070;maitland1;-34.374;137.673;66;730
+Mundubbera;Queensland;mundubbera;mundubbera;1068;mundubbera0;-25.589;151.296;169;731
+Yenda;New South Wales;yenda;yenda;1067;yenda0;-34.249;146.196;243;732
+Blackall;Queensland;blackall;blackall;1064;blackall0;-24.425;145.466;170;733
+Evandale;Tasmania;evandale;evandale;1063;evandale0;-41.571;147.247;33;734
+Balranald;New South Wales;balranald;balranald;1062;balranald0;-34.638;143.561;244;735
+Middleton;South Australia;middleton;middleton;1061;middleton0;-35.511;138.709;67;736
+Cygnet;Tasmania;cygnet;cygnet;1059;cygnet0;-43.158;147.075;34;737
+Ranelagh;Tasmania;ranelagh;ranelagh;1058;ranelagh0;-43.011;147.036;35;738
+Skennars Head;New South Wales;skennars_head;skennars_head;1054;skennars_head0;-28.828;153.602;245;739
+Corinella;Victoria;corinella;corinella;1053;corinella0;-38.414;145.432;155;740
+Yungaburra;Queensland;yungaburra;yungaburra;1053;yungaburra0;-17.271;145.583;171;741
+Barraba;New South Wales;barraba;barraba;1042;barraba0;-30.378;150.611;246;742
+Dorrigo;New South Wales;dorrigo;dorrigo;1042;dorrigo0;-30.34;152.712;247;743
+Howard;Queensland;howard;howard;1042;howard0;-25.317;152.562;172;744
+Merriwa;New South Wales;merriwa;merriwa;1040;merriwa0;-32.139;150.356;248;745
+Rangewood;Queensland;rangewood;rangewood;1038;rangewood0;-19.311;146.639;173;746
+Mulambin;Queensland;mulambin;mulambin;1036;mulambin0;-23.192;150.788;174;747
+Greenock;South Australia;greenock;greenock;1035;greenock0;-34.459;138.932;68;748
+Tolga;Queensland;tolga;tolga;1034;tolga0;-17.223;145.479;175;749
+Wurruk;Victoria;wurruk;wurruk;1031;wurruk0;-38.109;147.03;156;750
+Grindelwald;Tasmania;grindelwald;grindelwald;1030;grindelwald0;-41.349;147.007;36;751
+Monto;Queensland;monto;monto;1030;monto0;-24.863;151.122;176;752
+Bingara;New South Wales;bingara;bingara;1028;bingara0;-29.869;150.572;249;753
+Smithtown - Gladstone;New South Wales;smithtown;gladstone;1027;smithtown0;-31.016;152.949;250;754
+Paringa;South Australia;paringa;paringa;1026;paringa0;-34.176;140.786;69;755
+Berridale;New South Wales;berridale;berridale;1025;berridale0;-36.37;148.83;251;756
+Bluewater Park;Queensland;bluewater_park;bluewater_park;1022;bluewater_park0;-19.205;146.513;177;757
+Gununa;Queensland;gununa;gununa;1022;gununa0;-16.659;139.178;178;758
+Cooran;Queensland;cooran;cooran;1020;cooran0;-26.34;152.817;179;759
+Mission Beach;Queensland;mission_beach;mission_beach;1020;mission_beach0;-17.867;146.107;180;760
+Ouyen;Victoria;ouyen;ouyen;1020;ouyen0;-35.072;142.319;157;761
+Woorabinda;Queensland;woorabinda;woorabinda;1019;woorabinda0;-24.128;149.449;181;762
+Batlow;New South Wales;batlow;batlow;1018;batlow0;-35.522;148.145;252;763
+Loch Sport;Victoria;loch_sport;loch_sport;1018;loch_sport0;-38.058;147.568;158;764
+Tallangatta;Victoria;tallangatta;tallangatta;1018;tallangatta0;-36.221;147.172;159;765
+Diamond Beach;New South Wales;diamond_beach;diamond_beach;1014;diamond_beach0;-32.044;152.534;253;766
+Mapleton;Queensland;mapleton;mapleton;1013;mapleton0;-26.623;152.866;182;767
+Cowell;South Australia;cowell;cowell;1005;cowell0;-33.685;136.927;70;768
+Hughenden;Queensland;hughenden;hughenden;1005;hughenden0;-20.843;144.201;183;769
+Kojonup;Western Australia;kojonup;kojonup;1001;kojonup0;-33.833;117.159;56;770
+Charlton;Victoria;charlton;charlton;1000;charlton0;-36.269;143.35;160;771
+Sunshine Acres;Queensland;sunshine_acres;sunshine_acres;1000;sunshine_acres0;-25.357;152.789;184;772
+Balgal Beach;Queensland;balgal_beach;balgal_beach;996;balgal_beach0;-19.023;146.414;185;773
+Blue Mountain Heights;Queensland;blue_mountain_heights;blue_mountain_heights;995;blue_mountain_heights0;-27.505;151.956;186;774
+Flaxton;Queensland;flaxton;flaxton;995;flaxton0;-26.657;152.864;187;775
+Moonee Beach;New South Wales;moonee_beach;moonee_beach;995;moonee_beach0;-30.208;153.155;254;776
+Scotts Head;New South Wales;scotts_head;scotts_head;994;scotts_head0;-30.747;152.993;255;777
+North Pinjarra;Western Australia;north_pinjarra;north_pinjarra;993;north_pinjarra0;-32.601;115.895;57;778
+Ramingining;Northern Territory;ramingining;ramingining;990;ramingining0;-12.33;134.933;13;779
+Roseworthy;South Australia;roseworthy;roseworthy;989;roseworthy0;-34.539;138.744;71;780
+Eagle Point;Victoria;eagle_point;eagle_point;988;eagle_point0;-37.895;147.668;161;781
+D'Aguilar;Queensland;daguilar;daguilar;987;daguilar0;-26.987;152.798;188;782
+Townsend;New South Wales;townsend;townsend;987;townsend0;-29.466;153.221;256;783
+Tallwoods Village;New South Wales;tallwoods_village;tallwoods_village;983;tallwoods_village0;-32.056;152.508;257;784
+Herberton;Queensland;herberton;herberton;981;herberton0;-17.385;145.387;189;785
+Kalbar;Queensland;kalbar;kalbar;981;kalbar0;-27.94;152.624;190;786
+Kingswood;New South Wales;kingswood;kingswood;981;kingswood0;-31.161;150.911;258;787
+Macclesfield;South Australia;macclesfield;macclesfield;978;macclesfield0;-35.172;138.836;72;788
+Surf Beach - Sunderland Bay;Victoria;surf_beach;sunderland_bay;978;surf_beach0;-38.506;145.279;162;789
+East Warburton;Victoria;east_warburton;east_warburton;977;east_warburton0;-37.75;145.751;163;790
+Capella;Queensland;capella;capella;976;capella0;-23.086;148.023;191;791
+Crescent Head;New South Wales;crescent_head;crescent_head;976;crescent_head0;-31.19;152.977;259;792
+Kureelpa;Queensland;kureelpa;kureelpa;974;kureelpa0;-26.607;152.891;192;793
+Hope Vale;Queensland;hope_vale;hope_vale;972;hope_vale0;-15.296;145.109;193;794
+Rushworth;Victoria;rushworth;rushworth;971;rushworth0;-36.586;145.016;164;795
+Babinda;Queensland;babinda;babinda;969;babinda0;-17.344;145.925;194;796
+Streaky Bay;South Australia;streaky_bay;streaky_bay;967;streaky_bay0;-32.797;134.211;73;797
+Wallalong;New South Wales;wallalong;wallalong;960;wallalong0;-32.696;151.65;260;798
+Berrigan;New South Wales;berrigan;berrigan;957;berrigan0;-35.657;145.813;261;799
+Toogoolawah;Queensland;toogoolawah;toogoolawah;957;toogoolawah0;-27.088;152.375;195;800
+South Mission Beach;Queensland;south_mission_beach;south_mission_beach;956;south_mission_beach0;-17.937;146.095;196;801
+Cape Paterson;Victoria;cape_paterson;cape_paterson;954;cape_paterson0;-38.672;145.614;165;802
+Cumbalum;New South Wales;cumbalum;cumbalum;954;cumbalum0;-28.826;153.538;262;803
+Cardigan Village;Victoria;cardigan_village;cardigan_village;953;cardigan_village0;-37.518;143.708;166;804
+The Rock;New South Wales;the_rock;the_rock;953;the_rock0;-35.268;147.115;263;805
+Toodyay;Western Australia;toodyay;toodyay;951;toodyay0;-31.55;116.467;58;806
+Henty;New South Wales;henty;henty;940;henty0;-35.517;147.036;264;807
+Bowraville;New South Wales;bowraville;bowraville;938;bowraville0;-30.642;152.855;265;808
+Uraidla - Summertown;South Australia;uraidla;summertown;936;uraidla0;-34.956;138.744;74;809
+Birdwood;South Australia;birdwood;birdwood;932;birdwood0;-34.82;138.954;75;810
+Richmond;Tasmania;richmond;richmond;930;richmond0;-42.736;147.438;37;811
+Woombah;New South Wales;woombah;woombah;930;woombah0;-29.36;153.283;266;812
+Yarraman;Queensland;yarraman;yarraman;930;yarraman0;-26.839;151.98;197;813
+Lawrence;New South Wales;lawrence;lawrence;926;lawrence0;-29.497;153.106;267;814
+Black River;Queensland;black_river;black_river;924;black_river0;-19.234;146.619;198;815
+Burra;South Australia;burra;burra;923;burra0;-33.682;138.938;76;816
+Carisbrook;Victoria;carisbrook;carisbrook;920;carisbrook0;-37.048;143.817;167;817
+Mount Victoria;New South Wales;mount_victoria;mt_victoria;916;mount_victoria0;-33.589;150.251;268;818
+Beechwood;New South Wales;beechwood;beechwood;914;beechwood0;-31.437;152.678;269;819
+Elliott Heads;Queensland;elliott_heads;elliott_heads;914;elliott_heads0;-24.901;152.489;199;820
+Gin Gin;Queensland;gin_gin;gin_gin;914;gin_gin0;-24.993;151.96;200;821
+Hopetoun Park;Victoria;hopetoun_park;hopetoun_park;914;hopetoun_park0;-37.695;144.502;168;822
+Chidlow;Western Australia;chidlow;chidlow;912;chidlow0;-31.863;116.266;59;823
+Belvedere;Queensland;belvedere;belvedere;909;belvedere0;-17.521;145.989;201;824
+Kurrajong Heights;New South Wales;kurrajong_heights;kurrajong_heights;908;kurrajong_heights0;-33.527;150.627;270;825
+Witta;Queensland;witta;witta;908;witta0;-26.707;152.817;202;826
+East Jindabyne;New South Wales;east_jindabyne;east_jindabyne;904;east_jindabyne0;-36.394;148.638;271;827
+Venus Bay;Victoria;venus_bay;venus_bay;901;venus_bay0;-38.702;145.828;169;828
+Gingin;Western Australia;gingin;gingin;900;gingin0;-31.348;115.905;60;829
+Kinglake West;Victoria;kinglake_west;kinglake_west;900;kinglake_west0;-37.482;145.279;170;830
+Kendall;New South Wales;kendall;kendall;892;kendall0;-31.632;152.706;272;831
+Nords Wharf;New South Wales;nords_wharf;nords_wharf;890;nords_wharf0;-33.135;151.604;273;832
+Mallala;South Australia;mallala;mallala;884;mallala0;-34.438;138.512;77;833
+Wallabi Point;New South Wales;wallabi_point;wallabi_point;884;wallabi_point0;-31.994;152.57;274;834
+Angurugu;Northern Territory;angurugu;angurugu;883;angurugu0;-13.981;136.461;14;835
+Napranum;Queensland;napranum;napranum;883;napranum0;-12.683;141.89;203;836
+Railton;Tasmania;railton;railton;883;railton0;-41.345;146.424;38;837
+Clarence Town;New South Wales;clarence_town;clarence_town;880;clarence_town0;-32.584;151.78;275;838
+Boggabri;New South Wales;boggabri;boggabri;878;boggabri0;-30.705;150.043;276;839
+Boyanup;Western Australia;boyanup;boyanup;878;boyanup0;-33.483;115.728;61;840
+Waterview Heights;New South Wales;waterview_heights;waterview_heights;871;waterview_heights0;-29.667;152.872;277;841
+Coleraine;Victoria;coleraine;coleraine;869;coleraine0;-37.598;141.691;171;842
+Beverley;Western Australia;beverley;beverley;868;beverley0;-32.109;116.925;62;843
+Darlington Point;New South Wales;darlington_point;darlington_point;867;darlington_point0;-34.568;145.999;278;844
+Wundowie;Western Australia;wundowie;wundowie;866;wundowie0;-31.767;116.387;63;845
+Booral;Queensland;booral;booral;860;booral0;-25.359;152.903;204;846
+Wonga Beach;Queensland;wonga_beach;wonga_beach;859;wonga_beach0;-16.347;145.412;205;847
+Meningie;South Australia;meningie;meningie;856;meningie0;-35.688;139.338;78;848
+Minden Village;Queensland;minden_village;minden_village;855;minden_village0;-27.535;152.562;206;849
+Richmond Hill;New South Wales;richmond_hill;richmond_hill;855;richmond_hill0;-28.789;153.347;279;850
+Adelong;New South Wales;adelong;adelong;852;adelong0;-35.308;148.064;280;851
+Yulara;Northern Territory;yulara;yulara;852;yulara0;-25.245;130.986;15;852
+Avenel;Victoria;avenel;avenel;849;avenel0;-36.893;145.231;172;853
+Brandy Hill;New South Wales;brandy_hill;brandy_hill;848;brandy_hill0;-32.694;151.694;281;854
+Coochiemudlo Island;Queensland;coochiemudlo_island;coochiemudlo_island;847;coochiemudlo_island0;-27.57;153.33;207;855
+Winton;Queensland;winton;winton;847;winton0;-22.391;143.038;208;856
+Mulgoa;New South Wales;mulgoa;mulgoa;845;mulgoa0;-33.84;150.654;282;857
+Allora;Queensland;allora;allora;841;allora0;-28.036;151.983;209;858
+Tinonee;New South Wales;tinonee;tinonee;840;tinonee0;-31.938;152.414;283;859
+Huskisson;New South Wales;huskisson;huskisson;835;huskisson0;-35.039;150.671;284;860
+Mitchell;Queensland;mitchell;mitchell;835;mitchell0;-26.488;147.975;210;861
+Nowra Hill;New South Wales;nowra_hill;nowra_hill;835;nowra_hill0;-34.912;150.557;285;862
+Lockhart;New South Wales;lockhart;lockhart;833;lockhart0;-35.221;146.716;286;863
+Timboon;Victoria;timboon;timboon;833;timboon0;-38.484;142.981;173;864
+Milang;South Australia;milang;milang;830;milang0;-35.407;138.971;79;865
+Helidon;Queensland;helidon;helidon;829;helidon0;-27.55;152.124;211;866
+Ocean Beach;Western Australia;ocean_beach;ocean_beach;829;ocean_beach0;-34.997;117.331;64;867
+Trentham;Victoria;trentham;trentham;829;trentham0;-37.389;144.326;174;868
+Ventnor;Victoria;ventnor;ventnor;828;ventnor0;-38.466;145.182;175;869
+Lower Beechmont;Queensland;lower_beechmont;lower_beechmont;826;lower_beechmont0;-28.039;153.252;212;870
+Millfield;New South Wales;millfield;millfield;822;millfield0;-32.891;151.261;287;871
+Kalaru;New South Wales;kalaru;kalaru;821;kalaru0;-36.736;149.94;288;872
+Bawley Point;New South Wales;bawley_point;bawley_point;820;bawley_point0;-35.522;150.393;289;873
+Murrurundi;New South Wales;murrurundi;murrurundi;820;murrurundi0;-31.764;150.835;290;874
+Marulan;New South Wales;marulan;marulan;819;marulan0;-34.712;150.006;291;875
+Campbell Town;Tasmania;campbell_town;campbell_town;818;campbell_town0;-41.929;147.494;39;876
+Samford Village;Queensland;samford_village;samford_village;818;samford_village0;-27.374;152.884;213;877
+Flinders;Victoria;flinders;flinders;815;flinders0;-38.474;145.016;176;878
+Hilbert;Western Australia;hilbert;hilbert;814;hilbert0;-32.179;115.985;65;879
+Northampton;Western Australia;northampton;northampton;813;northampton0;-28.352;114.63;66;880
+Onslow;Western Australia;onslow;onslow;812;onslow0;-21.636;115.112;67;881
+Kambalda East;Western Australia;kambalda_east;kambalda_east;811;kambalda_east0;-31.205;121.656;68;882
+Boort;Victoria;boort;boort;808;boort0;-36.117;143.726;177;883
+Kellerberrin;Western Australia;kellerberrin;kellerberrin;806;kellerberrin0;-31.634;117.717;69;884
+Brunswick;Western Australia;brunswick;brunswick;803;brunswick0;-33.259;115.839;70;885
+Yankalilla;South Australia;yankalilla;yankalilla;800;yankalilla0;-35.455;138.336;80;886
+Red Head;New South Wales;red_head;red_head;798;red_head0;-32.057;152.536;292;887
+Rockbank;Victoria;rockbank;rockbank;798;rockbank0;-37.734;144.667;178;888
+Bicheno;Tasmania;bicheno;bicheno;797;bicheno0;-41.875;148.304;40;889
+Bakers Hill;Western Australia;bakers_hill;bakers_hill;795;bakers_hill0;-31.748;116.46;71;890
+Erowal Bay;New South Wales;erowal_bay;erowal_bay;794;erowal_bay0;-35.102;150.654;293;891
+Cleve;South Australia;cleve;cleve;793;cleve0;-33.702;136.494;81;892
+Dunwich;Queensland;dunwich;dunwich;793;dunwich0;-27.499;153.402;214;893
+Canungra;Queensland;canungra;canungra;792;canungra0;-28.017;153.165;215;894
+Cunjurong Point - Manyana;New South Wales;cunjurong_point;manyana;791;cunjurong_point0;-35.265;150.51;294;895
+Riverton;South Australia;riverton;riverton;790;riverton0;-34.158;138.748;82;896
+Goombungee;Queensland;goombungee;goombungee;787;goombungee0;-27.307;151.851;216;897
+Black Mountain;Queensland;black_mountain;black_mountain;786;black_mountain0;-26.404;152.88;217;898
+Inglewood;Victoria;inglewood;inglewood;786;inglewood0;-36.576;143.869;179;899
+Nyora;Victoria;nyora;nyora;786;nyora0;-38.334;145.672;180;900
+Jarrahdale;Western Australia;jarrahdale;jarrahdale;784;jarrahdale0;-32.337;116.059;72;901
+Point Lookout;Queensland;point_lookout;point_lookout;784;point_lookout0;-27.428;153.536;218;902
+Ravenshoe;Queensland;ravenshoe;ravenshoe;784;ravenshoe0;-17.608;145.483;219;903
+Hopetoun;Western Australia;hopetoun;hopetoun;780;hopetoun0;-33.95;120.126;73;904
+Murchison;Victoria;murchison;murchison;780;murchison0;-36.619;145.218;181;905
+Murtoa;Victoria;murtoa;murtoa;779;murtoa0;-36.62;142.471;182;906
+Pacific Haven;Queensland;pacific_haven;pacific_haven;775;pacific_haven0;-25.249;152.544;220;907
+Inverleigh;Victoria;inverleigh;inverleigh;774;inverleigh0;-38.101;144.058;183;908
+Peak Hill;New South Wales;peak_hill;peak_hill;773;peak_hill0;-32.725;148.185;295;909
+Uranquinty;New South Wales;uranquinty;uranquinty;772;uranquinty0;-35.195;147.243;296;910
+Coolgardie;Western Australia;coolgardie;coolgardie;769;coolgardie0;-30.955;121.166;74;911
+Jilliby;New South Wales;jilliby;jilliby;769;jilliby0;-33.236;151.407;297;912
+Porepunkah;Victoria;porepunkah;porepunkah;769;porepunkah0;-36.7;146.909;184;913
+Trangie;New South Wales;trangie;trangie;767;trangie0;-32.032;147.984;298;914
+Fern Tree;Tasmania;fern_tree;fern_tree;765;fern_tree0;-42.923;147.261;41;915
+Aldinga;South Australia;aldinga;aldinga;764;aldinga0;-35.271;138.484;83;916
+Borroloola;Northern Territory;borroloola;borroloola;764;borroloola0;-16.064;136.307;16;917
+Gabbadah;Western Australia;gabbadah;gabbadah;764;gabbadah0;-31.292;115.536;75;918
+Lake Boga;Victoria;lake_boga;lake_boga;764;lake_boga0;-35.462;143.634;185;919
+Minlaton;South Australia;minlaton;minlaton;763;minlaton0;-34.771;137.596;84;920
+Thagoona;Queensland;thagoona;thagoona;762;thagoona0;-27.624;152.627;221;921
+Bouldercombe;Queensland;bouldercombe;bouldercombe;761;bouldercombe0;-23.565;150.472;222;922
+Muchea;Western Australia;muchea;muchea;761;muchea0;-31.58;115.977;76;923
+Inglewood;Queensland;inglewood;inglewood;760;inglewood1;-28.415;151.082;223;924
+Jabiru;Northern Territory;jabiru;jabiru;757;jabiru0;-12.668;132.832;17;925
+Benaraby;Queensland;benaraby;benaraby;756;benaraby0;-24.004;151.327;224;926
+Brandon;Queensland;brandon;brandon;755;brandon0;-19.554;147.354;225;927
+Cummins;South Australia;cummins;cummins;755;cummins0;-34.264;135.727;85;928
+Alyangula;Northern Territory;alyangula;alyangula;752;alyangula0;-13.853;136.422;18;929
+Millthorpe;New South Wales;millthorpe;millthorpe;751;millthorpe0;-33.446;149.185;299;930
+Batesford;Victoria;batesford;batesford;748;batesford0;-38.09;144.289;186;931
+Elmore;Victoria;elmore;elmore;748;elmore0;-36.493;144.609;187;932
+Newlands Arm;Victoria;newlands_arm;newlands_arm;748;newlands_arm0;-37.924;147.698;188;933
+Lancelin;Western Australia;lancelin;lancelin;745;lancelin0;-31.021;115.332;77;934
+Rosebery;Tasmania;rosebery;rosebery;745;rosebery0;-41.78;145.539;42;935
+Armstrong Beach;Queensland;armstrong_beach;armstrong_beach;744;armstrong_beach0;-21.455;149.29;226;936
+Brewarrina;New South Wales;brewarrina;brewarrina;742;brewarrina0;-29.962;146.859;300;937
+Wyndham;Western Australia;wyndham;wyndham;741;wyndham0;-15.487;128.123;78;938
+Yuendumu;Northern Territory;yuendumu;yuendumu;740;yuendumu0;-22.253;131.801;19;939
+Brooklyn;New South Wales;brooklyn;brooklyn;739;brooklyn0;-33.548;151.225;301;940
+Stroud;New South Wales;stroud;stroud;738;stroud0;-32.402;151.967;302;941
+Malmsbury;Victoria;malmsbury;malmsbury;737;malmsbury0;-37.189;144.377;189;942
+Springsure;Queensland;springsure;springsure;735;springsure0;-24.116;148.088;227;943
+Ewingsdale;New South Wales;ewingsdale;ewingsdale;731;ewingsdale0;-28.637;153.558;303;944
+Smythesdale;Victoria;smythesdale;smythesdale;731;smythesdale0;-37.646;143.683;190;945
+Gnarabup - Prevelly;Western Australia;gnarabup;prevelly;730;gnarabup0;-33.992;114.994;79;946
+Jerilderie;New South Wales;jerilderie;jerilderie;729;jerilderie0;-35.356;145.729;304;947
+Rhyll;Victoria;rhyll;rhyll;729;rhyll0;-38.465;145.303;191;948
+Tara;Queensland;tara;tara;729;tara0;-27.277;150.46;228;949
+Pingelly;Western Australia;pingelly;pingelly;728;pingelly0;-32.534;117.084;80;950
+Wongan Hills;Western Australia;wongan_hills;wongan_hills;727;wongan_hills0;-30.891;116.715;81;951
+Stieglitz;Tasmania;stieglitz;stieglitz;725;stieglitz0;-41.326;148.297;43;952
+Denham;Western Australia;denham;denham;723;denham0;-25.928;113.534;82;953
+Triabunna;Tasmania;triabunna;triabunna;723;triabunna0;-42.508;147.912;44;954
+Howden;Tasmania;howden;howden;722;howden0;-43.027;147.293;45;955
+Dalyston;Victoria;dalyston;dalyston;721;dalyston0;-38.563;145.547;192;956
+Coolah;New South Wales;coolah;coolah;720;coolah0;-31.824;149.72;305;957
+Dunedoo;New South Wales;dunedoo;dunedoo;720;dunedoo0;-32.016;149.396;306;958
+Eildon;Victoria;eildon;eildon;719;eildon0;-37.235;145.911;193;959
+Gumeracha;South Australia;gumeracha;gumeracha;719;gumeracha0;-34.826;138.882;86;960
+Allansford;Victoria;allansford;allansford;718;allansford0;-38.386;142.591;194;961
+Violet Town;Victoria;violet_town;violet_town;718;violet_town0;-36.639;145.723;195;962
+Tieri;Queensland;tieri;tieri;717;tieri0;-23.038;148.345;229;963
+Bluewater;Queensland;bluewater;bluewater;715;bluewater0;-19.167;146.562;230;964
+Dalwallinu;Western Australia;dalwallinu;dalwallinu;713;dalwallinu0;-30.278;116.662;83;965
+Edenhope;Victoria;edenhope;edenhope;713;edenhope0;-37.036;141.296;196;966
+Texas;Queensland;texas;texas;711;texas0;-28.852;151.176;231;967
+Swansea;Tasmania;swansea;swansea;708;swansea0;-42.126;148.076;46;968
+Zeehan;Tasmania;zeehan;zeehan;707;zeehan0;-41.883;145.336;47;969
+Gapuwiyak;Northern Territory;gapuwiyak;gapuwiyak;705;gapuwiyak0;-12.504;135.812;20;970
+Badu Island;Queensland;badu_island;badu_island;704;badu_island0;-10.116;142.128;232;971
+Yanderra;New South Wales;yanderra;yanderra;702;yanderra0;-34.324;150.569;307;972
+Nunderi;New South Wales;nunderi;nunderi;701;nunderi0;-28.322;153.455;308;973
+Glengarry;Victoria;glengarry;glengarry;700;glengarry0;-38.125;146.574;197;974
+Clifton Grove;New South Wales;clifton_grove;clifton_grove;698;clifton_grove0;-33.244;149.151;309;975
+Roebourne;Western Australia;roebourne;roebourne;698;roebourne0;-20.775;117.147;84;976
+Putta Bucca - Bombira;New South Wales;putta_bucca;bombira;696;putta_bucca0;-32.573;149.597;310;977
+Seville East;Victoria;seville_east;seville_east;696;seville_east0;-37.775;145.496;198;978
+Lakewood Estate;New South Wales;lakewood_estate;lakewood_estate;695;lakewood_estate0;-36.453;148.633;311;979
+Deebing Heights;Queensland;deebing_heights;deebing_heights;694;deebing_heights0;-27.697;152.755;233;980
+Toorbul;Queensland;toorbul;toorbul;694;toorbul0;-27.033;153.098;234;981
+Cockatoo;South Australia;cockatoo;cockatoo;693;cockatoo0;-34.614;138.835;87;982
+Moriac;Victoria;moriac;moriac;693;moriac0;-38.241;144.173;199;983
+Marburg;Queensland;marburg;marburg;690;marburg0;-27.566;152.596;235;984
+Kaniva;Victoria;kaniva;kaniva;687;kaniva0;-36.378;141.237;200;985
+Killarney;Queensland;killarney;killarney;687;killarney0;-28.339;152.294;236;986
+South Arm;Tasmania;south_arm;south_arm;687;south_arm0;-43.028;147.417;48;987
+Mathoura;New South Wales;mathoura;mathoura;686;mathoura0;-35.813;144.903;312;988
+Minmi;New South Wales;minmi;minmi;686;minmi0;-32.887;151.613;313;989
+Pannawonica;Western Australia;pannawonica;pannawonica;685;pannawonica0;-21.644;116.327;85;990
+Glenorie;New South Wales;glenorie;glenorie;682;glenorie0;-33.599;151.009;314;991
+Numbulwar;Northern Territory;numbulwar;numbulwar;681;numbulwar0;-14.277;135.742;21;992
+Dunolly;Victoria;dunolly;dunolly;678;dunolly0;-36.86;143.732;201;993
+Killingworth;New South Wales;killingworth;killingworth;678;killingworth0;-32.935;151.561;315;994
+Boyland;Queensland;boyland;boyland;677;boyland0;-27.949;153.166;237;995
+Woodburn;New South Wales;woodburn;woodburn;677;woodburn0;-29.071;153.346;316;996
+Kinka Beach;Queensland;kinka_beach;kinka_beach;674;kinka_beach0;-23.224;150.797;238;997
+Repton;New South Wales;repton;repton;674;repton0;-30.439;153.022;317;998
+Birchip;Victoria;birchip;birchip;673;birchip0;-35.981;142.918;202;999
+Meekatharra;Western Australia;meekatharra;meekatharra;673;meekatharra0;-26.591;118.496;86;1000
+Sharon;Queensland;sharon;sharon;671;sharon0;-24.885;152.263;239;1001
+Lake Tabourie;New South Wales;lake_tabourie;lake_tabourie;670;lake_tabourie0;-35.444;150.398;318;1002
+Cressy;Tasmania;cressy;cressy;669;cressy0;-41.685;147.081;49;1003
+Boomerang Beach - Blueys Beach;New South Wales;boomerang_beach;blueys_beach;668;boomerang_beach0;-32.346;152.532;319;1004
+Yorketown;South Australia;yorketown;yorketown;667;yorketown0;-35.019;137.605;88;1005
+Glenore Grove;Queensland;glenore_grove;glenore_grove;666;glenore_grove0;-27.543;152.413;240;1006
+Wongarbon;New South Wales;wongarbon;wongarbon;665;wongarbon0;-32.329;148.767;320;1007
+Geeveston;Tasmania;geeveston;geeveston;664;geeveston0;-43.165;146.927;50;1008
+Lake Tyers Beach;Victoria;lake_tyers_beach;lake_tyers_beach;662;lake_tyers_beach0;-37.859;148.087;203;1009
+Wardell;New South Wales;wardell;wardell;662;wardell0;-28.953;153.464;321;1010
+Cunderdin;Western Australia;cunderdin;cunderdin;661;cunderdin0;-31.651;117.234;87;1011
+Willyaroo;South Australia;willyaroo;willyaroo;661;willyaroo0;-35.281;138.92;89;1012
+Coffin Bay;South Australia;coffin_bay;coffin_bay;660;coffin_bay0;-34.625;135.466;90;1013
+Hastings Point;New South Wales;hastings_point;hastings_point;660;hastings_point0;-28.362;153.576;322;1014
+Humpty Doo;Northern Territory;humpty_doo;humpty_doo;660;humpty_doo0;-12.577;131.095;22;1015
+Currie;Tasmania;currie;currie;659;currie0;-39.931;143.851;51;1016
+Forest Acres;Queensland;forest_acres;forest_acres;658;forest_acres0;-26.367;152.94;241;1017
+Nichols Point;Victoria;nichols_point;nichols_point;658;nichols_point0;-34.231;142.213;204;1018
+Yirrkala;Northern Territory;yirrkala;yirrkala;657;yirrkala0;-12.255;136.891;23;1019
+Lake Conjola;New South Wales;lake_conjola;lake_conjola;656;lake_conjola0;-35.269;150.493;323;1020
+Nabiac;New South Wales;nabiac;nabiac;656;nabiac0;-32.099;152.378;324;1021
+Newstead;Victoria;newstead;newstead;656;newstead0;-37.105;144.065;205;1022
+Menangle;New South Wales;menangle;menangle;654;menangle0;-34.13;150.739;325;1023
+Stuarts Point;New South Wales;stuarts_point;stuarts_point;654;stuarts_point0;-30.821;152.994;326;1024
+Lajamanu;Northern Territory;lajamanu;lajamanu;653;lajamanu0;-18.339;130.637;24;1025
+Port MacDonnell;South Australia;port_macdonnell;port_macdonnell;653;port_macdonnell0;-38.055;140.699;91;1026
+North Rothbury;New South Wales;north_rothbury;north_rothbury;652;north_rothbury0;-32.681;151.349;327;1027
+Wedderburn;Victoria;wedderburn;wedderburn;652;wedderburn0;-36.419;143.613;206;1028
+Yabulu;Queensland;yabulu;yabulu;652;yabulu0;-19.215;146.604;242;1029
+Wallaga Lake;New South Wales;wallaga_lake;wallaga_lake;651;wallaga_lake0;-36.383;150.071;328;1030
+Biggenden;Queensland;biggenden;biggenden;650;biggenden0;-25.511;152.046;243;1031
+Miniyerri;Northern Territory;miniyerri;miniyerri;650;miniyerri0;-15.227;134.083;25;1032
+Lanena - Blackwall;Tasmania;lanena;blackwall;646;lanena0;-41.311;146.968;52;1033
+Maryknoll;Victoria;maryknoll;maryknoll;646;maryknoll0;-38.034;145.604;207;1034
+Lower Chittering Valley;Western Australia;lower_chittering_valley;lower_chittering_valley;645;lower_chittering_valley0;-31.547;116.061;88;1035
+Gravelly Beach;Tasmania;gravelly_beach;gravelly_beach;641;gravelly_beach0;-41.292;146.975;53;1036
+Lethbridge;Victoria;lethbridge;lethbridge;641;lethbridge0;-37.963;144.136;208;1037
+Sloping Hummock;Queensland;sloping_hummock;sloping_hummock;640;sloping_hummock0;-24.843;152.425;244;1038
+Hanwood;New South Wales;hanwood;hanwood;639;hanwood0;-34.329;146.041;329;1039
+Scamander;Tasmania;scamander;scamander;639;scamander0;-41.458;148.263;54;1040
+Woodridge Estate;Western Australia;woodridge_estate;woodridge_estate;639;woodridge_estate0;-31.339;115.586;89;1041
+Strahan;Tasmania;strahan;strahan;634;strahan0;-42.155;145.325;55;1042
+Echunga;South Australia;echunga;echunga;631;echunga0;-35.104;138.796;92;1043
+Sulphur Creek;Tasmania;sulphur_creek;sulphur_creek;631;sulphur_creek0;-41.094;146.023;56;1044
+Birregurra;Victoria;birregurra;birregurra;628;birregurra0;-38.336;143.783;209;1045
+Bushfield - Woodford;Victoria;bushfield;woodford;626;bushfield0;-38.322;142.503;210;1046
+Briagolong;Victoria;briagolong;briagolong;625;briagolong0;-37.843;147.074;211;1047
+Mount Pleasant;South Australia;mount_pleasant;mt_pleasant;625;mount_pleasant0;-34.773;139.051;93;1048
+Orford;Tasmania;orford;orford;625;orford0;-42.553;147.876;57;1049
+Gladstone;South Australia;gladstone;gladstone;623;gladstone1;-33.265;138.356;94;1050
+Greendale;Victoria;greendale;greendale;622;greendale0;-37.563;144.305;212;1051
+Rylstone;New South Wales;rylstone;rylstone;622;rylstone0;-32.799;149.97;330;1052
+Kurrimine Beach;Queensland;kurrimine_beach;kurrimine_beach;621;kurrimine_beach0;-17.777;146.108;245;1053
+Hamley Bridge;South Australia;hamley_bridge;hamley_bridge;620;hamley_bridge0;-34.357;138.681;95;1054
+Clifton Beach;Tasmania;clifton_beach;clifton_beach;618;clifton_beach0;-42.988;147.528;58;1055
+Berrara - Cudmirrah;New South Wales;berrara;cudmirrah;617;berrara0;-35.206;150.55;331;1056
+Cannons Creek;Victoria;cannons_creek;cannons_creek;617;cannons_creek0;-38.213;145.315;213;1057
+Corrigin;Western Australia;corrigin;corrigin;617;corrigin0;-32.329;117.874;90;1058
+Pemberton;Western Australia;pemberton;pemberton;617;pemberton0;-34.445;116.035;91;1059
+Nebo;Queensland;nebo;nebo;615;nebo0;-21.693;148.692;246;1060
+Horseshoe Bay;Queensland;horseshoe_bay;horseshoe_bay;612;horseshoe_bay0;-19.119;146.861;247;1061
+Kings Point;New South Wales;kings_point;kings_point;609;kings_point0;-35.373;150.437;332;1062
+Campania;Tasmania;campania;campania;608;campania0;-42.664;147.421;59;1063
+Gordon;Victoria;gordon;gordon;607;gordon0;-37.581;144.104;214;1064
+Gunning;New South Wales;gunning;gunning;607;gunning0;-34.782;149.266;333;1065
+Eudunda;South Australia;eudunda;eudunda;606;eudunda0;-34.176;139.085;96;1066
+Lockhart River;Queensland;lockhart_river;lockhart_river;606;lockhart_river0;-12.788;143.345;248;1067
+Pormpuraaw;Queensland;pormpuraaw;pormpuraaw;606;pormpuraaw0;-14.903;141.617;249;1068
+Curlewis;New South Wales;curlewis;curlewis;605;curlewis0;-31.117;150.265;334;1069
+Pie Creek;Queensland;pie_creek;pie_creek;603;pie_creek0;-26.237;152.625;250;1070
+Santa Teresa;Northern Territory;santa_teresa;santa_teresa;603;santa_teresa0;-24.127;134.382;26;1071
+Aldershot;Queensland;aldershot;aldershot;602;aldershot0;-25.464;152.663;251;1072
+Blackbutt;Queensland;blackbutt;blackbutt;602;blackbutt0;-26.885;152.101;252;1073
+Kimba;South Australia;kimba;kimba;602;kimba0;-33.14;136.421;97;1074
+Electrona;Tasmania;electrona;electrona;601;electrona0;-43.054;147.257;60;1075
+Eugowra;New South Wales;eugowra;eugowra;601;eugowra0;-33.427;148.372;335;1076
+Prince Henry Heights;Queensland;prince_henry_heights;prince_henry_heights;600;prince_henry_heights0;-27.553;151.991;253;1077
+Cowan;New South Wales;cowan;cowan;599;cowan0;-33.589;151.171;336;1078
+New Berrima;New South Wales;new_berrima;new_berrima;598;new_berrima0;-34.507;150.332;337;1079
+Mareeba South;Queensland;mareeba_south;mareeba_south;597;mareeba_south0;-17.05;145.422;254;1080
+Leinster;Western Australia;leinster;leinster;596;leinster0;-27.916;120.699;92;1081
+Bidyadanga;Western Australia;bidyadanga;bidyadanga;593;bidyadanga0;-18.685;121.78;93;1082
+Ganmain;New South Wales;ganmain;ganmain;593;ganmain0;-34.795;147.039;338;1083
+Port Wakefield;South Australia;port_wakefield;port_wakefield;593;port_wakefield0;-34.185;138.149;98;1084
+Wooroowoolgan;New South Wales;wooroowoolgan;wooroowoolgan;593;wooroowoolgan0;-28.862;153.016;339;1085
+Burekup;Western Australia;burekup;burekup;591;burekup0;-33.313;115.815;94;1086
+Raymond Island;Victoria;raymond_island;raymond_island;589;raymond_island0;-37.909;147.751;215;1087
+Yinnar;Victoria;yinnar;yinnar;589;yinnar0;-38.322;146.328;216;1088
+Cardup;Western Australia;cardup;cardup;588;cardup0;-32.254;115.986;95;1089
+Coomba Park;New South Wales;coomba_park;coomba_park;586;coomba_park0;-32.241;152.472;340;1090
+Moonee Beach West;New South Wales;moonee_beach_west;moonee_beach_west;583;moonee_beach_west0;-30.192;153.137;341;1091
+Baradine;New South Wales;baradine;baradine;582;baradine0;-30.943;149.066;342;1092
+Burrum Heads East;Queensland;burrum_heads_east;burrum_heads_east;582;burrum_heads_east0;-25.211;152.633;255;1093
+Quairading;Western Australia;quairading;quairading;580;quairading0;-32.01;117.401;96;1094
+Daguragu - Kalkarindji;Northern Territory;daguragu;kalkarindji;579;daguragu0;-17.422;130.806;27;1095
+Beechmont;Queensland;beechmont;beechmont;578;beechmont0;-28.099;153.204;256;1096
+Cremorne;Tasmania;cremorne;cremorne;577;cremorne0;-42.957;147.533;61;1097
+Belimbla Park;New South Wales;belimbla_park;belimbla_park;576;belimbla_park0;-34.084;150.54;343;1098
+Mount Magnet;Western Australia;mount_magnet;mt_magnet;576;mount_magnet0;-28.063;117.849;97;1099
+Bruthen;Victoria;bruthen;bruthen;575;bruthen0;-37.708;147.831;217;1100
+Pinnaroo;South Australia;pinnaroo;pinnaroo;575;pinnaroo0;-35.26;140.909;99;1101
+Apple Tree Creek;Queensland;apple_tree_creek;apple_tree_creek;574;apple_tree_creek0;-25.215;152.234;257;1102
+Gnowangerup;Western Australia;gnowangerup;gnowangerup;573;gnowangerup0;-33.937;118.008;98;1103
+Barnawartha;Victoria;barnawartha;barnawartha;572;barnawartha0;-36.105;146.673;218;1104
+Strathmerton;Victoria;strathmerton;strathmerton;572;strathmerton0;-35.925;145.478;219;1105
+Taroom;Queensland;taroom;taroom;571;taroom0;-25.64;149.798;258;1106
+Poona;Queensland;poona;poona;570;poona0;-25.721;152.906;259;1107
+Howard Springs;Northern Territory;howard_springs;howard_springs;569;howard_springs0;-12.492;131.053;28;1108
+Wangan;Queensland;wangan;wangan;568;wangan0;-17.578;146.007;260;1109
+Werribee South;Victoria;werribee_south;werribee_south;568;werribee_south0;-37.972;144.688;220;1110
+Harcourt;Victoria;harcourt;harcourt;567;harcourt0;-36.999;144.263;221;1111
+Lameroo;South Australia;lameroo;lameroo;567;lameroo0;-35.329;140.518;100;1112
+Leonora;Western Australia;leonora;leonora;567;leonora0;-28.882;121.327;99;1113
+Coleambally;New South Wales;coleambally;coleambally;566;coleambally0;-34.806;145.883;344;1114
+Bruce Rock;Western Australia;bruce_rock;bruce_rock;564;bruce_rock0;-31.877;118.149;100;1115
+Wycheproof;Victoria;wycheproof;wycheproof;564;wycheproof0;-36.077;143.227;222;1116
+Louth Park;New South Wales;louth_park;louth_park;563;louth_park0;-32.776;151.556;345;1117
+Glenreagh;New South Wales;glenreagh;glenreagh;562;glenreagh0;-30.051;152.979;346;1118
+Clunes;New South Wales;clunes;clunes;560;clunes1;-28.73;153.406;347;1119
+Gooburrum;Queensland;gooburrum;gooburrum;560;gooburrum0;-24.817;152.346;261;1120
+Oatlands;Tasmania;oatlands;oatlands;560;oatlands0;-42.302;147.368;62;1121
+Brightview;Queensland;brightview;brightview;559;brightview0;-27.52;152.492;262;1122
+Greenmount;Queensland;greenmount;greenmount;559;greenmount0;-27.784;151.905;263;1123
+Sea Lake;Victoria;sea_lake;sea_lake;559;sea_lake0;-35.504;142.851;223;1124
+Cudgen;New South Wales;cudgen;cudgen;558;cudgen0;-28.262;153.559;348;1125
+Medlow Bath;New South Wales;medlow_bath;medlow_bath;556;medlow_bath0;-33.673;150.281;349;1126
+Burringbar;New South Wales;burringbar;burringbar;555;burringbar0;-28.434;153.471;350;1127
+Lindenow;Victoria;lindenow;lindenow;554;lindenow0;-37.8;147.458;224;1128
+Aratula;Queensland;aratula;aratula;553;aratula0;-27.981;152.549;264;1129
+Coutts Crossing;New South Wales;coutts_crossing;coutts_crossing;553;coutts_crossing0;-29.831;152.891;351;1130
+Norseman;Western Australia;norseman;norseman;552;norseman0;-32.198;121.779;101;1131
+Gerroa;New South Wales;gerroa;gerroa;551;gerroa0;-34.77;150.816;352;1132
+Hermannsburg;Northern Territory;hermannsburg;hermannsburg;551;hermannsburg0;-23.941;132.779;29;1133
+Dardanup;Western Australia;dardanup;dardanup;545;dardanup0;-33.398;115.757;102;1134
+Maianbar;New South Wales;maianbar;maianbar;543;maianbar0;-34.078;151.13;353;1135
+Warneet;Victoria;warneet;warneet;543;warneet0;-38.221;145.312;225;1136
+Wugular;Northern Territory;wugular;wugular;542;wugular0;-14.555;133.115;30;1137
+Wilcannia;New South Wales;wilcannia;wilcannia;541;wilcannia0;-31.559;143.378;354;1138
+Boyup Brook;Western Australia;boyup_brook;boyup_brook;540;boyup_brook0;-33.833;116.388;103;1139
+One Tree Hill;South Australia;one_tree_hill;one_tree_hill;540;one_tree_hill0;-34.719;138.765;101;1140
+Cape Burney;Western Australia;cape_burney;cape_burney;538;cape_burney0;-28.867;114.649;104;1141
+Nannup;Western Australia;nannup;nannup;538;nannup0;-33.979;115.764;105;1142
+Boolarra;Victoria;boolarra;boolarra;534;boolarra0;-38.379;146.275;226;1143
+Peachester;Queensland;peachester;peachester;534;peachester0;-26.846;152.885;265;1144
+Horn Island;Queensland;horn_island;horn_island;533;horn_island0;-10.594;142.285;266;1145
+Sunset Strip;Victoria;sunset_strip;sunset_strip;533;sunset_strip0;-38.492;145.263;227;1146
+Walla Walla;New South Wales;walla_walla;walla_walla;533;walla_walla0;-35.767;146.901;355;1147
+Brookton;Western Australia;brookton;brookton;532;brookton0;-32.368;117.01;106;1148
+Nyah West;Victoria;nyah_west;nyah_west;532;nyah_west0;-35.185;143.345;228;1149
+Beachport;South Australia;beachport;beachport;530;beachport0;-37.481;140.013;102;1150
+Boggabilla;New South Wales;boggabilla;boggabilla;529;boggabilla0;-28.605;150.36;356;1151
+Glendale;Queensland;glendale;glendale;529;glendale0;-23.25;150.475;267;1152
+Manildra;New South Wales;manildra;manildra;526;manildra0;-33.187;148.696;357;1153
+Modanville;New South Wales;modanville;modanville;526;modanville0;-28.72;153.295;358;1154
+Nar Nar Goon;Victoria;nar_nar_goon;nar_nar_goon;526;nar_nar_goon0;-38.081;145.57;229;1155
+Broadwater;New South Wales;broadwater;broadwater;524;broadwater0;-29.01;153.435;359;1156
+Goomeri;Queensland;goomeri;goomeri;524;goomeri0;-26.183;152.069;268;1157
+Cooya Beach;Queensland;cooya_beach;cooya_beach;523;cooya_beach0;-16.448;145.408;269;1158
+Green Point;New South Wales;green_point;green_point;522;green_point0;-32.248;152.517;360;1159
+Laura;South Australia;laura;laura;522;laura0;-33.185;138.301;103;1160
+Dover;Tasmania;dover;dover;521;dover0;-43.314;147.015;63;1161
+Southern Cross;Western Australia;southern_cross;southern_cross;520;southern_cross0;-31.232;119.328;107;1162
+Pukatja;South Australia;pukatja;pukatja;519;pukatja0;-26.282;132.135;104;1163
+Shoreham;Victoria;shoreham;shoreham;519;shoreham0;-38.428;145.044;230;1164
+Peppermint Grove Beach;Western Australia;peppermint_grove_beach;peppermint_grove_beach;518;peppermint_grove_beach0;-33.525;115.51;108;1165
+Rubyvale;Queensland;rubyvale;rubyvale;518;rubyvale0;-23.417;147.698;270;1166
+Sapphire;Queensland;sapphire;sapphire;518;sapphire0;-23.461;147.72;271;1167
+Waterfall;New South Wales;waterfall;waterfall;518;waterfall0;-34.135;150.995;361;1168
+Meeniyan;Victoria;meeniyan;meeniyan;516;meeniyan0;-38.578;146.015;231;1169
+Wudinna;South Australia;wudinna;wudinna;516;wudinna0;-33.047;135.46;105;1170
+Orroroo;South Australia;orroroo;orroroo;515;orroroo0;-32.734;138.614;106;1171
+Allanson;Western Australia;allanson;allanson;514;allanson0;-33.338;116.098;109;1172
+Kanmantoo;South Australia;kanmantoo;kanmantoo;514;kanmantoo0;-35.074;139.011;107;1173
+Seaforth;Queensland;seaforth;seaforth;514;seaforth0;-20.901;148.968;272;1174
+Dunoon;New South Wales;dunoon;dunoon;513;dunoon0;-28.682;153.319;362;1175
+Toongabbie;Victoria;toongabbie;toongabbie;513;toongabbie0;-38.062;146.631;232;1176
+Coominya;Queensland;coominya;coominya;512;coominya0;-27.391;152.502;273;1177
+Campwin Beach;Queensland;campwin_beach;campwin_beach;511;campwin_beach0;-21.373;149.315;274;1178
+Firgrove;New South Wales;firgrove;firgrove;511;firgrove0;-32.282;148.71;363;1179
+Hopetoun;Victoria;hopetoun;hopetoun;511;hopetoun1;-35.727;142.365;233;1180
+Low Head;Tasmania;low_head;low_head;511;low_head0;-41.066;146.801;64;1181
+Warburton;Western Australia;warburton;warburton;511;warburton1;-26.136;126.579;110;1182
+Dunkeld;Victoria;dunkeld;dunkeld;510;dunkeld0;-37.65;142.345;234;1183
+Golden Beach - Paradise Beach;Victoria;golden_beach;paradise_beach;510;golden_beach0;-38.205;147.398;235;1184
+Wingello;New South Wales;wingello;wingello;510;wingello0;-34.692;150.157;364;1185
+Lochinvar;New South Wales;lochinvar;lochinvar;508;lochinvar0;-32.699;151.455;365;1186
+Traralgon South;Victoria;traralgon_south;traralgon_south;507;traralgon_south0;-38.312;146.545;236;1187
+Houghton;South Australia;houghton;houghton;506;houghton0;-34.825;138.76;108;1188
+Cabarita;Victoria;cabarita;cabarita;504;cabarita0;-34.198;142.084;237;1189
+Stanley;Tasmania;stanley;stanley;504;stanley0;-40.763;145.295;65;1190
+Cape Schanck;Victoria;cape_schanck;cape_schanck;503;cape_schanck0;-38.465;144.9;238;1191
+Carrick;Tasmania;carrick;carrick;503;carrick0;-41.531;147.009;66;1192
+Gundaroo;New South Wales;gundaroo;gundaroo;503;gundaroo0;-35.02;149.267;366;1193
+Oxley;Victoria;oxley;oxley;503;oxley0;-36.444;146.383;239;1194
+Bagdad;Tasmania;bagdad;bagdad;501;bagdad0;-42.6;147.219;67;1195
+Lamb Island;Queensland;lamb_island;lamb_island;501;lamb_island0;-27.625;153.38;275;1196
+Nome;Queensland;nome;nome;501;nome0;-19.374;146.91;276;1197
+Cabbage Tree Point;Queensland;cabbage_tree_point;cabbage_tree_point;500;cabbage_tree_point0;-27.737;153.356;277;1198
+Donnybrook;Queensland;donnybrook;donnybrook;500;donnybrook1;-27.001;153.07;278;1199
+Euston;New South Wales;euston;euston;500;euston0;-34.575;142.745;367;1200
+Hallidays Point West;New South Wales;hallidays_point_west;hallidays_point_west;500;hallidays_point_west0;-32.071;152.505;368;1201
+Tintenbar;New South Wales;tintenbar;tintenbar;499;tintenbar0;-28.8;153.509;369;1202
+Wooli;New South Wales;wooli;wooli;499;wooli0;-29.86;153.264;370;1203
+Peak Crossing;Queensland;peak_crossing;peak_crossing;498;peak_crossing0;-27.782;152.73;279;1204
+Tamborine;Queensland;tamborine;tamborine;498;tamborine0;-27.875;153.115;280;1205
+Boonooroo - Tuan;Queensland;boonooroo;tuan;497;boonooroo0;-25.676;152.876;281;1206
+Edithburgh;South Australia;edithburgh;edithburgh;497;edithburgh0;-35.085;137.746;109;1207
+St Marys;Tasmania;st_marys;saint_marys;494;st_marys0;-41.58;148.184;68;1208
+Injinoo;Queensland;injinoo;injinoo;493;injinoo0;-10.901;142.33;282;1209
+Port Vincent;South Australia;port_vincent;port_vincent;493;port_vincent0;-34.78;137.859;110;1210
+Fishermans Paradise;New South Wales;fishermans_paradise;fishermans_paradise;491;fishermans_paradise0;-35.23;150.449;371;1211
+Marlo;Victoria;marlo;marlo;491;marlo0;-37.795;148.533;240;1212
+North Arm Cove;New South Wales;north_arm_cove;north_arm_cove;491;north_arm_cove0;-32.671;152.041;372;1213
+Penshurst;Victoria;penshurst;penshurst;491;penshurst0;-37.875;142.29;241;1214
+Wyalong;New South Wales;wyalong;wyalong;491;wyalong0;-33.922;147.241;373;1215
+Harrisville;Queensland;harrisville;harrisville;490;harrisville0;-27.811;152.668;283;1216
+Rainbow;Victoria;rainbow;rainbow;489;rainbow0;-35.896;141.997;242;1217
+Beerburrum;Queensland;beerburrum;beerburrum;487;beerburrum0;-26.956;152.958;284;1218
+Karumba;Queensland;karumba;karumba;487;karumba0;-17.484;140.84;285;1219
+Stanhope;Victoria;stanhope;stanhope;487;stanhope0;-36.447;144.987;243;1220
+Currarong;New South Wales;currarong;currarong;483;currarong0;-35.019;150.824;374;1221
+Enfield;Victoria;enfield;enfield;483;enfield0;-37.729;143.805;244;1222
+Stanwell Tops;New South Wales;stanwell_tops;stanwell_tops;483;stanwell_tops0;-34.221;150.976;375;1223
+Sisters Beach;Tasmania;sisters_beach;sisters_beach;481;sisters_beach0;-40.919;145.562;69;1224
+Stansbury;South Australia;stansbury;stansbury;480;stansbury0;-34.909;137.797;111;1225
+Callington;South Australia;callington;callington;479;callington0;-35.115;139.044;112;1226
+Cervantes;Western Australia;cervantes;cervantes;478;cervantes0;-30.504;115.07;111;1227
+Glenden;Queensland;glenden;glenden;478;glenden0;-21.356;148.115;286;1228
+Lake Grace;Western Australia;lake_grace;lake_grace;478;lake_grace0;-33.102;118.464;112;1229
+Pyalong;Victoria;pyalong;pyalong;478;pyalong0;-37.119;144.859;245;1230
+Mount Julian;Queensland;mount_julian;mt_julian;477;mount_julian0;-20.374;148.62;287;1231
+Pyramid Hill;Victoria;pyramid_hill;pyramid_hill;477;pyramid_hill0;-36.055;144.115;246;1232
+Tully Heads;Queensland;tully_heads;tully_heads;477;tully_heads0;-18.017;146.058;288;1233
+Bonville East;New South Wales;bonville_east;bonville_east;476;bonville_east0;-30.379;153.034;376;1234
+Captains Flat;New South Wales;captains_flat;captains_flat;473;captains_flat0;-35.591;149.446;377;1235
+Balgo;Western Australia;balgo;balgo;472;balgo0;-20.145;127.982;113;1236
+Tiaro;Queensland;tiaro;tiaro;472;tiaro0;-25.733;152.583;289;1237
+Wilmington;South Australia;wilmington;wilmington;472;wilmington0;-32.649;138.097;113;1238
+Skipton;Victoria;skipton;skipton;469;skipton0;-37.686;143.365;247;1239
+South Pambula;New South Wales;south_pambula;south_pambula;469;south_pambula0;-36.947;149.847;378;1240
+Ashford;New South Wales;ashford;ashford;467;ashford0;-29.321;151.096;379;1241
+Imbil;Queensland;imbil;imbil;467;imbil0;-26.46;152.677;290;1242
+Red Hill South;Victoria;red_hill_south;red_hill_south;466;red_hill_south0;-38.382;145.023;248;1243
+Dareton;New South Wales;dareton;dareton;464;dareton0;-34.095;142.042;380;1244
+Goomalling;Western Australia;goomalling;goomalling;463;goomalling0;-31.299;116.827;114;1245
+Wolumla;New South Wales;wolumla;wolumla;462;wolumla0;-36.832;149.811;381;1246
+Geurie;New South Wales;geurie;geurie;460;geurie0;-32.399;148.829;382;1247
+Warmun;Western Australia;warmun;warmun;457;warmun0;-17.027;128.222;115;1248
+Luddenham;New South Wales;luddenham;luddenham;456;luddenham0;-33.88;150.691;383;1249
+Nangwarry;South Australia;nangwarry;nangwarry;456;nangwarry0;-37.544;140.814;114;1250
+Newhaven;Victoria;newhaven;newhaven;455;newhaven0;-38.515;145.358;249;1251
+Hillwood;Tasmania;hillwood;hillwood;454;hillwood0;-41.238;146.995;70;1252
+Merrigum;Victoria;merrigum;merrigum;454;merrigum0;-36.369;145.132;250;1253
+Moonbi;New South Wales;moonbi;moonbi;454;moonbi0;-31.018;151.071;384;1254
+Kilcunda;Victoria;kilcunda;kilcunda;453;kilcunda0;-38.549;145.475;251;1255
+Marysville;Victoria;marysville;marysville;453;marysville0;-37.51;145.747;252;1256
+Richmond;Queensland;richmond;richmond;453;richmond1;-20.729;143.141;291;1257
+Quilpie;Queensland;quilpie;quilpie;451;quilpie0;-26.613;144.267;292;1258
+Theodore;Queensland;theodore;theodore;451;theodore0;-24.946;150.076;293;1259
+Bickley;Western Australia;bickley;bickley;449;bickley0;-32.003;116.09;116;1260
+Mooney Mooney;New South Wales;mooney_mooney;mooney_mooney;448;mooney_mooney0;-33.528;151.198;385;1261
+Exeter;Tasmania;exeter;exeter;446;exeter0;-41.3;146.953;71;1262
+Lord Howe Island;New South Wales;lord_howe_island;lord_howe_island;445;lord_howe_island0;-31.552;159.081;386;1263
+Wooroloo;Western Australia;wooroloo;wooroloo;445;wooroloo0;-31.8;116.318;117;1264
+Franklin;Tasmania;franklin;franklin;444;franklin0;-43.09;147.011;72;1265
+Myponga;South Australia;myponga;myponga;443;myponga0;-35.394;138.463;115;1266
+Blyth;South Australia;blyth;blyth;442;blyth0;-33.846;138.49;116;1267
+Nimbin;New South Wales;nimbin;nimbin;442;nimbin0;-28.597;153.223;387;1268
+Tingha;New South Wales;tingha;tingha;442;tingha0;-29.956;151.212;388;1269
+Hyland Park;New South Wales;hyland_park;hyland_park;440;hyland_park0;-30.613;153.002;389;1270
+Morawa;Western Australia;morawa;morawa;440;morawa0;-29.211;116.009;118;1271
+Ampilatwatja;Northern Territory;ampilatwatja;ampilatwatja;439;ampilatwatja0;-21.658;135.222;31;1272
+Wallangarra;Queensland;wallangarra;wallangarra;439;wallangarra0;-28.923;151.93;294;1273
+Caniaba;New South Wales;caniaba;caniaba;438;caniaba0;-28.825;153.211;390;1274
+Papunya;Northern Territory;papunya;papunya;438;papunya0;-23.207;131.917;32;1275
+Kenthurst;New South Wales;kenthurst;kenthurst;436;kenthurst0;-33.663;151.002;391;1276
+Cookernup;Western Australia;cookernup;cookernup;435;cookernup0;-32.997;115.894;119;1277
+South Johnstone;Queensland;south_johnstone;south_johnstone;435;south_johnstone0;-17.599;145.995;295;1278
+Wasleys;South Australia;wasleys;wasleys;435;wasleys0;-34.473;138.682;117;1279
+Yungngora;Western Australia;yungngora;yungngora;434;yungngora0;-18.505;124.825;120;1280
+Seaham;New South Wales;seaham;seaham;433;seaham0;-32.664;151.726;392;1281
+Toora;Victoria;toora;toora;432;toora0;-38.662;146.327;253;1282
+Warruwi;Northern Territory;warruwi;warruwi;432;warruwi0;-11.657;133.379;33;1283
+Kaltukatjara;Northern Territory;kaltukatjara;kaltukatjara;431;kaltukatjara0;-24.86;129.122;34;1284
+Lucinda;Queensland;lucinda;lucinda;431;lucinda0;-18.526;146.333;296;1285
+Yanco;New South Wales;yanco;yanco;431;yanco0;-34.603;146.41;393;1286
+Burrum Heads South;Queensland;burrum_heads_south;burrum_heads_south;430;burrum_heads_south0;-25.238;152.592;297;1287
+Coopernook;New South Wales;coopernook;coopernook;430;coopernook0;-31.826;152.61;394;1288
+Mount Nebo;Queensland;mount_nebo;mt_nebo;430;mount_nebo0;-27.397;152.784;298;1289
+Kilkivan;Queensland;kilkivan;kilkivan;429;kilkivan0;-26.085;152.237;299;1290
+Eidsvold;Queensland;eidsvold;eidsvold;428;eidsvold0;-25.372;151.123;300;1291
+Amity Point;Queensland;amity_point;amity_point;425;amity_point0;-27.396;153.44;301;1292
+Collarenebri;New South Wales;collarenebri;collarenebri;425;collarenebri0;-29.546;148.577;395;1293
+Mapoon;Queensland;mapoon;mapoon;425;mapoon0;-12.009;141.896;302;1294
+Ilparpa;Northern Territory;ilparpa;ilparpa;424;ilparpa0;-23.755;133.82;35;1295
+Minyip;Victoria;minyip;minyip;424;minyip0;-36.461;142.586;254;1296
+Williams;Western Australia;williams;williams;424;williams0;-33.027;116.879;121;1297
+Erakala;Queensland;erakala;erakala;423;erakala0;-21.125;149.108;303;1298
+Linton;Victoria;linton;linton;423;linton0;-37.686;143.563;255;1299
+Narembeen;Western Australia;narembeen;narembeen;423;narembeen0;-32.061;118.392;122;1300
+Kendenup;Western Australia;kendenup;kendenup;422;kendenup0;-34.485;117.619;123;1301
+Wagait Beach - Mandorah;Northern Territory;wagait_beach;mandorah;422;wagait_beach0;-12.435;130.748;36;1302
+Natimuk;Victoria;natimuk;natimuk;421;natimuk0;-36.742;141.942;256;1303
+Wimbledon Heights;Victoria;wimbledon_heights;wimbledon_heights;421;wimbledon_heights0;-38.48;145.234;257;1304
+Walungurru;Northern Territory;walungurru;walungurru;420;walungurru0;-23.276;129.389;37;1305
+Exeter;New South Wales;exeter;exeter;419;exeter1;-34.613;150.317;396;1306
+Umbakumba;Northern Territory;umbakumba;umbakumba;419;umbakumba0;-13.865;136.797;38;1307
+Wooloweyah;New South Wales;wooloweyah;wooloweyah;419;wooloweyah0;-29.483;153.342;397;1308
+Forest Hill;Queensland;forest_hill;forest_hill;418;forest_hill1;-27.59;152.357;304;1309
+Tylden;Victoria;tylden;tylden;418;tylden0;-37.325;144.406;258;1310
+Ulmarra;New South Wales;ulmarra;ulmarra;418;ulmarra0;-29.631;153.028;398;1311
+Cobargo;New South Wales;cobargo;cobargo;417;cobargo0;-36.388;149.888;399;1312
+Djarindjin - Lombadina;Western Australia;djarindjin;lombadina;417;djarindjin0;-16.519;122.897;124;1313
+Kersbrook;South Australia;kersbrook;kersbrook;417;kersbrook0;-34.783;138.856;118;1314
+Wandoan;Queensland;wandoan;wandoan;417;wandoan0;-26.121;149.961;305;1315
+Yarramundi;New South Wales;yarramundi;yarramundi;416;yarramundi0;-33.634;150.663;400;1316
+Arthurs Seat;Victoria;arthurs_seat;arthurs_seat;414;arthurs_seat0;-38.363;144.96;259;1317
+Milikapiti;Northern Territory;milikapiti;milikapiti;414;milikapiti0;-11.421;130.643;39;1318
+Looma;Western Australia;looma;looma;412;looma0;-18.058;124.131;125;1319
+Meredith;Victoria;meredith;meredith;412;meredith0;-37.846;144.077;260;1320
+Tangambalanga;Victoria;tangambalanga;tangambalanga;412;tangambalanga0;-36.252;147.031;261;1321
+Bonville;New South Wales;bonville;bonville;411;bonville0;-30.37;153.023;401;1322
+Orchard Hills;New South Wales;orchard_hills;orchard_hills;411;orchard_hills0;-33.796;150.743;402;1323
+Walligan;Queensland;walligan;walligan;411;walligan0;-25.354;152.767;306;1324
+Agnes Banks;New South Wales;agnes_banks;agnes_banks;410;agnes_banks0;-33.613;150.716;403;1325
+Kettering;Tasmania;kettering;kettering;408;kettering0;-43.13;147.248;73;1326
+Maloneys Beach;New South Wales;maloneys_beach;maloneys_beach;408;maloneys_beach0;-35.708;150.248;404;1327
+Laverton;Western Australia;laverton;laverton;407;laverton0;-28.626;122.406;126;1328
+Mer Island;Queensland;mer_island;mer_island;406;mer_island0;-9.917;144.051;307;1329
+Bundalong;Victoria;bundalong;bundalong;405;bundalong0;-36.031;146.169;262;1330
+Dales Creek;Victoria;dales_creek;dales_creek;403;dales_creek0;-37.519;144.31;263;1331
+Surat;Queensland;surat;surat;402;surat0;-27.153;149.07;308;1332
+Carmel;Western Australia;carmel;carmel;401;carmel0;-32.02;116.095;127;1333
+Ridgley;Tasmania;ridgley;ridgley;401;ridgley0;-41.149;145.835;74;1334
+Binnaway;New South Wales;binnaway;binnaway;400;binnaway0;-31.552;149.378;405;1335
+Thredbo Village;New South Wales;thredbo_village;thredbo_village;400;thredbo_village0;-36.501;148.308;406;1336
+Gilgai;New South Wales;gilgai;gilgai;399;gilgai0;-29.852;151.117;407;1337
+Forth;Tasmania;forth;forth;398;forth0;-41.19;146.251;75;1338
+New Mapoon;Queensland;new_mapoon;new_mapoon;398;new_mapoon0;-10.871;142.382;309;1339
+South Bingera;Queensland;south_bingera;south_bingera;398;south_bingera0;-24.968;152.22;310;1340
+Springton;South Australia;springton;springton;398;springton0;-34.709;139.089;119;1341
+Saddleworth;South Australia;saddleworth;saddleworth;397;saddleworth0;-34.084;138.782;120;1342
+Truro;South Australia;truro;truro;396;truro0;-34.409;139.127;121;1343
+Flying Fish Point;Queensland;flying_fish_point;flying_fish_point;395;flying_fish_point0;-17.502;146.076;311;1344
+Herne Hill;Western Australia;herne_hill;herne_hill;395;herne_hill0;-31.827;116.02;128;1345
+Lockington;Victoria;lockington;lockington;395;lockington0;-36.272;144.536;264;1346
+Ali Curung;Northern Territory;ali_curung;ali_curung;394;ali_curung0;-21;134.394;40;1347
+Umagico;Queensland;umagico;umagico;394;umagico0;-10.889;142.35;312;1348
+Amata;South Australia;amata;amata;393;amata0;-26.157;131.145;122;1349
+Bellbridge;Victoria;bellbridge;bellbridge;393;bellbridge0;-36.098;147.06;265;1350
+Bracknell;Tasmania;bracknell;bracknell;392;bracknell0;-41.652;146.938;76;1351
+Eaglehawk Neck;Tasmania;eaglehawk_neck;eaglehawk_neck;391;eaglehawk_neck0;-43.014;147.925;77;1352
+Mourilyan;Queensland;mourilyan;mourilyan;391;mourilyan0;-17.583;146.04;313;1353
+Boston;South Australia;boston;boston;390;boston0;-34.681;135.847;123;1354
+Halifax;Queensland;halifax;halifax;390;halifax0;-18.581;146.286;314;1355
+Hideaway Bay - Dingo Beach;Queensland;hideaway_bay;dingo_beach;390;hideaway_bay0;-20.077;148.481;315;1356
+Candelo;New South Wales;candelo;candelo;389;candelo0;-36.767;149.695;408;1357
+Coramba;New South Wales;coramba;coramba;389;coramba0;-30.223;153.016;409;1358
+Poowong;Victoria;poowong;poowong;389;poowong0;-38.343;145.765;266;1359
+Kalumburu;Western Australia;kalumburu;kalumburu;388;kalumburu0;-14.295;126.641;129;1360
+Tomerong;New South Wales;tomerong;tomerong;388;tomerong0;-35.052;150.587;410;1361
+Clayton Bay;South Australia;clayton_bay;clayton_bay;386;clayton_bay0;-35.491;138.919;124;1362
+Darnum;Victoria;darnum;darnum;386;darnum0;-38.188;146.005;267;1363
+Don Valley;Victoria;don_valley;don_valley;386;don_valley0;-37.757;145.588;268;1364
+Miriam Vale;Queensland;miriam_vale;miriam_vale;385;miriam_vale0;-24.329;151.561;316;1365
+Saunders Beach;Queensland;saunders_beach;saunders_beach;385;saunders_beach0;-19.157;146.604;317;1366
+St Andrews;Victoria;st_andrews;saint_andrews;385;st_andrews0;-37.603;145.27;269;1367
+Bauple Forest;Queensland;bauple_forest;bauple_forest;384;bauple_forest0;-25.852;152.637;318;1368
+Cuballing;Western Australia;cuballing;cuballing;384;cuballing0;-32.818;117.18;130;1369
+Opossum Bay;Tasmania;opossum_bay;opossum_bay;383;opossum_bay0;-42.994;147.403;78;1370
+Picnic Bay;Queensland;picnic_bay;picnic_bay;383;picnic_bay0;-19.175;146.837;319;1371
+Tumbulgum;New South Wales;tumbulgum;tumbulgum;382;tumbulgum0;-28.274;153.461;411;1372
+Blackwood;Victoria;blackwood;blackwood;381;blackwood0;-37.472;144.306;270;1373
+Menindee;New South Wales;menindee;menindee;380;menindee0;-32.392;142.418;412;1374
+Bothwell;Tasmania;bothwell;bothwell;379;bothwell0;-42.382;147.006;79;1375
+Julia Creek;Queensland;julia_creek;julia_creek;377;julia_creek0;-20.657;141.746;320;1376
+Bundarra;New South Wales;bundarra;bundarra;374;bundarra0;-30.171;151.076;413;1377
+Hinton;New South Wales;hinton;hinton;374;hinton0;-32.717;151.651;414;1378
+Batchelor;Northern Territory;batchelor;batchelor;371;batchelor0;-13.051;131.031;41;1379
+Kempton;Tasmania;kempton;kempton;371;kempton0;-42.53;147.2;80;1380
+Woollamia;New South Wales;woollamia;woollamia;371;woollamia0;-35.017;150.652;415;1381
+Auburn;South Australia;auburn;auburn;370;auburn0;-34.024;138.685;125;1382
+Bullsbrook West;Western Australia;bullsbrook_west;bullsbrook_west;370;bullsbrook_west0;-31.67;116.001;131;1383
+Bell;Queensland;bell;bell;369;bell0;-26.933;151.449;321;1384
+Bingil Bay;Queensland;bingil_bay;bingil_bay;367;bingil_bay0;-17.833;146.095;322;1385
+Picton West;New South Wales;picton_west;picton_west;367;picton_west0;-34.168;150.569;416;1386
+The Caves;Queensland;the_caves;the_caves;367;the_caves0;-23.18;150.465;323;1387
+Dimbulah;Queensland;dimbulah;dimbulah;366;dimbulah0;-17.149;145.111;324;1388
+Kitchener;New South Wales;kitchener;kitchener;366;kitchener0;-32.88;151.367;417;1389
+Mulbring;New South Wales;mulbring;mulbring;366;mulbring0;-32.9;151.483;418;1390
+Balmoral;New South Wales;balmoral;balmoral;365;balmoral0;-34.31;150.522;419;1391
+Hat Head;New South Wales;hat_head;hat_head;365;hat_head0;-31.054;153.05;420;1392
+North Shore;New South Wales;north_shore;north_shore;365;north_shore0;-31.406;152.91;421;1393
+Wurdong Heights;Queensland;wurdong_heights;wurdong_heights;365;wurdong_heights0;-23.984;151.303;325;1394
+Dirranbandi;Queensland;dirranbandi;dirranbandi;364;dirranbandi0;-28.586;148.228;326;1395
+Nganmarriyanga;Northern Territory;nganmarriyanga;nganmarriyanga;364;nganmarriyanga0;-14.347;129.878;42;1396
+Oakwood;Queensland;oakwood;oakwood;364;oakwood0;-24.85;152.296;327;1397
+Halls Gap;Victoria;halls_gap;halls_gap;363;halls_gap0;-37.141;142.519;271;1398
+Sarina Beach;Queensland;sarina_beach;sarina_beach;363;sarina_beach0;-21.386;149.313;328;1399
+Awaba;New South Wales;awaba;awaba;362;awaba0;-33.008;151.543;422;1400
+Nubeena;Tasmania;nubeena;nubeena;362;nubeena0;-43.099;147.742;81;1401
+Perthville;New South Wales;perthville;perthville;362;perthville0;-33.486;149.547;423;1402
+Wandiligong;Victoria;wandiligong;wandiligong;362;wandiligong0;-36.762;146.983;272;1403
+Greenbushes;Western Australia;greenbushes;greenbushes;361;greenbushes0;-33.849;116.059;132;1404
+Cordalba;Queensland;cordalba;cordalba;358;cordalba0;-25.159;152.212;329;1405
+Dowerin;Western Australia;dowerin;dowerin;357;dowerin0;-31.196;117.032;133;1406
+Snowtown;South Australia;snowtown;snowtown;356;snowtown0;-33.781;138.215;126;1407
+Three Springs;Western Australia;three_springs;three_springs;356;three_springs0;-29.533;115.762;134;1408
+Glenrowan;Victoria;glenrowan;glenrowan;355;glenrowan0;-36.464;146.223;273;1409
+Ravensthorpe;Western Australia;ravensthorpe;ravensthorpe;355;ravensthorpe0;-33.582;120.045;135;1410
+Toolamba;Victoria;toolamba;toolamba;355;toolamba0;-36.49;145.341;274;1411
+Bulla;Victoria;bulla;bulla;354;bulla0;-37.638;144.806;275;1412
+Harrietville;Victoria;harrietville;harrietville;354;harrietville0;-36.892;147.064;276;1413
+Placid Hills;Queensland;placid_hills;placid_hills;354;placid_hills0;-27.558;152.251;330;1414
+Rupanyup;Victoria;rupanyup;rupanyup;353;rupanyup0;-36.63;142.631;277;1415
+Alligator Creek;Queensland;alligator_creek;alligator_creek;352;alligator_creek0;-19.425;146.947;331;1416
+Ardlethan;New South Wales;ardlethan;ardlethan;352;ardlethan0;-34.357;146.903;424;1417
+Lansdowne;New South Wales;lansdowne;lansdowne;352;lansdowne0;-31.783;152.535;425;1418
+Gulargambone;New South Wales;gulargambone;gulargambone;351;gulargambone0;-31.33;148.471;426;1419
+Leeman;Western Australia;leeman;leeman;351;leeman0;-29.945;114.98;136;1420
+Yarloop;Western Australia;yarloop;yarloop;351;yarloop0;-32.956;115.899;137;1421
+Alpurrurulam;Northern Territory;alpurrurulam;alpurrurulam;350;alpurrurulam0;-20.984;137.851;43;1422
+Fingal;Tasmania;fingal;fingal;350;fingal0;-41.639;147.967;82;1423
+Nauiyu Nambiyu;Northern Territory;nauiyu_nambiyu;nauiyu_nambiyu;350;nauiyu_nambiyu0;-13.743;130.696;44;1424
+Beerburrum North;Queensland;beerburrum_north;beerburrum_north;349;beerburrum_north0;-26.936;152.957;332;1425
+Port Albert;Victoria;port_albert;port_albert;349;port_albert0;-38.672;146.693;278;1426
+San Isidore;New South Wales;san_isidore;san_isidore;349;san_isidore0;-35.126;147.292;427;1427
+Axedale;Victoria;axedale;axedale;348;axedale0;-36.788;144.504;279;1428
+Mungindi;New South Wales;mungindi;mungindi;348;mungindi0;-28.978;148.988;428;1429
+Tungamah;Victoria;tungamah;tungamah;348;tungamah0;-36.164;145.878;280;1430
+Buln Buln;Victoria;buln_buln;buln_buln;347;buln_buln0;-38.098;145.942;281;1431
+Keppel Sands;Queensland;keppel_sands;keppel_sands;346;keppel_sands0;-23.326;150.791;333;1432
+Whitton;New South Wales;whitton;whitton;346;whitton0;-34.515;146.182;429;1433
+Paterson;New South Wales;paterson;paterson;345;paterson0;-32.599;151.618;430;1434
+Bridgewater;Victoria;bridgewater;bridgewater;341;bridgewater0;-36.604;143.94;282;1435
+Saibai Island;Queensland;saibai_island;saibai_island;340;saibai_island0;-9.405;142.692;334;1436
+Heybridge;Tasmania;heybridge;heybridge;339;heybridge0;-41.081;145.986;83;1437
+Moulamein;New South Wales;moulamein;moulamein;339;moulamein0;-35.089;144.037;431;1438
+Indulkana;South Australia;indulkana;indulkana;338;indulkana0;-26.969;133.315;127;1439
+Barunga;Northern Territory;barunga;barunga;337;barunga0;-14.519;132.882;45;1440
+Karoonda;South Australia;karoonda;karoonda;337;karoonda0;-35.096;139.893;128;1441
+Boreen Point;Queensland;boreen_point;boreen_point;336;boreen_point0;-26.286;152.994;335;1442
+Mylestom;New South Wales;mylestom;mylestom;336;mylestom0;-30.465;153.043;432;1443
+Walpole;Western Australia;walpole;walpole;336;walpole0;-34.976;116.73;138;1444
+Trundle;New South Wales;trundle;trundle;335;trundle0;-32.923;147.71;433;1445
+Goolgowi;New South Wales;goolgowi;goolgowi;334;goolgowi0;-33.974;145.708;434;1446
+Haliday Bay - Ball Bay;Queensland;haliday_bay;ball_bay;334;haliday_bay0;-20.896;148.987;336;1447
+Elliston;South Australia;elliston;elliston;333;elliston0;-33.65;134.888;129;1448
+Mount Buller;Victoria;mount_buller;mt_buller;333;mount_buller0;-37.146;146.449;283;1449
+Snake Valley;Victoria;snake_valley;snake_valley;333;snake_valley0;-37.612;143.585;284;1450
+Tynong;Victoria;tynong;tynong;333;tynong0;-38.085;145.625;285;1451
+Dwellingup;Western Australia;dwellingup;dwellingup;332;dwellingup0;-32.714;116.062;139;1452
+Hazeldene;Victoria;hazeldene;hazeldene;332;hazeldene0;-37.371;145.273;286;1453
+Torbanlea;Queensland;torbanlea;torbanlea;331;torbanlea0;-25.347;152.597;337;1454
+Glenrowan North;Victoria;glenrowan_north;glenrowan_north;330;glenrowan_north0;-36.431;146.238;287;1455
+Tarpeena;South Australia;tarpeena;tarpeena;329;tarpeena0;-37.627;140.796;130;1456
+Augathella;Queensland;augathella;augathella;328;augathella0;-25.795;146.587;338;1457
+Mataranka;Northern Territory;mataranka;mataranka;327;mataranka0;-14.923;133.067;46;1458
+Point Turton;South Australia;point_turton;point_turton;327;point_turton0;-34.942;137.353;131;1459
+Woodstock;New South Wales;woodstock;woodstock;327;woodstock0;-33.745;148.848;435;1460
+Erub Island;Queensland;erub_island;erub_island;326;erub_island0;-9.587;143.771;339;1461
+Goornong;Victoria;goornong;goornong;326;goornong0;-36.615;144.506;288;1462
+Jeparit;Victoria;jeparit;jeparit;326;jeparit0;-36.141;141.987;289;1463
+Morgan;South Australia;morgan;morgan;326;morgan0;-34.036;139.672;132;1464
+Bardi;Western Australia;bardi;bardi;325;bardi0;-16.449;123.052;140;1465
+Mount Burr;South Australia;mount_burr;mt_burr;324;mount_burr0;-37.542;140.456;133;1466
+Mount Torrens;South Australia;mount_torrens;mt_torrens;324;mount_torrens0;-34.876;138.959;134;1467
+Mundulla;South Australia;mundulla;mundulla;324;mundulla0;-36.364;140.696;135;1468
+Bemboka;New South Wales;bemboka;bemboka;322;bemboka0;-36.63;149.573;436;1469
+Mount Egerton;Victoria;mount_egerton;mt_egerton;322;mount_egerton0;-37.63;144.106;290;1470
+Tawonga;Victoria;tawonga;tawonga;322;tawonga0;-36.686;147.14;291;1471
+Falls Creek;Victoria;falls_creek;falls_creek;321;falls_creek0;-36.863;147.279;292;1472
+Lismore;Victoria;lismore;lismore;321;lismore1;-37.954;143.344;293;1473
+Otford;New South Wales;otford;otford;321;otford0;-34.213;151.003;437;1474
+Port Victoria;South Australia;port_victoria;port_victoria;321;port_victoria0;-34.496;137.483;136;1475
+South Durras;New South Wales;south_durras;south_durras;319;south_durras0;-35.655;150.29;438;1476
+Pine Creek;Northern Territory;pine_creek;pine_creek;318;pine_creek0;-13.823;131.835;47;1477
+Charleston;South Australia;charleston;charleston;317;charleston0;-34.916;138.905;137;1478
+Cudal;New South Wales;cudal;cudal;317;cudal0;-33.287;148.739;439;1479
+Meringandan;Queensland;meringandan;meringandan;317;meringandan0;-27.427;151.914;340;1480
+Pirlangimpi;Northern Territory;pirlangimpi;pirlangimpi;317;pirlangimpi0;-11.392;130.422;48;1481
+Dilston;Tasmania;dilston;dilston;316;dilston0;-41.328;147.057;84;1482
+Kangaroo Valley;New South Wales;kangaroo_valley;kangaroo_valley;316;kangaroo_valley0;-34.738;150.536;440;1483
+Deepwater;New South Wales;deepwater;deepwater;315;deepwater0;-29.442;151.847;441;1484
+Smiths Beach;Victoria;smiths_beach;smiths_beach;315;smiths_beach0;-38.501;145.256;294;1485
+Carnamah;Western Australia;carnamah;carnamah;314;carnamah0;-29.688;115.886;141;1486
+Millaa Millaa;Queensland;millaa_millaa;millaa_millaa;314;millaa_millaa0;-17.511;145.611;341;1487
+Nundle;New South Wales;nundle;nundle;314;nundle0;-31.463;151.127;442;1488
+Dangar Island;New South Wales;dangar_island;dangar_island;313;dangar_island0;-33.539;151.242;443;1489
+Grasstree Beach;Queensland;grasstree_beach;grasstree_beach;313;grasstree_beach0;-21.365;149.307;342;1490
+Newell;Queensland;newell;newell;313;newell0;-16.424;145.407;343;1491
+Mullewa;Western Australia;mullewa;mullewa;312;mullewa0;-28.539;115.512;142;1492
+Southbrook;Queensland;southbrook;southbrook;311;southbrook0;-27.675;151.714;344;1493
+Kiewa;Victoria;kiewa;kiewa;310;kiewa0;-36.258;147.007;295;1494
+Bayulu;Western Australia;bayulu;bayulu;308;bayulu0;-18.3;125.599;143;1495
+Tapitallee;New South Wales;tapitallee;tapitallee;308;tapitallee0;-34.836;150.543;444;1496
+Attunga;New South Wales;attunga;attunga;307;attunga0;-30.931;150.848;445;1497
+Beagle Bay;Western Australia;beagle_bay;beagle_bay;307;beagle_bay0;-16.984;122.665;144;1498
+Cungulla;Queensland;cungulla;cungulla;307;cungulla0;-19.402;147.111;345;1499
+Gresford;New South Wales;gresford;gresford;307;gresford0;-32.427;151.543;446;1500
+Lilydale;Tasmania;lilydale;lilydale;307;lilydale0;-41.25;147.217;85;1501
+Pallamallawa;New South Wales;pallamallawa;pallamallawa;305;pallamallawa0;-29.475;150.137;447;1502
+White Beach;Tasmania;white_beach;white_beach;305;white_beach0;-43.114;147.749;86;1503
+Dunalley;Tasmania;dunalley;dunalley;304;dunalley0;-42.89;147.807;87;1504
+Spring Hill;New South Wales;spring_hill;spring_hill;304;spring_hill0;-33.399;149.152;448;1505
+Wyalkatchem;Western Australia;wyalkatchem;wyalkatchem;304;wyalkatchem0;-31.181;117.382;145;1506
+Beelbangera;New South Wales;beelbangera;beelbangera;303;beelbangera0;-34.257;146.1;449;1507
+Farleigh;Queensland;farleigh;farleigh;303;farleigh0;-21.102;149.103;346;1508
+Gunbower;Victoria;gunbower;gunbower;303;gunbower0;-35.956;144.369;296;1509
+Binalong;New South Wales;binalong;binalong;302;binalong0;-34.671;148.628;450;1510
+Fairy Hill;New South Wales;fairy_hill;fairy_hill;302;fairy_hill0;-28.791;153.002;451;1511
+Yalata;South Australia;yalata;yalata;302;yalata0;-31.482;131.839;138;1512
+Injune;Queensland;injune;injune;301;injune0;-25.843;148.566;347;1513
+Swan Point;Tasmania;swan_point;swan_point;300;swan_point0;-41.261;146.964;88;1514
+Woorinen South;Victoria;woorinen_south;woorinen_south;300;woorinen_south0;-35.291;143.452;297;1515
+Hall;Australian Capital Territory / ACT;hall;hall;298;hall0;-35.169;149.069;2;1516
+Marrangaroo;New South Wales;marrangaroo;marrangaroo;297;marrangaroo0;-33.456;150.114;452;1517
+Taylors Beach;Queensland;taylors_beach;taylors_beach;297;taylors_beach0;-18.625;146.327;348;1518
+Emmaville;New South Wales;emmaville;emmaville;296;emmaville0;-29.444;151.599;453;1519
+Eton;Queensland;eton;eton;296;eton0;-21.263;148.975;349;1520
+Mutitjulu;Northern Territory;mutitjulu;mutitjulu;296;mutitjulu0;-25.351;131.067;49;1521
+Walkamin;Queensland;walkamin;walkamin;295;walkamin0;-17.149;145.44;350;1522
+Kulin;Western Australia;kulin;kulin;294;kulin0;-32.667;118.163;146;1523
+Green Head;Western Australia;green_head;green_head;293;green_head0;-30.064;114.969;147;1524
+Seisia;Queensland;seisia;seisia;293;seisia0;-10.851;142.371;351;1525
+Little River;Victoria;little_river;little_river;292;little_river0;-37.964;144.501;298;1526
+Seahampton;New South Wales;seahampton;seahampton;292;seahampton0;-32.884;151.584;454;1527
+Southend;South Australia;southend;southend;292;southend0;-37.571;140.121;139;1528
+Springbrook;Queensland;springbrook;springbrook;292;springbrook0;-28.188;153.264;352;1529
+Taralga;New South Wales;taralga;taralga;292;taralga0;-34.406;149.819;455;1530
+Conjola Park;New South Wales;conjola_park;conjola_park;291;conjola_park0;-35.259;150.439;456;1531
+Napperby;South Australia;napperby;napperby;291;napperby0;-33.154;138.117;140;1532
+Ross;Tasmania;ross;ross;291;ross0;-42.029;147.493;89;1533
+Bowning;New South Wales;bowning;bowning;290;bowning0;-34.767;148.812;457;1534
+Tinaroo;Queensland;tinaroo;tinaroo;290;tinaroo0;-17.171;145.547;353;1535
+Jigalong;Western Australia;jigalong;jigalong;289;jigalong0;-23.357;120.781;148;1536
+Cranbrook;Western Australia;cranbrook;cranbrook;288;cranbrook0;-34.296;117.553;149;1537
+Lucindale;South Australia;lucindale;lucindale;288;lucindale0;-36.973;140.367;141;1538
+Tarraganda;New South Wales;tarraganda;tarraganda;288;tarraganda0;-36.668;149.867;458;1539
+Elliott;Northern Territory;elliott;elliott;287;elliott0;-17.555;133.544;50;1540
+Kalangadoo;South Australia;kalangadoo;kalangadoo;287;kalangadoo0;-37.562;140.701;142;1541
+Warraber Island;Queensland;warraber_island;warraber_island;287;warraber_island0;-10.208;142.823;354;1542
+Riverside;New South Wales;riverside;riverside;285;riverside0;-31.406;152.875;459;1543
+Willow Grove;Victoria;willow_grove;willow_grove;285;willow_grove0;-38.072;146.178;299;1544
+Woodenbong;New South Wales;woodenbong;woodenbong;285;woodenbong0;-28.391;152.612;460;1545
+Arcadia Downs;Victoria;arcadia_downs;arcadia_downs;284;arcadia_downs0;-36.44;145.357;300;1546
+Kioloa;New South Wales;kioloa;kioloa;284;kioloa0;-35.559;150.377;461;1547
+Mukinbudin;Western Australia;mukinbudin;mukinbudin;284;mukinbudin0;-30.915;118.208;150;1548
+Sutton;New South Wales;sutton;sutton;284;sutton0;-35.165;149.254;462;1549
+Tambo;Queensland;tambo;tambo;283;tambo0;-24.884;146.253;355;1550
+Yarralin;Northern Territory;yarralin;yarralin;283;yarralin0;-16.453;130.842;51;1551
+Yorke Island;Queensland;yorke_island;yorke_island;283;yorke_island0;-9.752;143.408;356;1552
+Couridjah;New South Wales;couridjah;couridjah;282;couridjah0;-34.234;150.548;463;1553
+Port Germein;South Australia;port_germein;port_germein;282;port_germein0;-33.02;138;143;1554
+Red Rock;New South Wales;red_rock;red_rock;282;red_rock0;-29.983;153.229;464;1555
+Bodalla;New South Wales;bodalla;bodalla;281;bodalla0;-36.091;150.052;465;1556
+Delungra;New South Wales;delungra;delungra;281;delungra0;-29.652;150.831;466;1557
+Proston;Queensland;proston;proston;281;proston0;-26.163;151.602;357;1558
+Rawson;Victoria;rawson;rawson;281;rawson0;-37.957;146.399;301;1559
+Tambellup;Western Australia;tambellup;tambellup;281;tambellup0;-34.043;117.641;151;1560
+American River;South Australia;american_river;american_river;280;american_river0;-35.773;137.78;144;1561
+Ashley;New South Wales;ashley;ashley;280;ashley0;-29.318;149.808;467;1562
+Balingup;Western Australia;balingup;balingup;280;balingup0;-33.785;115.988;152;1563
+Coen;Queensland;coen;coen;279;coen0;-13.947;143.199;358;1564
+Pindimar;New South Wales;pindimar;pindimar;279;pindimar0;-32.684;152.098;468;1565
+Bonalbo;New South Wales;bonalbo;bonalbo;278;bonalbo0;-28.736;152.623;469;1566
+St Pauls;Queensland;st_pauls;saint_pauls;278;st_pauls0;-10.184;142.32;359;1567
+Timber Creek;Northern Territory;timber_creek;timber_creek;278;timber_creek0;-15.643;130.47;52;1568
+Allendale East;South Australia;allendale_east;allendale_east;277;allendale_east0;-38.002;140.709;145;1569
+Gawler;Tasmania;gawler;gawler;277;gawler1;-41.183;146.161;90;1570
+Mimili;South Australia;mimili;mimili;277;mimili0;-27.01;132.703;146;1571
+Tintinara;South Australia;tintinara;tintinara;277;tintinara0;-35.882;140.054;147;1572
+Barellan;New South Wales;barellan;barellan;276;barellan0;-34.284;146.571;470;1573
+Wujal Wujal;Queensland;wujal_wujal;wujal_wujal;276;wujal_wujal0;-15.947;145.318;360;1574
+Iama Island;Queensland;iama_island;iama_island;275;iama_island0;-9.901;142.775;361;1575
+Mendooran;New South Wales;mendooran;mendooran;275;mendooran0;-31.822;149.118;471;1576
+Nilma;Victoria;nilma;nilma;274;nilma0;-38.171;145.968;302;1577
+Swan Reach;South Australia;swan_reach;swan_reach;274;swan_reach0;-34.568;139.598;148;1578
+Eldorado;Victoria;eldorado;eldorado;273;eldorado0;-36.309;146.523;303;1579
+Koorawatha;New South Wales;koorawatha;koorawatha;273;koorawatha0;-34.04;148.554;472;1580
+Kurmond;New South Wales;kurmond;kurmond;273;kurmond0;-33.551;150.69;473;1581
+Linden;New South Wales;linden;linden;273;linden0;-33.711;150.496;474;1582
+Ariah Park;New South Wales;ariah_park;ariah_park;272;ariah_park0;-34.348;147.221;475;1583
+Giru;Queensland;giru;giru;272;giru0;-19.514;147.107;362;1584
+Kenilworth;Queensland;kenilworth;kenilworth;272;kenilworth0;-26.591;152.728;363;1585
+Learmonth;Victoria;learmonth;learmonth;272;learmonth0;-37.42;143.713;304;1586
+Marengo;Victoria;marengo;marengo;272;marengo0;-38.778;143.656;305;1587
+Talbot;Victoria;talbot;talbot;271;talbot0;-37.169;143.695;306;1588
+Burrawang;New South Wales;burrawang;burrawang;270;burrawang0;-34.594;150.518;476;1589
+Milawa;Victoria;milawa;milawa;270;milawa0;-36.45;146.431;307;1590
+Mullaquana;South Australia;mullaquana;mullaquana;270;mullaquana0;-33.058;137.546;149;1591
+Nyah;Victoria;nyah;nyah;270;nyah0;-35.171;143.379;308;1592
+Trebonne;Queensland;trebonne;trebonne;270;trebonne0;-18.628;146.077;364;1593
+Penneshaw;South Australia;penneshaw;penneshaw;269;penneshaw0;-35.718;137.937;150;1594
+Tomago;New South Wales;tomago;tomago;269;tomago0;-32.821;151.738;477;1595
+Coconuts;Queensland;coconuts;coconuts;268;coconuts0;-17.506;146.063;365;1596
+Elizabeth Beach;New South Wales;elizabeth_beach;elizabeth_beach;268;elizabeth_beach0;-32.319;152.528;478;1597
+Scottville;Queensland;scottville;scottville;268;scottville0;-20.572;147.819;366;1598
+Lennox Head West;New South Wales;lennox_head_west;lennox_head_west;267;lennox_head_west0;-28.782;153.576;479;1599
+Booleroo Centre;South Australia;booleroo_centre;booleroo_centre;266;booleroo_centre0;-32.881;138.352;151;1600
+Wickepin;Western Australia;wickepin;wickepin;266;wickepin0;-32.782;117.5;153;1601
+Jerramungup;Western Australia;jerramungup;jerramungup;265;jerramungup0;-33.951;118.916;154;1602
+Minjilang;Northern Territory;minjilang;minjilang;265;minjilang0;-11.147;132.575;53;1603
+Jilkminggan;Northern Territory;jilkminggan;jilkminggan;263;jilkminggan0;-14.956;133.304;54;1604
+Tottenham;New South Wales;tottenham;tottenham;263;tottenham0;-32.244;147.356;480;1605
+Cumnock;New South Wales;cumnock;cumnock;261;cumnock0;-32.928;148.755;481;1606
+Hammond Island;Queensland;hammond_island;hammond_island;261;hammond_island0;-10.55;142.206;367;1607
+Kaltjiti;South Australia;kaltjiti;kaltjiti;261;kaltjiti0;-26.763;132.028;152;1608
+Andamooka Opal Fields;South Australia;andamooka_opal_fields;andamooka_opal_fields;260;andamooka_opal_fields0;-30.454;137.165;153;1609
+Baralaba;Queensland;baralaba;baralaba;260;baralaba0;-24.181;149.811;368;1610
+Dookie;Victoria;dookie;dookie;260;dookie0;-36.328;145.686;309;1611
+Alpha;Queensland;alpha;alpha;259;alpha0;-23.65;146.641;369;1612
+Falls Creek;New South Wales;falls_creek;falls_creek;258;falls_creek1;-34.994;150.587;482;1613
+Adaminaby;New South Wales;adaminaby;adaminaby;257;adaminaby0;-35.997;148.77;483;1614
+Lockrose;Queensland;lockrose;lockrose;257;lockrose0;-27.494;152.458;370;1615
+Abernethy;New South Wales;abernethy;abernethy;255;abernethy0;-32.883;151.395;484;1616
+Berrima;New South Wales;berrima;berrima;255;berrima0;-34.49;150.336;485;1617
+Bulman - Weemol;Northern Territory;bulman;weemol;255;bulman0;-13.665;134.333;55;1618
+Katandra West;Victoria;katandra_west;katandra_west;255;katandra_west0;-36.226;145.559;310;1619
+Lyndhurst;New South Wales;lyndhurst;lyndhurst;254;lyndhurst0;-33.672;149.039;486;1620
+Sandy Point;Victoria;sandy_point;sandy_point;254;sandy_point0;-38.829;146.123;311;1621
+Thangool;Queensland;thangool;thangool;254;thangool0;-24.487;150.576;371;1622
+Mabuiag Island;Queensland;mabuiag_island;mabuiag_island;253;mabuiag_island0;-9.955;142.183;372;1623
+Mount Garnet;Queensland;mount_garnet;mt_garnet;253;mount_garnet0;-17.676;145.114;373;1624
+Tucabia;New South Wales;tucabia;tucabia;253;tucabia0;-29.665;153.108;487;1625
+Bilbul;New South Wales;bilbul;bilbul;251;bilbul0;-34.273;146.138;488;1626
+Nyirripi;Northern Territory;nyirripi;nyirripi;251;nyirripi0;-22.652;130.569;56;1627
+Owen;South Australia;owen;owen;251;owen0;-34.27;138.546;154;1628
+Finch Hatton;Queensland;finch_hatton;finch_hatton;250;finch_hatton0;-21.142;148.632;374;1629
+Leitchville;Victoria;leitchville;leitchville;250;leitchville0;-35.904;144.301;312;1630
+Mount Perry;Queensland;mount_perry;mt_perry;250;mount_perry0;-25.182;151.645;375;1631
+Nimmitabel;New South Wales;nimmitabel;nimmitabel;250;nimmitabel0;-36.511;149.285;489;1632
+Maaroom;Queensland;maaroom;maaroom;249;maaroom0;-25.611;152.872;376;1633
+Mingenew;Western Australia;mingenew;mingenew;249;mingenew0;-29.19;115.442;155;1634
+Mogo;New South Wales;mogo;mogo;249;mogo0;-35.784;150.142;490;1635
+Arcadia Bay;Queensland;arcadia_bay;arcadia_bay;248;arcadia_bay0;-19.151;146.864;377;1636
+Brooms Head;New South Wales;brooms_head;brooms_head;248;brooms_head0;-29.605;153.333;491;1637
+Urana;New South Wales;urana;urana;248;urana0;-35.329;146.266;492;1638
+Binalong Bay;Tasmania;binalong_bay;binalong_bay;247;binalong_bay0;-41.252;148.307;91;1639
+Blanchetown;South Australia;blanchetown;blanchetown;247;blanchetown0;-34.352;139.614;155;1640
+Cargo;New South Wales;cargo;cargo;246;cargo0;-33.424;148.809;493;1641
+Khancoban;New South Wales;khancoban;khancoban;246;khancoban0;-36.215;148.123;494;1642
+Coral Bay;Western Australia;coral_bay;coral_bay;245;coral_bay0;-23.143;113.771;156;1643
+El Arish;Queensland;el_arish;el_arish;245;el_arish0;-17.81;146.004;378;1644
+Nelligen;New South Wales;nelligen;nelligen;245;nelligen0;-35.647;150.141;495;1645
+Tallygaroopna;Victoria;tallygaroopna;tallygaroopna;245;tallygaroopna0;-36.239;145.436;313;1646
+Dartmoor;Victoria;dartmoor;dartmoor;244;dartmoor0;-37.923;141.275;314;1647
+Tarzali;Queensland;tarzali;tarzali;244;tarzali0;-17.421;145.608;379;1648
+Adelaide River;Northern Territory;adelaide_river;adelaide_river;243;adelaide_river0;-13.239;131.105;57;1649
+Buxton;Victoria;buxton;buxton;243;buxton1;-37.423;145.709;315;1650
+North Dandalup;Western Australia;north_dandalup;north_dandalup;242;north_dandalup0;-32.519;115.971;157;1651
+Omeo;Victoria;omeo;omeo;242;omeo0;-37.099;147.594;316;1652
+Gunyangara;Northern Territory;gunyangara;gunyangara;241;gunyangara0;-12.222;136.703;58;1653
+Binjari;Northern Territory;binjari;binjari;240;binjari0;-14.55;132.184;59;1654
+Guildford;Victoria;guildford;guildford;240;guildford0;-37.149;144.166;317;1655
+Karragarra Island;Queensland;karragarra_island;karragarra_island;240;karragarra_island0;-27.639;153.373;380;1656
+Katamatite;Victoria;katamatite;katamatite;240;katamatite0;-36.078;145.689;318;1657
+Willaura;Victoria;willaura;willaura;240;willaura0;-37.549;142.737;319;1658
+Wiluna;Western Australia;wiluna;wiluna;240;wiluna0;-26.592;120.225;158;1659
+Cecil Plains;Queensland;cecil_plains;cecil_plains;238;cecil_plains0;-27.53;151.191;381;1660
+Dumbleyung;Western Australia;dumbleyung;dumbleyung;238;dumbleyung0;-33.315;117.74;159;1661
+Mount Larcom;Queensland;mount_larcom;mt_larcom;238;mount_larcom0;-23.811;150.98;382;1662
+Areyonga;Northern Territory;areyonga;areyonga;236;areyonga0;-24.072;132.268;60;1663
+Tooleybuc;New South Wales;tooleybuc;tooleybuc;236;tooleybuc0;-35.028;143.338;496;1664
+Point Samson;Western Australia;point_samson;point_samson;235;point_samson0;-20.631;117.195;160;1665
+Waratah;Tasmania;waratah;waratah;235;waratah0;-41.444;145.532;92;1666
+Kandanga;Queensland;kandanga;kandanga;234;kandanga0;-26.387;152.678;383;1667
+Sawmill Settlement;Victoria;sawmill_settlement;sawmill_settlement;234;sawmill_settlement0;-37.108;146.358;320;1668
+Murphys Creek;Queensland;murphys_creek;murphys_creek;233;murphys_creek0;-27.461;152.049;384;1669
+Nana Glen;New South Wales;nana_glen;nana_glen;233;nana_glen0;-30.132;153.018;497;1670
+Broke;New South Wales;broke;broke;231;broke0;-32.751;151.103;498;1671
+Port Campbell;Victoria;port_campbell;port_campbell;231;port_campbell0;-38.619;142.996;321;1672
+Wangkatjungka;Western Australia;wangkatjungka;wangkatjungka;231;wangkatjungka0;-18.893;125.928;161;1673
+Amoonguna;Northern Territory;amoonguna;amoonguna;229;amoonguna0;-23.76;133.935;61;1674
+Bluff;Queensland;bluff;bluff;229;bluff0;-23.582;149.069;385;1675
+Clarenza;New South Wales;clarenza;clarenza;229;clarenza0;-29.722;152.967;499;1676
+Bute;South Australia;bute;bute;228;bute0;-33.864;138.008;156;1677
+Manning Point;New South Wales;manning_point;manning_point;228;manning_point0;-31.895;152.662;500;1678
+Merinda;Queensland;merinda;merinda;228;merinda0;-20.018;148.165;386;1679
+Nahrunda;Queensland;nahrunda;nahrunda;227;nahrunda0;-26.201;152.611;387;1680
+Parham;South Australia;parham;parham;227;parham0;-34.437;138.262;157;1681
+Ungarie;New South Wales;ungarie;ungarie;227;ungarie0;-33.639;146.975;501;1682
+Aramac;Queensland;aramac;aramac;226;aramac0;-22.972;145.245;388;1683
+Hawker;South Australia;hawker;hawker;226;hawker0;-31.888;138.422;158;1684
+Kondinin;Western Australia;kondinin;kondinin;226;kondinin0;-32.495;118.268;162;1685
+Tantanoola;South Australia;tantanoola;tantanoola;226;tantanoola0;-37.696;140.458;159;1686
+Coobowie;South Australia;coobowie;coobowie;222;coobowie0;-35.044;137.732;160;1687
+Georgetown;Queensland;georgetown;georgetown;222;georgetown0;-18.292;143.55;389;1688
+Gowrie Mountain;Queensland;gowrie_mountain;gowrie_mountain;222;gowrie_mountain0;-27.515;151.822;390;1689
+Kialla West;Victoria;kialla_west;kialla_west;222;kialla_west0;-36.465;145.386;322;1690
+Willowra;Northern Territory;willowra;willowra;222;willowra0;-21.245;132.617;62;1691
+Wonga Park South;Victoria;wonga_park_south;wonga_park_south;222;wonga_park_south0;-37.751;145.269;323;1692
+Yelarbon;Queensland;yelarbon;yelarbon;222;yelarbon0;-28.575;150.753;391;1693
+Midge Point;Queensland;midge_point;midge_point;221;midge_point0;-20.649;148.718;392;1694
+Mirriwinni;Queensland;mirriwinni;mirriwinni;221;mirriwinni0;-17.399;145.909;393;1695
+Wunghnu;Victoria;wunghnu;wunghnu;221;wunghnu0;-36.155;145.432;324;1696
+Yeoval;New South Wales;yeoval;yeoval;221;yeoval0;-32.752;148.649;502;1697
+Myrniong;Victoria;myrniong;myrniong;220;myrniong0;-37.62;144.35;325;1698
+Shepparton East;Victoria;shepparton_east;shepparton_east;220;shepparton_east0;-36.399;145.478;326;1699
+Arno Bay;South Australia;arno_bay;arno_bay;219;arno_bay0;-33.912;136.568;161;1700
+Boulia;Queensland;boulia;boulia;218;boulia0;-22.91;139.907;394;1701
+Coolup;Western Australia;coolup;coolup;218;coolup0;-32.741;115.875;163;1702
+Toolakea;Queensland;toolakea;toolakea;218;toolakea0;-19.146;146.582;395;1703
+Tullamore;New South Wales;tullamore;tullamore;218;tullamore0;-32.631;147.564;503;1704
+Urbenville;New South Wales;urbenville;urbenville;218;urbenville0;-28.473;152.548;504;1705
+Beeac;Victoria;beeac;beeac;217;beeac0;-38.194;143.64;327;1706
+Waterford Park;Victoria;waterford_park;waterford_park;217;waterford_park0;-37.301;145.067;328;1707
+Mole Creek;Tasmania;mole_creek;mole_creek;216;mole_creek0;-41.556;146.401;93;1708
+Wallabadah;New South Wales;wallabadah;wallabadah;216;wallabadah0;-31.534;150.821;505;1709
+Ladysmith;New South Wales;ladysmith;ladysmith;215;ladysmith0;-35.208;147.517;506;1710
+Murrayville;Victoria;murrayville;murrayville;214;murrayville0;-35.262;141.183;329;1711
+Koorda;Western Australia;koorda;koorda;213;koorda0;-30.825;117.482;164;1712
+Barmedman;New South Wales;barmedman;barmedman;212;barmedman0;-34.145;147.387;507;1713
+Powelltown;Victoria;powelltown;powelltown;212;powelltown0;-37.864;145.754;330;1714
+Talbingo;New South Wales;talbingo;talbingo;212;talbingo0;-35.582;148.303;508;1715
+Bremer Bay;Western Australia;bremer_bay;bremer_bay;211;bremer_bay0;-34.392;119.381;165;1716
+Broomehill Village;Western Australia;broomehill_village;broomehill_village;211;broomehill_village0;-33.85;117.64;166;1717
+Patonga;New South Wales;patonga;patonga;211;patonga0;-33.551;151.271;509;1718
+Silkwood;Queensland;silkwood;silkwood;211;silkwood0;-17.748;146.024;396;1719
+Uki;New South Wales;uki;uki;211;uki0;-28.414;153.337;510;1720
+Yahl;South Australia;yahl;yahl;211;yahl0;-37.874;140.831;162;1721
+Telegraph Point;New South Wales;telegraph_point;telegraph_point;210;telegraph_point0;-31.326;152.79;511;1722
+Goroke;Victoria;goroke;goroke;208;goroke0;-36.718;141.473;331;1723
+Moyhu;Victoria;moyhu;moyhu;208;moyhu0;-36.578;146.378;332;1724
+Fish Creek;Victoria;fish_creek;fish_creek;207;fish_creek0;-38.693;146.084;333;1725
+Menangle Park;New South Wales;menangle_park;menangle_park;207;menangle_park0;-34.104;150.744;512;1726
+Noorat;Victoria;noorat;noorat;207;noorat0;-38.191;142.93;334;1727
+Stockinbingal;New South Wales;stockinbingal;stockinbingal;207;stockinbingal0;-34.5;147.879;513;1728
+Tallarook;Victoria;tallarook;tallarook;207;tallarook0;-37.094;145.103;335;1729
+Tarcutta;New South Wales;tarcutta;tarcutta;206;tarcutta0;-35.276;147.739;514;1730
+Tyalgum;New South Wales;tyalgum;tyalgum;206;tyalgum0;-28.357;153.207;515;1731
+Wirrabara;South Australia;wirrabara;wirrabara;206;wirrabara0;-33.031;138.267;163;1732
+Panton Hill;Victoria;panton_hill;panton_hill;205;panton_hill0;-37.642;145.24;336;1733
+Atitjere;Northern Territory;atitjere;atitjere;204;atitjere0;-22.984;134.922;63;1734
+Macarthur;Victoria;macarthur;macarthur;204;macarthur0;-38.034;142.001;337;1735
+Grantham;Queensland;grantham;grantham;202;grantham0;-27.575;152.205;397;1736
+Mindibungu;Western Australia;mindibungu;mindibungu;202;mindibungu0;-19.564;127.667;167;1737
+Nemingha;New South Wales;nemingha;nemingha;202;nemingha0;-31.124;150.99;516;1738
+Delegate;New South Wales;delegate;delegate;201;delegate0;-37.044;148.942;517;1739
+Boigu Island;Queensland;boigu_island;boigu_island;199;boigu_island0;-9.266;142.216;398;1740
+Wallumbilla;Queensland;wallumbilla;wallumbilla;199;wallumbilla0;-26.587;149.186;399;1741
+Bethanga;Victoria;bethanga;bethanga;198;bethanga0;-36.12;147.095;338;1742
+Cobdogla;South Australia;cobdogla;cobdogla;197;cobdogla0;-34.245;140.401;164;1743
+Oaklands;New South Wales;oaklands;oaklands;196;oaklands0;-35.558;146.168;518;1744
+Titjikala;Northern Territory;titjikala;titjikala;196;titjikala0;-24.677;134.075;64;1745
+Tullah;Tasmania;tullah;tullah;196;tullah0;-41.738;145.619;94;1746
+Bonny Hills West;New South Wales;bonny_hills_west;bonny_hills_west;194;bonny_hills_west0;-31.573;152.817;519;1747
+Darkan;Western Australia;darkan;darkan;194;darkan0;-33.339;116.733;168;1748
+Spalding;South Australia;spalding;spalding;194;spalding0;-33.5;138.609;165;1749
+Thargomindah;Queensland;thargomindah;thargomindah;194;thargomindah0;-27.996;143.82;400;1750
+Warooka;South Australia;warooka;warooka;194;warooka0;-34.99;137.399;166;1751
+Clarendon;South Australia;clarendon;clarendon;193;clarendon0;-35.109;138.629;167;1752
+Coonalpyn;South Australia;coonalpyn;coonalpyn;193;coonalpyn0;-35.696;139.857;168;1753
+Manangatang;Victoria;manangatang;manangatang;193;manangatang0;-35.055;142.883;339;1754
+Toomulla;Queensland;toomulla;toomulla;193;toomulla0;-19.081;146.469;401;1755
+Angourie;New South Wales;angourie;angourie;192;angourie0;-29.479;153.355;520;1756
+Derrinallum;Victoria;derrinallum;derrinallum;192;derrinallum0;-37.948;143.22;340;1757
+Duaringa;Queensland;duaringa;duaringa;192;duaringa0;-23.715;149.673;402;1758
+Apatula;Northern Territory;apatula;apatula;191;apatula0;-25.582;134.578;65;1759
+Rainbow Flat;New South Wales;rainbow_flat;rainbow_flat;191;rainbow_flat0;-32.003;152.477;521;1760
+Laramba;Northern Territory;laramba;laramba;189;laramba0;-22.534;132.753;66;1761
+Yangan;Queensland;yangan;yangan;189;yangan0;-28.196;152.21;403;1762
+Minnie Water;New South Wales;minnie_water;minnie_water;187;minnie_water0;-29.777;153.298;522;1763
+Toomelah;New South Wales;toomelah;toomelah;187;toomelah0;-28.667;150.475;523;1764
+Tyers;Victoria;tyers;tyers;187;tyers0;-38.149;146.481;341;1765
+Underbool;Victoria;underbool;underbool;187;underbool0;-35.17;141.809;342;1766
+Collinsvale;Tasmania;collinsvale;collinsvale;186;collinsvale0;-42.843;147.189;95;1767
+Oak Beach;Queensland;oak_beach;oak_beach;186;oak_beach0;-16.59;145.514;404;1768
+Warakurna;Western Australia;warakurna;warakurna;185;warakurna0;-24.997;128.284;169;1769
+Kalamia Estate;Queensland;kalamia_estate;kalamia_estate;180;kalamia_estate0;-19.532;147.42;405;1770
+Kiwirrkurra;Western Australia;kiwirrkurra;kiwirrkurra;180;kiwirrkurra0;-22.828;127.758;170;1771
+Robinson River;Northern Territory;robinson_river;robinson_river;180;robinson_river0;-16.759;136.983;67;1772
+Carmoo;Queensland;carmoo;carmoo;179;carmoo0;-17.947;146.046;406;1773
+Goodooga;New South Wales;goodooga;goodooga;179;goodooga0;-29.113;147.452;524;1774
+Quambatook;Victoria;quambatook;quambatook;179;quambatook0;-35.849;143.521;343;1775
+Branxholm;Tasmania;branxholm;branxholm;177;branxholm0;-41.168;147.739;96;1776
+Maydena;Tasmania;maydena;maydena;177;maydena0;-42.756;146.624;97;1777
+Perenjori;Western Australia;perenjori;perenjori;176;perenjori0;-29.443;116.288;171;1778
+Dublin;South Australia;dublin;dublin;175;dublin0;-34.452;138.352;169;1779
+Alva Beach;Queensland;alva_beach;alva_beach;171;alva_beach0;-19.457;147.479;407;1780
+Woolsthorpe;Victoria;woolsthorpe;woolsthorpe;168;woolsthorpe0;-38.185;142.431;344;1781
+Burketown;Queensland;burketown;burketown;167;burketown0;-17.742;139.548;408;1782
+Rottnest Island;Western Australia;rottnest_island;rottnest_island;166;rottnest_island0;-31.995;115.54;172;1783
+Ivanhoe;New South Wales;ivanhoe;ivanhoe;162;ivanhoe0;-32.9;144.3;525;1784
+Papulankutja;Western Australia;papulankutja;papulankutja;162;papulankutja0;-25.991;128.279;173;1785
+Smoky Bay;South Australia;smoky_bay;smoky_bay;162;smoky_bay0;-32.376;133.938;170;1786
+Carcoar;New South Wales;carcoar;carcoar;161;carcoar0;-33.61;149.141;526;1787
+Guilderton;Western Australia;guilderton;guilderton;158;guilderton0;-31.34;115.518;174;1788
+Port Neill;South Australia;port_neill;port_neill;154;port_neill0;-34.121;136.348;171;1789
+Marble Bar;Western Australia;marble_bar;marble_bar;153;marble_bar0;-21.171;119.744;175;1790
+Camooweal;Queensland;camooweal;camooweal;152;camooweal0;-19.922;138.119;409;1791
+Bramston Beach;Queensland;bramston_beach;bramston_beach;150;bramston_beach0;-17.35;146.021;410;1792
+Chillagoe;Queensland;chillagoe;chillagoe;150;chillagoe0;-17.154;144.523;411;1793
+Yuelamu;Northern Territory;yuelamu;yuelamu;149;yuelamu0;-22.257;132.205;68;1794
+Canteen Creek;Northern Territory;canteen_creek;canteen_creek;147;canteen_creek0;-20.64;135.587;69;1795
+Nullagine;Western Australia;nullagine;nullagine;147;nullagine0;-21.89;120.107;176;1796
+Tammin;Western Australia;tammin;tammin;146;tammin0;-31.643;117.487;177;1797
+Wutunugurra;Northern Territory;wutunugurra;wutunugurra;143;wutunugurra0;-20.462;135.25;70;1798
+Cue;Western Australia;cue;cue;135;cue0;-27.423;117.899;178;1799
+Woomera;South Australia;woomera;woomera;132;woomera0;-31.199;136.825;172;1800
+Dauan Island;Queensland;dauan_island;dauan_island;131;dauan_island0;-9.422;142.535;412;1801
+Mount Hotham;Victoria;mount_hotham;mt_hotham;128;mount_hotham0;-36.99;147.149;345;1802
+Dinner Plain;Victoria;dinner_plain;dinner_plain;127;dinner_plain0;-37.024;147.241;346;1803
+Seventeen Seventy;Queensland;seventeen_seventy;seventeen_seventy;125;seventeen_seventy0;-24.169;151.881;413;1804
+Cullen Bullen;New South Wales;cullen_bullen;cullen_bullen;117;cullen_bullen0;-33.301;150.034;527;1805
+Laura;Queensland;laura;laura;101;laura1;-15.56;144.445;414;1806
+Willows Gemfields;Queensland;willows_gemfields;willows_gemfields;101;willows_gemfields0;-23.74;147.54;415;1807
+Perisher Village;New South Wales;perisher_village;perisher_village;99;perisher_village0;-36.405;148.401;528;1808
+Daintree;Queensland;daintree;daintree;93;daintree0;-16.259;145.33;416;1809
+Leigh Creek;South Australia;leigh_creek;leigh_creek;91;leigh_creek0;-30.595;138.406;173;1810
+Fraser Island;Queensland;fraser_island;fraser_island;67;fraser_island0;-25.392;153.034;417;1811
+Tjuntjuntjara;Western Australia;tjuntjuntjara;tjuntjuntjara;64;tjuntjuntjara0;-29.34;127.099;179;1812
+Baw Baw Village;Victoria;baw_baw_village;baw_baw_village;30;baw_baw_village0;-37.841;146.258;347;1813
