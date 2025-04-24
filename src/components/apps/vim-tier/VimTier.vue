@@ -5,17 +5,17 @@
       <h3 class="text-2xl font-bold ">COMMANDS</h3>
       <ul class="grid gap-1">
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">p</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">p</kbd>
           &nbsp;
           <span>Copy Tier List</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">u</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">u</kbd>
           &nbsp;
           <span>Upload Tier List</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">n</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">n</kbd>
           &nbsp;
           <span>New Item</span>
         </li>
@@ -23,7 +23,7 @@
           <kbd
             class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 border border-gray-200 rounded-lg dark:text-gray-100 dark:border-gray-500"
             :class="{
-              'bg-gray-100 dark:bg-gray-600': mode !== 'insert',
+              'bg-white dark:bg-gray-600': mode !== 'insert',
               'bg-ew-500': mode === 'insert'
             }">i</kbd>
           &nbsp;
@@ -33,7 +33,7 @@
           <kbd
             class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 border border-gray-200 rounded-lg dark:text-gray-100 dark:border-gray-500"
             :class="{
-              'bg-gray-100 dark:bg-gray-600': mode !== 'edit',
+              'bg-white dark:bg-gray-600': mode !== 'edit',
               'bg-ew-500': mode === 'edit'
             }">e</kbd>
           &nbsp;
@@ -43,14 +43,14 @@
           <kbd
             class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 border border-gray-200 rounded-lg dark:text-gray-100 dark:border-gray-500"
             :class="{
-              'bg-gray-100 dark:bg-gray-600': mode !== 'view',
+              'bg-white dark:bg-gray-600': mode !== 'view',
               'bg-ew-500': mode === 'view'
             }">v</kbd>
           &nbsp;
           <span>View Mode</span>
         </li>
         <li>
-          <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
               <path d="M9.207 1A2 2 0 0 0 6.38 1L.793 6.586A2 2 0 0 0 2.207 10H13.38a2 2 0 0 0 1.414-3.414L9.207 1Z"/>
             </svg>
@@ -60,7 +60,7 @@
           <span>Navigate Up</span> 
         </li>
         <li>
-          <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
               <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"/>
             </svg>
@@ -70,7 +70,7 @@
           <span>Navigate Down</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 10 16">
               <path d="M8.766.566A2 2 0 0 0 6.586 1L1 6.586a2 2 0 0 0 0 2.828L6.586 15A2 2 0 0 0 10 13.586V2.414A2 2 0 0 0 8.766.566Z"/>
             </svg>
@@ -80,7 +80,7 @@
           <span>Navigate Left</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 10 16">
               <path d="M3.414 1A2 2 0 0 0 0 2.414v11.172A2 2 0 0 0 3.414 15L9 9.414a2 2 0 0 0 0-2.828L3.414 1Z"/>
             </svg>
@@ -90,7 +90,7 @@
           <span>Navigate Right</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
               <path d="M9.207 1A2 2 0 0 0 6.38 1L.793 6.586A2 2 0 0 0 2.207 10H13.38a2 2 0 0 0 1.414-3.414L9.207 1Z"/>
             </svg>
@@ -100,7 +100,7 @@
           <span>Move Up</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
               <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"/>
             </svg>
@@ -110,7 +110,7 @@
           <span>Move Down</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 10 16">
               <path d="M8.766.566A2 2 0 0 0 6.586 1L1 6.586a2 2 0 0 0 0 2.828L6.586 15A2 2 0 0 0 10 13.586V2.414A2 2 0 0 0 8.766.566Z"/>
             </svg>
@@ -120,7 +120,7 @@
           <span>Move Left</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">m</kbd> + <kbd class="rtl:rotate-180 inline-flex items-center px-2 py-1.5 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
             <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 10 16">
               <path d="M3.414 1A2 2 0 0 0 0 2.414v11.172A2 2 0 0 0 3.414 15L9 9.414a2 2 0 0 0 0-2.828L3.414 1Z"/>
             </svg>
@@ -130,37 +130,37 @@
           <span>Move Right</span> 
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">s</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">s</kbd>
           &nbsp;
           <span>Place in S</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">a</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">a</kbd>
           &nbsp;
           <span>Place in A</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">b</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">b</kbd>
           &nbsp;
           <span>Place in B</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">c</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">c</kbd>
           &nbsp;
           <span>Place in C</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">d</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">d</kbd>
           &nbsp;
           <span>Place in D</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">f</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">f</kbd>
           &nbsp;
           <span>Place in F</span>
         </li>
         <li>
-          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">backspace</kbd>
+          <kbd class="rtl:rotate-180 inline-flex items-center px-2 text-gray-800 bg-white border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">backspace</kbd>
           &nbsp;
           <span>Remove Item</span>
         </li>
