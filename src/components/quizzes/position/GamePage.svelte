@@ -4,14 +4,15 @@
   import seededRandom, {shuffle} from '../../common/seededRandom';
   import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
+  import toast from "../../common/toast";
 
   export let locations: string[];
   export let positions: { lat: number, lng: number }[];
   export let randomiser: () => number;
   export let isStart: boolean;
-  export let key: string;
-  export let date: string;
   export let title: string;
+  export let seed: string;
+  export let randomiseSeed: () => void;
 
   let isEnd = false;
   let colorId = 0;
@@ -43,6 +44,7 @@
   };
 
   const handleClick = (location: string) => {
+    if (isEnd) return;
     // remove all with colorId
     for (let key in assignments) {
       if (assignments[key] == colorId) {
@@ -69,24 +71,20 @@
   }
 
   const handleEnd = () => {
-    if (date) localStorage.setItem(`position-${key}-${date}`, score.toString());
     isEnd = false;
     isStart = false;
     assignments = {};
+    randomiseSeed();
   }
 
-  const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
   const copyResults = () => {
-    let text = `Position Puzzle: ${title}\n`;
-    text += `Daily Challenge on ${date}\n`;
+    let text = `${title}\n`;
+    let seedString = seed.toString();
+    if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+      text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+    }
     text += `I scored ${score}/${N} points!\n`;
-    text += `https://izzhafeez.com/quizzes/position/${key}/daily-challenge\n`;
+    text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${N}\n`;
     navigator.clipboard.writeText(text);
 
     toast.fire({
@@ -148,10 +146,8 @@
     </div>
     {:else}
     <div class="flex mx-auto gap-2">
-      {#if date}
       <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
         on:click={copyResults}>Copy Results</button>
-      {/if}
       <button class="text-white bg-ew-500 hover:bg-ew-300 rounded-lg py-1 px-2 my-auto mx-auto"
         on:click={handleEnd}>Restart</button>
     </div>
