@@ -1,16 +1,14 @@
 <script lang="ts">
     import { fade, fly } from 'svelte/transition';
     import Swal from 'sweetalert2';
+    import toast from "../../common/toast";
+    import { shareResults } from '../../common/showResults';
 
     export let chosen;
     export let title;
-    export let instructions;
     export let seed;
     export let isStart;
     export let assignments;
-    export let name: string;
-    export let key: string;
-    export let date;
 
     let guess = '';
     let isValidRegex = true;
@@ -35,11 +33,27 @@
                 countCorrect++;   
             }
         }
-        if (countCorrect === chosen.length) {
-            const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
-            fetch(`${url}?siteUrl=__quizzes__regex__${key}&name=${name}&score=${-guess.length}&params=${seed}`);
+        return countCorrect === chosen.length;
+    }
 
-            if (date) localStorage.setItem(`regex-${key}-${date}`, guess.length.toString());
+    const prepareResults = () => {
+        if (checkAssignmentsCorrect()) {
+            let text = `${title}\n`;
+            let seedString = seed.toString();
+            if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+                text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+            }
+            text += `I scored ${guess.length} points with ${guess}! Can you do better?\n`;
+            text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}\n`;
+            shareResults(text);
+        } else {
+            toast.fire({
+                icon: 'error',
+                title: 'Not Complete!',
+                text: 'Please try again.',
+                showCloseButton: true,
+                confirmButtonText: 'OK',
+            });
         }
     }
 
@@ -50,26 +64,6 @@
     
     // check assignments on mount
     $: checkAssignmentsCorrect();
-
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
-    const copyResults = () => {
-        let text = `Regex Warrior: ${title}\n`;
-        text += `Daily Challenge on ${date}\n`;
-        text += `I scored ${guess.length} points!\n`;
-        text += `https://izzhafeez.com/quizzes/regex/${key}/daily-challenge`;
-
-        navigator.clipboard.writeText(text);
-        toast.fire({
-            icon: 'success',
-            text: 'Copied Results',
-        });
-    }
 </script>
 
 <div in:fade={{}}>
@@ -97,7 +91,7 @@
         </div>
 
         <!-- end buttonn -->
-        <button on:click={copyResults} disabled={countCorrect !== chosen.length} class={`${countCorrect !== chosen.length ? "bg-gray-300/20 text-gray-300" : "bg-cc-300/20 hover:bg-cc-300/50 text-cc-500 hover:text-cc-300"} rounded-lg py-1 px-2 my-2`}>Copy Results</button>
+        <button on:click={() => {prepareResults()}} disabled={countCorrect !== chosen.length} class={`${countCorrect !== chosen.length ? "bg-gray-300/20 text-gray-300" : "bg-cc-300/20 hover:bg-cc-300/50 text-cc-500 hover:text-cc-300"} rounded-lg py-1 px-2 my-2`}>Share Results</button>
         <button on:click={end} class="bg-ns-300/20 hover:bg-ns-300/50 text-ns-500 hover:text-ns-300 rounded-lg py-1 px-2 my-2">End</button>
     </div>
 </div>
