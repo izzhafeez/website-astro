@@ -1,21 +1,21 @@
 <template>
   <form class="max-w-xl sm:mx-auto mx-2" v-on:submit.prevent="validateForm">
     <div class="grid gap-2 my-2">
-      <label for="meetupName" class="text-ew-500 dark:text-ew-300 text-xl font-light">MEETUP NAME</label>
-      <input v-model="meetupName" type="text" id="meetupName" name="meetupName" class="transition duration-500 bg-white dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
+      <label for="meetupName" class="text-ew-700 dark:text-ew-300 text-xl font-light">MEETUP NAME</label>
+      <input v-model="meetupName" type="text" id="meetupName" name="meetupName" class="transition duration-500 bg-gray-100 dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="grid gap-2 my-2">
-      <label for="hostName" class="text-ew-500 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
-      <input v-model="hostName" type="text" id="hostName" name="hostName" class="transition duration-500 bg-white dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
+      <label for="hostName" class="text-ew-700 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
+      <input v-model="hostName" type="text" id="hostName" name="hostName" class="transition duration-500 bg-gray-100 dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="grid gap-2 my-2">
-      <label for="password" class="text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD (OPTIONAL)</label>
-      <input v-model="password" type="password" id="password" name="password" class="transition duration-500 bg-white dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2">
+      <label for="password" class="text-ew-700 dark:text-ew-300 text-xl font-light">PASSWORD (OPTIONAL)</label>
+      <input v-model="password" type="password" id="password" name="password" class="transition duration-500 bg-gray-100 dark:bg-gray-700 border-gray-500/30 rounded-md focus:ring-ew-300 focus:ring-2">
     </div>
 
-    <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">POTENTIAL DATES</label>
+    <label for="date" class="text-ew-700 dark:text-ew-300 text-xl font-light">POTENTIAL DATES</label>
     <ul class="grid gap-2 my-2 mb-4">
       <li v-for="(date, index) in dates" :key="date" class="flex">
         <VueDatePicker
@@ -25,7 +25,7 @@
           :enable-time-picker="false"
           :min-date="new Date()"
           :prevent-min-max-navigation="true"
-          input-class-name="dark:border-gray-600 rounded-md transition duration-500 bg-white dark:bg-gray-700"
+          input-class-name="dark:border-gray-600 rounded-md transition duration-500 bg-gray-100 dark:bg-gray-700"
           :format="format"></VueDatePicker>
         <button @click="dates.splice(index, 1)" class="content-center p-2 bg-ns-500 hover:bg-ns-300 rounded-e-md">
           <svg class="w-5 h-5 invert" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
