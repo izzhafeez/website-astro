@@ -468,7 +468,7 @@ function MathAttack({ id }: { id: string }) {
 
   return (
     <div className="p-2 max-w-6xl mx-auto">
-      <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+      <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-white dark:bg-gray-800 w-full -z-10 text-wrap">
         {Array.from({length: Math.floor(10000/allCards.length) }, () => names)}
       </p>
       {playerState !== PlayerStates.UNJOINED && <>
@@ -483,13 +483,13 @@ function MathAttack({ id }: { id: string }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder='Enter your name...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
         <button onClick={joinGame} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white">Join Game</button>
       </div>}
 
       {/* show all players */}
       {playerState !== PlayerStates.UNJOINED && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, is_alive]) => (
           <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {!is_alive && '(Lost)'}</li>
@@ -498,7 +498,7 @@ function MathAttack({ id }: { id: string }) {
       </ul>
       </>}
       {playerState === PlayerStates.LOBBY && <div className="my-4 max-w-xl">
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Instructions</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Instructions</h3>
       <span>{instructions}</span>
       <div className="flex gap-2 mx-auto my-4">
         {/* start */}
@@ -510,7 +510,7 @@ function MathAttack({ id }: { id: string }) {
       {(playerState === PlayerStates.WAITING || playerState === PlayerStates.TURN) && <div className="my-4">
           <b>Current Number:</b> {number}<br/>
           <b>Limits:</b> {LOWEST_NUMBER}, {HIGHEST_NUMBER}<br/>
-          <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">{currentPlayer === name ? "Your" : `${currentPlayer}'s`} turn!</h3>
+          <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">{currentPlayer === name ? "Your" : `${currentPlayer}'s`} turn!</h3>
         </div>}
       {(playerState === PlayerStates.TURN || playerState === PlayerStates.WAITING) && <div className="grid grid-cols-3 gap-4 max-w-xl">
         {hand.map(cardId => <div className={`border-2 border-cc-500 aspect-square p-4 rounded-xl flex ${playerState === PlayerStates.TURN && 'cursor-pointer'} ${cardId === selectedCard && 'bg-cc-500'}`} onClick={() => handleSelect(cardId)} key={cardId}>
@@ -521,7 +521,7 @@ function MathAttack({ id }: { id: string }) {
 
       {/* History */}
       {history.length > 0 && playerState !== PlayerStates.UNJOINED && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2 mt-4">History</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2 mt-4">History</h3>
       <ul className="mb-8">
         {history.map(({player, card_id, number}, i) => (
           <li key={i}>{player} played {allCards[card_id].rep} to get {number}</li>
