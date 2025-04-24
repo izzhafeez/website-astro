@@ -8,7 +8,7 @@ const heroImages = import.meta.glob<{ default: ImageMetadata }>("/src/img/heroes
 const img = project.imgPath ? heroImages[`/src/img/heroes/${project.imgPath}`] : images[`/src/img/portfolio/projects/${project.key}.jpg`];
 ---
 
-<a href={project.link || project.repo} id={project.key} class="cursor-pointer w-80 reveal load-hidden grid group rounded-lg bg-white dark:bg-gray-700 border-2 border-gray-500/10 hover:border-ne-500 transition transition-color duration-100">
+<a href={project.link || project.repo} id={project.key} class="cursor-pointer w-80 reveal load-hidden grid group rounded-lg bg-gray-100 dark:bg-gray-700 border-2 border-gray-500/10 hover:border-ne-500 transition transition-color duration-100">
   <Image src={img()} alt={project.title} width="400" height="300" class="h-45 w-80 object-cover aspect-video rounded-t-lg"/>
   <div class="p-2 text-left grid">
     <h2 class="group-hover:text-ne-500 dark:group-hover:text-ne-300 font-medium">  
