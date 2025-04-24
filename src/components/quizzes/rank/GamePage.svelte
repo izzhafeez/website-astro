@@ -3,6 +3,8 @@
     import Swal from "sweetalert2";
     import seededRandom from "../../common/seededRandom";
     import party from "party-js";
+    import showResults from "../../common/showResults";
+    import toast from "../../common/toast";
 
     export const instructions: string = "";
     export let randomiser: () => number;
@@ -11,18 +13,19 @@
     export let seed: string;
     export let N: number;
     export let field: string;
-    export let encodeSeed: () => void;
     export let options: string[];
     export let data: {[field: string]: number};
-    export let key: string;
-    export let name: string;
-    export let date;
     export let title;
 
     let currentOptionId = 0;
     let guesses: any[] = []
     let score: number = 0;
     let isPlaying: boolean = true;
+
+    const COLORS = [
+        "bg-ns-800 text-white", "bg-ns-700 text-white", "bg-ns-600 text-white", "bg-ns-500 text-white", "bg-ns-400 text-black", "bg-ns-300 text-black", "bg-ns-200 text-black", "bg-ns-100 text-black",
+        "bg-ew-100 text-black", "bg-ew-200 text-black", "bg-ew-300 text-black", "bg-ew-400 text-black", "bg-ew-500 text-white", "bg-ew-600 text-white", "bg-ew-700 text-white", "bg-ew-800 text-white",
+    ];
 
     const handlePlace = (i: number) => {
         guesses[i] = {
@@ -39,7 +42,6 @@
 
     const endGame = () => {
         randomiser = seededRandom(randomiserSeed);
-        encodeSeed();
         isStart = false;
         isPlaying = true;
         currentOptionId = 0;
@@ -65,87 +67,32 @@
             if (rankings) party.confetti(rankings);
         }
 
-        let imgSrc = "";
-            if ((score * 5) == 500) {
-                imgSrc = "perfect";
-            } else if ((score * 5) >= 490) {
-                imgSrc = "fuiyoh";
-            } else if ((score * 5) >= 480) {
-                imgSrc = "very-impressive";
-            } else if ((score * 5) >= 460) {
-                imgSrc = "pretty-impressive";
-            } else if ((score * 5) >= 440) {
-                imgSrc = "oh-wow";
-            } else if ((score * 5) >= 420) {
-                imgSrc = "practice";
-            } else if ((score * 5) >= 400) {
-                imgSrc = "you-fked-up";
-            } else if ((score * 5) >= 370) {
-                imgSrc = "where-my-slipper";
-            } else if ((score * 5) >= 340) {
-                imgSrc = "oh-no";
-            } else if ((score * 5) >= 300) {
-                imgSrc = "are-you-serious";
-            } else if ((score * 5) >= 270) {
-                imgSrc = "haiya";
-            } else if ((score * 5) >= 240) {
-                imgSrc = "sacrilegious";
-            } else if ((score * 5) >= 200) {
-                imgSrc = "so-weak";
-            } else if ((score * 5) >= 170) {
-                imgSrc = "lamentable";
-            } else if ((score * 5) >= 140) {
-                imgSrc = "what-da-hail";
-            } else if ((score * 5) >= 100) {
-                imgSrc = "emotional-damage";
-            } else if ((score * 5) >= 70) {
-                imgSrc = "terrible";
-            } else if ((score * 5) >= 50) {
-                imgSrc = "send-u-to-jesus";
-            } else if ((score * 5) >= 30) {
-                imgSrc = "low-iq";
-            } else if ((score * 5) >= 10) {
-                imgSrc = "language-failure";
-            } else {
-                imgSrc = "failure";
-            }
-            Swal.fire({
-                title: `Your Score: ${Math.round(score)}%`,
-                html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-                color: "#FFF",
-                showDenyButton: !!date,
-                denyButtonText: "Share Results",
-                denyButtonColor: "#BB0",
-            }).then((result) => {
-                if (result.isDenied) {
-                    copyResults();
-                }
-            });
-
-            const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
-            await fetch(`${url}?siteUrl=__quizzes__rank__${key}&name=${name}&score=${score}&params=${seed}`);
-
-            if (date) localStorage.setItem(`rank-${key}-${date}`, score.toString());
+        let text = `${title}\n`;
+        let seedString = seed.toString();
+        if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+            text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+        }
+        text += `I scored ${score.toFixed(2)}/100 points!\n`;
+        text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${N}&field=${field}\n`;
+        showResults(score, 100, null, text);
     }
 
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
     const copyResults = () => {
-        let text = `Rank Master: ${title}\n`;
-        text += `Daily Challenge on ${date}\n`;
-        text += `I scored ${Math.round(score)}%!\n`;
-        text += `https://izzhafeez.com/quizzes/rank/${key}/daily-challenge`;
+        let text = `${title}\n`;
+        let seedString = seed.toString();
+        if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+            text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+        }
+        text += `I scored ${score.toFixed(2)}/100 points!\n`;
+        text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${N}&field=${field}\n`;
         navigator.clipboard.writeText(text);
         toast.fire({
             icon: 'success',
             text: 'Copied Results',
         });
     }
+
+    $: actualOrder = isPlaying ? [] : [...guesses].map(a => a.value).sort();
 </script>
 
 <div in:fade={{}}>
@@ -153,26 +100,29 @@
         <!-- current one to rank -->
         {#if isPlaying}
             <div class="my-6">
-                <h2 class="text-center font-bold">Next: {options[currentOptionId].split(" [")[0]}</h2>
+                <h2 class="text-center font-bold">Next: {options[currentOptionId]?.split(" [")[0]}</h2>
             </div>
         {:else}
-            <div class="my-6 grid">
+            <div class="my-6 grid gap-2">
                 <h2 class="text-center font-bold">Score: {Math.round(score)}%</h2>
                 <!-- button -->
-                <button on:click={endGame} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 mt-4 mx-auto'>Play Again</button>
+                <div class="flex gap-2 mx-auto">
+                    <button on:click={copyResults} class='bg-cc-300/20 py-1 px-2 rounded-md text-cc-700 dark:text-cc-300 hover:bg-cc-300/50 border-2 border-cc-500/50 my-auto'>Copy Results</button>
+                    <button on:click={endGame} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50 my-auto'>Play Again</button>
+                </div>
             </div>
         {/if}
 
         <!-- there are N empty places to click -->
         <div class="grid max-w-xl gap-4 mx-auto text-center" id="rankings">
             Highest
-            {#each Array(N) as _, i}
+            {#each Array(parseInt(N)) as _, i}
                 <button
-                    class:bg-black={!!guesses[i]} class:dark:bg-white={!!guesses[i]}
-                    class:text-white={!!guesses[i]} class:dark:text-black={!!guesses[i]}
-                    class:border-black={!!guesses[i]} class:dark:border-white={!!guesses[i]}
-                    class:hover:bg-gray-500={!guesses[i]}
-                    class="rounded-lg py-2 px-4 text-center border-2"
+                    class:bg-black={!!guesses[i] && isPlaying} class:dark:bg-gray-100={!!guesses[i] && isPlaying}
+                    class:text-white={!!guesses[i] && isPlaying} class:dark:text-black={!!guesses[i] && isPlaying}
+                    class:border-black={!!guesses[i] && isPlaying} class:dark:border-white={!!guesses[i] && isPlaying}
+                    class:hover:bg-gray-500={!guesses[i] && isPlaying}
+                    class={`rounded-lg py-2 px-4 text-center border-2 ${!isPlaying && COLORS[Math.floor(actualOrder.indexOf(guesses[i]?.value)*16/actualOrder.length)]}`}
                     on:click={() => handlePlace(i)}
                     disabled={!!guesses[i]}
                 >{!!guesses[i] ? `${guesses[i].name.split(" [")[0]} (${guesses[i].value})` : `Rank ${i+1}`}</button>
