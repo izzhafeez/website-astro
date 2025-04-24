@@ -4,12 +4,12 @@
     {{ meetupName }}
   </h1>
   <div class="flex gap-4 content-center">
-    <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
+    <label for="name" class="my-auto text-ew-700 dark:text-ew-300 text-xl font-light">YOUR NAME</label>
     <input v-model="name" type="text"
-      id="name" name="name" class="p-2 border border-gray-500/50 transition duration-500 bg-white dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
+      id="name" name="name" class="p-2 border border-gray-500/50 transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div class="my-4"></div>
-  <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHAT DATES ARE YOU FREE?</label>
+  <label for="date" class="text-ew-700 dark:text-ew-300 text-xl font-light">WHAT DATES ARE YOU FREE?</label>
   <ul class="grid gap-2 my-2 rounded-lg">
     <li v-for="date in dates" :key="date">
       <div class="flex">
@@ -40,13 +40,13 @@
     Finalise Date
   </h2>
   <div class="flex gap-4 content-center" v-if="passwordHash">
-    <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
+    <label for="name" class="my-auto text-ew-700 dark:text-ew-300 text-xl font-light">PASSWORD</label>
     <input v-model="password" type="password"
-      id="password" name="password" class="p-2 border border-gray-500/50 transition duration-500 bg-white dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
+      id="password" name="password" class="p-2 border border-gray-500/50 transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md  focus:ring-ew-300 focus:ring-2" required>
   </div>
   <div v-if="validPassword">
     <div class="my-4"></div>
-    <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHEN WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
+    <label for="date" class="text-ew-700 dark:text-ew-300 text-xl font-light">WHEN WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
     <ul class="grid gap-2 my-2 rounded-lg">
       <li v-for="date in dates" :key="date">
         <div class="flex">
