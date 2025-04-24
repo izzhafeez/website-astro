@@ -8,7 +8,7 @@
   export let setTodaySeed: () => void;
   export let maxN: number;
 
-  let possible_N = Array.from({ length: maxN - 1 }, (_, i) => 2 + i);
+  let possible_N = Array.from({ length: Math.min(maxN - 1, 11) }, (_, i) => 2 + i);
 
   function handleStart() {
     handleNext();

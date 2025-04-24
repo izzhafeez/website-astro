@@ -7,6 +7,18 @@ const loadCat = async (slug: string) => {
     const splitted = slug.split('-');
     const domain = splitted[0];
 
+    if (splitted.length == 1) {
+        return await fetch(`/data/cat/${domain}.json`)
+            .then(res => {
+                if (res.status === 200) {
+                    Swal.close()
+                    return res.json();
+                } else {
+                    throw new Error("Failed to load data");
+                }
+            });
+        }
+
     let data;
     let filter: any[] = [];
     let pop: any;

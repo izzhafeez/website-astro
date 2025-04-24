@@ -1,8 +1,10 @@
 import { capitalise } from "../../utils/string";
 
 const convertCatSlug = (slug: string) => {
-    if (slug.includes("0")) {
-        const splitted = slug.split("-");
+    const splitted = slug.split("-");
+    if (splitted.length == 1) {
+        return slug.split("_").map(capitalise).join(" ");
+    } else if (slug.includes("0")) {
         let domain = capitalise(splitted[0]);
         if (domain == "Euro") domain = "Europe";
         if (domain == "Na") domain = "North America";
