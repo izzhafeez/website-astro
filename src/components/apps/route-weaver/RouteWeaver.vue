@@ -4,7 +4,7 @@
     <p class="text-lg my-6">A simple route planner that helps you find the best route to visit multiple locations.</p>
     <div class="flex gap-2 my-2">
       <input type="number" v-model="numOfRoutes" class="px-2 py-1 bg-gray-500/20 rounded-md" placeholder="Number of routes"/>
-      <button @click="handleNewLocation" class="px-2 py-1 flex gap-2 bg-black hover:bg-black/80 dark:bg-white dark:hover:bg-white/80 rounded-md"><span class="invert my-auto">Add</span> 
+      <button @click="handleNewLocation" class="px-2 py-1 flex gap-2 bg-black hover:bg-black/80 dark:bg-gray-100 dark:hover:bg-gray-100/80 rounded-md"><span class="invert my-auto">Add</span> 
         <svg class="h-4 w-4 invert dark:invert-0 my-auto" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
                 <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-466.000000, -1089.000000)" fill="#000000">
