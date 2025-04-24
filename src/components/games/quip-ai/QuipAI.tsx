@@ -115,14 +115,14 @@ function QuipAI({ id }: { id: string }) {
         icon: 'info',
         title: `Here are the results of the voting!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-white">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">Score Added</th>
             </tr>
           </thead>
           ${Object.entries(round.votes as {[name: string]: string[]}).map(([name, votesData]) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${votesData.length}</td>
             </tr>
@@ -327,13 +327,13 @@ function QuipAI({ id }: { id: string }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder='Enter your name...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
         <button onClick={joinGame} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white">Join Game</button>
       </div>}
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -356,7 +356,7 @@ function QuipAI({ id }: { id: string }) {
                 value={purpose}
                 onChange={e => setPurpose(e.target.value)}
                 placeholder='e.g. Social networking event for Freshmen...'
-                className="transition duration-500 bg-white text-black rounded-md"/>
+                className="transition duration-500 bg-gray-100 text-black rounded-md"/>
             </div>
             <div className="grid">
               <label className="text-left font-bold min-w-10 text-white">Participant Description:</label>
@@ -365,7 +365,7 @@ function QuipAI({ id }: { id: string }) {
                 value={information}
                 onChange={e => setInformation(e.target.value)}
                 placeholder='e.g. People who like learning and meeting new people...'
-                className="transition duration-500 bg-white text-black rounded-md"/>
+                className="transition duration-500 bg-gray-100 text-black rounded-md"/>
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ function QuipAI({ id }: { id: string }) {
 
       {/* previous game's result, with details on previous rounds */}
       {gameStatus === 'JOINED' && rounds.length > 0 && <div className="grid gap-2 my-4">
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Previous Game</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Previous Game</h3>
         <p className="my-2">Winner: {winner}</p>
 
         {/* round data */}
@@ -401,7 +401,7 @@ function QuipAI({ id }: { id: string }) {
 
       {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">{prompts[currentRound]}</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">{prompts[currentRound]}</h3>
 
         {/* input box for hex code */}
         <input
@@ -410,7 +410,7 @@ function QuipAI({ id }: { id: string }) {
           value={response}
           onChange={(e) => setResponse(e.target.value)}
           placeholder='Enter your best quip...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
         
         {/* submit guess */}
         <button onClick={submitAnswer} className="my-2 p-2 rounded-md bg-ew-500 hover:opacity-80 text-white">Submit Quip</button>
@@ -418,7 +418,7 @@ function QuipAI({ id }: { id: string }) {
 
       {gameStatus === 'VOTING' && <>
         {/* Voting round */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Voting Round {currentVotingRound+1}</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Voting Round {currentVotingRound+1}</h3>
 
         {/* prompt */}
         <p className="">{rounds[currentVotingRound].prompt}</p>
@@ -436,7 +436,7 @@ function QuipAI({ id }: { id: string }) {
 
       {gameStatus === 'VOTE_ENDED' && <>
         {/* prompt */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">{rounds[currentVotingRound].prompt}</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">{rounds[currentVotingRound].prompt}</h3>
 
         {/* responses, and who voted on them */}
         <div className="grid gap-4 my-4 font-bold">
