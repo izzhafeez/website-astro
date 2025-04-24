@@ -38,7 +38,7 @@ const SkillsSection = ({ data }: { data: {[key: string]: string} }) => {
     <span className={`cursor-pointer p-2 ${sections['Music'] ? 'bg-ne-500 border-gray-300/20' : 'border-ne-500'} text-white border-2 rounded-md`} onClick={() => handleClick("Music")}>Music</span>
     <span className={`cursor-pointer p-2 ${sections['Soft Skills'] ? 'bg-cc-500 border-gray-300/20' : 'border-cc-500'} text-white border-2 rounded-md`} onClick={() => handleClick("Soft Skills")}>Soft Skills</span>
     <span className={`cursor-pointer p-2 ${sections['Mathematics'] ? 'bg-dt-500 border-gray-300/20' : 'border-dt-500'} text-white border-2 rounded-md`} onClick={() => handleClick("Mathematics")}>Mathematics</span>
-    {Object.entries(data).filter(([skill, category]) => sections[category]).map(([skill, category]) => <span className={`p-2 bg-white/50 dark:bg-gray-700/50 border-2 ${getColorFromCategory(category)} rounded-md`}>{skill}</span>)}
+    {Object.entries(data).filter(([skill, category]) => sections[category]).map(([skill, category]) => <span className={`p-2 bg-gray-100/50 dark:bg-gray-700/50 border-2 ${getColorFromCategory(category)} rounded-md`}>{skill}</span>)}
   </section>
 }
 
