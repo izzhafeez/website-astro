@@ -3,24 +3,24 @@
   <h1 class="my-12 py-2 text-6xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">
     {{ meetupName }}
   </h1>
-  <div class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {
+  <div class="mt-4 font-light text-xl text-ew-700 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
             day: 'numeric'
             }) }}
 
-  <h2 class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">
+  <h2 class="mt-4 font-light text-xl text-ew-700 dark:text-ew-300">
     HOST
   </h2>
   <p>{{ hostName }}</p>
 
-  <h2 class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">
+  <h2 class="mt-4 font-light text-xl text-ew-700 dark:text-ew-300">
     TIMING
   </h2>
   <p>{{ timing }}</p>
 
-  <h2 class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">
+  <h2 class="mt-4 font-light text-xl text-ew-700 dark:text-ew-300">
     LOCATION
   </h2>
   <p>{{ location.name }}</p>
@@ -40,7 +40,7 @@
     </l-map>
   </div>
 
-  <h2 class="mt-4 font-light text-xl text-ew-500 dark:text-ew-300">
+  <h2 class="mt-4 font-light text-xl text-ew-700 dark:text-ew-300">
     PARTICIPANTS
   </h2>
   <ul>
