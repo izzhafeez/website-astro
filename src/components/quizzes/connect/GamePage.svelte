@@ -1,7 +1,9 @@
 <script lang="ts">
+  import { capitalise } from "../../../utils/string";
   import party from 'party-js';
   import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
+  import toast from "../../common/toast";
 
   export let data: Record<string, string[]> = {};
   export let answers: Record<string, string> = {};
@@ -13,8 +15,12 @@
   export let answered: string[] = [];
   let numSelected = 0;
   export let tileCounts: Record<string, number> = {};
-  export let key: string;
-  export let date: string;
+  export let title: string;
+  export let N: number;
+  export let seed: string;
+  export let randomiseSeed: () => void;
+
+  let totalScore = 0;
 
   function handleSelect(tile: string) {
     if (selected[tile]) {
@@ -40,17 +46,10 @@
     numSelected = 0;
 
     if (guesses === 0) {
-      if (date) {
-        localStorage.setItem(`connect-${key}-${date}`, "✗");
-      }
-
       Swal.fire({
         title: 'No more guesses...',
         html: `<img src="/img/quizzes/haiya.gif"/>`,
       })
-
-      // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
-      // audio.play();
 
       for (let answer of Object.keys(answers)) {
         if (!answered.includes(answer)) {
@@ -64,16 +63,9 @@
     }
 
     if (tiles.length === 0 && guesses > 0) {
-      if (date) {
-        localStorage.setItem(`connect-${key}-${date}`, "✓");
-      }
-
       Swal.fire({
         html: `<img src="/img/quizzes/fuiyoh.gif"/>`,
       })
-
-      // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
-      // audio.play();
     }
 
     if (tiles.length === 0) {
@@ -117,6 +109,8 @@
       return;
     }
 
+    totalScore += 1;
+
     let newTiles = [];
     for (let tile of tiles) {
       if (!selected[tile]) {
@@ -131,6 +125,26 @@
       party.confetti(e.target as HTMLElement);
     }
   }
+
+  const share = () => {
+    let text = `${title}\n`;
+    let seedString = seed.toString();
+    if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+        text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+    }
+    text += `I got ${totalScore}/${N}!\n`;
+    text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${N}\n`;
+    navigator.clipboard.writeText(text);
+    toast.fire({
+        icon: 'success',
+        text: 'Copied Results',
+    });
+  }
+
+  const handleRestart = () => {
+    randomiseSeed();
+    handleNext();
+  }
 </script>
 
 <div in:fade={{}}>
@@ -138,7 +152,7 @@
     <div class="grid gap-2">
       {#each answered as answer}
         <div class="border-[3px] border-ew-300 rounded-lg py-2 px-4 text-center">
-          <h3 class="font-bold text-xl">{answer}</h3>
+          <h3 class="font-bold text-xl">{capitalise(answer)}</h3>
           <p>{answers[answer]}</p>
         </div>
       {/each}
@@ -148,13 +162,16 @@
       <button on:click={() => handleSelect(tile)}
         class:bg-opacity-20={!selected[tile]} class:dark:bg-opacity-20={!selected[tile]}
         class:text-white={selected[tile]} class:dark:text-black={selected[tile]}
-        class="bg-black dark:bg-white cursor-pointer rounded-lg py-2 px-4 text-center">{tile}</button>
+        class="bg-black dark:bg-gray-100 cursor-pointer rounded-lg py-2 px-4 text-center">{tile}</button>
       {/each}
     </div>
   </div>
   {#if !canNext}
   <button on:click={handleGuess} class:bg-cc-500={numSelected === 4} class:hover:bg-cc-300={numSelected === 4} class:opacity-50={numSelected !== 4} class:bg-gray-500={numSelected !== 4} class='text-white rounded-lg py-2 px-4 mt-4'>Guess ({guesses})</button>
   {:else}
-  <button on:click={handleNext} class='bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 mt-4'>Next</button>
+  <div class="flex gap-4 mt-4">
+    <button on:click={share} class="bg-dt-300/20 py-1 px-2 rounded-md text-dt-700 dark:text-dt-300 hover:bg-dt-300/50 border-2 border-dt-500/50">Share</button>
+    <button on:click={handleRestart} class="bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50">Next</button>
+  </div>
   {/if}
 </div>
