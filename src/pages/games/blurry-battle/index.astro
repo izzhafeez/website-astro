@@ -29,7 +29,7 @@ const heroText = gamesData["blurry-battle"].heroText;
     <NavBar/>
     <Hero label="BLURRY BATTLE" text={heroText} site="games"/>
     <section class="my-auto flex flex-wrap gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {decks.map(deck => <a href={deck.href} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">{deck.title}</a>)}
+      {decks.map(deck => <a href={deck.href} class="p-4 rounded-md bg-gray-100 dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">{deck.title}</a>)}
     </section>
     <Footer site="games"/>
   </div>
