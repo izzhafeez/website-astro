@@ -274,30 +274,30 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
 
   return (
     <>
-    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-white dark:bg-gray-800 w-full -z-10 text-wrap">
       {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
       {gameStatus !== 'UNJOINED' && <>
       <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
       </>}
-      {gameStatus === 'JOINED' && <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>}
+      {gameStatus === 'JOINED' && <p className="max-w-3xl mb-4 ">{instructions} Deck: <span className="text-dt-700 dark:text-dt-300 font-bold">{title}</span></p>}
       {gameStatus === 'UNJOINED' && <div className="mt-40 text-center">
         <h1 className="animate-linear bg-[length:200%_auto] bg-gradient-to-r from-dt-500 to-dt-300 text-transparent bg-clip-text text-6xl font-extrabold my-4 inline-block">Stat Attack</h1>
-        <p className="max-w-3xl mx-auto mb-4 ">{instructions} Deck: <span className="text-dt-500 dark:text-dt-300 font-bold">{title}</span></p>
+        <p className="max-w-3xl mx-auto mb-4 ">{instructions} Deck: <span className="text-dt-700 dark:text-dt-300 font-bold">{title}</span></p>
         <input
           name="name"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder='Enter your name...'
-          className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+          className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
         <button onClick={joinGame} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white">Join Game</button>
       </div>}
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, { card_count, is_alive }]) => (
           <li key={playerName} className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">{playerName}{playerName === name && ' (you)'}</span> {card_count} Cards {!is_alive && '(Lost)'}</li>
@@ -307,7 +307,7 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       </>}
 
       {gameStatus === 'JOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Deck</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Deck</h3>
       <ul className="grid gap-2">
         <li key="deckName" className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">Deck Name</span> {title}</li>
         <li key="noCards" className=""><span className="text-white bg-dt-500 dark:bg-dt-300 dark:text-black rounded-md p-1 me-1">No. of Cards</span> {deckData.length}</li>
@@ -321,9 +321,9 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       </div>
       </>}
 
-      {gameStatus === 'PLAYING' && !isLost && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">Try to get the <span className="underline font-bold">{isHigher ? 'highest' : 'lowest'}</span> value for each statistic!</h3>}
-      {gameStatus === 'PLAYED' && !isLost && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">Waiting for other players...</h3>}
-      {isLost && isSpectating && <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">You lost! So wait for the surviving players to play their cards!</h3>}
+      {gameStatus === 'PLAYING' && !isLost && <h3 className="text-dt-700 dark:text-dt-300 text-xl font-bold my-2">Try to get the <span className="underline font-bold">{isHigher ? 'highest' : 'lowest'}</span> value for each statistic!</h3>}
+      {gameStatus === 'PLAYED' && !isLost && <h3 className="text-dt-700 dark:text-dt-300 text-xl font-bold my-2">Waiting for other players...</h3>}
+      {isLost && isSpectating && <h3 className="text-dt-700 dark:text-dt-300 text-xl font-bold my-2">You lost! So wait for the surviving players to play their cards!</h3>}
       {(gameStatus === 'PLAYING' || gameStatus === 'PLAYED') && !isLost && 
         <div className="grid gap-2">
           {hand.map((id, i) => <SortableItem handleMove={handleMove} index={i} field={fields[i]} key={id+1} id={id+1} data={deckData[id]} fields={fields} fieldThresholds={fieldThresholds}/>)}
@@ -331,11 +331,11 @@ function StatAttack({ id, deck, deckName }: { id: string, deck: any, deckName: s
       {gameStatus === 'PLAYING' && <button onClick={play} className="py-2 px-4 rounded-md bg-ew-500 hover:opacity-80 text-white my-4">Play</button>}
 
       <div id="winSelect">{gameStatus === 'SELECTING' && (allowSelect
-        ? <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2">You won! Select a card to add to your deck!</h3>
-        : <h3 className="text-dt-500 dark:text-dt-300 text-xl font-bold my-2 flex">Waiting for winner to pick a card...</h3>)}</div>
+        ? <h3 className="text-dt-700 dark:text-dt-300 text-xl font-bold my-2">You won! Select a card to add to your deck!</h3>
+        : <h3 className="text-dt-700 dark:text-dt-300 text-xl font-bold my-2 flex">Waiting for winner to pick a card...</h3>)}</div>
       {gameStatus === 'SELECTING' && <ul className="grid gap-2">
         {playedCards.map((card, index) => (
-          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`transition-colors animate-linear bg-[length:200%_auto] p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-dt-500/20' : 'bg-white/50 dark:bg-gray-700/50'}`}>
+          <li key={card.name} onClick={() => {if (allowSelect) {setSelectedCard(card.card_id);}}} className={`transition-colors animate-linear bg-[length:200%_auto] p-4 border-[1px] rounded-md ${allowSelect && 'hover:border-dt-300 cursor-pointer'} ${selectedCard === card.card_id ? 'bg-dt-500/20' : 'bg-gray-100/50 dark:bg-gray-700/50'}`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
                 {deckData[card.card_id].name} ({card.name}) {index === 0 && crownSvg}
