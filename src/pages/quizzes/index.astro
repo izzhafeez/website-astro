@@ -2,15 +2,17 @@
 import Layout from '../../layouts/Layout.astro';
 import NavBar from '../../components/common/NavBar.astro';
 import Footer from '../../components/common/Footer.astro';
-import quizzesData from '../../data/quizzes/quizzes.json';
 import Hero from '../../components/common/Hero.astro';
+import QuizSelection from '../../components/quizzes/QuizSelection.svelte';
 import homeJson from '../../data/home.json';
-import { capitalise } from '../../utils/string';
-import MediumCard from '../../components/common/MediumCard.astro';
 import Seo from '../../components/seo/Seo.astro';
-import seoImg from '/src/img/heroes/QUIZZES.jpg';
 
 const heroText = homeJson.quizzes.heroText;
+const search = Astro.url.searchParams.get("search") || "";
+const page = parseInt(Astro.url.searchParams.get("page") || "1");
+const exclude = Astro.url.searchParams.get("exclude") || "";
+
+export const prerender = false;
 ---
 <Seo {heroText} pageName={"Quizzes"} path="quizzes"/>
 
@@ -18,9 +20,7 @@ const heroText = homeJson.quizzes.heroText;
   <div slot="main" class="min-h-screen h-auto flex flex-col">
     <NavBar/>
     <Hero label="QUIZZES" text={heroText} site="quizzes"/>
-    <section class="my-auto grid grid-cols-1 lg:grid-cols-2 gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
-      {Object.entries(quizzesData).map(([key, value]) => <MediumCard href={`/quizzes/${key}`} title={capitalise(key) + ' Quizzes'} heroText={value.heroText} site="quizzes" imgPath={`/img/heroes/${key.toUpperCase()}.jpg`} isEager={true}/>)}
-    </section>
+    <QuizSelection client:load {search} {page} {exclude}/>
     <Footer site="quizzes"/>
   </div>
 </Layout>
