@@ -3,13 +3,12 @@
   import Swal from 'sweetalert2';
   import seededRandom from "../../common/seededRandom";
   import party from 'party-js';
+  import showResults from "../../common/showResults";
 
   export let isStart: boolean;
-  export let randomiserSeed: string;
-  export let decodeSeed: () => void;
+  export let seed;
   export let randomiser: () => number;
-  export let name: string;
-  export let date: string;
+  export let randomiseSeed: () => void;
 
   let roundNumber = 0;
   let MAX_ROUNDS = 5;
@@ -18,6 +17,8 @@
   let roundScore = 0;
   let totalScore = 0;
   let isGuessing = true;
+  let guesses = [];
+  let isOver = false;
 
   let resetGame = () => {
     roundNumber = 0;
@@ -36,8 +37,9 @@
     return hex.match(/[A-Fa-f0-9]{6}/);
   }
 
-  let renderColorAsHex = () => {
-    return `#${rgb.map(c => c.toString(16).padStart(2, '0')).join('').toUpperCase()}`;
+  let renderColorAsHex = (given: string) => {
+    let hex = given || rgb
+    return `#${hex.map(c => c.toString(16).padStart(2, '0')).join('').toUpperCase()}`;
   }
 
   let parseHexAsRGB = (hex: string) => {
@@ -57,14 +59,12 @@
     }
     score = 100 - (score / (256 * 3)) * 100;
     score = Math.round(score * 100) / 100;
+    guesses.push([[...rgb], [...guessedRgb], score]);
     return Math.max(score, 0);
   }
 
   let nextRound = async () => {
     if (roundNumber >= MAX_ROUNDS) {
-      if (date) {
-        localStorage.setItem(`color-${date}`, totalScore.toString());
-      }
       endGame();
     } else {
       isGuessing = true;
@@ -75,6 +75,7 @@
       // focus on the input box after waiting 0.1
       while (true) {
         try {
+          await new Promise(r => setTimeout(r, 100));
           const inputBox = document.getElementById('input-box');
           if (!!inputBox) {
             inputBox.focus();
@@ -88,98 +89,21 @@
   }
 
   let endGame = () => {
-    let imgSrc: string;
-    if (totalScore == 500) {
-      imgSrc = "perfect";
-    } else if (totalScore >= 490) {
-      // var audio = new Audio(`/sound/quizzes/fuiyoh.mp3`);
-      // audio.play();
-      imgSrc = "fuiyoh";
-    } else if (totalScore >= 480) {
-      imgSrc = "very-impressive";
-    } else if (totalScore >= 460) {
-      imgSrc = "pretty-impressive";
-    } else if (totalScore >= 440) {
-      imgSrc = "oh-wow";
-    } else if (totalScore >= 420) {
-      imgSrc = "practice";
-    } else if (totalScore >= 400) {
-      imgSrc = "you-fked-up";
-    } else if (totalScore >= 370) {
-      imgSrc = "where-my-slipper";
-    } else if (totalScore >= 340) {
-      // var audio = new Audio(`/sound/quizzes/oh-no.mp3`);
-      // audio.play();
-      imgSrc = "oh-no";
-    } else if (totalScore >= 300) {
-      imgSrc = "are-you-serious";
-    } else if (totalScore >= 270) {
-      // var audio = new Audio(`/sound/quizzes/haiya.mp3`);
-      // audio.play();
-      imgSrc = "haiya";
-    } else if (totalScore >= 240) {
-      imgSrc = "sacrilegious";
-    } else if (totalScore >= 200) {
-      // var audio = new Audio(`/sound/quizzes/so-weak.mp3`);
-      // audio.play();
-      imgSrc = "so-weak";
-    } else if (totalScore >= 170) {
-      imgSrc = "lamentable";
-    } else if (totalScore >= 140) {
-      // var audio = new Audio(`/sound/quizzes/what-da-hail.mp3`);
-      // audio.play();
-      imgSrc = "what-da-hail";
-    } else if (totalScore >= 100) {
-      // var audio = new Audio(`/sound/quizzes/emotional-damage.mp3`);
-      // audio.play();
-      imgSrc = "emotional-damage";
-    } else if (totalScore >= 70) {
-      imgSrc = "terrible";
-    } else if (totalScore >= 50) {
-      // var audio = new Audio(`/sound/quizzes/send-u-to-jesus.mp3`);
-      // audio.play();
-      imgSrc = "send-u-to-jesus";
-    } else if (totalScore >= 30) {
-      imgSrc = "low-iq";
-    } else if (totalScore >= 10) {
-      imgSrc = "language-failure";
-    } else {
-      // var audio = new Audio(`/sound/quizzes/failure.mp3`);
-      // audio.play();
-      imgSrc = "failure";
+    let text = "ColorGuessr\n";
+    let seedString = seed.toString();
+    if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+        text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
     }
-    Swal.fire({
-      title: `Your Score: ${totalScore}`,
-      html: `<img src="/img/quizzes/${imgSrc}.gif"/>`,
-      color: "#FFF",
-      showDenyButton: !!date,
-      denyButtonText: "Share Results",
-      denyButtonColor: "#BB0",
-    }).then((result) => {
-      if (result.isDenied) {
-        copyResults();
-      }
-    });
+    text += `I scored ${totalScore}/500 points!\n`;
+    text += `${window.location.href.split("?")[0]}?seed=${seed}\n`;
 
-    isStart = false;
-    decodeSeed();
-    const url = `https://script.google.com/macros/s/AKfycbzrruwSggCRGCwUducgQD3YiUFVLp5cKGt3IFcX7z-34QDR4XkceBhpKtQMQByZExRZjQ/exec`;
-    fetch(`${url}?siteUrl=__quizzes__color__&name=${name}&score=${totalScore}&params=${randomiserSeed}`);
+    showResults(totalScore, 500, null, text);
+    isOver = true;
   }
 
-  const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
-  const copySeed = () => {
-      navigator.clipboard.writeText(randomiserSeed);
-      toast.fire({
-          icon: 'success',
-          text: 'Copied Seed',
-      });
+  let playAgain = () =>{ 
+    randomiseSeed();
+    isStart = false;
   }
 
   const submitGuess = () => {
@@ -217,30 +141,12 @@
       }
     }
   }
-
-  const copyResults = () => {
-      let text = `ColorGuessr\n`;
-      text += `Daily Challenge on ${date}\n`;
-      text += `I scored ${totalScore}/500 points!\n`;
-      text += `https://izzhafeez.com/quizzes/color/daily-challenge`;
-      navigator.clipboard.writeText(text);
-      toast.fire({
-          icon: 'success',
-          text: 'Copied Results',
-      });
-  }
 </script>
 
 <div class="my-8" in:fade={{}}>
+  {#if !isOver}
   <div class="max-w-3xl mx-auto">
-    <h2 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">ROUND {roundNumber}/5</h2>
-    <p class="mt-2">Guess the hexcode of the color in RGB format! For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode.
-      {#if !date && !isStart}
-        <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-      {:else if date}
-        Daily Challenge for {date}.
-      {/if}
-    </p>
+    <h2 class="text-3xl font-extrabold text-ns-500">ROUND {roundNumber}/5</h2>
     <!--  -->
     <div class="my-4 mx-auto">
       <div class="flex gap-2 my-4">
@@ -271,7 +177,36 @@
         <p class="">Round Score: {roundScore}</p>
       {/if}
 
-      <button id="action-button" class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50 my-2" on:click={isGuessing ? submitGuess : nextRound}>{isGuessing ? "Submit" : "Next Round"}</button>
+      <button id="action-button" class="bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50 my-2" on:click={isGuessing ? submitGuess : nextRound}>{isGuessing ? "Submit" : "Next Round"}</button>
     </div>
   </div>
+  {:else}
+  <table class="border-gray-500/20 border-2 table-fixed">
+    <thead class="bg-ns-500/50 text-white">
+        <tr>
+            <th class="py-2 px-4 w-1/3">Your Guess</th>
+            <th class="py-2 px-4 w-1/3">Actual</th>
+            <th class="py-2 px-4 w-1/3">Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        {#each guesses as [toGuess, guess, sim], i}
+            <tr class="">
+                <td class="py-2 px-4 text-center" style="background-color: {`rgb(${guess.join(',')})`}">
+                  <div class:text-black="{(guess.reduce((a, b) => a + b, 0) || 0) > 384}" class:text-white="{(guess.reduce((a, b) => a + b, 0) || 0) <= 384}" class="my-auto mx-auto text-center">
+                    {renderColorAsHex(guess)}
+                  </div>
+                </td>
+                <td class="py-2 px-4 text-center" style="background-color: {`rgb(${toGuess.join(',')})`}">
+                  <div class:text-black="{(toGuess.reduce((a, b) => a + b, 0) || 0) > 384}" class:text-white="{(toGuess.reduce((a, b) => a + b, 0) || 0) <= 384}" class="my-auto mx-auto text-center">
+                    {renderColorAsHex(toGuess)}
+                  </div>
+                </td>
+                <td class="py-2 px-4 text-center">{sim}</td>
+            </tr>
+        {/each}
+    </tbody>
+  </table>
+  <button class="bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50 my-2" on:click={playAgain}>Play Again</button>
+  {/if}
 </div>
