@@ -2,15 +2,23 @@
   import party from 'party-js';
   import Swal from 'sweetalert2';
   import * as d3 from 'd3';
+  import { shareResults } from '../../common/showResults';
 
   export let options: any[];
   export let isStart: boolean;
   export let answer: number;
   export let handleNext: () => void;
   export let toast;
+  export let seed;
+  export let randomiseSeed: () => void;
+  export let title;
+
+  let oldSeed = null;
 
   let isPlaying = true;
   let selectedOption: any = null;
+  let streak = 0;
+  let oldStreak = 0;
 
   $: rawValues = Object.entries(options[answer][1].pie).map(([k, v]) => ({ name: k, value: v }));
   $: sumValues = rawValues.reduce((acc, cur) => acc + (cur.value as number), 0);
@@ -56,6 +64,12 @@
       if (optionsSection) {
         party.confetti(optionsSection);
       }
+      streak += 1;
+    } else {
+      oldStreak = streak;
+      streak = 0;
+      oldSeed = seed;
+      randomiseSeed();
     }
   };
 
@@ -63,6 +77,18 @@
     isPlaying = true;
     isStart = false;
   };
+
+  const share = () => {
+    let text = `${title}\n`;
+    let seedString = seed.toString();
+    if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+        text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
+    }
+    text += `I got a streak of ${oldStreak}!\n`;
+    text += `${window.location.href.split("?")[0]}?seed=${oldSeed}&N=${options.length}\n`;
+
+    shareResults(text);
+  }
 
   const gameHandleNext = () => {
     isPlaying = true;
@@ -126,7 +152,7 @@
         class:hover:bg-opacity-20={selectedOption != option[0] && isPlaying}
         class:bg-gray-300={selectedOption != option[0] && (isPlaying || option[0] != options[answer][0])}
         class:bg-black={selectedOption == option[0] && isPlaying}
-        class:dark:bg-white={selectedOption == option[0] && isPlaying}
+        class:dark:bg-gray-100={selectedOption == option[0] && isPlaying}
         class:text-white={(selectedOption == option[0]) || (selectedOption == option[0] && !isPlaying)}
         class:dark:text-black={selectedOption == option[0] && isPlaying}
         on:click={() => {
@@ -141,22 +167,40 @@
 
   <!-- submit button -->
   {#if isPlaying}
-  <button
-    class="bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
-    on:click={handleSubmit}
-  >Submit</button>
-  {:else}
-  <div class="flex gap-4">
+  <div class="grid grid-cols-3 gap-4 my-4">
     <button
-      class="bg-ns-500 hover:bg-ns-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
+      class="bg-gray-300/20 py-1 px-2 mx-auto rounded-md text-gray-500 dark:text-gray-300 hover:bg-gray-300/50 cursor-default"
+    >Seed: {seed}</button>
+    <button
+      class="bg-gray-300/20 py-1 px-2 mx-auto rounded-md text-gray-500 dark:text-gray-300 hover:bg-gray-300/50 cursor-default"
+    >Streak: {streak}</button>
+    <button
+      class="bg-ew-300/20 py-1 px-2 mx-auto rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50"
+      on:click={handleSubmit}
+    >Submit</button>
+  </div>
+  {:else}
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-4">
+    <button
+      class="bg-ns-300/20 py-1 px-2 mx-auto rounded-md text-ns-700 dark:text-ns-300 hover:bg-ns-300/50 border-2 border-ns-500/50"
       on:click={handleEnd}
     >End</button>
     <button
-      class="bg-cc-500 hover:bg-cc-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
+      class="bg-cc-300/20 py-1 px-2 mx-auto rounded-md text-cc-700 dark:text-cc-300 hover:bg-cc-300/50 border-2 border-cc-500/50"
       on:click={handleCopyData}
     >See Data</button>
+    {#if selectedOption != options[answer][0]}
     <button
-      class="bg-ew-500 hover:bg-ew-300 text-white rounded-lg py-2 px-4 my-4 mx-auto"
+      class="bg-dt-300/20 py-1 px-2 mx-auto rounded-md text-dt-700 dark:text-dt-300 hover:bg-dt-300/50 border-2 border-dt-500/50"
+      on:click={share}
+    >Share ({oldStreak})</button>
+    {:else}
+    <button
+      class="bg-gray-300/20 py-1 px-2 mx-auto rounded-md text-gray-500 dark:text-gray-300 hover:bg-gray-300/50 cursor-default"
+    >Streak: {streak}</button>
+    {/if}
+    <button
+      class="bg-ew-300/20 py-1 px-2 mx-auto rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50"
       on:click={gameHandleNext}
     >Next</button>
   </div>
