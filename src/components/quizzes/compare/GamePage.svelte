@@ -1,24 +1,24 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Swal from "sweetalert2";
-  import { fullSanitise } from "../../../utils/string";
   import type { Data } from "./Data";
   import HigherLowerInput from "./HigherLowerInput.svelte";
   import NextButton from "./NextButton.svelte";
   import { fly } from "svelte/transition";
+  import toast from "../../common/toast";
 
-  export let key: string;
+  export let title;
   export let data;
   export let name: string;
-  export let count: number;
   export let field: string;
   export let randomiser: () => number;
+  export let randomiseSeed: () => void;
   export let seed: string;
+  let oldSeed = seed;
 
   let dataList: Data[] = Object.entries(data).map(([k, v]) => {
-    const { cleanText, searchTerms } = fullSanitise(k);
     // round to 6 significant figures
-    return { name: cleanText, imgPath: `/src/img/quizzes/compare/${key}/${searchTerms}.jpg`, quantity: (v as any)[field] as number }
+    return { name: k, quantity: (v as any)[field] as number }
   });
   
   // find minimum sigfigs
@@ -37,74 +37,56 @@
   if (lowestNumber > 0) startNumber = lowestNumber;
   else if (highestNumber < 0) startNumber = highestNumber;
 
-  let left = dataList[Math.floor(randomiser() * Math.min(count, dataList.length))];
+  let left = dataList[Math.floor(randomiser() * dataList.length)];
   let right = left;
-  while (right === left) right = dataList[Math.floor(randomiser() * Math.min(count, dataList.length))];
+  while (right === left) right = dataList[Math.floor(randomiser() * dataList.length)];
   
   let rightPlaceholder = '0';
   let isGuessing = true;
   let showNextButton = false;
   let streak: number = 0;
+  let oldStreak: number = 0;
   let bestStreak: number = 0;
-  
-  onMount(() => {
-    bestStreak = parseInt(localStorage.getItem(`compare-${key}-streak`) || '0');
-  })
 
-  const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
+  const share = () => {
+    let text = `${title}\n`;
+    if (oldSeed.toString().match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
+        text += `Daily Challenge on ${oldSeed.slice(0, 4)}/${oldSeed.slice(4, 6)}/${oldSeed.slice(6)}\n`;
+    }
+    text += `I got a streak of ${oldStreak}!\n`;
+    text += `${window.location.href.split("?")[0]}?seed=${oldSeed}&field=${field}\n`;
+    navigator.clipboard.writeText(text);
+    toast.fire({
+        icon: 'success',
+        text: 'Copied Results',
     });
-
-  const copySeed = () => {
-      navigator.clipboard.writeText(seed);
-      toast.fire({
-          icon: 'success',
-          text: 'Copied Seed',
-      });
   }
-  </script>
+</script>
   
-  <div class='grid lg:grid-cols-2 h-screen w-screen' transition:fly={{ y: 200, duration: 500 }}>
-    <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
-      <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
-      <p class='text-5xl h-20 grid items-center p-4 mx-auto transition duration-500 bg-white dark:bg-gray-700'>{left.quantity}</p>
-    </div>
-    <div class="grid absolute items-center m-auto left-0 right-0 top-0 bottom-0 -z-10">
-      <div class='mx-auto flex lg:block items-center gap-8'>
-        <p class='lg:text-center opacity-0'>
-          <span class='font-bold'>{field}</span><br/>
-          Score: {streak}<br/>
-          Best Score: {bestStreak}<br/>
-          <button on:click={copySeed} class="underline hover:opacity-50">Copy Seed</button>
-        </p>
-        <h2 class='rounded-full text-6xl text-center lg:mb-4'>VS</h2>
-        <p class='lg:text-center'>
-          <span class='font-bold'>{field}</span><br/>
-          Score: {streak}<br/>
-          Best Score: {bestStreak}<br/>
-          <button on:click={copySeed} class="underline hover:opacity-50">Copy Seed</button>
-        </p>
-      </div>
-    </div>
-    <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
-      <h2 id="hl-label" class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
-      {#if isGuessing}
-      <HigherLowerInput
-        {left} {right} {startNumber} decimalPlaces={decimalPlaces} {key} {name}
-        bind:streak={streak}
-        bind:bestStreak={bestStreak}
-        bind:isGuessing={isGuessing}
-        bind:showNextButton={showNextButton}
-        bind:rightPlaceholder={rightPlaceholder}
-        {seed}
-        />
-      {:else}
-      <div class='flex gap-0 mx-auto'>
-        <p class="text-5xl h-20 grid items-center p-4 transition duration-500 bg-white dark:bg-gray-700">{rightPlaceholder}</p>
-        {#if showNextButton}
+<div class='grid'>
+  <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
+    <h2 class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{left.name}</h2>
+    <p class='text-5xl h-20 grid items-center p-4 mx-auto transition duration-500 bg-gray-100 dark:bg-gray-700'>{parseFloat(left.quantity.toFixed(4))}</p>
+  </div>
+  <div class='my-auto grid gap-8 content-end lg:items-center lg:content-center text-center p-4'>
+    <h2 id="hl-label" class='p-4  font-extrabold text-3xl mx-auto rounded-xl'>{right.name}</h2>
+    {#if isGuessing}
+    <HigherLowerInput
+      {left} {right} {startNumber} decimalPlaces={decimalPlaces} {name}
+      bind:streak={streak}
+      bind:bestStreak={bestStreak}
+      bind:isGuessing={isGuessing}
+      bind:showNextButton={showNextButton}
+      bind:rightPlaceholder={rightPlaceholder}
+      {randomiseSeed}
+      {seed}
+      bind:oldSeed={oldSeed}
+      bind:oldStreak={oldStreak}
+      />
+    {:else}
+    <div class='flex gap-0 mx-auto'>
+      <p class={`text-5xl h-20 grid items-center p-4 transition duration-500 bg-gray-100 dark:bg-gray-700 ${streak === 0 ? 'text-ns-500' : 'text-ew-500'}`}>{rightPlaceholder.slice(0, 8)}</p>
+      {#if showNextButton}
         <NextButton
           {dataList} {startNumber}
           bind:left={left}
@@ -112,10 +94,20 @@
           bind:isGuessing={isGuessing}
           bind:rightPlaceholder={rightPlaceholder}
           bind:showNextButton={showNextButton}
-          {count}
         />
+        {#if streak == 0}
+        <button on:click={share} class='p-4 bg-dt-500 text-white hover:bg-opacity-80 font-bold text-xl'>Share</button>
         {/if}
-      </div>
       {/if}
     </div>
+    {/if}
   </div>
+</div>
+<div class="grid">
+  <div class="mx-auto text-center text-lg">
+    <div>Streak: {streak}</div>
+    <div>Previous: {oldStreak}</div>
+    <div>Best: {bestStreak}</div>
+    <div>Seed: {seed}</div>
+  </div>
+</div>
