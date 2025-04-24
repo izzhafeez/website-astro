@@ -27,7 +27,7 @@ export function SortableItem(props: Props) {
   return (
     <motion.li
       key={props.id}
-      className='py-4 pe-4 rounded-md border-[1px] border-gray-500/50 hover:border-dt-500 flex bg-white/70 transition-colors duration-500 dark:bg-gray-700/70 text-gray-900 dark:text-white'
+      className='py-4 pe-4 rounded-md border-[1px] border-gray-500/50 hover:border-dt-500 flex bg-gray-100/70 transition-colors duration-500 dark:bg-gray-700/70 text-gray-900 dark:text-white'
       layout
       transition={spring}>
       <div className='px-2 my-auto'>
@@ -44,7 +44,7 @@ export function SortableItem(props: Props) {
       </div>
       <div className="w-full">
         <div className='flex w-full'>
-          <h3 className='text-xl font-bold text-dt-500 dark:text-dt-300 mb-2'>{props.data.name}</h3>
+          <h3 className='text-xl font-bold text-dt-700 dark:text-dt-300 mb-2'>{props.data.name}</h3>
           <h3 className='ms-auto mb-2' data-tooltip-target={`tooltip-${props.id}`}>Rank {props.id}</h3>
         </div>
         <ul className="grid gap-2 grid-cols-2 lg:grid-cols-4">
