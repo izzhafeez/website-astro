@@ -7,67 +7,55 @@
 
     export let names;
     export let title;
-    export let instructions;
-    export let isDaily = false;
-    export let key;
+    export let params;
+
+    let seed = parseInt(params.seed) || Math.floor(Math.random() * 100000000);
+    let N = parseInt(params.N) || 4;
+    let MAX_LENGTH = parseInt(params.max) || 10;
+    let mixFactor = parseInt(params.mix) || 3;
+    let scrambleFactor = parseInt(params.scramble) || 3;
 
     let possible_N = [2, 3, 4, 5, 6, 7, 8];
-    let possible_max_length = [6, 8, 10, 12, 14, 16, 18, 20];
+    let possible_max_length = [8, 10, 12, 14, 16, 18, 100];
     let possible_mixFactor = [0, 1, 2, 3, 4, 5];
     let possible_scrambleFactor = [0, 1, 2, 3, 4, 5];
 
-    let date;
-
     // remove contents of parantheses and brackets
     let options = names;
-    let N = 4;
-    let MAX_LENGTH = 10;
     let isStart = false;
     let chosen: string[] = [];
-    let mixFactor = 3;
-    let scrambleFactor = 3;
 
-    let randomiserSeed: number = Math.floor(Math.random() * 1000000);
-    let randomiser = seededRandom(randomiserSeed);
-    let seed = encodeSeed(randomiserSeed);
-    let changeSeed = () => {
-        randomiserSeed = decodeSeed(seed);
-        randomiser = seededRandom(randomiserSeed);
-    };
+    let randomiser;
     let randomiseSeed = () => {
-        randomiserSeed = Math.floor(Math.random() * 1000000);
-        randomiser = seededRandom(randomiserSeed);
-        seed = encodeSeed(randomiserSeed);
+        seed = Math.floor(Math.random() * 100000000);
     }
 
-    function encodeSeed(decodedSeed: number) {
-        const N_index = possible_N.indexOf(N)+1;
-        const MAX_LENGTH_index = possible_max_length.indexOf(MAX_LENGTH);
-        const mixFactor_index = possible_mixFactor.indexOf(mixFactor);
-        const scrambleFactor_index = possible_scrambleFactor.indexOf(scrambleFactor);
-        const encodedSeed = `${N_index}${MAX_LENGTH_index}${mixFactor_index}${scrambleFactor_index}${decodedSeed}`;
-        return parseInt(encodedSeed, 10);
-    }
-
-    function decodeSeed(encodedSeed: number) {
-        const encodedSeedString = encodedSeed.toString(10);
-        const N_index = parseInt(encodedSeedString[0])-1;
-        const MAX_LENGTH_index = parseInt(encodedSeedString[1]);
-        const mixFactor_index = parseInt(encodedSeedString[2]);
-        const scrambleFactor_index = parseInt(encodedSeedString[3]);
-        const seed = parseInt(encodedSeedString.slice(4));
-        N = possible_N[N_index];
-        MAX_LENGTH = possible_max_length[MAX_LENGTH_index];
-        mixFactor = possible_mixFactor[mixFactor_index];
-        scrambleFactor = possible_scrambleFactor[scrambleFactor_index];
-        return seed;
+    let setTodaySeed = () => {
+        // ddmmyyyy
+        const today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+        const yyyy = today.getFullYear();
+        seed = yyyy + mm + dd;
+        N = 4;
+        MAX_LENGTH = 10;
+        mixFactor = 3;
+        scrambleFactor = 3;
     }
 
     function handleNext() {
+        if (isNaN(MAX_LENGTH)) MAX_LENGTH = 10;
+        if (MAX_LENGTH < 8) MAX_LENGTH = 8;
+        if (MAX_LENGTH > 100) MAX_LENGTH = 100;
+        if (isNaN(seed)) seed = Math.floor(Math.random() * 100000000);
+
         // choose N random names from options
+        randomiser = seededRandom(seed);
+        randomiser();
         let keys = [...options];
         chosen = [];
         let count = 0;
+
         while (chosen.length < N) {
             let randomKey = keys[Math.floor(randomiser() * keys.length)];
             if (randomKey.length > MAX_LENGTH) {
@@ -86,44 +74,12 @@
         }
         isStart = true;
     }
-
-    const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 3000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-        toast.onmouseenter = Swal.stopTimer;
-        toast.onmouseleave = Swal.resumeTimer;
-        }
-    });
-
-    const copySeed = () => {
-        navigator.clipboard.writeText(seed);
-        toast.fire({
-            icon: 'success',
-            text: 'Copied Seed',
-        });
-    }
 </script>
 
 <div class="my-8 mx-auto max-w-3xl px-2">
-    <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-    <p class="my-4">{instructions} 
-        {#if date}
-            Daily Challenge for {date}.
-        {:else if !isDaily}
-            <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-        {/if}
-    </p>
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {instructions} {scrambleFactor} {mixFactor} {randomiser} {changeSeed} {seed} {date} {key}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {MAX_LENGTH} {scrambleFactor} {mixFactor} {randomiser} {seed} {randomiseSeed}/>
 {:else}
-    {#if isDaily}
-        <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`JUMBLE QUIZ: ${title}`} bind:date={date} fullKey={`jumble-${key}`}/>
-    {:else}
-        <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {handleNext} {title} {instructions} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {changeSeed} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {randomiseSeed} {key}/>
-    {/if}
+    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {randomiseSeed} {handleNext} {title} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {setTodaySeed}/>
 {/if}
 </div>
