@@ -1,0 +1,51 @@
+---
+import Footer from '../../components/common/Footer.astro';
+import NavBar from '../../components/common/NavBar.astro';
+import MasterQuiz from '../../components/quizzes/MasterQuiz.svelte';
+import Seo from '../../components/seo/Seo.astro';
+import Hero from '../../components/common/Hero.astro';
+import Layout from '../../layouts/Layout.astro';
+import convertSlug from '../../data/convert/convertSlug';
+import quizData from '../../data/quizzes/quizzes.json';
+import QuizSelection from '../../components/quizzes/QuizSelection.svelte';
+import homeJson from '../../data/home.json';
+
+const { quiz } = Astro.params;
+
+export const prerender = false;
+const params = Object.fromEntries(Astro.url.searchParams);
+let title = convertSlug(quiz||"");
+const splitted = (quiz||"").split("-");
+const quizType = splitted[0];
+
+// navigate away if quizType is not in quizData
+const heroText = (() => {
+  if (!(quizType in quizData) || quiz?.includes("/")) {
+    return "";
+  } else {
+    return (quizData as any)[quizType].heroText;
+  }
+})();
+let instructions = heroText;
+---
+
+<Seo {heroText} pageName={title} path={quiz}/>
+
+<Layout>
+  <div slot="main" class="min-h-screen h-auto flex flex-col">
+    <NavBar/>
+    {heroText && 
+      <div class="max-w-3xl mx-auto p-2 my-8">
+        <h1 class="text-3xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
+        <p class="my-4">{instructions}</p>
+        <MasterQuiz client:only="svelte" quiz={heroText ? quiz : ""} {params} />
+      </div>
+    }
+    {!heroText && (
+      <Hero label="QUIZZES" text={homeJson.quizzes.heroText} site="quizzes"/>
+      <QuizSelection client:load search={quiz?.replaceAll("-", " ").replaceAll("/", " ")}/>
+      )}
+    <Footer site="quizzes"/>
+  </div>
+</Layout>
+
