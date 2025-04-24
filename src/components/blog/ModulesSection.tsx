@@ -87,7 +87,7 @@ const ModulesSection = ({ modData }: { modData: ModData }) => {
   return <div className="max-w-6xl mx-auto">
     {/* change sort key */}
     <div className="flex p-4">
-      <select className="cursor-pointer bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-2 border-gray-500/20 rounded-md p-2" onChange={(e) => setSortKey(e.target.value as SetStateAction<SortKey>)}>
+      <select className="cursor-pointer bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-2 border-gray-500/20 rounded-md p-2" onChange={(e) => setSortKey(e.target.value as SetStateAction<SortKey>)}>
         <option value={SortKey.grade}>Sort by Grade</option>
         <option value={SortKey.semester}>Sort by Semester</option>
         <option value={SortKey.code}>Sort by Code</option>
