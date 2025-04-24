@@ -69,7 +69,7 @@ const HikesSection = ({ hikeData }: { hikeData: HikeData }) => {
   return <div className="max-w-6xl mx-auto">
     {/* change sort key */}
     <div className="flex p-4 mt-4">
-      <select className="cursor-pointer bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-2 border-gray-500/20 rounded-md p-2" onChange={(e) => setSortKey(e.target.value)}>
+      <select className="cursor-pointer bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-2 border-gray-500/20 rounded-md p-2" onChange={(e) => setSortKey(e.target.value)}>
         <option value={SortKey.distance}>Sort by Distance</option>
         <option value={SortKey.rating}>Sort by Rating</option>
         <option value={SortKey.date}>Sort by Date</option>
