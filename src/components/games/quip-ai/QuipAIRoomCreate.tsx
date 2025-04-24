@@ -28,7 +28,7 @@ function BurningBridgesRoomCreate() {
           value={gameId}
           onChange={e => setGameId(e.target.value)}
           placeholder='Enter Game ID...'
-          className="transition duration-500 bg-white rounded-md me-2 text-black"/>
+          className="transition duration-500 bg-gray-100 rounded-md me-2 text-black"/>
         <a href={`${window.location.href}/${gameId}`} type="button" className="me-2 p-2 rounded-md bg-dt-500 dark:bg-dt-200 hover:opacity-80 text-white">Create Game</a>
         <a href={`${window.location.href}/${gameId}`} type="button" className="p-2 rounded-md bg-dt-500 dark:bg-dt-200 hover:opacity-80 text-white">Join Game</a>
       </div>
