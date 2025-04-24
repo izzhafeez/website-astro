@@ -86,7 +86,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
         icon: 'info',
         title: `The value was ${message.value}!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-white">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">Guess</th>
@@ -94,7 +94,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
             </tr>
           </thead>
           ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${playerData.guess}</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
@@ -164,7 +164,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -178,7 +178,7 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
 
       {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: What's the {fields[fieldId]} of {deckData[itemId] ? deckData[itemId].name : ''}?</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: What's the {fields[fieldId]} of {deckData[itemId] ? deckData[itemId].name : ''}?</h3>
 
         {/* input box for frequency */}
         <form onSubmit={submitGuess} className="">
@@ -189,17 +189,17 @@ function StatGuessr({ id, deck }: { id: string, deck: any }) {
             value={guess || ''}
             onChange={(e) => setGuess(e.target.value)}
             placeholder='Enter guess...'
-            className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+            className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
           <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
         </form>
         </>}
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: the "{fields[fieldId]}" of "{deckData[itemId].name}" was "{value}"!</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl mt-4">Round {roundId}/10: the "{fields[fieldId]}" of "{deckData[itemId].name}" was "{value}"!</h3>
         <ul className="grid gap-2 mt-4">
           {Object.entries(players).map(([name, playerData], index) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             <div className="grid grid-cols-3 gap-2">
               <span className="my-auto">{name}</span>
               <span className="my-auto ms-auto">Guess: {playerData.guess}</span>
