@@ -72,7 +72,7 @@ function FrequencyGuessr({ id }: { id: string }) {
         icon: 'info',
         title: `The frequency was ${frequency}Hz!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-white">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">Guess</th>
@@ -80,7 +80,7 @@ function FrequencyGuessr({ id }: { id: string }) {
             </tr>
           </thead>
           ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${playerData.guess}Hz</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
@@ -178,7 +178,7 @@ function FrequencyGuessr({ id }: { id: string }) {
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -192,7 +192,7 @@ function FrequencyGuessr({ id }: { id: string }) {
 
       {gameStatus === 'PLAYING' && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
 
         {/* frequency to guess */}
         <div className="flex gap-2">
@@ -212,7 +212,7 @@ function FrequencyGuessr({ id }: { id: string }) {
             value={selectedFrequency}
             onChange={(e) => setSelectedFrequency(e.target.value)}
             placeholder='Enter frequency (Hz)...'
-            className="transition duration-500 bg-white dark:bg-gray-700 rounded-md me-2"/>
+            className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
           {/* submit guess */}
           <button onClick={submitGuess} className="my-2 p-2 rounded-md bg-cc-500 hover:opacity-80 text-white">Submit Guess</button>
         </form>
@@ -220,10 +220,10 @@ function FrequencyGuessr({ id }: { id: string }) {
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: The frequency was {frequency}Hz! Players guessed:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: The frequency was {frequency}Hz! Players guessed:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and frequency, right side should be the guessed frequency */}
             <div className="flex gap-2">
               <span className="my-auto me-4">{name}</span>
