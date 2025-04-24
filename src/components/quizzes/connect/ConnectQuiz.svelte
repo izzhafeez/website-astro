@@ -3,52 +3,43 @@
   import StartPage from './StartPage.svelte';
   import seededRandom, {shuffle} from '../../common/seededRandom';
   import Swal from 'sweetalert2';
-  import DailyChoice from '../DailyChoice.svelte';
 
   export let title;
   export let data;
-  export let instructions;
-  export let isDaily = false;
-  export let key;
+  export let params;
+  
+  let N = parseInt(params.N) || 4;
+  let seed = parseInt(params.seed) || Math.floor(Math.random() * 100000000);
+  let randomiser = seededRandom(seed);
 
-  let date;
+  const randomiseSeed = () => {
+    seed = Math.floor(Math.random() * 100000000);
+  }
+
+  const setTodaySeed = () => {
+    // ddmmyyyy
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, '0');
+    const mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+    const yyyy = today.getFullYear();
+    seed = yyyy + mm + dd;
+    N = 4;
+  };
 
   let isStart = false;
-  let N = 4;
   let answers = {};
   let guesses = 0;
   let tiles = [];
   let canNext = false;
   let tileCounts = {};
   let answered = [];
-  let difficulty = 3; // out of 5
-  let randomiserSeed = Math.floor(Math.random() * 1000000);
-  let randomiser = seededRandom(randomiserSeed);
-  let encodeSeed = () => {
-    return `${N}${difficulty}${randomiserSeed}`;
-  }
-  let randomiseSeed = () => {
-    randomiserSeed = Math.floor(Math.random() * 1000000);
-    randomiser = seededRandom(randomiserSeed);
-    seed = encodeSeed();
-  }
-  let seed = encodeSeed();
-  let decodeSeed = () => {
-    N = parseInt(seed[0]);
-    difficulty = parseInt(seed[1]);
-    randomiserSeed = parseInt(seed.slice(2));
-    randomiser = seededRandom(randomiserSeed);
-  }
-
-  const difficultyMappings = {
-    1: 5,
-    2: 15,
-    3: 50,
-    4: 150,
-    5: 10000
-  }
 
   function handleNext() {
+    randomiser = seededRandom(seed);
+    randomiser();
+
+    N = Math.min(N, Object.keys(data).length);
+
     // select N random keys from data
     let keys = Object.keys(data);
     canNext = false;
@@ -86,7 +77,7 @@
       let randomTiles = [];
       let indexes = {};
       while (randomTiles.length < 4) {
-        let randomIndex = Math.floor(randomiser() * Math.min(candidateTiles.length, difficultyMappings[difficulty]));
+        let randomIndex = Math.floor(randomiser() * candidateTiles.length);
         if (indexes[randomIndex]) {
           continue;
         }
@@ -110,49 +101,20 @@
     guesses = N;
     answered = [];
 
-    randomiser = seededRandom(randomiserSeed);
-
     isStart = true;
-  }
-
-  const toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 1000,
-    });
-
-  const copySeed = () => {
-      navigator.clipboard.writeText(seed);
-      toast.fire({
-          icon: 'success',
-          text: 'Copied Seed',
-      });
   }
 </script>
 
-<div class="max-w-3xl mx-auto p-2 my-8">
-  <h1 class="text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">{title.toUpperCase()}</h1>
-  <p class=" my-4">{instructions} 
-    {#if !isDaily}
-      <button on:click={copySeed} class="underline hover:opacity-50">Copy the seed</button> and share with your friends!
-    {:else if date}
-      Daily Challenge for {date}.
-    {/if}
-  </p>
-  {#if !isStart}
-  {#if isDaily}
-    <DailyChoice bind:randomiserSeed={randomiserSeed} handleStart={handleNext} bind:randomiser={randomiser} name={`CATEGORY CONNECT: ${title}`} bind:date={date} fullKey={`connect-${key}`}/>
-  {:else}
-    <StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} bind:difficulty={difficulty} {decodeSeed} {randomiseSeed} bind:seed={seed} {key}/>
-  {/if}
-  {:else}
-  <GamePage {data} {answers} {tiles} {handleNext}
-    bind:guesses={guesses}
-    bind:answered={answered}
-    bind:tileCounts={tileCounts}
-    bind:canNext={canNext}
-    {key}
-    {date}/>
-  {/if}
-</div>
+{#if !isStart}
+<StartPage bind:N={N} handleNext={handleNext} bind:isStart={isStart} {randomiseSeed} bind:seed={seed} {setTodaySeed} maxN={Object.keys(data).length}/>
+{:else}
+<GamePage {data} {answers} {tiles} {handleNext}
+  bind:guesses={guesses}
+  bind:answered={answered}
+  bind:tileCounts={tileCounts}
+  {title}
+  bind:canNext={canNext}
+  {seed}
+  {randomiseSeed}
+  {N}/>
+{/if}
