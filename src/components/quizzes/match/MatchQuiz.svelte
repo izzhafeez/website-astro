@@ -153,11 +153,11 @@
     {/each}
   </div>
   <label for="regex" class="">Your Name (Optional):</label>
-  <input name="regex" bind:value={name} class='transition duration-500 bg-white dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+  <input name="regex" bind:value={name} class='transition duration-500 bg-gray-100 dark:bg-gray-700 my-2 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
   <div class="flex py-2 gap-2">
     <Leaderboard type="match" key={key} params={`${difficulty}, ${N}`}/>
     <button
-      class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-500 dark:text-ew-300 hover:bg-ew-300/50"
+      class="bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50"
       on:click={handleStart}
     >
       Start Quiz
