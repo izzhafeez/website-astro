@@ -130,7 +130,7 @@ function TruthDareGameCreate({ id }: { id: string }) {
                 value={purpose}
                 onChange={e => setPurpose(e.target.value)}
                 placeholder='e.g. Social networking event for Freshmen...'
-                className="transition duration-500 bg-white text-black rounded-md"/>
+                className="transition duration-500 bg-gray-100 text-black rounded-md"/>
             </div>
             <div className="grid">
               <label className="text-left font-bold min-w-10 text-white">Participant Description:</label>
@@ -139,7 +139,7 @@ function TruthDareGameCreate({ id }: { id: string }) {
                 value={information}
                 onChange={e => setInformation(e.target.value)}
                 placeholder='e.g. People who like learning and meeting new people...'
-                className="transition duration-500 bg-white text-black rounded-md"/>
+                className="transition duration-500 bg-gray-100 text-black rounded-md"/>
             </div>
             <div className="grid">
               <label className="text-left font-bold min-w-10 text-white">Number of Players:</label>
@@ -149,7 +149,7 @@ function TruthDareGameCreate({ id }: { id: string }) {
                 value={quantity}
                 onChange={e => setQuantity(Number.parseInt(e.target.value))}
                 placeholder='Enter Quantity...'
-                className="transition duration-500 bg-white text-black rounded-md"/>
+                className="transition duration-500 bg-gray-100 text-black rounded-md"/>
             </div>
             <button onClick={onGenerate} type="button" className="ms-auto w-40 mt-4 p-2 rounded-md bg-cc-500 dark:bg-dt-200 hover:opacity-80 text-white">Generate Cards</button>
           </div>
@@ -164,7 +164,7 @@ function TruthDareGameCreate({ id }: { id: string }) {
                       name={`truth-${index}`}
                       value={truth}
                       onChange={e => updateTruths(e.target.value, index)}
-                      className="bg-white text-black rounded-l-md px-2 w-full"/>
+                      className="bg-gray-100 text-black rounded-l-md px-2 w-full"/>
                     <button onClick={() => deleteTruth(index)} type="button" className="ms-auto w-40 p-2 rounded-r-md bg-ns-500 hover:opacity-80 text-white">Delete</button>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ function TruthDareGameCreate({ id }: { id: string }) {
                       name={`dare-${index}`}
                       value={dare}
                       onChange={e => updateDares(e.target.value, index)}
-                      className="bg-white text-black rounded-l-md px-2 w-full"/>
+                      className="bg-gray-100 text-black rounded-l-md px-2 w-full"/>
                     <button onClick={() => deleteDare(index)} type="button" className="ms-auto w-40 p-2 rounded-r-md bg-ns-500 hover:opacity-80 text-white">Delete</button>
                   </div>
                 </div>
