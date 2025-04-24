@@ -72,7 +72,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
         title: `The answer was: ${deckData[answerId]}`,
         html: `
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+            <thead class="text-xs text-gray-700 uppercase bg-white">
               <tr>
                 <th scope="col" class="px-6 py-3">Player</th>
                 <th scope="col" class="px-6 py-3">Guess</th>
@@ -80,7 +80,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
               </tr>
             </thead>
             ${Object.entries(message.players as {[name: string]: PlayerData}).map(([name, playerData]) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${playerData.guess}</td>
               <td class="px-6 py-4 font-light">${playerData.added_score}</td>
@@ -136,7 +136,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
   const namesLength = deckData.map((name: string) => name.length).reduce((a: number, b: number) => a + b, 0);
 
   return <>
-    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-white dark:bg-gray-800 w-full -z-10 text-wrap">
       {Array.from({ length: Math.floor(10000/namesLength) }, () => deckData.map((name: string) => name).join(' ')).join(' ')}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
@@ -146,7 +146,7 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -160,21 +160,21 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
 
       {/* playing */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10</h3>
       </>}
 
       {/* blurred answer */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Guess what this says:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Guess what this says:</h3>
         <span className={`dark:text-white p-2 my-4 rounded-md ${deckData[answerId].length > 3 ? 'blur-md text-6xl' : 'blur-sm text-3xl'} select-none`}>{deckData[answerId]}</span>
       </>}
 
       {/* guess */}
       {(gameStatus === 'PLAYING') && <>
         <br/>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Your Guess:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Your Guess:</h3>
         <form onSubmit={submitGuess} className="flex">
-          <input autoFocus type="text" value={guess} onChange={(e) => setGuess(e.target.value)} className="p-2 rounded-md border-[1px] border-gray-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"/>
+          <input autoFocus type="text" value={guess} onChange={(e) => setGuess(e.target.value)} className="p-2 rounded-md border-[1px] border-gray-500 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white"/>
         </form>
       </>}
 
@@ -185,10 +185,10 @@ function BlurryBattle({ id, deck, deckName }: { id: string, deck: any, deckName:
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">The answer was {deckData[answerId]}! Players played:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">The answer was {deckData[answerId]}! Players played:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold text-dt-500`}>
                 {name} guessed "{playerData.guess}"
