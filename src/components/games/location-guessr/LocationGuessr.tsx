@@ -116,7 +116,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
         icon: 'info',
         title: `The closest person was ${closestName} with a distance of ${distance.toFixed(3)}km!`,
         html: `<table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-white">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">Distance</th>
@@ -124,7 +124,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
             </tr>
           </thead>
           ${Object.entries(message.players as {[name: string]: PlayerData}).sort(([_, playerData]) => playerData.distance).map(([name, playerData]) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${name}</th>
               <td class="px-6 py-4 font-light">${playerData.distance.toFixed(3)}km</td>
               <td class="px-6 py-4 font-light">${playerData.added_score} points</td>
@@ -213,7 +213,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -227,7 +227,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
 
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
         {/* round counter */}
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: Find {locationId && data[locationId].name}</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: Find {locationId && data[locationId].name}</h3>
         </>}
       
       {gameStatus === 'PLAYING' && <>
@@ -261,7 +261,7 @@ function LocationGuessr({ id, data, title }: { id: string, data: {name: string, 
       {gameStatus === 'EVALUATING' && <>
         <ul className="grid gap-2 mt-4">
           {Object.entries(players).map(([name, playerData], index) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             {/* left side should be player name and color, right side should be the guessed color */}
             <div className="flex gap-2">
               <div className="w-10 h-10 rounded-md" style={{ backgroundColor: `${colors[index]}` }}></div>
