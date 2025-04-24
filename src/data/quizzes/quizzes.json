@@ -1,62 +1,52 @@
 {
-  "binary": {
-    "title": "Binary Quest",
-    "heroText": "Answer yes or no, simple as that! Try to get a high streak!"
-  },
   "blurry": {
     "title": "BlurryGuessr",
-    "heroText": "Guess what the blurred text says. The more accurate your guess, the higher your score!"
+    "slugs": ["geo", "stat", "name"],
+    "heroText": "You will be given 5 blurred texts. Try your best to figure out what they say and type your guess. After submitting, you will be scored based on your accuracy. Feel free to adjust the blur level and font size to make it easier or harder. Good luck!"
   },
   "color": {
     "title": "ColorGuessr",
-    "heroText": "Guess the hexcode of the given color. Try to get an accurate guess!"
+    "slugs": [],
+    "heroText": "Given a color, guess the hexcode in RGB format. For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. You have 5 rounds. Good luck!"
   },
   "compare": {
-    "title": "Comparator",
-    "heroText": "Compare the two items and guess which one has the greater value. Try to get the highest streak that you can."
+    "title": "Compare Quiz",
+    "slugs": ["geo", "stat"],
+    "heroText": "Compare the two items and guess which one has the greater value. Choose a field — like population, size, or speed — to serve as your basis of comparison. Try to get the highest streak you can by making the right calls. How long can you keep the streak going?"
   },
   "connect": {
-    "title": "Category Connect",
-    "heroText": "Group tiles that share a common category. Match all four tiles to win!"
-  },
-  "geoguessr": {
-    "title": "GeoGuessr",
-    "heroText": "Guess where I took these photos! When you're ready, make your guess and see how close you were."
+    "title": "Connections",
+    "slugs": ["cat"],
+    "heroText": "Ever played connections? In this game, you will get several categories with 4 tiles each. Your job is to figure out which tiles belong together within a certain number of attempts. These can get quite difficult (especially some of the city ones), so good luck!"
   },
   "jumble": {
     "title": "Jumble Master",
-    "heroText": "Unscrambling but on steroids! Separate the jumbled letters to form many words at once!"
+    "slugs": ["geo", "stat", "name"],
+    "heroText": "Ever played a word unscrambling game? In Jumble Master, each word gets scrambled (its letters are shuffled randomly) then all the scrambled words are mixed together into one big jumble. Your job is to untangle the chaos and figure out what the original words were. This is pretty hard, so good luck!"
   },
   "map": {
     "title": "Map Mania",
-    "heroText": "How many locations can you name in a short time?"
-  },
-  "match": {
-    "title": "Match Master",
-    "heroText": "Match tiles that are part of the same group. Try to complete all pairings as quickly as possible!"
+    "slugs": ["geo"],
+    "heroText": "Type the names of locations to remove their markers from the map (don't care about space and case). Each correct answer increases your score, and you can play in timed or untimed mode. Try out the selection option to customise what locations you want to include. You have 10 seconds per answer. Good Luck!"
   },
   "pie": {
     "title": "Pie Chart Puzzle",
-    "heroText": "Given a random pie chart, guess what the chart represents! MCQ of course."
+    "slugs": ["pie"],
+    "heroText": "You will be given a pie chart, with the only thing labelled being the percentages. Your job is to figure out what the pie chart is about. Most of these are quite easy, but you can get unlucky 50-50s with some of these. Good luck!"
   },
   "position": {
     "title": "Position Puzzle",
-    "heroText": "Given random points on a blank map, you must match them to their correct IRL locations!"
+    "slugs": ["geo"],
+    "heroText": "You will be given a set of points that represent real-world locations, but the map they were placed on has been removed. These points may also be randomly rotated. Your goal is to correctly identify and match each point to its actual location. Pay close attention to their relative positions and patterns—good luck!"
   },
   "rank": {
     "title": "Rank Master",
-    "heroText": "Rank the items in the correct order. Try to be accurate with your ranking!"
+    "slugs": ["geo", "stat"],
+    "heroText": "In this game, you'll rank items as they appear one by one. Each time an item appears, you must decide where to place it—1st, 2nd, 3rd, and so on. But beware: once an item is placed, it’s locked in! Without knowing the future items, you’ll need to predict, strategise, and take risks to get the most accurate ranking possible. Can you outsmart the unknown and become the Rank Master?"
   },
   "regex": {
     "title": "Regex Warrior",
-    "heroText": "Find the shortest regex that perfectly matches the given strings. The shorter the better!"
-  },
-  "selection": {
-    "title": "Selection Showdown",
-    "heroText": "Select all the correct answers from the list. Try to get a high score!"
-  },
-  "streak": {
-    "title": "Streak Master",
-    "heroText": "How many answers can you get in a row? Test your knowledge with these quizzes and see how high of a streak you can get!"
+    "slugs": ["geo", "stat", "name"],
+    "heroText": "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means your pattern matches the item and red text means doesn't match. The objective is to get all the texts to be the same color as their corresponding borders. Good luck!"
   }
 }
