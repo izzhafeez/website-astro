@@ -4,7 +4,7 @@
       {{ meetupName }}
     </h1>
     <h2 class=" my-4">
-      <div class="font-light text-xl text-ew-500 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {
+      <div class="font-light text-xl text-ew-700 dark:text-ew-300">DATE</div> {{ new Date(date).toLocaleDateString(undefined, {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
@@ -12,25 +12,25 @@
             }) }}
     </h2>
     <div class="grid content-center">
-      <label for="name" class="content-center rounded-lg font-light text-xl text-ew-500 dark:text-ew-300">YOUR NAME</label>
+      <label for="name" class="content-center rounded-lg font-light text-xl text-ew-700 dark:text-ew-300">YOUR NAME</label>
       <input v-model="name" type="text"
-        id="name" name="name" class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm p-2 border border-gray-500/50 dark:bg-da-bg rounded-md  focus:ring-ew-300 focus:ring-2" required>
+        id="name" name="name" class="transition duration-500 bg-gray-100 dark:bg-gray-700 max-w-sm p-2 border border-gray-500/50 dark:bg-da-bg rounded-md  focus:ring-ew-300 focus:ring-2" required>
     </div>
 
     <div class="my-4"></div>
     <div class="grid content-center">
-      <label for="time" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHAT TIME ARE YOU FREE?</label>
+      <label for="time" class="text-ew-700 dark:text-ew-300 font-light text-xl">WHAT TIME ARE YOU FREE?</label>
       <input type="time"
         id="startTime"
         onfocus="this.showPicker()" name="startTime"
         v-model="startTime"
-        class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm border-gray-300 w-full rounded-md dark:border-gray-600" required>
+        class="transition duration-500 bg-gray-100 dark:bg-gray-700 max-w-sm border-gray-300 w-full rounded-md dark:border-gray-600" required>
     </div>
 
     <!-- selecting start location -->
     <div class="my-4"></div>
     <div class="grid" v-if="startTime">
-      <label for="startLocation" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ startTime }}?</label>
+      <label for="startLocation" class="text-ew-700 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ startTime }}?</label>
       <div class="h-80 w-full">
         <l-map ref="map" v-model:zoom="zoom"
           :center="[1.35, 103.85]" @click="handleStartLocation" class="z-20">
@@ -49,18 +49,18 @@
 
     <div class="my-4"></div>
     <div class="grid content-center">
-      <label for="time" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHAT TIME MUST YOU LEAVE?</label>
+      <label for="time" class="text-ew-700 dark:text-ew-300 font-light text-xl">WHAT TIME MUST YOU LEAVE?</label>
       <input type="time"
         id="endTime"
         onfocus="this.showPicker()" name="endTime"
         v-model="endTime"
-        class="transition duration-500 bg-white dark:bg-gray-700 max-w-sm  border-gray-300 w-full rounded-md dark:border-gray-600" required>
+        class="transition duration-500 bg-gray-100 dark:bg-gray-700 max-w-sm  border-gray-300 w-full rounded-md dark:border-gray-600" required>
     </div>
 
     <!-- select end location -->
     <div class="my-4"></div>
     <div class="grid" v-if="endTime">
-      <label for="endLocation" class="text-ew-500 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ endTime }}?</label>
+      <label for="endLocation" class="text-ew-700 dark:text-ew-300 font-light text-xl">WHERE WILL YOU BE AT {{ endTime }}?</label>
       <div class="h-80 w-full">
         <l-map ref="map" v-model:zoom="zoom"
           :center="[1.35, 103.85]" @click="handleEndLocation" class="z-20">
@@ -81,7 +81,7 @@
   </form>
   <form class="max-w-3xl mx-auto p-2" v-on:submit.prevent="handleGenerateRecommendations">
     <h2 class="my-4 text-3xl font-extrabold bg-gradient-to-b from-ew-300 to-ew-500 text-transparent bg-clip-text">Recommendations</h2>
-    <label class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">WHICH DO YOU PREFER?</label>
+    <label class="my-auto text-ew-700 dark:text-ew-300 text-xl font-light">WHICH DO YOU PREFER?</label>
     <ul class="grid gap-2 ">
       <li v-for="rec in this.recommendationsData" v-on:click="handleLike(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer">
         <div class="w-20 text-center">
@@ -103,13 +103,13 @@
       Finalise Meetup
     </h2>
     <div class="flex gap-4 content-center" v-if="passwordHash">
-      <label for="name" class="my-auto text-ew-500 dark:text-ew-300 text-xl font-light">PASSWORD</label>
+      <label for="name" class="my-auto text-ew-700 dark:text-ew-300 text-xl font-light">PASSWORD</label>
       <input v-model="password" type="password"
-        id="password" name="password" class="transition duration-500 bg-white dark:bg-gray-700 p-2 border border-gray-500/50 rounded-md  focus:ring-ew-300 focus:ring-2" required>
+        id="password" name="password" class="transition duration-500 bg-gray-100 dark:bg-gray-700 p-2 border border-gray-500/50 rounded-md  focus:ring-ew-300 focus:ring-2" required>
     </div>
     <div v-if="validPassword">
       <div class="my-4"></div>
-      <label for="date" class="text-ew-500 dark:text-ew-300 text-xl font-light">WHERE WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
+      <label for="date" class="text-ew-700 dark:text-ew-300 text-xl font-light">WHERE WOULD YOU LIKE THE FINAL MEETUP TO BE?</label>
       <ul class="grid gap-2 ">
         <li v-for="rec in this.recommendationsData" v-on:click="handleChooseFinal(rec)" class="flex gap-2 p-4 border-[1px] border-li-alt dark:border-gray-700 hover:border-ew-500 dark:hover:border-ew-300 cursor-pointer" :class="{'bg-ew-500 text-white': timing === rec.timing && location === rec.location}">
           <div class="w-20 text-center">
