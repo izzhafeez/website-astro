@@ -22,7 +22,7 @@ const heroText = gamesData["city-hedger"].heroText;
       <h1 class="text-3xl font-bold text-center">Select a country to play</h1>
       <div class="my-auto flex flex-wrap gap-2 relative px-2 mt-2 max-w-6xl mx-auto">
         {Object.entries(boundsData).sort((a,b) => a[0].localeCompare(b[0])).filter(a => !!countryCodes[a[0] as keyof typeof countryCodes]).map(([countryCode, countryData]) => (
-          <a href={`/games/city-hedger/${countryCode}`} class="p-4 rounded-md bg-white dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
+          <a href={`/games/city-hedger/${countryCode}`} class="p-4 rounded-md bg-gray-100 dark:bg-gray-700 border-2 border-gray-500/20 hover:border-dt-500">
             {(countryCodes as {[code: string]: string})[countryCode]}
           </a>
         ))}
