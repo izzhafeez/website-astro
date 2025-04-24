@@ -44,7 +44,7 @@
       html: `
         <span class="text-white text-left"># Plays: ${leaderboard.plays}</span>
         <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-white">
             <tr>
               <th scope="col" class="px-6 py-3">Player</th>
               <th scope="col" class="px-6 py-3">${settingsLabel}</th>
@@ -52,7 +52,7 @@
             </tr>
           </thead>
           ${leaderboard.players.map((player, index) => `
-            <tr class="bg-white border-b">
+            <tr class="bg-gray-100 border-b">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${player.name}</th>
               <td class="px-6 py-4 font-light">${player.params}</td>
               <td class="px-6 py-4 font-light">${Math.abs(player.score)}</td>
@@ -66,6 +66,6 @@
   }
 </script>
 
-<button on:click={() => showLeaderboard()} class='bg-dt-300/20 py-1 px-2 rounded-md text-dt-500 dark:text-dt-300 hover:bg-dt-300/50'>
+<button on:click={() => showLeaderboard()} class='bg-dt-300/20 py-1 px-2 rounded-md text-dt-700 dark:text-dt-300 hover:bg-dt-300/50 border-2 border-dt-500/50'>
   Leaderboard
 </button>
