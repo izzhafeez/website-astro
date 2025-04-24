@@ -106,7 +106,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
         title: `Winners of each field`,
         html: `
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 mt-4">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+            <thead class="text-xs text-gray-700 uppercase bg-white">
               <tr>
                 <th scope="col" class="px-6 py-3">Field</th>
                 <th scope="col" class="px-6 py-3">Value</th>
@@ -114,7 +114,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
               </tr>
             </thead>
             ${entries.map((entry) => `
-              <tr class="bg-white border-b">
+              <tr class="bg-gray-100 border-b">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${entry.field}</th>
                 <td class="px-6 py-4 font-light">${entry.value}</td>
                 <td class="px-6 py-4 font-light">${entry.winners}</td>
@@ -184,7 +184,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
   const namesLength = deckData.map((card: {name: string}) => card.name.length).reduce((a: number, b: number) => a + b, 0);
 
   return <>
-    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-gray-100 dark:bg-gray-800 w-full -z-10 text-wrap">
+    <p className="fixed h-screen inset-0 overflow-clip font-mono transition duration-500 text-gray-200/50 dark:text-gray-700 px-2 text-center bg-white dark:bg-gray-800 w-full -z-10 text-wrap">
       {Array.from({length: Math.floor(10000/namesLength) }, () => names)}
     </p>
     <div className="p-2 max-w-6xl mx-auto">
@@ -194,7 +194,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
 
       {/* show all players */}
       {gameStatus !== 'UNJOINED' && <>
-      <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
+      <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players</h3>
       <ul className="grid gap-2">
         {Object.entries(players).map(([playerName, playerData]) => (
           <li key={playerName} className="">
@@ -208,7 +208,7 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
 
       {/* selected card */}
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: {isHigher ? 'Highest': 'Lowest'} wins!</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Round {roundId}/10: {isHigher ? 'Highest': 'Lowest'} wins!</h3>
       </>}
 
       {(gameStatus === 'PLAYING' || gameStatus === 'EVALUATING') && <div className='flex flex-wrap gap-2'>
@@ -227,10 +227,10 @@ function DataHedger({ id, deck, deckName }: { id: string, deck: any, deckName: s
 
       {/* played card */}
       {gameStatus === 'EVALUATING' && <>
-        <h3 className="text-dt-500 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
+        <h3 className="text-dt-700 dark:text-dt-300 font-bold text-xl my-2">Players played:</h3>
         <ul className="grid gap-2">
           {Object.entries(players).map(([name, playerData]) => (
-          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-white/50 dark:bg-gray-700/50`}>
+          <li key={name} className={`list-none p-4 border-[1px] rounded-md bg-gray-100/50 dark:bg-gray-700/50`}>
             <div className='flex w-full'>
               <h3 className={`flex text-xl font-bold mb-2 text-dt-500`}>
                 {deckData[playerData.played.card_id].name} ({name})
