@@ -17,7 +17,7 @@
   "connect": {
     "title": "Connections",
     "slugs": ["cat"],
-    "heroText": "Ever played connections? In this game, you will get several categories with 4 tiles each. Your job is to figure out which tiles belong together within a certain number of attempts. These can get quite difficult (especially some of the city ones), so good luck!"
+    "heroText": "Ever played connections? In this game, you will get several categories with 4 tiles each. Your job is to figure out which tiles belong together within a certain number of attempts. These can get quite difficult, so good luck!"
   },
   "jumble": {
     "title": "Jumble Master",

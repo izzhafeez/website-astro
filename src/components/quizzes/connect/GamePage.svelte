@@ -150,10 +150,10 @@
 <div in:fade={{}}>
   <div class="grid gap-2">
     <div class="grid gap-2">
-      {#each answered as answer}
-        <div class="border-[3px] border-ew-300 rounded-lg py-2 px-4 text-center">
-          <h3 class="font-bold text-xl">{capitalise(answer)}</h3>
-          <p>{answers[answer]}</p>
+      {#each answered as answer, i}
+        <div class={`border-[3px] rounded-lg py-2 px-4 text-center ${i < totalScore ? "border-ew-300" : "border-ns-300"}`}>
+          <h3 class="font-bold text-xl">{answer.split("_").map(capitalise).join(" ")}</h3>
+          <p>{answers[answer].join(", ")}</p>
         </div>
       {/each}
     </div>
