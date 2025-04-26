@@ -143,7 +143,7 @@
   }
 </script>
 
-<div class="my-8" in:fade={{}}>
+<div class="my-8">
   {#if !isOver}
   <div class="max-w-3xl mx-auto">
     <h2 class="text-3xl font-extrabold text-ns-500">ROUND {roundNumber}/5</h2>

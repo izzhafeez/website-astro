@@ -29,7 +29,7 @@
     }
   </script>
   
-  <div class="" in:fade={{}}>
+  <div class="">
     <label for="N" class="">Number of Names: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}

@@ -105,6 +105,7 @@
 </div>
 <div class="grid">
   <div class="mx-auto text-center text-lg">
+    <div>Comparing: {field}</div>
     <div>Streak: {streak}</div>
     <div>Previous: {oldStreak}</div>
     <div>Best: {bestStreak}</div>

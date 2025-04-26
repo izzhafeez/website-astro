@@ -11,7 +11,7 @@
     export let field: string;
   </script>
   
-  <div class="max-w-3xl mx-auto p-2" in:fade={{}}>
+  <div class="max-w-3xl mx-auto p-2">
     <label for="N" class="">How many to Rank: </label>
     <div class="flex gap-2 my-2">
       {#each possible_N as n (n)}

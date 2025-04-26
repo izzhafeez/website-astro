@@ -34,7 +34,7 @@
     }
 </script>
 
-<div in:fade={{}}>
+<div>
     <h1 class="my-8 mx-auto max-w-3xl text-5xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">DAILY CHALLENGE LINKS</h1>
 
     <!-- options from START_DATE to today -->

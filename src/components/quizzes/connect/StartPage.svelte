@@ -15,7 +15,7 @@
   }
 </script>
 
-<div in:fade={{}}>
+<div>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
     <input type="text" id="seed" bind:value={seed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2 w-24" />

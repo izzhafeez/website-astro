@@ -231,7 +231,7 @@ const getColor = (colorCode: string) => {
   if (colorCode == "white") return "#FFF";
   if (colorCode == "black") return "#000";
   const splitted = colorCode.split("-");
-  if (splitted.length !== 2) return "#000";
+  if (splitted.length !== 2) return "#FFF";
   return colors[splitted[0]][parseInt(splitted[1])];
 }
 

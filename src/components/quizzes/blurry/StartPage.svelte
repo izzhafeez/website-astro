@@ -13,7 +13,7 @@
     let possible_blurValues = ["XS", "SM", "MD", "LG", "XL", "2XL", "3XL"];
   </script>
   
-  <div class="" in:fade={{}}>
+  <div class="">
     <label for="N" class="">Font Size: </label>
     <div class="flex gap-2 my-2">
       {#each possible_fontSizes as n (n)}

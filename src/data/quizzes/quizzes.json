@@ -19,6 +19,11 @@
     "slugs": ["cat"],
     "heroText": "Ever played connections? In this game, you will get several categories with 4 tiles each. Your job is to figure out which tiles belong together within a certain number of attempts. These can get quite difficult, so good luck!"
   },
+  "digraph": {
+    "title": "Digraph Dilemma",
+    "slugs": ["geo"],
+    "heroText": "You will be given a set of locations, and your job is to guess the two-letter combination (e.g. 'ch') that all of them have. Be careful though, as it also must be the case that all the hidden locations don't contain it. If there are multiple answers, then all are accepted. Good luck!"
+  },
   "jumble": {
     "title": "Jumble Master",
     "slugs": ["geo", "stat", "name"],

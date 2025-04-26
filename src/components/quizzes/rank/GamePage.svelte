@@ -95,7 +95,7 @@
     $: actualOrder = isPlaying ? [] : [...guesses].map(a => a.value).sort();
 </script>
 
-<div in:fade={{}}>
+<div>
     <div class="max-w-4xl mx-auto">
         <!-- current one to rank -->
         {#if isPlaying}
@@ -115,7 +115,7 @@
 
         <!-- there are N empty places to click -->
         <div class="grid max-w-xl gap-4 mx-auto text-center" id="rankings">
-            Highest
+            Highest {field}
             {#each Array(parseInt(N)) as _, i}
                 <button
                     class:bg-black={!!guesses[i] && isPlaying} class:dark:bg-gray-100={!!guesses[i] && isPlaying}
@@ -127,7 +127,7 @@
                     disabled={!!guesses[i]}
                 >{!!guesses[i] ? `${guesses[i].name.split(" [")[0]} (${guesses[i].value})` : `Rank ${i+1}`}</button>
             {/each}
-            Lowest
+            Lowest {field}
         </div>
     </div>
 </div>

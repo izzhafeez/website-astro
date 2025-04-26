@@ -153,7 +153,10 @@
   </div>
   <div class='grid h-30 content-between'>
     <b class='text-sm '>{regexInput ? `Enter Answers Containing "${regexInput}" here` : "Enter Answer Here"}:</b>
-    <input class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:input={handleInput}/>
+    <div class="flex">
+      <input class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:input={handleInput}/>
+      <span class="my-auto">hi</span>
+    </div>
     <span class='text-sm '>{score}/{totalScore} guessed 
       (<button type='button' class='text-ns-500 hover:text-ns-300 underline cursor-pointer' on:click={handleEnd}>Give Up?</button>)</span>
   </div>

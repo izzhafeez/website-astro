@@ -137,7 +137,7 @@
     }
 </script>
 
-<div class="" in:fade={{}}>
+<div class="">
     <div class="max-w-4xl mx-auto">
         <!-- letters as tiles in a grid -->
         <div class="flex flex-wrap gap-2">

@@ -2,7 +2,6 @@
   import Leaderboard from "../Leaderboard.svelte";
   import { fly, fade } from 'svelte/transition';
 
-  export let isStart: boolean;
   export let seed: string;
   export let randomiseSeed: () => void;
   export let setTodaySeed: () => void;
@@ -12,7 +11,7 @@
   const instructions = "Given a color, guess the hexcode in RGB format. For example, pure red would be #FF0000. Your score is based on how close your guess is to the actual hexcode. You have 5 rounds. Good luck!";
 </script>
 
-<div in:fade={{}}>
+<div>
   <label for="seed" class="">Seed: </label>
   <div class="flex gap-2">
     <input type="text" id="seed" bind:value={seed} class="dark:bg-gray-700 rounded-md px-2 py-1 my-2 w-24" />

@@ -66,7 +66,7 @@
     $: checkAssignmentsCorrect();
 </script>
 
-<div in:fade={{}}>
+<div>
     <div class="max-w-4xl mx-auto">
         <!-- give one tile per chosen name -->
         <!-- color is based on assignments -->

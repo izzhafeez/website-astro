@@ -147,7 +147,7 @@
   }
 </script>
 
-<div in:fade={{}}>
+<div>
   <div class="grid gap-2">
     <div class="grid gap-2">
       {#each answered as answer, i}

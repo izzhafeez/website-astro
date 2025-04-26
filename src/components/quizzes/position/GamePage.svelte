@@ -94,7 +94,7 @@
   }
 </script>
 
-<div in:fade={{}}>
+<div>
   <div class="grid">
     <div class="mx-auto border-2 border-gray-500/50">
       <Canvas width=300 height=300>

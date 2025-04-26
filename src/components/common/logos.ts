@@ -19,6 +19,7 @@ import color from "../../img/logos/color.svg";
 import compare from "../../img/logos/compare.svg";
 import connect from "../../img/logos/connect.svg";
 import coordCompare from "../../img/logos/coord-compare.svg";
+import digraph from "../../img/logos/digraph.svg";
 import geoguessr from "../../img/logos/geoguessr.svg";
 import jumble from "../../img/logos/jumble.svg";
 import map from "../../img/logos/map.svg";
@@ -82,6 +83,7 @@ export default {
   compare,
   connect,
   "coord-compare": coordCompare,
+  digraph,
   geoguessr,
   jumble,
   map,
