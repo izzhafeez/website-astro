@@ -138,7 +138,7 @@
         {#each finalSlugs as slug}
             <a href={`/quizzes/${slug}`} class="lg:text-lg hover:underline rounded-lg">
                 <div class="flex gap-2 lg:gap-4">
-                    <img src={logos[slug.split("-")[0]].src} class="w-5 h-5 lg:w-10 lg:h-10 my-auto" alt="svg"/><span class="text-ns-500 lg:text-black lg:dark:text-white lg:bg-ns-500/50 lg:p-2 rounded-lg">{capitalise(slug.split("-")[0])}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}</span>
+                    <img src={logos[slug.split("-")[0]].src} class="w-5 h-5 lg:w-10 lg:h-10 my-auto" alt="svg"/><span class="text-ns-500 lg:text-black lg:dark:text-white lg:bg-ns-500/50 lg:p-2 rounded-lg">{quizData[slug.split("-")[0]].title}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}</span>
                 </div>
             </a>
         {/each}

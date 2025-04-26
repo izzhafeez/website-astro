@@ -39,7 +39,7 @@ let instructions = heroText;
       <div class="max-w-3xl mx-auto p-2 my-8">
         <h1 class="text-3xl font-black animate-text bg-gradient-to-r from-ns-500 via-ns-400 to-ns-300 bg-clip-text text-transparent">
           <img src={(logos as any)[quizType].src} class="w-10 h-10 inline align-middle"/>
-          {title.toUpperCase()}
+          <span class="align-middle">{title.toUpperCase()}</span>
         </h1>
         <p class="my-4">{instructions}</p>
         <MasterQuiz client:only="svelte" quiz={heroText ? quiz : ""} {params} />

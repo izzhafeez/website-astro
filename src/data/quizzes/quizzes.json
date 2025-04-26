@@ -42,7 +42,7 @@
   "proximate": {
     "title": "Proximate Puzzle",
     "slugs": ["geo"],
-    "heroText": "In this game, you will get a random point on the map. Your job is to name a location that is the closest to that point. Your score depends on how optimal your guess is (as compared to the theoretical best answer). You have 5 rounds. Good luck!"
+    "heroText": "In this game, you will get a random point on the map. Your job is to name a location that is the closest to that point. Your score depends on how optimal your guess is (as compared to the theoretical best answer). If there are multiple possible locations (e.g. San Jose), then the game will pick the nearest one. You have 5 rounds. Good luck!"
   },
   "rank": {
     "title": "Rank Master",
