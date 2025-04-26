@@ -22,7 +22,7 @@
   "digraph": {
     "title": "Digraph Dilemma",
     "slugs": ["geo"],
-    "heroText": "You will be given a set of locations, and your job is to guess the two-letter combination (e.g. 'ch') that all of them have. Be careful though, as it also must be the case that all the hidden locations don't contain it. If there are multiple answers, then all are accepted. Good luck!"
+    "heroText": "You will be given a set of locations, and your job is to guess the two-letter combination (e.g. 'ch') that all of them have. Be careful though, as it also must be the case that all the hidden locations don't contain it. If there are multiple answers, then any of them are accepted. Good luck!"
   },
   "jumble": {
     "title": "Jumble Master",
