@@ -15,6 +15,10 @@ const convertGeoSlug = (slug: string): string => {
         const pop = parseInt(rawPop) / 1000;
         if (pop > 999) return `${domain} 1M Cities`;
         if (pop > 0) return `${domain} ${pop.toFixed(0)}k Cities`;
+
+        if (domain == "World") return `${domain} 50k Cities`;
+        if (domain == "Europe") return `${domain} 10k Cities`;
+        if (domain == "North America") return `${domain} 10k Cities`;
         return `${domain} All Cities`;
     }
     if (L == 3) {
@@ -29,6 +33,10 @@ const convertGeoSlug = (slug: string): string => {
         const pop = parseInt(rawPop) / 1000;
         if (pop > 999) return `${domain} (${sub}) 1M Cities`;
         if (pop > 0) return `${domain} (${sub}) ${pop.toFixed(0)}k Cities`;
+
+        if (domain == "World") return `${domain} (${sub}) 50k Cities`;
+        if (domain == "Europe") return `${domain} (${sub}) 10k Cities`;
+        if (domain == "North America") return `${domain} (${sub}) 10k Cities`;
         return `${domain} (${sub}) All Cities`;
     }
     return convertSub(slug);
