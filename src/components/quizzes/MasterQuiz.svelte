@@ -11,6 +11,8 @@
     import ColorGuessr from "./color/ColorQuiz.svelte";
     import PiePuzzle from "./pie/PiePuzzle.svelte";
     import ConnectQuiz from "./connect/ConnectQuiz.svelte";
+    import ProximatePuzzle from "./proximate/ProximatePuzzle.svelte";
+    import SatelliteQuiz from "./satellite/SatelliteQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -49,6 +51,10 @@
         <PiePuzzle data={Object.entries(data)} {title} {instructions} {params}/>
     {:else if quizType == "connect"}
         <ConnectQuiz {title} {data} {instructions} {params}/>
+    {:else if quizType == "proximate"}
+        <ProximatePuzzle {title} {data} {instructions} {params}/>
+    {:else if quizType == "satellite"}
+        <SatelliteQuiz {data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

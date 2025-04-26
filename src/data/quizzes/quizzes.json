@@ -39,6 +39,11 @@
     "slugs": ["geo"],
     "heroText": "You will be given a set of points that represent real-world locations, but the map they were placed on has been removed. These points may also be randomly rotated. Your goal is to correctly identify and match each point to its actual location. Pay close attention to their relative positions and patterns—good luck!"
   },
+  "proximate": {
+    "title": "Proximate Puzzle",
+    "slugs": ["geo"],
+    "heroText": "In this game, you will get a random point on the map. Your job is to name a location that is the closest to that point. Your score depends on how optimal your guess is (as compared to the theoretical best answer). You have 5 rounds. Good luck!"
+  },
   "rank": {
     "title": "Rank Master",
     "slugs": ["geo", "stat"],
@@ -48,5 +53,10 @@
     "title": "Regex Warrior",
     "slugs": ["geo", "stat", "name"],
     "heroText": "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means your pattern matches the item and red text means doesn't match. The objective is to get all the texts to be the same color as their corresponding borders. Good luck!"
+  },
+  "satellite": {
+    "title": "Satellite Master",
+    "slugs": ["geo"],
+    "heroText": "How well do you know satellite images? In this game, you will be given a satellite image of a location. Your job is to guess its name, choosing from a set of answers below. This is pretty hard, so good luck!"
   }
 }

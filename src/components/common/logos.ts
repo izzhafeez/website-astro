@@ -23,10 +23,12 @@ import geoguessr from "../../img/logos/geoguessr.svg";
 import jumble from "../../img/logos/jumble.svg";
 import map from "../../img/logos/map.svg";
 import match from "../../img/logos/match.svg";
+import proximate from "../../img/logos/proximate.svg";
 import pie from "../../img/logos/pie.svg";
 import position from "../../img/logos/position.svg";
 import rank from "../../img/logos/rank.svg";
 import regex from "../../img/logos/regex.svg";
+import satellite from "../../img/logos/satellite.svg";
 import selection from "../../img/logos/selection.svg";
 import streak from "../../img/logos/streak.svg";
 
@@ -84,10 +86,12 @@ export default {
   jumble,
   map,
   match,
+  proximate,
   pie,
   position,
   rank,
   regex,
+  satellite,
   selection,
   streak,
   art,

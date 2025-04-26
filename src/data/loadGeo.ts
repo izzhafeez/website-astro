@@ -56,7 +56,7 @@ const loadGeo = async (geoSlug: string) => {
         }
         const isTop = rawPop[0] == "t";
 
-        const dataEntries = Object.entries(domainData as any).filter(([geoName, value]: [any, any]) => filter.includes(geoName.split("#")[1]));
+        const dataEntries = Object.entries(domainData as any).filter(([geoName, value]: [any, any]) => (!filter.length) || filter.includes(geoName.split("#")[1]));
 
         if (isTop) {
             const count = parseInt(rawPop.substring(3));
@@ -69,6 +69,7 @@ const loadGeo = async (geoSlug: string) => {
         const limited = dataEntries.filter(([key, value]: [any, any]) => value[2] > pop);
         return limited;
     })();
+
     return data;
 }
 
