@@ -64,7 +64,7 @@
         attribution: tileOptions.osm.attribution,
         maxNativeZoom: 17,
         maxZoom: 19,
-        minZoom: zoom || 10,
+        minZoom: zoom || 12,
       }
     )
 
@@ -89,7 +89,7 @@
 
   function createMap(container) {
     let location = locations[roundNumber];
-    bounds = L.latLngBounds(L.latLng(location[0]-0.5, location[1]-0.5), L.latLng(location[0]+0.5, location[1]+0.5));
+    bounds = L.latLngBounds(L.latLng(location[0]-0.15, location[1]-0.15), L.latLng(location[0]+0.15, location[1]+0.15));
     map = L.map(container, {
       preferCanvas: true,
       fullscreen: true,
@@ -196,7 +196,7 @@
     let maxLat = Math.max(correctLatLng.lat, guessedLatLng.lat);
     let minLng = Math.min(correctLatLng.lng, guessedLatLng.lng);
     let maxLng = Math.max(correctLatLng.lng, guessedLatLng.lng);
-    let newBounds = L.latLngBounds(L.latLng(minLat-0.5, minLng-0.5), L.latLng(maxLat+0.5, maxLng+0.5));
+    let newBounds = L.latLngBounds(L.latLng(minLat-0.15, minLng-0.15), L.latLng(maxLat+0.15, maxLng+0.15));
 
     // midpoint
     let midpoint = L.latLng(
@@ -216,7 +216,7 @@
       featureGroup.clearLayers();
       let location = locations[roundNumber];
       featureGroup.addLayer(createMarker(location, '#FA9E0D', 'Guess this location!'));
-      bounds = L.latLngBounds(L.latLng(location[0]-0.5, location[1]-0.5), L.latLng(location[0]+0.5, location[1]+0.5));
+      bounds = L.latLngBounds(L.latLng(location[0]-0.15, location[1]-0.15), L.latLng(location[0]+0.15, location[1]+0.15));
 
       isWaiting = false;
       guessInput = "";
