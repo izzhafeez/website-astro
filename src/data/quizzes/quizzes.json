@@ -65,7 +65,7 @@
     "heroText": "How well do you know satellite images? In this game, you will be given a satellite image of a location. Your job is to guess its name, choosing from a set of answers below. This is pretty hard, so good luck!"
   },
   "triangulate": {
-    "title": "Triangulation Puzzle",
+    "title": "Triangulate Puzzle",
     "slugs": ["geo"],
     "heroText": "The aim of the game is to guess the mystery location based on the distances to some other given locations (for e.g. you're supposed to guess location A, and you're given the distances from A to 3 other cities B, C, D). Your score will be evaluated based on how close your guess' distances are to the actual. Good luck!"
   },
