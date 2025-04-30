@@ -35,7 +35,6 @@
     lngs = data.map(x => x[1][0]).sort((a,b) => a - b);
 
     bounds = L.latLngBounds([[lats[lats.length-1], lngs[lngs.length-1]], [lats[0], lngs[0]]]);
-    console.log(bounds);
     maxDist = Math.max(
       L.latLng(lats[lats.length-1], lngs[lngs.length-1]).distanceTo(L.latLng(lats[0], lngs[0])),
       L.latLng(lats[lats.length-1], lngs[0]).distanceTo(L.latLng(lats[0], lngs[lngs.length-1]))
@@ -58,6 +57,8 @@
   }
 
   let handleStart = () => {
+    locations = [];
+    
     randomiser = seededRandom(seed);
     randomiser();
 
