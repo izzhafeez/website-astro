@@ -139,7 +139,7 @@
   <tbody>
     {#each locations.slice(1) as loc, i}
     <tr>
-      <td class="p-2">{loc[0]}</td>
+      <td class="p-2">{standardiseWithoutParen(loc[0])}</td>
       <td class="p-2">{otherDistances[i].toFixed(1)} km</td>
       {#if isWaiting}
       <th class="p-2">{bestYourDistances[i].toFixed(1)} km</th>
