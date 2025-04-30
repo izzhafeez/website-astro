@@ -62,7 +62,7 @@
         <DigraphQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "type"}
         <TypeQuiz names={data} {title} {instructions} {params}/>
-    {:else if quizType == "triangle"}
+    {:else if quizType == "triangulate"}
         <TriangleQuiz {data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
