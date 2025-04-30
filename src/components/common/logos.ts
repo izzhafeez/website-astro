@@ -32,6 +32,7 @@ import regex from "../../img/logos/regex.svg";
 import satellite from "../../img/logos/satellite.svg";
 import selection from "../../img/logos/selection.svg";
 import streak from "../../img/logos/streak.svg";
+import triangle from "../../img/logos/triangle.svg";
 import typeQuiz from "../../img/logos/type.svg";
 
 // portfolio
@@ -97,6 +98,7 @@ export default {
   satellite,
   selection,
   streak,
+  triangle,
   type: typeQuiz,
   art,
   courses,

@@ -167,7 +167,7 @@
   }
 
   const share = () => {
-    let link = `Digraph Dilemma: ${title}\n`;
+    let link = `${title}\n`;
     let seedString = seed.toString();
     if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
         link += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;

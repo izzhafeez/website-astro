@@ -15,6 +15,7 @@
     import SatelliteQuiz from "./satellite/SatelliteQuiz.svelte";
     import DigraphQuiz from "./digraph/DigraphQuiz.svelte";
     import TypeQuiz from "./type/TypeQuiz.svelte";
+    import TriangleQuiz from "./triangle/TriangleQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -61,6 +62,8 @@
         <DigraphQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "type"}
         <TypeQuiz names={data} {title} {instructions} {params}/>
+    {:else if quizType == "triangle"}
+        <TriangleQuiz {data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

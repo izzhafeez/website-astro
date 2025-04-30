@@ -34,7 +34,7 @@
     }
 
     let combinations = [];
-    let finalSlugs = [];
+    let finalSlugs = null;
     let standalones = [];
 
     onMount(async () => {
@@ -142,7 +142,9 @@
                 </div>
             </a>
         {/each}
-        {#if finalSlugs.length == 0}
+        {#if !finalSlugs}
+            <p class="text-lg">Loading...</p>
+        {:else if finalSlugs.length == 0}
             <p class="text-lg">Haiya no results la. Go search for something else.</p>
         {/if}
     </div>
@@ -155,7 +157,7 @@
             </a>
         {/if}
         <div class="my-auto">Page {page}</div>
-        {#if finalSlugs.length >= PER_PAGE || page < 1}
+        {#if !!finalSlugs && (finalSlugs.length >= PER_PAGE || page < 1)}
             <a href={`/quizzes?search=${encodeURIComponent(search)}&page=${page + 1}&exclude=${exclude ? "t" : ""}`} class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70">
                 &gt;
             </a>
