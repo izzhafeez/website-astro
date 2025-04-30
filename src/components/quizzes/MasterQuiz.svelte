@@ -14,6 +14,7 @@
     import ProximatePuzzle from "./proximate/ProximatePuzzle.svelte";
     import SatelliteQuiz from "./satellite/SatelliteQuiz.svelte";
     import DigraphQuiz from "./digraph/DigraphQuiz.svelte";
+    import TypeQuiz from "./type/TypeQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -58,6 +59,8 @@
         <SatelliteQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "digraph"}
         <DigraphQuiz {data} {title} {instructions} {params}/>
+    {:else if quizType == "type"}
+        <TypeQuiz names={data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

@@ -12,6 +12,7 @@
   export let data;
   export let params;
 
+  let hideColor = !!params.hideColor;
   let seed = parseInt(params.seed) || Math.floor(Math.random() * 100000000);
   let randomiser = seededRandom(seed);
   let locations = [];
@@ -82,7 +83,7 @@
 </script>
 
 {#if !isStart}
-  <StartPage {handleStart} bind:isStart={isStart} {randomiseSeed} {setTodaySeed} bind:seed={seed}/>
+  <StartPage {handleStart} bind:isStart={isStart} {randomiseSeed} {setTodaySeed} bind:seed={seed} bind:hideColor={hideColor}/>
 {:else}
-  <GamePage {digraph} {bounds} {cleanData} bind:isStart={isStart} {title} {seed} {randomiseSeed}/>
+  <GamePage {digraph} {bounds} {cleanData} bind:isStart={isStart} {title} {seed} {randomiseSeed} {hideColor}/>
 {/if}

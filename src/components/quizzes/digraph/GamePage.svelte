@@ -17,6 +17,7 @@
   export let seed;
   export let randomiseSeed;
   export let bounds;
+  export let hideColor;
 
   let map;
   let featureGroup = L.featureGroup();
@@ -90,7 +91,8 @@
     filteredData.forEach(([k, name, lat, lng, pop]) => {
       let color;
 
-      if (pop) color = getColor("city", pop);
+      if (hideColor) color = "white";
+      else if (pop) color = getColor("city", pop);
       else color = getColor("mrt", k);
 
       color = convertColor(color);
@@ -171,7 +173,7 @@
         link += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
     }
     link += `I got it ${isCorrect ? "right!" : "wrong :("}\n`;
-    link += `${window.location.href.split("?")[0]}?seed=${seed}`;
+    link += `${window.location.href.split("?")[0]}?seed=${seed}&hideColor=${hideColor}`;
     shareResults(link);
   }
 
@@ -188,9 +190,9 @@
 <div id="map" class="h-[30rem] w-full z-0" use:mapAction></div>
 
 {#if !hasGuessed}
-<div class="my-4 gap-2">
-  <label for="guess" class="text-lg font-bold mb-2 my-auto">2-letter combination:</label>
-  <input type="text" bind:value={guessInput} placeholder="Guess" class="border-2 border-gray-300 rounded-md p-2 dark:bg-gray-700 w-20"/>
+<div class="my-4 gap-2 grid">
+  <label for="guess" class="text-lg font-bold my-auto">2-letter combination:</label>
+  <input type="text" bind:value={guessInput} placeholder="Guess" class="border-2 border-gray-300 rounded-md p-2 dark:bg-gray-700 me-auto"/>
 </div>
 {:else}
 <div class="my-4 gap-2">

@@ -6,6 +6,23 @@ import { standardiseWithoutParen } from "./standardiseName";
 import quizData from "./quizzes/quizzes.json";
 import swal from "sweetalert2";
 
+function hilbertIndex(x: any, y: any, order = 16) {
+    let index = 0;
+    for (let i = order - 1; i >= 0; i--) {
+      const rx = (x >> i) & 1;
+      const ry = (y >> i) & 1;
+      index += (1 << (2 * i)) * ((3 * rx) ^ ry);
+      if (ry === 0) {
+        if (rx === 1) {
+          x = (1 << order) - 1 - x;
+          y = (1 << order) - 1 - y;
+        }
+        [x, y] = [y, x];
+      }
+    }
+    return index;
+  }
+
 const loadData = async (slug: string) => {
     const splitted = slug.split("-");
     const N = splitted.length;
@@ -40,12 +57,26 @@ const loadData = async (slug: string) => {
                     });
                     data = newData;
                 }
+                if (gameAccept == "type") {
+                    for (let item of data) {
+                        const h = hilbertIndex(item[1][1], item[1][0]);
+                        item.push(h);
+                    }
+                    data = data.sort((a: any, b: any) => {
+                        return a[2] - b[2];
+                    });
+                    data = data.map((item: any) => {
+                        return standardiseWithoutParen(item[0]);
+                    });
+                }
             } else if (type == "n") {
                 data = await loadName(splitted.slice(2).join("-"));
             } else if (type == "p") {
                 data = await loadPie(splitted.slice(2).join("-"));
             } else if (type == "c") {
                 data = await loadCat(splitted.slice(2).join("-"));
+            } else if (type == "t") {
+                // data = await loadGeo(splitted.slice(2).join("-"));
             }
 
             return data;

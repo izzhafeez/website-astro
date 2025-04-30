@@ -63,5 +63,10 @@
     "title": "Satellite Master",
     "slugs": ["geo"],
     "heroText": "How well do you know satellite images? In this game, you will be given a satellite image of a location. Your job is to guess its name, choosing from a set of answers below. This is pretty hard, so good luck!"
+  },
+  "type": {
+    "title": "Type Namer",
+    "slugs": ["geo", "stat", "name", "type"],
+    "heroText": "A classic themed typing test! You can also choose whether you want to remove spaces and/or upper cases. Try to get a fast time! Good luck!"
   }
 }
