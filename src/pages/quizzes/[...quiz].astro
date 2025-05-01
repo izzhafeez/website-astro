@@ -47,7 +47,7 @@ let instructions = heroText;
     }
     {!heroText && (
       <Hero label="QUIZZES" text={homeJson.quizzes.heroText} site="quizzes"/>
-      <QuizSelection client:load search={quiz?.replaceAll("-", " ").replaceAll("/", " ")}/>
+      <QuizSelection client:load search={quiz?.replaceAll("-", " ").replaceAll("/", " ")} load={true}/>
       )}
     <Footer site="quizzes"/>
   </div>

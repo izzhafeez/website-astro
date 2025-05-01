@@ -13,6 +13,7 @@
     export let search = "";
     export let page = 1;
     export let exclude = false;
+    export let load = false;
 
     const PER_PAGE = 50;
 
@@ -89,15 +90,22 @@
         let typedSlugs = [];
         for (let combination of combinations) {
             for (let typeSlug of slugs[combination[1]][combination[2]]) {
-                if (!exclude || !typeSlug.includes('0')) typedSlugs.push(`${combination[0]}-${combination[1][0]}-${typeSlug}`);
+                if (!exclude || !typeSlug.includes('0')) {
+                    typedSlugs.push([`${combination[0]}-${combination[1][0]}-${typeSlug}`, combination[3]]);
+                }
             }
         }
 
-        for (let slug of typedSlugs.sort((a,b) => a.length-b.length)) {
+        for (let slug of typedSlugs.sort((a: any, b: any) => b[1] == a[1] ? a[0].length - b[0].length : b[1] - a[1])) {
             if (i >= startingI && i <= endingI) {
-                finalSlugs.push(slug);
+                finalSlugs.push(slug[0]);
             }
             i++;
+        }
+
+        if (load) {
+            // navigate to the first slug
+            window.location.href = `/quizzes/${finalSlugs[0]}`;
         }
     });
 
