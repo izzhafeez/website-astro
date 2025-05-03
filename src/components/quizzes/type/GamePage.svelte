@@ -5,7 +5,7 @@
     import { shareResults } from '../../common/showResults';
     import party from 'party-js';
 
-    export let toType;
+    export let toType = "";
     export let title;
     export let seed;
     export let handleStart;
@@ -17,33 +17,33 @@
     let time = 0;
     let currCharIndex = 0;
     let isDone = false;
-    let startTime = null;
+    let startTime: any = null;
 
-    function handleKey(e: KeyboardEvent) {
+    function handleInput(event: InputEvent) {
+        const input = event.target as HTMLInputElement;
+        const typedChar = input.value;
+
         if (isDone) return;
 
         if (currCharIndex === 0) {
             startTime = Date.now();
         }
 
-        if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && e.key == toType.charAt(currCharIndex)) {
+        if (typedChar[typedChar.length-1] === toType.charAt(currCharIndex)) {
             currCharIndex++;
 
             if (currCharIndex >= toType.length) {
                 isDone = true;
-                // get timer element
                 const timer = document.getElementById("timer");
                 party.confetti(timer as HTMLElement, {
-                    count: party.variation.range(50, 100),
-                    size: party.variation.range(0.5, 1.5),
+                count: party.variation.range(50, 100),
+                size: party.variation.range(0.5, 1.5),
                 });
             }
+
+            input.value = ""; // Clear the input field
         }
     }
-
-    onMount(() => {
-        window.addEventListener("keydown", handleKey);
-    });
 
     // update time every 0.1s
     const interval = setInterval(() => {
@@ -74,17 +74,19 @@
         if (seedString.match(/20\d{2}(11|12|0\d)([0-2]\d|30|31)/)) {
             text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
         }
-        text += `I completed it in ${(time/1000).toFixed(1)}s!\n`;
+        text += `I completed it in ${(time/1000).toFixed(1)}s with a speed of ${((currCharIndex/(toType.length / N))/(time/60000)).toFixed(0)} names per minute!\n`;
         text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${N}&noSpace=${space ? "y" : ""}&lowerCase=${lowerCase ? "y" : ""}\n`;
         shareResults(text);
     }
 </script>
 
-<div>
+<div class="">
     <p id="timer" class="text-lg my-4">Timer: <span class="p-2 bg-dt-500 rounded-lg">{(time/1000).toFixed(1)}s</span></p>
-    <p class="font-mono text-wrap break-words">
+    <p id="timer" class="text-lg my-4">Names Per Minute (NPM): <span class="p-2 bg-dt-500 rounded-lg">{(((currCharIndex/(toType.length / N))/(time/60000)) || 0).toFixed(0)}</span></p>
+    Type: <input id="hiddenInput" class="my-4 dark:bg-gray-700 border-2 rounded-md border-gray-500/50" on:input={handleInput}/>
+    <button class="font-mono text-wrap break-words max-w-3xl text-left" on:click={() => document.getElementById('hiddenInput')?.focus()}>
         <span class="text-ew-500">{toType.slice(0, currCharIndex)}</span><span class="text-cc-300 underline">{toType.charAt(currCharIndex)}</span><span class="">{toType.slice(currCharIndex+1)}</span>
-    </p>
+    </button>
 
     <!-- buttons -->
     {#if isDone}

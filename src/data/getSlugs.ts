@@ -10,6 +10,12 @@ const getSlugs = async (type: string) => {
         (slugData as any).push(...catSlugs);
     }
 
+    if (type == "cat") {
+        let statSlugs = await fetch(`/data/slugs/stat-slugs.json`).then(res => res.json())
+        statSlugs = statSlugs.filter((s: string) => s.split("-").length == 1);
+        (slugData as any).push(...statSlugs);
+    }
+
     // localStorage.setItem(type, JSON.stringify(slugData));
     return slugData
 }

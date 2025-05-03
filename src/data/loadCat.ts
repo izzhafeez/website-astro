@@ -16,7 +16,7 @@ const loadCat = async (slug: string) => {
                 } else {
                     throw new Error("Failed to load data");
                 }
-            });
+            })
         }
 
     let data;

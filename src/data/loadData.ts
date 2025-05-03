@@ -2,6 +2,7 @@ import loadGeo from "./loadGeo";
 import loadName from "./loadName";
 import loadPie from "./loadPie";
 import loadCat from "./loadCat";
+import loadStat from "./loadStat";
 import { standardiseWithoutParen } from "./standardiseName";
 import quizData from "./quizzes/quizzes.json";
 import swal from "sweetalert2";
@@ -77,6 +78,23 @@ const loadData = async (slug: string) => {
                 data = await loadCat(splitted.slice(2).join("-"));
             } else if (type == "t") {
                 // data = await loadGeo(splitted.slice(2).join("-"));
+            } else if (type == "s") {
+                data = await loadStat(splitted.slice(2).join("-"));
+                if (gameAccept == "name" || gameAccept == "type") {
+                    data = data?.map(([name, value]: [any, any]) => {
+                        return standardiseWithoutParen(name).trim()
+                    });
+                }
+
+                if (gameAccept == "cat") {
+                    let newData = {};
+                    for (const [key, value] of data) {
+                        const filter = key.split("#")[1];
+                        if (!(newData as any)[filter]) (newData as any)[filter] = [];
+                        (newData as any)[filter].push(standardiseWithoutParen(key));
+                    }
+                    data = newData;
+                }
             }
 
             return data;
