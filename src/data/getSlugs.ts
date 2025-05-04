@@ -2,6 +2,16 @@ const getSlugs = async (type: string) => {
     let slugData = localStorage.getItem(type);
     // if (slugData) return JSON.parse(slugData);
 
+    if (type == "layout") {
+        let catSlugs = await fetch(`/data/slugs/cat-slugs.json`).then(res => res.json());
+        catSlugs = catSlugs.filter((s: string) => s.split("-").length >= 2).map((s: string) => {
+            const splitted = s.split("-");
+            return splitted.slice(0, splitted.length-1).join("-");
+        });
+        catSlugs = [...new Set(catSlugs)];
+        return catSlugs;
+    }
+
     slugData = await fetch(`/data/slugs/${type}-slugs.json`).then(res => res.json());
 
     if (type == "geo") {

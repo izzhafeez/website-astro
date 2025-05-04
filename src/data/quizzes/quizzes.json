@@ -29,6 +29,11 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "Ever played a word unscrambling game? In Jumble Master, each word gets scrambled (its letters are shuffled randomly) then all the scrambled words are mixed together into one big jumble. Your job is to untangle the chaos and figure out what the original words were. This is pretty hard, so good luck!"
   },
+  "layout": {
+    "title": "LayoutGuessr",
+    "slugs": ["layout"],
+    "heroText": "In this game, you will be given the positions of the 10 largest cities in a country/region. Your job is to guess the country/region based on the layout of the cities. The cities may be randomly rotated, so pay close attention to their relative positions and patterns. Good luck!"
+  },
   "map": {
     "title": "Map Mania",
     "slugs": ["geo"],

@@ -113,8 +113,10 @@
   let playAgain = () => {
     isStart = false;
     randomiseSeed();
+    locations = [];
     handleStart();
 
+    toGuess = locations[0];
     isWaiting = false;
     guessInput = "";
     chosen = null;

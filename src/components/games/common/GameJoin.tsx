@@ -13,7 +13,9 @@ const GameJoin = ({ title, instructions, name, setName, joinGame }: { title: str
         onChange={(e) => setName(e.target.value)}
         placeholder='Enter your name...'
         className="transition duration-500 bg-gray-100 dark:bg-gray-700 rounded-md me-2"/>
-      <button onClick={joinGame} className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white">Join Game</button>
+      <button
+        type="submit"
+        className="p-2 rounded-md bg-dt-500 dark:bg-dt-300 dark:text-black hover:opacity-80 text-white">Join Game</button>
     </form>
   </div>
 );

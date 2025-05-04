@@ -22,6 +22,7 @@ import coordCompare from "../../img/logos/coord-compare.svg";
 import digraph from "../../img/logos/digraph.svg";
 import geoguessr from "../../img/logos/geoguessr.svg";
 import jumble from "../../img/logos/jumble.svg";
+import layout from "../../img/logos/layout.svg";
 import map from "../../img/logos/map.svg";
 import match from "../../img/logos/match.svg";
 import proximate from "../../img/logos/proximate.svg";
@@ -88,6 +89,7 @@ export default {
   digraph,
   geoguessr,
   jumble,
+  layout,
   map,
   match,
   proximate,

@@ -33,7 +33,7 @@ const convertGeoSlug = (slug: string): string => {
             BUL: "bulgaria", CZE: "czech republic", HUN: "hungary", ROM: "romania", NOR: "norway",
             SER: "serbia", FIN: "finland", POR: "portugal", DEN: "denmark", SVN: "slovenia",
             MAL: "malta", EST: "estonia", LIT: "lithuania", LAT: "latvia", IRE: "ireland",
-            LUX: "luxembourg", ISL: "iceland", AND: "andorra", MON: "monaco", MLT: "malta",
+            LUX: "luxembourg", ISL: "iceland", AND: "andorra", MON: "montenegro", MLT: "malta",
             CRO: "croatia", SVK: "slovakia", BOS: "bosnia and herzegovina", ALB: "albania",
             MOL: "Moldova", MAC: "North Macedonia", KOS: "Kosovo", BEL: "Belarus", AZE: "Azerbaijan",
             CYP: "Cyprus", WY: "Wyoming", NE: "Nebraska", NM: "New Mexico", KS: "Kansas",

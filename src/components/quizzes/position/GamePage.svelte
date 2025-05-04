@@ -97,7 +97,7 @@
 <div>
   <div class="grid">
     <div class="mx-auto border-2 border-gray-500/50">
-      <Canvas width=300 height=300>
+      <Canvas width=500 height=500>
         <Layer {render} />
       </Canvas>
     </div>
