@@ -2,6 +2,9 @@
 import L from "leaflet";
 import getColor from "../../../utils/color";
 import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
+import 'leaflet.fullscreen';
+import fullSvg from '../../../img/common/full.svg?raw';
+
 let map;
 export let locations;
 export let defaultRegex;
@@ -40,6 +43,11 @@ function createMap(container) {
       maxZoom: 19,
     }
   ).addTo(m);
+  L.control
+	    .fullscreen({
+        content: fullSvg,
+      })
+      .addTo(m);
   return m;
 }
 
@@ -125,4 +133,5 @@ toShowTooltip.subscribe(value => {
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
+<link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
 <div id="map" class="h-[30rem] w-full z-0" use:mapAction></div>

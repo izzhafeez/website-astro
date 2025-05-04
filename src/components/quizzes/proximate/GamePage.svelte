@@ -7,6 +7,8 @@
   import Swal from 'sweetalert2';
   import toast from "../../common/toast";
   import showResults, { shareResults } from "../../common/showResults";
+  import 'leaflet.fullscreen';
+  import fullSvg from '../../../img/common/full.svg?raw';
 
   export let cleanData;
   export let locations;
@@ -77,6 +79,11 @@
         maxZoom: 19,
       }
     ).addTo(m);
+    L.control
+	    .fullscreen({
+        content: fullSvg,
+      })
+      .addTo(m);
     return m;
   }
 

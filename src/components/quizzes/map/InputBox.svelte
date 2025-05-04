@@ -13,7 +13,7 @@
   export let isUntimed;
   export let title;
 
-  $: fullScore = Object.values(answers).map(a => a.length).reduce((a, b)=>a+b, 0);
+  $: fullScore = Object.values(lookups).map(a => a.length).reduce((a, b)=>a+b, 0);
   let totalScore = null;
   let score = 0;
   $: time = totalScore * 10;
@@ -27,7 +27,7 @@
 
   async function handleEnd(_) {
     toStop = true;
-    for (let i=0; i<fullScore; i++) {
+    for (let i=0; i<totalScore; i++) {
       toShowTooltip.set(i);
     }
 

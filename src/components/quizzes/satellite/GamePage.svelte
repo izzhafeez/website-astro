@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import L from "leaflet";
   import party from 'party-js';
   import { Canvas, Layer } from 'svelte-canvas';
@@ -6,7 +6,11 @@
   import { fly, fade } from 'svelte/transition';
   import Swal from 'sweetalert2';
   import toast from "../../common/toast";
+  import { tick } from 'svelte';
+  import { onMount } from "svelte";
   import showResults, { shareResults } from "../../common/showResults";
+  import 'leaflet.fullscreen';
+  import fullSvg from '../../../img/common/full.svg?raw';
 
   export let cleanData;
   export let locations;
@@ -63,7 +67,7 @@
       {
         attribution: tileOptions.osm.attribution,
         maxNativeZoom: 17,
-        maxZoom: 19,
+        maxZoom: 20,
         minZoom: zoom || 12,
       }
     )
@@ -92,10 +96,14 @@
     bounds = L.latLngBounds(L.latLng(location[0]-0.15, location[1]-0.15), L.latLng(location[0]+0.15, location[1]+0.15));
     map = L.map(container, {
       preferCanvas: true,
-      fullscreen: true,
       maxBounds: bounds,
       maxBoundsViscosity: 1
     }).setView(location, 10);
+    L.control
+	    .fullscreen({
+        content: fullSvg,
+      })
+      .addTo(map);
     setTile();
   }
 
@@ -242,21 +250,21 @@
     randomiseSeed();
   }
 </script>
-
 <svelte:window on:resize={resizeMap}/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
-<div id="map" class="h-[30rem] w-full z-0" use:mapAction></div>
+<link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
+<div id="map" class={`h-[30rem] z-0 left-0`} use:mapAction></div>
 
 <!-- all the location names that match -->
 {#if !isWaiting}
-<div class="mt-4 grid">
+<div class="mt-4 grid z-10">
   <label class="text-lg">Search:</label>
   <input type="text" id="search-bar" disabled={isWaiting} bind:value={guessInput} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-2 me-auto"/>
 </div>
 
-<div class="my-4 grid">
+<div class="my-4 grid z-10">
   <label class="text-lg">Click to Select (type in search bar to show different results):</label>
   <div class="flex flex-wrap gap-2">
   {#each Object.keys(cleanData).filter(name => name.toLowerCase().includes(guessInput.toLowerCase())).slice(0, 20) as name}
