@@ -27,7 +27,7 @@
   "jumble": {
     "title": "Jumble Master",
     "slugs": ["geo", "stat", "name"],
-    "heroText": "Ever played a word unscrambling game? In Jumble Master, each word gets scrambled (its letters are shuffled randomly) then all the scrambled words are mixed together into one big jumble. Your job is to untangle the chaos and figure out what the original words were. This is pretty hard, so good luck!"
+    "heroText": "Ever played a word unscrambling game? In Jumble Master, each word gets scrambled (its letters are shuffled randomly) then all the scrambled words are mixed together into one big jumble. Your job is to untangle the chaos and figure out what the original words were. This is pretty hard, so if you want something simpler, just play the Scramble quizzes!"
   },
   "layout": {
     "title": "LayoutGuessr",
@@ -68,6 +68,11 @@
     "title": "Satellite Master",
     "slugs": ["geo"],
     "heroText": "How well do you know satellite images? In this game, you will be given a satellite image of a location. Your job is to guess its name, choosing from a set of answers below. This is pretty hard, so good luck!"
+  },
+  "scramble": {
+    "title": "Scramble Master",
+    "slugs": ["geo", "stat", "name"],
+    "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough haha. Good luck!"
   },
   "triangulate": {
     "title": "Triangulate Puzzle",

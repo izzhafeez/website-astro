@@ -76,7 +76,7 @@
     }
 </script>
 
-<div class="my-8 mx-auto max-w-3xl px-2">
+<div class="my-8 mx-auto max-w-3xl">
 {#if isStart}
     <GamePage {chosen} bind:isStart={isStart} {title} {MAX_LENGTH} {scrambleFactor} {mixFactor} {randomiser} {seed} {randomiseSeed}/>
 {:else}

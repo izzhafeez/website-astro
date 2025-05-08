@@ -31,6 +31,7 @@ import position from "../../img/logos/position.svg";
 import rank from "../../img/logos/rank.svg";
 import regex from "../../img/logos/regex.svg";
 import satellite from "../../img/logos/satellite.svg";
+import scramble from "../../img/logos/scramble.svg";
 import selection from "../../img/logos/selection.svg";
 import streak from "../../img/logos/streak.svg";
 import triangulate from "../../img/logos/triangle.svg";
@@ -98,6 +99,7 @@ export default {
   rank,
   regex,
   satellite,
+  scramble,
   selection,
   streak,
   triangulate,

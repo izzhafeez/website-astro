@@ -35,7 +35,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/**/*.jpg')
 ---
 
 <a role="button" href={href} id={key} class={`reveal load-hidden group w-full p-4 rounded-lg flex gap-4 bg-gray-100/70 transition duration-500 dark:bg-gray-700/70 border-[1px] border-gray-100/0 ${borderColor}`} data-pagefind-ignore="all">
-  {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="130" height="100" class="h-24 w-32 object-cover aspect-video"/>}
+  {imgPath && <Image src={images[`/src${imgPath}`]()} alt={title} width="250" height="200" class="h-24 w-32 object-cover aspect-video"/>}
   <div>
     <h2 class={`transition-colors duration-500 text-gray-900 dark:text-white ${textColor} font-medium flex items-center gap-2`}>  
       {toName(title)} 

@@ -13,6 +13,7 @@
     import ConnectQuiz from "./connect/ConnectQuiz.svelte";
     import ProximatePuzzle from "./proximate/ProximatePuzzle.svelte";
     import SatelliteQuiz from "./satellite/SatelliteQuiz.svelte";
+    import ScrambleQuiz from "./scramble/ScrambleQuiz.svelte";
     import DigraphQuiz from "./digraph/DigraphQuiz.svelte";
     import TypeQuiz from "./type/TypeQuiz.svelte";
     import TriangleQuiz from "./triangle/TriangleQuiz.svelte";
@@ -67,6 +68,8 @@
         <TriangleQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "layout"}
         <LayoutQuiz {data} {title} {instructions} {params}/>
+    {:else if quizType == "scramble"}
+        <ScrambleQuiz names={data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}
