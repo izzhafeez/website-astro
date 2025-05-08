@@ -8,13 +8,16 @@ const convertLayoutSlug = (slug: string) => {
     if (domain == "Us") domain = "United States";
     if (domain == "Uk") domain = "United Kingdom";
 
-    if (splitted.length == 1) {
+    if (splitted.length == 1 && !["North America", "Europe"].includes(domain)) {
         return `${domain} Subdivisions`;
     }
 
-    const sub = splitted[1].split("_").map(capitalise).join(" ");
+    let sub = "";
+    if (splitted.length > 1) {
+        sub = splitted[1].split("_").map(capitalise).join(" ");
+    }
 
-    return `${domain} (${sub}) Countries`;
+    return !!sub ? `${domain} (${sub}) Countries` : `${domain} Countries`;
 } 
 
 export default convertLayoutSlug;

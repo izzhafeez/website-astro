@@ -92,12 +92,14 @@
       title: 'Copied to clipboard'
     });
   }
+
+  $: size = Math.min(window.innerWidth, window.innerHeight) * 0.9;
 </script>
 
 <div>
   <div class="grid">
     <div class="mx-auto border-2 border-gray-500/50">
-      <Canvas width=500 height=500>
+      <Canvas width={size} height={size}>
         <Layer {render} />
       </Canvas>
     </div>

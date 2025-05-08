@@ -7,6 +7,7 @@
   import { Canvas, Layer } from 'svelte-canvas';
   import { shareResults } from "../../common/showResults";
   import convertSub from "../../../data/convert/convertSub";
+  import { onMount, tick } from "svelte";
 
   export let randomData: any[];
   export let randomNames: any[];
@@ -94,11 +95,13 @@
     guessInput = '';
     handleNext();
   }
+
+  $: size = Math.min(window.innerWidth, window.innerHeight) * 0.9;
 </script>
 
 <div class="grid" id="canvas">
   <div class="mx-auto border-2 border-gray-500/50">
-    <Canvas width=500 height=500>
+    <Canvas width={size} height={size}>
       <Layer {render} />
     </Canvas>
   </div>
@@ -107,7 +110,7 @@
 {#if !isWaiting}
 <div class="mt-4 grid z-10">
   <label class="text-lg">Search:</label>
-  <input type="text" id="search-bar" disabled={isWaiting} bind:value={guessInput} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-2 me-auto"/>
+  <input type="text" id="search-bar" disabled={isWaiting} bind:value={guessInput} placeholder="Search a Region/Country" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-2 me-auto"/>
 </div>
 
 <div class="my-4 grid z-10">

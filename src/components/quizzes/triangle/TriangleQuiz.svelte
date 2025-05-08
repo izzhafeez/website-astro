@@ -48,16 +48,22 @@
 
     isStart = true;
 
-    // choose 3 random locations
-    locations = [];
-    let visited = new Set();
-    while (locations.length < N+1) {
-      let index = Math.floor(randomiser() * data.length);
-      let name = standardiseWithoutParen(data[index][0]);
-      if (!visited.has(index) && cleanData[name].length == 1) {
-        visited.add(index);
-        locations.push(data[index]);
-      }
+    // choose first location
+    let location = data[Math.floor(randomiser() * data.length)];
+
+    // choose N nearest locations
+    locations = [location];
+    let dataByDistance = [];
+    for (let i = 0; i < data.length; i++) {
+      let lat = data[i][1][1];
+      let lng = data[i][1][0];
+      let distance = L.latLng(location[1][1], location[1][0]).distanceTo(L.latLng(lat, lng));
+      dataByDistance.push([data[i], distance]);
+    }
+    dataByDistance.sort((a, b) => a[1] - b[1]);
+
+    for (let i = 0; i < N - 1; i++) {
+      locations.push(dataByDistance[i + 1][0]);
     }
   }
 
@@ -75,5 +81,5 @@
 {#if !isStart}
   <StartPage {handleStart} {randomiseSeed} {setTodaySeed} bind:seed={seed} bind:N={N}/>
 {:else}
-  <GamePage bind:isStart={isStart} {locations} {title} {seed} {cleanData} {N} {randomiseSeed} {handleStart} {randomiser}/>
+  <GamePage bind:isStart={isStart} bind:locations={locations} {title} {seed} {cleanData} {N} {randomiseSeed} {handleStart} {randomiser}/>
 {/if}

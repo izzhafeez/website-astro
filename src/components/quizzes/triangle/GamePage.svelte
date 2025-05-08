@@ -117,6 +117,11 @@
     handleStart();
 
     toGuess = locations[0];
+
+    otherDistances = locations.slice(1).map((loc) => {
+      return getDistance(loc[1], toGuess[1]);
+    })
+
     isWaiting = false;
     guessInput = "";
     chosen = null;
