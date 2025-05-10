@@ -4,6 +4,11 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "You will be given 5 blurred texts. Try your best to figure out what they say and type your guess. After submitting, you will be scored based on your accuracy. Feel free to adjust the blur level and font size to make it easier or harder. Good luck!"
   },
+  "cipher": {
+    "title": "Cipher Master",
+    "slugs": ["geo", "stat", "name"],
+    "heroText": "You will be given several names that have been encoded with a simple cipher. Each letter has been replaced with a number, and your job is to find out which numbers represent what. There is a one-to-one mapping, and it is case-insensitive. Good luck!"
+  },
   "color": {
     "title": "ColorGuessr",
     "slugs": [],

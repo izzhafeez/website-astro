@@ -30,7 +30,7 @@ const convertGeoSlug = (slug: string): string => {
             SPA: "Spain", TUR: "Turkey", RUS: "Russia", GBR: "United Kingdom", GER: "Germany",
             GRE: "Greece", UKR: "Ukraine", ITA: "Italy", FRA: "France", POL: "Poland",
             SWE: "sweden", BLG: "belgium", NET: "netherlands", SWI: "switzerland", AUS: "austria",
-            BUL: "bulgaria", CZE: "czech republic", HUN: "hungary", ROM: "romania", NOR: "norway",
+            BUL: "bulgaria", CZE: "czechia", HUN: "hungary", ROM: "romania", NOR: "norway",
             SER: "serbia", FIN: "finland", POR: "portugal", DEN: "denmark", SVN: "slovenia",
             MAL: "malta", EST: "estonia", LIT: "lithuania", LAT: "latvia", IRE: "ireland",
             LUX: "luxembourg", ISL: "iceland", AND: "andorra", MON: "montenegro", MLT: "malta",
@@ -46,7 +46,7 @@ const convertGeoSlug = (slug: string): string => {
             NC: "North Carolina", VA: "Virginia", GA: "Georgia", FL: "Florida", TX: "Texas",
             CA: "California", WA: "Washington", NY: "New York", NJ: "New Jersey", MA: "Massachusetts",
             MD: "Maryland", CO: "Colorado", UT: "Utah", AZ: "Arizona", MN: "Minnesota",
-            AL: "Alabama"
+            AL: "Alabama", OK: "Oklahoma", NV: "Nevada"
         }[sub] || sub;
         sub = capitalise(sub);
 

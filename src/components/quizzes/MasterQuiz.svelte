@@ -18,6 +18,7 @@
     import TypeQuiz from "./type/TypeQuiz.svelte";
     import TriangleQuiz from "./triangle/TriangleQuiz.svelte";
     import LayoutQuiz from "./layout/LayoutQuiz.svelte";
+    import CipherQuiz from "./cipher/CipherQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -70,6 +71,8 @@
         <LayoutQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "scramble"}
         <ScrambleQuiz names={data} {title} {instructions} {params}/>
+    {:else if quizType == "cipher"}
+        <CipherQuiz names={data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

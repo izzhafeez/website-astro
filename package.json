@@ -79,6 +79,7 @@
     "tsparticles-slim": "^2.12.0",
     "typed.js": "^2.1.0",
     "typescript": "^5.3.3",
+    "unidecode": "^1.1.0",
     "vite": "^6.2.0",
     "vue": "^3.4.20",
     "vue-multiselect": "^2.1.9",
