@@ -51,7 +51,7 @@
     const handleInput = (letter, i, j) => (e) => {
         let value = e.target.value;
         if (value.length > 1) {
-            value = value.charAt(1);
+            value = value.slice(1);
         }
         guess[letter] = value;
 
@@ -93,13 +93,13 @@
         let nextLineInput = document.getElementById((i + 1) + "-0");
         let firstInput = document.getElementById("0-0");
         if (nextInput && !nextInput.disabled) {
-            nextInput.focus();
+            focusAndMoveCursorToEnd(nextInput);
         } else if (nextNextInput) {
-            nextNextInput.focus();
+            focusAndMoveCursorToEnd(nextNextInput);
         } else if (nextLineInput) {
-            nextLineInput.focus();
+            focusAndMoveCursorToEnd(nextLineInput);
         } else if (firstInput) {
-            firstInput.focus();
+            focusAndMoveCursorToEnd(firstInput);
         }
     }
 
@@ -109,15 +109,38 @@
         let prevLineInput = document.getElementById((i - 1) + "-0");
         let lastInput = document.getElementById((encodedNames.length - 1) + "-" + (encodedNames[encodedNames.length - 1].length - 1));
         if (prevInput && !prevInput.disabled) {
-            prevInput.focus();
+            focusAndMoveCursorToEnd(prevInput);
         } else if (prevPrevInput) {
-            prevPrevInput.focus();
+            focusAndMoveCursorToEnd(prevPrevInput);
         } else if (prevLineInput) {
-            prevLineInput.focus();
+            focusAndMoveCursorToEnd(prevLineInput);
         } else if (lastInput) {
-            lastInput.focus();
+            focusAndMoveCursorToEnd(lastInput);
         }
     }
+
+    const focusAndMoveCursorToEnd = (el) => {
+        if (!el) return;
+
+        el.focus();
+
+        // For input or textarea
+        if (el.setSelectionRange && typeof el.value === "string") {
+            const length = el.value.length;
+            // Slight delay can help if the element was just rendered
+            setTimeout(() => el.setSelectionRange(length, length), 0);
+        }
+
+        // For contenteditable (if used)
+        else if (el.isContentEditable) {
+            const range = document.createRange();
+            const sel = window.getSelection();
+            range.selectNodeContents(el);
+            range.collapse(false);
+            sel.removeAllRanges();
+            sel.addRange(range);
+        }
+    };
 
     const handleGuess = () => {
         const reverseLetterIndices = {};
