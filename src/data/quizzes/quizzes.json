@@ -7,7 +7,7 @@
   "cipher": {
     "title": "Cipher Master",
     "slugs": ["geo", "stat", "name"],
-    "heroText": "You will be given several names that have been encoded with a simple cipher. Each letter has been replaced with a number, and your job is to find out which numbers represent what. There is a one-to-one mapping, and it is case-insensitive. Good luck!"
+    "heroText": "You will be given several names that have been encoded with a simple cipher. Each letter has been replaced with a number, and your job is to find out which numbers represent what. No two numbers can represent the same letter, and no two letters can represent the same number. Good luck!"
   },
   "color": {
     "title": "ColorGuessr",

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
     import { fly, fade } from 'svelte/transition';
     import Swal from 'sweetalert2';
     import { shareResults } from '../../common/showResults';
@@ -23,8 +23,9 @@
     let isWaiting = false;
     let guess = {};
     let score = 0;
+    let clashingNumbers = new Set();
 
-    $:{
+    $: {
         bagOfLetters = chosen.join('').split('').map(l => l.toLowerCase()).filter(l => l != " ");
         uniqueLetters = [...new Set(bagOfLetters)].sort((a,b) => randomiser() - 0.5);
         letterIndices = {};
@@ -54,9 +55,39 @@
         }
         guess[letter] = value;
 
+        let numberCounts = {};
+        for (let key of Object.keys(guess)) {
+            let g = guess[key].toLowerCase();
+            if (g.length == 0) continue;
+            if (numberCounts[g]) {
+                numberCounts[g]++;
+            } else {
+                numberCounts[g] = 1;
+            }
+        }
+        clashingNumbers = new Set();
+        for (let key of Object.keys(numberCounts)) {
+            if (numberCounts[key] > 1) {
+                clashingNumbers.add(key);
+            }
+        }
+
         if (value.length == 0) return;
 
         // focus on the next input
+        navigateNext(i, j);
+    }
+
+    const handleNavigate = (i, j) => (e) => {
+        // handle right arrows and left arrows
+        if (e.key == "ArrowLeft") {
+            navigatePrev(i, j);
+        } else if (e.key == "ArrowRight") {
+            navigateNext(i, j);
+        }
+    }
+
+    const navigateNext = (i, j) => {
         let nextInput = document.getElementById(i + "-" + (j + 1));
         let nextNextInput = document.getElementById(i + "-" + (j + 2));
         let nextLineInput = document.getElementById((i + 1) + "-0");
@@ -71,6 +102,23 @@
             firstInput.focus();
         }
     }
+
+    const navigatePrev = (i, j) => {
+        let prevInput = document.getElementById(i + "-" + (j - 1));
+        let prevPrevInput = document.getElementById(i + "-" + (j - 2));
+        let prevLineInput = document.getElementById((i - 1) + "-0");
+        let lastInput = document.getElementById((encodedNames.length - 1) + "-" + (encodedNames[encodedNames.length - 1].length - 1));
+        if (prevInput && !prevInput.disabled) {
+            prevInput.focus();
+        } else if (prevPrevInput) {
+            prevPrevInput.focus();
+        } else if (prevLineInput) {
+            prevLineInput.focus();
+        } else if (lastInput) {
+            lastInput.focus();
+        }
+    }
+
     const handleGuess = () => {
         const reverseLetterIndices = {};
         Object.keys(letterIndices).forEach((key) => {
@@ -154,10 +202,11 @@
                         maxlength="2"
                         bind:value={guess[letter]}
                         on:input={handleInput(letter, i, j)}
+                        on:keydown={handleNavigate(i, j)}
                         class="w-8 h-8 text-center text-xl font-mono border-b-2 border-gray-500 dark:bg-gray-700"
                         class:opacity-0={letter == -1}
                         class:text-ew-500={corrects[letter] && isWaiting}
-                        class:text-ns-500={!corrects[letter] && isWaiting}
+                        class:text-ns-500={(!corrects[letter] && isWaiting) || (clashingNumbers.has(guess[letter]) && !isWaiting)}
                         disabled={letter == -1}/>
                     <span>{!isWaiting ? (letter == -1 ? " " : letter) : (letter == -1 ? " " : chosen[i][j])}</span>
                 </div>
