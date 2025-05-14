@@ -24,6 +24,11 @@
     "slugs": ["cat"],
     "heroText": "Ever played connections? In this game, you will get several categories with 4 tiles each. Your job is to figure out which tiles belong together within a certain number of attempts. These can get quite difficult, so good luck!"
   },
+  "coverage": {
+    "title": "Coverage Master",
+    "slugs": ["geo"],
+    "heroText": "In this gamemode, you don’t have to name every location individually. Instead, each correct guess covers nearby areas — either by circular radius or latitude/longitude range. Your score depends on how many locations you cover. You can also filter the map to only include specific locations (like cities containing 'an'). Good luck!"
+  },
   "digraph": {
     "title": "Digraph Dilemma",
     "slugs": ["geo"],
