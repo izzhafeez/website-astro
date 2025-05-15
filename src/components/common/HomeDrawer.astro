@@ -55,7 +55,7 @@ type Logos = {
       </button>
       <ul id="dropdown-quizzes" class="hidden pt-2 space-y-2">
         {Object.entries(quizzesData).map(([key, value]) => (<li>
-          <a href={`/quizzes/${key}`} class="flex items-center p-2 rounded-lg hover:bg-white dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-ns-500">
+          <a href={`/quizzes?search=${key}`} class="flex items-center p-2 rounded-lg hover:bg-white dark:hover:bg-gray-700 group border-2 transition transition-color border-black/0 hover:border-ns-500">
             <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>
             <h5 class="ms-3">{capitalise(value.title)}</h5>
           </a>

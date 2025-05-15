@@ -13,6 +13,7 @@
   let lookups = {};
   let locationDict = {};
   let locationList = [];
+  let isFullscreen = false;
 
   for (let [key, value] of data) {
     // extract between brackets []
@@ -51,6 +52,8 @@
 </script>
 
 <div class="max-w-6xl mx-auto">
-  <InputBox answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title}/>
-  <LLMap locations={locationList} defaultRegex={params.selection || ""} isUntimed={params.isUntimed}/>
+  <div class={isFullscreen ? "fixed top-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
+    <InputBox answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title}/>
+  </div>
+  <LLMap locations={locationList} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} bind:isFullscreen={isFullscreen}/>
 </div>

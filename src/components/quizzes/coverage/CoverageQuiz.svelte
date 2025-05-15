@@ -15,6 +15,7 @@
   let locationList = [];
   let coverageDist = params.coverageDist || 100;
   let coverageType = params.coverageType || "Circle";
+  let isFullscreen = false;
 
   for (let [key, value] of data) {
     // extract between brackets []
@@ -55,6 +56,8 @@
 </script>
 
 <div class="max-w-6xl mx-auto">
-  <InputBox answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title} bind:coverageDist={coverageDist} bind:coverageType={coverageType}/>
-  <LLMap locations={locationList} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {coverageDist} {coverageType}/>
+  <div class={isFullscreen ? "fixed top-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
+    <InputBox answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title} bind:coverageDist={coverageDist} bind:coverageType={coverageType}/>
+  </div>
+  <LLMap locations={locationList} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {coverageDist} {coverageType} bind:isFullscreen={isFullscreen}/>
 </div>

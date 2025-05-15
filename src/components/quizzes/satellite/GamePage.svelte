@@ -36,6 +36,7 @@
   let bounds;
   let tile;
   let DEFAULT_BOUNDS = L.latLngBounds(L.latLng(latLngBound[0]-10, latLngBound[2]-10), L.latLng(latLngBound[1]+10, latLngBound[3]+10));
+  let isFullscreen = false;
 
   const tileOptions = {
     osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -109,6 +110,14 @@
 
   function mapAction(container) {
     createMap(container);
+
+    map._events.enterFullscreen[0].fn = () => {
+      isFullscreen = true;
+    }
+    map._events.exitFullscreen[0].fn = () => {
+      isFullscreen = false;
+    }
+
     featureGroup.addLayer(createMarker(locations[roundNumber], '#FA9E0D', 'Guess a nearby location!'));
     featureGroup.addTo(map);
     // map.fitBounds(bounds);
@@ -258,21 +267,22 @@
 <div id="map" class={`h-[30rem] z-0 left-0`} use:mapAction></div>
 
 <!-- all the location names that match -->
+<div class={isFullscreen ? "fixed w-full bottom-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
 {#if !isWaiting}
-<div class="mt-4 grid z-10">
-  <label class="text-lg">Search:</label>
-  <input type="text" id="search-bar" disabled={isWaiting} bind:value={guessInput} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-2 me-auto"/>
-</div>
-
-<div class="my-4 grid z-10">
-  <label class="text-lg">Click to Select (type in search bar to show different results):</label>
-  <div class="flex flex-wrap gap-2">
-  {#each Object.keys(cleanData).filter(name => name.toLowerCase().includes(guessInput.toLowerCase())).slice(0, 20) as name}
-    <button class={`p-2 rounded-lg hover:text-white ${chosen == name ? "bg-ew-500" : "bg-ns-500/50 hover:bg-ns-500"}`} on:click={() => {chosen = name}}>{name}</button>
-  {/each}
+  <div class="mt-4 grid z-10">
+    <label class="text-lg">Search:</label>
+    <input type="text" id="search-bar" disabled={isWaiting} bind:value={guessInput} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-2 me-auto"/>
   </div>
-  <div class="mt-4">Score: {score}</div>
-</div>
+
+  <div class="my-4 grid z-10">
+    <label class="text-lg">Click to Select (type in search bar to show different results):</label>
+    <div class="flex flex-wrap gap-2">
+    {#each Object.keys(cleanData).filter(name => name.toLowerCase().includes(guessInput.toLowerCase())).slice(0, isFullscreen ? 10 : 20) as name}
+      <button class={`p-2 rounded-lg hover:text-white ${chosen == name ? "bg-ew-500" : "bg-ns-500/50 hover:bg-ns-500"}`} on:click={() => {chosen = name}}>{name}</button>
+    {/each}
+    </div>
+    <div class="mt-4">Score: {score}</div>
+  </div>
 {:else}
 <div class="my-4 grid">
   <div>Your Guess: {chosen} ({(guessDistance/1000).toFixed(2)}km)</div>
@@ -293,4 +303,5 @@
   <button class="bg-cc-500/50 hover:bg-cc-500 p-2 rounded-lg" on:click={handleNext}>Next</button>
   {/if}
 {/if}
+</div>
 </div>

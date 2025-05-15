@@ -31,6 +31,7 @@
   let bestName = null;
   let guessDistance = Infinity;
   let bestDistance = Infinity;
+  let isFullscreen = false;
 
   const tileOptions = {
     osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -67,10 +68,14 @@
   }
 
   function createMap(container) {
-    let m = L.map(container, {
-      preferCanvas: true,
-      fullscreen: true
+    map = L.map(container, {
+      preferCanvas: true
     }).setView(locations[roundNumber], 10);
+    L.control
+	    .fullscreen({
+        content: fullSvg,
+      })
+      .addTo(map);
     L.tileLayer(
       tileOptions.arcgis.url,
       {
@@ -78,17 +83,19 @@
         maxNativeZoom: 17,
         maxZoom: 19,
       }
-    ).addTo(m);
-    L.control
-	    .fullscreen({
-        content: fullSvg,
-      })
-      .addTo(m);
-    return m;
+    ).addTo(map);
   }
 
   function mapAction(container) {
-    map = createMap(container);
+    createMap(container);
+
+    map._events.enterFullscreen[0].fn = () => {
+      isFullscreen = true;
+    }
+    map._events.exitFullscreen[0].fn = () => {
+      isFullscreen = false;
+    }
+
     featureGroup.addLayer(createMarker(locations[roundNumber], '#FA9E0D', 'Guess a nearby location!'));
     featureGroup.addTo(map);
     map.fitBounds(bounds);
@@ -210,6 +217,7 @@
    crossorigin=""/>
 <div id="map" class="h-[30rem] w-full z-0" use:mapAction></div>
 
+<div class={isFullscreen ? "fixed w-full bottom-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
 <!-- all the location names that match -->
 {#if !isWaiting}
 <div class="mt-4 grid">
@@ -246,4 +254,5 @@
   <button class="bg-cc-500/50 hover:bg-cc-500 p-2 rounded-lg" on:click={handleNext}>Next</button>
   {/if}
 {/if}
+</div>
 </div>

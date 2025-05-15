@@ -8,6 +8,7 @@ import fullSvg from '../../../img/common/full.svg?raw';
 let map;
 export let locations;
 export let defaultRegex;
+export let isFullscreen;
 let featureList = [];
 let tooltips = [];
 
@@ -44,10 +45,12 @@ function createMap(container) {
     }
   ).addTo(m);
   L.control
-	    .fullscreen({
-        content: fullSvg,
-      })
-      .addTo(m);
+    .fullscreen({
+      content: fullSvg,
+      position: 'bottomleft',
+    })
+    .addTo(m);
+  
   return m;
 }
 
@@ -90,6 +93,12 @@ function createFeatures() {
 
 function mapAction(container) {
   map = createMap(container);
+  map._events.enterFullscreen[0].fn = () => {
+    isFullscreen = true;
+  }
+  map._events.exitFullscreen[0].fn = () => {
+    isFullscreen = false;
+  }
   const featureGroup = createFeatures();
   featureGroup.addTo(map);
   map.fitBounds(featureGroup.getBounds());
@@ -129,6 +138,7 @@ toShowTooltip.subscribe(value => {
 })
 
 </script>
+
 <svelte:window on:resize={resizeMap}/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="

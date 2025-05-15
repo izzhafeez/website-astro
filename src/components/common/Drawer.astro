@@ -61,7 +61,8 @@ switch (color) {
   </h3>
   <ul class="space-y-2 font-medium h-auto">
     {Object.entries(data as Data).map(([key, value]) => {
-      const href = `/${id}/${key}`;
+      let href = `/${id}/${key}`;
+      if (id == "quizzes") href = `/quizzes?search=${key}`;
       return <li>
         <a href={href} class={`flex items-center p-2 rounded-lg hover:bg-white dark:hover:bg-gray-700 group border-2 transition transition-color ${border}`}>
           <img src={(logos as Logos)[key].src} class="w-5 h-5 transition duration-75 saturate-0 group-hover:saturate-100"/>

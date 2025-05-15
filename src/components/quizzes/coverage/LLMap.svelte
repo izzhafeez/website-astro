@@ -10,6 +10,7 @@ export let locations;
 export let defaultRegex;
 export let coverageDist;
 export let coverageType = "Circle";
+export let isFullscreen = false;
 
 let featureList = [];
 let circleList = [];
@@ -165,6 +166,12 @@ $: if (map) {
 
 function mapAction(container) {
   map = createMap(container);
+  map._events.enterFullscreen[0].fn = () => {
+    isFullscreen = true;
+  }
+  map._events.exitFullscreen[0].fn = () => {
+    isFullscreen = false;
+  }
   const featureGroup = createFeatures();
   featureGroup.addTo(map);
   map.fitBounds(featureGroup.getBounds());
