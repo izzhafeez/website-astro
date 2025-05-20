@@ -158,7 +158,7 @@
     let text = `${title}\n`;
     text += `I scored ${score}/${totalScore} points!\n`;
     const baseUrl = window.location.href.split('?')[0];
-    const url = `${baseUrl}?selection=${regexInput || ""}&isUntimed=${isUntimed ? "y" : ""}`;
+    const url = `${baseUrl}?selection=${regexInput || ""}&isUntimed=${isUntimed ? "y" : ""}&coverageDist=${coverageDist}&coverageType=${coverageType}`;
     text += url;
     return text;
   }

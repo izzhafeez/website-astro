@@ -52,7 +52,7 @@
     score = 0;
     toStop = false;
     for (const [k, v] of Object.entries(answers)) {
-      answeredDict[k] = false;
+      answeredDict[v.id] = false;
       if (v.toInclude) {
         toAdd.set(v.id)
         toHideTooltip.set(v.id);

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
     import { onMount } from "svelte";
     import getSlugs from "../../data/getSlugs";
     import quizData from "../../data/quizzes/quizzes.json";
@@ -6,6 +6,7 @@
     import convertSlug from "../../data/convert/convertSlug";
     import catGeoSlugs from "../../data/cat-geo-slugs.json";
     import { capitalise } from "../../utils/string";
+    import quizColors from "./quizColors";
 
     // svg imports
     import logos from "../common/logos";
@@ -21,7 +22,7 @@
     let slugs = {};
     let quizRegistrations = {};
 
-    const registerIncidence = (searchArray: string[], slugs: any) => async (slugType: string) => {
+    const registerIncidence = (searchArray, slugs) => async (slugType) => {
         let typedSlug = await getSlugs(slugType);
         let typeRegistrations = {};
         for (let rawSlug of typedSlug) {
@@ -97,7 +98,32 @@
             }
         }
 
-        for (let slug of typedSlugs.sort((a: any, b: any) => b[1] == a[1] ? a[0].length - b[0].length : b[1] - a[1])) {
+        // group by first element
+        let groupedSlugs = {};
+        for (let slug of typedSlugs) {
+            let key = slug[0].split("-")[0];
+            if (!groupedSlugs[key]) groupedSlugs[key] = [];
+            groupedSlugs[key].push(slug);
+        }
+
+        let groupIndices = {};
+        for (let key in groupedSlugs) {
+            groupIndices[key] = 0;
+            if (groupedSlugs[key].length == 1) continue;
+            groupedSlugs[key].sort((a, b) => Math.random() - 0.5);
+        }
+
+        let sortedSlugs = [];
+        // pop the best indices from each group
+        for (let key in groupedSlugs) {
+            let group = groupedSlugs[key];
+            let bestSlug = group[groupIndices[key]];
+            sortedSlugs.push(bestSlug);
+            groupIndices[key]++;
+            if (groupIndices[key] >= group.length) delete groupIndices[key];
+        }
+
+        for (let slug of sortedSlugs) {
             if (i >= startingI && i <= endingI) {
                 finalSlugs.push(slug[0]);
             }
@@ -110,7 +136,7 @@
         }
     });
 
-    const handleSubmit = (e: Event) => {
+    const handleSubmit = (e) => {
         e.preventDefault(); // Prevent page reload
         const trimmed = search.trim();
         window.location.href = `/quizzes?search=${encodeURIComponent(trimmed)}&page=1&exclude=${exclude ? "t" : ""}`;
@@ -147,7 +173,13 @@
         {#each finalSlugs as slug}
             <a href={`/quizzes/${slug}`} class="lg:text-lg hover:underline rounded-lg">
                 <div class="flex gap-2 lg:gap-4">
-                    <img src={logos[slug.split("-")[0]].src} class="w-5 h-5 lg:w-10 lg:h-10 my-auto" alt="svg"/><span class="text-ns-500 lg:text-black lg:dark:text-white lg:bg-ns-500/50 lg:p-2 rounded-lg">{quizData[slug.split("-")[0]].title}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}</span>
+                    <img
+                        src={logos[slug.split("-")[0]].src}
+                        class="w-5 h-5 lg:w-10 lg:h-10 my-auto"
+                        alt="svg"/>
+                    <span class={`text-ns-500 lg:text-black lg:dark:text-white lg:bg-ns-500/50 lg:p-2 rounded-lg`}>
+                        {quizData[slug.split("-")[0]].title}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}
+                    </span>
                 </div>
             </a>
         {/each}
@@ -175,4 +207,25 @@
 
     <span class="opacity-0">wow you found some hidden text wow you found some hidden text wow you found some hidden text wow you found some hidden text wow you found some hidden text</span>
 
+    <span class="none">
+        <span class="lg:bg-[#673AB8]/50"></span>
+        <span class="lg:bg-[#633917]/50"></span>
+        <span class="lg:bg-[#CC00CC]/50"></span>
+        <span class="lg:bg-[#FFCB2C]/50"></span>
+        <span class="lg:bg-[#999999]/50"></span>
+        <span class="lg:bg-[#7A1800]/50"></span>
+        <span class="lg:bg-[#320B6F]/50"></span>
+        <span class="lg:bg-[#000000]/50"></span>
+        <span class="lg:bg-[#1F5D3A]/50"></span>
+        <span class="lg:bg-[#139ECA]/50"></span>
+        <span class="lg:bg-[#004A9B]/50"></span>
+        <span class="lg:bg-[#FF0000]/50"></span>
+        <span class="lg:bg-[#FA9E0D]/50"></span>
+        <span class="lg:bg-[#2D3748]/50"></span>
+        <span class="lg:bg-[#006E7A]/50"></span>
+        <span class="lg:bg-[#C92A00]/50"></span>
+        <span class="lg:bg-[#FFD6FF]/50"></span>
+        <span class="lg:bg-[#B9E935]/50"></span>
+        <span class="lg:bg-[#E0A87B]/50"></span>
+    </span>
 </div>
