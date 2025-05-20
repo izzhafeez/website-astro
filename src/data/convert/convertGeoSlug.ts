@@ -22,9 +22,9 @@ const convertGeoSlug = (slug: string): string => {
         if (domain == "North America") return `${domain} 10k Cities`;
         return `${domain} All Cities`;
     }
-    if (L == 3) {
+    if (L >= 3) {
         const domain = convertDomain(splitted[0]);
-        let sub = convertSub(splitted[1]);
+        let sub = splitted.slice(1, L - 1).map(convertSub).join(", ");
 
         sub = {
             SPA: "Spain", TUR: "Turkey", RUS: "Russia", GBR: "United Kingdom", GER: "Germany",
@@ -50,7 +50,7 @@ const convertGeoSlug = (slug: string): string => {
         }[sub] || sub;
         sub = capitalise(sub);
 
-        const rawPop = splitted[2];
+        const rawPop = splitted[splitted.length - 1];
         const isTop = rawPop[0] == "t";
         if (isTop) {
             const pop = parseInt(rawPop.substring(3));

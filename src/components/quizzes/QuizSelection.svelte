@@ -115,12 +115,16 @@
 
         let sortedSlugs = [];
         // pop the best indices from each group
-        for (let key in groupedSlugs) {
-            let group = groupedSlugs[key];
-            let bestSlug = group[groupIndices[key]];
-            sortedSlugs.push(bestSlug);
-            groupIndices[key]++;
-            if (groupIndices[key] >= group.length) delete groupIndices[key];
+        while (true) {
+            let anyChange = false;
+            for (let key in groupedSlugs) {
+                if (groupIndices[key] >= groupedSlugs[key].length) continue;
+                let slug = groupedSlugs[key][groupIndices[key]];
+                sortedSlugs.push(slug);
+                groupIndices[key]++;
+                anyChange = true;
+            }
+            if (!anyChange) break;
         }
 
         for (let slug of sortedSlugs) {
