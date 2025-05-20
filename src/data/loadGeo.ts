@@ -50,9 +50,9 @@ const loadGeo = async (geoSlug: string) => {
         } else if (N == 2) {
             rawPop = splitted[1];
             filter = [];
-        } else if (N == 3) {
-            rawPop = splitted[2];
-            filter = [splitted[1]];
+        } else if (N >= 3) {
+            rawPop = splitted[splitted.length - 1];
+            filter = splitted.slice(1, N - 1);
         }
         const isTop = rawPop[0] == "t";
 
