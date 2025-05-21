@@ -20,6 +20,7 @@
     import LayoutQuiz from "./layout/LayoutQuiz.svelte";
     import CipherQuiz from "./cipher/CipherQuiz.svelte";
     import CoverageQuiz from "./coverage/CoverageQuiz.svelte";
+    import ExpandingQuiz from "./expanding/ExpandingQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -76,6 +77,8 @@
         <CipherQuiz names={data} {title} {instructions} {params}/>
     {:else if quizType == "coverage"}
         <CoverageQuiz {data} {title} {instructions} {params}/>
+    {:else if quizType == "expanding"}
+        <ExpandingQuiz {data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

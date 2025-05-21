@@ -17,7 +17,9 @@ const quizColors = {
     layout: "C92A00",
     scramble: "FFD6FF",
     cipher: "B9E935",
-    coverage: "E0A87B"
+    coverage: "E0A87B",
+    triangulate: "006E7A",
+    sequence: "BEADED"
 }
 
 export default quizColors;

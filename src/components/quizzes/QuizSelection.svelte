@@ -57,11 +57,10 @@
 
             if (acceptedSlugs.length == 0) {
                 let successCount = incidence.filter(i => i > 0).length;
-                if (successCount * 2 > searchArray.length) {
+                if (successCount == searchArray.length) {
                     standalones.push(k);
                 }
             }
-
 
             for (let slugType of acceptedSlugs) {
                 if (!slugs[slugType]) continue;
@@ -71,7 +70,7 @@
                     if (incidence.length !== slugIncidence.length) continue;
                     let combinedIncidence = incidence.map((i, index) => i + slugIncidence[index]);
                     let successCount = combinedIncidence.filter(i => i > 0).length;
-                    if (successCount * 2 > searchArray.length) combinations.push([k, slugType, rawSlugIncidence, combinedIncidence.reduce((a,b) => a + b)]);
+                    if (successCount == searchArray.length) combinations.push([k, slugType, rawSlugIncidence, combinedIncidence.reduce((a,b) => a + b)]);
                 }
             }
         }
@@ -110,14 +109,14 @@
         for (let key in groupedSlugs) {
             groupIndices[key] = 0;
             if (groupedSlugs[key].length == 1) continue;
-            groupedSlugs[key].sort((a, b) => Math.random() - 0.5);
+            groupedSlugs[key].sort((a, b) => a[0].includes("world") ? a[0].length - b[0].length : 0);
         }
 
         let sortedSlugs = [];
         // pop the best indices from each group
         while (true) {
             let anyChange = false;
-            for (let key in groupedSlugs) {
+            for (let key of Object.keys(groupedSlugs).sort((a, b) => Math.random() - 0.5)) {
                 if (groupIndices[key] >= groupedSlugs[key].length) continue;
                 let slug = groupedSlugs[key][groupIndices[key]];
                 sortedSlugs.push(slug);
@@ -181,7 +180,7 @@
                         src={logos[slug.split("-")[0]].src}
                         class="w-5 h-5 lg:w-10 lg:h-10 my-auto"
                         alt="svg"/>
-                    <span class={`text-ns-500 lg:text-black lg:dark:text-white lg:bg-ns-500/50 lg:p-2 rounded-lg`}>
+                    <span class={`text-black dark:text-white bg-ns-500/50 p-1 lg:p-2 rounded-lg`}>
                         {quizData[slug.split("-")[0]].title}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}
                     </span>
                 </div>
@@ -212,24 +211,25 @@
     <span class="opacity-0">wow you found some hidden text wow you found some hidden text wow you found some hidden text wow you found some hidden text wow you found some hidden text</span>
 
     <span class="none">
-        <span class="lg:bg-[#673AB8]/50"></span>
-        <span class="lg:bg-[#633917]/50"></span>
-        <span class="lg:bg-[#CC00CC]/50"></span>
-        <span class="lg:bg-[#FFCB2C]/50"></span>
-        <span class="lg:bg-[#999999]/50"></span>
-        <span class="lg:bg-[#7A1800]/50"></span>
-        <span class="lg:bg-[#320B6F]/50"></span>
-        <span class="lg:bg-[#000000]/50"></span>
-        <span class="lg:bg-[#1F5D3A]/50"></span>
-        <span class="lg:bg-[#139ECA]/50"></span>
-        <span class="lg:bg-[#004A9B]/50"></span>
-        <span class="lg:bg-[#FF0000]/50"></span>
-        <span class="lg:bg-[#FA9E0D]/50"></span>
-        <span class="lg:bg-[#2D3748]/50"></span>
-        <span class="lg:bg-[#006E7A]/50"></span>
-        <span class="lg:bg-[#C92A00]/50"></span>
-        <span class="lg:bg-[#FFD6FF]/50"></span>
-        <span class="lg:bg-[#B9E935]/50"></span>
-        <span class="lg:bg-[#E0A87B]/50"></span>
+        <span class="bg-[#673AB8]/50"></span>
+        <span class="bg-[#633917]/50"></span>
+        <span class="bg-[#CC00CC]/50"></span>
+        <span class="bg-[#FFCB2C]/50"></span>
+        <span class="bg-[#999999]/50"></span>
+        <span class="bg-[#7A1800]/50"></span>
+        <span class="bg-[#320B6F]/50"></span>
+        <span class="bg-[#000000]/50"></span>
+        <span class="bg-[#1F5D3A]/50"></span>
+        <span class="bg-[#139ECA]/50"></span>
+        <span class="bg-[#004A9B]/50"></span>
+        <span class="bg-[#FF0000]/50"></span>
+        <span class="bg-[#FA9E0D]/50"></span>
+        <span class="bg-[#2D3748]/50"></span>
+        <span class="bg-[#006E7A]/50"></span>
+        <span class="bg-[#C92A00]/50"></span>
+        <span class="bg-[#FFD6FF]/50"></span>
+        <span class="bg-[#B9E935]/50"></span>
+        <span class="bg-[#E0A87B]/50"></span>
+        <span class="bg-[#BEADED]/50"></span>
     </span>
 </div>

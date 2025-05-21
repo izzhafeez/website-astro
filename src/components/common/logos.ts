@@ -35,6 +35,7 @@ import regex from "../../img/logos/regex.svg";
 import satellite from "../../img/logos/satellite.svg";
 import scramble from "../../img/logos/scramble.svg";
 import selection from "../../img/logos/selection.svg";
+import expanding from "../../img/logos/expanding.svg";
 import streak from "../../img/logos/streak.svg";
 import triangulate from "../../img/logos/triangle.svg";
 import typeQuiz from "../../img/logos/type.svg";
@@ -105,6 +106,7 @@ export default {
   satellite,
   scramble,
   selection,
+  expanding,
   streak,
   triangulate,
   type: typeQuiz,

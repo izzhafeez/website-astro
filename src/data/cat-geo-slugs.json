@@ -16,6 +16,7 @@
     "world-south_asia": ["india", "sri_lanka", "nepal", "bangladesh", "pakistan"],
     "world-middle_east": ["iran", "iraq", "saudi_arabia", "israel", "jordan", "syria", "lebanon", "qatar", "united_arab_emirates", "oman"],
     "world-central_asia": ["afghanistan", "uzbekistan", "kazakhstan", "turkmenistan", "kyrgyzstan", "tajikistan"],
+    "world-asia": ["armenia", "azerbaijan", "georgia", "turkey", "iran", "iraq", "syria", "lebanon", "jordan", "qatar", "saudi_arabia", "united_arab_emirates", "oman", "yemen", "bahrain", "kuwait", "cyprus", "kazakhstan", "uzbekistan", "turkmenistan", "kyrgyzstan", "afghanistan", "tajikistan", "mongolia", "china", "south_korea", "north_korea", "taiwan", "japan", "russia", "israel", "sri_lanka", "pakistan", "maldives", "nepal", "india", "bhutan", "bangladesh", "myanmar", "thailand", "laos", "vietnam", "cambodia", "brunei", "malaysia", "singapore", "indonesia", "philippines", "timor_leste"],
     "euro": [],
     "euro-balkans": ["ALB", "SER", "MAC", "BOS", "CRO", "GRE", "TUR", "BUL", "MON", "KOS"],
     "euro-scandinavia": ["NOR", "SWE", "FIN", "DEN", "ICE"],

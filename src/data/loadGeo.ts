@@ -46,6 +46,7 @@ const loadGeo = async (geoSlug: string) => {
 
         let geoSlugFirstTwo = geoSlug.split("-").slice(0, 2).join("-");
         if ((catGeoSlugs as any)[geoSlugFirstTwo] && (catGeoSlugs as any)[geoSlugFirstTwo].length) {
+            rawPop = splitted[splitted.length - 1];
             filter = (catGeoSlugs as any)[geoSlugFirstTwo];
         } else if (N == 2) {
             rawPop = splitted[1];

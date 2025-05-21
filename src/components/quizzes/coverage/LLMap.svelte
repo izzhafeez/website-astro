@@ -74,7 +74,7 @@ function createMarker(location) {
   let icon = markerIcon(location.color);
   let marker = L.marker([location.lat, location.lng], {icon});
   marker.bindTooltip(location.label, {direction: 'top', sticky: true});
-  tooltips.push(marker.getTooltip());
+  tooltips.push(location.label);
   return marker;
 }
 
@@ -214,9 +214,9 @@ toHideTooltip.subscribe(value => {
 toShowTooltip.subscribe(value => {
   if (value == null || !map) return;
   const feature = featureList[value];
-  const tooltip = tooltips[value];
-  feature.bindTooltip(tooltip, {
-    permanent: false
+  feature.bindTooltip(tooltips[value], {
+    direction: 'top',
+    sticky: true // or false, depending on your behavior
   });
 })
 

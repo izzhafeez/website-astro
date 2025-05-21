@@ -1,16 +1,18 @@
 <script>
 import L from "leaflet";
 import getColor from "../../../utils/color";
-import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
+import { toAdd, toAddAll, toRemoveAll, toAddFeature } from "./featureStore";
 import 'leaflet.fullscreen';
 import fullSvg from '../../../img/common/full.svg?raw';
 
 let map;
 export let locations;
-export let defaultRegex;
-export let isFullscreen;
-let featureList = [];
-let tooltips = [];
+export let sequenceType;
+export let sequenceDist;
+export let startingLocation;
+export let isFullscreen = false;
+export let locationDict = {};
+export let expansions = {};
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -35,7 +37,7 @@ function createMap(container) {
   let m = L.map(container, {
     preferCanvas: true,
     fullscreen: true
-  }).setView([1.35, 103.85], 13);
+  }).setView([0, 0], 2);
   L.tileLayer(
     tileOptions.arcgis.url,
     {
@@ -45,12 +47,17 @@ function createMap(container) {
     }
   ).addTo(m);
   L.control
-    .fullscreen({
-      content: fullSvg,
-      position: 'bottomleft',
-    })
-    .addTo(m);
-  
+	    .fullscreen({
+        content: fullSvg,
+      })
+      .addTo(m);
+
+  const featureGroup = L.featureGroup();
+  for (const location of locations) {
+    const marker = createMarker(location);
+    featureGroup.addLayer(marker);
+  }
+  featureGroup.addTo(m);
   return m;
 }
 
@@ -71,24 +78,8 @@ function markerIcon(colorCode) {
 function createMarker(location) {
   let icon = markerIcon(location.color);
   let marker = L.marker([location.lat, location.lng], {icon});
-  marker.bindTooltip(location.label, {direction: 'top', sticky: false});
-  tooltips.push(location.label);
+  marker.bindTooltip(location.label, {direction: 'top', sticky: true});
   return marker;
-}
-
-function createFeatures() {
-  let featureCount = 0;
-  const featureGroup = L.featureGroup();
-  for (const location of locations) {
-    if (location === null) continue;
-    const feature = createMarker(location);
-    featureList.push(feature);
-    if (location.label.match(defaultRegex)) {
-      featureGroup.addLayer(feature);
-      featureCount += 1;
-    }
-  }
-  return featureGroup;
 }
 
 function mapAction(container) {
@@ -99,9 +90,6 @@ function mapAction(container) {
   map._events.exitFullscreen[0].fn = () => {
     isFullscreen = false;
   }
-  const featureGroup = createFeatures();
-  featureGroup.addTo(map);
-  map.fitBounds(featureGroup.getBounds());
   return {
     destroy: () => {
       map.remove();
@@ -110,35 +98,74 @@ function mapAction(container) {
   }
 }
 
-toRemove.subscribe(value => {
-  if (value === null || !map) return;
-  const feature = featureList[value];
-  map.removeLayer(feature);
+toAddAll.subscribe(value => {
+  if (!map) return;
+  if (value == "big") {
+    for (const exp of Object.values(expansions)) {
+      // we take only the first location
+      const location = locationDict[exp[0]];
+      if (location) {
+        const marker = createMarker(location);
+        map.addLayer(marker);
+      }
+    }
+  } else {
+    for (const location of locations) {
+      const marker = createMarker(location);
+      map.addLayer(marker);
+    }
+  }
+});
+
+toRemoveAll.subscribe(_ => {
+  if (!map) return;
+  map.eachLayer(layer => {
+    if (layer instanceof L.Marker) {
+      map.removeLayer(layer);
+    }
+  });
 })
 
 toAdd.subscribe(value => {
   if (value == null || !map) return;
-  const feature = featureList[value];
-  map.addLayer(feature);
+  const locationId = locationDict[value]?.id;
+  const location = locations[locationId];
+  if (location) {
+    const marker = createMarker(location);
+    map.addLayer(marker);
+  }
+});
+
+toAddFeature.subscribe(value => {
+  if (value == null || !map) return;
+  // create a ring around the starting location with the radius being value+sequenceDist
+  const location = startingLocation ? locationDict[startingLocation] : null;
+  if (location) {
+    const radius = value;
+    if (sequenceType == "Circle") {
+      const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.1});
+      circle.addTo(map);
+    } else if (sequenceType == "Latitude") {
+      const latLine = L.rectangle([[location.lat - radius / 100, -180], [location.lat + radius / 100, 180]], {color: 'red', fillOpacity: 0.1});
+      latLine.addTo(map);
+    } else if (sequenceType == "Longitude") {
+      const lngLine = L.rectangle([[-90, location.lng - radius / 100], [90, location.lng + radius / 100]], {color: 'red', fillOpacity: 0.1});
+      lngLine.addTo(map);
+    }
+  }
 })
 
-toHideTooltip.subscribe(value => {
-  if (value == null || !map) return;
-  const feature = featureList[value];
-  feature.unbindTooltip();
-})
-
-toShowTooltip.subscribe(value => {
-  if (value == null || !map) return;
-  const feature = featureList[value];
-  feature.bindTooltip(tooltips[value], {
-    direction: 'top',
-    sticky: true // or false, depending on your behavior
-  });
-})
+$: if (startingLocation && map) {
+  const location = locationDict[startingLocation];
+  if (location) {
+    map.setView([location.lat, location.lng], 9);
+    map.setZoom(9);
+    map.flyTo([location.lat, location.lng], 9, {duration: 1});
+    map.setZoom(9);
+  }
+}
 
 </script>
-
 <svelte:window on:resize={resizeMap}/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="

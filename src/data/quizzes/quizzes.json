@@ -84,6 +84,11 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough haha. Good luck!"
   },
+  "expanding": {
+    "title": "Expanding Master",
+    "slugs": ["geo"],
+    "heroText": "In this game, you will start from a specified location and expand outwards, by circles or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
+  },
   "triangulate": {
     "title": "Triangulate Puzzle",
     "slugs": ["geo"],
