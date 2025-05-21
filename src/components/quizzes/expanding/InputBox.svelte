@@ -36,7 +36,7 @@
   let currExpansion = 0;
   $: totalScore = Object.keys(expansions).length;
   let score = 0;
-  $: time = totalScore * 10;
+  $: time = totalScore * 30;
 
   async function handleEnd(_) {
     toStop = true;

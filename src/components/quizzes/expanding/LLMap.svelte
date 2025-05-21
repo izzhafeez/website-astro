@@ -129,13 +129,13 @@ toAddFeature.subscribe(value => {
   if (location) {
     const radius = value;
     if (sequenceType == "Circle") {
-      const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.1});
+      const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.02});
       circle.addTo(map);
     } else if (sequenceType == "Latitude") {
-      const latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat + radius / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.1});
+      const latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat + radius / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.02});
       latLine.addTo(map);
     } else if (sequenceType == "Longitude") {
-      const lngLine = L.rectangle([[-90, location.lng - radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.1});
+      const lngLine = L.rectangle([[-90, location.lng - radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.02});
       lngLine.addTo(map);
     }
   }
