@@ -34,6 +34,11 @@
     "slugs": ["geo"],
     "heroText": "You will be given a set of locations, and your job is to guess the two-letter combination (e.g. 'ch') that all of them have. Be careful though, as it also must be the case that all the hidden locations don't contain it. If there are multiple answers, then any of them are accepted. Good luck!"
   },
+  "expanding": {
+    "title": "Expanding Master",
+    "slugs": ["geo"],
+    "heroText": "In this game, you will start from a specified location and expand outwards, by circles or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
+  },
   "jumble": {
     "title": "Jumble Master",
     "slugs": ["geo", "stat", "name"],
@@ -83,11 +88,6 @@
     "title": "Scramble Master",
     "slugs": ["geo", "stat", "name"],
     "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough haha. Good luck!"
-  },
-  "expanding": {
-    "title": "Expanding Master",
-    "slugs": ["geo"],
-    "heroText": "In this game, you will start from a specified location and expand outwards, by circles or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
   },
   "triangulate": {
     "title": "Triangulate Puzzle",

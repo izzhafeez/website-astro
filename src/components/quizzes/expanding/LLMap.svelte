@@ -110,17 +110,19 @@ toAddAll.subscribe(value => {
       }
     }
   } else {
+    const featureGroup = L.featureGroup();
     for (const location of locations) {
       const marker = createMarker(location);
-      map.addLayer(marker);
+      featureGroup.addLayer(marker);
     }
+    featureGroup.addTo(map);
   }
 });
 
 toRemoveAll.subscribe(_ => {
   if (!map) return;
   map.eachLayer(layer => {
-    if (layer instanceof L.Marker) {
+    if (layer instanceof L.Marker || layer instanceof L.Circle || layer instanceof L.Rectangle) {
       map.removeLayer(layer);
     }
   });
@@ -146,10 +148,10 @@ toAddFeature.subscribe(value => {
       const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.1});
       circle.addTo(map);
     } else if (sequenceType == "Latitude") {
-      const latLine = L.rectangle([[location.lat - radius / 100, -180], [location.lat + radius / 100, 180]], {color: 'red', fillOpacity: 0.1});
+      const latLine = L.rectangle([[location.lat - radius / 111.32, -180], [location.lat + radius / 111.32, 180]], {color: 'red', fillOpacity: 0.1});
       latLine.addTo(map);
     } else if (sequenceType == "Longitude") {
-      const lngLine = L.rectangle([[-90, location.lng - radius / 100], [90, location.lng + radius / 100]], {color: 'red', fillOpacity: 0.1});
+      const lngLine = L.rectangle([[-90, location.lng - radius / (111.32 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + radius / (111.32 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.1});
       lngLine.addTo(map);
     }
   }

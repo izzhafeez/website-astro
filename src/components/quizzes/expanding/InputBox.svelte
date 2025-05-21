@@ -54,7 +54,7 @@
     }
     if (totalScore === 0) {
       Swal.fire({
-        title: "You have nothing to guess, LOL",
+        title: "Dude, guess a starting location!",
         icon: 'error',
         timer: 2000
       });
@@ -79,7 +79,7 @@
 
         // find next expansion
         for (let [i, expansion] of Object.entries(expansions)) {
-          if (i > currExpansion) {
+          if (parseFloat(i) > currExpansion) {
             currExpansion = parseFloat(i);
             break;
           }
@@ -126,7 +126,7 @@
 
     <div class="flex z-10 gap-2">
       <label class="my-auto">Starting Location:</label>
-      <input type="text" id="search-bar" bind:value={startingLocationSearch} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-1 me-auto my-auto"/> <span class="my-auto">{startingLocationName}</span>
+      <input type="text" id="search-bar" bind:value={startingLocationSearch} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-1 me-auto my-auto"/> <span class="my-auto" class:text-ns-500={!startingLocationName}>{startingLocationName || "Not Chosen"}</span>
     </div>
 
     <div class='py-2 flex flex-wrap gap-2'>
