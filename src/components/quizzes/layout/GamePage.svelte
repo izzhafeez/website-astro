@@ -96,7 +96,7 @@
     handleNext();
   }
 
-  $: size = Math.min(window.innerWidth, window.innerHeight) * 0.9;
+  $: size = Math.min(Math.max(Math.min(window.innerWidth, window.innerHeight) * 0.7, 300), 600);
 </script>
 
 <div class="grid" id="canvas">

@@ -93,7 +93,7 @@
     });
   }
 
-  $: size = Math.max(Math.min(window.innerWidth, window.innerHeight), 300) * 0.7;
+  $: size = Math.min(Math.max(Math.min(window.innerWidth, window.innerHeight) * 0.7, 300), 600);
 </script>
 
 <div>
