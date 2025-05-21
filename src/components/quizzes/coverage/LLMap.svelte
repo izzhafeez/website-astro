@@ -97,21 +97,21 @@ function createFeatures() {
         radius: coverageDist * 1000
       });
     } else if (coverageType === "Latitude") {
-      cover = L.rectangle([[location.lat - coverageDist / 111.32, -180], [location.lat + coverageDist / 111.32, 180]], {
+      cover = L.rectangle([[location.lat - coverageDist / 111.31949079327357, -180], [location.lat + coverageDist / 111.31949079327357, 180]], {
         color: getColor(location.color),
         weight: 1,
         fillColor: getColor(location.color),
         fillOpacity: 0.1
       });
     } else if (coverageType === "Longitude") {
-      cover = L.rectangle([[-90, location.lng - coverageDist / (111.32 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + coverageDist / (111.32 * Math.cos(location.lat * Math.PI / 180))]], {
+      cover = L.rectangle([[-90, location.lng - coverageDist / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + coverageDist / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {
         color: getColor(location.color),
         weight: 1,
         fillColor: getColor(location.color),
         fillOpacity: 0.1
       });
     } else if (coverageType === "Square") {
-      cover = L.rectangle([[location.lat - coverageDist / 111.32, location.lng - coverageDist / (111.32 * Math.cos(location.lat * Math.PI / 180))], [location.lat + coverageDist / 111.32, location.lng + coverageDist / (111.32 * Math.cos(location.lat * Math.PI / 180))]], {
+      cover = L.rectangle([[location.lat - coverageDist / 111.31949079327357, location.lng - coverageDist / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [location.lat + coverageDist / 111.31949079327357, location.lng + coverageDist / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {
         color: getColor(location.color),
         weight: 1,
         fillColor: getColor(location.color),
