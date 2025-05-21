@@ -51,13 +51,6 @@ function createMap(container) {
         content: fullSvg,
       })
       .addTo(m);
-
-  const featureGroup = L.featureGroup();
-  for (const location of locations) {
-    const marker = createMarker(location);
-    featureGroup.addLayer(marker);
-  }
-  featureGroup.addTo(m);
   return m;
 }
 
@@ -100,22 +93,13 @@ function mapAction(container) {
 
 toAddAll.subscribe(value => {
   if (!map) return;
-  if (value == "big") {
-    for (const exp of Object.values(expansions)) {
-      // we take only the first location
-      const location = locationDict[exp[0]];
-      if (location) {
-        const marker = createMarker(location);
-        map.addLayer(marker);
-      }
-    }
-  } else {
-    const featureGroup = L.featureGroup();
-    for (const location of locations) {
+  for (const exp of Object.values(expansions)) {
+    // we take only the first location
+    const location = locationDict[exp[0]];
+    if (location) {
       const marker = createMarker(location);
-      featureGroup.addLayer(marker);
+      map.addLayer(marker);
     }
-    featureGroup.addTo(map);
   }
 });
 
