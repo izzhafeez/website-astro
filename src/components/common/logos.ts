@@ -36,6 +36,7 @@ import satellite from "../../img/logos/satellite.svg";
 import scramble from "../../img/logos/scramble.svg";
 import selection from "../../img/logos/selection.svg";
 import expanding from "../../img/logos/expanding.svg";
+import route from "../../img/logos/route.svg";
 import streak from "../../img/logos/streak.svg";
 import triangulate from "../../img/logos/triangle.svg";
 import typeQuiz from "../../img/logos/type.svg";
@@ -103,6 +104,7 @@ export default {
   position,
   rank,
   regex,
+  route,
   satellite,
   scramble,
   selection,

@@ -4,6 +4,7 @@ import loadPie from "./loadPie";
 import loadCat from "./loadCat";
 import loadStat from "./loadStat";
 import loadLayout from "./loadLayout";
+import loadRoute from "./loadRoute";
 import { standardiseWithoutParen } from "./standardiseName";
 import quizData from "./quizzes/quizzes.json";
 import swal from "sweetalert2";
@@ -81,6 +82,8 @@ const loadData = async (slug: string) => {
                 // data = await loadGeo(splitted.slice(2).join("-"));
             } else if (type == "l") {
                 data = await loadLayout(splitted.slice(2).join("-"));
+            } else if (type == "r") {
+                data = await loadRoute(splitted.slice(2).join("-"));
             } else if (type == "s") {
                 data = await loadStat(splitted.slice(2).join("-"));
                 if (gameAccept == "name" || gameAccept == "type") {

@@ -5,6 +5,7 @@ import convertPieSlug from "./convertPieSlug";
 import convertCatSlug from "./convertCatSlug";
 import convertStatSlug from "./convertStatSlug";
 import convertLayoutSlug from "./convertLayoutSlug";
+import convertRouteSlug from "./convertRouteSlug";
 import quizData from "../quizzes/quizzes.json";
 
 const convertSlug = (slug: string, slugType: string="") => {
@@ -58,6 +59,11 @@ const convertSlug = (slug: string, slugType: string="") => {
     if (slug.includes("-s-")) {
         const splitted = slug.split("-s-");
         return `${(quizData as any)[splitted[0]].title}: ${convertStatSlug(splitted[1])}`;
+    }
+
+    if (slug.includes("-r-")) {
+        const splitted = slug.split("-r-");
+        return `${(quizData as any)[splitted[0]].title}: ${convertRouteSlug(splitted[1])}`;
     }
 
     if (slug.includes("-l-")) {

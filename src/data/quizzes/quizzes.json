@@ -79,6 +79,11 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means your pattern matches the item and red text means doesn't match. The objective is to get all the texts to be the same color as their corresponding borders. Good luck!"
   },
+  "route": {
+    "title": "RouteGuessr",
+    "slugs": ["route"],
+    "heroText": "In this game, you will guess what the route is based on the locations. If you're playing point-to-point mode, then only two of the locations are shown. In this case, if there are multiple answers, then any of them are accepted. Good luck!"
+  },
   "satellite": {
     "title": "Satellite Master",
     "slugs": ["geo"],

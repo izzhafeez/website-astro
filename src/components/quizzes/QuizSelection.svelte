@@ -49,6 +49,7 @@
         await register("pie");
         await register("cat");
         await register("layout");
+        await register("route");
 
         for (let [k, v] of Object.entries(quizData)) {
             const title = v.title.toLowerCase();

@@ -1,16 +1,14 @@
 <script>
 import L from "leaflet";
 import getColor from "../../../utils/color";
-import { toAdd, toHideTooltip, toRemove, toShowTooltip } from "./featureStore";
+import { toShow, toPoint } from "./featureStore";
 import 'leaflet.fullscreen';
 import fullSvg from '../../../img/common/full.svg?raw';
 
 let map;
-export let locations;
-export let defaultRegex;
 export let isFullscreen;
-let featureList = [];
-let tooltips = [];
+export let data;
+export let isPointToPoint;
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -38,7 +36,7 @@ function createMap(container) {
   let m = L.map(container, {
     preferCanvas: true,
     fullscreen: true
-  }).setView([1.35, 103.85], 13);
+  }).setView([0, 0], 2);
   L.tileLayer(
     tileOptions.arcgis.url,
     {
@@ -72,26 +70,9 @@ function markerIcon(colorCode) {
 }
 
 function createMarker(location) {
-  let icon = markerIcon(location.color);
-  let marker = L.marker([location.lat, location.lng], {icon});
-  marker.bindTooltip(location.label, {direction: 'top', sticky: false});
-  tooltips.push(location.label);
+  let icon = markerIcon("dt-500");
+  let marker = L.marker(location, {icon});
   return marker;
-}
-
-function createFeatures() {
-  let featureCount = 0;
-  const featureGroup = L.featureGroup();
-  for (const location of locations) {
-    if (location === null) continue;
-    const feature = createMarker(location);
-    featureList.push(feature);
-    if (location.label.match(defaultRegex)) {
-      featureGroup.addLayer(feature);
-      featureCount += 1;
-    }
-  }
-  return featureGroup;
 }
 
 function mapAction(container) {
@@ -102,9 +83,7 @@ function mapAction(container) {
   map._events.exitFullscreen[0].fn = () => {
     isFullscreen = false;
   }
-  const featureGroup = createFeatures();
-  featureGroup.addTo(map);
-  map.fitBounds(featureGroup.getBounds());
+
   return {
     destroy: () => {
       map.remove();
@@ -113,31 +92,32 @@ function mapAction(container) {
   }
 }
 
-toRemove.subscribe(value => {
-  if (value === null || !map) return;
-  const feature = featureList[value];
-  map.removeLayer(feature);
-})
+toShow.subscribe(answer => {
+  if (!map || !data || !answer) return;
 
-toAdd.subscribe(value => {
-  if (value == null || !map) return;
-  const feature = featureList[value];
-  map.addLayer(feature);
-})
-
-toHideTooltip.subscribe(value => {
-  if (value == null || !map) return;
-  const feature = featureList[value];
-  feature.unbindTooltip();
-})
-
-toShowTooltip.subscribe(value => {
-  if (value == null || !map) return;
-  const feature = featureList[value];
-  feature.bindTooltip(tooltips[value], {
-    direction: 'top',
-    sticky: true // or false, depending on your behavior
+  // remove existing feature groups
+  map.eachLayer(layer => {
+    if (layer instanceof L.FeatureGroup) {
+      map.removeLayer(layer);
+    }
   });
+
+  let answerData = [...data[answer]];
+  const featureGroup = L.featureGroup();
+
+  if (isPointToPoint) {
+    answerData = answerData.sort(_ => Math.random() - 0.5).slice(0, 2);
+    toPoint.set(false);
+    toPoint.set(answerData);
+  }
+
+  answerData.forEach(location => {
+    const marker = createMarker(location);
+    featureGroup.addLayer(marker);
+  });
+  featureGroup.addTo(map);
+
+  map.fitBounds(featureGroup.getBounds());
 })
 
 </script>
