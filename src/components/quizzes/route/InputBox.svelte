@@ -77,6 +77,16 @@
   }
 
   const handleStart = () => {
+    if (filteredKeys.length < 4) {
+      Swal.fire({
+        title: "Not enough items!",
+        text: "Please use a selection that matches at least 4 items.",
+        icon: "error",
+        confirmButtonText: "OK"
+      });
+      return;
+    }
+
     encountered.clear();
     isStart = true;
 
@@ -164,28 +174,31 @@
 
 <div class='h-30 flex items-center mb-4 mt-2'>
   {#if !isStart}
-  <div class='py-2 flex flex-wrap gap-4'>
-    <div class="my-auto">
-      <label for="isUntimed" class="my-auto">Learning:</label>
-      <input type="checkbox" bind:checked={isLearning} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-    </div>
-    <!-- <div class="my-auto">
-      <label for="isUntimed" class="my-auto">Shuffled:</label>
-      <input type="checkbox" bind:checked={isShuffle} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-    </div> -->
-    <div class="my-auto">
-      <label for="isUntimed" class="my-auto">Point-to-Point:</label>
-      <input type="checkbox" bind:checked={isPointToPoint} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-    </div>
-    <div class="my-auto">
-      <label for="isUntimed" class="my-auto">MCQ:</label>
-      <input type="checkbox" bind:checked={isMcq} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-    </div>
+  <div class="grid">
     <div class="my-auto">
       <label for="regex" class="my-auto">Selection:</label>
       <input name="regex" bind:value={selection} class='transition duration-500 bg-gray-100 dark:bg-gray-700 border-gray-500/50 border-[1px] rounded-md p-1' placeholder=""/>
+      {filteredKeys.length} items {filteredKeys.length < 4 ? "(not enough!)" : ""}
     </div>
-    <button on:click={handleStart} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50'>Start Quiz</button>
+    <div class='py-2 flex flex-wrap gap-4'>
+      <div class="my-auto">
+        <label for="isUntimed" class="my-auto">Learning:</label>
+        <input type="checkbox" bind:checked={isLearning} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
+      </div>
+      <!-- <div class="my-auto">
+        <label for="isUntimed" class="my-auto">Shuffled:</label>
+        <input type="checkbox" bind:checked={isShuffle} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
+      </div> -->
+      <div class="my-auto">
+        <label for="isUntimed" class="my-auto">Point-to-Point:</label>
+        <input type="checkbox" bind:checked={isPointToPoint} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
+      </div>
+      <div class="my-auto">
+        <label for="isUntimed" class="my-auto">MCQ:</label>
+        <input type="checkbox" bind:checked={isMcq} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
+      </div>
+      <button on:click={handleStart} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50'>Start Quiz</button>
+    </div>
   </div>
   {:else}
   <div class="grid gap-2">
@@ -196,7 +209,7 @@
   {#if !isWaiting}
     {#if !isMcq}
     <div class="flex flex-wrap gap-2">
-      <span class="my-auto">Your guess:</span>
+      <span class="my-auto">Your guess ('Enter' to submit):</span>
       <input id="text-box" class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:keypress={handleType}/>
     </div>
     {:else}
