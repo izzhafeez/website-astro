@@ -1,6 +1,6 @@
 <script>
   import { fullSanitise } from "../../../utils/string";
-  import { toShow, toPoint } from "./featureStore";
+  import { toShow, toAllow } from "./featureStore";
   import { onMount } from "svelte";
   import { shareResults } from "../../common/showResults";
   import party from "party-js";
@@ -8,8 +8,6 @@
 
   export let title;
   export let selection;
-  export let isPointToPoint;
-  export let isShuffle;
   export let isLearning;
   export let isMcq;
   export let pointsRegistration;
@@ -29,7 +27,7 @@
   const handleType = (e) => {
     if (!e.target.value) return;
     isValid = true;
-    if (e.key != "Enter") return;
+    if (e.key != "Enter" && e.target.value != "gg") return;
     input = e.target.value;
     isValid = handleInput(input);
     if (isValid) {
@@ -62,21 +60,12 @@
       return false;
     }
 
-    let correct = false;
-    if (isPointToPoint) {
-      const point_1 = currPoints[0];
-      const point_2 = currPoints[1];
-
-      const correct_1 = pointsRegistration[point_1].includes(input);
-      const correct_2 = pointsRegistration[point_2].includes(input);
-
-      correct = correct_1 && correct_2;
-    } else {
-      correct = answer == input;
-    }
+    let correct = answer == input;
 
     if (correct) handleCorrect();
     else handleWrong();
+
+    toAllow.set(answer);
 
     return true;
   }
@@ -158,7 +147,7 @@
     let text = `${title}\n`;
     text += `I got a streak of ${bestStreak}!\n`;
     const baseUrl = window.location.href.split('?')[0];
-    const url = `${baseUrl}?selection=${selection || ""}&isLearning=${isLearning || ""}&isPointToPoint=${isPointToPoint || ""}&isMcq=${isMcq || ""}`;
+    const url = `${baseUrl}?selection=${selection || ""}&isLearning=${isLearning || ""}&isMcq=${isMcq || ""}`;
     text += url;
     return text;
   }
@@ -181,11 +170,6 @@
 
     options = Array.from(optionsSet).sort(() => Math.random() - 0.5);
   }
-
-  toPoint.subscribe(points => {
-    if (!points) return;
-    currPoints = points;
-  });
 </script>
 
 <div class='h-30 flex items-center mb-4 mt-2'>
@@ -200,14 +184,6 @@
       <div class="my-auto">
         <label for="isUntimed" class="my-auto">Learning:</label>
         <input type="checkbox" bind:checked={isLearning} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-      </div>
-      <!-- <div class="my-auto">
-        <label for="isUntimed" class="my-auto">Shuffled:</label>
-        <input type="checkbox" bind:checked={isShuffle} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
-      </div> -->
-      <div class="my-auto">
-        <label for="isUntimed" class="my-auto">Point-to-Point:</label>
-        <input type="checkbox" bind:checked={isPointToPoint} name="isUntimed" class='dark:bg-gray-700 rounded-md px-2 py-2 my-auto'/>
       </div>
       <div class="my-auto">
         <label for="isUntimed" class="my-auto">MCQ:</label>

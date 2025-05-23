@@ -8,6 +8,7 @@ import loadRoute from "./loadRoute";
 import { standardiseWithoutParen } from "./standardiseName";
 import quizData from "./quizzes/quizzes.json";
 import swal from "sweetalert2";
+import { capitalise } from "../utils/string";
 
 function hilbertIndex(x: any, y: any, order = 16) {
     let index = 0;
@@ -71,6 +72,15 @@ const loadData = async (slug: string) => {
                     data = data.map((item: any) => {
                         return standardiseWithoutParen(item[0]);
                     });
+                }
+                if (gameAccept == "route") {
+                    let newData: any = {};
+                    for (const [key, value] of data) {
+                        let name = standardiseWithoutParen(key).split(",")[0];
+                        newData[name] = [value.slice(0, 2).reverse()];
+                    }
+
+                    data = newData;
                 }
             } else if (type == "n") {
                 data = await loadName(splitted.slice(2).join("-"));

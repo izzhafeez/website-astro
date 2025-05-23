@@ -79,15 +79,10 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "Come up with the shortest regex pattern that matches everything with a green border, while excluding everything with a red border. As you're typing the regex, green text means your pattern matches the item and red text means doesn't match. The objective is to get all the texts to be the same color as their corresponding borders. Good luck!"
   },
-  "route": {
-    "title": "RouteGuessr",
-    "slugs": ["route"],
-    "heroText": "In this game, you will guess what the route is based on the locations. If you're playing point-to-point mode, then only two of the locations are shown. In this case, if there are multiple answers, then any of them are accepted. Good luck!"
-  },
   "satellite": {
-    "title": "Satellite Master",
-    "slugs": ["geo"],
-    "heroText": "How well do you know satellite images? In this game, you will be given a satellite image of a location. Your job is to guess its name, choosing from a set of answers below. This is pretty hard, so good luck!"
+    "title": "Satellite Streaks",
+    "slugs": ["geo", "route"],
+    "heroText": "In this game, you will be given a satellite image of a location, line, or shape. Your job is to guess its name, either by MCQ or by typing. For point locations, you won't be able to move around that much, so you'll have to know what the place looks like! If you're having trouble, please activate the learning mode, which will slowly ramp up the difficulty as you get higher streaks. Good luck!"
   },
   "scramble": {
     "title": "Scramble Master",
