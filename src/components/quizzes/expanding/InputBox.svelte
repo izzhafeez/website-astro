@@ -117,7 +117,7 @@
       <button on:click={() => {sequenceType = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceType == n} class:text-white={sequenceType == n}>{n}</button>
       {/each}
     </div>
-    <label for="difficulty" class="">Expanding Distance: </label>
+    <label for="difficulty" class="">Expanding Distance (km): </label>
     <div class="flex gap-2 my-2">
       {#each [5, 10, 25, 50, 100, 200, 500] as n (n)}
       <button on:click={() => {sequenceDist = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceDist == n} class:text-white={sequenceDist == n}>{n}</button>

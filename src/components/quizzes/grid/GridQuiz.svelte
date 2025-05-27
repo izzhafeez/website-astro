@@ -15,11 +15,11 @@
   let lookups = {};
   let locationDict = {};
   let locationList = [];
-  let sequenceType = params.expandingType || "Circle";
-  let sequenceDist = parseFloat(params.expandingDist) || 50;
+  let sequenceType = params.gridType || "Square";
+  let sequenceDist = parseFloat(params.gridDist) || 1;
   let isFullscreen = false;
-  let startingLocation = params.startingLocation || null;
-  let expansions = {};
+  let grids = {};
+  let reverseGrid = {};
 
   for (let [key, value] of data) {
     // extract between brackets []
@@ -71,44 +71,32 @@
     locationList.push(location);
   }
 
-  $: if (startingLocation) {
-    let sequence = [];
-    let lat = locationDict[startingLocation].lat;
-    let lng = locationDict[startingLocation].lng;
-    Object.entries(locationDict).forEach(([key, value]) => {
-      let dist;
+  $: if (sequenceType || sequenceDist) {
+    grids = {};
+    reverseGrid = {};
+    for (let [slug, location] of Object.entries(locationDict)) {
+      const latKey = Math.floor(location.lat / sequenceDist);
+      const lngKey = Math.floor(location.lng / sequenceDist);
+      let gridKey = `${latKey}_${lngKey}`;
 
-      // calculate dist using leaflet
-      if (sequenceType === "Circle") {
-        dist = L.latLng(lat, lng).distanceTo(L.latLng(value.lat, value.lng))/1000;
-      } else if (sequenceType === "Latitude") {
-        dist = L.latLng(lat, lng).distanceTo(L.latLng(value.lat, lng))/1000;
+      if (sequenceType === "Latitude") {
+        gridKey = `${latKey}_0`;
       } else if (sequenceType === "Longitude") {
-        dist = L.latLng(lat, lng).distanceTo(L.latLng(lat, value.lng))/1000;
+        gridKey = `0_${lngKey}`;
       }
 
-      dist = Math.floor(dist / sequenceDist) * sequenceDist;
-
-      sequence.push({
-        id: value.id,
-        key,
-        name: value.name,
-        dist
-      });
-    });
-    sequence.sort((a, b) => a.dist - b.dist);
-    expansions = {};
-    
-    for (let s of sequence) {
-      if (!expansions[s.dist]) expansions[s.dist] = [];
-      expansions[s.dist].push(s.key);
+      if (!grids[gridKey]) {
+        grids[gridKey] = [];
+      }
+      grids[gridKey].push(location);
+      reverseGrid[slug] = gridKey;
     }
   }
 </script>
 
 <div class="max-w-6xl mx-auto">
   <div class={isFullscreen ? "fixed top-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
-    <InputBox answers={locationDict} {lookups} isUntimed={params.isUntimed} {title} bind:sequenceType={sequenceType} bind:sequenceDist={sequenceDist} bind:startingLocation={startingLocation} {expansions}/>
+    <InputBox answers={locationDict} {lookups} isUntimed={params.isUntimed} {title} bind:sequenceType={sequenceType} bind:sequenceDist={sequenceDist} {grids} {reverseGrid}/>
   </div>
-  <LLMap locations={locationList} isUntimed={params.isUntimed} {locationDict} {sequenceType} {sequenceDist} {startingLocation} bind:isFullscreen={isFullscreen} {expansions}/>
+  <LLMap locations={locationList} isUntimed={params.isUntimed} {locationDict} {sequenceType} {sequenceDist} bind:isFullscreen={isFullscreen} {grids}/>
 </div>

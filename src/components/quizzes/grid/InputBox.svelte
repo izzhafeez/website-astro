@@ -1,7 +1,7 @@
 <script>
   import Timer from "../../../components/utils/Timer.svelte";
   import { fullSanitise } from "../../../utils/string";
-  import { toAdd, toRemoveAll, toAddFeature, toAddAll } from "./featureStore";
+  import { toWrite, toSlug, toAddAll, toStart } from "./featureStore";
   import { onMount } from "svelte";
   import showResults from "../../common/showResults";
   import party from "party-js";
@@ -14,119 +14,79 @@
   export let title;
   export let sequenceType;
   export let sequenceDist;
-  export let startingLocation;
-  export let expansions;
+  export let grids;
+  export let reverseGrid;
 
-  $: fullScore = Object.values(lookups).map(a => a.length).reduce((a, b)=>a+b, 0);
-  let toStop = true;
-  let startingLocationSearch = "";
-  let startingLocationName = "";
-  let answerFullNames = Object.entries(answers).map(([k, v]) => [k, `${v.name}, ${v.filter}`]);
-  $: if (startingLocationSearch) {
-    let lowerStartingLocationSearch = startingLocationSearch.toLowerCase();
-    for (let fullName of answerFullNames) {
-      let [k, v] = fullName;
-      if (v.toLowerCase().includes(lowerStartingLocationSearch)) {
-        startingLocation = k;
-        startingLocationName = v;
-        break;
-      }
-    }
-  }
-  let currExpansion = 0;
-  $: totalScore = Object.keys(expansions).length;
+  $: totalScore = Object.keys(grids).length;
   let score = 0;
   $: time = totalScore * 30;
+  let answered = new Set();
 
-  async function handleEnd(_) {
-    toStop = true;
-    toAddAll.set("big");
+  let toStop = true;
 
-    showResults(score, totalScore, document.querySelector('.h-30'), prepareText());
-  }
-
-  function handleStart(_) {
-    if (totalScore === null) {
-      totalScore = 0;
-      for (const value of Object.values(answers)) {
-        totalScore += value.list.length;
-      }
-    }
-    if (totalScore === 0) {
-      Swal.fire({
-        title: "Dude, guess a starting location!",
-        icon: 'error',
-        timer: 2000
-      });
-      return;
-    };
-    score = 0;
+  let handleStart = () => {
+    answered.clear();
+    toStart.set(new Date().getTime());
     toStop = false;
-    toRemoveAll.set(Date.now());
-    toAddFeature.set(currExpansion + sequenceDist);
-  }
+  };
 
   function handleInput(e) {
     const input = e.target.value;
     // remove all non-alphanumeric characters, and lowercase
     const cleanInput = input.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     if (!lookups[cleanInput]) return;
+
+    let somethingHappened = false;
     for (let lookup of lookups[cleanInput]) {
-      if (expansions[currExpansion].includes(lookup)) {
-        toAdd.set(lookup);
-        score++;
-        e.target.value = "";
+      let gridKey = reverseGrid[lookup];
+      let latKey = parseInt(gridKey.split("_")[0]);
+      let lngKey = parseInt(gridKey.split("_")[1]);
+      if (answered.has(gridKey)) continue;
+      somethingHappened = true;
+      toWrite.set(gridKey);
+      toSlug.set(lookup);
+      score++;
+      answered.add(gridKey)
+    }
 
-        // find next expansion
-        for (let [i, expansion] of Object.entries(expansions)) {
-          if (parseFloat(i) > currExpansion) {
-            currExpansion = parseFloat(i);
-            break;
-          }
-        }
-
-        toAddFeature.set(currExpansion + sequenceDist);
-
-        break;
-      }
+    if (somethingHappened) {
+      e.target.value = "";
     }
 
     if (score === totalScore) handleEnd();
+  }
+
+  async function handleEnd(_) {
+    toStop = true;
+    toAddAll.set("wat")
+
+    showResults(score, totalScore, document.querySelector('.h-30'), prepareText());
   }
 
   const prepareText = () => {
     let text = `${title}\n`;
     text += `I scored ${score}/${totalScore} points!\n`;
     const baseUrl = window.location.href.split('?')[0];
-    const url = `${baseUrl}?isUntimed=${isUntimed ? "y" : ""}&expandingDist=${sequenceDist}&expandingType=${sequenceType}&startingLocation=${startingLocation}`;
+    const url = `${baseUrl}?isUntimed=${isUntimed ? "y" : ""}&gridDist=${sequenceDist}&gridType=${sequenceType}`;
     text += url;
     return text;
   }
-
-  onMount(() => {
-    toAddAll.set(Date.now());
-  })
 </script>
 
 <div class='h-30 flex items-center mb-4 mt-2'>
   {#if toStop}
   <div class="grid">
-    <label for="difficulty" class="">Expanding Type: </label>
+    <label for="difficulty" class="">Grid Type: </label>
     <div class="flex gap-2 my-2">
-      {#each ["Circle", "Latitude", "Longitude"] as n (n)}
+      {#each ["Latitude", "Longitude", "Square"] as n (n)}
       <button on:click={() => {sequenceType = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceType == n} class:text-white={sequenceType == n}>{n}</button>
       {/each}
     </div>
-    <label for="difficulty" class="">Expanding Distance: </label>
+    <label for="difficulty" class="">Grid Size (degrees): </label>
     <div class="flex gap-2 my-2">
-      {#each [5, 10, 25, 50, 100, 200, 500] as n (n)}
+      {#each [0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2, 5, 10] as n (n)}
       <button on:click={() => {sequenceDist = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceDist == n} class:text-white={sequenceDist == n}>{n}</button>
       {/each}
-    </div>
-
-    <div class="flex z-10 gap-2">
-      <label class="my-auto">Starting Location:</label>
-      <input type="text" id="search-bar" bind:value={startingLocationSearch} placeholder="Search a Location" class="border-2 border-gray-300/30 dark:bg-gray-700 rounded-md p-1 me-auto my-auto"/> <span class="my-auto" class:text-ns-500={!startingLocationName}>{startingLocationName || "Not Chosen"}</span>
     </div>
 
     <div class='py-2 flex flex-wrap gap-2'>

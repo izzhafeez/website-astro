@@ -23,6 +23,7 @@ import coordCompare from "../../img/logos/coord-compare.svg";
 import coverage from "../../img/logos/coverage.svg";
 import digraph from "../../img/logos/digraph.svg";
 import geoguessr from "../../img/logos/geoguessr.svg";
+import grid from "../../img/logos/grid.svg";
 import jumble from "../../img/logos/jumble.svg";
 import layout from "../../img/logos/layout.svg";
 import map from "../../img/logos/map.svg";
@@ -95,6 +96,7 @@ export default {
   coverage,
   digraph,
   geoguessr,
+  grid,
   jumble,
   layout,
   map,

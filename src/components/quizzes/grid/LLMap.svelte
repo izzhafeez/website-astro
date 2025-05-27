@@ -1,7 +1,7 @@
 <script>
 import L from "leaflet";
 import getColor from "../../../utils/color";
-import { toAdd, toAddAll, toRemoveAll, toAddFeature } from "./featureStore";
+import { toWrite, toSlug, toAddAll, toStart } from "./featureStore";
 import 'leaflet.fullscreen';
 import fullSvg from '../../../img/common/full.svg?raw';
 
@@ -9,10 +9,9 @@ let map;
 export let locations;
 export let sequenceType;
 export let sequenceDist;
-export let startingLocation;
 export let isFullscreen = false;
 export let locationDict = {};
-export let expansions = {};
+export let grids;
 
 const tileOptions = {
   osm: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
@@ -94,65 +93,68 @@ function mapAction(container) {
   }
 }
 
-toAddAll.subscribe(value => {
-  if (!map) return;
-  for (const exp of Object.values(expansions)) {
-    // we take only the first location
-    const location = locationDict[exp[0]];
-    if (location) {
-      const marker = createMarker(location);
-      map.addLayer(marker);
-    }
-  }
-});
-
-toRemoveAll.subscribe(_ => {
-  if (!map) return;
-  map.eachLayer(layer => {
-    if (layer instanceof L.Marker || layer instanceof L.Circle || layer instanceof L.Rectangle) {
+$: if (sequenceDist && sequenceType && map && grids) {
+  map.eachLayer((layer) => {
+    if (layer instanceof L.Rectangle) {
       map.removeLayer(layer);
     }
   });
-})
 
-toAdd.subscribe(value => {
-  if (value == null || !map) return;
-  const locationId = locationDict[value]?.id;
-  const location = locations[locationId];
-  if (location) {
-    const marker = createMarker(location);
-    map.addLayer(marker);
-  }
-});
+  for (let [key, grid] of Object.entries(grids)) {
+    const latKey = parseInt(key.split("_")[0]);
+    const lngKey = parseInt(key.split("_")[1]);
+    let latRange = [latKey * sequenceDist, (latKey + 1) * sequenceDist];
+    let lngRange = [lngKey * sequenceDist, (lngKey + 1) * sequenceDist];
 
-toAddFeature.subscribe(value => {
-  if (value == null || !map) return;
-  // create a ring around the starting location with the radius being value+sequenceDist
-  const location = startingLocation ? locationDict[startingLocation] : null;
-  if (location) {
-    const radius = value;
-    if (sequenceType == "Circle") {
-      const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.02});
-      circle.addTo(map);
-    } else if (sequenceType == "Latitude") {
-      const latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat + radius / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.02});
-      latLine.addTo(map);
+    if (sequenceType == "Latitude") {
+      lngRange = [-180, 180];
     } else if (sequenceType == "Longitude") {
-      const lngLine = L.rectangle([[-90, location.lng - radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.02});
-      lngLine.addTo(map);
+      latRange = [-90, 90];
     }
-  }
-})
 
-$: if (startingLocation && map) {
-  const location = locationDict[startingLocation];
-  if (location) {
-    map.setView([location.lat, location.lng], 9);
-    map.setZoom(9);
-    map.flyTo([location.lat, location.lng], 9, {duration: 1});
-    map.setZoom(9);
+    const rectangle = L.rectangle(
+      [[latRange[0], lngRange[0]], [latRange[1], lngRange[1]]],
+      {color: "#FF0000", weight: 1, fillOpacity: 0.2}
+    ).addTo(map);
   }
 }
+
+toWrite.subscribe((gridKey) => {
+  if (!map || !gridKey || !grids || !grids[gridKey]) return;
+  // delete the grid feature if it exists
+  map.eachLayer((layer) => {
+    if (layer instanceof L.Rectangle && layer.getBounds().contains([grids[gridKey][0].lat, grids[gridKey][0].lng])) {
+      map.removeLayer(layer);
+    }
+  });
+});
+
+toSlug.subscribe((slug) => {
+  if (!map || !slug || !locationDict[slug]) return;
+  const location = locationDict[slug];
+  const marker = createMarker(location);
+  marker.addTo(map);
+});
+
+toAddAll.subscribe(_ => {
+  // create markers for all locations in grid
+  if (!map || !grids) return;
+  for (let grid of Object.values(grids)) {
+    const firstLocation = grid[0];
+    if (!firstLocation) continue;
+    const marker = createMarker(firstLocation);
+    marker.addTo(map);
+  }
+})
+
+toStart.subscribe(_ => {
+  if (!map || !locations) return;
+  map.eachLayer((layer) => {
+    if (layer instanceof L.Marker) {
+      map.removeLayer(layer);
+    }
+  });
+});
 
 </script>
 <svelte:window on:resize={resizeMap}/>

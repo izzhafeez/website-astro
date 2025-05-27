@@ -39,6 +39,11 @@
     "slugs": ["geo"],
     "heroText": "In this game, you will start from a specified location and expand outwards, by circles or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
   },
+  "grid": {
+    "title": "Grid Master",
+    "slugs": ["geo"],
+    "heroText": "In this game, you will be given either latitude, longitude, or square grids with a specified size. Naming any location within the grid will give you a point, and make it disappear. If you give up, the map will show you the largest cities that will satisfy each grid. Good luck!"
+  },
   "jumble": {
     "title": "Jumble Master",
     "slugs": ["geo", "stat", "name"],

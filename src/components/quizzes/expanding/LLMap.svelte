@@ -141,10 +141,8 @@ toAddFeature.subscribe(value => {
     if (sequenceType == "Circle") {
       let circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.2});
       circle.addTo(map);
-      if (radius > 0) {
-        circle = L.circle([location.lat, location.lng], {radius: (radius-sequenceDist)*1000, color: 'red', fillOpacity: 0.02});
-        circle.addTo(map);
-      }
+      circle = L.circle([location.lat, location.lng], {radius: (radius-sequenceDist)*1000, color: 'red', fillOpacity: 0.02});
+      circle.addTo(map);
     } else if (sequenceType == "Latitude") {
       let latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat - (radius-sequenceDist) / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.2});
       latLine.addTo(map);
