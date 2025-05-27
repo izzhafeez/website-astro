@@ -107,10 +107,12 @@
         }
 
         let groupIndices = {};
+        let comparatorKey = a => a[0].includes("-g") ? 1 : 0;
         for (let key in groupedSlugs) {
             groupIndices[key] = 0;
             if (groupedSlugs[key].length == 1) continue;
             groupedSlugs[key].sort((a, b) => a[0].includes("world") ? a[0].length - b[0].length : 0);
+            groupedSlugs[key].sort((a, b) => comparatorKey(a) - comparatorKey(b));
         }
 
         let sortedSlugs = [];

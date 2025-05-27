@@ -54,10 +54,14 @@
     // choose N nearest locations
     locations = [location];
     let dataByDistance = [];
+    let visited = new Set(); // based on name
     for (let i = 0; i < data.length; i++) {
       let lat = data[i][1][1];
       let lng = data[i][1][0];
       let distance = L.latLng(location[1][1], location[1][0]).distanceTo(L.latLng(lat, lng));
+      let name = standardiseWithoutParen(data[i][0]);
+      if (visited.has(name)) continue; // skip if already visited
+      visited.add(name);
       dataByDistance.push([data[i], distance]);
     }
     dataByDistance.sort((a, b) => a[1] - b[1]);
