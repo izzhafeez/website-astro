@@ -102,17 +102,28 @@
         let groupedSlugs = {};
         for (let slug of typedSlugs) {
             let key = slug[0].split("-")[0];
-            if (!groupedSlugs[key]) groupedSlugs[key] = [];
-            groupedSlugs[key].push(slug);
+            if (!groupedSlugs[key]) groupedSlugs[key] = {};
+            let second = slug[0].split("-")[1];
+            if (!groupedSlugs[key][second]) groupedSlugs[key][second] = [];
+            groupedSlugs[key][second].push(slug);
         }
 
         let groupIndices = {};
-        let comparatorKey = a => a[0].includes("-g") ? 1 : 0;
         for (let key in groupedSlugs) {
             groupIndices[key] = 0;
             if (groupedSlugs[key].length == 1) continue;
-            groupedSlugs[key].sort((a, b) => a[0].includes("world") ? a[0].length - b[0].length : 0);
-            groupedSlugs[key].sort((a, b) => comparatorKey(a) - comparatorKey(b));
+
+            if (groupedSlugs[key].g) {
+                groupedSlugs[key].g.sort((a, b) => a[0].includes("world") ? a[0].length - b[0].length : 0);
+            }
+
+            // sort by the number of incidences, ascending
+            let newGroupSlugs = [];
+            let slugGroups = Object.keys(groupedSlugs[key]);
+            for (let group of slugGroups.sort((a, b) => -groupedSlugs[key][b].length + groupedSlugs[key][a].length)) {
+                newGroupSlugs.push(...groupedSlugs[key][group]);
+            }
+            groupedSlugs[key] = newGroupSlugs;
         }
 
         let sortedSlugs = [];
