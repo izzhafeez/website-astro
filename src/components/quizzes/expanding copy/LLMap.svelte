@@ -127,33 +127,18 @@ toAdd.subscribe(value => {
 
 toAddFeature.subscribe(value => {
   if (value == null || !map) return;
-  // remove all previous features
-  map.eachLayer(layer => {
-    if (layer instanceof L.Circle || layer instanceof L.Rectangle) {
-      map.removeLayer(layer);
-    }
-  });
-
   // create a ring around the starting location with the radius being value+sequenceDist
   const location = startingLocation ? locationDict[startingLocation] : null;
   if (location) {
     const radius = value;
     if (sequenceType == "Circle") {
-      let circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.2});
+      const circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.02});
       circle.addTo(map);
-      if (radius > 0) {
-        circle = L.circle([location.lat, location.lng], {radius: (radius-sequenceDist)*1000, color: 'red', fillOpacity: 0.02});
-        circle.addTo(map);
-      }
     } else if (sequenceType == "Latitude") {
-      let latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat - (radius-sequenceDist) / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.2});
-      latLine.addTo(map);
-      latLine = L.rectangle([[location.lat + radius / 111.31949079327357, -180], [location.lat + (radius-sequenceDist) / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.2});
+      const latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat + radius / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.02});
       latLine.addTo(map);
     } else if (sequenceType == "Longitude") {
-      let lngLine = L.rectangle([[-90, location.lng - radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng - (radius-sequenceDist) / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.2});
-      lngLine.addTo(map);
-      lngLine = L.rectangle([[-90, location.lng + radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + (radius-sequenceDist) / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.2});
+      const lngLine = L.rectangle([[-90, location.lng - radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))], [90, location.lng + radius / (111.31949079327357 * Math.cos(location.lat * Math.PI / 180))]], {color: 'red', fillOpacity: 0.02});
       lngLine.addTo(map);
     }
   }
