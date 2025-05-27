@@ -134,8 +134,9 @@ toShow.subscribe(answer => {
   if (isPoint) {
     let location = answerData[0];
     map.setView(location, 16);
-    bounds = L.latLngBounds(L.latLng(location[0]-0.10, location[1]-0.10), L.latLng(location[0]+0.10, location[1]+0.10));
-    maxBounds = L.latLngBounds(L.latLng(location[0]-0.15, location[1]-0.15), L.latLng(location[0]+0.15, location[1]+0.15));
+    let dd = maxDist / 111330;
+    bounds = L.latLngBounds(L.latLng(location[0]-(0.001*dd), location[1]-(0.001*dd)), L.latLng(location[0]+(0.001*dd), location[1]+0.001*dd));
+    maxBounds = L.latLngBounds(L.latLng(location[0]-(0.0015*dd), location[1]-(0.0015*dd)), L.latLng(location[0]+(0.0015*dd), location[1]+(0.0015*dd)));
   }
 
   map.fitBounds(bounds);
@@ -158,18 +159,13 @@ toAllow.subscribe(answer => {
       map.removeLayer(layer);
     }
   });
-  map.setMaxBounds(DEFAULT_BOUNDS);
+
+  map.setView(data[answer][0]);
+
+  let fullBounds = L.latLngBounds(L.latLng(latLngBound[0]-180, latLngBound[2]-180), L.latLng(latLngBound[1]+180, latLngBound[3]+180));
+  map.setMaxBounds(fullBounds);
 
   setTile(2);
-
-  let bounds = L.latLngBounds(L.latLng(latLngBound[0]-1, latLngBound[2]-1), L.latLng(latLngBound[1]+1, latLngBound[3]+1));
-  map.fitBounds(bounds);
-
-  // full bounds
-  let fullBounds = L.latLngBounds(L.latLng(latLngBound[0]-1000, latLngBound[2]-1000), L.latLng(latLngBound[1]+1000, latLngBound[3]+1000));
-  map.setMaxBounds();
-
-  map.setView(data[answer][0], 12)
 })
 
 </script>
