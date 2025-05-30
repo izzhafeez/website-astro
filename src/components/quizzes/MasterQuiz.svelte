@@ -23,6 +23,7 @@
     import ExpandingQuiz from "./expanding/ExpandingQuiz.svelte";
     import RouteQuiz from "./route/RouteQuiz.svelte";
     import GridQuiz from "./grid/GridQuiz.svelte";
+    import PictureQuiz from "./picture/PictureQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -85,6 +86,8 @@
         <RouteQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "grid"}
         <GridQuiz {data} {title} {instructions} {params}/>
+    {:else if quizType == "picture"}
+        <PictureQuiz {data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

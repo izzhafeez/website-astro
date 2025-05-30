@@ -1,6 +1,9 @@
 <script>
 import L from "leaflet";
 import getColor from "../../../utils/color";
+import fullSvg from '../../../img/common/full.svg?raw';
+import 'leaflet.fullscreen';
+
 let map;
 export let lines;
 let featureList = [];
@@ -18,9 +21,14 @@ const tileOptions = {
 function createMap(container) {
   let m = L.map(container, {
     preferCanvas: true,
-    fullscreen: true,
-    fullscreenControl: true,
+    fullscreen: true
   }).setView([1.35, 103.85], 13);
+  L.control
+    .fullscreen({
+      content: fullSvg,
+      position: 'topleft',
+    })
+    .addTo(m);
   L.tileLayer(
     tileOptions.white.url,
     {
@@ -96,4 +104,5 @@ function mapAction(container) {
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
+<link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
 <div id="map" class="h-[30rem] w-full z-0" use:mapAction/>

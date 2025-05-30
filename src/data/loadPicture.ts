@@ -1,8 +1,7 @@
 import toast from "../components/common/toast";
-import { capitalise } from "../utils/string";
 
-const loadStat = async (slug: string) => {
-    const folder = "/data/stat";
+const loadPicture = async (slug: string) => {
+    const folder = "/data/picture";
     const splitted = slug.split("-");
     const N = splitted.length;
     const domain = splitted[0];
@@ -25,7 +24,7 @@ const loadStat = async (slug: string) => {
         })
         .then(json => {
             const asObject = Object.entries(json).filter(([name, value]: [any, any]) => {
-                return !filters || name.split("#")[1].split(", ").some((filter: any) => filters.includes(filter));
+                return !filters.length || name.split("#")[1].split(", ").some((filter: any) => filters.includes(filter));
             });
 
             return asObject
@@ -34,4 +33,4 @@ const loadStat = async (slug: string) => {
     return data;
 }
 
-export default loadStat;
+export default loadPicture;

@@ -59,6 +59,11 @@
     "slugs": ["geo"],
     "heroText": "Type the names of locations to remove their markers from the map (don't care about space and case). Each correct answer increases your score, and you can play in timed or untimed mode. Try out the selection option to customise what locations you want to include. You have 10 seconds per answer. Good Luck!"
   },
+  "picture": {
+    "title": "Picture Guessr",
+    "slugs": ["picture"],
+    "heroText": "In this game, you are shown a picture of something. Can be literally anything. Your job is to guess what it is. Simple as that. Try to get a high streak! Good luck!"
+  },
   "pie": {
     "title": "Pie Chart Puzzle",
     "slugs": ["pie"],

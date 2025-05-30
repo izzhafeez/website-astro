@@ -6,6 +6,7 @@ import convertCatSlug from "./convertCatSlug";
 import convertStatSlug from "./convertStatSlug";
 import convertLayoutSlug from "./convertLayoutSlug";
 import convertRouteSlug from "./convertRouteSlug";
+import convertPictureSlug from "./convertPictureSlug";
 import quizData from "../quizzes/quizzes.json";
 
 const convertSlug = (slug: string, slugType: string="") => {
@@ -69,6 +70,11 @@ const convertSlug = (slug: string, slugType: string="") => {
     if (slug.includes("-l-")) {
         const splitted = slug.split("-l-");
         return `${(quizData as any)[splitted[0]].title}: ${convertLayoutSlug(splitted[1])}`;
+    }
+
+    if (slug.includes("-t-")) {
+        const splitted = slug.split("-t-");
+        return `${(quizData as any)[splitted[0]].title}: ${convertPictureSlug(splitted[1])}`;
     }
 
     return capitalise(slug)

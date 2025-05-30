@@ -408,13 +408,13 @@
   },
   "welcome-to-malaysia": {
     "name": "Welcome to Malaysia",
-    "date": "TBD",
+    "date": "30/01/25",
     "color": "te-500",
-    "victims": 0,
-    "rating": 0,
+    "victims": 2,
+    "rating": 3,
     "route": "Woodlands North MRT, Rasa Istimewa, Admiralty Park, Woodlands Town Park East, Marsiling Mall, Causeway Point, Mandai Tekong Park, Vista Point, ACE CC, Woodlands South MRT.",
-    "experience": "",
-    "refreshments": "",
+    "experience": "First time visiting Woodlands South MRT. Not sure what I was expecting, but quite boring leh.",
+    "refreshments": "Lunch at Causeway Point Cantine.",
     "tips": ""
   },
   "the-ghettos": {
@@ -463,13 +463,13 @@
   },
   "sentosa": {
     "name": "Sentosa",
-    "date": "TBD",
+    "date": "11/03/25",
     "color": "ne-500",
-    "victims": 0,
-    "rating": 0,
+    "victims": 3,
+    "rating": 4,
     "route": "Start at HarbourFront MRT, go past the golf courses, to the cove. Then, one round around Ocean Drive, and follow the coast till we reach the south. Come back through all the beaches. Pillboxes, Little Lyn, Reef the Chief, Southernmost Island, and back to Beach Station.",
-    "experience": "",
-    "refreshments": "",
+    "experience": "Actually a nice walk through the atas houses. With the cloudy weather, not so hot, and not raining also.",
+    "refreshments": "Lunch at VivoCity Food Court, before leaving for Sentosa. Bought extra drinks so we don't need to buy in Sentosa itself.",
     "tips": ""
   },
   "romance-of-three-kingdoms": {
@@ -518,12 +518,12 @@
   },
   "pagoda": {
     "name": "Pagoda",
-    "date": "TBD",
+    "date": "27/12/24",
     "color": "ew-500",
-    "victims": 0,
-    "rating": 0,
+    "victims": 3,
+    "rating": 2,
     "route": "Explore the wonders of Chinese Garden.",
-    "experience": "",
+    "experience": "Second time exploring the new Chinese Garden, with a new group of people. This time, explored more of the southern part of the gardens, the boardwalks and all.",
     "refreshments": "",
     "tips": ""
   },
@@ -595,13 +595,13 @@
   },
   "jurassic-park": {
     "name": "Jurassic Park",
-    "date": "TBD",
+    "date": "02/01/25",
     "color": "ew-500",
-    "victims": 0,
-    "rating": 0,
+    "victims": 4,
+    "rating": 2,
     "route": "Start at Jewel, T3, shuttle to T2, walk outside to T4, Jurassic Mile, East Coast all the way past Bougainvillea Park to Wake Park, then North to Springleaf Prata, then back to Bedok MRT.",
-    "experience": "",
-    "refreshments": "",
+    "experience": "Jurassic Mile was so hot, with like no shelter, and the metal gates all radiating heat like crazy. Bring umbrella please.",
+    "refreshments": "Lunch at T3 food court, and drinks at the East Coast Food Village.",
     "tips": ""
   },
   "plan-for-the-east-coast": {
@@ -617,12 +617,12 @@
   },
   "bp-in-your-area": {
     "name": "BP In Your Area",
-    "date": "TBD",
+    "date": "16/01/25",
     "color": "lrt-500",
-    "victims": 0,
+    "victims": 2,
     "rating": 0,
-    "route": "",
-    "experience": "",
+    "route": "Just exploring different parts of Bukit Panjang.",
+    "experience": "Actually Dairy Farm was nice.",
     "refreshments": "",
     "tips": ""
   },
@@ -793,13 +793,13 @@
   },
   "cross-island": {
     "name": "Cross Island",
-    "date": "TBD",
+    "date": "26/02/25",
     "color": "cr-500",
-    "victims": 0,
-    "rating": 0,
+    "victims": 2,
+    "rating": 2,
     "route": "Start at Bright Hill MRT, BAMK Park West, Teck Ghee MRT, AMK Hub, AMK Town Garden East, Tavistock MRT, Serangoon CC, Hougang 1, Kampung Lorong Buangkok, Buangkok Square, IMH Museum, Hougang Green Shopping Mall, Punggol CC, Hougang Mall.",
-    "experience": "",
-    "refreshments": "",
+    "experience": "It was fun chatting with the person I went with, but the route itself had nothing much interesting.",
+    "refreshments": "Lunch at Hougang Mall Subway.",
     "tips": ""
   },
   "i-took-d1-by-accident": {
@@ -848,13 +848,13 @@
   },
   "making-my-way-downtown": {
     "name": "Making My Way Downtown",
-    "date": "TBD",
+    "date": "03/01/25",
     "color": "dt-500",
-    "victims": 7,
-    "rating": 0,
+    "victims": 2,
+    "rating": 4,
     "route": "From Bukit Panjang MRT to Bencoolen MRT.",
     "experience": "",
-    "refreshments": "",
+    "refreshments": "Late lunch at Botanic Gardens McDonald's. Dinner at Chinatown Point Lanzhou La Mian.",
     "tips": ""
   },
   "plabians": {
@@ -881,7 +881,7 @@
   },
   "open-open": {
     "name": "Open Open",
-    "date": "28/02/2025",
+    "date": "28/02/25",
     "color": "dt-500",
     "victims": 2,
     "rating": 2,

@@ -2,11 +2,7 @@
     import { onMount } from "svelte";
     import getSlugs from "../../data/getSlugs";
     import quizData from "../../data/quizzes/quizzes.json";
-    import homeData from "../../data/home.json";
     import convertSlug from "../../data/convert/convertSlug";
-    import catGeoSlugs from "../../data/cat-geo-slugs.json";
-    import { capitalise } from "../../utils/string";
-    import quizColors from "./quizColors";
 
     // svg imports
     import logos from "../common/logos";
@@ -50,6 +46,7 @@
         await register("cat");
         await register("layout");
         await register("route");
+        await register("picture");
 
         for (let [k, v] of Object.entries(quizData)) {
             const title = v.title.toLowerCase();
@@ -89,11 +86,16 @@
             i++;
         }
 
+        let typeMatchings = {
+            picture: "t"
+        }
+
         let typedSlugs = [];
         for (let combination of combinations) {
             for (let typeSlug of slugs[combination[1]][combination[2]]) {
-                if (!exclude || !typeSlug.includes('0')) {
-                    typedSlugs.push([`${combination[0]}-${combination[1][0]}-${typeSlug}`, combination[3]]);
+                if (!exclude || !typeSlug.charAt(typeSlug.length-1) == '0') {
+                    let type = typeMatchings[combination[1]] || combination[1][0];
+                    typedSlugs.push([`${combination[0]}-${type}-${typeSlug}`, combination[3]]);
                 }
             }
         }

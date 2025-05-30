@@ -29,6 +29,7 @@ import layout from "../../img/logos/layout.svg";
 import map from "../../img/logos/map.svg";
 import match from "../../img/logos/match.svg";
 import proximate from "../../img/logos/proximate.svg";
+import picture from "../../img/logos/picture.svg";
 import pie from "../../img/logos/pie.svg";
 import position from "../../img/logos/position.svg";
 import rank from "../../img/logos/rank.svg";
@@ -102,6 +103,7 @@ export default {
   map,
   match,
   proximate,
+  picture,
   pie,
   position,
   rank,
