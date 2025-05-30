@@ -60,7 +60,7 @@
       return false;
     }
 
-    let correct = answer == input;
+    let correct = answer.toLowerCase() == input.toLowerCase();
 
     if (correct) handleCorrect();
     else handleWrong();
@@ -184,7 +184,7 @@
     optionsSet.add(answer);
     
     // add 3 more random options from filteredKeys
-    while (optionsSet.size < 4) {
+    while (optionsSet.size < Math.floor(streak / 4) + 4) {
       const randomIndex = Math.floor(Math.random() * filteredKeys.length);
       const randomKey = filteredKeys[randomIndex];
       optionsSet.add(randomKey[0]);

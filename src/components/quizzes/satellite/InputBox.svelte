@@ -60,7 +60,7 @@
       return false;
     }
 
-    let correct = answer == input;
+    let correct = answer.toLowerCase() == input.toLowerCase();
 
     if (correct) handleCorrect();
     else handleWrong();
