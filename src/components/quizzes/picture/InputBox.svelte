@@ -97,7 +97,10 @@
     // populate the encountered set with 4 random keys from filteredKeys
     const sortedKeys = [...filteredKeys].sort(() => Math.random() - 0.5);
     const randomKeys = sortedKeys.slice(0, 4);
+
+    filters.clear();
     randomKeys.forEach(key => {
+      key[1].forEach(f => filters.add(f));
       encountered.add(key[0]);
     });
 
@@ -113,13 +116,14 @@
 
       // add a new key to the encountered set
       const sortedKeys = [...catKeys].sort(() => Math.random() - 0.5);
-      const randomKey = sortedKeys[0][0];
-      encountered.add(randomKey);
+      const randomKey = sortedKeys[0];
+      encountered.add(randomKey[0]);
+      filters.add(randomCat);
     }
 
     let randomKey = answer;
 
-    while (answer == randomKey || answer == "") {
+    while (answer == randomKey) {
       if (isLearning) {
         // get a random category from the encountered set
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
@@ -159,12 +163,6 @@
         }
       }, 0);
     }
-  }
-
-  $: if (filteredKeys) {
-    filteredKeys.forEach(([name, fs, _]) => {
-      fs.forEach(f => filters.add(f));
-    });
   }
 
   const prepareText = () => {
