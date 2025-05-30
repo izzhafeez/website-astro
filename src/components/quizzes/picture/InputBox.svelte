@@ -119,7 +119,7 @@
 
     let randomKey = answer;
 
-    while (answer == randomKey) {
+    while (answer == randomKey || answer == "") {
       if (isLearning) {
         // get a random category from the encountered set
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
