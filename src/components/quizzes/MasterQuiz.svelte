@@ -24,6 +24,7 @@
     import RouteQuiz from "./route/RouteQuiz.svelte";
     import GridQuiz from "./grid/GridQuiz.svelte";
     import PictureQuiz from "./picture/PictureQuiz.svelte";
+    import BurstQuiz from "./burst/BurstQuiz.svelte";
     import convertSlug from "../../data/convert/convertSlug";
     import quizData from "../../data/quizzes/quizzes.json";
 
@@ -88,6 +89,8 @@
         <GridQuiz {data} {title} {instructions} {params}/>
     {:else if quizType == "picture"}
         <PictureQuiz {data} {title} {instructions} {params}/>
+    {:else if quizType == "burst"}
+        <BurstQuiz names={data} {title} {instructions} {params}/>
     {:else}
         <p>Quiz type not found</p>
     {/if}

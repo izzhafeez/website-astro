@@ -15,6 +15,7 @@ import collabTier from "../../img/logos/collab-tier.svg";
 // quizzes
 import binary from "../../img/logos/binary.svg";
 import blurry from "../../img/logos/blurry.svg";
+import burst from "../../img/logos/burst.svg";
 import cipher from "../../img/logos/cipher.svg";
 import color from "../../img/logos/color.svg";
 import compare from "../../img/logos/compare.svg";
@@ -89,6 +90,7 @@ export default {
   "collab-tier": collabTier,
   binary,
   blurry,
+  burst,
   cipher,
   color,
   compare,

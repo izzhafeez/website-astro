@@ -41,8 +41,8 @@ const loadData = async (slug: string) => {
             let data: any;
             if (type == "g") {
                 data = await loadGeo(splitted.slice(2).join("-"));
-                if (gameAccept == "name") data = data?.map(([name, value]: [any, any]) => standardiseWithoutParen(name));
-                if (gameAccept == "stat") {
+                if (gameAccept.endsWith("name")) data = data?.map(([name, value]: [any, any]) => standardiseWithoutParen(name));
+                if (gameAccept.endsWith("stat")) {
                     let newData: any = {};
                     data?.forEach(([name, value]: [any, any]) => {
                         const newName = standardiseWithoutParen(name as any);
@@ -97,7 +97,7 @@ const loadData = async (slug: string) => {
                 data = await loadRoute(splitted.slice(2).join("-"));
             } else if (type == "s") {
                 data = await loadStat(splitted.slice(2).join("-"));
-                if (gameAccept == "name" || gameAccept == "type") {
+                if (gameAccept.endsWith("name") || gameAccept == "type") {
                     data = data?.map(([name, value]: [any, any]) => {
                         return standardiseWithoutParen(name).trim()
                     });

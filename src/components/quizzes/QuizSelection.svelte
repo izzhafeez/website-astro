@@ -61,6 +61,8 @@
             }
 
             for (let slugType of acceptedSlugs) {
+                let slugIsComplete = slugType.startsWith("c_");
+                if (slugIsComplete) slugType = slugType.substring(2);
                 if (!slugs[slugType]) continue;
                 let slugIncidences = slugs[slugType];
                 for (let rawSlugIncidence of Object.keys(slugIncidences)) {
@@ -68,7 +70,7 @@
                     if (incidence.length !== slugIncidence.length) continue;
                     let combinedIncidence = incidence.map((i, index) => i + slugIncidence[index]);
                     let successCount = combinedIncidence.filter(i => i > 0).length;
-                    if (successCount == searchArray.length) combinations.push([k, slugType, rawSlugIncidence, combinedIncidence.reduce((a,b) => a + b)]);
+                    if (successCount == searchArray.length) combinations.push([k, slugType, rawSlugIncidence, combinedIncidence.reduce((a,b) => a + b), slugIsComplete]); 
                 }
             }
         }
@@ -93,7 +95,7 @@
         let typedSlugs = [];
         for (let combination of combinations) {
             for (let typeSlug of slugs[combination[1]][combination[2]]) {
-                if (!exclude || !typeSlug.charAt(typeSlug.length-1) == '0') {
+                if ((!exclude || !typeSlug.charAt(typeSlug.length-1) == '0') && (!combination[4] || typeSlug.startsWith("c_"))) {
                     let type = typeMatchings[combination[1]] || combination[1][0];
                     typedSlugs.push([`${combination[0]}-${type}-${typeSlug}`, combination[3]]);
                 }
