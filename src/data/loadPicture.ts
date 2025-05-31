@@ -5,7 +5,9 @@ const loadPicture = async (slug: string) => {
     const splitted = slug.split("-");
     const N = splitted.length;
     const domain = splitted[0];
-    const filters = splitted.slice(1) || [];
+    const all_filters = splitted.slice(1) || [];
+    const yes_filters = all_filters.filter((filter: any) => !filter.startsWith("no_"));
+    const no_filters = all_filters.filter((filter: any) => filter.startsWith("no_")).map((filter: any) => filter.replace("no_", ""));
 
     toast.fire({
         icon: "info",
@@ -24,7 +26,9 @@ const loadPicture = async (slug: string) => {
         })
         .then(json => {
             const asObject = Object.entries(json).filter(([name, value]: [any, any]) => {
-                return !filters.length || name.split("#")[1].split(", ").some((filter: any) => filters.includes(filter));
+                const nameFilters = name.split("#")[1].split(", ").map((filter: any) => filter.trim());
+                return (!yes_filters.length || nameFilters.some((filter: any) => yes_filters.includes(filter)))
+                    && !no_filters.some((filter: any) => nameFilters.includes(filter));
             });
 
             return asObject

@@ -104,6 +104,12 @@
       encountered.add(key[0]);
     });
 
+    if (!isLearning) {
+      filteredKeys.forEach(([name, fs, v]) => {
+        fs.forEach(f => filters.add(f));
+      });
+    }
+
     handleNext();
   }
 
@@ -169,7 +175,7 @@
     let text = `${title}\n`;
     text += `I got a streak of ${bestStreak}!\n`;
     const baseUrl = window.location.href.split('?')[0];
-    const url = `${baseUrl}?selection=${selection || ""}&isLearning=${isLearning || ""}&isMcq=${isMcq || ""}`;
+    const url = `${baseUrl}?isLearning=${isLearning || ""}&isMcq=${isMcq || ""}`;
     text += url;
     return text;
   }
@@ -182,13 +188,19 @@
   $: if (answer) {
     let optionsSet = new Set();
     optionsSet.add(answer);
-    
-    // add 3 more random options from filteredKeys
-    while (optionsSet.size < Math.floor(streak / 4) + 4) {
-      const randomIndex = Math.floor(Math.random() * filteredKeys.length);
-      const randomKey = filteredKeys[randomIndex];
-      optionsSet.add(randomKey[0]);
-    }
+
+    const f = dataDict[answer].f[0];
+    const matched = filteredKeys.filter(([name, fs, _]) => fs.includes(f) && name != answer).sort(() => Math.random() - 0.5);
+    const unmatched = filteredKeys.filter(([name, fs, _]) => !fs.includes(f) && name != answer).sort(() => Math.random() - 0.5);
+
+    const targetCount = Math.floor(streak / 4) + 3;
+    const matchedCount = Math.min(matched.length, Math.floor(targetCount / 2));
+
+    const matchedKeys = matched.slice(0, matchedCount);
+    matchedKeys.forEach(([name]) => optionsSet.add(name));
+    const unmatchedCount = Math.min(unmatched.length, targetCount - matchedCount);
+    const unmatchedKeys = unmatched.slice(0, unmatchedCount);
+    unmatchedKeys.forEach(([name]) => optionsSet.add(name));
 
     options = Array.from(optionsSet).sort(() => Math.random() - 0.5);
   }
@@ -236,8 +248,8 @@
     {/if}
   {:else}
     <div class="flex flex-wrap gap-2">
-      <div class="my-auto">You guessed: <span class:text-ns-500={input != answer} class:text-ew-500={input === answer}>{input}</span></div>
-      {#if input != answer}
+      <div class="my-auto">You guessed: <span class:text-ns-500={input.toLowerCase() != answer.toLowerCase()} class:text-ew-500={input.toLowerCase() === answer.toLowerCase()}>{input}</span></div>
+      {#if input.toLowerCase() != answer.toLowerCase()}
         <div class="my-auto">Correct answer: {answer}</div>
       {/if}
       <button id="next-button" on:click={handleNext} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50'>Next</button>
