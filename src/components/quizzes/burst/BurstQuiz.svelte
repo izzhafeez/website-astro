@@ -98,7 +98,7 @@
     {/each}
 </div>
 <button
-class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50"
+class="bg-ew-300/20 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50 my-2"
 on:click={handleStart}
 >
 Start Quiz

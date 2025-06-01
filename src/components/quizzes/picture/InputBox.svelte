@@ -22,6 +22,8 @@
   let currPoints = [];
   let isValid = true;
   let filters = new Set();
+  let learnt = new Set();
+  let learntCount = 0;
   $: pureKeys = filteredKeys ? filteredKeys.map(([n, f, v]) => n) : [];
 
   const handleType = (e) => {
@@ -110,8 +112,6 @@
       });
     }
 
-    console.log(filters);
-
     handleNext();
   }
 
@@ -144,6 +144,9 @@
         // get a random key from the encountered set
         const randomIndex = Math.floor(Math.random() * catKeys.length);
         randomKey = catKeys[randomIndex];
+
+        learnt.add(randomKey);
+        learntCount = learnt.size;
       } else {
         // get a random category from the encountered set
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
@@ -237,6 +240,9 @@
     <div class="flex flex-wrap gap-4">
       <div class="my-auto">Streak: {streak}</div>
       <div class="my-auto">Best Streak: {bestStreak} (<button on:click={handleShare} class="underline small text-jr-500">Share?</button>)</div>
+      {#if isLearning}
+        <div class="my-auto">Learned: {learntCount}/{filteredKeys.length}</div>
+      {/if}
     </div>
   {#if !isWaiting}
     {#if !isMcq}

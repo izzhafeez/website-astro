@@ -23,6 +23,8 @@
   let input = "";
   let currPoints = [];
   let isValid = true;
+  let learnt = new Set();
+  let learntCount = 0;
 
   const handleType = (e) => {
     if (!e.target.value) return;
@@ -127,6 +129,12 @@
     }
     answer = randomKey;
 
+    // add to learnt set if isLearning
+    if (isLearning) {
+      learnt.add(answer);
+      learntCount = learnt.size;
+    }
+
     toShow.set(false);
     toShow.set(answer);
     isWaiting = false;
@@ -197,6 +205,9 @@
     <div class="flex flex-wrap gap-4">
       <div class="my-auto">Streak: {streak}</div>
       <div class="my-auto">Best Streak: {bestStreak} (<button on:click={handleShare} class="underline small text-jr-500">Share?</button>)</div>
+      {#if isLearning}
+      <div class="my-auto">Learnt: {learntCount}/{filteredKeys.length}</div>
+      {/if}
     </div>
   {#if !isWaiting}
     {#if !isMcq}
