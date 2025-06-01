@@ -100,15 +100,17 @@
 
     filters.clear();
     randomKeys.forEach(key => {
-      key[1].forEach(f => filters.add(f));
+      filters.add(canonicalF(key[1][0]));
       encountered.add(key[0]);
     });
 
     if (!isLearning) {
       filteredKeys.forEach(([name, fs, v]) => {
-        fs.forEach(f => filters.add(f));
+        filters.add(canonicalF(fs[0])); // add the category of the key
       });
     }
+
+    console.log(filters);
 
     handleNext();
   }
@@ -118,7 +120,7 @@
       // choose a random category
       const sortedCats = [...filters].sort(() => Math.random() - 0.5);
       const randomCat = sortedCats[0];
-      const catKeys = filteredKeys.filter(([name, fs, _]) => fs.includes(randomCat));
+      const catKeys = filteredKeys.filter(([name, fs, _]) => canonicalF(fs[0]) == randomCat);
 
       // add a new key to the encountered set
       const sortedKeys = [...catKeys].sort(() => Math.random() - 0.5);
@@ -135,8 +137,8 @@
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
         const randomCat = sortedCats[0];
         const catKeys = Array.from(encountered).filter(key => {
-          const f = dataDict[key].f;
-          return f && f.includes(randomCat);
+          const f = canonicalF(dataDict[key].f[0]);
+          return f && f == randomCat;
         });
 
         // get a random key from the encountered set
@@ -146,7 +148,7 @@
         // get a random category from the encountered set
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
         const randomCat = sortedCats[0];
-        const catKeys = filteredKeys.filter(([name, fs, _]) => fs.includes(randomCat));
+        const catKeys = filteredKeys.filter(([name, fs, _]) => canonicalF(fs[0]) == randomCat);
 
         // get a random key from the filteredKeys
         const randomIndex = Math.floor(Math.random() * catKeys.length);
@@ -185,11 +187,17 @@
     shareResults(text);
   }
 
+  const canonicalF = (f) => {
+    if (!f) return "";
+    f = f.split("_");
+    return f[f.length - 1]; // get the last part of the category
+  }
+
   $: if (answer) {
     let optionsSet = new Set();
     optionsSet.add(answer);
 
-    const f = dataDict[answer].f[0];
+    let f = canonicalF(dataDict[answer].f[0]); // get the last part of the category
     const matched = filteredKeys.filter(([name, fs, _]) => fs.includes(f) && name != answer).sort(() => Math.random() - 0.5);
     const unmatched = filteredKeys.filter(([name, fs, _]) => !fs.includes(f) && name != answer).sort(() => Math.random() - 0.5);
 
