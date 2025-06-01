@@ -7,7 +7,7 @@
   "burst": {
     "title": "Syllaburst",
     "slugs": ["geo", "c_stat", "c_name"],
-    "heroText": "How quick are you on your feet? In this game, you will be given a short sequence of letters, and you are supposed to name something that contains those letters. The catch is that you only have a few seconds to type your answer before the bomb goes off! How long can you last?"
+    "heroText": "How quick are you on your feet? In this game, you will be given a short sequence of letters, and you are supposed to name something that contains that exact sequence. The catch is that you only have a few seconds to type your answer before the bomb goes off! How long can you last?"
   },
   "cipher": {
     "title": "Cipher Master",

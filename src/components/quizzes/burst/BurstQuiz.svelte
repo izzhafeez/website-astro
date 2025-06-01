@@ -1,12 +1,15 @@
 <script lang="ts">
     import Swal from 'sweetalert2';
     import { shareResults } from "../../common/showResults";
+    // unidecode
+    import unidecode from 'unidecode';
 
     export let names;
     export let title;
     export let params;
 
     let time = params.time || 20;
+    let sequenceLength = params.sequenceLength || 3;
     let remainingTime = time;
 
     let isStart = false;
@@ -36,7 +39,7 @@
         answer = names[Math.floor(Math.random() * names.length)];
         syll = answer.split(' ').sort(() => Math.random() - 0.5)[0];
         let syllIndex = Math.floor(Math.random() * (syll.length - 2));
-        syll = syll.slice(syllIndex, syllIndex + 3).toLowerCase();
+        syll = syll.slice(syllIndex, syllIndex + sequenceLength).toLowerCase();
 
         remainingTime = time;
         await handleTime();
@@ -70,7 +73,7 @@
     }
 
     const handleType = (e) => {
-        let inputValue = e.target.value.toLowerCase().replaceAll(" ", "");
+        let inputValue = unidecode(e.target.value).toLowerCase().replaceAll(" ", "");
         // check if in nameSet and contains the syll
         if (nameSet.has(inputValue) && inputValue.includes(syll)) {
             streak++;
@@ -86,6 +89,12 @@
 <div class="flex gap-2 my-2">
     {#each [5, 10, 15, 20, 30, 60] as n (n)}
     <button on:click={() => {time = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={time == n} class:text-white={time == n}>{n}</button>
+    {/each}
+</div>
+<label for="N" class="">Sequence Length: </label>
+<div class="flex gap-2 my-2">
+    {#each [2, 3, 4, 5] as n (n)}
+    <button on:click={() => {sequenceLength = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceLength == n} class:text-white={sequenceLength == n}>{n}</button>
     {/each}
 </div>
 <button
