@@ -42,7 +42,7 @@
   "expanding": {
     "title": "Expanding Master",
     "slugs": ["geo"],
-    "heroText": "In this game, you will start from a specified location and expand outwards, by circles or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
+    "heroText": "In this game, you will start from a specified location and expand outwards, by circles (sry about how it looks) or lines of latitude/longitude. Your job is to guess any location within the specified area. Once you're done, or you give up, the map will show you the largest cities that will satisfy each area."
   },
   "grid": {
     "title": "Grid Master",
@@ -97,7 +97,7 @@
   "satellite": {
     "title": "Satellite Streaks",
     "slugs": ["geo", "route"],
-    "heroText": "In this game, you will be given a satellite image of a location, line, or shape. Your job is to guess its name, either by MCQ or by typing. For point locations, you won't be able to move around that much, so you'll have to know what the place looks like! If you're having trouble, please activate the learning mode, which will slowly ramp up the difficulty as you get higher streaks. Good luck!"
+    "heroText": "In this game, you will be given a satellite image of a location, line, or shape. Your job is to guess its name, either by MCQ or by typing. For point locations, you won't be able to move around that much, so you'll have to know what the place looks like! If you're having trouble, please activate the learning mode, which will slowly ramp up the difficulty as you get higher streaks. If you're playing tripoints, name them in alphabetical order, and use short forms where applicable. Good luck!"
   },
   "scramble": {
     "title": "Scramble Master",

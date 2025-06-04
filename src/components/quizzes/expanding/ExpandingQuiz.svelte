@@ -15,7 +15,7 @@
   let lookups = {};
   let locationDict = {};
   let locationList = [];
-  let sequenceType = params.expandingType || "Circle";
+  let sequenceType = params.expandingType || "Longitude";
   let sequenceDist = parseFloat(params.expandingDist) || 50;
   let isFullscreen = false;
   let startingLocation = params.startingLocation || null;

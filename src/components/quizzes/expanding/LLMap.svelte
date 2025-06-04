@@ -4,6 +4,7 @@ import getColor from "../../../utils/color";
 import { toAdd, toAddAll, toRemoveAll, toAddFeature } from "./featureStore";
 import 'leaflet.fullscreen';
 import fullSvg from '../../../img/common/full.svg?raw';
+import * as turf from '@turf/turf';
 
 let map;
 export let locations;
@@ -129,7 +130,7 @@ toAddFeature.subscribe(value => {
   if (value == null || !map) return;
   // remove all previous features
   map.eachLayer(layer => {
-    if (layer instanceof L.Circle || layer instanceof L.Rectangle) {
+    if (layer instanceof L.Circle || layer instanceof L.Rectangle || layer instanceof L.Polygon) {
       map.removeLayer(layer);
     }
   });
@@ -139,10 +140,10 @@ toAddFeature.subscribe(value => {
   if (location) {
     const radius = value;
     if (sequenceType == "Circle") {
-      let circle = L.circle([location.lat, location.lng], {radius: radius*1000, color: 'red', fillOpacity: 0.2});
-      circle.addTo(map);
-      circle = L.circle([location.lat, location.lng], {radius: (radius-sequenceDist)*1000, color: 'red', fillOpacity: 0.02});
-      circle.addTo(map);
+      let circleGeoJSON = turf.circle([location.lng, location.lat], radius, {steps: 256, units: 'kilometers'});
+      L.geoJSON(circleGeoJSON, {color: 'red', fillOpacity: 0}).addTo(map);
+      circleGeoJSON = turf.circle([location.lng, location.lat], radius-sequenceDist, {steps: 256, units: 'kilometers'});
+      L.geoJSON(circleGeoJSON, {color: 'red', fillOpacity: 0}).addTo(map);
     } else if (sequenceType == "Latitude") {
       let latLine = L.rectangle([[location.lat - radius / 111.31949079327357, -180], [location.lat - (radius-sequenceDist) / 111.31949079327357, 180]], {color: 'red', fillOpacity: 0.2});
       latLine.addTo(map);

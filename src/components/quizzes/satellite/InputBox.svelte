@@ -14,6 +14,8 @@
   export let answer;
   export let filteredKeys;
 
+  $: lowerCaseKeys = filteredKeys.map(key => key.toLowerCase().replaceAll(" ", ""));
+
   let streak = 0;
   let bestStreak = 0;
   let isStart = false;
@@ -55,14 +57,17 @@
   const handleInput = (input) => {
     if (input == "gg") {
       handleWrong();
+      toAllow.set(answer);
       return true;
     }
 
-    if (!filteredKeys.includes(input)) {
+    let lowerCaseInput = input.toLowerCase().replaceAll(" ", "");
+
+    if (!lowerCaseKeys.includes(lowerCaseInput)) {
       return false;
     }
 
-    let correct = answer.toLowerCase() == input.toLowerCase();
+    let correct = answer.toLowerCase().replaceAll(" ", "") == lowerCaseInput;
 
     if (correct) handleCorrect();
     else handleWrong();
@@ -227,8 +232,8 @@
     {/if}
   {:else}
     <div class="flex flex-wrap gap-2">
-      <div class="my-auto">You guessed: <span class:text-ns-500={input.toLowerCase() != answer.toLowerCase()} class:text-ew-500={input.toLowerCase() === answer.toLowerCase()}>{input}</span></div>
-      {#if input.toLowerCase() != answer.toLowerCase()}
+      <div class="my-auto">You guessed: <span class:text-ns-500={input.toLowerCase().replaceAll(" ", "") != answer.toLowerCase().replaceAll(" ", "")} class:text-ew-500={input.toLowerCase().replaceAll(" ", "") === answer.toLowerCase().replaceAll(" ", "")}>{input}</span></div>
+      {#if input.toLowerCase().replaceAll(" ", "") != answer.toLowerCase().replaceAll(" ", "")}
         <div class="my-auto">Correct answer: {answer}</div>
       {/if}
       <button id="next-button" on:click={handleNext} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50'>Next</button>

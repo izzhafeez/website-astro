@@ -1,0 +1,854 @@
+{
+ "Belgium France Luxembourg": [
+  [
+   49.545,
+   5.8079
+  ]
+ ],
+ "France Germany Luxembourg": [
+  [
+   49.4594,
+   6.3622
+  ]
+ ],
+ "France Germany Switzerland": [
+  [
+   47.5845,
+   7.5883
+  ]
+ ],
+ "France Italy Switzerland": [
+  [
+   45.9319,
+   7.0381
+  ]
+ ],
+ "Andorra France Spain": [
+  [
+   42.6019,
+   1.4458
+  ]
+ ],
+ "Hungary Romania Serbia": [
+  [
+   46.1149,
+   20.261
+  ]
+ ],
+ "Bulgaria Romania Serbia": [
+  [
+   44.2247,
+   22.6814
+  ]
+ ],
+ "Bulgaria North Macedonia Serbia": [
+  [
+   42.3239,
+   22.3653
+  ]
+ ],
+ "Albania North Macedonia Serbia": [
+  [
+   41.8822,
+   20.5896
+  ]
+ ],
+ "Albania Montenegro Serbia": [
+  [
+   42.5609,
+   20.0714
+  ]
+ ],
+ "Bosnia Montenegro Serbia": [
+  [
+   43.5132,
+   19.2288
+  ]
+ ],
+ "Bosnia Croatia Serbia": [
+  [
+   44.8614,
+   19.0397
+  ]
+ ],
+ "Croatia Hungary Serbia": [
+  [
+   45.913,
+   18.817
+  ]
+ ],
+ "Argentina Brazil Uruguay": [
+  [
+   -30.1849,
+   -57.608
+  ]
+ ],
+ "Algeria Libya Tunisia": [
+  [
+   30.2344,
+   9.5371
+  ]
+ ],
+ "Algeria Libya Niger": [
+  [
+   23.5223,
+   11.9865
+  ]
+ ],
+ "Algeria Mali Niger": [
+  [
+   19.1467,
+   4.2453
+  ]
+ ],
+ "Algeria Mali Mauritania": [
+  [
+   25.0003,
+   -4.8061
+  ]
+ ],
+ "Benin Burkina Faso Togo": [
+  [
+   10.9964,
+   0.918
+  ]
+ ],
+ "Burkina Faso Ghana Togo": [
+  [
+   11.1385,
+   -0.1498
+  ]
+ ],
+ "Austria Germany Switzerland": [
+  [
+   47.5405,
+   9.5667
+  ]
+ ],
+ "Austria Liechtenstein Switzerland": [
+  [
+   47.0638,
+   9.5986
+  ]
+ ],
+ "Austria Italy Switzerland": [
+  [
+   46.8714,
+   10.4712
+  ]
+ ],
+ "Austria Czechia Slovakia": [
+  [
+   48.6191,
+   16.9462
+  ]
+ ],
+ "Austria Hungary Slovakia": [
+  [
+   48.0125,
+   17.1664
+  ]
+ ],
+ "Austria Hungary Slovenia": [
+  [
+   46.8697,
+   16.1118
+  ]
+ ],
+ "Austria Italy Slovenia": [
+  [
+   46.5266,
+   13.7187
+  ]
+ ],
+ "Austria Czechia Germany": [
+  [
+   48.7736,
+   13.8336
+  ]
+ ],
+ "Belgium Germany Luxembourg": [
+  [
+   50.1278,
+   6.1344
+  ]
+ ],
+ "China Kazakhstan Russia": [
+  [
+   49.0926,
+   87.3482
+  ]
+ ],
+ "China Kazakhstan Kyrgyzstan": [
+  [
+   42.1962,
+   80.234
+  ]
+ ],
+ "Kazakhstan Kyrgyzstan Uzbekistan": [
+  [
+   42.2547,
+   70.9708
+  ]
+ ],
+ "Kazakhstan Turkmenistan Uzbekistan": [
+  [
+   41.3285,
+   56.001
+  ]
+ ],
+ "Azerbaijan Kazakhstan Turkmenistan": [
+  [
+   41.2312,
+   51.2502
+  ]
+ ],
+ "Azerbaijan Kazakhstan Russia": [
+  [
+   42.7108,
+   49.7606
+  ]
+ ],
+ "Cameroon Equatorial Guinea Gabon": [
+  [
+   2.1686,
+   11.3398
+  ]
+ ],
+ "Estonia Latvia Russia": [
+  [
+   57.5356,
+   27.3721
+  ]
+ ],
+ "Chad Libya Niger": [
+  [
+   23.0006,
+   14.9979
+  ]
+ ],
+ "Chad Niger Nigeria": [
+  [
+   13.7183,
+   13.6251
+  ]
+ ],
+ "Benin Niger Nigeria": [
+  [
+   11.6933,
+   3.6045
+  ]
+ ],
+ "Benin Burkina Faso Niger": [
+  [
+   11.8962,
+   2.3979
+  ]
+ ],
+ "Burkina Faso Mali Niger": [
+  [
+   14.9151,
+   0.2351
+  ]
+ ],
+ "Belize Guatemala Mexico": [
+  [
+   17.8189,
+   -89.1419
+  ]
+ ],
+ "Finland Norway Russia": [
+  [
+   69.0516,
+   28.9573
+  ]
+ ],
+ "Finland Norway Sweden": [
+  [
+   69.0603,
+   20.5809
+  ]
+ ],
+ "Bangladesh India Myanmar": [
+  [
+   21.9822,
+   92.6008
+  ]
+ ],
+ "Belgium Germany Netherlands": [
+  [
+   50.7573,
+   6.0118
+  ]
+ ],
+ "Israel Lebanon Syria": [
+  [
+   33.2457,
+   35.6236
+  ]
+ ],
+ "Israel Jordan Syria": [
+  [
+   32.6853,
+   35.6489
+  ]
+ ],
+ "Moldova Romania Ukraine": [
+  [
+   48.2572,
+   26.635
+  ]
+ ],
+ "Hungary Romania Ukraine": [
+  [
+   47.9545,
+   22.8948
+  ]
+ ],
+ "Belarus Russia Ukraine": [
+  [
+   52.1081,
+   31.7839
+  ]
+ ],
+ "Belarus Poland Ukraine": [
+  [
+   51.5277,
+   23.6046
+  ]
+ ],
+ "Belarus Lithuania Poland": [
+  [
+   53.947,
+   23.504
+  ]
+ ],
+ "Belarus Latvia Lithuania": [
+  [
+   55.6748,
+   26.6132
+  ]
+ ],
+ "Belarus Latvia Russia": [
+  [
+   56.1502,
+   28.168
+  ]
+ ],
+ "Colombia Ecuador Peru": [
+  [
+   -0.1197,
+   -75.2858
+  ]
+ ],
+ "Kenya Tanzania Uganda": [
+  [
+   -1.0019,
+   33.9211
+  ]
+ ],
+ "Malawi Mozambique Tanzania": [
+  [
+   -11.5721,
+   34.9667
+  ]
+ ],
+ "Malawi Tanzania Zambia": [
+  [
+   -9.4051,
+   32.9404
+  ]
+ ],
+ "DRC Tanzania Zambia": [
+  [
+   -8.1922,
+   30.7712
+  ]
+ ],
+ "Burundi DRC Tanzania": [
+  [
+   -4.4475,
+   29.4233
+  ]
+ ],
+ "Burundi Rwanda Tanzania": [
+  [
+   -2.3992,
+   30.5733
+  ]
+ ],
+ "Rwanda Tanzania Uganda": [
+  [
+   -1.0633,
+   30.4822
+  ]
+ ],
+ "Ethiopia Kenya Somalia": [
+  [
+   3.9803,
+   41.9052
+  ]
+ ],
+ "Oman Saudi Arabia Yemen": [
+  [
+   18.9993,
+   51.9993
+  ]
+ ],
+ "Oman Saudi Arabia UAE": [
+  [
+   22.7093,
+   55.2087
+  ]
+ ],
+ "Guinea Ivory Coast Liberia": [
+  [
+   7.5613,
+   -8.4697
+  ]
+ ],
+ "Guinea Liberia Sierra Leone": [
+  [
+   8.4884,
+   -10.2666
+  ]
+ ],
+ "Burundi DRC Rwanda": [
+  [
+   -2.7447,
+   29.0244
+  ]
+ ],
+ "DRC Rwanda Uganda": [
+  [
+   -1.3858,
+   29.5969
+  ]
+ ],
+ "Eswatini Mozambique South Africa": [
+  [
+   -25.9578,
+   31.9685
+  ]
+ ],
+ "Mozambique South Africa Zimbabwe": [
+  [
+   -22.4148,
+   31.2975
+  ]
+ ],
+ "Mozambique Zambia Zimbabwe": [
+  [
+   -15.6319,
+   30.4158
+  ]
+ ],
+ "Malawi Mozambique Zambia": [
+  [
+   -14.0126,
+   33.2222
+  ]
+ ],
+ "Kyrgyzstan Tajikistan Uzbekistan": [
+  [
+   40.2448,
+   70.982
+  ]
+ ],
+ "Afghanistan Tajikistan Uzbekistan": [
+  [
+   37.1858,
+   67.7799
+  ]
+ ],
+ "Afghanistan Turkmenistan Uzbekistan": [
+  [
+   37.3664,
+   66.5377
+  ]
+ ],
+ "Djibouti Eritrea Ethiopia": [
+  [
+   12.4697,
+   42.3997
+  ]
+ ],
+ "Iraq Kuwait Saudi Arabia": [
+  [
+   29.1042,
+   46.5469
+  ]
+ ],
+ "Armenia Azerbaijan Iran": [
+  [
+   38.8756,
+   46.5404
+  ]
+ ],
+ "Azerbaijan Iran Turkmenistan": [
+  [
+   38.7149,
+   51.2927
+  ]
+ ],
+ "Afghanistan Iran Turkmenistan": [
+  [
+   35.6073,
+   61.2766
+  ]
+ ],
+ "Afghanistan Iran Pakistan": [
+  [
+   29.8637,
+   60.8663
+  ]
+ ],
+ "Iran Iraq Turkey": [
+  [
+   37.1497,
+   44.7873
+  ]
+ ],
+ "Azerbaijan Iran Turkey": [
+  [
+   39.6308,
+   44.813
+  ]
+ ],
+ "Angola Namibia Zambia": [
+  [
+   -17.6258,
+   23.4761
+  ]
+ ],
+ "Angola DRC Zambia": [
+  [
+   -10.8705,
+   23.9862
+  ]
+ ],
+ "Iraq Syria Turkey": [
+  [
+   37.1069,
+   42.3556
+  ]
+ ],
+ "Iraq Jordan Syria": [
+  [
+   33.3776,
+   38.7947
+  ]
+ ],
+ "Armenia Georgia Turkey": [
+  [
+   41.113,
+   43.4608
+  ]
+ ],
+ "Armenia Azerbaijan Turkey": [
+  [
+   39.7064,
+   44.7789
+  ]
+ ],
+ "Bulgaria Greece Turkey": [
+  [
+   41.7111,
+   26.3611
+  ]
+ ],
+ "Lithuania Poland Russia": [
+  [
+   54.3638,
+   22.7859
+  ]
+ ],
+ "China North Korea Russia": [
+  [
+   42.4219,
+   130.6044
+  ]
+ ],
+ "China Mongolia Russia": [
+  [
+   49.173,
+   87.8407
+  ]
+ ],
+ "Azerbaijan Georgia Russia": [
+  [
+   41.8971,
+   46.4518
+  ]
+ ],
+ "Botswana South Africa Zimbabwe": [
+  [
+   -22.1924,
+   29.3736
+  ]
+ ],
+ "Cameroon Central African Republic Chad": [
+  [
+   7.5266,
+   15.499
+  ]
+ ],
+ "Cameroon Central African Republic Congo": [
+  [
+   2.2213,
+   16.207
+  ]
+ ],
+ "Cameroon Congo Gabon": [
+  [
+   2.1636,
+   13.2939
+  ]
+ ],
+ "Cameroon Chad Nigeria": [
+  [
+   13.0817,
+   14.0747
+  ]
+ ],
+ "Djibouti Ethiopia Somalia": [
+  [
+   11.0024,
+   42.9441
+  ]
+ ],
+ "El Salvador Guatemala Honduras": [
+  [
+   14.432,
+   -89.3483
+  ]
+ ],
+ "China Kyrgyzstan Tajikistan": [
+  [
+   39.4548,
+   73.6557
+  ]
+ ],
+ "Brazil Guyana Suriname": [
+  [
+   1.9445,
+   -56.4706
+  ]
+ ],
+ "Poland Slovakia Ukraine": [
+  [
+   49.0794,
+   22.5581
+  ]
+ ],
+ "Czechia Poland Slovakia": [
+  [
+   49.5174,
+   18.8512
+  ]
+ ],
+ "Czechia Germany Poland": [
+  [
+   50.8658,
+   14.8283
+  ]
+ ],
+ "Bosnia Croatia Montenegro": [
+  [
+   42.5658,
+   18.4556
+  ]
+ ],
+ "Cambodia Laos Vietnam": [
+  [
+   14.7086,
+   107.5466
+  ]
+ ],
+ "China Laos Vietnam": [
+  [
+   22.3963,
+   102.1407
+  ]
+ ],
+ "Croatia Hungary Slovenia": [
+  [
+   46.4762,
+   16.6079
+  ]
+ ],
+ "Argentina Bolivia Paraguay": [
+  [
+   -22.2389,
+   -62.6438
+  ]
+ ],
+ "Argentina Brazil Paraguay": [
+  [
+   -25.5732,
+   -54.5989
+  ]
+ ],
+ "Argentina Bolivia Chile": [
+  [
+   -22.8217,
+   -67.1836
+  ]
+ ],
+ "Central African Republic Congo DRC": [
+  [
+   3.4794,
+   18.625
+  ]
+ ],
+ "Angola Congo DRC": [
+  [
+   -4.6331,
+   13.0914
+  ]
+ ],
+ "Bolivia Chile Peru": [
+  [
+   -17.5053,
+   -69.4997
+  ]
+ ],
+ "Guinea Mali Senegal": [
+  [
+   12.4078,
+   -11.3731
+  ]
+ ],
+ "Guinea Ivory Coast Mali": [
+  [
+   10.1656,
+   -7.974
+  ]
+ ],
+ "Guinea Guinea-Bissau Senegal": [
+  [
+   12.6772,
+   -13.7131
+  ]
+ ],
+ "Bulgaria Greece North Macedonia": [
+  [
+   41.3421,
+   22.9356
+  ]
+ ],
+ "Mali Mauritania Senegal": [
+  [
+   14.7644,
+   -12.2448
+  ]
+ ],
+ "Albania Greece North Macedonia": [
+  [
+   40.8559,
+   20.9835
+  ]
+ ],
+ "Burkina Faso Ivory Coast Mali": [
+  [
+   10.4363,
+   -5.5198
+  ]
+ ],
+ "Burkina Faso Ghana Ivory Coast": [
+  [
+   9.4818,
+   -2.6856
+  ]
+ ],
+ "China India Nepal": [
+  [
+   27.8661,
+   88.1428
+  ]
+ ],
+ "Bhutan China India": [
+  [
+   27.3208,
+   88.9169
+  ]
+ ],
+ "Brazil Guyana Venezuela": [
+  [
+   5.2048,
+   -60.7304
+  ]
+ ],
+ "Brazil Colombia Venezuela": [
+  [
+   1.2209,
+   -66.8704
+  ]
+ ],
+ "Botswana Namibia South Africa": [
+  [
+   -24.7654,
+   20.0009
+  ]
+ ],
+ "Hungary Slovakia Ukraine": [
+  [
+   48.4119,
+   22.1514
+  ]
+ ],
+ "Iraq Jordan Saudi Arabia": [
+  [
+   32.1549,
+   39.1967
+  ]
+ ],
+ "Bolivia Brazil Paraguay": [
+  [
+   -20.1681,
+   -58.1589
+  ]
+ ],
+ "Bolivia Brazil Peru": [
+  [
+   -10.9506,
+   -69.5675
+  ]
+ ],
+ "Brazil Colombia Peru": [
+  [
+   -4.2369,
+   -69.9569
+  ]
+ ],
+ "China Laos Myanmar": [
+  [
+   21.5726,
+   101.1482
+  ]
+ ],
+ "Afghanistan China Tajikistan": [
+  [
+   37.2373,
+   74.9157
+  ]
+ ],
+ "Laos Myanmar Thailand": [
+  [
+   20.3486,
+   100.0914
+  ]
+ ],
+ "Cambodia Laos Thailand": [
+  [
+   14.3497,
+   105.2106
+  ]
+ ],
+ "Armenia Azerbaijan Georgia": [
+  [
+   41.2971,
+   45.0229
+  ]
+ ]
+}

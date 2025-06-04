@@ -28,6 +28,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@spotlightjs/astro": "^1.0.14",
+    "@turf/turf": "^7.2.0",
     "@types/alpinejs": "^3.13.6",
     "@types/react": "^18.2.75",
     "@types/react-dom": "^18.2.24",

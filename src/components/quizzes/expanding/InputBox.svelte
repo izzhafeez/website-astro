@@ -68,9 +68,33 @@
 
   function handleInput(e) {
     const input = e.target.value;
+
+    if (input == "gg") {
+      handleEnd();
+      e.target.value = "";
+      return;
+    }
+
     // remove all non-alphanumeric characters, and lowercase
     const cleanInput = input.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-    if (!lookups[cleanInput]) return;
+    if (!lookups[cleanInput] && input != "skip") return;
+
+    if (input === "skip") {
+      e.target.value = "";
+
+      // find next expansion
+      for (let [i, expansion] of Object.entries(expansions)) {
+        if (parseFloat(i) > currExpansion) {
+          currExpansion = parseFloat(i);
+          break;
+        }
+      }
+
+      toAddFeature.set(currExpansion + sequenceDist);
+
+      return;
+    }
+
     for (let lookup of lookups[cleanInput]) {
       if (expansions[currExpansion].includes(lookup)) {
         toAdd.set(lookup);
@@ -147,7 +171,7 @@
       <input class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:input={handleInput}/>
     </div>
     <span class='text-sm '>{score}/{totalScore} guessed 
-      (<button type='button' class='text-ns-500 hover:text-ns-300 underline cursor-pointer' on:click={handleEnd}>Give Up?</button>)</span>
+      (<button type='button' class='underline cursor-pointer'>'skip' to skip, 'gg' to end</button>)</span>
   </div>
   {/if}
 </div>

@@ -1,4 +1,10 @@
 [
+    "malls_of_singapore",
+    "mrt_chinese",
+    "schools_of_singapore",
+    "parks_of_singapore",
+    "mrt",
+    "islands_of_the_world",
     "netherlands-0",
     "netherlands-50000",
     "netherlands-100000",
@@ -1288,10 +1294,5 @@
     "us-VT-top25",
     "us-VT-top50",
     "us-VT-top100",
-    "us-VT-top250",
-    "malls_of_singapore",
-    "mrt_chinese",
-    "schools_of_singapore",
-    "parks_of_singapore",
-    "mrt"
+    "us-VT-top250"
 ]
