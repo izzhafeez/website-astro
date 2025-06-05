@@ -21,7 +21,9 @@ const loadGeo = async (geoSlug: string) => {
     let hasDomainData = !!domainData;
     if (domainData) domainData = JSON.parse(domainData);
 
-    if (!domainData) {
+    let invalid = !domainData || !!Object.keys(domainData)[0].match(/[A-Z]{3}/)
+
+    if (invalid) {
         domainData = await fetch(`${folder}/${domain}.json`)
             .then((res) => {
                 if (res.status === 200) {
@@ -60,7 +62,8 @@ const loadGeo = async (geoSlug: string) => {
         const dataEntries = Object.entries(domainData as any).filter(([geoName, value]: [any, any]) => (!filter.length) || filter.includes(geoName.split("#")[1]));
 
         if (isTop) {
-            const count = parseInt(rawPop.substring(3));
+            // replace all letters in rawPop with ""
+            const count = parseInt(rawPop.replace(/[a-zA-Z]/g, ""));
             const limited = dataEntries.slice(0, count);
             return limited;
         }

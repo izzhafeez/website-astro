@@ -4,6 +4,8 @@
   import { shareResults } from "../../common/showResults";
   import party from "party-js";
   import Swal from "sweetalert2";
+  // unidecode
+  import unidecode from "unidecode";
 
   export let title;
   export let isLearning;
@@ -25,7 +27,7 @@
   let learnt = new Set();
   let learntCount = 0;
   $: pureKeys = filteredKeys ? filteredKeys.map(([n, f, v]) => n) : [];
-  $: lowerCaseKeys = pureKeys.map(key => key.toLowerCase().replaceAll(" ", ""));
+  $: lowerCaseKeys = pureKeys.map(key => unidecode(key).toLowerCase().replaceAll(" ", ""));
 
   const handleType = (e) => {
     if (!e.target.value) return;
@@ -59,7 +61,7 @@
       return true;
     }
 
-    let lowerCaseInput = input.toLowerCase().replaceAll(" ", "");
+    let lowerCaseInput = unidecode(input).toLowerCase().replaceAll(" ", "");
 
     if (!lowerCaseKeys.includes(lowerCaseInput)) {
       return false;
@@ -265,8 +267,8 @@
     {/if}
   {:else}
     <div class="flex flex-wrap gap-2">
-      <div class="my-auto">You guessed: <span class:text-ns-500={input.toLowerCase().replaceAll(" ", "") != answer.toLowerCase().replaceAll(" ", "")} class:text-ew-500={input.toLowerCase().replaceAll(" ", "") === answer.toLowerCase().replaceAll(" ", "")}>{input}</span></div>
-      {#if input.toLowerCase().replaceAll(" ", "") != answer.toLowerCase().replaceAll(" ", "")}
+      <div class="my-auto">You guessed: <span class:text-ns-500={unidecode(input).toLowerCase().replaceAll(" ", "") != unidecode(answer).toLowerCase().replaceAll(" ", "")} class:text-ew-500={unidecode(input).toLowerCase().replaceAll(" ", "") === unidecode(answer).toLowerCase().replaceAll(" ", "")}>{input}</span></div>
+      {#if unidecode(input).toLowerCase().replaceAll(" ", "") != unidecode(answer).toLowerCase().replaceAll(" ", "")}
         <div class="my-auto">Correct answer: {answer}</div>
       {/if}
       <button id="next-button" on:click={handleNext} class='bg-ew-300/30 py-1 px-2 rounded-md text-ew-700 dark:text-ew-300 hover:bg-ew-300/50 border-2 border-ew-500/50'>Next</button>

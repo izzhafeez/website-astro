@@ -4,11 +4,6 @@
     "slugs": ["geo", "stat", "name"],
     "heroText": "You will be given 5 blurred texts. Try your best to figure out what they say and type your guess. After submitting, you will be scored based on your accuracy. Feel free to adjust the blur level and font size to make it easier or harder. Good luck!"
   },
-  "burst": {
-    "title": "Syllaburst",
-    "slugs": ["geo", "c_stat", "c_name"],
-    "heroText": "How quick are you on your feet? In this game, you will be given a short sequence of letters, and you are supposed to name something that contains that exact sequence. The catch is that you only have a few seconds to type your answer before the bomb goes off! How long can you last?"
-  },
   "cipher": {
     "title": "Cipher Master",
     "slugs": ["geo", "stat", "name"],
@@ -103,6 +98,11 @@
     "title": "Scramble Master",
     "slugs": ["geo", "stat", "name"],
     "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough haha. Good luck!"
+  },
+  "burst": {
+    "title": "Syllaburst",
+    "slugs": ["geo", "c_stat", "c_name"],
+    "heroText": "How quick are you on your feet? In this game, you will be given a short sequence of letters, and you are supposed to name something that contains that exact sequence. The catch is that you only have a few seconds to type your answer before the bomb goes off! How long can you last?"
   },
   "triangulate": {
     "title": "Triangulate Puzzle",
