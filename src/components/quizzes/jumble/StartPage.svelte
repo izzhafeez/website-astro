@@ -3,16 +3,12 @@
   
     export let N: number;
     export let MAX_LENGTH: number;
-    export let mixFactor: number;
-    export let scrambleFactor: number;
     export let seed: string;
     export let handleNext: () => void;
     export let setTodaySeed: () => void;
     export let randomiseSeed: () => void;
     export let possible_N;
     export let possible_max_length;
-    export let possible_mixFactor;
-    export let possible_scrambleFactor;
   
     function handleStart() {
       // check seed is all numbers
@@ -40,20 +36,6 @@
     <div class="flex gap-2 my-2">
       {#each possible_max_length as n (n)}
       <button on:click={() => {MAX_LENGTH = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={MAX_LENGTH == n} class:text-white={MAX_LENGTH == n}>{n}</button>
-      {/each}
-    </div>
-    <label for="mixFactor" class="">Mix Factor: </label>
-    <div class="flex gap-2 my-2">
-      {#each possible_mixFactor as n (n)}
-      <button on:click={() => {mixFactor = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={mixFactor == n} class:text-white={mixFactor == n}>{n}</button>
-      {/each}
-    </div>
-    <label for="scrambleFactor" class="">Scramble Factor: </label>
-    <div class="flex gap-2 my-2">
-      {#each possible_scrambleFactor as n (n)}
-      <button on:click={() => {scrambleFactor = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={
-        scrambleFactor == n
-      } class:text-white={scrambleFactor == n}>{n}</button>
       {/each}
     </div>
     <label for="seed" class="">Seed: </label>

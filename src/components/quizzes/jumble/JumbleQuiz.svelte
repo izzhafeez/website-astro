@@ -12,13 +12,9 @@
     let seed = parseInt(params.seed) || Math.floor(Math.random() * 100000000);
     let N = parseInt(params.N) || 4;
     let MAX_LENGTH = parseInt(params.max) || 10;
-    let mixFactor = parseInt(params.mix) || 3;
-    let scrambleFactor = parseInt(params.scramble) || 3;
 
     let possible_N = [2, 3, 4, 5, 6, 7, 8];
     let possible_max_length = [8, 10, 12, 14, 16, 18, 100];
-    let possible_mixFactor = [0, 1, 2, 3, 4, 5];
-    let possible_scrambleFactor = [0, 1, 2, 3, 4, 5];
 
     // remove contents of parantheses and brackets
     let options = names;
@@ -78,8 +74,8 @@
 
 <div class="my-8 mx-auto max-w-3xl">
 {#if isStart}
-    <GamePage {chosen} bind:isStart={isStart} {title} {MAX_LENGTH} {scrambleFactor} {mixFactor} {randomiser} {seed} {randomiseSeed}/>
+    <GamePage {chosen} bind:isStart={isStart} {title} {MAX_LENGTH} {randomiser} {seed} {randomiseSeed}/>
 {:else}
-    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {randomiseSeed} {handleNext} {title} bind:scrambleFactor={scrambleFactor} bind:mixFactor={mixFactor} {possible_max_length} {possible_mixFactor} {possible_N} {possible_scrambleFactor} {setTodaySeed}/>
+    <StartPage bind:N={N} bind:MAX_LENGTH={MAX_LENGTH} bind:isStart={isStart} bind:seed={seed} {randomiseSeed} {handleNext} {title} {possible_max_length} {possible_N} {setTodaySeed}/>
 {/if}
 </div>

@@ -37,7 +37,11 @@ const loadGeo = async (geoSlug: string) => {
 
     const data = (() => {
         // save to local if not there
-        if (!hasDomainData) localStorage.setItem(domain, JSON.stringify(domainData))
+        if (!hasDomainData && ["us", "euro", "world"].includes(domain)) {
+            try {
+                localStorage.setItem(domain, JSON.stringify(domainData))
+            } catch (error) {}
+        }
 
         if (N == 1) {
             return Object.entries(domainData as any);

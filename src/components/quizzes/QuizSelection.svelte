@@ -127,7 +127,6 @@
             for (let group of slugGroups.sort((a, b) => -groupedSlugs[key][b].length + groupedSlugs[key][a].length)) {
                 newGroupSlugs.push(...groupedSlugs[key][group]);
             }
-            console.log(newGroupSlugs);
             groupedSlugs[key] = newGroupSlugs.sort((a, b) => a[0].split("-").length - b[0].split("-").length);
         }
 

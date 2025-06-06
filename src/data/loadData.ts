@@ -119,6 +119,7 @@ const loadData = async (slug: string) => {
         if ((quizData as any)[game].slugs.length == 0) return [];
         window.location.href = `/quizzes?search=${splitted.filter(s => s.length>1).join(" ")}`;
     } catch (err) {
+        console.error(err);
         if (err)
         swal.fire({
             title: "Error",

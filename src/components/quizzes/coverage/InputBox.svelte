@@ -1,6 +1,5 @@
 <script>
   import Timer from "../../../components/utils/Timer.svelte";
-  import { fullSanitise } from "../../../utils/string";
   import { toAdd, toHideTooltip, toRemove, toShowTooltip, toAddFeature } from "./featureStore";
   import { onMount } from "svelte";
   import showResults from "../../common/showResults";
@@ -15,6 +14,7 @@
   export let title;
   export let coverageDist = 100;
   export let coverageType = "Circle";
+  export let isFullscreen = false;
 
   $: fullScore = Object.values(lookups).map(a => a.length).reduce((a, b)=>a+b, 0);
   let totalScore = null;
@@ -23,6 +23,7 @@
   let toStop = true;
   let answeredDict = {};
   let regexInput = defaultRegex;
+  let completions = {};
 
   onMount(() => {
     handleRegex(null);
@@ -55,7 +56,13 @@
     };
     score = 0;
     toStop = false;
+
     for (const [k, v] of Object.entries(answers)) {
+      for (const f of v.filters) {
+        if (!completions[f]) completions[f] = 0;
+        completions[f] += 1;
+      }
+
       answeredDict[v.id] = 0;
       if (v.toInclude) {
         toRemove.set(v.id)
@@ -66,8 +73,14 @@
 
   function handleInput(e) {
     const input = e.target.value;
+
+    if (input === "gg") {
+      handleEnd();
+      return;
+    }
+
     // remove all non-alphanumeric characters, and lowercase
-    const cleanInput = input.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    const cleanInput = input.replaceAll(/[^a-zA-Z0-9]/g, '').toLowerCase();
     if (!lookups[cleanInput]) return;
     const targetSlugs = lookups[cleanInput];
     let somethingChanged = false;
@@ -80,6 +93,10 @@
 
         toAdd.set(target.id);
         answeredDict[target.id] = 2;
+
+        for (const f of target.filters) {
+          if (completions[f]) completions[f] -= 1;
+        }
 
         let lat = target.lat;
         let lng = target.lng;
@@ -98,6 +115,9 @@
             }
             
             if (distance < coverageDist*1000) {
+              for (const f of v.filters) {
+                if (completions[f]) completions[f] -= 1;
+              }
               toAddFeature.set(v.id);
               answeredDict[v.id] = 1;
               score += 1;
@@ -117,11 +137,11 @@
     let regex;
     try {
       if (!e) {
-        regex = new RegExp(defaultRegex, 'g');
+        regex = new RegExp(defaultRegex, 'gi');
       } else if (e === "from-input") {
-        regex = new RegExp(regexInput, 'g');
+        regex = new RegExp(regexInput, 'gi');
       } else {
-        regex = new RegExp(e.target.value, 'g');
+        regex = new RegExp(e.target.value, 'gi');
         regexInput = e.target.value;
       }
 
@@ -142,16 +162,15 @@
     }
   }
 
-  function addRemoveTag(tag) {
-    currentActiveTags = regexInput.split("|");
-    if (currentActiveTags.includes(tag)) {
-      currentActiveTags = currentActiveTags.filter(t => t !== tag);
-      regexInput = currentActiveTags.filter(t => t).join("|");
-    } else {
-      currentActiveTags.push(tag);
-      regexInput = currentActiveTags.filter(t => t).join("|");
-    }
-    handleRegex("from-input");
+  const showProgress = () => {
+    // swal that shows completions
+    let text = Object.entries(completions).map(([k, v]) => `${k}: ${v}`).join('\n');
+    Swal.fire({
+      title: "Remaining",
+      text: text,
+      icon: 'info',
+      confirmButtonText: 'Ok',
+    });
   }
 
   const prepareText = () => {
@@ -201,7 +220,10 @@
       <input class='border-gray-500/50 border-[1px] rounded-md p-1 dark:bg-gray-700' on:input={handleInput}/>
     </div>
     <span class='text-sm '>{score}/{totalScore} guessed 
-      (<button type='button' class='text-ns-500 hover:text-ns-300 underline cursor-pointer' on:click={handleEnd}>Give Up?</button>)</span>
+      ('gg' to give up)</span>
+      {#if !isFullscreen}
+      <button class='underline hover:text-ew-500 text-sm text-left' on:click={showProgress}>Show Remaining</button>
+      {/if}
   </div>
   {/if}
 </div>

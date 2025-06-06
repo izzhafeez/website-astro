@@ -2,7 +2,7 @@
     import Swal from 'sweetalert2';
     import { shareResults } from "../../common/showResults";
     // unidecode
-    import unidecode from 'unidecode';
+    import { standardiseCanonical } from "../../../data/standardiseName";
 
     export let names;
     export let title;
@@ -73,7 +73,7 @@
     }
 
     const handleType = (e) => {
-        let inputValue = unidecode(e.target.value).toLowerCase().replaceAll(" ", "");
+        let inputValue = standardiseCanonical(e.target.value);
         // check if in nameSet and contains the syll
         if (nameSet.has(inputValue) && inputValue.includes(syll)) {
             streak++;

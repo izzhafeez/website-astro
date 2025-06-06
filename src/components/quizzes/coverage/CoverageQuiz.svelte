@@ -30,13 +30,13 @@
     const cleanText = key.split("[").shift().trim();
 
     for (let spelling of spellings) {
-      if (!lookups[spelling]) lookups[spelling] = [];
-      lookups[spelling].push(locationSlug); 
+      if (!lookups[spelling]) lookups[spelling] = new Set();
+      lookups[spelling].add(locationSlug);
     }
 
     let cleanName = standardiseWithoutParen(key).toLowerCase().replaceAll(" ", "");
-    if (!lookups[cleanName]) lookups[cleanName] = [];
-    lookups[cleanName].push(locationSlug);
+    if (!lookups[cleanName]) lookups[cleanName] = new Set();
+    lookups[cleanName].add(locationSlug);
 
     const location = new Location({
       lat: value[1], lng: value[0], label: cleanText, color: (() => {
@@ -49,6 +49,7 @@
       lat: value[1],
       lng: value[0],
       id: locationList.length,
+      filters: key.split("#")[1].split(",").map(f => f.trim()),
       name: cleanText
     };
     locationList.push(location);
@@ -57,7 +58,7 @@
 
 <div class="max-w-6xl mx-auto">
   <div class={isFullscreen ? "fixed top-0 left-1/2 -translate-x-1/2 z-[1000000] bg-white dark:bg-black p-2" : ""}>
-    <InputBox answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title} bind:coverageDist={coverageDist} bind:coverageType={coverageType}/>
+    <InputBox {isFullscreen} answers={locationDict} {lookups} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {title} bind:coverageDist={coverageDist} bind:coverageType={coverageType}/>
   </div>
   <LLMap locations={locationList} defaultRegex={params.selection || ""} isUntimed={params.isUntimed} {coverageDist} {coverageType} bind:isFullscreen={isFullscreen}/>
 </div>

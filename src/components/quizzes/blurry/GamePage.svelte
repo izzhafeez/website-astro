@@ -6,6 +6,7 @@
     import party from "party-js";
     import axios from "axios";
     import showResults, { shareResults } from "../../common/showResults";
+    import {standardiseCanonical} from "../../../data/standardiseName";
 
     export let randomiser: () => number;
     export let randomiseSeed: () => void;
@@ -48,7 +49,7 @@
 
     function handleGuess() {
         // use Jaccard similarity to compare guess and toGuess
-        const levenshteinDistance = levenshtein.get(guess, toGuess);
+        const levenshteinDistance = levenshtein.get(standardiseCanonical(guess), standardiseCanonical(toGuess));
         const overallSimilarity = Math.ceil(100 - (levenshteinDistance / toGuess.length) * 100);
 
         roundScore = overallSimilarity;

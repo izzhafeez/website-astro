@@ -35,7 +35,7 @@
     let data: any;
     const splitted = quiz.split("-");
     const quizType = splitted[0];
-    let instructions = quizData[quizType].heroText;
+    let instructions = (quizData as any)[quizType].heroText;
 
     onMount(async () => {
         data = await loadData(quiz);

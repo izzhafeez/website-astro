@@ -20,6 +20,8 @@
   export let seed: string;
   export let randomiseSeed: () => void;
 
+  console.log(answers);
+
   let totalScore = 0;
 
   function handleSelect(tile: string) {
@@ -81,7 +83,7 @@
       }
 
       for (let tile of Object.keys(selected)) {
-        if (data[answer].includes(tile) && selected[tile]) {
+        if (answers[answer].includes(tile) && selected[tile]) {
           counts[answer] += tileCounts[tile];
         }
       }

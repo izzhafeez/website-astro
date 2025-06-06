@@ -87,11 +87,11 @@
     let regex;
     try {
       if (!e) {
-        regex = new RegExp(defaultRegex, 'g');
+        regex = new RegExp(defaultRegex, 'gi');
       } else if (e === "from-input") {
-        regex = new RegExp(regexInput, 'g');
+        regex = new RegExp(regexInput, 'gi');
       } else {
-        regex = new RegExp(e.target.value, 'g');
+        regex = new RegExp(e.target.value, 'gi');
         regexInput = e.target.value;
       }
 

@@ -5,8 +5,6 @@
     export let chosen;
     export let title;
     export let isStart;
-    export let scrambleFactor;
-    export let mixFactor;
     export let randomiser;
     export let seed;
     export let randomiseSeed;
@@ -14,27 +12,7 @@
     
     let givenUp = false;
     // all the individual letters in the chosen words
-    let letters = chosen
-        .map((chose: string, i: number) => chose
-            .split('')
-            .map(letter => [letter, i])
-            .map((a: any, j: number) => [a, j])
-            .sort((a: any, b: any) => {
-                if (isNaN(scrambleFactor)) scrambleFactor = 3;
-                if (scrambleFactor < 0) scrambleFactor = 0;
-                if (scrambleFactor > 5) scrambleFactor = 5;
-                return (scrambleFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0
-            })
-            .map((a: any) => a[0])
-        )
-        .flat()
-        .sort((a: any, b: any) => {
-            if (isNaN(mixFactor)) mixFactor = 3;
-            if (mixFactor < 0) mixFactor = 0;
-            if (mixFactor > 5) mixFactor = 5;
-            return a[1] == b[1] ? 0 : (mixFactor/5) - Math.pow(randomiser(), 3) > 0 ? randomiser() - 0.5 : 0
-        })
-        .map((a: any) => a[0]);
+    let letters = chosen.join('').split('').sort(() => randomiser() - 0.5);
     let badLetters: string[] = [];
     // same length as letters
     let used = Array(letters.length).fill(false);
@@ -87,7 +65,7 @@
                 text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
             }
             text += `I got all ${setOfResponses.size}/${setOfResponses.size}!\n`;
-            text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}&scramble=${scrambleFactor}&mix=${mixFactor}\n`;
+            text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}\n`;
 
             showResults(setOfResponses.size, setOfChosens.size, null, text);
             randomiseSeed();
@@ -132,7 +110,7 @@
             text += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
         }
         text += `I got ${score}/${chosen.length} correct!\n`;
-        text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}&scramble=${scrambleFactor}&mix=${mixFactor}\n`;
+        text += `${window.location.href.split("?")[0]}?seed=${seed}&N=${chosen.length}&max=${MAX_LENGTH}\n`;
         shareResults(text);
     }
 </script>
