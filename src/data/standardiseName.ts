@@ -9,5 +9,5 @@ export const standardiseWithParen = (geoName: string) => {
 }
 
 export const standardiseCanonical = (name: string) => {
-    return unidecode(name).replaceAll(/[^a-zA-Z0-9]/gi, " ").toLowerCase().trim();
+    return unidecode(name).replaceAll(/[^a-zA-Z0-9]/gi, "").toLowerCase().trim();
 }

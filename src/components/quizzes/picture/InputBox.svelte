@@ -67,7 +67,7 @@
       return false;
     }
 
-    let correct = answer.toLowerCase().replaceAll(" ", "") == lowerCaseInput;
+    let correct = standardiseCanonical(answer) == lowerCaseInput;
 
     if (correct) handleCorrect();
     else handleWrong();
