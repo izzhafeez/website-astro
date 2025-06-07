@@ -13,6 +13,7 @@
   export let title: string;
   export let seed: string;
   export let randomiseSeed: () => void;
+  export let angle: number;
 
   let isEnd = false;
   let colorId = 0;
@@ -148,6 +149,15 @@
     </div>
     {:else}
     <div class="flex mx-auto gap-2">
+      <!-- angle as an arrow -->
+      <span class="my-auto">Bearing:</span>
+      <div class="w-6 h-6 transform origin-center my-auto border-2 rounded-full"
+       style="transform: rotate({angle * 180 / Math.PI}deg);">
+        <svg class="w-full h-full dark:invert" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="2" x2="12" y2="22" />
+          <polyline points="6 8 12 2 18 8" />
+        </svg>
+      </div>
       <button class="text-white bg-cc-500 hover:bg-cc-300 rounded-lg py-1 px-2 my-auto mx-auto"
         on:click={copyResults}>Copy Results</button>
       <button class="text-white bg-ew-500 hover:bg-ew-300 rounded-lg py-1 px-2 my-auto mx-auto"

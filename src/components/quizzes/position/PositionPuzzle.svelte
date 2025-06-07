@@ -19,6 +19,7 @@
   let isRotate = true;
   let locations = [];
   let positions = [];
+  let angle = 0;
 
   let isStart = false;
 
@@ -57,7 +58,12 @@
     let chosen = shuffle([...data], randomiser).slice(0, 2*N);
     let newChosen = [];
 
+    let seen = new Set();
     for (let i = 0; i < chosen.length; i++) {
+      let cleanName = standardiseWithoutParen(chosen[i][0]);
+      if (seen.has(cleanName)) continue;
+      seen.add(cleanName);
+      
       let isClose = false;
       for (let j = 0; j < newChosen.length; j++) {
         if (Math.abs(chosen[i].lat - newChosen[j].lat) < threshold && Math.abs(chosen[i].lng - newChosen[j].lng) < threshold) {
@@ -88,7 +94,7 @@
     centroid[0] /= positions.length;
     centroid[1] /= positions.length;
 
-    const angle = randomiser() * 2 * Math.PI;
+    angle = randomiser() * 2 * Math.PI;
     const cos = Math.cos(angle);
     const sin = Math.sin(angle);
 
@@ -127,5 +133,5 @@
 {#if !isStart}
   <StartPage bind:N={N} bind:isRotate={isRotate} handleNext={handleNext} bind:isStart={isStart} {randomiseSeed} {setTodaySeed} bind:seed={seed} {key}/>
 {:else}
-  <GamePage {positions} {locations} {randomiser} bind:isStart={isStart} {title} {seed} {randomiseSeed}/>
+  <GamePage {positions} {locations} {randomiser} {angle} bind:isStart={isStart} {title} {seed} {randomiseSeed}/>
 {/if}
