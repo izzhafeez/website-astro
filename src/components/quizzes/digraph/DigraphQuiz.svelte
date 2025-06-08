@@ -85,5 +85,5 @@
 {#if !isStart}
   <StartPage {handleStart} bind:isStart={isStart} {randomiseSeed} {setTodaySeed} bind:seed={seed} bind:hideColor={hideColor}/>
 {:else}
-  <GamePage {digraph} {bounds} {cleanData} bind:isStart={isStart} {title} {seed} {randomiseSeed} {hideColor}/>
+  <GamePage {digraph} {bounds} {cleanData} bind:isStart={isStart} {title} {seed} {randomiseSeed} {hideColor} {handleStart}/>
 {/if}

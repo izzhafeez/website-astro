@@ -18,6 +18,7 @@
   export let randomiseSeed;
   export let bounds;
   export let hideColor;
+  export let handleStart;
 
   let map;
   let featureGroup = L.featureGroup();
@@ -106,6 +107,11 @@
   }
 
   function mapAction(container) {
+    if (map) {
+      map.remove();
+      map = null;
+    }
+
     map = createMap(container);
 
     createFilteredMarkers();
@@ -173,21 +179,36 @@
         link += `Daily Challenge on ${seedString.slice(0, 4)}/${seedString.slice(4, 6)}/${seedString.slice(6)}\n`;
     }
     link += `I got it ${isCorrect ? "right!" : "wrong :("}\n`;
-    link += `${window.location.href.split("?")[0]}?seed=${seed}&hideColor=${hideColor}`;
+    link += `${window.location.href.split("?")[0]}?seed=${seed}&hideColor=${hideColor ? "true" : ""}`;
     shareResults(link);
   }
 
   const handleEnd = () => {
-    isStart = false;
+    // isStart = false;
+    hasGuessed = false;
+
+    guessInput = "";
+    if (mapActionHandle) {
+      mapActionHandle.destroy();
+    }
+
     randomiseSeed();
+    handleStart();
+
+    mapActionHandle = mapAction(mapContainer);
   }
+
+  let mapActionHandle;
+  let mapContainer;
 </script>
 
 <svelte:window on:resize={resizeMap}/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
-<div id="map" class="h-[30rem] w-full z-0" use:mapAction></div>
+<div id="map" class="h-[30rem] w-full z-0" bind:this={mapContainer} use:mapAction={() => {
+  mapActionHandle = mapAction(mapContainer);
+}}></div>
 
 {#if !hasGuessed}
 <div class="my-4 gap-2 grid">
