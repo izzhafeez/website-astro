@@ -176,12 +176,8 @@
 
     const targetCount = Math.min(Math.floor(streak / 4) + 4, filteredKeys.length);
 
-    // add random options from filteredKeys
-    while (optionsSet.size < targetCount) {
-      const randomIndex = Math.floor(Math.random() * filteredKeys.length);
-      const randomKey = filteredKeys[randomIndex];
-      optionsSet.add(randomKey);
-    }
+    const sortedKeys = [...filteredKeys].sort(() => Math.random() - 0.5).slice(0, targetCount - 1);
+    sortedKeys.forEach(key => optionsSet.add(key));
 
     options = Array.from(optionsSet).sort(() => Math.random() - 0.5);
   }
