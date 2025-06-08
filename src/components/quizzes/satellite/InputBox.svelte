@@ -173,9 +173,11 @@
   $: if (answer) {
     let optionsSet = new Set();
     optionsSet.add(answer);
-    
-    // add 3 more random options from filteredKeys
-    while (optionsSet.size < 4) {
+
+    const targetCount = Math.min(Math.floor(streak / 4) + 4, filteredKeys.length);
+
+    // add random options from filteredKeys
+    while (optionsSet.size < targetCount) {
       const randomIndex = Math.floor(Math.random() * filteredKeys.length);
       const randomKey = filteredKeys[randomIndex];
       optionsSet.add(randomKey);
