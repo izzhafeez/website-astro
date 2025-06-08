@@ -55,7 +55,7 @@
         }
         chosen = chosen.map((name) => {
             // name needs to be unidecode
-            return unidecode(standardiseWithoutParen(name));
+            return unidecode(standardiseWithoutParen(name)).replaceAll(/[^a-zA-Z ]/g, '').trim();
         });
 
         isStart = true;
