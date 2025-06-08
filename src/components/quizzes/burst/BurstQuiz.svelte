@@ -33,6 +33,10 @@
     // if the user types the correct answer, the timer resets and the next question is automatically shown
 
     const handleNext = async () => {
+        // clear input box
+        const inputBox = document.getElementById("guess");
+        if (inputBox) inputBox.value = '';
+
         dateTime = new Date();
 
         // get random 3 letters from any name
@@ -63,9 +67,17 @@
                     text: `The answer was: ${answer}`,
                     icon: 'error',
                     confirmButtonText: 'Next',
+                    showCancelButton: true,
+                    cancelButtonText: 'Share Results'
+                }).then(result => {
+                    // only if share results
+                    if (!result.isConfirmed) {
+                        let resultsText = `${title}\n`;
+                        resultsText += `My best streak is ${bestStreak}!\n`;
+                        resultsText += `${window.location.href.split("?")[0]}?time=${time}&sequenceLength=${sequenceLength}\n`;
+                        shareResults(resultsText);
+                    }
 
-                    // share button
-                }).then(() => {
                     handleNext();
                 });
             }
@@ -87,13 +99,13 @@
 {#if !isStart}
 <label for="N" class="">Time Interval (s): </label>
 <div class="flex gap-2 my-2">
-    {#each [5, 10, 15, 20, 30, 60] as n (n)}
+    {#each [10, 15, 20, 30, 60, 120] as n (n)}
     <button on:click={() => {time = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={time == n} class:text-white={time == n}>{n}</button>
     {/each}
 </div>
 <label for="N" class="">Sequence Length: </label>
 <div class="flex gap-2 my-2">
-    {#each [2, 3, 4, 5] as n (n)}
+    {#each [1, 2, 3, 4, 5] as n (n)}
     <button on:click={() => {sequenceLength = n;}} class="border-[1px] border-gray-500/0 hover:border-ns-300 rounded-md px-2 py-1" class:bg-ns-300={sequenceLength == n} class:text-white={sequenceLength == n}>{n}</button>
     {/each}
 </div>

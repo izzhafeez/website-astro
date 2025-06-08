@@ -74,8 +74,7 @@ const showResults = (score: number, total: number, element: any, text: string) =
     if (result.isConfirmed) {
       navigator.clipboard.writeText(text);
       toast.fire({
-        title: "Copied!",
-        text: "Text copied to clipboard.",
+        title: "Copied to clipboard!",
         icon: "success",
       });
     }
