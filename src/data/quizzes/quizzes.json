@@ -97,7 +97,7 @@
   "scramble": {
     "title": "Scramble Master",
     "slugs": ["geo", "stat", "name"],
-    "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough haha. Good luck!"
+    "heroText": "Just a simple unscramble game! Note that it is case and space-sensitive. If you prefer more of a challenge, you can try out Jumble Jam, but I think scrambling is already hard enough. Good luck!"
   },
   "burst": {
     "title": "Syllaburst",

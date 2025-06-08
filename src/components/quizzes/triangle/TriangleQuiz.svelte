@@ -66,7 +66,7 @@
     }
     dataByDistance.sort((a, b) => a[1] - b[1]);
 
-    for (let i = 0; i < N - 1; i++) {
+    for (let i = 0; i < N; i++) {
       locations.push(dataByDistance[i + 1][0]);
     }
   }
