@@ -30,11 +30,14 @@
     context.font = "12px sans-serif";
     context.textAlign = "center";
     context.textBaseline = "top";
+
     for (let i = 0; i < randomData.length; i++) {
       const lat = randomData[i][0];
       const lng = randomData[i][1];
+
       const y = -(lat * (height * 0.8)) + height*0.9;
       const x = (lng * (width * 0.8)) + width*0.1;
+
       context.beginPath();
       context.arc(x, y, 5, 0, 2 * Math.PI);
       context.fillStyle = colors[i];
@@ -97,6 +100,7 @@
   }
 
   $: size = Math.min(Math.max(Math.min(window.innerWidth, window.innerHeight) * 0.7, 300), 600);
+  // const size = 1000
 </script>
 
 <div class="grid" id="canvas">

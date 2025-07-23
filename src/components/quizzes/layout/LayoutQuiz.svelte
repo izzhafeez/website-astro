@@ -9,7 +9,7 @@
   export let params;
   let seed = parseInt(params.seed) || Math.floor(Math.random() * 100000000);
   let randomiser = seededRandom(seed);
-  let isRotate = params.isRotate != "";
+  let isRotate = !!params.isRotate;
 
   const randomiseSeed = () => {
     seed = Math.floor(Math.random() * 100000000);
@@ -31,6 +31,13 @@
   let randomNames;
   let keys = Object.keys(data);
 
+  function latLngToWebMercator(lat, lng) {
+    const RADIUS = 6378137; // Radius of the Earth in meters (WGS84)
+    const x = RADIUS * (lng * Math.PI / 180);
+    const y = RADIUS * Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+    return [y, x];
+  }
+
   const handleNext = () => {
     randomiser = seededRandom(seed);
     randomiser();
@@ -40,7 +47,10 @@
     randomData = data[randomKey];
     randomNames = randomData.map((d) => d[0]);
 
-    randomData = randomData.map((d) => [d[2], d[1]]);
+    // randomData = randomData.map((d) => [mercatorY(d[2]), d[1]]);
+    console.log(randomData)
+    randomData = randomData.map((d) => latLngToWebMercator(d[2], d[1]));
+    console.log(randomData)
     if (isRotate) {
       randomData = rotate(randomData);
     }
