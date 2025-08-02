@@ -66,10 +66,8 @@ function resizeMap() {
 }
 
 function markerIcon(colorCode) {
-  // const color = getColor(colorCode);
-  const color = getColor("dt-300")
-  //change back to 12
-  const size = 30;
+  const color = getColor(colorCode);
+  const size = 14;
   return L.divIcon({
     html: svg(size, size, color),
     className: '',
