@@ -17,7 +17,7 @@
   let streak = 0;
   let bestStreak = 0;
   let isStart = false;
-  let encountered = new Set();
+  let encountered = [];
   let isWaiting = false;
   let options = [];
   let input = "";
@@ -81,10 +81,22 @@
     streak++;
     bestStreak = Math.max(streak, bestStreak);
     party.confetti(document.querySelector('.h-30'));
+
+    // add answer to back of encountered set
+    if (isLearning) {
+      encountered.push(answer);
+    }
   }
 
   const handleWrong = () => {
     streak = 0;
+
+    // add answer to 3rd position in encountered set
+    if (isLearning && encountered.length >= 2) {
+      encountered.splice(2, 0, answer);
+    } else if (isLearning) {
+      encountered.push(answer);
+    }
   }
 
   const handleStart = () => {
@@ -98,7 +110,6 @@
       return;
     }
 
-    encountered.clear();
     isStart = true;
 
     // populate the encountered set with 4 random keys from filteredKeys
@@ -108,7 +119,7 @@
     filters.clear();
     randomKeys.forEach(key => {
       filters.add(canonicalF(key[1][0]));
-      encountered.add(key[0]);
+      encountered.push(key[0]);
     });
 
     if (!isLearning) {
@@ -130,30 +141,15 @@
       // add a new key to the encountered set
       const sortedKeys = [...catKeys].sort(() => Math.random() - 0.5);
       const randomKey = sortedKeys[0];
-      encountered.add(randomKey[0]);
+      encountered.unshift(randomKey[0]);
       filters.add(randomCat);
     }
 
     let randomKey = answer;
 
-    while (answer == randomKey) {
-      if (isLearning) {
-        // get a random category from the encountered set
-        const sortedCats = [...filters].sort(() => Math.random() - 0.5);
-        const randomCat = sortedCats[0];
-        const catKeys = Array.from(encountered).filter(key => {
-          const f = canonicalF(dataDict[key].f[0]);
-          return f && f == randomCat;
-        });
-
-        // get a random key from the encountered set
-        const randomIndex = Math.floor(Math.random() * catKeys.length);
-        randomKey = catKeys[randomIndex];
-
-        learnt.add(randomKey);
-        learntCount = learnt.size;
-      } else {
-        // get a random category from the encountered set
+    if (!isLearning) {
+      while (answer == randomKey) {
+        // get a random key from the filteredKeys
         const sortedCats = [...filters].sort(() => Math.random() - 0.5);
         const randomCat = sortedCats[0];
         const catKeys = filteredKeys.filter(([name, fs, _]) => canonicalF(fs[0]) == randomCat);
@@ -162,7 +158,13 @@
         const randomIndex = Math.floor(Math.random() * catKeys.length);
         randomKey = catKeys[randomIndex][0];
       }
+    } else {
+      // get first element from encountered set
+      randomKey = encountered[0];
+      // remove the first element from encountered set
+      encountered.shift();
     }
+
     answer = randomKey;
 
     // TODO
