@@ -11,7 +11,7 @@ export const getColor = (mapType: string, comparator: string|number) => {
 const getMrtColor = (comparator: string) => {
   const bracketRegex = /\([^)]*\)/gi;
   const bracketValues = comparator.match(bracketRegex);
-  if (!bracketValues) return "lrt-500";
+  if (!bracketValues) return "white";
   const bracketValue = bracketValues[0];
   const key = bracketValue.match(/[A-Z]+/gi);
   if (!key) return "lrt-500";

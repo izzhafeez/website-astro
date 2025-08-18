@@ -11,6 +11,7 @@ import vimTier from "../../img/logos/vim-tier.svg";
 import routeWeaver from "../../img/logos/route-weaver.svg";
 import mrtRouter from "../../img/logos/mrt-router.svg";
 import collabTier from "../../img/logos/collab-tier.svg";
+import mapViz from "../../img/logos/map-viz.svg";
 
 // quizzes
 import binary from "../../img/logos/binary.svg";
@@ -88,6 +89,7 @@ export default {
   "route-weaver": routeWeaver,
   "mrt-router": mrtRouter,
   "collab-tier": collabTier,
+  "map-viz": mapViz,
   binary,
   blurry,
   burst,

@@ -6,10 +6,10 @@
 
     // svg imports
     import logos from "../common/logos";
+    import searchSvg from "../../img/common/search.svg";
 
     export let search = "";
     export let page = 1;
-    export let exclude = false;
     export let load = false;
 
     const PER_PAGE = 50;
@@ -37,9 +37,7 @@
 
     onMount(async () => {
         const register = registerIncidence(searchArray, slugs);
-        if (!exclude) {
-            await register("geo");
-        }
+        await register("geo");
         await register("stat");
         await register("name");
         await register("pie");
@@ -95,7 +93,7 @@
         let typedSlugs = [];
         for (let combination of combinations) {
             for (let typeSlug of slugs[combination[1]][combination[2]]) {
-                if ((!exclude || !typeSlug.charAt(typeSlug.length-1) == '0') && (!combination[4] || typeSlug.startsWith("c_"))) {
+                if ((!typeSlug.charAt(typeSlug.length-1) == '0') && (!combination[4] || typeSlug.startsWith("c_"))) {
                     let type = typeMatchings[combination[1]] || combination[1][0];
                     typedSlugs.push([`${combination[0]}-${type}-${typeSlug}`, combination[3]]);
                 }
@@ -160,37 +158,29 @@
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevent page reload
         const trimmed = search.trim();
-        window.location.href = `/quizzes?search=${encodeURIComponent(trimmed)}&page=1&exclude=${exclude ? "t" : ""}`;
+        window.location.href = `/quizzes?search=${encodeURIComponent(trimmed)}&page=1`;
     };
 </script>
 
 <div class="p-2 max-w-3xl mx-auto grid">
-    <form on:submit={handleSubmit} class="mb-8 grid gap-2 w-72">
-        <div class="flex">
-            <label for="geo" class="my-auto">Search:</label>
-            <input
-                type="text"
-                bind:value={search}
-                placeholder="Search for quizzes..."
-                class="ms-auto p-2 rounded-lg border-2 border-ns-500/50 dark:bg-gray-800 focus:outline-none focus:border-ns-500/50"
-            />
-        </div>
-        <div class="my-auto flex">
-            <label for="geo" class="my-auto">Exclude Geo:</label>
-            <input
-                type="checkbox"
-                id="geo"
-                bind:checked={exclude}
-                class="dark:bg-gray-700 rounded-md px-2 py-2 my-auto mx-2"
-            />
-            <button type="submit" class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70 ms-auto">
-                Search
-            </button>
-        </div>
-    </form>
+    <div class="flex mb-4">
+        <h2 class="text-3xl font-bold my-auto text-ns-500">RESULTS</h2>
+        <form on:submit={handleSubmit} class="ms-auto w-72">
+            <div class="flex">
+                <input
+                    type="text"
+                    bind:value={search}
+                    placeholder="Search quizzes..."
+                    class="ms-auto px-4 py-2 rounded-l-full border-2 border-ns-500 dark:bg-gray-800 focus:outline-none focus:border-ns-500/50"
+                />
+                <button type="submit" class="bg-ns-500 text-white ps-2 pe-4 py-2 rounded-r-full hover:bg-ns-500/70">
+                    <img src={searchSvg.src} alt="Search" class="w-5 h-5" />
+                </button>
+            </div>
+        </form>
+    </div>
 
     <div class ="grid gap-3">
-        <h2 class="text-3xl text-ns-500 font-extrabold">SEARCH RESULTS</h2>
         {#each finalSlugs as slug}
             <a href={`/quizzes/${slug}`} class="lg:text-lg hover:underline rounded-lg">
                 <div class="flex gap-2 lg:gap-4">
@@ -198,11 +188,14 @@
                         src={logos[slug.split("-")[0]].src}
                         class="w-5 h-5 lg:w-10 lg:h-10 my-auto"
                         alt="svg"/>
-                    <span class={`text-black dark:text-white bg-ns-500/50 p-1 lg:p-2 rounded-lg`}>
+                    <span class={`text-white bg-ns-500 p-1 lg:p-2 rounded-lg`}>
                         {quizData[slug.split("-")[0]].title}</span> <span class="my-auto">{convertSlug(slug).split(":")[1]}
                     </span>
                 </div>
             </a>
+            <!-- <a href={`/quizzes/${slug}`}>
+                hello
+            </a> -->
         {/each}
         {#if !finalSlugs}
             <p class="text-lg">Loading...</p>
@@ -214,13 +207,13 @@
     <!-- page select -->
     <div class="flex justify-center mt-4 gap-8 mx-auto">
         {#if page > 1}
-            <a href={`/quizzes?search=${encodeURIComponent(search)}&page=${page - 1}&exclude=${exclude ? "t" : ""}`} class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70 me-2">
+            <a href={`/quizzes?search=${encodeURIComponent(search)}&page=${page - 1}`} class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70 me-2">
                 &lt;
             </a>
         {/if}
         <div class="my-auto">Page {page}</div>
         {#if !!finalSlugs && (finalSlugs.length >= PER_PAGE || page < 1)}
-            <a href={`/quizzes?search=${encodeURIComponent(search)}&page=${page + 1}&exclude=${exclude ? "t" : ""}`} class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70">
+            <a href={`/quizzes?search=${encodeURIComponent(search)}&page=${page + 1}`} class="bg-ns-500/50 text-white p-2 rounded-lg hover:bg-ns-500/70">
                 &gt;
             </a>
         {/if}
