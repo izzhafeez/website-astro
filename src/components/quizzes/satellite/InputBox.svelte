@@ -19,7 +19,7 @@
   let streak = 0;
   let bestStreak = 0;
   let isStart = false;
-  let encountered = new Set();
+  let encountered = [];
   let isWaiting = false;
   let options = [];
   let input = "";
@@ -81,10 +81,22 @@
     streak++;
     bestStreak = Math.max(streak, bestStreak);
     party.confetti(document.querySelector('.h-30'));
+
+    // add answer to back of encountered set
+    if (isLearning) {
+      encountered.push(answer);
+    }
   }
 
   const handleWrong = () => {
     streak = 0;
+
+    // add answer to 3rd position in encountered set
+    if (isLearning && encountered.length >= 2) {
+      encountered.splice(2, 0, answer);
+    } else if (isLearning) {
+      encountered.push(answer);
+    }
   }
 
   const handleStart = () => {
@@ -98,15 +110,11 @@
       return;
     }
 
-    encountered.clear();
     isStart = true;
 
     // populate the encountered set with 4 random keys from filteredKeys
     const sortedKeys = [...filteredKeys].sort(() => Math.random() - 0.5);
-    const randomKeys = sortedKeys.slice(0, 4);
-    randomKeys.forEach(key => {
-      encountered.add(key);
-    });
+    encountered = sortedKeys.slice(0, 4);
 
     handleNext();
   }
@@ -116,22 +124,29 @@
       // add a new key to the encountered set
       const sortedKeys = [...filteredKeys].sort(() => Math.random() - 0.5);
       const randomKey = sortedKeys[0];
-      encountered.add(randomKey);
+
+      // add randomKey to start of encountered set if not already present
+      if (!encountered.includes(randomKey)) {
+        encountered.unshift(randomKey);
+      }
     }
 
     let randomKey = answer;
 
-    while (answer == randomKey) {
-      if (isLearning) {
-        // get a random key from the encountered set
-        const randomIndex = Math.floor(Math.random() * encountered.size);
-        randomKey = Array.from(encountered)[randomIndex];
-      } else {
+    if (!isLearning) {
+      while (answer == randomKey) {
         // get a random key from the filteredKeys
         const randomIndex = Math.floor(Math.random() * filteredKeys.length);
         randomKey = filteredKeys[randomIndex];
       }
+    } else {
+      // get first element from encountered set
+      randomKey = encountered[0];
+
+      // remove first element from encountered set
+      encountered.shift();
     }
+
     answer = randomKey;
 
     // add to learnt set if isLearning
