@@ -18,6 +18,12 @@
     let answer = "";
     let syll = "";
     let nameSet = new Set(names.map(name => name.toLowerCase().replaceAll(" ", "")));
+
+    // add more to set
+    names.forEach(name => {
+        nameSet.add(standardiseCanonical(name.toLowerCase().replaceAll(" ", "")));
+    })
+
     let dateTime = new Date();
     let lastGuess = "";
 
